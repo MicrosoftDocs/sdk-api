@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.GetSize
-title: IWICBitmapSource::GetSize method
+title: IWICBitmapSource::GetSize
 author: windows-driver-content
 description: Retrieves the pixel width and height of the bitmap.
 old-location: wic\_wic_codec_iwicbitmapsource_getsize.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 2fba35fd-288c-4095-83b8-d2320dc5916c
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetSize method [Windows Imaging Component], GetSize method [Windows Imaging Component], IWICBitmapSource interface, GetSize,IWICBitmapSource.GetSize, IWICBitmapSource, IWICBitmapSource interface [Windows Imaging Component], GetSize method, IWICBitmapSource::GetSize, _wic_codec_iwicbitmapsource_getsize, wic._wic_codec_iwicbitmapsource_getsize, wincodec/IWICBitmapSource::GetSize
+ms.keywords: GetSize, GetSize method [Windows Imaging Component], GetSize method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],GetSize method, IWICBitmapSource.GetSize, IWICBitmapSource::GetSize, _wic_codec_iwicbitmapsource_getsize, wic._wic_codec_iwicbitmapsource_getsize, wincodec/IWICBitmapSource::GetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapSource::GetSize method
+# IWICBitmapSource::GetSize
 
 
 ## -description

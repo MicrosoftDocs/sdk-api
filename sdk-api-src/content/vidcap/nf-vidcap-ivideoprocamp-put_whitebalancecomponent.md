@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_WhiteBalanceComponent
-title: IVideoProcAmp::put_WhiteBalanceComponent method
+title: IVideoProcAmp::put_WhiteBalanceComponent
 author: windows-driver-content
 description: The put_WhiteBalanceComponent method sets the camera's white balance, specified as red and blue component values.
 old-location: dshow\ivideoprocamp_put_whitebalancecomponent.htm
 old-project: DirectShow
 ms.assetid: 800d7ddb-9f66-4fc4-a246-e6501377b9ce
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], put_WhiteBalanceComponent method, IVideoProcAmp::put_WhiteBalanceComponent, IVideoProcAmpput_WhiteBalanceComponent, dshow.ivideoprocamp_put_whitebalancecomponent, put_WhiteBalanceComponent method [DirectShow], put_WhiteBalanceComponent method [DirectShow], IVideoProcAmp interface, put_WhiteBalanceComponent,IVideoProcAmp.put_WhiteBalanceComponent, vidcap/IVideoProcAmp::put_WhiteBalanceComponent
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],put_WhiteBalanceComponent method, IVideoProcAmp.put_WhiteBalanceComponent, IVideoProcAmp::put_WhiteBalanceComponent, IVideoProcAmpput_WhiteBalanceComponent, dshow.ivideoprocamp_put_whitebalancecomponent, put_WhiteBalanceComponent, put_WhiteBalanceComponent method [DirectShow], put_WhiteBalanceComponent method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_WhiteBalanceComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::put_WhiteBalanceComponent method
+# IVideoProcAmp::put_WhiteBalanceComponent
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.SendData
-title: IRDPSRAPIVirtualChannel::SendData method
+title: IRDPSRAPIVirtualChannel::SendData
 author: windows-driver-content
 description: Sends data on the channel.
 old-location: rdp\irdpsrapivirtualchannel_senddata.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: d861de01-70e3-49b0-91b3-01f6b0051823
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: CHANNEL_FLAGS_UNCOMPRESSED, IRDPSRAPIVirtualChannel, IRDPSRAPIVirtualChannel interface [RDP], SendData method, IRDPSRAPIVirtualChannel::SendData, SendData method [RDP], SendData method [RDP], IRDPSRAPIVirtualChannel interface, SendData,IRDPSRAPIVirtualChannel.SendData, rdp.irdpsrapivirtualchannel_senddata, rdpencomapi/IRDPSRAPIVirtualChannel::SendData
+ms.keywords: CHANNEL_FLAGS_UNCOMPRESSED, IRDPSRAPIVirtualChannel interface [RDP],SendData method, IRDPSRAPIVirtualChannel.SendData, IRDPSRAPIVirtualChannel::SendData, SendData, SendData method [RDP], SendData method [RDP],IRDPSRAPIVirtualChannel interface, rdp.irdpsrapivirtualchannel_senddata, rdpencomapi/IRDPSRAPIVirtualChannel::SendData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIVirtualChannel::SendData method
+# IRDPSRAPIVirtualChannel::SendData
 
 
 ## -description

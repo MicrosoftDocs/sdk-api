@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.IsVolumeSupported
-title: IVssSoftwareSnapshotProvider::IsVolumeSupported method
+title: IVssSoftwareSnapshotProvider::IsVolumeSupported
 author: windows-driver-content
 description: Determines whether the provider supports shadow copies on the specified volume.
 old-location: base\ivsssoftwaresnapshotprovider_isvolumesupported.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 5dbaa5ad-4a35-49e2-a528-de1ea38e6e0b
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, IsVolumeSupported method, IVssSoftwareSnapshotProvider::IsVolumeSupported, IsVolumeSupported method, IsVolumeSupported method, IVssSoftwareSnapshotProvider interface, IsVolumeSupported,IVssSoftwareSnapshotProvider.IsVolumeSupported, base.ivsssoftwaresnapshotprovider_isvolumesupported, vsprov/IVssSoftwareSnapshotProvider::IsVolumeSupported
+ms.keywords: IVssSoftwareSnapshotProvider interface,IsVolumeSupported method, IVssSoftwareSnapshotProvider.IsVolumeSupported, IVssSoftwareSnapshotProvider::IsVolumeSupported, IsVolumeSupported, IsVolumeSupported method, IsVolumeSupported method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_isvolumesupported, vsprov/IVssSoftwareSnapshotProvider::IsVolumeSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssSoftwareSnapshotProvider::IsVolumeSupported method
+# IVssSoftwareSnapshotProvider::IsVolumeSupported
 
 
 ## -description

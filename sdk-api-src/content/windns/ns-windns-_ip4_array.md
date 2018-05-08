@@ -63,6 +63,16 @@ The <b>IP4_ARRAY</b> structure stores an array of IPv4 addresses.
 The number of IPv4 addresses in <b>AddrArray</b>.
 
 
+### -field AddrArray.size_is
+
+ 
+
+
+### -field AddrArray.size_is.AddrCount
+
+ 
+
+
 ### -field AddrArray
 
 An array of <a href="https://msdn.microsoft.com/652012a5-e45d-4ea6-896a-17e8b1ed4a05">IP4_ADDRESS</a> data types that contains a list of IPv4 address.

@@ -406,9 +406,21 @@ Specifies the maximum size, in bytes, of the token.
 Pointer to a null-terminated string that contains the name of the security package.
 
 
+### -field Name.string
+
+ 
+
+
 ### -field Comment
 
 Pointer to a null-terminated string. This can be any additional string passed back by the package.
+
+
+### -field Comment.string
+
+ 
+
+
 
 
 ## -see-also

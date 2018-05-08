@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.GetFocus
-title: ITfThreadMgr::GetFocus method
+title: ITfThreadMgr::GetFocus
 author: windows-driver-content
 description: ITfThreadMgr::GetFocus method
 old-location: tsf\itfthreadmgr_getfocus.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: bd6b4566-de23-49f5-9ef1-f82626b1f140
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetFocus method [Text Services Framework], GetFocus method [Text Services Framework], ITfThreadMgr interface, GetFocus,ITfThreadMgr.GetFocus, ITfThreadMgr, ITfThreadMgr interface [Text Services Framework], GetFocus method, ITfThreadMgr::GetFocus, _tsf_itfthreadmgr_getfocus_ref, msctf/ITfThreadMgr::GetFocus, tsf.itfthreadmgr_getfocus
+ms.keywords: GetFocus, GetFocus method [Text Services Framework], GetFocus method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],GetFocus method, ITfThreadMgr.GetFocus, ITfThreadMgr::GetFocus, _tsf_itfthreadmgr_getfocus_ref, msctf/ITfThreadMgr::GetFocus, tsf.itfthreadmgr_getfocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr::GetFocus method
+# ITfThreadMgr::GetFocus
 
 
 ## -description

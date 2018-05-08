@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: eb680a9c-aad8-44b5-8c20-af15c1fd8930
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: BlockDeleteStaticServices, BlockDeleteStaticServices callback function [RAS], PBLOCK_DELETE_STATIC_SERVICES, _mpr_blockdeletestaticservices, rras.blockdeletestaticservices, stm/BlockDeleteStaticServices
+ms.keywords: BlockDeleteStaticServices, BlockDeleteStaticServices callback function [RAS], PBLOCK_DELETE_STATIC_SERVICES, PBLOCK_DELETE_STATIC_SERVICES callback, _mpr_blockdeletestaticservices, rras.blockdeletestaticservices, stm/BlockDeleteStaticServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# PBLOCK_DELETE_STATIC_SERVICES callback
+# PBLOCK_DELETE_STATIC_SERVICES callback function
 
 
 ## -description

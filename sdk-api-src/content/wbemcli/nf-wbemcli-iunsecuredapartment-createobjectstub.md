@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IUnsecuredApartment.CreateObjectStub
-title: IUnsecuredApartment::CreateObjectStub method
+title: IUnsecuredApartment::CreateObjectStub
 author: windows-driver-content
 description: The CreateObjectStub method creates an object forwarder sink to assist in receiving asynchronous calls from Windows Management.
 old-location: wmi\iunsecuredapartment_createobjectstub.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 76a376e4-bd0d-4b8b-b49a-162630c47220
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CreateObjectStub method [Windows Management Instrumentation], CreateObjectStub method [Windows Management Instrumentation], IUnsecuredApartment interface, CreateObjectStub,IUnsecuredApartment.CreateObjectStub, IUnsecuredApartment, IUnsecuredApartment interface [Windows Management Instrumentation], CreateObjectStub method, IUnsecuredApartment::CreateObjectStub, _hmm_iunsecuredapartment_createobjectstub, wbemcli/IUnsecuredApartment::CreateObjectStub, wmi.iunsecuredapartment_createobjectstub
+ms.keywords: CreateObjectStub, CreateObjectStub method [Windows Management Instrumentation], CreateObjectStub method [Windows Management Instrumentation],IUnsecuredApartment interface, IUnsecuredApartment interface [Windows Management Instrumentation],CreateObjectStub method, IUnsecuredApartment.CreateObjectStub, IUnsecuredApartment::CreateObjectStub, _hmm_iunsecuredapartment_createobjectstub, wbemcli/IUnsecuredApartment::CreateObjectStub, wmi.iunsecuredapartment_createobjectstub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IUnsecuredApartment::CreateObjectStub method
+# IUnsecuredApartment::CreateObjectStub
 
 
 ## -description

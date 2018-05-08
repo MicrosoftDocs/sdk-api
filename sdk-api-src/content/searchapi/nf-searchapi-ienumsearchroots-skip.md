@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Skip
-title: IEnumSearchRoots::Skip method
+title: IEnumSearchRoots::Skip
 author: windows-driver-content
 description: Skips the specified number of elements.
 old-location: search\_search_IEnumSearchRoots_Skip.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\skip.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IEnumSearchRoots, IEnumSearchRoots interface [search], Skip method, IEnumSearchRoots::Skip, Skip method [search], Skip method [search], IEnumSearchRoots interface, Skip,IEnumSearchRoots.Skip, _search_IEnumSearchRoots_Skip, search._search_IEnumSearchRoots_Skip, searchapi/IEnumSearchRoots::Skip
+ms.date: 5/4/2018
+ms.keywords: IEnumSearchRoots interface [search],Skip method, IEnumSearchRoots.Skip, IEnumSearchRoots::Skip, Skip, Skip method [search], Skip method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Skip, search._search_IEnumSearchRoots_Skip, searchapi/IEnumSearchRoots::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumSearchRoots::Skip method
+# IEnumSearchRoots::Skip
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmSetting.get_AdminEmail
-title: IFsrmSetting::get_AdminEmail method
+title: IFsrmSetting::get_AdminEmail
 author: windows-driver-content
 description: Retrieves or sets the email address for the administrator.
 old-location: fsrm\ifsrmsetting_adminemail.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 5985f697-f982-481c-896e-e6c3834f645d
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AdminEmail property [File Server Resource Manager], AdminEmail property [File Server Resource Manager], FsrmSetting class, AdminEmail property [File Server Resource Manager], IFsrmSetting interface, FsrmSetting class [File Server Resource Manager], AdminEmail property, IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], AdminEmail property, IFsrmSetting.AdminEmail, IFsrmSetting::get_AdminEmail, IFsrmSetting::put_AdminEmail, fs.ifsrmsetting_adminemail, fsrm.ifsrmsetting_adminemail, fsrm/IFsrmSetting::AdminEmail, fsrm/IFsrmSetting::get_AdminEmail, fsrm/IFsrmSetting::put_AdminEmail, get_AdminEmail,IFsrmSetting.get_AdminEmail
+ms.keywords: AdminEmail property [File Server Resource Manager], AdminEmail property [File Server Resource Manager],FsrmSetting class, AdminEmail property [File Server Resource Manager],IFsrmSetting interface, FsrmSetting class [File Server Resource Manager],AdminEmail property, IFsrmSetting interface [File Server Resource Manager],AdminEmail property, IFsrmSetting.AdminEmail, IFsrmSetting.get_AdminEmail, IFsrmSetting::AdminEmail, IFsrmSetting::get_AdminEmail, IFsrmSetting::put_AdminEmail, fs.ifsrmsetting_adminemail, fsrm.ifsrmsetting_adminemail, fsrm/IFsrmSetting::AdminEmail, fsrm/IFsrmSetting::get_AdminEmail, fsrm/IFsrmSetting::put_AdminEmail, get_AdminEmail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmSetting::get_AdminEmail method
+# IFsrmSetting::get_AdminEmail
 
 
 ## -description

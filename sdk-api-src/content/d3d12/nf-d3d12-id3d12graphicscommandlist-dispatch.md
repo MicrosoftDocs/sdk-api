@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.Dispatch
-title: ID3D12GraphicsCommandList::Dispatch method
+title: ID3D12GraphicsCommandList::Dispatch
 author: windows-driver-content
 description: Executes a command list from a thread group.
 old-location: direct3d12\id3d12graphicscommandlist_dispatch.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 948EE430-6B34-473D-9B5F-1C78CECFBF6F
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: Dispatch method, Dispatch method, ID3D12GraphicsCommandList interface, Dispatch,ID3D12GraphicsCommandList.Dispatch, ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, Dispatch method, ID3D12GraphicsCommandList::Dispatch, d3d12/ID3D12GraphicsCommandList::Dispatch, direct3d12.id3d12graphicscommandlist_dispatch
+ms.keywords: Dispatch, Dispatch method, Dispatch method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,Dispatch method, ID3D12GraphicsCommandList.Dispatch, ID3D12GraphicsCommandList::Dispatch, d3d12/ID3D12GraphicsCommandList::Dispatch, direct3d12.id3d12graphicscommandlist_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::Dispatch method
+# ID3D12GraphicsCommandList::Dispatch
 
 
 ## -description

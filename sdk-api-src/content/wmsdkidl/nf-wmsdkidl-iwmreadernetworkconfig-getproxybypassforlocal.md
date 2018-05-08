@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxyBypassForLocal
-title: IWMReaderNetworkConfig::GetProxyBypassForLocal method
+title: IWMReaderNetworkConfig::GetProxyBypassForLocal
 author: windows-driver-content
 description: The GetProxyBypassForLocal method queries whether the reader object bypasses the proxy server for local URLs.
 old-location: wmformat\iwmreadernetworkconfig_getproxybypassforlocal.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 5e960fa9-d71c-4a13-9210-8a2a86e9989c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetProxyBypassForLocal method [windows Media Format], GetProxyBypassForLocal method [windows Media Format], IWMReaderNetworkConfig interface, GetProxyBypassForLocal,IWMReaderNetworkConfig.GetProxyBypassForLocal, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetProxyBypassForLocal method, IWMReaderNetworkConfig::GetProxyBypassForLocal, IWMReaderNetworkConfigGetProxyBypassForLocal, wmformat.iwmreadernetworkconfig_getproxybypassforlocal, wmsdkidl/IWMReaderNetworkConfig::GetProxyBypassForLocal
+ms.keywords: GetProxyBypassForLocal, GetProxyBypassForLocal method [windows Media Format], GetProxyBypassForLocal method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetProxyBypassForLocal method, IWMReaderNetworkConfig.GetProxyBypassForLocal, IWMReaderNetworkConfig::GetProxyBypassForLocal, IWMReaderNetworkConfigGetProxyBypassForLocal, wmformat.iwmreadernetworkconfig_getproxybypassforlocal, wmsdkidl/IWMReaderNetworkConfig::GetProxyBypassForLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::GetProxyBypassForLocal method
+# IWMReaderNetworkConfig::GetProxyBypassForLocal
 
 
 ## -description

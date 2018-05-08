@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateDoubleArray
-title: IPropertyValueStatics::CreateDoubleArray method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified array of 64-bit floating point values.
 old-location: winrt\ipropertyvaluestatics_createdoublearray.htm
 old-project: WinRT
 ms.assetid: 709235a3-0699-49a2-a487-76bc5e4efb64
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateDoubleArray method [Windows Runtime], CreateDoubleArray method [Windows Runtime], IPropertyValueStatics interface, CreateDoubleArray,IPropertyValueStatics.CreateDoubleArray, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateDoubleArray method, IPropertyValueStatics::CreateDoubleArray, windows/IPropertyValueStatics::CreateDoubleArray, winrt.ipropertyvaluefactory_createdoublearray, winrt.ipropertyvaluestatics_createdoublearray
+ms.date: 5/4/2018
+ms.keywords: CreateDoubleArray, CreateDoubleArray method [Windows Runtime], CreateDoubleArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateDoubleArray method, IPropertyValueStatics.CreateDoubleArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateDoubleArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateDoubleArray, winrt.ipropertyvaluefactory_createdoublearray, winrt.ipropertyvaluestatics_createdoublearray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateDoubleArray method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

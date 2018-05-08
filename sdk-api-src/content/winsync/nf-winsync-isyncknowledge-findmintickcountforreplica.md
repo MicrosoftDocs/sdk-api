@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.FindMinTickCountForReplica
-title: ISyncKnowledge::FindMinTickCountForReplica method
+title: ISyncKnowledge::FindMinTickCountForReplica
 author: windows-driver-content
 description: Finds the minimum tick count in the knowledge for the specified replica.
 old-location: winsync\isyncknowledge_findmintickcountforreplica.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 6a1a3fb2-b656-4ecf-8fed-dc5f20cd22f1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: FindMinTickCountForReplica method [Windows Sync], FindMinTickCountForReplica method [Windows Sync], ISyncKnowledge interface, FindMinTickCountForReplica,ISyncKnowledge.FindMinTickCountForReplica, ISyncKnowledge, ISyncKnowledge interface [Windows Sync], FindMinTickCountForReplica method, ISyncKnowledge::FindMinTickCountForReplica, winsync.isyncknowledge_findmintickcountforreplica, winsync/ISyncKnowledge::FindMinTickCountForReplica
+ms.keywords: FindMinTickCountForReplica, FindMinTickCountForReplica method [Windows Sync], FindMinTickCountForReplica method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],FindMinTickCountForReplica method, ISyncKnowledge.FindMinTickCountForReplica, ISyncKnowledge::FindMinTickCountForReplica, winsync.isyncknowledge_findmintickcountforreplica, winsync/ISyncKnowledge::FindMinTickCountForReplica
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::FindMinTickCountForReplica method
+# ISyncKnowledge::FindMinTickCountForReplica
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:medparam.IMediaParams.GetParam
-title: IMediaParams::GetParam method
+title: IMediaParams::GetParam
 author: windows-driver-content
 description: The GetParam method retrieves the current value of the specified parameter. If the parameter is currently within an envelope segment, the returned value is the value on the most recently processed sample.
 old-location: dshow\imediaparams_getparam.htm
 old-project: DirectShow
 ms.assetid: 4fcae36a-c659-4565-9169-66d97beb26a4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetParam method [DirectShow], GetParam method [DirectShow], IMediaParams interface, GetParam,IMediaParams.GetParam, IMediaParams, IMediaParams interface [DirectShow], GetParam method, IMediaParams::GetParam, IMediaParamsGetParam, dshow.imediaparams_getparam, medparam/IMediaParams::GetParam
+ms.date: 4/30/2018
+ms.keywords: GetParam, GetParam method [DirectShow], GetParam method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],GetParam method, IMediaParams.GetParam, IMediaParams::GetParam, IMediaParamsGetParam, dshow.imediaparams_getparam, medparam/IMediaParams::GetParam
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMediaParams::GetParam method
+# IMediaParams::GetParam
 
 
 ## -description

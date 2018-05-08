@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5ee3d89c-0761-4d4b-9fd9-6b9de7ceb077
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfUIElements, IEnumTfUIElements interface [Text Services Framework], IEnumTfUIElements interface [Text Services Framework], described, _tsf_ienumtfuielements_ref, msctf/IEnumTfUIElements, tsf.ienumtfuielements
+ms.keywords: IEnumTfUIElements, IEnumTfUIElements interface [Text Services Framework], IEnumTfUIElements interface [Text Services Framework],described, _tsf_ienumtfuielements_ref, msctf/IEnumTfUIElements, tsf.ienumtfuielements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

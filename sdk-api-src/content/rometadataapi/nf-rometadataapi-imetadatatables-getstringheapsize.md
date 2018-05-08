@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetStringHeapSize
-title: IMetaDataTables::GetStringHeapSize method
+title: IMetaDataTables::GetStringHeapSize
 author: windows-driver-content
 description: Gets the size, in bytes, of the string heap.
 old-location: winrt\imetadatatables_getstringheapsize.htm
 old-project: WinRT
 ms.assetid: 7c830b7c-2651-4efb-9d2d-989b5c25b72e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetStringHeapSize method [Windows Runtime], GetStringHeapSize method [Windows Runtime], IMetaDataTables interface, GetStringHeapSize,IMetaDataTables.GetStringHeapSize, IMetaDataTables, IMetaDataTables interface [Windows Runtime], GetStringHeapSize method, IMetaDataTables::GetStringHeapSize, rometadataapi/IMetaDataTables::GetStringHeapSize, winrt.imetadatatables_getstringheapsize
+ms.date: 5/4/2018
+ms.keywords: GetStringHeapSize, GetStringHeapSize method [Windows Runtime], GetStringHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetStringHeapSize method, IMetaDataTables.GetStringHeapSize, IMetaDataTables::GetStringHeapSize, rometadataapi/IMetaDataTables::GetStringHeapSize, winrt.imetadatatables_getstringheapsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataTables::GetStringHeapSize method
+# IMetaDataTables::GetStringHeapSize
 
 
 ## -description

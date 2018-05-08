@@ -1,14 +1,14 @@
 ---
 UID: NF:dsadmin.IDsAdminCreateObj.Initialize
-title: IDsAdminCreateObj::Initialize method
+title: IDsAdminCreateObj::Initialize
 author: windows-driver-content
 description: The IDsAdminCreateObj::Initialize method initializes an IDsAdminCreateObj object with data about the container where the object will be created, the class of the object to be created and, possibly, the source object to copy from.
 old-location: ad\idsadmincreateobj_initialize.htm
 old-project: AD
 ms.assetid: 811863e7-25d2-48d0-bf97-61b49a224c98
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: IDsAdminCreateObj, IDsAdminCreateObj interface [Active Directory], Initialize method, IDsAdminCreateObj::Initialize, Initialize method [Active Directory], Initialize method [Active Directory], IDsAdminCreateObj interface, Initialize,IDsAdminCreateObj.Initialize, _glines_idsadmincreateobj_initialize, ad.idsadmincreateobj__initialize, ad.idsadmincreateobj_initialize, dsadmin/IDsAdminCreateObj::Initialize
+ms.date: 5/1/2018
+ms.keywords: IDsAdminCreateObj interface [Active Directory],Initialize method, IDsAdminCreateObj.Initialize, IDsAdminCreateObj::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IDsAdminCreateObj interface, _glines_idsadmincreateobj_initialize, ad.idsadmincreateobj__initialize, ad.idsadmincreateobj_initialize, dsadmin/IDsAdminCreateObj::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: DSAdmin.dll
 req.irql: 
 ---
 
-# IDsAdminCreateObj::Initialize method
+# IDsAdminCreateObj::Initialize
 
 
 ## -description

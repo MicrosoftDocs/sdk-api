@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.put_HashAlgorithm
-title: ICertSrvSetupKeyInformation::put_HashAlgorithm method
+title: ICertSrvSetupKeyInformation::put_HashAlgorithm
 author: windows-driver-content
 description: Gets or sets the name of the hashing algorithm used to sign or verify the certification authority (CA) certificate for the key.
 old-location: security\icertsrvsetupkeyinformation_hashalgorithm.htm
 old-project: SecCrypto
 ms.assetid: f1e007d1-eadb-4ab6-91bc-3c8a61b54aca
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security], ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation, ICertSrvSetupKeyInformation interface [Security], HashAlgorithm property, ICertSrvSetupKeyInformation.HashAlgorithm, ICertSrvSetupKeyInformation::get_HashAlgorithm, ICertSrvSetupKeyInformation::put_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::HashAlgorithm, casetup/ICertSrvSetupKeyInformation::get_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::put_HashAlgorithm, put_HashAlgorithm,ICertSrvSetupKeyInformation.put_HashAlgorithm, security.icertsrvsetupkeyinformation_hashalgorithm
+ms.date: 4/30/2018
+ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],HashAlgorithm property, ICertSrvSetupKeyInformation.HashAlgorithm, ICertSrvSetupKeyInformation.put_HashAlgorithm, ICertSrvSetupKeyInformation::HashAlgorithm, ICertSrvSetupKeyInformation::get_HashAlgorithm, ICertSrvSetupKeyInformation::put_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::HashAlgorithm, casetup/ICertSrvSetupKeyInformation::get_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::put_HashAlgorithm, put_HashAlgorithm, security.icertsrvsetupkeyinformation_hashalgorithm
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertSrvSetupKeyInformation::put_HashAlgorithm method
+# ICertSrvSetupKeyInformation::put_HashAlgorithm
 
 
 ## -description

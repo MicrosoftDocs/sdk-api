@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_SDT.GetOriginalNetworkId
-title: IDVB_SDT::GetOriginalNetworkId method
+title: IDVB_SDT::GetOriginalNetworkId
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sdt_getoriginalnetworkid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4feebc95-cdcf-443c-bbc1-969575cb795f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies], IDVB_SDT interface, GetOriginalNetworkId,IDVB_SDT.GetOriginalNetworkId, IDVB_SDT, IDVB_SDT interface [Microsoft TV Technologies], GetOriginalNetworkId method, IDVB_SDT::GetOriginalNetworkId, IDVB_SDTGetOriginalNetworkId, dvbsiparser/IDVB_SDT::GetOriginalNetworkId, mstv.idvb_sdt_getoriginalnetworkid
+ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IDVB_SDT.GetOriginalNetworkId, IDVB_SDT::GetOriginalNetworkId, IDVB_SDTGetOriginalNetworkId, dvbsiparser/IDVB_SDT::GetOriginalNetworkId, mstv.idvb_sdt_getoriginalnetworkid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_SDT::GetOriginalNetworkId method
+# IDVB_SDT::GetOriginalNetworkId
 
 
 ## -description

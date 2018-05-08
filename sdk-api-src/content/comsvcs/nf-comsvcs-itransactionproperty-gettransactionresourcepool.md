@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionProperty.GetTransactionResourcePool
-title: ITransactionProperty::GetTransactionResourcePool method
+title: ITransactionProperty::GetTransactionResourcePool
 author: windows-driver-content
 description: Retrieves the resource pool that is associated with this context's transaction.
 old-location: cos\itransactionproperty_gettransactionresourcepool.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 497cfbd8-122f-45c8-a34a-7e7df4932ad1
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetTransactionResourcePool method [COM+], GetTransactionResourcePool method [COM+], ITransactionProperty interface, GetTransactionResourcePool,ITransactionProperty.GetTransactionResourcePool, ITransactionProperty, ITransactionProperty interface [COM+], GetTransactionResourcePool method, ITransactionProperty::GetTransactionResourcePool, _cos_ITransactionProperty_GetTransactionResourcePool, comsvcs/ITransactionProperty::GetTransactionResourcePool, cos.itransactionproperty_gettransactionresourcepool
+ms.keywords: GetTransactionResourcePool, GetTransactionResourcePool method [COM+], GetTransactionResourcePool method [COM+],ITransactionProperty interface, ITransactionProperty interface [COM+],GetTransactionResourcePool method, ITransactionProperty.GetTransactionResourcePool, ITransactionProperty::GetTransactionResourcePool, _cos_ITransactionProperty_GetTransactionResourcePool, comsvcs/ITransactionProperty::GetTransactionResourcePool, cos.itransactionproperty_gettransactionresourcepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITransactionProperty::GetTransactionResourcePool method
+# ITransactionProperty::GetTransactionResourcePool
 
 
 ## -description

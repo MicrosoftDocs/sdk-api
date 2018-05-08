@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PopStorageFilter
-title: IDXGIInfoQueue::PopStorageFilter method
+title: IDXGIInfoQueue::PopStorageFilter
 author: windows-driver-content
 description: Pops a storage filter from the top of the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_popstoragefilter.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: B621336B-9334-4408-988F-6F5DBB2C4B53
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], PopStorageFilter method, IDXGIInfoQueue::PopStorageFilter, PopStorageFilter method [DXGI], PopStorageFilter method [DXGI], IDXGIInfoQueue interface, PopStorageFilter,IDXGIInfoQueue.PopStorageFilter, direct3ddxgi.idxgiinfoqueue_popstoragefilter, dxgidebug/IDXGIInfoQueue::PopStorageFilter
+ms.keywords: IDXGIInfoQueue interface [DXGI],PopStorageFilter method, IDXGIInfoQueue.PopStorageFilter, IDXGIInfoQueue::PopStorageFilter, PopStorageFilter, PopStorageFilter method [DXGI], PopStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_popstoragefilter, dxgidebug/IDXGIInfoQueue::PopStorageFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::PopStorageFilter method
+# IDXGIInfoQueue::PopStorageFilter
 
 
 ## -description

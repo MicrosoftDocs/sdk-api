@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IComThreadingInfo.GetCurrentApartmentType
-title: IComThreadingInfo::GetCurrentApartmentType method
+title: IComThreadingInfo::GetCurrentApartmentType
 author: windows-driver-content
 description: Retrieves the type of apartment in which the caller is executing.
 old-location: com\icomthreadinginfo_getcurrentapartmenttype.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 59cb216f-818c-4189-b77b-984961889a62
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetCurrentApartmentType method [COM], GetCurrentApartmentType method [COM], IComThreadingInfo interface, GetCurrentApartmentType,IComThreadingInfo.GetCurrentApartmentType, IComThreadingInfo, IComThreadingInfo interface [COM], GetCurrentApartmentType method, IComThreadingInfo::GetCurrentApartmentType, _com_icomthreadinginfo_getcurrentapartmenttype, com.icomthreadinginfo_getcurrentapartmenttype, objidlbase/IComThreadingInfo::GetCurrentApartmentType
+ms.keywords: GetCurrentApartmentType, GetCurrentApartmentType method [COM], GetCurrentApartmentType method [COM],IComThreadingInfo interface, IComThreadingInfo interface [COM],GetCurrentApartmentType method, IComThreadingInfo.GetCurrentApartmentType, IComThreadingInfo::GetCurrentApartmentType, _com_icomthreadinginfo_getcurrentapartmenttype, com.icomthreadinginfo_getcurrentapartmenttype, objidlbase/IComThreadingInfo::GetCurrentApartmentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IComThreadingInfo::GetCurrentApartmentType method
+# IComThreadingInfo::GetCurrentApartmentType
 
 
 ## -description

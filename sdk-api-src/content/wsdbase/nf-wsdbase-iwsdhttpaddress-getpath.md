@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpAddress.GetPath
-title: IWSDHttpAddress::GetPath method
+title: IWSDHttpAddress::GetPath
 author: windows-driver-content
 description: Gets the URI path for this address.
 old-location: ncd\iwsdhttpaddress_getpath.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 5bf666d3-6f13-4607-a83a-ec71f40f00e6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetPath method, GetPath method, IWSDHttpAddress interface, GetPath,IWSDHttpAddress.GetPath, IWSDHttpAddress, IWSDHttpAddress interface, GetPath method, IWSDHttpAddress::GetPath, ncd.iwsdhttpaddress_getpath, wsdbase/IWSDHttpAddress::GetPath
+ms.keywords: GetPath, GetPath method, GetPath method,IWSDHttpAddress interface, IWSDHttpAddress interface,GetPath method, IWSDHttpAddress.GetPath, IWSDHttpAddress::GetPath, ncd.iwsdhttpaddress_getpath, wsdbase/IWSDHttpAddress::GetPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDHttpAddress::GetPath method
+# IWSDHttpAddress::GetPath
 
 
 ## -description

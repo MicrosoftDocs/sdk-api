@@ -1,0 +1,8 @@
+# [Windows Runtime C++ reference](../_winrt/index.md)
+## [Weakreference.h](index.md)
+### [IWeakReference::Resolve(REFIID,IInspectable)](../weakreference/nf-weakreference-iweakreference-resolve(refiid,iinspectable).md)
+### [IWeakReference::Resolve(T,)](../weakreference/nf-weakreference-iweakreference-resolve(t,).md)
+### [IWeakReference::Resolve method](../weakreference/nf-weakreference-iweakreference-resolve.md)
+### [IWeakReferenceSource::GetWeakReference](../weakreference/nf-weakreference-iweakreferencesource-getweakreference.md)
+### [IWeakReference interface](../weakreference/nn-weakreference-iweakreference.md)
+### [IWeakReferenceSource interface](../weakreference/nn-weakreference-iweakreferencesource.md)

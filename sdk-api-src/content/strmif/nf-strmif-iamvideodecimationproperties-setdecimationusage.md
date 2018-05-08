@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMVideoDecimationProperties.SetDecimationUsage
-title: IAMVideoDecimationProperties::SetDecimationUsage method
+title: IAMVideoDecimationProperties::SetDecimationUsage
 author: windows-driver-content
 description: The SetDecimationUsage method sets the decimation strategy.
 old-location: dshow\iamvideodecimationproperties_setdecimationusage.htm
 old-project: DirectShow
 ms.assetid: c6456154-48f5-41d9-b6f5-863b30a53596
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMVideoDecimationProperties, IAMVideoDecimationProperties interface [DirectShow], SetDecimationUsage method, IAMVideoDecimationProperties::SetDecimationUsage, IAMVideoDecimationPropertiesSetDecimationUsage, SetDecimationUsage method [DirectShow], SetDecimationUsage method [DirectShow], IAMVideoDecimationProperties interface, SetDecimationUsage,IAMVideoDecimationProperties.SetDecimationUsage, dshow.iamvideodecimationproperties_setdecimationusage, strmif/IAMVideoDecimationProperties::SetDecimationUsage
+ms.date: 4/30/2018
+ms.keywords: IAMVideoDecimationProperties interface [DirectShow],SetDecimationUsage method, IAMVideoDecimationProperties.SetDecimationUsage, IAMVideoDecimationProperties::SetDecimationUsage, IAMVideoDecimationPropertiesSetDecimationUsage, SetDecimationUsage, SetDecimationUsage method [DirectShow], SetDecimationUsage method [DirectShow],IAMVideoDecimationProperties interface, dshow.iamvideodecimationproperties_setdecimationusage, strmif/IAMVideoDecimationProperties::SetDecimationUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMVideoDecimationProperties::SetDecimationUsage method
+# IAMVideoDecimationProperties::SetDecimationUsage
 
 
 ## -description

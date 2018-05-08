@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 3EB42081-6949-46F8-B235-377234A90C39
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EngineAdapterCreateKey, EngineAdapterCreateKey callback function [Windows Biometric Framework API], PIBIO_ENGINE_CREATE_KEY_FN, secbiomet.engineadaptercreatekey, winbio_adapter/EngineAdapterCreateKey
+ms.keywords: EngineAdapterCreateKey, EngineAdapterCreateKey callback function [Windows Biometric Framework API], PIBIO_ENGINE_CREATE_KEY_FN, PIBIO_ENGINE_CREATE_KEY_FN callback, secbiomet.engineadaptercreatekey, winbio_adapter/EngineAdapterCreateKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_ENGINE_CREATE_KEY_FN callback
+# PIBIO_ENGINE_CREATE_KEY_FN callback function
 
 
 ## -description

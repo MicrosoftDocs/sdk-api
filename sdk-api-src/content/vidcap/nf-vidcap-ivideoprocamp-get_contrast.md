@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Contrast
-title: IVideoProcAmp::get_Contrast method
+title: IVideoProcAmp::get_Contrast
 author: windows-driver-content
 description: The get_Contrast method returns the camera's contrast setting.
 old-location: dshow\ivideoprocamp_get_contrast.htm
 old-project: DirectShow
 ms.assetid: 04c63013-33f1-42c0-9239-ec012c9a0528
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_Contrast method, IVideoProcAmp::get_Contrast, IVideoProcAmpget_Contrast, dshow.ivideoprocamp_get_contrast, get_Contrast method [DirectShow], get_Contrast method [DirectShow], IVideoProcAmp interface, get_Contrast,IVideoProcAmp.get_Contrast, vidcap/IVideoProcAmp::get_Contrast
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],get_Contrast method, IVideoProcAmp.get_Contrast, IVideoProcAmp::get_Contrast, IVideoProcAmpget_Contrast, dshow.ivideoprocamp_get_contrast, get_Contrast, get_Contrast method [DirectShow], get_Contrast method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Contrast
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::get_Contrast method
+# IVideoProcAmp::get_Contrast
 
 
 ## -description

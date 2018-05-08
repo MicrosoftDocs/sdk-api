@@ -7,7 +7,7 @@ old-location: automat\vari2frombool.htm
 old-project: automat
 ms.assetid: 34d95e98-ea21-411b-bd68-ad7be135778f
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarI2FromBool, VarI2FromBool function [Automation], _oa96_VarI2FromBool, automat.vari2frombool, oleauto/VarI2FromBool
 ms.prod: windows-hardware
 ms.technology: windows-devices

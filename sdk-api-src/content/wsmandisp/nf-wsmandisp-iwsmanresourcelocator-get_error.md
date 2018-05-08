@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.get_Error
-title: IWSManResourceLocator::get_Error method
+title: IWSManResourceLocator::get_Error
 author: windows-driver-content
 description: Gets an XML representation of additional error information.
 old-location: winrm\iwsmanresourcelocator_error.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 040333f5-32b0-4ec8-8deb-da9fcb2ea46b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management], IWSManResourceLocator interface, IWSManResourceLocator, IWSManResourceLocator interface [Windows Remote Management], Error property, IWSManResourceLocator.Error, IWSManResourceLocator::get_Error, get_Error,IWSManResourceLocator.get_Error, winrm.iwsmanresourcelocator_error, wsmandisp/IWSManResourceLocator::Error, wsmandisp/IWSManResourceLocator::get_Error
+ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],Error property, IWSManResourceLocator.Error, IWSManResourceLocator.get_Error, IWSManResourceLocator::Error, IWSManResourceLocator::get_Error, get_Error, winrm.iwsmanresourcelocator_error, wsmandisp/IWSManResourceLocator::Error, wsmandisp/IWSManResourceLocator::get_Error
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManResourceLocator::get_Error method
+# IWSManResourceLocator::get_Error
 
 
 ## -description

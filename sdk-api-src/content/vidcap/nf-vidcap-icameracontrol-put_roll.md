@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Roll
-title: ICameraControl::put_Roll method
+title: ICameraControl::put_Roll
 author: windows-driver-content
 description: The put_Roll method sets the camera's roll angle.
 old-location: dshow\icameracontrol_put_roll.htm
 old-project: DirectShow
 ms.assetid: f74c7acc-e141-4238-bcbe-7890646e706c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_Roll method, ICameraControl::put_Roll, ICameraControlput_Roll, dshow.icameracontrol_put_roll, put_Roll method [DirectShow], put_Roll method [DirectShow], ICameraControl interface, put_Roll,ICameraControl.put_Roll, vidcap/ICameraControl::put_Roll
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],put_Roll method, ICameraControl.put_Roll, ICameraControl::put_Roll, ICameraControlput_Roll, dshow.icameracontrol_put_roll, put_Roll, put_Roll method [DirectShow], put_Roll method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Roll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::put_Roll method
+# ICameraControl::put_Roll
 
 
 ## -description

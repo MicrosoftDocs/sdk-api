@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.HighUtilization
-title: INetDiagHelper::HighUtilization method
+title: INetDiagHelper::HighUtilization
 author: windows-driver-content
 description: Check whether the corresponding component is highly utilized.
 old-location: ndf\inetdiaghelpe_highutilization.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 4a555683-f7fd-43a4-808a-60579723293c
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: HighUtilization method [NDF], HighUtilization method [NDF], INetDiagHelper interface, HighUtilization,INetDiagHelper.HighUtilization, INetDiagHelper, INetDiagHelper interface [NDF], HighUtilization method, INetDiagHelper::HighUtilization, ndf.inetdiaghelpe_highutilization, ndhelper/INetDiagHelper::HighUtilization
+ms.keywords: HighUtilization, HighUtilization method [NDF], HighUtilization method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],HighUtilization method, INetDiagHelper.HighUtilization, INetDiagHelper::HighUtilization, ndf.inetdiaghelpe_highutilization, ndhelper/INetDiagHelper::HighUtilization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelper::HighUtilization method
+# INetDiagHelper::HighUtilization
 
 
 ## -description

@@ -1,0 +1,6 @@
+# [DirectWrite](../_directwrite/index.md)
+## [Dwrite_2.h](index.md)
+### [DWRITE_GRID_FIT_MODE enumeration](../dwrite_2/ne-dwrite_2-dwrite_grid_fit_mode.md)
+### [DWRITE_OPTICAL_ALIGNMENT enumeration](../dwrite_2/ne-dwrite_2-dwrite_optical_alignment.md)
+### [DWRITE_COLOR_GLYPH_RUN structure](../dwrite_2/ns-dwrite_2-dwrite_color_glyph_run.md)
+### [DWRITE_TEXT_METRICS1 structure](../dwrite_2/ns-dwrite_2-dwrite_text_metrics1.md)

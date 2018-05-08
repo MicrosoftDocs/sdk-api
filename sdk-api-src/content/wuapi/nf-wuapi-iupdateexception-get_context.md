@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateException.get_Context
-title: IUpdateException::get_Context method
+title: IUpdateException::get_Context
 author: windows-driver-content
 description: Gets the context of search results.
 old-location: wua\iupdateexception_context.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 05924bb7-cc59-4df6-a2dd-4e6032a0eb8b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Context property [Windows Update Agent], Context property [Windows Update Agent], IUpdateException interface, IUpdateException, IUpdateException interface [Windows Update Agent], Context property, IUpdateException.Context, IUpdateException::get_Context, get_Context,IUpdateException.get_Context, wua.iupdateexception_context, wuapi/IUpdateException::Context, wuapi/IUpdateException::get_Context
+ms.keywords: Context property [Windows Update Agent], Context property [Windows Update Agent],IUpdateException interface, IUpdateException interface [Windows Update Agent],Context property, IUpdateException.Context, IUpdateException.get_Context, IUpdateException::Context, IUpdateException::get_Context, get_Context, wua.iupdateexception_context, wuapi/IUpdateException::Context, wuapi/IUpdateException::get_Context
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateException::get_Context method
+# IUpdateException::get_Context
 
 
 ## -description

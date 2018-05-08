@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.SetMediaType
-title: IBDA_Topology::SetMediaType method
+title: IBDA_Topology::SetMediaType
 author: windows-driver-content
 description: The SetMediaType method sets the media type for a pin on a BDA device filter.
 old-location: mstv\ibda_topology_setmediatype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 69cedd00-3a32-4fb9-91af-2980c314324f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_Topology, IBDA_Topology interface [Microsoft TV Technologies], SetMediaType method, IBDA_Topology::SetMediaType, IBDA_TopologySetMediaType, SetMediaType method [Microsoft TV Technologies], SetMediaType method [Microsoft TV Technologies], IBDA_Topology interface, SetMediaType,IBDA_Topology.SetMediaType, bdaiface/IBDA_Topology::SetMediaType, mstv.ibda_topology_setmediatype
+ms.keywords: IBDA_Topology interface [Microsoft TV Technologies],SetMediaType method, IBDA_Topology.SetMediaType, IBDA_Topology::SetMediaType, IBDA_TopologySetMediaType, SetMediaType, SetMediaType method [Microsoft TV Technologies], SetMediaType method [Microsoft TV Technologies],IBDA_Topology interface, bdaiface/IBDA_Topology::SetMediaType, mstv.ibda_topology_setmediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_Topology::SetMediaType method
+# IBDA_Topology::SetMediaType
 
 
 ## -description

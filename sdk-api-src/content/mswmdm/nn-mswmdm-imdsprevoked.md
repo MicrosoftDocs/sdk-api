@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 8df545b9-52f5-422e-a0c1-2316c628d89f
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IMDSPRevoked, IMDSPRevoked interface [windows Media Device Manager], IMDSPRevoked interface [windows Media Device Manager], described, IMDSPRevokedInterface, mswmdm/IMDSPRevoked, wmdm.imdsprevoked
+ms.keywords: IMDSPRevoked, IMDSPRevoked interface [windows Media Device Manager], IMDSPRevoked interface [windows Media Device Manager],described, IMDSPRevokedInterface, mswmdm/IMDSPRevoked, wmdm.imdsprevoked
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

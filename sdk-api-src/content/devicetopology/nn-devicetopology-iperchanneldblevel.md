@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: e70b4518-c9de-4426-b8e5-db80656699a9
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IPerChannelDbLevel, IPerChannelDbLevel interface [Core Audio], IPerChannelDbLevel interface [Core Audio], described, coreaudio.iperchanneldblevel, devicetopology/IPerChannelDbLevel
+ms.keywords: IPerChannelDbLevel, IPerChannelDbLevel interface [Core Audio], IPerChannelDbLevel interface [Core Audio],described, coreaudio.iperchanneldblevel, devicetopology/IPerChannelDbLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

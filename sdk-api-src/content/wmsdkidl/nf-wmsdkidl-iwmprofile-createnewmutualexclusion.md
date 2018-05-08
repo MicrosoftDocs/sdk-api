@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.CreateNewMutualExclusion
-title: IWMProfile::CreateNewMutualExclusion method
+title: IWMProfile::CreateNewMutualExclusion
 author: windows-driver-content
 description: The CreateNewMutualExclusion method creates a mutual exclusion object. Mutual exclusion objects are used to specify a set of streams, only one of which can be output at a time.
 old-location: wmformat\iwmprofile_createnewmutualexclusion.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: fcf3a549-5ae1-459a-95b9-923570f59a4a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: CreateNewMutualExclusion method [windows Media Format], CreateNewMutualExclusion method [windows Media Format], IWMProfile interface, CreateNewMutualExclusion method [windows Media Format], IWMProfile2 interface, CreateNewMutualExclusion method [windows Media Format], IWMProfile3 interface, CreateNewMutualExclusion,IWMProfile.CreateNewMutualExclusion, IWMProfile, IWMProfile interface [windows Media Format], CreateNewMutualExclusion method, IWMProfile2 interface [windows Media Format], CreateNewMutualExclusion method, IWMProfile2::CreateNewMutualExclusion, IWMProfile3 interface [windows Media Format], CreateNewMutualExclusion method, IWMProfile3::CreateNewMutualExclusion, IWMProfile::CreateNewMutualExclusion, IWMProfileCreateNewMutualExclusion, wmformat.iwmprofile_createnewmutualexclusion, wmsdkidl/IWMProfile2::CreateNewMutualExclusion, wmsdkidl/IWMProfile3::CreateNewMutualExclusion, wmsdkidl/IWMProfile::CreateNewMutualExclusion
+ms.keywords: CreateNewMutualExclusion, CreateNewMutualExclusion method [windows Media Format], CreateNewMutualExclusion method [windows Media Format],IWMProfile interface, CreateNewMutualExclusion method [windows Media Format],IWMProfile2 interface, CreateNewMutualExclusion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile.CreateNewMutualExclusion, IWMProfile2 interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile2::CreateNewMutualExclusion, IWMProfile3 interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile3::CreateNewMutualExclusion, IWMProfile::CreateNewMutualExclusion, IWMProfileCreateNewMutualExclusion, wmformat.iwmprofile_createnewmutualexclusion, wmsdkidl/IWMProfile2::CreateNewMutualExclusion, wmsdkidl/IWMProfile3::CreateNewMutualExclusion, wmsdkidl/IWMProfile::CreateNewMutualExclusion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfile::CreateNewMutualExclusion method
+# IWMProfile::CreateNewMutualExclusion
 
 
 ## -description

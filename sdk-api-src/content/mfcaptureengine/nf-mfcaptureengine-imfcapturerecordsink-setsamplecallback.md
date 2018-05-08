@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetSampleCallback
-title: IMFCaptureRecordSink::SetSampleCallback method
+title: IMFCaptureRecordSink::SetSampleCallback
 author: windows-driver-content
 description: Sets a callback to receive the recording data for one stream.
 old-location: mf\imfcapturerecordsink_setsamplecallback.htm
 old-project: medfound
 ms.assetid: 1D7BB0D1-3F77-4AF3-9624-73EE4D0D0BCE
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCaptureRecordSink, IMFCaptureRecordSink interface [Media Foundation], SetSampleCallback method, IMFCaptureRecordSink::SetSampleCallback, SetSampleCallback method [Media Foundation], SetSampleCallback method [Media Foundation], IMFCaptureRecordSink interface, SetSampleCallback,IMFCaptureRecordSink.SetSampleCallback, mf.imfcapturerecordsink_setsamplecallback, mfcaptureengine/IMFCaptureRecordSink::SetSampleCallback
+ms.date: 5/3/2018
+ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetSampleCallback method, IMFCaptureRecordSink.SetSampleCallback, IMFCaptureRecordSink::SetSampleCallback, SetSampleCallback, SetSampleCallback method [Media Foundation], SetSampleCallback method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setsamplecallback, mfcaptureengine/IMFCaptureRecordSink::SetSampleCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureRecordSink::SetSampleCallback method
+# IMFCaptureRecordSink::SetSampleCallback
 
 
 ## -description

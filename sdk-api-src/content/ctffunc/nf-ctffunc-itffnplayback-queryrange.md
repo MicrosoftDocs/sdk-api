@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnPlayBack.QueryRange
-title: ITfFnPlayBack::QueryRange method
+title: ITfFnPlayBack::QueryRange
 author: windows-driver-content
 description: ITfFnPlayBack::QueryRange method
 old-location: tsf\itffnplayback_queryrange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: d6113703-5515-4f1a-8e2e-1373077dafc2
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfFnPlayBack, ITfFnPlayBack interface [Text Services Framework], QueryRange method, ITfFnPlayBack::QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework], ITfFnPlayBack interface, QueryRange,ITfFnPlayBack.QueryRange, _tsf_itffnplayback_queryrange_ref, ctffunc/ITfFnPlayBack::QueryRange, tsf.itffnplayback_queryrange
+ms.keywords: ITfFnPlayBack interface [Text Services Framework],QueryRange method, ITfFnPlayBack.QueryRange, ITfFnPlayBack::QueryRange, QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework],ITfFnPlayBack interface, _tsf_itffnplayback_queryrange_ref, ctffunc/ITfFnPlayBack::QueryRange, tsf.itffnplayback_queryrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfFnPlayBack::QueryRange method
+# ITfFnPlayBack::QueryRange
 
 
 ## -description

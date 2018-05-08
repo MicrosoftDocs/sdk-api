@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_Services.Initialize
-title: IPBDA_Services::Initialize method
+title: IPBDA_Services::Initialize
 author: windows-driver-content
 description: Initializes an object that retrieves service records from a Program and System Information Protocol (PSIP) table in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_services_initialize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2504627a-a5e3-4ed1-9aa2-93d9621bf2e6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IPBDA_Services, IPBDA_Services interface [Microsoft TV Technologies], Initialize method, IPBDA_Services::Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IPBDA_Services interface, Initialize,IPBDA_Services.Initialize, dvbsiparser/IPBDA_Services::Initialize, mstv.ipbda_services_initialize
+ms.keywords: IPBDA_Services interface [Microsoft TV Technologies],Initialize method, IPBDA_Services.Initialize, IPBDA_Services::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPBDA_Services interface, dvbsiparser/IPBDA_Services::Initialize, mstv.ipbda_services_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IPBDA_Services::Initialize method
+# IPBDA_Services::Initialize
 
 
 ## -description

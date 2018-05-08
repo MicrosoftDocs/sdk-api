@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_AuthenticationType
-title: ISearchRoot::get_AuthenticationType method
+title: ISearchRoot::get_AuthenticationType
 author: windows-driver-content
 description: Retrieves the type of authentication needed to access the URLs under this this search root.
 old-location: search\_search_ISearchRoot_get_AuthenticationType.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_authenticationtype.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchRoot, ISearchRoot interface [search], get_AuthenticationType method, ISearchRoot::get_AuthenticationType, _search_ISearchRoot_get_AuthenticationType, get_AuthenticationType method [search], get_AuthenticationType method [search], ISearchRoot interface, get_AuthenticationType,ISearchRoot.get_AuthenticationType, search._search_ISearchRoot_get_AuthenticationType, searchapi/ISearchRoot::get_AuthenticationType
+ms.date: 5/4/2018
+ms.keywords: ISearchRoot interface [search],get_AuthenticationType method, ISearchRoot.get_AuthenticationType, ISearchRoot::get_AuthenticationType, _search_ISearchRoot_get_AuthenticationType, get_AuthenticationType, get_AuthenticationType method [search], get_AuthenticationType method [search],ISearchRoot interface, search._search_ISearchRoot_get_AuthenticationType, searchapi/ISearchRoot::get_AuthenticationType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchRoot::get_AuthenticationType method
+# ISearchRoot::get_AuthenticationType
 
 
 ## -description

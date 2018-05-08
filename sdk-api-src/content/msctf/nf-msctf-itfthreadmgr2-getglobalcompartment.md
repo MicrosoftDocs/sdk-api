@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.GetGlobalCompartment
-title: ITfThreadMgr2::GetGlobalCompartment method
+title: ITfThreadMgr2::GetGlobalCompartment
 author: windows-driver-content
 description: Obtains the global compartment manager object.
 old-location: tsf\itfthreadmgr2_getglobalcompartment.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: AC1D27C5-C9D9-4658-AC3C-9C3A723F8597
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetGlobalCompartment method [Text Services Framework], GetGlobalCompartment method [Text Services Framework], ITfThreadMgr2 interface, GetGlobalCompartment,ITfThreadMgr2.GetGlobalCompartment, ITfThreadMgr2, ITfThreadMgr2 interface [Text Services Framework], GetGlobalCompartment method, ITfThreadMgr2::GetGlobalCompartment, msctf/ITfThreadMgr2::GetGlobalCompartment, tsf.itfthreadmgr2_getglobalcompartment
+ms.keywords: GetGlobalCompartment, GetGlobalCompartment method [Text Services Framework], GetGlobalCompartment method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetGlobalCompartment method, ITfThreadMgr2.GetGlobalCompartment, ITfThreadMgr2::GetGlobalCompartment, msctf/ITfThreadMgr2::GetGlobalCompartment, tsf.itfthreadmgr2_getglobalcompartment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr2::GetGlobalCompartment method
+# ITfThreadMgr2::GetGlobalCompartment
 
 
 ## -description

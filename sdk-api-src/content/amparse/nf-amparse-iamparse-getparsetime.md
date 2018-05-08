@@ -1,14 +1,14 @@
 ---
 UID: NF:amparse.IAMParse.GetParseTime
-title: IAMParse::GetParseTime method
+title: IAMParse::GetParseTime
 author: windows-driver-content
 description: The GetParseTime method retrieves the current stream parse time. For MPEG-2, this corresponds to the system clock time computed for the current stream position.
 old-location: dshow\iamparse_getparsetime.htm
 old-project: DirectShow
 ms.assetid: ce87e39e-1e5d-4098-8431-ea9b3188784e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetParseTime method [DirectShow], GetParseTime method [DirectShow], IAMParse interface, GetParseTime,IAMParse.GetParseTime, IAMParse, IAMParse interface [DirectShow], GetParseTime method, IAMParse::GetParseTime, IAMParseGetParseTime, amparse/IAMParse::GetParseTime, dshow.iamparse_getparsetime
+ms.date: 4/30/2018
+ms.keywords: GetParseTime, GetParseTime method [DirectShow], GetParseTime method [DirectShow],IAMParse interface, IAMParse interface [DirectShow],GetParseTime method, IAMParse.GetParseTime, IAMParse::GetParseTime, IAMParseGetParseTime, amparse/IAMParse::GetParseTime, dshow.iamparse_getparsetime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMParse::GetParseTime method
+# IAMParse::GetParseTime
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.OMSetBlendFactor
-title: ID3D12GraphicsCommandList::OMSetBlendFactor method
+title: ID3D12GraphicsCommandList::OMSetBlendFactor
 author: windows-driver-content
 description: Sets the blend factor that modulate values for a pixel shader, render target, or both.
 old-location: direct3d12\id3d12graphicscommandlist_omsetblendfactor.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 344FD8B5-7225-4BEC-9D1F-C9CEDFE8C60F
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, OMSetBlendFactor method, ID3D12GraphicsCommandList::OMSetBlendFactor, OMSetBlendFactor method, OMSetBlendFactor method, ID3D12GraphicsCommandList interface, OMSetBlendFactor,ID3D12GraphicsCommandList.OMSetBlendFactor, d3d12/ID3D12GraphicsCommandList::OMSetBlendFactor, direct3d12.id3d12graphicscommandlist_omsetblendfactor
+ms.keywords: ID3D12GraphicsCommandList interface,OMSetBlendFactor method, ID3D12GraphicsCommandList.OMSetBlendFactor, ID3D12GraphicsCommandList::OMSetBlendFactor, OMSetBlendFactor, OMSetBlendFactor method, OMSetBlendFactor method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::OMSetBlendFactor, direct3d12.id3d12graphicscommandlist_omsetblendfactor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::OMSetBlendFactor method
+# ID3D12GraphicsCommandList::OMSetBlendFactor
 
 
 ## -description

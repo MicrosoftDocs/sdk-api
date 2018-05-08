@@ -74,7 +74,15 @@ req.irql:
           
 
 
-#### - Aliasing
+### -field Transition
+
+
+              A <a href="https://msdn.microsoft.com/52C21198-827A-4E75-ADB8-DCA0204A4469">D3D12_RESOURCE_TRANSITION_BARRIER</a> structure that describes the transition of subresources between different usages.  
+              Members specify the before and after usages of the subresources.
+            
+
+
+### -field Aliasing
 
 
               A 
@@ -83,15 +91,7 @@ req.irql:
             
 
 
-#### - Transition
-
-
-              A <a href="https://msdn.microsoft.com/52C21198-827A-4E75-ADB8-DCA0204A4469">D3D12_RESOURCE_TRANSITION_BARRIER</a> structure that describes the transition of subresources between different usages.  
-              Members specify the before and after usages of the subresources.
-            
-
-
-#### - UAV
+### -field UAV
 
 
               A 

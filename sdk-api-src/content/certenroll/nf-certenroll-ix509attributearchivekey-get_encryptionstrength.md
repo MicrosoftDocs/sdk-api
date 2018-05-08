@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.get_EncryptionStrength
-title: IX509AttributeArchiveKey::get_EncryptionStrength method
+title: IX509AttributeArchiveKey::get_EncryptionStrength
 author: windows-driver-content
 description: Retrieves an integer that contains the encryption strength of the symmetric algorithm used to encrypt the key.
 old-location: security\ix509attributearchivekey_encryptionstrength_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: c365a2e0-caff-4c92-aa22-33c165ea672e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: EncryptionStrength property [Security], EncryptionStrength property [Security], IX509AttributeArchiveKey interface, IX509AttributeArchiveKey, IX509AttributeArchiveKey interface [Security], EncryptionStrength property, IX509AttributeArchiveKey.EncryptionStrength, IX509AttributeArchiveKey::get_EncryptionStrength, certenroll/IX509AttributeArchiveKey::EncryptionStrength, certenroll/IX509AttributeArchiveKey::get_EncryptionStrength, get_EncryptionStrength,IX509AttributeArchiveKey.get_EncryptionStrength, security.ix509attributearchivekey_encryptionstrength_property
+ms.keywords: EncryptionStrength property [Security], EncryptionStrength property [Security],IX509AttributeArchiveKey interface, IX509AttributeArchiveKey interface [Security],EncryptionStrength property, IX509AttributeArchiveKey.EncryptionStrength, IX509AttributeArchiveKey.get_EncryptionStrength, IX509AttributeArchiveKey::EncryptionStrength, IX509AttributeArchiveKey::get_EncryptionStrength, certenroll/IX509AttributeArchiveKey::EncryptionStrength, certenroll/IX509AttributeArchiveKey::get_EncryptionStrength, get_EncryptionStrength, security.ix509attributearchivekey_encryptionstrength_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509AttributeArchiveKey::get_EncryptionStrength method
+# IX509AttributeArchiveKey::get_EncryptionStrength
 
 
 ## -description

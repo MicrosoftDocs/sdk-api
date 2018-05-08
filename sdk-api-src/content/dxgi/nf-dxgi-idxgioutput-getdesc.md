@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.GetDesc
-title: IDXGIOutput::GetDesc method
+title: IDXGIOutput::GetDesc
 author: windows-driver-content
 description: Get a description of the output.
 old-location: direct3ddxgi\idxgioutput_getdesc.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getdesc.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 895d1ca4-22a2-332a-34a7-b0c55200b423, GetDesc method [DXGI], GetDesc method [DXGI], IDXGIOutput interface, GetDesc,IDXGIOutput.GetDesc, IDXGIOutput, IDXGIOutput interface [DXGI], GetDesc method, IDXGIOutput::GetDesc, direct3ddxgi.idxgioutput_getdesc, dxgi/IDXGIOutput::GetDesc
+ms.keywords: 895d1ca4-22a2-332a-34a7-b0c55200b423, GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetDesc method, IDXGIOutput.GetDesc, IDXGIOutput::GetDesc, direct3ddxgi.idxgioutput_getdesc, dxgi/IDXGIOutput::GetDesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutput::GetDesc method
+# IDXGIOutput::GetDesc
 
 
 ## -description

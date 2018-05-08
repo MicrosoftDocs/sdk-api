@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetLanguage
-title: IXpsOMVisual::SetLanguage method
+title: IXpsOMVisual::SetLanguage
 author: windows-driver-content
 description: Sets the Language property of the visual.
 old-location: xps\ixpsomvisual_setlanguage.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 19a7c10d-ceea-4303-a655-a3cb8b910377
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], SetLanguage method, IXpsOMVisual::SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging], IXpsOMVisual interface, SetLanguage,IXpsOMVisual.SetLanguage, xps.ixpsomvisual_setlanguage, xpsobjectmodel/IXpsOMVisual::SetLanguage
+ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetLanguage method, IXpsOMVisual.SetLanguage, IXpsOMVisual::SetLanguage, SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setlanguage, xpsobjectmodel/IXpsOMVisual::SetLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::SetLanguage method
+# IXpsOMVisual::SetLanguage
 
 
 ## -description

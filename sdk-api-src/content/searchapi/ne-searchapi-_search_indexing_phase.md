@@ -7,7 +7,7 @@ old-location: search\_search_SEARCH_INDEXING_PHASE.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_indexing_phase.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: SEARCH_INDEXING_PHASE, SEARCH_INDEXING_PHASE enumeration [search], SEARCH_INDEXING_PHASE_GATHERER, SEARCH_INDEXING_PHASE_PERSISTED, SEARCH_INDEXING_PHASE_QUERYABLE, _SEARCH_INDEXING_PHASE, _search_SEARCH_INDEXING_PHASE, search._search_SEARCH_INDEXING_PHASE, searchapi/SEARCH_INDEXING_PHASE, searchapi/SEARCH_INDEXING_PHASE_GATHERER, searchapi/SEARCH_INDEXING_PHASE_PERSISTED, searchapi/SEARCH_INDEXING_PHASE_QUERYABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices

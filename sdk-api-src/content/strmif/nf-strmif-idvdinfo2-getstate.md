@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetState
-title: IDvdInfo2::GetState method
+title: IDvdInfo2::GetState
 author: windows-driver-content
 description: The GetState method retrieves a bookmark containing the disc location and DVD Navigator state information.
 old-location: dshow\idvdinfo2_getstate.htm
 old-project: DirectShow
 ms.assetid: 403add2b-3dfd-436d-8184-7a14f30f6ea3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetState method [DirectShow], GetState method [DirectShow], IDvdInfo2 interface, GetState,IDvdInfo2.GetState, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetState method, IDvdInfo2::GetState, IDvdInfo2GetState, dshow.idvdinfo2_getstate, strmif/IDvdInfo2::GetState
+ms.date: 4/30/2018
+ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetState method, IDvdInfo2.GetState, IDvdInfo2::GetState, IDvdInfo2GetState, dshow.idvdinfo2_getstate, strmif/IDvdInfo2::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo2::GetState method
+# IDvdInfo2::GetState
 
 
 ## -description

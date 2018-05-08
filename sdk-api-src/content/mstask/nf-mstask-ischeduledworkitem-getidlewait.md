@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetIdleWait
-title: IScheduledWorkItem::GetIdleWait method
+title: IScheduledWorkItem::GetIdleWait
 author: windows-driver-content
 description: Retrieves the idle wait time for the work item.
 old-location: taskschd\ischeduledworkitem_getidlewait.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 72d53691-f2ea-4a20-8e85-f9db81f830cd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetIdleWait method [Task Scheduler], GetIdleWait method [Task Scheduler], IScheduledWorkItem interface, GetIdleWait,IScheduledWorkItem.GetIdleWait, IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], GetIdleWait method, IScheduledWorkItem::GetIdleWait, _msb_ischeduledworkitem_getidlewait, mstask/IScheduledWorkItem::GetIdleWait, taskschd.ischeduledworkitem_getidlewait
+ms.keywords: GetIdleWait, GetIdleWait method [Task Scheduler], GetIdleWait method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetIdleWait method, IScheduledWorkItem.GetIdleWait, IScheduledWorkItem::GetIdleWait, _msb_ischeduledworkitem_getidlewait, mstask/IScheduledWorkItem::GetIdleWait, taskschd.ischeduledworkitem_getidlewait
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduledWorkItem::GetIdleWait method
+# IScheduledWorkItem::GetIdleWait
 
 
 ## -description

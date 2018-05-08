@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IQueryCodePage.SetCodePage
-title: IQueryCodePage::SetCodePage method
+title: IQueryCodePage::SetCodePage
 author: windows-driver-content
 description: Sets the numeric value of the ANSI code page to a specified code page identifier.
 old-location: shell\IQueryCodePage_SetCodePage.htm
 old-project: shell
 ms.assetid: 19b9d796-e5a7-4b82-a299-95ee912db010
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IQueryCodePage, IQueryCodePage interface [Windows Shell], SetCodePage method, IQueryCodePage::SetCodePage, SetCodePage method [Windows Shell], SetCodePage method [Windows Shell], IQueryCodePage interface, SetCodePage,IQueryCodePage.SetCodePage, _shell_IQueryCodePage_SetCodePage, shell.IQueryCodePage_SetCodePage, shobjidl/IQueryCodePage::SetCodePage
+ms.date: 5/3/2018
+ms.keywords: IQueryCodePage interface [Windows Shell],SetCodePage method, IQueryCodePage.SetCodePage, IQueryCodePage::SetCodePage, SetCodePage, SetCodePage method [Windows Shell], SetCodePage method [Windows Shell],IQueryCodePage interface, _shell_IQueryCodePage_SetCodePage, shell.IQueryCodePage_SetCodePage, shobjidl/IQueryCodePage::SetCodePage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IQueryCodePage::SetCodePage method
+# IQueryCodePage::SetCodePage
 
 
 ## -description

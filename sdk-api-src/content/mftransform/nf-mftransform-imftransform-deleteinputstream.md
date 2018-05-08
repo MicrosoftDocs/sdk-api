@@ -1,14 +1,14 @@
 ---
 UID: NF:mftransform.IMFTransform.DeleteInputStream
-title: IMFTransform::DeleteInputStream method
+title: IMFTransform::DeleteInputStream
 author: windows-driver-content
 description: Removes an input stream from this Media Foundation transform (MFT).
 old-location: mf\imftransform_deleteinputstream.htm
 old-project: medfound
 ms.assetid: cba37f7f-6ab2-469c-95c2-61d9e4d31d0b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: DeleteInputStream method [Media Foundation], DeleteInputStream method [Media Foundation], IMFTransform interface, DeleteInputStream,IMFTransform.DeleteInputStream, IMFTransform, IMFTransform interface [Media Foundation], DeleteInputStream method, IMFTransform::DeleteInputStream, cba37f7f-6ab2-469c-95c2-61d9e4d31d0b, mf.imftransform_deleteinputstream, mftransform/IMFTransform::DeleteInputStream
+ms.date: 5/3/2018
+ms.keywords: DeleteInputStream, DeleteInputStream method [Media Foundation], DeleteInputStream method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],DeleteInputStream method, IMFTransform.DeleteInputStream, IMFTransform::DeleteInputStream, cba37f7f-6ab2-469c-95c2-61d9e4d31d0b, mf.imftransform_deleteinputstream, mftransform/IMFTransform::DeleteInputStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTransform::DeleteInputStream method
+# IMFTransform::DeleteInputStream
 
 
 ## -description

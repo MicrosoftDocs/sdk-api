@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.AddTransitionAtKeyframe
-title: IUIAnimationStoryboard2::AddTransitionAtKeyframe method
+title: IUIAnimationStoryboard2::AddTransitionAtKeyframe
 author: windows-driver-content
 description: Adds a transition that starts at the specified keyframe.
 old-location: uianimation\iuianimationstoryboard2_addtransitionatkeyframe.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: F4DAB833-E857-4FD8-87E2-8F32AF460F90
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: AddTransitionAtKeyframe method [Windows Animation], AddTransitionAtKeyframe method [Windows Animation], IUIAnimationStoryboard2 interface, AddTransitionAtKeyframe,IUIAnimationStoryboard2.AddTransitionAtKeyframe, IUIAnimationStoryboard2, IUIAnimationStoryboard2 interface [Windows Animation], AddTransitionAtKeyframe method, IUIAnimationStoryboard2::AddTransitionAtKeyframe, uianimation.iuianimationstoryboard2_addtransitionatkeyframe, uianimation/IUIAnimationStoryboard2::AddTransitionAtKeyframe
+ms.keywords: AddTransitionAtKeyframe, AddTransitionAtKeyframe method [Windows Animation], AddTransitionAtKeyframe method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],AddTransitionAtKeyframe method, IUIAnimationStoryboard2.AddTransitionAtKeyframe, IUIAnimationStoryboard2::AddTransitionAtKeyframe, uianimation.iuianimationstoryboard2_addtransitionatkeyframe, uianimation/IUIAnimationStoryboard2::AddTransitionAtKeyframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboard2::AddTransitionAtKeyframe method
+# IUIAnimationStoryboard2::AddTransitionAtKeyframe
 
 
 ## -description

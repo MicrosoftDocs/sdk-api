@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.OpenMoniker
-title: IAMMultiMediaStream::OpenMoniker method
+title: IAMMultiMediaStream::OpenMoniker
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The OpenMoniker method opens a file or device moniker; you can read media data from this moniker if DirectShow supports the moniker.
 old-location: dshow\iammultimediastream_openmoniker.htm
 old-project: DirectShow
 ms.assetid: ccfed197-6637-4283-9996-56049da49b84
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMultiMediaStream, IAMMultiMediaStream interface [DirectShow], OpenMoniker method, IAMMultiMediaStream::OpenMoniker, IAMMultiMediaStreamOpenMoniker, OpenMoniker method [DirectShow], OpenMoniker method [DirectShow], IAMMultiMediaStream interface, OpenMoniker,IAMMultiMediaStream.OpenMoniker, amstream/IAMMultiMediaStream::OpenMoniker, dshow.iammultimediastream_openmoniker
+ms.date: 4/30/2018
+ms.keywords: IAMMultiMediaStream interface [DirectShow],OpenMoniker method, IAMMultiMediaStream.OpenMoniker, IAMMultiMediaStream::OpenMoniker, IAMMultiMediaStreamOpenMoniker, OpenMoniker, OpenMoniker method [DirectShow], OpenMoniker method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::OpenMoniker, dshow.iammultimediastream_openmoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMultiMediaStream::OpenMoniker method
+# IAMMultiMediaStream::OpenMoniker
 
 
 ## -description

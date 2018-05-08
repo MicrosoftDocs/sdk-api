@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.InstallComponent
-title: ICOMAdminCatalog::InstallComponent method
+title: ICOMAdminCatalog::InstallComponent
 author: windows-driver-content
 description: Installs all components (COM classes) from a DLL file into a COM+ application and registers the components in the COM+ class registration database.
 old-location: cos\icomadmincatalog_installcomponent.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 63af9aa4-a1f0-4277-bd36-8b4c64227b3f
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICOMAdminCatalog, ICOMAdminCatalog interface [COM+], InstallComponent method, ICOMAdminCatalog::InstallComponent, InstallComponent method [COM+], InstallComponent method [COM+], ICOMAdminCatalog interface, InstallComponent,ICOMAdminCatalog.InstallComponent, _cos_ICOMAdminCatalog_InstallComponent, comadmin/ICOMAdminCatalog::InstallComponent, cos.icomadmincatalog_installcomponent
+ms.keywords: ICOMAdminCatalog interface [COM+],InstallComponent method, ICOMAdminCatalog.InstallComponent, ICOMAdminCatalog::InstallComponent, InstallComponent, InstallComponent method [COM+], InstallComponent method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallComponent, comadmin/ICOMAdminCatalog::InstallComponent, cos.icomadmincatalog_installcomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog::InstallComponent method
+# ICOMAdminCatalog::InstallComponent
 
 
 ## -description

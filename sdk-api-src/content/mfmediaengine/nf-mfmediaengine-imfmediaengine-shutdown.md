@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.Shutdown
-title: IMFMediaEngine::Shutdown method
+title: IMFMediaEngine::Shutdown
 author: windows-driver-content
 description: Shuts down the Media Engine and releases the resources it is using.
 old-location: mf\imfmediaengine_shutdown.htm
 old-project: medfound
 ms.assetid: 8B7BCEAC-7A30-4B60-AD0E-E8DCE404DDE9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], Shutdown method, IMFMediaEngine::Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation], IMFMediaEngine interface, Shutdown,IMFMediaEngine.Shutdown, mf.imfmediaengine_shutdown, mfmediaengine/IMFMediaEngine::Shutdown
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngine interface [Media Foundation],Shutdown method, IMFMediaEngine.Shutdown, IMFMediaEngine::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_shutdown, mfmediaengine/IMFMediaEngine::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::Shutdown method
+# IMFMediaEngine::Shutdown
 
 
 ## -description

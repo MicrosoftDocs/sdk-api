@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.SetPlayMode
-title: IWMReaderAdvanced2::SetPlayMode method
+title: IWMReaderAdvanced2::SetPlayMode
 author: windows-driver-content
 description: The SetPlayMode method specifies the play mode.
 old-location: wmformat\iwmreaderadvanced2_setplaymode.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: d1b20a0c-fedf-46d4-a76b-7596dcf8fcf8
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], SetPlayMode method, IWMReaderAdvanced2::SetPlayMode, IWMReaderAdvanced2SetPlayMode, SetPlayMode method [windows Media Format], SetPlayMode method [windows Media Format], IWMReaderAdvanced2 interface, SetPlayMode,IWMReaderAdvanced2.SetPlayMode, wmformat.iwmreaderadvanced2_setplaymode, wmsdkidl/IWMReaderAdvanced2::SetPlayMode
+ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SetPlayMode method, IWMReaderAdvanced2.SetPlayMode, IWMReaderAdvanced2::SetPlayMode, IWMReaderAdvanced2SetPlayMode, SetPlayMode, SetPlayMode method [windows Media Format], SetPlayMode method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_setplaymode, wmsdkidl/IWMReaderAdvanced2::SetPlayMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced2::SetPlayMode method
+# IWMReaderAdvanced2::SetPlayMode
 
 
 ## -description

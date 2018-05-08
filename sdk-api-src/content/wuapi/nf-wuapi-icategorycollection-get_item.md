@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategoryCollection.get_Item
-title: ICategoryCollection::get_Item method
+title: ICategoryCollection::get_Item
 author: windows-driver-content
 description: Gets an ICategory interface from the collection.
 old-location: wua\icategorycollection_item.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: dbdf48a6-6a5b-4581-ba6c-a26acd004ecf
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ICategoryCollection, ICategoryCollection interface [Windows Update Agent], Item property, ICategoryCollection.Item, ICategoryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent], ICategoryCollection interface, get_Item,ICategoryCollection.get_Item, wua.icategorycollection_item, wuapi/ICategoryCollection::Item, wuapi/ICategoryCollection::get_Item
+ms.keywords: ICategoryCollection interface [Windows Update Agent],Item property, ICategoryCollection.Item, ICategoryCollection.get_Item, ICategoryCollection::Item, ICategoryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],ICategoryCollection interface, get_Item, wua.icategorycollection_item, wuapi/ICategoryCollection::Item, wuapi/ICategoryCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ICategoryCollection::get_Item method
+# ICategoryCollection::get_Item
 
 
 ## -description

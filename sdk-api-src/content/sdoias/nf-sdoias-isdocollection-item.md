@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoCollection.Item
-title: ISdoCollection::Item method
+title: ISdoCollection::Item
 author: windows-driver-content
 description: The Item method retrieves the specified item from the collection.
 old-location: nps\SDO_isdocollection_item.htm
@@ -8,7 +8,7 @@ old-project: Nps
 ms.assetid: 1c830e23-dc6f-49dd-83fe-8ddd39ac1bf6
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ISdoCollection, ISdoCollection interface [Network Policy Server], Item method, ISdoCollection::Item, Item method [Network Policy Server], Item method [Network Policy Server], ISdoCollection interface, Item,ISdoCollection.Item, _sdo_isdocollection_item, nps.SDO_isdocollection_item, sdo.isdocollection_item, sdoias/ISdoCollection::Item
+ms.keywords: ISdoCollection interface [Network Policy Server],Item method, ISdoCollection.Item, ISdoCollection::Item, Item, Item method [Network Policy Server], Item method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_item, nps.SDO_isdocollection_item, sdo.isdocollection_item, sdoias/ISdoCollection::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISdoCollection::Item method
+# ISdoCollection::Item
 
 
 ## -description

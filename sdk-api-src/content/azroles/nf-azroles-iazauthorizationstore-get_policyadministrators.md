@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_PolicyAdministrators
-title: IAzAuthorizationStore::get_PolicyAdministrators method
+title: IAzAuthorizationStore::get_PolicyAdministrators
 author: windows-driver-content
 description: Retrieves the security identifiers (SIDs) of principals that act as policy administrators in text form.
 old-location: security\azauthorizationstore_policyadministrators.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 388d4970-5de4-4216-8c26-b9b24cc82ca3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzAuthorizationStore object [Security], PolicyAdministrators property, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], PolicyAdministrators property, IAzAuthorizationStore.PolicyAdministrators, IAzAuthorizationStore::get_PolicyAdministrators, PolicyAdministrators property [Security], PolicyAdministrators property [Security], AzAuthorizationStore object, PolicyAdministrators property [Security], IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::PolicyAdministrators, azroles/IAzAuthorizationStore::get_PolicyAdministrators, get_PolicyAdministrators,IAzAuthorizationStore.get_PolicyAdministrators, security.azauthorizationstore_policyadministrators
+ms.keywords: AzAuthorizationStore object [Security],PolicyAdministrators property, IAzAuthorizationStore interface [Security],PolicyAdministrators property, IAzAuthorizationStore.PolicyAdministrators, IAzAuthorizationStore.get_PolicyAdministrators, IAzAuthorizationStore::PolicyAdministrators, IAzAuthorizationStore::get_PolicyAdministrators, PolicyAdministrators property [Security], PolicyAdministrators property [Security],AzAuthorizationStore object, PolicyAdministrators property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::PolicyAdministrators, azroles/IAzAuthorizationStore::get_PolicyAdministrators, get_PolicyAdministrators, security.azauthorizationstore_policyadministrators
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzAuthorizationStore::get_PolicyAdministrators method
+# IAzAuthorizationStore::get_PolicyAdministrators
 
 
 ## -description

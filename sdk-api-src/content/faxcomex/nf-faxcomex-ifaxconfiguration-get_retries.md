@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_Retries
-title: IFaxConfiguration::get_Retries method
+title: IFaxConfiguration::get_Retries
 author: windows-driver-content
 description: Sets or retrieves a value that indicates the number of redial attempts for a given fax job.
 old-location: fax\_mfax_FaxConfiguration_Retries_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\retries.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxConfiguration object [Fax Service], Retries property, IFaxConfiguration, IFaxConfiguration::get_Retries, Retries property [Fax Service], Retries property [Fax Service], FaxConfiguration object, _mfax_IFaxConfiguration_Retries, fax._mfax_FaxConfiguration_Retries_vb, get_Retries,IFaxConfiguration.get_Retries
+ms.keywords: FaxConfiguration object [Fax Service],Retries property, FaxConfiguration.Retries, IFaxConfiguration.get_Retries, IFaxConfiguration::get_Retries, Retries property [Fax Service], Retries property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_Retries, fax._mfax_FaxConfiguration_Retries_vb, get_Retries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::get_Retries method
+# IFaxConfiguration::get_Retries
 
 
 ## -description

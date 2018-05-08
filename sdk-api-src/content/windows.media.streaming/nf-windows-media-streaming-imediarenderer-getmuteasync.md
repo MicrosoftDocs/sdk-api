@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.GetMuteAsync
-title: IMediaRenderer::GetMuteAsync method
+title: IMediaRenderer::streaming
 author: windows-driver-content
 description: Queries the DMR asynchronously to determine if audio is currently muted or unmuted.
 old-location: mediastreaming\imediarenderer_getmuteasync.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 411CAF71-2888-46A3-8777-80B0D6D9CDE5
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: GetMuteAsync method [Media Streaming API], GetMuteAsync method [Media Streaming API], IMediaRenderer interface, GetMuteAsync,IMediaRenderer.GetMuteAsync, IMediaRenderer, IMediaRenderer interface [Media Streaming API], GetMuteAsync method, IMediaRenderer::GetMuteAsync, mediastreaming.imediarenderer_getmuteasync, windows/IMediaRenderer::GetMuteAsync
+ms.keywords: GetMuteAsync, GetMuteAsync method [Media Streaming API], GetMuteAsync method [Media Streaming API],IMediaRenderer interface, IMediaRenderer interface [Media Streaming API],GetMuteAsync method, IMediaRenderer.GetMuteAsync, IMediaRenderer.streaming, IMediaRenderer::GetMuteAsync, IMediaRenderer::streaming, mediastreaming.imediarenderer_getmuteasync, windows/IMediaRenderer::GetMuteAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IMediaRenderer::GetMuteAsync method
+# IMediaRenderer::streaming
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.CreateMediaItemFromURL
-title: IMFPMediaPlayer::CreateMediaItemFromURL method
+title: IMFPMediaPlayer::CreateMediaItemFromURL
 author: windows-driver-content
 description: Creates a media item from a URL.
 old-location: mf\imfpmediaplayer_createmediaitemfromurl.htm
 old-project: medfound
 ms.assetid: 7dc2a7f3-81b4-46c6-b45e-44c6a20afc6b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreateMediaItemFromURL method [Media Foundation], CreateMediaItemFromURL method [Media Foundation], IMFPMediaPlayer interface, CreateMediaItemFromURL,IMFPMediaPlayer.CreateMediaItemFromURL, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], CreateMediaItemFromURL method, IMFPMediaPlayer::CreateMediaItemFromURL, mf.imfpmediaplayer_createmediaitemfromurl, mfplay/IMFPMediaPlayer::CreateMediaItemFromURL
+ms.date: 5/3/2018
+ms.keywords: CreateMediaItemFromURL, CreateMediaItemFromURL method [Media Foundation], CreateMediaItemFromURL method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],CreateMediaItemFromURL method, IMFPMediaPlayer.CreateMediaItemFromURL, IMFPMediaPlayer::CreateMediaItemFromURL, mf.imfpmediaplayer_createmediaitemfromurl, mfplay/IMFPMediaPlayer::CreateMediaItemFromURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::CreateMediaItemFromURL method
+# IMFPMediaPlayer::CreateMediaItemFromURL
 
 
 ## -description

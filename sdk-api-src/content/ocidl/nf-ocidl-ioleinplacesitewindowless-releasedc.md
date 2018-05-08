@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.ReleaseDC
-title: IOleInPlaceSiteWindowless::ReleaseDC method
+title: IOleInPlaceSiteWindowless::ReleaseDC
 author: windows-driver-content
 description: Releases the device context previously obtained by a call to IOleInPlaceSiteWindowless::GetDC.
 old-location: com\ioleinplacesitewindowless_releasedc.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8778a58c-2995-4c14-826c-9c97e97e957b
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], ReleaseDC method, IOleInPlaceSiteWindowless::ReleaseDC, ReleaseDC method [COM], ReleaseDC method [COM], IOleInPlaceSiteWindowless interface, ReleaseDC,IOleInPlaceSiteWindowless.ReleaseDC, _ole_ioleinplacesitewindowless_releasedc, com.ioleinplacesitewindowless_releasedc, ocidl/IOleInPlaceSiteWindowless::ReleaseDC
+ms.keywords: IOleInPlaceSiteWindowless interface [COM],ReleaseDC method, IOleInPlaceSiteWindowless.ReleaseDC, IOleInPlaceSiteWindowless::ReleaseDC, ReleaseDC, ReleaseDC method [COM], ReleaseDC method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_releasedc, com.ioleinplacesitewindowless_releasedc, ocidl/IOleInPlaceSiteWindowless::ReleaseDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSiteWindowless::ReleaseDC method
+# IOleInPlaceSiteWindowless::ReleaseDC
 
 
 ## -description

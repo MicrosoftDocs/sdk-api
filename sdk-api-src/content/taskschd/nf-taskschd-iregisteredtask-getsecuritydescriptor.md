@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.GetSecurityDescriptor
-title: IRegisteredTask::GetSecurityDescriptor method
+title: IRegisteredTask::GetSecurityDescriptor
 author: windows-driver-content
 description: Gets the security descriptor that is used as credentials for the registered task.
 old-location: taskschd\iregisteredtask_getsecuritydescriptor.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 474d62a5-9ec7-40f7-b26e-54923f8ebe1e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetSecurityDescriptor method [Task Scheduler], GetSecurityDescriptor method [Task Scheduler], IRegisteredTask interface, GetSecurityDescriptor,IRegisteredTask.GetSecurityDescriptor, IRegisteredTask, IRegisteredTask interface [Task Scheduler], GetSecurityDescriptor method, IRegisteredTask::GetSecurityDescriptor, taskschd.iregisteredtask_getsecuritydescriptor, taskschd/IRegisteredTask::GetSecurityDescriptor
+ms.keywords: GetSecurityDescriptor, GetSecurityDescriptor method [Task Scheduler], GetSecurityDescriptor method [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],GetSecurityDescriptor method, IRegisteredTask.GetSecurityDescriptor, IRegisteredTask::GetSecurityDescriptor, taskschd.iregisteredtask_getsecuritydescriptor, taskschd/IRegisteredTask::GetSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegisteredTask::GetSecurityDescriptor method
+# IRegisteredTask::GetSecurityDescriptor
 
 
 ## -description

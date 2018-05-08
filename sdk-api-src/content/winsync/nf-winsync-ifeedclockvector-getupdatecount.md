@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IFeedClockVector.GetUpdateCount
-title: IFeedClockVector::GetUpdateCount method
+title: IFeedClockVector::GetUpdateCount
 author: windows-driver-content
 description: Gets the number of updates that have been made to the FeedSync item.
 old-location: winsync\ifeedclockvector_getupdatecount.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: a8cf6b0f-2049-4047-b72d-34530ae82605
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetUpdateCount method [Windows Sync], GetUpdateCount method [Windows Sync], IFeedClockVector interface, GetUpdateCount,IFeedClockVector.GetUpdateCount, IFeedClockVector, IFeedClockVector interface [Windows Sync], GetUpdateCount method, IFeedClockVector::GetUpdateCount, winsync.ifeedclockvector_getupdatecount, winsync/IFeedClockVector::GetUpdateCount
+ms.keywords: GetUpdateCount, GetUpdateCount method [Windows Sync], GetUpdateCount method [Windows Sync],IFeedClockVector interface, IFeedClockVector interface [Windows Sync],GetUpdateCount method, IFeedClockVector.GetUpdateCount, IFeedClockVector::GetUpdateCount, winsync.ifeedclockvector_getupdatecount, winsync/IFeedClockVector::GetUpdateCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IFeedClockVector::GetUpdateCount method
+# IFeedClockVector::GetUpdateCount
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputStereoMode
-title: ID3D11VideoContext::VideoProcessorGetOutputStereoMode method
+title: ID3D11VideoContext::VideoProcessorGetOutputStereoMode
 author: windows-driver-content
 description: Queries whether the video processor produces stereo video frames.
 old-location: mf\id3d11videocontext_videoprocessorgetoutputstereomode.htm
 old-project: medfound
 ms.assetid: E7BDB9DA-2760-416D-BD51-F73A035B790A
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorGetOutputStereoMode method, ID3D11VideoContext::VideoProcessorGetOutputStereoMode, VideoProcessorGetOutputStereoMode method [Media Foundation], VideoProcessorGetOutputStereoMode method [Media Foundation], ID3D11VideoContext interface, VideoProcessorGetOutputStereoMode,ID3D11VideoContext.VideoProcessorGetOutputStereoMode, d3d11/ID3D11VideoContext::VideoProcessorGetOutputStereoMode, mf.id3d11videocontext_videoprocessorgetoutputstereomode
+ms.date: 5/3/2018
+ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputStereoMode method, ID3D11VideoContext.VideoProcessorGetOutputStereoMode, ID3D11VideoContext::VideoProcessorGetOutputStereoMode, VideoProcessorGetOutputStereoMode, VideoProcessorGetOutputStereoMode method [Media Foundation], VideoProcessorGetOutputStereoMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputStereoMode, mf.id3d11videocontext_videoprocessorgetoutputstereomode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::VideoProcessorGetOutputStereoMode method
+# ID3D11VideoContext::VideoProcessorGetOutputStereoMode
 
 
 ## -description

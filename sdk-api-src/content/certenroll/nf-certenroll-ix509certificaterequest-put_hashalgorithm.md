@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.put_HashAlgorithm
-title: IX509CertificateRequest::put_HashAlgorithm method
+title: IX509CertificateRequest::put_HashAlgorithm
 author: windows-driver-content
 description: Specifies and retrieves the object identifier (OID) of the hash algorithm used to sign the certificate request.
 old-location: security\ix509certificaterequest_hashalgorithm_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 9f68ee54-5dea-47bb-8a90-0285d081c9b8
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security], IX509CertificateRequest interface, IX509CertificateRequest, IX509CertificateRequest interface [Security], HashAlgorithm property, IX509CertificateRequest.HashAlgorithm, IX509CertificateRequest::get_HashAlgorithm, IX509CertificateRequest::put_HashAlgorithm, certenroll/IX509CertificateRequest::HashAlgorithm, certenroll/IX509CertificateRequest::get_HashAlgorithm, certenroll/IX509CertificateRequest::put_HashAlgorithm, put_HashAlgorithm,IX509CertificateRequest.put_HashAlgorithm, security.ix509certificaterequest_hashalgorithm_property
+ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],HashAlgorithm property, IX509CertificateRequest.HashAlgorithm, IX509CertificateRequest.put_HashAlgorithm, IX509CertificateRequest::HashAlgorithm, IX509CertificateRequest::get_HashAlgorithm, IX509CertificateRequest::put_HashAlgorithm, certenroll/IX509CertificateRequest::HashAlgorithm, certenroll/IX509CertificateRequest::get_HashAlgorithm, certenroll/IX509CertificateRequest::put_HashAlgorithm, put_HashAlgorithm, security.ix509certificaterequest_hashalgorithm_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequest::put_HashAlgorithm method
+# IX509CertificateRequest::put_HashAlgorithm
 
 
 ## -description

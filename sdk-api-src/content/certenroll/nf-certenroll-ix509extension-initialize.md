@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Extension.Initialize
-title: IX509Extension::Initialize method
+title: IX509Extension::Initialize
 author: windows-driver-content
 description: Initializes an IX509Extension object by using an object identifier (OID) and a byte array that contains the Distinguished Encoding Rules (DER) encoded extension.
 old-location: security\ix509extension_initialize_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: a01a371b-7dc2-4204-8029-269ac4a9c0d5
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509Extension, IX509Extension interface [Security], Initialize method, IX509Extension::Initialize, Initialize method [Security], Initialize method [Security], IX509Extension interface, Initialize,IX509Extension.Initialize, certenroll/IX509Extension::Initialize, security.ix509extension_initialize_method
+ms.keywords: IX509Extension interface [Security],Initialize method, IX509Extension.Initialize, IX509Extension::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509Extension interface, certenroll/IX509Extension::Initialize, security.ix509extension_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509Extension::Initialize method
+# IX509Extension::Initialize
 
 
 ## -description

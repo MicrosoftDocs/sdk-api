@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: e2d90b7e-d181-48b6-a891-b885c24a15ea
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_CLOSE_CLUSTER_NODE, PCLUSAPI_CLOSE_CLUSTER_NODE callback function [Failover Cluster], _wolf_closeclusternode, clusapi/PCLUSAPI_CLOSE_CLUSTER_NODE, mscs.closeclusternode
+ms.keywords: PCLUSAPI_CLOSE_CLUSTER_NODE, PCLUSAPI_CLOSE_CLUSTER_NODE callback, PCLUSAPI_CLOSE_CLUSTER_NODE callback function [Failover Cluster], _wolf_closeclusternode, clusapi/PCLUSAPI_CLOSE_CLUSTER_NODE, mscs.closeclusternode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_CLOSE_CLUSTER_NODE callback
+# PCLUSAPI_CLOSE_CLUSTER_NODE callback function
 
 
 ## -description

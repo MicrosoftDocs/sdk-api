@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_deviceId
-title: IWMPSyncDevice::get_deviceId method
+title: IWMPSyncDevice::get_deviceId
 author: windows-driver-content
 description: The get_deviceId method retrieves the device identifier string.
 old-location: wmp\iwmpsyncdevice_get_deviceid.htm
 old-project: WMP
 ms.assetid: 36d40dc4-5641-49dd-9ef4-31d2acd0f41d
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], get_deviceId method, IWMPSyncDevice::get_deviceId, IWMPSyncDeviceget_deviceId, get_deviceId method [Windows Media Player], get_deviceId method [Windows Media Player], IWMPSyncDevice interface, get_deviceId,IWMPSyncDevice.get_deviceId, wmp.iwmpsyncdevice_get_deviceid, wmp/IWMPSyncDevice::get_deviceId
+ms.date: 5/4/2018
+ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_deviceId method, IWMPSyncDevice.get_deviceId, IWMPSyncDevice::get_deviceId, IWMPSyncDeviceget_deviceId, get_deviceId, get_deviceId method [Windows Media Player], get_deviceId method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_deviceid, wmp/IWMPSyncDevice::get_deviceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSyncDevice::get_deviceId method
+# IWMPSyncDevice::get_deviceId
 
 
 ## -description

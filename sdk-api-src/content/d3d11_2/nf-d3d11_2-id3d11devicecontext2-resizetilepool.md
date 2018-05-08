@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.ResizeTilePool
-title: ID3D11DeviceContext2::ResizeTilePool method
+title: ID3D11DeviceContext2::ResizeTilePool
 author: windows-driver-content
 description: Resizes a tile pool.
 old-location: direct3d11\id3d11devicecontext2_resizetilepool.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 0F464025-7BF3-47C4-BD77-B4C312E53B07
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11DeviceContext2, ID3D11DeviceContext2 interface [Direct3D 11], ResizeTilePool method, ID3D11DeviceContext2::ResizeTilePool, ResizeTilePool method [Direct3D 11], ResizeTilePool method [Direct3D 11], ID3D11DeviceContext2 interface, ResizeTilePool,ID3D11DeviceContext2.ResizeTilePool, d3d11_2/ID3D11DeviceContext2::ResizeTilePool, direct3d11.id3d11devicecontext2_resizetilepool
+ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],ResizeTilePool method, ID3D11DeviceContext2.ResizeTilePool, ID3D11DeviceContext2::ResizeTilePool, ResizeTilePool, ResizeTilePool method [Direct3D 11], ResizeTilePool method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::ResizeTilePool, direct3d11.id3d11devicecontext2_resizetilepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext2::ResizeTilePool method
+# ID3D11DeviceContext2::ResizeTilePool
 
 
 ## -description

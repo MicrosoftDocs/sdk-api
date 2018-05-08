@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetEASEventCode
-title: ISCTE_EAS::GetEASEventCode method
+title: ISCTE_EAS::GetEASEventCode
 author: windows-driver-content
 description: The GetEASEventCode method returns the EAS event code.
 old-location: mstv\iscte_eas_geteaseventcode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9618fb6f-61f3-44cf-9605-b47a6a1e9be6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetEASEventCode method [Microsoft TV Technologies], GetEASEventCode method [Microsoft TV Technologies], ISCTE_EAS interface, GetEASEventCode,ISCTE_EAS.GetEASEventCode, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetEASEventCode method, ISCTE_EAS::GetEASEventCode, ISCTE_EASGetEASEventCode, atscpsipparser/ISCTE_EAS::GetEASEventCode, mstv.iscte_eas_geteaseventcode
+ms.keywords: GetEASEventCode, GetEASEventCode method [Microsoft TV Technologies], GetEASEventCode method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetEASEventCode method, ISCTE_EAS.GetEASEventCode, ISCTE_EAS::GetEASEventCode, ISCTE_EASGetEASEventCode, atscpsipparser/ISCTE_EAS::GetEASEventCode, mstv.iscte_eas_geteaseventcode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetEASEventCode method
+# ISCTE_EAS::GetEASEventCode
 
 
 ## -description

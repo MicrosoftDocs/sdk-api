@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetNotificationCallback
-title: IWICDevelopRaw::SetNotificationCallback method
+title: IWICDevelopRaw::SetNotificationCallback
 author: windows-driver-content
 description: Sets the notification callback method.
 old-location: wic\_wic_codec_iwicdevelopraw_setnotificationcallback.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: f6c44dee-8dbd-49c2-9773-899b3f01b968
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], SetNotificationCallback method, IWICDevelopRaw::SetNotificationCallback, SetNotificationCallback method [Windows Imaging Component], SetNotificationCallback method [Windows Imaging Component], IWICDevelopRaw interface, SetNotificationCallback,IWICDevelopRaw.SetNotificationCallback, _wic_codec_iwicdevelopraw_setnotificationcallback, wic._wic_codec_iwicdevelopraw_setnotificationcallback, wincodec/IWICDevelopRaw::SetNotificationCallback
+ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetNotificationCallback method, IWICDevelopRaw.SetNotificationCallback, IWICDevelopRaw::SetNotificationCallback, SetNotificationCallback, SetNotificationCallback method [Windows Imaging Component], SetNotificationCallback method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setnotificationcallback, wic._wic_codec_iwicdevelopraw_setnotificationcallback, wincodec/IWICDevelopRaw::SetNotificationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::SetNotificationCallback method
+# IWICDevelopRaw::SetNotificationCallback
 
 
 ## -description

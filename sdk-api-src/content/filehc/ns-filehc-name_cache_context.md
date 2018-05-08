@@ -7,7 +7,7 @@ old-location: winprog\name_cache_context.htm
 old-project: DevNotes
 ms.assetid: 2d2a6066-b59a-418c-a726-0a1a39243988
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: "*PNAME_CACHE_CONTEXT, NAME_CACHE_CONTEXT, NAME_CACHE_CONTEXT structure [Windows API], PNAME_CACHE_CONTEXT, PNAME_CACHE_CONTEXT structure pointer [Windows API], filehc/NAME_CACHE_CONTEXT, filehc/PNAME_CACHE_CONTEXT, winprog.name_cache_context"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.GetSecurityInfo
-title: IGPMStarterGPO::GetSecurityInfo method
+title: IGPMStarterGPO::GetSecurityInfo
 author: windows-driver-content
 description: Retrieves the set of permissions for the Starter GPO, such as who is granted permission to edit it.
 old-location: gpmc\igpmstartergpo_getsecurityinfo.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 5c411851-0902-454a-9b44-383ea572ab78
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC], IGPMStarterGPO interface, GetSecurityInfo,IGPMStarterGPO.GetSecurityInfo, IGPMStarterGPO, IGPMStarterGPO interface [GPMC], GetSecurityInfo method, IGPMStarterGPO::GetSecurityInfo, gpmc.igpmstartergpo_getsecurityinfo, gpmgmt/IGPMStarterGPO::GetSecurityInfo
+ms.keywords: GetSecurityInfo, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],GetSecurityInfo method, IGPMStarterGPO.GetSecurityInfo, IGPMStarterGPO::GetSecurityInfo, gpmc.igpmstartergpo_getsecurityinfo, gpmgmt/IGPMStarterGPO::GetSecurityInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMStarterGPO::GetSecurityInfo method
+# IGPMStarterGPO::GetSecurityInfo
 
 
 ## -description

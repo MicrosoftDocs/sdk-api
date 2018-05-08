@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.SetRegisterMode
-title: IMbnRegistration::SetRegisterMode method
+title: IMbnRegistration::SetRegisterMode
 author: windows-driver-content
 description: Sets the registration mode for the device.
 old-location: mbn\imbnregistration_setregistermode.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 71434e46-7055-4721-8cc9-140e196b6097
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnRegistration, IMbnRegistration interface [Microsoft Broadband Networks], SetRegisterMode method, IMbnRegistration::SetRegisterMode, SetRegisterMode method [Microsoft Broadband Networks], SetRegisterMode method [Microsoft Broadband Networks], IMbnRegistration interface, SetRegisterMode,IMbnRegistration.SetRegisterMode, mbn.imbnregistration_setregistermode, mbnapi/IMbnRegistration::SetRegisterMode
+ms.keywords: IMbnRegistration interface [Microsoft Broadband Networks],SetRegisterMode method, IMbnRegistration.SetRegisterMode, IMbnRegistration::SetRegisterMode, SetRegisterMode, SetRegisterMode method [Microsoft Broadband Networks], SetRegisterMode method [Microsoft Broadband Networks],IMbnRegistration interface, mbn.imbnregistration_setregistermode, mbnapi/IMbnRegistration::SetRegisterMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnRegistration::SetRegisterMode method
+# IMbnRegistration::SetRegisterMode
 
 
 ## -description

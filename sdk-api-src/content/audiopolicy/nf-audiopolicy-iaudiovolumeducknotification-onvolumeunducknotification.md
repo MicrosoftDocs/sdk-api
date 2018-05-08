@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioVolumeDuckNotification.OnVolumeUnduckNotification
-title: IAudioVolumeDuckNotification::OnVolumeUnduckNotification method
+title: IAudioVolumeDuckNotification::OnVolumeUnduckNotification
 author: windows-driver-content
 description: The OnVolumeUnduckNotification method sends a notification about a pending system unducking event.
 old-location: coreaudio\iaudiovolumeducknotification_onvolumeunducknotification.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: f25f066e-999f-45ff-8287-afa8acb82a19
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioVolumeDuckNotification, IAudioVolumeDuckNotification interface [Core Audio], OnVolumeUnduckNotification method, IAudioVolumeDuckNotification::OnVolumeUnduckNotification, OnVolumeUnduckNotification method [Core Audio], OnVolumeUnduckNotification method [Core Audio], IAudioVolumeDuckNotification interface, OnVolumeUnduckNotification,IAudioVolumeDuckNotification.OnVolumeUnduckNotification, audiopolicy/IAudioVolumeDuckNotification::OnVolumeUnduckNotification, coreaudio.iaudiovolumeducknotification_onvolumeunducknotification
+ms.keywords: IAudioVolumeDuckNotification interface [Core Audio],OnVolumeUnduckNotification method, IAudioVolumeDuckNotification.OnVolumeUnduckNotification, IAudioVolumeDuckNotification::OnVolumeUnduckNotification, OnVolumeUnduckNotification, OnVolumeUnduckNotification method [Core Audio], OnVolumeUnduckNotification method [Core Audio],IAudioVolumeDuckNotification interface, audiopolicy/IAudioVolumeDuckNotification::OnVolumeUnduckNotification, coreaudio.iaudiovolumeducknotification_onvolumeunducknotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioVolumeDuckNotification::OnVolumeUnduckNotification method
+# IAudioVolumeDuckNotification::OnVolumeUnduckNotification
 
 
 ## -description

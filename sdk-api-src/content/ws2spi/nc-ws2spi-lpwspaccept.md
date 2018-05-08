@@ -7,7 +7,7 @@ old-location: winsock\wspaccept_2.htm
 old-project: WinSock
 ms.assetid: d73aa3a8-cef5-485d-b2ba-b2fe42ab6200
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: LPWSPACCEPT, WSPAccept, WSPAccept function [Winsock], _win32_wspaccept_2, winsock.wspaccept_2, ws2spi/WSPAccept
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# LPWSPACCEPT callback
+# LPWSPACCEPT callback function
 
 
 ## -description

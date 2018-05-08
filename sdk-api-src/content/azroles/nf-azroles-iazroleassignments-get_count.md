@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRoleAssignments.get_Count
-title: IAzRoleAssignments::get_Count method
+title: IAzRoleAssignments::get_Count
 author: windows-driver-content
 description: Retrieves the number of IAzRoleAssignments objects in the collection.
 old-location: security\iazroleassignments_count.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: a137b247-ee0c-46da-8994-23ba88d207ad
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: Count property [Security], Count property [Security], IAzRoleAssignments interface, IAzRoleAssignments, IAzRoleAssignments interface [Security], Count property, IAzRoleAssignments.Count, IAzRoleAssignments::get_Count, azroles/IAzRoleAssignments::Count, azroles/IAzRoleAssignments::get_Count, get_Count,IAzRoleAssignments.get_Count, security.iazroleassignments_count
+ms.keywords: Count property [Security], Count property [Security],IAzRoleAssignments interface, IAzRoleAssignments interface [Security],Count property, IAzRoleAssignments.Count, IAzRoleAssignments.get_Count, IAzRoleAssignments::Count, IAzRoleAssignments::get_Count, azroles/IAzRoleAssignments::Count, azroles/IAzRoleAssignments::get_Count, get_Count, security.iazroleassignments_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzRoleAssignments::get_Count method
+# IAzRoleAssignments::get_Count
 
 
 ## -description

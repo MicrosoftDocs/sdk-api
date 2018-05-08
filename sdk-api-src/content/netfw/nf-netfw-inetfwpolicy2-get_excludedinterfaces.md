@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_ExcludedInterfaces
-title: INetFwPolicy2::get_ExcludedInterfaces method
+title: INetFwPolicy2::get_ExcludedInterfaces
 author: windows-driver-content
 description: Specifies a list of interfaces on which firewall settings are excluded.
 old-location: ics\inetfwpolicy2_excludedinterfaces.htm
 old-project: ICS
 ms.assetid: 0e8cbb09-c146-42e9-9b7c-002e6775bf19
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: ExcludedInterfaces property [ICS/ICF], ExcludedInterfaces property [ICS/ICF], INetFwPolicy2 interface, INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], ExcludedInterfaces property, INetFwPolicy2.ExcludedInterfaces, INetFwPolicy2::get_ExcludedInterfaces, INetFwPolicy2::put_ExcludedInterfaces, get_ExcludedInterfaces,INetFwPolicy2.get_ExcludedInterfaces, ics.inetfwpolicy2_excludedinterfaces, netfw/INetFwPolicy2::ExcludedInterfaces, netfw/INetFwPolicy2::get_ExcludedInterfaces, netfw/INetFwPolicy2::put_ExcludedInterfaces
+ms.date: 5/1/2018
+ms.keywords: ExcludedInterfaces property [ICS/ICF], ExcludedInterfaces property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],ExcludedInterfaces property, INetFwPolicy2.ExcludedInterfaces, INetFwPolicy2.get_ExcludedInterfaces, INetFwPolicy2::ExcludedInterfaces, INetFwPolicy2::get_ExcludedInterfaces, INetFwPolicy2::put_ExcludedInterfaces, get_ExcludedInterfaces, ics.inetfwpolicy2_excludedinterfaces, netfw/INetFwPolicy2::ExcludedInterfaces, netfw/INetFwPolicy2::get_ExcludedInterfaces, netfw/INetFwPolicy2::put_ExcludedInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwPolicy2::get_ExcludedInterfaces method
+# INetFwPolicy2::get_ExcludedInterfaces
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: winprog\ndrcomformantarraymarshall.htm
 old-project: DevNotes
 ms.assetid: 28098531-a836-4a22-8c1a-fbf28d4a1bdd
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: NdrConformantArrayMarshall, NdrConformantArrayMarshall function [Windows API], rpcndr/NdrConformantArrayMarshall, winprog.ndrcomformantarraymarshall
+ms.date: 5/4/2018
+ms.keywords: NdrComformantArrayMarshall, NdrConformantArrayMarshall, NdrConformantArrayMarshall function [Windows API], rpcndr/NdrConformantArrayMarshall, winprog.ndrcomformantarraymarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.Buffering
-title: IWMPEvents::Buffering method
+title: IWMPEvents::Buffering
 author: windows-driver-content
 description: The Buffering event occurs when the Windows Media Player control begins or ends buffering.
 old-location: wmp\iwmpevents_iwmpevents__buffering.htm
 old-project: WMP
 ms.assetid: 3e379c92-b400-48ad-a3d3-82ed3cd3f396
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: Buffering method [Windows Media Player], Buffering method [Windows Media Player], IWMPEvents interface, Buffering,IWMPEvents.Buffering, IWMPEvents, IWMPEvents interface [Windows Media Player], Buffering method, IWMPEvents::Buffering, IWMPEventsBuffering, wmp.iwmpevents_iwmpevents__buffering, wmp/IWMPEvents::Buffering
+ms.date: 5/4/2018
+ms.keywords: Buffering, Buffering method [Windows Media Player], Buffering method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Buffering method, IWMPEvents.Buffering, IWMPEvents::Buffering, IWMPEventsBuffering, wmp.iwmpevents_iwmpevents__buffering, wmp/IWMPEvents::Buffering
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::Buffering method
+# IWMPEvents::Buffering
 
 
 ## -description

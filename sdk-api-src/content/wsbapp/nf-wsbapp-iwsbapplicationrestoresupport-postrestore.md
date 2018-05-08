@@ -1,6 +1,6 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.PostRestore
-title: IWsbApplicationRestoreSupport::PostRestore method
+title: IWsbApplicationRestoreSupport::PostRestore
 author: windows-driver-content
 description: Performs application-specific PostRestore operations.
 old-location: wsb\iwsbapplicationrestoresupport_postrestore.htm
@@ -8,7 +8,7 @@ old-project: wsb
 ms.assetid: 8be7975e-9b94-4a6e-b1f5-794b8749ccbe
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWsbApplicationRestoreSupport, IWsbApplicationRestoreSupport interface [Windows Server Backup], PostRestore method, IWsbApplicationRestoreSupport::PostRestore, PostRestore method [Windows Server Backup], PostRestore method [Windows Server Backup], IWsbApplicationRestoreSupport interface, PostRestore,IWsbApplicationRestoreSupport.PostRestore, wsb.iwsbapplicationrestoresupport_postrestore, wsbapp/IWsbApplicationRestoreSupport::PostRestore
+ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],PostRestore method, IWsbApplicationRestoreSupport.PostRestore, IWsbApplicationRestoreSupport::PostRestore, PostRestore, PostRestore method [Windows Server Backup], PostRestore method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_postrestore, wsbapp/IWsbApplicationRestoreSupport::PostRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWsbApplicationRestoreSupport::PostRestore method
+# IWsbApplicationRestoreSupport::PostRestore
 
 
 ## -description

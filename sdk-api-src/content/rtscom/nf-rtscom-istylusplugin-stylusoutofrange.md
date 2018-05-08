@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusOutOfRange
-title: IStylusPlugin::StylusOutOfRange method
+title: IStylusPlugin::StylusOutOfRange
 author: windows-driver-content
 description: Notifies the implementing plug-in that the stylus has left the detection range of the digitizer.
 old-location: tablet\istylusplugin_stylusoutofrange.htm
 old-project: tablet
 ms.assetid: fd662c32-c226-4dbb-807a-3e560452ef15
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], StylusOutOfRange method, IStylusPlugin::StylusOutOfRange, StylusOutOfRange method [Tablet PC], StylusOutOfRange method [Tablet PC], IStylusPlugin interface, StylusOutOfRange,IStylusPlugin.StylusOutOfRange, fd662c32-c226-4dbb-807a-3e560452ef15, rtscom/IStylusPlugin::StylusOutOfRange, tablet.istylusplugin_stylusoutofrange
+ms.date: 5/2/2018
+ms.keywords: IStylusPlugin interface [Tablet PC],StylusOutOfRange method, IStylusPlugin.StylusOutOfRange, IStylusPlugin::StylusOutOfRange, StylusOutOfRange, StylusOutOfRange method [Tablet PC], StylusOutOfRange method [Tablet PC],IStylusPlugin interface, fd662c32-c226-4dbb-807a-3e560452ef15, rtscom/IStylusPlugin::StylusOutOfRange, tablet.istylusplugin_stylusoutofrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStylusPlugin::StylusOutOfRange method
+# IStylusPlugin::StylusOutOfRange
 
 
 ## -description

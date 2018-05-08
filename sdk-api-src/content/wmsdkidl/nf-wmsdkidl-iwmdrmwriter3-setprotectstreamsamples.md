@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter3.SetProtectStreamSamples
-title: IWMDRMWriter3::SetProtectStreamSamples method
+title: IWMDRMWriter3::SetProtectStreamSamples
 author: windows-driver-content
 description: The SetProtectStreamSamples method configures the writer to accept encrypted stream samples. This method is used as part of the process of importing protected content from a third party content protection scheme (CPS) into Windows Media DRM.
 old-location: wmformat\iwmdrmwriter3_setprotectstreamsamples.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 42208d02-8384-494d-b7ae-53072b795723
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMDRMWriter3, IWMDRMWriter3 interface [windows Media Format], SetProtectStreamSamples method, IWMDRMWriter3::SetProtectStreamSamples, IWMDRMWriter3SetProtectedStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format], IWMDRMWriter3 interface, SetProtectStreamSamples,IWMDRMWriter3.SetProtectStreamSamples, wmformat.iwmdrmwriter3_setprotectedstreamsamples, wmformat.iwmdrmwriter3_setprotectstreamsamples, wmsdkidl/IWMDRMWriter3::SetProtectStreamSamples
+ms.keywords: IWMDRMWriter3 interface [windows Media Format],SetProtectStreamSamples method, IWMDRMWriter3.SetProtectStreamSamples, IWMDRMWriter3::SetProtectStreamSamples, IWMDRMWriter3SetProtectedStreamSamples, SetProtectStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format],IWMDRMWriter3 interface, wmformat.iwmdrmwriter3_setprotectedstreamsamples, wmformat.iwmdrmwriter3_setprotectstreamsamples, wmsdkidl/IWMDRMWriter3::SetProtectStreamSamples
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMWriter3::SetProtectStreamSamples method
+# IWMDRMWriter3::SetProtectStreamSamples
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMPushSource.GetPushSourceFlags
-title: IAMPushSource::GetPushSourceFlags method
+title: IAMPushSource::GetPushSourceFlags
 author: windows-driver-content
 description: The GetPushSourceFlags method retrieves a combination of flags describing the behavior of the filter.
 old-location: dshow\iampushsource_getpushsourceflags.htm
 old-project: DirectShow
 ms.assetid: 3e72367f-a066-43ad-9f96-648cad13b43d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPushSourceFlags method [DirectShow], GetPushSourceFlags method [DirectShow], IAMPushSource interface, GetPushSourceFlags,IAMPushSource.GetPushSourceFlags, IAMPushSource, IAMPushSource interface [DirectShow], GetPushSourceFlags method, IAMPushSource::GetPushSourceFlags, IAMPushSourceGetPushSourceFlags, dshow.iampushsource_getpushsourceflags, strmif/IAMPushSource::GetPushSourceFlags
+ms.date: 4/30/2018
+ms.keywords: GetPushSourceFlags, GetPushSourceFlags method [DirectShow], GetPushSourceFlags method [DirectShow],IAMPushSource interface, IAMPushSource interface [DirectShow],GetPushSourceFlags method, IAMPushSource.GetPushSourceFlags, IAMPushSource::GetPushSourceFlags, IAMPushSourceGetPushSourceFlags, dshow.iampushsource_getpushsourceflags, strmif/IAMPushSource::GetPushSourceFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMPushSource::GetPushSourceFlags method
+# IAMPushSource::GetPushSourceFlags
 
 
 ## -description

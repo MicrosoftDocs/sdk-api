@@ -7,7 +7,7 @@ old-location: security\cert_keygen_request_info.htm
 old-project: SecCrypto
 ms.assetid: 44cbe4de-a9cc-48b2-ad04-9acd42fac07c
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCERT_KEYGEN_REQUEST_INFO, CERT_KEYGEN_REQUEST_INFO, CERT_KEYGEN_REQUEST_INFO structure [Security], PCERT_KEYGEN_REQUEST_INFO, PCERT_KEYGEN_REQUEST_INFO structure pointer [Security], _CERT_KEYGEN_REQUEST_INFO, _crypto2_cert_keygen_request_info, security.cert_keygen_request_info, wincrypt/CERT_KEYGEN_REQUEST_INFO, wincrypt/PCERT_KEYGEN_REQUEST_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

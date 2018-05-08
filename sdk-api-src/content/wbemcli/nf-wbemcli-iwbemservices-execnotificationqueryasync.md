@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecNotificationQueryAsync
-title: IWbemServices::ExecNotificationQueryAsync method
+title: IWbemServices::ExecNotificationQueryAsync
 author: windows-driver-content
 description: The IWbemServices::ExecNotificationQueryAsync method performs the same task as IWbemServices::ExecNotificationQuery except that events are supplied to the specified response handler until CancelAsyncCall is called to stop the event notification.
 old-location: wmi\iwbemservices_execnotificationqueryasync.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: f26eb44a-e0c4-418b-b849-d38d85ef236a
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: ExecNotificationQueryAsync method [Windows Management Instrumentation], ExecNotificationQueryAsync method [Windows Management Instrumentation], IWbemServices interface, ExecNotificationQueryAsync,IWbemServices.ExecNotificationQueryAsync, IWbemServices, IWbemServices interface [Windows Management Instrumentation], ExecNotificationQueryAsync method, IWbemServices::ExecNotificationQueryAsync, WBEM_FLAG_SEND_STATUS, _hmm_iwbemservices_execnotificationqueryasync, wbemcli/IWbemServices::ExecNotificationQueryAsync, wmi.iwbemservices_execnotificationqueryasync
+ms.keywords: ExecNotificationQueryAsync, ExecNotificationQueryAsync method [Windows Management Instrumentation], ExecNotificationQueryAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecNotificationQueryAsync method, IWbemServices.ExecNotificationQueryAsync, IWbemServices::ExecNotificationQueryAsync, WBEM_FLAG_SEND_STATUS, _hmm_iwbemservices_execnotificationqueryasync, wbemcli/IWbemServices::ExecNotificationQueryAsync, wmi.iwbemservices_execnotificationqueryasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,7 +58,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemServices::ExecNotificationQueryAsync method
+# IWbemServices::ExecNotificationQueryAsync
 
 
 ## -description

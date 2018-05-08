@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetBlob
-title: IMetaDataTables::GetBlob method
+title: IMetaDataTables::GetBlob
 author: windows-driver-content
 description: Gets a pointer to the binary large object (BLOB) at the specified column index.
 old-location: winrt\imetadatatables_getblob.htm
 old-project: WinRT
 ms.assetid: 1a9da245-a1a9-4004-8925-00b2fe72c9ca
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetBlob method [Windows Runtime], GetBlob method [Windows Runtime], IMetaDataTables interface, GetBlob,IMetaDataTables.GetBlob, IMetaDataTables, IMetaDataTables interface [Windows Runtime], GetBlob method, IMetaDataTables::GetBlob, rometadataapi/IMetaDataTables::GetBlob, winrt.imetadatatables_getblob
+ms.date: 5/4/2018
+ms.keywords: GetBlob, GetBlob method [Windows Runtime], GetBlob method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetBlob method, IMetaDataTables.GetBlob, IMetaDataTables::GetBlob, rometadataapi/IMetaDataTables::GetBlob, winrt.imetadatatables_getblob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataTables::GetBlob method
+# IMetaDataTables::GetBlob
 
 
 ## -description

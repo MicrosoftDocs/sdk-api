@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromUInt16.htm
 old-project: properties
 ms.assetid: ec919626-6af3-4e33-85a5-134274220c67
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: InitVariantFromUInt16, InitVariantFromUInt16 function [Windows Properties], _shell_InitVariantFromUInt16, properties.InitVariantFromUInt16, propvarutil/InitVariantFromUInt16, shell.InitVariantFromUInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices

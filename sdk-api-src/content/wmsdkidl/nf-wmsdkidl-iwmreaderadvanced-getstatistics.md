@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetStatistics
-title: IWMReaderAdvanced::GetStatistics method
+title: IWMReaderAdvanced::GetStatistics
 author: windows-driver-content
 description: The GetStatistics method retrieves the current reader statistics.
 old-location: wmformat\iwmreaderadvanced_getstatistics.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 9ed2a3fe-c31d-42fc-9ee9-27dd9aef7e06
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetStatistics method [windows Media Format], GetStatistics method [windows Media Format], IWMReaderAdvanced interface, GetStatistics,IWMReaderAdvanced.GetStatistics, IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], GetStatistics method, IWMReaderAdvanced::GetStatistics, IWMReaderAdvancedGetStatistics, wmformat.iwmreaderadvanced_getstatistics, wmsdkidl/IWMReaderAdvanced::GetStatistics
+ms.keywords: GetStatistics, GetStatistics method [windows Media Format], GetStatistics method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetStatistics method, IWMReaderAdvanced.GetStatistics, IWMReaderAdvanced::GetStatistics, IWMReaderAdvancedGetStatistics, wmformat.iwmreaderadvanced_getstatistics, wmsdkidl/IWMReaderAdvanced::GetStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced::GetStatistics method
+# IWMReaderAdvanced::GetStatistics
 
 
 ## -description

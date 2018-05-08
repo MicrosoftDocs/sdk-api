@@ -1,14 +1,14 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyJob4.GetOwnerIntegrityLevel
-title: IBackgroundCopyJob4::GetOwnerIntegrityLevel method
+title: IBackgroundCopyJob4::GetOwnerIntegrityLevel
 author: windows-driver-content
 description: Gets the integrity level of the token of the owner that created or took ownership of the job.
 old-location: bits\ibackgroundcopyjob4_getownerintegritylevel.htm
 old-project: Bits
 ms.assetid: 1f5d9576-0948-429b-b136-1b02d7197fcc
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetOwnerIntegrityLevel method [BITS], GetOwnerIntegrityLevel method [BITS], IBackgroundCopyJob4 interface, GetOwnerIntegrityLevel,IBackgroundCopyJob4.GetOwnerIntegrityLevel, IBackgroundCopyJob4, IBackgroundCopyJob4 interface [BITS], GetOwnerIntegrityLevel method, IBackgroundCopyJob4::GetOwnerIntegrityLevel, bits.ibackgroundcopyjob4_getownerintegritylevel, bits3_0/IBackgroundCopyJob4::GetOwnerIntegrityLevel
+ms.date: 4/27/2018
+ms.keywords: GetOwnerIntegrityLevel, GetOwnerIntegrityLevel method [BITS], GetOwnerIntegrityLevel method [BITS],IBackgroundCopyJob4 interface, IBackgroundCopyJob4 interface [BITS],GetOwnerIntegrityLevel method, IBackgroundCopyJob4.GetOwnerIntegrityLevel, IBackgroundCopyJob4::GetOwnerIntegrityLevel, bits.ibackgroundcopyjob4_getownerintegritylevel, bits3_0/IBackgroundCopyJob4::GetOwnerIntegrityLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBackgroundCopyJob4::GetOwnerIntegrityLevel method
+# IBackgroundCopyJob4::GetOwnerIntegrityLevel
 
 
 ## -description

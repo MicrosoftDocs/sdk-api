@@ -7,7 +7,7 @@ old-location: security\crypt_xml_key_value.htm
 old-project: SecCrypto
 ms.assetid: 7aadd268-41bc-4ba3-babb-2ca7b13f378b
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CRYPT_XML_KEY_VALUE, CRYPT_XML_KEY_VALUE structure [Security], CRYPT_XML_KEY_VALUE_TYPE_CUSTOM, CRYPT_XML_KEY_VALUE_TYPE_DSA, CRYPT_XML_KEY_VALUE_TYPE_ECDSA, CRYPT_XML_KEY_VALUE_TYPE_RSA, _CRYPT_XML_KEY_VALUE, cryptxml/CRYPT_XML_KEY_VALUE, security.crypt_xml_key_value
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,22 +119,22 @@ The key is a custom key type.
  
 
 
-#### - Custom
-
-A <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure that contains custom key data.
-
-
-#### - DSAKeyValue
+### -field DSAKeyValue
 
 A <a href="https://msdn.microsoft.com/634c47c2-28ba-40ea-975d-95f5663eb0b0">CRYPT_XML_KEY_DSA_KEY_VALUE</a> structure that contains <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Digital Signature Algorithm</a> (DSA) key data.
 
 
-#### - ECDSAKeyValue
+### -field RSAKeyValue
+
+A <a href="https://msdn.microsoft.com/e2b1344d-c108-4255-bd50-06d742ed67a8">CRYPT_XML_KEY_RSA_KEY_VALUE</a> structure that contains RSA key data.
+
+
+### -field ECDSAKeyValue
 
 A <a href="https://msdn.microsoft.com/db7e8ee0-25b4-4e2e-83da-f970906c9da9">CRYPT_XML_KEY_ECDSA_KEY_VALUE</a> structure that contains ECDSA key data.
 
 
-#### - RSAKeyValue
+### -field Custom
 
-A <a href="https://msdn.microsoft.com/e2b1344d-c108-4255-bd50-06d742ed67a8">CRYPT_XML_KEY_RSA_KEY_VALUE</a> structure that contains RSA key data.
+A <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure that contains custom key data.
 

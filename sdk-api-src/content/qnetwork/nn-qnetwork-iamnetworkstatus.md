@@ -7,8 +7,8 @@ old-location: dshow\iamnetworkstatus.htm
 old-project: DirectShow
 ms.assetid: 51d56b76-f9fc-44e1-88f0-d35d861a4697
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], IAMNetworkStatus interface [DirectShow], described, IAMNetworkStatusInterface, dshow.iamnetworkstatus, qnetwork/IAMNetworkStatus
+ms.date: 4/30/2018
+ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], IAMNetworkStatus interface [DirectShow],described, IAMNetworkStatusInterface, dshow.iamnetworkstatus, qnetwork/IAMNetworkStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

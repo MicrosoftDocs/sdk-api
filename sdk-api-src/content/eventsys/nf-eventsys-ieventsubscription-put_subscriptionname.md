@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_SubscriptionName
-title: IEventSubscription::put_SubscriptionName method
+title: IEventSubscription::put_SubscriptionName
 author: windows-driver-content
 description: A displayable name for the subscription object.
 old-location: cos\ieventsubscription_subscriptionname.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 0a5532c1-8e06-4fbd-88aa-04d7a69672c3
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventSubscription, IEventSubscription interface [COM+], SubscriptionName property, IEventSubscription.SubscriptionName, IEventSubscription::get_SubscriptionName, IEventSubscription::put_SubscriptionName, SubscriptionName property [COM+], SubscriptionName property [COM+], IEventSubscription interface, cos.ieventsubscription_subscriptionname, eventsys/IEventSubscription::SubscriptionName, eventsys/IEventSubscription::get_SubscriptionName, eventsys/IEventSubscription::put_SubscriptionName, put_SubscriptionName,IEventSubscription.put_SubscriptionName
+ms.keywords: IEventSubscription interface [COM+],SubscriptionName property, IEventSubscription.SubscriptionName, IEventSubscription.put_SubscriptionName, IEventSubscription::SubscriptionName, IEventSubscription::get_SubscriptionName, IEventSubscription::put_SubscriptionName, SubscriptionName property [COM+], SubscriptionName property [COM+],IEventSubscription interface, cos.ieventsubscription_subscriptionname, eventsys/IEventSubscription::SubscriptionName, eventsys/IEventSubscription::get_SubscriptionName, eventsys/IEventSubscription::put_SubscriptionName, put_SubscriptionName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSubscription::put_SubscriptionName method
+# IEventSubscription::put_SubscriptionName
 
 
 ## -description

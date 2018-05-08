@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESFileExpiryDateEvent.GetMaxRenewalCount
-title: IESFileExpiryDateEvent::GetMaxRenewalCount method
+title: IESFileExpiryDateEvent::GetMaxRenewalCount
 author: windows-driver-content
 description: Gets the maximum number of times that a license for protected content can be renewed from a FileExpiryDate event.
 old-location: mstv\iesfileexpirydateevent_getmaxrenewalcount.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3e823f7f-91cc-4e59-bbb5-1a33ef094999
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetMaxRenewalCount method [Microsoft TV Technologies], GetMaxRenewalCount method [Microsoft TV Technologies], IESFileExpiryDateEvent interface, GetMaxRenewalCount,IESFileExpiryDateEvent.GetMaxRenewalCount, IESFileExpiryDateEvent, IESFileExpiryDateEvent interface [Microsoft TV Technologies], GetMaxRenewalCount method, IESFileExpiryDateEvent::GetMaxRenewalCount, mstv.iesfileexpirydateevent_getmaxrenewalcount, tuner/IESFileExpiryDateEvent::GetMaxRenewalCount
+ms.keywords: GetMaxRenewalCount, GetMaxRenewalCount method [Microsoft TV Technologies], GetMaxRenewalCount method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, IESFileExpiryDateEvent interface [Microsoft TV Technologies],GetMaxRenewalCount method, IESFileExpiryDateEvent.GetMaxRenewalCount, IESFileExpiryDateEvent::GetMaxRenewalCount, mstv.iesfileexpirydateevent_getmaxrenewalcount, tuner/IESFileExpiryDateEvent::GetMaxRenewalCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESFileExpiryDateEvent::GetMaxRenewalCount method
+# IESFileExpiryDateEvent::GetMaxRenewalCount
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 9175bcaf-8015-466d-ae0c-7ba685bdf192
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IInstallationProgressChangedCallbackArgs, IInstallationProgressChangedCallbackArgs interface [Windows Update Agent], IInstallationProgressChangedCallbackArgs interface [Windows Update Agent], described, wua.iinstallationprogresschangedcallbackargs, wuapi/IInstallationProgressChangedCallbackArgs
+ms.keywords: IInstallationProgressChangedCallbackArgs, IInstallationProgressChangedCallbackArgs interface [Windows Update Agent], IInstallationProgressChangedCallbackArgs interface [Windows Update Agent],described, wua.iinstallationprogresschangedcallbackargs, wuapi/IInstallationProgressChangedCallbackArgs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

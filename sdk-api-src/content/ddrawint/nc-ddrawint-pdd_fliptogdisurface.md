@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 279987bb-1697-4157-9d61-d503b0183e84
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DdFlipToGDISurface, DdFlipToGDISurface callback function [Display Devices], PDD_FLIPTOGDISURFACE, ddfncs_667de7ca-b9d4-4267-9d46-79d6c950b51c.xml, ddrawint/DdFlipToGDISurface, display.ddfliptogdisurface
+ms.keywords: DdFlipToGDISurface, DdFlipToGDISurface callback function [Display Devices], PDD_FLIPTOGDISURFACE, PDD_FLIPTOGDISURFACE callback, ddfncs_667de7ca-b9d4-4267-9d46-79d6c950b51c.xml, ddrawint/DdFlipToGDISurface, display.ddfliptogdisurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PDD_FLIPTOGDISURFACE callback
+# PDD_FLIPTOGDISURFACE callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_FaxNumber
-title: IFaxDoc::put_FaxNumber method
+title: IFaxDoc::put_FaxNumber
 author: windows-driver-content
 description: Sets or retrieves the FaxNumber property of a FaxDoc object. The FaxNumber property is a null-terminated string that contains the fax number to which the fax server will send the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_faxnumber_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_833m.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], FaxNumber property, FaxNumber property [Fax Service], FaxNumber property [Fax Service], FaxDoc object, IFaxDoc, IFaxDoc::put_FaxNumber, _mfax_ifaxdoc_get_faxnumber, fax._mfax_ifaxdoc_get_faxnumber, fax._mfax_ifaxdoc_get_faxnumber_vb, put_FaxNumber,IFaxDoc.put_FaxNumber
+ms.keywords: FaxDoc object [Fax Service],FaxNumber property, FaxDoc.FaxNumber, FaxNumber property [Fax Service], FaxNumber property [Fax Service],FaxDoc object, IFaxDoc.put_FaxNumber, IFaxDoc::put_FaxNumber, _mfax_ifaxdoc_get_faxnumber, fax._mfax_ifaxdoc_get_faxnumber, fax._mfax_ifaxdoc_get_faxnumber_vb, put_FaxNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::put_FaxNumber method
+# IFaxDoc::put_FaxNumber
 
 
 ## -description

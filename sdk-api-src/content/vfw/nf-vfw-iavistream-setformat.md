@@ -1,14 +1,14 @@
 ---
 UID: NF:vfw.IAVIStream.SetFormat
-title: IAVIStream::SetFormat method
+title: IAVIStream::SetFormat
 author: windows-driver-content
 description: The SetFormat method sets format information in a stream. Called when an application uses the AVIStreamSetFormat function.
 old-location: multimedia\iavistream_setformat.htm
 old-project: Multimedia
 ms.assetid: 8693ce01-1f73-4d1b-ba8a-12f6453def22
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: IAVIStream, IAVIStream interface [Windows Multimedia], SetFormat method, IAVIStream::SetFormat, SetFormat method [Windows Multimedia], SetFormat method [Windows Multimedia], IAVIStream interface, SetFormat,IAVIStream.SetFormat, _win32_IAVIStream_SetFormat, multimedia.iavistream_setformat, vfw/IAVIStream::SetFormat
+ms.date: 5/4/2018
+ms.keywords: IAVIStream interface [Windows Multimedia],SetFormat method, IAVIStream.SetFormat, IAVIStream::SetFormat, SetFormat, SetFormat method [Windows Multimedia], SetFormat method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_SetFormat, multimedia.iavistream_setformat, vfw/IAVIStream::SetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAVIStream::SetFormat method
+# IAVIStream::SetFormat
 
 
 ## -description

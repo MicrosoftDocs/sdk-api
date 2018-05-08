@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_MsrcSeverity
-title: IUpdate::get_MsrcSeverity method
+title: IUpdate::get_MsrcSeverity
 author: windows-driver-content
 description: Gets the Microsoft Security Response Center severity rating of the update.
 old-location: wua\iupdate_msrcseverity.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: ed3187c5-e175-4287-b930-2c283c9e93f3
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], MsrcSeverity property, IUpdate.MsrcSeverity, IUpdate::get_MsrcSeverity, MsrcSeverity property [Windows Update Agent], MsrcSeverity property [Windows Update Agent], IUpdate interface, get_MsrcSeverity,IUpdate.get_MsrcSeverity, wua.iupdate_msrcseverity, wuapi/IUpdate::MsrcSeverity, wuapi/IUpdate::get_MsrcSeverity
+ms.keywords: IUpdate interface [Windows Update Agent],MsrcSeverity property, IUpdate.MsrcSeverity, IUpdate.get_MsrcSeverity, IUpdate::MsrcSeverity, IUpdate::get_MsrcSeverity, MsrcSeverity property [Windows Update Agent], MsrcSeverity property [Windows Update Agent],IUpdate interface, get_MsrcSeverity, wua.iupdate_msrcseverity, wuapi/IUpdate::MsrcSeverity, wuapi/IUpdate::get_MsrcSeverity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate::get_MsrcSeverity method
+# IUpdate::get_MsrcSeverity
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IQueryParser.SetOption
-title: IQueryParser::SetOption method
+title: IQueryParser::SetOption
 author: windows-driver-content
 description: Sets a single option, such as a specified wordbreaker, for parsing an input string.
 old-location: search\_search_IQueryParser_SetOption.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\setoption.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IQueryParser, IQueryParser interface [search], SetOption method, IQueryParser::SetOption, SetOption method [search], SetOption method [search], IQueryParser interface, SetOption,IQueryParser.SetOption, _search_IQueryParser_SetOption, search._search_IQueryParser_SetOption, structuredquery/IQueryParser::SetOption
+ms.date: 5/4/2018
+ms.keywords: IQueryParser interface [search],SetOption method, IQueryParser.SetOption, IQueryParser::SetOption, SetOption, SetOption method [search], SetOption method [search],IQueryParser interface, _search_IQueryParser_SetOption, search._search_IQueryParser_SetOption, structuredquery/IQueryParser::SetOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IQueryParser::SetOption method
+# IQueryParser::SetOption
 
 
 ## -description

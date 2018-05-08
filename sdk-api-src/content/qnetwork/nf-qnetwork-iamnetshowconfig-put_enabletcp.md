@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_EnableTCP
-title: IAMNetShowConfig::put_EnableTCP method
+title: IAMNetShowConfig::put_EnableTCP
 author: windows-driver-content
 description: The put_EnableTCP method enables or disables TCP-based streaming.
 old-location: dshow\iamnetshowconfig_put_enabletcp.htm
 old-project: DirectShow
 ms.assetid: 8e875901-7ccb-4aa5-b283-f75b791e85f1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], put_EnableTCP method, IAMNetShowConfig::put_EnableTCP, IAMNetShowConfigput_EnableTCP, dshow.iamnetshowconfig_put_enabletcp, put_EnableTCP method [DirectShow], put_EnableTCP method [DirectShow], IAMNetShowConfig interface, put_EnableTCP,IAMNetShowConfig.put_EnableTCP, qnetwork/IAMNetShowConfig::put_EnableTCP
+ms.date: 4/30/2018
+ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableTCP method, IAMNetShowConfig.put_EnableTCP, IAMNetShowConfig::put_EnableTCP, IAMNetShowConfigput_EnableTCP, dshow.iamnetshowconfig_put_enabletcp, put_EnableTCP, put_EnableTCP method [DirectShow], put_EnableTCP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableTCP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetShowConfig::put_EnableTCP method
+# IAMNetShowConfig::put_EnableTCP
 
 
 ## -description

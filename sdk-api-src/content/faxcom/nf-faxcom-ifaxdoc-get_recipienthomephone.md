@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientHomePhone
-title: IFaxDoc::get_RecipientHomePhone method
+title: IFaxDoc::get_RecipientHomePhone
 author: windows-driver-content
 description: Sets or retrieves the RecipientHomePhone property of a FaxDoc object. The RecipientHomePhone property is a null-terminated string that contains the home telephone number of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipienthomephone_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9m5h.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], RecipientHomePhone property, IFaxDoc, IFaxDoc::get_RecipientHomePhone, RecipientHomePhone property [Fax Service], RecipientHomePhone property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipienthomephone, fax._mfax_ifaxdoc_get_recipienthomephone, fax._mfax_ifaxdoc_get_recipienthomephone_vb, get_RecipientHomePhone,IFaxDoc.get_RecipientHomePhone
+ms.keywords: FaxDoc object [Fax Service],RecipientHomePhone property, FaxDoc.RecipientHomePhone, IFaxDoc.get_RecipientHomePhone, IFaxDoc::get_RecipientHomePhone, RecipientHomePhone property [Fax Service], RecipientHomePhone property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipienthomephone, fax._mfax_ifaxdoc_get_recipienthomephone, fax._mfax_ifaxdoc_get_recipienthomephone_vb, get_RecipientHomePhone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::get_RecipientHomePhone method
+# IFaxDoc::get_RecipientHomePhone
 
 
 ## -description

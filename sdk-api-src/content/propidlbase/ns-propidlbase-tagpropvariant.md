@@ -96,6 +96,371 @@ There are five members. The first member, the value-type tag, and the last membe
  
 
 
+### -field tag_inner_PROPVARIANT.cVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.bVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.iVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.uiVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.lVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.ulVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.intVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.uintVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.hVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.uhVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.fltVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.dblVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.boolVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.scode
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cyVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.date
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.filetime
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.puuid
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pclipdata
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.bstrVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.bstrblobVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.blob
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pszVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pwszVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.punkVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pdispVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pStream
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pStorage
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pVersionedStream
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.parray
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cac
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.caub
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cai
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.caui
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.caul
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cah
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cauh
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.caflt
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cadbl
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cabool
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cascode
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cacy
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cadate
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cafiletime
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cauuid
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.caclipdata
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cabstr
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.cabstrblob
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.calpstr
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.calpwstr
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.capropvar
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pcVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pbVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.piVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.puiVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.plVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pulVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pintVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.puintVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pfltVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pdblVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pboolVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pdecVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pscode
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pcyVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pdate
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pbstrVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.ppunkVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.ppdispVal
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pparray
+
+ 
+
+
+### -field tag_inner_PROPVARIANT.pvarVal
+
+ 
+
+
+### -field decVal
+
+ 
+
+
 
 
 #### - bVal

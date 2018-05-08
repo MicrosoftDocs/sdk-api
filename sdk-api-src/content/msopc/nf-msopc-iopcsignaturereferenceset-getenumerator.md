@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureReferenceSet.GetEnumerator
-title: IOpcSignatureReferenceSet::GetEnumerator method
+title: IOpcSignatureReferenceSet::GetEnumerator
 author: windows-driver-content
 description: Gets an enumerator of IOpcSignatureReference interface pointers in the set.
 old-location: opc\iopcsignaturereferenceset_getenumerator.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: a4c39119-7317-408c-9173-efd6d449002e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions], IOpcSignatureReferenceSet interface, GetEnumerator,IOpcSignatureReferenceSet.GetEnumerator, IOpcSignatureReferenceSet, IOpcSignatureReferenceSet interface [Open Packaging Conventions], GetEnumerator method, IOpcSignatureReferenceSet::GetEnumerator, msopc/IOpcSignatureReferenceSet::GetEnumerator, opc.iopcsignaturereferenceset_getenumerator
+ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcSignatureReferenceSet interface, IOpcSignatureReferenceSet interface [Open Packaging Conventions],GetEnumerator method, IOpcSignatureReferenceSet.GetEnumerator, IOpcSignatureReferenceSet::GetEnumerator, msopc/IOpcSignatureReferenceSet::GetEnumerator, opc.iopcsignaturereferenceset_getenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureReferenceSet::GetEnumerator method
+# IOpcSignatureReferenceSet::GetEnumerator
 
 
 ## -description

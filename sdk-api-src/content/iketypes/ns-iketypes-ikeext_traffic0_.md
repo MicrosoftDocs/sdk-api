@@ -64,37 +64,37 @@ req.product: GDI+ 1.1
 IP version specified by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a>.
 
 
+### -field localV4Address
+
+The local address of the traffic. 
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field localV6Address
+
+The local address of the traffic. 
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
+### -field remoteV4Address
+
+The remote address of the traffic. 
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
+
+
+### -field remoteV6Address
+
+The remote address of the traffic. 
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
+
+
 ### -field authIpFilterId
 
    Filter ID from quick mode (QM) policy of matching extended mode (EM) filter.
-
-
-#### - localV4Address
-
-The local address of the traffic. 
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - localV6Address
-
-The local address of the traffic. 
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
-
-
-#### - remoteV4Address
-
-The remote address of the traffic. 
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
-
-
-#### - remoteV6Address
-
-The remote address of the traffic. 
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V6</b>.
 
 
 ## -remarks

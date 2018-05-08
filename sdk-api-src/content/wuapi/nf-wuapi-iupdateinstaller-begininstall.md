@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.BeginInstall
-title: IUpdateInstaller::BeginInstall method
+title: IUpdateInstaller::BeginInstall
 author: windows-driver-content
 description: Starts an asynchronous installation of the updates.
 old-location: wua\iupdateinstaller_begininstall.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 756ad613-bc6b-48fb-a079-c192aa98ccfe
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: BeginInstall method [Windows Update Agent], BeginInstall method [Windows Update Agent], IUpdateInstaller interface, BeginInstall,IUpdateInstaller.BeginInstall, IUpdateInstaller, IUpdateInstaller interface [Windows Update Agent], BeginInstall method, IUpdateInstaller::BeginInstall, wua.iupdateinstaller_begininstall, wuapi/IUpdateInstaller::BeginInstall
+ms.keywords: BeginInstall, BeginInstall method [Windows Update Agent], BeginInstall method [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],BeginInstall method, IUpdateInstaller.BeginInstall, IUpdateInstaller::BeginInstall, wua.iupdateinstaller_begininstall, wuapi/IUpdateInstaller::BeginInstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateInstaller::BeginInstall method
+# IUpdateInstaller::BeginInstall
 
 
 ## -description

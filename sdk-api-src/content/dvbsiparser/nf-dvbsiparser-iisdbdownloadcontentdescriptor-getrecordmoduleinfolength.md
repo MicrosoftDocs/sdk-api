@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetRecordModuleInfoLength
-title: IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength method
+title: IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength
 author: windows-driver-content
 description: Gets the value of the module_info_length field from an Integrated Services Digital Broadcasting (ISDB) download content descriptor. The module_info_length field gives the length of the module_info_byte field in the descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_getrecordmoduleinfolength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 963f44be-e0f4-4cb7-8e71-8641af0cd700
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordModuleInfoLength method [Microsoft TV Technologies], GetRecordModuleInfoLength method [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface, GetRecordModuleInfoLength,IIsdbDownloadContentDescriptor.GetRecordModuleInfoLength, IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], GetRecordModuleInfoLength method, IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength, dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength, mstv.iisdbdownloadcontentdescriptor_getrecordmoduleinfolength
+ms.keywords: GetRecordModuleInfoLength, GetRecordModuleInfoLength method [Microsoft TV Technologies], GetRecordModuleInfoLength method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetRecordModuleInfoLength method, IIsdbDownloadContentDescriptor.GetRecordModuleInfoLength, IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength, dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength, mstv.iisdbdownloadcontentdescriptor_getrecordmoduleinfolength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength method
+# IIsdbDownloadContentDescriptor::GetRecordModuleInfoLength
 
 
 ## -description

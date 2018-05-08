@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: d472d31c-90da-4ecc-9cf7-4474457a244f
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDeviceServiceCapabilities, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK], IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK], described, portabledeviceapi/IPortableDeviceServiceCapabilities, wpdsdk.iportabledeviceservicecapabilities
+ms.keywords: IPortableDeviceServiceCapabilities, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK], IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceServiceCapabilities, wpdsdk.iportabledeviceservicecapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

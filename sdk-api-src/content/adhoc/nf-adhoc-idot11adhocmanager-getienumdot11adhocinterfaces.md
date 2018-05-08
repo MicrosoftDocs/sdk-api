@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocManager.GetIEnumDot11AdHocInterfaces
-title: IDot11AdHocManager::GetIEnumDot11AdHocInterfaces method
+title: IDot11AdHocManager::GetIEnumDot11AdHocInterfaces
 author: windows-driver-content
 description: Returns the set of wireless network interface cards (NICs) available on the machine.
 old-location: nwifi\idot11adhocmanager_getienumdot11adhocinterfaces.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: 2e705533-3657-4997-ae84-e18defbbc02a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetIEnumDot11AdHocInterfaces method [NativeWIFI], GetIEnumDot11AdHocInterfaces method [NativeWIFI], IDot11AdHocManager interface, GetIEnumDot11AdHocInterfaces,IDot11AdHocManager.GetIEnumDot11AdHocInterfaces, IDot11AdHocManager, IDot11AdHocManager interface [NativeWIFI], GetIEnumDot11AdHocInterfaces method, IDot11AdHocManager::GetIEnumDot11AdHocInterfaces, adhoc/IDot11AdHocManager::GetIEnumDot11AdHocInterfaces, nwifi.idot11adhocmanager_getienumdot11adhocinterfaces
+ms.keywords: GetIEnumDot11AdHocInterfaces, GetIEnumDot11AdHocInterfaces method [NativeWIFI], GetIEnumDot11AdHocInterfaces method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],GetIEnumDot11AdHocInterfaces method, IDot11AdHocManager.GetIEnumDot11AdHocInterfaces, IDot11AdHocManager::GetIEnumDot11AdHocInterfaces, adhoc/IDot11AdHocManager::GetIEnumDot11AdHocInterfaces, nwifi.idot11adhocmanager_getienumdot11adhocinterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDot11AdHocManager::GetIEnumDot11AdHocInterfaces method
+# IDot11AdHocManager::GetIEnumDot11AdHocInterfaces
 
 
 ## -description

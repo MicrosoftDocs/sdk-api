@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IViewObject2.GetExtent
-title: IViewObject2::GetExtent method
+title: IViewObject2::GetExtent
 author: windows-driver-content
 description: Retrieves the size that the specified view object will be drawn on the specified target device.
 old-location: com\iviewobject2_getextent.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 66eedee0-58b5-4676-93db-599ed19a02b6
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetExtent method [COM], GetExtent method [COM], IViewObject2 interface, GetExtent,IViewObject2.GetExtent, IViewObject2, IViewObject2 interface [COM], GetExtent method, IViewObject2::GetExtent, _ole_iviewobject2_getextent, com.iviewobject2_getextent, oleidl/IViewObject2::GetExtent
+ms.keywords: GetExtent, GetExtent method [COM], GetExtent method [COM],IViewObject2 interface, IViewObject2 interface [COM],GetExtent method, IViewObject2.GetExtent, IViewObject2::GetExtent, _ole_iviewobject2_getextent, com.iviewobject2_getextent, oleidl/IViewObject2::GetExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IViewObject2::GetExtent method
+# IViewObject2::GetExtent
 
 
 ## -description

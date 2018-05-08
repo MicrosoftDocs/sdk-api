@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement2.get_CurrentLiveSetting
-title: IUIAutomationElement2::get_CurrentLiveSetting method
+title: IUIAutomationElement2::get_CurrentLiveSetting
 author: windows-driver-content
 description: Indicates the type of notifications, if any, that the element sends when the content of the element changes.
 old-location: winauto\uiauto_iuiautomationelement2_currentlivesetting.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 3510E0AD-FB79-4636-B6EF-AE0FB62AD55C
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentLiveSetting property [Windows Accessibility], CurrentLiveSetting property [Windows Accessibility], IUIAutomationElement2 interface, IUIAutomationElement2, IUIAutomationElement2 interface [Windows Accessibility], CurrentLiveSetting property, IUIAutomationElement2.CurrentLiveSetting, IUIAutomationElement2::get_CurrentLiveSetting, get_CurrentLiveSetting,IUIAutomationElement2.get_CurrentLiveSetting, uiautomationclient/IUIAutomationElement2::CurrentLiveSetting, uiautomationclient/IUIAutomationElement2::get_CurrentLiveSetting, winauto.uiauto_iuiautomationelement2_currentlivesetting
+ms.keywords: CurrentLiveSetting property [Windows Accessibility], CurrentLiveSetting property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CurrentLiveSetting property, IUIAutomationElement2.CurrentLiveSetting, IUIAutomationElement2.get_CurrentLiveSetting, IUIAutomationElement2::CurrentLiveSetting, IUIAutomationElement2::get_CurrentLiveSetting, get_CurrentLiveSetting, uiautomationclient/IUIAutomationElement2::CurrentLiveSetting, uiautomationclient/IUIAutomationElement2::get_CurrentLiveSetting, winauto.uiauto_iuiautomationelement2_currentlivesetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement2::get_CurrentLiveSetting method
+# IUIAutomationElement2::get_CurrentLiveSetting
 
 
 ## -description

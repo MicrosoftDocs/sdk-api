@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.GetStreamsForRecord
-title: IMFASFMutualExclusion::GetStreamsForRecord method
+title: IMFASFMutualExclusion::GetStreamsForRecord
 author: windows-driver-content
 description: Retrieves the stream numbers contained in a record in the Advanced Systems Format mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_getstreamsforrecord.htm
 old-project: medfound
 ms.assetid: ce410ae9-d0d0-4617-8178-829ef3c77ce0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStreamsForRecord method [Media Foundation], GetStreamsForRecord method [Media Foundation], IMFASFMutualExclusion interface, GetStreamsForRecord,IMFASFMutualExclusion.GetStreamsForRecord, IMFASFMutualExclusion, IMFASFMutualExclusion interface [Media Foundation], GetStreamsForRecord method, IMFASFMutualExclusion::GetStreamsForRecord, ce410ae9-d0d0-4617-8178-829ef3c77ce0, mf.imfasfmutualexclusion_getstreamsforrecord, wmcontainer/IMFASFMutualExclusion::GetStreamsForRecord
+ms.date: 5/3/2018
+ms.keywords: GetStreamsForRecord, GetStreamsForRecord method [Media Foundation], GetStreamsForRecord method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],GetStreamsForRecord method, IMFASFMutualExclusion.GetStreamsForRecord, IMFASFMutualExclusion::GetStreamsForRecord, ce410ae9-d0d0-4617-8178-829ef3c77ce0, mf.imfasfmutualexclusion_getstreamsforrecord, wmcontainer/IMFASFMutualExclusion::GetStreamsForRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFMutualExclusion::GetStreamsForRecord method
+# IMFASFMutualExclusion::GetStreamsForRecord
 
 
 ## -description

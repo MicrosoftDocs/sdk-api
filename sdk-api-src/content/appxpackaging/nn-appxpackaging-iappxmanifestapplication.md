@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 16FC78D1-7387-4C90-9F63-BCFA110BC487
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxManifestApplication, IAppxManifestApplication interface [App packaging and management], IAppxManifestApplication interface [App packaging and management], described, appxpackaging/IAppxManifestApplication, appxpkg.iappxmanifestapplication
+ms.keywords: IAppxManifestApplication, IAppxManifestApplication interface [App packaging and management], IAppxManifestApplication interface [App packaging and management],described, appxpackaging/IAppxManifestApplication, appxpkg.iappxmanifestapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

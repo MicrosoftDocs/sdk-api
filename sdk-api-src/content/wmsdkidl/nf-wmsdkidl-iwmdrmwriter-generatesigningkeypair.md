@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter.GenerateSigningKeyPair
-title: IWMDRMWriter::GenerateSigningKeyPair method
+title: IWMDRMWriter::GenerateSigningKeyPair
 author: windows-driver-content
 description: The GenerateSigningKeyPair method generates a public and private key pair that are used to sign the DRM header object.
 old-location: wmformat\iwmdrmwriter_generatesigningkeypair.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 2ad66a22-b088-423c-b726-63bc6372f3c2
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GenerateSigningKeyPair method [windows Media Format], GenerateSigningKeyPair method [windows Media Format], IWMDRMWriter interface, GenerateSigningKeyPair,IWMDRMWriter.GenerateSigningKeyPair, IWMDRMWriter, IWMDRMWriter interface [windows Media Format], GenerateSigningKeyPair method, IWMDRMWriter::GenerateSigningKeyPair, IWMDRMWriterGenerateSigningKeyPair, wmformat.iwmdrmwriter_generatesigningkeypair, wmsdkidl/IWMDRMWriter::GenerateSigningKeyPair
+ms.keywords: GenerateSigningKeyPair, GenerateSigningKeyPair method [windows Media Format], GenerateSigningKeyPair method [windows Media Format],IWMDRMWriter interface, IWMDRMWriter interface [windows Media Format],GenerateSigningKeyPair method, IWMDRMWriter.GenerateSigningKeyPair, IWMDRMWriter::GenerateSigningKeyPair, IWMDRMWriterGenerateSigningKeyPair, wmformat.iwmdrmwriter_generatesigningkeypair, wmsdkidl/IWMDRMWriter::GenerateSigningKeyPair
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMWriter::GenerateSigningKeyPair method
+# IWMDRMWriter::GenerateSigningKeyPair
 
 
 ## -description

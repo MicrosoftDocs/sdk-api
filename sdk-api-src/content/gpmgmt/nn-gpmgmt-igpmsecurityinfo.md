@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 1205b1d7-3dc1-4ecd-b4fa-c833dd4e1a74
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMSecurityInfo, IGPMSecurityInfo, IGPMSecurityInfo interface [GPMC], IGPMSecurityInfo interface [GPMC], described, _win32_igpmsecurityinfo, gpmc.igpmsecurityinfo, gpmgmt/IGPMSecurityInfo
+ms.keywords: GPMSecurityInfo, IGPMSecurityInfo, IGPMSecurityInfo interface [GPMC], IGPMSecurityInfo interface [GPMC],described, _win32_igpmsecurityinfo, gpmc.igpmsecurityinfo, gpmgmt/IGPMSecurityInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

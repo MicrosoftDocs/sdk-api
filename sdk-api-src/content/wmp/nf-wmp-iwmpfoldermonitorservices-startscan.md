@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.startScan
-title: IWMPFolderMonitorServices::startScan method
+title: IWMPFolderMonitorServices::startScan
 author: windows-driver-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The startScan method starts a scanning operation.
 old-location: wmp\iwmpfoldermonitorservices_startscan.htm
 old-project: WMP
 ms.assetid: c54c5b7e-3abf-4006-a811-c80b06e6def9
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], startScan method, IWMPFolderMonitorServices::startScan, IWMPFolderMonitorServicesstartScan, startScan method [Windows Media Player], startScan method [Windows Media Player], IWMPFolderMonitorServices interface, startScan,IWMPFolderMonitorServices.startScan, wmp.iwmpfoldermonitorservices_startscan, wmp/IWMPFolderMonitorServices::startScan
+ms.date: 5/4/2018
+ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],startScan method, IWMPFolderMonitorServices.startScan, IWMPFolderMonitorServices::startScan, IWMPFolderMonitorServicesstartScan, startScan, startScan method [Windows Media Player], startScan method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_startscan, wmp/IWMPFolderMonitorServices::startScan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPFolderMonitorServices::startScan method
+# IWMPFolderMonitorServices::startScan
 
 
 ## -description

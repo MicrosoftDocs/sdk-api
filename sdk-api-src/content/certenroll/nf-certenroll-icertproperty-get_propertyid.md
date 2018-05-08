@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperty.get_PropertyId
-title: ICertProperty::get_PropertyId method
+title: ICertProperty::get_PropertyId
 author: windows-driver-content
 description: Specifies or retrieves a value of the CERTENROLL_PROPERTYID enumeration that identifies an external certificate property.
 old-location: security\icertproperty_propertyid_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 2829dab5-253d-4ade-bba5-d399afe87a28
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertProperty, ICertProperty interface [Security], PropertyId property, ICertProperty.PropertyId, ICertProperty::get_PropertyId, ICertProperty::put_PropertyId, PropertyId property [Security], PropertyId property [Security], ICertProperty interface, certenroll/ICertProperty::PropertyId, certenroll/ICertProperty::get_PropertyId, certenroll/ICertProperty::put_PropertyId, get_PropertyId,ICertProperty.get_PropertyId, security.icertproperty_propertyid_property
+ms.keywords: ICertProperty interface [Security],PropertyId property, ICertProperty.PropertyId, ICertProperty.get_PropertyId, ICertProperty::PropertyId, ICertProperty::get_PropertyId, ICertProperty::put_PropertyId, PropertyId property [Security], PropertyId property [Security],ICertProperty interface, certenroll/ICertProperty::PropertyId, certenroll/ICertProperty::get_PropertyId, certenroll/ICertProperty::put_PropertyId, get_PropertyId, security.icertproperty_propertyid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertProperty::get_PropertyId method
+# ICertProperty::get_PropertyId
 
 
 ## -description

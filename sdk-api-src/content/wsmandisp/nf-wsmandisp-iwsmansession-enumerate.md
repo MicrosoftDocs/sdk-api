@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Enumerate
-title: IWSManSession::Enumerate method
+title: IWSManSession::Enumerate
 author: windows-driver-content
 description: Enumerates a table, data collection, or log resource.
 old-location: winrm\iwsmansession_enumerate.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: b1a4815e-93aa-4a30-a67e-c52fd06c1ee1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Enumerate method [Windows Remote Management], Enumerate method [Windows Remote Management], IWSManSession interface, Enumerate,IWSManSession.Enumerate, IWSManSession, IWSManSession interface [Windows Remote Management], Enumerate method, IWSManSession::Enumerate, winrm.iwsmansession_enumerate, wsmandisp/IWSManSession::Enumerate
+ms.keywords: Enumerate, Enumerate method [Windows Remote Management], Enumerate method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Enumerate method, IWSManSession.Enumerate, IWSManSession::Enumerate, winrm.iwsmansession_enumerate, wsmandisp/IWSManSession::Enumerate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManSession::Enumerate method
+# IWSManSession::Enumerate
 
 
 ## -description

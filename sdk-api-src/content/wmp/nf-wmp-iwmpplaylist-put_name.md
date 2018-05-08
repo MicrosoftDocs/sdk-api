@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlaylist.put_name
-title: IWMPPlaylist::put_name method
+title: IWMPPlaylist::put_name
 author: windows-driver-content
 description: The put_name method specifies the name of the playlist.
 old-location: wmp\iwmpplaylist_put_name.htm
 old-project: WMP
 ms.assetid: 749dae2f-d9c3-4bbb-9a2f-042388f5ce0c
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlaylist, IWMPPlaylist interface [Windows Media Player], put_name method, IWMPPlaylist::put_name, IWMPPlaylistput_name, put_name method [Windows Media Player], put_name method [Windows Media Player], IWMPPlaylist interface, put_name,IWMPPlaylist.put_name, wmp.iwmpplaylist_put_name, wmp/IWMPPlaylist::put_name
+ms.date: 5/4/2018
+ms.keywords: IWMPPlaylist interface [Windows Media Player],put_name method, IWMPPlaylist.put_name, IWMPPlaylist::put_name, IWMPPlaylistput_name, put_name, put_name method [Windows Media Player], put_name method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_put_name, wmp/IWMPPlaylist::put_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlaylist::put_name method
+# IWMPPlaylist::put_name
 
 
 ## -description

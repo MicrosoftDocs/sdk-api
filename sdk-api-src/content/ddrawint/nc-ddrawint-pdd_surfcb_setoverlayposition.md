@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 0bafdeea-d06d-4c25-9ee5-b7df23d7dd20
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DdSetOverlayPosition, DdSetOverlayPosition callback function [Display Devices], PDD_SURFCB_SETOVERLAYPOSITION, ddfncs_9e5f3748-1da5-4512-9024-88939ee0d3fc.xml, ddrawint/DdSetOverlayPosition, display.ddsetoverlayposition
+ms.keywords: DdSetOverlayPosition, DdSetOverlayPosition callback function [Display Devices], PDD_SURFCB_SETOVERLAYPOSITION, PDD_SURFCB_SETOVERLAYPOSITION callback, ddfncs_9e5f3748-1da5-4512-9024-88939ee0d3fc.xml, ddrawint/DdSetOverlayPosition, display.ddsetoverlayposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PDD_SURFCB_SETOVERLAYPOSITION callback
+# PDD_SURFCB_SETOVERLAYPOSITION callback function
 
 
 ## -description

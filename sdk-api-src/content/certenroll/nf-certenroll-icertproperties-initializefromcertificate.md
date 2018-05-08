@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperties.InitializeFromCertificate
-title: ICertProperties::InitializeFromCertificate method
+title: ICertProperties::InitializeFromCertificate
 author: windows-driver-content
 description: Initializes the collection from the properties contained in a certificate.
 old-location: security\icertproperties_initializefromcertificate_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 74de47cb-44fd-45d7-ba32-03824fc0995d
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertProperties, ICertProperties interface [Security], InitializeFromCertificate method, ICertProperties::InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security], ICertProperties interface, InitializeFromCertificate,ICertProperties.InitializeFromCertificate, certenroll/ICertProperties::InitializeFromCertificate, security.icertproperties_initializefromcertificate_method
+ms.keywords: ICertProperties interface [Security],InitializeFromCertificate method, ICertProperties.InitializeFromCertificate, ICertProperties::InitializeFromCertificate, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],ICertProperties interface, certenroll/ICertProperties::InitializeFromCertificate, security.icertproperties_initializefromcertificate_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertProperties::InitializeFromCertificate method
+# ICertProperties::InitializeFromCertificate
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorProfile.GetProfileId
-title: IMFSensorProfile::GetProfileId method
+title: IMFSensorProfile::GetProfileId
 author: windows-driver-content
 description: Retrieves the sensor profile ID.
 old-location: mf\imfsensorprofile_getprofileid.htm
 old-project: medfound
 ms.assetid: EBBDCC39-8FF9-421B-867D-0AD950C2DDF5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetProfileId method [Media Foundation], GetProfileId method [Media Foundation], IMFSensorProfile interface, GetProfileId,IMFSensorProfile.GetProfileId, IMFSensorProfile, IMFSensorProfile interface [Media Foundation], GetProfileId method, IMFSensorProfile::GetProfileId, mf.imfsensorprofile_getprofileid, mfidl/IMFSensorProfile::GetProfileId
+ms.date: 5/3/2018
+ms.keywords: GetProfileId, GetProfileId method [Media Foundation], GetProfileId method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],GetProfileId method, IMFSensorProfile.GetProfileId, IMFSensorProfile::GetProfileId, mf.imfsensorprofile_getprofileid, mfidl/IMFSensorProfile::GetProfileId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorProfile::GetProfileId method
+# IMFSensorProfile::GetProfileId
 
 
 ## -description

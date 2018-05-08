@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.get_TransactionAffinity
-title: IServicePoolConfig::get_TransactionAffinity method
+title: IServicePoolConfig::get_TransactionAffinity
 author: windows-driver-content
 description: Determines whether objects involved in transactions are held until the transaction completes.
 old-location: cos\iservicepoolconfig_get_transactionaffinity.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: ac227f22-1ed3-4c75-8469-e8635e2d2849
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IServicePoolConfig, IServicePoolConfig interface [COM+], get_TransactionAffinity method, IServicePoolConfig::get_TransactionAffinity, comsvcs/IServicePoolConfig::get_TransactionAffinity, cos.iservicepoolconfig_get_transactionaffinity, get_TransactionAffinity method [COM+], get_TransactionAffinity method [COM+], IServicePoolConfig interface, get_TransactionAffinity,IServicePoolConfig.get_TransactionAffinity
+ms.keywords: IServicePoolConfig interface [COM+],get_TransactionAffinity method, IServicePoolConfig.get_TransactionAffinity, IServicePoolConfig::get_TransactionAffinity, comsvcs/IServicePoolConfig::get_TransactionAffinity, cos.iservicepoolconfig_get_transactionaffinity, get_TransactionAffinity, get_TransactionAffinity method [COM+], get_TransactionAffinity method [COM+],IServicePoolConfig interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IServicePoolConfig::get_TransactionAffinity method
+# IServicePoolConfig::get_TransactionAffinity
 
 
 ## -description

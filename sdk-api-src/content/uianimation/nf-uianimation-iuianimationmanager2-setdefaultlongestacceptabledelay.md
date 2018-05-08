@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.SetDefaultLongestAcceptableDelay
-title: IUIAnimationManager2::SetDefaultLongestAcceptableDelay method
+title: IUIAnimationManager2::SetDefaultLongestAcceptableDelay
 author: windows-driver-content
 description: Sets the default acceptable animation delay. This is the length of time that may pass before storyboards begin.
 old-location: uianimation\iuianimationmanager2_setdefaultlongestacceptabledelay.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: CB00C22B-9837-43AD-9E04-30182B7386E9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationManager2, IUIAnimationManager2 interface [Windows Animation], SetDefaultLongestAcceptableDelay method, IUIAnimationManager2::SetDefaultLongestAcceptableDelay, SetDefaultLongestAcceptableDelay method [Windows Animation], SetDefaultLongestAcceptableDelay method [Windows Animation], IUIAnimationManager2 interface, SetDefaultLongestAcceptableDelay,IUIAnimationManager2.SetDefaultLongestAcceptableDelay, uianimation.iuianimationmanager2_setdefaultlongestacceptabledelay, uianimation/IUIAnimationManager2::SetDefaultLongestAcceptableDelay
+ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetDefaultLongestAcceptableDelay method, IUIAnimationManager2.SetDefaultLongestAcceptableDelay, IUIAnimationManager2::SetDefaultLongestAcceptableDelay, SetDefaultLongestAcceptableDelay, SetDefaultLongestAcceptableDelay method [Windows Animation], SetDefaultLongestAcceptableDelay method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_setdefaultlongestacceptabledelay, uianimation/IUIAnimationManager2::SetDefaultLongestAcceptableDelay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager2::SetDefaultLongestAcceptableDelay method
+# IUIAnimationManager2::SetDefaultLongestAcceptableDelay
 
 
 ## -description

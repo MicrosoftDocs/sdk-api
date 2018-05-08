@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.get_SharingEnabled
-title: INetSharingConfiguration::get_SharingEnabled method
+title: INetSharingConfiguration::get_SharingEnabled
 author: windows-driver-content
 description: The get_SharingEnabled method determines whether sharing is enabled on this connection.
 old-location: ics\inetsharingconfiguration_get_sharingenabled.htm
 old-project: ICS
 ms.assetid: b8872235-0ef3-4ade-8085-fd90f40549af
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], get_SharingEnabled method, INetSharingConfiguration::get_SharingEnabled, _ics_inetsharingconfiguration_get_sharingenabled, get_SharingEnabled method [ICS/ICF], get_SharingEnabled method [ICS/ICF], INetSharingConfiguration interface, get_SharingEnabled,INetSharingConfiguration.get_SharingEnabled, ics.inetsharingconfiguration_get_sharingenabled, netcon/INetSharingConfiguration::get_SharingEnabled
+ms.date: 5/1/2018
+ms.keywords: INetSharingConfiguration interface [ICS/ICF],get_SharingEnabled method, INetSharingConfiguration.get_SharingEnabled, INetSharingConfiguration::get_SharingEnabled, _ics_inetsharingconfiguration_get_sharingenabled, get_SharingEnabled, get_SharingEnabled method [ICS/ICF], get_SharingEnabled method [ICS/ICF],INetSharingConfiguration interface, ics.inetsharingconfiguration_get_sharingenabled, netcon/INetSharingConfiguration::get_SharingEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingConfiguration::get_SharingEnabled method
+# INetSharingConfiguration::get_SharingEnabled
 
 
 ## -description

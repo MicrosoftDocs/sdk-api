@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_configure_accessible_encryption_input.htm
 old-project: medfound
 ms.assetid: CEC3B9BC-CEDB-448E-9088-35EBF9D7906F
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION_INPUT, D3D11_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION_INPUT, mf.d3d11_authenticated_configure_accessible_encryption_input
 ms.prod: windows-hardware
 ms.technology: windows-devices

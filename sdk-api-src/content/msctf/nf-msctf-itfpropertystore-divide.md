@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPropertyStore.Divide
-title: ITfPropertyStore::Divide method
+title: ITfPropertyStore::Divide
 author: windows-driver-content
 description: ITfPropertyStore::Divide method
 old-location: tsf\itfpropertystore_divide.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5b982cb1-e1b6-440b-9ac6-9b34bb86731d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Divide method [Text Services Framework], Divide method [Text Services Framework], ITfPropertyStore interface, Divide,ITfPropertyStore.Divide, ITfPropertyStore, ITfPropertyStore interface [Text Services Framework], Divide method, ITfPropertyStore::Divide, _tsf_itfpropertystore_divide_ref, msctf/ITfPropertyStore::Divide, tsf.itfpropertystore_divide
+ms.keywords: Divide, Divide method [Text Services Framework], Divide method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],Divide method, ITfPropertyStore.Divide, ITfPropertyStore::Divide, _tsf_itfpropertystore_divide_ref, msctf/ITfPropertyStore::Divide, tsf.itfpropertystore_divide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfPropertyStore::Divide method
+# ITfPropertyStore::Divide
 
 
 ## -description

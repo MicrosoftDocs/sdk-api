@@ -358,6 +358,16 @@ Not used.
  
 
 
+### -field DUMMYUNIONNAMEN.dwCaps4
+
+ 
+
+
+### -field DUMMYUNIONNAMEN.dwVolumeDepth
+
+ 
+
+
 
 
 #### - DUMMYUNIONNAMEN(1)

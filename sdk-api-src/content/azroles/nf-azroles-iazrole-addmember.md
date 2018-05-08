@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.AddMember
-title: IAzRole::AddMember method
+title: IAzRole::AddMember
 author: windows-driver-content
 description: Adds the specified security identifier (SID) in text form to the list of Windows accounts that belong to the role.
 old-location: security\iazrole_addmember.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: b2be62cb-7256-4031-8af9-24f3043a8430
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddMember method [Security], AddMember method [Security], AzRole object, AddMember method [Security], IAzRole interface, AddMember,IAzRole.AddMember, AzRole object [Security], AddMember method, IAzRole, IAzRole interface [Security], AddMember method, IAzRole::AddMember, azroles/IAzRole::AddMember, security.iazrole_addmember
+ms.keywords: AddMember, AddMember method [Security], AddMember method [Security],AzRole object, AddMember method [Security],IAzRole interface, AzRole object [Security],AddMember method, IAzRole interface [Security],AddMember method, IAzRole.AddMember, IAzRole::AddMember, azroles/IAzRole::AddMember, security.iazrole_addmember
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzRole::AddMember method
+# IAzRole::AddMember
 
 
 ## -description

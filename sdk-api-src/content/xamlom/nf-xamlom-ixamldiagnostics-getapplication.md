@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetApplication
-title: IXamlDiagnostics::GetApplication method
+title: IXamlDiagnostics::GetApplication
 author: windows-driver-content
 description: Gets an instance of the application.
 old-location: xaml_diagnostics\ixamldiagnostics_getapplication.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: EA010DA4-2D13-41E9-B3E4-AD84AAF4E3FD
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: GetApplication method, GetApplication method, IXamlDiagnostics interface, GetApplication,IXamlDiagnostics.GetApplication, IXamlDiagnostics, IXamlDiagnostics interface, GetApplication method, IXamlDiagnostics::GetApplication, xaml_diagnostics.ixamldiagnostics_getapplication, xamlom/IXamlDiagnostics::GetApplication
+ms.keywords: GetApplication, GetApplication method, GetApplication method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetApplication method, IXamlDiagnostics.GetApplication, IXamlDiagnostics::GetApplication, xaml_diagnostics.ixamldiagnostics_getapplication, xamlom/IXamlDiagnostics::GetApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXamlDiagnostics::GetApplication method
+# IXamlDiagnostics::GetApplication
 
 
 ## -description

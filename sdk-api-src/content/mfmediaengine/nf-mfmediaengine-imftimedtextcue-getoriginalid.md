@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetOriginalId
-title: IMFTimedTextCue::GetOriginalId method
+title: IMFTimedTextCue::GetOriginalId
 author: windows-driver-content
 description: Gets the cue identifier that is provided in the text-track data format, if available.
 old-location: mf\imftimedtextcue_getoriginalid.htm
 old-project: medfound
 ms.assetid: D5B94171-AEB0-4A7D-B596-F888B69A436D
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetOriginalId method [Media Foundation], GetOriginalId method [Media Foundation], IMFTimedTextCue interface, GetOriginalId,IMFTimedTextCue.GetOriginalId, IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], GetOriginalId method, IMFTimedTextCue::GetOriginalId, mf.imftimedtextcue_getoriginalid, mfmediaengine/IMFTimedTextCue::GetOriginalId
+ms.date: 5/3/2018
+ms.keywords: GetOriginalId, GetOriginalId method [Media Foundation], GetOriginalId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetOriginalId method, IMFTimedTextCue.GetOriginalId, IMFTimedTextCue::GetOriginalId, mf.imftimedtextcue_getoriginalid, mfmediaengine/IMFTimedTextCue::GetOriginalId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextCue::GetOriginalId method
+# IMFTimedTextCue::GetOriginalId
 
 
 ## -description

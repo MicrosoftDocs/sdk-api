@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumfilterv4.htm
 old-project: DHCP
 ms.assetid: a861b34a-19cc-4732-bb38-6b0643319640
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpEnumFilterV4, DhcpEnumFilterV4 function [DHCP], dhcp.dhcpenumfilterv4, dhcpsapi/DhcpEnumFilterV4
 ms.prod: windows-hardware
 ms.technology: windows-devices

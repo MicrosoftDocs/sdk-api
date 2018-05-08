@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMapEntryCollection.get__NewEnum
-title: IGPMMapEntryCollection::get__NewEnum method
+title: IGPMMapEntryCollection::get__NewEnum
 author: windows-driver-content
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmmapentrycollection_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 7c169028-e87f-45d2-aadd-c403699cfd73
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IGPMMapEntryCollection, IGPMMapEntryCollection interface [GPMC], get__NewEnum method, IGPMMapEntryCollection::get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC], IGPMMapEntryCollection interface, get__NewEnum,IGPMMapEntryCollection.get__NewEnum, gpmc.igpmmapentrycollection_get__newenum, gpmgmt/IGPMMapEntryCollection::get__NewEnum
+ms.keywords: IGPMMapEntryCollection interface [GPMC],get__NewEnum method, IGPMMapEntryCollection.get__NewEnum, IGPMMapEntryCollection::get__NewEnum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMMapEntryCollection interface, gpmc.igpmmapentrycollection_get__newenum, gpmgmt/IGPMMapEntryCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMMapEntryCollection::get__NewEnum method
+# IGPMMapEntryCollection::get__NewEnum
 
 
 ## -description

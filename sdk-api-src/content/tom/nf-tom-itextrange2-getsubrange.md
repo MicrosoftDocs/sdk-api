@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange2.GetSubrange
-title: ITextRange2::GetSubrange method
+title: ITextRange2::GetSubrange
 author: windows-driver-content
 description: Retrieves a subrange in a range.
 old-location: controls\itextrange2_getsubrange.htm
 old-project: Controls
 ms.assetid: 64b031cf-9d32-4e36-8e13-f32a53f00abf
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetSubrange method [Windows Controls], GetSubrange method [Windows Controls], ITextRange2 interface, GetSubrange,ITextRange2.GetSubrange, ITextRange2, ITextRange2 interface [Windows Controls], GetSubrange method, ITextRange2::GetSubrange, controls.itextrange2_getsubrange, tom/ITextRange2::GetSubrange
+ms.date: 4/27/2018
+ms.keywords: GetSubrange, GetSubrange method [Windows Controls], GetSubrange method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetSubrange method, ITextRange2.GetSubrange, ITextRange2::GetSubrange, controls.itextrange2_getsubrange, tom/ITextRange2::GetSubrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange2::GetSubrange method
+# ITextRange2::GetSubrange
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateDateTime
-title: IPropertyValueStatics::CreateDateTime method
+title: IPropertyValueStatics::IPropertyValueStatics
 author: windows-driver-content
 description: Creates a new IPropertyValue object that contains the specified DateTime value.
 old-location: winrt\ipropertyvaluestatics_createdatetime.htm
 old-project: WinRT
 ms.assetid: d7191a38-df9e-4e19-a128-35260bbbfba9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CreateDateTime method [Windows Runtime], CreateDateTime method [Windows Runtime], IPropertyValueStatics interface, CreateDateTime,IPropertyValueStatics.CreateDateTime, IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], CreateDateTime method, IPropertyValueStatics::CreateDateTime, windows/IPropertyValueStatics::CreateDateTime, winrt.ipropertyvaluefactory_createdatetime, winrt.ipropertyvaluestatics_createdatetime
+ms.date: 5/4/2018
+ms.keywords: CreateDateTime, CreateDateTime method [Windows Runtime], CreateDateTime method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateDateTime method, IPropertyValueStatics.CreateDateTime, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateDateTime, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateDateTime, winrt.ipropertyvaluefactory_createdatetime, winrt.ipropertyvaluestatics_createdatetime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValueStatics::CreateDateTime method
+# IPropertyValueStatics::IPropertyValueStatics
 
 
 ## -description

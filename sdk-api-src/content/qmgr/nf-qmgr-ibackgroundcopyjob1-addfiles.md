@@ -1,14 +1,14 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.AddFiles
-title: IBackgroundCopyJob1::AddFiles method
+title: IBackgroundCopyJob1::AddFiles
 author: windows-driver-content
 description: Use the AddFiles method to add one or more files to download to the job.
 old-location: bits\ibackgroundcopyjob1_addfiles.htm
 old-project: Bits
 ms.assetid: 4a9860da-3977-4b97-957f-dd4de1e775cb
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: AddFiles method [BITS], AddFiles method [BITS], IBackgroundCopyJob1 interface, AddFiles,IBackgroundCopyJob1.AddFiles, IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], AddFiles method, IBackgroundCopyJob1::AddFiles, bits.ibackgroundcopyjob1_addfiles, qmgr/IBackgroundCopyJob1::AddFiles
+ms.date: 4/27/2018
+ms.keywords: AddFiles, AddFiles method [BITS], AddFiles method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],AddFiles method, IBackgroundCopyJob1.AddFiles, IBackgroundCopyJob1::AddFiles, bits.ibackgroundcopyjob1_addfiles, qmgr/IBackgroundCopyJob1::AddFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IBackgroundCopyJob1::AddFiles method
+# IBackgroundCopyJob1::AddFiles
 
 
 ## -description

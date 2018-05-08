@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.ProcessChangeBatch
-title: IKnowledgeSyncProvider::ProcessChangeBatch method
+title: IKnowledgeSyncProvider::ProcessChangeBatch
 author: windows-driver-content
 description: Processes a set of changes by detecting conflicts and applying changes to the item store.
 old-location: winsync\iknowledgesyncprovider_processchangebatch.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 528a109a-9c11-4e20-b3d5-9bb7241d02b6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IKnowledgeSyncProvider, IKnowledgeSyncProvider interface [Windows Sync], ProcessChangeBatch method, IKnowledgeSyncProvider::ProcessChangeBatch, ProcessChangeBatch method [Windows Sync], ProcessChangeBatch method [Windows Sync], IKnowledgeSyncProvider interface, ProcessChangeBatch,IKnowledgeSyncProvider.ProcessChangeBatch, winsync.iknowledgesyncprovider_processchangebatch, winsync/IKnowledgeSyncProvider::ProcessChangeBatch
+ms.keywords: IKnowledgeSyncProvider interface [Windows Sync],ProcessChangeBatch method, IKnowledgeSyncProvider.ProcessChangeBatch, IKnowledgeSyncProvider::ProcessChangeBatch, ProcessChangeBatch, ProcessChangeBatch method [Windows Sync], ProcessChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, winsync.iknowledgesyncprovider_processchangebatch, winsync/IKnowledgeSyncProvider::ProcessChangeBatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IKnowledgeSyncProvider::ProcessChangeBatch method
+# IKnowledgeSyncProvider::ProcessChangeBatch
 
 
 ## -description

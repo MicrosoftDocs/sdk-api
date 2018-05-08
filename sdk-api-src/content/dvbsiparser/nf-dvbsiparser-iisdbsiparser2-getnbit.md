@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSiParser2.GetNBIT
-title: IIsdbSiParser2::GetNBIT method
+title: IIsdbSiParser2::GetNBIT
 author: windows-driver-content
 description: Gets the network board information table (NBIT) from an Integrated Services Digital Broadcast (ISDB) transport stream. The NBIT describes the programs included in a multiplexed transport stream.
 old-location: mstv\iisdbsiparser2_getnbit.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 90c47d88-b364-4b42-b51b-dfa3c9eed4b0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetNBIT method [Microsoft TV Technologies], GetNBIT method [Microsoft TV Technologies], IIsdbSiParser2 interface, GetNBIT,IIsdbSiParser2.GetNBIT, IIsdbSiParser2, IIsdbSiParser2 interface [Microsoft TV Technologies], GetNBIT method, IIsdbSiParser2::GetNBIT, dvbsiparser/IIsdbSiParser2::GetNBIT, mstv.iisdbsiparser2_getnbit
+ms.keywords: GetNBIT, GetNBIT method [Microsoft TV Technologies], GetNBIT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetNBIT method, IIsdbSiParser2.GetNBIT, IIsdbSiParser2::GetNBIT, dvbsiparser/IIsdbSiParser2::GetNBIT, mstv.iisdbsiparser2_getnbit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbSiParser2::GetNBIT method
+# IIsdbSiParser2::GetNBIT
 
 
 ## -description

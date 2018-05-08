@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_EncryptionAlgorithm
-title: IX509CertificateRequestCmc::get_EncryptionAlgorithm method
+title: IX509CertificateRequestCmc::get_EncryptionAlgorithm
 author: windows-driver-content
 description: Specifies or retrieves an object identifier (OID) of the algorithm used to encrypt the private key to be archived.
 old-location: security\ix509certificaterequestcmc_encryptionalgorithm_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: c46b3373-6d9e-46d9-a36a-b73a718ddaf7
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: EncryptionAlgorithm property [Security], EncryptionAlgorithm property [Security], IX509CertificateRequestCmc interface, IX509CertificateRequestCmc, IX509CertificateRequestCmc interface [Security], EncryptionAlgorithm property, IX509CertificateRequestCmc.EncryptionAlgorithm, IX509CertificateRequestCmc::get_EncryptionAlgorithm, IX509CertificateRequestCmc::put_EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::get_EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::put_EncryptionAlgorithm, get_EncryptionAlgorithm,IX509CertificateRequestCmc.get_EncryptionAlgorithm, security.ix509certificaterequestcmc_encryptionalgorithm_property
+ms.keywords: EncryptionAlgorithm property [Security], EncryptionAlgorithm property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],EncryptionAlgorithm property, IX509CertificateRequestCmc.EncryptionAlgorithm, IX509CertificateRequestCmc.get_EncryptionAlgorithm, IX509CertificateRequestCmc::EncryptionAlgorithm, IX509CertificateRequestCmc::get_EncryptionAlgorithm, IX509CertificateRequestCmc::put_EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::get_EncryptionAlgorithm, certenroll/IX509CertificateRequestCmc::put_EncryptionAlgorithm, get_EncryptionAlgorithm, security.ix509certificaterequestcmc_encryptionalgorithm_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestCmc::get_EncryptionAlgorithm method
+# IX509CertificateRequestCmc::get_EncryptionAlgorithm
 
 
 ## -description

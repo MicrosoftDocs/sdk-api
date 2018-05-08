@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetOwner
-title: IXpsOMGeometryFigure::GetOwner method
+title: IXpsOMGeometryFigure::GetOwner
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMGeometry interface that contains the geometry figure.
 old-location: xps\ixpsomgeometryfigure_getowner.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 520e52ff-fb65-430f-972c-40ca2ab959b2
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging], IXpsOMGeometryFigure interface, GetOwner,IXpsOMGeometryFigure.GetOwner, IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], GetOwner method, IXpsOMGeometryFigure::GetOwner, xps.ixpsomgeometryfigure_getowner, xpsobjectmodel/IXpsOMGeometryFigure::GetOwner
+ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetOwner method, IXpsOMGeometryFigure.GetOwner, IXpsOMGeometryFigure::GetOwner, xps.ixpsomgeometryfigure_getowner, xpsobjectmodel/IXpsOMGeometryFigure::GetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigure::GetOwner method
+# IXpsOMGeometryFigure::GetOwner
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.FindClockVectorForChangeUnit
-title: ISyncKnowledge::FindClockVectorForChangeUnit method
+title: ISyncKnowledge::FindClockVectorForChangeUnit
 author: windows-driver-content
 description: Gets the clock vector that is associated with the specified change unit ID.
 old-location: winsync\isyncknowledge_findclockvectorforchangeunit.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: b5114f66-419f-4fea-87ad-3c2cc43eb2fd
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: FindClockVectorForChangeUnit method [Windows Sync], FindClockVectorForChangeUnit method [Windows Sync], ISyncKnowledge interface, FindClockVectorForChangeUnit,ISyncKnowledge.FindClockVectorForChangeUnit, ISyncKnowledge, ISyncKnowledge interface [Windows Sync], FindClockVectorForChangeUnit method, ISyncKnowledge::FindClockVectorForChangeUnit, winsync.isyncknowledge_findclockvectorforchangeunit, winsync/ISyncKnowledge::FindClockVectorForChangeUnit
+ms.keywords: FindClockVectorForChangeUnit, FindClockVectorForChangeUnit method [Windows Sync], FindClockVectorForChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],FindClockVectorForChangeUnit method, ISyncKnowledge.FindClockVectorForChangeUnit, ISyncKnowledge::FindClockVectorForChangeUnit, winsync.isyncknowledge_findclockvectorforchangeunit, winsync/ISyncKnowledge::FindClockVectorForChangeUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::FindClockVectorForChangeUnit method
+# ISyncKnowledge::FindClockVectorForChangeUnit
 
 
 ## -description

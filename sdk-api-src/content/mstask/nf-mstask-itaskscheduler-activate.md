@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskScheduler.Activate
-title: ITaskScheduler::Activate method
+title: ITaskScheduler::Activate
 author: windows-driver-content
 description: The Activate method returns an active interface for a specified work item.
 old-location: taskschd\itaskscheduler_activate.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 27391e34-8632-4ab5-9d6e-d2fde7942f80
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Activate method [Task Scheduler], Activate method [Task Scheduler], ITaskScheduler interface, Activate,ITaskScheduler.Activate, ITaskScheduler, ITaskScheduler interface [Task Scheduler], Activate method, ITaskScheduler::Activate, _msb_itaskscheduler_activate, mstask/ITaskScheduler::Activate, taskschd.itaskscheduler_activate
+ms.keywords: Activate, Activate method [Task Scheduler], Activate method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],Activate method, ITaskScheduler.Activate, ITaskScheduler::Activate, _msb_itaskscheduler_activate, mstask/ITaskScheduler::Activate, taskschd.itaskscheduler_activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITaskScheduler::Activate method
+# ITaskScheduler::Activate
 
 
 ## -description

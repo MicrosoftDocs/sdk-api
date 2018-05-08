@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnSetFocus
-title: ITfThreadMgrEventSink::OnSetFocus method
+title: ITfThreadMgrEventSink::OnSetFocus
 author: windows-driver-content
 description: ITfThreadMgrEventSink::OnSetFocus method
 old-location: tsf\itfthreadmgreventsink_onsetfocus.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 2c8f2b0a-5b56-4814-bed4-6875a09de176
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfThreadMgrEventSink, ITfThreadMgrEventSink interface [Text Services Framework], OnSetFocus method, ITfThreadMgrEventSink::OnSetFocus, OnSetFocus method [Text Services Framework], OnSetFocus method [Text Services Framework], ITfThreadMgrEventSink interface, OnSetFocus,ITfThreadMgrEventSink.OnSetFocus, _tsf_itfthreadmgreventsink_onsetfocus_ref, msctf/ITfThreadMgrEventSink::OnSetFocus, tsf.itfthreadmgreventsink_onsetfocus
+ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnSetFocus method, ITfThreadMgrEventSink.OnSetFocus, ITfThreadMgrEventSink::OnSetFocus, OnSetFocus, OnSetFocus method [Text Services Framework], OnSetFocus method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onsetfocus_ref, msctf/ITfThreadMgrEventSink::OnSetFocus, tsf.itfthreadmgreventsink_onsetfocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgrEventSink::OnSetFocus method
+# ITfThreadMgrEventSink::OnSetFocus
 
 
 ## -description

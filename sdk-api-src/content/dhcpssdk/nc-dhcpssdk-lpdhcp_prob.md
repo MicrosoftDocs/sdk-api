@@ -7,8 +7,8 @@ old-location: dhcp\dhcpaddressdelhook.htm
 old-project: DHCP
 ms.assetid: fd9ce5df-927d-4b34-9561-ff5a2ebad16e
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
-ms.keywords: DhcpAddressDelHook, DhcpAddressDelHook callback function [DHCP], LPDHCP_PROB, _dhcp_dhcpaddressdelhook, dhcp.dhcpaddressdelhook, dhcpssdk/DhcpAddressDelHook
+ms.date: 5/2/2018
+ms.keywords: DhcpAddressDelHook, DhcpAddressDelHook callback function [DHCP], LPDHCP_PROB, LPDHCP_PROB callback, _dhcp_dhcpaddressdelhook, dhcp.dhcpaddressdelhook, dhcpssdk/DhcpAddressDelHook
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# LPDHCP_PROB callback
+# LPDHCP_PROB callback function
 
 
 ## -description

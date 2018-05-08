@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed
-title: IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed method
+title: IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed
 author: windows-driver-content
 description: Creates a linear-speed transition.
 old-location: uianimation\iuianimationtransitionlibrary_createlineartransitionfromspeed.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 0f9ce1c0-8681-456d-8ab5-76214dc529ba
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateLinearTransitionFromSpeed method [Windows Animation], CreateLinearTransitionFromSpeed method [Windows Animation], IUIAnimationTransitionLibrary interface, CreateLinearTransitionFromSpeed,IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed, IUIAnimationTransitionLibrary, IUIAnimationTransitionLibrary interface [Windows Animation], CreateLinearTransitionFromSpeed method, IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed, uianimation.iuianimationtransitionlibrary_createlineartransitionfromspeed, uianimation/IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed
+ms.keywords: CreateLinearTransitionFromSpeed, CreateLinearTransitionFromSpeed method [Windows Animation], CreateLinearTransitionFromSpeed method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateLinearTransitionFromSpeed method, IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed, IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed, uianimation.iuianimationtransitionlibrary_createlineartransitionfromspeed, uianimation/IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed method
+# IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed
 
 
 ## -description

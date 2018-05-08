@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_Description
-title: IEventSubscription::put_Description method
+title: IEventSubscription::put_Description
 author: windows-driver-content
 description: A displayable text description of the subscription.
 old-location: cos\ieventsubscription_description.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 59648682-12c4-4c55-83f6-57c6ec5d6d02
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: Description property [COM+], Description property [COM+], IEventSubscription interface, IEventSubscription, IEventSubscription interface [COM+], Description property, IEventSubscription.Description, IEventSubscription::get_Description, IEventSubscription::put_Description, cos.ieventsubscription_description, eventsys/IEventSubscription::Description, eventsys/IEventSubscription::get_Description, eventsys/IEventSubscription::put_Description, put_Description,IEventSubscription.put_Description
+ms.keywords: Description property [COM+], Description property [COM+],IEventSubscription interface, IEventSubscription interface [COM+],Description property, IEventSubscription.Description, IEventSubscription.put_Description, IEventSubscription::Description, IEventSubscription::get_Description, IEventSubscription::put_Description, cos.ieventsubscription_description, eventsys/IEventSubscription::Description, eventsys/IEventSubscription::get_Description, eventsys/IEventSubscription::put_Description, put_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSubscription::put_Description method
+# IEventSubscription::put_Description
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.put_EncryptionStrength
-title: IX509CertificateRequestPkcs10V3::put_EncryptionStrength method
+title: IX509CertificateRequestPkcs10V3::put_EncryptionStrength
 author: windows-driver-content
 description: Identifies the bit length for the EncryptionAlgorithm to use for encryption. If the EncryptionAlgorithm only supports one bit length, then you do not need to specify a value for the EncryptionStrength property.
 old-location: security\ix509certificaterequestpkcs10v3_encryptionstrength.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 4c3f1825-ded8-4692-9ad9-b6c09beffc71
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: EncryptionStrength property [Security], EncryptionStrength property [Security], IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3, IX509CertificateRequestPkcs10V3 interface [Security], EncryptionStrength property, IX509CertificateRequestPkcs10V3.EncryptionStrength, IX509CertificateRequestPkcs10V3::get_EncryptionStrength, IX509CertificateRequestPkcs10V3::put_EncryptionStrength, certenroll/IX509CertificateRequestPkcs10V3::EncryptionStrength, certenroll/IX509CertificateRequestPkcs10V3::get_EncryptionStrength, certenroll/IX509CertificateRequestPkcs10V3::put_EncryptionStrength, put_EncryptionStrength,IX509CertificateRequestPkcs10V3.put_EncryptionStrength, security.ix509certificaterequestpkcs10v3_encryptionstrength
+ms.keywords: EncryptionStrength property [Security], EncryptionStrength property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],EncryptionStrength property, IX509CertificateRequestPkcs10V3.EncryptionStrength, IX509CertificateRequestPkcs10V3.put_EncryptionStrength, IX509CertificateRequestPkcs10V3::EncryptionStrength, IX509CertificateRequestPkcs10V3::get_EncryptionStrength, IX509CertificateRequestPkcs10V3::put_EncryptionStrength, certenroll/IX509CertificateRequestPkcs10V3::EncryptionStrength, certenroll/IX509CertificateRequestPkcs10V3::get_EncryptionStrength, certenroll/IX509CertificateRequestPkcs10V3::put_EncryptionStrength, put_EncryptionStrength, security.ix509certificaterequestpkcs10v3_encryptionstrength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certenroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestPkcs10V3::put_EncryptionStrength method
+# IX509CertificateRequestPkcs10V3::put_EncryptionStrength
 
 
 ## -description

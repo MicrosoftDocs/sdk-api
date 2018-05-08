@@ -7,7 +7,7 @@ old-location: multimedia\capgetvideoformatsize.htm
 old-project: Multimedia
 ms.assetid: 4ee78b19-4171-4da8-ad26-199067bb6db8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: "_win32_capGetVideoFormatSize, capGetVideoFormatSize, capGetVideoFormatSize macro [Windows Multimedia], multimedia.capgetvideoformatsize, vfw/capGetVideoFormatSize"
 ms.prod: windows-hardware
 ms.technology: windows-devices

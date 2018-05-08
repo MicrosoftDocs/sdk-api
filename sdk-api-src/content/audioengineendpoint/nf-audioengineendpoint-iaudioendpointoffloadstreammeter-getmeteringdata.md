@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamMeter.GetMeteringData
-title: IAudioEndpointOffloadStreamMeter::GetMeteringData method
+title: IAudioEndpointOffloadStreamMeter::GetMeteringData
 author: windows-driver-content
 description: The GetMeteringData method retrieves general information about the available audio channels in the offloaded stream.
 old-location: coreaudio\iaudioendpointoffloadstreammeter_getmeteringdata.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 31F76D5B-D047-4D0E-AA22-DCC1E2E36561
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetMeteringData method [Core Audio], GetMeteringData method [Core Audio], IAudioEndpointOffloadStreamMeter interface, GetMeteringData,IAudioEndpointOffloadStreamMeter.GetMeteringData, IAudioEndpointOffloadStreamMeter, IAudioEndpointOffloadStreamMeter interface [Core Audio], GetMeteringData method, IAudioEndpointOffloadStreamMeter::GetMeteringData, audioengineendpoint/IAudioEndpointOffloadStreamMeter::GetMeteringData, coreaudio.iaudioendpointoffloadstreammeter_getmeteringdata
+ms.keywords: GetMeteringData, GetMeteringData method [Core Audio], GetMeteringData method [Core Audio],IAudioEndpointOffloadStreamMeter interface, IAudioEndpointOffloadStreamMeter interface [Core Audio],GetMeteringData method, IAudioEndpointOffloadStreamMeter.GetMeteringData, IAudioEndpointOffloadStreamMeter::GetMeteringData, audioengineendpoint/IAudioEndpointOffloadStreamMeter::GetMeteringData, coreaudio.iaudioendpointoffloadstreammeter_getmeteringdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioEndpointOffloadStreamMeter::GetMeteringData method
+# IAudioEndpointOffloadStreamMeter::GetMeteringData
 
 
 ## -description

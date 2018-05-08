@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsRead
-title: IMbnSms::SmsRead method
+title: IMbnSms::SmsRead
 author: windows-driver-content
 description: Reads a set of SMS messages from a device.
 old-location: mbn\imbnsms_smsread.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: d15eab89-c2bb-45af-8a6b-077517973fb1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSms, IMbnSms interface [Microsoft Broadband Networks], SmsRead method, IMbnSms::SmsRead, SmsRead method [Microsoft Broadband Networks], SmsRead method [Microsoft Broadband Networks], IMbnSms interface, SmsRead,IMbnSms.SmsRead, mbn.imbnsms_smsread, mbnapi/IMbnSms::SmsRead
+ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsRead method, IMbnSms.SmsRead, IMbnSms::SmsRead, SmsRead, SmsRead method [Microsoft Broadband Networks], SmsRead method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smsread, mbnapi/IMbnSms::SmsRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSms::SmsRead method
+# IMbnSms::SmsRead
 
 
 ## -description

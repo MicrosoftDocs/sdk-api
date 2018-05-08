@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerEventHandler.OnPostUpdate
-title: IUIAnimationTimerEventHandler::OnPostUpdate method
+title: IUIAnimationTimerEventHandler::OnPostUpdate
 author: windows-driver-content
 description: Handles events that occur after an animation update is finished.
 old-location: uianimation\iuianimationtimereventhandler_onpostupdate.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 3a09537a-6cf7-4824-90c6-265dafa07a1b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationTimerEventHandler, IUIAnimationTimerEventHandler interface [Windows Animation], OnPostUpdate method, IUIAnimationTimerEventHandler::OnPostUpdate, OnPostUpdate method [Windows Animation], OnPostUpdate method [Windows Animation], IUIAnimationTimerEventHandler interface, OnPostUpdate,IUIAnimationTimerEventHandler.OnPostUpdate, uianimation.iuianimationtimereventhandler_onpostupdate, uianimation/IUIAnimationTimerEventHandler::OnPostUpdate
+ms.keywords: IUIAnimationTimerEventHandler interface [Windows Animation],OnPostUpdate method, IUIAnimationTimerEventHandler.OnPostUpdate, IUIAnimationTimerEventHandler::OnPostUpdate, OnPostUpdate, OnPostUpdate method [Windows Animation], OnPostUpdate method [Windows Animation],IUIAnimationTimerEventHandler interface, uianimation.iuianimationtimereventhandler_onpostupdate, uianimation/IUIAnimationTimerEventHandler::OnPostUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTimerEventHandler::OnPostUpdate method
+# IUIAnimationTimerEventHandler::OnPostUpdate
 
 
 ## -description

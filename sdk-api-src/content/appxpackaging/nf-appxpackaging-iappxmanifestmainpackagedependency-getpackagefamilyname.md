@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestMainPackageDependency.GetPackageFamilyName
-title: IAppxManifestMainPackageDependency::GetPackageFamilyName method
+title: IAppxManifestMainPackageDependency::GetPackageFamilyName
 author: windows-driver-content
 description: Gets the package family name of the main package dependency from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifestmainpackagedependency_getpackagefamilyname.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 4F8E3E60-CE14-48C1-8367-10AA293F72F6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPackageFamilyName method [App packaging and management], GetPackageFamilyName method [App packaging and management], IAppxManifestMainPackageDependency interface, GetPackageFamilyName,IAppxManifestMainPackageDependency.GetPackageFamilyName, IAppxManifestMainPackageDependency, IAppxManifestMainPackageDependency interface [App packaging and management], GetPackageFamilyName method, IAppxManifestMainPackageDependency::GetPackageFamilyName, appxpackaging/IAppxManifestMainPackageDependency::GetPackageFamilyName, appxpkg.iappxmanifestmainpackagedependency_getpackagefamilyname
+ms.keywords: GetPackageFamilyName, GetPackageFamilyName method [App packaging and management], GetPackageFamilyName method [App packaging and management],IAppxManifestMainPackageDependency interface, IAppxManifestMainPackageDependency interface [App packaging and management],GetPackageFamilyName method, IAppxManifestMainPackageDependency.GetPackageFamilyName, IAppxManifestMainPackageDependency::GetPackageFamilyName, appxpackaging/IAppxManifestMainPackageDependency::GetPackageFamilyName, appxpkg.iappxmanifestmainpackagedependency_getpackagefamilyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestMainPackageDependency::GetPackageFamilyName method
+# IAppxManifestMainPackageDependency::GetPackageFamilyName
 
 
 ## -description

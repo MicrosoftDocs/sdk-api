@@ -1,6 +1,6 @@
 ---
 UID: NF:mspaddr.CMSPAddress.UpdateTerminalList
-title: CMSPAddress::UpdateTerminalList method
+title: CMSPAddress::UpdateTerminalList
 author: windows-driver-content
 description: The UpdateTerminalList method populates the MSP's list of static terminals.
 old-location: tapi3\cmspaddress_updateterminallist.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: f40964fe-21fe-4dad-8e56-71623ed2be1d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPAddress, CMSPAddress interface [TAPI 2.2], UpdateTerminalList method, CMSPAddress::UpdateTerminalList, UpdateTerminalList method [TAPI 2.2], UpdateTerminalList method [TAPI 2.2], CMSPAddress interface, UpdateTerminalList,CMSPAddress.UpdateTerminalList, _tapi3_cmspaddress_updateterminallist, mspaddr/CMSPAddress::UpdateTerminalList, tapi3.cmspaddress_updateterminallist
+ms.keywords: CMSPAddress interface [TAPI 2.2],UpdateTerminalList method, CMSPAddress.UpdateTerminalList, CMSPAddress::UpdateTerminalList, UpdateTerminalList, UpdateTerminalList method [TAPI 2.2], UpdateTerminalList method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_updateterminallist, mspaddr/CMSPAddress::UpdateTerminalList, tapi3.cmspaddress_updateterminallist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPAddress::UpdateTerminalList method
+# CMSPAddress::UpdateTerminalList
 
 
 ## -description

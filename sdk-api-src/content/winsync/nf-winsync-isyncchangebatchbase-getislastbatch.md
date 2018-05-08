@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetIsLastBatch
-title: ISyncChangeBatchBase::GetIsLastBatch method
+title: ISyncChangeBatchBase::GetIsLastBatch
 author: windows-driver-content
 description: Gets a flag that indicates whether the changes in this change batch are the last batch of a synchronization session.
 old-location: winsync\isyncchangebatchbase_getislastbatch.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 74b82fde-c492-4d5f-a680-62b836420cee
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetIsLastBatch method [Windows Sync], GetIsLastBatch method [Windows Sync], ISyncChangeBatchBase interface, GetIsLastBatch,ISyncChangeBatchBase.GetIsLastBatch, ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], GetIsLastBatch method, ISyncChangeBatchBase::GetIsLastBatch, winsync.isyncchangebatchbase_getislastbatch, winsync/ISyncChangeBatchBase::GetIsLastBatch
+ms.keywords: GetIsLastBatch, GetIsLastBatch method [Windows Sync], GetIsLastBatch method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetIsLastBatch method, ISyncChangeBatchBase.GetIsLastBatch, ISyncChangeBatchBase::GetIsLastBatch, winsync.isyncchangebatchbase_getislastbatch, winsync/ISyncChangeBatchBase::GetIsLastBatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchBase::GetIsLastBatch method
+# ISyncChangeBatchBase::GetIsLastBatch
 
 
 ## -description

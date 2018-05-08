@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.Query
-title: IDataCollectorSet::Query method
+title: IDataCollectorSet::Query
 author: windows-driver-content
 description: Retrieves the specified data collector set.
 old-location: pla\idatacollectorset_query.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: ac07169e-710c-4267-ae08-ed18a15d866d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], Query method, IDataCollectorSet::Query, Query method [PLA], Query method [PLA], IDataCollectorSet interface, Query,IDataCollectorSet.Query, base.idatacollectorset_query, pla.idatacollectorset_query, pla/IDataCollectorSet::Query
+ms.keywords: IDataCollectorSet interface [PLA],Query method, IDataCollectorSet.Query, IDataCollectorSet::Query, Query, Query method [PLA], Query method [PLA],IDataCollectorSet interface, base.idatacollectorset_query, pla.idatacollectorset_query, pla/IDataCollectorSet::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::Query method
+# IDataCollectorSet::Query
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: shell\SHCreateProcessAsUserW.htm
 old-project: shell
 ms.assetid: 78548eaf-6907-41e3-9c22-848d0d159085
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: SHCreateProcessAsUserW, SHCreateProcessAsUserW function [Windows Shell], _win32_SHCreateProcessAsUserW, _win32_SHCreateProcessAsUserW_cpp, shell.SHCreateProcessAsUserW, shellapi/SHCreateProcessAsUserW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\sysallocstringbytelen.htm
 old-project: automat
 ms.assetid: e7f49441-eff1-4c00-b61f-8522c4e250ef
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: SysAllocStringByteLen, SysAllocStringByteLen function [Automation], _oa96_SysAllocStringByteLen, automat.sysallocstringbytelen, oleauto/SysAllocStringByteLen
 ms.prod: windows-hardware
 ms.technology: windows-devices

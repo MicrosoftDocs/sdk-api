@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetCASFailureCode
-title: IESLicenseRenewalResultEvent::GetCASFailureCode method
+title: IESLicenseRenewalResultEvent::GetCASFailureCode
 author: windows-driver-content
 description: Gets a code from a LicenseRenewalResult event that indicates the reason for the failure in the conditional access system (CAS).
 old-location: mstv\ieslicenserenewalresultevent_getcasfailurecode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d3569a5e-6bde-4daf-bf52-094f56b0891c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCASFailureCode method [DirectShow], GetCASFailureCode method [DirectShow], IESLicenseRenewalResultEvent interface, GetCASFailureCode,IESLicenseRenewalResultEvent.GetCASFailureCode, IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], GetCASFailureCode method, IESLicenseRenewalResultEvent::GetCASFailureCode, mstv.ieslicenserenewalresultevent_getcasfailurecode, tuner/IESLicenseRenewalResultEvent::GetCASFailureCode
+ms.keywords: GetCASFailureCode, GetCASFailureCode method [DirectShow], GetCASFailureCode method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetCASFailureCode method, IESLicenseRenewalResultEvent.GetCASFailureCode, IESLicenseRenewalResultEvent::GetCASFailureCode, mstv.ieslicenserenewalresultevent_getcasfailurecode, tuner/IESLicenseRenewalResultEvent::GetCASFailureCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESLicenseRenewalResultEvent::GetCASFailureCode method
+# IESLicenseRenewalResultEvent::GetCASFailureCode
 
 
 ## -description

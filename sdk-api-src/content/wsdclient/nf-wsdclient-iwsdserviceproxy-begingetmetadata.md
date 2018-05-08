@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.BeginGetMetadata
-title: IWSDServiceProxy::BeginGetMetadata method
+title: IWSDServiceProxy::BeginGetMetadata
 author: windows-driver-content
 description: Initiates an asynchronous metadata exchange request with the remote service.
 old-location: ncd\iwsdserviceproxy_begingetmetadata.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: bcc0bcaf-76fb-4dca-b946-2826809a53a1
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: BeginGetMetadata method, BeginGetMetadata method, IWSDServiceProxy interface, BeginGetMetadata,IWSDServiceProxy.BeginGetMetadata, IWSDServiceProxy, IWSDServiceProxy interface, BeginGetMetadata method, IWSDServiceProxy::BeginGetMetadata, ncd.iwsdserviceproxy_begingetmetadata, wsdclient/IWSDServiceProxy::BeginGetMetadata
+ms.keywords: BeginGetMetadata, BeginGetMetadata method, BeginGetMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,BeginGetMetadata method, IWSDServiceProxy.BeginGetMetadata, IWSDServiceProxy::BeginGetMetadata, ncd.iwsdserviceproxy_begingetmetadata, wsdclient/IWSDServiceProxy::BeginGetMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceProxy::BeginGetMetadata method
+# IWSDServiceProxy::BeginGetMetadata
 
 
 ## -description

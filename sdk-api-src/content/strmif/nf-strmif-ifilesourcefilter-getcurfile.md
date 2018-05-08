@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFileSourceFilter.GetCurFile
-title: IFileSourceFilter::GetCurFile method
+title: IFileSourceFilter::GetCurFile
 author: windows-driver-content
 description: The GetCurFile method retrieves the name and media type of the current file.
 old-location: dshow\ifilesourcefilter_getcurfile.htm
 old-project: DirectShow
 ms.assetid: 67373df9-06a3-4678-b661-29580df4f359
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCurFile method [DirectShow], GetCurFile method [DirectShow], IFileSourceFilter interface, GetCurFile,IFileSourceFilter.GetCurFile, IFileSourceFilter, IFileSourceFilter interface [DirectShow], GetCurFile method, IFileSourceFilter::GetCurFile, IFileSourceFilterGetCurfile, dshow.ifilesourcefilter_getcurfile, strmif/IFileSourceFilter::GetCurFile
+ms.date: 4/30/2018
+ms.keywords: GetCurFile, GetCurFile method [DirectShow], GetCurFile method [DirectShow],IFileSourceFilter interface, IFileSourceFilter interface [DirectShow],GetCurFile method, IFileSourceFilter.GetCurFile, IFileSourceFilter::GetCurFile, IFileSourceFilterGetCurfile, dshow.ifilesourcefilter_getcurfile, strmif/IFileSourceFilter::GetCurFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFileSourceFilter::GetCurFile method
+# IFileSourceFilter::GetCurFile
 
 
 ## -description

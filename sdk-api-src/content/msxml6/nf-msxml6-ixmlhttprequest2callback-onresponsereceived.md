@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnResponseReceived
-title: IXMLHTTPRequest2Callback::OnResponseReceived method
+title: IXMLHTTPRequest2Callback::OnResponseReceived
 author: windows-driver-content
 description: Occurs when a client has received a complete response from the server.
 old-location: ixhr2\ixmlhttprequest2callback_onresponsereceived.htm
@@ -8,7 +8,7 @@ old-project: ixhr2
 ms.assetid: 5D1D4D4B-CC49-4A63-A0D5-B29D618E80DE
 ms.author: windowsdriverdev
 ms.date: 4/2/2018
-ms.keywords: IXMLHTTPRequest2Callback, IXMLHTTPRequest2Callback interface [XMLHttpRequest2], OnResponseReceived method, IXMLHTTPRequest2Callback::OnResponseReceived, OnResponseReceived method [XMLHttpRequest2], OnResponseReceived method [XMLHttpRequest2], IXMLHTTPRequest2Callback interface, OnResponseReceived,IXMLHTTPRequest2Callback.OnResponseReceived, ixhr2.ixmlhttprequest2callback_onresponsereceived, msxml6/IXMLHTTPRequest2Callback::OnResponseReceived
+ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnResponseReceived method, IXMLHTTPRequest2Callback.OnResponseReceived, IXMLHTTPRequest2Callback::OnResponseReceived, OnResponseReceived, OnResponseReceived method [XMLHttpRequest2], OnResponseReceived method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onresponsereceived, msxml6/IXMLHTTPRequest2Callback::OnResponseReceived
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_PROPERTY, XHR_PROPERTY
+req.typenames: XHR_PROPERTY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IXMLHTTPRequest2Callback::OnResponseReceived method
+# IXMLHTTPRequest2Callback::OnResponseReceived
 
 
 ## -description

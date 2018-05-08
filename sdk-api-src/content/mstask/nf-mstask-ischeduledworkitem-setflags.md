@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetFlags
-title: IScheduledWorkItem::SetFlags method
+title: IScheduledWorkItem::SetFlags
 author: windows-driver-content
 description: Sets the flags that modify the behavior of any type of work item.
 old-location: taskschd\ischeduledworkitem_setflags.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 640ba3c7-ed9d-4c4c-82fd-34fc777172c2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], SetFlags method, IScheduledWorkItem::SetFlags, SetFlags method [Task Scheduler], SetFlags method [Task Scheduler], IScheduledWorkItem interface, SetFlags,IScheduledWorkItem.SetFlags, _msb_ischeduledworkitem_setflags, mstask/IScheduledWorkItem::SetFlags, taskschd.ischeduledworkitem_setflags
+ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetFlags method, IScheduledWorkItem.SetFlags, IScheduledWorkItem::SetFlags, SetFlags, SetFlags method [Task Scheduler], SetFlags method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setflags, mstask/IScheduledWorkItem::SetFlags, taskschd.ischeduledworkitem_setflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduledWorkItem::SetFlags method
+# IScheduledWorkItem::SetFlags
 
 
 ## -description

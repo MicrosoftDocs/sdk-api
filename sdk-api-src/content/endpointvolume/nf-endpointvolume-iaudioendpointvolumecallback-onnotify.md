@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolumeCallback.OnNotify
-title: IAudioEndpointVolumeCallback::OnNotify method
+title: IAudioEndpointVolumeCallback::OnNotify
 author: windows-driver-content
 description: The OnNotify method notifies the client that the volume level or muting state of the audio endpoint device has changed.
 old-location: coreaudio\iaudioendpointvolumecallback_onnotify.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: a8ffad44-c621-4335-a312-16e7d6af2c18
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioEndpointVolumeCallback, IAudioEndpointVolumeCallback interface [Core Audio], OnNotify method, IAudioEndpointVolumeCallback::OnNotify, IAudioEndpointVolumeCallbackOnNotify, OnNotify method [Core Audio], OnNotify method [Core Audio], IAudioEndpointVolumeCallback interface, OnNotify,IAudioEndpointVolumeCallback.OnNotify, coreaudio.iaudioendpointvolumecallback_onnotify, endpointvolume/IAudioEndpointVolumeCallback::OnNotify
+ms.keywords: IAudioEndpointVolumeCallback interface [Core Audio],OnNotify method, IAudioEndpointVolumeCallback.OnNotify, IAudioEndpointVolumeCallback::OnNotify, IAudioEndpointVolumeCallbackOnNotify, OnNotify, OnNotify method [Core Audio], OnNotify method [Core Audio],IAudioEndpointVolumeCallback interface, coreaudio.iaudioendpointvolumecallback_onnotify, endpointvolume/IAudioEndpointVolumeCallback::OnNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IAudioEndpointVolumeCallback::OnNotify method
+# IAudioEndpointVolumeCallback::OnNotify
 
 
 ## -description

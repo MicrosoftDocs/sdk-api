@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_LineNumber
-title: IInkRecognitionAlternate::get_LineNumber method
+title: IInkRecognitionAlternate::get_LineNumber
 author: windows-driver-content
 description: Gets the line number of the ink that makes up the alternate.
 old-location: tablet\iinkrecognitionalternate_linenumber.htm
 old-project: tablet
 ms.assetid: dd5578e7-7361-4e42-a503-2914f90a801f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IInkRecognitionAlternate, IInkRecognitionAlternate interface [Tablet PC], LineNumber property, IInkRecognitionAlternate.LineNumber, IInkRecognitionAlternate.get_LineNumber, IInkRecognitionAlternate::get_LineNumber, LineNumber property [Tablet PC], LineNumber property [Tablet PC], IInkRecognitionAlternate interface, dd5578e7-7361-4e42-a503-2914f90a801f, get_LineNumber,IInkRecognitionAlternate.get_LineNumber, msinkaut/IInkRecognitionAlternate::LineNumber, msinkaut/IInkRecognitionAlternate::get_LineNumber, tablet.iinkrecognitionalternate_linenumber
+ms.date: 5/2/2018
+ms.keywords: IInkRecognitionAlternate interface [Tablet PC],LineNumber property, IInkRecognitionAlternate.LineNumber, IInkRecognitionAlternate.get_LineNumber, IInkRecognitionAlternate::LineNumber, IInkRecognitionAlternate::get_LineNumber, LineNumber property [Tablet PC], LineNumber property [Tablet PC],IInkRecognitionAlternate interface, dd5578e7-7361-4e42-a503-2914f90a801f, get_LineNumber, msinkaut/IInkRecognitionAlternate::LineNumber, msinkaut/IInkRecognitionAlternate::get_LineNumber, tablet.iinkrecognitionalternate_linenumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkRecognitionAlternate::get_LineNumber method
+# IInkRecognitionAlternate::get_LineNumber
 
 
 ## -description

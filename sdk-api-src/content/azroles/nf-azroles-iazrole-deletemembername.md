@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.DeleteMemberName
-title: IAzRole::DeleteMemberName method
+title: IAzRole::DeleteMemberName
 author: windows-driver-content
 description: Removes the specified account name from the list of accounts that belong to the role.
 old-location: security\iazrole_deletemembername.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 3ca3e242-deab-46e7-b3f5-d6a75e5a2c08
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzRole object [Security], DeleteMemberName method, DeleteMemberName method [Security], DeleteMemberName method [Security], AzRole object, DeleteMemberName method [Security], IAzRole interface, DeleteMemberName,IAzRole.DeleteMemberName, IAzRole, IAzRole interface [Security], DeleteMemberName method, IAzRole::DeleteMemberName, azroles/IAzRole::DeleteMemberName, security.iazrole_deletemembername
+ms.keywords: AzRole object [Security],DeleteMemberName method, DeleteMemberName, DeleteMemberName method [Security], DeleteMemberName method [Security],AzRole object, DeleteMemberName method [Security],IAzRole interface, IAzRole interface [Security],DeleteMemberName method, IAzRole.DeleteMemberName, IAzRole::DeleteMemberName, azroles/IAzRole::DeleteMemberName, security.iazrole_deletemembername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzRole::DeleteMemberName method
+# IAzRole::DeleteMemberName
 
 
 ## -description

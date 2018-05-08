@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentHasKeyboardFocus
-title: IUIAutomationElement::get_CurrentHasKeyboardFocus method
+title: IUIAutomationElement::get_CurrentHasKeyboardFocus
 author: windows-driver-content
 description: Indicates whether the element has keyboard focus.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentHasKeyboardFocus.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 90ef17df-1658-4199-8e8c-0cd21724dcf6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentHasKeyboardFocus property [Windows Accessibility], CurrentHasKeyboardFocus property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentHasKeyboardFocus property, IUIAutomationElement.CurrentHasKeyboardFocus, IUIAutomationElement::get_CurrentHasKeyboardFocus, get_CurrentHasKeyboardFocus,IUIAutomationElement.get_CurrentHasKeyboardFocus, uiauto.uiauto_IUIAutomationElement_CurrentHasKeyboardFocus, uiauto_IUIAutomationElement_CurrentHasKeyboardFocus, uiautomationclient/IUIAutomationElement::CurrentHasKeyboardFocus, uiautomationclient/IUIAutomationElement::get_CurrentHasKeyboardFocus, winauto.uiauto_IUIAutomationElement_CurrentHasKeyboardFocus
+ms.keywords: CurrentHasKeyboardFocus property [Windows Accessibility], CurrentHasKeyboardFocus property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentHasKeyboardFocus property, IUIAutomationElement.CurrentHasKeyboardFocus, IUIAutomationElement.get_CurrentHasKeyboardFocus, IUIAutomationElement::CurrentHasKeyboardFocus, IUIAutomationElement::get_CurrentHasKeyboardFocus, get_CurrentHasKeyboardFocus, uiauto.uiauto_IUIAutomationElement_CurrentHasKeyboardFocus, uiauto_IUIAutomationElement_CurrentHasKeyboardFocus, uiautomationclient/IUIAutomationElement::CurrentHasKeyboardFocus, uiautomationclient/IUIAutomationElement::get_CurrentHasKeyboardFocus, winauto.uiauto_IUIAutomationElement_CurrentHasKeyboardFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CurrentHasKeyboardFocus method
+# IUIAutomationElement::get_CurrentHasKeyboardFocus
 
 
 ## -description

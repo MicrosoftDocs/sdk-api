@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetTextW
-title: IIsdbDownloadContentDescriptor::GetTextW method
+title: IIsdbDownloadContentDescriptor::GetTextW
 author: windows-driver-content
 description: Gets the text from an Integrated Services Digital Broadcasting (ISDB) download content descriptor that describes the descriptor contents, in Unicode text format.
 old-location: mstv\iisdbdownloadcontentdescriptor_gettextw.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cf26ff9b-02d8-4470-bde5-6a18c62c6511
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface, GetTextW,IIsdbDownloadContentDescriptor.GetTextW, IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], GetTextW method, IIsdbDownloadContentDescriptor::GetTextW, dvbsiparser/IIsdbDownloadContentDescriptor::GetTextW, mstv.iisdbdownloadcontentdescriptor_gettextw
+ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetTextW method, IIsdbDownloadContentDescriptor.GetTextW, IIsdbDownloadContentDescriptor::GetTextW, dvbsiparser/IIsdbDownloadContentDescriptor::GetTextW, mstv.iisdbdownloadcontentdescriptor_gettextw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbDownloadContentDescriptor::GetTextW method
+# IIsdbDownloadContentDescriptor::GetTextW
 
 
 ## -description

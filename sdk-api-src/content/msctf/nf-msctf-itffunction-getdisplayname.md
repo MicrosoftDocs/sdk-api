@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfFunction.GetDisplayName
-title: ITfFunction::GetDisplayName method
+title: ITfFunction::GetDisplayName
 author: windows-driver-content
 description: ITfFunction::GetDisplayName method
 old-location: tsf\itffunction_getdisplayname.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: da52ca6d-9606-45c5-8db9-c876c827df14
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetDisplayName method [Text Services Framework], GetDisplayName method [Text Services Framework], ITfFunction interface, GetDisplayName,ITfFunction.GetDisplayName, ITfFunction, ITfFunction interface [Text Services Framework], GetDisplayName method, ITfFunction::GetDisplayName, _tsf_itffunction_getdisplayname_ref, msctf/ITfFunction::GetDisplayName, tsf.itffunction_getdisplayname
+ms.keywords: GetDisplayName, GetDisplayName method [Text Services Framework], GetDisplayName method [Text Services Framework],ITfFunction interface, ITfFunction interface [Text Services Framework],GetDisplayName method, ITfFunction.GetDisplayName, ITfFunction::GetDisplayName, _tsf_itffunction_getdisplayname_ref, msctf/ITfFunction::GetDisplayName, tsf.itffunction_getdisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfFunction::GetDisplayName method
+# ITfFunction::GetDisplayName
 
 
 ## -description

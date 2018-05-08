@@ -7,8 +7,8 @@ old-location: dshow\iamcertifiedoutputprotection.htm
 old-project: DirectShow
 ms.assetid: e5da271d-9528-4bcb-8b76-56fbec2e5855
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMCertifiedOutputProtection, IAMCertifiedOutputProtection interface [DirectShow], IAMCertifiedOutputProtection interface [DirectShow], described, IAMCertifiedOutputProtectionInterface, dshow.iamcertifiedoutputprotection, strmif/IAMCertifiedOutputProtection
+ms.date: 4/30/2018
+ms.keywords: IAMCertifiedOutputProtection, IAMCertifiedOutputProtection interface [DirectShow], IAMCertifiedOutputProtection interface [DirectShow],described, IAMCertifiedOutputProtectionInterface, dshow.iamcertifiedoutputprotection, strmif/IAMCertifiedOutputProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

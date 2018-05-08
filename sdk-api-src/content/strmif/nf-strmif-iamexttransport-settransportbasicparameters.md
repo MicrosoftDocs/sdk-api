@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetTransportBasicParameters
-title: IAMExtTransport::SetTransportBasicParameters method
+title: IAMExtTransport::SetTransportBasicParameters
 author: windows-driver-content
 description: The SetTransportBasicParameters method sets general properties of the transport.
 old-location: dshow\iamexttransport_settransportbasicparameters.htm
 old-project: DirectShow
 ms.assetid: 798fa8d0-3834-4168-86a6-069cae3c3e8e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], SetTransportBasicParameters method, IAMExtTransport::SetTransportBasicParameters, IAMExtTransportSetTransportBasicParameters, SetTransportBasicParameters method [DirectShow], SetTransportBasicParameters method [DirectShow], IAMExtTransport interface, SetTransportBasicParameters,IAMExtTransport.SetTransportBasicParameters, dshow.iamexttransport_settransportbasicparameters, strmif/IAMExtTransport::SetTransportBasicParameters
+ms.date: 4/30/2018
+ms.keywords: IAMExtTransport interface [DirectShow],SetTransportBasicParameters method, IAMExtTransport.SetTransportBasicParameters, IAMExtTransport::SetTransportBasicParameters, IAMExtTransportSetTransportBasicParameters, SetTransportBasicParameters, SetTransportBasicParameters method [DirectShow], SetTransportBasicParameters method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_settransportbasicparameters, strmif/IAMExtTransport::SetTransportBasicParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtTransport::SetTransportBasicParameters method
+# IAMExtTransport::SetTransportBasicParameters
 
 
 ## -description

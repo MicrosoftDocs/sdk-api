@@ -7,8 +7,8 @@ old-location: security\icertsrvsetup.htm
 old-project: SecCrypto
 ms.assetid: 6792a0d6-d304-481d-a97b-5fb7033c7eae
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], ICertSrvSetup interface [Security], described, casetup/ICertSrvSetup, security.icertsrvsetup
+ms.date: 4/30/2018
+ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], ICertSrvSetup interface [Security],described, casetup/ICertSrvSetup, security.icertsrvsetup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

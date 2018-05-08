@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.BeginUnsubscribeToMultipleOperations
-title: IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations method
+title: IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations
 author: windows-driver-content
 description: Initializes an asynchronous cancelation request for a subscription to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_beginunsubscribetomultipleoperations.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: a8a3dd48-89a2-4d7b-98e0-3dcb3c32cb2b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: BeginUnsubscribeToMultipleOperations method, BeginUnsubscribeToMultipleOperations method, IWSDServiceProxyEventing interface, BeginUnsubscribeToMultipleOperations,IWSDServiceProxyEventing.BeginUnsubscribeToMultipleOperations, IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, BeginUnsubscribeToMultipleOperations method, IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_beginunsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations
+ms.keywords: BeginUnsubscribeToMultipleOperations, BeginUnsubscribeToMultipleOperations method, BeginUnsubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginUnsubscribeToMultipleOperations method, IWSDServiceProxyEventing.BeginUnsubscribeToMultipleOperations, IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_beginunsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations method
+# IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocatorEx.InitializeSampleAllocatorEx
-title: IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx method
+title: IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx
 author: windows-driver-content
 description: Initializes the video sample allocator object.
 old-location: mf\imfvideosampleallocatorex_initializesampleallocatorex.htm
 old-project: medfound
 ms.assetid: 0AE0826D-058C-4A2F-94F2-A761CA885E67
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFVideoSampleAllocatorEx, IMFVideoSampleAllocatorEx interface [Media Foundation], InitializeSampleAllocatorEx method, IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx, InitializeSampleAllocatorEx method [Media Foundation], InitializeSampleAllocatorEx method [Media Foundation], IMFVideoSampleAllocatorEx interface, InitializeSampleAllocatorEx,IMFVideoSampleAllocatorEx.InitializeSampleAllocatorEx, mf.imfvideosampleallocatorex_initializesampleallocatorex, mfidl/IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx
+ms.date: 5/3/2018
+ms.keywords: IMFVideoSampleAllocatorEx interface [Media Foundation],InitializeSampleAllocatorEx method, IMFVideoSampleAllocatorEx.InitializeSampleAllocatorEx, IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx, InitializeSampleAllocatorEx, InitializeSampleAllocatorEx method [Media Foundation], InitializeSampleAllocatorEx method [Media Foundation],IMFVideoSampleAllocatorEx interface, mf.imfvideosampleallocatorex_initializesampleallocatorex, mfidl/IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx method
+# IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx
 
 
 ## -description

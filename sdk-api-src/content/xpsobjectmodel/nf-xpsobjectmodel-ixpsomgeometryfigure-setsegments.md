@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.SetSegments
-title: IXpsOMGeometryFigure::SetSegments method
+title: IXpsOMGeometryFigure::SetSegments
 author: windows-driver-content
 description: Sets the segment information and data points for segments in the figure.
 old-location: xps\ixpsomgeometryfigure_setsegments.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 4e2a1a80-1eda-458f-b711-de56df7a98ac
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGeometryFigure, IXpsOMGeometryFigure interface [XPS Documents and Packaging], SetSegments method, IXpsOMGeometryFigure::SetSegments, SetSegments method [XPS Documents and Packaging], SetSegments method [XPS Documents and Packaging], IXpsOMGeometryFigure interface, SetSegments,IXpsOMGeometryFigure.SetSegments, xps.ixpsomgeometryfigure_setsegments, xpsobjectmodel/IXpsOMGeometryFigure::SetSegments
+ms.keywords: IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetSegments method, IXpsOMGeometryFigure.SetSegments, IXpsOMGeometryFigure::SetSegments, SetSegments, SetSegments method [XPS Documents and Packaging], SetSegments method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, xps.ixpsomgeometryfigure_setsegments, xpsobjectmodel/IXpsOMGeometryFigure::SetSegments
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGeometryFigure::SetSegments method
+# IXpsOMGeometryFigure::SetSegments
 
 
 ## -description

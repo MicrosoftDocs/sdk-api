@@ -1,14 +1,14 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetStreamTransparent
-title: IMixerPinConfig::SetStreamTransparent method
+title: IMixerPinConfig::SetStreamTransparent
 author: windows-driver-content
 description: The SetStreamTransparent method sets the stream to transparent.
 old-location: dshow\imixerpinconfig_setstreamtransparent.htm
 old-project: DirectShow
 ms.assetid: d1f60a35-ffef-4ebb-b331-558772310bcb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMixerPinConfig, IMixerPinConfig interface [DirectShow], SetStreamTransparent method, IMixerPinConfig::SetStreamTransparent, IMixerPinConfigSetStreamTransparent, SetStreamTransparent method [DirectShow], SetStreamTransparent method [DirectShow], IMixerPinConfig interface, SetStreamTransparent,IMixerPinConfig.SetStreamTransparent, dshow.imixerpinconfig_setstreamtransparent, mpconfig/IMixerPinConfig::SetStreamTransparent
+ms.date: 4/30/2018
+ms.keywords: IMixerPinConfig interface [DirectShow],SetStreamTransparent method, IMixerPinConfig.SetStreamTransparent, IMixerPinConfig::SetStreamTransparent, IMixerPinConfigSetStreamTransparent, SetStreamTransparent, SetStreamTransparent method [DirectShow], SetStreamTransparent method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setstreamtransparent, mpconfig/IMixerPinConfig::SetStreamTransparent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMixerPinConfig::SetStreamTransparent method
+# IMixerPinConfig::SetStreamTransparent
 
 
 ## -description

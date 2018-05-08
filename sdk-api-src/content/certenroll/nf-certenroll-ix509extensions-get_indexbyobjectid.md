@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Extensions.get_IndexByObjectId
-title: IX509Extensions::get_IndexByObjectId method
+title: IX509Extensions::get_IndexByObjectId
 author: windows-driver-content
 description: Retrieves the index of an extension in the collection by object identifier (OID).
 old-location: security\ix509extensions_indexbyobjectid_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 1048c1d8-11f9-4a44-a492-0518cb1782c6
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509Extensions, IX509Extensions interface [Security], IndexByObjectId property, IX509Extensions.IndexByObjectId, IX509Extensions::get_IndexByObjectId, IndexByObjectId property [Security], IndexByObjectId property [Security], IX509Extensions interface, certenroll/IX509Extensions::IndexByObjectId, certenroll/IX509Extensions::get_IndexByObjectId, get_IndexByObjectId,IX509Extensions.get_IndexByObjectId, security.ix509extensions_indexbyobjectid_property
+ms.keywords: IX509Extensions interface [Security],IndexByObjectId property, IX509Extensions.IndexByObjectId, IX509Extensions.get_IndexByObjectId, IX509Extensions::IndexByObjectId, IX509Extensions::get_IndexByObjectId, IndexByObjectId property [Security], IndexByObjectId property [Security],IX509Extensions interface, certenroll/IX509Extensions::IndexByObjectId, certenroll/IX509Extensions::get_IndexByObjectId, get_IndexByObjectId, security.ix509extensions_indexbyobjectid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509Extensions::get_IndexByObjectId method
+# IX509Extensions::get_IndexByObjectId
 
 
 ## -description

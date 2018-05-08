@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbCableDeliverySystemDescriptor.GetModulation
-title: IDvbCableDeliverySystemDescriptor::GetModulation method
+title: IDvbCableDeliverySystemDescriptor::GetModulation
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbcabledeliverysystemdescriptor_getmodulation.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 896c9ff6-8333-4fb4-bd25-fda9d12129e8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetModulation method [Microsoft TV Technologies], GetModulation method [Microsoft TV Technologies], IDvbCableDeliverySystemDescriptor interface, GetModulation,IDvbCableDeliverySystemDescriptor.GetModulation, IDvbCableDeliverySystemDescriptor, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies], GetModulation method, IDvbCableDeliverySystemDescriptor::GetModulation, IDvbCableDeliverySystemDescriptorGetModulation, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetModulation, mstv.idvbcabledeliverysystemdescriptor_getmodulation
+ms.keywords: GetModulation, GetModulation method [Microsoft TV Technologies], GetModulation method [Microsoft TV Technologies],IDvbCableDeliverySystemDescriptor interface, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],GetModulation method, IDvbCableDeliverySystemDescriptor.GetModulation, IDvbCableDeliverySystemDescriptor::GetModulation, IDvbCableDeliverySystemDescriptorGetModulation, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetModulation, mstv.idvbcabledeliverysystemdescriptor_getmodulation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbCableDeliverySystemDescriptor::GetModulation method
+# IDvbCableDeliverySystemDescriptor::GetModulation
 
 
 ## -description

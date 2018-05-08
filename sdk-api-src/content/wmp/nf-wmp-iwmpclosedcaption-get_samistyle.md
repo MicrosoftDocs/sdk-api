@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.get_SAMIStyle
-title: IWMPClosedCaption::get_SAMIStyle method
+title: IWMPClosedCaption::get_SAMIStyle
 author: windows-driver-content
 description: The get_SAMIStyle method retrieves the closed captioning style.
 old-location: wmp\iwmpclosedcaption_get_samistyle.htm
 old-project: WMP
 ms.assetid: 27040145-af7a-4d09-9c80-e0907df08f01
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPClosedCaption, IWMPClosedCaption interface [Windows Media Player], get_SAMIStyle method, IWMPClosedCaption::get_SAMIStyle, IWMPClosedCaptionget_SAMIStyle, get_SAMIStyle method [Windows Media Player], get_SAMIStyle method [Windows Media Player], IWMPClosedCaption interface, get_SAMIStyle,IWMPClosedCaption.get_SAMIStyle, wmp.iwmpclosedcaption_get_samistyle, wmp/IWMPClosedCaption::get_SAMIStyle
+ms.date: 5/4/2018
+ms.keywords: IWMPClosedCaption interface [Windows Media Player],get_SAMIStyle method, IWMPClosedCaption.get_SAMIStyle, IWMPClosedCaption::get_SAMIStyle, IWMPClosedCaptionget_SAMIStyle, get_SAMIStyle, get_SAMIStyle method [Windows Media Player], get_SAMIStyle method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_get_samistyle, wmp/IWMPClosedCaption::get_SAMIStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPClosedCaption::get_SAMIStyle method
+# IWMPClosedCaption::get_SAMIStyle
 
 
 ## -description

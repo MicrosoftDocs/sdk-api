@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame
-title: IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame method
+title: IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
 author: windows-driver-content
 description: Note  This method is obsolete and should not be used. Restores the current reconstructed video frame.
 old-location: mf\iwmvideodecoderreconbuffersetreconstructedvideoframe.htm
 old-project: medfound
 ms.assetid: baffb56f-b2c5-464f-a2ae-1cb9677b8b83
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IWMVideoDecoderReconBuffer, IWMVideoDecoderReconBuffer interface [Media Foundation], SetReconstructedVideoFrame method, IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame, SetReconstructedVideoFrame method [Media Foundation], SetReconstructedVideoFrame method [Media Foundation], IWMVideoDecoderReconBuffer interface, SetReconstructedVideoFrame,IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame, codecapi.iwmvideodecoderreconbuffersetreconstructedvideoframe, mf.iwmvideodecoderreconbuffersetreconstructedvideoframe, wmcodecdsp/ IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
+ms.date: 5/3/2018
+ms.keywords: IWMVideoDecoderReconBuffer interface [Media Foundation],SetReconstructedVideoFrame method, IWMVideoDecoderReconBuffer.SetReconstructedVideoFrame, IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame, SetReconstructedVideoFrame, SetReconstructedVideoFrame method [Media Foundation], SetReconstructedVideoFrame method [Media Foundation],IWMVideoDecoderReconBuffer interface, codecapi.iwmvideodecoderreconbuffersetreconstructedvideoframe, mf.iwmvideodecoderreconbuffersetreconstructedvideoframe, wmcodecdsp/ IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame method
+# IWMVideoDecoderReconBuffer::SetReconstructedVideoFrame
 
 
 ## -description

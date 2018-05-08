@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_AutoDemodulateEx.get_SupportedVideoFormats
-title: IBDA_AutoDemodulateEx::get_SupportedVideoFormats method
+title: IBDA_AutoDemodulateEx::get_SupportedVideoFormats
 author: windows-driver-content
 description: The get_SupportedVideoFormats method retrieves the video formats that are supported by the demodulator.
 old-location: mstv\ibda_autodemodulateex_get_supportedvideoformats.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bba4a57c-7e07-45ca-84d0-921caf39f345
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_AutoDemodulateEx, IBDA_AutoDemodulateEx interface [Microsoft TV Technologies], get_SupportedVideoFormats method, IBDA_AutoDemodulateEx::get_SupportedVideoFormats, IBDA_AutoDemodulateExget_SupportedVideoFormats, bdaiface/IBDA_AutoDemodulateEx::get_SupportedVideoFormats, get_SupportedVideoFormats method [Microsoft TV Technologies], get_SupportedVideoFormats method [Microsoft TV Technologies], IBDA_AutoDemodulateEx interface, get_SupportedVideoFormats,IBDA_AutoDemodulateEx.get_SupportedVideoFormats, mstv.ibda_autodemodulateex_get_supportedvideoformats
+ms.keywords: IBDA_AutoDemodulateEx interface [Microsoft TV Technologies],get_SupportedVideoFormats method, IBDA_AutoDemodulateEx.get_SupportedVideoFormats, IBDA_AutoDemodulateEx::get_SupportedVideoFormats, IBDA_AutoDemodulateExget_SupportedVideoFormats, bdaiface/IBDA_AutoDemodulateEx::get_SupportedVideoFormats, get_SupportedVideoFormats, get_SupportedVideoFormats method [Microsoft TV Technologies], get_SupportedVideoFormats method [Microsoft TV Technologies],IBDA_AutoDemodulateEx interface, mstv.ibda_autodemodulateex_get_supportedvideoformats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_AutoDemodulateEx::get_SupportedVideoFormats method
+# IBDA_AutoDemodulateEx::get_SupportedVideoFormats
 
 
 ## -description

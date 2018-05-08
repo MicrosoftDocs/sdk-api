@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 40b2977e-f3ae-4ad2-89ed-aacf32b1171e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IEnumChangeUnitExceptions, IEnumChangeUnitExceptions interface [Windows Sync], IEnumChangeUnitExceptions interface [Windows Sync], described, winsync.ienumchangeunitexceptions, winsync/IEnumChangeUnitExceptions
+ms.keywords: IEnumChangeUnitExceptions, IEnumChangeUnitExceptions interface [Windows Sync], IEnumChangeUnitExceptions interface [Windows Sync],described, winsync.ienumchangeunitexceptions, winsync/IEnumChangeUnitExceptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.IEnumGUID.Next
-title: IEnumGUID::Next method
+title: IEnumGUID::Next
 author: windows-driver-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumguid_next.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: d32e02c7-1109-40cc-bf36-d224fa59fe20
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumGUID, IEnumGUID interface [COM], Next method, IEnumGUID::Next, Next method [COM], Next method [COM], IEnumGUID interface, Next,IEnumGUID.Next, _com_ienumguid_next, com.ienumguid_next, comcat/IEnumGUID::Next
+ms.keywords: IEnumGUID interface [COM],Next method, IEnumGUID.Next, IEnumGUID::Next, Next, Next method [COM], Next method [COM],IEnumGUID interface, _com_ienumguid_next, com.ienumguid_next, comcat/IEnumGUID::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumGUID::Next method
+# IEnumGUID::Next
 
 
 ## -description

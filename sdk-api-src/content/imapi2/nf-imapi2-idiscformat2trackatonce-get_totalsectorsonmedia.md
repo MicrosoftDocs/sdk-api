@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_TotalSectorsOnMedia
-title: IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia method
+title: IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia
 author: windows-driver-content
 description: Retrieves the total sectors available on the media if writing one continuous audio track.
 old-location: imapi\idiscformat2trackatonce_get_totalsectorsonmedia.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 86af52be-d1ea-4ccb-b1b4-e301d70cac53
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2TrackAtOnce, IDiscFormat2TrackAtOnce interface [IMAPI], get_TotalSectorsOnMedia method, IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia, get_TotalSectorsOnMedia method [IMAPI], get_TotalSectorsOnMedia method [IMAPI], IDiscFormat2TrackAtOnce interface, get_TotalSectorsOnMedia,IDiscFormat2TrackAtOnce.get_TotalSectorsOnMedia, imapi.idiscformat2trackatonce_get_totalsectorsonmedia, imapi2/IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia
+ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_TotalSectorsOnMedia method, IDiscFormat2TrackAtOnce.get_TotalSectorsOnMedia, IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia, get_TotalSectorsOnMedia, get_TotalSectorsOnMedia method [IMAPI], get_TotalSectorsOnMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_totalsectorsonmedia, imapi2/IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia method
+# IDiscFormat2TrackAtOnce::get_TotalSectorsOnMedia
 
 
 ## -description

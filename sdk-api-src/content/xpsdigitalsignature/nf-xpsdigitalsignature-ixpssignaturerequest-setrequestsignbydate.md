@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.SetRequestSignByDate
-title: IXpsSignatureRequest::SetRequestSignByDate method
+title: IXpsSignatureRequest::SetRequestSignByDate
 author: windows-driver-content
 description: Sets the date and time before which the requested signer must sign the specified parts of the document.
 old-location: xps\ixpssignaturerequest_setrequestsignbydate.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: b7048b34-17f8-4df4-b1c6-6c6e6250f02a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsSignatureRequest, IXpsSignatureRequest interface [XPS Documents and Packaging], SetRequestSignByDate method, IXpsSignatureRequest::SetRequestSignByDate, SetRequestSignByDate method [XPS Documents and Packaging], SetRequestSignByDate method [XPS Documents and Packaging], IXpsSignatureRequest interface, SetRequestSignByDate,IXpsSignatureRequest.SetRequestSignByDate, xps.ixpssignaturerequest_setrequestsignbydate, xpsdigitalsignature/IXpsSignatureRequest::SetRequestSignByDate
+ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetRequestSignByDate method, IXpsSignatureRequest.SetRequestSignByDate, IXpsSignatureRequest::SetRequestSignByDate, SetRequestSignByDate, SetRequestSignByDate method [XPS Documents and Packaging], SetRequestSignByDate method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setrequestsignbydate, xpsdigitalsignature/IXpsSignatureRequest::SetRequestSignByDate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureRequest::SetRequestSignByDate method
+# IXpsSignatureRequest::SetRequestSignByDate
 
 
 ## -description

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CONTEXT, *PCONTEXT, CONTEXT, *PCONTEXT, CONTEXT
+req.typenames: CONTEXT, *PCONTEXT
 topic_type:
 -	APIRef
 -	kbSyntax

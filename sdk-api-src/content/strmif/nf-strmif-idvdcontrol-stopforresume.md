@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.StopForResume
-title: IDvdControl::StopForResume method
+title: IDvdControl::StopForResume
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Transitions playback to the DVD_DOMAIN_Stop state after saving resume information.
 old-location: dshow\idvdcontrol_stopforresume.htm
 old-project: DirectShow
 ms.assetid: 61c5b863-038b-4c4a-a7a4-d1fd1801f843
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl, IDvdControl interface [DirectShow], StopForResume method, IDvdControl::StopForResume, IDvdControlStopForResume, StopForResume method [DirectShow], StopForResume method [DirectShow], IDvdControl interface, StopForResume,IDvdControl.StopForResume, dshow.idvdcontrol_stopforresume, strmif/IDvdControl::StopForResume
+ms.date: 4/30/2018
+ms.keywords: IDvdControl interface [DirectShow],StopForResume method, IDvdControl.StopForResume, IDvdControl::StopForResume, IDvdControlStopForResume, StopForResume, StopForResume method [DirectShow], StopForResume method [DirectShow],IDvdControl interface, dshow.idvdcontrol_stopforresume, strmif/IDvdControl::StopForResume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::StopForResume method
+# IDvdControl::StopForResume
 
 
 ## -description

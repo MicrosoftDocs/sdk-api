@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetBackupOptions
-title: IVssBackupComponents::SetBackupOptions method
+title: IVssBackupComponents::SetBackupOptions
 author: windows-driver-content
 description: The SetBackupOptions method sets a string of private, or writer-dependent, backup parameters for a component.
 old-location: base\ivssbackupcomponents_setbackupoptions.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 2b9a64b2-2bc9-441b-97f7-a72fd7579126
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], SetBackupOptions method, IVssBackupComponents::SetBackupOptions, SetBackupOptions method [VSS], SetBackupOptions method [VSS], IVssBackupComponents interface, SetBackupOptions,IVssBackupComponents.SetBackupOptions, _win32_ivssbackupcomponents_setbackupoptions, base.ivssbackupcomponents_setbackupoptions, vsbackup/IVssBackupComponents::SetBackupOptions
+ms.keywords: IVssBackupComponents interface [VSS],SetBackupOptions method, IVssBackupComponents.SetBackupOptions, IVssBackupComponents::SetBackupOptions, SetBackupOptions, SetBackupOptions method [VSS], SetBackupOptions method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupoptions, base.ivssbackupcomponents_setbackupoptions, vsbackup/IVssBackupComponents::SetBackupOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::SetBackupOptions method
+# IVssBackupComponents::SetBackupOptions
 
 
 ## -description

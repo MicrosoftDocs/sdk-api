@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: b9027ef9-e573-4df0-b37e-d09956c1f8ee
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: PREGISTER_PROTOCOL, RegisterProtocol, RegisterProtocol callback function [RAS], _mpr_registerprotocol, routprot/RegisterProtocol, rras.registerprotocol
+ms.keywords: PREGISTER_PROTOCOL, PREGISTER_PROTOCOL callback, RegisterProtocol, RegisterProtocol callback function [RAS], _mpr_registerprotocol, routprot/RegisterProtocol, rras.registerprotocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PREGISTER_PROTOCOL callback
+# PREGISTER_PROTOCOL callback function
 
 
 ## -description

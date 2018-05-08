@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestReader.GetPackageId
-title: IAppxBundleManifestReader::GetPackageId method
+title: IAppxBundleManifestReader::GetPackageId
 author: windows-driver-content
 description: Retrieves an object that represents the &lt;Identity&gt; element under the root &lt;Bundle&gt; element.
 old-location: appxpkg\iappxbundlemanifestreader_getpackageid.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: B1D8AF8D-A80B-4F28-A9AA-A798D309D6E0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPackageId method [App packaging and management], GetPackageId method [App packaging and management], IAppxBundleManifestReader interface, GetPackageId,IAppxBundleManifestReader.GetPackageId, IAppxBundleManifestReader, IAppxBundleManifestReader interface [App packaging and management], GetPackageId method, IAppxBundleManifestReader::GetPackageId, appxpackaging/IAppxBundleManifestReader::GetPackageId, appxpkg.iappxbundlemanifestreader_getpackageid
+ms.keywords: GetPackageId, GetPackageId method [App packaging and management], GetPackageId method [App packaging and management],IAppxBundleManifestReader interface, IAppxBundleManifestReader interface [App packaging and management],GetPackageId method, IAppxBundleManifestReader.GetPackageId, IAppxBundleManifestReader::GetPackageId, appxpackaging/IAppxBundleManifestReader::GetPackageId, appxpkg.iappxbundlemanifestreader_getpackageid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleManifestReader::GetPackageId method
+# IAppxBundleManifestReader::GetPackageId
 
 
 ## -description

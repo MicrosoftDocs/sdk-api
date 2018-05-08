@@ -1,6 +1,6 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.GetSize
-title: TRefPointerCollection::GetSize method
+title: TRefPointerCollection::GetSize
 author: windows-driver-content
 description: The GetSize method returns how many items are in the list.
 old-location: wmi\trefpointercollection_getsize.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 0ffdf8b9-53be-4a3d-8272-02f6c3be5fd1
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation], TRefPointerCollection interface, GetSize,TRefPointerCollection.GetSize, TRefPointerCollection, TRefPointerCollection interface [Windows Management Instrumentation], GetSize method, TRefPointerCollection::GetSize, _hmm_trefpointercollection_getsize, refptrco/TRefPointerCollection::GetSize, wmi.trefpointercollection_getsize
+ms.keywords: GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetSize method, TRefPointerCollection.GetSize, TRefPointerCollection::GetSize, _hmm_trefpointercollection_getsize, refptrco/TRefPointerCollection::GetSize, wmi.trefpointercollection_getsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# TRefPointerCollection::GetSize method
+# TRefPointerCollection::GetSize
 
 
 ## -description

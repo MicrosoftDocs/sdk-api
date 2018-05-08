@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IChangeUnitException.GetChangeUnitId
-title: IChangeUnitException::GetChangeUnitId method
+title: IChangeUnitException::GetChangeUnitId
 author: windows-driver-content
 description: Gets the change unit ID for the change unit that is associated with the exception.
 old-location: winsync\ichangeunitexception_getchangeunitid.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 25a6eed2-6851-4a24-afd2-91982dc2bb8e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync], IChangeUnitException interface, GetChangeUnitId,IChangeUnitException.GetChangeUnitId, IChangeUnitException, IChangeUnitException interface [Windows Sync], GetChangeUnitId method, IChangeUnitException::GetChangeUnitId, winsync.ichangeunitexception_getchangeunitid, winsync/IChangeUnitException::GetChangeUnitId
+ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetChangeUnitId method, IChangeUnitException.GetChangeUnitId, IChangeUnitException::GetChangeUnitId, winsync.ichangeunitexception_getchangeunitid, winsync/IChangeUnitException::GetChangeUnitId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IChangeUnitException::GetChangeUnitId method
+# IChangeUnitException::GetChangeUnitId
 
 
 ## -description

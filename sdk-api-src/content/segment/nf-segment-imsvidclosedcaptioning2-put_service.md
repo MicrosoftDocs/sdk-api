@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidClosedCaptioning2.put_Service
-title: IMSVidClosedCaptioning2::put_Service method
+title: IMSVidClosedCaptioning2::put_Service
 author: windows-driver-content
 description: The get_Service method sets the closed captioning service.
 old-location: mstv\imsvidclosedcaptioning2_put_service.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f638a7c3-bd0a-465d-b104-ea0066aec6d6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidClosedCaptioning2, IMSVidClosedCaptioning2 interface [Microsoft TV Technologies], put_Service method, IMSVidClosedCaptioning2::put_Service, IMSVidClosedCaptioning2put_Service, mstv.imsvidclosedcaptioning2_put_service, put_Service method [Microsoft TV Technologies], put_Service method [Microsoft TV Technologies], IMSVidClosedCaptioning2 interface, put_Service,IMSVidClosedCaptioning2.put_Service, segment/IMSVidClosedCaptioning2::put_Service
+ms.keywords: IMSVidClosedCaptioning2 interface [Microsoft TV Technologies],put_Service method, IMSVidClosedCaptioning2.put_Service, IMSVidClosedCaptioning2::put_Service, IMSVidClosedCaptioning2put_Service, mstv.imsvidclosedcaptioning2_put_service, put_Service, put_Service method [Microsoft TV Technologies], put_Service method [Microsoft TV Technologies],IMSVidClosedCaptioning2 interface, segment/IMSVidClosedCaptioning2::put_Service
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidClosedCaptioning2::put_Service method
+# IMSVidClosedCaptioning2::put_Service
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.SetXml
-title: IDataCollector::SetXml method
+title: IDataCollector::SetXml
 author: windows-driver-content
 description: Sets the property values of those properties included in the XML.
 old-location: pla\idatacollector_setxml.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 12ed8697-caec-45d5-9ecf-658b3e4ca8ba
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollector, IDataCollector interface [PLA], SetXml method, IDataCollector::SetXml, SetXml method [PLA], SetXml method [PLA], IDataCollector interface, SetXml,IDataCollector.SetXml, base.idatacollector_setxml, pla.idatacollector_setxml, pla/IDataCollector::SetXml
+ms.keywords: IDataCollector interface [PLA],SetXml method, IDataCollector.SetXml, IDataCollector::SetXml, SetXml, SetXml method [PLA], SetXml method [PLA],IDataCollector interface, base.idatacollector_setxml, pla.idatacollector_setxml, pla/IDataCollector::SetXml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollector::SetXml method
+# IDataCollector::SetXml
 
 
 ## -description

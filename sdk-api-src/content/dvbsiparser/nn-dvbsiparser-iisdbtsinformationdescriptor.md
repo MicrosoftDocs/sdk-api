@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3c8cd33c-5c2a-48a4-9e8a-f7dd03560848
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IIsdbTSInformationDescriptor, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies], IIsdbTSInformationDescriptor interface [Microsoft TV Technologies], described, dvbsiparser/IIsdbTSInformationDescriptor, mstv.iisdbtsinformationdescriptor
+ms.keywords: IIsdbTSInformationDescriptor, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies], IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbTSInformationDescriptor, mstv.iisdbtsinformationdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

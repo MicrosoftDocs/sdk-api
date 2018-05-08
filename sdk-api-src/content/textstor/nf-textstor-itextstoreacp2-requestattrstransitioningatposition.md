@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.RequestAttrsTransitioningAtPosition
-title: ITextStoreACP2::RequestAttrsTransitioningAtPosition method
+title: ITextStoreACP2::RequestAttrsTransitioningAtPosition
 author: windows-driver-content
 description: Gets text attributes transitioning at the specified character position.
 old-location: tsf\itextstoreacp2_requestattrstransitioningatposition.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: ff1cda58-f02d-4c39-aed5-ebacbef20780
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], RequestAttrsTransitioningAtPosition method, ITextStoreACP2::RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition method [Text Services Framework], RequestAttrsTransitioningAtPosition method [Text Services Framework], ITextStoreACP2 interface, RequestAttrsTransitioningAtPosition,ITextStoreACP2.RequestAttrsTransitioningAtPosition, TS_ATTR_FIND_WANT_END, TS_ATTR_FIND_WANT_VALUE, textstor/ITextStoreACP2::RequestAttrsTransitioningAtPosition, tsf.itextstoreacp2_requestattrstransitioningatposition
+ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestAttrsTransitioningAtPosition method, ITextStoreACP2.RequestAttrsTransitioningAtPosition, ITextStoreACP2::RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition, RequestAttrsTransitioningAtPosition method [Text Services Framework], RequestAttrsTransitioningAtPosition method [Text Services Framework],ITextStoreACP2 interface, TS_ATTR_FIND_WANT_END, TS_ATTR_FIND_WANT_VALUE, textstor/ITextStoreACP2::RequestAttrsTransitioningAtPosition, tsf.itextstoreacp2_requestattrstransitioningatposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP2::RequestAttrsTransitioningAtPosition method
+# ITextStoreACP2::RequestAttrsTransitioningAtPosition
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetCurrentPage
-title: ITfCandidateListUIElement::GetCurrentPage method
+title: ITfCandidateListUIElement::GetCurrentPage
 author: windows-driver-content
 description: The ITfCandidateListUIElement::GetCurrentPage method returns the current page.
 old-location: tsf\itfcandidatelistuielement_getcurrentpage.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 551c73ff-8fbd-47e5-a6e8-90d58141c7c0
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetCurrentPage method [Text Services Framework], GetCurrentPage method [Text Services Framework], ITfCandidateListUIElement interface, GetCurrentPage,ITfCandidateListUIElement.GetCurrentPage, ITfCandidateListUIElement, ITfCandidateListUIElement interface [Text Services Framework], GetCurrentPage method, ITfCandidateListUIElement::GetCurrentPage, msctf/ITfCandidateListUIElement::GetCurrentPage, tsf.itfcandidatelistuielement_getcurrentpage
+ms.keywords: GetCurrentPage, GetCurrentPage method [Text Services Framework], GetCurrentPage method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetCurrentPage method, ITfCandidateListUIElement.GetCurrentPage, ITfCandidateListUIElement::GetCurrentPage, msctf/ITfCandidateListUIElement::GetCurrentPage, tsf.itfcandidatelistuielement_getcurrentpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCandidateListUIElement::GetCurrentPage method
+# ITfCandidateListUIElement::GetCurrentPage
 
 
 ## -description

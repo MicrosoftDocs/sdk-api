@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventPublisher.PutDefaultProperty
-title: IEventPublisher::PutDefaultProperty method
+title: IEventPublisher::PutDefaultProperty
 author: windows-driver-content
 description: Writes a named property and its value to the property bag associated with the event publisher.
 old-location: com\ieventpublisher_putdefaultproperty.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 418f1c16-1b21-4023-b0fc-6e9082b8264e
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEventPublisher, IEventPublisher interface [COM], PutDefaultProperty method, IEventPublisher::PutDefaultProperty, PutDefaultProperty method [COM], PutDefaultProperty method [COM], IEventPublisher interface, PutDefaultProperty,IEventPublisher.PutDefaultProperty, _com_ieventpublisher_putdefaultproperty, com.ieventpublisher_putdefaultproperty, eventsys/IEventPublisher::PutDefaultProperty
+ms.keywords: IEventPublisher interface [COM],PutDefaultProperty method, IEventPublisher.PutDefaultProperty, IEventPublisher::PutDefaultProperty, PutDefaultProperty, PutDefaultProperty method [COM], PutDefaultProperty method [COM],IEventPublisher interface, _com_ieventpublisher_putdefaultproperty, com.ieventpublisher_putdefaultproperty, eventsys/IEventPublisher::PutDefaultProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventPublisher::PutDefaultProperty method
+# IEventPublisher::PutDefaultProperty
 
 
 ## -description

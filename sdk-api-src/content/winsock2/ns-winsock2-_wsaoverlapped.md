@@ -7,7 +7,7 @@ old-location: winsock\wsaoverlapped_2.htm
 old-project: WinSock
 ms.assetid: 91004241-e0ea-4bda-a0f5-71688ac83038
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*LPWSAOVERLAPPED, LPWSAOVERLAPPED, LPWSAOVERLAPPED structure pointer [Winsock], WSAOVERLAPPED, WSAOVERLAPPED structure [Winsock], _WSAOVERLAPPED, _win32_wsaoverlapped_2, winsock.wsaoverlapped_2, winsock2/LPWSAOVERLAPPED, winsock2/WSAOVERLAPPED"
 ms.prod: windows-hardware
 ms.technology: windows-devices

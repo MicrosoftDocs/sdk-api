@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetOpacityMaskBrush
-title: IXpsOMVisual::GetOpacityMaskBrush method
+title: IXpsOMVisual::GetOpacityMaskBrush
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMBrush interface of the visual's opacity mask brush.
 old-location: xps\ixpsomvisual_getopacitymaskbrush.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: df5b770e-cc66-45ee-b865-2959255920bf
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetOpacityMaskBrush method [XPS Documents and Packaging], GetOpacityMaskBrush method [XPS Documents and Packaging], IXpsOMVisual interface, GetOpacityMaskBrush,IXpsOMVisual.GetOpacityMaskBrush, IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], GetOpacityMaskBrush method, IXpsOMVisual::GetOpacityMaskBrush, xps.ixpsomvisual_getopacitymaskbrush, xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrush
+ms.keywords: GetOpacityMaskBrush, GetOpacityMaskBrush method [XPS Documents and Packaging], GetOpacityMaskBrush method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacityMaskBrush method, IXpsOMVisual.GetOpacityMaskBrush, IXpsOMVisual::GetOpacityMaskBrush, xps.ixpsomvisual_getopacitymaskbrush, xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::GetOpacityMaskBrush method
+# IXpsOMVisual::GetOpacityMaskBrush
 
 
 ## -description

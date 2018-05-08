@@ -7,8 +7,8 @@ old-location: shell\IObjectWithPropertyKey.htm
 old-project: shell
 ms.assetid: 238c3e39-62ba-4e97-9a15-19ad2e2d12e7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IObjectWithPropertyKey, IObjectWithPropertyKey interface [Windows Shell], IObjectWithPropertyKey interface [Windows Shell], described, _shell_IObjectWithPropertyKey, propsys/IObjectWithPropertyKey, shell.IObjectWithPropertyKey
+ms.date: 5/3/2018
+ms.keywords: IObjectWithPropertyKey, IObjectWithPropertyKey interface [Windows Shell], IObjectWithPropertyKey interface [Windows Shell],described, _shell_IObjectWithPropertyKey, propsys/IObjectWithPropertyKey, shell.IObjectWithPropertyKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

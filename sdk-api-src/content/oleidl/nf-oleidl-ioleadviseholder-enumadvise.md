@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.EnumAdvise
-title: IOleAdviseHolder::EnumAdvise method
+title: IOleAdviseHolder::EnumAdvise
 author: windows-driver-content
 description: Creates an enumerator that can be used to enumerate the advisory connections currently established for an object.
 old-location: com\ioleadviseholder_enumadvise.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 80a9ccd8-f89a-40c4-8b99-38536409cf26
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: EnumAdvise method [COM], EnumAdvise method [COM], IOleAdviseHolder interface, EnumAdvise,IOleAdviseHolder.EnumAdvise, IOleAdviseHolder, IOleAdviseHolder interface [COM], EnumAdvise method, IOleAdviseHolder::EnumAdvise, _ole_ioleadviseholder_enumadvise, com.ioleadviseholder_enumadvise, oleidl/IOleAdviseHolder::EnumAdvise
+ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IOleAdviseHolder interface, IOleAdviseHolder interface [COM],EnumAdvise method, IOleAdviseHolder.EnumAdvise, IOleAdviseHolder::EnumAdvise, _ole_ioleadviseholder_enumadvise, com.ioleadviseholder_enumadvise, oleidl/IOleAdviseHolder::EnumAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleAdviseHolder::EnumAdvise method
+# IOleAdviseHolder::EnumAdvise
 
 
 ## -description

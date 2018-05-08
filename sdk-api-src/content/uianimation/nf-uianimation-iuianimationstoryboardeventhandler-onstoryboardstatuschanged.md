@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboardEventHandler.OnStoryboardStatusChanged
-title: IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged method
+title: IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged
 author: windows-driver-content
 description: Handles events that occur when a storyboard's status changes.
 old-location: uianimation\iuianimationstoryboardeventhandler_onstoryboardstatuschanged.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: e1ccf0e3-64fc-444e-a27b-1a5bc1d9d6fd
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationStoryboardEventHandler, IUIAnimationStoryboardEventHandler interface [Windows Animation], OnStoryboardStatusChanged method, IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged, OnStoryboardStatusChanged method [Windows Animation], OnStoryboardStatusChanged method [Windows Animation], IUIAnimationStoryboardEventHandler interface, OnStoryboardStatusChanged,IUIAnimationStoryboardEventHandler.OnStoryboardStatusChanged, uianimation.iuianimationstoryboardeventhandler_onstoryboardstatuschanged, uianimation/IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged
+ms.keywords: IUIAnimationStoryboardEventHandler interface [Windows Animation],OnStoryboardStatusChanged method, IUIAnimationStoryboardEventHandler.OnStoryboardStatusChanged, IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged, OnStoryboardStatusChanged, OnStoryboardStatusChanged method [Windows Animation], OnStoryboardStatusChanged method [Windows Animation],IUIAnimationStoryboardEventHandler interface, uianimation.iuianimationstoryboardeventhandler_onstoryboardstatuschanged, uianimation/IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged method
+# IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged
 
 
 ## -description

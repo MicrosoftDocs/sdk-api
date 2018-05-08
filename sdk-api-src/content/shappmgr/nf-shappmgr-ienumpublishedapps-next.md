@@ -1,14 +1,14 @@
 ---
 UID: NF:shappmgr.IEnumPublishedApps.Next
-title: IEnumPublishedApps::Next method
+title: IEnumPublishedApps::Next
 author: windows-driver-content
 description: Gets the next IPublishedApp object in the enumeration.
 old-location: shell\IEnumPublishedApps_Next.htm
 old-project: shell
 ms.assetid: 78d18529-2eeb-4510-8703-457ffe998bc5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumPublishedApps, IEnumPublishedApps interface [Windows Shell], Next method, IEnumPublishedApps::Next, Next method [Windows Shell], Next method [Windows Shell], IEnumPublishedApps interface, Next,IEnumPublishedApps.Next, inet_IEnumPublishedApps_Next, shappmgr/IEnumPublishedApps::Next, shell.IEnumPublishedApps_Next
+ms.date: 5/3/2018
+ms.keywords: IEnumPublishedApps interface [Windows Shell],Next method, IEnumPublishedApps.Next, IEnumPublishedApps::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumPublishedApps interface, inet_IEnumPublishedApps_Next, shappmgr/IEnumPublishedApps::Next, shell.IEnumPublishedApps_Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumPublishedApps::Next method
+# IEnumPublishedApps::Next
 
 
 ## -description

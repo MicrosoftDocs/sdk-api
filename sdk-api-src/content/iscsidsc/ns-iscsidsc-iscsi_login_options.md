@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.idl: 
 req.max-support: 
-req.namespace: Root\WMI
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.typenames: ISCSI_LOGIN_OPTIONS, *PISCSI_LOGIN_OPTIONS
@@ -256,9 +256,31 @@ The user name to authenticate to establish the login session. This value is not 
 
 
 
+### -field Username.size_is
+
+ 
+
+
+### -field Username.size_is.UsernameLength
+
+ 
+
+
 ### -field Password
 
 The user name to authenticate to establish the login session. This value is not necessarily a string. For more information, see the Remarks section in this document.
+
+
+### -field Password.size_is
+
+ 
+
+
+### -field Password.size_is.PasswordLength
+
+ 
+
+
 
 
 ## -remarks

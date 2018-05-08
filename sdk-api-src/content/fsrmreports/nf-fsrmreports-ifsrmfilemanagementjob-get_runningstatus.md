@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_RunningStatus
-title: IFsrmFileManagementJob::get_RunningStatus method
+title: IFsrmFileManagementJob::get_RunningStatus
 author: windows-driver-content
 description: The running status of the job.
 old-location: fsrm\ifsrmfilemanagementjob_runningstatus.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 030efc19-69c0-4321-99ac-ff8abfc38757
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], RunningStatus property, IFsrmFileManagementJob.RunningStatus, IFsrmFileManagementJob::get_RunningStatus, RunningStatus property [File Server Resource Manager], RunningStatus property [File Server Resource Manager], IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_runningstatus, fsrm.ifsrmfilemanagementjob_runningstatus, fsrmreports/IFsrmFileManagementJob::RunningStatus, fsrmreports/IFsrmFileManagementJob::get_RunningStatus, get_RunningStatus,IFsrmFileManagementJob.get_RunningStatus
+ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],RunningStatus property, IFsrmFileManagementJob.RunningStatus, IFsrmFileManagementJob.get_RunningStatus, IFsrmFileManagementJob::RunningStatus, IFsrmFileManagementJob::get_RunningStatus, RunningStatus property [File Server Resource Manager], RunningStatus property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_runningstatus, fsrm.ifsrmfilemanagementjob_runningstatus, fsrmreports/IFsrmFileManagementJob::RunningStatus, fsrmreports/IFsrmFileManagementJob::get_RunningStatus, get_RunningStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileManagementJob::get_RunningStatus method
+# IFsrmFileManagementJob::get_RunningStatus
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_AllowPersonalCoverPages
-title: IFaxConfiguration::get_AllowPersonalCoverPages method
+title: IFaxConfiguration::get_AllowPersonalCoverPages
 author: windows-driver-content
 description: Sets or retrieves a value that indicates whether personal cover pages are allowed.
 old-location: fax\_mfax_FaxConfiguration_AllowPersonalCoverPages_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguration\allowpersonalcoverpages.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AllowPersonalCoverPages property [Fax Service], AllowPersonalCoverPages property [Fax Service], FaxConfiguration object, FaxConfiguration object [Fax Service], AllowPersonalCoverPages property, IFaxConfiguration, IFaxConfiguration::get_AllowPersonalCoverPages, _mfax_IFaxConfiguration_AllowPersonalCoverPages, fax._mfax_FaxConfiguration_AllowPersonalCoverPages_vb, get_AllowPersonalCoverPages,IFaxConfiguration.get_AllowPersonalCoverPages
+ms.keywords: AllowPersonalCoverPages property [Fax Service], AllowPersonalCoverPages property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],AllowPersonalCoverPages property, FaxConfiguration.AllowPersonalCoverPages, IFaxConfiguration.get_AllowPersonalCoverPages, IFaxConfiguration::get_AllowPersonalCoverPages, _mfax_IFaxConfiguration_AllowPersonalCoverPages, fax._mfax_FaxConfiguration_AllowPersonalCoverPages_vb, get_AllowPersonalCoverPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::get_AllowPersonalCoverPages method
+# IFaxConfiguration::get_AllowPersonalCoverPages
 
 
 ## -description

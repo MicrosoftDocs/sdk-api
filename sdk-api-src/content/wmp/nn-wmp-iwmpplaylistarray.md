@@ -7,8 +7,8 @@ old-location: wmp\iwmpplaylistarray.htm
 old-project: WMP
 ms.assetid: e6fb0ed1-cdc1-4792-98cb-2acf27bce5ce
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlaylistArray, IWMPPlaylistArray interface [Windows Media Player], IWMPPlaylistArray interface [Windows Media Player], described, IWMPPlaylistArrayInterface, wmp.iwmpplaylistarray, wmp/IWMPPlaylistArray
+ms.date: 5/4/2018
+ms.keywords: IWMPPlaylistArray, IWMPPlaylistArray interface [Windows Media Player], IWMPPlaylistArray interface [Windows Media Player],described, IWMPPlaylistArrayInterface, wmp.iwmpplaylistarray, wmp/IWMPPlaylistArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

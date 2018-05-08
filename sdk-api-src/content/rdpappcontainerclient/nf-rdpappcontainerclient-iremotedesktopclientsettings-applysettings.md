@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.ApplySettings
-title: IRemoteDesktopClientSettings::ApplySettings method
+title: IRemoteDesktopClientSettings::ApplySettings
 author: windows-driver-content
 description: Stores the specified contents in the RDP file.
 old-location: termserv\iremotedesktopclientsettings_applysettings.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 24f17f50-6cb0-422a-88c6-77bae48af392
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ApplySettings method [Remote Desktop Services], ApplySettings method [Remote Desktop Services], IRemoteDesktopClientSettings interface, ApplySettings,IRemoteDesktopClientSettings.ApplySettings, IRemoteDesktopClientSettings, IRemoteDesktopClientSettings interface [Remote Desktop Services], ApplySettings method, IRemoteDesktopClientSettings::ApplySettings, rdpappcontainerclient/IRemoteDesktopClientSettings::ApplySettings, termserv.iremotedesktopclientsettings_applysettings
+ms.keywords: ApplySettings, ApplySettings method [Remote Desktop Services], ApplySettings method [Remote Desktop Services],IRemoteDesktopClientSettings interface, IRemoteDesktopClientSettings interface [Remote Desktop Services],ApplySettings method, IRemoteDesktopClientSettings.ApplySettings, IRemoteDesktopClientSettings::ApplySettings, rdpappcontainerclient/IRemoteDesktopClientSettings::ApplySettings, termserv.iremotedesktopclientsettings_applysettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRemoteDesktopClientSettings::ApplySettings method
+# IRemoteDesktopClientSettings::ApplySettings
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.Add
-title: IPolicyQualifiers::Add method
+title: IPolicyQualifiers::Add
 author: windows-driver-content
 description: Adds an object to the collection.
 old-location: security\ipolicyqualifiers_add_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 41ead360-0b11-4e47-86c5-24e636cc589d
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Add method [Security], Add method [Security], IPolicyQualifiers interface, Add,IPolicyQualifiers.Add, IPolicyQualifiers, IPolicyQualifiers interface [Security], Add method, IPolicyQualifiers::Add, certenroll/IPolicyQualifiers::Add, security.ipolicyqualifiers_add_method
+ms.keywords: Add, Add method [Security], Add method [Security],IPolicyQualifiers interface, IPolicyQualifiers interface [Security],Add method, IPolicyQualifiers.Add, IPolicyQualifiers::Add, certenroll/IPolicyQualifiers::Add, security.ipolicyqualifiers_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IPolicyQualifiers::Add method
+# IPolicyQualifiers::Add
 
 
 ## -description

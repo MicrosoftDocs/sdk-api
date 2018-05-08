@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AddComponent
-title: IVssBackupComponents::AddComponent method
+title: IVssBackupComponents::AddComponent
 author: windows-driver-content
 description: Used to explicitly add to the backup set.
 old-location: base\ivssbackupcomponents_addcomponent.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 50cb0b16-9ed3-4496-962a-9c845c10986c
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: AddComponent method [VSS], AddComponent method [VSS], IVssBackupComponents interface, AddComponent,IVssBackupComponents.AddComponent, IVssBackupComponents, IVssBackupComponents interface [VSS], AddComponent method, IVssBackupComponents::AddComponent, _win32_ivssbackupcomponents_addcomponent, base.ivssbackupcomponents_addcomponent, vsbackup/IVssBackupComponents::AddComponent
+ms.keywords: AddComponent, AddComponent method [VSS], AddComponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddComponent method, IVssBackupComponents.AddComponent, IVssBackupComponents::AddComponent, _win32_ivssbackupcomponents_addcomponent, base.ivssbackupcomponents_addcomponent, vsbackup/IVssBackupComponents::AddComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::AddComponent method
+# IVssBackupComponents::AddComponent
 
 
 ## -description

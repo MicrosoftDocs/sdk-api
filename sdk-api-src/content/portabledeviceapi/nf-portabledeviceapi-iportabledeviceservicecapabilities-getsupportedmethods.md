@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetSupportedMethods
-title: IPortableDeviceServiceCapabilities::GetSupportedMethods method
+title: IPortableDeviceServiceCapabilities::GetSupportedMethods
 author: windows-driver-content
 description: Retrieves the methods supported by the service.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedmethods.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 60201d12-5a49-4d84-9dae-b04cbb144d8f
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetSupportedMethods method [Windows Portable Devices SDK], GetSupportedMethods method [Windows Portable Devices SDK], IPortableDeviceServiceCapabilities interface, GetSupportedMethods,IPortableDeviceServiceCapabilities.GetSupportedMethods, IPortableDeviceServiceCapabilities, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK], GetSupportedMethods method, IPortableDeviceServiceCapabilities::GetSupportedMethods, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedMethods, wpdsdk.iportabledeviceservicecapabilities_getsupportedmethods
+ms.keywords: GetSupportedMethods, GetSupportedMethods method [Windows Portable Devices SDK], GetSupportedMethods method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedMethods method, IPortableDeviceServiceCapabilities.GetSupportedMethods, IPortableDeviceServiceCapabilities::GetSupportedMethods, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedMethods, wpdsdk.iportabledeviceservicecapabilities_getsupportedmethods
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceServiceCapabilities::GetSupportedMethods method
+# IPortableDeviceServiceCapabilities::GetSupportedMethods
 
 
 ## -description

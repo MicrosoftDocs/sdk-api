@@ -7,7 +7,7 @@ old-location: automat\varor.htm
 old-project: automat
 ms.assetid: 8c161755-4fdd-48bd-9dc4-6510cc9ce8ab
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarOr, VarOr function [Automation], _oa96_VarOr, automat.varor, oleauto/VarOr
 ms.prod: windows-hardware
 ms.technology: windows-devices

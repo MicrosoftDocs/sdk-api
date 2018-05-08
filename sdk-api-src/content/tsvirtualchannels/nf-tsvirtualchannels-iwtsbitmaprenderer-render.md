@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRenderer.Render
-title: IWTSBitmapRenderer::Render method
+title: IWTSBitmapRenderer::Render
 author: windows-driver-content
 description: Called by a dynamic virtual channel plug-in to render bitmaps.
 old-location: termserv\iwtsbitmaprenderer_render.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 536c6954-0cde-48d1-ba5b-a97c9942f0f6
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSBitmapRenderer, IWTSBitmapRenderer interface [Remote Desktop Services], Render method, IWTSBitmapRenderer::Render, Render method [Remote Desktop Services], Render method [Remote Desktop Services], IWTSBitmapRenderer interface, Render,IWTSBitmapRenderer.Render, termserv.iwtsbitmaprenderer_render, tsvirtualchannels/IWTSBitmapRenderer::Render
+ms.keywords: IWTSBitmapRenderer interface [Remote Desktop Services],Render method, IWTSBitmapRenderer.Render, IWTSBitmapRenderer::Render, Render, Render method [Remote Desktop Services], Render method [Remote Desktop Services],IWTSBitmapRenderer interface, termserv.iwtsbitmaprenderer_render, tsvirtualchannels/IWTSBitmapRenderer::Render
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWTSBitmapRenderer::Render method
+# IWTSBitmapRenderer::Render
 
 
 ## -description

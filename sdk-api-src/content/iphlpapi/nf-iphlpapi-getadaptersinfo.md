@@ -7,7 +7,7 @@ old-location: iphlp\getadaptersinfo.htm
 old-project: IpHlp
 ms.assetid: 8cdecc84-6566-438b-86d0-3c55490a9a59
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: GetAdaptersInfo, GetAdaptersInfo function [IP Helper], _iphlp_getadaptersinfo, iphlp.getadaptersinfo, iphlpapi/GetAdaptersInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

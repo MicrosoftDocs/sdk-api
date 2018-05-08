@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_BuiltIn
-title: INetFwOpenPort::get_BuiltIn method
+title: INetFwOpenPort::get_BuiltIn
 author: windows-driver-content
 description: Indicates whether the port is defined by the system.
 old-location: ics\inetfwopenport_builtin.htm
 old-project: ICS
 ms.assetid: 7260b9f2-2cbe-4b71-8c99-1d1c30870ae1
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: BuiltIn property [ICS/ICF], BuiltIn property [ICS/ICF], INetFwOpenPort interface, INetFwOpenPort, INetFwOpenPort interface [ICS/ICF], BuiltIn property, INetFwOpenPort.BuiltIn, INetFwOpenPort::get_BuiltIn, get_BuiltIn,INetFwOpenPort.get_BuiltIn, ics.inetfwopenport_builtin, netfw/INetFwOpenPort::BuiltIn, netfw/INetFwOpenPort::get_BuiltIn
+ms.date: 5/1/2018
+ms.keywords: BuiltIn property [ICS/ICF], BuiltIn property [ICS/ICF],INetFwOpenPort interface, INetFwOpenPort interface [ICS/ICF],BuiltIn property, INetFwOpenPort.BuiltIn, INetFwOpenPort.get_BuiltIn, INetFwOpenPort::BuiltIn, INetFwOpenPort::get_BuiltIn, get_BuiltIn, ics.inetfwopenport_builtin, netfw/INetFwOpenPort::BuiltIn, netfw/INetFwOpenPort::get_BuiltIn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwOpenPort::get_BuiltIn method
+# INetFwOpenPort::get_BuiltIn
 
 
 ## -description

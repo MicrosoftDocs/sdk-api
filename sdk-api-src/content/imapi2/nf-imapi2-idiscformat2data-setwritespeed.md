@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.SetWriteSpeed
-title: IDiscFormat2Data::SetWriteSpeed method
+title: IDiscFormat2Data::SetWriteSpeed
 author: windows-driver-content
 description: Sets the write speed of the disc recorder.
 old-location: imapi\idiscformat2data_setwritespeed.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: a3e03af5-bda2-49a3-80d9-52acfe390708
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], SetWriteSpeed method, IDiscFormat2Data::SetWriteSpeed, SetWriteSpeed method [IMAPI], SetWriteSpeed method [IMAPI], IDiscFormat2Data interface, SetWriteSpeed,IDiscFormat2Data.SetWriteSpeed, imapi.idiscformat2data_setwritespeed, imapi2/IDiscFormat2Data::SetWriteSpeed
+ms.keywords: IDiscFormat2Data interface [IMAPI],SetWriteSpeed method, IDiscFormat2Data.SetWriteSpeed, IDiscFormat2Data::SetWriteSpeed, SetWriteSpeed, SetWriteSpeed method [IMAPI], SetWriteSpeed method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_setwritespeed, imapi2/IDiscFormat2Data::SetWriteSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Data::SetWriteSpeed method
+# IDiscFormat2Data::SetWriteSpeed
 
 
 ## -description

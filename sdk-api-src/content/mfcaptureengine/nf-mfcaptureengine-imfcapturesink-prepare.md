@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink.Prepare
-title: IMFCaptureSink::Prepare method
+title: IMFCaptureSink::Prepare
 author: windows-driver-content
 description: Prepares the capture sink by loading any required pipeline components, such as encoders, video processors, and media sinks.
 old-location: mf\imfcapturesink_prepare.htm
 old-project: medfound
 ms.assetid: 244FD291-AD1D-4A51-87C3-C98B33978AA1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCaptureSink, IMFCaptureSink interface [Media Foundation], Prepare method, IMFCaptureSink::Prepare, Prepare method [Media Foundation], Prepare method [Media Foundation], IMFCaptureSink interface, Prepare,IMFCaptureSink.Prepare, mf.imfcapturesink_prepare, mfcaptureengine/IMFCaptureSink::Prepare
+ms.date: 5/3/2018
+ms.keywords: IMFCaptureSink interface [Media Foundation],Prepare method, IMFCaptureSink.Prepare, IMFCaptureSink::Prepare, Prepare, Prepare method [Media Foundation], Prepare method [Media Foundation],IMFCaptureSink interface, mf.imfcapturesink_prepare, mfcaptureengine/IMFCaptureSink::Prepare
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureSink::Prepare method
+# IMFCaptureSink::Prepare
 
 
 ## -description

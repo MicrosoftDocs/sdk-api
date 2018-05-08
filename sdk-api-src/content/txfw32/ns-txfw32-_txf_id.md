@@ -64,16 +64,14 @@ Represents a unique identifier within the context of the Resource Manager.
 
 
 
-
-
-#### - HighPart
-
-The high part of the identifier.
-
-
-#### - LowPart
+### -field LowPart
 
 The low part of the identifier.
+
+
+### -field HighPart
+
+The high part of the identifier.
 
 
 ## -see-also

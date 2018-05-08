@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IChangeConflict.SetResolveActionForChangeUnit
-title: IChangeConflict::SetResolveActionForChangeUnit method
+title: IChangeConflict::SetResolveActionForChangeUnit
 author: windows-driver-content
 description: Sets a conflict resolution action for the conflicting change unit change.
 old-location: winsync\ichangeconflict_setresolveactionforchangeunit.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 8594a888-21a1-4cfb-964c-9c670e3a7438
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IChangeConflict, IChangeConflict interface [Windows Sync], SetResolveActionForChangeUnit method, IChangeConflict::SetResolveActionForChangeUnit, SetResolveActionForChangeUnit method [Windows Sync], SetResolveActionForChangeUnit method [Windows Sync], IChangeConflict interface, SetResolveActionForChangeUnit,IChangeConflict.SetResolveActionForChangeUnit, winsync.ichangeconflict_setresolveactionforchangeunit, winsync/IChangeConflict::SetResolveActionForChangeUnit
+ms.keywords: IChangeConflict interface [Windows Sync],SetResolveActionForChangeUnit method, IChangeConflict.SetResolveActionForChangeUnit, IChangeConflict::SetResolveActionForChangeUnit, SetResolveActionForChangeUnit, SetResolveActionForChangeUnit method [Windows Sync], SetResolveActionForChangeUnit method [Windows Sync],IChangeConflict interface, winsync.ichangeconflict_setresolveactionforchangeunit, winsync/IChangeConflict::SetResolveActionForChangeUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IChangeConflict::SetResolveActionForChangeUnit method
+# IChangeConflict::SetResolveActionForChangeUnit
 
 
 ## -description

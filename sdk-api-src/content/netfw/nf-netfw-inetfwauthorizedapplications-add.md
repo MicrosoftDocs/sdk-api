@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.Add
-title: INetFwAuthorizedApplications::Add method
+title: INetFwAuthorizedApplications::Add
 author: windows-driver-content
 description: The Add method adds a new application to the collection.
 old-location: ics\inetfwauthorizedapplications_add.htm
 old-project: ICS
 ms.assetid: f69f906d-0d7b-4f45-9bf0-fd1b031e3492
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Add method [ICS/ICF], Add method [ICS/ICF], INetFwAuthorizedApplications interface, Add,INetFwAuthorizedApplications.Add, INetFwAuthorizedApplications, INetFwAuthorizedApplications interface [ICS/ICF], Add method, INetFwAuthorizedApplications::Add, ics.inetfwauthorizedapplications_add, netfw/INetFwAuthorizedApplications::Add
+ms.date: 5/1/2018
+ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwAuthorizedApplications interface, INetFwAuthorizedApplications interface [ICS/ICF],Add method, INetFwAuthorizedApplications.Add, INetFwAuthorizedApplications::Add, ics.inetfwauthorizedapplications_add, netfw/INetFwAuthorizedApplications::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwAuthorizedApplications::Add method
+# INetFwAuthorizedApplications::Add
 
 
 ## -description

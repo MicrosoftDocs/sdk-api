@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.ID3DX11FFT.AttachBuffersAndPrecompute
-title: ID3DX11FFT::AttachBuffersAndPrecompute method
+title: ID3DX11FFT::AttachBuffersAndPrecompute
 author: windows-driver-content
 description: Attaches buffers to an FFT context and performs any required precomputations.
 old-location: direct3d11\id3dx11fft_attachbuffersandprecompute.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 50c714fc-91fb-4a7d-a430-40ff221a1a14
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: AttachBuffersAndPrecompute method [Direct3D 11], AttachBuffersAndPrecompute method [Direct3D 11], ID3DX11FFT interface, AttachBuffersAndPrecompute,ID3DX11FFT.AttachBuffersAndPrecompute, ID3DX11FFT, ID3DX11FFT interface [Direct3D 11], AttachBuffersAndPrecompute method, ID3DX11FFT::AttachBuffersAndPrecompute, d035d5bc-194b-3f37-2b54-5d5f4ae0fbc8, d3dcsx/ID3DX11FFT::AttachBuffersAndPrecompute, direct3d11.id3dx11fft_attachbuffersandprecompute
+ms.keywords: AttachBuffersAndPrecompute, AttachBuffersAndPrecompute method [Direct3D 11], AttachBuffersAndPrecompute method [Direct3D 11],ID3DX11FFT interface, ID3DX11FFT interface [Direct3D 11],AttachBuffersAndPrecompute method, ID3DX11FFT.AttachBuffersAndPrecompute, ID3DX11FFT::AttachBuffersAndPrecompute, d035d5bc-194b-3f37-2b54-5d5f4ae0fbc8, d3dcsx/ID3DX11FFT::AttachBuffersAndPrecompute, direct3d11.id3dx11fft_attachbuffersandprecompute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3DX11FFT::AttachBuffersAndPrecompute method
+# ID3DX11FFT::AttachBuffersAndPrecompute
 
 
 ## -description

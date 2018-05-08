@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIOutput3.CheckOverlaySupport
-title: IDXGIOutput3::CheckOverlaySupport method
+title: IDXGIOutput3::CheckOverlaySupport
 author: windows-driver-content
 description: Checks for overlay support.
 old-location: direct3ddxgi\idxgioutput3_checkoverlaysupport.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: D7B90FF5-5E8B-4F9E-A442-B44449438388
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: CheckOverlaySupport method [DXGI], CheckOverlaySupport method [DXGI], IDXGIOutput3 interface, CheckOverlaySupport,IDXGIOutput3.CheckOverlaySupport, IDXGIOutput3, IDXGIOutput3 interface [DXGI], CheckOverlaySupport method, IDXGIOutput3::CheckOverlaySupport, direct3ddxgi.idxgioutput3_checkoverlaysupport, dxgi1_3/IDXGIOutput3::CheckOverlaySupport
+ms.keywords: CheckOverlaySupport, CheckOverlaySupport method [DXGI], CheckOverlaySupport method [DXGI],IDXGIOutput3 interface, IDXGIOutput3 interface [DXGI],CheckOverlaySupport method, IDXGIOutput3.CheckOverlaySupport, IDXGIOutput3::CheckOverlaySupport, direct3ddxgi.idxgioutput3_checkoverlaysupport, dxgi1_3/IDXGIOutput3::CheckOverlaySupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutput3::CheckOverlaySupport method
+# IDXGIOutput3::CheckOverlaySupport
 
 
 ## -description

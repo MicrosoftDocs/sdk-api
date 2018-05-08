@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.SetCellCount
-title: ITextRow::SetCellCount method
+title: ITextRow::SetCellCount
 author: windows-driver-content
 description: Sets the count of cells in a row.
 old-location: controls\itextrow_setcellcount.htm
 old-project: Controls
 ms.assetid: a2e1436a-ef36-41cd-9ea1-fb7abfad7631
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetCellCount method, ITextRow::SetCellCount, SetCellCount method [Windows Controls], SetCellCount method [Windows Controls], ITextRow interface, SetCellCount,ITextRow.SetCellCount, controls.itextrow_setcellcount, tom/ITextRow::SetCellCount
+ms.date: 4/27/2018
+ms.keywords: ITextRow interface [Windows Controls],SetCellCount method, ITextRow.SetCellCount, ITextRow::SetCellCount, SetCellCount, SetCellCount method [Windows Controls], SetCellCount method [Windows Controls],ITextRow interface, controls.itextrow_setcellcount, tom/ITextRow::SetCellCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::SetCellCount method
+# ITextRow::SetCellCount
 
 
 ## -description

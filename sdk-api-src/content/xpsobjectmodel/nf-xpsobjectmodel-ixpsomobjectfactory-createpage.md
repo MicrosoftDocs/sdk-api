@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePage
-title: IXpsOMObjectFactory::CreatePage method
+title: IXpsOMObjectFactory::CreatePage
 author: windows-driver-content
 description: Creates an IXpsOMPage interface, which provides the root node of a tree of objects that represent the contents of a single page.
 old-location: xps\ixpsomobjectfactory_createpage.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 9212ccd8-0793-40cc-bab5-609ea74715f7
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreatePage method [XPS Documents and Packaging], CreatePage method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreatePage,IXpsOMObjectFactory.CreatePage, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreatePage method, IXpsOMObjectFactory::CreatePage, xps.ixpsomobjectfactory_createpage, xpsobjectmodel/IXpsOMObjectFactory::CreatePage
+ms.keywords: CreatePage, CreatePage method [XPS Documents and Packaging], CreatePage method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePage method, IXpsOMObjectFactory.CreatePage, IXpsOMObjectFactory::CreatePage, xps.ixpsomobjectfactory_createpage, xpsobjectmodel/IXpsOMObjectFactory::CreatePage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreatePage method
+# IXpsOMObjectFactory::CreatePage
 
 
 ## -description

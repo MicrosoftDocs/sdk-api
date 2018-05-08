@@ -7,7 +7,7 @@ old-location: automat\dispparams.htm
 old-project: automat
 ms.assetid: a16e5a21-766e-4287-b039-13429aa78f8b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: DISPPARAMS, DISPPARAMS structure [Automation], _oa96_DISPPARAMS, automat.dispparams, oaidl/DISPPARAMS, tagDISPPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices

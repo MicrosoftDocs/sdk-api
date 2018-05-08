@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Build
-title: IMSVidCtl::Build method
+title: IMSVidCtl::Build
 author: windows-driver-content
 description: The Build method builds the filter graph and connects all the filters.
 old-location: mstv\imsvidctl_build.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 49f78dd8-f26e-456d-b67e-155ae0ed5419
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Build method [Microsoft TV Technologies], Build method [Microsoft TV Technologies], IMSVidCtl interface, Build,IMSVidCtl.Build, IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], Build method, IMSVidCtl::Build, IMSVidCtlBuild, mstv.imsvidctl_build, msvidctl/IMSVidCtl::Build
+ms.keywords: Build, Build method [Microsoft TV Technologies], Build method [Microsoft TV Technologies],IMSVidCtl interface, IMSVidCtl interface [Microsoft TV Technologies],Build method, IMSVidCtl.Build, IMSVidCtl::Build, IMSVidCtlBuild, mstv.imsvidctl_build, msvidctl/IMSVidCtl::Build
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::Build method
+# IMSVidCtl::Build
 
 
 ## -description

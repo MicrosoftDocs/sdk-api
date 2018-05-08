@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRpcChannelBuffer.GetDestCtx
-title: IRpcChannelBuffer::GetDestCtx method
+title: IRpcChannelBuffer::GetDestCtx
 author: windows-driver-content
 description: Retrieves the destination context for the RPC channel.
 old-location: com\irpcchannelbuffer_getdestctx.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 34599869-0c85-403a-88c2-ea8e865d533a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetDestCtx method [COM], GetDestCtx method [COM], IRpcChannelBuffer interface, GetDestCtx,IRpcChannelBuffer.GetDestCtx, IRpcChannelBuffer, IRpcChannelBuffer interface [COM], GetDestCtx method, IRpcChannelBuffer::GetDestCtx, _com_irpcchannelbuffer_getdestctx, com.irpcchannelbuffer_getdestctx, objidlbase/IRpcChannelBuffer::GetDestCtx
+ms.keywords: GetDestCtx, GetDestCtx method [COM], GetDestCtx method [COM],IRpcChannelBuffer interface, IRpcChannelBuffer interface [COM],GetDestCtx method, IRpcChannelBuffer.GetDestCtx, IRpcChannelBuffer::GetDestCtx, _com_irpcchannelbuffer_getdestctx, com.irpcchannelbuffer_getdestctx, objidlbase/IRpcChannelBuffer::GetDestCtx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRpcChannelBuffer::GetDestCtx method
+# IRpcChannelBuffer::GetDestCtx
 
 
 ## -description

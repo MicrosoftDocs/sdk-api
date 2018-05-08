@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicVideo.get_SourceHeight
-title: IBasicVideo::get_SourceHeight method
+title: IBasicVideo::get_SourceHeight
 author: windows-driver-content
 description: The get_SourceHeight method retrieves the height of the source rectangle.
 old-location: dshow\ibasicvideo_get_sourceheight.htm
 old-project: DirectShow
 ms.assetid: 3f4e779a-cfa9-496d-a021-d24ae3daa5b3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], get_SourceHeight method, IBasicVideo::get_SourceHeight, IBasicVideoget_SourceHeight, control/IBasicVideo::get_SourceHeight, dshow.ibasicvideo_get_sourceheight, get_SourceHeight method [DirectShow], get_SourceHeight method [DirectShow], IBasicVideo interface, get_SourceHeight,IBasicVideo.get_SourceHeight
+ms.date: 4/30/2018
+ms.keywords: IBasicVideo interface [DirectShow],get_SourceHeight method, IBasicVideo.get_SourceHeight, IBasicVideo::get_SourceHeight, IBasicVideoget_SourceHeight, control/IBasicVideo::get_SourceHeight, dshow.ibasicvideo_get_sourceheight, get_SourceHeight, get_SourceHeight method [DirectShow], get_SourceHeight method [DirectShow],IBasicVideo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicVideo::get_SourceHeight method
+# IBasicVideo::get_SourceHeight
 
 
 ## -description

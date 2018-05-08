@@ -65,60 +65,60 @@ Type: <b><a href="https://msdn.microsoft.com/582ec1ea-9390-4f86-9a3c-25d4e805a21
 Type of authentication method.
 
 
-#### - certificateAuthentication
-
-Type: <b><a href="https://msdn.microsoft.com/39332187-6562-4f58-9284-e2aaccf1489b">IKEEXT_CERTIFICATE_AUTHENTICATION2</a></b>
-
- Available when <b>authenticationMethodType</b> is <b>IKEEXT_CERTIFICATE</b>, <b>IKEEXT_CERTIFICATE_ECDSA_P256</b>, or <b>IKEEXT_CERTIFICATE_ECDSA_P384</b>.
-
-
-#### - cgaAuthentication
-
-Type: <b><a href="https://msdn.microsoft.com/6b472140-f3e3-45b9-81f3-9c428b687fe4">IKEEXT_IPV6_CGA_AUTHENTICATION0</a></b>
-
-Available when <b>authenticationMethodType</b> is <b>IKEEXT_IPV6_CGA</b>.
-
-
-#### - eapAuthentication
-
-Type: <b><a href="https://msdn.microsoft.com/86029526-ea87-4962-b5f5-f535c7034c60">IKEEXT_EAP_AUTHENTICATION0</a></b>
-
-Available when <b>authenticationMethodType</b> is <b>IKEEXT_EAP</b>.
-
-
-#### - kerberosAuthentication
-
-Type: <b><a href="https://msdn.microsoft.com/c9ea72e1-3d98-49f1-9061-d19e16f50660">IKEEXT_KERBEROS_AUTHENTICATION1</a></b>
-
- Available when <b>authenticationMethodType</b> is <b>IKEEXT_KERBEROS</b>.
-
-
-#### - ntlmV2Authentication
-
-Type: <b><a href="https://msdn.microsoft.com/8ac34054-5066-49f2-80b6-e674f6175c8e">IKEEXT_NTLM_V2_AUTHENTICATION0</a></b>
-
-Available when <b>authenticationMethodType</b> is <b>IKEEXT_NTLM_V2</b>.
-
-
-#### - presharedKeyAuthentication
+### -field presharedKeyAuthentication
 
 Type: <b><a href="https://msdn.microsoft.com/b2009797-f5fd-4d14-8a59-832f9a0acff1">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a></b>
 
  Available when <b>authenticationMethodType</b> is <b>IKEEXT_PRESHARED_KEY</b>.
 
 
-#### - reservedAuthentication
+### -field certificateAuthentication
+
+Type: <b><a href="https://msdn.microsoft.com/39332187-6562-4f58-9284-e2aaccf1489b">IKEEXT_CERTIFICATE_AUTHENTICATION2</a></b>
+
+ Available when <b>authenticationMethodType</b> is <b>IKEEXT_CERTIFICATE</b>, <b>IKEEXT_CERTIFICATE_ECDSA_P256</b>, or <b>IKEEXT_CERTIFICATE_ECDSA_P384</b>.
+
+
+### -field kerberosAuthentication
+
+Type: <b><a href="https://msdn.microsoft.com/c9ea72e1-3d98-49f1-9061-d19e16f50660">IKEEXT_KERBEROS_AUTHENTICATION1</a></b>
+
+ Available when <b>authenticationMethodType</b> is <b>IKEEXT_KERBEROS</b>.
+
+
+### -field reservedAuthentication
 
 Type: <b><a href="https://msdn.microsoft.com/afae9b31-363a-47d9-9fc9-18efd8332fce">IKEEXT_RESERVED_AUTHENTICATION0</a></b>
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_RESERVED</b>.
 
 
-#### - sslAuthentication
+### -field ntlmV2Authentication
+
+Type: <b><a href="https://msdn.microsoft.com/8ac34054-5066-49f2-80b6-e674f6175c8e">IKEEXT_NTLM_V2_AUTHENTICATION0</a></b>
+
+Available when <b>authenticationMethodType</b> is <b>IKEEXT_NTLM_V2</b>.
+
+
+### -field sslAuthentication
 
 Type: <b><a href="https://msdn.microsoft.com/39332187-6562-4f58-9284-e2aaccf1489b">IKEEXT_CERTIFICATE_AUTHENTICATION2</a></b>
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_SSL</b>, <b>IKEEXT_SSL_ECDSA_P256</b>, or <b>IKEEXT_SSL_ECDSA_P384</b>.
+
+
+### -field cgaAuthentication
+
+Type: <b><a href="https://msdn.microsoft.com/6b472140-f3e3-45b9-81f3-9c428b687fe4">IKEEXT_IPV6_CGA_AUTHENTICATION0</a></b>
+
+Available when <b>authenticationMethodType</b> is <b>IKEEXT_IPV6_CGA</b>.
+
+
+### -field eapAuthentication
+
+Type: <b><a href="https://msdn.microsoft.com/86029526-ea87-4962-b5f5-f535c7034c60">IKEEXT_EAP_AUTHENTICATION0</a></b>
+
+Available when <b>authenticationMethodType</b> is <b>IKEEXT_EAP</b>.
 
 
 ## -see-also

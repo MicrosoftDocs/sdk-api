@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.SetFloat
-title: ID3D10EffectScalarVariable::SetFloat method
+title: ID3D10EffectScalarVariable::SetFloat
 author: windows-driver-content
 description: Set a floating-point variable.
 old-location: direct3d10\id3d10effectscalarvariable_setfloat.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_setfloat.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 5ff1fc81-0f45-4ada-0fe1-749772e20ccc, ID3D10EffectScalarVariable, ID3D10EffectScalarVariable interface [Direct3D 10], SetFloat method, ID3D10EffectScalarVariable::SetFloat, SetFloat method [Direct3D 10], SetFloat method [Direct3D 10], ID3D10EffectScalarVariable interface, SetFloat,ID3D10EffectScalarVariable.SetFloat, d3d10effect/ID3D10EffectScalarVariable::SetFloat, direct3d10.id3d10effectscalarvariable_setfloat
+ms.keywords: 5ff1fc81-0f45-4ada-0fe1-749772e20ccc, ID3D10EffectScalarVariable interface [Direct3D 10],SetFloat method, ID3D10EffectScalarVariable.SetFloat, ID3D10EffectScalarVariable::SetFloat, SetFloat, SetFloat method [Direct3D 10], SetFloat method [Direct3D 10],ID3D10EffectScalarVariable interface, d3d10effect/ID3D10EffectScalarVariable::SetFloat, direct3d10.id3d10effectscalarvariable_setfloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectScalarVariable::SetFloat method
+# ID3D10EffectScalarVariable::SetFloat
 
 
 ## -description

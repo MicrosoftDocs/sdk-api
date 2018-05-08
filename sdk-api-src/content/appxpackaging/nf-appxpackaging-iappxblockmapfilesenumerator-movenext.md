@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFilesEnumerator.MoveNext
-title: IAppxBlockMapFilesEnumerator::MoveNext method
+title: IAppxBlockMapFilesEnumerator::MoveNext
 author: windows-driver-content
 description: Advances the position of the enumerator to the next file.
 old-location: appxpkg\iappxblockmapfilesenumerator_movenext.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: C50F7801-4C33-46EA-989C-259BA407C96B
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxBlockMapFilesEnumerator, IAppxBlockMapFilesEnumerator interface [App packaging and management], MoveNext method, IAppxBlockMapFilesEnumerator::MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management], IAppxBlockMapFilesEnumerator interface, MoveNext,IAppxBlockMapFilesEnumerator.MoveNext, appxpackaging/IAppxBlockMapFilesEnumerator::MoveNext, appxpkg.iappxblockmapfilesenumerator_movenext
+ms.keywords: IAppxBlockMapFilesEnumerator interface [App packaging and management],MoveNext method, IAppxBlockMapFilesEnumerator.MoveNext, IAppxBlockMapFilesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxBlockMapFilesEnumerator interface, appxpackaging/IAppxBlockMapFilesEnumerator::MoveNext, appxpkg.iappxblockmapfilesenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBlockMapFilesEnumerator::MoveNext method
+# IAppxBlockMapFilesEnumerator::MoveNext
 
 
 ## -description

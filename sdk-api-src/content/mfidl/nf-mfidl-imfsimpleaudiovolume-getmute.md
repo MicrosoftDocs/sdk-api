@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.GetMute
-title: IMFSimpleAudioVolume::GetMute method
+title: IMFSimpleAudioVolume::GetMute
 author: windows-driver-content
 description: Queries whether the audio is muted.
 old-location: mf\imfsimpleaudiovolume_getmute.htm
 old-project: medfound
 ms.assetid: 13907d3c-62c0-4cb8-8921-5a38a63d7d6e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 13907d3c-62c0-4cb8-8921-5a38a63d7d6e, GetMute method [Media Foundation], GetMute method [Media Foundation], IMFSimpleAudioVolume interface, GetMute,IMFSimpleAudioVolume.GetMute, IMFSimpleAudioVolume, IMFSimpleAudioVolume interface [Media Foundation], GetMute method, IMFSimpleAudioVolume::GetMute, mf.imfsimpleaudiovolume_getmute, mfidl/IMFSimpleAudioVolume::GetMute
+ms.date: 5/3/2018
+ms.keywords: 13907d3c-62c0-4cb8-8921-5a38a63d7d6e, GetMute, GetMute method [Media Foundation], GetMute method [Media Foundation],IMFSimpleAudioVolume interface, IMFSimpleAudioVolume interface [Media Foundation],GetMute method, IMFSimpleAudioVolume.GetMute, IMFSimpleAudioVolume::GetMute, mf.imfsimpleaudiovolume_getmute, mfidl/IMFSimpleAudioVolume::GetMute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSimpleAudioVolume::GetMute method
+# IMFSimpleAudioVolume::GetMute
 
 
 ## -description

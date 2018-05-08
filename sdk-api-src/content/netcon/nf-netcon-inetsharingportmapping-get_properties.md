@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingPortMapping.get_Properties
-title: INetSharingPortMapping::get_Properties method
+title: INetSharingPortMapping::get_Properties
 author: windows-driver-content
 description: The get_Properties method retrieves the properties for a port mapping.
 old-location: ics\inetsharingportmapping_get_properties.htm
 old-project: ICS
 ms.assetid: 3cfc27a4-fe43-4e47-b857-7c80e8ee0dd5
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingPortMapping, INetSharingPortMapping interface [ICS/ICF], get_Properties method, INetSharingPortMapping::get_Properties, _ics_inetsharingportmapping_get_properties, get_Properties method [ICS/ICF], get_Properties method [ICS/ICF], INetSharingPortMapping interface, get_Properties,INetSharingPortMapping.get_Properties, ics.inetsharingportmapping_get_properties, netcon/INetSharingPortMapping::get_Properties
+ms.date: 5/1/2018
+ms.keywords: INetSharingPortMapping interface [ICS/ICF],get_Properties method, INetSharingPortMapping.get_Properties, INetSharingPortMapping::get_Properties, _ics_inetsharingportmapping_get_properties, get_Properties, get_Properties method [ICS/ICF], get_Properties method [ICS/ICF],INetSharingPortMapping interface, ics.inetsharingportmapping_get_properties, netcon/INetSharingPortMapping::get_Properties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingPortMapping::get_Properties method
+# INetSharingPortMapping::get_Properties
 
 
 ## -description

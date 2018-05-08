@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: b568a8c6-119b-486e-94e3-fe4e54a395bb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesProgress, IOfflineFilesProgress interface [Offline Files], IOfflineFilesProgress interface [Offline Files], described, cscobj/IOfflineFilesProgress, of.iofflinefilesprogress
+ms.keywords: IOfflineFilesProgress, IOfflineFilesProgress interface [Offline Files], IOfflineFilesProgress interface [Offline Files],described, cscobj/IOfflineFilesProgress, of.iofflinefilesprogress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

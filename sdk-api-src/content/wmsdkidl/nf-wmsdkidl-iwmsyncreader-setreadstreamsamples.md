@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.SetReadStreamSamples
-title: IWMSyncReader::SetReadStreamSamples method
+title: IWMSyncReader::SetReadStreamSamples
 author: windows-driver-content
 description: The SetReadStreamSamples method specifies whether samples from a stream will be delivered compressed or uncompressed.
 old-location: wmformat\iwmsyncreader_setreadstreamsamples.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: cf998ecc-e80e-4eb3-9cba-61bd0b665d51
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSyncReader, IWMSyncReader interface [windows Media Format], SetReadStreamSamples method, IWMSyncReader::SetReadStreamSamples, IWMSyncReaderSetReadStreamSamples, SetReadStreamSamples method [windows Media Format], SetReadStreamSamples method [windows Media Format], IWMSyncReader interface, SetReadStreamSamples,IWMSyncReader.SetReadStreamSamples, wmformat.iwmsyncreader_setreadstreamsamples, wmsdkidl/IWMSyncReader::SetReadStreamSamples
+ms.keywords: IWMSyncReader interface [windows Media Format],SetReadStreamSamples method, IWMSyncReader.SetReadStreamSamples, IWMSyncReader::SetReadStreamSamples, IWMSyncReaderSetReadStreamSamples, SetReadStreamSamples, SetReadStreamSamples method [windows Media Format], SetReadStreamSamples method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setreadstreamsamples, wmsdkidl/IWMSyncReader::SetReadStreamSamples
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader::SetReadStreamSamples method
+# IWMSyncReader::SetReadStreamSamples
 
 
 ## -description

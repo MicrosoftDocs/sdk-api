@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.WaitForInputIdle
-title: IWindowProvider::WaitForInputIdle method
+title: IWindowProvider::WaitForInputIdle
 author: windows-driver-content
 description: Causes the calling code to block for the specified time or until the associated process enters an idle state, whichever completes first.
 old-location: winauto\uiauto_IWindowProvider_WaitForInputIdle.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 787f8309-09aa-4e6a-bfbc-fc03b917ead4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IWindowProvider, IWindowProvider interface [Windows Accessibility], WaitForInputIdle method, IWindowProvider::WaitForInputIdle, WaitForInputIdle method [Windows Accessibility], WaitForInputIdle method [Windows Accessibility], IWindowProvider interface, WaitForInputIdle,IWindowProvider.WaitForInputIdle, uiauto.uiauto_IWindowProvider_WaitForInputIdle, uiauto_IWindowProvider_WaitForInputIdle, uiautomationcore/IWindowProvider::WaitForInputIdle, winauto.uiauto_IWindowProvider_WaitForInputIdle
+ms.keywords: IWindowProvider interface [Windows Accessibility],WaitForInputIdle method, IWindowProvider.WaitForInputIdle, IWindowProvider::WaitForInputIdle, WaitForInputIdle, WaitForInputIdle method [Windows Accessibility], WaitForInputIdle method [Windows Accessibility],IWindowProvider interface, uiauto.uiauto_IWindowProvider_WaitForInputIdle, uiauto_IWindowProvider_WaitForInputIdle, uiautomationcore/IWindowProvider::WaitForInputIdle, winauto.uiauto_IWindowProvider_WaitForInputIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWindowProvider::WaitForInputIdle method
+# IWindowProvider::WaitForInputIdle
 
 
 ## -description

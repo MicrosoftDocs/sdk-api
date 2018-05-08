@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.UpdateUIElement
-title: ITfUIElementMgr::UpdateUIElement method
+title: ITfUIElementMgr::UpdateUIElement
 author: windows-driver-content
 description: The ITfUIElementMgr::EndUIElement method is called by a text service when the element of UI is hidden.
 old-location: tsf\itfuielementmgr_enduielement.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: cec22994-c233-4f84-8237-749ef3cc8aff
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfUIElementMgr, ITfUIElementMgr interface [Text Services Framework], UpdateUIElement method, ITfUIElementMgr::UpdateUIElement, UpdateUIElement method [Text Services Framework], UpdateUIElement method [Text Services Framework], ITfUIElementMgr interface, UpdateUIElement,ITfUIElementMgr.UpdateUIElement, msctf/ITfUIElementMgr::UpdateUIElement, tsf.itfuielementmgr_enduielement
+ms.keywords: ITfUIElementMgr interface [Text Services Framework],UpdateUIElement method, ITfUIElementMgr.UpdateUIElement, ITfUIElementMgr::UpdateUIElement, UpdateUIElement, UpdateUIElement method [Text Services Framework], UpdateUIElement method [Text Services Framework],ITfUIElementMgr interface, msctf/ITfUIElementMgr::UpdateUIElement, tsf.itfuielementmgr_enduielement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfUIElementMgr::UpdateUIElement method
+# ITfUIElementMgr::UpdateUIElement
 
 
 ## -description

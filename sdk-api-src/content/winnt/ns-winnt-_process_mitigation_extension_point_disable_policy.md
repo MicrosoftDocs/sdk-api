@@ -63,6 +63,11 @@ Contains process mitigation policy settings for legacy extension point DLLs. The
  
 
 
+### -field DUMMYUNIONNAME.Flags
+
+This member is reserved for system use.
+
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -83,11 +88,6 @@ Contains process mitigation policy settings for legacy extension point DLLs. The
 #### - DisableExtensionPoints : 1
 
 Prevents legacy extension point DLLs from being loaded into the process.
-
-
-#### - Flags
-
-This member is reserved for system use.
 
 
 #### - ReservedFlags : 31

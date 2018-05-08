@@ -7,8 +7,8 @@ old-location: netbios\session_buffer.htm
 old-project: NetBIOS
 ms.assetid: 29352074-3dff-430f-82fb-6f7fd0b2966a
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: "*PSESSION_BUFFER, CALL_PENDING, HANGUP_COMPLETE, HANGUP_PENDING, LISTEN_OUTSTANDING, PSESSION_HEADER, PSESSION_HEADER structure pointer [NetBIOS], SESSION_ABORTED, SESSION_BUFFER, SESSION_BUFFER structure [NetBIOS], SESSION_ESTABLISHED, SESSION_HEADER, SESSION_HEADER structure [NetBIOS], _SESSION_BUFFER, nb30/PSESSION_HEADER, nb30/SESSION_HEADER, netbios.session_buffer"
+ms.date: 5/2/2018
+ms.keywords: "*PSESSION_BUFFER, CALL_PENDING, HANGUP_COMPLETE, HANGUP_PENDING, LISTEN_OUTSTANDING, PSESSION_BUFFER, PSESSION_BUFFER structure pointer [NetBIOS], SESSION_ABORTED, SESSION_BUFFER, SESSION_BUFFER structure [NetBIOS], SESSION_ESTABLISHED, _SESSION_BUFFER, nb30/PSESSION_BUFFER, nb30/SESSION_BUFFER, netbios.session_buffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Nb30.h
 api_name:
--	SESSION_HEADER
+-	SESSION_BUFFER
 product: Windows
 targetos: Windows
 req.lib: 

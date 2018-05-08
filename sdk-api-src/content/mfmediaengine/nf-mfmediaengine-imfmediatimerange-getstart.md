@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.GetStart
-title: IMFMediaTimeRange::GetStart method
+title: IMFMediaTimeRange::GetStart
 author: windows-driver-content
 description: Gets the start time for a specified time range.
 old-location: mf\imfmediatimerange_getstart.htm
 old-project: medfound
 ms.assetid: E02CFE99-78B8-4923-8922-467A55442802
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStart method [Media Foundation], GetStart method [Media Foundation], IMFMediaTimeRange interface, GetStart,IMFMediaTimeRange.GetStart, IMFMediaTimeRange, IMFMediaTimeRange interface [Media Foundation], GetStart method, IMFMediaTimeRange::GetStart, mf.imfmediatimerange_getstart, mfmediaengine/IMFMediaTimeRange::GetStart
+ms.date: 5/3/2018
+ms.keywords: GetStart, GetStart method [Media Foundation], GetStart method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],GetStart method, IMFMediaTimeRange.GetStart, IMFMediaTimeRange::GetStart, mf.imfmediatimerange_getstart, mfmediaengine/IMFMediaTimeRange::GetStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaTimeRange::GetStart method
+# IMFMediaTimeRange::GetStart
 
 
 ## -description

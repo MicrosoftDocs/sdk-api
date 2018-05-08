@@ -1,14 +1,14 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.GetLocalPolicy
-title: IFhConfigMgr::GetLocalPolicy method
+title: IFhConfigMgr::GetLocalPolicy
 author: windows-driver-content
 description: Retrieves the numeric parameter for a local policy for the File History feature.
 old-location: winprog\ifhconfigmgr_getlocalpolicy.htm
 old-project: DevNotes
 ms.assetid: 380B77C3-CA93-48D6-9915-FB788CF24C99
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: FhConfigMgr class [Windows API], GetLocalPolicy method, GetLocalPolicy method [Windows API], GetLocalPolicy method [Windows API], FhConfigMgr class, GetLocalPolicy method [Windows API], IFhConfigMgr interface, GetLocalPolicy,IFhConfigMgr.GetLocalPolicy, IFhConfigMgr, IFhConfigMgr interface [Windows API], GetLocalPolicy method, IFhConfigMgr::GetLocalPolicy, fhcfg/IFhConfigMgr::GetLocalPolicy, winprog.ifhconfigmgr_getlocalpolicy
+ms.date: 5/4/2018
+ms.keywords: FhConfigMgr class [Windows API],GetLocalPolicy method, GetLocalPolicy, GetLocalPolicy method [Windows API], GetLocalPolicy method [Windows API],FhConfigMgr class, GetLocalPolicy method [Windows API],IFhConfigMgr interface, IFhConfigMgr interface [Windows API],GetLocalPolicy method, IFhConfigMgr.GetLocalPolicy, IFhConfigMgr::GetLocalPolicy, fhcfg/IFhConfigMgr::GetLocalPolicy, winprog.ifhconfigmgr_getlocalpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFhConfigMgr::GetLocalPolicy method
+# IFhConfigMgr::GetLocalPolicy
 
 
 ## -description

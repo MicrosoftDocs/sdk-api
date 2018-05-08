@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMDeviceRemoval.DeviceInfo
-title: IAMDeviceRemoval::DeviceInfo method
+title: IAMDeviceRemoval::DeviceInfo
 author: windows-driver-content
 description: The DeviceInfo method retrieves information about the device.
 old-location: dshow\iamdeviceremoval_deviceinfo.htm
 old-project: DirectShow
 ms.assetid: ec3628cf-fcb4-46c4-9de1-79bf1259c3db
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: DeviceInfo method [DirectShow], DeviceInfo method [DirectShow], IAMDeviceRemoval interface, DeviceInfo,IAMDeviceRemoval.DeviceInfo, IAMDeviceRemoval, IAMDeviceRemoval interface [DirectShow], DeviceInfo method, IAMDeviceRemoval::DeviceInfo, IAMDeviceRemovalDeviceInfo, dshow.iamdeviceremoval_deviceinfo, strmif/IAMDeviceRemoval::DeviceInfo
+ms.date: 4/30/2018
+ms.keywords: DeviceInfo, DeviceInfo method [DirectShow], DeviceInfo method [DirectShow],IAMDeviceRemoval interface, IAMDeviceRemoval interface [DirectShow],DeviceInfo method, IAMDeviceRemoval.DeviceInfo, IAMDeviceRemoval::DeviceInfo, IAMDeviceRemovalDeviceInfo, dshow.iamdeviceremoval_deviceinfo, strmif/IAMDeviceRemoval::DeviceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMDeviceRemoval::DeviceInfo method
+# IAMDeviceRemoval::DeviceInfo
 
 
 ## -description

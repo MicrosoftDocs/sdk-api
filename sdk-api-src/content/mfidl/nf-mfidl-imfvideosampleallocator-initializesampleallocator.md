@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocator.InitializeSampleAllocator
-title: IMFVideoSampleAllocator::InitializeSampleAllocator method
+title: IMFVideoSampleAllocator::InitializeSampleAllocator
 author: windows-driver-content
 description: Specifies the number of samples to allocate and the media type for the samples.
 old-location: mf\imfvideosampleallocator_initializesampleallocator.htm
 old-project: medfound
 ms.assetid: b1e4557e-990c-4239-b9ec-5c7c46072e54
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFVideoSampleAllocator, IMFVideoSampleAllocator interface [Media Foundation], InitializeSampleAllocator method, IMFVideoSampleAllocator::InitializeSampleAllocator, InitializeSampleAllocator method [Media Foundation], InitializeSampleAllocator method [Media Foundation], IMFVideoSampleAllocator interface, InitializeSampleAllocator,IMFVideoSampleAllocator.InitializeSampleAllocator, b1e4557e-990c-4239-b9ec-5c7c46072e54, mf.imfvideosampleallocator_initializesampleallocator, mfidl/IMFVideoSampleAllocator::InitializeSampleAllocator
+ms.date: 5/3/2018
+ms.keywords: IMFVideoSampleAllocator interface [Media Foundation],InitializeSampleAllocator method, IMFVideoSampleAllocator.InitializeSampleAllocator, IMFVideoSampleAllocator::InitializeSampleAllocator, InitializeSampleAllocator, InitializeSampleAllocator method [Media Foundation], InitializeSampleAllocator method [Media Foundation],IMFVideoSampleAllocator interface, b1e4557e-990c-4239-b9ec-5c7c46072e54, mf.imfvideosampleallocator_initializesampleallocator, mfidl/IMFVideoSampleAllocator::InitializeSampleAllocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFVideoSampleAllocator::InitializeSampleAllocator method
+# IMFVideoSampleAllocator::InitializeSampleAllocator
 
 
 ## -description

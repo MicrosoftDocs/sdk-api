@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get_Count
-title: ITuningSpaceContainer::get_Count method
+title: ITuningSpaceContainer::get_Count
 author: windows-driver-content
 description: The get_Count method retrieves the number of tuning spaces currently available on the local system.
 old-location: mstv\ituningspacecontainer_get_count.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9dfa7700-fef5-4e97-855b-0670cc380af0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft TV Technologies], get_Count method, ITuningSpaceContainer::get_Count, ITuningSpaceContainerget_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies], ITuningSpaceContainer interface, get_Count,ITuningSpaceContainer.get_Count, mstv.ituningspacecontainer_get_count, tuner/ITuningSpaceContainer::get_Count
+ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Count method, ITuningSpaceContainer.get_Count, ITuningSpaceContainer::get_Count, ITuningSpaceContainerget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_count, tuner/ITuningSpaceContainer::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpaceContainer::get_Count method
+# ITuningSpaceContainer::get_Count
 
 
 ## -description

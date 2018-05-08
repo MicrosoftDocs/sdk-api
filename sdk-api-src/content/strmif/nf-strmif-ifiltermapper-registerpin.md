@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFilterMapper.RegisterPin
-title: IFilterMapper::RegisterPin method
+title: IFilterMapper::RegisterPin
 author: windows-driver-content
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Records the details of the pin in the registry.
 old-location: dshow\ifiltermapper_registerpin.htm
 old-project: DirectShow
 ms.assetid: 9fd0072f-e63f-41e2-b8f1-821c3c0e0f4e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFilterMapper, IFilterMapper interface [DirectShow], RegisterPin method, IFilterMapper::RegisterPin, IFilterMapperRegisterPin, RegisterPin method [DirectShow], RegisterPin method [DirectShow], IFilterMapper interface, RegisterPin,IFilterMapper.RegisterPin, dshow.ifiltermapper_registerpin, strmif/IFilterMapper::RegisterPin
+ms.date: 4/30/2018
+ms.keywords: IFilterMapper interface [DirectShow],RegisterPin method, IFilterMapper.RegisterPin, IFilterMapper::RegisterPin, IFilterMapperRegisterPin, RegisterPin, RegisterPin method [DirectShow], RegisterPin method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_registerpin, strmif/IFilterMapper::RegisterPin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFilterMapper::RegisterPin method
+# IFilterMapper::RegisterPin
 
 
 ## -description

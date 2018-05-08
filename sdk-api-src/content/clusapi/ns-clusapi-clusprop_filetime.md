@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CLUSPROP_FILETIME, *PCLUSPROP_FILETIME, CLUSPROP_FILETIME, *PCLUSPROP_FILETIME
+req.typenames: CLUSPROP_FILETIME, *PCLUSPROP_FILETIME
 topic_type:
 -	APIRef
 -	kbSyntax

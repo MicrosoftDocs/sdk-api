@@ -7,8 +7,8 @@ old-location: security\pfn_crypt_object_locator_provider_release.htm
 old-project: SecCrypto
 ms.assetid: DDF1243D-A6C8-426A-A800-018E7FF7E182
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CRYPT_OBJECT_LOCATOR_RELEASE_DLL_UNLOAD, CRYPT_OBJECT_LOCATOR_RELEASE_PROCESS_EXIT, CRYPT_OBJECT_LOCATOR_RELEASE_SERVICE_STOP, CRYPT_OBJECT_LOCATOR_RELEASE_SYSTEM_SHUTDOWN, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE function pointer [Security], security.pfn_crypt_object_locator_provider_release, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE
+ms.date: 4/30/2018
+ms.keywords: CRYPT_OBJECT_LOCATOR_RELEASE_DLL_UNLOAD, CRYPT_OBJECT_LOCATOR_RELEASE_PROCESS_EXIT, CRYPT_OBJECT_LOCATOR_RELEASE_SERVICE_STOP, CRYPT_OBJECT_LOCATOR_RELEASE_SYSTEM_SHUTDOWN, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE function, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE function pointer [Security], security.pfn_crypt_object_locator_provider_release, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE callback
+# PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_RELEASE callback function
 
 
 ## -description

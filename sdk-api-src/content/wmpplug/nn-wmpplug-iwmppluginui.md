@@ -7,8 +7,8 @@ old-location: wmp\iwmppluginui.htm
 old-project: WMP
 ms.assetid: f292a3e6-87bf-4e68-8737-f7d6351c4ff4
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPluginUI, IWMPPluginUI interface [Windows Media Player], IWMPPluginUI interface [Windows Media Player], described, IWMPPluginUIInterface, wmp.iwmppluginui, wmpplug/IWMPPluginUI
+ms.date: 5/4/2018
+ms.keywords: IWMPPluginUI, IWMPPluginUI interface [Windows Media Player], IWMPPluginUI interface [Windows Media Player],described, IWMPPluginUIInterface, wmp.iwmppluginui, wmpplug/IWMPPluginUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

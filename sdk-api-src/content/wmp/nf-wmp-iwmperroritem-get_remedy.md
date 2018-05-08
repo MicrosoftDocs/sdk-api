@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_remedy
-title: IWMPErrorItem::get_remedy method
+title: IWMPErrorItem::get_remedy
 author: windows-driver-content
 description: Reserved for future use.
 old-location: wmp\iwmperroritem_get_remedy.htm
 old-project: WMP
 ms.assetid: f37ec43a-cf58-4e90-9b2a-aef8afc30744
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPErrorItem, IWMPErrorItem interface [Windows Media Player], get_remedy method, IWMPErrorItem::get_remedy, IWMPErrorItemget_remedy, get_remedy method [Windows Media Player], get_remedy method [Windows Media Player], IWMPErrorItem interface, get_remedy,IWMPErrorItem.get_remedy, wmp.iwmperroritem_get_remedy, wmp/IWMPErrorItem::get_remedy
+ms.date: 5/4/2018
+ms.keywords: IWMPErrorItem interface [Windows Media Player],get_remedy method, IWMPErrorItem.get_remedy, IWMPErrorItem::get_remedy, IWMPErrorItemget_remedy, get_remedy, get_remedy method [Windows Media Player], get_remedy method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_remedy, wmp/IWMPErrorItem::get_remedy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPErrorItem::get_remedy method
+# IWMPErrorItem::get_remedy
 
 
 ## -description

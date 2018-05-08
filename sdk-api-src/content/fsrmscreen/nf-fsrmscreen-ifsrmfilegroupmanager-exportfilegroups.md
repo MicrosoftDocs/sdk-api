@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.ExportFileGroups
-title: IFsrmFileGroupManager::ExportFileGroups method
+title: IFsrmFileGroupManager::ExportFileGroups
 author: windows-driver-content
 description: Exports the specified file groups as an XML string.
 old-location: fsrm\ifsrmfilegroupmanager_exportfilegroups.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 59d7ef32-f06b-4167-8e28-da88da27ab0a
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ExportFileGroups method [File Server Resource Manager], ExportFileGroups method [File Server Resource Manager], FsrmFileGroupManager class, ExportFileGroups method [File Server Resource Manager], IFsrmFileGroupManager interface, ExportFileGroups,IFsrmFileGroupManager.ExportFileGroups, FsrmFileGroupManager class [File Server Resource Manager], ExportFileGroups method, IFsrmFileGroupManager, IFsrmFileGroupManager interface [File Server Resource Manager], ExportFileGroups method, IFsrmFileGroupManager::ExportFileGroups, fs.ifsrmfilegroupmanager_exportfilegroups, fsrm.ifsrmfilegroupmanager_exportfilegroups, fsrmscreen/IFsrmFileGroupManager::ExportFileGroups
+ms.keywords: ExportFileGroups, ExportFileGroups method [File Server Resource Manager], ExportFileGroups method [File Server Resource Manager],FsrmFileGroupManager class, ExportFileGroups method [File Server Resource Manager],IFsrmFileGroupManager interface, FsrmFileGroupManager class [File Server Resource Manager],ExportFileGroups method, IFsrmFileGroupManager interface [File Server Resource Manager],ExportFileGroups method, IFsrmFileGroupManager.ExportFileGroups, IFsrmFileGroupManager::ExportFileGroups, fs.ifsrmfilegroupmanager_exportfilegroups, fsrm.ifsrmfilegroupmanager_exportfilegroups, fsrmscreen/IFsrmFileGroupManager::ExportFileGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileGroupManager::ExportFileGroups method
+# IFsrmFileGroupManager::ExportFileGroups
 
 
 ## -description

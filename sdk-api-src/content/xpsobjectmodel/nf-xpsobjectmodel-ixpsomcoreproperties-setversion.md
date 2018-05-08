@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetVersion
-title: IXpsOMCoreProperties::SetVersion method
+title: IXpsOMCoreProperties::SetVersion
 author: windows-driver-content
 description: Sets the version property.
 old-location: xps\ixpsomcoreproperties_setversion.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1058f228-8b81-4590-b0af-08abe16a1510
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], SetVersion method, IXpsOMCoreProperties::SetVersion, SetVersion method [XPS Documents and Packaging], SetVersion method [XPS Documents and Packaging], IXpsOMCoreProperties interface, SetVersion,IXpsOMCoreProperties.SetVersion, xps.ixpsomcoreproperties_setversion, xpsobjectmodel/IXpsOMCoreProperties::SetVersion
+ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetVersion method, IXpsOMCoreProperties.SetVersion, IXpsOMCoreProperties::SetVersion, SetVersion, SetVersion method [XPS Documents and Packaging], SetVersion method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setversion, xpsobjectmodel/IXpsOMCoreProperties::SetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::SetVersion method
+# IXpsOMCoreProperties::SetVersion
 
 
 ## -description

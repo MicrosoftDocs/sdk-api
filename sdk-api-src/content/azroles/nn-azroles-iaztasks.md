@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 324dec16-3fd6-4289-ba15-002e8626dec8
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzTasks, IAzTasks interface [Security], IAzTasks interface [Security], described, azroles/IAzTasks, security.iaztasks
+ms.keywords: IAzTasks, IAzTasks interface [Security], IAzTasks interface [Security],described, azroles/IAzTasks, security.iaztasks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

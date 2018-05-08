@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IGraphBuilder.SetLogFile
-title: IGraphBuilder::SetLogFile method
+title: IGraphBuilder::SetLogFile
 author: windows-driver-content
 description: The SetLogFile method sets the file for logging actions taken when attempting to perform an operation.
 old-location: dshow\igraphbuilder_setlogfile.htm
 old-project: DirectShow
 ms.assetid: 194960ee-3418-420f-9242-a372097e4dc9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IGraphBuilder, IGraphBuilder interface [DirectShow], SetLogFile method, IGraphBuilder::SetLogFile, IGraphBuilderSetLogFile, SetLogFile method [DirectShow], SetLogFile method [DirectShow], IGraphBuilder interface, SetLogFile,IGraphBuilder.SetLogFile, dshow.igraphbuilder_setlogfile, strmif/IGraphBuilder::SetLogFile
+ms.date: 4/30/2018
+ms.keywords: IGraphBuilder interface [DirectShow],SetLogFile method, IGraphBuilder.SetLogFile, IGraphBuilder::SetLogFile, IGraphBuilderSetLogFile, SetLogFile, SetLogFile method [DirectShow], SetLogFile method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_setlogfile, strmif/IGraphBuilder::SetLogFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IGraphBuilder::SetLogFile method
+# IGraphBuilder::SetLogFile
 
 
 ## -description

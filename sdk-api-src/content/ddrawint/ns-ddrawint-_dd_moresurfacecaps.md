@@ -88,6 +88,11 @@ Specifies a DDSCAPSEX structure that provides the extensions to <b>ddcaps.ddsCap
  
 
 
+### -field tagNTExtendedHeapRestrictions.ddsCapsExAlt
+
+ 
+
+
 ### -field ddsExtendedHeapRestrictions
 
 Specifies a structure containing two members. These members are filled in by Microsoft DirectX 6.0-aware drivers (and drivers compliant with later versions of DirectX), to restrict the video memory heaps that are exposed to Microsoft DirectDraw to certain sets of DDSCAPS_<i>Xxx</i> bits. The DirectDraw version is determined by looking at DDVERSIONINFO, which is defined in <i>ddrawi.h</i>. The <b>ddsCapsEx</b> and <b>ddsCapsExAlt</b> members of the DD_MORESURFACECAPS structure are exactly analogous to the <b>ddsCaps</b> and <b>ddsCapsAlt</b> members of the VIDEOMEMORY structures listed in the <b>VIDMEMINFO.pvmList</b> member of <b>DD_HALINFO.vmiData</b>. 

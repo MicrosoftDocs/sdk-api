@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetOutputTransform
-title: IDirectManipulationContent::GetOutputTransform method
+title: IDirectManipulationContent::GetOutputTransform
 author: windows-driver-content
 description: Gets the final transform applied to the content.
 old-location: directmanipulation\idirectmanipulationcontent_getoutputtransform.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: a8f746a4-650f-4f6d-8734-2e98f01898f2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetOutputTransform method [Direct Manipulation], GetOutputTransform method [Direct Manipulation], IDirectManipulationContent interface, GetOutputTransform,IDirectManipulationContent.GetOutputTransform, IDirectManipulationContent, IDirectManipulationContent interface [Direct Manipulation], GetOutputTransform method, IDirectManipulationContent::GetOutputTransform, directmanipulation.idirectmanipulationcontent_getoutputtransform, directmanipulation/IDirectManipulationContent::GetOutputTransform
+ms.keywords: GetOutputTransform, GetOutputTransform method [Direct Manipulation], GetOutputTransform method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetOutputTransform method, IDirectManipulationContent.GetOutputTransform, IDirectManipulationContent::GetOutputTransform, directmanipulation.idirectmanipulationcontent_getoutputtransform, directmanipulation/IDirectManipulationContent::GetOutputTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationContent::GetOutputTransform method
+# IDirectManipulationContent::GetOutputTransform
 
 
 ## -description

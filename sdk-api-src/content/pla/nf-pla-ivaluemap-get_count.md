@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.get_Count
-title: IValueMap::get_Count method
+title: IValueMap::get_Count
 author: windows-driver-content
 description: Retrieves the number of items in the collection.
 old-location: pla\ivaluemap_count.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 990b48d8-357f-4157-a3d2-1ea1c80e1887
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Count property [PLA], Count property [PLA], IValueMap interface, IValueMap, IValueMap interface [PLA], Count property, IValueMap.Count, IValueMap::get_Count, base.ivaluemap_count, get_Count,IValueMap.get_Count, pla.ivaluemap_count, pla/IValueMap::Count, pla/IValueMap::get_Count
+ms.keywords: Count property [PLA], Count property [PLA],IValueMap interface, IValueMap interface [PLA],Count property, IValueMap.Count, IValueMap.get_Count, IValueMap::Count, IValueMap::get_Count, base.ivaluemap_count, get_Count, pla.ivaluemap_count, pla/IValueMap::Count, pla/IValueMap::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IValueMap::get_Count method
+# IValueMap::get_Count
 
 
 ## -description

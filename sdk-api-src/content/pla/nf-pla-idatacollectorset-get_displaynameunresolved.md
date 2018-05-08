@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_DisplayNameUnresolved
-title: IDataCollectorSet::get_DisplayNameUnresolved method
+title: IDataCollectorSet::get_DisplayNameUnresolved
 author: windows-driver-content
 description: Retrieves the display name of the data collector set in its original form.
 old-location: pla\idatacollectorset_displaynameunresolved.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 47941406-e05d-4a64-9a84-8aa7162e5b48
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DisplayNameUnresolved property [PLA], DisplayNameUnresolved property [PLA], IDataCollectorSet interface, IDataCollectorSet, IDataCollectorSet interface [PLA], DisplayNameUnresolved property, IDataCollectorSet.DisplayNameUnresolved, IDataCollectorSet::get_DisplayNameUnresolved, get_DisplayNameUnresolved,IDataCollectorSet.get_DisplayNameUnresolved, pla.idatacollectorset_displaynameunresolved, pla/IDataCollectorSet::DisplayNameUnresolved, pla/IDataCollectorSet::get_DisplayNameUnresolved
+ms.keywords: DisplayNameUnresolved property [PLA], DisplayNameUnresolved property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DisplayNameUnresolved property, IDataCollectorSet.DisplayNameUnresolved, IDataCollectorSet.get_DisplayNameUnresolved, IDataCollectorSet::DisplayNameUnresolved, IDataCollectorSet::get_DisplayNameUnresolved, get_DisplayNameUnresolved, pla.idatacollectorset_displaynameunresolved, pla/IDataCollectorSet::DisplayNameUnresolved, pla/IDataCollectorSet::get_DisplayNameUnresolved
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::get_DisplayNameUnresolved method
+# IDataCollectorSet::get_DisplayNameUnresolved
 
 
 ## -description

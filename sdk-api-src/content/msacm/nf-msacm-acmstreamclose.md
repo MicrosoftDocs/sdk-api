@@ -7,7 +7,7 @@ old-location: multimedia\acmstreamclose.htm
 old-project: Multimedia
 ms.assetid: 6ec2b90e-7103-4606-b7fb-e2320c3825ca
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: "_win32_acmStreamClose, acmStreamClose, acmStreamClose function [Windows Multimedia], msacm/acmStreamClose, multimedia.acmstreamclose"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\cert_id.htm
 old-project: SecCrypto
 ms.assetid: 9e33f661-c365-4725-8c3f-27b6cdd9a84e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCERT_ID, CERT_ID, CERT_ID structure [Security], CERT_ID_ISSUER_SERIAL_NUMBER, CERT_ID_KEY_IDENTIFIER, CERT_ID_SHA1_HASH, PCERT_ID, PCERT_ID structure pointer [Security], _CERT_ID, _crypto2_cert_id, security.cert_id, wincrypt/CERT_ID, wincrypt/PCERT_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,21 +106,19 @@ HashId
  
 
 
-
-
-#### - HashId
-
-A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_HASH_BLOB</a> that contains a SHA1 <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of the certificate to be used as a unique identifier of the certificate.
-
-
-#### - IssuerSerialNumber
+### -field DUMMYUNIONNAME.IssuerSerialNumber
 
 A 
 							<a href="https://msdn.microsoft.com/4e44113f-81e7-4551-bf4d-50986d6d57bb">CERT_ISSUER_SERIAL_NUMBER</a> structure that uniquely identifies a certificate.
 
 
-#### - KeyId
+### -field DUMMYUNIONNAME.KeyId
 
 A 
 							<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_HASH_BLOB</a> structure that contains a certificate key identifier.
+
+
+### -field DUMMYUNIONNAME.HashId
+
+A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_HASH_BLOB</a> that contains a SHA1 <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> of the certificate to be used as a unique identifier of the certificate.
 

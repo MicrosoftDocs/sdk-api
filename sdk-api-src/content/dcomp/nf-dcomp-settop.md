@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: 32C12765-F580-4E32-9C48-3A7AFD95CA38
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetTop, SetTop methods [DirectComposition], dcomp/SetTop, directcomp.idcompositionrectangleclip_settop_overloaded
+ms.keywords: IDCompositionRectangleClip::SetTop, SetTop, SetTop methods [DirectComposition], dcomp/SetTop, directcomp.idcompositionrectangleclip_settop_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

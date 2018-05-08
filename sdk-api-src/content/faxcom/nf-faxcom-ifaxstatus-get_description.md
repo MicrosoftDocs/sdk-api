@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_Description
-title: IFaxStatus::get_Description method
+title: IFaxStatus::get_Description
 author: windows-driver-content
 description: Retrieves the Description property for the FaxStatus object of a parent FaxPort object. The Description property is a null-terminated string that describes the current status of the specified port.
 old-location: fax\_mfax_ifaxstatus_get_description_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5goe.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Description property [Fax Service], Description property [Fax Service], FaxStatus object, FaxStatus object [Fax Service], Description property, IFaxStatus, IFaxStatus::get_Description, _mfax_ifaxstatus_get_description, fax._mfax_ifaxstatus_get_description, fax._mfax_ifaxstatus_get_description_vb, get_Description,IFaxStatus.get_Description
+ms.keywords: Description property [Fax Service], Description property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],Description property, FaxStatus.Description, IFaxStatus.get_Description, IFaxStatus::get_Description, _mfax_ifaxstatus_get_description, fax._mfax_ifaxstatus_get_description, fax._mfax_ifaxstatus_get_description_vb, get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxStatus::get_Description method
+# IFaxStatus::get_Description
 
 
 ## -description

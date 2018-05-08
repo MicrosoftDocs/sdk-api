@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.AddRecord
-title: IMFASFMutualExclusion::AddRecord method
+title: IMFASFMutualExclusion::AddRecord
 author: windows-driver-content
 description: Adds a record to the mutual exclusion object. A record specifies streams that are mutually exclusive with the streams in all other records.
 old-location: mf\imfasfmutualexclusion_addrecord.htm
 old-project: medfound
 ms.assetid: f5dedc87-a29c-4c8d-b493-486d975f9ac4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddRecord method [Media Foundation], AddRecord method [Media Foundation], IMFASFMutualExclusion interface, AddRecord,IMFASFMutualExclusion.AddRecord, IMFASFMutualExclusion, IMFASFMutualExclusion interface [Media Foundation], AddRecord method, IMFASFMutualExclusion::AddRecord, f5dedc87-a29c-4c8d-b493-486d975f9ac4, mf.imfasfmutualexclusion_addrecord, wmcontainer/IMFASFMutualExclusion::AddRecord
+ms.date: 5/3/2018
+ms.keywords: AddRecord, AddRecord method [Media Foundation], AddRecord method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],AddRecord method, IMFASFMutualExclusion.AddRecord, IMFASFMutualExclusion::AddRecord, f5dedc87-a29c-4c8d-b493-486d975f9ac4, mf.imfasfmutualexclusion_addrecord, wmcontainer/IMFASFMutualExclusion::AddRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFMutualExclusion::AddRecord method
+# IMFASFMutualExclusion::AddRecord
 
 
 ## -description

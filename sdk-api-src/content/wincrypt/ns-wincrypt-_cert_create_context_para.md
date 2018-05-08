@@ -7,7 +7,7 @@ old-location: security\cert_create_context_para.htm
 old-project: SecCrypto
 ms.assetid: 1486cb60-56f0-4ce4-b283-6f92dcbbea26
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCERT_CREATE_CONTEXT_PARA, CERT_CREATE_CONTEXT_PARA, CERT_CREATE_CONTEXT_PARA structure [Security], _CERT_CREATE_CONTEXT_PARA, security.cert_create_context_para, wincrypt/CERT_CREATE_CONTEXT_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

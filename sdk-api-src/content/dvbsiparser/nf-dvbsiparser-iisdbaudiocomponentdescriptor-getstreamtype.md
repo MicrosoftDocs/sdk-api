@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetStreamType
-title: IIsdbAudioComponentDescriptor::GetStreamType method
+title: IIsdbAudioComponentDescriptor::GetStreamType
 author: windows-driver-content
 description: Gets a code that indicates the stream type from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor.
 old-location: mstv\iisdbaudiocomponentdescriptor_getstreamtype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 73c7a8c8-7098-43e8-ac90-c29586e9856c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetStreamType method [Microsoft TV Technologies], GetStreamType method [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface, GetStreamType,IIsdbAudioComponentDescriptor.GetStreamType, IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], GetStreamType method, IIsdbAudioComponentDescriptor::GetStreamType, dvbsiparser/IIsdbAudioComponentDescriptor::GetStreamType, mstv.iisdbaudiocomponentdescriptor_getstreamtype
+ms.keywords: GetStreamType, GetStreamType method [Microsoft TV Technologies], GetStreamType method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetStreamType method, IIsdbAudioComponentDescriptor.GetStreamType, IIsdbAudioComponentDescriptor::GetStreamType, dvbsiparser/IIsdbAudioComponentDescriptor::GetStreamType, mstv.iisdbaudiocomponentdescriptor_getstreamtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbAudioComponentDescriptor::GetStreamType method
+# IIsdbAudioComponentDescriptor::GetStreamType
 
 
 ## -description

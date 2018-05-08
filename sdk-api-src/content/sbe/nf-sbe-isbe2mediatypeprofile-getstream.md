@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2MediaTypeProfile.GetStream
-title: ISBE2MediaTypeProfile::GetStream method
+title: ISBE2MediaTypeProfile::GetStream
 author: windows-driver-content
 description: Gets the media type of a stream that appears at a specific index in a media type profile.
 old-location: mstv\isbe2mediatypeprofile_getstream.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 14c48484-59b0-4e39-8684-9875edfd6556
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetStream method [Microsoft TV Technologies], GetStream method [Microsoft TV Technologies], ISBE2MediaTypeProfile interface, GetStream,ISBE2MediaTypeProfile.GetStream, ISBE2MediaTypeProfile, ISBE2MediaTypeProfile interface [Microsoft TV Technologies], GetStream method, ISBE2MediaTypeProfile::GetStream, mstv.isbe2mediatypeprofile_getstream, sbe/ISBE2MediaTypeProfile::GetStream
+ms.keywords: GetStream, GetStream method [Microsoft TV Technologies], GetStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],GetStream method, ISBE2MediaTypeProfile.GetStream, ISBE2MediaTypeProfile::GetStream, mstv.isbe2mediatypeprofile_getstream, sbe/ISBE2MediaTypeProfile::GetStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISBE2MediaTypeProfile::GetStream method
+# ISBE2MediaTypeProfile::GetStream
 
 
 ## -description

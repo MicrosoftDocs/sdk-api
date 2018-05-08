@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_CriticalExtensions
-title: IX509CertificateRequestCmc::get_CriticalExtensions method
+title: IX509CertificateRequestCmc::get_CriticalExtensions
 author: windows-driver-content
 description: Retrieves an IObjectIds collection that identifies the version 3 certificate extensions marked as critical.
 old-location: security\ix509certificaterequestcmc_criticalextensions_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 06c5d148-eecc-45db-9d82-ec56c226ffed
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CriticalExtensions property [Security], CriticalExtensions property [Security], IX509CertificateRequestCmc interface, IX509CertificateRequestCmc, IX509CertificateRequestCmc interface [Security], CriticalExtensions property, IX509CertificateRequestCmc.CriticalExtensions, IX509CertificateRequestCmc::get_CriticalExtensions, certenroll/IX509CertificateRequestCmc::CriticalExtensions, certenroll/IX509CertificateRequestCmc::get_CriticalExtensions, get_CriticalExtensions,IX509CertificateRequestCmc.get_CriticalExtensions, security.ix509certificaterequestcmc_criticalextensions_property
+ms.keywords: CriticalExtensions property [Security], CriticalExtensions property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],CriticalExtensions property, IX509CertificateRequestCmc.CriticalExtensions, IX509CertificateRequestCmc.get_CriticalExtensions, IX509CertificateRequestCmc::CriticalExtensions, IX509CertificateRequestCmc::get_CriticalExtensions, certenroll/IX509CertificateRequestCmc::CriticalExtensions, certenroll/IX509CertificateRequestCmc::get_CriticalExtensions, get_CriticalExtensions, security.ix509certificaterequestcmc_criticalextensions_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestCmc::get_CriticalExtensions method
+# IX509CertificateRequestCmc::get_CriticalExtensions
 
 
 ## -description

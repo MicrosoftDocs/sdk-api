@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.SetOutputRect
-title: IVMRMixerControl9::SetOutputRect method
+title: IVMRMixerControl9::SetOutputRect
 author: windows-driver-content
 description: The SetOutputRect method sets the position of this stream within the composition rectangle.
 old-location: dshow\ivmrmixercontrol9_setoutputrect.htm
 old-project: DirectShow
 ms.assetid: d09d2e90-e121-46e0-a659-e7bae4432031
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRMixerControl9, IVMRMixerControl9 interface [DirectShow], SetOutputRect method, IVMRMixerControl9::SetOutputRect, IVMRMixerControl9SetOutputRect, SetOutputRect method [DirectShow], SetOutputRect method [DirectShow], IVMRMixerControl9 interface, SetOutputRect,IVMRMixerControl9.SetOutputRect, dshow.ivmrmixercontrol9_setoutputrect, vmr9/IVMRMixerControl9::SetOutputRect
+ms.date: 4/30/2018
+ms.keywords: IVMRMixerControl9 interface [DirectShow],SetOutputRect method, IVMRMixerControl9.SetOutputRect, IVMRMixerControl9::SetOutputRect, IVMRMixerControl9SetOutputRect, SetOutputRect, SetOutputRect method [DirectShow], SetOutputRect method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setoutputrect, vmr9/IVMRMixerControl9::SetOutputRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRMixerControl9::SetOutputRect method
+# IVMRMixerControl9::SetOutputRect
 
 
 ## -description

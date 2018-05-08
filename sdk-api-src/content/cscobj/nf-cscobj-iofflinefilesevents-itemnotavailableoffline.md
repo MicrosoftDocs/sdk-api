@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemNotAvailableOffline
-title: IOfflineFilesEvents::ItemNotAvailableOffline method
+title: IOfflineFilesEvents::ItemNotAvailableOffline
 author: windows-driver-content
 description: Reports that an item in the Offline Files cache is no longer available for offline use should the remote copy become unavailable.
 old-location: of\iofflinefilesevents_itemnotavailableoffline.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 868938fd-9da2-45fd-a00e-5dda85b4fd61
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], ItemNotAvailableOffline method, IOfflineFilesEvents::ItemNotAvailableOffline, ItemNotAvailableOffline method [Offline Files], ItemNotAvailableOffline method [Offline Files], IOfflineFilesEvents interface, ItemNotAvailableOffline,IOfflineFilesEvents.ItemNotAvailableOffline, cscobj/IOfflineFilesEvents::ItemNotAvailableOffline, of.iofflinefilesevents_itemnotavailableoffline
+ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemNotAvailableOffline method, IOfflineFilesEvents.ItemNotAvailableOffline, IOfflineFilesEvents::ItemNotAvailableOffline, ItemNotAvailableOffline, ItemNotAvailableOffline method [Offline Files], ItemNotAvailableOffline method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemNotAvailableOffline, of.iofflinefilesevents_itemnotavailableoffline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents::ItemNotAvailableOffline method
+# IOfflineFilesEvents::ItemNotAvailableOffline
 
 
 ## -description

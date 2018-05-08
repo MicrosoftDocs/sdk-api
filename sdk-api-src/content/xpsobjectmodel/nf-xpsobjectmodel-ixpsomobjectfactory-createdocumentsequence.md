@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateDocumentSequence
-title: IXpsOMObjectFactory::CreateDocumentSequence method
+title: IXpsOMObjectFactory::CreateDocumentSequence
 author: windows-driver-content
 description: Creates an IXpsOMDocumentSequence interface, which can contain the IXpsOMDocument interfaces of the XPS document.
 old-location: xps\ixpsomobjectfactory_createdocumentsequence.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 51d42b34-3380-4464-8feb-d03935f88077
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateDocumentSequence method [XPS Documents and Packaging], CreateDocumentSequence method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateDocumentSequence,IXpsOMObjectFactory.CreateDocumentSequence, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateDocumentSequence method, IXpsOMObjectFactory::CreateDocumentSequence, xps.ixpsomobjectfactory_createdocumentsequence, xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentSequence
+ms.keywords: CreateDocumentSequence, CreateDocumentSequence method [XPS Documents and Packaging], CreateDocumentSequence method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDocumentSequence method, IXpsOMObjectFactory.CreateDocumentSequence, IXpsOMObjectFactory::CreateDocumentSequence, xps.ixpsomobjectfactory_createdocumentsequence, xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentSequence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateDocumentSequence method
+# IXpsOMObjectFactory::CreateDocumentSequence
 
 
 ## -description

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DOT11_RADIO_STATE, *PDOT11_RADIO_STATE, DOT11_RADIO_STATE, *PDOT11_RADIO_STATE
+req.typenames: DOT11_RADIO_STATE, *PDOT11_RADIO_STATE
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -1,0 +1,7 @@
+# [Windows Runtime C++ reference](../_winrt/index.md)
+## [Roparameterizediid.h](index.md)
+### [RoFreeParameterizedTypeExtra function](../roparameterizediid/nf-roparameterizediid-rofreeparameterizedtypeextra.md)
+### [RoGetParameterizedTypeInstanceIID function](../roparameterizediid/nf-roparameterizediid-rogetparameterizedtypeinstanceiid.md)
+### [RoParameterizedTypeExtraGetTypeSignature function](../roparameterizediid/nf-roparameterizediid-roparameterizedtypeextragettypesignature.md)
+### [IRoMetaDataLocator structure](../roparameterizediid/ns-roparameterizediid-irometadatalocator.md)
+### [IRoSimpleMetaDataBuilder structure](../roparameterizediid/ns-roparameterizediid-irosimplemetadatabuilder.md)

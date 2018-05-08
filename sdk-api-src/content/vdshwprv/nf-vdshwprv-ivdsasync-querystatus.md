@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsAsync.QueryStatus
-title: IVdsAsync::QueryStatus method
+title: IVdsAsync::QueryStatus
 author: windows-driver-content
 description: Returns when the asynchronous operation is in progress, or has either finished successfully or failed.
 old-location: base\ivdsasync_querystatus.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 993228ae-4817-4d88-8544-9cd57cbe8b49
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsAsync, IVdsAsync interface [VDS], QueryStatus method, IVdsAsync::QueryStatus, QueryStatus method [VDS], QueryStatus method [VDS], IVdsAsync interface, QueryStatus,IVdsAsync.QueryStatus, base.ivdsasync_querystatus, vds/IVdsAsync::QueryStatus, vdshwprv/IVdsAsync::QueryStatus
+ms.keywords: IVdsAsync interface [VDS],QueryStatus method, IVdsAsync.QueryStatus, IVdsAsync::QueryStatus, QueryStatus, QueryStatus method [VDS], QueryStatus method [VDS],IVdsAsync interface, base.ivdsasync_querystatus, vds/IVdsAsync::QueryStatus, vdshwprv/IVdsAsync::QueryStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsAsync::QueryStatus method
+# IVdsAsync::QueryStatus
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.MakeLower
-title: CHString::MakeLower method
+title: CHString::MakeLower
 author: windows-driver-content
 description: The MakeLower method converts a CHString string to a lowercase string.
 old-location: wmi\chstring_makelower.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 5031bbd0-d7a6-4b58-b338-da875c24ad25
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHString, CHString interface [Windows Management Instrumentation], MakeLower method, CHString::MakeLower, MakeLower method [Windows Management Instrumentation], MakeLower method [Windows Management Instrumentation], CHString interface, MakeLower,CHString.MakeLower, _hmm_chstring_makelower, chstring/CHString::MakeLower, wmi.chstring_makelower
+ms.keywords: CHString interface [Windows Management Instrumentation],MakeLower method, CHString.MakeLower, CHString::MakeLower, MakeLower, MakeLower method [Windows Management Instrumentation], MakeLower method [Windows Management Instrumentation],CHString interface, _hmm_chstring_makelower, chstring/CHString::MakeLower, wmi.chstring_makelower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::MakeLower method
+# CHString::MakeLower
 
 
 ## -description

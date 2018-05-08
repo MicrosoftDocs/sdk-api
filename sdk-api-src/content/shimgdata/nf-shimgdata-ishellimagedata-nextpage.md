@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.NextPage
-title: IShellImageData::NextPage method
+title: IShellImageData::NextPage
 author: windows-driver-content
 description: Switches to the next page of a multipage image. Any associated animations are reset.
 old-location: shell\IShellImageData_NextPage.htm
 old-project: shell
 ms.assetid: 19a2680a-f435-45c9-9573-e32f3cfdd090
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], NextPage method, IShellImageData::NextPage, NextPage method [Windows Shell], NextPage method [Windows Shell], IShellImageData interface, NextPage,IShellImageData.NextPage, _shell_IShellImageData_NextPage, shell.IShellImageData_NextPage, shimgdata/IShellImageData::NextPage
+ms.date: 5/3/2018
+ms.keywords: IShellImageData interface [Windows Shell],NextPage method, IShellImageData.NextPage, IShellImageData::NextPage, NextPage, NextPage method [Windows Shell], NextPage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_NextPage, shell.IShellImageData_NextPage, shimgdata/IShellImageData::NextPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::NextPage method
+# IShellImageData::NextPage
 
 
 ## -description

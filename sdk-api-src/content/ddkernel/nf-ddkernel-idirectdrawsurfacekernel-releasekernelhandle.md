@@ -1,6 +1,6 @@
 ---
 UID: NF:ddkernel.IDirectDrawSurfaceKernel.ReleaseKernelHandle
-title: IDirectDrawSurfaceKernel::ReleaseKernelHandle method
+title: IDirectDrawSurfaceKernel::ReleaseKernelHandle
 author: windows-driver-content
 description: The IDirectDrawSurfaceKernel::ReleaseKernelHandle method releases a kernel-mode handle to the DirectDraw surface.
 old-location: display\idirectdrawsurfacekernel_releasekernelhandle.htm
@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: 75110b32-0b20-4d2a-8988-d4263fdabb46
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IDirectDrawSurfaceKernel, IDirectDrawSurfaceKernel interface [Display Devices], ReleaseKernelHandle method, IDirectDrawSurfaceKernel::ReleaseKernelHandle, ReleaseKernelHandle method [Display Devices], ReleaseKernelHandle method [Display Devices], IDirectDrawSurfaceKernel interface, ReleaseKernelHandle,IDirectDrawSurfaceKernel.ReleaseKernelHandle, ddfncs_f952a7c7-399d-4de3-8351-b44a79c34c09.xml, ddkernel/IDirectDrawSurfaceKernel::ReleaseKernelHandle, display.idirectdrawsurfacekernel_releasekernelhandle
+ms.keywords: IDirectDrawSurfaceKernel interface [Display Devices],ReleaseKernelHandle method, IDirectDrawSurfaceKernel.ReleaseKernelHandle, IDirectDrawSurfaceKernel::ReleaseKernelHandle, ReleaseKernelHandle, ReleaseKernelHandle method [Display Devices], ReleaseKernelHandle method [Display Devices],IDirectDrawSurfaceKernel interface, ddfncs_f952a7c7-399d-4de3-8351-b44a79c34c09.xml, ddkernel/IDirectDrawSurfaceKernel::ReleaseKernelHandle, display.idirectdrawsurfacekernel_releasekernelhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectDrawSurfaceKernel::ReleaseKernelHandle method
+# IDirectDrawSurfaceKernel::ReleaseKernelHandle
 
 
 ## -description

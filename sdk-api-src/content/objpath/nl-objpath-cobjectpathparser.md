@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 0138c48f-f61b-4127-adc2-bdf4da06f938
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "??1CObjectPathParser@@QAE@XZ, ??1CObjectPathParser@@QEAA@XZ, CObjectPathParser, CObjectPathParser class [Windows Management Instrumentation], CObjectPathParser class [Windows Management Instrumentation], described, objpath/CObjectPathParser, wmi.cobjectpathparser"
+ms.keywords: "??1CObjectPathParser@@QAE@XZ, ??1CObjectPathParser@@QEAA@XZ, CObjectPathParser, CObjectPathParser class [Windows Management Instrumentation], CObjectPathParser class [Windows Management Instrumentation],described, objpath/CObjectPathParser, wmi.cobjectpathparser"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

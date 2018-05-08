@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.SetSamplePositions
-title: ID3D12GraphicsCommandList1::SetSamplePositions method
+title: ID3D12GraphicsCommandList1::SetSamplePositions
 author: windows-driver-content
 description: This method configures the sample positions used by subsequent draw, copy, resolve, and similar operations.
 old-location: direct3d12\id3d12graphicscommandlist1_setsamplepositions.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 04627303-20C7-44B1-A62D-45003A13685B
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12GraphicsCommandList1, ID3D12GraphicsCommandList1 interface, SetSamplePositions method, ID3D12GraphicsCommandList1::SetSamplePositions, SetSamplePositions method, SetSamplePositions method, ID3D12GraphicsCommandList1 interface, SetSamplePositions,ID3D12GraphicsCommandList1.SetSamplePositions, d3d12/ID3D12GraphicsCommandList1::SetSamplePositions, direct3d12.id3d12graphicscommandlist1_setsamplepositions
+ms.keywords: ID3D12GraphicsCommandList1 interface,SetSamplePositions method, ID3D12GraphicsCommandList1.SetSamplePositions, ID3D12GraphicsCommandList1::SetSamplePositions, SetSamplePositions, SetSamplePositions method, SetSamplePositions method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::SetSamplePositions, direct3d12.id3d12graphicscommandlist1_setsamplepositions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList1::SetSamplePositions method
+# ID3D12GraphicsCommandList1::SetSamplePositions
 
 
 ## -description

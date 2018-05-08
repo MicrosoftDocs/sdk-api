@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_SIT.GetCountOfTableDescriptors
-title: IDVB_SIT::GetCountOfTableDescriptors method
+title: IDVB_SIT::GetCountOfTableDescriptors
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit_getcountoftabledescriptors.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7fe03fe0-f12e-43cb-b340-26fffdf2d873
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies], IDVB_SIT interface, GetCountOfTableDescriptors,IDVB_SIT.GetCountOfTableDescriptors, IDVB_SIT, IDVB_SIT interface [Microsoft TV Technologies], GetCountOfTableDescriptors method, IDVB_SIT::GetCountOfTableDescriptors, IDVB_SITGetCountOfTableDescriptors, dvbsiparser/IDVB_SIT::GetCountOfTableDescriptors, mstv.idvb_sit_getcountoftabledescriptors
+ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IDVB_SIT.GetCountOfTableDescriptors, IDVB_SIT::GetCountOfTableDescriptors, IDVB_SITGetCountOfTableDescriptors, dvbsiparser/IDVB_SIT::GetCountOfTableDescriptors, mstv.idvb_sit_getcountoftabledescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_SIT::GetCountOfTableDescriptors method
+# IDVB_SIT::GetCountOfTableDescriptors
 
 
 ## -description

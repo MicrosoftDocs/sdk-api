@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSettings.put_invokeURLs
-title: IWMPSettings::put_invokeURLs method
+title: IWMPSettings::put_invokeURLs
 author: windows-driver-content
 description: The put_invokeURLs method specifies a value indicating whether URL events should launch a Web browser.
 old-location: wmp\iwmpsettings_put_invokeurls.htm
 old-project: WMP
 ms.assetid: 4c62ba8e-8fca-4cfe-9a52-6b6ac2c7c0de
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], put_invokeURLs method, IWMPSettings::put_invokeURLs, IWMPSettingsput_invokeURLs, put_invokeURLs method [Windows Media Player], put_invokeURLs method [Windows Media Player], IWMPSettings interface, put_invokeURLs,IWMPSettings.put_invokeURLs, wmp.iwmpsettings_put_invokeurls, wmp/IWMPSettings::put_invokeURLs
+ms.date: 5/4/2018
+ms.keywords: IWMPSettings interface [Windows Media Player],put_invokeURLs method, IWMPSettings.put_invokeURLs, IWMPSettings::put_invokeURLs, IWMPSettingsput_invokeURLs, put_invokeURLs, put_invokeURLs method [Windows Media Player], put_invokeURLs method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_invokeurls, wmp/IWMPSettings::put_invokeURLs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSettings::put_invokeURLs method
+# IWMPSettings::put_invokeURLs
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetDescription
-title: IBackgroundCopyJob::SetDescription method
+title: IBackgroundCopyJob::SetDescription
 author: windows-driver-content
 description: Provides a description of the job.
 old-location: bits\ibackgroundcopyjob_setdescription.htm
 old-project: Bits
 ms.assetid: 9148ec9b-7a03-4bb3-9644-e52f6cd13073
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], SetDescription method, IBackgroundCopyJob::SetDescription, SetDescription method [BITS], SetDescription method [BITS], IBackgroundCopyJob interface, SetDescription,IBackgroundCopyJob.SetDescription, _drz_ibackgroundcopyjob_setdescription, bits.ibackgroundcopyjob_setdescription, bits/IBackgroundCopyJob::SetDescription
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyJob interface [BITS],SetDescription method, IBackgroundCopyJob.SetDescription, IBackgroundCopyJob::SetDescription, SetDescription, SetDescription method [BITS], SetDescription method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setdescription, bits.ibackgroundcopyjob_setdescription, bits/IBackgroundCopyJob::SetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob::SetDescription method
+# IBackgroundCopyJob::SetDescription
 
 
 ## -description

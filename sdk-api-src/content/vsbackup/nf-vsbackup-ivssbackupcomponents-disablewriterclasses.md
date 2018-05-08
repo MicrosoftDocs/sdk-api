@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.DisableWriterClasses
-title: IVssBackupComponents::DisableWriterClasses method
+title: IVssBackupComponents::DisableWriterClasses
 author: windows-driver-content
 description: The DisableWriterClasses method prevents a specific class of writers from receiving any events.
 old-location: base\ivssbackupcomponents_disablewriterclasses.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 7567bf23-4f4c-4210-87f7-4f90262fda7a
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: DisableWriterClasses method [VSS], DisableWriterClasses method [VSS], IVssBackupComponents interface, DisableWriterClasses,IVssBackupComponents.DisableWriterClasses, IVssBackupComponents, IVssBackupComponents interface [VSS], DisableWriterClasses method, IVssBackupComponents::DisableWriterClasses, _win32_ivssbackupcomponents_disablewriterclasses, base.ivssbackupcomponents_disablewriterclasses, vsbackup/IVssBackupComponents::DisableWriterClasses
+ms.keywords: DisableWriterClasses, DisableWriterClasses method [VSS], DisableWriterClasses method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DisableWriterClasses method, IVssBackupComponents.DisableWriterClasses, IVssBackupComponents::DisableWriterClasses, _win32_ivssbackupcomponents_disablewriterclasses, base.ivssbackupcomponents_disablewriterclasses, vsbackup/IVssBackupComponents::DisableWriterClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::DisableWriterClasses method
+# IVssBackupComponents::DisableWriterClasses
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.SetLowerBoundVector
-title: IUIAnimationVariable2::SetLowerBoundVector method
+title: IUIAnimationVariable2::SetLowerBoundVector
 author: windows-driver-content
 description: Sets the lower bound (floor) value of each specified dimension for the animation variable. The value of each animation variable should not fall below its lower bound.
 old-location: uianimation\iuianimationvariable2_setlowerboundvector.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: CB7D30BF-D22C-40EB-A530-035CED1BDAF0
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationVariable2, IUIAnimationVariable2 interface [Windows Animation], SetLowerBoundVector method, IUIAnimationVariable2::SetLowerBoundVector, SetLowerBoundVector method [Windows Animation], SetLowerBoundVector method [Windows Animation], IUIAnimationVariable2 interface, SetLowerBoundVector,IUIAnimationVariable2.SetLowerBoundVector, uianimation.iuianimationvariable2_setlowerboundvector, uianimation/IUIAnimationVariable2::SetLowerBoundVector
+ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetLowerBoundVector method, IUIAnimationVariable2.SetLowerBoundVector, IUIAnimationVariable2::SetLowerBoundVector, SetLowerBoundVector, SetLowerBoundVector method [Windows Animation], SetLowerBoundVector method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setlowerboundvector, uianimation/IUIAnimationVariable2::SetLowerBoundVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable2::SetLowerBoundVector method
+# IUIAnimationVariable2::SetLowerBoundVector
 
 
 ## -description

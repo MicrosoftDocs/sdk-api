@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartResources.GetImageResources
-title: IXpsOMPartResources::GetImageResources method
+title: IXpsOMPartResources::GetImageResources
 author: windows-driver-content
 description: Gets the IXpsOMImageResourceCollection interface that contains the images that are used in the XPS document.
 old-location: xps\ixpsompartresources_getimageresources.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d30281b7-0b2c-4240-813b-a53c8acb819c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetImageResources method [XPS Documents and Packaging], GetImageResources method [XPS Documents and Packaging], IXpsOMPartResources interface, GetImageResources,IXpsOMPartResources.GetImageResources, IXpsOMPartResources, IXpsOMPartResources interface [XPS Documents and Packaging], GetImageResources method, IXpsOMPartResources::GetImageResources, xps.ixpsompartresources_getimageresources, xpsobjectmodel/IXpsOMPartResources::GetImageResources
+ms.keywords: GetImageResources, GetImageResources method [XPS Documents and Packaging], GetImageResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetImageResources method, IXpsOMPartResources.GetImageResources, IXpsOMPartResources::GetImageResources, xps.ixpsompartresources_getimageresources, xpsobjectmodel/IXpsOMPartResources::GetImageResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPartResources::GetImageResources method
+# IXpsOMPartResources::GetImageResources
 
 
 ## -description

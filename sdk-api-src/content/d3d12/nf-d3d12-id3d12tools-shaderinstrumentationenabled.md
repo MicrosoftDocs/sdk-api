@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Tools.ShaderInstrumentationEnabled
-title: ID3D12Tools::ShaderInstrumentationEnabled method
+title: ID3D12Tools::ShaderInstrumentationEnabled
 author: windows-driver-content
 description: Determines whether shader instrumentation is enabled.
 old-location: direct3d12\id3d12tools_shaderinstrumentationenabled.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 02A36358-5015-4CA1-B329-CCF074CF8F40
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12Tools, ID3D12Tools interface, ShaderInstrumentationEnabled method, ID3D12Tools::ShaderInstrumentationEnabled, ShaderInstrumentationEnabled method, ShaderInstrumentationEnabled method, ID3D12Tools interface, ShaderInstrumentationEnabled,ID3D12Tools.ShaderInstrumentationEnabled, d3d12/ID3D12Tools::ShaderInstrumentationEnabled, direct3d12.id3d12tools_shaderinstrumentationenabled
+ms.keywords: ID3D12Tools interface,ShaderInstrumentationEnabled method, ID3D12Tools.ShaderInstrumentationEnabled, ID3D12Tools::ShaderInstrumentationEnabled, ShaderInstrumentationEnabled, ShaderInstrumentationEnabled method, ShaderInstrumentationEnabled method,ID3D12Tools interface, d3d12/ID3D12Tools::ShaderInstrumentationEnabled, direct3d12.id3d12tools_shaderinstrumentationenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Tools::ShaderInstrumentationEnabled method
+# ID3D12Tools::ShaderInstrumentationEnabled
 
 
 ## -description

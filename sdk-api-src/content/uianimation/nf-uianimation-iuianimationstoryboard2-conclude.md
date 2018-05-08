@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.Conclude
-title: IUIAnimationStoryboard2::Conclude method
+title: IUIAnimationStoryboard2::Conclude
 author: windows-driver-content
 description: Completes the current iteration of a keyframe loop that is in progress (where the loop is set to UI_ANIMATION_REPEAT_INDEFINITELY), terminates the loop, and continues with the storyboard.
 old-location: uianimation\iuianimationstoryboard2_conclude.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: C7687E52-433F-4E73-910D-86298E528F7B
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Conclude method [Windows Animation], Conclude method [Windows Animation], IUIAnimationStoryboard2 interface, Conclude,IUIAnimationStoryboard2.Conclude, IUIAnimationStoryboard2, IUIAnimationStoryboard2 interface [Windows Animation], Conclude method, IUIAnimationStoryboard2::Conclude, uianimation.iuianimationstoryboard2_conclude, uianimation/IUIAnimationStoryboard2::Conclude
+ms.keywords: Conclude, Conclude method [Windows Animation], Conclude method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],Conclude method, IUIAnimationStoryboard2.Conclude, IUIAnimationStoryboard2::Conclude, uianimation.iuianimationstoryboard2_conclude, uianimation/IUIAnimationStoryboard2::Conclude
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboard2::Conclude method
+# IUIAnimationStoryboard2::Conclude
 
 
 ## -description

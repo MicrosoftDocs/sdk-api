@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderInfo
-title: ISyncProviderRegistration::GetSyncProviderInfo method
+title: ISyncProviderRegistration::GetSyncProviderInfo
 author: windows-driver-content
 description: Returns an ISyncProviderInfo object for the specific synchronization provider instance ID.
 old-location: winsync\isyncproviderregistration_getsyncproviderinfo.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 894d2314-2210-4a16-a7e6-1ee74638c035
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSyncProviderInfo method [Windows Sync], GetSyncProviderInfo method [Windows Sync], ISyncProviderRegistration interface, GetSyncProviderInfo,ISyncProviderRegistration.GetSyncProviderInfo, ISyncProviderRegistration, ISyncProviderRegistration interface [Windows Sync], GetSyncProviderInfo method, ISyncProviderRegistration::GetSyncProviderInfo, syncregistration/ISyncProviderRegistration::GetSyncProviderInfo, winsync.isyncproviderregistration_getsyncproviderinfo
+ms.keywords: GetSyncProviderInfo, GetSyncProviderInfo method [Windows Sync], GetSyncProviderInfo method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderInfo method, ISyncProviderRegistration.GetSyncProviderInfo, ISyncProviderRegistration::GetSyncProviderInfo, syncregistration/ISyncProviderRegistration::GetSyncProviderInfo, winsync.isyncproviderregistration_getsyncproviderinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncProviderRegistration::GetSyncProviderInfo method
+# ISyncProviderRegistration::GetSyncProviderInfo
 
 
 ## -description

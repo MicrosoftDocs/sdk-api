@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.put_captioningId
-title: IWMPClosedCaption::put_captioningId method
+title: IWMPClosedCaption::put_captioningId
 author: windows-driver-content
 description: The put_captioningId method specifies the name of the element displaying the captioning.
 old-location: wmp\iwmpclosedcaption_put_captioningid.htm
 old-project: WMP
 ms.assetid: 46736a28-e05d-404c-8bad-a51ac58435f0
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPClosedCaption, IWMPClosedCaption interface [Windows Media Player], put_captioningId method, IWMPClosedCaption::put_captioningId, IWMPClosedCaptionput_captioningId, put_captioningId method [Windows Media Player], put_captioningId method [Windows Media Player], IWMPClosedCaption interface, put_captioningId,IWMPClosedCaption.put_captioningId, wmp.iwmpclosedcaption_put_captioningid, wmp/IWMPClosedCaption::put_captioningId
+ms.date: 5/4/2018
+ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_captioningId method, IWMPClosedCaption.put_captioningId, IWMPClosedCaption::put_captioningId, IWMPClosedCaptionput_captioningId, put_captioningId, put_captioningId method [Windows Media Player], put_captioningId method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_captioningid, wmp/IWMPClosedCaption::put_captioningId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPClosedCaption::put_captioningId method
+# IWMPClosedCaption::put_captioningId
 
 
 ## -description

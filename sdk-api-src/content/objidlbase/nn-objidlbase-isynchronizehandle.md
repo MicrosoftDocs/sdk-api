@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 93b2e682-78da-4a61-a045-8d71b3834e1d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISynchronizeHandle, ISynchronizeHandle interface [COM], ISynchronizeHandle interface [COM], described, _com_isynchronizehandle, com.isynchronizehandle, objidlbase/ISynchronizeHandle
+ms.keywords: ISynchronizeHandle, ISynchronizeHandle interface [COM], ISynchronizeHandle interface [COM],described, _com_isynchronizehandle, com.isynchronizehandle, objidlbase/ISynchronizeHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

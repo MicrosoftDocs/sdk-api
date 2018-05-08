@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.SetCallbackInterface
-title: IDDrawExclModeVideo::SetCallbackInterface method
+title: IDDrawExclModeVideo::SetCallbackInterface
 author: windows-driver-content
 description: The SetCallbackInterface method retrieves a pointer to the callback interface of the Overlay Mixer so that the calling application can be notified about adjustments to the display during video playback.
 old-location: dshow\iddrawexclmodevideo_setcallbackinterface.htm
 old-project: DirectShow
 ms.assetid: f8f885fe-d1a2-4635-9f30-d57ac0eb905e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDDrawExclModeVideo, IDDrawExclModeVideo interface [DirectShow], SetCallbackInterface method, IDDrawExclModeVideo::SetCallbackInterface, IDDrawExclModeVideoSetCallbackInterface, SetCallbackInterface method [DirectShow], SetCallbackInterface method [DirectShow], IDDrawExclModeVideo interface, SetCallbackInterface,IDDrawExclModeVideo.SetCallbackInterface, dshow.iddrawexclmodevideo_setcallbackinterface, strmif/IDDrawExclModeVideo::SetCallbackInterface
+ms.date: 4/30/2018
+ms.keywords: IDDrawExclModeVideo interface [DirectShow],SetCallbackInterface method, IDDrawExclModeVideo.SetCallbackInterface, IDDrawExclModeVideo::SetCallbackInterface, IDDrawExclModeVideoSetCallbackInterface, SetCallbackInterface, SetCallbackInterface method [DirectShow], SetCallbackInterface method [DirectShow],IDDrawExclModeVideo interface, dshow.iddrawexclmodevideo_setcallbackinterface, strmif/IDDrawExclModeVideo::SetCallbackInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDDrawExclModeVideo::SetCallbackInterface method
+# IDDrawExclModeVideo::SetCallbackInterface
 
 
 ## -description

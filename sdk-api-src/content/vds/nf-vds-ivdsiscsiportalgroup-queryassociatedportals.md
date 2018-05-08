@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.QueryAssociatedPortals
-title: IVdsIscsiPortalGroup::QueryAssociatedPortals method
+title: IVdsIscsiPortalGroup::QueryAssociatedPortals
 author: windows-driver-content
 description: Returns an enumeration of the portals with which the portal group is associated.
 old-location: base\ivdsiscsiportalgroup_queryassociatedportals.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: c9d120bb-f195-413d-bc82-007523041d58
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsIscsiPortalGroup, IVdsIscsiPortalGroup interface [VDS], QueryAssociatedPortals method, IVdsIscsiPortalGroup::QueryAssociatedPortals, QueryAssociatedPortals method [VDS], QueryAssociatedPortals method [VDS], IVdsIscsiPortalGroup interface, QueryAssociatedPortals,IVdsIscsiPortalGroup.QueryAssociatedPortals, base.ivdsiscsiportalgroup_queryassociatedportals, vds/IVdsIscsiPortalGroup::QueryAssociatedPortals, vdshwprv/IVdsIscsiPortalGroup::QueryAssociatedPortals
+ms.keywords: IVdsIscsiPortalGroup interface [VDS],QueryAssociatedPortals method, IVdsIscsiPortalGroup.QueryAssociatedPortals, IVdsIscsiPortalGroup::QueryAssociatedPortals, QueryAssociatedPortals, QueryAssociatedPortals method [VDS], QueryAssociatedPortals method [VDS],IVdsIscsiPortalGroup interface, base.ivdsiscsiportalgroup_queryassociatedportals, vds/IVdsIscsiPortalGroup::QueryAssociatedPortals, vdshwprv/IVdsIscsiPortalGroup::QueryAssociatedPortals
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsIscsiPortalGroup::QueryAssociatedPortals method
+# IVdsIscsiPortalGroup::QueryAssociatedPortals
 
 
 ## -description

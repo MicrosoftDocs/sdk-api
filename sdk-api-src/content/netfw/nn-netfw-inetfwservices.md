@@ -7,8 +7,8 @@ old-location: ics\inetfwservices.htm
 old-project: ICS
 ms.assetid: b99464c5-dabc-405a-ad3e-da06a6faef47
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwServices, INetFwServices interface [ICS/ICF], INetFwServices interface [ICS/ICF], described, ics.inetfwservices, netfw/INetFwServices
+ms.date: 5/1/2018
+ms.keywords: INetFwServices, INetFwServices interface [ICS/ICF], INetFwServices interface [ICS/ICF],described, ics.inetfwservices, netfw/INetFwServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

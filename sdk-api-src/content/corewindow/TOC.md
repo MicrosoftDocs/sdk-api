@@ -1,0 +1,6 @@
+# [Windows Runtime C++ reference](../_winrt/index.md)
+## [Corewindow.h](index.md)
+### [CreateControlInput function](../corewindow/nf-corewindow-createcontrolinput.md)
+### [CreateControlInputEx function](../corewindow/nf-corewindow-createcontrolinputex.md)
+### [ICoreInputInterop interface](../corewindow/nn-corewindow-icoreinputinterop.md)
+### [ICoreWindowInterop interface](../corewindow/nn-corewindow-icorewindowinterop.md)

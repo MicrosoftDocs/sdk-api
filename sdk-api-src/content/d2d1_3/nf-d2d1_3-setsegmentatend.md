@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: d2901735-724d-502b-bc2e-dc030f8be4fe
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: SetSegmentAtEnd, SetSegmentAtEnd methods [Direct2D], d2d1_3/SetSegmentAtEnd, direct2d.id2d1ink_setsegmentatend_overload
+ms.keywords: ID2D1Ink::SetSegmentAtEnd, SetSegmentAtEnd, SetSegmentAtEnd methods [Direct2D], d2d1_3/SetSegmentAtEnd, direct2d.id2d1ink_setsegmentatend_overload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

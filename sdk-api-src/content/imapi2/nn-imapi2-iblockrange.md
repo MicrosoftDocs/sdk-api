@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: abebc651-0575-4b76-9fe8-2cea3d617582
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IBlockRange, IBlockRange interface [IMAPI], IBlockRange interface [IMAPI], described, imapi.iblockrange, imapi2/IBlockRange
+ms.keywords: IBlockRange, IBlockRange interface [IMAPI], IBlockRange interface [IMAPI],described, imapi.iblockrange, imapi2/IBlockRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

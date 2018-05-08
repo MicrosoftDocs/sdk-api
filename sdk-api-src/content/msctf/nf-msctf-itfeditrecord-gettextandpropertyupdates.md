@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfEditRecord.GetTextAndPropertyUpdates
-title: ITfEditRecord::GetTextAndPropertyUpdates method
+title: ITfEditRecord::GetTextAndPropertyUpdates
 author: windows-driver-content
 description: ITfEditRecord::GetTextAndPropertyUpdates method
 old-location: tsf\itfeditrecord_gettextandpropertyupdates.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: bfc9cba0-298c-4823-b70a-366bdc5bfb29
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: 0, GetTextAndPropertyUpdates method [Text Services Framework], GetTextAndPropertyUpdates method [Text Services Framework], ITfEditRecord interface, GetTextAndPropertyUpdates,ITfEditRecord.GetTextAndPropertyUpdates, ITfEditRecord, ITfEditRecord interface [Text Services Framework], GetTextAndPropertyUpdates method, ITfEditRecord::GetTextAndPropertyUpdates, TF_GTP_INCL_TEXT, _tsf_itfeditrecord_gettextandpropertyupdates_ref, msctf/ITfEditRecord::GetTextAndPropertyUpdates, tsf.itfeditrecord_gettextandpropertyupdates
+ms.keywords: 0, GetTextAndPropertyUpdates, GetTextAndPropertyUpdates method [Text Services Framework], GetTextAndPropertyUpdates method [Text Services Framework],ITfEditRecord interface, ITfEditRecord interface [Text Services Framework],GetTextAndPropertyUpdates method, ITfEditRecord.GetTextAndPropertyUpdates, ITfEditRecord::GetTextAndPropertyUpdates, TF_GTP_INCL_TEXT, _tsf_itfeditrecord_gettextandpropertyupdates_ref, msctf/ITfEditRecord::GetTextAndPropertyUpdates, tsf.itfeditrecord_gettextandpropertyupdates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfEditRecord::GetTextAndPropertyUpdates method
+# ITfEditRecord::GetTextAndPropertyUpdates
 
 
 ## -description

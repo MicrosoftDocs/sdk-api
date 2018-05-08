@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IResourceManager.ReleaseFocus
-title: IResourceManager::ReleaseFocus method
+title: IResourceManager::ReleaseFocus
 author: windows-driver-content
 description: The ReleaseFocus method sets the focus object to NULL in the resource manager if the current focus object is the one specified in this method.
 old-location: dshow\iresourcemanager_releasefocus.htm
 old-project: DirectShow
 ms.assetid: dfc1b178-eb81-488b-8a4a-f1a454b3d5f4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IResourceManager, IResourceManager interface [DirectShow], ReleaseFocus method, IResourceManager::ReleaseFocus, IResourceManagerReleaseFocus, ReleaseFocus method [DirectShow], ReleaseFocus method [DirectShow], IResourceManager interface, ReleaseFocus,IResourceManager.ReleaseFocus, dshow.iresourcemanager_releasefocus, strmif/IResourceManager::ReleaseFocus
+ms.date: 4/30/2018
+ms.keywords: IResourceManager interface [DirectShow],ReleaseFocus method, IResourceManager.ReleaseFocus, IResourceManager::ReleaseFocus, IResourceManagerReleaseFocus, ReleaseFocus, ReleaseFocus method [DirectShow], ReleaseFocus method [DirectShow],IResourceManager interface, dshow.iresourcemanager_releasefocus, strmif/IResourceManager::ReleaseFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IResourceManager::ReleaseFocus method
+# IResourceManager::ReleaseFocus
 
 
 ## -description

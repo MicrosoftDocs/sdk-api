@@ -101,16 +101,14 @@ The <b>propid</b> member is used and set to a property ID value.
  
 
 
-
-
-#### - lpwstr
-
-Specifies the string name of the property as a null-terminated Unicode string.
-
-
-#### - propid
+### -field DUMMYUNIONNAME.propid
 
 Specifies the value of the property ID. Use either this value or the following <b>lpwstr</b>, not both.
+
+
+### -field DUMMYUNIONNAME.lpwstr
+
+Specifies the string name of the property as a null-terminated Unicode string.
 
 
 ## -remarks

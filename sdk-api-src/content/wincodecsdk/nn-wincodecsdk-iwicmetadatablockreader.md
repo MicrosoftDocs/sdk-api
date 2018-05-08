@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 09614b44-ebc2-44f4-9755-9df62f1b2178
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICMetadataBlockReader, IWICMetadataBlockReader interface [Windows Imaging Component], IWICMetadataBlockReader interface [Windows Imaging Component], described, _wic_codec_iwicmetadatablockreader, wic._wic_codec_iwicmetadatablockreader, wincodecsdk/IWICMetadataBlockReader
+ms.keywords: IWICMetadataBlockReader, IWICMetadataBlockReader interface [Windows Imaging Component], IWICMetadataBlockReader interface [Windows Imaging Component],described, _wic_codec_iwicmetadatablockreader, wic._wic_codec_iwicmetadatablockreader, wincodecsdk/IWICMetadataBlockReader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

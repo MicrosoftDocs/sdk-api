@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 3f911878-28c6-41db-ae9c-81e282aabf9d
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsIscsiInitiatorAdapter, IVdsIscsiInitiatorAdapter interface [VDS], IVdsIscsiInitiatorAdapter interface [VDS], described, base.ivdsiscsiinitiatoradapter, vds/IVdsIscsiInitiatorAdapter
+ms.keywords: IVdsIscsiInitiatorAdapter, IVdsIscsiInitiatorAdapter interface [VDS], IVdsIscsiInitiatorAdapter interface [VDS],described, base.ivdsiscsiinitiatoradapter, vds/IVdsIscsiInitiatorAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

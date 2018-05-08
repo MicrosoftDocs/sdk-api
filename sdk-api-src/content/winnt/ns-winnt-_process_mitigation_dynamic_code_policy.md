@@ -63,6 +63,11 @@ Contains process mitigation policy settings for restricting dynamic code generat
  
 
 
+### -field DUMMYUNIONNAME.Flags
+
+Reserved for system use.
+
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -90,11 +95,6 @@ Set (0x1) to allow non-AppContainer processes to modify all of the dynamic code 
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
-
-Reserved for system use.
-
-
-#### - Flags
 
 Reserved for system use.
 

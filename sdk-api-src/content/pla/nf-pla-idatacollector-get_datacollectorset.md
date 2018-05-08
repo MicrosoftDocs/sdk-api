@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.get_DataCollectorSet
-title: IDataCollector::get_DataCollectorSet method
+title: IDataCollector::get_DataCollectorSet
 author: windows-driver-content
 description: Retrieves the data collector set to which this data collector belongs.
 old-location: pla\idatacollector_datacollectorset.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: d4449953-b982-474b-ac35-b03e39db48c9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DataCollectorSet property [PLA], DataCollectorSet property [PLA], IDataCollector interface, IDataCollector, IDataCollector interface [PLA], DataCollectorSet property, IDataCollector.DataCollectorSet, IDataCollector::get_DataCollectorSet, base.idatacollector_datacollectorset, get_DataCollectorSet,IDataCollector.get_DataCollectorSet, pla.idatacollector_datacollectorset, pla/IDataCollector::DataCollectorSet, pla/IDataCollector::get_DataCollectorSet
+ms.keywords: DataCollectorSet property [PLA], DataCollectorSet property [PLA],IDataCollector interface, IDataCollector interface [PLA],DataCollectorSet property, IDataCollector.DataCollectorSet, IDataCollector.get_DataCollectorSet, IDataCollector::DataCollectorSet, IDataCollector::get_DataCollectorSet, base.idatacollector_datacollectorset, get_DataCollectorSet, pla.idatacollector_datacollectorset, pla/IDataCollector::DataCollectorSet, pla/IDataCollector::get_DataCollectorSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollector::get_DataCollectorSet method
+# IDataCollector::get_DataCollectorSet
 
 
 ## -description

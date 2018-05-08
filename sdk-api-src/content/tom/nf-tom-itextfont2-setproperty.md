@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.SetProperty
-title: ITextFont2::SetProperty method
+title: ITextFont2::SetProperty
 author: windows-driver-content
 description: Sets the value of the specified property.
 old-location: controls\itextfont2_setproperty.htm
 old-project: Controls
 ms.assetid: c4d35fed-9bf5-431e-96c9-b1d51d51703a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], SetProperty method, ITextFont2::SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls], ITextFont2 interface, SetProperty,ITextFont2.SetProperty, controls.itextfont2_setproperty, tom/ITextFont2::SetProperty
+ms.date: 4/27/2018
+ms.keywords: ITextFont2 interface [Windows Controls],SetProperty method, ITextFont2.SetProperty, ITextFont2::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextFont2 interface, controls.itextfont2_setproperty, tom/ITextFont2::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::SetProperty method
+# ITextFont2::SetProperty
 
 
 ## -description

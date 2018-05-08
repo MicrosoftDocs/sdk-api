@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffects._NewEnum
-title: IMILBitmapEffects::_NewEnum method
+title: IMILBitmapEffects::_NewEnum
 author: windows-driver-content
 description: Retrieves a new enumeration.
 old-location: wibe\_wibe_imilbitmapeffects__newenum.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\_newenum.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IMILBitmapEffects, IMILBitmapEffects interface [WPF Bitmap Effects], _NewEnum method, IMILBitmapEffects::_NewEnum, _NewEnum method [WPF Bitmap Effects], _NewEnum method [WPF Bitmap Effects], IMILBitmapEffects interface, _NewEnum,IMILBitmapEffects._NewEnum, _wibe_imilbitmapeffects__newenum, mileffects/IMILBitmapEffects::_NewEnum, wibe._wibe_imilbitmapeffects__newenum
+ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],_NewEnum method, IMILBitmapEffects._NewEnum, IMILBitmapEffects::_NewEnum, _NewEnum, _NewEnum method [WPF Bitmap Effects], _NewEnum method [WPF Bitmap Effects],IMILBitmapEffects interface, _wibe_imilbitmapeffects__newenum, mileffects/IMILBitmapEffects::_NewEnum, wibe._wibe_imilbitmapeffects__newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffects::_NewEnum method
+# IMILBitmapEffects::_NewEnum
 
 
 ## -description

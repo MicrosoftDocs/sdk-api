@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IVideoWindow.get_Caption
-title: IVideoWindow::get_Caption method
+title: IVideoWindow::get_Caption
 author: windows-driver-content
 description: The get_Caption method retrieves the video window caption.
 old-location: dshow\ivideowindow_get_caption.htm
 old-project: DirectShow
 ms.assetid: fbb42e55-1be1-4931-869b-9e8d4af5e6df
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], get_Caption method, IVideoWindow::get_Caption, IVideoWindowget_Caption, control/IVideoWindow::get_Caption, dshow.ivideowindow_get_caption, get_Caption method [DirectShow], get_Caption method [DirectShow], IVideoWindow interface, get_Caption,IVideoWindow.get_Caption
+ms.date: 4/30/2018
+ms.keywords: IVideoWindow interface [DirectShow],get_Caption method, IVideoWindow.get_Caption, IVideoWindow::get_Caption, IVideoWindowget_Caption, control/IVideoWindow::get_Caption, dshow.ivideowindow_get_caption, get_Caption, get_Caption method [DirectShow], get_Caption method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IVideoWindow::get_Caption method
+# IVideoWindow::get_Caption
 
 
 ## -description

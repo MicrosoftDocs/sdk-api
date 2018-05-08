@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetDC
-title: IDirectDrawSurface7::GetDC method
+title: IDirectDrawSurface7::GetDC
 author: windows-driver-content
 description: Creates a GDI-compatible handle of a device context for this surface.
 old-location: directdraw\idirectdrawsurface7_getdc.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 683be1bc-8232-42de-907f-1136ffdd524d
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetDC method [DirectDraw], GetDC method [DirectDraw], IDirectDrawSurface7 interface, GetDC,IDirectDrawSurface7.GetDC, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], GetDC method, IDirectDrawSurface7::GetDC, ddraw/IDirectDrawSurface7::GetDC, directdraw.idirectdrawsurface7_getdc
+ms.keywords: GetDC, GetDC method [DirectDraw], GetDC method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetDC method, IDirectDrawSurface7.GetDC, IDirectDrawSurface7::GetDC, ddraw/IDirectDrawSurface7::GetDC, directdraw.idirectdrawsurface7_getdc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::GetDC method
+# IDirectDrawSurface7::GetDC
 
 
 ## -description

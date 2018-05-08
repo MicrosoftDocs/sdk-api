@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.ICatRegister.UnRegisterClassReqCategories
-title: ICatRegister::UnRegisterClassReqCategories method
+title: ICatRegister::UnRegisterClassReqCategories
 author: windows-driver-content
 description: Removes one or more required category identifiers from a class.
 old-location: com\icatregister_unregisterclassreqcategories.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: d957bc13-f5f7-4cb3-925e-4867ba9622cd
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ICatRegister, ICatRegister interface [COM], UnRegisterClassReqCategories method, ICatRegister::UnRegisterClassReqCategories, UnRegisterClassReqCategories method [COM], UnRegisterClassReqCategories method [COM], ICatRegister interface, UnRegisterClassReqCategories,ICatRegister.UnRegisterClassReqCategories, _com_icatregister_unregisterclassreqcategories, com.icatregister_unregisterclassreqcategories, comcat/ICatRegister::UnRegisterClassReqCategories
+ms.keywords: ICatRegister interface [COM],UnRegisterClassReqCategories method, ICatRegister.UnRegisterClassReqCategories, ICatRegister::UnRegisterClassReqCategories, UnRegisterClassReqCategories, UnRegisterClassReqCategories method [COM], UnRegisterClassReqCategories method [COM],ICatRegister interface, _com_icatregister_unregisterclassreqcategories, com.icatregister_unregisterclassreqcategories, comcat/ICatRegister::UnRegisterClassReqCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICatRegister::UnRegisterClassReqCategories method
+# ICatRegister::UnRegisterClassReqCategories
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.ActivateHandler
-title: ISyncMgrControl::ActivateHandler method
+title: ISyncMgrControl::ActivateHandler
 author: windows-driver-content
 description: Activates or deactivates a handler.
 old-location: shell\ISyncMgrControl_ActivateHandler.htm
 old-project: shell
 ms.assetid: 95f332a4-c76c-437f-a756-528cbbb39e2d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ActivateHandler method [Windows Shell], ActivateHandler method [Windows Shell], ISyncMgrControl interface, ActivateHandler,ISyncMgrControl.ActivateHandler, ISyncMgrControl, ISyncMgrControl interface [Windows Shell], ActivateHandler method, ISyncMgrControl::ActivateHandler, _shell_ISyncMgrControl_ActivateHandler, shell.ISyncMgrControl_ActivateHandler, syncmgr/ISyncMgrControl::ActivateHandler
+ms.date: 5/3/2018
+ms.keywords: ActivateHandler, ActivateHandler method [Windows Shell], ActivateHandler method [Windows Shell],ISyncMgrControl interface, ISyncMgrControl interface [Windows Shell],ActivateHandler method, ISyncMgrControl.ActivateHandler, ISyncMgrControl::ActivateHandler, _shell_ISyncMgrControl_ActivateHandler, shell.ISyncMgrControl_ActivateHandler, syncmgr/ISyncMgrControl::ActivateHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISyncMgrControl::ActivateHandler method
+# ISyncMgrControl::ActivateHandler
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.SendTwoWayRequestAsync
-title: IWSDEndpointProxy::SendTwoWayRequestAsync method
+title: IWSDEndpointProxy::SendTwoWayRequestAsync
 author: windows-driver-content
 description: Sends a two-way request message using an asynchronous call pattern.
 old-location: ncd\iwsdendpointproxy_sendtwowayrequestasync.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: cf175e79-9df2-4481-b784-e2cc40e34222
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDEndpointProxy, IWSDEndpointProxy interface, SendTwoWayRequestAsync method, IWSDEndpointProxy::SendTwoWayRequestAsync, SendTwoWayRequestAsync method, SendTwoWayRequestAsync method, IWSDEndpointProxy interface, SendTwoWayRequestAsync,IWSDEndpointProxy.SendTwoWayRequestAsync, ncd.iwsdendpointproxy_sendtwowayrequestasync, wsdclient/IWSDEndpointProxy::SendTwoWayRequestAsync
+ms.keywords: IWSDEndpointProxy interface,SendTwoWayRequestAsync method, IWSDEndpointProxy.SendTwoWayRequestAsync, IWSDEndpointProxy::SendTwoWayRequestAsync, SendTwoWayRequestAsync, SendTwoWayRequestAsync method, SendTwoWayRequestAsync method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_sendtwowayrequestasync, wsdclient/IWSDEndpointProxy::SendTwoWayRequestAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDEndpointProxy::SendTwoWayRequestAsync method
+# IWSDEndpointProxy::SendTwoWayRequestAsync
 
 
 ## -description

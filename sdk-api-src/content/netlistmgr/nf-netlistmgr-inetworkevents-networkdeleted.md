@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkEvents.NetworkDeleted
-title: INetworkEvents::NetworkDeleted method
+title: INetworkEvents::NetworkDeleted
 author: windows-driver-content
 description: The NetworkDeleted method is called when a network is deleted.
 old-location: nla\inetworkevents_networkdeleted.htm
@@ -8,7 +8,7 @@ old-project: NLA
 ms.assetid: ae54cc29-6da8-405d-92f9-654239150dd0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: INetworkEvents, INetworkEvents interface [Network Awareness], NetworkDeleted method, INetworkEvents::NetworkDeleted, NetworkDeleted method [Network Awareness], NetworkDeleted method [Network Awareness], INetworkEvents interface, NetworkDeleted,INetworkEvents.NetworkDeleted, netlistmgr/INetworkEvents::NetworkDeleted, nla.inetworkevents_networkdeleted
+ms.keywords: INetworkEvents interface [Network Awareness],NetworkDeleted method, INetworkEvents.NetworkDeleted, INetworkEvents::NetworkDeleted, NetworkDeleted, NetworkDeleted method [Network Awareness], NetworkDeleted method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkDeleted, nla.inetworkevents_networkdeleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetworkEvents::NetworkDeleted method
+# INetworkEvents::NetworkDeleted
 
 
 ## -description

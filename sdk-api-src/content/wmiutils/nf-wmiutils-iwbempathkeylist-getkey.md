@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.GetKey
-title: IWbemPathKeyList::GetKey method
+title: IWbemPathKeyList::GetKey
 author: windows-driver-content
 description: The IWbemPathKeyList::GetKey method retrieves a key's name or value. Keys are indexed from 0 (zero), though the order of the keys is not significant.
 old-location: wmi\iwbempathkeylist_getkey.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 98b3a8e6-f2cf-4a39-91f9-eb20e397e54e
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetKey method [Windows Management Instrumentation], GetKey method [Windows Management Instrumentation], IWbemPathKeyList interface, GetKey,IWbemPathKeyList.GetKey, IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], GetKey method, IWbemPathKeyList::GetKey, _hmm_iwbempathkeylist_getkey, wmi.iwbempathkeylist_getkey, wmiutils/IWbemPathKeyList::GetKey
+ms.keywords: GetKey, GetKey method [Windows Management Instrumentation], GetKey method [Windows Management Instrumentation],IWbemPathKeyList interface, IWbemPathKeyList interface [Windows Management Instrumentation],GetKey method, IWbemPathKeyList.GetKey, IWbemPathKeyList::GetKey, _hmm_iwbempathkeylist_getkey, wmi.iwbempathkeylist_getkey, wmiutils/IWbemPathKeyList::GetKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPathKeyList::GetKey method
+# IWbemPathKeyList::GetKey
 
 
 ## -description

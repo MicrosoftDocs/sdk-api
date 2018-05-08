@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IIPDVDec.put_IPDisplay
-title: IIPDVDec::put_IPDisplay method
+title: IIPDVDec::put_IPDisplay
 author: windows-driver-content
 description: The put_IPDisplay method sets the decoding resolution.
 old-location: dshow\iipdvdec_put_ipdisplay.htm
 old-project: DirectShow
 ms.assetid: c89970f8-b515-409b-af75-b1af65a8f94e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IIPDVDec, IIPDVDec interface [DirectShow], put_IPDisplay method, IIPDVDec::put_IPDisplay, IIPDVDecput_IPDisplay, dshow.iipdvdec_put_ipdisplay, put_IPDisplay method [DirectShow], put_IPDisplay method [DirectShow], IIPDVDec interface, put_IPDisplay,IIPDVDec.put_IPDisplay, strmif/IIPDVDec::put_IPDisplay
+ms.date: 4/30/2018
+ms.keywords: IIPDVDec interface [DirectShow],put_IPDisplay method, IIPDVDec.put_IPDisplay, IIPDVDec::put_IPDisplay, IIPDVDecput_IPDisplay, dshow.iipdvdec_put_ipdisplay, put_IPDisplay, put_IPDisplay method [DirectShow], put_IPDisplay method [DirectShow],IIPDVDec interface, strmif/IIPDVDec::put_IPDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IIPDVDec::put_IPDisplay method
+# IIPDVDec::put_IPDisplay
 
 
 ## -description

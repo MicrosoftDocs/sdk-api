@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentControlType
-title: IUIAutomationElement::get_CurrentControlType method
+title: IUIAutomationElement::get_CurrentControlType
 author: windows-driver-content
 description: Retrieves the control type of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentControlType.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 6bceeabd-be77-4820-842a-d343fa2857bd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentControlType property [Windows Accessibility], CurrentControlType property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentControlType property, IUIAutomationElement.CurrentControlType, IUIAutomationElement::get_CurrentControlType, get_CurrentControlType,IUIAutomationElement.get_CurrentControlType, uiauto.uiauto_IUIAutomationElement_CurrentControlType, uiauto_IUIAutomationElement_CurrentControlType, uiautomationclient/IUIAutomationElement::CurrentControlType, uiautomationclient/IUIAutomationElement::get_CurrentControlType, winauto.uiauto_IUIAutomationElement_CurrentControlType
+ms.keywords: CurrentControlType property [Windows Accessibility], CurrentControlType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentControlType property, IUIAutomationElement.CurrentControlType, IUIAutomationElement.get_CurrentControlType, IUIAutomationElement::CurrentControlType, IUIAutomationElement::get_CurrentControlType, get_CurrentControlType, uiauto.uiauto_IUIAutomationElement_CurrentControlType, uiauto_IUIAutomationElement_CurrentControlType, uiautomationclient/IUIAutomationElement::CurrentControlType, uiautomationclient/IUIAutomationElement::get_CurrentControlType, winauto.uiauto_IUIAutomationElement_CurrentControlType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CurrentControlType method
+# IUIAutomationElement::get_CurrentControlType
 
 
 ## -description

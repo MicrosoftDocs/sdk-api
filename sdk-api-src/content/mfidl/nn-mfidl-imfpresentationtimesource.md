@@ -7,8 +7,8 @@ old-location: mf\imfpresentationtimesource.htm
 old-project: medfound
 ms.assetid: e5fab6b7-0abc-4ad7-89a9-33c673e97ce2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPresentationTimeSource, IMFPresentationTimeSource interface [Media Foundation], IMFPresentationTimeSource interface [Media Foundation], described, e5fab6b7-0abc-4ad7-89a9-33c673e97ce2, mf.imfpresentationtimesource, mfidl/IMFPresentationTimeSource
+ms.date: 5/3/2018
+ms.keywords: IMFPresentationTimeSource, IMFPresentationTimeSource interface [Media Foundation], IMFPresentationTimeSource interface [Media Foundation],described, e5fab6b7-0abc-4ad7-89a9-33c673e97ce2, mf.imfpresentationtimesource, mfidl/IMFPresentationTimeSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

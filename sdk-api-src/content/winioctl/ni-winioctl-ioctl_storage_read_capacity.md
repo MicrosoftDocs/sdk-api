@@ -8,7 +8,7 @@ old-project: DevIO
 ms.assetid: c0a2c73c-fae9-40e9-8009-4dffbb03a01d
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IOCTL_STORAGE_READ_CAPACITY, IOCTL_STORAGE_READ_CAPACITY control code, base.ioctl_storage_read_capacity, winioctl/IOCTL_STORAGE_READ_CAPACITY
+ms.keywords: IOCTL_STORAGE_READ_CAPACITY, IOCTL_STORAGE_READ_CAPACITY control, IOCTL_STORAGE_READ_CAPACITY control code, base.ioctl_storage_read_capacity, winioctl/IOCTL_STORAGE_READ_CAPACITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

@@ -7,7 +7,7 @@ old-location: security\crypt_object_locator_provider_table.htm
 old-project: SecCrypto
 ms.assetid: 4B319A83-C230-4BFE-AF21-1395ED2D234B
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE structure [Security], PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE structure pointer [Security], _CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, security.crypt_object_locator_provider_table, wincrypt/CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, wincrypt/PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

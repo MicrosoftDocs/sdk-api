@@ -7,7 +7,7 @@ old-location: controls\MAKEIPADDRESS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeipaddress.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: MAKEIPADDRESS, MAKEIPADDRESS macro [Windows Controls], _win32_MAKEIPADDRESS, _win32_MAKEIPADDRESS_cpp, commctrl/MAKEIPADDRESS, controls.MAKEIPADDRESS, controls._win32_MAKEIPADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.DeleteSnapshots
-title: IVssSoftwareSnapshotProvider::DeleteSnapshots method
+title: IVssSoftwareSnapshotProvider::DeleteSnapshots
 author: windows-driver-content
 description: Deletes one or more shadow copies or a shadow copy set.
 old-location: base\ivsssoftwaresnapshotprovider_deletesnapshots.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: aca6cdc1-186d-41e8-ac1b-0c6d7d9cbddd
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: DeleteSnapshots method, DeleteSnapshots method, IVssSoftwareSnapshotProvider interface, DeleteSnapshots,IVssSoftwareSnapshotProvider.DeleteSnapshots, IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, DeleteSnapshots method, IVssSoftwareSnapshotProvider::DeleteSnapshots, base.ivsssoftwaresnapshotprovider_deletesnapshots, vsprov/IVssSoftwareSnapshotProvider::DeleteSnapshots
+ms.keywords: DeleteSnapshots, DeleteSnapshots method, DeleteSnapshots method,IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,DeleteSnapshots method, IVssSoftwareSnapshotProvider.DeleteSnapshots, IVssSoftwareSnapshotProvider::DeleteSnapshots, base.ivsssoftwaresnapshotprovider_deletesnapshots, vsprov/IVssSoftwareSnapshotProvider::DeleteSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssSoftwareSnapshotProvider::DeleteSnapshots method
+# IVssSoftwareSnapshotProvider::DeleteSnapshots
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.Add
-title: IFaxOutboundRoutingGroups::Add method
+title: IFaxOutboundRoutingGroups::Add
 author: windows-driver-content
 description: The IFaxOutboundRoutingGroups::Add method adds an outbound routing group to the collection represented by the IFaxOutboundRoutingGroups interface.
 old-location: fax\_mfax_faxoutboundroutinggroups_add_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_35r8_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Add method [Fax Service], Add method [Fax Service], IFaxOutboundRoutingGroups interface, Add,IFaxOutboundRoutingGroups.Add, IFaxOutboundRoutingGroups, IFaxOutboundRoutingGroups interface [Fax Service], Add method, IFaxOutboundRoutingGroups::Add, _mfax_faxoutboundroutinggroups.add_cpp, fax._mfax_faxoutboundroutinggroups_add_cpp, faxcomex/IFaxOutboundRoutingGroups::Add
+ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],IFaxOutboundRoutingGroups interface, IFaxOutboundRoutingGroups interface [Fax Service],Add method, IFaxOutboundRoutingGroups.Add, IFaxOutboundRoutingGroups::Add, _mfax_faxoutboundroutinggroups.add_cpp, fax._mfax_faxoutboundroutinggroups_add_cpp, faxcomex/IFaxOutboundRoutingGroups::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutboundRoutingGroups::Add method
+# IFaxOutboundRoutingGroups::Add
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetBreakOnID
-title: IDXGIInfoQueue::GetBreakOnID method
+title: IDXGIInfoQueue::GetBreakOnID
 author: windows-driver-content
 description: Determines whether the break on a message identifier is turned on or off.
 old-location: direct3ddxgi\idxgiinfoqueue_getbreakonid.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: A7DF79E0-137D-4CBD-AD03-B9BC4532D60F
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetBreakOnID method [DXGI], GetBreakOnID method [DXGI], IDXGIInfoQueue interface, GetBreakOnID,IDXGIInfoQueue.GetBreakOnID, IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], GetBreakOnID method, IDXGIInfoQueue::GetBreakOnID, direct3ddxgi.idxgiinfoqueue_getbreakonid, dxgidebug/IDXGIInfoQueue::GetBreakOnID
+ms.keywords: GetBreakOnID, GetBreakOnID method [DXGI], GetBreakOnID method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetBreakOnID method, IDXGIInfoQueue.GetBreakOnID, IDXGIInfoQueue::GetBreakOnID, direct3ddxgi.idxgiinfoqueue_getbreakonid, dxgidebug/IDXGIInfoQueue::GetBreakOnID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIInfoQueue::GetBreakOnID method
+# IDXGIInfoQueue::GetBreakOnID
 
 
 ## -description

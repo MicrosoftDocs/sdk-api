@@ -1,14 +1,14 @@
 ---
 UID: NF:certif.ICertServerPolicy.SetContext
-title: ICertServerPolicy::SetContext method
+title: ICertServerPolicy::SetContext
 author: windows-driver-content
 description: Specifies the request to be used as the context for subsequent calls to Certificate Services.
 old-location: security\icertserverpolicy_setcontext.htm
 old-project: SecCrypto
 ms.assetid: ba45cda8-49a5-4bd6-af68-90b4b56aff7d
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertServerPolicy object [Security], SetContext method, ICertServerPolicy, ICertServerPolicy interface [Security], SetContext method, ICertServerPolicy::SetContext, SetContext method [Security], SetContext method [Security], CCertServerPolicy object, SetContext method [Security], ICertServerPolicy interface, SetContext,ICertServerPolicy.SetContext, _certsrv_icertserverpolicy_setcontext, certif/ICertServerPolicy::SetContext, security.icertserverpolicy_setcontext
+ms.date: 4/30/2018
+ms.keywords: CCertServerPolicy object [Security],SetContext method, ICertServerPolicy interface [Security],SetContext method, ICertServerPolicy.SetContext, ICertServerPolicy::SetContext, SetContext, SetContext method [Security], SetContext method [Security],CCertServerPolicy object, SetContext method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcontext, certif/ICertServerPolicy::SetContext, security.icertserverpolicy_setcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertServerPolicy::SetContext method
+# ICertServerPolicy::SetContext
 
 
 ## -description

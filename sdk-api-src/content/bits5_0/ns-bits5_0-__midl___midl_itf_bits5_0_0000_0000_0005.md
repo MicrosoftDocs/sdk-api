@@ -7,7 +7,7 @@ old-location: bits\bits_file_property_value.htm
 old-project: Bits
 ms.assetid: 0296014d-d5cc-40f0-a3d3-93d8ea704ce5
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 4/27/2018
 ms.keywords: BITS_FILE_PROPERTY_VALUE, BITS_FILE_PROPERTY_VALUE union [BITS], __MIDL___MIDL_itf_bits5_0_0000_0000_0005, bits.bits_file_property_value, bits5_0/BITS_FILE_PROPERTY_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices

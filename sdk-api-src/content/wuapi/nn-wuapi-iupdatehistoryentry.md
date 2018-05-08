@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 7f67ba11-41b5-4185-a78d-75c76dbe1fbe
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateHistoryEntry, IUpdateHistoryEntry interface [Windows Update Agent], IUpdateHistoryEntry interface [Windows Update Agent], described, wua.iupdatehistoryentry, wuapi/IUpdateHistoryEntry
+ms.keywords: IUpdateHistoryEntry, IUpdateHistoryEntry interface [Windows Update Agent], IUpdateHistoryEntry interface [Windows Update Agent],described, wua.iupdatehistoryentry, wuapi/IUpdateHistoryEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

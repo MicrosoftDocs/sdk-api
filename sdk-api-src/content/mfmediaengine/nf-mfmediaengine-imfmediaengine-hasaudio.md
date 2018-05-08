@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.HasAudio
-title: IMFMediaEngine::HasAudio method
+title: IMFMediaEngine::HasAudio
 author: windows-driver-content
 description: Queries whether the current media resource contains an audio stream.
 old-location: mf\imfmediaengine_hasaudio.htm
 old-project: medfound
 ms.assetid: D06A773E-8D41-40D1-BA10-65AEFF2D7667
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: HasAudio method [Media Foundation], HasAudio method [Media Foundation], IMFMediaEngine interface, HasAudio,IMFMediaEngine.HasAudio, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], HasAudio method, IMFMediaEngine::HasAudio, mf.imfmediaengine_hasaudio, mfmediaengine/IMFMediaEngine::HasAudio
+ms.date: 5/3/2018
+ms.keywords: HasAudio, HasAudio method [Media Foundation], HasAudio method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],HasAudio method, IMFMediaEngine.HasAudio, IMFMediaEngine::HasAudio, mf.imfmediaengine_hasaudio, mfmediaengine/IMFMediaEngine::HasAudio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::HasAudio method
+# IMFMediaEngine::HasAudio
 
 
 ## -description

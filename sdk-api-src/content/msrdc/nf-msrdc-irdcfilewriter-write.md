@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcFileWriter.Write
-title: IRdcFileWriter::Write method
+title: IRdcFileWriter::Write
 author: windows-driver-content
 description: Write bytes to a file starting at a given offset.
 old-location: rdc\irdcfilewriter_write.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: be7f3f2c-017a-4ca5-9652-a9b091c168be
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRdcFileWriter, IRdcFileWriter interface [Remote Differential Compression], Write method, IRdcFileWriter::Write, Write method [Remote Differential Compression], Write method [Remote Differential Compression], IRdcFileWriter interface, Write,IRdcFileWriter.Write, fs.irdcfilewriter_write, msrdc/IRdcFileWriter::Write, rdc.irdcfilewriter_write
+ms.keywords: IRdcFileWriter interface [Remote Differential Compression],Write method, IRdcFileWriter.Write, IRdcFileWriter::Write, Write, Write method [Remote Differential Compression], Write method [Remote Differential Compression],IRdcFileWriter interface, fs.irdcfilewriter_write, msrdc/IRdcFileWriter::Write, rdc.irdcfilewriter_write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcFileWriter::Write method
+# IRdcFileWriter::Write
 
 
 ## -description

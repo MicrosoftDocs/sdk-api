@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: ca98c7bb-7348-405d-976a-18012b0886c6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfContext, ITfContext interface [Text Services Framework], ITfContext interface [Text Services Framework], described, _tsf_itfcontext_ref, msctf/ITfContext, tsf.itfcontext
+ms.keywords: ITfContext, ITfContext interface [Text Services Framework], ITfContext interface [Text Services Framework],described, _tsf_itfcontext_ref, msctf/ITfContext, tsf.itfcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

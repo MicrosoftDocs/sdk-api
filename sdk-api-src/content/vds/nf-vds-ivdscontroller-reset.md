@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsController.Reset
-title: IVdsController::Reset method
+title: IVdsController::Reset
 author: windows-driver-content
 description: Reinitializes the controller and invalidates the cache.
 old-location: base\ivdscontroller_reset.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: e3b08b80-b81d-444b-86f6-2d10607ad02e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsController, IVdsController interface [VDS], Reset method, IVdsController::Reset, Reset method [VDS], Reset method [VDS], IVdsController interface, Reset,IVdsController.Reset, base.ivdscontroller_reset, vds/IVdsController::Reset, vdshwprv/IVdsController::Reset
+ms.keywords: IVdsController interface [VDS],Reset method, IVdsController.Reset, IVdsController::Reset, Reset, Reset method [VDS], Reset method [VDS],IVdsController interface, base.ivdscontroller_reset, vds/IVdsController::Reset, vdshwprv/IVdsController::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsController::Reset method
+# IVdsController::Reset
 
 
 ## -description

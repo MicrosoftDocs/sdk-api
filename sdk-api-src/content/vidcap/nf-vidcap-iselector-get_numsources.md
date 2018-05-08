@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ISelector.get_NumSources
-title: ISelector::get_NumSources method
+title: ISelector::get_NumSources
 author: windows-driver-content
 description: The get_NumSources method returns the number of source nodes connected to the selector node.
 old-location: dshow\iselector_get_numsources.htm
 old-project: DirectShow
 ms.assetid: ff04e32f-7902-417e-b0d4-125914928679
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISelector, ISelector interface [DirectShow], get_NumSources method, ISelector::get_NumSources, ISelectorget_NumSources, dshow.iselector_get_numsources, get_NumSources method [DirectShow], get_NumSources method [DirectShow], ISelector interface, get_NumSources,ISelector.get_NumSources, vidcap/ISelector::get_NumSources
+ms.date: 4/30/2018
+ms.keywords: ISelector interface [DirectShow],get_NumSources method, ISelector.get_NumSources, ISelector::get_NumSources, ISelectorget_NumSources, dshow.iselector_get_numsources, get_NumSources, get_NumSources method [DirectShow], get_NumSources method [DirectShow],ISelector interface, vidcap/ISelector::get_NumSources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ISelector::get_NumSources method
+# ISelector::get_NumSources
 
 
 ## -description

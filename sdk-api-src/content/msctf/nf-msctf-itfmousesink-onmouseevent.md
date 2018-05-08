@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfMouseSink.OnMouseEvent
-title: ITfMouseSink::OnMouseEvent method
+title: ITfMouseSink::OnMouseEvent
 author: windows-driver-content
 description: ITfMouseSink::OnMouseEvent method
 old-location: tsf\itfmousesink_onmouseevent.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 1aa4fdb7-b16d-4e58-934a-8323450f6749
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfMouseSink, ITfMouseSink interface [Text Services Framework], OnMouseEvent method, ITfMouseSink::OnMouseEvent, OnMouseEvent method [Text Services Framework], OnMouseEvent method [Text Services Framework], ITfMouseSink interface, OnMouseEvent,ITfMouseSink.OnMouseEvent, _tsf_itfmousesink_onmouseevent_ref, msctf/ITfMouseSink::OnMouseEvent, tsf.itfmousesink_onmouseevent
+ms.keywords: ITfMouseSink interface [Text Services Framework],OnMouseEvent method, ITfMouseSink.OnMouseEvent, ITfMouseSink::OnMouseEvent, OnMouseEvent, OnMouseEvent method [Text Services Framework], OnMouseEvent method [Text Services Framework],ITfMouseSink interface, _tsf_itfmousesink_onmouseevent_ref, msctf/ITfMouseSink::OnMouseEvent, tsf.itfmousesink_onmouseevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfMouseSink::OnMouseEvent method
+# ITfMouseSink::OnMouseEvent
 
 
 ## -description

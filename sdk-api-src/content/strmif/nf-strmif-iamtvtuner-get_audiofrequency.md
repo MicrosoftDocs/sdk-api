@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_AudioFrequency
-title: IAMTVTuner::get_AudioFrequency method
+title: IAMTVTuner::get_AudioFrequency
 author: windows-driver-content
 description: The get_AudioFrequency method retrieves the currently tuned audio frequency.
 old-location: dshow\iamtvtuner_get_audiofrequency.htm
 old-project: DirectShow
 ms.assetid: 7d0d288a-7ad0-40ad-b86e-9df9447ed484
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTVTuner, IAMTVTuner interface [DirectShow], get_AudioFrequency method, IAMTVTuner::get_AudioFrequency, IAMTVTunerget_AudioFrequency, dshow.iamtvtuner_get_audiofrequency, get_AudioFrequency method [DirectShow], get_AudioFrequency method [DirectShow], IAMTVTuner interface, get_AudioFrequency,IAMTVTuner.get_AudioFrequency, strmif/IAMTVTuner::get_AudioFrequency
+ms.date: 4/30/2018
+ms.keywords: IAMTVTuner interface [DirectShow],get_AudioFrequency method, IAMTVTuner.get_AudioFrequency, IAMTVTuner::get_AudioFrequency, IAMTVTunerget_AudioFrequency, dshow.iamtvtuner_get_audiofrequency, get_AudioFrequency, get_AudioFrequency method [DirectShow], get_AudioFrequency method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_AudioFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTVTuner::get_AudioFrequency method
+# IAMTVTuner::get_AudioFrequency
 
 
 ## -description

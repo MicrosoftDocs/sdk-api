@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_bind_element_array.htm
 old-project: DHCP
 ms.assetid: 9e43b2ab-f69d-4024-b6b1-8a36a3577767
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_BIND_ELEMENT_ARRAY, DHCP_BIND_ELEMENT_ARRAY, DHCP_BIND_ELEMENT_ARRAY structure [DHCP], LPDHCP_BIND_ELEMENT_ARRAY, LPDHCP_BIND_ELEMENT_ARRAY structure pointer [DHCP], _DHCP_BIND_ELEMENT_ARRAY, dhcp.dhcp_bind_element_array, dhcpsapi/LPDHCP_BIND_ELEMENT_ARRAY, dhcpsapi/_DHCP_BIND_ELEMENT_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,6 +65,18 @@ Specifies the number of network binding elements listed in <i>Elements</i>.
 ### -field Elements
 
 Specifies an array of <a href="https://msdn.microsoft.com/00d9d23e-fb39-4f3c-a2b9-9983322879fd">DHCP_BIND_ELEMENT</a> structures
+
+
+### -field Elements.size_is
+
+ 
+
+
+### -field Elements.size_is.NumElements
+
+ 
+
+
 
 
 ## -see-also

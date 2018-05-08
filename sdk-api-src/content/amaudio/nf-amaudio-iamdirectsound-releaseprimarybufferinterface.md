@@ -1,14 +1,14 @@
 ---
 UID: NF:amaudio.IAMDirectSound.ReleasePrimaryBufferInterface
-title: IAMDirectSound::ReleasePrimaryBufferInterface method
+title: IAMDirectSound::ReleasePrimaryBufferInterface
 author: windows-driver-content
 description: The ReleasePrimaryBufferInterface method is not implemented.
 old-location: dshow\iamdirectsound_releaseprimarybufferinterface.htm
 old-project: DirectShow
 ms.assetid: 9a04d344-394e-4a93-a601-0aa419182d9b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMDirectSound, IAMDirectSound interface [DirectShow], ReleasePrimaryBufferInterface method, IAMDirectSound::ReleasePrimaryBufferInterface, IAMDirectSoundReleasePrimaryBufferInterface, ReleasePrimaryBufferInterface method [DirectShow], ReleasePrimaryBufferInterface method [DirectShow], IAMDirectSound interface, ReleasePrimaryBufferInterface,IAMDirectSound.ReleasePrimaryBufferInterface, amaudio/IAMDirectSound::ReleasePrimaryBufferInterface, dshow.iamdirectsound_releaseprimarybufferinterface
+ms.date: 4/30/2018
+ms.keywords: IAMDirectSound interface [DirectShow],ReleasePrimaryBufferInterface method, IAMDirectSound.ReleasePrimaryBufferInterface, IAMDirectSound::ReleasePrimaryBufferInterface, IAMDirectSoundReleasePrimaryBufferInterface, ReleasePrimaryBufferInterface, ReleasePrimaryBufferInterface method [DirectShow], ReleasePrimaryBufferInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleasePrimaryBufferInterface, dshow.iamdirectsound_releaseprimarybufferinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMDirectSound::ReleasePrimaryBufferInterface method
+# IAMDirectSound::ReleasePrimaryBufferInterface
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFDRMNetHelper.GetChainedLicenseResponse
-title: IMFDRMNetHelper::GetChainedLicenseResponse method
+title: IMFDRMNetHelper::GetChainedLicenseResponse
 author: windows-driver-content
 description: Not implemented in this release.
 old-location: mf\imfdrmnethelper_getchainedlicenseresponse.htm
 old-project: medfound
 ms.assetid: eedbefd8-8540-4bf9-b602-6bebf089fcf7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetChainedLicenseResponse method [Media Foundation], GetChainedLicenseResponse method [Media Foundation], IMFDRMNetHelper interface, GetChainedLicenseResponse,IMFDRMNetHelper.GetChainedLicenseResponse, IMFDRMNetHelper, IMFDRMNetHelper interface [Media Foundation], GetChainedLicenseResponse method, IMFDRMNetHelper::GetChainedLicenseResponse, mf.imfdrmnethelper_getchainedlicenseresponse, wmcontainer/IMFDRMNetHelper::GetChainedLicenseResponse
+ms.date: 5/3/2018
+ms.keywords: GetChainedLicenseResponse, GetChainedLicenseResponse method [Media Foundation], GetChainedLicenseResponse method [Media Foundation],IMFDRMNetHelper interface, IMFDRMNetHelper interface [Media Foundation],GetChainedLicenseResponse method, IMFDRMNetHelper.GetChainedLicenseResponse, IMFDRMNetHelper::GetChainedLicenseResponse, mf.imfdrmnethelper_getchainedlicenseresponse, wmcontainer/IMFDRMNetHelper::GetChainedLicenseResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFDRMNetHelper::GetChainedLicenseResponse method
+# IMFDRMNetHelper::GetChainedLicenseResponse
 
 
 ## -description

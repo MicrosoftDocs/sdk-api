@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IDeviceController.RemoveDevice
-title: IDeviceController::RemoveDevice method
+title: IDeviceController::streaming
 author: windows-driver-content
 description: Removes the specified device from the list of devices that is returned by the CachedDevices method.
 old-location: mediastreaming\idevicecontroller_removedevice.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 07002D00-4E7B-4679-A521-A6F4B3148923
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDeviceController, IDeviceController interface [Media Streaming API], RemoveDevice method, IDeviceController::RemoveDevice, RemoveDevice method [Media Streaming API], RemoveDevice method [Media Streaming API], IDeviceController interface, RemoveDevice,IDeviceController.RemoveDevice, mediastreaming.idevicecontroller_removedevice, windows/IDeviceController::RemoveDevice
+ms.keywords: IDeviceController interface [Media Streaming API],RemoveDevice method, IDeviceController.RemoveDevice, IDeviceController.streaming, IDeviceController::RemoveDevice, IDeviceController::streaming, RemoveDevice, RemoveDevice method [Media Streaming API], RemoveDevice method [Media Streaming API],IDeviceController interface, mediastreaming.idevicecontroller_removedevice, windows/IDeviceController::RemoveDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IDeviceController::RemoveDevice method
+# IDeviceController::streaming
 
 
 ## -description

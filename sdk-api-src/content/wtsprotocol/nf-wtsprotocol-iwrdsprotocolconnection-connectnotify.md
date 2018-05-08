@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.ConnectNotify
-title: IWRdsProtocolConnection::ConnectNotify method
+title: IWRdsProtocolConnection::ConnectNotify
 author: windows-driver-content
 description: Signals the protocol that the session has been initialized.
 old-location: termserv\iwrdsprotocolconnection_connectnotify.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 057a093b-9b2d-4a2e-9593-fe0251427be0
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ConnectNotify method [Remote Desktop Services], ConnectNotify method [Remote Desktop Services], IWRdsProtocolConnection interface, ConnectNotify,IWRdsProtocolConnection.ConnectNotify, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], ConnectNotify method, IWRdsProtocolConnection::ConnectNotify, termserv.iwrdsprotocolconnection_connectnotify, wtsprotocol/IWRdsProtocolConnection::ConnectNotify
+ms.keywords: ConnectNotify, ConnectNotify method [Remote Desktop Services], ConnectNotify method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],ConnectNotify method, IWRdsProtocolConnection.ConnectNotify, IWRdsProtocolConnection::ConnectNotify, termserv.iwrdsprotocolconnection_connectnotify, wtsprotocol/IWRdsProtocolConnection::ConnectNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::ConnectNotify method
+# IWRdsProtocolConnection::ConnectNotify
 
 
 ## -description

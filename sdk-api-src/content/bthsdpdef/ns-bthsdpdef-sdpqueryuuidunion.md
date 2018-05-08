@@ -62,9 +62,29 @@ The <b>SdpQueryUuidUnion</b> union contains the UUID on which to perform an SDP 
 UUID in 128-bit format.
 
 
+### -field uuid128.case
+
+ 
+
+
+### -field uuid128.case.SDP_ST_UUID128
+
+ 
+
+
 ### -field uuid32
 
 UUID in 32-bit format.
+
+
+### -field uuid32.case
+
+ 
+
+
+### -field uuid32.case.SDP_ST_UUID32
+
+ 
 
 
 ### -field uuid16
@@ -72,7 +92,22 @@ UUID in 32-bit format.
 UUID in 16-bit format.
 
 
+### -field uuid16.case
+
+ 
+
+
+### -field uuid16.case.SDP_ST_UUID16
+
+ 
+
+
 ### -field switch_type
+
+ 
+
+
+### -field switch_type.unsigned short
 
  
 

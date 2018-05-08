@@ -7,7 +7,7 @@ old-location: winrt\rogetbuffermarshaler.htm
 old-project: WinRT
 ms.assetid: 7F40FDC9-C6CF-44C3-AC30-EA56AB72E635
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: RoGetBufferMarshaler, RoGetBufferMarshaler function [Windows Runtime], robuffer/RoGetBufferMarshaler, winrt.rogetbuffermarshaler
 ms.prod: windows-hardware
 ms.technology: windows-devices

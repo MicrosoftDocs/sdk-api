@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetUniqueIdentity
-title: IEnhancedStorageACT::GetUniqueIdentity method
+title: IEnhancedStorageACT::GetUniqueIdentity
 author: windows-driver-content
 description: Retrieves the unique identity of the Addressable Command Targer (ACT).
 old-location: enstor\ienhancedstorageact_getuniqueidentity.htm
@@ -8,7 +8,7 @@ old-project: enstor
 ms.assetid: 0f8d33af-a771-4cbd-9740-a72fbb7e9b42
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetUniqueIdentity method [Enhanced Storage], GetUniqueIdentity method [Enhanced Storage], IEnhancedStorageACT interface, GetUniqueIdentity,IEnhancedStorageACT.GetUniqueIdentity, IEnhancedStorageACT, IEnhancedStorageACT interface [Enhanced Storage], GetUniqueIdentity method, IEnhancedStorageACT::GetUniqueIdentity, ehstorapi/IEnhancedStorageACT::GetUniqueIdentity, enstor.ienhancedstorageact_getuniqueidentity
+ms.keywords: GetUniqueIdentity, GetUniqueIdentity method [Enhanced Storage], GetUniqueIdentity method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetUniqueIdentity method, IEnhancedStorageACT.GetUniqueIdentity, IEnhancedStorageACT::GetUniqueIdentity, ehstorapi/IEnhancedStorageACT::GetUniqueIdentity, enstor.ienhancedstorageact_getuniqueidentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEnhancedStorageACT::GetUniqueIdentity method
+# IEnhancedStorageACT::GetUniqueIdentity
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: wmp\wmpservices_streamstate.htm
 old-project: WMP
 ms.assetid: 82c4699a-197c-4429-afa8-b1fc47a1f47a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/4/2018
 ms.keywords: WMPServices_StreamState, WMPServices_StreamState enumeration [Windows Media Player], WMPServices_StreamStateDSP, WMPServices_StreamState_Pause, WMPServices_StreamState_Play, WMPServices_StreamState_Stop, wmp.wmpservices_streamstate, wmpservices/WMPServices_StreamState, wmpservices/WMPServices_StreamState_Pause, wmpservices/WMPServices_StreamState_Play, wmpservices/WMPServices_StreamState_Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: Wmp.dll
 req.irql: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---

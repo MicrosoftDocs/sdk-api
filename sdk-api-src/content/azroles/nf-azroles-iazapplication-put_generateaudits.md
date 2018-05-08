@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.put_GenerateAudits
-title: IAzApplication::put_GenerateAudits method
+title: IAzApplication::put_GenerateAudits
 author: windows-driver-content
 description: The GenerateAudits property of IAzApplication sets or retrieves a value that indicates whether run-time audits should be generated.
 old-location: security\iazapplication_generateaudits.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: c35f612e-4a2c-46b6-913a-26b0819394f4
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzApplication object [Security], GenerateAudits property, GenerateAudits property [Security], GenerateAudits property [Security], AzApplication object, GenerateAudits property [Security], IAzApplication interface, IAzApplication, IAzApplication interface [Security], GenerateAudits property, IAzApplication.GenerateAudits, IAzApplication::get_GenerateAudits, IAzApplication::put_GenerateAudits, azroles/IAzApplication::GenerateAudits, azroles/IAzApplication::get_GenerateAudits, azroles/IAzApplication::put_GenerateAudits, put_GenerateAudits,IAzApplication.put_GenerateAudits, security.iazapplication_generateaudits
+ms.keywords: AzApplication object [Security],GenerateAudits property, GenerateAudits property [Security], GenerateAudits property [Security],AzApplication object, GenerateAudits property [Security],IAzApplication interface, IAzApplication interface [Security],GenerateAudits property, IAzApplication.GenerateAudits, IAzApplication.put_GenerateAudits, IAzApplication::GenerateAudits, IAzApplication::get_GenerateAudits, IAzApplication::put_GenerateAudits, azroles/IAzApplication::GenerateAudits, azroles/IAzApplication::get_GenerateAudits, azroles/IAzApplication::put_GenerateAudits, put_GenerateAudits, security.iazapplication_generateaudits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication::put_GenerateAudits method
+# IAzApplication::put_GenerateAudits
 
 
 ## -description

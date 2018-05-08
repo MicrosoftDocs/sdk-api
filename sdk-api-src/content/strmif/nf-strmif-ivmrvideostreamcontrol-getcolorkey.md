@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRVideoStreamControl.GetColorKey
-title: IVMRVideoStreamControl::GetColorKey method
+title: IVMRVideoStreamControl::GetColorKey
 author: windows-driver-content
 description: The GetColorKey method retrieves the source color key currently set for this stream.
 old-location: dshow\ivmrvideostreamcontrol_getcolorkey.htm
 old-project: DirectShow
 ms.assetid: 2075ac12-c799-4716-994f-46ff6928e670
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetColorKey method [DirectShow], GetColorKey method [DirectShow], IVMRVideoStreamControl interface, GetColorKey,IVMRVideoStreamControl.GetColorKey, IVMRVideoStreamControl, IVMRVideoStreamControl interface [DirectShow], GetColorKey method, IVMRVideoStreamControl::GetColorKey, IVMRVideoStreamControlGetColorKey, dshow.ivmrvideostreamcontrol_getcolorkey, strmif/IVMRVideoStreamControl::GetColorKey
+ms.date: 4/30/2018
+ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IVMRVideoStreamControl interface, IVMRVideoStreamControl interface [DirectShow],GetColorKey method, IVMRVideoStreamControl.GetColorKey, IVMRVideoStreamControl::GetColorKey, IVMRVideoStreamControlGetColorKey, dshow.ivmrvideostreamcontrol_getcolorkey, strmif/IVMRVideoStreamControl::GetColorKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRVideoStreamControl::GetColorKey method
+# IVMRVideoStreamControl::GetColorKey
 
 
 ## -description

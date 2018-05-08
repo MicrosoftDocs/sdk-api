@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: a6f3d450-0ca1-4c22-9e48-addf317cac2a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: MibGet, MibGet callback function [RAS], PMIB_GET, _mpr_mibget, routprot/MibGet, rras.mibget
+ms.keywords: MibGet, MibGet callback function [RAS], PMIB_GET, PMIB_GET callback, _mpr_mibget, routprot/MibGet, rras.mibget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RO_ERROR_REPORTING_FLAGS
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PMIB_GET callback
+# PMIB_GET callback function
 
 
 ## -description

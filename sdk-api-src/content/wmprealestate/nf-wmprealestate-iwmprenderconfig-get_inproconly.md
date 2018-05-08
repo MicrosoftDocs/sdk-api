@@ -1,14 +1,14 @@
 ---
 UID: NF:wmprealestate.IWMPRenderConfig.get_inProcOnly
-title: IWMPRenderConfig::get_inProcOnly method
+title: IWMPRenderConfig::get_inProcOnly
 author: windows-driver-content
 description: The get_inProcOnly method retrieves a value indicating whether playback is restricted to the current process.
 old-location: wmp\iwmprenderconfig_get_inproconly.htm
 old-project: WMP
 ms.assetid: 71284af6-dc76-4a39-81f4-ed265140aad5
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPRenderConfig, IWMPRenderConfig interface [Windows Media Player], get_inProcOnly method, IWMPRenderConfig::get_inProcOnly, IWMPRenderConfiggetInProcOnly, get_inProcOnly method [Windows Media Player], get_inProcOnly method [Windows Media Player], IWMPRenderConfig interface, get_inProcOnly,IWMPRenderConfig.get_inProcOnly, wmp.iwmprenderconfig_get_inproconly, wmprealestate/IWMPRenderConfig::get_inProcOnly
+ms.date: 5/4/2018
+ms.keywords: IWMPRenderConfig interface [Windows Media Player],get_inProcOnly method, IWMPRenderConfig.get_inProcOnly, IWMPRenderConfig::get_inProcOnly, IWMPRenderConfiggetInProcOnly, get_inProcOnly, get_inProcOnly method [Windows Media Player], get_inProcOnly method [Windows Media Player],IWMPRenderConfig interface, wmp.iwmprenderconfig_get_inproconly, wmprealestate/IWMPRenderConfig::get_inProcOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPRenderConfig::get_inProcOnly method
+# IWMPRenderConfig::get_inProcOnly
 
 
 ## -description

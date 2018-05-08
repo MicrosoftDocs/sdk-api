@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleClientSite.OnShowWindow
-title: IOleClientSite::OnShowWindow method
+title: IOleClientSite::OnShowWindow
 author: windows-driver-content
 description: Notifies a container when an embedded object's window is about to become visible or invisible. This method does not apply to an object that is activated in place and therefore has no window separate from that of its container.
 old-location: com\ioleclientsite_onshowwindow.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 9185add8-02d1-4bf3-99ff-82f64ba12ef4
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleClientSite, IOleClientSite interface [COM], OnShowWindow method, IOleClientSite::OnShowWindow, OnShowWindow method [COM], OnShowWindow method [COM], IOleClientSite interface, OnShowWindow,IOleClientSite.OnShowWindow, _ole_ioleclientsite_onshowwindow, com.ioleclientsite_onshowwindow, oleidl/IOleClientSite::OnShowWindow
+ms.keywords: IOleClientSite interface [COM],OnShowWindow method, IOleClientSite.OnShowWindow, IOleClientSite::OnShowWindow, OnShowWindow, OnShowWindow method [COM], OnShowWindow method [COM],IOleClientSite interface, _ole_ioleclientsite_onshowwindow, com.ioleclientsite_onshowwindow, oleidl/IOleClientSite::OnShowWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleClientSite::OnShowWindow method
+# IOleClientSite::OnShowWindow
 
 
 ## -description

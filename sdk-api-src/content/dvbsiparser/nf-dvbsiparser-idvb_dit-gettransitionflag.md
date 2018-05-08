@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_DIT.GetTransitionFlag
-title: IDVB_DIT::GetTransitionFlag method
+title: IDVB_DIT::GetTransitionFlag
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_dit_gettransitionflag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3db3ee1e-7fff-442d-9e78-7862b19c339a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTransitionFlag method [Microsoft TV Technologies], GetTransitionFlag method [Microsoft TV Technologies], IDVB_DIT interface, GetTransitionFlag,IDVB_DIT.GetTransitionFlag, IDVB_DIT, IDVB_DIT interface [Microsoft TV Technologies], GetTransitionFlag method, IDVB_DIT::GetTransitionFlag, IDVB_DITGetTransitionFlag, dvbsiparser/IDVB_DIT::GetTransitionFlag, mstv.idvb_dit_gettransitionflag
+ms.keywords: GetTransitionFlag, GetTransitionFlag method [Microsoft TV Technologies], GetTransitionFlag method [Microsoft TV Technologies],IDVB_DIT interface, IDVB_DIT interface [Microsoft TV Technologies],GetTransitionFlag method, IDVB_DIT.GetTransitionFlag, IDVB_DIT::GetTransitionFlag, IDVB_DITGetTransitionFlag, dvbsiparser/IDVB_DIT::GetTransitionFlag, mstv.idvb_dit_gettransitionflag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_DIT::GetTransitionFlag method
+# IDVB_DIT::GetTransitionFlag
 
 
 ## -description

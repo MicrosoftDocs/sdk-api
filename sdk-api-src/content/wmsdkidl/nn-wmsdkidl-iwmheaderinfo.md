@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 649f9a73-c70a-4524-b577-366ade969f2f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], IWMHeaderInfo interface [windows Media Format], described, IWMHeaderInfoInterface, wmformat.iwmheaderinfo, wmsdkidl/IWMHeaderInfo
+ms.keywords: IWMHeaderInfo, IWMHeaderInfo interface [windows Media Format], IWMHeaderInfo interface [windows Media Format],described, IWMHeaderInfoInterface, wmformat.iwmheaderinfo, wmsdkidl/IWMHeaderInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

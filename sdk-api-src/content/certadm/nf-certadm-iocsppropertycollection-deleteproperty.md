@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.DeleteProperty
-title: IOCSPPropertyCollection::DeleteProperty method
+title: IOCSPPropertyCollection::DeleteProperty
 author: windows-driver-content
 description: Removes a named property from a property set.
 old-location: security\iocsppropertycollection_deleteproperty_method.htm
 old-project: SecCrypto
 ms.assetid: 0f9a3e47-3757-42a9-bef2-93b8f304f618
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: DeleteProperty method [Security], DeleteProperty method [Security], IOCSPPropertyCollection interface, DeleteProperty,IOCSPPropertyCollection.DeleteProperty, IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], DeleteProperty method, IOCSPPropertyCollection::DeleteProperty, certadm/IOCSPPropertyCollection::DeleteProperty, security.iocsppropertycollection_deleteproperty_method
+ms.date: 4/30/2018
+ms.keywords: DeleteProperty, DeleteProperty method [Security], DeleteProperty method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],DeleteProperty method, IOCSPPropertyCollection.DeleteProperty, IOCSPPropertyCollection::DeleteProperty, certadm/IOCSPPropertyCollection::DeleteProperty, security.iocsppropertycollection_deleteproperty_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPPropertyCollection::DeleteProperty method
+# IOCSPPropertyCollection::DeleteProperty
 
 
 ## -description

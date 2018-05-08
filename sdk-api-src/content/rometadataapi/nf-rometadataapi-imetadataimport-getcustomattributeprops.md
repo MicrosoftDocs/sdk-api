@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetCustomAttributeProps
-title: IMetaDataImport::GetCustomAttributeProps method
+title: IMetaDataImport::GetCustomAttributeProps
 author: windows-driver-content
 description: Gets the value of the custom attribute, given its metadata token.
 old-location: winrt\imetadataimport_getcustomattributeprops.htm
 old-project: WinRT
 ms.assetid: ccb8891c-ceef-4897-9ec4-b3008a7d5264
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetCustomAttributeProps method [Windows Runtime], GetCustomAttributeProps method [Windows Runtime], IMetaDataImport interface, GetCustomAttributeProps,IMetaDataImport.GetCustomAttributeProps, IMetaDataImport, IMetaDataImport interface [Windows Runtime], GetCustomAttributeProps method, IMetaDataImport::GetCustomAttributeProps, rometadataapi/IMetaDataImport::GetCustomAttributeProps, winrt.imetadataimport_getcustomattributeprops
+ms.date: 5/4/2018
+ms.keywords: GetCustomAttributeProps, GetCustomAttributeProps method [Windows Runtime], GetCustomAttributeProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetCustomAttributeProps method, IMetaDataImport.GetCustomAttributeProps, IMetaDataImport::GetCustomAttributeProps, rometadataapi/IMetaDataImport::GetCustomAttributeProps, winrt.imetadataimport_getcustomattributeprops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::GetCustomAttributeProps method
+# IMetaDataImport::GetCustomAttributeProps
 
 
 ## -description

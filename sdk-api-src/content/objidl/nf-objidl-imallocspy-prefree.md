@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PreFree
-title: IMallocSpy::PreFree method
+title: IMallocSpy::PreFree
 author: windows-driver-content
 description: Performs operations required before calling IMalloc::Free. This method ensures that the pointer passed to Free points to the beginning of the actual allocation.
 old-location: com\imallocspy_prefree.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 528eedac-e8cc-4dc7-8287-c023ebefb72c
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMallocSpy, IMallocSpy interface [COM], PreFree method, IMallocSpy::PreFree, PreFree method [COM], PreFree method [COM], IMallocSpy interface, PreFree,IMallocSpy.PreFree, _com_imallocspy_prefree, com.imallocspy_prefree, objidl/IMallocSpy::PreFree
+ms.keywords: IMallocSpy interface [COM],PreFree method, IMallocSpy.PreFree, IMallocSpy::PreFree, PreFree, PreFree method [COM], PreFree method [COM],IMallocSpy interface, _com_imallocspy_prefree, com.imallocspy_prefree, objidl/IMallocSpy::PreFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMallocSpy::PreFree method
+# IMallocSpy::PreFree
 
 
 ## -description

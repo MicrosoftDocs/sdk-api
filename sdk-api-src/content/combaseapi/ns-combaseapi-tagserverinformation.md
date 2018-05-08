@@ -7,7 +7,7 @@ old-location: winrt\serverinformation.htm
 old-project: WinRT
 ms.assetid: 568246B8-48F7-4A83-B7DE-24F36B2C3F49
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: "*PServerInformation, PServerInformation, PServerInformation structure pointer [Windows Runtime], ServerInformation, ServerInformation structure [Windows Runtime], combaseapi/PServerInformation, combaseapi/ServerInformation, tagServerInformation, winrt.serverinformation"
 ms.prod: windows-hardware
 ms.technology: windows-devices

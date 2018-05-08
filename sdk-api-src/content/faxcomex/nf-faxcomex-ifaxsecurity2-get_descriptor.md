@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSecurity2.get_Descriptor
-title: IFaxSecurity2::get_Descriptor method
+title: IFaxSecurity2::get_Descriptor
 author: windows-driver-content
 description: Represents the security descriptor for a IFaxServer2 object.
 old-location: fax\_mfax_faxsecurity2_descriptor_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxsecurity2\descriptor.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Descriptor property [Fax Service], Descriptor property [Fax Service], IFaxSecurity2 interface, IFaxSecurity2, IFaxSecurity2 interface [Fax Service], Descriptor property, IFaxSecurity2.Descriptor, IFaxSecurity2::get_Descriptor, IFaxSecurity2::put_Descriptor, _mfax_faxsecurity2.descriptor_cpp, fax._mfax_faxsecurity2_descriptor_cpp, faxcomex/IFaxSecurity2::Descriptor, faxcomex/IFaxSecurity2::get_Descriptor, faxcomex/IFaxSecurity2::put_Descriptor, get_Descriptor,IFaxSecurity2.get_Descriptor
+ms.keywords: Descriptor property [Fax Service], Descriptor property [Fax Service],IFaxSecurity2 interface, IFaxSecurity2 interface [Fax Service],Descriptor property, IFaxSecurity2.Descriptor, IFaxSecurity2.get_Descriptor, IFaxSecurity2::Descriptor, IFaxSecurity2::get_Descriptor, IFaxSecurity2::put_Descriptor, _mfax_faxsecurity2.descriptor_cpp, fax._mfax_faxsecurity2_descriptor_cpp, faxcomex/IFaxSecurity2::Descriptor, faxcomex/IFaxSecurity2::get_Descriptor, faxcomex/IFaxSecurity2::put_Descriptor, get_Descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxSecurity2::get_Descriptor method
+# IFaxSecurity2::get_Descriptor
 
 
 ## -description

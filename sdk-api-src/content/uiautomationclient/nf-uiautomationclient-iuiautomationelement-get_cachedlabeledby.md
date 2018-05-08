@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedLabeledBy
-title: IUIAutomationElement::get_CachedLabeledBy method
+title: IUIAutomationElement::get_CachedLabeledBy
 author: windows-driver-content
 description: Retrieves the cached element that contains the text label for this element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedLabeledBy.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: a0c76cf1-1c59-40b9-8bb7-9a2e68bef4a9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedLabeledBy property [Windows Accessibility], CachedLabeledBy property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedLabeledBy property, IUIAutomationElement.CachedLabeledBy, IUIAutomationElement::get_CachedLabeledBy, get_CachedLabeledBy,IUIAutomationElement.get_CachedLabeledBy, uiauto.uiauto_IUIAutomationElement_CachedLabeledBy, uiauto_IUIAutomationElement_CachedLabeledBy, uiautomationclient/IUIAutomationElement::CachedLabeledBy, uiautomationclient/IUIAutomationElement::get_CachedLabeledBy, winauto.uiauto_IUIAutomationElement_CachedLabeledBy
+ms.keywords: CachedLabeledBy property [Windows Accessibility], CachedLabeledBy property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedLabeledBy property, IUIAutomationElement.CachedLabeledBy, IUIAutomationElement.get_CachedLabeledBy, IUIAutomationElement::CachedLabeledBy, IUIAutomationElement::get_CachedLabeledBy, get_CachedLabeledBy, uiauto.uiauto_IUIAutomationElement_CachedLabeledBy, uiauto_IUIAutomationElement_CachedLabeledBy, uiautomationclient/IUIAutomationElement::CachedLabeledBy, uiautomationclient/IUIAutomationElement::get_CachedLabeledBy, winauto.uiauto_IUIAutomationElement_CachedLabeledBy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CachedLabeledBy method
+# IUIAutomationElement::get_CachedLabeledBy
 
 
 ## -description

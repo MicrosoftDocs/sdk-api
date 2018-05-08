@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateUnorderedAccessView
-title: ID3D12Device::CreateUnorderedAccessView method
+title: ID3D12Device::CreateUnorderedAccessView
 author: windows-driver-content
 description: Creates a view for unordered accessing.
 old-location: direct3d12\id3d12device_createunorderedaccessview.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: E834E469-2958-44A9-978F-F42D6BB6B1DC
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CreateUnorderedAccessView method, CreateUnorderedAccessView method, ID3D12Device interface, CreateUnorderedAccessView,ID3D12Device.CreateUnorderedAccessView, ID3D12Device, ID3D12Device interface, CreateUnorderedAccessView method, ID3D12Device::CreateUnorderedAccessView, d3d12/ID3D12Device::CreateUnorderedAccessView, direct3d12.id3d12device_createunorderedaccessview
+ms.keywords: CreateUnorderedAccessView, CreateUnorderedAccessView method, CreateUnorderedAccessView method,ID3D12Device interface, ID3D12Device interface,CreateUnorderedAccessView method, ID3D12Device.CreateUnorderedAccessView, ID3D12Device::CreateUnorderedAccessView, d3d12/ID3D12Device::CreateUnorderedAccessView, direct3d12.id3d12device_createunorderedaccessview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Device::CreateUnorderedAccessView method
+# ID3D12Device::CreateUnorderedAccessView
 
 
 ## -description

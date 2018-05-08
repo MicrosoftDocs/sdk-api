@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentHelper.AddEnrollmentServer
-title: IX509EnrollmentHelper::AddEnrollmentServer method
+title: IX509EnrollmentHelper::AddEnrollmentServer
 author: windows-driver-content
 description: Saves certificate enrollment server (CES) access credentials in the credential cache.
 old-location: security\ix509enrollmenthelper_addenrollmentserver.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: a354fc02-299d-472c-9821-1509e299ccb9
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: AddEnrollmentServer method [Security], AddEnrollmentServer method [Security], IX509EnrollmentHelper interface, AddEnrollmentServer,IX509EnrollmentHelper.AddEnrollmentServer, IX509EnrollmentHelper, IX509EnrollmentHelper interface [Security], AddEnrollmentServer method, IX509EnrollmentHelper::AddEnrollmentServer, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentHelper::AddEnrollmentServer, security.ix509enrollmenthelper_addenrollmentserver
+ms.keywords: AddEnrollmentServer, AddEnrollmentServer method [Security], AddEnrollmentServer method [Security],IX509EnrollmentHelper interface, IX509EnrollmentHelper interface [Security],AddEnrollmentServer method, IX509EnrollmentHelper.AddEnrollmentServer, IX509EnrollmentHelper::AddEnrollmentServer, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentHelper::AddEnrollmentServer, security.ix509enrollmenthelper_addenrollmentserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IX509EnrollmentHelper::AddEnrollmentServer method
+# IX509EnrollmentHelper::AddEnrollmentServer
 
 
 ## -description

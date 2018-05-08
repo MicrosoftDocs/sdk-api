@@ -1,14 +1,14 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_ExternalPort
-title: IStaticPortMapping::get_ExternalPort method
+title: IStaticPortMapping::get_ExternalPort
 author: windows-driver-content
 description: The get_ExternalPort method retrieves the external port on the NAT computer for this port mapping.
 old-location: ics\istaticportmapping_get_externalport.htm
 old-project: ICS
 ms.assetid: 2a63d036-37d5-4686-a19e-11fd5dab6f64
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], get_ExternalPort method, IStaticPortMapping::get_ExternalPort, _ics_istaticportmapping_get_externalport, get_ExternalPort method [ICS/ICF], get_ExternalPort method [ICS/ICF], IStaticPortMapping interface, get_ExternalPort,IStaticPortMapping.get_ExternalPort, ics.istaticportmapping_get_externalport, natupnp/IStaticPortMapping::get_ExternalPort
+ms.date: 5/1/2018
+ms.keywords: IStaticPortMapping interface [ICS/ICF],get_ExternalPort method, IStaticPortMapping.get_ExternalPort, IStaticPortMapping::get_ExternalPort, _ics_istaticportmapping_get_externalport, get_ExternalPort, get_ExternalPort method [ICS/ICF], get_ExternalPort method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_externalport, natupnp/IStaticPortMapping::get_ExternalPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStaticPortMapping::get_ExternalPort method
+# IStaticPortMapping::get_ExternalPort
 
 
 ## -description

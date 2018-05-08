@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IResourceConsumer.AcquireResource
-title: IResourceConsumer::AcquireResource method
+title: IResourceConsumer::AcquireResource
 author: windows-driver-content
 description: The AcquireResource method notifies the resource consumer that a resource might be acquired.
 old-location: dshow\iresourceconsumer_acquireresource.htm
 old-project: DirectShow
 ms.assetid: e88d90af-681e-483b-9b29-9844eec75e41
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AcquireResource method [DirectShow], AcquireResource method [DirectShow], IResourceConsumer interface, AcquireResource,IResourceConsumer.AcquireResource, IResourceConsumer, IResourceConsumer interface [DirectShow], AcquireResource method, IResourceConsumer::AcquireResource, IResourceConsumerAcquireResource, dshow.iresourceconsumer_acquireresource, strmif/IResourceConsumer::AcquireResource
+ms.date: 4/30/2018
+ms.keywords: AcquireResource, AcquireResource method [DirectShow], AcquireResource method [DirectShow],IResourceConsumer interface, IResourceConsumer interface [DirectShow],AcquireResource method, IResourceConsumer.AcquireResource, IResourceConsumer::AcquireResource, IResourceConsumerAcquireResource, dshow.iresourceconsumer_acquireresource, strmif/IResourceConsumer::AcquireResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IResourceConsumer::AcquireResource method
+# IResourceConsumer::AcquireResource
 
 
 ## -description

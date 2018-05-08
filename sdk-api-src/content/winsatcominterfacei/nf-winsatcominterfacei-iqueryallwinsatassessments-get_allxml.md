@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IQueryAllWinSATAssessments.get_AllXML
-title: IQueryAllWinSATAssessments::get_AllXML method
+title: IQueryAllWinSATAssessments::get_AllXML
 author: windows-driver-content
 description: Retrieves data from the formal XML assessment documents using the specified XPath. The query is run against all formal assessments in the WinSAT data store.
 old-location: winsat\iqueryallwinsatassessments_allxml.htm
@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: a43aee18-642f-44d9-a116-ffc762cec80a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AllXML property [WinSAT], AllXML property [WinSAT], IQueryAllWinSATAssessments interface, IQueryAllWinSATAssessments, IQueryAllWinSATAssessments interface [WinSAT], AllXML property, IQueryAllWinSATAssessments.AllXML, IQueryAllWinSATAssessments::get_AllXML, get_AllXML,IQueryAllWinSATAssessments.get_AllXML, winsat.iqueryallwinsatassessments_allxml, winsatcominterfacei/IQueryAllWinSATAssessments::AllXML, winsatcominterfacei/IQueryAllWinSATAssessments::get_AllXML
+ms.keywords: AllXML property [WinSAT], AllXML property [WinSAT],IQueryAllWinSATAssessments interface, IQueryAllWinSATAssessments interface [WinSAT],AllXML property, IQueryAllWinSATAssessments.AllXML, IQueryAllWinSATAssessments.get_AllXML, IQueryAllWinSATAssessments::AllXML, IQueryAllWinSATAssessments::get_AllXML, get_AllXML, winsat.iqueryallwinsatassessments_allxml, winsatcominterfacei/IQueryAllWinSATAssessments::AllXML, winsatcominterfacei/IQueryAllWinSATAssessments::get_AllXML
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IQueryAllWinSATAssessments::get_AllXML method
+# IQueryAllWinSATAssessments::get_AllXML
 
 
 ## -description

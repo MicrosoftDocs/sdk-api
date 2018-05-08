@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.GetColors
-title: IWICPalette::GetColors method
+title: IWICPalette::GetColors
 author: windows-driver-content
 description: Fills out the supplied color array with the colors from the internal color table. The color array should be sized according to the return results from GetColorCount.
 old-location: wic\_wic_codec_iwicpalette_getcolors.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: efec97fd-251c-4e52-b92e-4e624cdb9881
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetColors method [Windows Imaging Component], GetColors method [Windows Imaging Component], IWICPalette interface, GetColors,IWICPalette.GetColors, IWICPalette, IWICPalette interface [Windows Imaging Component], GetColors method, IWICPalette::GetColors, _wic_codec_iwicpalette_getcolors, wic._wic_codec_iwicpalette_getcolors, wincodec/IWICPalette::GetColors
+ms.keywords: GetColors, GetColors method [Windows Imaging Component], GetColors method [Windows Imaging Component],IWICPalette interface, IWICPalette interface [Windows Imaging Component],GetColors method, IWICPalette.GetColors, IWICPalette::GetColors, _wic_codec_iwicpalette_getcolors, wic._wic_codec_iwicpalette_getcolors, wincodec/IWICPalette::GetColors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICPalette::GetColors method
+# IWICPalette::GetColors
 
 
 ## -description

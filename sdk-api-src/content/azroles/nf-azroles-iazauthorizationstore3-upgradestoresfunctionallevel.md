@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore3.UpgradeStoresFunctionalLevel
-title: IAzAuthorizationStore3::UpgradeStoresFunctionalLevel method
+title: IAzAuthorizationStore3::UpgradeStoresFunctionalLevel
 author: windows-driver-content
 description: Upgrades this authorization store from version 1 to version 2.
 old-location: security\iazauthorizationstore3_upgradestoresfunctionallevel_method.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 7719e3fd-5b06-468c-9034-f1f0bb41a5be
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzAuthorizationStore3, IAzAuthorizationStore3 interface [Security], UpgradeStoresFunctionalLevel method, IAzAuthorizationStore3::UpgradeStoresFunctionalLevel, UpgradeStoresFunctionalLevel method [Security], UpgradeStoresFunctionalLevel method [Security], IAzAuthorizationStore3 interface, UpgradeStoresFunctionalLevel,IAzAuthorizationStore3.UpgradeStoresFunctionalLevel, azroles/IAzAuthorizationStore3::UpgradeStoresFunctionalLevel, security.iazauthorizationstore3_upgradestoresfunctionallevel_method
+ms.keywords: IAzAuthorizationStore3 interface [Security],UpgradeStoresFunctionalLevel method, IAzAuthorizationStore3.UpgradeStoresFunctionalLevel, IAzAuthorizationStore3::UpgradeStoresFunctionalLevel, UpgradeStoresFunctionalLevel, UpgradeStoresFunctionalLevel method [Security], UpgradeStoresFunctionalLevel method [Security],IAzAuthorizationStore3 interface, azroles/IAzAuthorizationStore3::UpgradeStoresFunctionalLevel, security.iazauthorizationstore3_upgradestoresfunctionallevel_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAzAuthorizationStore3::UpgradeStoresFunctionalLevel method
+# IAzAuthorizationStore3::UpgradeStoresFunctionalLevel
 
 
 ## -description

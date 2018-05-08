@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.GetBuffer
-title: IDirectXVideoDecoder::GetBuffer method
+title: IDirectXVideoDecoder::GetBuffer
 author: windows-driver-content
 description: Retrieves a pointer to a DirectX Video Acceleration (DXVA) decoder buffer.
 old-location: mf\idirectxvideodecoder_getbuffer.htm
 old-project: medfound
 ms.assetid: db2d4818-8a96-461e-88c4-f25d3200d815
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: DXVA2_BitStreamDateBufferType, DXVA2_DeblockingControlBufferType, DXVA2_FilmGrainBuffer, DXVA2_InverseQuantizationMatrixBufferType, DXVA2_MacroBlockControlBufferType, DXVA2_MotionVectorBuffer, DXVA2_PictureParametersBufferType, DXVA2_ResidualDifferenceBufferType, DXVA2_SliceControlBufferType, GetBuffer method [Media Foundation], GetBuffer method [Media Foundation], IDirectXVideoDecoder interface, GetBuffer,IDirectXVideoDecoder.GetBuffer, IDirectXVideoDecoder, IDirectXVideoDecoder interface [Media Foundation], GetBuffer method, IDirectXVideoDecoder::GetBuffer, db2d4818-8a96-461e-88c4-f25d3200d815, dxva2api/IDirectXVideoDecoder::GetBuffer, mf.idirectxvideodecoder_getbuffer
+ms.date: 5/3/2018
+ms.keywords: DXVA2_BitStreamDateBufferType, DXVA2_DeblockingControlBufferType, DXVA2_FilmGrainBuffer, DXVA2_InverseQuantizationMatrixBufferType, DXVA2_MacroBlockControlBufferType, DXVA2_MotionVectorBuffer, DXVA2_PictureParametersBufferType, DXVA2_ResidualDifferenceBufferType, DXVA2_SliceControlBufferType, GetBuffer, GetBuffer method [Media Foundation], GetBuffer method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],GetBuffer method, IDirectXVideoDecoder.GetBuffer, IDirectXVideoDecoder::GetBuffer, db2d4818-8a96-461e-88c4-f25d3200d815, dxva2api/IDirectXVideoDecoder::GetBuffer, mf.idirectxvideodecoder_getbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirectXVideoDecoder::GetBuffer method
+# IDirectXVideoDecoder::GetBuffer
 
 
 ## -description

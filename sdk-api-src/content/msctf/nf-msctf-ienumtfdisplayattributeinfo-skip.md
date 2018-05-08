@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfDisplayAttributeInfo.Skip
-title: IEnumTfDisplayAttributeInfo::Skip method
+title: IEnumTfDisplayAttributeInfo::Skip
 author: windows-driver-content
 description: IEnumTfDisplayAttributeInfo::Skip method
 old-location: tsf\ienumtfdisplayattributeinfo_skip.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5c4c9ca9-a813-406f-a507-16ccb0ff2a2a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfDisplayAttributeInfo, IEnumTfDisplayAttributeInfo interface [Text Services Framework], Skip method, IEnumTfDisplayAttributeInfo::Skip, Skip method [Text Services Framework], Skip method [Text Services Framework], IEnumTfDisplayAttributeInfo interface, Skip,IEnumTfDisplayAttributeInfo.Skip, _tsf_ienumtfdisplayattributeinfo_skip_ref, msctf/IEnumTfDisplayAttributeInfo::Skip, tsf.ienumtfdisplayattributeinfo_skip
+ms.keywords: IEnumTfDisplayAttributeInfo interface [Text Services Framework],Skip method, IEnumTfDisplayAttributeInfo.Skip, IEnumTfDisplayAttributeInfo::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfDisplayAttributeInfo interface, _tsf_ienumtfdisplayattributeinfo_skip_ref, msctf/IEnumTfDisplayAttributeInfo::Skip, tsf.ienumtfdisplayattributeinfo_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfDisplayAttributeInfo::Skip method
+# IEnumTfDisplayAttributeInfo::Skip
 
 
 ## -description

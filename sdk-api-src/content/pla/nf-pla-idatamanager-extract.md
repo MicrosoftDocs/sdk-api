@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.Extract
-title: IDataManager::Extract method
+title: IDataManager::Extract
 author: windows-driver-content
 description: Extracts the specified CAB file.
 old-location: pla\idatamanager_extract.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 73f5ca4c-6e7d-491e-a977-d41b7b69ff8c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Extract method [PLA], Extract method [PLA], IDataManager interface, Extract,IDataManager.Extract, IDataManager, IDataManager interface [PLA], Extract method, IDataManager::Extract, pla.idatamanager_extract, pla/IDataManager::Extract
+ms.keywords: Extract, Extract method [PLA], Extract method [PLA],IDataManager interface, IDataManager interface [PLA],Extract method, IDataManager.Extract, IDataManager::Extract, pla.idatamanager_extract, pla/IDataManager::Extract
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataManager::Extract method
+# IDataManager::Extract
 
 
 ## -description

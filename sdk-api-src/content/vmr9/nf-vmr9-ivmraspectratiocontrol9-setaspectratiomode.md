@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRAspectRatioControl9.SetAspectRatioMode
-title: IVMRAspectRatioControl9::SetAspectRatioMode method
+title: IVMRAspectRatioControl9::SetAspectRatioMode
 author: windows-driver-content
 description: The SetAspectRatioMode method specifies whether the VMR preserves the aspect ratio of the source video.
 old-location: dshow\ivmraspectratiocontrol9_setaspectratiomode.htm
 old-project: DirectShow
 ms.assetid: adc34013-a349-4cf6-b5c2-58b7b212d630
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRAspectRatioControl9, IVMRAspectRatioControl9 interface [DirectShow], SetAspectRatioMode method, IVMRAspectRatioControl9::SetAspectRatioMode, IVMRAspectRatioControl9SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow], IVMRAspectRatioControl9 interface, SetAspectRatioMode,IVMRAspectRatioControl9.SetAspectRatioMode, dshow.ivmraspectratiocontrol9_setaspectratiomode, vmr9/IVMRAspectRatioControl9::SetAspectRatioMode
+ms.date: 4/30/2018
+ms.keywords: IVMRAspectRatioControl9 interface [DirectShow],SetAspectRatioMode method, IVMRAspectRatioControl9.SetAspectRatioMode, IVMRAspectRatioControl9::SetAspectRatioMode, IVMRAspectRatioControl9SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IVMRAspectRatioControl9 interface, dshow.ivmraspectratiocontrol9_setaspectratiomode, vmr9/IVMRAspectRatioControl9::SetAspectRatioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRAspectRatioControl9::SetAspectRatioMode method
+# IVMRAspectRatioControl9::SetAspectRatioMode
 
 
 ## -description

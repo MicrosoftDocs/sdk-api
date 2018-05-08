@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetContextProperties.GetProperty
-title: IGetContextProperties::GetProperty method
+title: IGetContextProperties::GetProperty
 author: windows-driver-content
 description: Retrieves the value of the specified context property.
 old-location: cos\igetcontextproperties_getproperty.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 920938a9-44b1-4473-8204-1129b9599a72
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetProperty method [COM+], GetProperty method [COM+], IGetContextProperties interface, GetProperty,IGetContextProperties.GetProperty, IGetContextProperties, IGetContextProperties interface [COM+], GetProperty method, IGetContextProperties::GetProperty, _cos_IGetContextProperties_GetProperty, comsvcs/IGetContextProperties::GetProperty, cos.igetcontextproperties_getproperty
+ms.keywords: GetProperty, GetProperty method [COM+], GetProperty method [COM+],IGetContextProperties interface, IGetContextProperties interface [COM+],GetProperty method, IGetContextProperties.GetProperty, IGetContextProperties::GetProperty, _cos_IGetContextProperties_GetProperty, comsvcs/IGetContextProperties::GetProperty, cos.igetcontextproperties_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGetContextProperties::GetProperty method
+# IGetContextProperties::GetProperty
 
 
 ## -description

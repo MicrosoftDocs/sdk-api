@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.Advise
-title: IOleAdviseHolder::Advise method
+title: IOleAdviseHolder::Advise
 author: windows-driver-content
 description: Establishes an advisory connection between an OLE object and the calling object's advise sink. Through that sink, the calling object can receive notification when the OLE object is renamed, saved, or closed.
 old-location: com\ioleadviseholder_advise.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 60bbb555-7d01-49cb-b7b3-9dc905066f94
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Advise method [COM], Advise method [COM], IOleAdviseHolder interface, Advise,IOleAdviseHolder.Advise, IOleAdviseHolder, IOleAdviseHolder interface [COM], Advise method, IOleAdviseHolder::Advise, _ole_ioleadviseholder_advise, com.ioleadviseholder_advise, oleidl/IOleAdviseHolder::Advise
+ms.keywords: Advise, Advise method [COM], Advise method [COM],IOleAdviseHolder interface, IOleAdviseHolder interface [COM],Advise method, IOleAdviseHolder.Advise, IOleAdviseHolder::Advise, _ole_ioleadviseholder_advise, com.ioleadviseholder_advise, oleidl/IOleAdviseHolder::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleAdviseHolder::Advise method
+# IOleAdviseHolder::Advise
 
 
 ## -description

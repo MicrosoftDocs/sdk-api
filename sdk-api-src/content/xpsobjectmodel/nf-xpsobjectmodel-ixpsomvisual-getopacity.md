@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetOpacity
-title: IXpsOMVisual::GetOpacity method
+title: IXpsOMVisual::GetOpacity
 author: windows-driver-content
 description: Gets the opacity value of this visual.
 old-location: xps\ixpsomvisual_getopacity.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c513ea28-937a-4594-9a50-0c7999f435ce
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetOpacity method [XPS Documents and Packaging], GetOpacity method [XPS Documents and Packaging], IXpsOMVisual interface, GetOpacity,IXpsOMVisual.GetOpacity, IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], GetOpacity method, IXpsOMVisual::GetOpacity, xps.ixpsomvisual_getopacity, xpsobjectmodel/IXpsOMVisual::GetOpacity
+ms.keywords: GetOpacity, GetOpacity method [XPS Documents and Packaging], GetOpacity method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacity method, IXpsOMVisual.GetOpacity, IXpsOMVisual::GetOpacity, xps.ixpsomvisual_getopacity, xpsobjectmodel/IXpsOMVisual::GetOpacity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::GetOpacity method
+# IXpsOMVisual::GetOpacity
 
 
 ## -description

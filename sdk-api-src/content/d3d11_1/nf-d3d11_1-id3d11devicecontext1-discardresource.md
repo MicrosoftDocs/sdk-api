@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.DiscardResource
-title: ID3D11DeviceContext1::DiscardResource method
+title: ID3D11DeviceContext1::DiscardResource
 author: windows-driver-content
 description: Discards a resource from the device context.
 old-location: direct3d11\id3d11devicecontext1_discardresource.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 6C27231E-BF61-4D50-B5B1-59961B82534B
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: DiscardResource method [Direct3D 11], DiscardResource method [Direct3D 11], ID3D11DeviceContext1 interface, DiscardResource,ID3D11DeviceContext1.DiscardResource, ID3D11DeviceContext1, ID3D11DeviceContext1 interface [Direct3D 11], DiscardResource method, ID3D11DeviceContext1::DiscardResource, d3d11_1/ID3D11DeviceContext1::DiscardResource, direct3d11.id3d11devicecontext1_discardresource
+ms.keywords: DiscardResource, DiscardResource method [Direct3D 11], DiscardResource method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],DiscardResource method, ID3D11DeviceContext1.DiscardResource, ID3D11DeviceContext1::DiscardResource, d3d11_1/ID3D11DeviceContext1::DiscardResource, direct3d11.id3d11devicecontext1_discardresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext1::DiscardResource method
+# ID3D11DeviceContext1::DiscardResource
 
 
 ## -description

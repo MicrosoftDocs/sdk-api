@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.GetMode
-title: IWMWriterFileSink3::GetMode method
+title: IWMWriterFileSink3::GetMode
 author: windows-driver-content
 description: The GetMode method retrieves the supported file sink mode. More than one mode can be supported.
 old-location: wmformat\iwmwriterfilesink3_getmode.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a8a7003e-e59f-451c-9f45-75d6d094a03b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetMode method [windows Media Format], GetMode method [windows Media Format], IWMWriterFileSink3 interface, GetMode,IWMWriterFileSink3.GetMode, IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], GetMode method, IWMWriterFileSink3::GetMode, IWMWriterFileSink3GetMode, wmformat.iwmwriterfilesink3_getmode, wmsdkidl/IWMWriterFileSink3::GetMode
+ms.keywords: GetMode, GetMode method [windows Media Format], GetMode method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],GetMode method, IWMWriterFileSink3.GetMode, IWMWriterFileSink3::GetMode, IWMWriterFileSink3GetMode, wmformat.iwmwriterfilesink3_getmode, wmsdkidl/IWMWriterFileSink3::GetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterFileSink3::GetMode method
+# IWMWriterFileSink3::GetMode
 
 
 ## -description

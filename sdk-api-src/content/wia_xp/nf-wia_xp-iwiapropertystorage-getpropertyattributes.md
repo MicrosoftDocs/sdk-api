@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaPropertyStorage.GetPropertyAttributes
-title: IWiaPropertyStorage::GetPropertyAttributes method
+title: IWiaPropertyStorage::GetPropertyAttributes
 author: windows-driver-content
 description: The IWiaPropertyStorage::GetPropertyAttributes method retrieves access rights and legal value information for a specified set of properties.
 old-location: wia\_wia_IWiaPropertyStorage_GetPropertyAttributes.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getpropertyattributes.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: GetPropertyAttributes method [WIA], GetPropertyAttributes method [WIA], IWiaPropertyStorage interface, GetPropertyAttributes,IWiaPropertyStorage.GetPropertyAttributes, IWiaPropertyStorage, IWiaPropertyStorage interface [WIA], GetPropertyAttributes method, IWiaPropertyStorage::GetPropertyAttributes, _wia_IWiaPropertyStorage_GetPropertyAttributes, wia._wia_IWiaPropertyStorage_GetPropertyAttributes, wia_xp/IWiaPropertyStorage::GetPropertyAttributes
+ms.date: 5/3/2018
+ms.keywords: GetPropertyAttributes, GetPropertyAttributes method [WIA], GetPropertyAttributes method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetPropertyAttributes method, IWiaPropertyStorage.GetPropertyAttributes, IWiaPropertyStorage::GetPropertyAttributes, _wia_IWiaPropertyStorage_GetPropertyAttributes, wia._wia_IWiaPropertyStorage_GetPropertyAttributes, wia_xp/IWiaPropertyStorage::GetPropertyAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaPropertyStorage::GetPropertyAttributes method
+# IWiaPropertyStorage::GetPropertyAttributes
 
 
 ## -description

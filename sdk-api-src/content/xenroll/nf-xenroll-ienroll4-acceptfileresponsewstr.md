@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll4.acceptFileResponseWStr
-title: IEnroll4::acceptFileResponseWStr method
+title: IEnroll4::acceptFileResponseWStr
 author: windows-driver-content
 description: Accepts delivery of the credentials issued in response to an earlier call to createFileRequestWStr, and it places the credentials in the appropriate store.
 old-location: security\ienroll4_acceptfileresponsewstr.htm
 old-project: SecCrypto
 ms.assetid: b9c92f20-5f23-4dda-9e80-df9bf400ac08
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll4, IEnroll4 interface [Security], acceptFileResponseWStr method, IEnroll4::acceptFileResponseWStr, acceptFileResponseWStr method [Security], acceptFileResponseWStr method [Security], IEnroll4 interface, acceptFileResponseWStr,IEnroll4.acceptFileResponseWStr, security.ienroll4_acceptfileresponsewstr, xenroll/IEnroll4::acceptFileResponseWStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll4 interface [Security],acceptFileResponseWStr method, IEnroll4.acceptFileResponseWStr, IEnroll4::acceptFileResponseWStr, acceptFileResponseWStr, acceptFileResponseWStr method [Security], acceptFileResponseWStr method [Security],IEnroll4 interface, security.ienroll4_acceptfileresponsewstr, xenroll/IEnroll4::acceptFileResponseWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll4::acceptFileResponseWStr method
+# IEnroll4::acceptFileResponseWStr
 
 
 ## -description

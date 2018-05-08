@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IToc.AddEntryListByIndex
-title: IToc::AddEntryListByIndex method
+title: IToc::AddEntryListByIndex
 author: windows-driver-content
 description: The AddEntryListByIndex method adds an entry list to the table of contents and associates a caller-supplied index with the entry list.
 old-location: mf\itoc_addentrylistbyindex.htm
 old-project: medfound
 ms.assetid: 273e1c38-7f1a-4f04-b1a8-ba27b5babf94
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddEntryListByIndex method [Media Foundation], AddEntryListByIndex method [Media Foundation], IToc interface, AddEntryListByIndex,IToc.AddEntryListByIndex, IToc, IToc interface [Media Foundation], AddEntryListByIndex method, IToc::AddEntryListByIndex, codecapi.itoc_addentrylistbyindex, mf.itoc_addentrylistbyindex, wmcodecdsp/IToc::AddEntryListByIndex
+ms.date: 5/3/2018
+ms.keywords: AddEntryListByIndex, AddEntryListByIndex method [Media Foundation], AddEntryListByIndex method [Media Foundation],IToc interface, IToc interface [Media Foundation],AddEntryListByIndex method, IToc.AddEntryListByIndex, IToc::AddEntryListByIndex, codecapi.itoc_addentrylistbyindex, mf.itoc_addentrylistbyindex, wmcodecdsp/IToc::AddEntryListByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IToc::AddEntryListByIndex method
+# IToc::AddEntryListByIndex
 
 
 ## -description

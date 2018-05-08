@@ -1,22 +1,22 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.DisableDebugging
-title: IPackageDebugSettings::DisableDebugging method
+title: IPackageDebugSettings::DisableDebugging
 author: windows-driver-content
 description: Disables debug mode for the processes of the specified package.
-old-location: winrt\ipackagedebugsettings_disabledebugging.htm
-old-project: WinRT
-ms.assetid: ad7efefb-aacd-48fa-bfe6-26271bd03b86
+old-location: shell\IPackageDebugSettings_DisableDebugging.htm
+old-project: shell
+ms.assetid: 102e57be-296e-44ec-8211-f2c2d5eae1e6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: DisableDebugging method [Windows Runtime], DisableDebugging method [Windows Runtime], IPackageDebugSettings interface, DisableDebugging,IPackageDebugSettings.DisableDebugging, IPackageDebugSettings, IPackageDebugSettings interface [Windows Runtime], DisableDebugging method, IPackageDebugSettings::DisableDebugging, shobjidl_core/IPackageDebugSettings::DisableDebugging, winrt.ipackagedebugsettings_disabledebugging
+ms.date: 5/3/2018
+ms.keywords: DisableDebugging, DisableDebugging method [Windows Shell], DisableDebugging method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],DisableDebugging method, IPackageDebugSettings.DisableDebugging, IPackageDebugSettings::DisableDebugging, shell.IPackageDebugSettings_DisableDebugging, shobjidl_core/IPackageDebugSettings::DisableDebugging
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 8
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,7 +33,7 @@ topic_type:
 api_type:
 -	COM
 api_location:
--	shobjidl_core.h
+-	Shobjidl_core.h
 api_name:
 -	IPackageDebugSettings.DisableDebugging
 product: Windows
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IPackageDebugSettings::DisableDebugging method
+# IPackageDebugSettings::DisableDebugging
 
 
 ## -description
@@ -60,16 +60,12 @@ Disables debug mode for the processes of the specified package.
 
 ### -param packageFullName [in]
 
-Type: <b>LPCWSTR</b>
-
 The package full name.
 
 
 ## -returns
 
 
-
-Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -90,7 +86,11 @@ This method has no effect if the <a href="https://msdn.microsoft.com/6219e8d7-06
 
 
 
-<a href="https://msdn.microsoft.com/cae72152-c9d2-4791-b3f8-1187fb2a4d6c">IPackageDebugSettings</a>
+<a href="https://msdn.microsoft.com/a3afae41-b46e-47c8-95bb-a0aa747c6353">EnableDebugging</a>
+
+
+
+<a href="https://msdn.microsoft.com/e407c4ca-0de1-4b17-bb83-5c4128952d48">IPackageDebugSettings</a>
  
 
  

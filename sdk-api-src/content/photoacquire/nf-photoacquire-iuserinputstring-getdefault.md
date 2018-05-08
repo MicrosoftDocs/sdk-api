@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetDefault
-title: IUserInputString::GetDefault method
+title: IUserInputString::GetDefault
 author: windows-driver-content
 description: The GetDefault method retrieves the default string used to initialize an edit control (or equivalent).
 old-location: picacq\iuserinputstring_getdefault.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: d9e967f9-47ed-4b55-a728-fe6432b44efd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetDefault method [Picture Acquisition], GetDefault method [Picture Acquisition], IUserInputString interface, GetDefault,IUserInputString.GetDefault, IUserInputString, IUserInputString interface [Picture Acquisition], GetDefault method, IUserInputString::GetDefault, IUserInputStringGetDefault, photoacquire/IUserInputString::GetDefault, picacq.iuserinputstring_getdefault
+ms.keywords: GetDefault, GetDefault method [Picture Acquisition], GetDefault method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetDefault method, IUserInputString.GetDefault, IUserInputString::GetDefault, IUserInputStringGetDefault, photoacquire/IUserInputString::GetDefault, picacq.iuserinputstring_getdefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUserInputString::GetDefault method
+# IUserInputString::GetDefault
 
 
 ## -description

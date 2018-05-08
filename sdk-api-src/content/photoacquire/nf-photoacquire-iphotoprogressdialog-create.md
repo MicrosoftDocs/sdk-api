@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.Create
-title: IPhotoProgressDialog::Create method
+title: IPhotoProgressDialog::Create
 author: windows-driver-content
 description: The Create method creates and displays a progress dialog box that can be shown during image enumeration and acquisition.
 old-location: picacq\iphotoprogressdialog_create.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: e68ac203-f97b-4459-b344-c845f0ac0f1b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Create method [Picture Acquisition], Create method [Picture Acquisition], IPhotoProgressDialog interface, Create,IPhotoProgressDialog.Create, IPhotoProgressDialog, IPhotoProgressDialog interface [Picture Acquisition], Create method, IPhotoProgressDialog::Create, IPhotoProgressDialogCreate, photoacquire/IPhotoProgressDialog::Create, picacq.iphotoprogressdialog_create
+ms.keywords: Create, Create method [Picture Acquisition], Create method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],Create method, IPhotoProgressDialog.Create, IPhotoProgressDialog::Create, IPhotoProgressDialogCreate, photoacquire/IPhotoProgressDialog::Create, picacq.iphotoprogressdialog_create
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoProgressDialog::Create method
+# IPhotoProgressDialog::Create
 
 
 ## -description

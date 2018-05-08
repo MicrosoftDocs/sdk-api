@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateColorProfileResource
-title: IXpsOMObjectFactory::CreateColorProfileResource method
+title: IXpsOMObjectFactory::CreateColorProfileResource
 author: windows-driver-content
 description: Creates an IXpsOMColorProfileResource interface, which is used to access a color profile resource stream.
 old-location: xps\ixpsomobjectfactory_createcolorprofileresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: cb4d1b49-fda6-46c3-a72a-21affdb7e82e
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateColorProfileResource method [XPS Documents and Packaging], CreateColorProfileResource method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateColorProfileResource,IXpsOMObjectFactory.CreateColorProfileResource, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateColorProfileResource method, IXpsOMObjectFactory::CreateColorProfileResource, xps.ixpsomobjectfactory_createcolorprofileresource, xpsobjectmodel/IXpsOMObjectFactory::CreateColorProfileResource
+ms.keywords: CreateColorProfileResource, CreateColorProfileResource method [XPS Documents and Packaging], CreateColorProfileResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateColorProfileResource method, IXpsOMObjectFactory.CreateColorProfileResource, IXpsOMObjectFactory::CreateColorProfileResource, xps.ixpsomobjectfactory_createcolorprofileresource, xpsobjectmodel/IXpsOMObjectFactory::CreateColorProfileResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateColorProfileResource method
+# IXpsOMObjectFactory::CreateColorProfileResource
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificate.get_SignatureInformation
-title: ISignerCertificate::get_SignatureInformation method
+title: ISignerCertificate::get_SignatureInformation
 author: windows-driver-content
 description: Retrieves an IX509SignatureInformation object that contains information about the certificate signature.
 old-location: security\isignercertificate_signatureinformation_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: e870e17f-42e4-4548-b876-f5e0556bff0e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ISignerCertificate, ISignerCertificate interface [Security], SignatureInformation property, ISignerCertificate.SignatureInformation, ISignerCertificate::get_SignatureInformation, SignatureInformation property [Security], SignatureInformation property [Security], ISignerCertificate interface, certenroll/ISignerCertificate::SignatureInformation, certenroll/ISignerCertificate::get_SignatureInformation, get_SignatureInformation,ISignerCertificate.get_SignatureInformation, security.isignercertificate_signatureinformation_property
+ms.keywords: ISignerCertificate interface [Security],SignatureInformation property, ISignerCertificate.SignatureInformation, ISignerCertificate.get_SignatureInformation, ISignerCertificate::SignatureInformation, ISignerCertificate::get_SignatureInformation, SignatureInformation property [Security], SignatureInformation property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::SignatureInformation, certenroll/ISignerCertificate::get_SignatureInformation, get_SignatureInformation, security.isignercertificate_signatureinformation_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ISignerCertificate::get_SignatureInformation method
+# ISignerCertificate::get_SignatureInformation
 
 
 ## -description

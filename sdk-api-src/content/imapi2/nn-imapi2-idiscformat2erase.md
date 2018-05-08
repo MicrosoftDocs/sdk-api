@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 3789c876-f42c-4f69-b683-96c157d6418d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Erase, IDiscFormat2Erase interface [IMAPI], IDiscFormat2Erase interface [IMAPI], described, imapi.idiscformat2erase, imapi2/IDiscFormat2Erase
+ms.keywords: IDiscFormat2Erase, IDiscFormat2Erase interface [IMAPI], IDiscFormat2Erase interface [IMAPI],described, imapi.idiscformat2erase, imapi2/IDiscFormat2Erase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

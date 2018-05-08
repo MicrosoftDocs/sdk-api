@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 630646df-dd47-4dbf-9787-f9d697ad8d7a
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfContextOwner, ITfContextOwner interface [Text Services Framework], ITfContextOwner interface [Text Services Framework], described, _tsf_itfcontextowner_ref, msctf/ITfContextOwner, tsf.itfcontextowner
+ms.keywords: ITfContextOwner, ITfContextOwner interface [Text Services Framework], ITfContextOwner interface [Text Services Framework],described, _tsf_itfcontextowner_ref, msctf/ITfContextOwner, tsf.itfcontextowner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Copy
-title: IUpdateCollection::Copy method
+title: IUpdateCollection::Copy
 author: windows-driver-content
 description: Creates a shallow read/write copy of the collection.
 old-location: wua\iupdatecollection_copy.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 78a024a4-7aab-4bcb-bd3f-a79ef5580e1b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Copy method [Windows Update Agent], Copy method [Windows Update Agent], IUpdateCollection interface, Copy,IUpdateCollection.Copy, IUpdateCollection, IUpdateCollection interface [Windows Update Agent], Copy method, IUpdateCollection::Copy, wua.iupdatecollection_copy, wuapi/IUpdateCollection::Copy
+ms.keywords: Copy, Copy method [Windows Update Agent], Copy method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Copy method, IUpdateCollection.Copy, IUpdateCollection::Copy, wua.iupdatecollection_copy, wuapi/IUpdateCollection::Copy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateCollection::Copy method
+# IUpdateCollection::Copy
 
 
 ## -description

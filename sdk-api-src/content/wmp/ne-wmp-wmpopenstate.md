@@ -7,7 +7,7 @@ old-location: wmp\wmpopenstate.htm
 old-project: WMP
 ms.assetid: 535c8f56-d854-449b-ad50-72e5dd32710a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/4/2018
 ms.keywords: WMPOpenState, WMPOpenState enumeration [Windows Media Player], wmp.wmpopenstate, wmp/WMPOpenState, wmp/wmposBeginCodecAcquisition, wmp/wmposBeginIndividualization, wmp/wmposBeginLicenseAcquisition, wmp/wmposEndCodecAcquisition, wmp/wmposEndIndividualization, wmp/wmposEndLicenseAcquisition, wmp/wmposMediaChanging, wmp/wmposMediaConnecting, wmp/wmposMediaLoading, wmp/wmposMediaLocating, wmp/wmposMediaOpen, wmp/wmposMediaOpening, wmp/wmposMediaWaiting, wmp/wmposOpeningUnknownURL, wmp/wmposPlaylistChanged, wmp/wmposPlaylistChanging, wmp/wmposPlaylistConnecting, wmp/wmposPlaylistLoading, wmp/wmposPlaylistLocating, wmp/wmposPlaylistOpenNoMedia, wmp/wmposPlaylistOpening, wmp/wmposUndefined, wmposBeginCodecAcquisition, wmposBeginIndividualization, wmposBeginLicenseAcquisition, wmposEndCodecAcquisition, wmposEndIndividualization, wmposEndLicenseAcquisition, wmposMediaChanging, wmposMediaConnecting, wmposMediaLoading, wmposMediaLocating, wmposMediaOpen, wmposMediaOpening, wmposMediaWaiting, wmposOpeningUnknownURL, wmposPlaylistChanged, wmposPlaylistChanging, wmposPlaylistConnecting, wmposPlaylistLoading, wmposPlaylistLocating, wmposPlaylistOpenNoMedia, wmposPlaylistOpening, wmposUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices

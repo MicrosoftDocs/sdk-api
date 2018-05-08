@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure.GetDirectory
-title: IStreamBufferConfigure::GetDirectory method
+title: IStreamBufferConfigure::GetDirectory
 author: windows-driver-content
 description: The GetDirectory method retrieves the directory where backing files are saved.
 old-location: mstv\istreambufferconfigure_getdirectory.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bb5d955d-11da-4ff3-990f-02c0c80d6405
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDirectory method [Microsoft TV Technologies], GetDirectory method [Microsoft TV Technologies], IStreamBufferConfigure interface, GetDirectory,IStreamBufferConfigure.GetDirectory, IStreamBufferConfigure, IStreamBufferConfigure interface [Microsoft TV Technologies], GetDirectory method, IStreamBufferConfigure::GetDirectory, IStreamBufferConfigureGetDirectory, mstv.istreambufferconfigure_getdirectory, sbe/IStreamBufferConfigure::GetDirectory
+ms.keywords: GetDirectory, GetDirectory method [Microsoft TV Technologies], GetDirectory method [Microsoft TV Technologies],IStreamBufferConfigure interface, IStreamBufferConfigure interface [Microsoft TV Technologies],GetDirectory method, IStreamBufferConfigure.GetDirectory, IStreamBufferConfigure::GetDirectory, IStreamBufferConfigureGetDirectory, mstv.istreambufferconfigure_getdirectory, sbe/IStreamBufferConfigure::GetDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferConfigure::GetDirectory method
+# IStreamBufferConfigure::GetDirectory
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IFolderBandPriv.SetAccelerators
-title: IFolderBandPriv::SetAccelerators method
+title: IFolderBandPriv::SetAccelerators
 author: windows-driver-content
 description: Sets accelerators.
 old-location: shell\IFolderBandPriv_SetAccelerators.htm
 old-project: shell
 ms.assetid: c8461870-2fe7-49ae-8a8e-c5d929d963e5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFolderBandPriv, IFolderBandPriv interface [Windows Shell], SetAccelerators method, IFolderBandPriv::SetAccelerators, SetAccelerators method [Windows Shell], SetAccelerators method [Windows Shell], IFolderBandPriv interface, SetAccelerators,IFolderBandPriv.SetAccelerators, _win32_IFolderBandPriv_SetAccelerators, shell.IFolderBandPriv_SetAccelerators, shobjidl/IFolderBandPriv::SetAccelerators
+ms.date: 5/3/2018
+ms.keywords: IFolderBandPriv interface [Windows Shell],SetAccelerators method, IFolderBandPriv.SetAccelerators, IFolderBandPriv::SetAccelerators, SetAccelerators, SetAccelerators method [Windows Shell], SetAccelerators method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetAccelerators, shell.IFolderBandPriv_SetAccelerators, shobjidl/IFolderBandPriv::SetAccelerators
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IFolderBandPriv::SetAccelerators method
+# IFolderBandPriv::SetAccelerators
 
 
 ## -description

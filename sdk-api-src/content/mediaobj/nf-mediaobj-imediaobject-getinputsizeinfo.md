@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputSizeInfo
-title: IMediaObject::GetInputSizeInfo method
+title: IMediaObject::GetInputSizeInfo
 author: windows-driver-content
 description: The GetInputSizeInfo method retrieves the buffer requirements for a specified input stream.
 old-location: dshow\imediaobject_getinputsizeinfo.htm
 old-project: DirectShow
 ms.assetid: cce6359a-cd6e-46c9-a1cb-553ae5f83b9c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetInputSizeInfo method [DirectShow], GetInputSizeInfo method [DirectShow], IMediaObject interface, GetInputSizeInfo,IMediaObject.GetInputSizeInfo, IMediaObject, IMediaObject interface [DirectShow], GetInputSizeInfo method, IMediaObject::GetInputSizeInfo, IMediaObjectGetInputSizeInfo, dshow.imediaobject_getinputsizeinfo, mediaobj/IMediaObject::GetInputSizeInfo
+ms.date: 4/30/2018
+ms.keywords: GetInputSizeInfo, GetInputSizeInfo method [DirectShow], GetInputSizeInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputSizeInfo method, IMediaObject.GetInputSizeInfo, IMediaObject::GetInputSizeInfo, IMediaObjectGetInputSizeInfo, dshow.imediaobject_getinputsizeinfo, mediaobj/IMediaObject::GetInputSizeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMediaObject::GetInputSizeInfo method
+# IMediaObject::GetInputSizeInfo
 
 
 ## -description

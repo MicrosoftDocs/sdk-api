@@ -7,7 +7,7 @@ old-location: security\rsapubkey.htm
 old-project: SecCrypto
 ms.assetid: 34b3d591-5d51-484b-accc-9a923d7492b9
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: RSAPUBKEY, RSAPUBKEY structure [Security], _RSAPUBKEY, _crypto2_rsapubkey, security.rsapubkey, wincrypt/RSAPUBKEY
 ms.prod: windows-hardware
 ms.technology: windows-devices

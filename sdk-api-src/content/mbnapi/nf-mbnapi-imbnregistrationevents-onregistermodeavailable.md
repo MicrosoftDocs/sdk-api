@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistrationEvents.OnRegisterModeAvailable
-title: IMbnRegistrationEvents::OnRegisterModeAvailable method
+title: IMbnRegistrationEvents::OnRegisterModeAvailable
 author: windows-driver-content
 description: Notification method called by the Mobile Broadband service to indicate that registration mode information is available.
 old-location: mbn\imbnregistrationevents_onregistermodeavailable.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 5c916f16-e8f5-4c8a-942c-3a9ae11905a7
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnRegistrationEvents, IMbnRegistrationEvents interface [Microsoft Broadband Networks], OnRegisterModeAvailable method, IMbnRegistrationEvents::OnRegisterModeAvailable, OnRegisterModeAvailable method [Microsoft Broadband Networks], OnRegisterModeAvailable method [Microsoft Broadband Networks], IMbnRegistrationEvents interface, OnRegisterModeAvailable,IMbnRegistrationEvents.OnRegisterModeAvailable, mbn.imbnregistrationevents_onregistermodeavailable, mbnapi/IMbnRegistrationEvents::OnRegisterModeAvailable
+ms.keywords: IMbnRegistrationEvents interface [Microsoft Broadband Networks],OnRegisterModeAvailable method, IMbnRegistrationEvents.OnRegisterModeAvailable, IMbnRegistrationEvents::OnRegisterModeAvailable, OnRegisterModeAvailable, OnRegisterModeAvailable method [Microsoft Broadband Networks], OnRegisterModeAvailable method [Microsoft Broadband Networks],IMbnRegistrationEvents interface, mbn.imbnregistrationevents_onregistermodeavailable, mbnapi/IMbnRegistrationEvents::OnRegisterModeAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnRegistrationEvents::OnRegisterModeAvailable method
+# IMbnRegistrationEvents::OnRegisterModeAvailable
 
 
 ## -description

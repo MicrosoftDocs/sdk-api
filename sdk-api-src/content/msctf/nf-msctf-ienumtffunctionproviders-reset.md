@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Reset
-title: IEnumTfFunctionProviders::Reset method
+title: IEnumTfFunctionProviders::Reset
 author: windows-driver-content
 description: IEnumTfFunctionProviders::Reset method
 old-location: tsf\ienumtffunctionproviders_reset.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 99f4b38e-bb7f-41a8-ad3a-dd0ee7213699
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IEnumTfFunctionProviders, IEnumTfFunctionProviders interface [Text Services Framework], Reset method, IEnumTfFunctionProviders::Reset, Reset method [Text Services Framework], Reset method [Text Services Framework], IEnumTfFunctionProviders interface, Reset,IEnumTfFunctionProviders.Reset, _tsf_ienumtffunctionproviders_reset_ref, msctf/IEnumTfFunctionProviders::Reset, tsf.ienumtffunctionproviders_reset
+ms.keywords: IEnumTfFunctionProviders interface [Text Services Framework],Reset method, IEnumTfFunctionProviders.Reset, IEnumTfFunctionProviders::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfFunctionProviders interface, _tsf_ienumtffunctionproviders_reset_ref, msctf/IEnumTfFunctionProviders::Reset, tsf.ienumtffunctionproviders_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumTfFunctionProviders::Reset method
+# IEnumTfFunctionProviders::Reset
 
 
 ## -description

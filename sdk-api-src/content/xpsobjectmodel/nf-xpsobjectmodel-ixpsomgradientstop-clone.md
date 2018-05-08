@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.Clone
-title: IXpsOMGradientStop::Clone method
+title: IXpsOMGradientStop::Clone
 author: windows-driver-content
 description: Makes a deep copy of the IXpsOMGradientStop interface.
 old-location: xps\ixpsomgradientstop_clone.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: ea4cdf1d-bb65-4a1b-b5bc-3eb1e90929ff
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging], IXpsOMGradientStop interface, Clone,IXpsOMGradientStop.Clone, IXpsOMGradientStop, IXpsOMGradientStop interface [XPS Documents and Packaging], Clone method, IXpsOMGradientStop::Clone, xps.ixpsomgradientstop_clone, xpsobjectmodel/IXpsOMGradientStop::Clone
+ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],Clone method, IXpsOMGradientStop.Clone, IXpsOMGradientStop::Clone, xps.ixpsomgradientstop_clone, xpsobjectmodel/IXpsOMGradientStop::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientStop::Clone method
+# IXpsOMGradientStop::Clone
 
 
 ## -description

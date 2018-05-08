@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.AddDelegatedPolicyUser
-title: IAzApplication::AddDelegatedPolicyUser method
+title: IAzApplication::AddDelegatedPolicyUser
 author: windows-driver-content
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as delegated policy users.
 old-location: security\iazapplication_adddelegatedpolicyuser.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 89c0e1b9-cf51-4f4f-b530-7982645a9d14
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddDelegatedPolicyUser method [Security], AddDelegatedPolicyUser method [Security], AzApplication object, AddDelegatedPolicyUser method [Security], IAzApplication interface, AddDelegatedPolicyUser,IAzApplication.AddDelegatedPolicyUser, AzApplication object [Security], AddDelegatedPolicyUser method, IAzApplication, IAzApplication interface [Security], AddDelegatedPolicyUser method, IAzApplication::AddDelegatedPolicyUser, azroles/IAzApplication::AddDelegatedPolicyUser, security.iazapplication_adddelegatedpolicyuser
+ms.keywords: AddDelegatedPolicyUser, AddDelegatedPolicyUser method [Security], AddDelegatedPolicyUser method [Security],AzApplication object, AddDelegatedPolicyUser method [Security],IAzApplication interface, AzApplication object [Security],AddDelegatedPolicyUser method, IAzApplication interface [Security],AddDelegatedPolicyUser method, IAzApplication.AddDelegatedPolicyUser, IAzApplication::AddDelegatedPolicyUser, azroles/IAzApplication::AddDelegatedPolicyUser, security.iazapplication_adddelegatedpolicyuser
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication::AddDelegatedPolicyUser method
+# IAzApplication::AddDelegatedPolicyUser
 
 
 ## -description

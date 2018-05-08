@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSample.SetMediaTime
-title: IMediaSample::SetMediaTime method
+title: IMediaSample::SetMediaTime
 author: windows-driver-content
 description: The SetMediaTime method sets the media times for this sample.
 old-location: dshow\imediasample_setmediatime.htm
 old-project: DirectShow
 ms.assetid: 8ae9db99-828d-4ac9-aa51-668b84d4dfab
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaSample, IMediaSample interface [DirectShow], SetMediaTime method, IMediaSample::SetMediaTime, IMediaSampleSetMediaTime, SetMediaTime method [DirectShow], SetMediaTime method [DirectShow], IMediaSample interface, SetMediaTime,IMediaSample.SetMediaTime, dshow.imediasample_setmediatime, strmif/IMediaSample::SetMediaTime
+ms.date: 4/30/2018
+ms.keywords: IMediaSample interface [DirectShow],SetMediaTime method, IMediaSample.SetMediaTime, IMediaSample::SetMediaTime, IMediaSampleSetMediaTime, SetMediaTime, SetMediaTime method [DirectShow], SetMediaTime method [DirectShow],IMediaSample interface, dshow.imediasample_setmediatime, strmif/IMediaSample::SetMediaTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSample::SetMediaTime method
+# IMediaSample::SetMediaTime
 
 
 ## -description

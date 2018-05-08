@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDeviceManager.GetDeviceCount
-title: IWMDeviceManager::GetDeviceCount method
+title: IWMDeviceManager::GetDeviceCount
 author: windows-driver-content
 description: The GetDeviceCount method retrieves the number of portable devices that are currently connected to the computer.
 old-location: wmdm\iwmdevicemanager_getdevicecount.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: efa8ccf6-c796-4ed7-8fe0-2e6570292aaa
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetDeviceCount method [windows Media Device Manager], GetDeviceCount method [windows Media Device Manager], IWMDeviceManager interface, GetDeviceCount,IWMDeviceManager.GetDeviceCount, IWMDeviceManager, IWMDeviceManager interface [windows Media Device Manager], GetDeviceCount method, IWMDeviceManager::GetDeviceCount, IWMDeviceManagerGetDeviceCount, mswmdm/IWMDeviceManager::GetDeviceCount, wmdm.iwmdevicemanager_getdevicecount
+ms.keywords: GetDeviceCount, GetDeviceCount method [windows Media Device Manager], GetDeviceCount method [windows Media Device Manager],IWMDeviceManager interface, IWMDeviceManager interface [windows Media Device Manager],GetDeviceCount method, IWMDeviceManager.GetDeviceCount, IWMDeviceManager::GetDeviceCount, IWMDeviceManagerGetDeviceCount, mswmdm/IWMDeviceManager::GetDeviceCount, wmdm.iwmdevicemanager_getdevicecount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDeviceManager::GetDeviceCount method
+# IWMDeviceManager::GetDeviceCount
 
 
 ## -description

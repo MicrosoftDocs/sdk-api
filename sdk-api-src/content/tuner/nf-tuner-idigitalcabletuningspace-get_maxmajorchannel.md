@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuningSpace.get_MaxMajorChannel
-title: IDigitalCableTuningSpace::get_MaxMajorChannel method
+title: IDigitalCableTuningSpace::get_MaxMajorChannel
 author: windows-driver-content
 description: The get_MaxMajorChannel method retrieves the highest major channel number for this tuning space.
 old-location: mstv\idigitalcabletuningspace_get_maxmajorchannel.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 00910dbb-3265-4e90-a5c5-110d7648e161
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDigitalCableTuningSpace, IDigitalCableTuningSpace interface [Microsoft TV Technologies], get_MaxMajorChannel method, IDigitalCableTuningSpace::get_MaxMajorChannel, IDigitalCableTuningSpaceget_MaxMajorChannel, get_MaxMajorChannel method [Microsoft TV Technologies], get_MaxMajorChannel method [Microsoft TV Technologies], IDigitalCableTuningSpace interface, get_MaxMajorChannel,IDigitalCableTuningSpace.get_MaxMajorChannel, mstv.idigitalcabletuningspace_get_maxmajorchannel, tuner/IDigitalCableTuningSpace::get_MaxMajorChannel
+ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],get_MaxMajorChannel method, IDigitalCableTuningSpace.get_MaxMajorChannel, IDigitalCableTuningSpace::get_MaxMajorChannel, IDigitalCableTuningSpaceget_MaxMajorChannel, get_MaxMajorChannel, get_MaxMajorChannel method [Microsoft TV Technologies], get_MaxMajorChannel method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, mstv.idigitalcabletuningspace_get_maxmajorchannel, tuner/IDigitalCableTuningSpace::get_MaxMajorChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDigitalCableTuningSpace::get_MaxMajorChannel method
+# IDigitalCableTuningSpace::get_MaxMajorChannel
 
 
 ## -description

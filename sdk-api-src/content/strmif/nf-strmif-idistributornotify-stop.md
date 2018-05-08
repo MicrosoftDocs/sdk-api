@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDistributorNotify.Stop
-title: IDistributorNotify::Stop method
+title: IDistributorNotify::Stop
 author: windows-driver-content
 description: The Stop method is called when the filter graph is entering a stopped state.
 old-location: dshow\idistributornotify_stop.htm
 old-project: DirectShow
 ms.assetid: 21312954-bc48-402b-a03c-954c01b53231
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDistributorNotify, IDistributorNotify interface [DirectShow], Stop method, IDistributorNotify::Stop, IDistributorNotifyStop, Stop method [DirectShow], Stop method [DirectShow], IDistributorNotify interface, Stop,IDistributorNotify.Stop, dshow.idistributornotify_stop, strmif/IDistributorNotify::Stop
+ms.date: 4/30/2018
+ms.keywords: IDistributorNotify interface [DirectShow],Stop method, IDistributorNotify.Stop, IDistributorNotify::Stop, IDistributorNotifyStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_stop, strmif/IDistributorNotify::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDistributorNotify::Stop method
+# IDistributorNotify::Stop
 
 
 ## -description

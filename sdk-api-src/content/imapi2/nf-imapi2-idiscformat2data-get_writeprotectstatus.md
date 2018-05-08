@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_WriteProtectStatus
-title: IDiscFormat2Data::get_WriteProtectStatus method
+title: IDiscFormat2Data::get_WriteProtectStatus
 author: windows-driver-content
 description: Retrieves the current write protect state of the media in the device.
 old-location: imapi\idiscformat2data_get_writeprotectstatus.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: b3e58024-9a51-46e9-a9a1-c850166c9a85
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], get_WriteProtectStatus method, IDiscFormat2Data::get_WriteProtectStatus, get_WriteProtectStatus method [IMAPI], get_WriteProtectStatus method [IMAPI], IDiscFormat2Data interface, get_WriteProtectStatus,IDiscFormat2Data.get_WriteProtectStatus, imapi.idiscformat2data_get_writeprotectstatus, imapi2/IDiscFormat2Data::get_WriteProtectStatus
+ms.keywords: IDiscFormat2Data interface [IMAPI],get_WriteProtectStatus method, IDiscFormat2Data.get_WriteProtectStatus, IDiscFormat2Data::get_WriteProtectStatus, get_WriteProtectStatus, get_WriteProtectStatus method [IMAPI], get_WriteProtectStatus method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_writeprotectstatus, imapi2/IDiscFormat2Data::get_WriteProtectStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Data::get_WriteProtectStatus method
+# IDiscFormat2Data::get_WriteProtectStatus
 
 
 ## -description

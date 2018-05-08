@@ -7,8 +7,8 @@ old-location: dshow\am_wst_style.htm
 old-project: DirectShow
 ms.assetid: a183d38a-ed79-4bfa-8983-52877c19c335
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: "*PAM_WST_STYLE, AM_WST_STYLE, AM_WST_STYLE enumeration [DirectShow], AM_WST_STYLEEnumeration, AM_WST_STYLE_Invers, AM_WST_STYLE_None, PAM_WST_STYLE, PAM_WST_STYLE enumeration pointer [DirectShow], _AM_WST_STYLE, dshow.am_wst_style, iwstdec/AM_WST_STYLE, iwstdec/AM_WST_STYLE_Invers, iwstdec/AM_WST_STYLE_None, iwstdec/PAM_WST_STYLE"
+ms.date: 4/30/2018
+ms.keywords: "*PAM_WST_STYLE, AM_WST_STYLE, AM_WST_STYLE , AM_WST_STYLE enumeration [DirectShow], AM_WST_STYLEEnumeration, AM_WST_STYLE_Invers, AM_WST_STYLE_None, PAM_WST_STYLE, PAM_WST_STYLE enumeration pointer [DirectShow], _AM_WST_STYLE, dshow.am_wst_style, iwstdec/AM_WST_STYLE, iwstdec/AM_WST_STYLE_Invers, iwstdec/AM_WST_STYLE_None, iwstdec/PAM_WST_STYLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -25,7 +25,7 @@ req.idl:
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: Wsccapi.lib
+req.type-library: 
 req.typenames: AM_WST_STYLE, *PAM_WST_STYLE
 topic_type:
 -	APIRef

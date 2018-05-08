@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetStreamSelection
-title: IMFSourceReader::GetStreamSelection method
+title: IMFSourceReader::GetStreamSelection
 author: windows-driver-content
 description: Queries whether a stream is selected.
 old-location: mf\imfsourcereader_getstreamselection.htm
 old-project: medfound
 ms.assetid: 40301426-4bf2-442c-91b5-9916d1314617
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStreamSelection method [Media Foundation], GetStreamSelection method [Media Foundation], IMFSourceReader interface, GetStreamSelection,IMFSourceReader.GetStreamSelection, IMFSourceReader, IMFSourceReader interface [Media Foundation], GetStreamSelection method, IMFSourceReader::GetStreamSelection, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereader_getstreamselection, mfreadwrite/IMFSourceReader::GetStreamSelection
+ms.date: 5/3/2018
+ms.keywords: GetStreamSelection, GetStreamSelection method [Media Foundation], GetStreamSelection method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetStreamSelection method, IMFSourceReader.GetStreamSelection, IMFSourceReader::GetStreamSelection, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereader_getstreamselection, mfreadwrite/IMFSourceReader::GetStreamSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceReader::GetStreamSelection method
+# IMFSourceReader::GetStreamSelection
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecMethod
-title: IWbemServices::ExecMethod method
+title: IWbemServices::ExecMethod
 author: windows-driver-content
 description: Executes a method exported by a CIM object.
 old-location: wmi\iwbemservices_execmethod.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 9acba1aa-bcca-416a-863c-704d2e72df07
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation], IWbemServices interface, ExecMethod,IWbemServices.ExecMethod, IWbemServices, IWbemServices interface [Windows Management Instrumentation], ExecMethod method, IWbemServices::ExecMethod, _hmm_iwbemservices_execmethod, wbemcli/IWbemServices::ExecMethod, wmi.iwbemservices_execmethod
+ms.keywords: ExecMethod, ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecMethod method, IWbemServices.ExecMethod, IWbemServices::ExecMethod, _hmm_iwbemservices_execmethod, wbemcli/IWbemServices::ExecMethod, wmi.iwbemservices_execmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,7 +58,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemServices::ExecMethod method
+# IWbemServices::ExecMethod
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: rpc\rpc_async_notification_info.htm
 old-project: Rpc
 ms.assetid: 253f3d23-4cc2-44b3-9d25-c7f26d73ed1e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: "*PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO union pointer [RPC], RPC_ASYNC_NOTIFICATION_INFO, RPC_ASYNC_NOTIFICATION_INFO union [RPC], _RPC_ASYNC_NOTIFICATION_INFO, rpc.rpc_async_notification_info, rpcasync/PRPC_ASYNC_NOTIFICATION_INFO, rpcasync/RPC_ASYNC_NOTIFICATION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,14 +64,12 @@ Structure used for Windows asynchronous procedure call (APC) notifications.
 						
 
 
-
-#### NotificationRoutine
+### -field APC.NotificationRoutine
 
 Calls the user-defined APC notification routine.
 
 
-
-#### hThread
+### -field APC.hThread
 
 Handle to the thread on which the notification APC should be posted. A value of zero indicates the current thread.
 
@@ -84,28 +82,24 @@ Structure used for notification on an I/O completion port.
 						
 
 
-
-#### hIOPort
+### -field IOC.hIOPort
 
 Handle to the I/O completion port.
 
 
-
-#### dwNumberOfBytesTransferred
+### -field IOC.dwNumberOfBytesTransferred
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpNumberOfBytesTransferred</i> parameter of the 
 <a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a> function.
 
 
-
-#### dwCompletionKey
+### -field IOC.dwCompletionKey
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpCompletionKey</i> parameter of the 
 <a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a> function.
 
 
-
-#### lpOverlapped
+### -field IOC.lpOverlapped
 
 Set by the RPC client before the asynchronous call is started. When the notification is delivered to the completion port, this value is filled in the location pointed to by the <i>lpOverlapped</i> parameter of the 
 <a href="https://msdn.microsoft.com/8121a38b-0fe1-43b8-aed6-4b85af1feba9">GetQueuedCompletionStatus</a> function.
@@ -119,14 +113,12 @@ Fields used for notification by a Windows message. When the RPC run time posts t
 <b>Windows Server 2003 or later:  </b>Notification via the HWND is deprecated. Do not use this member.
 
 
-
-#### hWnd
+### -field HWND.hWnd
 
 Identifies the window to which the message should be posted.
 
 
-
-#### Msg
+### -field HWND.Msg
 
 Message to be posted.
 

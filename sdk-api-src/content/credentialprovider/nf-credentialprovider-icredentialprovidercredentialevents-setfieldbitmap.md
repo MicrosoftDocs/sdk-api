@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldBitmap
-title: ICredentialProviderCredentialEvents::SetFieldBitmap method
+title: ICredentialProviderCredentialEvents::SetFieldBitmap
 author: windows-driver-content
 description: Communicates to the Logon UI or Credential UI that a tile image field has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldBitmap.htm
 old-project: shell
 ms.assetid: 860407bd-774a-409f-b7db-e30a964cf879
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICredentialProviderCredentialEvents, ICredentialProviderCredentialEvents interface [Windows Shell], SetFieldBitmap method, ICredentialProviderCredentialEvents::SetFieldBitmap, SetFieldBitmap method [Windows Shell], SetFieldBitmap method [Windows Shell], ICredentialProviderCredentialEvents interface, SetFieldBitmap,ICredentialProviderCredentialEvents.SetFieldBitmap, _shell_ICredentialProviderCredentialEvents_SetFieldBitmap, credentialprovider/ICredentialProviderCredentialEvents::SetFieldBitmap, shell.ICredentialProviderCredentialEvents_SetFieldBitmap
+ms.date: 5/3/2018
+ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldBitmap method, ICredentialProviderCredentialEvents.SetFieldBitmap, ICredentialProviderCredentialEvents::SetFieldBitmap, SetFieldBitmap, SetFieldBitmap method [Windows Shell], SetFieldBitmap method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldBitmap, credentialprovider/ICredentialProviderCredentialEvents::SetFieldBitmap, shell.ICredentialProviderCredentialEvents_SetFieldBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProviderCredentialEvents::SetFieldBitmap method
+# ICredentialProviderCredentialEvents::SetFieldBitmap
 
 
 ## -description

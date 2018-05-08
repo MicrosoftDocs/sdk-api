@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PostDidAlloc
-title: IMallocSpy::PostDidAlloc method
+title: IMallocSpy::PostDidAlloc
 author: windows-driver-content
 description: Performs operations required after calling IMalloc::DidAlloc.
 old-location: com\imallocspy_postdidalloc.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 820ff316-9edd-4894-8461-fc532d439348
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMallocSpy, IMallocSpy interface [COM], PostDidAlloc method, IMallocSpy::PostDidAlloc, PostDidAlloc method [COM], PostDidAlloc method [COM], IMallocSpy interface, PostDidAlloc,IMallocSpy.PostDidAlloc, _com_imallocspy_postdidalloc, com.imallocspy_postdidalloc, objidl/IMallocSpy::PostDidAlloc
+ms.keywords: IMallocSpy interface [COM],PostDidAlloc method, IMallocSpy.PostDidAlloc, IMallocSpy::PostDidAlloc, PostDidAlloc, PostDidAlloc method [COM], PostDidAlloc method [COM],IMallocSpy interface, _com_imallocspy_postdidalloc, com.imallocspy_postdidalloc, objidl/IMallocSpy::PostDidAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMallocSpy::PostDidAlloc method
+# IMallocSpy::PostDidAlloc
 
 
 ## -description

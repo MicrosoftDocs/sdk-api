@@ -1,14 +1,14 @@
 ---
 UID: NF:mixerocx.IMixerOCXNotify.OnStatusChange
-title: IMixerOCXNotify::OnStatusChange method
+title: IMixerOCXNotify::OnStatusChange
 author: windows-driver-content
 description: The OnStatusChange method informs the client that a status change has occurred.
 old-location: dshow\imixerocxnotify_onstatuschange.htm
 old-project: DirectShow
 ms.assetid: b6e49306-59bc-45a2-826b-cea2cf77214b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMixerOCXNotify, IMixerOCXNotify interface [DirectShow], OnStatusChange method, IMixerOCXNotify::OnStatusChange, IMixerOCXNotifyOnStatusChange, OnStatusChange method [DirectShow], OnStatusChange method [DirectShow], IMixerOCXNotify interface, OnStatusChange,IMixerOCXNotify.OnStatusChange, dshow.imixerocxnotify_onstatuschange, mixerocx/IMixerOCXNotify::OnStatusChange
+ms.date: 4/30/2018
+ms.keywords: IMixerOCXNotify interface [DirectShow],OnStatusChange method, IMixerOCXNotify.OnStatusChange, IMixerOCXNotify::OnStatusChange, IMixerOCXNotifyOnStatusChange, OnStatusChange, OnStatusChange method [DirectShow], OnStatusChange method [DirectShow],IMixerOCXNotify interface, dshow.imixerocxnotify_onstatuschange, mixerocx/IMixerOCXNotify::OnStatusChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMixerOCXNotify::OnStatusChange method
+# IMixerOCXNotify::OnStatusChange
 
 
 ## -description

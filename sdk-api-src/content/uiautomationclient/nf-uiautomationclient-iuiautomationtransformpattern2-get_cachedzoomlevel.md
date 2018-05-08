@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CachedZoomLevel
-title: IUIAutomationTransformPattern2::get_CachedZoomLevel method
+title: IUIAutomationTransformPattern2::get_CachedZoomLevel
 author: windows-driver-content
 description: Retrieves the cached zoom level of the control's viewport.
 old-location: winauto\uiauto_iuiautomationtransformpattern2_cachedzoomlevel.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 9A0F0459-97F7-44C0-B7F8-11593A69DEBA
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedZoomLevel property [Windows Accessibility], CachedZoomLevel property [Windows Accessibility], IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2, IUIAutomationTransformPattern2 interface [Windows Accessibility], CachedZoomLevel property, IUIAutomationTransformPattern2.CachedZoomLevel, IUIAutomationTransformPattern2::get_CachedZoomLevel, get_CachedZoomLevel,IUIAutomationTransformPattern2.get_CachedZoomLevel, uiautomationclient/IUIAutomationTransformPattern2::CachedZoomLevel, uiautomationclient/IUIAutomationTransformPattern2::get_CachedZoomLevel, winauto.uiauto_iuiautomationtransformpattern2_cachedzoomlevel
+ms.keywords: CachedZoomLevel property [Windows Accessibility], CachedZoomLevel property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CachedZoomLevel property, IUIAutomationTransformPattern2.CachedZoomLevel, IUIAutomationTransformPattern2.get_CachedZoomLevel, IUIAutomationTransformPattern2::CachedZoomLevel, IUIAutomationTransformPattern2::get_CachedZoomLevel, get_CachedZoomLevel, uiautomationclient/IUIAutomationTransformPattern2::CachedZoomLevel, uiautomationclient/IUIAutomationTransformPattern2::get_CachedZoomLevel, winauto.uiauto_iuiautomationtransformpattern2_cachedzoomlevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTransformPattern2::get_CachedZoomLevel method
+# IUIAutomationTransformPattern2::get_CachedZoomLevel
 
 
 ## -description

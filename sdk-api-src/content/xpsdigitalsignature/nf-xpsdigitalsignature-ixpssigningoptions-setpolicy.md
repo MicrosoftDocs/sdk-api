@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetPolicy
-title: IXpsSigningOptions::SetPolicy method
+title: IXpsSigningOptions::SetPolicy
 author: windows-driver-content
 description: Sets the XPS_SIGN_POLICY value that represents the signing policy.
 old-location: xps\ixpssigningoptions_setpolicy.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 6e1738b3-f1ce-407e-bbaa-7f4c57e30028
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], SetPolicy method, IXpsSigningOptions::SetPolicy, SetPolicy method [XPS Documents and Packaging], SetPolicy method [XPS Documents and Packaging], IXpsSigningOptions interface, SetPolicy,IXpsSigningOptions.SetPolicy, xps.ixpssigningoptions_setpolicy, xpsdigitalsignature/IXpsSigningOptions::SetPolicy
+ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetPolicy method, IXpsSigningOptions.SetPolicy, IXpsSigningOptions::SetPolicy, SetPolicy, SetPolicy method [XPS Documents and Packaging], SetPolicy method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setpolicy, xpsdigitalsignature/IXpsSigningOptions::SetPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSigningOptions::SetPolicy method
+# IXpsSigningOptions::SetPolicy
 
 
 ## -description

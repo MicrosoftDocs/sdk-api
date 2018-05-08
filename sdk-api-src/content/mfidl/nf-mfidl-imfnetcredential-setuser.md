@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFNetCredential.SetUser
-title: IMFNetCredential::SetUser method
+title: IMFNetCredential::SetUser
 author: windows-driver-content
 description: Sets the user name.
 old-location: mf\imfnetcredential_setuser.htm
 old-project: medfound
 ms.assetid: 026a822a-4e48-4fc8-9781-5e427528a4d2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 026a822a-4e48-4fc8-9781-5e427528a4d2, IMFNetCredential, IMFNetCredential interface [Media Foundation], SetUser method, IMFNetCredential::SetUser, SetUser method [Media Foundation], SetUser method [Media Foundation], IMFNetCredential interface, SetUser,IMFNetCredential.SetUser, mf.imfnetcredential_setuser, mfidl/IMFNetCredential::SetUser
+ms.date: 5/3/2018
+ms.keywords: 026a822a-4e48-4fc8-9781-5e427528a4d2, IMFNetCredential interface [Media Foundation],SetUser method, IMFNetCredential.SetUser, IMFNetCredential::SetUser, SetUser, SetUser method [Media Foundation], SetUser method [Media Foundation],IMFNetCredential interface, mf.imfnetcredential_setuser, mfidl/IMFNetCredential::SetUser
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFNetCredential::SetUser method
+# IMFNetCredential::SetUser
 
 
 ## -description

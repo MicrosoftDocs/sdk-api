@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectOutputConnector.GetNumberConnections
-title: IMILBitmapEffectOutputConnector::GetNumberConnections method
+title: IMILBitmapEffectOutputConnector::GetNumberConnections
 author: windows-driver-content
 description: Retrieves the number of connections the output connector has.
 old-location: wibe\_wibe_imilbitmapeffectoutputconnector_getnumberconnections.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnector\getnumberconnections.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetNumberConnections method [WPF Bitmap Effects], GetNumberConnections method [WPF Bitmap Effects], IMILBitmapEffectOutputConnector interface, GetNumberConnections,IMILBitmapEffectOutputConnector.GetNumberConnections, IMILBitmapEffectOutputConnector, IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects], GetNumberConnections method, IMILBitmapEffectOutputConnector::GetNumberConnections, _wibe_imilbitmapeffectoutputconnector_getnumberconnections, mileffects/IMILBitmapEffectOutputConnector::GetNumberConnections, wibe._wibe_imilbitmapeffectoutputconnector_getnumberconnections
+ms.keywords: GetNumberConnections, GetNumberConnections method [WPF Bitmap Effects], GetNumberConnections method [WPF Bitmap Effects],IMILBitmapEffectOutputConnector interface, IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects],GetNumberConnections method, IMILBitmapEffectOutputConnector.GetNumberConnections, IMILBitmapEffectOutputConnector::GetNumberConnections, _wibe_imilbitmapeffectoutputconnector_getnumberconnections, mileffects/IMILBitmapEffectOutputConnector::GetNumberConnections, wibe._wibe_imilbitmapeffectoutputconnector_getnumberconnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectOutputConnector::GetNumberConnections method
+# IMILBitmapEffectOutputConnector::GetNumberConnections
 
 
 ## -description

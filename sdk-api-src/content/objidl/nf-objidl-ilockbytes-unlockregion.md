@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ILockBytes.UnlockRegion
-title: ILockBytes::UnlockRegion method
+title: ILockBytes::UnlockRegion
 author: windows-driver-content
 description: The UnlockRegion method removes the access restriction on a previously locked range of bytes.
 old-location: stg\ilockbytes_unlockregion.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 036ba242-8630-4013-860d-dd37919253be
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: ILockBytes, ILockBytes interface [Structured Storage], UnlockRegion method, ILockBytes::UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage], ILockBytes interface, UnlockRegion,ILockBytes.UnlockRegion, _stg_ilockbytes_unlockregion, objidl/ILockBytes::UnlockRegion, stg.ilockbytes_unlockregion
+ms.keywords: ILockBytes interface [Structured Storage],UnlockRegion method, ILockBytes.UnlockRegion, ILockBytes::UnlockRegion, UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage],ILockBytes interface, _stg_ilockbytes_unlockregion, objidl/ILockBytes::UnlockRegion, stg.ilockbytes_unlockregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ILockBytes::UnlockRegion method
+# ILockBytes::UnlockRegion
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Next
-title: IEnumEventObject::Next method
+title: IEnumEventObject::Next
 author: windows-driver-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: cos\ienumeventobject_next.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: c9dab0b5-dbbb-4330-afd2-e13e708d708f
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEnumEventObject, IEnumEventObject interface [COM+], Next method, IEnumEventObject::Next, Next method [COM+], Next method [COM+], IEnumEventObject interface, Next,IEnumEventObject.Next, _cos_ienumeventobject_next, cos.ienumeventobject_next, eventsys/IEnumEventObject::Next
+ms.keywords: IEnumEventObject interface [COM+],Next method, IEnumEventObject.Next, IEnumEventObject::Next, Next, Next method [COM+], Next method [COM+],IEnumEventObject interface, _cos_ienumeventobject_next, cos.ienumeventobject_next, eventsys/IEnumEventObject::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEnumEventObject::Next method
+# IEnumEventObject::Next
 
 
 ## -description

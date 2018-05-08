@@ -75,6 +75,14 @@ See <a href="https://msdn.microsoft.com/a9268b07-343a-4a51-bc70-3e624facf617">IK
 IP version specified by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a>.
 
 
+### -field v4UdpEncapsulation
+
+Points to an  <a href="https://msdn.microsoft.com/69cddec0-7311-4833-8b24-293ad714054e">IPSEC_V4_UDP_ENCAPSULATION0</a> structure, which, if a NAT is detected,  stores the UDP ports corresponding to the 
+   Main Mode.
+
+Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>. 
+
+
 ### -field ikeTraffic
 
 The traffic corresponding to this IKE SA specified by <a href="https://msdn.microsoft.com/99cb3774-7afd-44fd-9c3e-e2d913aaeecb">IKEEXT_TRAFFIC0</a>.
@@ -110,14 +118,6 @@ ID/Handle to virtual interface tunneling state. Applicable only to IKEv2.
  
 
 
-
-
-#### - v4UdpEncapsulation
-
-Points to an  <a href="https://msdn.microsoft.com/69cddec0-7311-4833-8b24-293ad714054e">IPSEC_V4_UDP_ENCAPSULATION0</a> structure, which, if a NAT is detected,  stores the UDP ports corresponding to the 
-   Main Mode.
-
-Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>. 
 
 
 ## -see-also

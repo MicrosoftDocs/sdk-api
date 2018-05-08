@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVdProvider.AddVDisk
-title: IVdsVdProvider::AddVDisk method
+title: IVdsVdProvider::AddVDisk
 author: windows-driver-content
 description: Creates a virtual disk object for an existing virtual disk file.
 old-location: base\ivdsvdprovider_addvdisk.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: ef154bf3-ad30-4e6e-8292-af2037eced02
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: AddVDisk method, AddVDisk method, IVdsVdProvider interface, AddVDisk,IVdsVdProvider.AddVDisk, IVdsVdProvider, IVdsVdProvider interface, AddVDisk method, IVdsVdProvider::AddVDisk, base.ivdsvdprovider_addvdisk, vds/IVdsVdProvider::AddVDisk
+ms.keywords: AddVDisk, AddVDisk method, AddVDisk method,IVdsVdProvider interface, IVdsVdProvider interface,AddVDisk method, IVdsVdProvider.AddVDisk, IVdsVdProvider::AddVDisk, base.ivdsvdprovider_addvdisk, vds/IVdsVdProvider::AddVDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVdProvider::AddVDisk method
+# IVdsVdProvider::AddVDisk
 
 
 ## -description

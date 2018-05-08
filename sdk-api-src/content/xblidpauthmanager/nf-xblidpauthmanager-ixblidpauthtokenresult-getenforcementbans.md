@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetEnforcementBans
-title: IXblIdpAuthTokenResult::GetEnforcementBans method
+title: IXblIdpAuthTokenResult::GetEnforcementBans
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getenforcementbans.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: 813D030B-73CD-463E-A548-E32380075524
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetEnforcementBans method, GetEnforcementBans method, IXblIdpAuthTokenResult interface, GetEnforcementBans,IXblIdpAuthTokenResult.GetEnforcementBans, IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, GetEnforcementBans method, IXblIdpAuthTokenResult::GetEnforcementBans, xblidp.ixblidpauthtokenresult_getenforcementbans, xblidpauthmanager/IXblIdpAuthTokenResult::GetEnforcementBans
+ms.keywords: GetEnforcementBans, GetEnforcementBans method, GetEnforcementBans method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetEnforcementBans method, IXblIdpAuthTokenResult.GetEnforcementBans, IXblIdpAuthTokenResult::GetEnforcementBans, xblidp.ixblidpauthtokenresult_getenforcementbans, xblidpauthmanager/IXblIdpAuthTokenResult::GetEnforcementBans
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthTokenResult::GetEnforcementBans method
+# IXblIdpAuthTokenResult::GetEnforcementBans
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.Zoom
-title: IUIAutomationTransformPattern2::Zoom method
+title: IUIAutomationTransformPattern2::Zoom
 author: windows-driver-content
 description: Zooms the viewport of the control.
 old-location: winauto\uiauto_IUIAutomationTransformPattern2_Zoom.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7CCDDF69-32FA-486C-B319-4D2F7A2407B4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationTransformPattern2, IUIAutomationTransformPattern2 interface [Windows Accessibility], Zoom method, IUIAutomationTransformPattern2::Zoom, Zoom method [Windows Accessibility], Zoom method [Windows Accessibility], IUIAutomationTransformPattern2 interface, Zoom,IUIAutomationTransformPattern2.Zoom, uiautomationclient/IUIAutomationTransformPattern2::Zoom, winauto.uiauto_IUIAutomationTransformPattern2_Zoom
+ms.keywords: IUIAutomationTransformPattern2 interface [Windows Accessibility],Zoom method, IUIAutomationTransformPattern2.Zoom, IUIAutomationTransformPattern2::Zoom, Zoom, Zoom method [Windows Accessibility], Zoom method [Windows Accessibility],IUIAutomationTransformPattern2 interface, uiautomationclient/IUIAutomationTransformPattern2::Zoom, winauto.uiauto_IUIAutomationTransformPattern2_Zoom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTransformPattern2::Zoom method
+# IUIAutomationTransformPattern2::Zoom
 
 
 ## -description

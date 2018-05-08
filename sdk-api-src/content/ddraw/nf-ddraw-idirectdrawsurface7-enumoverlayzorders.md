@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.EnumOverlayZOrders
-title: IDirectDrawSurface7::EnumOverlayZOrders method
+title: IDirectDrawSurface7::EnumOverlayZOrders
 author: windows-driver-content
 description: Enumerates the overlay surfaces on the specified destination. You can enumerate the overlays in front-to-back or back-to-front order.
 old-location: directdraw\idirectdrawsurface7_enumoverlayzorders.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: fab3212c-c1af-4119-85ff-108594cc64fa
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DDENUMOVERLAYZ_BACKTOFRONT, DDENUMOVERLAYZ_FRONTTOBACK, EnumOverlayZOrders method [DirectDraw], EnumOverlayZOrders method [DirectDraw], IDirectDrawSurface7 interface, EnumOverlayZOrders,IDirectDrawSurface7.EnumOverlayZOrders, IDirectDrawSurface7, IDirectDrawSurface7 interface [DirectDraw], EnumOverlayZOrders method, IDirectDrawSurface7::EnumOverlayZOrders, ddraw/IDirectDrawSurface7::EnumOverlayZOrders, directdraw.idirectdrawsurface7_enumoverlayzorders
+ms.keywords: DDENUMOVERLAYZ_BACKTOFRONT, DDENUMOVERLAYZ_FRONTTOBACK, EnumOverlayZOrders, EnumOverlayZOrders method [DirectDraw], EnumOverlayZOrders method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],EnumOverlayZOrders method, IDirectDrawSurface7.EnumOverlayZOrders, IDirectDrawSurface7::EnumOverlayZOrders, ddraw/IDirectDrawSurface7::EnumOverlayZOrders, directdraw.idirectdrawsurface7_enumoverlayzorders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDrawSurface7::EnumOverlayZOrders method
+# IDirectDrawSurface7::EnumOverlayZOrders
 
 
 ## -description

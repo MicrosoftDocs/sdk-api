@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.IsContiguousFormat
-title: IMF2DBuffer::IsContiguousFormat method
+title: IMF2DBuffer::IsContiguousFormat
 author: windows-driver-content
 description: Queries whether the buffer is contiguous in its native format.
 old-location: mf\imf2dbuffer_iscontiguousformat.htm
 old-project: medfound
 ms.assetid: a2042d1f-4d80-4dfd-b57e-33f6a6d07d6e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMF2DBuffer, IMF2DBuffer interface [Media Foundation], IsContiguousFormat method, IMF2DBuffer::IsContiguousFormat, IsContiguousFormat method [Media Foundation], IsContiguousFormat method [Media Foundation], IMF2DBuffer interface, IsContiguousFormat,IMF2DBuffer.IsContiguousFormat, a2042d1f-4d80-4dfd-b57e-33f6a6d07d6e, mf.imf2dbuffer_iscontiguousformat, mfobjects/IMF2DBuffer::IsContiguousFormat
+ms.date: 5/3/2018
+ms.keywords: IMF2DBuffer interface [Media Foundation],IsContiguousFormat method, IMF2DBuffer.IsContiguousFormat, IMF2DBuffer::IsContiguousFormat, IsContiguousFormat, IsContiguousFormat method [Media Foundation], IsContiguousFormat method [Media Foundation],IMF2DBuffer interface, a2042d1f-4d80-4dfd-b57e-33f6a6d07d6e, mf.imf2dbuffer_iscontiguousformat, mfobjects/IMF2DBuffer::IsContiguousFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMF2DBuffer::IsContiguousFormat method
+# IMF2DBuffer::IsContiguousFormat
 
 
 ## -description

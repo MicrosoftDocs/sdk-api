@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.GetTransportAddress
-title: IWSDTransportAddress::GetTransportAddress method
+title: IWSDTransportAddress::GetTransportAddress
 author: windows-driver-content
 description: Gets a pointer to a string representation of the address object.
 old-location: ncd\iwsdtransportaddress_gettransportaddress.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 090b009d-0cca-4925-bf90-cb3d0975d271
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetTransportAddress method, GetTransportAddress method, IWSDTransportAddress interface, GetTransportAddress,IWSDTransportAddress.GetTransportAddress, IWSDTransportAddress, IWSDTransportAddress interface, GetTransportAddress method, IWSDTransportAddress::GetTransportAddress, ncd.iwsdtransportaddress_gettransportaddress, wsdbase/IWSDTransportAddress::GetTransportAddress
+ms.keywords: GetTransportAddress, GetTransportAddress method, GetTransportAddress method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetTransportAddress method, IWSDTransportAddress.GetTransportAddress, IWSDTransportAddress::GetTransportAddress, ncd.iwsdtransportaddress_gettransportaddress, wsdbase/IWSDTransportAddress::GetTransportAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDTransportAddress::GetTransportAddress method
+# IWSDTransportAddress::GetTransportAddress
 
 
 ## -description

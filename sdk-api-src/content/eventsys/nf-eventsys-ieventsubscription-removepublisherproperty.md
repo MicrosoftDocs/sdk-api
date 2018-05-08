@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.RemovePublisherProperty
-title: IEventSubscription::RemovePublisherProperty method
+title: IEventSubscription::RemovePublisherProperty
 author: windows-driver-content
 description: Removes a property and its value from the property bag that defines publisher context.
 old-location: cos\ieventsubscription_removepublisherproperty.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 3893e605-dd01-47d3-bb7d-095964433ef9
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IEventSubscription, IEventSubscription interface [COM+], RemovePublisherProperty method, IEventSubscription::RemovePublisherProperty, RemovePublisherProperty method [COM+], RemovePublisherProperty method [COM+], IEventSubscription interface, RemovePublisherProperty,IEventSubscription.RemovePublisherProperty, _cos_IEventSubscription_RemovePublisherProperty, cos.ieventsubscription_removepublisherproperty, eventsys/IEventSubscription::RemovePublisherProperty
+ms.keywords: IEventSubscription interface [COM+],RemovePublisherProperty method, IEventSubscription.RemovePublisherProperty, IEventSubscription::RemovePublisherProperty, RemovePublisherProperty, RemovePublisherProperty method [COM+], RemovePublisherProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_RemovePublisherProperty, cos.ieventsubscription_removepublisherproperty, eventsys/IEventSubscription::RemovePublisherProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventSubscription::RemovePublisherProperty method
+# IEventSubscription::RemovePublisherProperty
 
 
 ## -description

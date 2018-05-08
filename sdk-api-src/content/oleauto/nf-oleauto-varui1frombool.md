@@ -7,7 +7,7 @@ old-location: automat\varui1frombool.htm
 old-project: automat
 ms.assetid: 27a06c84-ff09-48c6-9cd1-349fd74cd8df
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarUI1FromBool, VarUI1FromBool function [Automation], _oa96_VarUI1FromBool, automat.varui1frombool, oleauto/VarUI1FromBool
 ms.prod: windows-hardware
 ms.technology: windows-devices

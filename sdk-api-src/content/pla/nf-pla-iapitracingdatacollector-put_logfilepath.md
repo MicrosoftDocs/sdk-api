@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.put_LogFilePath
-title: IApiTracingDataCollector::put_LogFilePath method
+title: IApiTracingDataCollector::put_LogFilePath
 author: windows-driver-content
 description: Retrieves or sets the name of the log file that contains the API trace data.
 old-location: pla\iapitracingdatacollector_logfilepath.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 17e876d5-c1d2-4ab8-9f9e-40d66528e57d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IApiTracingDataCollector, IApiTracingDataCollector interface [PLA], LogFilePath property, IApiTracingDataCollector.LogFilePath, IApiTracingDataCollector::get_LogFilePath, IApiTracingDataCollector::put_LogFilePath, LogFilePath property [PLA], LogFilePath property [PLA], IApiTracingDataCollector interface, base.iapitracingdatacollector_logfilepath, pla.iapitracingdatacollector_logfilepath, pla/IApiTracingDataCollector::LogFilePath, pla/IApiTracingDataCollector::get_LogFilePath, pla/IApiTracingDataCollector::put_LogFilePath, put_LogFilePath,IApiTracingDataCollector.put_LogFilePath
+ms.keywords: IApiTracingDataCollector interface [PLA],LogFilePath property, IApiTracingDataCollector.LogFilePath, IApiTracingDataCollector.put_LogFilePath, IApiTracingDataCollector::LogFilePath, IApiTracingDataCollector::get_LogFilePath, IApiTracingDataCollector::put_LogFilePath, LogFilePath property [PLA], LogFilePath property [PLA],IApiTracingDataCollector interface, base.iapitracingdatacollector_logfilepath, pla.iapitracingdatacollector_logfilepath, pla/IApiTracingDataCollector::LogFilePath, pla/IApiTracingDataCollector::get_LogFilePath, pla/IApiTracingDataCollector::put_LogFilePath, put_LogFilePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IApiTracingDataCollector::put_LogFilePath method
+# IApiTracingDataCollector::put_LogFilePath
 
 
 ## -description

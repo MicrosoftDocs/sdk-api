@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_CAConfig
-title: IOCSPCAConfiguration::put_CAConfig method
+title: IOCSPCAConfiguration::put_CAConfig
 author: windows-driver-content
 description: Gets or sets a certification authority (CA) name with which a signing certificate must be signed.
 old-location: security\iocspcaconfiguration_caconfig.htm
 old-project: SecCrypto
 ms.assetid: 642f8d0b-8dae-41a7-a87c-2b55d1034328
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CAConfig property [Security], CAConfig property [Security], IOCSPCAConfiguration interface, IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], CAConfig property, IOCSPCAConfiguration.CAConfig, IOCSPCAConfiguration::get_CAConfig, IOCSPCAConfiguration::put_CAConfig, certadm/IOCSPCAConfiguration::CAConfig, certadm/IOCSPCAConfiguration::get_CAConfig, certadm/IOCSPCAConfiguration::put_CAConfig, put_CAConfig,IOCSPCAConfiguration.put_CAConfig, security.iocspcaconfiguration_caconfig
+ms.date: 4/30/2018
+ms.keywords: CAConfig property [Security], CAConfig property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],CAConfig property, IOCSPCAConfiguration.CAConfig, IOCSPCAConfiguration.put_CAConfig, IOCSPCAConfiguration::CAConfig, IOCSPCAConfiguration::get_CAConfig, IOCSPCAConfiguration::put_CAConfig, certadm/IOCSPCAConfiguration::CAConfig, certadm/IOCSPCAConfiguration::get_CAConfig, certadm/IOCSPCAConfiguration::put_CAConfig, put_CAConfig, security.iocspcaconfiguration_caconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPCAConfiguration::put_CAConfig method
+# IOCSPCAConfiguration::put_CAConfig
 
 
 ## -description

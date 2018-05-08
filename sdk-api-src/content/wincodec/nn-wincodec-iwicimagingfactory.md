@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 30d155b1-a46c-46c4-9f8f-fb56dc6bf0a9
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], IWICImagingFactory interface [Windows Imaging Component], described, _wic_codec_iwicimagingfactory, wic._wic_codec_iwicimagingfactory, wincodec/IWICImagingFactory
+ms.keywords: IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], IWICImagingFactory interface [Windows Imaging Component],described, _wic_codec_iwicimagingfactory, wic._wic_codec_iwicimagingfactory, wincodec/IWICImagingFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.AdjustRect
-title: IOleInPlaceSiteWindowless::AdjustRect method
+title: IOleInPlaceSiteWindowless::AdjustRect
 author: windows-driver-content
 description: Adjusts a specified rectangle if it is entirely or partially covered by overlapping, opaque objects.
 old-location: com\ioleinplacesitewindowless_adjustrect.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 36fa395d-09b2-474d-85ae-5a22d25e88eb
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: AdjustRect method [COM], AdjustRect method [COM], IOleInPlaceSiteWindowless interface, AdjustRect,IOleInPlaceSiteWindowless.AdjustRect, IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], AdjustRect method, IOleInPlaceSiteWindowless::AdjustRect, _ole_ioleinplacesitewindowless_adjustrect, com.ioleinplacesitewindowless_adjustrect, ocidl/IOleInPlaceSiteWindowless::AdjustRect
+ms.keywords: AdjustRect, AdjustRect method [COM], AdjustRect method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],AdjustRect method, IOleInPlaceSiteWindowless.AdjustRect, IOleInPlaceSiteWindowless::AdjustRect, _ole_ioleinplacesitewindowless_adjustrect, com.ioleinplacesitewindowless_adjustrect, ocidl/IOleInPlaceSiteWindowless::AdjustRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSiteWindowless::AdjustRect method
+# IOleInPlaceSiteWindowless::AdjustRect
 
 
 ## -description

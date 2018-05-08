@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.CommitChanges
-title: IXAudio2::CommitChanges method
+title: IXAudio2::CommitChanges
 author: windows-driver-content
 description: Atomically applies a set of operations that are tagged with a given identifier.
 old-location: xaudio2\ixaudio2_interface_commitchanges.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CommitChanges(UINT32)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CommitChanges method [XAudio2 Audio Mixing APIs], CommitChanges method [XAudio2 Audio Mixing APIs], IXAudio2 interface, CommitChanges,IXAudio2.CommitChanges, IXAudio2, IXAudio2 interface [XAudio2 Audio Mixing APIs], CommitChanges method, IXAudio2::CommitChanges, xaudio2.ixaudio2_interface_commitchanges, xaudio2/IXAudio2::CommitChanges
+ms.keywords: CommitChanges, CommitChanges method [XAudio2 Audio Mixing APIs], CommitChanges method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CommitChanges method, IXAudio2.CommitChanges, IXAudio2::CommitChanges, xaudio2.ixaudio2_interface_commitchanges, xaudio2/IXAudio2::CommitChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2::CommitChanges method
+# IXAudio2::CommitChanges
 
 
 ## -description

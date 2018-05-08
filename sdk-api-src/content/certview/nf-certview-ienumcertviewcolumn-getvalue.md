@@ -1,14 +1,14 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.GetValue
-title: IEnumCERTVIEWCOLUMN::GetValue method
+title: IEnumCERTVIEWCOLUMN::GetValue
 author: windows-driver-content
 description: Retrieves the data value contained in the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_getvalue.htm
 old-project: SecCrypto
 ms.assetid: 5cc14bd1-7963-4b11-aef6-4ef3b0b7f6c1
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetValue method [Security], GetValue method [Security], IEnumCERTVIEWCOLUMN interface, GetValue,IEnumCERTVIEWCOLUMN.GetValue, IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], GetValue method, IEnumCERTVIEWCOLUMN::GetValue, _certsrv_ienumcertviewcolumn_getvalue, certview/IEnumCERTVIEWCOLUMN::GetValue, security.ienumcertviewcolumn_getvalue
+ms.date: 4/30/2018
+ms.keywords: CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetValue, GetValue method [Security], GetValue method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetValue method, IEnumCERTVIEWCOLUMN.GetValue, IEnumCERTVIEWCOLUMN::GetValue, _certsrv_ienumcertviewcolumn_getvalue, certview/IEnumCERTVIEWCOLUMN::GetValue, security.ienumcertviewcolumn_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IEnumCERTVIEWCOLUMN::GetValue method
+# IEnumCERTVIEWCOLUMN::GetValue
 
 
 ## -description

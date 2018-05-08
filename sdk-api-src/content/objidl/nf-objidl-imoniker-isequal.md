@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.IsEqual
-title: IMoniker::IsEqual method
+title: IMoniker::IsEqual
 author: windows-driver-content
 description: Determines whether this moniker is identical to the specified moniker.
 old-location: com\imoniker_isequal.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 0092e93e-d87d-4b3e-b8e1-40eeaf04c43b
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMoniker, IMoniker interface [COM], IsEqual method, IMoniker::IsEqual, IsEqual method [COM], IsEqual method [COM], IMoniker interface, IsEqual,IMoniker.IsEqual, _com_imoniker_isequal, com.imoniker_isequal, objidl/IMoniker::IsEqual
+ms.keywords: IMoniker interface [COM],IsEqual method, IMoniker.IsEqual, IMoniker::IsEqual, IsEqual, IsEqual method [COM], IsEqual method [COM],IMoniker interface, _com_imoniker_isequal, com.imoniker_isequal, objidl/IMoniker::IsEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMoniker::IsEqual method
+# IMoniker::IsEqual
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.get_ProviderNameWStr
-title: IEnroll::get_ProviderNameWStr method
+title: IEnroll::get_ProviderNameWStr
 author: windows-driver-content
 description: Sets or retrieves the name of the cryptographic service provider (CSP) to use.
 old-location: security\ienroll4_providernamewstr.htm
 old-project: SecCrypto
 ms.assetid: 42300501-2a64-4433-81e9-6ee3fc31b094
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll, IEnroll interface [Security], ProviderNameWStr property, IEnroll.ProviderNameWStr, IEnroll::get_ProviderNameWStr, IEnroll::put_ProviderNameWStr, ProviderNameWStr property [Security], ProviderNameWStr property [Security], IEnroll interface, get_ProviderNameWStr,IEnroll.get_ProviderNameWStr, security.ienroll4_providernamewstr, xenroll/IEnroll::ProviderNameWStr, xenroll/IEnroll::get_ProviderNameWStr, xenroll/IEnroll::put_ProviderNameWStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll interface [Security],ProviderNameWStr property, IEnroll.ProviderNameWStr, IEnroll.get_ProviderNameWStr, IEnroll::ProviderNameWStr, IEnroll::get_ProviderNameWStr, IEnroll::put_ProviderNameWStr, ProviderNameWStr property [Security], ProviderNameWStr property [Security],IEnroll interface, get_ProviderNameWStr, security.ienroll4_providernamewstr, xenroll/IEnroll::ProviderNameWStr, xenroll/IEnroll::get_ProviderNameWStr, xenroll/IEnroll::put_ProviderNameWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::get_ProviderNameWStr method
+# IEnroll::get_ProviderNameWStr
 
 
 ## -description

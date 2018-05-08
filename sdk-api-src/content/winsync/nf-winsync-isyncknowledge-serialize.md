@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.Serialize
-title: ISyncKnowledge::Serialize method
+title: ISyncKnowledge::Serialize
 author: windows-driver-content
 description: Serializes the knowledge object data to a byte array.
 old-location: winsync\isyncknowledge_serialize.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 1feb0626-78f0-4d37-b3a0-c87a7fb22753
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncKnowledge, ISyncKnowledge interface [Windows Sync], Serialize method, ISyncKnowledge::Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync], ISyncKnowledge interface, Serialize,ISyncKnowledge.Serialize, winsync.isyncknowledge_serialize, winsync/ISyncKnowledge::Serialize
+ms.keywords: ISyncKnowledge interface [Windows Sync],Serialize method, ISyncKnowledge.Serialize, ISyncKnowledge::Serialize, Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_serialize, winsync/ISyncKnowledge::Serialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::Serialize method
+# ISyncKnowledge::Serialize
 
 
 ## -description

@@ -69,6 +69,18 @@ A pointer to an array of <a href="https://msdn.microsoft.com/bcb2ad72-7b00-4582-
 
 
 
+### -field pAccessList.size_is
+
+ 
+
+
+### -field pAccessList.size_is.cEntries
+
+ 
+
+
+
+
 ## -remarks
 
 

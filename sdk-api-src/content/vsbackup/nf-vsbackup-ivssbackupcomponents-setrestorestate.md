@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetRestoreState
-title: IVssBackupComponents::SetRestoreState method
+title: IVssBackupComponents::SetRestoreState
 author: windows-driver-content
 description: The SetRestoreState method defines an overall configuration for a restore operation.
 old-location: base\ivssbackupcomponents_setrestorestate.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: bc85e93f-1034-41cc-bf69-025aa86a56fd
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], SetRestoreState method, IVssBackupComponents::SetRestoreState, SetRestoreState method [VSS], SetRestoreState method [VSS], IVssBackupComponents interface, SetRestoreState,IVssBackupComponents.SetRestoreState, _win32_ivssbackupcomponents_setrestorestate, base.ivssbackupcomponents_setrestorestate, vsbackup/IVssBackupComponents::SetRestoreState
+ms.keywords: IVssBackupComponents interface [VSS],SetRestoreState method, IVssBackupComponents.SetRestoreState, IVssBackupComponents::SetRestoreState, SetRestoreState, SetRestoreState method [VSS], SetRestoreState method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setrestorestate, base.ivssbackupcomponents_setrestorestate, vsbackup/IVssBackupComponents::SetRestoreState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::SetRestoreState method
+# IVssBackupComponents::SetRestoreState
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetPath
-title: ISettingsItem::GetPath method
+title: ISettingsItem::GetPath
 author: windows-driver-content
 description: Gets the path for the item.
 old-location: smi\isettingsitem_getpath.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 221b5929-7300-4d01-b93e-7c82c446f52b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetPath method [SMI], GetPath method [SMI], ISettingsItem interface, GetPath,ISettingsItem.GetPath, ISettingsItem, ISettingsItem interface [SMI], GetPath method, ISettingsItem::GetPath, smi.isettingsitem_getpath, wcmconfig/ISettingsItem::GetPath
+ms.keywords: GetPath, GetPath method [SMI], GetPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetPath method, ISettingsItem.GetPath, ISettingsItem::GetPath, smi.isettingsitem_getpath, wcmconfig/ISettingsItem::GetPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsItem::GetPath method
+# ISettingsItem::GetPath
 
 
 ## -description

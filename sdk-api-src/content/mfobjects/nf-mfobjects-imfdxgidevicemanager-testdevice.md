@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.TestDevice
-title: IMFDXGIDeviceManager::TestDevice method
+title: IMFDXGIDeviceManager::TestDevice
 author: windows-driver-content
 description: Tests whether a Microsoft Direct3D device handle is valid.
 old-location: mf\imfdxgidevicemanager_testdevice.htm
 old-project: medfound
 ms.assetid: DBBECFE0-110D-4A77-88D4-7D6AB8B2A67C
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFDXGIDeviceManager, IMFDXGIDeviceManager interface [Media Foundation], TestDevice method, IMFDXGIDeviceManager::TestDevice, TestDevice method [Media Foundation], TestDevice method [Media Foundation], IMFDXGIDeviceManager interface, TestDevice,IMFDXGIDeviceManager.TestDevice, mf.imfdxgidevicemanager_testdevice, mfobjects/IMFDXGIDeviceManager::TestDevice
+ms.date: 5/3/2018
+ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],TestDevice method, IMFDXGIDeviceManager.TestDevice, IMFDXGIDeviceManager::TestDevice, TestDevice, TestDevice method [Media Foundation], TestDevice method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_testdevice, mfobjects/IMFDXGIDeviceManager::TestDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFDXGIDeviceManager::TestDevice method
+# IMFDXGIDeviceManager::TestDevice
 
 
 ## -description

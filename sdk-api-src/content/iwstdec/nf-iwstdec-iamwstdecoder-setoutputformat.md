@@ -1,14 +1,14 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetOutputFormat
-title: IAMWstDecoder::SetOutputFormat method
+title: IAMWstDecoder::SetOutputFormat
 author: windows-driver-content
 description: Downstream filters use the SetOutputFormat method to define an output video format.
 old-location: dshow\iamwstdecoder_setoutputformat.htm
 old-project: DirectShow
 ms.assetid: 92d19d2b-dce5-4dd6-ac96-a39fa48fa1aa
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], SetOutputFormat method, IAMWstDecoder::SetOutputFormat, IAMWstDecoderSetOutputFormat, SetOutputFormat method [DirectShow], SetOutputFormat method [DirectShow], IAMWstDecoder interface, SetOutputFormat,IAMWstDecoder.SetOutputFormat, dshow.iamwstdecoder_setoutputformat, iwstdec/IAMWstDecoder::SetOutputFormat
+ms.date: 4/30/2018
+ms.keywords: IAMWstDecoder interface [DirectShow],SetOutputFormat method, IAMWstDecoder.SetOutputFormat, IAMWstDecoder::SetOutputFormat, IAMWstDecoderSetOutputFormat, SetOutputFormat, SetOutputFormat method [DirectShow], SetOutputFormat method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setoutputformat, iwstdec/IAMWstDecoder::SetOutputFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAMWstDecoder::SetOutputFormat method
+# IAMWstDecoder::SetOutputFormat
 
 
 ## -description

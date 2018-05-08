@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_EmailAddress
-title: IFaxDoc::get_EmailAddress method
+title: IFaxDoc::get_EmailAddress
 author: windows-driver-content
 description: Sets or retrieves the EmailAddress property of a FaxDoc object. The EmailAddress property is a null-terminated string that contains the email address of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_emailaddress_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7mwj.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EmailAddress property [Fax Service], EmailAddress property [Fax Service], FaxDoc object, FaxDoc object [Fax Service], EmailAddress property, IFaxDoc, IFaxDoc::get_EmailAddress, _mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_get_emailaddress_vb, get_EmailAddress,IFaxDoc.get_EmailAddress
+ms.keywords: EmailAddress property [Fax Service], EmailAddress property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],EmailAddress property, FaxDoc.EmailAddress, IFaxDoc.get_EmailAddress, IFaxDoc::get_EmailAddress, _mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_get_emailaddress_vb, get_EmailAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::get_EmailAddress method
+# IFaxDoc::get_EmailAddress
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMVideoMediaProps.SetMaxKeyFrameSpacing
-title: IWMVideoMediaProps::SetMaxKeyFrameSpacing method
+title: IWMVideoMediaProps::SetMaxKeyFrameSpacing
 author: windows-driver-content
 description: The SetMaxKeyFrameSpacing method specifies the maximum interval between key frames.
 old-location: wmformat\iwmvideomediaprops_setmaxkeyframespacing.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 1d1a9090-2658-45bd-8893-30e063d10aa8
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMVideoMediaProps, IWMVideoMediaProps interface [windows Media Format], SetMaxKeyFrameSpacing method, IWMVideoMediaProps::SetMaxKeyFrameSpacing, IWMVideoMediaPropsSetMaxKeyFrameSpacing, SetMaxKeyFrameSpacing method [windows Media Format], SetMaxKeyFrameSpacing method [windows Media Format], IWMVideoMediaProps interface, SetMaxKeyFrameSpacing,IWMVideoMediaProps.SetMaxKeyFrameSpacing, wmformat.iwmvideomediaprops_setmaxkeyframespacing, wmsdkidl/IWMVideoMediaProps::SetMaxKeyFrameSpacing
+ms.keywords: IWMVideoMediaProps interface [windows Media Format],SetMaxKeyFrameSpacing method, IWMVideoMediaProps.SetMaxKeyFrameSpacing, IWMVideoMediaProps::SetMaxKeyFrameSpacing, IWMVideoMediaPropsSetMaxKeyFrameSpacing, SetMaxKeyFrameSpacing, SetMaxKeyFrameSpacing method [windows Media Format], SetMaxKeyFrameSpacing method [windows Media Format],IWMVideoMediaProps interface, wmformat.iwmvideomediaprops_setmaxkeyframespacing, wmsdkidl/IWMVideoMediaProps::SetMaxKeyFrameSpacing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMVideoMediaProps::SetMaxKeyFrameSpacing method
+# IWMVideoMediaProps::SetMaxKeyFrameSpacing
 
 
 ## -description

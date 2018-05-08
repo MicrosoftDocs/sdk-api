@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.SetPosition
-title: ITextFont::SetPosition method
+title: ITextFont::SetPosition
 author: windows-driver-content
 description: Sets the amount that characters are offset vertically relative to the baseline.
 old-location: controls\ITextFont_SetPosition.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setposition.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetPosition method, ITextFont::SetPosition, SetPosition method [Windows Controls], SetPosition method [Windows Controls], ITextFont interface, SetPosition,ITextFont.SetPosition, _win32_ITextFont_SetPosition, _win32_ITextFont_SetPosition_cpp, controls.ITextFont_SetPosition, controls._win32_ITextFont_SetPosition, tom/ITextFont::SetPosition
+ms.date: 4/27/2018
+ms.keywords: ITextFont interface [Windows Controls],SetPosition method, ITextFont.SetPosition, ITextFont::SetPosition, SetPosition, SetPosition method [Windows Controls], SetPosition method [Windows Controls],ITextFont interface, _win32_ITextFont_SetPosition, _win32_ITextFont_SetPosition_cpp, controls.ITextFont_SetPosition, controls._win32_ITextFont_SetPosition, tom/ITextFont::SetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::SetPosition method
+# ITextFont::SetPosition
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetEventOptions
-title: IPortableDeviceCapabilities::GetEventOptions method
+title: IPortableDeviceCapabilities::GetEventOptions
 author: windows-driver-content
 description: The GetEventOptions method retrieves all the supported options for the specified event on the device.
 old-location: wpdsdk\iportabledevicecapabilities_geteventoptions.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: b4d3495b-b2d3-4d0d-8dc6-df030a52ab3f
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetEventOptions method [Windows Portable Devices SDK], GetEventOptions method [Windows Portable Devices SDK], IPortableDeviceCapabilities method, GetEventOptions,IPortableDeviceCapabilities.GetEventOptions, IPortableDeviceCapabilities, IPortableDeviceCapabilities method [Windows Portable Devices SDK], GetEventOptions method, IPortableDeviceCapabilities::GetEventOptions, IPortableDeviceCapabilitiesGetEventOptions, portabledeviceapi/IPortableDeviceCapabilities::GetEventOptions, wpdsdk.iportabledevicecapabilities_geteventoptions
+ms.keywords: GetEventOptions, GetEventOptions method [Windows Portable Devices SDK], GetEventOptions method [Windows Portable Devices SDK],IPortableDeviceCapabilities method, IPortableDeviceCapabilities method [Windows Portable Devices SDK],GetEventOptions method, IPortableDeviceCapabilities.GetEventOptions, IPortableDeviceCapabilities::GetEventOptions, IPortableDeviceCapabilitiesGetEventOptions, portabledeviceapi/IPortableDeviceCapabilities::GetEventOptions, wpdsdk.iportabledevicecapabilities_geteventoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceCapabilities::GetEventOptions method
+# IPortableDeviceCapabilities::GetEventOptions
 
 
 ## -description

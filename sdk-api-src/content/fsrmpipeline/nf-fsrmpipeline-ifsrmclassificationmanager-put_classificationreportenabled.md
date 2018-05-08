@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.put_ClassificationReportEnabled
-title: IFsrmClassificationManager::put_ClassificationReportEnabled method
+title: IFsrmClassificationManager::put_ClassificationReportEnabled
 author: windows-driver-content
 description: Determines whether classification reporting is enabled or not.
 old-location: fsrm\ifsrmclassificationmanager_classificationreportenabled.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: a19a82fd-f00c-4663-b305-2cdc3bc863bd
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ClassificationReportEnabled property [File Server Resource Manager], ClassificationReportEnabled property [File Server Resource Manager], IFsrmClassificationManager interface, ClassificationReportEnabled property [File Server Resource Manager], IFsrmClassificationManager2 interface, IFsrmClassificationManager, IFsrmClassificationManager interface [File Server Resource Manager], ClassificationReportEnabled property, IFsrmClassificationManager.ClassificationReportEnabled, IFsrmClassificationManager2 interface [File Server Resource Manager], ClassificationReportEnabled property, IFsrmClassificationManager2.ClassificationReportEnabled, IFsrmClassificationManager2::get_ClassificationReportEnabled, IFsrmClassificationManager2::put_ClassificationReportEnabled, IFsrmClassificationManager::get_ClassificationReportEnabled, IFsrmClassificationManager::put_ClassificationReportEnabled, fs.ifsrmclassificationmanager_classificationreportenabled, fsrm.ifsrmclassificationmanager_classificationreportenabled, fsrmpipeline/IFsrmClassificationManager2::ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager2::put_ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager::ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager::get_ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager::put_ClassificationReportEnabled, put_ClassificationReportEnabled,IFsrmClassificationManager.put_ClassificationReportEnabled
+ms.keywords: ClassificationReportEnabled property [File Server Resource Manager], ClassificationReportEnabled property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationReportEnabled property [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationReportEnabled property, IFsrmClassificationManager.ClassificationReportEnabled, IFsrmClassificationManager.put_ClassificationReportEnabled, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationReportEnabled property, IFsrmClassificationManager2.ClassificationReportEnabled, IFsrmClassificationManager2::get_ClassificationReportEnabled, IFsrmClassificationManager2::put_ClassificationReportEnabled, IFsrmClassificationManager::ClassificationReportEnabled, IFsrmClassificationManager::get_ClassificationReportEnabled, IFsrmClassificationManager::put_ClassificationReportEnabled, fs.ifsrmclassificationmanager_classificationreportenabled, fsrm.ifsrmclassificationmanager_classificationreportenabled, fsrmpipeline/IFsrmClassificationManager2::ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager2::put_ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager::ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager::get_ClassificationReportEnabled, fsrmpipeline/IFsrmClassificationManager::put_ClassificationReportEnabled, put_ClassificationReportEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmClassificationManager::put_ClassificationReportEnabled method
+# IFsrmClassificationManager::put_ClassificationReportEnabled
 
 
 ## -description

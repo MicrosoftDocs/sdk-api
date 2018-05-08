@@ -7,8 +7,8 @@ old-location: tablet\itextinputpaneleventsink.htm
 old-project: tablet
 ms.assetid: e3ef6d65-ca6b-4587-bb21-3d3803a3432a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], ITextInputPanelEventSink interface [Tablet PC], described, e3ef6d65-ca6b-4587-bb21-3d3803a3432a, peninputpanel/ITextInputPanelEventSink, tablet.itextinputpaneleventsink
+ms.date: 5/2/2018
+ms.keywords: ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], ITextInputPanelEventSink interface [Tablet PC],described, e3ef6d65-ca6b-4587-bb21-3d3803a3432a, peninputpanel/ITextInputPanelEventSink, tablet.itextinputpaneleventsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

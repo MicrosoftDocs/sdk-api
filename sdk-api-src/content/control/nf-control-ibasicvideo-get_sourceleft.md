@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicVideo.get_SourceLeft
-title: IBasicVideo::get_SourceLeft method
+title: IBasicVideo::get_SourceLeft
 author: windows-driver-content
 description: The get_SourceLeft method retrieves the x-coordinate of the source rectangle.
 old-location: dshow\ibasicvideo_get_sourceleft.htm
 old-project: DirectShow
 ms.assetid: 1ea64dae-d643-44c1-9026-f9b0dcd25ef1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], get_SourceLeft method, IBasicVideo::get_SourceLeft, IBasicVideoget_SourceLeft, control/IBasicVideo::get_SourceLeft, dshow.ibasicvideo_get_sourceleft, get_SourceLeft method [DirectShow], get_SourceLeft method [DirectShow], IBasicVideo interface, get_SourceLeft,IBasicVideo.get_SourceLeft
+ms.date: 4/30/2018
+ms.keywords: IBasicVideo interface [DirectShow],get_SourceLeft method, IBasicVideo.get_SourceLeft, IBasicVideo::get_SourceLeft, IBasicVideoget_SourceLeft, control/IBasicVideo::get_SourceLeft, dshow.ibasicvideo_get_sourceleft, get_SourceLeft, get_SourceLeft method [DirectShow], get_SourceLeft method [DirectShow],IBasicVideo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicVideo::get_SourceLeft method
+# IBasicVideo::get_SourceLeft
 
 
 ## -description

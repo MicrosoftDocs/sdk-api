@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetEASEventID
-title: ISCTE_EAS::GetEASEventID method
+title: ISCTE_EAS::GetEASEventID
 author: windows-driver-content
 description: The GetEASEventID method returns the identifier of this emergency event.
 old-location: mstv\iscte_eas_geteaseventid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d501fa7c-c1a8-42bc-af71-a966a7cba9f6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetEASEventID method [Microsoft TV Technologies], GetEASEventID method [Microsoft TV Technologies], ISCTE_EAS interface, GetEASEventID,ISCTE_EAS.GetEASEventID, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetEASEventID method, ISCTE_EAS::GetEASEventID, ISCTE_EASGetEASEventID, atscpsipparser/ISCTE_EAS::GetEASEventID, mstv.iscte_eas_geteaseventid
+ms.keywords: GetEASEventID, GetEASEventID method [Microsoft TV Technologies], GetEASEventID method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetEASEventID method, ISCTE_EAS.GetEASEventID, ISCTE_EAS::GetEASEventID, ISCTE_EASGetEASEventID, atscpsipparser/ISCTE_EAS::GetEASEventID, mstv.iscte_eas_geteaseventid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetEASEventID method
+# ISCTE_EAS::GetEASEventID
 
 
 ## -description

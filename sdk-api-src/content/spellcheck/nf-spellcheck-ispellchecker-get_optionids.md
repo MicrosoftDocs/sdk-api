@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.get_OptionIds
-title: ISpellChecker::get_OptionIds method
+title: ISpellChecker::get_OptionIds
 author: windows-driver-content
 description: Gets all of the declared option identifiers.
 old-location: intl\ispellchecker_optionids.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 6770acd9-5dc7-4f86-a780-e724646a3d56
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], OptionIds property, ISpellChecker.OptionIds, ISpellChecker::get_OptionIds, OptionIds property [Internationalization for Windows Applications], OptionIds property [Internationalization for Windows Applications], ISpellChecker interface, get_OptionIds,ISpellChecker.get_OptionIds, intl.ispellchecker_optionids, spellcheck/ISpellChecker::OptionIds, spellcheck/ISpellChecker::get_OptionIds
+ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],OptionIds property, ISpellChecker.OptionIds, ISpellChecker.get_OptionIds, ISpellChecker::OptionIds, ISpellChecker::get_OptionIds, OptionIds property [Internationalization for Windows Applications], OptionIds property [Internationalization for Windows Applications],ISpellChecker interface, get_OptionIds, intl.ispellchecker_optionids, spellcheck/ISpellChecker::OptionIds, spellcheck/ISpellChecker::get_OptionIds
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellChecker::get_OptionIds method
+# ISpellChecker::get_OptionIds
 
 
 ## -description

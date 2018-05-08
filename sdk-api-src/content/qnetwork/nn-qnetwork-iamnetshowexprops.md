@@ -7,8 +7,8 @@ old-location: dshow\iamnetshowexprops.htm
 old-project: DirectShow
 ms.assetid: e68959dc-1a79-4e2c-aeaf-3febcb9c09ce
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], IAMNetShowExProps interface [DirectShow], described, IAMNetShowExPropsInterface, dshow.iamnetshowexprops, qnetwork/IAMNetShowExProps
+ms.date: 4/30/2018
+ms.keywords: IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], IAMNetShowExProps interface [DirectShow],described, IAMNetShowExPropsInterface, dshow.iamnetshowexprops, qnetwork/IAMNetShowExProps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

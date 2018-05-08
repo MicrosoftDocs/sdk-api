@@ -7,7 +7,7 @@ old-location: rpc\rpcbindinginqoption.htm
 old-project: Rpc
 ms.assetid: f148c827-d18a-41f2-834a-f6b77b331bcc
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcBindingInqOption, RpcBindingInqOption function [RPC], _rpc_rpcbindinginqoption, rpc.rpcbindinginqoption, rpcdce/RpcBindingInqOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

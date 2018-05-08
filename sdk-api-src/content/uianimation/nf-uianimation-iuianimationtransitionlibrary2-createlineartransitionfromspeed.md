@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateLinearTransitionFromSpeed
-title: IUIAnimationTransitionLibrary2::CreateLinearTransitionFromSpeed method
+title: IUIAnimationTransitionLibrary2::CreateLinearTransitionFromSpeed
 author: windows-driver-content
 description: Creates a linear-speed scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createlineartransitionfromspeed.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: BCB9D6C6-6EFE-4CDF-8239-9E7E07AB53BD
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateLinearTransitionFromSpeed method [Windows Animation], CreateLinearTransitionFromSpeed method [Windows Animation], IUIAnimationTransitionLibrary2 interface, CreateLinearTransitionFromSpeed,IUIAnimationTransitionLibrary2.CreateLinearTransitionFromSpeed, IUIAnimationTransitionLibrary2, IUIAnimationTransitionLibrary2 interface [Windows Animation], CreateLinearTransitionFromSpeed method, IUIAnimationTransitionLibrary2::CreateLinearTransitionFromSpeed, uianimation.iuianimationtransitionlibrary2_createlineartransitionfromspeed, uianimation/IUIAnimationTransitionLibrary2::CreateLinearTransitionFromSpeed
+ms.keywords: CreateLinearTransitionFromSpeed, CreateLinearTransitionFromSpeed method [Windows Animation], CreateLinearTransitionFromSpeed method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateLinearTransitionFromSpeed method, IUIAnimationTransitionLibrary2.CreateLinearTransitionFromSpeed, IUIAnimationTransitionLibrary2::CreateLinearTransitionFromSpeed, uianimation.iuianimationtransitionlibrary2_createlineartransitionfromspeed, uianimation/IUIAnimationTransitionLibrary2::CreateLinearTransitionFromSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionLibrary2::CreateLinearTransitionFromSpeed method
+# IUIAnimationTransitionLibrary2::CreateLinearTransitionFromSpeed
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: automat\varbstrcmp.htm
 old-project: automat
 ms.assetid: 0b7d8735-19d5-4f6e-8b55-05f2c73ef3f8
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNOREKASHIDA, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, VarBstrCmp, VarBstrCmp function [Automation], _oa96_VarBstrCmp, automat.varbstrcmp, oleauto/VarBstrCmp
 ms.prod: windows-hardware
 ms.technology: windows-devices

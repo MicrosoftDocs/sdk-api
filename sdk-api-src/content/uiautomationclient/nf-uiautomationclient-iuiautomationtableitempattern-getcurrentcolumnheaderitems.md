@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTableItemPattern.GetCurrentColumnHeaderItems
-title: IUIAutomationTableItemPattern::GetCurrentColumnHeaderItems method
+title: IUIAutomationTableItemPattern::GetCurrentColumnHeaderItems
 author: windows-driver-content
 description: Retrieves the column headers associated with a table item or cell.
 old-location: winauto\uiauto_IUIAutomationTableItemPattern_GetCurrentColumnHeaderItems.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: ccacd62c-c3f5-46a2-9449-5eb881f213b0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCurrentColumnHeaderItems method [Windows Accessibility], GetCurrentColumnHeaderItems method [Windows Accessibility], IUIAutomationTableItemPattern interface, GetCurrentColumnHeaderItems,IUIAutomationTableItemPattern.GetCurrentColumnHeaderItems, IUIAutomationTableItemPattern, IUIAutomationTableItemPattern interface [Windows Accessibility], GetCurrentColumnHeaderItems method, IUIAutomationTableItemPattern::GetCurrentColumnHeaderItems, uiauto.uiauto_IUIAutomationTableItemPattern_GetCurrentColumnHeaderItems, uiauto_IUIAutomationTableItemPattern_GetCurrentColumnHeaderItems, uiautomationclient/IUIAutomationTableItemPattern::GetCurrentColumnHeaderItems, winauto.uiauto_IUIAutomationTableItemPattern_GetCurrentColumnHeaderItems
+ms.keywords: GetCurrentColumnHeaderItems, GetCurrentColumnHeaderItems method [Windows Accessibility], GetCurrentColumnHeaderItems method [Windows Accessibility],IUIAutomationTableItemPattern interface, IUIAutomationTableItemPattern interface [Windows Accessibility],GetCurrentColumnHeaderItems method, IUIAutomationTableItemPattern.GetCurrentColumnHeaderItems, IUIAutomationTableItemPattern::GetCurrentColumnHeaderItems, uiauto.uiauto_IUIAutomationTableItemPattern_GetCurrentColumnHeaderItems, uiauto_IUIAutomationTableItemPattern_GetCurrentColumnHeaderItems, uiautomationclient/IUIAutomationTableItemPattern::GetCurrentColumnHeaderItems, winauto.uiauto_IUIAutomationTableItemPattern_GetCurrentColumnHeaderItems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTableItemPattern::GetCurrentColumnHeaderItems method
+# IUIAutomationTableItemPattern::GetCurrentColumnHeaderItems
 
 
 ## -description

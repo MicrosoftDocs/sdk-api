@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeRenewalCertificate.get_RenewalCertificate
-title: IX509AttributeRenewalCertificate::get_RenewalCertificate method
+title: IX509AttributeRenewalCertificate::get_RenewalCertificate
 author: windows-driver-content
 description: Retrieves the certificate to be renewed.
 old-location: security\ix509attributerenewalcertificate_renewalcertificate_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 5c7997de-9abb-4a96-b906-a6de7378d0b1
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509AttributeRenewalCertificate, IX509AttributeRenewalCertificate interface [Security], RenewalCertificate property, IX509AttributeRenewalCertificate.RenewalCertificate, IX509AttributeRenewalCertificate::get_RenewalCertificate, RenewalCertificate property [Security], RenewalCertificate property [Security], IX509AttributeRenewalCertificate interface, certenroll/IX509AttributeRenewalCertificate::RenewalCertificate, certenroll/IX509AttributeRenewalCertificate::get_RenewalCertificate, get_RenewalCertificate,IX509AttributeRenewalCertificate.get_RenewalCertificate, security.ix509attributerenewalcertificate_renewalcertificate_property
+ms.keywords: IX509AttributeRenewalCertificate interface [Security],RenewalCertificate property, IX509AttributeRenewalCertificate.RenewalCertificate, IX509AttributeRenewalCertificate.get_RenewalCertificate, IX509AttributeRenewalCertificate::RenewalCertificate, IX509AttributeRenewalCertificate::get_RenewalCertificate, RenewalCertificate property [Security], RenewalCertificate property [Security],IX509AttributeRenewalCertificate interface, certenroll/IX509AttributeRenewalCertificate::RenewalCertificate, certenroll/IX509AttributeRenewalCertificate::get_RenewalCertificate, get_RenewalCertificate, security.ix509attributerenewalcertificate_renewalcertificate_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509AttributeRenewalCertificate::get_RenewalCertificate method
+# IX509AttributeRenewalCertificate::get_RenewalCertificate
 
 
 ## -description

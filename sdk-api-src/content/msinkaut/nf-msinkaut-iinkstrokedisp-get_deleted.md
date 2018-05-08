@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_Deleted
-title: IInkStrokeDisp::get_Deleted method
+title: IInkStrokeDisp::get_Deleted
 author: windows-driver-content
 description: Gets a value that specifies whether a known stroke is deleted from the ink.
 old-location: tablet\iinkstrokedisp_deleted.htm
 old-project: tablet
 ms.assetid: d34eaf9d-ad2a-4bf7-ac6d-ed4b19134a50
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: Deleted property [Tablet PC], Deleted property [Tablet PC], IInkStrokeDisp interface, IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], Deleted property, IInkStrokeDisp.Deleted, IInkStrokeDisp.get_Deleted, IInkStrokeDisp::get_Deleted, d34eaf9d-ad2a-4bf7-ac6d-ed4b19134a50, get_Deleted,IInkStrokeDisp.get_Deleted, msinkaut/IInkStrokeDisp::Deleted, msinkaut/IInkStrokeDisp::get_Deleted, tablet.iinkstrokedisp_deleted
+ms.date: 5/2/2018
+ms.keywords: Deleted property [Tablet PC], Deleted property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],Deleted property, IInkStrokeDisp.Deleted, IInkStrokeDisp.get_Deleted, IInkStrokeDisp::Deleted, IInkStrokeDisp::get_Deleted, d34eaf9d-ad2a-4bf7-ac6d-ed4b19134a50, get_Deleted, msinkaut/IInkStrokeDisp::Deleted, msinkaut/IInkStrokeDisp::get_Deleted, tablet.iinkstrokedisp_deleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkStrokeDisp::get_Deleted method
+# IInkStrokeDisp::get_Deleted
 
 
 ## -description

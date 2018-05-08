@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.GetLastSendTime
-title: IMFASFSplitter::GetLastSendTime method
+title: IMFASFSplitter::GetLastSendTime
 author: windows-driver-content
 description: Retrieves the send time of the last sample received.
 old-location: mf\imfasfsplitter_getlastsendtime.htm
 old-project: medfound
 ms.assetid: 59a6c53c-2cdf-4677-a5a3-4138f107f721
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 59a6c53c-2cdf-4677-a5a3-4138f107f721, GetLastSendTime method [Media Foundation], GetLastSendTime method [Media Foundation], IMFASFSplitter interface, GetLastSendTime,IMFASFSplitter.GetLastSendTime, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], GetLastSendTime method, IMFASFSplitter::GetLastSendTime, mf.imfasfsplitter_getlastsendtime, wmcontainer/IMFASFSplitter::GetLastSendTime
+ms.date: 5/3/2018
+ms.keywords: 59a6c53c-2cdf-4677-a5a3-4138f107f721, GetLastSendTime, GetLastSendTime method [Media Foundation], GetLastSendTime method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetLastSendTime method, IMFASFSplitter.GetLastSendTime, IMFASFSplitter::GetLastSendTime, mf.imfasfsplitter_getlastsendtime, wmcontainer/IMFASFSplitter::GetLastSendTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFSplitter::GetLastSendTime method
+# IMFASFSplitter::GetLastSendTime
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ad\ds_name_result.htm
 old-project: AD
 ms.assetid: 8c3cedae-f998-482c-95db-33bca94e119b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: "*PDS_NAME_RESULTW, DS_NAME_RESULT, DS_NAME_RESULT structure [Active Directory], DS_NAME_RESULTA, DS_NAME_RESULTW, PDS_NAME_RESULT, PDS_NAME_RESULT structure pointer [Active Directory], _glines_ds_name_result, ad.ds__name__result, ad.ds_name_result, ntdsapi/DS_NAME_RESULT, ntdsapi/DS_NAME_RESULTA, ntdsapi/DS_NAME_RESULTW, ntdsapi/PDS_NAME_RESULT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,6 +63,16 @@ The <b>DS_NAME_RESULT</b> structure is used with the <a href="https://msdn.micro
 ### -field cItems
 
 Contains the number of elements in the <b>rItems</b> array.
+
+
+### -field rItems.size_is
+
+ 
+
+
+### -field rItems.size_is.cItems
+
+ 
 
 
 ### -field rItems

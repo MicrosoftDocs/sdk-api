@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextEditProvider.GetConversionTarget
-title: ITextEditProvider::GetConversionTarget method
+title: ITextEditProvider::GetConversionTarget
 author: windows-driver-content
 description: Returns the current conversion target range.
 old-location: winauto\uiauto_ITextEditProvider_GetConversionTarget.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: C05DC0F6-FB24-2D06-C2D8-43ADF2C110F9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetConversionTarget method [Windows Accessibility], GetConversionTarget method [Windows Accessibility], ITextEditProvider interface, GetConversionTarget,ITextEditProvider.GetConversionTarget, ITextEditProvider, ITextEditProvider interface [Windows Accessibility], GetConversionTarget method, ITextEditProvider::GetConversionTarget, uiautomationcore/ITextEditProvider::GetConversionTarget, winauto.uiauto_ITextEditProvider_GetConversionTarget
+ms.keywords: GetConversionTarget, GetConversionTarget method [Windows Accessibility], GetConversionTarget method [Windows Accessibility],ITextEditProvider interface, ITextEditProvider interface [Windows Accessibility],GetConversionTarget method, ITextEditProvider.GetConversionTarget, ITextEditProvider::GetConversionTarget, uiautomationcore/ITextEditProvider::GetConversionTarget, winauto.uiauto_ITextEditProvider_GetConversionTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextEditProvider::GetConversionTarget method
+# ITextEditProvider::GetConversionTarget
 
 
 ## -description

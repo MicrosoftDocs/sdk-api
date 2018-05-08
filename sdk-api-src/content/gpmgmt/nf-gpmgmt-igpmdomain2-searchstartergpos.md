@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.SearchStarterGPOs
-title: IGPMDomain2::SearchStarterGPOs method
+title: IGPMDomain2::SearchStarterGPOs
 author: windows-driver-content
 description: Executes a search for GPMStarterGPO objects.
 old-location: gpmc\igpmdomain2_searchstartergpos.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 30a325e8-372a-4e30-a420-10f5b6ef295d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IGPMDomain2, IGPMDomain2 interface [GPMC], SearchStarterGPOs method, IGPMDomain2::SearchStarterGPOs, SearchStarterGPOs method [GPMC], SearchStarterGPOs method [GPMC], IGPMDomain2 interface, SearchStarterGPOs,IGPMDomain2.SearchStarterGPOs, gpmc.igpmdomain2_searchstartergpos, gpmgmt/IGPMDomain2::SearchStarterGPOs, starterGPODisplayName, starterGPOEffectivePermissions, starterGPOID, starterGPOPermissions
+ms.keywords: IGPMDomain2 interface [GPMC],SearchStarterGPOs method, IGPMDomain2.SearchStarterGPOs, IGPMDomain2::SearchStarterGPOs, SearchStarterGPOs, SearchStarterGPOs method [GPMC], SearchStarterGPOs method [GPMC],IGPMDomain2 interface, gpmc.igpmdomain2_searchstartergpos, gpmgmt/IGPMDomain2::SearchStarterGPOs, starterGPODisplayName, starterGPOEffectivePermissions, starterGPOID, starterGPOPermissions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMDomain2::SearchStarterGPOs method
+# IGPMDomain2::SearchStarterGPOs
 
 
 ## -description

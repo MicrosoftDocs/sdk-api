@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: f11122a2-6ea9-4a73-ac93-0af7961f52b6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart, IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services], IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services], described, wds.iwdstransportnamespacescheduledcastautostart, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart
+ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart, IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services], IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services],described, wds.iwdstransportnamespacescheduledcastautostart, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

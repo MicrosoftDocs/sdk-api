@@ -84,14 +84,14 @@ The new file path for the Snapshot indicated by the SnapshotId field.
 
 
 
-#### - DefaultFilePath
-
-The file path for the default Snapshot of the Vhd Set. 
-
-
-
-#### - SnapshotId
+### -field SnapshotId
 
 The Snapshot Id in GUID format indicating which snapshot is to be removed from the VHD Set file. 
+
+
+
+### -field DefaultFilePath
+
+The file path for the default Snapshot of the Vhd Set. 
 
 

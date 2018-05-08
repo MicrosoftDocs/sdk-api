@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.ApplyStreamSelections
-title: IMFMediaEngineEx::ApplyStreamSelections method
+title: IMFMediaEngineEx::ApplyStreamSelections
 author: windows-driver-content
 description: Applies the stream selections from previous calls to SetStreamSelection.
 old-location: mf\imfmediaengineex_applystreamselections.htm
 old-project: medfound
 ms.assetid: aaf8ad21-a790-4a78-b733-b6e3ffd859e1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ApplyStreamSelections method [Media Foundation], ApplyStreamSelections method [Media Foundation], IMFMediaEngineEx interface, ApplyStreamSelections,IMFMediaEngineEx.ApplyStreamSelections, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], ApplyStreamSelections method, IMFMediaEngineEx::ApplyStreamSelections, mf.imfmediaengineex_applystreamselections, mfmediaengine/IMFMediaEngineEx::ApplyStreamSelections
+ms.date: 5/3/2018
+ms.keywords: ApplyStreamSelections, ApplyStreamSelections method [Media Foundation], ApplyStreamSelections method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],ApplyStreamSelections method, IMFMediaEngineEx.ApplyStreamSelections, IMFMediaEngineEx::ApplyStreamSelections, mf.imfmediaengineex_applystreamselections, mfmediaengine/IMFMediaEngineEx::ApplyStreamSelections
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::ApplyStreamSelections method
+# IMFMediaEngineEx::ApplyStreamSelections
 
 
 ## -description

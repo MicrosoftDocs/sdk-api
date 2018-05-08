@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetLogonErrorRedirector
-title: IWRdsProtocolConnection::GetLogonErrorRedirector method
+title: IWRdsProtocolConnection::GetLogonErrorRedirector
 author: windows-driver-content
 description: Retrieves an IWRdsProtocolLogonErrorRedirector interface that specifies how the protocol should handle client logon errors.
 old-location: termserv\iwrdsprotocolconnection_getlogonerrorredirector.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 9613330F-B8DE-48C7-892C-FB8F50739C13
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetLogonErrorRedirector method [Remote Desktop Services], GetLogonErrorRedirector method [Remote Desktop Services], IWRdsProtocolConnection interface, GetLogonErrorRedirector,IWRdsProtocolConnection.GetLogonErrorRedirector, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], GetLogonErrorRedirector method, IWRdsProtocolConnection::GetLogonErrorRedirector, termserv.iwrdsprotocolconnection_getlogonerrorredirector, wtsprotocol/IWRdsProtocolConnection::GetLogonErrorRedirector
+ms.keywords: GetLogonErrorRedirector, GetLogonErrorRedirector method [Remote Desktop Services], GetLogonErrorRedirector method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetLogonErrorRedirector method, IWRdsProtocolConnection.GetLogonErrorRedirector, IWRdsProtocolConnection::GetLogonErrorRedirector, termserv.iwrdsprotocolconnection_getlogonerrorredirector, wtsprotocol/IWRdsProtocolConnection::GetLogonErrorRedirector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::GetLogonErrorRedirector method
+# IWRdsProtocolConnection::GetLogonErrorRedirector
 
 
 ## -description

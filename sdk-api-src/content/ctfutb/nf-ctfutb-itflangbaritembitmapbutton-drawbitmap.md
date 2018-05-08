@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.DrawBitmap
-title: ITfLangBarItemBitmapButton::DrawBitmap method
+title: ITfLangBarItemBitmapButton::DrawBitmap
 author: windows-driver-content
 description: ITfLangBarItemBitmapButton::DrawBitmap method
 old-location: tsf\itflangbaritembitmapbutton_drawbitmap.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 412b2e74-0569-4f72-bc8e-23edec72ea35
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: DrawBitmap method [Text Services Framework], DrawBitmap method [Text Services Framework], ITfLangBarItemBitmapButton interface, DrawBitmap,ITfLangBarItemBitmapButton.DrawBitmap, ITfLangBarItemBitmapButton, ITfLangBarItemBitmapButton interface [Text Services Framework], DrawBitmap method, ITfLangBarItemBitmapButton::DrawBitmap, _tsf_itflangbaritembitmapbutton_drawbitmap_ref, ctfutb/ITfLangBarItemBitmapButton::DrawBitmap, tsf.itflangbaritembitmapbutton_drawbitmap
+ms.keywords: DrawBitmap, DrawBitmap method [Text Services Framework], DrawBitmap method [Text Services Framework],ITfLangBarItemBitmapButton interface, ITfLangBarItemBitmapButton interface [Text Services Framework],DrawBitmap method, ITfLangBarItemBitmapButton.DrawBitmap, ITfLangBarItemBitmapButton::DrawBitmap, _tsf_itflangbaritembitmapbutton_drawbitmap_ref, ctfutb/ITfLangBarItemBitmapButton::DrawBitmap, tsf.itflangbaritembitmapbutton_drawbitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemBitmapButton::DrawBitmap method
+# ITfLangBarItemBitmapButton::DrawBitmap
 
 
 ## -description

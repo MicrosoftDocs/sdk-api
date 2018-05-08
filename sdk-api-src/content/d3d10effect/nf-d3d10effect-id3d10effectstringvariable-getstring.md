@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectStringVariable.GetString
-title: ID3D10EffectStringVariable::GetString method
+title: ID3D10EffectStringVariable::GetString
 author: windows-driver-content
 description: Get the string.
 old-location: direct3d10\id3d10effectstringvariable_getstring.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectstringvariable_getstring.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 9daf3f6a-842b-088b-a335-a0eed8c5bd16, GetString method [Direct3D 10], GetString method [Direct3D 10], ID3D10EffectStringVariable interface, GetString,ID3D10EffectStringVariable.GetString, ID3D10EffectStringVariable, ID3D10EffectStringVariable interface [Direct3D 10], GetString method, ID3D10EffectStringVariable::GetString, d3d10effect/ID3D10EffectStringVariable::GetString, direct3d10.id3d10effectstringvariable_getstring
+ms.keywords: 9daf3f6a-842b-088b-a335-a0eed8c5bd16, GetString, GetString method [Direct3D 10], GetString method [Direct3D 10],ID3D10EffectStringVariable interface, ID3D10EffectStringVariable interface [Direct3D 10],GetString method, ID3D10EffectStringVariable.GetString, ID3D10EffectStringVariable::GetString, d3d10effect/ID3D10EffectStringVariable::GetString, direct3d10.id3d10effectstringvariable_getstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectStringVariable::GetString method
+# ID3D10EffectStringVariable::GetString
 
 
 ## -description

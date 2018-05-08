@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamFrameFormat
-title: ID3D11VideoContext::VideoProcessorGetStreamFrameFormat method
+title: ID3D11VideoContext::VideoProcessorGetStreamFrameFormat
 author: windows-driver-content
 description: Gets the format of an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamframeformat.htm
 old-project: medfound
 ms.assetid: 43879368-1730-4881-B77E-0A975DD5E473
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorGetStreamFrameFormat method, ID3D11VideoContext::VideoProcessorGetStreamFrameFormat, VideoProcessorGetStreamFrameFormat method [Media Foundation], VideoProcessorGetStreamFrameFormat method [Media Foundation], ID3D11VideoContext interface, VideoProcessorGetStreamFrameFormat,ID3D11VideoContext.VideoProcessorGetStreamFrameFormat, d3d11/ID3D11VideoContext::VideoProcessorGetStreamFrameFormat, mf.id3d11videocontext_videoprocessorgetstreamframeformat
+ms.date: 5/3/2018
+ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamFrameFormat method, ID3D11VideoContext.VideoProcessorGetStreamFrameFormat, ID3D11VideoContext::VideoProcessorGetStreamFrameFormat, VideoProcessorGetStreamFrameFormat, VideoProcessorGetStreamFrameFormat method [Media Foundation], VideoProcessorGetStreamFrameFormat method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamFrameFormat, mf.id3d11videocontext_videoprocessorgetstreamframeformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::VideoProcessorGetStreamFrameFormat method
+# ID3D11VideoContext::VideoProcessorGetStreamFrameFormat
 
 
 ## -description

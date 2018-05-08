@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetValue
-title: IWICMetadataReader::GetValue method
+title: IWICMetadataReader::GetValue
 author: windows-driver-content
 description: Gets the metadata item value.
 old-location: wic\_wic_codec_iwicmetadatareader_getvalue.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 7ae1328d-cda7-4522-9bcf-2c4b16fd6984
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetValue method [Windows Imaging Component], GetValue method [Windows Imaging Component], IWICMetadataReader interface, GetValue,IWICMetadataReader.GetValue, IWICMetadataReader, IWICMetadataReader interface [Windows Imaging Component], GetValue method, IWICMetadataReader::GetValue, _wic_codec_iwicmetadatareader_getvalue, wic._wic_codec_iwicmetadatareader_getvalue, wincodecsdk/IWICMetadataReader::GetValue
+ms.keywords: GetValue, GetValue method [Windows Imaging Component], GetValue method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetValue method, IWICMetadataReader.GetValue, IWICMetadataReader::GetValue, _wic_codec_iwicmetadatareader_getvalue, wic._wic_codec_iwicmetadatareader_getvalue, wincodecsdk/IWICMetadataReader::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataReader::GetValue method
+# IWICMetadataReader::GetValue
 
 
 ## -description

@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: ISCSI_TARGET_PORTAL_INFO_EXW (Unicode) and ISCSI_TARGET_PORTAL_INFO_EXA (ANSI)
 req.idl: 
 req.max-support: 
-req.namespace: Root\WMI
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.typenames: ISCSI_TARGET_PORTAL_INFO_EXA, *PISCSI_TARGET_PORTAL_INFO_EXA

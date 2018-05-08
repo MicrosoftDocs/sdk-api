@@ -1,6 +1,6 @@
 ---
 UID: NF:ddpbackup.IDedupBackupSupport.RestoreFiles
-title: IDedupBackupSupport::RestoreFiles method
+title: IDedupBackupSupport::RestoreFiles
 author: windows-driver-content
 description: Reconstructs a set of files from a backup store that contains the fully optimized version of the files (reparse points) and the Data Deduplication store.
 old-location: dedup\idedupbackupsupport_restorefiles.htm
@@ -8,7 +8,7 @@ old-project: dedup
 ms.assetid: CFBB0B59-2869-4A30-8F2F-A473372B1E68
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DDP_E_FILE_CORRUPT, DDP_E_FILE_SYSTEM_CORRUPT, DDP_E_INVALID_DATA, DDP_E_JOB_COMPLETED_PARTIAL_SUCCESS, DDP_E_NOT_FOUND, DDP_E_PATH_NOT_FOUND, DDP_E_UNEXPECTED, DDP_E_VOLUME_DEDUP_DISABLED, DDP_E_VOLUME_UNSUPPORTED, IDedupBackupSupport, IDedupBackupSupport interface [Data Deduplication API], RestoreFiles method, IDedupBackupSupport::RestoreFiles, RestoreFiles method [Data Deduplication API], RestoreFiles method [Data Deduplication API], IDedupBackupSupport interface, RestoreFiles,IDedupBackupSupport.RestoreFiles, S_FALSE, S_OK, ddpbackup/IDedupBackupSupport::RestoreFiles, dedup.idedupbackupsupport_restorefile, dedup.idedupbackupsupport_restorefiles
+ms.keywords: DDP_E_FILE_CORRUPT, DDP_E_FILE_SYSTEM_CORRUPT, DDP_E_INVALID_DATA, DDP_E_JOB_COMPLETED_PARTIAL_SUCCESS, DDP_E_NOT_FOUND, DDP_E_PATH_NOT_FOUND, DDP_E_UNEXPECTED, DDP_E_VOLUME_DEDUP_DISABLED, DDP_E_VOLUME_UNSUPPORTED, IDedupBackupSupport interface [Data Deduplication API],RestoreFiles method, IDedupBackupSupport.RestoreFiles, IDedupBackupSupport::RestoreFiles, RestoreFiles, RestoreFiles method [Data Deduplication API], RestoreFiles method [Data Deduplication API],IDedupBackupSupport interface, S_FALSE, S_OK, ddpbackup/IDedupBackupSupport::RestoreFiles, dedup.idedupbackupsupport_restorefile, dedup.idedupbackupsupport_restorefiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDedupBackupSupport::RestoreFiles method
+# IDedupBackupSupport::RestoreFiles
 
 
 ## -description

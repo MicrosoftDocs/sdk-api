@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.ReleaseCallManager
-title: ITextDocument2::ReleaseCallManager method
+title: ITextDocument2::ReleaseCallManager
 author: windows-driver-content
 description: Releases the call manager.
 old-location: controls\itextdocument2_releasecallmanager.htm
 old-project: Controls
 ms.assetid: 4d17fdcb-502c-43ab-9f74-7247a1f14f45
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], ReleaseCallManager method, ITextDocument2::ReleaseCallManager, ReleaseCallManager method [Windows Controls], ReleaseCallManager method [Windows Controls], ITextDocument2 interface, ReleaseCallManager,ITextDocument2.ReleaseCallManager, controls.itextdocument2_releasecallmanager, tom/ITextDocument2::ReleaseCallManager
+ms.date: 4/27/2018
+ms.keywords: ITextDocument2 interface [Windows Controls],ReleaseCallManager method, ITextDocument2.ReleaseCallManager, ITextDocument2::ReleaseCallManager, ReleaseCallManager, ReleaseCallManager method [Windows Controls], ReleaseCallManager method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_releasecallmanager, tom/ITextDocument2::ReleaseCallManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::ReleaseCallManager method
+# ITextDocument2::ReleaseCallManager
 
 
 ## -description

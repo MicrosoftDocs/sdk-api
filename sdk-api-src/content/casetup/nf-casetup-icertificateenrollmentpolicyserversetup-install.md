@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.Install
-title: ICertificateEnrollmentPolicyServerSetup::Install method
+title: ICertificateEnrollmentPolicyServerSetup::Install
 author: windows-driver-content
 description: Installs the Certificate Enrollment Policy (CEP) Web Service configured by the ICertificateEnrollmentPolicyServerSetup object.
 old-location: security\icertificateenrollmentpolicyserversetup_install.htm
 old-project: SecCrypto
 ms.assetid: 66572F97-CE34-4C6B-9083-269A1AE2876D
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertificateEnrollmentPolicyServerSetup, ICertificateEnrollmentPolicyServerSetup interface [Security], Install method, ICertificateEnrollmentPolicyServerSetup::Install, Install method [Security], Install method [Security], ICertificateEnrollmentPolicyServerSetup interface, Install,ICertificateEnrollmentPolicyServerSetup.Install, casetup/ICertificateEnrollmentPolicyServerSetup::Install, security.icertificateenrollmentpolicyserversetup_install
+ms.date: 4/30/2018
+ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],Install method, ICertificateEnrollmentPolicyServerSetup.Install, ICertificateEnrollmentPolicyServerSetup::Install, Install, Install method [Security], Install method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::Install, security.icertificateenrollmentpolicyserversetup_install
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertificateEnrollmentPolicyServerSetup::Install method
+# ICertificateEnrollmentPolicyServerSetup::Install
 
 
 ## -description

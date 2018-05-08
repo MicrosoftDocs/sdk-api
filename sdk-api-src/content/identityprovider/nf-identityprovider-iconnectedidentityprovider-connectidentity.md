@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IConnectedIdentityProvider.ConnectIdentity
-title: IConnectedIdentityProvider::ConnectIdentity method
+title: IConnectedIdentityProvider::ConnectIdentity
 author: windows-driver-content
 description: Connects an identity to a domain user.
 old-location: security\iconnectedidentityprovider_connectidentity.htm
@@ -8,7 +8,7 @@ old-project: SecAuthN
 ms.assetid: 945CBE34-E364-41FF-8CE4-0FB0BEF3BC69
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ConnectIdentity method [Security], ConnectIdentity method [Security], IConnectedIdentityProvider interface, ConnectIdentity,IConnectedIdentityProvider.ConnectIdentity, IConnectedIdentityProvider, IConnectedIdentityProvider interface [Security], ConnectIdentity method, IConnectedIdentityProvider::ConnectIdentity, identityprovider/IConnectedIdentityProvider::ConnectIdentity, security.iconnectedidentityprovider_connectidentity
+ms.keywords: ConnectIdentity, ConnectIdentity method [Security], ConnectIdentity method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],ConnectIdentity method, IConnectedIdentityProvider.ConnectIdentity, IConnectedIdentityProvider::ConnectIdentity, identityprovider/IConnectedIdentityProvider::ConnectIdentity, security.iconnectedidentityprovider_connectidentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IConnectedIdentityProvider::ConnectIdentity method
+# IConnectedIdentityProvider::ConnectIdentity
 
 
 ## -description

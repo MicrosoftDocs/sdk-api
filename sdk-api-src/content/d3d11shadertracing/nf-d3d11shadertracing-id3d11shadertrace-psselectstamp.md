@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.PSSelectStamp
-title: ID3D11ShaderTrace::PSSelectStamp method
+title: ID3D11ShaderTrace::PSSelectStamp
 author: windows-driver-content
 description: Sets the specified pixel-shader stamp.
 old-location: direct3d11\id3d11shadertrace_psselectstamp.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 83967A6B-E8AC-4812-8D55-62F4C065E723
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11ShaderTrace, ID3D11ShaderTrace interface [Direct3D 11], PSSelectStamp method, ID3D11ShaderTrace::PSSelectStamp, PSSelectStamp method [Direct3D 11], PSSelectStamp method [Direct3D 11], ID3D11ShaderTrace interface, PSSelectStamp,ID3D11ShaderTrace.PSSelectStamp, d3d11shadertracing/ID3D11ShaderTrace::PSSelectStamp, direct3d11.id3d11shadertrace_psselectstamp
+ms.keywords: ID3D11ShaderTrace interface [Direct3D 11],PSSelectStamp method, ID3D11ShaderTrace.PSSelectStamp, ID3D11ShaderTrace::PSSelectStamp, PSSelectStamp, PSSelectStamp method [Direct3D 11], PSSelectStamp method [Direct3D 11],ID3D11ShaderTrace interface, d3d11shadertracing/ID3D11ShaderTrace::PSSelectStamp, direct3d11.id3d11shadertrace_psselectstamp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: D3D11SDKLayers.dll; D3D11_1SDKLayers.dll; D3D11_2SDKLayers.dll
 req.irql: 
 ---
 
-# ID3D11ShaderTrace::PSSelectStamp method
+# ID3D11ShaderTrace::PSSelectStamp
 
 
 ## -description

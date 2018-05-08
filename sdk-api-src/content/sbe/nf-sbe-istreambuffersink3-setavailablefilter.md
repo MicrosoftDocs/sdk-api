@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferSink3.SetAvailableFilter
-title: IStreamBufferSink3::SetAvailableFilter method
+title: IStreamBufferSink3::SetAvailableFilter
 author: windows-driver-content
 description: The SetAvailableFilter method limits how far the Stream Buffer Source filter can seek backward, relative to the current recording position.
 old-location: mstv\istreambuffersink3_setavailablefilter.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 81822768-f627-4324-815f-51d06b4bd7b3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IStreamBufferSink3, IStreamBufferSink3 interface [Microsoft TV Technologies], SetAvailableFilter method, IStreamBufferSink3::SetAvailableFilter, IStreamBufferSink3SetAvailableFilter, SetAvailableFilter method [Microsoft TV Technologies], SetAvailableFilter method [Microsoft TV Technologies], IStreamBufferSink3 interface, SetAvailableFilter,IStreamBufferSink3.SetAvailableFilter, mstv.istreambuffersink3_setavailablefilter, sbe/IStreamBufferSink3::SetAvailableFilter
+ms.keywords: IStreamBufferSink3 interface [Microsoft TV Technologies],SetAvailableFilter method, IStreamBufferSink3.SetAvailableFilter, IStreamBufferSink3::SetAvailableFilter, IStreamBufferSink3SetAvailableFilter, SetAvailableFilter, SetAvailableFilter method [Microsoft TV Technologies], SetAvailableFilter method [Microsoft TV Technologies],IStreamBufferSink3 interface, mstv.istreambuffersink3_setavailablefilter, sbe/IStreamBufferSink3::SetAvailableFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferSink3::SetAvailableFilter method
+# IStreamBufferSink3::SetAvailableFilter
 
 
 ## -description

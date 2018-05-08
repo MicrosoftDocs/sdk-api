@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.StopRecord
-title: IMFCaptureEngine::StopRecord method
+title: IMFCaptureEngine::StopRecord
 author: windows-driver-content
 description: Stops recording.
 old-location: mf\imfcaptureengine_stoprecord.htm
 old-project: medfound
 ms.assetid: 737C23E0-D4EF-4630-A460-2AE56FE50A12
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCaptureEngine, IMFCaptureEngine interface [Media Foundation], StopRecord method, IMFCaptureEngine::StopRecord, StopRecord method [Media Foundation], StopRecord method [Media Foundation], IMFCaptureEngine interface, StopRecord,IMFCaptureEngine.StopRecord, mf.imfcaptureengine_stoprecord, mfcaptureengine/IMFCaptureEngine::StopRecord
+ms.date: 5/3/2018
+ms.keywords: IMFCaptureEngine interface [Media Foundation],StopRecord method, IMFCaptureEngine.StopRecord, IMFCaptureEngine::StopRecord, StopRecord, StopRecord method [Media Foundation], StopRecord method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_stoprecord, mfcaptureengine/IMFCaptureEngine::StopRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureEngine::StopRecord method
+# IMFCaptureEngine::StopRecord
 
 
 ## -description

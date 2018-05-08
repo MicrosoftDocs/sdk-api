@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackageFromStream
-title: IXpsOMObjectFactory::CreatePackageFromStream method
+title: IXpsOMObjectFactory::CreatePackageFromStream
 author: windows-driver-content
 description: Opens a stream that contains an XPS package, and returns an instantiated XPS document object tree.
 old-location: xps\ixpsomobjectfactory_createpackagefromstream.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 4a4bb128-9480-4e50-8848-a2e1e715f4e3
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreatePackageFromStream method [XPS Documents and Packaging], CreatePackageFromStream method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreatePackageFromStream,IXpsOMObjectFactory.CreatePackageFromStream, FALSE, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreatePackageFromStream method, IXpsOMObjectFactory::CreatePackageFromStream, TRUE, xps.ixpsomobjectfactory_createpackagefromstream, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageFromStream
+ms.keywords: CreatePackageFromStream, CreatePackageFromStream method [XPS Documents and Packaging], CreatePackageFromStream method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageFromStream method, IXpsOMObjectFactory.CreatePackageFromStream, IXpsOMObjectFactory::CreatePackageFromStream, TRUE, xps.ixpsomobjectfactory_createpackagefromstream, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageFromStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreatePackageFromStream method
+# IXpsOMObjectFactory::CreatePackageFromStream
 
 
 ## -description

@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: ISCSI_TARGET_MAPPINGW (Unicode) and ISCSI_TARGET_MAPPINGA (ANSI)
 req.idl: 
 req.max-support: 
-req.namespace: Root\WMI
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.typenames: ISCSI_TARGET_MAPPINGW, *PISCSI_TARGET_MAPPINGW
@@ -98,6 +98,18 @@ The number of logical units (LUN) on the target.
 ### -field LUNList
 
 A list of SCSI_LUN_LIST structures that contain information about the LUNs associated with the target.
+
+
+### -field LUNList.size_is
+
+ 
+
+
+### -field LUNList.size_is.LUNCount
+
+ 
+
+
 
 
 ## -see-also

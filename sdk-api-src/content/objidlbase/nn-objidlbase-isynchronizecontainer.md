@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 6a5be504-b5fa-491c-ba65-74c5de39e263
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISynchronizeContainer, ISynchronizeContainer interface [COM], ISynchronizeContainer interface [COM], described, _com_isynchronizecontainer, com.isynchronizecontainer, objidlbase/ISynchronizeContainer
+ms.keywords: ISynchronizeContainer, ISynchronizeContainer interface [COM], ISynchronizeContainer interface [COM],described, _com_isynchronizecontainer, com.isynchronizecontainer, objidlbase/ISynchronizeContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

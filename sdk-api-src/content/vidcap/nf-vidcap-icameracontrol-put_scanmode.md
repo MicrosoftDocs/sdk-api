@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.put_ScanMode
-title: ICameraControl::put_ScanMode method
+title: ICameraControl::put_ScanMode
 author: windows-driver-content
 description: The put_ScanMode method sets the camera's scanning mode (interlaced or progressive).
 old-location: dshow\icameracontrol_put_scanmode.htm
 old-project: DirectShow
 ms.assetid: 74d5d2bd-4aa4-49f6-a02f-c53af1333a1b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], put_ScanMode method, ICameraControl::put_ScanMode, ICameraControlput_ScanMode, dshow.icameracontrol_put_scanmode, put_ScanMode method [DirectShow], put_ScanMode method [DirectShow], ICameraControl interface, put_ScanMode,ICameraControl.put_ScanMode, vidcap/ICameraControl::put_ScanMode
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],put_ScanMode method, ICameraControl.put_ScanMode, ICameraControl::put_ScanMode, ICameraControlput_ScanMode, dshow.icameracontrol_put_scanmode, put_ScanMode, put_ScanMode method [DirectShow], put_ScanMode method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_ScanMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::put_ScanMode method
+# ICameraControl::put_ScanMode
 
 
 ## -description

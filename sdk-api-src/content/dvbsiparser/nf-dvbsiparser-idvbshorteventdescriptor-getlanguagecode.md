@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbShortEventDescriptor.GetLanguageCode
-title: IDvbShortEventDescriptor::GetLanguageCode method
+title: IDvbShortEventDescriptor::GetLanguageCode
 author: windows-driver-content
 description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) short event descriptor.
 old-location: mstv\idvbshorteventdescriptor_getlanguagecode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c531ae74-586f-4191-9b77-5f5837e551c4
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies], IDvbShortEventDescriptor interface, GetLanguageCode,IDvbShortEventDescriptor.GetLanguageCode, IDvbShortEventDescriptor, IDvbShortEventDescriptor interface [Microsoft TV Technologies], GetLanguageCode method, IDvbShortEventDescriptor::GetLanguageCode, dvbsiparser/IDvbShortEventDescriptor::GetLanguageCode, mstv.idvbshorteventdescriptor_getlanguagecode
+ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies],IDvbShortEventDescriptor interface, IDvbShortEventDescriptor interface [Microsoft TV Technologies],GetLanguageCode method, IDvbShortEventDescriptor.GetLanguageCode, IDvbShortEventDescriptor::GetLanguageCode, dvbsiparser/IDvbShortEventDescriptor::GetLanguageCode, mstv.idvbshorteventdescriptor_getlanguagecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbShortEventDescriptor::GetLanguageCode method
+# IDvbShortEventDescriptor::GetLanguageCode
 
 
 ## -description

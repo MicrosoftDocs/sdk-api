@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Autotune
-title: IBDA_FrequencyFilter::put_Autotune method
+title: IBDA_FrequencyFilter::put_Autotune
 author: windows-driver-content
 description: The put_Autotune method specifies whether to activate the device's autotune capabilities.
 old-location: mstv\ibda_frequencyfilter_put_autotune.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e2ca03b8-fd22-4b8f-90a9-42a235b0a675
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_FrequencyFilter, IBDA_FrequencyFilter interface [Microsoft TV Technologies], put_Autotune method, IBDA_FrequencyFilter::put_Autotune, IBDA_FrequencyFilterput_Autotune, bdaiface/IBDA_FrequencyFilter::put_Autotune, mstv.ibda_frequencyfilter_put_autotune, put_Autotune method [Microsoft TV Technologies], put_Autotune method [Microsoft TV Technologies], IBDA_FrequencyFilter interface, put_Autotune,IBDA_FrequencyFilter.put_Autotune
+ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Autotune method, IBDA_FrequencyFilter.put_Autotune, IBDA_FrequencyFilter::put_Autotune, IBDA_FrequencyFilterput_Autotune, bdaiface/IBDA_FrequencyFilter::put_Autotune, mstv.ibda_frequencyfilter_put_autotune, put_Autotune, put_Autotune method [Microsoft TV Technologies], put_Autotune method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_FrequencyFilter::put_Autotune method
+# IBDA_FrequencyFilter::put_Autotune
 
 
 ## -description

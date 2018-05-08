@@ -7,7 +7,7 @@ old-location: iphlp\getipnetworkconnectionbandwidthestimates.htm
 old-project: IpHlp
 ms.assetid: FE60AF0D-15B0-4223-8AE1-3E65483A1C5F
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: AF_INET, AF_INET6, GetIpNetworkConnectionBandwidthEstimates, GetIpNetworkConnectionBandwidthEstimates function [IP Helper], iphlp.getipnetworkconnectionbandwidthestimates, netioapi/GetIpNetworkConnectionBandwidthEstimates
 ms.prod: windows-hardware
 ms.technology: windows-devices

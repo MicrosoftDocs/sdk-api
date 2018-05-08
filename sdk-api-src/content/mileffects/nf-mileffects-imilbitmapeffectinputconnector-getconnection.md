@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectInputConnector.GetConnection
-title: IMILBitmapEffectInputConnector::GetConnection method
+title: IMILBitmapEffectInputConnector::GetConnection
 author: windows-driver-content
 description: Gets the IMILBitmapEffectOutputConnector the input connector is connected to.
 old-location: wibe\_wibe_imilbitmapeffectinputconnector_getconnection.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinputconnector\getconnection.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetConnection method [WPF Bitmap Effects], GetConnection method [WPF Bitmap Effects], IMILBitmapEffectInputConnector interface, GetConnection,IMILBitmapEffectInputConnector.GetConnection, IMILBitmapEffectInputConnector, IMILBitmapEffectInputConnector interface [WPF Bitmap Effects], GetConnection method, IMILBitmapEffectInputConnector::GetConnection, _wibe_imilbitmapeffectinputconnector_getconnection, mileffects/IMILBitmapEffectInputConnector::GetConnection, wibe._wibe_imilbitmapeffectinputconnector_getconnection
+ms.keywords: GetConnection, GetConnection method [WPF Bitmap Effects], GetConnection method [WPF Bitmap Effects],IMILBitmapEffectInputConnector interface, IMILBitmapEffectInputConnector interface [WPF Bitmap Effects],GetConnection method, IMILBitmapEffectInputConnector.GetConnection, IMILBitmapEffectInputConnector::GetConnection, _wibe_imilbitmapeffectinputconnector_getconnection, mileffects/IMILBitmapEffectInputConnector::GetConnection, wibe._wibe_imilbitmapeffectinputconnector_getconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectInputConnector::GetConnection method
+# IMILBitmapEffectInputConnector::GetConnection
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_Type
-title: IFaxJob::get_Type method
+title: IFaxJob::get_Type
 author: windows-driver-content
 description: The Type property is a number that describes the type of fax job represented by the object.
 old-location: fax\_mfax_ifaxjob_get_type_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5jad.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxJob object [Fax Service], Type property, IFaxJob, IFaxJob::get_Type, JT_FAIL_RECEIVE, JT_RECEIVE, JT_ROUTING, JT_SEND, JT_UNKNOWN, Type property [Fax Service], Type property [Fax Service], FaxJob object, _mfax_ifaxjob_get_type, fax._mfax_ifaxjob_get_type, fax._mfax_ifaxjob_get_type_vb, get_Type,IFaxJob.get_Type
+ms.keywords: FaxJob object [Fax Service],Type property, FaxJob.Type, IFaxJob.get_Type, IFaxJob::get_Type, JT_FAIL_RECEIVE, JT_RECEIVE, JT_ROUTING, JT_SEND, JT_UNKNOWN, Type property [Fax Service], Type property [Fax Service],FaxJob object, _mfax_ifaxjob_get_type, fax._mfax_ifaxjob_get_type, fax._mfax_ifaxjob_get_type_vb, get_Type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxJob::get_Type method
+# IFaxJob::get_Type
 
 
 ## -description

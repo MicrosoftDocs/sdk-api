@@ -7,7 +7,7 @@ old-location: rpc\rpcssswapclientallocfree.htm
 old-project: Rpc
 ms.assetid: 1ed7161b-f49c-48bc-8b64-3a9596833f19
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcSsSwapClientAllocFree, RpcSsSwapClientAllocFree function [RPC], _rpc_rpcssswapclientallocfree, rpc.rpcssswapclientallocfree, rpcndr/RpcSsSwapClientAllocFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

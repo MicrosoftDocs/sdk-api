@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesGhostInfo.IsGhosted
-title: IOfflineFilesGhostInfo::IsGhosted method
+title: IOfflineFilesGhostInfo::IsGhosted
 author: windows-driver-content
 description: Determines whether the item is ghosted.
 old-location: of\iofflinefilesghostinfo_isghosted.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: b2e8ca73-4186-4971-b5be-41ecfc6b5e4a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesGhostInfo, IOfflineFilesGhostInfo interface [Offline Files], IsGhosted method, IOfflineFilesGhostInfo::IsGhosted, IsGhosted method [Offline Files], IsGhosted method [Offline Files], IOfflineFilesGhostInfo interface, IsGhosted,IOfflineFilesGhostInfo.IsGhosted, cscobj/IOfflineFilesGhostInfo::IsGhosted, of.iofflinefilesghostinfo_isghosted
+ms.keywords: IOfflineFilesGhostInfo interface [Offline Files],IsGhosted method, IOfflineFilesGhostInfo.IsGhosted, IOfflineFilesGhostInfo::IsGhosted, IsGhosted, IsGhosted method [Offline Files], IsGhosted method [Offline Files],IOfflineFilesGhostInfo interface, cscobj/IOfflineFilesGhostInfo::IsGhosted, of.iofflinefilesghostinfo_isghosted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesGhostInfo::IsGhosted method
+# IOfflineFilesGhostInfo::IsGhosted
 
 
 ## -description

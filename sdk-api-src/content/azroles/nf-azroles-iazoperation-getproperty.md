@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzOperation.GetProperty
-title: IAzOperation::GetProperty method
+title: IAzOperation::GetProperty
 author: windows-driver-content
 description: Returns the IAzOperation object property with the specified property ID.
 old-location: security\iazoperation_getproperty.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 211def10-d696-4b23-b54c-21f1f9b8f7ff
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_OPERATION_ID, AZ_PROP_WRITABLE, AzOperation object [Security], GetProperty method, GetProperty method [Security], GetProperty method [Security], AzOperation object, GetProperty method [Security], IAzOperation interface, GetProperty,IAzOperation.GetProperty, IAzOperation, IAzOperation interface [Security], GetProperty method, IAzOperation::GetProperty, azroles/IAzOperation::GetProperty, security.iazoperation_getproperty
+ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_OPERATION_ID, AZ_PROP_WRITABLE, AzOperation object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzOperation object, GetProperty method [Security],IAzOperation interface, IAzOperation interface [Security],GetProperty method, IAzOperation.GetProperty, IAzOperation::GetProperty, azroles/IAzOperation::GetProperty, security.iazoperation_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzOperation::GetProperty method
+# IAzOperation::GetProperty
 
 
 ## -description

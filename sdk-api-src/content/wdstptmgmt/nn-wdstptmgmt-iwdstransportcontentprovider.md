@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: DF94E03F-0A9A-4467-B932-28227B6BB3C4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportContentProvider, IWdsTransportContentProvider interface [Windows Deployment Services], IWdsTransportContentProvider interface [Windows Deployment Services], described, wds.iwdstransportcontentprovider, wdstptmgmt/IWdsTransportContentProvider
+ms.keywords: IWdsTransportContentProvider, IWdsTransportContentProvider interface [Windows Deployment Services], IWdsTransportContentProvider interface [Windows Deployment Services],described, wds.iwdstransportcontentprovider, wdstptmgmt/IWdsTransportContentProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

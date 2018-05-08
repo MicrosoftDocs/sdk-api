@@ -1,14 +1,14 @@
 ---
 UID: NF:wmpplug.IWMPPluginUI.Create
-title: IWMPPluginUI::Create method
+title: IWMPPluginUI::Create
 author: windows-driver-content
 description: The Create method is called by Windows Media Player to instantiate the plug-in user interface. This method is passed a handle to a parent window of the plug-in window. A handle to the newly created window is then passed back to the calling method.
 old-location: wmp\iwmppluginui_create.htm
 old-project: WMP
 ms.assetid: f7ba2985-42a2-456f-8195-a292c90b440d
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: Create method [Windows Media Player], Create method [Windows Media Player], IWMPPluginUI interface, Create,IWMPPluginUI.Create, IWMPPluginUI, IWMPPluginUI interface [Windows Media Player], Create method, IWMPPluginUI::Create, IWMPPluginUICreate, wmp.iwmppluginui_create, wmpplug/IWMPPluginUI::Create
+ms.date: 5/4/2018
+ms.keywords: Create, Create method [Windows Media Player], Create method [Windows Media Player],IWMPPluginUI interface, IWMPPluginUI interface [Windows Media Player],Create method, IWMPPluginUI.Create, IWMPPluginUI::Create, IWMPPluginUICreate, wmp.iwmppluginui_create, wmpplug/IWMPPluginUI::Create
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPluginUI::Create method
+# IWMPPluginUI::Create
 
 
 ## -description

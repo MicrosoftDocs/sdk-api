@@ -1,0 +1,8 @@
+# [Windows Runtime C++ reference](../_winrt/index.md)
+## [Windows.Data.Pdf.Interop.h](index.md)
+### [IPdfRendererNative::pdf](../windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetodevicecontext.md)
+### [IPdfRendererNative::pdf](../windows.data.pdf.interop/nf-windows-data-pdf-interop-ipdfrenderernative-renderpagetosurface.md)
+### [PdfCreateRenderer function](../windows.data.pdf.interop/nf-windows-data-pdf-interop-pdfcreaterenderer.md)
+### [PdfRenderParams function](../windows.data.pdf.interop/nf-windows-data-pdf-interop-pdfrenderparams.md)
+### [IPdfRendererNative interface](../windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative.md)
+### [PDF_RENDER_PARAMS structure](../windows.data.pdf.interop/ns-windows-data-pdf-interop-pdf_render_params.md)

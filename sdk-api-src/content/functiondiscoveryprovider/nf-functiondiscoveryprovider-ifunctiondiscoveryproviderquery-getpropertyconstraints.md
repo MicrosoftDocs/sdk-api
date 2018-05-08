@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery.GetPropertyConstraints
-title: IFunctionDiscoveryProviderQuery::GetPropertyConstraints method
+title: IFunctionDiscoveryProviderQuery::GetPropertyConstraints
 author: windows-driver-content
 description: Retrieves the current property constraints.
 old-location: ncd\ifunctiondiscoveryproviderquery_getpropertyconstraints.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: d8a45d1b-fb1e-4288-a42a-b967cc9b4533
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetPropertyConstraints method, GetPropertyConstraints method, IFunctionDiscoveryProviderQuery interface, GetPropertyConstraints,IFunctionDiscoveryProviderQuery.GetPropertyConstraints, IFunctionDiscoveryProviderQuery, IFunctionDiscoveryProviderQuery interface, GetPropertyConstraints method, IFunctionDiscoveryProviderQuery::GetPropertyConstraints, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetPropertyConstraints, ncd.ifunctiondiscoveryproviderquery_getpropertyconstraints
+ms.keywords: GetPropertyConstraints, GetPropertyConstraints method, GetPropertyConstraints method,IFunctionDiscoveryProviderQuery interface, IFunctionDiscoveryProviderQuery interface,GetPropertyConstraints method, IFunctionDiscoveryProviderQuery.GetPropertyConstraints, IFunctionDiscoveryProviderQuery::GetPropertyConstraints, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetPropertyConstraints, ncd.ifunctiondiscoveryproviderquery_getpropertyconstraints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionDiscoveryProviderQuery::GetPropertyConstraints method
+# IFunctionDiscoveryProviderQuery::GetPropertyConstraints
 
 
 ## -description

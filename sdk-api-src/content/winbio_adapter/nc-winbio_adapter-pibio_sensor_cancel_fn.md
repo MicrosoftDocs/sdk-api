@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 11a0728e-1833-43b3-8ae2-0393743bb19b
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_SENSOR_CANCEL_FN, SensorAdapterCancel, SensorAdapterCancel callback function [Windows Biometric Framework API], secbiomet.sensoradaptercancel, winbio_adapter/SensorAdapterCancel
+ms.keywords: PIBIO_SENSOR_CANCEL_FN, PIBIO_SENSOR_CANCEL_FN callback, SensorAdapterCancel, SensorAdapterCancel callback function [Windows Biometric Framework API], secbiomet.sensoradaptercancel, winbio_adapter/SensorAdapterCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_SENSOR_CANCEL_FN callback
+# PIBIO_SENSOR_CANCEL_FN callback function
 
 
 ## -description

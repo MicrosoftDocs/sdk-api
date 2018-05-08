@@ -1,14 +1,14 @@
 ---
 UID: NF:mfsharingengine.IPlayToControl.Disconnect
-title: IPlayToControl::Disconnect method
+title: IPlayToControl::Disconnect
 author: windows-driver-content
 description: Disconnects the media element from the media sharing engine.
 old-location: mf\iplaytocontrol_disconnect.htm
 old-project: medfound
 ms.assetid: 59EA778D-25DA-4EEA-8601-F6D72486410B
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: Disconnect method [Media Foundation], Disconnect method [Media Foundation], IPlayToControl interface, Disconnect,IPlayToControl.Disconnect, IPlayToControl, IPlayToControl interface [Media Foundation], Disconnect method, IPlayToControl::Disconnect, mf.iplaytocontrol_disconnect, mfsharingengine/IPlayToControl::Disconnect
+ms.date: 5/3/2018
+ms.keywords: Disconnect, Disconnect method [Media Foundation], Disconnect method [Media Foundation],IPlayToControl interface, IPlayToControl interface [Media Foundation],Disconnect method, IPlayToControl.Disconnect, IPlayToControl::Disconnect, mf.iplaytocontrol_disconnect, mfsharingengine/IPlayToControl::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IPlayToControl::Disconnect method
+# IPlayToControl::Disconnect
 
 
 ## -description

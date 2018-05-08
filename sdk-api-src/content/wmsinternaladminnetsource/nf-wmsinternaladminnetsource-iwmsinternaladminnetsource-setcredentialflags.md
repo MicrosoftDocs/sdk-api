@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.SetCredentialFlags
-title: IWMSInternalAdminNetSource::SetCredentialFlags method
+title: IWMSInternalAdminNetSource::SetCredentialFlags
 author: windows-driver-content
 description: The SetCredentialFlags method is used to set the user preference for automatic password caching.
 old-location: wmformat\iwmsinternaladminnetsource_setcredentialflags.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: af6208b3-84f6-44d1-9587-140044f2b2f0
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], SetCredentialFlags method, IWMSInternalAdminNetSource::SetCredentialFlags, IWMSInternalAdminNetSourceSetCredentialFlags, SetCredentialFlags method [windows Media Format], SetCredentialFlags method [windows Media Format], IWMSInternalAdminNetSource interface, SetCredentialFlags,IWMSInternalAdminNetSource.SetCredentialFlags, wmformat.iwmsinternaladminnetsource_setcredentialflags, wmsinternaladminnetsource/IWMSInternalAdminNetSource::SetCredentialFlags
+ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],SetCredentialFlags method, IWMSInternalAdminNetSource.SetCredentialFlags, IWMSInternalAdminNetSource::SetCredentialFlags, IWMSInternalAdminNetSourceSetCredentialFlags, SetCredentialFlags, SetCredentialFlags method [windows Media Format], SetCredentialFlags method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_setcredentialflags, wmsinternaladminnetsource/IWMSInternalAdminNetSource::SetCredentialFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSInternalAdminNetSource::SetCredentialFlags method
+# IWMSInternalAdminNetSource::SetCredentialFlags
 
 
 ## -description

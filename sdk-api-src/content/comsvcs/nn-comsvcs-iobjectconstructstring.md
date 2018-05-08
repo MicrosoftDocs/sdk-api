@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: ebfa8384-1efd-4775-b66f-b8048af33abc
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IObjectConstructString, IObjectConstructString interface [COM+], IObjectConstructString interface [COM+], described, _cos_IObjectConstructString, comsvcs/IObjectConstructString, cos.iobjectconstructstring
+ms.keywords: IObjectConstructString, IObjectConstructString interface [COM+], IObjectConstructString interface [COM+],described, _cos_IObjectConstructString, comsvcs/IObjectConstructString, cos.iobjectconstructstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

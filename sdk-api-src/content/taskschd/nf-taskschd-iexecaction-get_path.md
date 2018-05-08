@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IExecAction.get_Path
-title: IExecAction::get_Path method
+title: IExecAction::get_Path
 author: windows-driver-content
 description: Gets or sets the path to an executable file.
 old-location: taskschd\iexecaction_path.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 307e59e9-5460-40aa-bac7-fa8cb4755d35
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IExecAction, IExecAction interface [Task Scheduler], Path property, IExecAction.Path, IExecAction::get_Path, IExecAction::put_Path, Path property [Task Scheduler], Path property [Task Scheduler], IExecAction interface, get_Path,IExecAction.get_Path, taskschd.iexecaction_path, taskschd/IExecAction::Path, taskschd/IExecAction::get_Path, taskschd/IExecAction::put_Path
+ms.keywords: IExecAction interface [Task Scheduler],Path property, IExecAction.Path, IExecAction.get_Path, IExecAction::Path, IExecAction::get_Path, IExecAction::put_Path, Path property [Task Scheduler], Path property [Task Scheduler],IExecAction interface, get_Path, taskschd.iexecaction_path, taskschd/IExecAction::Path, taskschd/IExecAction::get_Path, taskschd/IExecAction::put_Path
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IExecAction::get_Path method
+# IExecAction::get_Path
 
 
 ## -description

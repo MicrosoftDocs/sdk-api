@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordEtmLocation
-title: IATSC_VCT::GetRecordEtmLocation method
+title: IATSC_VCT::GetRecordEtmLocation
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordetmlocation.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9884a9bd-bd5c-4d6a-a8b0-5ba1406c0210
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordEtmLocation method [Microsoft TV Technologies], GetRecordEtmLocation method [Microsoft TV Technologies], IATSC_VCT interface, GetRecordEtmLocation,IATSC_VCT.GetRecordEtmLocation, IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], GetRecordEtmLocation method, IATSC_VCT::GetRecordEtmLocation, IATSC_VCTGetRecordEtmLocation, atscpsipparser/IATSC_VCT::GetRecordEtmLocation, mstv.iatsc_vct_getrecordetmlocation
+ms.keywords: GetRecordEtmLocation, GetRecordEtmLocation method [Microsoft TV Technologies], GetRecordEtmLocation method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordEtmLocation method, IATSC_VCT.GetRecordEtmLocation, IATSC_VCT::GetRecordEtmLocation, IATSC_VCTGetRecordEtmLocation, atscpsipparser/IATSC_VCT::GetRecordEtmLocation, mstv.iatsc_vct_getrecordetmlocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_VCT::GetRecordEtmLocation method
+# IATSC_VCT::GetRecordEtmLocation
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocNetworks.Reset
-title: IEnumDot11AdHocNetworks::Reset method
+title: IEnumDot11AdHocNetworks::Reset
 author: windows-driver-content
 description: Resets to the beginning of the enumeration sequence.
 old-location: nwifi\ienumdot11adhocnetworks_reset.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: a8859b8e-9d77-423e-897c-a2c8cdea38ae
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IEnumDot11AdHocNetworks, IEnumDot11AdHocNetworks interface [NativeWIFI], Reset method, IEnumDot11AdHocNetworks::Reset, Reset method [NativeWIFI], Reset method [NativeWIFI], IEnumDot11AdHocNetworks interface, Reset,IEnumDot11AdHocNetworks.Reset, adhoc/IEnumDot11AdHocNetworks::Reset, nwifi.ienumdot11adhocnetworks_reset
+ms.keywords: IEnumDot11AdHocNetworks interface [NativeWIFI],Reset method, IEnumDot11AdHocNetworks.Reset, IEnumDot11AdHocNetworks::Reset, Reset, Reset method [NativeWIFI], Reset method [NativeWIFI],IEnumDot11AdHocNetworks interface, adhoc/IEnumDot11AdHocNetworks::Reset, nwifi.ienumdot11adhocnetworks_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IEnumDot11AdHocNetworks::Reset method
+# IEnumDot11AdHocNetworks::Reset
 
 
 ## -description

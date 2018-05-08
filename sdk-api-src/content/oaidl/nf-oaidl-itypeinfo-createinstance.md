@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo.CreateInstance
-title: ITypeInfo::CreateInstance method
+title: ITypeInfo::CreateInstance
 author: windows-driver-content
 description: Creates a new instance of a type that describes a component object class (coclass).
 old-location: automat\itypeinfo_createinstance.htm
 old-project: automat
 ms.assetid: b11c51e6-8ae7-482d-87eb-8175ca98eb63
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: CreateInstance method [Automation], CreateInstance method [Automation], ITypeInfo interface, CreateInstance,ITypeInfo.CreateInstance, ITypeInfo, ITypeInfo interface [Automation], CreateInstance method, ITypeInfo::CreateInstance, _oa96_ITypeInfo_CreateInstance, automat.itypeinfo_createinstance, oaidl/ITypeInfo::CreateInstance
+ms.date: 5/4/2018
+ms.keywords: CreateInstance, CreateInstance method [Automation], CreateInstance method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],CreateInstance method, ITypeInfo.CreateInstance, ITypeInfo::CreateInstance, _oa96_ITypeInfo_CreateInstance, automat.itypeinfo_createinstance, oaidl/ITypeInfo::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo::CreateInstance method
+# ITypeInfo::CreateInstance
 
 
 ## -description

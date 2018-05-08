@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMaster.ProgressUnadvise
-title: IDiscMaster::ProgressUnadvise method
+title: IDiscMaster::ProgressUnadvise
 author: windows-driver-content
 description: Cancels progress notifications for an application.
 old-location: imapi\idiscmaster_progressunadvise.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: b2729ff7-aefb-40cf-ae7b-9451fbe10bbb
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscMaster, IDiscMaster interface [IMAPI], ProgressUnadvise method, IDiscMaster::ProgressUnadvise, ProgressUnadvise method [IMAPI], ProgressUnadvise method [IMAPI], IDiscMaster interface, ProgressUnadvise,IDiscMaster.ProgressUnadvise, _win32_idiscmaster_progressunadvise, base.idiscmaster_progressunadvise, imapi.idiscmaster_progressunadvise, imapi/IDiscMaster::ProgressUnadvise
+ms.keywords: IDiscMaster interface [IMAPI],ProgressUnadvise method, IDiscMaster.ProgressUnadvise, IDiscMaster::ProgressUnadvise, ProgressUnadvise, ProgressUnadvise method [IMAPI], ProgressUnadvise method [IMAPI],IDiscMaster interface, _win32_idiscmaster_progressunadvise, base.idiscmaster_progressunadvise, imapi.idiscmaster_progressunadvise, imapi/IDiscMaster::ProgressUnadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscMaster::ProgressUnadvise method
+# IDiscMaster::ProgressUnadvise
 
 
 ## -description

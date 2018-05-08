@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastScope.get_ScopeDescription
-title: IMcastScope::get_ScopeDescription method
+title: IMcastScope::get_ScopeDescription
 author: windows-driver-content
 description: The get_ScopeDescription method obtains a textual description associated with this scope. The description is used only for clarifying the purpose or meaning of a scope and is not needed for any subsequent calls.
 old-location: tapi3\imcastscope_get_scopedescription.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: e675ba4a-8e5f-42a6-8edf-9b136cf9dd46
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IMcastScope, IMcastScope interface [TAPI 2.2], get_ScopeDescription method, IMcastScope::get_ScopeDescription, _tapi3_imcastscope_get_scopedescription, get_ScopeDescription method [TAPI 2.2], get_ScopeDescription method [TAPI 2.2], IMcastScope interface, get_ScopeDescription,IMcastScope.get_ScopeDescription, mdhcp/IMcastScope::get_ScopeDescription, tapi3.imcastscope_get_scopedescription
+ms.keywords: IMcastScope interface [TAPI 2.2],get_ScopeDescription method, IMcastScope.get_ScopeDescription, IMcastScope::get_ScopeDescription, _tapi3_imcastscope_get_scopedescription, get_ScopeDescription, get_ScopeDescription method [TAPI 2.2], get_ScopeDescription method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_ScopeDescription, tapi3.imcastscope_get_scopedescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMcastScope::get_ScopeDescription method
+# IMcastScope::get_ScopeDescription
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskService.get_Connected
-title: ITaskService::get_Connected method
+title: ITaskService::get_Connected
 author: windows-driver-content
 description: Gets a Boolean value that indicates if you are connected to the Task Scheduler service.
 old-location: taskschd\itaskservice_connected.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 51450195-f11a-469a-a98f-4d1e00343e41
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Connected property [Task Scheduler], Connected property [Task Scheduler], ITaskService interface, ITaskService, ITaskService interface [Task Scheduler], Connected property, ITaskService.Connected, ITaskService::get_Connected, get_Connected,ITaskService.get_Connected, taskschd.itaskservice_connected, taskschd/ITaskService::Connected, taskschd/ITaskService::get_Connected
+ms.keywords: Connected property [Task Scheduler], Connected property [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],Connected property, ITaskService.Connected, ITaskService.get_Connected, ITaskService::Connected, ITaskService::get_Connected, get_Connected, taskschd.itaskservice_connected, taskschd/ITaskService::Connected, taskschd/ITaskService::get_Connected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskService::get_Connected method
+# ITaskService::get_Connected
 
 
 ## -description

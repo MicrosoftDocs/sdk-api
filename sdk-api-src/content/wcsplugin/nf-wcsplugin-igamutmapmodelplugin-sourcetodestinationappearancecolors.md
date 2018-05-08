@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IGamutMapModelPlugIn.SourceToDestinationAppearanceColors
-title: IGamutMapModelPlugIn::SourceToDestinationAppearanceColors method
+title: IGamutMapModelPlugIn::SourceToDestinationAppearanceColors
 author: windows-driver-content
 description: Returns the appropriate gamut-mapped appearance colors in response to the specified number of colors and the CIEJCh colors.
 old-location: wcs\IGamutMapModelPlugIn_SourceToDestinationAppearanceColors.htm
@@ -8,7 +8,7 @@ old-project: WCS
 ms.assetid: b98f05db-f003-4a3f-9bc3-0675719e339d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IGamutMapModelPlugIn, IGamutMapModelPlugIn interface [Windows Color System], SourceToDestinationAppearanceColors method, IGamutMapModelPlugIn::SourceToDestinationAppearanceColors, SourceToDestinationAppearanceColors method [Windows Color System], SourceToDestinationAppearanceColors method [Windows Color System], IGamutMapModelPlugIn interface, SourceToDestinationAppearanceColors,IGamutMapModelPlugIn.SourceToDestinationAppearanceColors, _color_IGamutMapModelPlugIn::SourceToDestinationAppearanceColors, wcs.IGamutMapModelPlugIn_SourceToDestinationAppearanceColors, wcsplugin/IGamutMapModelPlugIn::SourceToDestinationAppearanceColors
+ms.keywords: IGamutMapModelPlugIn interface [Windows Color System],SourceToDestinationAppearanceColors method, IGamutMapModelPlugIn.SourceToDestinationAppearanceColors, IGamutMapModelPlugIn::SourceToDestinationAppearanceColors, SourceToDestinationAppearanceColors, SourceToDestinationAppearanceColors method [Windows Color System], SourceToDestinationAppearanceColors method [Windows Color System],IGamutMapModelPlugIn interface, _color_IGamutMapModelPlugIn::SourceToDestinationAppearanceColors, wcs.IGamutMapModelPlugIn_SourceToDestinationAppearanceColors, wcsplugin/IGamutMapModelPlugIn::SourceToDestinationAppearanceColors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IGamutMapModelPlugIn::SourceToDestinationAppearanceColors method
+# IGamutMapModelPlugIn::SourceToDestinationAppearanceColors
 
 
 ## -description

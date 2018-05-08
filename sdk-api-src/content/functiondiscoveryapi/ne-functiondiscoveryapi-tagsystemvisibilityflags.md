@@ -25,7 +25,7 @@ req.idl: FunctionDiscoveryAPI.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
-req.type-library: Srm.dll
+req.type-library: 
 req.typenames: SystemVisibilityFlags
 topic_type:
 -	APIRef

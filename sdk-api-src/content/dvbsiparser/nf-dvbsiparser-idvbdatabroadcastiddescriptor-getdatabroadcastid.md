@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastIDDescriptor.GetDataBroadcastID
-title: IDvbDataBroadcastIDDescriptor::GetDataBroadcastID method
+title: IDvbDataBroadcastIDDescriptor::GetDataBroadcastID
 author: windows-driver-content
 description: Gets the identifier that identifies the network broadcast from a Digital Video Broadcast (DVB) data broadcast descriptor.
 old-location: mstv\idvbdatabroadcastiddescriptor_getdatabroadcastid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2addfb2b-80ab-47a7-81dd-f660e5fe1138
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDataBroadcastID method [Microsoft TV Technologies], GetDataBroadcastID method [Microsoft TV Technologies], IDvbDataBroadcastIDDescriptor interface, GetDataBroadcastID,IDvbDataBroadcastIDDescriptor.GetDataBroadcastID, IDvbDataBroadcastIDDescriptor, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies], GetDataBroadcastID method, IDvbDataBroadcastIDDescriptor::GetDataBroadcastID, dvbsiparser/IDvbDataBroadcastIDDescriptor::GetDataBroadcastID, mstv.idvbdatabroadcastiddescriptor_getdatabroadcastid
+ms.keywords: GetDataBroadcastID, GetDataBroadcastID method [Microsoft TV Technologies], GetDataBroadcastID method [Microsoft TV Technologies],IDvbDataBroadcastIDDescriptor interface, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies],GetDataBroadcastID method, IDvbDataBroadcastIDDescriptor.GetDataBroadcastID, IDvbDataBroadcastIDDescriptor::GetDataBroadcastID, dvbsiparser/IDvbDataBroadcastIDDescriptor::GetDataBroadcastID, mstv.idvbdatabroadcastiddescriptor_getdatabroadcastid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbDataBroadcastIDDescriptor::GetDataBroadcastID method
+# IDvbDataBroadcastIDDescriptor::GetDataBroadcastID
 
 
 ## -description

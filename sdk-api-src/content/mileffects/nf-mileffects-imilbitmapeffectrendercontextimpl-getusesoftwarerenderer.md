@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.GetUseSoftwareRenderer
-title: IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer method
+title: IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer
 author: windows-driver-content
 description: Gets a value that indicates whether to use software rendering.
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\getusesoftwarerenderer.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetUseSoftwareRenderer method [WPF Bitmap Effects], GetUseSoftwareRenderer method [WPF Bitmap Effects], IMILBitmapEffectRenderContextImpl interface, GetUseSoftwareRenderer,IMILBitmapEffectRenderContextImpl.GetUseSoftwareRenderer, IMILBitmapEffectRenderContextImpl, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects], GetUseSoftwareRenderer method, IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer, _wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer, mileffects/IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer, wibe._wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer
+ms.keywords: GetUseSoftwareRenderer, GetUseSoftwareRenderer method [WPF Bitmap Effects], GetUseSoftwareRenderer method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],GetUseSoftwareRenderer method, IMILBitmapEffectRenderContextImpl.GetUseSoftwareRenderer, IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer, _wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer, mileffects/IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer, wibe._wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer method
+# IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer
 
 
 ## -description

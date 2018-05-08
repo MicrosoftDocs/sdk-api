@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetConnection.GetProperties
-title: INetConnection::GetProperties method
+title: INetConnection::GetProperties
 author: windows-driver-content
 description: The GetProperties method retrieves a structure that contains the properties for this network connection.
 old-location: ics\inetconnection_getproperties.htm
 old-project: ICS
 ms.assetid: ab27a7fd-061f-4ea2-8ce8-23d59957a46f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: GetProperties method [ICS/ICF], GetProperties method [ICS/ICF], INetConnection interface, GetProperties,INetConnection.GetProperties, INetConnection, INetConnection interface [ICS/ICF], GetProperties method, INetConnection::GetProperties, _ics_inetconnection_getproperties, ics.inetconnection_getproperties, netcon/INetConnection::GetProperties
+ms.date: 5/1/2018
+ms.keywords: GetProperties, GetProperties method [ICS/ICF], GetProperties method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],GetProperties method, INetConnection.GetProperties, INetConnection::GetProperties, _ics_inetconnection_getproperties, ics.inetconnection_getproperties, netcon/INetConnection::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetConnection::GetProperties method
+# INetConnection::GetProperties
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNDevice.SetPassword
-title: IWCNDevice::SetPassword method
+title: IWCNDevice::SetPassword
 author: windows-driver-content
 description: The IWCNDevice::SetPassword method configures the authentication method value, and if required, a password used for the pending session. This method may only be called prior to IWCNDevice::Connect.
 old-location: wcn\iwcndevice_setpassword.htm
@@ -8,7 +8,7 @@ old-project: wcn
 ms.assetid: 51d03336-3861-4585-b493-d6765c28b1eb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWCNDevice, IWCNDevice interface [Windows Connect Now], SetPassword method, IWCNDevice::SetPassword, SetPassword method [Windows Connect Now], SetPassword method [Windows Connect Now], IWCNDevice interface, SetPassword,IWCNDevice.SetPassword, WCN_PASSWORD_TYPE_PIN, WCN_PASSWORD_TYPE_PUSH_BUTTON, wcn.iwcndevice_setpassword, wcndevice/IWCNDevice::SetPassword
+ms.keywords: IWCNDevice interface [Windows Connect Now],SetPassword method, IWCNDevice.SetPassword, IWCNDevice::SetPassword, SetPassword, SetPassword method [Windows Connect Now], SetPassword method [Windows Connect Now],IWCNDevice interface, WCN_PASSWORD_TYPE_PIN, WCN_PASSWORD_TYPE_PUSH_BUTTON, wcn.iwcndevice_setpassword, wcndevice/IWCNDevice::SetPassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWCNDevice::SetPassword method
+# IWCNDevice::SetPassword
 
 
 ## -description

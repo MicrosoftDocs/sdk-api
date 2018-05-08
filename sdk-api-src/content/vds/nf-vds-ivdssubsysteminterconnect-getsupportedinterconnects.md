@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystemInterconnect.GetSupportedInterconnects
-title: IVdsSubSystemInterconnect::GetSupportedInterconnects method
+title: IVdsSubSystemInterconnect::GetSupportedInterconnects
 author: windows-driver-content
 description: Returns the interconnect types that the subsystem supports.
 old-location: base\ivdssubsysteminterconnect_getsupportedinterconnects.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 5e8e69b4-023d-49f7-a363-bae1ae9536ac
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSupportedInterconnects method, GetSupportedInterconnects method, IVdsSubSystemInterconnect interface, GetSupportedInterconnects,IVdsSubSystemInterconnect.GetSupportedInterconnects, IVdsSubSystemInterconnect, IVdsSubSystemInterconnect interface, GetSupportedInterconnects method, IVdsSubSystemInterconnect::GetSupportedInterconnects, base.ivdssubsysteminterconnect_getsupportedinterconnects, vds/IVdsSubSystemInterconnect::GetSupportedInterconnects, vdshwprv/IVdsSubSystemInterconnect::GetSupportedInterconnects
+ms.keywords: GetSupportedInterconnects, GetSupportedInterconnects method, GetSupportedInterconnects method,IVdsSubSystemInterconnect interface, IVdsSubSystemInterconnect interface,GetSupportedInterconnects method, IVdsSubSystemInterconnect.GetSupportedInterconnects, IVdsSubSystemInterconnect::GetSupportedInterconnects, base.ivdssubsysteminterconnect_getsupportedinterconnects, vds/IVdsSubSystemInterconnect::GetSupportedInterconnects, vdshwprv/IVdsSubSystemInterconnect::GetSupportedInterconnects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsSubSystemInterconnect::GetSupportedInterconnects method
+# IVdsSubSystemInterconnect::GetSupportedInterconnects
 
 
 ## -description

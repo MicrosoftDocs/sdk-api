@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.GetTitle
-title: ITocEntry::GetTitle method
+title: ITocEntry::GetTitle
 author: windows-driver-content
 description: The GetTitle method retrieves the title, set by a previous call to SetTitle, of the entry.
 old-location: mf\itocentry_gettitle.htm
 old-project: medfound
 ms.assetid: d610e9e8-daa4-4d8c-a640-627b23afd316
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTitle method [Media Foundation], GetTitle method [Media Foundation], ITocEntry interface, GetTitle,ITocEntry.GetTitle, ITocEntry, ITocEntry interface [Media Foundation], GetTitle method, ITocEntry::GetTitle, codecapi.itocentry_gettitle, mf.itocentry_gettitle, wmcodecdsp/ITocEntry::GetTitle
+ms.date: 5/3/2018
+ms.keywords: GetTitle, GetTitle method [Media Foundation], GetTitle method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetTitle method, ITocEntry.GetTitle, ITocEntry::GetTitle, codecapi.itocentry_gettitle, mf.itocentry_gettitle, wmcodecdsp/ITocEntry::GetTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocEntry::GetTitle method
+# ITocEntry::GetTitle
 
 
 ## -description

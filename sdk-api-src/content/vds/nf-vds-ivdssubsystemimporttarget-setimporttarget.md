@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystemImportTarget.SetImportTarget
-title: IVdsSubSystemImportTarget::SetImportTarget method
+title: IVdsSubSystemImportTarget::SetImportTarget
 author: windows-driver-content
 description: Sets the Volume Shadow Copy service (VSS) import target for the computer for this subsystem.
 old-location: base\ivdssubsystemimporttarget_setimporttarget.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 96770760-a9af-46be-8e63-be8a86ec81ab
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsSubSystemImportTarget, IVdsSubSystemImportTarget interface [VDS], SetImportTarget method, IVdsSubSystemImportTarget::SetImportTarget, SetImportTarget method [VDS], SetImportTarget method [VDS], IVdsSubSystemImportTarget interface, SetImportTarget,IVdsSubSystemImportTarget.SetImportTarget, base.ivdssubsystemimporttarget_setimporttarget, vds/IVdsSubSystemImportTarget::SetImportTarget
+ms.keywords: IVdsSubSystemImportTarget interface [VDS],SetImportTarget method, IVdsSubSystemImportTarget.SetImportTarget, IVdsSubSystemImportTarget::SetImportTarget, SetImportTarget, SetImportTarget method [VDS], SetImportTarget method [VDS],IVdsSubSystemImportTarget interface, base.ivdssubsystemimporttarget_setimporttarget, vds/IVdsSubSystemImportTarget::SetImportTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsSubSystemImportTarget::SetImportTarget method
+# IVdsSubSystemImportTarget::SetImportTarget
 
 
 ## -description

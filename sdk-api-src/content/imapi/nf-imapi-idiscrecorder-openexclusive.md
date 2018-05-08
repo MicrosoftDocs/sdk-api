@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.OpenExclusive
-title: IDiscRecorder::OpenExclusive method
+title: IDiscRecorder::OpenExclusive
 author: windows-driver-content
 description: Opens a disc recorder for exclusive access.
 old-location: imapi\idiscrecorder_openexclusive.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: e704baf0-d403-4cf7-aa32-16677d9a8694
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscRecorder, IDiscRecorder interface [IMAPI], OpenExclusive method, IDiscRecorder::OpenExclusive, OpenExclusive method [IMAPI], OpenExclusive method [IMAPI], IDiscRecorder interface, OpenExclusive,IDiscRecorder.OpenExclusive, _win32_idiscrecorder_openexclusive, base.idiscrecorder_openexclusive, imapi.idiscrecorder_openexclusive, imapi/IDiscRecorder::OpenExclusive
+ms.keywords: IDiscRecorder interface [IMAPI],OpenExclusive method, IDiscRecorder.OpenExclusive, IDiscRecorder::OpenExclusive, OpenExclusive, OpenExclusive method [IMAPI], OpenExclusive method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_openexclusive, base.idiscrecorder_openexclusive, imapi.idiscrecorder_openexclusive, imapi/IDiscRecorder::OpenExclusive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder::OpenExclusive method
+# IDiscRecorder::OpenExclusive
 
 
 ## -description

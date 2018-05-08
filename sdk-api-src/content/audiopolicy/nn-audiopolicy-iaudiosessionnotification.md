@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 69222168-87d7-4f5a-93b1-6d91263a54bd
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioSessionNotification, IAudioSessionNotification interface [Core Audio], IAudioSessionNotification interface [Core Audio], described, audiopolicy/IAudioSessionNotification, coreaudio.iaudiosessionnotification
+ms.keywords: IAudioSessionNotification, IAudioSessionNotification interface [Core Audio], IAudioSessionNotification interface [Core Audio],described, audiopolicy/IAudioSessionNotification, coreaudio.iaudiosessionnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetDescriptorNumber
-title: IDvbExtendedEventDescriptor::GetDescriptorNumber method
+title: IDvbExtendedEventDescriptor::GetDescriptorNumber
 author: windows-driver-content
 description: Gets the descriptor number from a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_getdescriptornumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 5cf156fe-bfdd-444d-be4e-422c11ab08dc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDescriptorNumber method [Microsoft TV Technologies], GetDescriptorNumber method [Microsoft TV Technologies], IDvbExtendedEventDescriptor interface, GetDescriptorNumber,IDvbExtendedEventDescriptor.GetDescriptorNumber, IDvbExtendedEventDescriptor, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies], GetDescriptorNumber method, IDvbExtendedEventDescriptor::GetDescriptorNumber, dvbsiparser/IDvbExtendedEventDescriptor::GetDescriptorNumber, mstv.idvbextendedeventdescriptor_getdescriptornumber
+ms.keywords: GetDescriptorNumber, GetDescriptorNumber method [Microsoft TV Technologies], GetDescriptorNumber method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetDescriptorNumber method, IDvbExtendedEventDescriptor.GetDescriptorNumber, IDvbExtendedEventDescriptor::GetDescriptorNumber, dvbsiparser/IDvbExtendedEventDescriptor::GetDescriptorNumber, mstv.idvbextendedeventdescriptor_getdescriptornumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbExtendedEventDescriptor::GetDescriptorNumber method
+# IDvbExtendedEventDescriptor::GetDescriptorNumber
 
 
 ## -description

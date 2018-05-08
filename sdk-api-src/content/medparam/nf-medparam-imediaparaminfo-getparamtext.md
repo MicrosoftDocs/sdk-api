@@ -1,14 +1,14 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetParamText
-title: IMediaParamInfo::GetParamText method
+title: IMediaParamInfo::GetParamText
 author: windows-driver-content
 description: The GetParamText method retrieves a series of text strings that describe the parameter.
 old-location: dshow\imediaparaminfo_getparamtext.htm
 old-project: DirectShow
 ms.assetid: 38ecde61-fd4a-4ba3-9cd4-d62a5aa55294
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetParamText method [DirectShow], GetParamText method [DirectShow], IMediaParamInfo interface, GetParamText,IMediaParamInfo.GetParamText, IMediaParamInfo, IMediaParamInfo interface [DirectShow], GetParamText method, IMediaParamInfo::GetParamText, IMediaParamInfoGetParamText, dshow.imediaparaminfo_getparamtext, medparam/IMediaParamInfo::GetParamText
+ms.date: 4/30/2018
+ms.keywords: GetParamText, GetParamText method [DirectShow], GetParamText method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamText method, IMediaParamInfo.GetParamText, IMediaParamInfo::GetParamText, IMediaParamInfoGetParamText, dshow.imediaparaminfo_getparamtext, medparam/IMediaParamInfo::GetParamText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMediaParamInfo::GetParamText method
+# IMediaParamInfo::GetParamText
 
 
 ## -description

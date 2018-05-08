@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.GetCountOfTableDescriptors
-title: ICAT::GetCountOfTableDescriptors method
+title: ICAT::GetCountOfTableDescriptors
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_getcountoftabledescriptors.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3111eecc-b869-4235-8af4-cc0ef9cc5e4e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies], ICAT interface, GetCountOfTableDescriptors,ICAT.GetCountOfTableDescriptors, ICAT, ICAT interface [Microsoft TV Technologies], GetCountOfTableDescriptors method, ICAT::GetCountOfTableDescriptors, ICATGetCountOfTableDescriptors, mpeg2psiparser/ICAT::GetCountOfTableDescriptors, mstv.icat_getcountoftabledescriptors
+ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, ICAT.GetCountOfTableDescriptors, ICAT::GetCountOfTableDescriptors, ICATGetCountOfTableDescriptors, mpeg2psiparser/ICAT::GetCountOfTableDescriptors, mstv.icat_getcountoftabledescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ICAT::GetCountOfTableDescriptors method
+# ICAT::GetCountOfTableDescriptors
 
 
 ## -description

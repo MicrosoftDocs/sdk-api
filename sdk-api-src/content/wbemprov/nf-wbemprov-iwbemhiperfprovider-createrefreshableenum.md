@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.CreateRefreshableEnum
-title: IWbemHiPerfProvider::CreateRefreshableEnum method
+title: IWbemHiPerfProvider::CreateRefreshableEnum
 author: windows-driver-content
 description: Creates a new refreshable enumeration.
 old-location: wmi\iwbemhiperfprovider_createrefreshableenum.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 086a1717-b6e8-45c1-9397-ec894ee900a0
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CreateRefreshableEnum method [Windows Management Instrumentation], CreateRefreshableEnum method [Windows Management Instrumentation], IWbemHiPerfProvider interface, CreateRefreshableEnum,IWbemHiPerfProvider.CreateRefreshableEnum, IWbemHiPerfProvider, IWbemHiPerfProvider interface [Windows Management Instrumentation], CreateRefreshableEnum method, IWbemHiPerfProvider::CreateRefreshableEnum, _hmm_iwbemhiperfprovider_createrefreshableenum, wbemprov/IWbemHiPerfProvider::CreateRefreshableEnum, wmi.iwbemhiperfprovider_createrefreshableenum
+ms.keywords: CreateRefreshableEnum, CreateRefreshableEnum method [Windows Management Instrumentation], CreateRefreshableEnum method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],CreateRefreshableEnum method, IWbemHiPerfProvider.CreateRefreshableEnum, IWbemHiPerfProvider::CreateRefreshableEnum, _hmm_iwbemhiperfprovider_createrefreshableenum, wbemprov/IWbemHiPerfProvider::CreateRefreshableEnum, wmi.iwbemhiperfprovider_createrefreshableenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemHiPerfProvider::CreateRefreshableEnum method
+# IWbemHiPerfProvider::CreateRefreshableEnum
 
 
 ## -description

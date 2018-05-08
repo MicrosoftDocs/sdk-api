@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchProtocol.CloseAccessor
-title: ISearchProtocol::CloseAccessor method
+title: ISearchProtocol::CloseAccessor
 author: windows-driver-content
 description: Closes a previously created IUrlAccessor object.
 old-location: search\_search_ISearchProtocol_CloseAccessor.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\closeaccessor.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: CloseAccessor method [search], CloseAccessor method [search], ISearchProtocol interface, CloseAccessor,ISearchProtocol.CloseAccessor, ISearchProtocol, ISearchProtocol interface [search], CloseAccessor method, ISearchProtocol::CloseAccessor, _search_ISearchProtocol_CloseAccessor, search._search_ISearchProtocol_CloseAccessor, searchapi/ISearchProtocol::CloseAccessor
+ms.date: 5/4/2018
+ms.keywords: CloseAccessor, CloseAccessor method [search], CloseAccessor method [search],ISearchProtocol interface, ISearchProtocol interface [search],CloseAccessor method, ISearchProtocol.CloseAccessor, ISearchProtocol::CloseAccessor, _search_ISearchProtocol_CloseAccessor, search._search_ISearchProtocol_CloseAccessor, searchapi/ISearchProtocol::CloseAccessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchProtocol::CloseAccessor method
+# ISearchProtocol::CloseAccessor
 
 
 ## -description

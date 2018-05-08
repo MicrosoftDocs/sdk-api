@@ -7,7 +7,7 @@ old-location: ad\dscrackspn.htm
 old-project: AD
 ms.assetid: 65c81c23-a259-480c-9c1e-03484d3e89c9
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DsCrackSpn, DsCrackSpn function [Active Directory], DsCrackSpnA, DsCrackSpnW, _glines_dscrackspn, ad.dscrackspn, dsparse/DsCrackSpn, dsparse/DsCrackSpnA, dsparse/DsCrackSpnW
 ms.prod: windows-hardware
 ms.technology: windows-devices

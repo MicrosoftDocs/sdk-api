@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityLeaveSame
-title: IComActivityEvents::OnActivityLeaveSame method
+title: IComActivityEvents::OnActivityLeaveSame
 author: windows-driver-content
 description: Generated when an activity thread is left after being entered recursively.
 old-location: cos\icomactivityevents_onactivityleavesame.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 5a82fba1-a7d8-48d6-aa54-2f1a28e1b3d9
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComActivityEvents, IComActivityEvents interface [COM+], OnActivityLeaveSame method, IComActivityEvents::OnActivityLeaveSame, OnActivityLeaveSame method [COM+], OnActivityLeaveSame method [COM+], IComActivityEvents interface, OnActivityLeaveSame,IComActivityEvents.OnActivityLeaveSame, _dtc_IComActivityEvents_OnActivityLeaveSame, comsvcs/IComActivityEvents::OnActivityLeaveSame, cos.icomactivityevents_onactivityleavesame
+ms.keywords: IComActivityEvents interface [COM+],OnActivityLeaveSame method, IComActivityEvents.OnActivityLeaveSame, IComActivityEvents::OnActivityLeaveSame, OnActivityLeaveSame, OnActivityLeaveSame method [COM+], OnActivityLeaveSame method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityLeaveSame, comsvcs/IComActivityEvents::OnActivityLeaveSame, cos.icomactivityevents_onactivityleavesame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComActivityEvents::OnActivityLeaveSame method
+# IComActivityEvents::OnActivityLeaveSame
 
 
 ## -description

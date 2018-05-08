@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.SetStreamNumber
-title: IMFASFStreamConfig::SetStreamNumber method
+title: IMFASFStreamConfig::SetStreamNumber
 author: windows-driver-content
 description: Assigns a stream number to the stream.
 old-location: mf\imfasfstreamconfig_setstreamnumber.htm
 old-project: medfound
 ms.assetid: 5b22d857-fced-4094-a0ad-891f3ccf8b18
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 5b22d857-fced-4094-a0ad-891f3ccf8b18, IMFASFStreamConfig, IMFASFStreamConfig interface [Media Foundation], SetStreamNumber method, IMFASFStreamConfig::SetStreamNumber, SetStreamNumber method [Media Foundation], SetStreamNumber method [Media Foundation], IMFASFStreamConfig interface, SetStreamNumber,IMFASFStreamConfig.SetStreamNumber, mf.imfasfstreamconfig_setstreamnumber, wmcontainer/IMFASFStreamConfig::SetStreamNumber
+ms.date: 5/3/2018
+ms.keywords: 5b22d857-fced-4094-a0ad-891f3ccf8b18, IMFASFStreamConfig interface [Media Foundation],SetStreamNumber method, IMFASFStreamConfig.SetStreamNumber, IMFASFStreamConfig::SetStreamNumber, SetStreamNumber, SetStreamNumber method [Media Foundation], SetStreamNumber method [Media Foundation],IMFASFStreamConfig interface, mf.imfasfstreamconfig_setstreamnumber, wmcontainer/IMFASFStreamConfig::SetStreamNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFStreamConfig::SetStreamNumber method
+# IMFASFStreamConfig::SetStreamNumber
 
 
 ## -description

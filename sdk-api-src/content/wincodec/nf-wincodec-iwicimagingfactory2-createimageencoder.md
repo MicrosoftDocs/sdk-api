@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory2.CreateImageEncoder
-title: IWICImagingFactory2::CreateImageEncoder method
+title: IWICImagingFactory2::CreateImageEncoder
 author: windows-driver-content
 description: Creates a new image encoder object.
 old-location: wic\iwicimagingfactory2_createimageencoder.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 1F75030F-68B0-4333-B3CF-C4ABD8969448
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateImageEncoder method [Windows Imaging Component], CreateImageEncoder method [Windows Imaging Component], IWICImagingFactory2 interface, CreateImageEncoder,IWICImagingFactory2.CreateImageEncoder, IWICImagingFactory2, IWICImagingFactory2 interface [Windows Imaging Component], CreateImageEncoder method, IWICImagingFactory2::CreateImageEncoder, wic.iwicimagingfactory2_createimageencoder, wincodec/IWICImagingFactory2::CreateImageEncoder
+ms.keywords: CreateImageEncoder, CreateImageEncoder method [Windows Imaging Component], CreateImageEncoder method [Windows Imaging Component],IWICImagingFactory2 interface, IWICImagingFactory2 interface [Windows Imaging Component],CreateImageEncoder method, IWICImagingFactory2.CreateImageEncoder, IWICImagingFactory2::CreateImageEncoder, wic.iwicimagingfactory2_createimageencoder, wincodec/IWICImagingFactory2::CreateImageEncoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICImagingFactory2::CreateImageEncoder method
+# IWICImagingFactory2::CreateImageEncoder
 
 
 ## -description

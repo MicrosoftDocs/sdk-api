@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProviderNotify.SearchComplete
-title: IWSDiscoveryProviderNotify::SearchComplete method
+title: IWSDiscoveryProviderNotify::SearchComplete
 author: windows-driver-content
 description: Called to indicate a user initiated search has successfully completed and no more matches for the search will be accepted.
 old-location: ncd\iwsdiscoveryprovidernotify_searchcomplete.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: a125a7b3-6887-42e2-b421-d0e27973d8ee
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryProviderNotify, IWSDiscoveryProviderNotify interface, SearchComplete method, IWSDiscoveryProviderNotify::SearchComplete, SearchComplete method, SearchComplete method, IWSDiscoveryProviderNotify interface, SearchComplete,IWSDiscoveryProviderNotify.SearchComplete, ncd.iwsdiscoveryprovidernotify_searchcomplete, wsddisco/IWSDiscoveryProviderNotify::SearchComplete
+ms.keywords: IWSDiscoveryProviderNotify interface,SearchComplete method, IWSDiscoveryProviderNotify.SearchComplete, IWSDiscoveryProviderNotify::SearchComplete, SearchComplete, SearchComplete method, SearchComplete method,IWSDiscoveryProviderNotify interface, ncd.iwsdiscoveryprovidernotify_searchcomplete, wsddisco/IWSDiscoveryProviderNotify::SearchComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryProviderNotify::SearchComplete method
+# IWSDiscoveryProviderNotify::SearchComplete
 
 
 ## -description

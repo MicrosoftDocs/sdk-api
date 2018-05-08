@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.SetMatrixTransform
-title: IDXGISwapChain2::SetMatrixTransform method
+title: IDXGISwapChain2::SetMatrixTransform
 author: windows-driver-content
 description: Sets the transform matrix that will be applied to a composition swap chain upon the next present.
 old-location: direct3ddxgi\idxgiswapchain2_setmatrixtransform.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: AAED8A59-3190-49A0-93AA-F5CAF9088877
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGISwapChain2, IDXGISwapChain2 interface [DXGI], SetMatrixTransform method, IDXGISwapChain2::SetMatrixTransform, SetMatrixTransform method [DXGI], SetMatrixTransform method [DXGI], IDXGISwapChain2 interface, SetMatrixTransform,IDXGISwapChain2.SetMatrixTransform, direct3ddxgi.idxgiswapchain2_setmatrixtransform, dxgi1_3/IDXGISwapChain2::SetMatrixTransform
+ms.keywords: IDXGISwapChain2 interface [DXGI],SetMatrixTransform method, IDXGISwapChain2.SetMatrixTransform, IDXGISwapChain2::SetMatrixTransform, SetMatrixTransform, SetMatrixTransform method [DXGI], SetMatrixTransform method [DXGI],IDXGISwapChain2 interface, direct3ddxgi.idxgiswapchain2_setmatrixtransform, dxgi1_3/IDXGISwapChain2::SetMatrixTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain2::SetMatrixTransform method
+# IDXGISwapChain2::SetMatrixTransform
 
 
 ## -description

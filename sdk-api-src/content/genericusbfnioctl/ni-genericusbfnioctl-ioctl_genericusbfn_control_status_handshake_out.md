@@ -7,8 +7,8 @@ old-location: buses\ioctl_genericusbfn_control_status_handshake_out.htm
 old-project: usbref
 ms.assetid: B8DE5F6E-6FC5-4E53-8A02-301A3CE436C9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT control code [Buses], buses.ioctl_genericusbfn_control_status_handshake_out, genericusbfnioctl/IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT
+ms.date: 5/3/2018
+ms.keywords: IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT control, IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT control code [Buses], buses.ioctl_genericusbfn_control_status_handshake_out, genericusbfnioctl/IOCTL_GENERICUSBFN_CONTROL_STATUS_HANDSHAKE_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

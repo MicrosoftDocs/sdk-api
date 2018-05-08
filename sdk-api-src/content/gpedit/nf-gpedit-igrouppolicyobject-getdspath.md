@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetDSPath
-title: IGroupPolicyObject::GetDSPath method
+title: IGroupPolicyObject::GetDSPath
 author: windows-driver-content
 description: The GetDSPath method retrieves the Active Directory path to the root of the specified GPO section.
 old-location: policy\igrouppolicyobject_getdspath.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: 0d6d0b3d-5ad4-4363-a123-f074193b75e2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetDSPath method [Group Policy], GetDSPath method [Group Policy], IGroupPolicyObject interface, GetDSPath,IGroupPolicyObject.GetDSPath, IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], GetDSPath method, IGroupPolicyObject::GetDSPath, _win32_igrouppolicyobject_getdspath, gpedit/IGroupPolicyObject::GetDSPath, policy.igrouppolicyobject_getdspath
+ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetDSPath, GetDSPath method [Group Policy], GetDSPath method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetDSPath method, IGroupPolicyObject.GetDSPath, IGroupPolicyObject::GetDSPath, _win32_igrouppolicyobject_getdspath, gpedit/IGroupPolicyObject::GetDSPath, policy.igrouppolicyobject_getdspath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGroupPolicyObject::GetDSPath method
+# IGroupPolicyObject::GetDSPath
 
 
 ## -description

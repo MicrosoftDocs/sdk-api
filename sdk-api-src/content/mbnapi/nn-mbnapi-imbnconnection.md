@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: dae6ce6f-2534-4799-8ed3-53cd1f2eca13
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnConnection, IMbnConnection interface [Microsoft Broadband Networks], IMbnConnection interface [Microsoft Broadband Networks], described, mbn.imbnconnection, mbnapi/IMbnConnection
+ms.keywords: IMbnConnection, IMbnConnection interface [Microsoft Broadband Networks], IMbnConnection interface [Microsoft Broadband Networks],described, mbn.imbnconnection, mbnapi/IMbnConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

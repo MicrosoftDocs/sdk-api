@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: 54DB1BFF-0657-4027-8C8C-89CE998253F4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IUIEventLogger, IUIEventLogger interface [Windows Ribbon], IUIEventLogger interface [Windows Ribbon], described, uiribbon/IUIEventLogger, windowsribbon.iuieventlogger
+ms.keywords: IUIEventLogger, IUIEventLogger interface [Windows Ribbon], IUIEventLogger interface [Windows Ribbon],described, uiribbon/IUIEventLogger, windowsribbon.iuieventlogger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IEnumConnections.Reset
-title: IEnumConnections::Reset method
+title: IEnumConnections::Reset
 author: windows-driver-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumconnections_reset.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 444c9398-199f-4d87-9b1e-075d5af0b649
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumConnections, IEnumConnections interface [COM], Reset method, IEnumConnections::Reset, Reset method [COM], Reset method [COM], IEnumConnections interface, Reset,IEnumConnections.Reset, _com_ienumconnections_reset, com.ienumconnections_reset, ocidl/IEnumConnections::Reset
+ms.keywords: IEnumConnections interface [COM],Reset method, IEnumConnections.Reset, IEnumConnections::Reset, Reset, Reset method [COM], Reset method [COM],IEnumConnections interface, _com_ienumconnections_reset, com.ienumconnections_reset, ocidl/IEnumConnections::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumConnections::Reset method
+# IEnumConnections::Reset
 
 
 ## -description

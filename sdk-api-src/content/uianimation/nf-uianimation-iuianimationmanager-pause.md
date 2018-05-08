@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.Pause
-title: IUIAnimationManager::Pause method
+title: IUIAnimationManager::Pause
 author: windows-driver-content
 description: Pauses all animations.
 old-location: uianimation\iuianimationmanager_pause.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 52b11e79-9930-4fd8-84b4-152917090519
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationManager, IUIAnimationManager interface [Windows Animation], Pause method, IUIAnimationManager::Pause, Pause method [Windows Animation], Pause method [Windows Animation], IUIAnimationManager interface, Pause,IUIAnimationManager.Pause, uianimation.iuianimationmanager_pause, uianimation/IUIAnimationManager::Pause
+ms.keywords: IUIAnimationManager interface [Windows Animation],Pause method, IUIAnimationManager.Pause, IUIAnimationManager::Pause, Pause, Pause method [Windows Animation], Pause method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_pause, uianimation/IUIAnimationManager::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager::Pause method
+# IUIAnimationManager::Pause
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_InnerFECRate
-title: IBDA_DigitalDemodulator::put_InnerFECRate method
+title: IBDA_DigitalDemodulator::put_InnerFECRate
 author: windows-driver-content
 description: The put_InnerFECRate method specifies the inner forward error correction rate.
 old-location: mstv\ibda_digitaldemodulator_put_innerfecrate.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e87dbce2-6970-45f6-b08c-bddebeb4d1ca
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DigitalDemodulator, IBDA_DigitalDemodulator interface [Microsoft TV Technologies], put_InnerFECRate method, IBDA_DigitalDemodulator::put_InnerFECRate, IBDA_DigitalDemodulatorput_InnerFECRate, bdaiface/IBDA_DigitalDemodulator::put_InnerFECRate, mstv.ibda_digitaldemodulator_put_innerfecrate, put_InnerFECRate method [Microsoft TV Technologies], put_InnerFECRate method [Microsoft TV Technologies], IBDA_DigitalDemodulator interface, put_InnerFECRate,IBDA_DigitalDemodulator.put_InnerFECRate
+ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_InnerFECRate method, IBDA_DigitalDemodulator.put_InnerFECRate, IBDA_DigitalDemodulator::put_InnerFECRate, IBDA_DigitalDemodulatorput_InnerFECRate, bdaiface/IBDA_DigitalDemodulator::put_InnerFECRate, mstv.ibda_digitaldemodulator_put_innerfecrate, put_InnerFECRate, put_InnerFECRate method [Microsoft TV Technologies], put_InnerFECRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DigitalDemodulator::put_InnerFECRate method
+# IBDA_DigitalDemodulator::put_InnerFECRate
 
 
 ## -description

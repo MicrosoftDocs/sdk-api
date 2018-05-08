@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.IsPathCacheable
-title: IOfflineFilesCache::IsPathCacheable method
+title: IOfflineFilesCache::IsPathCacheable
 author: windows-driver-content
 description: Determines whether a specified UNC path is in the Offline Files cache.
 old-location: of\iofflinefilescache_ispathcacheable.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 4d9a2fda-baad-4ada-8a07-f39c9cfafdfa
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOfflineFilesCache, IOfflineFilesCache interface [Offline Files], IsPathCacheable method, IOfflineFilesCache::IsPathCacheable, IsPathCacheable method [Offline Files], IsPathCacheable method [Offline Files], IOfflineFilesCache interface, IsPathCacheable,IOfflineFilesCache.IsPathCacheable, OFFLINEFILES_CACHING_MODE_AUTO_DOC, OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, OFFLINEFILES_CACHING_MODE_MANUAL, OFFLINEFILES_CACHING_MODE_NOCACHING, OFFLINEFILES_CACHING_MODE_NONE, cscobj/IOfflineFilesCache::IsPathCacheable, of.iofflinefilescache_ispathcacheable
+ms.keywords: IOfflineFilesCache interface [Offline Files],IsPathCacheable method, IOfflineFilesCache.IsPathCacheable, IOfflineFilesCache::IsPathCacheable, IsPathCacheable, IsPathCacheable method [Offline Files], IsPathCacheable method [Offline Files],IOfflineFilesCache interface, OFFLINEFILES_CACHING_MODE_AUTO_DOC, OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, OFFLINEFILES_CACHING_MODE_MANUAL, OFFLINEFILES_CACHING_MODE_NOCACHING, OFFLINEFILES_CACHING_MODE_NONE, cscobj/IOfflineFilesCache::IsPathCacheable, of.iofflinefilescache_ispathcacheable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesCache::IsPathCacheable method
+# IOfflineFilesCache::IsPathCacheable
 
 
 ## -description

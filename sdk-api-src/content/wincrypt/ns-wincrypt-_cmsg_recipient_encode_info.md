@@ -7,7 +7,7 @@ old-location: security\cmsg_recipient_encode_info.htm
 old-project: SecCrypto
 ms.assetid: eb85f3e4-a5f8-45e7-9bbf-9c649db1e141
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCMSG_RECIPIENT_ENCODE_INFO, CMSG_KEY_AGREE_RECIPIENT, CMSG_KEY_TRANS_RECIPIENT, CMSG_MAIL_LIST_RECIPIENT, CMSG_RECIPIENT_ENCODE_INFO, CMSG_RECIPIENT_ENCODE_INFO structure [Security], PCMSG_RECIPIENT_ENCODE_INFO, PCMSG_RECIPIENT_ENCODE_INFO structure [Security], _CMSG_RECIPIENT_ENCODE_INFO, _crypto2_cmsg_recipient_encode_info, security.cmsg_recipient_encode_info, wincrypt/CMSG_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_RECIPIENT_ENCODE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,21 +106,19 @@ Use with previously distributed key encryption key management
  
 
 
-
-
-#### - pKeyAgree
-
-A pointer to a 
-<a href="https://msdn.microsoft.com/f8691df7-3cc1-48cb-8787-84c7046b280f">CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</a> structure. Used with CMSG_KEY_AGREE_RECIPIENT
-
-
-#### - pKeyTrans
+### -field DUMMYUNIONNAME.pKeyTrans
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/20b20759-3d76-4814-9e71-7376dd326f7b">CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO</a> structure. Used with CMSG_KEY_TRANS_RECIPIENT
 
 
-#### - pMailList
+### -field DUMMYUNIONNAME.pKeyAgree
+
+A pointer to a 
+<a href="https://msdn.microsoft.com/f8691df7-3cc1-48cb-8787-84c7046b280f">CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</a> structure. Used with CMSG_KEY_AGREE_RECIPIENT
+
+
+### -field DUMMYUNIONNAME.pMailList
 
 A pointer to a 
 <a href="https://msdn.microsoft.com/4303a7e7-cb93-4ed1-85e6-42359c2c687c">CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO</a> structure. Used with CMSG_MAIL_LIST_RECIPIENT

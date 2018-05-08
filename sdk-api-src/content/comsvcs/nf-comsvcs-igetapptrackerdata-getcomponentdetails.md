@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetComponentDetails
-title: IGetAppTrackerData::GetComponentDetails method
+title: IGetAppTrackerData::GetComponentDetails
 author: windows-driver-content
 description: Retrieves detailed information about a single COM+ component hosted in a process.
 old-location: cos\igetapptrackerdata_getcomponentdetails.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 89924a6d-e5cf-4262-9707-d2e4a91dd6ce
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetComponentDetails method [COM+], GetComponentDetails method [COM+], IGetAppTrackerData interface, GetComponentDetails,IGetAppTrackerData.GetComponentDetails, IGetAppTrackerData, IGetAppTrackerData interface [COM+], GetComponentDetails method, IGetAppTrackerData::GetComponentDetails, comsvcs/IGetAppTrackerData::GetComponentDetails, cos.igetapptrackerdata_getcomponentdetails
+ms.keywords: GetComponentDetails, GetComponentDetails method [COM+], GetComponentDetails method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetComponentDetails method, IGetAppTrackerData.GetComponentDetails, IGetAppTrackerData::GetComponentDetails, comsvcs/IGetAppTrackerData::GetComponentDetails, cos.igetapptrackerdata_getcomponentdetails
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGetAppTrackerData::GetComponentDetails method
+# IGetAppTrackerData::GetComponentDetails
 
 
 ## -description

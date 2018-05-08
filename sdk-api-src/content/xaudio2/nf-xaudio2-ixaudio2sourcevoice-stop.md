@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.Stop
-title: IXAudio2SourceVoice::Stop method
+title: IXAudio2SourceVoice::Stop
 author: windows-driver-content
 description: Stops consumption of audio by the current voice.
 old-location: xaudio2\ixaudio2sourcevoice_interface_stop.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Stop(UINT32,UINT32)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAudio2SourceVoice, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs], Stop method, IXAudio2SourceVoice::Stop, Stop method [XAudio2 Audio Mixing APIs], Stop method [XAudio2 Audio Mixing APIs], IXAudio2SourceVoice interface, Stop,IXAudio2SourceVoice.Stop, xaudio2.ixaudio2sourcevoice_interface_stop, xaudio2/IXAudio2SourceVoice::Stop
+ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],Stop method, IXAudio2SourceVoice.Stop, IXAudio2SourceVoice::Stop, Stop, Stop method [XAudio2 Audio Mixing APIs], Stop method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_stop, xaudio2/IXAudio2SourceVoice::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2SourceVoice::Stop method
+# IXAudio2SourceVoice::Stop
 
 
 ## -description

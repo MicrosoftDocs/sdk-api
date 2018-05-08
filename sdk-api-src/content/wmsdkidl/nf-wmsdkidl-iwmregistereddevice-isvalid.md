@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.IsValid
-title: IWMRegisteredDevice::IsValid method
+title: IWMRegisteredDevice::IsValid
 author: windows-driver-content
 description: The IsValid method retrieves the validation status of the device.
 old-location: wmformat\iwmregistereddevice_isvalid.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ce09e6ad-10c0-4cdd-8dee-4faacd958f2b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], IsValid method, IWMRegisteredDevice::IsValid, IWMRegisteredDeviceIsValid, IsValid method [windows Media Format], IsValid method [windows Media Format], IWMRegisteredDevice interface, IsValid,IWMRegisteredDevice.IsValid, wmformat.iwmregistereddevice_isvalid, wmsdkidl/IWMRegisteredDevice::IsValid
+ms.keywords: IWMRegisteredDevice interface [windows Media Format],IsValid method, IWMRegisteredDevice.IsValid, IWMRegisteredDevice::IsValid, IWMRegisteredDeviceIsValid, IsValid, IsValid method [windows Media Format], IsValid method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_isvalid, wmsdkidl/IWMRegisteredDevice::IsValid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMRegisteredDevice::IsValid method
+# IWMRegisteredDevice::IsValid
 
 
 ## -description

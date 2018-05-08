@@ -58,6 +58,11 @@ The <b>CREDENTIAL_ATTRIBUTE</b> structure contains an application-defined attrib
 
 
 
+### -field Keyword.string
+
+ 
+
+
 ### -field Keyword
 
 Name of the application-specific attribute. Names should be of the form &lt;CompanyName&gt;_&lt;Name&gt;. 
@@ -78,6 +83,21 @@ Identifies characteristics of the credential attribute. This member is reserved 
 Length of <b>Value</b> in bytes. This member cannot be larger than CRED_MAX_VALUE_SIZE (256).
 
 
+### -field ValueSize.range
+
+ 
+
+
+### -field ValueSize.range.0
+
+ 
+
+
+### -field ValueSize.range.CRED_MAX_VALUE_SIZE
+
+ 
+
+
 ### -field Value
 
 Data associated with the attribute. By convention, if <b>Value</b> is a text string, then  <b>Value</b> should not include the trailing zero character and should be in UNICODE. 
@@ -86,4 +106,16 @@ Data associated with the attribute. By convention, if <b>Value</b> is a text str
 
 
 Credentials are expected to be portable. The application should take care to ensure that the data in value is portable. It is the responsibility of the application to define the byte-endian and alignment of the data in <b>Value</b>.
+
+
+### -field Value.size_is
+
+ 
+
+
+### -field Value.size_is.ValueSize
+
+ 
+
+
 

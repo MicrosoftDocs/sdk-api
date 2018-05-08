@@ -1,0 +1,6 @@
+# [Error Handling](../_debug/index.md)
+## [Jobapi2.h](index.md)
+### [FreeMemoryJobObject function](../jobapi2/nf-jobapi2-freememoryjobobject.md)
+### [QueryIoRateControlInformationJobObject function](../jobapi2/nf-jobapi2-queryioratecontrolinformationjobobject.md)
+### [SetIoRateControlInformationJobObject function](../jobapi2/nf-jobapi2-setioratecontrolinformationjobobject.md)
+### [JOBOBJECT_IO_RATE_CONTROL_INFORMATION structure](../jobapi2/ns-jobapi2-jobobject_io_rate_control_information.md)

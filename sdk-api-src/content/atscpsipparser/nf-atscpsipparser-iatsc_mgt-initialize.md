@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_MGT.Initialize
-title: IATSC_MGT::Initialize method
+title: IATSC_MGT::Initialize
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_mgt_initialize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: dbb77a8d-aac7-454a-98e5-fd5f9316121c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IATSC_MGT, IATSC_MGT interface [Microsoft TV Technologies], Initialize method, IATSC_MGT::Initialize, IATSC_MGTInitialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies], IATSC_MGT interface, Initialize,IATSC_MGT.Initialize, atscpsipparser/IATSC_MGT::Initialize, mstv.iatsc_mgt_initialize
+ms.keywords: IATSC_MGT interface [Microsoft TV Technologies],Initialize method, IATSC_MGT.Initialize, IATSC_MGT::Initialize, IATSC_MGTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IATSC_MGT interface, atscpsipparser/IATSC_MGT::Initialize, mstv.iatsc_mgt_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_MGT::Initialize method
+# IATSC_MGT::Initialize
 
 
 ## -description

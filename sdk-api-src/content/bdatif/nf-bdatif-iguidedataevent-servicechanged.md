@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ServiceChanged
-title: IGuideDataEvent::ServiceChanged method
+title: IGuideDataEvent::ServiceChanged
 author: windows-driver-content
 description: The ServiceChanged method is called when a service has been changed.
 old-location: mstv\iguidedataevent_servicechanged.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 75387dd8-e0e2-4fae-8c4a-a0b7b06f61b1
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IGuideDataEvent, IGuideDataEvent interface [Microsoft TV Technologies], ServiceChanged method, IGuideDataEvent::ServiceChanged, IGuideDataEventServiceChanged, ServiceChanged method [Microsoft TV Technologies], ServiceChanged method [Microsoft TV Technologies], IGuideDataEvent interface, ServiceChanged,IGuideDataEvent.ServiceChanged, bdatif/IGuideDataEvent::ServiceChanged, mstv.iguidedataevent_servicechanged
+ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ServiceChanged method, IGuideDataEvent.ServiceChanged, IGuideDataEvent::ServiceChanged, IGuideDataEventServiceChanged, ServiceChanged, ServiceChanged method [Microsoft TV Technologies], ServiceChanged method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ServiceChanged, mstv.iguidedataevent_servicechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGuideDataEvent::ServiceChanged method
+# IGuideDataEvent::ServiceChanged
 
 
 ## -description

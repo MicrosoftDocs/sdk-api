@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetIndices
-title: IDirect3DDevice9::GetIndices method
+title: IDirect3DDevice9::GetIndices
 author: windows-driver-content
 description: Retrieves index data.
 old-location: direct3d9\idirect3ddevice9__getindices.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getindices.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 137303d6-63b8-2f24-bcef-26fdda3c4a15, GetIndices method [Direct3D 9], GetIndices method [Direct3D 9], IDirect3DDevice9 interface, GetIndices,IDirect3DDevice9.GetIndices, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetIndices method, IDirect3DDevice9::GetIndices, d3d9helper/IDirect3DDevice9::GetIndices, direct3d9.idirect3ddevice9__getindices
+ms.keywords: 137303d6-63b8-2f24-bcef-26fdda3c4a15, GetIndices, GetIndices method [Direct3D 9], GetIndices method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetIndices method, IDirect3DDevice9.GetIndices, IDirect3DDevice9::GetIndices, d3d9helper/IDirect3DDevice9::GetIndices, direct3d9.idirect3ddevice9__getindices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::GetIndices method
+# IDirect3DDevice9::GetIndices
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.CopyTiles
-title: ID3D12GraphicsCommandList::CopyTiles method
+title: ID3D12GraphicsCommandList::CopyTiles
 author: windows-driver-content
 description: Copies tiles from buffer to tiled resource or vice versa.
 old-location: direct3d12\id3d12graphicscommandlist_copytiles.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: F770CE6B-DD70-4102-BEFD-3E46B9957F5E
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CopyTiles method, CopyTiles method, ID3D12GraphicsCommandList interface, CopyTiles,ID3D12GraphicsCommandList.CopyTiles, ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, CopyTiles method, ID3D12GraphicsCommandList::CopyTiles, d3d12/ID3D12GraphicsCommandList::CopyTiles, direct3d12.id3d12graphicscommandlist_copytiles
+ms.keywords: CopyTiles, CopyTiles method, CopyTiles method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyTiles method, ID3D12GraphicsCommandList.CopyTiles, ID3D12GraphicsCommandList::CopyTiles, d3d12/ID3D12GraphicsCommandList::CopyTiles, direct3d12.id3d12graphicscommandlist_copytiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::CopyTiles method
+# ID3D12GraphicsCommandList::CopyTiles
 
 
 ## -description

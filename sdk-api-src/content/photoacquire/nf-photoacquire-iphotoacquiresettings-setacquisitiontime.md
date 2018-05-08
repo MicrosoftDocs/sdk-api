@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetAcquisitionTime
-title: IPhotoAcquireSettings::SetAcquisitionTime method
+title: IPhotoAcquireSettings::SetAcquisitionTime
 author: windows-driver-content
 description: The SetAcquisitionTime method sets the acquisition time explicitly.
 old-location: picacq\iphotoacquiresettings_setacquisitiontime.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: fc43be78-f35b-4159-a15c-c21cddee6c9e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoAcquireSettings, IPhotoAcquireSettings interface [Picture Acquisition], SetAcquisitionTime method, IPhotoAcquireSettings::SetAcquisitionTime, IPhotoAcquireSettingsSetAcquisitionTime, SetAcquisitionTime method [Picture Acquisition], SetAcquisitionTime method [Picture Acquisition], IPhotoAcquireSettings interface, SetAcquisitionTime,IPhotoAcquireSettings.SetAcquisitionTime, photoacquire/IPhotoAcquireSettings::SetAcquisitionTime, picacq.iphotoacquiresettings_setacquisitiontime
+ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetAcquisitionTime method, IPhotoAcquireSettings.SetAcquisitionTime, IPhotoAcquireSettings::SetAcquisitionTime, IPhotoAcquireSettingsSetAcquisitionTime, SetAcquisitionTime, SetAcquisitionTime method [Picture Acquisition], SetAcquisitionTime method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetAcquisitionTime, picacq.iphotoacquiresettings_setacquisitiontime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireSettings::SetAcquisitionTime method
+# IPhotoAcquireSettings::SetAcquisitionTime
 
 
 ## -description

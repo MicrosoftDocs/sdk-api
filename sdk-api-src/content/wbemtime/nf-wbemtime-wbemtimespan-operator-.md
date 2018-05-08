@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-
-title: WBEMTimeSpan::operator- method
+title: WBEMTimeSpan::operator-
 author: windows-driver-content
 description: The WBEMTimeSpan class subtract operator (&#8211;) subtracts a time span from the object on which the method is executed.
 old-location: wmi\wbemtimespan_operator_minus.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 643e3353-c770-46e6-aa59-b6df43097988
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: WBEMTimeSpan, WBEMTimeSpan interface [Windows Management Instrumentation], operator- method, WBEMTimeSpan::operator-, _hmm_wbemtimespan_operator_minus, operator- method [Windows Management Instrumentation], operator- method [Windows Management Instrumentation], WBEMTimeSpan interface, operator-,WBEMTimeSpan.operator-, wbemtime/WBEMTimeSpan::operator-, wmi.wbemtimespan_operator_minus
+ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator- method, WBEMTimeSpan.operator-, WBEMTimeSpan::operator-, _hmm_wbemtimespan_operator_minus, operator-, operator- method [Windows Management Instrumentation], operator- method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator-, wmi.wbemtimespan_operator_minus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WBEMTimeSpan::operator- method
+# WBEMTimeSpan::operator-
 
 
 ## -description

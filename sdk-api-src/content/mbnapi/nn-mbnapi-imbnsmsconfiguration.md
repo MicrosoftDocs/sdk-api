@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: ee261c32-aa17-496a-a568-d9da43e1e23a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSmsConfiguration, IMbnSmsConfiguration interface [Microsoft Broadband Networks], IMbnSmsConfiguration interface [Microsoft Broadband Networks], described, mbn.imbnsmsconfiguration, mbnapi/IMbnSmsConfiguration
+ms.keywords: IMbnSmsConfiguration, IMbnSmsConfiguration interface [Microsoft Broadband Networks], IMbnSmsConfiguration interface [Microsoft Broadband Networks],described, mbn.imbnsmsconfiguration, mbnapi/IMbnSmsConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

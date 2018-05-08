@@ -1,14 +1,14 @@
 ---
 UID: NF:amaudio.IAMDirectSound.SetFocusWindow
-title: IAMDirectSound::SetFocusWindow method
+title: IAMDirectSound::SetFocusWindow
 author: windows-driver-content
 description: The SetFocusWindow method specifies a window to handle sound playback.
 old-location: dshow\iamdirectsound_setfocuswindow.htm
 old-project: DirectShow
 ms.assetid: 3fc9dbb3-83bb-4c46-8ada-a7b7b8a784fe
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMDirectSound, IAMDirectSound interface [DirectShow], SetFocusWindow method, IAMDirectSound::SetFocusWindow, IAMDirectSoundSetWindowFocus, SetFocusWindow method [DirectShow], SetFocusWindow method [DirectShow], IAMDirectSound interface, SetFocusWindow,IAMDirectSound.SetFocusWindow, amaudio/IAMDirectSound::SetFocusWindow, dshow.iamdirectsound_setfocuswindow
+ms.date: 4/30/2018
+ms.keywords: IAMDirectSound interface [DirectShow],SetFocusWindow method, IAMDirectSound.SetFocusWindow, IAMDirectSound::SetFocusWindow, IAMDirectSoundSetWindowFocus, SetFocusWindow, SetFocusWindow method [DirectShow], SetFocusWindow method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::SetFocusWindow, dshow.iamdirectsound_setfocuswindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMDirectSound::SetFocusWindow method
+# IAMDirectSound::SetFocusWindow
 
 
 ## -description

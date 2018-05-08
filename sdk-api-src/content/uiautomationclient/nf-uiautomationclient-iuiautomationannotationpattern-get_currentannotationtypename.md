@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeName
-title: IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName method
+title: IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName
 author: windows-driver-content
 description: Retrieves the localized name of this annotation's type.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeName.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 5AACADE4-304D-47FA-9A55-78B974E8D46C
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentAnnotationTypeName property [Windows Accessibility], CurrentAnnotationTypeName property [Windows Accessibility], IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern, IUIAutomationAnnotationPattern interface [Windows Accessibility], CurrentAnnotationTypeName property, IUIAutomationAnnotationPattern.CurrentAnnotationTypeName, IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName, get_CurrentAnnotationTypeName,IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::CurrentAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeName
+ms.keywords: CurrentAnnotationTypeName property [Windows Accessibility], CurrentAnnotationTypeName property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentAnnotationTypeName property, IUIAutomationAnnotationPattern.CurrentAnnotationTypeName, IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeName, IUIAutomationAnnotationPattern::CurrentAnnotationTypeName, IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName, get_CurrentAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::CurrentAnnotationTypeName, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAnnotationTypeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName method
+# IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName
 
 
 ## -description

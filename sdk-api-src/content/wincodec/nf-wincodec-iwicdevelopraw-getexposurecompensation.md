@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetExposureCompensation
-title: IWICDevelopRaw::GetExposureCompensation method
+title: IWICDevelopRaw::GetExposureCompensation
 author: windows-driver-content
 description: Gets the exposure compensation stop value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getexposurecompensation.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: cdd71702-4696-4533-bd6f-ba9324b6b05b
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetExposureCompensation method [Windows Imaging Component], GetExposureCompensation method [Windows Imaging Component], IWICDevelopRaw interface, GetExposureCompensation,IWICDevelopRaw.GetExposureCompensation, IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], GetExposureCompensation method, IWICDevelopRaw::GetExposureCompensation, _wic_codec_iwicdevelopraw_getexposurecompensation, wic._wic_codec_iwicdevelopraw_getexposurecompensation, wincodec/IWICDevelopRaw::GetExposureCompensation
+ms.keywords: GetExposureCompensation, GetExposureCompensation method [Windows Imaging Component], GetExposureCompensation method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetExposureCompensation method, IWICDevelopRaw.GetExposureCompensation, IWICDevelopRaw::GetExposureCompensation, _wic_codec_iwicdevelopraw_getexposurecompensation, wic._wic_codec_iwicdevelopraw_getexposurecompensation, wincodec/IWICDevelopRaw::GetExposureCompensation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDevelopRaw::GetExposureCompensation method
+# IWICDevelopRaw::GetExposureCompensation
 
 
 ## -description

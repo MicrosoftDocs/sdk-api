@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontRenderingEmSize
-title: IXpsOMGlyphs::GetFontRenderingEmSize method
+title: IXpsOMGlyphs::GetFontRenderingEmSize
 author: windows-driver-content
 description: Gets the font size.
 old-location: xps\ixpsomglyphs_getfontrenderingemsize.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: be1c6eff-20ef-49d3-929e-3595b421bcb9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetFontRenderingEmSize method [XPS Documents and Packaging], GetFontRenderingEmSize method [XPS Documents and Packaging], IXpsOMGlyphs interface, GetFontRenderingEmSize,IXpsOMGlyphs.GetFontRenderingEmSize, IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], GetFontRenderingEmSize method, IXpsOMGlyphs::GetFontRenderingEmSize, xps.ixpsomglyphs_getfontrenderingemsize, xpsobjectmodel/IXpsOMGlyphs::GetFontRenderingEmSize
+ms.keywords: GetFontRenderingEmSize, GetFontRenderingEmSize method [XPS Documents and Packaging], GetFontRenderingEmSize method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontRenderingEmSize method, IXpsOMGlyphs.GetFontRenderingEmSize, IXpsOMGlyphs::GetFontRenderingEmSize, xps.ixpsomglyphs_getfontrenderingemsize, xpsobjectmodel/IXpsOMGlyphs::GetFontRenderingEmSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::GetFontRenderingEmSize method
+# IXpsOMGlyphs::GetFontRenderingEmSize
 
 
 ## -description

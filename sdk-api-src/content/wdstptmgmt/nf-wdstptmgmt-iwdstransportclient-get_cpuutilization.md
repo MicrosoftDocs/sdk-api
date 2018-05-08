@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_CpuUtilization
-title: IWdsTransportClient::get_CpuUtilization method
+title: IWdsTransportClient::get_CpuUtilization
 author: windows-driver-content
 description: Receives the percentage of the WDS client’s CPU utilization.
 old-location: wds\iwdstransportclient_cpuutilization.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 515845b9-6f5e-436f-a2f1-4963909d4071
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CpuUtilization property [Windows Deployment Services], CpuUtilization property [Windows Deployment Services], IWdsTransportClient interface, IWdsTransportClient, IWdsTransportClient interface [Windows Deployment Services], CpuUtilization property, IWdsTransportClient.CpuUtilization, IWdsTransportClient::get_CpuUtilization, get_CpuUtilization,IWdsTransportClient.get_CpuUtilization, wds.iwdstransportclient_cpuutilization, wdstptmgmt/IWdsTransportClient::CpuUtilization, wdstptmgmt/IWdsTransportClient::get_CpuUtilization
+ms.keywords: CpuUtilization property [Windows Deployment Services], CpuUtilization property [Windows Deployment Services],IWdsTransportClient interface, IWdsTransportClient interface [Windows Deployment Services],CpuUtilization property, IWdsTransportClient.CpuUtilization, IWdsTransportClient.get_CpuUtilization, IWdsTransportClient::CpuUtilization, IWdsTransportClient::get_CpuUtilization, get_CpuUtilization, wds.iwdstransportclient_cpuutilization, wdstptmgmt/IWdsTransportClient::CpuUtilization, wdstptmgmt/IWdsTransportClient::get_CpuUtilization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportClient::get_CpuUtilization method
+# IWdsTransportClient::get_CpuUtilization
 
 
 ## -description

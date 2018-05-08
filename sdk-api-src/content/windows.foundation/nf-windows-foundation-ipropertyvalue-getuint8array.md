@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt8Array
-title: IPropertyValue::GetUInt8Array method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the array of unsigned 8-bit integer values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getuint8array.htm
 old-project: WinRT
 ms.assetid: f17fe310-40b7-46a5-ae87-c07649c2f288
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetUInt8Array method [Windows Runtime], GetUInt8Array method [Windows Runtime], IPropertyValue interface, GetUInt8Array,IPropertyValue.GetUInt8Array, IPropertyValue, IPropertyValue interface [Windows Runtime], GetUInt8Array method, IPropertyValue::GetUInt8Array, windows/IPropertyValue::GetUInt8Array, winrt.ipropertyvalue_getuint8array
+ms.date: 5/4/2018
+ms.keywords: GetUInt8Array, GetUInt8Array method [Windows Runtime], GetUInt8Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt8Array method, IPropertyValue.GetUInt8Array, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt8Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt8Array, winrt.ipropertyvalue_getuint8array
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetUInt8Array method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

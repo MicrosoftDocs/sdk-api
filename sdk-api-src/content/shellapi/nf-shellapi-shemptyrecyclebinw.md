@@ -7,7 +7,7 @@ old-location: shell\SHEmptyRecycleBin.htm
 old-project: shell
 ms.assetid: c3995be7-bc8b-4e1f-8ef6-fdf4c0a75720
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: SHERB_NOCONFIRMATION, SHERB_NOPROGRESSUI, SHERB_NOSOUND, SHEmptyRecycleBin, SHEmptyRecycleBin function [Windows Shell], SHEmptyRecycleBinA, SHEmptyRecycleBinW, _win32_SHEmptyRecycleBin, shell.SHEmptyRecycleBin, shellapi/SHEmptyRecycleBin, shellapi/SHEmptyRecycleBinA, shellapi/SHEmptyRecycleBinW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetInterfaceCapability
-title: IMbnInterface::GetInterfaceCapability method
+title: IMbnInterface::GetInterfaceCapability
 author: windows-driver-content
 description: Gets the capabilities of the device.
 old-location: mbn\imbninterface_getinterfacecapability.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: cfe8f638-ad17-4118-9c79-b7ebc81c726a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetInterfaceCapability method [Microsoft Broadband Networks], GetInterfaceCapability method [Microsoft Broadband Networks], IMbnInterface interface, GetInterfaceCapability,IMbnInterface.GetInterfaceCapability, IMbnInterface, IMbnInterface interface [Microsoft Broadband Networks], GetInterfaceCapability method, IMbnInterface::GetInterfaceCapability, mbn.imbninterface_getinterfacecapability, mbnapi/IMbnInterface::GetInterfaceCapability
+ms.keywords: GetInterfaceCapability, GetInterfaceCapability method [Microsoft Broadband Networks], GetInterfaceCapability method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetInterfaceCapability method, IMbnInterface.GetInterfaceCapability, IMbnInterface::GetInterfaceCapability, mbn.imbninterface_getinterfacecapability, mbnapi/IMbnInterface::GetInterfaceCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnInterface::GetInterfaceCapability method
+# IMbnInterface::GetInterfaceCapability
 
 
 ## -description

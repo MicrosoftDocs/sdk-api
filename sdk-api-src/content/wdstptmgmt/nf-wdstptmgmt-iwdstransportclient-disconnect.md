@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.Disconnect
-title: IWdsTransportClient::Disconnect method
+title: IWdsTransportClient::Disconnect
 author: windows-driver-content
 description: Disconnects the WDS client from the session and specifies what action the client should take upon disconnection.
 old-location: wds\iwdstransportclient_disconnect.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: faf3ab18-2629-402f-96ad-41337c165fba
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Disconnect method [Windows Deployment Services], Disconnect method [Windows Deployment Services], IWdsTransportClient interface, Disconnect,IWdsTransportClient.Disconnect, IWdsTransportClient, IWdsTransportClient interface [Windows Deployment Services], Disconnect method, IWdsTransportClient::Disconnect, wds.iwdstransportclient_disconnect, wdstptmgmt/IWdsTransportClient::Disconnect
+ms.keywords: Disconnect, Disconnect method [Windows Deployment Services], Disconnect method [Windows Deployment Services],IWdsTransportClient interface, IWdsTransportClient interface [Windows Deployment Services],Disconnect method, IWdsTransportClient.Disconnect, IWdsTransportClient::Disconnect, wds.iwdstransportclient_disconnect, wdstptmgmt/IWdsTransportClient::Disconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportClient::Disconnect method
+# IWdsTransportClient::Disconnect
 
 
 ## -description

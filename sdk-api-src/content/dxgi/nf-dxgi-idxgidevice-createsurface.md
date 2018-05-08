@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIDevice.CreateSurface
-title: IDXGIDevice::CreateSurface method
+title: IDXGIDevice::CreateSurface
 author: windows-driver-content
 description: Returns a surface. This method is used internally and you should not call it directly in your application.
 old-location: direct3ddxgi\idxgidevice_createsurface.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice_createsurface.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: CreateSurface method [DXGI], CreateSurface method [DXGI], IDXGIDevice interface, CreateSurface,IDXGIDevice.CreateSurface, IDXGIDevice, IDXGIDevice interface [DXGI], CreateSurface method, IDXGIDevice::CreateSurface, a6514b10-4398-2f19-86d3-e31bb2c9044c, direct3ddxgi.idxgidevice_createsurface, dxgi/IDXGIDevice::CreateSurface
+ms.keywords: CreateSurface, CreateSurface method [DXGI], CreateSurface method [DXGI],IDXGIDevice interface, IDXGIDevice interface [DXGI],CreateSurface method, IDXGIDevice.CreateSurface, IDXGIDevice::CreateSurface, a6514b10-4398-2f19-86d3-e31bb2c9044c, direct3ddxgi.idxgidevice_createsurface, dxgi/IDXGIDevice::CreateSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIDevice::CreateSurface method
+# IDXGIDevice::CreateSurface
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnVoiceProcessingPassStart
-title: IXAudio2VoiceCallback::OnVoiceProcessingPassStart method
+title: IXAudio2VoiceCallback::OnVoiceProcessingPassStart
 author: windows-driver-content
 description: Called during each processing pass for each voice, just before XAudio2 reads data from the voice's buffer queue.
 old-location: xaudio2\ixaudio2voicecallback_interface_onvoiceprocessingpassstart.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnVoiceProcessingPassStart(UINT32)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAudio2VoiceCallback, IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs], OnVoiceProcessingPassStart method, IXAudio2VoiceCallback::OnVoiceProcessingPassStart, OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs], OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs], IXAudio2VoiceCallback interface, OnVoiceProcessingPassStart,IXAudio2VoiceCallback.OnVoiceProcessingPassStart, xaudio2.ixaudio2voicecallback_interface_onvoiceprocessingpassstart, xaudio2/IXAudio2VoiceCallback::OnVoiceProcessingPassStart
+ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnVoiceProcessingPassStart method, IXAudio2VoiceCallback.OnVoiceProcessingPassStart, IXAudio2VoiceCallback::OnVoiceProcessingPassStart, OnVoiceProcessingPassStart, OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs], OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onvoiceprocessingpassstart, xaudio2/IXAudio2VoiceCallback::OnVoiceProcessingPassStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2VoiceCallback::OnVoiceProcessingPassStart method
+# IXAudio2VoiceCallback::OnVoiceProcessingPassStart
 
 
 ## -description

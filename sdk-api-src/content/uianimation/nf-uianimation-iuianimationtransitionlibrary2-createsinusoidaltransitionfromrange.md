@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromRange
-title: IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromRange method
+title: IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromRange
 author: windows-driver-content
 description: Creates a sinusoidal-range scalar transition with a specified range of oscillation.
 old-location: uianimation\iuianimationtransitionlibrary2_createsinusoidaltransitionfromrange.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: E4222165-4726-4C79-94A8-3CC2C72CCE42
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateSinusoidalTransitionFromRange method [Windows Animation], CreateSinusoidalTransitionFromRange method [Windows Animation], IUIAnimationTransitionLibrary2 interface, CreateSinusoidalTransitionFromRange,IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromRange, IUIAnimationTransitionLibrary2, IUIAnimationTransitionLibrary2 interface [Windows Animation], CreateSinusoidalTransitionFromRange method, IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromRange, uianimation.iuianimationtransitionlibrary2_createsinusoidaltransitionfromrange, uianimation/IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromRange
+ms.keywords: CreateSinusoidalTransitionFromRange, CreateSinusoidalTransitionFromRange method [Windows Animation], CreateSinusoidalTransitionFromRange method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateSinusoidalTransitionFromRange method, IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromRange, IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromRange, uianimation.iuianimationtransitionlibrary2_createsinusoidaltransitionfromrange, uianimation/IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromRange method
+# IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromRange
 
 
 ## -description

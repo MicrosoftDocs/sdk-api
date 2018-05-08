@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF3.OfflineVolume
-title: IVdsVolumeMF3::OfflineVolume method
+title: IVdsVolumeMF3::OfflineVolume
 author: windows-driver-content
 description: Takes the volume offline by using the IOCTL_VOLUME_OFFLINE control code.
 old-location: base\ivdsvolumemf3_offlinevolume.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: d7f699c6-6f1c-445d-80b4-3576102d5b5f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsVolumeMF3, IVdsVolumeMF3 interface, OfflineVolume method, IVdsVolumeMF3::OfflineVolume, OfflineVolume method, OfflineVolume method, IVdsVolumeMF3 interface, OfflineVolume,IVdsVolumeMF3.OfflineVolume, base.ivdsvolumemf3_offlinevolume, vds/IVdsVolumeMF3::OfflineVolume
+ms.keywords: IVdsVolumeMF3 interface,OfflineVolume method, IVdsVolumeMF3.OfflineVolume, IVdsVolumeMF3::OfflineVolume, OfflineVolume, OfflineVolume method, OfflineVolume method,IVdsVolumeMF3 interface, base.ivdsvolumemf3_offlinevolume, vds/IVdsVolumeMF3::OfflineVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsVolumeMF3::OfflineVolume method
+# IVdsVolumeMF3::OfflineVolume
 
 
 ## -description

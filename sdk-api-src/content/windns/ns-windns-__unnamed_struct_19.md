@@ -63,6 +63,16 @@ The <b>DNS_DHCID_DATA</b> structure represents a DNS Dynamic Host Configuration 
 The length, in bytes, of <b>DHCID</b>.
 
 
+### -field size_is
+
+ 
+
+
+### -field size_is.dwByteCount
+
+ 
+
+
 ### -field DHCID
 
 A <b>BYTE</b> array that contains the DHCID client, domain, and SHA-256 digest information as specified in section 4 of <a href="http://go.microsoft.com/fwlink/p/?linkid=134711">RFC 2671</a>.

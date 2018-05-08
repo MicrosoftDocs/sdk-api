@@ -7,7 +7,7 @@ old-location: ad\dsismangledrdnvalue.htm
 old-project: AD
 ms.assetid: adf5e133-9e48-4e97-af0c-4f8ea9b8bf8f
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: DsIsMangledRdnValue, DsIsMangledRdnValue function [Active Directory], DsIsMangledRdnValueA, DsIsMangledRdnValueW, _glines_dsismangledrdnvalue, ad.dsismangledrdnvalue, dsparse/DsIsMangledRdnValue, dsparse/DsIsMangledRdnValueA, dsparse/DsIsMangledRdnValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

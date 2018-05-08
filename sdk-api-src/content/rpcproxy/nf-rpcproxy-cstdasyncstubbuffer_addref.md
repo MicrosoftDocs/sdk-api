@@ -7,7 +7,7 @@ old-location: rpc\cstdasyncstubbuffer_addref.htm
 old-project: Rpc
 ms.assetid: AE4BC50C-0AF1-4612-B4BF-27319351CA1E
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: CStdAsyncStubBuffer_AddRef, CStdAsyncStubBuffer_AddRef function [RPC], rpc.cstdasyncstubbuffer_addref, rpcproxy/CStdAsyncStubBuffer_AddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices

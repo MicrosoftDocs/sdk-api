@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecProps.GetCodecProp
-title: IWMCodecProps::GetCodecProp method
+title: IWMCodecProps::GetCodecProp
 author: windows-driver-content
 description: Retrieves a codec property specific to an output format.
 old-location: mf\iwmcodecpropsgetcodecprop.htm
 old-project: medfound
 ms.assetid: 380c0beb-47a7-46e2-bf5a-cf901d7e0719
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetCodecProp method [Media Foundation], GetCodecProp method [Media Foundation], IWMCodecProps interface, GetCodecProp,IWMCodecProps.GetCodecProp, IWMCodecProps, IWMCodecProps interface [Media Foundation], GetCodecProp method, IWMCodecProps::GetCodecProp, codecapi.iwmcodecpropsgetcodecprop, g_wszWMCPCodecName, g_wszWMCPSupportedVBRModes, mf.iwmcodecpropsgetcodecprop, wmcodecdsp/ IWMCodecProps::GetCodecProp
+ms.date: 5/3/2018
+ms.keywords: GetCodecProp, GetCodecProp method [Media Foundation], GetCodecProp method [Media Foundation],IWMCodecProps interface, IWMCodecProps interface [Media Foundation],GetCodecProp method, IWMCodecProps.GetCodecProp, IWMCodecProps::GetCodecProp, codecapi.iwmcodecpropsgetcodecprop, g_wszWMCPCodecName, g_wszWMCPSupportedVBRModes, mf.iwmcodecpropsgetcodecprop, wmcodecdsp/ IWMCodecProps::GetCodecProp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMCodecProps::GetCodecProp method
+# IWMCodecProps::GetCodecProp
 
 
 ## -description

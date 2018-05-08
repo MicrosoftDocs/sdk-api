@@ -8,7 +8,7 @@ old-project: debug_wwahost
 ms.assetid: c33793c9-499e-4a57-b52d-345d3b360789
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWebApplicationAuthoringMode, IWebApplicationAuthoringMode interface [Debugging Windows Store apps], IWebApplicationAuthoringMode interface [Debugging Windows Store apps], described, debug.iwebapplicationauthoringmode, webapplication/IWebApplicationAuthoringMode
+ms.keywords: IWebApplicationAuthoringMode, IWebApplicationAuthoringMode interface [Debugging Windows Store apps], IWebApplicationAuthoringMode interface [Debugging Windows Store apps],described, debug.iwebapplicationauthoringmode, webapplication/IWebApplicationAuthoringMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

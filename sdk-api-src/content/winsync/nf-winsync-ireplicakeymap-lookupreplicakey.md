@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IReplicaKeyMap.LookupReplicaKey
-title: IReplicaKeyMap::LookupReplicaKey method
+title: IReplicaKeyMap::LookupReplicaKey
 author: windows-driver-content
 description: Gets the replica key that corresponds to the specified replica ID.
 old-location: winsync\ireplicakeymap_lookupreplicakey.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 92bae64f-67a5-4029-9d24-eee92a3fc55f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IReplicaKeyMap, IReplicaKeyMap interface [Windows Sync], LookupReplicaKey method, IReplicaKeyMap::LookupReplicaKey, LookupReplicaKey method [Windows Sync], LookupReplicaKey method [Windows Sync], IReplicaKeyMap interface, LookupReplicaKey,IReplicaKeyMap.LookupReplicaKey, winsync.ireplicakeymap_lookupreplicakey, winsync/IReplicaKeyMap::LookupReplicaKey
+ms.keywords: IReplicaKeyMap interface [Windows Sync],LookupReplicaKey method, IReplicaKeyMap.LookupReplicaKey, IReplicaKeyMap::LookupReplicaKey, LookupReplicaKey, LookupReplicaKey method [Windows Sync], LookupReplicaKey method [Windows Sync],IReplicaKeyMap interface, winsync.ireplicakeymap_lookupreplicakey, winsync/IReplicaKeyMap::LookupReplicaKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IReplicaKeyMap::LookupReplicaKey method
+# IReplicaKeyMap::LookupReplicaKey
 
 
 ## -description

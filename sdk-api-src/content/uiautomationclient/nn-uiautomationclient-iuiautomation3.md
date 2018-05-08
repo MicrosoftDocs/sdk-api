@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: D46CE3FF-31E2-32CE-FD38-680064E1765D
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomation3, IUIAutomation3 interface [Windows Accessibility], IUIAutomation3 interface [Windows Accessibility], described, uiautomationclient/IUIAutomation3, winauto.uiauto_IUIAutomation3
+ms.keywords: IUIAutomation3, IUIAutomation3 interface [Windows Accessibility], IUIAutomation3 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation3, winauto.uiauto_IUIAutomation3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

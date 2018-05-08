@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetGamerAccount
-title: IXblIdpAuthManager::GetGamerAccount method
+title: IXblIdpAuthManager::GetGamerAccount
 author: windows-driver-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_getgameraccount.htm
@@ -8,7 +8,7 @@ old-project: xblidp
 ms.assetid: 8AAE50DC-249A-4744-8B5B-CEFD9BE83A8D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetGamerAccount method, GetGamerAccount method, IXblIdpAuthManager interface, GetGamerAccount,IXblIdpAuthManager.GetGamerAccount, IXblIdpAuthManager, IXblIdpAuthManager interface, GetGamerAccount method, IXblIdpAuthManager::GetGamerAccount, xblidp.ixblidpauthmanager_getgameraccount, xblidpauthmanager/IXblIdpAuthManager::GetGamerAccount
+ms.keywords: GetGamerAccount, GetGamerAccount method, GetGamerAccount method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetGamerAccount method, IXblIdpAuthManager.GetGamerAccount, IXblIdpAuthManager::GetGamerAccount, xblidp.ixblidpauthmanager_getgameraccount, xblidpauthmanager/IXblIdpAuthManager::GetGamerAccount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXblIdpAuthManager::GetGamerAccount method
+# IXblIdpAuthManager::GetGamerAccount
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IAnnotationProvider.get_AnnotationTypeName
-title: IAnnotationProvider::get_AnnotationTypeName method
+title: IAnnotationProvider::get_AnnotationTypeName
 author: windows-driver-content
 description: The name of this annotation type.
 old-location: winauto\uiauto_IAnnotationProvider_AnnotationTypeName.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: A13E694C-FFAE-4A9C-BEB4-5D38C7DCBB42
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: AnnotationTypeName property [Windows Accessibility], AnnotationTypeName property [Windows Accessibility], IAnnotationProvider interface, IAnnotationProvider, IAnnotationProvider interface [Windows Accessibility], AnnotationTypeName property, IAnnotationProvider.AnnotationTypeName, IAnnotationProvider::get_AnnotationTypeName, get_AnnotationTypeName,IAnnotationProvider.get_AnnotationTypeName, uiautomationcore/IAnnotationProvider::AnnotationTypeName, uiautomationcore/IAnnotationProvider::get_AnnotationTypeName, winauto.uiauto_IAnnotationProvider_AnnotationTypeName
+ms.keywords: AnnotationTypeName property [Windows Accessibility], AnnotationTypeName property [Windows Accessibility],IAnnotationProvider interface, IAnnotationProvider interface [Windows Accessibility],AnnotationTypeName property, IAnnotationProvider.AnnotationTypeName, IAnnotationProvider.get_AnnotationTypeName, IAnnotationProvider::AnnotationTypeName, IAnnotationProvider::get_AnnotationTypeName, get_AnnotationTypeName, uiautomationcore/IAnnotationProvider::AnnotationTypeName, uiautomationcore/IAnnotationProvider::get_AnnotationTypeName, winauto.uiauto_IAnnotationProvider_AnnotationTypeName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnnotationProvider::get_AnnotationTypeName method
+# IAnnotationProvider::get_AnnotationTypeName
 
 
 ## -description

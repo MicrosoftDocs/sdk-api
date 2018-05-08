@@ -8,7 +8,7 @@ old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetinterface.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IITResultSet, IITResultSet interface [HTML Help Workshop], IITResultSet interface [HTML Help Workshop], described, htmlhelp.iitresultset, infotech/IITResultSet, refIITResultSetInterface
+ms.keywords: IITResultSet, IITResultSet interface [HTML Help Workshop], IITResultSet interface [HTML Help Workshop],described, htmlhelp.iitresultset, infotech/IITResultSet, refIITResultSetInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

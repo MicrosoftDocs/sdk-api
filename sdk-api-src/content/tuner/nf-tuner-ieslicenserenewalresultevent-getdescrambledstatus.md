@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetDescrambledStatus
-title: IESLicenseRenewalResultEvent::GetDescrambledStatus method
+title: IESLicenseRenewalResultEvent::GetDescrambledStatus
 author: windows-driver-content
 description: Gets a code from a LicenseRenewalResult event that indicates the result of an attempt to descramble protected content.
 old-location: mstv\ieslicenserenewalresultevent_getdescrambledstatus.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ed09aea2-e000-40ce-bd94-a174e75a5001
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDescrambledStatus method [DirectShow], GetDescrambledStatus method [DirectShow], IESLicenseRenewalResultEvent interface, GetDescrambledStatus,IESLicenseRenewalResultEvent.GetDescrambledStatus, IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], GetDescrambledStatus method, IESLicenseRenewalResultEvent::GetDescrambledStatus, mstv.ieslicenserenewalresultevent_getdescrambledstatus, tuner/IESLicenseRenewalResultEvent::GetDescrambledStatus
+ms.keywords: GetDescrambledStatus, GetDescrambledStatus method [DirectShow], GetDescrambledStatus method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetDescrambledStatus method, IESLicenseRenewalResultEvent.GetDescrambledStatus, IESLicenseRenewalResultEvent::GetDescrambledStatus, mstv.ieslicenserenewalresultevent_getdescrambledstatus, tuner/IESLicenseRenewalResultEvent::GetDescrambledStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESLicenseRenewalResultEvent::GetDescrambledStatus method
+# IESLicenseRenewalResultEvent::GetDescrambledStatus
 
 
 ## -description

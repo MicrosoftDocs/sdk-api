@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IOverlayNotify.OnPaletteChange
-title: IOverlayNotify::OnPaletteChange method
+title: IOverlayNotify::OnPaletteChange
 author: windows-driver-content
 description: The OnPaletteChange method provides notification that the palette of the window has changed.
 old-location: dshow\ioverlaynotify_onpalettechange.htm
 old-project: DirectShow
 ms.assetid: 128e3834-d561-46d3-b32b-5bfd290f0995
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IOverlayNotify, IOverlayNotify interface [DirectShow], OnPaletteChange method, IOverlayNotify::OnPaletteChange, IOverlayNotifyOnPaletteChange, OnPaletteChange method [DirectShow], OnPaletteChange method [DirectShow], IOverlayNotify interface, OnPaletteChange,IOverlayNotify.OnPaletteChange, dshow.ioverlaynotify_onpalettechange, strmif/IOverlayNotify::OnPaletteChange
+ms.date: 4/30/2018
+ms.keywords: IOverlayNotify interface [DirectShow],OnPaletteChange method, IOverlayNotify.OnPaletteChange, IOverlayNotify::OnPaletteChange, IOverlayNotifyOnPaletteChange, OnPaletteChange, OnPaletteChange method [DirectShow], OnPaletteChange method [DirectShow],IOverlayNotify interface, dshow.ioverlaynotify_onpalettechange, strmif/IOverlayNotify::OnPaletteChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IOverlayNotify::OnPaletteChange method
+# IOverlayNotify::OnPaletteChange
 
 
 ## -description

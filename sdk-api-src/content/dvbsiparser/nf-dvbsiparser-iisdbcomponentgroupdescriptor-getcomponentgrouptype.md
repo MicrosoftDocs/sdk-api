@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetComponentGroupType
-title: IIsdbComponentGroupDescriptor::GetComponentGroupType method
+title: IIsdbComponentGroupDescriptor::GetComponentGroupType
 author: windows-driver-content
 description: Gets the value of the component_group_type field from an Integrated Services Digital Broadcasting (ISDB) component group descriptor. This three-bit field indicates the group type to which the components in the descriptor belong.
 old-location: mstv\iisdbcomponentgroupdescriptor_getcomponentgrouptype.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6bf17c29-ee43-4de8-a536-bea44238aa53
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetComponentGroupType method [Microsoft TV Technologies], GetComponentGroupType method [Microsoft TV Technologies], IIsdbComponentGroupDescriptor interface, GetComponentGroupType,IIsdbComponentGroupDescriptor.GetComponentGroupType, IIsdbComponentGroupDescriptor, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], GetComponentGroupType method, IIsdbComponentGroupDescriptor::GetComponentGroupType, dvbsiparser/IIsdbComponentGroupDescriptor::GetComponentGroupType, mstv.iisdbcomponentgroupdescriptor_getcomponentgrouptype
+ms.keywords: GetComponentGroupType, GetComponentGroupType method [Microsoft TV Technologies], GetComponentGroupType method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetComponentGroupType method, IIsdbComponentGroupDescriptor.GetComponentGroupType, IIsdbComponentGroupDescriptor::GetComponentGroupType, dvbsiparser/IIsdbComponentGroupDescriptor::GetComponentGroupType, mstv.iisdbcomponentgroupdescriptor_getcomponentgrouptype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbComponentGroupDescriptor::GetComponentGroupType method
+# IIsdbComponentGroupDescriptor::GetComponentGroupType
 
 
 ## -description

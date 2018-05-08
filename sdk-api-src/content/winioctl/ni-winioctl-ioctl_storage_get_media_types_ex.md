@@ -8,7 +8,7 @@ old-project: DevIO
 ms.assetid: eb3676cb-9f50-4105-89b6-ee2174e197ec
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES_EX, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control code, _win32_ioctl_storage_get_media_types_ex, base.ioctl_storage_get_media_types_ex, winioctl/IOCTL_STORAGE_GET_MEDIA_TYPES_EX
+ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES_EX, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control code, _win32_ioctl_storage_get_media_types_ex, base.ioctl_storage_get_media_types_ex, winioctl/IOCTL_STORAGE_GET_MEDIA_TYPES_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetInputHandles
-title: IWRdsProtocolConnection::GetInputHandles method
+title: IWRdsProtocolConnection::GetInputHandles
 author: windows-driver-content
 description: Obtains the handles to input/output devices for the protocol.
 old-location: termserv\iwrdsprotocolconnection_getinputhandles.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 42f20dfc-e625-4b53-b055-750af4cbd3ec
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetInputHandles method [Remote Desktop Services], GetInputHandles method [Remote Desktop Services], IWRdsProtocolConnection interface, GetInputHandles,IWRdsProtocolConnection.GetInputHandles, IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], GetInputHandles method, IWRdsProtocolConnection::GetInputHandles, termserv.iwrdsprotocolconnection_getinputhandles, wtsprotocol/IWRdsProtocolConnection::GetInputHandles
+ms.keywords: GetInputHandles, GetInputHandles method [Remote Desktop Services], GetInputHandles method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetInputHandles method, IWRdsProtocolConnection.GetInputHandles, IWRdsProtocolConnection::GetInputHandles, termserv.iwrdsprotocolconnection_getinputhandles, wtsprotocol/IWRdsProtocolConnection::GetInputHandles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWRdsProtocolConnection::GetInputHandles method
+# IWRdsProtocolConnection::GetInputHandles
 
 
 ## -description

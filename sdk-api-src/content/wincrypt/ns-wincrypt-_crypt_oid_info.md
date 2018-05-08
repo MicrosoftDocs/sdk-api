@@ -7,7 +7,7 @@ old-location: security\crypt_oid_info.htm
 old-project: SecCrypto
 ms.assetid: 06ba0f60-778d-450b-8f71-23471b8c4e2c
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPT_OID_INFO, CCRYPT_OID_INFO, CCRYPT_OID_INFO structure [Security], CRYPT_ENCRYPT_ALG_OID_GROUP_ID, CRYPT_ENHKEY_USAGE_OID_GROUP_ID, CRYPT_EXT_OR_ATTR_OID_GROUP_ID, CRYPT_HASH_ALG_OID_GROUP_ID, CRYPT_OID_INFO, CRYPT_OID_INFO structure [Security], CRYPT_OID_INFO_ECC_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_ECC_WRAP_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_HASH_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_MGF1_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_NO_SIGN_ALGORITHM, CRYPT_OID_INFO_OAEP_PARAMETERS_ALGORITHM, CRYPT_OID_INHIBIT_SIGNATURE_FORMAT_FLAG, CRYPT_OID_NO_NULL_ALGORITHM_PARA_FLAG, CRYPT_OID_PUBKEY_ENCRYPT_ONLY_FLAG, CRYPT_OID_PUBKEY_SIGN_ONLY_FLAG, CRYPT_OID_USE_PUBKEY_PARA_FOR_PKCS7_FLAG, CRYPT_POLICY_OID_GROUP_ID, CRYPT_PUBKEY_ALG_OID_GROUP_ID, CRYPT_RDN_ATTR_OID_GROUP_ID, CRYPT_SIGN_ALG_OID_GROUP_ID, PCCRYPT_OID_INFO, PCCRYPT_OID_INFO structure pointer [Security], PCRYPT_OID_INFO, PCRYPT_OID_INFO structure pointer [Security], _CRYPT_OID_INFO, _crypto2_crypt_oid_info, security.crypt_oid_info, wincrypt/CCRYPT_OID_INFO, wincrypt/CRYPT_OID_INFO, wincrypt/PCCRYPT_OID_INFO, wincrypt/PCRYPT_OID_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -176,6 +176,32 @@ Signature algorithms
 ### -field DUMMYUNIONNAME
 
  
+
+
+### -field DUMMYUNIONNAME.dwValue
+
+A numeric value associated with this OID information. This member is used with <b>dwGroupId</b> CRYPT_SIGN_ALG_OID_GROUP_ID.
+
+
+### -field DUMMYUNIONNAME.Algid
+
+The algorithm identifier associated with this OID information. 
+
+
+
+
+This member applies for the following values of <b>dwGroupId</b>:
+
+<ul>
+<li>CRYPT_HASH_ALG_OID_GROUP_ID</li>
+<li>CRYPT_ENCRYPT_ALG_OID_GROUP_ID</li>
+<li>CRYPT_PUBKEY_ALG_OID_GROUP_ID</li>
+<li>CRYPT_SIGN_ALG_OID_GROUP_ID</li>
+</ul>
+
+### -field DUMMYUNIONNAME.dwLength
+
+This member is not implemented. It is always set to zero.
 
 
 ### -field ExtraInfo
@@ -409,32 +435,6 @@ For unsigned signatures, this member is the special CRYPT_OID_INFO_NO_SIGN_ALGOR
 For ECC curve name public keys, for example, szOID_ECC_CURVE_P256 ("1.2.840.10045.3.1.7"), this is the special CRYPT_OID_INFO_ECC_PARAMETERS_ALGORITHM string value.
 
 For the other values of <b>dwGroupId</b>, set the <b>pwszCNGExtraAlgid</b> member to the empty string, L"".
-
-
-#### - Algid
-
-The algorithm identifier associated with this OID information. 
-
-
-
-
-This member applies for the following values of <b>dwGroupId</b>:
-
-<ul>
-<li>CRYPT_HASH_ALG_OID_GROUP_ID</li>
-<li>CRYPT_ENCRYPT_ALG_OID_GROUP_ID</li>
-<li>CRYPT_PUBKEY_ALG_OID_GROUP_ID</li>
-<li>CRYPT_SIGN_ALG_OID_GROUP_ID</li>
-</ul>
-
-#### - dwLength
-
-This member is not implemented. It is always set to zero.
-
-
-#### - dwValue
-
-A numeric value associated with this OID information. This member is used with <b>dwGroupId</b> CRYPT_SIGN_ALG_OID_GROUP_ID.
 
 
 ## -see-also

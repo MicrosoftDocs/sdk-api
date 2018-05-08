@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: 1ef324ce-8a62-ebca-45ca-3c92671dfaa3
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetBlue, SetBlue methods [DirectComposition], dcomp/SetBlue, directcomp.idcompositionshadoweffect_setblue_overloaded
+ms.keywords: IDCompositionShadowEffect::SetBlue, SetBlue, SetBlue methods [DirectComposition], dcomp/SetBlue, directcomp.idcompositionshadoweffect_setblue_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

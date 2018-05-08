@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetPropertyQualifierSet
-title: IWbemClassObject::GetPropertyQualifierSet method
+title: IWbemClassObject::GetPropertyQualifierSet
 author: windows-driver-content
 description: The IWbemClassObject::GetPropertyQualifierSet method gets the qualifier set for a particular property in the class object. You can use this method with properties that are a member of an instance or a class definition.
 old-location: wmi\iwbemclassobject_getpropertyqualifierset.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 4bfca42e-7688-42e1-afa3-24b7eaaad9fe
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetPropertyQualifierSet method [Windows Management Instrumentation], GetPropertyQualifierSet method [Windows Management Instrumentation], IWbemClassObject interface, GetPropertyQualifierSet,IWbemClassObject.GetPropertyQualifierSet, IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], GetPropertyQualifierSet method, IWbemClassObject::GetPropertyQualifierSet, _hmm_iwbemclassobject_getpropertyqualifierset, wbemcli/IWbemClassObject::GetPropertyQualifierSet, wmi.iwbemclassobject_getpropertyqualifierset
+ms.keywords: GetPropertyQualifierSet, GetPropertyQualifierSet method [Windows Management Instrumentation], GetPropertyQualifierSet method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetPropertyQualifierSet method, IWbemClassObject.GetPropertyQualifierSet, IWbemClassObject::GetPropertyQualifierSet, _hmm_iwbemclassobject_getpropertyqualifierset, wbemcli/IWbemClassObject::GetPropertyQualifierSet, wmi.iwbemclassobject_getpropertyqualifierset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -53,7 +53,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemClassObject::GetPropertyQualifierSet method
+# IWbemClassObject::GetPropertyQualifierSet
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: b3cdd835-60fd-414c-9b60-b15c07b11f34
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IObjectContextActivity, IObjectContextActivity interface [COM+], IObjectContextActivity interface [COM+], described, _cos_IObjectContextActivity, comsvcs/IObjectContextActivity, cos.iobjectcontextactivity
+ms.keywords: IObjectContextActivity, IObjectContextActivity interface [COM+], IObjectContextActivity interface [COM+],described, _cos_IObjectContextActivity, comsvcs/IObjectContextActivity, cos.iobjectcontextactivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

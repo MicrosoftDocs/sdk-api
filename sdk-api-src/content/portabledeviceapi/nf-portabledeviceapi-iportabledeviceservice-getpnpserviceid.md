@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.GetPnPServiceID
-title: IPortableDeviceService::GetPnPServiceID method
+title: IPortableDeviceService::GetPnPServiceID
 author: windows-driver-content
 description: Retrieves a Plug and Play (PnP) identifier for the service.
 old-location: wpdsdk\iportabledeviceservice_getpnpserviceid.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: c73261a5-1436-4706-8d8b-ff8183429ac4
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetPnPServiceID method [Windows Portable Devices SDK], GetPnPServiceID method [Windows Portable Devices SDK], IPortableDeviceService interface, GetPnPServiceID,IPortableDeviceService.GetPnPServiceID, IPortableDeviceService, IPortableDeviceService interface [Windows Portable Devices SDK], GetPnPServiceID method, IPortableDeviceService::GetPnPServiceID, portabledeviceapi/IPortableDeviceService::GetPnPServiceID, wpdsdk.iportabledeviceservice_getpnpserviceid
+ms.keywords: GetPnPServiceID, GetPnPServiceID method [Windows Portable Devices SDK], GetPnPServiceID method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],GetPnPServiceID method, IPortableDeviceService.GetPnPServiceID, IPortableDeviceService::GetPnPServiceID, portabledeviceapi/IPortableDeviceService::GetPnPServiceID, wpdsdk.iportabledeviceservice_getpnpserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceService::GetPnPServiceID method
+# IPortableDeviceService::GetPnPServiceID
 
 
 ## -description

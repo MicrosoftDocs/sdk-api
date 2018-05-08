@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9c6s_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFaxRecipient, IFaxRecipient interface [Fax Service], IFaxRecipient interface [Fax Service], described, _mfax_faxrecipient_cpp, fax._mfax_faxrecipient_cpp, faxcomex/IFaxRecipient
+ms.keywords: IFaxRecipient, IFaxRecipient interface [Fax Service], IFaxRecipient interface [Fax Service],described, _mfax_faxrecipient_cpp, fax._mfax_faxrecipient_cpp, faxcomex/IFaxRecipient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

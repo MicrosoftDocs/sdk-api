@@ -7,8 +7,8 @@ old-location: dshow\imixerocx.htm
 old-project: DirectShow
 ms.assetid: b80d720d-921d-4d24-a168-49944cfcc411
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMixerOCX, IMixerOCX interface [DirectShow], IMixerOCX interface [DirectShow], described, IMixerOCXInterface, dshow.imixerocx, mixerocx/IMixerOCX
+ms.date: 4/30/2018
+ms.keywords: IMixerOCX, IMixerOCX interface [DirectShow], IMixerOCX interface [DirectShow],described, IMixerOCXInterface, dshow.imixerocx, mixerocx/IMixerOCX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

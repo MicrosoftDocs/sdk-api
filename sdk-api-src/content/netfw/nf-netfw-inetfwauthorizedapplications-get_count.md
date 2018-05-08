@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.get_Count
-title: INetFwAuthorizedApplications::get_Count method
+title: INetFwAuthorizedApplications::get_Count
 author: windows-driver-content
 description: Specifies the number of items in the collection.
 old-location: ics\count_property_of_inetfwauthorizedapplications_count.htm
 old-project: ICS
 ms.assetid: 6b0cc653-d5be-42af-ac8b-551b961550da
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF], INetFwAuthorizedApplications interface, INetFwAuthorizedApplications, INetFwAuthorizedApplications interface [ICS/ICF], Count property, INetFwAuthorizedApplications.Count, INetFwAuthorizedApplications::get_Count, get_Count,INetFwAuthorizedApplications.get_Count, ics.count_property_of_inetfwauthorizedapplications_count, netfw/INetFwAuthorizedApplications::Count, netfw/INetFwAuthorizedApplications::get_Count
+ms.date: 5/1/2018
+ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwAuthorizedApplications interface, INetFwAuthorizedApplications interface [ICS/ICF],Count property, INetFwAuthorizedApplications.Count, INetFwAuthorizedApplications.get_Count, INetFwAuthorizedApplications::Count, INetFwAuthorizedApplications::get_Count, get_Count, ics.count_property_of_inetfwauthorizedapplications_count, netfw/INetFwAuthorizedApplications::Count, netfw/INetFwAuthorizedApplications::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwAuthorizedApplications::get_Count method
+# INetFwAuthorizedApplications::get_Count
 
 
 ## -description

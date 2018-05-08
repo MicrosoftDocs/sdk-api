@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.GetObjectAsync
-title: IWbemServices::GetObjectAsync method
+title: IWbemServices::GetObjectAsync
 author: windows-driver-content
 description: The IWbemServices::GetObjectAsync method retrieves an object, either a class definition or instance, based on its path.
 old-location: wmi\iwbemservices_getobjectasync.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 6868a14d-3776-43a0-b241-b40d42a97afc
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetObjectAsync method [Windows Management Instrumentation], GetObjectAsync method [Windows Management Instrumentation], IWbemServices interface, GetObjectAsync,IWbemServices.GetObjectAsync, IWbemServices, IWbemServices interface [Windows Management Instrumentation], GetObjectAsync method, IWbemServices::GetObjectAsync, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_getobjectasync, wbemcli/IWbemServices::GetObjectAsync, wmi.iwbemservices_getobjectasync
+ms.keywords: GetObjectAsync, GetObjectAsync method [Windows Management Instrumentation], GetObjectAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],GetObjectAsync method, IWbemServices.GetObjectAsync, IWbemServices::GetObjectAsync, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_getobjectasync, wbemcli/IWbemServices::GetObjectAsync, wmi.iwbemservices_getobjectasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,7 +58,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemServices::GetObjectAsync method
+# IWbemServices::GetObjectAsync
 
 
 ## -description

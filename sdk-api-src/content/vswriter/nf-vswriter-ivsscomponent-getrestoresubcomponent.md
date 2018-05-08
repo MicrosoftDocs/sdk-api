@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetRestoreSubcomponent
-title: IVssComponent::GetRestoreSubcomponent method
+title: IVssComponent::GetRestoreSubcomponent
 author: windows-driver-content
 description: The GetRestoreSubcomponent method returns the specified subcomponent associated with a given component.
 old-location: base\ivsscomponent_getrestoresubcomponent.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 23c37342-fcbd-4401-83d5-a52d4a69b908
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetRestoreSubcomponent method [VSS], GetRestoreSubcomponent method [VSS], IVssComponent interface, GetRestoreSubcomponent,IVssComponent.GetRestoreSubcomponent, IVssComponent, IVssComponent interface [VSS], GetRestoreSubcomponent method, IVssComponent::GetRestoreSubcomponent, _win32_ivsscomponent_getrestoresubcomponent, base.ivsscomponent_getrestoresubcomponent, vswriter/IVssComponent::GetRestoreSubcomponent
+ms.keywords: GetRestoreSubcomponent, GetRestoreSubcomponent method [VSS], GetRestoreSubcomponent method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreSubcomponent method, IVssComponent.GetRestoreSubcomponent, IVssComponent::GetRestoreSubcomponent, _win32_ivsscomponent_getrestoresubcomponent, base.ivsscomponent_getrestoresubcomponent, vswriter/IVssComponent::GetRestoreSubcomponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::GetRestoreSubcomponent method
+# IVssComponent::GetRestoreSubcomponent
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.IntersectsWithKnowledge
-title: ISyncKnowledge2::IntersectsWithKnowledge method
+title: ISyncKnowledge2::IntersectsWithKnowledge
 author: windows-driver-content
 description: Indicates whether the specified knowledge intersects with this knowledge.
 old-location: winsync\isyncknowledge2_intersectswithknowledge.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 8d2ce743-7827-4ee4-a800-3ba706d4a7a6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncKnowledge2, ISyncKnowledge2 interface [Windows Sync], IntersectsWithKnowledge method, ISyncKnowledge2::IntersectsWithKnowledge, IntersectsWithKnowledge method [Windows Sync], IntersectsWithKnowledge method [Windows Sync], ISyncKnowledge2 interface, IntersectsWithKnowledge,ISyncKnowledge2.IntersectsWithKnowledge, winsync.isyncknowledge2_intersectswithknowledge, winsync/ISyncKnowledge2::IntersectsWithKnowledge
+ms.keywords: ISyncKnowledge2 interface [Windows Sync],IntersectsWithKnowledge method, ISyncKnowledge2.IntersectsWithKnowledge, ISyncKnowledge2::IntersectsWithKnowledge, IntersectsWithKnowledge, IntersectsWithKnowledge method [Windows Sync], IntersectsWithKnowledge method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_intersectswithknowledge, winsync/ISyncKnowledge2::IntersectsWithKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge2::IntersectsWithKnowledge method
+# ISyncKnowledge2::IntersectsWithKnowledge
 
 
 ## -description

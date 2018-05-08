@@ -1,14 +1,14 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_FocusedItem
-title: IShellFolderViewDual::get_FocusedItem method
+title: IShellFolderViewDual::get_FocusedItem
 author: windows-driver-content
 description: Gets the FolderItem object that represents the item that has input focus.
 old-location: shell\IShellFolderViewDual_get_FocusedItem.htm
 old-project: shell
 ms.assetid: e3e70cbe-51df-4749-8c6c-f3a43b33c436
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellFolderViewDual, IShellFolderViewDual interface [Windows Shell], get_FocusedItem method, IShellFolderViewDual::get_FocusedItem, _shell_IShellFolderViewDual_get_FocusedItem, get_FocusedItem method [Windows Shell], get_FocusedItem method [Windows Shell], IShellFolderViewDual interface, get_FocusedItem,IShellFolderViewDual.get_FocusedItem, shell.IShellFolderViewDual_get_FocusedItem, shldisp/IShellFolderViewDual::get_FocusedItem
+ms.date: 5/3/2018
+ms.keywords: IShellFolderViewDual interface [Windows Shell],get_FocusedItem method, IShellFolderViewDual.get_FocusedItem, IShellFolderViewDual::get_FocusedItem, _shell_IShellFolderViewDual_get_FocusedItem, get_FocusedItem, get_FocusedItem method [Windows Shell], get_FocusedItem method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_FocusedItem, shldisp/IShellFolderViewDual::get_FocusedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellFolderViewDual::get_FocusedItem method
+# IShellFolderViewDual::get_FocusedItem
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.ICatRegister.RegisterClassImplCategories
-title: ICatRegister::RegisterClassImplCategories method
+title: ICatRegister::RegisterClassImplCategories
 author: windows-driver-content
 description: Registers the class as implementing one or more component categories.
 old-location: com\icatregister_registerclassimplcategories.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: c293038f-4dbf-40af-9237-c9bb59c84252
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ICatRegister, ICatRegister interface [COM], RegisterClassImplCategories method, ICatRegister::RegisterClassImplCategories, RegisterClassImplCategories method [COM], RegisterClassImplCategories method [COM], ICatRegister interface, RegisterClassImplCategories,ICatRegister.RegisterClassImplCategories, _com_icatregister_registerclassimplcategories, com.icatregister_registerclassimplcategories, comcat/ICatRegister::RegisterClassImplCategories
+ms.keywords: ICatRegister interface [COM],RegisterClassImplCategories method, ICatRegister.RegisterClassImplCategories, ICatRegister::RegisterClassImplCategories, RegisterClassImplCategories, RegisterClassImplCategories method [COM], RegisterClassImplCategories method [COM],ICatRegister interface, _com_icatregister_registerclassimplcategories, com.icatregister_registerclassimplcategories, comcat/ICatRegister::RegisterClassImplCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICatRegister::RegisterClassImplCategories method
+# ICatRegister::RegisterClassImplCategories
 
 
 ## -description

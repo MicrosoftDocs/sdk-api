@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVMR9.put_SuppressEffects
-title: IMSVidVMR9::put_SuppressEffects method
+title: IMSVidVMR9::put_SuppressEffects
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidvmr9_put_suppresseffects.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6e51ed2a-7516-4621-9ecb-0e645c6d416c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVMR9, IMSVidVMR9 interface [Microsoft TV Technologies], put_SuppressEffects method, IMSVidVMR9::put_SuppressEffects, IMSVidVMR9put_SuppressEffects, mstv.imsvidvmr9_put_suppresseffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies], IMSVidVMR9 interface, put_SuppressEffects,IMSVidVMR9.put_SuppressEffects, segment/IMSVidVMR9::put_SuppressEffects
+ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidVMR9.put_SuppressEffects, IMSVidVMR9::put_SuppressEffects, IMSVidVMR9put_SuppressEffects, mstv.imsvidvmr9_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidVMR9 interface, segment/IMSVidVMR9::put_SuppressEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVMR9::put_SuppressEffects method
+# IMSVidVMR9::put_SuppressEffects
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemLocator.ConnectServer
-title: IWbemLocator::ConnectServer method
+title: IWbemLocator::ConnectServer
 author: windows-driver-content
 description: The IWbemLocator::ConnectServer method creates a connection through DCOM to a WMI namespace on the computer specified in the strNetworkResource parameter.
 old-location: wmi\iwbemlocator_connectserver.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 92222e08-8622-46c3-9465-cd12260a2ca0
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: ConnectServer method [Windows Management Instrumentation], ConnectServer method [Windows Management Instrumentation], IWbemLocator interface, ConnectServer method [Windows Management Instrumentation], WbemAdministrativeLocator object, ConnectServer method [Windows Management Instrumentation], WbemAuthenticatedLocator object, ConnectServer method [Windows Management Instrumentation], WbemLocator object, ConnectServer method [Windows Management Instrumentation], WbemUnauthenticatedLocator object, ConnectServer,IWbemLocator.ConnectServer, IWbemLocator, IWbemLocator interface [Windows Management Instrumentation], ConnectServer method, IWbemLocator::ConnectServer, WBEM_FLAG_CONNECT_REPOSITORY_ONLY, WBEM_FLAG_CONNECT_USE_MAX_WAIT, WbemAdministrativeLocator object [Windows Management Instrumentation], ConnectServer method, WbemAuthenticatedLocator object [Windows Management Instrumentation], ConnectServer method, WbemLocator object [Windows Management Instrumentation], ConnectServer method, WbemUnauthenticatedLocator object [Windows Management Instrumentation], ConnectServer method, _hmm_iwbemlocator_connectserver, wbemcli/IWbemLocator::ConnectServer, wmi.iwbemlocator_connectserver
+ms.keywords: ConnectServer, ConnectServer method [Windows Management Instrumentation], ConnectServer method [Windows Management Instrumentation],IWbemLocator interface, ConnectServer method [Windows Management Instrumentation],WbemAdministrativeLocator object, ConnectServer method [Windows Management Instrumentation],WbemAuthenticatedLocator object, ConnectServer method [Windows Management Instrumentation],WbemLocator object, ConnectServer method [Windows Management Instrumentation],WbemUnauthenticatedLocator object, IWbemLocator interface [Windows Management Instrumentation],ConnectServer method, IWbemLocator.ConnectServer, IWbemLocator::ConnectServer, WBEM_FLAG_CONNECT_REPOSITORY_ONLY, WBEM_FLAG_CONNECT_USE_MAX_WAIT, WbemAdministrativeLocator object [Windows Management Instrumentation],ConnectServer method, WbemAuthenticatedLocator object [Windows Management Instrumentation],ConnectServer method, WbemLocator object [Windows Management Instrumentation],ConnectServer method, WbemUnauthenticatedLocator object [Windows Management Instrumentation],ConnectServer method, _hmm_iwbemlocator_connectserver, wbemcli/IWbemLocator::ConnectServer, wmi.iwbemlocator_connectserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemLocator::ConnectServer method
+# IWbemLocator::ConnectServer
 
 
 ## -description

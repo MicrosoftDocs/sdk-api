@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisherNotify.ProbeHandler
-title: IWSDiscoveryPublisherNotify::ProbeHandler method
+title: IWSDiscoveryPublisherNotify::ProbeHandler
 author: windows-driver-content
 description: Is called when a Probe is received by the discovery publisher.
 old-location: ncd\iwsdiscoverypublishernotify_probehandler_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: d92ce49c-308b-49e2-9646-f1eec2151441
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryPublisherNotify, IWSDiscoveryPublisherNotify interface, ProbeHandler method, IWSDiscoveryPublisherNotify::ProbeHandler, ProbeHandler method, ProbeHandler method, IWSDiscoveryPublisherNotify interface, ProbeHandler,IWSDiscoveryPublisherNotify.ProbeHandler, ncd.iwsdiscoverypublishernotify_probehandler_method, wsddisco/IWSDiscoveryPublisherNotify::ProbeHandler
+ms.keywords: IWSDiscoveryPublisherNotify interface,ProbeHandler method, IWSDiscoveryPublisherNotify.ProbeHandler, IWSDiscoveryPublisherNotify::ProbeHandler, ProbeHandler, ProbeHandler method, ProbeHandler method,IWSDiscoveryPublisherNotify interface, ncd.iwsdiscoverypublishernotify_probehandler_method, wsddisco/IWSDiscoveryPublisherNotify::ProbeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryPublisherNotify::ProbeHandler method
+# IWSDiscoveryPublisherNotify::ProbeHandler
 
 
 ## -description

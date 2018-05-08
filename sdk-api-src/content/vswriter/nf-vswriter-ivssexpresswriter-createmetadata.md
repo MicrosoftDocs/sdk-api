@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssExpressWriter.CreateMetadata
-title: IVssExpressWriter::CreateMetadata method
+title: IVssExpressWriter::CreateMetadata
 author: windows-driver-content
 description: Creates an express writer metadata object and returns an IVssCreateExpressWriterMetadata interface pointer to it.
 old-location: base\ivssexpresswriter_createwritermetadata.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 254f4a32-cb33-494e-8fb4-06ab1cc2b184
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CreateMetadata method, CreateMetadata method, IVssExpressWriter interface, CreateMetadata,IVssExpressWriter.CreateMetadata, IVssExpressWriter, IVssExpressWriter interface, CreateMetadata method, IVssExpressWriter::CreateMetadata, base.ivssexpresswriter_createwritermetadata, vswriter/IVssExpressWriter::CreateMetadata
+ms.keywords: CreateMetadata, CreateMetadata method, CreateMetadata method,IVssExpressWriter interface, IVssExpressWriter interface,CreateMetadata method, IVssExpressWriter.CreateMetadata, IVssExpressWriter::CreateMetadata, base.ivssexpresswriter_createwritermetadata, vswriter/IVssExpressWriter::CreateMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssExpressWriter::CreateMetadata method
+# IVssExpressWriter::CreateMetadata
 
 
 ## -description

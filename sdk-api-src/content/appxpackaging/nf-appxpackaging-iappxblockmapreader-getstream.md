@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapReader.GetStream
-title: IAppxBlockMapReader::GetStream method
+title: IAppxBlockMapReader::GetStream
 author: windows-driver-content
 description: Retrieves a read-only stream that represents the XML content of the block map.
 old-location: appxpkg\iappxblockmapreader_getstream.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 95EBABDA-45D5-436C-B627-51C14D9091EA
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetStream method [App packaging and management], GetStream method [App packaging and management], IAppxBlockMapReader interface, GetStream,IAppxBlockMapReader.GetStream, IAppxBlockMapReader, IAppxBlockMapReader interface [App packaging and management], GetStream method, IAppxBlockMapReader::GetStream, appxpackaging/IAppxBlockMapReader::GetStream, appxpkg.iappxblockmapreader_getstream
+ms.keywords: GetStream, GetStream method [App packaging and management], GetStream method [App packaging and management],IAppxBlockMapReader interface, IAppxBlockMapReader interface [App packaging and management],GetStream method, IAppxBlockMapReader.GetStream, IAppxBlockMapReader::GetStream, appxpackaging/IAppxBlockMapReader::GetStream, appxpkg.iappxblockmapreader_getstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBlockMapReader::GetStream method
+# IAppxBlockMapReader::GetStream
 
 
 ## -description

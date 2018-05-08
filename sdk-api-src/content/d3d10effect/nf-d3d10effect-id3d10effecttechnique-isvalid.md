@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectTechnique.IsValid
-title: ID3D10EffectTechnique::IsValid method
+title: ID3D10EffectTechnique::IsValid
 author: windows-driver-content
 description: Test a technique to see if it contains valid syntax.
 old-location: direct3d10\id3d10effecttechnique_isvalid.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttechnique_isvalid.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10EffectTechnique, ID3D10EffectTechnique interface [Direct3D 10], IsValid method, ID3D10EffectTechnique::IsValid, IsValid method [Direct3D 10], IsValid method [Direct3D 10], ID3D10EffectTechnique interface, IsValid,ID3D10EffectTechnique.IsValid, b8fc6078-7d60-a1c1-9522-6c8f527ed497, d3d10effect/ID3D10EffectTechnique::IsValid, direct3d10.id3d10effecttechnique_isvalid
+ms.keywords: ID3D10EffectTechnique interface [Direct3D 10],IsValid method, ID3D10EffectTechnique.IsValid, ID3D10EffectTechnique::IsValid, IsValid, IsValid method [Direct3D 10], IsValid method [Direct3D 10],ID3D10EffectTechnique interface, b8fc6078-7d60-a1c1-9522-6c8f527ed497, d3d10effect/ID3D10EffectTechnique::IsValid, direct3d10.id3d10effecttechnique_isvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectTechnique::IsValid method
+# ID3D10EffectTechnique::IsValid
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmSetting.get_EnableScreeningAudit
-title: IFsrmSetting::get_EnableScreeningAudit method
+title: IFsrmSetting::get_EnableScreeningAudit
 author: windows-driver-content
 description: Retrieves or sets a value that determines whether FSRM keeps audit records of the file screen violations.
 old-location: fsrm\ifsrmsetting_enablescreeningaudit.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 6d185eca-6c14-4cd9-bb12-95499cde1050
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EnableScreeningAudit property [File Server Resource Manager], EnableScreeningAudit property [File Server Resource Manager], FsrmSetting class, EnableScreeningAudit property [File Server Resource Manager], IFsrmSetting interface, FsrmSetting class [File Server Resource Manager], EnableScreeningAudit property, IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], EnableScreeningAudit property, IFsrmSetting.EnableScreeningAudit, IFsrmSetting::get_EnableScreeningAudit, IFsrmSetting::put_EnableScreeningAudit, fs.ifsrmsetting_enablescreeningaudit, fsrm.ifsrmsetting_enablescreeningaudit, fsrm/IFsrmSetting::EnableScreeningAudit, fsrm/IFsrmSetting::get_EnableScreeningAudit, fsrm/IFsrmSetting::put_EnableScreeningAudit, get_EnableScreeningAudit,IFsrmSetting.get_EnableScreeningAudit
+ms.keywords: EnableScreeningAudit property [File Server Resource Manager], EnableScreeningAudit property [File Server Resource Manager],FsrmSetting class, EnableScreeningAudit property [File Server Resource Manager],IFsrmSetting interface, FsrmSetting class [File Server Resource Manager],EnableScreeningAudit property, IFsrmSetting interface [File Server Resource Manager],EnableScreeningAudit property, IFsrmSetting.EnableScreeningAudit, IFsrmSetting.get_EnableScreeningAudit, IFsrmSetting::EnableScreeningAudit, IFsrmSetting::get_EnableScreeningAudit, IFsrmSetting::put_EnableScreeningAudit, fs.ifsrmsetting_enablescreeningaudit, fsrm.ifsrmsetting_enablescreeningaudit, fsrm/IFsrmSetting::EnableScreeningAudit, fsrm/IFsrmSetting::get_EnableScreeningAudit, fsrm/IFsrmSetting::put_EnableScreeningAudit, get_EnableScreeningAudit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmSetting::get_EnableScreeningAudit method
+# IFsrmSetting::get_EnableScreeningAudit
 
 
 ## -description

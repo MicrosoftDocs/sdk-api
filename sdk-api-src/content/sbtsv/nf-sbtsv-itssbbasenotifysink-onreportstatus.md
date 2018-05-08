@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbBaseNotifySink.OnReportStatus
-title: ITsSbBaseNotifySink::OnReportStatus method
+title: ITsSbBaseNotifySink::OnReportStatus
 author: windows-driver-content
 description: Sends status messages to the Remote Desktop Connection (RDC) client regarding the processing of a client connection.
 old-location: termserv\itssbbasenotifysink_onreportstatus.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 4bde8375-b03a-44b8-9ba5-bc15277f3a4a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CLIENT_MESSAGE_CONNECTION_ERROR, CLIENT_MESSAGE_CONNECTION_STATUS, ITsSbBaseNotifySink, ITsSbBaseNotifySink interface [Remote Desktop Services], OnReportStatus method, ITsSbBaseNotifySink::OnReportStatus, OnReportStatus method [Remote Desktop Services], OnReportStatus method [Remote Desktop Services], ITsSbBaseNotifySink interface, OnReportStatus,ITsSbBaseNotifySink.OnReportStatus, TS_STATUS_VM_BOOTING, TS_STATUS_VM_LOADING, TS_STATUS_VM_WAKING, sbtsv/ITsSbBaseNotifySink::OnReportStatus, termserv.itssbbasenotifysink_onreportstatus
+ms.keywords: CLIENT_MESSAGE_CONNECTION_ERROR, CLIENT_MESSAGE_CONNECTION_STATUS, ITsSbBaseNotifySink interface [Remote Desktop Services],OnReportStatus method, ITsSbBaseNotifySink.OnReportStatus, ITsSbBaseNotifySink::OnReportStatus, OnReportStatus, OnReportStatus method [Remote Desktop Services], OnReportStatus method [Remote Desktop Services],ITsSbBaseNotifySink interface, TS_STATUS_VM_BOOTING, TS_STATUS_VM_LOADING, TS_STATUS_VM_WAKING, sbtsv/ITsSbBaseNotifySink::OnReportStatus, termserv.itssbbasenotifysink_onreportstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbBaseNotifySink::OnReportStatus method
+# ITsSbBaseNotifySink::OnReportStatus
 
 
 ## -description

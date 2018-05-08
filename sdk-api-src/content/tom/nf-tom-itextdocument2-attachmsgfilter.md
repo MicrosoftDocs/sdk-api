@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.AttachMsgFilter
-title: ITextDocument2::AttachMsgFilter method
+title: ITextDocument2::AttachMsgFilter
 author: windows-driver-content
 description: Attaches a new message filter to the edit instance. All window messages that the edit instance receives are forwarded to the message filter.
 old-location: controls\itextdocument2_attachmsgfilter.htm
 old-project: Controls
 ms.assetid: 055b9d59-59cc-4922-b6b9-920885969dbc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: AttachMsgFilter method [Windows Controls], AttachMsgFilter method [Windows Controls], ITextDocument2 interface, AttachMsgFilter,ITextDocument2.AttachMsgFilter, ITextDocument2, ITextDocument2 interface [Windows Controls], AttachMsgFilter method, ITextDocument2::AttachMsgFilter, controls.itextdocument2_attachmsgfilter, tom/ITextDocument2::AttachMsgFilter
+ms.date: 4/27/2018
+ms.keywords: AttachMsgFilter, AttachMsgFilter method [Windows Controls], AttachMsgFilter method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],AttachMsgFilter method, ITextDocument2.AttachMsgFilter, ITextDocument2::AttachMsgFilter, controls.itextdocument2_attachmsgfilter, tom/ITextDocument2::AttachMsgFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::AttachMsgFilter method
+# ITextDocument2::AttachMsgFilter
 
 
 ## -description

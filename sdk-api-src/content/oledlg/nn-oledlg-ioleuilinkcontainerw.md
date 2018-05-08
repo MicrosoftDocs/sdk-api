@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 7fc0aab3-7476-49ec-8a1d-3f4851f9f31c
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleUILinkContainer, IOleUILinkContainer interface [COM], IOleUILinkContainer interface [COM], described, IOleUILinkContainerA, IOleUILinkContainerW, _ole_IOleUILinkContainer, com.ioleuilinkcontainer, oledlg/IOleUILinkContainer
+ms.keywords: IOleUILinkContainer, IOleUILinkContainer interface [COM], IOleUILinkContainer interface [COM],described, IOleUILinkContainerA, IOleUILinkContainerW, _ole_IOleUILinkContainer, com.ioleuilinkcontainer, oledlg/IOleUILinkContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

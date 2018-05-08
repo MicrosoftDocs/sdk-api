@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsIdentity.GetFlags
-title: ISettingsIdentity::GetFlags method
+title: ISettingsIdentity::GetFlags
 author: windows-driver-content
 description: Returns the flags for a namespace identity.
 old-location: smi\isettingsidentity_getflags.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: aec52cd2-90e2-492d-afcf-433a762133d1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetFlags method [SMI], GetFlags method [SMI], ISettingsIdentity interface, GetFlags,ISettingsIdentity.GetFlags, ISettingsIdentity, ISettingsIdentity interface [SMI], GetFlags method, ISettingsIdentity::GetFlags, smi.isettingsidentity_getflags, wcmconfig/ISettingsIdentity::GetFlags
+ms.keywords: GetFlags, GetFlags method [SMI], GetFlags method [SMI],ISettingsIdentity interface, ISettingsIdentity interface [SMI],GetFlags method, ISettingsIdentity.GetFlags, ISettingsIdentity::GetFlags, smi.isettingsidentity_getflags, wcmconfig/ISettingsIdentity::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsIdentity::GetFlags method
+# ISettingsIdentity::GetFlags
 
 
 ## -description

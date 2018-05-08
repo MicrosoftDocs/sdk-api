@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetApplicationProcessDetails
-title: IGetAppTrackerData::GetApplicationProcessDetails method
+title: IGetAppTrackerData::GetApplicationProcessDetails
 author: windows-driver-content
 description: Retrieves detailed information about a single process hosting COM+ applications.
 old-location: cos\igetapptrackerdata_getapplicationprocessdetails.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 37be49c6-b23c-4215-8332-07f6d3eea912
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetApplicationProcessDetails method [COM+], GetApplicationProcessDetails method [COM+], IGetAppTrackerData interface, GetApplicationProcessDetails,IGetAppTrackerData.GetApplicationProcessDetails, IGetAppTrackerData, IGetAppTrackerData interface [COM+], GetApplicationProcessDetails method, IGetAppTrackerData::GetApplicationProcessDetails, comsvcs/IGetAppTrackerData::GetApplicationProcessDetails, cos.igetapptrackerdata_getapplicationprocessdetails
+ms.keywords: GetApplicationProcessDetails, GetApplicationProcessDetails method [COM+], GetApplicationProcessDetails method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetApplicationProcessDetails method, IGetAppTrackerData.GetApplicationProcessDetails, IGetAppTrackerData::GetApplicationProcessDetails, comsvcs/IGetAppTrackerData::GetApplicationProcessDetails, cos.igetapptrackerdata_getapplicationprocessdetails
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGetAppTrackerData::GetApplicationProcessDetails method
+# IGetAppTrackerData::GetApplicationProcessDetails
 
 
 ## -description

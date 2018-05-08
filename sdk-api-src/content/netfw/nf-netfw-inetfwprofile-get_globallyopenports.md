@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwProfile.get_GloballyOpenPorts
-title: INetFwProfile::get_GloballyOpenPorts method
+title: INetFwProfile::get_GloballyOpenPorts
 author: windows-driver-content
 description: Retrieves the collection of globally open ports of the profile.
 old-location: ics\inetfwprofile_globallyopenports.htm
 old-project: ICS
 ms.assetid: 9bb27bb1-7185-4b9a-a529-383e052e5016
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: GloballyOpenPorts property [ICS/ICF], GloballyOpenPorts property [ICS/ICF], INetFwProfile interface, INetFwProfile, INetFwProfile interface [ICS/ICF], GloballyOpenPorts property, INetFwProfile.GloballyOpenPorts, INetFwProfile::get_GloballyOpenPorts, get_GloballyOpenPorts,INetFwProfile.get_GloballyOpenPorts, ics.inetfwprofile_globallyopenports, netfw/INetFwProfile::GloballyOpenPorts, netfw/INetFwProfile::get_GloballyOpenPorts
+ms.date: 5/1/2018
+ms.keywords: GloballyOpenPorts property [ICS/ICF], GloballyOpenPorts property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],GloballyOpenPorts property, INetFwProfile.GloballyOpenPorts, INetFwProfile.get_GloballyOpenPorts, INetFwProfile::GloballyOpenPorts, INetFwProfile::get_GloballyOpenPorts, get_GloballyOpenPorts, ics.inetfwprofile_globallyopenports, netfw/INetFwProfile::GloballyOpenPorts, netfw/INetFwProfile::get_GloballyOpenPorts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwProfile::get_GloballyOpenPorts method
+# INetFwProfile::get_GloballyOpenPorts
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectorySearch.GetColumn
-title: IDirectorySearch::GetColumn method
+title: IDirectorySearch::GetColumn
 author: windows-driver-content
 description: The IDirectorySearch::GetColumn method gets data from a named column of the search result.
 old-location: adsi\idirectorysearch_getcolumn.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 3bcacb24-a4b4-4fad-ab7c-79ef7a67064d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetColumn method [ADSI], GetColumn method [ADSI], IDirectorySearch interface, GetColumn,IDirectorySearch.GetColumn, IDirectorySearch, IDirectorySearch interface [ADSI], GetColumn method, IDirectorySearch::GetColumn, _ds_idirectorysearch_getcolumn, adsi.idirectorysearch__getcolumn, adsi.idirectorysearch_getcolumn, iads/IDirectorySearch::GetColumn
+ms.keywords: GetColumn, GetColumn method [ADSI], GetColumn method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetColumn method, IDirectorySearch.GetColumn, IDirectorySearch::GetColumn, _ds_idirectorysearch_getcolumn, adsi.idirectorysearch__getcolumn, adsi.idirectorysearch_getcolumn, iads/IDirectorySearch::GetColumn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDirectorySearch::GetColumn method
+# IDirectorySearch::GetColumn
 
 
 ## -description

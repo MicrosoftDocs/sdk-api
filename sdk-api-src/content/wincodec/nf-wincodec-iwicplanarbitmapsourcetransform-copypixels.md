@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPlanarBitmapSourceTransform.CopyPixels
-title: IWICPlanarBitmapSourceTransform::CopyPixels method
+title: IWICPlanarBitmapSourceTransform::CopyPixels
 author: windows-driver-content
 description: Copies pixels into the destination planes. Configured by the supplied input parameters.
 old-location: wic\iwicplanarbitmapsourcetransform_copypixels.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 0D6FB12B-B5C5-4A36-93FC-AF96BF03ED01
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component], IWICPlanarBitmapSourceTransform interface, CopyPixels,IWICPlanarBitmapSourceTransform.CopyPixels, IWICPlanarBitmapSourceTransform, IWICPlanarBitmapSourceTransform interface [Windows Imaging Component], CopyPixels method, IWICPlanarBitmapSourceTransform::CopyPixels, wic.iwicplanarbitmapsourcetransform_copypixels, wincodec/IWICPlanarBitmapSourceTransform::CopyPixels
+ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICPlanarBitmapSourceTransform interface, IWICPlanarBitmapSourceTransform interface [Windows Imaging Component],CopyPixels method, IWICPlanarBitmapSourceTransform.CopyPixels, IWICPlanarBitmapSourceTransform::CopyPixels, wic.iwicplanarbitmapsourcetransform_copypixels, wincodec/IWICPlanarBitmapSourceTransform::CopyPixels
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICPlanarBitmapSourceTransform::CopyPixels method
+# IWICPlanarBitmapSourceTransform::CopyPixels
 
 
 ## -description

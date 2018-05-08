@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.IsEqualEnd
-title: ITfRange::IsEqualEnd method
+title: ITfRange::IsEqualEnd
 author: windows-driver-content
 description: The ITfRange::IsEqualStart method verifies that the end anchor of this range of text matches an anchor of another specified range.
 old-location: tsf\itfrange_isequalend.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 03b87230-457f-4483-a183-d8a8cc7cead4
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfRange, ITfRange interface [Text Services Framework], IsEqualEnd method, ITfRange::IsEqualEnd, IsEqualEnd method [Text Services Framework], IsEqualEnd method [Text Services Framework], ITfRange interface, IsEqualEnd,ITfRange.IsEqualEnd, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_isequalend_ref, msctf/ITfRange::IsEqualEnd, tsf.itfrange_isequalend
+ms.keywords: ITfRange interface [Text Services Framework],IsEqualEnd method, ITfRange.IsEqualEnd, ITfRange::IsEqualEnd, IsEqualEnd, IsEqualEnd method [Text Services Framework], IsEqualEnd method [Text Services Framework],ITfRange interface, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_isequalend_ref, msctf/ITfRange::IsEqualEnd, tsf.itfrange_isequalend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfRange::IsEqualEnd method
+# ITfRange::IsEqualEnd
 
 
 ## -description

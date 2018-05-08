@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFNetCredentialCache.SetUserOptions
-title: IMFNetCredentialCache::SetUserOptions method
+title: IMFNetCredentialCache::SetUserOptions
 author: windows-driver-content
 description: Specifies how user credentials are stored.
 old-location: mf\imfnetcredentialcache_setuseroptions.htm
 old-project: medfound
 ms.assetid: 024eea57-e7c8-495d-9959-ab37dd45873d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 024eea57-e7c8-495d-9959-ab37dd45873d, IMFNetCredentialCache, IMFNetCredentialCache interface [Media Foundation], SetUserOptions method, IMFNetCredentialCache::SetUserOptions, SetUserOptions method [Media Foundation], SetUserOptions method [Media Foundation], IMFNetCredentialCache interface, SetUserOptions,IMFNetCredentialCache.SetUserOptions, mf.imfnetcredentialcache_setuseroptions, mfidl/IMFNetCredentialCache::SetUserOptions
+ms.date: 5/3/2018
+ms.keywords: 024eea57-e7c8-495d-9959-ab37dd45873d, IMFNetCredentialCache interface [Media Foundation],SetUserOptions method, IMFNetCredentialCache.SetUserOptions, IMFNetCredentialCache::SetUserOptions, SetUserOptions, SetUserOptions method [Media Foundation], SetUserOptions method [Media Foundation],IMFNetCredentialCache interface, mf.imfnetcredentialcache_setuseroptions, mfidl/IMFNetCredentialCache::SetUserOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFNetCredentialCache::SetUserOptions method
+# IMFNetCredentialCache::SetUserOptions
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateManager.EnumTemplates
-title: IFsrmFileScreenTemplateManager::EnumTemplates method
+title: IFsrmFileScreenTemplateManager::EnumTemplates
 author: windows-driver-content
 description: Enumerates the file screen templates on the server.
 old-location: fsrm\ifsrmfilescreentemplatemanager_enumtemplates.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 5bfb82f9-50a5-4266-956d-f99e2982a6a5
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EnumTemplates method [File Server Resource Manager], EnumTemplates method [File Server Resource Manager], FsrmFileScreenTemplateManager class, EnumTemplates method [File Server Resource Manager], IFsrmFileScreenTemplateManager interface, EnumTemplates,IFsrmFileScreenTemplateManager.EnumTemplates, FsrmFileScreenTemplateManager class [File Server Resource Manager], EnumTemplates method, IFsrmFileScreenTemplateManager, IFsrmFileScreenTemplateManager interface [File Server Resource Manager], EnumTemplates method, IFsrmFileScreenTemplateManager::EnumTemplates, fs.ifsrmfilescreentemplatemanager_enumtemplates, fsrm.ifsrmfilescreentemplatemanager_enumtemplates, fsrmscreen/IFsrmFileScreenTemplateManager::EnumTemplates
+ms.keywords: EnumTemplates, EnumTemplates method [File Server Resource Manager], EnumTemplates method [File Server Resource Manager],FsrmFileScreenTemplateManager class, EnumTemplates method [File Server Resource Manager],IFsrmFileScreenTemplateManager interface, FsrmFileScreenTemplateManager class [File Server Resource Manager],EnumTemplates method, IFsrmFileScreenTemplateManager interface [File Server Resource Manager],EnumTemplates method, IFsrmFileScreenTemplateManager.EnumTemplates, IFsrmFileScreenTemplateManager::EnumTemplates, fs.ifsrmfilescreentemplatemanager_enumtemplates, fsrm.ifsrmfilescreentemplatemanager_enumtemplates, fsrmscreen/IFsrmFileScreenTemplateManager::EnumTemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileScreenTemplateManager::EnumTemplates method
+# IFsrmFileScreenTemplateManager::EnumTemplates
 
 
 ## -description

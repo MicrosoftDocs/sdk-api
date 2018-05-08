@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IPreviousVersionsInfo.AreSnapshotsAvailable
-title: IPreviousVersionsInfo::AreSnapshotsAvailable method
+title: IPreviousVersionsInfo::AreSnapshotsAvailable
 author: windows-driver-content
 description: Queries for the availablilty of a Windows Server 2003 volume image recorded by the system at an earlier time.
 old-location: shell\IPreviousVersionsInfo_AreSnapshotsAvailable.htm
 old-project: shell
 ms.assetid: 03a0b218-4683-42b2-9080-9b92701dff1e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: AreSnapshotsAvailable method [Windows Shell], AreSnapshotsAvailable method [Windows Shell], IPreviousVersionsInfo interface, AreSnapshotsAvailable,IPreviousVersionsInfo.AreSnapshotsAvailable, FALSE, IPreviousVersionsInfo, IPreviousVersionsInfo interface [Windows Shell], AreSnapshotsAvailable method, IPreviousVersionsInfo::AreSnapshotsAvailable, TRUE, _shell_IPreviousVersionsInfo_AreSnapshotsAvailable, shell.IPreviousVersionsInfo_AreSnapshotsAvailable, shobjidl/IPreviousVersionsInfo::AreSnapshotsAvailable
+ms.date: 5/3/2018
+ms.keywords: AreSnapshotsAvailable, AreSnapshotsAvailable method [Windows Shell], AreSnapshotsAvailable method [Windows Shell],IPreviousVersionsInfo interface, FALSE, IPreviousVersionsInfo interface [Windows Shell],AreSnapshotsAvailable method, IPreviousVersionsInfo.AreSnapshotsAvailable, IPreviousVersionsInfo::AreSnapshotsAvailable, TRUE, _shell_IPreviousVersionsInfo_AreSnapshotsAvailable, shell.IPreviousVersionsInfo_AreSnapshotsAvailable, shobjidl/IPreviousVersionsInfo::AreSnapshotsAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IPreviousVersionsInfo::AreSnapshotsAvailable method
+# IPreviousVersionsInfo::AreSnapshotsAvailable
 
 
 ## -description

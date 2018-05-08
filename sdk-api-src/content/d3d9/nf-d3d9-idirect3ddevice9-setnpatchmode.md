@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetNPatchMode
-title: IDirect3DDevice9::SetNPatchMode method
+title: IDirect3DDevice9::SetNPatchMode
 author: windows-driver-content
 description: Enable or disable N-patches.
 old-location: direct3d9\idirect3ddevice9__setnpatchmode.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setnpatchmode.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], SetNPatchMode method, IDirect3DDevice9::SetNPatchMode, SetNPatchMode method [Direct3D 9], SetNPatchMode method [Direct3D 9], IDirect3DDevice9 interface, SetNPatchMode,IDirect3DDevice9.SetNPatchMode, a1559401-14f3-1ada-91cb-f26fd6d19851, d3d9helper/IDirect3DDevice9::SetNPatchMode, direct3d9.idirect3ddevice9__setnpatchmode
+ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetNPatchMode method, IDirect3DDevice9.SetNPatchMode, IDirect3DDevice9::SetNPatchMode, SetNPatchMode, SetNPatchMode method [Direct3D 9], SetNPatchMode method [Direct3D 9],IDirect3DDevice9 interface, a1559401-14f3-1ada-91cb-f26fd6d19851, d3d9helper/IDirect3DDevice9::SetNPatchMode, direct3d9.idirect3ddevice9__setnpatchmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::SetNPatchMode method
+# IDirect3DDevice9::SetNPatchMode
 
 
 ## -description

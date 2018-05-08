@@ -7,7 +7,7 @@ old-location: shell\SHNAMEMAPPING.htm
 old-project: shell
 ms.assetid: c77f5ed6-3c7f-48dd-8bb6-33d6d3053238
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: "*LPSHNAMEMAPPINGW, LPSHNAMEMAPPING, LPSHNAMEMAPPING structure pointer [Windows Shell], SHNAMEMAPPING, SHNAMEMAPPING structure [Windows Shell], SHNAMEMAPPINGW, _SHNAMEMAPPINGW, _win32_SHNAMEMAPPING, shell.SHNAMEMAPPING, shellapi/LPSHNAMEMAPPING, shellapi/SHNAMEMAPPING"
 ms.prod: windows-hardware
 ms.technology: windows-devices

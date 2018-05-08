@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDrawVideoImage.DrawVideoImageDraw
-title: IDrawVideoImage::DrawVideoImageDraw method
+title: IDrawVideoImage::DrawVideoImageDraw
 author: windows-driver-content
 description: Note  This interface has been deprecated. New applications should not use it. The DrawVideoImageDraw method draws the specified source rectangle to the specified destination rectangle in the specified GDI device context.
 old-location: dshow\idrawvideoimage_drawvideoimagedraw.htm
 old-project: DirectShow
 ms.assetid: cecc3ae4-f1fa-437e-b967-c54fca10b27c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: DrawVideoImageDraw method [DirectShow], DrawVideoImageDraw method [DirectShow], IDrawVideoImage interface, DrawVideoImageDraw,IDrawVideoImage.DrawVideoImageDraw, IDrawVideoImage, IDrawVideoImage interface [DirectShow], DrawVideoImageDraw method, IDrawVideoImage::DrawVideoImageDraw, IDrawVideoImageDrawVideoImageDraw, dshow.idrawvideoimage_drawvideoimagedraw, strmif/IDrawVideoImage::DrawVideoImageDraw
+ms.date: 4/30/2018
+ms.keywords: DrawVideoImageDraw, DrawVideoImageDraw method [DirectShow], DrawVideoImageDraw method [DirectShow],IDrawVideoImage interface, IDrawVideoImage interface [DirectShow],DrawVideoImageDraw method, IDrawVideoImage.DrawVideoImageDraw, IDrawVideoImage::DrawVideoImageDraw, IDrawVideoImageDrawVideoImageDraw, dshow.idrawvideoimage_drawvideoimagedraw, strmif/IDrawVideoImage::DrawVideoImageDraw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDrawVideoImage::DrawVideoImageDraw method
+# IDrawVideoImage::DrawVideoImageDraw
 
 
 ## -description

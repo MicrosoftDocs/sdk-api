@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.PushCopyOfStorageFilter
-title: ID3D10InfoQueue::PushCopyOfStorageFilter method
+title: ID3D10InfoQueue::PushCopyOfStorageFilter
 author: windows-driver-content
 description: Push a copy of storage filter currently on the top of the storage-filter stack onto the storage-filter stack.
 old-location: direct3d10\id3d10infoqueue_pushcopyofstoragefilter.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_pushcopyofstoragefilter.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10InfoQueue, ID3D10InfoQueue interface [Direct3D 10], PushCopyOfStorageFilter method, ID3D10InfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter method [Direct3D 10], PushCopyOfStorageFilter method [Direct3D 10], ID3D10InfoQueue interface, PushCopyOfStorageFilter,ID3D10InfoQueue.PushCopyOfStorageFilter, b5785370-7d17-44e7-815e-c20580fad46f, d3d10sdklayers/ID3D10InfoQueue::PushCopyOfStorageFilter, direct3d10.id3d10infoqueue_pushcopyofstoragefilter
+ms.keywords: ID3D10InfoQueue interface [Direct3D 10],PushCopyOfStorageFilter method, ID3D10InfoQueue.PushCopyOfStorageFilter, ID3D10InfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter, PushCopyOfStorageFilter method [Direct3D 10], PushCopyOfStorageFilter method [Direct3D 10],ID3D10InfoQueue interface, b5785370-7d17-44e7-815e-c20580fad46f, d3d10sdklayers/ID3D10InfoQueue::PushCopyOfStorageFilter, direct3d10.id3d10infoqueue_pushcopyofstoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10InfoQueue::PushCopyOfStorageFilter method
+# ID3D10InfoQueue::PushCopyOfStorageFilter
 
 
 ## -description

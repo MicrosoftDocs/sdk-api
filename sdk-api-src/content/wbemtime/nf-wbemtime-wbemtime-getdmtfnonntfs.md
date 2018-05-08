@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetDMTFNonNtfs
-title: WBEMTime::GetDMTFNonNtfs method
+title: WBEMTime::GetDMTFNonNtfs
 author: windows-driver-content
 description: The GetDMTFNonNtfs method gets a DMTF date in a CIM Date and Time Format from a FAT that does not have time zones.
 old-location: wmi\wbemtime_getdmtfnonntfs.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 40353352-da1f-44d8-a2c3-e6fd4639bd98
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?GetDMTFNonNtfs@WBEMTime@@QBEPAGXZ, ?GetDMTFNonNtfs@WBEMTime@@QEBAPEAGXZ, GetDMTFNonNtfs method [Windows Management Instrumentation], GetDMTFNonNtfs method [Windows Management Instrumentation], WBEMTime interface, GetDMTFNonNtfs,WBEMTime.GetDMTFNonNtfs, WBEMTime, WBEMTime interface [Windows Management Instrumentation], GetDMTFNonNtfs method, WBEMTime::GetDMTFNonNtfs, _hmm_wbemtime_getdmtfnonntfs, wbemtime/WBEMTime::GetDMTFNonNtfs, wmi.wbemtime_getdmtfnonntfs"
+ms.keywords: "?GetDMTFNonNtfs@WBEMTime@@QBEPAGXZ, ?GetDMTFNonNtfs@WBEMTime@@QEBAPEAGXZ, GetDMTFNonNtfs, GetDMTFNonNtfs method [Windows Management Instrumentation], GetDMTFNonNtfs method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetDMTFNonNtfs method, WBEMTime.GetDMTFNonNtfs, WBEMTime::GetDMTFNonNtfs, _hmm_wbemtime_getdmtfnonntfs, wbemtime/WBEMTime::GetDMTFNonNtfs, wmi.wbemtime_getdmtfnonntfs"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WBEMTime::GetDMTFNonNtfs method
+# WBEMTime::GetDMTFNonNtfs
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInvalidProductLicenseException.get_Product
-title: IInvalidProductLicenseException::get_Product method
+title: IInvalidProductLicenseException::get_Product
 author: windows-driver-content
 description: Gets the language-invariant name of the product.
 old-location: wua\iinvalidproductlicenseexception_product.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: acbff9e4-59d7-4af9-8633-75edbf83d3ce
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IInvalidProductLicenseException, IInvalidProductLicenseException interface [Windows Update Agent], Product property, IInvalidProductLicenseException.Product, IInvalidProductLicenseException::get_Product, Product property [Windows Update Agent], Product property [Windows Update Agent], IInvalidProductLicenseException interface, get_Product,IInvalidProductLicenseException.get_Product, wua.iinvalidproductlicenseexception_product, wuapi/IInvalidProductLicenseException::Product, wuapi/IInvalidProductLicenseException::get_Product
+ms.keywords: IInvalidProductLicenseException interface [Windows Update Agent],Product property, IInvalidProductLicenseException.Product, IInvalidProductLicenseException.get_Product, IInvalidProductLicenseException::Product, IInvalidProductLicenseException::get_Product, Product property [Windows Update Agent], Product property [Windows Update Agent],IInvalidProductLicenseException interface, get_Product, wua.iinvalidproductlicenseexception_product, wuapi/IInvalidProductLicenseException::Product, wuapi/IInvalidProductLicenseException::get_Product
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IInvalidProductLicenseException::get_Product method
+# IInvalidProductLicenseException::get_Product
 
 
 ## -description

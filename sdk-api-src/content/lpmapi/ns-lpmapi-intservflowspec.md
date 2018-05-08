@@ -69,20 +69,17 @@ General information and length information for the  flowspec object (this struct
 Union containing flowspec information.
 
 
-
-#### CL_spec
+### -field spec_u.CL_spec
 
 Controlled load flowspec information, expressed as a <a href="https://msdn.microsoft.com/def835ae-f0d2-4cdc-a498-315c4ef1245b">CtrlLoadFlowspec</a> structure.
 
 
-
-#### G_spec
+### -field spec_u.G_spec
 
 Guaranteed service flowspec information, expressed as a <a href="https://msdn.microsoft.com/549380cc-b4ac-414a-9058-f506741f1e76">GuarFlowSpec</a> structure.
 
 
-
-#### Q_spec
+### -field spec_u.Q_spec
 
 Qualitative application flowspec information, expressed as a <a href="https://msdn.microsoft.com/4e15b094-4250-4699-b66e-6734cf37cbb6">QualAppFlowSpec</a> structure.
 

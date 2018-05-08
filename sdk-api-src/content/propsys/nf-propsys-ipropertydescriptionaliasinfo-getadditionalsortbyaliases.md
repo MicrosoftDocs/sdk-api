@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyDescriptionAliasInfo.GetAdditionalSortByAliases
-title: IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases method
+title: IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases
 author: windows-driver-content
 description: Gets the address of a pointer to the IPropertyDescriptionList interface, which contains additional sort column values.
 old-location: properties\IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases.htm
 old-project: properties
 ms.assetid: fb7c105b-6e81-4837-ad00-8886abbe108f
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetAdditionalSortByAliases method [Windows Properties], GetAdditionalSortByAliases method [Windows Properties], IPropertyDescriptionAliasInfo interface, GetAdditionalSortByAliases,IPropertyDescriptionAliasInfo.GetAdditionalSortByAliases, IPropertyDescriptionAliasInfo, IPropertyDescriptionAliasInfo interface [Windows Properties], GetAdditionalSortByAliases method, IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases, _shell_IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases, properties.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases, propsys/IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases, shell.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases
+ms.date: 4/27/2018
+ms.keywords: GetAdditionalSortByAliases, GetAdditionalSortByAliases method [Windows Properties], GetAdditionalSortByAliases method [Windows Properties],IPropertyDescriptionAliasInfo interface, IPropertyDescriptionAliasInfo interface [Windows Properties],GetAdditionalSortByAliases method, IPropertyDescriptionAliasInfo.GetAdditionalSortByAliases, IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases, _shell_IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases, properties.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases, propsys/IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases, shell.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases method
+# IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases
 
 
 ## -description

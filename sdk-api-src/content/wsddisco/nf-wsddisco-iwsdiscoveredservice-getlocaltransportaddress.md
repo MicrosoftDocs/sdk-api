@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetLocalTransportAddress
-title: IWSDiscoveredService::GetLocalTransportAddress method
+title: IWSDiscoveredService::GetLocalTransportAddress
 author: windows-driver-content
 description: Retrieves the string representation of the local transport (IP) address.
 old-location: ncd\iwsdiscoveredservice_getlocaltransportaddress.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: a7127ce7-175f-463e-8d54-0c637639a108
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetLocalTransportAddress method, GetLocalTransportAddress method, IWSDiscoveredService interface, GetLocalTransportAddress,IWSDiscoveredService.GetLocalTransportAddress, IWSDiscoveredService, IWSDiscoveredService interface, GetLocalTransportAddress method, IWSDiscoveredService::GetLocalTransportAddress, ncd.iwsdiscoveredservice_getlocaltransportaddress, wsddisco/IWSDiscoveredService::GetLocalTransportAddress
+ms.keywords: GetLocalTransportAddress, GetLocalTransportAddress method, GetLocalTransportAddress method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetLocalTransportAddress method, IWSDiscoveredService.GetLocalTransportAddress, IWSDiscoveredService::GetLocalTransportAddress, ncd.iwsdiscoveredservice_getlocaltransportaddress, wsddisco/IWSDiscoveredService::GetLocalTransportAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveredService::GetLocalTransportAddress method
+# IWSDiscoveredService::GetLocalTransportAddress
 
 
 ## -description

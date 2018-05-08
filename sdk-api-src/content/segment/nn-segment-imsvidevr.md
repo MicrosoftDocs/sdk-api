@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 437f515b-0353-4ff2-b8c2-5dd27d4e12f7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidEVR, IMSVidEVR interface [Microsoft TV Technologies], IMSVidEVR interface [Microsoft TV Technologies], described, IMSVidEVRInterface, mstv.imsvidevr, segment/IMSVidEVR
+ms.keywords: IMSVidEVR, IMSVidEVR interface [Microsoft TV Technologies], IMSVidEVR interface [Microsoft TV Technologies],described, IMSVidEVRInterface, mstv.imsvidevr, segment/IMSVidEVR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

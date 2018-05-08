@@ -7,7 +7,7 @@ old-location: security\crypt_xml_transform_chain_config.htm
 old-project: SecCrypto
 ms.assetid: ad18ee99-685d-4a79-bd91-492df20edb8c
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPT_XML_TRANSFORM_CHAIN_CONFIG, CRYPT_XML_TRANSFORM_CHAIN_CONFIG, CRYPT_XML_TRANSFORM_CHAIN_CONFIG structure [Security], PCRYPT_XML_TRANSFORM_CHAIN_CONFIG, PCRYPT_XML_TRANSFORM_CHAIN_CONFIG structure pointer [Security], _CRYPT_XML_TRANSFORM_CHAIN_CONFIG, cryptxml/CRYPT_XML_TRANSFORM_CHAIN_CONFIG, cryptxml/PCRYPT_XML_TRANSFORM_CHAIN_CONFIG, security.crypt_xml_transform_chain_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CRYPT_XML_TRANSFORM_CHAIN_CONFIG, *PCRYPT_XML_TRANSFORM_CHAIN_CONFIG, CRYPT_XML_TRANSFORM_CHAIN_CONFIG, *PCRYPT_XML_TRANSFORM_CHAIN_CONFIG
+req.typenames: CRYPT_XML_TRANSFORM_CHAIN_CONFIG, *PCRYPT_XML_TRANSFORM_CHAIN_CONFIG
 topic_type:
 -	APIRef
 -	kbSyntax

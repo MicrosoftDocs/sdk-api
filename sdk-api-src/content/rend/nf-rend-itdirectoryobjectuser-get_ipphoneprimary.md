@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectUser.get_IPPhonePrimary
-title: ITDirectoryObjectUser::get_IPPhonePrimary method
+title: ITDirectoryObjectUser::get_IPPhonePrimary
 author: windows-driver-content
 description: The get_IPPhonePrimary method gets the name of a computer that is the primary IP phone for the user.
 old-location: tapi3\itdirectoryobjectuser_get_ipphoneprimary.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 43bb9ce5-28ff-4a6f-a55c-a84633e22dfe
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITDirectoryObjectUser, ITDirectoryObjectUser interface [TAPI 2.2], get_IPPhonePrimary method, ITDirectoryObjectUser::get_IPPhonePrimary, _tapi3_itdirectoryobjectuser_get_ipphoneprimary, get_IPPhonePrimary method [TAPI 2.2], get_IPPhonePrimary method [TAPI 2.2], ITDirectoryObjectUser interface, get_IPPhonePrimary,ITDirectoryObjectUser.get_IPPhonePrimary, rend/ITDirectoryObjectUser::get_IPPhonePrimary, tapi3.itdirectoryobjectuser_get_ipphoneprimary
+ms.keywords: ITDirectoryObjectUser interface [TAPI 2.2],get_IPPhonePrimary method, ITDirectoryObjectUser.get_IPPhonePrimary, ITDirectoryObjectUser::get_IPPhonePrimary, _tapi3_itdirectoryobjectuser_get_ipphoneprimary, get_IPPhonePrimary, get_IPPhonePrimary method [TAPI 2.2], get_IPPhonePrimary method [TAPI 2.2],ITDirectoryObjectUser interface, rend/ITDirectoryObjectUser::get_IPPhonePrimary, tapi3.itdirectoryobjectuser_get_ipphoneprimary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITDirectoryObjectUser::get_IPPhonePrimary method
+# ITDirectoryObjectUser::get_IPPhonePrimary
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords
-title: IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords method
+title: IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords
 author: windows-driver-content
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getcountofrecords.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d13cadd3-561f-4d4e-8260-7a1d56dfa578
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies], IIsdbTerrestrialDeliverySystemDescriptor interface, GetCountOfRecords,IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords, IIsdbTerrestrialDeliverySystemDescriptor, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], GetCountOfRecords method, IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords, mstv.iisdbterrestrialdeliverysystemdescriptor_getcountofrecords
+ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords, IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords, mstv.iisdbterrestrialdeliverysystemdescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords method
+# IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords
 
 
 ## -description

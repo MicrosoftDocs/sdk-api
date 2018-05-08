@@ -7,7 +7,7 @@ old-location: automat\safearraygetrecordinfo.htm
 old-project: automat
 ms.assetid: 1584c00e-06a5-44f4-8c4b-a2b23737a652
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: SafeArrayGetRecordInfo, SafeArrayGetRecordInfo function [Automation], _oa96_SafeArrayGetRecordInfo, automat.safearraygetrecordinfo, oleauto/SafeArrayGetRecordInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

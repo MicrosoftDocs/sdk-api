@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetURL
-title: IMFPMediaItem::GetURL method
+title: IMFPMediaItem::GetURL
 author: windows-driver-content
 description: Gets the URL that was used to create the media item.
 old-location: mf\imfpmediaitem_geturl.htm
 old-project: medfound
 ms.assetid: 2598534c-28cc-4f4c-bf87-17ab7044e0c1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetURL method [Media Foundation], GetURL method [Media Foundation], IMFPMediaItem interface, GetURL,IMFPMediaItem.GetURL, IMFPMediaItem, IMFPMediaItem interface [Media Foundation], GetURL method, IMFPMediaItem::GetURL, mf.imfpmediaitem_geturl, mfplay/IMFPMediaItem::GetURL
+ms.date: 5/3/2018
+ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetURL method, IMFPMediaItem.GetURL, IMFPMediaItem::GetURL, mf.imfpmediaitem_geturl, mfplay/IMFPMediaItem::GetURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaItem::GetURL method
+# IMFPMediaItem::GetURL
 
 
 ## -description

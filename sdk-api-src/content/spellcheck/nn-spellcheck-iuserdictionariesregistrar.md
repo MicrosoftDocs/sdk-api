@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: eca9446a-268e-4318-a5e7-8bb8592c9660
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IUserDictionariesRegistrar, IUserDictionariesRegistrar interface [Internationalization for Windows Applications], IUserDictionariesRegistrar interface [Internationalization for Windows Applications], described, intl.iuserdictionariesregistrar, spellcheck/IUserDictionariesRegistrar
+ms.keywords: IUserDictionariesRegistrar, IUserDictionariesRegistrar interface [Internationalization for Windows Applications], IUserDictionariesRegistrar interface [Internationalization for Windows Applications],described, intl.iuserdictionariesregistrar, spellcheck/IUserDictionariesRegistrar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

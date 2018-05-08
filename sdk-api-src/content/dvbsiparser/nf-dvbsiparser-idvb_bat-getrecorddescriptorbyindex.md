@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.GetRecordDescriptorByIndex
-title: IDVB_BAT::GetRecordDescriptorByIndex method
+title: IDVB_BAT::GetRecordDescriptorByIndex
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_getrecorddescriptorbyindex.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ea1ace90-4378-4dec-9326-70e6f9814dde
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies], IDVB_BAT interface, GetRecordDescriptorByIndex,IDVB_BAT.GetRecordDescriptorByIndex, IDVB_BAT, IDVB_BAT interface [Microsoft TV Technologies], GetRecordDescriptorByIndex method, IDVB_BAT::GetRecordDescriptorByIndex, IDVB_BATGetRecordDescriptorByIndex, dvbsiparser/IDVB_BAT::GetRecordDescriptorByIndex, mstv.idvb_bat_getrecorddescriptorbyindex
+ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IDVB_BAT.GetRecordDescriptorByIndex, IDVB_BAT::GetRecordDescriptorByIndex, IDVB_BATGetRecordDescriptorByIndex, dvbsiparser/IDVB_BAT::GetRecordDescriptorByIndex, mstv.idvb_bat_getrecorddescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDVB_BAT::GetRecordDescriptorByIndex method
+# IDVB_BAT::GetRecordDescriptorByIndex
 
 
 ## -description

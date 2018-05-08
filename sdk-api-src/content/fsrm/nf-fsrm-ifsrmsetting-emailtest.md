@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmSetting.EmailTest
-title: IFsrmSetting::EmailTest method
+title: IFsrmSetting::EmailTest
 author: windows-driver-content
 description: Send an email message to the specified email address.
 old-location: fsrm\ifsrmsetting_emailtest.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: dda57309-8e77-4934-bb3e-d208d4607ea5
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EmailTest method [File Server Resource Manager], EmailTest method [File Server Resource Manager], FsrmSetting class, EmailTest method [File Server Resource Manager], IFsrmSetting interface, EmailTest,IFsrmSetting.EmailTest, FsrmSetting class [File Server Resource Manager], EmailTest method, IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], EmailTest method, IFsrmSetting::EmailTest, fs.ifsrmsetting_emailtest, fsrm.ifsrmsetting_emailtest, fsrm/IFsrmSetting::EmailTest
+ms.keywords: EmailTest, EmailTest method [File Server Resource Manager], EmailTest method [File Server Resource Manager],FsrmSetting class, EmailTest method [File Server Resource Manager],IFsrmSetting interface, FsrmSetting class [File Server Resource Manager],EmailTest method, IFsrmSetting interface [File Server Resource Manager],EmailTest method, IFsrmSetting.EmailTest, IFsrmSetting::EmailTest, fs.ifsrmsetting_emailtest, fsrm.ifsrmsetting_emailtest, fsrm/IFsrmSetting::EmailTest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmSetting::EmailTest method
+# IFsrmSetting::EmailTest
 
 
 ## -description

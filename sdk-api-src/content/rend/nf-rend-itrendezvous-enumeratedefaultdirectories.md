@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITRendezvous.EnumerateDefaultDirectories
-title: ITRendezvous::EnumerateDefaultDirectories method
+title: ITRendezvous::EnumerateDefaultDirectories
 author: windows-driver-content
 description: The EnumerateDefaultDirectories method enumerates all configured default directories. This method is similar to get_DefaultDirectories but is designed for C/C++.
 old-location: tapi3\itrendezvous_enumeratedefaultdirectories.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: fe89a370-32ed-4519-bb98-9d9ea7615eb7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: EnumerateDefaultDirectories method [TAPI 2.2], EnumerateDefaultDirectories method [TAPI 2.2], ITRendezvous interface, EnumerateDefaultDirectories,ITRendezvous.EnumerateDefaultDirectories, ITRendezvous, ITRendezvous interface [TAPI 2.2], EnumerateDefaultDirectories method, ITRendezvous::EnumerateDefaultDirectories, _tapi3_itrendezvous_enumeratedefaultdirectories, rend/ITRendezvous::EnumerateDefaultDirectories, tapi3.itrendezvous_enumeratedefaultdirectories
+ms.keywords: EnumerateDefaultDirectories, EnumerateDefaultDirectories method [TAPI 2.2], EnumerateDefaultDirectories method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],EnumerateDefaultDirectories method, ITRendezvous.EnumerateDefaultDirectories, ITRendezvous::EnumerateDefaultDirectories, _tapi3_itrendezvous_enumeratedefaultdirectories, rend/ITRendezvous::EnumerateDefaultDirectories, tapi3.itrendezvous_enumeratedefaultdirectories
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITRendezvous::EnumerateDefaultDirectories method
+# ITRendezvous::EnumerateDefaultDirectories
 
 
 ## -description

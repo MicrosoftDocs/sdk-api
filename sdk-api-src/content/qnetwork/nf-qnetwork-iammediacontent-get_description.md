@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Description
-title: IAMMediaContent::get_Description method
+title: IAMMediaContent::get_Description
 author: windows-driver-content
 description: The get_Description method retrieves a description of the content.
 old-location: dshow\iammediacontent_get_description.htm
 old-project: DirectShow
 ms.assetid: fc0c14f3-2764-4897-8ddb-ed1146d98597
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], get_Description method, IAMMediaContent::get_Description, IAMMediaContentget_Description, dshow.iammediacontent_get_description, get_Description method [DirectShow], get_Description method [DirectShow], IAMMediaContent interface, get_Description,IAMMediaContent.get_Description, qnetwork/IAMMediaContent::get_Description
+ms.date: 4/30/2018
+ms.keywords: IAMMediaContent interface [DirectShow],get_Description method, IAMMediaContent.get_Description, IAMMediaContent::get_Description, IAMMediaContentget_Description, dshow.iammediacontent_get_description, get_Description, get_Description method [DirectShow], get_Description method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMMediaContent::get_Description method
+# IAMMediaContent::get_Description
 
 
 ## -description

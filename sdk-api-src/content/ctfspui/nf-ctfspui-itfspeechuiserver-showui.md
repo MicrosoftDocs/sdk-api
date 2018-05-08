@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfspui.ITfSpeechUIServer.ShowUI
-title: ITfSpeechUIServer::ShowUI method
+title: ITfSpeechUIServer::ShowUI
 author: windows-driver-content
 description: ITfSpeechUIServer::ShowUI method
 old-location: tsf\itfspeechuiserver_showui.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4491a3f0-b748-45a8-a8bd-c8fa78d49fa7
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfSpeechUIServer, ITfSpeechUIServer interface [Text Services Framework], ShowUI method, ITfSpeechUIServer::ShowUI, ShowUI method [Text Services Framework], ShowUI method [Text Services Framework], ITfSpeechUIServer interface, ShowUI,ITfSpeechUIServer.ShowUI, ctfspui/ITfSpeechUIServer::ShowUI, tsf.itfspeechuiserver_showui
+ms.keywords: ITfSpeechUIServer interface [Text Services Framework],ShowUI method, ITfSpeechUIServer.ShowUI, ITfSpeechUIServer::ShowUI, ShowUI, ShowUI method [Text Services Framework], ShowUI method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::ShowUI, tsf.itfspeechuiserver_showui
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Sptip.dll
 req.irql: 
 ---
 
-# ITfSpeechUIServer::ShowUI method
+# ITfSpeechUIServer::ShowUI
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_ColorDepth
-title: IRDPSRAPISharingSession::get_ColorDepth method
+title: IRDPSRAPISharingSession::get_ColorDepth
 author: windows-driver-content
 description: Retrieves or sets the color depth for the shared session.
 old-location: rdp\irdpsrapisharingsession_colordepth.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 8835a79c-281a-4f50-ba41-c9d4a0a8d7bd
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: ColorDepth property [RDP], ColorDepth property [RDP], IRDPSRAPISharingSession interface, ColorDepth property [RDP], IRDPSRAPISharingSession2 interface, ColorDepth property [RDP], RDPSession object, IRDPSRAPISharingSession, IRDPSRAPISharingSession interface [RDP], ColorDepth property, IRDPSRAPISharingSession.ColorDepth, IRDPSRAPISharingSession2 interface [RDP], ColorDepth property, IRDPSRAPISharingSession2.ColorDepth, IRDPSRAPISharingSession2::get_ColorDepth, IRDPSRAPISharingSession2::put_ColorDepth, IRDPSRAPISharingSession::get_ColorDepth, IRDPSRAPISharingSession::put_ColorDepth, RDPSession object [RDP], ColorDepth property, get_ColorDepth,IRDPSRAPISharingSession.get_ColorDepth, rdp.irdpsrapisharingsession_colordepth, rdpencomapi/IRDPSRAPISharingSession2::ColorDepth, rdpencomapi/IRDPSRAPISharingSession2::get_ColorDepth, rdpencomapi/IRDPSRAPISharingSession2::put_ColorDepth, rdpencomapi/IRDPSRAPISharingSession::ColorDepth, rdpencomapi/IRDPSRAPISharingSession::get_ColorDepth, rdpencomapi/IRDPSRAPISharingSession::put_ColorDepth
+ms.keywords: ColorDepth property [RDP], ColorDepth property [RDP],IRDPSRAPISharingSession interface, ColorDepth property [RDP],IRDPSRAPISharingSession2 interface, ColorDepth property [RDP],RDPSession object, IRDPSRAPISharingSession interface [RDP],ColorDepth property, IRDPSRAPISharingSession.ColorDepth, IRDPSRAPISharingSession.get_ColorDepth, IRDPSRAPISharingSession2 interface [RDP],ColorDepth property, IRDPSRAPISharingSession2.ColorDepth, IRDPSRAPISharingSession2::ColorDepth, IRDPSRAPISharingSession2::get_ColorDepth, IRDPSRAPISharingSession2::put_ColorDepth, IRDPSRAPISharingSession::get_ColorDepth, IRDPSRAPISharingSession::put_ColorDepth, RDPSession object [RDP],ColorDepth property, get_ColorDepth, rdp.irdpsrapisharingsession_colordepth, rdpencomapi/IRDPSRAPISharingSession2::ColorDepth, rdpencomapi/IRDPSRAPISharingSession2::get_ColorDepth, rdpencomapi/IRDPSRAPISharingSession2::put_ColorDepth, rdpencomapi/IRDPSRAPISharingSession::ColorDepth, rdpencomapi/IRDPSRAPISharingSession::get_ColorDepth, rdpencomapi/IRDPSRAPISharingSession::put_ColorDepth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPISharingSession::get_ColorDepth method
+# IRDPSRAPISharingSession::get_ColorDepth
 
 
 ## -description

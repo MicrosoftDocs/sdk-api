@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: a983af02-ee0e-4a62-8ae0-fb9a1e0c2571
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMultisession, IMultisession interface [IMAPI], IMultisession interface [IMAPI], described, imapi.imultisession, imapi2/IMultisession
+ms.keywords: IMultisession, IMultisession interface [IMAPI], IMultisession interface [IMAPI],described, imapi.imultisession, imapi2/IMultisession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

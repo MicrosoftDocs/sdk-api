@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.Search
-title: IUpdateSearcher::Search method
+title: IUpdateSearcher::Search
 author: windows-driver-content
 description: Performs a synchronous search for updates. The search uses the search options that are currently configured.
 old-location: wua\iupdatesearchersearch.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 0511cfd0-f4de-41ab-af35-32d757217386
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateSearcher, IUpdateSearcher interface [Windows Update Agent], Search method, IUpdateSearcher::Search, Search method [Windows Update Agent], Search method [Windows Update Agent], IUpdateSearcher interface, Search,IUpdateSearcher.Search, wua.iupdatesearchersearch, wuapi/IUpdateSearcher::Search
+ms.keywords: IUpdateSearcher interface [Windows Update Agent],Search method, IUpdateSearcher.Search, IUpdateSearcher::Search, Search, Search method [Windows Update Agent], Search method [Windows Update Agent],IUpdateSearcher interface, wua.iupdatesearchersearch, wuapi/IUpdateSearcher::Search
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateSearcher::Search method
+# IUpdateSearcher::Search
 
 
 ## -description

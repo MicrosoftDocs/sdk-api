@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 8567ca7f-dc50-4cf2-b3c1-a2ae8d55dc95
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssWMComponent, IVssWMComponent interface [VSS], IVssWMComponent interface [VSS], described, _win32_ivsswmcomponent, base.ivsswmcomponent, vsbackup/IVssWMComponent
+ms.keywords: IVssWMComponent, IVssWMComponent interface [VSS], IVssWMComponent interface [VSS],described, _win32_ivsswmcomponent, base.ivsswmcomponent, vsbackup/IVssWMComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

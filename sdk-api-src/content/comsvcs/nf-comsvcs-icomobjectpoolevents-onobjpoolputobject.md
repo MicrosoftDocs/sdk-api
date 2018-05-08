@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents.OnObjPoolPutObject
-title: IComObjectPoolEvents::OnObjPoolPutObject method
+title: IComObjectPoolEvents::OnObjPoolPutObject
 author: windows-driver-content
 description: Generated when a new object is added to the pool.
 old-location: cos\icomobjectpoolevents_onobjpoolputobject.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 00b0b3b1-943d-4fba-bd5d-52d6de80fcf6
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComObjectPoolEvents, IComObjectPoolEvents interface [COM+], OnObjPoolPutObject method, IComObjectPoolEvents::OnObjPoolPutObject, OnObjPoolPutObject method [COM+], OnObjPoolPutObject method [COM+], IComObjectPoolEvents interface, OnObjPoolPutObject,IComObjectPoolEvents.OnObjPoolPutObject, _dtc_IComObjectPoolEvents_OnObjPoolPutObject, comsvcs/IComObjectPoolEvents::OnObjPoolPutObject, cos.icomobjectpoolevents_onobjpoolputobject
+ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolPutObject method, IComObjectPoolEvents.OnObjPoolPutObject, IComObjectPoolEvents::OnObjPoolPutObject, OnObjPoolPutObject, OnObjPoolPutObject method [COM+], OnObjPoolPutObject method [COM+],IComObjectPoolEvents interface, _dtc_IComObjectPoolEvents_OnObjPoolPutObject, comsvcs/IComObjectPoolEvents::OnObjPoolPutObject, cos.icomobjectpoolevents_onobjpoolputobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComObjectPoolEvents::OnObjPoolPutObject method
+# IComObjectPoolEvents::OnObjPoolPutObject
 
 
 ## -description

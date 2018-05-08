@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IFilterGraph.FindFilterByName
-title: IFilterGraph::FindFilterByName method
+title: IFilterGraph::FindFilterByName
 author: windows-driver-content
 description: The FindFilterByName method finds a filter that was added to the filter graph with a specific name.
 old-location: dshow\ifiltergraph_findfilterbyname.htm
 old-project: DirectShow
 ms.assetid: 59d90274-ac00-4e19-bcee-2282e26994b5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: FindFilterByName method [DirectShow], FindFilterByName method [DirectShow], IFilterGraph interface, FindFilterByName,IFilterGraph.FindFilterByName, IFilterGraph, IFilterGraph interface [DirectShow], FindFilterByName method, IFilterGraph::FindFilterByName, IFilterGraphFindFilterByName, dshow.ifiltergraph_findfilterbyname, strmif/IFilterGraph::FindFilterByName
+ms.date: 4/30/2018
+ms.keywords: FindFilterByName, FindFilterByName method [DirectShow], FindFilterByName method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],FindFilterByName method, IFilterGraph.FindFilterByName, IFilterGraph::FindFilterByName, IFilterGraphFindFilterByName, dshow.ifiltergraph_findfilterbyname, strmif/IFilterGraph::FindFilterByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IFilterGraph::FindFilterByName method
+# IFilterGraph::FindFilterByName
 
 
 ## -description

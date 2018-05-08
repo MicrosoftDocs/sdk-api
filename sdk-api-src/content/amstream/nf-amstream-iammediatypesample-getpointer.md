@@ -1,14 +1,14 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetPointer
-title: IAMMediaTypeSample::GetPointer method
+title: IAMMediaTypeSample::GetPointer
 author: windows-driver-content
 description: Note  This interface is deprecated. New applications should not use it. The GetPointer method retrieves a read/write pointer to the buffer's memory.
 old-location: dshow\iammediatypesample_getpointer.htm
 old-project: DirectShow
 ms.assetid: e1ca46d8-51d6-4dd5-bbcc-463acf53420c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPointer method [DirectShow], GetPointer method [DirectShow], IAMMediaTypeSample interface, GetPointer,IAMMediaTypeSample.GetPointer, IAMMediaTypeSample, IAMMediaTypeSample interface [DirectShow], GetPointer method, IAMMediaTypeSample::GetPointer, IAMMediaTypeSampleGetPointer, amstream/IAMMediaTypeSample::GetPointer, dshow.iammediatypesample_getpointer
+ms.date: 4/30/2018
+ms.keywords: GetPointer, GetPointer method [DirectShow], GetPointer method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetPointer method, IAMMediaTypeSample.GetPointer, IAMMediaTypeSample::GetPointer, IAMMediaTypeSampleGetPointer, amstream/IAMMediaTypeSample::GetPointer, dshow.iammediatypesample_getpointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAMMediaTypeSample::GetPointer method
+# IAMMediaTypeSample::GetPointer
 
 
 ## -description

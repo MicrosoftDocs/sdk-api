@@ -72,3 +72,25 @@ Specifies the total size, in bytes, of memory allocated for <b>Buffer</b>. Up to
 
 Pointer to a wide-character string. Note that the strings returned by the various LSA functions might not be <b>null</b>-terminated.
 
+
+### -field Buffer.size_is
+
+ 
+
+
+### -field Buffer.size_is.MaximumLength/2
+
+ 
+
+
+### -field Buffer.length_is
+
+ 
+
+
+### -field Buffer.length_is.Length/2
+
+ 
+
+
+

@@ -283,39 +283,20 @@ Union that contains the value for the option. It can be any one of the following
 <b>dwOption</b>:
 
 
-
-#### dwValue
-
-Unsigned long integer value.
-
-
-
-#### pszValue
-
-Pointer to a string value.
-
-
-
-#### ftValue
-
-A 
-<a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
-
-
-##### - Value.dwValue
+### -field Value.dwValue
 
 Unsigned long integer value.
 
 
-##### - Value.ftValue
+### -field Value.pszValue
+
+Pointer to a string value.
+
+
+### -field Value.ftValue
 
 A 
 <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
-
-
-##### - Value.pszValue
-
-Pointer to a string value.
 
 
 ## -remarks

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.SetSecurityDescriptor
-title: IGPMGPO::SetSecurityDescriptor method
+title: IGPMGPO::SetSecurityDescriptor
 author: windows-driver-content
 description: Sets the security descriptor for the GPO. The method replaces the existing security descriptor.
 old-location: gpmc\igpmgpo_setsecuritydescriptor.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 087cbe19-25d9-4134-8893-1b2906915220
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: DACL_SECURITY_INFORMATION, GPMGPO class [GPMC], SetSecurityDescriptor method, GROUP_SECURITY_INFORMATION, IGPMGPO, IGPMGPO interface [GPMC], SetSecurityDescriptor method, IGPMGPO::SetSecurityDescriptor, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetSecurityDescriptor method [GPMC], SetSecurityDescriptor method [GPMC], GPMGPO class, SetSecurityDescriptor method [GPMC], IGPMGPO interface, SetSecurityDescriptor,IGPMGPO.SetSecurityDescriptor, _win32_igpmgpo_setsecuritydescriptor, gpmc.igpmgpo_setsecuritydescriptor, gpmgmt/IGPMGPO::SetSecurityDescriptor
+ms.keywords: DACL_SECURITY_INFORMATION, GPMGPO class [GPMC],SetSecurityDescriptor method, GROUP_SECURITY_INFORMATION, IGPMGPO interface [GPMC],SetSecurityDescriptor method, IGPMGPO.SetSecurityDescriptor, IGPMGPO::SetSecurityDescriptor, OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, SetSecurityDescriptor, SetSecurityDescriptor method [GPMC], SetSecurityDescriptor method [GPMC],GPMGPO class, SetSecurityDescriptor method [GPMC],IGPMGPO interface, _win32_igpmgpo_setsecuritydescriptor, gpmc.igpmgpo_setsecuritydescriptor, gpmgmt/IGPMGPO::SetSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMGPO::SetSecurityDescriptor method
+# IGPMGPO::SetSecurityDescriptor
 
 
 ## -description

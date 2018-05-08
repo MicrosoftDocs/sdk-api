@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: c9a5f417-ffd5-452d-9218-3ac045a55de0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPerformanceCounterDataCollector, IPerformanceCounterDataCollector interface [PLA], IPerformanceCounterDataCollector interface [PLA], described, base.iperformancecounterdatacollector, pla.iperformancecounterdatacollector, pla/IPerformanceCounterDataCollector
+ms.keywords: IPerformanceCounterDataCollector, IPerformanceCounterDataCollector interface [PLA], IPerformanceCounterDataCollector interface [PLA],described, base.iperformancecounterdatacollector, pla.iperformancecounterdatacollector, pla/IPerformanceCounterDataCollector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

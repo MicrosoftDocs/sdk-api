@@ -7,7 +7,7 @@ old-location: winprog\wscgetsecurityproviderhealth.htm
 old-project: DevNotes
 ms.assetid: 1193eba3-a01b-4ee3-a83d-25dcdbc15de0
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/4/2018
 ms.keywords: WscGetSecurityProviderHealth, WscGetSecurityProviderHealth function [Windows API], winprog.wscgetsecurityproviderhealth, wscapi/WscGetSecurityProviderHealth
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.GetValue
-title: IProviderProperties::GetValue method
+title: IProviderProperties::GetValue
 author: windows-driver-content
 description: Gets the value of the specified property key.
 old-location: ncd\iproviderproperties_getvalue_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: c32a5367-ef39-4852-bf3b-203d27d0a2d0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetValue method, GetValue method, IProviderProperties interface, GetValue,IProviderProperties.GetValue, IProviderProperties, IProviderProperties interface, GetValue method, IProviderProperties::GetValue, functiondiscoveryprovider/IProviderProperties::GetValue, ncd.iproviderproperties_getvalue_method
+ms.keywords: GetValue, GetValue method, GetValue method,IProviderProperties interface, IProviderProperties interface,GetValue method, IProviderProperties.GetValue, IProviderProperties::GetValue, functiondiscoveryprovider/IProviderProperties::GetValue, ncd.iproviderproperties_getvalue_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IProviderProperties::GetValue method
+# IProviderProperties::GetValue
 
 
 ## -description

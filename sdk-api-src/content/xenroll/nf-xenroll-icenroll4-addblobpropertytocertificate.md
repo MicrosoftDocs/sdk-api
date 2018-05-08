@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll4.addBlobPropertyToCertificate
-title: ICEnroll4::addBlobPropertyToCertificate method
+title: ICEnroll4::addBlobPropertyToCertificate
 author: windows-driver-content
 description: Adds a BLOB property to a certificate.
 old-location: security\icenroll4_addblobpropertytocertificate.htm
 old-project: SecCrypto
 ms.assetid: a21e2636-d49f-4490-867c-2ea95d7fdc69
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CERT_DESCRIPTION_PROP_ID, CERT_FRIENDLY_NAME_PROP_ID, CERT_PVK_FILE_PROP_ID, CERT_RENEWAL_PROP_ID, CEnroll object [Security], addBlobPropertyToCertificate method, ICEnroll4, ICEnroll4 interface [Security], addBlobPropertyToCertificate method, ICEnroll4::addBlobPropertyToCertificate, addBlobPropertyToCertificate method [Security], addBlobPropertyToCertificate method [Security], CEnroll object, addBlobPropertyToCertificate method [Security], ICEnroll4 interface, addBlobPropertyToCertificate,ICEnroll4.addBlobPropertyToCertificate, security.icenroll4_addblobpropertytocertificate, xenroll/ICEnroll4::addBlobPropertyToCertificate
+ms.date: 4/30/2018
+ms.keywords: CERT_DESCRIPTION_PROP_ID, CERT_FRIENDLY_NAME_PROP_ID, CERT_PVK_FILE_PROP_ID, CERT_RENEWAL_PROP_ID, CEnroll object [Security],addBlobPropertyToCertificate method, ICEnroll4 interface [Security],addBlobPropertyToCertificate method, ICEnroll4.addBlobPropertyToCertificate, ICEnroll4::addBlobPropertyToCertificate, addBlobPropertyToCertificate, addBlobPropertyToCertificate method [Security], addBlobPropertyToCertificate method [Security],CEnroll object, addBlobPropertyToCertificate method [Security],ICEnroll4 interface, security.icenroll4_addblobpropertytocertificate, xenroll/ICEnroll4::addBlobPropertyToCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll4::addBlobPropertyToCertificate method
+# ICEnroll4::addBlobPropertyToCertificate
 
 
 ## -description

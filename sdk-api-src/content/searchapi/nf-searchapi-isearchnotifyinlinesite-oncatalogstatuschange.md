@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchNotifyInlineSite.OnCatalogStatusChange
-title: ISearchNotifyInlineSite::OnCatalogStatusChange method
+title: ISearchNotifyInlineSite::OnCatalogStatusChange
 author: windows-driver-content
 description: Called by the search service to notify a client when the status of the catalog changes.
 old-location: search\_search_ISearchNotifyInlineSite_OnCatalogStatusChange.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\oncatalogstatuschange.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchNotifyInlineSite, ISearchNotifyInlineSite interface [search], OnCatalogStatusChange method, ISearchNotifyInlineSite::OnCatalogStatusChange, OnCatalogStatusChange method [search], OnCatalogStatusChange method [search], ISearchNotifyInlineSite interface, OnCatalogStatusChange,ISearchNotifyInlineSite.OnCatalogStatusChange, _search_ISearchNotifyInlineSite_OnCatalogStatusChange, search._search_ISearchNotifyInlineSite_OnCatalogStatusChange, searchapi/ISearchNotifyInlineSite::OnCatalogStatusChange
+ms.date: 5/4/2018
+ms.keywords: ISearchNotifyInlineSite interface [search],OnCatalogStatusChange method, ISearchNotifyInlineSite.OnCatalogStatusChange, ISearchNotifyInlineSite::OnCatalogStatusChange, OnCatalogStatusChange, OnCatalogStatusChange method [search], OnCatalogStatusChange method [search],ISearchNotifyInlineSite interface, _search_ISearchNotifyInlineSite_OnCatalogStatusChange, search._search_ISearchNotifyInlineSite_OnCatalogStatusChange, searchapi/ISearchNotifyInlineSite::OnCatalogStatusChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchNotifyInlineSite::OnCatalogStatusChange method
+# ISearchNotifyInlineSite::OnCatalogStatusChange
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetClipRegion
-title: IWMResizerProps::SetClipRegion method
+title: IWMResizerProps::SetClipRegion
 author: windows-driver-content
 description: Sets the source rectangle.
 old-location: mf\iwmresizerpropssetclipregion.htm
 old-project: medfound
 ms.assetid: 51a11e24-a4c3-49fb-86ec-17baa1773caf
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IWMResizerProps, IWMResizerProps interface [Media Foundation], SetClipRegion method, IWMResizerProps::SetClipRegion, SetClipRegion method [Media Foundation], SetClipRegion method [Media Foundation], IWMResizerProps interface, SetClipRegion,IWMResizerProps.SetClipRegion, codecapi.iwmresizerpropssetclipregion, mf.iwmresizerpropssetclipregion, wmcodecdsp/ IWMResizerProps::SetClipRegion
+ms.date: 5/3/2018
+ms.keywords: IWMResizerProps interface [Media Foundation],SetClipRegion method, IWMResizerProps.SetClipRegion, IWMResizerProps::SetClipRegion, SetClipRegion, SetClipRegion method [Media Foundation], SetClipRegion method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetclipregion, mf.iwmresizerpropssetclipregion, wmcodecdsp/ IWMResizerProps::SetClipRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMResizerProps::SetClipRegion method
+# IWMResizerProps::SetClipRegion
 
 
 ## -description

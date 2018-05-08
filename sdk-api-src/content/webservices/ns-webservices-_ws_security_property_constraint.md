@@ -220,3 +220,10 @@ req.product: Windows Address Book 5.0
                     entire contents of this structure will be filled out.
                 
 
+
+### -field out.securityProperty
+
+ 
+
+
+

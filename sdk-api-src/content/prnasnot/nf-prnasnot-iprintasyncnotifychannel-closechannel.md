@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyChannel.CloseChannel
-title: IPrintAsyncNotifyChannel::CloseChannel method
+title: IPrintAsyncNotifyChannel::CloseChannel
 author: windows-driver-content
 description: Closes the channel.
 old-location: gdi\iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d5878cf1-c2c3-4f33-bc08-e4f868c8a5e7
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CloseChannel method [Windows GDI], CloseChannel method [Windows GDI], IPrintAsyncNotifyChannel interface, CloseChannel,IPrintAsyncNotifyChannel.CloseChannel, IPrintAsyncNotifyChannel, IPrintAsyncNotifyChannel interface [Windows GDI], CloseChannel method, IPrintAsyncNotifyChannel::CloseChannel, _win32_IPrintAsyncNotifyChannel_CloseChannel, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel, prnasnot/IPrintAsyncNotifyChannel::CloseChannel
+ms.keywords: CloseChannel, CloseChannel method [Windows GDI], CloseChannel method [Windows GDI],IPrintAsyncNotifyChannel interface, IPrintAsyncNotifyChannel interface [Windows GDI],CloseChannel method, IPrintAsyncNotifyChannel.CloseChannel, IPrintAsyncNotifyChannel::CloseChannel, _win32_IPrintAsyncNotifyChannel_CloseChannel, gdi.iprintasyncnotifychannel_iprintasyncnotifychannel__closechannel, prnasnot/IPrintAsyncNotifyChannel::CloseChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPrintAsyncNotifyChannel::CloseChannel method
+# IPrintAsyncNotifyChannel::CloseChannel
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: shell\SHRegGetBoolValueFromHKCUHKLM.htm
 old-project: shell
 ms.assetid: 05239aef-a6cf-426f-919e-08b70baee3f8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: SHRegGetBoolValueFromHKCUHKLM, SHRegGetBoolValueFromHKCUHKLM function [Windows Shell], _shell_SHRegGetBoolValueFromHKCUHKLM, shell.SHRegGetBoolValueFromHKCUHKLM, shlwapi/SHRegGetBoolValueFromHKCUHKLM
 ms.prod: windows-hardware
 ms.technology: windows-devices

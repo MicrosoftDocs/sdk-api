@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2.get_BytesPerSector
-title: IWriteEngine2::get_BytesPerSector method
+title: IWriteEngine2::get_BytesPerSector
 author: windows-driver-content
 description: Retrieves the number of bytes to use for each sector during writing. The returned value indicates what the value previously set with IWriteEngine2::put_BytesPerSector, and does not return a current bytes per sector value for media.
 old-location: imapi\iwriteengine2_get_bytespersector.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: ee48368c-e9bc-4ac7-97cf-a2bdc2a05d22
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IWriteEngine2, IWriteEngine2 interface [IMAPI], get_BytesPerSector method, IWriteEngine2::get_BytesPerSector, get_BytesPerSector method [IMAPI], get_BytesPerSector method [IMAPI], IWriteEngine2 interface, get_BytesPerSector,IWriteEngine2.get_BytesPerSector, imapi.iwriteengine2_get_bytespersector, imapi2/IWriteEngine2::get_BytesPerSector
+ms.keywords: IWriteEngine2 interface [IMAPI],get_BytesPerSector method, IWriteEngine2.get_BytesPerSector, IWriteEngine2::get_BytesPerSector, get_BytesPerSector, get_BytesPerSector method [IMAPI], get_BytesPerSector method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_bytespersector, imapi2/IWriteEngine2::get_BytesPerSector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IWriteEngine2::get_BytesPerSector method
+# IWriteEngine2::get_BytesPerSector
 
 
 ## -description

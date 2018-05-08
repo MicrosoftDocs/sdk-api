@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocator.SetDirectXManager
-title: IMFVideoSampleAllocator::SetDirectXManager method
+title: IMFVideoSampleAllocator::SetDirectXManager
 author: windows-driver-content
 description: Specifies the Direct3D device manager for the video media sink to use.
 old-location: mf\imfvideosampleallocator_setdirectxmanager.htm
 old-project: medfound
 ms.assetid: bad810c9-f5b1-42dc-9c7a-3306f3de2846
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFVideoSampleAllocator, IMFVideoSampleAllocator interface [Media Foundation], SetDirectXManager method, IMFVideoSampleAllocator::SetDirectXManager, SetDirectXManager method [Media Foundation], SetDirectXManager method [Media Foundation], IMFVideoSampleAllocator interface, SetDirectXManager,IMFVideoSampleAllocator.SetDirectXManager, bad810c9-f5b1-42dc-9c7a-3306f3de2846, mf.imfvideosampleallocator_setdirectxmanager, mfidl/IMFVideoSampleAllocator::SetDirectXManager
+ms.date: 5/3/2018
+ms.keywords: IMFVideoSampleAllocator interface [Media Foundation],SetDirectXManager method, IMFVideoSampleAllocator.SetDirectXManager, IMFVideoSampleAllocator::SetDirectXManager, SetDirectXManager, SetDirectXManager method [Media Foundation], SetDirectXManager method [Media Foundation],IMFVideoSampleAllocator interface, bad810c9-f5b1-42dc-9c7a-3306f3de2846, mf.imfvideosampleallocator_setdirectxmanager, mfidl/IMFVideoSampleAllocator::SetDirectXManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFVideoSampleAllocator::SetDirectXManager method
+# IMFVideoSampleAllocator::SetDirectXManager
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: mf\dxva2_extendedformat.htm
 old-project: medfound
 ms.assetid: eba2c56b-8951-4dc5-91ae-1371793ce787
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: DXVA2_ExtendedFormat, DXVA2_ExtendedFormat structure [Media Foundation], _DXVA2_ExtendedFormat, dxva2api/DXVA2_ExtendedFormat, eba2c56b-8951-4dc5-91ae-1371793ce787, mf.dxva2_extendedformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -95,7 +95,7 @@ Describes the color primaries. Contains a value from the <a href="https://msdn.m
 Describes the gamma correction transfer function. Contains a value from the <a href="https://msdn.microsoft.com/43b99d5f-ea28-4de2-b118-e2277f283dee">DXVA2_VideoTransferFunction</a> enumeration.
 
 
-#### - value
+### -field value
 
 Use this member to access all of the bits in the union.
 

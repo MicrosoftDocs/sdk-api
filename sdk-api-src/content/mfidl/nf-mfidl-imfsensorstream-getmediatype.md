@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorStream.GetMediaType
-title: IMFSensorStream::GetMediaType method
+title: IMFSensorStream::GetMediaType
 author: windows-driver-content
 description: Retrieves an IMFMediaType representing a supported media type for the sensor stream.
 old-location: mf\imfsensorstream_getmediatype.htm
 old-project: medfound
 ms.assetid: 510AD624-F212-4FD7-BF30-A5C90CFA23C5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetMediaType method [Media Foundation], GetMediaType method [Media Foundation], IMFSensorStream interface, GetMediaType,IMFSensorStream.GetMediaType, IMFSensorStream, IMFSensorStream interface [Media Foundation], GetMediaType method, IMFSensorStream::GetMediaType, mf.imfsensorstream_getmediatype, mfidl/IMFSensorStream::GetMediaType
+ms.date: 5/3/2018
+ms.keywords: GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFSensorStream interface, IMFSensorStream interface [Media Foundation],GetMediaType method, IMFSensorStream.GetMediaType, IMFSensorStream::GetMediaType, mf.imfsensorstream_getmediatype, mfidl/IMFSensorStream::GetMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorStream::GetMediaType method
+# IMFSensorStream::GetMediaType
 
 
 ## -description

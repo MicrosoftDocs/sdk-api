@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSignal.GetSignalStrength
-title: IMbnSignal::GetSignalStrength method
+title: IMbnSignal::GetSignalStrength
 author: windows-driver-content
 description: Gets the signal strength received by the device.
 old-location: mbn\imbnsignal_getsignalstrength.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 9a580232-4cd2-42f4-a6c7-f777d78241b6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSignalStrength method [Microsoft Broadband Networks], GetSignalStrength method [Microsoft Broadband Networks], IMbnSignal interface, GetSignalStrength,IMbnSignal.GetSignalStrength, IMbnSignal, IMbnSignal interface [Microsoft Broadband Networks], GetSignalStrength method, IMbnSignal::GetSignalStrength, mbn.imbnsignal_getsignalstrength, mbnapi/IMbnSignal::GetSignalStrength
+ms.keywords: GetSignalStrength, GetSignalStrength method [Microsoft Broadband Networks], GetSignalStrength method [Microsoft Broadband Networks],IMbnSignal interface, IMbnSignal interface [Microsoft Broadband Networks],GetSignalStrength method, IMbnSignal.GetSignalStrength, IMbnSignal::GetSignalStrength, mbn.imbnsignal_getsignalstrength, mbnapi/IMbnSignal::GetSignalStrength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnSignal::GetSignalStrength method
+# IMbnSignal::GetSignalStrength
 
 
 ## -description

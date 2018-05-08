@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.SetTransportType
-title: IWMStreamConfig2::SetTransportType method
+title: IWMStreamConfig2::SetTransportType
 author: windows-driver-content
 description: The SetTransportType method sets the type of data communication protocol (reliable or unreliable) used for the stream.
 old-location: wmformat\iwmstreamconfig2_settransporttype.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 89958c80-2140-49ab-b696-189e8f722e96
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMStreamConfig2, IWMStreamConfig2 interface [windows Media Format], SetTransportType method, IWMStreamConfig2::SetTransportType, IWMStreamConfig2SetTransportType, SetTransportType method [windows Media Format], SetTransportType method [windows Media Format], IWMStreamConfig2 interface, SetTransportType,IWMStreamConfig2.SetTransportType, wmformat.iwmstreamconfig2_settransporttype, wmsdkidl/IWMStreamConfig2::SetTransportType
+ms.keywords: IWMStreamConfig2 interface [windows Media Format],SetTransportType method, IWMStreamConfig2.SetTransportType, IWMStreamConfig2::SetTransportType, IWMStreamConfig2SetTransportType, SetTransportType, SetTransportType method [windows Media Format], SetTransportType method [windows Media Format],IWMStreamConfig2 interface, wmformat.iwmstreamconfig2_settransporttype, wmsdkidl/IWMStreamConfig2::SetTransportType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamConfig2::SetTransportType method
+# IWMStreamConfig2::SetTransportType
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IContextState.GetDeactivateOnReturn
-title: IContextState::GetDeactivateOnReturn method
+title: IContextState::GetDeactivateOnReturn
 author: windows-driver-content
 description: Retrieves the value of the done flag.
 old-location: cos\icontextstate_getdeactivateonreturn.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 4e9623eb-1bf1-4649-9071-b731bf95a401
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetDeactivateOnReturn method [COM+], GetDeactivateOnReturn method [COM+], IContextState interface, GetDeactivateOnReturn,IContextState.GetDeactivateOnReturn, IContextState, IContextState interface [COM+], GetDeactivateOnReturn method, IContextState::GetDeactivateOnReturn, _cos_IContextState_GetDeactivateOnReturn, comsvcs/IContextState::GetDeactivateOnReturn, cos.icontextstate_getdeactivateonreturn
+ms.keywords: GetDeactivateOnReturn, GetDeactivateOnReturn method [COM+], GetDeactivateOnReturn method [COM+],IContextState interface, IContextState interface [COM+],GetDeactivateOnReturn method, IContextState.GetDeactivateOnReturn, IContextState::GetDeactivateOnReturn, _cos_IContextState_GetDeactivateOnReturn, comsvcs/IContextState::GetDeactivateOnReturn, cos.icontextstate_getdeactivateonreturn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IContextState::GetDeactivateOnReturn method
+# IContextState::GetDeactivateOnReturn
 
 
 ## -description

@@ -107,93 +107,93 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BY
 A <a href="https://msdn.microsoft.com/e8eae5e7-9240-47a5-851b-1ec51cb07b63">FWPM_PROVIDER_CONTEXT_TYPE</a> value specifying the type of provider context..
 
 
-### -field providerContextId
+### -field keyingPolicy
 
-LUID identifying the context.  This is the context value stored in the <b>FWPS_FILTER1</b> structure for filters that reference a provider context. The <b>FWPS_FILTER1</b> structure is documented in the WDK.
+Available when <b>type</b> is <b>FWPM_IPSEC_KEYING_CONTEXT</b>.
 
-
-#### - authIpMmPolicy
-
-Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_MM_CONTEXT</b>.
-
-See <a href="https://msdn.microsoft.com/0834b147-9892-4afe-a5c8-cb782918a868">IKEEXT_POLICY1</a> for more information.
+See <a href="https://msdn.microsoft.com/6eddafbf-ac57-419f-b2a0-f50a4ab31baf">IPSEC_KEYING_POLICY0</a> for more information.
 
 
-#### - authipQmTransportPolicy
-
-Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_QM_TRANSPORT_CONTEXT</b>.
-
-See <a href="https://msdn.microsoft.com/4ee39f30-f7fc-40a9-92b0-e059cb9b84a2">IPSEC_TRANSPORT_POLICY1</a> for more information.
-
-
-#### - authipQmTunnelPolicy
-
-Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_QM_TUNNEL_CONTEXT</b>.
-
-See <a href="https://msdn.microsoft.com/b51d330f-3f10-43e2-9018-eb6fd35ffe25">IPSEC_TUNNEL_POLICY1</a> for more information.
-
-
-#### - classifyOptions
-
-Available when <b>type</b> is <b>FWPM_CLASSIFY_OPTIONS_CONTEXT</b>.
-
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff550079">FWPM_CLASSIFY_OPTIONS0</a> for more information.
-
-
-#### - dataBuffer
-
-Available when <b>type</b> is <b>FWPM_GENERAL_CONTEXT</b>.
-
-See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> for more information.
-
-
-#### - idpOptions
-
-Available when <b>type</b> is <b>FWPM_IPSEC_DOSP_CONTEXT</b>.
-
-See <a href="https://msdn.microsoft.com/7f180a05-ce8a-4f3b-8e97-d0b6f7f9f8ca">IPSEC_DOSP_OPTIONS0</a> for more information.
-
-
-#### - ikeMmPolicy
-
-Available when <b>type</b> is <b>FWPM_IPSEC_IKE_MM_CONTEXT</b>.
-
-See <a href="https://msdn.microsoft.com/0834b147-9892-4afe-a5c8-cb782918a868">IKEEXT_POLICY1</a> for more information.
-
-
-#### - ikeQmTransportPolicy
+### -field ikeQmTransportPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_IKE_QM_TRANSPORT_CONTEXT</b>.
 
 See <a href="https://msdn.microsoft.com/4ee39f30-f7fc-40a9-92b0-e059cb9b84a2">IPSEC_TRANSPORT_POLICY1</a> for more information.
 
 
-#### - ikeQmTunnelPolicy
+### -field ikeQmTunnelPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_IKE_QM_TUNNEL_CONTEXT</b>.
 
 See <a href="https://msdn.microsoft.com/b51d330f-3f10-43e2-9018-eb6fd35ffe25">IPSEC_TUNNEL_POLICY1</a> for more information.
 
 
-#### - ikeV2MmPolicy
+### -field authipQmTransportPolicy
 
-Available when <b>type</b> is <b>FWPM_IPSEC_IKEV2_MM_CONTEXT</b>.
+Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_QM_TRANSPORT_CONTEXT</b>.
+
+See <a href="https://msdn.microsoft.com/4ee39f30-f7fc-40a9-92b0-e059cb9b84a2">IPSEC_TRANSPORT_POLICY1</a> for more information.
+
+
+### -field authipQmTunnelPolicy
+
+Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_QM_TUNNEL_CONTEXT</b>.
+
+See <a href="https://msdn.microsoft.com/b51d330f-3f10-43e2-9018-eb6fd35ffe25">IPSEC_TUNNEL_POLICY1</a> for more information.
+
+
+### -field ikeMmPolicy
+
+Available when <b>type</b> is <b>FWPM_IPSEC_IKE_MM_CONTEXT</b>.
 
 See <a href="https://msdn.microsoft.com/0834b147-9892-4afe-a5c8-cb782918a868">IKEEXT_POLICY1</a> for more information.
 
 
-#### - ikeV2QmTunnelPolicy
+### -field authIpMmPolicy
+
+Available when <b>type</b> is <b>FWPM_IPSEC_AUTHIP_MM_CONTEXT</b>.
+
+See <a href="https://msdn.microsoft.com/0834b147-9892-4afe-a5c8-cb782918a868">IKEEXT_POLICY1</a> for more information.
+
+
+### -field dataBuffer
+
+Available when <b>type</b> is <b>FWPM_GENERAL_CONTEXT</b>.
+
+See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a> for more information.
+
+
+### -field classifyOptions
+
+Available when <b>type</b> is <b>FWPM_CLASSIFY_OPTIONS_CONTEXT</b>.
+
+See <a href="https://msdn.microsoft.com/library/windows/hardware/ff550079">FWPM_CLASSIFY_OPTIONS0</a> for more information.
+
+
+### -field ikeV2QmTunnelPolicy
 
 Available when <b>type</b> is <b>FWPM_IPSEC_IKEV2_QM_TUNNEL_CONTEXT</b>.
 
 See <a href="https://msdn.microsoft.com/b51d330f-3f10-43e2-9018-eb6fd35ffe25">IPSEC_TUNNEL_POLICY1</a> for more information.
 
 
-#### - keyingPolicy
+### -field ikeV2MmPolicy
 
-Available when <b>type</b> is <b>FWPM_IPSEC_KEYING_CONTEXT</b>.
+Available when <b>type</b> is <b>FWPM_IPSEC_IKEV2_MM_CONTEXT</b>.
 
-See <a href="https://msdn.microsoft.com/6eddafbf-ac57-419f-b2a0-f50a4ab31baf">IPSEC_KEYING_POLICY0</a> for more information.
+See <a href="https://msdn.microsoft.com/0834b147-9892-4afe-a5c8-cb782918a868">IKEEXT_POLICY1</a> for more information.
+
+
+### -field idpOptions
+
+Available when <b>type</b> is <b>FWPM_IPSEC_DOSP_CONTEXT</b>.
+
+See <a href="https://msdn.microsoft.com/7f180a05-ce8a-4f3b-8e97-d0b6f7f9f8ca">IPSEC_DOSP_OPTIONS0</a> for more information.
+
+
+### -field providerContextId
+
+LUID identifying the context.  This is the context value stored in the <b>FWPS_FILTER1</b> structure for filters that reference a provider context. The <b>FWPS_FILTER1</b> structure is documented in the WDK.
 
 
 ## -remarks

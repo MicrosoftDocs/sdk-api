@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: da8b6289-379e-4dff-b15a-b0967f245c3d
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IPolicyQualifiers, IPolicyQualifiers interface [Security], IPolicyQualifiers interface [Security], described, certenroll/IPolicyQualifiers, security.ipolicyqualifiers
+ms.keywords: IPolicyQualifiers, IPolicyQualifiers interface [Security], IPolicyQualifiers interface [Security],described, certenroll/IPolicyQualifiers, security.ipolicyqualifiers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

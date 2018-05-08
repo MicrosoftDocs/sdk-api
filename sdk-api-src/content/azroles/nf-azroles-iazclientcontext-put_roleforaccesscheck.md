@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.put_RoleForAccessCheck
-title: IAzClientContext::put_RoleForAccessCheck method
+title: IAzClientContext::put_RoleForAccessCheck
 author: windows-driver-content
 description: Sets or retrieves the role that is used to perform the access check.
 old-location: security\iazclientcontext_roleforaccesscheck.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 817b3693-b989-431c-a8b3-bdeeb0367dc6
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzClientContext object [Security], RoleForAccessCheck property, IAzClientContext, IAzClientContext interface [Security], RoleForAccessCheck property, IAzClientContext.RoleForAccessCheck, IAzClientContext::get_RoleForAccessCheck, IAzClientContext::put_RoleForAccessCheck, RoleForAccessCheck property [Security], RoleForAccessCheck property [Security], AzClientContext object, RoleForAccessCheck property [Security], IAzClientContext interface, azroles/IAzClientContext::RoleForAccessCheck, azroles/IAzClientContext::get_RoleForAccessCheck, azroles/IAzClientContext::put_RoleForAccessCheck, put_RoleForAccessCheck,IAzClientContext.put_RoleForAccessCheck, security.iazclientcontext_roleforaccesscheck
+ms.keywords: AzClientContext object [Security],RoleForAccessCheck property, IAzClientContext interface [Security],RoleForAccessCheck property, IAzClientContext.RoleForAccessCheck, IAzClientContext.put_RoleForAccessCheck, IAzClientContext::RoleForAccessCheck, IAzClientContext::get_RoleForAccessCheck, IAzClientContext::put_RoleForAccessCheck, RoleForAccessCheck property [Security], RoleForAccessCheck property [Security],AzClientContext object, RoleForAccessCheck property [Security],IAzClientContext interface, azroles/IAzClientContext::RoleForAccessCheck, azroles/IAzClientContext::get_RoleForAccessCheck, azroles/IAzClientContext::put_RoleForAccessCheck, put_RoleForAccessCheck, security.iazclientcontext_roleforaccesscheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzClientContext::put_RoleForAccessCheck method
+# IAzClientContext::put_RoleForAccessCheck
 
 
 ## -description

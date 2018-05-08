@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.IsUsingFastCache
-title: IWMReaderAdvanced4::IsUsingFastCache method
+title: IWMReaderAdvanced4::IsUsingFastCache
 author: windows-driver-content
 description: The IsUsingFastCache method queries whether the reader is using Fast Cache streaming.
 old-location: wmformat\iwmreaderadvanced4_isusingfastcache.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 29d8d12c-db4c-4c2c-8747-30c8a5577f43
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced4, IWMReaderAdvanced4 interface [windows Media Format], IsUsingFastCache method, IWMReaderAdvanced4::IsUsingFastCache, IWMReaderAdvanced4IsUsingFastCache, IsUsingFastCache method [windows Media Format], IsUsingFastCache method [windows Media Format], IWMReaderAdvanced4 interface, IsUsingFastCache,IWMReaderAdvanced4.IsUsingFastCache, wmformat.iwmreaderadvanced4_isusingfastcache, wmsdkidl/IWMReaderAdvanced4::IsUsingFastCache
+ms.keywords: IWMReaderAdvanced4 interface [windows Media Format],IsUsingFastCache method, IWMReaderAdvanced4.IsUsingFastCache, IWMReaderAdvanced4::IsUsingFastCache, IWMReaderAdvanced4IsUsingFastCache, IsUsingFastCache, IsUsingFastCache method [windows Media Format], IsUsingFastCache method [windows Media Format],IWMReaderAdvanced4 interface, wmformat.iwmreaderadvanced4_isusingfastcache, wmsdkidl/IWMReaderAdvanced4::IsUsingFastCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced4::IsUsingFastCache method
+# IWMReaderAdvanced4::IsUsingFastCache
 
 
 ## -description

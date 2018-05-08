@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice3.DeviceIoControl
-title: IMDSPDevice3::DeviceIoControl method
+title: IMDSPDevice3::DeviceIoControl
 author: windows-driver-content
 description: The DeviceIoControl method calls the device I/O control.
 old-location: wmdm\imdspdevice3_deviceiocontrol.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 1f41c3f9-8eb6-4d51-87f9-c8b035a73cce
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: DeviceIoControl method [windows Media Device Manager], DeviceIoControl method [windows Media Device Manager], IMDSPDevice3 interface, DeviceIoControl,IMDSPDevice3.DeviceIoControl, IMDSPDevice3, IMDSPDevice3 interface [windows Media Device Manager], DeviceIoControl method, IMDSPDevice3::DeviceIoControl, IMDSPDevice3DeviceIoControl, mswmdm/IMDSPDevice3::DeviceIoControl, wmdm.imdspdevice3_deviceiocontrol
+ms.keywords: DeviceIoControl, DeviceIoControl method [windows Media Device Manager], DeviceIoControl method [windows Media Device Manager],IMDSPDevice3 interface, IMDSPDevice3 interface [windows Media Device Manager],DeviceIoControl method, IMDSPDevice3.DeviceIoControl, IMDSPDevice3::DeviceIoControl, IMDSPDevice3DeviceIoControl, mswmdm/IMDSPDevice3::DeviceIoControl, wmdm.imdspdevice3_deviceiocontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPDevice3::DeviceIoControl method
+# IMDSPDevice3::DeviceIoControl
 
 
 ## -description

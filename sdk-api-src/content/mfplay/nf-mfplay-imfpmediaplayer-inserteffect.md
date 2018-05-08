@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.InsertEffect
-title: IMFPMediaPlayer::InsertEffect method
+title: IMFPMediaPlayer::InsertEffect
 author: windows-driver-content
 description: Applies an audio or video effect to playback.
 old-location: mf\imfpmediaplayer_inserteffect.htm
 old-project: medfound
 ms.assetid: 2689ee46-5cfe-4616-850c-eb5aef340daa
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: FALSE, IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], InsertEffect method, IMFPMediaPlayer::InsertEffect, InsertEffect method [Media Foundation], InsertEffect method [Media Foundation], IMFPMediaPlayer interface, InsertEffect,IMFPMediaPlayer.InsertEffect, TRUE, mf.imfpmediaplayer_inserteffect, mfplay/IMFPMediaPlayer::InsertEffect
+ms.date: 5/3/2018
+ms.keywords: FALSE, IMFPMediaPlayer interface [Media Foundation],InsertEffect method, IMFPMediaPlayer.InsertEffect, IMFPMediaPlayer::InsertEffect, InsertEffect, InsertEffect method [Media Foundation], InsertEffect method [Media Foundation],IMFPMediaPlayer interface, TRUE, mf.imfpmediaplayer_inserteffect, mfplay/IMFPMediaPlayer::InsertEffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::InsertEffect method
+# IMFPMediaPlayer::InsertEffect
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderFactory.CreatePropertyStore
-title: IFunctionDiscoveryProviderFactory::CreatePropertyStore method
+title: IFunctionDiscoveryProviderFactory::CreatePropertyStore
 author: windows-driver-content
 description: Enables providers to reuse the in-memory property store implementation.
 old-location: ncd\ifunctiondiscoveryproviderfactory_createpropertystore.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 668d0a70-a0c1-4e43-a258-5221e3fe28a1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreatePropertyStore method, CreatePropertyStore method, IFunctionDiscoveryProviderFactory interface, CreatePropertyStore,IFunctionDiscoveryProviderFactory.CreatePropertyStore, IFunctionDiscoveryProviderFactory, IFunctionDiscoveryProviderFactory interface, CreatePropertyStore method, IFunctionDiscoveryProviderFactory::CreatePropertyStore, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreatePropertyStore, ncd.ifunctiondiscoveryproviderfactory_createpropertystore
+ms.keywords: CreatePropertyStore, CreatePropertyStore method, CreatePropertyStore method,IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,CreatePropertyStore method, IFunctionDiscoveryProviderFactory.CreatePropertyStore, IFunctionDiscoveryProviderFactory::CreatePropertyStore, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory::CreatePropertyStore, ncd.ifunctiondiscoveryproviderfactory_createpropertystore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionDiscoveryProviderFactory::CreatePropertyStore method
+# IFunctionDiscoveryProviderFactory::CreatePropertyStore
 
 
 ## -description

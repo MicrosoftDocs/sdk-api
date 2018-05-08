@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetRecordServiceIdByIndex
-title: IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex method
+title: IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex
 author: windows-driver-content
 description: Gets a service identifier from a specified service record in an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor_getrecordserviceidbyindex.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 40738938-226d-4220-8092-a029bd6c038d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRecordServiceIdByIndex method [Microsoft TV Technologies], GetRecordServiceIdByIndex method [Microsoft TV Technologies], IIsdbTSInformationDescriptor interface, GetRecordServiceIdByIndex,IIsdbTSInformationDescriptor.GetRecordServiceIdByIndex, IIsdbTSInformationDescriptor, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies], GetRecordServiceIdByIndex method, IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex, dvbsiparser/IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex, mstv.iisdbtsinformationdescriptor_getrecordserviceidbyindex
+ms.keywords: GetRecordServiceIdByIndex, GetRecordServiceIdByIndex method [Microsoft TV Technologies], GetRecordServiceIdByIndex method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetRecordServiceIdByIndex method, IIsdbTSInformationDescriptor.GetRecordServiceIdByIndex, IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex, dvbsiparser/IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex, mstv.iisdbtsinformationdescriptor_getrecordserviceidbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex method
+# IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex
 
 
 ## -description

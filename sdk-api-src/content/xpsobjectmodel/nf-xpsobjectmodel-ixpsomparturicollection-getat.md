@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.GetAt
-title: IXpsOMPartUriCollection::GetAt method
+title: IXpsOMPartUriCollection::GetAt
 author: windows-driver-content
 description: Gets an IOpcPartUri interface pointer from a specified location in the collection.
 old-location: xps\ixpsomparturicollection_getat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 9d7fcc13-13f5-494d-b6b2-d1180902ec08
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging], IXpsOMPartUriCollection interface, GetAt,IXpsOMPartUriCollection.GetAt, IXpsOMPartUriCollection, IXpsOMPartUriCollection interface [XPS Documents and Packaging], GetAt method, IXpsOMPartUriCollection::GetAt, xps.ixpsomparturicollection_getat, xpsobjectmodel/IXpsOMPartUriCollection::GetAt
+ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, IXpsOMPartUriCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMPartUriCollection.GetAt, IXpsOMPartUriCollection::GetAt, xps.ixpsomparturicollection_getat, xpsobjectmodel/IXpsOMPartUriCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPartUriCollection::GetAt method
+# IXpsOMPartUriCollection::GetAt
 
 
 ## -description

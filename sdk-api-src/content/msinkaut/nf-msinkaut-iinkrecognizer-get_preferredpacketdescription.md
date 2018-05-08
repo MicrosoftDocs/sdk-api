@@ -1,14 +1,14 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_PreferredPacketDescription
-title: IInkRecognizer::get_PreferredPacketDescription method
+title: IInkRecognizer::get_PreferredPacketDescription
 author: windows-driver-content
 description: Gets an array of globally unique identifiers (GUIDs) that represents the preferred packet properties for the recognizer.
 old-location: tablet\iinkrecognizer_preferredpacketdescription.htm
 old-project: tablet
 ms.assetid: 3486f667-a050-4063-99bf-09865d6edbda
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 3486f667-a050-4063-99bf-09865d6edbda, IInkRecognizer, IInkRecognizer interface [Tablet PC], PreferredPacketDescription property, IInkRecognizer.PreferredPacketDescription, IInkRecognizer.get_PreferredPacketDescription, IInkRecognizer::get_PreferredPacketDescription, PreferredPacketDescription property [Tablet PC], PreferredPacketDescription property [Tablet PC], IInkRecognizer interface, get_PreferredPacketDescription,IInkRecognizer.get_PreferredPacketDescription, msinkaut/IInkRecognizer::PreferredPacketDescription, msinkaut/IInkRecognizer::get_PreferredPacketDescription, tablet.iinkrecognizer_preferredpacketdescription
+ms.date: 5/2/2018
+ms.keywords: 3486f667-a050-4063-99bf-09865d6edbda, IInkRecognizer interface [Tablet PC],PreferredPacketDescription property, IInkRecognizer.PreferredPacketDescription, IInkRecognizer.get_PreferredPacketDescription, IInkRecognizer::PreferredPacketDescription, IInkRecognizer::get_PreferredPacketDescription, PreferredPacketDescription property [Tablet PC], PreferredPacketDescription property [Tablet PC],IInkRecognizer interface, get_PreferredPacketDescription, msinkaut/IInkRecognizer::PreferredPacketDescription, msinkaut/IInkRecognizer::get_PreferredPacketDescription, tablet.iinkrecognizer_preferredpacketdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInkRecognizer::get_PreferredPacketDescription method
+# IInkRecognizer::get_PreferredPacketDescription
 
 
 ## -description

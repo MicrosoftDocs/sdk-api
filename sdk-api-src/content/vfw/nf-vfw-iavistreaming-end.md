@@ -1,14 +1,14 @@
 ---
 UID: NF:vfw.IAVIStreaming.End
-title: IAVIStreaming::End method
+title: IAVIStreaming::End
 author: windows-driver-content
 description: The End method ends the streaming operation. Called when an application uses the AVIStreamEndStreaming function.
 old-location: multimedia\iavistreaming_end.htm
 old-project: Multimedia
 ms.assetid: 5db48b61-5926-41fb-9d0d-f39cba6deec9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: End method [Windows Multimedia], End method [Windows Multimedia], IAVIStreaming interface, End,IAVIStreaming.End, IAVIStreaming, IAVIStreaming interface [Windows Multimedia], End method, IAVIStreaming::End, _win32_IAVIStreaming_End, multimedia.iavistreaming_end, vfw/IAVIStreaming::End
+ms.date: 5/4/2018
+ms.keywords: End, End method [Windows Multimedia], End method [Windows Multimedia],IAVIStreaming interface, IAVIStreaming interface [Windows Multimedia],End method, IAVIStreaming.End, IAVIStreaming::End, _win32_IAVIStreaming_End, multimedia.iavistreaming_end, vfw/IAVIStreaming::End
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IAVIStreaming::End method
+# IAVIStreaming::End
 
 
 ## -description

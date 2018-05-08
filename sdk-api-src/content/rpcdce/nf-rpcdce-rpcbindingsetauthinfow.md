@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingsetauthinfo.htm
 old-project: Rpc
 ms.assetid: 2db946b6-6a0d-402c-89ef-68c7489aa7ee
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcBindingSetAuthInfo, RpcBindingSetAuthInfo function [RPC], RpcBindingSetAuthInfoA, RpcBindingSetAuthInfoW, _rpc_rpcbindingsetauthinfo, rpc.rpcbindingsetauthinfo, rpcdce/RpcBindingSetAuthInfo, rpcdce/RpcBindingSetAuthInfoA, rpcdce/RpcBindingSetAuthInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

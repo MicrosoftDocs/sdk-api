@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetSeekPositionForValue
-title: IMFASFIndexer::GetSeekPositionForValue method
+title: IMFASFIndexer::GetSeekPositionForValue
 author: windows-driver-content
 description: Given a desired seek time, gets the offset from which the client should start reading data.
 old-location: mf\imfasfindexer_getseekpositionforvalue.htm
 old-project: medfound
 ms.assetid: c8e9982e-b056-48dc-ac5f-20bf65b475ec
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetSeekPositionForValue method [Media Foundation], GetSeekPositionForValue method [Media Foundation], IMFASFIndexer interface, GetSeekPositionForValue,IMFASFIndexer.GetSeekPositionForValue, IMFASFIndexer, IMFASFIndexer interface [Media Foundation], GetSeekPositionForValue method, IMFASFIndexer::GetSeekPositionForValue, c8e9982e-b056-48dc-ac5f-20bf65b475ec, mf.imfasfindexer_getseekpositionforvalue, wmcontainer/IMFASFIndexer::GetSeekPositionForValue
+ms.date: 5/3/2018
+ms.keywords: GetSeekPositionForValue, GetSeekPositionForValue method [Media Foundation], GetSeekPositionForValue method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetSeekPositionForValue method, IMFASFIndexer.GetSeekPositionForValue, IMFASFIndexer::GetSeekPositionForValue, c8e9982e-b056-48dc-ac5f-20bf65b475ec, mf.imfasfindexer_getseekpositionforvalue, wmcontainer/IMFASFIndexer::GetSeekPositionForValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFIndexer::GetSeekPositionForValue method
+# IMFASFIndexer::GetSeekPositionForValue
 
 
 ## -description

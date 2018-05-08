@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GSGetShaderResources
-title: ID3D11DeviceContext::GSGetShaderResources method
+title: ID3D11DeviceContext::GSGetShaderResources
 author: windows-driver-content
 description: Get the geometry shader resources.
 old-location: direct3d11\id3d11devicecontext_gsgetshaderresources.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 2b81a09d-678d-42f8-8935-6d167509fcbb
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GSGetShaderResources method [Direct3D 11], GSGetShaderResources method [Direct3D 11], ID3D11DeviceContext interface, GSGetShaderResources,ID3D11DeviceContext.GSGetShaderResources, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], GSGetShaderResources method, ID3D11DeviceContext::GSGetShaderResources, c6b8b8fc-6738-6d1a-fb77-fce217b9c9a0, d3d11/ID3D11DeviceContext::GSGetShaderResources, direct3d11.id3d11devicecontext_gsgetshaderresources
+ms.keywords: GSGetShaderResources, GSGetShaderResources method [Direct3D 11], GSGetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GSGetShaderResources method, ID3D11DeviceContext.GSGetShaderResources, ID3D11DeviceContext::GSGetShaderResources, c6b8b8fc-6738-6d1a-fb77-fce217b9c9a0, d3d11/ID3D11DeviceContext::GSGetShaderResources, direct3d11.id3d11devicecontext_gsgetshaderresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::GSGetShaderResources method
+# ID3D11DeviceContext::GSGetShaderResources
 
 
 ## -description

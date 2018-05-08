@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.PlaceMarker
-title: IMFSinkWriter::PlaceMarker method
+title: IMFSinkWriter::PlaceMarker
 author: windows-driver-content
 description: Places a marker in the specified stream.
 old-location: mf\imfsinkwriter_placemarker.htm
 old-project: medfound
 ms.assetid: 93140993-a926-437e-bc40-9b011c4c6832
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSinkWriter, IMFSinkWriter interface [Media Foundation], PlaceMarker method, IMFSinkWriter::PlaceMarker, PlaceMarker method [Media Foundation], PlaceMarker method [Media Foundation], IMFSinkWriter interface, PlaceMarker,IMFSinkWriter.PlaceMarker, mf.imfsinkwriter_placemarker, mfreadwrite/IMFSinkWriter::PlaceMarker
+ms.date: 5/3/2018
+ms.keywords: IMFSinkWriter interface [Media Foundation],PlaceMarker method, IMFSinkWriter.PlaceMarker, IMFSinkWriter::PlaceMarker, PlaceMarker, PlaceMarker method [Media Foundation], PlaceMarker method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_placemarker, mfreadwrite/IMFSinkWriter::PlaceMarker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSinkWriter::PlaceMarker method
+# IMFSinkWriter::PlaceMarker
 
 
 ## -description

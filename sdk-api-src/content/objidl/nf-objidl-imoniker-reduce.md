@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.Reduce
-title: IMoniker::Reduce method
+title: IMoniker::Reduce
 author: windows-driver-content
 description: Reduces a moniker to its simplest form.
 old-location: com\imoniker_reduce.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 1d34da7b-e6cb-4daa-a155-45beb36e035b
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMoniker, IMoniker interface [COM], Reduce method, IMoniker::Reduce, Reduce method [COM], Reduce method [COM], IMoniker interface, Reduce,IMoniker.Reduce, _com_imoniker_reduce, com.imoniker_reduce, objidl/IMoniker::Reduce
+ms.keywords: IMoniker interface [COM],Reduce method, IMoniker.Reduce, IMoniker::Reduce, Reduce, Reduce method [COM], Reduce method [COM],IMoniker interface, _com_imoniker_reduce, com.imoniker_reduce, objidl/IMoniker::Reduce
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMoniker::Reduce method
+# IMoniker::Reduce
 
 
 ## -description

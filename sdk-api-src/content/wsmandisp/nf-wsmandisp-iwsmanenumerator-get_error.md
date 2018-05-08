@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEnumerator.get_Error
-title: IWSManEnumerator::get_Error method
+title: IWSManEnumerator::get_Error
 author: windows-driver-content
 description: Gets an XML representation of additional error information.
 old-location: winrm\iwsmanenumerator_error.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 21157b6b-3cbd-4fe5-8df0-470b2a2c87d7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management], IWSManEnumerator interface, IWSManEnumerator, IWSManEnumerator interface [Windows Remote Management], Error property, IWSManEnumerator.Error, IWSManEnumerator::get_Error, get_Error,IWSManEnumerator.get_Error, winrm.iwsmanenumerator_error, wsmandisp/IWSManEnumerator::Error, wsmandisp/IWSManEnumerator::get_Error
+ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSManEnumerator interface, IWSManEnumerator interface [Windows Remote Management],Error property, IWSManEnumerator.Error, IWSManEnumerator.get_Error, IWSManEnumerator::Error, IWSManEnumerator::get_Error, get_Error, winrm.iwsmanenumerator_error, wsmandisp/IWSManEnumerator::Error, wsmandisp/IWSManEnumerator::get_Error
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEnumerator::get_Error method
+# IWSManEnumerator::get_Error
 
 
 ## -description

@@ -58,14 +58,12 @@ The
 
 
 
-
-
-#### - rgBytes
-
-Address of a Bluetooth device, expressed as an array of bytes.
-
-
-#### - ullLong
+### -field ullLong
 
 Address of a Bluetooth device.
+
+
+### -field rgBytes
+
+Address of a Bluetooth device, expressed as an array of bytes.
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.IUIManagerEventSink.OnWindowUpdating
-title: IUIManagerEventSink::OnWindowUpdating method
+title: IUIManagerEventSink::OnWindowUpdating
 author: windows-driver-content
 description: Called by the TSF before resizing and/or relocating the opened IME UI.
 old-location: tsf\iuimanagereventsink_onwindowupdating.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: BCCE292C-8A74-4DBA-965D-15249E2EA547
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IUIManagerEventSink, IUIManagerEventSink interface [Text Services Framework], OnWindowUpdating method, IUIManagerEventSink::OnWindowUpdating, OnWindowUpdating method [Text Services Framework], OnWindowUpdating method [Text Services Framework], IUIManagerEventSink interface, OnWindowUpdating,IUIManagerEventSink.OnWindowUpdating, ctffunc/IUIManagerEventSink::OnWindowUpdating, tsf.iuimanagereventsink_onwindowupdating
+ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowUpdating method, IUIManagerEventSink.OnWindowUpdating, IUIManagerEventSink::OnWindowUpdating, OnWindowUpdating, OnWindowUpdating method [Text Services Framework], OnWindowUpdating method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowUpdating, tsf.iuimanagereventsink_onwindowupdating
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IUIManagerEventSink::OnWindowUpdating method
+# IUIManagerEventSink::OnWindowUpdating
 
 
 ## -description

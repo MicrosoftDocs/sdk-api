@@ -7,7 +7,7 @@ old-location: rpc\rpcserverinterfacegroupinqbindings.htm
 old-project: Rpc
 ms.assetid: 90535A05-9835-45F2-A62F-718736A80ED3
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcServerInterfaceGroupInqBindings, RpcServerInterfaceGroupInqBindings function [RPC], rpc.rpcserverinterfacegroupinqbindings, rpcdce/RpcServerInterfaceGroupInqBindings
 ms.prod: windows-hardware
 ms.technology: windows-devices

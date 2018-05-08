@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataObject.DUnadvise
-title: IDataObject::DUnadvise method
+title: IDataObject::DUnadvise
 author: windows-driver-content
 description: Destroys a notification connection that had been previously set up.
 old-location: com\idataobject_dunadvise.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: bb9ae4c5-8655-4553-9a1c-ce52c6c86299
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: DUnadvise method [COM], DUnadvise method [COM], IDataObject interface, DUnadvise,IDataObject.DUnadvise, IDataObject, IDataObject interface [COM], DUnadvise method, IDataObject::DUnadvise, _ole_idataobject_dunadvise, com.idataobject_dunadvise, objidl/IDataObject::DUnadvise
+ms.keywords: DUnadvise, DUnadvise method [COM], DUnadvise method [COM],IDataObject interface, IDataObject interface [COM],DUnadvise method, IDataObject.DUnadvise, IDataObject::DUnadvise, _ole_idataobject_dunadvise, com.idataobject_dunadvise, objidl/IDataObject::DUnadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataObject::DUnadvise method
+# IDataObject::DUnadvise
 
 
 ## -description

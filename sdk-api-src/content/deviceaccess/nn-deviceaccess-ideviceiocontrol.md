@@ -8,7 +8,7 @@ old-project: deviceaccess
 ms.assetid: d285e04e-04d0-4c2a-b9f0-72eebebf4f4b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDeviceIoControl, IDeviceIoControl interface [Device Access Broker API], IDeviceIoControl interface [Device Access Broker API], described, deviceaccess.ideviceiocontrol, deviceaccess/IDeviceIoControl
+ms.keywords: IDeviceIoControl, IDeviceIoControl interface [Device Access Broker API], IDeviceIoControl interface [Device Access Broker API],described, deviceaccess.ideviceiocontrol, deviceaccess/IDeviceIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

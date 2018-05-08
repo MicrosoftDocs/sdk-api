@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetCustomObjectEnumerator
-title: IXpsSignature::GetCustomObjectEnumerator method
+title: IXpsSignature::GetCustomObjectEnumerator
 author: windows-driver-content
 description: Gets a pointer to an IOpcSignatureCustomObjectEnumerator interface, which enumerates the custom objects of the signature.
 old-location: xps\ixpssignature_getcustomobjectenumerator.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 98a656c7-714b-4b59-9289-e78dee795eaa
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCustomObjectEnumerator method [XPS Documents and Packaging], GetCustomObjectEnumerator method [XPS Documents and Packaging], IXpsSignature interface, GetCustomObjectEnumerator,IXpsSignature.GetCustomObjectEnumerator, IXpsSignature, IXpsSignature interface [XPS Documents and Packaging], GetCustomObjectEnumerator method, IXpsSignature::GetCustomObjectEnumerator, xps.ixpssignature_getcustomobjectenumerator, xpsdigitalsignature/IXpsSignature::GetCustomObjectEnumerator
+ms.keywords: GetCustomObjectEnumerator, GetCustomObjectEnumerator method [XPS Documents and Packaging], GetCustomObjectEnumerator method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetCustomObjectEnumerator method, IXpsSignature.GetCustomObjectEnumerator, IXpsSignature::GetCustomObjectEnumerator, xps.ixpssignature_getcustomobjectenumerator, xpsdigitalsignature/IXpsSignature::GetCustomObjectEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignature::GetCustomObjectEnumerator method
+# IXpsSignature::GetCustomObjectEnumerator
 
 
 ## -description

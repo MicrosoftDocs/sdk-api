@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: a9035a10-2078-4626-8386-f9298526dfb7
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPropertyPageSite, IPropertyPageSite interface [COM], IPropertyPageSite interface [COM], described, _ctrl_ipropertypagesite, com.ipropertypagesite, ocidl/IPropertyPageSite
+ms.keywords: IPropertyPageSite, IPropertyPageSite interface [COM], IPropertyPageSite interface [COM],described, _ctrl_ipropertypagesite, com.ipropertypagesite, ocidl/IPropertyPageSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

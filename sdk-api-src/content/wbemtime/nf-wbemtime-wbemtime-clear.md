@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.Clear
-title: WBEMTime::Clear method
+title: WBEMTime::Clear
 author: windows-driver-content
 description: The Clear method sets the time in the WBEMTime object to an invalid time.
 old-location: wmi\wbemtime_clear.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: a6b3db6c-1cc8-4058-8d8b-c8126a373130
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Clear method [Windows Management Instrumentation], Clear method [Windows Management Instrumentation], WBEMTime interface, Clear,WBEMTime.Clear, WBEMTime, WBEMTime interface [Windows Management Instrumentation], Clear method, WBEMTime::Clear, _hmm_wbemtime_clear, wbemtime/WBEMTime::Clear, wmi.wbemtime_clear
+ms.keywords: Clear, Clear method [Windows Management Instrumentation], Clear method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],Clear method, WBEMTime.Clear, WBEMTime::Clear, _hmm_wbemtime_clear, wbemtime/WBEMTime::Clear, wmi.wbemtime_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WBEMTime::Clear method
+# WBEMTime::Clear
 
 
 ## -description

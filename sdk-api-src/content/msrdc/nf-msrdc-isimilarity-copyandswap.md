@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarity.CopyAndSwap
-title: ISimilarity::CopyAndSwap method
+title: ISimilarity::CopyAndSwap
 author: windows-driver-content
 description: Creates copies of an existing similarity traits table and an existing similarity file ID table, swaps the internal pointers, and deletes the existing tables.
 old-location: rdc\isimilarity_copyandswap.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 3a31530e-da6d-4ac8-9fd4-d91419777ce5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CopyAndSwap method [Remote Differential Compression], CopyAndSwap method [Remote Differential Compression], ISimilarity interface, CopyAndSwap,ISimilarity.CopyAndSwap, ISimilarity, ISimilarity interface [Remote Differential Compression], CopyAndSwap method, ISimilarity::CopyAndSwap, fs.isimilarity_copyandswap, msrdc/ISimilarity::CopyAndSwap, rdc.isimilarity_copyandswap
+ms.keywords: CopyAndSwap, CopyAndSwap method [Remote Differential Compression], CopyAndSwap method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],CopyAndSwap method, ISimilarity.CopyAndSwap, ISimilarity::CopyAndSwap, fs.isimilarity_copyandswap, msrdc/ISimilarity::CopyAndSwap, rdc.isimilarity_copyandswap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISimilarity::CopyAndSwap method
+# ISimilarity::CopyAndSwap
 
 
 ## -description

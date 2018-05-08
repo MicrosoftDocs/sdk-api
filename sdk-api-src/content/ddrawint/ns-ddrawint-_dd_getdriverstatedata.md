@@ -115,6 +115,16 @@ D3DDEVINFOID_VCACHE
  
 
 
+### -field lpDD
+
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550586">DD_DIRECTDRAW_GLOBAL</a> structure describing the device.
+
+
+### -field dwhContext
+
+Specifies the ID of the context that information is being requested for.
+
+
 ### -field lpdwStates
 
 Points to the Direct3D driver state data to be filled in by the driver. If, for example, D3DDEVINFOID_VCACHE is specified in the <b>dwFlags</b> member, the driver points the <b>lpdwStates</b> member to a D3DDEVINFO_VCACHE structure that contains vertex-cache information. 
@@ -128,16 +138,6 @@ Specifies the length, in bytes, of the state data to be filled in by the driver.
 ### -field ddRVal
 
 Specifies the location where the driver writes the return value of the <a href="https://msdn.microsoft.com/6e1b0bce-1ac5-46e7-ae25-b0d3ce8580a0">D3dGetDriverState</a> callback. A return code of D3D_OK indicates success. For more information, see <a href="https://msdn.microsoft.com/033beb6e-5872-4cb3-8f39-459e2fff82cd">Return Codes for Direct3D Driver Callbacks</a>.
-
-
-#### - dwhContext
-
-Specifies the ID of the context that information is being requested for.
-
-
-#### - lpDD
-
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550586">DD_DIRECTDRAW_GLOBAL</a> structure describing the device.
 
 
 ## -remarks

@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetParentSite
-title: IBrowserService::GetParentSite method
+title: IBrowserService::GetParentSite
 author: windows-driver-content
 description: Deprecated. Retrieves the browser parent's in-place client site.
 old-location: shell\IBrowserService_GetParentSite.htm
 old-project: shell
 ms.assetid: 91d031ae-1451-4379-9d8e-baddefd30435
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetParentSite method [Windows Shell], GetParentSite method [Windows Shell], IBrowserService interface, GetParentSite,IBrowserService.GetParentSite, IBrowserService, IBrowserService interface [Windows Shell], GetParentSite method, IBrowserService::GetParentSite, shdeprecated/IBrowserService::GetParentSite, shell.IBrowserService_GetParentSite, zone_IBrowserService_GetParentSite
+ms.date: 5/3/2018
+ms.keywords: GetParentSite, GetParentSite method [Windows Shell], GetParentSite method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetParentSite method, IBrowserService.GetParentSite, IBrowserService::GetParentSite, shdeprecated/IBrowserService::GetParentSite, shell.IBrowserService_GetParentSite, zone_IBrowserService_GetParentSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IBrowserService::GetParentSite method
+# IBrowserService::GetParentSite
 
 
 ## -description

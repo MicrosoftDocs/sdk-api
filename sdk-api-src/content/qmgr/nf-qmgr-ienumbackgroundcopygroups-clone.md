@@ -1,14 +1,14 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyGroups.Clone
-title: IEnumBackgroundCopyGroups::Clone method
+title: IEnumBackgroundCopyGroups::Clone
 author: windows-driver-content
 description: Use the Clone method to create another IEnumBackgroundCopyGroups enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbackgroundcopygroups_clone.htm
 old-project: Bits
 ms.assetid: f2743edd-9fc5-451b-b1ff-17f4591923ba
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: Clone method [BITS], Clone method [BITS], IEnumBackgroundCopyGroups interface, Clone,IEnumBackgroundCopyGroups.Clone, IEnumBackgroundCopyGroups, IEnumBackgroundCopyGroups interface [BITS], Clone method, IEnumBackgroundCopyGroups::Clone, bits.ienumbackgroundcopygroups_clone, qmgr/IEnumBackgroundCopyGroups::Clone
+ms.date: 4/27/2018
+ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBackgroundCopyGroups interface, IEnumBackgroundCopyGroups interface [BITS],Clone method, IEnumBackgroundCopyGroups.Clone, IEnumBackgroundCopyGroups::Clone, bits.ienumbackgroundcopygroups_clone, qmgr/IEnumBackgroundCopyGroups::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumBackgroundCopyGroups::Clone method
+# IEnumBackgroundCopyGroups::Clone
 
 
 ## -description

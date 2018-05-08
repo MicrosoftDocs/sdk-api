@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.IRecordInfo.PutField
-title: IRecordInfo::PutField method
+title: IRecordInfo::PutField
 author: windows-driver-content
 description: Puts a variant into a field.
 old-location: automat\irecordinfo_putfield.htm
 old-project: automat
 ms.assetid: 784bb283-b381-405e-b793-d070105b778f
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: IRecordInfo, IRecordInfo interface [Automation], PutField method, IRecordInfo::PutField, PutField method [Automation], PutField method [Automation], IRecordInfo interface, PutField,IRecordInfo.PutField, _oa96_IRecordInfo_PutField, automat.irecordinfo_putfield, oaidl/IRecordInfo::PutField
+ms.date: 5/4/2018
+ms.keywords: IRecordInfo interface [Automation],PutField method, IRecordInfo.PutField, IRecordInfo::PutField, PutField, PutField method [Automation], PutField method [Automation],IRecordInfo interface, _oa96_IRecordInfo_PutField, automat.irecordinfo_putfield, oaidl/IRecordInfo::PutField
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRecordInfo::PutField method
+# IRecordInfo::PutField
 
 
 ## -description

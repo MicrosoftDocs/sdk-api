@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetBorderColor
-title: IMFVideoProcessorControl::SetBorderColor method
+title: IMFVideoProcessorControl::SetBorderColor
 author: windows-driver-content
 description: Sets the border color.
 old-location: mf\imfvideoprocessorcontrol_setbordercolor.htm
 old-project: medfound
 ms.assetid: DA6165C9-24E9-473C-A4F7-4C94399AF346
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFVideoProcessorControl, IMFVideoProcessorControl interface [Media Foundation], SetBorderColor method, IMFVideoProcessorControl::SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation], IMFVideoProcessorControl interface, SetBorderColor,IMFVideoProcessorControl.SetBorderColor, mf.imfvideoprocessorcontrol_setbordercolor, mfidl/IMFVideoProcessorControl::SetBorderColor
+ms.date: 5/3/2018
+ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetBorderColor method, IMFVideoProcessorControl.SetBorderColor, IMFVideoProcessorControl::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setbordercolor, mfidl/IMFVideoProcessorControl::SetBorderColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFVideoProcessorControl::SetBorderColor method
+# IMFVideoProcessorControl::SetBorderColor
 
 
 ## -description

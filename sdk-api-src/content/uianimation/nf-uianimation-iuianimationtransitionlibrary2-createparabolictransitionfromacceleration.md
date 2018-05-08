@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateParabolicTransitionFromAcceleration
-title: IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration method
+title: IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration
 author: windows-driver-content
 description: Creates a parabolic-acceleration scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createparabolictransitionfromacceleration.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: C2005144-CA40-4835-8AFA-7E87AE99867F
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateParabolicTransitionFromAcceleration method [Windows Animation], CreateParabolicTransitionFromAcceleration method [Windows Animation], IUIAnimationTransitionLibrary2 interface, CreateParabolicTransitionFromAcceleration,IUIAnimationTransitionLibrary2.CreateParabolicTransitionFromAcceleration, IUIAnimationTransitionLibrary2, IUIAnimationTransitionLibrary2 interface [Windows Animation], CreateParabolicTransitionFromAcceleration method, IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration, uianimation.iuianimationtransitionlibrary2_createparabolictransitionfromacceleration, uianimation/IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration
+ms.keywords: CreateParabolicTransitionFromAcceleration, CreateParabolicTransitionFromAcceleration method [Windows Animation], CreateParabolicTransitionFromAcceleration method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateParabolicTransitionFromAcceleration method, IUIAnimationTransitionLibrary2.CreateParabolicTransitionFromAcceleration, IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration, uianimation.iuianimationtransitionlibrary2_createparabolictransitionfromacceleration, uianimation/IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration method
+# IUIAnimationTransitionLibrary2::CreateParabolicTransitionFromAcceleration
 
 
 ## -description

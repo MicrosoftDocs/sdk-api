@@ -8,7 +8,7 @@ old-project: ETW
 ms.assetid: 0cfe2f62-63dc-45a6-96ce-fb4bf458358f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: BufferCallback, BufferCallback callback function [ETW], PEVENT_TRACE_BUFFER_CALLBACK, PEVENT_TRACE_BUFFER_CALLBACKA, PEVENT_TRACE_BUFFER_CALLBACKW, _evt_buffercallback, base.buffercallback, etw.buffercallback, evntrace/BufferCallback
+ms.keywords: BufferCallback, BufferCallback callback function [ETW], PEVENT_TRACE_BUFFER_CALLBACK, PEVENT_TRACE_BUFFER_CALLBACK callback, PEVENT_TRACE_BUFFER_CALLBACKA, PEVENT_TRACE_BUFFER_CALLBACKW, _evt_buffercallback, base.buffercallback, etw.buffercallback, evntrace/BufferCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# PEVENT_TRACE_BUFFER_CALLBACKW callback
+# PEVENT_TRACE_BUFFER_CALLBACKW callback function
 
 
 ## -description

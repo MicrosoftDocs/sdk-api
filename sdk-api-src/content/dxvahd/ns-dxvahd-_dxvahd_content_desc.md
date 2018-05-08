@@ -7,7 +7,7 @@ old-location: mf\dxvahd_content_desc.htm
 old-project: medfound
 ms.assetid: 9319a98d-8f43-4f29-8787-18dec53dff88
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: DXVAHD_CONTENT_DESC, DXVAHD_CONTENT_DESC structure [Media Foundation], _DXVAHD_CONTENT_DESC, dxvahd/DXVAHD_CONTENT_DESC, mf.dxvahd_content_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

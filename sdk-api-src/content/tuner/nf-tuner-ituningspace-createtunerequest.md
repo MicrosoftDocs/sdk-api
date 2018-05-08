@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.CreateTuneRequest
-title: ITuningSpace::CreateTuneRequest method
+title: ITuningSpace::CreateTuneRequest
 author: windows-driver-content
 description: The CreateTuneRequest method creates an empty (uninitialized) tune request.
 old-location: mstv\ituningspace_createtunerequest.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 513d4d3e-47df-4a12-80ce-9fc1400af176
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreateTuneRequest method [Microsoft TV Technologies], CreateTuneRequest method [Microsoft TV Technologies], ITuningSpace interface, CreateTuneRequest,ITuningSpace.CreateTuneRequest, ITuningSpace, ITuningSpace interface [Microsoft TV Technologies], CreateTuneRequest method, ITuningSpace::CreateTuneRequest, ITuningSpaceCreateTuneRequest, mstv.ituningspace_createtunerequest, tuner/ITuningSpace::CreateTuneRequest
+ms.keywords: CreateTuneRequest, CreateTuneRequest method [Microsoft TV Technologies], CreateTuneRequest method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],CreateTuneRequest method, ITuningSpace.CreateTuneRequest, ITuningSpace::CreateTuneRequest, ITuningSpaceCreateTuneRequest, mstv.ituningspace_createtunerequest, tuner/ITuningSpace::CreateTuneRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpace::CreateTuneRequest method
+# ITuningSpace::CreateTuneRequest
 
 
 ## -description

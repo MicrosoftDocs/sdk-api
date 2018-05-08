@@ -7,7 +7,7 @@ old-location: properties\VariantGetDoubleElem.htm
 old-project: properties
 ms.assetid: cc6cb3a0-ba39-4088-8d72-082f6a4e39d3
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/27/2018
 ms.keywords: VariantGetDoubleElem, VariantGetDoubleElem function [Windows Properties], _shell_VariantGetDoubleElem, properties.VariantGetDoubleElem, propvarutil/VariantGetDoubleElem, shell.VariantGetDoubleElem
 ms.prod: windows-hardware
 ms.technology: windows-devices

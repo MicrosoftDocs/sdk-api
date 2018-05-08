@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetThreadGroupSize
-title: ID3D11ShaderReflection::GetThreadGroupSize method
+title: ID3D11ShaderReflection::GetThreadGroupSize
 author: windows-driver-content
 description: Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the shader's thread-group grid.
 old-location: direct3d11\id3d11shaderreflection_getthreadgroupsize.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: e3f7b22d-75d6-4169-9336-26056c969195
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GetThreadGroupSize method [Direct3D 11], GetThreadGroupSize method [Direct3D 11], ID3D11ShaderReflection interface, GetThreadGroupSize,ID3D11ShaderReflection.GetThreadGroupSize, ID3D11ShaderReflection, ID3D11ShaderReflection interface [Direct3D 11], GetThreadGroupSize method, ID3D11ShaderReflection::GetThreadGroupSize, d3d11shader/ID3D11ShaderReflection::GetThreadGroupSize, direct3d11.id3d11shaderreflection_getthreadgroupsize
+ms.keywords: GetThreadGroupSize, GetThreadGroupSize method [Direct3D 11], GetThreadGroupSize method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetThreadGroupSize method, ID3D11ShaderReflection.GetThreadGroupSize, ID3D11ShaderReflection::GetThreadGroupSize, d3d11shader/ID3D11ShaderReflection::GetThreadGroupSize, direct3d11.id3d11shaderreflection_getthreadgroupsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11ShaderReflection::GetThreadGroupSize method
+# ID3D11ShaderReflection::GetThreadGroupSize
 
 
 ## -description

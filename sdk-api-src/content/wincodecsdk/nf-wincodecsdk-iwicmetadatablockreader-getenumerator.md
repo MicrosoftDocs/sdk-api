@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockReader.GetEnumerator
-title: IWICMetadataBlockReader::GetEnumerator method
+title: IWICMetadataBlockReader::GetEnumerator
 author: windows-driver-content
 description: Retrieves an enumeration of IWICMetadataReader objects representing each of the top level metadata blocks.
 old-location: wic\_wic_codec_iwicmetadatablockreader_getenumerator.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 81441e25-f124-4978-830d-2ade9cde6917
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetEnumerator method [Windows Imaging Component], GetEnumerator method [Windows Imaging Component], IWICMetadataBlockReader interface, GetEnumerator,IWICMetadataBlockReader.GetEnumerator, IWICMetadataBlockReader, IWICMetadataBlockReader interface [Windows Imaging Component], GetEnumerator method, IWICMetadataBlockReader::GetEnumerator, _wic_codec_iwicmetadatablockreader_getenumerator, wic._wic_codec_iwicmetadatablockreader_getenumerator, wincodecsdk/IWICMetadataBlockReader::GetEnumerator
+ms.keywords: GetEnumerator, GetEnumerator method [Windows Imaging Component], GetEnumerator method [Windows Imaging Component],IWICMetadataBlockReader interface, IWICMetadataBlockReader interface [Windows Imaging Component],GetEnumerator method, IWICMetadataBlockReader.GetEnumerator, IWICMetadataBlockReader::GetEnumerator, _wic_codec_iwicmetadatablockreader_getenumerator, wic._wic_codec_iwicmetadatablockreader_getenumerator, wincodecsdk/IWICMetadataBlockReader::GetEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataBlockReader::GetEnumerator method
+# IWICMetadataBlockReader::GetEnumerator
 
 
 ## -description

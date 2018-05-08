@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetModified
-title: IXpsOMCoreProperties::GetModified method
+title: IXpsOMCoreProperties::GetModified
 author: windows-driver-content
 description: Gets the modified property.
 old-location: xps\ixpsomcoreproperties_getmodified.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 364beb9d-01e7-477c-92b2-f2fdb19a87f9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetModified method [XPS Documents and Packaging], GetModified method [XPS Documents and Packaging], IXpsOMCoreProperties interface, GetModified,IXpsOMCoreProperties.GetModified, IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], GetModified method, IXpsOMCoreProperties::GetModified, xps.ixpsomcoreproperties_getmodified, xpsobjectmodel/IXpsOMCoreProperties::GetModified
+ms.keywords: GetModified, GetModified method [XPS Documents and Packaging], GetModified method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetModified method, IXpsOMCoreProperties.GetModified, IXpsOMCoreProperties::GetModified, xps.ixpsomcoreproperties_getmodified, xpsobjectmodel/IXpsOMCoreProperties::GetModified
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::GetModified method
+# IXpsOMCoreProperties::GetModified
 
 
 ## -description

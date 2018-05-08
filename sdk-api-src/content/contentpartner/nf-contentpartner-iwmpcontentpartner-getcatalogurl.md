@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetCatalogURL
-title: IWMPContentPartner::GetCatalogURL method
+title: IWMPContentPartner::GetCatalogURL
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_getcatalogurl.htm
 old-project: WMP
 ms.assetid: 291440d5-b6d3-4586-98d2-3f7c56da29aa
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetCatalogURL method [Windows Media Player], GetCatalogURL method [Windows Media Player], IWMPContentPartner interface, GetCatalogURL,IWMPContentPartner.GetCatalogURL, IWMPContentPartner, IWMPContentPartner interface [Windows Media Player], GetCatalogURL method, IWMPContentPartner::GetCatalogURL, IWMPContentPartnerGetCatalogURL, contentpartner/IWMPContentPartner::GetCatalogURL, wmp.iwmpcontentpartner_getcatalogurl
+ms.date: 5/4/2018
+ms.keywords: GetCatalogURL, GetCatalogURL method [Windows Media Player], GetCatalogURL method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetCatalogURL method, IWMPContentPartner.GetCatalogURL, IWMPContentPartner::GetCatalogURL, IWMPContentPartnerGetCatalogURL, contentpartner/IWMPContentPartner::GetCatalogURL, wmp.iwmpcontentpartner_getcatalogurl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentPartner::GetCatalogURL method
+# IWMPContentPartner::GetCatalogURL
 
 
 ## -description

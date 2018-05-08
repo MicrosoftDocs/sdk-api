@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.Reset
-title: IContactPropertyCollection::Reset method
+title: IContactPropertyCollection::Reset
 author: windows-driver-content
 description: Resets enumeration of properties.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_Reset.htm
@@ -8,7 +8,7 @@ old-project: wincontacts
 ms.assetid: cef73e3c-56be-44b8-b05b-3c2081b71591
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IContactPropertyCollection, IContactPropertyCollection interface [Windows Contacts], Reset method, IContactPropertyCollection::Reset, Reset method [Windows Contacts], Reset method [Windows Contacts], IContactPropertyCollection interface, Reset,IContactPropertyCollection.Reset, _wincontacts_IContactPropertyCollection_Reset, icontact/IContactPropertyCollection::Reset, wincontacts._wincontacts_IContactPropertyCollection_Reset
+ms.keywords: IContactPropertyCollection interface [Windows Contacts],Reset method, IContactPropertyCollection.Reset, IContactPropertyCollection::Reset, Reset, Reset method [Windows Contacts], Reset method [Windows Contacts],IContactPropertyCollection interface, _wincontacts_IContactPropertyCollection_Reset, icontact/IContactPropertyCollection::Reset, wincontacts._wincontacts_IContactPropertyCollection_Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IContactPropertyCollection::Reset method
+# IContactPropertyCollection::Reset
 
 
 ## -description

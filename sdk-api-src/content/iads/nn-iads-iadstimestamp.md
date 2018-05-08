@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 5f24e6e9-ad5b-4d5b-b3f3-cc3aca599bc1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsTimestamp, IADsTimestamp interface [ADSI], IADsTimestamp interface [ADSI], described, Timestamp, _ds_iadstimestamp, adsi.iadstimestamp, iads/IADsTimestamp
+ms.keywords: IADsTimestamp, IADsTimestamp interface [ADSI], IADsTimestamp interface [ADSI],described, Timestamp, _ds_iadstimestamp, adsi.iadstimestamp, iads/IADsTimestamp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

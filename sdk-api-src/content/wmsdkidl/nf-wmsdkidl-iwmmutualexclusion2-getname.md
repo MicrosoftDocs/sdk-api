@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.GetName
-title: IWMMutualExclusion2::GetName method
+title: IWMMutualExclusion2::GetName
 author: windows-driver-content
 description: The GetName method retrieves the name of the current mutual exclusion object. A mutual exclusion object has a name only if a name has been assigned using the IWMMutualExclusion2::SetName method.
 old-location: wmformat\iwmmutualexclusion2_getname.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: da62ed2e-7356-4b4e-b2c5-6c18ef806ba7
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetName method [windows Media Format], GetName method [windows Media Format], IWMMutualExclusion2 interface, GetName,IWMMutualExclusion2.GetName, IWMMutualExclusion2, IWMMutualExclusion2 interface [windows Media Format], GetName method, IWMMutualExclusion2::GetName, IWMMutualExclusion2GetName, wmformat.iwmmutualexclusion2_getname, wmsdkidl/IWMMutualExclusion2::GetName
+ms.keywords: GetName, GetName method [windows Media Format], GetName method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetName method, IWMMutualExclusion2.GetName, IWMMutualExclusion2::GetName, IWMMutualExclusion2GetName, wmformat.iwmmutualexclusion2_getname, wmsdkidl/IWMMutualExclusion2::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMMutualExclusion2::GetName method
+# IWMMutualExclusion2::GetName
 
 
 ## -description

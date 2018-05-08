@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputAlphaFillMode
-title: ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode method
+title: ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode
 author: windows-driver-content
 description: Gets the current alpha fill mode for the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetoutputalphafillmode.htm
 old-project: medfound
 ms.assetid: 23F37D9C-3D33-4A07-AC54-5273A09BF540
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], VideoProcessorGetOutputAlphaFillMode method, ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode, VideoProcessorGetOutputAlphaFillMode method [Media Foundation], VideoProcessorGetOutputAlphaFillMode method [Media Foundation], ID3D11VideoContext interface, VideoProcessorGetOutputAlphaFillMode,ID3D11VideoContext.VideoProcessorGetOutputAlphaFillMode, d3d11/ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode, mf.id3d11videocontext_videoprocessorgetoutputalphafillmode
+ms.date: 5/3/2018
+ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputAlphaFillMode method, ID3D11VideoContext.VideoProcessorGetOutputAlphaFillMode, ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode, VideoProcessorGetOutputAlphaFillMode, VideoProcessorGetOutputAlphaFillMode method [Media Foundation], VideoProcessorGetOutputAlphaFillMode method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode, mf.id3d11videocontext_videoprocessorgetoutputalphafillmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode method
+# ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode
 
 
 ## -description

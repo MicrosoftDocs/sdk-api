@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_BootImageOptions
-title: IFileSystemImage::get_BootImageOptions method
+title: IFileSystemImage::get_BootImageOptions
 author: windows-driver-content
 description: Retrieves the boot image that you want to add to the file system image.
 old-location: imapi\ifilesystemimage_get_bootimageoptions.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: b9721313-a2b0-4d91-af10-7932bd2d01be
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], get_BootImageOptions method, IFileSystemImage::get_BootImageOptions, get_BootImageOptions method [IMAPI], get_BootImageOptions method [IMAPI], IFileSystemImage interface, get_BootImageOptions,IFileSystemImage.get_BootImageOptions, imapi.ifilesystemimage_get_bootimageoptions, imapi2fs/IFileSystemImage::get_BootImageOptions
+ms.keywords: IFileSystemImage interface [IMAPI],get_BootImageOptions method, IFileSystemImage.get_BootImageOptions, IFileSystemImage::get_BootImageOptions, get_BootImageOptions, get_BootImageOptions method [IMAPI], get_BootImageOptions method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_bootimageoptions, imapi2fs/IFileSystemImage::get_BootImageOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::get_BootImageOptions method
+# IFileSystemImage::get_BootImageOptions
 
 
 ## -description

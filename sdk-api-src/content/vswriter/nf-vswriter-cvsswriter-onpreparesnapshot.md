@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnPrepareSnapshot
-title: CVssWriter::OnPrepareSnapshot method
+title: CVssWriter::OnPrepareSnapshot
 author: windows-driver-content
 description: The OnPrepareSnapshot method is called by a writer to handle a PrepareForSnapshot event. It is used to perform operations needed to prepare a writer to participate in the shadow copy or to veto a shadow copy.
 old-location: base\cvsswriter_onpreparesnapshot.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: a077323e-d04c-4bf7-8aa6-5028fa1c6e6b
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriter, CVssWriter interface [VSS], OnPrepareSnapshot method, CVssWriter::OnPrepareSnapshot, OnPrepareSnapshot method [VSS], OnPrepareSnapshot method [VSS], CVssWriter interface, OnPrepareSnapshot,CVssWriter.OnPrepareSnapshot, _win32_cvsswriter_onpreparesnapshot, base.cvsswriter_onpreparesnapshot, vswriter/CVssWriter::OnPrepareSnapshot
+ms.keywords: CVssWriter interface [VSS],OnPrepareSnapshot method, CVssWriter.OnPrepareSnapshot, CVssWriter::OnPrepareSnapshot, OnPrepareSnapshot, OnPrepareSnapshot method [VSS], OnPrepareSnapshot method [VSS],CVssWriter interface, _win32_cvsswriter_onpreparesnapshot, base.cvsswriter_onpreparesnapshot, vswriter/CVssWriter::OnPrepareSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriter::OnPrepareSnapshot method
+# CVssWriter::OnPrepareSnapshot
 
 
 ## -description

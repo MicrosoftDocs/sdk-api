@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage4.GetSpecifiedMetadata
-title: IWMDMStorage4::GetSpecifiedMetadata method
+title: IWMDMStorage4::GetSpecifiedMetadata
 author: windows-driver-content
 description: The GetSpecifiedMetadata method retrieves one or more specific metadata properties from the storage.
 old-location: wmdm\iwmdmstorage4_getspecifiedmetadata.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: c4e2c889-9ad0-42d1-bb50-4ebcb9859715
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetSpecifiedMetadata method [windows Media Device Manager], GetSpecifiedMetadata method [windows Media Device Manager], IWMDMStorage4 interface, GetSpecifiedMetadata,IWMDMStorage4.GetSpecifiedMetadata, IWMDMStorage4, IWMDMStorage4 interface [windows Media Device Manager], GetSpecifiedMetadata method, IWMDMStorage4::GetSpecifiedMetadata, IWMDMStorage4GetSpecifiedMetadata, mswmdm/IWMDMStorage4::GetSpecifiedMetadata, wmdm.iwmdmstorage4_getspecifiedmetadata
+ms.keywords: GetSpecifiedMetadata, GetSpecifiedMetadata method [windows Media Device Manager], GetSpecifiedMetadata method [windows Media Device Manager],IWMDMStorage4 interface, IWMDMStorage4 interface [windows Media Device Manager],GetSpecifiedMetadata method, IWMDMStorage4.GetSpecifiedMetadata, IWMDMStorage4::GetSpecifiedMetadata, IWMDMStorage4GetSpecifiedMetadata, mswmdm/IWMDMStorage4::GetSpecifiedMetadata, wmdm.iwmdmstorage4_getspecifiedmetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMStorage4::GetSpecifiedMetadata method
+# IWMDMStorage4::GetSpecifiedMetadata
 
 
 ## -description

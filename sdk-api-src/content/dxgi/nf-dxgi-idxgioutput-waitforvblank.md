@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.WaitForVBlank
-title: IDXGIOutput::WaitForVBlank method
+title: IDXGIOutput::WaitForVBlank
 author: windows-driver-content
 description: Halt a thread until the next vertical blank occurs.
 old-location: direct3ddxgi\idxgioutput_waitforvblank.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_waitforvblank.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: 66e3ebb7-4b8b-3ceb-15fe-6d9cfdb9cb90, IDXGIOutput, IDXGIOutput interface [DXGI], WaitForVBlank method, IDXGIOutput::WaitForVBlank, WaitForVBlank method [DXGI], WaitForVBlank method [DXGI], IDXGIOutput interface, WaitForVBlank,IDXGIOutput.WaitForVBlank, direct3ddxgi.idxgioutput_waitforvblank, dxgi/IDXGIOutput::WaitForVBlank
+ms.keywords: 66e3ebb7-4b8b-3ceb-15fe-6d9cfdb9cb90, IDXGIOutput interface [DXGI],WaitForVBlank method, IDXGIOutput.WaitForVBlank, IDXGIOutput::WaitForVBlank, WaitForVBlank, WaitForVBlank method [DXGI], WaitForVBlank method [DXGI],IDXGIOutput interface, direct3ddxgi.idxgioutput_waitforvblank, dxgi/IDXGIOutput::WaitForVBlank
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIOutput::WaitForVBlank method
+# IDXGIOutput::WaitForVBlank
 
 
 ## -description

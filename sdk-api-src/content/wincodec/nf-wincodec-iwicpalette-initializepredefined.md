@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.InitializePredefined
-title: IWICPalette::InitializePredefined method
+title: IWICPalette::InitializePredefined
 author: windows-driver-content
 description: Initializes the palette to one of the pre-defined palettes specified by WICBitmapPaletteType and optionally adds a transparent color.
 old-location: wic\_wic_codec_iwicpalette_initializepredefined.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 507888ad-4e3f-4e31-83c4-63a473eb7681
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICPalette, IWICPalette interface [Windows Imaging Component], InitializePredefined method, IWICPalette::InitializePredefined, InitializePredefined method [Windows Imaging Component], InitializePredefined method [Windows Imaging Component], IWICPalette interface, InitializePredefined,IWICPalette.InitializePredefined, _wic_codec_iwicpalette_initializepredefined, wic._wic_codec_iwicpalette_initializepredefined, wincodec/IWICPalette::InitializePredefined
+ms.keywords: IWICPalette interface [Windows Imaging Component],InitializePredefined method, IWICPalette.InitializePredefined, IWICPalette::InitializePredefined, InitializePredefined, InitializePredefined method [Windows Imaging Component], InitializePredefined method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializepredefined, wic._wic_codec_iwicpalette_initializepredefined, wincodec/IWICPalette::InitializePredefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICPalette::InitializePredefined method
+# IWICPalette::InitializePredefined
 
 
 ## -description

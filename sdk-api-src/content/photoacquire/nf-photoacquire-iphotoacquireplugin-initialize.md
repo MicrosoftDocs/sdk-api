@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.Initialize
-title: IPhotoAcquirePlugin::Initialize method
+title: IPhotoAcquirePlugin::Initialize
 author: windows-driver-content
 description: The Initialize method provides extended functionality when the plug-in is initialized. The application provides the implementation of the Initialize method.
 old-location: picacq\iphotoacquireplugin_initialize.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 0992e4f0-43a0-49fb-99f4-8713af96ef7e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoAcquirePlugin, IPhotoAcquirePlugin interface [Picture Acquisition], Initialize method, IPhotoAcquirePlugin::Initialize, IPhotoAcquirePluginInitialize, Initialize method [Picture Acquisition], Initialize method [Picture Acquisition], IPhotoAcquirePlugin interface, Initialize,IPhotoAcquirePlugin.Initialize, photoacquire/IPhotoAcquirePlugin::Initialize, picacq.iphotoacquireplugin_initialize
+ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],Initialize method, IPhotoAcquirePlugin.Initialize, IPhotoAcquirePlugin::Initialize, IPhotoAcquirePluginInitialize, Initialize, Initialize method [Picture Acquisition], Initialize method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::Initialize, picacq.iphotoacquireplugin_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquirePlugin::Initialize method
+# IPhotoAcquirePlugin::Initialize
 
 
 ## -description

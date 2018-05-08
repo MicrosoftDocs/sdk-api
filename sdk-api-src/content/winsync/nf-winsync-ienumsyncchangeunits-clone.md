@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSyncChangeUnits.Clone
-title: IEnumSyncChangeUnits::Clone method
+title: IEnumSyncChangeUnits::Clone
 author: windows-driver-content
 description: This method is not implemented.
 old-location: winsync\ienumsyncchangeunits_clone.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 9a223a31-c147-4c51-94f5-f24ae0246f64
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Clone method [Windows Sync], Clone method [Windows Sync], IEnumSyncChangeUnits interface, Clone,IEnumSyncChangeUnits.Clone, IEnumSyncChangeUnits, IEnumSyncChangeUnits interface [Windows Sync], Clone method, IEnumSyncChangeUnits::Clone, winsync.ienumsyncchangeunits_clone, winsync/IEnumSyncChangeUnits::Clone
+ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSyncChangeUnits interface, IEnumSyncChangeUnits interface [Windows Sync],Clone method, IEnumSyncChangeUnits.Clone, IEnumSyncChangeUnits::Clone, winsync.ienumsyncchangeunits_clone, winsync/IEnumSyncChangeUnits::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IEnumSyncChangeUnits::Clone method
+# IEnumSyncChangeUnits::Clone
 
 
 ## -description

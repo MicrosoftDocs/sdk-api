@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.GetFlags
-title: IMFASFSplitter::GetFlags method
+title: IMFASFSplitter::GetFlags
 author: windows-driver-content
 description: Retrieves the option flags that are set on the ASF splitter.
 old-location: mf\imfasfsplitter_getflags.htm
 old-project: medfound
 ms.assetid: ba008e4a-98ad-4633-8b80-1d2ffce04b9c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetFlags method [Media Foundation], GetFlags method [Media Foundation], IMFASFSplitter interface, GetFlags,IMFASFSplitter.GetFlags, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], GetFlags method, IMFASFSplitter::GetFlags, ba008e4a-98ad-4633-8b80-1d2ffce04b9c, mf.imfasfsplitter_getflags, wmcontainer/IMFASFSplitter::GetFlags
+ms.date: 5/3/2018
+ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetFlags method, IMFASFSplitter.GetFlags, IMFASFSplitter::GetFlags, ba008e4a-98ad-4633-8b80-1d2ffce04b9c, mf.imfasfsplitter_getflags, wmcontainer/IMFASFSplitter::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFSplitter::GetFlags method
+# IMFASFSplitter::GetFlags
 
 
 ## -description

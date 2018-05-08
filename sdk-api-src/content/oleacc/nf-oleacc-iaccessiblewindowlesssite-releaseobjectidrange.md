@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessibleWindowlessSite.ReleaseObjectIdRange
-title: IAccessibleWindowlessSite::ReleaseObjectIdRange method
+title: IAccessibleWindowlessSite::ReleaseObjectIdRange
 author: windows-driver-content
 description: Releases an object ID range that was acquired by a previous call to the IAccessibleWindowlessSite::AcquireObjectIdRange method.
 old-location: winauto\uiauto_IAccessibleWindowlessSite_ReleaseObjectIdRange.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: CC7AEE46-88BE-445C-A377-C9E8C2B505D3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccessibleWindowlessSite, IAccessibleWindowlessSite interface [Windows Accessibility], ReleaseObjectIdRange method, IAccessibleWindowlessSite::ReleaseObjectIdRange, ReleaseObjectIdRange method [Windows Accessibility], ReleaseObjectIdRange method [Windows Accessibility], IAccessibleWindowlessSite interface, ReleaseObjectIdRange,IAccessibleWindowlessSite.ReleaseObjectIdRange, oleacc/IAccessibleWindowlessSite::ReleaseObjectIdRange, winauto.uiauto_IAccessibleWindowlessSite_ReleaseObjectIdRange
+ms.keywords: IAccessibleWindowlessSite interface [Windows Accessibility],ReleaseObjectIdRange method, IAccessibleWindowlessSite.ReleaseObjectIdRange, IAccessibleWindowlessSite::ReleaseObjectIdRange, ReleaseObjectIdRange, ReleaseObjectIdRange method [Windows Accessibility], ReleaseObjectIdRange method [Windows Accessibility],IAccessibleWindowlessSite interface, oleacc/IAccessibleWindowlessSite::ReleaseObjectIdRange, winauto.uiauto_IAccessibleWindowlessSite_ReleaseObjectIdRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccessibleWindowlessSite::ReleaseObjectIdRange method
+# IAccessibleWindowlessSite::ReleaseObjectIdRange
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.GetStarterGPO
-title: IGPMDomain2::GetStarterGPO method
+title: IGPMDomain2::GetStarterGPO
 author: windows-driver-content
 description: Retrieves a GPMStarterGPO object that has a specified Group Policy object ID.
 old-location: gpmc\igpmdomain2_getstartergpo.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 0648c653-94da-40d6-98c2-46f80a51bc90
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetStarterGPO method [GPMC], GetStarterGPO method [GPMC], IGPMDomain2 interface, GetStarterGPO,IGPMDomain2.GetStarterGPO, IGPMDomain2, IGPMDomain2 interface [GPMC], GetStarterGPO method, IGPMDomain2::GetStarterGPO, gpmc.igpmdomain2_getstartergpo, gpmgmt/IGPMDomain2::GetStarterGPO
+ms.keywords: GetStarterGPO, GetStarterGPO method [GPMC], GetStarterGPO method [GPMC],IGPMDomain2 interface, IGPMDomain2 interface [GPMC],GetStarterGPO method, IGPMDomain2.GetStarterGPO, IGPMDomain2::GetStarterGPO, gpmc.igpmdomain2_getstartergpo, gpmgmt/IGPMDomain2::GetStarterGPO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMDomain2::GetStarterGPO method
+# IGPMDomain2::GetStarterGPO
 
 
 ## -description

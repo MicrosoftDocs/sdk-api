@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 4f2e0f96-a471-4883-be41-d93806461020
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumGUID, IEnumGUID interface [COM], IEnumGUID interface [COM], described, _com_ienumguid, com.ienumguid, comcat/IEnumGUID
+ms.keywords: IEnumGUID, IEnumGUID interface [COM], IEnumGUID interface [COM],described, _com_ienumguid, com.ienumguid, comcat/IEnumGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

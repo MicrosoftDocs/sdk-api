@@ -7,8 +7,8 @@ old-location: mf\imftimedtextbinary.htm
 old-project: medfound
 ms.assetid: C76FAC0F-6C15-4874-BAE6-7315E1C3066E
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFTimedTextBinary, IMFTimedTextBinary interface [Media Foundation], IMFTimedTextBinary interface [Media Foundation], described, mf.imftimedtextbinary, mfmediaengine/IMFTimedTextBinary
+ms.date: 5/3/2018
+ms.keywords: IMFTimedTextBinary, IMFTimedTextBinary interface [Media Foundation], IMFTimedTextBinary interface [Media Foundation],described, mf.imftimedtextbinary, mfmediaengine/IMFTimedTextBinary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

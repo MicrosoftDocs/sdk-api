@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 22309920-f32c-4639-8869-b915a337d86f
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IVBGetControl, IVBGetControl interface [COM], IVBGetControl interface [COM], described, _com_IVBGetControl, com.ivbgetcontrol, vbinterf/IVBGetControl
+ms.keywords: IVBGetControl, IVBGetControl interface [COM], IVBGetControl interface [COM],described, _com_IVBGetControl, com.ivbgetcontrol, vbinterf/IVBGetControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

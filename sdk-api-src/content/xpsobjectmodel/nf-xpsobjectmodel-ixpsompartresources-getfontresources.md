@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartResources.GetFontResources
-title: IXpsOMPartResources::GetFontResources method
+title: IXpsOMPartResources::GetFontResources
 author: windows-driver-content
 description: Gets the IXpsOMFontResourceCollection interface that contains the fonts that are used in the XPS document.
 old-location: xps\ixpsompartresources_getfontresources.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c6655eed-5dd2-4b36-9ed7-55a3b25940e9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetFontResources method [XPS Documents and Packaging], GetFontResources method [XPS Documents and Packaging], IXpsOMPartResources interface, GetFontResources,IXpsOMPartResources.GetFontResources, IXpsOMPartResources, IXpsOMPartResources interface [XPS Documents and Packaging], GetFontResources method, IXpsOMPartResources::GetFontResources, xps.ixpsompartresources_getfontresources, xpsobjectmodel/IXpsOMPartResources::GetFontResources
+ms.keywords: GetFontResources, GetFontResources method [XPS Documents and Packaging], GetFontResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetFontResources method, IXpsOMPartResources.GetFontResources, IXpsOMPartResources::GetFontResources, xps.ixpsompartresources_getfontresources, xpsobjectmodel/IXpsOMPartResources::GetFontResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPartResources::GetFontResources method
+# IXpsOMPartResources::GetFontResources
 
 
 ## -description

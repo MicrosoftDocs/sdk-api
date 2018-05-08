@@ -7,8 +7,8 @@ old-location: mf\imfsourceresolver.htm
 old-project: medfound
 ms.assetid: 079c61c5-7a29-4411-840e-9349190726ac
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 079c61c5-7a29-4411-840e-9349190726ac, IMFSourceResolver, IMFSourceResolver interface [Media Foundation], IMFSourceResolver interface [Media Foundation], described, mf.imfsourceresolver, mfidl/IMFSourceResolver
+ms.date: 5/3/2018
+ms.keywords: 079c61c5-7a29-4411-840e-9349190726ac, IMFSourceResolver, IMFSourceResolver interface [Media Foundation], IMFSourceResolver interface [Media Foundation],described, mf.imfsourceresolver, mfidl/IMFSourceResolver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

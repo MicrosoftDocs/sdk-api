@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_ForceOverwrite
-title: IDiscFormat2Data::put_ForceOverwrite method
+title: IDiscFormat2Data::put_ForceOverwrite
 author: windows-driver-content
 description: Determines if the data writer must overwrite the disc on overwritable media types.
 old-location: imapi\idiscformat2data_put_forceoverwrite.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 19b77c94-ad2a-42c8-8042-267a48036dac
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], put_ForceOverwrite method, IDiscFormat2Data::put_ForceOverwrite, imapi.idiscformat2data_put_forceoverwrite, imapi2/IDiscFormat2Data::put_ForceOverwrite, put_ForceOverwrite method [IMAPI], put_ForceOverwrite method [IMAPI], IDiscFormat2Data interface, put_ForceOverwrite,IDiscFormat2Data.put_ForceOverwrite
+ms.keywords: IDiscFormat2Data interface [IMAPI],put_ForceOverwrite method, IDiscFormat2Data.put_ForceOverwrite, IDiscFormat2Data::put_ForceOverwrite, imapi.idiscformat2data_put_forceoverwrite, imapi2/IDiscFormat2Data::put_ForceOverwrite, put_ForceOverwrite, put_ForceOverwrite method [IMAPI], put_ForceOverwrite method [IMAPI],IDiscFormat2Data interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Data::put_ForceOverwrite method
+# IDiscFormat2Data::put_ForceOverwrite
 
 
 ## -description

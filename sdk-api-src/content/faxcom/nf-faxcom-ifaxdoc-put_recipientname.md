@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientName
-title: IFaxDoc::put_RecipientName method
+title: IFaxDoc::put_RecipientName
 author: windows-driver-content
 description: Sets or retrieves the RecipientName property of a FaxDoc object. The RecipientName property is a null-terminated string that contains the name of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipientname_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5xut.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], RecipientName property, IFaxDoc, IFaxDoc::put_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipientname, fax._mfax_ifaxdoc_get_recipientname, fax._mfax_ifaxdoc_get_recipientname_vb, put_RecipientName,IFaxDoc.put_RecipientName
+ms.keywords: FaxDoc object [Fax Service],RecipientName property, FaxDoc.RecipientName, IFaxDoc.put_RecipientName, IFaxDoc::put_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientname, fax._mfax_ifaxdoc_get_recipientname, fax._mfax_ifaxdoc_get_recipientname_vb, put_RecipientName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::put_RecipientName method
+# IFaxDoc::put_RecipientName
 
 
 ## -description

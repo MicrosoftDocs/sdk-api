@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CLUSPROP_SCSI_ADDRESS, *PCLUSPROP_SCSI_ADDRESS, CLUSPROP_SCSI_ADDRESS, *PCLUSPROP_SCSI_ADDRESS
+req.typenames: CLUSPROP_SCSI_ADDRESS, *PCLUSPROP_SCSI_ADDRESS
 topic_type:
 -	APIRef
 -	kbSyntax

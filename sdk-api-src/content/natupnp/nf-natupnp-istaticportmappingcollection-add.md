@@ -1,14 +1,14 @@
 ---
 UID: NF:natupnp.IStaticPortMappingCollection.Add
-title: IStaticPortMappingCollection::Add method
+title: IStaticPortMappingCollection::Add
 author: windows-driver-content
 description: The Add method creates a new port mapping and adds it to the collection.
 old-location: ics\istaticportmappingcollection_add.htm
 old-project: ICS
 ms.assetid: 5e61629d-80e4-4d44-8e53-12e17b399126
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Add method [ICS/ICF], Add method [ICS/ICF], IStaticPortMappingCollection interface, Add,IStaticPortMappingCollection.Add, IStaticPortMappingCollection, IStaticPortMappingCollection interface [ICS/ICF], Add method, IStaticPortMappingCollection::Add, _ics_istaticportmappingcollection_add, ics.istaticportmappingcollection_add, natupnp/IStaticPortMappingCollection::Add
+ms.date: 5/1/2018
+ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],IStaticPortMappingCollection interface, IStaticPortMappingCollection interface [ICS/ICF],Add method, IStaticPortMappingCollection.Add, IStaticPortMappingCollection::Add, _ics_istaticportmappingcollection_add, ics.istaticportmappingcollection_add, natupnp/IStaticPortMappingCollection::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStaticPortMappingCollection::Add method
+# IStaticPortMappingCollection::Add
 
 
 ## -description

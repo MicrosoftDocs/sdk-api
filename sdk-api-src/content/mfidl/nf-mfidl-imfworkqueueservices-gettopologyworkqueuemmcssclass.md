@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass
-title: IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass method
+title: IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass
 author: windows-driver-content
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class for a specified branch of the current topology.
 old-location: mf\imfworkqueueservices_gettopologyworkqueuemmcssclass.htm
 old-project: medfound
 ms.assetid: e815bde7-e17e-4616-8a3f-688f357e8009
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTopologyWorkQueueMMCSSClass method [Media Foundation], GetTopologyWorkQueueMMCSSClass method [Media Foundation], IMFWorkQueueServices interface, GetTopologyWorkQueueMMCSSClass,IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass, IMFWorkQueueServices, IMFWorkQueueServices interface [Media Foundation], GetTopologyWorkQueueMMCSSClass method, IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass, e815bde7-e17e-4616-8a3f-688f357e8009, mf.imfworkqueueservices_gettopologyworkqueuemmcssclass, mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass
+ms.date: 5/3/2018
+ms.keywords: GetTopologyWorkQueueMMCSSClass, GetTopologyWorkQueueMMCSSClass method [Media Foundation], GetTopologyWorkQueueMMCSSClass method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],GetTopologyWorkQueueMMCSSClass method, IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass, IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass, e815bde7-e17e-4616-8a3f-688f357e8009, mf.imfworkqueueservices_gettopologyworkqueuemmcssclass, mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass method
+# IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass
 
 
 ## -description

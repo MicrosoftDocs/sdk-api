@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_AvailableTVFormats
-title: IAMTVTuner::get_AvailableTVFormats method
+title: IAMTVTuner::get_AvailableTVFormats
 author: windows-driver-content
 description: The get_AvailableTVFormats method retrieves all the analog video TV standards that the tuner supports.
 old-location: dshow\iamtvtuner_get_availabletvformats.htm
 old-project: DirectShow
 ms.assetid: 7b1a31d4-be05-4ab3-8ca3-b1a3f4bda03f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTVTuner, IAMTVTuner interface [DirectShow], get_AvailableTVFormats method, IAMTVTuner::get_AvailableTVFormats, IAMTVTunerget_AvailableTVFormats, dshow.iamtvtuner_get_availabletvformats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow], IAMTVTuner interface, get_AvailableTVFormats,IAMTVTuner.get_AvailableTVFormats, strmif/IAMTVTuner::get_AvailableTVFormats
+ms.date: 4/30/2018
+ms.keywords: IAMTVTuner interface [DirectShow],get_AvailableTVFormats method, IAMTVTuner.get_AvailableTVFormats, IAMTVTuner::get_AvailableTVFormats, IAMTVTunerget_AvailableTVFormats, dshow.iamtvtuner_get_availabletvformats, get_AvailableTVFormats, get_AvailableTVFormats method [DirectShow], get_AvailableTVFormats method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_AvailableTVFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTVTuner::get_AvailableTVFormats method
+# IAMTVTuner::get_AvailableTVFormats
 
 
 ## -description

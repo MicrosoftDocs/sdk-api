@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsExtension.Operate
-title: IADsExtension::Operate method
+title: IADsExtension::Operate
 author: windows-driver-content
 description: Interprets the control code and input parameters according to the specifications of the provider.
 old-location: adsi\iadsextension_operate.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: c3cab311-6717-4d95-ad46-9da6047f84b8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ADS_EXT_INITCREDENTIALS, IADsExtension, IADsExtension interface [ADSI], Operate method, IADsExtension::Operate, Operate method [ADSI], Operate method [ADSI], IADsExtension interface, Operate,IADsExtension.Operate, _ds_iadsextension_operate, adsi.iadsextension__operate, adsi.iadsextension_operate, iads/IADsExtension::Operate
+ms.keywords: ADS_EXT_INITCREDENTIALS, IADsExtension interface [ADSI],Operate method, IADsExtension.Operate, IADsExtension::Operate, Operate, Operate method [ADSI], Operate method [ADSI],IADsExtension interface, _ds_iadsextension_operate, adsi.iadsextension__operate, adsi.iadsextension_operate, iads/IADsExtension::Operate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsExtension::Operate method
+# IADsExtension::Operate
 
 
 ## -description

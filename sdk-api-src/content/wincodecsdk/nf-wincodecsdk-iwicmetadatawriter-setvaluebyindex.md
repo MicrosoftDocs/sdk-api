@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.SetValueByIndex
-title: IWICMetadataWriter::SetValueByIndex method
+title: IWICMetadataWriter::SetValueByIndex
 author: windows-driver-content
 description: Sets the metadata item to the specified index.
 old-location: wic\_wic_codec_iwicmetadatawriter_setvaluebyindex.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 012ef661-c1cf-48fd-a748-223fa965f9a9
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICMetadataWriter, IWICMetadataWriter interface [Windows Imaging Component], SetValueByIndex method, IWICMetadataWriter::SetValueByIndex, SetValueByIndex method [Windows Imaging Component], SetValueByIndex method [Windows Imaging Component], IWICMetadataWriter interface, SetValueByIndex,IWICMetadataWriter.SetValueByIndex, _wic_codec_iwicmetadatawriter_setvaluebyindex, wic._wic_codec_iwicmetadatawriter_setvaluebyindex, wincodecsdk/IWICMetadataWriter::SetValueByIndex
+ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],SetValueByIndex method, IWICMetadataWriter.SetValueByIndex, IWICMetadataWriter::SetValueByIndex, SetValueByIndex, SetValueByIndex method [Windows Imaging Component], SetValueByIndex method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_setvaluebyindex, wic._wic_codec_iwicmetadatawriter_setvaluebyindex, wincodecsdk/IWICMetadataWriter::SetValueByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataWriter::SetValueByIndex method
+# IWICMetadataWriter::SetValueByIndex
 
 
 ## -description

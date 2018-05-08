@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulkCallback.OnStart
-title: IPortableDevicePropertiesBulkCallback::OnStart method
+title: IPortableDevicePropertiesBulkCallback::OnStart
 author: windows-driver-content
 description: The OnStart method is called by the SDK when a bulk operation started by IPortableDevicePropertiesBulk::Start is about to begin.
 old-location: wpdsdk\iportabledevicepropertiesbulkcallback_onstart.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: bde04e04-d36e-4471-b598-ee38dba9f614
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDevicePropertiesBulkCallback, IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK], OnStart method, IPortableDevicePropertiesBulkCallback::OnStart, IPortableDevicePropertiesBulkCallbackOnStart, OnStart method [Windows Portable Devices SDK], OnStart method [Windows Portable Devices SDK], IPortableDevicePropertiesBulkCallback interface, OnStart,IPortableDevicePropertiesBulkCallback.OnStart, portabledeviceapi/IPortableDevicePropertiesBulkCallback::OnStart, wpdsdk.iportabledevicepropertiesbulkcallback_onstart
+ms.keywords: IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK],OnStart method, IPortableDevicePropertiesBulkCallback.OnStart, IPortableDevicePropertiesBulkCallback::OnStart, IPortableDevicePropertiesBulkCallbackOnStart, OnStart, OnStart method [Windows Portable Devices SDK], OnStart method [Windows Portable Devices SDK],IPortableDevicePropertiesBulkCallback interface, portabledeviceapi/IPortableDevicePropertiesBulkCallback::OnStart, wpdsdk.iportabledevicepropertiesbulkcallback_onstart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDevicePropertiesBulkCallback::OnStart method
+# IPortableDevicePropertiesBulkCallback::OnStart
 
 
 ## -description

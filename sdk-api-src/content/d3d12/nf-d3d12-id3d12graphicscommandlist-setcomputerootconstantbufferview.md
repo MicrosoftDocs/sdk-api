@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetComputeRootConstantBufferView
-title: ID3D12GraphicsCommandList::SetComputeRootConstantBufferView method
+title: ID3D12GraphicsCommandList::SetComputeRootConstantBufferView
 author: windows-driver-content
 description: Sets a CPU descriptor handle for the constant buffer in the compute root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setcomputerootconstantbufferview.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: AEAB392F-365F-4EDB-AC57-FFAC40C800C0
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, SetComputeRootConstantBufferView method, ID3D12GraphicsCommandList::SetComputeRootConstantBufferView, SetComputeRootConstantBufferView method, SetComputeRootConstantBufferView method, ID3D12GraphicsCommandList interface, SetComputeRootConstantBufferView,ID3D12GraphicsCommandList.SetComputeRootConstantBufferView, d3d12/ID3D12GraphicsCommandList::SetComputeRootConstantBufferView, direct3d12.id3d12graphicscommandlist_setcomputerootconstantbufferview
+ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRootConstantBufferView method, ID3D12GraphicsCommandList.SetComputeRootConstantBufferView, ID3D12GraphicsCommandList::SetComputeRootConstantBufferView, SetComputeRootConstantBufferView, SetComputeRootConstantBufferView method, SetComputeRootConstantBufferView method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRootConstantBufferView, direct3d12.id3d12graphicscommandlist_setcomputerootconstantbufferview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::SetComputeRootConstantBufferView method
+# ID3D12GraphicsCommandList::SetComputeRootConstantBufferView
 
 
 ## -description

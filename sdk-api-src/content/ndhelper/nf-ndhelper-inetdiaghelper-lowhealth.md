@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.LowHealth
-title: INetDiagHelper::LowHealth method
+title: INetDiagHelper::LowHealth
 author: windows-driver-content
 description: Check whether the component being diagnosed is healthy.
 old-location: ndf\inetdiaghelpe_lowhealth.htm
@@ -8,7 +8,7 @@ old-project: NDF
 ms.assetid: 623de90f-c2dc-4879-9baf-4051d2d3691c
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: INetDiagHelper, INetDiagHelper interface [NDF], LowHealth method, INetDiagHelper::LowHealth, LowHealth method [NDF], LowHealth method [NDF], INetDiagHelper interface, LowHealth,INetDiagHelper.LowHealth, ndf.inetdiaghelpe_lowhealth, ndhelper/INetDiagHelper::LowHealth
+ms.keywords: INetDiagHelper interface [NDF],LowHealth method, INetDiagHelper.LowHealth, INetDiagHelper::LowHealth, LowHealth, LowHealth method [NDF], LowHealth method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_lowhealth, ndhelper/INetDiagHelper::LowHealth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetDiagHelper::LowHealth method
+# INetDiagHelper::LowHealth
 
 
 ## -description

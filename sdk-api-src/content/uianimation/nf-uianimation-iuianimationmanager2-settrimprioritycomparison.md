@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.SetTrimPriorityComparison
-title: IUIAnimationManager2::SetTrimPriorityComparison method
+title: IUIAnimationManager2::SetTrimPriorityComparison
 author: windows-driver-content
 description: Sets the priority comparison handler that determines whether a scheduled storyboard can be trimmed.
 old-location: uianimation\iuianimationmanager2_settrimprioritycomparison.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 742BCD19-FC1D-46DE-9CBC-716793259947
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationManager2, IUIAnimationManager2 interface [Windows Animation], SetTrimPriorityComparison method, IUIAnimationManager2::SetTrimPriorityComparison, SetTrimPriorityComparison method [Windows Animation], SetTrimPriorityComparison method [Windows Animation], IUIAnimationManager2 interface, SetTrimPriorityComparison,IUIAnimationManager2.SetTrimPriorityComparison, uianimation.iuianimationmanager2_settrimprioritycomparison, uianimation/IUIAnimationManager2::SetTrimPriorityComparison
+ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetTrimPriorityComparison method, IUIAnimationManager2.SetTrimPriorityComparison, IUIAnimationManager2::SetTrimPriorityComparison, SetTrimPriorityComparison, SetTrimPriorityComparison method [Windows Animation], SetTrimPriorityComparison method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_settrimprioritycomparison, uianimation/IUIAnimationManager2::SetTrimPriorityComparison
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager2::SetTrimPriorityComparison method
+# IUIAnimationManager2::SetTrimPriorityComparison
 
 
 ## -description

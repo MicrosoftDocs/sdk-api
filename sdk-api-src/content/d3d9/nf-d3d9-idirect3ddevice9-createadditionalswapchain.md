@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreateAdditionalSwapChain
-title: IDirect3DDevice9::CreateAdditionalSwapChain method
+title: IDirect3DDevice9::CreateAdditionalSwapChain
 author: windows-driver-content
 description: Creates an additional swap chain for rendering multiple views.
 old-location: direct3d9\idirect3ddevice9__createadditionalswapchain.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createadditionalswapchain.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: CreateAdditionalSwapChain method [Direct3D 9], CreateAdditionalSwapChain method [Direct3D 9], IDirect3DDevice9 interface, CreateAdditionalSwapChain,IDirect3DDevice9.CreateAdditionalSwapChain, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], CreateAdditionalSwapChain method, IDirect3DDevice9::CreateAdditionalSwapChain, d3d9helper/IDirect3DDevice9::CreateAdditionalSwapChain, dfcccfc0-344b-6e23-2c24-36b11bf7c90b, direct3d9.idirect3ddevice9__createadditionalswapchain
+ms.keywords: CreateAdditionalSwapChain, CreateAdditionalSwapChain method [Direct3D 9], CreateAdditionalSwapChain method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateAdditionalSwapChain method, IDirect3DDevice9.CreateAdditionalSwapChain, IDirect3DDevice9::CreateAdditionalSwapChain, d3d9helper/IDirect3DDevice9::CreateAdditionalSwapChain, dfcccfc0-344b-6e23-2c24-36b11bf7c90b, direct3d9.idirect3ddevice9__createadditionalswapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::CreateAdditionalSwapChain method
+# IDirect3DDevice9::CreateAdditionalSwapChain
 
 
 ## -description

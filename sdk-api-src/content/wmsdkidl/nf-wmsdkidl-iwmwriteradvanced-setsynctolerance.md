@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.SetSyncTolerance
-title: IWMWriterAdvanced::SetSyncTolerance method
+title: IWMWriterAdvanced::SetSyncTolerance
 author: windows-driver-content
 description: The SetSyncTolerance method sets the amount of time that the inputs can fall out of synchronization before the samples are discarded.
 old-location: wmformat\iwmwriteradvanced_setsynctolerance.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: d60020bf-52f1-46a0-aeae-367e3b179fac
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterAdvanced, IWMWriterAdvanced interface [windows Media Format], SetSyncTolerance method, IWMWriterAdvanced::SetSyncTolerance, IWMWriterAdvancedSetSyncTolerance, SetSyncTolerance method [windows Media Format], SetSyncTolerance method [windows Media Format], IWMWriterAdvanced interface, SetSyncTolerance,IWMWriterAdvanced.SetSyncTolerance, wmformat.iwmwriteradvanced_setsynctolerance, wmsdkidl/IWMWriterAdvanced::SetSyncTolerance
+ms.keywords: IWMWriterAdvanced interface [windows Media Format],SetSyncTolerance method, IWMWriterAdvanced.SetSyncTolerance, IWMWriterAdvanced::SetSyncTolerance, IWMWriterAdvancedSetSyncTolerance, SetSyncTolerance, SetSyncTolerance method [windows Media Format], SetSyncTolerance method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_setsynctolerance, wmsdkidl/IWMWriterAdvanced::SetSyncTolerance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterAdvanced::SetSyncTolerance method
+# IWMWriterAdvanced::SetSyncTolerance
 
 
 ## -description

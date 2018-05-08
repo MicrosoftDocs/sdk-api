@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll4.get_IncludeSubjectKeyID
-title: IEnroll4::get_IncludeSubjectKeyID method
+title: IEnroll4::get_IncludeSubjectKeyID
 author: windows-driver-content
 description: The IncludeSubjectKeyID property of IEnroll4 determines whether the subject key ID extension is added to the certificate request that is generated.
 old-location: security\ienroll4_includesubjectkeyid.htm
 old-project: SecCrypto
 ms.assetid: 76b85d63-374c-4ce1-97d4-95f42ddcd53f
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll4, IEnroll4 interface [Security], IncludeSubjectKeyID property, IEnroll4.IncludeSubjectKeyID, IEnroll4::get_IncludeSubjectKeyID, IEnroll4::put_IncludeSubjectKeyID, IncludeSubjectKeyID property [Security], IncludeSubjectKeyID property [Security], IEnroll4 interface, get_IncludeSubjectKeyID,IEnroll4.get_IncludeSubjectKeyID, security.ienroll4_includesubjectkeyid, xenroll/IEnroll4::IncludeSubjectKeyID, xenroll/IEnroll4::get_IncludeSubjectKeyID, xenroll/IEnroll4::put_IncludeSubjectKeyID
+ms.date: 4/30/2018
+ms.keywords: IEnroll4 interface [Security],IncludeSubjectKeyID property, IEnroll4.IncludeSubjectKeyID, IEnroll4.get_IncludeSubjectKeyID, IEnroll4::IncludeSubjectKeyID, IEnroll4::get_IncludeSubjectKeyID, IEnroll4::put_IncludeSubjectKeyID, IncludeSubjectKeyID property [Security], IncludeSubjectKeyID property [Security],IEnroll4 interface, get_IncludeSubjectKeyID, security.ienroll4_includesubjectkeyid, xenroll/IEnroll4::IncludeSubjectKeyID, xenroll/IEnroll4::get_IncludeSubjectKeyID, xenroll/IEnroll4::put_IncludeSubjectKeyID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll4::get_IncludeSubjectKeyID method
+# IEnroll4::get_IncludeSubjectKeyID
 
 
 ## -description

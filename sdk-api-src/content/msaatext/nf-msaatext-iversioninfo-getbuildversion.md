@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IVersionInfo.GetBuildVersion
-title: IVersionInfo::GetBuildVersion method
+title: IVersionInfo::GetBuildVersion
 author: windows-driver-content
 description: Clients call IVersionInfo::GetBuildVersion to retrieve build information for a specified component.
 old-location: winauto\iversioninfo_iversioninfo__getbuildversion.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: ae54ad59-665c-494c-8054-3f19aec9968f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetBuildVersion method [Windows Accessibility], GetBuildVersion method [Windows Accessibility], IVersionInfo interface, GetBuildVersion,IVersionInfo.GetBuildVersion, IVersionInfo, IVersionInfo interface [Windows Accessibility], GetBuildVersion method, IVersionInfo::GetBuildVersion, _msaa_IVersionInfo_GetBuildVersion, msaa.iversioninfo_iversioninfo__getbuildversion, msaatext/IVersionInfo::GetBuildVersion, winauto.iversioninfo_iversioninfo__getbuildversion
+ms.keywords: GetBuildVersion, GetBuildVersion method [Windows Accessibility], GetBuildVersion method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetBuildVersion method, IVersionInfo.GetBuildVersion, IVersionInfo::GetBuildVersion, _msaa_IVersionInfo_GetBuildVersion, msaa.iversioninfo_iversioninfo__getbuildversion, msaatext/IVersionInfo::GetBuildVersion, winauto.iversioninfo_iversioninfo__getbuildversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IVersionInfo::GetBuildVersion method
+# IVersionInfo::GetBuildVersion
 
 
 ## -description

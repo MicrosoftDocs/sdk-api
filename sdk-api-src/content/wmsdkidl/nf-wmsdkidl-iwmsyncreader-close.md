@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.Close
-title: IWMSyncReader::Close method
+title: IWMSyncReader::Close
 author: windows-driver-content
 description: The Close method removes a file from the synchronous reader.
 old-location: wmformat\iwmsyncreader_close.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 98f5a44f-dc34-4732-b497-5528de6af1c3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: Close method [windows Media Format], Close method [windows Media Format], IWMSyncReader interface, Close,IWMSyncReader.Close, IWMSyncReader, IWMSyncReader interface [windows Media Format], Close method, IWMSyncReader::Close, IWMSyncReaderClose, wmformat.iwmsyncreader_close, wmsdkidl/IWMSyncReader::Close
+ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],Close method, IWMSyncReader.Close, IWMSyncReader::Close, IWMSyncReaderClose, wmformat.iwmsyncreader_close, wmsdkidl/IWMSyncReader::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSyncReader::Close method
+# IWMSyncReader::Close
 
 
 ## -description

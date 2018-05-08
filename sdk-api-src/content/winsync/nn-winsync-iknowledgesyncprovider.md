@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 396bbf7e-7fd0-4a2e-8304-f87097cd5e50
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IKnowledgeSyncProvider, IKnowledgeSyncProvider interface [Windows Sync], IKnowledgeSyncProvider interface [Windows Sync], described, winsync.iknowledgesyncprovider, winsync/IKnowledgeSyncProvider
+ms.keywords: IKnowledgeSyncProvider, IKnowledgeSyncProvider interface [Windows Sync], IKnowledgeSyncProvider interface [Windows Sync],described, winsync.iknowledgesyncprovider, winsync/IKnowledgeSyncProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

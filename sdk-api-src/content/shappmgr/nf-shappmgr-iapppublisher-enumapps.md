@@ -1,14 +1,14 @@
 ---
 UID: NF:shappmgr.IAppPublisher.EnumApps
-title: IAppPublisher::EnumApps method
+title: IAppPublisher::EnumApps
 author: windows-driver-content
 description: Creates an enumerator for enumerating all applications published by an application publisher for a given category.
 old-location: shell\IAppPublisher_EnumApps.htm
 old-project: shell
 ms.assetid: b24c3007-662a-4c42-9ca7-367180152deb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: EnumApps method [Windows Shell], EnumApps method [Windows Shell], IAppPublisher interface, EnumApps,IAppPublisher.EnumApps, IAppPublisher, IAppPublisher interface [Windows Shell], EnumApps method, IAppPublisher::EnumApps, inet_IAppPublisher_EnumApps, shappmgr/IAppPublisher::EnumApps, shell.IAppPublisher_EnumApps
+ms.date: 5/3/2018
+ms.keywords: EnumApps, EnumApps method [Windows Shell], EnumApps method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],EnumApps method, IAppPublisher.EnumApps, IAppPublisher::EnumApps, inet_IAppPublisher_EnumApps, shappmgr/IAppPublisher::EnumApps, shell.IAppPublisher_EnumApps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAppPublisher::EnumApps method
+# IAppPublisher::EnumApps
 
 
 ## -description

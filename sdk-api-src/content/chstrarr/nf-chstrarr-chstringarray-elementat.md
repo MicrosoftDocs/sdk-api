@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.ElementAt
-title: CHStringArray::ElementAt method
+title: CHStringArray::ElementAt
 author: windows-driver-content
 description: The ElementAt method returns a temporary reference to the element pointer within the array.
 old-location: wmi\chstringarray_elementat.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 5431a9ae-e009-4457-87e4-bb91da8bfdb6
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CHStringArray, CHStringArray interface [Windows Management Instrumentation], ElementAt method, CHStringArray::ElementAt, ElementAt method [Windows Management Instrumentation], ElementAt method [Windows Management Instrumentation], CHStringArray interface, ElementAt,CHStringArray.ElementAt, _hmm_chstringarray_elementat, chstrarr/CHStringArray::ElementAt, wmi.chstringarray_elementat
+ms.keywords: CHStringArray interface [Windows Management Instrumentation],ElementAt method, CHStringArray.ElementAt, CHStringArray::ElementAt, ElementAt, ElementAt method [Windows Management Instrumentation], ElementAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_elementat, chstrarr/CHStringArray::ElementAt, wmi.chstringarray_elementat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHStringArray::ElementAt method
+# CHStringArray::ElementAt
 
 
 ## -description

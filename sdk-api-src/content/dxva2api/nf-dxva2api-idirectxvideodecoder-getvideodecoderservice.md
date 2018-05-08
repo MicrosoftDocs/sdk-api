@@ -1,14 +1,14 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.GetVideoDecoderService
-title: IDirectXVideoDecoder::GetVideoDecoderService method
+title: IDirectXVideoDecoder::GetVideoDecoderService
 author: windows-driver-content
 description: Retrieves the DirectX Video Acceleration (DXVA) decoder service that created this decoder device.
 old-location: mf\idirectxvideodecoder_getvideodecoderservice.htm
 old-project: medfound
 ms.assetid: 092c49cd-6bfc-4ed0-9378-5751ad19296c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 092c49cd-6bfc-4ed0-9378-5751ad19296c, GetVideoDecoderService method [Media Foundation], GetVideoDecoderService method [Media Foundation], IDirectXVideoDecoder interface, GetVideoDecoderService,IDirectXVideoDecoder.GetVideoDecoderService, IDirectXVideoDecoder, IDirectXVideoDecoder interface [Media Foundation], GetVideoDecoderService method, IDirectXVideoDecoder::GetVideoDecoderService, dxva2api/IDirectXVideoDecoder::GetVideoDecoderService, mf.idirectxvideodecoder_getvideodecoderservice
+ms.date: 5/3/2018
+ms.keywords: 092c49cd-6bfc-4ed0-9378-5751ad19296c, GetVideoDecoderService, GetVideoDecoderService method [Media Foundation], GetVideoDecoderService method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],GetVideoDecoderService method, IDirectXVideoDecoder.GetVideoDecoderService, IDirectXVideoDecoder::GetVideoDecoderService, dxva2api/IDirectXVideoDecoder::GetVideoDecoderService, mf.idirectxvideodecoder_getvideodecoderservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDirectXVideoDecoder::GetVideoDecoderService method
+# IDirectXVideoDecoder::GetVideoDecoderService
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorTransformFactory.CreateTransform
-title: IMFSensorTransformFactory::CreateTransform method
+title: IMFSensorTransformFactory::CreateTransform
 author: windows-driver-content
 description: Called by the media pipeline to create the transform.
 old-location: mf\imfsensortransformfactory_createtransform.htm
 old-project: medfound
 ms.assetid: 90F986B1-7E1A-43AC-A633-34DD9D53D634
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreateTransform method [Media Foundation], CreateTransform method [Media Foundation], IMFSensorTransformFactory interface, CreateTransform,IMFSensorTransformFactory.CreateTransform, IMFSensorTransformFactory, IMFSensorTransformFactory interface [Media Foundation], CreateTransform method, IMFSensorTransformFactory::CreateTransform, mf.imfsensortransformfactory_createtransform, mfidl/IMFSensorTransformFactory::CreateTransform
+ms.date: 5/3/2018
+ms.keywords: CreateTransform, CreateTransform method [Media Foundation], CreateTransform method [Media Foundation],IMFSensorTransformFactory interface, IMFSensorTransformFactory interface [Media Foundation],CreateTransform method, IMFSensorTransformFactory.CreateTransform, IMFSensorTransformFactory::CreateTransform, mf.imfsensortransformfactory_createtransform, mfidl/IMFSensorTransformFactory::CreateTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorTransformFactory::CreateTransform method
+# IMFSensorTransformFactory::CreateTransform
 
 
 ## -description

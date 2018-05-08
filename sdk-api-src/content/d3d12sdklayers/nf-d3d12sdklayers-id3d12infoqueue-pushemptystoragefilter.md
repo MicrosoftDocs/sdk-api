@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PushEmptyStorageFilter
-title: ID3D12InfoQueue::PushEmptyStorageFilter method
+title: ID3D12InfoQueue::PushEmptyStorageFilter
 author: windows-driver-content
 description: Push an empty storage filter onto the storage-filter stack.
 old-location: direct3d12\id3d12infoqueue_pushemptystoragefilter.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 27D7B243-934E-440F-8571-914D7EAF355E
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12InfoQueue, ID3D12InfoQueue interface, PushEmptyStorageFilter method, ID3D12InfoQueue::PushEmptyStorageFilter, PushEmptyStorageFilter method, PushEmptyStorageFilter method, ID3D12InfoQueue interface, PushEmptyStorageFilter,ID3D12InfoQueue.PushEmptyStorageFilter, d3d12sdklayers/ID3D12InfoQueue::PushEmptyStorageFilter, direct3d12.id3d12infoqueue_pushemptystoragefilter
+ms.keywords: ID3D12InfoQueue interface,PushEmptyStorageFilter method, ID3D12InfoQueue.PushEmptyStorageFilter, ID3D12InfoQueue::PushEmptyStorageFilter, PushEmptyStorageFilter, PushEmptyStorageFilter method, PushEmptyStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushEmptyStorageFilter, direct3d12.id3d12infoqueue_pushemptystoragefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12InfoQueue::PushEmptyStorageFilter method
+# ID3D12InfoQueue::PushEmptyStorageFilter
 
 
 ## -description

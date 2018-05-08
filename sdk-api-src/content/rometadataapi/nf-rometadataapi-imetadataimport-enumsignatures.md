@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumSignatures
-title: IMetaDataImport::EnumSignatures method
+title: IMetaDataImport::EnumSignatures
 author: windows-driver-content
 description: Enumerates Signature tokens representing stand-alone signatures in the current scope.
 old-location: winrt\imetadataimport_enumsignatures.htm
 old-project: WinRT
 ms.assetid: 311cfa18-6eb5-4872-9a46-3c8dcf901f4f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumSignatures method [Windows Runtime], EnumSignatures method [Windows Runtime], IMetaDataImport interface, EnumSignatures,IMetaDataImport.EnumSignatures, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumSignatures method, IMetaDataImport::EnumSignatures, rometadataapi/IMetaDataImport::EnumSignatures, winrt.imetadataimport_enumsignatures
+ms.date: 5/4/2018
+ms.keywords: EnumSignatures, EnumSignatures method [Windows Runtime], EnumSignatures method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumSignatures method, IMetaDataImport.EnumSignatures, IMetaDataImport::EnumSignatures, rometadataapi/IMetaDataImport::EnumSignatures, winrt.imetadataimport_enumsignatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumSignatures method
+# IMetaDataImport::EnumSignatures
 
 
 ## -description

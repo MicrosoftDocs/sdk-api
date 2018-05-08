@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.put_MonitorCommand
-title: IFsrmActionCommand::put_MonitorCommand method
+title: IFsrmActionCommand::put_MonitorCommand
 author: windows-driver-content
 description: Retrieves or sets a value that determines whether FSRM will monitor the executable program specified in the ExecutablePath property.
 old-location: fsrm\ifsrmactioncommand_monitorcommand.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 7aa420de-9be5-4333-a511-23e0443e633b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmActionCommand, IFsrmActionCommand interface [File Server Resource Manager], MonitorCommand property, IFsrmActionCommand.MonitorCommand, IFsrmActionCommand::get_MonitorCommand, IFsrmActionCommand::put_MonitorCommand, MonitorCommand property [File Server Resource Manager], MonitorCommand property [File Server Resource Manager], IFsrmActionCommand interface, fs.ifsrmactioncommand_monitorcommand, fsrm.ifsrmactioncommand_monitorcommand, fsrm/IFsrmActionCommand::MonitorCommand, fsrm/IFsrmActionCommand::get_MonitorCommand, fsrm/IFsrmActionCommand::put_MonitorCommand, put_MonitorCommand,IFsrmActionCommand.put_MonitorCommand
+ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],MonitorCommand property, IFsrmActionCommand.MonitorCommand, IFsrmActionCommand.put_MonitorCommand, IFsrmActionCommand::MonitorCommand, IFsrmActionCommand::get_MonitorCommand, IFsrmActionCommand::put_MonitorCommand, MonitorCommand property [File Server Resource Manager], MonitorCommand property [File Server Resource Manager],IFsrmActionCommand interface, fs.ifsrmactioncommand_monitorcommand, fsrm.ifsrmactioncommand_monitorcommand, fsrm/IFsrmActionCommand::MonitorCommand, fsrm/IFsrmActionCommand::get_MonitorCommand, fsrm/IFsrmActionCommand::put_MonitorCommand, put_MonitorCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmActionCommand::put_MonitorCommand method
+# IFsrmActionCommand::put_MonitorCommand
 
 
 ## -description

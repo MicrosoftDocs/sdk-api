@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.GetInitialRegisterContents
-title: ID3D11ShaderTrace::GetInitialRegisterContents method
+title: ID3D11ShaderTrace::GetInitialRegisterContents
 author: windows-driver-content
 description: Retrieves the initial contents of the specified input register.
 old-location: direct3d11\id3d11shadertrace_getinitialregistercontents.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 35BC4F23-64E0-4E45-A621-925A5CA20AFE
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GetInitialRegisterContents method [Direct3D 11], GetInitialRegisterContents method [Direct3D 11], ID3D11ShaderTrace interface, GetInitialRegisterContents,ID3D11ShaderTrace.GetInitialRegisterContents, ID3D11ShaderTrace, ID3D11ShaderTrace interface [Direct3D 11], GetInitialRegisterContents method, ID3D11ShaderTrace::GetInitialRegisterContents, d3d11shadertracing/ID3D11ShaderTrace::GetInitialRegisterContents, direct3d11.id3d11shadertrace_getinitialregistercontents
+ms.keywords: GetInitialRegisterContents, GetInitialRegisterContents method [Direct3D 11], GetInitialRegisterContents method [Direct3D 11],ID3D11ShaderTrace interface, ID3D11ShaderTrace interface [Direct3D 11],GetInitialRegisterContents method, ID3D11ShaderTrace.GetInitialRegisterContents, ID3D11ShaderTrace::GetInitialRegisterContents, d3d11shadertracing/ID3D11ShaderTrace::GetInitialRegisterContents, direct3d11.id3d11shadertrace_getinitialregistercontents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: D3D11SDKLayers.dll; D3D11_1SDKLayers.dll; D3D11_2SDKLayers.dll
 req.irql: 
 ---
 
-# ID3D11ShaderTrace::GetInitialRegisterContents method
+# ID3D11ShaderTrace::GetInitialRegisterContents
 
 
 ## -description

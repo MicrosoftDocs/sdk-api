@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_EIT.GetSourceId
-title: IATSC_EIT::GetSourceId method
+title: IATSC_EIT::GetSourceId
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_eit_getsourceid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2ab6709e-3d96-4388-a9b2-97a2f04a4eae
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetSourceId method [Microsoft TV Technologies], GetSourceId method [Microsoft TV Technologies], IATSC_EIT interface, GetSourceId,IATSC_EIT.GetSourceId, IATSC_EIT, IATSC_EIT interface [Microsoft TV Technologies], GetSourceId method, IATSC_EIT::GetSourceId, IATSC_EITGetSourceId, atscpsipparser/IATSC_EIT::GetSourceId, mstv.iatsc_eit_getsourceid
+ms.keywords: GetSourceId, GetSourceId method [Microsoft TV Technologies], GetSourceId method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetSourceId method, IATSC_EIT.GetSourceId, IATSC_EIT::GetSourceId, IATSC_EITGetSourceId, atscpsipparser/IATSC_EIT::GetSourceId, mstv.iatsc_eit_getsourceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_EIT::GetSourceId method
+# IATSC_EIT::GetSourceId
 
 
 ## -description

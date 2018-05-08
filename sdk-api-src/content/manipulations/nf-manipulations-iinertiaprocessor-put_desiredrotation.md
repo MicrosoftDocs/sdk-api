@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_DesiredRotation
-title: IInertiaProcessor::put_DesiredRotation method
+title: IInertiaProcessor::put_DesiredRotation
 author: windows-driver-content
 description: The DesiredRotation property specifies how far the current inertia processor object should manipulate the target object in radians.
 old-location: wintouch\iinertiaprocessor_desiredrotation.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 42fcda66-8992-4a44-b4d5-04d4f2c7e25a
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DesiredRotation property [Windows Touch], DesiredRotation property [Windows Touch], IInertiaProcessor interface, IInertiaProcessor, IInertiaProcessor interface [Windows Touch], DesiredRotation property, IInertiaProcessor.DesiredRotation, IInertiaProcessor::get_DesiredRotation, IInertiaProcessor::put_DesiredRotation, manipulations/IInertiaProcessor::DesiredRotation, manipulations/IInertiaProcessor::get_DesiredRotation, manipulations/IInertiaProcessor::put_DesiredRotation, put_DesiredRotation,IInertiaProcessor.put_DesiredRotation, wintouch.iinertiaprocessor_desiredrotation
+ms.keywords: DesiredRotation property [Windows Touch], DesiredRotation property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredRotation property, IInertiaProcessor.DesiredRotation, IInertiaProcessor.put_DesiredRotation, IInertiaProcessor::DesiredRotation, IInertiaProcessor::get_DesiredRotation, IInertiaProcessor::put_DesiredRotation, manipulations/IInertiaProcessor::DesiredRotation, manipulations/IInertiaProcessor::get_DesiredRotation, manipulations/IInertiaProcessor::put_DesiredRotation, put_DesiredRotation, wintouch.iinertiaprocessor_desiredrotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInertiaProcessor::put_DesiredRotation method
+# IInertiaProcessor::put_DesiredRotation
 
 
 ## -description

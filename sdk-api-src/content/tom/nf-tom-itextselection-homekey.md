@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextSelection.HomeKey
-title: ITextSelection::HomeKey method
+title: ITextSelection::HomeKey
 author: windows-driver-content
 description: Generalizes the functionality of the Home key.
 old-location: controls\ITextSelection_HomeKey.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\homekey.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: HomeKey method [Windows Controls], HomeKey method [Windows Controls], ITextSelection interface, HomeKey,ITextSelection.HomeKey, ITextSelection, ITextSelection interface [Windows Controls], HomeKey method, ITextSelection::HomeKey, _win32_ITextSelection_HomeKey, _win32_ITextSelection_HomeKey_cpp, controls.ITextSelection_HomeKey, controls._win32_ITextSelection_HomeKey, tom/ITextSelection::HomeKey, tomColumn, tomLine, tomRow, tomStory
+ms.date: 4/27/2018
+ms.keywords: HomeKey, HomeKey method [Windows Controls], HomeKey method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],HomeKey method, ITextSelection.HomeKey, ITextSelection::HomeKey, _win32_ITextSelection_HomeKey, _win32_ITextSelection_HomeKey_cpp, controls.ITextSelection_HomeKey, controls._win32_ITextSelection_HomeKey, tom/ITextSelection::HomeKey, tomColumn, tomLine, tomRow, tomStory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextSelection::HomeKey method
+# ITextSelection::HomeKey
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoDevice1.GetVideoDecoderCaps
-title: ID3D11VideoDevice1::GetVideoDecoderCaps method
+title: ID3D11VideoDevice1::GetVideoDecoderCaps
 author: windows-driver-content
 description: Retrieves capabilities and limitations of the video decoder.
 old-location: mf\id3d11videodevice1_getvideodecodercaps.htm
 old-project: medfound
 ms.assetid: 9F978BE5-568E-440C-B9B2-0972893FD970
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoDecoderCaps method [Media Foundation], GetVideoDecoderCaps method [Media Foundation], ID3D11VideoDevice1 interface, GetVideoDecoderCaps,ID3D11VideoDevice1.GetVideoDecoderCaps, ID3D11VideoDevice1, ID3D11VideoDevice1 interface [Media Foundation], GetVideoDecoderCaps method, ID3D11VideoDevice1::GetVideoDecoderCaps, d3d11_1/ID3D11VideoDevice1::GetVideoDecoderCaps, mf.id3d11videodevice1_getvideodecodercaps
+ms.date: 5/3/2018
+ms.keywords: GetVideoDecoderCaps, GetVideoDecoderCaps method [Media Foundation], GetVideoDecoderCaps method [Media Foundation],ID3D11VideoDevice1 interface, ID3D11VideoDevice1 interface [Media Foundation],GetVideoDecoderCaps method, ID3D11VideoDevice1.GetVideoDecoderCaps, ID3D11VideoDevice1::GetVideoDecoderCaps, d3d11_1/ID3D11VideoDevice1::GetVideoDecoderCaps, mf.id3d11videodevice1_getvideodecodercaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoDevice1::GetVideoDecoderCaps method
+# ID3D11VideoDevice1::GetVideoDecoderCaps
 
 
 ## -description

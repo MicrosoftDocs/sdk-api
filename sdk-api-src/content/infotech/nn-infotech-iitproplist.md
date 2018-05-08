@@ -8,7 +8,7 @@ old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistinterface.htm
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IITPropList, IITPropList interface [HTML Help Workshop], IITPropList interface [HTML Help Workshop], described, htmlhelp.iitproplist, infotech/IITPropList, refIITPropListInterface
+ms.keywords: IITPropList, IITPropList interface [HTML Help Workshop], IITPropList interface [HTML Help Workshop],described, htmlhelp.iitproplist, infotech/IITPropList, refIITPropListInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecComp.Cancel
-title: IStreamBufferRecComp::Cancel method
+title: IStreamBufferRecComp::Cancel
 author: windows-driver-content
 description: The Cancel method cancels an append operation, if one is in progress. Otherwise, it has no effect.
 old-location: mstv\istreambufferreccomp_cancel.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d7355f5d-034c-404f-b6c7-02c04c87285d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Cancel method [Microsoft TV Technologies], Cancel method [Microsoft TV Technologies], IStreamBufferRecComp interface, Cancel,IStreamBufferRecComp.Cancel, IStreamBufferRecComp, IStreamBufferRecComp interface [Microsoft TV Technologies], Cancel method, IStreamBufferRecComp::Cancel, IStreamBufferRecCompCancel, mstv.istreambufferreccomp_cancel, sbe/IStreamBufferRecComp::Cancel
+ms.keywords: Cancel, Cancel method [Microsoft TV Technologies], Cancel method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],Cancel method, IStreamBufferRecComp.Cancel, IStreamBufferRecComp::Cancel, IStreamBufferRecCompCancel, mstv.istreambufferreccomp_cancel, sbe/IStreamBufferRecComp::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferRecComp::Cancel method
+# IStreamBufferRecComp::Cancel
 
 
 ## -description

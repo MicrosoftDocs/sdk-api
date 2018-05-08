@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.VSGetSamplers
-title: ID3D11DeviceContext::VSGetSamplers method
+title: ID3D11DeviceContext::VSGetSamplers
 author: windows-driver-content
 description: Get an array of sampler states from the vertex shader pipeline stage.
 old-location: direct3d11\id3d11devicecontext_vsgetsamplers.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 0b8cbdfe-58e1-46f0-86c1-22da8178d296
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], VSGetSamplers method, ID3D11DeviceContext::VSGetSamplers, VSGetSamplers method [Direct3D 11], VSGetSamplers method [Direct3D 11], ID3D11DeviceContext interface, VSGetSamplers,ID3D11DeviceContext.VSGetSamplers, d3d11/ID3D11DeviceContext::VSGetSamplers, da7916b1-64dc-68da-7790-065a4977bd36, direct3d11.id3d11devicecontext_vsgetsamplers
+ms.keywords: ID3D11DeviceContext interface [Direct3D 11],VSGetSamplers method, ID3D11DeviceContext.VSGetSamplers, ID3D11DeviceContext::VSGetSamplers, VSGetSamplers, VSGetSamplers method [Direct3D 11], VSGetSamplers method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::VSGetSamplers, da7916b1-64dc-68da-7790-065a4977bd36, direct3d11.id3d11devicecontext_vsgetsamplers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::VSGetSamplers method
+# ID3D11DeviceContext::VSGetSamplers
 
 
 ## -description

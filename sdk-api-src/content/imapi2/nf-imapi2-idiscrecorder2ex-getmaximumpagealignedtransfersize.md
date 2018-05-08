@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetMaximumPageAlignedTransferSize
-title: IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize method
+title: IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize
 author: windows-driver-content
 description: Retrieves the maximum page-aligned transfer size for the device.
 old-location: imapi\idiscrecorder2ex_getmaximumpagealignedtransfersize.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 6bf25c61-e87c-4ccf-a989-1c2715709d4a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetMaximumPageAlignedTransferSize method [IMAPI], GetMaximumPageAlignedTransferSize method [IMAPI], IDiscRecorder2Ex interface, GetMaximumPageAlignedTransferSize,IDiscRecorder2Ex.GetMaximumPageAlignedTransferSize, IDiscRecorder2Ex, IDiscRecorder2Ex interface [IMAPI], GetMaximumPageAlignedTransferSize method, IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize, imapi.idiscrecorder2ex_getmaximumpagealignedtransfersize, imapi2/IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize
+ms.keywords: GetMaximumPageAlignedTransferSize, GetMaximumPageAlignedTransferSize method [IMAPI], GetMaximumPageAlignedTransferSize method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetMaximumPageAlignedTransferSize method, IDiscRecorder2Ex.GetMaximumPageAlignedTransferSize, IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize, imapi.idiscrecorder2ex_getmaximumpagealignedtransfersize, imapi2/IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize method
+# IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize
 
 
 ## -description

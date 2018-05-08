@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 7b0a36d6-1af1-4c2c-af14-d6139e9115c3
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], IXpsOMPackage interface [XPS Documents and Packaging], described, xps.ixpsompackage, xpsobjectmodel/IXpsOMPackage
+ms.keywords: IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], IXpsOMPackage interface [XPS Documents and Packaging],described, xps.ixpsompackage, xpsobjectmodel/IXpsOMPackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

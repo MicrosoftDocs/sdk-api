@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecComp.AppendEx
-title: IStreamBufferRecComp::AppendEx method
+title: IStreamBufferRecComp::AppendEx
 author: windows-driver-content
 description: The AppendEx method appends part of a recording to the target file.
 old-location: mstv\istreambufferreccomp_appendex.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9ff4c918-64f7-4c64-b79b-7fe7d7783550
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AppendEx method [Microsoft TV Technologies], AppendEx method [Microsoft TV Technologies], IStreamBufferRecComp interface, AppendEx,IStreamBufferRecComp.AppendEx, IStreamBufferRecComp, IStreamBufferRecComp interface [Microsoft TV Technologies], AppendEx method, IStreamBufferRecComp::AppendEx, IStreamBufferRecCompAppendEx, mstv.istreambufferreccomp_appendex, sbe/IStreamBufferRecComp::AppendEx
+ms.keywords: AppendEx, AppendEx method [Microsoft TV Technologies], AppendEx method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],AppendEx method, IStreamBufferRecComp.AppendEx, IStreamBufferRecComp::AppendEx, IStreamBufferRecCompAppendEx, mstv.istreambufferreccomp_appendex, sbe/IStreamBufferRecComp::AppendEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferRecComp::AppendEx method
+# IStreamBufferRecComp::AppendEx
 
 
 ## -description

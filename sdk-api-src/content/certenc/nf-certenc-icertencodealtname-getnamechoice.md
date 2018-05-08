@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.GetNameChoice
-title: ICertEncodeAltName::GetNameChoice method
+title: ICertEncodeAltName::GetNameChoice
 author: windows-driver-content
 description: Returns the name choice at a specified index of an alternate name array.
 old-location: security\icertencodealtname_getnamechoice.htm
 old-project: SecCrypto
 ms.assetid: 3b21fbc7-cba1-49b1-bad6-232f717e3056
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeAltName object [Security], GetNameChoice method, GetNameChoice method [Security], GetNameChoice method [Security], CCertEncodeAltName object, GetNameChoice method [Security], ICertEncodeAltName interface, GetNameChoice,ICertEncodeAltName.GetNameChoice, ICertEncodeAltName, ICertEncodeAltName interface [Security], GetNameChoice method, ICertEncodeAltName::GetNameChoice, _certsrv_icertencodealtname_getnamechoice, certenc/ICertEncodeAltName::GetNameChoice, security.icertencodealtname_getnamechoice
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeAltName object [Security],GetNameChoice method, GetNameChoice, GetNameChoice method [Security], GetNameChoice method [Security],CCertEncodeAltName object, GetNameChoice method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetNameChoice method, ICertEncodeAltName.GetNameChoice, ICertEncodeAltName::GetNameChoice, _certsrv_icertencodealtname_getnamechoice, certenc/ICertEncodeAltName::GetNameChoice, security.icertencodealtname_getnamechoice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeAltName::GetNameChoice method
+# ICertEncodeAltName::GetNameChoice
 
 
 ## -description

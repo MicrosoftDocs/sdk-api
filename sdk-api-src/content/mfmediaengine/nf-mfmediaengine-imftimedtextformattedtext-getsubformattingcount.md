@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextFormattedText.GetSubformattingCount
-title: IMFTimedTextFormattedText::GetSubformattingCount method
+title: IMFTimedTextFormattedText::GetSubformattingCount
 author: windows-driver-content
 description: Gets the number of subformats in the formatted timed-text object.
 old-location: mf\imftimedtextformattedtext_getsubformattingcount.htm
 old-project: medfound
 ms.assetid: 27F3172E-3D6A-4BF6-9610-CB517ECD202F
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetSubformattingCount method [Media Foundation], GetSubformattingCount method [Media Foundation], IMFTimedTextFormattedText interface, GetSubformattingCount,IMFTimedTextFormattedText.GetSubformattingCount, IMFTimedTextFormattedText, IMFTimedTextFormattedText interface [Media Foundation], GetSubformattingCount method, IMFTimedTextFormattedText::GetSubformattingCount, mf.imftimedtextformattedtext_getsubformattingcount, mfmediaengine/IMFTimedTextFormattedText::GetSubformattingCount
+ms.date: 5/3/2018
+ms.keywords: GetSubformattingCount, GetSubformattingCount method [Media Foundation], GetSubformattingCount method [Media Foundation],IMFTimedTextFormattedText interface, IMFTimedTextFormattedText interface [Media Foundation],GetSubformattingCount method, IMFTimedTextFormattedText.GetSubformattingCount, IMFTimedTextFormattedText::GetSubformattingCount, mf.imftimedtextformattedtext_getsubformattingcount, mfmediaengine/IMFTimedTextFormattedText::GetSubformattingCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextFormattedText::GetSubformattingCount method
+# IMFTimedTextFormattedText::GetSubformattingCount
 
 
 ## -description

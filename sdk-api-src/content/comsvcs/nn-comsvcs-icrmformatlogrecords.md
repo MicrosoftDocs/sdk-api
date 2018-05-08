@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: aa801bd0-5253-4f9f-8859-b808d4dc081b
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICrmFormatLogRecords, ICrmFormatLogRecords interface [COM+], ICrmFormatLogRecords interface [COM+], described, _dtc_ICrmFormatLogRecords_Interface, comsvcs/ICrmFormatLogRecords, cos.icrmformatlogrecords
+ms.keywords: ICrmFormatLogRecords, ICrmFormatLogRecords interface [COM+], ICrmFormatLogRecords interface [COM+],described, _dtc_ICrmFormatLogRecords_Interface, comsvcs/ICrmFormatLogRecords, cos.icrmformatlogrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.GetName
-title: ITextFont::GetName method
+title: ITextFont::GetName
 author: windows-driver-content
 description: Gets the font name.
 old-location: controls\ITextFont_GetName.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontgetname.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetName method [Windows Controls], GetName method [Windows Controls], ITextFont interface, GetName,ITextFont.GetName, ITextFont, ITextFont interface [Windows Controls], GetName method, ITextFont::GetName, _win32_ITextFont_GetName, _win32_ITextFont_GetName_cpp, controls.ITextFont_GetName, controls._win32_ITextFont_GetName, tom/ITextFont::GetName
+ms.date: 4/27/2018
+ms.keywords: GetName, GetName method [Windows Controls], GetName method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetName method, ITextFont.GetName, ITextFont::GetName, _win32_ITextFont_GetName, _win32_ITextFont_GetName_cpp, controls.ITextFont_GetName, controls._win32_ITextFont_GetName, tom/ITextFont::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::GetName method
+# ITextFont::GetName
 
 
 ## -description

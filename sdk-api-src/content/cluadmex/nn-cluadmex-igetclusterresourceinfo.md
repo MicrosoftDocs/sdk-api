@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 8a3a9e9d-4666-4d9a-83e3-10d667b42d66
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IGetClusterResourceInfo, IGetClusterResourceInfo interface [Failover Cluster], IGetClusterResourceInfo interface [Failover Cluster], described, _wolf_igetclusterresourceinfo, cluadmex/IGetClusterResourceInfo, mscs.igetclusterresourceinfo
+ms.keywords: IGetClusterResourceInfo, IGetClusterResourceInfo interface [Failover Cluster], IGetClusterResourceInfo interface [Failover Cluster],described, _wolf_igetclusterresourceinfo, cluadmex/IGetClusterResourceInfo, mscs.igetclusterresourceinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.OnDataUnit
-title: IWMWriterSink::OnDataUnit method
+title: IWMWriterSink::OnDataUnit
 author: windows-driver-content
 description: The OnDataUnit method is called by the writer when a data unit is ready for the sink. How your application handles the data unit depends upon the destination of the content.
 old-location: wmformat\iwmwritersink_ondataunit.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 32e52cdb-e7cb-4caf-a202-0d2ff746017c
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterSink, IWMWriterSink interface [windows Media Format], OnDataUnit method, IWMWriterSink::OnDataUnit, IWMWriterSinkOnDataUnit, OnDataUnit method [windows Media Format], OnDataUnit method [windows Media Format], IWMWriterSink interface, OnDataUnit,IWMWriterSink.OnDataUnit, wmformat.iwmwritersink_ondataunit, wmsdkidl/IWMWriterSink::OnDataUnit
+ms.keywords: IWMWriterSink interface [windows Media Format],OnDataUnit method, IWMWriterSink.OnDataUnit, IWMWriterSink::OnDataUnit, IWMWriterSinkOnDataUnit, OnDataUnit, OnDataUnit method [windows Media Format], OnDataUnit method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_ondataunit, wmsdkidl/IWMWriterSink::OnDataUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterSink::OnDataUnit method
+# IWMWriterSink::OnDataUnit
 
 
 ## -description

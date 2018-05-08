@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItems.GetFrameCount
-title: ISpatialAudioMetadataItems::GetFrameCount method
+title: ISpatialAudioMetadataItems::GetFrameCount
 author: windows-driver-content
 description: Gets the total frame count of the ISpatialAudioMetadataItems, which defines valid item offsets.
 old-location: coreaudio\ispatialaudiometadataitems_getframecount.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 5932E338-AB0E-4D1E-9B7E-36E2D5A76B18
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetFrameCount method [Core Audio], GetFrameCount method [Core Audio], ISpatialAudioMetadataItems interface, GetFrameCount,ISpatialAudioMetadataItems.GetFrameCount, ISpatialAudioMetadataItems, ISpatialAudioMetadataItems interface [Core Audio], GetFrameCount method, ISpatialAudioMetadataItems::GetFrameCount, coreaudio.ispatialaudiometadataitems_getframecount, spatialaudiometadata/ISpatialAudioMetadataItems::GetFrameCount
+ms.keywords: GetFrameCount, GetFrameCount method [Core Audio], GetFrameCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetFrameCount method, ISpatialAudioMetadataItems.GetFrameCount, ISpatialAudioMetadataItems::GetFrameCount, coreaudio.ispatialaudiometadataitems_getframecount, spatialaudiometadata/ISpatialAudioMetadataItems::GetFrameCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataItems::GetFrameCount method
+# ISpatialAudioMetadataItems::GetFrameCount
 
 
 ## -description

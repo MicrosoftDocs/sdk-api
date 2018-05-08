@@ -63,6 +63,11 @@ Contains process mitigation policy settings for the loading of images from a rem
  
 
 
+### -field DUMMYUNIONNAME.Flags
+
+Reserved for system use.
+
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -94,11 +99,6 @@ Set (0x1) to search for images to load in the System32 subfolder of the folder i
 
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
-
-Reserved for system use.
-
-
-#### - Flags
 
 Reserved for system use.
 

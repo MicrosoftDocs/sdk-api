@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IRealTimeStylusSynchronization.AcquireLock
-title: IRealTimeStylusSynchronization::AcquireLock method
+title: IRealTimeStylusSynchronization::AcquireLock
 author: windows-driver-content
 description: Retrieves the specified lock.
 old-location: tablet\irealtimestylussynchronization_acquirelock.htm
 old-project: tablet
 ms.assetid: 74e315c5-99c2-4ba5-bca5-72d812624fa0
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 74e315c5-99c2-4ba5-bca5-72d812624fa0, AcquireLock method [Tablet PC], AcquireLock method [Tablet PC], IRealTimeStylusSynchronization interface, AcquireLock,IRealTimeStylusSynchronization.AcquireLock, IRealTimeStylusSynchronization, IRealTimeStylusSynchronization interface [Tablet PC], AcquireLock method, IRealTimeStylusSynchronization::AcquireLock, rtscom/IRealTimeStylusSynchronization::AcquireLock, tablet.irealtimestylussynchronization_acquirelock
+ms.date: 5/2/2018
+ms.keywords: 74e315c5-99c2-4ba5-bca5-72d812624fa0, AcquireLock, AcquireLock method [Tablet PC], AcquireLock method [Tablet PC],IRealTimeStylusSynchronization interface, IRealTimeStylusSynchronization interface [Tablet PC],AcquireLock method, IRealTimeStylusSynchronization.AcquireLock, IRealTimeStylusSynchronization::AcquireLock, rtscom/IRealTimeStylusSynchronization::AcquireLock, tablet.irealtimestylussynchronization_acquirelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRealTimeStylusSynchronization::AcquireLock method
+# IRealTimeStylusSynchronization::AcquireLock
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyName
-title: IWMPNetwork::getProxyName method
+title: IWMPNetwork::getProxyName
 author: windows-driver-content
 description: The getProxyName method retrieves the name of the proxy server being used.
 old-location: wmp\iwmpnetwork_getproxyname.htm
 old-project: WMP
 ms.assetid: 7bf3adaa-a89d-4ffe-8233-a9c606b39350
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], getProxyName method, IWMPNetwork::getProxyName, IWMPNetworkgetProxyName, getProxyName method [Windows Media Player], getProxyName method [Windows Media Player], IWMPNetwork interface, getProxyName,IWMPNetwork.getProxyName, wmp.iwmpnetwork_getproxyname, wmp/IWMPNetwork::getProxyName
+ms.date: 5/4/2018
+ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyName method, IWMPNetwork.getProxyName, IWMPNetwork::getProxyName, IWMPNetworkgetProxyName, getProxyName, getProxyName method [Windows Media Player], getProxyName method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxyname, wmp/IWMPNetwork::getProxyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNetwork::getProxyName method
+# IWMPNetwork::getProxyName
 
 
 ## -description

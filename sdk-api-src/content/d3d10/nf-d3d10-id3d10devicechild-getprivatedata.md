@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10DeviceChild.GetPrivateData
-title: ID3D10DeviceChild::GetPrivateData method
+title: ID3D10DeviceChild::GetPrivateData
 author: windows-driver-content
 description: Get application-defined data from a device child.
 old-location: direct3d10\id3d10devicechild_getprivatedata.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild_getprivatedata.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 1156e7b1-1ba9-fab9-ab1a-7695c94278e9, GetPrivateData method [Direct3D 10], GetPrivateData method [Direct3D 10], ID3D10DeviceChild interface, GetPrivateData,ID3D10DeviceChild.GetPrivateData, ID3D10DeviceChild, ID3D10DeviceChild interface [Direct3D 10], GetPrivateData method, ID3D10DeviceChild::GetPrivateData, d3d10/ID3D10DeviceChild::GetPrivateData, direct3d10.id3d10devicechild_getprivatedata
+ms.keywords: 1156e7b1-1ba9-fab9-ab1a-7695c94278e9, GetPrivateData, GetPrivateData method [Direct3D 10], GetPrivateData method [Direct3D 10],ID3D10DeviceChild interface, ID3D10DeviceChild interface [Direct3D 10],GetPrivateData method, ID3D10DeviceChild.GetPrivateData, ID3D10DeviceChild::GetPrivateData, d3d10/ID3D10DeviceChild::GetPrivateData, direct3d10.id3d10devicechild_getprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10DeviceChild::GetPrivateData method
+# ID3D10DeviceChild::GetPrivateData
 
 
 ## -description

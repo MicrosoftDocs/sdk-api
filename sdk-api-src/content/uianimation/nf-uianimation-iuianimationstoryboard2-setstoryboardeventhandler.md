@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.SetStoryboardEventHandler
-title: IUIAnimationStoryboard2::SetStoryboardEventHandler method
+title: IUIAnimationStoryboard2::SetStoryboardEventHandler
 author: windows-driver-content
 description: Specifies a handler for storyboard events.
 old-location: uianimation\iuianimationstoryboard2_setstoryboardeventhandler.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 9C105DDC-4BED-45FC-B4AE-2331A228BB86
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationStoryboard2, IUIAnimationStoryboard2 interface [Windows Animation], SetStoryboardEventHandler method, IUIAnimationStoryboard2::SetStoryboardEventHandler, SetStoryboardEventHandler method [Windows Animation], SetStoryboardEventHandler method [Windows Animation], IUIAnimationStoryboard2 interface, SetStoryboardEventHandler,IUIAnimationStoryboard2.SetStoryboardEventHandler, uianimation.iuianimationstoryboard2_setstoryboardeventhandler, uianimation/IUIAnimationStoryboard2::SetStoryboardEventHandler
+ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],SetStoryboardEventHandler method, IUIAnimationStoryboard2.SetStoryboardEventHandler, IUIAnimationStoryboard2::SetStoryboardEventHandler, SetStoryboardEventHandler, SetStoryboardEventHandler method [Windows Animation], SetStoryboardEventHandler method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_setstoryboardeventhandler, uianimation/IUIAnimationStoryboard2::SetStoryboardEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboard2::SetStoryboardEventHandler method
+# IUIAnimationStoryboard2::SetStoryboardEventHandler
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.GetCaps
-title: IWMPPlugin::GetCaps method
+title: IWMPPlugin::GetCaps
 author: windows-driver-content
 description: The IWMPPlugin::GetCaps method returns a flag that specifies whether the plug-in can convert between an input format and an output format.
 old-location: wmp\iwmpplugin_getcaps.htm
 old-project: WMP
 ms.assetid: f8b38453-47a3-4330-88f8-8d8993089f75
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetCaps method [Windows Media Player], GetCaps method [Windows Media Player], IWMPPlugin interface, GetCaps,IWMPPlugin.GetCaps, IWMPPlugin, IWMPPlugin interface [Windows Media Player], GetCaps method, IWMPPlugin::GetCaps, IWMPPluginGetCapsDSP, wmp.iwmpplugin_getcaps, wmpservices/IWMPPlugin::GetCaps
+ms.date: 5/4/2018
+ms.keywords: GetCaps, GetCaps method [Windows Media Player], GetCaps method [Windows Media Player],IWMPPlugin interface, IWMPPlugin interface [Windows Media Player],GetCaps method, IWMPPlugin.GetCaps, IWMPPlugin::GetCaps, IWMPPluginGetCapsDSP, wmp.iwmpplugin_getcaps, wmpservices/IWMPPlugin::GetCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlugin::GetCaps method
+# IWMPPlugin::GetCaps
 
 
 ## -description

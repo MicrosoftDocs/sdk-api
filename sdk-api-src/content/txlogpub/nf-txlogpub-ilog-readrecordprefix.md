@@ -1,6 +1,6 @@
 ---
 UID: NF:txlogpub.ILog.ReadRecordPrefix
-title: ILog::ReadRecordPrefix method
+title: ILog::ReadRecordPrefix
 author: windows-driver-content
 description: Reads an initial part of a record from the log.
 old-location: com\ilog_readrecordprefix.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 4a2b8529-b342-4491-a7ce-db4150223682
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ILog, ILog interface [COM], ReadRecordPrefix method, ILog::ReadRecordPrefix, ReadRecordPrefix method [COM], ReadRecordPrefix method [COM], ILog interface, ReadRecordPrefix,ILog.ReadRecordPrefix, _com_ilog_readrecordprefix, com.ilog_readrecordprefix, txlogpub/ILog::ReadRecordPrefix
+ms.keywords: ILog interface [COM],ReadRecordPrefix method, ILog.ReadRecordPrefix, ILog::ReadRecordPrefix, ReadRecordPrefix, ReadRecordPrefix method [COM], ReadRecordPrefix method [COM],ILog interface, _com_ilog_readrecordprefix, com.ilog_readrecordprefix, txlogpub/ILog::ReadRecordPrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILog::ReadRecordPrefix method
+# ILog::ReadRecordPrefix
 
 
 ## -description

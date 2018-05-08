@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPathname.Set
-title: IADsPathname::Set method
+title: IADsPathname::Set
 author: windows-driver-content
 description: Sets up the Pathname object for parsing a directory path.
 old-location: adsi\iadspathname_set.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 1672c1b0-1008-41e7-8ca4-eefb559f523d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsPathname, IADsPathname interface [ADSI], Set method, IADsPathname::Set, Set method [ADSI], Set method [ADSI], IADsPathname interface, Set,IADsPathname.Set, _ds_iadspathname_set, adsi.iadspathname__set, adsi.iadspathname_set, iads/IADsPathname::Set
+ms.keywords: IADsPathname interface [ADSI],Set method, IADsPathname.Set, IADsPathname::Set, Set, Set method [ADSI], Set method [ADSI],IADsPathname interface, _ds_iadspathname_set, adsi.iadspathname__set, adsi.iadspathname_set, iads/IADsPathname::Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsPathname::Set method
+# IADsPathname::Set
 
 
 ## -description

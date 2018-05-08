@@ -7,7 +7,7 @@ old-location: winsock\htonll.htm
 old-project: WinSock
 ms.assetid: 3155C55D-681E-4D6D-9DFF-219465F04E4A
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: htonll, htonll function [Winsock], winsock.htonll, winsock2/htonll
 ms.prod: windows-hardware
 ms.technology: windows-devices

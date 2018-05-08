@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.GetVideoDecoderProfile
-title: ID3D11VideoDevice::GetVideoDecoderProfile method
+title: ID3D11VideoDevice::GetVideoDecoderProfile
 author: windows-driver-content
 description: Gets a profile that is supported by the driver.
 old-location: mf\id3d11videodevice_getvideodecoderprofile.htm
 old-project: medfound
 ms.assetid: 8D958469-7FC3-4B4F-82BF-271662CF0088
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoDecoderProfile method [Media Foundation], GetVideoDecoderProfile method [Media Foundation], ID3D11VideoDevice interface, GetVideoDecoderProfile,ID3D11VideoDevice.GetVideoDecoderProfile, ID3D11VideoDevice, ID3D11VideoDevice interface [Media Foundation], GetVideoDecoderProfile method, ID3D11VideoDevice::GetVideoDecoderProfile, d3d11/ID3D11VideoDevice::GetVideoDecoderProfile, mf.id3d11videodevice_getvideodecoderprofile
+ms.date: 5/3/2018
+ms.keywords: GetVideoDecoderProfile, GetVideoDecoderProfile method [Media Foundation], GetVideoDecoderProfile method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],GetVideoDecoderProfile method, ID3D11VideoDevice.GetVideoDecoderProfile, ID3D11VideoDevice::GetVideoDecoderProfile, d3d11/ID3D11VideoDevice::GetVideoDecoderProfile, mf.id3d11videodevice_getvideodecoderprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoDevice::GetVideoDecoderProfile method
+# ID3D11VideoDevice::GetVideoDecoderProfile
 
 
 ## -description

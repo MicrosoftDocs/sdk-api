@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_MixerBitmapOpacity
-title: IMSVidVideoRenderer::get_MixerBitmapOpacity method
+title: IMSVidVideoRenderer::get_MixerBitmapOpacity
 author: windows-driver-content
 description: The get_MixerBitmapOpacity method retrieves the opacity of the static bitmap image.
 old-location: mstv\imsvidvideorenderer_get_mixerbitmapopacity.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 830eff1a-e70e-440c-81be-69058d14f314
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], get_MixerBitmapOpacity method, IMSVidVideoRenderer::get_MixerBitmapOpacity, IMSVidVideoRendererget_MixerBitmapOpacity, get_MixerBitmapOpacity method [Microsoft TV Technologies], get_MixerBitmapOpacity method [Microsoft TV Technologies], IMSVidVideoRenderer interface, get_MixerBitmapOpacity,IMSVidVideoRenderer.get_MixerBitmapOpacity, mstv.imsvidvideorenderer_get_mixerbitmapopacity, segment/IMSVidVideoRenderer::get_MixerBitmapOpacity
+ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_MixerBitmapOpacity method, IMSVidVideoRenderer.get_MixerBitmapOpacity, IMSVidVideoRenderer::get_MixerBitmapOpacity, IMSVidVideoRendererget_MixerBitmapOpacity, get_MixerBitmapOpacity, get_MixerBitmapOpacity method [Microsoft TV Technologies], get_MixerBitmapOpacity method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_mixerbitmapopacity, segment/IMSVidVideoRenderer::get_MixerBitmapOpacity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRenderer::get_MixerBitmapOpacity method
+# IMSVidVideoRenderer::get_MixerBitmapOpacity
 
 
 ## -description

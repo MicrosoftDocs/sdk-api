@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.SetLabel
-title: IMFTimedTextTrack::SetLabel method
+title: IMFTimedTextTrack::SetLabel
 author: windows-driver-content
 description: Sets the label of a timed-text track.
 old-location: mf\imftimedtexttrack_setlabel.htm
 old-project: medfound
 ms.assetid: 751CBF14-C445-4F2A-96F6-CB6159FAA1EE
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFTimedTextTrack, IMFTimedTextTrack interface [Media Foundation], SetLabel method, IMFTimedTextTrack::SetLabel, SetLabel method [Media Foundation], SetLabel method [Media Foundation], IMFTimedTextTrack interface, SetLabel,IMFTimedTextTrack.SetLabel, mf.imftimedtexttrack_setlabel, mfmediaengine/IMFTimedTextTrack::SetLabel
+ms.date: 5/3/2018
+ms.keywords: IMFTimedTextTrack interface [Media Foundation],SetLabel method, IMFTimedTextTrack.SetLabel, IMFTimedTextTrack::SetLabel, SetLabel, SetLabel method [Media Foundation], SetLabel method [Media Foundation],IMFTimedTextTrack interface, mf.imftimedtexttrack_setlabel, mfmediaengine/IMFTimedTextTrack::SetLabel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextTrack::SetLabel method
+# IMFTimedTextTrack::SetLabel
 
 
 ## -description

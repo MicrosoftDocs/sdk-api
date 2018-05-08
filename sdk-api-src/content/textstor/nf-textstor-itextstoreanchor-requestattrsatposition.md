@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RequestAttrsAtPosition
-title: ITextStoreAnchor::RequestAttrsAtPosition method
+title: ITextStoreAnchor::RequestAttrsAtPosition
 author: windows-driver-content
 description: ITextStoreAnchor::RequestAttrsAtPosition method
 old-location: tsf\itextstoreanchor_requestattrsatposition.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: d0f20507-005b-409d-90d5-5817b7d95f19
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], RequestAttrsAtPosition method, ITextStoreAnchor::RequestAttrsAtPosition, RequestAttrsAtPosition method [Text Services Framework], RequestAttrsAtPosition method [Text Services Framework], ITextStoreAnchor interface, RequestAttrsAtPosition,ITextStoreAnchor.RequestAttrsAtPosition, textstor/ITextStoreAnchor::RequestAttrsAtPosition, tsf.itextstoreanchor_requestattrsatposition
+ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestAttrsAtPosition method, ITextStoreAnchor.RequestAttrsAtPosition, ITextStoreAnchor::RequestAttrsAtPosition, RequestAttrsAtPosition, RequestAttrsAtPosition method [Text Services Framework], RequestAttrsAtPosition method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::RequestAttrsAtPosition, tsf.itextstoreanchor_requestattrsatposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchor::RequestAttrsAtPosition method
+# ITextStoreAnchor::RequestAttrsAtPosition
 
 
 ## -description

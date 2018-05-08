@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.GetProperty
-title: ICertificateEnrollmentPolicyServerSetup::GetProperty method
+title: ICertificateEnrollmentPolicyServerSetup::GetProperty
 author: windows-driver-content
 description: Retrieves a CEPSetupProperty enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
 old-location: security\icertificateenrollmentpolicyserversetup_getproperty.htm
 old-project: SecCrypto
 ms.assetid: 52AD50BB-4146-44FC-BA32-9FC46FFE32E4
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: GetProperty method [Security], GetProperty method [Security], ICertificateEnrollmentPolicyServerSetup interface, GetProperty,ICertificateEnrollmentPolicyServerSetup.GetProperty, ICertificateEnrollmentPolicyServerSetup, ICertificateEnrollmentPolicyServerSetup interface [Security], GetProperty method, ICertificateEnrollmentPolicyServerSetup::GetProperty, casetup/ICertificateEnrollmentPolicyServerSetup::GetProperty, security.icertificateenrollmentpolicyserversetup_getproperty
+ms.date: 4/30/2018
+ms.keywords: GetProperty, GetProperty method [Security], GetProperty method [Security],ICertificateEnrollmentPolicyServerSetup interface, ICertificateEnrollmentPolicyServerSetup interface [Security],GetProperty method, ICertificateEnrollmentPolicyServerSetup.GetProperty, ICertificateEnrollmentPolicyServerSetup::GetProperty, casetup/ICertificateEnrollmentPolicyServerSetup::GetProperty, security.icertificateenrollmentpolicyserversetup_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertificateEnrollmentPolicyServerSetup::GetProperty method
+# ICertificateEnrollmentPolicyServerSetup::GetProperty
 
 
 ## -description

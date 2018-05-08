@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoRenderer.InitializeRenderer
-title: IMFVideoRenderer::InitializeRenderer method
+title: IMFVideoRenderer::InitializeRenderer
 author: windows-driver-content
 description: Sets a new mixer or presenter for the enhanced video renderer (EVR).
 old-location: mf\imfvideorenderer_initializerenderer.htm
 old-project: medfound
 ms.assetid: e46a9596-9f3f-4430-8d45-bbc9c240be3b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFVideoRenderer, IMFVideoRenderer interface [Media Foundation], InitializeRenderer method, IMFVideoRenderer::InitializeRenderer, InitializeRenderer method [Media Foundation], InitializeRenderer method [Media Foundation], IMFVideoRenderer interface, InitializeRenderer,IMFVideoRenderer.InitializeRenderer, e46a9596-9f3f-4430-8d45-bbc9c240be3b, evr/IMFVideoRenderer::InitializeRenderer, mf.imfvideorenderer_initializerenderer
+ms.date: 5/3/2018
+ms.keywords: IMFVideoRenderer interface [Media Foundation],InitializeRenderer method, IMFVideoRenderer.InitializeRenderer, IMFVideoRenderer::InitializeRenderer, InitializeRenderer, InitializeRenderer method [Media Foundation], InitializeRenderer method [Media Foundation],IMFVideoRenderer interface, e46a9596-9f3f-4430-8d45-bbc9c240be3b, evr/IMFVideoRenderer::InitializeRenderer, mf.imfvideorenderer_initializerenderer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoRenderer::InitializeRenderer method
+# IMFVideoRenderer::InitializeRenderer
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.AddFromCsp
-title: ISmimeCapabilities::AddFromCsp method
+title: ISmimeCapabilities::AddFromCsp
 author: windows-driver-content
 description: Adds objects to the collection by identifying the encryption algorithms supported by a specific cryptographic provider.
 old-location: security\ismimecapabilities_addfromcsp_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: a4244a4e-6ec3-4c1f-a0d6-607cc942b5f5
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: AddFromCsp method [Security], AddFromCsp method [Security], ISmimeCapabilities interface, AddFromCsp,ISmimeCapabilities.AddFromCsp, ISmimeCapabilities, ISmimeCapabilities interface [Security], AddFromCsp method, ISmimeCapabilities::AddFromCsp, certenroll/ISmimeCapabilities::AddFromCsp, security.ismimecapabilities_addfromcsp_method
+ms.keywords: AddFromCsp, AddFromCsp method [Security], AddFromCsp method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],AddFromCsp method, ISmimeCapabilities.AddFromCsp, ISmimeCapabilities::AddFromCsp, certenroll/ISmimeCapabilities::AddFromCsp, security.ismimecapabilities_addfromcsp_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ISmimeCapabilities::AddFromCsp method
+# ISmimeCapabilities::AddFromCsp
 
 
 ## -description

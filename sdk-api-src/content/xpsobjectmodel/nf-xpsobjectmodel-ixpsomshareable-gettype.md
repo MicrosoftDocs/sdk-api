@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMShareable.GetType
-title: IXpsOMShareable::GetType method
+title: IXpsOMShareable::GetType
 author: windows-driver-content
 description: Gets the object type of the interface.
 old-location: xps\ixpsomshareable_gettype.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1d30e11e-1306-4721-b5fc-0419715ba2c8
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetType method [XPS Documents and Packaging], GetType method [XPS Documents and Packaging], IXpsOMShareable interface, GetType,IXpsOMShareable.GetType, IXpsOMShareable, IXpsOMShareable interface [XPS Documents and Packaging], GetType method, IXpsOMShareable::GetType, xps.ixpsomshareable_gettype, xpsobjectmodel/IXpsOMShareable::GetType
+ms.keywords: GetType, GetType method [XPS Documents and Packaging], GetType method [XPS Documents and Packaging],IXpsOMShareable interface, IXpsOMShareable interface [XPS Documents and Packaging],GetType method, IXpsOMShareable.GetType, IXpsOMShareable::GetType, xps.ixpsomshareable_gettype, xpsobjectmodel/IXpsOMShareable::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMShareable::GetType method
+# IXpsOMShareable::GetType
 
 
 ## -description

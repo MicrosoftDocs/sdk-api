@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerTarget.Unpeg
-title: IReferenceTrackerTarget::Unpeg method
+title: IReferenceTrackerTarget::xaml
 author: windows-driver-content
 description: Marks that the reference tracker target is no longer in use by the XAML framework, and can be collected.
 old-location: winrt\ireferencetrackertarget_unpeg.htm
 old-project: WinRT
 ms.assetid: c070957f-3bf8-4e72-ad56-e9cb023692c6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IReferenceTrackerTarget, IReferenceTrackerTarget interface [Windows Runtime], Unpeg method, IReferenceTrackerTarget::Unpeg, Unpeg method [Windows Runtime], Unpeg method [Windows Runtime], IReferenceTrackerTarget interface, Unpeg,IReferenceTrackerTarget.Unpeg, windows/IReferenceTrackerTarget::Unpeg, winrt.ireferencetrackertarget_unpeg
+ms.date: 5/4/2018
+ms.keywords: IReferenceTrackerTarget interface [Windows Runtime],Unpeg method, IReferenceTrackerTarget.Unpeg, IReferenceTrackerTarget.xaml, IReferenceTrackerTarget::Unpeg, IReferenceTrackerTarget::xaml, Unpeg, Unpeg method [Windows Runtime], Unpeg method [Windows Runtime],IReferenceTrackerTarget interface, windows/IReferenceTrackerTarget::Unpeg, winrt.ireferencetrackertarget_unpeg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IReferenceTrackerTarget::Unpeg method
+# IReferenceTrackerTarget::xaml
 
 
 ## -description

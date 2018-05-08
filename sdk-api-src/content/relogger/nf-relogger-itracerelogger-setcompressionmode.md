@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.SetCompressionMode
-title: ITraceRelogger::SetCompressionMode method
+title: ITraceRelogger::SetCompressionMode
 author: windows-driver-content
 description: Enables or disables compression on the relogged trace.
 old-location: etw\itracerelogger_setcompressionmode.htm
@@ -8,7 +8,7 @@ old-project: ETW
 ms.assetid: 2a758af0-2316-4c4b-8717-ee1ebad205ee
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITraceRelogger, ITraceRelogger interface [ETW], SetCompressionMode method, ITraceRelogger::SetCompressionMode, SetCompressionMode method [ETW], SetCompressionMode method [ETW], ITraceRelogger interface, SetCompressionMode,ITraceRelogger.SetCompressionMode, etw.itracerelogger_setcompressionmode, relogger/ITraceRelogger::SetCompressionMode
+ms.keywords: ITraceRelogger interface [ETW],SetCompressionMode method, ITraceRelogger.SetCompressionMode, ITraceRelogger::SetCompressionMode, SetCompressionMode, SetCompressionMode method [ETW], SetCompressionMode method [ETW],ITraceRelogger interface, etw.itracerelogger_setcompressionmode, relogger/ITraceRelogger::SetCompressionMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceRelogger::SetCompressionMode method
+# ITraceRelogger::SetCompressionMode
 
 
 ## -description

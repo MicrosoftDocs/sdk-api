@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsDrive.SetFlags
-title: IVdsDrive::SetFlags method
+title: IVdsDrive::SetFlags
 author: windows-driver-content
 description: Sets flags of a drive object.
 old-location: base\ivdsdrive_setflags.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 73f20f2b-44ec-44f0-b4e9-2aa40e85cc7c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsDrive, IVdsDrive interface [VDS], SetFlags method, IVdsDrive::SetFlags, SetFlags method [VDS], SetFlags method [VDS], IVdsDrive interface, SetFlags,IVdsDrive.SetFlags, base.ivdsdrive_setflags, vds/IVdsDrive::SetFlags, vdshwprv/IVdsDrive::SetFlags
+ms.keywords: IVdsDrive interface [VDS],SetFlags method, IVdsDrive.SetFlags, IVdsDrive::SetFlags, SetFlags, SetFlags method [VDS], SetFlags method [VDS],IVdsDrive interface, base.ivdsdrive_setflags, vds/IVdsDrive::SetFlags, vdshwprv/IVdsDrive::SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsDrive::SetFlags method
+# IVdsDrive::SetFlags
 
 
 ## -description

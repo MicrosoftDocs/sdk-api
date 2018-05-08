@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicVideo2.GetPreferredAspectRatio
-title: IBasicVideo2::GetPreferredAspectRatio method
+title: IBasicVideo2::GetPreferredAspectRatio
 author: windows-driver-content
 description: The GetPreferredAspectRatio method retrieves the preferred aspect ratio.
 old-location: dshow\ibasicvideo2_getpreferredaspectratio.htm
 old-project: DirectShow
 ms.assetid: eabfb5a3-201c-483c-81d6-efd19a4b5cef
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPreferredAspectRatio method [DirectShow], GetPreferredAspectRatio method [DirectShow], IBasicVideo2 interface, GetPreferredAspectRatio,IBasicVideo2.GetPreferredAspectRatio, IBasicVideo2, IBasicVideo2 interface [DirectShow], GetPreferredAspectRatio method, IBasicVideo2::GetPreferredAspectRatio, IBasicVideo2GetPreferredAspectRatio, control/IBasicVideo2::GetPreferredAspectRatio, dshow.ibasicvideo2_getpreferredaspectratio
+ms.date: 4/30/2018
+ms.keywords: GetPreferredAspectRatio, GetPreferredAspectRatio method [DirectShow], GetPreferredAspectRatio method [DirectShow],IBasicVideo2 interface, IBasicVideo2 interface [DirectShow],GetPreferredAspectRatio method, IBasicVideo2.GetPreferredAspectRatio, IBasicVideo2::GetPreferredAspectRatio, IBasicVideo2GetPreferredAspectRatio, control/IBasicVideo2::GetPreferredAspectRatio, dshow.ibasicvideo2_getpreferredaspectratio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicVideo2::GetPreferredAspectRatio method
+# IBasicVideo2::GetPreferredAspectRatio
 
 
 ## -description

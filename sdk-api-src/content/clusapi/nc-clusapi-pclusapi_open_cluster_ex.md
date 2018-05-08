@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 688702b7-7525-48d6-9e44-d7c4969565f8
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PCLUSAPI_OPEN_CLUSTER_EX, PCLUSAPI_OPEN_CLUSTER_EX callback function [Failover Cluster], clusapi/PCLUSAPI_OPEN_CLUSTER_EX, mscs.openclusterex
+ms.keywords: PCLUSAPI_OPEN_CLUSTER_EX, PCLUSAPI_OPEN_CLUSTER_EX callback, PCLUSAPI_OPEN_CLUSTER_EX callback function [Failover Cluster], clusapi/PCLUSAPI_OPEN_CLUSTER_EX, mscs.openclusterex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PCLUSAPI_OPEN_CLUSTER_EX callback
+# PCLUSAPI_OPEN_CLUSTER_EX callback function
 
 
 ## -description

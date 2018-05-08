@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.SetRequestedSigner
-title: IXpsSignatureRequest::SetRequestedSigner method
+title: IXpsSignatureRequest::SetRequestedSigner
 author: windows-driver-content
 description: Sets the identity of the person who signed or is requested to sign the package.
 old-location: xps\ixpssignaturerequest_setrequestedsigner.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c744fb64-2e94-484c-9045-46a8357b0007
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsSignatureRequest, IXpsSignatureRequest interface [XPS Documents and Packaging], SetRequestedSigner method, IXpsSignatureRequest::SetRequestedSigner, SetRequestedSigner method [XPS Documents and Packaging], SetRequestedSigner method [XPS Documents and Packaging], IXpsSignatureRequest interface, SetRequestedSigner,IXpsSignatureRequest.SetRequestedSigner, xps.ixpssignaturerequest_setrequestedsigner, xpsdigitalsignature/IXpsSignatureRequest::SetRequestedSigner
+ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetRequestedSigner method, IXpsSignatureRequest.SetRequestedSigner, IXpsSignatureRequest::SetRequestedSigner, SetRequestedSigner, SetRequestedSigner method [XPS Documents and Packaging], SetRequestedSigner method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setrequestedsigner, xpsdigitalsignature/IXpsSignatureRequest::SetRequestedSigner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureRequest::SetRequestedSigner method
+# IXpsSignatureRequest::SetRequestedSigner
 
 
 ## -description

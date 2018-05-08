@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlayerServices2.setBackgroundProcessingPriority
-title: IWMPPlayerServices2::setBackgroundProcessingPriority method
+title: IWMPPlayerServices2::setBackgroundProcessingPriority
 author: windows-driver-content
 description: The setBackgroundProcessingPriority method specifies a priority level for general background processing tasks.
 old-location: wmp\iwmpplayerservices2_setbackgroundprocessingpriority.htm
 old-project: WMP
 ms.assetid: 1e3536d2-006b-4019-a9c5-c460135cf555
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlayerServices2, IWMPPlayerServices2 interface [Windows Media Player], setBackgroundProcessingPriority method, IWMPPlayerServices2::setBackgroundProcessingPriority, IWMPPlayerServices2setBackgroundProcessingPriority, setBackgroundProcessingPriority method [Windows Media Player], setBackgroundProcessingPriority method [Windows Media Player], IWMPPlayerServices2 interface, setBackgroundProcessingPriority,IWMPPlayerServices2.setBackgroundProcessingPriority, wmp.iwmpplayerservices2_setbackgroundprocessingpriority, wmp/IWMPPlayerServices2::setBackgroundProcessingPriority
+ms.date: 5/4/2018
+ms.keywords: IWMPPlayerServices2 interface [Windows Media Player],setBackgroundProcessingPriority method, IWMPPlayerServices2.setBackgroundProcessingPriority, IWMPPlayerServices2::setBackgroundProcessingPriority, IWMPPlayerServices2setBackgroundProcessingPriority, setBackgroundProcessingPriority, setBackgroundProcessingPriority method [Windows Media Player], setBackgroundProcessingPriority method [Windows Media Player],IWMPPlayerServices2 interface, wmp.iwmpplayerservices2_setbackgroundprocessingpriority, wmp/IWMPPlayerServices2::setBackgroundProcessingPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlayerServices2::setBackgroundProcessingPriority method
+# IWMPPlayerServices2::setBackgroundProcessingPriority
 
 
 ## -description

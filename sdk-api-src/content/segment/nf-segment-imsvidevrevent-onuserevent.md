@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidEVREvent.OnUserEvent
-title: IMSVidEVREvent::OnUserEvent method
+title: IMSVidEVREvent::OnUserEvent
 author: windows-driver-content
 description: This topic applies to Windows Vista or later.
 old-location: mstv\imsvidevrevent_onuserevent.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2eee9fd9-ed8d-482d-833a-c785d65cbf6a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidEVREvent, IMSVidEVREvent interface [Microsoft TV Technologies], OnUserEvent method, IMSVidEVREvent::OnUserEvent, IMSVidEVREventOnUserEvent, OnUserEvent method [Microsoft TV Technologies], OnUserEvent method [Microsoft TV Technologies], IMSVidEVREvent interface, OnUserEvent,IMSVidEVREvent.OnUserEvent, mstv.imsvidevrevent_onuserevent, segment/IMSVidEVREvent::OnUserEvent
+ms.keywords: IMSVidEVREvent interface [Microsoft TV Technologies],OnUserEvent method, IMSVidEVREvent.OnUserEvent, IMSVidEVREvent::OnUserEvent, IMSVidEVREventOnUserEvent, OnUserEvent, OnUserEvent method [Microsoft TV Technologies], OnUserEvent method [Microsoft TV Technologies],IMSVidEVREvent interface, mstv.imsvidevrevent_onuserevent, segment/IMSVidEVREvent::OnUserEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidEVREvent::OnUserEvent method
+# IMSVidEVREvent::OnUserEvent
 
 
 ## -description

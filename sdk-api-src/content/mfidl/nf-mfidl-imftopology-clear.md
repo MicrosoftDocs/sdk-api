@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTopology.Clear
-title: IMFTopology::Clear method
+title: IMFTopology::Clear
 author: windows-driver-content
 description: Removes all nodes from the topology.
 old-location: mf\imftopology_clear.htm
 old-project: medfound
 ms.assetid: 919a712f-3f1b-4681-9eeb-958ac349d8f6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 919a712f-3f1b-4681-9eeb-958ac349d8f6, Clear method [Media Foundation], Clear method [Media Foundation], IMFTopology interface, Clear,IMFTopology.Clear, IMFTopology, IMFTopology interface [Media Foundation], Clear method, IMFTopology::Clear, mf.imftopology_clear, mfidl/IMFTopology::Clear
+ms.date: 5/3/2018
+ms.keywords: 919a712f-3f1b-4681-9eeb-958ac349d8f6, Clear, Clear method [Media Foundation], Clear method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],Clear method, IMFTopology.Clear, IMFTopology::Clear, mf.imftopology_clear, mfidl/IMFTopology::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTopology::Clear method
+# IMFTopology::Clear
 
 
 ## -description

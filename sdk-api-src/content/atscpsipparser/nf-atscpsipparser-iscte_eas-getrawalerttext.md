@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetRawAlertText
-title: ISCTE_EAS::GetRawAlertText method
+title: ISCTE_EAS::GetRawAlertText
 author: windows-driver-content
 description: Gets the raw alert_text field from the EAS table.
 old-location: mstv\iscte_eas_getrawalerttext.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e5ed18e8-e83e-4708-995b-99acd12427a7
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRawAlertText method [Microsoft TV Technologies], GetRawAlertText method [Microsoft TV Technologies], ISCTE_EAS interface, GetRawAlertText,ISCTE_EAS.GetRawAlertText, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetRawAlertText method, ISCTE_EAS::GetRawAlertText, atscpsipparser/ISCTE_EAS::GetRawAlertText, mstv.iscte_eas_getrawalerttext
+ms.keywords: GetRawAlertText, GetRawAlertText method [Microsoft TV Technologies], GetRawAlertText method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetRawAlertText method, ISCTE_EAS.GetRawAlertText, ISCTE_EAS::GetRawAlertText, atscpsipparser/ISCTE_EAS::GetRawAlertText, mstv.iscte_eas_getrawalerttext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetRawAlertText method
+# ISCTE_EAS::GetRawAlertText
 
 
 ## -description

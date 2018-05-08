@@ -7,7 +7,7 @@ old-location: rpc\rpcnsbindingexportpnp.htm
 old-project: Rpc
 ms.assetid: 01440165-ab04-447a-9a39-9e91743aba65
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcNsBindingExportPnP, RpcNsBindingExportPnP function [RPC], RpcNsBindingExportPnPA, RpcNsBindingExportPnPW, _rpc_rpcnsbindingexportpnp, rpc.rpcnsbindingexportpnp, rpcnsi/RpcNsBindingExportPnP, rpcnsi/RpcNsBindingExportPnPA, rpcnsi/RpcNsBindingExportPnPW
 ms.prod: windows-hardware
 ms.technology: windows-devices

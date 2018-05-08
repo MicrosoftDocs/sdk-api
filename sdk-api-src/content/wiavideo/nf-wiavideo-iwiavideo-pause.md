@@ -1,14 +1,14 @@
 ---
 UID: NF:wiavideo.IWiaVideo.Pause
-title: IWiaVideo::Pause method
+title: IWiaVideo::Pause
 author: windows-driver-content
 description: The IWiaVideo::Pause method pauses video playback.
 old-location: wia\_wia_IWiaVideo_Pause.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\pause.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaVideo, IWiaVideo interface [WIA], Pause method, IWiaVideo::Pause, Pause method [WIA], Pause method [WIA], IWiaVideo interface, Pause,IWiaVideo.Pause, _wia_IWiaVideo_Pause, wia._wia_IWiaVideo_Pause, wiavideo/IWiaVideo::Pause
+ms.date: 5/3/2018
+ms.keywords: IWiaVideo interface [WIA],Pause method, IWiaVideo.Pause, IWiaVideo::Pause, Pause, Pause method [WIA], Pause method [WIA],IWiaVideo interface, _wia_IWiaVideo_Pause, wia._wia_IWiaVideo_Pause, wiavideo/IWiaVideo::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaVideo::Pause method
+# IWiaVideo::Pause
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentSubpictureAttributes
-title: IDvdInfo::GetCurrentSubpictureAttributes method
+title: IDvdInfo::GetCurrentSubpictureAttributes
 author: windows-driver-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the attributes for the current subpicture stream in the current title or menu.
 old-location: dshow\idvdinfo_getcurrentsubpictureattributes.htm
 old-project: DirectShow
 ms.assetid: 9beb31e3-b3ff-4c7a-922f-9f1e9725ddde
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCurrentSubpictureAttributes method [DirectShow], GetCurrentSubpictureAttributes method [DirectShow], IDvdInfo interface, GetCurrentSubpictureAttributes,IDvdInfo.GetCurrentSubpictureAttributes, IDvdInfo, IDvdInfo interface [DirectShow], GetCurrentSubpictureAttributes method, IDvdInfo::GetCurrentSubpictureAttributes, IDvdInfoGetCurrentSubpictureAttributes, dshow.idvdinfo_getcurrentsubpictureattributes, strmif/IDvdInfo::GetCurrentSubpictureAttributes
+ms.date: 4/30/2018
+ms.keywords: GetCurrentSubpictureAttributes, GetCurrentSubpictureAttributes method [DirectShow], GetCurrentSubpictureAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentSubpictureAttributes method, IDvdInfo.GetCurrentSubpictureAttributes, IDvdInfo::GetCurrentSubpictureAttributes, IDvdInfoGetCurrentSubpictureAttributes, dshow.idvdinfo_getcurrentsubpictureattributes, strmif/IDvdInfo::GetCurrentSubpictureAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo::GetCurrentSubpictureAttributes method
+# IDvdInfo::GetCurrentSubpictureAttributes
 
 
 ## -description

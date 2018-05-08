@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferNotify.OnUpdateEnd
-title: IMFSourceBufferNotify::OnUpdateEnd method
+title: IMFSourceBufferNotify::OnUpdateEnd
 author: windows-driver-content
 description: Used to indicate that the source buffer has finished updating.
 old-location: mf\imfsourcebuffernotify_onupdateend.htm
 old-project: medfound
 ms.assetid: a06d5765-d91e-4cbc-ac12-09d1ce4d84f6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSourceBufferNotify, IMFSourceBufferNotify interface [Media Foundation], OnUpdateEnd method, IMFSourceBufferNotify::OnUpdateEnd, OnUpdateEnd method [Media Foundation], OnUpdateEnd method [Media Foundation], IMFSourceBufferNotify interface, OnUpdateEnd,IMFSourceBufferNotify.OnUpdateEnd, mf.imfsourcebuffernotify_onupdateend, mfmediaengine/IMFSourceBufferNotify::OnUpdateEnd
+ms.date: 5/3/2018
+ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdateEnd method, IMFSourceBufferNotify.OnUpdateEnd, IMFSourceBufferNotify::OnUpdateEnd, OnUpdateEnd, OnUpdateEnd method [Media Foundation], OnUpdateEnd method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdateend, mfmediaengine/IMFSourceBufferNotify::OnUpdateEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceBufferNotify::OnUpdateEnd method
+# IMFSourceBufferNotify::OnUpdateEnd
 
 
 ## -description

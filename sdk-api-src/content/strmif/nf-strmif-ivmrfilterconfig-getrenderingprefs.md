@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.GetRenderingPrefs
-title: IVMRFilterConfig::GetRenderingPrefs method
+title: IVMRFilterConfig::GetRenderingPrefs
 author: windows-driver-content
 description: The GetRenderingPrefs method retrieves the current set of rendering preferences being used by the VMR.
 old-location: dshow\ivmrfilterconfig_getrenderingprefs.htm
 old-project: DirectShow
 ms.assetid: aabf3628-3179-430c-a74b-0cb4e552cbe2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetRenderingPrefs method [DirectShow], GetRenderingPrefs method [DirectShow], IVMRFilterConfig interface, GetRenderingPrefs,IVMRFilterConfig.GetRenderingPrefs, IVMRFilterConfig, IVMRFilterConfig interface [DirectShow], GetRenderingPrefs method, IVMRFilterConfig::GetRenderingPrefs, IVMRFilterConfigGetRenderingPrefs, dshow.ivmrfilterconfig_getrenderingprefs, strmif/IVMRFilterConfig::GetRenderingPrefs
+ms.date: 4/30/2018
+ms.keywords: GetRenderingPrefs, GetRenderingPrefs method [DirectShow], GetRenderingPrefs method [DirectShow],IVMRFilterConfig interface, IVMRFilterConfig interface [DirectShow],GetRenderingPrefs method, IVMRFilterConfig.GetRenderingPrefs, IVMRFilterConfig::GetRenderingPrefs, IVMRFilterConfigGetRenderingPrefs, dshow.ivmrfilterconfig_getrenderingprefs, strmif/IVMRFilterConfig::GetRenderingPrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRFilterConfig::GetRenderingPrefs method
+# IVMRFilterConfig::GetRenderingPrefs
 
 
 ## -description

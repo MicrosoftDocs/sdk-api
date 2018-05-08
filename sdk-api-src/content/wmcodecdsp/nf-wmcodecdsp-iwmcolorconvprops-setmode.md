@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.IWMColorConvProps.SetMode
-title: IWMColorConvProps::SetMode method
+title: IWMColorConvProps::SetMode
 author: windows-driver-content
 description: Specifies whether the input video stream is interlaced.
 old-location: mf\iwmcolorconvpropssetmode.htm
 old-project: medfound
 ms.assetid: b0be2965-36cf-4d14-8df6-c5296135a8e5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IWMColorConvProps, IWMColorConvProps interface [Media Foundation], SetMode method, IWMColorConvProps::SetMode, SetMode method [Media Foundation], SetMode method [Media Foundation], IWMColorConvProps interface, SetMode,IWMColorConvProps.SetMode, codecapi.iwmcolorconvpropssetmode, mf.iwmcolorconvpropssetmode, wmcodecdsp/ IWMColorConvProps::SetMode
+ms.date: 5/3/2018
+ms.keywords: IWMColorConvProps interface [Media Foundation],SetMode method, IWMColorConvProps.SetMode, IWMColorConvProps::SetMode, SetMode, SetMode method [Media Foundation], SetMode method [Media Foundation],IWMColorConvProps interface, codecapi.iwmcolorconvpropssetmode, mf.iwmcolorconvpropssetmode, wmcodecdsp/ IWMColorConvProps::SetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMColorConvProps::SetMode method
+# IWMColorConvProps::SetMode
 
 
 ## -description

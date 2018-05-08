@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleItemContainer.IsRunning
-title: IOleItemContainer::IsRunning method
+title: IOleItemContainer::IsRunning
 author: windows-driver-content
 description: Determines whether the specified object is running.
 old-location: com\ioleitemcontainer_isrunning.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 7bbd7b58-b7ab-493e-8315-a35034ee2b7a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleItemContainer, IOleItemContainer interface [COM], IsRunning method, IOleItemContainer::IsRunning, IsRunning method [COM], IsRunning method [COM], IOleItemContainer interface, IsRunning,IOleItemContainer.IsRunning, _com_ioleitemcontainer_isrunning, com.ioleitemcontainer_isrunning, oleidl/IOleItemContainer::IsRunning
+ms.keywords: IOleItemContainer interface [COM],IsRunning method, IOleItemContainer.IsRunning, IOleItemContainer::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IOleItemContainer interface, _com_ioleitemcontainer_isrunning, com.ioleitemcontainer_isrunning, oleidl/IOleItemContainer::IsRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleItemContainer::IsRunning method
+# IOleItemContainer::IsRunning
 
 
 ## -description

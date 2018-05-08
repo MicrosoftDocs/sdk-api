@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetPackageFamilyName
-title: IAppxManifestPackageId::GetPackageFamilyName method
+title: IAppxManifestPackageId::GetPackageFamilyName
 author: windows-driver-content
 description: Gets the package family name.
 old-location: appxpkg\iappxmanifestpackageid_getpackagefamilyname.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: A4505020-61CB-4893-AB3B-6EF0E55FD225
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPackageFamilyName method [App packaging and management], GetPackageFamilyName method [App packaging and management], IAppxManifestPackageId interface, GetPackageFamilyName,IAppxManifestPackageId.GetPackageFamilyName, IAppxManifestPackageId, IAppxManifestPackageId interface [App packaging and management], GetPackageFamilyName method, IAppxManifestPackageId::GetPackageFamilyName, appxpackaging/IAppxManifestPackageId::GetPackageFamilyName, appxpkg.iappxmanifestpackageid_getpackagefamilyname
+ms.keywords: GetPackageFamilyName, GetPackageFamilyName method [App packaging and management], GetPackageFamilyName method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetPackageFamilyName method, IAppxManifestPackageId.GetPackageFamilyName, IAppxManifestPackageId::GetPackageFamilyName, appxpackaging/IAppxManifestPackageId::GetPackageFamilyName, appxpkg.iappxmanifestpackageid_getpackagefamilyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestPackageId::GetPackageFamilyName method
+# IAppxManifestPackageId::GetPackageFamilyName
 
 
 ## -description

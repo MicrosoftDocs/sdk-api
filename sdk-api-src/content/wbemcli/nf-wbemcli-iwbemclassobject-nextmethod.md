@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.NextMethod
-title: IWbemClassObject::NextMethod method
+title: IWbemClassObject::NextMethod
 author: windows-driver-content
 description: Used to retrieve the next method in a method enumeration sequence that starts with a call to IWbemClassObject::BeginMethodEnumeration.
 old-location: wmi\iwbemclassobject_nextmethod.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 4c11e043-518b-46f6-bb39-e80354ef2c8a
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], NextMethod method, IWbemClassObject::NextMethod, NextMethod method [Windows Management Instrumentation], NextMethod method [Windows Management Instrumentation], IWbemClassObject interface, NextMethod,IWbemClassObject.NextMethod, _hmm_iwbemclassobject_nextmethod, wbemcli/IWbemClassObject::NextMethod, wmi.iwbemclassobject_nextmethod
+ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],NextMethod method, IWbemClassObject.NextMethod, IWbemClassObject::NextMethod, NextMethod, NextMethod method [Windows Management Instrumentation], NextMethod method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_nextmethod, wbemcli/IWbemClassObject::NextMethod, wmi.iwbemclassobject_nextmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -53,7 +53,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemClassObject::NextMethod method
+# IWbemClassObject::NextMethod
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: rpc\rpcsmallocate.htm
 old-project: Rpc
 ms.assetid: ca3373fa-8ea4-452e-b2a2-f30eb48fef9d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcSmAllocate, RpcSmAllocate function [RPC], _rpc_rpcsmallocate, rpc.rpcsmallocate, rpcndr/RpcSmAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetTransportStreamId
-title: IPAT::GetTransportStreamId method
+title: IPAT::GetTransportStreamId
 author: windows-driver-content
 description: The GetTransportStreamId method returns the transport stream identifier (TSID) for the PAT.
 old-location: mstv\ipat_gettransportstreamid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3a13bb01-47d6-4737-9e66-169def727b5e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies], IPAT interface, GetTransportStreamId,IPAT.GetTransportStreamId, IPAT, IPAT interface [Microsoft TV Technologies], GetTransportStreamId method, IPAT::GetTransportStreamId, IPATGetTransportStreamId, mpeg2psiparser/IPAT::GetTransportStreamId, mstv.ipat_gettransportstreamid
+ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetTransportStreamId method, IPAT.GetTransportStreamId, IPAT::GetTransportStreamId, IPATGetTransportStreamId, mpeg2psiparser/IPAT::GetTransportStreamId, mstv.ipat_gettransportstreamid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IPAT::GetTransportStreamId method
+# IPAT::GetTransportStreamId
 
 
 ## -description

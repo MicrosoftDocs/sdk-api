@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.GetCurrentLevel
-title: CVssWriter::GetCurrentLevel method
+title: CVssWriter::GetCurrentLevel
 author: windows-driver-content
 description: The GetCurrentLevel method returns the current application level.
 old-location: base\cvsswriter_getcurrentlevel.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 09540f57-832a-49ca-9b64-e7660b331192
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriter, CVssWriter interface [VSS], GetCurrentLevel method, CVssWriter::GetCurrentLevel, GetCurrentLevel method [VSS], GetCurrentLevel method [VSS], CVssWriter interface, GetCurrentLevel,CVssWriter.GetCurrentLevel, _win32_cvsswriter_getcurrentlevel, base.cvsswriter_getcurrentlevel, vswriter/CVssWriter::GetCurrentLevel
+ms.keywords: CVssWriter interface [VSS],GetCurrentLevel method, CVssWriter.GetCurrentLevel, CVssWriter::GetCurrentLevel, GetCurrentLevel, GetCurrentLevel method [VSS], GetCurrentLevel method [VSS],CVssWriter interface, _win32_cvsswriter_getcurrentlevel, base.cvsswriter_getcurrentlevel, vswriter/CVssWriter::GetCurrentLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriter::GetCurrentLevel method
+# CVssWriter::GetCurrentLevel
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateEnvironmentPropertySetObject
-title: ITsSbProvider::CreateEnvironmentPropertySetObject method
+title: ITsSbProvider::CreateEnvironmentPropertySetObject
 author: windows-driver-content
 description: Creates an ITsSbEnvironmentPropertySet environment property set object.
 old-location: termserv\itssbprovider_createenvironmentpropertysetobject.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 52bb5c05-f8eb-42c9-862f-d42e71507a91
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CreateEnvironmentPropertySetObject method [Remote Desktop Services], CreateEnvironmentPropertySetObject method [Remote Desktop Services], ITsSbProvider interface, CreateEnvironmentPropertySetObject,ITsSbProvider.CreateEnvironmentPropertySetObject, ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], CreateEnvironmentPropertySetObject method, ITsSbProvider::CreateEnvironmentPropertySetObject, sbtsv/ITsSbProvider::CreateEnvironmentPropertySetObject, termserv.itssbprovider_createenvironmentpropertysetobject
+ms.keywords: CreateEnvironmentPropertySetObject, CreateEnvironmentPropertySetObject method [Remote Desktop Services], CreateEnvironmentPropertySetObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateEnvironmentPropertySetObject method, ITsSbProvider.CreateEnvironmentPropertySetObject, ITsSbProvider::CreateEnvironmentPropertySetObject, sbtsv/ITsSbProvider::CreateEnvironmentPropertySetObject, termserv.itssbprovider_createenvironmentpropertysetobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbProvider::CreateEnvironmentPropertySetObject method
+# ITsSbProvider::CreateEnvironmentPropertySetObject
 
 
 ## -description

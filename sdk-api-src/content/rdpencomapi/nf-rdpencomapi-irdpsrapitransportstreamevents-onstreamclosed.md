@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamEvents.OnStreamClosed
-title: IRDPSRAPITransportStreamEvents::OnStreamClosed method
+title: IRDPSRAPITransportStreamEvents::OnStreamClosed
 author: windows-driver-content
 description: Notifies the Remote Desktop Protocol (RDP) stack that the connection was closed.
 old-location: rdp\irdpsrapitransportstreamevents_onstreamclosed.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 98767b91-95c1-4883-b27c-16c20d1da507
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPITransportStreamEvents, IRDPSRAPITransportStreamEvents interface [RDP], OnStreamClosed method, IRDPSRAPITransportStreamEvents::OnStreamClosed, OnStreamClosed method [RDP], OnStreamClosed method [RDP], IRDPSRAPITransportStreamEvents interface, OnStreamClosed,IRDPSRAPITransportStreamEvents.OnStreamClosed, rdp.irdpsrapitransportstreamevents_onstreamclosed, rdpencomapi/IRDPSRAPITransportStreamEvents::OnStreamClosed
+ms.keywords: IRDPSRAPITransportStreamEvents interface [RDP],OnStreamClosed method, IRDPSRAPITransportStreamEvents.OnStreamClosed, IRDPSRAPITransportStreamEvents::OnStreamClosed, OnStreamClosed, OnStreamClosed method [RDP], OnStreamClosed method [RDP],IRDPSRAPITransportStreamEvents interface, rdp.irdpsrapitransportstreamevents_onstreamclosed, rdpencomapi/IRDPSRAPITransportStreamEvents::OnStreamClosed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPITransportStreamEvents::OnStreamClosed method
+# IRDPSRAPITransportStreamEvents::OnStreamClosed
 
 
 ## -description

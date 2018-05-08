@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdState.GetDiscID
-title: IDvdState::GetDiscID method
+title: IDvdState::GetDiscID
 author: windows-driver-content
 description: The GetDiscID method retrieves the unique ID of the disc from which the bookmark was made.
 old-location: dshow\idvdstate_getdiscid.htm
 old-project: DirectShow
 ms.assetid: 1a3d8dba-4281-4385-b48f-d9d1b1134676
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDiscID method [DirectShow], GetDiscID method [DirectShow], IDvdState interface, GetDiscID,IDvdState.GetDiscID, IDvdState, IDvdState interface [DirectShow], GetDiscID method, IDvdState::GetDiscID, IDvdStateGetDiscID, dshow.idvdstate_getdiscid, strmif/IDvdState::GetDiscID
+ms.date: 4/30/2018
+ms.keywords: GetDiscID, GetDiscID method [DirectShow], GetDiscID method [DirectShow],IDvdState interface, IDvdState interface [DirectShow],GetDiscID method, IDvdState.GetDiscID, IDvdState::GetDiscID, IDvdStateGetDiscID, dshow.idvdstate_getdiscid, strmif/IDvdState::GetDiscID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdState::GetDiscID method
+# IDvdState::GetDiscID
 
 
 ## -description

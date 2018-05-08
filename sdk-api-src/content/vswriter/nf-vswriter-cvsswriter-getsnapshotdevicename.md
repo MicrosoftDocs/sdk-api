@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.GetSnapshotDeviceName
-title: CVssWriter::GetSnapshotDeviceName method
+title: CVssWriter::GetSnapshotDeviceName
 author: windows-driver-content
 description: The GetSnapshotDeviceName method returns the name of the device that hosts the shadow copy of the specified volume or file share.
 old-location: base\cvsswriter_getsnapshotdevicename.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: ac0beefe-0afd-45da-b1bb-1bd960b4b0f0
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriter, CVssWriter interface [VSS], GetSnapshotDeviceName method, CVssWriter::GetSnapshotDeviceName, GetSnapshotDeviceName method [VSS], GetSnapshotDeviceName method [VSS], CVssWriter interface, GetSnapshotDeviceName,CVssWriter.GetSnapshotDeviceName, _win32_cvsswriter_getsnapshotdevicename, base.cvsswriter_getsnapshotdevicename, vswriter/CVssWriter::GetSnapshotDeviceName
+ms.keywords: CVssWriter interface [VSS],GetSnapshotDeviceName method, CVssWriter.GetSnapshotDeviceName, CVssWriter::GetSnapshotDeviceName, GetSnapshotDeviceName, GetSnapshotDeviceName method [VSS], GetSnapshotDeviceName method [VSS],CVssWriter interface, _win32_cvsswriter_getsnapshotdevicename, base.cvsswriter_getsnapshotdevicename, vswriter/CVssWriter::GetSnapshotDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriter::GetSnapshotDeviceName method
+# CVssWriter::GetSnapshotDeviceName
 
 
 ## -description

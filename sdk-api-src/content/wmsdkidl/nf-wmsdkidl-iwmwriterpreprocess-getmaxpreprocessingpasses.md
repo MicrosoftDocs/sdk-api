@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.GetMaxPreprocessingPasses
-title: IWMWriterPreprocess::GetMaxPreprocessingPasses method
+title: IWMWriterPreprocess::GetMaxPreprocessingPasses
 author: windows-driver-content
 description: The GetMaxPreprocessingPasses method retrieves the maximum number of preprocessing passes for a specified input stream.
 old-location: wmformat\iwmwriterpreprocess_getmaxpreprocessingpasses.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 6acdc536-8b38-4fd4-9705-f4399dfc3faa
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetMaxPreprocessingPasses method [windows Media Format], GetMaxPreprocessingPasses method [windows Media Format], IWMWriterPreprocess interface, GetMaxPreprocessingPasses,IWMWriterPreprocess.GetMaxPreprocessingPasses, IWMWriterPreprocess, IWMWriterPreprocess interface [windows Media Format], GetMaxPreprocessingPasses method, IWMWriterPreprocess::GetMaxPreprocessingPasses, IWMWriterPreprocessGetMaxPreprocessingPasses, wmformat.iwmwriterpreprocess_getmaxpreprocessingpasses, wmsdkidl/IWMWriterPreprocess::GetMaxPreprocessingPasses
+ms.keywords: GetMaxPreprocessingPasses, GetMaxPreprocessingPasses method [windows Media Format], GetMaxPreprocessingPasses method [windows Media Format],IWMWriterPreprocess interface, IWMWriterPreprocess interface [windows Media Format],GetMaxPreprocessingPasses method, IWMWriterPreprocess.GetMaxPreprocessingPasses, IWMWriterPreprocess::GetMaxPreprocessingPasses, IWMWriterPreprocessGetMaxPreprocessingPasses, wmformat.iwmwriterpreprocess_getmaxpreprocessingpasses, wmsdkidl/IWMWriterPreprocess::GetMaxPreprocessingPasses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterPreprocess::GetMaxPreprocessingPasses method
+# IWMWriterPreprocess::GetMaxPreprocessingPasses
 
 
 ## -description

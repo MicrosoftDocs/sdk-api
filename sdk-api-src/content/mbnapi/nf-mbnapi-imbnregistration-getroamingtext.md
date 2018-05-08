@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRoamingText
-title: IMbnRegistration::GetRoamingText method
+title: IMbnRegistration::GetRoamingText
 author: windows-driver-content
 description: Gets the roaming text describing the roaming provider.
 old-location: mbn\imbnregistration_getroamingtext.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: a2911387-7497-43c5-bc1c-db093f31186c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetRoamingText method [Microsoft Broadband Networks], GetRoamingText method [Microsoft Broadband Networks], IMbnRegistration interface, GetRoamingText,IMbnRegistration.GetRoamingText, IMbnRegistration, IMbnRegistration interface [Microsoft Broadband Networks], GetRoamingText method, IMbnRegistration::GetRoamingText, mbn.imbnregistration_getroamingtext, mbnapi/IMbnRegistration::GetRoamingText
+ms.keywords: GetRoamingText, GetRoamingText method [Microsoft Broadband Networks], GetRoamingText method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRoamingText method, IMbnRegistration.GetRoamingText, IMbnRegistration::GetRoamingText, mbn.imbnregistration_getroamingtext, mbnapi/IMbnRegistration::GetRoamingText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnRegistration::GetRoamingText method
+# IMbnRegistration::GetRoamingText
 
 
 ## -description

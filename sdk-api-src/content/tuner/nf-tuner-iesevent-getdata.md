@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESEvent.GetData
-title: IESEvent::GetData method
+title: IESEvent::GetData
 author: windows-driver-content
 description: Gets data from an event that is derived from the IESEvent interface. This method gets a byte array that contains the data in an IESEvent object, which is passed in a call to IESEventService::FireESEvent.
 old-location: mstv\iesevent_getdata.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bef529c5-0a97-4eb0-83ca-669edc7a2452
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies], IESEvent interface, GetData,IESEvent.GetData, IESEvent, IESEvent interface [Microsoft TV Technologies], GetData method, IESEvent::GetData, mstv.iesevent_getdata, tuner/IESEvent::GetData
+ms.keywords: GetData, GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetData method, IESEvent.GetData, IESEvent::GetData, mstv.iesevent_getdata, tuner/IESEvent::GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESEvent::GetData method
+# IESEvent::GetData
 
 
 ## -description

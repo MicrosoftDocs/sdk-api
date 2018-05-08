@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatuses.get_Count
-title: ICspStatuses::get_Count method
+title: ICspStatuses::get_Count
 author: windows-driver-content
 description: Retrieves the number of ICspStatus objects in the collection.
 old-location: security\icspstatuses_count_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: a99eb5ee-8677-4449-ba36-c87045530393
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Count property [Security], Count property [Security], ICspStatuses interface, ICspStatuses, ICspStatuses interface [Security], Count property, ICspStatuses.Count, ICspStatuses::get_Count, certenroll/ICspStatuses::Count, certenroll/ICspStatuses::get_Count, get_Count,ICspStatuses.get_Count, security.icspstatuses_count_property
+ms.keywords: Count property [Security], Count property [Security],ICspStatuses interface, ICspStatuses interface [Security],Count property, ICspStatuses.Count, ICspStatuses.get_Count, ICspStatuses::Count, ICspStatuses::get_Count, certenroll/ICspStatuses::Count, certenroll/ICspStatuses::get_Count, get_Count, security.icspstatuses_count_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspStatuses::get_Count method
+# ICspStatuses::get_Count
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsNameTranslate.Set
-title: IADsNameTranslate::Set method
+title: IADsNameTranslate::Set
 author: windows-driver-content
 description: Directs the directory service to set up a specified object for name translation.
 old-location: adsi\iadsnametranslate_set.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 1c126333-3d5c-4ba3-8c66-de778e26488f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsNameTranslate, IADsNameTranslate interface [ADSI], Set method, IADsNameTranslate::Set, Set method [ADSI], Set method [ADSI], IADsNameTranslate interface, Set,IADsNameTranslate.Set, _ds_iadsnametranslate_set, adsi.iadsnametranslate__set, adsi.iadsnametranslate_set, iads/IADsNameTranslate::Set
+ms.keywords: IADsNameTranslate interface [ADSI],Set method, IADsNameTranslate.Set, IADsNameTranslate::Set, Set, Set method [ADSI], Set method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_set, adsi.iadsnametranslate__set, adsi.iadsnametranslate_set, iads/IADsNameTranslate::Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsNameTranslate::Set method
+# IADsNameTranslate::Set
 
 
 ## -description

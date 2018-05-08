@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: 655f2dfa-a6cf-43db-8d2e-bf9a10163c75
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: PFNRASGETBUFFER, RasGetBuffer, RasGetBuffer callback function [RAS], _ras_rasgetbuffer, ras/RasGetBuffer, rras.rasgetbuffer
+ms.keywords: PFNRASGETBUFFER, PFNRASGETBUFFER callback, RasGetBuffer, RasGetBuffer callback function [RAS], _ras_rasgetbuffer, ras/RasGetBuffer, rras.rasgetbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PFNRASGETBUFFER callback
+# PFNRASGETBUFFER callback function
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.put_AgeLimit
-title: IFaxIncomingArchive::put_AgeLimit method
+title: IFaxIncomingArchive::put_AgeLimit
 author: windows-driver-content
 description: The AgeLimit property is a value that indicates the number of days that the fax service retains fax messages in the archive of inbound faxes.
 old-location: fax\_mfax_faxincomingarchive_agelimit_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6vjo.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service], FaxIncomingArchive object, FaxIncomingArchive object [Fax Service], AgeLimit property, IFaxIncomingArchive, IFaxIncomingArchive::put_AgeLimit, _mfax_faxincomingarchive.agelimit, fax._mfax_faxincomingarchive_agelimit, fax._mfax_faxincomingarchive_agelimit_vb, put_AgeLimit,IFaxIncomingArchive.put_AgeLimit
+ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service],FaxIncomingArchive object, FaxIncomingArchive object [Fax Service],AgeLimit property, FaxIncomingArchive.AgeLimit, IFaxIncomingArchive.put_AgeLimit, IFaxIncomingArchive::put_AgeLimit, _mfax_faxincomingarchive.agelimit, fax._mfax_faxincomingarchive_agelimit, fax._mfax_faxincomingarchive_agelimit_vb, put_AgeLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxIncomingArchive::put_AgeLimit method
+# IFaxIncomingArchive::put_AgeLimit
 
 
 ## -description

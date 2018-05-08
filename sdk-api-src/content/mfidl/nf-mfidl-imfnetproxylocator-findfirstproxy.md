@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFNetProxyLocator.FindFirstProxy
-title: IMFNetProxyLocator::FindFirstProxy method
+title: IMFNetProxyLocator::FindFirstProxy
 author: windows-driver-content
 description: Initializes the proxy locator object.
 old-location: mf\imfnetproxylocator_findfirstproxy.htm
 old-project: medfound
 ms.assetid: 48eba170-eeed-4edf-b8d3-2f4541637129
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 48eba170-eeed-4edf-b8d3-2f4541637129, FindFirstProxy method [Media Foundation], FindFirstProxy method [Media Foundation], IMFNetProxyLocator interface, FindFirstProxy,IMFNetProxyLocator.FindFirstProxy, IMFNetProxyLocator, IMFNetProxyLocator interface [Media Foundation], FindFirstProxy method, IMFNetProxyLocator::FindFirstProxy, mf.imfnetproxylocator_findfirstproxy, mfidl/IMFNetProxyLocator::FindFirstProxy
+ms.date: 5/3/2018
+ms.keywords: 48eba170-eeed-4edf-b8d3-2f4541637129, FindFirstProxy, FindFirstProxy method [Media Foundation], FindFirstProxy method [Media Foundation],IMFNetProxyLocator interface, IMFNetProxyLocator interface [Media Foundation],FindFirstProxy method, IMFNetProxyLocator.FindFirstProxy, IMFNetProxyLocator::FindFirstProxy, mf.imfnetproxylocator_findfirstproxy, mfidl/IMFNetProxyLocator::FindFirstProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFNetProxyLocator::FindFirstProxy method
+# IMFNetProxyLocator::FindFirstProxy
 
 
 ## -description

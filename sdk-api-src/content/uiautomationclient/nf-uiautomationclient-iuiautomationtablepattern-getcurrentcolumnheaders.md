@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.GetCurrentColumnHeaders
-title: IUIAutomationTablePattern::GetCurrentColumnHeaders method
+title: IUIAutomationTablePattern::GetCurrentColumnHeaders
 author: windows-driver-content
 description: Retrieves a collection of UI Automation elements representing all the column headers in a table.
 old-location: winauto\uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 4f31bfa6-0a4a-4cd6-9f5d-2964696d4acd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetCurrentColumnHeaders method [Windows Accessibility], GetCurrentColumnHeaders method [Windows Accessibility], IUIAutomationTablePattern interface, GetCurrentColumnHeaders,IUIAutomationTablePattern.GetCurrentColumnHeaders, IUIAutomationTablePattern, IUIAutomationTablePattern interface [Windows Accessibility], GetCurrentColumnHeaders method, IUIAutomationTablePattern::GetCurrentColumnHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders, uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders, uiautomationclient/IUIAutomationTablePattern::GetCurrentColumnHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders
+ms.keywords: GetCurrentColumnHeaders, GetCurrentColumnHeaders method [Windows Accessibility], GetCurrentColumnHeaders method [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],GetCurrentColumnHeaders method, IUIAutomationTablePattern.GetCurrentColumnHeaders, IUIAutomationTablePattern::GetCurrentColumnHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders, uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders, uiautomationclient/IUIAutomationTablePattern::GetCurrentColumnHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTablePattern::GetCurrentColumnHeaders method
+# IUIAutomationTablePattern::GetCurrentColumnHeaders
 
 
 ## -description

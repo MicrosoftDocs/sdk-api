@@ -141,34 +141,34 @@ For descriptions of these types, see <a href="https://msdn.microsoft.com/3bc8207
 Offset (in bytes) from the beginning of the TRACE_EVENT_INFO structure to the custom schema information. The custom schema information will contain a 2-byte protocol identifier, followed by a 2-byte schema length, followed by the schema.
 
 
-### -field Tags
-
-A 28-bit value associated with the field metadata. This value is valid only if the <i>PropertyHasTags</i> flag is set. This value can be used by the event provider to associate additional semantic data with a field for use by an event processing tool. For example, a tag value of 1 might indicate that the field contains a username. The semantics of any values in this field are defined by the event provider.
-
-
-#### - Reserved
-
-Reserved.
-
-
-#### - count
+### -field count
 
 Number of elements in the array. Note that this value is 1 for properties that are not defined as an array.
 
 
-#### - countPropertyIndex
+### -field countPropertyIndex
 
 Zero-based index to the element of the property array that contains the number of elements in the array. Use this member if the <a href="https://msdn.microsoft.com/517c1662-4230-44dc-94f0-a1996291bbee">PropertyParamCount</a> flag in <b>Flags</b> is set; otherwise, use the <b>count</b> member.
 
 
-#### - length
+### -field length
 
 Size of the property, in bytes. Note that variable-sized types such as strings and binary data have a length of zero unless the property has length attribute to explicitly indicate its real length. Structures have a length of zero.
 
 
-#### - lengthPropertyIndex
+### -field lengthPropertyIndex
 
 Zero-based index to the element of the property array that contains the size value of this property. Use this member if the <a href="https://msdn.microsoft.com/517c1662-4230-44dc-94f0-a1996291bbee">PropertyParamLength</a> flag in <b>Flags</b> is set; otherwise, use the <b>length</b> member.
+
+
+### -field Reserved
+
+Reserved.
+
+
+### -field Tags
+
+A 28-bit value associated with the field metadata. This value is valid only if the <i>PropertyHasTags</i> flag is set. This value can be used by the event provider to associate additional semantic data with a field for use by an event processing tool. For example, a tag value of 1 might indicate that the field contains a username. The semantics of any values in this field are defined by the event provider.
 
 
 ## -remarks

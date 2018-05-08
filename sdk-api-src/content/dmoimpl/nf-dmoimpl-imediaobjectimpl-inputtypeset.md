@@ -1,14 +1,14 @@
 ---
 UID: NF:dmoimpl.IMediaObjectImpl.InputTypeSet
-title: IMediaObjectImpl::InputTypeSet method
+title: IMediaObjectImpl::InputTypeSet
 author: windows-driver-content
 description: The InputTypeSet method queries whether the media type was set on an input stream.
 old-location: dshow\imediaobjectimpl_inputtypeset.htm
 old-project: DirectShow
 ms.assetid: f7f2f594-31ed-4c75-8221-9c62f8b4bed3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaObjectImpl, IMediaObjectImpl interface [DirectShow], InputTypeSet method, IMediaObjectImpl::InputTypeSet, IMediaObjectImplInputTypeSet, InputTypeSet method [DirectShow], InputTypeSet method [DirectShow], IMediaObjectImpl interface, InputTypeSet,IMediaObjectImpl.InputTypeSet, dmoimpl/IMediaObjectImpl::InputTypeSet, dshow.imediaobjectimpl_inputtypeset
+ms.date: 4/30/2018
+ms.keywords: IMediaObjectImpl interface [DirectShow],InputTypeSet method, IMediaObjectImpl.InputTypeSet, IMediaObjectImpl::InputTypeSet, IMediaObjectImplInputTypeSet, InputTypeSet, InputTypeSet method [DirectShow], InputTypeSet method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::InputTypeSet, dshow.imediaobjectimpl_inputtypeset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaObjectImpl::InputTypeSet method
+# IMediaObjectImpl::InputTypeSet
 
 
 ## -description

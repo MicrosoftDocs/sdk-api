@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ServiceDeleted
-title: IGuideDataEvent::ServiceDeleted method
+title: IGuideDataEvent::ServiceDeleted
 author: windows-driver-content
 description: The ServiceDeleted method is called when a service has been deleted.
 old-location: mstv\iguidedataevent_servicedeleted.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bba15ebe-d1c5-4c71-b052-6b75a7825613
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IGuideDataEvent, IGuideDataEvent interface [Microsoft TV Technologies], ServiceDeleted method, IGuideDataEvent::ServiceDeleted, IGuideDataEventServiceDeleted, ServiceDeleted method [Microsoft TV Technologies], ServiceDeleted method [Microsoft TV Technologies], IGuideDataEvent interface, ServiceDeleted,IGuideDataEvent.ServiceDeleted, bdatif/IGuideDataEvent::ServiceDeleted, mstv.iguidedataevent_servicedeleted
+ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ServiceDeleted method, IGuideDataEvent.ServiceDeleted, IGuideDataEvent::ServiceDeleted, IGuideDataEventServiceDeleted, ServiceDeleted, ServiceDeleted method [Microsoft TV Technologies], ServiceDeleted method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ServiceDeleted, mstv.iguidedataevent_servicedeleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGuideDataEvent::ServiceDeleted method
+# IGuideDataEvent::ServiceDeleted
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.Register
-title: ITfInputProcessorProfiles::Register method
+title: ITfInputProcessorProfiles::Register
 author: windows-driver-content
 description: ITfInputProcessorProfiles::Register method
 old-location: tsf\itfinputprocessorprofiles_register.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 264bc32e-60a2-4dff-a212-5682d30a769e
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], Register method, ITfInputProcessorProfiles::Register, Register method [Text Services Framework], Register method [Text Services Framework], ITfInputProcessorProfiles interface, Register,ITfInputProcessorProfiles.Register, _tsf_itfinputprocessorprofiles_register_ref, msctf/ITfInputProcessorProfiles::Register, tsf.itfinputprocessorprofiles_register
+ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],Register method, ITfInputProcessorProfiles.Register, ITfInputProcessorProfiles::Register, Register, Register method [Text Services Framework], Register method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_register_ref, msctf/ITfInputProcessorProfiles::Register, tsf.itfinputprocessorprofiles_register
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfiles::Register method
+# ITfInputProcessorProfiles::Register
 
 
 ## -description

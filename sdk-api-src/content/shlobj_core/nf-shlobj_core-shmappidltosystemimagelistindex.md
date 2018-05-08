@@ -7,13 +7,13 @@ old-location: shell\SHMapPIDLToSystemImageListIndex.htm
 old-project: shell
 ms.assetid: 7f11049b-2481-496b-95e3-77d480f2c9df
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: SHMapPIDLToSystemImageListIndex, SHMapPIDLToSystemImageListIndex function [Windows Shell], _win32_SHMapPIDLToSystemImageListIndex, shell.SHMapPIDLToSystemImageListIndex, shlobj_core/SHMapPIDLToSystemImageListIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: shlobj_core.h
-req.include-header: Shlobj.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal.get_Id
-title: IPrincipal::get_Id method
+title: IPrincipal::get_Id
 author: windows-driver-content
 description: Gets or sets the identifier of the principal.
 old-location: taskschd\iprincipal_id.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 70c31ea8-508a-4971-b62a-b94e87a8857d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPrincipal, IPrincipal interface [Task Scheduler], Id property, IPrincipal.Id, IPrincipal::get_Id, IPrincipal::put_Id, Id property [Task Scheduler], Id property [Task Scheduler], IPrincipal interface, get_Id,IPrincipal.get_Id, taskschd.iprincipal_id, taskschd/IPrincipal::Id, taskschd/IPrincipal::get_Id, taskschd/IPrincipal::put_Id
+ms.keywords: IPrincipal interface [Task Scheduler],Id property, IPrincipal.Id, IPrincipal.get_Id, IPrincipal::Id, IPrincipal::get_Id, IPrincipal::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],IPrincipal interface, get_Id, taskschd.iprincipal_id, taskschd/IPrincipal::Id, taskschd/IPrincipal::get_Id, taskschd/IPrincipal::put_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IPrincipal::get_Id method
+# IPrincipal::get_Id
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceTrack
-title: IComResourceEvents::OnResourceTrack method
+title: IComResourceEvents::OnResourceTrack
 author: windows-driver-content
 description: Generated when a resource is tracked.
 old-location: cos\icomresourceevents_onresourcetrack.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 8845cf07-f796-45bd-9d3d-261cf0903050
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComResourceEvents, IComResourceEvents interface [COM+], OnResourceTrack method, IComResourceEvents::OnResourceTrack, OnResourceTrack method [COM+], OnResourceTrack method [COM+], IComResourceEvents interface, OnResourceTrack,IComResourceEvents.OnResourceTrack, _dtc_IComResourceEvents_OnResourceTrack, comsvcs/IComResourceEvents::OnResourceTrack, cos.icomresourceevents_onresourcetrack
+ms.keywords: IComResourceEvents interface [COM+],OnResourceTrack method, IComResourceEvents.OnResourceTrack, IComResourceEvents::OnResourceTrack, OnResourceTrack, OnResourceTrack method [COM+], OnResourceTrack method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceTrack, comsvcs/IComResourceEvents::OnResourceTrack, cos.icomresourceevents_onresourcetrack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComResourceEvents::OnResourceTrack method
+# IComResourceEvents::OnResourceTrack
 
 
 ## -description

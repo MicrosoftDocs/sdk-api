@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.get_OldCertificate
-title: IX509SCEPEnrollment::get_OldCertificate method
+title: IX509SCEPEnrollment::get_OldCertificate
 author: windows-driver-content
 description: Gets or sets an old certificate that a request is intended to replace.
 old-location: security\ix509scepenrollment_oldcertificate.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: caa88227-b068-4b3d-9334-c0283153b1ce
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509SCEPEnrollment, IX509SCEPEnrollment interface [Security], OldCertificate property, IX509SCEPEnrollment.OldCertificate, IX509SCEPEnrollment::get_OldCertificate, IX509SCEPEnrollment::put_OldCertificate, OldCertificate property [Security], OldCertificate property [Security], IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::OldCertificate, certenroll/IX509SCEPEnrollment::get_OldCertificate, certenroll/IX509SCEPEnrollment::put_OldCertificate, get_OldCertificate,IX509SCEPEnrollment.get_OldCertificate, security.ix509scepenrollment_oldcertificate
+ms.keywords: IX509SCEPEnrollment interface [Security],OldCertificate property, IX509SCEPEnrollment.OldCertificate, IX509SCEPEnrollment.get_OldCertificate, IX509SCEPEnrollment::OldCertificate, IX509SCEPEnrollment::get_OldCertificate, IX509SCEPEnrollment::put_OldCertificate, OldCertificate property [Security], OldCertificate property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::OldCertificate, certenroll/IX509SCEPEnrollment::get_OldCertificate, certenroll/IX509SCEPEnrollment::put_OldCertificate, get_OldCertificate, security.ix509scepenrollment_oldcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Certenroll.dll
 req.irql: 
 ---
 
-# IX509SCEPEnrollment::get_OldCertificate method
+# IX509SCEPEnrollment::get_OldCertificate
 
 
 ## -description

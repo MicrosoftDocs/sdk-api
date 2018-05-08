@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Treble
-title: IAMAudioInputMixer::put_Treble method
+title: IAMAudioInputMixer::put_Treble
 author: windows-driver-content
 description: The put_Treble method sets the treble equalization for this input.
 old-location: dshow\iamaudioinputmixer_put_treble.htm
 old-project: DirectShow
 ms.assetid: 09030c17-14d0-4af2-9e9e-64a536133b64
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], put_Treble method, IAMAudioInputMixer::put_Treble, IAMAudioInputMixerput_Treble, dshow.iamaudioinputmixer_put_treble, put_Treble method [DirectShow], put_Treble method [DirectShow], IAMAudioInputMixer interface, put_Treble,IAMAudioInputMixer.put_Treble, strmif/IAMAudioInputMixer::put_Treble
+ms.date: 4/30/2018
+ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Treble method, IAMAudioInputMixer.put_Treble, IAMAudioInputMixer::put_Treble, IAMAudioInputMixerput_Treble, dshow.iamaudioinputmixer_put_treble, put_Treble, put_Treble method [DirectShow], put_Treble method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Treble
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAudioInputMixer::put_Treble method
+# IAMAudioInputMixer::put_Treble
 
 
 ## -description

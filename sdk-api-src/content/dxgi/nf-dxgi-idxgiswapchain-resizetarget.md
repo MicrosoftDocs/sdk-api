@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.ResizeTarget
-title: IDXGISwapChain::ResizeTarget method
+title: IDXGISwapChain::ResizeTarget
 author: windows-driver-content
 description: Resizes the output target.
 old-location: direct3ddxgi\idxgiswapchain_resizetarget.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_resizetarget.htm
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGISwapChain, IDXGISwapChain interface [DXGI], ResizeTarget method, IDXGISwapChain::ResizeTarget, ResizeTarget method [DXGI], ResizeTarget method [DXGI], IDXGISwapChain interface, ResizeTarget,IDXGISwapChain.ResizeTarget, direct3ddxgi.idxgiswapchain_resizetarget, dxgi/IDXGISwapChain::ResizeTarget, f136baf7-17fc-2a80-f25e-e0fc612bcad7
+ms.keywords: IDXGISwapChain interface [DXGI],ResizeTarget method, IDXGISwapChain.ResizeTarget, IDXGISwapChain::ResizeTarget, ResizeTarget, ResizeTarget method [DXGI], ResizeTarget method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_resizetarget, dxgi/IDXGISwapChain::ResizeTarget, f136baf7-17fc-2a80-f25e-e0fc612bcad7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain::ResizeTarget method
+# IDXGISwapChain::ResizeTarget
 
 
 ## -description

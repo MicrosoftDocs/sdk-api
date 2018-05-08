@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_SchedulesEnabled
-title: IDataCollectorSet::put_SchedulesEnabled method
+title: IDataCollectorSet::put_SchedulesEnabled
 author: windows-driver-content
 description: Retrieves or sets a value that indicates whether the schedules are enabled.
 old-location: pla\idatacollectorset_get_schedulesenabled.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 75ebe328-1494-464c-9491-e8a39e1d8ee1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], SchedulesEnabled property, IDataCollectorSet.SchedulesEnabled, IDataCollectorSet::get_SchedulesEnabled, IDataCollectorSet::put_SchedulesEnabled, SchedulesEnabled property [PLA], SchedulesEnabled property [PLA], IDataCollectorSet interface, base.idatacollectorset_get_schedulesenabled, pla.idatacollectorset_get_schedulesenabled, pla/IDataCollectorSet::SchedulesEnabled, pla/IDataCollectorSet::get_SchedulesEnabled, pla/IDataCollectorSet::put_SchedulesEnabled, put_SchedulesEnabled,IDataCollectorSet.put_SchedulesEnabled
+ms.keywords: IDataCollectorSet interface [PLA],SchedulesEnabled property, IDataCollectorSet.SchedulesEnabled, IDataCollectorSet.put_SchedulesEnabled, IDataCollectorSet::SchedulesEnabled, IDataCollectorSet::get_SchedulesEnabled, IDataCollectorSet::put_SchedulesEnabled, SchedulesEnabled property [PLA], SchedulesEnabled property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_schedulesenabled, pla.idatacollectorset_get_schedulesenabled, pla/IDataCollectorSet::SchedulesEnabled, pla/IDataCollectorSet::get_SchedulesEnabled, pla/IDataCollectorSet::put_SchedulesEnabled, put_SchedulesEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::put_SchedulesEnabled method
+# IDataCollectorSet::put_SchedulesEnabled
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.CreateObjectWithPropertiesAndData
-title: IPortableDeviceContent::CreateObjectWithPropertiesAndData method
+title: IPortableDeviceContent::CreateObjectWithPropertiesAndData
 author: windows-driver-content
 description: The CreateObjectWithPropertiesAndData method creates an object with both properties and data on the device.
 old-location: wpdsdk\iportabledevicecontent_createobjectwithpropertiesanddata.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: ea3445cc-69af-40a6-a5a4-695e0f2e1fb6
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CreateObjectWithPropertiesAndData method [Windows Portable Devices SDK], CreateObjectWithPropertiesAndData method [Windows Portable Devices SDK], IPortableDeviceContent interface, CreateObjectWithPropertiesAndData,IPortableDeviceContent.CreateObjectWithPropertiesAndData, IPortableDeviceContent, IPortableDeviceContent interface [Windows Portable Devices SDK], CreateObjectWithPropertiesAndData method, IPortableDeviceContent::CreateObjectWithPropertiesAndData, IPortableDeviceContentCreateObjectWithPropertiesAndData, portabledeviceapi/IPortableDeviceContent::CreateObjectWithPropertiesAndData, wpdsdk.iportabledevicecontent_createobjectwithpropertiesanddata
+ms.keywords: CreateObjectWithPropertiesAndData, CreateObjectWithPropertiesAndData method [Windows Portable Devices SDK], CreateObjectWithPropertiesAndData method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],CreateObjectWithPropertiesAndData method, IPortableDeviceContent.CreateObjectWithPropertiesAndData, IPortableDeviceContent::CreateObjectWithPropertiesAndData, IPortableDeviceContentCreateObjectWithPropertiesAndData, portabledeviceapi/IPortableDeviceContent::CreateObjectWithPropertiesAndData, wpdsdk.iportabledevicecontent_createobjectwithpropertiesanddata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceContent::CreateObjectWithPropertiesAndData method
+# IPortableDeviceContent::CreateObjectWithPropertiesAndData
 
 
 ## -description

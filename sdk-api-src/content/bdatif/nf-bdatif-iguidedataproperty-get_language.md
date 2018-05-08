@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideDataProperty.get_Language
-title: IGuideDataProperty::get_Language method
+title: IGuideDataProperty::get_Language
 author: windows-driver-content
 description: The get_Language method retrieves the language associated with the property.
 old-location: mstv\iguidedataproperty_get_language.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e49a35f3-0517-4e84-b806-203818a0f62c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IGuideDataProperty, IGuideDataProperty interface [Microsoft TV Technologies], get_Language method, IGuideDataProperty::get_Language, IGuideDataPropertyget_Language, bdatif/IGuideDataProperty::get_Language, get_Language method [Microsoft TV Technologies], get_Language method [Microsoft TV Technologies], IGuideDataProperty interface, get_Language,IGuideDataProperty.get_Language, mstv.iguidedataproperty_get_language
+ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Language method, IGuideDataProperty.get_Language, IGuideDataProperty::get_Language, IGuideDataPropertyget_Language, bdatif/IGuideDataProperty::get_Language, get_Language, get_Language method [Microsoft TV Technologies], get_Language method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_language
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGuideDataProperty::get_Language method
+# IGuideDataProperty::get_Language
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControlSite.GetExtendedControl
-title: IOleControlSite::GetExtendedControl method
+title: IOleControlSite::GetExtendedControl
 author: windows-driver-content
 description: Retrieves an IDispatch pointer to the extended control that the container uses to wrap the real control.
 old-location: com\iolecontrolsite_getextendedcontrol.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 66cfdf22-db2b-41d2-9854-d6bf70fbe146
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetExtendedControl method [COM], GetExtendedControl method [COM], IOleControlSite interface, GetExtendedControl,IOleControlSite.GetExtendedControl, IOleControlSite, IOleControlSite interface [COM], GetExtendedControl method, IOleControlSite::GetExtendedControl, _ctrl_iolecontrolsite_getextendedcontrol, com.iolecontrolsite_getextendedcontrol, ocidl/IOleControlSite::GetExtendedControl
+ms.keywords: GetExtendedControl, GetExtendedControl method [COM], GetExtendedControl method [COM],IOleControlSite interface, IOleControlSite interface [COM],GetExtendedControl method, IOleControlSite.GetExtendedControl, IOleControlSite::GetExtendedControl, _ctrl_iolecontrolsite_getextendedcontrol, com.iolecontrolsite_getextendedcontrol, ocidl/IOleControlSite::GetExtendedControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleControlSite::GetExtendedControl method
+# IOleControlSite::GetExtendedControl
 
 
 ## -description

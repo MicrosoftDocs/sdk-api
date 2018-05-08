@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPControls3.getAudioLanguageID
-title: IWMPControls3::getAudioLanguageID method
+title: IWMPControls3::getAudioLanguageID
 author: windows-driver-content
 description: The getAudioLanguageID method retrieves the locale identifier (LCID) for a specified audio language index.
 old-location: wmp\iwmpcontrols3_getaudiolanguageid.htm
 old-project: WMP
 ms.assetid: 50874485-23fc-48cc-9149-7cbc3b8c0c00
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPControls3, IWMPControls3 interface [Windows Media Player], getAudioLanguageID method, IWMPControls3::getAudioLanguageID, IWMPControls3getAudioLanguageID, getAudioLanguageID method [Windows Media Player], getAudioLanguageID method [Windows Media Player], IWMPControls3 interface, getAudioLanguageID,IWMPControls3.getAudioLanguageID, wmp.iwmpcontrols3_getaudiolanguageid, wmp/IWMPControls3::getAudioLanguageID
+ms.date: 5/4/2018
+ms.keywords: IWMPControls3 interface [Windows Media Player],getAudioLanguageID method, IWMPControls3.getAudioLanguageID, IWMPControls3::getAudioLanguageID, IWMPControls3getAudioLanguageID, getAudioLanguageID, getAudioLanguageID method [Windows Media Player], getAudioLanguageID method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_getaudiolanguageid, wmp/IWMPControls3::getAudioLanguageID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPControls3::getAudioLanguageID method
+# IWMPControls3::getAudioLanguageID
 
 
 ## -description

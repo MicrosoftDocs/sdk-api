@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 3ac68be7-e6fd-42c7-b2f3-b90bb5097b07
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPISharingSession2, IRDPSRAPISharingSession2 interface [RDP], IRDPSRAPISharingSession2 interface [RDP], described, rdp.irdpsrapisharingsession2, rdpencomapi/IRDPSRAPISharingSession2
+ms.keywords: IRDPSRAPISharingSession2, IRDPSRAPISharingSession2 interface [RDP], IRDPSRAPISharingSession2 interface [RDP],described, rdp.irdpsrapisharingsession2, rdpencomapi/IRDPSRAPISharingSession2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

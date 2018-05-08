@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.InitializeFromCertificate
-title: IX509CertificateRequestPkcs7::InitializeFromCertificate method
+title: IX509CertificateRequestPkcs7::InitializeFromCertificate
 author: windows-driver-content
 description: Initializes the certificate request by using an existing certificate.
 old-location: security\ix509certificaterequestpkcs7_initializefromcertificate_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 7500b714-4608-4da6-85ad-20cea30853cc
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509CertificateRequestPkcs7, IX509CertificateRequestPkcs7 interface [Security], InitializeFromCertificate method, IX509CertificateRequestPkcs7::InitializeFromCertificate, InheritDefault, InheritExtensionsFlag, InheritNewDefaultKey, InheritNewSimilarKey, InheritPrivateKey, InheritPublicKey, InheritRenewalCertificateFlag, InheritSubjectAltNameFlag, InheritSubjectFlag, InheritTemplateFlag, InheritValidityPeriodFlag, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security], IX509CertificateRequestPkcs7 interface, InitializeFromCertificate,IX509CertificateRequestPkcs7.InitializeFromCertificate, certenroll/IX509CertificateRequestPkcs7::InitializeFromCertificate, security.ix509certificaterequestpkcs7_initializefromcertificate_method
+ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromCertificate method, IX509CertificateRequestPkcs7.InitializeFromCertificate, IX509CertificateRequestPkcs7::InitializeFromCertificate, InheritDefault, InheritExtensionsFlag, InheritNewDefaultKey, InheritNewSimilarKey, InheritPrivateKey, InheritPublicKey, InheritRenewalCertificateFlag, InheritSubjectAltNameFlag, InheritSubjectFlag, InheritTemplateFlag, InheritValidityPeriodFlag, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromCertificate, security.ix509certificaterequestpkcs7_initializefromcertificate_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequestPkcs7::InitializeFromCertificate method
+# IX509CertificateRequestPkcs7::InitializeFromCertificate
 
 
 ## -description

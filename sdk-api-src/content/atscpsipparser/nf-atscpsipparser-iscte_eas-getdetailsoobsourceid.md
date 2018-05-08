@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDetailsOOBSourceID
-title: ISCTE_EAS::GetDetailsOOBSourceID method
+title: ISCTE_EAS::GetDetailsOOBSourceID
 author: windows-driver-content
 description: The GetDetailsOOBSourceID method returns the source identifier of the virtual details channel for the emergency alert.
 old-location: mstv\iscte_eas_getdetailsoobsourceid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 50bf2acd-87e1-4b64-bf98-997603d56a0a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetDetailsOOBSourceID method [Microsoft TV Technologies], GetDetailsOOBSourceID method [Microsoft TV Technologies], ISCTE_EAS interface, GetDetailsOOBSourceID,ISCTE_EAS.GetDetailsOOBSourceID, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetDetailsOOBSourceID method, ISCTE_EAS::GetDetailsOOBSourceID, ISCTE_EASGetDetailsOOBSourceID, atscpsipparser/ISCTE_EAS::GetDetailsOOBSourceID, mstv.iscte_eas_getdetailsoobsourceid
+ms.keywords: GetDetailsOOBSourceID, GetDetailsOOBSourceID method [Microsoft TV Technologies], GetDetailsOOBSourceID method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsOOBSourceID method, ISCTE_EAS.GetDetailsOOBSourceID, ISCTE_EAS::GetDetailsOOBSourceID, ISCTE_EASGetDetailsOOBSourceID, atscpsipparser/ISCTE_EAS::GetDetailsOOBSourceID, mstv.iscte_eas_getdetailsoobsourceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetDetailsOOBSourceID method
+# ISCTE_EAS::GetDetailsOOBSourceID
 
 
 ## -description

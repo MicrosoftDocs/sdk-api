@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.CreateAnimationVariable
-title: IUIAnimationManager2::CreateAnimationVariable method
+title: IUIAnimationManager2::CreateAnimationVariable
 author: windows-driver-content
 description: Creates a new animation variable.
 old-location: uianimation\iuianimationmanager2_createanimationvariable.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 5E963D24-2436-4B8F-8806-69E521EC83AF
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateAnimationVariable method [Windows Animation], CreateAnimationVariable method [Windows Animation], IUIAnimationManager2 interface, CreateAnimationVariable,IUIAnimationManager2.CreateAnimationVariable, IUIAnimationManager2, IUIAnimationManager2 interface [Windows Animation], CreateAnimationVariable method, IUIAnimationManager2::CreateAnimationVariable, uianimation.iuianimationmanager2_createanimationvariable, uianimation/IUIAnimationManager2::CreateAnimationVariable
+ms.keywords: CreateAnimationVariable, CreateAnimationVariable method [Windows Animation], CreateAnimationVariable method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],CreateAnimationVariable method, IUIAnimationManager2.CreateAnimationVariable, IUIAnimationManager2::CreateAnimationVariable, uianimation.iuianimationmanager2_createanimationvariable, uianimation/IUIAnimationManager2::CreateAnimationVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager2::CreateAnimationVariable method
+# IUIAnimationManager2::CreateAnimationVariable
 
 
 ## -description

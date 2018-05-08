@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTask.get_CurrentAction
-title: IRunningTask::get_CurrentAction method
+title: IRunningTask::get_CurrentAction
 author: windows-driver-content
 description: Gets the name of the current action that the running task is performing.
 old-location: taskschd\irunningtask_currentaction.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 52b58477-e968-4c76-835d-02ed63cef641
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CurrentAction property [Task Scheduler], CurrentAction property [Task Scheduler], IRunningTask interface, IRunningTask, IRunningTask interface [Task Scheduler], CurrentAction property, IRunningTask.CurrentAction, IRunningTask::get_CurrentAction, get_CurrentAction,IRunningTask.get_CurrentAction, taskschd.irunningtask_currentaction, taskschd/IRunningTask::CurrentAction, taskschd/IRunningTask::get_CurrentAction
+ms.keywords: CurrentAction property [Task Scheduler], CurrentAction property [Task Scheduler],IRunningTask interface, IRunningTask interface [Task Scheduler],CurrentAction property, IRunningTask.CurrentAction, IRunningTask.get_CurrentAction, IRunningTask::CurrentAction, IRunningTask::get_CurrentAction, get_CurrentAction, taskschd.irunningtask_currentaction, taskschd/IRunningTask::CurrentAction, taskschd/IRunningTask::get_CurrentAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRunningTask::get_CurrentAction method
+# IRunningTask::get_CurrentAction
 
 
 ## -description

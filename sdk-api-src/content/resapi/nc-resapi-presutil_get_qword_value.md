@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 22017258-a71c-4167-b134-0cfd57f1ea08
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PRESUTIL_GET_QWORD_VALUE, PRESUTIL_GET_QWORD_VALUE callback function [Failover Cluster], mscs.resutilgetqwordvalue, resapi/PRESUTIL_GET_QWORD_VALUE
+ms.keywords: PRESUTIL_GET_QWORD_VALUE, PRESUTIL_GET_QWORD_VALUE callback, PRESUTIL_GET_QWORD_VALUE callback function [Failover Cluster], mscs.resutilgetqwordvalue, resapi/PRESUTIL_GET_QWORD_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PRESUTIL_GET_QWORD_VALUE callback
+# PRESUTIL_GET_QWORD_VALUE callback function
 
 
 ## -description

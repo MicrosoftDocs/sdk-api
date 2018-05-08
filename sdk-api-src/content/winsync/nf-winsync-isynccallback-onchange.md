@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncCallback.OnChange
-title: ISyncCallback::OnChange method
+title: ISyncCallback::OnChange
 author: windows-driver-content
 description: Occurs before a change is applied.
 old-location: winsync\isynccallback_onchange.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 16bcc448-8acc-4349-a5d1-0c0764afe2ec
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncCallback, ISyncCallback interface [Windows Sync], OnChange method, ISyncCallback::OnChange, OnChange method [Windows Sync], OnChange method [Windows Sync], ISyncCallback interface, OnChange,ISyncCallback.OnChange, winsync.isynccallback_onchange, winsync/ISyncCallback::OnChange
+ms.keywords: ISyncCallback interface [Windows Sync],OnChange method, ISyncCallback.OnChange, ISyncCallback::OnChange, OnChange, OnChange method [Windows Sync], OnChange method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onchange, winsync/ISyncCallback::OnChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncCallback::OnChange method
+# ISyncCallback::OnChange
 
 
 ## -description

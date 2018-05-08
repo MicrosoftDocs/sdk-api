@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMedia.getMarkerName
-title: IWMPMedia::getMarkerName method
+title: IWMPMedia::getMarkerName
 author: windows-driver-content
 description: The getMarkerName method retrieves the name of the marker at the specified index.
 old-location: wmp\iwmpmedia_getmarkername.htm
 old-project: WMP
 ms.assetid: 86c3931f-5790-43f5-896d-1728c38247a9
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], getMarkerName method, IWMPMedia2 interface [Windows Media Player], getMarkerName method, IWMPMedia2::getMarkerName, IWMPMedia3 interface [Windows Media Player], getMarkerName method, IWMPMedia3::getMarkerName, IWMPMedia::getMarkerName, IWMPMediagetMarkerName, getMarkerName method [Windows Media Player], getMarkerName method [Windows Media Player], IWMPMedia interface, getMarkerName method [Windows Media Player], IWMPMedia2 interface, getMarkerName method [Windows Media Player], IWMPMedia3 interface, getMarkerName,IWMPMedia.getMarkerName, wmp.iwmpmedia_getmarkername, wmp/IWMPMedia2::getMarkerName, wmp/IWMPMedia3::getMarkerName, wmp/IWMPMedia::getMarkerName
+ms.date: 5/4/2018
+ms.keywords: IWMPMedia interface [Windows Media Player],getMarkerName method, IWMPMedia.getMarkerName, IWMPMedia2 interface [Windows Media Player],getMarkerName method, IWMPMedia2::getMarkerName, IWMPMedia3 interface [Windows Media Player],getMarkerName method, IWMPMedia3::getMarkerName, IWMPMedia::getMarkerName, IWMPMediagetMarkerName, getMarkerName, getMarkerName method [Windows Media Player], getMarkerName method [Windows Media Player],IWMPMedia interface, getMarkerName method [Windows Media Player],IWMPMedia2 interface, getMarkerName method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_getmarkername, wmp/IWMPMedia2::getMarkerName, wmp/IWMPMedia3::getMarkerName, wmp/IWMPMedia::getMarkerName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMedia::getMarkerName method
+# IWMPMedia::getMarkerName
 
 
 ## -description

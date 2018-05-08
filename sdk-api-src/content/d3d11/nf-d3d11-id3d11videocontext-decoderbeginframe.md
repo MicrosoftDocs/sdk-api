@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.DecoderBeginFrame
-title: ID3D11VideoContext::DecoderBeginFrame method
+title: ID3D11VideoContext::DecoderBeginFrame
 author: windows-driver-content
 description: Starts a decoding operation to decode a video frame.
 old-location: mf\id3d11videocontext_decoderbeginframe.htm
 old-project: medfound
 ms.assetid: 395B06D8-1BCF-44F2-9F69-A183C30E36B7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: DecoderBeginFrame method [Media Foundation], DecoderBeginFrame method [Media Foundation], ID3D11VideoContext interface, DecoderBeginFrame,ID3D11VideoContext.DecoderBeginFrame, ID3D11VideoContext, ID3D11VideoContext interface [Media Foundation], DecoderBeginFrame method, ID3D11VideoContext::DecoderBeginFrame, d3d11/ID3D11VideoContext::DecoderBeginFrame, mf.id3d11videocontext_decoderbeginframe
+ms.date: 5/3/2018
+ms.keywords: DecoderBeginFrame, DecoderBeginFrame method [Media Foundation], DecoderBeginFrame method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecoderBeginFrame method, ID3D11VideoContext.DecoderBeginFrame, ID3D11VideoContext::DecoderBeginFrame, d3d11/ID3D11VideoContext::DecoderBeginFrame, mf.id3d11videocontext_decoderbeginframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoContext::DecoderBeginFrame method
+# ID3D11VideoContext::DecoderBeginFrame
 
 
 ## -description

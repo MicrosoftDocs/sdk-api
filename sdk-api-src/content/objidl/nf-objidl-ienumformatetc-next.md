@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Next
-title: IEnumFORMATETC::Next method
+title: IEnumFORMATETC::Next
 author: windows-driver-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumformatetc_next.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 041c3f20-bd8c-482d-9716-99f49a6bc902
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumFORMATETC, IEnumFORMATETC interface [COM], Next method, IEnumFORMATETC::Next, Next method [COM], Next method [COM], IEnumFORMATETC interface, Next,IEnumFORMATETC.Next, _ole_ienumformatetc_next, com.ienumformatetc_next, objidl/IEnumFORMATETC::Next
+ms.keywords: IEnumFORMATETC interface [COM],Next method, IEnumFORMATETC.Next, IEnumFORMATETC::Next, Next, Next method [COM], Next method [COM],IEnumFORMATETC interface, _ole_ienumformatetc_next, com.ienumformatetc_next, objidl/IEnumFORMATETC::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumFORMATETC::Next method
+# IEnumFORMATETC::Next
 
 
 ## -description

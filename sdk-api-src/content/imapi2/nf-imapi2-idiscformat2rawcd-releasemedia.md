@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.ReleaseMedia
-title: IDiscFormat2RawCD::ReleaseMedia method
+title: IDiscFormat2RawCD::ReleaseMedia
 author: windows-driver-content
 description: Closes a Disc-At-Once (DAO) writing session of a raw image and releases the lock.
 old-location: imapi\idiscformat2rawcd_releasemedia.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 5f60c16f-ef40-4bb5-8df2-fa4ae91541b6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], ReleaseMedia method, IDiscFormat2RawCD::ReleaseMedia, ReleaseMedia method [IMAPI], ReleaseMedia method [IMAPI], IDiscFormat2RawCD interface, ReleaseMedia,IDiscFormat2RawCD.ReleaseMedia, imapi.idiscformat2rawcd_releasemedia, imapi2/IDiscFormat2RawCD::ReleaseMedia
+ms.keywords: IDiscFormat2RawCD interface [IMAPI],ReleaseMedia method, IDiscFormat2RawCD.ReleaseMedia, IDiscFormat2RawCD::ReleaseMedia, ReleaseMedia, ReleaseMedia method [IMAPI], ReleaseMedia method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_releasemedia, imapi2/IDiscFormat2RawCD::ReleaseMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2RawCD::ReleaseMedia method
+# IDiscFormat2RawCD::ReleaseMedia
 
 
 ## -description

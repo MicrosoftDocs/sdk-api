@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetCallersId
-title: IESLicenseRenewalResultEvent::GetCallersId method
+title: IESLicenseRenewalResultEvent::GetCallersId
 author: windows-driver-content
 description: Gets a unique identifier from a LicenseRenewalResult event that identifies the caller.
 old-location: mstv\ieslicenserenewalresultevent_getcallersid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c1dfbd63-c165-4872-b992-3f536be9cad1
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCallersId method [DirectShow], GetCallersId method [DirectShow], IESLicenseRenewalResultEvent interface, GetCallersId,IESLicenseRenewalResultEvent.GetCallersId, IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], GetCallersId method, IESLicenseRenewalResultEvent::GetCallersId, mstv.ieslicenserenewalresultevent_getcallersid, tuner/IESLicenseRenewalResultEvent::GetCallersId
+ms.keywords: GetCallersId, GetCallersId method [DirectShow], GetCallersId method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetCallersId method, IESLicenseRenewalResultEvent.GetCallersId, IESLicenseRenewalResultEvent::GetCallersId, mstv.ieslicenserenewalresultevent_getcallersid, tuner/IESLicenseRenewalResultEvent::GetCallersId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESLicenseRenewalResultEvent::GetCallersId method
+# IESLicenseRenewalResultEvent::GetCallersId
 
 
 ## -description

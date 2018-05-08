@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetPreroll
-title: IMediaSeeking::GetPreroll method
+title: IMediaSeeking::GetPreroll
 author: windows-driver-content
 description: The GetPreroll method retrieves the amount of data that will be queued before the start position.
 old-location: dshow\imediaseeking_getpreroll.htm
 old-project: DirectShow
 ms.assetid: 9d519aab-eb35-4a00-b6fe-23d734f969ae
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetPreroll method [DirectShow], GetPreroll method [DirectShow], IMediaSeeking interface, GetPreroll,IMediaSeeking.GetPreroll, IMediaSeeking, IMediaSeeking interface [DirectShow], GetPreroll method, IMediaSeeking::GetPreroll, IMediaSeekingGetPreroll, dshow.imediaseeking_getpreroll, strmif/IMediaSeeking::GetPreroll
+ms.date: 4/30/2018
+ms.keywords: GetPreroll, GetPreroll method [DirectShow], GetPreroll method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetPreroll method, IMediaSeeking.GetPreroll, IMediaSeeking::GetPreroll, IMediaSeekingGetPreroll, dshow.imediaseeking_getpreroll, strmif/IMediaSeeking::GetPreroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSeeking::GetPreroll method
+# IMediaSeeking::GetPreroll
 
 
 ## -description

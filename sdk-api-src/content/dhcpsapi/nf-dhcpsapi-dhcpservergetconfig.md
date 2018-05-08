@@ -7,7 +7,7 @@ old-location: dhcp\dhcpservergetconfig.htm
 old-project: DHCP
 ms.assetid: 79fa7f78-35ae-4f40-bf3d-3c8f6f323776
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpServerGetConfig, DhcpServerGetConfig function [DHCP], dhcp.dhcpservergetconfig, dhcpsapi/DhcpServerGetConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

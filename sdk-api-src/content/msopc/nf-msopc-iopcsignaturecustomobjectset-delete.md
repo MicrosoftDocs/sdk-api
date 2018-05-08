@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectSet.Delete
-title: IOpcSignatureCustomObjectSet::Delete method
+title: IOpcSignatureCustomObjectSet::Delete
 author: windows-driver-content
 description: Deletes a specified IOpcSignatureCustomObject interface pointer from the set.
 old-location: opc\iopcsignaturecustomobjectset_delete.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 7cfd8439-8f7e-4112-a2c0-3827922fb4b0
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions], IOpcSignatureCustomObjectSet interface, Delete,IOpcSignatureCustomObjectSet.Delete, IOpcSignatureCustomObjectSet, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions], Delete method, IOpcSignatureCustomObjectSet::Delete, msopc/IOpcSignatureCustomObjectSet::Delete, opc.iopcsignaturecustomobjectset_delete
+ms.keywords: Delete, Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions],IOpcSignatureCustomObjectSet interface, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],Delete method, IOpcSignatureCustomObjectSet.Delete, IOpcSignatureCustomObjectSet::Delete, msopc/IOpcSignatureCustomObjectSet::Delete, opc.iopcsignaturecustomobjectset_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSignatureCustomObjectSet::Delete method
+# IOpcSignatureCustomObjectSet::Delete
 
 
 ## -description

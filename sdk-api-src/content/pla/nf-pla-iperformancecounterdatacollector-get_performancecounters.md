@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.get_PerformanceCounters
-title: IPerformanceCounterDataCollector::get_PerformanceCounters method
+title: IPerformanceCounterDataCollector::get_PerformanceCounters
 author: windows-driver-content
 description: Retrieves or sets the performance counters to query.
 old-location: pla\iperformancecounterdatacollector_performancecounters.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 9c75f560-a161-4659-9fd9-9f73c964fa5b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPerformanceCounterDataCollector, IPerformanceCounterDataCollector interface [PLA], PerformanceCounters property, IPerformanceCounterDataCollector.PerformanceCounters, IPerformanceCounterDataCollector::get_PerformanceCounters, IPerformanceCounterDataCollector::put_PerformanceCounters, PerformanceCounters property [PLA], PerformanceCounters property [PLA], IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_performancecounters, get_PerformanceCounters,IPerformanceCounterDataCollector.get_PerformanceCounters, pla.iperformancecounterdatacollector_performancecounters, pla/IPerformanceCounterDataCollector::PerformanceCounters, pla/IPerformanceCounterDataCollector::get_PerformanceCounters, pla/IPerformanceCounterDataCollector::put_PerformanceCounters
+ms.keywords: IPerformanceCounterDataCollector interface [PLA],PerformanceCounters property, IPerformanceCounterDataCollector.PerformanceCounters, IPerformanceCounterDataCollector.get_PerformanceCounters, IPerformanceCounterDataCollector::PerformanceCounters, IPerformanceCounterDataCollector::get_PerformanceCounters, IPerformanceCounterDataCollector::put_PerformanceCounters, PerformanceCounters property [PLA], PerformanceCounters property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_performancecounters, get_PerformanceCounters, pla.iperformancecounterdatacollector_performancecounters, pla/IPerformanceCounterDataCollector::PerformanceCounters, pla/IPerformanceCounterDataCollector::get_PerformanceCounters, pla/IPerformanceCounterDataCollector::put_PerformanceCounters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPerformanceCounterDataCollector::get_PerformanceCounters method
+# IPerformanceCounterDataCollector::get_PerformanceCounters
 
 
 ## -description

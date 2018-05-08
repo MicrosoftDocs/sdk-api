@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.Query
-title: IVssBackupComponents::Query method
+title: IVssBackupComponents::Query
 author: windows-driver-content
 description: The Query method queries providers on the system and/or the completed shadow copies in the system that reside in the current context. The method can be called only during backup operations.
 old-location: base\ivssbackupcomponents_query.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 3f79bf84-c7b9-4291-ae3b-7061fe3199e9
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], Query method, IVssBackupComponents::Query, Query method [VSS], Query method [VSS], IVssBackupComponents interface, Query,IVssBackupComponents.Query, _win32_ivssbackupcomponents_query, base.ivssbackupcomponents_query, vsbackup/IVssBackupComponents::Query
+ms.keywords: IVssBackupComponents interface [VSS],Query method, IVssBackupComponents.Query, IVssBackupComponents::Query, Query, Query method [VSS], Query method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_query, base.ivssbackupcomponents_query, vsbackup/IVssBackupComponents::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::Query method
+# IVssBackupComponents::Query
 
 
 ## -description

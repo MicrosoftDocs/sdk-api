@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetFormatSupport
-title: IWMDMDevice::GetFormatSupport method
+title: IWMDMDevice::GetFormatSupport
 author: windows-driver-content
 description: The GetFormatSupport method retrieves all the formats supported by the device, including codecs and file formats.
 old-location: wmdm\iwmdmdevice_getformatsupport.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: a917660d-300f-4ac4-befe-a3f78172411e
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetFormatSupport method [windows Media Device Manager], GetFormatSupport method [windows Media Device Manager], IWMDMDevice interface, GetFormatSupport,IWMDMDevice.GetFormatSupport, IWMDMDevice, IWMDMDevice interface [windows Media Device Manager], GetFormatSupport method, IWMDMDevice::GetFormatSupport, IWMDMDeviceGetFormatSupport, mswmdm/IWMDMDevice::GetFormatSupport, wmdm.iwmdmdevice_getformatsupport
+ms.keywords: GetFormatSupport, GetFormatSupport method [windows Media Device Manager], GetFormatSupport method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetFormatSupport method, IWMDMDevice.GetFormatSupport, IWMDMDevice::GetFormatSupport, IWMDMDeviceGetFormatSupport, mswmdm/IWMDMDevice::GetFormatSupport, wmdm.iwmdmdevice_getformatsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMDevice::GetFormatSupport method
+# IWMDMDevice::GetFormatSupport
 
 
 ## -description

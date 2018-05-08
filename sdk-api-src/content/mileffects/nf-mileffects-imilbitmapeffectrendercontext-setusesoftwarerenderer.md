@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetUseSoftwareRenderer
-title: IMILBitmapEffectRenderContext::SetUseSoftwareRenderer method
+title: IMILBitmapEffectRenderContext::SetUseSoftwareRenderer
 author: windows-driver-content
 description: Sets a value to indicate whether to use software rendering.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setusesoftwarerenderer.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IMILBitmapEffectRenderContext, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects], SetUseSoftwareRenderer method, IMILBitmapEffectRenderContext::SetUseSoftwareRenderer, SetUseSoftwareRenderer method [WPF Bitmap Effects], SetUseSoftwareRenderer method [WPF Bitmap Effects], IMILBitmapEffectRenderContext interface, SetUseSoftwareRenderer,IMILBitmapEffectRenderContext.SetUseSoftwareRenderer, _wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer, mileffects/IMILBitmapEffectRenderContext::SetUseSoftwareRenderer, wibe._wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer
+ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetUseSoftwareRenderer method, IMILBitmapEffectRenderContext.SetUseSoftwareRenderer, IMILBitmapEffectRenderContext::SetUseSoftwareRenderer, SetUseSoftwareRenderer, SetUseSoftwareRenderer method [WPF Bitmap Effects], SetUseSoftwareRenderer method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer, mileffects/IMILBitmapEffectRenderContext::SetUseSoftwareRenderer, wibe._wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectRenderContext::SetUseSoftwareRenderer method
+# IMILBitmapEffectRenderContext::SetUseSoftwareRenderer
 
 
 ## -description

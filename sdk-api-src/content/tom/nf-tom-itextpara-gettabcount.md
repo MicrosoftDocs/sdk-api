@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara.GetTabCount
-title: ITextPara::GetTabCount method
+title: ITextPara::GetTabCount
 author: windows-driver-content
 description: Retrieves the tab count.
 old-location: controls\ITextPara_GetTabCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettabcount.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetTabCount method [Windows Controls], GetTabCount method [Windows Controls], ITextPara interface, GetTabCount,ITextPara.GetTabCount, ITextPara, ITextPara interface [Windows Controls], GetTabCount method, ITextPara::GetTabCount, _win32_ITextPara_GetTabCount, _win32_ITextPara_GetTabCount_cpp, controls.ITextPara_GetTabCount, controls._win32_ITextPara_GetTabCount, tom/ITextPara::GetTabCount
+ms.date: 4/27/2018
+ms.keywords: GetTabCount, GetTabCount method [Windows Controls], GetTabCount method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetTabCount method, ITextPara.GetTabCount, ITextPara::GetTabCount, _win32_ITextPara_GetTabCount, _win32_ITextPara_GetTabCount_cpp, controls.ITextPara_GetTabCount, controls._win32_ITextPara_GetTabCount, tom/ITextPara::GetTabCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara::GetTabCount method
+# ITextPara::GetTabCount
 
 
 ## -description

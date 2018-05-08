@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorEnumerator.GetVideoProcessorContentDesc
-title: ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc method
+title: ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc
 author: windows-driver-content
 description: Gets the content description that was used to create this enumerator.
 old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorcontentdesc.htm
 old-project: medfound
 ms.assetid: BDB52B2E-1D76-4867-AD58-2A77BC5B6ABD
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetVideoProcessorContentDesc method [Media Foundation], GetVideoProcessorContentDesc method [Media Foundation], ID3D11VideoProcessorEnumerator interface, GetVideoProcessorContentDesc,ID3D11VideoProcessorEnumerator.GetVideoProcessorContentDesc, ID3D11VideoProcessorEnumerator, ID3D11VideoProcessorEnumerator interface [Media Foundation], GetVideoProcessorContentDesc method, ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc, mf.id3d11videoprocessorenumerator_getvideoprocessorcontentdesc
+ms.date: 5/3/2018
+ms.keywords: GetVideoProcessorContentDesc, GetVideoProcessorContentDesc method [Media Foundation], GetVideoProcessorContentDesc method [Media Foundation],ID3D11VideoProcessorEnumerator interface, ID3D11VideoProcessorEnumerator interface [Media Foundation],GetVideoProcessorContentDesc method, ID3D11VideoProcessorEnumerator.GetVideoProcessorContentDesc, ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc, mf.id3d11videoprocessorenumerator_getvideoprocessorcontentdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc method
+# ID3D11VideoProcessorEnumerator::GetVideoProcessorContentDesc
 
 
 ## -description

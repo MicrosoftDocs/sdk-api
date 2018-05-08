@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRules.Remove
-title: INetFwRules::Remove method
+title: INetFwRules::Remove
 author: windows-driver-content
 description: The Remove method removes a rule from the collection.
 old-location: ics\inetfwrules_remove.htm
 old-project: ICS
 ms.assetid: 70bd45c7-b5ab-43b3-afd4-2abb2a80ff0f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwRules, INetFwRules interface [ICS/ICF], Remove method, INetFwRules::Remove, Remove method [ICS/ICF], Remove method [ICS/ICF], INetFwRules interface, Remove,INetFwRules.Remove, ics.inetfwrules_remove, netfw/INetFwRules::Remove
+ms.date: 5/1/2018
+ms.keywords: INetFwRules interface [ICS/ICF],Remove method, INetFwRules.Remove, INetFwRules::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwRules interface, ics.inetfwrules_remove, netfw/INetFwRules::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRules::Remove method
+# INetFwRules::Remove
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Clone
-title: IEnumFORMATETC::Clone method
+title: IEnumFORMATETC::Clone
 author: windows-driver-content
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumformatetc_clone.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 637c3299-816f-4f3c-9758-b3200b5cf153
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Clone method [COM], Clone method [COM], IEnumFORMATETC interface, Clone,IEnumFORMATETC.Clone, IEnumFORMATETC, IEnumFORMATETC interface [COM], Clone method, IEnumFORMATETC::Clone, _ole_ienumformatetc_clone, com.ienumformatetc_clone, objidl/IEnumFORMATETC::Clone
+ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumFORMATETC interface, IEnumFORMATETC interface [COM],Clone method, IEnumFORMATETC.Clone, IEnumFORMATETC::Clone, _ole_ienumformatetc_clone, com.ienumformatetc_clone, objidl/IEnumFORMATETC::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumFORMATETC::Clone method
+# IEnumFORMATETC::Clone
 
 
 ## -description

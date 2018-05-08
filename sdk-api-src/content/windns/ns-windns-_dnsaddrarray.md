@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DNS_ADDR_ARRAY, *PDNS_ADDR_ARRAY, DNS_ADDR_ARRAY, *PDNS_ADDR_ARRAY
+req.typenames: DNS_ADDR_ARRAY, *PDNS_ADDR_ARRAY
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -134,6 +134,18 @@ Reserved. Do not use.
 ### -field AddrArray
 
 An array of <a href="https://msdn.microsoft.com/c14e6fc0-34b3-40e8-b9b8-61e4aea01677">DNS_ADDR</a> structures that each contain an IP address.
+
+
+### -field AddrArray.size_is
+
+ 
+
+
+### -field AddrArray.size_is.AddrCount
+
+ 
+
+
 
 
 ## -see-also

@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.Unauthorize
-title: IEnhancedStorageACT::Unauthorize method
+title: IEnhancedStorageACT::Unauthorize
 author: windows-driver-content
 description: Associates the Addressable Command Target (ACT) with the Unauthorized state defined by ACT_AUTHORIZATION_STATE, and ensures the deauthentication of each individual silo according to the required sequence and logical combination necessary to restrict access to the ACT.
 old-location: enstor\ienhancedstorageact_unauthorize.htm
@@ -8,7 +8,7 @@ old-project: enstor
 ms.assetid: 82f78f9d-fb50-4f44-b4ad-f3a43ccca671
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEnhancedStorageACT, IEnhancedStorageACT interface [Enhanced Storage], Unauthorize method, IEnhancedStorageACT::Unauthorize, Unauthorize method [Enhanced Storage], Unauthorize method [Enhanced Storage], IEnhancedStorageACT interface, Unauthorize,IEnhancedStorageACT.Unauthorize, ehstorapi/IEnhancedStorageACT::Unauthorize, enstor.ienhancedstorageact_unauthorize
+ms.keywords: IEnhancedStorageACT interface [Enhanced Storage],Unauthorize method, IEnhancedStorageACT.Unauthorize, IEnhancedStorageACT::Unauthorize, Unauthorize, Unauthorize method [Enhanced Storage], Unauthorize method [Enhanced Storage],IEnhancedStorageACT interface, ehstorapi/IEnhancedStorageACT::Unauthorize, enstor.ienhancedstorageact_unauthorize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEnhancedStorageACT::Unauthorize method
+# IEnhancedStorageACT::Unauthorize
 
 
 ## -description

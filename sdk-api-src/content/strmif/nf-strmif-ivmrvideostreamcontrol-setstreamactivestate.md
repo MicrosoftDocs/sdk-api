@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRVideoStreamControl.SetStreamActiveState
-title: IVMRVideoStreamControl::SetStreamActiveState method
+title: IVMRVideoStreamControl::SetStreamActiveState
 author: windows-driver-content
 description: The SetStreamActiveState method activates or inactivates an input stream.
 old-location: dshow\ivmrvideostreamcontrol_setstreamactivestate.htm
 old-project: DirectShow
 ms.assetid: 060a95a4-b984-40c6-afe8-136df96c353e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRVideoStreamControl, IVMRVideoStreamControl interface [DirectShow], SetStreamActiveState method, IVMRVideoStreamControl::SetStreamActiveState, IVMRVideoStreamControlSetStreamActiveState, SetStreamActiveState method [DirectShow], SetStreamActiveState method [DirectShow], IVMRVideoStreamControl interface, SetStreamActiveState,IVMRVideoStreamControl.SetStreamActiveState, dshow.ivmrvideostreamcontrol_setstreamactivestate, strmif/IVMRVideoStreamControl::SetStreamActiveState
+ms.date: 4/30/2018
+ms.keywords: IVMRVideoStreamControl interface [DirectShow],SetStreamActiveState method, IVMRVideoStreamControl.SetStreamActiveState, IVMRVideoStreamControl::SetStreamActiveState, IVMRVideoStreamControlSetStreamActiveState, SetStreamActiveState, SetStreamActiveState method [DirectShow], SetStreamActiveState method [DirectShow],IVMRVideoStreamControl interface, dshow.ivmrvideostreamcontrol_setstreamactivestate, strmif/IVMRVideoStreamControl::SetStreamActiveState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRVideoStreamControl::SetStreamActiveState method
+# IVMRVideoStreamControl::SetStreamActiveState
 
 
 ## -description

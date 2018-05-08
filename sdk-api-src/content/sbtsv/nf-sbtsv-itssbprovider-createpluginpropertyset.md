@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreatePluginPropertySet
-title: ITsSbProvider::CreatePluginPropertySet method
+title: ITsSbProvider::CreatePluginPropertySet
 author: windows-driver-content
 description: Creates an ITsSbPluginPropertySet plug-in property set object.
 old-location: termserv\itssbprovider_createpluginpropertyset.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: a15edb7a-4ff5-4832-8632-17b08cff4675
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: CreatePluginPropertySet method [Remote Desktop Services], CreatePluginPropertySet method [Remote Desktop Services], ITsSbProvider interface, CreatePluginPropertySet,ITsSbProvider.CreatePluginPropertySet, ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], CreatePluginPropertySet method, ITsSbProvider::CreatePluginPropertySet, sbtsv/ITsSbProvider::CreatePluginPropertySet, termserv.itssbprovider_createpluginpropertyset
+ms.keywords: CreatePluginPropertySet, CreatePluginPropertySet method [Remote Desktop Services], CreatePluginPropertySet method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreatePluginPropertySet method, ITsSbProvider.CreatePluginPropertySet, ITsSbProvider::CreatePluginPropertySet, sbtsv/ITsSbProvider::CreatePluginPropertySet, termserv.itssbprovider_createpluginpropertyset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbProvider::CreatePluginPropertySet method
+# ITsSbProvider::CreatePluginPropertySet
 
 
 ## -description

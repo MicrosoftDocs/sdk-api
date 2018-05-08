@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.SACAuth
-title: CSecureChannelServer::SACAuth method
+title: CSecureChannelServer::SACAuth
 author: windows-driver-content
 description: The SACAuth method establishes a secure authenticated channel between components.
 old-location: wmdm\csecurechannelserver_sacauth.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: e32aac59-4b7f-4c0e-a200-0dec50d89cb0
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CSecureChannelServer, CSecureChannelServer interface [windows Media Device Manager], SACAuth method, CSecureChannelServer::SACAuth, CSecureChannelServerSACAuth, SACAuth method [windows Media Device Manager], SACAuth method [windows Media Device Manager], CSecureChannelServer interface, SACAuth,CSecureChannelServer.SACAuth, scserver/CSecureChannelServer::SACAuth, wmdm.csecurechannelserver_sacauth
+ms.keywords: CSecureChannelServer interface [windows Media Device Manager],SACAuth method, CSecureChannelServer.SACAuth, CSecureChannelServer::SACAuth, CSecureChannelServerSACAuth, SACAuth, SACAuth method [windows Media Device Manager], SACAuth method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::SACAuth, wmdm.csecurechannelserver_sacauth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CSecureChannelServer::SACAuth method
+# CSecureChannelServer::SACAuth
 
 
 ## -description

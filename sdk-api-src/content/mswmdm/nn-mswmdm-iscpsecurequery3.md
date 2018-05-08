@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 3d600ae9-5d5b-48f6-a162-e52f78beb983
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: ISCPSecureQuery3, ISCPSecureQuery3 interface [windows Media Device Manager], ISCPSecureQuery3 interface [windows Media Device Manager], described, ISCPSecureQuery3Interface, mswmdm/ISCPSecureQuery3, wmdm.iscpsecurequery3
+ms.keywords: ISCPSecureQuery3, ISCPSecureQuery3 interface [windows Media Device Manager], ISCPSecureQuery3 interface [windows Media Device Manager],described, ISCPSecureQuery3Interface, mswmdm/ISCPSecureQuery3, wmdm.iscpsecurequery3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

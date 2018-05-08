@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.IncludedInCrawlScope
-title: ISearchCrawlScopeManager::IncludedInCrawlScope method
+title: ISearchCrawlScopeManager::IncludedInCrawlScope
 author: windows-driver-content
 description: Retrieves an indicator of whether the specified URL is included in the crawl scope.
 old-location: search\_search_ISearchCrawlScopeManager_IncludedInCrawlScope.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\includedincrawlscope.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], IncludedInCrawlScope method, ISearchCrawlScopeManager::IncludedInCrawlScope, IncludedInCrawlScope method [search], IncludedInCrawlScope method [search], ISearchCrawlScopeManager interface, IncludedInCrawlScope,ISearchCrawlScopeManager.IncludedInCrawlScope, _search_ISearchCrawlScopeManager_IncludedInCrawlScope, search._search_ISearchCrawlScopeManager_IncludedInCrawlScope, searchapi/ISearchCrawlScopeManager::IncludedInCrawlScope
+ms.date: 5/4/2018
+ms.keywords: ISearchCrawlScopeManager interface [search],IncludedInCrawlScope method, ISearchCrawlScopeManager.IncludedInCrawlScope, ISearchCrawlScopeManager::IncludedInCrawlScope, IncludedInCrawlScope, IncludedInCrawlScope method [search], IncludedInCrawlScope method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_IncludedInCrawlScope, search._search_ISearchCrawlScopeManager_IncludedInCrawlScope, searchapi/ISearchCrawlScopeManager::IncludedInCrawlScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCrawlScopeManager::IncludedInCrawlScope method
+# ISearchCrawlScopeManager::IncludedInCrawlScope
 
 
 ## -description

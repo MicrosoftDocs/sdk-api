@@ -123,6 +123,16 @@ Processor architecture. This must be PROCESSOR_ARCHITECTURE_INTEL, PROCESSOR_ARC
  
 
 
+### -field DUMMYUNIONNAME.Reserved
+
+ 
+
+
+### -field DUMMYUNIONNAME.Flags
+
+ For Windows Server 2008, Windows Vista, Windows Server 2003, or Windows XP, this member must be set to SP_ALTPLATFORM_FLAGS_VERSION_RANGE to use <b>FirstValidatedMajorVersion</b> and <b>FirstValidatedMinorVersion</b>. This member must be set to zero for Windows 2000.
+
+
 ### -field FirstValidatedMajorVersion
 
 Major version of the oldest previous operating system for which this package's digital signature is valid. For example, if the alternate platform is VER_PLATFORM_WIN32_NT, version 5.1, and you want a driver package signed with a 5.0 osattr to also be valid, set MajorVersion to 5, MinorVersion to 1, <b>FirstValidatedMajorVersion</b> to 5, and <b>FirstValidatedMinorVersion</b> 0. To validate packages signed for any previous operating system, specify 0 for these fields. To only validate against the target alternate platform, specify the same values as those in the MajorVersion and MinorVersion fields. Available with Windows XP or later only. The Flags member must be set to SP_ALTPLATFORM_FLAGS_VERSION_RANGE to use <b>FirstValidatedMajorVersion</b>.
@@ -131,11 +141,6 @@ Major version of the oldest previous operating system for which this package's d
 ### -field FirstValidatedMinorVersion
 
 Minor version of the oldest previous operating system for which this package's digital signature is valid. For information see <b>FirstValidatedMajorVersion</b>. Available with Windows Server 2003 or Windows XP. The <b>Flags</b> member must be set to SP_ALTPLATFORM_FLAGS_VERSION_RANGE to use <b>FirstValidatedMinorVersion</b>.
-
-
-#### - Flags
-
- For Windows Server 2008, Windows Vista, Windows Server 2003, or Windows XP, this member must be set to SP_ALTPLATFORM_FLAGS_VERSION_RANGE to use <b>FirstValidatedMajorVersion</b> and <b>FirstValidatedMinorVersion</b>. This member must be set to zero for Windows 2000.
 
 
 ## -see-also

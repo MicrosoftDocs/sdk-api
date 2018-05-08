@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot
-title: IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot method
+title: IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
 author: windows-driver-content
 description: Reports any file sets that will be explicitly excluded by the writer when a shadow copy is created.
 old-location: base\ivsscreatewritermetadataex_addexcludefilesfromsnapshot.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 6be4c63c-c36a-4ff4-92b7-63b69a030b86
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: AddExcludeFilesFromSnapshot method, AddExcludeFilesFromSnapshot method, IVssCreateWriterMetadataEx interface, AddExcludeFilesFromSnapshot,IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot, IVssCreateWriterMetadataEx, IVssCreateWriterMetadataEx interface, AddExcludeFilesFromSnapshot method, IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot, base.ivsscreatewritermetadataex_addexcludefilesfromsnapshot, vswriter/IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
+ms.keywords: AddExcludeFilesFromSnapshot, AddExcludeFilesFromSnapshot method, AddExcludeFilesFromSnapshot method,IVssCreateWriterMetadataEx interface, IVssCreateWriterMetadataEx interface,AddExcludeFilesFromSnapshot method, IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot, IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot, base.ivsscreatewritermetadataex_addexcludefilesfromsnapshot, vswriter/IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot method
+# IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
 
 
 ## -description

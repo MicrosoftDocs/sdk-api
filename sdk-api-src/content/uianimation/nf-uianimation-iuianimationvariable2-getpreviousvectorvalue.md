@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetPreviousVectorValue
-title: IUIAnimationVariable2::GetPreviousVectorValue method
+title: IUIAnimationVariable2::GetPreviousVectorValue
 author: windows-driver-content
 description: Gets the previous value of the animation variable for the specified dimension. This is the value of the animation variable before the most recent update.
 old-location: uianimation\iuianimationvariable2_getpreviousvectorvalue.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: E6C32B28-A6DE-47FB-8399-CA0B782D8B25
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetPreviousVectorValue method [Windows Animation], GetPreviousVectorValue method [Windows Animation], IUIAnimationVariable2 interface, GetPreviousVectorValue,IUIAnimationVariable2.GetPreviousVectorValue, IUIAnimationVariable2, IUIAnimationVariable2 interface [Windows Animation], GetPreviousVectorValue method, IUIAnimationVariable2::GetPreviousVectorValue, uianimation.iuianimationvariable2_getpreviousvectorvalue, uianimation/IUIAnimationVariable2::GetPreviousVectorValue
+ms.keywords: GetPreviousVectorValue, GetPreviousVectorValue method [Windows Animation], GetPreviousVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetPreviousVectorValue method, IUIAnimationVariable2.GetPreviousVectorValue, IUIAnimationVariable2::GetPreviousVectorValue, uianimation.iuianimationvariable2_getpreviousvectorvalue, uianimation/IUIAnimationVariable2::GetPreviousVectorValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable2::GetPreviousVectorValue method
+# IUIAnimationVariable2::GetPreviousVectorValue
 
 
 ## -description

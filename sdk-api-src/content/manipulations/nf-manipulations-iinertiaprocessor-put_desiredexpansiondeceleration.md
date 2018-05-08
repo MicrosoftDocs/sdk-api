@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_DesiredExpansionDeceleration
-title: IInertiaProcessor::put_DesiredExpansionDeceleration method
+title: IInertiaProcessor::put_DesiredExpansionDeceleration
 author: windows-driver-content
 description: The DesiredExpansionDeceleration property specifies the rate at which the object will stop expanding.
 old-location: wintouch\iinertiaprocessor_desiredexpansiondeceleration.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: b21d9aa8-0c86-45fe-9573-023929cf7faa
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: DesiredExpansionDeceleration property [Windows Touch], DesiredExpansionDeceleration property [Windows Touch], IInertiaProcessor interface, IInertiaProcessor, IInertiaProcessor interface [Windows Touch], DesiredExpansionDeceleration property, IInertiaProcessor.DesiredExpansionDeceleration, IInertiaProcessor::get_DesiredExpansionDeceleration, IInertiaProcessor::put_DesiredExpansionDeceleration, manipulations/IInertiaProcessor::DesiredExpansionDeceleration, manipulations/IInertiaProcessor::get_DesiredExpansionDeceleration, manipulations/IInertiaProcessor::put_DesiredExpansionDeceleration, put_DesiredExpansionDeceleration,IInertiaProcessor.put_DesiredExpansionDeceleration, wintouch.iinertiaprocessor_desiredexpansiondeceleration
+ms.keywords: DesiredExpansionDeceleration property [Windows Touch], DesiredExpansionDeceleration property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredExpansionDeceleration property, IInertiaProcessor.DesiredExpansionDeceleration, IInertiaProcessor.put_DesiredExpansionDeceleration, IInertiaProcessor::DesiredExpansionDeceleration, IInertiaProcessor::get_DesiredExpansionDeceleration, IInertiaProcessor::put_DesiredExpansionDeceleration, manipulations/IInertiaProcessor::DesiredExpansionDeceleration, manipulations/IInertiaProcessor::get_DesiredExpansionDeceleration, manipulations/IInertiaProcessor::put_DesiredExpansionDeceleration, put_DesiredExpansionDeceleration, wintouch.iinertiaprocessor_desiredexpansiondeceleration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInertiaProcessor::put_DesiredExpansionDeceleration method
+# IInertiaProcessor::put_DesiredExpansionDeceleration
 
 
 ## -description

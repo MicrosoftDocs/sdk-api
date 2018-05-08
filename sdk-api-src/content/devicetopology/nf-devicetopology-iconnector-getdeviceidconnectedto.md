@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IConnector.GetDeviceIdConnectedTo
-title: IConnector::GetDeviceIdConnectedTo method
+title: IConnector::GetDeviceIdConnectedTo
 author: windows-driver-content
 description: The GetDeviceIdConnectedTo method gets the device identifier of the audio device, if any, that this connector is connected to.
 old-location: coreaudio\iconnector_getdeviceidconnectedto.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 8f62bdeb-4765-467f-b68d-d94fc9a51dfb
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetDeviceIdConnectedTo method [Core Audio], GetDeviceIdConnectedTo method [Core Audio], IConnector interface, GetDeviceIdConnectedTo,IConnector.GetDeviceIdConnectedTo, IConnector, IConnector interface [Core Audio], GetDeviceIdConnectedTo method, IConnector::GetDeviceIdConnectedTo, IConnectorGetDeviceIdConnectedTo, coreaudio.iconnector_getdeviceidconnectedto, devicetopology/IConnector::GetDeviceIdConnectedTo
+ms.keywords: GetDeviceIdConnectedTo, GetDeviceIdConnectedTo method [Core Audio], GetDeviceIdConnectedTo method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetDeviceIdConnectedTo method, IConnector.GetDeviceIdConnectedTo, IConnector::GetDeviceIdConnectedTo, IConnectorGetDeviceIdConnectedTo, coreaudio.iconnector_getdeviceidconnectedto, devicetopology/IConnector::GetDeviceIdConnectedTo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IConnector::GetDeviceIdConnectedTo method
+# IConnector::GetDeviceIdConnectedTo
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IReferenceClock.Unadvise
-title: IReferenceClock::Unadvise method
+title: IReferenceClock::Unadvise
 author: windows-driver-content
 description: The Unadvise method removes a pending advise request.
 old-location: dshow\ireferenceclock_unadvise.htm
 old-project: DirectShow
 ms.assetid: 1f032036-4502-473a-93e1-976a66d8bde1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IReferenceClock, IReferenceClock interface [DirectShow], Unadvise method, IReferenceClock::Unadvise, IReferenceClockUnadvise, Unadvise method [DirectShow], Unadvise method [DirectShow], IReferenceClock interface, Unadvise,IReferenceClock.Unadvise, dshow.ireferenceclock_unadvise, strmif/IReferenceClock::Unadvise
+ms.date: 4/30/2018
+ms.keywords: IReferenceClock interface [DirectShow],Unadvise method, IReferenceClock.Unadvise, IReferenceClock::Unadvise, IReferenceClockUnadvise, Unadvise, Unadvise method [DirectShow], Unadvise method [DirectShow],IReferenceClock interface, dshow.ireferenceclock_unadvise, strmif/IReferenceClock::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IReferenceClock::Unadvise method
+# IReferenceClock::Unadvise
 
 
 ## -description

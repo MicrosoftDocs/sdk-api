@@ -7,7 +7,7 @@ old-location: iphlp\ip_adapter_dns_server_address.htm
 old-project: IpHlp
 ms.assetid: 96855386-9010-40df-8260-16b43ad6646f
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/3/2018
 ms.keywords: "*PIP_ADAPTER_DNS_SERVER_ADDRESS, *PIP_ADAPTER_DNS_SERVER_ADDRESS_XP, IP_ADAPTER_DNS_SERVER_ADDRESS, IP_ADAPTER_DNS_SERVER_ADDRESS structure [IP Helper], IP_ADAPTER_DNS_SERVER_ADDRESS_XP, PIP_ADAPTER_DNS_SERVER_ADDRESS, PIP_ADAPTER_DNS_SERVER_ADDRESS structure pointer [IP Helper], _IP_ADAPTER_DNS_SERVER_ADDRESS_XP, _iphlp_ip_adapter_dns_server_address, iphlp.ip_adapter_dns_server_address, iptypes/IP_ADAPTER_DNS_SERVER_ADDRESS, iptypes/PIP_ADAPTER_DNS_SERVER_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,6 +59,11 @@ The
 
 
 
+### -field Alignment
+
+Reserved. Used by the compiler to align the structure.
+
+
 ### -field Length
 
 The length, in bytes, of this structure.
@@ -78,11 +83,6 @@ A pointer to the next DNS server address structure in the list.
 ### -field Address
 
 The IP address for this DNS server entry. This member can be an IPv6 address or an IPv4 address. 
-
-
-#### - Alignment
-
-Reserved. Used by the compiler to align the structure.
 
 
 ## -remarks

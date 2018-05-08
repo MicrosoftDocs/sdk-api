@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1e71f277-0296-4589-8099-dfae2a9dcfb0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IIsdbEventGroupDescriptor, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies], IIsdbEventGroupDescriptor interface [Microsoft TV Technologies], described, dvbsiparser/IIsdbEventGroupDescriptor, mstv.iisdbeventgroupdescriptor
+ms.keywords: IIsdbEventGroupDescriptor, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies], IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbEventGroupDescriptor, mstv.iisdbeventgroupdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

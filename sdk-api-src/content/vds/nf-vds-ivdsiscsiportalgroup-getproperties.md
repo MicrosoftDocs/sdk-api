@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.GetProperties
-title: IVdsIscsiPortalGroup::GetProperties method
+title: IVdsIscsiPortalGroup::GetProperties
 author: windows-driver-content
 description: Returns the properties of a portal group.
 old-location: base\ivdsiscsiportalgroup_getproperties.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 7257101e-04a5-41d5-b4fa-401106610dcf
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetProperties method [VDS], GetProperties method [VDS], IVdsIscsiPortalGroup interface, GetProperties,IVdsIscsiPortalGroup.GetProperties, IVdsIscsiPortalGroup, IVdsIscsiPortalGroup interface [VDS], GetProperties method, IVdsIscsiPortalGroup::GetProperties, base.ivdsiscsiportalgroup_getproperties, vds/IVdsIscsiPortalGroup::GetProperties, vdshwprv/IVdsIscsiPortalGroup::GetProperties
+ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],GetProperties method, IVdsIscsiPortalGroup.GetProperties, IVdsIscsiPortalGroup::GetProperties, base.ivdsiscsiportalgroup_getproperties, vds/IVdsIscsiPortalGroup::GetProperties, vdshwprv/IVdsIscsiPortalGroup::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsIscsiPortalGroup::GetProperties method
+# IVdsIscsiPortalGroup::GetProperties
 
 
 ## -description

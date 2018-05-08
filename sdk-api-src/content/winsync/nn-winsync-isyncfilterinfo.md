@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 89a6d1c4-691d-4356-9ef5-1364b5a7507d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncFilterInfo, ISyncFilterInfo interface [Windows Sync], ISyncFilterInfo interface [Windows Sync], described, winsync.isyncfilterinfo, winsync/ISyncFilterInfo
+ms.keywords: ISyncFilterInfo, ISyncFilterInfo interface [Windows Sync], ISyncFilterInfo interface [Windows Sync],described, winsync.isyncfilterinfo, winsync/ISyncFilterInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

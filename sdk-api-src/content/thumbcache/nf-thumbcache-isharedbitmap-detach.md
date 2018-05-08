@@ -1,14 +1,14 @@
 ---
 UID: NF:thumbcache.ISharedBitmap.Detach
-title: ISharedBitmap::Detach method
+title: ISharedBitmap::Detach
 author: windows-driver-content
 description: Retrieves the bitmap contained in an ISharedBitmap object, and returns a copy if the contained bitmap resides in shared memory.
 old-location: shell\ISharedBitmap_Detach.htm
 old-project: shell
 ms.assetid: 1d68beca-c254-435e-a1cd-04e7aa462c84
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Detach method [Windows Shell], Detach method [Windows Shell], ISharedBitmap interface, Detach,ISharedBitmap.Detach, ISharedBitmap, ISharedBitmap interface [Windows Shell], Detach method, ISharedBitmap::Detach, _shell__Detach, shell.ISharedBitmap_Detach, thumbcache/ISharedBitmap::Detach
+ms.date: 5/3/2018
+ms.keywords: Detach, Detach method [Windows Shell], Detach method [Windows Shell],ISharedBitmap interface, ISharedBitmap interface [Windows Shell],Detach method, ISharedBitmap.Detach, ISharedBitmap::Detach, _shell__Detach, shell.ISharedBitmap_Detach, thumbcache/ISharedBitmap::Detach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISharedBitmap::Detach method
+# ISharedBitmap::Detach
 
 
 ## -description

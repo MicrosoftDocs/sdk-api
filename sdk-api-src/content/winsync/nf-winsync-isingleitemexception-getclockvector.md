@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISingleItemException.GetClockVector
-title: ISingleItemException::GetClockVector method
+title: ISingleItemException::GetClockVector
 author: windows-driver-content
 description: Gets the clock vector that is associated with the item exception.
 old-location: winsync\isingleitemexception_getclockvector.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: e212e561-9baa-46d0-90c0-ec143b24e641
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetClockVector method [Windows Sync], GetClockVector method [Windows Sync], ISingleItemException interface, GetClockVector,ISingleItemException.GetClockVector, ISingleItemException, ISingleItemException interface [Windows Sync], GetClockVector method, ISingleItemException::GetClockVector, winsync.isingleitemexception_getclockvector, winsync/ISingleItemException::GetClockVector
+ms.keywords: GetClockVector, GetClockVector method [Windows Sync], GetClockVector method [Windows Sync],ISingleItemException interface, ISingleItemException interface [Windows Sync],GetClockVector method, ISingleItemException.GetClockVector, ISingleItemException::GetClockVector, winsync.isingleitemexception_getclockvector, winsync/ISingleItemException::GetClockVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISingleItemException::GetClockVector method
+# ISingleItemException::GetClockVector
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.Stop
-title: IDataCollectorSet::Stop method
+title: IDataCollectorSet::Stop
 author: windows-driver-content
 description: Manually stops the data collector set.
 old-location: pla\idatacollectorset_stop.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: b869ea8e-4fc8-4974-9e1c-1d2c480c3b0e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], Stop method, IDataCollectorSet::Stop, Stop method [PLA], Stop method [PLA], IDataCollectorSet interface, Stop,IDataCollectorSet.Stop, base.idatacollectorset_stop, pla.idatacollectorset_stop, pla/IDataCollectorSet::Stop
+ms.keywords: IDataCollectorSet interface [PLA],Stop method, IDataCollectorSet.Stop, IDataCollectorSet::Stop, Stop, Stop method [PLA], Stop method [PLA],IDataCollectorSet interface, base.idatacollectorset_stop, pla.idatacollectorset_stop, pla/IDataCollectorSet::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::Stop method
+# IDataCollectorSet::Stop
 
 
 ## -description

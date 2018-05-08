@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_2.ID3D11Device2.CheckMultisampleQualityLevels1
-title: ID3D11Device2::CheckMultisampleQualityLevels1 method
+title: ID3D11Device2::CheckMultisampleQualityLevels1
 author: windows-driver-content
 description: Get the number of quality levels available during multisampling.
 old-location: direct3d11\id3d11device2_checkmultisamplequalitylevels1.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 1248F56D-C9A3-415E-85BB-E4FFC8283497
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: CheckMultisampleQualityLevels1 method [Direct3D 11], CheckMultisampleQualityLevels1 method [Direct3D 11], ID3D11Device2 interface, CheckMultisampleQualityLevels1,ID3D11Device2.CheckMultisampleQualityLevels1, ID3D11Device2, ID3D11Device2 interface [Direct3D 11], CheckMultisampleQualityLevels1 method, ID3D11Device2::CheckMultisampleQualityLevels1, d3d11_2/ID3D11Device2::CheckMultisampleQualityLevels1, direct3d11.id3d11device2_checkmultisamplequalitylevels1
+ms.keywords: CheckMultisampleQualityLevels1, CheckMultisampleQualityLevels1 method [Direct3D 11], CheckMultisampleQualityLevels1 method [Direct3D 11],ID3D11Device2 interface, ID3D11Device2 interface [Direct3D 11],CheckMultisampleQualityLevels1 method, ID3D11Device2.CheckMultisampleQualityLevels1, ID3D11Device2::CheckMultisampleQualityLevels1, d3d11_2/ID3D11Device2::CheckMultisampleQualityLevels1, direct3d11.id3d11device2_checkmultisamplequalitylevels1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11Device2::CheckMultisampleQualityLevels1 method
+# ID3D11Device2::CheckMultisampleQualityLevels1
 
 
 ## -description

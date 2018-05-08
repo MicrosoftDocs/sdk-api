@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeComp.BindType
-title: ITypeComp::BindType method
+title: ITypeComp::BindType
 author: windows-driver-content
 description: Binds to the type descriptions contained within a type library.
 old-location: automat\itypecomp_bindtype.htm
 old-project: automat
 ms.assetid: e1b6eb9c-aa5a-41b9-bc97-afa82206ccef
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: BindType method [Automation], BindType method [Automation], ITypeComp interface, BindType,ITypeComp.BindType, ITypeComp, ITypeComp interface [Automation], BindType method, ITypeComp::BindType, _oa96_ITypeComp_BindType, automat.itypecomp_bindtype, oaidl/ITypeComp::BindType
+ms.date: 5/4/2018
+ms.keywords: BindType, BindType method [Automation], BindType method [Automation],ITypeComp interface, ITypeComp interface [Automation],BindType method, ITypeComp.BindType, ITypeComp::BindType, _oa96_ITypeComp_BindType, automat.itypecomp_bindtype, oaidl/ITypeComp::BindType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeComp::BindType method
+# ITypeComp::BindType
 
 
 ## -description

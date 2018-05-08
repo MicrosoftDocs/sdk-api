@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWebProxy.get_BypassList
-title: IWebProxy::get_BypassList method
+title: IWebProxy::get_BypassList
 author: windows-driver-content
 description: Gets and sets a collection of addresses that do not use the proxy server.
 old-location: wua\iwebproxy_bypasslist.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: a93742d2-73ce-4e7b-a000-592fd588cb1f
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: BypassList property [Windows Update Agent], BypassList property [Windows Update Agent], IWebProxy interface, IWebProxy, IWebProxy interface [Windows Update Agent], BypassList property, IWebProxy.BypassList, IWebProxy::get_BypassList, IWebProxy::put_BypassList, get_BypassList,IWebProxy.get_BypassList, wua.iwebproxy_bypasslist, wuapi/IWebProxy::BypassList, wuapi/IWebProxy::get_BypassList, wuapi/IWebProxy::put_BypassList
+ms.keywords: BypassList property [Windows Update Agent], BypassList property [Windows Update Agent],IWebProxy interface, IWebProxy interface [Windows Update Agent],BypassList property, IWebProxy.BypassList, IWebProxy.get_BypassList, IWebProxy::BypassList, IWebProxy::get_BypassList, IWebProxy::put_BypassList, get_BypassList, wua.iwebproxy_bypasslist, wuapi/IWebProxy::BypassList, wuapi/IWebProxy::get_BypassList, wuapi/IWebProxy::put_BypassList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IWebProxy::get_BypassList method
+# IWebProxy::get_BypassList
 
 
 ## -description

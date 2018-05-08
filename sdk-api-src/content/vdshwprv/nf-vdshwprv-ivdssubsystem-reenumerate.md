@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.Reenumerate
-title: IVdsSubSystem::Reenumerate method
+title: IVdsSubSystem::Reenumerate
 author: windows-driver-content
 description: Prompts the subsystem to scan its bus to discover newly-connected drives or newly-disconnected drives.
 old-location: base\ivdssubsystem_reenumerate.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 9d6118bb-7b13-4ae1-9faf-9c17ada20511
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsSubSystem, IVdsSubSystem interface [VDS], Reenumerate method, IVdsSubSystem::Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS], IVdsSubSystem interface, Reenumerate,IVdsSubSystem.Reenumerate, base.ivdssubsystem_reenumerate, vds/IVdsSubSystem::Reenumerate, vdshwprv/IVdsSubSystem::Reenumerate
+ms.keywords: IVdsSubSystem interface [VDS],Reenumerate method, IVdsSubSystem.Reenumerate, IVdsSubSystem::Reenumerate, Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS],IVdsSubSystem interface, base.ivdssubsystem_reenumerate, vds/IVdsSubSystem::Reenumerate, vdshwprv/IVdsSubSystem::Reenumerate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsSubSystem::Reenumerate method
+# IVdsSubSystem::Reenumerate
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetStreamPrioritization
-title: IMFASFProfile::GetStreamPrioritization method
+title: IMFASFProfile::GetStreamPrioritization
 author: windows-driver-content
 description: IMFASFProfile::GetStreamPrioritization method
 old-location: mf\imfasfprofile_getstreamprioritization.htm
 old-project: medfound
 ms.assetid: 28c542b9-a121-4002-83ae-d6dcfa6f0b6a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 28c542b9-a121-4002-83ae-d6dcfa6f0b6a, GetStreamPrioritization method [Media Foundation], GetStreamPrioritization method [Media Foundation], IMFASFProfile interface, GetStreamPrioritization,IMFASFProfile.GetStreamPrioritization, IMFASFProfile, IMFASFProfile interface [Media Foundation], GetStreamPrioritization method, IMFASFProfile::GetStreamPrioritization, mf.imfasfprofile_getstreamprioritization, wmcontainer/IMFASFProfile::GetStreamPrioritization
+ms.date: 5/3/2018
+ms.keywords: 28c542b9-a121-4002-83ae-d6dcfa6f0b6a, GetStreamPrioritization, GetStreamPrioritization method [Media Foundation], GetStreamPrioritization method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStreamPrioritization method, IMFASFProfile.GetStreamPrioritization, IMFASFProfile::GetStreamPrioritization, mf.imfasfprofile_getstreamprioritization, wmcontainer/IMFASFProfile::GetStreamPrioritization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFProfile::GetStreamPrioritization method
+# IMFASFProfile::GetStreamPrioritization
 
 
 ## -description

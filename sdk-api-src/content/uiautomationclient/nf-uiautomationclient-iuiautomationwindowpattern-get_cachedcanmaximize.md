@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CachedCanMaximize
-title: IUIAutomationWindowPattern::get_CachedCanMaximize method
+title: IUIAutomationWindowPattern::get_CachedCanMaximize
 author: windows-driver-content
 description: Retrieves a cached value that indicates whether the window can be maximized.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedCanMaximize.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 614b6030-79c2-4c09-a28d-801d5b3832d9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedCanMaximize property [Windows Accessibility], CachedCanMaximize property [Windows Accessibility], IUIAutomationWindowPattern interface, IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], CachedCanMaximize property, IUIAutomationWindowPattern.CachedCanMaximize, IUIAutomationWindowPattern::get_CachedCanMaximize, get_CachedCanMaximize,IUIAutomationWindowPattern.get_CachedCanMaximize, uiauto.uiauto_IUIAutomationWindowPattern_CachedCanMaximize, uiauto_IUIAutomationWindowPattern_CachedCanMaximize, uiautomationclient/IUIAutomationWindowPattern::CachedCanMaximize, uiautomationclient/IUIAutomationWindowPattern::get_CachedCanMaximize, winauto.uiauto_IUIAutomationWindowPattern_CachedCanMaximize
+ms.keywords: CachedCanMaximize property [Windows Accessibility], CachedCanMaximize property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedCanMaximize property, IUIAutomationWindowPattern.CachedCanMaximize, IUIAutomationWindowPattern.get_CachedCanMaximize, IUIAutomationWindowPattern::CachedCanMaximize, IUIAutomationWindowPattern::get_CachedCanMaximize, get_CachedCanMaximize, uiauto.uiauto_IUIAutomationWindowPattern_CachedCanMaximize, uiauto_IUIAutomationWindowPattern_CachedCanMaximize, uiautomationclient/IUIAutomationWindowPattern::CachedCanMaximize, uiautomationclient/IUIAutomationWindowPattern::get_CachedCanMaximize, winauto.uiauto_IUIAutomationWindowPattern_CachedCanMaximize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationWindowPattern::get_CachedCanMaximize method
+# IUIAutomationWindowPattern::get_CachedCanMaximize
 
 
 ## -description

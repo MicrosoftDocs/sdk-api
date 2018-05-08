@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_DelegatedPolicyUsers
-title: IAzAuthorizationStore::get_DelegatedPolicyUsers method
+title: IAzAuthorizationStore::get_DelegatedPolicyUsers
 author: windows-driver-content
 description: Retrieves the security identifiers (SIDs) of principals that act as delegated policy users in text form.
 old-location: security\azauthorizationstore_delegatedpolicyusers.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: cc1268d5-d386-4888-a987-e40896a096e4
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzAuthorizationStore object [Security], DelegatedPolicyUsers property, DelegatedPolicyUsers property [Security], DelegatedPolicyUsers property [Security], AzAuthorizationStore object, DelegatedPolicyUsers property [Security], IAzAuthorizationStore interface, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], DelegatedPolicyUsers property, IAzAuthorizationStore.DelegatedPolicyUsers, IAzAuthorizationStore::get_DelegatedPolicyUsers, azroles/IAzAuthorizationStore::DelegatedPolicyUsers, azroles/IAzAuthorizationStore::get_DelegatedPolicyUsers, get_DelegatedPolicyUsers,IAzAuthorizationStore.get_DelegatedPolicyUsers, security.azauthorizationstore_delegatedpolicyusers
+ms.keywords: AzAuthorizationStore object [Security],DelegatedPolicyUsers property, DelegatedPolicyUsers property [Security], DelegatedPolicyUsers property [Security],AzAuthorizationStore object, DelegatedPolicyUsers property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DelegatedPolicyUsers property, IAzAuthorizationStore.DelegatedPolicyUsers, IAzAuthorizationStore.get_DelegatedPolicyUsers, IAzAuthorizationStore::DelegatedPolicyUsers, IAzAuthorizationStore::get_DelegatedPolicyUsers, azroles/IAzAuthorizationStore::DelegatedPolicyUsers, azroles/IAzAuthorizationStore::get_DelegatedPolicyUsers, get_DelegatedPolicyUsers, security.azauthorizationstore_delegatedpolicyusers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzAuthorizationStore::get_DelegatedPolicyUsers method
+# IAzAuthorizationStore::get_DelegatedPolicyUsers
 
 
 ## -description

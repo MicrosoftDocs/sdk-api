@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.get_Version
-title: IFsrmPipelineModuleDefinition::get_Version method
+title: IFsrmPipelineModuleDefinition::get_Version
 author: windows-driver-content
 description: The version of the module definition.
 old-location: fsrm\ifsrmpipelinemoduledefinition_version.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 02dbd15f-d3a2-4a81-a1e3-1f18676c2f5c
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPipelineModuleDefinition, IFsrmPipelineModuleDefinition interface [File Server Resource Manager], Version property, IFsrmPipelineModuleDefinition.Version, IFsrmPipelineModuleDefinition::get_Version, IFsrmPipelineModuleDefinition::put_Version, Version property [File Server Resource Manager], Version property [File Server Resource Manager], IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_version, fsrm.ifsrmpipelinemoduledefinition_version, fsrmpipeline/IFsrmPipelineModuleDefinition::Version, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Version, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Version, get_Version,IFsrmPipelineModuleDefinition.get_Version
+ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Version property, IFsrmPipelineModuleDefinition.Version, IFsrmPipelineModuleDefinition.get_Version, IFsrmPipelineModuleDefinition::Version, IFsrmPipelineModuleDefinition::get_Version, IFsrmPipelineModuleDefinition::put_Version, Version property [File Server Resource Manager], Version property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_version, fsrm.ifsrmpipelinemoduledefinition_version, fsrmpipeline/IFsrmPipelineModuleDefinition::Version, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Version, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Version, get_Version
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPipelineModuleDefinition::get_Version method
+# IFsrmPipelineModuleDefinition::get_Version
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferInitialize.SetSIDs
-title: IStreamBufferInitialize::SetSIDs method
+title: IStreamBufferInitialize::SetSIDs
 author: windows-driver-content
 description: The SetSIDs method sets the security identifiers (SIDs) that are used to protect access to the backing files.
 old-location: mstv\istreambufferinitialize_setsids.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bd25a967-9335-4bbd-ac85-f8b25f2be563
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IStreamBufferInitialize, IStreamBufferInitialize interface [Microsoft TV Technologies], SetSIDs method, IStreamBufferInitialize::SetSIDs, IStreamBufferInitializeSetSIDs, SetSIDs method [Microsoft TV Technologies], SetSIDs method [Microsoft TV Technologies], IStreamBufferInitialize interface, SetSIDs,IStreamBufferInitialize.SetSIDs, mstv.istreambufferinitialize_setsids, sbe/IStreamBufferInitialize::SetSIDs
+ms.keywords: IStreamBufferInitialize interface [Microsoft TV Technologies],SetSIDs method, IStreamBufferInitialize.SetSIDs, IStreamBufferInitialize::SetSIDs, IStreamBufferInitializeSetSIDs, SetSIDs, SetSIDs method [Microsoft TV Technologies], SetSIDs method [Microsoft TV Technologies],IStreamBufferInitialize interface, mstv.istreambufferinitialize_setsids, sbe/IStreamBufferInitialize::SetSIDs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferInitialize::SetSIDs method
+# IStreamBufferInitialize::SetSIDs
 
 
 ## -description

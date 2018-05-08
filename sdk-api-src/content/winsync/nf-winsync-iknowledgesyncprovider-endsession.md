@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.EndSession
-title: IKnowledgeSyncProvider::EndSession method
+title: IKnowledgeSyncProvider::EndSession
 author: windows-driver-content
 description: Notifies the provider that a synchronization session to which it was enlisted has finished.
 old-location: winsync\iknowledgesyncprovider_endsession.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: b726c902-6ccb-4c73-85f1-7256b92ef7e2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: EndSession method [Windows Sync], EndSession method [Windows Sync], IKnowledgeSyncProvider interface, EndSession,IKnowledgeSyncProvider.EndSession, IKnowledgeSyncProvider, IKnowledgeSyncProvider interface [Windows Sync], EndSession method, IKnowledgeSyncProvider::EndSession, winsync.iknowledgesyncprovider_endsession, winsync/IKnowledgeSyncProvider::EndSession
+ms.keywords: EndSession, EndSession method [Windows Sync], EndSession method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],EndSession method, IKnowledgeSyncProvider.EndSession, IKnowledgeSyncProvider::EndSession, winsync.iknowledgesyncprovider_endsession, winsync/IKnowledgeSyncProvider::EndSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IKnowledgeSyncProvider::EndSession method
+# IKnowledgeSyncProvider::EndSession
 
 
 ## -description

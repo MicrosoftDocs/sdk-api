@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcFileWriter.DeleteOnClose
-title: IRdcFileWriter::DeleteOnClose method
+title: IRdcFileWriter::DeleteOnClose
 author: windows-driver-content
 description: Sets a file to be deleted (or truncated) on close.
 old-location: rdc\irdcfilewriter_deleteonclose.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 188d43b7-db97-479e-8d4c-e7826d5c3952
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DeleteOnClose method [Remote Differential Compression], DeleteOnClose method [Remote Differential Compression], IRdcFileWriter interface, DeleteOnClose,IRdcFileWriter.DeleteOnClose, IRdcFileWriter, IRdcFileWriter interface [Remote Differential Compression], DeleteOnClose method, IRdcFileWriter::DeleteOnClose, fs.irdcfilewriter_deleteonclose, msrdc/IRdcFileWriter::DeleteOnClose, rdc.irdcfilewriter_deleteonclose
+ms.keywords: DeleteOnClose, DeleteOnClose method [Remote Differential Compression], DeleteOnClose method [Remote Differential Compression],IRdcFileWriter interface, IRdcFileWriter interface [Remote Differential Compression],DeleteOnClose method, IRdcFileWriter.DeleteOnClose, IRdcFileWriter::DeleteOnClose, fs.irdcfilewriter_deleteonclose, msrdc/IRdcFileWriter::DeleteOnClose, rdc.irdcfilewriter_deleteonclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcFileWriter::DeleteOnClose method
+# IRdcFileWriter::DeleteOnClose
 
 
 ## -description

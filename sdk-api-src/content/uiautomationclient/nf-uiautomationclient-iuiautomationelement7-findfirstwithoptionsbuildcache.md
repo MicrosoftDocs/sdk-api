@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement7.FindFirstWithOptionsBuildCache
-title: IUIAutomationElement7::FindFirstWithOptionsBuildCache method
+title: IUIAutomationElement7::FindFirstWithOptionsBuildCache
 author: windows-driver-content
 description: Finds the first matching element in the specified order, but also caches its properties and pattern.
 old-location: winauto\uiauto_IUIAutomationElement7_FindFirstWithOptionsBuildCache.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 03683C11-7AB0-4933-A7C1-4A75A12079E1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: FindFirstWithOptionsBuildCache method [Windows Accessibility], FindFirstWithOptionsBuildCache method [Windows Accessibility], IUIAutomationElement7 interface, FindFirstWithOptionsBuildCache,IUIAutomationElement7.FindFirstWithOptionsBuildCache, IUIAutomationElement7, IUIAutomationElement7 interface [Windows Accessibility], FindFirstWithOptionsBuildCache method, IUIAutomationElement7::FindFirstWithOptionsBuildCache, uiautomationclient/IUIAutomationElement7::FindFirstWithOptionsBuildCache, winauto.uiauto_IUIAutomationElement7_FindFirstWithOptionsBuildCache, winauto.uiauto_iuiautomationelement_findfirstwithoptionsbuildcache
+ms.keywords: FindFirstWithOptionsBuildCache, FindFirstWithOptionsBuildCache method [Windows Accessibility], FindFirstWithOptionsBuildCache method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],FindFirstWithOptionsBuildCache method, IUIAutomationElement7.FindFirstWithOptionsBuildCache, IUIAutomationElement7::FindFirstWithOptionsBuildCache, uiautomationclient/IUIAutomationElement7::FindFirstWithOptionsBuildCache, winauto.uiauto_IUIAutomationElement7_FindFirstWithOptionsBuildCache, winauto.uiauto_iuiautomationelement_findfirstwithoptionsbuildcache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement7::FindFirstWithOptionsBuildCache method
+# IUIAutomationElement7::FindFirstWithOptionsBuildCache
 
 
 ## -description

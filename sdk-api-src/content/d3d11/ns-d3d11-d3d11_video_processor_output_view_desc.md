@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_output_view_desc.htm
 old-project: medfound
 ms.assetid: 8E0D44C1-220C-4E70-8A60-591AEBC16A2B
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_OUTPUT_VIEW_DESC, D3D11_VIDEO_PROCESSOR_OUTPUT_VIEW_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_VIEW_DESC, mf.d3d11_video_processor_output_view_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,14 +62,14 @@ Describes a video processor output view.
 The resource type of the view, specified as a member of the <a href="https://msdn.microsoft.com/EB334FA2-B174-45B2-8087-AAB72BB41795">D3D11_VPOV_DIMENSION</a> enumeration.
 
 
-#### - Texture2D
+### -field Texture2D
 
 A <a href="https://msdn.microsoft.com/DFABFB34-2622-4AB7-A87E-7E15F4D20E69">D3D11_TEX2D_VPOV</a> structure that identifies the texture resource for the output view. 
 
 Use this member of the union when <b>ViewDimension</b> equals <b>D3D11_VPOV_DIMENSION_TEXTURE2D</b>.
 
 
-#### - Texture2DArray
+### -field Texture2DArray
 
 A <a href="https://msdn.microsoft.com/DF059392-3E4B-45D2-A3CD-A0C61C8D628F">D3D11_TEX2D_ARRAY_VPOV</a> structure that identifies the texture array for the output view. 
 

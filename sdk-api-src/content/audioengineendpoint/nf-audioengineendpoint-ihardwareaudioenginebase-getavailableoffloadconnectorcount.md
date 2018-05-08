@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IHardwareAudioEngineBase.GetAvailableOffloadConnectorCount
-title: IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount method
+title: IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount
 author: windows-driver-content
 description: The GetAvailableOffloadConnectorCount method retrieves the number of avaialable endpoints that can handle offloaded streams on the hardware audio engine.
 old-location: coreaudio\ihardwareaudioenginebase_getavailableoffloadconnectorcount.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: FCAFF20A-812A-4232-A86C-79D07D5AE26F
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetAvailableOffloadConnectorCount method [Core Audio], GetAvailableOffloadConnectorCount method [Core Audio], IHardwareAudioEngineBase interface, GetAvailableOffloadConnectorCount,IHardwareAudioEngineBase.GetAvailableOffloadConnectorCount, IHardwareAudioEngineBase, IHardwareAudioEngineBase interface [Core Audio], GetAvailableOffloadConnectorCount method, IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount, audioengineendpoint/IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount, coreaudio.ihardwareaudioenginebase_getavailableoffloadconnectorcount
+ms.keywords: GetAvailableOffloadConnectorCount, GetAvailableOffloadConnectorCount method [Core Audio], GetAvailableOffloadConnectorCount method [Core Audio],IHardwareAudioEngineBase interface, IHardwareAudioEngineBase interface [Core Audio],GetAvailableOffloadConnectorCount method, IHardwareAudioEngineBase.GetAvailableOffloadConnectorCount, IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount, audioengineendpoint/IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount, coreaudio.ihardwareaudioenginebase_getavailableoffloadconnectorcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount method
+# IHardwareAudioEngineBase::GetAvailableOffloadConnectorCount
 
 
 ## -description

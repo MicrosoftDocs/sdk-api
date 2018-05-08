@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 8c61e1a0-18fc-4ae9-881a-0362166012d9
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: ISCPSecureExchange, ISCPSecureExchange interface [windows Media Device Manager], ISCPSecureExchange interface [windows Media Device Manager], described, ISCPSecureExchangeInterface, mswmdm/ISCPSecureExchange, wmdm.iscpsecureexchange
+ms.keywords: ISCPSecureExchange, ISCPSecureExchange interface [windows Media Device Manager], ISCPSecureExchange interface [windows Media Device Manager],described, ISCPSecureExchangeInterface, mswmdm/ISCPSecureExchange, wmdm.iscpsecureexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentSubpicture
-title: IDvdInfo2::GetCurrentSubpicture method
+title: IDvdInfo2::GetCurrentSubpicture
 author: windows-driver-content
 description: The GetCurrentSubpicture method retrieves the number of available subpicture streams in the current title, the currently selected subpicture stream number, and the state of the subpicture.
 old-location: dshow\idvdinfo2_getcurrentsubpicture.htm
 old-project: DirectShow
 ms.assetid: d41fb9ad-83e3-46d6-90b3-abdc61a6b997
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCurrentSubpicture method [DirectShow], GetCurrentSubpicture method [DirectShow], IDvdInfo2 interface, GetCurrentSubpicture,IDvdInfo2.GetCurrentSubpicture, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetCurrentSubpicture method, IDvdInfo2::GetCurrentSubpicture, IDvdInfo2GetCurrentSubpicture, dshow.idvdinfo2_getcurrentsubpicture, strmif/IDvdInfo2::GetCurrentSubpicture
+ms.date: 4/30/2018
+ms.keywords: GetCurrentSubpicture, GetCurrentSubpicture method [DirectShow], GetCurrentSubpicture method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentSubpicture method, IDvdInfo2.GetCurrentSubpicture, IDvdInfo2::GetCurrentSubpicture, IDvdInfo2GetCurrentSubpicture, dshow.idvdinfo2_getcurrentsubpicture, strmif/IDvdInfo2::GetCurrentSubpicture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo2::GetCurrentSubpicture method
+# IDvdInfo2::GetCurrentSubpicture
 
 
 ## -description

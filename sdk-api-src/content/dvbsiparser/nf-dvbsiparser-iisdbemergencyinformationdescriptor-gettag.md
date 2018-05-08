@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetTag
-title: IIsdbEmergencyInformationDescriptor::GetTag method
+title: IIsdbEmergencyInformationDescriptor::GetTag
 author: windows-driver-content
 description: Gets the tag that identifies an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_gettag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: d0751a09-0336-48d7-a5f0-1182354774a4
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IIsdbEmergencyInformationDescriptor interface, GetTag,IIsdbEmergencyInformationDescriptor.GetTag, IIsdbEmergencyInformationDescriptor, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies], GetTag method, IIsdbEmergencyInformationDescriptor::GetTag, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetTag, mstv.iisdbemergencyinformationdescriptor_gettag
+ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbEmergencyInformationDescriptor.GetTag, IIsdbEmergencyInformationDescriptor::GetTag, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetTag, mstv.iisdbemergencyinformationdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbEmergencyInformationDescriptor::GetTag method
+# IIsdbEmergencyInformationDescriptor::GetTag
 
 
 ## -description

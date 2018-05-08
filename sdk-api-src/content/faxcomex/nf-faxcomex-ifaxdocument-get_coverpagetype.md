@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_CoverPageType
-title: IFaxDocument::get_CoverPageType method
+title: IFaxDocument::get_CoverPageType
 author: windows-driver-content
 description: The CoverPageType property is a value from an enumeration that indicates whether a specified cover page template file (.cov) is a server-based cover page file or a local-computer-based cover page file. You can also specify that no file is used.
 old-location: fax\_mfax_faxdocument_coverpagetype_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3v8l.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CoverPageType property [Fax Service], CoverPageType property [Fax Service], FaxDocument object, FaxDocument object [Fax Service], CoverPageType property, IFaxDocument, IFaxDocument::get_CoverPageType, _mfax_faxdocument.coverpagetype, fax._mfax_faxdocument_coverpagetype, fax._mfax_faxdocument_coverpagetype_vb, get_CoverPageType,IFaxDocument.get_CoverPageType
+ms.keywords: CoverPageType property [Fax Service], CoverPageType property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],CoverPageType property, FaxDocument.CoverPageType, IFaxDocument.get_CoverPageType, IFaxDocument::get_CoverPageType, _mfax_faxdocument.coverpagetype, fax._mfax_faxdocument_coverpagetype, fax._mfax_faxdocument_coverpagetype_vb, get_CoverPageType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDocument::get_CoverPageType method
+# IFaxDocument::get_CoverPageType
 
 
 ## -description

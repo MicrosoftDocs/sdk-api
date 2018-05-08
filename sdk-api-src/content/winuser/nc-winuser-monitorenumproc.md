@@ -8,7 +8,7 @@ old-project: gdi
 ms.assetid: 2d69e363-2b2c-450f-9069-488b80991217
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: MonitorEnumProc, MonitorEnumProc callback function [Windows GDI], _win32_MonitorEnumProc, gdi.monitorenumproc, winuser/MonitorEnumProc
+ms.keywords: MonitorEnumProc, MonitorEnumProc callback, MonitorEnumProc callback function [Windows GDI], _win32_MonitorEnumProc, gdi.monitorenumproc, winuser/MonitorEnumProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# MONITORENUMPROC callback
+# MONITORENUMPROC callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: ics\inetfwremoteadminsettings.htm
 old-project: ICS
 ms.assetid: 35f34a53-e73b-48be-ac79-9b7ab825c6ad
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwRemoteAdminSettings, INetFwRemoteAdminSettings interface [ICS/ICF], INetFwRemoteAdminSettings interface [ICS/ICF], described, ics.inetfwremoteadminsettings, netfw/INetFwRemoteAdminSettings
+ms.date: 5/1/2018
+ms.keywords: INetFwRemoteAdminSettings, INetFwRemoteAdminSettings interface [ICS/ICF], INetFwRemoteAdminSettings interface [ICS/ICF],described, ics.inetfwremoteadminsettings, netfw/INetFwRemoteAdminSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: QOS
 ms.assetid: e7b38820-4a7e-4f17-a67d-b94caa9037f5
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: PALLOCMEM, PALLOCMEM callback function [QOS], _gqos_pallocmem, lpmapi/PALLOCMEM, qos.pallocmem
+ms.keywords: PALLOCMEM, PALLOCMEM callback, PALLOCMEM callback function [QOS], _gqos_pallocmem, lpmapi/PALLOCMEM, qos.pallocmem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# PALLOCMEM callback
+# PALLOCMEM callback function
 
 
 ## -description

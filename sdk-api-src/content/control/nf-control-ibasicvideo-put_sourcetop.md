@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicVideo.put_SourceTop
-title: IBasicVideo::put_SourceTop method
+title: IBasicVideo::put_SourceTop
 author: windows-driver-content
 description: The put_SourceTop method sets the y-coordinate of the source rectangle.
 old-location: dshow\ibasicvideo_put_sourcetop.htm
 old-project: DirectShow
 ms.assetid: 0a76518d-f79d-45ef-8e19-a3e5ee1e4db0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], put_SourceTop method, IBasicVideo::put_SourceTop, IBasicVideoput_SourceTop, control/IBasicVideo::put_SourceTop, dshow.ibasicvideo_put_sourcetop, put_SourceTop method [DirectShow], put_SourceTop method [DirectShow], IBasicVideo interface, put_SourceTop,IBasicVideo.put_SourceTop
+ms.date: 4/30/2018
+ms.keywords: IBasicVideo interface [DirectShow],put_SourceTop method, IBasicVideo.put_SourceTop, IBasicVideo::put_SourceTop, IBasicVideoput_SourceTop, control/IBasicVideo::put_SourceTop, dshow.ibasicvideo_put_sourcetop, put_SourceTop, put_SourceTop method [DirectShow], put_SourceTop method [DirectShow],IBasicVideo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicVideo::put_SourceTop method
+# IBasicVideo::put_SourceTop
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmAction.get_ActionType
-title: IFsrmAction::get_ActionType method
+title: IFsrmAction::get_ActionType
 author: windows-driver-content
 description: Retrieves the action's type.
 old-location: fsrm\ifsrmaction_actiontype.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 7ce0bafb-8076-4a0d-bd59-9e2d436f74c1
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ActionType property [File Server Resource Manager], ActionType property [File Server Resource Manager], IFsrmAction interface, IFsrmAction, IFsrmAction interface [File Server Resource Manager], ActionType property, IFsrmAction.ActionType, IFsrmAction::get_ActionType, fs.ifsrmaction_actiontype, fsrm.ifsrmaction_actiontype, fsrm/IFsrmAction::ActionType, fsrm/IFsrmAction::get_ActionType, get_ActionType,IFsrmAction.get_ActionType
+ms.keywords: ActionType property [File Server Resource Manager], ActionType property [File Server Resource Manager],IFsrmAction interface, IFsrmAction interface [File Server Resource Manager],ActionType property, IFsrmAction.ActionType, IFsrmAction.get_ActionType, IFsrmAction::ActionType, IFsrmAction::get_ActionType, fs.ifsrmaction_actiontype, fsrm.ifsrmaction_actiontype, fsrm/IFsrmAction::ActionType, fsrm/IFsrmAction::get_ActionType, get_ActionType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmAction::get_ActionType method
+# IFsrmAction::get_ActionType
 
 
 ## -description

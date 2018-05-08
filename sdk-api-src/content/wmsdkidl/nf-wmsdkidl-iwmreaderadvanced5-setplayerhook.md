@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced5.SetPlayerHook
-title: IWMReaderAdvanced5::SetPlayerHook method
+title: IWMReaderAdvanced5::SetPlayerHook
 author: windows-driver-content
 description: The SetPlayerHook method assigns a player-hook callback to the reader. The reader calls the callback method before sending each sample to the graphics processor for decompression.
 old-location: wmformat\iwmreaderadvanced5_setplayerhook.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 499c6c31-8cdf-4b99-964a-1fd51c14c5bd
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced5, IWMReaderAdvanced5 interface [windows Media Format], SetPlayerHook method, IWMReaderAdvanced5::SetPlayerHook, IWMReaderAdvanced5SetPlayerHook, SetPlayerHook method [windows Media Format], SetPlayerHook method [windows Media Format], IWMReaderAdvanced5 interface, SetPlayerHook,IWMReaderAdvanced5.SetPlayerHook, wmformat.iwmreaderadvanced5_setplayerhook, wmsdkidl/IWMReaderAdvanced5::SetPlayerHook
+ms.keywords: IWMReaderAdvanced5 interface [windows Media Format],SetPlayerHook method, IWMReaderAdvanced5.SetPlayerHook, IWMReaderAdvanced5::SetPlayerHook, IWMReaderAdvanced5SetPlayerHook, SetPlayerHook, SetPlayerHook method [windows Media Format], SetPlayerHook method [windows Media Format],IWMReaderAdvanced5 interface, wmformat.iwmreaderadvanced5_setplayerhook, wmsdkidl/IWMReaderAdvanced5::SetPlayerHook
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced5::SetPlayerHook method
+# IWMReaderAdvanced5::SetPlayerHook
 
 
 ## -description

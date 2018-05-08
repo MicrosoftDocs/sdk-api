@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 353eaf47-f93e-4243-8bed-7b6f07513a3c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PQUORUM_RESOURCE_LOST, PQUORUM_RESOURCE_LOST callback function [Failover Cluster], QuorumResourceLost, QuorumResourceLost callback function [Failover Cluster], _wolf_quorumresourcelost, mscs.quorumresourcelost, resapi/PQUORUM_RESOURCE_LOST, resapi/QuorumResourceLost
+ms.keywords: PQUORUM_RESOURCE_LOST, PQUORUM_RESOURCE_LOST callback function [Failover Cluster], QuorumResourceLost, QuorumResourceLost callback, QuorumResourceLost callback function [Failover Cluster], _wolf_quorumresourcelost, mscs.quorumresourcelost, resapi/PQUORUM_RESOURCE_LOST, resapi/QuorumResourceLost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PQUORUM_RESOURCE_LOST callback
+# PQUORUM_RESOURCE_LOST callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.SetSubEntries
-title: ITocEntry::SetSubEntries method
+title: ITocEntry::SetSubEntries
 author: windows-driver-content
 description: The SetSubEntries identifies a set of entries as being subentries of this entry.
 old-location: mf\itocentry_setsubentries.htm
 old-project: medfound
 ms.assetid: 4b3f4038-483c-4f00-a819-ace83d99da58
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: ITocEntry, ITocEntry interface [Media Foundation], SetSubEntries method, ITocEntry::SetSubEntries, SetSubEntries method [Media Foundation], SetSubEntries method [Media Foundation], ITocEntry interface, SetSubEntries,ITocEntry.SetSubEntries, codecapi.itocentry_setsubentries, mf.itocentry_setsubentries, wmcodecdsp/ITocEntry::SetSubEntries
+ms.date: 5/3/2018
+ms.keywords: ITocEntry interface [Media Foundation],SetSubEntries method, ITocEntry.SetSubEntries, ITocEntry::SetSubEntries, SetSubEntries, SetSubEntries method [Media Foundation], SetSubEntries method [Media Foundation],ITocEntry interface, codecapi.itocentry_setsubentries, mf.itocentry_setsubentries, wmcodecdsp/ITocEntry::SetSubEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocEntry::SetSubEntries method
+# ITocEntry::SetSubEntries
 
 
 ## -description

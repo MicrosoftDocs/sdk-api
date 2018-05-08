@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICollection.GetCount
-title: IUICollection::GetCount method
+title: IUICollection::GetCount
 author: windows-driver-content
 description: Retrieves the number of items contained in the IUICollection.
 old-location: windowsribbon\windowsribbon_iuicollection_getcount.htm
@@ -8,7 +8,7 @@ old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\getcount.htm
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetCount method [Windows Ribbon], GetCount method [Windows Ribbon], IUICollection interface, GetCount,IUICollection.GetCount, IUICollection, IUICollection interface [Windows Ribbon], GetCount method, IUICollection::GetCount, scenicintent_IUICollection_GetCount, uiribbon/IUICollection::GetCount, windowsribbon.windowsribbon_iuicollection_getcount
+ms.keywords: GetCount, GetCount method [Windows Ribbon], GetCount method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],GetCount method, IUICollection.GetCount, IUICollection::GetCount, scenicintent_IUICollection_GetCount, uiribbon/IUICollection::GetCount, windowsribbon.windowsribbon_iuicollection_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUICollection::GetCount method
+# IUICollection::GetCount
 
 
 ## -description

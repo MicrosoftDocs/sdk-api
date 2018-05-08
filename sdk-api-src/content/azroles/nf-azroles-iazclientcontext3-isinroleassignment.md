@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext3.IsInRoleAssignment
-title: IAzClientContext3::IsInRoleAssignment method
+title: IAzClientContext3::IsInRoleAssignment
 author: windows-driver-content
 description: Checks whether the principal represented by the current client context is a member of the specified role in the specified scope.
 old-location: security\iazclientcontext3_isinroleassignment_method.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 20e19ee7-3b65-4f0f-ba19-7fb6cbbaea7b
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IAzClientContext3, IAzClientContext3 interface [Security], IsInRoleAssignment method, IAzClientContext3::IsInRoleAssignment, IsInRoleAssignment method [Security], IsInRoleAssignment method [Security], IAzClientContext3 interface, IsInRoleAssignment,IAzClientContext3.IsInRoleAssignment, azroles/IAzClientContext3::IsInRoleAssignment, security.iazclientcontext3_isinroleassignment_method
+ms.keywords: IAzClientContext3 interface [Security],IsInRoleAssignment method, IAzClientContext3.IsInRoleAssignment, IAzClientContext3::IsInRoleAssignment, IsInRoleAssignment, IsInRoleAssignment method [Security], IsInRoleAssignment method [Security],IAzClientContext3 interface, azroles/IAzClientContext3::IsInRoleAssignment, security.iazclientcontext3_isinroleassignment_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAzClientContext3::IsInRoleAssignment method
+# IAzClientContext3::IsInRoleAssignment
 
 
 ## -description

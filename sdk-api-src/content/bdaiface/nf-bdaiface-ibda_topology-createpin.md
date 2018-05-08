@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.CreatePin
-title: IBDA_Topology::CreatePin method
+title: IBDA_Topology::CreatePin
 author: windows-driver-content
 description: The CreatePin method creates an instance of a specified pin type.
 old-location: mstv\ibda_topology_createpin.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ced0f8a8-7a34-4357-8795-491e60a22e91
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreatePin method [Microsoft TV Technologies], CreatePin method [Microsoft TV Technologies], IBDA_Topology interface, CreatePin,IBDA_Topology.CreatePin, IBDA_Topology, IBDA_Topology interface [Microsoft TV Technologies], CreatePin method, IBDA_Topology::CreatePin, IBDA_TopologyCreatePin, bdaiface/IBDA_Topology::CreatePin, mstv.ibda_topology_createpin
+ms.keywords: CreatePin, CreatePin method [Microsoft TV Technologies], CreatePin method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],CreatePin method, IBDA_Topology.CreatePin, IBDA_Topology::CreatePin, IBDA_TopologyCreatePin, bdaiface/IBDA_Topology::CreatePin, mstv.ibda_topology_createpin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_Topology::CreatePin method
+# IBDA_Topology::CreatePin
 
 
 ## -description

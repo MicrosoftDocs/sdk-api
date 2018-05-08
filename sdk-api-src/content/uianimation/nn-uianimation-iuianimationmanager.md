@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 21f16c65-90aa-4b1f-93bc-8ee0488c6ded
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationManager, IUIAnimationManager interface [Windows Animation], IUIAnimationManager interface [Windows Animation], described, uianimation.iuianimationmanager, uianimation/IUIAnimationManager
+ms.keywords: IUIAnimationManager, IUIAnimationManager interface [Windows Animation], IUIAnimationManager interface [Windows Animation],described, uianimation.iuianimationmanager, uianimation/IUIAnimationManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

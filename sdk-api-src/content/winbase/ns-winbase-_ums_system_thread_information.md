@@ -83,6 +83,13 @@ A bitfield that specifies a UMS scheduler thread. If <b>IsUmsSchedulerThread</b>
 A bitfield that specifies a UMS worker thread. If <b>IsUmsWorkerThread</b>  is set, <b>IsUmsSchedulerThread</b> must be clear. 
 
 
+### -field DUMMYUNIONNAME.ThreadUmsFlags
+
+ 
+
+
+
+
 ## -remarks
 
 

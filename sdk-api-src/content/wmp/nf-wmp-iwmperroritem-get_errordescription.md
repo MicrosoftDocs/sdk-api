@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_errorDescription
-title: IWMPErrorItem::get_errorDescription method
+title: IWMPErrorItem::get_errorDescription
 author: windows-driver-content
 description: The get_errorDescription method retrieves a description of the error.
 old-location: wmp\iwmperroritem_get_errordescription.htm
 old-project: WMP
 ms.assetid: eb322580-2cc6-4094-9da3-9b8d78a5cb48
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPErrorItem, IWMPErrorItem interface [Windows Media Player], get_errorDescription method, IWMPErrorItem::get_errorDescription, IWMPErrorItemget_errorDescription, get_errorDescription method [Windows Media Player], get_errorDescription method [Windows Media Player], IWMPErrorItem interface, get_errorDescription,IWMPErrorItem.get_errorDescription, wmp.iwmperroritem_get_errordescription, wmp/IWMPErrorItem::get_errorDescription
+ms.date: 5/4/2018
+ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorDescription method, IWMPErrorItem.get_errorDescription, IWMPErrorItem::get_errorDescription, IWMPErrorItemget_errorDescription, get_errorDescription, get_errorDescription method [Windows Media Player], get_errorDescription method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errordescription, wmp/IWMPErrorItem::get_errorDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPErrorItem::get_errorDescription method
+# IWMPErrorItem::get_errorDescription
 
 
 ## -description

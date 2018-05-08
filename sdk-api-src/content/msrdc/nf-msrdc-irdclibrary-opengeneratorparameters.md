@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcLibrary.OpenGeneratorParameters
-title: IRdcLibrary::OpenGeneratorParameters method
+title: IRdcLibrary::OpenGeneratorParameters
 author: windows-driver-content
 description: Opens an existing serialized parameter block and returns an IRdcGeneratorParameters interface pointer initialized with the data.
 old-location: rdc\irdclibrary_opengeneratorparameters.htm
@@ -8,7 +8,7 @@ old-project: Rdc
 ms.assetid: 6fbced31-a230-44d4-a9ee-bb3e15df2563
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRdcLibrary, IRdcLibrary interface [Remote Differential Compression], OpenGeneratorParameters method, IRdcLibrary::OpenGeneratorParameters, OpenGeneratorParameters method [Remote Differential Compression], OpenGeneratorParameters method [Remote Differential Compression], IRdcLibrary interface, OpenGeneratorParameters,IRdcLibrary.OpenGeneratorParameters, fs.irdclibrary_opengeneratorparameters, msrdc/IRdcLibrary::OpenGeneratorParameters, rdc.irdclibrary_opengeneratorparameters
+ms.keywords: IRdcLibrary interface [Remote Differential Compression],OpenGeneratorParameters method, IRdcLibrary.OpenGeneratorParameters, IRdcLibrary::OpenGeneratorParameters, OpenGeneratorParameters, OpenGeneratorParameters method [Remote Differential Compression], OpenGeneratorParameters method [Remote Differential Compression],IRdcLibrary interface, fs.irdclibrary_opengeneratorparameters, msrdc/IRdcLibrary::OpenGeneratorParameters, rdc.irdclibrary_opengeneratorparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRdcLibrary::OpenGeneratorParameters method
+# IRdcLibrary::OpenGeneratorParameters
 
 
 ## -description

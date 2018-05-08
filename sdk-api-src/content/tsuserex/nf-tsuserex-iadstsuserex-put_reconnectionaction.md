@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_ReconnectionAction
-title: IADsTSUserEx::put_ReconnectionAction method
+title: IADsTSUserEx::put_ReconnectionAction
 author: windows-driver-content
 description: A value that specifies if reconnection to a disconnected Remote Desktop Services session is allowed.
 old-location: termserv\iadstsuserex_reconnectionaction.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 3c97988b-f04f-4480-a5ae-cf38b07b9ae8
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], ReconnectionAction property, IADsTSUserEx.ReconnectionAction, IADsTSUserEx::get_ReconnectionAction, IADsTSUserEx::put_ReconnectionAction, ReconnectionAction property [Remote Desktop Services], ReconnectionAction property [Remote Desktop Services], IADsTSUserEx interface, put_ReconnectionAction,IADsTSUserEx.put_ReconnectionAction, termserv.iadstsuserex_reconnectionaction, tsuserex/IADsTSUserEx::ReconnectionAction, tsuserex/IADsTSUserEx::get_ReconnectionAction, tsuserex/IADsTSUserEx::put_ReconnectionAction
+ms.keywords: IADsTSUserEx interface [Remote Desktop Services],ReconnectionAction property, IADsTSUserEx.ReconnectionAction, IADsTSUserEx.put_ReconnectionAction, IADsTSUserEx::ReconnectionAction, IADsTSUserEx::get_ReconnectionAction, IADsTSUserEx::put_ReconnectionAction, ReconnectionAction property [Remote Desktop Services], ReconnectionAction property [Remote Desktop Services],IADsTSUserEx interface, put_ReconnectionAction, termserv.iadstsuserex_reconnectionaction, tsuserex/IADsTSUserEx::ReconnectionAction, tsuserex/IADsTSUserEx::get_ReconnectionAction, tsuserex/IADsTSUserEx::put_ReconnectionAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IADsTSUserEx::put_ReconnectionAction method
+# IADsTSUserEx::put_ReconnectionAction
 
 
 ## -description

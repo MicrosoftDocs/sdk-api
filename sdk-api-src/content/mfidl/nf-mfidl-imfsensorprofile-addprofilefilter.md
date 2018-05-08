@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorProfile.AddProfileFilter
-title: IMFSensorProfile::AddProfileFilter method
+title: IMFSensorProfile::AddProfileFilter
 author: windows-driver-content
 description: Adds a profile filter to the specified media stream.
 old-location: mf\imfsensorprofile_addprofilefilter.htm
 old-project: medfound
 ms.assetid: D79C83AA-A105-4320-80D8-F7A3753DF4C4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: AddProfileFilter method [Media Foundation], AddProfileFilter method [Media Foundation], IMFSensorProfile interface, AddProfileFilter,IMFSensorProfile.AddProfileFilter, IMFSensorProfile, IMFSensorProfile interface [Media Foundation], AddProfileFilter method, IMFSensorProfile::AddProfileFilter, mf.imfsensorprofile_addprofilefilter, mfidl/IMFSensorProfile::AddProfileFilter
+ms.date: 5/3/2018
+ms.keywords: AddProfileFilter, AddProfileFilter method [Media Foundation], AddProfileFilter method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],AddProfileFilter method, IMFSensorProfile.AddProfileFilter, IMFSensorProfile::AddProfileFilter, mf.imfsensorprofile_addprofilefilter, mfidl/IMFSensorProfile::AddProfileFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorProfile::AddProfileFilter method
+# IMFSensorProfile::AddProfileFilter
 
 
 ## -description

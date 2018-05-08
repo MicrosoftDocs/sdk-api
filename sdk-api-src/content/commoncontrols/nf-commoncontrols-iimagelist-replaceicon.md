@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList.ReplaceIcon
-title: IImageList::ReplaceIcon method
+title: IImageList::ReplaceIcon
 author: windows-driver-content
 description: Replaces an image with an icon or cursor.
 old-location: controls\IImageList_ReplaceIcon.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\replaceicon.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IImageList, IImageList interface [Windows Controls], ReplaceIcon method, IImageList::ReplaceIcon, ReplaceIcon method [Windows Controls], ReplaceIcon method [Windows Controls], IImageList interface, ReplaceIcon,IImageList.ReplaceIcon, comctl_IImageList_ReplaceIcon, comctl_IImageList_ReplaceIcon_cpp, commoncontrols/IImageList::ReplaceIcon, controls.IImageList_ReplaceIcon, controls.comctl_IImageList_ReplaceIcon
+ms.date: 4/27/2018
+ms.keywords: IImageList interface [Windows Controls],ReplaceIcon method, IImageList.ReplaceIcon, IImageList::ReplaceIcon, ReplaceIcon, ReplaceIcon method [Windows Controls], ReplaceIcon method [Windows Controls],IImageList interface, comctl_IImageList_ReplaceIcon, comctl_IImageList_ReplaceIcon_cpp, commoncontrols/IImageList::ReplaceIcon, controls.IImageList_ReplaceIcon, controls.comctl_IImageList_ReplaceIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList::ReplaceIcon method
+# IImageList::ReplaceIcon
 
 
 ## -description

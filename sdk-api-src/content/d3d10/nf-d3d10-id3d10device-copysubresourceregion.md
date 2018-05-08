@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CopySubresourceRegion
-title: ID3D10Device::CopySubresourceRegion method
+title: ID3D10Device::CopySubresourceRegion
 author: windows-driver-content
 description: Copy a region from a source resource to a destination resource.
 old-location: direct3d10\id3d10device_copysubresourceregion.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_copysubresourceregion.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 6ed5c759-9864-ef56-3e1a-e3f8ff730dff, CopySubresourceRegion method [Direct3D 10], CopySubresourceRegion method [Direct3D 10], ID3D10Device interface, CopySubresourceRegion,ID3D10Device.CopySubresourceRegion, ID3D10Device, ID3D10Device interface [Direct3D 10], CopySubresourceRegion method, ID3D10Device::CopySubresourceRegion, d3d10/ID3D10Device::CopySubresourceRegion, direct3d10.id3d10device_copysubresourceregion
+ms.keywords: 6ed5c759-9864-ef56-3e1a-e3f8ff730dff, CopySubresourceRegion, CopySubresourceRegion method [Direct3D 10], CopySubresourceRegion method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CopySubresourceRegion method, ID3D10Device.CopySubresourceRegion, ID3D10Device::CopySubresourceRegion, d3d10/ID3D10Device::CopySubresourceRegion, direct3d10.id3d10device_copysubresourceregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::CopySubresourceRegion method
+# ID3D10Device::CopySubresourceRegion
 
 
 ## -description

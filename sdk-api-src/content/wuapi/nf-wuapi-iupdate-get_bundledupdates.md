@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_BundledUpdates
-title: IUpdate::get_BundledUpdates method
+title: IUpdate::get_BundledUpdates
 author: windows-driver-content
 description: Gets an interface that contains information about the ordered list of the bundled updates for the update.
 old-location: wua\iupdate_bundledupdates.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 17fcde27-86be-4fe1-8cd2-a49cfe2b408f
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: BundledUpdates property [Windows Update Agent], BundledUpdates property [Windows Update Agent], IUpdate interface, IUpdate, IUpdate interface [Windows Update Agent], BundledUpdates property, IUpdate.BundledUpdates, IUpdate::get_BundledUpdates, get_BundledUpdates,IUpdate.get_BundledUpdates, wua.iupdate_bundledupdates, wuapi/IUpdate::BundledUpdates, wuapi/IUpdate::get_BundledUpdates
+ms.keywords: BundledUpdates property [Windows Update Agent], BundledUpdates property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],BundledUpdates property, IUpdate.BundledUpdates, IUpdate.get_BundledUpdates, IUpdate::BundledUpdates, IUpdate::get_BundledUpdates, get_BundledUpdates, wua.iupdate_bundledupdates, wuapi/IUpdate::BundledUpdates, wuapi/IUpdate::get_BundledUpdates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IUpdate::get_BundledUpdates method
+# IUpdate::get_BundledUpdates
 
 
 ## -description

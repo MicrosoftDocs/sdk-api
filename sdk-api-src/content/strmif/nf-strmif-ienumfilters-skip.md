@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IEnumFilters.Skip
-title: IEnumFilters::Skip method
+title: IEnumFilters::Skip
 author: windows-driver-content
 description: The Skip method skips over a specified number of filters.
 old-location: dshow\ienumfilters_skip.htm
 old-project: DirectShow
 ms.assetid: 594e25b1-03a8-4b6c-965c-f34dae9f3d3b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumFilters, IEnumFilters interface [DirectShow], Skip method, IEnumFilters::Skip, IEnumFiltersSkip, Skip method [DirectShow], Skip method [DirectShow], IEnumFilters interface, Skip,IEnumFilters.Skip, dshow.ienumfilters_skip, strmif/IEnumFilters::Skip
+ms.date: 4/30/2018
+ms.keywords: IEnumFilters interface [DirectShow],Skip method, IEnumFilters.Skip, IEnumFilters::Skip, IEnumFiltersSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumFilters interface, dshow.ienumfilters_skip, strmif/IEnumFilters::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IEnumFilters::Skip method
+# IEnumFilters::Skip
 
 
 ## -description

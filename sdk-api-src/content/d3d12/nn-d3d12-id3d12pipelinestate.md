@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: DD922194-8AD2-4ADF-9AC2-46C903C56AE6
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12PipelineState, ID3D12PipelineState interface, ID3D12PipelineState interface, described, d3d12/ID3D12PipelineState, direct3d12.id3d12pipelinestate
+ms.keywords: ID3D12PipelineState, ID3D12PipelineState interface, ID3D12PipelineState interface,described, d3d12/ID3D12PipelineState, direct3d12.id3d12pipelinestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: WinSAT
 ms.assetid: 9e8d2490-9d48-4512-b5f0-5c2f9cdeb287
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IProvideWinSATVisuals, IProvideWinSATVisuals interface [WinSAT], IProvideWinSATVisuals interface [WinSAT], described, winsat.iprovidewinsatvisuals, winsatcominterfacei/IProvideWinSATVisuals
+ms.keywords: IProvideWinSATVisuals, IProvideWinSATVisuals interface [WinSAT], IProvideWinSATVisuals interface [WinSAT],described, winsat.iprovidewinsatvisuals, winsatcominterfacei/IProvideWinSATVisuals
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

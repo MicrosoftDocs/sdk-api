@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetObject
-title: IMFTopologyNode::GetObject method
+title: IMFTopologyNode::GetObject
 author: windows-driver-content
 description: Gets the object associated with this node.
 old-location: mf\imftopologynode_getobject.htm
 old-project: medfound
 ms.assetid: 039d8009-5e5a-4503-9908-7317bc2bf412
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 039d8009-5e5a-4503-9908-7317bc2bf412, GetObject method [Media Foundation], GetObject method [Media Foundation], IMFTopologyNode interface, GetObject,IMFTopologyNode.GetObject, IMFTopologyNode, IMFTopologyNode interface [Media Foundation], GetObject method, IMFTopologyNode::GetObject, mf.imftopologynode_getobject, mfidl/IMFTopologyNode::GetObject
+ms.date: 5/3/2018
+ms.keywords: 039d8009-5e5a-4503-9908-7317bc2bf412, GetObject, GetObject method [Media Foundation], GetObject method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetObject method, IMFTopologyNode.GetObject, IMFTopologyNode::GetObject, mf.imftopologynode_getobject, mfidl/IMFTopologyNode::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTopologyNode::GetObject method
+# IMFTopologyNode::GetObject
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFAudioStreamVolume.GetAllVolumes
-title: IMFAudioStreamVolume::GetAllVolumes method
+title: IMFAudioStreamVolume::GetAllVolumes
 author: windows-driver-content
 description: Retrieves the volume levels for all of the channels in the audio stream.
 old-location: mf\imfaudiostreamvolume_getallvolumes.htm
 old-project: medfound
 ms.assetid: cbcc0b5b-a60d-49ca-8b1c-7104e039a7d2
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetAllVolumes method [Media Foundation], GetAllVolumes method [Media Foundation], IMFAudioStreamVolume interface, GetAllVolumes,IMFAudioStreamVolume.GetAllVolumes, IMFAudioStreamVolume, IMFAudioStreamVolume interface [Media Foundation], GetAllVolumes method, IMFAudioStreamVolume::GetAllVolumes, cbcc0b5b-a60d-49ca-8b1c-7104e039a7d2, mf.imfaudiostreamvolume_getallvolumes, mfidl/IMFAudioStreamVolume::GetAllVolumes
+ms.date: 5/3/2018
+ms.keywords: GetAllVolumes, GetAllVolumes method [Media Foundation], GetAllVolumes method [Media Foundation],IMFAudioStreamVolume interface, IMFAudioStreamVolume interface [Media Foundation],GetAllVolumes method, IMFAudioStreamVolume.GetAllVolumes, IMFAudioStreamVolume::GetAllVolumes, cbcc0b5b-a60d-49ca-8b1c-7104e039a7d2, mf.imfaudiostreamvolume_getallvolumes, mfidl/IMFAudioStreamVolume::GetAllVolumes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAudioStreamVolume::GetAllVolumes method
+# IMFAudioStreamVolume::GetAllVolumes
 
 
 ## -description

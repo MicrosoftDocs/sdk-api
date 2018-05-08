@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IInitializeSpy.PostInitialize
-title: IInitializeSpy::PostInitialize method
+title: IInitializeSpy::PostInitialize
 author: windows-driver-content
 description: Performs initialization steps required after calling the CoInitializeEx function.
 old-location: com\iinitializespy_postinitialize.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: bdef4089-93e6-4845-8dcc-1150d7a0d033
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IInitializeSpy, IInitializeSpy interface [COM], PostInitialize method, IInitializeSpy::PostInitialize, PostInitialize method [COM], PostInitialize method [COM], IInitializeSpy interface, PostInitialize,IInitializeSpy.PostInitialize, _com_iinitializespy_postinitialize, com.iinitializespy_postinitialize, objidl/IInitializeSpy::PostInitialize
+ms.keywords: IInitializeSpy interface [COM],PostInitialize method, IInitializeSpy.PostInitialize, IInitializeSpy::PostInitialize, PostInitialize, PostInitialize method [COM], PostInitialize method [COM],IInitializeSpy interface, _com_iinitializespy_postinitialize, com.iinitializespy_postinitialize, objidl/IInitializeSpy::PostInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IInitializeSpy::PostInitialize method
+# IInitializeSpy::PostInitialize
 
 
 ## -description

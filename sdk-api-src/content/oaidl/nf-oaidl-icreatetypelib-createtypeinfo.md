@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.CreateTypeInfo
-title: ICreateTypeLib::CreateTypeInfo method
+title: ICreateTypeLib::CreateTypeInfo
 author: windows-driver-content
 description: Creates a new type description instance within the type library.
 old-location: automat\icreatetypelib_createtypeinfo.htm
 old-project: automat
 ms.assetid: 5e9678af-661b-4033-bd3f-607c064f4245
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: CreateTypeInfo method [Automation], CreateTypeInfo method [Automation], ICreateTypeLib interface, CreateTypeInfo,ICreateTypeLib.CreateTypeInfo, ICreateTypeLib, ICreateTypeLib interface [Automation], CreateTypeInfo method, ICreateTypeLib::CreateTypeInfo, _oa96_ICreateTypeLib_CreateTypeInfo, automat.icreatetypelib_createtypeinfo, oaidl/ICreateTypeLib::CreateTypeInfo
+ms.date: 5/4/2018
+ms.keywords: CreateTypeInfo, CreateTypeInfo method [Automation], CreateTypeInfo method [Automation],ICreateTypeLib interface, ICreateTypeLib interface [Automation],CreateTypeInfo method, ICreateTypeLib.CreateTypeInfo, ICreateTypeLib::CreateTypeInfo, _oa96_ICreateTypeLib_CreateTypeInfo, automat.icreatetypelib_createtypeinfo, oaidl/ICreateTypeLib::CreateTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeLib::CreateTypeInfo method
+# ICreateTypeLib::CreateTypeInfo
 
 
 ## -description

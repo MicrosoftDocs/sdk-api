@@ -85,6 +85,71 @@ A value from the
 <a href="https://msdn.microsoft.com/6519c79d-9cee-4565-a71e-0b81a27c1185">TRUSTEE_TYPE</a> enumeration type that indicates whether the trustee is a user account, a group account, or an unknown account type.
 
 
+### -field ptstrName.case
+
+ 
+
+
+### -field ptstrName.case.TRUSTEE_IS_NAME
+
+ 
+
+
+### -field pSid
+
+ 
+
+
+### -field pSid.case
+
+ 
+
+
+### -field pSid.case.TRUSTEE_IS_SID
+
+ 
+
+
+### -field pObjectsAndSid
+
+ 
+
+
+### -field pObjectsAndSid.case
+
+ 
+
+
+### -field pObjectsAndSid.case.TRUSTEE_IS_OBJECTS_AND_SID
+
+ 
+
+
+### -field pObjectsAndName
+
+ 
+
+
+### -field pObjectsAndName.case
+
+ 
+
+
+### -field pObjectsAndName.case.TRUSTEE_IS_OBJECTS_AND_NAME
+
+ 
+
+
+### -field switch_is
+
+ 
+
+
+### -field switch_is.TrusteeForm
+
+ 
+
+
 ### -field ptstrName
 
  A pointer to a buffer that identifies the trustee and, optionally, contains information about object-specific ACEs. The type of data depends on the value of the <b>TrusteeForm</b> member. 

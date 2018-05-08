@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.InformUIClosed
-title: IBDA_ConditionalAccess::InformUIClosed method
+title: IBDA_ConditionalAccess::InformUIClosed
 author: windows-driver-content
 description: The InformUIClosed method informs the device that the user-interface dialog is closed.
 old-location: mstv\ibda_conditionalaccess_informuiclosed.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8f9dcd29-ccd9-4154-bf11-932a3635c156
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_ConditionalAccess, IBDA_ConditionalAccess interface [Microsoft TV Technologies], InformUIClosed method, IBDA_ConditionalAccess::InformUIClosed, IBDA_ConditionalAccessInformUIClosed, InformUIClosed method [Microsoft TV Technologies], InformUIClosed method [Microsoft TV Technologies], IBDA_ConditionalAccess interface, InformUIClosed,IBDA_ConditionalAccess.InformUIClosed, bdaiface/IBDA_ConditionalAccess::InformUIClosed, mstv.ibda_conditionalaccess_informuiclosed
+ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],InformUIClosed method, IBDA_ConditionalAccess.InformUIClosed, IBDA_ConditionalAccess::InformUIClosed, IBDA_ConditionalAccessInformUIClosed, InformUIClosed, InformUIClosed method [Microsoft TV Technologies], InformUIClosed method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::InformUIClosed, mstv.ibda_conditionalaccess_informuiclosed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_ConditionalAccess::InformUIClosed method
+# IBDA_ConditionalAccess::InformUIClosed
 
 
 ## -description

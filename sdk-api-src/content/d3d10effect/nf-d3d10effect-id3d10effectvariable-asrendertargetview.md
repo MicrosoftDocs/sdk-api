@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsRenderTargetView
-title: ID3D10EffectVariable::AsRenderTargetView method
+title: ID3D10EffectVariable::AsRenderTargetView
 author: windows-driver-content
 description: Get a render-target-view variable.
 old-location: direct3d10\id3d10effectvariable_asrendertargetview.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asrendertargetview.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 4e1e798b-0790-d8d7-5dc5-8b7d7e7de483, AsRenderTargetView method [Direct3D 10], AsRenderTargetView method [Direct3D 10], ID3D10EffectVariable interface, AsRenderTargetView,ID3D10EffectVariable.AsRenderTargetView, ID3D10EffectVariable, ID3D10EffectVariable interface [Direct3D 10], AsRenderTargetView method, ID3D10EffectVariable::AsRenderTargetView, d3d10effect/ID3D10EffectVariable::AsRenderTargetView, direct3d10.id3d10effectvariable_asrendertargetview
+ms.keywords: 4e1e798b-0790-d8d7-5dc5-8b7d7e7de483, AsRenderTargetView, AsRenderTargetView method [Direct3D 10], AsRenderTargetView method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsRenderTargetView method, ID3D10EffectVariable.AsRenderTargetView, ID3D10EffectVariable::AsRenderTargetView, d3d10effect/ID3D10EffectVariable::AsRenderTargetView, direct3d10.id3d10effectvariable_asrendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectVariable::AsRenderTargetView method
+# ID3D10EffectVariable::AsRenderTargetView
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChainMedia.CheckPresentDurationSupport
-title: IDXGISwapChainMedia::CheckPresentDurationSupport method
+title: IDXGISwapChainMedia::CheckPresentDurationSupport
 author: windows-driver-content
 description: Queries the graphics driver for a supported frame present duration corresponding to a custom refresh rate.
 old-location: direct3ddxgi\idxgiswapchainmedia_checkpresentdurationsupport.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 3334E761-745E-4476-9AB4-4FC6DABC78E8
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: CheckPresentDurationSupport method [DXGI], CheckPresentDurationSupport method [DXGI], IDXGISwapChainMedia interface, CheckPresentDurationSupport,IDXGISwapChainMedia.CheckPresentDurationSupport, IDXGISwapChainMedia, IDXGISwapChainMedia interface [DXGI], CheckPresentDurationSupport method, IDXGISwapChainMedia::CheckPresentDurationSupport, direct3ddxgi.idxgiswapchainmedia_checkpresentdurationsupport, dxgi1_3/IDXGISwapChainMedia::CheckPresentDurationSupport
+ms.keywords: CheckPresentDurationSupport, CheckPresentDurationSupport method [DXGI], CheckPresentDurationSupport method [DXGI],IDXGISwapChainMedia interface, IDXGISwapChainMedia interface [DXGI],CheckPresentDurationSupport method, IDXGISwapChainMedia.CheckPresentDurationSupport, IDXGISwapChainMedia::CheckPresentDurationSupport, direct3ddxgi.idxgiswapchainmedia_checkpresentdurationsupport, dxgi1_3/IDXGISwapChainMedia::CheckPresentDurationSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChainMedia::CheckPresentDurationSupport method
+# IDXGISwapChainMedia::CheckPresentDurationSupport
 
 
 ## -description

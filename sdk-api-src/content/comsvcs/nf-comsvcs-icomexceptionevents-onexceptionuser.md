@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComExceptionEvents.OnExceptionUser
-title: IComExceptionEvents::OnExceptionUser method
+title: IComExceptionEvents::OnExceptionUser
 author: windows-driver-content
 description: Generated for transactional components when an unhandled exception occurs in the user's code.
 old-location: cos\icomexceptionevents_onexceptionuser.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 961e3668-a35e-4e65-8477-fd7457ecc6ca
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComExceptionEvents, IComExceptionEvents interface [COM+], OnExceptionUser method, IComExceptionEvents::OnExceptionUser, OnExceptionUser method [COM+], OnExceptionUser method [COM+], IComExceptionEvents interface, OnExceptionUser,IComExceptionEvents.OnExceptionUser, _dtc_IComExceptionEvents_OnExceptionUser, comsvcs/IComExceptionEvents::OnExceptionUser, cos.icomexceptionevents_onexceptionuser
+ms.keywords: IComExceptionEvents interface [COM+],OnExceptionUser method, IComExceptionEvents.OnExceptionUser, IComExceptionEvents::OnExceptionUser, OnExceptionUser, OnExceptionUser method [COM+], OnExceptionUser method [COM+],IComExceptionEvents interface, _dtc_IComExceptionEvents_OnExceptionUser, comsvcs/IComExceptionEvents::OnExceptionUser, cos.icomexceptionevents_onexceptionuser
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComExceptionEvents::OnExceptionUser method
+# IComExceptionEvents::OnExceptionUser
 
 
 ## -description

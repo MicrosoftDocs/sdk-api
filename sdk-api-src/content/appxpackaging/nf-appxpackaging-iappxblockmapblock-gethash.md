@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapBlock.GetHash
-title: IAppxBlockMapBlock::GetHash method
+title: IAppxBlockMapBlock::GetHash
 author: windows-driver-content
 description: Retrieves the hash value of the block.
 old-location: appxpkg\iappxblockmapblock_gethash.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 9A8460C2-2BEE-4CEC-BAF4-779E6F58664D
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetHash method [App packaging and management], GetHash method [App packaging and management], IAppxBlockMapBlock interface, GetHash,IAppxBlockMapBlock.GetHash, IAppxBlockMapBlock, IAppxBlockMapBlock interface [App packaging and management], GetHash method, IAppxBlockMapBlock::GetHash, appxpackaging/IAppxBlockMapBlock::GetHash, appxpkg.iappxblockmapblock_gethash
+ms.keywords: GetHash, GetHash method [App packaging and management], GetHash method [App packaging and management],IAppxBlockMapBlock interface, IAppxBlockMapBlock interface [App packaging and management],GetHash method, IAppxBlockMapBlock.GetHash, IAppxBlockMapBlock::GetHash, appxpackaging/IAppxBlockMapBlock::GetHash, appxpkg.iappxblockmapblock_gethash
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBlockMapBlock::GetHash method
+# IAppxBlockMapBlock::GetHash
 
 
 ## -description

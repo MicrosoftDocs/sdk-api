@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulk.Cancel
-title: IPortableDevicePropertiesBulk::Cancel method
+title: IPortableDevicePropertiesBulk::Cancel
 author: windows-driver-content
 description: The Cancel method cancels a pending properties request.
 old-location: wpdsdk\iportabledevicepropertiesbulk_cancel.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 18a3458d-df93-4bdf-b5f2-f0197c35a1dd
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK], IPortableDevicePropertiesBulk interface, Cancel,IPortableDevicePropertiesBulk.Cancel, IPortableDevicePropertiesBulk, IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK], Cancel method, IPortableDevicePropertiesBulk::Cancel, IPortableDevicePropertiesBulkCancel, portabledeviceapi/IPortableDevicePropertiesBulk::Cancel, wpdsdk.iportabledevicepropertiesbulk_cancel
+ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],Cancel method, IPortableDevicePropertiesBulk.Cancel, IPortableDevicePropertiesBulk::Cancel, IPortableDevicePropertiesBulkCancel, portabledeviceapi/IPortableDevicePropertiesBulk::Cancel, wpdsdk.iportabledevicepropertiesbulk_cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDevicePropertiesBulk::Cancel method
+# IPortableDevicePropertiesBulk::Cancel
 
 
 ## -description

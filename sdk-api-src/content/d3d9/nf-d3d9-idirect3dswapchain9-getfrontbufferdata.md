@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSwapChain9.GetFrontBufferData
-title: IDirect3DSwapChain9::GetFrontBufferData method
+title: IDirect3DSwapChain9::GetFrontBufferData
 author: windows-driver-content
 description: Generates a copy of the swapchain's front buffer and places that copy in a system memory buffer provided by the application.
 old-location: direct3d9\idirect3dswapchain9__getfrontbufferdata.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__getfrontbufferdata.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 8f442969-657a-a5ab-1aa3-ff227fe2f705, GetFrontBufferData method [Direct3D 9], GetFrontBufferData method [Direct3D 9], IDirect3DSwapChain9 interface, GetFrontBufferData,IDirect3DSwapChain9.GetFrontBufferData, IDirect3DSwapChain9, IDirect3DSwapChain9 interface [Direct3D 9], GetFrontBufferData method, IDirect3DSwapChain9::GetFrontBufferData, d3d9helper/IDirect3DSwapChain9::GetFrontBufferData, direct3d9.idirect3dswapchain9__getfrontbufferdata
+ms.keywords: 8f442969-657a-a5ab-1aa3-ff227fe2f705, GetFrontBufferData, GetFrontBufferData method [Direct3D 9], GetFrontBufferData method [Direct3D 9],IDirect3DSwapChain9 interface, IDirect3DSwapChain9 interface [Direct3D 9],GetFrontBufferData method, IDirect3DSwapChain9.GetFrontBufferData, IDirect3DSwapChain9::GetFrontBufferData, d3d9helper/IDirect3DSwapChain9::GetFrontBufferData, direct3d9.idirect3dswapchain9__getfrontbufferdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DSwapChain9::GetFrontBufferData method
+# IDirect3DSwapChain9::GetFrontBufferData
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.ContainsKnowledgeForChangeUnit
-title: ISyncKnowledge2::ContainsKnowledgeForChangeUnit method
+title: ISyncKnowledge2::ContainsKnowledgeForChangeUnit
 author: windows-driver-content
 description: Indicates whether the specified knowledge of the specified change unit is known by this knowledge.
 old-location: winsync\isyncknowledge2_containsknowledgeforchangeunit.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: ecaefb24-eca0-408c-a98d-f7e6bbfefade
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ContainsKnowledgeForChangeUnit method [Windows Sync], ContainsKnowledgeForChangeUnit method [Windows Sync], ISyncKnowledge2 interface, ContainsKnowledgeForChangeUnit,ISyncKnowledge2.ContainsKnowledgeForChangeUnit, ISyncKnowledge2, ISyncKnowledge2 interface [Windows Sync], ContainsKnowledgeForChangeUnit method, ISyncKnowledge2::ContainsKnowledgeForChangeUnit, winsync.isyncknowledge2_containsknowledgeforchangeunit, winsync/ISyncKnowledge2::ContainsKnowledgeForChangeUnit
+ms.keywords: ContainsKnowledgeForChangeUnit, ContainsKnowledgeForChangeUnit method [Windows Sync], ContainsKnowledgeForChangeUnit method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],ContainsKnowledgeForChangeUnit method, ISyncKnowledge2.ContainsKnowledgeForChangeUnit, ISyncKnowledge2::ContainsKnowledgeForChangeUnit, winsync.isyncknowledge2_containsknowledgeforchangeunit, winsync/ISyncKnowledge2::ContainsKnowledgeForChangeUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge2::ContainsKnowledgeForChangeUnit method
+# ISyncKnowledge2::ContainsKnowledgeForChangeUnit
 
 
 ## -description

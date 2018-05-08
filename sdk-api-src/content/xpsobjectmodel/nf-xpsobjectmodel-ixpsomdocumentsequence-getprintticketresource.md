@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentSequence.GetPrintTicketResource
-title: IXpsOMDocumentSequence::GetPrintTicketResource method
+title: IXpsOMDocumentSequence::GetPrintTicketResource
 author: windows-driver-content
 description: Gets the IXpsOMPrintTicketResource interface to the job-level print ticket that is assigned to the document sequence.
 old-location: xps\ixpsomdocumentsequence_getprintticketresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0d53d537-8db1-4e39-98e6-8987dbf5fc27
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetPrintTicketResource method [XPS Documents and Packaging], GetPrintTicketResource method [XPS Documents and Packaging], IXpsOMDocumentSequence interface, GetPrintTicketResource,IXpsOMDocumentSequence.GetPrintTicketResource, IXpsOMDocumentSequence, IXpsOMDocumentSequence interface [XPS Documents and Packaging], GetPrintTicketResource method, IXpsOMDocumentSequence::GetPrintTicketResource, xps.ixpsomdocumentsequence_getprintticketresource, xpsobjectmodel/IXpsOMDocumentSequence::GetPrintTicketResource
+ms.keywords: GetPrintTicketResource, GetPrintTicketResource method [XPS Documents and Packaging], GetPrintTicketResource method [XPS Documents and Packaging],IXpsOMDocumentSequence interface, IXpsOMDocumentSequence interface [XPS Documents and Packaging],GetPrintTicketResource method, IXpsOMDocumentSequence.GetPrintTicketResource, IXpsOMDocumentSequence::GetPrintTicketResource, xps.ixpsomdocumentsequence_getprintticketresource, xpsobjectmodel/IXpsOMDocumentSequence::GetPrintTicketResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDocumentSequence::GetPrintTicketResource method
+# IXpsOMDocumentSequence::GetPrintTicketResource
 
 
 ## -description

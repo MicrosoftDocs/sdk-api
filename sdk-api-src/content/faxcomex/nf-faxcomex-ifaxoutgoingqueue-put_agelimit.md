@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.put_AgeLimit
-title: IFaxOutgoingQueue::put_AgeLimit method
+title: IFaxOutgoingQueue::put_AgeLimit
 author: windows-driver-content
 description: The AgeLimit property is a value that indicates the number of days that the fax service retains an unsent job in the fax job queue.
 old-location: fax\_mfax_faxoutgoingqueue_agelimit_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7qyc.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service], FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service], AgeLimit property, IFaxOutgoingQueue, IFaxOutgoingQueue::put_AgeLimit, _mfax_faxoutgoingqueue.agelimit, fax._mfax_faxoutgoingqueue_agelimit, fax._mfax_faxoutgoingqueue_agelimit_vb, put_AgeLimit,IFaxOutgoingQueue.put_AgeLimit
+ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service],FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service],AgeLimit property, FaxOutgoingQueue.AgeLimit, IFaxOutgoingQueue.put_AgeLimit, IFaxOutgoingQueue::put_AgeLimit, _mfax_faxoutgoingqueue.agelimit, fax._mfax_faxoutgoingqueue_agelimit, fax._mfax_faxoutgoingqueue_agelimit_vb, put_AgeLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutgoingQueue::put_AgeLimit method
+# IFaxOutgoingQueue::put_AgeLimit
 
 
 ## -description

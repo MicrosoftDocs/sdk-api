@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: c68b924b-422d-4a01-8dac-674835833798
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: D3dDestroyDDLocal, D3dDestroyDDLocal callback function [Display Devices], PDD_DESTROYDDLOCAL, d3dfncs_3480b8ff-c19d-4495-ab5e-d5ef4e326967.xml, ddrawint/D3dDestroyDDLocal, display.d3ddestroyddlocal
+ms.keywords: D3dDestroyDDLocal, D3dDestroyDDLocal callback function [Display Devices], PDD_DESTROYDDLOCAL, PDD_DESTROYDDLOCAL callback, d3dfncs_3480b8ff-c19d-4495-ab5e-d5ef4e326967.xml, ddrawint/D3dDestroyDDLocal, display.d3ddestroyddlocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PDD_DESTROYDDLOCAL callback
+# PDD_DESTROYDDLOCAL callback function
 
 
 ## -description

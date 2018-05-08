@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.RemoveContent
-title: IDirectManipulationViewport::RemoveContent method
+title: IDirectManipulationViewport::RemoveContent
 author: windows-driver-content
 description: Removes secondary content from a viewport.
 old-location: directmanipulation\idirectmanipulationviewport_removecontent.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 5f7b709c-77ac-46fe-8fb5-dc4943824ab0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], RemoveContent method, IDirectManipulationViewport::RemoveContent, RemoveContent method [Direct Manipulation], RemoveContent method [Direct Manipulation], IDirectManipulationViewport interface, RemoveContent,IDirectManipulationViewport.RemoveContent, directmanipulation.idirectmanipulationviewport_removecontent, directmanipulation/IDirectManipulationViewport::RemoveContent
+ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveContent method, IDirectManipulationViewport.RemoveContent, IDirectManipulationViewport::RemoveContent, RemoveContent, RemoveContent method [Direct Manipulation], RemoveContent method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_removecontent, directmanipulation/IDirectManipulationViewport::RemoveContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewport::RemoveContent method
+# IDirectManipulationViewport::RemoveContent
 
 
 ## -description

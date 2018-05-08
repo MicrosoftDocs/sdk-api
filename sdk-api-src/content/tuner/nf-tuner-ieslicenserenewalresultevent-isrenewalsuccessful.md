@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.IsRenewalSuccessful
-title: IESLicenseRenewalResultEvent::IsRenewalSuccessful method
+title: IESLicenseRenewalResultEvent::IsRenewalSuccessful
 author: windows-driver-content
 description: Gets a flag from a LicenseRenewalResult event that indicates whether the renewal was successful. In the event of failure, a client can call the GetRenewalResultCode or GetRenewalHResult method to get information about the reason for the failure.
 old-location: mstv\ieslicenserenewalresultevent_isrenewalsuccessful.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0c57e4e4-ee93-4e86-b1f8-eed5dd5aa931
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], IsRenewalSuccessful method, IESLicenseRenewalResultEvent::IsRenewalSuccessful, IsRenewalSuccessful method [DirectShow], IsRenewalSuccessful method [DirectShow], IESLicenseRenewalResultEvent interface, IsRenewalSuccessful,IESLicenseRenewalResultEvent.IsRenewalSuccessful, mstv.ieslicenserenewalresultevent_isrenewalsuccessful, tuner/IESLicenseRenewalResultEvent::IsRenewalSuccessful
+ms.keywords: IESLicenseRenewalResultEvent interface [DirectShow],IsRenewalSuccessful method, IESLicenseRenewalResultEvent.IsRenewalSuccessful, IESLicenseRenewalResultEvent::IsRenewalSuccessful, IsRenewalSuccessful, IsRenewalSuccessful method [DirectShow], IsRenewalSuccessful method [DirectShow],IESLicenseRenewalResultEvent interface, mstv.ieslicenserenewalresultevent_isrenewalsuccessful, tuner/IESLicenseRenewalResultEvent::IsRenewalSuccessful
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESLicenseRenewalResultEvent::IsRenewalSuccessful method
+# IESLicenseRenewalResultEvent::IsRenewalSuccessful
 
 
 ## -description

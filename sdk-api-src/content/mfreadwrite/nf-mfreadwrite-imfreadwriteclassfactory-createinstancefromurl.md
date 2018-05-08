@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFReadWriteClassFactory.CreateInstanceFromURL
-title: IMFReadWriteClassFactory::CreateInstanceFromURL method
+title: IMFReadWriteClassFactory::CreateInstanceFromURL
 author: windows-driver-content
 description: Creates an instance of the sink writer or source reader, given a URL.
 old-location: mf\imfreadwriteclassfactory_createinstancefromurl.htm
 old-project: medfound
 ms.assetid: 2769faa2-e381-4908-95f8-122ae4cd7ec5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CLSID_MFSinkWriter, CLSID_MFSourceReader, CreateInstanceFromURL method [Media Foundation], CreateInstanceFromURL method [Media Foundation], IMFReadWriteClassFactory interface, CreateInstanceFromURL,IMFReadWriteClassFactory.CreateInstanceFromURL, IMFReadWriteClassFactory, IMFReadWriteClassFactory interface [Media Foundation], CreateInstanceFromURL method, IMFReadWriteClassFactory::CreateInstanceFromURL, mf.imfreadwriteclassfactory_createinstancefromurl, mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromURL
+ms.date: 5/3/2018
+ms.keywords: CLSID_MFSinkWriter, CLSID_MFSourceReader, CreateInstanceFromURL, CreateInstanceFromURL method [Media Foundation], CreateInstanceFromURL method [Media Foundation],IMFReadWriteClassFactory interface, IMFReadWriteClassFactory interface [Media Foundation],CreateInstanceFromURL method, IMFReadWriteClassFactory.CreateInstanceFromURL, IMFReadWriteClassFactory::CreateInstanceFromURL, mf.imfreadwriteclassfactory_createinstancefromurl, mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFReadWriteClassFactory::CreateInstanceFromURL method
+# IMFReadWriteClassFactory::CreateInstanceFromURL
 
 
 ## -description

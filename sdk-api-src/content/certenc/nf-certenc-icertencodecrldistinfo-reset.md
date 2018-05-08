@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.Reset
-title: ICertEncodeCRLDistInfo::Reset method
+title: ICertEncodeCRLDistInfo::Reset
 author: windows-driver-content
 description: Resets a certificate revocation list (CRL) distribution information array to a specified number of distribution point structures.
 old-location: security\icertencodecrldistinfo_reset.htm
 old-project: SecCrypto
 ms.assetid: 899de888-918f-4202-a324-0e603eba2324
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeCRLDistInfo object [Security], Reset method, ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], Reset method, ICertEncodeCRLDistInfo::Reset, Reset method [Security], Reset method [Security], CCertEncodeCRLDistInfo object, Reset method [Security], ICertEncodeCRLDistInfo interface, Reset,ICertEncodeCRLDistInfo.Reset, _certsrv_icertencodecrldistinfo_reset, certenc/ICertEncodeCRLDistInfo::Reset, security.icertencodecrldistinfo_reset
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeCRLDistInfo object [Security],Reset method, ICertEncodeCRLDistInfo interface [Security],Reset method, ICertEncodeCRLDistInfo.Reset, ICertEncodeCRLDistInfo::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeCRLDistInfo object, Reset method [Security],ICertEncodeCRLDistInfo interface, _certsrv_icertencodecrldistinfo_reset, certenc/ICertEncodeCRLDistInfo::Reset, security.icertencodecrldistinfo_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeCRLDistInfo::Reset method
+# ICertEncodeCRLDistInfo::Reset
 
 
 ## -description

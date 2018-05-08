@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2MediaTypeProfile.DeleteStream
-title: ISBE2MediaTypeProfile::DeleteStream method
+title: ISBE2MediaTypeProfile::DeleteStream
 author: windows-driver-content
 description: Removes a stream from a media type profile.
 old-location: mstv\isbe2mediatypeprofile_deletestream.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 83e8b802-d28f-4130-addf-772682ac327f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: DeleteStream method [Microsoft TV Technologies], DeleteStream method [Microsoft TV Technologies], ISBE2MediaTypeProfile interface, DeleteStream,ISBE2MediaTypeProfile.DeleteStream, ISBE2MediaTypeProfile, ISBE2MediaTypeProfile interface [Microsoft TV Technologies], DeleteStream method, ISBE2MediaTypeProfile::DeleteStream, mstv.isbe2mediatypeprofile_deletestream, sbe/ISBE2MediaTypeProfile::DeleteStream
+ms.keywords: DeleteStream, DeleteStream method [Microsoft TV Technologies], DeleteStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],DeleteStream method, ISBE2MediaTypeProfile.DeleteStream, ISBE2MediaTypeProfile::DeleteStream, mstv.isbe2mediatypeprofile_deletestream, sbe/ISBE2MediaTypeProfile::DeleteStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISBE2MediaTypeProfile::DeleteStream method
+# ISBE2MediaTypeProfile::DeleteStream
 
 
 ## -description

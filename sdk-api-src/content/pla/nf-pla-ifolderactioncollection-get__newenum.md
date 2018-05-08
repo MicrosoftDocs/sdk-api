@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderActionCollection.get__NewEnum
-title: IFolderActionCollection::get__NewEnum method
+title: IFolderActionCollection::get__NewEnum
 author: windows-driver-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\ifolderactioncollection__newenum.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 92b13b4f-31bd-42c7-9aed-02cef9ca38f3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IFolderActionCollection, IFolderActionCollection interface [PLA], _NewEnum property, IFolderActionCollection._NewEnum, IFolderActionCollection::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA], IFolderActionCollection interface, base.ifolderactioncollection__newenum, get__NewEnum,IFolderActionCollection.get__NewEnum, pla.ifolderactioncollection__newenum, pla/IFolderActionCollection::_NewEnum, pla/IFolderActionCollection::get__NewEnum
+ms.keywords: IFolderActionCollection interface [PLA],_NewEnum property, IFolderActionCollection._NewEnum, IFolderActionCollection.get__NewEnum, IFolderActionCollection::_NewEnum, IFolderActionCollection::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA],IFolderActionCollection interface, base.ifolderactioncollection__newenum, get__NewEnum, pla.ifolderactioncollection__newenum, pla/IFolderActionCollection::_NewEnum, pla/IFolderActionCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFolderActionCollection::get__NewEnum method
+# IFolderActionCollection::get__NewEnum
 
 
 ## -description

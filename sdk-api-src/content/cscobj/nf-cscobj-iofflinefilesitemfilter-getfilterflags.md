@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesItemFilter.GetFilterFlags
-title: IOfflineFilesItemFilter::GetFilterFlags method
+title: IOfflineFilesItemFilter::GetFilterFlags
 author: windows-driver-content
 description: Provides flags to control flag-based filtering of items.
 old-location: of\iofflinefilesitemfilter_getfilterflags.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 75466fc7-d14c-4ce7-82e9-9622287a50d1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetFilterFlags method [Offline Files], GetFilterFlags method [Offline Files], IOfflineFilesItemFilter interface, GetFilterFlags,IOfflineFilesItemFilter.GetFilterFlags, IOfflineFilesItemFilter, IOfflineFilesItemFilter interface [Offline Files], GetFilterFlags method, IOfflineFilesItemFilter::GetFilterFlags, cscobj/IOfflineFilesItemFilter::GetFilterFlags, of.iofflinefilesitemfilter_getfilterflags
+ms.keywords: GetFilterFlags, GetFilterFlags method [Offline Files], GetFilterFlags method [Offline Files],IOfflineFilesItemFilter interface, IOfflineFilesItemFilter interface [Offline Files],GetFilterFlags method, IOfflineFilesItemFilter.GetFilterFlags, IOfflineFilesItemFilter::GetFilterFlags, cscobj/IOfflineFilesItemFilter::GetFilterFlags, of.iofflinefilesitemfilter_getfilterflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesItemFilter::GetFilterFlags method
+# IOfflineFilesItemFilter::GetFilterFlags
 
 
 ## -description

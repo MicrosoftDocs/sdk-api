@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 6CFAE096-EE09-4DD0-ADA3-A700FD9FDCB9
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12Debug, ID3D12Debug interface, ID3D12Debug interface, described, d3d12sdklayers/ID3D12Debug, direct3d12.id3d12debug
+ms.keywords: ID3D12Debug, ID3D12Debug interface, ID3D12Debug interface,described, d3d12sdklayers/ID3D12Debug, direct3d12.id3d12debug
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

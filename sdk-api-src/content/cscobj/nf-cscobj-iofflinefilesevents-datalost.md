@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.DataLost
-title: IOfflineFilesEvents::DataLost method
+title: IOfflineFilesEvents::DataLost
 author: windows-driver-content
 description: Reports that one or more events destined for this event sink have been lost and will not be delivered.
 old-location: of\iofflinefilesevents_datalost.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: da0414dd-2acb-48d9-ac84-66bb1f7ccbef
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DataLost method [Offline Files], DataLost method [Offline Files], IOfflineFilesEvents interface, DataLost,IOfflineFilesEvents.DataLost, IOfflineFilesEvents, IOfflineFilesEvents interface [Offline Files], DataLost method, IOfflineFilesEvents::DataLost, cscobj/IOfflineFilesEvents::DataLost, of.iofflinefilesevents_datalost
+ms.keywords: DataLost, DataLost method [Offline Files], DataLost method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],DataLost method, IOfflineFilesEvents.DataLost, IOfflineFilesEvents::DataLost, cscobj/IOfflineFilesEvents::DataLost, of.iofflinefilesevents_datalost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesEvents::DataLost method
+# IOfflineFilesEvents::DataLost
 
 
 ## -description

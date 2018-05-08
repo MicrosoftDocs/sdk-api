@@ -7,7 +7,7 @@ old-location: dhcp\dhcpserversetconfig.htm
 old-project: DHCP
 ms.assetid: 06f0c6b2-a916-4b1b-9956-22dcaafcad1b
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: DhcpServerSetConfig, DhcpServerSetConfig function [DHCP], Set_APIProtocolSupport, Set_BackupInterval, Set_BackupPath, Set_DatabaseCleanupInterval, Set_DatabaseLoggingFlag, Set_DatabaseName, Set_DatabasePath, Set_RestoreFlag, Set_Set_DebugFlag, dhcp.dhcpserversetconfig, dhcpsapi/DhcpServerSetConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

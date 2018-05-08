@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.put_label
-title: IWMPCdromBurn::put_label method
+title: IWMPCdromBurn::put_label
 author: windows-driver-content
 description: The put_label method specifies the label string for the CD volume.
 old-location: wmp\iwmpcdromburn_put_label.htm
 old-project: WMP
 ms.assetid: 84407961-5d79-4845-a81a-283b3689e562
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], put_label method, IWMPCdromBurn::put_label, IWMPCdromBurnput_label, put_label method [Windows Media Player], put_label method [Windows Media Player], IWMPCdromBurn interface, put_label,IWMPCdromBurn.put_label, wmp.iwmpcdromburn_put_label, wmp/IWMPCdromBurn::put_label
+ms.date: 5/4/2018
+ms.keywords: IWMPCdromBurn interface [Windows Media Player],put_label method, IWMPCdromBurn.put_label, IWMPCdromBurn::put_label, IWMPCdromBurnput_label, put_label, put_label method [Windows Media Player], put_label method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_put_label, wmp/IWMPCdromBurn::put_label
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCdromBurn::put_label method
+# IWMPCdromBurn::put_label
 
 
 ## -description

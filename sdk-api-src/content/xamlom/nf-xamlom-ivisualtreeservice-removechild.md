@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.RemoveChild
-title: IVisualTreeService::RemoveChild method
+title: IVisualTreeService::RemoveChild
 author: windows-driver-content
 description: Removes the child element from the specified index.
 old-location: xaml_diagnostics\ivisualtreeservice_removechild.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 6D53C961-7E85-4275-8D65-454684606290
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: IVisualTreeService, IVisualTreeService interface, RemoveChild method, IVisualTreeService::RemoveChild, RemoveChild method, RemoveChild method, IVisualTreeService interface, RemoveChild,IVisualTreeService.RemoveChild, xaml_diagnostics.ivisualtreeservice_removechild, xamlom/IVisualTreeService::RemoveChild
+ms.keywords: IVisualTreeService interface,RemoveChild method, IVisualTreeService.RemoveChild, IVisualTreeService::RemoveChild, RemoveChild, RemoveChild method, RemoveChild method,IVisualTreeService interface, xaml_diagnostics.ivisualtreeservice_removechild, xamlom/IVisualTreeService::RemoveChild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IVisualTreeService::RemoveChild method
+# IVisualTreeService::RemoveChild
 
 
 ## -description

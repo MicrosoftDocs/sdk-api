@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfLanguageProfileNotifySink.OnLanguageChanged
-title: ITfLanguageProfileNotifySink::OnLanguageChanged method
+title: ITfLanguageProfileNotifySink::OnLanguageChanged
 author: windows-driver-content
 description: ITfLanguageProfileNotifySink::OnLanguageChanged method
 old-location: tsf\itflanguageprofilenotifysink_onlanguagechanged.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 505b3353-90cc-4b78-90af-b0151abc703f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLanguageProfileNotifySink, ITfLanguageProfileNotifySink interface [Text Services Framework], OnLanguageChanged method, ITfLanguageProfileNotifySink::OnLanguageChanged, OnLanguageChanged method [Text Services Framework], OnLanguageChanged method [Text Services Framework], ITfLanguageProfileNotifySink interface, OnLanguageChanged,ITfLanguageProfileNotifySink.OnLanguageChanged, _tsf_itflanguageprofilenotifysink_onlanguagechanged_ref, msctf/ITfLanguageProfileNotifySink::OnLanguageChanged, tsf.itflanguageprofilenotifysink_onlanguagechanged
+ms.keywords: ITfLanguageProfileNotifySink interface [Text Services Framework],OnLanguageChanged method, ITfLanguageProfileNotifySink.OnLanguageChanged, ITfLanguageProfileNotifySink::OnLanguageChanged, OnLanguageChanged, OnLanguageChanged method [Text Services Framework], OnLanguageChanged method [Text Services Framework],ITfLanguageProfileNotifySink interface, _tsf_itflanguageprofilenotifysink_onlanguagechanged_ref, msctf/ITfLanguageProfileNotifySink::OnLanguageChanged, tsf.itflanguageprofilenotifysink_onlanguagechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfLanguageProfileNotifySink::OnLanguageChanged method
+# ITfLanguageProfileNotifySink::OnLanguageChanged
 
 
 ## -description

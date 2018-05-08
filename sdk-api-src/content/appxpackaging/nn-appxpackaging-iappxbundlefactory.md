@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 33A320BD-7B68-4C42-A776-25CC744C6652
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxBundleFactory, IAppxBundleFactory interface [App packaging and management], IAppxBundleFactory interface [App packaging and management], described, appxpackaging/IAppxBundleFactory, appxpkg.iappxbundlefactory
+ms.keywords: IAppxBundleFactory, IAppxBundleFactory interface [App packaging and management], IAppxBundleFactory interface [App packaging and management],described, appxpackaging/IAppxBundleFactory, appxpkg.iappxbundlefactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

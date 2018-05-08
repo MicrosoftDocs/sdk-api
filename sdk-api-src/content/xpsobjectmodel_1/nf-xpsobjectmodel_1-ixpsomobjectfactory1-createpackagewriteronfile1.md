@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreatePackageWriterOnFile1
-title: IXpsOMObjectFactory1::CreatePackageWriterOnFile1 method
+title: IXpsOMObjectFactory1::CreatePackageWriterOnFile1
 author: windows-driver-content
 description: Opens a file for writing the contents of an XPS OM to an XPS package of a specified type. This method produces a package writer for either an MSXPS document or an OpenXPS document.
 old-location: xps\ixpsomobjectfactory1_createpackagewriteronfile1.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 6ad569a1-8b7a-473c-8bce-ad1fd843ec29
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreatePackageWriterOnFile1 method [XPS Documents and Packaging], CreatePackageWriterOnFile1 method [XPS Documents and Packaging], IXpsOMObjectFactory1 interface, CreatePackageWriterOnFile1,IXpsOMObjectFactory1.CreatePackageWriterOnFile1, FALSE, IXpsOMObjectFactory1, IXpsOMObjectFactory1 interface [XPS Documents and Packaging], CreatePackageWriterOnFile1 method, IXpsOMObjectFactory1::CreatePackageWriterOnFile1, TRUE, xps.ixpsomobjectfactory1_createpackagewriteronfile1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageWriterOnFile1
+ms.keywords: CreatePackageWriterOnFile1, CreatePackageWriterOnFile1 method [XPS Documents and Packaging], CreatePackageWriterOnFile1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, FALSE, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePackageWriterOnFile1 method, IXpsOMObjectFactory1.CreatePackageWriterOnFile1, IXpsOMObjectFactory1::CreatePackageWriterOnFile1, TRUE, xps.ixpsomobjectfactory1_createpackagewriteronfile1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageWriterOnFile1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory1::CreatePackageWriterOnFile1 method
+# IXpsOMObjectFactory1::CreatePackageWriterOnFile1
 
 
 ## -description

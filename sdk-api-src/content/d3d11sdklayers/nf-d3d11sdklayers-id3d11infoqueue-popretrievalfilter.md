@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.PopRetrievalFilter
-title: ID3D11InfoQueue::PopRetrievalFilter method
+title: ID3D11InfoQueue::PopRetrievalFilter
 author: windows-driver-content
 description: Pop a retrieval filter from the top of the retrieval-filter stack.
 old-location: direct3d11\id3d11infoqueue_popretrievalfilter.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 42a46071-8b2c-4e4f-9db1-2f14468346e1
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 6a0c889e-c044-ddd7-c47a-3b574db74cca, ID3D11InfoQueue, ID3D11InfoQueue interface [Direct3D 11], PopRetrievalFilter method, ID3D11InfoQueue::PopRetrievalFilter, PopRetrievalFilter method [Direct3D 11], PopRetrievalFilter method [Direct3D 11], ID3D11InfoQueue interface, PopRetrievalFilter,ID3D11InfoQueue.PopRetrievalFilter, d3d11sdklayers/ID3D11InfoQueue::PopRetrievalFilter, direct3d11.id3d11infoqueue_popretrievalfilter
+ms.keywords: 6a0c889e-c044-ddd7-c47a-3b574db74cca, ID3D11InfoQueue interface [Direct3D 11],PopRetrievalFilter method, ID3D11InfoQueue.PopRetrievalFilter, ID3D11InfoQueue::PopRetrievalFilter, PopRetrievalFilter, PopRetrievalFilter method [Direct3D 11], PopRetrievalFilter method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::PopRetrievalFilter, direct3d11.id3d11infoqueue_popretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11InfoQueue::PopRetrievalFilter method
+# ID3D11InfoQueue::PopRetrievalFilter
 
 
 ## -description

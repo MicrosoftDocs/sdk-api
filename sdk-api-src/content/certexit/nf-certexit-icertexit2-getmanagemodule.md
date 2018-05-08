@@ -1,14 +1,14 @@
 ---
 UID: NF:certexit.ICertExit2.GetManageModule
-title: ICertExit2::GetManageModule method
+title: ICertExit2::GetManageModule
 author: windows-driver-content
 description: Retrieves the ICertManageModule interface associated with the ICertExit2 interface by calling GetManageModule and passing in the address of a pointer to an ICertManageModule.
 old-location: security\icertexit2_getmanagemodule.htm
 old-project: SecCrypto
 ms.assetid: 7f0c1b63-fd09-43b9-9f88-fab154d94e94
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertExit object [Security], GetManageModule method, GetManageModule method [Security], GetManageModule method [Security], CCertExit object, GetManageModule method [Security], ICertExit2 interface, GetManageModule,ICertExit2.GetManageModule, ICertExit2, ICertExit2 interface [Security], GetManageModule method, ICertExit2::GetManageModule, certexit/ICertExit2::GetManageModule, security.icertexit2_getmanagemodule
+ms.date: 4/30/2018
+ms.keywords: CCertExit object [Security],GetManageModule method, GetManageModule, GetManageModule method [Security], GetManageModule method [Security],CCertExit object, GetManageModule method [Security],ICertExit2 interface, ICertExit2 interface [Security],GetManageModule method, ICertExit2.GetManageModule, ICertExit2::GetManageModule, certexit/ICertExit2::GetManageModule, security.icertexit2_getmanagemodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICertExit2::GetManageModule method
+# ICertExit2::GetManageModule
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_lostPackets
-title: IWMPNetwork::get_lostPackets method
+title: IWMPNetwork::get_lostPackets
 author: windows-driver-content
 description: The get_lostPackets method retrieves the number of packets lost.
 old-location: wmp\iwmpnetwork_get_lostpackets.htm
 old-project: WMP
 ms.assetid: 821b9bfc-931c-4e83-a899-4755bad3e7ae
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], get_lostPackets method, IWMPNetwork::get_lostPackets, IWMPNetworkget_lostPackets, get_lostPackets method [Windows Media Player], get_lostPackets method [Windows Media Player], IWMPNetwork interface, get_lostPackets,IWMPNetwork.get_lostPackets, wmp.iwmpnetwork_get_lostpackets, wmp/IWMPNetwork::get_lostPackets
+ms.date: 5/4/2018
+ms.keywords: IWMPNetwork interface [Windows Media Player],get_lostPackets method, IWMPNetwork.get_lostPackets, IWMPNetwork::get_lostPackets, IWMPNetworkget_lostPackets, get_lostPackets, get_lostPackets method [Windows Media Player], get_lostPackets method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_lostpackets, wmp/IWMPNetwork::get_lostPackets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPNetwork::get_lostPackets method
+# IWMPNetwork::get_lostPackets
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: automat\vardecfromstr.htm
 old-project: automat
 ms.assetid: 6e036c9c-3b5d-4b5c-9992-526380bb544d
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarDecFromStr, VarDecFromStr function [Automation], _oa96_VarDecFromStr, automat.vardecfromstr, oleauto/VarDecFromStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

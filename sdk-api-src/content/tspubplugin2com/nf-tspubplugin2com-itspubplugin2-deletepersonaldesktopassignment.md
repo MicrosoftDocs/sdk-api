@@ -1,6 +1,6 @@
 ---
 UID: NF:tspubplugin2com.ItsPubPlugin2.DeletePersonalDesktopAssignment
-title: ItsPubPlugin2::DeletePersonalDesktopAssignment method
+title: ItsPubPlugin2::DeletePersonalDesktopAssignment
 author: windows-driver-content
 description: Called to delete a mapping between the specified user and a virtual machine in a personal virtual desktop collection.
 old-location: termserv\itspubplugin2_deletepersonaldesktopassignment.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 962d7de7-a447-44f9-b3bd-a87d122a6328
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: DeletePersonalDesktopAssignment method [Remote Desktop Services], DeletePersonalDesktopAssignment method [Remote Desktop Services], ItsPubPlugin2 interface, DeletePersonalDesktopAssignment,ItsPubPlugin2.DeletePersonalDesktopAssignment, ItsPubPlugin2, ItsPubPlugin2 interface [Remote Desktop Services], DeletePersonalDesktopAssignment method, ItsPubPlugin2::DeletePersonalDesktopAssignment, termserv.itspubplugin2_deletepersonaldesktopassignment, tspubplugin2com/ItsPubPlugin2::DeletePersonalDesktopAssignment
+ms.keywords: DeletePersonalDesktopAssignment, DeletePersonalDesktopAssignment method [Remote Desktop Services], DeletePersonalDesktopAssignment method [Remote Desktop Services],ItsPubPlugin2 interface, ItsPubPlugin2 interface [Remote Desktop Services],DeletePersonalDesktopAssignment method, ItsPubPlugin2.DeletePersonalDesktopAssignment, ItsPubPlugin2::DeletePersonalDesktopAssignment, termserv.itspubplugin2_deletepersonaldesktopassignment, tspubplugin2com/ItsPubPlugin2::DeletePersonalDesktopAssignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ItsPubPlugin2::DeletePersonalDesktopAssignment method
+# ItsPubPlugin2::DeletePersonalDesktopAssignment
 
 
 ## -description

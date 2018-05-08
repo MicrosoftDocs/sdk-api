@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroup.get_DeviceIds
-title: IFaxOutboundRoutingGroup::get_DeviceIds method
+title: IFaxOutboundRoutingGroup::get_DeviceIds
 author: windows-driver-content
 description: The DeviceIds property retrieves an interface that represents the ordered collection of device IDs that participate in the outbound routing group.
 old-location: fax\_mfax_faxoutboundroutinggroup_deviceids_cpp.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4var_cpp.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DeviceIds property [Fax Service], DeviceIds property [Fax Service], IFaxOutboundRoutingGroup interface, IFaxOutboundRoutingGroup, IFaxOutboundRoutingGroup interface [Fax Service], DeviceIds property, IFaxOutboundRoutingGroup.DeviceIds, IFaxOutboundRoutingGroup::get_DeviceIds, _mfax_faxoutboundroutinggroup.deviceids_cpp, fax._mfax_faxoutboundroutinggroup_deviceids_cpp, faxcomex/IFaxOutboundRoutingGroup::DeviceIds, faxcomex/IFaxOutboundRoutingGroup::get_DeviceIds, get_DeviceIds,IFaxOutboundRoutingGroup.get_DeviceIds
+ms.keywords: DeviceIds property [Fax Service], DeviceIds property [Fax Service],IFaxOutboundRoutingGroup interface, IFaxOutboundRoutingGroup interface [Fax Service],DeviceIds property, IFaxOutboundRoutingGroup.DeviceIds, IFaxOutboundRoutingGroup.get_DeviceIds, IFaxOutboundRoutingGroup::DeviceIds, IFaxOutboundRoutingGroup::get_DeviceIds, _mfax_faxoutboundroutinggroup.deviceids_cpp, fax._mfax_faxoutboundroutinggroup_deviceids_cpp, faxcomex/IFaxOutboundRoutingGroup::DeviceIds, faxcomex/IFaxOutboundRoutingGroup::get_DeviceIds, get_DeviceIds
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutboundRoutingGroup::get_DeviceIds method
+# IFaxOutboundRoutingGroup::get_DeviceIds
 
 
 ## -description

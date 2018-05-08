@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFSample.GetTotalLength
-title: IMFSample::GetTotalLength method
+title: IMFSample::GetTotalLength
 author: windows-driver-content
 description: Retrieves the total length of the valid data in all of the buffers in the sample. The length is calculated as the sum of the values retrieved by the IMFMediaBuffer::GetCurrentLength method.
 old-location: mf\imfsample_gettotallength.htm
 old-project: medfound
 ms.assetid: e0dfc1d2-ec78-4d1c-992d-3a876b600ca6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTotalLength method [Media Foundation], GetTotalLength method [Media Foundation], IMFSample interface, GetTotalLength,IMFSample.GetTotalLength, IMFSample, IMFSample interface [Media Foundation], GetTotalLength method, IMFSample::GetTotalLength, e0dfc1d2-ec78-4d1c-992d-3a876b600ca6, mf.imfsample_gettotallength, mfobjects/IMFSample::GetTotalLength
+ms.date: 5/3/2018
+ms.keywords: GetTotalLength, GetTotalLength method [Media Foundation], GetTotalLength method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetTotalLength method, IMFSample.GetTotalLength, IMFSample::GetTotalLength, e0dfc1d2-ec78-4d1c-992d-3a876b600ca6, mf.imfsample_gettotallength, mfobjects/IMFSample::GetTotalLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSample::GetTotalLength method
+# IMFSample::GetTotalLength
 
 
 ## -description

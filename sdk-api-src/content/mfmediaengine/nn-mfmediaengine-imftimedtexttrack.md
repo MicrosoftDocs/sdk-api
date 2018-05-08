@@ -7,8 +7,8 @@ old-location: mf\imftimedtexttrack.htm
 old-project: medfound
 ms.assetid: 55232D19-F3D0-42C7-8B24-C2A7768B2C7E
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFTimedTextTrack, IMFTimedTextTrack interface [Media Foundation], IMFTimedTextTrack interface [Media Foundation], described, mf.imftimedtexttrack, mfmediaengine/IMFTimedTextTrack
+ms.date: 5/3/2018
+ms.keywords: IMFTimedTextTrack, IMFTimedTextTrack interface [Media Foundation], IMFTimedTextTrack interface [Media Foundation],described, mf.imftimedtexttrack, mfmediaengine/IMFTimedTextTrack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

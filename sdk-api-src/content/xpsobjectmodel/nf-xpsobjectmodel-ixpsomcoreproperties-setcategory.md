@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetCategory
-title: IXpsOMCoreProperties::SetCategory method
+title: IXpsOMCoreProperties::SetCategory
 author: windows-driver-content
 description: Sets the category property.
 old-location: xps\ixpsomcoreproperties_setcategory.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0c194731-0992-47c3-b069-fa9e1d16944b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], SetCategory method, IXpsOMCoreProperties::SetCategory, SetCategory method [XPS Documents and Packaging], SetCategory method [XPS Documents and Packaging], IXpsOMCoreProperties interface, SetCategory,IXpsOMCoreProperties.SetCategory, xps.ixpsomcoreproperties_setcategory, xpsobjectmodel/IXpsOMCoreProperties::SetCategory
+ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetCategory method, IXpsOMCoreProperties.SetCategory, IXpsOMCoreProperties::SetCategory, SetCategory, SetCategory method [XPS Documents and Packaging], SetCategory method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcategory, xpsobjectmodel/IXpsOMCoreProperties::SetCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::SetCategory method
+# IXpsOMCoreProperties::SetCategory
 
 
 ## -description

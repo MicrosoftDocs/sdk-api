@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.get_Count
-title: INetFwOpenPorts::get_Count method
+title: INetFwOpenPorts::get_Count
 author: windows-driver-content
 description: Retrieves a read-only element yielding the number of items in the collection.
 old-location: ics\inetfwopenports_count.htm
 old-project: ICS
 ms.assetid: 83d95b38-0c0d-4325-904e-7953ccef24e7
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF], INetFwOpenPorts interface, INetFwOpenPorts, INetFwOpenPorts interface [ICS/ICF], Count property, INetFwOpenPorts.Count, INetFwOpenPorts::get_Count, get_Count,INetFwOpenPorts.get_Count, ics.inetfwopenports_count, netfw/INetFwOpenPorts::Count, netfw/INetFwOpenPorts::get_Count
+ms.date: 5/1/2018
+ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwOpenPorts interface, INetFwOpenPorts interface [ICS/ICF],Count property, INetFwOpenPorts.Count, INetFwOpenPorts.get_Count, INetFwOpenPorts::Count, INetFwOpenPorts::get_Count, get_Count, ics.inetfwopenports_count, netfw/INetFwOpenPorts::Count, netfw/INetFwOpenPorts::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwOpenPorts::get_Count method
+# INetFwOpenPorts::get_Count
 
 
 ## -description

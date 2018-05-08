@@ -1,14 +1,14 @@
 ---
 UID: NF:medparam.IMediaParams.FlushEnvelope
-title: IMediaParams::FlushEnvelope method
+title: IMediaParams::FlushEnvelope
 author: windows-driver-content
 description: The FlushEnvelope method flushes envelope data for a specified parameter over the specified time range.
 old-location: dshow\imediaparams_flushenvelope.htm
 old-project: DirectShow
 ms.assetid: 574d6573-ea5d-4419-ad65-f5f7d711e720
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: FlushEnvelope method [DirectShow], FlushEnvelope method [DirectShow], IMediaParams interface, FlushEnvelope,IMediaParams.FlushEnvelope, IMediaParams, IMediaParams interface [DirectShow], FlushEnvelope method, IMediaParams::FlushEnvelope, IMediaParamsFlushEnvelope, dshow.imediaparams_flushenvelope, medparam/IMediaParams::FlushEnvelope
+ms.date: 4/30/2018
+ms.keywords: FlushEnvelope, FlushEnvelope method [DirectShow], FlushEnvelope method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],FlushEnvelope method, IMediaParams.FlushEnvelope, IMediaParams::FlushEnvelope, IMediaParamsFlushEnvelope, dshow.imediaparams_flushenvelope, medparam/IMediaParams::FlushEnvelope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMediaParams::FlushEnvelope method
+# IMediaParams::FlushEnvelope
 
 
 ## -description

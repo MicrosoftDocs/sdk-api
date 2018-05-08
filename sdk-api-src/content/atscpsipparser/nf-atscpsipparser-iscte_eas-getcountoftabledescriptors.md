@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetCountOfTableDescriptors
-title: ISCTE_EAS::GetCountOfTableDescriptors method
+title: ISCTE_EAS::GetCountOfTableDescriptors
 author: windows-driver-content
 description: The GetCountOfTableDescriptors method returns the number of descriptors in the EAS table.
 old-location: mstv\iscte_eas_getcountoftabledescriptors.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1d6cae55-233f-49e0-8ced-9dd21b0aa32b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies], ISCTE_EAS interface, GetCountOfTableDescriptors,ISCTE_EAS.GetCountOfTableDescriptors, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetCountOfTableDescriptors method, ISCTE_EAS::GetCountOfTableDescriptors, ISCTE_EASGetCountOfTableDescriptors, atscpsipparser/ISCTE_EAS::GetCountOfTableDescriptors, mstv.iscte_eas_getcountoftabledescriptors
+ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, ISCTE_EAS.GetCountOfTableDescriptors, ISCTE_EAS::GetCountOfTableDescriptors, ISCTE_EASGetCountOfTableDescriptors, atscpsipparser/ISCTE_EAS::GetCountOfTableDescriptors, mstv.iscte_eas_getcountoftabledescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetCountOfTableDescriptors method
+# ISCTE_EAS::GetCountOfTableDescriptors
 
 
 ## -description

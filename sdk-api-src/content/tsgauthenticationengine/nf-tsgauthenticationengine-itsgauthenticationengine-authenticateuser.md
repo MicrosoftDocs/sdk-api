@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticationEngine.AuthenticateUser
-title: ITSGAuthenticationEngine::AuthenticateUser method
+title: ITSGAuthenticationEngine::AuthenticateUser
 author: windows-driver-content
 description: Authenticates a user.
 old-location: termserv\itsgauthenticationengine_authenticateuser.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: a378c28f-ecd1-43db-b998-487176f656f5
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: AuthenticateUser method [Remote Desktop Services], AuthenticateUser method [Remote Desktop Services], ITSGAuthenticationEngine interface, AuthenticateUser,ITSGAuthenticationEngine.AuthenticateUser, ITSGAuthenticationEngine, ITSGAuthenticationEngine interface [Remote Desktop Services], AuthenticateUser method, ITSGAuthenticationEngine::AuthenticateUser, termserv.itsgauthenticationengine_authenticateuser, tsgauthenticationengine/ITSGAuthenticationEngine::AuthenticateUser
+ms.keywords: AuthenticateUser, AuthenticateUser method [Remote Desktop Services], AuthenticateUser method [Remote Desktop Services],ITSGAuthenticationEngine interface, ITSGAuthenticationEngine interface [Remote Desktop Services],AuthenticateUser method, ITSGAuthenticationEngine.AuthenticateUser, ITSGAuthenticationEngine::AuthenticateUser, termserv.itsgauthenticationengine_authenticateuser, tsgauthenticationengine/ITSGAuthenticationEngine::AuthenticateUser
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITSGAuthenticationEngine::AuthenticateUser method
+# ITSGAuthenticationEngine::AuthenticateUser
 
 
 ## -description

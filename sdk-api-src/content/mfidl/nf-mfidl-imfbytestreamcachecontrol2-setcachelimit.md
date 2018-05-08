@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFByteStreamCacheControl2.SetCacheLimit
-title: IMFByteStreamCacheControl2::SetCacheLimit method
+title: IMFByteStreamCacheControl2::SetCacheLimit
 author: windows-driver-content
 description: Limits the cache size.
 old-location: mf\imfbytestreamcachecontrol2_setcachelimit.htm
 old-project: medfound
 ms.assetid: 1DDC3D76-E28B-4B8C-B2CD-FE77E840D949
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFByteStreamCacheControl2, IMFByteStreamCacheControl2 interface [Media Foundation], SetCacheLimit method, IMFByteStreamCacheControl2::SetCacheLimit, SetCacheLimit method [Media Foundation], SetCacheLimit method [Media Foundation], IMFByteStreamCacheControl2 interface, SetCacheLimit,IMFByteStreamCacheControl2.SetCacheLimit, mf.imfbytestreamcachecontrol2_setcachelimit, mfidl/IMFByteStreamCacheControl2::SetCacheLimit
+ms.date: 5/3/2018
+ms.keywords: IMFByteStreamCacheControl2 interface [Media Foundation],SetCacheLimit method, IMFByteStreamCacheControl2.SetCacheLimit, IMFByteStreamCacheControl2::SetCacheLimit, SetCacheLimit, SetCacheLimit method [Media Foundation], SetCacheLimit method [Media Foundation],IMFByteStreamCacheControl2 interface, mf.imfbytestreamcachecontrol2_setcachelimit, mfidl/IMFByteStreamCacheControl2::SetCacheLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFByteStreamCacheControl2::SetCacheLimit method
+# IMFByteStreamCacheControl2::SetCacheLimit
 
 
 ## -description

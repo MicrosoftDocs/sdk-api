@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientTitle
-title: IFaxDoc::put_RecipientTitle method
+title: IFaxDoc::put_RecipientTitle
 author: windows-driver-content
 description: Sets or retrieves the RecipientTitle property of a FaxDoc object. The RecipientTitle property is a null-terminated string that contains the title of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipienttitle_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3bs5.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxDoc object [Fax Service], RecipientTitle property, IFaxDoc, IFaxDoc::put_RecipientTitle, RecipientTitle property [Fax Service], RecipientTitle property [Fax Service], FaxDoc object, _mfax_ifaxdoc_get_recipienttitle, fax._mfax_ifaxdoc_get_recipienttitle, fax._mfax_ifaxdoc_get_recipienttitle_vb, put_RecipientTitle,IFaxDoc.put_RecipientTitle
+ms.keywords: FaxDoc object [Fax Service],RecipientTitle property, FaxDoc.RecipientTitle, IFaxDoc.put_RecipientTitle, IFaxDoc::put_RecipientTitle, RecipientTitle property [Fax Service], RecipientTitle property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipienttitle, fax._mfax_ifaxdoc_get_recipienttitle, fax._mfax_ifaxdoc_get_recipienttitle_vb, put_RecipientTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDoc::put_RecipientTitle method
+# IFaxDoc::put_RecipientTitle
 
 
 ## -description

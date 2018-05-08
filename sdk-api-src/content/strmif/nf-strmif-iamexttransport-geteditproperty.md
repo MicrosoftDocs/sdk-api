@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetEditProperty
-title: IAMExtTransport::GetEditProperty method
+title: IAMExtTransport::GetEditProperty
 author: windows-driver-content
 description: The GetEditProperty method retrieves parameters and values associated with an edit event.
 old-location: dshow\iamexttransport_geteditproperty.htm
 old-project: DirectShow
 ms.assetid: c36b1fb1-f0a7-49df-8a6c-fb90ab268b23
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetEditProperty method [DirectShow], GetEditProperty method [DirectShow], IAMExtTransport interface, GetEditProperty,IAMExtTransport.GetEditProperty, IAMExtTransport, IAMExtTransport interface [DirectShow], GetEditProperty method, IAMExtTransport::GetEditProperty, IAMExtTransportGetEditProperty, dshow.iamexttransport_geteditproperty, strmif/IAMExtTransport::GetEditProperty
+ms.date: 4/30/2018
+ms.keywords: GetEditProperty, GetEditProperty method [DirectShow], GetEditProperty method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetEditProperty method, IAMExtTransport.GetEditProperty, IAMExtTransport::GetEditProperty, IAMExtTransportGetEditProperty, dshow.iamexttransport_geteditproperty, strmif/IAMExtTransport::GetEditProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMExtTransport::GetEditProperty method
+# IAMExtTransport::GetEditProperty
 
 
 ## -description

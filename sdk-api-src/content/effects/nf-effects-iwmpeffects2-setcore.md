@@ -1,14 +1,14 @@
 ---
 UID: NF:effects.IWMPEffects2.SetCore
-title: IWMPEffects2::SetCore method
+title: IWMPEffects2::SetCore
 author: windows-driver-content
 description: The SetCore method is called by Windows Media Player to provide visualization access to the core Windows Media Player APIs.
 old-location: wmp\iwmpeffects2_setcore.htm
 old-project: WMP
 ms.assetid: d5afbf1d-ecb9-43d4-8396-db7c54720731
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEffects2, IWMPEffects2 interface [Windows Media Player], SetCore method, IWMPEffects2::SetCore, IWMPEffectsSetCore, SetCore method [Windows Media Player], SetCore method [Windows Media Player], IWMPEffects2 interface, SetCore,IWMPEffects2.SetCore, effects/IWMPEffects2::SetCore, wmp.iwmpeffects2_setcore
+ms.date: 5/4/2018
+ms.keywords: IWMPEffects2 interface [Windows Media Player],SetCore method, IWMPEffects2.SetCore, IWMPEffects2::SetCore, IWMPEffectsSetCore, SetCore, SetCore method [Windows Media Player], SetCore method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::SetCore, wmp.iwmpeffects2_setcore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IWMPEffects2::SetCore method
+# IWMPEffects2::SetCore
 
 
 ## -description

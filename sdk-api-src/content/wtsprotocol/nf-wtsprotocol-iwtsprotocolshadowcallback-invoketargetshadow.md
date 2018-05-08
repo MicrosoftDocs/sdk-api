@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowCallback.InvokeTargetShadow
-title: IWTSProtocolShadowCallback::InvokeTargetShadow method
+title: IWTSProtocolShadowCallback::InvokeTargetShadow
 author: windows-driver-content
 description: IWTSProtocolShadowCallback::InvokeTargetShadow is no longer available. Instead, use IWRdsProtocolShadowCallback::InvokeTargetShadow.
 old-location: termserv\iwtsprotocolshadowcallback_invoketargetshadow.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 1ce090cd-6824-4a89-acb4-138a1d0f6f76
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSProtocolShadowCallback, IWTSProtocolShadowCallback interface [Remote Desktop Services], InvokeTargetShadow method, IWTSProtocolShadowCallback::InvokeTargetShadow, InvokeTargetShadow method [Remote Desktop Services], InvokeTargetShadow method [Remote Desktop Services], IWTSProtocolShadowCallback interface, InvokeTargetShadow,IWTSProtocolShadowCallback.InvokeTargetShadow, termserv.iwtsprotocolshadowcallback_invoketargetshadow, wtsprotocol/IWTSProtocolShadowCallback::InvokeTargetShadow
+ms.keywords: IWTSProtocolShadowCallback interface [Remote Desktop Services],InvokeTargetShadow method, IWTSProtocolShadowCallback.InvokeTargetShadow, IWTSProtocolShadowCallback::InvokeTargetShadow, InvokeTargetShadow, InvokeTargetShadow method [Remote Desktop Services], InvokeTargetShadow method [Remote Desktop Services],IWTSProtocolShadowCallback interface, termserv.iwtsprotocolshadowcallback_invoketargetshadow, wtsprotocol/IWTSProtocolShadowCallback::InvokeTargetShadow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolShadowCallback::InvokeTargetShadow method
+# IWTSProtocolShadowCallback::InvokeTargetShadow
 
 
 ## -description

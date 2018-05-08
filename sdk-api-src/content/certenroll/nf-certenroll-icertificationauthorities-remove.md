@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.Remove
-title: ICertificationAuthorities::Remove method
+title: ICertificationAuthorities::Remove
 author: windows-driver-content
 description: Removes an ICertificationAuthority object from the collection by index number.
 old-location: security\icertificationauthorities_remove.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 97fb196f-eba0-4d73-b89b-f2eb477747fe
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertificationAuthorities, ICertificationAuthorities interface [Security], Remove method, ICertificationAuthorities::Remove, Remove method [Security], Remove method [Security], ICertificationAuthorities interface, Remove,ICertificationAuthorities.Remove, certenroll/ICertificationAuthorities::Remove, security.icertificationauthorities_remove
+ms.keywords: ICertificationAuthorities interface [Security],Remove method, ICertificationAuthorities.Remove, ICertificationAuthorities::Remove, Remove, Remove method [Security], Remove method [Security],ICertificationAuthorities interface, certenroll/ICertificationAuthorities::Remove, security.icertificationauthorities_remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICertificationAuthorities::Remove method
+# ICertificationAuthorities::Remove
 
 
 ## -description

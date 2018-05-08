@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: XHR_COOKIE, XHR_COOKIE
+req.typenames: XHR_COOKIE
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.SetPort
-title: IWSDTransportAddress::SetPort method
+title: IWSDTransportAddress::SetPort
 author: windows-driver-content
 description: Sets only the IP port number for this transport address.
 old-location: ncd\iwsdtransportaddress_setport.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 0959e6f9-82cf-4634-9547-682df1965efa
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDTransportAddress, IWSDTransportAddress interface, SetPort method, IWSDTransportAddress::SetPort, SetPort method, SetPort method, IWSDTransportAddress interface, SetPort,IWSDTransportAddress.SetPort, ncd.iwsdtransportaddress_setport, wsdbase/IWSDTransportAddress::SetPort
+ms.keywords: IWSDTransportAddress interface,SetPort method, IWSDTransportAddress.SetPort, IWSDTransportAddress::SetPort, SetPort, SetPort method, SetPort method,IWSDTransportAddress interface, ncd.iwsdtransportaddress_setport, wsdbase/IWSDTransportAddress::SetPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDTransportAddress::SetPort method
+# IWSDTransportAddress::SetPort
 
 
 ## -description

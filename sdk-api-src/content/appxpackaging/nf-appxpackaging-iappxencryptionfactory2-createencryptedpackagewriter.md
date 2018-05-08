@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory2.CreateEncryptedPackageWriter
-title: IAppxEncryptionFactory2::CreateEncryptedPackageWriter method
+title: IAppxEncryptionFactory2::CreateEncryptedPackageWriter
 author: windows-driver-content
 description: Creates a new instance of an IAppxEncryptedPackageWriter.
 old-location: appxpkg\iappxencryptionfactory2_createencryptedpackagewriter.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 70C3B332-7FB5-49CD-B0E2-43FD44AFF813
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreateEncryptedPackageWriter method [App packaging and management], CreateEncryptedPackageWriter method [App packaging and management], IAppxEncryptionFactory2 interface, CreateEncryptedPackageWriter,IAppxEncryptionFactory2.CreateEncryptedPackageWriter, IAppxEncryptionFactory2, IAppxEncryptionFactory2 interface [App packaging and management], CreateEncryptedPackageWriter method, IAppxEncryptionFactory2::CreateEncryptedPackageWriter, appxpackaging/IAppxEncryptionFactory2::CreateEncryptedPackageWriter, appxpkg.iappxencryptionfactory2_createencryptedpackagewriter
+ms.keywords: CreateEncryptedPackageWriter, CreateEncryptedPackageWriter method [App packaging and management], CreateEncryptedPackageWriter method [App packaging and management],IAppxEncryptionFactory2 interface, IAppxEncryptionFactory2 interface [App packaging and management],CreateEncryptedPackageWriter method, IAppxEncryptionFactory2.CreateEncryptedPackageWriter, IAppxEncryptionFactory2::CreateEncryptedPackageWriter, appxpackaging/IAppxEncryptionFactory2::CreateEncryptedPackageWriter, appxpkg.iappxencryptionfactory2_createencryptedpackagewriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxEncryptionFactory2::CreateEncryptedPackageWriter method
+# IAppxEncryptionFactory2::CreateEncryptedPackageWriter
 
 
 ## -description

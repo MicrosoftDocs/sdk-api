@@ -7,8 +7,8 @@ old-location: bits\ibackgroundcopyqmgr.htm
 old-project: Bits
 ms.assetid: 040662c3-0d96-416a-b5e6-a16a6d3034fc
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyQMgr, IBackgroundCopyQMgr interface [BITS], IBackgroundCopyQMgr interface [BITS], described, bits.ibackgroundcopyqmgr, qmgr/IBackgroundCopyQMgr
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyQMgr, IBackgroundCopyQMgr interface [BITS], IBackgroundCopyQMgr interface [BITS],described, bits.ibackgroundcopyqmgr, qmgr/IBackgroundCopyQMgr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

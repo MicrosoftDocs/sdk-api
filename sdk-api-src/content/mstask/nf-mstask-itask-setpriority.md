@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.SetPriority
-title: ITask::SetPriority method
+title: ITask::SetPriority
 author: windows-driver-content
 description: This method sets the priority for the task.
 old-location: taskschd\itask_setpriority.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: f72e5fb8-761e-41bd-be64-b886ebc2c1e5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITask, ITask interface [Task Scheduler], SetPriority method, ITask::SetPriority, SetPriority method [Task Scheduler], SetPriority method [Task Scheduler], ITask interface, SetPriority,ITask.SetPriority, _msb_itask_setpriority, mstask/ITask::SetPriority, taskschd.itask_setpriority
+ms.keywords: ITask interface [Task Scheduler],SetPriority method, ITask.SetPriority, ITask::SetPriority, SetPriority, SetPriority method [Task Scheduler], SetPriority method [Task Scheduler],ITask interface, _msb_itask_setpriority, mstask/ITask::SetPriority, taskschd.itask_setpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITask::SetPriority method
+# ITask::SetPriority
 
 
 ## -description

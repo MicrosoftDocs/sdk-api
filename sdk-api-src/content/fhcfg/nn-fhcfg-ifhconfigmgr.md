@@ -7,8 +7,8 @@ old-location: winprog\ifhconfigmgr.htm
 old-project: DevNotes
 ms.assetid: CDE8A011-6E78-49DF-A5E1-8E968355BA11
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: IFhConfigMgr, IFhConfigMgr interface [Windows API], IFhConfigMgr interface [Windows API], described, fhcfg/IFhConfigMgr, winprog.ifhconfigmgr
+ms.date: 5/4/2018
+ms.keywords: IFhConfigMgr, IFhConfigMgr interface [Windows API], IFhConfigMgr interface [Windows API],described, fhcfg/IFhConfigMgr, winprog.ifhconfigmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

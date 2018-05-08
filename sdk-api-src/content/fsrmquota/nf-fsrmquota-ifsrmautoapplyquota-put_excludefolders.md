@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmAutoApplyQuota.put_ExcludeFolders
-title: IFsrmAutoApplyQuota::put_ExcludeFolders method
+title: IFsrmAutoApplyQuota::put_ExcludeFolders
 author: windows-driver-content
 description: Retrieves or sets an array of immediate subdirectories to exclude from the automatic quota.
 old-location: fsrm\ifsrmautoapplyquota_excludefolders.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 1682e53c-f494-4fa4-b192-203b76e47394
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ExcludeFolders property [File Server Resource Manager], ExcludeFolders property [File Server Resource Manager], IFsrmAutoApplyQuota interface, IFsrmAutoApplyQuota, IFsrmAutoApplyQuota interface [File Server Resource Manager], ExcludeFolders property, IFsrmAutoApplyQuota.ExcludeFolders, IFsrmAutoApplyQuota::get_ExcludeFolders, IFsrmAutoApplyQuota::put_ExcludeFolders, fs.ifsrmautoapplyquota_excludefolders, fsrm.ifsrmautoapplyquota_excludefolders, fsrmquota/IFsrmAutoApplyQuota::ExcludeFolders, fsrmquota/IFsrmAutoApplyQuota::get_ExcludeFolders, fsrmquota/IFsrmAutoApplyQuota::put_ExcludeFolders, put_ExcludeFolders,IFsrmAutoApplyQuota.put_ExcludeFolders
+ms.keywords: ExcludeFolders property [File Server Resource Manager], ExcludeFolders property [File Server Resource Manager],IFsrmAutoApplyQuota interface, IFsrmAutoApplyQuota interface [File Server Resource Manager],ExcludeFolders property, IFsrmAutoApplyQuota.ExcludeFolders, IFsrmAutoApplyQuota.put_ExcludeFolders, IFsrmAutoApplyQuota::ExcludeFolders, IFsrmAutoApplyQuota::get_ExcludeFolders, IFsrmAutoApplyQuota::put_ExcludeFolders, fs.ifsrmautoapplyquota_excludefolders, fsrm.ifsrmautoapplyquota_excludefolders, fsrmquota/IFsrmAutoApplyQuota::ExcludeFolders, fsrmquota/IFsrmAutoApplyQuota::get_ExcludeFolders, fsrmquota/IFsrmAutoApplyQuota::put_ExcludeFolders, put_ExcludeFolders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmAutoApplyQuota::put_ExcludeFolders method
+# IFsrmAutoApplyQuota::put_ExcludeFolders
 
 
 ## -description

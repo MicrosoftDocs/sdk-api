@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.Connect
-title: IFaxServer::Connect method
+title: IFaxServer::Connect
 author: windows-driver-content
 description: The Connect method connects a fax client application to the specified fax server.
 old-location: fax\_mfax_faxserver_connect_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0ipg.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Connect method [Fax Service], Connect method [Fax Service], FaxServer object, Connect,IFaxServer.Connect, FaxServer object [Fax Service], Connect method, IFaxServer, IFaxServer::Connect, _mfax_faxserver.connect, fax._mfax_faxserver_connect, fax._mfax_faxserver_connect_vb
+ms.keywords: Connect, Connect method [Fax Service], Connect method [Fax Service],FaxServer object, FaxServer object [Fax Service],Connect method, FaxServer.Connect, IFaxServer.Connect, IFaxServer::Connect, _mfax_faxserver.connect, fax._mfax_faxserver_connect, fax._mfax_faxserver_connect_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxServer::Connect method
+# IFaxServer::Connect
 
 
 ## -description

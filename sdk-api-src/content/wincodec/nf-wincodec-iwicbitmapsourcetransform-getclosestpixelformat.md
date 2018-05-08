@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapSourceTransform.GetClosestPixelFormat
-title: IWICBitmapSourceTransform::GetClosestPixelFormat method
+title: IWICBitmapSourceTransform::GetClosestPixelFormat
 author: windows-driver-content
 description: Retrieves the closest pixel format to which the implementation of IWICBitmapSourceTransform can natively copy pixels, given a desired format.
 old-location: wic\_wic_codec_iwicbitmapsourcetransform_getclosestpixelformat.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 153c5e2a-c42f-4949-9313-48d5e186ecf3
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetClosestPixelFormat method [Windows Imaging Component], GetClosestPixelFormat method [Windows Imaging Component], IWICBitmapSourceTransform interface, GetClosestPixelFormat,IWICBitmapSourceTransform.GetClosestPixelFormat, IWICBitmapSourceTransform, IWICBitmapSourceTransform interface [Windows Imaging Component], GetClosestPixelFormat method, IWICBitmapSourceTransform::GetClosestPixelFormat, _wic_codec_iwicbitmapsourcetransform_getclosestpixelformat, wic._wic_codec_iwicbitmapsourcetransform_getclosestpixelformat, wincodec/IWICBitmapSourceTransform::GetClosestPixelFormat
+ms.keywords: GetClosestPixelFormat, GetClosestPixelFormat method [Windows Imaging Component], GetClosestPixelFormat method [Windows Imaging Component],IWICBitmapSourceTransform interface, IWICBitmapSourceTransform interface [Windows Imaging Component],GetClosestPixelFormat method, IWICBitmapSourceTransform.GetClosestPixelFormat, IWICBitmapSourceTransform::GetClosestPixelFormat, _wic_codec_iwicbitmapsourcetransform_getclosestpixelformat, wic._wic_codec_iwicbitmapsourcetransform_getclosestpixelformat, wincodec/IWICBitmapSourceTransform::GetClosestPixelFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapSourceTransform::GetClosestPixelFormat method
+# IWICBitmapSourceTransform::GetClosestPixelFormat
 
 
 ## -description

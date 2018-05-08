@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.get_GenKeyFlags
-title: IEnroll::get_GenKeyFlags method
+title: IEnroll::get_GenKeyFlags
 author: windows-driver-content
 description: Sets or retrieves the values passed to CryptGenKey when the certificate request is generated.
 old-location: security\ienroll4_genkeyflags.htm
 old-project: SecCrypto
 ms.assetid: 6dac3321-9dca-4b7d-8432-e8124bd51db7
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: GenKeyFlags property [Security], GenKeyFlags property [Security], IEnroll interface, IEnroll, IEnroll interface [Security], GenKeyFlags property, IEnroll.GenKeyFlags, IEnroll::get_GenKeyFlags, IEnroll::put_GenKeyFlags, get_GenKeyFlags,IEnroll.get_GenKeyFlags, security.ienroll4_genkeyflags, xenroll/IEnroll::GenKeyFlags, xenroll/IEnroll::get_GenKeyFlags, xenroll/IEnroll::put_GenKeyFlags
+ms.date: 4/30/2018
+ms.keywords: GenKeyFlags property [Security], GenKeyFlags property [Security],IEnroll interface, IEnroll interface [Security],GenKeyFlags property, IEnroll.GenKeyFlags, IEnroll.get_GenKeyFlags, IEnroll::GenKeyFlags, IEnroll::get_GenKeyFlags, IEnroll::put_GenKeyFlags, get_GenKeyFlags, security.ienroll4_genkeyflags, xenroll/IEnroll::GenKeyFlags, xenroll/IEnroll::get_GenKeyFlags, xenroll/IEnroll::put_GenKeyFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::get_GenKeyFlags method
+# IEnroll::get_GenKeyFlags
 
 
 ## -description

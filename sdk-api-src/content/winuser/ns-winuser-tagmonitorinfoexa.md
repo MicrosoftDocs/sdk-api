@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MONITORINFOEXA, *LPMONITORINFOEXA, MONITORINFOEXA, *LPMONITORINFOEXA
+req.typenames: MONITORINFOEXA, *LPMONITORINFOEXA
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: automat\vardiv.htm
 old-project: automat
 ms.assetid: 63cd466d-da23-4c61-ba7c-899f56f02245
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarDiv, VarDiv function [Automation], _oa96_VarDiv, automat.vardiv, oleauto/VarDiv
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_ExternalPort
-title: INetSharingPortMappingProps::get_ExternalPort method
+title: INetSharingPortMappingProps::get_ExternalPort
 author: windows-driver-content
 description: The get_ExternalPort method retrieves the external port associated with this port mapping.
 old-location: ics\inetsharingportmappingprops_get_externalport.htm
 old-project: ICS
 ms.assetid: d1cf6a3f-c6d2-4514-89e6-af58be22dabb
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetSharingPortMappingProps, INetSharingPortMappingProps interface [ICS/ICF], get_ExternalPort method, INetSharingPortMappingProps::get_ExternalPort, _ics_inetsharingportmappingprops_get_port, get_ExternalPort method [ICS/ICF], get_ExternalPort method [ICS/ICF], INetSharingPortMappingProps interface, get_ExternalPort,INetSharingPortMappingProps.get_ExternalPort, ics.inetsharingportmappingprops_get_externalport, ics.inetsharingportmappingprops_get_port, netcon/INetSharingPortMappingProps::get_ExternalPort
+ms.date: 5/1/2018
+ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_ExternalPort method, INetSharingPortMappingProps.get_ExternalPort, INetSharingPortMappingProps::get_ExternalPort, _ics_inetsharingportmappingprops_get_port, get_ExternalPort, get_ExternalPort method [ICS/ICF], get_ExternalPort method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_externalport, ics.inetsharingportmappingprops_get_port, netcon/INetSharingPortMappingProps::get_ExternalPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetSharingPortMappingProps::get_ExternalPort method
+# INetSharingPortMappingProps::get_ExternalPort
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtepeltinqnext.htm
 old-project: Rpc
 ms.assetid: e1f79435-6868-453b-8237-da52e57ec96f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcMgmtEpEltInqNext, RpcMgmtEpEltInqNext function [RPC], RpcMgmtEpEltInqNextA, RpcMgmtEpEltInqNextW, _rpc_rpcmgmtepeltinqnext, rpc.rpcmgmtepeltinqnext, rpcdce/RpcMgmtEpEltInqNext, rpcdce/RpcMgmtEpEltInqNextA, rpcdce/RpcMgmtEpEltInqNextW
 ms.prod: windows-hardware
 ms.technology: windows-devices

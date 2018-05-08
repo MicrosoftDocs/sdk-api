@@ -1,14 +1,14 @@
 ---
 UID: NF:netcon.IEnumNetSharingPrivateConnection.Clone
-title: IEnumNetSharingPrivateConnection::Clone method
+title: IEnumNetSharingPrivateConnection::Clone
 author: windows-driver-content
 description: The Clone method creates a new enumeration interface from this enumeration.
 old-location: ics\ienumnetsharingprivateconnection_clone.htm
 old-project: ICS
 ms.assetid: a82dbc70-783a-4061-9526-dd19f94d843b
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Clone method [ICS/ICF], Clone method [ICS/ICF], IEnumNetSharingPrivateConnection interface, Clone,IEnumNetSharingPrivateConnection.Clone, IEnumNetSharingPrivateConnection, IEnumNetSharingPrivateConnection interface [ICS/ICF], Clone method, IEnumNetSharingPrivateConnection::Clone, _ics_ienumnetsharingprivateconnection_clone, ics.ienumnetsharingprivateconnection_clone, netcon/IEnumNetSharingPrivateConnection::Clone
+ms.date: 5/1/2018
+ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingPrivateConnection interface, IEnumNetSharingPrivateConnection interface [ICS/ICF],Clone method, IEnumNetSharingPrivateConnection.Clone, IEnumNetSharingPrivateConnection::Clone, _ics_ienumnetsharingprivateconnection_clone, ics.ienumnetsharingprivateconnection_clone, netcon/IEnumNetSharingPrivateConnection::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumNetSharingPrivateConnection::Clone method
+# IEnumNetSharingPrivateConnection::Clone
 
 
 ## -description

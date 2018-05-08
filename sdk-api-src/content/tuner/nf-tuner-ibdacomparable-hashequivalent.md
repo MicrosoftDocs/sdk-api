@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IBDAComparable.HashEquivalent
-title: IBDAComparable::HashEquivalent method
+title: IBDAComparable::HashEquivalent
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibdacomparable_hashequivalent.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 31f52445-a4f5-40f5-ad55-30f3b43b1528
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: HashEquivalent method [Microsoft TV Technologies], HashEquivalent method [Microsoft TV Technologies], IBDAComparable interface, HashEquivalent,IBDAComparable.HashEquivalent, IBDAComparable, IBDAComparable interface [Microsoft TV Technologies], HashEquivalent method, IBDAComparable::HashEquivalent, IBDAComparableHashEquivalent, mstv.ibdacomparable_hashequivalent, tuner/IBDAComparable::HashEquivalent
+ms.keywords: HashEquivalent, HashEquivalent method [Microsoft TV Technologies], HashEquivalent method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashEquivalent method, IBDAComparable.HashEquivalent, IBDAComparable::HashEquivalent, IBDAComparableHashEquivalent, mstv.ibdacomparable_hashequivalent, tuner/IBDAComparable::HashEquivalent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IBDAComparable::HashEquivalent method
+# IBDAComparable::HashEquivalent
 
 
 ## -description

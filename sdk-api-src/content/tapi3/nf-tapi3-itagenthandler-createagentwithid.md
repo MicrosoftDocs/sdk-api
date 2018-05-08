@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentHandler.CreateAgentWithID
-title: ITAgentHandler::CreateAgentWithID method
+title: ITAgentHandler::CreateAgentWithID
 author: windows-driver-content
 description: The CreateAgentWithID method creates an Agent object based on an agent identifier.
 old-location: tapi3\itagenthandler_createagentwithid.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 95c70e48-b990-47c7-a8b8-5fa3a84ec5ba
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CreateAgentWithID method [TAPI 2.2], CreateAgentWithID method [TAPI 2.2], ITAgentHandler interface, CreateAgentWithID,ITAgentHandler.CreateAgentWithID, ITAgentHandler, ITAgentHandler interface [TAPI 2.2], CreateAgentWithID method, ITAgentHandler::CreateAgentWithID, _tapi3_itagenthandler_createagentwithid, tapi3.itagenthandler_createagentwithid, tapi3cc/ITAgentHandler::CreateAgentWithID
+ms.keywords: CreateAgentWithID, CreateAgentWithID method [TAPI 2.2], CreateAgentWithID method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],CreateAgentWithID method, ITAgentHandler.CreateAgentWithID, ITAgentHandler::CreateAgentWithID, _tapi3_itagenthandler_createagentwithid, tapi3.itagenthandler_createagentwithid, tapi3cc/ITAgentHandler::CreateAgentWithID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgentHandler::CreateAgentWithID method
+# ITAgentHandler::CreateAgentWithID
 
 
 ## -description

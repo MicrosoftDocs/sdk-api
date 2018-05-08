@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.GetStreamConfigurationCount
-title: IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount method
+title: IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount
 author: windows-driver-content
 description: Gets the count of registered stream configurations, which define set of substreams that can be included the multiplexed output.
 old-location: mf\imfmuxstreammediatypemanager_getstreamconfigurationcount.htm
 old-project: medfound
 ms.assetid: 9591BFEC-DD25-41A8-9DA8-7F39158CB442
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStreamConfigurationCount method [Media Foundation], GetStreamConfigurationCount method [Media Foundation], IMFMuxStreamMediaTypeManager interface, GetStreamConfigurationCount,IMFMuxStreamMediaTypeManager.GetStreamConfigurationCount, IMFMuxStreamMediaTypeManager, IMFMuxStreamMediaTypeManager interface [Media Foundation], GetStreamConfigurationCount method, IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount, mf.imfmuxstreammediatypemanager_getstreamconfigurationcount, mfobjects/IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount
+ms.date: 5/3/2018
+ms.keywords: GetStreamConfigurationCount, GetStreamConfigurationCount method [Media Foundation], GetStreamConfigurationCount method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetStreamConfigurationCount method, IMFMuxStreamMediaTypeManager.GetStreamConfigurationCount, IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount, mf.imfmuxstreammediatypemanager_getstreamconfigurationcount, mfobjects/IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount method
+# IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount
 
 
 ## -description

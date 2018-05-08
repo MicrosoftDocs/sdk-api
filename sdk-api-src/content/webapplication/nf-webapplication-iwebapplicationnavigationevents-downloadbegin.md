@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.DownloadBegin
-title: IWebApplicationNavigationEvents::DownloadBegin method
+title: IWebApplicationNavigationEvents::DownloadBegin
 author: windows-driver-content
 description: Download of a page has started.
 old-location: debug\iwebapplicationnavigationevents_downloadbegin.htm
@@ -8,7 +8,7 @@ old-project: debug_wwahost
 ms.assetid: 2f38f6d2-19a3-4c19-9670-7fd766b90bd3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DownloadBegin method [Debugging Windows Store apps], DownloadBegin method [Debugging Windows Store apps], IWebApplicationNavigationEvents interface, DownloadBegin,IWebApplicationNavigationEvents.DownloadBegin, IWebApplicationNavigationEvents, IWebApplicationNavigationEvents interface [Debugging Windows Store apps], DownloadBegin method, IWebApplicationNavigationEvents::DownloadBegin, debug.iwebapplicationnavigationevents_downloadbegin, webapplication/IWebApplicationNavigationEvents::DownloadBegin
+ms.keywords: DownloadBegin, DownloadBegin method [Debugging Windows Store apps], DownloadBegin method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],DownloadBegin method, IWebApplicationNavigationEvents.DownloadBegin, IWebApplicationNavigationEvents::DownloadBegin, debug.iwebapplicationnavigationevents_downloadbegin, webapplication/IWebApplicationNavigationEvents::DownloadBegin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWebApplicationNavigationEvents::DownloadBegin method
+# IWebApplicationNavigationEvents::DownloadBegin
 
 
 ## -description

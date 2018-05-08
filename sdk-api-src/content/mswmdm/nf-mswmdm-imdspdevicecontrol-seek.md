@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDeviceControl.Seek
-title: IMDSPDeviceControl::Seek method
+title: IMDSPDeviceControl::Seek
 author: windows-driver-content
 description: The Seek method seeks to a position that is used as the starting point by the Play or Record methods.
 old-location: wmdm\imdspdevicecontrol_seek.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 05fbaab8-e1fa-4960-9591-d22347bc04f2
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IMDSPDeviceControl, IMDSPDeviceControl interface [windows Media Device Manager], Seek method, IMDSPDeviceControl::Seek, IMDSPDeviceControlSeek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager], IMDSPDeviceControl interface, Seek,IMDSPDeviceControl.Seek, mswmdm/IMDSPDeviceControl::Seek, wmdm.imdspdevicecontrol_seek
+ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Seek method, IMDSPDeviceControl.Seek, IMDSPDeviceControl::Seek, IMDSPDeviceControlSeek, Seek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Seek, wmdm.imdspdevicecontrol_seek
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPDeviceControl::Seek method
+# IMDSPDeviceControl::Seek
 
 
 ## -description

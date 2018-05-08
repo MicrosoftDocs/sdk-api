@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll.freeRequestInfo
-title: ICEnroll::freeRequestInfo method
+title: ICEnroll::freeRequestInfo
 author: windows-driver-content
 description: Releases session identifiers when they are no longer needed.
 old-location: security\icenroll4_freerequestinfo.htm
 old-project: SecCrypto
 ms.assetid: 2d3fd4d4-779f-4e28-9b07-4de17262ac5e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], freeRequestInfo method, ICEnroll, ICEnroll interface [Security], freeRequestInfo method, ICEnroll2 interface [Security], freeRequestInfo method, ICEnroll2::freeRequestInfo, ICEnroll3 interface [Security], freeRequestInfo method, ICEnroll3::freeRequestInfo, ICEnroll4 interface [Security], freeRequestInfo method, ICEnroll4::freeRequestInfo, ICEnroll::freeRequestInfo, freeRequestInfo method [Security], freeRequestInfo method [Security], CEnroll object, freeRequestInfo method [Security], ICEnroll interface, freeRequestInfo method [Security], ICEnroll2 interface, freeRequestInfo method [Security], ICEnroll3 interface, freeRequestInfo method [Security], ICEnroll4 interface, freeRequestInfo,ICEnroll.freeRequestInfo, security.icenroll4_freerequestinfo, xenroll/ICEnroll2::freeRequestInfo, xenroll/ICEnroll3::freeRequestInfo, xenroll/ICEnroll4::freeRequestInfo, xenroll/ICEnroll::freeRequestInfo
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],freeRequestInfo method, ICEnroll interface [Security],freeRequestInfo method, ICEnroll.freeRequestInfo, ICEnroll2 interface [Security],freeRequestInfo method, ICEnroll2::freeRequestInfo, ICEnroll3 interface [Security],freeRequestInfo method, ICEnroll3::freeRequestInfo, ICEnroll4 interface [Security],freeRequestInfo method, ICEnroll4::freeRequestInfo, ICEnroll::freeRequestInfo, freeRequestInfo, freeRequestInfo method [Security], freeRequestInfo method [Security],CEnroll object, freeRequestInfo method [Security],ICEnroll interface, freeRequestInfo method [Security],ICEnroll2 interface, freeRequestInfo method [Security],ICEnroll3 interface, freeRequestInfo method [Security],ICEnroll4 interface, security.icenroll4_freerequestinfo, xenroll/ICEnroll2::freeRequestInfo, xenroll/ICEnroll3::freeRequestInfo, xenroll/ICEnroll4::freeRequestInfo, xenroll/ICEnroll::freeRequestInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll::freeRequestInfo method
+# ICEnroll::freeRequestInfo
 
 
 ## -description

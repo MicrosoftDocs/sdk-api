@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Reset
-title: IEnumSearchRoots::Reset method
+title: IEnumSearchRoots::Reset
 author: windows-driver-content
 description: Moves the internal counter to the beginning of the list so a subsequent call to IEnumSearchRoots::Next retrieves from the beginning.
 old-location: search\_search_IEnumSearchRoots_Reset.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\reset.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IEnumSearchRoots, IEnumSearchRoots interface [search], Reset method, IEnumSearchRoots::Reset, Reset method [search], Reset method [search], IEnumSearchRoots interface, Reset,IEnumSearchRoots.Reset, _search_IEnumSearchRoots_Reset, search._search_IEnumSearchRoots_Reset, searchapi/IEnumSearchRoots::Reset
+ms.date: 5/4/2018
+ms.keywords: IEnumSearchRoots interface [search],Reset method, IEnumSearchRoots.Reset, IEnumSearchRoots::Reset, Reset, Reset method [search], Reset method [search],IEnumSearchRoots interface, _search_IEnumSearchRoots_Reset, search._search_IEnumSearchRoots_Reset, searchapi/IEnumSearchRoots::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumSearchRoots::Reset method
+# IEnumSearchRoots::Reset
 
 
 ## -description

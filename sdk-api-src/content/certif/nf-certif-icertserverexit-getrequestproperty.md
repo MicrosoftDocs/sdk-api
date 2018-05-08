@@ -1,14 +1,14 @@
 ---
 UID: NF:certif.ICertServerExit.GetRequestProperty
-title: ICertServerExit::GetRequestProperty method
+title: ICertServerExit::GetRequestProperty
 author: windows-driver-content
 description: Returns a named property from a request.
 old-location: security\icertserverexit_getrequestproperty.htm
 old-project: SecCrypto
 ms.assetid: e9b98573-4eb0-4add-988b-dc34d6c15436
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertServerExit object [Security], GetRequestProperty method, CR_IN_KEYGEN, CR_IN_PKCS10, CR_IN_PKCS7, Disposition, DispositionMessage, GetRequestProperty method [Security], GetRequestProperty method [Security], CCertServerExit object, GetRequestProperty method [Security], ICertServerExit interface, GetRequestProperty,ICertServerExit.GetRequestProperty, ICertServerExit, ICertServerExit interface [Security], GetRequestProperty method, ICertServerExit::GetRequestProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RawCACertificate, RawRequest, RequestAttributes, RequestID, RequestType, RequesterName, ResolvedWhen, StatusCode, SubmittedWhen, _certsrv_icertserverexit_getrequestproperty, certif/ICertServerExit::GetRequestProperty, security.icertserverexit_getrequestproperty
+ms.date: 4/30/2018
+ms.keywords: CCertServerExit object [Security],GetRequestProperty method, CR_IN_KEYGEN, CR_IN_PKCS10, CR_IN_PKCS7, Disposition, DispositionMessage, GetRequestProperty, GetRequestProperty method [Security], GetRequestProperty method [Security],CCertServerExit object, GetRequestProperty method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetRequestProperty method, ICertServerExit.GetRequestProperty, ICertServerExit::GetRequestProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RawCACertificate, RawRequest, RequestAttributes, RequestID, RequestType, RequesterName, ResolvedWhen, StatusCode, SubmittedWhen, _certsrv_icertserverexit_getrequestproperty, certif/ICertServerExit::GetRequestProperty, security.icertserverexit_getrequestproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertServerExit::GetRequestProperty method
+# ICertServerExit::GetRequestProperty
 
 
 ## -description

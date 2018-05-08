@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.GetCount
-title: ITextFont2::GetCount method
+title: ITextFont2::GetCount
 author: windows-driver-content
 description: Gets the count of extra properties in this character formatting collection.
 old-location: controls\itextfont2_getcount.htm
 old-project: Controls
 ms.assetid: 0caca891-7c25-4b04-bda3-47de2f0ab6ce
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetCount method [Windows Controls], GetCount method [Windows Controls], ITextFont2 interface, GetCount,ITextFont2.GetCount, ITextFont2, ITextFont2 interface [Windows Controls], GetCount method, ITextFont2::GetCount, controls.itextfont2_getcount, tom/ITextFont2::GetCount
+ms.date: 4/27/2018
+ms.keywords: GetCount, GetCount method [Windows Controls], GetCount method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetCount method, ITextFont2.GetCount, ITextFont2::GetCount, controls.itextfont2_getcount, tom/ITextFont2::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::GetCount method
+# ITextFont2::GetCount
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsadmin.IVssAdmin.QueryProviders
-title: IVssAdmin::QueryProviders method
+title: IVssAdmin::QueryProviders
 author: windows-driver-content
 description: Queries all registered providers.
 old-location: base\ivssadmin_queryproviders.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 1267b715-dc2e-47a2-88f1-5c03b5fb5415
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssAdmin, IVssAdmin interface [VSS], QueryProviders method, IVssAdmin::QueryProviders, QueryProviders method [VSS], QueryProviders method [VSS], IVssAdmin interface, QueryProviders,IVssAdmin.QueryProviders, base.ivssadmin_queryproviders, vsadmin/IVssAdmin::QueryProviders
+ms.keywords: IVssAdmin interface [VSS],QueryProviders method, IVssAdmin.QueryProviders, IVssAdmin::QueryProviders, QueryProviders, QueryProviders method [VSS], QueryProviders method [VSS],IVssAdmin interface, base.ivssadmin_queryproviders, vsadmin/IVssAdmin::QueryProviders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssAdmin::QueryProviders method
+# IVssAdmin::QueryProviders
 
 
 ## -description

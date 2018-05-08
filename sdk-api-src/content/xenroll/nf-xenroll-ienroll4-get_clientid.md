@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll4.get_ClientId
-title: IEnroll4::get_ClientId method
+title: IEnroll4::get_ClientId
 author: windows-driver-content
 description: The ClientId property sets or retrieves a client ID request attribute. The client ID request attribute indicates the source of the certificate request. This property was first defined in the IEnroll4 interface.
 old-location: security\ienroll4_clientid.htm
 old-project: SecCrypto
 ms.assetid: 7a21b390-4b44-4c50-b11f-1ebf2118f7e8
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ClientId property [Security], ClientId property [Security], IEnroll4 interface, IEnroll4, IEnroll4 interface [Security], ClientId property, IEnroll4.ClientId, IEnroll4::get_ClientId, IEnroll4::put_ClientId, XECI_AUTOENROLL, XECI_CERTREQ, XECI_DISABLE, XECI_REQWIZARD, XECI_XENROLL, get_ClientId,IEnroll4.get_ClientId, security.ienroll4_clientid, xenroll/IEnroll4::ClientId, xenroll/IEnroll4::get_ClientId, xenroll/IEnroll4::put_ClientId
+ms.date: 4/30/2018
+ms.keywords: ClientId property [Security], ClientId property [Security],IEnroll4 interface, IEnroll4 interface [Security],ClientId property, IEnroll4.ClientId, IEnroll4.get_ClientId, IEnroll4::ClientId, IEnroll4::get_ClientId, IEnroll4::put_ClientId, XECI_AUTOENROLL, XECI_CERTREQ, XECI_DISABLE, XECI_REQWIZARD, XECI_XENROLL, get_ClientId, security.ienroll4_clientid, xenroll/IEnroll4::ClientId, xenroll/IEnroll4::get_ClientId, xenroll/IEnroll4::put_ClientId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll4::get_ClientId method
+# IEnroll4::get_ClientId
 
 
 ## -description

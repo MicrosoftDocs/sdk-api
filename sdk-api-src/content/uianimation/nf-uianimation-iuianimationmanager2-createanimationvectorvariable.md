@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.CreateAnimationVectorVariable
-title: IUIAnimationManager2::CreateAnimationVectorVariable method
+title: IUIAnimationManager2::CreateAnimationVectorVariable
 author: windows-driver-content
 description: Creates a new animation variable for each specified dimension.
 old-location: uianimation\iuianimationmanager2_createanimationvectorvariable.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: b102f7d7-1a0b-40b5-bcc6-fa82dbcb4156
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateAnimationVectorVariable method [Windows Animation], CreateAnimationVectorVariable method [Windows Animation], IUIAnimationManager2 interface, CreateAnimationVectorVariable,IUIAnimationManager2.CreateAnimationVectorVariable, IUIAnimationManager2, IUIAnimationManager2 interface [Windows Animation], CreateAnimationVectorVariable method, IUIAnimationManager2::CreateAnimationVectorVariable, uianimation.iuianimationmanager2_createanimationvectorvariable, uianimation/IUIAnimationManager2::CreateAnimationVectorVariable
+ms.keywords: CreateAnimationVectorVariable, CreateAnimationVectorVariable method [Windows Animation], CreateAnimationVectorVariable method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],CreateAnimationVectorVariable method, IUIAnimationManager2.CreateAnimationVectorVariable, IUIAnimationManager2::CreateAnimationVectorVariable, uianimation.iuianimationmanager2_createanimationvectorvariable, uianimation/IUIAnimationManager2::CreateAnimationVectorVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationManager2::CreateAnimationVectorVariable method
+# IUIAnimationManager2::CreateAnimationVectorVariable
 
 
 ## -description

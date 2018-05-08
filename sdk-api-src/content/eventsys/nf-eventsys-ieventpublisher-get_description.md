@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventPublisher.get_Description
-title: IEventPublisher::get_Description method
+title: IEventPublisher::get_Description
 author: windows-driver-content
 description: The display text for the event publisher.
 old-location: com\ieventpublisher_description.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 1fead633-e498-4dc2-8591-d1f9c0090adb
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: Description property [COM], Description property [COM], IEventPublisher interface, IEventPublisher, IEventPublisher interface [COM], Description property, IEventPublisher.Description, IEventPublisher::get_Description, IEventPublisher::put_Description, _com_ieventpublisher_description, com.ieventpublisher_description, eventsys/IEventPublisher::Description, eventsys/IEventPublisher::get_Description, eventsys/IEventPublisher::put_Description, get_Description,IEventPublisher.get_Description
+ms.keywords: Description property [COM], Description property [COM],IEventPublisher interface, IEventPublisher interface [COM],Description property, IEventPublisher.Description, IEventPublisher.get_Description, IEventPublisher::Description, IEventPublisher::get_Description, IEventPublisher::put_Description, _com_ieventpublisher_description, com.ieventpublisher_description, eventsys/IEventPublisher::Description, eventsys/IEventPublisher::get_Description, eventsys/IEventPublisher::put_Description, get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventPublisher::get_Description method
+# IEventPublisher::get_Description
 
 
 ## -description

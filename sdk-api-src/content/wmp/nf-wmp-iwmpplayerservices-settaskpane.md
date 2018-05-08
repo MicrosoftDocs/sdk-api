@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPPlayerServices.setTaskPane
-title: IWMPPlayerServices::setTaskPane method
+title: IWMPPlayerServices::setTaskPane
 author: windows-driver-content
 description: The setTaskPane method displays the specified task pane in the full mode of Windows Media Player.
 old-location: wmp\iwmpplayerservices_settaskpane.htm
 old-project: WMP
 ms.assetid: 4b34ec95-d9a3-4135-b369-39955199ac00
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPlayerServices, IWMPPlayerServices interface [Windows Media Player], setTaskPane method, IWMPPlayerServices::setTaskPane, IWMPPlayerServicessetTaskPane, setTaskPane method [Windows Media Player], setTaskPane method [Windows Media Player], IWMPPlayerServices interface, setTaskPane,IWMPPlayerServices.setTaskPane, wmp.iwmpplayerservices_settaskpane, wmp/IWMPPlayerServices::setTaskPane
+ms.date: 5/4/2018
+ms.keywords: IWMPPlayerServices interface [Windows Media Player],setTaskPane method, IWMPPlayerServices.setTaskPane, IWMPPlayerServices::setTaskPane, IWMPPlayerServicessetTaskPane, setTaskPane, setTaskPane method [Windows Media Player], setTaskPane method [Windows Media Player],IWMPPlayerServices interface, wmp.iwmpplayerservices_settaskpane, wmp/IWMPPlayerServices::setTaskPane
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPlayerServices::setTaskPane method
+# IWMPPlayerServices::setTaskPane
 
 
 ## -description

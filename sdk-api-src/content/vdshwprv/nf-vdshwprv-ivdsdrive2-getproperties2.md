@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsDrive2.GetProperties2
-title: IVdsDrive2::GetProperties2 method
+title: IVdsDrive2::GetProperties2
 author: windows-driver-content
 description: Returns the properties of a drive object.
 old-location: base\ivdsdrive2_getproperties2.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 635957be-780f-4dee-8d70-b7fc37fecd5c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetProperties2 method, GetProperties2 method, IVdsDrive2 interface, GetProperties2,IVdsDrive2.GetProperties2, IVdsDrive2, IVdsDrive2 interface, GetProperties2 method, IVdsDrive2::GetProperties2, base.ivdsdrive2_getproperties2, vds/IVdsDrive2::GetProperties2, vdshwprv/IVdsDrive2::GetProperties2
+ms.keywords: GetProperties2, GetProperties2 method, GetProperties2 method,IVdsDrive2 interface, IVdsDrive2 interface,GetProperties2 method, IVdsDrive2.GetProperties2, IVdsDrive2::GetProperties2, base.ivdsdrive2_getproperties2, vds/IVdsDrive2::GetProperties2, vdshwprv/IVdsDrive2::GetProperties2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsDrive2::GetProperties2 method
+# IVdsDrive2::GetProperties2
 
 
 ## -description

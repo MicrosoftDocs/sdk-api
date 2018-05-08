@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.put_Azimuth
-title: IDVBSLocator::put_Azimuth method
+title: IDVBSLocator::put_Azimuth
 author: windows-driver-content
 description: The put_Azimuth method adjusts the azimuth setting used for positioning the satellite dish.
 old-location: mstv\idvbslocator_put_azimuth.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4923fa80-77f7-4d2e-9a15-ce7608888e02
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBSLocator, IDVBSLocator interface [Microsoft TV Technologies], put_Azimuth method, IDVBSLocator::put_Azimuth, IDVBSLocatorput_Azimuth, mstv.idvbslocator_put_azimuth, put_Azimuth method [Microsoft TV Technologies], put_Azimuth method [Microsoft TV Technologies], IDVBSLocator interface, put_Azimuth,IDVBSLocator.put_Azimuth, tuner/IDVBSLocator::put_Azimuth
+ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_Azimuth method, IDVBSLocator.put_Azimuth, IDVBSLocator::put_Azimuth, IDVBSLocatorput_Azimuth, mstv.idvbslocator_put_azimuth, put_Azimuth, put_Azimuth method [Microsoft TV Technologies], put_Azimuth method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_Azimuth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBSLocator::put_Azimuth method
+# IDVBSLocator::put_Azimuth
 
 
 ## -description

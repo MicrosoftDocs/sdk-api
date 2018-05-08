@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.SetValues
-title: IPortableDeviceProperties::SetValues method
+title: IPortableDeviceProperties::SetValues
 author: windows-driver-content
 description: The SetValues method adds or modifies one or more properties on a specified object on a device.
 old-location: wpdsdk\iportabledeviceproperties_setvalues.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 3c631d31-5553-4ad0-8384-821c11c78254
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDeviceProperties, IPortableDeviceProperties interface [Windows Portable Devices SDK], SetValues method, IPortableDeviceProperties::SetValues, IPortableDevicePropertiesSetValues, SetValues method [Windows Portable Devices SDK], SetValues method [Windows Portable Devices SDK], IPortableDeviceProperties interface, SetValues,IPortableDeviceProperties.SetValues, portabledeviceapi/IPortableDeviceProperties::SetValues, wpdsdk.iportabledeviceproperties_setvalues
+ms.keywords: IPortableDeviceProperties interface [Windows Portable Devices SDK],SetValues method, IPortableDeviceProperties.SetValues, IPortableDeviceProperties::SetValues, IPortableDevicePropertiesSetValues, SetValues, SetValues method [Windows Portable Devices SDK], SetValues method [Windows Portable Devices SDK],IPortableDeviceProperties interface, portabledeviceapi/IPortableDeviceProperties::SetValues, wpdsdk.iportabledeviceproperties_setvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceProperties::SetValues method
+# IPortableDeviceProperties::SetValues
 
 
 ## -description

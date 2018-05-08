@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList.GetImageCount
-title: IImageList::GetImageCount method
+title: IImageList::GetImageCount
 author: windows-driver-content
 description: Gets the number of images in an image list.
 old-location: controls\IImageList_GetImageCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getimagecount.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetImageCount method [Windows Controls], GetImageCount method [Windows Controls], IImageList interface, GetImageCount,IImageList.GetImageCount, IImageList, IImageList interface [Windows Controls], GetImageCount method, IImageList::GetImageCount, comctl_IImageList_GetImageCount, comctl_IImageList_GetImageCount_cpp, commoncontrols/IImageList::GetImageCount, controls.IImageList_GetImageCount, controls.comctl_IImageList_GetImageCount
+ms.date: 4/27/2018
+ms.keywords: GetImageCount, GetImageCount method [Windows Controls], GetImageCount method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetImageCount method, IImageList.GetImageCount, IImageList::GetImageCount, comctl_IImageList_GetImageCount, comctl_IImageList_GetImageCount_cpp, commoncontrols/IImageList::GetImageCount, controls.IImageList_GetImageCount, controls.comctl_IImageList_GetImageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList::GetImageCount method
+# IImageList::GetImageCount
 
 
 ## -description

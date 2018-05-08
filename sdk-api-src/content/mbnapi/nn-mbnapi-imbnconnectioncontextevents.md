@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 1f73260b-04db-410a-ade0-a835805b2b0a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnConnectionContextEvents, IMbnConnectionContextEvents interface [Microsoft Broadband Networks], IMbnConnectionContextEvents interface [Microsoft Broadband Networks], described, mbn.imbnconnectioncontextevents, mbnapi/IMbnConnectionContextEvents
+ms.keywords: IMbnConnectionContextEvents, IMbnConnectionContextEvents interface [Microsoft Broadband Networks], IMbnConnectionContextEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectioncontextevents, mbnapi/IMbnConnectionContextEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -7,7 +7,7 @@ old-location: security\cryptxmlsethmacsecret.htm
 old-project: SecCrypto
 ms.assetid: 3e7d0280-c10e-4328-b7f7-208ea5a4285c
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CryptXmlSetHMACSecret, CryptXmlSetHMACSecret function [Security], cryptxml/CryptXmlSetHMACSecret, security.cryptxmlsethmacsecret
 ms.prod: windows-hardware
 ms.technology: windows-devices

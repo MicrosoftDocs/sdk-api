@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_WhiteBalance
-title: IVideoProcAmp::get_WhiteBalance method
+title: IVideoProcAmp::get_WhiteBalance
 author: windows-driver-content
 description: The get_WhiteBalance method returns the camera's white balance, specified as a color temperature.
 old-location: dshow\ivideoprocamp_get_whitebalance.htm
 old-project: DirectShow
 ms.assetid: 53743bff-4257-4abf-b41a-aa5586ab37b5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoProcAmp, IVideoProcAmp interface [DirectShow], get_WhiteBalance method, IVideoProcAmp::get_WhiteBalance, IVideoProcAmpget_WhiteBalance, dshow.ivideoprocamp_get_whitebalance, get_WhiteBalance method [DirectShow], get_WhiteBalance method [DirectShow], IVideoProcAmp interface, get_WhiteBalance,IVideoProcAmp.get_WhiteBalance, vidcap/IVideoProcAmp::get_WhiteBalance
+ms.date: 4/30/2018
+ms.keywords: IVideoProcAmp interface [DirectShow],get_WhiteBalance method, IVideoProcAmp.get_WhiteBalance, IVideoProcAmp::get_WhiteBalance, IVideoProcAmpget_WhiteBalance, dshow.ivideoprocamp_get_whitebalance, get_WhiteBalance, get_WhiteBalance method [DirectShow], get_WhiteBalance method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_WhiteBalance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVideoProcAmp::get_WhiteBalance method
+# IVideoProcAmp::get_WhiteBalance
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery.IsSubcategoryQuery
-title: IFunctionDiscoveryProviderQuery::IsSubcategoryQuery method
+title: IFunctionDiscoveryProviderQuery::IsSubcategoryQuery
 author: windows-driver-content
 description: Determines whether a query is for function instances in a specific subcategory.
 old-location: ncd\ifunctiondiscoveryproviderquery_issubcategoryquery.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: fa262e62-2e34-4881-915d-995d66fa6841
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IFunctionDiscoveryProviderQuery, IFunctionDiscoveryProviderQuery interface, IsSubcategoryQuery method, IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, IsSubcategoryQuery method, IsSubcategoryQuery method, IFunctionDiscoveryProviderQuery interface, IsSubcategoryQuery,IFunctionDiscoveryProviderQuery.IsSubcategoryQuery, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, ncd.ifunctiondiscoveryproviderquery_issubcategoryquery
+ms.keywords: IFunctionDiscoveryProviderQuery interface,IsSubcategoryQuery method, IFunctionDiscoveryProviderQuery.IsSubcategoryQuery, IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, IsSubcategoryQuery, IsSubcategoryQuery method, IsSubcategoryQuery method,IFunctionDiscoveryProviderQuery interface, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, ncd.ifunctiondiscoveryproviderquery_issubcategoryquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionDiscoveryProviderQuery::IsSubcategoryQuery method
+# IFunctionDiscoveryProviderQuery::IsSubcategoryQuery
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterObjectInfo.GetObjectType
-title: IGetClusterObjectInfo::GetObjectType method
+title: IGetClusterObjectInfo::GetObjectType
 author: windows-driver-content
 description: Returns the type of a cluster object.
 old-location: mscs\igetclusterobjectinfo_getobjecttype.htm
@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: f01a1ada-bb4d-4042-ac56-3658262d1110
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetObjectType method [Failover Cluster], GetObjectType method [Failover Cluster], IGetClusterObjectInfo interface, GetObjectType,IGetClusterObjectInfo.GetObjectType, IGetClusterObjectInfo, IGetClusterObjectInfo interface [Failover Cluster], GetObjectType method, IGetClusterObjectInfo::GetObjectType, _wolf_igetclusterobjectinfo_getobjecttype, cluadmex/IGetClusterObjectInfo::GetObjectType, mscs.igetclusterobjectinfo_getobjecttype
+ms.keywords: GetObjectType, GetObjectType method [Failover Cluster], GetObjectType method [Failover Cluster],IGetClusterObjectInfo interface, IGetClusterObjectInfo interface [Failover Cluster],GetObjectType method, IGetClusterObjectInfo.GetObjectType, IGetClusterObjectInfo::GetObjectType, _wolf_igetclusterobjectinfo_getobjecttype, cluadmex/IGetClusterObjectInfo::GetObjectType, mscs.igetclusterobjectinfo_getobjecttype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGetClusterObjectInfo::GetObjectType method
+# IGetClusterObjectInfo::GetObjectType
 
 
 ## -description

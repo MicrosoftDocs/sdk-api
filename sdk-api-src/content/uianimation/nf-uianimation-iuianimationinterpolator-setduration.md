@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.SetDuration
-title: IUIAnimationInterpolator::SetDuration method
+title: IUIAnimationInterpolator::SetDuration
 author: windows-driver-content
 description: Sets the duration of the transition.
 old-location: uianimation\iuianimationinterpolator_setduration.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 79038ada-ebc2-4259-862a-d81403c2f6b8
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationInterpolator, IUIAnimationInterpolator interface [Windows Animation], SetDuration method, IUIAnimationInterpolator::SetDuration, SetDuration method [Windows Animation], SetDuration method [Windows Animation], IUIAnimationInterpolator interface, SetDuration,IUIAnimationInterpolator.SetDuration, uianimation.iuianimationinterpolator_setduration, uianimation/IUIAnimationInterpolator::SetDuration
+ms.keywords: IUIAnimationInterpolator interface [Windows Animation],SetDuration method, IUIAnimationInterpolator.SetDuration, IUIAnimationInterpolator::SetDuration, SetDuration, SetDuration method [Windows Animation], SetDuration method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_setduration, uianimation/IUIAnimationInterpolator::SetDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationInterpolator::SetDuration method
+# IUIAnimationInterpolator::SetDuration
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetRequestId
-title: IXpsSignatureRequest::GetRequestId method
+title: IXpsSignatureRequest::GetRequestId
 author: windows-driver-content
 description: Gets the unique identifier of the signature request.
 old-location: xps\ixpssignaturerequest_getrequestid.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: abca5fdf-258b-4ce8-8b29-eae9a6d17cd7
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetRequestId method [XPS Documents and Packaging], GetRequestId method [XPS Documents and Packaging], IXpsSignatureRequest interface, GetRequestId,IXpsSignatureRequest.GetRequestId, IXpsSignatureRequest, IXpsSignatureRequest interface [XPS Documents and Packaging], GetRequestId method, IXpsSignatureRequest::GetRequestId, xps.ixpssignaturerequest_getrequestid, xpsdigitalsignature/IXpsSignatureRequest::GetRequestId
+ms.keywords: GetRequestId, GetRequestId method [XPS Documents and Packaging], GetRequestId method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetRequestId method, IXpsSignatureRequest.GetRequestId, IXpsSignatureRequest::GetRequestId, xps.ixpssignaturerequest_getrequestid, xpsdigitalsignature/IXpsSignatureRequest::GetRequestId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignatureRequest::GetRequestId method
+# IXpsSignatureRequest::GetRequestId
 
 
 ## -description

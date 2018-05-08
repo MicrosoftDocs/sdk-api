@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedRole
-title: IUIAutomationLegacyIAccessiblePattern::get_CachedRole method
+title: IUIAutomationLegacyIAccessiblePattern::get_CachedRole
 author: windows-driver-content
 description: Retrieves the cached Microsoft Active Accessibility role of the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: efa5ff74-1322-49ab-a7b9-f4394b3c6e64
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedRole property [Windows Accessibility], CachedRole property [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], CachedRole property, IUIAutomationLegacyIAccessiblePattern.CachedRole, IUIAutomationLegacyIAccessiblePattern::get_CachedRole, get_CachedRole,IUIAutomationLegacyIAccessiblePattern.get_CachedRole, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedRole, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole
+ms.keywords: CachedRole property [Windows Accessibility], CachedRole property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedRole property, IUIAutomationLegacyIAccessiblePattern.CachedRole, IUIAutomationLegacyIAccessiblePattern.get_CachedRole, IUIAutomationLegacyIAccessiblePattern::CachedRole, IUIAutomationLegacyIAccessiblePattern::get_CachedRole, get_CachedRole, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedRole, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationLegacyIAccessiblePattern::get_CachedRole method
+# IUIAutomationLegacyIAccessiblePattern::get_CachedRole
 
 
 ## -description

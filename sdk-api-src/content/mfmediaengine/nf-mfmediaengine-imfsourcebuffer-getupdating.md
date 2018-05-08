@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.GetUpdating
-title: IMFSourceBuffer::GetUpdating method
+title: IMFSourceBuffer::GetUpdating
 author: windows-driver-content
 description: Gets a value that indicates if Append, AppendByteStream, or Remove is in process.
 old-location: mf\imfsourcebuffer_getupdating.htm
 old-project: medfound
 ms.assetid: f1c810d1-05dd-4931-b063-fb86c6bedae3
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetUpdating method [Media Foundation], GetUpdating method [Media Foundation], IMFSourceBuffer interface, GetUpdating,IMFSourceBuffer.GetUpdating, IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], GetUpdating method, IMFSourceBuffer::GetUpdating, mf.imfsourcebuffer_getupdating, mfmediaengine/IMFSourceBuffer::GetUpdating
+ms.date: 5/3/2018
+ms.keywords: GetUpdating, GetUpdating method [Media Foundation], GetUpdating method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetUpdating method, IMFSourceBuffer.GetUpdating, IMFSourceBuffer::GetUpdating, mf.imfsourcebuffer_getupdating, mfmediaengine/IMFSourceBuffer::GetUpdating
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSourceBuffer::GetUpdating method
+# IMFSourceBuffer::GetUpdating
 
 
 ## -description

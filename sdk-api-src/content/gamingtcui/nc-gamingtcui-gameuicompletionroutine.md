@@ -8,7 +8,7 @@ old-project: tcui
 ms.assetid: 673F840F-1A87-42F5-8EE1-8CEAEB0CE7F8
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: GameUICompletionRoutine, GameUICompletionRoutine callback function, gamingtcui/GameUICompletionRoutine, tcui.gameuicompletionroutine
+ms.keywords: GameUICompletionRoutine, GameUICompletionRoutine callback, GameUICompletionRoutine callback function, gamingtcui/GameUICompletionRoutine, tcui.gameuicompletionroutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# GameUICompletionRoutine callback
+# GameUICompletionRoutine callback function
 
 
 ## -description

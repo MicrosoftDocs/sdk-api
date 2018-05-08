@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetCompressionOption
-title: IAppxFile::GetCompressionOption method
+title: IAppxFile::GetCompressionOption
 author: windows-driver-content
 description: Retrieves the compression option that is used to store the file in the package.
 old-location: appxpkg\iappxfile_getcompressionoption.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: E2F33ED4-EAD3-44AE-B646-3AB875FA7606
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCompressionOption method [App packaging and management], GetCompressionOption method [App packaging and management], IAppxFile interface, GetCompressionOption,IAppxFile.GetCompressionOption, IAppxFile, IAppxFile interface [App packaging and management], GetCompressionOption method, IAppxFile::GetCompressionOption, appxpackaging/IAppxFile::GetCompressionOption, appxpkg.iappxfile_getcompressionoption
+ms.keywords: GetCompressionOption, GetCompressionOption method [App packaging and management], GetCompressionOption method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetCompressionOption method, IAppxFile.GetCompressionOption, IAppxFile::GetCompressionOption, appxpackaging/IAppxFile::GetCompressionOption, appxpkg.iappxfile_getcompressionoption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxFile::GetCompressionOption method
+# IAppxFile::GetCompressionOption
 
 
 ## -description

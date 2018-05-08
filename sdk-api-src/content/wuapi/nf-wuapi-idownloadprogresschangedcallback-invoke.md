@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadProgressChangedCallback.Invoke
-title: IDownloadProgressChangedCallback::Invoke method
+title: IDownloadProgressChangedCallback::Invoke
 author: windows-driver-content
 description: Handles the notification of a change in the progress of an asynchronous download that was initiated by calling the IUpdateDownloader.BeginDownload method.
 old-location: wua\idownloadprogresschangedcallback_invoke.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 09bdbb3a-0556-4b3a-ba18-2fe7bcb33999
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IDownloadProgressChangedCallback, IDownloadProgressChangedCallback interface [Windows Update Agent], Invoke method, IDownloadProgressChangedCallback::Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent], IDownloadProgressChangedCallback interface, Invoke,IDownloadProgressChangedCallback.Invoke, wua.idownloadprogresschangedcallback_invoke, wuapi/IDownloadProgressChangedCallback::Invoke
+ms.keywords: IDownloadProgressChangedCallback interface [Windows Update Agent],Invoke method, IDownloadProgressChangedCallback.Invoke, IDownloadProgressChangedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],IDownloadProgressChangedCallback interface, wua.idownloadprogresschangedcallback_invoke, wuapi/IDownloadProgressChangedCallback::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IDownloadProgressChangedCallback::Invoke method
+# IDownloadProgressChangedCallback::Invoke
 
 
 ## -description

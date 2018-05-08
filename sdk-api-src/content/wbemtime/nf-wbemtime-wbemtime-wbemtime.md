@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.WBEMTime
-title: WBEMTime::WBEMTime method
+title: WBEMTime::WBEMTime
 author: windows-driver-content
 description: The WBEMTime class constructor facilitates conversions between various Windows and ANSI C run-time time formats.
 old-location: wmi\wbemtime_wbemtime.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 8b0ce221-2186-4aed-a474-00f88cef6350
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: WBEMTime, WBEMTime,WBEMTime.WBEMTime, WBEMTime::WBEMTime, WBEMTime::WBEMTime constructors [Windows Management Instrumentation], wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime
+ms.keywords: WBEMTime, WBEMTime.WBEMTime, WBEMTime::WBEMTime, WBEMTime::WBEMTime constructors [Windows Management Instrumentation], wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# WBEMTime::WBEMTime method
+# WBEMTime::WBEMTime
 
 
 ## -description

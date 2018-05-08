@@ -1,14 +1,14 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.SelectItem
-title: IShellFolderViewDual::SelectItem method
+title: IShellFolderViewDual::SelectItem
 author: windows-driver-content
 description: Sets the selection state of an item in the view.
 old-location: shell\IShellFolderViewDual_SelectItem.htm
 old-project: shell
 ms.assetid: fb9bc12f-bf5f-42f2-a1cd-160298f7c73a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellFolderViewDual, IShellFolderViewDual interface [Windows Shell], SelectItem method, IShellFolderViewDual::SelectItem, SelectItem method [Windows Shell], SelectItem method [Windows Shell], IShellFolderViewDual interface, SelectItem,IShellFolderViewDual.SelectItem, _shell_IShellFolderViewDual_SelectItem, shell.IShellFolderViewDual_SelectItem, shldisp/IShellFolderViewDual::SelectItem
+ms.date: 5/3/2018
+ms.keywords: IShellFolderViewDual interface [Windows Shell],SelectItem method, IShellFolderViewDual.SelectItem, IShellFolderViewDual::SelectItem, SelectItem, SelectItem method [Windows Shell], SelectItem method [Windows Shell],IShellFolderViewDual interface, _shell_IShellFolderViewDual_SelectItem, shell.IShellFolderViewDual_SelectItem, shldisp/IShellFolderViewDual::SelectItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellFolderViewDual::SelectItem method
+# IShellFolderViewDual::SelectItem
 
 
 ## -description

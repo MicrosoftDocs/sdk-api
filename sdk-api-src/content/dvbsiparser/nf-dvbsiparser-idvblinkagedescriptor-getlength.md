@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetLength
-title: IDvbLinkageDescriptor::GetLength method
+title: IDvbLinkageDescriptor::GetLength
 author: windows-driver-content
 description: Gets the body length of a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b6a4e072-3abe-4305-811d-2bdb846ce028
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IDvbLinkageDescriptor interface, GetLength,IDvbLinkageDescriptor.GetLength, IDvbLinkageDescriptor, IDvbLinkageDescriptor interface [Microsoft TV Technologies], GetLength method, IDvbLinkageDescriptor::GetLength, dvbsiparser/IDvbLinkageDescriptor::GetLength, mstv.idvblinkagedescriptor_getlength
+ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbLinkageDescriptor.GetLength, IDvbLinkageDescriptor::GetLength, dvbsiparser/IDvbLinkageDescriptor::GetLength, mstv.idvblinkagedescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbLinkageDescriptor::GetLength method
+# IDvbLinkageDescriptor::GetLength
 
 
 ## -description

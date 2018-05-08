@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSOMCollection.get_Count
-title: IGPMSOMCollection::get_Count method
+title: IGPMSOMCollection::get_Count
 author: windows-driver-content
 description: Returns the number of SOMs in the collection.
 old-location: gpmc\igpmsomcollection_get_count.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 3362bf1b-f989-4feb-b130-3fc9e5dcafa4
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Count property [GPMC], Count property [GPMC], GPMSOMCollection class, Count property [GPMC], IGPMSOMCollection interface, GPMSOMCollection class [GPMC], Count property, IGPMSOMCollection, IGPMSOMCollection interface [GPMC], Count property, IGPMSOMCollection.Count, IGPMSOMCollection::get_Count, _win32_igpmsomcollection_get_count, get_Count,IGPMSOMCollection.get_Count, gpmc.igpmsomcollection_get_count, gpmgmt/IGPMSOMCollection::Count, gpmgmt/IGPMSOMCollection::get_Count
+ms.keywords: Count property [GPMC], Count property [GPMC],GPMSOMCollection class, Count property [GPMC],IGPMSOMCollection interface, GPMSOMCollection class [GPMC],Count property, IGPMSOMCollection interface [GPMC],Count property, IGPMSOMCollection.Count, IGPMSOMCollection.get_Count, IGPMSOMCollection::Count, IGPMSOMCollection::get_Count, _win32_igpmsomcollection_get_count, get_Count, gpmc.igpmsomcollection_get_count, gpmgmt/IGPMSOMCollection::Count, gpmgmt/IGPMSOMCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMSOMCollection::get_Count method
+# IGPMSOMCollection::get_Count
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.RangeFromPoint
-title: IUIAutomationTextPattern::RangeFromPoint method
+title: IUIAutomationTextPattern::RangeFromPoint
 author: windows-driver-content
 description: Retrieves the degenerate (empty) text range nearest to the specified screen coordinates.
 old-location: winauto\uiauto_IUIAutomationTextPattern_RangeFromPoint.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: aa80b1d8-c50e-45be-8769-8b937c8e714a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationTextPattern, IUIAutomationTextPattern interface [Windows Accessibility], RangeFromPoint method, IUIAutomationTextPattern::RangeFromPoint, RangeFromPoint method [Windows Accessibility], RangeFromPoint method [Windows Accessibility], IUIAutomationTextPattern interface, RangeFromPoint,IUIAutomationTextPattern.RangeFromPoint, uiauto.uiauto_IUIAutomationTextPattern_RangeFromPoint, uiauto_IUIAutomationTextPattern_RangeFromPoint, uiautomationclient/IUIAutomationTextPattern::RangeFromPoint, winauto.uiauto_IUIAutomationTextPattern_RangeFromPoint
+ms.keywords: IUIAutomationTextPattern interface [Windows Accessibility],RangeFromPoint method, IUIAutomationTextPattern.RangeFromPoint, IUIAutomationTextPattern::RangeFromPoint, RangeFromPoint, RangeFromPoint method [Windows Accessibility], RangeFromPoint method [Windows Accessibility],IUIAutomationTextPattern interface, uiauto.uiauto_IUIAutomationTextPattern_RangeFromPoint, uiauto_IUIAutomationTextPattern_RangeFromPoint, uiautomationclient/IUIAutomationTextPattern::RangeFromPoint, winauto.uiauto_IUIAutomationTextPattern_RangeFromPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTextPattern::RangeFromPoint method
+# IUIAutomationTextPattern::RangeFromPoint
 
 
 ## -description

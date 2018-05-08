@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnLayoutChange
-title: ITextStoreAnchorSink::OnLayoutChange method
+title: ITextStoreAnchorSink::OnLayoutChange
 author: windows-driver-content
 description: The ITextStoreAnchorSink::OnLayoutChange method is called when the layout (on-screen representation) of the document changes.
 old-location: tsf\itextstoreanchorsink_onlayoutchange.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 22629ca6-5701-4f6f-b797-bb71c8d31da6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreAnchorSink, ITextStoreAnchorSink interface [Text Services Framework], OnLayoutChange method, ITextStoreAnchorSink::OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework], ITextStoreAnchorSink interface, OnLayoutChange,ITextStoreAnchorSink.OnLayoutChange, _tsf_itextstoreanchorsink_onlayoutchange_ref, textstor/ITextStoreAnchorSink::OnLayoutChange, tsf.itextstoreanchorsink_onlayoutchange
+ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnLayoutChange method, ITextStoreAnchorSink.OnLayoutChange, ITextStoreAnchorSink::OnLayoutChange, OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onlayoutchange_ref, textstor/ITextStoreAnchorSink::OnLayoutChange, tsf.itextstoreanchorsink_onlayoutchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreAnchorSink::OnLayoutChange method
+# ITextStoreAnchorSink::OnLayoutChange
 
 
 ## -description

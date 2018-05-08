@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IDMOQualityControl.GetStatus
-title: IDMOQualityControl::GetStatus method
+title: IDMOQualityControl::GetStatus
 author: windows-driver-content
 description: The GetStatus method determines whether quality control is active.
 old-location: dshow\idmoqualitycontrol_getstatus.htm
 old-project: DirectShow
 ms.assetid: 5c45874f-5546-40cc-a113-bea92bd9784b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetStatus method [DirectShow], GetStatus method [DirectShow], IDMOQualityControl interface, GetStatus,IDMOQualityControl.GetStatus, IDMOQualityControl, IDMOQualityControl interface [DirectShow], GetStatus method, IDMOQualityControl::GetStatus, IDMOQualityControlGetStatus, dshow.idmoqualitycontrol_getstatus, mediaobj/IDMOQualityControl::GetStatus
+ms.date: 4/30/2018
+ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IDMOQualityControl interface, IDMOQualityControl interface [DirectShow],GetStatus method, IDMOQualityControl.GetStatus, IDMOQualityControl::GetStatus, IDMOQualityControlGetStatus, dshow.idmoqualitycontrol_getstatus, mediaobj/IDMOQualityControl::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDMOQualityControl::GetStatus method
+# IDMOQualityControl::GetStatus
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.ClearProperty
-title: IVisualTreeService::ClearProperty method
+title: IVisualTreeService::ClearProperty
 author: windows-driver-content
 description: Clears the specified property on a XAML element.
 old-location: xaml_diagnostics\ivisualtreeservice_clearproperty.htm
@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: BB875AD0-271D-4913-9811-5A5102B3E331
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: ClearProperty method, ClearProperty method, IVisualTreeService interface, ClearProperty,IVisualTreeService.ClearProperty, IVisualTreeService, IVisualTreeService interface, ClearProperty method, IVisualTreeService::ClearProperty, xaml_diagnostics.ivisualtreeservice_clearproperty, xamlom/IVisualTreeService::ClearProperty
+ms.keywords: ClearProperty, ClearProperty method, ClearProperty method,IVisualTreeService interface, IVisualTreeService interface,ClearProperty method, IVisualTreeService.ClearProperty, IVisualTreeService::ClearProperty, xaml_diagnostics.ivisualtreeservice_clearproperty, xamlom/IVisualTreeService::ClearProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IVisualTreeService::ClearProperty method
+# IVisualTreeService::ClearProperty
 
 
 ## -description

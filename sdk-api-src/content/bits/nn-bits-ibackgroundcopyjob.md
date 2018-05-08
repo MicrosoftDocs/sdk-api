@@ -7,8 +7,8 @@ old-location: bits\ibackgroundcopyjob.htm
 old-project: Bits
 ms.assetid: 91dd1ae1-1740-4d95-a476-fc18aead1dc2
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], IBackgroundCopyJob interface [BITS], described, _drz_ibackgroundcopyjob, bits.ibackgroundcopyjob, bits/IBackgroundCopyJob
+ms.date: 4/27/2018
+ms.keywords: IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], IBackgroundCopyJob interface [BITS],described, _drz_ibackgroundcopyjob, bits.ibackgroundcopyjob, bits/IBackgroundCopyJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRow.SetCellIndex
-title: ITextRow::SetCellIndex method
+title: ITextRow::SetCellIndex
 author: windows-driver-content
 description: Sets the index of the active cell.
 old-location: controls\itextrow_setcellindex.htm
 old-project: Controls
 ms.assetid: 4b31ed10-f153-4614-ba96-95271fe4b218
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRow, ITextRow interface [Windows Controls], SetCellIndex method, ITextRow::SetCellIndex, SetCellIndex method [Windows Controls], SetCellIndex method [Windows Controls], ITextRow interface, SetCellIndex,ITextRow.SetCellIndex, controls.itextrow_setcellindex, tom/ITextRow::SetCellIndex
+ms.date: 4/27/2018
+ms.keywords: ITextRow interface [Windows Controls],SetCellIndex method, ITextRow.SetCellIndex, ITextRow::SetCellIndex, SetCellIndex, SetCellIndex method [Windows Controls], SetCellIndex method [Windows Controls],ITextRow interface, controls.itextrow_setcellindex, tom/ITextRow::SetCellIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRow::SetCellIndex method
+# ITextRow::SetCellIndex
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.GetDictionary
-title: IXpsOMCanvas::GetDictionary method
+title: IXpsOMCanvas::GetDictionary
 author: windows-driver-content
 description: Gets a pointer to the resolved IXpsOMDictionary interface of the dictionary associated with the canvas.
 old-location: xps\ixpsomcanvas_getdictionary.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: f32b534e-92bf-4e80-9ac1-b2577e076bed
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging], IXpsOMCanvas interface, GetDictionary,IXpsOMCanvas.GetDictionary, IXpsOMCanvas, IXpsOMCanvas interface [XPS Documents and Packaging], GetDictionary method, IXpsOMCanvas::GetDictionary, xps.ixpsomcanvas_getdictionary, xpsobjectmodel/IXpsOMCanvas::GetDictionary
+ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetDictionary method, IXpsOMCanvas.GetDictionary, IXpsOMCanvas::GetDictionary, xps.ixpsomcanvas_getdictionary, xpsobjectmodel/IXpsOMCanvas::GetDictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCanvas::GetDictionary method
+# IXpsOMCanvas::GetDictionary
 
 
 ## -description

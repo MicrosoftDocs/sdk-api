@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectionsInfo.GetNumberInputs
-title: IMILBitmapEffectConnectionsInfo::GetNumberInputs method
+title: IMILBitmapEffectConnectionsInfo::GetNumberInputs
 author: windows-driver-content
 description: Retrieves the number of input pins the bitmap effect implements.
 old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo_getnumberinputs.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\getnumberinputs.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetNumberInputs method [WPF Bitmap Effects], GetNumberInputs method [WPF Bitmap Effects], IMILBitmapEffectConnectionsInfo interface, GetNumberInputs,IMILBitmapEffectConnectionsInfo.GetNumberInputs, IMILBitmapEffectConnectionsInfo, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects], GetNumberInputs method, IMILBitmapEffectConnectionsInfo::GetNumberInputs, _wibe_imilbitmapeffectconnectionsinfo_getnumberinputs, mileffects/IMILBitmapEffectConnectionsInfo::GetNumberInputs, wibe._wibe_imilbitmapeffectconnectionsinfo_getnumberinputs
+ms.keywords: GetNumberInputs, GetNumberInputs method [WPF Bitmap Effects], GetNumberInputs method [WPF Bitmap Effects],IMILBitmapEffectConnectionsInfo interface, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects],GetNumberInputs method, IMILBitmapEffectConnectionsInfo.GetNumberInputs, IMILBitmapEffectConnectionsInfo::GetNumberInputs, _wibe_imilbitmapeffectconnectionsinfo_getnumberinputs, mileffects/IMILBitmapEffectConnectionsInfo::GetNumberInputs, wibe._wibe_imilbitmapeffectconnectionsinfo_getnumberinputs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectConnectionsInfo::GetNumberInputs method
+# IMILBitmapEffectConnectionsInfo::GetNumberInputs
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.GetStatus
-title: IUIAnimationStoryboard::GetStatus method
+title: IUIAnimationStoryboard::GetStatus
 author: windows-driver-content
 description: Gets the status of the storyboard.
 old-location: uianimation\iuianimationstoryboard_getstatus.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 8ee9a17f-c57c-49df-950d-491e05ba8768
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetStatus method [Windows Animation], GetStatus method [Windows Animation], IUIAnimationStoryboard interface, GetStatus,IUIAnimationStoryboard.GetStatus, IUIAnimationStoryboard, IUIAnimationStoryboard interface [Windows Animation], GetStatus method, IUIAnimationStoryboard::GetStatus, uianimation.iuianimationstoryboard_getstatus, uianimation/IUIAnimationStoryboard::GetStatus
+ms.keywords: GetStatus, GetStatus method [Windows Animation], GetStatus method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],GetStatus method, IUIAnimationStoryboard.GetStatus, IUIAnimationStoryboard::GetStatus, uianimation.iuianimationstoryboard_getstatus, uianimation/IUIAnimationStoryboard::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationStoryboard::GetStatus method
+# IUIAnimationStoryboard::GetStatus
 
 
 ## -description

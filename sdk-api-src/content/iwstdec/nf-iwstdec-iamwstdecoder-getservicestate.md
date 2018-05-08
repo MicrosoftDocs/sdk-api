@@ -1,14 +1,14 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetServiceState
-title: IAMWstDecoder::GetServiceState method
+title: IAMWstDecoder::GetServiceState
 author: windows-driver-content
 description: Applications use the GetServiceState method to retrieve the current service state.
 old-location: dshow\iamwstdecoder_getservicestate.htm
 old-project: DirectShow
 ms.assetid: 7a927341-6ff4-41f5-918b-ea5b9e1ebe9a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetServiceState method [DirectShow], GetServiceState method [DirectShow], IAMWstDecoder interface, GetServiceState,IAMWstDecoder.GetServiceState, IAMWstDecoder, IAMWstDecoder interface [DirectShow], GetServiceState method, IAMWstDecoder::GetServiceState, IAMWstDecoderGetServiceState, dshow.iamwstdecoder_getservicestate, iwstdec/IAMWstDecoder::GetServiceState
+ms.date: 4/30/2018
+ms.keywords: GetServiceState, GetServiceState method [DirectShow], GetServiceState method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetServiceState method, IAMWstDecoder.GetServiceState, IAMWstDecoder::GetServiceState, IAMWstDecoderGetServiceState, dshow.iamwstdecoder_getservicestate, iwstdec/IAMWstDecoder::GetServiceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAMWstDecoder::GetServiceState method
+# IAMWstDecoder::GetServiceState
 
 
 ## -description

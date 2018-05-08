@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_BoundaryLeft
-title: IInertiaProcessor::get_BoundaryLeft method
+title: IInertiaProcessor::get_BoundaryLeft
 author: windows-driver-content
 description: The BoundaryLeft property limits how far towards the left of the screen the target object can move.
 old-location: wintouch\iinertiaprocessor_leftboundary.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 476445bb-bf17-4091-a296-73594bd7ed7f
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: BoundaryLeft property [Windows Touch], BoundaryLeft property [Windows Touch], IInertiaProcessor interface, IInertiaProcessor, IInertiaProcessor interface [Windows Touch], BoundaryLeft property, IInertiaProcessor.BoundaryLeft, IInertiaProcessor::get_BoundaryLeft, IInertiaProcessor::put_BoundaryLeft, get_BoundaryLeft,IInertiaProcessor.get_BoundaryLeft, manipulations/IInertiaProcessor::BoundaryLeft, manipulations/IInertiaProcessor::get_BoundaryLeft, manipulations/IInertiaProcessor::put_BoundaryLeft, wintouch.iinertiaprocessor_leftboundary
+ms.keywords: BoundaryLeft property [Windows Touch], BoundaryLeft property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryLeft property, IInertiaProcessor.BoundaryLeft, IInertiaProcessor.get_BoundaryLeft, IInertiaProcessor::BoundaryLeft, IInertiaProcessor::get_BoundaryLeft, IInertiaProcessor::put_BoundaryLeft, get_BoundaryLeft, manipulations/IInertiaProcessor::BoundaryLeft, manipulations/IInertiaProcessor::get_BoundaryLeft, manipulations/IInertiaProcessor::put_BoundaryLeft, wintouch.iinertiaprocessor_leftboundary
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInertiaProcessor::get_BoundaryLeft method
+# IInertiaProcessor::get_BoundaryLeft
 
 
 ## -description

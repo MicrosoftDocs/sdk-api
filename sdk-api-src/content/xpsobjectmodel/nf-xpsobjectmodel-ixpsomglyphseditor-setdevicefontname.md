@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetDeviceFontName
-title: IXpsOMGlyphsEditor::SetDeviceFontName method
+title: IXpsOMGlyphsEditor::SetDeviceFontName
 author: windows-driver-content
 description: Sets the name of the device font.
 old-location: xps\ixpsomglyphseditor_setdevicefontname.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: d580f768-0c6a-4799-8ad8-d6f73b9216b9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], SetDeviceFontName method, IXpsOMGlyphsEditor::SetDeviceFontName, SetDeviceFontName method [XPS Documents and Packaging], SetDeviceFontName method [XPS Documents and Packaging], IXpsOMGlyphsEditor interface, SetDeviceFontName,IXpsOMGlyphsEditor.SetDeviceFontName, xps.ixpsomglyphseditor_setdevicefontname, xpsobjectmodel/IXpsOMGlyphsEditor::SetDeviceFontName
+ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetDeviceFontName method, IXpsOMGlyphsEditor.SetDeviceFontName, IXpsOMGlyphsEditor::SetDeviceFontName, SetDeviceFontName, SetDeviceFontName method [XPS Documents and Packaging], SetDeviceFontName method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setdevicefontname, xpsobjectmodel/IXpsOMGlyphsEditor::SetDeviceFontName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphsEditor::SetDeviceFontName method
+# IXpsOMGlyphsEditor::SetDeviceFontName
 
 
 ## -description

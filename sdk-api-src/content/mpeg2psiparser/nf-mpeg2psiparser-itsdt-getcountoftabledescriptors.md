@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.GetCountOfTableDescriptors
-title: ITSDT::GetCountOfTableDescriptors method
+title: ITSDT::GetCountOfTableDescriptors
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_getcountoftabledescriptors.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 29e2f3f7-4ff4-447b-bd17-36cd05829844
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies], ITSDT interface, GetCountOfTableDescriptors,ITSDT.GetCountOfTableDescriptors, ITSDT, ITSDT interface [Microsoft TV Technologies], GetCountOfTableDescriptors method, ITSDT::GetCountOfTableDescriptors, ITSDTGetCountOfTableDescriptors, mpeg2psiparser/ITSDT::GetCountOfTableDescriptors, mstv.itsdt_getcountoftabledescriptors
+ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, ITSDT.GetCountOfTableDescriptors, ITSDT::GetCountOfTableDescriptors, ITSDTGetCountOfTableDescriptors, mpeg2psiparser/ITSDT::GetCountOfTableDescriptors, mstv.itsdt_getcountoftabledescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITSDT::GetCountOfTableDescriptors method
+# ITSDT::GetCountOfTableDescriptors
 
 
 ## -description

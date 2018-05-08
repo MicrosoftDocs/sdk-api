@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 497d0331-c88d-4381-8990-94227a9b9659
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, IWSDDeviceHost interface, described, ncd.iwsddevicehost, wsdhost/IWSDDeviceHost
+ms.keywords: IWSDDeviceHost, IWSDDeviceHost interface, IWSDDeviceHost interface,described, ncd.iwsddevicehost, wsdhost/IWSDDeviceHost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

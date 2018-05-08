@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwMgr.IsPortAllowed
-title: INetFwMgr::IsPortAllowed method
+title: INetFwMgr::IsPortAllowed
 author: windows-driver-content
 description: Determines whether an application can listen for inbound traffic on the specified port.
 old-location: ics\inetfwmgr_isportallowed.htm
 old-project: ICS
 ms.assetid: 39e68271-8046-470a-af90-17bed770716d
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwMgr, INetFwMgr interface [ICS/ICF], IsPortAllowed method, INetFwMgr::IsPortAllowed, IsPortAllowed method [ICS/ICF], IsPortAllowed method [ICS/ICF], INetFwMgr interface, IsPortAllowed,INetFwMgr.IsPortAllowed, ics.inetfwmgr_isportallowed, netfw/INetFwMgr::IsPortAllowed
+ms.date: 5/1/2018
+ms.keywords: INetFwMgr interface [ICS/ICF],IsPortAllowed method, INetFwMgr.IsPortAllowed, INetFwMgr::IsPortAllowed, IsPortAllowed, IsPortAllowed method [ICS/ICF], IsPortAllowed method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_isportallowed, netfw/INetFwMgr::IsPortAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwMgr::IsPortAllowed method
+# INetFwMgr::IsPortAllowed
 
 
 ## -description

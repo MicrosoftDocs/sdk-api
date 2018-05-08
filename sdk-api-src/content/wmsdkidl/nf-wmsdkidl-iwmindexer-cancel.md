@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMIndexer.Cancel
-title: IWMIndexer::Cancel method
+title: IWMIndexer::Cancel
 author: windows-driver-content
 description: The Cancel method cancels the current indexing operation.
 old-location: wmformat\iwmindexer_cancel.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 8f6061bc-fb11-484a-b5b2-f56827e0fea9
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: Cancel method [windows Media Format], Cancel method [windows Media Format], IWMIndexer interface, Cancel,IWMIndexer.Cancel, IWMIndexer, IWMIndexer interface [windows Media Format], Cancel method, IWMIndexer::Cancel, IWMIndexerCancel, wmformat.iwmindexer_cancel, wmsdkidl/IWMIndexer::Cancel
+ms.keywords: Cancel, Cancel method [windows Media Format], Cancel method [windows Media Format],IWMIndexer interface, IWMIndexer interface [windows Media Format],Cancel method, IWMIndexer.Cancel, IWMIndexer::Cancel, IWMIndexerCancel, wmformat.iwmindexer_cancel, wmsdkidl/IWMIndexer::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMIndexer::Cancel method
+# IWMIndexer::Cancel
 
 
 ## -description

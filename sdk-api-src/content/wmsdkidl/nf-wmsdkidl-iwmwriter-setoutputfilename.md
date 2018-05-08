@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.SetOutputFilename
-title: IWMWriter::SetOutputFilename method
+title: IWMWriter::SetOutputFilename
 author: windows-driver-content
 description: The SetOutputFilename method specifies the name of the file to be written.
 old-location: wmformat\iwmwriter_setoutputfilename.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 352cf497-f7d6-41e8-bdbb-c59215b617a3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriter, IWMWriter interface [windows Media Format], SetOutputFilename method, IWMWriter::SetOutputFilename, IWMWriterSetOutputFilename, SetOutputFilename method [windows Media Format], SetOutputFilename method [windows Media Format], IWMWriter interface, SetOutputFilename,IWMWriter.SetOutputFilename, wmformat.iwmwriter_setoutputfilename, wmsdkidl/IWMWriter::SetOutputFilename
+ms.keywords: IWMWriter interface [windows Media Format],SetOutputFilename method, IWMWriter.SetOutputFilename, IWMWriter::SetOutputFilename, IWMWriterSetOutputFilename, SetOutputFilename, SetOutputFilename method [windows Media Format], SetOutputFilename method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_setoutputfilename, wmsdkidl/IWMWriter::SetOutputFilename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriter::SetOutputFilename method
+# IWMWriter::SetOutputFilename
 
 
 ## -description

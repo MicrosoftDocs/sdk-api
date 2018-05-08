@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.put_Text
-title: IX509EnrollmentStatus::put_Text method
+title: IX509EnrollmentStatus::put_Text
 author: windows-driver-content
 description: Specifies or retrieves a string that contains a message associated with the status of the enrollment process.
 old-location: security\ix509enrollmentstatus_text_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 071c4040-cdcf-4a01-918d-397726a235ed
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509EnrollmentStatus, IX509EnrollmentStatus interface [Security], Text property, IX509EnrollmentStatus.Text, IX509EnrollmentStatus::get_Text, IX509EnrollmentStatus::put_Text, Text property [Security], Text property [Security], IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Text, certenroll/IX509EnrollmentStatus::get_Text, certenroll/IX509EnrollmentStatus::put_Text, put_Text,IX509EnrollmentStatus.put_Text, security.ix509enrollmentstatus_text_property
+ms.keywords: IX509EnrollmentStatus interface [Security],Text property, IX509EnrollmentStatus.Text, IX509EnrollmentStatus.put_Text, IX509EnrollmentStatus::Text, IX509EnrollmentStatus::get_Text, IX509EnrollmentStatus::put_Text, Text property [Security], Text property [Security],IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Text, certenroll/IX509EnrollmentStatus::get_Text, certenroll/IX509EnrollmentStatus::put_Text, put_Text, security.ix509enrollmentstatus_text_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509EnrollmentStatus::put_Text method
+# IX509EnrollmentStatus::put_Text
 
 
 ## -description

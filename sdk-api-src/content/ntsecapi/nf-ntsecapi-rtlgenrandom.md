@@ -7,7 +7,7 @@ old-location: security\rtlgenrandom.htm
 old-project: SecCrypto
 ms.assetid: 0b0d7019-49a1-40d0-912d-c773bce09a26
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: RtlGenRandom, RtlGenRandom function [Security], ntsecapi/RtlGenRandom, security.rtlgenrandom
 ms.prod: windows-hardware
 ms.technology: windows-devices

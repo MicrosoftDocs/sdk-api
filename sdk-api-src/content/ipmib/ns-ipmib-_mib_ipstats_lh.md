@@ -60,6 +60,63 @@ The
 
 
 
+### -field dwForwarding
+
+Type: <b>DWORD</b>
+
+Specifies whether IP forwarding is enabled or disabled for a protocol (IPv4 or IPv6).
+
+On Windows Vista and later, this member is defined as a union containing a <b>DWORD dwForwarding</b> member and a <b>MIB_IPSTATS_FORWARDING Forwarding</b> member where <b>MIB_IPSTATS_FORWARDING</b> is an enumeration defined in the <i>Ipmib.h</i> header file.
+
+<div class="alert"><b>Note</b>   This member applies to the entire system per protocol (IPv4 or IPv6) and doesn’t return per interface configuration for IP forwarding.</div>
+<div> </div>
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="MIB_IP_FORWARDING"></a><a id="mib_ip_forwarding"></a><dl>
+<dt><b>MIB_IP_FORWARDING</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+IP forwarding is enabled.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MIB_IP_NOT_FORWARDING"></a><a id="mib_ip_not_forwarding"></a><dl>
+<dt><b>MIB_IP_NOT_FORWARDING</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+IP forwarding is not enabled.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MIB_USE_CURRENT_FORWARDING"></a><a id="mib_use_current_forwarding"></a><dl>
+<dt><b>MIB_USE_CURRENT_FORWARDING</b></dt>
+<dt>0xffff</dt>
+</dl>
+</td>
+<td width="60%">
+Use the current IP forwarding setting. This value is only applicable when setting the forwarding and time-to-live (TTL) options using the <b>SetIpStatistics</b> and <a href="https://msdn.microsoft.com/13b52016-5bdb-4546-af53-d3ae2708653b">SetIpStatisticsEx</a> functions.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field Forwarding
+
+ 
+
+
 ### -field dwDefaultTTL
 
 Type: <b>DWORD</b>
@@ -214,58 +271,6 @@ The number of IP addresses associated with this computer.
 Type: <b>DWORD</b>
 
 The number of routes in the IP routing table.
-
-
-#### - dwForwarding
-
-Type: <b>DWORD</b>
-
-Specifies whether IP forwarding is enabled or disabled for a protocol (IPv4 or IPv6).
-
-On Windows Vista and later, this member is defined as a union containing a <b>DWORD dwForwarding</b> member and a <b>MIB_IPSTATS_FORWARDING Forwarding</b> member where <b>MIB_IPSTATS_FORWARDING</b> is an enumeration defined in the <i>Ipmib.h</i> header file.
-
-<div class="alert"><b>Note</b>   This member applies to the entire system per protocol (IPv4 or IPv6) and doesn’t return per interface configuration for IP forwarding.</div>
-<div> </div>
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_IP_FORWARDING"></a><a id="mib_ip_forwarding"></a><dl>
-<dt><b>MIB_IP_FORWARDING</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-IP forwarding is enabled.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_IP_NOT_FORWARDING"></a><a id="mib_ip_not_forwarding"></a><dl>
-<dt><b>MIB_IP_NOT_FORWARDING</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-IP forwarding is not enabled.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MIB_USE_CURRENT_FORWARDING"></a><a id="mib_use_current_forwarding"></a><dl>
-<dt><b>MIB_USE_CURRENT_FORWARDING</b></dt>
-<dt>0xffff</dt>
-</dl>
-</td>
-<td width="60%">
-Use the current IP forwarding setting. This value is only applicable when setting the forwarding and time-to-live (TTL) options using the <b>SetIpStatistics</b> and <a href="https://msdn.microsoft.com/13b52016-5bdb-4546-af53-d3ae2708653b">SetIpStatisticsEx</a> functions.
-
-</td>
-</tr>
-</table>
- 
 
 
 ## -remarks

@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.GetGroupTag
-title: IPhotoAcquireSettings::GetGroupTag method
+title: IPhotoAcquireSettings::GetGroupTag
 author: windows-driver-content
 description: The GetGroupTag method retrieves a tag string for the group of files being downloaded from the device.
 old-location: picacq\iphotoacquiresettings_getgrouptag.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 4e65c5b2-ea1c-4376-a4bb-afbad7efb5ed
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetGroupTag method [Picture Acquisition], GetGroupTag method [Picture Acquisition], IPhotoAcquireSettings interface, GetGroupTag,IPhotoAcquireSettings.GetGroupTag, IPhotoAcquireSettings, IPhotoAcquireSettings interface [Picture Acquisition], GetGroupTag method, IPhotoAcquireSettings::GetGroupTag, IPhotoAcquireSettingsGetGroupTag, photoacquire/IPhotoAcquireSettings::GetGroupTag, picacq.iphotoacquiresettings_getgrouptag
+ms.keywords: GetGroupTag, GetGroupTag method [Picture Acquisition], GetGroupTag method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetGroupTag method, IPhotoAcquireSettings.GetGroupTag, IPhotoAcquireSettings::GetGroupTag, IPhotoAcquireSettingsGetGroupTag, photoacquire/IPhotoAcquireSettings::GetGroupTag, picacq.iphotoacquiresettings_getgrouptag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireSettings::GetGroupTag method
+# IPhotoAcquireSettings::GetGroupTag
 
 
 ## -description

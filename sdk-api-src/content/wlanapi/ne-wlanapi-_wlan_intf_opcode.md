@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: WLAN_INTF_OPCODE, *PWLAN_INTF_OPCODE, WLAN_INTF_OPCODE, *PWLAN_INTF_OPCODE
+req.typenames: WLAN_INTF_OPCODE, *PWLAN_INTF_OPCODE
 topic_type:
 -	APIRef
 -	kbSyntax

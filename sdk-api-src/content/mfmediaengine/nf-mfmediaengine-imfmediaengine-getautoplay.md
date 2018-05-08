@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetAutoPlay
-title: IMFMediaEngine::GetAutoPlay method
+title: IMFMediaEngine::GetAutoPlay
 author: windows-driver-content
 description: Queries whether the Media Engine automatically begins playback.
 old-location: mf\imfmediaengine_getautoplay.htm
 old-project: medfound
 ms.assetid: CEF50308-D4F9-435F-A81A-3746A27846F0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetAutoPlay method [Media Foundation], GetAutoPlay method [Media Foundation], IMFMediaEngine interface, GetAutoPlay,IMFMediaEngine.GetAutoPlay, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetAutoPlay method, IMFMediaEngine::GetAutoPlay, mf.imfmediaengine_getautoplay, mfmediaengine/IMFMediaEngine::GetAutoPlay
+ms.date: 5/3/2018
+ms.keywords: GetAutoPlay, GetAutoPlay method [Media Foundation], GetAutoPlay method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetAutoPlay method, IMFMediaEngine.GetAutoPlay, IMFMediaEngine::GetAutoPlay, mf.imfmediaengine_getautoplay, mfmediaengine/IMFMediaEngine::GetAutoPlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::GetAutoPlay method
+# IMFMediaEngine::GetAutoPlay
 
 
 ## -description

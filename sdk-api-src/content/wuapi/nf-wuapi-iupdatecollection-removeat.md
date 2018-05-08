@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateCollection.RemoveAt
-title: IUpdateCollection::RemoveAt method
+title: IUpdateCollection::RemoveAt
 author: windows-driver-content
 description: Removes the item at the specified index from the collection.
 old-location: wua\iupdatecollection_removeat.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: b6d32db8-c935-41f8-a8f3-0730719cac7e
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateCollection, IUpdateCollection interface [Windows Update Agent], RemoveAt method, IUpdateCollection::RemoveAt, RemoveAt method [Windows Update Agent], RemoveAt method [Windows Update Agent], IUpdateCollection interface, RemoveAt,IUpdateCollection.RemoveAt, wua.iupdatecollection_removeat, wuapi/IUpdateCollection::RemoveAt
+ms.keywords: IUpdateCollection interface [Windows Update Agent],RemoveAt method, IUpdateCollection.RemoveAt, IUpdateCollection::RemoveAt, RemoveAt, RemoveAt method [Windows Update Agent], RemoveAt method [Windows Update Agent],IUpdateCollection interface, wua.iupdatecollection_removeat, wuapi/IUpdateCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateCollection::RemoveAt method
+# IUpdateCollection::RemoveAt
 
 
 ## -description

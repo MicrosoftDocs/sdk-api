@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.GetQuota
-title: IFsrmQuotaManager::GetQuota method
+title: IFsrmQuotaManager::GetQuota
 author: windows-driver-content
 description: Retrieves the quota for the specified directory.
 old-location: fsrm\ifsrmquotamanager_getquota.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 1c595714-20c9-4ca5-96a2-64b7a7c6f84e
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmQuotaManager class [File Server Resource Manager], GetQuota method, GetQuota method [File Server Resource Manager], GetQuota method [File Server Resource Manager], FsrmQuotaManager class, GetQuota method [File Server Resource Manager], IFsrmQuotaManager interface, GetQuota method [File Server Resource Manager], IFsrmQuotaManagerEx interface, GetQuota,IFsrmQuotaManager.GetQuota, IFsrmQuotaManager, IFsrmQuotaManager interface [File Server Resource Manager], GetQuota method, IFsrmQuotaManager::GetQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager], GetQuota method, IFsrmQuotaManagerEx::GetQuota, fs.ifsrmquotamanager_getquota, fsrm.ifsrmquotamanager_getquota, fsrmquota/IFsrmQuotaManager::GetQuota, fsrmquota/IFsrmQuotaManagerEx::GetQuota
+ms.keywords: FsrmQuotaManager class [File Server Resource Manager],GetQuota method, GetQuota, GetQuota method [File Server Resource Manager], GetQuota method [File Server Resource Manager],FsrmQuotaManager class, GetQuota method [File Server Resource Manager],IFsrmQuotaManager interface, GetQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, IFsrmQuotaManager interface [File Server Resource Manager],GetQuota method, IFsrmQuotaManager.GetQuota, IFsrmQuotaManager::GetQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],GetQuota method, IFsrmQuotaManagerEx::GetQuota, fs.ifsrmquotamanager_getquota, fsrm.ifsrmquotamanager_getquota, fsrmquota/IFsrmQuotaManager::GetQuota, fsrmquota/IFsrmQuotaManagerEx::GetQuota
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaManager::GetQuota method
+# IFsrmQuotaManager::GetQuota
 
 
 ## -description

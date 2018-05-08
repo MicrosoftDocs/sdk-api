@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetGUID
-title: IMFAttributes::SetGUID method
+title: IMFAttributes::SetGUID
 author: windows-driver-content
 description: Associates a GUID value with a key.
 old-location: mf\imfattributes_setguid.htm
 old-project: medfound
 ms.assetid: d73b53f5-4a8f-4903-986d-fbf4277a2d45
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFAttributes, IMFAttributes interface [Media Foundation], SetGUID method, IMFAttributes::SetGUID, SetGUID method [Media Foundation], SetGUID method [Media Foundation], IMFAttributes interface, SetGUID,IMFAttributes.SetGUID, d73b53f5-4a8f-4903-986d-fbf4277a2d45, mf.imfattributes_setguid, mfobjects/IMFAttributes::SetGUID
+ms.date: 5/3/2018
+ms.keywords: IMFAttributes interface [Media Foundation],SetGUID method, IMFAttributes.SetGUID, IMFAttributes::SetGUID, SetGUID, SetGUID method [Media Foundation], SetGUID method [Media Foundation],IMFAttributes interface, d73b53f5-4a8f-4903-986d-fbf4277a2d45, mf.imfattributes_setguid, mfobjects/IMFAttributes::SetGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAttributes::SetGUID method
+# IMFAttributes::SetGUID
 
 
 ## -description

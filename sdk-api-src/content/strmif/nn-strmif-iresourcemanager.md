@@ -7,8 +7,8 @@ old-location: dshow\iresourcemanager.htm
 old-project: DirectShow
 ms.assetid: 8cbe908e-5675-4134-81e7-2c5c31b0ffc5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IResourceManager, IResourceManager interface [DirectShow], IResourceManager interface [DirectShow], described, IResourceManagerInterface, dshow.iresourcemanager, strmif/IResourceManager
+ms.date: 4/30/2018
+ms.keywords: IResourceManager, IResourceManager interface [DirectShow], IResourceManager interface [DirectShow],described, IResourceManagerInterface, dshow.iresourcemanager, strmif/IResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

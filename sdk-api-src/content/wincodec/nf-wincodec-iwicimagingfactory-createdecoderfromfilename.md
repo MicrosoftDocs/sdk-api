@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateDecoderFromFilename
-title: IWICImagingFactory::CreateDecoderFromFilename method
+title: IWICImagingFactory::CreateDecoderFromFilename
 author: windows-driver-content
 description: Creates a new instance of the IWICBitmapDecoder class based on the given file.
 old-location: wic\_wic_codec_iwicimagingfactory_createdecoderfromfilename.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 100c54c7-bb10-47dd-8436-04282ec6b110
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateDecoderFromFilename method [Windows Imaging Component], CreateDecoderFromFilename method [Windows Imaging Component], IWICImagingFactory interface, CreateDecoderFromFilename,IWICImagingFactory.CreateDecoderFromFilename, IWICImagingFactory, IWICImagingFactory interface [Windows Imaging Component], CreateDecoderFromFilename method, IWICImagingFactory::CreateDecoderFromFilename, _wic_codec_iwicimagingfactory_createdecoderfromfilename, wic._wic_codec_iwicimagingfactory_createdecoderfromfilename, wincodec/IWICImagingFactory::CreateDecoderFromFilename
+ms.keywords: CreateDecoderFromFilename, CreateDecoderFromFilename method [Windows Imaging Component], CreateDecoderFromFilename method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateDecoderFromFilename method, IWICImagingFactory.CreateDecoderFromFilename, IWICImagingFactory::CreateDecoderFromFilename, _wic_codec_iwicimagingfactory_createdecoderfromfilename, wic._wic_codec_iwicimagingfactory_createdecoderfromfilename, wincodec/IWICImagingFactory::CreateDecoderFromFilename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICImagingFactory::CreateDecoderFromFilename method
+# IWICImagingFactory::CreateDecoderFromFilename
 
 
 ## -description

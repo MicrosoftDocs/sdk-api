@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.GetInstanceOfGlobalStore
-title: ITsSbProvider::GetInstanceOfGlobalStore method
+title: ITsSbProvider::GetInstanceOfGlobalStore
 author: windows-driver-content
 description: Retrieves an ITsSbGlobalStore instance of the global store object.
 old-location: termserv\itssbprovider_getinstanceofglobalstore.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: e6c83775-56e7-4342-a26a-418f472e190f
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetInstanceOfGlobalStore method [Remote Desktop Services], GetInstanceOfGlobalStore method [Remote Desktop Services], ITsSbProvider interface, GetInstanceOfGlobalStore,ITsSbProvider.GetInstanceOfGlobalStore, ITsSbProvider, ITsSbProvider interface [Remote Desktop Services], GetInstanceOfGlobalStore method, ITsSbProvider::GetInstanceOfGlobalStore, sbtsv/ITsSbProvider::GetInstanceOfGlobalStore, termserv.itssbprovider_getinstanceofglobalstore
+ms.keywords: GetInstanceOfGlobalStore, GetInstanceOfGlobalStore method [Remote Desktop Services], GetInstanceOfGlobalStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetInstanceOfGlobalStore method, ITsSbProvider.GetInstanceOfGlobalStore, ITsSbProvider::GetInstanceOfGlobalStore, sbtsv/ITsSbProvider::GetInstanceOfGlobalStore, termserv.itssbprovider_getinstanceofglobalstore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbProvider::GetInstanceOfGlobalStore method
+# ITsSbProvider::GetInstanceOfGlobalStore
 
 
 ## -description

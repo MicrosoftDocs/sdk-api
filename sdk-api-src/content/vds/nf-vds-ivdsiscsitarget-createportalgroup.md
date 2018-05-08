@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.CreatePortalGroup
-title: IVdsIscsiTarget::CreatePortalGroup method
+title: IVdsIscsiTarget::CreatePortalGroup
 author: windows-driver-content
 description: Creates a portal group.
 old-location: base\ivdsiscsitarget_createportalgroup.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: c479b5ee-2e6a-4a3f-bd80-c3c25adac20f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreatePortalGroup method [VDS], CreatePortalGroup method [VDS], IVdsIscsiTarget interface, CreatePortalGroup,IVdsIscsiTarget.CreatePortalGroup, IVdsIscsiTarget, IVdsIscsiTarget interface [VDS], CreatePortalGroup method, IVdsIscsiTarget::CreatePortalGroup, base.ivdsiscsitarget_createportalgroup, vds/IVdsIscsiTarget::CreatePortalGroup, vdshwprv/IVdsIscsiTarget::CreatePortalGroup
+ms.keywords: CreatePortalGroup, CreatePortalGroup method [VDS], CreatePortalGroup method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],CreatePortalGroup method, IVdsIscsiTarget.CreatePortalGroup, IVdsIscsiTarget::CreatePortalGroup, base.ivdsiscsitarget_createportalgroup, vds/IVdsIscsiTarget::CreatePortalGroup, vdshwprv/IVdsIscsiTarget::CreatePortalGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsIscsiTarget::CreatePortalGroup method
+# IVdsIscsiTarget::CreatePortalGroup
 
 
 ## -description

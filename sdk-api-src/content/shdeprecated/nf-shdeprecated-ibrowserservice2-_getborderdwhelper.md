@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._GetBorderDWHelper
-title: IBrowserService2::_GetBorderDWHelper method
+title: IBrowserService2::_GetBorderDWHelper
 author: windows-driver-content
 description: Deprecated. A helper method for the implementation of GetBorderDW.
 old-location: shell\IBrowserService2__GetBorderDWHelper.htm
 old-project: shell
 ms.assetid: 44477311-61c6-48d0-bef8-349ca114a891
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], _GetBorderDWHelper method, IBrowserService2::_GetBorderDWHelper, _GetBorderDWHelper method [Windows Shell], _GetBorderDWHelper method [Windows Shell], IBrowserService2 interface, _GetBorderDWHelper,IBrowserService2._GetBorderDWHelper, shdeprecated/IBrowserService2::_GetBorderDWHelper, shell.IBrowserService2__GetBorderDWHelper, zone_IBrowserService2__GetBorderDWHelper
+ms.date: 5/3/2018
+ms.keywords: IBrowserService2 interface [Windows Shell],_GetBorderDWHelper method, IBrowserService2._GetBorderDWHelper, IBrowserService2::_GetBorderDWHelper, _GetBorderDWHelper, _GetBorderDWHelper method [Windows Shell], _GetBorderDWHelper method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetBorderDWHelper, shell.IBrowserService2__GetBorderDWHelper, zone_IBrowserService2__GetBorderDWHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::_GetBorderDWHelper method
+# IBrowserService2::_GetBorderDWHelper
 
 
 ## -description

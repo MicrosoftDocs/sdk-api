@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList.DragMove
-title: IImageList::DragMove method
+title: IImageList::DragMove
 author: windows-driver-content
 description: Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a WM_MOUSEMOVE message.
 old-location: controls\IImageList_DragMove.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragmove.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: DragMove method [Windows Controls], DragMove method [Windows Controls], IImageList interface, DragMove,IImageList.DragMove, IImageList, IImageList interface [Windows Controls], DragMove method, IImageList::DragMove, comctl_IImageList_DragMove, comctl_IImageList_DragMove_cpp, commoncontrols/IImageList::DragMove, controls.IImageList_DragMove, controls.comctl_IImageList_DragMove
+ms.date: 4/27/2018
+ms.keywords: DragMove, DragMove method [Windows Controls], DragMove method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],DragMove method, IImageList.DragMove, IImageList::DragMove, comctl_IImageList_DragMove, comctl_IImageList_DragMove_cpp, commoncontrols/IImageList::DragMove, controls.IImageList_DragMove, controls.comctl_IImageList_DragMove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList::DragMove method
+# IImageList::DragMove
 
 
 ## -description

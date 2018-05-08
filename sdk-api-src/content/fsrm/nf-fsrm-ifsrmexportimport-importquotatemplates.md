@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmExportImport.ImportQuotaTemplates
-title: IFsrmExportImport::ImportQuotaTemplates method
+title: IFsrmExportImport::ImportQuotaTemplates
 author: windows-driver-content
 description: Imports one or more quota templates from the specified file.
 old-location: fsrm\ifsrmexportimport_importquotatemplates.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 90b70f64-fbc7-48d2-9cf7-71e625ed32af
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FsrmExportImport class [File Server Resource Manager], ImportQuotaTemplates method, IFsrmExportImport, IFsrmExportImport interface [File Server Resource Manager], ImportQuotaTemplates method, IFsrmExportImport::ImportQuotaTemplates, ImportQuotaTemplates method [File Server Resource Manager], ImportQuotaTemplates method [File Server Resource Manager], FsrmExportImport class, ImportQuotaTemplates method [File Server Resource Manager], IFsrmExportImport interface, ImportQuotaTemplates,IFsrmExportImport.ImportQuotaTemplates, fs.ifsrmexportimport_importquotatemplates, fsrm.ifsrmexportimport_importquotatemplates, fsrm/IFsrmExportImport::ImportQuotaTemplates
+ms.keywords: FsrmExportImport class [File Server Resource Manager],ImportQuotaTemplates method, IFsrmExportImport interface [File Server Resource Manager],ImportQuotaTemplates method, IFsrmExportImport.ImportQuotaTemplates, IFsrmExportImport::ImportQuotaTemplates, ImportQuotaTemplates, ImportQuotaTemplates method [File Server Resource Manager], ImportQuotaTemplates method [File Server Resource Manager],FsrmExportImport class, ImportQuotaTemplates method [File Server Resource Manager],IFsrmExportImport interface, fs.ifsrmexportimport_importquotatemplates, fsrm.ifsrmexportimport_importquotatemplates, fsrm/IFsrmExportImport::ImportQuotaTemplates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmExportImport::ImportQuotaTemplates method
+# IFsrmExportImport::ImportQuotaTemplates
 
 
 ## -description

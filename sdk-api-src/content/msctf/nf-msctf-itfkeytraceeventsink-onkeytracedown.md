@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeyTraceEventSink.OnKeyTraceDown
-title: ITfKeyTraceEventSink::OnKeyTraceDown method
+title: ITfKeyTraceEventSink::OnKeyTraceDown
 author: windows-driver-content
 description: ITfKeyTraceEventSink::OnKeyTraceDown method
 old-location: tsf\itfkeytraceeventsink_onkeytracedown.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 826b45cd-a1ec-406c-bf7a-685a766484e3
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfKeyTraceEventSink, ITfKeyTraceEventSink interface [Text Services Framework], OnKeyTraceDown method, ITfKeyTraceEventSink::OnKeyTraceDown, OnKeyTraceDown method [Text Services Framework], OnKeyTraceDown method [Text Services Framework], ITfKeyTraceEventSink interface, OnKeyTraceDown,ITfKeyTraceEventSink.OnKeyTraceDown, _tsf_itfkeytraceeventsink_onkeytracedown_ref, msctf/ITfKeyTraceEventSink::OnKeyTraceDown, tsf.itfkeytraceeventsink_onkeytracedown
+ms.keywords: ITfKeyTraceEventSink interface [Text Services Framework],OnKeyTraceDown method, ITfKeyTraceEventSink.OnKeyTraceDown, ITfKeyTraceEventSink::OnKeyTraceDown, OnKeyTraceDown, OnKeyTraceDown method [Text Services Framework], OnKeyTraceDown method [Text Services Framework],ITfKeyTraceEventSink interface, _tsf_itfkeytraceeventsink_onkeytracedown_ref, msctf/ITfKeyTraceEventSink::OnKeyTraceDown, tsf.itfkeytraceeventsink_onkeytracedown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfKeyTraceEventSink::OnKeyTraceDown method
+# ITfKeyTraceEventSink::OnKeyTraceDown
 
 
 ## -description

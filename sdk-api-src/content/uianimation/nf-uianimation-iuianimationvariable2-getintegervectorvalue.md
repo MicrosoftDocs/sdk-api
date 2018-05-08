@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetIntegerVectorValue
-title: IUIAnimationVariable2::GetIntegerVectorValue method
+title: IUIAnimationVariable2::GetIntegerVectorValue
 author: windows-driver-content
 description: Gets the integer value of the animation variable for the specified dimension.
 old-location: uianimation\iuianimationvariable2_getintegervectorvalue.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 63832D4C-C1AB-4073-AE36-1539671F0F59
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetIntegerVectorValue method [Windows Animation], GetIntegerVectorValue method [Windows Animation], IUIAnimationVariable2 interface, GetIntegerVectorValue,IUIAnimationVariable2.GetIntegerVectorValue, IUIAnimationVariable2, IUIAnimationVariable2 interface [Windows Animation], GetIntegerVectorValue method, IUIAnimationVariable2::GetIntegerVectorValue, uianimation.iuianimationvariable2_getintegervectorvalue, uianimation/IUIAnimationVariable2::GetIntegerVectorValue
+ms.keywords: GetIntegerVectorValue, GetIntegerVectorValue method [Windows Animation], GetIntegerVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetIntegerVectorValue method, IUIAnimationVariable2.GetIntegerVectorValue, IUIAnimationVariable2::GetIntegerVectorValue, uianimation.iuianimationvariable2_getintegervectorvalue, uianimation/IUIAnimationVariable2::GetIntegerVectorValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable2::GetIntegerVectorValue method
+# IUIAnimationVariable2::GetIntegerVectorValue
 
 
 ## -description

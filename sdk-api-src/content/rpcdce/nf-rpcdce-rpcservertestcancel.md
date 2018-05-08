@@ -7,7 +7,7 @@ old-location: rpc\rpcservertestcancel.htm
 old-project: Rpc
 ms.assetid: de4b45a8-0516-4185-a342-364e0f5a633e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcServerTestCancel, RpcServerTestCancel function [RPC], _rpc_rpcservertestcancel, rpc.rpcservertestcancel, rpcdce/RpcServerTestCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

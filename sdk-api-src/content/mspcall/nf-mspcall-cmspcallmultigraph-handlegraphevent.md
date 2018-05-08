@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.HandleGraphEvent
-title: CMSPCallMultiGraph::HandleGraphEvent method
+title: CMSPCallMultiGraph::HandleGraphEvent
 author: windows-driver-content
 description: The HandleGraphEvent method is called by the DispatchGraphEvent static method to let the call object instance handle the event.
 old-location: tapi3\cmspcallmultigraph_handlegraphevent.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 6c661341-6ae6-4a0a-88e5-b661a09ec9fe
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPCallMultiGraph, CMSPCallMultiGraph interface [TAPI 2.2], HandleGraphEvent method, CMSPCallMultiGraph::HandleGraphEvent, HandleGraphEvent method [TAPI 2.2], HandleGraphEvent method [TAPI 2.2], CMSPCallMultiGraph interface, HandleGraphEvent,CMSPCallMultiGraph.HandleGraphEvent, _tapi3_cmspcallmultigraph_handlegraphevent, mspcall/CMSPCallMultiGraph::HandleGraphEvent, tapi3.cmspcallmultigraph_handlegraphevent
+ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],HandleGraphEvent method, CMSPCallMultiGraph.HandleGraphEvent, CMSPCallMultiGraph::HandleGraphEvent, HandleGraphEvent, HandleGraphEvent method [TAPI 2.2], HandleGraphEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_handlegraphevent, mspcall/CMSPCallMultiGraph::HandleGraphEvent, tapi3.cmspcallmultigraph_handlegraphevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPCallMultiGraph::HandleGraphEvent method
+# CMSPCallMultiGraph::HandleGraphEvent
 
 
 ## -description

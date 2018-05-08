@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 313508e5-a9b2-42b8-bb2f-d191944d0939
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IATSCTuningSpace, IATSCTuningSpace interface [Microsoft TV Technologies], IATSCTuningSpace interface [Microsoft TV Technologies], described, IATSCTuningSpaceInterface, mstv.iatsctuningspace, tuner/IATSCTuningSpace
+ms.keywords: IATSCTuningSpace, IATSCTuningSpace interface [Microsoft TV Technologies], IATSCTuningSpace interface [Microsoft TV Technologies],described, IATSCTuningSpaceInterface, mstv.iatsctuningspace, tuner/IATSCTuningSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

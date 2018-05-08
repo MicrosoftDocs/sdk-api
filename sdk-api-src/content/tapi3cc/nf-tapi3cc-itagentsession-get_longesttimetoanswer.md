@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_LongestTimeToAnswer
-title: ITAgentSession::get_LongestTimeToAnswer method
+title: ITAgentSession::get_LongestTimeToAnswer
 author: windows-driver-content
 description: The get_LongestTimeToAnswer method gets the longest time (in seconds) a call was waiting to be answered.
 old-location: tapi3\itagentsession_get_longesttimetoanswer.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: aca11b6d-7656-4162-9bf7-1b8ffaa487de
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], get_LongestTimeToAnswer method, ITAgentSession::get_LongestTimeToAnswer, _tapi3_itagentsession_get_longesttimetoanswer, get_LongestTimeToAnswer method [TAPI 2.2], get_LongestTimeToAnswer method [TAPI 2.2], ITAgentSession interface, get_LongestTimeToAnswer,ITAgentSession.get_LongestTimeToAnswer, tapi3.itagentsession_get_longesttimetoanswer, tapi3cc/ITAgentSession::get_LongestTimeToAnswer
+ms.keywords: ITAgentSession interface [TAPI 2.2],get_LongestTimeToAnswer method, ITAgentSession.get_LongestTimeToAnswer, ITAgentSession::get_LongestTimeToAnswer, _tapi3_itagentsession_get_longesttimetoanswer, get_LongestTimeToAnswer, get_LongestTimeToAnswer method [TAPI 2.2], get_LongestTimeToAnswer method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_longesttimetoanswer, tapi3cc/ITAgentSession::get_LongestTimeToAnswer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITAgentSession::get_LongestTimeToAnswer method
+# ITAgentSession::get_LongestTimeToAnswer
 
 
 ## -description

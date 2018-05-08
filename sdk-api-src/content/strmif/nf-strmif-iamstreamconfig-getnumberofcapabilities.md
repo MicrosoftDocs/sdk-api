@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMStreamConfig.GetNumberOfCapabilities
-title: IAMStreamConfig::GetNumberOfCapabilities method
+title: IAMStreamConfig::GetNumberOfCapabilities
 author: windows-driver-content
 description: The GetNumberOfCapabilities method retrieves the number of format capabilities that this pin supports.
 old-location: dshow\iamstreamconfig_getnumberofcapabilities.htm
 old-project: DirectShow
 ms.assetid: 355b8c4c-6d07-4d31-8dc5-ddc5ec2bf1cd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetNumberOfCapabilities method [DirectShow], GetNumberOfCapabilities method [DirectShow], IAMStreamConfig interface, GetNumberOfCapabilities,IAMStreamConfig.GetNumberOfCapabilities, IAMStreamConfig, IAMStreamConfig interface [DirectShow], GetNumberOfCapabilities method, IAMStreamConfig::GetNumberOfCapabilities, IAMStreamConfigGetNumberOfCapabilities, dshow.iamstreamconfig_getnumberofcapabilities, strmif/IAMStreamConfig::GetNumberOfCapabilities
+ms.date: 4/30/2018
+ms.keywords: GetNumberOfCapabilities, GetNumberOfCapabilities method [DirectShow], GetNumberOfCapabilities method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetNumberOfCapabilities method, IAMStreamConfig.GetNumberOfCapabilities, IAMStreamConfig::GetNumberOfCapabilities, IAMStreamConfigGetNumberOfCapabilities, dshow.iamstreamconfig_getnumberofcapabilities, strmif/IAMStreamConfig::GetNumberOfCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMStreamConfig::GetNumberOfCapabilities method
+# IAMStreamConfig::GetNumberOfCapabilities
 
 
 ## -description

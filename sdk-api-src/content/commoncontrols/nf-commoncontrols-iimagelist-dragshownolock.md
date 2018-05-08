@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList.DragShowNolock
-title: IImageList::DragShowNolock method
+title: IImageList::DragShowNolock
 author: windows-driver-content
 description: Shows or hides the image being dragged.
 old-location: controls\IImageList_DragShowNolock.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragshownolock.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: DragShowNolock method [Windows Controls], DragShowNolock method [Windows Controls], IImageList interface, DragShowNolock,IImageList.DragShowNolock, IImageList, IImageList interface [Windows Controls], DragShowNolock method, IImageList::DragShowNolock, comctl_IImageList_DragShowNolock, comctl_IImageList_DragShowNolock_cpp, commoncontrols/IImageList::DragShowNolock, controls.IImageList_DragShowNolock, controls.comctl_IImageList_DragShowNolock
+ms.date: 4/27/2018
+ms.keywords: DragShowNolock, DragShowNolock method [Windows Controls], DragShowNolock method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],DragShowNolock method, IImageList.DragShowNolock, IImageList::DragShowNolock, comctl_IImageList_DragShowNolock, comctl_IImageList_DragShowNolock_cpp, commoncontrols/IImageList::DragShowNolock, controls.IImageList_DragShowNolock, controls.comctl_IImageList_DragShowNolock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList::DragShowNolock method
+# IImageList::DragShowNolock
 
 
 ## -description

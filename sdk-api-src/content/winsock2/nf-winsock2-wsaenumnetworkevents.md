@@ -7,7 +7,7 @@ old-location: winsock\wsaenumnetworkevents_2.htm
 old-project: WinSock
 ms.assetid: 2e6abccd-c82c-4a6b-8720-259986ac9984
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: WSAEnumNetworkEvents, WSAEnumNetworkEvents function [Winsock], _win32_wsaenumnetworkevents_2, winsock.wsaenumnetworkevents_2, winsock2/WSAEnumNetworkEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

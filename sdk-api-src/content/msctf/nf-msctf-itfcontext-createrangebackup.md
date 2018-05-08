@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.CreateRangeBackup
-title: ITfContext::CreateRangeBackup method
+title: ITfContext::CreateRangeBackup
 author: windows-driver-content
 description: ITfContext::CreateRangeBackup method
 old-location: tsf\itfcontext_createrangebackup.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c3b52170-af1b-407b-9160-1265ae3c9afc
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: CreateRangeBackup method [Text Services Framework], CreateRangeBackup method [Text Services Framework], ITfContext interface, CreateRangeBackup,ITfContext.CreateRangeBackup, ITfContext, ITfContext interface [Text Services Framework], CreateRangeBackup method, ITfContext::CreateRangeBackup, _tsf_itfcontext_createrangebackup_ref, msctf/ITfContext::CreateRangeBackup, tsf.itfcontext_createrangebackup
+ms.keywords: CreateRangeBackup, CreateRangeBackup method [Text Services Framework], CreateRangeBackup method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],CreateRangeBackup method, ITfContext.CreateRangeBackup, ITfContext::CreateRangeBackup, _tsf_itfcontext_createrangebackup_ref, msctf/ITfContext::CreateRangeBackup, tsf.itfcontext_createrangebackup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContext::CreateRangeBackup method
+# ITfContext::CreateRangeBackup
 
 
 ## -description

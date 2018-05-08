@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResource.GetStream
-title: IXpsOMSignatureBlockResource::GetStream method
+title: IXpsOMSignatureBlockResource::GetStream
 author: windows-driver-content
 description: Gets a new, read-only copy of the stream that is associated with this resource.
 old-location: xps\ixpsomsignatureblockresource_getstream.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1e6c53fa-7180-454d-8bdc-332eb0d3fa27
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging], IXpsOMSignatureBlockResource interface, GetStream,IXpsOMSignatureBlockResource.GetStream, IXpsOMSignatureBlockResource, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging], GetStream method, IXpsOMSignatureBlockResource::GetStream, xps.ixpsomsignatureblockresource_getstream, xpsobjectmodel/IXpsOMSignatureBlockResource::GetStream
+ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMSignatureBlockResource interface, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],GetStream method, IXpsOMSignatureBlockResource.GetStream, IXpsOMSignatureBlockResource::GetStream, xps.ixpsomsignatureblockresource_getstream, xpsobjectmodel/IXpsOMSignatureBlockResource::GetStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMSignatureBlockResource::GetStream method
+# IXpsOMSignatureBlockResource::GetStream
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceRegistration.get_Service
-title: IUpdateServiceRegistration::get_Service method
+title: IUpdateServiceRegistration::get_Service
 author: windows-driver-content
 description: Gets a pointer to an IUpdateService2 interface. This property is the default property.
 old-location: wua\iupdateserviceregistration_service.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: d890c92f-c0f5-4445-ba6d-044bb0d6983b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateServiceRegistration, IUpdateServiceRegistration interface [Windows Update Agent], Service property, IUpdateServiceRegistration.Service, IUpdateServiceRegistration::get_Service, Service property [Windows Update Agent], Service property [Windows Update Agent], IUpdateServiceRegistration interface, get_Service,IUpdateServiceRegistration.get_Service, wua.iupdateserviceregistration_service, wuapi/IUpdateServiceRegistration::Service, wuapi/IUpdateServiceRegistration::get_Service
+ms.keywords: IUpdateServiceRegistration interface [Windows Update Agent],Service property, IUpdateServiceRegistration.Service, IUpdateServiceRegistration.get_Service, IUpdateServiceRegistration::Service, IUpdateServiceRegistration::get_Service, Service property [Windows Update Agent], Service property [Windows Update Agent],IUpdateServiceRegistration interface, get_Service, wua.iupdateserviceregistration_service, wuapi/IUpdateServiceRegistration::Service, wuapi/IUpdateServiceRegistration::get_Service
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateServiceRegistration::get_Service method
+# IUpdateServiceRegistration::get_Service
 
 
 ## -description

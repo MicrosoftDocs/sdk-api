@@ -7,7 +7,7 @@ old-location: buses\winusb_registerisochbuffer.htm
 old-project: usbref
 ms.assetid: 7781BD59-3576-4C43-9459-E2455F97E9DE
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/3/2018
 ms.keywords: WinUsb_RegisterIsochBuffer, WinUsb_RegisterIsochBuffer routine [Buses], buses.winusb_registerisochbuffer, winusb/WinUsb_RegisterIsochBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

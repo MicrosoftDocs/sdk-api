@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.CloseAudioTrack
-title: IRedbookDiscMaster::CloseAudioTrack method
+title: IRedbookDiscMaster::CloseAudioTrack
 author: windows-driver-content
 description: Closes a currently open audio track. All audio tracks must be closed before the IDiscMaster::RecordDisc method can be called.
 old-location: imapi\iredbookdiscmaster_closeaudiotrack.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 01ec0eba-d592-46eb-8029-86cb678b8b34
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CloseAudioTrack method [IMAPI], CloseAudioTrack method [IMAPI], IRedbookDiscMaster interface, CloseAudioTrack,IRedbookDiscMaster.CloseAudioTrack, IRedbookDiscMaster, IRedbookDiscMaster interface [IMAPI], CloseAudioTrack method, IRedbookDiscMaster::CloseAudioTrack, _win32_iredbookdiscmaster_closeaudiotrack, base.iredbookdiscmaster_closeaudiotrack, imapi.iredbookdiscmaster_closeaudiotrack, imapi/IRedbookDiscMaster::CloseAudioTrack
+ms.keywords: CloseAudioTrack, CloseAudioTrack method [IMAPI], CloseAudioTrack method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],CloseAudioTrack method, IRedbookDiscMaster.CloseAudioTrack, IRedbookDiscMaster::CloseAudioTrack, _win32_iredbookdiscmaster_closeaudiotrack, base.iredbookdiscmaster_closeaudiotrack, imapi.iredbookdiscmaster_closeaudiotrack, imapi/IRedbookDiscMaster::CloseAudioTrack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRedbookDiscMaster::CloseAudioTrack method
+# IRedbookDiscMaster::CloseAudioTrack
 
 
 ## -description

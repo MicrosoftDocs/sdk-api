@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Encoder.GetState
-title: IBDA_Encoder::GetState method
+title: IBDA_Encoder::GetState
 author: windows-driver-content
 description: Queries the current state of the Encoder Service.
 old-location: mstv\ibda_encoder_getstate.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f3fdb3cc-2d7a-4fc3-b33c-feb1524479ec
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetState method [Microsoft TV Technologies], GetState method [Microsoft TV Technologies], IBDA_Encoder interface, GetState,IBDA_Encoder.GetState, IBDA_Encoder, IBDA_Encoder interface [Microsoft TV Technologies], GetState method, IBDA_Encoder::GetState, PBDA_Encoder_BitrateMode_Average, PBDA_Encoder_BitrateMode_Constant, PBDA_Encoder_BitrateMode_Variable, bdaiface/IBDA_Encoder::GetState, mstv.ibda_encoder_getstate
+ms.keywords: GetState, GetState method [Microsoft TV Technologies], GetState method [Microsoft TV Technologies],IBDA_Encoder interface, IBDA_Encoder interface [Microsoft TV Technologies],GetState method, IBDA_Encoder.GetState, IBDA_Encoder::GetState, PBDA_Encoder_BitrateMode_Average, PBDA_Encoder_BitrateMode_Constant, PBDA_Encoder_BitrateMode_Variable, bdaiface/IBDA_Encoder::GetState, mstv.ibda_encoder_getstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_Encoder::GetState method
+# IBDA_Encoder::GetState
 
 
 ## -description

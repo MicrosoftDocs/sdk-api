@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMTuner.SignalPresent
-title: IAMTuner::SignalPresent method
+title: IAMTuner::SignalPresent
 author: windows-driver-content
 description: The SignalPresent method retrieves the strength of the signal on a given channel.
 old-location: dshow\iamtuner_signalpresent.htm
 old-project: DirectShow
 ms.assetid: 64a89038-4df1-4e30-8952-6dc039a2e18b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMTuner, IAMTuner interface [DirectShow], SignalPresent method, IAMTuner::SignalPresent, IAMTunerSignalPresent, SignalPresent method [DirectShow], SignalPresent method [DirectShow], IAMTuner interface, SignalPresent,IAMTuner.SignalPresent, dshow.iamtuner_signalpresent, strmif/IAMTuner::SignalPresent
+ms.date: 4/30/2018
+ms.keywords: IAMTuner interface [DirectShow],SignalPresent method, IAMTuner.SignalPresent, IAMTuner::SignalPresent, IAMTunerSignalPresent, SignalPresent, SignalPresent method [DirectShow], SignalPresent method [DirectShow],IAMTuner interface, dshow.iamtuner_signalpresent, strmif/IAMTuner::SignalPresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMTuner::SignalPresent method
+# IAMTuner::SignalPresent
 
 
 ## -description

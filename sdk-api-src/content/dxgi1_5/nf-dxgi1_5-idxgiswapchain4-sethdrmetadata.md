@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_5.IDXGISwapChain4.SetHDRMetaData
-title: IDXGISwapChain4::SetHDRMetaData method
+title: IDXGISwapChain4::SetHDRMetaData
 author: windows-driver-content
 description: This method sets High Dynamic Range (HDR) and Wide Color Gamut (WCG) header metadata.
 old-location: direct3ddxgi\idxgiswapchain4_sethdrmetadata.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 03EBBB29-EAC3-4FE7-9CA7-D9F62CFDA8FB
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGISwapChain4, IDXGISwapChain4 interface [DXGI], SetHDRMetaData method, IDXGISwapChain4::SetHDRMetaData, SetHDRMetaData method [DXGI], SetHDRMetaData method [DXGI], IDXGISwapChain4 interface, SetHDRMetaData,IDXGISwapChain4.SetHDRMetaData, direct3ddxgi.idxgiswapchain4_sethdrmetadata, dxgi1_5/IDXGISwapChain4::SetHDRMetaData
+ms.keywords: IDXGISwapChain4 interface [DXGI],SetHDRMetaData method, IDXGISwapChain4.SetHDRMetaData, IDXGISwapChain4::SetHDRMetaData, SetHDRMetaData, SetHDRMetaData method [DXGI], SetHDRMetaData method [DXGI],IDXGISwapChain4 interface, direct3ddxgi.idxgiswapchain4_sethdrmetadata, dxgi1_5/IDXGISwapChain4::SetHDRMetaData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGISwapChain4::SetHDRMetaData method
+# IDXGISwapChain4::SetHDRMetaData
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteEx.OnInPlaceDeactivateEx
-title: IOleInPlaceSiteEx::OnInPlaceDeactivateEx method
+title: IOleInPlaceSiteEx::OnInPlaceDeactivateEx
 author: windows-driver-content
 description: Notifies the container if the object needs to be redrawn upon deactivation.
 old-location: com\ioleinplacesiteex_oninplacedeactivateex.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: c3c68b46-adca-4f8d-86c2-075b72f7c656
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceSiteEx, IOleInPlaceSiteEx interface [COM], OnInPlaceDeactivateEx method, IOleInPlaceSiteEx::OnInPlaceDeactivateEx, IOleInPlaceSiteWindowless.OnInPlaceDeactivateEx, OnInPlaceDeactivateEx method [COM], OnInPlaceDeactivateEx method [COM], IOleInPlaceSiteEx interface, OnInPlaceDeactivateEx,IOleInPlaceSiteEx.OnInPlaceDeactivateEx, _ole_ioleinplacesiteex_oninplacedeactivateex, com.ioleinplacesiteex_oninplacedeactivateex, ocidl/IOleInPlaceSiteEx::OnInPlaceDeactivateEx
+ms.keywords: IOleInPlaceSiteEx interface [COM],OnInPlaceDeactivateEx method, IOleInPlaceSiteEx.OnInPlaceDeactivateEx, IOleInPlaceSiteEx::OnInPlaceDeactivateEx, IOleInPlaceSiteWindowless.OnInPlaceDeactivateEx, OnInPlaceDeactivateEx, OnInPlaceDeactivateEx method [COM], OnInPlaceDeactivateEx method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_oninplacedeactivateex, com.ioleinplacesiteex_oninplacedeactivateex, ocidl/IOleInPlaceSiteEx::OnInPlaceDeactivateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSiteEx::OnInPlaceDeactivateEx method
+# IOleInPlaceSiteEx::OnInPlaceDeactivateEx
 
 
 ## -description

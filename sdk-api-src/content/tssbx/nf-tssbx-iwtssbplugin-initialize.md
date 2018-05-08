@@ -1,6 +1,6 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.Initialize
-title: IWTSSBPlugin::Initialize method
+title: IWTSSBPlugin::Initialize
 author: windows-driver-content
 description: Initializes the plug-in and returns a value that indicates the redirection capabilities of the plug-in.
 old-location: termserv\iwtssbplugin_initialize.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: b9304f4a-49ed-4a5e-87a1-7a9bc1c01b3d
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWTSSBPlugin, IWTSSBPlugin interface [Remote Desktop Services], Initialize method, IWTSSBPlugin::Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services], IWTSSBPlugin interface, Initialize,IWTSSBPlugin.Initialize, termserv.iwtssbplugin_initialize, tssbx/IWTSSBPlugin::Initialize
+ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],Initialize method, IWTSSBPlugin.Initialize, IWTSSBPlugin::Initialize, Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_initialize, tssbx/IWTSSBPlugin::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IWTSSBPlugin::Initialize method
+# IWTSSBPlugin::Initialize
 
 
 ## -description

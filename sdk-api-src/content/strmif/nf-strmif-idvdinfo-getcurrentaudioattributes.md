@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentAudioAttributes
-title: IDvdInfo::GetCurrentAudioAttributes method
+title: IDvdInfo::GetCurrentAudioAttributes
 author: windows-driver-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the attributes for the current audio stream in the current title or menu.
 old-location: dshow\idvdinfo_getcurrentaudioattributes.htm
 old-project: DirectShow
 ms.assetid: b6cb0162-747a-468d-a28f-49621dd27df0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCurrentAudioAttributes method [DirectShow], GetCurrentAudioAttributes method [DirectShow], IDvdInfo interface, GetCurrentAudioAttributes,IDvdInfo.GetCurrentAudioAttributes, IDvdInfo, IDvdInfo interface [DirectShow], GetCurrentAudioAttributes method, IDvdInfo::GetCurrentAudioAttributes, IDvdInfoGetCurrentAudioAttributes, dshow.idvdinfo_getcurrentaudioattributes, strmif/IDvdInfo::GetCurrentAudioAttributes
+ms.date: 4/30/2018
+ms.keywords: GetCurrentAudioAttributes, GetCurrentAudioAttributes method [DirectShow], GetCurrentAudioAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentAudioAttributes method, IDvdInfo.GetCurrentAudioAttributes, IDvdInfo::GetCurrentAudioAttributes, IDvdInfoGetCurrentAudioAttributes, dshow.idvdinfo_getcurrentaudioattributes, strmif/IDvdInfo::GetCurrentAudioAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo::GetCurrentAudioAttributes method
+# IDvdInfo::GetCurrentAudioAttributes
 
 
 ## -description

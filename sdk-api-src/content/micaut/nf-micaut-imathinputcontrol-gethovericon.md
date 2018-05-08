@@ -1,14 +1,14 @@
 ---
 UID: NF:micaut.IMathInputControl.GetHoverIcon
-title: IMathInputControl::GetHoverIcon method
+title: IMathInputControl::GetHoverIcon
 author: windows-driver-content
 description: Retrieves the icon to be used for the hover target to launch math input control.
 old-location: tablet\imathinputcontrol_gethovericon.htm
 old-project: tablet
 ms.assetid: 281695e6-295b-42d8-a184-c5a005de10e3
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetHoverIcon method [Tablet PC], GetHoverIcon method [Tablet PC], IMathInputControl interface, GetHoverIcon,IMathInputControl.GetHoverIcon, IMathInputControl, IMathInputControl interface [Tablet PC], GetHoverIcon method, IMathInputControl::GetHoverIcon, micaut/IMathInputControl::GetHoverIcon, tablet.imathinputcontrol_gethovericon
+ms.date: 5/2/2018
+ms.keywords: GetHoverIcon, GetHoverIcon method [Tablet PC], GetHoverIcon method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetHoverIcon method, IMathInputControl.GetHoverIcon, IMathInputControl::GetHoverIcon, micaut/IMathInputControl::GetHoverIcon, tablet.imathinputcontrol_gethovericon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMathInputControl::GetHoverIcon method
+# IMathInputControl::GetHoverIcon
 
 
 ## -description

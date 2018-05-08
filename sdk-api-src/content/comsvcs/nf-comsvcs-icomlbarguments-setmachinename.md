@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICOMLBArguments.SetMachineName
-title: ICOMLBArguments::SetMachineName method
+title: ICOMLBArguments::SetMachineName
 author: windows-driver-content
 description: Sets the computer name for the load balancing server.
 old-location: cos\icomlbarguments_setmachinename.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 55f9d45e-5c36-4f02-9a9d-111ad4abf016
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICOMLBArguments, ICOMLBArguments interface [COM+], SetMachineName method, ICOMLBArguments::SetMachineName, SetMachineName method [COM+], SetMachineName method [COM+], ICOMLBArguments interface, SetMachineName,ICOMLBArguments.SetMachineName, _cos_ICOMLBArguments_SetMachineName, comsvcs/ICOMLBArguments::SetMachineName, cos.icomlbarguments_setmachinename
+ms.keywords: ICOMLBArguments interface [COM+],SetMachineName method, ICOMLBArguments.SetMachineName, ICOMLBArguments::SetMachineName, SetMachineName, SetMachineName method [COM+], SetMachineName method [COM+],ICOMLBArguments interface, _cos_ICOMLBArguments_SetMachineName, comsvcs/ICOMLBArguments::SetMachineName, cos.icomlbarguments_setmachinename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMLBArguments::SetMachineName method
+# ICOMLBArguments::SetMachineName
 
 
 ## -description

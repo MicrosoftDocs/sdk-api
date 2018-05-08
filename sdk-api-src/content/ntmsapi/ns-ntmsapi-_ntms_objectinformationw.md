@@ -354,234 +354,291 @@ Description of the device or system control object. The description of device an
 <a href="https://msdn.microsoft.com/1cdb9c72-1b34-4800-a07d-b648baec8582">SetNtmsObjectInformation</a> function. (Writable for all objects)
 
 
+### -field Info.Drive.case
+
+ 
+
+
+### -field Info.Drive.case.NTMS_DRIVE
+
+ 
+
+
+### -field Info.DriveType.case
+
+ 
+
+
+### -field Info.DriveType.case.NTMS_DRIVE_TYPE
+
+ 
+
+
+### -field Info.Library.case
+
+ 
+
+
+### -field Info.Library.case.NTMS_LIBRARY
+
+ 
+
+
+### -field Info.Changer.case
+
+ 
+
+
+### -field Info.Changer.case.NTMS_CHANGER
+
+ 
+
+
+### -field Info.ChangerType.case
+
+ 
+
+
+### -field Info.ChangerType.case.NTMS_CHANGER_TYPE
+
+ 
+
+
+### -field Info.StorageSlot.case
+
+ 
+
+
+### -field Info.StorageSlot.case.NTMS_STORAGESLOT
+
+ 
+
+
+### -field Info.IEDoor.case
+
+ 
+
+
+### -field Info.IEDoor.case.NTMS_IEDOOR
+
+ 
+
+
+### -field Info.IEPort.case
+
+ 
+
+
+### -field Info.IEPort.case.NTMS_IEPORT
+
+ 
+
+
+### -field Info.PhysicalMedia.case
+
+ 
+
+
+### -field Info.PhysicalMedia.case.NTMS_PHYSICAL_MEDIA
+
+ 
+
+
+### -field Info.LogicalMedia.case
+
+ 
+
+
+### -field Info.LogicalMedia.case.NTMS_LOGICAL_MEDIA
+
+ 
+
+
+### -field Info.Partition.case
+
+ 
+
+
+### -field Info.Partition.case.NTMS_PARTITION
+
+ 
+
+
+### -field Info.MediaPool.case
+
+ 
+
+
+### -field Info.MediaPool.case.NTMS_MEDIA_POOL
+
+ 
+
+
+### -field Info.MediaType.case
+
+ 
+
+
+### -field Info.MediaType.case.NTMS_MEDIA_TYPE
+
+ 
+
+
+### -field Info.LibRequest.case
+
+ 
+
+
+### -field Info.LibRequest.case.NTMS_LIBREQUEST
+
+ 
+
+
+### -field Info.OpRequest.case
+
+ 
+
+
+### -field Info.OpRequest.case.NTMS_OPREQUEST
+
+ 
+
+
+### -field Info.Computer.case
+
+ 
+
+
+### -field Info.Computer.case.NTMS_COMPUTER
+
+ 
+
+
+### -field Info.switch_is
+
+ 
+
+
+### -field Info.switch_is.dwType
+
+ 
+
+
 ### -field Info
 
 Device or system control object-specific information. The format of this information depends on the <b>dwType</b> member.
 
 
-
-#### Library
-
-<b>Type: <b><a href="https://msdn.microsoft.com/f8ca33ba-35e2-4fd9-a9a0-1393bbbede80">NTMS_LIBRARYINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_LIBRARY</b>.
-
-
-
-#### Changer
-
-<b>Type: <b><a href="https://msdn.microsoft.com/2aa9fccf-dea3-4fa3-9fbf-6d83770c3893">NTMS_CHANGERINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER</b>.
-
-
-
-#### ChangerType
-
-<b>Type: <b><a href="https://msdn.microsoft.com/49c219d7-5772-4868-80dd-ab1e1f1471b1">NTMS_CHANGERTYPEINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER_TYPE</b>.
-
-
-
-#### Drive
+### -field Info.Drive
 
 <b>Type: <b><a href="https://msdn.microsoft.com/a095a8f1-a059-4aed-88da-a139286993b5">NTMS_DRIVEINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE</b>.
 
 
-
-#### DriveType
-
-<b>Type: <b><a href="https://msdn.microsoft.com/2c852397-540c-44f9-a94e-2100d1588d75">NTMS_DRIVETYPEINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE_TYPE</b>.
-
-
-
-#### StorageSlot
-
-<b>Type: <b><a href="https://msdn.microsoft.com/95b9d2e9-ddf3-459f-b9de-cefc15adb419">NTMS_STORAGESLOTINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_STORAGESLOT</b>.
-
-
-
-#### IEDoor
-
-<b>Type: <b><a href="https://msdn.microsoft.com/a0619420-f391-4695-a87e-8cbf8d3a3742">NTMS_IEDOORINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_IEDOOR</b>.
-
-
-
-#### IEPort
-
-<b>Type: <b><a href="https://msdn.microsoft.com/e932a482-12d8-4fb2-bbbc-0e0cf6ee0b42">NTMS_IEPORTINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_IEPORT</b>.
-
-
-
-#### LogicalMedia
-
-<b>Type: <b><a href="https://msdn.microsoft.com/f1a003af-101a-4f1f-b644-392e5542e8dd">NTMS_LMIDINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_LOGICAL_MEDIA</b>.
-
-
-
-#### Partition
-
-<b>Type: <b><a href="https://msdn.microsoft.com/75ba3b8d-4b44-49be-b238-e02e62c3def6">NTMS_PARTITIONINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_PARTITION</b>.
-
-
-
-#### PhysicalMedia
-
-<b>Type: <b><a href="https://msdn.microsoft.com/9ed46cc9-0b93-44ef-9c33-1e1baadb225f">NTMS_PMIDINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_PHYSICAL_MEDIA</b>.
-
-
-
-#### MediaPool
-
-<b>Type: <b><a href="https://msdn.microsoft.com/4feb9d68-f88b-4515-9c59-64fe9c5594d6">NTMS_MEDIAPOOLINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_POOL</b>.
-
-
-
-#### MediaType
-
-<b>Type: <b><a href="https://msdn.microsoft.com/38020a77-0340-4096-a2a8-d16eec5857e6">NTMS_MEDIATYPEINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_TYPE</b>.
-
-
-
-#### OpRequest
-
-<b>Type: <b>NTMS_OPREQUESTINFORMATION</b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_OPREQUEST</b>.
-
-
-
-#### LibRequest
-
-<b>Type: <b><a href="https://msdn.microsoft.com/0250ed88-410c-4fe3-8188-5e6253d45dc4">NTMS_LIBREQUESTINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_LIBREQUEST</b>.
-
-
-##### - Info.Changer
-
-<b>Type: <b><a href="https://msdn.microsoft.com/2aa9fccf-dea3-4fa3-9fbf-6d83770c3893">NTMS_CHANGERINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER</b>.
-
-
-##### - Info.ChangerType
-
-<b>Type: <b><a href="https://msdn.microsoft.com/49c219d7-5772-4868-80dd-ab1e1f1471b1">NTMS_CHANGERTYPEINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER_TYPE</b>.
-
-
-##### - Info.Drive
-
-<b>Type: <b><a href="https://msdn.microsoft.com/a095a8f1-a059-4aed-88da-a139286993b5">NTMS_DRIVEINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE</b>.
-
-
-##### - Info.DriveType
+### -field Info.DriveType
 
 <b>Type: <b><a href="https://msdn.microsoft.com/2c852397-540c-44f9-a94e-2100d1588d75">NTMS_DRIVETYPEINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_DRIVE_TYPE</b>.
 
 
-##### - Info.IEDoor
-
-<b>Type: <b><a href="https://msdn.microsoft.com/a0619420-f391-4695-a87e-8cbf8d3a3742">NTMS_IEDOORINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_IEDOOR</b>.
-
-
-##### - Info.IEPort
-
-<b>Type: <b><a href="https://msdn.microsoft.com/e932a482-12d8-4fb2-bbbc-0e0cf6ee0b42">NTMS_IEPORTINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_IEPORT</b>.
-
-
-##### - Info.LibRequest
-
-<b>Type: <b><a href="https://msdn.microsoft.com/0250ed88-410c-4fe3-8188-5e6253d45dc4">NTMS_LIBREQUESTINFORMATION</a></b>
-</b>
-This format is used if the <b>dwType</b> value is <b>NTMS_LIBREQUEST</b>.
-
-
-##### - Info.Library
+### -field Info.Library
 
 <b>Type: <b><a href="https://msdn.microsoft.com/f8ca33ba-35e2-4fd9-a9a0-1393bbbede80">NTMS_LIBRARYINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_LIBRARY</b>.
 
 
-##### - Info.LogicalMedia
+### -field Info.Changer
 
-<b>Type: <b><a href="https://msdn.microsoft.com/f1a003af-101a-4f1f-b644-392e5542e8dd">NTMS_LMIDINFORMATION</a></b>
+<b>Type: <b><a href="https://msdn.microsoft.com/2aa9fccf-dea3-4fa3-9fbf-6d83770c3893">NTMS_CHANGERINFORMATION</a></b>
 </b>
-This format is used if the <b>dwType</b> value is <b>NTMS_LOGICAL_MEDIA</b>.
+This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER</b>.
 
 
-##### - Info.MediaPool
+### -field Info.ChangerType
 
-<b>Type: <b><a href="https://msdn.microsoft.com/4feb9d68-f88b-4515-9c59-64fe9c5594d6">NTMS_MEDIAPOOLINFORMATION</a></b>
+<b>Type: <b><a href="https://msdn.microsoft.com/49c219d7-5772-4868-80dd-ab1e1f1471b1">NTMS_CHANGERTYPEINFORMATION</a></b>
 </b>
-This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_POOL</b>.
+This format is used if the <b>dwType</b> value is <b>NTMS_CHANGER_TYPE</b>.
 
 
-##### - Info.MediaType
+### -field Info.StorageSlot
 
-<b>Type: <b><a href="https://msdn.microsoft.com/38020a77-0340-4096-a2a8-d16eec5857e6">NTMS_MEDIATYPEINFORMATION</a></b>
+<b>Type: <b><a href="https://msdn.microsoft.com/95b9d2e9-ddf3-459f-b9de-cefc15adb419">NTMS_STORAGESLOTINFORMATION</a></b>
 </b>
-This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_TYPE</b>.
+This format is used if the <b>dwType</b> value is <b>NTMS_STORAGESLOT</b>.
 
 
-##### - Info.OpRequest
+### -field Info.IEDoor
 
-<b>Type: <b>NTMS_OPREQUESTINFORMATION</b>
+<b>Type: <b><a href="https://msdn.microsoft.com/a0619420-f391-4695-a87e-8cbf8d3a3742">NTMS_IEDOORINFORMATION</a></b>
 </b>
-This format is used if the <b>dwType</b> value is <b>NTMS_OPREQUEST</b>.
+This format is used if the <b>dwType</b> value is <b>NTMS_IEDOOR</b>.
 
 
-##### - Info.Partition
+### -field Info.IEPort
 
-<b>Type: <b><a href="https://msdn.microsoft.com/75ba3b8d-4b44-49be-b238-e02e62c3def6">NTMS_PARTITIONINFORMATION</a></b>
+<b>Type: <b><a href="https://msdn.microsoft.com/e932a482-12d8-4fb2-bbbc-0e0cf6ee0b42">NTMS_IEPORTINFORMATION</a></b>
 </b>
-This format is used if the <b>dwType</b> value is <b>NTMS_PARTITION</b>.
+This format is used if the <b>dwType</b> value is <b>NTMS_IEPORT</b>.
 
 
-##### - Info.PhysicalMedia
+### -field Info.PhysicalMedia
 
 <b>Type: <b><a href="https://msdn.microsoft.com/9ed46cc9-0b93-44ef-9c33-1e1baadb225f">NTMS_PMIDINFORMATION</a></b>
 </b>
 This format is used if the <b>dwType</b> value is <b>NTMS_PHYSICAL_MEDIA</b>.
 
 
-##### - Info.StorageSlot
+### -field Info.LogicalMedia
 
-<b>Type: <b><a href="https://msdn.microsoft.com/95b9d2e9-ddf3-459f-b9de-cefc15adb419">NTMS_STORAGESLOTINFORMATION</a></b>
+<b>Type: <b><a href="https://msdn.microsoft.com/f1a003af-101a-4f1f-b644-392e5542e8dd">NTMS_LMIDINFORMATION</a></b>
 </b>
-This format is used if the <b>dwType</b> value is <b>NTMS_STORAGESLOT</b>.
+This format is used if the <b>dwType</b> value is <b>NTMS_LOGICAL_MEDIA</b>.
+
+
+### -field Info.Partition
+
+<b>Type: <b><a href="https://msdn.microsoft.com/75ba3b8d-4b44-49be-b238-e02e62c3def6">NTMS_PARTITIONINFORMATION</a></b>
+</b>
+This format is used if the <b>dwType</b> value is <b>NTMS_PARTITION</b>.
+
+
+### -field Info.MediaPool
+
+<b>Type: <b><a href="https://msdn.microsoft.com/4feb9d68-f88b-4515-9c59-64fe9c5594d6">NTMS_MEDIAPOOLINFORMATION</a></b>
+</b>
+This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_POOL</b>.
+
+
+### -field Info.MediaType
+
+<b>Type: <b><a href="https://msdn.microsoft.com/38020a77-0340-4096-a2a8-d16eec5857e6">NTMS_MEDIATYPEINFORMATION</a></b>
+</b>
+This format is used if the <b>dwType</b> value is <b>NTMS_MEDIA_TYPE</b>.
+
+
+### -field Info.LibRequest
+
+<b>Type: <b><a href="https://msdn.microsoft.com/0250ed88-410c-4fe3-8188-5e6253d45dc4">NTMS_LIBREQUESTINFORMATION</a></b>
+</b>
+This format is used if the <b>dwType</b> value is <b>NTMS_LIBREQUEST</b>.
+
+
+### -field Info.OpRequest
+
+<b>Type: <b>NTMS_OPREQUESTINFORMATION</b>
+</b>
+This format is used if the <b>dwType</b> value is <b>NTMS_OPREQUEST</b>.
+
+
+### -field Info.Computer
+
+ 
+
+
 
 
 ## -remarks

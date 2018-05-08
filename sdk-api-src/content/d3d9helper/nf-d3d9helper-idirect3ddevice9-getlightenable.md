@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetLightEnable
-title: IDirect3DDevice9::GetLightEnable method
+title: IDirect3DDevice9::GetLightEnable
 author: windows-driver-content
 description: Retrieves the activity status - enabled or disabled - for a set of lighting parameters within a device.
 old-location: direct3d9\idirect3ddevice9__getlightenable.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getlightenable.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 2d73c9f9-8cdd-b499-9dc6-930ac19d6977, GetLightEnable method [Direct3D 9], GetLightEnable method [Direct3D 9], IDirect3DDevice9 interface, GetLightEnable,IDirect3DDevice9.GetLightEnable, IDirect3DDevice9, IDirect3DDevice9 interface [Direct3D 9], GetLightEnable method, IDirect3DDevice9::GetLightEnable, d3d9helper/IDirect3DDevice9::GetLightEnable, direct3d9.idirect3ddevice9__getlightenable
+ms.keywords: 2d73c9f9-8cdd-b499-9dc6-930ac19d6977, GetLightEnable, GetLightEnable method [Direct3D 9], GetLightEnable method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetLightEnable method, IDirect3DDevice9.GetLightEnable, IDirect3DDevice9::GetLightEnable, d3d9helper/IDirect3DDevice9::GetLightEnable, direct3d9.idirect3ddevice9__getlightenable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9::GetLightEnable method
+# IDirect3DDevice9::GetLightEnable
 
 
 ## -description

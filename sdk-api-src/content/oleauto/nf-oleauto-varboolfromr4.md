@@ -7,7 +7,7 @@ old-location: automat\varboolfromr4.htm
 old-project: automat
 ms.assetid: c382d989-7009-4ea5-b2c8-fe4857296f4a
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarBoolFromR4, VarBoolFromR4 function [Automation], _oa96_VarBoolFromR4, automat.varboolfromr4, oleauto/VarBoolFromR4
 ms.prod: windows-hardware
 ms.technology: windows-devices

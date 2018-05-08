@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartEnumerator.GetCurrent
-title: IOpcPartEnumerator::GetCurrent method
+title: IOpcPartEnumerator::GetCurrent
 author: windows-driver-content
 description: Gets the IOpcPart interface pointer at the current position of the enumerator.
 old-location: opc\iopcpartenumerator_getcurrent.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 54759fcb-858f-434c-92e9-6164f3d972fb
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions], IOpcPartEnumerator interface, GetCurrent,IOpcPartEnumerator.GetCurrent, IOpcPartEnumerator, IOpcPartEnumerator interface [Open Packaging Conventions], GetCurrent method, IOpcPartEnumerator::GetCurrent, msopc/IOpcPartEnumerator::GetCurrent, opc.iopcpartenumerator_getcurrent
+ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcPartEnumerator interface, IOpcPartEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcPartEnumerator.GetCurrent, IOpcPartEnumerator::GetCurrent, msopc/IOpcPartEnumerator::GetCurrent, opc.iopcpartenumerator_getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcPartEnumerator::GetCurrent method
+# IOpcPartEnumerator::GetCurrent
 
 
 ## -description

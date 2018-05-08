@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.IsEqualTfGuidAtom
-title: ITfCategoryMgr::IsEqualTfGuidAtom method
+title: ITfCategoryMgr::IsEqualTfGuidAtom
 author: windows-driver-content
 description: ITfCategoryMgr::IsEqualTfGuidAtom method
 old-location: tsf\itfcategorymgr_isequaltfguidatom.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 813916f6-610f-4031-bb17-67d7f5ffed6f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfCategoryMgr, ITfCategoryMgr interface [Text Services Framework], IsEqualTfGuidAtom method, ITfCategoryMgr::IsEqualTfGuidAtom, IsEqualTfGuidAtom method [Text Services Framework], IsEqualTfGuidAtom method [Text Services Framework], ITfCategoryMgr interface, IsEqualTfGuidAtom,ITfCategoryMgr.IsEqualTfGuidAtom, _tsf_itfcategorymgr_isequaltfguidatom_ref, msctf/ITfCategoryMgr::IsEqualTfGuidAtom, tsf.itfcategorymgr_isequaltfguidatom
+ms.keywords: ITfCategoryMgr interface [Text Services Framework],IsEqualTfGuidAtom method, ITfCategoryMgr.IsEqualTfGuidAtom, ITfCategoryMgr::IsEqualTfGuidAtom, IsEqualTfGuidAtom, IsEqualTfGuidAtom method [Text Services Framework], IsEqualTfGuidAtom method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_isequaltfguidatom_ref, msctf/ITfCategoryMgr::IsEqualTfGuidAtom, tsf.itfcategorymgr_isequaltfguidatom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfCategoryMgr::IsEqualTfGuidAtom method
+# ITfCategoryMgr::IsEqualTfGuidAtom
 
 
 ## -description

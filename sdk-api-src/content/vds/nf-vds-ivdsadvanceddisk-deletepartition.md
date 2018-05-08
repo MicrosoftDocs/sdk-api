@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.DeletePartition
-title: IVdsAdvancedDisk::DeletePartition method
+title: IVdsAdvancedDisk::DeletePartition
 author: windows-driver-content
 description: Deletes a partition from a basic disk.
 old-location: base\ivdsadvanceddisk_deletepartition.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 3b1a9d18-5f0b-4535-b0fb-6b1929099c1a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: DeletePartition method [VDS], DeletePartition method [VDS], IVdsAdvancedDisk interface, DeletePartition,IVdsAdvancedDisk.DeletePartition, IVdsAdvancedDisk, IVdsAdvancedDisk interface [VDS], DeletePartition method, IVdsAdvancedDisk::DeletePartition, base.ivdsadvanceddisk_deletepartition, vds/IVdsAdvancedDisk::DeletePartition
+ms.keywords: DeletePartition, DeletePartition method [VDS], DeletePartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],DeletePartition method, IVdsAdvancedDisk.DeletePartition, IVdsAdvancedDisk::DeletePartition, base.ivdsadvanceddisk_deletepartition, vds/IVdsAdvancedDisk::DeletePartition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsAdvancedDisk::DeletePartition method
+# IVdsAdvancedDisk::DeletePartition
 
 
 ## -description

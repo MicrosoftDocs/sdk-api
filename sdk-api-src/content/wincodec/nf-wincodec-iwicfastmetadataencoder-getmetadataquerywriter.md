@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICFastMetadataEncoder.GetMetadataQueryWriter
-title: IWICFastMetadataEncoder::GetMetadataQueryWriter method
+title: IWICFastMetadataEncoder::GetMetadataQueryWriter
 author: windows-driver-content
 description: Retrieves a metadata query writer for fast metadata encoding.
 old-location: wic\_wic_codec_iwicfastmetadataencoder_getmetadataquerywriter.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 1d8a0993-101a-4aa5-9e2f-c3f95b9d3d3f
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetMetadataQueryWriter method [Windows Imaging Component], GetMetadataQueryWriter method [Windows Imaging Component], IWICFastMetadataEncoder interface, GetMetadataQueryWriter,IWICFastMetadataEncoder.GetMetadataQueryWriter, IWICFastMetadataEncoder, IWICFastMetadataEncoder interface [Windows Imaging Component], GetMetadataQueryWriter method, IWICFastMetadataEncoder::GetMetadataQueryWriter, _wic_codec_iwicfastmetadataencoder_getmetadataquerywriter, wic._wic_codec_iwicfastmetadataencoder_getmetadataquerywriter, wincodec/IWICFastMetadataEncoder::GetMetadataQueryWriter
+ms.keywords: GetMetadataQueryWriter, GetMetadataQueryWriter method [Windows Imaging Component], GetMetadataQueryWriter method [Windows Imaging Component],IWICFastMetadataEncoder interface, IWICFastMetadataEncoder interface [Windows Imaging Component],GetMetadataQueryWriter method, IWICFastMetadataEncoder.GetMetadataQueryWriter, IWICFastMetadataEncoder::GetMetadataQueryWriter, _wic_codec_iwicfastmetadataencoder_getmetadataquerywriter, wic._wic_codec_iwicfastmetadataencoder_getmetadataquerywriter, wincodec/IWICFastMetadataEncoder::GetMetadataQueryWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICFastMetadataEncoder::GetMetadataQueryWriter method
+# IWICFastMetadataEncoder::GetMetadataQueryWriter
 
 
 ## -description

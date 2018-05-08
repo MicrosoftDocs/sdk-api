@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.InitializeDiscRecorder
-title: IDiscRecorder2::InitializeDiscRecorder method
+title: IDiscRecorder2::InitializeDiscRecorder
 author: windows-driver-content
 description: Associates the object with the specified disc device.
 old-location: imapi\idiscrecorder2_initializediscrecorder.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 19a647b3-ef39-4208-9dfc-e52242a88c6c
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscRecorder2, IDiscRecorder2 interface [IMAPI], InitializeDiscRecorder method, IDiscRecorder2::InitializeDiscRecorder, InitializeDiscRecorder method [IMAPI], InitializeDiscRecorder method [IMAPI], IDiscRecorder2 interface, InitializeDiscRecorder,IDiscRecorder2.InitializeDiscRecorder, imapi.idiscrecorder2_initializediscrecorder, imapi2/IDiscRecorder2::InitializeDiscRecorder
+ms.keywords: IDiscRecorder2 interface [IMAPI],InitializeDiscRecorder method, IDiscRecorder2.InitializeDiscRecorder, IDiscRecorder2::InitializeDiscRecorder, InitializeDiscRecorder, InitializeDiscRecorder method [IMAPI], InitializeDiscRecorder method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_initializediscrecorder, imapi2/IDiscRecorder2::InitializeDiscRecorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2::InitializeDiscRecorder method
+# IDiscRecorder2::InitializeDiscRecorder
 
 
 ## -description

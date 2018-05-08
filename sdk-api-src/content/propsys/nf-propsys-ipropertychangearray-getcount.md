@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.GetCount
-title: IPropertyChangeArray::GetCount method
+title: IPropertyChangeArray::GetCount
 author: windows-driver-content
 description: Gets the number of change operations in the array.
 old-location: properties\IPropertyChangeArray_GetCount.htm
 old-project: properties
 ms.assetid: b87db827-2eb1-4463-aa6a-10591b200adf
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetCount method [Windows Properties], GetCount method [Windows Properties], IPropertyChangeArray interface, GetCount,IPropertyChangeArray.GetCount, IPropertyChangeArray, IPropertyChangeArray interface [Windows Properties], GetCount method, IPropertyChangeArray::GetCount, _shell_IPropertyChangeArray_GetCount, properties.IPropertyChangeArray_GetCount, propsys/IPropertyChangeArray::GetCount, shell.IPropertyChangeArray_GetCount
+ms.date: 4/27/2018
+ms.keywords: GetCount, GetCount method [Windows Properties], GetCount method [Windows Properties],IPropertyChangeArray interface, IPropertyChangeArray interface [Windows Properties],GetCount method, IPropertyChangeArray.GetCount, IPropertyChangeArray::GetCount, _shell_IPropertyChangeArray_GetCount, properties.IPropertyChangeArray_GetCount, propsys/IPropertyChangeArray::GetCount, shell.IPropertyChangeArray_GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyChangeArray::GetCount method
+# IPropertyChangeArray::GetCount
 
 
 ## -description

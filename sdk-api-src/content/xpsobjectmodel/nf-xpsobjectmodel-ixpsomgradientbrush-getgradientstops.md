@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetGradientStops
-title: IXpsOMGradientBrush::GetGradientStops method
+title: IXpsOMGradientBrush::GetGradientStops
 author: windows-driver-content
 description: Gets a pointer to an IXpsOMGradientStopCollection interface that contains the collection of IXpsOMGradientStop interfaces that define the gradient.
 old-location: xps\ixpsomgradientbrush_getgradientstops.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1b308323-12d4-427c-a3d8-fcf5488e1dde
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetGradientStops method [XPS Documents and Packaging], GetGradientStops method [XPS Documents and Packaging], IXpsOMGradientBrush interface, GetGradientStops,IXpsOMGradientBrush.GetGradientStops, IXpsOMGradientBrush, IXpsOMGradientBrush interface [XPS Documents and Packaging], GetGradientStops method, IXpsOMGradientBrush::GetGradientStops, xps.ixpsomgradientbrush_getgradientstops, xpsobjectmodel/IXpsOMGradientBrush::GetGradientStops
+ms.keywords: GetGradientStops, GetGradientStops method [XPS Documents and Packaging], GetGradientStops method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetGradientStops method, IXpsOMGradientBrush.GetGradientStops, IXpsOMGradientBrush::GetGradientStops, xps.ixpsomgradientbrush_getgradientstops, xpsobjectmodel/IXpsOMGradientBrush::GetGradientStops
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientBrush::GetGradientStops method
+# IXpsOMGradientBrush::GetGradientStops
 
 
 ## -description

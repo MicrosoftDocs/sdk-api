@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 84dfee11-8092-4018-8840-e766a94c60a4
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDTransportAddress, IWSDTransportAddress interface, IWSDTransportAddress interface, described, ncd.iwsdtransportaddress, wsdbase/IWSDTransportAddress
+ms.keywords: IWSDTransportAddress, IWSDTransportAddress interface, IWSDTransportAddress interface,described, ncd.iwsdtransportaddress, wsdbase/IWSDTransportAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

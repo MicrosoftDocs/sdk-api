@@ -122,23 +122,70 @@ Marks the end of an enumeration.
 Time stamp of the record.
 
 
+### -field ForestTrustData.TopLevelName.case
+
+ 
+
+
+### -field ForestTrustData.TopLevelName.case.ForestTrustTopLevelName
+
+ 
+
+
+### -field ForestTrustData.TopLevelName.case.ForestTrustTopLevelNameEx
+
+ 
+
+
+### -field ForestTrustData.DomainInfo.case
+
+ 
+
+
+### -field ForestTrustData.DomainInfo.case.ForestTrustDomainInfo
+
+ 
+
+
+### -field ForestTrustData.Data.default
+
+ 
+
+
+### -field ForestTrustData.switch_type
+
+ 
+
+
+### -field ForestTrustData.switch_type.LSA_FOREST_TRUST_RECORD_TYPE
+
+ 
+
+
+### -field ForestTrustData.switch_is
+
+ 
+
+
+### -field ForestTrustData.switch_is.ForestTrustType
+
+ 
+
+
 ### -field ForestTrustData
 
 
-
-#### TopLevelName
+### -field ForestTrustData.TopLevelName
 
 Top-level name. This member is used only if the <b>ForestTrustType</b> member is <b>ForestTrustTopLevelName</b> or <b>ForestTrustTopLevelNameEx</b>.
 
 
-
-#### DomainInfo
+### -field ForestTrustData.DomainInfo
 
 Domain information. This member is used only if the <b>ForestTrustType</b> member is <b>ForestTrustDomainInfo</b>.
 
 
-
-#### Data
+### -field ForestTrustData.Data
 
 Binary data. This member is used for unrecognized entries after ForestTrustRecordTypeLast.
 

@@ -7,7 +7,7 @@ old-location: controls\Header_SetImageList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setimagelist.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: Header_SetImageList, Header_SetImageList macro [Windows Controls], _win32_Header_SetImageList, _win32_Header_SetImageList_cpp, commctrl/Header_SetImageList, controls.Header_SetImageList, controls._win32_Header_SetImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices

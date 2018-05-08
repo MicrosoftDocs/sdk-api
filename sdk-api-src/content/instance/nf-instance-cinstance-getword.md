@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetWORD
-title: CInstance::GetWORD method
+title: CInstance::GetWORD
 author: windows-driver-content
 description: The GetWORD method retrieves a WORD property.
 old-location: wmi\cinstance_getword.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 511e4ce9-33e3-4c64-8016-05dd5630970f
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CInstance, CInstance interface [Windows Management Instrumentation], GetWORD method, CInstance::GetWORD, GetWORD method [Windows Management Instrumentation], GetWORD method [Windows Management Instrumentation], CInstance interface, GetWORD,CInstance.GetWORD, _hmm_cinstance_getword, instance/CInstance::GetWORD, wmi.cinstance_getword
+ms.keywords: CInstance interface [Windows Management Instrumentation],GetWORD method, CInstance.GetWORD, CInstance::GetWORD, GetWORD, GetWORD method [Windows Management Instrumentation], GetWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getword, instance/CInstance::GetWORD, wmi.cinstance_getword
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# CInstance::GetWORD method
+# CInstance::GetWORD
 
 
 ## -description

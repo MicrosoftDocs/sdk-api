@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetFillBrush
-title: IXpsOMPath::GetFillBrush method
+title: IXpsOMPath::GetFillBrush
 author: windows-driver-content
 description: Gets a pointer to the resolved IXpsOMBrush interface that contains the fill brush for the path.
 old-location: xps\ixpsompath_getfillbrush.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: fc121659-c04f-433a-aaf7-ab7ecd1fd763
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetFillBrush method [XPS Documents and Packaging], GetFillBrush method [XPS Documents and Packaging], IXpsOMPath interface, GetFillBrush,IXpsOMPath.GetFillBrush, IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], GetFillBrush method, IXpsOMPath::GetFillBrush, xps.ixpsompath_getfillbrush, xpsobjectmodel/IXpsOMPath::GetFillBrush
+ms.keywords: GetFillBrush, GetFillBrush method [XPS Documents and Packaging], GetFillBrush method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetFillBrush method, IXpsOMPath.GetFillBrush, IXpsOMPath::GetFillBrush, xps.ixpsompath_getfillbrush, xpsobjectmodel/IXpsOMPath::GetFillBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::GetFillBrush method
+# IXpsOMPath::GetFillBrush
 
 
 ## -description

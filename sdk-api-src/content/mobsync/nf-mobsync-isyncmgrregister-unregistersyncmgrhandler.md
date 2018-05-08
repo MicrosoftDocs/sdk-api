@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrRegister.UnregisterSyncMgrHandler
-title: ISyncMgrRegister::UnregisterSyncMgrHandler method
+title: ISyncMgrRegister::UnregisterSyncMgrHandler
 author: windows-driver-content
 description: Removes a handler's class identifier (CLSID) from the registration. A handler should call this when it no longer has any items to synchronize.
 old-location: shell\syncmgr_isyncmgrregister_unregistersyncmgrhandler.htm
 old-project: shell
 ms.assetid: cd823d73-a07a-4c75-a29c-6c48ad2c23dc
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrRegister, ISyncMgrRegister interface [Windows Shell], UnregisterSyncMgrHandler method, ISyncMgrRegister::UnregisterSyncMgrHandler, UnregisterSyncMgrHandler method [Windows Shell], UnregisterSyncMgrHandler method [Windows Shell], ISyncMgrRegister interface, UnregisterSyncMgrHandler,ISyncMgrRegister.UnregisterSyncMgrHandler, mobsync/ISyncMgrRegister::UnregisterSyncMgrHandler, shell.syncmgr_isyncmgrregister_unregistersyncmgrhandler, syncmgr.isyncmgrregister_unregistersyncmgrhandler
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrRegister interface [Windows Shell],UnregisterSyncMgrHandler method, ISyncMgrRegister.UnregisterSyncMgrHandler, ISyncMgrRegister::UnregisterSyncMgrHandler, UnregisterSyncMgrHandler, UnregisterSyncMgrHandler method [Windows Shell], UnregisterSyncMgrHandler method [Windows Shell],ISyncMgrRegister interface, mobsync/ISyncMgrRegister::UnregisterSyncMgrHandler, shell.syncmgr_isyncmgrregister_unregistersyncmgrhandler, syncmgr.isyncmgrregister_unregistersyncmgrhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrRegister::UnregisterSyncMgrHandler method
+# ISyncMgrRegister::UnregisterSyncMgrHandler
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList.GetOverlayImage
-title: IImageList::GetOverlayImage method
+title: IImageList::GetOverlayImage
 author: windows-driver-content
 description: Retrieves a specified image from the list of images used as overlay masks.
 old-location: controls\IImageList_GetOverlayImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getoverlayimage.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetOverlayImage method [Windows Controls], GetOverlayImage method [Windows Controls], IImageList interface, GetOverlayImage,IImageList.GetOverlayImage, IImageList, IImageList interface [Windows Controls], GetOverlayImage method, IImageList::GetOverlayImage, comctl_IImageList_GetOverlayImage, comctl_IImageList_GetOverlayImage_cpp, commoncontrols/IImageList::GetOverlayImage, controls.IImageList_GetOverlayImage, controls.comctl_IImageList_GetOverlayImage
+ms.date: 4/27/2018
+ms.keywords: GetOverlayImage, GetOverlayImage method [Windows Controls], GetOverlayImage method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetOverlayImage method, IImageList.GetOverlayImage, IImageList::GetOverlayImage, comctl_IImageList_GetOverlayImage, comctl_IImageList_GetOverlayImage_cpp, commoncontrols/IImageList::GetOverlayImage, controls.IImageList_GetOverlayImage, controls.comctl_IImageList_GetOverlayImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList::GetOverlayImage method
+# IImageList::GetOverlayImage
 
 
 ## -description

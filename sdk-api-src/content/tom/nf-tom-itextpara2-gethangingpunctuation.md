@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextPara2.GetHangingPunctuation
-title: ITextPara2::GetHangingPunctuation method
+title: ITextPara2::GetHangingPunctuation
 author: windows-driver-content
 description: Gets whether to hang punctuation symbols on the right margin when the paragraph is justified.
 old-location: controls\itextpara2_gethangingpunctuation.htm
 old-project: Controls
 ms.assetid: 781b7c53-e9a1-4c4a-84d7-ea70efc173d1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetHangingPunctuation method [Windows Controls], GetHangingPunctuation method [Windows Controls], ITextPara2 interface, GetHangingPunctuation,ITextPara2.GetHangingPunctuation, ITextPara2, ITextPara2 interface [Windows Controls], GetHangingPunctuation method, ITextPara2::GetHangingPunctuation, controls.itextpara2_gethangingpunctuation, tom/ITextPara2::GetHangingPunctuation
+ms.date: 4/27/2018
+ms.keywords: GetHangingPunctuation, GetHangingPunctuation method [Windows Controls], GetHangingPunctuation method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetHangingPunctuation method, ITextPara2.GetHangingPunctuation, ITextPara2::GetHangingPunctuation, controls.itextpara2_gethangingpunctuation, tom/ITextPara2::GetHangingPunctuation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextPara2::GetHangingPunctuation method
+# ITextPara2::GetHangingPunctuation
 
 
 ## -description

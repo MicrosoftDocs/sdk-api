@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.get_IsDataSessionOpen
-title: IMbnDeviceService::get_IsDataSessionOpen method
+title: IMbnDeviceService::get_IsDataSessionOpen
 author: windows-driver-content
 description: Reports if the device service data session is open.
 old-location: mbn\imbndeviceservice_isdatasessionopen.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: 97F58FC5-D960-4EBA-8441-12472F2771DE
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnDeviceService, IMbnDeviceService interface [Microsoft Broadband Networks], IsDataSessionOpen property, IMbnDeviceService.IsDataSessionOpen, IMbnDeviceService::get_IsDataSessionOpen, IsDataSessionOpen property [Microsoft Broadband Networks], IsDataSessionOpen property [Microsoft Broadband Networks], IMbnDeviceService interface, get_IsDataSessionOpen,IMbnDeviceService.get_IsDataSessionOpen, mbn.imbndeviceservice_isdatasessionopen, mbnapi/IMbnDeviceService::IsDataSessionOpen, mbnapi/IMbnDeviceService::get_IsDataSessionOpen
+ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],IsDataSessionOpen property, IMbnDeviceService.IsDataSessionOpen, IMbnDeviceService.get_IsDataSessionOpen, IMbnDeviceService::IsDataSessionOpen, IMbnDeviceService::get_IsDataSessionOpen, IsDataSessionOpen property [Microsoft Broadband Networks], IsDataSessionOpen property [Microsoft Broadband Networks],IMbnDeviceService interface, get_IsDataSessionOpen, mbn.imbndeviceservice_isdatasessionopen, mbnapi/IMbnDeviceService::IsDataSessionOpen, mbnapi/IMbnDeviceService::get_IsDataSessionOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnDeviceService::get_IsDataSessionOpen method
+# IMbnDeviceService::get_IsDataSessionOpen
 
 
 ## -description

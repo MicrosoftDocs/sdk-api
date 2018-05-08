@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwProfile.get_Services
-title: INetFwProfile::get_Services method
+title: INetFwProfile::get_Services
 author: windows-driver-content
 description: Retrieves the collection of services of the profile.
 old-location: ics\inetfwprofile_services.htm
 old-project: ICS
 ms.assetid: 38b32f8e-9aeb-4f63-9880-f393cce185fb
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwProfile, INetFwProfile interface [ICS/ICF], Services property, INetFwProfile.Services, INetFwProfile::get_Services, Services property [ICS/ICF], Services property [ICS/ICF], INetFwProfile interface, get_Services,INetFwProfile.get_Services, ics.inetfwprofile_services, netfw/INetFwProfile::Services, netfw/INetFwProfile::get_Services
+ms.date: 5/1/2018
+ms.keywords: INetFwProfile interface [ICS/ICF],Services property, INetFwProfile.Services, INetFwProfile.get_Services, INetFwProfile::Services, INetFwProfile::get_Services, Services property [ICS/ICF], Services property [ICS/ICF],INetFwProfile interface, get_Services, ics.inetfwprofile_services, netfw/INetFwProfile::Services, netfw/INetFwProfile::get_Services
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwProfile::get_Services method
+# INetFwProfile::get_Services
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.IsQuarantineEnabled
-title: ITSGPolicyEngine::IsQuarantineEnabled method
+title: ITSGPolicyEngine::IsQuarantineEnabled
 author: windows-driver-content
 description: Indicates whether the authorization plug-in requires a statement of health (SoH) from the user's computer.
 old-location: termserv\itsgpolicyengine_isquarantineenabled.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: e63b99ba-068f-4842-b00a-9bfc5f8dac73
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITSGPolicyEngine, ITSGPolicyEngine interface [Remote Desktop Services], IsQuarantineEnabled method, ITSGPolicyEngine::IsQuarantineEnabled, IsQuarantineEnabled method [Remote Desktop Services], IsQuarantineEnabled method [Remote Desktop Services], ITSGPolicyEngine interface, IsQuarantineEnabled,ITSGPolicyEngine.IsQuarantineEnabled, termserv.itsgpolicyengine_isquarantineenabled, tsgpolicyengine/ITSGPolicyEngine::IsQuarantineEnabled
+ms.keywords: ITSGPolicyEngine interface [Remote Desktop Services],IsQuarantineEnabled method, ITSGPolicyEngine.IsQuarantineEnabled, ITSGPolicyEngine::IsQuarantineEnabled, IsQuarantineEnabled, IsQuarantineEnabled method [Remote Desktop Services], IsQuarantineEnabled method [Remote Desktop Services],ITSGPolicyEngine interface, termserv.itsgpolicyengine_isquarantineenabled, tsgpolicyengine/ITSGPolicyEngine::IsQuarantineEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITSGPolicyEngine::IsQuarantineEnabled method
+# ITSGPolicyEngine::IsQuarantineEnabled
 
 
 ## -description

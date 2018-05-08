@@ -1,14 +1,14 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.ChangeDefaultTargetRecommendation
-title: IFhConfigMgr::ChangeDefaultTargetRecommendation method
+title: IFhConfigMgr::ChangeDefaultTargetRecommendation
 author: windows-driver-content
 description: Causes the currently assigned backup target to be recommended or not recommended to other members of the home group that the computer belongs to.
 old-location: winprog\ifhconfigmgr_changedefaulttargetrecommendation.htm
 old-project: DevNotes
 ms.assetid: 40F22464-FE28-40A0-85C6-74C5BD819E83
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: ChangeDefaultTargetRecommendation method [Windows API], ChangeDefaultTargetRecommendation method [Windows API], FhConfigMgr class, ChangeDefaultTargetRecommendation method [Windows API], IFhConfigMgr interface, ChangeDefaultTargetRecommendation,IFhConfigMgr.ChangeDefaultTargetRecommendation, FhConfigMgr class [Windows API], ChangeDefaultTargetRecommendation method, IFhConfigMgr, IFhConfigMgr interface [Windows API], ChangeDefaultTargetRecommendation method, IFhConfigMgr::ChangeDefaultTargetRecommendation, fhcfg/IFhConfigMgr::ChangeDefaultTargetRecommendation, winprog.ifhconfigmgr_changedefaulttargetrecommendation
+ms.date: 5/4/2018
+ms.keywords: ChangeDefaultTargetRecommendation, ChangeDefaultTargetRecommendation method [Windows API], ChangeDefaultTargetRecommendation method [Windows API],FhConfigMgr class, ChangeDefaultTargetRecommendation method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],ChangeDefaultTargetRecommendation method, IFhConfigMgr interface [Windows API],ChangeDefaultTargetRecommendation method, IFhConfigMgr.ChangeDefaultTargetRecommendation, IFhConfigMgr::ChangeDefaultTargetRecommendation, fhcfg/IFhConfigMgr::ChangeDefaultTargetRecommendation, winprog.ifhconfigmgr_changedefaulttargetrecommendation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFhConfigMgr::ChangeDefaultTargetRecommendation method
+# IFhConfigMgr::ChangeDefaultTargetRecommendation
 
 
 ## -description

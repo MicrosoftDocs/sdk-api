@@ -7,7 +7,7 @@ old-location: mf\mf_timed_text_unit_type.htm
 old-project: medfound
 ms.assetid: 5F811CEC-9E60-4441-BD22-1C4F4D0B72F8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: MF_TIMED_TEXT_UNIT_TYPE, MF_TIMED_TEXT_UNIT_TYPE enumeration [Media Foundation], MF_TIMED_TEXT_UNIT_TYPE_PERCENTAGE, MF_TIMED_TEXT_UNIT_TYPE_PIXELS, mf.mf_timed_text_unit_type, mfmediaengine/MF_TIMED_TEXT_UNIT_TYPE, mfmediaengine/MF_TIMED_TEXT_UNIT_TYPE_PERCENTAGE, mfmediaengine/MF_TIMED_TEXT_UNIT_TYPE_PIXELS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffect.GetParentEffect
-title: IMILBitmapEffect::GetParentEffect method
+title: IMILBitmapEffect::GetParentEffect
 author: windows-driver-content
 description: Gets a parent of the effect.
 old-location: wibe\_wibe_imilbitmapeffect_getparenteffect.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffect\getparenteffect.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetParentEffect method [WPF Bitmap Effects], GetParentEffect method [WPF Bitmap Effects], IMILBitmapEffect interface, GetParentEffect,IMILBitmapEffect.GetParentEffect, IMILBitmapEffect, IMILBitmapEffect interface [WPF Bitmap Effects], GetParentEffect method, IMILBitmapEffect::GetParentEffect, _wibe_imilbitmapeffect_getparenteffect, mileffects/IMILBitmapEffect::GetParentEffect, wibe._wibe_imilbitmapeffect_getparenteffect
+ms.keywords: GetParentEffect, GetParentEffect method [WPF Bitmap Effects], GetParentEffect method [WPF Bitmap Effects],IMILBitmapEffect interface, IMILBitmapEffect interface [WPF Bitmap Effects],GetParentEffect method, IMILBitmapEffect.GetParentEffect, IMILBitmapEffect::GetParentEffect, _wibe_imilbitmapeffect_getparenteffect, mileffects/IMILBitmapEffect::GetParentEffect, wibe._wibe_imilbitmapeffect_getparenteffect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffect::GetParentEffect method
+# IMILBitmapEffect::GetParentEffect
 
 
 ## -description

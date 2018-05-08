@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IChangeUnitListFilterInfo.GetChangeUnitIdCount
-title: IChangeUnitListFilterInfo::GetChangeUnitIdCount method
+title: IChangeUnitListFilterInfo::GetChangeUnitIdCount
 author: windows-driver-content
 description: Gets the number of change unit IDs that define the filter.
 old-location: winsync\ichangeunitlistfilterinfo_getchangeunitidcount.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 23cb5f0f-0b8a-4e98-83b5-9353e7cee5d2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetChangeUnitIdCount method [Windows Sync], GetChangeUnitIdCount method [Windows Sync], IChangeUnitListFilterInfo interface, GetChangeUnitIdCount,IChangeUnitListFilterInfo.GetChangeUnitIdCount, IChangeUnitListFilterInfo, IChangeUnitListFilterInfo interface [Windows Sync], GetChangeUnitIdCount method, IChangeUnitListFilterInfo::GetChangeUnitIdCount, winsync.ichangeunitlistfilterinfo_getchangeunitidcount, winsync/IChangeUnitListFilterInfo::GetChangeUnitIdCount
+ms.keywords: GetChangeUnitIdCount, GetChangeUnitIdCount method [Windows Sync], GetChangeUnitIdCount method [Windows Sync],IChangeUnitListFilterInfo interface, IChangeUnitListFilterInfo interface [Windows Sync],GetChangeUnitIdCount method, IChangeUnitListFilterInfo.GetChangeUnitIdCount, IChangeUnitListFilterInfo::GetChangeUnitIdCount, winsync.ichangeunitlistfilterinfo_getchangeunitidcount, winsync/IChangeUnitListFilterInfo::GetChangeUnitIdCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IChangeUnitListFilterInfo::GetChangeUnitIdCount method
+# IChangeUnitListFilterInfo::GetChangeUnitIdCount
 
 
 ## -description

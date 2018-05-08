@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartUri.ComparePartUri
-title: IOpcPartUri::ComparePartUri method
+title: IOpcPartUri::ComparePartUri
 author: windows-driver-content
 description: Returns an integer that indicates whether the URIs represented by the current part URI object and a specified part URI object are equivalent.
 old-location: opc\iopcparturi_compareparturi.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: b97890f8-dc9d-494f-82f9-3d32c09f5d67
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ComparePartUri method [Open Packaging Conventions], ComparePartUri method [Open Packaging Conventions], IOpcPartUri interface, ComparePartUri,IOpcPartUri.ComparePartUri, IOpcPartUri, IOpcPartUri interface [Open Packaging Conventions], ComparePartUri method, IOpcPartUri::ComparePartUri, msopc/IOpcPartUri::ComparePartUri, opc.iopcparturi_compareparturi
+ms.keywords: ComparePartUri, ComparePartUri method [Open Packaging Conventions], ComparePartUri method [Open Packaging Conventions],IOpcPartUri interface, IOpcPartUri interface [Open Packaging Conventions],ComparePartUri method, IOpcPartUri.ComparePartUri, IOpcPartUri::ComparePartUri, msopc/IOpcPartUri::ComparePartUri, opc.iopcparturi_compareparturi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcPartUri::ComparePartUri method
+# IOpcPartUri::ComparePartUri
 
 
 ## -description

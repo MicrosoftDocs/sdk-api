@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.GetDataUnitExtension
-title: IWMStreamConfig2::GetDataUnitExtension method
+title: IWMStreamConfig2::GetDataUnitExtension
 author: windows-driver-content
 description: The GetDataUnitExtension method retrieves information about an existing data unit extension system.
 old-location: wmformat\iwmstreamconfig2_getdataunitextension.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 766124f6-b376-421b-b2ee-2c280af3bd16
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetDataUnitExtension method [windows Media Format], GetDataUnitExtension method [windows Media Format], IWMStreamConfig2 interface, GetDataUnitExtension,IWMStreamConfig2.GetDataUnitExtension, IWMStreamConfig2, IWMStreamConfig2 interface [windows Media Format], GetDataUnitExtension method, IWMStreamConfig2::GetDataUnitExtension, IWMStreamConfig2GetDataUnitExtension, wmformat.iwmstreamconfig2_getdataunitextension, wmsdkidl/IWMStreamConfig2::GetDataUnitExtension
+ms.keywords: GetDataUnitExtension, GetDataUnitExtension method [windows Media Format], GetDataUnitExtension method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],GetDataUnitExtension method, IWMStreamConfig2.GetDataUnitExtension, IWMStreamConfig2::GetDataUnitExtension, IWMStreamConfig2GetDataUnitExtension, wmformat.iwmstreamconfig2_getdataunitextension, wmsdkidl/IWMStreamConfig2::GetDataUnitExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamConfig2::GetDataUnitExtension method
+# IWMStreamConfig2::GetDataUnitExtension
 
 
 ## -description

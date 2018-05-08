@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.TestKeyUp
-title: ITfKeystrokeMgr::TestKeyUp method
+title: ITfKeystrokeMgr::TestKeyUp
 author: windows-driver-content
 description: ITfKeystrokeMgr::TestKeyUp method
 old-location: tsf\itfkeystrokemgr_testkeyup.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 34a2b34b-3c3d-4609-a9e1-9b01ab349ae7
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfKeystrokeMgr, ITfKeystrokeMgr interface [Text Services Framework], TestKeyUp method, ITfKeystrokeMgr::TestKeyUp, TestKeyUp method [Text Services Framework], TestKeyUp method [Text Services Framework], ITfKeystrokeMgr interface, TestKeyUp,ITfKeystrokeMgr.TestKeyUp, _tsf_itfkeystrokemgr_testkeyup_ref, msctf/ITfKeystrokeMgr::TestKeyUp, tsf.itfkeystrokemgr_testkeyup
+ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],TestKeyUp method, ITfKeystrokeMgr.TestKeyUp, ITfKeystrokeMgr::TestKeyUp, TestKeyUp, TestKeyUp method [Text Services Framework], TestKeyUp method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_testkeyup_ref, msctf/ITfKeystrokeMgr::TestKeyUp, tsf.itfkeystrokemgr_testkeyup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfKeystrokeMgr::TestKeyUp method
+# ITfKeystrokeMgr::TestKeyUp
 
 
 ## -description

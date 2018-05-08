@@ -7,8 +7,8 @@ old-location: automat\itypecomp.htm
 old-project: automat
 ms.assetid: 4d35370f-506f-45cd-9d75-e48c640d8f4d
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ITypeComp, ITypeComp interface [Automation], ITypeComp interface [Automation], described, _oa96_ITypeComp_Interface, automat.itypecomp, oaidl/ITypeComp
+ms.date: 5/4/2018
+ms.keywords: ITypeComp, ITypeComp interface [Automation], ITypeComp interface [Automation],described, _oa96_ITypeComp_Interface, automat.itypecomp, oaidl/ITypeComp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,8 +38,8 @@ api_name:
 -	ITypeComp
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
 req.irql: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---

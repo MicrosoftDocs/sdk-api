@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: debb0731-6e24-4320-8236-220e07ec37c3
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssExpressWriter, IVssExpressWriter interface, IVssExpressWriter interface, described, base.ivssexpresswriter, vswriter/IVssExpressWriter
+ms.keywords: IVssExpressWriter, IVssExpressWriter interface, IVssExpressWriter interface,described, base.ivssexpresswriter, vswriter/IVssExpressWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

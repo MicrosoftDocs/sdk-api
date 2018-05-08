@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaError
-title: IWMPEvents::MediaError method
+title: IWMPEvents::MediaError
 author: windows-driver-content
 description: The MediaError event occurs when the Media object has an error condition.
 old-location: wmp\iwmpevents_iwmpevents__mediaerror.htm
 old-project: WMP
 ms.assetid: 3c48ff94-01d6-492c-912c-ee74b619730b
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], MediaError method, IWMPEvents::MediaError, IWMPEventsMediaError, MediaError method [Windows Media Player], MediaError method [Windows Media Player], IWMPEvents interface, MediaError,IWMPEvents.MediaError, wmp.iwmpevents_iwmpevents__mediaerror, wmp/IWMPEvents::MediaError
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],MediaError method, IWMPEvents.MediaError, IWMPEvents::MediaError, IWMPEventsMediaError, MediaError, MediaError method [Windows Media Player], MediaError method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediaerror, wmp/IWMPEvents::MediaError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::MediaError method
+# IWMPEvents::MediaError
 
 
 ## -description

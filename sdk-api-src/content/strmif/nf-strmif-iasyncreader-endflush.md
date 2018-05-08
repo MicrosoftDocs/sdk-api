@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAsyncReader.EndFlush
-title: IAsyncReader::EndFlush method
+title: IAsyncReader::EndFlush
 author: windows-driver-content
 description: The EndFlush method ends a flush operation.
 old-location: dshow\iasyncreader_endflush.htm
 old-project: DirectShow
 ms.assetid: 38a7fd8a-c027-49fd-8f52-49ddf072fe02
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: EndFlush method [DirectShow], EndFlush method [DirectShow], IAsyncReader interface, EndFlush,IAsyncReader.EndFlush, IAsyncReader, IAsyncReader interface [DirectShow], EndFlush method, IAsyncReader::EndFlush, IAsyncReaderEndFlush, dshow.iasyncreader_endflush, strmif/IAsyncReader::EndFlush
+ms.date: 4/30/2018
+ms.keywords: EndFlush, EndFlush method [DirectShow], EndFlush method [DirectShow],IAsyncReader interface, IAsyncReader interface [DirectShow],EndFlush method, IAsyncReader.EndFlush, IAsyncReader::EndFlush, IAsyncReaderEndFlush, dshow.iasyncreader_endflush, strmif/IAsyncReader::EndFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAsyncReader::EndFlush method
+# IAsyncReader::EndFlush
 
 
 ## -description

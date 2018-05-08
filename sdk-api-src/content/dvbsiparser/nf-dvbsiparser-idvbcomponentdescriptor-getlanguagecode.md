@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetLanguageCode
-title: IDvbComponentDescriptor::GetLanguageCode method
+title: IDvbComponentDescriptor::GetLanguageCode
 author: windows-driver-content
 description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) component descriptor.
 old-location: mstv\idvbcomponentdescriptor_getlanguagecode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9898cd33-db5d-41d3-9e3d-77da2ff38e44
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies], IDvbComponentDescriptor interface, GetLanguageCode,IDvbComponentDescriptor.GetLanguageCode, IDvbComponentDescriptor, IDvbComponentDescriptor interface [Microsoft TV Technologies], GetLanguageCode method, IDvbComponentDescriptor::GetLanguageCode, dvbsiparser/IDvbComponentDescriptor::GetLanguageCode, mstv.idvbcomponentdescriptor_getlanguagecode
+ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetLanguageCode method, IDvbComponentDescriptor.GetLanguageCode, IDvbComponentDescriptor::GetLanguageCode, dvbsiparser/IDvbComponentDescriptor::GetLanguageCode, mstv.idvbcomponentdescriptor_getlanguagecode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbComponentDescriptor::GetLanguageCode method
+# IDvbComponentDescriptor::GetLanguageCode
 
 
 ## -description

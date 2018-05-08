@@ -7,8 +7,8 @@ old-location: winrt\ilanguageexceptiontransform.htm
 old-project: WinRT
 ms.assetid: A42470EE-FA05-4716-BA17-009D59FEE259
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ILanguageExceptionTransform, ILanguageExceptionTransform interface [Windows Runtime], ILanguageExceptionTransform interface [Windows Runtime], described, restrictederrorinfo/ILanguageExceptionTransform, winrt.ilanguageexceptiontransform
+ms.date: 5/4/2018
+ms.keywords: ILanguageExceptionTransform, ILanguageExceptionTransform interface [Windows Runtime], ILanguageExceptionTransform interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionTransform, winrt.ilanguageexceptiontransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

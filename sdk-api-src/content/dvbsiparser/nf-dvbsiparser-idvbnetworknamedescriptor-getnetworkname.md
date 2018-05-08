@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbNetworkNameDescriptor.GetNetworkName
-title: IDvbNetworkNameDescriptor::GetNetworkName method
+title: IDvbNetworkNameDescriptor::GetNetworkName
 author: windows-driver-content
 description: Gets the network name, in ASCII string format, from a Digital Video Broadcast (DVB) network name descriptor.
 old-location: mstv\idvbnetworknamedescriptor_getnetworkname.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 261a6c65-65a5-43ed-aaed-12968b996c5a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetNetworkName method [Microsoft TV Technologies], GetNetworkName method [Microsoft TV Technologies], IDvbNetworkNameDescriptor interface, GetNetworkName,IDvbNetworkNameDescriptor.GetNetworkName, IDvbNetworkNameDescriptor, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies], GetNetworkName method, IDvbNetworkNameDescriptor::GetNetworkName, dvbsiparser/IDvbNetworkNameDescriptor::GetNetworkName, mstv.idvbnetworknamedescriptor_getnetworkname
+ms.keywords: GetNetworkName, GetNetworkName method [Microsoft TV Technologies], GetNetworkName method [Microsoft TV Technologies],IDvbNetworkNameDescriptor interface, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],GetNetworkName method, IDvbNetworkNameDescriptor.GetNetworkName, IDvbNetworkNameDescriptor::GetNetworkName, dvbsiparser/IDvbNetworkNameDescriptor::GetNetworkName, mstv.idvbnetworknamedescriptor_getnetworkname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbNetworkNameDescriptor::GetNetworkName method
+# IDvbNetworkNameDescriptor::GetNetworkName
 
 
 ## -description

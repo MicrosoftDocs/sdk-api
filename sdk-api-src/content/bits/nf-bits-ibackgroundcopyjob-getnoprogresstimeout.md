@@ -1,14 +1,14 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetNoProgressTimeout
-title: IBackgroundCopyJob::GetNoProgressTimeout method
+title: IBackgroundCopyJob::GetNoProgressTimeout
 author: windows-driver-content
 description: Retrieves the length of time that the service tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
 old-location: bits\ibackgroundcopyjob_getnoprogresstimeout.htm
 old-project: Bits
 ms.assetid: 4881e5f7-a835-40d5-a056-d6b23e3cd84c
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetNoProgressTimeout method [BITS], GetNoProgressTimeout method [BITS], IBackgroundCopyJob interface, GetNoProgressTimeout,IBackgroundCopyJob.GetNoProgressTimeout, IBackgroundCopyJob, IBackgroundCopyJob interface [BITS], GetNoProgressTimeout method, IBackgroundCopyJob::GetNoProgressTimeout, _drz_ibackgroundcopyjob_getnoprogresstimeout, bits.ibackgroundcopyjob_getnoprogresstimeout, bits/IBackgroundCopyJob::GetNoProgressTimeout
+ms.date: 4/27/2018
+ms.keywords: GetNoProgressTimeout, GetNoProgressTimeout method [BITS], GetNoProgressTimeout method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetNoProgressTimeout method, IBackgroundCopyJob.GetNoProgressTimeout, IBackgroundCopyJob::GetNoProgressTimeout, _drz_ibackgroundcopyjob_getnoprogresstimeout, bits.ibackgroundcopyjob_getnoprogresstimeout, bits/IBackgroundCopyJob::GetNoProgressTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: QmgrPrxy.dll
 req.irql: 
 ---
 
-# IBackgroundCopyJob::GetNoProgressTimeout method
+# IBackgroundCopyJob::GetNoProgressTimeout
 
 
 ## -description

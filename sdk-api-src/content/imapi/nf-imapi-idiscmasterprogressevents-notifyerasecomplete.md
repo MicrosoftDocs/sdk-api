@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyEraseComplete
-title: IDiscMasterProgressEvents::NotifyEraseComplete method
+title: IDiscMasterProgressEvents::NotifyEraseComplete
 author: windows-driver-content
 description: Notifies an application that a call to IDiscRecorder::Erase has finished.
 old-location: imapi\idiscmasterprogressevents_notifyerasecomplete.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 17a0debe-919d-4db7-bcbb-eb4fc9973d83
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscMasterProgressEvents, IDiscMasterProgressEvents interface [IMAPI], NotifyEraseComplete method, IDiscMasterProgressEvents::NotifyEraseComplete, NotifyEraseComplete method [IMAPI], NotifyEraseComplete method [IMAPI], IDiscMasterProgressEvents interface, NotifyEraseComplete,IDiscMasterProgressEvents.NotifyEraseComplete, _win32_idiscmasterprogressevents_notifyerasecomplete, base.idiscmasterprogressevents_notifyerasecomplete, imapi.idiscmasterprogressevents_notifyerasecomplete, imapi/IDiscMasterProgressEvents::NotifyEraseComplete
+ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyEraseComplete method, IDiscMasterProgressEvents.NotifyEraseComplete, IDiscMasterProgressEvents::NotifyEraseComplete, NotifyEraseComplete, NotifyEraseComplete method [IMAPI], NotifyEraseComplete method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyerasecomplete, base.idiscmasterprogressevents_notifyerasecomplete, imapi.idiscmasterprogressevents_notifyerasecomplete, imapi/IDiscMasterProgressEvents::NotifyEraseComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscMasterProgressEvents::NotifyEraseComplete method
+# IDiscMasterProgressEvents::NotifyEraseComplete
 
 
 ## -description

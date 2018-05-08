@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.Open
-title: IPortableDevice::Open method
+title: IPortableDevice::Open
 author: windows-driver-content
 description: The Open method opens a connection between the application and the device.
 old-location: wpdsdk\iportabledevice_open.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: d505fc34-9b6d-417a-a53e-e74773dcc8a4
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDevice, IPortableDevice interface [Windows Portable Devices SDK], Open method, IPortableDevice::Open, IPortableDeviceOpen, Open method [Windows Portable Devices SDK], Open method [Windows Portable Devices SDK], IPortableDevice interface, Open,IPortableDevice.Open, portabledeviceapi/IPortableDevice::Open, wpdsdk.iportabledevice_open
+ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],Open method, IPortableDevice.Open, IPortableDevice::Open, IPortableDeviceOpen, Open, Open method [Windows Portable Devices SDK], Open method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::Open, wpdsdk.iportabledevice_open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDevice::Open method
+# IPortableDevice::Open
 
 
 ## -description

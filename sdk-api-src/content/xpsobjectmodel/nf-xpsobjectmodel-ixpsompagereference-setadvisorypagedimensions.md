@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetAdvisoryPageDimensions
-title: IXpsOMPageReference::SetAdvisoryPageDimensions method
+title: IXpsOMPageReference::SetAdvisoryPageDimensions
 author: windows-driver-content
 description: Sets the suggested dimensions of the page.
 old-location: xps\ixpsompagereference_setadvisorypagedimensions.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 8286fd78-a7d8-4bf4-9b08-b93e19abccf9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], SetAdvisoryPageDimensions method, IXpsOMPageReference::SetAdvisoryPageDimensions, SetAdvisoryPageDimensions method [XPS Documents and Packaging], SetAdvisoryPageDimensions method [XPS Documents and Packaging], IXpsOMPageReference interface, SetAdvisoryPageDimensions,IXpsOMPageReference.SetAdvisoryPageDimensions, xps.ixpsompagereference_setadvisorypagedimensions, xpsobjectmodel/IXpsOMPageReference::SetAdvisoryPageDimensions
+ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetAdvisoryPageDimensions method, IXpsOMPageReference.SetAdvisoryPageDimensions, IXpsOMPageReference::SetAdvisoryPageDimensions, SetAdvisoryPageDimensions, SetAdvisoryPageDimensions method [XPS Documents and Packaging], SetAdvisoryPageDimensions method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setadvisorypagedimensions, xpsobjectmodel/IXpsOMPageReference::SetAdvisoryPageDimensions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPageReference::SetAdvisoryPageDimensions method
+# IXpsOMPageReference::SetAdvisoryPageDimensions
 
 
 ## -description

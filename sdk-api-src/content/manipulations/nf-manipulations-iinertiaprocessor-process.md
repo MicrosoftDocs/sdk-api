@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.Process
-title: IInertiaProcessor::Process method
+title: IInertiaProcessor::Process
 author: windows-driver-content
 description: The Process method performs calculations and can raise the Started, Delta, or Completed event depending on whether extrapolation is completed or not. If extrapolation finished at the previous tick, the method is no-op.
 old-location: wintouch\iinertiaprocessor_process.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: f63cafa0-0da6-46ba-91d3-956dc804dd79
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IInertiaProcessor, IInertiaProcessor interface [Windows Touch], Process method, IInertiaProcessor::Process, Process method [Windows Touch], Process method [Windows Touch], IInertiaProcessor interface, Process,IInertiaProcessor.Process, manipulations/IInertiaProcessor::Process, wintouch.iinertiaprocessor_process
+ms.keywords: IInertiaProcessor interface [Windows Touch],Process method, IInertiaProcessor.Process, IInertiaProcessor::Process, Process, Process method [Windows Touch], Process method [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::Process, wintouch.iinertiaprocessor_process
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInertiaProcessor::Process method
+# IInertiaProcessor::Process
 
 
 ## -description

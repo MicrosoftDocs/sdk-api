@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocator9.TerminateDevice
-title: IVMRSurfaceAllocator9::TerminateDevice method
+title: IVMRSurfaceAllocator9::TerminateDevice
 author: windows-driver-content
 description: The TerminateDevice method releases the Direct3D device.
 old-location: dshow\ivmrsurfaceallocator9_terminatedevice.htm
 old-project: DirectShow
 ms.assetid: 5006265d-6f2b-433b-b3ce-a7074d6eb159
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRSurfaceAllocator9, IVMRSurfaceAllocator9 interface [DirectShow], TerminateDevice method, IVMRSurfaceAllocator9::TerminateDevice, IVMRSurfaceAllocator9TerminateDevice, TerminateDevice method [DirectShow], TerminateDevice method [DirectShow], IVMRSurfaceAllocator9 interface, TerminateDevice,IVMRSurfaceAllocator9.TerminateDevice, dshow.ivmrsurfaceallocator9_terminatedevice, vmr9/IVMRSurfaceAllocator9::TerminateDevice
+ms.date: 4/30/2018
+ms.keywords: IVMRSurfaceAllocator9 interface [DirectShow],TerminateDevice method, IVMRSurfaceAllocator9.TerminateDevice, IVMRSurfaceAllocator9::TerminateDevice, IVMRSurfaceAllocator9TerminateDevice, TerminateDevice, TerminateDevice method [DirectShow], TerminateDevice method [DirectShow],IVMRSurfaceAllocator9 interface, dshow.ivmrsurfaceallocator9_terminatedevice, vmr9/IVMRSurfaceAllocator9::TerminateDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRSurfaceAllocator9::TerminateDevice method
+# IVMRSurfaceAllocator9::TerminateDevice
 
 
 ## -description

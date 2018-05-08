@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: c66dcc0f-733a-44a2-942f-f518b752d014
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: EnumInputContext, EnumInputContext callback function [Internationalization for Windows Applications], IMCENUMPROC, _win32_EnumInputContext, imm/EnumInputContext, intl.enuminputcontext
+ms.keywords: EnumInputContext, EnumInputContext callback function [Internationalization for Windows Applications], IMCENUMPROC, IMCENUMPROC callback, _win32_EnumInputContext, imm/EnumInputContext, intl.enuminputcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMCENUMPROC callback
+# IMCENUMPROC callback function
 
 
 ## -description

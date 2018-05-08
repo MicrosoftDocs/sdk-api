@@ -251,6 +251,16 @@ This field is valid for DFS roots only.
  
 
 
+### -field pSecurityDescriptor.size_is
+
+ 
+
+
+### -field pSecurityDescriptor.size_is.SecurityDescriptorLength
+
+ 
+
+
 ### -field SdLengthReserved
 
 This member is reserved for system use.

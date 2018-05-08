@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMClientConnections.GetClientCount
-title: IWMClientConnections::GetClientCount method
+title: IWMClientConnections::GetClientCount
 author: windows-driver-content
 description: The GetClientCount method retrieves the number of connected clients.
 old-location: wmformat\iwmclientconnections_getclientcount.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 208b40cd-c138-4311-8702-18a61713b71a
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetClientCount method [windows Media Format], GetClientCount method [windows Media Format], IWMClientConnections interface, GetClientCount,IWMClientConnections.GetClientCount, IWMClientConnections, IWMClientConnections interface [windows Media Format], GetClientCount method, IWMClientConnections::GetClientCount, IWMClientConnectionsGetClientCount, wmformat.iwmclientconnections_getclientcount, wmsdkidl/IWMClientConnections::GetClientCount
+ms.keywords: GetClientCount, GetClientCount method [windows Media Format], GetClientCount method [windows Media Format],IWMClientConnections interface, IWMClientConnections interface [windows Media Format],GetClientCount method, IWMClientConnections.GetClientCount, IWMClientConnections::GetClientCount, IWMClientConnectionsGetClientCount, wmformat.iwmclientconnections_getclientcount, wmsdkidl/IWMClientConnections::GetClientCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMClientConnections::GetClientCount method
+# IWMClientConnections::GetClientCount
 
 
 ## -description

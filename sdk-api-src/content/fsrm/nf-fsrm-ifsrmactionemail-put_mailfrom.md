@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.put_MailFrom
-title: IFsrmActionEmail::put_MailFrom method
+title: IFsrmActionEmail::put_MailFrom
 author: windows-driver-content
 description: Retrieves or sets the email address to use as the sender of the email when the action generates an email message.
 old-location: fsrm\ifsrmactionemail_mailfrom.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 67fb5ae6-7728-4c95-92d6-f36859346cc7
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmActionEmail, IFsrmActionEmail interface [File Server Resource Manager], MailFrom property, IFsrmActionEmail.MailFrom, IFsrmActionEmail2 interface [File Server Resource Manager], MailFrom property, IFsrmActionEmail2.MailFrom, IFsrmActionEmail2::get_MailFrom, IFsrmActionEmail2::put_MailFrom, IFsrmActionEmail::get_MailFrom, IFsrmActionEmail::put_MailFrom, MailFrom property [File Server Resource Manager], MailFrom property [File Server Resource Manager], IFsrmActionEmail interface, MailFrom property [File Server Resource Manager], IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailfrom, fsrm.ifsrmactionemail_mailfrom, fsrm/IFsrmActionEmail2::MailFrom, fsrm/IFsrmActionEmail2::get_MailFrom, fsrm/IFsrmActionEmail2::put_MailFrom, fsrm/IFsrmActionEmail::MailFrom, fsrm/IFsrmActionEmail::get_MailFrom, fsrm/IFsrmActionEmail::put_MailFrom, put_MailFrom,IFsrmActionEmail.put_MailFrom
+ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailFrom property, IFsrmActionEmail.MailFrom, IFsrmActionEmail.put_MailFrom, IFsrmActionEmail2 interface [File Server Resource Manager],MailFrom property, IFsrmActionEmail2.MailFrom, IFsrmActionEmail2::MailFrom, IFsrmActionEmail2::get_MailFrom, IFsrmActionEmail2::put_MailFrom, IFsrmActionEmail::get_MailFrom, IFsrmActionEmail::put_MailFrom, MailFrom property [File Server Resource Manager], MailFrom property [File Server Resource Manager],IFsrmActionEmail interface, MailFrom property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailfrom, fsrm.ifsrmactionemail_mailfrom, fsrm/IFsrmActionEmail2::MailFrom, fsrm/IFsrmActionEmail2::get_MailFrom, fsrm/IFsrmActionEmail2::put_MailFrom, fsrm/IFsrmActionEmail::MailFrom, fsrm/IFsrmActionEmail::get_MailFrom, fsrm/IFsrmActionEmail::put_MailFrom, put_MailFrom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -49,7 +49,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmActionEmail::put_MailFrom method
+# IFsrmActionEmail::put_MailFrom
 
 
 ## -description

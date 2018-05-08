@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiItem.put_IsHidden
-title: IFsiItem::put_IsHidden method
+title: IFsiItem::put_IsHidden
 author: windows-driver-content
 description: Determines if the item's hidden attribute is set in the file system image.
 old-location: imapi\ifsiitem_put_ishidden.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: a437daea-af30-43e5-bb88-e59de8ba37c9
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFsiItem, IFsiItem interface [IMAPI], put_IsHidden method, IFsiItem::put_IsHidden, imapi.ifsiitem_put_ishidden, imapi2fs/IFsiItem::put_IsHidden, put_IsHidden method [IMAPI], put_IsHidden method [IMAPI], IFsiItem interface, put_IsHidden,IFsiItem.put_IsHidden
+ms.keywords: IFsiItem interface [IMAPI],put_IsHidden method, IFsiItem.put_IsHidden, IFsiItem::put_IsHidden, imapi.ifsiitem_put_ishidden, imapi2fs/IFsiItem::put_IsHidden, put_IsHidden, put_IsHidden method [IMAPI], put_IsHidden method [IMAPI],IFsiItem interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiItem::put_IsHidden method
+# IFsiItem::put_IsHidden
 
 
 ## -description

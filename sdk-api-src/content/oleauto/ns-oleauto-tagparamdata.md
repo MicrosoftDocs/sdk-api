@@ -7,7 +7,7 @@ old-location: automat\paramdata.htm
 old-project: automat
 ms.assetid: 3166eac0-7e07-47e1-9bca-60b15cbdf971
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: "*LPPARAMDATA, LPPARAMDATA, LPPARAMDATA structure pointer [Automation], PARAMDATA, PARAMDATA structure [Automation], _oa96_PARAMDATA, automat.paramdata, oleauto/LPPARAMDATA, oleauto/PARAMDATA, tagPARAMDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

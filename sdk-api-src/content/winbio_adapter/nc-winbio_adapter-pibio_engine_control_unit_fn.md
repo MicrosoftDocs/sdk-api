@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: e0b61709-948f-4adf-8391-b904cf8a1648
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EngineAdapterControlUnit, EngineAdapterControlUnit callback function [Windows Biometric Framework API], PIBIO_ENGINE_CONTROL_UNIT_FN, secbiomet.engineadaptercontrolunit, winbio_adapter/EngineAdapterControlUnit
+ms.keywords: EngineAdapterControlUnit, EngineAdapterControlUnit callback function [Windows Biometric Framework API], PIBIO_ENGINE_CONTROL_UNIT_FN, PIBIO_ENGINE_CONTROL_UNIT_FN callback, secbiomet.engineadaptercontrolunit, winbio_adapter/EngineAdapterControlUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_ENGINE_CONTROL_UNIT_FN callback
+# PIBIO_ENGINE_CONTROL_UNIT_FN callback function
 
 
 ## -description

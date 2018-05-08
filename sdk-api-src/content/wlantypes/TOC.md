@@ -1,0 +1,7 @@
+# [Native Wifi](../_nwifi/index.md)
+## [Wlantypes.h](index.md)
+### [_DOT11_AUTH_ALGORITHM enumeration](../wlantypes/ne-wlantypes-_dot11_auth_algorithm.md)
+### [_DOT11_BSS_TYPE enumeration](../wlantypes/ne-wlantypes-_dot11_bss_type.md)
+### [_DOT11_CIPHER_ALGORITHM enumeration](../wlantypes/ne-wlantypes-_dot11_cipher_algorithm.md)
+### [DOT11_AUTH_CIPHER_PAIR structure](../wlantypes/ns-wlantypes-dot11_auth_cipher_pair.md)
+### [_DOT11_SSID structure](../wlantypes/ns-wlantypes-_dot11_ssid.md)

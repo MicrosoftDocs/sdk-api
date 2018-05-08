@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertyStorage.SetClass
-title: IPropertyStorage::SetClass method
+title: IPropertyStorage::SetClass
 author: windows-driver-content
 description: The SetClass method assigns a new CLSID to the current property storage object, and persistently stores the CLSID with the object.
 old-location: stg\ipropertystorage_setclass.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 88c916e5-b7f0-4f4d-b049-df2b0e1c2423
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], SetClass method, IPropertyStorage::SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage], IPropertyStorage interface, SetClass,IPropertyStorage.SetClass, _stg_ipropertystorage_setclass, propidl/IPropertyStorage::SetClass, stg.ipropertystorage_setclass
+ms.keywords: IPropertyStorage interface [Structured Storage],SetClass method, IPropertyStorage.SetClass, IPropertyStorage::SetClass, SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_setclass, propidl/IPropertyStorage::SetClass, stg.ipropertystorage_setclass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyStorage::SetClass method
+# IPropertyStorage::SetClass
 
 
 ## -description

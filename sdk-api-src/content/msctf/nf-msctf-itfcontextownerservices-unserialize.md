@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.Unserialize
-title: ITfContextOwnerServices::Unserialize method
+title: ITfContextOwnerServices::Unserialize
 author: windows-driver-content
 description: ITfContextOwnerServices::Unserialize method
 old-location: tsf\itfcontextownerservices_unserialize.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: b02ffedf-83c5-48ff-8116-801aaec6dc71
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfContextOwnerServices, ITfContextOwnerServices interface [Text Services Framework], Unserialize method, ITfContextOwnerServices::Unserialize, Unserialize method [Text Services Framework], Unserialize method [Text Services Framework], ITfContextOwnerServices interface, Unserialize,ITfContextOwnerServices.Unserialize, _tsf_itfcontextownerservices_unserialize_ref, msctf/ITfContextOwnerServices::Unserialize, tsf.itfcontextownerservices_unserialize
+ms.keywords: ITfContextOwnerServices interface [Text Services Framework],Unserialize method, ITfContextOwnerServices.Unserialize, ITfContextOwnerServices::Unserialize, Unserialize, Unserialize method [Text Services Framework], Unserialize method [Text Services Framework],ITfContextOwnerServices interface, _tsf_itfcontextownerservices_unserialize_ref, msctf/ITfContextOwnerServices::Unserialize, tsf.itfcontextownerservices_unserialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextOwnerServices::Unserialize method
+# ITfContextOwnerServices::Unserialize
 
 
 ## -description

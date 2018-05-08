@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcFactory.CreatePackage
-title: IOpcFactory::CreatePackage method
+title: IOpcFactory::CreatePackage
 author: windows-driver-content
 description: Creates a package object that represents an empty package.
 old-location: opc\iopcfactory_createpackage.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 9cd4ef3a-f890-40d5-a398-cb8f9746c380
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreatePackage method [Open Packaging Conventions], CreatePackage method [Open Packaging Conventions], IOpcFactory interface, CreatePackage,IOpcFactory.CreatePackage, IOpcFactory, IOpcFactory interface [Open Packaging Conventions], CreatePackage method, IOpcFactory::CreatePackage, msopc/IOpcFactory::CreatePackage, opc.iopcfactory_createpackage
+ms.keywords: CreatePackage, CreatePackage method [Open Packaging Conventions], CreatePackage method [Open Packaging Conventions],IOpcFactory interface, IOpcFactory interface [Open Packaging Conventions],CreatePackage method, IOpcFactory.CreatePackage, IOpcFactory::CreatePackage, msopc/IOpcFactory::CreatePackage, opc.iopcfactory_createpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcFactory::CreatePackage method
+# IOpcFactory::CreatePackage
 
 
 ## -description

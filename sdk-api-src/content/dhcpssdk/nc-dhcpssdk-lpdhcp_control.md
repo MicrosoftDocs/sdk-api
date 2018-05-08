@@ -7,8 +7,8 @@ old-location: dhcp\dhcpcontrolhook.htm
 old-project: DHCP
 ms.assetid: 28019037-15ed-4d72-bd85-d6aca3c3ca75
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
-ms.keywords: DhcpControlHook, DhcpControlHook callback function [DHCP], LPDHCP_CONTROL, _dhcp_dhcpcontrolhook, dhcp.dhcpcontrolhook, dhcpssdk/DhcpControlHook
+ms.date: 5/2/2018
+ms.keywords: DhcpControlHook, DhcpControlHook callback function [DHCP], LPDHCP_CONTROL, LPDHCP_CONTROL callback, _dhcp_dhcpcontrolhook, dhcp.dhcpcontrolhook, dhcpssdk/DhcpControlHook
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# LPDHCP_CONTROL callback
+# LPDHCP_CONTROL callback function
 
 
 ## -description

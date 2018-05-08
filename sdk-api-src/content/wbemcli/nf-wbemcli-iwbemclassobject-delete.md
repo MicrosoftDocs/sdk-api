@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.Delete
-title: IWbemClassObject::Delete method
+title: IWbemClassObject::Delete
 author: windows-driver-content
 description: The IWbemClassObject::Delete method deletes the specified property from a CIM class definition and all of its qualifiers.
 old-location: wmi\iwbemclassobject_delete.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 01ccfad7-8529-4eb5-ae3a-cc1657022999
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Delete method [Windows Management Instrumentation], Delete method [Windows Management Instrumentation], IWbemClassObject interface, Delete,IWbemClassObject.Delete, IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], Delete method, IWbemClassObject::Delete, _hmm_iwbemclassobject_delete, wbemcli/IWbemClassObject::Delete, wmi.iwbemclassobject_delete
+ms.keywords: Delete, Delete method [Windows Management Instrumentation], Delete method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],Delete method, IWbemClassObject.Delete, IWbemClassObject::Delete, _hmm_iwbemclassobject_delete, wbemcli/IWbemClassObject::Delete, wmi.iwbemclassobject_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -53,7 +53,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemClassObject::Delete method
+# IWbemClassObject::Delete
 
 
 ## -description

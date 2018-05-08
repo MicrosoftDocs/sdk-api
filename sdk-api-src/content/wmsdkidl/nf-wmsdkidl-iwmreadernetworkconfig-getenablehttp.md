@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableHTTP
-title: IWMReaderNetworkConfig::GetEnableHTTP method
+title: IWMReaderNetworkConfig::GetEnableHTTP
 author: windows-driver-content
 description: The GetEnableHTTP method queries whether HTTP is enabled for protocol rollover.
 old-location: wmformat\iwmreadernetworkconfig_getenablehttp.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 892879a3-8ab2-4d2c-ba47-9f6c2dd2aec3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetEnableHTTP method [windows Media Format], GetEnableHTTP method [windows Media Format], IWMReaderNetworkConfig interface, GetEnableHTTP,IWMReaderNetworkConfig.GetEnableHTTP, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetEnableHTTP method, IWMReaderNetworkConfig::GetEnableHTTP, IWMReaderNetworkConfigGetEnableHTTP, wmformat.iwmreadernetworkconfig_getenablehttp, wmsdkidl/IWMReaderNetworkConfig::GetEnableHTTP
+ms.keywords: GetEnableHTTP, GetEnableHTTP method [windows Media Format], GetEnableHTTP method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableHTTP method, IWMReaderNetworkConfig.GetEnableHTTP, IWMReaderNetworkConfig::GetEnableHTTP, IWMReaderNetworkConfigGetEnableHTTP, wmformat.iwmreadernetworkconfig_getenablehttp, wmsdkidl/IWMReaderNetworkConfig::GetEnableHTTP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::GetEnableHTTP method
+# IWMReaderNetworkConfig::GetEnableHTTP
 
 
 ## -description

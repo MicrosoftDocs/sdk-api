@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.get_CurrentPartitionID
-title: ICOMAdminCatalog2::get_CurrentPartitionID method
+title: ICOMAdminCatalog2::get_CurrentPartitionID
 author: windows-driver-content
 description: Retrieves the identifier for the current partition.
 old-location: cos\icomadmincatalog2_currentpartitionid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: bba572c7-54c5-4c98-9d05-5f72d5648e6a
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: CurrentPartitionID property [COM+], CurrentPartitionID property [COM+], ICOMAdminCatalog2 interface, ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], CurrentPartitionID property, ICOMAdminCatalog2.CurrentPartitionID, ICOMAdminCatalog2::get_CurrentPartitionID, _cos_IComAdminCatalog2_get_CurrentPartitionID, comadmin/ICOMAdminCatalog2::CurrentPartitionID, comadmin/ICOMAdminCatalog2::get_CurrentPartitionID, cos.icomadmincatalog2_currentpartitionid, get_CurrentPartitionID,ICOMAdminCatalog2.get_CurrentPartitionID
+ms.keywords: CurrentPartitionID property [COM+], CurrentPartitionID property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CurrentPartitionID property, ICOMAdminCatalog2.CurrentPartitionID, ICOMAdminCatalog2.get_CurrentPartitionID, ICOMAdminCatalog2::CurrentPartitionID, ICOMAdminCatalog2::get_CurrentPartitionID, _cos_IComAdminCatalog2_get_CurrentPartitionID, comadmin/ICOMAdminCatalog2::CurrentPartitionID, comadmin/ICOMAdminCatalog2::get_CurrentPartitionID, cos.icomadmincatalog2_currentpartitionid, get_CurrentPartitionID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::get_CurrentPartitionID method
+# ICOMAdminCatalog2::get_CurrentPartitionID
 
 
 ## -description

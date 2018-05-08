@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService.SetFlags
-title: IBrowserService::SetFlags method
+title: IBrowserService::SetFlags
 author: windows-driver-content
 description: Deprecated. Sets flags that indicate browser status.
 old-location: shell\IBrowserService_SetFlags.htm
 old-project: shell
 ms.assetid: 696d4350-95f9-4d69-bb4b-92f4c26b3f65
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: BSF_CANMAXIMIZE, BSF_DELEGATEDNAVIGATION, BSF_DONTSHOWNAVCANCELPAGE, BSF_FEEDNAVIGATION, BSF_FEEDSUBSCRIBED, BSF_HTMLNAVCANCELED, BSF_MERGEDMENUS, BSF_NAVNOHISTORY, BSF_NOLOCALFILEWARNING, BSF_REGISTERASDROPTARGET, BSF_RESIZABLE, BSF_SETNAVIGATABLECODEPAGE, BSF_THEATERMODE, BSF_TOPBROWSER, BSF_TRUSTEDFORACTIVEX, BSF_UISETBYAUTOMATION, IBrowserService, IBrowserService interface [Windows Shell], SetFlags method, IBrowserService::SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell], IBrowserService interface, SetFlags,IBrowserService.SetFlags, shdeprecated/IBrowserService::SetFlags, shell.IBrowserService_SetFlags, zone_IBrowserService_SetFlags
+ms.date: 5/3/2018
+ms.keywords: BSF_CANMAXIMIZE, BSF_DELEGATEDNAVIGATION, BSF_DONTSHOWNAVCANCELPAGE, BSF_FEEDNAVIGATION, BSF_FEEDSUBSCRIBED, BSF_HTMLNAVCANCELED, BSF_MERGEDMENUS, BSF_NAVNOHISTORY, BSF_NOLOCALFILEWARNING, BSF_REGISTERASDROPTARGET, BSF_RESIZABLE, BSF_SETNAVIGATABLECODEPAGE, BSF_THEATERMODE, BSF_TOPBROWSER, BSF_TRUSTEDFORACTIVEX, BSF_UISETBYAUTOMATION, IBrowserService interface [Windows Shell],SetFlags method, IBrowserService.SetFlags, IBrowserService::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetFlags, shell.IBrowserService_SetFlags, zone_IBrowserService_SetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 4.0
 ---
 
-# IBrowserService::SetFlags method
+# IBrowserService::SetFlags
 
 
 ## -description

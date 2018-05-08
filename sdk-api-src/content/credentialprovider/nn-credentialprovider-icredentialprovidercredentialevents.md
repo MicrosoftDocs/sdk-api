@@ -7,8 +7,8 @@ old-location: shell\ICredentialProviderCredentialEvents.htm
 old-project: shell
 ms.assetid: 258449a4-78e2-475e-ab16-6481207e7354
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICredentialProviderCredentialEvents, ICredentialProviderCredentialEvents interface [Windows Shell], ICredentialProviderCredentialEvents interface [Windows Shell], described, credentialprovider/ICredentialProviderCredentialEvents, shell.ICredentialProviderCredentialEvents, shell_ICredentialProviderCredentialEvents
+ms.date: 5/3/2018
+ms.keywords: ICredentialProviderCredentialEvents, ICredentialProviderCredentialEvents interface [Windows Shell], ICredentialProviderCredentialEvents interface [Windows Shell],described, credentialprovider/ICredentialProviderCredentialEvents, shell.ICredentialProviderCredentialEvents, shell_ICredentialProviderCredentialEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

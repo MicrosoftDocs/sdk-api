@@ -65,6 +65,28 @@ IP version of the addresses.
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552435">FWP_IP_VERSION</a> for more information.
 
 
+### -field localV4Address
+
+ 
+
+
+### -field localV6Address
+
+ 
+
+
+### -field remoteV4Address
+
+ 
+
+
+### -field remoteV6Address
+
+ 
+
+
+
+
 #### - ( unnamed union )
 
 switch_type(FWP_IP_VERSION), switch_is(ipVersion)

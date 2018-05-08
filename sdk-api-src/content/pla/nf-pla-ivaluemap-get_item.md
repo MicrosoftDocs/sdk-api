@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.get_Item
-title: IValueMap::get_Item method
+title: IValueMap::get_Item
 author: windows-driver-content
 description: Retrieves the requested item from the collection.
 old-location: pla\ivaluemap_item.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: a01f134d-9700-4826-9040-d5d6340241de
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IValueMap, IValueMap interface [PLA], Item property, IValueMap.Item, IValueMap::get_Item, Item property [PLA], Item property [PLA], IValueMap interface, base.ivaluemap_item, get_Item,IValueMap.get_Item, pla.ivaluemap_item, pla/IValueMap::Item, pla/IValueMap::get_Item
+ms.keywords: IValueMap interface [PLA],Item property, IValueMap.Item, IValueMap.get_Item, IValueMap::Item, IValueMap::get_Item, Item property [PLA], Item property [PLA],IValueMap interface, base.ivaluemap_item, get_Item, pla.ivaluemap_item, pla/IValueMap::Item, pla/IValueMap::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IValueMap::get_Item method
+# IValueMap::get_Item
 
 
 ## -description

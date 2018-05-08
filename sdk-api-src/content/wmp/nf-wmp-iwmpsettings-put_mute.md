@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSettings.put_mute
-title: IWMPSettings::put_mute method
+title: IWMPSettings::put_mute
 author: windows-driver-content
 description: The put_mute method specifies a value indicating whether audio is muted.
 old-location: wmp\iwmpsettings_put_mute.htm
 old-project: WMP
 ms.assetid: 644f9a4d-54e4-4e8a-8c02-29feb57c9256
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], put_mute method, IWMPSettings::put_mute, IWMPSettingsput_mute, put_mute method [Windows Media Player], put_mute method [Windows Media Player], IWMPSettings interface, put_mute,IWMPSettings.put_mute, wmp.iwmpsettings_put_mute, wmp/IWMPSettings::put_mute
+ms.date: 5/4/2018
+ms.keywords: IWMPSettings interface [Windows Media Player],put_mute method, IWMPSettings.put_mute, IWMPSettings::put_mute, IWMPSettingsput_mute, put_mute, put_mute method [Windows Media Player], put_mute method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_mute, wmp/IWMPSettings::put_mute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSettings::put_mute method
+# IWMPSettings::put_mute
 
 
 ## -description

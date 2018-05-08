@@ -7,7 +7,7 @@ old-location: winrt\size.htm
 old-project: WinRT
 ms.assetid: 8705adcb-a657-4b47-94ba-632bfb3779be
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: Size, Size structure [Windows Runtime], windows/Size, winrt.size
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.SetDuplicate
-title: ITextFont::SetDuplicate method
+title: ITextFont::SetDuplicate
 author: windows-driver-content
 description: Sets the character formatting by copying another text font object.
 old-location: controls\ITextFont_SetDuplicate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontsetduplicate.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont, ITextFont interface [Windows Controls], SetDuplicate method, ITextFont::SetDuplicate, SetDuplicate method [Windows Controls], SetDuplicate method [Windows Controls], ITextFont interface, SetDuplicate,ITextFont.SetDuplicate, _win32_ITextFont_SetDuplicate, _win32_ITextFont_SetDuplicate_cpp, controls.ITextFont_SetDuplicate, controls._win32_ITextFont_SetDuplicate, tom/ITextFont::SetDuplicate
+ms.date: 4/27/2018
+ms.keywords: ITextFont interface [Windows Controls],SetDuplicate method, ITextFont.SetDuplicate, ITextFont::SetDuplicate, SetDuplicate, SetDuplicate method [Windows Controls], SetDuplicate method [Windows Controls],ITextFont interface, _win32_ITextFont_SetDuplicate, _win32_ITextFont_SetDuplicate_cpp, controls.ITextFont_SetDuplicate, controls._win32_ITextFont_SetDuplicate, tom/ITextFont::SetDuplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::SetDuplicate method
+# ITextFont::SetDuplicate
 
 
 ## -description

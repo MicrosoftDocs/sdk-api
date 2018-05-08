@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: F9AB2037-6806-42FC-BD41-F6B6BA047908
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfIntegratableCandidateListUIElement, ITfIntegratableCandidateListUIElement interface [Text Services Framework], ITfIntegratableCandidateListUIElement interface [Text Services Framework], described, ctffunc/ITfIntegratableCandidateListUIElement, tsf.itfintegratablecandidatelistuielement
+ms.keywords: ITfIntegratableCandidateListUIElement, ITfIntegratableCandidateListUIElement interface [Text Services Framework], ITfIntegratableCandidateListUIElement interface [Text Services Framework],described, ctffunc/ITfIntegratableCandidateListUIElement, tsf.itfintegratablecandidatelistuielement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

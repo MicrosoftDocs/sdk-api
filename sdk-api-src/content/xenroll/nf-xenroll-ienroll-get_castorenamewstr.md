@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.get_CAStoreNameWStr
-title: IEnroll::get_CAStoreNameWStr method
+title: IEnroll::get_CAStoreNameWStr
 author: windows-driver-content
 description: The CAStoreNameWStr property of IEnroll4 sets or retrieves the name of the store where all non-&#0034;ROOT&#0034; and non-&#0034;MY&#0034; certificates are kept.
 old-location: security\ienroll4_castorenamewstr.htm
 old-project: SecCrypto
 ms.assetid: 4c016649-a780-45c1-94a4-fb08c15c4e0f
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CAStoreNameWStr property [Security], CAStoreNameWStr property [Security], IEnroll interface, IEnroll, IEnroll interface [Security], CAStoreNameWStr property, IEnroll.CAStoreNameWStr, IEnroll::get_CAStoreNameWStr, IEnroll::put_CAStoreNameWStr, get_CAStoreNameWStr,IEnroll.get_CAStoreNameWStr, security.ienroll4_castorenamewstr, xenroll/IEnroll::CAStoreNameWStr, xenroll/IEnroll::get_CAStoreNameWStr, xenroll/IEnroll::put_CAStoreNameWStr
+ms.date: 4/30/2018
+ms.keywords: CAStoreNameWStr property [Security], CAStoreNameWStr property [Security],IEnroll interface, IEnroll interface [Security],CAStoreNameWStr property, IEnroll.CAStoreNameWStr, IEnroll.get_CAStoreNameWStr, IEnroll::CAStoreNameWStr, IEnroll::get_CAStoreNameWStr, IEnroll::put_CAStoreNameWStr, get_CAStoreNameWStr, security.ienroll4_castorenamewstr, xenroll/IEnroll::CAStoreNameWStr, xenroll/IEnroll::get_CAStoreNameWStr, xenroll/IEnroll::put_CAStoreNameWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::get_CAStoreNameWStr method
+# IEnroll::get_CAStoreNameWStr
 
 
 ## -description

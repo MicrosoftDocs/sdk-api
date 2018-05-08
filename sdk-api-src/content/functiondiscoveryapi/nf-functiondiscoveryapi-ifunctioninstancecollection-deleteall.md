@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.DeleteAll
-title: IFunctionInstanceCollection::DeleteAll method
+title: IFunctionInstanceCollection::DeleteAll
 author: windows-driver-content
 description: Removes all function instances from the collection.
 old-location: ncd\ifunctioninstancecollection_deleteall.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 4d56a16a-d44a-4c7c-931d-b5f6708cb7d6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: DeleteAll method, DeleteAll method, IFunctionInstanceCollection interface, DeleteAll,IFunctionInstanceCollection.DeleteAll, IFunctionInstanceCollection, IFunctionInstanceCollection interface, DeleteAll method, IFunctionInstanceCollection::DeleteAll, functiondiscoveryapi/IFunctionInstanceCollection::DeleteAll, ncd.ifunctioninstancecollection_deleteall
+ms.keywords: DeleteAll, DeleteAll method, DeleteAll method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,DeleteAll method, IFunctionInstanceCollection.DeleteAll, IFunctionInstanceCollection::DeleteAll, functiondiscoveryapi/IFunctionInstanceCollection::DeleteAll, ncd.ifunctioninstancecollection_deleteall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionInstanceCollection::DeleteAll method
+# IFunctionInstanceCollection::DeleteAll
 
 
 ## -description

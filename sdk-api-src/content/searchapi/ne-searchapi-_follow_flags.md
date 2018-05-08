@@ -7,7 +7,7 @@ old-location: search\_search_FOLLOW_FLAGS.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\follow_flags.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: FF_INDEXCOMPLEXURLS, FF_SUPPRESSINDEXING, FOLLOW_FLAGS, FOLLOW_FLAGS enumeration [search], _FOLLOW_FLAGS, _search_FOLLOW_FLAGS, search._search_FOLLOW_FLAGS, searchapi/FF_INDEXCOMPLEXURLS, searchapi/FF_SUPPRESSINDEXING, searchapi/FOLLOW_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

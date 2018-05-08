@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwServices.get_Count
-title: INetFwServices::get_Count method
+title: INetFwServices::get_Count
 author: windows-driver-content
 description: Retrieves a read-only element yielding the number of items in the collection.
 old-location: ics\inetfwservices_count.htm
 old-project: ICS
 ms.assetid: 543d54d9-1dc8-4348-ab8d-369857a213ef
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF], INetFwServices interface, INetFwServices, INetFwServices interface [ICS/ICF], Count property, INetFwServices.Count, INetFwServices::get_Count, get_Count,INetFwServices.get_Count, ics.inetfwservices_count, netfw/INetFwServices::Count, netfw/INetFwServices::get_Count
+ms.date: 5/1/2018
+ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwServices interface, INetFwServices interface [ICS/ICF],Count property, INetFwServices.Count, INetFwServices.get_Count, INetFwServices::Count, INetFwServices::get_Count, get_Count, ics.inetfwservices_count, netfw/INetFwServices::Count, netfw/INetFwServices::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwServices::get_Count method
+# INetFwServices::get_Count
 
 
 ## -description

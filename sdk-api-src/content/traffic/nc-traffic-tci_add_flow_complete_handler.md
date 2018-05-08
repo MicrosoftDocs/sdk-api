@@ -8,7 +8,7 @@ old-project: QOS
 ms.assetid: 0aa6f590-f7b2-4312-87a7-3854f883fa22
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: ClAddFlowComplete, ClAddFlowComplete callback function [QOS], TCI_ADD_FLOW_COMPLETE_HANDLER, TCI_ADD_FLOW_COMPLETE_HANDLER callback function [QOS], _gqos_claddflowcomplete, qos.claddflowcomplete, traffic/ClAddFlowComplete
+ms.keywords: ClAddFlowComplete, ClAddFlowComplete callback, ClAddFlowComplete callback function [QOS], TCI_ADD_FLOW_COMPLETE_HANDLER, TCI_ADD_FLOW_COMPLETE_HANDLER callback function [QOS], _gqos_claddflowcomplete, qos.claddflowcomplete, traffic/ClAddFlowComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# TCI_ADD_FLOW_COMPLETE_HANDLER callback
+# TCI_ADD_FLOW_COMPLETE_HANDLER callback function
 
 
 ## -description

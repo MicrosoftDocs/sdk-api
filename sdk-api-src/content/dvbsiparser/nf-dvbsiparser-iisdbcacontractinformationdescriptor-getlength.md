@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetLength
-title: IIsdbCAContractInformationDescriptor::GetLength method
+title: IIsdbCAContractInformationDescriptor::GetLength
 author: windows-driver-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor, in bytes.
 old-location: mstv\iisdbcacontractinformationdescriptor_getlength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f8a4f327-c3ad-4170-91c8-57f6dc22e162
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies], IIsdbCAContractInformationDescriptor interface, GetLength,IIsdbCAContractInformationDescriptor.GetLength, IIsdbCAContractInformationDescriptor, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies], GetLength method, IIsdbCAContractInformationDescriptor::GetLength, dvbsiparser/IIsdbCAContractInformationDescriptor::GetLength, mstv.iisdbcacontractinformationdescriptor_getlength
+ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbCAContractInformationDescriptor.GetLength, IIsdbCAContractInformationDescriptor::GetLength, dvbsiparser/IIsdbCAContractInformationDescriptor::GetLength, mstv.iisdbcacontractinformationdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbCAContractInformationDescriptor::GetLength method
+# IIsdbCAContractInformationDescriptor::GetLength
 
 
 ## -description

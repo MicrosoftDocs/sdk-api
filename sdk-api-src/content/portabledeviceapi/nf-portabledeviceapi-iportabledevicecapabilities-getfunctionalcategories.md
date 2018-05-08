@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetFunctionalCategories
-title: IPortableDeviceCapabilities::GetFunctionalCategories method
+title: IPortableDeviceCapabilities::GetFunctionalCategories
 author: windows-driver-content
 description: The GetFunctionalCategories method retrieves all functional categories supported by the device.
 old-location: wpdsdk\iportabledevicecapabilities_getfunctionalcategories.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: c444f9d6-7bef-4e0a-bcd8-6a6110986208
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetFunctionalCategories method [Windows Portable Devices SDK], GetFunctionalCategories method [Windows Portable Devices SDK], IPortableDeviceCapabilities interface, GetFunctionalCategories,IPortableDeviceCapabilities.GetFunctionalCategories, IPortableDeviceCapabilities, IPortableDeviceCapabilities interface [Windows Portable Devices SDK], GetFunctionalCategories method, IPortableDeviceCapabilities::GetFunctionalCategories, IPortableDeviceCapabilitiesGetFunctionalCategories, portabledeviceapi/IPortableDeviceCapabilities::GetFunctionalCategories, wpdsdk.iportabledevicecapabilities_getfunctionalcategories
+ms.keywords: GetFunctionalCategories, GetFunctionalCategories method [Windows Portable Devices SDK], GetFunctionalCategories method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetFunctionalCategories method, IPortableDeviceCapabilities.GetFunctionalCategories, IPortableDeviceCapabilities::GetFunctionalCategories, IPortableDeviceCapabilitiesGetFunctionalCategories, portabledeviceapi/IPortableDeviceCapabilities::GetFunctionalCategories, wpdsdk.iportabledevicecapabilities_getfunctionalcategories
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceCapabilities::GetFunctionalCategories method
+# IPortableDeviceCapabilities::GetFunctionalCategories
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleFactory.CreateBundleReader
-title: IAppxBundleFactory::CreateBundleReader method
+title: IAppxBundleFactory::CreateBundleReader
 author: windows-driver-content
 description: Creates a read-only bundle object that reads its contents from an IStream object.
 old-location: appxpkg\iappxbundlefactory_createbundlereader.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 3D9F7A0A-EF6A-4C99-B9A0-C618138DB5ED
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: CreateBundleReader method [App packaging and management], CreateBundleReader method [App packaging and management], IAppxBundleFactory interface, CreateBundleReader,IAppxBundleFactory.CreateBundleReader, IAppxBundleFactory, IAppxBundleFactory interface [App packaging and management], CreateBundleReader method, IAppxBundleFactory::CreateBundleReader, appxpackaging/IAppxBundleFactory::CreateBundleReader, appxpkg.iappxbundlefactory_createbundlereader
+ms.keywords: CreateBundleReader, CreateBundleReader method [App packaging and management], CreateBundleReader method [App packaging and management],IAppxBundleFactory interface, IAppxBundleFactory interface [App packaging and management],CreateBundleReader method, IAppxBundleFactory.CreateBundleReader, IAppxBundleFactory::CreateBundleReader, appxpackaging/IAppxBundleFactory::CreateBundleReader, appxpkg.iappxbundlefactory_createbundlereader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBundleFactory::CreateBundleReader method
+# IAppxBundleFactory::CreateBundleReader
 
 
 ## -description

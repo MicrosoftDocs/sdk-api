@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.RemoveNamespaceAt
-title: IWbemPath::RemoveNamespaceAt method
+title: IWbemPath::RemoveNamespaceAt
 author: windows-driver-content
 description: The IWbemPath::RemoveNamespaceAt method removes a namespace at a particular index. The leftmost namespace has an index value of 0 (zero), while namespaces to the right have progressively higher index values.
 old-location: wmi\iwbempath_removenamespaceat.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 425d26ee-c6f9-4562-9272-1c970fb6eb64
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], RemoveNamespaceAt method, IWbemPath::RemoveNamespaceAt, RemoveNamespaceAt method [Windows Management Instrumentation], RemoveNamespaceAt method [Windows Management Instrumentation], IWbemPath interface, RemoveNamespaceAt,IWbemPath.RemoveNamespaceAt, _hmm_iwbempath_removenamespaceat, wmi.iwbempath_removenamespaceat, wmiutils/IWbemPath::RemoveNamespaceAt
+ms.keywords: IWbemPath interface [Windows Management Instrumentation],RemoveNamespaceAt method, IWbemPath.RemoveNamespaceAt, IWbemPath::RemoveNamespaceAt, RemoveNamespaceAt, RemoveNamespaceAt method [Windows Management Instrumentation], RemoveNamespaceAt method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_removenamespaceat, wmi.iwbempath_removenamespaceat, wmiutils/IWbemPath::RemoveNamespaceAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWbemPath::RemoveNamespaceAt method
+# IWbemPath::RemoveNamespaceAt
 
 
 ## -description

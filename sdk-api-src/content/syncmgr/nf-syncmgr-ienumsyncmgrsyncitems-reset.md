@@ -1,14 +1,14 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrSyncItems.Reset
-title: IEnumSyncMgrSyncItems::Reset method
+title: IEnumSyncMgrSyncItems::Reset
 author: windows-driver-content
 description: Resets the current position in the enumeration to 0.
 old-location: shell\IEnumSyncMgrSyncItems_Reset.htm
 old-project: shell
 ms.assetid: 8144b47e-0419-4bc8-a57d-dc5c2b743f62
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IEnumSyncMgrSyncItems, IEnumSyncMgrSyncItems interface [Windows Shell], Reset method, IEnumSyncMgrSyncItems::Reset, Reset method [Windows Shell], Reset method [Windows Shell], IEnumSyncMgrSyncItems interface, Reset,IEnumSyncMgrSyncItems.Reset, _shell_IEnumSyncMgrSyncItems_Reset, shell.IEnumSyncMgrSyncItems_Reset, syncmgr/IEnumSyncMgrSyncItems::Reset
+ms.date: 5/3/2018
+ms.keywords: IEnumSyncMgrSyncItems interface [Windows Shell],Reset method, IEnumSyncMgrSyncItems.Reset, IEnumSyncMgrSyncItems::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumSyncMgrSyncItems interface, _shell_IEnumSyncMgrSyncItems_Reset, shell.IEnumSyncMgrSyncItems_Reset, syncmgr/IEnumSyncMgrSyncItems::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumSyncMgrSyncItems::Reset method
+# IEnumSyncMgrSyncItems::Reset
 
 
 ## -description

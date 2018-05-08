@@ -7,8 +7,8 @@ old-location: bits\ienumbackgroundcopygroups.htm
 old-project: Bits
 ms.assetid: 64a05103-9749-41fd-9987-8bb17b9284f7
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IEnumBackgroundCopyGroups, IEnumBackgroundCopyGroups interface [BITS], IEnumBackgroundCopyGroups interface [BITS], described, bits.ienumbackgroundcopygroups, qmgr/IEnumBackgroundCopyGroups
+ms.date: 4/27/2018
+ms.keywords: IEnumBackgroundCopyGroups, IEnumBackgroundCopyGroups interface [BITS], IEnumBackgroundCopyGroups interface [BITS],described, bits.ienumbackgroundcopygroups, qmgr/IEnumBackgroundCopyGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

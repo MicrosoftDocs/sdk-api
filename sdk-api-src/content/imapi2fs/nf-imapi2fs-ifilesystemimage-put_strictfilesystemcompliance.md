@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_StrictFileSystemCompliance
-title: IFileSystemImage::put_StrictFileSystemCompliance method
+title: IFileSystemImage::put_StrictFileSystemCompliance
 author: windows-driver-content
 description: Determines the compliance level for creating and developing the file-system image.
 old-location: imapi\ifilesystemimage_put_strictfilesystemcompliance.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: ccbeba5a-39d5-43fd-8693-fee7cbbf5c8a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], put_StrictFileSystemCompliance method, IFileSystemImage::put_StrictFileSystemCompliance, imapi.ifilesystemimage_put_strictfilesystemcompliance, imapi2fs/IFileSystemImage::put_StrictFileSystemCompliance, put_StrictFileSystemCompliance method [IMAPI], put_StrictFileSystemCompliance method [IMAPI], IFileSystemImage interface, put_StrictFileSystemCompliance,IFileSystemImage.put_StrictFileSystemCompliance
+ms.keywords: IFileSystemImage interface [IMAPI],put_StrictFileSystemCompliance method, IFileSystemImage.put_StrictFileSystemCompliance, IFileSystemImage::put_StrictFileSystemCompliance, imapi.ifilesystemimage_put_strictfilesystemcompliance, imapi2fs/IFileSystemImage::put_StrictFileSystemCompliance, put_StrictFileSystemCompliance, put_StrictFileSystemCompliance method [IMAPI], put_StrictFileSystemCompliance method [IMAPI],IFileSystemImage interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFileSystemImage::put_StrictFileSystemCompliance method
+# IFileSystemImage::put_StrictFileSystemCompliance
 
 
 ## -description

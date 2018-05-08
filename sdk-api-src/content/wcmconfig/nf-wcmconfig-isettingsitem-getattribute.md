@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetAttribute
-title: ISettingsItem::GetAttribute method
+title: ISettingsItem::GetAttribute
 author: windows-driver-content
 description: Gets the value of an attribute by specifying its name.
 old-location: smi\isettingsitem_getattribute.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 995184e4-05ff-41f1-9404-872a82bedd49
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetAttribute method [SMI], GetAttribute method [SMI], ISettingsItem interface, GetAttribute,ISettingsItem.GetAttribute, ISettingsItem, ISettingsItem interface [SMI], GetAttribute method, ISettingsItem::GetAttribute, smi.isettingsitem_getattribute, wcmconfig/ISettingsItem::GetAttribute
+ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetAttribute method, ISettingsItem.GetAttribute, ISettingsItem::GetAttribute, smi.isettingsitem_getattribute, wcmconfig/ISettingsItem::GetAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsItem::GetAttribute method
+# ISettingsItem::GetAttribute
 
 
 ## -description

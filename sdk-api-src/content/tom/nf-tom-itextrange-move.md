@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.Move
-title: ITextRange::Move method
+title: ITextRange::Move
 author: windows-driver-content
 description: Moves the insertion point forward or backward a specified number of units. If the range is nondegenerate, the range is collapsed to an insertion point at either end, depending on Count, and then is moved.
 old-location: controls\ITextRange_Move.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\move.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange, ITextRange interface [Windows Controls], Move method, ITextRange::Move, Move method [Windows Controls], Move method [Windows Controls], ITextRange interface, Move,ITextRange.Move, _win32_ITextRange_Move, _win32_ITextRange_Move_cpp, controls.ITextRange_Move, controls._win32_ITextRange_Move, tom/ITextRange::Move
+ms.date: 4/27/2018
+ms.keywords: ITextRange interface [Windows Controls],Move method, ITextRange.Move, ITextRange::Move, Move, Move method [Windows Controls], Move method [Windows Controls],ITextRange interface, _win32_ITextRange_Move, _win32_ITextRange_Move_cpp, controls.ITextRange_Move, controls._win32_ITextRange_Move, tom/ITextRange::Move
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::Move method
+# ITextRange::Move
 
 
 ## -description

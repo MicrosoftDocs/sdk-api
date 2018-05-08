@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextRange.SetFont
-title: ITextRange::SetFont method
+title: ITextRange::SetFont
 author: windows-driver-content
 description: Sets this range's character attributes to those of the specified ITextFont object.
 old-location: controls\ITextRange_SetFont.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setfont.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextRange, ITextRange interface [Windows Controls], SetFont method, ITextRange::SetFont, SetFont method [Windows Controls], SetFont method [Windows Controls], ITextRange interface, SetFont,ITextRange.SetFont, _win32_ITextRange_SetFont, _win32_ITextRange_SetFont_cpp, controls.ITextRange_SetFont, controls._win32_ITextRange_SetFont, tom/ITextRange::SetFont
+ms.date: 4/27/2018
+ms.keywords: ITextRange interface [Windows Controls],SetFont method, ITextRange.SetFont, ITextRange::SetFont, SetFont, SetFont method [Windows Controls], SetFont method [Windows Controls],ITextRange interface, _win32_ITextRange_SetFont, _win32_ITextRange_SetFont_cpp, controls.ITextRange_SetFont, controls._win32_ITextRange_SetFont, tom/ITextRange::SetFont
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextRange::SetFont method
+# ITextRange::SetFont
 
 
 ## -description

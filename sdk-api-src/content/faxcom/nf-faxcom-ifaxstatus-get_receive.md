@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_Receive
-title: IFaxStatus::get_Receive method
+title: IFaxStatus::get_Receive
 author: windows-driver-content
 description: Retrieves the Receive property for the FaxStatus object of a parent FaxPort object. The Receive property is a Boolean value that indicates whether a specified fax port is currently receiving a fax.
 old-location: fax\_mfax_ifaxstatus_get_receive_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5u1x.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxStatus object [Fax Service], Receive property, IFaxStatus, IFaxStatus::get_Receive, Receive property [Fax Service], Receive property [Fax Service], FaxStatus object, _mfax_ifaxstatus_get_receive, fax._mfax_ifaxstatus_get_receive, fax._mfax_ifaxstatus_get_receive_vb, get_Receive,IFaxStatus.get_Receive
+ms.keywords: FaxStatus object [Fax Service],Receive property, FaxStatus.Receive, IFaxStatus.get_Receive, IFaxStatus::get_Receive, Receive property [Fax Service], Receive property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_receive, fax._mfax_ifaxstatus_get_receive, fax._mfax_ifaxstatus_get_receive_vb, get_Receive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxStatus::get_Receive method
+# IFaxStatus::get_Receive
 
 
 ## -description

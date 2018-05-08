@@ -7,7 +7,7 @@ old-location: controls\DSA_AppendItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dsa_appenditem.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: DSA_AppendItem, DSA_AppendItem macro [Windows Controls], _shell_DSA_AppendItem, _shell_DSA_AppendItem_cpp, controls.DSA_AppendItem, controls._shell_DSA_AppendItem, dpa_dsa/DSA_AppendItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

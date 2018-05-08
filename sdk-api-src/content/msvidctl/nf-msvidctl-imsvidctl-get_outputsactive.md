@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_OutputsActive
-title: IMSVidCtl::get_OutputsActive method
+title: IMSVidCtl::get_OutputsActive
 author: windows-driver-content
 description: The get_OutputsActive method retrieves the output devices that are currently active.
 old-location: mstv\imsvidctl_get_outputsactive.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9465ff38-c524-47e1-8bc0-bd6b2e0dea8c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], get_OutputsActive method, IMSVidCtl::get_OutputsActive, IMSVidCtlget_OutputsActive, get_OutputsActive method [Microsoft TV Technologies], get_OutputsActive method [Microsoft TV Technologies], IMSVidCtl interface, get_OutputsActive,IMSVidCtl.get_OutputsActive, mstv.imsvidctl_get_outputsactive, msvidctl/IMSVidCtl::get_OutputsActive
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_OutputsActive method, IMSVidCtl.get_OutputsActive, IMSVidCtl::get_OutputsActive, IMSVidCtlget_OutputsActive, get_OutputsActive, get_OutputsActive method [Microsoft TV Technologies], get_OutputsActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_outputsactive, msvidctl/IMSVidCtl::get_OutputsActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::get_OutputsActive method
+# IMSVidCtl::get_OutputsActive
 
 
 ## -description

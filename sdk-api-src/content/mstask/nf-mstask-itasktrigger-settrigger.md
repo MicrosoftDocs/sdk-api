@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskTrigger.SetTrigger
-title: ITaskTrigger::SetTrigger method
+title: ITaskTrigger::SetTrigger
 author: windows-driver-content
 description: The SetTrigger method sets the trigger criteria for a task trigger.
 old-location: taskschd\itasktrigger_settrigger.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 2f445835-a409-4a03-b853-4e0b07ded1ea
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITaskTrigger, ITaskTrigger interface [Task Scheduler], SetTrigger method, ITaskTrigger::SetTrigger, SetTrigger method [Task Scheduler], SetTrigger method [Task Scheduler], ITaskTrigger interface, SetTrigger,ITaskTrigger.SetTrigger, _msb_itasktrigger_settrigger, mstask/ITaskTrigger::SetTrigger, taskschd.itasktrigger_settrigger
+ms.keywords: ITaskTrigger interface [Task Scheduler],SetTrigger method, ITaskTrigger.SetTrigger, ITaskTrigger::SetTrigger, SetTrigger, SetTrigger method [Task Scheduler], SetTrigger method [Task Scheduler],ITaskTrigger interface, _msb_itasktrigger_settrigger, mstask/ITaskTrigger::SetTrigger, taskschd.itasktrigger_settrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITaskTrigger::SetTrigger method
+# ITaskTrigger::SetTrigger
 
 
 ## -description

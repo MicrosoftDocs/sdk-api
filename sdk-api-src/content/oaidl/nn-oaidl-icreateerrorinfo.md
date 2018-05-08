@@ -7,8 +7,8 @@ old-location: automat\icreateerrorinfo.htm
 old-project: automat
 ms.assetid: 2e7c5ad5-9018-413e-8826-ef752ebf302c
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], ICreateErrorInfo interface [Automation], described, _oa96_ICreateErrorInfo_Interface, automat.icreateerrorinfo, oaidl/ICreateErrorInfo
+ms.date: 5/4/2018
+ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], ICreateErrorInfo interface [Automation],described, _oa96_ICreateErrorInfo_Interface, automat.icreateerrorinfo, oaidl/ICreateErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,8 +38,8 @@ api_name:
 -	ICreateErrorInfo
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: OleAut32.lib
+req.dll: OleAut32.dll
 req.irql: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---

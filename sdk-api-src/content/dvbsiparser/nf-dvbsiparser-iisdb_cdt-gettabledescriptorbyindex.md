@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetTableDescriptorByIndex
-title: IISDB_CDT::GetTableDescriptorByIndex method
+title: IISDB_CDT::GetTableDescriptorByIndex
 author: windows-driver-content
 description: Returns a specified logo transmission descriptor from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_gettabledescriptorbyindex.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e345e860-247a-4c30-876b-c0e6c82767b8
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies], IISDB_CDT interface, GetTableDescriptorByIndex,IISDB_CDT.GetTableDescriptorByIndex, IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], GetTableDescriptorByIndex method, IISDB_CDT::GetTableDescriptorByIndex, dvbsiparser/IISDB_CDT::GetTableDescriptorByIndex, mstv.iisdb_cdt_gettabledescriptorbyindex
+ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IISDB_CDT.GetTableDescriptorByIndex, IISDB_CDT::GetTableDescriptorByIndex, dvbsiparser/IISDB_CDT::GetTableDescriptorByIndex, mstv.iisdb_cdt_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_CDT::GetTableDescriptorByIndex method
+# IISDB_CDT::GetTableDescriptorByIndex
 
 
 ## -description

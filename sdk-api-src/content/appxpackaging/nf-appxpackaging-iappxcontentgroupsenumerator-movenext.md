@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupsEnumerator.MoveNext
-title: IAppxContentGroupsEnumerator::MoveNext method
+title: IAppxContentGroupsEnumerator::MoveNext
 author: windows-driver-content
 description: Advances the position of the enumerator to the next content group.
 old-location: appxpkg\iappxcontentgroupsenumerator_movenext.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 001F7B38-9588-4C87-9EC3-FB8D91959BB0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxContentGroupsEnumerator, IAppxContentGroupsEnumerator interface [App packaging and management], MoveNext method, IAppxContentGroupsEnumerator::MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management], IAppxContentGroupsEnumerator interface, MoveNext,IAppxContentGroupsEnumerator.MoveNext, appxpackaging/IAppxContentGroupsEnumerator::MoveNext, appxpkg.iappxcontentgroupsenumerator_movenext
+ms.keywords: IAppxContentGroupsEnumerator interface [App packaging and management],MoveNext method, IAppxContentGroupsEnumerator.MoveNext, IAppxContentGroupsEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxContentGroupsEnumerator interface, appxpackaging/IAppxContentGroupsEnumerator::MoveNext, appxpkg.iappxcontentgroupsenumerator_movenext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxContentGroupsEnumerator::MoveNext method
+# IAppxContentGroupsEnumerator::MoveNext
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IHardwareAudioEngineBase.GetEngineFormat
-title: IHardwareAudioEngineBase::GetEngineFormat method
+title: IHardwareAudioEngineBase::GetEngineFormat
 author: windows-driver-content
 description: The GetEngineFormat method retrieves the current data format of the offloaded audio stream.
 old-location: coreaudio\ihardwareaudioenginebase_getengineformat.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 150F8E7C-35A0-42DA-8E3D-69835153382F
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetEngineFormat method [Core Audio], GetEngineFormat method [Core Audio], IHardwareAudioEngineBase interface, GetEngineFormat,IHardwareAudioEngineBase.GetEngineFormat, IHardwareAudioEngineBase, IHardwareAudioEngineBase interface [Core Audio], GetEngineFormat method, IHardwareAudioEngineBase::GetEngineFormat, audioengineendpoint/IHardwareAudioEngineBase::GetEngineFormat, coreaudio.ihardwareaudioenginebase_getengineformat
+ms.keywords: GetEngineFormat, GetEngineFormat method [Core Audio], GetEngineFormat method [Core Audio],IHardwareAudioEngineBase interface, IHardwareAudioEngineBase interface [Core Audio],GetEngineFormat method, IHardwareAudioEngineBase.GetEngineFormat, IHardwareAudioEngineBase::GetEngineFormat, audioengineendpoint/IHardwareAudioEngineBase::GetEngineFormat, coreaudio.ihardwareaudioenginebase_getengineformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IHardwareAudioEngineBase::GetEngineFormat method
+# IHardwareAudioEngineBase::GetEngineFormat
 
 
 ## -description

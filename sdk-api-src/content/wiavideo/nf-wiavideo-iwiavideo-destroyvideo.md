@@ -1,14 +1,14 @@
 ---
 UID: NF:wiavideo.IWiaVideo.DestroyVideo
-title: IWiaVideo::DestroyVideo method
+title: IWiaVideo::DestroyVideo
 author: windows-driver-content
 description: The IWiaVideo::DestroyVideo method shuts down the streaming video. To restart video playback, the application must call one of the IWiaVideo CreateVideo methods again.
 old-location: wia\_wia_IWiaVideo_DestroyVideo.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\destroyvideo.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: DestroyVideo method [WIA], DestroyVideo method [WIA], IWiaVideo interface, DestroyVideo,IWiaVideo.DestroyVideo, IWiaVideo, IWiaVideo interface [WIA], DestroyVideo method, IWiaVideo::DestroyVideo, _wia_IWiaVideo_DestroyVideo, wia._wia_IWiaVideo_DestroyVideo, wiavideo/IWiaVideo::DestroyVideo
+ms.date: 5/3/2018
+ms.keywords: DestroyVideo, DestroyVideo method [WIA], DestroyVideo method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],DestroyVideo method, IWiaVideo.DestroyVideo, IWiaVideo::DestroyVideo, _wia_IWiaVideo_DestroyVideo, wia._wia_IWiaVideo_DestroyVideo, wiavideo/IWiaVideo::DestroyVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaVideo::DestroyVideo method
+# IWiaVideo::DestroyVideo
 
 
 ## -description

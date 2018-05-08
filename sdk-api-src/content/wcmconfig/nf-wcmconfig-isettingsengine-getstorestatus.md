@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetStoreStatus
-title: ISettingsEngine::GetStoreStatus method
+title: ISettingsEngine::GetStoreStatus
 author: windows-driver-content
 description: Gets the status of the schema store.
 old-location: smi\isettingsengine_getstorestatus.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 212299b4-d7b3-4a11-b75e-7e752bb91932
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetStoreStatus method [SMI], GetStoreStatus method [SMI], ISettingsEngine interface, GetStoreStatus,ISettingsEngine.GetStoreStatus, ISettingsEngine, ISettingsEngine interface [SMI], GetStoreStatus method, ISettingsEngine::GetStoreStatus, smi.isettingsengine_getstorestatus, wcmconfig/ISettingsEngine::GetStoreStatus
+ms.keywords: GetStoreStatus, GetStoreStatus method [SMI], GetStoreStatus method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetStoreStatus method, ISettingsEngine.GetStoreStatus, ISettingsEngine::GetStoreStatus, smi.isettingsengine_getstorestatus, wcmconfig/ISettingsEngine::GetStoreStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsEngine::GetStoreStatus method
+# ISettingsEngine::GetStoreStatus
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.GetClientCertificate
-title: IMFSSLCertificateManager::GetClientCertificate method
+title: IMFSSLCertificateManager::GetClientCertificate
 author: windows-driver-content
 description: Gets the client SSL certificate synchronously.
 old-location: mf\imfsslcertificatemanager_getclientcertificate.htm
 old-project: medfound
 ms.assetid: 11a575e8-5eb2-4cbb-a460-f1ea5d54d324
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetClientCertificate method [Media Foundation], GetClientCertificate method [Media Foundation], IMFSSLCertificateManager interface, GetClientCertificate,IMFSSLCertificateManager.GetClientCertificate, IMFSSLCertificateManager, IMFSSLCertificateManager interface [Media Foundation], GetClientCertificate method, IMFSSLCertificateManager::GetClientCertificate, mf.imfsslcertificatemanager_getclientcertificate, mfidl/IMFSSLCertificateManager::GetClientCertificate
+ms.date: 5/3/2018
+ms.keywords: GetClientCertificate, GetClientCertificate method [Media Foundation], GetClientCertificate method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],GetClientCertificate method, IMFSSLCertificateManager.GetClientCertificate, IMFSSLCertificateManager::GetClientCertificate, mf.imfsslcertificatemanager_getclientcertificate, mfidl/IMFSSLCertificateManager::GetClientCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSSLCertificateManager::GetClientCertificate method
+# IMFSSLCertificateManager::GetClientCertificate
 
 
 ## -description

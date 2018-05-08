@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartEnumerator.Clone
-title: IOpcPartEnumerator::Clone method
+title: IOpcPartEnumerator::Clone
 author: windows-driver-content
 description: Creates a copy of the current enumerator and all its descendants.
 old-location: opc\iopcpartenumerator_clone.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: b2719b6b-dcbd-4f8b-bb53-42114b95d6b3
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions], IOpcPartEnumerator interface, Clone,IOpcPartEnumerator.Clone, IOpcPartEnumerator, IOpcPartEnumerator interface [Open Packaging Conventions], Clone method, IOpcPartEnumerator::Clone, msopc/IOpcPartEnumerator::Clone, opc.iopcpartenumerator_clone
+ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcPartEnumerator interface, IOpcPartEnumerator interface [Open Packaging Conventions],Clone method, IOpcPartEnumerator.Clone, IOpcPartEnumerator::Clone, msopc/IOpcPartEnumerator::Clone, opc.iopcpartenumerator_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcPartEnumerator::Clone method
+# IOpcPartEnumerator::Clone
 
 
 ## -description

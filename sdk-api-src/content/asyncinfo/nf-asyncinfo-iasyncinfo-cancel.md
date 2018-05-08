@@ -1,14 +1,14 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.Cancel
-title: IAsyncInfo::Cancel method
+title: IAsyncInfo::Cancel
 author: windows-driver-content
 description: Requests cancellation of the asynchronous operation already in progress.
 old-location: winrt\iasyncinfo_cancel.htm
 old-project: WinRT
 ms.assetid: f011c6e3-dd8f-4f77-8f06-be2a3fb1e0f0
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: Cancel method [Windows Runtime], Cancel method [Windows Runtime], IAsyncInfo interface, Cancel,IAsyncInfo.Cancel, IAsyncInfo, IAsyncInfo interface [Windows Runtime], Cancel method, IAsyncInfo::Cancel, asyncinfo/IAsyncInfo::Cancel, winrt.iasyncinfo_cancel
+ms.date: 5/4/2018
+ms.keywords: Cancel, Cancel method [Windows Runtime], Cancel method [Windows Runtime],IAsyncInfo interface, IAsyncInfo interface [Windows Runtime],Cancel method, IAsyncInfo.Cancel, IAsyncInfo::Cancel, asyncinfo/IAsyncInfo::Cancel, winrt.iasyncinfo_cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAsyncInfo::Cancel method
+# IAsyncInfo::Cancel
 
 
 ## -description

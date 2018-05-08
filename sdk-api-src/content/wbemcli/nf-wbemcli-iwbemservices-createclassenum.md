@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.CreateClassEnum
-title: IWbemServices::CreateClassEnum method
+title: IWbemServices::CreateClassEnum
 author: windows-driver-content
 description: The IWbemServices::CreateClassEnum method returns an enumerator for all classes that satisfy selection criteria.
 old-location: wmi\iwbemservices_createclassenum.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 23122b38-5671-4454-be79-85c6bc34daa0
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: CreateClassEnum method [Windows Management Instrumentation], CreateClassEnum method [Windows Management Instrumentation], IWbemServices interface, CreateClassEnum,IWbemServices.CreateClassEnum, IWbemServices, IWbemServices interface [Windows Management Instrumentation], CreateClassEnum method, IWbemServices::CreateClassEnum, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_FORWARD_ONLY, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createclassenum, wbemcli/IWbemServices::CreateClassEnum, wmi.iwbemservices_createclassenum
+ms.keywords: CreateClassEnum, CreateClassEnum method [Windows Management Instrumentation], CreateClassEnum method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],CreateClassEnum method, IWbemServices.CreateClassEnum, IWbemServices::CreateClassEnum, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DEEP, WBEM_FLAG_FORWARD_ONLY, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_SHALLOW, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_createclassenum, wbemcli/IWbemServices::CreateClassEnum, wmi.iwbemservices_createclassenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -58,7 +58,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemServices::CreateClassEnum method
+# IWbemServices::CreateClassEnum
 
 
 ## -description

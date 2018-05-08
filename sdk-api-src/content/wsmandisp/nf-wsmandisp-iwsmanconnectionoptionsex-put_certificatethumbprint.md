@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx.put_CertificateThumbprint
-title: IWSManConnectionOptionsEx::put_CertificateThumbprint method
+title: IWSManConnectionOptionsEx::put_CertificateThumbprint
 author: windows-driver-content
 description: Sets or gets the certificate thumbprint to use when authenticating by using client certificate authentication.
 old-location: winrm\iwsmanconnectionoptionsex_certificatethumbprint.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: 049cf5b9-3914-495f-b54b-116dd271e4a1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CertificateThumbprint property [Windows Remote Management], CertificateThumbprint property [Windows Remote Management], IWSManConnectionOptionsEx interface, IWSManConnectionOptionsEx, IWSManConnectionOptionsEx interface [Windows Remote Management], CertificateThumbprint property, IWSManConnectionOptionsEx.CertificateThumbprint, IWSManConnectionOptionsEx::get_CertificateThumbprint, IWSManConnectionOptionsEx::put_CertificateThumbprint, put_CertificateThumbprint,IWSManConnectionOptionsEx.put_CertificateThumbprint, winrm.iwsmanconnectionoptionsex_certificatethumbprint, wsmandisp/IWSManConnectionOptionsEx::CertificateThumbprint, wsmandisp/IWSManConnectionOptionsEx::get_CertificateThumbprint, wsmandisp/IWSManConnectionOptionsEx::put_CertificateThumbprint
+ms.keywords: CertificateThumbprint property [Windows Remote Management], CertificateThumbprint property [Windows Remote Management],IWSManConnectionOptionsEx interface, IWSManConnectionOptionsEx interface [Windows Remote Management],CertificateThumbprint property, IWSManConnectionOptionsEx.CertificateThumbprint, IWSManConnectionOptionsEx.put_CertificateThumbprint, IWSManConnectionOptionsEx::CertificateThumbprint, IWSManConnectionOptionsEx::get_CertificateThumbprint, IWSManConnectionOptionsEx::put_CertificateThumbprint, put_CertificateThumbprint, winrm.iwsmanconnectionoptionsex_certificatethumbprint, wsmandisp/IWSManConnectionOptionsEx::CertificateThumbprint, wsmandisp/IWSManConnectionOptionsEx::get_CertificateThumbprint, wsmandisp/IWSManConnectionOptionsEx::put_CertificateThumbprint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManConnectionOptionsEx::put_CertificateThumbprint method
+# IWSManConnectionOptionsEx::put_CertificateThumbprint
 
 
 ## -description

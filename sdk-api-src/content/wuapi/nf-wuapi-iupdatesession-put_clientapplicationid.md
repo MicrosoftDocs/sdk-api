@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession.put_ClientApplicationID
-title: IUpdateSession::put_ClientApplicationID method
+title: IUpdateSession::put_ClientApplicationID
 author: windows-driver-content
 description: Gets and sets the current client application.
 old-location: wua\iupdatesession_clientapplicationid.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 9e025c75-5884-4a45-ab11-24a8b66ab838
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent], IUpdateSession interface, IUpdateSession, IUpdateSession interface [Windows Update Agent], ClientApplicationID property, IUpdateSession.ClientApplicationID, IUpdateSession::get_ClientApplicationID, IUpdateSession::put_ClientApplicationID, put_ClientApplicationID,IUpdateSession.put_ClientApplicationID, wua.iupdatesession_clientapplicationid, wuapi/IUpdateSession::ClientApplicationID, wuapi/IUpdateSession::get_ClientApplicationID, wuapi/IUpdateSession::put_ClientApplicationID
+ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],ClientApplicationID property, IUpdateSession.ClientApplicationID, IUpdateSession.put_ClientApplicationID, IUpdateSession::ClientApplicationID, IUpdateSession::get_ClientApplicationID, IUpdateSession::put_ClientApplicationID, put_ClientApplicationID, wua.iupdatesession_clientapplicationid, wuapi/IUpdateSession::ClientApplicationID, wuapi/IUpdateSession::get_ClientApplicationID, wuapi/IUpdateSession::put_ClientApplicationID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateSession::put_ClientApplicationID method
+# IUpdateSession::put_ClientApplicationID
 
 
 ## -description

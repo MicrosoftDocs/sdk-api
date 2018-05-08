@@ -7,7 +7,7 @@ old-location: controls\NMPGHOTITEM.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\pager\structures\nmpghotitem.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: "*LPNMPGHOTITEM, LPNMPGHOTITEM, LPNMPGHOTITEM structure pointer [Windows Controls], NMPGHOTITEM, NMPGHOTITEM structure [Windows Controls], commctrl/LPNMPGHOTITEM, commctrl/NMPGHOTITEM, controls.NMPGHOTITEM, controls.inet_NMPGHOTITEM, inet_NMPGHOTITEM, inet_NMPGHOTITEM_cpp, tagNMPGHOTITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

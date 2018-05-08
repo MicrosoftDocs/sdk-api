@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.ApplyTemplate
-title: IFsrmQuotaObject::ApplyTemplate method
+title: IFsrmQuotaObject::ApplyTemplate
 author: windows-driver-content
 description: Applies the property values of the specified quota template to this quota object.
 old-location: fsrm\ifsrmquotaobject_applytemplate.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: f4e65d53-7841-4f84-9c14-bad43089a87f
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ApplyTemplate method [File Server Resource Manager], ApplyTemplate method [File Server Resource Manager], IFsrmQuotaObject interface, ApplyTemplate,IFsrmQuotaObject.ApplyTemplate, IFsrmQuotaObject, IFsrmQuotaObject interface [File Server Resource Manager], ApplyTemplate method, IFsrmQuotaObject::ApplyTemplate, fs.ifsrmquotaobject_applytemplate, fsrm.ifsrmquotaobject_applytemplate, fsrmquota/IFsrmQuotaObject::ApplyTemplate
+ms.keywords: ApplyTemplate, ApplyTemplate method [File Server Resource Manager], ApplyTemplate method [File Server Resource Manager],IFsrmQuotaObject interface, IFsrmQuotaObject interface [File Server Resource Manager],ApplyTemplate method, IFsrmQuotaObject.ApplyTemplate, IFsrmQuotaObject::ApplyTemplate, fs.ifsrmquotaobject_applytemplate, fsrm.ifsrmquotaobject_applytemplate, fsrmquota/IFsrmQuotaObject::ApplyTemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaObject::ApplyTemplate method
+# IFsrmQuotaObject::ApplyTemplate
 
 
 ## -description

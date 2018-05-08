@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition2.GetDimension
-title: IUIAnimationTransition2::GetDimension method
+title: IUIAnimationTransition2::GetDimension
 author: windows-driver-content
 description: Gets the number of dimensions in which the animation variable has a transition specified.
 old-location: uianimation\iuianimationtransition2_getdimension.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 0C5B6B70-B400-466E-BB6A-1BF9313C106D
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDimension method [Windows Animation], GetDimension method [Windows Animation], IUIAnimationTransition2 interface, GetDimension,IUIAnimationTransition2.GetDimension, IUIAnimationTransition2, IUIAnimationTransition2 interface [Windows Animation], GetDimension method, IUIAnimationTransition2::GetDimension, uianimation.iuianimationtransition2_getdimension, uianimation/IUIAnimationTransition2::GetDimension
+ms.keywords: GetDimension, GetDimension method [Windows Animation], GetDimension method [Windows Animation],IUIAnimationTransition2 interface, IUIAnimationTransition2 interface [Windows Animation],GetDimension method, IUIAnimationTransition2.GetDimension, IUIAnimationTransition2::GetDimension, uianimation.iuianimationtransition2_getdimension, uianimation/IUIAnimationTransition2::GetDimension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransition2::GetDimension method
+# IUIAnimationTransition2::GetDimension
 
 
 ## -description

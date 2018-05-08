@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDTextStringAsUnicode
-title: IDvdInfo2::GetDVDTextStringAsUnicode method
+title: IDvdInfo2::GetDVDTextStringAsUnicode
 author: windows-driver-content
 description: The GetDVDTextStringAsUnicode method retrieves a DVD text string for a specified language, and returns the text string as a Unicode string.
 old-location: dshow\idvdinfo2_getdvdtextstringasunicode.htm
 old-project: DirectShow
 ms.assetid: e13d4212-0e4a-40cf-89c7-f0c22f5a5cb9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDVDTextStringAsUnicode method [DirectShow], GetDVDTextStringAsUnicode method [DirectShow], IDvdInfo2 interface, GetDVDTextStringAsUnicode,IDvdInfo2.GetDVDTextStringAsUnicode, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetDVDTextStringAsUnicode method, IDvdInfo2::GetDVDTextStringAsUnicode, IDvdInfo2GetDVDTextStringAsUnicode, dshow.idvdinfo2_getdvdtextstringasunicode, strmif/IDvdInfo2::GetDVDTextStringAsUnicode
+ms.date: 4/30/2018
+ms.keywords: GetDVDTextStringAsUnicode, GetDVDTextStringAsUnicode method [DirectShow], GetDVDTextStringAsUnicode method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDTextStringAsUnicode method, IDvdInfo2.GetDVDTextStringAsUnicode, IDvdInfo2::GetDVDTextStringAsUnicode, IDvdInfo2GetDVDTextStringAsUnicode, dshow.idvdinfo2_getdvdtextstringasunicode, strmif/IDvdInfo2::GetDVDTextStringAsUnicode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo2::GetDVDTextStringAsUnicode method
+# IDvdInfo2::GetDVDTextStringAsUnicode
 
 
 ## -description

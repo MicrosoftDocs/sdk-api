@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.EncryptionBlt
-title: IDirect3DCryptoSession9::EncryptionBlt method
+title: IDirect3DCryptoSession9::EncryptionBlt
 author: windows-driver-content
 description: Reads encrypted data from a protected surface.
 old-location: mf\idirect3dcryptosession9_encryptionblt.htm
 old-project: medfound
 ms.assetid: 42aa21d3-7c38-4058-b766-454be8b1ae80
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation], IDirect3DCryptoSession9 interface, EncryptionBlt,IDirect3DCryptoSession9.EncryptionBlt, IDirect3DCryptoSession9, IDirect3DCryptoSession9 interface [Media Foundation], EncryptionBlt method, IDirect3DCryptoSession9::EncryptionBlt, d3d9/IDirect3DCryptoSession9::EncryptionBlt, mf.idirect3dcryptosession9_encryptionblt
+ms.date: 5/3/2018
+ms.keywords: EncryptionBlt, EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],EncryptionBlt method, IDirect3DCryptoSession9.EncryptionBlt, IDirect3DCryptoSession9::EncryptionBlt, d3d9/IDirect3DCryptoSession9::EncryptionBlt, mf.idirect3dcryptosession9_encryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DCryptoSession9::EncryptionBlt method
+# IDirect3DCryptoSession9::EncryptionBlt
 
 
 ## -description

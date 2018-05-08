@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.Encode
-title: IX509CertificateRequest::Encode method
+title: IX509CertificateRequest::Encode
 author: windows-driver-content
 description: Signs and encodes a certificate request and creates a key pair if one does not exist.
 old-location: security\ix509certificaterequest_encode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 098788f4-539f-420b-a4e1-65625dd56ca1
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Encode method [Security], Encode method [Security], IX509CertificateRequest interface, Encode,IX509CertificateRequest.Encode, IX509CertificateRequest, IX509CertificateRequest interface [Security], Encode method, IX509CertificateRequest::Encode, certenroll/IX509CertificateRequest::Encode, security.ix509certificaterequest_encode_method
+ms.keywords: Encode, Encode method [Security], Encode method [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],Encode method, IX509CertificateRequest.Encode, IX509CertificateRequest::Encode, certenroll/IX509CertificateRequest::Encode, security.ix509certificaterequest_encode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509CertificateRequest::Encode method
+# IX509CertificateRequest::Encode
 
 
 ## -description

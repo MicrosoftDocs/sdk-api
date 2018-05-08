@@ -8,7 +8,7 @@ old-project: ETW
 ms.assetid: 9312eaed-2997-4d44-952a-fcae3b262947
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: EventCallback, EventCallback callback function [ETW], PEVENT_CALLBACK, _evt_eventcallback, base.eventcallback, etw.eventcallback, evntrace/EventCallback
+ms.keywords: EventCallback, EventCallback callback function [ETW], PEVENT_CALLBACK, PEVENT_CALLBACK callback, _evt_eventcallback, base.eventcallback, etw.eventcallback, evntrace/EventCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# PEVENT_CALLBACK callback
+# PEVENT_CALLBACK callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IDMOVideoOutputOptimizations.QueryOperationModePreferences
-title: IDMOVideoOutputOptimizations::QueryOperationModePreferences method
+title: IDMOVideoOutputOptimizations::QueryOperationModePreferences
 author: windows-driver-content
 description: The QueryOperationModePreferences method retrieves the DMO's preferred optimization features.
 old-location: dshow\idmovideooutputoptimizations_queryoperationmodepreferences.htm
 old-project: DirectShow
 ms.assetid: 55916330-8395-4952-a349-f1ab5a3a2d64
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDMOVideoOutputOptimizations, IDMOVideoOutputOptimizations interface [DirectShow], QueryOperationModePreferences method, IDMOVideoOutputOptimizations::QueryOperationModePreferences, IDMOVideoOutputOptimizationsQueryOperationModePreferences, QueryOperationModePreferences method [DirectShow], QueryOperationModePreferences method [DirectShow], IDMOVideoOutputOptimizations interface, QueryOperationModePreferences,IDMOVideoOutputOptimizations.QueryOperationModePreferences, dshow.idmovideooutputoptimizations_queryoperationmodepreferences, mediaobj/IDMOVideoOutputOptimizations::QueryOperationModePreferences
+ms.date: 4/30/2018
+ms.keywords: IDMOVideoOutputOptimizations interface [DirectShow],QueryOperationModePreferences method, IDMOVideoOutputOptimizations.QueryOperationModePreferences, IDMOVideoOutputOptimizations::QueryOperationModePreferences, IDMOVideoOutputOptimizationsQueryOperationModePreferences, QueryOperationModePreferences, QueryOperationModePreferences method [DirectShow], QueryOperationModePreferences method [DirectShow],IDMOVideoOutputOptimizations interface, dshow.idmovideooutputoptimizations_queryoperationmodepreferences, mediaobj/IDMOVideoOutputOptimizations::QueryOperationModePreferences
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDMOVideoOutputOptimizations::QueryOperationModePreferences method
+# IDMOVideoOutputOptimizations::QueryOperationModePreferences
 
 
 ## -description

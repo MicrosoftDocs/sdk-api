@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetVersion
-title: IAppxManifestPackageId::GetVersion method
+title: IAppxManifestPackageId::GetVersion
 author: windows-driver-content
 description: Gets the version of the package as defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid_getversion.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 85684359-9244-4130-BF0F-56DDB6427345
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetVersion method [App packaging and management], GetVersion method [App packaging and management], IAppxManifestPackageId interface, GetVersion,IAppxManifestPackageId.GetVersion, IAppxManifestPackageId, IAppxManifestPackageId interface [App packaging and management], GetVersion method, IAppxManifestPackageId::GetVersion, appxpackaging/IAppxManifestPackageId::GetVersion, appxpkg.iappxmanifestpackageid_getversion
+ms.keywords: GetVersion, GetVersion method [App packaging and management], GetVersion method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetVersion method, IAppxManifestPackageId.GetVersion, IAppxManifestPackageId::GetVersion, appxpackaging/IAppxManifestPackageId::GetVersion, appxpkg.iappxmanifestpackageid_getversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestPackageId::GetVersion method
+# IAppxManifestPackageId::GetVersion
 
 
 ## -description

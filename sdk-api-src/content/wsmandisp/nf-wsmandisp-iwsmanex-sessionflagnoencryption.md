@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagNoEncryption
-title: IWSManEx::SessionFlagNoEncryption method
+title: IWSManEx::SessionFlagNoEncryption
 author: windows-driver-content
 description: Returns the value of the authentication flag WSManFlagNoEncryption for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagnoencryption.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: ec96e873-ecb6-4d89-ada3-41c889544091
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWSManEx, IWSManEx interface [Windows Remote Management], SessionFlagNoEncryption method, IWSManEx::SessionFlagNoEncryption, SessionFlagNoEncryption method [Windows Remote Management], SessionFlagNoEncryption method [Windows Remote Management], IWSManEx interface, SessionFlagNoEncryption,IWSManEx.SessionFlagNoEncryption, winrm.iwsmanex_sessionflagnoencryption, wsmandisp/IWSManEx::SessionFlagNoEncryption
+ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagNoEncryption method, IWSManEx.SessionFlagNoEncryption, IWSManEx::SessionFlagNoEncryption, SessionFlagNoEncryption, SessionFlagNoEncryption method [Windows Remote Management], SessionFlagNoEncryption method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagnoencryption, wsmandisp/IWSManEx::SessionFlagNoEncryption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEx::SessionFlagNoEncryption method
+# IWSManEx::SessionFlagNoEncryption
 
 
 ## -description

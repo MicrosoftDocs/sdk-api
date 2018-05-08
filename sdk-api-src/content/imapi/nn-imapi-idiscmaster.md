@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 1473e79e-a13a-4bc5-b80d-d8921fdc9952
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscMaster, IDiscMaster interface [IMAPI], IDiscMaster interface [IMAPI], described, _win32_idiscmaster, base.idiscmaster, imapi.idiscmaster, imapi/IDiscMaster
+ms.keywords: IDiscMaster, IDiscMaster interface [IMAPI], IDiscMaster interface [IMAPI],described, _win32_idiscmaster, base.idiscmaster, imapi.idiscmaster, imapi/IDiscMaster
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

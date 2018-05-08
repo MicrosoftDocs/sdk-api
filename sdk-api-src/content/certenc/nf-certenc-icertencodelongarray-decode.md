@@ -1,14 +1,14 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.Decode
-title: ICertEncodeLongArray::Decode method
+title: ICertEncodeLongArray::Decode
 author: windows-driver-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded Long array and stores the resulting array of Long values in the CertEncodeLongArray object.
 old-location: security\icertencodelongarray_decode.htm
 old-project: SecCrypto
 ms.assetid: b0ff8e1a-c4b2-48ac-be95-228638d00e6d
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertEncodeLongArray object [Security], Decode method, Decode method [Security], Decode method [Security], CCertEncodeLongArray object, Decode method [Security], ICertEncodeLongArray interface, Decode,ICertEncodeLongArray.Decode, ICertEncodeLongArray, ICertEncodeLongArray interface [Security], Decode method, ICertEncodeLongArray::Decode, _certsrv_icertencodelongarray_decode, certenc/ICertEncodeLongArray::Decode, security.icertencodelongarray_decode
+ms.date: 4/30/2018
+ms.keywords: CCertEncodeLongArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeLongArray object, Decode method [Security],ICertEncodeLongArray interface, ICertEncodeLongArray interface [Security],Decode method, ICertEncodeLongArray.Decode, ICertEncodeLongArray::Decode, _certsrv_icertencodelongarray_decode, certenc/ICertEncodeLongArray::Decode, security.icertencodelongarray_decode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certenc.dll
 req.irql: 
 ---
 
-# ICertEncodeLongArray::Decode method
+# ICertEncodeLongArray::Decode
 
 
 ## -description

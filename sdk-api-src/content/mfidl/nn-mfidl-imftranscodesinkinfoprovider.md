@@ -7,8 +7,8 @@ old-location: mf\imftranscodesinkinfoprovider.htm
 old-project: medfound
 ms.assetid: c5eb0c30-559a-44dd-80d4-4b11933dc7ce
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFTranscodeSinkInfoProvider, IMFTranscodeSinkInfoProvider interface [Media Foundation], IMFTranscodeSinkInfoProvider interface [Media Foundation], described, mf.imftranscodesinkinfoprovider, mfidl/IMFTranscodeSinkInfoProvider
+ms.date: 5/3/2018
+ms.keywords: IMFTranscodeSinkInfoProvider, IMFTranscodeSinkInfoProvider interface [Media Foundation], IMFTranscodeSinkInfoProvider interface [Media Foundation],described, mf.imftranscodesinkinfoprovider, mfidl/IMFTranscodeSinkInfoProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

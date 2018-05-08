@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ProgramChanged
-title: IGuideDataEvent::ProgramChanged method
+title: IGuideDataEvent::ProgramChanged
 author: windows-driver-content
 description: The ProgramChanged method is called when information about one or more programs has changed.
 old-location: mstv\iguidedataevent_programchanged.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 06fcf24b-5d35-4689-9c88-240fe18a46de
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IGuideDataEvent, IGuideDataEvent interface [Microsoft TV Technologies], ProgramChanged method, IGuideDataEvent::ProgramChanged, IGuideDataEventProgramChanged, ProgramChanged method [Microsoft TV Technologies], ProgramChanged method [Microsoft TV Technologies], IGuideDataEvent interface, ProgramChanged,IGuideDataEvent.ProgramChanged, bdatif/IGuideDataEvent::ProgramChanged, mstv.iguidedataevent_programchanged
+ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ProgramChanged method, IGuideDataEvent.ProgramChanged, IGuideDataEvent::ProgramChanged, IGuideDataEventProgramChanged, ProgramChanged, ProgramChanged method [Microsoft TV Technologies], ProgramChanged method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ProgramChanged, mstv.iguidedataevent_programchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGuideDataEvent::ProgramChanged method
+# IGuideDataEvent::ProgramChanged
 
 
 ## -description

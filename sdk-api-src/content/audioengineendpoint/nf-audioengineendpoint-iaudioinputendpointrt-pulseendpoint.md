@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioInputEndpointRT.PulseEndpoint
-title: IAudioInputEndpointRT::PulseEndpoint method
+title: IAudioInputEndpointRT::PulseEndpoint
 author: windows-driver-content
 description: Is reserved.
 old-location: termserv\iaudioinputendpointrt_pulseendpoint.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 2b23eac3-48e2-4d58-be6c-878967e7fa5c
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IAudioInputEndpointRT, IAudioInputEndpointRT interface [Remote Desktop Services], PulseEndpoint method, IAudioInputEndpointRT::PulseEndpoint, PulseEndpoint method [Remote Desktop Services], PulseEndpoint method [Remote Desktop Services], IAudioInputEndpointRT interface, PulseEndpoint,IAudioInputEndpointRT.PulseEndpoint, audioengineendpoint/IAudioInputEndpointRT::PulseEndpoint, termserv.iaudioinputendpointrt_pulseendpoint
+ms.keywords: IAudioInputEndpointRT interface [Remote Desktop Services],PulseEndpoint method, IAudioInputEndpointRT.PulseEndpoint, IAudioInputEndpointRT::PulseEndpoint, PulseEndpoint, PulseEndpoint method [Remote Desktop Services], PulseEndpoint method [Remote Desktop Services],IAudioInputEndpointRT interface, audioengineendpoint/IAudioInputEndpointRT::PulseEndpoint, termserv.iaudioinputendpointrt_pulseendpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioInputEndpointRT::PulseEndpoint method
+# IAudioInputEndpointRT::PulseEndpoint
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILanguageComponentType.put_LangID
-title: ILanguageComponentType::put_LangID method
+title: ILanguageComponentType::put_LangID
 author: windows-driver-content
 description: The put_LangID method specifies the LCID that identifies the language.
 old-location: mstv\ilanguagecomponenttype_put_langid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c0dc0141-a839-4fdc-9313-24ddd3eaf63d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ILanguageComponentType, ILanguageComponentType interface [Microsoft TV Technologies], put_LangID method, ILanguageComponentType::put_LangID, ILanguageComponentTypeput_LangID, mstv.ilanguagecomponenttype_put_langid, put_LangID method [Microsoft TV Technologies], put_LangID method [Microsoft TV Technologies], ILanguageComponentType interface, put_LangID,ILanguageComponentType.put_LangID, tuner/ILanguageComponentType::put_LangID
+ms.keywords: ILanguageComponentType interface [Microsoft TV Technologies],put_LangID method, ILanguageComponentType.put_LangID, ILanguageComponentType::put_LangID, ILanguageComponentTypeput_LangID, mstv.ilanguagecomponenttype_put_langid, put_LangID, put_LangID method [Microsoft TV Technologies], put_LangID method [Microsoft TV Technologies],ILanguageComponentType interface, tuner/ILanguageComponentType::put_LangID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILanguageComponentType::put_LangID method
+# ILanguageComponentType::put_LangID
 
 
 ## -description

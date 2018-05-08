@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetRemoteControlKeyId
-title: IIsdbTSInformationDescriptor::GetRemoteControlKeyId method
+title: IIsdbTSInformationDescriptor::GetRemoteControlKeyId
 author: windows-driver-content
 description: Gets the remote_control_key_id field value from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor_getremotecontrolkeyid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 51162c5e-9ece-4c3d-9ab1-03d03a326efe
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetRemoteControlKeyId method [Microsoft TV Technologies], GetRemoteControlKeyId method [Microsoft TV Technologies], IIsdbTSInformationDescriptor interface, GetRemoteControlKeyId,IIsdbTSInformationDescriptor.GetRemoteControlKeyId, IIsdbTSInformationDescriptor, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies], GetRemoteControlKeyId method, IIsdbTSInformationDescriptor::GetRemoteControlKeyId, dvbsiparser/IIsdbTSInformationDescriptor::GetRemoteControlKeyId, mstv.iisdbtsinformationdescriptor_getremotecontrolkeyid
+ms.keywords: GetRemoteControlKeyId, GetRemoteControlKeyId method [Microsoft TV Technologies], GetRemoteControlKeyId method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetRemoteControlKeyId method, IIsdbTSInformationDescriptor.GetRemoteControlKeyId, IIsdbTSInformationDescriptor::GetRemoteControlKeyId, dvbsiparser/IIsdbTSInformationDescriptor::GetRemoteControlKeyId, mstv.iisdbtsinformationdescriptor_getremotecontrolkeyid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbTSInformationDescriptor::GetRemoteControlKeyId method
+# IIsdbTSInformationDescriptor::GetRemoteControlKeyId
 
 
 ## -description

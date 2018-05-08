@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFTopology.GetOutputNodeCollection
-title: IMFTopology::GetOutputNodeCollection method
+title: IMFTopology::GetOutputNodeCollection
 author: windows-driver-content
 description: Gets the output nodes in the topology.
 old-location: mf\imftopology_getoutputnodecollection.htm
 old-project: medfound
 ms.assetid: 0862cd4a-4d22-4d8d-a754-0cd376d44b22
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 0862cd4a-4d22-4d8d-a754-0cd376d44b22, GetOutputNodeCollection method [Media Foundation], GetOutputNodeCollection method [Media Foundation], IMFTopology interface, GetOutputNodeCollection,IMFTopology.GetOutputNodeCollection, IMFTopology, IMFTopology interface [Media Foundation], GetOutputNodeCollection method, IMFTopology::GetOutputNodeCollection, mf.imftopology_getoutputnodecollection, mfidl/IMFTopology::GetOutputNodeCollection
+ms.date: 5/3/2018
+ms.keywords: 0862cd4a-4d22-4d8d-a754-0cd376d44b22, GetOutputNodeCollection, GetOutputNodeCollection method [Media Foundation], GetOutputNodeCollection method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetOutputNodeCollection method, IMFTopology.GetOutputNodeCollection, IMFTopology::GetOutputNodeCollection, mf.imftopology_getoutputnodecollection, mfidl/IMFTopology::GetOutputNodeCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTopology::GetOutputNodeCollection method
+# IMFTopology::GetOutputNodeCollection
 
 
 ## -description

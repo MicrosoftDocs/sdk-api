@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioStreamVolume.GetChannelVolume
-title: IAudioStreamVolume::GetChannelVolume method
+title: IAudioStreamVolume::GetChannelVolume
 author: windows-driver-content
 description: The GetChannelVolume method retrieves the volume level for the specified channel in the audio stream.
 old-location: coreaudio\iaudiostreamvolume_getchannelvolume.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: a5ac2c9a-2bbd-42de-b530-f668b26300af
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetChannelVolume method [Core Audio], GetChannelVolume method [Core Audio], IAudioStreamVolume interface, GetChannelVolume,IAudioStreamVolume.GetChannelVolume, IAudioStreamVolume, IAudioStreamVolume interface [Core Audio], GetChannelVolume method, IAudioStreamVolume::GetChannelVolume, IAudioStreamVolumeGetChannelVolume, audioclient/IAudioStreamVolume::GetChannelVolume, coreaudio.iaudiostreamvolume_getchannelvolume
+ms.keywords: GetChannelVolume, GetChannelVolume method [Core Audio], GetChannelVolume method [Core Audio],IAudioStreamVolume interface, IAudioStreamVolume interface [Core Audio],GetChannelVolume method, IAudioStreamVolume.GetChannelVolume, IAudioStreamVolume::GetChannelVolume, IAudioStreamVolumeGetChannelVolume, audioclient/IAudioStreamVolume::GetChannelVolume, coreaudio.iaudiostreamvolume_getchannelvolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioStreamVolume::GetChannelVolume method
+# IAudioStreamVolume::GetChannelVolume
 
 
 ## -description

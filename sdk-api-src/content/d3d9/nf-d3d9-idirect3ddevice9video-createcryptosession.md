@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Video.CreateCryptoSession
-title: IDirect3DDevice9Video::CreateCryptoSession method
+title: IDirect3DDevice9Video::CreateCryptoSession
 author: windows-driver-content
 description: Creates a cryptographic session to encrypt video content that is sent to the display driver.
 old-location: mf\idirect3ddevice9video_createcryptosession.htm
 old-project: medfound
 ms.assetid: 1c0e3aa4-94d5-4398-a6c0-5466a437162d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreateCryptoSession method [Media Foundation], CreateCryptoSession method [Media Foundation], IDirect3DDevice9Video interface, CreateCryptoSession,IDirect3DDevice9Video.CreateCryptoSession, D3DCRYPTOTYPE_AES128_CTR, D3DCRYPTOTYPE_PROPRIETARY, IDirect3DDevice9Video, IDirect3DDevice9Video interface [Media Foundation], CreateCryptoSession method, IDirect3DDevice9Video::CreateCryptoSession, d3d9/IDirect3DDevice9Video::CreateCryptoSession, mf.idirect3ddevice9video_createcryptosession
+ms.date: 5/3/2018
+ms.keywords: CreateCryptoSession, CreateCryptoSession method [Media Foundation], CreateCryptoSession method [Media Foundation],IDirect3DDevice9Video interface, D3DCRYPTOTYPE_AES128_CTR, D3DCRYPTOTYPE_PROPRIETARY, IDirect3DDevice9Video interface [Media Foundation],CreateCryptoSession method, IDirect3DDevice9Video.CreateCryptoSession, IDirect3DDevice9Video::CreateCryptoSession, d3d9/IDirect3DDevice9Video::CreateCryptoSession, mf.idirect3ddevice9video_createcryptosession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9Video::CreateCryptoSession method
+# IDirect3DDevice9Video::CreateCryptoSession
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.get_Namespace
-title: IWdsTransportContent::get_Namespace method
+title: IWdsTransportContent::get_Namespace
 author: windows-driver-content
 description: Receives a pointer to an object of an IWdsTransportNamespace interface that represents the namespace associated with this content.
 old-location: wds\iwdstransportcontent_namespace.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: 8b116f8d-bcbc-4313-9527-07f871e00842
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportContent, IWdsTransportContent interface [Windows Deployment Services], Namespace property, IWdsTransportContent.Namespace, IWdsTransportContent::get_Namespace, Namespace property [Windows Deployment Services], Namespace property [Windows Deployment Services], IWdsTransportContent interface, get_Namespace,IWdsTransportContent.get_Namespace, wds.iwdstransportcontent_namespace, wdstptmgmt/IWdsTransportContent::Namespace, wdstptmgmt/IWdsTransportContent::get_Namespace
+ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Namespace property, IWdsTransportContent.Namespace, IWdsTransportContent.get_Namespace, IWdsTransportContent::Namespace, IWdsTransportContent::get_Namespace, Namespace property [Windows Deployment Services], Namespace property [Windows Deployment Services],IWdsTransportContent interface, get_Namespace, wds.iwdstransportcontent_namespace, wdstptmgmt/IWdsTransportContent::Namespace, wdstptmgmt/IWdsTransportContent::get_Namespace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportContent::get_Namespace method
+# IWdsTransportContent::get_Namespace
 
 
 ## -description

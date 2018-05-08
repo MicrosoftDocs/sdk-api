@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceDisconnect
-title: IWMPEvents2::DeviceDisconnect method
+title: IWMPEvents2::DeviceDisconnect
 author: windows-driver-content
 description: The DeviceDisconnect event occurs when the user disconnects a device from the computer.
 old-location: wmp\iwmpevents2_iwmpevents2__devicedisconnect.htm
 old-project: WMP
 ms.assetid: a37b72f9-4f71-433c-afad-66caae2d749a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: DeviceDisconnect method [Windows Media Player], DeviceDisconnect method [Windows Media Player], IWMPEvents2 interface, DeviceDisconnect,IWMPEvents2.DeviceDisconnect, IWMPEvents2, IWMPEvents2 interface [Windows Media Player], DeviceDisconnect method, IWMPEvents2::DeviceDisconnect, IWMPEvents2DeviceDisconnect, wmp.iwmpevents2_iwmpevents2__devicedisconnect, wmp/IWMPEvents2::DeviceDisconnect
+ms.date: 5/4/2018
+ms.keywords: DeviceDisconnect, DeviceDisconnect method [Windows Media Player], DeviceDisconnect method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceDisconnect method, IWMPEvents2.DeviceDisconnect, IWMPEvents2::DeviceDisconnect, IWMPEvents2DeviceDisconnect, wmp.iwmpevents2_iwmpevents2__devicedisconnect, wmp/IWMPEvents2::DeviceDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents2::DeviceDisconnect method
+# IWMPEvents2::DeviceDisconnect
 
 
 ## -description

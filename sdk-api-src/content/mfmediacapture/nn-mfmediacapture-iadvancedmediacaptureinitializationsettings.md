@@ -7,8 +7,8 @@ old-location: mf\iadvancedmediacaptureInitializationsettings.htm
 old-project: medfound
 ms.assetid: 8a7978c1-1919-4b49-9848-6d972e3e94f5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IAdvancedMediaCaptureInitializationSettings, IAdvancedMediaCaptureInitializationSettings interface [Media Foundation], IAdvancedMediaCaptureInitializationSettings interface [Media Foundation], described, mf.iadvancedmediacaptureInitializationsettings, mfmediacapture/IAdvancedMediaCaptureInitializationSettings
+ms.date: 5/3/2018
+ms.keywords: IAdvancedMediaCaptureInitializationSettings, IAdvancedMediaCaptureInitializationSettings interface [Media Foundation], IAdvancedMediaCaptureInitializationSettings interface [Media Foundation],described, mf.iadvancedmediacaptureInitializationsettings, mfmediacapture/IAdvancedMediaCaptureInitializationSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

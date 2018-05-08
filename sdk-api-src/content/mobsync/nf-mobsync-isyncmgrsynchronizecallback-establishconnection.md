@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.EstablishConnection
-title: ISyncMgrSynchronizeCallback::EstablishConnection method
+title: ISyncMgrSynchronizeCallback::EstablishConnection
 author: windows-driver-content
 description: Called by the registered application's handler when a network connection is required.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_establishconnection.htm
 old-project: shell
 ms.assetid: f7d1aff8-a77e-4067-9fc9-4adc69bfc0d1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: EstablishConnection method [Windows Shell], EstablishConnection method [Windows Shell], ISyncMgrSynchronizeCallback interface, EstablishConnection,ISyncMgrSynchronizeCallback.EstablishConnection, ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], EstablishConnection method, ISyncMgrSynchronizeCallback::EstablishConnection, mobsync/ISyncMgrSynchronizeCallback::EstablishConnection, shell.syncmgr_isyncmgrsynchronizecallback_establishconnection, syncmgr.isyncmgrsynchronizecallback_establishconnection
+ms.date: 5/3/2018
+ms.keywords: EstablishConnection, EstablishConnection method [Windows Shell], EstablishConnection method [Windows Shell],ISyncMgrSynchronizeCallback interface, ISyncMgrSynchronizeCallback interface [Windows Shell],EstablishConnection method, ISyncMgrSynchronizeCallback.EstablishConnection, ISyncMgrSynchronizeCallback::EstablishConnection, mobsync/ISyncMgrSynchronizeCallback::EstablishConnection, shell.syncmgr_isyncmgrsynchronizecallback_establishconnection, syncmgr.isyncmgrsynchronizecallback_establishconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronizeCallback::EstablishConnection method
+# ISyncMgrSynchronizeCallback::EstablishConnection
 
 
 ## -description

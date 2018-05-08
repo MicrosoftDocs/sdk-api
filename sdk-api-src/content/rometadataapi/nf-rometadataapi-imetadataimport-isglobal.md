@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.IsGlobal
-title: IMetaDataImport::IsGlobal method
+title: IMetaDataImport::IsGlobal
 author: windows-driver-content
 description: Gets a value indicating whether the field, method, or type represented by the specified metadata token has global scope.
 old-location: winrt\imetadataimport_isglobal.htm
 old-project: WinRT
 ms.assetid: 01558f0f-11ca-4c17-8f55-b0fc78492813
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IMetaDataImport, IMetaDataImport interface [Windows Runtime], IsGlobal method, IMetaDataImport::IsGlobal, IsGlobal method [Windows Runtime], IsGlobal method [Windows Runtime], IMetaDataImport interface, IsGlobal,IMetaDataImport.IsGlobal, rometadataapi/IMetaDataImport::IsGlobal, winrt.imetadataimport_isglobal
+ms.date: 5/4/2018
+ms.keywords: IMetaDataImport interface [Windows Runtime],IsGlobal method, IMetaDataImport.IsGlobal, IMetaDataImport::IsGlobal, IsGlobal, IsGlobal method [Windows Runtime], IsGlobal method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::IsGlobal, winrt.imetadataimport_isglobal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::IsGlobal method
+# IMetaDataImport::IsGlobal
 
 
 ## -description

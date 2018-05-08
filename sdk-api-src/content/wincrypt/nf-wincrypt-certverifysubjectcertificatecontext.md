@@ -7,7 +7,7 @@ old-location: security\certverifysubjectcertificatecontext.htm
 old-project: SecCrypto
 ms.assetid: 063b19cf-d3b3-4ec3-bfd3-9406eecd3e10
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CERT_STORE_REVOCATION_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_TIME_VALIDITY_FLAG, CertVerifySubjectCertificateContext, CertVerifySubjectCertificateContext function [Security], _crypto2_certverifysubjectcertificatecontext, security.certverifysubjectcertificatecontext, wincrypt/CertVerifySubjectCertificateContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

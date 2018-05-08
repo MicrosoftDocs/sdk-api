@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.InitializeInstallDefaults
-title: ICertificateEnrollmentServerSetup::InitializeInstallDefaults method
+title: ICertificateEnrollmentServerSetup::InitializeInstallDefaults
 author: windows-driver-content
 description: Initializes the ICertificateEnrollmentServerSetup object with a default configuration.
 old-location: security\icertificateenrollmentserversetup_initializeinstalldefaults.htm
 old-project: SecCrypto
 ms.assetid: 2C6E8F84-56AC-4541-A778-839D5F2C764F
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertificateEnrollmentServerSetup, ICertificateEnrollmentServerSetup interface [Security], InitializeInstallDefaults method, ICertificateEnrollmentServerSetup::InitializeInstallDefaults, InitializeInstallDefaults method [Security], InitializeInstallDefaults method [Security], ICertificateEnrollmentServerSetup interface, InitializeInstallDefaults,ICertificateEnrollmentServerSetup.InitializeInstallDefaults, casetup/ICertificateEnrollmentServerSetup::InitializeInstallDefaults, security.icertificateenrollmentserversetup_initializeinstalldefaults
+ms.date: 4/30/2018
+ms.keywords: ICertificateEnrollmentServerSetup interface [Security],InitializeInstallDefaults method, ICertificateEnrollmentServerSetup.InitializeInstallDefaults, ICertificateEnrollmentServerSetup::InitializeInstallDefaults, InitializeInstallDefaults, InitializeInstallDefaults method [Security], InitializeInstallDefaults method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::InitializeInstallDefaults, security.icertificateenrollmentserversetup_initializeinstalldefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertificateEnrollmentServerSetup::InitializeInstallDefaults method
+# ICertificateEnrollmentServerSetup::InitializeInstallDefaults
 
 
 ## -description

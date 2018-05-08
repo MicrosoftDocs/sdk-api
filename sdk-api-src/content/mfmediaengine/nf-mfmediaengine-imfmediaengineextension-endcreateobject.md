@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineExtension.EndCreateObject
-title: IMFMediaEngineExtension::EndCreateObject method
+title: IMFMediaEngineExtension::EndCreateObject
 author: windows-driver-content
 description: Completes an asynchronous request to create a byte stream or media source.
 old-location: mf\imfmediaengineextension_endcreateobject.htm
 old-project: medfound
 ms.assetid: F2B19870-7529-4C8C-9FE6-B312F6A2D2ED
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation], IMFMediaEngineExtension interface, EndCreateObject,IMFMediaEngineExtension.EndCreateObject, IMFMediaEngineExtension, IMFMediaEngineExtension interface [Media Foundation], EndCreateObject method, IMFMediaEngineExtension::EndCreateObject, mf.imfmediaengineextension_endcreateobject, mfmediaengine/IMFMediaEngineExtension::EndCreateObject
+ms.date: 5/3/2018
+ms.keywords: EndCreateObject, EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation],IMFMediaEngineExtension interface, IMFMediaEngineExtension interface [Media Foundation],EndCreateObject method, IMFMediaEngineExtension.EndCreateObject, IMFMediaEngineExtension::EndCreateObject, mf.imfmediaengineextension_endcreateobject, mfmediaengine/IMFMediaEngineExtension::EndCreateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineExtension::EndCreateObject method
+# IMFMediaEngineExtension::EndCreateObject
 
 
 ## -description

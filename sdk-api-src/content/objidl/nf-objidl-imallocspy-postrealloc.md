@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PostRealloc
-title: IMallocSpy::PostRealloc method
+title: IMallocSpy::PostRealloc
 author: windows-driver-content
 description: Performs operations required after calling IMalloc::Realloc.
 old-location: com\imallocspy_postrealloc.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 77f86494-f7b3-4c12-bb42-ad74161a1dff
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMallocSpy, IMallocSpy interface [COM], PostRealloc method, IMallocSpy::PostRealloc, PostRealloc method [COM], PostRealloc method [COM], IMallocSpy interface, PostRealloc,IMallocSpy.PostRealloc, _com_imallocspy_postrealloc, com.imallocspy_postrealloc, objidl/IMallocSpy::PostRealloc
+ms.keywords: IMallocSpy interface [COM],PostRealloc method, IMallocSpy.PostRealloc, IMallocSpy::PostRealloc, PostRealloc, PostRealloc method [COM], PostRealloc method [COM],IMallocSpy interface, _com_imallocspy_postrealloc, com.imallocspy_postrealloc, objidl/IMallocSpy::PostRealloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMallocSpy::PostRealloc method
+# IMallocSpy::PostRealloc
 
 
 ## -description

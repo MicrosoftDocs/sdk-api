@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.AddThreshold
-title: IFsrmQuotaBase::AddThreshold method
+title: IFsrmQuotaBase::AddThreshold
 author: windows-driver-content
 description: Adds a threshold to the quota object.
 old-location: fsrm\ifsrmquotabase_addthreshold.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 9571e169-01a3-4b72-bc84-2f9b2609a6e2
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AddThreshold method [File Server Resource Manager], AddThreshold method [File Server Resource Manager], IFsrmQuotaBase interface, AddThreshold,IFsrmQuotaBase.AddThreshold, IFsrmQuotaBase, IFsrmQuotaBase interface [File Server Resource Manager], AddThreshold method, IFsrmQuotaBase::AddThreshold, fs.ifsrmquotabase_addthreshold, fsrm.ifsrmquotabase_addthreshold, fsrmquota/IFsrmQuotaBase::AddThreshold
+ms.keywords: AddThreshold, AddThreshold method [File Server Resource Manager], AddThreshold method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],AddThreshold method, IFsrmQuotaBase.AddThreshold, IFsrmQuotaBase::AddThreshold, fs.ifsrmquotabase_addthreshold, fsrm.ifsrmquotabase_addthreshold, fsrmquota/IFsrmQuotaBase::AddThreshold
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaBase::AddThreshold method
+# IFsrmQuotaBase::AddThreshold
 
 
 ## -description

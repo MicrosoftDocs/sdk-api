@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesShareInfo.GetShareCachingMode
-title: IOfflineFilesShareInfo::GetShareCachingMode method
+title: IOfflineFilesShareInfo::GetShareCachingMode
 author: windows-driver-content
 description: Retrieves the caching mode configuration of the closest ancestor share to the item.
 old-location: of\iofflinefilesshareinfo_getsharecachingmode.htm
@@ -8,7 +8,7 @@ old-project: OfflineFiles
 ms.assetid: 0045497b-0f90-4e20-80c9-6b74e4b523b8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetShareCachingMode method [Offline Files], GetShareCachingMode method [Offline Files], IOfflineFilesShareInfo interface, GetShareCachingMode,IOfflineFilesShareInfo.GetShareCachingMode, IOfflineFilesShareInfo, IOfflineFilesShareInfo interface [Offline Files], GetShareCachingMode method, IOfflineFilesShareInfo::GetShareCachingMode, OFFLINEFILES_CACHING_MODE_AUTO_DOC, OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, OFFLINEFILES_CACHING_MODE_MANUAL, OFFLINEFILES_CACHING_MODE_NOCACHING, OFFLINEFILES_CACHING_MODE_NONE, cscobj/IOfflineFilesShareInfo::GetShareCachingMode, of.iofflinefilesshareinfo_getsharecachingmode
+ms.keywords: GetShareCachingMode, GetShareCachingMode method [Offline Files], GetShareCachingMode method [Offline Files],IOfflineFilesShareInfo interface, IOfflineFilesShareInfo interface [Offline Files],GetShareCachingMode method, IOfflineFilesShareInfo.GetShareCachingMode, IOfflineFilesShareInfo::GetShareCachingMode, OFFLINEFILES_CACHING_MODE_AUTO_DOC, OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, OFFLINEFILES_CACHING_MODE_MANUAL, OFFLINEFILES_CACHING_MODE_NOCACHING, OFFLINEFILES_CACHING_MODE_NONE, cscobj/IOfflineFilesShareInfo::GetShareCachingMode, of.iofflinefilesshareinfo_getsharecachingmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 ---
 
-# IOfflineFilesShareInfo::GetShareCachingMode method
+# IOfflineFilesShareInfo::GetShareCachingMode
 
 
 ## -description

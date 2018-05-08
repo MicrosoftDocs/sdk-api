@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.GetInputFormat
-title: IWMWriter::GetInputFormat method
+title: IWMWriter::GetInputFormat
 author: windows-driver-content
 description: The GetInputFormat method retrieves possible media formats for the specified input.
 old-location: wmformat\iwmwriter_getinputformat.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: c058de81-a29a-4bcd-a819-3cdef11cae9f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetInputFormat method [windows Media Format], GetInputFormat method [windows Media Format], IWMWriter interface, GetInputFormat,IWMWriter.GetInputFormat, IWMWriter, IWMWriter interface [windows Media Format], GetInputFormat method, IWMWriter::GetInputFormat, IWMWriterGetInputFormat, wmformat.iwmwriter_getinputformat, wmsdkidl/IWMWriter::GetInputFormat
+ms.keywords: GetInputFormat, GetInputFormat method [windows Media Format], GetInputFormat method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputFormat method, IWMWriter.GetInputFormat, IWMWriter::GetInputFormat, IWMWriterGetInputFormat, wmformat.iwmwriter_getinputformat, wmsdkidl/IWMWriter::GetInputFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriter::GetInputFormat method
+# IWMWriter::GetInputFormat
 
 
 ## -description

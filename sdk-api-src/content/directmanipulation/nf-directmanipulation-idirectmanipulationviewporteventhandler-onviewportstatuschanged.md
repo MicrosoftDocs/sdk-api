@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewportEventHandler.OnViewportStatusChanged
-title: IDirectManipulationViewportEventHandler::OnViewportStatusChanged method
+title: IDirectManipulationViewportEventHandler::OnViewportStatusChanged
 author: windows-driver-content
 description: Called when the status of a viewport changes.
 old-location: directmanipulation\idirectmanipulationviewporteventhandler_onviewportstatuschanged.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 7fe7106d-1b13-4a3e-8841-550e0ef55f95
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationViewportEventHandler, IDirectManipulationViewportEventHandler interface [Direct Manipulation], OnViewportStatusChanged method, IDirectManipulationViewportEventHandler::OnViewportStatusChanged, OnViewportStatusChanged method [Direct Manipulation], OnViewportStatusChanged method [Direct Manipulation], IDirectManipulationViewportEventHandler interface, OnViewportStatusChanged,IDirectManipulationViewportEventHandler.OnViewportStatusChanged, directmanipulation.idirectmanipulationviewporteventhandler_onviewportstatuschanged, directmanipulation/IDirectManipulationViewportEventHandler::OnViewportStatusChanged
+ms.keywords: IDirectManipulationViewportEventHandler interface [Direct Manipulation],OnViewportStatusChanged method, IDirectManipulationViewportEventHandler.OnViewportStatusChanged, IDirectManipulationViewportEventHandler::OnViewportStatusChanged, OnViewportStatusChanged, OnViewportStatusChanged method [Direct Manipulation], OnViewportStatusChanged method [Direct Manipulation],IDirectManipulationViewportEventHandler interface, directmanipulation.idirectmanipulationviewporteventhandler_onviewportstatuschanged, directmanipulation/IDirectManipulationViewportEventHandler::OnViewportStatusChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationViewportEventHandler::OnViewportStatusChanged method
+# IDirectManipulationViewportEventHandler::OnViewportStatusChanged
 
 
 ## -description

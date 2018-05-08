@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents.PlaylistChange
-title: IWMPEvents::PlaylistChange method
+title: IWMPEvents::PlaylistChange
 author: windows-driver-content
 description: The PlaylistChange event occurs when a playlist changes.
 old-location: wmp\iwmpevents_iwmpevents__playlistchange.htm
 old-project: WMP
 ms.assetid: a2847bda-3003-4c80-abc1-5c873d0810b7
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], PlaylistChange method, IWMPEvents::PlaylistChange, IWMPEventsPlaylistChange, PlaylistChange method [Windows Media Player], PlaylistChange method [Windows Media Player], IWMPEvents interface, PlaylistChange,IWMPEvents.PlaylistChange, wmp.iwmpevents_iwmpevents__playlistchange, wmp/IWMPEvents::PlaylistChange
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents interface [Windows Media Player],PlaylistChange method, IWMPEvents.PlaylistChange, IWMPEvents::PlaylistChange, IWMPEventsPlaylistChange, PlaylistChange, PlaylistChange method [Windows Media Player], PlaylistChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playlistchange, wmp/IWMPEvents::PlaylistChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents::PlaylistChange method
+# IWMPEvents::PlaylistChange
 
 
 ## -description

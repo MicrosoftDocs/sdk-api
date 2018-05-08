@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.Initialize
-title: IMFASFSplitter::Initialize method
+title: IMFASFSplitter::Initialize
 author: windows-driver-content
 description: Resets the Advanced Systems Format (ASF) splitter and configures it to parse data from an ASF data section.
 old-location: mf\imfasfsplitter_initialize.htm
 old-project: medfound
 ms.assetid: dd69c2f9-dabf-4bba-bb3b-75ec3208c189
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFASFSplitter, IMFASFSplitter interface [Media Foundation], Initialize method, IMFASFSplitter::Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation], IMFASFSplitter interface, Initialize,IMFASFSplitter.Initialize, dd69c2f9-dabf-4bba-bb3b-75ec3208c189, mf.imfasfsplitter_initialize, wmcontainer/IMFASFSplitter::Initialize
+ms.date: 5/3/2018
+ms.keywords: IMFASFSplitter interface [Media Foundation],Initialize method, IMFASFSplitter.Initialize, IMFASFSplitter::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFASFSplitter interface, dd69c2f9-dabf-4bba-bb3b-75ec3208c189, mf.imfasfsplitter_initialize, wmcontainer/IMFASFSplitter::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFSplitter::Initialize method
+# IMFASFSplitter::Initialize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_ProcessMode
-title: ITraceDataCollector::get_ProcessMode method
+title: ITraceDataCollector::get_ProcessMode
 author: windows-driver-content
 description: Retrieves or sets a value that indicates whether the session is a private, in-process session.
 old-location: pla\itracedatacollector_processmode.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 63962145-7627-46bc-9be1-3a0738bdb1ce
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITraceDataCollector, ITraceDataCollector interface [PLA], ProcessMode property, ITraceDataCollector.ProcessMode, ITraceDataCollector::get_ProcessMode, ITraceDataCollector::put_ProcessMode, ProcessMode property [PLA], ProcessMode property [PLA], ITraceDataCollector interface, base.itracedatacollector_processmode, get_ProcessMode,ITraceDataCollector.get_ProcessMode, pla.itracedatacollector_processmode, pla/ITraceDataCollector::ProcessMode, pla/ITraceDataCollector::get_ProcessMode, pla/ITraceDataCollector::put_ProcessMode
+ms.keywords: ITraceDataCollector interface [PLA],ProcessMode property, ITraceDataCollector.ProcessMode, ITraceDataCollector.get_ProcessMode, ITraceDataCollector::ProcessMode, ITraceDataCollector::get_ProcessMode, ITraceDataCollector::put_ProcessMode, ProcessMode property [PLA], ProcessMode property [PLA],ITraceDataCollector interface, base.itracedatacollector_processmode, get_ProcessMode, pla.itracedatacollector_processmode, pla/ITraceDataCollector::ProcessMode, pla/ITraceDataCollector::get_ProcessMode, pla/ITraceDataCollector::put_ProcessMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataCollector::get_ProcessMode method
+# ITraceDataCollector::get_ProcessMode
 
 
 ## -description

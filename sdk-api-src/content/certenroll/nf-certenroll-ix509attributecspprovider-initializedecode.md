@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeCspProvider.InitializeDecode
-title: IX509AttributeCspProvider::InitializeDecode method
+title: IX509AttributeCspProvider::InitializeDecode
 author: windows-driver-content
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains information about the provider.
 old-location: security\ix509attributecspprovider_initializedecode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 7098ee8d-39e9-4463-97fe-309265c6baa7
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509AttributeCspProvider, IX509AttributeCspProvider interface [Security], InitializeDecode method, IX509AttributeCspProvider::InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security], IX509AttributeCspProvider interface, InitializeDecode,IX509AttributeCspProvider.InitializeDecode, certenroll/IX509AttributeCspProvider::InitializeDecode, security.ix509attributecspprovider_initializedecode_method
+ms.keywords: IX509AttributeCspProvider interface [Security],InitializeDecode method, IX509AttributeCspProvider.InitializeDecode, IX509AttributeCspProvider::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeCspProvider interface, certenroll/IX509AttributeCspProvider::InitializeDecode, security.ix509attributecspprovider_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509AttributeCspProvider::InitializeDecode method
+# IX509AttributeCspProvider::InitializeDecode
 
 
 ## -description

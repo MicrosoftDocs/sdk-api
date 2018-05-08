@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 8d8071cb-89ea-421e-9475-04a028317198
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IOpcRelationshipEnumerator, IOpcRelationshipEnumerator interface [Open Packaging Conventions], IOpcRelationshipEnumerator interface [Open Packaging Conventions], described, msopc/IOpcRelationshipEnumerator, opc.iopcrelationshipenumerator
+ms.keywords: IOpcRelationshipEnumerator, IOpcRelationshipEnumerator interface [Open Packaging Conventions], IOpcRelationshipEnumerator interface [Open Packaging Conventions],described, msopc/IOpcRelationshipEnumerator, opc.iopcrelationshipenumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

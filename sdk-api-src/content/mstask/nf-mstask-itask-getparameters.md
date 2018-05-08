@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITask.GetParameters
-title: ITask::GetParameters method
+title: ITask::GetParameters
 author: windows-driver-content
 description: This method retrieves the task's command-line parameters.
 old-location: taskschd\itask_getparameters.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: f59118d6-b430-4fcd-9c78-e6b5a65c151a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetParameters method [Task Scheduler], GetParameters method [Task Scheduler], ITask interface, GetParameters,ITask.GetParameters, ITask, ITask interface [Task Scheduler], GetParameters method, ITask::GetParameters, _msb_itask_getparameters, mstask/ITask::GetParameters, taskschd.itask_getparameters
+ms.keywords: GetParameters, GetParameters method [Task Scheduler], GetParameters method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetParameters method, ITask.GetParameters, ITask::GetParameters, _msb_itask_getparameters, mstask/ITask::GetParameters, taskschd.itask_getparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITask::GetParameters method
+# ITask::GetParameters
 
 
 ## -description

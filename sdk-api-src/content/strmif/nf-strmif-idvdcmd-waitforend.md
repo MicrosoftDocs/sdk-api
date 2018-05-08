@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdCmd.WaitForEnd
-title: IDvdCmd::WaitForEnd method
+title: IDvdCmd::WaitForEnd
 author: windows-driver-content
 description: The WaitForEnd method blocks the DVD Navigator until the command associated with this object completes or is canceled.
 old-location: dshow\idvdcmd_waitforend.htm
 old-project: DirectShow
 ms.assetid: e7dc3113-616a-49d5-bcab-7ed5aa520b18
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdCmd, IDvdCmd interface [DirectShow], WaitForEnd method, IDvdCmd::WaitForEnd, IDvdCmdWaitForEnd, WaitForEnd method [DirectShow], WaitForEnd method [DirectShow], IDvdCmd interface, WaitForEnd,IDvdCmd.WaitForEnd, dshow.idvdcmd_waitforend, strmif/IDvdCmd::WaitForEnd
+ms.date: 4/30/2018
+ms.keywords: IDvdCmd interface [DirectShow],WaitForEnd method, IDvdCmd.WaitForEnd, IDvdCmd::WaitForEnd, IDvdCmdWaitForEnd, WaitForEnd, WaitForEnd method [DirectShow], WaitForEnd method [DirectShow],IDvdCmd interface, dshow.idvdcmd_waitforend, strmif/IDvdCmd::WaitForEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdCmd::WaitForEnd method
+# IDvdCmd::WaitForEnd
 
 
 ## -description

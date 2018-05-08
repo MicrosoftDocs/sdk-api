@@ -1,14 +1,14 @@
 ---
 UID: NF:mftransform.IMFTransform.AddInputStreams
-title: IMFTransform::AddInputStreams method
+title: IMFTransform::AddInputStreams
 author: windows-driver-content
 description: Adds one or more new input streams to this Media Foundation transform (MFT).
 old-location: mf\imftransform_addinputstreams.htm
 old-project: medfound
 ms.assetid: 311ab66e-5dbd-452a-bad4-99a6293cbc60
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 311ab66e-5dbd-452a-bad4-99a6293cbc60, AddInputStreams method [Media Foundation], AddInputStreams method [Media Foundation], IMFTransform interface, AddInputStreams,IMFTransform.AddInputStreams, IMFTransform, IMFTransform interface [Media Foundation], AddInputStreams method, IMFTransform::AddInputStreams, mf.imftransform_addinputstreams, mftransform/IMFTransform::AddInputStreams
+ms.date: 5/3/2018
+ms.keywords: 311ab66e-5dbd-452a-bad4-99a6293cbc60, AddInputStreams, AddInputStreams method [Media Foundation], AddInputStreams method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],AddInputStreams method, IMFTransform.AddInputStreams, IMFTransform::AddInputStreams, mf.imftransform_addinputstreams, mftransform/IMFTransform::AddInputStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTransform::AddInputStreams method
+# IMFTransform::AddInputStreams
 
 
 ## -description

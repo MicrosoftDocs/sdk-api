@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.IsCheckEntitlementCallRequired
-title: IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired method
+title: IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired
 author: windows-driver-content
 description: Gets a flag from a LicenseRenewalResult event that indicates whether the client should check the entitlement token from the license. The client can call the IBDA_ConditionalAccessEx::CheckEntitlementToken method to validate the entitlement token.
 old-location: mstv\ieslicenserenewalresultevent_ischeckentitlementcallrequired.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e19375c6-5999-43e9-9d91-3237b900cb07
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], IsCheckEntitlementCallRequired method, IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired, IsCheckEntitlementCallRequired method [DirectShow], IsCheckEntitlementCallRequired method [DirectShow], IESLicenseRenewalResultEvent interface, IsCheckEntitlementCallRequired,IESLicenseRenewalResultEvent.IsCheckEntitlementCallRequired, mstv.ieslicenserenewalresultevent_ischeckentitlementcallrequired, tuner/IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired
+ms.keywords: IESLicenseRenewalResultEvent interface [DirectShow],IsCheckEntitlementCallRequired method, IESLicenseRenewalResultEvent.IsCheckEntitlementCallRequired, IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired, IsCheckEntitlementCallRequired, IsCheckEntitlementCallRequired method [DirectShow], IsCheckEntitlementCallRequired method [DirectShow],IESLicenseRenewalResultEvent interface, mstv.ieslicenserenewalresultevent_ischeckentitlementcallrequired, tuner/IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired method
+# IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumCustomAttributes
-title: IMetaDataImport::EnumCustomAttributes method
+title: IMetaDataImport::EnumCustomAttributes
 author: windows-driver-content
 description: Enumerates custom attribute-definition tokens associated with the specified type or member.
 old-location: winrt\imetadataimport_enumcustomattributes.htm
 old-project: WinRT
 ms.assetid: d5ecb71e-a52f-421b-aab9-48efcc77ec2f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumCustomAttributes method [Windows Runtime], EnumCustomAttributes method [Windows Runtime], IMetaDataImport interface, EnumCustomAttributes,IMetaDataImport.EnumCustomAttributes, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumCustomAttributes method, IMetaDataImport::EnumCustomAttributes, rometadataapi/IMetaDataImport::EnumCustomAttributes, winrt.imetadataimport_enumcustomattributes
+ms.date: 5/4/2018
+ms.keywords: EnumCustomAttributes, EnumCustomAttributes method [Windows Runtime], EnumCustomAttributes method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumCustomAttributes method, IMetaDataImport.EnumCustomAttributes, IMetaDataImport::EnumCustomAttributes, rometadataapi/IMetaDataImport::EnumCustomAttributes, winrt.imetadataimport_enumcustomattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumCustomAttributes method
+# IMetaDataImport::EnumCustomAttributes
 
 
 ## -description

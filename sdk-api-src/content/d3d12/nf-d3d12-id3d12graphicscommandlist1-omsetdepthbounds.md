@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.OMSetDepthBounds
-title: ID3D12GraphicsCommandList1::OMSetDepthBounds method
+title: ID3D12GraphicsCommandList1::OMSetDepthBounds
 author: windows-driver-content
 description: This method enables you to change the depth bounds dynamically.
 old-location: direct3d12\id3d12graphicscommandlist1_omsetdepthbounds.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 065DBAD3-F4B6-4C94-BA0E-821A46E0B2EE
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12GraphicsCommandList1, ID3D12GraphicsCommandList1 interface, OMSetDepthBounds method, ID3D12GraphicsCommandList1::OMSetDepthBounds, OMSetDepthBounds method, OMSetDepthBounds method, ID3D12GraphicsCommandList1 interface, OMSetDepthBounds,ID3D12GraphicsCommandList1.OMSetDepthBounds, d3d12/ID3D12GraphicsCommandList1::OMSetDepthBounds, direct3d12.id3d12graphicscommandlist1_omsetdepthbounds
+ms.keywords: ID3D12GraphicsCommandList1 interface,OMSetDepthBounds method, ID3D12GraphicsCommandList1.OMSetDepthBounds, ID3D12GraphicsCommandList1::OMSetDepthBounds, OMSetDepthBounds, OMSetDepthBounds method, OMSetDepthBounds method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::OMSetDepthBounds, direct3d12.id3d12graphicscommandlist1_omsetdepthbounds
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList1::OMSetDepthBounds method
+# ID3D12GraphicsCommandList1::OMSetDepthBounds
 
 
 ## -description

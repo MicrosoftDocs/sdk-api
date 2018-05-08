@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateLinearGradientBrush
-title: IXpsOMObjectFactory::CreateLinearGradientBrush method
+title: IXpsOMObjectFactory::CreateLinearGradientBrush
 author: windows-driver-content
 description: Creates an IXpsOMLinearGradientBrush interface.
 old-location: xps\ixpsomobjectfactory_createlineargradientbrush.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: b829e8fe-5ef0-43d8-b115-9cddbfe1a255
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateLinearGradientBrush method [XPS Documents and Packaging], CreateLinearGradientBrush method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateLinearGradientBrush,IXpsOMObjectFactory.CreateLinearGradientBrush, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateLinearGradientBrush method, IXpsOMObjectFactory::CreateLinearGradientBrush, xps.ixpsomobjectfactory_createlineargradientbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateLinearGradientBrush
+ms.keywords: CreateLinearGradientBrush, CreateLinearGradientBrush method [XPS Documents and Packaging], CreateLinearGradientBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateLinearGradientBrush method, IXpsOMObjectFactory.CreateLinearGradientBrush, IXpsOMObjectFactory::CreateLinearGradientBrush, xps.ixpsomobjectfactory_createlineargradientbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateLinearGradientBrush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateLinearGradientBrush method
+# IXpsOMObjectFactory::CreateLinearGradientBrush
 
 
 ## -description

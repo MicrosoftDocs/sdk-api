@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMProgress.Begin
-title: IWMDMProgress::Begin method
+title: IWMDMProgress::Begin
 author: windows-driver-content
 description: The Begin method indicates that an operation is beginning. An estimate of the duration of the operation is provided when possible.
 old-location: wmdm\iwmdmprogress_begin.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 207b7cb5-4471-4be9-8252-9d467d67d7a2
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: Begin method [windows Media Device Manager], Begin method [windows Media Device Manager], IWMDMProgress interface, Begin,IWMDMProgress.Begin, IWMDMProgress, IWMDMProgress interface [windows Media Device Manager], Begin method, IWMDMProgress::Begin, IWMDMProgressBegin, mswmdm/IWMDMProgress::Begin, wmdm.iwmdmprogress_begin
+ms.keywords: Begin, Begin method [windows Media Device Manager], Begin method [windows Media Device Manager],IWMDMProgress interface, IWMDMProgress interface [windows Media Device Manager],Begin method, IWMDMProgress.Begin, IWMDMProgress::Begin, IWMDMProgressBegin, mswmdm/IWMDMProgress::Begin, wmdm.iwmdmprogress_begin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMProgress::Begin method
+# IWMDMProgress::Begin
 
 
 ## -description

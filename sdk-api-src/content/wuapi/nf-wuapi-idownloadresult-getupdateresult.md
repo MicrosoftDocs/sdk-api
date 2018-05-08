@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadResult.GetUpdateResult
-title: IDownloadResult::GetUpdateResult method
+title: IDownloadResult::GetUpdateResult
 author: windows-driver-content
 description: Returns an IUpdateDownloadResult interface that contains the download information for a specified update.
 old-location: wua\idownloadresult_getupdateresult.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: d95ce8ad-74d7-4144-9a4b-75d69d5a9442
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: GetUpdateResult method [Windows Update Agent], GetUpdateResult method [Windows Update Agent], IDownloadResult interface, GetUpdateResult,IDownloadResult.GetUpdateResult, IDownloadResult, IDownloadResult interface [Windows Update Agent], GetUpdateResult method, IDownloadResult::GetUpdateResult, wua.idownloadresult_getupdateresult, wuapi/IDownloadResult::GetUpdateResult
+ms.keywords: GetUpdateResult, GetUpdateResult method [Windows Update Agent], GetUpdateResult method [Windows Update Agent],IDownloadResult interface, IDownloadResult interface [Windows Update Agent],GetUpdateResult method, IDownloadResult.GetUpdateResult, IDownloadResult::GetUpdateResult, wua.idownloadresult_getupdateresult, wuapi/IDownloadResult::GetUpdateResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IDownloadResult::GetUpdateResult method
+# IDownloadResult::GetUpdateResult
 
 
 ## -description

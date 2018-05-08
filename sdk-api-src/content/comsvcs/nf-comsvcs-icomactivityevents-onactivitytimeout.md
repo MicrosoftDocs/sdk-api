@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityTimeout
-title: IComActivityEvents::OnActivityTimeout method
+title: IComActivityEvents::OnActivityTimeout
 author: windows-driver-content
 description: Generated when a call into an activity times out.
 old-location: cos\icomactivityevents_onactivitytimeout.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: f097bea7-99a4-41eb-9518-834683d9402b
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComActivityEvents, IComActivityEvents interface [COM+], OnActivityTimeout method, IComActivityEvents::OnActivityTimeout, OnActivityTimeout method [COM+], OnActivityTimeout method [COM+], IComActivityEvents interface, OnActivityTimeout,IComActivityEvents.OnActivityTimeout, _dtc_IComActivityEvents_OnActivityTimeout, comsvcs/IComActivityEvents::OnActivityTimeout, cos.icomactivityevents_onactivitytimeout
+ms.keywords: IComActivityEvents interface [COM+],OnActivityTimeout method, IComActivityEvents.OnActivityTimeout, IComActivityEvents::OnActivityTimeout, OnActivityTimeout, OnActivityTimeout method [COM+], OnActivityTimeout method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityTimeout, comsvcs/IComActivityEvents::OnActivityTimeout, cos.icomactivityevents_onactivitytimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComActivityEvents::OnActivityTimeout method
+# IComActivityEvents::OnActivityTimeout
 
 
 ## -description

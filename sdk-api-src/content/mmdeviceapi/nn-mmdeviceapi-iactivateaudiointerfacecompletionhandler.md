@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 04ff7cbb-fd33-40d9-9c11-4f716c6423b0
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IActivateAudioInterfaceCompletionHandler, IActivateAudioInterfaceCompletionHandler interface [Core Audio], IActivateAudioInterfaceCompletionHandler interface [Core Audio], described, coreaudio.iactivateaudiointerfacecompletionhandler, mmdeviceapi/IActivateAudioInterfaceCompletionHandler
+ms.keywords: IActivateAudioInterfaceCompletionHandler, IActivateAudioInterfaceCompletionHandler interface [Core Audio], IActivateAudioInterfaceCompletionHandler interface [Core Audio],described, coreaudio.iactivateaudiointerfacecompletionhandler, mmdeviceapi/IActivateAudioInterfaceCompletionHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

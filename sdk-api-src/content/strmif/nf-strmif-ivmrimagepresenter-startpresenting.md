@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRImagePresenter.StartPresenting
-title: IVMRImagePresenter::StartPresenting method
+title: IVMRImagePresenter::StartPresenting
 author: windows-driver-content
 description: The StartPresenting method is called just before the video starts playing. The allocator-presenter should perform any necessary configuration in this method.
 old-location: dshow\ivmrimagepresenter_startpresenting.htm
 old-project: DirectShow
 ms.assetid: b97debae-d792-4c9b-a171-11ef2a73e987
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRImagePresenter, IVMRImagePresenter interface [DirectShow], StartPresenting method, IVMRImagePresenter::StartPresenting, IVMRImagePresenterStartPresenting, StartPresenting method [DirectShow], StartPresenting method [DirectShow], IVMRImagePresenter interface, StartPresenting,IVMRImagePresenter.StartPresenting, dshow.ivmrimagepresenter_startpresenting, strmif/IVMRImagePresenter::StartPresenting
+ms.date: 4/30/2018
+ms.keywords: IVMRImagePresenter interface [DirectShow],StartPresenting method, IVMRImagePresenter.StartPresenting, IVMRImagePresenter::StartPresenting, IVMRImagePresenterStartPresenting, StartPresenting, StartPresenting method [DirectShow], StartPresenting method [DirectShow],IVMRImagePresenter interface, dshow.ivmrimagepresenter_startpresenting, strmif/IVMRImagePresenter::StartPresenting
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRImagePresenter::StartPresenting method
+# IVMRImagePresenter::StartPresenting
 
 
 ## -description

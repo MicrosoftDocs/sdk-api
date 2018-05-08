@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ProjectOntoChangeUnit
-title: ISyncKnowledge::ProjectOntoChangeUnit method
+title: ISyncKnowledge::ProjectOntoChangeUnit
 author: windows-driver-content
 description: Gets the knowledge for the specified change unit.
 old-location: winsync\isyncknowledge_projectontochangeunit.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 3c09284f-9866-49a4-adeb-561af3351ada
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncKnowledge, ISyncKnowledge interface [Windows Sync], ProjectOntoChangeUnit method, ISyncKnowledge::ProjectOntoChangeUnit, ProjectOntoChangeUnit method [Windows Sync], ProjectOntoChangeUnit method [Windows Sync], ISyncKnowledge interface, ProjectOntoChangeUnit,ISyncKnowledge.ProjectOntoChangeUnit, winsync.isyncknowledge_projectontochangeunit, winsync/ISyncKnowledge::ProjectOntoChangeUnit
+ms.keywords: ISyncKnowledge interface [Windows Sync],ProjectOntoChangeUnit method, ISyncKnowledge.ProjectOntoChangeUnit, ISyncKnowledge::ProjectOntoChangeUnit, ProjectOntoChangeUnit, ProjectOntoChangeUnit method [Windows Sync], ProjectOntoChangeUnit method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_projectontochangeunit, winsync/ISyncKnowledge::ProjectOntoChangeUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::ProjectOntoChangeUnit method
+# ISyncKnowledge::ProjectOntoChangeUnit
 
 
 ## -description

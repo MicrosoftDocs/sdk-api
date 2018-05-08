@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_5.IDXGIDevice4.OfferResources1
-title: IDXGIDevice4::OfferResources1 method
+title: IDXGIDevice4::OfferResources1
 author: windows-driver-content
 description: Allows the operating system to free the video memory of resources, including both discarding the content and de-committing the memory.
 old-location: direct3ddxgi\idxgidevice4_offerresources1.htm
@@ -8,7 +8,7 @@ old-project: direct3ddxgi
 ms.assetid: 7F6782F3-7779-4DBD-AD5A-AE0FB136FC70
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDXGIDevice4, IDXGIDevice4 interface [DXGI], OfferResources1 method, IDXGIDevice4::OfferResources1, OfferResources1 method [DXGI], OfferResources1 method [DXGI], IDXGIDevice4 interface, OfferResources1,IDXGIDevice4.OfferResources1, direct3ddxgi.idxgidevice4_offerresources1, dxgi1_5/IDXGIDevice4::OfferResources1
+ms.keywords: IDXGIDevice4 interface [DXGI],OfferResources1 method, IDXGIDevice4.OfferResources1, IDXGIDevice4::OfferResources1, OfferResources1, OfferResources1 method [DXGI], OfferResources1 method [DXGI],IDXGIDevice4 interface, direct3ddxgi.idxgidevice4_offerresources1, dxgi1_5/IDXGIDevice4::OfferResources1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDXGIDevice4::OfferResources1 method
+# IDXGIDevice4::OfferResources1
 
 
 ## -description

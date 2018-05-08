@@ -1,0 +1,8 @@
+# [System Restore](../_sr/index.md)
+## [Srrestoreptapi.h](index.md)
+### [SRRemoveRestorePoint function](../srrestoreptapi/nf-srrestoreptapi-srremoverestorepoint.md)
+### [SRSetRestorePointA function](../srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa.md)
+### [SRSetRestorePointW function](../srrestoreptapi/nf-srrestoreptapi-srsetrestorepointw.md)
+### [_RESTOREPTINFOA structure](../srrestoreptapi/ns-srrestoreptapi-_restoreptinfoa.md)
+### [_RESTOREPTINFOW structure](../srrestoreptapi/ns-srrestoreptapi-_restoreptinfow.md)
+### [_SMGRSTATUS structure](../srrestoreptapi/ns-srrestoreptapi-_smgrstatus.md)

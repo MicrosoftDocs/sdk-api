@@ -1,14 +1,14 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.SendStreamTick
-title: IMFSinkWriter::SendStreamTick method
+title: IMFSinkWriter::SendStreamTick
 author: windows-driver-content
 description: Indicates a gap in an input stream.
 old-location: mf\imfsinkwriter_sendstreamtick.htm
 old-project: medfound
 ms.assetid: 3b4b76b7-1a39-4323-94e7-0b2d159a8038
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFSinkWriter, IMFSinkWriter interface [Media Foundation], SendStreamTick method, IMFSinkWriter::SendStreamTick, SendStreamTick method [Media Foundation], SendStreamTick method [Media Foundation], IMFSinkWriter interface, SendStreamTick,IMFSinkWriter.SendStreamTick, mf.imfsinkwriter_sendstreamtick, mfreadwrite/IMFSinkWriter::SendStreamTick
+ms.date: 5/3/2018
+ms.keywords: IMFSinkWriter interface [Media Foundation],SendStreamTick method, IMFSinkWriter.SendStreamTick, IMFSinkWriter::SendStreamTick, SendStreamTick, SendStreamTick method [Media Foundation], SendStreamTick method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_sendstreamtick, mfreadwrite/IMFSinkWriter::SendStreamTick
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSinkWriter::SendStreamTick method
+# IMFSinkWriter::SendStreamTick
 
 
 ## -description

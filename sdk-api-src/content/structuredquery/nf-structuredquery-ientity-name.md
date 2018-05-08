@@ -1,14 +1,14 @@
 ---
 UID: NF:structuredquery.IEntity.Name
-title: IEntity::Name method
+title: IEntity::Name
 author: windows-driver-content
 description: Retrieves the name of this entity.
 old-location: search\_search_IEntity_Name.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\name.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IEntity, IEntity interface [search], Name method, IEntity::Name, Name method [search], Name method [search], IEntity interface, Name,IEntity.Name, _search_IEntity_Name, search._search_IEntity_Name, structuredquery/IEntity::Name
+ms.date: 5/4/2018
+ms.keywords: IEntity interface [search],Name method, IEntity.Name, IEntity::Name, Name, Name method [search], Name method [search],IEntity interface, _search_IEntity_Name, search._search_IEntity_Name, structuredquery/IEntity::Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEntity::Name method
+# IEntity::Name
 
 
 ## -description

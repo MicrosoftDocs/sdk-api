@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetPrerequisiteKnowledge
-title: ISyncChangeBatchBase::GetPrerequisiteKnowledge method
+title: ISyncChangeBatchBase::GetPrerequisiteKnowledge
 author: windows-driver-content
 description: Gets the minimum knowledge that a destination provider is required to have to process this change batch.
 old-location: winsync\isyncchangebatchbase_getprerequisiteknowledge.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: dd078725-7fd8-4d6c-9b43-f6741b03f1e6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetPrerequisiteKnowledge method [Windows Sync], GetPrerequisiteKnowledge method [Windows Sync], ISyncChangeBatchBase interface, GetPrerequisiteKnowledge,ISyncChangeBatchBase.GetPrerequisiteKnowledge, ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], GetPrerequisiteKnowledge method, ISyncChangeBatchBase::GetPrerequisiteKnowledge, winsync.isyncchangebatchbase_getprerequisiteknowledge, winsync/ISyncChangeBatchBase::GetPrerequisiteKnowledge
+ms.keywords: GetPrerequisiteKnowledge, GetPrerequisiteKnowledge method [Windows Sync], GetPrerequisiteKnowledge method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetPrerequisiteKnowledge method, ISyncChangeBatchBase.GetPrerequisiteKnowledge, ISyncChangeBatchBase::GetPrerequisiteKnowledge, winsync.isyncchangebatchbase_getprerequisiteknowledge, winsync/ISyncChangeBatchBase::GetPrerequisiteKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchBase::GetPrerequisiteKnowledge method
+# ISyncChangeBatchBase::GetPrerequisiteKnowledge
 
 
 ## -description

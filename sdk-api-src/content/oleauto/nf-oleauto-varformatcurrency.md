@@ -7,7 +7,7 @@ old-location: automat\varformatcurrency.htm
 old-project: automat
 ms.assetid: a0ad0c42-1b61-4421-9ea6-a256812bb342
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarFormatCurrency, VarFormatCurrency function [Automation], _oa96_VarFormatCurrency, automat.varformatcurrency, oleauto/VarFormatCurrency
 ms.prod: windows-hardware
 ms.technology: windows-devices

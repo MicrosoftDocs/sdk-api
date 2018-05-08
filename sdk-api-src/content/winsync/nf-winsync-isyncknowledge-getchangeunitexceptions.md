@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetChangeUnitExceptions
-title: ISyncKnowledge::GetChangeUnitExceptions method
+title: ISyncKnowledge::GetChangeUnitExceptions
 author: windows-driver-content
 description: Gets an object that can enumerate the IChangeUnitException objects that are stored in the knowledge.
 old-location: winsync\isyncknowledge_getchangeunitexceptions.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: f8d12e76-82f3-4291-8c95-757d4838639e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetChangeUnitExceptions method [Windows Sync], GetChangeUnitExceptions method [Windows Sync], ISyncKnowledge interface, GetChangeUnitExceptions,ISyncKnowledge.GetChangeUnitExceptions, ISyncKnowledge, ISyncKnowledge interface [Windows Sync], GetChangeUnitExceptions method, ISyncKnowledge::GetChangeUnitExceptions, winsync.isyncknowledge_getchangeunitexceptions, winsync/ISyncKnowledge::GetChangeUnitExceptions
+ms.keywords: GetChangeUnitExceptions, GetChangeUnitExceptions method [Windows Sync], GetChangeUnitExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetChangeUnitExceptions method, ISyncKnowledge.GetChangeUnitExceptions, ISyncKnowledge::GetChangeUnitExceptions, winsync.isyncknowledge_getchangeunitexceptions, winsync/ISyncKnowledge::GetChangeUnitExceptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncKnowledge::GetChangeUnitExceptions method
+# ISyncKnowledge::GetChangeUnitExceptions
 
 
 ## -description

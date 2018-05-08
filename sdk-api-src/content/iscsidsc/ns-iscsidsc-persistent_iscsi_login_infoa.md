@@ -23,7 +23,7 @@ req.ddi-compliance:
 req.unicode-ansi: PERSISTENT_ISCSI_LOGIN_INFOW (Unicode) and PERSISTENT_ISCSI_LOGIN_INFOA (ANSI)
 req.idl: 
 req.max-support: 
-req.namespace: Root\WMI
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.typenames: PERSISTENT_ISCSI_LOGIN_INFOA, *PPERSISTENT_ISCSI_LOGIN_INFOA

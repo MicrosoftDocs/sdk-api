@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElement.GetGUID
-title: ITfUIElement::GetGUID method
+title: ITfUIElement::GetGUID
 author: windows-driver-content
 description: The ITfUIElement::GetGUID method returns the unique id of this UI element.
 old-location: tsf\itfuielement_getguid.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 0456761e-58fc-4cda-a576-829dd2c1235f
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetGUID method [Text Services Framework], GetGUID method [Text Services Framework], ITfUIElement interface, GetGUID,ITfUIElement.GetGUID, ITfUIElement, ITfUIElement interface [Text Services Framework], GetGUID method, ITfUIElement::GetGUID, msctf/ITfUIElement::GetGUID, tsf.itfuielement_getguid
+ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [Text Services Framework],ITfUIElement interface, ITfUIElement interface [Text Services Framework],GetGUID method, ITfUIElement.GetGUID, ITfUIElement::GetGUID, msctf/ITfUIElement::GetGUID, tsf.itfuielement_getguid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfUIElement::GetGUID method
+# ITfUIElement::GetGUID
 
 
 ## -description

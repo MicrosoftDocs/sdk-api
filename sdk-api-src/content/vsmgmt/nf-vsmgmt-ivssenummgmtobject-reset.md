@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssEnumMgmtObject.Reset
-title: IVssEnumMgmtObject::Reset method
+title: IVssEnumMgmtObject::Reset
 author: windows-driver-content
 description: Resets the enumerator so that IVssEnumMgmtObject starts at the first enumerated object.
 old-location: base\ivssenummgmtobject_reset.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 57f984da-6c20-405b-883b-6e54e4ac9546
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssEnumMgmtObject, IVssEnumMgmtObject interface [VSS], Reset method, IVssEnumMgmtObject::Reset, Reset method [VSS], Reset method [VSS], IVssEnumMgmtObject interface, Reset,IVssEnumMgmtObject.Reset, base.ivssenummgmtobject_reset, vsmgmt/IVssEnumMgmtObject::Reset
+ms.keywords: IVssEnumMgmtObject interface [VSS],Reset method, IVssEnumMgmtObject.Reset, IVssEnumMgmtObject::Reset, Reset, Reset method [VSS], Reset method [VSS],IVssEnumMgmtObject interface, base.ivssenummgmtobject_reset, vsmgmt/IVssEnumMgmtObject::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssEnumMgmtObject::Reset method
+# IVssEnumMgmtObject::Reset
 
 
 ## -description

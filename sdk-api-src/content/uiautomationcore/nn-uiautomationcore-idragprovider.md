@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: FAC4A56D-17BC-42E6-A03E-EE45D717DE37
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IDragProvider, IDragProvider interface [Windows Accessibility], IDragProvider interface [Windows Accessibility], described, uiautomationcore/IDragProvider, winauto.uiauto_idragprovider
+ms.keywords: IDragProvider, IDragProvider interface [Windows Accessibility], IDragProvider interface [Windows Accessibility],described, uiautomationcore/IDragProvider, winauto.uiauto_idragprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

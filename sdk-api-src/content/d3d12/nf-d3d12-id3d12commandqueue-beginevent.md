@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.BeginEvent
-title: ID3D12CommandQueue::BeginEvent method
+title: ID3D12CommandQueue::BeginEvent
 author: windows-driver-content
 description: Not intended to be called directly.  Use the PIX event runtime to insert events into a command queue.
 old-location: direct3d12\id3d12commandqueue_beginevent.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 09586D24-6D52-49BA-B6C0-793219FAE80C
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: BeginEvent method, BeginEvent method, ID3D12CommandQueue interface, BeginEvent,ID3D12CommandQueue.BeginEvent, ID3D12CommandQueue, ID3D12CommandQueue interface, BeginEvent method, ID3D12CommandQueue::BeginEvent, d3d12/ID3D12CommandQueue::BeginEvent, direct3d12.id3d12commandqueue_beginevent
+ms.keywords: BeginEvent, BeginEvent method, BeginEvent method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,BeginEvent method, ID3D12CommandQueue.BeginEvent, ID3D12CommandQueue::BeginEvent, d3d12/ID3D12CommandQueue::BeginEvent, direct3d12.id3d12commandqueue_beginevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12CommandQueue::BeginEvent method
+# ID3D12CommandQueue::BeginEvent
 
 
 ## -description

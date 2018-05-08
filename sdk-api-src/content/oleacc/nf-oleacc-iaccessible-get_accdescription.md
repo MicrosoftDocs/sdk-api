@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.get_accDescription
-title: IAccessible::get_accDescription method
+title: IAccessible::get_accDescription
 author: windows-driver-content
 description: The IAccessible::get_accDescription method retrieves a string that describes the visual appearance of the specified object. Not all objects have a description.
 old-location: winauto\iaccessible_iaccessible__get_accdescription.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: ca70c5bc-ac20-41fe-a9fe-f4a7209c5958
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], get_accDescription method, IAccessible::get_accDescription, _msaa_IAccessible_get_accDescription, get_accDescription method [Windows Accessibility], get_accDescription method [Windows Accessibility], IAccessible interface, get_accDescription,IAccessible.get_accDescription, msaa.iaccessible_iaccessible__get_accdescription, oleacc/IAccessible::get_accDescription, winauto.iaccessible_iaccessible__get_accdescription
+ms.keywords: IAccessible interface [Windows Accessibility],get_accDescription method, IAccessible.get_accDescription, IAccessible::get_accDescription, _msaa_IAccessible_get_accDescription, get_accDescription, get_accDescription method [Windows Accessibility], get_accDescription method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accdescription, oleacc/IAccessible::get_accDescription, winauto.iaccessible_iaccessible__get_accdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccessible::get_accDescription method
+# IAccessible::get_accDescription
 
 
 ## -description

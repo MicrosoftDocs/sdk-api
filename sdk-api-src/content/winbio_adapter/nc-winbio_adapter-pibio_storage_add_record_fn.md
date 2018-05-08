@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 889664e2-00e8-49b4-9754-4ca72dd44bbd
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_STORAGE_ADD_RECORD_FN, StorageAdapterAddRecord, StorageAdapterAddRecord callback function [Windows Biometric Framework API], secbiomet.storageadapteraddrecord, winbio_adapter/StorageAdapterAddRecord
+ms.keywords: PIBIO_STORAGE_ADD_RECORD_FN, PIBIO_STORAGE_ADD_RECORD_FN callback, StorageAdapterAddRecord, StorageAdapterAddRecord callback function [Windows Biometric Framework API], secbiomet.storageadapteraddrecord, winbio_adapter/StorageAdapterAddRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_STORAGE_ADD_RECORD_FN callback
+# PIBIO_STORAGE_ADD_RECORD_FN callback function
 
 
 ## -description

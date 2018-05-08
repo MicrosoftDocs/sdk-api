@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJobManager.get_ActionVariableDescriptions
-title: IFsrmFileManagementJobManager::get_ActionVariableDescriptions method
+title: IFsrmFileManagementJobManager::get_ActionVariableDescriptions
 author: windows-driver-content
 description: Retrieves the descriptions for the macros contained in the IFsrmFileManagementJobManager::ActionVariables property.
 old-location: fsrm\ifsrmfilemanagementjobmanager_actionvariabledescriptions.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: d8e625b2-5fdd-4e7e-8c20-ad6e3e21a918
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ActionVariableDescriptions property [File Server Resource Manager], ActionVariableDescriptions property [File Server Resource Manager], FsrmFileManagementJobManager class, ActionVariableDescriptions property [File Server Resource Manager], IFsrmFileManagementJobManager interface, FsrmFileManagementJobManager class [File Server Resource Manager], ActionVariableDescriptions property, IFsrmFileManagementJobManager, IFsrmFileManagementJobManager interface [File Server Resource Manager], ActionVariableDescriptions property, IFsrmFileManagementJobManager.ActionVariableDescriptions, IFsrmFileManagementJobManager::get_ActionVariableDescriptions, fs.ifsrmfilemanagementjobmanager_actionvariabledescriptions, fsrm.ifsrmfilemanagementjobmanager_actionvariabledescriptions, fsrmreports/IFsrmFileManagementJobManager::ActionVariableDescriptions, fsrmreports/IFsrmFileManagementJobManager::get_ActionVariableDescriptions, get_ActionVariableDescriptions,IFsrmFileManagementJobManager.get_ActionVariableDescriptions
+ms.keywords: ActionVariableDescriptions property [File Server Resource Manager], ActionVariableDescriptions property [File Server Resource Manager],FsrmFileManagementJobManager class, ActionVariableDescriptions property [File Server Resource Manager],IFsrmFileManagementJobManager interface, FsrmFileManagementJobManager class [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileManagementJobManager interface [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileManagementJobManager.ActionVariableDescriptions, IFsrmFileManagementJobManager.get_ActionVariableDescriptions, IFsrmFileManagementJobManager::ActionVariableDescriptions, IFsrmFileManagementJobManager::get_ActionVariableDescriptions, fs.ifsrmfilemanagementjobmanager_actionvariabledescriptions, fsrm.ifsrmfilemanagementjobmanager_actionvariabledescriptions, fsrmreports/IFsrmFileManagementJobManager::ActionVariableDescriptions, fsrmreports/IFsrmFileManagementJobManager::get_ActionVariableDescriptions, get_ActionVariableDescriptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmFileManagementJobManager::get_ActionVariableDescriptions method
+# IFsrmFileManagementJobManager::get_ActionVariableDescriptions
 
 
 ## -description

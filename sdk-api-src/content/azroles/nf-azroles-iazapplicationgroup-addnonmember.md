@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.AddNonMember
-title: IAzApplicationGroup::AddNonMember method
+title: IAzApplicationGroup::AddNonMember
 author: windows-driver-content
 description: Adds the specified security identifier (SID) in text form to the list of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_addnonmember.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: a61f0b97-cd8a-40e5-b2ef-8eb48359fead
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddNonMember method [Security], AddNonMember method [Security], AzApplicationGroup object, AddNonMember method [Security], IAzApplicationGroup interface, AddNonMember,IAzApplicationGroup.AddNonMember, AzApplicationGroup object [Security], AddNonMember method, IAzApplicationGroup, IAzApplicationGroup interface [Security], AddNonMember method, IAzApplicationGroup::AddNonMember, azroles/IAzApplicationGroup::AddNonMember, security.iazapplicationgroup_addnonmember
+ms.keywords: AddNonMember, AddNonMember method [Security], AddNonMember method [Security],AzApplicationGroup object, AddNonMember method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddNonMember method, IAzApplicationGroup interface [Security],AddNonMember method, IAzApplicationGroup.AddNonMember, IAzApplicationGroup::AddNonMember, azroles/IAzApplicationGroup::AddNonMember, security.iazapplicationgroup_addnonmember
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplicationGroup::AddNonMember method
+# IAzApplicationGroup::AddNonMember
 
 
 ## -description

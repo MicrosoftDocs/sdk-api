@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.MatchResolveEx
-title: IWSDiscoveryPublisher::MatchResolveEx method
+title: IWSDiscoveryPublisher::MatchResolveEx
 author: windows-driver-content
 description: Determines whether a Resolve message matches the specified host and sends a WS-Discovery ResolveMatches message with extended information if the match is made.
 old-location: ncd\iwsdiscoverypublisher_matchresolveex_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 0eba744c-c335-4b82-95f0-6142cfedad09
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, MatchResolveEx method, IWSDiscoveryPublisher::MatchResolveEx, MatchResolveEx method, MatchResolveEx method, IWSDiscoveryPublisher interface, MatchResolveEx,IWSDiscoveryPublisher.MatchResolveEx, ncd.iwsdiscoverypublisher_matchresolveex_method, wsddisco/IWSDiscoveryPublisher::MatchResolveEx
+ms.keywords: IWSDiscoveryPublisher interface,MatchResolveEx method, IWSDiscoveryPublisher.MatchResolveEx, IWSDiscoveryPublisher::MatchResolveEx, MatchResolveEx, MatchResolveEx method, MatchResolveEx method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_matchresolveex_method, wsddisco/IWSDiscoveryPublisher::MatchResolveEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryPublisher::MatchResolveEx method
+# IWSDiscoveryPublisher::MatchResolveEx
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.SetConvolutionMonoKernel
-title: IDirect3DDevice9Ex::SetConvolutionMonoKernel method
+title: IDirect3DDevice9Ex::SetConvolutionMonoKernel
 author: windows-driver-content
 description: Prepare the texture sampler for monochrome convolution filtering on a single-color texture.
 old-location: direct3d9\idirect3ddevice9ex_setconvolutionmonokernel.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_setconvolutionmonokernel.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 901624bb-e4a4-a7b5-0f2f-bf89649a1105, IDirect3DDevice9Ex, IDirect3DDevice9Ex interface [Direct3D 9], SetConvolutionMonoKernel method, IDirect3DDevice9Ex::SetConvolutionMonoKernel, SetConvolutionMonoKernel method [Direct3D 9], SetConvolutionMonoKernel method [Direct3D 9], IDirect3DDevice9Ex interface, SetConvolutionMonoKernel,IDirect3DDevice9Ex.SetConvolutionMonoKernel, d3d9/IDirect3DDevice9Ex::SetConvolutionMonoKernel, direct3d9.idirect3ddevice9ex_setconvolutionmonokernel
+ms.keywords: 901624bb-e4a4-a7b5-0f2f-bf89649a1105, IDirect3DDevice9Ex interface [Direct3D 9],SetConvolutionMonoKernel method, IDirect3DDevice9Ex.SetConvolutionMonoKernel, IDirect3DDevice9Ex::SetConvolutionMonoKernel, SetConvolutionMonoKernel, SetConvolutionMonoKernel method [Direct3D 9], SetConvolutionMonoKernel method [Direct3D 9],IDirect3DDevice9Ex interface, d3d9/IDirect3DDevice9Ex::SetConvolutionMonoKernel, direct3d9.idirect3ddevice9ex_setconvolutionmonokernel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DDevice9Ex::SetConvolutionMonoKernel method
+# IDirect3DDevice9Ex::SetConvolutionMonoKernel
 
 
 ## -description

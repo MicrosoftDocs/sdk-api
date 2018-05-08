@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCacheable.get_Dirty
-title: IWdsTransportCacheable::get_Dirty method
+title: IWdsTransportCacheable::get_Dirty
 author: windows-driver-content
 description: Receives a value that indicates whether object data has been modified.
 old-location: wds\iwdstransportcacheable_dirty.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: f73e3013-e060-45bc-987c-d41cd01beef7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Dirty property [Windows Deployment Services], Dirty property [Windows Deployment Services], IWdsTransportCacheable interface, IWdsTransportCacheable, IWdsTransportCacheable interface [Windows Deployment Services], Dirty property, IWdsTransportCacheable.Dirty, IWdsTransportCacheable::get_Dirty, get_Dirty,IWdsTransportCacheable.get_Dirty, wds.iwdstransportcacheable_dirty, wdstptmgmt/IWdsTransportCacheable::Dirty, wdstptmgmt/IWdsTransportCacheable::get_Dirty
+ms.keywords: Dirty property [Windows Deployment Services], Dirty property [Windows Deployment Services],IWdsTransportCacheable interface, IWdsTransportCacheable interface [Windows Deployment Services],Dirty property, IWdsTransportCacheable.Dirty, IWdsTransportCacheable.get_Dirty, IWdsTransportCacheable::Dirty, IWdsTransportCacheable::get_Dirty, get_Dirty, wds.iwdstransportcacheable_dirty, wdstptmgmt/IWdsTransportCacheable::Dirty, wdstptmgmt/IWdsTransportCacheable::get_Dirty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportCacheable::get_Dirty method
+# IWdsTransportCacheable::get_Dirty
 
 
 ## -description

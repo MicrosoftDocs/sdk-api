@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.SetBackupStamp
-title: IVssComponent::SetBackupStamp method
+title: IVssComponent::SetBackupStamp
 author: windows-driver-content
 description: The SetBackupStamp method sets a string containing information indicating when a backup took place.
 old-location: base\ivsscomponent_setbackupstamp.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 54995cc9-8988-4f26-9c60-5d809a93e4e1
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssComponent, IVssComponent interface [VSS], SetBackupStamp method, IVssComponent::SetBackupStamp, SetBackupStamp method [VSS], SetBackupStamp method [VSS], IVssComponent interface, SetBackupStamp,IVssComponent.SetBackupStamp, _win32_ivsscomponent_setbackupstamp, base.ivsscomponent_setbackupstamp, vswriter/IVssComponent::SetBackupStamp
+ms.keywords: IVssComponent interface [VSS],SetBackupStamp method, IVssComponent.SetBackupStamp, IVssComponent::SetBackupStamp, SetBackupStamp, SetBackupStamp method [VSS], SetBackupStamp method [VSS],IVssComponent interface, _win32_ivsscomponent_setbackupstamp, base.ivsscomponent_setbackupstamp, vswriter/IVssComponent::SetBackupStamp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssComponent::SetBackupStamp method
+# IVssComponent::SetBackupStamp
 
 
 ## -description

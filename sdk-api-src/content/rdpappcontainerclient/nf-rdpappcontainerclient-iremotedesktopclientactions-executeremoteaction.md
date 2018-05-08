@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientActions.ExecuteRemoteAction
-title: IRemoteDesktopClientActions::ExecuteRemoteAction method
+title: IRemoteDesktopClientActions::ExecuteRemoteAction
 author: windows-driver-content
 description: Causes an action to be performed in the remote session.
 old-location: termserv\iremotedesktopclientactions_executeremoteaction.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 944fbfe4-b033-471b-9a28-87349382d37a
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ExecuteRemoteAction method [Remote Desktop Services], ExecuteRemoteAction method [Remote Desktop Services], IRemoteDesktopClientActions interface, ExecuteRemoteAction,IRemoteDesktopClientActions.ExecuteRemoteAction, IRemoteDesktopClientActions, IRemoteDesktopClientActions interface [Remote Desktop Services], ExecuteRemoteAction method, IRemoteDesktopClientActions::ExecuteRemoteAction, rdpappcontainerclient/IRemoteDesktopClientActions::ExecuteRemoteAction, termserv.iremotedesktopclientactions_executeremoteaction
+ms.keywords: ExecuteRemoteAction, ExecuteRemoteAction method [Remote Desktop Services], ExecuteRemoteAction method [Remote Desktop Services],IRemoteDesktopClientActions interface, IRemoteDesktopClientActions interface [Remote Desktop Services],ExecuteRemoteAction method, IRemoteDesktopClientActions.ExecuteRemoteAction, IRemoteDesktopClientActions::ExecuteRemoteAction, rdpappcontainerclient/IRemoteDesktopClientActions::ExecuteRemoteAction, termserv.iremotedesktopclientactions_executeremoteaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRemoteDesktopClientActions::ExecuteRemoteAction method
+# IRemoteDesktopClientActions::ExecuteRemoteAction
 
 
 ## -description

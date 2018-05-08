@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 60f7c6e2-7821-4be6-a1c1-35bacaa60bf4
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfReadingInformationUIElement, ITfReadingInformationUIElement interface [Text Services Framework], ITfReadingInformationUIElement interface [Text Services Framework], described, msctf/ITfReadingInformationUIElement, tsf.itfreadinginformationuielement
+ms.keywords: ITfReadingInformationUIElement, ITfReadingInformationUIElement interface [Text Services Framework], ITfReadingInformationUIElement interface [Text Services Framework],described, msctf/ITfReadingInformationUIElement, tsf.itfreadinginformationuielement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

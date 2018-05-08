@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_SupportedFeaturePages
-title: IDiscRecorder2::get_SupportedFeaturePages method
+title: IDiscRecorder2::get_SupportedFeaturePages
 author: windows-driver-content
 description: Retrieves the list of features that the device supports.
 old-location: imapi\idiscrecorder2_get_supportedfeaturepages.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: e2764de1-85cc-4f04-951d-5cb70575ee9f
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscRecorder2, IDiscRecorder2 interface [IMAPI], get_SupportedFeaturePages method, IDiscRecorder2::get_SupportedFeaturePages, get_SupportedFeaturePages method [IMAPI], get_SupportedFeaturePages method [IMAPI], IDiscRecorder2 interface, get_SupportedFeaturePages,IDiscRecorder2.get_SupportedFeaturePages, imapi.idiscrecorder2_get_supportedfeaturepages, imapi2/IDiscRecorder2::get_SupportedFeaturePages
+ms.keywords: IDiscRecorder2 interface [IMAPI],get_SupportedFeaturePages method, IDiscRecorder2.get_SupportedFeaturePages, IDiscRecorder2::get_SupportedFeaturePages, get_SupportedFeaturePages, get_SupportedFeaturePages method [IMAPI], get_SupportedFeaturePages method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_supportedfeaturepages, imapi2/IDiscRecorder2::get_SupportedFeaturePages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscRecorder2::get_SupportedFeaturePages method
+# IDiscRecorder2::get_SupportedFeaturePages
 
 
 ## -description

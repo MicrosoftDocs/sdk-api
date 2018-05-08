@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DTexture9.GetLevelDesc
-title: IDirect3DTexture9::GetLevelDesc method
+title: IDirect3DTexture9::GetLevelDesc
 author: windows-driver-content
 description: Retrieves a level description of a texture resource.
 old-location: direct3d9\idirect3dtexture9__getleveldesc.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dtexture9__getleveldesc.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: 56fc4d84-d125-0b2e-6670-ecb45faa49cd, GetLevelDesc method [Direct3D 9], GetLevelDesc method [Direct3D 9], IDirect3DTexture9 interface, GetLevelDesc,IDirect3DTexture9.GetLevelDesc, IDirect3DTexture9, IDirect3DTexture9 interface [Direct3D 9], GetLevelDesc method, IDirect3DTexture9::GetLevelDesc, d3d9helper/IDirect3DTexture9::GetLevelDesc, direct3d9.idirect3dtexture9__getleveldesc
+ms.keywords: 56fc4d84-d125-0b2e-6670-ecb45faa49cd, GetLevelDesc, GetLevelDesc method [Direct3D 9], GetLevelDesc method [Direct3D 9],IDirect3DTexture9 interface, IDirect3DTexture9 interface [Direct3D 9],GetLevelDesc method, IDirect3DTexture9.GetLevelDesc, IDirect3DTexture9::GetLevelDesc, d3d9helper/IDirect3DTexture9::GetLevelDesc, direct3d9.idirect3dtexture9__getleveldesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DTexture9::GetLevelDesc method
+# IDirect3DTexture9::GetLevelDesc
 
 
 ## -description

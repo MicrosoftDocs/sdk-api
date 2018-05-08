@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.AddProgram
-title: IBDA_ConditionalAccess::AddProgram method
+title: IBDA_ConditionalAccess::AddProgram
 author: windows-driver-content
 description: Currently not implemented.
 old-location: mstv\ibda_conditionalaccess_addprogram.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 7e0e2905-fb7c-4532-be3e-198ca620f894
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: AddProgram method [Microsoft TV Technologies], AddProgram method [Microsoft TV Technologies], IBDA_ConditionalAccess interface, AddProgram,IBDA_ConditionalAccess.AddProgram, IBDA_ConditionalAccess, IBDA_ConditionalAccess interface [Microsoft TV Technologies], AddProgram method, IBDA_ConditionalAccess::AddProgram, IBDA_ConditionalAccessAddProgram, bdaiface/IBDA_ConditionalAccess::AddProgram, mstv.ibda_conditionalaccess_addprogram
+ms.keywords: AddProgram, AddProgram method [Microsoft TV Technologies], AddProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, IBDA_ConditionalAccess interface [Microsoft TV Technologies],AddProgram method, IBDA_ConditionalAccess.AddProgram, IBDA_ConditionalAccess::AddProgram, IBDA_ConditionalAccessAddProgram, bdaiface/IBDA_ConditionalAccess::AddProgram, mstv.ibda_conditionalaccess_addprogram
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_ConditionalAccess::AddProgram method
+# IBDA_ConditionalAccess::AddProgram
 
 
 ## -description

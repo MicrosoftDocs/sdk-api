@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IPMT, IPMT interface [Microsoft TV Technologies], IPMT interface [Microsoft TV Technologies], described, IPMTInterface, mpeg2psiparser/IPMT, mstv.ipmt
+ms.keywords: IPMT, IPMT interface [Microsoft TV Technologies], IPMT interface [Microsoft TV Technologies],described, IPMTInterface, mpeg2psiparser/IPMT, mstv.ipmt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

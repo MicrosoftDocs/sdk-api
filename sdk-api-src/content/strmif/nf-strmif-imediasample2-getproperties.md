@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSample2.GetProperties
-title: IMediaSample2::GetProperties method
+title: IMediaSample2::GetProperties
 author: windows-driver-content
 description: The GetProperties method retrieves the properties of a media sample.
 old-location: dshow\imediasample2_getproperties.htm
 old-project: DirectShow
 ms.assetid: ef20deed-f906-459a-8c2a-f1c929ade9ac
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetProperties method [DirectShow], GetProperties method [DirectShow], IMediaSample2 interface, GetProperties,IMediaSample2.GetProperties, IMediaSample2, IMediaSample2 interface [DirectShow], GetProperties method, IMediaSample2::GetProperties, IMediaSample2GetProperties, dshow.imediasample2_getproperties, strmif/IMediaSample2::GetProperties
+ms.date: 4/30/2018
+ms.keywords: GetProperties, GetProperties method [DirectShow], GetProperties method [DirectShow],IMediaSample2 interface, IMediaSample2 interface [DirectShow],GetProperties method, IMediaSample2.GetProperties, IMediaSample2::GetProperties, IMediaSample2GetProperties, dshow.imediasample2_getproperties, strmif/IMediaSample2::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSample2::GetProperties method
+# IMediaSample2::GetProperties
 
 
 ## -description

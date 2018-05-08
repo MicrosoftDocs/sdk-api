@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMVideoMediaProps.SetQuality
-title: IWMVideoMediaProps::SetQuality method
+title: IWMVideoMediaProps::SetQuality
 author: windows-driver-content
 description: The SetQuality method specifies the quality setting for the video stream.
 old-location: wmformat\iwmvideomediaprops_setquality.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 0f91380d-b8c8-47db-99ca-12c897bdff20
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMVideoMediaProps, IWMVideoMediaProps interface [windows Media Format], SetQuality method, IWMVideoMediaProps::SetQuality, IWMVideoMediaPropsSetQuality, SetQuality method [windows Media Format], SetQuality method [windows Media Format], IWMVideoMediaProps interface, SetQuality,IWMVideoMediaProps.SetQuality, wmformat.iwmvideomediaprops_setquality, wmsdkidl/IWMVideoMediaProps::SetQuality
+ms.keywords: IWMVideoMediaProps interface [windows Media Format],SetQuality method, IWMVideoMediaProps.SetQuality, IWMVideoMediaProps::SetQuality, IWMVideoMediaPropsSetQuality, SetQuality, SetQuality method [windows Media Format], SetQuality method [windows Media Format],IWMVideoMediaProps interface, wmformat.iwmvideomediaprops_setquality, wmsdkidl/IWMVideoMediaProps::SetQuality
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMVideoMediaProps::SetQuality method
+# IWMVideoMediaProps::SetQuality
 
 
 ## -description

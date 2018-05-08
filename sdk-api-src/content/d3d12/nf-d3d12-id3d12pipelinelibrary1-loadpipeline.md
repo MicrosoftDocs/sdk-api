@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12PipelineLibrary1.LoadPipeline
-title: ID3D12PipelineLibrary1::LoadPipeline method
+title: ID3D12PipelineLibrary1::LoadPipeline
 author: windows-driver-content
 description: Retrieves the requested PSO from the library. The pipeline stream description is matched against the library database and remembered in order to prevent duplication of PSO contents.
 old-location: direct3d12\id3d12pipelinelibrary1_loadpipeline.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 842092FF-906D-4595-8C43-07F0349CA1A3
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12PipelineLibrary1, ID3D12PipelineLibrary1 interface, LoadPipeline method, ID3D12PipelineLibrary1::LoadPipeline, LoadPipeline method, LoadPipeline method, ID3D12PipelineLibrary1 interface, LoadPipeline,ID3D12PipelineLibrary1.LoadPipeline, d3d12/ID3D12PipelineLibrary1::LoadPipeline, direct3d12.id3d12pipelinelibrary1_loadpipeline
+ms.keywords: ID3D12PipelineLibrary1 interface,LoadPipeline method, ID3D12PipelineLibrary1.LoadPipeline, ID3D12PipelineLibrary1::LoadPipeline, LoadPipeline, LoadPipeline method, LoadPipeline method,ID3D12PipelineLibrary1 interface, d3d12/ID3D12PipelineLibrary1::LoadPipeline, direct3d12.id3d12pipelinelibrary1_loadpipeline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12PipelineLibrary1::LoadPipeline method
+# ID3D12PipelineLibrary1::LoadPipeline
 
 
 ## -description

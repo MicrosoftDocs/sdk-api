@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IEnumOLEVERB.Next
-title: IEnumOLEVERB::Next method
+title: IEnumOLEVERB::Next
 author: windows-driver-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumoleverb_next.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: bb934017-9054-42b5-89d4-a24f12829503
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IEnumOLEVERB, IEnumOLEVERB interface [COM], Next method, IEnumOLEVERB::Next, Next method [COM], Next method [COM], IEnumOLEVERB interface, Next,IEnumOLEVERB.Next, _ole_ienumoleverb_next, com.ienumoleverb_next, oleidl/IEnumOLEVERB::Next
+ms.keywords: IEnumOLEVERB interface [COM],Next method, IEnumOLEVERB.Next, IEnumOLEVERB::Next, Next, Next method [COM], Next method [COM],IEnumOLEVERB interface, _ole_ienumoleverb_next, com.ienumoleverb_next, oleidl/IEnumOLEVERB::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IEnumOLEVERB::Next method
+# IEnumOLEVERB::Next
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectorInfo.GetIndex
-title: IMILBitmapEffectConnectorInfo::GetIndex method
+title: IMILBitmapEffectConnectorInfo::GetIndex
 author: windows-driver-content
 description: Retrieves the zero based index value for the pin.
 old-location: wibe\_wibe_imilbitmapeffectconnectorinfo_getindex.htm
@@ -8,7 +8,7 @@ old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectorinfo\getindex.htm
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetIndex method [WPF Bitmap Effects], GetIndex method [WPF Bitmap Effects], IMILBitmapEffectConnectorInfo interface, GetIndex,IMILBitmapEffectConnectorInfo.GetIndex, IMILBitmapEffectConnectorInfo, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects], GetIndex method, IMILBitmapEffectConnectorInfo::GetIndex, _wibe_imilbitmapeffectconnectorinfo_getindex, mileffects/IMILBitmapEffectConnectorInfo::GetIndex, wibe._wibe_imilbitmapeffectconnectorinfo_getindex
+ms.keywords: GetIndex, GetIndex method [WPF Bitmap Effects], GetIndex method [WPF Bitmap Effects],IMILBitmapEffectConnectorInfo interface, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects],GetIndex method, IMILBitmapEffectConnectorInfo.GetIndex, IMILBitmapEffectConnectorInfo::GetIndex, _wibe_imilbitmapeffectconnectorinfo_getindex, mileffects/IMILBitmapEffectConnectorInfo::GetIndex, wibe._wibe_imilbitmapeffectconnectorinfo_getindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMILBitmapEffectConnectorInfo::GetIndex method
+# IMILBitmapEffectConnectorInfo::GetIndex
 
 
 ## -description

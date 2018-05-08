@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.get_Type
-title: IPicture::get_Type method
+title: IPicture::get_Type
 author: windows-driver-content
 description: Retrieves the current type of the picture contained in the picture object.
 old-location: com\ipicture_get_type.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: b8c64bff-51a4-4b7d-bec4-56465933e96d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IPicture, IPicture interface [COM], get_Type method, IPicture::get_Type, _ctrl_ipicture_get_type, com.ipicture_get_type, get_Type method [COM], get_Type method [COM], IPicture interface, get_Type,IPicture.get_Type, ocidl/IPicture::get_Type
+ms.keywords: IPicture interface [COM],get_Type method, IPicture.get_Type, IPicture::get_Type, _ctrl_ipicture_get_type, com.ipicture_get_type, get_Type, get_Type method [COM], get_Type method [COM],IPicture interface, ocidl/IPicture::get_Type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPicture::get_Type method
+# IPicture::get_Type
 
 
 ## -description

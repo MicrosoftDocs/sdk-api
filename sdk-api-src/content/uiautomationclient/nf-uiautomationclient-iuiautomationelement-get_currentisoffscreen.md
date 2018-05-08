@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsOffscreen
-title: IUIAutomationElement::get_CurrentIsOffscreen method
+title: IUIAutomationElement::get_CurrentIsOffscreen
 author: windows-driver-content
 description: Indicates whether the element is off-screen.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsOffscreen.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 51bec7bd-a547-4c75-ab8a-ebdd9bbd6c01
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CurrentIsOffscreen property [Windows Accessibility], CurrentIsOffscreen property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CurrentIsOffscreen property, IUIAutomationElement.CurrentIsOffscreen, IUIAutomationElement::get_CurrentIsOffscreen, get_CurrentIsOffscreen,IUIAutomationElement.get_CurrentIsOffscreen, uiauto.uiauto_IUIAutomationElement_CurrentIsOffscreen, uiauto_IUIAutomationElement_CurrentIsOffscreen, uiautomationclient/IUIAutomationElement::CurrentIsOffscreen, uiautomationclient/IUIAutomationElement::get_CurrentIsOffscreen, winauto.uiauto_IUIAutomationElement_CurrentIsOffscreen
+ms.keywords: CurrentIsOffscreen property [Windows Accessibility], CurrentIsOffscreen property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsOffscreen property, IUIAutomationElement.CurrentIsOffscreen, IUIAutomationElement.get_CurrentIsOffscreen, IUIAutomationElement::CurrentIsOffscreen, IUIAutomationElement::get_CurrentIsOffscreen, get_CurrentIsOffscreen, uiauto.uiauto_IUIAutomationElement_CurrentIsOffscreen, uiauto_IUIAutomationElement_CurrentIsOffscreen, uiautomationclient/IUIAutomationElement::CurrentIsOffscreen, uiautomationclient/IUIAutomationElement::get_CurrentIsOffscreen, winauto.uiauto_IUIAutomationElement_CurrentIsOffscreen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CurrentIsOffscreen method
+# IUIAutomationElement::get_CurrentIsOffscreen
 
 
 ## -description

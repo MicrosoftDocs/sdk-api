@@ -7,7 +7,7 @@ old-location: controls\SetWindowThemeNonClientAttributes.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowthemenonclientattributes.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: SetWindowThemeNonClientAttributes, SetWindowThemeNonClientAttributes function [Windows Controls], _shell_SetWindowThemeNonClientAttributes, _shell_SetWindowThemeNonClientAttributes_cpp, controls.SetWindowThemeNonClientAttributes, controls._shell_SetWindowThemeNonClientAttributes, uxtheme/SetWindowThemeNonClientAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

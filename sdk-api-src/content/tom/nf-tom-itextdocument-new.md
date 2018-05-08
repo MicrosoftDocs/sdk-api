@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument.New
-title: ITextDocument::New method
+title: ITextDocument::New
 author: windows-driver-content
 description: Opens a new document.
 old-location: controls\ITextDocument_New.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\new.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextDocument, ITextDocument interface [Windows Controls], New method, ITextDocument::New, New method [Windows Controls], New method [Windows Controls], ITextDocument interface, New,ITextDocument.New, _win32_ITextDocument_New, _win32_ITextDocument_New_cpp, controls.ITextDocument_New, controls._win32_ITextDocument_New, tom/ITextDocument::New
+ms.date: 4/27/2018
+ms.keywords: ITextDocument interface [Windows Controls],New method, ITextDocument.New, ITextDocument::New, New, New method [Windows Controls], New method [Windows Controls],ITextDocument interface, _win32_ITextDocument_New, _win32_ITextDocument_New_cpp, controls.ITextDocument_New, controls._win32_ITextDocument_New, tom/ITextDocument::New
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument::New method
+# ITextDocument::New
 
 
 ## -description

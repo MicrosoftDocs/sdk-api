@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: fb659a5e-1f55-47a6-b22d-660975d8c0fd
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDMessageParameters, IWSDMessageParameters interface, IWSDMessageParameters interface, described, ncd.iwsdmessageparameters, wsdbase/IWSDMessageParameters
+ms.keywords: IWSDMessageParameters, IWSDMessageParameters interface, IWSDMessageParameters interface,described, ncd.iwsdmessageparameters, wsdbase/IWSDMessageParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

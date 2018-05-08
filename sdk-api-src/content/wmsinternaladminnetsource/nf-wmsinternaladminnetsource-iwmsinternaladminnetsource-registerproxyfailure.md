@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.RegisterProxyFailure
-title: IWMSInternalAdminNetSource::RegisterProxyFailure method
+title: IWMSInternalAdminNetSource::RegisterProxyFailure
 author: windows-driver-content
 description: Registers a proxy failure.
 old-location: wmformat\iwmsinternaladminnetsource_registerproxyfailure.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 50a41a98-2827-425e-91fc-5196996abe98
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], RegisterProxyFailure method, IWMSInternalAdminNetSource::RegisterProxyFailure, RegisterProxyFailure method [windows Media Format], RegisterProxyFailure method [windows Media Format], IWMSInternalAdminNetSource interface, RegisterProxyFailure,IWMSInternalAdminNetSource.RegisterProxyFailure, wmformat.iwmsinternaladminnetsource_registerproxyfailure, wmsinternaladminnetsource/IWMSInternalAdminNetSource::RegisterProxyFailure
+ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],RegisterProxyFailure method, IWMSInternalAdminNetSource.RegisterProxyFailure, IWMSInternalAdminNetSource::RegisterProxyFailure, RegisterProxyFailure, RegisterProxyFailure method [windows Media Format], RegisterProxyFailure method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_registerproxyfailure, wmsinternaladminnetsource/IWMSInternalAdminNetSource::RegisterProxyFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMSInternalAdminNetSource::RegisterProxyFailure method
+# IWMSInternalAdminNetSource::RegisterProxyFailure
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 5b188426-9d7f-4e87-9eed-ce80e5d93c30
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], IWbemPathKeyList interface [Windows Management Instrumentation], described, _hmm_iwbempathkeylist, wmi.iwbempathkeylist, wmiutils/IWbemPathKeyList
+ms.keywords: IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], IWbemPathKeyList interface [Windows Management Instrumentation],described, _hmm_iwbempathkeylist, wmi.iwbempathkeylist, wmiutils/IWbemPathKeyList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.GetTransportInformationAsync
-title: IMediaRenderer::GetTransportInformationAsync method
+title: IMediaRenderer::streaming
 author: windows-driver-content
 description: Queries the DMR asynchronously to retrieve transport information.
 old-location: mediastreaming\imediarenderer_gettransportinformationasync.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: C7EA3FB7-0D12-4E49-857F-D8311711AA89
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: GetTransportInformationAsync method [Media Streaming API], GetTransportInformationAsync method [Media Streaming API], IMediaRenderer interface, GetTransportInformationAsync,IMediaRenderer.GetTransportInformationAsync, IMediaRenderer, IMediaRenderer interface [Media Streaming API], GetTransportInformationAsync method, IMediaRenderer::GetTransportInformationAsync, mediastreaming.imediarenderer_gettransportinformationasync, windows/IMediaRenderer::GetTransportInformationAsync
+ms.keywords: GetTransportInformationAsync, GetTransportInformationAsync method [Media Streaming API], GetTransportInformationAsync method [Media Streaming API],IMediaRenderer interface, IMediaRenderer interface [Media Streaming API],GetTransportInformationAsync method, IMediaRenderer.GetTransportInformationAsync, IMediaRenderer.streaming, IMediaRenderer::GetTransportInformationAsync, IMediaRenderer::streaming, mediastreaming.imediarenderer_gettransportinformationasync, windows/IMediaRenderer::GetTransportInformationAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IMediaRenderer::GetTransportInformationAsync method
+# IMediaRenderer::streaming
 
 
 ## -description

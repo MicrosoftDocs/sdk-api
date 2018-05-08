@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.Open
-title: IOleDocumentView::Open method
+title: IOleDocumentView::Open
 author: windows-driver-content
 description: Displays a document view in a separate pop-up window. The semantics are equivalent to IOleObject::DoVerb with OLEIVERB_OPEN.
 old-location: com\ioledocumentview_open.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 46f801ae-ae03-4567-9442-cf3fbb6d06d7
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleDocumentView, IOleDocumentView interface [COM], Open method, IOleDocumentView::Open, Open method [COM], Open method [COM], IOleDocumentView interface, Open,IOleDocumentView.Open, _ole_ioledocumentview_open, com.ioledocumentview_open, docobj/IOleDocumentView::Open
+ms.keywords: IOleDocumentView interface [COM],Open method, IOleDocumentView.Open, IOleDocumentView::Open, Open, Open method [COM], Open method [COM],IOleDocumentView interface, _ole_ioledocumentview_open, com.ioledocumentview_open, docobj/IOleDocumentView::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IOleDocumentView::Open method
+# IOleDocumentView::Open
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleParameters.get_Count
-title: IAzBizRuleParameters::get_Count method
+title: IAzBizRuleParameters::get_Count
 author: windows-driver-content
 description: Gets the number of parameters available to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters_count_method.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 5ba6f289-2349-444b-8693-53aadb0ea4d1
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: Count property [Security], Count property [Security], IAzBizRuleParameters interface, IAzBizRuleParameters, IAzBizRuleParameters interface [Security], Count property, IAzBizRuleParameters.Count, IAzBizRuleParameters::get_Count, azroles/IAzBizRuleParameters::Count, azroles/IAzBizRuleParameters::get_Count, get_Count,IAzBizRuleParameters.get_Count, security.iazbizruleparameters_count_method
+ms.keywords: Count property [Security], Count property [Security],IAzBizRuleParameters interface, IAzBizRuleParameters interface [Security],Count property, IAzBizRuleParameters.Count, IAzBizRuleParameters.get_Count, IAzBizRuleParameters::Count, IAzBizRuleParameters::get_Count, azroles/IAzBizRuleParameters::Count, azroles/IAzBizRuleParameters::get_Count, get_Count, security.iazbizruleparameters_count_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAzBizRuleParameters::get_Count method
+# IAzBizRuleParameters::get_Count
 
 
 ## -description

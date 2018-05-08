@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.AddRecord
-title: IWMMutualExclusion2::AddRecord method
+title: IWMMutualExclusion2::AddRecord
 author: windows-driver-content
 description: The AddRecord method adds a record to the mutual exclusion object.
 old-location: wmformat\iwmmutualexclusion2_addrecord.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 58eaa4b2-65d3-44b1-8e3d-1aac01057d0f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddRecord method [windows Media Format], AddRecord method [windows Media Format], IWMMutualExclusion2 interface, AddRecord,IWMMutualExclusion2.AddRecord, IWMMutualExclusion2, IWMMutualExclusion2 interface [windows Media Format], AddRecord method, IWMMutualExclusion2::AddRecord, IWMMutualExclusion2AddRecord, wmformat.iwmmutualexclusion2_addrecord, wmsdkidl/IWMMutualExclusion2::AddRecord
+ms.keywords: AddRecord, AddRecord method [windows Media Format], AddRecord method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],AddRecord method, IWMMutualExclusion2.AddRecord, IWMMutualExclusion2::AddRecord, IWMMutualExclusion2AddRecord, wmformat.iwmmutualexclusion2_addrecord, wmsdkidl/IWMMutualExclusion2::AddRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMMutualExclusion2::AddRecord method
+# IWMMutualExclusion2::AddRecord
 
 
 ## -description

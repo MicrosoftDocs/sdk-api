@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetReadyState
-title: IMFMediaEngine::GetReadyState method
+title: IMFMediaEngine::GetReadyState
 author: windows-driver-content
 description: Gets the ready state, which indicates whether the current media resource can be rendered.
 old-location: mf\imfmediaengine_getreadystate.htm
 old-project: medfound
 ms.assetid: B8C9B600-87FD-4DE6-8794-5C1E41449554
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetReadyState method [Media Foundation], GetReadyState method [Media Foundation], IMFMediaEngine interface, GetReadyState,IMFMediaEngine.GetReadyState, IMFMediaEngine, IMFMediaEngine interface [Media Foundation], GetReadyState method, IMFMediaEngine::GetReadyState, mf.imfmediaengine_getreadystate, mfmediaengine/IMFMediaEngine::GetReadyState
+ms.date: 5/3/2018
+ms.keywords: GetReadyState, GetReadyState method [Media Foundation], GetReadyState method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetReadyState method, IMFMediaEngine.GetReadyState, IMFMediaEngine::GetReadyState, mf.imfmediaengine_getreadystate, mfmediaengine/IMFMediaEngine::GetReadyState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngine::GetReadyState method
+# IMFMediaEngine::GetReadyState
 
 
 ## -description

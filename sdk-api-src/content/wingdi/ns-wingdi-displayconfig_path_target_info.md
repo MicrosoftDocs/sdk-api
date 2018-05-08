@@ -73,6 +73,11 @@ The target identifier on the specified adapter that this path relates to.
  
 
 
+### -field DUMMYUNIONNAME.modeInfoIdx
+
+A valid index into the mode information table that contains the target mode information for this path only when DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE is not set. If target mode information is not available, the value of <b>modeInfoIdx</b> is DISPLAYCONFIG_PATH_MODE_IDX_INVALID.
+
+
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -155,11 +160,6 @@ Output is currently being forced in a path-persistent manner.
 #### DISPLAYCONFIG_TARGET_FORCED_AVAILABILITY_SYSTEM
 
 Output is currently being forced in a nonpersistent manner.
-
-
-#### - modeInfoIdx
-
-A valid index into the mode information table that contains the target mode information for this path only when DISPLAYCONFIG_PATH_SUPPORT_VIRTUAL_MODE is not set. If target mode information is not available, the value of <b>modeInfoIdx</b> is DISPLAYCONFIG_PATH_MODE_IDX_INVALID.
 
 
 ## -remarks

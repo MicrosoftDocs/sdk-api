@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSolidColorBrush.GetColor
-title: IXpsOMSolidColorBrush::GetColor method
+title: IXpsOMSolidColorBrush::GetColor
 author: windows-driver-content
 description: Gets the color value and color profile of the brush.
 old-location: xps\ixpsomsolidcolorbrush_getcolor.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 07201e3d-af2f-4b85-ac03-2911c33f348b
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetColor method [XPS Documents and Packaging], GetColor method [XPS Documents and Packaging], IXpsOMSolidColorBrush interface, GetColor,IXpsOMSolidColorBrush.GetColor, IXpsOMSolidColorBrush, IXpsOMSolidColorBrush interface [XPS Documents and Packaging], GetColor method, IXpsOMSolidColorBrush::GetColor, xps.ixpsomsolidcolorbrush_getcolor, xpsobjectmodel/IXpsOMSolidColorBrush::GetColor
+ms.keywords: GetColor, GetColor method [XPS Documents and Packaging], GetColor method [XPS Documents and Packaging],IXpsOMSolidColorBrush interface, IXpsOMSolidColorBrush interface [XPS Documents and Packaging],GetColor method, IXpsOMSolidColorBrush.GetColor, IXpsOMSolidColorBrush::GetColor, xps.ixpsomsolidcolorbrush_getcolor, xpsobjectmodel/IXpsOMSolidColorBrush::GetColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMSolidColorBrush::GetColor method
+# IXpsOMSolidColorBrush::GetColor
 
 
 ## -description

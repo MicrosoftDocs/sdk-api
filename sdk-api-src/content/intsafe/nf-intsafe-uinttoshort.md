@@ -7,7 +7,7 @@ old-location: shell\UIntToShort.htm
 old-project: shell
 ms.assetid: abad8095-ac1b-4604-b423-5b244fa60127
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: UIntToShort, UIntToShort function [Windows Shell], _shell_UIntToShort, intsafe/UIntToShort, shell.UIntToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

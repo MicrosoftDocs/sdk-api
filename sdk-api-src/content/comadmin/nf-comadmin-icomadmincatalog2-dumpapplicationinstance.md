@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.DumpApplicationInstance
-title: ICOMAdminCatalog2::DumpApplicationInstance method
+title: ICOMAdminCatalog2::DumpApplicationInstance
 author: windows-driver-content
 description: Creates a dump file containing an image of the state of the specified application instance (process).
 old-location: cos\icomadmincatalog2_dumpapplicationinstance.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 76c121c6-4ba6-49da-93dc-9094acb1994c
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: DumpApplicationInstance method [COM+], DumpApplicationInstance method [COM+], ICOMAdminCatalog2 interface, DumpApplicationInstance,ICOMAdminCatalog2.DumpApplicationInstance, ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], DumpApplicationInstance method, ICOMAdminCatalog2::DumpApplicationInstance, _cos_icomadmincatalog2_DumpApplicationInstance, comadmin/ICOMAdminCatalog2::DumpApplicationInstance, cos.icomadmincatalog2_dumpapplicationinstance
+ms.keywords: DumpApplicationInstance, DumpApplicationInstance method [COM+], DumpApplicationInstance method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],DumpApplicationInstance method, ICOMAdminCatalog2.DumpApplicationInstance, ICOMAdminCatalog2::DumpApplicationInstance, _cos_icomadmincatalog2_DumpApplicationInstance, comadmin/ICOMAdminCatalog2::DumpApplicationInstance, cos.icomadmincatalog2_dumpapplicationinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::DumpApplicationInstance method
+# ICOMAdminCatalog2::DumpApplicationInstance
 
 
 ## -description

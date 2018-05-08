@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetAlias
-title: IWSDUdpAddress::GetAlias method
+title: IWSDUdpAddress::GetAlias
 author: windows-driver-content
 description: Gets the alias for the discovery address.
 old-location: ncd\iwsdudpaddress_getalias.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: c11a7e39-6df1-411b-9992-6ce869b0db69
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetAlias method, GetAlias method, IWSDUdpAddress interface, GetAlias,IWSDUdpAddress.GetAlias, IWSDUdpAddress, IWSDUdpAddress interface, GetAlias method, IWSDUdpAddress::GetAlias, ncd.iwsdudpaddress_getalias, wsdbase/IWSDUdpAddress::GetAlias
+ms.keywords: GetAlias, GetAlias method, GetAlias method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetAlias method, IWSDUdpAddress.GetAlias, IWSDUdpAddress::GetAlias, ncd.iwsdudpaddress_getalias, wsdbase/IWSDUdpAddress::GetAlias
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDUdpAddress::GetAlias method
+# IWSDUdpAddress::GetAlias
 
 
 ## -description

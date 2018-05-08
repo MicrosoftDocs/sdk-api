@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsprint.IXpsPrintJob.GetJobStatus
-title: IXpsPrintJob::GetJobStatus method
+title: IXpsPrintJob::GetJobStatus
 author: windows-driver-content
 description: Gets the current status of the print job.
 old-location: gdi\ixpsprintjob_getjobstatus.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: e2a55aec-f8a5-40b4-8c26-1488df49eed0
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetJobStatus method [Windows GDI], GetJobStatus method [Windows GDI], IXpsPrintJob interface, GetJobStatus,IXpsPrintJob.GetJobStatus, IXpsPrintJob, IXpsPrintJob interface [Windows GDI], GetJobStatus method, IXpsPrintJob::GetJobStatus, gdi.ixpsprintjob_getjobstatus, xpsprint/IXpsPrintJob::GetJobStatus
+ms.keywords: GetJobStatus, GetJobStatus method [Windows GDI], GetJobStatus method [Windows GDI],IXpsPrintJob interface, IXpsPrintJob interface [Windows GDI],GetJobStatus method, IXpsPrintJob.GetJobStatus, IXpsPrintJob::GetJobStatus, gdi.ixpsprintjob_getjobstatus, xpsprint/IXpsPrintJob::GetJobStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsPrintJob::GetJobStatus method
+# IXpsPrintJob::GetJobStatus
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.put_Name
-title: IFsrmPropertyDefinition::put_Name method
+title: IFsrmPropertyDefinition::put_Name
 author: windows-driver-content
 description: The name of the property.
 old-location: fsrm\ifsrmpropertydefinition_name.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: b6c72b75-ef12-4f66-91dc-460d2de8072d
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmPropertyDefinition, IFsrmPropertyDefinition interface [File Server Resource Manager], Name property, IFsrmPropertyDefinition.Name, IFsrmPropertyDefinition::get_Name, IFsrmPropertyDefinition::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager], IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_name, fsrm.ifsrmpropertydefinition_name, fsrmpipeline/IFsrmPropertyDefinition::Name, fsrmpipeline/IFsrmPropertyDefinition::get_Name, fsrmpipeline/IFsrmPropertyDefinition::put_Name, put_Name,IFsrmPropertyDefinition.put_Name
+ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],Name property, IFsrmPropertyDefinition.Name, IFsrmPropertyDefinition.put_Name, IFsrmPropertyDefinition::Name, IFsrmPropertyDefinition::get_Name, IFsrmPropertyDefinition::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_name, fsrm.ifsrmpropertydefinition_name, fsrmpipeline/IFsrmPropertyDefinition::Name, fsrmpipeline/IFsrmPropertyDefinition::get_Name, fsrmpipeline/IFsrmPropertyDefinition::put_Name, put_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmPropertyDefinition::put_Name method
+# IFsrmPropertyDefinition::put_Name
 
 
 ## -description

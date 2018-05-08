@@ -7,7 +7,7 @@ old-location: automat\safearray.htm
 old-project: automat
 ms.assetid: 9ec8025b-4763-4526-ab45-390c5d8b3b1e
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: "*LPSAFEARRAY, FADF_AUTO, FADF_BSTR, FADF_DISPATCH, FADF_EMBEDDED, FADF_FIXEDSIZE, FADF_HAVEIID, FADF_HAVEVARTYPE, FADF_RECORD, FADF_RESERVED, FADF_STATIC, FADF_UNKNOWN, FADF_VARIANT, LPSAFEARRAY, LPSAFEARRAY structure pointer [Automation], SAFEARRAY, SAFEARRAY structure [Automation], automat.safearray, oaidl/LPSAFEARRAY, oaidl/SAFEARRAY, tagSAFEARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

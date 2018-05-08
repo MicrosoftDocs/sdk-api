@@ -1,14 +1,14 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngineOnEventCallback.OnEvent
-title: IMFCaptureEngineOnEventCallback::OnEvent method
+title: IMFCaptureEngineOnEventCallback::OnEvent
 author: windows-driver-content
 description: Called by the capture engine to notify the application of a capture event.
 old-location: mf\imfcaptureengineoneventcallback_onevent.htm
 old-project: medfound
 ms.assetid: 26C5B2E5-0543-49FC-915A-DCE097FF66BA
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFCaptureEngineOnEventCallback, IMFCaptureEngineOnEventCallback interface [Media Foundation], OnEvent method, IMFCaptureEngineOnEventCallback::OnEvent, OnEvent method [Media Foundation], OnEvent method [Media Foundation], IMFCaptureEngineOnEventCallback interface, OnEvent,IMFCaptureEngineOnEventCallback.OnEvent, mf.imfcaptureengineoneventcallback_onevent, mfcaptureengine/IMFCaptureEngineOnEventCallback::OnEvent
+ms.date: 5/3/2018
+ms.keywords: IMFCaptureEngineOnEventCallback interface [Media Foundation],OnEvent method, IMFCaptureEngineOnEventCallback.OnEvent, IMFCaptureEngineOnEventCallback::OnEvent, OnEvent, OnEvent method [Media Foundation], OnEvent method [Media Foundation],IMFCaptureEngineOnEventCallback interface, mf.imfcaptureengineoneventcallback_onevent, mfcaptureengine/IMFCaptureEngineOnEventCallback::OnEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFCaptureEngineOnEventCallback::OnEvent method
+# IMFCaptureEngineOnEventCallback::OnEvent
 
 
 ## -description

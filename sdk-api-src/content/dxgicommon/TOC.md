@@ -1,0 +1,5 @@
+# [DXGI](../_direct3ddxgi/index.md)
+## [Dxgicommon.h](index.md)
+### [DXGI_COLOR_SPACE_TYPE enumeration](../dxgicommon/ne-dxgicommon-dxgi_color_space_type.md)
+### [DXGI_RATIONAL structure](../dxgicommon/ns-dxgicommon-dxgi_rational.md)
+### [DXGI_SAMPLE_DESC structure](../dxgicommon/ns-dxgicommon-dxgi_sample_desc.md)

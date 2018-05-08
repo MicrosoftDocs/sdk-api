@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationCompletedCallback.Invoke
-title: IInstallationCompletedCallback::Invoke method
+title: IInstallationCompletedCallback::Invoke
 author: windows-driver-content
 description: Handles the notification of the completion of an asynchronous installation or uninstallation that is initiated by a call to IUpdateInstaller.BeginInstall or IUpdateInstaller.BeginUninstall.
 old-location: wua\iinstallationcompletedcallback_invoke.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: b7c413b2-b485-41a5-b2c9-5c3e9c10427c
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IInstallationCompletedCallback, IInstallationCompletedCallback interface [Windows Update Agent], Invoke method, IInstallationCompletedCallback::Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent], IInstallationCompletedCallback interface, Invoke,IInstallationCompletedCallback.Invoke, wua.iinstallationcompletedcallback_invoke, wuapi/IInstallationCompletedCallback::Invoke
+ms.keywords: IInstallationCompletedCallback interface [Windows Update Agent],Invoke method, IInstallationCompletedCallback.Invoke, IInstallationCompletedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],IInstallationCompletedCallback interface, wua.iinstallationcompletedcallback_invoke, wuapi/IInstallationCompletedCallback::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IInstallationCompletedCallback::Invoke method
+# IInstallationCompletedCallback::Invoke
 
 
 ## -description

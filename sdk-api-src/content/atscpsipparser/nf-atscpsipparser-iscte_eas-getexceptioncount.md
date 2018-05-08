@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetExceptionCount
-title: ISCTE_EAS::GetExceptionCount method
+title: ISCTE_EAS::GetExceptionCount
 author: windows-driver-content
 description: The GetExceptionCount method returns the number of exception services.
 old-location: mstv\iscte_eas_getexceptioncount.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: da98cf2f-a302-41d0-8226-18d6bb89be82
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetExceptionCount method [Microsoft TV Technologies], GetExceptionCount method [Microsoft TV Technologies], ISCTE_EAS interface, GetExceptionCount,ISCTE_EAS.GetExceptionCount, ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], GetExceptionCount method, ISCTE_EAS::GetExceptionCount, ISCTE_EASGetExceptionCount, atscpsipparser/ISCTE_EAS::GetExceptionCount, mstv.iscte_eas_getexceptioncount
+ms.keywords: GetExceptionCount, GetExceptionCount method [Microsoft TV Technologies], GetExceptionCount method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetExceptionCount method, ISCTE_EAS.GetExceptionCount, ISCTE_EAS::GetExceptionCount, ISCTE_EASGetExceptionCount, atscpsipparser/ISCTE_EAS::GetExceptionCount, mstv.iscte_eas_getexceptioncount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ISCTE_EAS::GetExceptionCount method
+# ISCTE_EAS::GetExceptionCount
 
 
 ## -description

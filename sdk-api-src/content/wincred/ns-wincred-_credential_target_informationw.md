@@ -59,6 +59,111 @@ req.product: Windows Address Book 5.0
 
 
 
+### -field TargetName.string
+
+ 
+
+
+### -field TargetName.max_is
+
+ 
+
+
+### -field TargetName.max_is.CRED_MAX_DOMAIN_TARGET_NAME_LENGTH-1
+
+ 
+
+
+### -field NetbiosServerName.string
+
+ 
+
+
+### -field NetbiosServerName.max_is
+
+ 
+
+
+### -field NetbiosServerName.max_is.CRED_MAX_DOMAIN_TARGET_NAME_LENGTH-1
+
+ 
+
+
+### -field DnsServerName.string
+
+ 
+
+
+### -field DnsServerName.max_is
+
+ 
+
+
+### -field DnsServerName.max_is.CRED_MAX_DOMAIN_TARGET_NAME_LENGTH-1
+
+ 
+
+
+### -field NetbiosDomainName.string
+
+ 
+
+
+### -field NetbiosDomainName.max_is
+
+ 
+
+
+### -field NetbiosDomainName.max_is.CRED_MAX_DOMAIN_TARGET_NAME_LENGTH-1
+
+ 
+
+
+### -field DnsDomainName.string
+
+ 
+
+
+### -field DnsDomainName.max_is
+
+ 
+
+
+### -field DnsDomainName.max_is.CRED_MAX_DOMAIN_TARGET_NAME_LENGTH-1
+
+ 
+
+
+### -field DnsTreeName.string
+
+ 
+
+
+### -field DnsTreeName.max_is
+
+ 
+
+
+### -field DnsTreeName.max_is.CRED_MAX_DOMAIN_TARGET_NAME_LENGTH-1
+
+ 
+
+
+### -field PackageName.string
+
+ 
+
+
+### -field PackageName.max_is
+
+ 
+
+
+### -field PackageName.max_is.CRED_MAX_STRING_LENGTH-1
+
+ 
+
+
 ### -field TargetName
 
 Name of the target server as specified by the caller accessing the target. It is typically the NetBIOS or DNS name of the target server.
@@ -130,7 +235,34 @@ Stored credentials require a UserName member. A value of &lt;<i>DnsServerName</i
 Number of elements in the <b>CredTypes</b> array.
 
 
+### -field CredTypeCount.range
+
+ 
+
+
+### -field CredTypeCount.range.0
+
+ 
+
+
+### -field CredTypeCount.range.CRED_TYPE_MAXIMUM_EX
+
+ 
+
+
 ### -field CredTypes
 
 Array specifying the credential types acceptable by the authentication package used by the target server. Each element is one of the CRED_TYPE_* defines. The order of this array specifies the preference order of the authentication package. More preferable types are specified earlier in the list.
+
+
+### -field CredTypes.size_is
+
+ 
+
+
+### -field CredTypes.size_is.CredTypeCount
+
+ 
+
+
 

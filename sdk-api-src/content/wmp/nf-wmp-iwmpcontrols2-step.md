@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPControls2.step
-title: IWMPControls2::step method
+title: IWMPControls2::step
 author: windows-driver-content
 description: The step method causes the current video media item to freeze playback on the next frame or the previous frame.
 old-location: wmp\iwmpcontrols2_step.htm
 old-project: WMP
 ms.assetid: d54a4bb7-855f-4807-89b5-176b7fac2edd
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPControls2, IWMPControls2 interface [Windows Media Player], step method, IWMPControls2::step, IWMPControls2step, step method [Windows Media Player], step method [Windows Media Player], IWMPControls2 interface, step,IWMPControls2.step, wmp.iwmpcontrols2_step, wmp/IWMPControls2::step
+ms.date: 5/4/2018
+ms.keywords: IWMPControls2 interface [Windows Media Player],step method, IWMPControls2.step, IWMPControls2::step, IWMPControls2step, step, step method [Windows Media Player], step method [Windows Media Player],IWMPControls2 interface, wmp.iwmpcontrols2_step, wmp/IWMPControls2::step
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPControls2::step method
+# IWMPControls2::step
 
 
 ## -description

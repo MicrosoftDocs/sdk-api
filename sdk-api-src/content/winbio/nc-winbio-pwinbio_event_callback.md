@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: E5D3E20E-A174-46E2-9426-7B021496DB3B
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PWINBIO_EVENT_CALLBACK, PWINBIO_EVENT_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_event_callback, winbio/PWINBIO_EVENT_CALLBACK
+ms.keywords: PWINBIO_EVENT_CALLBACK, PWINBIO_EVENT_CALLBACK callback, PWINBIO_EVENT_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_event_callback, winbio/PWINBIO_EVENT_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PWINBIO_EVENT_CALLBACK callback
+# PWINBIO_EVENT_CALLBACK callback function
 
 
 ## -description

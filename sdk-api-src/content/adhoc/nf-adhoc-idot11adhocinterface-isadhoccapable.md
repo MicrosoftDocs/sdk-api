@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.IsAdHocCapable
-title: IDot11AdHocInterface::IsAdHocCapable method
+title: IDot11AdHocInterface::IsAdHocCapable
 author: windows-driver-content
 description: Specifies whether a NIC supports the creation or use of an ad hoc network.
 old-location: nwifi\idot11adhocinterface_isadhoccapable.htm
@@ -8,7 +8,7 @@ old-project: NativeWiFi
 ms.assetid: 18e3419f-500e-40bb-b7f1-125e95c55690
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IDot11AdHocInterface, IDot11AdHocInterface interface [NativeWIFI], IsAdHocCapable method, IDot11AdHocInterface::IsAdHocCapable, IsAdHocCapable method [NativeWIFI], IsAdHocCapable method [NativeWIFI], IDot11AdHocInterface interface, IsAdHocCapable,IDot11AdHocInterface.IsAdHocCapable, adhoc/IDot11AdHocInterface::IsAdHocCapable, nwifi.idot11adhocinterface_isadhoccapable
+ms.keywords: IDot11AdHocInterface interface [NativeWIFI],IsAdHocCapable method, IDot11AdHocInterface.IsAdHocCapable, IDot11AdHocInterface::IsAdHocCapable, IsAdHocCapable, IsAdHocCapable method [NativeWIFI], IsAdHocCapable method [NativeWIFI],IDot11AdHocInterface interface, adhoc/IDot11AdHocInterface::IsAdHocCapable, nwifi.idot11adhocinterface_isadhoccapable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDot11AdHocInterface::IsAdHocCapable method
+# IDot11AdHocInterface::IsAdHocCapable
 
 
 ## -description

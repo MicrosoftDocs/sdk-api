@@ -1,14 +1,14 @@
 ---
 UID: NF:mfsharingengine.IMFMediaSharingEngineClassFactory.CreateInstance
-title: IMFMediaSharingEngineClassFactory::CreateInstance method
+title: IMFMediaSharingEngineClassFactory::CreateInstance
 author: windows-driver-content
 description: Creates an instance of the IMFMediaSharingEngine.
 old-location: mf\imfmediasharingengineclassfactory_createinstance.htm
 old-project: medfound
 ms.assetid: D0FD55A1-0387-4450-8F05-3AC7E943F437
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CreateInstance method [Media Foundation], CreateInstance method [Media Foundation], IMFMediaSharingEngineClassFactory interface, CreateInstance,IMFMediaSharingEngineClassFactory.CreateInstance, IMFMediaSharingEngineClassFactory, IMFMediaSharingEngineClassFactory interface [Media Foundation], CreateInstance method, IMFMediaSharingEngineClassFactory::CreateInstance, mf.imfmediasharingengineclassfactory_createinstance, mfsharingengine/IMFMediaSharingEngineClassFactory::CreateInstance
+ms.date: 5/3/2018
+ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaSharingEngineClassFactory interface, IMFMediaSharingEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaSharingEngineClassFactory.CreateInstance, IMFMediaSharingEngineClassFactory::CreateInstance, mf.imfmediasharingengineclassfactory_createinstance, mfsharingengine/IMFMediaSharingEngineClassFactory::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaSharingEngineClassFactory::CreateInstance method
+# IMFMediaSharingEngineClassFactory::CreateInstance
 
 
 ## -description

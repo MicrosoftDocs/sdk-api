@@ -7,8 +7,8 @@ old-location: shell\IAppPublisher.htm
 old-project: shell
 ms.assetid: 5391444a-53b6-48c9-9a94-d045b3f97182
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAppPublisher, IAppPublisher interface [Windows Shell], IAppPublisher interface [Windows Shell], described, inet_IAppPublisher, shappmgr/IAppPublisher, shell.IAppPublisher
+ms.date: 5/3/2018
+ms.keywords: IAppPublisher, IAppPublisher interface [Windows Shell], IAppPublisher interface [Windows Shell],described, inet_IAppPublisher, shappmgr/IAppPublisher, shell.IAppPublisher
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetProhibitedCaretStopCount
-title: IXpsOMGlyphs::GetProhibitedCaretStopCount method
+title: IXpsOMGlyphs::GetProhibitedCaretStopCount
 author: windows-driver-content
 description: Gets the number of prohibited caret stops.
 old-location: xps\ixpsomglyphs_getprohibitedcaretstopcount.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 1f4974e9-b88b-40c0-89f5-b69fec5c2d83
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetProhibitedCaretStopCount method [XPS Documents and Packaging], GetProhibitedCaretStopCount method [XPS Documents and Packaging], IXpsOMGlyphs interface, GetProhibitedCaretStopCount,IXpsOMGlyphs.GetProhibitedCaretStopCount, IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], GetProhibitedCaretStopCount method, IXpsOMGlyphs::GetProhibitedCaretStopCount, xps.ixpsomglyphs_getprohibitedcaretstopcount, xpsobjectmodel/IXpsOMGlyphs::GetProhibitedCaretStopCount
+ms.keywords: GetProhibitedCaretStopCount, GetProhibitedCaretStopCount method [XPS Documents and Packaging], GetProhibitedCaretStopCount method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetProhibitedCaretStopCount method, IXpsOMGlyphs.GetProhibitedCaretStopCount, IXpsOMGlyphs::GetProhibitedCaretStopCount, xps.ixpsomglyphs_getprohibitedcaretstopcount, xpsobjectmodel/IXpsOMGlyphs::GetProhibitedCaretStopCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::GetProhibitedCaretStopCount method
+# IXpsOMGlyphs::GetProhibitedCaretStopCount
 
 
 ## -description

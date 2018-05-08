@@ -8,7 +8,7 @@ old-project: RRAS
 ms.assetid: aba43ef9-7f62-48ab-a790-c8592a57f2c2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: PFNRASFREEBUFFER, RasFreeBuffer, RasFreeBuffer callback function [RAS], _ras_rasfreebuffer, ras/RasFreeBuffer, rras.rasfreebuffer
+ms.keywords: PFNRASFREEBUFFER, PFNRASFREEBUFFER callback, RasFreeBuffer, RasFreeBuffer callback function [RAS], _ras_rasfreebuffer, ras/RasFreeBuffer, rras.rasfreebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PFNRASFREEBUFFER callback
+# PFNRASFREEBUFFER callback function
 
 
 ## -description

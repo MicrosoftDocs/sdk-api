@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IVideoWindow.put_WindowStyleEx
-title: IVideoWindow::put_WindowStyleEx method
+title: IVideoWindow::put_WindowStyleEx
 author: windows-driver-content
 description: The put_WindowStyleEx method sets the extended window styles on the video window.
 old-location: dshow\ivideowindow_put_windowstyleex.htm
 old-project: DirectShow
 ms.assetid: 19d56e9d-6f6d-46aa-b46f-a62302b41d2f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], put_WindowStyleEx method, IVideoWindow::put_WindowStyleEx, IVideoWindowput_WindowStyleEx, control/IVideoWindow::put_WindowStyleEx, dshow.ivideowindow_put_windowstyleex, put_WindowStyleEx method [DirectShow], put_WindowStyleEx method [DirectShow], IVideoWindow interface, put_WindowStyleEx,IVideoWindow.put_WindowStyleEx
+ms.date: 4/30/2018
+ms.keywords: IVideoWindow interface [DirectShow],put_WindowStyleEx method, IVideoWindow.put_WindowStyleEx, IVideoWindow::put_WindowStyleEx, IVideoWindowput_WindowStyleEx, control/IVideoWindow::put_WindowStyleEx, dshow.ivideowindow_put_windowstyleex, put_WindowStyleEx, put_WindowStyleEx method [DirectShow], put_WindowStyleEx method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IVideoWindow::put_WindowStyleEx method
+# IVideoWindow::put_WindowStyleEx
 
 
 ## -description

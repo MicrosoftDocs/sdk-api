@@ -1,14 +1,14 @@
 ---
 UID: NF:mftransform.IMFTransform.GetStreamLimits
-title: IMFTransform::GetStreamLimits method
+title: IMFTransform::GetStreamLimits
 author: windows-driver-content
 description: Gets the minimum and maximum number of input and output streams for this Media Foundation transform (MFT).
 old-location: mf\imftransform_getstreamlimits.htm
 old-project: medfound
 ms.assetid: 4d9585f0-5818-4e7f-925c-4c50ae6a6edc
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 4d9585f0-5818-4e7f-925c-4c50ae6a6edc, GetStreamLimits method [Media Foundation], GetStreamLimits method [Media Foundation], IMFTransform interface, GetStreamLimits,IMFTransform.GetStreamLimits, IMFTransform, IMFTransform interface [Media Foundation], GetStreamLimits method, IMFTransform::GetStreamLimits, mf.imftransform_getstreamlimits, mftransform/IMFTransform::GetStreamLimits
+ms.date: 5/3/2018
+ms.keywords: 4d9585f0-5818-4e7f-925c-4c50ae6a6edc, GetStreamLimits, GetStreamLimits method [Media Foundation], GetStreamLimits method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamLimits method, IMFTransform.GetStreamLimits, IMFTransform::GetStreamLimits, mf.imftransform_getstreamlimits, mftransform/IMFTransform::GetStreamLimits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTransform::GetStreamLimits method
+# IMFTransform::GetStreamLimits
 
 
 ## -description

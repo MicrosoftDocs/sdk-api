@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IConnectedIdentityProvider.DisconnectIdentity
-title: IConnectedIdentityProvider::DisconnectIdentity method
+title: IConnectedIdentityProvider::DisconnectIdentity
 author: windows-driver-content
 description: Disconnects an online identity from the current domain user.
 old-location: security\iconnectedidentityprovider_disconnectidentity.htm
@@ -8,7 +8,7 @@ old-project: SecAuthN
 ms.assetid: D7869001-5412-48C9-9C31-0181A9366965
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: DisconnectIdentity method [Security], DisconnectIdentity method [Security], IConnectedIdentityProvider interface, DisconnectIdentity,IConnectedIdentityProvider.DisconnectIdentity, IConnectedIdentityProvider, IConnectedIdentityProvider interface [Security], DisconnectIdentity method, IConnectedIdentityProvider::DisconnectIdentity, identityprovider/IConnectedIdentityProvider::DisconnectIdentity, security.iconnectedidentityprovider_disconnectidentity
+ms.keywords: DisconnectIdentity, DisconnectIdentity method [Security], DisconnectIdentity method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],DisconnectIdentity method, IConnectedIdentityProvider.DisconnectIdentity, IConnectedIdentityProvider::DisconnectIdentity, identityprovider/IConnectedIdentityProvider::DisconnectIdentity, security.iconnectedidentityprovider_disconnectidentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IConnectedIdentityProvider::DisconnectIdentity method
+# IConnectedIdentityProvider::DisconnectIdentity
 
 
 ## -description

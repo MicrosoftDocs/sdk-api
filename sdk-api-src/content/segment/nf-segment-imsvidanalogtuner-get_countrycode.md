@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.get_CountryCode
-title: IMSVidAnalogTuner::get_CountryCode method
+title: IMSVidAnalogTuner::get_CountryCode
 author: windows-driver-content
 description: The get_CountryCode method retrieves the tuner's country/region code.
 old-location: mstv\imsvidanalogtuner_get_countrycode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f8efd47f-2a89-4982-88dd-3bfc6c00801b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidAnalogTuner, IMSVidAnalogTuner interface [Microsoft TV Technologies], get_CountryCode method, IMSVidAnalogTuner::get_CountryCode, IMSVidAnalogTunerget_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies], IMSVidAnalogTuner interface, get_CountryCode,IMSVidAnalogTuner.get_CountryCode, mstv.imsvidanalogtuner_get_countrycode, segment/IMSVidAnalogTuner::get_CountryCode
+ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_CountryCode method, IMSVidAnalogTuner.get_CountryCode, IMSVidAnalogTuner::get_CountryCode, IMSVidAnalogTunerget_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_countrycode, segment/IMSVidAnalogTuner::get_CountryCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidAnalogTuner::get_CountryCode method
+# IMSVidAnalogTuner::get_CountryCode
 
 
 ## -description

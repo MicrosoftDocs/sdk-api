@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetFillBrushLookup
-title: IXpsOMGlyphs::SetFillBrushLookup method
+title: IXpsOMGlyphs::SetFillBrushLookup
 author: windows-driver-content
 description: Sets the lookup key name of a shared fill brush.
 old-location: xps\ixpsomglyphs_setfillbrushlookup.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: a983583b-8698-48aa-af24-2e71d87d30c4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMGlyphs, IXpsOMGlyphs interface [XPS Documents and Packaging], SetFillBrushLookup method, IXpsOMGlyphs::SetFillBrushLookup, SetFillBrushLookup method [XPS Documents and Packaging], SetFillBrushLookup method [XPS Documents and Packaging], IXpsOMGlyphs interface, SetFillBrushLookup,IXpsOMGlyphs.SetFillBrushLookup, xps.ixpsomglyphs_setfillbrushlookup, xpsobjectmodel/IXpsOMGlyphs::SetFillBrushLookup
+ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFillBrushLookup method, IXpsOMGlyphs.SetFillBrushLookup, IXpsOMGlyphs::SetFillBrushLookup, SetFillBrushLookup, SetFillBrushLookup method [XPS Documents and Packaging], SetFillBrushLookup method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfillbrushlookup, xpsobjectmodel/IXpsOMGlyphs::SetFillBrushLookup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGlyphs::SetFillBrushLookup method
+# IXpsOMGlyphs::SetFillBrushLookup
 
 
 ## -description

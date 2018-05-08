@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_HighQuotaWaterMark
-title: IFaxConfiguration::put_HighQuotaWaterMark method
+title: IFaxConfiguration::put_HighQuotaWaterMark
 author: windows-driver-content
 description: Sets or retrieves a value that indicates the maximum allotted size of a watermark.
 old-location: fax\_mfax_FaxConfiguration_HighQuotaWaterMark_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\highquotawatermark.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxConfiguration object [Fax Service], HighQuotaWaterMark property, HighQuotaWaterMark property [Fax Service], HighQuotaWaterMark property [Fax Service], FaxConfiguration object, IFaxConfiguration, IFaxConfiguration::put_HighQuotaWaterMark, _mfax_IFaxConfiguration_HighQuotaWaterMark, fax._mfax_FaxConfiguration_HighQuotaWaterMark_vb, put_HighQuotaWaterMark,IFaxConfiguration.put_HighQuotaWaterMark
+ms.keywords: FaxConfiguration object [Fax Service],HighQuotaWaterMark property, FaxConfiguration.HighQuotaWaterMark, HighQuotaWaterMark property [Fax Service], HighQuotaWaterMark property [Fax Service],FaxConfiguration object, IFaxConfiguration.put_HighQuotaWaterMark, IFaxConfiguration::put_HighQuotaWaterMark, _mfax_IFaxConfiguration_HighQuotaWaterMark, fax._mfax_FaxConfiguration_HighQuotaWaterMark_vb, put_HighQuotaWaterMark
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxConfiguration::put_HighQuotaWaterMark method
+# IFaxConfiguration::put_HighQuotaWaterMark
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.Resume
-title: IDvdControl::Resume method
+title: IDvdControl::Resume
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Returns to playing back a title from a menu.
 old-location: dshow\idvdcontrol_resume.htm
 old-project: DirectShow
 ms.assetid: 336908bb-369e-449d-a94a-dd22fa72f20a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl, IDvdControl interface [DirectShow], Resume method, IDvdControl::Resume, IDvdControlResume, Resume method [DirectShow], Resume method [DirectShow], IDvdControl interface, Resume,IDvdControl.Resume, dshow.idvdcontrol_resume, strmif/IDvdControl::Resume
+ms.date: 4/30/2018
+ms.keywords: IDvdControl interface [DirectShow],Resume method, IDvdControl.Resume, IDvdControl::Resume, IDvdControlResume, Resume, Resume method [DirectShow], Resume method [DirectShow],IDvdControl interface, dshow.idvdcontrol_resume, strmif/IDvdControl::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::Resume method
+# IDvdControl::Resume
 
 
 ## -description

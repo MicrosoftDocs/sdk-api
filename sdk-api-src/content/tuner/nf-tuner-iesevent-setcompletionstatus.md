@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESEvent.SetCompletionStatus
-title: IESEvent::SetCompletionStatus method
+title: IESEvent::SetCompletionStatus
 author: windows-driver-content
 description: Sets the completion status for an event that is derived from the IESEvent interface.
 old-location: mstv\iesevent_setcompletionstatus.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2e8d5a94-6fa1-453b-bbd4-396d60bb2aa0
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IESEvent, IESEvent interface [Microsoft TV Technologies], SetCompletionStatus method, IESEvent::SetCompletionStatus, SetCompletionStatus method [Microsoft TV Technologies], SetCompletionStatus method [Microsoft TV Technologies], IESEvent interface, SetCompletionStatus,IESEvent.SetCompletionStatus, mstv.iesevent_setcompletionstatus, tuner/IESEvent::SetCompletionStatus
+ms.keywords: IESEvent interface [Microsoft TV Technologies],SetCompletionStatus method, IESEvent.SetCompletionStatus, IESEvent::SetCompletionStatus, SetCompletionStatus, SetCompletionStatus method [Microsoft TV Technologies], SetCompletionStatus method [Microsoft TV Technologies],IESEvent interface, mstv.iesevent_setcompletionstatus, tuner/IESEvent::SetCompletionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESEvent::SetCompletionStatus method
+# IESEvent::SetCompletionStatus
 
 
 ## -description

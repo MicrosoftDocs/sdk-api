@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetTag
-title: IAtscContentAdvisoryDescriptor::GetTag method
+title: IAtscContentAdvisoryDescriptor::GetTag
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsccontentadvisorydescriptor_gettag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cd4c477f-54b1-4ebf-99e5-f75087d7599e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IAtscContentAdvisoryDescriptor interface, GetTag,IAtscContentAdvisoryDescriptor.GetTag, IAtscContentAdvisoryDescriptor, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies], GetTag method, IAtscContentAdvisoryDescriptor::GetTag, IAtscContentAdvisoryDescriptorGetTag, atscpsipparser/IAtscContentAdvisoryDescriptor::GetTag, mstv.iatsccontentadvisorydescriptor_gettag
+ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetTag method, IAtscContentAdvisoryDescriptor.GetTag, IAtscContentAdvisoryDescriptor::GetTag, IAtscContentAdvisoryDescriptorGetTag, atscpsipparser/IAtscContentAdvisoryDescriptor::GetTag, mstv.iatsccontentadvisorydescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAtscContentAdvisoryDescriptor::GetTag method
+# IAtscContentAdvisoryDescriptor::GetTag
 
 
 ## -description

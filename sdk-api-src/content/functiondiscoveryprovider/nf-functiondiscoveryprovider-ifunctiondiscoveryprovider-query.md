@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.Query
-title: IFunctionDiscoveryProvider::Query method
+title: IFunctionDiscoveryProvider::Query
 author: windows-driver-content
 description: Retrieves a collection of function instances that meet the specified constraints.
 old-location: ncd\ifunctiondiscoveryprovider_query_method.htm
@@ -8,7 +8,7 @@ old-project: FunDisc
 ms.assetid: 8c368ea7-c9db-4e80-a080-eef8068f7402
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IFunctionDiscoveryProvider, IFunctionDiscoveryProvider interface, Query method, IFunctionDiscoveryProvider::Query, Query method, Query method, IFunctionDiscoveryProvider interface, Query,IFunctionDiscoveryProvider.Query, functiondiscoveryprovider/IFunctionDiscoveryProvider::Query, ncd.ifunctiondiscoveryprovider_query_method
+ms.keywords: IFunctionDiscoveryProvider interface,Query method, IFunctionDiscoveryProvider.Query, IFunctionDiscoveryProvider::Query, Query, Query method, Query method,IFunctionDiscoveryProvider interface, functiondiscoveryprovider/IFunctionDiscoveryProvider::Query, ncd.ifunctiondiscoveryprovider_query_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFunctionDiscoveryProvider::Query method
+# IFunctionDiscoveryProvider::Query
 
 
 ## -description

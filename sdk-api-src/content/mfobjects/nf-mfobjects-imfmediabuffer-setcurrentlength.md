@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.SetCurrentLength
-title: IMFMediaBuffer::SetCurrentLength method
+title: IMFMediaBuffer::SetCurrentLength
 author: windows-driver-content
 description: Sets the length of the valid data in the buffer.
 old-location: mf\imfmediabuffer_setcurrentlength.htm
 old-project: medfound
 ms.assetid: ce48458f-eb0f-441a-a4bc-9d3fbee0cd74
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaBuffer, IMFMediaBuffer interface [Media Foundation], SetCurrentLength method, IMFMediaBuffer::SetCurrentLength, SetCurrentLength method [Media Foundation], SetCurrentLength method [Media Foundation], IMFMediaBuffer interface, SetCurrentLength,IMFMediaBuffer.SetCurrentLength, ce48458f-eb0f-441a-a4bc-9d3fbee0cd74, mf.imfmediabuffer_setcurrentlength, mfobjects/IMFMediaBuffer::SetCurrentLength
+ms.date: 5/3/2018
+ms.keywords: IMFMediaBuffer interface [Media Foundation],SetCurrentLength method, IMFMediaBuffer.SetCurrentLength, IMFMediaBuffer::SetCurrentLength, SetCurrentLength, SetCurrentLength method [Media Foundation], SetCurrentLength method [Media Foundation],IMFMediaBuffer interface, ce48458f-eb0f-441a-a4bc-9d3fbee0cd74, mf.imfmediabuffer_setcurrentlength, mfobjects/IMFMediaBuffer::SetCurrentLength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaBuffer::SetCurrentLength method
+# IMFMediaBuffer::SetCurrentLength
 
 
 ## -description

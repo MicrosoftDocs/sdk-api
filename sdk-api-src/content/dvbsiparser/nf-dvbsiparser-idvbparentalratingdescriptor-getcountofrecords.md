@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbParentalRatingDescriptor.GetCountOfRecords
-title: IDvbParentalRatingDescriptor::GetCountOfRecords method
+title: IDvbParentalRatingDescriptor::GetCountOfRecords
 author: windows-driver-content
 description: Gets the number of records in a Digital Video Broadcast (DVB) parental rating descriptor.
 old-location: mstv\idvbparentalratingdescriptor_getcountofrecords.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 72dcfb91-4137-4149-b30d-2551cb209688
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies], IDvbParentalRatingDescriptor interface, GetCountOfRecords,IDvbParentalRatingDescriptor.GetCountOfRecords, IDvbParentalRatingDescriptor, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies], GetCountOfRecords method, IDvbParentalRatingDescriptor::GetCountOfRecords, dvbsiparser/IDvbParentalRatingDescriptor::GetCountOfRecords, mstv.idvbparentalratingdescriptor_getcountofrecords
+ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbParentalRatingDescriptor interface, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbParentalRatingDescriptor.GetCountOfRecords, IDvbParentalRatingDescriptor::GetCountOfRecords, dvbsiparser/IDvbParentalRatingDescriptor::GetCountOfRecords, mstv.idvbparentalratingdescriptor_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbParentalRatingDescriptor::GetCountOfRecords method
+# IDvbParentalRatingDescriptor::GetCountOfRecords
 
 
 ## -description

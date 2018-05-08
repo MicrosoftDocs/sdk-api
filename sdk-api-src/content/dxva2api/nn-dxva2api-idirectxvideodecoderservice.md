@@ -7,8 +7,8 @@ old-location: mf\idirectxvideodecoderservice.htm
 old-project: medfound
 ms.assetid: eeb62178-b54d-45d3-a584-75865f0662fa
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IDirectXVideoDecoderService, IDirectXVideoDecoderService interface [Media Foundation], IDirectXVideoDecoderService interface [Media Foundation], described, dxva2api/IDirectXVideoDecoderService, eeb62178-b54d-45d3-a584-75865f0662fa, mf.idirectxvideodecoderservice
+ms.date: 5/3/2018
+ms.keywords: IDirectXVideoDecoderService, IDirectXVideoDecoderService interface [Media Foundation], IDirectXVideoDecoderService interface [Media Foundation],described, dxva2api/IDirectXVideoDecoderService, eeb62178-b54d-45d3-a584-75865f0662fa, mf.idirectxvideodecoderservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: bc4f8920-2881-4393-bb01-ed837c3db6ad
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectoryObject, IDirectoryObject interface [ADSI], IDirectoryObject interface [ADSI], described, _ds_idirectoryobject_ref, adsi.idirectoryobject, adsi.idirectoryobject__ref, iads/IDirectoryObject
+ms.keywords: IDirectoryObject, IDirectoryObject interface [ADSI], IDirectoryObject interface [ADSI],described, _ds_idirectoryobject_ref, adsi.idirectoryobject, adsi.idirectoryobject__ref, iads/IDirectoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

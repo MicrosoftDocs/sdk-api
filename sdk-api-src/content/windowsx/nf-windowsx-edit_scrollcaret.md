@@ -7,7 +7,7 @@ old-location: controls\Edit_ScrollCaret.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_scrollcaretl.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: Edit_ScrollCaret, Edit_ScrollCaret macro [Windows Controls], _win32_Edit_ScrollCaret, _win32_Edit_ScrollCaret_cpp, controls.Edit_ScrollCaret, controls._win32_Edit_ScrollCaret, windowsx/Edit_ScrollCaret
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSample.IsDiscontinuity
-title: IMediaSample::IsDiscontinuity method
+title: IMediaSample::IsDiscontinuity
 author: windows-driver-content
 description: The IsDiscontinuity method determines if this sample represents a break in the data stream.
 old-location: dshow\imediasample_isdiscontinuity.htm
 old-project: DirectShow
 ms.assetid: 0bab511e-a744-4b6e-afe3-0ceb473dfcae
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaSample, IMediaSample interface [DirectShow], IsDiscontinuity method, IMediaSample::IsDiscontinuity, IMediaSampleIsDiscontinuity, IsDiscontinuity method [DirectShow], IsDiscontinuity method [DirectShow], IMediaSample interface, IsDiscontinuity,IMediaSample.IsDiscontinuity, dshow.imediasample_isdiscontinuity, strmif/IMediaSample::IsDiscontinuity
+ms.date: 4/30/2018
+ms.keywords: IMediaSample interface [DirectShow],IsDiscontinuity method, IMediaSample.IsDiscontinuity, IMediaSample::IsDiscontinuity, IMediaSampleIsDiscontinuity, IsDiscontinuity, IsDiscontinuity method [DirectShow], IsDiscontinuity method [DirectShow],IMediaSample interface, dshow.imediasample_isdiscontinuity, strmif/IMediaSample::IsDiscontinuity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSample::IsDiscontinuity method
+# IMediaSample::IsDiscontinuity
 
 
 ## -description

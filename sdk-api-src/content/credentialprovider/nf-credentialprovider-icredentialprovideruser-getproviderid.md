@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetProviderID
-title: ICredentialProviderUser::GetProviderID method
+title: ICredentialProviderUser::GetProviderID
 author: windows-driver-content
 description: Retrieves the ID of the account provider for this user.
 old-location: shell\ICredentialProviderUser_GetProviderID.htm
 old-project: shell
 ms.assetid: 7BD6C532-0266-4579-96FA-91D0AF7E6C4C
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetProviderID method [Windows Shell], GetProviderID method [Windows Shell], ICredentialProviderUser interface, GetProviderID,ICredentialProviderUser.GetProviderID, ICredentialProviderUser, ICredentialProviderUser interface [Windows Shell], GetProviderID method, ICredentialProviderUser::GetProviderID, credentialprovider/ICredentialProviderUser::GetProviderID, shell.ICredentialProviderUser_GetProviderID
+ms.date: 5/3/2018
+ms.keywords: GetProviderID, GetProviderID method [Windows Shell], GetProviderID method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetProviderID method, ICredentialProviderUser.GetProviderID, ICredentialProviderUser::GetProviderID, credentialprovider/ICredentialProviderUser::GetProviderID, shell.ICredentialProviderUser_GetProviderID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Authui.dll
 req.irql: 
 ---
 
-# ICredentialProviderUser::GetProviderID method
+# ICredentialProviderUser::GetProviderID
 
 
 ## -description

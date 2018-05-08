@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer._TuningSpacesForCLSID
-title: ITuningSpaceContainer::_TuningSpacesForCLSID method
+title: ITuningSpaceContainer::_TuningSpacesForCLSID
 author: windows-driver-content
 description: The TuningSpacesForCLSID method retrieves a collection of tuning spaces that match the specified CLSID.This method is intended for Automation clients, because it returns the CLSID as a BSTR.
 old-location: mstv\ituningspacecontainer_tuningspacesforclsid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 8e2d6103-baed-40ee-9a94-9434cf8e3474
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft TV Technologies], _TuningSpacesForCLSID method, ITuningSpaceContainer::_TuningSpacesForCLSID, _TuningSpacesForCLSID method [Microsoft TV Technologies], _TuningSpacesForCLSID method [Microsoft TV Technologies], ITuningSpaceContainer interface, _TuningSpacesForCLSID,ITuningSpaceContainer._TuningSpacesForCLSID, mstv.ituningspacecontainer_tuningspacesforclsid, tuner/ITuningSpaceContainer::_TuningSpacesForCLSID
+ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],_TuningSpacesForCLSID method, ITuningSpaceContainer._TuningSpacesForCLSID, ITuningSpaceContainer::_TuningSpacesForCLSID, _TuningSpacesForCLSID, _TuningSpacesForCLSID method [Microsoft TV Technologies], _TuningSpacesForCLSID method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_tuningspacesforclsid, tuner/ITuningSpaceContainer::_TuningSpacesForCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpaceContainer::_TuningSpacesForCLSID method
+# ITuningSpaceContainer::_TuningSpacesForCLSID
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IDynamicHWHandler.GetDynamicInfo
-title: IDynamicHWHandler::GetDynamicInfo method
+title: IDynamicHWHandler::GetDynamicInfo
 author: windows-driver-content
 description: Called by the system to determine whether a particular handler will be shown before the AutoPlay dialog is displayed.
 old-location: shell\IDynamicHWHandler_GetDynamicInfo.htm
 old-project: shell
 ms.assetid: 4477600b-311e-4425-b1de-9ed9c396fbdb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetDynamicInfo method [Windows Shell], GetDynamicInfo method [Windows Shell], IDynamicHWHandler interface, GetDynamicInfo,IDynamicHWHandler.GetDynamicInfo, IDynamicHWHandler, IDynamicHWHandler interface [Windows Shell], GetDynamicInfo method, IDynamicHWHandler::GetDynamicInfo, _shell_IDynamicHWHandler_GetDynamicInfo, shell.IDynamicHWHandler_GetDynamicInfo, shobjidl/IDynamicHWHandler::GetDynamicInfo
+ms.date: 5/3/2018
+ms.keywords: GetDynamicInfo, GetDynamicInfo method [Windows Shell], GetDynamicInfo method [Windows Shell],IDynamicHWHandler interface, IDynamicHWHandler interface [Windows Shell],GetDynamicInfo method, IDynamicHWHandler.GetDynamicInfo, IDynamicHWHandler::GetDynamicInfo, _shell_IDynamicHWHandler_GetDynamicInfo, shell.IDynamicHWHandler_GetDynamicInfo, shobjidl/IDynamicHWHandler::GetDynamicInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IDynamicHWHandler::GetDynamicInfo method
+# IDynamicHWHandler::GetDynamicInfo
 
 
 ## -description

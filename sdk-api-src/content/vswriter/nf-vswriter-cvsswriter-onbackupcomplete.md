@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnBackupComplete
-title: CVssWriter::OnBackupComplete method
+title: CVssWriter::OnBackupComplete
 author: windows-driver-content
 description: The OnBackupComplete method is called by a writer following a BackupComplete event. It is used to perform operations considered necessary following a backup. These operations cannot, however, modify the Backup Components Document.
 old-location: base\cvsswriter_onbackupcomplete.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 77d0621d-81bd-4d53-8e5d-f5d3bfd86013
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriter, CVssWriter interface [VSS], OnBackupComplete method, CVssWriter::OnBackupComplete, OnBackupComplete method [VSS], OnBackupComplete method [VSS], CVssWriter interface, OnBackupComplete,CVssWriter.OnBackupComplete, _win32_cvsswriter_onbackupcomplete, base.cvsswriter_onbackupcomplete, vswriter/CVssWriter::OnBackupComplete
+ms.keywords: CVssWriter interface [VSS],OnBackupComplete method, CVssWriter.OnBackupComplete, CVssWriter::OnBackupComplete, OnBackupComplete, OnBackupComplete method [VSS], OnBackupComplete method [VSS],CVssWriter interface, _win32_cvsswriter_onbackupcomplete, base.cvsswriter_onbackupcomplete, vswriter/CVssWriter::OnBackupComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriter::OnBackupComplete method
+# CVssWriter::OnBackupComplete
 
 
 ## -description

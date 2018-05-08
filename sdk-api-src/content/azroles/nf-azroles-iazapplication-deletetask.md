@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.DeleteTask
-title: IAzApplication::DeleteTask method
+title: IAzApplication::DeleteTask
 author: windows-driver-content
 description: Removes the IAzTask object with the specified name from the IAzApplication object.
 old-location: security\iazapplication_deletetask.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: b97015d7-00c3-445c-a445-07c52ef6ff29
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AzApplication object [Security], DeleteTask method, DeleteTask method [Security], DeleteTask method [Security], AzApplication object, DeleteTask method [Security], IAzApplication interface, DeleteTask,IAzApplication.DeleteTask, IAzApplication, IAzApplication interface [Security], DeleteTask method, IAzApplication::DeleteTask, azroles/IAzApplication::DeleteTask, security.iazapplication_deletetask
+ms.keywords: AzApplication object [Security],DeleteTask method, DeleteTask, DeleteTask method [Security], DeleteTask method [Security],AzApplication object, DeleteTask method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteTask method, IAzApplication.DeleteTask, IAzApplication::DeleteTask, azroles/IAzApplication::DeleteTask, security.iazapplication_deletetask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication::DeleteTask method
+# IAzApplication::DeleteTask
 
 
 ## -description

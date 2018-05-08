@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Enable
-title: IAMAudioInputMixer::put_Enable method
+title: IAMAudioInputMixer::put_Enable
 author: windows-driver-content
 description: The put_Enable method enables or disables an input.
 old-location: dshow\iamaudioinputmixer_put_enable.htm
 old-project: DirectShow
 ms.assetid: 84f179bf-2e2f-4ba0-81b7-c20acd09ccea
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], put_Enable method, IAMAudioInputMixer::put_Enable, IAMAudioInputMixerput_Enable, dshow.iamaudioinputmixer_put_enable, put_Enable method [DirectShow], put_Enable method [DirectShow], IAMAudioInputMixer interface, put_Enable,IAMAudioInputMixer.put_Enable, strmif/IAMAudioInputMixer::put_Enable
+ms.date: 4/30/2018
+ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Enable method, IAMAudioInputMixer.put_Enable, IAMAudioInputMixer::put_Enable, IAMAudioInputMixerput_Enable, dshow.iamaudioinputmixer_put_enable, put_Enable, put_Enable method [DirectShow], put_Enable method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAudioInputMixer::put_Enable method
+# IAMAudioInputMixer::put_Enable
 
 
 ## -description

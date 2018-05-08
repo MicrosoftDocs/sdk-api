@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.ICDBurn.HasRecordableDrive
-title: ICDBurn::HasRecordableDrive method
+title: ICDBurn::HasRecordableDrive
 author: windows-driver-content
 description: Scans the system for a CD drive with write-capability, returning TRUE if one is found.
 old-location: shell\ICDBurn_HasRecordableDrive.htm
 old-project: shell
 ms.assetid: b20b5242-2d38-4f86-9267-a2211ef07a00
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: HasRecordableDrive method [Windows Shell], HasRecordableDrive method [Windows Shell], ICDBurn interface, HasRecordableDrive,ICDBurn.HasRecordableDrive, ICDBurn, ICDBurn interface [Windows Shell], HasRecordableDrive method, ICDBurn::HasRecordableDrive, _shell_ICDBurn_HasRecordableDrive, shell.ICDBurn_HasRecordableDrive, shobjidl/ICDBurn::HasRecordableDrive
+ms.date: 5/3/2018
+ms.keywords: HasRecordableDrive, HasRecordableDrive method [Windows Shell], HasRecordableDrive method [Windows Shell],ICDBurn interface, ICDBurn interface [Windows Shell],HasRecordableDrive method, ICDBurn.HasRecordableDrive, ICDBurn::HasRecordableDrive, _shell_ICDBurn_HasRecordableDrive, shell.ICDBurn_HasRecordableDrive, shobjidl/ICDBurn::HasRecordableDrive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ICDBurn::HasRecordableDrive method
+# ICDBurn::HasRecordableDrive
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager2.PrioritizeMatchingURLs
-title: ISearchCatalogManager2::PrioritizeMatchingURLs method
+title: ISearchCatalogManager2::PrioritizeMatchingURLs
 author: windows-driver-content
 description: Instructs the indexer to give a higher priority to indexing items that have URLs that match a specified pattern. These items will then have a higher priority than other indexing tasks.
 old-location: search\_search_ISearchCatalogManager2_PrioritizeMatchingURLs.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager2\prioritizematchingurls.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCatalogManager2, ISearchCatalogManager2 interface [search], PrioritizeMatchingURLs method, ISearchCatalogManager2::PrioritizeMatchingURLs, PrioritizeMatchingURLs method [search], PrioritizeMatchingURLs method [search], ISearchCatalogManager2 interface, PrioritizeMatchingURLs,ISearchCatalogManager2.PrioritizeMatchingURLs, _search_ISearchCatalogManager2_PrioritizeMatchingURLs, search._search_ISearchCatalogManager2_PrioritizeMatchingURLs, searchapi/ISearchCatalogManager2::PrioritizeMatchingURLs
+ms.date: 5/4/2018
+ms.keywords: ISearchCatalogManager2 interface [search],PrioritizeMatchingURLs method, ISearchCatalogManager2.PrioritizeMatchingURLs, ISearchCatalogManager2::PrioritizeMatchingURLs, PrioritizeMatchingURLs, PrioritizeMatchingURLs method [search], PrioritizeMatchingURLs method [search],ISearchCatalogManager2 interface, _search_ISearchCatalogManager2_PrioritizeMatchingURLs, search._search_ISearchCatalogManager2_PrioritizeMatchingURLs, searchapi/ISearchCatalogManager2::PrioritizeMatchingURLs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCatalogManager2::PrioritizeMatchingURLs method
+# ISearchCatalogManager2::PrioritizeMatchingURLs
 
 
 ## -description

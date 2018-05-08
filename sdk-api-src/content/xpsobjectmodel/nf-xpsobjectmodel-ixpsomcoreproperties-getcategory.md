@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetCategory
-title: IXpsOMCoreProperties::GetCategory method
+title: IXpsOMCoreProperties::GetCategory
 author: windows-driver-content
 description: Gets the category property.
 old-location: xps\ixpsomcoreproperties_getcategory.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 97b1b0ca-a2e7-4835-aece-c2cc23481530
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCategory method [XPS Documents and Packaging], GetCategory method [XPS Documents and Packaging], IXpsOMCoreProperties interface, GetCategory,IXpsOMCoreProperties.GetCategory, IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], GetCategory method, IXpsOMCoreProperties::GetCategory, xps.ixpsomcoreproperties_getcategory, xpsobjectmodel/IXpsOMCoreProperties::GetCategory
+ms.keywords: GetCategory, GetCategory method [XPS Documents and Packaging], GetCategory method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCategory method, IXpsOMCoreProperties.GetCategory, IXpsOMCoreProperties::GetCategory, xps.ixpsomcoreproperties_getcategory, xpsobjectmodel/IXpsOMCoreProperties::GetCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::GetCategory method
+# IXpsOMCoreProperties::GetCategory
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagNonXmlText
-title: IWSManEx::EnumerationFlagNonXmlText method
+title: IWSManEx::EnumerationFlagNonXmlText
 author: windows-driver-content
 description: Returns the value of the enumeration constant WSManFlagNonXmlText for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflagnonxmltext.htm
@@ -8,7 +8,7 @@ old-project: WinRM
 ms.assetid: f94dc9cc-a4c5-44b8-9ace-63b80b1087d2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EnumerationFlagNonXmlText method [Windows Remote Management], EnumerationFlagNonXmlText method [Windows Remote Management], IWSManEx interface, EnumerationFlagNonXmlText,IWSManEx.EnumerationFlagNonXmlText, IWSManEx, IWSManEx interface [Windows Remote Management], EnumerationFlagNonXmlText method, IWSManEx::EnumerationFlagNonXmlText, winrm.iwsmanex_enumerationflagnonxmltext, wsmandisp/IWSManEx::EnumerationFlagNonXmlText
+ms.keywords: EnumerationFlagNonXmlText, EnumerationFlagNonXmlText method [Windows Remote Management], EnumerationFlagNonXmlText method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagNonXmlText method, IWSManEx.EnumerationFlagNonXmlText, IWSManEx::EnumerationFlagNonXmlText, winrm.iwsmanex_enumerationflagnonxmltext, wsmandisp/IWSManEx::EnumerationFlagNonXmlText
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSManEx::EnumerationFlagNonXmlText method
+# IWSManEx::EnumerationFlagNonXmlText
 
 
 ## -description

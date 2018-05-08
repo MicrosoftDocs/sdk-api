@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IEnumReadyCallback.EnumReady
-title: IEnumReadyCallback::EnumReady method
+title: IEnumReadyCallback::EnumReady
 author: windows-driver-content
 description: Notifies the implementer that the view's item enumeration has completed.
 old-location: shell\IEnumReadyCallback_EnumReady.htm
 old-project: shell
 ms.assetid: 4bb0772a-a863-49eb-a262-755d0ea3ea86
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: EnumReady method [Windows Shell], EnumReady method [Windows Shell], IEnumReadyCallback interface, EnumReady,IEnumReadyCallback.EnumReady, IEnumReadyCallback, IEnumReadyCallback interface [Windows Shell], EnumReady method, IEnumReadyCallback::EnumReady, _shell_IEnumReadyCallback_EnumReady, shell.IEnumReadyCallback_EnumReady, shobjidl/IEnumReadyCallback::EnumReady
+ms.date: 5/3/2018
+ms.keywords: EnumReady, EnumReady method [Windows Shell], EnumReady method [Windows Shell],IEnumReadyCallback interface, IEnumReadyCallback interface [Windows Shell],EnumReady method, IEnumReadyCallback.EnumReady, IEnumReadyCallback::EnumReady, _shell_IEnumReadyCallback_EnumReady, shell.IEnumReadyCallback_EnumReady, shobjidl/IEnumReadyCallback::EnumReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IEnumReadyCallback::EnumReady method
+# IEnumReadyCallback::EnumReady
 
 
 ## -description

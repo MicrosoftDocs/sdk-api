@@ -1,6 +1,6 @@
 ---
 UID: NF:mspstrm.CMSPStream.FinalRelease
-title: CMSPStream::FinalRelease method
+title: CMSPStream::FinalRelease
 author: windows-driver-content
 description: The FinalRelease method releases the filter graph pointers.
 old-location: tapi3\cmspstream_finalrelease.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 5609cf47-ad80-438f-9527-ac3093eaef45
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPStream, CMSPStream interface [TAPI 2.2], FinalRelease method, CMSPStream::FinalRelease, FinalRelease method [TAPI 2.2], FinalRelease method [TAPI 2.2], CMSPStream interface, FinalRelease,CMSPStream.FinalRelease, _tapi3_cmspstream_finalrelease, mspstrm/CMSPStream::FinalRelease, tapi3.cmspstream_finalrelease
+ms.keywords: CMSPStream interface [TAPI 2.2],FinalRelease method, CMSPStream.FinalRelease, CMSPStream::FinalRelease, FinalRelease, FinalRelease method [TAPI 2.2], FinalRelease method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_finalrelease, mspstrm/CMSPStream::FinalRelease, tapi3.cmspstream_finalrelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPStream::FinalRelease method
+# CMSPStream::FinalRelease
 
 
 ## -description

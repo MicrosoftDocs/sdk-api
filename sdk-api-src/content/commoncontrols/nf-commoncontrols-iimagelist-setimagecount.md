@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList.SetImageCount
-title: IImageList::SetImageCount method
+title: IImageList::SetImageCount
 author: windows-driver-content
 description: Resizes an existing image list.
 old-location: controls\IImageList_SetImageCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setimagecount.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IImageList, IImageList interface [Windows Controls], SetImageCount method, IImageList::SetImageCount, SetImageCount method [Windows Controls], SetImageCount method [Windows Controls], IImageList interface, SetImageCount,IImageList.SetImageCount, comctl_IImageList_SetImageCount, comctl_IImageList_SetImageCount_cpp, commoncontrols/IImageList::SetImageCount, controls.IImageList_SetImageCount, controls.comctl_IImageList_SetImageCount
+ms.date: 4/27/2018
+ms.keywords: IImageList interface [Windows Controls],SetImageCount method, IImageList.SetImageCount, IImageList::SetImageCount, SetImageCount, SetImageCount method [Windows Controls], SetImageCount method [Windows Controls],IImageList interface, comctl_IImageList_SetImageCount, comctl_IImageList_SetImageCount_cpp, commoncontrols/IImageList::SetImageCount, controls.IImageList_SetImageCount, controls.comctl_IImageList_SetImageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList::SetImageCount method
+# IImageList::SetImageCount
 
 
 ## -description

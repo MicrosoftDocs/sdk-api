@@ -7,7 +7,7 @@ old-location: security\crypt_xml_reference.htm
 old-project: SecCrypto
 ms.assetid: af16af5a-b1e5-4250-bdb1-f3fceb1830b9
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCRYPT_XML_REFERENCE, CRYPT_XML_REFERENCE, CRYPT_XML_REFERENCE structure [Security], PCRYPT_XML_REFERENCE, PCRYPT_XML_REFERENCE structure pointer [Security], _CRYPT_XML_REFERENCE, cryptxml/CRYPT_XML_REFERENCE, cryptxml/PCRYPT_XML_REFERENCE, security.crypt_xml_reference"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CRYPT_XML_REFERENCE, *PCRYPT_XML_REFERENCE, CRYPT_XML_REFERENCE, *PCRYPT_XML_REFERENCE
+req.typenames: CRYPT_XML_REFERENCE, *PCRYPT_XML_REFERENCE
 topic_type:
 -	APIRef
 -	kbSyntax

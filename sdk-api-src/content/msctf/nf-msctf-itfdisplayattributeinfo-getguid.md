@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeInfo.GetGUID
-title: ITfDisplayAttributeInfo::GetGUID method
+title: ITfDisplayAttributeInfo::GetGUID
 author: windows-driver-content
 description: ITfDisplayAttributeInfo::GetGUID method
 old-location: tsf\itfdisplayattributeinfo_getguid.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 5202bf19-ae24-44f4-98f0-1f9d64d383a6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetGUID method [Text Services Framework], GetGUID method [Text Services Framework], ITfDisplayAttributeInfo interface, GetGUID,ITfDisplayAttributeInfo.GetGUID, ITfDisplayAttributeInfo, ITfDisplayAttributeInfo interface [Text Services Framework], GetGUID method, ITfDisplayAttributeInfo::GetGUID, _tsf_itfdisplayattributeinfo_getguid_ref, msctf/ITfDisplayAttributeInfo::GetGUID, tsf.itfdisplayattributeinfo_getguid
+ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [Text Services Framework],ITfDisplayAttributeInfo interface, ITfDisplayAttributeInfo interface [Text Services Framework],GetGUID method, ITfDisplayAttributeInfo.GetGUID, ITfDisplayAttributeInfo::GetGUID, _tsf_itfdisplayattributeinfo_getguid_ref, msctf/ITfDisplayAttributeInfo::GetGUID, tsf.itfdisplayattributeinfo_getguid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfDisplayAttributeInfo::GetGUID method
+# ITfDisplayAttributeInfo::GetGUID
 
 
 ## -description

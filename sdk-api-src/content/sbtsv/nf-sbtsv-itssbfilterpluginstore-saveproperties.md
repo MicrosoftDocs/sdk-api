@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbFilterPluginStore.SaveProperties
-title: ITsSbFilterPluginStore::SaveProperties method
+title: ITsSbFilterPluginStore::SaveProperties
 author: windows-driver-content
 description: Saves a property set.
 old-location: termserv\itssbfilterpluginstore_saveproperties.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 79e5e519-e004-49c8-9d1b-705704446628
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ITsSbFilterPluginStore, ITsSbFilterPluginStore interface [Remote Desktop Services], SaveProperties method, ITsSbFilterPluginStore::SaveProperties, SaveProperties method [Remote Desktop Services], SaveProperties method [Remote Desktop Services], ITsSbFilterPluginStore interface, SaveProperties,ITsSbFilterPluginStore.SaveProperties, sbtsv/ITsSbFilterPluginStore::SaveProperties, termserv.itssbfilterpluginstore_saveproperties
+ms.keywords: ITsSbFilterPluginStore interface [Remote Desktop Services],SaveProperties method, ITsSbFilterPluginStore.SaveProperties, ITsSbFilterPluginStore::SaveProperties, SaveProperties, SaveProperties method [Remote Desktop Services], SaveProperties method [Remote Desktop Services],ITsSbFilterPluginStore interface, sbtsv/ITsSbFilterPluginStore::SaveProperties, termserv.itssbfilterpluginstore_saveproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITsSbFilterPluginStore::SaveProperties method
+# ITsSbFilterPluginStore::SaveProperties
 
 
 ## -description

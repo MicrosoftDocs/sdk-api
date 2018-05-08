@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchManager.get_ProxyName
-title: ISearchManager::get_ProxyName method
+title: ISearchManager::get_ProxyName
 author: windows-driver-content
 description: Retrieves the proxy name to be used by the protocol handler.
 old-location: search\_search_ISearchManager_get_ProxyName.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_proxyname.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchManager, ISearchManager interface [search], get_ProxyName method, ISearchManager::get_ProxyName, _search_ISearchManager_get_ProxyName, get_ProxyName method [search], get_ProxyName method [search], ISearchManager interface, get_ProxyName,ISearchManager.get_ProxyName, search._search_ISearchManager_get_ProxyName, searchapi/ISearchManager::get_ProxyName
+ms.date: 5/4/2018
+ms.keywords: ISearchManager interface [search],get_ProxyName method, ISearchManager.get_ProxyName, ISearchManager::get_ProxyName, _search_ISearchManager_get_ProxyName, get_ProxyName, get_ProxyName method [search], get_ProxyName method [search],ISearchManager interface, search._search_ISearchManager_get_ProxyName, searchapi/ISearchManager::get_ProxyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchManager::get_ProxyName method
+# ISearchManager::get_ProxyName
 
 
 ## -description

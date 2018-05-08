@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.Reindex
-title: ISearchCatalogManager::Reindex method
+title: ISearchCatalogManager::Reindex
 author: windows-driver-content
 description: Re-indexes all URLs in the catalog.
 old-location: search\_search_ISearchCatalogManager_Reindex.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reindex.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], Reindex method, ISearchCatalogManager::Reindex, Reindex method [search], Reindex method [search], ISearchCatalogManager interface, Reindex,ISearchCatalogManager.Reindex, _search_ISearchCatalogManager_Reindex, search._search_ISearchCatalogManager_Reindex, searchapi/ISearchCatalogManager::Reindex
+ms.date: 5/4/2018
+ms.keywords: ISearchCatalogManager interface [search],Reindex method, ISearchCatalogManager.Reindex, ISearchCatalogManager::Reindex, Reindex, Reindex method [search], Reindex method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_Reindex, search._search_ISearchCatalogManager_Reindex, searchapi/ISearchCatalogManager::Reindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchCatalogManager::Reindex method
+# ISearchCatalogManager::Reindex
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.SetResolution
-title: IWICBitmapFrameEncode::SetResolution method
+title: IWICBitmapFrameEncode::SetResolution
 author: windows-driver-content
 description: Sets the physical resolution of the output image.
 old-location: wic\_wic_codec_iwicbitmapframeencode_setresolution.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 0b9e564a-5278-41d7-84ab-8b7594e776c7
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICBitmapFrameEncode, IWICBitmapFrameEncode interface [Windows Imaging Component], SetResolution method, IWICBitmapFrameEncode::SetResolution, SetResolution method [Windows Imaging Component], SetResolution method [Windows Imaging Component], IWICBitmapFrameEncode interface, SetResolution,IWICBitmapFrameEncode.SetResolution, _wic_codec_iwicbitmapframeencode_setresolution, wic._wic_codec_iwicbitmapframeencode_setresolution, wincodec/IWICBitmapFrameEncode::SetResolution
+ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetResolution method, IWICBitmapFrameEncode.SetResolution, IWICBitmapFrameEncode::SetResolution, SetResolution, SetResolution method [Windows Imaging Component], SetResolution method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setresolution, wic._wic_codec_iwicbitmapframeencode_setresolution, wincodec/IWICBitmapFrameEncode::SetResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapFrameEncode::SetResolution method
+# IWICBitmapFrameEncode::SetResolution
 
 
 ## -description

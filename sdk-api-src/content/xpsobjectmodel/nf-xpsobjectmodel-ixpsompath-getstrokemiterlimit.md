@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeMiterLimit
-title: IXpsOMPath::GetStrokeMiterLimit method
+title: IXpsOMPath::GetStrokeMiterLimit
 author: windows-driver-content
 description: Gets the miter limit value that is set for the stroke.
 old-location: xps\ixpsompath_getstrokemiterlimit.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 4271c7ff-636c-4ab0-b83f-90c769baf74c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetStrokeMiterLimit method [XPS Documents and Packaging], GetStrokeMiterLimit method [XPS Documents and Packaging], IXpsOMPath interface, GetStrokeMiterLimit,IXpsOMPath.GetStrokeMiterLimit, IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], GetStrokeMiterLimit method, IXpsOMPath::GetStrokeMiterLimit, xps.ixpsompath_getstrokemiterlimit, xpsobjectmodel/IXpsOMPath::GetStrokeMiterLimit
+ms.keywords: GetStrokeMiterLimit, GetStrokeMiterLimit method [XPS Documents and Packaging], GetStrokeMiterLimit method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeMiterLimit method, IXpsOMPath.GetStrokeMiterLimit, IXpsOMPath::GetStrokeMiterLimit, xps.ixpsompath_getstrokemiterlimit, xpsobjectmodel/IXpsOMPath::GetStrokeMiterLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPath::GetStrokeMiterLimit method
+# IXpsOMPath::GetStrokeMiterLimit
 
 
 ## -description

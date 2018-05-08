@@ -1,14 +1,14 @@
 ---
 UID: NF:shappmgr.IShellApp.IsInstalled
-title: IShellApp::IsInstalled method
+title: IShellApp::IsInstalled
 author: windows-driver-content
 description: Gets a value indicating whether a specified application is currently installed.
 old-location: shell\IShellApp_IsInstalled.htm
 old-project: shell
 ms.assetid: 338ba632-5749-4850-b982-2247f0d0dcc5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IShellApp, IShellApp interface [Windows Shell], IsInstalled method, IShellApp::IsInstalled, IsInstalled method [Windows Shell], IsInstalled method [Windows Shell], IShellApp interface, IsInstalled,IShellApp.IsInstalled, inet_IShellApp_IsInstalled, shappmgr/IShellApp::IsInstalled, shell.IShellApp_IsInstalled
+ms.date: 5/3/2018
+ms.keywords: IShellApp interface [Windows Shell],IsInstalled method, IShellApp.IsInstalled, IShellApp::IsInstalled, IsInstalled, IsInstalled method [Windows Shell], IsInstalled method [Windows Shell],IShellApp interface, inet_IShellApp_IsInstalled, shappmgr/IShellApp::IsInstalled, shell.IShellApp_IsInstalled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IShellApp::IsInstalled method
+# IShellApp::IsInstalled
 
 
 ## -description

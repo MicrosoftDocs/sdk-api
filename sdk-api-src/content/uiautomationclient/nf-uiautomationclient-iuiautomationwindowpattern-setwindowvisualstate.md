@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.SetWindowVisualState
-title: IUIAutomationWindowPattern::SetWindowVisualState method
+title: IUIAutomationWindowPattern::SetWindowVisualState
 author: windows-driver-content
 description: Minimizes, maximizes, or restores the window.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_SetWindowVisualState.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 106322f8-cf43-48ca-8bc4-f51a75731127
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], SetWindowVisualState method, IUIAutomationWindowPattern::SetWindowVisualState, SetWindowVisualState method [Windows Accessibility], SetWindowVisualState method [Windows Accessibility], IUIAutomationWindowPattern interface, SetWindowVisualState,IUIAutomationWindowPattern.SetWindowVisualState, uiauto.uiauto_IUIAutomationWindowPattern_SetWindowVisualState, uiauto_IUIAutomationWindowPattern_SetWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::SetWindowVisualState, winauto.uiauto_IUIAutomationWindowPattern_SetWindowVisualState
+ms.keywords: IUIAutomationWindowPattern interface [Windows Accessibility],SetWindowVisualState method, IUIAutomationWindowPattern.SetWindowVisualState, IUIAutomationWindowPattern::SetWindowVisualState, SetWindowVisualState, SetWindowVisualState method [Windows Accessibility], SetWindowVisualState method [Windows Accessibility],IUIAutomationWindowPattern interface, uiauto.uiauto_IUIAutomationWindowPattern_SetWindowVisualState, uiauto_IUIAutomationWindowPattern_SetWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::SetWindowVisualState, winauto.uiauto_IUIAutomationWindowPattern_SetWindowVisualState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationWindowPattern::SetWindowVisualState method
+# IUIAutomationWindowPattern::SetWindowVisualState
 
 
 ## -description

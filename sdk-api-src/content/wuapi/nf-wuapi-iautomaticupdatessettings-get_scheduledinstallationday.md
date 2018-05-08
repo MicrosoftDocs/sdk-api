@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.get_ScheduledInstallationDay
-title: IAutomaticUpdatesSettings::get_ScheduledInstallationDay method
+title: IAutomaticUpdatesSettings::get_ScheduledInstallationDay
 author: windows-driver-content
 description: Gets and sets the days of the week on which Automatic Updates installs or uninstalls updates.
 old-location: wua\iautomaticupdatessettings_scheduledinstallationday.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 057498ad-d329-4fda-b3fe-95bdc27d62a4
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IAutomaticUpdatesSettings, IAutomaticUpdatesSettings interface [Windows Update Agent], ScheduledInstallationDay property, IAutomaticUpdatesSettings.ScheduledInstallationDay, IAutomaticUpdatesSettings::get_ScheduledInstallationDay, IAutomaticUpdatesSettings::put_ScheduledInstallationDay, ScheduledInstallationDay property [Windows Update Agent], ScheduledInstallationDay property [Windows Update Agent], IAutomaticUpdatesSettings interface, get_ScheduledInstallationDay,IAutomaticUpdatesSettings.get_ScheduledInstallationDay, wua.iautomaticupdatessettings_scheduledinstallationday, wuapi/IAutomaticUpdatesSettings::ScheduledInstallationDay, wuapi/IAutomaticUpdatesSettings::get_ScheduledInstallationDay, wuapi/IAutomaticUpdatesSettings::put_ScheduledInstallationDay
+ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],ScheduledInstallationDay property, IAutomaticUpdatesSettings.ScheduledInstallationDay, IAutomaticUpdatesSettings.get_ScheduledInstallationDay, IAutomaticUpdatesSettings::ScheduledInstallationDay, IAutomaticUpdatesSettings::get_ScheduledInstallationDay, IAutomaticUpdatesSettings::put_ScheduledInstallationDay, ScheduledInstallationDay property [Windows Update Agent], ScheduledInstallationDay property [Windows Update Agent],IAutomaticUpdatesSettings interface, get_ScheduledInstallationDay, wua.iautomaticupdatessettings_scheduledinstallationday, wuapi/IAutomaticUpdatesSettings::ScheduledInstallationDay, wuapi/IAutomaticUpdatesSettings::get_ScheduledInstallationDay, wuapi/IAutomaticUpdatesSettings::put_ScheduledInstallationDay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAutomaticUpdatesSettings::get_ScheduledInstallationDay method
+# IAutomaticUpdatesSettings::get_ScheduledInstallationDay
 
 
 ## -description

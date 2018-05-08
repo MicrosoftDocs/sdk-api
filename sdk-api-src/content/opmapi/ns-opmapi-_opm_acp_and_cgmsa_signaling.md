@@ -7,7 +7,7 @@ old-location: mf\opm_acp_and_cgmsa_signaling.htm
 old-project: medfound
 ms.assetid: 7388bdd9-a8bc-45f4-8539-a175190fb3c3
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: OPM_ACP_AND_CGMSA_SIGNALING, OPM_ACP_AND_CGMSA_SIGNALING structure [Media Foundation], _OPM_ACP_AND_CGMSA_SIGNALING, mf.opm_acp_and_cgmsa_signaling, opmapi/OPM_ACP_AND_CGMSA_SIGNALING
 ms.prod: windows-hardware
 ms.technology: windows-devices

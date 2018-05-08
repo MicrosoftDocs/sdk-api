@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoEvents.OnNewTrackingInfo
-title: IComTrackingInfoEvents::OnNewTrackingInfo method
+title: IComTrackingInfoEvents::OnNewTrackingInfo
 author: windows-driver-content
 description: Generated when the tracking information for a collection changes.
 old-location: cos\icomtrackinginfoevents_onnewtrackinginfo.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: a63f6782-b50a-4457-bd51-4eba8c413a47
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComTrackingInfoEvents, IComTrackingInfoEvents interface [COM+], OnNewTrackingInfo method, IComTrackingInfoEvents::OnNewTrackingInfo, OnNewTrackingInfo method [COM+], OnNewTrackingInfo method [COM+], IComTrackingInfoEvents interface, OnNewTrackingInfo,IComTrackingInfoEvents.OnNewTrackingInfo, _dtc_IComTrackingInfoEvents_OnNewTrackingInfo, comsvcs/IComTrackingInfoEvents::OnNewTrackingInfo, cos.icomtrackinginfoevents_onnewtrackinginfo
+ms.keywords: IComTrackingInfoEvents interface [COM+],OnNewTrackingInfo method, IComTrackingInfoEvents.OnNewTrackingInfo, IComTrackingInfoEvents::OnNewTrackingInfo, OnNewTrackingInfo, OnNewTrackingInfo method [COM+], OnNewTrackingInfo method [COM+],IComTrackingInfoEvents interface, _dtc_IComTrackingInfoEvents_OnNewTrackingInfo, comsvcs/IComTrackingInfoEvents::OnNewTrackingInfo, cos.icomtrackinginfoevents_onnewtrackinginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComTrackingInfoEvents::OnNewTrackingInfo method
+# IComTrackingInfoEvents::OnNewTrackingInfo
 
 
 ## -description

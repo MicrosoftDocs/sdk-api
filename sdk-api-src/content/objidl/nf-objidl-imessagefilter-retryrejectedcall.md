@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMessageFilter.RetryRejectedCall
-title: IMessageFilter::RetryRejectedCall method
+title: IMessageFilter::RetryRejectedCall
 author: windows-driver-content
 description: Provides applications with an opportunity to display a dialog box offering retry, cancel, or task-switching options.
 old-location: com\imessagefilter_retryrejectedcall.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 3f800819-2a21-4e46-ad15-f9594fac1a3d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IMessageFilter, IMessageFilter interface [COM], RetryRejectedCall method, IMessageFilter::RetryRejectedCall, RetryRejectedCall method [COM], RetryRejectedCall method [COM], IMessageFilter interface, RetryRejectedCall,IMessageFilter.RetryRejectedCall, _com_imessagefilter_retryrejectedcall, com.imessagefilter_retryrejectedcall, objidl/IMessageFilter::RetryRejectedCall
+ms.keywords: IMessageFilter interface [COM],RetryRejectedCall method, IMessageFilter.RetryRejectedCall, IMessageFilter::RetryRejectedCall, RetryRejectedCall, RetryRejectedCall method [COM], RetryRejectedCall method [COM],IMessageFilter interface, _com_imessagefilter_retryrejectedcall, com.imessagefilter_retryrejectedcall, objidl/IMessageFilter::RetryRejectedCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMessageFilter::RetryRejectedCall method
+# IMessageFilter::RetryRejectedCall
 
 
 ## -description

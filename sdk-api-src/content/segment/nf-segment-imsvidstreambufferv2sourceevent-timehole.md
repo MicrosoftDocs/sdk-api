@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.TimeHole
-title: IMSVidStreamBufferV2SourceEvent::TimeHole method
+title: IMSVidStreamBufferV2SourceEvent::TimeHole
 author: windows-driver-content
 description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_TIMEHOLE event, which indicates playback has reached a gap in recorded content.
 old-location: mstv\imsvidstreambufferv2sourceevent_timehole.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 2eceda3b-b3d6-4714-85c5-ec8bb0986b6f
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidStreamBufferV2SourceEvent, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies], TimeHole method, IMSVidStreamBufferV2SourceEvent::TimeHole, TimeHole method [Microsoft TV Technologies], TimeHole method [Microsoft TV Technologies], IMSVidStreamBufferV2SourceEvent interface, TimeHole,IMSVidStreamBufferV2SourceEvent.TimeHole, mstv.imsvidstreambufferv2sourceevent_timehole, segment/IMSVidStreamBufferV2SourceEvent::TimeHole
+ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],TimeHole method, IMSVidStreamBufferV2SourceEvent.TimeHole, IMSVidStreamBufferV2SourceEvent::TimeHole, TimeHole, TimeHole method [Microsoft TV Technologies], TimeHole method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_timehole, segment/IMSVidStreamBufferV2SourceEvent::TimeHole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidStreamBufferV2SourceEvent::TimeHole method
+# IMSVidStreamBufferV2SourceEvent::TimeHole
 
 
 ## -description

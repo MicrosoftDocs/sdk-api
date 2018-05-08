@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionVariable.GetType
-title: ID3D11ShaderReflectionVariable::GetType method
+title: ID3D11ShaderReflectionVariable::GetType
 author: windows-driver-content
 description: Get a shader-variable type.
 old-location: direct3d11\id3d11shaderreflectionvariable_gettype.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: cfabd55c-0707-4221-b99e-64ef226c917e
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 7ccacd76-6ba3-6ef9-dcb6-004fb205f7a7, GetType method [Direct3D 11], GetType method [Direct3D 11], ID3D11ShaderReflectionVariable interface, GetType,ID3D11ShaderReflectionVariable.GetType, ID3D11ShaderReflectionVariable, ID3D11ShaderReflectionVariable interface [Direct3D 11], GetType method, ID3D11ShaderReflectionVariable::GetType, d3d11shader/ID3D11ShaderReflectionVariable::GetType, direct3d11.id3d11shaderreflectionvariable_gettype
+ms.keywords: 7ccacd76-6ba3-6ef9-dcb6-004fb205f7a7, GetType, GetType method [Direct3D 11], GetType method [Direct3D 11],ID3D11ShaderReflectionVariable interface, ID3D11ShaderReflectionVariable interface [Direct3D 11],GetType method, ID3D11ShaderReflectionVariable.GetType, ID3D11ShaderReflectionVariable::GetType, d3d11shader/ID3D11ShaderReflectionVariable::GetType, direct3d11.id3d11shaderreflectionvariable_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11ShaderReflectionVariable::GetType method
+# ID3D11ShaderReflectionVariable::GetType
 
 
 ## -description

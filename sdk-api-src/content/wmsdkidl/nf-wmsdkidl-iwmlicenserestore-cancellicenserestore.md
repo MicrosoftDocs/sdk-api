@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseRestore.CancelLicenseRestore
-title: IWMLicenseRestore::CancelLicenseRestore method
+title: IWMLicenseRestore::CancelLicenseRestore
 author: windows-driver-content
 description: The CancelLicenseRestore method cancels a current restore operation.
 old-location: wmformat\iwmlicenserestore_cancellicenserestore.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: b8a39804-5ee6-43ab-8e89-d1008217622d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: CancelLicenseRestore method [windows Media Format], CancelLicenseRestore method [windows Media Format], IWMLicenseRestore interface, CancelLicenseRestore,IWMLicenseRestore.CancelLicenseRestore, IWMLicenseRestore, IWMLicenseRestore interface [windows Media Format], CancelLicenseRestore method, IWMLicenseRestore::CancelLicenseRestore, IWMLicenseRestoreCancelLicenseRestore, wmformat.iwmlicenserestore_cancellicenserestore, wmsdkidl/IWMLicenseRestore::CancelLicenseRestore
+ms.keywords: CancelLicenseRestore, CancelLicenseRestore method [windows Media Format], CancelLicenseRestore method [windows Media Format],IWMLicenseRestore interface, IWMLicenseRestore interface [windows Media Format],CancelLicenseRestore method, IWMLicenseRestore.CancelLicenseRestore, IWMLicenseRestore::CancelLicenseRestore, IWMLicenseRestoreCancelLicenseRestore, wmformat.iwmlicenserestore_cancellicenserestore, wmsdkidl/IWMLicenseRestore::CancelLicenseRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMLicenseRestore::CancelLicenseRestore method
+# IWMLicenseRestore::CancelLicenseRestore
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextHost.TxSetFocus
-title: ITextHost::TxSetFocus method
+title: ITextHost::TxSetFocus
 author: windows-driver-content
 description: Sets the focus to the text host window.
 old-location: controls\ITextHost_TxSetFocus.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetfocus.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextHost, ITextHost interface [Windows Controls], TxSetFocus method, ITextHost::TxSetFocus, TxSetFocus method [Windows Controls], TxSetFocus method [Windows Controls], ITextHost interface, TxSetFocus,ITextHost.TxSetFocus, _win32_ITextHost_TxSetFocus, _win32_ITextHost_TxSetFocus_cpp, controls.ITextHost_TxSetFocus, controls._win32_ITextHost_TxSetFocus, textserv/ITextHost::TxSetFocus
+ms.date: 4/27/2018
+ms.keywords: ITextHost interface [Windows Controls],TxSetFocus method, ITextHost.TxSetFocus, ITextHost::TxSetFocus, TxSetFocus, TxSetFocus method [Windows Controls], TxSetFocus method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetFocus, _win32_ITextHost_TxSetFocus_cpp, controls.ITextHost_TxSetFocus, controls._win32_ITextHost_TxSetFocus, textserv/ITextHost::TxSetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextHost::TxSetFocus method
+# ITextHost::TxSetFocus
 
 
 ## -description

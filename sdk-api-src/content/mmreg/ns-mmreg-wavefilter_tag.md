@@ -7,7 +7,7 @@ old-location: multimedia\wavefilter.htm
 old-project: Multimedia
 ms.assetid: dea3df47-88a2-439f-bf07-b5c592bf23e8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: "*LPWAVEFILTER, *NPWAVEFILTER, *PWAVEFILTER, WAVEFILTER, WAVEFILTER structure [Windows Multimedia], _win32_WAVEFILTER_str, mmreg/WAVEFILTER, multimedia.wavefilter, wavefilter_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices

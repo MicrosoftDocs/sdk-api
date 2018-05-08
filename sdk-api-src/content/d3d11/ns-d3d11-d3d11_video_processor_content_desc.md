@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_content_desc.htm
 old-project: medfound
 ms.assetid: A1649897-B368-4D03-9A08-630C8C59E44A
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_CONTENT_DESC, D3D11_VIDEO_PROCESSOR_CONTENT_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_CONTENT_DESC, mf.d3d11_video_processor_content_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

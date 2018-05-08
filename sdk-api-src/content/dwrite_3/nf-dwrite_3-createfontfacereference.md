@@ -8,7 +8,7 @@ old-project: DirectWrite
 ms.assetid: e4f73eff-84f8-3e86-08b1-aa513fad9a61
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: CreateFontFaceReference, CreateFontFaceReference methods [Direct2D], directwrite.idwritefactory3_createfontfacereference_overload, dwrite_3/CreateFontFaceReference
+ms.keywords: CreateFontFaceReference, CreateFontFaceReference methods [Direct2D], IDWriteFactory3::CreateFontFaceReference, directwrite.idwritefactory3_createfontfacereference_overload, dwrite_3/CreateFontFaceReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

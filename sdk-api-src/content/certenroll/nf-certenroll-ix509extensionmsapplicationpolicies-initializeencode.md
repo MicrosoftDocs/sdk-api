@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionMSApplicationPolicies.InitializeEncode
-title: IX509ExtensionMSApplicationPolicies::InitializeEncode method
+title: IX509ExtensionMSApplicationPolicies::InitializeEncode
 author: windows-driver-content
 description: Initializes the extension from an ICertificatePolicies collection.
 old-location: security\ix509extensionmsapplicationpolicies_initializeencode_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 2b79c295-5260-4708-9a20-2ac41052a171
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionMSApplicationPolicies, IX509ExtensionMSApplicationPolicies interface [Security], InitializeEncode method, IX509ExtensionMSApplicationPolicies::InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security], IX509ExtensionMSApplicationPolicies interface, InitializeEncode,IX509ExtensionMSApplicationPolicies.InitializeEncode, certenroll/IX509ExtensionMSApplicationPolicies::InitializeEncode, security.ix509extensionmsapplicationpolicies_initializeencode_method
+ms.keywords: IX509ExtensionMSApplicationPolicies interface [Security],InitializeEncode method, IX509ExtensionMSApplicationPolicies.InitializeEncode, IX509ExtensionMSApplicationPolicies::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionMSApplicationPolicies interface, certenroll/IX509ExtensionMSApplicationPolicies::InitializeEncode, security.ix509extensionmsapplicationpolicies_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509ExtensionMSApplicationPolicies::InitializeEncode method
+# IX509ExtensionMSApplicationPolicies::InitializeEncode
 
 
 ## -description

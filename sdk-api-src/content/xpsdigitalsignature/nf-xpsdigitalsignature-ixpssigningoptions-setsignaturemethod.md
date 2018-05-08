@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetSignatureMethod
-title: IXpsSigningOptions::SetSignatureMethod method
+title: IXpsSigningOptions::SetSignatureMethod
 author: windows-driver-content
 description: Sets the signature method.
 old-location: xps\ixpssigningoptions_setsignaturemethod.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 318f0e08-2384-4fab-a181-6ff3070ea21f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], SetSignatureMethod method, IXpsSigningOptions::SetSignatureMethod, SetSignatureMethod method [XPS Documents and Packaging], SetSignatureMethod method [XPS Documents and Packaging], IXpsSigningOptions interface, SetSignatureMethod,IXpsSigningOptions.SetSignatureMethod, xps.ixpssigningoptions_setsignaturemethod, xpsdigitalsignature/IXpsSigningOptions::SetSignatureMethod
+ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSignatureMethod method, IXpsSigningOptions.SetSignatureMethod, IXpsSigningOptions::SetSignatureMethod, SetSignatureMethod, SetSignatureMethod method [XPS Documents and Packaging], SetSignatureMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsignaturemethod, xpsdigitalsignature/IXpsSigningOptions::SetSignatureMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSigningOptions::SetSignatureMethod method
+# IXpsSigningOptions::SetSignatureMethod
 
 
 ## -description

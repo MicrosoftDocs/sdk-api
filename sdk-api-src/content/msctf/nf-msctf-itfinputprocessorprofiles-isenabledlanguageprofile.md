@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.IsEnabledLanguageProfile
-title: ITfInputProcessorProfiles::IsEnabledLanguageProfile method
+title: ITfInputProcessorProfiles::IsEnabledLanguageProfile
 author: windows-driver-content
 description: ITfInputProcessorProfiles::IsEnabledLanguageProfile method
 old-location: tsf\itfinputprocessorprofiles_isenabledlanguageprofile.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 9daaa5bf-3eb8-416f-b7f5-9b10c04bceb0
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfInputProcessorProfiles, ITfInputProcessorProfiles interface [Text Services Framework], IsEnabledLanguageProfile method, ITfInputProcessorProfiles::IsEnabledLanguageProfile, IsEnabledLanguageProfile method [Text Services Framework], IsEnabledLanguageProfile method [Text Services Framework], ITfInputProcessorProfiles interface, IsEnabledLanguageProfile,ITfInputProcessorProfiles.IsEnabledLanguageProfile, _tsf_itfinputprocessorprofiles_isenabledlanguageprofile_ref, msctf/ITfInputProcessorProfiles::IsEnabledLanguageProfile, tsf.itfinputprocessorprofiles_isenabledlanguageprofile
+ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],IsEnabledLanguageProfile method, ITfInputProcessorProfiles.IsEnabledLanguageProfile, ITfInputProcessorProfiles::IsEnabledLanguageProfile, IsEnabledLanguageProfile, IsEnabledLanguageProfile method [Text Services Framework], IsEnabledLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_isenabledlanguageprofile_ref, msctf/ITfInputProcessorProfiles::IsEnabledLanguageProfile, tsf.itfinputprocessorprofiles_isenabledlanguageprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfiles::IsEnabledLanguageProfile method
+# ITfInputProcessorProfiles::IsEnabledLanguageProfile
 
 
 ## -description

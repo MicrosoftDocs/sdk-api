@@ -1,0 +1,5 @@
+# [Windows Runtime C++ reference](../_winrt/index.md)
+## [Playtomanagerinterop.h](index.md)
+### [IPlayToManagerInterop::GetForWindow](../playtomanagerinterop/nf-playtomanagerinterop-iplaytomanagerinterop-getforwindow.md)
+### [IPlayToManagerInterop::ShowPlayToUIForWindow](../playtomanagerinterop/nf-playtomanagerinterop-iplaytomanagerinterop-showplaytouiforwindow.md)
+### [IPlayToManagerInterop interface](../playtomanagerinterop/nn-playtomanagerinterop-iplaytomanagerinterop.md)

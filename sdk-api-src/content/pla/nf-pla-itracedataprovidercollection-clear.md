@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.Clear
-title: ITraceDataProviderCollection::Clear method
+title: ITraceDataProviderCollection::Clear
 author: windows-driver-content
 description: Removes all trace providers from the collection.
 old-location: pla\itracedataprovidercollection_clear.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: aee595c2-bffc-4c79-89b3-b83f75e58d89
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Clear method [PLA], Clear method [PLA], ITraceDataProviderCollection interface, Clear,ITraceDataProviderCollection.Clear, ITraceDataProviderCollection, ITraceDataProviderCollection interface [PLA], Clear method, ITraceDataProviderCollection::Clear, base.itracedataprovidercollection_clear, pla.itracedataprovidercollection_clear, pla/ITraceDataProviderCollection::Clear
+ms.keywords: Clear, Clear method [PLA], Clear method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],Clear method, ITraceDataProviderCollection.Clear, ITraceDataProviderCollection::Clear, base.itracedataprovidercollection_clear, pla.itracedataprovidercollection_clear, pla/ITraceDataProviderCollection::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataProviderCollection::Clear method
+# ITraceDataProviderCollection::Clear
 
 
 ## -description

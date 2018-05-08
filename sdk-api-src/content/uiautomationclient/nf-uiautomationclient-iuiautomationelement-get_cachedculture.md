@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedCulture
-title: IUIAutomationElement::get_CachedCulture method
+title: IUIAutomationElement::get_CachedCulture
 author: windows-driver-content
 description: Retrieves a cached value that indicates the culture associated with the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedCulture.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 9961ee21-d9b7-4ff6-a8ee-ad45ba1cd142
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedCulture property [Windows Accessibility], CachedCulture property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedCulture property, IUIAutomationElement.CachedCulture, IUIAutomationElement::get_CachedCulture, get_CachedCulture,IUIAutomationElement.get_CachedCulture, uiauto.uiauto_IUIAutomationElement_CachedCulture, uiauto_IUIAutomationElement_CachedCulture, uiautomationclient/IUIAutomationElement::CachedCulture, uiautomationclient/IUIAutomationElement::get_CachedCulture, winauto.uiauto_IUIAutomationElement_CachedCulture
+ms.keywords: CachedCulture property [Windows Accessibility], CachedCulture property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedCulture property, IUIAutomationElement.CachedCulture, IUIAutomationElement.get_CachedCulture, IUIAutomationElement::CachedCulture, IUIAutomationElement::get_CachedCulture, get_CachedCulture, uiauto.uiauto_IUIAutomationElement_CachedCulture, uiauto_IUIAutomationElement_CachedCulture, uiautomationclient/IUIAutomationElement::CachedCulture, uiautomationclient/IUIAutomationElement::get_CachedCulture, winauto.uiauto_IUIAutomationElement_CachedCulture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CachedCulture method
+# IUIAutomationElement::get_CachedCulture
 
 
 ## -description

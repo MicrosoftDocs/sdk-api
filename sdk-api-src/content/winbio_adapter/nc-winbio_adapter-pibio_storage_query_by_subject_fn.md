@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: b2c93122-fae1-44ad-97d4-f90115194a31
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_STORAGE_QUERY_BY_SUBJECT_FN, StorageAdapterQueryBySubject, StorageAdapterQueryBySubject callback function [Windows Biometric Framework API], secbiomet.storageadapterquerybysubject, winbio_adapter/StorageAdapterQueryBySubject
+ms.keywords: PIBIO_STORAGE_QUERY_BY_SUBJECT_FN, PIBIO_STORAGE_QUERY_BY_SUBJECT_FN callback, StorageAdapterQueryBySubject, StorageAdapterQueryBySubject callback function [Windows Biometric Framework API], secbiomet.storageadapterquerybysubject, winbio_adapter/StorageAdapterQueryBySubject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_STORAGE_QUERY_BY_SUBJECT_FN callback
+# PIBIO_STORAGE_QUERY_BY_SUBJECT_FN callback function
 
 
 ## -description

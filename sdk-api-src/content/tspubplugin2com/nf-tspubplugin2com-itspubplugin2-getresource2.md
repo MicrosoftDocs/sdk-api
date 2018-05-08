@@ -1,6 +1,6 @@
 ---
 UID: NF:tspubplugin2com.ItsPubPlugin2.GetResource2
-title: ItsPubPlugin2::GetResource2 method
+title: ItsPubPlugin2::GetResource2
 author: windows-driver-content
 description: This method is reserved and should always return E_NOTIMPL.
 old-location: termserv\itspubplugin2_getresource2.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: 8edb3f28-0796-478e-bf0a-b157e1e12dc2
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetResource2 method [Remote Desktop Services], GetResource2 method [Remote Desktop Services], ItsPubPlugin2 interface, GetResource2,ItsPubPlugin2.GetResource2, ItsPubPlugin2, ItsPubPlugin2 interface [Remote Desktop Services], GetResource2 method, ItsPubPlugin2::GetResource2, termserv.itspubplugin2_getresource2, tspubplugin2com/ItsPubPlugin2::GetResource2
+ms.keywords: GetResource2, GetResource2 method [Remote Desktop Services], GetResource2 method [Remote Desktop Services],ItsPubPlugin2 interface, ItsPubPlugin2 interface [Remote Desktop Services],GetResource2 method, ItsPubPlugin2.GetResource2, ItsPubPlugin2::GetResource2, termserv.itspubplugin2_getresource2, tspubplugin2com/ItsPubPlugin2::GetResource2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ItsPubPlugin2::GetResource2 method
+# ItsPubPlugin2::GetResource2
 
 
 ## -description

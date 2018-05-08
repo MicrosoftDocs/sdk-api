@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMetadataText.get_text
-title: IWMPMetadataText::get_text method
+title: IWMPMetadataText::get_text
 author: windows-driver-content
 description: The get_text method retrieves the metadata text.
 old-location: wmp\iwmpmetadatatext_get_text.htm
 old-project: WMP
 ms.assetid: 88aeb4bb-87e1-413d-888b-608fa349ebf5
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMetadataText, IWMPMetadataText interface [Windows Media Player], get_text method, IWMPMetadataText::get_text, IWMPMetadataTextget_text, get_text method [Windows Media Player], get_text method [Windows Media Player], IWMPMetadataText interface, get_text,IWMPMetadataText.get_text, wmp.iwmpmetadatatext_get_text, wmp/IWMPMetadataText::get_text
+ms.date: 5/4/2018
+ms.keywords: IWMPMetadataText interface [Windows Media Player],get_text method, IWMPMetadataText.get_text, IWMPMetadataText::get_text, IWMPMetadataTextget_text, get_text, get_text method [Windows Media Player], get_text method [Windows Media Player],IWMPMetadataText interface, wmp.iwmpmetadatatext_get_text, wmp/IWMPMetadataText::get_text
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMetadataText::get_text method
+# IWMPMetadataText::get_text
 
 
 ## -description

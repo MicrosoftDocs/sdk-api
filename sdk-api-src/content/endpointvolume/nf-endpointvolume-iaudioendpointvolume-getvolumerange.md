@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetVolumeRange
-title: IAudioEndpointVolume::GetVolumeRange method
+title: IAudioEndpointVolume::GetVolumeRange
 author: windows-driver-content
 description: The GetVolumeRange method gets the volume range, in decibels, of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getvolumerange.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: a0e98ed8-36e2-4abc-aa83-008cc89e3a56
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: GetVolumeRange method [Core Audio], GetVolumeRange method [Core Audio], IAudioEndpointVolume interface, GetVolumeRange,IAudioEndpointVolume.GetVolumeRange, IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], GetVolumeRange method, IAudioEndpointVolume::GetVolumeRange, IAudioEndpointVolumeGetVolumeRange, coreaudio.iaudioendpointvolume_getvolumerange, endpointvolume/IAudioEndpointVolume::GetVolumeRange
+ms.keywords: GetVolumeRange, GetVolumeRange method [Core Audio], GetVolumeRange method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetVolumeRange method, IAudioEndpointVolume.GetVolumeRange, IAudioEndpointVolume::GetVolumeRange, IAudioEndpointVolumeGetVolumeRange, coreaudio.iaudioendpointvolume_getvolumerange, endpointvolume/IAudioEndpointVolume::GetVolumeRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IAudioEndpointVolume::GetVolumeRange method
+# IAudioEndpointVolume::GetVolumeRange
 
 
 ## -description

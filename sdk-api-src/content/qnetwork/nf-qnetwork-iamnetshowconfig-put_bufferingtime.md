@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_BufferingTime
-title: IAMNetShowConfig::put_BufferingTime method
+title: IAMNetShowConfig::put_BufferingTime
 author: windows-driver-content
 description: The put_BufferingTime method specifies the buffering time.
 old-location: dshow\iamnetshowconfig_put_bufferingtime.htm
 old-project: DirectShow
 ms.assetid: 60dea6f3-b45f-44a1-ba21-eb71206b2fb5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], put_BufferingTime method, IAMNetShowConfig::put_BufferingTime, IAMNetShowConfigput_BufferingTime, dshow.iamnetshowconfig_put_bufferingtime, put_BufferingTime method [DirectShow], put_BufferingTime method [DirectShow], IAMNetShowConfig interface, put_BufferingTime,IAMNetShowConfig.put_BufferingTime, qnetwork/IAMNetShowConfig::put_BufferingTime
+ms.date: 4/30/2018
+ms.keywords: IAMNetShowConfig interface [DirectShow],put_BufferingTime method, IAMNetShowConfig.put_BufferingTime, IAMNetShowConfig::put_BufferingTime, IAMNetShowConfigput_BufferingTime, dshow.iamnetshowconfig_put_bufferingtime, put_BufferingTime, put_BufferingTime method [DirectShow], put_BufferingTime method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_BufferingTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetShowConfig::put_BufferingTime method
+# IAMNetShowConfig::put_BufferingTime
 
 
 ## -description

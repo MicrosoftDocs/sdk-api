@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.Remove
-title: ITraceDataProviderCollection::Remove method
+title: ITraceDataProviderCollection::Remove
 author: windows-driver-content
 description: Removes a trace provider from the collection.
 old-location: pla\itracedataprovidercollection_remove.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 553ec66e-d38a-46cc-9b01-f4d7947eda91
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ITraceDataProviderCollection, ITraceDataProviderCollection interface [PLA], Remove method, ITraceDataProviderCollection::Remove, Remove method [PLA], Remove method [PLA], ITraceDataProviderCollection interface, Remove,ITraceDataProviderCollection.Remove, base.itracedataprovidercollection_remove, pla.itracedataprovidercollection_remove, pla/ITraceDataProviderCollection::Remove
+ms.keywords: ITraceDataProviderCollection interface [PLA],Remove method, ITraceDataProviderCollection.Remove, ITraceDataProviderCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],ITraceDataProviderCollection interface, base.itracedataprovidercollection_remove, pla.itracedataprovidercollection_remove, pla/ITraceDataProviderCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataProviderCollection::Remove method
+# ITraceDataProviderCollection::Remove
 
 
 ## -description

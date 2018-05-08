@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmCollection.get__NewEnum
-title: IFsrmCollection::get__NewEnum method
+title: IFsrmCollection::get__NewEnum
 author: windows-driver-content
 description: Retrieves the IUnknown pointer of a new IEnumVARIANT enumeration for the items in the collection.
 old-location: fsrm\ifsrmcollection__newenum.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 0973b046-e350-44df-a02d-40b0ba272638
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmCollection, IFsrmCollection interface [File Server Resource Manager], _NewEnum property, IFsrmCollection._NewEnum, IFsrmCollection::get__NewEnum, _NewEnum property [File Server Resource Manager], _NewEnum property [File Server Resource Manager], IFsrmCollection interface, fs.ifsrmcollection__newenum, fsrm.ifsrmcollection__newenum, fsrm/IFsrmCollection::_NewEnum, fsrm/IFsrmCollection::get__NewEnum, get__NewEnum,IFsrmCollection.get__NewEnum
+ms.keywords: IFsrmCollection interface [File Server Resource Manager],_NewEnum property, IFsrmCollection._NewEnum, IFsrmCollection.get__NewEnum, IFsrmCollection::_NewEnum, IFsrmCollection::get__NewEnum, _NewEnum property [File Server Resource Manager], _NewEnum property [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection__newenum, fsrm.ifsrmcollection__newenum, fsrm/IFsrmCollection::_NewEnum, fsrm/IFsrmCollection::get__NewEnum, get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmCollection::get__NewEnum method
+# IFsrmCollection::get__NewEnum
 
 
 ## -description

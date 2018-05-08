@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.get_AreaCode
-title: IFaxOutboundRoutingRule::get_AreaCode method
+title: IFaxOutboundRoutingRule::get_AreaCode
 author: windows-driver-content
 description: The AreaCode property specifies the area code to which the outbound routing rule applies.
 old-location: fax\_mfax_faxoutboundroutingrule_areacode_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1git.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: AreaCode property [Fax Service], AreaCode property [Fax Service], FaxOutboundRoutingRule object, FaxOutboundRoutingRule object [Fax Service], AreaCode property, IFaxOutboundRoutingRule, IFaxOutboundRoutingRule::get_AreaCode, _mfax_faxoutboundroutingrule.areacode, fax._mfax_faxoutboundroutingrule_areacode, fax._mfax_faxoutboundroutingrule_areacode_vb, get_AreaCode,IFaxOutboundRoutingRule.get_AreaCode
+ms.keywords: AreaCode property [Fax Service], AreaCode property [Fax Service],FaxOutboundRoutingRule object, FaxOutboundRoutingRule object [Fax Service],AreaCode property, FaxOutboundRoutingRule.AreaCode, IFaxOutboundRoutingRule.get_AreaCode, IFaxOutboundRoutingRule::get_AreaCode, _mfax_faxoutboundroutingrule.areacode, fax._mfax_faxoutboundroutingrule_areacode, fax._mfax_faxoutboundroutingrule_areacode_vb, get_AreaCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutboundRoutingRule::get_AreaCode method
+# IFaxOutboundRoutingRule::get_AreaCode
 
 
 ## -description

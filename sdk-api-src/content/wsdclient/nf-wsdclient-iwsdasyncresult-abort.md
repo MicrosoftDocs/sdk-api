@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.Abort
-title: IWSDAsyncResult::Abort method
+title: IWSDAsyncResult::Abort
 author: windows-driver-content
 description: Aborts the asynchronous operation.
 old-location: ncd\iwsdasyncresult_abort.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 9237bcb4-4404-4d15-a18a-1d651e3fb899
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: Abort method, Abort method, IWSDAsyncResult interface, Abort,IWSDAsyncResult.Abort, IWSDAsyncResult, IWSDAsyncResult interface, Abort method, IWSDAsyncResult::Abort, ncd.iwsdasyncresult_abort, wsdclient/IWSDAsyncResult::Abort
+ms.keywords: Abort, Abort method, Abort method,IWSDAsyncResult interface, IWSDAsyncResult interface,Abort method, IWSDAsyncResult.Abort, IWSDAsyncResult::Abort, ncd.iwsdasyncresult_abort, wsdclient/IWSDAsyncResult::Abort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDAsyncResult::Abort method
+# IWSDAsyncResult::Abort
 
 
 ## -description

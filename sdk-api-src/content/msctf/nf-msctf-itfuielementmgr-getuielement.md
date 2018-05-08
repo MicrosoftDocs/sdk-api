@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.GetUIElement
-title: ITfUIElementMgr::GetUIElement method
+title: ITfUIElementMgr::GetUIElement
 author: windows-driver-content
 description: The ITfUIElementMgr::GetUIElement method gets the ITfUIElement interface of the element id.
 old-location: tsf\itfuielementmgr_getuielement.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: e3a2a7ae-1ca2-4c1e-83af-207821966147
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetUIElement method [Text Services Framework], GetUIElement method [Text Services Framework], ITfUIElementMgr interface, GetUIElement,ITfUIElementMgr.GetUIElement, ITfUIElementMgr, ITfUIElementMgr interface [Text Services Framework], GetUIElement method, ITfUIElementMgr::GetUIElement, msctf/ITfUIElementMgr::GetUIElement, tsf.itfuielementmgr_getuielement
+ms.keywords: GetUIElement, GetUIElement method [Text Services Framework], GetUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],GetUIElement method, ITfUIElementMgr.GetUIElement, ITfUIElementMgr::GetUIElement, msctf/ITfUIElementMgr::GetUIElement, tsf.itfuielementmgr_getuielement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfUIElementMgr::GetUIElement method
+# ITfUIElementMgr::GetUIElement
 
 
 ## -description

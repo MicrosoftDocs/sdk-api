@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.GetLastError
-title: ID3D11FunctionLinkingGraph::GetLastError method
+title: ID3D11FunctionLinkingGraph::GetLastError
 author: windows-driver-content
 description: Gets the error from the last function call of the function-linking-graph.
 old-location: direct3d11\id3d11functionlinkinggraph_getlasterror.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: 5BD10944-5C49-4DA2-A2B7-73DA21A49A12
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GetLastError method [Direct3D 11], GetLastError method [Direct3D 11], ID3D11FunctionLinkingGraph interface, GetLastError,ID3D11FunctionLinkingGraph.GetLastError, ID3D11FunctionLinkingGraph, ID3D11FunctionLinkingGraph interface [Direct3D 11], GetLastError method, ID3D11FunctionLinkingGraph::GetLastError, d3d11shader/ID3D11FunctionLinkingGraph::GetLastError, direct3d11.id3d11functionlinkinggraph_getlasterror
+ms.keywords: GetLastError, GetLastError method [Direct3D 11], GetLastError method [Direct3D 11],ID3D11FunctionLinkingGraph interface, ID3D11FunctionLinkingGraph interface [Direct3D 11],GetLastError method, ID3D11FunctionLinkingGraph.GetLastError, ID3D11FunctionLinkingGraph::GetLastError, d3d11shader/ID3D11FunctionLinkingGraph::GetLastError, direct3d11.id3d11functionlinkinggraph_getlasterror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11FunctionLinkingGraph::GetLastError method
+# ID3D11FunctionLinkingGraph::GetLastError
 
 
 ## -description

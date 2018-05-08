@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.add_TransportParametersUpdate
-title: IMediaRenderer::add_TransportParametersUpdate method
+title: IMediaRenderer::streaming
 author: windows-driver-content
 description: Registers an event handler for the TransportParametersUpdate event.
 old-location: mediastreaming\imediarenderer_add_transportparametersupdate.htm
@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 34D11925-387B-414F-A176-336BBCF87821
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], add_TransportParametersUpdate method, IMediaRenderer::add_TransportParametersUpdate, add_TransportParametersUpdate method [Media Streaming API], add_TransportParametersUpdate method [Media Streaming API], IMediaRenderer interface, add_TransportParametersUpdate,IMediaRenderer.add_TransportParametersUpdate, mediastreaming.imediarenderer_add_transportparametersupdate, windows/IMediaRenderer::add_TransportParametersUpdate
+ms.keywords: IMediaRenderer interface [Media Streaming API],add_TransportParametersUpdate method, IMediaRenderer.add_TransportParametersUpdate, IMediaRenderer.streaming, IMediaRenderer::add_TransportParametersUpdate, IMediaRenderer::streaming, add_TransportParametersUpdate, add_TransportParametersUpdate method [Media Streaming API], add_TransportParametersUpdate method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_add_transportparametersupdate, windows/IMediaRenderer::add_TransportParametersUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IMediaRenderer::add_TransportParametersUpdate method
+# IMediaRenderer::streaming
 
 
 ## -description

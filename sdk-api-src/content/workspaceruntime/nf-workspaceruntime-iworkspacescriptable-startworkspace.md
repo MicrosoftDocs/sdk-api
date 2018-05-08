@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable.StartWorkspace
-title: IWorkspaceScriptable::StartWorkspace method
+title: IWorkspaceScriptable::StartWorkspace
 author: windows-driver-content
 description: Associates user credentials and certificates with a connection ID.
 old-location: termserv\iworkspacescriptable_startworkspace.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: a2985ae1-7874-43e8-b0d3-ef3f13ac2f8d
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IWorkspaceScriptable, IWorkspaceScriptable interface [Remote Desktop Services], StartWorkspace method, IWorkspaceScriptable2 interface [Remote Desktop Services], StartWorkspace method, IWorkspaceScriptable2::StartWorkspace, IWorkspaceScriptable3 interface [Remote Desktop Services], StartWorkspace method, IWorkspaceScriptable3::StartWorkspace, IWorkspaceScriptable::StartWorkspace, StartWorkspace method [Remote Desktop Services], StartWorkspace method [Remote Desktop Services], IWorkspaceScriptable interface, StartWorkspace method [Remote Desktop Services], IWorkspaceScriptable2 interface, StartWorkspace method [Remote Desktop Services], IWorkspaceScriptable3 interface, StartWorkspace method [Remote Desktop Services], Workspace object, StartWorkspace,IWorkspaceScriptable.StartWorkspace, WKS_FLAG_CLEAR_CREDS_ON_LAST_RESOURCE, WKS_FLAG_CREDS_AUTHENTICATED, WKS_FLAG_PASSWORD_ENCRYPTED, Workspace object [Remote Desktop Services], StartWorkspace method, termserv.iworkspacescriptable_startworkspace, workspaceruntime/IWorkspaceScriptable2::StartWorkspace, workspaceruntime/IWorkspaceScriptable3::StartWorkspace, workspaceruntime/IWorkspaceScriptable::StartWorkspace
+ms.keywords: IWorkspaceScriptable interface [Remote Desktop Services],StartWorkspace method, IWorkspaceScriptable.StartWorkspace, IWorkspaceScriptable2 interface [Remote Desktop Services],StartWorkspace method, IWorkspaceScriptable2::StartWorkspace, IWorkspaceScriptable3 interface [Remote Desktop Services],StartWorkspace method, IWorkspaceScriptable3::StartWorkspace, IWorkspaceScriptable::StartWorkspace, StartWorkspace, StartWorkspace method [Remote Desktop Services], StartWorkspace method [Remote Desktop Services],IWorkspaceScriptable interface, StartWorkspace method [Remote Desktop Services],IWorkspaceScriptable2 interface, StartWorkspace method [Remote Desktop Services],IWorkspaceScriptable3 interface, StartWorkspace method [Remote Desktop Services],Workspace object, WKS_FLAG_CLEAR_CREDS_ON_LAST_RESOURCE, WKS_FLAG_CREDS_AUTHENTICATED, WKS_FLAG_PASSWORD_ENCRYPTED, Workspace object [Remote Desktop Services],StartWorkspace method, termserv.iworkspacescriptable_startworkspace, workspaceruntime/IWorkspaceScriptable2::StartWorkspace, workspaceruntime/IWorkspaceScriptable3::StartWorkspace, workspaceruntime/IWorkspaceScriptable::StartWorkspace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWorkspaceScriptable::StartWorkspace method
+# IWorkspaceScriptable::StartWorkspace
 
 
 ## -description

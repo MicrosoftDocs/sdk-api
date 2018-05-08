@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Rename
-title: IMDSPObject::Rename method
+title: IMDSPObject::Rename
 author: windows-driver-content
 description: The Rename method renames the associated object which can be a file or a folder.
 old-location: wmdm\imdspobject_rename.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 3da6a4a4-6e3b-4907-a466-5a5bd34f4374
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IMDSPObject, IMDSPObject interface [windows Media Device Manager], Rename method, IMDSPObject::Rename, IMDSPObjectRename, Rename method [windows Media Device Manager], Rename method [windows Media Device Manager], IMDSPObject interface, Rename,IMDSPObject.Rename, mswmdm/IMDSPObject::Rename, wmdm.imdspobject_rename
+ms.keywords: IMDSPObject interface [windows Media Device Manager],Rename method, IMDSPObject.Rename, IMDSPObject::Rename, IMDSPObjectRename, Rename, Rename method [windows Media Device Manager], Rename method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Rename, wmdm.imdspobject_rename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPObject::Rename method
+# IMDSPObject::Rename
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:iaccess.IAccessControl.SetAccessRights
-title: IAccessControl::SetAccessRights method
+title: IAccessControl::SetAccessRights
 author: windows-driver-content
 description: Replaces the existing access rights on an object with the specified list.
 old-location: com\iaccesscontrol_setaccessrights.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 5f4224fe-255f-4eb7-88bb-47501718589b
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IAccessControl, IAccessControl interface [COM], SetAccessRights method, IAccessControl::SetAccessRights, SetAccessRights method [COM], SetAccessRights method [COM], IAccessControl interface, SetAccessRights,IAccessControl.SetAccessRights, _com_iaccesscontrol_setaccessrights, com.iaccesscontrol_setaccessrights, iaccess/IAccessControl::SetAccessRights
+ms.keywords: IAccessControl interface [COM],SetAccessRights method, IAccessControl.SetAccessRights, IAccessControl::SetAccessRights, SetAccessRights, SetAccessRights method [COM], SetAccessRights method [COM],IAccessControl interface, _com_iaccesscontrol_setaccessrights, com.iaccesscontrol_setaccessrights, iaccess/IAccessControl::SetAccessRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IAccessControl::SetAccessRights method
+# IAccessControl::SetAccessRights
 
 
 ## -description

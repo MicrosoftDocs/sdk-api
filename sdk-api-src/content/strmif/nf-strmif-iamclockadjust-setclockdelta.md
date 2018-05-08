@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMClockAdjust.SetClockDelta
-title: IAMClockAdjust::SetClockDelta method
+title: IAMClockAdjust::SetClockDelta
 author: windows-driver-content
 description: The SetClockDelta method adjusts the clock time.
 old-location: dshow\iamclockadjust_setclockdelta.htm
 old-project: DirectShow
 ms.assetid: f9bd4e69-343f-4150-ab12-b5ce405a3ac3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMClockAdjust, IAMClockAdjust interface [DirectShow], SetClockDelta method, IAMClockAdjust::SetClockDelta, IAMClockAdjustSetClockDelta, SetClockDelta method [DirectShow], SetClockDelta method [DirectShow], IAMClockAdjust interface, SetClockDelta,IAMClockAdjust.SetClockDelta, dshow.iamclockadjust_setclockdelta, strmif/IAMClockAdjust::SetClockDelta
+ms.date: 4/30/2018
+ms.keywords: IAMClockAdjust interface [DirectShow],SetClockDelta method, IAMClockAdjust.SetClockDelta, IAMClockAdjust::SetClockDelta, IAMClockAdjustSetClockDelta, SetClockDelta, SetClockDelta method [DirectShow], SetClockDelta method [DirectShow],IAMClockAdjust interface, dshow.iamclockadjust_setclockdelta, strmif/IAMClockAdjust::SetClockDelta
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMClockAdjust::SetClockDelta method
+# IAMClockAdjust::SetClockDelta
 
 
 ## -description

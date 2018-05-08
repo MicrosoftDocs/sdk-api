@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.SetMaxThreads
-title: IThreadPoolKnobs::SetMaxThreads method
+title: IThreadPoolKnobs::SetMaxThreads
 author: windows-driver-content
 description: Sets the maximum number of threads to be allowed in the pool.
 old-location: cos\ithreadpoolknobs_setmaxthreads.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: abca2ec3-4dcd-4770-a500-1d46b87b4cda
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IThreadPoolKnobs, IThreadPoolKnobs interface [COM+], SetMaxThreads method, IThreadPoolKnobs::SetMaxThreads, SetMaxThreads method [COM+], SetMaxThreads method [COM+], IThreadPoolKnobs interface, SetMaxThreads,IThreadPoolKnobs.SetMaxThreads, _cos_IThreadPoolKnobs_SetMaxThreads, comsvcs/IThreadPoolKnobs::SetMaxThreads, cos.ithreadpoolknobs_setmaxthreads
+ms.keywords: IThreadPoolKnobs interface [COM+],SetMaxThreads method, IThreadPoolKnobs.SetMaxThreads, IThreadPoolKnobs::SetMaxThreads, SetMaxThreads, SetMaxThreads method [COM+], SetMaxThreads method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetMaxThreads, comsvcs/IThreadPoolKnobs::SetMaxThreads, cos.ithreadpoolknobs_setmaxthreads
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IThreadPoolKnobs::SetMaxThreads method
+# IThreadPoolKnobs::SetMaxThreads
 
 
 ## -description

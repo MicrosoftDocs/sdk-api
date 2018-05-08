@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.Clear
-title: ISmimeCapabilities::Clear method
+title: ISmimeCapabilities::Clear
 author: windows-driver-content
 description: Removes all objects from the collection.
 old-location: security\ismimecapabilities_clear_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 8df8eecd-c20f-40f0-a647-23d25ca76ae4
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Clear method [Security], Clear method [Security], ISmimeCapabilities interface, Clear,ISmimeCapabilities.Clear, ISmimeCapabilities, ISmimeCapabilities interface [Security], Clear method, ISmimeCapabilities::Clear, certenroll/ISmimeCapabilities::Clear, security.ismimecapabilities_clear_method
+ms.keywords: Clear, Clear method [Security], Clear method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],Clear method, ISmimeCapabilities.Clear, ISmimeCapabilities::Clear, certenroll/ISmimeCapabilities::Clear, security.ismimecapabilities_clear_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ISmimeCapabilities::Clear method
+# ISmimeCapabilities::Clear
 
 
 ## -description

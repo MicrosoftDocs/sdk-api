@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRMixerControl.GetBackgroundClr
-title: IVMRMixerControl::GetBackgroundClr method
+title: IVMRMixerControl::GetBackgroundClr
 author: windows-driver-content
 description: Gets the current background color on the output rectangle.
 old-location: dshow\ivmrmixercontrol_getbackgroundclr.htm
 old-project: DirectShow
 ms.assetid: 095f0ed3-46e4-48f9-97d5-5bca1c2efa30
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetBackgroundClr method [DirectShow], GetBackgroundClr method [DirectShow], IVMRMixerControl interface, GetBackgroundClr,IVMRMixerControl.GetBackgroundClr, IVMRMixerControl, IVMRMixerControl interface [DirectShow], GetBackgroundClr method, IVMRMixerControl::GetBackgroundClr, IVMRMixerControlGetBackgroundClr, dshow.ivmrmixercontrol_getbackgroundclr, strmif/IVMRMixerControl::GetBackgroundClr
+ms.date: 4/30/2018
+ms.keywords: GetBackgroundClr, GetBackgroundClr method [DirectShow], GetBackgroundClr method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetBackgroundClr method, IVMRMixerControl.GetBackgroundClr, IVMRMixerControl::GetBackgroundClr, IVMRMixerControlGetBackgroundClr, dshow.ivmrmixercontrol_getbackgroundclr, strmif/IVMRMixerControl::GetBackgroundClr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRMixerControl::GetBackgroundClr method
+# IVMRMixerControl::GetBackgroundClr
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.Append
-title: IXpsOMImageResourceCollection::Append method
+title: IXpsOMImageResourceCollection::Append
 author: windows-driver-content
 description: Appends an IXpsOMImageResource interface to the end of the collection.
 old-location: xps\ixpsomimageresourcecollection_append.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 0932d81d-7577-4063-8207-d818164175eb
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging], IXpsOMImageResourceCollection interface, Append,IXpsOMImageResourceCollection.Append, IXpsOMImageResourceCollection, IXpsOMImageResourceCollection interface [XPS Documents and Packaging], Append method, IXpsOMImageResourceCollection::Append, xps.ixpsomimageresourcecollection_append, xpsobjectmodel/IXpsOMImageResourceCollection::Append
+ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, IXpsOMImageResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMImageResourceCollection.Append, IXpsOMImageResourceCollection::Append, xps.ixpsomimageresourcecollection_append, xpsobjectmodel/IXpsOMImageResourceCollection::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMImageResourceCollection::Append method
+# IXpsOMImageResourceCollection::Append
 
 
 ## -description

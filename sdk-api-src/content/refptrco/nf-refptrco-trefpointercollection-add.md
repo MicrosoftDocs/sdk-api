@@ -1,6 +1,6 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.Add
-title: TRefPointerCollection::Add method
+title: TRefPointerCollection::Add
 author: windows-driver-content
 description: The Add method adds a reference to the collection.
 old-location: wmi\trefpointercollection_add.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 959cd8e7-ea0c-4b98-8e13-398e09c62668
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation], TRefPointerCollection interface, Add,TRefPointerCollection.Add, TRefPointerCollection, TRefPointerCollection interface [Windows Management Instrumentation], Add method, TRefPointerCollection::Add, _hmm_trefpointercollection_add, refptrco/TRefPointerCollection::Add, wmi.trefpointercollection_add
+ms.keywords: Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],Add method, TRefPointerCollection.Add, TRefPointerCollection::Add, _hmm_trefpointercollection_add, refptrco/TRefPointerCollection::Add, wmi.trefpointercollection_add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: RECO_RANGE, RECO_RANGE
+req.typenames: RECO_RANGE
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# TRefPointerCollection::Add method
+# TRefPointerCollection::Add
 
 
 ## -description

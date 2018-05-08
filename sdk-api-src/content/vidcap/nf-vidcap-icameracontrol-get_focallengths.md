@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.get_FocalLengths
-title: ICameraControl::get_FocalLengths method
+title: ICameraControl::get_FocalLengths
 author: windows-driver-content
 description: The get_FocalLengths method returns the focal lengths of the camera lenses.
 old-location: dshow\icameracontrol_get_focallengths.htm
 old-project: DirectShow
 ms.assetid: de566705-1f4b-4ffa-932d-a52521e6963b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_FocalLengths method, ICameraControl::get_FocalLengths, ICameraControlget_FocalLengths, dshow.icameracontrol_get_focallengths, get_FocalLengths method [DirectShow], get_FocalLengths method [DirectShow], ICameraControl interface, get_FocalLengths,ICameraControl.get_FocalLengths, vidcap/ICameraControl::get_FocalLengths
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],get_FocalLengths method, ICameraControl.get_FocalLengths, ICameraControl::get_FocalLengths, ICameraControlget_FocalLengths, dshow.icameracontrol_get_focallengths, get_FocalLengths, get_FocalLengths method [DirectShow], get_FocalLengths method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_FocalLengths
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::get_FocalLengths method
+# ICameraControl::get_FocalLengths
 
 
 ## -description

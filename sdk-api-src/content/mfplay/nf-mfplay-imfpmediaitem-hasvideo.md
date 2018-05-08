@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.HasVideo
-title: IMFPMediaItem::HasVideo method
+title: IMFPMediaItem::HasVideo
 author: windows-driver-content
 description: Queries whether the media item contains a video stream.
 old-location: mf\imfpmediaitem_hasvideo.htm
 old-project: medfound
 ms.assetid: 6dc8a85c-25e4-4da7-965d-c8882514fc7d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: HasVideo method [Media Foundation], HasVideo method [Media Foundation], IMFPMediaItem interface, HasVideo,IMFPMediaItem.HasVideo, IMFPMediaItem, IMFPMediaItem interface [Media Foundation], HasVideo method, IMFPMediaItem::HasVideo, mf.imfpmediaitem_hasvideo, mfplay/IMFPMediaItem::HasVideo
+ms.date: 5/3/2018
+ms.keywords: HasVideo, HasVideo method [Media Foundation], HasVideo method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],HasVideo method, IMFPMediaItem.HasVideo, IMFPMediaItem::HasVideo, mf.imfpmediaitem_hasvideo, mfplay/IMFPMediaItem::HasVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaItem::HasVideo method
+# IMFPMediaItem::HasVideo
 
 
 ## -description

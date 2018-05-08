@@ -8,7 +8,7 @@ old-project: directcomp
 ms.assetid: feccfc61-31e6-362a-1e81-0650736b962a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: SetGreenTableValue, SetGreenTableValue methods [DirectComposition], dcomp/SetGreenTableValue, directcomp.idcompositiontabletransfereffect_setgreentablevalue_overloaded
+ms.keywords: IDCompositionTableTransferEffect::SetGreenTableValue, SetGreenTableValue, SetGreenTableValue methods [DirectComposition], dcomp/SetGreenTableValue, directcomp.idcompositiontabletransfereffect_setgreentablevalue_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

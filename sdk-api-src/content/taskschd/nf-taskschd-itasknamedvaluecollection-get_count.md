@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.get_Count
-title: ITaskNamedValueCollection::get_Count method
+title: ITaskNamedValueCollection::get_Count
 author: windows-driver-content
 description: Gets the number of name-value pairs in the collection.
 old-location: taskschd\itasknamedvaluecollection_count.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: aedb4d3d-0f72-4224-8488-4100d2416994
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler], ITaskNamedValueCollection interface, ITaskNamedValueCollection, ITaskNamedValueCollection interface [Task Scheduler], Count property, ITaskNamedValueCollection.Count, ITaskNamedValueCollection::get_Count, get_Count,ITaskNamedValueCollection.get_Count, taskschd.itasknamedvaluecollection_count, taskschd/ITaskNamedValueCollection::Count, taskschd/ITaskNamedValueCollection::get_Count
+ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Count property, ITaskNamedValueCollection.Count, ITaskNamedValueCollection.get_Count, ITaskNamedValueCollection::Count, ITaskNamedValueCollection::get_Count, get_Count, taskschd.itasknamedvaluecollection_count, taskschd/ITaskNamedValueCollection::Count, taskschd/ITaskNamedValueCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITaskNamedValueCollection::get_Count method
+# ITaskNamedValueCollection::get_Count
 
 
 ## -description

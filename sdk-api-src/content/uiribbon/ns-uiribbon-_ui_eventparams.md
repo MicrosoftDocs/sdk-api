@@ -63,12 +63,12 @@ Contains information about a <a href="https://msdn.microsoft.com/51083180-4e86-4
 One of the values from <a href="https://msdn.microsoft.com/424C833C-E6D6-4532-8CF1-A294B429CC21">UI_EVENTTYPE</a>.
 
 
-#### - Modes
+### -field Modes
 
 The application modes.
 
 
-#### - Params
+### -field Params
 
 The <a href="https://msdn.microsoft.com/f332423d-d258-488d-9233-71687288b462">Command</a> associated with the event.
 

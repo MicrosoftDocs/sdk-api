@@ -1,14 +1,14 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.SetObject
-title: IDsAdminNewObjExt::SetObject method
+title: IDsAdminNewObjExt::SetObject
 author: windows-driver-content
 description: The IDsAdminNewObjExt::SetObject method provides the object creation extension with a pointer to the directory object created.
 old-location: ad\idsadminnewobjext_setobject.htm
 old-project: AD
 ms.assetid: e6dbb0ed-e20e-49c7-8247-d5688be93d8e
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: IDsAdminNewObjExt, IDsAdminNewObjExt interface [Active Directory], SetObject method, IDsAdminNewObjExt::SetObject, SetObject method [Active Directory], SetObject method [Active Directory], IDsAdminNewObjExt interface, SetObject,IDsAdminNewObjExt.SetObject, _glines_idsadminnewobjext_setobject, ad.idsadminnewobjext__setobject, ad.idsadminnewobjext_setobject, dsadmin/IDsAdminNewObjExt::SetObject
+ms.date: 5/1/2018
+ms.keywords: IDsAdminNewObjExt interface [Active Directory],SetObject method, IDsAdminNewObjExt.SetObject, IDsAdminNewObjExt::SetObject, SetObject, SetObject method [Active Directory], SetObject method [Active Directory],IDsAdminNewObjExt interface, _glines_idsadminnewobjext_setobject, ad.idsadminnewobjext__setobject, ad.idsadminnewobjext_setobject, dsadmin/IDsAdminNewObjExt::SetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: DSAdmin.dll
 req.irql: 
 ---
 
-# IDsAdminNewObjExt::SetObject method
+# IDsAdminNewObjExt::SetObject
 
 
 ## -description

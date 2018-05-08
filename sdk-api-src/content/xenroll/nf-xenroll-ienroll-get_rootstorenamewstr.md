@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.IEnroll.get_RootStoreNameWStr
-title: IEnroll::get_RootStoreNameWStr method
+title: IEnroll::get_RootStoreNameWStr
 author: windows-driver-content
 description: The RootStoreNameWStr property of IEnroll4 sets or retrieves the name of the root store where all intrinsically trusted, self-signed root certificates are kept.
 old-location: security\ienroll4_rootstorenamewstr.htm
 old-project: SecCrypto
 ms.assetid: d1b60ba4-974e-43d4-a8f9-8ca619d6b878
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IEnroll, IEnroll interface [Security], RootStoreNameWStr property, IEnroll.RootStoreNameWStr, IEnroll::get_RootStoreNameWStr, IEnroll::put_RootStoreNameWStr, RootStoreNameWStr property [Security], RootStoreNameWStr property [Security], IEnroll interface, get_RootStoreNameWStr,IEnroll.get_RootStoreNameWStr, security.ienroll4_rootstorenamewstr, xenroll/IEnroll::RootStoreNameWStr, xenroll/IEnroll::get_RootStoreNameWStr, xenroll/IEnroll::put_RootStoreNameWStr
+ms.date: 4/30/2018
+ms.keywords: IEnroll interface [Security],RootStoreNameWStr property, IEnroll.RootStoreNameWStr, IEnroll.get_RootStoreNameWStr, IEnroll::RootStoreNameWStr, IEnroll::get_RootStoreNameWStr, IEnroll::put_RootStoreNameWStr, RootStoreNameWStr property [Security], RootStoreNameWStr property [Security],IEnroll interface, get_RootStoreNameWStr, security.ienroll4_rootstorenamewstr, xenroll/IEnroll::RootStoreNameWStr, xenroll/IEnroll::get_RootStoreNameWStr, xenroll/IEnroll::put_RootStoreNameWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IEnroll::get_RootStoreNameWStr method
+# IEnroll::get_RootStoreNameWStr
 
 
 ## -description

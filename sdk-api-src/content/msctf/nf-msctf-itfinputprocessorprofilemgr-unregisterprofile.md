@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.UnregisterProfile
-title: ITfInputProcessorProfileMgr::UnregisterProfile method
+title: ITfInputProcessorProfileMgr::UnregisterProfile
 author: windows-driver-content
 description: The ITfInputProcessorProfileMgr::UnregisterProfile method unregisters the text service and the profile.
 old-location: tsf\itfinputprocessorprofilemgr_unregisterprofile.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 7b05beea-991a-406f-a08d-28cdd87c9d7d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfInputProcessorProfileMgr, ITfInputProcessorProfileMgr interface [Text Services Framework], UnregisterProfile method, ITfInputProcessorProfileMgr::UnregisterProfile, TF_URP_ALLPROFILES, TF_URP_LOCALPROCESS, TF_URP_LOCALTHREAD, UnregisterProfile method [Text Services Framework], UnregisterProfile method [Text Services Framework], ITfInputProcessorProfileMgr interface, UnregisterProfile,ITfInputProcessorProfileMgr.UnregisterProfile, msctf/ITfInputProcessorProfileMgr::UnregisterProfile, tsf.itfinputprocessorprofilemgr_unregisterprofile
+ms.keywords: ITfInputProcessorProfileMgr interface [Text Services Framework],UnregisterProfile method, ITfInputProcessorProfileMgr.UnregisterProfile, ITfInputProcessorProfileMgr::UnregisterProfile, TF_URP_ALLPROFILES, TF_URP_LOCALPROCESS, TF_URP_LOCALTHREAD, UnregisterProfile, UnregisterProfile method [Text Services Framework], UnregisterProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, msctf/ITfInputProcessorProfileMgr::UnregisterProfile, tsf.itfinputprocessorprofilemgr_unregisterprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfileMgr::UnregisterProfile method
+# ITfInputProcessorProfileMgr::UnregisterProfile
 
 
 ## -description

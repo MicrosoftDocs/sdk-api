@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSOM.CreateGPOLink
-title: IGPMSOM::CreateGPOLink method
+title: IGPMSOM::CreateGPOLink
 author: windows-driver-content
 description: Links the specified GPO to the specified position in the list of GPOs that are linked to a particular SOM.
 old-location: gpmc\igpmsom_creategpolink.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: 2f3d8234-617f-4ce4-846a-476c28251989
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: CreateGPOLink method [GPMC], CreateGPOLink method [GPMC], GPMSOM class, CreateGPOLink method [GPMC], IGPMSOM interface, CreateGPOLink,IGPMSOM.CreateGPOLink, GPMSOM class [GPMC], CreateGPOLink method, IGPMSOM, IGPMSOM interface [GPMC], CreateGPOLink method, IGPMSOM::CreateGPOLink, _win32_igpmsom_creategpolink, gpmc.igpmsom_creategpolink, gpmgmt/IGPMSOM::CreateGPOLink
+ms.keywords: CreateGPOLink, CreateGPOLink method [GPMC], CreateGPOLink method [GPMC],GPMSOM class, CreateGPOLink method [GPMC],IGPMSOM interface, GPMSOM class [GPMC],CreateGPOLink method, IGPMSOM interface [GPMC],CreateGPOLink method, IGPMSOM.CreateGPOLink, IGPMSOM::CreateGPOLink, _win32_igpmsom_creategpolink, gpmc.igpmsom_creategpolink, gpmgmt/IGPMSOM::CreateGPOLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMSOM::CreateGPOLink method
+# IGPMSOM::CreateGPOLink
 
 
 ## -description

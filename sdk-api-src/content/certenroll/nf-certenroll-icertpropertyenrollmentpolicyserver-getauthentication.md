@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetAuthentication
-title: ICertPropertyEnrollmentPolicyServer::GetAuthentication method
+title: ICertPropertyEnrollmentPolicyServer::GetAuthentication
 author: windows-driver-content
 description: The GetAuthentication method retrieves a value that specifies the type of authentication used by the certificate enrollment policy (CEP) server to authenticate a client. This value is set by the Initialize method.
 old-location: security\icertpropertyenrollmentpolicyserver_getauthentication.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 56f6e7b8-4ed2-47fe-bc57-e238668c5264
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetAuthentication method [Security], GetAuthentication method [Security], ICertPropertyEnrollmentPolicyServer interface, GetAuthentication,ICertPropertyEnrollmentPolicyServer.GetAuthentication, ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], GetAuthentication method, ICertPropertyEnrollmentPolicyServer::GetAuthentication, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/ICertPropertyEnrollmentPolicyServer::GetAuthentication, security.icertpropertyenrollmentpolicyserver_getauthentication
+ms.keywords: GetAuthentication, GetAuthentication method [Security], GetAuthentication method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetAuthentication method, ICertPropertyEnrollmentPolicyServer.GetAuthentication, ICertPropertyEnrollmentPolicyServer::GetAuthentication, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/ICertPropertyEnrollmentPolicyServer::GetAuthentication, security.icertpropertyenrollmentpolicyserver_getauthentication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICertPropertyEnrollmentPolicyServer::GetAuthentication method
+# ICertPropertyEnrollmentPolicyServer::GetAuthentication
 
 
 ## -description

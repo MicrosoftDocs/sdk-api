@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GatherWriterMetadata
-title: IVssBackupComponents::GatherWriterMetadata method
+title: IVssBackupComponents::GatherWriterMetadata
 author: windows-driver-content
 description: The GatherWriterMetadata method prompts each writer to send the metadata they have collected. The method will generate an Identify event to communicate with writers.
 old-location: base\ivssbackupcomponents_gatherwritermetadata.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 44f19c10-c966-4ab6-98dd-865d535955db
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GatherWriterMetadata method [VSS], GatherWriterMetadata method [VSS], IVssBackupComponents interface, GatherWriterMetadata,IVssBackupComponents.GatherWriterMetadata, IVssBackupComponents, IVssBackupComponents interface [VSS], GatherWriterMetadata method, IVssBackupComponents::GatherWriterMetadata, _win32_ivssbackupcomponents_gatherwritermetadata, base.ivssbackupcomponents_gatherwritermetadata, vsbackup/IVssBackupComponents::GatherWriterMetadata
+ms.keywords: GatherWriterMetadata, GatherWriterMetadata method [VSS], GatherWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterMetadata method, IVssBackupComponents.GatherWriterMetadata, IVssBackupComponents::GatherWriterMetadata, _win32_ivssbackupcomponents_gatherwritermetadata, base.ivssbackupcomponents_gatherwritermetadata, vsbackup/IVssBackupComponents::GatherWriterMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVssBackupComponents::GatherWriterMetadata method
+# IVssBackupComponents::GatherWriterMetadata
 
 
 ## -description

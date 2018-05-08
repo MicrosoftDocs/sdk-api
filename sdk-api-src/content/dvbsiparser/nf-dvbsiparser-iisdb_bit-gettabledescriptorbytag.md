@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetTableDescriptorByTag
-title: IISDB_BIT::GetTableDescriptorByTag method
+title: IISDB_BIT::GetTableDescriptorByTag
 author: windows-driver-content
 description: Searches a subtable in for an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_gettabledescriptorbytag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ef54b6bc-7150-4246-8058-4e57f25c2ad3
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies], IISDB_BIT interface, GetTableDescriptorByTag,IISDB_BIT.GetTableDescriptorByTag, IISDB_BIT, IISDB_BIT interface [Microsoft TV Technologies], GetTableDescriptorByTag method, IISDB_BIT::GetTableDescriptorByTag, dvbsiparser/IISDB_BIT::GetTableDescriptorByTag, mstv.iisdb_bit_gettabledescriptorbytag
+ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IISDB_BIT.GetTableDescriptorByTag, IISDB_BIT::GetTableDescriptorByTag, dvbsiparser/IISDB_BIT::GetTableDescriptorByTag, mstv.iisdb_bit_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_BIT::GetTableDescriptorByTag method
+# IISDB_BIT::GetTableDescriptorByTag
 
 
 ## -description

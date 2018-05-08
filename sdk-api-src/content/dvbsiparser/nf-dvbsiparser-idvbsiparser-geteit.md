@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetEIT
-title: IDvbSiParser::GetEIT method
+title: IDvbSiParser::GetEIT
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_geteit.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: fd1c0418-2bec-4270-be4b-3877428e3968
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetEIT method [Microsoft TV Technologies], GetEIT method [Microsoft TV Technologies], IDvbSiParser interface, GetEIT,IDvbSiParser.GetEIT, IDvbSiParser, IDvbSiParser interface [Microsoft TV Technologies], GetEIT method, IDvbSiParser::GetEIT, IDvbSiParserGetEIT, dvbsiparser/IDvbSiParser::GetEIT, mstv.idvbsiparser_geteit
+ms.keywords: GetEIT, GetEIT method [Microsoft TV Technologies], GetEIT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetEIT method, IDvbSiParser.GetEIT, IDvbSiParser::GetEIT, IDvbSiParserGetEIT, dvbsiparser/IDvbSiParser::GetEIT, mstv.idvbsiparser_geteit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbSiParser::GetEIT method
+# IDvbSiParser::GetEIT
 
 
 ## -description

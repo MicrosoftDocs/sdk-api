@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMNotificationClient.OnDeviceStateChanged
-title: IMMNotificationClient::OnDeviceStateChanged method
+title: IMMNotificationClient::OnDeviceStateChanged
 author: windows-driver-content
 description: The OnDeviceStateChanged method indicates that the state of an audio endpoint device has changed.
 old-location: coreaudio\immnotificationclient_ondevicestatechanged.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 4725a300-c84b-40cd-93a6-6ef6c8e89708
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IMMNotificationClient, IMMNotificationClient interface [Core Audio], OnDeviceStateChanged method, IMMNotificationClient::OnDeviceStateChanged, IMMNotificationClientOnDeviceStateChanged, OnDeviceStateChanged method [Core Audio], OnDeviceStateChanged method [Core Audio], IMMNotificationClient interface, OnDeviceStateChanged,IMMNotificationClient.OnDeviceStateChanged, coreaudio.immnotificationclient_ondevicestatechanged, mmdeviceapi/IMMNotificationClient::OnDeviceStateChanged
+ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceStateChanged method, IMMNotificationClient.OnDeviceStateChanged, IMMNotificationClient::OnDeviceStateChanged, IMMNotificationClientOnDeviceStateChanged, OnDeviceStateChanged, OnDeviceStateChanged method [Core Audio], OnDeviceStateChanged method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondevicestatechanged, mmdeviceapi/IMMNotificationClient::OnDeviceStateChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMMNotificationClient::OnDeviceStateChanged method
+# IMMNotificationClient::OnDeviceStateChanged
 
 
 ## -description

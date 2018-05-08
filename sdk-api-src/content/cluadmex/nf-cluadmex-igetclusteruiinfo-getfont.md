@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetFont
-title: IGetClusterUIInfo::GetFont method
+title: IGetClusterUIInfo::GetFont
 author: windows-driver-content
 description: Returns a handle to the font to be displayed on property and wizard pages.
 old-location: mscs\igetclusteruiinfo_getfont.htm
@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 87dc900d-eee3-4e48-8294-a1d5c3a95179
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: GetFont method [Failover Cluster], GetFont method [Failover Cluster], IGetClusterUIInfo interface, GetFont,IGetClusterUIInfo.GetFont, IGetClusterUIInfo, IGetClusterUIInfo interface [Failover Cluster], GetFont method, IGetClusterUIInfo::GetFont, _wolf_igetclusteruiinfo_getfont, cluadmex/IGetClusterUIInfo::GetFont, mscs.igetclusteruiinfo_getfont
+ms.keywords: GetFont, GetFont method [Failover Cluster], GetFont method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetFont method, IGetClusterUIInfo.GetFont, IGetClusterUIInfo::GetFont, _wolf_igetclusteruiinfo_getfont, cluadmex/IGetClusterUIInfo::GetFont, mscs.igetclusteruiinfo_getfont
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IGetClusterUIInfo::GetFont method
+# IGetClusterUIInfo::GetFont
 
 
 ## -description

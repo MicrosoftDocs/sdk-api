@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestDeviceCapabilitiesEnumerator.GetCurrent
-title: IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent method
+title: IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent
 author: windows-driver-content
 description: Gets the device capability at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator_getcurrent.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: B9686070-645E-4F8A-8A1A-3DB80AEF4FF5
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCurrent method [App packaging and management], GetCurrent method [App packaging and management], IAppxManifestDeviceCapabilitiesEnumerator interface, GetCurrent,IAppxManifestDeviceCapabilitiesEnumerator.GetCurrent, IAppxManifestDeviceCapabilitiesEnumerator, IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management], GetCurrent method, IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent, appxpkg.iappxmanifestdevicecapabilitiesenumerator_getcurrent
+ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxManifestDeviceCapabilitiesEnumerator interface, IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],GetCurrent method, IAppxManifestDeviceCapabilitiesEnumerator.GetCurrent, IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent, appxpkg.iappxmanifestdevicecapabilitiesenumerator_getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent method
+# IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent
 
 
 ## -description

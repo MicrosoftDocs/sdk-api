@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: 2e93583a-59a8-4a0f-9299-ed57fdcebf33
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IDirectDrawClipper, IDirectDrawClipper interface [DirectDraw], IDirectDrawClipper interface [DirectDraw], described, ddraw/IDirectDrawClipper, directdraw.idirectdrawclipper
+ms.keywords: IDirectDrawClipper, IDirectDrawClipper interface [DirectDraw], IDirectDrawClipper interface [DirectDraw],described, ddraw/IDirectDrawClipper, directdraw.idirectdrawclipper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

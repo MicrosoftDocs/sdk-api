@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetExpectedPacketCount
-title: IWMProfile3::GetExpectedPacketCount method
+title: IWMProfile3::GetExpectedPacketCount
 author: windows-driver-content
 description: The GetExpectedPacketCount method calculates the expected packet count for the specified duration. The packet count returned is only an estimate, and it is based upon the settings of the profile at the time this call is made.
 old-location: wmformat\iwmprofile3_getexpectedpacketcount.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: ddab3735-06a1-4e03-9abc-0fca635ef759
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetExpectedPacketCount method [windows Media Format], GetExpectedPacketCount method [windows Media Format], IWMProfile3 interface, GetExpectedPacketCount,IWMProfile3.GetExpectedPacketCount, IWMProfile3, IWMProfile3 interface [windows Media Format], GetExpectedPacketCount method, IWMProfile3::GetExpectedPacketCount, IWMProfile3GetExpectedPacketCount, wmformat.iwmprofile3_getexpectedpacketcount, wmsdkidl/IWMProfile3::GetExpectedPacketCount
+ms.keywords: GetExpectedPacketCount, GetExpectedPacketCount method [windows Media Format], GetExpectedPacketCount method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetExpectedPacketCount method, IWMProfile3.GetExpectedPacketCount, IWMProfile3::GetExpectedPacketCount, IWMProfile3GetExpectedPacketCount, wmformat.iwmprofile3_getexpectedpacketcount, wmsdkidl/IWMProfile3::GetExpectedPacketCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMProfile3::GetExpectedPacketCount method
+# IWMProfile3::GetExpectedPacketCount
 
 
 ## -description

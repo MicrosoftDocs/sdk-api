@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IMarshal.DisconnectObject
-title: IMarshal::DisconnectObject method
+title: IMarshal::DisconnectObject
 author: windows-driver-content
 description: Releases all connections to an object. The object's server calls the object's implementation of this method prior to shutting down.
 old-location: com\imarshal_disconnectobject.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 1a087fe2-d1ad-4ed9-b6f2-12389656e384
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: DisconnectObject method [COM], DisconnectObject method [COM], IMarshal interface, DisconnectObject,IMarshal.DisconnectObject, IMarshal, IMarshal interface [COM], DisconnectObject method, IMarshal::DisconnectObject, _com_imarshal_disconnectobject, com.imarshal_disconnectobject, objidlbase/IMarshal::DisconnectObject
+ms.keywords: DisconnectObject, DisconnectObject method [COM], DisconnectObject method [COM],IMarshal interface, IMarshal interface [COM],DisconnectObject method, IMarshal.DisconnectObject, IMarshal::DisconnectObject, _com_imarshal_disconnectobject, com.imarshal_disconnectobject, objidlbase/IMarshal::DisconnectObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMarshal::DisconnectObject method
+# IMarshal::DisconnectObject
 
 
 ## -description

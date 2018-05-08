@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_ExposureRelative
-title: ICameraControl::getRange_ExposureRelative method
+title: ICameraControl::getRange_ExposureRelative
 author: windows-driver-content
 description: The getRange_ExposureRelative method returns the range of relative exposure times supported by the camera. The relative exposure time is expressed as a number of steps, where the absolute value of each step depends on the camera model.
 old-location: dshow\icameracontrol_getrange_exposurerelative.htm
 old-project: DirectShow
 ms.assetid: ab46e893-037a-42bb-a3ae-bef943cd6a5e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], getRange_ExposureRelative method, ICameraControl::getRange_ExposureRelative, ICameraControlgetRange_ExposureRelative, dshow.icameracontrol_getrange_exposurerelative, getRange_ExposureRelative method [DirectShow], getRange_ExposureRelative method [DirectShow], ICameraControl interface, getRange_ExposureRelative,ICameraControl.getRange_ExposureRelative, vidcap/ICameraControl::getRange_ExposureRelative
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],getRange_ExposureRelative method, ICameraControl.getRange_ExposureRelative, ICameraControl::getRange_ExposureRelative, ICameraControlgetRange_ExposureRelative, dshow.icameracontrol_getrange_exposurerelative, getRange_ExposureRelative, getRange_ExposureRelative method [DirectShow], getRange_ExposureRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_ExposureRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::getRange_ExposureRelative method
+# ICameraControl::getRange_ExposureRelative
 
 
 ## -description

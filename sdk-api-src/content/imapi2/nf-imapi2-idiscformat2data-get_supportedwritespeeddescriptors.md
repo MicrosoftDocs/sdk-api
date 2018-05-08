@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_SupportedWriteSpeedDescriptors
-title: IDiscFormat2Data::get_SupportedWriteSpeedDescriptors method
+title: IDiscFormat2Data::get_SupportedWriteSpeedDescriptors
 author: windows-driver-content
 description: Retrieves a list of the detailed write configurations supported by the disc recorder and current media.
 old-location: imapi\idiscformat2data_get_supportedwritespeeddescriptors.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 9eb84ec6-900a-45ba-9111-9c9c6b3f5bb2
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], get_SupportedWriteSpeedDescriptors method, IDiscFormat2Data::get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors method [IMAPI], get_SupportedWriteSpeedDescriptors method [IMAPI], IDiscFormat2Data interface, get_SupportedWriteSpeedDescriptors,IDiscFormat2Data.get_SupportedWriteSpeedDescriptors, imapi.idiscformat2data_get_supportedwritespeeddescriptors, imapi2/IDiscFormat2Data::get_SupportedWriteSpeedDescriptors
+ms.keywords: IDiscFormat2Data interface [IMAPI],get_SupportedWriteSpeedDescriptors method, IDiscFormat2Data.get_SupportedWriteSpeedDescriptors, IDiscFormat2Data::get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors method [IMAPI], get_SupportedWriteSpeedDescriptors method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_supportedwritespeeddescriptors, imapi2/IDiscFormat2Data::get_SupportedWriteSpeedDescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Data::get_SupportedWriteSpeedDescriptors method
+# IDiscFormat2Data::get_SupportedWriteSpeedDescriptors
 
 
 ## -description

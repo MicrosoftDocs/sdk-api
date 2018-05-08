@@ -1,14 +1,14 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.TextInserted
-title: ITextInputPanelEventSink::TextInserted method
+title: ITextInputPanelEventSink::TextInserted
 author: windows-driver-content
 description: Occurs when the Tablet PC Input Panel has inserted text into the control with input focus. Provides access to the ink the user entered in the Input Panel.
 old-location: tablet\itextinputpaneleventsink_textinserted.htm
 old-project: tablet
 ms.assetid: 61f3c21f-8658-421b-8494-d39a2faacc66
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: 61f3c21f-8658-421b-8494-d39a2faacc66, ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], TextInserted method, ITextInputPanelEventSink::TextInserted, TextInserted method [Tablet PC], TextInserted method [Tablet PC], ITextInputPanelEventSink interface, TextInserted,ITextInputPanelEventSink.TextInserted, peninputpanel/ITextInputPanelEventSink::TextInserted, tablet.itextinputpaneleventsink_textinserted
+ms.date: 5/2/2018
+ms.keywords: 61f3c21f-8658-421b-8494-d39a2faacc66, ITextInputPanelEventSink interface [Tablet PC],TextInserted method, ITextInputPanelEventSink.TextInserted, ITextInputPanelEventSink::TextInserted, TextInserted, TextInserted method [Tablet PC], TextInserted method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::TextInserted, tablet.itextinputpaneleventsink_textinserted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITextInputPanelEventSink::TextInserted method
+# ITextInputPanelEventSink::TextInserted
 
 
 ## -description

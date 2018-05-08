@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.GetCapture
-title: IOleInPlaceSiteWindowless::GetCapture method
+title: IOleInPlaceSiteWindowless::GetCapture
 author: windows-driver-content
 description: Called by an in-place active, windowless object to determine whether it still has the mouse capture.
 old-location: com\ioleinplacesitewindowless_getcapture.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: adbe9c66-d716-4489-b705-43a5317c7646
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetCapture method [COM], GetCapture method [COM], IOleInPlaceSiteWindowless interface, GetCapture,IOleInPlaceSiteWindowless.GetCapture, IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], GetCapture method, IOleInPlaceSiteWindowless::GetCapture, _ole_ioleinplacesitewindowless_getcapture, com.ioleinplacesitewindowless_getcapture, ocidl/IOleInPlaceSiteWindowless::GetCapture
+ms.keywords: GetCapture, GetCapture method [COM], GetCapture method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetCapture method, IOleInPlaceSiteWindowless.GetCapture, IOleInPlaceSiteWindowless::GetCapture, _ole_ioleinplacesitewindowless_getcapture, com.ioleinplacesitewindowless_getcapture, ocidl/IOleInPlaceSiteWindowless::GetCapture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSiteWindowless::GetCapture method
+# IOleInPlaceSiteWindowless::GetCapture
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: wmp\iwmpwindowmessagesink__deprecated.htm
 old-project: WMP
 ms.assetid: b601816f-17eb-4195-9c2e-5adcf2c8663e
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPWindowMessageSink, IWMPWindowMessageSink (deprecated), IWMPWindowMessageSink (deprecated) interface [Windows Media Player], IWMPWindowMessageSink (deprecated) interface [Windows Media Player], described, IWMPWindowMessageSinkInterfaceRendering, wmp.iwmpwindowmessagesink__deprecated, wmprealestate/IWMPWindowMessageSink (deprecated)
+ms.date: 5/2/2018
+ms.keywords: IWMPWindowMessageSink, IWMPWindowMessageSink (deprecated), IWMPWindowMessageSink (deprecated) interface [Windows Media Player], IWMPWindowMessageSink (deprecated) interface [Windows Media Player],described, IWMPWindowMessageSinkInterfaceRendering, wmp.iwmpwindowmessagesink__deprecated, wmprealestate/IWMPWindowMessageSink (deprecated)
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -7,7 +7,7 @@ old-location: ad\adspropcreatenotifyobj.htm
 old-project: AD
 ms.assetid: bfca3801-0d24-4177-8173-b6bf4b854fae
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/1/2018
 ms.keywords: ADsPropCreateNotifyObj, ADsPropCreateNotifyObj function [Active Directory], ad.adspropcreatenotifyobj, adsprop/ADsPropCreateNotifyObj
 ms.prod: windows-hardware
 ms.technology: windows-devices

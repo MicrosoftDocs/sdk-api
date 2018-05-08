@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.get_CarrierFrequency
-title: ILocator::get_CarrierFrequency method
+title: ILocator::get_CarrierFrequency
 author: windows-driver-content
 description: The get_CarrierFrequency method gets the frequency of the RF signal.
 old-location: mstv\ilocator_get_carrierfrequency.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 15f6d54c-81c8-40d3-937f-c54102f3a230
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ILocator, ILocator interface [Microsoft TV Technologies], get_CarrierFrequency method, ILocator::get_CarrierFrequency, ILocatorget_CarrierFrequency, get_CarrierFrequency method [Microsoft TV Technologies], get_CarrierFrequency method [Microsoft TV Technologies], ILocator interface, get_CarrierFrequency,ILocator.get_CarrierFrequency, mstv.ilocator_get_carrierfrequency, tuner/ILocator::get_CarrierFrequency
+ms.keywords: ILocator interface [Microsoft TV Technologies],get_CarrierFrequency method, ILocator.get_CarrierFrequency, ILocator::get_CarrierFrequency, ILocatorget_CarrierFrequency, get_CarrierFrequency, get_CarrierFrequency method [Microsoft TV Technologies], get_CarrierFrequency method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_carrierfrequency, tuner/ILocator::get_CarrierFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILocator::get_CarrierFrequency method
+# ILocator::get_CarrierFrequency
 
 
 ## -description

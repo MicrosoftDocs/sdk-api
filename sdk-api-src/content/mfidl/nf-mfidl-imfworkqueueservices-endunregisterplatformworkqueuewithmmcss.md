@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.EndUnregisterPlatformWorkQueueWithMMCSS
-title: IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS method
+title: IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS
 author: windows-driver-content
 description: Completes an asynchronous request to unregister a platform work queue from a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\imfworkqueueservices_endunregisterplatformworkqueuewithmmcss.htm
 old-project: medfound
 ms.assetid: e6cce9d8-7f6c-4835-96a4-a2e836c61d08
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: EndUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation], EndUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation], IMFWorkQueueServices interface, EndUnregisterPlatformWorkQueueWithMMCSS,IMFWorkQueueServices.EndUnregisterPlatformWorkQueueWithMMCSS, IMFWorkQueueServices, IMFWorkQueueServices interface [Media Foundation], EndUnregisterPlatformWorkQueueWithMMCSS method, IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS, e6cce9d8-7f6c-4835-96a4-a2e836c61d08, mf.imfworkqueueservices_endunregisterplatformworkqueuewithmmcss, mfidl/IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS
+ms.date: 5/3/2018
+ms.keywords: EndUnregisterPlatformWorkQueueWithMMCSS, EndUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation], EndUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],EndUnregisterPlatformWorkQueueWithMMCSS method, IMFWorkQueueServices.EndUnregisterPlatformWorkQueueWithMMCSS, IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS, e6cce9d8-7f6c-4835-96a4-a2e836c61d08, mf.imfworkqueueservices_endunregisterplatformworkqueuewithmmcss, mfidl/IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS method
+# IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS
 
 
 ## -description

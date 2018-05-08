@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.VolumeStepUp
-title: IAudioEndpointVolume::VolumeStepUp method
+title: IAudioEndpointVolume::VolumeStepUp
 author: windows-driver-content
 description: The VolumeStepUp method increments, by one step, the volume level of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_volumestepup.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 35ed44cd-ba91-4b6a-b528-0e22df389d31
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], VolumeStepUp method, IAudioEndpointVolume::VolumeStepUp, IAudioEndpointVolumeVolumeStepUp, VolumeStepUp method [Core Audio], VolumeStepUp method [Core Audio], IAudioEndpointVolume interface, VolumeStepUp,IAudioEndpointVolume.VolumeStepUp, coreaudio.iaudioendpointvolume_volumestepup, endpointvolume/IAudioEndpointVolume::VolumeStepUp
+ms.keywords: IAudioEndpointVolume interface [Core Audio],VolumeStepUp method, IAudioEndpointVolume.VolumeStepUp, IAudioEndpointVolume::VolumeStepUp, IAudioEndpointVolumeVolumeStepUp, VolumeStepUp, VolumeStepUp method [Core Audio], VolumeStepUp method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_volumestepup, endpointvolume/IAudioEndpointVolume::VolumeStepUp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IAudioEndpointVolume::VolumeStepUp method
+# IAudioEndpointVolume::VolumeStepUp
 
 
 ## -description

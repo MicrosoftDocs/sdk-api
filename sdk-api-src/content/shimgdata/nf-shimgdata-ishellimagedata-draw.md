@@ -1,14 +1,14 @@
 ---
 UID: NF:shimgdata.IShellImageData.Draw
-title: IShellImageData::Draw method
+title: IShellImageData::Draw
 author: windows-driver-content
 description: Draws a decoded image.
 old-location: shell\IShellImageData_Draw.htm
 old-project: shell
 ms.assetid: 35989c3b-15b9-4503-a883-99df730b2a80
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Draw method [Windows Shell], Draw method [Windows Shell], IShellImageData interface, Draw,IShellImageData.Draw, IShellImageData, IShellImageData interface [Windows Shell], Draw method, IShellImageData::Draw, _shell_IShellImageData_Draw, shell.IShellImageData_Draw, shimgdata/IShellImageData::Draw
+ms.date: 5/3/2018
+ms.keywords: Draw, Draw method [Windows Shell], Draw method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],Draw method, IShellImageData.Draw, IShellImageData::Draw, _shell_IShellImageData_Draw, shell.IShellImageData_Draw, shimgdata/IShellImageData::Draw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IShellImageData::Draw method
+# IShellImageData::Draw
 
 
 ## -description

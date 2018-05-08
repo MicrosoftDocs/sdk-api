@@ -7,7 +7,7 @@ old-location: mf\createpropertystore.htm
 old-project: medfound
 ms.assetid: bb0d32ef-ec16-4341-8b66-d57ebec785f9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore function [Media Foundation], bb0d32ef-ec16-4341-8b66-d57ebec785f9, mf.createpropertystore, mfidl/CreatePropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

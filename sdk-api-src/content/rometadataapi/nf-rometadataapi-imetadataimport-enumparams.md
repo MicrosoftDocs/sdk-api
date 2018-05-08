@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumParams
-title: IMetaDataImport::EnumParams method
+title: IMetaDataImport::EnumParams
 author: windows-driver-content
 description: Enumerates ParamDef tokens representing the parameters of the method referenced by the specified MethodDef token.
 old-location: winrt\imetadataimport_enumparams.htm
 old-project: WinRT
 ms.assetid: 0d3cc66e-575d-4451-bab7-e3dd24fd5060
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumParams method [Windows Runtime], EnumParams method [Windows Runtime], IMetaDataImport interface, EnumParams,IMetaDataImport.EnumParams, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumParams method, IMetaDataImport::EnumParams, rometadataapi/IMetaDataImport::EnumParams, winrt.imetadataimport_enumparams
+ms.date: 5/4/2018
+ms.keywords: EnumParams, EnumParams method [Windows Runtime], EnumParams method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumParams method, IMetaDataImport.EnumParams, IMetaDataImport::EnumParams, rometadataapi/IMetaDataImport::EnumParams, winrt.imetadataimport_enumparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumParams method
+# IMetaDataImport::EnumParams
 
 
 ## -description

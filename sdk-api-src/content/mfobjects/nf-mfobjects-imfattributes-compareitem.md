@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAttributes.CompareItem
-title: IMFAttributes::CompareItem method
+title: IMFAttributes::CompareItem
 author: windows-driver-content
 description: Queries whether a stored attribute value equals to a specified PROPVARIANT.
 old-location: mf\imfattributes_compareitem.htm
 old-project: medfound
 ms.assetid: f0a6073b-fce6-4a1f-b7d1-ef6543e7648f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: CompareItem method [Media Foundation], CompareItem method [Media Foundation], IMFAttributes interface, CompareItem,IMFAttributes.CompareItem, IMFAttributes, IMFAttributes interface [Media Foundation], CompareItem method, IMFAttributes::CompareItem, f0a6073b-fce6-4a1f-b7d1-ef6543e7648f, mf.imfattributes_compareitem, mfobjects/IMFAttributes::CompareItem
+ms.date: 5/3/2018
+ms.keywords: CompareItem, CompareItem method [Media Foundation], CompareItem method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],CompareItem method, IMFAttributes.CompareItem, IMFAttributes::CompareItem, f0a6073b-fce6-4a1f-b7d1-ef6543e7648f, mf.imfattributes_compareitem, mfobjects/IMFAttributes::CompareItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAttributes::CompareItem method
+# IMFAttributes::CompareItem
 
 
 ## -description

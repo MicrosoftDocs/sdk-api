@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IDesktopGadget.RunGadget
-title: IDesktopGadget::RunGadget method
+title: IDesktopGadget::RunGadget
 author: windows-driver-content
 description: Adds an installed gadget to the desktop.
 old-location: shell\IDesktopGadget_RunGadget.htm
 old-project: shell
 ms.assetid: 9243fd88-122f-40be-ab71-66c52fa99168
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDesktopGadget, IDesktopGadget interface [Windows Shell], RunGadget method, IDesktopGadget::RunGadget, RunGadget method [Windows Shell], RunGadget method [Windows Shell], IDesktopGadget interface, RunGadget,IDesktopGadget.RunGadget, _shell_IDesktopGadget_RunGadget, shell.IDesktopGadget_RunGadget, shobjidl/IDesktopGadget::RunGadget
+ms.date: 5/3/2018
+ms.keywords: IDesktopGadget interface [Windows Shell],RunGadget method, IDesktopGadget.RunGadget, IDesktopGadget::RunGadget, RunGadget, RunGadget method [Windows Shell], RunGadget method [Windows Shell],IDesktopGadget interface, _shell_IDesktopGadget_RunGadget, shell.IDesktopGadget_RunGadget, shobjidl/IDesktopGadget::RunGadget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IDesktopGadget::RunGadget method
+# IDesktopGadget::RunGadget
 
 
 ## -description

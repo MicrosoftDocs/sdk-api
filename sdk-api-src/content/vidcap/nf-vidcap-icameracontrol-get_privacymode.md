@@ -1,14 +1,14 @@
 ---
 UID: NF:vidcap.ICameraControl.get_PrivacyMode
-title: ICameraControl::get_PrivacyMode method
+title: ICameraControl::get_PrivacyMode
 author: windows-driver-content
 description: "."
 old-location: dshow\icameracontrol_get_privacymode.htm
 old-project: DirectShow
 ms.assetid: 22bec1da-65ca-4101-8f30-8fbb537e5678
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICameraControl, ICameraControl interface [DirectShow], get_PrivacyMode method, ICameraControl::get_PrivacyMode, ICameraControlget_PrivacyMode, dshow.icameracontrol_get_privacymode, get_PrivacyMode method [DirectShow], get_PrivacyMode method [DirectShow], ICameraControl interface, get_PrivacyMode,ICameraControl.get_PrivacyMode, vidcap/ICameraControl::get_PrivacyMode
+ms.date: 4/30/2018
+ms.keywords: ICameraControl interface [DirectShow],get_PrivacyMode method, ICameraControl.get_PrivacyMode, ICameraControl::get_PrivacyMode, ICameraControlget_PrivacyMode, dshow.icameracontrol_get_privacymode, get_PrivacyMode, get_PrivacyMode method [DirectShow], get_PrivacyMode method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_PrivacyMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# ICameraControl::get_PrivacyMode method
+# ICameraControl::get_PrivacyMode
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: shell\IsEqualPropertyKey.htm
 old-project: shell
 ms.assetid: 89218de5-95c8-440a-bde1-e4a0bc0d0549
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: IsEqualPropertyKey, IsEqualPropertyKey macro [Windows Shell], _shell_IsEqualPropertyKey, propkeydef/IsEqualPropertyKey, shell.IsEqualPropertyKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

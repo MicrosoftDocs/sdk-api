@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetEditInvitation
-title: IPropertyDescription::GetEditInvitation method
+title: IPropertyDescription::GetEditInvitation
 author: windows-driver-content
 description: Gets the text used in edit controls hosted in various dialog boxes.
 old-location: properties\IPropertyDescription_GetEditInvitation.htm
 old-project: properties
 ms.assetid: 4b7ce948-6501-4220-aa44-e7422e70d9e5
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetEditInvitation method [Windows Properties], GetEditInvitation method [Windows Properties], IPropertyDescription interface, GetEditInvitation,IPropertyDescription.GetEditInvitation, IPropertyDescription, IPropertyDescription interface [Windows Properties], GetEditInvitation method, IPropertyDescription::GetEditInvitation, properties.IPropertyDescription_GetEditInvitation, propsys/IPropertyDescription::GetEditInvitation, shell.IPropertyDescription_GetEditInvitation, shell_IPropertyDescription_GetEditInvitation
+ms.date: 4/27/2018
+ms.keywords: GetEditInvitation, GetEditInvitation method [Windows Properties], GetEditInvitation method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetEditInvitation method, IPropertyDescription.GetEditInvitation, IPropertyDescription::GetEditInvitation, properties.IPropertyDescription_GetEditInvitation, propsys/IPropertyDescription::GetEditInvitation, shell.IPropertyDescription_GetEditInvitation, shell_IPropertyDescription_GetEditInvitation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyDescription::GetEditInvitation method
+# IPropertyDescription::GetEditInvitation
 
 
 ## -description

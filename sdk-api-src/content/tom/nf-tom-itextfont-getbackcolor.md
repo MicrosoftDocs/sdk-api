@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.GetBackColor
-title: ITextFont::GetBackColor method
+title: ITextFont::GetBackColor
 author: windows-driver-content
 description: Gets the text background (highlight) color.
 old-location: controls\ITextFont_GetBackColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getbackcolor.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetBackColor method [Windows Controls], GetBackColor method [Windows Controls], ITextFont interface, GetBackColor,ITextFont.GetBackColor, ITextFont, ITextFont interface [Windows Controls], GetBackColor method, ITextFont::GetBackColor, _win32_ITextFont_GetBackColor, _win32_ITextFont_GetBackColor_cpp, controls.ITextFont_GetBackColor, controls._win32_ITextFont_GetBackColor, tom/ITextFont::GetBackColor
+ms.date: 4/27/2018
+ms.keywords: GetBackColor, GetBackColor method [Windows Controls], GetBackColor method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetBackColor method, ITextFont.GetBackColor, ITextFont::GetBackColor, _win32_ITextFont_GetBackColor, _win32_ITextFont_GetBackColor_cpp, controls.ITextFont_GetBackColor, controls._win32_ITextFont_GetBackColor, tom/ITextFont::GetBackColor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::GetBackColor method
+# ITextFont::GetBackColor
 
 
 ## -description

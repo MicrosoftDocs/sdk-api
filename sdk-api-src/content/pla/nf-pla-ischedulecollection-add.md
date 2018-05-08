@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IScheduleCollection.Add
-title: IScheduleCollection::Add method
+title: IScheduleCollection::Add
 author: windows-driver-content
 description: Adds a schedule to the collection.
 old-location: pla\ischedulecollection_add.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 92586c08-2f37-4462-b7cb-af58b6cfcecf
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Add method [PLA], Add method [PLA], IScheduleCollection interface, Add,IScheduleCollection.Add, IScheduleCollection, IScheduleCollection interface [PLA], Add method, IScheduleCollection::Add, base.ischedulecollection_add, pla.ischedulecollection_add, pla/IScheduleCollection::Add
+ms.keywords: Add, Add method [PLA], Add method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],Add method, IScheduleCollection.Add, IScheduleCollection::Add, base.ischedulecollection_add, pla.ischedulecollection_add, pla/IScheduleCollection::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduleCollection::Add method
+# IScheduleCollection::Add
 
 
 ## -description

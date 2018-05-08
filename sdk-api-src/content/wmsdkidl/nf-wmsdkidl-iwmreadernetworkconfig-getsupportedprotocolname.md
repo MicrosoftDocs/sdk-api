@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetSupportedProtocolName
-title: IWMReaderNetworkConfig::GetSupportedProtocolName method
+title: IWMReaderNetworkConfig::GetSupportedProtocolName
 author: windows-driver-content
 description: The GetSupportedProtocolName method retrieves a protocol name by index.
 old-location: wmformat\iwmreadernetworkconfig_getsupportedprotocolname.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: c1047752-c3a2-4555-9dae-ddd91365cd10
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetSupportedProtocolName method [windows Media Format], GetSupportedProtocolName method [windows Media Format], IWMReaderNetworkConfig interface, GetSupportedProtocolName,IWMReaderNetworkConfig.GetSupportedProtocolName, IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], GetSupportedProtocolName method, IWMReaderNetworkConfig::GetSupportedProtocolName, IWMReaderNetworkConfigGetSupportedProtocolName, wmformat.iwmreadernetworkconfig_getsupportedprotocolname, wmsdkidl/IWMReaderNetworkConfig::GetSupportedProtocolName
+ms.keywords: GetSupportedProtocolName, GetSupportedProtocolName method [windows Media Format], GetSupportedProtocolName method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetSupportedProtocolName method, IWMReaderNetworkConfig.GetSupportedProtocolName, IWMReaderNetworkConfig::GetSupportedProtocolName, IWMReaderNetworkConfigGetSupportedProtocolName, wmformat.iwmreadernetworkconfig_getsupportedprotocolname, wmsdkidl/IWMReaderNetworkConfig::GetSupportedProtocolName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderNetworkConfig::GetSupportedProtocolName method
+# IWMReaderNetworkConfig::GetSupportedProtocolName
 
 
 ## -description

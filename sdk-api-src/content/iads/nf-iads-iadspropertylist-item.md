@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyList.Item
-title: IADsPropertyList::Item method
+title: IADsPropertyList::Item
 author: windows-driver-content
 description: The IADsPropertyList::Item method retrieves the specified property item from the list.
 old-location: adsi\iadspropertylist_item.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 6e103872-ea2e-4178-9c8a-b958ae3bcf85
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsPropertyList, IADsPropertyList interface [ADSI], Item method, IADsPropertyList::Item, Item method [ADSI], Item method [ADSI], IADsPropertyList interface, Item,IADsPropertyList.Item, _ds_iadspropertylist_item, adsi.iadspropertylist__item, adsi.iadspropertylist_item, iads/IADsPropertyList::Item
+ms.keywords: IADsPropertyList interface [ADSI],Item method, IADsPropertyList.Item, IADsPropertyList::Item, Item, Item method [ADSI], Item method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_item, adsi.iadspropertylist__item, adsi.iadspropertylist_item, iads/IADsPropertyList::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsPropertyList::Item method
+# IADsPropertyList::Item
 
 
 ## -description

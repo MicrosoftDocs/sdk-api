@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetTextDecoration
-title: IMFTimedTextStyle::GetTextDecoration method
+title: IMFTimedTextStyle::GetTextDecoration
 author: windows-driver-content
 description: Gets how text is decorated for the timed-text style.
 old-location: mf\imftimedtextstyle_gettextdecoration.htm
 old-project: medfound
 ms.assetid: 5B987C19-5F59-4B5D-BA40-341FA4B3CD35
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTextDecoration method [Media Foundation], GetTextDecoration method [Media Foundation], IMFTimedTextStyle interface, GetTextDecoration,IMFTimedTextStyle.GetTextDecoration, IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], GetTextDecoration method, IMFTimedTextStyle::GetTextDecoration, mf.imftimedtextstyle_gettextdecoration, mfmediaengine/IMFTimedTextStyle::GetTextDecoration
+ms.date: 5/3/2018
+ms.keywords: GetTextDecoration, GetTextDecoration method [Media Foundation], GetTextDecoration method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextDecoration method, IMFTimedTextStyle.GetTextDecoration, IMFTimedTextStyle::GetTextDecoration, mf.imftimedtextstyle_gettextdecoration, mfmediaengine/IMFTimedTextStyle::GetTextDecoration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFTimedTextStyle::GetTextDecoration method
+# IMFTimedTextStyle::GetTextDecoration
 
 
 ## -description

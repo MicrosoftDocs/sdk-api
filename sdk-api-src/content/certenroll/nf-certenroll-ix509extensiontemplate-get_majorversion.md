@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionTemplate.get_MajorVersion
-title: IX509ExtensionTemplate::get_MajorVersion method
+title: IX509ExtensionTemplate::get_MajorVersion
 author: windows-driver-content
 description: Retrieves the minimum major version number of the certificate template.
 old-location: security\ix509extensiontemplate_majorversion_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 35057dbc-4518-4f76-bf82-9d9a8abe5525
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509ExtensionTemplate, IX509ExtensionTemplate interface [Security], MajorVersion property, IX509ExtensionTemplate.MajorVersion, IX509ExtensionTemplate::get_MajorVersion, MajorVersion property [Security], MajorVersion property [Security], IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::MajorVersion, certenroll/IX509ExtensionTemplate::get_MajorVersion, get_MajorVersion,IX509ExtensionTemplate.get_MajorVersion, security.ix509extensiontemplate_majorversion_property
+ms.keywords: IX509ExtensionTemplate interface [Security],MajorVersion property, IX509ExtensionTemplate.MajorVersion, IX509ExtensionTemplate.get_MajorVersion, IX509ExtensionTemplate::MajorVersion, IX509ExtensionTemplate::get_MajorVersion, MajorVersion property [Security], MajorVersion property [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::MajorVersion, certenroll/IX509ExtensionTemplate::get_MajorVersion, get_MajorVersion, security.ix509extensiontemplate_majorversion_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509ExtensionTemplate::get_MajorVersion method
+# IX509ExtensionTemplate::get_MajorVersion
 
 
 ## -description

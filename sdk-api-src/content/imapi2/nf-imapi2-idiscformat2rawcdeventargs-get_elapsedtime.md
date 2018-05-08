@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCDEventArgs.get_ElapsedTime
-title: IDiscFormat2RawCDEventArgs::get_ElapsedTime method
+title: IDiscFormat2RawCDEventArgs::get_ElapsedTime
 author: windows-driver-content
 description: Retrieves the total elapsed time of the write operation.
 old-location: imapi\idiscformat2rawcdeventargs_get_elapsedtime.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 87a1b606-f91b-4a14-b3b0-17d224d841fc
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2RawCDEventArgs, IDiscFormat2RawCDEventArgs interface [IMAPI], get_ElapsedTime method, IDiscFormat2RawCDEventArgs::get_ElapsedTime, get_ElapsedTime method [IMAPI], get_ElapsedTime method [IMAPI], IDiscFormat2RawCDEventArgs interface, get_ElapsedTime,IDiscFormat2RawCDEventArgs.get_ElapsedTime, imapi.idiscformat2rawcdeventargs_get_elapsedtime, imapi2/IDiscFormat2RawCDEventArgs::get_ElapsedTime
+ms.keywords: IDiscFormat2RawCDEventArgs interface [IMAPI],get_ElapsedTime method, IDiscFormat2RawCDEventArgs.get_ElapsedTime, IDiscFormat2RawCDEventArgs::get_ElapsedTime, get_ElapsedTime, get_ElapsedTime method [IMAPI], get_ElapsedTime method [IMAPI],IDiscFormat2RawCDEventArgs interface, imapi.idiscformat2rawcdeventargs_get_elapsedtime, imapi2/IDiscFormat2RawCDEventArgs::get_ElapsedTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2RawCDEventArgs::get_ElapsedTime method
+# IDiscFormat2RawCDEventArgs::get_ElapsedTime
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Flush
-title: IMFByteStream::Flush method
+title: IMFByteStream::Flush
 author: windows-driver-content
 description: Clears any internal buffers used by the stream. If you are writing to the stream, the buffered data is written to the underlying file or device.
 old-location: mf\imfbytestream_flush.htm
 old-project: medfound
 ms.assetid: 16ea6c38-52f3-405e-8a8f-be5d0527099c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 16ea6c38-52f3-405e-8a8f-be5d0527099c, Flush method [Media Foundation], Flush method [Media Foundation], IMFByteStream interface, Flush,IMFByteStream.Flush, IMFByteStream, IMFByteStream interface [Media Foundation], Flush method, IMFByteStream::Flush, mf.imfbytestream_flush, mfobjects/IMFByteStream::Flush
+ms.date: 5/3/2018
+ms.keywords: 16ea6c38-52f3-405e-8a8f-be5d0527099c, Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],Flush method, IMFByteStream.Flush, IMFByteStream::Flush, mf.imfbytestream_flush, mfobjects/IMFByteStream::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFByteStream::Flush method
+# IMFByteStream::Flush
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: shell\istorageproviderhandler.htm
 old-project: shell
 ms.assetid: 96DEA181-8506-4FCC-85E0-A2EF79BA6C6D
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IStorageProviderHandler, IStorageProviderHandler interface [Windows Shell], IStorageProviderHandler interface [Windows Shell], described, shell.istorageproviderhandler, storageprovider/IStorageProviderHandler
+ms.date: 5/3/2018
+ms.keywords: IStorageProviderHandler, IStorageProviderHandler interface [Windows Shell], IStorageProviderHandler interface [Windows Shell],described, shell.istorageproviderhandler, storageprovider/IStorageProviderHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

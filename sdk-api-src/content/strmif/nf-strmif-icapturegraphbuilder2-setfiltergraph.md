@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder2.SetFiltergraph
-title: ICaptureGraphBuilder2::SetFiltergraph method
+title: ICaptureGraphBuilder2::SetFiltergraph
 author: windows-driver-content
 description: The SetFiltergraph method specifies a filter graph for the capture graph builder to use.
 old-location: dshow\icapturegraphbuilder2_setfiltergraph.htm
 old-project: DirectShow
 ms.assetid: 6193ece8-cdf1-44f5-9619-16380352193f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ICaptureGraphBuilder2, ICaptureGraphBuilder2 interface [DirectShow], SetFiltergraph method, ICaptureGraphBuilder2::SetFiltergraph, ICaptureGraphBuilder2SetFiltergraph, SetFiltergraph method [DirectShow], SetFiltergraph method [DirectShow], ICaptureGraphBuilder2 interface, SetFiltergraph,ICaptureGraphBuilder2.SetFiltergraph, dshow.icapturegraphbuilder2_setfiltergraph, strmif/ICaptureGraphBuilder2::SetFiltergraph
+ms.date: 4/30/2018
+ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],SetFiltergraph method, ICaptureGraphBuilder2.SetFiltergraph, ICaptureGraphBuilder2::SetFiltergraph, ICaptureGraphBuilder2SetFiltergraph, SetFiltergraph, SetFiltergraph method [DirectShow], SetFiltergraph method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_setfiltergraph, strmif/ICaptureGraphBuilder2::SetFiltergraph
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# ICaptureGraphBuilder2::SetFiltergraph method
+# ICaptureGraphBuilder2::SetFiltergraph
 
 
 ## -description

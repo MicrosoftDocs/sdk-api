@@ -7,8 +7,8 @@ old-location: bits\ienumbitspeercacherecords.htm
 old-project: Bits
 ms.assetid: 680c1468-d780-44a3-9048-c7c3928234f9
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IEnumBitsPeerCacheRecords, IEnumBitsPeerCacheRecords interface [BITS], IEnumBitsPeerCacheRecords interface [BITS], described, bits.ienumbitspeercacherecords, bits3_0/IEnumBitsPeerCacheRecords
+ms.date: 4/27/2018
+ms.keywords: IEnumBitsPeerCacheRecords, IEnumBitsPeerCacheRecords interface [BITS], IEnumBitsPeerCacheRecords interface [BITS],described, bits.ienumbitspeercacherecords, bits3_0/IEnumBitsPeerCacheRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -40,7 +40,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Bits.lib
-req.dll: 
+req.dll: BitsPrx4.dll
 req.irql: 
 ---
 

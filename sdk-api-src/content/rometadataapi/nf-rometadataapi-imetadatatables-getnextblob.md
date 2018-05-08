@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetNextBlob
-title: IMetaDataTables::GetNextBlob method
+title: IMetaDataTables::GetNextBlob
 author: windows-driver-content
 description: Gets the index of the next binary large object (BLOB) in the table.
 old-location: winrt\imetadatatables_getnextblob.htm
 old-project: WinRT
 ms.assetid: f70e5377-4cc1-4066-acc2-bb13f336881b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetNextBlob method [Windows Runtime], GetNextBlob method [Windows Runtime], IMetaDataTables interface, GetNextBlob,IMetaDataTables.GetNextBlob, IMetaDataTables, IMetaDataTables interface [Windows Runtime], GetNextBlob method, IMetaDataTables::GetNextBlob, rometadataapi/IMetaDataTables::GetNextBlob, winrt.imetadatatables_getnextblob
+ms.date: 5/4/2018
+ms.keywords: GetNextBlob, GetNextBlob method [Windows Runtime], GetNextBlob method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetNextBlob method, IMetaDataTables.GetNextBlob, IMetaDataTables::GetNextBlob, rometadataapi/IMetaDataTables::GetNextBlob, winrt.imetadatatables_getnextblob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataTables::GetNextBlob method
+# IMetaDataTables::GetNextBlob
 
 
 ## -description

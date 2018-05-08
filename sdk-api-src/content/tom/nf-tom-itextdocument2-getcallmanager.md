@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.GetCallManager
-title: ITextDocument2::GetCallManager method
+title: ITextDocument2::GetCallManager
 author: windows-driver-content
 description: Gets the call manager.
 old-location: controls\itextdocument2_getcallmanager.htm
 old-project: Controls
 ms.assetid: 0a90e6f5-1231-45fc-868f-4f24ed195638
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetCallManager method [Windows Controls], GetCallManager method [Windows Controls], ITextDocument2 interface, GetCallManager,ITextDocument2.GetCallManager, ITextDocument2, ITextDocument2 interface [Windows Controls], GetCallManager method, ITextDocument2::GetCallManager, controls.itextdocument2_getcallmanager, tom/ITextDocument2::GetCallManager
+ms.date: 4/27/2018
+ms.keywords: GetCallManager, GetCallManager method [Windows Controls], GetCallManager method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetCallManager method, ITextDocument2.GetCallManager, ITextDocument2::GetCallManager, controls.itextdocument2_getcallmanager, tom/ITextDocument2::GetCallManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::GetCallManager method
+# ITextDocument2::GetCallManager
 
 
 ## -description

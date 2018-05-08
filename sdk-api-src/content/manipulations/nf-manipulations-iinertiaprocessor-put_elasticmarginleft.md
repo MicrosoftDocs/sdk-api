@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_ElasticMarginLeft
-title: IInertiaProcessor::put_ElasticMarginLeft method
+title: IInertiaProcessor::put_ElasticMarginLeft
 author: windows-driver-content
 description: The ElasticMarginLeft property specifies the leftmost region for bouncing the target object.
 old-location: wintouch\iinertiaprocessor_elasticmarginleft.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 3c6925d9-8220-4706-991b-cd0cb5697f29
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: ElasticMarginLeft property [Windows Touch], ElasticMarginLeft property [Windows Touch], IInertiaProcessor interface, IInertiaProcessor, IInertiaProcessor interface [Windows Touch], ElasticMarginLeft property, IInertiaProcessor.ElasticMarginLeft, IInertiaProcessor::get_ElasticMarginLeft, IInertiaProcessor::put_ElasticMarginLeft, manipulations/IInertiaProcessor::ElasticMarginLeft, manipulations/IInertiaProcessor::get_ElasticMarginLeft, manipulations/IInertiaProcessor::put_ElasticMarginLeft, put_ElasticMarginLeft,IInertiaProcessor.put_ElasticMarginLeft, wintouch.iinertiaprocessor_elasticmarginleft
+ms.keywords: ElasticMarginLeft property [Windows Touch], ElasticMarginLeft property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginLeft property, IInertiaProcessor.ElasticMarginLeft, IInertiaProcessor.put_ElasticMarginLeft, IInertiaProcessor::ElasticMarginLeft, IInertiaProcessor::get_ElasticMarginLeft, IInertiaProcessor::put_ElasticMarginLeft, manipulations/IInertiaProcessor::ElasticMarginLeft, manipulations/IInertiaProcessor::get_ElasticMarginLeft, manipulations/IInertiaProcessor::put_ElasticMarginLeft, put_ElasticMarginLeft, wintouch.iinertiaprocessor_elasticmarginleft
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInertiaProcessor::put_ElasticMarginLeft method
+# IInertiaProcessor::put_ElasticMarginLeft
 
 
 ## -description

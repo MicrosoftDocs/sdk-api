@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.GetTransportType
-title: IWMStreamConfig2::GetTransportType method
+title: IWMStreamConfig2::GetTransportType
 author: windows-driver-content
 description: The GetTransportType method retrieves the type of data communication protocol (reliable or unreliable) used for the stream.
 old-location: wmformat\iwmstreamconfig2_gettransporttype.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: dfe7b285-8d1d-4b71-a839-1c73d76e6444
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetTransportType method [windows Media Format], GetTransportType method [windows Media Format], IWMStreamConfig2 interface, GetTransportType,IWMStreamConfig2.GetTransportType, IWMStreamConfig2, IWMStreamConfig2 interface [windows Media Format], GetTransportType method, IWMStreamConfig2::GetTransportType, IWMStreamConfig2GetTransportType, wmformat.iwmstreamconfig2_gettransporttype, wmsdkidl/IWMStreamConfig2::GetTransportType
+ms.keywords: GetTransportType, GetTransportType method [windows Media Format], GetTransportType method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],GetTransportType method, IWMStreamConfig2.GetTransportType, IWMStreamConfig2::GetTransportType, IWMStreamConfig2GetTransportType, wmformat.iwmstreamconfig2_gettransporttype, wmsdkidl/IWMStreamConfig2::GetTransportType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamConfig2::GetTransportType method
+# IWMStreamConfig2::GetTransportType
 
 
 ## -description

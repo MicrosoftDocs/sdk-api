@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateGradientStop
-title: IXpsOMObjectFactory::CreateGradientStop method
+title: IXpsOMObjectFactory::CreateGradientStop
 author: windows-driver-content
 description: Creates an IXpsOMGradientStop interface to represent a single color and location definition within a gradient.
 old-location: xps\ixpsomobjectfactory_creategradientstop.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c9217444-fc9d-4b1e-abb2-7e1badd32052
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateGradientStop method [XPS Documents and Packaging], CreateGradientStop method [XPS Documents and Packaging], IXpsOMObjectFactory interface, CreateGradientStop,IXpsOMObjectFactory.CreateGradientStop, IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], CreateGradientStop method, IXpsOMObjectFactory::CreateGradientStop, xps.ixpsomobjectfactory_creategradientstop, xpsobjectmodel/IXpsOMObjectFactory::CreateGradientStop
+ms.keywords: CreateGradientStop, CreateGradientStop method [XPS Documents and Packaging], CreateGradientStop method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateGradientStop method, IXpsOMObjectFactory.CreateGradientStop, IXpsOMObjectFactory::CreateGradientStop, xps.ixpsomobjectfactory_creategradientstop, xpsobjectmodel/IXpsOMObjectFactory::CreateGradientStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMObjectFactory::CreateGradientStop method
+# IXpsOMObjectFactory::CreateGradientStop
 
 
 ## -description

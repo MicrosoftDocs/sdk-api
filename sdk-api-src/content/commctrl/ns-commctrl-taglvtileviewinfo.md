@@ -7,7 +7,7 @@ old-location: controls\LVTILEVIEWINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvtileviewinfo.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: "*PLVTILEVIEWINFO, LVTILEVIEWINFO, LVTILEVIEWINFO structure [Windows Controls], LVTVIF_EXTENDED, PLVTILEVIEWINFO, PLVTILEVIEWINFO structure pointer [Windows Controls], commctrl/LVTILEVIEWINFO, commctrl/PLVTILEVIEWINFO, controls.LVTILEVIEWINFO, controls.inet_LVTILEVIEWINFO, inet_LVTILEVIEWINFO, inet_LVTILEVIEWINFO_cpp, tagLVTILEVIEWINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

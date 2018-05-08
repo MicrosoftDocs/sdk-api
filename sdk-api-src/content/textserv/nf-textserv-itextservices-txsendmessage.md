@@ -1,14 +1,14 @@
 ---
 UID: NF:textserv.ITextServices.TxSendMessage
-title: ITextServices::TxSendMessage method
+title: ITextServices::TxSendMessage
 author: windows-driver-content
 description: Used by the window host to forward messages sent from its window to the text services object.
 old-location: controls\ITextServices_TxSendMessage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsendmessage.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextServices, ITextServices interface [Windows Controls], TxSendMessage method, ITextServices::TxSendMessage, TxSendMessage method [Windows Controls], TxSendMessage method [Windows Controls], ITextServices interface, TxSendMessage,ITextServices.TxSendMessage, _win32_ITextServices_TxSendMessage, _win32_ITextServices_TxSendMessage_cpp, controls.ITextServices_TxSendMessage, controls._win32_ITextServices_TxSendMessage, textserv/ITextServices::TxSendMessage
+ms.date: 4/27/2018
+ms.keywords: ITextServices interface [Windows Controls],TxSendMessage method, ITextServices.TxSendMessage, ITextServices::TxSendMessage, TxSendMessage, TxSendMessage method [Windows Controls], TxSendMessage method [Windows Controls],ITextServices interface, _win32_ITextServices_TxSendMessage, _win32_ITextServices_TxSendMessage_cpp, controls.ITextServices_TxSendMessage, controls._win32_ITextServices_TxSendMessage, textserv/ITextServices::TxSendMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextServices::TxSendMessage method
+# ITextServices::TxSendMessage
 
 
 ## -description

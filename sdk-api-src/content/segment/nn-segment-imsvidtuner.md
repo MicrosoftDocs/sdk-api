@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: b11f3ac4-c351-4017-9801-98d8edec7449
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidTuner, IMSVidTuner interface [Microsoft TV Technologies], IMSVidTuner interface [Microsoft TV Technologies], described, IMSVidTunerInterface, mstv.imsvidtuner, segment/IMSVidTuner
+ms.keywords: IMSVidTuner, IMSVidTuner interface [Microsoft TV Technologies], IMSVidTuner interface [Microsoft TV Technologies],described, IMSVidTunerInterface, mstv.imsvidtuner, segment/IMSVidTuner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

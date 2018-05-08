@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategory.get_Description
-title: ICategory::get_Description method
+title: ICategory::get_Description
 author: windows-driver-content
 description: Gets the description of the category.
 old-location: wua\icategory_description.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: ef22db9f-2ac8-4f20-b898-774dd9b1ce8f
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent], ICategory interface, ICategory, ICategory interface [Windows Update Agent], Description property, ICategory.Description, ICategory::get_Description, get_Description,ICategory.get_Description, wua.icategory_description, wuapi/ICategory::Description, wuapi/ICategory::get_Description
+ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent],ICategory interface, ICategory interface [Windows Update Agent],Description property, ICategory.Description, ICategory.get_Description, ICategory::Description, ICategory::get_Description, get_Description, wua.icategory_description, wuapi/ICategory::Description, wuapi/ICategory::get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ICategory::get_Description method
+# ICategory::get_Description
 
 
 ## -description

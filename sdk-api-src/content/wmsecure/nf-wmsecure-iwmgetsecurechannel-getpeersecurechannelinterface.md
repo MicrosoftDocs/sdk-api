@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMGetSecureChannel.GetPeerSecureChannelInterface
-title: IWMGetSecureChannel::GetPeerSecureChannelInterface method
+title: IWMGetSecureChannel::GetPeerSecureChannelInterface
 author: windows-driver-content
 description: The GetPeerSecureChannelInterface method gets the IWMSecureChannel interface from the other communication party.
 old-location: wmformat\iwmgetsecurechannel_getpeersecurechannelinterface.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: bda30638-10b5-4288-b885-b63485606a7f
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetPeerSecureChannelInterface method [windows Media Format], GetPeerSecureChannelInterface method [windows Media Format], IWMGetSecureChannel interface, GetPeerSecureChannelInterface,IWMGetSecureChannel.GetPeerSecureChannelInterface, IWMGetSecureChannel, IWMGetSecureChannel interface [windows Media Format], GetPeerSecureChannelInterface method, IWMGetSecureChannel::GetPeerSecureChannelInterface, wmformat.iwmgetsecurechannel_getpeersecurechannelinterface, wmsecure/IWMGetSecureChannel::GetPeerSecureChannelInterface
+ms.keywords: GetPeerSecureChannelInterface, GetPeerSecureChannelInterface method [windows Media Format], GetPeerSecureChannelInterface method [windows Media Format],IWMGetSecureChannel interface, IWMGetSecureChannel interface [windows Media Format],GetPeerSecureChannelInterface method, IWMGetSecureChannel.GetPeerSecureChannelInterface, IWMGetSecureChannel::GetPeerSecureChannelInterface, wmformat.iwmgetsecurechannel_getpeersecurechannelinterface, wmsecure/IWMGetSecureChannel::GetPeerSecureChannelInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMGetSecureChannel::GetPeerSecureChannelInterface method
+# IWMGetSecureChannel::GetPeerSecureChannelInterface
 
 
 ## -description

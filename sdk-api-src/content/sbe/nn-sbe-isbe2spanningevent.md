@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 155a2e61-3b53-4225-b298-ee51e2afca96
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ISBE2SpanningEvent, ISBE2SpanningEvent interface [Microsoft TV Technologies], ISBE2SpanningEvent interface [Microsoft TV Technologies], described, mstv.isbe2spanningevent, sbe/ISBE2SpanningEvent
+ms.keywords: ISBE2SpanningEvent, ISBE2SpanningEvent interface [Microsoft TV Technologies], ISBE2SpanningEvent interface [Microsoft TV Technologies],described, mstv.isbe2spanningevent, sbe/ISBE2SpanningEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

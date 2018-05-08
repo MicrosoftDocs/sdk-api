@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_VirtualChannelManager
-title: IRDPSRAPIViewer::get_VirtualChannelManager method
+title: IRDPSRAPIViewer::get_VirtualChannelManager
 author: windows-driver-content
 description: Returns an object implementing the IRDPSRAPIVirtualChannelManager interface.
 old-location: rdp\irdpsrapiviewer_virtualchannelmanager.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: c878c445-5f1a-4a1f-be56-4cc427a40a1a
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: IRDPSRAPIViewer, IRDPSRAPIViewer interface [RDP], VirtualChannelManager property, IRDPSRAPIViewer.VirtualChannelManager, IRDPSRAPIViewer::get_VirtualChannelManager, RDPViewer object [RDP], VirtualChannelManager property, VirtualChannelManager property [RDP], VirtualChannelManager property [RDP], IRDPSRAPIViewer interface, VirtualChannelManager property [RDP], RDPViewer object, get_VirtualChannelManager,IRDPSRAPIViewer.get_VirtualChannelManager, rdp.irdpsrapiviewer_virtualchannelmanager, rdpencomapi/IRDPSRAPIViewer::VirtualChannelManager, rdpencomapi/IRDPSRAPIViewer::get_VirtualChannelManager
+ms.keywords: IRDPSRAPIViewer interface [RDP],VirtualChannelManager property, IRDPSRAPIViewer.VirtualChannelManager, IRDPSRAPIViewer.get_VirtualChannelManager, IRDPSRAPIViewer::VirtualChannelManager, IRDPSRAPIViewer::get_VirtualChannelManager, RDPViewer object [RDP],VirtualChannelManager property, VirtualChannelManager property [RDP], VirtualChannelManager property [RDP],IRDPSRAPIViewer interface, VirtualChannelManager property [RDP],RDPViewer object, get_VirtualChannelManager, rdp.irdpsrapiviewer_virtualchannelmanager, rdpencomapi/IRDPSRAPIViewer::VirtualChannelManager, rdpencomapi/IRDPSRAPIViewer::get_VirtualChannelManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIViewer::get_VirtualChannelManager method
+# IRDPSRAPIViewer::get_VirtualChannelManager
 
 
 ## -description

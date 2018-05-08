@@ -1,14 +1,14 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetVideoPosition
-title: IMFVideoDisplayControl::SetVideoPosition method
+title: IMFVideoDisplayControl::SetVideoPosition
 author: windows-driver-content
 description: Sets the source and destination rectangles for the video.
 old-location: mf\imfvideodisplaycontrol_setvideoposition.htm
 old-project: medfound
 ms.assetid: 5dc789b7-e206-4f1d-a0b2-12cb98ce4184
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 5dc789b7-e206-4f1d-a0b2-12cb98ce4184, IMFVideoDisplayControl, IMFVideoDisplayControl interface [Media Foundation], SetVideoPosition method, IMFVideoDisplayControl::SetVideoPosition, SetVideoPosition method [Media Foundation], SetVideoPosition method [Media Foundation], IMFVideoDisplayControl interface, SetVideoPosition,IMFVideoDisplayControl.SetVideoPosition, evr/IMFVideoDisplayControl::SetVideoPosition, mf.imfvideodisplaycontrol_setvideoposition
+ms.date: 5/3/2018
+ms.keywords: 5dc789b7-e206-4f1d-a0b2-12cb98ce4184, IMFVideoDisplayControl interface [Media Foundation],SetVideoPosition method, IMFVideoDisplayControl.SetVideoPosition, IMFVideoDisplayControl::SetVideoPosition, SetVideoPosition, SetVideoPosition method [Media Foundation], SetVideoPosition method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetVideoPosition, mf.imfvideodisplaycontrol_setvideoposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoDisplayControl::SetVideoPosition method
+# IMFVideoDisplayControl::SetVideoPosition
 
 
 ## -description

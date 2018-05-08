@@ -1,14 +1,14 @@
 ---
 UID: NF:wmpplug.IWMPPluginUI.TranslateAccelerator
-title: IWMPPluginUI::TranslateAccelerator method
+title: IWMPPluginUI::TranslateAccelerator
 author: windows-driver-content
 description: The TranslateAccelerator method is called as part of the Windows Media Player message loop to allow the plug-in to intercept and respond to keyboard events.
 old-location: wmp\iwmppluginui_translateaccelerator.htm
 old-project: WMP
 ms.assetid: 0accc3d7-a194-4f89-a90c-ee3ce10d0e27
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPPluginUI, IWMPPluginUI interface [Windows Media Player], TranslateAccelerator method, IWMPPluginUI::TranslateAccelerator, IWMPPluginUITranslateAccelerator, TranslateAccelerator method [Windows Media Player], TranslateAccelerator method [Windows Media Player], IWMPPluginUI interface, TranslateAccelerator,IWMPPluginUI.TranslateAccelerator, wmp.iwmppluginui_translateaccelerator, wmpplug/IWMPPluginUI::TranslateAccelerator
+ms.date: 5/4/2018
+ms.keywords: IWMPPluginUI interface [Windows Media Player],TranslateAccelerator method, IWMPPluginUI.TranslateAccelerator, IWMPPluginUI::TranslateAccelerator, IWMPPluginUITranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Media Player], TranslateAccelerator method [Windows Media Player],IWMPPluginUI interface, wmp.iwmppluginui_translateaccelerator, wmpplug/IWMPPluginUI::TranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPPluginUI::TranslateAccelerator method
+# IWMPPluginUI::TranslateAccelerator
 
 
 ## -description

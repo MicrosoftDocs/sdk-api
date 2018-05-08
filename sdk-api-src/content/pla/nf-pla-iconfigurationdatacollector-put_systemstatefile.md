@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.put_SystemStateFile
-title: IConfigurationDataCollector::put_SystemStateFile method
+title: IConfigurationDataCollector::put_SystemStateFile
 author: windows-driver-content
 description: Retrieves or sets the name of the file that contains the saved system state.
 old-location: pla\iconfigurationdatacollector_systemstatefile.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: e8e4ec1f-4b43-4252-8a31-55b2ed2dca36
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IConfigurationDataCollector, IConfigurationDataCollector interface [PLA], SystemStateFile property, IConfigurationDataCollector.SystemStateFile, IConfigurationDataCollector::get_SystemStateFile, IConfigurationDataCollector::put_SystemStateFile, SystemStateFile property [PLA], SystemStateFile property [PLA], IConfigurationDataCollector interface, pla.iconfigurationdatacollector_systemstatefile, pla/IConfigurationDataCollector::SystemStateFile, pla/IConfigurationDataCollector::get_SystemStateFile, pla/IConfigurationDataCollector::put_SystemStateFile, put_SystemStateFile,IConfigurationDataCollector.put_SystemStateFile
+ms.keywords: IConfigurationDataCollector interface [PLA],SystemStateFile property, IConfigurationDataCollector.SystemStateFile, IConfigurationDataCollector.put_SystemStateFile, IConfigurationDataCollector::SystemStateFile, IConfigurationDataCollector::get_SystemStateFile, IConfigurationDataCollector::put_SystemStateFile, SystemStateFile property [PLA], SystemStateFile property [PLA],IConfigurationDataCollector interface, pla.iconfigurationdatacollector_systemstatefile, pla/IConfigurationDataCollector::SystemStateFile, pla/IConfigurationDataCollector::get_SystemStateFile, pla/IConfigurationDataCollector::put_SystemStateFile, put_SystemStateFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IConfigurationDataCollector::put_SystemStateFile method
+# IConfigurationDataCollector::put_SystemStateFile
 
 
 ## -description

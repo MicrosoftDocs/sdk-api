@@ -7,8 +7,8 @@ old-location: mf\imftransform.htm
 old-project: medfound
 ms.assetid: 3cc502d8-d364-43b9-b0b6-d9474c002b20
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 3cc502d8-d364-43b9-b0b6-d9474c002b20, IMFTransform, IMFTransform interface [Media Foundation], IMFTransform interface [Media Foundation], described, mf.imftransform, mftransform/IMFTransform
+ms.date: 5/3/2018
+ms.keywords: 3cc502d8-d364-43b9-b0b6-d9474c002b20, IMFTransform, IMFTransform interface [Media Foundation], IMFTransform interface [Media Foundation],described, mf.imftransform, mftransform/IMFTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

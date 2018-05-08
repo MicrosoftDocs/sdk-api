@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFClock.GetState
-title: IMFClock::GetState method
+title: IMFClock::GetState
 author: windows-driver-content
 description: Retrieves the current state of the clock.
 old-location: mf\imfclock_getstate.htm
 old-project: medfound
 ms.assetid: 8e2dda03-f589-4572-b715-2be7b29a6ace
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 8e2dda03-f589-4572-b715-2be7b29a6ace, GetState method [Media Foundation], GetState method [Media Foundation], IMFClock interface, GetState,IMFClock.GetState, IMFClock, IMFClock interface [Media Foundation], GetState method, IMFClock::GetState, mf.imfclock_getstate, mfidl/IMFClock::GetState
+ms.date: 5/3/2018
+ms.keywords: 8e2dda03-f589-4572-b715-2be7b29a6ace, GetState, GetState method [Media Foundation], GetState method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetState method, IMFClock.GetState, IMFClock::GetState, mf.imfclock_getstate, mfidl/IMFClock::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFClock::GetState method
+# IMFClock::GetState
 
 
 ## -description

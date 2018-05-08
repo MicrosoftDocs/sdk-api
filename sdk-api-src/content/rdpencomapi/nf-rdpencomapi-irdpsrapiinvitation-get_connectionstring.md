@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.get_ConnectionString
-title: IRDPSRAPIInvitation::get_ConnectionString method
+title: IRDPSRAPIInvitation::get_ConnectionString
 author: windows-driver-content
 description: The ticket string.
 old-location: rdp\irdpsrapiinvitation_connectionstring.htm
@@ -8,7 +8,7 @@ old-project: Rdp
 ms.assetid: 46f44927-c29e-401c-b81e-d009c1ad3c97
 ms.author: windowsdriverdev
 ms.date: 3/28/2018
-ms.keywords: ConnectionString property [RDP], ConnectionString property [RDP], IRDPSRAPIInvitation interface, ConnectionString property [RDP], RDPSRAPIInvitation object, IRDPSRAPIInvitation, IRDPSRAPIInvitation interface [RDP], ConnectionString property, IRDPSRAPIInvitation.ConnectionString, IRDPSRAPIInvitation::get_ConnectionString, RDPSRAPIInvitation object [RDP], ConnectionString property, get_ConnectionString,IRDPSRAPIInvitation.get_ConnectionString, rdp.irdpsrapiinvitation_connectionstring, rdpencomapi/IRDPSRAPIInvitation::ConnectionString, rdpencomapi/IRDPSRAPIInvitation::get_ConnectionString
+ms.keywords: ConnectionString property [RDP], ConnectionString property [RDP],IRDPSRAPIInvitation interface, ConnectionString property [RDP],RDPSRAPIInvitation object, IRDPSRAPIInvitation interface [RDP],ConnectionString property, IRDPSRAPIInvitation.ConnectionString, IRDPSRAPIInvitation.get_ConnectionString, IRDPSRAPIInvitation::ConnectionString, IRDPSRAPIInvitation::get_ConnectionString, RDPSRAPIInvitation object [RDP],ConnectionString property, get_ConnectionString, rdp.irdpsrapiinvitation_connectionstring, rdpencomapi/IRDPSRAPIInvitation::ConnectionString, rdpencomapi/IRDPSRAPIInvitation::get_ConnectionString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRDPSRAPIInvitation::get_ConnectionString method
+# IRDPSRAPIInvitation::get_ConnectionString
 
 
 ## -description

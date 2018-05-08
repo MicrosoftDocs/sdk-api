@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_BuffersLost
-title: ITraceDataCollector::get_BuffersLost method
+title: ITraceDataCollector::get_BuffersLost
 author: windows-driver-content
 description: Retrieves the number of buffers that were not written to the log file.
 old-location: pla\itracedatacollector_bufferslost.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 84c001f7-da5c-4d79-aba1-76c11e11bdae
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: BuffersLost property [PLA], BuffersLost property [PLA], ITraceDataCollector interface, ITraceDataCollector, ITraceDataCollector interface [PLA], BuffersLost property, ITraceDataCollector.BuffersLost, ITraceDataCollector::get_BuffersLost, base.itracedatacollector_bufferslost, get_BuffersLost,ITraceDataCollector.get_BuffersLost, pla.itracedatacollector_bufferslost, pla/ITraceDataCollector::BuffersLost, pla/ITraceDataCollector::get_BuffersLost
+ms.keywords: BuffersLost property [PLA], BuffersLost property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],BuffersLost property, ITraceDataCollector.BuffersLost, ITraceDataCollector.get_BuffersLost, ITraceDataCollector::BuffersLost, ITraceDataCollector::get_BuffersLost, base.itracedatacollector_bufferslost, get_BuffersLost, pla.itracedatacollector_bufferslost, pla/ITraceDataCollector::BuffersLost, pla/ITraceDataCollector::get_BuffersLost
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITraceDataCollector::get_BuffersLost method
+# ITraceDataCollector::get_BuffersLost
 
 
 ## -description

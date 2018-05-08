@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_DecimateInput
-title: IMSVidVideoRenderer::put_DecimateInput method
+title: IMSVidVideoRenderer::put_DecimateInput
 author: windows-driver-content
 description: The put_DecimateInput method specifies whether the Video Mixing Renderer (VMR) will decimate the video (that is, reduce the native video size) before processing it.
 old-location: mstv\imsvidvideorenderer_put_decimateinput.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: e048a572-3a96-4610-9266-0e97b5a09778
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], put_DecimateInput method, IMSVidVideoRenderer::put_DecimateInput, IMSVidVideoRendererput_DecimateInput, mstv.imsvidvideorenderer_put_decimateinput, put_DecimateInput method [Microsoft TV Technologies], put_DecimateInput method [Microsoft TV Technologies], IMSVidVideoRenderer interface, put_DecimateInput,IMSVidVideoRenderer.put_DecimateInput, segment/IMSVidVideoRenderer::put_DecimateInput
+ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_DecimateInput method, IMSVidVideoRenderer.put_DecimateInput, IMSVidVideoRenderer::put_DecimateInput, IMSVidVideoRendererput_DecimateInput, mstv.imsvidvideorenderer_put_decimateinput, put_DecimateInput, put_DecimateInput method [Microsoft TV Technologies], put_DecimateInput method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_DecimateInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRenderer::put_DecimateInput method
+# IMSVidVideoRenderer::put_DecimateInput
 
 
 ## -description

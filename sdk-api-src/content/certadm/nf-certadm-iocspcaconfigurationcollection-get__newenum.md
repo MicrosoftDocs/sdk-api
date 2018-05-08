@@ -1,14 +1,14 @@
 ---
 UID: NF:certadm.IOCSPCAConfigurationCollection.get__NewEnum
-title: IOCSPCAConfigurationCollection::get__NewEnum method
+title: IOCSPCAConfigurationCollection::get__NewEnum
 author: windows-driver-content
 description: Gets an enumerator for the configuration set.
 old-location: security\iocspcaconfigurationcollection__newenum_method.htm
 old-project: SecCrypto
 ms.assetid: 71f14b78-2b3e-44eb-8bca-6fff6b9a2293
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection interface [Security], _NewEnum property, IOCSPCAConfigurationCollection._NewEnum, IOCSPCAConfigurationCollection::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security], IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::_NewEnum, certadm/IOCSPCAConfigurationCollection::get__NewEnum, get__NewEnum,IOCSPCAConfigurationCollection.get__NewEnum, security.iocspcaconfigurationcollection__newenum_method
+ms.date: 4/30/2018
+ms.keywords: IOCSPCAConfigurationCollection interface [Security],_NewEnum property, IOCSPCAConfigurationCollection._NewEnum, IOCSPCAConfigurationCollection.get__NewEnum, IOCSPCAConfigurationCollection::_NewEnum, IOCSPCAConfigurationCollection::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::_NewEnum, certadm/IOCSPCAConfigurationCollection::get__NewEnum, get__NewEnum, security.iocspcaconfigurationcollection__newenum_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certadm.dll
 req.irql: 
 ---
 
-# IOCSPCAConfigurationCollection::get__NewEnum method
+# IOCSPCAConfigurationCollection::get__NewEnum
 
 
 ## -description

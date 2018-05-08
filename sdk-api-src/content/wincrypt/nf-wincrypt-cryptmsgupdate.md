@@ -7,7 +7,7 @@ old-location: security\cryptmsgupdate.htm
 old-project: SecCrypto
 ms.assetid: d27d75f0-1646-4926-b375-59e52b00326c
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.keywords: CryptMsgUpdate, CryptMsgUpdate function [Security], _crypto2_cryptmsgupdate, security.cryptmsgupdate, wincrypt/CryptMsgUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices

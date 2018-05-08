@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateTexture1D
-title: ID3D10Device::CreateTexture1D method
+title: ID3D10Device::CreateTexture1D
 author: windows-driver-content
 description: Create an array of 1D textures (see Texture1D).
 old-location: direct3d10\id3d10device_createtexture1d.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createtexture1d.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 0ea074c9-00a2-6fa9-2aad-24c30631a07a, CreateTexture1D method [Direct3D 10], CreateTexture1D method [Direct3D 10], ID3D10Device interface, CreateTexture1D,ID3D10Device.CreateTexture1D, ID3D10Device, ID3D10Device interface [Direct3D 10], CreateTexture1D method, ID3D10Device::CreateTexture1D, d3d10/ID3D10Device::CreateTexture1D, direct3d10.id3d10device_createtexture1d
+ms.keywords: 0ea074c9-00a2-6fa9-2aad-24c30631a07a, CreateTexture1D, CreateTexture1D method [Direct3D 10], CreateTexture1D method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateTexture1D method, ID3D10Device.CreateTexture1D, ID3D10Device::CreateTexture1D, d3d10/ID3D10Device::CreateTexture1D, direct3d10.id3d10device_createtexture1d
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Device::CreateTexture1D method
+# ID3D10Device::CreateTexture1D
 
 
 ## -description

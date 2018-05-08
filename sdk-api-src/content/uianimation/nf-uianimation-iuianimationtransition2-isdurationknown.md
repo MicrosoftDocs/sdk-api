@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition2.IsDurationKnown
-title: IUIAnimationTransition2::IsDurationKnown method
+title: IUIAnimationTransition2::IsDurationKnown
 author: windows-driver-content
 description: Determines whether the duration of a transition is known.
 old-location: uianimation\iuianimationtransition2_isdurationknown.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: A73065A7-B191-4CB9-A75A-827CFC040C92
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationTransition2, IUIAnimationTransition2 interface [Windows Animation], IsDurationKnown method, IUIAnimationTransition2::IsDurationKnown, IsDurationKnown method [Windows Animation], IsDurationKnown method [Windows Animation], IUIAnimationTransition2 interface, IsDurationKnown,IUIAnimationTransition2.IsDurationKnown, uianimation.iuianimationtransition2_isdurationknown, uianimation/IUIAnimationTransition2::IsDurationKnown
+ms.keywords: IUIAnimationTransition2 interface [Windows Animation],IsDurationKnown method, IUIAnimationTransition2.IsDurationKnown, IUIAnimationTransition2::IsDurationKnown, IsDurationKnown, IsDurationKnown method [Windows Animation], IsDurationKnown method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_isdurationknown, uianimation/IUIAnimationTransition2::IsDurationKnown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransition2::IsDurationKnown method
+# IUIAnimationTransition2::IsDurationKnown
 
 
 ## -description

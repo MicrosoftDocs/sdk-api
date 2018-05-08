@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_Enabled
-title: INetFwAuthorizedApplication::get_Enabled method
+title: INetFwAuthorizedApplication::get_Enabled
 author: windows-driver-content
 description: Indicates whether the settings for this application are currently enabled.
 old-location: ics\inetfwauthorizedapplication_enabled.htm
 old-project: ICS
 ms.assetid: 03a1503e-aee5-484f-8a4c-a7e10dffe401
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF], INetFwAuthorizedApplication interface, INetFwAuthorizedApplication, INetFwAuthorizedApplication interface [ICS/ICF], Enabled property, INetFwAuthorizedApplication.Enabled, INetFwAuthorizedApplication::get_Enabled, INetFwAuthorizedApplication::put_Enabled, get_Enabled,INetFwAuthorizedApplication.get_Enabled, ics.inetfwauthorizedapplication_enabled, netfw/INetFwAuthorizedApplication::Enabled, netfw/INetFwAuthorizedApplication::get_Enabled, netfw/INetFwAuthorizedApplication::put_Enabled
+ms.date: 5/1/2018
+ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwAuthorizedApplication interface, INetFwAuthorizedApplication interface [ICS/ICF],Enabled property, INetFwAuthorizedApplication.Enabled, INetFwAuthorizedApplication.get_Enabled, INetFwAuthorizedApplication::Enabled, INetFwAuthorizedApplication::get_Enabled, INetFwAuthorizedApplication::put_Enabled, get_Enabled, ics.inetfwauthorizedapplication_enabled, netfw/INetFwAuthorizedApplication::Enabled, netfw/INetFwAuthorizedApplication::get_Enabled, netfw/INetFwAuthorizedApplication::put_Enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwAuthorizedApplication::get_Enabled method
+# INetFwAuthorizedApplication::get_Enabled
 
 
 ## -description

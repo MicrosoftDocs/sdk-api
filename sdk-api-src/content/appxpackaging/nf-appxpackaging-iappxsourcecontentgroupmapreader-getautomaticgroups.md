@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxSourceContentGroupMapReader.GetAutomaticGroups
-title: IAppxSourceContentGroupMapReader::GetAutomaticGroups method
+title: IAppxSourceContentGroupMapReader::GetAutomaticGroups
 author: windows-driver-content
 description: Gets the automatic content group(s) from the source content group map.
 old-location: appxpkg\iappxsourcecontentgroupmapreader_getautomaticgroups.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: DA6D0BEB-75ED-49B8-82A8-0B7C53E5C3C9
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetAutomaticGroups method [App packaging and management], GetAutomaticGroups method [App packaging and management], IAppxSourceContentGroupMapReader interface, GetAutomaticGroups,IAppxSourceContentGroupMapReader.GetAutomaticGroups, IAppxSourceContentGroupMapReader, IAppxSourceContentGroupMapReader interface [App packaging and management], GetAutomaticGroups method, IAppxSourceContentGroupMapReader::GetAutomaticGroups, appxpackaging/IAppxSourceContentGroupMapReader::GetAutomaticGroups, appxpkg.iappxsourcecontentgroupmapreader_getautomaticgroups
+ms.keywords: GetAutomaticGroups, GetAutomaticGroups method [App packaging and management], GetAutomaticGroups method [App packaging and management],IAppxSourceContentGroupMapReader interface, IAppxSourceContentGroupMapReader interface [App packaging and management],GetAutomaticGroups method, IAppxSourceContentGroupMapReader.GetAutomaticGroups, IAppxSourceContentGroupMapReader::GetAutomaticGroups, appxpackaging/IAppxSourceContentGroupMapReader::GetAutomaticGroups, appxpkg.iappxsourcecontentgroupmapreader_getautomaticgroups
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxSourceContentGroupMapReader::GetAutomaticGroups method
+# IAppxSourceContentGroupMapReader::GetAutomaticGroups
 
 
 ## -description

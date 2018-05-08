@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetColorInterpolationMode
-title: IXpsOMGradientBrush::GetColorInterpolationMode method
+title: IXpsOMGradientBrush::GetColorInterpolationMode
 author: windows-driver-content
 description: Gets the gamma function to be used for color interpolation.
 old-location: xps\ixpsomgradientbrush_getcolorinterpolationmode.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 4e58c019-d89d-472d-9b6f-b335b184f998
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetColorInterpolationMode method [XPS Documents and Packaging], GetColorInterpolationMode method [XPS Documents and Packaging], IXpsOMGradientBrush interface, GetColorInterpolationMode,IXpsOMGradientBrush.GetColorInterpolationMode, IXpsOMGradientBrush, IXpsOMGradientBrush interface [XPS Documents and Packaging], GetColorInterpolationMode method, IXpsOMGradientBrush::GetColorInterpolationMode, xps.ixpsomgradientbrush_getcolorinterpolationmode, xpsobjectmodel/IXpsOMGradientBrush::GetColorInterpolationMode
+ms.keywords: GetColorInterpolationMode, GetColorInterpolationMode method [XPS Documents and Packaging], GetColorInterpolationMode method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetColorInterpolationMode method, IXpsOMGradientBrush.GetColorInterpolationMode, IXpsOMGradientBrush::GetColorInterpolationMode, xps.ixpsomgradientbrush_getcolorinterpolationmode, xpsobjectmodel/IXpsOMGradientBrush::GetColorInterpolationMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMGradientBrush::GetColorInterpolationMode method
+# IXpsOMGradientBrush::GetColorInterpolationMode
 
 
 ## -description

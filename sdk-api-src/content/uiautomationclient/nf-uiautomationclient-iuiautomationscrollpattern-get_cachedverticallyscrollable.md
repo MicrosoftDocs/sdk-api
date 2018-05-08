@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CachedVerticallyScrollable
-title: IUIAutomationScrollPattern::get_CachedVerticallyScrollable method
+title: IUIAutomationScrollPattern::get_CachedVerticallyScrollable
 author: windows-driver-content
 description: Retrieves a cached value that indicates whether the element can scroll vertically.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedVerticallyScrollable.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: e9e55853-6fe3-4e51-bb4c-aea0174ed710
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedVerticallyScrollable property [Windows Accessibility], CachedVerticallyScrollable property [Windows Accessibility], IUIAutomationScrollPattern interface, IUIAutomationScrollPattern, IUIAutomationScrollPattern interface [Windows Accessibility], CachedVerticallyScrollable property, IUIAutomationScrollPattern.CachedVerticallyScrollable, IUIAutomationScrollPattern::get_CachedVerticallyScrollable, get_CachedVerticallyScrollable,IUIAutomationScrollPattern.get_CachedVerticallyScrollable, uiauto.uiauto_IUIAutomationScrollPattern_CachedVerticallyScrollable, uiauto_IUIAutomationScrollPattern_CachedVerticallyScrollable, uiautomationclient/IUIAutomationScrollPattern::CachedVerticallyScrollable, uiautomationclient/IUIAutomationScrollPattern::get_CachedVerticallyScrollable, winauto.uiauto_IUIAutomationScrollPattern_CachedVerticallyScrollable
+ms.keywords: CachedVerticallyScrollable property [Windows Accessibility], CachedVerticallyScrollable property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedVerticallyScrollable property, IUIAutomationScrollPattern.CachedVerticallyScrollable, IUIAutomationScrollPattern.get_CachedVerticallyScrollable, IUIAutomationScrollPattern::CachedVerticallyScrollable, IUIAutomationScrollPattern::get_CachedVerticallyScrollable, get_CachedVerticallyScrollable, uiauto.uiauto_IUIAutomationScrollPattern_CachedVerticallyScrollable, uiauto_IUIAutomationScrollPattern_CachedVerticallyScrollable, uiautomationclient/IUIAutomationScrollPattern::CachedVerticallyScrollable, uiautomationclient/IUIAutomationScrollPattern::get_CachedVerticallyScrollable, winauto.uiauto_IUIAutomationScrollPattern_CachedVerticallyScrollable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationScrollPattern::get_CachedVerticallyScrollable method
+# IUIAutomationScrollPattern::get_CachedVerticallyScrollable
 
 
 ## -description

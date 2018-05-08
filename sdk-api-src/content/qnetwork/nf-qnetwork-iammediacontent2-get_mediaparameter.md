@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMMediaContent2.get_MediaParameter
-title: IAMMediaContent2::get_MediaParameter method
+title: IAMMediaContent2::get_MediaParameter
 author: windows-driver-content
 description: The get_MediaParameter method retrieves the value of a custom parameter in the ASX file.
 old-location: dshow\iammediacontent2_get_mediaparameter.htm
 old-project: DirectShow
 ms.assetid: 87e018bb-2073-46df-860a-c4de99a88189
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMMediaContent2, IAMMediaContent2 interface [DirectShow], get_MediaParameter method, IAMMediaContent2::get_MediaParameter, IAMMediaContent2get_MediaParameter, dshow.iammediacontent2_get_mediaparameter, get_MediaParameter method [DirectShow], get_MediaParameter method [DirectShow], IAMMediaContent2 interface, get_MediaParameter,IAMMediaContent2.get_MediaParameter, qnetwork/IAMMediaContent2::get_MediaParameter
+ms.date: 4/30/2018
+ms.keywords: IAMMediaContent2 interface [DirectShow],get_MediaParameter method, IAMMediaContent2.get_MediaParameter, IAMMediaContent2::get_MediaParameter, IAMMediaContent2get_MediaParameter, dshow.iammediacontent2_get_mediaparameter, get_MediaParameter, get_MediaParameter method [DirectShow], get_MediaParameter method [DirectShow],IAMMediaContent2 interface, qnetwork/IAMMediaContent2::get_MediaParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMMediaContent2::get_MediaParameter method
+# IAMMediaContent2::get_MediaParameter
 
 
 ## -description

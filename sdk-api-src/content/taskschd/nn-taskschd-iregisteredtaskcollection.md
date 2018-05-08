@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 97403825-5762-477c-9695-3775bb5bc9e4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRegisteredTaskCollection, IRegisteredTaskCollection interface [Task Scheduler], IRegisteredTaskCollection interface [Task Scheduler], described, taskschd.iregisteredtaskcollection, taskschd/IRegisteredTaskCollection
+ms.keywords: IRegisteredTaskCollection, IRegisteredTaskCollection interface [Task Scheduler], IRegisteredTaskCollection interface [Task Scheduler],described, taskschd.iregisteredtaskcollection, taskschd/IRegisteredTaskCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

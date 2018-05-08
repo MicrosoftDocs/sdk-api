@@ -7,7 +7,7 @@ old-location: dshow\videoinfoheader2.htm
 old-project: DirectShow
 ms.assetid: 5e3d5bf0-435f-45da-8409-a1463b56a7ae
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 4/30/2018
 ms.keywords: AMCONTROL_COLORINFO_PRESENT, AMCONTROL_PAD_TO_16x9, AMCONTROL_PAD_TO_4x3, AMCONTROL_USED, AMINTERLACE_1FieldPerSample, AMINTERLACE_DisplayModeBobOnly, AMINTERLACE_DisplayModeBobOrWeave, AMINTERLACE_DisplayModeWeaveOnly, AMINTERLACE_Field1First, AMINTERLACE_FieldPatBothIrregular, AMINTERLACE_FieldPatBothRegular, AMINTERLACE_FieldPatField1Only, AMINTERLACE_FieldPatField2Only, AMINTERLACE_IsInterlaced, VIDEOINFOHEADER2, VIDEOINFOHEADER2 structure [DirectShow], VIDEOINFOHEADER2Structure, dshow.videoinfoheader2, dvdmedia/VIDEOINFOHEADER2, tagVIDEOINFOHEADER2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -240,20 +240,7 @@ The X dimension of picture aspect ratio. For example, 16 for a 16-inch x 9-inch 
 The Y dimension of picture aspect ratio. For example, 9 for a 16-inch x 9-inch display.
 
 
-### -field dwReserved2
-
-Reserved for future use. Must be zero.
-
-
-### -field bmiHeader
-
-
-<a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure that contains color and dimension information for the video image bitmap.
-
-When used inside a <b>VIDEOINFOHEADER2</b> structure, the semantics of the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure differ slightly from how the structure is used in GDI. For more information, refer to the topic <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a>.
-
-
-#### - dwControlFlags
+### -field dwControlFlags
 
 
 This field was originally named <b>dwReserved</b>, and was required to be zero. The field was renamed to <b>dwControlFlags</b>, and must contain a bitwise OR of zero or more of the following flags:
@@ -316,9 +303,22 @@ If the AMCONTROL_COLORINFO_PRESENT flag is set, it means the upper 24 bits of th
 If this field contains any combination of flags that the filter does not support, the filter should reject the media type.
 
 
-#### - dwReserved1
+### -field dwReserved1
 
 See description of <b>dwControlFlags</b>.
+
+
+### -field dwReserved2
+
+Reserved for future use. Must be zero.
+
+
+### -field bmiHeader
+
+
+<a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure that contains color and dimension information for the video image bitmap.
+
+When used inside a <b>VIDEOINFOHEADER2</b> structure, the semantics of the <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a> structure differ slightly from how the structure is used in GDI. For more information, refer to the topic <a href="https://msdn.microsoft.com/153c08a8-d32c-4e9d-9da9-b915eb172327">BITMAPINFOHEADER</a>.
 
 
 ## -remarks

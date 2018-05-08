@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.DeleteRelationship
-title: IOpcRelationshipSet::DeleteRelationship method
+title: IOpcRelationshipSet::DeleteRelationship
 author: windows-driver-content
 description: Deletes a specified IOpcRelationship interface pointer from the set.
 old-location: opc\iopcrelationshipset_deleterelationship.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: fa452e8d-10dd-4cc4-a56b-a09d841dc46a
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: DeleteRelationship method [Open Packaging Conventions], DeleteRelationship method [Open Packaging Conventions], IOpcRelationshipSet interface, DeleteRelationship,IOpcRelationshipSet.DeleteRelationship, IOpcRelationshipSet, IOpcRelationshipSet interface [Open Packaging Conventions], DeleteRelationship method, IOpcRelationshipSet::DeleteRelationship, msopc/IOpcRelationshipSet::DeleteRelationship, opc.iopcrelationshipset_deleterelationship
+ms.keywords: DeleteRelationship, DeleteRelationship method [Open Packaging Conventions], DeleteRelationship method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],DeleteRelationship method, IOpcRelationshipSet.DeleteRelationship, IOpcRelationshipSet::DeleteRelationship, msopc/IOpcRelationshipSet::DeleteRelationship, opc.iopcrelationshipset_deleterelationship
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcRelationshipSet::DeleteRelationship method
+# IOpcRelationshipSet::DeleteRelationship
 
 
 ## -description

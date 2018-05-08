@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure.SetBackingFileDuration
-title: IStreamBufferConfigure::SetBackingFileDuration method
+title: IStreamBufferConfigure::SetBackingFileDuration
 author: windows-driver-content
 description: The SetBackingFileDuration method sets the duration of all backing files.
 old-location: mstv\istreambufferconfigure_setbackingfileduration.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1825896e-0e3c-4b89-8e0e-59faa0f8000d
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IStreamBufferConfigure, IStreamBufferConfigure interface [Microsoft TV Technologies], SetBackingFileDuration method, IStreamBufferConfigure::SetBackingFileDuration, IStreamBufferConfigureSetBackingFileDuration, SetBackingFileDuration method [Microsoft TV Technologies], SetBackingFileDuration method [Microsoft TV Technologies], IStreamBufferConfigure interface, SetBackingFileDuration,IStreamBufferConfigure.SetBackingFileDuration, mstv.istreambufferconfigure_setbackingfileduration, sbe/IStreamBufferConfigure::SetBackingFileDuration
+ms.keywords: IStreamBufferConfigure interface [Microsoft TV Technologies],SetBackingFileDuration method, IStreamBufferConfigure.SetBackingFileDuration, IStreamBufferConfigure::SetBackingFileDuration, IStreamBufferConfigureSetBackingFileDuration, SetBackingFileDuration, SetBackingFileDuration method [Microsoft TV Technologies], SetBackingFileDuration method [Microsoft TV Technologies],IStreamBufferConfigure interface, mstv.istreambufferconfigure_setbackingfileduration, sbe/IStreamBufferConfigure::SetBackingFileDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStreamBufferConfigure::SetBackingFileDuration method
+# IStreamBufferConfigure::SetBackingFileDuration
 
 
 ## -description

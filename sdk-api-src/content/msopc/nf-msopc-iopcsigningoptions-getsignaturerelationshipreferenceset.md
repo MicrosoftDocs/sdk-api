@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignatureRelationshipReferenceSet
-title: IOpcSigningOptions::GetSignatureRelationshipReferenceSet method
+title: IOpcSigningOptions::GetSignatureRelationshipReferenceSet
 author: windows-driver-content
 description: Gets an IOpcSignatureRelationshipReferenceSet interface pointer.
 old-location: opc\iopcsigningoptions_getsignaturerelationshipreferenceset.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: f89327d2-63ff-4b14-bde0-8fdf65f73e37
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetSignatureRelationshipReferenceSet method [Open Packaging Conventions], GetSignatureRelationshipReferenceSet method [Open Packaging Conventions], IOpcSigningOptions interface, GetSignatureRelationshipReferenceSet,IOpcSigningOptions.GetSignatureRelationshipReferenceSet, IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], GetSignatureRelationshipReferenceSet method, IOpcSigningOptions::GetSignatureRelationshipReferenceSet, msopc/IOpcSigningOptions::GetSignatureRelationshipReferenceSet, opc.iopcsigningoptions_getsignaturerelationshipreferenceset
+ms.keywords: GetSignatureRelationshipReferenceSet, GetSignatureRelationshipReferenceSet method [Open Packaging Conventions], GetSignatureRelationshipReferenceSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignatureRelationshipReferenceSet method, IOpcSigningOptions.GetSignatureRelationshipReferenceSet, IOpcSigningOptions::GetSignatureRelationshipReferenceSet, msopc/IOpcSigningOptions::GetSignatureRelationshipReferenceSet, opc.iopcsigningoptions_getsignaturerelationshipreferenceset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcSigningOptions::GetSignatureRelationshipReferenceSet method
+# IOpcSigningOptions::GetSignatureRelationshipReferenceSet
 
 
 ## -description

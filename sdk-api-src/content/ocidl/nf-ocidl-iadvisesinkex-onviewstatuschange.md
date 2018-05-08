@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IAdviseSinkEx.OnViewStatusChange
-title: IAdviseSinkEx::OnViewStatusChange method
+title: IAdviseSinkEx::OnViewStatusChange
 author: windows-driver-content
 description: Notifies the sink that a view status of an object has changed.
 old-location: com\iadvisesinkex_onviewstatuschange.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 9d5129aa-341c-4c69-8c0c-b7c3e62a57c1
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IAdviseSinkEx, IAdviseSinkEx interface [COM], OnViewStatusChange method, IAdviseSinkEx::OnViewStatusChange, OnViewStatusChange method [COM], OnViewStatusChange method [COM], IAdviseSinkEx interface, OnViewStatusChange,IAdviseSinkEx.OnViewStatusChange, _ole_iadvisesinkex_onviewstatuschange, com.iadvisesinkex_onviewstatuschange, ocidl/IAdviseSinkEx::OnViewStatusChange
+ms.keywords: IAdviseSinkEx interface [COM],OnViewStatusChange method, IAdviseSinkEx.OnViewStatusChange, IAdviseSinkEx::OnViewStatusChange, OnViewStatusChange, OnViewStatusChange method [COM], OnViewStatusChange method [COM],IAdviseSinkEx interface, _ole_iadvisesinkex_onviewstatuschange, com.iadvisesinkex_onviewstatuschange, ocidl/IAdviseSinkEx::OnViewStatusChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAdviseSinkEx::OnViewStatusChange method
+# IAdviseSinkEx::OnViewStatusChange
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: shell\UShortSub.htm
 old-project: shell
 ms.assetid: 29365c4b-317f-4351-b684-a77b06593c2d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: UShortSub, UShortSub function [Windows Shell], _shell_UShortSub, intsafe/UShortSub, shell.UShortSub
+ms.date: 5/3/2018
+ms.keywords: UShortSub, UShortSub function [Windows Shell], WordSub, _shell_UShortSub, intsafe/UShortSub, shell.UShortSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,6 +95,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+<b>WordSub</b> is an alias for this function.
 
 
 

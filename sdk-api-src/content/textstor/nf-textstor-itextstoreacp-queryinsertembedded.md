@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.QueryInsertEmbedded
-title: ITextStoreACP::QueryInsertEmbedded method
+title: ITextStoreACP::QueryInsertEmbedded
 author: windows-driver-content
 description: Gets a value indicating whether the specified object can be inserted into the document.
 old-location: tsf\itextstoreacp_queryinsertembedded.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: b1cf6162-da57-4b8a-beca-fb1ec390c577
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACP, ITextStoreACP interface [Text Services Framework], QueryInsertEmbedded method, ITextStoreACP::QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework], ITextStoreACP interface, QueryInsertEmbedded,ITextStoreACP.QueryInsertEmbedded, _tsf_itextstoreacp_queryinsertembedded_ref, textstor/ITextStoreACP::QueryInsertEmbedded, tsf.itextstoreacp_queryinsertembedded
+ms.keywords: ITextStoreACP interface [Text Services Framework],QueryInsertEmbedded method, ITextStoreACP.QueryInsertEmbedded, ITextStoreACP::QueryInsertEmbedded, QueryInsertEmbedded, QueryInsertEmbedded method [Text Services Framework], QueryInsertEmbedded method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_queryinsertembedded_ref, textstor/ITextStoreACP::QueryInsertEmbedded, tsf.itextstoreacp_queryinsertembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP::QueryInsertEmbedded method
+# ITextStoreACP::QueryInsertEmbedded
 
 
 ## -description

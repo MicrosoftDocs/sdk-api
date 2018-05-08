@@ -7,8 +7,8 @@ old-location: dshow\iamextendedseeking.htm
 old-project: DirectShow
 ms.assetid: 9e0e49af-61ef-408c-8c26-bb29ab26a1f5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], IAMExtendedSeeking interface [DirectShow], described, IAMExtendedSeekingInterface, dshow.iamextendedseeking, qnetwork/IAMExtendedSeeking
+ms.date: 4/30/2018
+ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], IAMExtendedSeeking interface [DirectShow],described, IAMExtendedSeekingInterface, dshow.iamextendedseeking, qnetwork/IAMExtendedSeeking
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

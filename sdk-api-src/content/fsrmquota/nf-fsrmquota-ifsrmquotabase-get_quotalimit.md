@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.get_QuotaLimit
-title: IFsrmQuotaBase::get_QuotaLimit method
+title: IFsrmQuotaBase::get_QuotaLimit
 author: windows-driver-content
 description: Retrieves or sets the quota limit for the object.
 old-location: fsrm\ifsrmquotabase_quotalimit.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 2f2b5d8f-70b7-497e-9c51-171dca657c69
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmQuotaBase, IFsrmQuotaBase interface [File Server Resource Manager], QuotaLimit property, IFsrmQuotaBase.QuotaLimit, IFsrmQuotaBase::get_QuotaLimit, IFsrmQuotaBase::put_QuotaLimit, QuotaLimit property [File Server Resource Manager], QuotaLimit property [File Server Resource Manager], IFsrmQuotaBase interface, fs.ifsrmquotabase_quotalimit, fsrm.ifsrmquotabase_quotalimit, fsrmquota/IFsrmQuotaBase::QuotaLimit, fsrmquota/IFsrmQuotaBase::get_QuotaLimit, fsrmquota/IFsrmQuotaBase::put_QuotaLimit, get_QuotaLimit,IFsrmQuotaBase.get_QuotaLimit
+ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],QuotaLimit property, IFsrmQuotaBase.QuotaLimit, IFsrmQuotaBase.get_QuotaLimit, IFsrmQuotaBase::QuotaLimit, IFsrmQuotaBase::get_QuotaLimit, IFsrmQuotaBase::put_QuotaLimit, QuotaLimit property [File Server Resource Manager], QuotaLimit property [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_quotalimit, fsrm.ifsrmquotabase_quotalimit, fsrmquota/IFsrmQuotaBase::QuotaLimit, fsrmquota/IFsrmQuotaBase::get_QuotaLimit, fsrmquota/IFsrmQuotaBase::put_QuotaLimit, get_QuotaLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmQuotaBase::get_QuotaLimit method
+# IFsrmQuotaBase::get_QuotaLimit
 
 
 ## -description

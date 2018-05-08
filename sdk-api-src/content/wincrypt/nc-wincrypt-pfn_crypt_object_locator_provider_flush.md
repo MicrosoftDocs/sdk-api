@@ -7,8 +7,8 @@ old-location: security\pfn_crypt_object_locator_provider_flush.htm
 old-project: SecCrypto
 ms.assetid: F6EE5424-A3ED-4E90-897B-56C605EB985C
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH function pointer [Security], security.pfn_crypt_object_locator_provider_flush, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH
+ms.date: 4/30/2018
+ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH function, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH function pointer [Security], security.pfn_crypt_object_locator_provider_flush, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH callback
+# PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH callback function
 
 
 ## -description

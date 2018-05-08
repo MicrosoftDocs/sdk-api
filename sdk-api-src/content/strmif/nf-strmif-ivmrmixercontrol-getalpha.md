@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRMixerControl.GetAlpha
-title: IVMRMixerControl::GetAlpha method
+title: IVMRMixerControl::GetAlpha
 author: windows-driver-content
 description: The GetAlpha method retrieves the constant alpha value that is applied to this video stream.
 old-location: dshow\ivmrmixercontrol_getalpha.htm
 old-project: DirectShow
 ms.assetid: a0a82a8f-a03a-43d7-8fb0-4c15b0cb7c27
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAlpha method [DirectShow], GetAlpha method [DirectShow], IVMRMixerControl interface, GetAlpha,IVMRMixerControl.GetAlpha, IVMRMixerControl, IVMRMixerControl interface [DirectShow], GetAlpha method, IVMRMixerControl::GetAlpha, IVMRMixerControlGetAlpha, dshow.ivmrmixercontrol_getalpha, strmif/IVMRMixerControl::GetAlpha
+ms.date: 4/30/2018
+ms.keywords: GetAlpha, GetAlpha method [DirectShow], GetAlpha method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetAlpha method, IVMRMixerControl.GetAlpha, IVMRMixerControl::GetAlpha, IVMRMixerControlGetAlpha, dshow.ivmrmixercontrol_getalpha, strmif/IVMRMixerControl::GetAlpha
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRMixerControl::GetAlpha method
+# IVMRMixerControl::GetAlpha
 
 
 ## -description

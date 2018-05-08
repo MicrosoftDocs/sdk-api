@@ -7,7 +7,7 @@ old-location: controls\IsThemeDialogTextureEnabled.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemedialogtextureenabled.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 4/27/2018
 ms.keywords: IsThemeDialogTextureEnabled, IsThemeDialogTextureEnabled function [Windows Controls], controls.IsThemeDialogTextureEnabled, controls.inet_IsThemeDialogTextureEnabled, inet_IsThemeDialogTextureEnabled, inet_IsThemeDialogTextureEnabled_cpp, uxtheme/IsThemeDialogTextureEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

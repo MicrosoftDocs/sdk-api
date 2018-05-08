@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Write
-title: IMFByteStream::Write method
+title: IMFByteStream::Write
 author: windows-driver-content
 description: Writes data to the stream.
 old-location: mf\imfbytestream_write.htm
 old-project: medfound
 ms.assetid: d1f1195a-b6ee-441c-af8b-fce3dc163e95
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFByteStream, IMFByteStream interface [Media Foundation], Write method, IMFByteStream::Write, Write method [Media Foundation], Write method [Media Foundation], IMFByteStream interface, Write,IMFByteStream.Write, d1f1195a-b6ee-441c-af8b-fce3dc163e95, mf.imfbytestream_write, mfobjects/IMFByteStream::Write
+ms.date: 5/3/2018
+ms.keywords: IMFByteStream interface [Media Foundation],Write method, IMFByteStream.Write, IMFByteStream::Write, Write, Write method [Media Foundation], Write method [Media Foundation],IMFByteStream interface, d1f1195a-b6ee-441c-af8b-fce3dc163e95, mf.imfbytestream_write, mfobjects/IMFByteStream::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFByteStream::Write method
+# IMFByteStream::Write
 
 
 ## -description

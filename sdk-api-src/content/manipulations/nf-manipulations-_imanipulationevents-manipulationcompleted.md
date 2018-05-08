@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations._IManipulationEvents.ManipulationCompleted
-title: "_IManipulationEvents::ManipulationCompleted method"
+title: "_IManipulationEvents::ManipulationCompleted"
 author: windows-driver-content
 description: Handles the event when manipulation or inertia finishes.
 old-location: wintouch\_imanipulationevents_manipulationcompleted.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: 1284df32-f4e8-43b3-b825-9172ad39f0e6
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: ManipulationCompleted method [Windows Touch], ManipulationCompleted method [Windows Touch], _IManipulationEvents interface, ManipulationCompleted,_IManipulationEvents.ManipulationCompleted, _IManipulationEvents, _IManipulationEvents interface [Windows Touch], ManipulationCompleted method, _IManipulationEvents::ManipulationCompleted, manipulations/_IManipulationEvents::ManipulationCompleted, wintouch._imanipulationevents_manipulationcompleted
+ms.keywords: ManipulationCompleted, ManipulationCompleted method [Windows Touch], ManipulationCompleted method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationCompleted method, _IManipulationEvents.ManipulationCompleted, _IManipulationEvents::ManipulationCompleted, manipulations/_IManipulationEvents::ManipulationCompleted, wintouch._imanipulationevents_manipulationcompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# _IManipulationEvents::ManipulationCompleted method
+# _IManipulationEvents::ManipulationCompleted
 
 
 ## -description

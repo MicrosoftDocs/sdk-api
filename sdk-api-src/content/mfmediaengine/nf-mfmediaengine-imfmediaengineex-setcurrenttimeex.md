@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetCurrentTimeEx
-title: IMFMediaEngineEx::SetCurrentTimeEx method
+title: IMFMediaEngineEx::SetCurrentTimeEx
 author: windows-driver-content
 description: Seeks to a new playback position using the specified MF_MEDIA_ENGINE_SEEK_MODE.
 old-location: mf\imfmediaengineex_setcurrenttimeex.htm
 old-project: medfound
 ms.assetid: ee594f0c-af49-44c2-8c68-16120f76c5e1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], SetCurrentTimeEx method, IMFMediaEngineEx::SetCurrentTimeEx, SetCurrentTimeEx method [Media Foundation], SetCurrentTimeEx method [Media Foundation], IMFMediaEngineEx interface, SetCurrentTimeEx,IMFMediaEngineEx.SetCurrentTimeEx, mf.imfmediaengineex_setcurrenttimeex, mfmediaengine/IMFMediaEngineEx::SetCurrentTimeEx
+ms.date: 5/3/2018
+ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetCurrentTimeEx method, IMFMediaEngineEx.SetCurrentTimeEx, IMFMediaEngineEx::SetCurrentTimeEx, SetCurrentTimeEx, SetCurrentTimeEx method [Media Foundation], SetCurrentTimeEx method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setcurrenttimeex, mfmediaengine/IMFMediaEngineEx::SetCurrentTimeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::SetCurrentTimeEx method
+# IMFMediaEngineEx::SetCurrentTimeEx
 
 
 ## -description

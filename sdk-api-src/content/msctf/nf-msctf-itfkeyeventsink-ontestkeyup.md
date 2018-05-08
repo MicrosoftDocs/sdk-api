@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeyEventSink.OnTestKeyUp
-title: ITfKeyEventSink::OnTestKeyUp method
+title: ITfKeyEventSink::OnTestKeyUp
 author: windows-driver-content
 description: ITfKeyEventSink::OnTestKeyUp method
 old-location: tsf\itfkeyeventsink_ontestkeyup.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 2d105a20-3fb8-43aa-a36a-744803bd4035
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfKeyEventSink, ITfKeyEventSink interface [Text Services Framework], OnTestKeyUp method, ITfKeyEventSink::OnTestKeyUp, OnTestKeyUp method [Text Services Framework], OnTestKeyUp method [Text Services Framework], ITfKeyEventSink interface, OnTestKeyUp,ITfKeyEventSink.OnTestKeyUp, _tsf_itfkeyeventsink_ontestkeyup_ref, msctf/ITfKeyEventSink::OnTestKeyUp, tsf.itfkeyeventsink_ontestkeyup
+ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnTestKeyUp method, ITfKeyEventSink.OnTestKeyUp, ITfKeyEventSink::OnTestKeyUp, OnTestKeyUp, OnTestKeyUp method [Text Services Framework], OnTestKeyUp method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_ontestkeyup_ref, msctf/ITfKeyEventSink::OnTestKeyUp, tsf.itfkeyeventsink_ontestkeyup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfKeyEventSink::OnTestKeyUp method
+# ITfKeyEventSink::OnTestKeyUp
 
 
 ## -description

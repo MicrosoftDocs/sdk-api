@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: fce2d6db-13f0-4c1d-ba55-16139c6acbb7
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDeviceResources, IPortableDeviceResources interface [Windows Portable Devices SDK], IPortableDeviceResources interface [Windows Portable Devices SDK], described, IPortableDeviceResourcesInterface, portabledeviceapi/IPortableDeviceResources, wpdsdk.iportabledeviceresources
+ms.keywords: IPortableDeviceResources, IPortableDeviceResources interface [Windows Portable Devices SDK], IPortableDeviceResources interface [Windows Portable Devices SDK],described, IPortableDeviceResourcesInterface, portabledeviceapi/IPortableDeviceResources, wpdsdk.iportabledeviceresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

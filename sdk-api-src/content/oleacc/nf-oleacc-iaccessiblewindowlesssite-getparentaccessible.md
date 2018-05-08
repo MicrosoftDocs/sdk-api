@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessibleWindowlessSite.GetParentAccessible
-title: IAccessibleWindowlessSite::GetParentAccessible method
+title: IAccessibleWindowlessSite::GetParentAccessible
 author: windows-driver-content
 description: Retrieves an IAccessible pointer for the parent of a windowless Microsoft ActiveX control in the accessibility tree.
 old-location: winauto\uiauto_IAccessibleWindowlessSite_GetParentAccessible.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 579C2425-9C3E-4CFF-8A25-C661670FB636
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetParentAccessible method [Windows Accessibility], GetParentAccessible method [Windows Accessibility], IAccessibleWindowlessSite interface, GetParentAccessible,IAccessibleWindowlessSite.GetParentAccessible, IAccessibleWindowlessSite, IAccessibleWindowlessSite interface [Windows Accessibility], GetParentAccessible method, IAccessibleWindowlessSite::GetParentAccessible, oleacc/IAccessibleWindowlessSite::GetParentAccessible, winauto.uiauto_IAccessibleWindowlessSite_GetParentAccessible
+ms.keywords: GetParentAccessible, GetParentAccessible method [Windows Accessibility], GetParentAccessible method [Windows Accessibility],IAccessibleWindowlessSite interface, IAccessibleWindowlessSite interface [Windows Accessibility],GetParentAccessible method, IAccessibleWindowlessSite.GetParentAccessible, IAccessibleWindowlessSite::GetParentAccessible, oleacc/IAccessibleWindowlessSite::GetParentAccessible, winauto.uiauto_IAccessibleWindowlessSite_GetParentAccessible
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAccessibleWindowlessSite::GetParentAccessible method
+# IAccessibleWindowlessSite::GetParentAccessible
 
 
 ## -description

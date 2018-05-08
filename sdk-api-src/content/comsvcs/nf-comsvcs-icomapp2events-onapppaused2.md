@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComApp2Events.OnAppPaused2
-title: IComApp2Events::OnAppPaused2 method
+title: IComApp2Events::OnAppPaused2
 author: windows-driver-content
 description: Generated when the server application is paused or resumed to its initial state.
 old-location: cos\icomapp2events_onapppaused2.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 03621645-e2d1-4464-9316-7815a6e20614
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComApp2Events, IComApp2Events interface [COM+], OnAppPaused2 method, IComApp2Events::OnAppPaused2, OnAppPaused2 method [COM+], OnAppPaused2 method [COM+], IComApp2Events interface, OnAppPaused2,IComApp2Events.OnAppPaused2, _dtc_IComApp2Events_OnAppPaused2, comsvcs/IComApp2Events::OnAppPaused2, cos.icomapp2events_onapppaused2
+ms.keywords: IComApp2Events interface [COM+],OnAppPaused2 method, IComApp2Events.OnAppPaused2, IComApp2Events::OnAppPaused2, OnAppPaused2, OnAppPaused2 method [COM+], OnAppPaused2 method [COM+],IComApp2Events interface, _dtc_IComApp2Events_OnAppPaused2, comsvcs/IComApp2Events::OnAppPaused2, cos.icomapp2events_onapppaused2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComApp2Events::OnAppPaused2 method
+# IComApp2Events::OnAppPaused2
 
 
 ## -description

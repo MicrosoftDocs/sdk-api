@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUserArray.GetAccountOptions
-title: ICredentialProviderUserArray::GetAccountOptions method
+title: ICredentialProviderUserArray::GetAccountOptions
 author: windows-driver-content
 description: Retrieves a value that indicates whether the &#0034;Other user&#0034; tile for local or Microsoft accounts is shown in the logon or credential UI.
 old-location: shell\ICredentialProviderUserArray_GetAccountOptions.htm
 old-project: shell
 ms.assetid: A274F799-FB0C-40a7-AB9E-9525F6079C9A
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAccountOptions method [Windows Shell], GetAccountOptions method [Windows Shell], ICredentialProviderUserArray interface, GetAccountOptions,ICredentialProviderUserArray.GetAccountOptions, ICredentialProviderUserArray, ICredentialProviderUserArray interface [Windows Shell], GetAccountOptions method, ICredentialProviderUserArray::GetAccountOptions, credentialprovider/ICredentialProviderUserArray::GetAccountOptions, shell.ICredentialProviderUserArray_GetAccountOptions, shell.ICredentialProviderUserArray_GetUserEnum
+ms.date: 5/3/2018
+ms.keywords: GetAccountOptions, GetAccountOptions method [Windows Shell], GetAccountOptions method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetAccountOptions method, ICredentialProviderUserArray.GetAccountOptions, ICredentialProviderUserArray::GetAccountOptions, credentialprovider/ICredentialProviderUserArray::GetAccountOptions, shell.ICredentialProviderUserArray_GetAccountOptions, shell.ICredentialProviderUserArray_GetUserEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Authui.dll
 req.irql: 
 ---
 
-# ICredentialProviderUserArray::GetAccountOptions method
+# ICredentialProviderUserArray::GetAccountOptions
 
 
 ## -description

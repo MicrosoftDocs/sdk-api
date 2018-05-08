@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.Remove
-title: IDataCollectorSetCollection::Remove method
+title: IDataCollectorSetCollection::Remove
 author: windows-driver-content
 description: Removes a data collector set from the collection.
 old-location: pla\idatacollectorsetcollection_remove.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 6200dac0-8817-4d59-9456-67921bcf15ae
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSetCollection, IDataCollectorSetCollection interface [PLA], Remove method, IDataCollectorSetCollection::Remove, Remove method [PLA], Remove method [PLA], IDataCollectorSetCollection interface, Remove,IDataCollectorSetCollection.Remove, base.idatacollectorsetcollection_remove, pla.idatacollectorsetcollection_remove, pla/IDataCollectorSetCollection::Remove
+ms.keywords: IDataCollectorSetCollection interface [PLA],Remove method, IDataCollectorSetCollection.Remove, IDataCollectorSetCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IDataCollectorSetCollection interface, base.idatacollectorsetcollection_remove, pla.idatacollectorsetcollection_remove, pla/IDataCollectorSetCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSetCollection::Remove method
+# IDataCollectorSetCollection::Remove
 
 
 ## -description

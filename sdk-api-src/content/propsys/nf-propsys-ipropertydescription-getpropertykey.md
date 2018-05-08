@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetPropertyKey
-title: IPropertyDescription::GetPropertyKey method
+title: IPropertyDescription::GetPropertyKey
 author: windows-driver-content
 description: Gets a structure that acts as a property's unique identifier.
 old-location: properties\IPropertyDescription_GetPropertyKey.htm
 old-project: properties
 ms.assetid: 10942dff-234e-4f85-827b-f27a6f099818
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetPropertyKey method [Windows Properties], GetPropertyKey method [Windows Properties], IPropertyDescription interface, GetPropertyKey,IPropertyDescription.GetPropertyKey, IPropertyDescription, IPropertyDescription interface [Windows Properties], GetPropertyKey method, IPropertyDescription::GetPropertyKey, properties.IPropertyDescription_GetPropertyKey, propsys/IPropertyDescription::GetPropertyKey, shell.IPropertyDescription_GetPropertyKey, shell_IPropertyDescription_GetPropertyKey
+ms.date: 4/27/2018
+ms.keywords: GetPropertyKey, GetPropertyKey method [Windows Properties], GetPropertyKey method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetPropertyKey method, IPropertyDescription.GetPropertyKey, IPropertyDescription::GetPropertyKey, properties.IPropertyDescription_GetPropertyKey, propsys/IPropertyDescription::GetPropertyKey, shell.IPropertyDescription_GetPropertyKey, shell_IPropertyDescription_GetPropertyKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyDescription::GetPropertyKey method
+# IPropertyDescription::GetPropertyKey
 
 
 ## -description

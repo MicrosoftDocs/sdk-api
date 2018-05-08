@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.GetItemNum
-title: ITfLangBarItemMgr::GetItemNum method
+title: ITfLangBarItemMgr::GetItemNum
 author: windows-driver-content
 description: ITfLangBarItemMgr::GetItemNum method
 old-location: tsf\itflangbaritemmgr_getitemnum.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 0caf54b1-f862-4fc2-b593-c0e9f60d71cc
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetItemNum method [Text Services Framework], GetItemNum method [Text Services Framework], ITfLangBarItemMgr interface, GetItemNum,ITfLangBarItemMgr.GetItemNum, ITfLangBarItemMgr, ITfLangBarItemMgr interface [Text Services Framework], GetItemNum method, ITfLangBarItemMgr::GetItemNum, _tsf_itflangbaritemmgr_getitemnum_ref, ctfutb/ITfLangBarItemMgr::GetItemNum, tsf.itflangbaritemmgr_getitemnum
+ms.keywords: GetItemNum, GetItemNum method [Text Services Framework], GetItemNum method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItemNum method, ITfLangBarItemMgr.GetItemNum, ITfLangBarItemMgr::GetItemNum, _tsf_itflangbaritemmgr_getitemnum_ref, ctfutb/ITfLangBarItemMgr::GetItemNum, tsf.itflangbaritemmgr_getitemnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemMgr::GetItemNum method
+# ITfLangBarItemMgr::GetItemNum
 
 
 ## -description

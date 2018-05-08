@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.put_SpectralInversion
-title: IDVBSTuningSpace::put_SpectralInversion method
+title: IDVBSTuningSpace::put_SpectralInversion
 author: windows-driver-content
 description: The put_SpectralInversion method sets a value indicating the spectral inversion.
 old-location: mstv\idvbstuningspace_put_spectralinversion.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c3fd3237-6c10-419d-b1ce-7cb00ebb3442
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDVBSTuningSpace, IDVBSTuningSpace interface [Microsoft TV Technologies], put_SpectralInversion method, IDVBSTuningSpace::put_SpectralInversion, IDVBSTuningSpaceput_SpectralInversion, mstv.idvbstuningspace_put_spectralinversion, put_SpectralInversion method [Microsoft TV Technologies], put_SpectralInversion method [Microsoft TV Technologies], IDVBSTuningSpace interface, put_SpectralInversion,IDVBSTuningSpace.put_SpectralInversion, tuner/IDVBSTuningSpace::put_SpectralInversion
+ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_SpectralInversion method, IDVBSTuningSpace.put_SpectralInversion, IDVBSTuningSpace::put_SpectralInversion, IDVBSTuningSpaceput_SpectralInversion, mstv.idvbstuningspace_put_spectralinversion, put_SpectralInversion, put_SpectralInversion method [Microsoft TV Technologies], put_SpectralInversion method [Microsoft TV Technologies],IDVBSTuningSpace interface, tuner/IDVBSTuningSpace::put_SpectralInversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDVBSTuningSpace::put_SpectralInversion method
+# IDVBSTuningSpace::put_SpectralInversion
 
 
 ## -description

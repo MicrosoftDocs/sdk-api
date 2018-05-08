@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.DDiscFormat2DataEvents.Update
-title: DDiscFormat2DataEvents::Update method
+title: DDiscFormat2DataEvents::Update
 author: windows-driver-content
 description: Implement this method to receive progress notification of the current write operation.
 old-location: imapi\ddiscformat2dataevents_update.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 786fc936-9493-4cc3-a937-4d1f4b54fe88
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: DDiscFormat2DataEvents, DDiscFormat2DataEvents interface [IMAPI], Update method, DDiscFormat2DataEvents::Update, Update method [IMAPI], Update method [IMAPI], DDiscFormat2DataEvents interface, Update,DDiscFormat2DataEvents.Update, imapi.ddiscformat2dataevents_update, imapi2/DDiscFormat2DataEvents::Update
+ms.keywords: DDiscFormat2DataEvents interface [IMAPI],Update method, DDiscFormat2DataEvents.Update, DDiscFormat2DataEvents::Update, Update, Update method [IMAPI], Update method [IMAPI],DDiscFormat2DataEvents interface, imapi.ddiscformat2dataevents_update, imapi2/DDiscFormat2DataEvents::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# DDiscFormat2DataEvents::Update method
+# DDiscFormat2DataEvents::Update
 
 
 ## -description

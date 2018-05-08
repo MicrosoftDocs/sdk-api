@@ -1,0 +1,6 @@
+# [Human Interface Devices Reference](../_hid/index.md)
+## [Ntddmou.h](index.md)
+### [IOCTL_MOUSE_QUERY_ATTRIBUTES IOCTL](../ntddmou/ni-ntddmou-ioctl_mouse_query_attributes.md)
+### [_MOUSE_ATTRIBUTES structure](../ntddmou/ns-ntddmou-_mouse_attributes.md)
+### [_MOUSE_INPUT_DATA structure](../ntddmou/ns-ntddmou-_mouse_input_data.md)
+### [_MOUSE_UNIT_ID_PARAMETER structure](../ntddmou/ns-ntddmou-_mouse_unit_id_parameter.md)

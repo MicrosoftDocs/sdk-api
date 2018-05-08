@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.EditWorkItem
-title: IScheduledWorkItem::EditWorkItem method
+title: IScheduledWorkItem::EditWorkItem
 author: windows-driver-content
 description: Displays the Task, Schedule, and settings property pages for the work item, allowing a user set the properties on those pages.
 old-location: taskschd\ischeduledworkitem_editworkitem.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 3b0b335a-4386-4726-8758-ef5944cb5dfe
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EditWorkItem method [Task Scheduler], EditWorkItem method [Task Scheduler], IScheduledWorkItem interface, EditWorkItem,IScheduledWorkItem.EditWorkItem, IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], EditWorkItem method, IScheduledWorkItem::EditWorkItem, _msb_ischeduledworkitem_editworkitem, mstask/IScheduledWorkItem::EditWorkItem, taskschd.ischeduledworkitem_editworkitem
+ms.keywords: EditWorkItem, EditWorkItem method [Task Scheduler], EditWorkItem method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],EditWorkItem method, IScheduledWorkItem.EditWorkItem, IScheduledWorkItem::EditWorkItem, _msb_ischeduledworkitem_editworkitem, mstask/IScheduledWorkItem::EditWorkItem, taskschd.ischeduledworkitem_editworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduledWorkItem::EditWorkItem method
+# IScheduledWorkItem::EditWorkItem
 
 
 ## -description

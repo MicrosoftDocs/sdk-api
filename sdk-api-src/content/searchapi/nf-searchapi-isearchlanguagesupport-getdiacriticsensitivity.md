@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.GetDiacriticSensitivity
-title: ISearchLanguageSupport::GetDiacriticSensitivity method
+title: ISearchLanguageSupport::GetDiacriticSensitivity
 author: windows-driver-content
 description: Gets the sensitivity of an implemented ISearchLanguageSupport interface to diacritics. A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation.
 old-location: search\_search_ISearchLanguageSupport_GetDiacriticSensitivity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\getdiacriticsensitivity.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetDiacriticSensitivity method [search], GetDiacriticSensitivity method [search], ISearchLanguageSupport interface, GetDiacriticSensitivity,ISearchLanguageSupport.GetDiacriticSensitivity, ISearchLanguageSupport, ISearchLanguageSupport interface [search], GetDiacriticSensitivity method, ISearchLanguageSupport::GetDiacriticSensitivity, _search_ISearchLanguageSupport_GetDiacriticSensitivity, search._search_ISearchLanguageSupport_GetDiacriticSensitivity, searchapi/ISearchLanguageSupport::GetDiacriticSensitivity
+ms.date: 5/4/2018
+ms.keywords: GetDiacriticSensitivity, GetDiacriticSensitivity method [search], GetDiacriticSensitivity method [search],ISearchLanguageSupport interface, ISearchLanguageSupport interface [search],GetDiacriticSensitivity method, ISearchLanguageSupport.GetDiacriticSensitivity, ISearchLanguageSupport::GetDiacriticSensitivity, _search_ISearchLanguageSupport_GetDiacriticSensitivity, search._search_ISearchLanguageSupport_GetDiacriticSensitivity, searchapi/ISearchLanguageSupport::GetDiacriticSensitivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchLanguageSupport::GetDiacriticSensitivity method
+# ISearchLanguageSupport::GetDiacriticSensitivity
 
 
 ## -description

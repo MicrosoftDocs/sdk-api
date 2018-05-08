@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComInstanceEvents.OnObjectDestroy
-title: IComInstanceEvents::OnObjectDestroy method
+title: IComInstanceEvents::OnObjectDestroy
 author: windows-driver-content
 description: Generated when an object is released by a client.
 old-location: cos\icominstanceevents_onobjectdestroy.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 3eea4171-a177-4adc-bd9a-856a558ba3d8
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IComInstanceEvents, IComInstanceEvents interface [COM+], OnObjectDestroy method, IComInstanceEvents::OnObjectDestroy, OnObjectDestroy method [COM+], OnObjectDestroy method [COM+], IComInstanceEvents interface, OnObjectDestroy,IComInstanceEvents.OnObjectDestroy, _dtc_IComInstanceEvents_OnObjectDestroy, comsvcs/IComInstanceEvents::OnObjectDestroy, cos.icominstanceevents_onobjectdestroy
+ms.keywords: IComInstanceEvents interface [COM+],OnObjectDestroy method, IComInstanceEvents.OnObjectDestroy, IComInstanceEvents::OnObjectDestroy, OnObjectDestroy, OnObjectDestroy method [COM+], OnObjectDestroy method [COM+],IComInstanceEvents interface, _dtc_IComInstanceEvents_OnObjectDestroy, comsvcs/IComInstanceEvents::OnObjectDestroy, cos.icominstanceevents_onobjectdestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IComInstanceEvents::OnObjectDestroy method
+# IComInstanceEvents::OnObjectDestroy
 
 
 ## -description

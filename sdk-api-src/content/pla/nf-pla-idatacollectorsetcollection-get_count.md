@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.get_Count
-title: IDataCollectorSetCollection::get_Count method
+title: IDataCollectorSetCollection::get_Count
 author: windows-driver-content
 description: Retrieves the number of data collector sets in the collection.
 old-location: pla\idatacollectorsetcollection_count.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: b43f7cc5-9780-4ae7-b542-7ca887f09087
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Count property [PLA], Count property [PLA], IDataCollectorSetCollection interface, IDataCollectorSetCollection, IDataCollectorSetCollection interface [PLA], Count property, IDataCollectorSetCollection.Count, IDataCollectorSetCollection::get_Count, base.idatacollectorsetcollection_count, get_Count,IDataCollectorSetCollection.get_Count, pla.idatacollectorsetcollection_count, pla/IDataCollectorSetCollection::Count, pla/IDataCollectorSetCollection::get_Count
+ms.keywords: Count property [PLA], Count property [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],Count property, IDataCollectorSetCollection.Count, IDataCollectorSetCollection.get_Count, IDataCollectorSetCollection::Count, IDataCollectorSetCollection::get_Count, base.idatacollectorsetcollection_count, get_Count, pla.idatacollectorsetcollection_count, pla/IDataCollectorSetCollection::Count, pla/IDataCollectorSetCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSetCollection::get_Count method
+# IDataCollectorSetCollection::get_Count
 
 
 ## -description

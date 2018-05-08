@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadResult.get_HResult
-title: IDownloadResult::get_HResult method
+title: IDownloadResult::get_HResult
 author: windows-driver-content
 description: Gets the exception code number if an exception code number is raised during the download.
 old-location: wua\idownloadresult_hresult.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 3f1aa4d9-0e34-4456-bac0-2c8b08519cdc
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent], IDownloadResult interface, IDownloadResult, IDownloadResult interface [Windows Update Agent], HResult property, IDownloadResult.HResult, IDownloadResult::get_HResult, get_HResult,IDownloadResult.get_HResult, wua.idownloadresult_hresult, wuapi/IDownloadResult::HResult, wuapi/IDownloadResult::get_HResult
+ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IDownloadResult interface, IDownloadResult interface [Windows Update Agent],HResult property, IDownloadResult.HResult, IDownloadResult.get_HResult, IDownloadResult::HResult, IDownloadResult::get_HResult, get_HResult, wua.idownloadresult_hresult, wuapi/IDownloadResult::HResult, wuapi/IDownloadResult::get_HResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IDownloadResult::get_HResult method
+# IDownloadResult::get_HResult
 
 
 ## -description

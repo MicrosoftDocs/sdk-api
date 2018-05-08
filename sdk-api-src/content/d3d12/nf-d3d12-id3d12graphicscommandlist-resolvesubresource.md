@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResolveSubresource
-title: ID3D12GraphicsCommandList::ResolveSubresource method
+title: ID3D12GraphicsCommandList::ResolveSubresource
 author: windows-driver-content
 description: Copy a multi-sampled resource into a non-multi-sampled resource.
 old-location: direct3d12\id3d12graphicscommandlist_resolvesubresource.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: F1D4BAD1-B08E-47D0-9D2B-41873D6B4456
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, ResolveSubresource method, ID3D12GraphicsCommandList::ResolveSubresource, ResolveSubresource method, ResolveSubresource method, ID3D12GraphicsCommandList interface, ResolveSubresource,ID3D12GraphicsCommandList.ResolveSubresource, d3d12/ID3D12GraphicsCommandList::ResolveSubresource, direct3d12.id3d12graphicscommandlist_resolvesubresource
+ms.keywords: ID3D12GraphicsCommandList interface,ResolveSubresource method, ID3D12GraphicsCommandList.ResolveSubresource, ID3D12GraphicsCommandList::ResolveSubresource, ResolveSubresource, ResolveSubresource method, ResolveSubresource method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResolveSubresource, direct3d12.id3d12graphicscommandlist_resolvesubresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3d12.dll
 req.irql: 
 ---
 
-# ID3D12GraphicsCommandList::ResolveSubresource method
+# ID3D12GraphicsCommandList::ResolveSubresource
 
 
 ## -description

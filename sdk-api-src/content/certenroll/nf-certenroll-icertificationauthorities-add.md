@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.Add
-title: ICertificationAuthorities::Add method
+title: ICertificationAuthorities::Add
 author: windows-driver-content
 description: Adds an ICertificationAuthority object to the collection.
 old-location: security\icertificationauthorities_add.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 8a618b8b-9089-4f35-afd4-b11255a26ac9
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Add method [Security], Add method [Security], ICertificationAuthorities interface, Add,ICertificationAuthorities.Add, ICertificationAuthorities, ICertificationAuthorities interface [Security], Add method, ICertificationAuthorities::Add, certenroll/ICertificationAuthorities::Add, security.icertificationauthorities_add
+ms.keywords: Add, Add method [Security], Add method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Add method, ICertificationAuthorities.Add, ICertificationAuthorities::Add, certenroll/ICertificationAuthorities::Add, security.icertificationauthorities_add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICertificationAuthorities::Add method
+# ICertificationAuthorities::Add
 
 
 ## -description

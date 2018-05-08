@@ -7,7 +7,7 @@ old-location: security\ncryptencrypt_func.htm
 old-project: SecCNG
 ms.assetid: 837fc720-2167-4ead-86ea-2c3d438f2530
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: NCRYPT_NO_PADDING_FLAG, NCRYPT_PAD_OAEP_FLAG, NCRYPT_PAD_PKCS1_FLAG, NCRYPT_SILENT_FLAG, NCryptEncrypt, NCryptEncrypt function [Security], ncrypt/NCryptEncrypt, security.ncryptencrypt_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

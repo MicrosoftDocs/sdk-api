@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IVideoWindow.get_Width
-title: IVideoWindow::get_Width method
+title: IVideoWindow::get_Width
 author: windows-driver-content
 description: The get_Width method retrieves the width of the video window.
 old-location: dshow\ivideowindow_get_width.htm
 old-project: DirectShow
 ms.assetid: 179b065a-7269-40fa-8772-b336f27d69de
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], get_Width method, IVideoWindow::get_Width, IVideoWindowget_Width, control/IVideoWindow::get_Width, dshow.ivideowindow_get_width, get_Width method [DirectShow], get_Width method [DirectShow], IVideoWindow interface, get_Width,IVideoWindow.get_Width
+ms.date: 4/30/2018
+ms.keywords: IVideoWindow interface [DirectShow],get_Width method, IVideoWindow.get_Width, IVideoWindow::get_Width, IVideoWindowget_Width, control/IVideoWindow::get_Width, dshow.ivideowindow_get_width, get_Width, get_Width method [DirectShow], get_Width method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IVideoWindow::get_Width method
+# IVideoWindow::get_Width
 
 
 ## -description

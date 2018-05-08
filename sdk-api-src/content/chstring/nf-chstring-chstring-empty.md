@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.Empty
-title: CHString::Empty method
+title: CHString::Empty
 author: windows-driver-content
 description: The Empty method makes the CHString object an empty string and frees memory as appropriate.
 old-location: wmi\chstring_empty.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 837344de-d8dd-45a8-8d43-09d926f51ff9
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: "?Empty@CHString@@QAEXXZ, ?Empty@CHString@@QEAAXXZ, CHString, CHString interface [Windows Management Instrumentation], Empty method, CHString::Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation], CHString interface, Empty,CHString.Empty, _hmm_chstring_empty, chstring/CHString::Empty, wmi.chstring_empty"
+ms.keywords: "?Empty@CHString@@QAEXXZ, ?Empty@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],Empty method, CHString.Empty, CHString::Empty, Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation],CHString interface, _hmm_chstring_empty, chstring/CHString::Empty, wmi.chstring_empty"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 ---
 
-# CHString::Empty method
+# CHString::Empty
 
 
 ## -description

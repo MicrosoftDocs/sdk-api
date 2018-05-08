@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISynchronize.Reset
-title: ISynchronize::Reset method
+title: ISynchronize::Reset
 author: windows-driver-content
 description: Sets the synchronization object to the nonsignaled state.
 old-location: com\isynchronize_reset.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 33c56a33-9954-4612-ba0f-396ccdc48bf3
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISynchronize, ISynchronize interface [COM], Reset method, ISynchronize::Reset, Reset method [COM], Reset method [COM], ISynchronize interface, Reset,ISynchronize.Reset, _com_isynchronize_reset, com.isynchronize_reset, objidlbase/ISynchronize::Reset
+ms.keywords: ISynchronize interface [COM],Reset method, ISynchronize.Reset, ISynchronize::Reset, Reset, Reset method [COM], Reset method [COM],ISynchronize interface, _com_isynchronize_reset, com.isynchronize_reset, objidlbase/ISynchronize::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISynchronize::Reset method
+# ISynchronize::Reset
 
 
 ## -description

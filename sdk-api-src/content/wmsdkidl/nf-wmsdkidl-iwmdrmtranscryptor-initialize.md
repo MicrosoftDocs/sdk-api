@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMTranscryptor.Initialize
-title: IWMDRMTranscryptor::Initialize method
+title: IWMDRMTranscryptor::Initialize
 author: windows-driver-content
 description: The Initialize method loads a file into the DRM transcryptor. A file must be loaded before the transcryptor can process any data.
 old-location: wmformat\iwmdrmtranscryptor_initialize.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 084423cc-d10c-4993-b9dd-ace51aa6b7f0
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMDRMTranscryptor, IWMDRMTranscryptor interface [windows Media Format], Initialize method, IWMDRMTranscryptor::Initialize, IWMDRMTranscryptorInitialize, Initialize method [windows Media Format], Initialize method [windows Media Format], IWMDRMTranscryptor interface, Initialize,IWMDRMTranscryptor.Initialize, wmformat.iwmdrmtranscryptor_initialize, wmsdkidl/IWMDRMTranscryptor::Initialize
+ms.keywords: IWMDRMTranscryptor interface [windows Media Format],Initialize method, IWMDRMTranscryptor.Initialize, IWMDRMTranscryptor::Initialize, IWMDRMTranscryptorInitialize, Initialize, Initialize method [windows Media Format], Initialize method [windows Media Format],IWMDRMTranscryptor interface, wmformat.iwmdrmtranscryptor_initialize, wmsdkidl/IWMDRMTranscryptor::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMTranscryptor::Initialize method
+# IWMDRMTranscryptor::Initialize
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetSignatureValue
-title: IXpsSignature::GetSignatureValue method
+title: IXpsSignature::GetSignatureValue
 author: windows-driver-content
 description: Gets the encrypted hash value of the signature.
 old-location: xps\ixpssignature_getsignaturevalue.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 40a21fa3-cf71-4c0d-8343-83a2c1a216c9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSignatureValue method [XPS Documents and Packaging], GetSignatureValue method [XPS Documents and Packaging], IXpsSignature interface, GetSignatureValue,IXpsSignature.GetSignatureValue, IXpsSignature, IXpsSignature interface [XPS Documents and Packaging], GetSignatureValue method, IXpsSignature::GetSignatureValue, xps.ixpssignature_getsignaturevalue, xpsdigitalsignature/IXpsSignature::GetSignatureValue
+ms.keywords: GetSignatureValue, GetSignatureValue method [XPS Documents and Packaging], GetSignatureValue method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetSignatureValue method, IXpsSignature.GetSignatureValue, IXpsSignature::GetSignatureValue, xps.ixpssignature_getsignaturevalue, xpsdigitalsignature/IXpsSignature::GetSignatureValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSignature::GetSignatureValue method
+# IXpsSignature::GetSignatureValue
 
 
 ## -description

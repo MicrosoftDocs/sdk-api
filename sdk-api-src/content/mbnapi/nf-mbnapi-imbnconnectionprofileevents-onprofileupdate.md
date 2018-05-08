@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileEvents.OnProfileUpdate
-title: IMbnConnectionProfileEvents::OnProfileUpdate method
+title: IMbnConnectionProfileEvents::OnProfileUpdate
 author: windows-driver-content
 description: A notification method that indicates that profile update operation has completed.
 old-location: mbn\imbnconnectionprofileevents_onprofileupdatecomplete.htm
@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: eb113544-0c89-4b38-a2f4-c67c639fe8a3
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnConnectionProfileEvents, IMbnConnectionProfileEvents interface [Microsoft Broadband Networks], OnProfileUpdate method, IMbnConnectionProfileEvents::OnProfileUpdate, OnProfileUpdate method [Microsoft Broadband Networks], OnProfileUpdate method [Microsoft Broadband Networks], IMbnConnectionProfileEvents interface, OnProfileUpdate,IMbnConnectionProfileEvents.OnProfileUpdate, mbn.imbnconnectionprofileevents_onprofileupdatecomplete, mbnapi/IMbnConnectionProfileEvents::OnProfileUpdate
+ms.keywords: IMbnConnectionProfileEvents interface [Microsoft Broadband Networks],OnProfileUpdate method, IMbnConnectionProfileEvents.OnProfileUpdate, IMbnConnectionProfileEvents::OnProfileUpdate, OnProfileUpdate, OnProfileUpdate method [Microsoft Broadband Networks], OnProfileUpdate method [Microsoft Broadband Networks],IMbnConnectionProfileEvents interface, mbn.imbnconnectionprofileevents_onprofileupdatecomplete, mbnapi/IMbnConnectionProfileEvents::OnProfileUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMbnConnectionProfileEvents::OnProfileUpdate method
+# IMbnConnectionProfileEvents::OnProfileUpdate
 
 
 ## -description

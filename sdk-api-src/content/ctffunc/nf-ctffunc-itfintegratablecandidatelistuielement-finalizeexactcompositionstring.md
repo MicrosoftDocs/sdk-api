@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString
-title: ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString method
+title: ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString
 author: windows-driver-content
 description: Finalizes the current composition with the value currently shown to the user.
 old-location: tsf\itfintegratablecandidatelistuielement_finalizeexactcompositionstring.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 1A81C1D7-2D7A-41A0-9DB7-0F30AE610051
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: FinalizeExactCompositionString method [Text Services Framework], FinalizeExactCompositionString method [Text Services Framework], ITfIntegratableCandidateListUIElement interface, FinalizeExactCompositionString,ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString, ITfIntegratableCandidateListUIElement, ITfIntegratableCandidateListUIElement interface [Text Services Framework], FinalizeExactCompositionString method, ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString, ctffunc/ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString, tsf.itfintegratablecandidatelistuielement_finalizeexactcompositionstring
+ms.keywords: FinalizeExactCompositionString, FinalizeExactCompositionString method [Text Services Framework], FinalizeExactCompositionString method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ITfIntegratableCandidateListUIElement interface [Text Services Framework],FinalizeExactCompositionString method, ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString, ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString, ctffunc/ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString, tsf.itfintegratablecandidatelistuielement_finalizeexactcompositionstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString method
+# ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString
 
 
 ## -description

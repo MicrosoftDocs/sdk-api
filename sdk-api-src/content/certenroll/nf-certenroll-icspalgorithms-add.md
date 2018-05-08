@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.Add
-title: ICspAlgorithms::Add method
+title: ICspAlgorithms::Add
 author: windows-driver-content
 description: Adds an ICspAlgorithm object to the collection.
 old-location: security\icspalgorithms_add_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 53cd408e-752c-4256-839c-e09055487c39
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: Add method [Security], Add method [Security], ICspAlgorithms interface, Add,ICspAlgorithms.Add, ICspAlgorithms, ICspAlgorithms interface [Security], Add method, ICspAlgorithms::Add, certenroll/ICspAlgorithms::Add, security.icspalgorithms_add_method
+ms.keywords: Add, Add method [Security], Add method [Security],ICspAlgorithms interface, ICspAlgorithms interface [Security],Add method, ICspAlgorithms.Add, ICspAlgorithms::Add, certenroll/ICspAlgorithms::Add, security.icspalgorithms_add_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICspAlgorithms::Add method
+# ICspAlgorithms::Add
 
 
 ## -description

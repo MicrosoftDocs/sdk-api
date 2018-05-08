@@ -7,8 +7,8 @@ old-location: security\iocspproperty.htm
 old-project: SecCrypto
 ms.assetid: 854848f0-ea89-4c25-a8a5-40f1e4d229be
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: IOCSPProperty, IOCSPProperty interface [Security], IOCSPProperty interface [Security], described, certadm/IOCSPProperty, security.iocspproperty
+ms.date: 4/30/2018
+ms.keywords: IOCSPProperty, IOCSPProperty interface [Security], IOCSPProperty interface [Security],described, certadm/IOCSPProperty, security.iocspproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

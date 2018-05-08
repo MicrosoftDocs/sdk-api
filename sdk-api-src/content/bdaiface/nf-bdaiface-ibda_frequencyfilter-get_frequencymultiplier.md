@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.get_FrequencyMultiplier
-title: IBDA_FrequencyFilter::get_FrequencyMultiplier method
+title: IBDA_FrequencyFilter::get_FrequencyMultiplier
 author: windows-driver-content
 description: The get_FrequencyMultiplier method retrieves the frequency multiplier. The frequency multiplier determines the frequency units for the methods on this interface. The default value is 1000, meaning that frequencies are expressed in kilohertz (kHz).
 old-location: mstv\ibda_frequencyfilter_get_frequencymultiplier.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 463a58f7-a10c-40b5-8183-3e16bcc7c6b2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_FrequencyFilter, IBDA_FrequencyFilter interface [Microsoft TV Technologies], get_FrequencyMultiplier method, IBDA_FrequencyFilter::get_FrequencyMultiplier, IBDA_FrequencyFilterget_FrequencyMultiplier, bdaiface/IBDA_FrequencyFilter::get_FrequencyMultiplier, get_FrequencyMultiplier method [Microsoft TV Technologies], get_FrequencyMultiplier method [Microsoft TV Technologies], IBDA_FrequencyFilter interface, get_FrequencyMultiplier,IBDA_FrequencyFilter.get_FrequencyMultiplier, mstv.ibda_frequencyfilter_get_frequencymultiplier
+ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],get_FrequencyMultiplier method, IBDA_FrequencyFilter.get_FrequencyMultiplier, IBDA_FrequencyFilter::get_FrequencyMultiplier, IBDA_FrequencyFilterget_FrequencyMultiplier, bdaiface/IBDA_FrequencyFilter::get_FrequencyMultiplier, get_FrequencyMultiplier, get_FrequencyMultiplier method [Microsoft TV Technologies], get_FrequencyMultiplier method [Microsoft TV Technologies],IBDA_FrequencyFilter interface, mstv.ibda_frequencyfilter_get_frequencymultiplier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_FrequencyFilter::get_FrequencyMultiplier method
+# IBDA_FrequencyFilter::get_FrequencyMultiplier
 
 
 ## -description

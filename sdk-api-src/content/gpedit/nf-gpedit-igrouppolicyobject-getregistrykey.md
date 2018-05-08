@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetRegistryKey
-title: IGroupPolicyObject::GetRegistryKey method
+title: IGroupPolicyObject::GetRegistryKey
 author: windows-driver-content
 description: The GetRegistryKey method retrieves a handle to the root of the registry key for the specified GPO section.
 old-location: policy\igrouppolicyobject_getregistrykey.htm
@@ -8,7 +8,7 @@ old-project: Policy
 ms.assetid: 6d46aeb4-8675-4746-9b80-46a0def184b8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GetRegistryKey method [Group Policy], GetRegistryKey method [Group Policy], IGroupPolicyObject interface, GetRegistryKey,IGroupPolicyObject.GetRegistryKey, IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], GetRegistryKey method, IGroupPolicyObject::GetRegistryKey, _win32_igrouppolicyobject_getregistrykey, gpedit/IGroupPolicyObject::GetRegistryKey, policy.igrouppolicyobject_getregistrykey
+ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GetRegistryKey, GetRegistryKey method [Group Policy], GetRegistryKey method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetRegistryKey method, IGroupPolicyObject.GetRegistryKey, IGroupPolicyObject::GetRegistryKey, _win32_igrouppolicyobject_getregistrykey, gpedit/IGroupPolicyObject::GetRegistryKey, policy.igrouppolicyobject_getregistrykey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGroupPolicyObject::GetRegistryKey method
+# IGroupPolicyObject::GetRegistryKey
 
 
 ## -description

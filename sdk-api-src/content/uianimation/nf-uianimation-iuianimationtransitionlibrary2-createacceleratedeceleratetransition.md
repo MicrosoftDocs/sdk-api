@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateAccelerateDecelerateTransition
-title: IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition method
+title: IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition
 author: windows-driver-content
 description: Creates an accelerate-decelerate scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createacceleratedeceleratetransition.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 813B4539-2942-484E-BC20-3A8178EBF9A0
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateAccelerateDecelerateTransition method [Windows Animation], CreateAccelerateDecelerateTransition method [Windows Animation], IUIAnimationTransitionLibrary2 interface, CreateAccelerateDecelerateTransition,IUIAnimationTransitionLibrary2.CreateAccelerateDecelerateTransition, IUIAnimationTransitionLibrary2, IUIAnimationTransitionLibrary2 interface [Windows Animation], CreateAccelerateDecelerateTransition method, IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition, uianimation.iuianimationtransitionlibrary2_createacceleratedeceleratetransition, uianimation/IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition
+ms.keywords: CreateAccelerateDecelerateTransition, CreateAccelerateDecelerateTransition method [Windows Animation], CreateAccelerateDecelerateTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateAccelerateDecelerateTransition method, IUIAnimationTransitionLibrary2.CreateAccelerateDecelerateTransition, IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition, uianimation.iuianimationtransitionlibrary2_createacceleratedeceleratetransition, uianimation/IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition method
+# IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition
 
 
 ## -description

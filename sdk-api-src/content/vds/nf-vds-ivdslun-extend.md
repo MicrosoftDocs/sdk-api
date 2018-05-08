@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLun.Extend
-title: IVdsLun::Extend method
+title: IVdsLun::Extend
 author: windows-driver-content
 description: Extends a LUN by a specified number of bytes.
 old-location: base\ivdslun_extend.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 65520b6a-206a-4b90-b8cc-b7964d0cf102
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: Extend method [VDS], Extend method [VDS], IVdsLun interface, Extend,IVdsLun.Extend, IVdsLun, IVdsLun interface [VDS], Extend method, IVdsLun::Extend, base.ivdslun_extend, vds/IVdsLun::Extend, vdshwprv/IVdsLun::Extend
+ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsLun interface, IVdsLun interface [VDS],Extend method, IVdsLun.Extend, IVdsLun::Extend, base.ivdslun_extend, vds/IVdsLun::Extend, vdshwprv/IVdsLun::Extend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsLun::Extend method
+# IVdsLun::Extend
 
 
 ## -description

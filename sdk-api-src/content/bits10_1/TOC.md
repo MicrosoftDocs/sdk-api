@@ -1,0 +1,6 @@
+# [Background Intelligent Transfer Service](../_bits/index.md)
+## [Bits10_1.h](index.md)
+### [IBackgroundCopyFile6::GetFilledFileRanges](../bits10_1/nf-bits10_1-ibackgroundcopyfile6-getfilledfileranges.md)
+### [IBackgroundCopyFile6::RequestFileRanges](../bits10_1/nf-bits10_1-ibackgroundcopyfile6-requestfileranges.md)
+### [IBackgroundCopyFile6::UpdateDownloadPosition](../bits10_1/nf-bits10_1-ibackgroundcopyfile6-updatedownloadposition.md)
+### [IBackgroundCopyFile6 interface](../bits10_1/nn-bits10_1-ibackgroundcopyfile6.md)

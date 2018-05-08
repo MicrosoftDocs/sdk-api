@@ -1,6 +1,6 @@
 ---
 UID: NF:propidl.IPropertyStorage.ReadPropertyNames
-title: IPropertyStorage::ReadPropertyNames method
+title: IPropertyStorage::ReadPropertyNames
 author: windows-driver-content
 description: Retrieves any existing string names for the specified property IDs.
 old-location: stg\ipropertystorage_readpropertynames.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: 42b0bf7e-0402-425c-8a5f-09eaa16d93fe
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], ReadPropertyNames method, IPropertyStorage::ReadPropertyNames, ReadPropertyNames method [Structured Storage], ReadPropertyNames method [Structured Storage], IPropertyStorage interface, ReadPropertyNames,IPropertyStorage.ReadPropertyNames, _stg_ipropertystorage_readpropertynames, propidl/IPropertyStorage::ReadPropertyNames, stg.ipropertystorage_readpropertynames
+ms.keywords: IPropertyStorage interface [Structured Storage],ReadPropertyNames method, IPropertyStorage.ReadPropertyNames, IPropertyStorage::ReadPropertyNames, ReadPropertyNames, ReadPropertyNames method [Structured Storage], ReadPropertyNames method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_readpropertynames, propidl/IPropertyStorage::ReadPropertyNames, stg.ipropertystorage_readpropertynames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyStorage::ReadPropertyNames method
+# IPropertyStorage::ReadPropertyNames
 
 
 ## -description

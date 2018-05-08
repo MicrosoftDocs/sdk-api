@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# SpSealMessageFn callback
+# SpSealMessageFn callback function
 
 
 ## -description

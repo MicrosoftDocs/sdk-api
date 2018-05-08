@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.SetProgressCallback
-title: ISyncMgrSynchronize::SetProgressCallback method
+title: ISyncMgrSynchronize::SetProgressCallback
 author: windows-driver-content
 description: Sets the ISyncMgrSynchronizeCallback interface. Registered applications use this callback interface to give status information from within the ISyncMgrSynchronize::PrepareForSync and ISyncMgrSynchronize::Synchronize methods.
 old-location: shell\syncmgr_isyncmgrsynchronize_setprogresscallback.htm
 old-project: shell
 ms.assetid: 193926e8-824c-4969-9707-e2d95961c242
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSynchronize, ISyncMgrSynchronize interface [Windows Shell], SetProgressCallback method, ISyncMgrSynchronize::SetProgressCallback, SetProgressCallback method [Windows Shell], SetProgressCallback method [Windows Shell], ISyncMgrSynchronize interface, SetProgressCallback,ISyncMgrSynchronize.SetProgressCallback, mobsync/ISyncMgrSynchronize::SetProgressCallback, shell.syncmgr_isyncmgrsynchronize_setprogresscallback, syncmgr.isyncmgrsynchronize_setprogresscallback
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSynchronize interface [Windows Shell],SetProgressCallback method, ISyncMgrSynchronize.SetProgressCallback, ISyncMgrSynchronize::SetProgressCallback, SetProgressCallback, SetProgressCallback method [Windows Shell], SetProgressCallback method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::SetProgressCallback, shell.syncmgr_isyncmgrsynchronize_setprogresscallback, syncmgr.isyncmgrsynchronize_setprogresscallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronize::SetProgressCallback method
+# ISyncMgrSynchronize::SetProgressCallback
 
 
 ## -description

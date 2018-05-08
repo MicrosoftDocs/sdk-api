@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: 5fab2a62-d974-49f7-ac81-c704d9d8624c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IValueMapItem, IValueMapItem interface [PLA], IValueMapItem interface [PLA], described, base.ivaluemapitem, pla.ivaluemapitem, pla/IValueMapItem
+ms.keywords: IValueMapItem, IValueMapItem interface [PLA], IValueMapItem interface [PLA],described, base.ivaluemapitem, pla.ivaluemapitem, pla/IValueMapItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

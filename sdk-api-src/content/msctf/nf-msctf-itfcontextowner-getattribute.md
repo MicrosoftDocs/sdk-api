@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetAttribute
-title: ITfContextOwner::GetAttribute method
+title: ITfContextOwner::GetAttribute
 author: windows-driver-content
 description: The ITfContextOwner::GetAttribute method returns the value of a supported attribute. If the attribute is unsupported, the pvarValue parameter is set to VT_EMPTY.
 old-location: tsf\itfcontextowner_getattribute.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: a249d529-fdb1-4f5f-84ae-f26dae917609
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetAttribute method [Text Services Framework], GetAttribute method [Text Services Framework], ITfContextOwner interface, GetAttribute,ITfContextOwner.GetAttribute, ITfContextOwner, ITfContextOwner interface [Text Services Framework], GetAttribute method, ITfContextOwner::GetAttribute, _tsf_itfcontextowner_getattribute_ref, msctf/ITfContextOwner::GetAttribute, tsf.itfcontextowner_getattribute
+ms.keywords: GetAttribute, GetAttribute method [Text Services Framework], GetAttribute method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetAttribute method, ITfContextOwner.GetAttribute, ITfContextOwner::GetAttribute, _tsf_itfcontextowner_getattribute_ref, msctf/ITfContextOwner::GetAttribute, tsf.itfcontextowner_getattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfContextOwner::GetAttribute method
+# ITfContextOwner::GetAttribute
 
 
 ## -description

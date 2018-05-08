@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPMedia.get_sourceURL
-title: IWMPMedia::get_sourceURL method
+title: IWMPMedia::get_sourceURL
 author: windows-driver-content
 description: The get_sourceURL method retrieves the URL of the media item.
 old-location: wmp\iwmpmedia_get_sourceurl.htm
 old-project: WMP
 ms.assetid: 99a9bd0f-0429-41b0-96fc-b84d895f6b38
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], get_sourceURL method, IWMPMedia2 interface [Windows Media Player], get_sourceURL method, IWMPMedia2::get_sourceURL, IWMPMedia3 interface [Windows Media Player], get_sourceURL method, IWMPMedia3::get_sourceURL, IWMPMedia::get_sourceURL, IWMPMediaget_sourceURL, get_sourceURL method [Windows Media Player], get_sourceURL method [Windows Media Player], IWMPMedia interface, get_sourceURL method [Windows Media Player], IWMPMedia2 interface, get_sourceURL method [Windows Media Player], IWMPMedia3 interface, get_sourceURL,IWMPMedia.get_sourceURL, wmp.iwmpmedia_get_sourceurl, wmp/IWMPMedia2::get_sourceURL, wmp/IWMPMedia3::get_sourceURL, wmp/IWMPMedia::get_sourceURL
+ms.date: 5/4/2018
+ms.keywords: IWMPMedia interface [Windows Media Player],get_sourceURL method, IWMPMedia.get_sourceURL, IWMPMedia2 interface [Windows Media Player],get_sourceURL method, IWMPMedia2::get_sourceURL, IWMPMedia3 interface [Windows Media Player],get_sourceURL method, IWMPMedia3::get_sourceURL, IWMPMedia::get_sourceURL, IWMPMediaget_sourceURL, get_sourceURL, get_sourceURL method [Windows Media Player], get_sourceURL method [Windows Media Player],IWMPMedia interface, get_sourceURL method [Windows Media Player],IWMPMedia2 interface, get_sourceURL method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_sourceurl, wmp/IWMPMedia2::get_sourceURL, wmp/IWMPMedia3::get_sourceURL, wmp/IWMPMedia::get_sourceURL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPMedia::get_sourceURL method
+# IWMPMedia::get_sourceURL
 
 
 ## -description

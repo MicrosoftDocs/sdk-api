@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IMultisession.get_IsSupportedOnCurrentMediaState
-title: IMultisession::get_IsSupportedOnCurrentMediaState method
+title: IMultisession::get_IsSupportedOnCurrentMediaState
 author: windows-driver-content
 description: Determines if the multi-session type can write to the current optical media.
 old-location: imapi\imultisession_get_issupportedoncurrentmediastate.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: cabfa0a2-15db-4ef4-b852-b6306d2b49a1
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMultisession, IMultisession interface [IMAPI], get_IsSupportedOnCurrentMediaState method, IMultisession::get_IsSupportedOnCurrentMediaState, get_IsSupportedOnCurrentMediaState method [IMAPI], get_IsSupportedOnCurrentMediaState method [IMAPI], IMultisession interface, get_IsSupportedOnCurrentMediaState,IMultisession.get_IsSupportedOnCurrentMediaState, imapi.imultisession_get_issupportedoncurrentmediastate, imapi2/IMultisession::get_IsSupportedOnCurrentMediaState
+ms.keywords: IMultisession interface [IMAPI],get_IsSupportedOnCurrentMediaState method, IMultisession.get_IsSupportedOnCurrentMediaState, IMultisession::get_IsSupportedOnCurrentMediaState, get_IsSupportedOnCurrentMediaState, get_IsSupportedOnCurrentMediaState method [IMAPI], get_IsSupportedOnCurrentMediaState method [IMAPI],IMultisession interface, imapi.imultisession_get_issupportedoncurrentmediastate, imapi2/IMultisession::get_IsSupportedOnCurrentMediaState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMultisession::get_IsSupportedOnCurrentMediaState method
+# IMultisession::get_IsSupportedOnCurrentMediaState
 
 
 ## -description

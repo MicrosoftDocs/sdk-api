@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.get_burnFormat
-title: IWMPCdromBurn::get_burnFormat method
+title: IWMPCdromBurn::get_burnFormat
 author: windows-driver-content
 description: The get_burnFormat method retrieves a value that indicates the type of CD to burn.
 old-location: wmp\iwmpcdromburn_get_burnformat.htm
 old-project: WMP
 ms.assetid: 564a3978-555e-4cbc-90fe-b29f61349260
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], get_burnFormat method, IWMPCdromBurn::get_burnFormat, IWMPCdromBurnget_burnFormat, get_burnFormat method [Windows Media Player], get_burnFormat method [Windows Media Player], IWMPCdromBurn interface, get_burnFormat,IWMPCdromBurn.get_burnFormat, wmp.iwmpcdromburn_get_burnformat, wmp/IWMPCdromBurn::get_burnFormat
+ms.date: 5/4/2018
+ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnFormat method, IWMPCdromBurn.get_burnFormat, IWMPCdromBurn::get_burnFormat, IWMPCdromBurnget_burnFormat, get_burnFormat, get_burnFormat method [Windows Media Player], get_burnFormat method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnformat, wmp/IWMPCdromBurn::get_burnFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPCdromBurn::get_burnFormat method
+# IWMPCdromBurn::get_burnFormat
 
 
 ## -description

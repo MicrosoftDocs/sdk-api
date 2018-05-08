@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_TabStop
-title: IMSVidCtl::put_TabStop method
+title: IMSVidCtl::put_TabStop
 author: windows-driver-content
 description: The put_TabStop method specifies whether a user can use the TAB key to give the focus to the Video Control.
 old-location: mstv\imsvidctl_put_tabstop.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c0e3d216-ea3f-4db4-80fd-aaf4d520ba1a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], put_TabStop method, IMSVidCtl::put_TabStop, IMSVidCtlput_TabStop, mstv.imsvidctl_put_tabstop, msvidctl/IMSVidCtl::put_TabStop, put_TabStop method [Microsoft TV Technologies], put_TabStop method [Microsoft TV Technologies], IMSVidCtl interface, put_TabStop,IMSVidCtl.put_TabStop
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_TabStop method, IMSVidCtl.put_TabStop, IMSVidCtl::put_TabStop, IMSVidCtlput_TabStop, mstv.imsvidctl_put_tabstop, msvidctl/IMSVidCtl::put_TabStop, put_TabStop, put_TabStop method [Microsoft TV Technologies], put_TabStop method [Microsoft TV Technologies],IMSVidCtl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::put_TabStop method
+# IMSVidCtl::put_TabStop
 
 
 ## -description

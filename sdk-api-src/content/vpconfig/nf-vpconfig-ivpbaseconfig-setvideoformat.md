@@ -1,14 +1,14 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetVideoFormat
-title: IVPBaseConfig::SetVideoFormat method
+title: IVPBaseConfig::SetVideoFormat
 author: windows-driver-content
 description: The SetVideoFormat method sets the video format.
 old-location: dshow\ivpbaseconfig_setvideoformat.htm
 old-project: DirectShow
 ms.assetid: 98b4182f-c286-4f4a-86b8-40d093456628
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], SetVideoFormat method, IVPBaseConfig::SetVideoFormat, IVPBaseConfigSetVideoFormat, SetVideoFormat method [DirectShow], SetVideoFormat method [DirectShow], IVPBaseConfig interface, SetVideoFormat,IVPBaseConfig.SetVideoFormat, dshow.ivpbaseconfig_setvideoformat, vpconfig/IVPBaseConfig::SetVideoFormat
+ms.date: 4/30/2018
+ms.keywords: IVPBaseConfig interface [DirectShow],SetVideoFormat method, IVPBaseConfig.SetVideoFormat, IVPBaseConfig::SetVideoFormat, IVPBaseConfigSetVideoFormat, SetVideoFormat, SetVideoFormat method [DirectShow], SetVideoFormat method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setvideoformat, vpconfig/IVPBaseConfig::SetVideoFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVPBaseConfig::SetVideoFormat method
+# IVPBaseConfig::SetVideoFormat
 
 
 ## -description

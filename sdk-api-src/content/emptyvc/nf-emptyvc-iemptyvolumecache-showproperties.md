@@ -1,14 +1,14 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.ShowProperties
-title: IEmptyVolumeCache::ShowProperties method
+title: IEmptyVolumeCache::ShowProperties
 author: windows-driver-content
 description: Notifies the handler to display its UI.
 old-location: lwef\iemptyvolumecache_showproperties.htm
 old-project: lwef
 ms.assetid: 3bce6251-b209-405a-8ac2-fd385f1c69ee
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: IEmptyVolumeCache, IEmptyVolumeCache interface [Legacy Windows Environment Features], ShowProperties method, IEmptyVolumeCache::ShowProperties, ShowProperties method [Legacy Windows Environment Features], ShowProperties method [Legacy Windows Environment Features], IEmptyVolumeCache interface, ShowProperties,IEmptyVolumeCache.ShowProperties, _win32_IEmptyVolumeCache_ShowProperties, emptyvc/IEmptyVolumeCache::ShowProperties, lwef.iemptyvolumecache_showproperties, shell.iemptyvolumecache_showproperties
+ms.date: 4/27/2018
+ms.keywords: IEmptyVolumeCache interface [Legacy Windows Environment Features],ShowProperties method, IEmptyVolumeCache.ShowProperties, IEmptyVolumeCache::ShowProperties, ShowProperties, ShowProperties method [Legacy Windows Environment Features], ShowProperties method [Legacy Windows Environment Features],IEmptyVolumeCache interface, _win32_IEmptyVolumeCache_ShowProperties, emptyvc/IEmptyVolumeCache::ShowProperties, lwef.iemptyvolumecache_showproperties, shell.iemptyvolumecache_showproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEmptyVolumeCache::ShowProperties method
+# IEmptyVolumeCache::ShowProperties
 
 
 ## -description

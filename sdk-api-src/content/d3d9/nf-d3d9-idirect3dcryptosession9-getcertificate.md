@@ -1,14 +1,14 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.GetCertificate
-title: IDirect3DCryptoSession9::GetCertificate method
+title: IDirect3DCryptoSession9::GetCertificate
 author: windows-driver-content
 description: Gets the driver's certificate chain.
 old-location: mf\idirect3dcryptosession9_getcertificate.htm
 old-project: medfound
 ms.assetid: 802285a6-1338-4131-bb5e-9d4daad62bdc
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetCertificate method [Media Foundation], GetCertificate method [Media Foundation], IDirect3DCryptoSession9 interface, GetCertificate,IDirect3DCryptoSession9.GetCertificate, IDirect3DCryptoSession9, IDirect3DCryptoSession9 interface [Media Foundation], GetCertificate method, IDirect3DCryptoSession9::GetCertificate, d3d9/IDirect3DCryptoSession9::GetCertificate, mf.idirect3dcryptosession9_getcertificate
+ms.date: 5/3/2018
+ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],GetCertificate method, IDirect3DCryptoSession9.GetCertificate, IDirect3DCryptoSession9::GetCertificate, d3d9/IDirect3DCryptoSession9::GetCertificate, mf.idirect3dcryptosession9_getcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DCryptoSession9::GetCertificate method
+# IDirect3DCryptoSession9::GetCertificate
 
 
 ## -description

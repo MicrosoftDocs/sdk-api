@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.get__NewEnum
-title: IX509PolicyServerListManager::get__NewEnum method
+title: IX509PolicyServerListManager::get__NewEnum
 author: windows-driver-content
 description: Retrieves the enumerator for the collection.
 old-location: security\ix509policyserverlistmanager__newenum.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: d937e468-4945-4cc3-ac20-043eb69e6ce2
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509PolicyServerListManager, IX509PolicyServerListManager interface [Security], _NewEnum property, IX509PolicyServerListManager._NewEnum, IX509PolicyServerListManager::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security], IX509PolicyServerListManager interface, certenroll/IX509PolicyServerListManager::_NewEnum, certenroll/IX509PolicyServerListManager::get__NewEnum, get__NewEnum,IX509PolicyServerListManager.get__NewEnum, security.ix509policyserverlistmanager__newenum
+ms.keywords: IX509PolicyServerListManager interface [Security],_NewEnum property, IX509PolicyServerListManager._NewEnum, IX509PolicyServerListManager.get__NewEnum, IX509PolicyServerListManager::_NewEnum, IX509PolicyServerListManager::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IX509PolicyServerListManager interface, certenroll/IX509PolicyServerListManager::_NewEnum, certenroll/IX509PolicyServerListManager::get__NewEnum, get__NewEnum, security.ix509policyserverlistmanager__newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PolicyServerListManager::get__NewEnum method
+# IX509PolicyServerListManager::get__NewEnum
 
 
 ## -description

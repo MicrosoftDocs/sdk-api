@@ -7,8 +7,8 @@ old-location: audio\iaudiomediatype.htm
 old-project: audio
 ms.assetid: bf3ee44b-79f3-441a-91f9-a340dc146d67
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IAudioMediaType, IAudioMediaType interface [Audio Devices], IAudioMediaType interface [Audio Devices], described, audio.iaudiomediatype, audio_syseffects_r_8b31a96c-76bb-4090-a0e3-e7e16fb98ddc.xml, audiomediatype/IAudioMediaType
+ms.date: 5/1/2018
+ms.keywords: IAudioMediaType, IAudioMediaType interface [Audio Devices], IAudioMediaType interface [Audio Devices],described, audio.iaudiomediatype, audio_syseffects_r_8b31a96c-76bb-4090-a0e3-e7e16fb98ddc.xml, audiomediatype/IAudioMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

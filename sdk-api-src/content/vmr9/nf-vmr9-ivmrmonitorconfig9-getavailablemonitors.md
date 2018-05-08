@@ -1,14 +1,14 @@
 ---
 UID: NF:vmr9.IVMRMonitorConfig9.GetAvailableMonitors
-title: IVMRMonitorConfig9::GetAvailableMonitors method
+title: IVMRMonitorConfig9::GetAvailableMonitors
 author: windows-driver-content
 description: The GetAvailableMonitors method retrieves information about the monitors currently available on the system.
 old-location: dshow\ivmrmonitorconfig9_getavailablemonitors.htm
 old-project: DirectShow
 ms.assetid: cebd40c2-ea41-4ed1-87d1-37f9d427c539
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetAvailableMonitors method [DirectShow], GetAvailableMonitors method [DirectShow], IVMRMonitorConfig9 interface, GetAvailableMonitors,IVMRMonitorConfig9.GetAvailableMonitors, IVMRMonitorConfig9, IVMRMonitorConfig9 interface [DirectShow], GetAvailableMonitors method, IVMRMonitorConfig9::GetAvailableMonitors, IVMRMonitorConfig9GetAvailableMonitors, dshow.ivmrmonitorconfig9_getavailablemonitors, vmr9/IVMRMonitorConfig9::GetAvailableMonitors
+ms.date: 4/30/2018
+ms.keywords: GetAvailableMonitors, GetAvailableMonitors method [DirectShow], GetAvailableMonitors method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetAvailableMonitors method, IVMRMonitorConfig9.GetAvailableMonitors, IVMRMonitorConfig9::GetAvailableMonitors, IVMRMonitorConfig9GetAvailableMonitors, dshow.ivmrmonitorconfig9_getavailablemonitors, vmr9/IVMRMonitorConfig9::GetAvailableMonitors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVMRMonitorConfig9::GetAvailableMonitors method
+# IVMRMonitorConfig9::GetAvailableMonitors
 
 
 ## -description

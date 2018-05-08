@@ -7,8 +7,8 @@ old-location: dshow\ivpmanager.htm
 old-project: DirectShow
 ms.assetid: 9064daa7-5868-49a5-9fd6-9a332ab3b470
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVPManager, IVPManager interface [DirectShow], IVPManager interface [DirectShow], described, IVPManagerInterface, dshow.ivpmanager, strmif/IVPManager
+ms.date: 4/30/2018
+ms.keywords: IVPManager, IVPManager interface [DirectShow], IVPManager interface [DirectShow],described, IVPManagerInterface, dshow.ivpmanager, strmif/IVPManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

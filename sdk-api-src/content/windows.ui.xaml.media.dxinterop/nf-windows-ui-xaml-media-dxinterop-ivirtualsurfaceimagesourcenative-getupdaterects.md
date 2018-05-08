@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.GetUpdateRects
-title: IVirtualSurfaceImageSourceNative::GetUpdateRects method
+title: IVirtualSurfaceImageSourceNative::xaml
 author: windows-driver-content
 description: Gets the set of regions that must be updated on the shared surface.
 old-location: winrt\ivirtualsurfaceimagesourcenative_getupdaterects.htm
 old-project: WinRT
 ms.assetid: C23F3F82-FB3B-4893-8C14-FC7D3C61D295
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetUpdateRects method [Windows Runtime], GetUpdateRects method [Windows Runtime], IVirtualSurfaceImageSourceNative interface, GetUpdateRects,IVirtualSurfaceImageSourceNative.GetUpdateRects, IVirtualSurfaceImageSourceNative, IVirtualSurfaceImageSourceNative interface [Windows Runtime], GetUpdateRects method, IVirtualSurfaceImageSourceNative::GetUpdateRects, windows/IVirtualSurfaceImageSourceNative::GetUpdateRects, winrt.ivirtualsurfaceimagesourcenative_getupdaterects
+ms.date: 5/4/2018
+ms.keywords: GetUpdateRects, GetUpdateRects method [Windows Runtime], GetUpdateRects method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, IVirtualSurfaceImageSourceNative interface [Windows Runtime],GetUpdateRects method, IVirtualSurfaceImageSourceNative.GetUpdateRects, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::GetUpdateRects, IVirtualSurfaceImageSourceNative::xaml, windows/IVirtualSurfaceImageSourceNative::GetUpdateRects, winrt.ivirtualsurfaceimagesourcenative_getupdaterects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IVirtualSurfaceImageSourceNative::GetUpdateRects method
+# IVirtualSurfaceImageSourceNative::xaml
 
 
 ## -description

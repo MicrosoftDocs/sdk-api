@@ -1,6 +1,6 @@
 ---
 UID: NF:identitystore.IIdentityStore.ConvertToSid
-title: IIdentityStore::ConvertToSid method
+title: IIdentityStore::ConvertToSid
 author: windows-driver-content
 description: Retrieves the security identifier (SID) associated with the specified identity and identity provider.
 old-location: security\iidentitystore_converttosid.htm
@@ -8,7 +8,7 @@ old-project: SecAuthN
 ms.assetid: 484365a9-aeaf-453f-9a5b-6f88b79f8a35
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ConvertToSid method [Security], ConvertToSid method [Security], IIdentityStore interface, ConvertToSid,IIdentityStore.ConvertToSid, IIdentityStore, IIdentityStore interface [Security], ConvertToSid method, IIdentityStore::ConvertToSid, identitystore/IIdentityStore::ConvertToSid, security.iidentitystore_converttosid
+ms.keywords: ConvertToSid, ConvertToSid method [Security], ConvertToSid method [Security],IIdentityStore interface, IIdentityStore interface [Security],ConvertToSid method, IIdentityStore.ConvertToSid, IIdentityStore::ConvertToSid, identitystore/IIdentityStore::ConvertToSid, security.iidentitystore_converttosid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IIdentityStore::ConvertToSid method
+# IIdentityStore::ConvertToSid
 
 
 ## -description

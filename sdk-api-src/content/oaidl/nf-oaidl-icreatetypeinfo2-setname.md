@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetName
-title: ICreateTypeInfo2::SetName method
+title: ICreateTypeInfo2::SetName
 author: windows-driver-content
 description: Sets the name of the typeinfo.
 old-location: automat\icreatetypeinfo2_setname.htm
 old-project: automat
 ms.assetid: b490dcb5-97e4-427a-bc87-22f38a4719f3
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], SetName method, ICreateTypeInfo2::SetName, SetName method [Automation], SetName method [Automation], ICreateTypeInfo2 interface, SetName,ICreateTypeInfo2.SetName, _oa96_ICreateTypeInfo2_SetName, automat.icreatetypeinfo2_setname, oaidl/ICreateTypeInfo2::SetName
+ms.date: 5/4/2018
+ms.keywords: ICreateTypeInfo2 interface [Automation],SetName method, ICreateTypeInfo2.SetName, ICreateTypeInfo2::SetName, SetName, SetName method [Automation], SetName method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetName, automat.icreatetypeinfo2_setname, oaidl/ICreateTypeInfo2::SetName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ICreateTypeInfo2::SetName method
+# ICreateTypeInfo2::SetName
 
 
 ## -description

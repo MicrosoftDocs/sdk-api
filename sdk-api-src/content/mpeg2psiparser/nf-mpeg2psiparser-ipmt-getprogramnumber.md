@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetProgramNumber
-title: IPMT::GetProgramNumber method
+title: IPMT::GetProgramNumber
 author: windows-driver-content
 description: The GetProgramNumber method returns the program number for the PMT.
 old-location: mstv\ipmt_getprogramnumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 39006f8b-7dd4-4f19-badc-3a288a7b6520
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetProgramNumber method [Microsoft TV Technologies], GetProgramNumber method [Microsoft TV Technologies], IPMT interface, GetProgramNumber,IPMT.GetProgramNumber, IPMT, IPMT interface [Microsoft TV Technologies], GetProgramNumber method, IPMT::GetProgramNumber, IPMTGetProgramNumber, mpeg2psiparser/IPMT::GetProgramNumber, mstv.ipmt_getprogramnumber
+ms.keywords: GetProgramNumber, GetProgramNumber method [Microsoft TV Technologies], GetProgramNumber method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetProgramNumber method, IPMT.GetProgramNumber, IPMT::GetProgramNumber, IPMTGetProgramNumber, mpeg2psiparser/IPMT::GetProgramNumber, mstv.ipmt_getprogramnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IPMT::GetProgramNumber method
+# IPMT::GetProgramNumber
 
 
 ## -description

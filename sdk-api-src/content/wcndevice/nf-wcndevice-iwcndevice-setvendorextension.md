@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNDevice.SetVendorExtension
-title: IWCNDevice::SetVendorExtension method
+title: IWCNDevice::SetVendorExtension
 author: windows-driver-content
 description: The IWCNDevice::SetVendorExtension method queues a vendor extension for use in the pending session. This function may only be called prior to IWCNDevice::Connect.
 old-location: wcn\iwcndevice_setvendorextension.htm
@@ -8,7 +8,7 @@ old-project: wcn
 ms.assetid: ed96b9bc-4f4e-48bb-9c1d-8a0ababe0b26
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWCNDevice, IWCNDevice interface [Windows Connect Now], SetVendorExtension method, IWCNDevice::SetVendorExtension, SetVendorExtension method [Windows Connect Now], SetVendorExtension method [Windows Connect Now], IWCNDevice interface, SetVendorExtension,IWCNDevice.SetVendorExtension, wcn.iwcndevice_setvendorextension, wcndevice/IWCNDevice::SetVendorExtension
+ms.keywords: IWCNDevice interface [Windows Connect Now],SetVendorExtension method, IWCNDevice.SetVendorExtension, IWCNDevice::SetVendorExtension, SetVendorExtension, SetVendorExtension method [Windows Connect Now], SetVendorExtension method [Windows Connect Now],IWCNDevice interface, wcn.iwcndevice_setvendorextension, wcndevice/IWCNDevice::SetVendorExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWCNDevice::SetVendorExtension method
+# IWCNDevice::SetVendorExtension
 
 
 ## -description

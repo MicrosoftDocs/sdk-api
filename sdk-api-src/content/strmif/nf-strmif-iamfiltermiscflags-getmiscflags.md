@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMFilterMiscFlags.GetMiscFlags
-title: IAMFilterMiscFlags::GetMiscFlags method
+title: IAMFilterMiscFlags::GetMiscFlags
 author: windows-driver-content
 description: The GetMiscFlags method returns the filter's type, either source or renderer.
 old-location: dshow\iamfiltermiscflags_getmiscflags.htm
 old-project: DirectShow
 ms.assetid: 03728d28-a3e5-4ac5-b637-1daa173e5e88
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetMiscFlags method [DirectShow], GetMiscFlags method [DirectShow], IAMFilterMiscFlags interface, GetMiscFlags,IAMFilterMiscFlags.GetMiscFlags, IAMFilterMiscFlags, IAMFilterMiscFlags interface [DirectShow], GetMiscFlags method, IAMFilterMiscFlags::GetMiscFlags, IAMFilterMiscFlagsGetMiscFlags, dshow.iamfiltermiscflags_getmiscflags, strmif/IAMFilterMiscFlags::GetMiscFlags
+ms.date: 4/30/2018
+ms.keywords: GetMiscFlags, GetMiscFlags method [DirectShow], GetMiscFlags method [DirectShow],IAMFilterMiscFlags interface, IAMFilterMiscFlags interface [DirectShow],GetMiscFlags method, IAMFilterMiscFlags.GetMiscFlags, IAMFilterMiscFlags::GetMiscFlags, IAMFilterMiscFlagsGetMiscFlags, dshow.iamfiltermiscflags_getmiscflags, strmif/IAMFilterMiscFlags::GetMiscFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMFilterMiscFlags::GetMiscFlags method
+# IAMFilterMiscFlags::GetMiscFlags
 
 
 ## -description

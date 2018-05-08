@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 4af4c088-9fc3-46a9-8451-518b11bc94e3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMPacketSize2, IWMPacketSize2 interface [windows Media Format], IWMPacketSize2 interface [windows Media Format], described, IWMPacketSize2Interface, wmformat.iwmpacketsize2, wmsdkidl/IWMPacketSize2
+ms.keywords: IWMPacketSize2, IWMPacketSize2 interface [windows Media Format], IWMPacketSize2 interface [windows Media Format],described, IWMPacketSize2Interface, wmformat.iwmpacketsize2, wmsdkidl/IWMPacketSize2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

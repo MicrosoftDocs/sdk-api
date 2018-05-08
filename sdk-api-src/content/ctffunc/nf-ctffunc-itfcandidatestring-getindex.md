@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfCandidateString.GetIndex
-title: ITfCandidateString::GetIndex method
+title: ITfCandidateString::GetIndex
 author: windows-driver-content
 description: ITfCandidateString::GetIndex method
 old-location: tsf\itfcandidatestring_getindex.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 16ec9a89-db57-41ad-9e32-db0b24abda13
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetIndex method [Text Services Framework], GetIndex method [Text Services Framework], ITfCandidateString interface, GetIndex,ITfCandidateString.GetIndex, ITfCandidateString, ITfCandidateString interface [Text Services Framework], GetIndex method, ITfCandidateString::GetIndex, _tsf_itfcandidatestring_getindex_ref, ctffunc/ITfCandidateString::GetIndex, tsf.itfcandidatestring_getindex
+ms.keywords: GetIndex, GetIndex method [Text Services Framework], GetIndex method [Text Services Framework],ITfCandidateString interface, ITfCandidateString interface [Text Services Framework],GetIndex method, ITfCandidateString.GetIndex, ITfCandidateString::GetIndex, _tsf_itfcandidatestring_getindex_ref, ctffunc/ITfCandidateString::GetIndex, tsf.itfcandidatestring_getindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Tiptsf.dll
 req.irql: 
 ---
 
-# ITfCandidateString::GetIndex method
+# ITfCandidateString::GetIndex
 
 
 ## -description

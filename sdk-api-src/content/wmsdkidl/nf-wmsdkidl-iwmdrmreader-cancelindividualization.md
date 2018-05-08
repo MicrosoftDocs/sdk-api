@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.CancelIndividualization
-title: IWMDRMReader::CancelIndividualization method
+title: IWMDRMReader::CancelIndividualization
 author: windows-driver-content
 description: The CancelIndividualization method cancels a current call to the Individualize method.
 old-location: wmformat\iwmdrmreader_cancelindividualization.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 837d6fee-d5ba-49d8-ac69-e8ff010a787d
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: CancelIndividualization method [windows Media Format], CancelIndividualization method [windows Media Format], IWMDRMReader interface, CancelIndividualization,IWMDRMReader.CancelIndividualization, IWMDRMReader, IWMDRMReader interface [windows Media Format], CancelIndividualization method, IWMDRMReader::CancelIndividualization, IWMDRMReaderCancelIndividualization, wmformat.iwmdrmreader_cancelindividualization, wmsdkidl/IWMDRMReader::CancelIndividualization
+ms.keywords: CancelIndividualization, CancelIndividualization method [windows Media Format], CancelIndividualization method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelIndividualization method, IWMDRMReader.CancelIndividualization, IWMDRMReader::CancelIndividualization, IWMDRMReaderCancelIndividualization, wmformat.iwmdrmreader_cancelindividualization, wmsdkidl/IWMDRMReader::CancelIndividualization
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMDRMReader::CancelIndividualization method
+# IWMDRMReader::CancelIndividualization
 
 
 ## -description

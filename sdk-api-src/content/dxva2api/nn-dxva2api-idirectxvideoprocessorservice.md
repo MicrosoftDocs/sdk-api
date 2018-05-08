@@ -7,8 +7,8 @@ old-location: mf\idirectxvideoprocessorservice.htm
 old-project: medfound
 ms.assetid: fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IDirectXVideoProcessorService, IDirectXVideoProcessorService interface [Media Foundation], IDirectXVideoProcessorService interface [Media Foundation], described, dxva2api/IDirectXVideoProcessorService, fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688, mf.idirectxvideoprocessorservice
+ms.date: 5/3/2018
+ms.keywords: IDirectXVideoProcessorService, IDirectXVideoProcessorService interface [Media Foundation], IDirectXVideoProcessorService interface [Media Foundation],described, dxva2api/IDirectXVideoProcessorService, fa33a9e9-4e91-4eb7-91c2-5b0c63ab7688, mf.idirectxvideoprocessorservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

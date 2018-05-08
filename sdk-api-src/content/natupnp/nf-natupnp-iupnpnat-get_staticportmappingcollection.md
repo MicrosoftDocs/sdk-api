@@ -1,14 +1,14 @@
 ---
 UID: NF:natupnp.IUPnPNAT.get_StaticPortMappingCollection
-title: IUPnPNAT::get_StaticPortMappingCollection method
+title: IUPnPNAT::get_StaticPortMappingCollection
 author: windows-driver-content
 description: The get_StaticPortMappingCollection method retrieves an interface for the collection of static port mappings on the NAT used by the local computer.
 old-location: ics\iupnpnat_get_staticportmappingcollection.htm
 old-project: ICS
 ms.assetid: ba4d0735-f04e-47d1-a54c-e01cf338d737
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: IUPnPNAT, IUPnPNAT interface [ICS/ICF], get_StaticPortMappingCollection method, IUPnPNAT::get_StaticPortMappingCollection, _ics_iupnpnat_get_staticportmappingcollection, get_StaticPortMappingCollection method [ICS/ICF], get_StaticPortMappingCollection method [ICS/ICF], IUPnPNAT interface, get_StaticPortMappingCollection,IUPnPNAT.get_StaticPortMappingCollection, ics.iupnpnat_get_staticportmappingcollection, natupnp/IUPnPNAT::get_StaticPortMappingCollection
+ms.date: 5/1/2018
+ms.keywords: IUPnPNAT interface [ICS/ICF],get_StaticPortMappingCollection method, IUPnPNAT.get_StaticPortMappingCollection, IUPnPNAT::get_StaticPortMappingCollection, _ics_iupnpnat_get_staticportmappingcollection, get_StaticPortMappingCollection, get_StaticPortMappingCollection method [ICS/ICF], get_StaticPortMappingCollection method [ICS/ICF],IUPnPNAT interface, ics.iupnpnat_get_staticportmappingcollection, natupnp/IUPnPNAT::get_StaticPortMappingCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IUPnPNAT::get_StaticPortMappingCollection method
+# IUPnPNAT::get_StaticPortMappingCollection
 
 
 ## -description

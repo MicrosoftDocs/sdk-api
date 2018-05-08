@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.GetDependencies
-title: IUIAnimationInterpolator::GetDependencies method
+title: IUIAnimationInterpolator::GetDependencies
 author: windows-driver-content
 description: Gets the aspects of the interpolator that depend on the initial value or velocity passed to SetInitialValueAndVelocity, or that depend on the duration passed to SetDuration.
 old-location: uianimation\iuianimationinterpolator_getdependencies.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: a897caa9-8a03-465e-8b74-b4614efce00c
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetDependencies method [Windows Animation], GetDependencies method [Windows Animation], IUIAnimationInterpolator interface, GetDependencies,IUIAnimationInterpolator.GetDependencies, IUIAnimationInterpolator, IUIAnimationInterpolator interface [Windows Animation], GetDependencies method, IUIAnimationInterpolator::GetDependencies, uianimation.iuianimationinterpolator_getdependencies, uianimation/IUIAnimationInterpolator::GetDependencies
+ms.keywords: GetDependencies, GetDependencies method [Windows Animation], GetDependencies method [Windows Animation],IUIAnimationInterpolator interface, IUIAnimationInterpolator interface [Windows Animation],GetDependencies method, IUIAnimationInterpolator.GetDependencies, IUIAnimationInterpolator::GetDependencies, uianimation.iuianimationinterpolator_getdependencies, uianimation/IUIAnimationInterpolator::GetDependencies
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationInterpolator::GetDependencies method
+# IUIAnimationInterpolator::GetDependencies
 
 
 ## -description

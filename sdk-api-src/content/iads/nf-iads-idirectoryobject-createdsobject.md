@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectoryObject.CreateDSObject
-title: IDirectoryObject::CreateDSObject method
+title: IDirectoryObject::CreateDSObject
 author: windows-driver-content
 description: Creates a child of the current directory service object.
 old-location: adsi\idirectoryobject_createdsobject.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 77648d1c-b05b-4c36-a2e3-25bb5713d615
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CreateDSObject method [ADSI], CreateDSObject method [ADSI], IDirectoryObject interface, CreateDSObject,IDirectoryObject.CreateDSObject, IDirectoryObject, IDirectoryObject interface [ADSI], CreateDSObject method, IDirectoryObject::CreateDSObject, _ds_idirectoryobject_createdsobject, adsi.idirectoryobject__createdsobject, adsi.idirectoryobject_createdsobject, iads/IDirectoryObject::CreateDSObject
+ms.keywords: CreateDSObject, CreateDSObject method [ADSI], CreateDSObject method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],CreateDSObject method, IDirectoryObject.CreateDSObject, IDirectoryObject::CreateDSObject, _ds_idirectoryobject_createdsobject, adsi.idirectoryobject__createdsobject, adsi.idirectoryobject_createdsobject, iads/IDirectoryObject::CreateDSObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDirectoryObject::CreateDSObject method
+# IDirectoryObject::CreateDSObject
 
 
 ## -description

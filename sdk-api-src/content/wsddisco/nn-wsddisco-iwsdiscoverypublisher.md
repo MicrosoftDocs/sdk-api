@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: 4fff1328-d315-4a26-b7d8-43a273133e08
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface, described, ncd.iwsdiscoverypublisher, wsddisco/IWSDiscoveryPublisher
+ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, IWSDiscoveryPublisher interface,described, ncd.iwsdiscoverypublisher, wsddisco/IWSDiscoveryPublisher
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

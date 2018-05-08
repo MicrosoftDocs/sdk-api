@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.GetTocByType
-title: ITocParser::GetTocByType method
+title: ITocParser::GetTocByType
 author: windows-driver-content
 description: The GetTocByType retrieves all tables of contents of a specified type from the TOC Parser object.
 old-location: mf\itocparser_gettocbytype.htm
 old-project: medfound
 ms.assetid: 97a3b835-5d99-4b37-8f1d-2469e85faf9b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetTocByType method [Media Foundation], GetTocByType method [Media Foundation], ITocParser interface, GetTocByType,ITocParser.GetTocByType, ITocParser, ITocParser interface [Media Foundation], GetTocByType method, ITocParser::GetTocByType, codecapi.itocparser_gettocbytype, mf.itocparser_gettocbytype, wmcodecdsp/ITocParser::GetTocByType
+ms.date: 5/3/2018
+ms.keywords: GetTocByType, GetTocByType method [Media Foundation], GetTocByType method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocByType method, ITocParser.GetTocByType, ITocParser::GetTocByType, codecapi.itocparser_gettocbytype, mf.itocparser_gettocbytype, wmcodecdsp/ITocParser::GetTocByType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ITocParser::GetTocByType method
+# ITocParser::GetTocByType
 
 
 ## -description

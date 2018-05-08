@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.RemoveAt
-title: IXpsOMPageReferenceCollection::RemoveAt method
+title: IXpsOMPageReferenceCollection::RemoveAt
 author: windows-driver-content
 description: Removes and releases an IXpsOMPageReference interface pointer from a specified location in the collection.
 old-location: xps\ixpsompagereferencecollection_removeat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 905ed1ea-b694-4620-8a71-2f0bfb831af4
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPageReferenceCollection, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging], RemoveAt method, IXpsOMPageReferenceCollection::RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging], IXpsOMPageReferenceCollection interface, RemoveAt,IXpsOMPageReferenceCollection.RemoveAt, xps.ixpsompagereferencecollection_removeat, xpsobjectmodel/IXpsOMPageReferenceCollection::RemoveAt
+ms.keywords: IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMPageReferenceCollection.RemoveAt, IXpsOMPageReferenceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, xps.ixpsompagereferencecollection_removeat, xpsobjectmodel/IXpsOMPageReferenceCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPageReferenceCollection::RemoveAt method
+# IXpsOMPageReferenceCollection::RemoveAt
 
 
 ## -description

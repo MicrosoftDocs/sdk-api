@@ -8,7 +8,7 @@ old-project: DevIO
 ms.assetid: 67c440e1-cef8-459d-b811-0b483ff51e7e
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IOCTL_CHANGER_QUERY_VOLUME_TAGS, IOCTL_CHANGER_QUERY_VOLUME_TAGS control code, _win32_ioctl_changer_query_volume_tags, base.ioctl_changer_query_volume_tags, winioctl/IOCTL_CHANGER_QUERY_VOLUME_TAGS
+ms.keywords: IOCTL_CHANGER_QUERY_VOLUME_TAGS, IOCTL_CHANGER_QUERY_VOLUME_TAGS control, IOCTL_CHANGER_QUERY_VOLUME_TAGS control code, _win32_ioctl_changer_query_volume_tags, base.ioctl_changer_query_volume_tags, winioctl/IOCTL_CHANGER_QUERY_VOLUME_TAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

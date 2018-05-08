@@ -7,7 +7,7 @@ old-location: winrt\createcontrolinputex.htm
 old-project: WinRT
 ms.assetid: AF12DA9F-7E5A-43B0-8B4D-7E41C4C1361F
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/4/2018
 ms.keywords: CreateControlInputEx, CreateControlInputEx function [Windows Runtime], corewindow/CreateControlInputEx, winrt.createcontrolinputex
 ms.prod: windows-hardware
 ms.technology: windows-devices

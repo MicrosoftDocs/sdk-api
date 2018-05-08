@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.AdviseKeyEventSink
-title: ITfKeystrokeMgr::AdviseKeyEventSink method
+title: ITfKeystrokeMgr::AdviseKeyEventSink
 author: windows-driver-content
 description: ITfKeystrokeMgr::AdviseKeyEventSink method
 old-location: tsf\itfkeystrokemgr_advisekeyeventsink.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: dfda786a-09f5-412c-878d-0ba0cbbdafe0
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: AdviseKeyEventSink method [Text Services Framework], AdviseKeyEventSink method [Text Services Framework], ITfKeystrokeMgr interface, AdviseKeyEventSink,ITfKeystrokeMgr.AdviseKeyEventSink, ITfKeystrokeMgr, ITfKeystrokeMgr interface [Text Services Framework], AdviseKeyEventSink method, ITfKeystrokeMgr::AdviseKeyEventSink, _tsf_itfkeystrokemgr_advisekeyeventsink_ref, msctf/ITfKeystrokeMgr::AdviseKeyEventSink, tsf.itfkeystrokemgr_advisekeyeventsink
+ms.keywords: AdviseKeyEventSink, AdviseKeyEventSink method [Text Services Framework], AdviseKeyEventSink method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],AdviseKeyEventSink method, ITfKeystrokeMgr.AdviseKeyEventSink, ITfKeystrokeMgr::AdviseKeyEventSink, _tsf_itfkeystrokemgr_advisekeyeventsink_ref, msctf/ITfKeystrokeMgr::AdviseKeyEventSink, tsf.itfkeystrokemgr_advisekeyeventsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfKeystrokeMgr::AdviseKeyEventSink method
+# ITfKeystrokeMgr::AdviseKeyEventSink
 
 
 ## -description

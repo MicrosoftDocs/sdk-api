@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperty.InitializeFromCertificate
-title: ICertProperty::InitializeFromCertificate method
+title: ICertProperty::InitializeFromCertificate
 author: windows-driver-content
 description: Initializes the object by using a property value associated with an existing certificate.
 old-location: security\icertproperty_initializefromcertificate_method.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 5d23bacc-bbe5-42fa-b4c5-57a6767f79ba
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ICertProperty, ICertProperty interface [Security], InitializeFromCertificate method, ICertProperty::InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security], ICertProperty interface, InitializeFromCertificate,ICertProperty.InitializeFromCertificate, certenroll/ICertProperty::InitializeFromCertificate, security.icertproperty_initializefromcertificate_method
+ms.keywords: ICertProperty interface [Security],InitializeFromCertificate method, ICertProperty.InitializeFromCertificate, ICertProperty::InitializeFromCertificate, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::InitializeFromCertificate, security.icertproperty_initializefromcertificate_method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# ICertProperty::InitializeFromCertificate method
+# ICertProperty::InitializeFromCertificate
 
 
 ## -description

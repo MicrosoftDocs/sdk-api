@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioStreamVolume.SetAllVolumes
-title: IAudioStreamVolume::SetAllVolumes method
+title: IAudioStreamVolume::SetAllVolumes
 author: windows-driver-content
 description: The SetAllVolumes method sets the individual volume levels for all the channels in the audio stream.
 old-location: coreaudio\iaudiostreamvolume_setallvolumes.htm
@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: 2eabbc37-a0f6-4e56-b68d-18e634d65394
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IAudioStreamVolume, IAudioStreamVolume interface [Core Audio], SetAllVolumes method, IAudioStreamVolume::SetAllVolumes, IAudioStreamVolumeSetAllVolumes, SetAllVolumes method [Core Audio], SetAllVolumes method [Core Audio], IAudioStreamVolume interface, SetAllVolumes,IAudioStreamVolume.SetAllVolumes, audioclient/IAudioStreamVolume::SetAllVolumes, coreaudio.iaudiostreamvolume_setallvolumes
+ms.keywords: IAudioStreamVolume interface [Core Audio],SetAllVolumes method, IAudioStreamVolume.SetAllVolumes, IAudioStreamVolume::SetAllVolumes, IAudioStreamVolumeSetAllVolumes, SetAllVolumes, SetAllVolumes method [Core Audio], SetAllVolumes method [Core Audio],IAudioStreamVolume interface, audioclient/IAudioStreamVolume::SetAllVolumes, coreaudio.iaudiostreamvolume_setallvolumes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAudioStreamVolume::SetAllVolumes method
+# IAudioStreamVolume::SetAllVolumes
 
 
 ## -description

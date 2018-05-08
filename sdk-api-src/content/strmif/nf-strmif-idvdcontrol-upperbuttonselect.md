@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdControl.UpperButtonSelect
-title: IDvdControl::UpperButtonSelect method
+title: IDvdControl::UpperButtonSelect
 author: windows-driver-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the upper directional button from the displayed menu.
 old-location: dshow\idvdcontrol_upperbuttonselect.htm
 old-project: DirectShow
 ms.assetid: bd0e4086-087b-460f-a6af-fa073644f1bb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IDvdControl, IDvdControl interface [DirectShow], UpperButtonSelect method, IDvdControl::UpperButtonSelect, IDvdControlUpperButtonSelect, UpperButtonSelect method [DirectShow], UpperButtonSelect method [DirectShow], IDvdControl interface, UpperButtonSelect,IDvdControl.UpperButtonSelect, dshow.idvdcontrol_upperbuttonselect, strmif/IDvdControl::UpperButtonSelect
+ms.date: 4/30/2018
+ms.keywords: IDvdControl interface [DirectShow],UpperButtonSelect method, IDvdControl.UpperButtonSelect, IDvdControl::UpperButtonSelect, IDvdControlUpperButtonSelect, UpperButtonSelect, UpperButtonSelect method [DirectShow], UpperButtonSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_upperbuttonselect, strmif/IDvdControl::UpperButtonSelect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdControl::UpperButtonSelect method
+# IDvdControl::UpperButtonSelect
 
 
 ## -description

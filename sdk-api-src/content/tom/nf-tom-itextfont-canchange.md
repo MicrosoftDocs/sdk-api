@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.CanChange
-title: ITextFont::CanChange method
+title: ITextFont::CanChange
 author: windows-driver-content
 description: Determines whether the font can be changed.
 old-location: controls\ITextFont_CanChange.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontcanchange.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: CanChange method [Windows Controls], CanChange method [Windows Controls], ITextFont interface, CanChange,ITextFont.CanChange, ITextFont, ITextFont interface [Windows Controls], CanChange method, ITextFont::CanChange, _win32_ITextFont_CanChange, _win32_ITextFont_CanChange_cpp, controls.ITextFont_CanChange, controls._win32_ITextFont_CanChange, tom/ITextFont::CanChange
+ms.date: 4/27/2018
+ms.keywords: CanChange, CanChange method [Windows Controls], CanChange method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],CanChange method, ITextFont.CanChange, ITextFont::CanChange, _win32_ITextFont_CanChange, _win32_ITextFont_CanChange_cpp, controls.ITextFont_CanChange, controls._win32_ITextFont_CanChange, tom/ITextFont::CanChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::CanChange method
+# ITextFont::CanChange
 
 
 ## -description

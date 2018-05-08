@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.get_Branding
-title: IFaxOutgoingQueue::get_Branding method
+title: IFaxOutgoingQueue::get_Branding
 author: windows-driver-content
 description: The Branding property is a Boolean value that indicates whether the fax service generates a brand (banner) at the top of outgoing fax transmissions.
 old-location: fax\_mfax_faxoutgoingqueue_branding_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8acn.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Branding property [Fax Service], Branding property [Fax Service], FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service], Branding property, IFaxOutgoingQueue, IFaxOutgoingQueue::get_Branding, _mfax_faxoutgoingqueue.branding, fax._mfax_faxoutgoingqueue_branding, fax._mfax_faxoutgoingqueue_branding_vb, get_Branding,IFaxOutgoingQueue.get_Branding
+ms.keywords: Branding property [Fax Service], Branding property [Fax Service],FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service],Branding property, FaxOutgoingQueue.Branding, IFaxOutgoingQueue.get_Branding, IFaxOutgoingQueue::get_Branding, _mfax_faxoutgoingqueue.branding, fax._mfax_faxoutgoingqueue_branding, fax._mfax_faxoutgoingqueue_branding_vb, get_Branding
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxOutgoingQueue::get_Branding method
+# IFaxOutgoingQueue::get_Branding
 
 
 ## -description

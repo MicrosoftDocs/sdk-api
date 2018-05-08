@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentCollection.GetAt
-title: IXpsOMDocumentCollection::GetAt method
+title: IXpsOMDocumentCollection::GetAt
 author: windows-driver-content
 description: Gets an IXpsOMDocument interface pointer from a specified location in the collection.
 old-location: xps\ixpsomdocumentcollection_getat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 74649245-b6ec-4ebb-aa9b-8de9c0c6c761
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging], IXpsOMDocumentCollection interface, GetAt,IXpsOMDocumentCollection.GetAt, IXpsOMDocumentCollection, IXpsOMDocumentCollection interface [XPS Documents and Packaging], GetAt method, IXpsOMDocumentCollection::GetAt, xps.ixpsomdocumentcollection_getat, xpsobjectmodel/IXpsOMDocumentCollection::GetAt
+ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, IXpsOMDocumentCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMDocumentCollection.GetAt, IXpsOMDocumentCollection::GetAt, xps.ixpsomdocumentcollection_getat, xpsobjectmodel/IXpsOMDocumentCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMDocumentCollection::GetAt method
+# IXpsOMDocumentCollection::GetAt
 
 
 ## -description

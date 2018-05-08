@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.AssociateFocus
-title: ITfThreadMgr::AssociateFocus method
+title: ITfThreadMgr::AssociateFocus
 author: windows-driver-content
 description: ITfThreadMgr::AssociateFocus method
 old-location: tsf\itfthreadmgr_associatefocus.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: e2e0ef4e-5254-42c3-aebf-9d46cdee7e67
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: AssociateFocus method [Text Services Framework], AssociateFocus method [Text Services Framework], ITfThreadMgr interface, AssociateFocus,ITfThreadMgr.AssociateFocus, ITfThreadMgr, ITfThreadMgr interface [Text Services Framework], AssociateFocus method, ITfThreadMgr::AssociateFocus, _tsf_itfthreadmgr_associatefocus_ref, msctf/ITfThreadMgr::AssociateFocus, tsf.itfthreadmgr_associatefocus
+ms.keywords: AssociateFocus, AssociateFocus method [Text Services Framework], AssociateFocus method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],AssociateFocus method, ITfThreadMgr.AssociateFocus, ITfThreadMgr::AssociateFocus, _tsf_itfthreadmgr_associatefocus_ref, msctf/ITfThreadMgr::AssociateFocus, tsf.itfthreadmgr_associatefocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr::AssociateFocus method
+# ITfThreadMgr::AssociateFocus
 
 
 ## -description

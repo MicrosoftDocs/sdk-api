@@ -1,14 +1,14 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetAudioEndpointRole
-title: IMFMediaEngineEx::GetAudioEndpointRole method
+title: IMFMediaEngineEx::GetAudioEndpointRole
 author: windows-driver-content
 description: Gets the audio device endpoint role used for the next call to SetSource or Load.
 old-location: mf\imfmediaengineex_getaudioendpointrole.htm
 old-project: medfound
 ms.assetid: f63fa14e-44e6-41b9-a8c9-4b8eb66e98e0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetAudioEndpointRole method [Media Foundation], GetAudioEndpointRole method [Media Foundation], IMFMediaEngineEx interface, GetAudioEndpointRole,IMFMediaEngineEx.GetAudioEndpointRole, IMFMediaEngineEx, IMFMediaEngineEx interface [Media Foundation], GetAudioEndpointRole method, IMFMediaEngineEx::GetAudioEndpointRole, mf.imfmediaengineex_getaudioendpointrole, mfmediaengine/IMFMediaEngineEx::GetAudioEndpointRole
+ms.date: 5/3/2018
+ms.keywords: GetAudioEndpointRole, GetAudioEndpointRole method [Media Foundation], GetAudioEndpointRole method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetAudioEndpointRole method, IMFMediaEngineEx.GetAudioEndpointRole, IMFMediaEngineEx::GetAudioEndpointRole, mf.imfmediaengineex_getaudioendpointrole, mfmediaengine/IMFMediaEngineEx::GetAudioEndpointRole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEngineEx::GetAudioEndpointRole method
+# IMFMediaEngineEx::GetAudioEndpointRole
 
 
 ## -description

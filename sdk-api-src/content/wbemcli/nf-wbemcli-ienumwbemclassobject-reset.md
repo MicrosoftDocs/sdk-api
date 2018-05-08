@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IEnumWbemClassObject.Reset
-title: IEnumWbemClassObject::Reset method
+title: IEnumWbemClassObject::Reset
 author: windows-driver-content
 description: The IEnumWbemClassObject::Reset method resets an enumeration sequence back to the beginning. Because CIM objects are dynamic, calling this method does not necessarily return the same list of objects that you obtained previously.
 old-location: wmi\ienumwbemclassobject_reset.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: 571b7067-676f-4e9e-9694-268ec10dc60b
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IEnumWbemClassObject, IEnumWbemClassObject interface [Windows Management Instrumentation], Reset method, IEnumWbemClassObject::Reset, Reset method [Windows Management Instrumentation], Reset method [Windows Management Instrumentation], IEnumWbemClassObject interface, Reset,IEnumWbemClassObject.Reset, _hmm_ienumwbemclassobject_reset, wbemcli/IEnumWbemClassObject::Reset, wmi.ienumwbemclassobject_reset
+ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Reset method, IEnumWbemClassObject.Reset, IEnumWbemClassObject::Reset, Reset, Reset method [Windows Management Instrumentation], Reset method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_reset, wbemcli/IEnumWbemClassObject::Reset, wmi.ienumwbemclassobject_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IEnumWbemClassObject::Reset method
+# IEnumWbemClassObject::Reset
 
 
 ## -description

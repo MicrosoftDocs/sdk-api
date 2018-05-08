@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.SetSessionKey
-title: CSecureChannelServer::SetSessionKey method
+title: CSecureChannelServer::SetSessionKey
 author: windows-driver-content
 description: The SetSessionKey method sets the session key that is used to communicate with another component. This method is published and available, but normally is used only by Windows Media Device Manager.
 old-location: wmdm\csecurechannelserver_setsessionkey.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 207435a6-0b16-49d9-a366-878331732a14
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CSecureChannelServer, CSecureChannelServer interface [windows Media Device Manager], SetSessionKey method, CSecureChannelServer::SetSessionKey, CSecureChannelServerSetSessionKey, SetSessionKey method [windows Media Device Manager], SetSessionKey method [windows Media Device Manager], CSecureChannelServer interface, SetSessionKey,CSecureChannelServer.SetSessionKey, scserver/CSecureChannelServer::SetSessionKey, wmdm.csecurechannelserver_setsessionkey
+ms.keywords: CSecureChannelServer interface [windows Media Device Manager],SetSessionKey method, CSecureChannelServer.SetSessionKey, CSecureChannelServer::SetSessionKey, CSecureChannelServerSetSessionKey, SetSessionKey, SetSessionKey method [windows Media Device Manager], SetSessionKey method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::SetSessionKey, wmdm.csecurechannelserver_setsessionkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CSecureChannelServer::SetSessionKey method
+# CSecureChannelServer::SetSessionKey
 
 
 ## -description

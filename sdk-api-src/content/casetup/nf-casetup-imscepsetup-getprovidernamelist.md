@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.IMSCEPSetup.GetProviderNameList
-title: IMSCEPSetup::GetProviderNameList method
+title: IMSCEPSetup::GetProviderNameList
 author: windows-driver-content
 description: Gets the list of cryptographic service providers (CSPs) that provide asymmetric key signature and exchange algorithms on the computer.
 old-location: security\imscepsetup_getprovidernamelist.htm
 old-project: SecCrypto
 ms.assetid: e2b5bae3-fc85-4277-8ee9-3911dacf3302
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: GetProviderNameList method [Security], GetProviderNameList method [Security], IMSCEPSetup interface, GetProviderNameList,IMSCEPSetup.GetProviderNameList, IMSCEPSetup, IMSCEPSetup interface [Security], GetProviderNameList method, IMSCEPSetup::GetProviderNameList, casetup/IMSCEPSetup::GetProviderNameList, security.imscepsetup_getprovidernamelist
+ms.date: 4/30/2018
+ms.keywords: GetProviderNameList, GetProviderNameList method [Security], GetProviderNameList method [Security],IMSCEPSetup interface, IMSCEPSetup interface [Security],GetProviderNameList method, IMSCEPSetup.GetProviderNameList, IMSCEPSetup::GetProviderNameList, casetup/IMSCEPSetup::GetProviderNameList, security.imscepsetup_getprovidernamelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# IMSCEPSetup::GetProviderNameList method
+# IMSCEPSetup::GetProviderNameList
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetMinFeatureLevel
-title: ID3D11ShaderReflection::GetMinFeatureLevel method
+title: ID3D11ShaderReflection::GetMinFeatureLevel
 author: windows-driver-content
 description: Gets the minimum feature level.
 old-location: direct3d11\id3d11shaderreflection_getminfeaturelevel.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: b10eb64b-18ff-4248-be6e-a9c45bce3e99
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: GetMinFeatureLevel method [Direct3D 11], GetMinFeatureLevel method [Direct3D 11], ID3D11ShaderReflection interface, GetMinFeatureLevel,ID3D11ShaderReflection.GetMinFeatureLevel, ID3D11ShaderReflection, ID3D11ShaderReflection interface [Direct3D 11], GetMinFeatureLevel method, ID3D11ShaderReflection::GetMinFeatureLevel, b8d12499-79aa-f3e6-bdd4-5ce99f2fe7d3, d3d11shader/ID3D11ShaderReflection::GetMinFeatureLevel, direct3d11.id3d11shaderreflection_getminfeaturelevel
+ms.keywords: GetMinFeatureLevel, GetMinFeatureLevel method [Direct3D 11], GetMinFeatureLevel method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetMinFeatureLevel method, ID3D11ShaderReflection.GetMinFeatureLevel, ID3D11ShaderReflection::GetMinFeatureLevel, b8d12499-79aa-f3e6-bdd4-5ce99f2fe7d3, d3d11shader/ID3D11ShaderReflection::GetMinFeatureLevel, direct3d11.id3d11shaderreflection_getminfeaturelevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3DCompiler_47.dll
 req.irql: 
 ---
 
-# ID3D11ShaderReflection::GetMinFeatureLevel method
+# ID3D11ShaderReflection::GetMinFeatureLevel
 
 
 ## -description

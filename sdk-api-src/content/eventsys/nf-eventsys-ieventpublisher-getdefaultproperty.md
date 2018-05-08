@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventPublisher.GetDefaultProperty
-title: IEventPublisher::GetDefaultProperty method
+title: IEventPublisher::GetDefaultProperty
 author: windows-driver-content
 description: Retrieves a named property and its value from the property bag associated with the event publisher.
 old-location: com\ieventpublisher_getdefaultproperty.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 5d9adc4f-30c9-42bd-89c9-e35384885b8c
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetDefaultProperty method [COM], GetDefaultProperty method [COM], IEventPublisher interface, GetDefaultProperty,IEventPublisher.GetDefaultProperty, IEventPublisher, IEventPublisher interface [COM], GetDefaultProperty method, IEventPublisher::GetDefaultProperty, _com_ieventpublisher_getdefaultproperty, com.ieventpublisher_getdefaultproperty, eventsys/IEventPublisher::GetDefaultProperty
+ms.keywords: GetDefaultProperty, GetDefaultProperty method [COM], GetDefaultProperty method [COM],IEventPublisher interface, IEventPublisher interface [COM],GetDefaultProperty method, IEventPublisher.GetDefaultProperty, IEventPublisher::GetDefaultProperty, _com_ieventpublisher_getdefaultproperty, com.ieventpublisher_getdefaultproperty, eventsys/IEventPublisher::GetDefaultProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IEventPublisher::GetDefaultProperty method
+# IEventPublisher::GetDefaultProperty
 
 
 ## -description

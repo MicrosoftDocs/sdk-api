@@ -1,14 +1,14 @@
 ---
 UID: NF:contentpartner.IWMPContentContainer.GetContentCount
-title: IWMPContentContainer::GetContentCount method
+title: IWMPContentContainer::GetContentCount
 author: windows-driver-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentcontainer_getcontentcount.htm
 old-project: WMP
 ms.assetid: 0a12f6b3-c253-4d07-aa5e-556faa6fbccb
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: GetContentCount method [Windows Media Player], GetContentCount method [Windows Media Player], IWMPContentContainer interface, GetContentCount,IWMPContentContainer.GetContentCount, IWMPContentContainer, IWMPContentContainer interface [Windows Media Player], GetContentCount method, IWMPContentContainer::GetContentCount, IWMPContentContainerGetContentCount, contentpartner/IWMPContentContainer::GetContentCount, wmp.iwmpcontentcontainer_getcontentcount
+ms.date: 5/4/2018
+ms.keywords: GetContentCount, GetContentCount method [Windows Media Player], GetContentCount method [Windows Media Player],IWMPContentContainer interface, IWMPContentContainer interface [Windows Media Player],GetContentCount method, IWMPContentContainer.GetContentCount, IWMPContentContainer::GetContentCount, IWMPContentContainerGetContentCount, contentpartner/IWMPContentContainer::GetContentCount, wmp.iwmpcontentcontainer_getcontentcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IWMPContentContainer::GetContentCount method
+# IWMPContentContainer::GetContentCount
 
 
 ## -description

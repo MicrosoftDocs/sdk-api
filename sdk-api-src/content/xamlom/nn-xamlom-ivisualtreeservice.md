@@ -8,7 +8,7 @@ old-project: xaml_diagnostics
 ms.assetid: 5C0896E4-E37E-49DF-B303-1814BCA6F5B3
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
-ms.keywords: IVisualTreeService, IVisualTreeService interface, IVisualTreeService interface, described, xaml_diagnostics.ivisualtreeservice, xamlom/IVisualTreeService
+ms.keywords: IVisualTreeService, IVisualTreeService interface, IVisualTreeService interface,described, xaml_diagnostics.ivisualtreeservice, xamlom/IVisualTreeService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

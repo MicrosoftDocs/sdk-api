@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses
-title: ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses method
+title: ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
 author: windows-driver-content
 description: The EnumerateTerminalClasses method lists all terminal classes for the current terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_enumerateterminalclasses.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: dc75972d-7917-406d-8ed8-e05679ab86eb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: EnumerateTerminalClasses method [TAPI 2.2], EnumerateTerminalClasses method [TAPI 2.2], ITPluggableTerminalSuperclassRegistration interface, EnumerateTerminalClasses,ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses, ITPluggableTerminalSuperclassRegistration, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2], EnumerateTerminalClasses method, ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses, _tapi3_itpluggableterminalsuperclassregistration_enumerateterminalclasses, tapi3.itpluggableterminalsuperclassregistration_enumerateterminalclasses, termmgr/ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
+ms.keywords: EnumerateTerminalClasses, EnumerateTerminalClasses method [TAPI 2.2], EnumerateTerminalClasses method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],EnumerateTerminalClasses method, ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses, ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses, _tapi3_itpluggableterminalsuperclassregistration_enumerateterminalclasses, tapi3.itpluggableterminalsuperclassregistration_enumerateterminalclasses, termmgr/ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses method
+# ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
 
 
 ## -description

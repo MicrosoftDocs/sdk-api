@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.GetPixelFormat
-title: IWICBitmapSource::GetPixelFormat method
+title: IWICBitmapSource::GetPixelFormat
 author: windows-driver-content
 description: Retrieves the pixel format of the bitmap source..
 old-location: wic\_wic_codec_iwicbitmapsource_getpixelformat.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 6fd30a38-a447-4e4e-93ea-e31c5ba1271e
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetPixelFormat method [Windows Imaging Component], GetPixelFormat method [Windows Imaging Component], IWICBitmapSource interface, GetPixelFormat,IWICBitmapSource.GetPixelFormat, IWICBitmapSource, IWICBitmapSource interface [Windows Imaging Component], GetPixelFormat method, IWICBitmapSource::GetPixelFormat, _wic_codec_iwicbitmapsource_getpixelformat, wic._wic_codec_iwicbitmapsource_getpixelformat, wincodec/IWICBitmapSource::GetPixelFormat
+ms.keywords: GetPixelFormat, GetPixelFormat method [Windows Imaging Component], GetPixelFormat method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],GetPixelFormat method, IWICBitmapSource.GetPixelFormat, IWICBitmapSource::GetPixelFormat, _wic_codec_iwicbitmapsource_getpixelformat, wic._wic_codec_iwicbitmapsource_getpixelformat, wincodec/IWICBitmapSource::GetPixelFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapSource::GetPixelFormat method
+# IWICBitmapSource::GetPixelFormat
 
 
 ## -description

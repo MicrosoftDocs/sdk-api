@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMThumbnailGenerator.GenerateThumbnail
-title: IXpsOMThumbnailGenerator::GenerateThumbnail method
+title: IXpsOMThumbnailGenerator::GenerateThumbnail
 author: windows-driver-content
 description: Generates a thumbnail image of a page.
 old-location: xps\ixpsomthumbnailgenerator_generatethumbnail.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 8a2431f0-50e5-43a9-8940-62d9babad297
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GenerateThumbnail method [XPS Documents and Packaging], GenerateThumbnail method [XPS Documents and Packaging], IXpsOMThumbnailGenerator interface, GenerateThumbnail,IXpsOMThumbnailGenerator.GenerateThumbnail, IXpsOMThumbnailGenerator, IXpsOMThumbnailGenerator interface [XPS Documents and Packaging], GenerateThumbnail method, IXpsOMThumbnailGenerator::GenerateThumbnail, xps.ixpsomthumbnailgenerator_generatethumbnail, xpsobjectmodel/IXpsOMThumbnailGenerator::GenerateThumbnail
+ms.keywords: GenerateThumbnail, GenerateThumbnail method [XPS Documents and Packaging], GenerateThumbnail method [XPS Documents and Packaging],IXpsOMThumbnailGenerator interface, IXpsOMThumbnailGenerator interface [XPS Documents and Packaging],GenerateThumbnail method, IXpsOMThumbnailGenerator.GenerateThumbnail, IXpsOMThumbnailGenerator::GenerateThumbnail, xps.ixpsomthumbnailgenerator_generatethumbnail, xpsobjectmodel/IXpsOMThumbnailGenerator::GenerateThumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMThumbnailGenerator::GenerateThumbnail method
+# IXpsOMThumbnailGenerator::GenerateThumbnail
 
 
 ## -description

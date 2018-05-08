@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchWithPrerequisite.GetLearnedForgottenKnowledge
-title: ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge method
+title: ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge
 author: windows-driver-content
 description: Gets the forgotten knowledge that the destination replica learns when the destination provider applies all the changes in this change batch during recovery synchronization.
 old-location: winsync\isyncchangebatchwithprerequisite_getlearnedforgottenknowledge.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 4e7a9f72-7d5e-4ef8-824a-d7623b71cfb5
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetLearnedForgottenKnowledge method [Windows Sync], GetLearnedForgottenKnowledge method [Windows Sync], ISyncChangeBatchWithPrerequisite interface, GetLearnedForgottenKnowledge,ISyncChangeBatchWithPrerequisite.GetLearnedForgottenKnowledge, ISyncChangeBatchWithPrerequisite, ISyncChangeBatchWithPrerequisite interface [Windows Sync], GetLearnedForgottenKnowledge method, ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge, winsync.isyncchangebatchwithprerequisite_getlearnedforgottenknowledge, winsync/ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge
+ms.keywords: GetLearnedForgottenKnowledge, GetLearnedForgottenKnowledge method [Windows Sync], GetLearnedForgottenKnowledge method [Windows Sync],ISyncChangeBatchWithPrerequisite interface, ISyncChangeBatchWithPrerequisite interface [Windows Sync],GetLearnedForgottenKnowledge method, ISyncChangeBatchWithPrerequisite.GetLearnedForgottenKnowledge, ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge, winsync.isyncchangebatchwithprerequisite_getlearnedforgottenknowledge, winsync/ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge method
+# ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge
 
 
 ## -description

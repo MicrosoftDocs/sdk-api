@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwRule.put_EdgeTraversal
-title: INetFwRule::put_EdgeTraversal method
+title: INetFwRule::put_EdgeTraversal
 author: windows-driver-content
 description: Indicates whether edge traversal is enabled or disabled for this rule.
 old-location: ics\inetfwrule_edgetraversal.htm
 old-project: ICS
 ms.assetid: a45a8161-3273-4d43-86bf-34d1b776dbbc
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: EdgeTraversal property [ICS/ICF], EdgeTraversal property [ICS/ICF], INetFwRule interface, INetFwRule, INetFwRule interface [ICS/ICF], EdgeTraversal property, INetFwRule.EdgeTraversal, INetFwRule::get_EdgeTraversal, INetFwRule::put_EdgeTraversal, ics.inetfwrule_edgetraversal, netfw/INetFwRule::EdgeTraversal, netfw/INetFwRule::get_EdgeTraversal, netfw/INetFwRule::put_EdgeTraversal, put_EdgeTraversal,INetFwRule.put_EdgeTraversal
+ms.date: 5/1/2018
+ms.keywords: EdgeTraversal property [ICS/ICF], EdgeTraversal property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],EdgeTraversal property, INetFwRule.EdgeTraversal, INetFwRule.put_EdgeTraversal, INetFwRule::EdgeTraversal, INetFwRule::get_EdgeTraversal, INetFwRule::put_EdgeTraversal, ics.inetfwrule_edgetraversal, netfw/INetFwRule::EdgeTraversal, netfw/INetFwRule::get_EdgeTraversal, netfw/INetFwRule::put_EdgeTraversal, put_EdgeTraversal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwRule::put_EdgeTraversal method
+# INetFwRule::put_EdgeTraversal
 
 
 ## -description

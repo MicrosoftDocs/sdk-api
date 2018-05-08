@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Texture3D.Unmap
-title: ID3D10Texture3D::Unmap method
+title: ID3D10Texture3D::Unmap
 author: windows-driver-content
 description: Invalidate the pointer to the resource retrieved by ID3D10Texture3D::Map, and re-enable the GPU's access to the resource.
 old-location: direct3d10\id3d10texture3d_unmap.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture3d_unmap.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D10Texture3D, ID3D10Texture3D interface [Direct3D 10], Unmap method, ID3D10Texture3D::Unmap, Unmap method [Direct3D 10], Unmap method [Direct3D 10], ID3D10Texture3D interface, Unmap,ID3D10Texture3D.Unmap, c26b8025-823a-b16b-6cb8-9316b5866e7e, d3d10/ID3D10Texture3D::Unmap, direct3d10.id3d10texture3d_unmap
+ms.keywords: ID3D10Texture3D interface [Direct3D 10],Unmap method, ID3D10Texture3D.Unmap, ID3D10Texture3D::Unmap, Unmap, Unmap method [Direct3D 10], Unmap method [Direct3D 10],ID3D10Texture3D interface, c26b8025-823a-b16b-6cb8-9316b5866e7e, d3d10/ID3D10Texture3D::Unmap, direct3d10.id3d10texture3d_unmap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10Texture3D::Unmap method
+# ID3D10Texture3D::Unmap
 
 
 ## -description

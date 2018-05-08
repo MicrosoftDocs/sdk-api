@@ -8,7 +8,7 @@ old-project: CoreAudio
 ms.assetid: e50e13c2-1ef3-46f6-8c53-f99cc1631a79
 ms.author: windowsdriverdev
 ms.date: 4/4/2018
-ms.keywords: IControlChangeNotify, IControlChangeNotify interface [Core Audio], IControlChangeNotify interface [Core Audio], described, coreaudio.icontrolchangenotify, devicetopology/IControlChangeNotify
+ms.keywords: IControlChangeNotify, IControlChangeNotify interface [Core Audio], IControlChangeNotify interface [Core Audio],described, coreaudio.icontrolchangenotify, devicetopology/IControlChangeNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

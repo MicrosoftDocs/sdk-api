@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuneRequest.get_SourceID
-title: IDigitalCableTuneRequest::get_SourceID method
+title: IDigitalCableTuneRequest::get_SourceID
 author: windows-driver-content
 description: The get_SourceID method retrieves the source identifier, which maps to a physical channel.
 old-location: mstv\idigitalcabletunerequest_get_sourceid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 3767a8b4-f318-4242-9b30-f1293b3f7091
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IDigitalCableTuneRequest, IDigitalCableTuneRequest interface [Microsoft TV Technologies], get_SourceID method, IDigitalCableTuneRequest::get_SourceID, IDigitalCableTuneRequestget_SourceID, get_SourceID method [Microsoft TV Technologies], get_SourceID method [Microsoft TV Technologies], IDigitalCableTuneRequest interface, get_SourceID,IDigitalCableTuneRequest.get_SourceID, mstv.idigitalcabletunerequest_get_sourceid, tuner/IDigitalCableTuneRequest::get_SourceID
+ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],get_SourceID method, IDigitalCableTuneRequest.get_SourceID, IDigitalCableTuneRequest::get_SourceID, IDigitalCableTuneRequestget_SourceID, get_SourceID, get_SourceID method [Microsoft TV Technologies], get_SourceID method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, mstv.idigitalcabletunerequest_get_sourceid, tuner/IDigitalCableTuneRequest::get_SourceID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IDigitalCableTuneRequest::get_SourceID method
+# IDigitalCableTuneRequest::get_SourceID
 
 
 ## -description

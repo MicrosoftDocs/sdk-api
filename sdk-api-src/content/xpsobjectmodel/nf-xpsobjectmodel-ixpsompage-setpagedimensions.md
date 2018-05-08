@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetPageDimensions
-title: IXpsOMPage::SetPageDimensions method
+title: IXpsOMPage::SetPageDimensions
 author: windows-driver-content
 description: Sets dimensions of the page.
 old-location: xps\ixpsompage_setpagedimensions.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 4ae0a584-afa2-4288-82f8-c52c46de390f
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMPage, IXpsOMPage interface [XPS Documents and Packaging], SetPageDimensions method, IXpsOMPage::SetPageDimensions, SetPageDimensions method [XPS Documents and Packaging], SetPageDimensions method [XPS Documents and Packaging], IXpsOMPage interface, SetPageDimensions,IXpsOMPage.SetPageDimensions, pageDimensions.height, pageDimensions.width, xps.ixpsompage_setpagedimensions, xpsobjectmodel/IXpsOMPage::SetPageDimensions
+ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetPageDimensions method, IXpsOMPage.SetPageDimensions, IXpsOMPage::SetPageDimensions, SetPageDimensions, SetPageDimensions method [XPS Documents and Packaging], SetPageDimensions method [XPS Documents and Packaging],IXpsOMPage interface, pageDimensions.height, pageDimensions.width, xps.ixpsompage_setpagedimensions, xpsobjectmodel/IXpsOMPage::SetPageDimensions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPage::SetPageDimensions method
+# IXpsOMPage::SetPageDimensions
 
 
 ## -description

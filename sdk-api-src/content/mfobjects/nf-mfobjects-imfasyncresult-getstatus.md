@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.GetStatus
-title: IMFAsyncResult::GetStatus method
+title: IMFAsyncResult::GetStatus
 author: windows-driver-content
 description: Returns the status of the asynchronous operation.
 old-location: mf\imfasyncresult_getstatus.htm
 old-project: medfound
 ms.assetid: ad99f3dd-4885-42e8-8f4e-060d522dde7b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetStatus method [Media Foundation], GetStatus method [Media Foundation], IMFAsyncResult interface, GetStatus,IMFAsyncResult.GetStatus, IMFAsyncResult, IMFAsyncResult interface [Media Foundation], GetStatus method, IMFAsyncResult::GetStatus, ad99f3dd-4885-42e8-8f4e-060d522dde7b, mf.imfasyncresult_getstatus, mfobjects/IMFAsyncResult::GetStatus
+ms.date: 5/3/2018
+ms.keywords: GetStatus, GetStatus method [Media Foundation], GetStatus method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetStatus method, IMFAsyncResult.GetStatus, IMFAsyncResult::GetStatus, ad99f3dd-4885-42e8-8f4e-060d522dde7b, mf.imfasyncresult_getstatus, mfobjects/IMFAsyncResult::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFAsyncResult::GetStatus method
+# IMFAsyncResult::GetStatus
 
 
 ## -description

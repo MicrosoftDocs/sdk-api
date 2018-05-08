@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriterEx2.SetWriterFailureEx
-title: CVssWriterEx2::SetWriterFailureEx method
+title: CVssWriterEx2::SetWriterFailureEx
 author: windows-driver-content
 description: Sets extended error information to indicate that the writer has encountered a problem with participating in a VSS operation.
 old-location: base\cvsswriterex2_setwriterfailureex.htm
@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: c049a016-6546-4e72-90e8-46be8c2f7764
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: CVssWriterEx2, CVssWriterEx2 interface, SetWriterFailureEx method, CVssWriterEx2::SetWriterFailureEx, S_OK, SetWriterFailureEx method, SetWriterFailureEx method, CVssWriterEx2 interface, SetWriterFailureEx,CVssWriterEx2.SetWriterFailureEx, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_PARTIAL_FAILURE, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, base.cvsswriterex2_setwriterfailureex, vswriter/CVssWriterEx2::SetWriterFailureEx
+ms.keywords: CVssWriterEx2 interface,SetWriterFailureEx method, CVssWriterEx2.SetWriterFailureEx, CVssWriterEx2::SetWriterFailureEx, S_OK, SetWriterFailureEx, SetWriterFailureEx method, SetWriterFailureEx method,CVssWriterEx2 interface, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_PARTIAL_FAILURE, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, base.cvsswriterex2_setwriterfailureex, vswriter/CVssWriterEx2::SetWriterFailureEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# CVssWriterEx2::SetWriterFailureEx method
+# CVssWriterEx2::SetWriterFailureEx
 
 
 ## -description

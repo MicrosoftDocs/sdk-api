@@ -1,14 +1,14 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_Stereo
-title: IMpegAudioDecoder::get_Stereo method
+title: IMpegAudioDecoder::get_Stereo
 author: windows-driver-content
 description: Returns whether the decoder is decoding the encoded stream into stereo or mono PCM.
 old-location: dshow\impegaudiodecoder_get_stereo.htm
 old-project: DirectShow
 ms.assetid: fb2b4b26-7588-42fd-a915-c09d512cb152
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], get_Stereo method, IMpegAudioDecoder::get_Stereo, IMpegAudioDecodergetStereo, dshow.impegaudiodecoder_get_stereo, get_Stereo method [DirectShow], get_Stereo method [DirectShow], IMpegAudioDecoder interface, get_Stereo,IMpegAudioDecoder.get_Stereo, mpegtype/IMpegAudioDecoder::get_Stereo
+ms.date: 4/30/2018
+ms.keywords: IMpegAudioDecoder interface [DirectShow],get_Stereo method, IMpegAudioDecoder.get_Stereo, IMpegAudioDecoder::get_Stereo, IMpegAudioDecodergetStereo, dshow.impegaudiodecoder_get_stereo, get_Stereo, get_Stereo method [DirectShow], get_Stereo method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_Stereo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMpegAudioDecoder::get_Stereo method
+# IMpegAudioDecoder::get_Stereo
 
 
 ## -description

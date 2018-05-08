@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpAddress.GetSecure
-title: IWSDHttpAddress::GetSecure method
+title: IWSDHttpAddress::GetSecure
 author: windows-driver-content
 description: Retrieves the status on whether TLS secure sessions are enabled for this address.
 old-location: ncd\iwsdhttpaddress_getsecure.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: aaf9e918-7d1c-4457-94f8-888a99f07c18
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetSecure method, GetSecure method, IWSDHttpAddress interface, GetSecure,IWSDHttpAddress.GetSecure, IWSDHttpAddress, IWSDHttpAddress interface, GetSecure method, IWSDHttpAddress::GetSecure, ncd.iwsdhttpaddress_getsecure, wsdbase/IWSDHttpAddress::GetSecure
+ms.keywords: GetSecure, GetSecure method, GetSecure method,IWSDHttpAddress interface, IWSDHttpAddress interface,GetSecure method, IWSDHttpAddress.GetSecure, IWSDHttpAddress::GetSecure, ncd.iwsdhttpaddress_getsecure, wsdbase/IWSDHttpAddress::GetSecure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDHttpAddress::GetSecure method
+# IWSDHttpAddress::GetSecure
 
 
 ## -description

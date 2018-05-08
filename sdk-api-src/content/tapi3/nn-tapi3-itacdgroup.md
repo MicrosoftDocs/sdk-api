@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 73e23023-5574-4c5a-bdff-cbc7da765a65
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITACDGroup, ITACDGroup interface [TAPI 2.2], ITACDGroup interface [TAPI 2.2], described, _tapi3_itacdgroup, tapi3.itacdgroup, tapi3cc/ITACDGroup
+ms.keywords: ITACDGroup, ITACDGroup interface [TAPI 2.2], ITACDGroup interface [TAPI 2.2],described, _tapi3_itacdgroup, tapi3.itacdgroup, tapi3cc/ITACDGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchManager.get_LocalBypass
-title: ISearchManager::get_LocalBypass method
+title: ISearchManager::get_LocalBypass
 author: windows-driver-content
 description: Retrieves a value that determines whether the proxy server should be bypassed to find the item or URL.
 old-location: search\_search_ISearchManager_get_LocalBypass.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_localbypass.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchManager, ISearchManager interface [search], get_LocalBypass method, ISearchManager::get_LocalBypass, _search_ISearchManager_get_LocalBypass, get_LocalBypass method [search], get_LocalBypass method [search], ISearchManager interface, get_LocalBypass,ISearchManager.get_LocalBypass, search._search_ISearchManager_get_LocalBypass, searchapi/ISearchManager::get_LocalBypass
+ms.date: 5/4/2018
+ms.keywords: ISearchManager interface [search],get_LocalBypass method, ISearchManager.get_LocalBypass, ISearchManager::get_LocalBypass, _search_ISearchManager_get_LocalBypass, get_LocalBypass, get_LocalBypass method [search], get_LocalBypass method [search],ISearchManager interface, search._search_ISearchManager_get_LocalBypass, searchapi/ISearchManager::get_LocalBypass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchManager::get_LocalBypass method
+# ISearchManager::get_LocalBypass
 
 
 ## -description

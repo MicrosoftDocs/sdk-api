@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: AudioClientProperties, AudioClientProperties
+req.typenames: AudioClientProperties
 topic_type:
 -	APIRef
 -	kbSyntax

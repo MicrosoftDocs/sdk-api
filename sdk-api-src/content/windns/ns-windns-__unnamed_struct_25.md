@@ -159,6 +159,16 @@ The length, in bytes. of the message digest in <b>Digest</b>. This value is dete
 Reserved for padding. Do not use.
 
 
+### -field size_is
+
+ 
+
+
+### -field size_is.wDigestLength
+
+ 
+
+
 ### -field Digest
 
 A <b>BYTE</b> array that contains a cryptographic digest of the DNSKEY RR and RDATA as specified in section 5.1.4 of <a href="http://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>. Its length is determined by <b>wDigestLength</b>.

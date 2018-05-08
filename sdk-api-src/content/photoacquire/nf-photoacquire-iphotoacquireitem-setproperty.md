@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.SetProperty
-title: IPhotoAcquireItem::SetProperty method
+title: IPhotoAcquireItem::SetProperty
 author: windows-driver-content
 description: The SetProperty method sets a property for an item.
 old-location: picacq\iphotoacquireitem_setproperty.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 24c8ee32-eb10-416f-81bd-ddccb0f81fd9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoAcquireItem, IPhotoAcquireItem interface [Picture Acquisition], SetProperty method, IPhotoAcquireItem::SetProperty, IPhotoAcquireItemSetProperty, SetProperty method [Picture Acquisition], SetProperty method [Picture Acquisition], IPhotoAcquireItem interface, SetProperty,IPhotoAcquireItem.SetProperty, photoacquire/IPhotoAcquireItem::SetProperty, picacq.iphotoacquireitem_setproperty
+ms.keywords: IPhotoAcquireItem interface [Picture Acquisition],SetProperty method, IPhotoAcquireItem.SetProperty, IPhotoAcquireItem::SetProperty, IPhotoAcquireItemSetProperty, SetProperty, SetProperty method [Picture Acquisition], SetProperty method [Picture Acquisition],IPhotoAcquireItem interface, photoacquire/IPhotoAcquireItem::SetProperty, picacq.iphotoacquireitem_setproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoAcquireItem::SetProperty method
+# IPhotoAcquireItem::SetProperty
 
 
 ## -description

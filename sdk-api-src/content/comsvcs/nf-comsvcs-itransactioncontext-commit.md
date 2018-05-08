@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionContext.Commit
-title: ITransactionContext::Commit method
+title: ITransactionContext::Commit
 author: windows-driver-content
 description: Attempts to commit the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
 old-location: cos\itransactioncontext_commit.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 3945fdf1-6361-413e-9621-18871ded47a4
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: Commit method [COM+], Commit method [COM+], ITransactionContext interface, Commit,ITransactionContext.Commit, ITransactionContext, ITransactionContext interface [COM+], Commit method, ITransactionContext::Commit, _cos_ITransactionContext_Commit, comsvcs/ITransactionContext::Commit, cos.itransactioncontext_commit
+ms.keywords: Commit, Commit method [COM+], Commit method [COM+],ITransactionContext interface, ITransactionContext interface [COM+],Commit method, ITransactionContext.Commit, ITransactionContext::Commit, _cos_ITransactionContext_Commit, comsvcs/ITransactionContext::Commit, cos.itransactioncontext_commit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ITransactionContext::Commit method
+# ITransactionContext::Commit
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage2.GetStorage
-title: IWMDMStorage2::GetStorage method
+title: IWMDMStorage2::GetStorage
 author: windows-driver-content
 description: The GetStorage method retrieves a child storage by name directly from the current storage without having to enumerate through all the children.
 old-location: wmdm\iwmdmstorage2_getstorage.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: be7b3da1-583b-4bad-8e35-19f309242744
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetStorage method [windows Media Device Manager], GetStorage method [windows Media Device Manager], IWMDMStorage2 interface, GetStorage,IWMDMStorage2.GetStorage, IWMDMStorage2, IWMDMStorage2 interface [windows Media Device Manager], GetStorage method, IWMDMStorage2::GetStorage, IWMDMStorage2GetStorage, mswmdm/IWMDMStorage2::GetStorage, wmdm.iwmdmstorage2_getstorage
+ms.keywords: GetStorage, GetStorage method [windows Media Device Manager], GetStorage method [windows Media Device Manager],IWMDMStorage2 interface, IWMDMStorage2 interface [windows Media Device Manager],GetStorage method, IWMDMStorage2.GetStorage, IWMDMStorage2::GetStorage, IWMDMStorage2GetStorage, mswmdm/IWMDMStorage2::GetStorage, wmdm.iwmdmstorage2_getstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMStorage2::GetStorage method
+# IWMDMStorage2::GetStorage
 
 
 ## -description

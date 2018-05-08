@@ -1,14 +1,14 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetStringValue
-title: ICredentialProviderCredential::GetStringValue method
+title: ICredentialProviderCredential::GetStringValue
 author: windows-driver-content
 description: Enables retrieval of text from a credential with a text field.
 old-location: shell\ICredentialProviderCredential_GetStringValue.htm
 old-project: shell
 ms.assetid: b891c735-9822-4bc1-a1cc-0c50b35c03c4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetStringValue method [Windows Shell], GetStringValue method [Windows Shell], ICredentialProviderCredential interface, GetStringValue,ICredentialProviderCredential.GetStringValue, ICredentialProviderCredential, ICredentialProviderCredential interface [Windows Shell], GetStringValue method, ICredentialProviderCredential::GetStringValue, credentialprovider/ICredentialProviderCredential::GetStringValue, shell.ICredentialProviderCredential_GetStringValue, shell_ICredentialProviderCredential_GetStringValue
+ms.date: 5/3/2018
+ms.keywords: GetStringValue, GetStringValue method [Windows Shell], GetStringValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetStringValue method, ICredentialProviderCredential.GetStringValue, ICredentialProviderCredential::GetStringValue, credentialprovider/ICredentialProviderCredential::GetStringValue, shell.ICredentialProviderCredential_GetStringValue, shell_ICredentialProviderCredential_GetStringValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICredentialProviderCredential::GetStringValue method
+# ICredentialProviderCredential::GetStringValue
 
 
 ## -description

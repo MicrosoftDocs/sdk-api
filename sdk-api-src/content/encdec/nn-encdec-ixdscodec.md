@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: c34a3418-2ae5-45a6-9e3b-2bd7cf33d44b
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IXDSCodec, IXDSCodec interface [Microsoft TV Technologies], IXDSCodec interface [Microsoft TV Technologies], described, IXDSCodecInterface, encdec/IXDSCodec, mstv.ixdscodec
+ms.keywords: IXDSCodec, IXDSCodec interface [Microsoft TV Technologies], IXDSCodec interface [Microsoft TV Technologies],described, IXDSCodecInterface, encdec/IXDSCodec, mstv.ixdscodec
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

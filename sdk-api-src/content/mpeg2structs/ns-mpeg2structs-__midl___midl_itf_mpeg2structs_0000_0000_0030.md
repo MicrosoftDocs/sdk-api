@@ -71,14 +71,12 @@ Specifies the source type, as an <a href="https://msdn.microsoft.com/cb76873e-78
 A union that contains the following members.
 
 
-
-#### Demux
+### -field U.Demux
 
 Specifies an <a href="https://msdn.microsoft.com/ecc4f3bb-16f5-4398-bcd5-3316da8529ec">MPEG_BCS_DEMUX</a> structure that identifies the filter graph instance.
 
 
-
-#### Winsock
+### -field U.Winsock
 
 Currently not supported.
 

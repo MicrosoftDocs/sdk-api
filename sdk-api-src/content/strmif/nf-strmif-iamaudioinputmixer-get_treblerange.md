@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_TrebleRange
-title: IAMAudioInputMixer::get_TrebleRange method
+title: IAMAudioInputMixer::get_TrebleRange
 author: windows-driver-content
 description: The get_TrebleRange method retrieves the treble range for this input.
 old-location: dshow\iamaudioinputmixer_get_treblerange.htm
 old-project: DirectShow
 ms.assetid: 726cbdda-5772-43bc-846f-f7d1672cc56f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMAudioInputMixer, IAMAudioInputMixer interface [DirectShow], get_TrebleRange method, IAMAudioInputMixer::get_TrebleRange, IAMAudioInputMixerget_TrebleRange, dshow.iamaudioinputmixer_get_treblerange, get_TrebleRange method [DirectShow], get_TrebleRange method [DirectShow], IAMAudioInputMixer interface, get_TrebleRange,IAMAudioInputMixer.get_TrebleRange, strmif/IAMAudioInputMixer::get_TrebleRange
+ms.date: 4/30/2018
+ms.keywords: IAMAudioInputMixer interface [DirectShow],get_TrebleRange method, IAMAudioInputMixer.get_TrebleRange, IAMAudioInputMixer::get_TrebleRange, IAMAudioInputMixerget_TrebleRange, dshow.iamaudioinputmixer_get_treblerange, get_TrebleRange, get_TrebleRange method [DirectShow], get_TrebleRange method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_TrebleRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IAMAudioInputMixer::get_TrebleRange method
+# IAMAudioInputMixer::get_TrebleRange
 
 
 ## -description

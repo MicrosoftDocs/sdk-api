@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSitesContainer.SearchSites
-title: IGPMSitesContainer::SearchSites method
+title: IGPMSitesContainer::SearchSites
 author: windows-driver-content
 description: Retrieves a collection of scope of management (SOM) objects based on the specified search criteria. This method returns only site objects.
 old-location: gpmc\igpmsitescontainer_searchsites.htm
@@ -8,7 +8,7 @@ old-project: GPMC
 ms.assetid: bcbe1d94-ae82-4b33-8831-039896816a2d
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GPMSitesContainer class [GPMC], SearchSites method, IGPMSitesContainer, IGPMSitesContainer interface [GPMC], SearchSites method, IGPMSitesContainer::SearchSites, SearchSites method [GPMC], SearchSites method [GPMC], GPMSitesContainer class, SearchSites method [GPMC], IGPMSitesContainer interface, SearchSites,IGPMSitesContainer.SearchSites, _win32_igpmsitescontainer_searchsites, gpmc.igpmsitescontainer_searchsites, gpmgmt/IGPMSitesContainer::SearchSites, somLinks
+ms.keywords: GPMSitesContainer class [GPMC],SearchSites method, IGPMSitesContainer interface [GPMC],SearchSites method, IGPMSitesContainer.SearchSites, IGPMSitesContainer::SearchSites, SearchSites, SearchSites method [GPMC], SearchSites method [GPMC],GPMSitesContainer class, SearchSites method [GPMC],IGPMSitesContainer interface, _win32_igpmsitescontainer_searchsites, gpmc.igpmsitescontainer_searchsites, gpmgmt/IGPMSitesContainer::SearchSites, somLinks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IGPMSitesContainer::SearchSites method
+# IGPMSitesContainer::SearchSites
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_Help
-title: ILegacyIAccessibleProvider::get_Help method
+title: ILegacyIAccessibleProvider::get_Help
 author: windows-driver-content
 description: Specifies a string that contains help information for this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Help.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7b92f95b-9a75-4f24-b6ed-34ababfbbaa9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: Help property [Windows Accessibility], Help property [Windows Accessibility], ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider, ILegacyIAccessibleProvider interface [Windows Accessibility], Help property, ILegacyIAccessibleProvider.Help, ILegacyIAccessibleProvider::get_Help, get_Help,ILegacyIAccessibleProvider.get_Help, uiauto.uiauto_ILegacyIAccessibleProvider_Help, uiauto_ILegacyIAccessibleProvider_Help, uiautomationcore/ILegacyIAccessibleProvider::Help, uiautomationcore/ILegacyIAccessibleProvider::get_Help, winauto.uiauto_ILegacyIAccessibleProvider_Help
+ms.keywords: Help property [Windows Accessibility], Help property [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],Help property, ILegacyIAccessibleProvider.Help, ILegacyIAccessibleProvider.get_Help, ILegacyIAccessibleProvider::Help, ILegacyIAccessibleProvider::get_Help, get_Help, uiauto.uiauto_ILegacyIAccessibleProvider_Help, uiauto_ILegacyIAccessibleProvider_Help, uiautomationcore/ILegacyIAccessibleProvider::Help, uiautomationcore/ILegacyIAccessibleProvider::get_Help, winauto.uiauto_ILegacyIAccessibleProvider_Help
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ILegacyIAccessibleProvider::get_Help method
+# ILegacyIAccessibleProvider::get_Help
 
 
 ## -description

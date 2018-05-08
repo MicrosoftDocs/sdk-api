@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.GetWindowContext
-title: IOleInPlaceSite::GetWindowContext method
+title: IOleInPlaceSite::GetWindowContext
 author: windows-driver-content
 description: Enables an in-place object to retrieve the window interfaces that form the window object hierarchy, and the position in the parent window where the object's in-place activation window should be located.
 old-location: com\ioleinplacesite_getwindowcontext.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: f6cf62b3-5a64-49aa-b0bd-56744ecee313
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetWindowContext method [COM], GetWindowContext method [COM], IOleInPlaceSite interface, GetWindowContext,IOleInPlaceSite.GetWindowContext, IOleInPlaceSite, IOleInPlaceSite interface [COM], GetWindowContext method, IOleInPlaceSite::GetWindowContext, _ole_ioleinplacesite_getwindowcontext, com.ioleinplacesite_getwindowcontext, oleidl/IOleInPlaceSite::GetWindowContext
+ms.keywords: GetWindowContext, GetWindowContext method [COM], GetWindowContext method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],GetWindowContext method, IOleInPlaceSite.GetWindowContext, IOleInPlaceSite::GetWindowContext, _ole_ioleinplacesite_getwindowcontext, com.ioleinplacesite_getwindowcontext, oleidl/IOleInPlaceSite::GetWindowContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSite::GetWindowContext method
+# IOleInPlaceSite::GetWindowContext
 
 
 ## -description

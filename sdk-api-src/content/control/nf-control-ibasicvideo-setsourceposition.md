@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicVideo.SetSourcePosition
-title: IBasicVideo::SetSourcePosition method
+title: IBasicVideo::SetSourcePosition
 author: windows-driver-content
 description: The SetSourcePosition method sets the source rectangle.
 old-location: dshow\ibasicvideo_setsourceposition.htm
 old-project: DirectShow
 ms.assetid: afe78775-f2b0-4d10-a702-f0329fe79c6d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], SetSourcePosition method, IBasicVideo::SetSourcePosition, IBasicVideoSetSourcePosition, SetSourcePosition method [DirectShow], SetSourcePosition method [DirectShow], IBasicVideo interface, SetSourcePosition,IBasicVideo.SetSourcePosition, control/IBasicVideo::SetSourcePosition, dshow.ibasicvideo_setsourceposition
+ms.date: 4/30/2018
+ms.keywords: IBasicVideo interface [DirectShow],SetSourcePosition method, IBasicVideo.SetSourcePosition, IBasicVideo::SetSourcePosition, IBasicVideoSetSourcePosition, SetSourcePosition, SetSourcePosition method [DirectShow], SetSourcePosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetSourcePosition, dshow.ibasicvideo_setsourceposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicVideo::SetSourcePosition method
+# IBasicVideo::SetSourcePosition
 
 
 ## -description

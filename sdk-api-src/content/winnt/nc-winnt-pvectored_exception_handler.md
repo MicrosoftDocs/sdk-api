@@ -8,7 +8,7 @@ old-project: Debug
 ms.assetid: a00f0e8d-a10b-48d4-b918-57b2ff9cb984
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: PVECTORED_EXCEPTION_HANDLER, VectoredHandler, VectoredHandler callback function, _win32_vectoredhandler, base.vectoredhandler, winnt/VectoredHandler
+ms.keywords: PVECTORED_EXCEPTION_HANDLER, VectoredHandler, VectoredHandler callback, VectoredHandler callback function, _win32_vectoredhandler, base.vectoredhandler, winnt/VectoredHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PVECTORED_EXCEPTION_HANDLER callback
+# PVECTORED_EXCEPTION_HANDLER callback function
 
 
 ## -description

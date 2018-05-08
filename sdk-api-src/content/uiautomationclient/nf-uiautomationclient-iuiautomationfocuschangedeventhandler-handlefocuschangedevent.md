@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationFocusChangedEventHandler.HandleFocusChangedEvent
-title: IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent method
+title: IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent
 author: windows-driver-content
 description: Handles the event raised when the keyboard focus moves to a different UI Automation element.
 old-location: winauto\uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 7d90982f-4805-4ebb-a9f9-e335dc15d519
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: HandleFocusChangedEvent method [Windows Accessibility], HandleFocusChangedEvent method [Windows Accessibility], IUIAutomationFocusChangedEventHandler interface, HandleFocusChangedEvent,IUIAutomationFocusChangedEventHandler.HandleFocusChangedEvent, IUIAutomationFocusChangedEventHandler, IUIAutomationFocusChangedEventHandler interface [Windows Accessibility], HandleFocusChangedEvent method, IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent, uiauto.uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent, uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent, uiautomationclient/IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent, winauto.uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent
+ms.keywords: HandleFocusChangedEvent, HandleFocusChangedEvent method [Windows Accessibility], HandleFocusChangedEvent method [Windows Accessibility],IUIAutomationFocusChangedEventHandler interface, IUIAutomationFocusChangedEventHandler interface [Windows Accessibility],HandleFocusChangedEvent method, IUIAutomationFocusChangedEventHandler.HandleFocusChangedEvent, IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent, uiauto.uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent, uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent, uiautomationclient/IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent, winauto.uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent method
+# IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent
 
 
 ## -description

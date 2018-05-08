@@ -8,7 +8,7 @@ old-project: display
 ms.assetid: e8c99103-31cd-4468-8b6b-1e56b31e10da
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: DdVideoPortGetField, DdVideoPortGetField callback function [Display Devices], PDD_VPORTCB_GETFIELD, ddfncs_85abec9a-0917-4bde-88c7-9d94ead1745c.xml, ddrawint/DdVideoPortGetField, display.ddvideoportgetfield
+ms.keywords: DdVideoPortGetField, DdVideoPortGetField callback function [Display Devices], PDD_VPORTCB_GETFIELD, PDD_VPORTCB_GETFIELD callback, ddfncs_85abec9a-0917-4bde-88c7-9d94ead1745c.xml, ddrawint/DdVideoPortGetField, display.ddvideoportgetfield
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# PDD_VPORTCB_GETFIELD callback
+# PDD_VPORTCB_GETFIELD callback function
 
 
 ## -description

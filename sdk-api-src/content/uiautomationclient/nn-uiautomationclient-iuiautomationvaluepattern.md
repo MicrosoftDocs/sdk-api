@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 07277405-1172-42e5-af51-8e2c1ea06894
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationValuePattern, IUIAutomationValuePattern interface [Windows Accessibility], IUIAutomationValuePattern interface [Windows Accessibility], described, uiauto.uiauto_IUIAutomationValuePattern, uiauto_IUIAutomationValuePattern, uiautomationclient/IUIAutomationValuePattern, winauto.uiauto_IUIAutomationValuePattern
+ms.keywords: IUIAutomationValuePattern, IUIAutomationValuePattern interface [Windows Accessibility], IUIAutomationValuePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationValuePattern, uiauto_IUIAutomationValuePattern, uiautomationclient/IUIAutomationValuePattern, winauto.uiauto_IUIAutomationValuePattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

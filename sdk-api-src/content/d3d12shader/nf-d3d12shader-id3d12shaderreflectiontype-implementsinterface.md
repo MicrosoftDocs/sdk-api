@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.ImplementsInterface
-title: ID3D12ShaderReflectionType::ImplementsInterface method
+title: ID3D12ShaderReflectionType::ImplementsInterface
 author: windows-driver-content
 description: Indicates whether a class type implements an interface.
 old-location: direct3d12\id3d12shaderreflectiontype_implementsinterface.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: FE84D58A-998D-4362-96B2-5C00D2A82CB8
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ID3D12ShaderReflectionType, ID3D12ShaderReflectionType interface, ImplementsInterface method, ID3D12ShaderReflectionType::ImplementsInterface, ImplementsInterface method, ImplementsInterface method, ID3D12ShaderReflectionType interface, ImplementsInterface,ID3D12ShaderReflectionType.ImplementsInterface, d3d12shader/ID3D12ShaderReflectionType::ImplementsInterface, direct3d12.id3d12shaderreflectiontype_implementsinterface
+ms.keywords: ID3D12ShaderReflectionType interface,ImplementsInterface method, ID3D12ShaderReflectionType.ImplementsInterface, ID3D12ShaderReflectionType::ImplementsInterface, ImplementsInterface, ImplementsInterface method, ImplementsInterface method,ID3D12ShaderReflectionType interface, d3d12shader/ID3D12ShaderReflectionType::ImplementsInterface, direct3d12.id3d12shaderreflectiontype_implementsinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D12ShaderReflectionType::ImplementsInterface method
+# ID3D12ShaderReflectionType::ImplementsInterface
 
 
 ## -description

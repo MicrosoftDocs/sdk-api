@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetGamutBoundaryMesh
-title: IDeviceModelPlugIn::GetGamutBoundaryMesh method
+title: IDeviceModelPlugIn::GetGamutBoundaryMesh
 author: windows-driver-content
 description: Returns the triangular mesh from the plug-in. This function is used to compute the GamutBoundaryDescription.
 old-location: wcs\IDeviceModelPlugIn_GetGamutBoundaryMesh.htm
@@ -8,7 +8,7 @@ old-project: WCS
 ms.assetid: 275269d3-e542-41b3-80d6-e1c90f296456
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetGamutBoundaryMesh method [Windows Color System], GetGamutBoundaryMesh method [Windows Color System], IDeviceModelPlugIn interface, GetGamutBoundaryMesh,IDeviceModelPlugIn.GetGamutBoundaryMesh, IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color System], GetGamutBoundaryMesh method, IDeviceModelPlugIn::GetGamutBoundaryMesh, _color_IDeviceModelPlugIn::GetGamutBoundaryMesh, wcs.IDeviceModelPlugIn_GetGamutBoundaryMesh, wcsplugin/IDeviceModelPlugIn::GetGamutBoundaryMesh
+ms.keywords: GetGamutBoundaryMesh, GetGamutBoundaryMesh method [Windows Color System], GetGamutBoundaryMesh method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetGamutBoundaryMesh method, IDeviceModelPlugIn.GetGamutBoundaryMesh, IDeviceModelPlugIn::GetGamutBoundaryMesh, _color_IDeviceModelPlugIn::GetGamutBoundaryMesh, wcs.IDeviceModelPlugIn_GetGamutBoundaryMesh, wcsplugin/IDeviceModelPlugIn::GetGamutBoundaryMesh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IDeviceModelPlugIn::GetGamutBoundaryMesh method
+# IDeviceModelPlugIn::GetGamutBoundaryMesh
 
 
 ## -description

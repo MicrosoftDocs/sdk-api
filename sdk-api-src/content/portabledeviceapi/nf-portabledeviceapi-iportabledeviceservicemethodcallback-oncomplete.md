@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceMethodCallback.OnComplete
-title: IPortableDeviceServiceMethodCallback::OnComplete method
+title: IPortableDeviceServiceMethodCallback::OnComplete
 author: windows-driver-content
 description: Indicates that a callback method has completed execution.
 old-location: wpdsdk\iportabledeviceservicemethodcallback_oncomplete.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: b04e7bf1-bad7-4e9a-b53a-ec064d323f94
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IPortableDeviceServiceMethodCallback, IPortableDeviceServiceMethodCallback interface [Windows Portable Devices SDK], OnComplete method, IPortableDeviceServiceMethodCallback::OnComplete, OnComplete method [Windows Portable Devices SDK], OnComplete method [Windows Portable Devices SDK], IPortableDeviceServiceMethodCallback interface, OnComplete,IPortableDeviceServiceMethodCallback.OnComplete, portabledeviceapi/IPortableDeviceServiceMethodCallback::OnComplete, wpdsdk.iportabledeviceservicemethodcallback_oncomplete
+ms.keywords: IPortableDeviceServiceMethodCallback interface [Windows Portable Devices SDK],OnComplete method, IPortableDeviceServiceMethodCallback.OnComplete, IPortableDeviceServiceMethodCallback::OnComplete, OnComplete, OnComplete method [Windows Portable Devices SDK], OnComplete method [Windows Portable Devices SDK],IPortableDeviceServiceMethodCallback interface, portabledeviceapi/IPortableDeviceServiceMethodCallback::OnComplete, wpdsdk.iportabledeviceservicemethodcallback_oncomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceServiceMethodCallback::OnComplete method
+# IPortableDeviceServiceMethodCallback::OnComplete
 
 
 ## -description

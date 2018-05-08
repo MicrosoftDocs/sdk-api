@@ -1,14 +1,14 @@
 ---
 UID: NF:xenroll.ICEnroll3.GetKeyLen
-title: ICEnroll3::GetKeyLen method
+title: ICEnroll3::GetKeyLen
 author: windows-driver-content
 description: Retrieves the minimum and maximum key lengths for the signature and exchange keys.
 old-location: security\icenroll4_getkeylen.htm
 old-project: SecCrypto
 ms.assetid: 9d4cde68-f47c-46ad-a0ca-ee287f6e5bed
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CEnroll object [Security], GetKeyLen method, GetKeyLen method [Security], GetKeyLen method [Security], CEnroll object, GetKeyLen method [Security], ICEnroll3 interface, GetKeyLen method [Security], ICEnroll4 interface, GetKeyLen,ICEnroll3.GetKeyLen, ICEnroll3, ICEnroll3 interface [Security], GetKeyLen method, ICEnroll3::GetKeyLen, ICEnroll4 interface [Security], GetKeyLen method, ICEnroll4::GetKeyLen, security.icenroll4_getkeylen, xenroll/ICEnroll3::GetKeyLen, xenroll/ICEnroll4::GetKeyLen
+ms.date: 4/30/2018
+ms.keywords: CEnroll object [Security],GetKeyLen method, GetKeyLen, GetKeyLen method [Security], GetKeyLen method [Security],CEnroll object, GetKeyLen method [Security],ICEnroll3 interface, GetKeyLen method [Security],ICEnroll4 interface, ICEnroll3 interface [Security],GetKeyLen method, ICEnroll3.GetKeyLen, ICEnroll3::GetKeyLen, ICEnroll4 interface [Security],GetKeyLen method, ICEnroll4::GetKeyLen, security.icenroll4_getkeylen, xenroll/ICEnroll3::GetKeyLen, xenroll/ICEnroll4::GetKeyLen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# ICEnroll3::GetKeyLen method
+# ICEnroll3::GetKeyLen
 
 
 ## -description

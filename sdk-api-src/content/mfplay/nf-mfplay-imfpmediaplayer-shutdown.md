@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.Shutdown
-title: IMFPMediaPlayer::Shutdown method
+title: IMFPMediaPlayer::Shutdown
 author: windows-driver-content
 description: Shuts down the MFPlay player object and releases any resources the object is using.
 old-location: mf\imfpmediaplayer_shutdown.htm
 old-project: medfound
 ms.assetid: c56b07b5-f595-4933-9af6-868fc8938849
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], Shutdown method, IMFPMediaPlayer::Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation], IMFPMediaPlayer interface, Shutdown,IMFPMediaPlayer.Shutdown, mf.imfpmediaplayer_shutdown, mfplay/IMFPMediaPlayer::Shutdown
+ms.date: 5/3/2018
+ms.keywords: IMFPMediaPlayer interface [Media Foundation],Shutdown method, IMFPMediaPlayer.Shutdown, IMFPMediaPlayer::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_shutdown, mfplay/IMFPMediaPlayer::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaPlayer::Shutdown method
+# IMFPMediaPlayer::Shutdown
 
 
 ## -description

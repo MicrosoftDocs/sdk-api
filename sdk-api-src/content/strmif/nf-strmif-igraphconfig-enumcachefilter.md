@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IGraphConfig.EnumCacheFilter
-title: IGraphConfig::EnumCacheFilter method
+title: IGraphConfig::EnumCacheFilter
 author: windows-driver-content
 description: The EnumCacheFilter method enumerates the filters in the filter cache.
 old-location: dshow\igraphconfig_enumcachefilter.htm
 old-project: DirectShow
 ms.assetid: 1782def0-13ed-411c-ab05-d0f0c307e16a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: EnumCacheFilter method [DirectShow], EnumCacheFilter method [DirectShow], IGraphConfig interface, EnumCacheFilter,IGraphConfig.EnumCacheFilter, IGraphConfig, IGraphConfig interface [DirectShow], EnumCacheFilter method, IGraphConfig::EnumCacheFilter, IGraphConfigEnumCacheFilter, dshow.igraphconfig_enumcachefilter, strmif/IGraphConfig::EnumCacheFilter
+ms.date: 4/30/2018
+ms.keywords: EnumCacheFilter, EnumCacheFilter method [DirectShow], EnumCacheFilter method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],EnumCacheFilter method, IGraphConfig.EnumCacheFilter, IGraphConfig::EnumCacheFilter, IGraphConfigEnumCacheFilter, dshow.igraphconfig_enumcachefilter, strmif/IGraphConfig::EnumCacheFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IGraphConfig::EnumCacheFilter method
+# IGraphConfig::EnumCacheFilter
 
 
 ## -description

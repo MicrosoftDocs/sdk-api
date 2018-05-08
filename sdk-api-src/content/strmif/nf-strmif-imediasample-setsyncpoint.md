@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IMediaSample.SetSyncPoint
-title: IMediaSample::SetSyncPoint method
+title: IMediaSample::SetSyncPoint
 author: windows-driver-content
 description: The SetSyncPoint method specifies whether the beginning of this sample is a synchronization point.
 old-location: dshow\imediasample_setsyncpoint.htm
 old-project: DirectShow
 ms.assetid: b2770045-c18b-4dbc-b104-873e07c0b5aa
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IMediaSample, IMediaSample interface [DirectShow], SetSyncPoint method, IMediaSample::SetSyncPoint, IMediaSampleSetSyncPoint, SetSyncPoint method [DirectShow], SetSyncPoint method [DirectShow], IMediaSample interface, SetSyncPoint,IMediaSample.SetSyncPoint, dshow.imediasample_setsyncpoint, strmif/IMediaSample::SetSyncPoint
+ms.date: 4/30/2018
+ms.keywords: IMediaSample interface [DirectShow],SetSyncPoint method, IMediaSample.SetSyncPoint, IMediaSample::SetSyncPoint, IMediaSampleSetSyncPoint, SetSyncPoint, SetSyncPoint method [DirectShow], SetSyncPoint method [DirectShow],IMediaSample interface, dshow.imediasample_setsyncpoint, strmif/IMediaSample::SetSyncPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IMediaSample::SetSyncPoint method
+# IMediaSample::SetSyncPoint
 
 
 ## -description

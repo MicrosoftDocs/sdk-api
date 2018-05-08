@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Read
-title: IWMDMStorageControl::Read method
+title: IWMDMStorageControl::Read
 author: windows-driver-content
 description: The Read method copies the current storage to the computer.
 old-location: wmdm\iwmdmstoragecontrol_read.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 4b102666-b54b-4b60-b2e9-68def384268e
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IWMDMStorageControl, IWMDMStorageControl interface [windows Media Device Manager], Read method, IWMDMStorageControl::Read, IWMDMStorageControlRead, Read method [windows Media Device Manager], Read method [windows Media Device Manager], IWMDMStorageControl interface, Read,IWMDMStorageControl.Read, mswmdm/IWMDMStorageControl::Read, wmdm.iwmdmstoragecontrol_read
+ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Read method, IWMDMStorageControl.Read, IWMDMStorageControl::Read, IWMDMStorageControlRead, Read, Read method [windows Media Device Manager], Read method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Read, wmdm.iwmdmstoragecontrol_read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IWMDMStorageControl::Read method
+# IWMDMStorageControl::Read
 
 
 ## -description

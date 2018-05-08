@@ -8,7 +8,7 @@ old-project: SecBioMet
 ms.assetid: 09a93726-2dff-4a8a-b36c-ad481a4f61b6
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PIBIO_SENSOR_RESET_FN, SensorAdapterReset, SensorAdapterReset callback function [Windows Biometric Framework API], secbiomet.sensoradapterreset, winbio_adapter/SensorAdapterReset
+ms.keywords: PIBIO_SENSOR_RESET_FN, PIBIO_SENSOR_RESET_FN callback, SensorAdapterReset, SensorAdapterReset callback function [Windows Biometric Framework API], secbiomet.sensoradapterreset, winbio_adapter/SensorAdapterReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# PIBIO_SENSOR_RESET_FN callback
+# PIBIO_SENSOR_RESET_FN callback function
 
 
 ## -description

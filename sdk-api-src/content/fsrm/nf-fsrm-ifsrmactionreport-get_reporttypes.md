@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionReport.get_ReportTypes
-title: IFsrmActionReport::get_ReportTypes method
+title: IFsrmActionReport::get_ReportTypes
 author: windows-driver-content
 description: Retrieves or sets the types of reports to generate.
 old-location: fsrm\ifsrmactionreport_reporttypes.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 942b9a7f-06b2-45bf-8398-b4c68a168a73
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmActionReport, IFsrmActionReport interface [File Server Resource Manager], ReportTypes property, IFsrmActionReport.ReportTypes, IFsrmActionReport::get_ReportTypes, IFsrmActionReport::put_ReportTypes, ReportTypes property [File Server Resource Manager], ReportTypes property [File Server Resource Manager], IFsrmActionReport interface, fs.ifsrmactionreport_reporttypes, fsrm.ifsrmactionreport_reporttypes, fsrm/IFsrmActionReport::ReportTypes, fsrm/IFsrmActionReport::get_ReportTypes, fsrm/IFsrmActionReport::put_ReportTypes, get_ReportTypes,IFsrmActionReport.get_ReportTypes
+ms.keywords: IFsrmActionReport interface [File Server Resource Manager],ReportTypes property, IFsrmActionReport.ReportTypes, IFsrmActionReport.get_ReportTypes, IFsrmActionReport::ReportTypes, IFsrmActionReport::get_ReportTypes, IFsrmActionReport::put_ReportTypes, ReportTypes property [File Server Resource Manager], ReportTypes property [File Server Resource Manager],IFsrmActionReport interface, fs.ifsrmactionreport_reporttypes, fsrm.ifsrmactionreport_reporttypes, fsrm/IFsrmActionReport::ReportTypes, fsrm/IFsrmActionReport::get_ReportTypes, fsrm/IFsrmActionReport::put_ReportTypes, get_ReportTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmActionReport::get_ReportTypes method
+# IFsrmActionReport::get_ReportTypes
 
 
 ## -description

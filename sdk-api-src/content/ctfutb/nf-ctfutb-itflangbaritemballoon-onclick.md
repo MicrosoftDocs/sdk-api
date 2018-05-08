@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBalloon.OnClick
-title: ITfLangBarItemBalloon::OnClick method
+title: ITfLangBarItemBalloon::OnClick
 author: windows-driver-content
 description: ITfLangBarItemBalloon::OnClick method
 old-location: tsf\itflangbaritemballoon_onclick.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 52592a39-8b79-4e9c-9d8b-1100c9f36eca
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfLangBarItemBalloon, ITfLangBarItemBalloon interface [Text Services Framework], OnClick method, ITfLangBarItemBalloon::OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework], ITfLangBarItemBalloon interface, OnClick,ITfLangBarItemBalloon.OnClick, _tsf_itflangbaritemballoon_onclick_ref, ctfutb/ITfLangBarItemBalloon::OnClick, tsf.itflangbaritemballoon_onclick
+ms.keywords: ITfLangBarItemBalloon interface [Text Services Framework],OnClick method, ITfLangBarItemBalloon.OnClick, ITfLangBarItemBalloon::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemBalloon interface, _tsf_itflangbaritemballoon_onclick_ref, ctfutb/ITfLangBarItemBalloon::OnClick, tsf.itflangbaritemballoon_onclick
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemBalloon::OnClick method
+# ITfLangBarItemBalloon::OnClick
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 2f1e1b8d-6150-45e9-89e2-524d80df558d
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ICallFrameEvents, ICallFrameEvents interface [COM], ICallFrameEvents interface [COM], described, _com_icallframeevents_interface, callobj/ICallFrameEvents, com.icallframeevents
+ms.keywords: ICallFrameEvents, ICallFrameEvents interface [COM], ICallFrameEvents interface [COM],described, _com_icallframeevents_interface, callobj/ICallFrameEvents, com.icallframeevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

@@ -8,7 +8,7 @@ old-project: Direct2D
 ms.assetid: 71f26200-0f35-49d7-951d-2962768d16bc
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: CreateTransformedGeometry, CreateTransformedGeometry methods [Direct2D], d2d1/CreateTransformedGeometry, direct2d.id2d1factory_createtransformedgeometry
+ms.keywords: CreateTransformedGeometry, CreateTransformedGeometry methods [Direct2D], ID2D1Factory::CreateTransformedGeometry, d2d1/CreateTransformedGeometry, direct2d.id2d1factory_createtransformedgeometry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

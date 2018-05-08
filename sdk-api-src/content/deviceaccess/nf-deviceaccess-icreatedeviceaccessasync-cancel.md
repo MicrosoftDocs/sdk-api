@@ -1,6 +1,6 @@
 ---
 UID: NF:deviceaccess.ICreateDeviceAccessAsync.Cancel
-title: ICreateDeviceAccessAsync::Cancel method
+title: ICreateDeviceAccessAsync::Cancel
 author: windows-driver-content
 description: The Cancel method attempts to cancel an asynchronous operation that is in progress.
 old-location: deviceaccess\icreatedeviceaccessasync_cancel.htm
@@ -8,7 +8,7 @@ old-project: deviceaccess
 ms.assetid: 06e5af2d-8bd8-44b1-9ead-caa362284530
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: Cancel method [Device Access Broker API], Cancel method [Device Access Broker API], ICreateDeviceAccessAsync interface, Cancel,ICreateDeviceAccessAsync.Cancel, ICreateDeviceAccessAsync, ICreateDeviceAccessAsync interface [Device Access Broker API], Cancel method, ICreateDeviceAccessAsync::Cancel, deviceaccess.icreatedeviceaccessasync_cancel, deviceaccess/ICreateDeviceAccessAsync::Cancel
+ms.keywords: Cancel, Cancel method [Device Access Broker API], Cancel method [Device Access Broker API],ICreateDeviceAccessAsync interface, ICreateDeviceAccessAsync interface [Device Access Broker API],Cancel method, ICreateDeviceAccessAsync.Cancel, ICreateDeviceAccessAsync::Cancel, deviceaccess.icreatedeviceaccessasync_cancel, deviceaccess/ICreateDeviceAccessAsync::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICreateDeviceAccessAsync::Cancel method
+# ICreateDeviceAccessAsync::Cancel
 
 
 ## -description

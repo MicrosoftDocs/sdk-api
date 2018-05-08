@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetCustomObjects
-title: IXpsSigningOptions::GetCustomObjects method
+title: IXpsSigningOptions::GetCustomObjects
 author: windows-driver-content
 description: Gets a pointer to an IOpcSignatureCustomObjectSet interface that contains a set of signature custom objects.
 old-location: xps\ixpssigningoptions_getcustomobjects.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 17a3f913-57f2-40e1-b886-6cefb9e42a83
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCustomObjects method [XPS Documents and Packaging], GetCustomObjects method [XPS Documents and Packaging], IXpsSigningOptions interface, GetCustomObjects,IXpsSigningOptions.GetCustomObjects, IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], GetCustomObjects method, IXpsSigningOptions::GetCustomObjects, xps.ixpssigningoptions_getcustomobjects, xpsdigitalsignature/IXpsSigningOptions::GetCustomObjects
+ms.keywords: GetCustomObjects, GetCustomObjects method [XPS Documents and Packaging], GetCustomObjects method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetCustomObjects method, IXpsSigningOptions.GetCustomObjects, IXpsSigningOptions::GetCustomObjects, xps.ixpssigningoptions_getcustomobjects, xpsdigitalsignature/IXpsSigningOptions::GetCustomObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSigningOptions::GetCustomObjects method
+# IXpsSigningOptions::GetCustomObjects
 
 
 ## -description

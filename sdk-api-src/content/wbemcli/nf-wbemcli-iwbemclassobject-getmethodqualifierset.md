@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetMethodQualifierSet
-title: IWbemClassObject::GetMethodQualifierSet method
+title: IWbemClassObject::GetMethodQualifierSet
 author: windows-driver-content
 description: The IWbemClassObject::GetMethodQualifierSet is used to retrieve the qualifier set for a particular method.
 old-location: wmi\iwbemclassobject_getmethodqualifierset.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: ba328f43-b08a-4b09-8aff-d7075cb6d419
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetMethodQualifierSet method [Windows Management Instrumentation], GetMethodQualifierSet method [Windows Management Instrumentation], IWbemClassObject interface, GetMethodQualifierSet,IWbemClassObject.GetMethodQualifierSet, IWbemClassObject, IWbemClassObject interface [Windows Management Instrumentation], GetMethodQualifierSet method, IWbemClassObject::GetMethodQualifierSet, _hmm_iwbemclassobject_getmethodqualifierset, wbemcli/IWbemClassObject::GetMethodQualifierSet, wmi.iwbemclassobject_getmethodqualifierset
+ms.keywords: GetMethodQualifierSet, GetMethodQualifierSet method [Windows Management Instrumentation], GetMethodQualifierSet method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetMethodQualifierSet method, IWbemClassObject.GetMethodQualifierSet, IWbemClassObject::GetMethodQualifierSet, _hmm_iwbemclassobject_getmethodqualifierset, wbemcli/IWbemClassObject::GetMethodQualifierSet, wmi.iwbemclassobject_getmethodqualifierset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -53,7 +53,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemClassObject::GetMethodQualifierSet method
+# IWbemClassObject::GetMethodQualifierSet
 
 
 ## -description

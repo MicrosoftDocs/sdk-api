@@ -161,6 +161,11 @@ If <b>TRUE</b>, the <b>Atsc</b> member contains additional filtering criteria. O
 An <a href="https://msdn.microsoft.com/16e33f92-9e25-4a03-a21f-0ea5a99470ee">ATSC_FILTER_OPTIONS</a> structure that contains additional filtering criteria.
 
 
+### -field bVersion1Bytes
+
+ 
+
+
 ### -field fSpecifyDvbEitOptions
 
 If <b>TRUE</b>, the <b>Dvb_Eit</b> member contains additional filtering criteria. Otherwise, the <b>Dvb_Eit</b> member is ignored. <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>

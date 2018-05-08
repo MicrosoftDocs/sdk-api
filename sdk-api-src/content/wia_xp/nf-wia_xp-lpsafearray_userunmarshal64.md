@@ -7,7 +7,7 @@ old-location: automat\lpsafearray_userunmarshal64.htm
 old-project: automat
 ms.assetid: 19B52C54-0905-446C-A8D9-C98153931708
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: LPSAFEARRAY_UserUnmarshal64, LPSAFEARRAY_UserUnmarshal64 function [Automation], automat.lpsafearray_userunmarshal64, wia_xp/LPSAFEARRAY_UserUnmarshal64
 ms.prod: windows-hardware
 ms.technology: windows-devices

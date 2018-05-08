@@ -7,7 +7,7 @@ old-location: shell\RestartDialog.htm
 old-project: shell
 ms.assetid: ec1e3c11-9960-482c-8461-72c4d41dff3c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, EWX_SHUTDOWN, RestartDialog, RestartDialog function [Windows Shell], _win32_RestartDialog, shell.RestartDialog, shlobj_core/RestartDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

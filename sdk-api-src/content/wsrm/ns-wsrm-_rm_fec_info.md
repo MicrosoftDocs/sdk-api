@@ -7,7 +7,7 @@ old-location: winsock\rm_fec_info.htm
 old-project: WinSock
 ms.assetid: c5dcf0fd-dffc-473b-a8f2-0abbaa0ec446
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 4/30/2018
 ms.keywords: RM_FEC_INFO, RM_FEC_INFO structure [Winsock], _RM_FEC_INFO, winsock.rm_fec_info, wsrm/RM_FEC_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedState
-title: IUIAutomationLegacyIAccessiblePattern::get_CachedState method
+title: IUIAutomationLegacyIAccessiblePattern::get_CachedState
 author: windows-driver-content
 description: Retrieves the cached Microsoft Active Accessibility state identifier for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 0429138e-e218-4384-be21-666fe5ca5542
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedState property [Windows Accessibility], CachedState property [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], CachedState property, IUIAutomationLegacyIAccessiblePattern.CachedState, IUIAutomationLegacyIAccessiblePattern::get_CachedState, get_CachedState,IUIAutomationLegacyIAccessiblePattern.get_CachedState, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedState, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedState, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState
+ms.keywords: CachedState property [Windows Accessibility], CachedState property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedState property, IUIAutomationLegacyIAccessiblePattern.CachedState, IUIAutomationLegacyIAccessiblePattern.get_CachedState, IUIAutomationLegacyIAccessiblePattern::CachedState, IUIAutomationLegacyIAccessiblePattern::get_CachedState, get_CachedState, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedState, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedState, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationLegacyIAccessiblePattern::get_CachedState method
+# IUIAutomationLegacyIAccessiblePattern::get_CachedState
 
 
 ## -description

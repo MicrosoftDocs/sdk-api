@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName
-title: IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName method
+title: IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName
 author: windows-driver-content
 description: The put_userHomeMediaSharingLibraryName method sets the name of the current user's shared media library.
 old-location: wmlss\IWMLSSput_userHomeMediaSharingLibraryName.htm
@@ -8,7 +8,7 @@ old-project: WMLSS
 ms.assetid: e3f2863f-4a0d-4896-967f-4daa164bae3b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], put_userHomeMediaSharingLibraryName method, IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName, put_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services], put_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface, put_userHomeMediaSharingLibraryName,IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName, wmlss.IWMLSSput_userHomeMediaSharingLibraryName, wmlss/IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName
+ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_userHomeMediaSharingLibraryName method, IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingLibraryName, IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName, put_userHomeMediaSharingLibraryName, put_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services], put_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_userHomeMediaSharingLibraryName, wmlss/IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName method
+# IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName
 
 
 ## -description

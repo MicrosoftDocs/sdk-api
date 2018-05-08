@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.DisconnectNotify
-title: IWTSProtocolConnection::DisconnectNotify method
+title: IWTSProtocolConnection::DisconnectNotify
 author: windows-driver-content
 description: IWTSProtocolConnection::DisconnectNotify is no longer available. Instead, use IWRdsProtocolConnection::DisconnectNotify.
 old-location: termserv\iwtsprotocolconnection_disconnectnotify.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: d2712d53-2e52-49d9-874e-e6425235d3f0
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: DisconnectNotify method [Remote Desktop Services], DisconnectNotify method [Remote Desktop Services], IWTSProtocolConnection interface, DisconnectNotify,IWTSProtocolConnection.DisconnectNotify, IWTSProtocolConnection, IWTSProtocolConnection interface [Remote Desktop Services], DisconnectNotify method, IWTSProtocolConnection::DisconnectNotify, termserv.iwtsprotocolconnection_disconnectnotify, wtsprotocol/IWTSProtocolConnection::DisconnectNotify
+ms.keywords: DisconnectNotify, DisconnectNotify method [Remote Desktop Services], DisconnectNotify method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],DisconnectNotify method, IWTSProtocolConnection.DisconnectNotify, IWTSProtocolConnection::DisconnectNotify, termserv.iwtsprotocolconnection_disconnectnotify, wtsprotocol/IWTSProtocolConnection::DisconnectNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWTSProtocolConnection::DisconnectNotify method
+# IWTSProtocolConnection::DisconnectNotify
 
 
 ## -description

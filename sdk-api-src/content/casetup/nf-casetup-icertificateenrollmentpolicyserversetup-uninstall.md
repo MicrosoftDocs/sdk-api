@@ -1,14 +1,14 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.UnInstall
-title: ICertificateEnrollmentPolicyServerSetup::UnInstall method
+title: ICertificateEnrollmentPolicyServerSetup::UnInstall
 author: windows-driver-content
 description: Removes the Certificate Enrollment Policy (CEP) Web Service.
 old-location: security\icertificateenrollmentpolicyserversetup_uninstall.htm
 old-project: SecCrypto
 ms.assetid: 3E53903A-B716-45E7-B0EB-0D1226291275
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertificateEnrollmentPolicyServerSetup, ICertificateEnrollmentPolicyServerSetup interface [Security], UnInstall method, ICertificateEnrollmentPolicyServerSetup::UnInstall, UnInstall method [Security], UnInstall method [Security], ICertificateEnrollmentPolicyServerSetup interface, UnInstall,ICertificateEnrollmentPolicyServerSetup.UnInstall, casetup/ICertificateEnrollmentPolicyServerSetup::UnInstall, security.icertificateenrollmentpolicyserversetup_uninstall
+ms.date: 4/30/2018
+ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],UnInstall method, ICertificateEnrollmentPolicyServerSetup.UnInstall, ICertificateEnrollmentPolicyServerSetup::UnInstall, UnInstall, UnInstall method [Security], UnInstall method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::UnInstall, security.icertificateenrollmentpolicyserversetup_uninstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Certocm.dll
 req.irql: 
 ---
 
-# ICertificateEnrollmentPolicyServerSetup::UnInstall method
+# ICertificateEnrollmentPolicyServerSetup::UnInstall
 
 
 ## -description

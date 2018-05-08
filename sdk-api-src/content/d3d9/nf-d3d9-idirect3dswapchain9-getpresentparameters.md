@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DSwapChain9.GetPresentParameters
-title: IDirect3DSwapChain9::GetPresentParameters method
+title: IDirect3DSwapChain9::GetPresentParameters
 author: windows-driver-content
 description: Retrieves the presentation parameters associated with a swap chain.
 old-location: direct3d9\idirect3dswapchain9__getpresentparameters.htm
@@ -8,7 +8,7 @@ old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__getpresentparameters.htm
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: GetPresentParameters method [Direct3D 9], GetPresentParameters method [Direct3D 9], IDirect3DSwapChain9 interface, GetPresentParameters,IDirect3DSwapChain9.GetPresentParameters, IDirect3DSwapChain9, IDirect3DSwapChain9 interface [Direct3D 9], GetPresentParameters method, IDirect3DSwapChain9::GetPresentParameters, ac85b9e4-b5da-4efa-cb76-254ef41c07cb, d3d9helper/IDirect3DSwapChain9::GetPresentParameters, direct3d9.idirect3dswapchain9__getpresentparameters
+ms.keywords: GetPresentParameters, GetPresentParameters method [Direct3D 9], GetPresentParameters method [Direct3D 9],IDirect3DSwapChain9 interface, IDirect3DSwapChain9 interface [Direct3D 9],GetPresentParameters method, IDirect3DSwapChain9.GetPresentParameters, IDirect3DSwapChain9::GetPresentParameters, ac85b9e4-b5da-4efa-cb76-254ef41c07cb, d3d9helper/IDirect3DSwapChain9::GetPresentParameters, direct3d9.idirect3dswapchain9__getpresentparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirect3DSwapChain9::GetPresentParameters method
+# IDirect3DSwapChain9::GetPresentParameters
 
 
 ## -description

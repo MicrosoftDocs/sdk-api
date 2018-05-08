@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogAudioComponentType.put_AnalogAudioMode
-title: IAnalogAudioComponentType::put_AnalogAudioMode method
+title: IAnalogAudioComponentType::put_AnalogAudioMode
 author: windows-driver-content
 description: The put_AnalogAudioMode method specifies the analog audio mode.
 old-location: mstv\ianalogaudiocomponenttype_put_analogaudiomode.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cb3c4db6-8364-4c95-82d5-62276f26c7bb
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAnalogAudioComponentType, IAnalogAudioComponentType interface [Microsoft TV Technologies], put_AnalogAudioMode method, IAnalogAudioComponentType::put_AnalogAudioMode, IAnalogAudioComponentTypeput_AnalogAudioMode, mstv.ianalogaudiocomponenttype_put_analogaudiomode, put_AnalogAudioMode method [Microsoft TV Technologies], put_AnalogAudioMode method [Microsoft TV Technologies], IAnalogAudioComponentType interface, put_AnalogAudioMode,IAnalogAudioComponentType.put_AnalogAudioMode, tuner/IAnalogAudioComponentType::put_AnalogAudioMode
+ms.keywords: IAnalogAudioComponentType interface [Microsoft TV Technologies],put_AnalogAudioMode method, IAnalogAudioComponentType.put_AnalogAudioMode, IAnalogAudioComponentType::put_AnalogAudioMode, IAnalogAudioComponentTypeput_AnalogAudioMode, mstv.ianalogaudiocomponenttype_put_analogaudiomode, put_AnalogAudioMode, put_AnalogAudioMode method [Microsoft TV Technologies], put_AnalogAudioMode method [Microsoft TV Technologies],IAnalogAudioComponentType interface, tuner/IAnalogAudioComponentType::put_AnalogAudioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnalogAudioComponentType::put_AnalogAudioMode method
+# IAnalogAudioComponentType::put_AnalogAudioMode
 
 
 ## -description

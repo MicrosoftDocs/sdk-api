@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 65356507-51d1-479d-8e93-7e18ec041ce3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITDirectoryObjectUser, ITDirectoryObjectUser interface [TAPI 2.2], ITDirectoryObjectUser interface [TAPI 2.2], described, _tapi3_itdirectoryobjectuser, rend/ITDirectoryObjectUser, tapi3.itdirectoryobjectuser
+ms.keywords: ITDirectoryObjectUser, ITDirectoryObjectUser interface [TAPI 2.2], ITDirectoryObjectUser interface [TAPI 2.2],described, _tapi3_itdirectoryobjectuser, rend/ITDirectoryObjectUser, tapi3.itdirectoryobjectuser
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

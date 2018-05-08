@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetUserProvidedClock
-title: IWMReaderAdvanced::SetUserProvidedClock method
+title: IWMReaderAdvanced::SetUserProvidedClock
 author: windows-driver-content
 description: The SetUserProvidedClock method specifies whether a clock provided by the application is to be used.
 old-location: wmformat\iwmreaderadvanced_setuserprovidedclock.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 1f29beea-1da4-41e0-a68d-93af3b1f55ed
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMReaderAdvanced, IWMReaderAdvanced interface [windows Media Format], SetUserProvidedClock method, IWMReaderAdvanced::SetUserProvidedClock, IWMReaderAdvancedSetUserProvidedClock, SetUserProvidedClock method [windows Media Format], SetUserProvidedClock method [windows Media Format], IWMReaderAdvanced interface, SetUserProvidedClock,IWMReaderAdvanced.SetUserProvidedClock, wmformat.iwmreaderadvanced_setuserprovidedclock, wmsdkidl/IWMReaderAdvanced::SetUserProvidedClock
+ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetUserProvidedClock method, IWMReaderAdvanced.SetUserProvidedClock, IWMReaderAdvanced::SetUserProvidedClock, IWMReaderAdvancedSetUserProvidedClock, SetUserProvidedClock, SetUserProvidedClock method [windows Media Format], SetUserProvidedClock method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setuserprovidedclock, wmsdkidl/IWMReaderAdvanced::SetUserProvidedClock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMReaderAdvanced::SetUserProvidedClock method
+# IWMReaderAdvanced::SetUserProvidedClock
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFELanguage.Open
-title: IFELanguage::Open method
+title: IFELanguage::Open
 author: windows-driver-content
 description: Initializes the IFELanguage object.
 old-location: intl\ifelanguage_open.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: 2E1CEC6B-B0EA-4DBE-A122-D44606B467CC
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFELanguage, IFELanguage interface [Internationalization for Windows Applications], Open method, IFELanguage::Open, Open method [Internationalization for Windows Applications], Open method [Internationalization for Windows Applications], IFELanguage interface, Open,IFELanguage.Open, intl.ifelanguage_open, msime/IFELanguage::Open
+ms.keywords: IFELanguage interface [Internationalization for Windows Applications],Open method, IFELanguage.Open, IFELanguage::Open, Open, Open method [Internationalization for Windows Applications], Open method [Internationalization for Windows Applications],IFELanguage interface, intl.ifelanguage_open, msime/IFELanguage::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFELanguage::Open method
+# IFELanguage::Open
 
 
 ## -description

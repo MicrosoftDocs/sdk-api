@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# LSA_GET_USER_AUTH_DATA callback
+# LSA_GET_USER_AUTH_DATA callback function
 
 
 ## -description

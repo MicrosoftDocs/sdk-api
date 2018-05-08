@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategory.get_Name
-title: ICategory::get_Name method
+title: ICategory::get_Name
 author: windows-driver-content
 description: Gets the localized name of the category.
 old-location: wua\icategory_name.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: d0975b3f-88b4-4f20-ae1d-e76a8bb23fa1
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: ICategory, ICategory interface [Windows Update Agent], Name property, ICategory.Name, ICategory::get_Name, Name property [Windows Update Agent], Name property [Windows Update Agent], ICategory interface, get_Name,ICategory.get_Name, wua.icategory_name, wuapi/ICategory::Name, wuapi/ICategory::get_Name
+ms.keywords: ICategory interface [Windows Update Agent],Name property, ICategory.Name, ICategory.get_Name, ICategory::Name, ICategory::get_Name, Name property [Windows Update Agent], Name property [Windows Update Agent],ICategory interface, get_Name, wua.icategory_name, wuapi/ICategory::Name, wuapi/ICategory::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ICategory::get_Name method
+# ICategory::get_Name
 
 
 ## -description

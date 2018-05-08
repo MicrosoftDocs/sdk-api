@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFClockStateSink.OnClockPause
-title: IMFClockStateSink::OnClockPause method
+title: IMFClockStateSink::OnClockPause
 author: windows-driver-content
 description: Called when the presentation clock pauses.
 old-location: mf\imfclockstatesink_onclockpause.htm
 old-project: medfound
 ms.assetid: d4eb1ddf-2eea-48e2-946a-4ea20be8cc8f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFClockStateSink, IMFClockStateSink interface [Media Foundation], OnClockPause method, IMFClockStateSink::OnClockPause, OnClockPause method [Media Foundation], OnClockPause method [Media Foundation], IMFClockStateSink interface, OnClockPause,IMFClockStateSink.OnClockPause, d4eb1ddf-2eea-48e2-946a-4ea20be8cc8f, mf.imfclockstatesink_onclockpause, mfidl/IMFClockStateSink::OnClockPause
+ms.date: 5/3/2018
+ms.keywords: IMFClockStateSink interface [Media Foundation],OnClockPause method, IMFClockStateSink.OnClockPause, IMFClockStateSink::OnClockPause, OnClockPause, OnClockPause method [Media Foundation], OnClockPause method [Media Foundation],IMFClockStateSink interface, d4eb1ddf-2eea-48e2-946a-4ea20be8cc8f, mf.imfclockstatesink_onclockpause, mfidl/IMFClockStateSink::OnClockPause
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFClockStateSink::OnClockPause method
+# IMFClockStateSink::OnClockPause
 
 
 ## -description

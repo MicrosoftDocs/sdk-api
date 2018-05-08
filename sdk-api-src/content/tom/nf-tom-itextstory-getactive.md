@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextStory.GetActive
-title: ITextStory::GetActive method
+title: ITextStory::GetActive
 author: windows-driver-content
 description: Sets the active state of a story.
 old-location: controls\itextstory_getactive.htm
 old-project: Controls
 ms.assetid: 7bae9458-ee68-486a-a37f-2cc899400882
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetActive method [Windows Controls], GetActive method [Windows Controls], ITextStory interface, GetActive,ITextStory.GetActive, ITextStory, ITextStory interface [Windows Controls], GetActive method, ITextStory::GetActive, controls.itextstory_getactive, tom/ITextStory::GetActive, tomDisplayActive, tomDisplayUIActive, tomInactive, tomUIActive
+ms.date: 4/27/2018
+ms.keywords: GetActive, GetActive method [Windows Controls], GetActive method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetActive method, ITextStory.GetActive, ITextStory::GetActive, controls.itextstory_getactive, tom/ITextStory::GetActive, tomDisplayActive, tomDisplayUIActive, tomInactive, tomUIActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStory::GetActive method
+# ITextStory::GetActive
 
 
 ## -description

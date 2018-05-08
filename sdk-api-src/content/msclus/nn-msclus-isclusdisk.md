@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: 6433d55f-f97a-4027-ba2a-7102b4cf33ae
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ClusDisk, ClusDisk object [Failover Cluster], ClusDisk object [Failover Cluster], described, ISClusDisk, _wolf_clusdisk_object, msclus/ClusDisk, mscs.clusdisk_object
+ms.keywords: ClusDisk, ClusDisk object [Failover Cluster], ClusDisk object [Failover Cluster],described, ISClusDisk, _wolf_clusdisk_object, msclus/ClusDisk, mscs.clusdisk_object
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

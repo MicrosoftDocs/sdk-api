@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_FollowDirectories
-title: ISearchRoot::put_FollowDirectories method
+title: ISearchRoot::put_FollowDirectories
 author: windows-driver-content
 description: Sets a BOOL value that indicates whether the search engine should follow subdirectories and hierarchical scopes for this search root.
 old-location: search\_search_ISearchRoot_put_FollowDirectories.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_followdirectories.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchRoot, ISearchRoot interface [search], put_FollowDirectories method, ISearchRoot::put_FollowDirectories, _search_ISearchRoot_put_FollowDirectories, put_FollowDirectories method [search], put_FollowDirectories method [search], ISearchRoot interface, put_FollowDirectories,ISearchRoot.put_FollowDirectories, search._search_ISearchRoot_put_FollowDirectories, searchapi/ISearchRoot::put_FollowDirectories
+ms.date: 5/4/2018
+ms.keywords: ISearchRoot interface [search],put_FollowDirectories method, ISearchRoot.put_FollowDirectories, ISearchRoot::put_FollowDirectories, _search_ISearchRoot_put_FollowDirectories, put_FollowDirectories, put_FollowDirectories method [search], put_FollowDirectories method [search],ISearchRoot interface, search._search_ISearchRoot_put_FollowDirectories, searchapi/ISearchRoot::put_FollowDirectories
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchRoot::put_FollowDirectories method
+# ISearchRoot::put_FollowDirectories
 
 
 ## -description

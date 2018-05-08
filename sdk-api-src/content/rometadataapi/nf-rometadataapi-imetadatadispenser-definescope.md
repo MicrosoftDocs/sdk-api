@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenser.DefineScope
-title: IMetaDataDispenser::DefineScope method
+title: IMetaDataDispenser::DefineScope
 author: windows-driver-content
 description: Creates a new area in memory in which you can create new metadata.
 old-location: winrt\imetadatadispenser_definescope.htm
 old-project: WinRT
 ms.assetid: 5b7a5e73-e7ef-427a-baa4-3f0defd566a3
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: DefineScope method [Windows Runtime], DefineScope method [Windows Runtime], IMetaDataDispenser interface, DefineScope,IMetaDataDispenser.DefineScope, IMetaDataDispenser, IMetaDataDispenser interface [Windows Runtime], DefineScope method, IMetaDataDispenser::DefineScope, rometadataapi/IMetaDataDispenser::DefineScope, winrt.imetadatadispenser_definescope
+ms.date: 5/4/2018
+ms.keywords: DefineScope, DefineScope method [Windows Runtime], DefineScope method [Windows Runtime],IMetaDataDispenser interface, IMetaDataDispenser interface [Windows Runtime],DefineScope method, IMetaDataDispenser.DefineScope, IMetaDataDispenser::DefineScope, rometadataapi/IMetaDataDispenser::DefineScope, winrt.imetadatadispenser_definescope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataDispenser::DefineScope method
+# IMetaDataDispenser::DefineScope
 
 
 ## -description

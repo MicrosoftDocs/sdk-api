@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteEx.OnInPlaceActivateEx
-title: IOleInPlaceSiteEx::OnInPlaceActivateEx method
+title: IOleInPlaceSiteEx::OnInPlaceActivateEx
 author: windows-driver-content
 description: Called by the embedded object to determine whether it needs to redraw itself upon activation.
 old-location: com\ioleinplacesiteex_oninplaceactivateex.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 11c96c79-9884-4bac-828b-53ac4de65182
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleInPlaceSiteEx, IOleInPlaceSiteEx interface [COM], OnInPlaceActivateEx method, IOleInPlaceSiteEx::OnInPlaceActivateEx, OnInPlaceActivateEx method [COM], OnInPlaceActivateEx method [COM], IOleInPlaceSiteEx interface, OnInPlaceActivateEx,IOleInPlaceSiteEx.OnInPlaceActivateEx, _ole_ioleinplacesiteex_oninplaceactivateex, com.ioleinplacesiteex_oninplaceactivateex, ocidl/IOleInPlaceSiteEx::OnInPlaceActivateEx
+ms.keywords: IOleInPlaceSiteEx interface [COM],OnInPlaceActivateEx method, IOleInPlaceSiteEx.OnInPlaceActivateEx, IOleInPlaceSiteEx::OnInPlaceActivateEx, OnInPlaceActivateEx, OnInPlaceActivateEx method [COM], OnInPlaceActivateEx method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_oninplaceactivateex, com.ioleinplacesiteex_oninplaceactivateex, ocidl/IOleInPlaceSiteEx::OnInPlaceActivateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleInPlaceSiteEx::OnInPlaceActivateEx method
+# IOleInPlaceSiteEx::OnInPlaceActivateEx
 
 
 ## -description

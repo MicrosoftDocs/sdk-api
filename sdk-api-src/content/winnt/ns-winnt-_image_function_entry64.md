@@ -73,11 +73,16 @@ The image address of the end of the function.
  
 
 
-
-
-#### - EndOfPrologue
+### -field DUMMYUNIONNAME.EndOfPrologue
 
 The image address of the end of the prologue code.
+
+
+### -field DUMMYUNIONNAME.UnwindInfoAddress
+
+ 
+
+
 
 
 ## -remarks

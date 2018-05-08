@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfClientId.GetClientId
-title: ITfClientId::GetClientId method
+title: ITfClientId::GetClientId
 author: windows-driver-content
 description: ITfClientId::GetClientId method
 old-location: tsf\itfclientid_getclientid.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 422cff3c-1be5-4b86-bc64-cded6ab64da4
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetClientId method [Text Services Framework], GetClientId method [Text Services Framework], ITfClientId interface, GetClientId,ITfClientId.GetClientId, ITfClientId, ITfClientId interface [Text Services Framework], GetClientId method, ITfClientId::GetClientId, _tsf_itfclientid_getclientid_ref, msctf/ITfClientId::GetClientId, tsf.itfclientid_getclientid
+ms.keywords: GetClientId, GetClientId method [Text Services Framework], GetClientId method [Text Services Framework],ITfClientId interface, ITfClientId interface [Text Services Framework],GetClientId method, ITfClientId.GetClientId, ITfClientId::GetClientId, _tsf_itfclientid_getclientid_ref, msctf/ITfClientId::GetClientId, tsf.itfclientid_getclientid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfClientId::GetClientId method
+# ITfClientId::GetClientId
 
 
 ## -description

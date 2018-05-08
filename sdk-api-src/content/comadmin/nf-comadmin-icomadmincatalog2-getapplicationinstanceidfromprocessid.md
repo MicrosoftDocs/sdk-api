@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.GetApplicationInstanceIDFromProcessID
-title: ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID method
+title: ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID
 author: windows-driver-content
 description: Retrieives the application instance identifier for the specified process identifier.
 old-location: cos\icomadmincatalog2_getapplicationinstanceidfromprocessid.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: a09569af-11ec-406a-a51c-72b81b84fe41
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetApplicationInstanceIDFromProcessID method [COM+], GetApplicationInstanceIDFromProcessID method [COM+], ICOMAdminCatalog2 interface, GetApplicationInstanceIDFromProcessID,ICOMAdminCatalog2.GetApplicationInstanceIDFromProcessID, ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], GetApplicationInstanceIDFromProcessID method, ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID, _cos_icomadmincatalog2_GetApplicationInstanceIDFromProcessID, comadmin/ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID, cos.icomadmincatalog2_getapplicationinstanceidfromprocessid
+ms.keywords: GetApplicationInstanceIDFromProcessID, GetApplicationInstanceIDFromProcessID method [COM+], GetApplicationInstanceIDFromProcessID method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetApplicationInstanceIDFromProcessID method, ICOMAdminCatalog2.GetApplicationInstanceIDFromProcessID, ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID, _cos_icomadmincatalog2_GetApplicationInstanceIDFromProcessID, comadmin/ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID, cos.icomadmincatalog2_getapplicationinstanceidfromprocessid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID method
+# ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID
 
 
 ## -description

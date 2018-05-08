@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.SetElementTimes
-title: IStorage::SetElementTimes method
+title: IStorage::SetElementTimes
 author: windows-driver-content
 description: The SetElementTimes method sets the modification, access, and creation times of the specified storage element, if the underlying file system supports this method.
 old-location: stg\istorage_setelementtimes.htm
@@ -8,7 +8,7 @@ old-project: Stg
 ms.assetid: f6a1fba4-0444-4de3-a838-2d339878fe24
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IStorage, IStorage interface [Structured Storage], SetElementTimes method, IStorage::SetElementTimes, SetElementTimes method [Structured Storage], SetElementTimes method [Structured Storage], IStorage interface, SetElementTimes,IStorage.SetElementTimes, _stg_istorage_setelementtimes, objidl/IStorage::SetElementTimes, stg.istorage_setelementtimes
+ms.keywords: IStorage interface [Structured Storage],SetElementTimes method, IStorage.SetElementTimes, IStorage::SetElementTimes, SetElementTimes, SetElementTimes method [Structured Storage], SetElementTimes method [Structured Storage],IStorage interface, _stg_istorage_setelementtimes, objidl/IStorage::SetElementTimes, stg.istorage_setelementtimes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStorage::SetElementTimes method
+# IStorage::SetElementTimes
 
 
 ## -description

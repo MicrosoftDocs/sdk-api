@@ -7,8 +7,8 @@ old-location: security\icertview2.htm
 old-project: SecCrypto
 ms.assetid: c29f1db3-0cdf-463e-a202-47fbba8e1c81
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: ICertView2, ICertView2 interface [Security], ICertView2 interface [Security], described, _certsrv_icertview2, certview/ICertView2, security.icertview2
+ms.date: 4/30/2018
+ms.keywords: ICertView2, ICertView2 interface [Security], ICertView2 interface [Security],described, _certsrv_icertview2, certview/ICertView2, security.icertview2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

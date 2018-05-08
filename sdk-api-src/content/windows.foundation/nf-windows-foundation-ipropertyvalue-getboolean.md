@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetBoolean
-title: IPropertyValue::GetBoolean method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the 8-bit Boolean value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getboolean.htm
 old-project: WinRT
 ms.assetid: 5877E4BD-5712-4426-A31F-079E16ED0B4A
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetBoolean method [Windows Runtime], GetBoolean method [Windows Runtime], IPropertyValue interface, GetBoolean,IPropertyValue.GetBoolean, IPropertyValue, IPropertyValue interface [Windows Runtime], GetBoolean method, IPropertyValue::GetBoolean, windows/IPropertyValue::GetBoolean, winrt.ipropertyvalue_getboolean
+ms.date: 5/4/2018
+ms.keywords: GetBoolean, GetBoolean method [Windows Runtime], GetBoolean method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetBoolean method, IPropertyValue.GetBoolean, IPropertyValue.IPropertyValue, IPropertyValue::GetBoolean, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetBoolean, winrt.ipropertyvalue_getboolean
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetBoolean method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

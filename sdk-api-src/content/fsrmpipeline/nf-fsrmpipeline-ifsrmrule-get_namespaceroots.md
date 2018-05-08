@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.get_NamespaceRoots
-title: IFsrmRule::get_NamespaceRoots method
+title: IFsrmRule::get_NamespaceRoots
 author: windows-driver-content
 description: An array of directory paths that the rule is applied to when classification is run.
 old-location: fsrm\ifsrmrule_namespaceroots.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: 938ae036-fcc7-41d1-bbac-8f22b8b6333e
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmRule, IFsrmRule interface [File Server Resource Manager], NamespaceRoots property, IFsrmRule.NamespaceRoots, IFsrmRule::get_NamespaceRoots, IFsrmRule::put_NamespaceRoots, NamespaceRoots property [File Server Resource Manager], NamespaceRoots property [File Server Resource Manager], IFsrmRule interface, fs.ifsrmrule_namespaceroots, fsrm.ifsrmrule_namespaceroots, fsrmpipeline/IFsrmRule::NamespaceRoots, fsrmpipeline/IFsrmRule::get_NamespaceRoots, fsrmpipeline/IFsrmRule::put_NamespaceRoots, get_NamespaceRoots,IFsrmRule.get_NamespaceRoots
+ms.keywords: IFsrmRule interface [File Server Resource Manager],NamespaceRoots property, IFsrmRule.NamespaceRoots, IFsrmRule.get_NamespaceRoots, IFsrmRule::NamespaceRoots, IFsrmRule::get_NamespaceRoots, IFsrmRule::put_NamespaceRoots, NamespaceRoots property [File Server Resource Manager], NamespaceRoots property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_namespaceroots, fsrm.ifsrmrule_namespaceroots, fsrmpipeline/IFsrmRule::NamespaceRoots, fsrmpipeline/IFsrmRule::get_NamespaceRoots, fsrmpipeline/IFsrmRule::put_NamespaceRoots, get_NamespaceRoots
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmRule::get_NamespaceRoots method
+# IFsrmRule::get_NamespaceRoots
 
 
 ## -description

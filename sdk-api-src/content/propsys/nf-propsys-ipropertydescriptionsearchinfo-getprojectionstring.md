@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.IPropertyDescriptionSearchInfo.GetProjectionString
-title: IPropertyDescriptionSearchInfo::GetProjectionString method
+title: IPropertyDescriptionSearchInfo::GetProjectionString
 author: windows-driver-content
 description: Returns a pointer to a string containing the canonical name of the item.
 old-location: properties\IPropertyDescriptionSearchInfo_GetProjectionString.htm
 old-project: properties
 ms.assetid: 06881c29-fafb-47be-abdb-906e289ee5fc
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetProjectionString method [Windows Properties], GetProjectionString method [Windows Properties], IPropertyDescriptionSearchInfo interface, GetProjectionString,IPropertyDescriptionSearchInfo.GetProjectionString, IPropertyDescriptionSearchInfo, IPropertyDescriptionSearchInfo interface [Windows Properties], GetProjectionString method, IPropertyDescriptionSearchInfo::GetProjectionString, _shell_IPropertyDescriptionSearchInfo_GetProjectionString, properties.IPropertyDescriptionSearchInfo_GetProjectionString, propsys/IPropertyDescriptionSearchInfo::GetProjectionString, shell.IPropertyDescriptionSearchInfo_GetProjectionString
+ms.date: 4/27/2018
+ms.keywords: GetProjectionString, GetProjectionString method [Windows Properties], GetProjectionString method [Windows Properties],IPropertyDescriptionSearchInfo interface, IPropertyDescriptionSearchInfo interface [Windows Properties],GetProjectionString method, IPropertyDescriptionSearchInfo.GetProjectionString, IPropertyDescriptionSearchInfo::GetProjectionString, _shell_IPropertyDescriptionSearchInfo_GetProjectionString, properties.IPropertyDescriptionSearchInfo_GetProjectionString, propsys/IPropertyDescriptionSearchInfo::GetProjectionString, shell.IPropertyDescriptionSearchInfo_GetProjectionString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPropertyDescriptionSearchInfo::GetProjectionString method
+# IPropertyDescriptionSearchInfo::GetProjectionString
 
 
 ## -description

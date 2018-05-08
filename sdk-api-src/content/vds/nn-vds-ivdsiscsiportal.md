@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: 1f3131a6-01ab-41e5-9e2f-6ffcdcd0e3a6
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsIscsiPortal, IVdsIscsiPortal interface [VDS], IVdsIscsiPortal interface [VDS], described, base.ivdsiscsiportal, vds/IVdsIscsiPortal, vdshwprv/IVdsIscsiPortal
+ms.keywords: IVdsIscsiPortal, IVdsIscsiPortal interface [VDS], IVdsIscsiPortal interface [VDS],described, base.ivdsiscsiportal, vds/IVdsIscsiPortal, vdshwprv/IVdsIscsiPortal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

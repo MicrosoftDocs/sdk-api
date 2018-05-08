@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.RemoveValue
-title: IWICMetadataWriter::RemoveValue method
+title: IWICMetadataWriter::RemoveValue
 author: windows-driver-content
 description: Removes the metadata item that matches the given parameters.
 old-location: wic\_wic_codec_iwicmetadatawriter_removevalue.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: cc47b0d1-5772-4609-9696-816d39d04b34
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICMetadataWriter, IWICMetadataWriter interface [Windows Imaging Component], RemoveValue method, IWICMetadataWriter::RemoveValue, RemoveValue method [Windows Imaging Component], RemoveValue method [Windows Imaging Component], IWICMetadataWriter interface, RemoveValue,IWICMetadataWriter.RemoveValue, _wic_codec_iwicmetadatawriter_removevalue, wic._wic_codec_iwicmetadatawriter_removevalue, wincodecsdk/IWICMetadataWriter::RemoveValue
+ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],RemoveValue method, IWICMetadataWriter.RemoveValue, IWICMetadataWriter::RemoveValue, RemoveValue, RemoveValue method [Windows Imaging Component], RemoveValue method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_removevalue, wic._wic_codec_iwicmetadatawriter_removevalue, wincodecsdk/IWICMetadataWriter::RemoveValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataWriter::RemoveValue method
+# IWICMetadataWriter::RemoveValue
 
 
 ## -description

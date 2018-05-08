@@ -207,6 +207,16 @@ The <b>DFS_PROPERTY_FLAG_ABDE</b> flag is valid only on the DFS namespace root a
  
 
 
+### -field pSecurityDescriptor.size_is
+
+ 
+
+
+### -field pSecurityDescriptor.size_is.SecurityDescriptorLength
+
+ 
+
+
 ### -field SdLengthReserved
 
 This member is reserved for system use.

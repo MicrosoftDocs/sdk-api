@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetOpacityMaskBrushLocal
-title: IXpsOMVisual::GetOpacityMaskBrushLocal method
+title: IXpsOMVisual::GetOpacityMaskBrushLocal
 author: windows-driver-content
 description: Gets the local, unshared opacity mask brush for the visual.
 old-location: xps\ixpsomvisual_getopacitymaskbrushlocal.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 654dc003-25a6-4186-9c3b-7fe6f82b5481
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetOpacityMaskBrushLocal method [XPS Documents and Packaging], GetOpacityMaskBrushLocal method [XPS Documents and Packaging], IXpsOMVisual interface, GetOpacityMaskBrushLocal,IXpsOMVisual.GetOpacityMaskBrushLocal, IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], GetOpacityMaskBrushLocal method, IXpsOMVisual::GetOpacityMaskBrushLocal, xps.ixpsomvisual_getopacitymaskbrushlocal, xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrushLocal
+ms.keywords: GetOpacityMaskBrushLocal, GetOpacityMaskBrushLocal method [XPS Documents and Packaging], GetOpacityMaskBrushLocal method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacityMaskBrushLocal method, IXpsOMVisual.GetOpacityMaskBrushLocal, IXpsOMVisual::GetOpacityMaskBrushLocal, xps.ixpsomvisual_getopacitymaskbrushlocal, xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrushLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMVisual::GetOpacityMaskBrushLocal method
+# IXpsOMVisual::GetOpacityMaskBrushLocal
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_DisableConsumerDvdCompatibilityMode
-title: IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode method
+title: IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode
 author: windows-driver-content
 description: Determines if a DVD recording session includes tasks that can increase the chance that a device can play the DVD.
 old-location: imapi\idiscformat2data_get_disableconsumerdvdcompatibilitymode.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: dc88f657-0ec1-488d-8110-055de06c2d58
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], get_DisableConsumerDvdCompatibilityMode method, IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode, get_DisableConsumerDvdCompatibilityMode method [IMAPI], get_DisableConsumerDvdCompatibilityMode method [IMAPI], IDiscFormat2Data interface, get_DisableConsumerDvdCompatibilityMode,IDiscFormat2Data.get_DisableConsumerDvdCompatibilityMode, imapi.idiscformat2data_get_disableconsumerdvdcompatibilitymode, imapi2/IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode
+ms.keywords: IDiscFormat2Data interface [IMAPI],get_DisableConsumerDvdCompatibilityMode method, IDiscFormat2Data.get_DisableConsumerDvdCompatibilityMode, IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode, get_DisableConsumerDvdCompatibilityMode, get_DisableConsumerDvdCompatibilityMode method [IMAPI], get_DisableConsumerDvdCompatibilityMode method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_disableconsumerdvdcompatibilitymode, imapi2/IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode method
+# IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode
 
 
 ## -description

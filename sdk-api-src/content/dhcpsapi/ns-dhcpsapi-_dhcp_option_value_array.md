@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_option_value_array.htm
 old-project: DHCP
 ms.assetid: c68b9543-0d7a-46ab-babd-3868c1338d67
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDHCP_OPTION_VALUE_ARRAY, DHCP_OPTION_VALUE_ARRAY, DHCP_OPTION_VALUE_ARRAY structure [DHCP], LPDHCP_OPTION_VALUE_ARRAY, LPDHCP_OPTION_VALUE_ARRAY structure pointer [DHCP], _DHCP_OPTION_VALUE_ARRAY, dhcp.dhcp_option_value_array, dhcpsapi/LPDHCP_OPTION_VALUE_ARRAY, dhcpsapi/_DHCP_OPTION_VALUE_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,4 +65,16 @@ Specifies the number of option values listed in <b>Values</b>.
 ### -field Values
 
 Pointer to a list of <a href="https://msdn.microsoft.com/6a11cb60-2690-45d4-a5e6-a3ebdc1efe3d">DHCP_OPTION_VALUE</a> structures containing DHCP  option values.
+
+
+### -field Values.size_is
+
+ 
+
+
+### -field Values.size_is.NumElements
+
+ 
+
+
 

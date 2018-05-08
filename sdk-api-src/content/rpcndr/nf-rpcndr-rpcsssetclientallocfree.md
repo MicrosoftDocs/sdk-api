@@ -7,7 +7,7 @@ old-location: rpc\rpcsssetclientallocfree.htm
 old-project: Rpc
 ms.assetid: a63dab9e-0644-4a24-9762-8cc8a4f6ea05
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcSsSetClientAllocFree, RpcSsSetClientAllocFree function [RPC], _rpc_rpcsssetclientallocfree, rpc.rpcsssetclientallocfree, rpcndr/RpcSsSetClientAllocFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

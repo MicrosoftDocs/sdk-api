@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.CreateDocumentMgr
-title: ITfThreadMgr2::CreateDocumentMgr method
+title: ITfThreadMgr2::CreateDocumentMgr
 author: windows-driver-content
 description: Creates a document manager object.
 old-location: tsf\itfthreadmgr2_createdocumentmgr.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 4B19EA80-9F42-4FFF-AB3D-4D0B5B2174F8
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: CreateDocumentMgr method [Text Services Framework], CreateDocumentMgr method [Text Services Framework], ITfThreadMgr2 interface, CreateDocumentMgr,ITfThreadMgr2.CreateDocumentMgr, ITfThreadMgr2, ITfThreadMgr2 interface [Text Services Framework], CreateDocumentMgr method, ITfThreadMgr2::CreateDocumentMgr, msctf/ITfThreadMgr2::CreateDocumentMgr, tsf.itfthreadmgr2_createdocumentmgr
+ms.keywords: CreateDocumentMgr, CreateDocumentMgr method [Text Services Framework], CreateDocumentMgr method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],CreateDocumentMgr method, ITfThreadMgr2.CreateDocumentMgr, ITfThreadMgr2::CreateDocumentMgr, msctf/ITfThreadMgr2::CreateDocumentMgr, tsf.itfthreadmgr2_createdocumentmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgr2::CreateDocumentMgr method
+# ITfThreadMgr2::CreateDocumentMgr
 
 
 ## -description

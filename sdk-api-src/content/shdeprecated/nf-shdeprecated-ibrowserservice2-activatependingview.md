@@ -1,14 +1,14 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.ActivatePendingView
-title: IBrowserService2::ActivatePendingView method
+title: IBrowserService2::ActivatePendingView
 author: windows-driver-content
 description: Deprecated. Coordinates state updating while the browser is switching between a current and a pending view.
 old-location: shell\IBrowserService2_ActivatePendingView.htm
 old-project: shell
 ms.assetid: 833acb3f-4c33-4b46-8759-3c08698cd245
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ActivatePendingView method [Windows Shell], ActivatePendingView method [Windows Shell], IBrowserService2 interface, ActivatePendingView,IBrowserService2.ActivatePendingView, IBrowserService2, IBrowserService2 interface [Windows Shell], ActivatePendingView method, IBrowserService2::ActivatePendingView, shdeprecated/IBrowserService2::ActivatePendingView, shell.IBrowserService2_ActivatePendingView, zone_IBrowserService2_ActivatePendingView
+ms.date: 5/3/2018
+ms.keywords: ActivatePendingView, ActivatePendingView method [Windows Shell], ActivatePendingView method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],ActivatePendingView method, IBrowserService2.ActivatePendingView, IBrowserService2::ActivatePendingView, shdeprecated/IBrowserService2::ActivatePendingView, shell.IBrowserService2_ActivatePendingView, zone_IBrowserService2_ActivatePendingView
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# IBrowserService2::ActivatePendingView method
+# IBrowserService2::ActivatePendingView
 
 
 ## -description

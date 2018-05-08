@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 8e1ad860-7288-4600-8e88-59d5b1c86694
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationSynchronizedInputPattern, IUIAutomationSynchronizedInputPattern interface [Windows Accessibility], IUIAutomationSynchronizedInputPattern interface [Windows Accessibility], described, uiauto.uiauto_IUIAutomationSynchronizedInputPattern, uiauto_IUIAutomationSynchronizedInputPattern, uiautomationclient/IUIAutomationSynchronizedInputPattern, winauto.uiauto_IUIAutomationSynchronizedInputPattern
+ms.keywords: IUIAutomationSynchronizedInputPattern, IUIAutomationSynchronizedInputPattern interface [Windows Accessibility], IUIAutomationSynchronizedInputPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationSynchronizedInputPattern, uiauto_IUIAutomationSynchronizedInputPattern, uiautomationclient/IUIAutomationSynchronizedInputPattern, winauto.uiauto_IUIAutomationSynchronizedInputPattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

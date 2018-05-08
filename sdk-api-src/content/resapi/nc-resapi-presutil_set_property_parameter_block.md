@@ -8,7 +8,7 @@ old-project: MsCS
 ms.assetid: a8d4162b-fe4e-4915-8102-744d964a6c83
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK, PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK callback function [Failover Cluster], _wolf_resutilsetpropertyparameterblock, mscs.resutilsetpropertyparameterblock, resapi/PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK
+ms.keywords: PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK, PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK callback, PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK callback function [Failover Cluster], _wolf_resutilsetpropertyparameterblock, mscs.resutilsetpropertyparameterblock, resapi/PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK callback
+# PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK callback function
 
 
 ## -description

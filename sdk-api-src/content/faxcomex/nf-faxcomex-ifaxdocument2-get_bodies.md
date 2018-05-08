@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument2.get_Bodies
-title: IFaxDocument2::get_Bodies method
+title: IFaxDocument2::get_Bodies
 author: windows-driver-content
 description: Provides a collection of one or more documents to the fax document.
 old-location: fax\_mfax_faxdocument2_bodies_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\bodies.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: Bodies property [Fax Service], Bodies property [Fax Service], FaxDocument object, FaxDocument object [Fax Service], Bodies property, IFaxDocument2, IFaxDocument2::get_Bodies, _mfax_faxdocument2.bodies, fax._mfax_faxdocument2_bodies, fax._mfax_faxdocument2_bodies_vb, get_Bodies,IFaxDocument2.get_Bodies
+ms.keywords: Bodies property [Fax Service], Bodies property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],Bodies property, FaxDocument.Bodies, IFaxDocument2.get_Bodies, IFaxDocument2::get_Bodies, _mfax_faxdocument2.bodies, fax._mfax_faxdocument2_bodies, fax._mfax_faxdocument2_bodies_vb, get_Bodies
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxDocument2::get_Bodies method
+# IFaxDocument2::get_Bodies
 
 
 ## -description

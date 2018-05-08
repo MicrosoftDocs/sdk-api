@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtstatsvectorfree.htm
 old-project: Rpc
 ms.assetid: 0dc98053-8599-4884-a56a-5889a4480dcb
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/1/2018
 ms.keywords: RpcMgmtStatsVectorFree, RpcMgmtStatsVectorFree function [RPC], _rpc_rpcmgmtstatsvectorfree, rpc.rpcmgmtstatsvectorfree, rpcdce/RpcMgmtStatsVectorFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

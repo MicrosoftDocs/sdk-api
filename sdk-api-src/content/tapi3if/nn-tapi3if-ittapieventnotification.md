@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 06cfe56c-907f-49ed-8a7a-db31383a06f9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: ITTAPIEventNotification, ITTAPIEventNotification interface [TAPI 2.2], ITTAPIEventNotification interface [TAPI 2.2], described, _tapi3_ittapieventnotification, tapi3.ittapieventnotification, tapi3if/ITTAPIEventNotification
+ms.keywords: ITTAPIEventNotification, ITTAPIEventNotification interface [TAPI 2.2], ITTAPIEventNotification interface [TAPI 2.2],described, _tapi3_ittapieventnotification, tapi3.ittapieventnotification, tapi3if/ITTAPIEventNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

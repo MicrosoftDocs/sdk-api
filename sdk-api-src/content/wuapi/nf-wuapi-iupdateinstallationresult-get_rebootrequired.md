@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstallationResult.get_RebootRequired
-title: IUpdateInstallationResult::get_RebootRequired method
+title: IUpdateInstallationResult::get_RebootRequired
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether a system restart is required on a computer to complete the installation of an update.
 old-location: wua\iupdateinstallationresult_rebootrequired.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 8c4f7dd1-66f3-43b7-b084-55d64ca748c6
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdateInstallationResult, IUpdateInstallationResult interface [Windows Update Agent], RebootRequired property, IUpdateInstallationResult.RebootRequired, IUpdateInstallationResult::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent], IUpdateInstallationResult interface, get_RebootRequired,IUpdateInstallationResult.get_RebootRequired, wua.iupdateinstallationresult_rebootrequired, wuapi/IUpdateInstallationResult::RebootRequired, wuapi/IUpdateInstallationResult::get_RebootRequired
+ms.keywords: IUpdateInstallationResult interface [Windows Update Agent],RebootRequired property, IUpdateInstallationResult.RebootRequired, IUpdateInstallationResult.get_RebootRequired, IUpdateInstallationResult::RebootRequired, IUpdateInstallationResult::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IUpdateInstallationResult interface, get_RebootRequired, wua.iupdateinstallationresult_rebootrequired, wuapi/IUpdateInstallationResult::RebootRequired, wuapi/IUpdateInstallationResult::get_RebootRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdateInstallationResult::get_RebootRequired method
+# IUpdateInstallationResult::get_RebootRequired
 
 
 ## -description

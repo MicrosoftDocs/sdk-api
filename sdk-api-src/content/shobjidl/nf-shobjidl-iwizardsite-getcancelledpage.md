@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IWizardSite.GetCancelledPage
-title: IWizardSite::GetCancelledPage method
+title: IWizardSite::GetCancelledPage
 author: windows-driver-content
 description: Called when the user cancels navigation through the wizard extension. Gets the handle of the PROPSHEETPAGE that represents the wizard page to display when the user cancels navigation while in the wizard extension.
 old-location: shell\IWizardSite_GetCancelledPage.htm
 old-project: shell
 ms.assetid: 682f5624-5fec-4bc9-9455-150e8e951538
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCancelledPage method [Windows Shell], GetCancelledPage method [Windows Shell], IWizardSite interface, GetCancelledPage,IWizardSite.GetCancelledPage, IWizardSite, IWizardSite interface [Windows Shell], GetCancelledPage method, IWizardSite::GetCancelledPage, _shell_IWizardSite_GetCancelledPage, shell.IWizardSite_GetCancelledPage, shobjidl/IWizardSite::GetCancelledPage
+ms.date: 5/3/2018
+ms.keywords: GetCancelledPage, GetCancelledPage method [Windows Shell], GetCancelledPage method [Windows Shell],IWizardSite interface, IWizardSite interface [Windows Shell],GetCancelledPage method, IWizardSite.GetCancelledPage, IWizardSite::GetCancelledPage, _shell_IWizardSite_GetCancelledPage, shell.IWizardSite_GetCancelledPage, shobjidl/IWizardSite::GetCancelledPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IWizardSite::GetCancelledPage method
+# IWizardSite::GetCancelledPage
 
 
 ## -description

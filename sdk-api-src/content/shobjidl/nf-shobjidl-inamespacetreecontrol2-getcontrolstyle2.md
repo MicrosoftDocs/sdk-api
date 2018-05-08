@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControl2.GetControlStyle2
-title: INameSpaceTreeControl2::GetControlStyle2 method
+title: INameSpaceTreeControl2::GetControlStyle2
 author: windows-driver-content
 description: Gets the extended display styles set for the namespace object's treeview controls.
 old-location: shell\INameSpaceTreeControl2_GetControlStyle2.htm
 old-project: shell
 ms.assetid: 1c96d936-2a79-491b-8e1e-2dd0e71aba10
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetControlStyle2 method [Windows Shell], GetControlStyle2 method [Windows Shell], INameSpaceTreeControl2 interface, GetControlStyle2,INameSpaceTreeControl2.GetControlStyle2, INameSpaceTreeControl2, INameSpaceTreeControl2 interface [Windows Shell], GetControlStyle2 method, INameSpaceTreeControl2::GetControlStyle2, _shell_INameSpaceTreeControl2_GetControlStyle2, shell.INameSpaceTreeControl2_GetControlStyle2, shobjidl/INameSpaceTreeControl2::GetControlStyle2
+ms.date: 5/3/2018
+ms.keywords: GetControlStyle2, GetControlStyle2 method [Windows Shell], GetControlStyle2 method [Windows Shell],INameSpaceTreeControl2 interface, INameSpaceTreeControl2 interface [Windows Shell],GetControlStyle2 method, INameSpaceTreeControl2.GetControlStyle2, INameSpaceTreeControl2::GetControlStyle2, _shell_INameSpaceTreeControl2_GetControlStyle2, shell.INameSpaceTreeControl2_GetControlStyle2, shobjidl/INameSpaceTreeControl2::GetControlStyle2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# INameSpaceTreeControl2::GetControlStyle2 method
+# INameSpaceTreeControl2::GetControlStyle2
 
 
 ## -description

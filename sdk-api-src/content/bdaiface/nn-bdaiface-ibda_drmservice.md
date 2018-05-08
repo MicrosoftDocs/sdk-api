@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: bd06118c-ea1b-46e4-b499-67039430a52e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DRMService, IBDA_DRMService interface [Microsoft TV Technologies], IBDA_DRMService interface [Microsoft TV Technologies], described, bdaiface/IBDA_DRMService, mstv.ibda_drmservice
+ms.keywords: IBDA_DRMService, IBDA_DRMService interface [Microsoft TV Technologies], IBDA_DRMService interface [Microsoft TV Technologies],described, bdaiface/IBDA_DRMService, mstv.ibda_drmservice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

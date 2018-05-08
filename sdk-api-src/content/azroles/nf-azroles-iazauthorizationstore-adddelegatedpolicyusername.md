@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddDelegatedPolicyUserName
-title: IAzAuthorizationStore::AddDelegatedPolicyUserName method
+title: IAzAuthorizationStore::AddDelegatedPolicyUserName
 author: windows-driver-content
 description: Adds the specified account name to the list of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_adddelegatedpolicyusername.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 9eeb4670-a3be-46dd-83b4-4ab12a311fe3
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: AddDelegatedPolicyUserName method [Security], AddDelegatedPolicyUserName method [Security], AzAuthorizationStore object, AddDelegatedPolicyUserName method [Security], IAzAuthorizationStore interface, AddDelegatedPolicyUserName,IAzAuthorizationStore.AddDelegatedPolicyUserName, AzAuthorizationStore object [Security], AddDelegatedPolicyUserName method, IAzAuthorizationStore, IAzAuthorizationStore interface [Security], AddDelegatedPolicyUserName method, IAzAuthorizationStore::AddDelegatedPolicyUserName, azroles/IAzAuthorizationStore::AddDelegatedPolicyUserName, security.azauthorizationstore_adddelegatedpolicyusername
+ms.keywords: AddDelegatedPolicyUserName, AddDelegatedPolicyUserName method [Security], AddDelegatedPolicyUserName method [Security],AzAuthorizationStore object, AddDelegatedPolicyUserName method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddDelegatedPolicyUserName method, IAzAuthorizationStore interface [Security],AddDelegatedPolicyUserName method, IAzAuthorizationStore.AddDelegatedPolicyUserName, IAzAuthorizationStore::AddDelegatedPolicyUserName, azroles/IAzAuthorizationStore::AddDelegatedPolicyUserName, security.azauthorizationstore_adddelegatedpolicyusername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzAuthorizationStore::AddDelegatedPolicyUserName method
+# IAzAuthorizationStore::AddDelegatedPolicyUserName
 
 
 ## -description

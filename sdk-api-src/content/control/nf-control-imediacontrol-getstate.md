@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IMediaControl.GetState
-title: IMediaControl::GetState method
+title: IMediaControl::GetState
 author: windows-driver-content
 description: The GetState method retrieves the state of the filter graph&#8212;paused, running, or stopped.
 old-location: dshow\imediacontrol_getstate.htm
 old-project: DirectShow
 ms.assetid: 653a94ff-6929-41b1-9b94-dccaff0f7ec7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetState method [DirectShow], GetState method [DirectShow], IMediaControl interface, GetState,IMediaControl.GetState, IMediaControl, IMediaControl interface [DirectShow], GetState method, IMediaControl::GetState, IMediaControlGetState, control/IMediaControl::GetState, dshow.imediacontrol_getstate
+ms.date: 4/30/2018
+ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IMediaControl interface, IMediaControl interface [DirectShow],GetState method, IMediaControl.GetState, IMediaControl::GetState, IMediaControlGetState, control/IMediaControl::GetState, dshow.imediacontrol_getstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IMediaControl::GetState method
+# IMediaControl::GetState
 
 
 ## -description

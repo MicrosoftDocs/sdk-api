@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetFlags
-title: IMFSensorGroup::GetFlags method
+title: IMFSensorGroup::GetFlags
 author: windows-driver-content
 description: Gets the flags set for the sensor group.
 old-location: mf\imfsensorgroup_getflags.htm
 old-project: medfound
 ms.assetid: 99143CFD-930A-405C-A8FB-8DBF52CD9BB5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetFlags method [Media Foundation], GetFlags method [Media Foundation], IMFSensorGroup interface, GetFlags,IMFSensorGroup.GetFlags, IMFSensorGroup, IMFSensorGroup interface [Media Foundation], GetFlags method, IMFSensorGroup::GetFlags, mf.imfsensorgroup_getflags, mfidl/IMFSensorGroup::GetFlags
+ms.date: 5/3/2018
+ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetFlags method, IMFSensorGroup.GetFlags, IMFSensorGroup::GetFlags, mf.imfsensorgroup_getflags, mfidl/IMFSensorGroup::GetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFSensorGroup::GetFlags method
+# IMFSensorGroup::GetFlags
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmDerivedObjectsResult.get_Results
-title: IFsrmDerivedObjectsResult::get_Results method
+title: IFsrmDerivedObjectsResult::get_Results
 author: windows-driver-content
 description: Retrieves the HRESULT values that indicate the success or failure of the update for each derived object.
 old-location: fsrm\ifsrmderivedobjectsresult_results.htm
@@ -8,7 +8,7 @@ old-project: Fsrm
 ms.assetid: b5946160-565b-4c94-ba2e-18f270eb1af1
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IFsrmDerivedObjectsResult, IFsrmDerivedObjectsResult interface [File Server Resource Manager], Results property, IFsrmDerivedObjectsResult.Results, IFsrmDerivedObjectsResult::get_Results, Results property [File Server Resource Manager], Results property [File Server Resource Manager], IFsrmDerivedObjectsResult interface, fs.ifsrmderivedobjectsresult_results, fsrm.ifsrmderivedobjectsresult_results, fsrm/IFsrmDerivedObjectsResult::Results, fsrm/IFsrmDerivedObjectsResult::get_Results, get_Results,IFsrmDerivedObjectsResult.get_Results
+ms.keywords: IFsrmDerivedObjectsResult interface [File Server Resource Manager],Results property, IFsrmDerivedObjectsResult.Results, IFsrmDerivedObjectsResult.get_Results, IFsrmDerivedObjectsResult::Results, IFsrmDerivedObjectsResult::get_Results, Results property [File Server Resource Manager], Results property [File Server Resource Manager],IFsrmDerivedObjectsResult interface, fs.ifsrmderivedobjectsresult_results, fsrm.ifsrmderivedobjectsresult_results, fsrm/IFsrmDerivedObjectsResult::Results, fsrm/IFsrmDerivedObjectsResult::get_Results, get_Results
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFsrmDerivedObjectsResult::get_Results method
+# IFsrmDerivedObjectsResult::get_Results
 
 
 ## -description

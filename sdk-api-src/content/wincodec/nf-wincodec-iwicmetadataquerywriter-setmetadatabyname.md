@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryWriter.SetMetadataByName
-title: IWICMetadataQueryWriter::SetMetadataByName method
+title: IWICMetadataQueryWriter::SetMetadataByName
 author: windows-driver-content
 description: Sets a metadata item to a specific location.
 old-location: wic\_wic_codec_iwicmetadataquerywriter_setmetadatabyname.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: fd3a9752-f13f-4f19-b2bd-04b5df1e0dd2
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICMetadataQueryWriter, IWICMetadataQueryWriter interface [Windows Imaging Component], SetMetadataByName method, IWICMetadataQueryWriter::SetMetadataByName, SetMetadataByName method [Windows Imaging Component], SetMetadataByName method [Windows Imaging Component], IWICMetadataQueryWriter interface, SetMetadataByName,IWICMetadataQueryWriter.SetMetadataByName, _wic_codec_iwicmetadataquerywriter_setmetadatabyname, wic._wic_codec_iwicmetadataquerywriter_setmetadatabyname, wincodec/IWICMetadataQueryWriter::SetMetadataByName
+ms.keywords: IWICMetadataQueryWriter interface [Windows Imaging Component],SetMetadataByName method, IWICMetadataQueryWriter.SetMetadataByName, IWICMetadataQueryWriter::SetMetadataByName, SetMetadataByName, SetMetadataByName method [Windows Imaging Component], SetMetadataByName method [Windows Imaging Component],IWICMetadataQueryWriter interface, _wic_codec_iwicmetadataquerywriter_setmetadatabyname, wic._wic_codec_iwicmetadataquerywriter_setmetadatabyname, wincodec/IWICMetadataQueryWriter::SetMetadataByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICMetadataQueryWriter::SetMetadataByName method
+# IWICMetadataQueryWriter::SetMetadataByName
 
 
 ## -description

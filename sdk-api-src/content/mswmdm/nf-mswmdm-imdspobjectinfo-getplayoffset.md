@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObjectInfo.GetPlayOffset
-title: IMDSPObjectInfo::GetPlayOffset method
+title: IMDSPObjectInfo::GetPlayOffset
 author: windows-driver-content
 description: The GetPlayOffset method retrieves the play offset of the object, in units pertinent to the object. This is the starting point for the next invocation of IMDSPDeviceControl::Play.
 old-location: wmdm\imdspobjectinfo_getplayoffset.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: 3e801b95-aa44-4275-8a21-f68fbf6240f1
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetPlayOffset method [windows Media Device Manager], GetPlayOffset method [windows Media Device Manager], IMDSPObjectInfo interface, GetPlayOffset,IMDSPObjectInfo.GetPlayOffset, IMDSPObjectInfo, IMDSPObjectInfo interface [windows Media Device Manager], GetPlayOffset method, IMDSPObjectInfo::GetPlayOffset, IMDSPObjectInfoGetPlayOffset, mswmdm/IMDSPObjectInfo::GetPlayOffset, wmdm.imdspobjectinfo_getplayoffset
+ms.keywords: GetPlayOffset, GetPlayOffset method [windows Media Device Manager], GetPlayOffset method [windows Media Device Manager],IMDSPObjectInfo interface, IMDSPObjectInfo interface [windows Media Device Manager],GetPlayOffset method, IMDSPObjectInfo.GetPlayOffset, IMDSPObjectInfo::GetPlayOffset, IMDSPObjectInfoGetPlayOffset, mswmdm/IMDSPObjectInfo::GetPlayOffset, wmdm.imdspobjectinfo_getplayoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPObjectInfo::GetPlayOffset method
+# IMDSPObjectInfo::GetPlayOffset
 
 
 ## -description

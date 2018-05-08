@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.IEnumACDGroup.Reset
-title: IEnumACDGroup::Reset method
+title: IEnumACDGroup::Reset
 author: windows-driver-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: tapi3\ienumacdgroup_reset.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: 66c51bdd-c820-4670-a80d-27cfa080f08f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IEnumACDGroup, IEnumACDGroup interface [TAPI 2.2], Reset method, IEnumACDGroup::Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2], IEnumACDGroup interface, Reset,IEnumACDGroup.Reset, _tapi3_ienumacdgroup_reset, tapi3.ienumacdgroup_reset, tapi3cc/IEnumACDGroup::Reset
+ms.keywords: IEnumACDGroup interface [TAPI 2.2],Reset method, IEnumACDGroup.Reset, IEnumACDGroup::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumACDGroup interface, _tapi3_ienumacdgroup_reset, tapi3.ienumacdgroup_reset, tapi3cc/IEnumACDGroup::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IEnumACDGroup::Reset method
+# IEnumACDGroup::Reset
 
 
 ## -description

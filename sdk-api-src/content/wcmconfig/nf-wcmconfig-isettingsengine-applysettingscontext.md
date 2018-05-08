@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.ApplySettingsContext
-title: ISettingsEngine::ApplySettingsContext method
+title: ISettingsEngine::ApplySettingsContext
 author: windows-driver-content
 description: Applies a settings context.
 old-location: smi\isettingsengine_applysettingscontext.htm
@@ -8,7 +8,7 @@ old-project: SMI
 ms.assetid: 459a97fb-e5fb-42a5-998d-84631fec2e6f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ApplySettingsContext method [SMI], ApplySettingsContext method [SMI], ISettingsEngine interface, ApplySettingsContext,ISettingsEngine.ApplySettingsContext, ISettingsEngine, ISettingsEngine interface [SMI], ApplySettingsContext method, ISettingsEngine::ApplySettingsContext, smi.isettingsengine_applysettingscontext, wcmconfig/ISettingsEngine::ApplySettingsContext
+ms.keywords: ApplySettingsContext, ApplySettingsContext method [SMI], ApplySettingsContext method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],ApplySettingsContext method, ISettingsEngine.ApplySettingsContext, ISettingsEngine::ApplySettingsContext, smi.isettingsengine_applysettingscontext, wcmconfig/ISettingsEngine::ApplySettingsContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# ISettingsEngine::ApplySettingsContext method
+# ISettingsEngine::ApplySettingsContext
 
 
 ## -description

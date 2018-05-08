@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.GetHandlerInfo
-title: ISyncMgrSynchronize::GetHandlerInfo method
+title: ISyncMgrSynchronize::GetHandlerInfo
 author: windows-driver-content
 description: Obtains handler information.
 old-location: shell\syncmgr_isyncmgrsynchronize_gethandlerinfo.htm
 old-project: shell
 ms.assetid: bae3ead8-632c-45bf-a24e-bf07922039bd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetHandlerInfo method [Windows Shell], GetHandlerInfo method [Windows Shell], ISyncMgrSynchronize interface, GetHandlerInfo,ISyncMgrSynchronize.GetHandlerInfo, ISyncMgrSynchronize, ISyncMgrSynchronize interface [Windows Shell], GetHandlerInfo method, ISyncMgrSynchronize::GetHandlerInfo, mobsync/ISyncMgrSynchronize::GetHandlerInfo, shell.syncmgr_isyncmgrsynchronize_gethandlerinfo, syncmgr.isyncmgrsynchronize_gethandlerinfo
+ms.date: 5/3/2018
+ms.keywords: GetHandlerInfo, GetHandlerInfo method [Windows Shell], GetHandlerInfo method [Windows Shell],ISyncMgrSynchronize interface, ISyncMgrSynchronize interface [Windows Shell],GetHandlerInfo method, ISyncMgrSynchronize.GetHandlerInfo, ISyncMgrSynchronize::GetHandlerInfo, mobsync/ISyncMgrSynchronize::GetHandlerInfo, shell.syncmgr_isyncmgrsynchronize_gethandlerinfo, syncmgr.isyncmgrsynchronize_gethandlerinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronize::GetHandlerInfo method
+# ISyncMgrSynchronize::GetHandlerInfo
 
 
 ## -description

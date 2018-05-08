@@ -8,7 +8,7 @@ old-project: Nps
 ms.assetid: 5aaa4008-3b39-4d1d-90db-79631e5bb6b9
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: ISdoDictionaryOld, ISdoDictionaryOld interface [Network Policy Server], ISdoDictionaryOld interface [Network Policy Server], described, _sdo_isdodictionaryold, nps.SDO_isdodictionaryold, sdo.isdodictionaryold, sdoias/ISdoDictionaryOld
+ms.keywords: ISdoDictionaryOld, ISdoDictionaryOld interface [Network Policy Server], ISdoDictionaryOld interface [Network Policy Server],described, _sdo_isdodictionaryold, nps.SDO_isdodictionaryold, sdo.isdodictionaryold, sdoias/ISdoDictionaryOld
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

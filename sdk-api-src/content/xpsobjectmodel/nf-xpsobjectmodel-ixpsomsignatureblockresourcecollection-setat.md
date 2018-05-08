@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.SetAt
-title: IXpsOMSignatureBlockResourceCollection::SetAt method
+title: IXpsOMSignatureBlockResourceCollection::SetAt
 author: windows-driver-content
 description: Replaces an IXpsOMSignatureBlockResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_setat.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: c1f88493-0f81-4aac-b6d6-049d10934254
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IXpsOMSignatureBlockResourceCollection, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging], SetAt method, IXpsOMSignatureBlockResourceCollection::SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging], IXpsOMSignatureBlockResourceCollection interface, SetAt,IXpsOMSignatureBlockResourceCollection.SetAt, xps.ixpsomsignatureblockresourcecollection_setat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::SetAt
+ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMSignatureBlockResourceCollection.SetAt, IXpsOMSignatureBlockResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_setat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::SetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMSignatureBlockResourceCollection::SetAt method
+# IXpsOMSignatureBlockResourceCollection::SetAt
 
 
 ## -description

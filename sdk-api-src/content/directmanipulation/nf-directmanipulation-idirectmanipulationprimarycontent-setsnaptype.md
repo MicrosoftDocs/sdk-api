@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetSnapType
-title: IDirectManipulationPrimaryContent::SetSnapType method
+title: IDirectManipulationPrimaryContent::SetSnapType
 author: windows-driver-content
 description: Specifies the type of snap point.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setsnaptype.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: 0f1ad54d-8c9a-4b3c-a78b-fe02cb889ca9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationPrimaryContent, IDirectManipulationPrimaryContent interface [Direct Manipulation], SetSnapType method, IDirectManipulationPrimaryContent::SetSnapType, SetSnapType method [Direct Manipulation], SetSnapType method [Direct Manipulation], IDirectManipulationPrimaryContent interface, SetSnapType,IDirectManipulationPrimaryContent.SetSnapType, directmanipulation.idirectmanipulationprimarycontent_setsnaptype, directmanipulation/IDirectManipulationPrimaryContent::SetSnapType
+ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapType method, IDirectManipulationPrimaryContent.SetSnapType, IDirectManipulationPrimaryContent::SetSnapType, SetSnapType, SetSnapType method [Direct Manipulation], SetSnapType method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnaptype, directmanipulation/IDirectManipulationPrimaryContent::SetSnapType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationPrimaryContent::SetSnapType method
+# IDirectManipulationPrimaryContent::SetSnapType
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.GetEvent
-title: IMFMediaEventQueue::GetEvent method
+title: IMFMediaEventQueue::GetEvent
 author: windows-driver-content
 description: Retrieves the next event in the queue. This method is synchronous.Call this method inside your implementation of IMFMediaEventGenerator::GetEvent. Pass the parameters from that method directly to this method.
 old-location: mf\imfmediaeventqueue_getevent.htm
 old-project: medfound
 ms.assetid: b7c48607-f410-47ee-8cc6-38123919da55
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: GetEvent method [Media Foundation], GetEvent method [Media Foundation], IMFMediaEventQueue interface, GetEvent,IMFMediaEventQueue.GetEvent, IMFMediaEventQueue, IMFMediaEventQueue interface [Media Foundation], GetEvent method, IMFMediaEventQueue::GetEvent, b7c48607-f410-47ee-8cc6-38123919da55, mf.imfmediaeventqueue_getevent, mfobjects/IMFMediaEventQueue::GetEvent
+ms.date: 5/3/2018
+ms.keywords: GetEvent, GetEvent method [Media Foundation], GetEvent method [Media Foundation],IMFMediaEventQueue interface, IMFMediaEventQueue interface [Media Foundation],GetEvent method, IMFMediaEventQueue.GetEvent, IMFMediaEventQueue::GetEvent, b7c48607-f410-47ee-8cc6-38123919da55, mf.imfmediaeventqueue_getevent, mfobjects/IMFMediaEventQueue::GetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFMediaEventQueue::GetEvent method
+# IMFMediaEventQueue::GetEvent
 
 
 ## -description

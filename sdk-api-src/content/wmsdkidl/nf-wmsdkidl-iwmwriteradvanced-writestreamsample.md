@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.WriteStreamSample
-title: IWMWriterAdvanced::WriteStreamSample method
+title: IWMWriterAdvanced::WriteStreamSample
 author: windows-driver-content
 description: The WriteStreamSample method writes a stream sample directly into an ASF file, bypassing the normal compression procedures.
 old-location: wmformat\iwmwriteradvanced_writestreamsample.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: 498bfb73-bfa5-429d-ae8a-3a691fc25fc2
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterAdvanced, IWMWriterAdvanced interface [windows Media Format], WriteStreamSample method, IWMWriterAdvanced::WriteStreamSample, IWMWriterAdvancedWriteStreamSample, WriteStreamSample method [windows Media Format], WriteStreamSample method [windows Media Format], IWMWriterAdvanced interface, WriteStreamSample,IWMWriterAdvanced.WriteStreamSample, wmformat.iwmwriteradvanced_writestreamsample, wmsdkidl/IWMWriterAdvanced::WriteStreamSample
+ms.keywords: IWMWriterAdvanced interface [windows Media Format],WriteStreamSample method, IWMWriterAdvanced.WriteStreamSample, IWMWriterAdvanced::WriteStreamSample, IWMWriterAdvancedWriteStreamSample, WriteStreamSample, WriteStreamSample method [windows Media Format], WriteStreamSample method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_writestreamsample, wmsdkidl/IWMWriterAdvanced::WriteStreamSample
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterAdvanced::WriteStreamSample method
+# IWMWriterAdvanced::WriteStreamSample
 
 
 ## -description

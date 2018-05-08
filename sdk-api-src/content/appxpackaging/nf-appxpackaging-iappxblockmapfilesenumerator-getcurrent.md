@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFilesEnumerator.GetCurrent
-title: IAppxBlockMapFilesEnumerator::GetCurrent method
+title: IAppxBlockMapFilesEnumerator::GetCurrent
 author: windows-driver-content
 description: Gets the file at the current position of the enumerator.
 old-location: appxpkg\iappxblockmapfilesenumerator_getcurrent.htm
@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 6911EBF6-6D0A-4BA5-AD88-3F173141FA5B
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCurrent method [App packaging and management], GetCurrent method [App packaging and management], IAppxBlockMapFilesEnumerator interface, GetCurrent,IAppxBlockMapFilesEnumerator.GetCurrent, IAppxBlockMapFilesEnumerator, IAppxBlockMapFilesEnumerator interface [App packaging and management], GetCurrent method, IAppxBlockMapFilesEnumerator::GetCurrent, appxpackaging/IAppxBlockMapFilesEnumerator::GetCurrent, appxpkg.iappxblockmapfilesenumerator_getcurrent
+ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxBlockMapFilesEnumerator interface, IAppxBlockMapFilesEnumerator interface [App packaging and management],GetCurrent method, IAppxBlockMapFilesEnumerator.GetCurrent, IAppxBlockMapFilesEnumerator::GetCurrent, appxpackaging/IAppxBlockMapFilesEnumerator::GetCurrent, appxpkg.iappxblockmapfilesenumerator_getcurrent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IAppxBlockMapFilesEnumerator::GetCurrent method
+# IAppxBlockMapFilesEnumerator::GetCurrent
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_ReceptionQuality
-title: IAMNetworkStatus::get_ReceptionQuality method
+title: IAMNetworkStatus::get_ReceptionQuality
 author: windows-driver-content
 description: The get_ReceptionQuality method retrieves a value indicating the reception quality.
 old-location: dshow\iamnetworkstatus_get_receptionquality.htm
 old-project: DirectShow
 ms.assetid: 6c80f874-c176-4e52-acc9-26c10fac08d9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], get_ReceptionQuality method, IAMNetworkStatus::get_ReceptionQuality, IAMNetworkStatusget_ReceptionQuality, dshow.iamnetworkstatus_get_receptionquality, get_ReceptionQuality method [DirectShow], get_ReceptionQuality method [DirectShow], IAMNetworkStatus interface, get_ReceptionQuality,IAMNetworkStatus.get_ReceptionQuality, qnetwork/IAMNetworkStatus::get_ReceptionQuality
+ms.date: 4/30/2018
+ms.keywords: IAMNetworkStatus interface [DirectShow],get_ReceptionQuality method, IAMNetworkStatus.get_ReceptionQuality, IAMNetworkStatus::get_ReceptionQuality, IAMNetworkStatusget_ReceptionQuality, dshow.iamnetworkstatus_get_receptionquality, get_ReceptionQuality, get_ReceptionQuality method [DirectShow], get_ReceptionQuality method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_ReceptionQuality
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMNetworkStatus::get_ReceptionQuality method
+# IAMNetworkStatus::get_ReceptionQuality
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: 14ca01a1-04eb-4282-adf0-e775d6ff0801
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], ISyncChangeBatchBase interface [Windows Sync], described, winsync.isyncchangebatchbase, winsync/ISyncChangeBatchBase
+ms.keywords: ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], ISyncChangeBatchBase interface [Windows Sync],described, winsync.isyncchangebatchbase, winsync/ISyncChangeBatchBase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

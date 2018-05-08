@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.RepaintVideo
-title: IVMRWindowlessControl::RepaintVideo method
+title: IVMRWindowlessControl::RepaintVideo
 author: windows-driver-content
 description: The RepaintVideo method repaints the current video frame.
 old-location: dshow\ivmrwindowlesscontrol_repaintvideo.htm
 old-project: DirectShow
 ms.assetid: 16ef3bc1-1781-44f7-a997-ae9b1b3c405c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVMRWindowlessControl, IVMRWindowlessControl interface [DirectShow], RepaintVideo method, IVMRWindowlessControl::RepaintVideo, IVMRWindowlessControlRepaintVideo, RepaintVideo method [DirectShow], RepaintVideo method [DirectShow], IVMRWindowlessControl interface, RepaintVideo,IVMRWindowlessControl.RepaintVideo, dshow.ivmrwindowlesscontrol_repaintvideo, strmif/IVMRWindowlessControl::RepaintVideo
+ms.date: 4/30/2018
+ms.keywords: IVMRWindowlessControl interface [DirectShow],RepaintVideo method, IVMRWindowlessControl.RepaintVideo, IVMRWindowlessControl::RepaintVideo, IVMRWindowlessControlRepaintVideo, RepaintVideo, RepaintVideo method [DirectShow], RepaintVideo method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_repaintvideo, strmif/IVMRWindowlessControl::RepaintVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IVMRWindowlessControl::RepaintVideo method
+# IVMRWindowlessControl::RepaintVideo
 
 
 ## -description

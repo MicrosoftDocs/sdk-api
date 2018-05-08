@@ -1,14 +1,14 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.GetSummaryInfo
-title: IDsAdminNewObjExt::GetSummaryInfo method
+title: IDsAdminNewObjExt::GetSummaryInfo
 author: windows-driver-content
 description: The IDsAdminNewObjExt::GetSummaryInfo method obtains a string that contains a summary of the data gathered by the new object wizard extension page. This string is displayed in the wizard Finish page.
 old-location: ad\idsadminnewobjext_getsummaryinfo.htm
 old-project: AD
 ms.assetid: 61d97253-360a-4e35-a05a-33315d153c0f
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetSummaryInfo method [Active Directory], GetSummaryInfo method [Active Directory], IDsAdminNewObjExt interface, GetSummaryInfo,IDsAdminNewObjExt.GetSummaryInfo, IDsAdminNewObjExt, IDsAdminNewObjExt interface [Active Directory], GetSummaryInfo method, IDsAdminNewObjExt::GetSummaryInfo, _glines_idsadminnewobjext_getsummaryinfo, ad.idsadminnewobjext__getsummaryinfo, ad.idsadminnewobjext_getsummaryinfo, dsadmin/IDsAdminNewObjExt::GetSummaryInfo
+ms.date: 5/1/2018
+ms.keywords: GetSummaryInfo, GetSummaryInfo method [Active Directory], GetSummaryInfo method [Active Directory],IDsAdminNewObjExt interface, IDsAdminNewObjExt interface [Active Directory],GetSummaryInfo method, IDsAdminNewObjExt.GetSummaryInfo, IDsAdminNewObjExt::GetSummaryInfo, _glines_idsadminnewobjext_getsummaryinfo, ad.idsadminnewobjext__getsummaryinfo, ad.idsadminnewobjext_getsummaryinfo, dsadmin/IDsAdminNewObjExt::GetSummaryInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: DSAdmin.dll
 req.irql: 
 ---
 
-# IDsAdminNewObjExt::GetSummaryInfo method
+# IDsAdminNewObjExt::GetSummaryInfo
 
 
 ## -description

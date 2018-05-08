@@ -7,7 +7,7 @@ old-location: dhcp\date_time.htm
 old-project: DHCP
 ms.assetid: 2aca69b1-b7e5-4fda-b706-ed659d86cbd5
 ms.author: windowsdriverdev
-ms.date: 4/7/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPDATE_TIME, *PDATE_TIME, DATE_TIME, DATE_TIME structure [DHCP], LPDATE_TIME, LPDATE_TIME structure pointer [DHCP], _DATE_TIME, dhcp.date_time, dhcpsapi/LPDATE_TIME, dhcpsapi/_DATE_TIME"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:mfidl.IMFRateSupport.GetFastestRate
-title: IMFRateSupport::GetFastestRate method
+title: IMFRateSupport::GetFastestRate
 author: windows-driver-content
 description: Gets the fastest playback rate supported by the object.
 old-location: mf\imfratesupport_getfastestrate.htm
 old-project: medfound
 ms.assetid: 00413771-21cb-48a7-9080-2c3d195c366b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 00413771-21cb-48a7-9080-2c3d195c366b, GetFastestRate method [Media Foundation], GetFastestRate method [Media Foundation], IMFRateSupport interface, GetFastestRate,IMFRateSupport.GetFastestRate, IMFRateSupport, IMFRateSupport interface [Media Foundation], GetFastestRate method, IMFRateSupport::GetFastestRate, mf.imfratesupport_getfastestrate, mfidl/IMFRateSupport::GetFastestRate
+ms.date: 5/3/2018
+ms.keywords: 00413771-21cb-48a7-9080-2c3d195c366b, GetFastestRate, GetFastestRate method [Media Foundation], GetFastestRate method [Media Foundation],IMFRateSupport interface, IMFRateSupport interface [Media Foundation],GetFastestRate method, IMFRateSupport.GetFastestRate, IMFRateSupport::GetFastestRate, mf.imfratesupport_getfastestrate, mfidl/IMFRateSupport::GetFastestRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFRateSupport::GetFastestRate method
+# IMFRateSupport::GetFastestRate
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.Refresh
-title: IVdsService::Refresh method
+title: IVdsService::Refresh
 author: windows-driver-content
 description: Refreshes disk-ownership and disk-layout information.
 old-location: base\ivdsservice_refresh.htm
@@ -8,7 +8,7 @@ old-project: VDS
 ms.assetid: ca6a1143-b5f0-49e5-8505-836c565aabcf
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IVdsService, IVdsService interface [VDS], Refresh method, IVdsService::Refresh, Refresh method [VDS], Refresh method [VDS], IVdsService interface, Refresh,IVdsService.Refresh, base.ivdsservice_refresh, vds/IVdsService::Refresh
+ms.keywords: IVdsService interface [VDS],Refresh method, IVdsService.Refresh, IVdsService::Refresh, Refresh, Refresh method [VDS], Refresh method [VDS],IVdsService interface, base.ivdsservice_refresh, vds/IVdsService::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IVdsService::Refresh method
+# IVdsService::Refresh
 
 
 ## -description

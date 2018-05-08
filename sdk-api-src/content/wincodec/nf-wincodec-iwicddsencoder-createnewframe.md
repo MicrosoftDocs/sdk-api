@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDdsEncoder.CreateNewFrame
-title: IWICDdsEncoder::CreateNewFrame method
+title: IWICDdsEncoder::CreateNewFrame
 author: windows-driver-content
 description: Creates a new frame to encode.
 old-location: wic\iwicddsencoder_createnewframe.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 14195781-DA71-400A-B4A7-F336A0B5429B
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CreateNewFrame method [Windows Imaging Component], CreateNewFrame method [Windows Imaging Component], IWICDdsEncoder interface, CreateNewFrame,IWICDdsEncoder.CreateNewFrame, IWICDdsEncoder, IWICDdsEncoder interface [Windows Imaging Component], CreateNewFrame method, IWICDdsEncoder::CreateNewFrame, wic.iwicddsencoder_createnewframe, wincodec/IWICDdsEncoder::CreateNewFrame
+ms.keywords: CreateNewFrame, CreateNewFrame method [Windows Imaging Component], CreateNewFrame method [Windows Imaging Component],IWICDdsEncoder interface, IWICDdsEncoder interface [Windows Imaging Component],CreateNewFrame method, IWICDdsEncoder.CreateNewFrame, IWICDdsEncoder::CreateNewFrame, wic.iwicddsencoder_createnewframe, wincodec/IWICDdsEncoder::CreateNewFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICDdsEncoder::CreateNewFrame method
+# IWICDdsEncoder::CreateNewFrame
 
 
 ## -description

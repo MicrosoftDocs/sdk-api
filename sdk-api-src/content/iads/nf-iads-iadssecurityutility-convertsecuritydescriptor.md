@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsSecurityUtility.ConvertSecurityDescriptor
-title: IADsSecurityUtility::ConvertSecurityDescriptor method
+title: IADsSecurityUtility::ConvertSecurityDescriptor
 author: windows-driver-content
 description: Converts a security descriptor from one format to another.
 old-location: adsi\iadssecurityutility_convertsecuritydescriptor.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: ea6509bd-5625-458b-be7a-abb43ba2f46e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ADS_SD_FORMAT_HEXSTRING, ADS_SD_FORMAT_IID, ADS_SD_FORMAT_RAW, ConvertSecurityDescriptor method [ADSI], ConvertSecurityDescriptor method [ADSI], IADsSecurityUtility interface, ConvertSecurityDescriptor,IADsSecurityUtility.ConvertSecurityDescriptor, IADsSecurityUtility, IADsSecurityUtility interface [ADSI], ConvertSecurityDescriptor method, IADsSecurityUtility::ConvertSecurityDescriptor, _ds_iadssecurityutility_convertsecuritydescriptor, adsi.iadssecurityutility__convertsecuritydescriptor, adsi.iadssecurityutility_convertsecuritydescriptor, iads/IADsSecurityUtility::ConvertSecurityDescriptor
+ms.keywords: ADS_SD_FORMAT_HEXSTRING, ADS_SD_FORMAT_IID, ADS_SD_FORMAT_RAW, ConvertSecurityDescriptor, ConvertSecurityDescriptor method [ADSI], ConvertSecurityDescriptor method [ADSI],IADsSecurityUtility interface, IADsSecurityUtility interface [ADSI],ConvertSecurityDescriptor method, IADsSecurityUtility.ConvertSecurityDescriptor, IADsSecurityUtility::ConvertSecurityDescriptor, _ds_iadssecurityutility_convertsecuritydescriptor, adsi.iadssecurityutility__convertsecuritydescriptor, adsi.iadssecurityutility_convertsecuritydescriptor, iads/IADsSecurityUtility::ConvertSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsSecurityUtility::ConvertSecurityDescriptor method
+# IADsSecurityUtility::ConvertSecurityDescriptor
 
 
 ## -description

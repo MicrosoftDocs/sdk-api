@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.DeactivateProfile
-title: ITfInputProcessorProfileMgr::DeactivateProfile method
+title: ITfInputProcessorProfileMgr::DeactivateProfile
 author: windows-driver-content
 description: The ITfInputProcessorProfileMgr::DeactivateProfile method deactivates the specified text service's profile or keyboard layout.
 old-location: tsf\itfinputprocessorprofilemgr_deactivateprofile.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 8d2bd329-1b17-4b03-8c75-74d99ccc0f08
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: DeactivateProfile method [Text Services Framework], DeactivateProfile method [Text Services Framework], ITfInputProcessorProfileMgr interface, DeactivateProfile,ITfInputProcessorProfileMgr.DeactivateProfile, ITfInputProcessorProfileMgr, ITfInputProcessorProfileMgr interface [Text Services Framework], DeactivateProfile method, ITfInputProcessorProfileMgr::DeactivateProfile, TF_IPPMF_DISABLEPROFILE, TF_IPPMF_FORPROCESS, TF_IPPMF_FORSESSION, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileMgr::DeactivateProfile, tsf.itfinputprocessorprofilemgr_deactivateprofile
+ms.keywords: DeactivateProfile, DeactivateProfile method [Text Services Framework], DeactivateProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],DeactivateProfile method, ITfInputProcessorProfileMgr.DeactivateProfile, ITfInputProcessorProfileMgr::DeactivateProfile, TF_IPPMF_DISABLEPROFILE, TF_IPPMF_FORPROCESS, TF_IPPMF_FORSESSION, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileMgr::DeactivateProfile, tsf.itfinputprocessorprofilemgr_deactivateprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputProcessorProfileMgr::DeactivateProfile method
+# ITfInputProcessorProfileMgr::DeactivateProfile
 
 
 ## -description

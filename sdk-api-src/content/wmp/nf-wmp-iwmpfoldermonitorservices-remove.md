@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.remove
-title: IWMPFolderMonitorServices::remove method
+title: IWMPFolderMonitorServices::remove
 author: windows-driver-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The remove method removes a folder from the list of monitored folders.
 old-location: wmp\iwmpfoldermonitorservices_remove.htm
 old-project: WMP
 ms.assetid: 4f075c31-dd09-4d35-88fa-b93a373ad2d0
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], remove method, IWMPFolderMonitorServices::remove, IWMPFolderMonitorServicesremove, remove method [Windows Media Player], remove method [Windows Media Player], IWMPFolderMonitorServices interface, remove,IWMPFolderMonitorServices.remove, wmp.iwmpfoldermonitorservices_remove, wmp/IWMPFolderMonitorServices::remove
+ms.date: 5/4/2018
+ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],remove method, IWMPFolderMonitorServices.remove, IWMPFolderMonitorServices::remove, IWMPFolderMonitorServicesremove, remove, remove method [Windows Media Player], remove method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_remove, wmp/IWMPFolderMonitorServices::remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPFolderMonitorServices::remove method
+# IWMPFolderMonitorServices::remove
 
 
 ## -description

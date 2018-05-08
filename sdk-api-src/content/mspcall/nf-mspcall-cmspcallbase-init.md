@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallBase.Init
-title: CMSPCallBase::Init method
+title: CMSPCallBase::Init
 author: windows-driver-content
 description: The Init method is called by the MSP address object (in the method CreateMSPCall) to initialize the MSP call object. The derived class should initialize its members using the passed-in information.
 old-location: tapi3\cmspcallbase_init.htm
@@ -8,7 +8,7 @@ old-project: Tapi
 ms.assetid: bda49b8e-4ae5-4cf9-ae61-44fbf41e2cda
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CMSPCallBase, CMSPCallBase interface [TAPI 2.2], Init method, CMSPCallBase::Init, Init method [TAPI 2.2], Init method [TAPI 2.2], CMSPCallBase interface, Init,CMSPCallBase.Init, _tapi3_cmspcallbase_init, mspcall/CMSPCallBase::Init, tapi3.cmspcallbase_init
+ms.keywords: CMSPCallBase interface [TAPI 2.2],Init method, CMSPCallBase.Init, CMSPCallBase::Init, Init, Init method [TAPI 2.2], Init method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_init, mspcall/CMSPCallBase::Init, tapi3.cmspcallbase_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# CMSPCallBase::Init method
+# CMSPCallBase::Init
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:shidfact.CItemIDFactory.SetItemAlloc
-title: CItemIDFactory::SetItemAlloc method
+title: CItemIDFactory::SetItemAlloc
 author: windows-driver-content
 description: Provides the CItemIDFactory an IMalloc interface used to allocate and free item IDs.
 old-location: shell\citemidfactory_setitemalloc.htm
 old-project: shell
 ms.assetid: 3E2BAAD9-5C16-4ECF-BADB-16B355439BA5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: CItemIDFactory, CItemIDFactory interface [Windows Shell], SetItemAlloc method, CItemIDFactory::SetItemAlloc, SetItemAlloc method [Windows Shell], SetItemAlloc method [Windows Shell], CItemIDFactory interface, SetItemAlloc,CItemIDFactory.SetItemAlloc, shell.citemidfactory_setitemalloc, shidfact/CItemIDFactory::SetItemAlloc
+ms.date: 5/3/2018
+ms.keywords: CItemIDFactory interface [Windows Shell],SetItemAlloc method, CItemIDFactory.SetItemAlloc, CItemIDFactory::SetItemAlloc, SetItemAlloc, SetItemAlloc method [Windows Shell], SetItemAlloc method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_setitemalloc, shidfact/CItemIDFactory::SetItemAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5.0
 ---
 
-# CItemIDFactory::SetItemAlloc method
+# CItemIDFactory::SetItemAlloc
 
 
 ## -description

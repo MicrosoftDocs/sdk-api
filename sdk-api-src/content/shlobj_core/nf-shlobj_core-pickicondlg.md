@@ -7,7 +7,7 @@ old-location: shell\PickIconDlg.htm
 old-project: shell
 ms.assetid: 3dfcda10-26d8-495d-8c92-7ff16da098c1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/3/2018
 ms.keywords: PickIconDlg, PickIconDlg function [Windows Shell], _win32_PickIconDlg, shell.PickIconDlg, shlobj_core/PickIconDlg
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: automat\varr4fromi8.htm
 old-project: automat
 ms.assetid: 746bbbcf-9561-4d7f-942a-6b4cce9ec291
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarR4FromI8, VarR4FromI8 function [Automation], _oa96_VarR4FromI8, automat.varr4fromi8, oleauto/VarR4FromI8
 ms.prod: windows-hardware
 ms.technology: windows-devices

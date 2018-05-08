@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.AddStylusSyncPlugin
-title: IRealTimeStylus::AddStylusSyncPlugin method
+title: IRealTimeStylus::AddStylusSyncPlugin
 author: windows-driver-content
 description: Adds an IStylusSyncPlugin to the synchronous plug-in collection at the specified index.
 old-location: tablet\irealtimestylus_addstylussyncplugin.htm
 old-project: tablet
 ms.assetid: db38e39a-27ba-42ca-8748-b5e9c4db18f7
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: AddStylusSyncPlugin method [Tablet PC], AddStylusSyncPlugin method [Tablet PC], IRealTimeStylus interface, AddStylusSyncPlugin,IRealTimeStylus.AddStylusSyncPlugin, IRealTimeStylus, IRealTimeStylus interface [Tablet PC], AddStylusSyncPlugin method, IRealTimeStylus::AddStylusSyncPlugin, db38e39a-27ba-42ca-8748-b5e9c4db18f7, rtscom/IRealTimeStylus::AddStylusSyncPlugin, tablet.irealtimestylus_addstylussyncplugin
+ms.date: 5/2/2018
+ms.keywords: AddStylusSyncPlugin, AddStylusSyncPlugin method [Tablet PC], AddStylusSyncPlugin method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],AddStylusSyncPlugin method, IRealTimeStylus.AddStylusSyncPlugin, IRealTimeStylus::AddStylusSyncPlugin, db38e39a-27ba-42ca-8748-b5e9c4db18f7, rtscom/IRealTimeStylus::AddStylusSyncPlugin, tablet.irealtimestylus_addstylussyncplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRealTimeStylus::AddStylusSyncPlugin method
+# IRealTimeStylus::AddStylusSyncPlugin
 
 
 ## -description

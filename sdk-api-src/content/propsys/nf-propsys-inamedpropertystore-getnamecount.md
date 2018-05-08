@@ -1,14 +1,14 @@
 ---
 UID: NF:propsys.INamedPropertyStore.GetNameCount
-title: INamedPropertyStore::GetNameCount method
+title: INamedPropertyStore::GetNameCount
 author: windows-driver-content
 description: Gets the number of property names in the property store.
 old-location: shell\INamedPropertyStore_GetNameCount.htm
 old-project: shell
 ms.assetid: 74bba1bf-e003-40bb-9118-4d647f78e409
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetNameCount method [Windows Shell], GetNameCount method [Windows Shell], INamedPropertyStore interface, GetNameCount,INamedPropertyStore.GetNameCount, INamedPropertyStore, INamedPropertyStore interface [Windows Shell], GetNameCount method, INamedPropertyStore::GetNameCount, _shell_INamedPropertyStore_GetNameCount, propsys/INamedPropertyStore::GetNameCount, shell.INamedPropertyStore_GetNameCount
+ms.date: 5/3/2018
+ms.keywords: GetNameCount, GetNameCount method [Windows Shell], GetNameCount method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNameCount method, INamedPropertyStore.GetNameCount, INamedPropertyStore::GetNameCount, _shell_INamedPropertyStore_GetNameCount, propsys/INamedPropertyStore::GetNameCount, shell.INamedPropertyStore_GetNameCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INamedPropertyStore::GetNameCount method
+# INamedPropertyStore::GetNameCount
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetStringArray
-title: IPropertyValue::GetStringArray method
+title: IPropertyValue::IPropertyValue
 author: windows-driver-content
 description: Gets the array of string values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getstringarray.htm
 old-project: WinRT
 ms.assetid: d256b888-efa0-470e-b54f-5cf8ddd6fd8a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: GetStringArray method [Windows Runtime], GetStringArray method [Windows Runtime], IPropertyValue interface, GetStringArray,IPropertyValue.GetStringArray, IPropertyValue, IPropertyValue interface [Windows Runtime], GetStringArray method, IPropertyValue::GetStringArray, windows/IPropertyValue::GetStringArray, winrt.ipropertyvalue_getstringarray
+ms.date: 5/4/2018
+ms.keywords: GetStringArray, GetStringArray method [Windows Runtime], GetStringArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetStringArray method, IPropertyValue.GetStringArray, IPropertyValue.IPropertyValue, IPropertyValue::GetStringArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetStringArray, winrt.ipropertyvalue_getstringarray
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IPropertyValue::GetStringArray method
+# IPropertyValue::IPropertyValue
 
 
 ## -description

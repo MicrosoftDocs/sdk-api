@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_EulaAccepted
-title: IUpdate::get_EulaAccepted method
+title: IUpdate::get_EulaAccepted
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether the Microsoft Software License Terms that are associated with the update are accepted for the computer.
 old-location: wua\iupdate_eulaaccepted.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: c62967c1-d72a-4ae0-ad02-94e948985b87
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: EulaAccepted property [Windows Update Agent], EulaAccepted property [Windows Update Agent], IUpdate interface, IUpdate, IUpdate interface [Windows Update Agent], EulaAccepted property, IUpdate.EulaAccepted, IUpdate::get_EulaAccepted, get_EulaAccepted,IUpdate.get_EulaAccepted, wua.iupdate_eulaaccepted, wuapi/IUpdate::EulaAccepted, wuapi/IUpdate::get_EulaAccepted
+ms.keywords: EulaAccepted property [Windows Update Agent], EulaAccepted property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],EulaAccepted property, IUpdate.EulaAccepted, IUpdate.get_EulaAccepted, IUpdate::EulaAccepted, IUpdate::get_EulaAccepted, get_EulaAccepted, wua.iupdate_eulaaccepted, wuapi/IUpdate::EulaAccepted, wuapi/IUpdate::get_EulaAccepted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate::get_EulaAccepted method
+# IUpdate::get_EulaAccepted
 
 
 ## -description

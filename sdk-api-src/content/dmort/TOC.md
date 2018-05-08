@@ -1,0 +1,8 @@
+# [DirectShow](../_dshow/index.md)
+## [Dmort.h](index.md)
+### [MoCopyMediaType function](../dmort/nf-dmort-mocopymediatype.md)
+### [MoCreateMediaType function](../dmort/nf-dmort-mocreatemediatype.md)
+### [MoDeleteMediaType function](../dmort/nf-dmort-modeletemediatype.md)
+### [MoDuplicateMediaType function](../dmort/nf-dmort-moduplicatemediatype.md)
+### [MoFreeMediaType function](../dmort/nf-dmort-mofreemediatype.md)
+### [MoInitMediaType function](../dmort/nf-dmort-moinitmediatype.md)

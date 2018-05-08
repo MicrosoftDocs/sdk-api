@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetCheckboxTooltip
-title: IPhotoProgressDialog::SetCheckboxTooltip method
+title: IPhotoProgressDialog::SetCheckboxTooltip
 author: windows-driver-content
 description: The SetCheckboxTooltip method sets the tooltip text for the check box in the progress dialog box.
 old-location: picacq\iphotoprogressdialog_setcheckboxtooltip.htm
@@ -8,7 +8,7 @@ old-project: acquisition
 ms.assetid: 88719891-9661-4766-adce-6b74cf9a87ef
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IPhotoProgressDialog, IPhotoProgressDialog interface [Picture Acquisition], SetCheckboxTooltip method, IPhotoProgressDialog::SetCheckboxTooltip, IPhotoProgressDialogSetCheckboxTooltip, SetCheckboxTooltip method [Picture Acquisition], SetCheckboxTooltip method [Picture Acquisition], IPhotoProgressDialog interface, SetCheckboxTooltip,IPhotoProgressDialog.SetCheckboxTooltip, photoacquire/IPhotoProgressDialog::SetCheckboxTooltip, picacq.iphotoprogressdialog_setcheckboxtooltip
+ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCheckboxTooltip method, IPhotoProgressDialog.SetCheckboxTooltip, IPhotoProgressDialog::SetCheckboxTooltip, IPhotoProgressDialogSetCheckboxTooltip, SetCheckboxTooltip, SetCheckboxTooltip method [Picture Acquisition], SetCheckboxTooltip method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetCheckboxTooltip, picacq.iphotoprogressdialog_setcheckboxtooltip
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPhotoProgressDialog::SetCheckboxTooltip method
+# IPhotoProgressDialog::SetCheckboxTooltip
 
 
 ## -description

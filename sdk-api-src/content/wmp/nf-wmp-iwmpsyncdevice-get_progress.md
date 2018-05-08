@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_progress
-title: IWMPSyncDevice::get_progress method
+title: IWMPSyncDevice::get_progress
 author: windows-driver-content
 description: The get_progress method retrieves a value that indicates the synchronization progress as percent complete.
 old-location: wmp\iwmpsyncdevice_get_progress.htm
 old-project: WMP
 ms.assetid: bc125107-0013-4c5b-aa44-9d48557d370d
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], get_progress method, IWMPSyncDevice::get_progress, IWMPSyncDeviceget_progress, get_progress method [Windows Media Player], get_progress method [Windows Media Player], IWMPSyncDevice interface, get_progress,IWMPSyncDevice.get_progress, wmp.iwmpsyncdevice_get_progress, wmp/IWMPSyncDevice::get_progress
+ms.date: 5/4/2018
+ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_progress method, IWMPSyncDevice.get_progress, IWMPSyncDevice::get_progress, IWMPSyncDeviceget_progress, get_progress, get_progress method [Windows Media Player], get_progress method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_progress, wmp/IWMPSyncDevice::get_progress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPSyncDevice::get_progress method
+# IWMPSyncDevice::get_progress
 
 
 ## -description

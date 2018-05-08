@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.get_FrequencyMapping
-title: ITuningSpace::get_FrequencyMapping method
+title: ITuningSpace::get_FrequencyMapping
 author: windows-driver-content
 description: The get_FrequencyMapping method retrieves the frequency mapping previously created by the network provider by a call to put_FrequencyMapping.
 old-location: mstv\ituningspace_get_frequencymapping.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 86f6f991-7ba6-4dcc-86bd-03e44c799c22
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: ITuningSpace, ITuningSpace interface [Microsoft TV Technologies], get_FrequencyMapping method, ITuningSpace::get_FrequencyMapping, ITuningSpaceget_FrequencyMapping, get_FrequencyMapping method [Microsoft TV Technologies], get_FrequencyMapping method [Microsoft TV Technologies], ITuningSpace interface, get_FrequencyMapping,ITuningSpace.get_FrequencyMapping, mstv.ituningspace_get_frequencymapping, tuner/ITuningSpace::get_FrequencyMapping
+ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_FrequencyMapping method, ITuningSpace.get_FrequencyMapping, ITuningSpace::get_FrequencyMapping, ITuningSpaceget_FrequencyMapping, get_FrequencyMapping, get_FrequencyMapping method [Microsoft TV Technologies], get_FrequencyMapping method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_frequencymapping, tuner/ITuningSpace::get_FrequencyMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpace::get_FrequencyMapping method
+# ITuningSpace::get_FrequencyMapping
 
 
 ## -description

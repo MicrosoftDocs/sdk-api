@@ -1,14 +1,14 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumModuleRefs
-title: IMetaDataImport::EnumModuleRefs method
+title: IMetaDataImport::EnumModuleRefs
 author: windows-driver-content
 description: Enumerates ModuleRef tokens that represent imported modules.
 old-location: winrt\imetadataimport_enummodulerefs.htm
 old-project: WinRT
 ms.assetid: dd3a8242-0cc9-4199-ada3-de227fe292bd
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: EnumModuleRefs method [Windows Runtime], EnumModuleRefs method [Windows Runtime], IMetaDataImport interface, EnumModuleRefs,IMetaDataImport.EnumModuleRefs, IMetaDataImport, IMetaDataImport interface [Windows Runtime], EnumModuleRefs method, IMetaDataImport::EnumModuleRefs, rometadataapi/IMetaDataImport::EnumModuleRefs, winrt.imetadataimport_enummodulerefs
+ms.date: 5/4/2018
+ms.keywords: EnumModuleRefs, EnumModuleRefs method [Windows Runtime], EnumModuleRefs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumModuleRefs method, IMetaDataImport.EnumModuleRefs, IMetaDataImport::EnumModuleRefs, rometadataapi/IMetaDataImport::EnumModuleRefs, winrt.imetadataimport_enummodulerefs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMetaDataImport::EnumModuleRefs method
+# IMetaDataImport::EnumModuleRefs
 
 
 ## -description

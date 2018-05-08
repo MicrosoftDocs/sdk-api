@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.Add
-title: ITuningSpaceContainer::Add method
+title: ITuningSpaceContainer::Add
 author: windows-driver-content
 description: The Add method adds a new persistent tuning space to the system.
 old-location: mstv\ituningspacecontainer_add.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 9c7faab5-48d4-47fa-be8a-7dafce8504a6
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies], ITuningSpaceContainer interface, Add,ITuningSpaceContainer.Add, ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft TV Technologies], Add method, ITuningSpaceContainer::Add, ITuningSpaceContainerAdd, mstv.ituningspacecontainer_add, tuner/ITuningSpaceContainer::Add
+ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],ITuningSpaceContainer interface, ITuningSpaceContainer interface [Microsoft TV Technologies],Add method, ITuningSpaceContainer.Add, ITuningSpaceContainer::Add, ITuningSpaceContainerAdd, mstv.ituningspacecontainer_add, tuner/ITuningSpaceContainer::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpaceContainer::Add method
+# ITuningSpaceContainer::Add
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleClientSite.SaveObject
-title: IOleClientSite::SaveObject method
+title: IOleClientSite::SaveObject
 author: windows-driver-content
 description: Saves the embedded object associated with the client site. This function is synchronous; by the time it returns, the save will be completed.
 old-location: com\ioleclientsite_saveobject.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: ef1a0085-f4fa-4d77-adab-0386f354dfe7
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IOleClientSite, IOleClientSite interface [COM], SaveObject method, IOleClientSite::SaveObject, SaveObject method [COM], SaveObject method [COM], IOleClientSite interface, SaveObject,IOleClientSite.SaveObject, _ole_ioleclientsite_saveobject, com.ioleclientsite_saveobject, oleidl/IOleClientSite::SaveObject
+ms.keywords: IOleClientSite interface [COM],SaveObject method, IOleClientSite.SaveObject, IOleClientSite::SaveObject, SaveObject, SaveObject method [COM], SaveObject method [COM],IOleClientSite interface, _ole_ioleclientsite_saveobject, com.ioleclientsite_saveobject, oleidl/IOleClientSite::SaveObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOleClientSite::SaveObject method
+# IOleClientSite::SaveObject
 
 
 ## -description

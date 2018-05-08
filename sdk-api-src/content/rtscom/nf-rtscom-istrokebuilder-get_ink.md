@@ -1,14 +1,14 @@
 ---
 UID: NF:rtscom.IStrokeBuilder.get_Ink
-title: IStrokeBuilder::get_Ink method
+title: IStrokeBuilder::get_Ink
 author: windows-driver-content
 description: Gets or sets the ink object that is associated with the IStrokeBuilder object.
 old-location: tablet\istrokebuilder_ink.htm
 old-project: tablet
 ms.assetid: ceb8eaea-5059-4386-ad48-63d563ef9731
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: IStrokeBuilder, IStrokeBuilder interface [Tablet PC], Ink property, IStrokeBuilder.Ink, IStrokeBuilder.get_Ink, IStrokeBuilder.put_Ink, IStrokeBuilder::get_Ink, IStrokeBuilder::put_Ink, Ink property [Tablet PC], Ink property [Tablet PC], IStrokeBuilder interface, ceb8eaea-5059-4386-ad48-63d563ef9731, get_Ink,IStrokeBuilder.get_Ink, rtscom/IStrokeBuilder::Ink, rtscom/IStrokeBuilder::get_Ink, rtscom/IStrokeBuilder::put_Ink, tablet.istrokebuilder_ink
+ms.date: 5/2/2018
+ms.keywords: IStrokeBuilder interface [Tablet PC],Ink property, IStrokeBuilder.Ink, IStrokeBuilder.get_Ink, IStrokeBuilder.put_Ink, IStrokeBuilder::Ink, IStrokeBuilder::get_Ink, IStrokeBuilder::put_Ink, Ink property [Tablet PC], Ink property [Tablet PC],IStrokeBuilder interface, ceb8eaea-5059-4386-ad48-63d563ef9731, get_Ink, rtscom/IStrokeBuilder::Ink, rtscom/IStrokeBuilder::get_Ink, rtscom/IStrokeBuilder::put_Ink, tablet.istrokebuilder_ink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -48,7 +48,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IStrokeBuilder::get_Ink method
+# IStrokeBuilder::get_Ink
 
 
 ## -description

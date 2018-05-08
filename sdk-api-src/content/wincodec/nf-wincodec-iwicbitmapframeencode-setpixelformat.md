@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.SetPixelFormat
-title: IWICBitmapFrameEncode::SetPixelFormat method
+title: IWICBitmapFrameEncode::SetPixelFormat
 author: windows-driver-content
 description: Requests that the encoder use the specified pixel format.
 old-location: wic\_wic_codec_iwicbitmapframeencode_setpixelformat.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 9327b5dd-18a3-40c6-8bb4-245fcc7fb582
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICBitmapFrameEncode, IWICBitmapFrameEncode interface [Windows Imaging Component], SetPixelFormat method, IWICBitmapFrameEncode::SetPixelFormat, SetPixelFormat method [Windows Imaging Component], SetPixelFormat method [Windows Imaging Component], IWICBitmapFrameEncode interface, SetPixelFormat,IWICBitmapFrameEncode.SetPixelFormat, _wic_codec_iwicbitmapframeencode_setpixelformat, wic._wic_codec_iwicbitmapframeencode_setpixelformat, wincodec/IWICBitmapFrameEncode::SetPixelFormat
+ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetPixelFormat method, IWICBitmapFrameEncode.SetPixelFormat, IWICBitmapFrameEncode::SetPixelFormat, SetPixelFormat, SetPixelFormat method [Windows Imaging Component], SetPixelFormat method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setpixelformat, wic._wic_codec_iwicbitmapframeencode_setpixelformat, wincodec/IWICBitmapFrameEncode::SetPixelFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapFrameEncode::SetPixelFormat method
+# IWICBitmapFrameEncode::SetPixelFormat
 
 
 ## -description

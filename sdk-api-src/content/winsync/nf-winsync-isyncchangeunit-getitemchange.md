@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeUnit.GetItemChange
-title: ISyncChangeUnit::GetItemChange method
+title: ISyncChangeUnit::GetItemChange
 author: windows-driver-content
 description: Gets the item change that contains this change unit change.
 old-location: winsync\isyncchangeunit_getitemchange.htm
@@ -8,7 +8,7 @@ old-project: winsync
 ms.assetid: d28b4eb0-ddd2-4abf-9183-4d39b728923b
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetItemChange method [Windows Sync], GetItemChange method [Windows Sync], ISyncChangeUnit interface, GetItemChange,ISyncChangeUnit.GetItemChange, ISyncChangeUnit, ISyncChangeUnit interface [Windows Sync], GetItemChange method, ISyncChangeUnit::GetItemChange, winsync.isyncchangeunit_getitemchange, winsync/ISyncChangeUnit::GetItemChange
+ms.keywords: GetItemChange, GetItemChange method [Windows Sync], GetItemChange method [Windows Sync],ISyncChangeUnit interface, ISyncChangeUnit interface [Windows Sync],GetItemChange method, ISyncChangeUnit.GetItemChange, ISyncChangeUnit::GetItemChange, winsync.isyncchangeunit_getitemchange, winsync/ISyncChangeUnit::GetItemChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# ISyncChangeUnit::GetItemChange method
+# ISyncChangeUnit::GetItemChange
 
 
 ## -description

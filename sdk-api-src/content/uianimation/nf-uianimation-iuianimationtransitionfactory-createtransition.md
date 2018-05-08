@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionFactory.CreateTransition
-title: IUIAnimationTransitionFactory::CreateTransition method
+title: IUIAnimationTransitionFactory::CreateTransition
 author: windows-driver-content
 description: Creates a transition from a custom interpolator.
 old-location: uianimation\iuianimationtransitionfactory_createtransition.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: 02d28669-0cbd-41e2-b9ca-4ad893f09fc9
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: CreateTransition method [Windows Animation], CreateTransition method [Windows Animation], IUIAnimationTransitionFactory interface, CreateTransition,IUIAnimationTransitionFactory.CreateTransition, IUIAnimationTransitionFactory, IUIAnimationTransitionFactory interface [Windows Animation], CreateTransition method, IUIAnimationTransitionFactory::CreateTransition, uianimation.iuianimationtransitionfactory_createtransition, uianimation/IUIAnimationTransitionFactory::CreateTransition
+ms.keywords: CreateTransition, CreateTransition method [Windows Animation], CreateTransition method [Windows Animation],IUIAnimationTransitionFactory interface, IUIAnimationTransitionFactory interface [Windows Animation],CreateTransition method, IUIAnimationTransitionFactory.CreateTransition, IUIAnimationTransitionFactory::CreateTransition, uianimation.iuianimationtransitionfactory_createtransition, uianimation/IUIAnimationTransitionFactory::CreateTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationTransitionFactory::CreateTransition method
+# IUIAnimationTransitionFactory::CreateTransition
 
 
 ## -description

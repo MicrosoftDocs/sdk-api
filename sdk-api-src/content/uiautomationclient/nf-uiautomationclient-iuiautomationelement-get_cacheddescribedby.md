@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedDescribedBy
-title: IUIAutomationElement::get_CachedDescribedBy method
+title: IUIAutomationElement::get_CachedDescribedBy
 author: windows-driver-content
 description: Retrieves a cached array of elements that describe this element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedDescribedBy.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 705c9f5a-ef7d-4495-8de2-710a6e9f78df
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: CachedDescribedBy property [Windows Accessibility], CachedDescribedBy property [Windows Accessibility], IUIAutomationElement interface, IUIAutomationElement, IUIAutomationElement interface [Windows Accessibility], CachedDescribedBy property, IUIAutomationElement.CachedDescribedBy, IUIAutomationElement::get_CachedDescribedBy, get_CachedDescribedBy,IUIAutomationElement.get_CachedDescribedBy, uiauto.uiauto_IUIAutomationElement_CachedDescribedBy, uiauto_IUIAutomationElement_CachedDescribedBy, uiautomationclient/IUIAutomationElement::CachedDescribedBy, uiautomationclient/IUIAutomationElement::get_CachedDescribedBy, winauto.uiauto_IUIAutomationElement_CachedDescribedBy
+ms.keywords: CachedDescribedBy property [Windows Accessibility], CachedDescribedBy property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedDescribedBy property, IUIAutomationElement.CachedDescribedBy, IUIAutomationElement.get_CachedDescribedBy, IUIAutomationElement::CachedDescribedBy, IUIAutomationElement::get_CachedDescribedBy, get_CachedDescribedBy, uiauto.uiauto_IUIAutomationElement_CachedDescribedBy, uiauto_IUIAutomationElement_CachedDescribedBy, uiautomationclient/IUIAutomationElement::CachedDescribedBy, uiautomationclient/IUIAutomationElement::get_CachedDescribedBy, winauto.uiauto_IUIAutomationElement_CachedDescribedBy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationElement::get_CachedDescribedBy method
+# IUIAutomationElement::get_CachedDescribedBy
 
 
 ## -description

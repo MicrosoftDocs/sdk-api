@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPEvents3.LibraryDisconnect
-title: IWMPEvents3::LibraryDisconnect method
+title: IWMPEvents3::LibraryDisconnect
 author: windows-driver-content
 description: The LibraryDisconnect event occurs when a library is no longer available.
 old-location: wmp\iwmpevents3_iwmpevents3__librarydisconnect.htm
 old-project: WMP
 ms.assetid: eb0f4d9f-23b7-4fe7-b45d-152a2f64af30
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPEvents3, IWMPEvents3 interface [Windows Media Player], LibraryDisconnect method, IWMPEvents3::LibraryDisconnect, IWMPEvents3LibraryDisconnect, LibraryDisconnect method [Windows Media Player], LibraryDisconnect method [Windows Media Player], IWMPEvents3 interface, LibraryDisconnect,IWMPEvents3.LibraryDisconnect, wmp.iwmpevents3_iwmpevents3__librarydisconnect, wmp/IWMPEvents3::LibraryDisconnect
+ms.date: 5/4/2018
+ms.keywords: IWMPEvents3 interface [Windows Media Player],LibraryDisconnect method, IWMPEvents3.LibraryDisconnect, IWMPEvents3::LibraryDisconnect, IWMPEvents3LibraryDisconnect, LibraryDisconnect, LibraryDisconnect method [Windows Media Player], LibraryDisconnect method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__librarydisconnect, wmp/IWMPEvents3::LibraryDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPEvents3::LibraryDisconnect method
+# IWMPEvents3::LibraryDisconnect
 
 
 ## -description

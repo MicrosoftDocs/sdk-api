@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetStreamType
-title: IWMStreamConfig::GetStreamType method
+title: IWMStreamConfig::GetStreamType
 author: windows-driver-content
 description: The GetStreamType method retrieves the major type of the stream (audio, video, or script).
 old-location: wmformat\iwmstreamconfig_getstreamtype.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: a8dc8c37-da52-4d0f-b143-aaa45e6f77b8
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: GetStreamType method [windows Media Format], GetStreamType method [windows Media Format], IWMStreamConfig interface, GetStreamType,IWMStreamConfig.GetStreamType, IWMStreamConfig, IWMStreamConfig interface [windows Media Format], GetStreamType method, IWMStreamConfig::GetStreamType, IWMStreamConfigGetStreamType, wmformat.iwmstreamconfig_getstreamtype, wmsdkidl/IWMStreamConfig::GetStreamType
+ms.keywords: GetStreamType, GetStreamType method [windows Media Format], GetStreamType method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamType method, IWMStreamConfig.GetStreamType, IWMStreamConfig::GetStreamType, IWMStreamConfigGetStreamType, wmformat.iwmstreamconfig_getstreamtype, wmsdkidl/IWMStreamConfig::GetStreamType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMStreamConfig::GetStreamType method
+# IWMStreamConfig::GetStreamType
 
 
 ## -description

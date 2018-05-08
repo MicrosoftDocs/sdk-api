@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellCheckerFactory.get_SupportedLanguages
-title: ISpellCheckerFactory::get_SupportedLanguages method
+title: ISpellCheckerFactory::get_SupportedLanguages
 author: windows-driver-content
 description: Gets the set of languages/dialects supported by any of the registered spell checkers.
 old-location: intl\ispellcheckerfactory_supportedlanguages.htm
@@ -8,7 +8,7 @@ old-project: Intl
 ms.assetid: ae6794fd-ce7c-4c62-abc5-824699054a37
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: ISpellCheckerFactory, ISpellCheckerFactory interface [Internationalization for Windows Applications], SupportedLanguages property, ISpellCheckerFactory.SupportedLanguages, ISpellCheckerFactory::get_SupportedLanguages, SupportedLanguages property [Internationalization for Windows Applications], SupportedLanguages property [Internationalization for Windows Applications], ISpellCheckerFactory interface, get_SupportedLanguages,ISpellCheckerFactory.get_SupportedLanguages, intl.ispellcheckerfactory_supportedlanguages, spellcheck/ISpellCheckerFactory::SupportedLanguages, spellcheck/ISpellCheckerFactory::get_SupportedLanguages
+ms.keywords: ISpellCheckerFactory interface [Internationalization for Windows Applications],SupportedLanguages property, ISpellCheckerFactory.SupportedLanguages, ISpellCheckerFactory.get_SupportedLanguages, ISpellCheckerFactory::SupportedLanguages, ISpellCheckerFactory::get_SupportedLanguages, SupportedLanguages property [Internationalization for Windows Applications], SupportedLanguages property [Internationalization for Windows Applications],ISpellCheckerFactory interface, get_SupportedLanguages, intl.ispellcheckerfactory_supportedlanguages, spellcheck/ISpellCheckerFactory::SupportedLanguages, spellcheck/ISpellCheckerFactory::get_SupportedLanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpellCheckerFactory::get_SupportedLanguages method
+# ISpellCheckerFactory::get_SupportedLanguages
 
 
 ## -description

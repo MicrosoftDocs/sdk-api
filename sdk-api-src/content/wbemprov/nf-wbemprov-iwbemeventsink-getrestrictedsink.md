@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemEventSink.GetRestrictedSink
-title: IWbemEventSink::GetRestrictedSink method
+title: IWbemEventSink::GetRestrictedSink
 author: windows-driver-content
 description: The IWbemEventSink::GetRestrictedSink method retrieves a restricted event sink. A restricted event sink is one which filters a subset of the events defined in the event provider's registration.
 old-location: wmi\iwbemeventsink_getrestrictedsink.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: f72ab8f7-e4de-4f64-80db-6981b0bd13d3
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: GetRestrictedSink method [Windows Management Instrumentation], GetRestrictedSink method [Windows Management Instrumentation], IWbemEventSink interface, GetRestrictedSink,IWbemEventSink.GetRestrictedSink, IWbemEventSink, IWbemEventSink interface [Windows Management Instrumentation], GetRestrictedSink method, IWbemEventSink::GetRestrictedSink, _hmm_iwbemeventsink_getrestrictedsink, wbemprov/IWbemEventSink::GetRestrictedSink, wmi.iwbemeventsink_getrestrictedsink
+ms.keywords: GetRestrictedSink, GetRestrictedSink method [Windows Management Instrumentation], GetRestrictedSink method [Windows Management Instrumentation],IWbemEventSink interface, IWbemEventSink interface [Windows Management Instrumentation],GetRestrictedSink method, IWbemEventSink.GetRestrictedSink, IWbemEventSink::GetRestrictedSink, _hmm_iwbemeventsink_getrestrictedsink, wbemprov/IWbemEventSink::GetRestrictedSink, wmi.iwbemeventsink_getrestrictedsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemEventSink::GetRestrictedSink method
+# IWbemEventSink::GetRestrictedSink
 
 
 ## -description

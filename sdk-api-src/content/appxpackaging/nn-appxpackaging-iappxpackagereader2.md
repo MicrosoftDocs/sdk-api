@@ -8,7 +8,7 @@ old-project: appxpkg
 ms.assetid: 8E46CFB5-1F48-41E8-85AD-C03685D4EA5F
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IAppxPackageReader2, IAppxPackageReader2 interface [App packaging and management], IAppxPackageReader2 interface [App packaging and management], described, appxpackaging/IAppxPackageReader2, appxpkg.iappxpackagereader2
+ms.keywords: IAppxPackageReader2, IAppxPackageReader2 interface [App packaging and management], IAppxPackageReader2 interface [App packaging and management],described, appxpackaging/IAppxPackageReader2, appxpkg.iappxpackagereader2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

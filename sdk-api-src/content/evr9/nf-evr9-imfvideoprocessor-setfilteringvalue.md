@@ -1,14 +1,14 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.SetFilteringValue
-title: IMFVideoProcessor::SetFilteringValue method
+title: IMFVideoProcessor::SetFilteringValue
 author: windows-driver-content
 description: Sets a parameter for an image filter.
 old-location: mf\imfvideoprocessor_setfilteringvalue.htm
 old-project: medfound
 ms.assetid: cb3c9516-2083-4c9d-b583-fc561f977ed5
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFVideoProcessor, IMFVideoProcessor interface [Media Foundation], SetFilteringValue method, IMFVideoProcessor::SetFilteringValue, SetFilteringValue method [Media Foundation], SetFilteringValue method [Media Foundation], IMFVideoProcessor interface, SetFilteringValue,IMFVideoProcessor.SetFilteringValue, cb3c9516-2083-4c9d-b583-fc561f977ed5, evr9/IMFVideoProcessor::SetFilteringValue, mf.imfvideoprocessor_setfilteringvalue
+ms.date: 5/3/2018
+ms.keywords: IMFVideoProcessor interface [Media Foundation],SetFilteringValue method, IMFVideoProcessor.SetFilteringValue, IMFVideoProcessor::SetFilteringValue, SetFilteringValue, SetFilteringValue method [Media Foundation], SetFilteringValue method [Media Foundation],IMFVideoProcessor interface, cb3c9516-2083-4c9d-b583-fc561f977ed5, evr9/IMFVideoProcessor::SetFilteringValue, mf.imfvideoprocessor_setfilteringvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IMFVideoProcessor::SetFilteringValue method
+# IMFVideoProcessor::SetFilteringValue
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_Rules
-title: INetFwPolicy2::get_Rules method
+title: INetFwPolicy2::get_Rules
 author: windows-driver-content
 description: Retrieves the collection of firewall rules.
 old-location: ics\inetfwpolicy2_rules.htm
 old-project: ICS
 ms.assetid: 1a3f2846-63c0-4790-b44f-654a34faa974
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], Rules property, INetFwPolicy2.Rules, INetFwPolicy2::get_Rules, Rules property [ICS/ICF], Rules property [ICS/ICF], INetFwPolicy2 interface, get_Rules,INetFwPolicy2.get_Rules, ics.inetfwpolicy2_rules, netfw/INetFwPolicy2::Rules, netfw/INetFwPolicy2::get_Rules
+ms.date: 5/1/2018
+ms.keywords: INetFwPolicy2 interface [ICS/ICF],Rules property, INetFwPolicy2.Rules, INetFwPolicy2.get_Rules, INetFwPolicy2::Rules, INetFwPolicy2::get_Rules, Rules property [ICS/ICF], Rules property [ICS/ICF],INetFwPolicy2 interface, get_Rules, ics.inetfwpolicy2_rules, netfw/INetFwPolicy2::Rules, netfw/INetFwPolicy2::get_Rules
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwPolicy2::get_Rules method
+# INetFwPolicy2::get_Rules
 
 
 ## -description

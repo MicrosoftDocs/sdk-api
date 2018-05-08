@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationResult.get_HResult
-title: IInstallationResult::get_HResult method
+title: IInstallationResult::get_HResult
 author: windows-driver-content
 description: Gets the HRESULT of the exception, if any, that is raised during the installation.
 old-location: wua\iinstallationresult_hresult.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 75178661-3b21-4d21-971c-93362a2cc287
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent], IInstallationResult interface, IInstallationResult, IInstallationResult interface [Windows Update Agent], HResult property, IInstallationResult.HResult, IInstallationResult::get_HResult, get_HResult,IInstallationResult.get_HResult, wua.iinstallationresult_hresult, wuapi/IInstallationResult::HResult, wuapi/IInstallationResult::get_HResult
+ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IInstallationResult interface, IInstallationResult interface [Windows Update Agent],HResult property, IInstallationResult.HResult, IInstallationResult.get_HResult, IInstallationResult::HResult, IInstallationResult::get_HResult, get_HResult, wua.iinstallationresult_hresult, wuapi/IInstallationResult::HResult, wuapi/IInstallationResult::get_HResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IInstallationResult::get_HResult method
+# IInstallationResult::get_HResult
 
 
 ## -description

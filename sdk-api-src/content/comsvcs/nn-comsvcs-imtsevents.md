@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: 7db3a373-00d3-480e-8f8e-7e65a468d5dc
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: IMtsEvents, IMtsEvents interface [COM+], IMtsEvents interface [COM+], described, _dtc_IMtsEvents_Interface, comsvcs/IMtsEvents, cos.imtsevents
+ms.keywords: IMtsEvents, IMtsEvents interface [COM+], IMtsEvents interface [COM+],described, _dtc_IMtsEvents_Interface, comsvcs/IMtsEvents, cos.imtsevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

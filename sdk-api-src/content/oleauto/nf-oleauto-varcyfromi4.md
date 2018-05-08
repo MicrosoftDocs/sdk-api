@@ -7,7 +7,7 @@ old-location: automat\varcyfromi4.htm
 old-project: automat
 ms.assetid: 5b9230fb-96c0-4b61-b932-e703a3611fbf
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/4/2018
 ms.keywords: VarCyFromI4, VarCyFromI4 function [Automation], _oa96_VarCyFromI4, automat.varcyfromi4, oleauto/VarCyFromI4
 ms.prod: windows-hardware
 ms.technology: windows-devices

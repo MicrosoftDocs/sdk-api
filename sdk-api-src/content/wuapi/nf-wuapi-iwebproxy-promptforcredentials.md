@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWebProxy.PromptForCredentials
-title: IWebProxy::PromptForCredentials method
+title: IWebProxy::PromptForCredentials
 author: windows-driver-content
 description: Prompts the user for the password to use for proxy authentication.
 old-location: wua\iwebproxy_promptforcredentials.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 2eeb4418-d9fe-41b8-97c9-cafe18aab528
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IWebProxy, IWebProxy interface [Windows Update Agent], PromptForCredentials method, IWebProxy::PromptForCredentials, PromptForCredentials method [Windows Update Agent], PromptForCredentials method [Windows Update Agent], IWebProxy interface, PromptForCredentials,IWebProxy.PromptForCredentials, wua.iwebproxy_promptforcredentials, wuapi/IWebProxy::PromptForCredentials
+ms.keywords: IWebProxy interface [Windows Update Agent],PromptForCredentials method, IWebProxy.PromptForCredentials, IWebProxy::PromptForCredentials, PromptForCredentials, PromptForCredentials method [Windows Update Agent], PromptForCredentials method [Windows Update Agent],IWebProxy interface, wua.iwebproxy_promptforcredentials, wuapi/IWebProxy::PromptForCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IWebProxy::PromptForCredentials method
+# IWebProxy::PromptForCredentials
 
 
 ## -description

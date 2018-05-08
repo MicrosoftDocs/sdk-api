@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_MGT.GetCountOfTableDescriptors
-title: IATSC_MGT::GetCountOfTableDescriptors method
+title: IATSC_MGT::GetCountOfTableDescriptors
 author: windows-driver-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_mgt_getcountoftabledescriptors.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 14bd596f-ca24-456b-bb53-4e7e37183422
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies], IATSC_MGT interface, GetCountOfTableDescriptors,IATSC_MGT.GetCountOfTableDescriptors, IATSC_MGT, IATSC_MGT interface [Microsoft TV Technologies], GetCountOfTableDescriptors method, IATSC_MGT::GetCountOfTableDescriptors, IATSC_MGTGetCountOfTableDescriptors, atscpsipparser/IATSC_MGT::GetCountOfTableDescriptors, mstv.iatsc_mgt_getcountoftabledescriptors
+ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IATSC_MGT.GetCountOfTableDescriptors, IATSC_MGT::GetCountOfTableDescriptors, IATSC_MGTGetCountOfTableDescriptors, atscpsipparser/IATSC_MGT::GetCountOfTableDescriptors, mstv.iatsc_mgt_getcountoftabledescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IATSC_MGT::GetCountOfTableDescriptors method
+# IATSC_MGT::GetCountOfTableDescriptors
 
 
 ## -description

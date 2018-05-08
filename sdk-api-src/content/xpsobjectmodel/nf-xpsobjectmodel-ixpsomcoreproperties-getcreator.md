@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetCreator
-title: IXpsOMCoreProperties::GetCreator method
+title: IXpsOMCoreProperties::GetCreator
 author: windows-driver-content
 description: Gets the creator property.
 old-location: xps\ixpsomcoreproperties_getcreator.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 35d7a3ad-e1f7-49bf-ad30-d577cc9d4731
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetCreator method [XPS Documents and Packaging], GetCreator method [XPS Documents and Packaging], IXpsOMCoreProperties interface, GetCreator,IXpsOMCoreProperties.GetCreator, IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], GetCreator method, IXpsOMCoreProperties::GetCreator, xps.ixpsomcoreproperties_getcreator, xpsobjectmodel/IXpsOMCoreProperties::GetCreator
+ms.keywords: GetCreator, GetCreator method [XPS Documents and Packaging], GetCreator method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCreator method, IXpsOMCoreProperties.GetCreator, IXpsOMCoreProperties::GetCreator, xps.ixpsomcoreproperties_getcreator, xpsobjectmodel/IXpsOMCoreProperties::GetCreator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMCoreProperties::GetCreator method
+# IXpsOMCoreProperties::GetCreator
 
 
 ## -description

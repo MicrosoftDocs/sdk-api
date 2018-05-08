@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISynchronizedInputProvider.Cancel
-title: ISynchronizedInputProvider::Cancel method
+title: ISynchronizedInputProvider::Cancel
 author: windows-driver-content
 description: Cancels listening for input.
 old-location: winauto\uiauto_ISynchronizedInputProvider_Cancel.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 388fd113-ec66-4152-a42a-a485edcb9b80
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: Cancel method [Windows Accessibility], Cancel method [Windows Accessibility], ISynchronizedInputProvider interface, Cancel,ISynchronizedInputProvider.Cancel, ISynchronizedInputProvider, ISynchronizedInputProvider interface [Windows Accessibility], Cancel method, ISynchronizedInputProvider::Cancel, uiauto.uiauto_ISynchronizedInputProvider_Cancel, uiauto_ISynchronizedInputProvider_Cancel, uiautomationcore/ISynchronizedInputProvider::Cancel, winauto.uiauto_ISynchronizedInputProvider_Cancel
+ms.keywords: Cancel, Cancel method [Windows Accessibility], Cancel method [Windows Accessibility],ISynchronizedInputProvider interface, ISynchronizedInputProvider interface [Windows Accessibility],Cancel method, ISynchronizedInputProvider.Cancel, ISynchronizedInputProvider::Cancel, uiauto.uiauto_ISynchronizedInputProvider_Cancel, uiauto_ISynchronizedInputProvider_Cancel, uiautomationcore/ISynchronizedInputProvider::Cancel, winauto.uiauto_ISynchronizedInputProvider_Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ISynchronizedInputProvider::Cancel method
+# ISynchronizedInputProvider::Cancel
 
 
 ## -description

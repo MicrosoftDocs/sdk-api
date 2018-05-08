@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_Type
-title: IUpdate::get_Type method
+title: IUpdate::get_Type
 author: windows-driver-content
 description: Gets the type of the update.
 old-location: wua\iupdate_type.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 2556ee19-b6ff-4e66-9e40-2c0a1d6a0176
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IUpdate, IUpdate interface [Windows Update Agent], Type property, IUpdate.Type, IUpdate::get_Type, Type property [Windows Update Agent], Type property [Windows Update Agent], IUpdate interface, get_Type,IUpdate.get_Type, wua.iupdate_type, wuapi/IUpdate::Type, wuapi/IUpdate::get_Type
+ms.keywords: IUpdate interface [Windows Update Agent],Type property, IUpdate.Type, IUpdate.get_Type, IUpdate::Type, IUpdate::get_Type, Type property [Windows Update Agent], Type property [Windows Update Agent],IUpdate interface, get_Type, wua.iupdate_type, wuapi/IUpdate::Type, wuapi/IUpdate::get_Type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate::get_Type method
+# IUpdate::get_Type
 
 
 ## -description

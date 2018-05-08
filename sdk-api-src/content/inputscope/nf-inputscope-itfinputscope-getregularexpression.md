@@ -1,6 +1,6 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetRegularExpression
-title: ITfInputScope::GetRegularExpression method
+title: ITfInputScope::GetRegularExpression
 author: windows-driver-content
 description: ITfInputScope::GetRegularExpression method
 old-location: tsf\itfinputscope_getregularexpression.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: fa24c473-efc7-408f-86e8-905161de10f0
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetRegularExpression method [Text Services Framework], GetRegularExpression method [Text Services Framework], ITfInputScope interface, GetRegularExpression,ITfInputScope.GetRegularExpression, ITfInputScope, ITfInputScope interface [Text Services Framework], GetRegularExpression method, ITfInputScope::GetRegularExpression, inputscope/ITfInputScope::GetRegularExpression, tsf.itfinputscope_getregularexpression
+ms.keywords: GetRegularExpression, GetRegularExpression method [Text Services Framework], GetRegularExpression method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetRegularExpression method, ITfInputScope.GetRegularExpression, ITfInputScope::GetRegularExpression, inputscope/ITfInputScope::GetRegularExpression, tsf.itfinputscope_getregularexpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfInputScope::GetRegularExpression method
+# ITfInputScope::GetRegularExpression
 
 
 ## -description

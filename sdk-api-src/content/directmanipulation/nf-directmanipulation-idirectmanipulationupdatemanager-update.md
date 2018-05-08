@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationUpdateManager.Update
-title: IDirectManipulationUpdateManager::Update method
+title: IDirectManipulationUpdateManager::Update
 author: windows-driver-content
 description: Updates Direct Manipulation at the current time.
 old-location: directmanipulation\idirectmanipulationupdatemanager_update.htm
@@ -8,7 +8,7 @@ old-project: directmanipulation
 ms.assetid: dffa747c-933a-4b61-9f15-e175d9338774
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDirectManipulationUpdateManager, IDirectManipulationUpdateManager interface [Direct Manipulation], Update method, IDirectManipulationUpdateManager::Update, Update method [Direct Manipulation], Update method [Direct Manipulation], IDirectManipulationUpdateManager interface, Update,IDirectManipulationUpdateManager.Update, directmanipulation.idirectmanipulationupdatemanager_update, directmanipulation/IDirectManipulationUpdateManager::Update
+ms.keywords: IDirectManipulationUpdateManager interface [Direct Manipulation],Update method, IDirectManipulationUpdateManager.Update, IDirectManipulationUpdateManager::Update, Update, Update method [Direct Manipulation], Update method [Direct Manipulation],IDirectManipulationUpdateManager interface, directmanipulation.idirectmanipulationupdatemanager_update, directmanipulation/IDirectManipulationUpdateManager::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationUpdateManager::Update method
+# IDirectManipulationUpdateManager::Update
 
 
 ## -description

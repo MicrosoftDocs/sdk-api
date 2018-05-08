@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetFileName
-title: IESLicenseRenewalResultEvent::GetFileName method
+title: IESLicenseRenewalResultEvent::GetFileName
 author: windows-driver-content
 description: Gets the file name for the license to renew from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent_getfilename.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6ef49a38-c005-4731-a1cb-d5a63ea94e71
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetFileName method [DirectShow], GetFileName method [DirectShow], IESLicenseRenewalResultEvent interface, GetFileName,IESLicenseRenewalResultEvent.GetFileName, IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], GetFileName method, IESLicenseRenewalResultEvent::GetFileName, mstv.ieslicenserenewalresultevent_getfilename, tuner/IESLicenseRenewalResultEvent::GetFileName
+ms.keywords: GetFileName, GetFileName method [DirectShow], GetFileName method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetFileName method, IESLicenseRenewalResultEvent.GetFileName, IESLicenseRenewalResultEvent::GetFileName, mstv.ieslicenserenewalresultevent_getfilename, tuner/IESLicenseRenewalResultEvent::GetFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IESLicenseRenewalResultEvent::GetFileName method
+# IESLicenseRenewalResultEvent::GetFileName
 
 
 ## -description

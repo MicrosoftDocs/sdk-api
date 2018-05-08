@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern2.RangeFromAnnotation
-title: IUIAutomationTextPattern2::RangeFromAnnotation method
+title: IUIAutomationTextPattern2::RangeFromAnnotation
 author: windows-driver-content
 description: Retrieves a text range containing the text that is the target of the annotation associated with the specified annotation element.
 old-location: winauto\uiauto_iuiautomationtextpattern2_rangefromannotation.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: C79678D7-2CF4-4DBC-BD0B-7DE22AF25AF9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationTextPattern2, IUIAutomationTextPattern2 interface [Windows Accessibility], RangeFromAnnotation method, IUIAutomationTextPattern2::RangeFromAnnotation, RangeFromAnnotation method [Windows Accessibility], RangeFromAnnotation method [Windows Accessibility], IUIAutomationTextPattern2 interface, RangeFromAnnotation,IUIAutomationTextPattern2.RangeFromAnnotation, uiautomationclient/IUIAutomationTextPattern2::RangeFromAnnotation, winauto.uiauto_iuiautomationtextpattern2_rangefromannotation
+ms.keywords: IUIAutomationTextPattern2 interface [Windows Accessibility],RangeFromAnnotation method, IUIAutomationTextPattern2.RangeFromAnnotation, IUIAutomationTextPattern2::RangeFromAnnotation, RangeFromAnnotation, RangeFromAnnotation method [Windows Accessibility], RangeFromAnnotation method [Windows Accessibility],IUIAutomationTextPattern2 interface, uiautomationclient/IUIAutomationTextPattern2::RangeFromAnnotation, winauto.uiauto_iuiautomationtextpattern2_rangefromannotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTextPattern2::RangeFromAnnotation method
+# IUIAutomationTextPattern2::RangeFromAnnotation
 
 
 ## -description

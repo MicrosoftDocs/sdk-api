@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.SetInitialValueAndVelocity
-title: IUIAnimationInterpolator::SetInitialValueAndVelocity method
+title: IUIAnimationInterpolator::SetInitialValueAndVelocity
 author: windows-driver-content
 description: Sets the initial value and velocity at the start of the transition.
 old-location: uianimation\iuianimationinterpolator_setinitialvalueandvelocity.htm
@@ -8,7 +8,7 @@ old-project: UIAnimation
 ms.assetid: a1c5451a-b8d0-4eb7-883c-6bd1d585cb11
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: IUIAnimationInterpolator, IUIAnimationInterpolator interface [Windows Animation], SetInitialValueAndVelocity method, IUIAnimationInterpolator::SetInitialValueAndVelocity, SetInitialValueAndVelocity method [Windows Animation], SetInitialValueAndVelocity method [Windows Animation], IUIAnimationInterpolator interface, SetInitialValueAndVelocity,IUIAnimationInterpolator.SetInitialValueAndVelocity, uianimation.iuianimationinterpolator_setinitialvalueandvelocity, uianimation/IUIAnimationInterpolator::SetInitialValueAndVelocity
+ms.keywords: IUIAnimationInterpolator interface [Windows Animation],SetInitialValueAndVelocity method, IUIAnimationInterpolator.SetInitialValueAndVelocity, IUIAnimationInterpolator::SetInitialValueAndVelocity, SetInitialValueAndVelocity, SetInitialValueAndVelocity method [Windows Animation], SetInitialValueAndVelocity method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_setinitialvalueandvelocity, uianimation/IUIAnimationInterpolator::SetInitialValueAndVelocity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationInterpolator::SetInitialValueAndVelocity method
+# IUIAnimationInterpolator::SetInitialValueAndVelocity
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPLibraryServices.getLibraryByType
-title: IWMPLibraryServices::getLibraryByType method
+title: IWMPLibraryServices::getLibraryByType
 author: windows-driver-content
 description: The getLibraryByType method retrieves a pointer to an IWMPLibrary interface that represents the library that has the specified type and index.
 old-location: wmp\iwmplibraryservices_getlibrarybytype.htm
 old-project: WMP
 ms.assetid: 766cfd4e-53e6-44a8-87e6-2b9c1fa2ff3f
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPLibraryServices, IWMPLibraryServices interface [Windows Media Player], getLibraryByType method, IWMPLibraryServices::getLibraryByType, IWMPLibraryServicesgetLibraryByType, getLibraryByType method [Windows Media Player], getLibraryByType method [Windows Media Player], IWMPLibraryServices interface, getLibraryByType,IWMPLibraryServices.getLibraryByType, wmp.iwmplibraryservices_getlibrarybytype, wmp/IWMPLibraryServices::getLibraryByType
+ms.date: 5/4/2018
+ms.keywords: IWMPLibraryServices interface [Windows Media Player],getLibraryByType method, IWMPLibraryServices.getLibraryByType, IWMPLibraryServices::getLibraryByType, IWMPLibraryServicesgetLibraryByType, getLibraryByType, getLibraryByType method [Windows Media Player], getLibraryByType method [Windows Media Player],IWMPLibraryServices interface, wmp.iwmplibraryservices_getlibrarybytype, wmp/IWMPLibraryServices::getLibraryByType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPLibraryServices::getLibraryByType method
+# IWMPLibraryServices::getLibraryByType
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: mbn
 ms.assetid: ef7f5dc5-ed66-450c-9623-0c1d725d82c6
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IMbnSubscriberInformation, IMbnSubscriberInformation interface [Microsoft Broadband Networks], IMbnSubscriberInformation interface [Microsoft Broadband Networks], described, mbn.imbnsubscriberinformation, mbnapi/IMbnSubscriberInformation
+ms.keywords: IMbnSubscriberInformation, IMbnSubscriberInformation interface [Microsoft Broadband Networks], IMbnSubscriberInformation interface [Microsoft Broadband Networks],described, mbn.imbnsubscriberinformation, mbnapi/IMbnSubscriberInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

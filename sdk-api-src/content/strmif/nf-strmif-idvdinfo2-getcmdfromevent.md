@@ -1,14 +1,14 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCmdFromEvent
-title: IDvdInfo2::GetCmdFromEvent method
+title: IDvdInfo2::GetCmdFromEvent
 author: windows-driver-content
 description: The GetCmdFromEvent method retrieves an IDvdCmd object from an EC_DVD_CMD_START or EC_DVD_CMD_END event.
 old-location: dshow\idvdinfo2_getcmdfromevent.htm
 old-project: DirectShow
 ms.assetid: 488a394f-222f-4536-a20a-579df5c2f91f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: GetCmdFromEvent method [DirectShow], GetCmdFromEvent method [DirectShow], IDvdInfo2 interface, GetCmdFromEvent,IDvdInfo2.GetCmdFromEvent, IDvdInfo2, IDvdInfo2 interface [DirectShow], GetCmdFromEvent method, IDvdInfo2::GetCmdFromEvent, IDvdInfo2GetCmdFromEvent, dshow.idvdinfo2_getcmdfromevent, strmif/IDvdInfo2::GetCmdFromEvent
+ms.date: 4/30/2018
+ms.keywords: GetCmdFromEvent, GetCmdFromEvent method [DirectShow], GetCmdFromEvent method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCmdFromEvent method, IDvdInfo2.GetCmdFromEvent, IDvdInfo2::GetCmdFromEvent, IDvdInfo2GetCmdFromEvent, dshow.idvdinfo2_getcmdfromevent, strmif/IDvdInfo2::GetCmdFromEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1
 ---
 
-# IDvdInfo2::GetCmdFromEvent method
+# IDvdInfo2::GetCmdFromEvent
 
 
 ## -description

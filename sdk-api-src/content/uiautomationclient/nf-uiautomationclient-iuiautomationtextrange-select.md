@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.Select
-title: IUIAutomationTextRange::Select method
+title: IUIAutomationTextRange::Select
 author: windows-driver-content
 description: Selects the span of text that corresponds to this text range, and removes any previous selection.
 old-location: winauto\uiauto_IUIAutomationTextRange_Select.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: 19e8dfe2-bf58-4ea1-8274-4e914f86ba07
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], Select method, IUIAutomationTextRange::Select, Select method [Windows Accessibility], Select method [Windows Accessibility], IUIAutomationTextRange interface, Select,IUIAutomationTextRange.Select, uiauto.uiauto_IUIAutomationTextRange_Select, uiauto_IUIAutomationTextRange_Select, uiautomationclient/IUIAutomationTextRange::Select, winauto.uiauto_IUIAutomationTextRange_Select
+ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],Select method, IUIAutomationTextRange.Select, IUIAutomationTextRange::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_Select, uiauto_IUIAutomationTextRange_Select, uiautomationclient/IUIAutomationTextRange::Select, winauto.uiauto_IUIAutomationTextRange_Select
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTextRange::Select method
+# IUIAutomationTextRange::Select
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.SetValue
-title: IDataCollectorSet::SetValue method
+title: IDataCollectorSet::SetValue
 author: windows-driver-content
 description: Sets a user-defined value.
 old-location: pla\idatacollectorset_setvalue.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: d2143de9-f189-47e0-8b28-0422d9984459
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], SetValue method, IDataCollectorSet::SetValue, SetValue method [PLA], SetValue method [PLA], IDataCollectorSet interface, SetValue,IDataCollectorSet.SetValue, base.idatacollectorset_setvalue, pla.idatacollectorset_setvalue, pla/IDataCollectorSet::SetValue
+ms.keywords: IDataCollectorSet interface [PLA],SetValue method, IDataCollectorSet.SetValue, IDataCollectorSet::SetValue, SetValue, SetValue method [PLA], SetValue method [PLA],IDataCollectorSet interface, base.idatacollectorset_setvalue, pla.idatacollectorset_setvalue, pla/IDataCollectorSet::SetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::SetValue method
+# IDataCollectorSet::SetValue
 
 
 ## -description

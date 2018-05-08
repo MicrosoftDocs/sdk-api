@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Fence.GetCompletedValue
-title: ID3D12Fence::GetCompletedValue method
+title: ID3D12Fence::GetCompletedValue
 author: windows-driver-content
 description: Gets the current value of the fence.
 old-location: direct3d12\id3d12fence_getcompletedvalue.htm
@@ -8,7 +8,7 @@ old-project: direct3d12
 ms.assetid: 2F2DDFC5-8D31-4BCE-B378-610C95D7805F
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetCompletedValue method, GetCompletedValue method, ID3D12Fence interface, GetCompletedValue,ID3D12Fence.GetCompletedValue, ID3D12Fence, ID3D12Fence interface, GetCompletedValue method, ID3D12Fence::GetCompletedValue, d3d12/ID3D12Fence::GetCompletedValue, direct3d12.id3d12fence_getcompletedvalue
+ms.keywords: GetCompletedValue, GetCompletedValue method, GetCompletedValue method,ID3D12Fence interface, ID3D12Fence interface,GetCompletedValue method, ID3D12Fence.GetCompletedValue, ID3D12Fence::GetCompletedValue, d3d12/ID3D12Fence::GetCompletedValue, direct3d12.id3d12fence_getcompletedvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: D3D12.dll
 req.irql: 
 ---
 
-# ID3D12Fence::GetCompletedValue method
+# ID3D12Fence::GetCompletedValue
 
 
 ## -description

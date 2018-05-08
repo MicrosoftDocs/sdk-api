@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.SetJolietProperties
-title: IJolietDiscMaster::SetJolietProperties method
+title: IJolietDiscMaster::SetJolietProperties
 author: windows-driver-content
 description: Sets the Joliet properties.
 old-location: imapi\ijolietdiscmaster_setjolietproperties.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: 467f8fb8-2a82-46d2-b304-3c3a600a9c63
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: IJolietDiscMaster, IJolietDiscMaster interface [IMAPI], SetJolietProperties method, IJolietDiscMaster::SetJolietProperties, SetJolietProperties method [IMAPI], SetJolietProperties method [IMAPI], IJolietDiscMaster interface, SetJolietProperties,IJolietDiscMaster.SetJolietProperties, _win32_ijolietdiscmaster_setjolietproperties, base.ijolietdiscmaster_setjolietproperties, imapi.ijolietdiscmaster_setjolietproperties, imapi/IJolietDiscMaster::SetJolietProperties
+ms.keywords: IJolietDiscMaster interface [IMAPI],SetJolietProperties method, IJolietDiscMaster.SetJolietProperties, IJolietDiscMaster::SetJolietProperties, SetJolietProperties, SetJolietProperties method [IMAPI], SetJolietProperties method [IMAPI],IJolietDiscMaster interface, _win32_ijolietdiscmaster_setjolietproperties, base.ijolietdiscmaster_setjolietproperties, imapi.ijolietdiscmaster_setjolietproperties, imapi/IJolietDiscMaster::SetJolietProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IJolietDiscMaster::SetJolietProperties method
+# IJolietDiscMaster::SetJolietProperties
 
 
 ## -description

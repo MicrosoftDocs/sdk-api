@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_InitialAngularVelocity
-title: IInertiaProcessor::put_InitialAngularVelocity method
+title: IInertiaProcessor::put_InitialAngularVelocity
 author: windows-driver-content
 description: The InitialAngularVelocity property specifies the rotational (angular) velocity of the target when movement begins.
 old-location: wintouch\iinertiaprocessor_initialangularvelocity.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: a15ac600-ef03-4234-ac38-dc3cf212a3cb
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IInertiaProcessor, IInertiaProcessor interface [Windows Touch], InitialAngularVelocity property, IInertiaProcessor.InitialAngularVelocity, IInertiaProcessor::get_InitialAngularVelocity, IInertiaProcessor::put_InitialAngularVelocity, InitialAngularVelocity property [Windows Touch], InitialAngularVelocity property [Windows Touch], IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialAngularVelocity, manipulations/IInertiaProcessor::get_InitialAngularVelocity, manipulations/IInertiaProcessor::put_InitialAngularVelocity, put_InitialAngularVelocity,IInertiaProcessor.put_InitialAngularVelocity, wintouch.iinertiaprocessor_initialangularvelocity
+ms.keywords: IInertiaProcessor interface [Windows Touch],InitialAngularVelocity property, IInertiaProcessor.InitialAngularVelocity, IInertiaProcessor.put_InitialAngularVelocity, IInertiaProcessor::InitialAngularVelocity, IInertiaProcessor::get_InitialAngularVelocity, IInertiaProcessor::put_InitialAngularVelocity, InitialAngularVelocity property [Windows Touch], InitialAngularVelocity property [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialAngularVelocity, manipulations/IInertiaProcessor::get_InitialAngularVelocity, manipulations/IInertiaProcessor::put_InitialAngularVelocity, put_InitialAngularVelocity, wintouch.iinertiaprocessor_initialangularvelocity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IInertiaProcessor::put_InitialAngularVelocity method
+# IInertiaProcessor::put_InitialAngularVelocity
 
 
 ## -description

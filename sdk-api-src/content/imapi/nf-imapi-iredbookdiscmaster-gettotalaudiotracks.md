@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetTotalAudioTracks
-title: IRedbookDiscMaster::GetTotalAudioTracks method
+title: IRedbookDiscMaster::GetTotalAudioTracks
 author: windows-driver-content
 description: Retrieves the total number of tracks that have either been staged or are being staged.
 old-location: imapi\iredbookdiscmaster_gettotalaudiotracks.htm
@@ -8,7 +8,7 @@ old-project: imapi
 ms.assetid: ef284941-0724-4e0a-8ce9-c47d5a53a30e
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetTotalAudioTracks method [IMAPI], GetTotalAudioTracks method [IMAPI], IRedbookDiscMaster interface, GetTotalAudioTracks,IRedbookDiscMaster.GetTotalAudioTracks, IRedbookDiscMaster, IRedbookDiscMaster interface [IMAPI], GetTotalAudioTracks method, IRedbookDiscMaster::GetTotalAudioTracks, _win32_iredbookdiscmaster_gettotalaudiotracks, base.iredbookdiscmaster_gettotalaudiotracks, imapi.iredbookdiscmaster_gettotalaudiotracks, imapi/IRedbookDiscMaster::GetTotalAudioTracks
+ms.keywords: GetTotalAudioTracks, GetTotalAudioTracks method [IMAPI], GetTotalAudioTracks method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetTotalAudioTracks method, IRedbookDiscMaster.GetTotalAudioTracks, IRedbookDiscMaster::GetTotalAudioTracks, _win32_iredbookdiscmaster_gettotalaudiotracks, base.iredbookdiscmaster_gettotalaudiotracks, imapi.iredbookdiscmaster_gettotalaudiotracks, imapi/IRedbookDiscMaster::GetTotalAudioTracks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IRedbookDiscMaster::GetTotalAudioTracks method
+# IRedbookDiscMaster::GetTotalAudioTracks
 
 
 ## -description

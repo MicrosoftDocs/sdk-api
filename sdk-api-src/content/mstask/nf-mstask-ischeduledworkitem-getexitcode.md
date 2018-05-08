@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetExitCode
-title: IScheduledWorkItem::GetExitCode method
+title: IScheduledWorkItem::GetExitCode
 author: windows-driver-content
 description: Retrieves the last exit code returned by the executable associated with the work item on its last run. The method also returns the exit code returned to Task Scheduler when it last attempted to run the work item.
 old-location: taskschd\ischeduledworkitem_getexitcode.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: 857d8b84-2ccf-4888-8aea-869ba70d3f64
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: GetExitCode method [Task Scheduler], GetExitCode method [Task Scheduler], IScheduledWorkItem interface, GetExitCode,IScheduledWorkItem.GetExitCode, IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], GetExitCode method, IScheduledWorkItem::GetExitCode, _msb_ischeduledworkitem_getexitcode, mstask/IScheduledWorkItem::GetExitCode, taskschd.ischeduledworkitem_getexitcode
+ms.keywords: GetExitCode, GetExitCode method [Task Scheduler], GetExitCode method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetExitCode method, IScheduledWorkItem.GetExitCode, IScheduledWorkItem::GetExitCode, _msb_ischeduledworkitem_getexitcode, mstask/IScheduledWorkItem::GetExitCode, taskschd.ischeduledworkitem_getexitcode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IScheduledWorkItem::GetExitCode method
+# IScheduledWorkItem::GetExitCode
 
 
 ## -description

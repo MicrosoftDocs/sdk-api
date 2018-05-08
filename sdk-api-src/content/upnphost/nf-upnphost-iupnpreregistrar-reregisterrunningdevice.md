@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPReregistrar.ReregisterRunningDevice
-title: IUPnPReregistrar::ReregisterRunningDevice method
+title: IUPnPReregistrar::ReregisterRunningDevice
 author: windows-driver-content
 description: The ReregisterRunningDevice method re-registers a running device with the device host.
 old-location: upnp\iupnpreregistrar_reregisterrunningdevice.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: e5e9257e-1143-416c-8862-a69b726f5e23
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IUPnPReregistrar, IUPnPReregistrar interface [UPnP APIs], ReregisterRunningDevice method, IUPnPReregistrar::ReregisterRunningDevice, ReregisterRunningDevice method [UPnP APIs], ReregisterRunningDevice method [UPnP APIs], IUPnPReregistrar interface, ReregisterRunningDevice,IUPnPReregistrar.ReregisterRunningDevice, _upnp_iupnpreregistrar_reregisterrunningdevice, upnp.iupnpreregistrar_reregisterrunningdevice, upnphost/IUPnPReregistrar::ReregisterRunningDevice
+ms.keywords: IUPnPReregistrar interface [UPnP APIs],ReregisterRunningDevice method, IUPnPReregistrar.ReregisterRunningDevice, IUPnPReregistrar::ReregisterRunningDevice, ReregisterRunningDevice, ReregisterRunningDevice method [UPnP APIs], ReregisterRunningDevice method [UPnP APIs],IUPnPReregistrar interface, _upnp_iupnpreregistrar_reregisterrunningdevice, upnp.iupnpreregistrar_reregisterrunningdevice, upnphost/IUPnPReregistrar::ReregisterRunningDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPReregistrar::ReregisterRunningDevice method
+# IUPnPReregistrar::ReregisterRunningDevice
 
 
 ## -description

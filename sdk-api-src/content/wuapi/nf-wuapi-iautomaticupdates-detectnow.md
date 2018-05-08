@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.DetectNow
-title: IAutomaticUpdates::DetectNow method
+title: IAutomaticUpdates::DetectNow
 author: windows-driver-content
 description: Begins the Automatic Updates detection task if Automatic Updates is enabled. If any updates are detected, the installation behavior is determined by the NotificationLevel property of the IAutomaticUpdatesSettings interface.
 old-location: wua\iautomaticupdates_detectnow.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: ef40cd57-eab3-4ccf-a574-ab5237565e5b
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: DetectNow method [Windows Update Agent], DetectNow method [Windows Update Agent], IAutomaticUpdates interface, DetectNow,IAutomaticUpdates.DetectNow, IAutomaticUpdates, IAutomaticUpdates interface [Windows Update Agent], DetectNow method, IAutomaticUpdates::DetectNow, wua.iautomaticupdates_detectnow, wuapi/IAutomaticUpdates::DetectNow
+ms.keywords: DetectNow, DetectNow method [Windows Update Agent], DetectNow method [Windows Update Agent],IAutomaticUpdates interface, IAutomaticUpdates interface [Windows Update Agent],DetectNow method, IAutomaticUpdates.DetectNow, IAutomaticUpdates::DetectNow, wua.iautomaticupdates_detectnow, wuapi/IAutomaticUpdates::DetectNow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IAutomaticUpdates::DetectNow method
+# IAutomaticUpdates::DetectNow
 
 
 ## -description

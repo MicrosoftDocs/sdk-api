@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.SetResourceMinLOD
-title: ID3D11DeviceContext::SetResourceMinLOD method
+title: ID3D11DeviceContext::SetResourceMinLOD
 author: windows-driver-content
 description: Sets the minimum level-of-detail (LOD) for a resource.
 old-location: direct3d11\id3d11devicecontext_setresourceminlod.htm
@@ -8,7 +8,7 @@ old-project: direct3d11
 ms.assetid: c718bc0b-fb3b-49fd-91f1-098edc0c115d
 ms.author: windowsdriverdev
 ms.date: 4/6/2018
-ms.keywords: 09f84905-66c1-c11b-7669-74d84525bebd, ID3D11DeviceContext, ID3D11DeviceContext interface [Direct3D 11], SetResourceMinLOD method, ID3D11DeviceContext::SetResourceMinLOD, SetResourceMinLOD method [Direct3D 11], SetResourceMinLOD method [Direct3D 11], ID3D11DeviceContext interface, SetResourceMinLOD,ID3D11DeviceContext.SetResourceMinLOD, d3d11/ID3D11DeviceContext::SetResourceMinLOD, direct3d11.id3d11devicecontext_setresourceminlod
+ms.keywords: 09f84905-66c1-c11b-7669-74d84525bebd, ID3D11DeviceContext interface [Direct3D 11],SetResourceMinLOD method, ID3D11DeviceContext.SetResourceMinLOD, ID3D11DeviceContext::SetResourceMinLOD, SetResourceMinLOD, SetResourceMinLOD method [Direct3D 11], SetResourceMinLOD method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::SetResourceMinLOD, direct3d11.id3d11devicecontext_setresourceminlod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D11DeviceContext::SetResourceMinLOD method
+# ID3D11DeviceContext::SetResourceMinLOD
 
 
 ## -description

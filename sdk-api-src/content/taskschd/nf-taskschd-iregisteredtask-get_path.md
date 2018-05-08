@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_Path
-title: IRegisteredTask::get_Path method
+title: IRegisteredTask::get_Path
 author: windows-driver-content
 description: Gets the path to where the registered task is stored.
 old-location: taskschd\iregisteredtask_path.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: cf097dae-d92b-48c8-bc96-8169b94b0763
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRegisteredTask, IRegisteredTask interface [Task Scheduler], Path property, IRegisteredTask.Path, IRegisteredTask::get_Path, Path property [Task Scheduler], Path property [Task Scheduler], IRegisteredTask interface, get_Path,IRegisteredTask.get_Path, taskschd.iregisteredtask_path, taskschd/IRegisteredTask::Path, taskschd/IRegisteredTask::get_Path
+ms.keywords: IRegisteredTask interface [Task Scheduler],Path property, IRegisteredTask.Path, IRegisteredTask.get_Path, IRegisteredTask::Path, IRegisteredTask::get_Path, Path property [Task Scheduler], Path property [Task Scheduler],IRegisteredTask interface, get_Path, taskschd.iregisteredtask_path, taskschd/IRegisteredTask::Path, taskschd/IRegisteredTask::get_Path
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegisteredTask::get_Path method
+# IRegisteredTask::get_Path
 
 
 ## -description

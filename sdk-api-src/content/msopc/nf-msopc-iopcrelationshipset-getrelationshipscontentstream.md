@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.GetRelationshipsContentStream
-title: IOpcRelationshipSet::GetRelationshipsContentStream method
+title: IOpcRelationshipSet::GetRelationshipsContentStream
 author: windows-driver-content
 description: Gets a read-only stream that contains the part content of the Relationships part represented by the set.
 old-location: opc\iopcrelationshipset_getrelationshipscontentstream.htm
@@ -8,7 +8,7 @@ old-project: OPC
 ms.assetid: 648e5bd1-25cc-48df-8120-ca1756eff8f7
 ms.author: windowsdriverdev
 ms.date: 3/14/2018
-ms.keywords: GetRelationshipsContentStream method [Open Packaging Conventions], GetRelationshipsContentStream method [Open Packaging Conventions], IOpcRelationshipSet interface, GetRelationshipsContentStream,IOpcRelationshipSet.GetRelationshipsContentStream, IOpcRelationshipSet, IOpcRelationshipSet interface [Open Packaging Conventions], GetRelationshipsContentStream method, IOpcRelationshipSet::GetRelationshipsContentStream, msopc/IOpcRelationshipSet::GetRelationshipsContentStream, opc.iopcrelationshipset_getrelationshipscontentstream
+ms.keywords: GetRelationshipsContentStream, GetRelationshipsContentStream method [Open Packaging Conventions], GetRelationshipsContentStream method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],GetRelationshipsContentStream method, IOpcRelationshipSet.GetRelationshipsContentStream, IOpcRelationshipSet::GetRelationshipsContentStream, msopc/IOpcRelationshipSet::GetRelationshipsContentStream, opc.iopcrelationshipset_getrelationshipscontentstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IOpcRelationshipSet::GetRelationshipsContentStream method
+# IOpcRelationshipSet::GetRelationshipsContentStream
 
 
 ## -description

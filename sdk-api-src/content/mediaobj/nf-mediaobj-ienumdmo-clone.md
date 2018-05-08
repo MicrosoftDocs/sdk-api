@@ -1,14 +1,14 @@
 ---
 UID: NF:mediaobj.IEnumDMO.Clone
-title: IEnumDMO::Clone method
+title: IEnumDMO::Clone
 author: windows-driver-content
 description: This method is not implemented.
 old-location: dshow\ienumdmo_clone.htm
 old-project: DirectShow
 ms.assetid: 9edca502-7dff-493f-8bce-4bffe8233487
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: Clone method [DirectShow], Clone method [DirectShow], IEnumDMO interface, Clone,IEnumDMO.Clone, IEnumDMO, IEnumDMO interface [DirectShow], Clone method, IEnumDMO::Clone, IEnumDMOClone, dshow.ienumdmo_clone, mediaobj/IEnumDMO::Clone
+ms.date: 4/30/2018
+ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumDMO interface, IEnumDMO interface [DirectShow],Clone method, IEnumDMO.Clone, IEnumDMO::Clone, IEnumDMOClone, dshow.ienumdmo_clone, mediaobj/IEnumDMO::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IEnumDMO::Clone method
+# IEnumDMO::Clone
 
 
 ## -description

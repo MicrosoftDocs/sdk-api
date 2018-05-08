@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_UniqueContainerName
-title: IX509PrivateKey::get_UniqueContainerName method
+title: IX509PrivateKey::get_UniqueContainerName
 author: windows-driver-content
 description: Retrieves a unique name for the key container.
 old-location: security\ix509privatekey_uniquecontainername_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 93da413f-556d-4cda-8628-ce4a2150da19
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], UniqueContainerName property, IX509PrivateKey.UniqueContainerName, IX509PrivateKey::get_UniqueContainerName, UniqueContainerName property [Security], UniqueContainerName property [Security], IX509PrivateKey interface, certenroll/IX509PrivateKey::UniqueContainerName, certenroll/IX509PrivateKey::get_UniqueContainerName, get_UniqueContainerName,IX509PrivateKey.get_UniqueContainerName, security.ix509privatekey_uniquecontainername_property
+ms.keywords: IX509PrivateKey interface [Security],UniqueContainerName property, IX509PrivateKey.UniqueContainerName, IX509PrivateKey.get_UniqueContainerName, IX509PrivateKey::UniqueContainerName, IX509PrivateKey::get_UniqueContainerName, UniqueContainerName property [Security], UniqueContainerName property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::UniqueContainerName, certenroll/IX509PrivateKey::get_UniqueContainerName, get_UniqueContainerName, security.ix509privatekey_uniquecontainername_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PrivateKey::get_UniqueContainerName method
+# IX509PrivateKey::get_UniqueContainerName
 
 
 ## -description

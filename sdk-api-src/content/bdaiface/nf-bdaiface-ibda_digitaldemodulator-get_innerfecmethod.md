@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_InnerFECMethod
-title: IBDA_DigitalDemodulator::get_InnerFECMethod method
+title: IBDA_DigitalDemodulator::get_InnerFECMethod
 author: windows-driver-content
 description: The get_InnerFECMethod method retrieves the inner forward error correction method.
 old-location: mstv\ibda_digitaldemodulator_get_innerfecmethod.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: a245c9fa-6f1e-4aa6-a5bf-b9707244a9e2
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DigitalDemodulator, IBDA_DigitalDemodulator interface [Microsoft TV Technologies], get_InnerFECMethod method, IBDA_DigitalDemodulator::get_InnerFECMethod, IBDA_DigitalDemodulatorget_InnerFECMethod, bdaiface/IBDA_DigitalDemodulator::get_InnerFECMethod, get_InnerFECMethod method [Microsoft TV Technologies], get_InnerFECMethod method [Microsoft TV Technologies], IBDA_DigitalDemodulator interface, get_InnerFECMethod,IBDA_DigitalDemodulator.get_InnerFECMethod, mstv.ibda_digitaldemodulator_get_innerfecmethod
+ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_InnerFECMethod method, IBDA_DigitalDemodulator.get_InnerFECMethod, IBDA_DigitalDemodulator::get_InnerFECMethod, IBDA_DigitalDemodulatorget_InnerFECMethod, bdaiface/IBDA_DigitalDemodulator::get_InnerFECMethod, get_InnerFECMethod, get_InnerFECMethod method [Microsoft TV Technologies], get_InnerFECMethod method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_innerfecmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DigitalDemodulator::get_InnerFECMethod method
+# IBDA_DigitalDemodulator::get_InnerFECMethod
 
 
 ## -description

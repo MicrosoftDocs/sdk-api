@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflection.GetConstantBufferByName
-title: ID3D10ShaderReflection::GetConstantBufferByName method
+title: ID3D10ShaderReflection::GetConstantBufferByName
 author: windows-driver-content
 description: Get a constant buffer by name.
 old-location: direct3d10\id3d10shaderreflection_getconstantbufferbyname.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection_getconstantbufferbyname.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: GetConstantBufferByName method [Direct3D 10], GetConstantBufferByName method [Direct3D 10], ID3D10ShaderReflection interface, GetConstantBufferByName,ID3D10ShaderReflection.GetConstantBufferByName, ID3D10ShaderReflection, ID3D10ShaderReflection interface [Direct3D 10], GetConstantBufferByName method, ID3D10ShaderReflection::GetConstantBufferByName, c597f147-5514-438b-1e81-09771d342a5f, d3d10shader/ID3D10ShaderReflection::GetConstantBufferByName, direct3d10.id3d10shaderreflection_getconstantbufferbyname
+ms.keywords: GetConstantBufferByName, GetConstantBufferByName method [Direct3D 10], GetConstantBufferByName method [Direct3D 10],ID3D10ShaderReflection interface, ID3D10ShaderReflection interface [Direct3D 10],GetConstantBufferByName method, ID3D10ShaderReflection.GetConstantBufferByName, ID3D10ShaderReflection::GetConstantBufferByName, c597f147-5514-438b-1e81-09771d342a5f, d3d10shader/ID3D10ShaderReflection::GetConstantBufferByName, direct3d10.id3d10shaderreflection_getconstantbufferbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10ShaderReflection::GetConstantBufferByName method
+# ID3D10ShaderReflection::GetConstantBufferByName
 
 
 ## -description

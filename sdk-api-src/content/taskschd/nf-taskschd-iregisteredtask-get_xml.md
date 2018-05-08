@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_Xml
-title: IRegisteredTask::get_Xml method
+title: IRegisteredTask::get_Xml
 author: windows-driver-content
 description: Gets the XML-formatted registration information for the registered task.
 old-location: taskschd\iregisteredtask_xml.htm
@@ -8,7 +8,7 @@ old-project: TaskSchd
 ms.assetid: cfa85a88-99f5-4c4f-afe8-44b3f27833e5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IRegisteredTask, IRegisteredTask interface [Task Scheduler], Xml property, IRegisteredTask.Xml, IRegisteredTask::get_Xml, Xml property [Task Scheduler], Xml property [Task Scheduler], IRegisteredTask interface, get_Xml,IRegisteredTask.get_Xml, taskschd.iregisteredtask_xml, taskschd/IRegisteredTask::Xml, taskschd/IRegisteredTask::get_Xml
+ms.keywords: IRegisteredTask interface [Task Scheduler],Xml property, IRegisteredTask.Xml, IRegisteredTask.get_Xml, IRegisteredTask::Xml, IRegisteredTask::get_Xml, Xml property [Task Scheduler], Xml property [Task Scheduler],IRegisteredTask interface, get_Xml, taskschd.iregisteredtask_xml, taskschd/IRegisteredTask::Xml, taskschd/IRegisteredTask::get_Xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IRegisteredTask::get_Xml method
+# IRegisteredTask::get_Xml
 
 
 ## -description

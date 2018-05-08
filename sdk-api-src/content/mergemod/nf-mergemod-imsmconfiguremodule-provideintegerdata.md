@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigureModule.ProvideIntegerData
-title: IMsmConfigureModule::ProvideIntegerData method
+title: IMsmConfigureModule::ProvideIntegerData
 author: windows-driver-content
 description: The ProvideIntegerData method retrieves integer data from the client tool. For more information, see the ProvideIntegerData method of the ConfigureModule object.
 old-location: setup\imsmconfiguremodule_provideintegerdata.htm
@@ -8,7 +8,7 @@ old-project: Msi
 ms.assetid: 2d03ce35-2ded-4f65-a73f-2546d67b0454
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMsmConfigureModule, IMsmConfigureModule interface, ProvideIntegerData method, IMsmConfigureModule::ProvideIntegerData, ProvideIntegerData method, ProvideIntegerData method, IMsmConfigureModule interface, ProvideIntegerData,IMsmConfigureModule.ProvideIntegerData, _msi_provideintegerdata_function, mergemod/IMsmConfigureModule::ProvideIntegerData, setup.imsmconfiguremodule_provideintegerdata
+ms.keywords: IMsmConfigureModule interface,ProvideIntegerData method, IMsmConfigureModule.ProvideIntegerData, IMsmConfigureModule::ProvideIntegerData, ProvideIntegerData, ProvideIntegerData method, ProvideIntegerData method,IMsmConfigureModule interface, _msi_provideintegerdata_function, mergemod/IMsmConfigureModule::ProvideIntegerData, setup.imsmconfiguremodule_provideintegerdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMsmConfigureModule::ProvideIntegerData method
+# IMsmConfigureModule::ProvideIntegerData
 
 
 ## -description

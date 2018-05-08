@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_TerminalServicesHomeDrive
-title: IADsTSUserEx::get_TerminalServicesHomeDrive method
+title: IADsTSUserEx::get_TerminalServicesHomeDrive
 author: windows-driver-content
 description: The root drive for the user. In a network environment, this property is a string that contains a drive specification (a drive letter followed by a colon) to which the UNC path specified as the root directory is mapped.
 old-location: termserv\iadstsuserex_terminalserviceshomedrive.htm
@@ -8,7 +8,7 @@ old-project: TermServ
 ms.assetid: e5cfa526-eff8-4a89-9b13-c4a06a416fe5
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: IADsTSUserEx, IADsTSUserEx interface [Remote Desktop Services], TerminalServicesHomeDrive property, IADsTSUserEx.TerminalServicesHomeDrive, IADsTSUserEx::get_TerminalServicesHomeDrive, IADsTSUserEx::put_TerminalServicesHomeDrive, TerminalServicesHomeDrive property [Remote Desktop Services], TerminalServicesHomeDrive property [Remote Desktop Services], IADsTSUserEx interface, get_TerminalServicesHomeDrive,IADsTSUserEx.get_TerminalServicesHomeDrive, termserv.iadstsuserex_terminalserviceshomedrive, tsuserex/IADsTSUserEx::TerminalServicesHomeDrive, tsuserex/IADsTSUserEx::get_TerminalServicesHomeDrive, tsuserex/IADsTSUserEx::put_TerminalServicesHomeDrive
+ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesHomeDrive property, IADsTSUserEx.TerminalServicesHomeDrive, IADsTSUserEx.get_TerminalServicesHomeDrive, IADsTSUserEx::TerminalServicesHomeDrive, IADsTSUserEx::get_TerminalServicesHomeDrive, IADsTSUserEx::put_TerminalServicesHomeDrive, TerminalServicesHomeDrive property [Remote Desktop Services], TerminalServicesHomeDrive property [Remote Desktop Services],IADsTSUserEx interface, get_TerminalServicesHomeDrive, termserv.iadstsuserex_terminalserviceshomedrive, tsuserex/IADsTSUserEx::TerminalServicesHomeDrive, tsuserex/IADsTSUserEx::get_TerminalServicesHomeDrive, tsuserex/IADsTSUserEx::put_TerminalServicesHomeDrive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IADsTSUserEx::get_TerminalServicesHomeDrive method
+# IADsTSUserEx::get_TerminalServicesHomeDrive
 
 
 ## -description

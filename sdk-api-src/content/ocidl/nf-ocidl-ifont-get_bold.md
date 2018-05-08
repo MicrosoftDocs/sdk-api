@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.get_Bold
-title: IFont::get_Bold method
+title: IFont::get_Bold
 author: windows-driver-content
 description: Gets the font's current Bold property.
 old-location: com\ifont_get_bold.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: bc0a8353-852b-4314-83b1-a07321159945
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IFont, IFont interface [COM], get_Bold method, IFont::get_Bold, _ctrl_ifont_get_bold, com.ifont_get_bold, get_Bold method [COM], get_Bold method [COM], IFont interface, get_Bold,IFont.get_Bold, ocidl/IFont::get_Bold
+ms.keywords: IFont interface [COM],get_Bold method, IFont.get_Bold, IFont::get_Bold, _ctrl_ifont_get_bold, com.ifont_get_bold, get_Bold, get_Bold method [COM], get_Bold method [COM],IFont interface, ocidl/IFont::get_Bold
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IFont::get_Bold method
+# IFont::get_Bold
 
 
 ## -description

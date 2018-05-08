@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.QueryInterface
-title: IXAudio2::QueryInterface method
+title: IXAudio2::QueryInterface
 author: windows-driver-content
 description: Queries for a given COM interface on the XAudio2 object.
 old-location: xaudio2\ixaudio2_interface_queryinterface.htm
@@ -8,7 +8,7 @@ old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.QueryInterface(REFIID,void@)
 ms.author: windowsdriverdev
 ms.date: 4/20/2018
-ms.keywords: IXAudio2, IXAudio2 interface [XAudio2 Audio Mixing APIs], QueryInterface method, IXAudio2::QueryInterface, QueryInterface method [XAudio2 Audio Mixing APIs], QueryInterface method [XAudio2 Audio Mixing APIs], IXAudio2 interface, QueryInterface,IXAudio2.QueryInterface, xaudio2.ixaudio2_interface_queryinterface, xaudio2/IXAudio2::QueryInterface
+ms.keywords: IXAudio2 interface [XAudio2 Audio Mixing APIs],QueryInterface method, IXAudio2.QueryInterface, IXAudio2::QueryInterface, QueryInterface, QueryInterface method [XAudio2 Audio Mixing APIs], QueryInterface method [XAudio2 Audio Mixing APIs],IXAudio2 interface, xaudio2.ixaudio2_interface_queryinterface, xaudio2/IXAudio2::QueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXAudio2::QueryInterface method
+# IXAudio2::QueryInterface
 
 
 ## -description

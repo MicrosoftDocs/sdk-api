@@ -1,14 +1,14 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.put_SAMIFileName
-title: IWMPClosedCaption::put_SAMIFileName method
+title: IWMPClosedCaption::put_SAMIFileName
 author: windows-driver-content
 description: The put_SAMIFileName method specifies the name of the file containing the information needed for closed captioning.
 old-location: wmp\iwmpclosedcaption_put_samifilename.htm
 old-project: WMP
 ms.assetid: ebc05983-3375-4ace-b192-f427b9685310
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
-ms.keywords: IWMPClosedCaption, IWMPClosedCaption interface [Windows Media Player], put_SAMIFileName method, IWMPClosedCaption::put_SAMIFileName, IWMPClosedCaptionput_SAMIFileName, put_SAMIFileName method [Windows Media Player], put_SAMIFileName method [Windows Media Player], IWMPClosedCaption interface, put_SAMIFileName,IWMPClosedCaption.put_SAMIFileName, wmp.iwmpclosedcaption_put_samifilename, wmp/IWMPClosedCaption::put_SAMIFileName
+ms.date: 5/4/2018
+ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMIFileName method, IWMPClosedCaption.put_SAMIFileName, IWMPClosedCaption::put_SAMIFileName, IWMPClosedCaptionput_SAMIFileName, put_SAMIFileName, put_SAMIFileName method [Windows Media Player], put_SAMIFileName method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samifilename, wmp/IWMPClosedCaption::put_SAMIFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMPClosedCaption::put_SAMIFileName method
+# IWMPClosedCaption::put_SAMIFileName
 
 
 ## -description

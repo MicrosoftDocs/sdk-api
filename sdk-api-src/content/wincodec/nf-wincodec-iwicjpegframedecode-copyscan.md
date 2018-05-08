@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.CopyScan
-title: IWICJpegFrameDecode::CopyScan method
+title: IWICJpegFrameDecode::CopyScan
 author: windows-driver-content
 description: Retrieves a copy of the compressed JPEG scan directly from the WIC decoder frame's output stream.
 old-location: wic\iwicjpegframedecode_copyscan.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 19579C0B-AB96-424D-B433-6A88BE64A434
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: CopyScan method [Windows Imaging Component], CopyScan method [Windows Imaging Component], IWICJpegFrameDecode interface, CopyScan,IWICJpegFrameDecode.CopyScan, IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging Component], CopyScan method, IWICJpegFrameDecode::CopyScan, wic.iwicjpegframedecode_copyscan, wincodec/IWICJpegFrameDecode::CopyScan
+ms.keywords: CopyScan, CopyScan method [Windows Imaging Component], CopyScan method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],CopyScan method, IWICJpegFrameDecode.CopyScan, IWICJpegFrameDecode::CopyScan, wic.iwicjpegframedecode_copyscan, wincodec/IWICJpegFrameDecode::CopyScan
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICJpegFrameDecode::CopyScan method
+# IWICJpegFrameDecode::CopyScan
 
 
 ## -description

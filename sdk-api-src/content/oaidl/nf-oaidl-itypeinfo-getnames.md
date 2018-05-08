@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetNames
-title: ITypeInfo::GetNames method
+title: ITypeInfo::GetNames
 author: windows-driver-content
 description: Retrieves the variable with the specified member ID or the name of the property or method and the parameters that correspond to the specified function ID.
 old-location: automat\itypeinfo_getnames.htm
 old-project: automat
 ms.assetid: ff318d92-9624-48aa-a0f9-8b8826121753
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetNames method [Automation], GetNames method [Automation], ITypeInfo interface, GetNames,ITypeInfo.GetNames, ITypeInfo, ITypeInfo interface [Automation], GetNames method, ITypeInfo::GetNames, _oa96_ITypeInfo_GetNames, automat.itypeinfo_getnames, oaidl/ITypeInfo::GetNames
+ms.date: 5/4/2018
+ms.keywords: GetNames, GetNames method [Automation], GetNames method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetNames method, ITypeInfo.GetNames, ITypeInfo::GetNames, _oa96_ITypeInfo_GetNames, automat.itypeinfo_getnames, oaidl/ITypeInfo::GetNames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ITypeInfo::GetNames method
+# ITypeInfo::GetNames
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:commoncontrols.IImageList2.Initialize
-title: IImageList2::Initialize method
+title: IImageList2::Initialize
 author: windows-driver-content
 description: Initializes an image list.
 old-location: controls\IImageList2_Initialize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\initialize.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: IImageList2, IImageList2 interface [Windows Controls], Initialize method, IImageList2::Initialize, Initialize method [Windows Controls], Initialize method [Windows Controls], IImageList2 interface, Initialize,IImageList2.Initialize, _shell_IImageList2_Initialize, _shell_IImageList2_Initialize_cpp, commoncontrols/IImageList2::Initialize, controls.IImageList2_Initialize, controls._shell_IImageList2_Initialize
+ms.date: 4/27/2018
+ms.keywords: IImageList2 interface [Windows Controls],Initialize method, IImageList2.Initialize, IImageList2::Initialize, Initialize, Initialize method [Windows Controls], Initialize method [Windows Controls],IImageList2 interface, _shell_IImageList2_Initialize, _shell_IImageList2_Initialize_cpp, commoncontrols/IImageList2::Initialize, controls.IImageList2_Initialize, controls._shell_IImageList2_Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 ---
 
-# IImageList2::Initialize method
+# IImageList2::Initialize
 
 
 ## -description

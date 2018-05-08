@@ -1,0 +1,6 @@
+# [Internationalization for Windows Applications](../_intl/index.md)
+## [Muiload.h](index.md)
+### [FreeMUILibrary function](../muiload/nf-muiload-freemuilibrary.md)
+### [GetUILanguageFallbackList function](../muiload/nf-muiload-getuilanguagefallbacklist.md)
+### [LoadMUILibraryA function](../muiload/nf-muiload-loadmuilibrarya.md)
+### [LoadMUILibraryW function](../muiload/nf-muiload-loadmuilibraryw.md)

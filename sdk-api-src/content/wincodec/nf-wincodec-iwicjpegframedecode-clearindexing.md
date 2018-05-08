@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.ClearIndexing
-title: IWICJpegFrameDecode::ClearIndexing method
+title: IWICJpegFrameDecode::ClearIndexing
 author: windows-driver-content
 description: Removes the indexing from a JPEG that has been indexed using IWICJpegFrameDecode::SetIndexing.
 old-location: wic\iwicjpegframedecode_clearindexing.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 467E0100-F00B-4D2D-BF2A-8138765C787E
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: ClearIndexing method [Windows Imaging Component], ClearIndexing method [Windows Imaging Component], IWICJpegFrameDecode interface, ClearIndexing,IWICJpegFrameDecode.ClearIndexing, IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging Component], ClearIndexing method, IWICJpegFrameDecode::ClearIndexing, wic.iwicjpegframedecode_clearindexing, wincodec/IWICJpegFrameDecode::ClearIndexing
+ms.keywords: ClearIndexing, ClearIndexing method [Windows Imaging Component], ClearIndexing method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],ClearIndexing method, IWICJpegFrameDecode.ClearIndexing, IWICJpegFrameDecode::ClearIndexing, wic.iwicjpegframedecode_clearindexing, wincodec/IWICJpegFrameDecode::ClearIndexing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICJpegFrameDecode::ClearIndexing method
+# IWICJpegFrameDecode::ClearIndexing
 
 
 ## -description

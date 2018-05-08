@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IFolderBandPriv.SetCascade
-title: IFolderBandPriv::SetCascade method
+title: IFolderBandPriv::SetCascade
 author: windows-driver-content
 description: Sets a cascade folder.
 old-location: shell\IFolderBandPriv_SetCascade.htm
 old-project: shell
 ms.assetid: c4981edf-981e-47e3-8869-86cb99f23e3e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IFolderBandPriv, IFolderBandPriv interface [Windows Shell], SetCascade method, IFolderBandPriv::SetCascade, SetCascade method [Windows Shell], SetCascade method [Windows Shell], IFolderBandPriv interface, SetCascade,IFolderBandPriv.SetCascade, _win32_IFolderBandPriv_SetCascade, shell.IFolderBandPriv_SetCascade, shobjidl/IFolderBandPriv::SetCascade
+ms.date: 5/3/2018
+ms.keywords: IFolderBandPriv interface [Windows Shell],SetCascade method, IFolderBandPriv.SetCascade, IFolderBandPriv::SetCascade, SetCascade, SetCascade method [Windows Shell], SetCascade method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetCascade, shell.IFolderBandPriv_SetCascade, shobjidl/IFolderBandPriv::SetCascade
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IFolderBandPriv::SetCascade method
+# IFolderBandPriv::SetCascade
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.PrepareForSync
-title: ISyncMgrSynchronize::PrepareForSync method
+title: ISyncMgrSynchronize::PrepareForSync
 author: windows-driver-content
 description: Allows a registered application to display any user interface, and perform any necessary initialization before the ISyncMgrSynchronize::Synchronize method is called.
 old-location: shell\syncmgr_isyncmgrsynchronize_prepareforsync.htm
 old-project: shell
 ms.assetid: 82e70e75-a5d4-41b2-87c4-2a032628954d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrSynchronize, ISyncMgrSynchronize interface [Windows Shell], PrepareForSync method, ISyncMgrSynchronize::PrepareForSync, PrepareForSync method [Windows Shell], PrepareForSync method [Windows Shell], ISyncMgrSynchronize interface, PrepareForSync,ISyncMgrSynchronize.PrepareForSync, mobsync/ISyncMgrSynchronize::PrepareForSync, shell.syncmgr_isyncmgrsynchronize_prepareforsync, syncmgr.isyncmgrsynchronize_prepareforsync
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrSynchronize interface [Windows Shell],PrepareForSync method, ISyncMgrSynchronize.PrepareForSync, ISyncMgrSynchronize::PrepareForSync, PrepareForSync, PrepareForSync method [Windows Shell], PrepareForSync method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::PrepareForSync, shell.syncmgr_isyncmgrsynchronize_prepareforsync, syncmgr.isyncmgrsynchronize_prepareforsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ISyncMgrSynchronize::PrepareForSync method
+# ISyncMgrSynchronize::PrepareForSync
 
 
 ## -description

@@ -21,9 +21,9 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: SpatialInteractionManagerInterop.idl
 req.max-support: 
-req.namespace: Root\StandardCimv2
+req.namespace: 
 req.assembly: 
 req.type-library: 
 req.typenames: WORDLIST_TYPE
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: NetTCPIP.dll
+req.dll: 
 req.irql: 
 req.product: Internet Explorer 6.01
 ---

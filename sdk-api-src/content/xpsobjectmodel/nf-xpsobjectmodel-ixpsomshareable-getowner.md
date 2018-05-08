@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMShareable.GetOwner
-title: IXpsOMShareable::GetOwner method
+title: IXpsOMShareable::GetOwner
 author: windows-driver-content
 description: Gets the IUnknown interface of the parent.
 old-location: xps\ixpsomshareable_getowner.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: da871b31-2787-44cc-8678-43d529472f61
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging], IXpsOMShareable interface, GetOwner,IXpsOMShareable.GetOwner, IXpsOMShareable, IXpsOMShareable interface [XPS Documents and Packaging], GetOwner method, IXpsOMShareable::GetOwner, xps.ixpsomshareable_getowner, xpsobjectmodel/IXpsOMShareable::GetOwner
+ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMShareable interface, IXpsOMShareable interface [XPS Documents and Packaging],GetOwner method, IXpsOMShareable.GetOwner, IXpsOMShareable::GetOwner, xps.ixpsomshareable_getowner, xpsobjectmodel/IXpsOMShareable::GetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMShareable::GetOwner method
+# IXpsOMShareable::GetOwner
 
 
 ## -description

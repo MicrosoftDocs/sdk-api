@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.GetItems
-title: ITfLangBarItemMgr::GetItems method
+title: ITfLangBarItemMgr::GetItems
 author: windows-driver-content
 description: ITfLangBarItemMgr::GetItems method
 old-location: tsf\itflangbaritemmgr_getitems.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: b6342d4b-e2b6-47d7-9f66-b3aa329c480d
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetItems method [Text Services Framework], GetItems method [Text Services Framework], ITfLangBarItemMgr interface, GetItems,ITfLangBarItemMgr.GetItems, ITfLangBarItemMgr, ITfLangBarItemMgr interface [Text Services Framework], GetItems method, ITfLangBarItemMgr::GetItems, _tsf_itflangbaritemmgr_getitems_ref, ctfutb/ITfLangBarItemMgr::GetItems, tsf.itflangbaritemmgr_getitems
+ms.keywords: GetItems, GetItems method [Text Services Framework], GetItems method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],GetItems method, ITfLangBarItemMgr.GetItems, ITfLangBarItemMgr::GetItems, _tsf_itflangbaritemmgr_getitems_ref, ctfutb/ITfLangBarItemMgr::GetItems, tsf.itflangbaritemmgr_getitems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Msctf.dll
 req.irql: 
 ---
 
-# ITfLangBarItemMgr::GetItems method
+# ITfLangBarItemMgr::GetItems
 
 
 ## -description

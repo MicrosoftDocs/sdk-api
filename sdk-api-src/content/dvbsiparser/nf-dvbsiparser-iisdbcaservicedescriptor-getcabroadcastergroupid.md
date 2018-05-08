@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetCABroadcasterGroupId
-title: IIsdbCAServiceDescriptor::GetCABroadcasterGroupId method
+title: IIsdbCAServiceDescriptor::GetCABroadcasterGroupId
 author: windows-driver-content
 description: Gets the conditional access (CA) broadcaster group identifier from a CA service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_getcabroadcastergroupid.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: cc783e34-3544-4bcf-9e76-cb098c89cd65
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetCABroadcasterGroupId method [Microsoft TV Technologies], GetCABroadcasterGroupId method [Microsoft TV Technologies], IIsdbCAServiceDescriptor interface, GetCABroadcasterGroupId,IIsdbCAServiceDescriptor.GetCABroadcasterGroupId, IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies], GetCABroadcasterGroupId method, IIsdbCAServiceDescriptor::GetCABroadcasterGroupId, dvbsiparser/IIsdbCAServiceDescriptor::GetCABroadcasterGroupId, mstv.iisdbcaservicedescriptor_getcabroadcastergroupid
+ms.keywords: GetCABroadcasterGroupId, GetCABroadcasterGroupId method [Microsoft TV Technologies], GetCABroadcasterGroupId method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetCABroadcasterGroupId method, IIsdbCAServiceDescriptor.GetCABroadcasterGroupId, IIsdbCAServiceDescriptor::GetCABroadcasterGroupId, dvbsiparser/IIsdbCAServiceDescriptor::GetCABroadcasterGroupId, mstv.iisdbcaservicedescriptor_getcabroadcastergroupid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IIsdbCAServiceDescriptor::GetCABroadcasterGroupId method
+# IIsdbCAServiceDescriptor::GetCABroadcasterGroupId
 
 
 ## -description

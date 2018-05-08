@@ -1,14 +1,14 @@
 ---
 UID: NF:certif.ICertServerPolicy.EnumerateExtensions
-title: ICertServerPolicy::EnumerateExtensions method
+title: ICertServerPolicy::EnumerateExtensions
 author: windows-driver-content
 description: Retrieves the object identifier (OID) of the current extension and moves the internal enumeration pointer to the next extension.
 old-location: security\icertserverpolicy_enumerateextensions.htm
 old-project: SecCrypto
 ms.assetid: 565ff4d5-0d22-466d-8458-f98b992a1868
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
-ms.keywords: CCertServerPolicy object [Security], EnumerateExtensions method, EnumerateExtensions method [Security], EnumerateExtensions method [Security], CCertServerPolicy object, EnumerateExtensions method [Security], ICertServerPolicy interface, EnumerateExtensions,ICertServerPolicy.EnumerateExtensions, ICertServerPolicy, ICertServerPolicy interface [Security], EnumerateExtensions method, ICertServerPolicy::EnumerateExtensions, _certsrv_icertserverpolicy_enumerateextensions, certif/ICertServerPolicy::EnumerateExtensions, security.icertserverpolicy_enumerateextensions
+ms.date: 4/30/2018
+ms.keywords: CCertServerPolicy object [Security],EnumerateExtensions method, EnumerateExtensions, EnumerateExtensions method [Security], EnumerateExtensions method [Security],CCertServerPolicy object, EnumerateExtensions method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateExtensions method, ICertServerPolicy.EnumerateExtensions, ICertServerPolicy::EnumerateExtensions, _certsrv_icertserverpolicy_enumerateextensions, certif/ICertServerPolicy::EnumerateExtensions, security.icertserverpolicy_enumerateextensions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: Certcli.dll
 req.irql: 
 ---
 
-# ICertServerPolicy::EnumerateExtensions method
+# ICertServerPolicy::EnumerateExtensions
 
 
 ## -description

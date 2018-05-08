@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.ProcessMove
-title: IManipulationProcessor::ProcessMove method
+title: IManipulationProcessor::ProcessMove
 author: windows-driver-content
 description: The ProcessMove method feeds movement data for the target object to its manipulation processor.
 old-location: wintouch\imanipulationprocessor_processmove.htm
@@ -8,7 +8,7 @@ old-project: wintouch
 ms.assetid: e2c0e975-3edd-43d5-8a58-2d8166413c76
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: IManipulationProcessor, IManipulationProcessor interface [Windows Touch], ProcessMove method, IManipulationProcessor::ProcessMove, ProcessMove method [Windows Touch], ProcessMove method [Windows Touch], IManipulationProcessor interface, ProcessMove,IManipulationProcessor.ProcessMove, manipulations/IManipulationProcessor::ProcessMove, wintouch.imanipulationprocessor_processmove
+ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessMove method, IManipulationProcessor.ProcessMove, IManipulationProcessor::ProcessMove, ProcessMove, ProcessMove method [Windows Touch], ProcessMove method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessMove, wintouch.imanipulationprocessor_processmove
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IManipulationProcessor::ProcessMove method
+# IManipulationProcessor::ProcessMove
 
 
 ## -description

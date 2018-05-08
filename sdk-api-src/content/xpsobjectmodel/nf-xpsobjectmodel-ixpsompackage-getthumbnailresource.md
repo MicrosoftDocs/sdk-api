@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.GetThumbnailResource
-title: IXpsOMPackage::GetThumbnailResource method
+title: IXpsOMPackage::GetThumbnailResource
 author: windows-driver-content
 description: Gets a pointer to the IXpsOMImageResource interface of the thumbnail resource that is associated with the XPS package.
 old-location: xps\ixpsompackage_getthumbnailresource.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 44a692a4-de5d-4fa9-89e2-ad969042797a
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetThumbnailResource method [XPS Documents and Packaging], GetThumbnailResource method [XPS Documents and Packaging], IXpsOMPackage interface, GetThumbnailResource,IXpsOMPackage.GetThumbnailResource, IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], GetThumbnailResource method, IXpsOMPackage::GetThumbnailResource, xps.ixpsompackage_getthumbnailresource, xpsobjectmodel/IXpsOMPackage::GetThumbnailResource
+ms.keywords: GetThumbnailResource, GetThumbnailResource method [XPS Documents and Packaging], GetThumbnailResource method [XPS Documents and Packaging],IXpsOMPackage interface, IXpsOMPackage interface [XPS Documents and Packaging],GetThumbnailResource method, IXpsOMPackage.GetThumbnailResource, IXpsOMPackage::GetThumbnailResource, xps.ixpsompackage_getthumbnailresource, xpsobjectmodel/IXpsOMPackage::GetThumbnailResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsOMPackage::GetThumbnailResource method
+# IXpsOMPackage::GetThumbnailResource
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetAvailableVidMem
-title: IDirectDraw7::GetAvailableVidMem method
+title: IDirectDraw7::GetAvailableVidMem
 author: windows-driver-content
 description: Retrieves the total amount of display memory available and the amount of display memory currently free for a given type of surface.
 old-location: directdraw\idirectdraw7_getavailablevidmem.htm
@@ -8,7 +8,7 @@ old-project: directdraw
 ms.assetid: f7bfa81c-8e21-44ec-bed4-9b92aa099f00
 ms.author: windowsdriverdev
 ms.date: 3/23/2018
-ms.keywords: GetAvailableVidMem method [DirectDraw], GetAvailableVidMem method [DirectDraw], IDirectDraw7 interface, GetAvailableVidMem,IDirectDraw7.GetAvailableVidMem, IDirectDraw7, IDirectDraw7 interface [DirectDraw], GetAvailableVidMem method, IDirectDraw7::GetAvailableVidMem, ddraw/IDirectDraw7::GetAvailableVidMem, directdraw.idirectdraw7_getavailablevidmem
+ms.keywords: GetAvailableVidMem, GetAvailableVidMem method [DirectDraw], GetAvailableVidMem method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetAvailableVidMem method, IDirectDraw7.GetAvailableVidMem, IDirectDraw7::GetAvailableVidMem, ddraw/IDirectDraw7::GetAvailableVidMem, directdraw.idirectdraw7_getavailablevidmem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll: Ddraw.dll
 req.irql: 
 ---
 
-# IDirectDraw7::GetAvailableVidMem method
+# IDirectDraw7::GetAvailableVidMem
 
 
 ## -description

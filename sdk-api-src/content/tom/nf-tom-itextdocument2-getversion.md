@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextDocument2.GetVersion
-title: ITextDocument2::GetVersion method
+title: ITextDocument2::GetVersion
 author: windows-driver-content
 description: Gets the version number of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getversion.htm
 old-project: Controls
 ms.assetid: 4cc4502b-4e7c-4561-b7d4-a248bf248a8a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetVersion method [Windows Controls], GetVersion method [Windows Controls], ITextDocument2 interface, GetVersion,ITextDocument2.GetVersion, ITextDocument2, ITextDocument2 interface [Windows Controls], GetVersion method, ITextDocument2::GetVersion, controls.itextdocument2_getversion, tom/ITextDocument2::GetVersion
+ms.date: 4/27/2018
+ms.keywords: GetVersion, GetVersion method [Windows Controls], GetVersion method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetVersion method, ITextDocument2.GetVersion, ITextDocument2::GetVersion, controls.itextdocument2_getversion, tom/ITextDocument2::GetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextDocument2::GetVersion method
+# ITextDocument2::GetVersion
 
 
 ## -description

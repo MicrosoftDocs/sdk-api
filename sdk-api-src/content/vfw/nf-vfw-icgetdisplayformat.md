@@ -7,7 +7,7 @@ old-location: multimedia\icgetdisplayformat.htm
 old-project: Multimedia
 ms.assetid: 4e588524-4105-4496-bc87-407abc45f598
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/4/2018
 ms.keywords: ICGetDisplayFormat, ICGetDisplayFormat function [Windows Multimedia], _win32_ICGetDisplayFormat, multimedia.icgetdisplayformat, vfw/ICGetDisplayFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

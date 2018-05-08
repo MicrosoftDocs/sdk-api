@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyList.PutPropertyItem
-title: IADsPropertyList::PutPropertyItem method
+title: IADsPropertyList::PutPropertyItem
 author: windows-driver-content
 description: Updates the values for an item in the property list.
 old-location: adsi\iadspropertylist_putpropertyitem.htm
@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 16af5cbf-3b87-467e-8e72-0110bcf95295
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IADsPropertyList, IADsPropertyList interface [ADSI], PutPropertyItem method, IADsPropertyList::PutPropertyItem, PutPropertyItem method [ADSI], PutPropertyItem method [ADSI], IADsPropertyList interface, PutPropertyItem,IADsPropertyList.PutPropertyItem, _ds_iadspropertylist_putpropertyitem, adsi.iadspropertylist__putpropertyitem, adsi.iadspropertylist_putpropertyitem, iads/IADsPropertyList::PutPropertyItem
+ms.keywords: IADsPropertyList interface [ADSI],PutPropertyItem method, IADsPropertyList.PutPropertyItem, IADsPropertyList::PutPropertyItem, PutPropertyItem, PutPropertyItem method [ADSI], PutPropertyItem method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_putpropertyitem, adsi.iadspropertylist__putpropertyitem, adsi.iadspropertylist_putpropertyitem, iads/IADsPropertyList::PutPropertyItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IADsPropertyList::PutPropertyItem method
+# IADsPropertyList::PutPropertyItem
 
 
 ## -description

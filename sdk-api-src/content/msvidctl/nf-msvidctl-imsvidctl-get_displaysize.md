@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_DisplaySize
-title: IMSVidCtl::get_DisplaySize method
+title: IMSVidCtl::get_DisplaySize
 author: windows-driver-content
 description: The get_DisplaySize method retrieves the display size.
 old-location: mstv\imsvidctl_get_displaysize.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: f3d5ed73-4781-46fb-8df4-a7dc339b755c
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], get_DisplaySize method, IMSVidCtl::get_DisplaySize, IMSVidCtlget_DisplaySize, get_DisplaySize method [Microsoft TV Technologies], get_DisplaySize method [Microsoft TV Technologies], IMSVidCtl interface, get_DisplaySize,IMSVidCtl.get_DisplaySize, mstv.imsvidctl_get_displaysize, msvidctl/IMSVidCtl::get_DisplaySize
+ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_DisplaySize method, IMSVidCtl.get_DisplaySize, IMSVidCtl::get_DisplaySize, IMSVidCtlget_DisplaySize, get_DisplaySize, get_DisplaySize method [Microsoft TV Technologies], get_DisplaySize method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_displaysize, msvidctl/IMSVidCtl::get_DisplaySize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidCtl::get_DisplaySize method
+# IMSVidCtl::get_DisplaySize
 
 
 ## -description

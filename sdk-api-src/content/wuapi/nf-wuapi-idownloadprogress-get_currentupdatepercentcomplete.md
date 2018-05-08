@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadProgress.get_CurrentUpdatePercentComplete
-title: IDownloadProgress::get_CurrentUpdatePercentComplete method
+title: IDownloadProgress::get_CurrentUpdatePercentComplete
 author: windows-driver-content
 description: Gets an estimate of the percentage of the current update that has been downloaded.
 old-location: wua\idownloadprogress_currentupdatepercentcomplete.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 7dad425f-721a-4c4a-938b-d4de51f38dee
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CurrentUpdatePercentComplete property [Windows Update Agent], CurrentUpdatePercentComplete property [Windows Update Agent], IDownloadProgress interface, IDownloadProgress, IDownloadProgress interface [Windows Update Agent], CurrentUpdatePercentComplete property, IDownloadProgress.CurrentUpdatePercentComplete, IDownloadProgress::get_CurrentUpdatePercentComplete, get_CurrentUpdatePercentComplete,IDownloadProgress.get_CurrentUpdatePercentComplete, wua.idownloadprogress_currentupdatepercentcomplete, wuapi/IDownloadProgress::CurrentUpdatePercentComplete, wuapi/IDownloadProgress::get_CurrentUpdatePercentComplete
+ms.keywords: CurrentUpdatePercentComplete property [Windows Update Agent], CurrentUpdatePercentComplete property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdatePercentComplete property, IDownloadProgress.CurrentUpdatePercentComplete, IDownloadProgress.get_CurrentUpdatePercentComplete, IDownloadProgress::CurrentUpdatePercentComplete, IDownloadProgress::get_CurrentUpdatePercentComplete, get_CurrentUpdatePercentComplete, wua.idownloadprogress_currentupdatepercentcomplete, wuapi/IDownloadProgress::CurrentUpdatePercentComplete, wuapi/IDownloadProgress::get_CurrentUpdatePercentComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IDownloadProgress::get_CurrentUpdatePercentComplete method
+# IDownloadProgress::get_CurrentUpdatePercentComplete
 
 
 ## -description

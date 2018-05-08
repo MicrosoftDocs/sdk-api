@@ -1,0 +1,7 @@
+# [Windows Sockets 2](../_winsock/index.md)
+## [Wsrm.h](index.md)
+### [eWINDOW_ADVANCE_METHOD enumeration](../wsrm/ne-wsrm-ewindow_advance_method.md)
+### [_RM_FEC_INFO structure](../wsrm/ns-wsrm-_rm_fec_info.md)
+### [_RM_RECEIVER_STATS structure](../wsrm/ns-wsrm-_rm_receiver_stats.md)
+### [_RM_SENDER_STATS structure](../wsrm/ns-wsrm-_rm_sender_stats.md)
+### [_RM_SEND_WINDOW structure](../wsrm/ns-wsrm-_rm_send_window.md)

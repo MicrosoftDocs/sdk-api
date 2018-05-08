@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_OutputLocation
-title: IDataCollectorSet::get_OutputLocation method
+title: IDataCollectorSet::get_OutputLocation
 author: windows-driver-content
 description: Retrieves the decorated folder name if PLA were to create it now.
 old-location: pla\idatacollectorset_get_outputlocation.htm
@@ -8,7 +8,7 @@ old-project: PLA
 ms.assetid: d0ca2655-f65a-4bcb-8e9e-f247b4207e56
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IDataCollectorSet, IDataCollectorSet interface [PLA], OutputLocation property, IDataCollectorSet.OutputLocation, IDataCollectorSet::get_OutputLocation, OutputLocation property [PLA], OutputLocation property [PLA], IDataCollectorSet interface, base.idatacollectorset_get_outputlocation, get_OutputLocation,IDataCollectorSet.get_OutputLocation, pla.idatacollectorset_get_outputlocation, pla/IDataCollectorSet::OutputLocation, pla/IDataCollectorSet::get_OutputLocation
+ms.keywords: IDataCollectorSet interface [PLA],OutputLocation property, IDataCollectorSet.OutputLocation, IDataCollectorSet.get_OutputLocation, IDataCollectorSet::OutputLocation, IDataCollectorSet::get_OutputLocation, OutputLocation property [PLA], OutputLocation property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_outputlocation, get_OutputLocation, pla.idatacollectorset_get_outputlocation, pla/IDataCollectorSet::OutputLocation, pla/IDataCollectorSet::get_OutputLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IDataCollectorSet::get_OutputLocation method
+# IDataCollectorSet::get_OutputLocation
 
 
 ## -description

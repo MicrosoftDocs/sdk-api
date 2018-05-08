@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextEditPattern.GetConversionTarget
-title: IUIAutomationTextEditPattern::GetConversionTarget method
+title: IUIAutomationTextEditPattern::GetConversionTarget
 author: windows-driver-content
 description: Returns the current conversion target range.
 old-location: winauto\uiauto_IUIAutomationTextEditPattern_GetConversionTarget.htm
@@ -8,7 +8,7 @@ old-project: WinAuto
 ms.assetid: C7471306-9D7F-5FE8-9A57-7A3ABB45B59F
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
-ms.keywords: GetConversionTarget method [Windows Accessibility], GetConversionTarget method [Windows Accessibility], IUIAutomationTextEditPattern interface, GetConversionTarget,IUIAutomationTextEditPattern.GetConversionTarget, IUIAutomationTextEditPattern, IUIAutomationTextEditPattern interface [Windows Accessibility], GetConversionTarget method, IUIAutomationTextEditPattern::GetConversionTarget, uiautomationclient/IUIAutomationTextEditPattern::GetConversionTarget, winauto.uiauto_IUIAutomationTextEditPattern_GetConversionTarget
+ms.keywords: GetConversionTarget, GetConversionTarget method [Windows Accessibility], GetConversionTarget method [Windows Accessibility],IUIAutomationTextEditPattern interface, IUIAutomationTextEditPattern interface [Windows Accessibility],GetConversionTarget method, IUIAutomationTextEditPattern.GetConversionTarget, IUIAutomationTextEditPattern::GetConversionTarget, uiautomationclient/IUIAutomationTextEditPattern::GetConversionTarget, winauto.uiauto_IUIAutomationTextEditPattern_GetConversionTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAutomationTextEditPattern::GetConversionTarget method
+# IUIAutomationTextEditPattern::GetConversionTarget
 
 
 ## -description

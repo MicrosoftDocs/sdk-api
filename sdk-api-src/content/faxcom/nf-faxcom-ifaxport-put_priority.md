@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPort.put_Priority
-title: IFaxPort::put_Priority method
+title: IFaxPort::put_Priority
 author: windows-driver-content
 description: The Priority property is a number representing the transmission priority designated for a specified fax port. Priority determines the relative order in which available fax devices send outgoing transmissions.
 old-location: fax\_mfax_ifaxport_get_priority_vb.htm
@@ -8,7 +8,7 @@ old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0515.htm
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: FaxPort object [Fax Service], Priority property, IFaxPort, IFaxPort::put_Priority, Priority property [Fax Service], Priority property [Fax Service], FaxPort object, _mfax_ifaxport_get_priority, fax._mfax_ifaxport_get_priority, fax._mfax_ifaxport_get_priority_vb, put_Priority,IFaxPort.put_Priority
+ms.keywords: FaxPort object [Fax Service],Priority property, FaxPort.Priority, IFaxPort.put_Priority, IFaxPort::put_Priority, Priority property [Fax Service], Priority property [Fax Service],FaxPort object, _mfax_ifaxport_get_priority, fax._mfax_ifaxport_get_priority, fax._mfax_ifaxport_get_priority_vb, put_Priority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# IFaxPort::put_Priority method
+# IFaxPort::put_Priority
 
 
 ## -description

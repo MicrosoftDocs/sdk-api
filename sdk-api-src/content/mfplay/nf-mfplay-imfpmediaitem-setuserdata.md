@@ -1,14 +1,14 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.SetUserData
-title: IMFPMediaItem::SetUserData method
+title: IMFPMediaItem::SetUserData
 author: windows-driver-content
 description: Stores an application-defined value in the media item.
 old-location: mf\imfpmediaitem_setuserdata.htm
 old-project: medfound
 ms.assetid: 17a10427-f13a-494c-bb68-a7722e8d9b6e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], SetUserData method, IMFPMediaItem::SetUserData, SetUserData method [Media Foundation], SetUserData method [Media Foundation], IMFPMediaItem interface, SetUserData,IMFPMediaItem.SetUserData, mf.imfpmediaitem_setuserdata, mfplay/IMFPMediaItem::SetUserData
+ms.date: 5/3/2018
+ms.keywords: IMFPMediaItem interface [Media Foundation],SetUserData method, IMFPMediaItem.SetUserData, IMFPMediaItem::SetUserData, SetUserData, SetUserData method [Media Foundation], SetUserData method [Media Foundation],IMFPMediaItem interface, mf.imfpmediaitem_setuserdata, mfplay/IMFPMediaItem::SetUserData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IMFPMediaItem::SetUserData method
+# IMFPMediaItem::SetUserData
 
 
 ## -description

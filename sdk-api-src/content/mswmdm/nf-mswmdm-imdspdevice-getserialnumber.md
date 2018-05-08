@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetSerialNumber
-title: IMDSPDevice::GetSerialNumber method
+title: IMDSPDevice::GetSerialNumber
 author: windows-driver-content
 description: The GetSerialNumber method retrieves the serial number that uniquely identifies the device.
 old-location: wmdm\imdspdevice_getserialnumber.htm
@@ -8,7 +8,7 @@ old-project: WMDM
 ms.assetid: dfff9660-fc74-421c-91d2-3d6be1c753da
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager], IMDSPDevice interface, GetSerialNumber,IMDSPDevice.GetSerialNumber, IMDSPDevice, IMDSPDevice interface [windows Media Device Manager], GetSerialNumber method, IMDSPDevice::GetSerialNumber, IMDSPDeviceGetSerialNumber, mswmdm/IMDSPDevice::GetSerialNumber, wmdm.imdspdevice_getserialnumber
+ms.keywords: GetSerialNumber, GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetSerialNumber method, IMDSPDevice.GetSerialNumber, IMDSPDevice::GetSerialNumber, IMDSPDeviceGetSerialNumber, mswmdm/IMDSPDevice::GetSerialNumber, wmdm.imdspdevice_getserialnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMDSPDevice::GetSerialNumber method
+# IMDSPDevice::GetSerialNumber
 
 
 ## -description

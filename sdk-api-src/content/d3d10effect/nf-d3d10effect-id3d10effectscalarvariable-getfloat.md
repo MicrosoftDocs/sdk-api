@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.GetFloat
-title: ID3D10EffectScalarVariable::GetFloat method
+title: ID3D10EffectScalarVariable::GetFloat
 author: windows-driver-content
 description: Get a floating-point variable.
 old-location: direct3d10\id3d10effectscalarvariable_getfloat.htm
@@ -8,7 +8,7 @@ old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_getfloat.htm
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: 82c6ea47-878e-a6aa-0990-a6dfce382da6, GetFloat method [Direct3D 10], GetFloat method [Direct3D 10], ID3D10EffectScalarVariable interface, GetFloat,ID3D10EffectScalarVariable.GetFloat, ID3D10EffectScalarVariable, ID3D10EffectScalarVariable interface [Direct3D 10], GetFloat method, ID3D10EffectScalarVariable::GetFloat, d3d10effect/ID3D10EffectScalarVariable::GetFloat, direct3d10.id3d10effectscalarvariable_getfloat
+ms.keywords: 82c6ea47-878e-a6aa-0990-a6dfce382da6, GetFloat, GetFloat method [Direct3D 10], GetFloat method [Direct3D 10],ID3D10EffectScalarVariable interface, ID3D10EffectScalarVariable interface [Direct3D 10],GetFloat method, ID3D10EffectScalarVariable.GetFloat, ID3D10EffectScalarVariable::GetFloat, d3d10effect/ID3D10EffectScalarVariable::GetFloat, direct3d10.id3d10effectscalarvariable_getfloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# ID3D10EffectScalarVariable::GetFloat method
+# ID3D10EffectScalarVariable::GetFloat
 
 
 ## -description

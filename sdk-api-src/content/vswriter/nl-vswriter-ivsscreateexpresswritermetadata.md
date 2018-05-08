@@ -8,7 +8,7 @@ old-project: VSS
 ms.assetid: 49112cff-9e61-4218-a013-5ae5eb58b534
 ms.author: windowsdriverdev
 ms.date: 4/17/2018
-ms.keywords: IVssCreateExpressWriterMetadata, IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface, described, base.ivsscreateexpresswritermetadata, vswriter/IVssCreateExpressWriterMetadata
+ms.keywords: IVssCreateExpressWriterMetadata, IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,described, base.ivsscreateexpresswritermetadata, vswriter/IVssCreateExpressWriterMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class

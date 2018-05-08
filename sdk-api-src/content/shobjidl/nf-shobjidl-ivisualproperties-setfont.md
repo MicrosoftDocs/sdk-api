@@ -1,14 +1,14 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetFont
-title: IVisualProperties::SetFont method
+title: IVisualProperties::SetFont
 author: windows-driver-content
 description: Sets attributes of the font.
 old-location: shell\IVisualProperties_SetFont.htm
 old-project: shell
 ms.assetid: ecdf8652-0e1c-47df-bd19-80390bdf6c7f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVisualProperties, IVisualProperties interface [Windows Shell], SetFont method, IVisualProperties::SetFont, SetFont method [Windows Shell], SetFont method [Windows Shell], IVisualProperties interface, SetFont,IVisualProperties.SetFont, _shell_IVisualProperties_SetFont, shell.IVisualProperties_SetFont, shobjidl/IVisualProperties::SetFont
+ms.date: 5/3/2018
+ms.keywords: IVisualProperties interface [Windows Shell],SetFont method, IVisualProperties.SetFont, IVisualProperties::SetFont, SetFont, SetFont method [Windows Shell], SetFont method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetFont, shell.IVisualProperties_SetFont, shobjidl/IVisualProperties::SetFont
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# IVisualProperties::SetFont method
+# IVisualProperties::SetFont
 
 
 ## -description

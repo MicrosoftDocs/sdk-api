@@ -1,14 +1,14 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GenerateHeader
-title: IMFASFContentInfo::GenerateHeader method
+title: IMFASFContentInfo::GenerateHeader
 author: windows-driver-content
 description: Encodes the data in the MFASFContentInfo object into a binary Advanced Systems Format (ASF) header.
 old-location: mf\imfasfcontentinfo_generateheader.htm
 old-project: medfound
 ms.assetid: 972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
-ms.keywords: 972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e, GenerateHeader method [Media Foundation], GenerateHeader method [Media Foundation], IMFASFContentInfo interface, GenerateHeader,IMFASFContentInfo.GenerateHeader, IMFASFContentInfo, IMFASFContentInfo interface [Media Foundation], GenerateHeader method, IMFASFContentInfo::GenerateHeader, mf.imfasfcontentinfo_generateheader, wmcontainer/IMFASFContentInfo::GenerateHeader
+ms.date: 5/3/2018
+ms.keywords: 972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e, GenerateHeader, GenerateHeader method [Media Foundation], GenerateHeader method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GenerateHeader method, IMFASFContentInfo.GenerateHeader, IMFASFContentInfo::GenerateHeader, mf.imfasfcontentinfo_generateheader, wmcontainer/IMFASFContentInfo::GenerateHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IMFASFContentInfo::GenerateHeader method
+# IMFASFContentInfo::GenerateHeader
 
 
 ## -description

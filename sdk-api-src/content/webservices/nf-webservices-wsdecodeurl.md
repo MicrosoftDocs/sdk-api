@@ -8,7 +8,7 @@ old-project: wsw
 ms.assetid: 67147b71-ca3a-4a17-a4f1-6ba608eca742
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: WsDecodeUrl, WsDecodeUrl function [Web Services for Windows], webservices/WsDecodeUrl, wsw.wsdecodeurl
+ms.keywords: DWsDecodeUrl, WsDecodeUrl, WsDecodeUrl function [Web Services for Windows], webservices/WsDecodeUrl, wsw.wsdecodeurl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

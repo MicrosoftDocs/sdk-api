@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont2.SetAutoLigatures
-title: ITextFont2::SetAutoLigatures method
+title: ITextFont2::SetAutoLigatures
 author: windows-driver-content
 description: Sets whether support for automatic ligatures is active.
 old-location: controls\itextfont2_setautoligatures.htm
 old-project: Controls
 ms.assetid: f40fecfe-3c3b-46f0-9edf-ba48236e50e7
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: ITextFont2, ITextFont2 interface [Windows Controls], SetAutoLigatures method, ITextFont2::SetAutoLigatures, SetAutoLigatures method [Windows Controls], SetAutoLigatures method [Windows Controls], ITextFont2 interface, SetAutoLigatures,ITextFont2.SetAutoLigatures, controls.itextfont2_setautoligatures, tom/ITextFont2::SetAutoLigatures
+ms.date: 4/27/2018
+ms.keywords: ITextFont2 interface [Windows Controls],SetAutoLigatures method, ITextFont2.SetAutoLigatures, ITextFont2::SetAutoLigatures, SetAutoLigatures, SetAutoLigatures method [Windows Controls], SetAutoLigatures method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautoligatures, tom/ITextFont2::SetAutoLigatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont2::SetAutoLigatures method
+# ITextFont2::SetAutoLigatures
 
 
 ## -description

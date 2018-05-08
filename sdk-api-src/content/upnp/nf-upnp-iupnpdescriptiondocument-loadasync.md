@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocument.LoadAsync
-title: IUPnPDescriptionDocument::LoadAsync method
+title: IUPnPDescriptionDocument::LoadAsync
 author: windows-driver-content
 description: The LoadAsync method loads a document asynchronously. This method returns control to the caller immediately, and uses the specified callback to notify the caller when the operation is complete.
 old-location: upnp\iupnpdescriptiondocument_loadasync.htm
@@ -8,7 +8,7 @@ old-project: UPnP
 ms.assetid: bfb1d833-13e8-4ffe-832d-f6640a42055a
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: IUPnPDescriptionDocument, IUPnPDescriptionDocument interface [UPnP APIs], LoadAsync method, IUPnPDescriptionDocument::LoadAsync, LoadAsync method [UPnP APIs], LoadAsync method [UPnP APIs], IUPnPDescriptionDocument interface, LoadAsync,IUPnPDescriptionDocument.LoadAsync, _upnp_iupnpdescriptiondocument_loadasync, upnp.iupnpdescriptiondocument_loadasync, upnp/IUPnPDescriptionDocument::LoadAsync
+ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],LoadAsync method, IUPnPDescriptionDocument.LoadAsync, IUPnPDescriptionDocument::LoadAsync, LoadAsync, LoadAsync method [UPnP APIs], LoadAsync method [UPnP APIs],IUPnPDescriptionDocument interface, _upnp_iupnpdescriptiondocument_loadasync, upnp.iupnpdescriptiondocument_loadasync, upnp/IUPnPDescriptionDocument::LoadAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows UI
 ---
 
-# IUPnPDescriptionDocument::LoadAsync method
+# IUPnPDescriptionDocument::LoadAsync
 
 
 ## -description

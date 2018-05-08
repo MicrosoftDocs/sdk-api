@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.UnRegisterNotificationSink
-title: IWSDiscoveryPublisher::UnRegisterNotificationSink method
+title: IWSDiscoveryPublisher::UnRegisterNotificationSink
 author: windows-driver-content
 description: Detaches a callback notification sink from the discovery publisher.
 old-location: ncd\iwsdiscoverypublisher_unregisternotificationsink_method.htm
@@ -8,7 +8,7 @@ old-project: WsdApi
 ms.assetid: aaf6bc07-8ce9-41f7-b468-971b31b51a86
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IWSDiscoveryPublisher, IWSDiscoveryPublisher interface, UnRegisterNotificationSink method, IWSDiscoveryPublisher::UnRegisterNotificationSink, UnRegisterNotificationSink method, UnRegisterNotificationSink method, IWSDiscoveryPublisher interface, UnRegisterNotificationSink,IWSDiscoveryPublisher.UnRegisterNotificationSink, ncd.iwsdiscoverypublisher_unregisternotificationsink_method, wsddisco/IWSDiscoveryPublisher::UnRegisterNotificationSink
+ms.keywords: IWSDiscoveryPublisher interface,UnRegisterNotificationSink method, IWSDiscoveryPublisher.UnRegisterNotificationSink, IWSDiscoveryPublisher::UnRegisterNotificationSink, UnRegisterNotificationSink, UnRegisterNotificationSink method, UnRegisterNotificationSink method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_unregisternotificationsink_method, wsddisco/IWSDiscoveryPublisher::UnRegisterNotificationSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWSDiscoveryPublisher::UnRegisterNotificationSink method
+# IWSDiscoveryPublisher::UnRegisterNotificationSink
 
 
 ## -description

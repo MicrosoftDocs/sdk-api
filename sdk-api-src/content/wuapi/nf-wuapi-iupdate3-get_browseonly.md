@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate3.get_BrowseOnly
-title: IUpdate3::get_BrowseOnly method
+title: IUpdate3::get_BrowseOnly
 author: windows-driver-content
 description: Gets a Boolean value that indicates whether an update can be discovered only by browsing through the available updates.
 old-location: wua\iupdate3_browseonly.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: a1b5a225-6089-48f6-903c-0eb0539ca157
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: BrowseOnly property [Windows Update Agent], BrowseOnly property [Windows Update Agent], IUpdate3 interface, IUpdate3, IUpdate3 interface [Windows Update Agent], BrowseOnly property, IUpdate3.BrowseOnly, IUpdate3::get_BrowseOnly, get_BrowseOnly,IUpdate3.get_BrowseOnly, wua.iupdate3_browseonly, wuapi/IUpdate3::BrowseOnly, wuapi/IUpdate3::get_BrowseOnly
+ms.keywords: BrowseOnly property [Windows Update Agent], BrowseOnly property [Windows Update Agent],IUpdate3 interface, IUpdate3 interface [Windows Update Agent],BrowseOnly property, IUpdate3.BrowseOnly, IUpdate3.get_BrowseOnly, IUpdate3::BrowseOnly, IUpdate3::get_BrowseOnly, get_BrowseOnly, wua.iupdate3_browseonly, wuapi/IUpdate3::BrowseOnly, wuapi/IUpdate3::get_BrowseOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IUpdate3::get_BrowseOnly method
+# IUpdate3::get_BrowseOnly
 
 
 ## -description

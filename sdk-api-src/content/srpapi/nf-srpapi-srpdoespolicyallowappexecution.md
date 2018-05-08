@@ -8,7 +8,7 @@ old-project: EDP
 ms.assetid: 2649E719-2BF8-4AE6-B563-0230487A7BD2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EDP.srpdoespolicyallowappexecution_, SrpDoesPolicyAllowAppExecution, SrpDoesPolicyAllowAppExecution function, srpapi/SrpDoesPolicyAllowAppExecution
+ms.keywords: EDP.srpdoespolicyallowappexecution_, SrpDoesPolicyAllowAppExecution, SrpDoesPolicyAllowAppExecution , SrpDoesPolicyAllowAppExecution function, srpapi/SrpDoesPolicyAllowAppExecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

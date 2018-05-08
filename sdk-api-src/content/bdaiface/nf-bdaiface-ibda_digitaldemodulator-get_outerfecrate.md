@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_OuterFECRate
-title: IBDA_DigitalDemodulator::get_OuterFECRate method
+title: IBDA_DigitalDemodulator::get_OuterFECRate
 author: windows-driver-content
 description: The get_OuterFECRate method retrieves the outer forward error correction rate for the signal.
 old-location: mstv\ibda_digitaldemodulator_get_outerfecrate.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 99f6e920-0b2d-4509-9a68-c6404d676b8a
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IBDA_DigitalDemodulator, IBDA_DigitalDemodulator interface [Microsoft TV Technologies], get_OuterFECRate method, IBDA_DigitalDemodulator::get_OuterFECRate, IBDA_DigitalDemodulatorget_OuterFECRate, bdaiface/IBDA_DigitalDemodulator::get_OuterFECRate, get_OuterFECRate method [Microsoft TV Technologies], get_OuterFECRate method [Microsoft TV Technologies], IBDA_DigitalDemodulator interface, get_OuterFECRate,IBDA_DigitalDemodulator.get_OuterFECRate, mstv.ibda_digitaldemodulator_get_outerfecrate
+ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_OuterFECRate method, IBDA_DigitalDemodulator.get_OuterFECRate, IBDA_DigitalDemodulator::get_OuterFECRate, IBDA_DigitalDemodulatorget_OuterFECRate, bdaiface/IBDA_DigitalDemodulator::get_OuterFECRate, get_OuterFECRate, get_OuterFECRate method [Microsoft TV Technologies], get_OuterFECRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_outerfecrate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBDA_DigitalDemodulator::get_OuterFECRate method
+# IBDA_DigitalDemodulator::get_OuterFECRate
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IPrint.GetPageInfo
-title: IPrint::GetPageInfo method
+title: IPrint::GetPageInfo
 author: windows-driver-content
 description: Retrieves the number of a document's first page and the total number of pages.
 old-location: com\iprint_getpageinfo.htm
@@ -8,7 +8,7 @@ old-project: com
 ms.assetid: 8f3a2d21-5345-4c4e-9928-37dcd6ec5fcc
 ms.author: windowsdriverdev
 ms.date: 4/25/2018
-ms.keywords: GetPageInfo method [COM], GetPageInfo method [COM], IPrint interface, GetPageInfo,IPrint.GetPageInfo, IPrint, IPrint interface [COM], GetPageInfo method, IPrint::GetPageInfo, _ctrl_iprint_getpageinfo, com.iprint_getpageinfo, docobj/IPrint::GetPageInfo
+ms.keywords: GetPageInfo, GetPageInfo method [COM], GetPageInfo method [COM],IPrint interface, IPrint interface [COM],GetPageInfo method, IPrint.GetPageInfo, IPrint::GetPageInfo, _ctrl_iprint_getpageinfo, com.iprint_getpageinfo, docobj/IPrint::GetPageInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IPrint::GetPageInfo method
+# IPrint::GetPageInfo
 
 
 ## -description

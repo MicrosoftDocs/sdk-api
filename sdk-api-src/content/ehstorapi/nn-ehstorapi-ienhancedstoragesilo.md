@@ -8,7 +8,7 @@ old-project: enstor
 ms.assetid: 041e66d2-f772-407d-85f7-71f226c7ec4b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEnhancedStorageSilo, IEnhancedStorageSilo interface [Enhanced Storage], IEnhancedStorageSilo interface [Enhanced Storage], described, ehstorapi/IEnhancedStorageSilo, enstor.ienhancedstoragesilo
+ms.keywords: IEnhancedStorageSilo, IEnhancedStorageSilo interface [Enhanced Storage], IEnhancedStorageSilo interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageSilo, enstor.ienhancedstoragesilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

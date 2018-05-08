@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.SetPostViewProps
-title: IWMWriterPostView::SetPostViewProps method
+title: IWMWriterPostView::SetPostViewProps
 author: windows-driver-content
 description: The SetPostViewProps method specifies the format for the specified output stream.
 old-location: wmformat\iwmwriterpostview_setpostviewprops.htm
@@ -8,7 +8,7 @@ old-project: wmformat
 ms.assetid: e5b92065-fff3-41d2-b263-375ae14869e5
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: IWMWriterPostView, IWMWriterPostView interface [windows Media Format], SetPostViewProps method, IWMWriterPostView::SetPostViewProps, IWMWriterPostViewSetPostViewProps, SetPostViewProps method [windows Media Format], SetPostViewProps method [windows Media Format], IWMWriterPostView interface, SetPostViewProps,IWMWriterPostView.SetPostViewProps, wmformat.iwmwriterpostview_setpostviewprops, wmsdkidl/IWMWriterPostView::SetPostViewProps
+ms.keywords: IWMWriterPostView interface [windows Media Format],SetPostViewProps method, IWMWriterPostView.SetPostViewProps, IWMWriterPostView::SetPostViewProps, IWMWriterPostViewSetPostViewProps, SetPostViewProps, SetPostViewProps method [windows Media Format], SetPostViewProps method [windows Media Format],IWMWriterPostView interface, wmformat.iwmwriterpostview_setpostviewprops, wmsdkidl/IWMWriterPostView::SetPostViewProps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -47,7 +47,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IWMWriterPostView::SetPostViewProps method
+# IWMWriterPostView::SetPostViewProps
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRendererDevices.get__NewEnum
-title: IMSVidVideoRendererDevices::get__NewEnum method
+title: IMSVidVideoRendererDevices::get__NewEnum
 author: windows-driver-content
 description: The get__NewEnum method retrieves an enumerator for the collection.
 old-location: mstv\imsvidvideorendererdevices_get__newenum.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: da321f4c-801a-4e27-bc82-5dab723adf97
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidVideoRendererDevices, IMSVidVideoRendererDevices interface [Microsoft TV Technologies], get__NewEnum method, IMSVidVideoRendererDevices::get__NewEnum, IMSVidVideoRendererDevicesget__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies], IMSVidVideoRendererDevices interface, get__NewEnum,IMSVidVideoRendererDevices.get__NewEnum, mstv.imsvidvideorendererdevices_get__newenum, segment/IMSVidVideoRendererDevices::get__NewEnum
+ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],get__NewEnum method, IMSVidVideoRendererDevices.get__NewEnum, IMSVidVideoRendererDevices::get__NewEnum, IMSVidVideoRendererDevicesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_get__newenum, segment/IMSVidVideoRendererDevices::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidVideoRendererDevices::get__NewEnum method
+# IMSVidVideoRendererDevices::get__NewEnum
 
 
 ## -description

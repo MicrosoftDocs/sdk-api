@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetVersionNumber
-title: IISDB_NBIT::GetVersionNumber method
+title: IISDB_NBIT::GetVersionNumber
 author: windows-driver-content
 description: Gets the version number of a subtable within an Integrated Services Digital Broadcasting (ISDB) network broadcaster Information Table (NBIT).
 old-location: mstv\iisdb_nbit_getversionnumber.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 1082700f-f52d-466e-8191-abbe0b5f8d66
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies], IISDB_NBIT interface, GetVersionNumber,IISDB_NBIT.GetVersionNumber, IISDB_NBIT, IISDB_NBIT interface [Microsoft TV Technologies], GetVersionNumber method, IISDB_NBIT::GetVersionNumber, dvbsiparser/IISDB_NBIT::GetVersionNumber, mstv.iisdb_nbit_getversionnumber
+ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_NBIT.GetVersionNumber, IISDB_NBIT::GetVersionNumber, dvbsiparser/IISDB_NBIT::GetVersionNumber, mstv.iisdb_nbit_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IISDB_NBIT::GetVersionNumber method
+# IISDB_NBIT::GetVersionNumber
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:netfw.INetFwProducts.Register
-title: INetFwProducts::Register method
+title: INetFwProducts::Register
 author: windows-driver-content
 description: The Register method registers a third-party firewall product.
 old-location: ics\inetfwproducts_register.htm
 old-project: ICS
 ms.assetid: eea30680-f1c7-454d-896c-5116209fdc2c
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
-ms.keywords: INetFwProducts, INetFwProducts interface [ICS/ICF], Register method, INetFwProducts::Register, Register method [ICS/ICF], Register method [ICS/ICF], INetFwProducts interface, Register,INetFwProducts.Register, ics.inetfwproducts_register, netfw/INetFwProducts::Register
+ms.date: 5/1/2018
+ms.keywords: INetFwProducts interface [ICS/ICF],Register method, INetFwProducts.Register, INetFwProducts::Register, Register, Register method [ICS/ICF], Register method [ICS/ICF],INetFwProducts interface, ics.inetfwproducts_register, netfw/INetFwProducts::Register
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# INetFwProducts::Register method
+# INetFwProducts::Register
 
 
 ## -description

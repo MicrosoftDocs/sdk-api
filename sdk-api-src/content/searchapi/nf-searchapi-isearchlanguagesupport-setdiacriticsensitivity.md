@@ -1,14 +1,14 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.SetDiacriticSensitivity
-title: ISearchLanguageSupport::SetDiacriticSensitivity method
+title: ISearchLanguageSupport::SetDiacriticSensitivity
 author: windows-driver-content
 description: Sets a value that indicates whether an implemented ISearchLanguageSupport interface is sensitive to diacritics. A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation.
 old-location: search\_search_ISearchLanguageSupport_SetDiacriticSensitivity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\setdiacriticsensitivity.htm
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ISearchLanguageSupport, ISearchLanguageSupport interface [search], SetDiacriticSensitivity method, ISearchLanguageSupport::SetDiacriticSensitivity, SetDiacriticSensitivity method [search], SetDiacriticSensitivity method [search], ISearchLanguageSupport interface, SetDiacriticSensitivity,ISearchLanguageSupport.SetDiacriticSensitivity, _search_ISearchLanguageSupport_SetDiacriticSensitivity, search._search_ISearchLanguageSupport_SetDiacriticSensitivity, searchapi/ISearchLanguageSupport::SetDiacriticSensitivity
+ms.date: 5/4/2018
+ms.keywords: ISearchLanguageSupport interface [search],SetDiacriticSensitivity method, ISearchLanguageSupport.SetDiacriticSensitivity, ISearchLanguageSupport::SetDiacriticSensitivity, SetDiacriticSensitivity, SetDiacriticSensitivity method [search], SetDiacriticSensitivity method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_SetDiacriticSensitivity, search._search_ISearchLanguageSupport_SetDiacriticSensitivity, searchapi/ISearchLanguageSupport::SetDiacriticSensitivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISearchLanguageSupport::SetDiacriticSensitivity method
+# ISearchLanguageSupport::SetDiacriticSensitivity
 
 
 ## -description

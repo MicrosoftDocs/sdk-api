@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogObject.put_Value
-title: ICatalogObject::put_Value method
+title: ICatalogObject::put_Value
 author: windows-driver-content
 description: Accesses the value of the specified property exposed by this catalog object.
 old-location: cos\icatalogobject_value.htm
@@ -8,7 +8,7 @@ old-project: cossdk
 ms.assetid: eb4203c5-b51c-411c-9c2d-405b3d70bc80
 ms.author: windowsdriverdev
 ms.date: 4/3/2018
-ms.keywords: ICatalogObject, ICatalogObject interface [COM+], Value property, ICatalogObject.Value, ICatalogObject::get_Value, ICatalogObject::put_Value, Value property [COM+], Value property [COM+], ICatalogObject interface, _cos_ICatalogObject_get_Value, _cos_ICatalogObject_put_Value, comadmin/ICatalogObject::Value, comadmin/ICatalogObject::get_Value, comadmin/ICatalogObject::put_Value, cos.icatalogobject_value, put_Value,ICatalogObject.put_Value
+ms.keywords: ICatalogObject interface [COM+],Value property, ICatalogObject.Value, ICatalogObject.put_Value, ICatalogObject::Value, ICatalogObject::get_Value, ICatalogObject::put_Value, Value property [COM+], Value property [COM+],ICatalogObject interface, _cos_ICatalogObject_get_Value, _cos_ICatalogObject_put_Value, comadmin/ICatalogObject::Value, comadmin/ICatalogObject::get_Value, comadmin/ICatalogObject::put_Value, cos.icatalogobject_value, put_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.dll:
 req.irql: 
 ---
 
-# ICatalogObject::put_Value method
+# ICatalogObject::put_Value
 
 
 ## -description

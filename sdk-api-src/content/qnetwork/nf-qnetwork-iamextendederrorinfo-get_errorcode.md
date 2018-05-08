@@ -1,14 +1,14 @@
 ---
 UID: NF:qnetwork.IAMExtendedErrorInfo.get_ErrorCode
-title: IAMExtendedErrorInfo::get_ErrorCode method
+title: IAMExtendedErrorInfo::get_ErrorCode
 author: windows-driver-content
 description: The get_ErrorCode method retrieves the current error code.
 old-location: dshow\iamextendederrorinfo_get_errorcode.htm
 old-project: DirectShow
 ms.assetid: e7ab81a5-bc62-48f5-a2c8-ee53e86aea89
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IAMExtendedErrorInfo, IAMExtendedErrorInfo interface [DirectShow], get_ErrorCode method, IAMExtendedErrorInfo::get_ErrorCode, IAMExtendedErrorInfoget_ErrorCode, dshow.iamextendederrorinfo_get_errorcode, get_ErrorCode method [DirectShow], get_ErrorCode method [DirectShow], IAMExtendedErrorInfo interface, get_ErrorCode,IAMExtendedErrorInfo.get_ErrorCode, qnetwork/IAMExtendedErrorInfo::get_ErrorCode
+ms.date: 4/30/2018
+ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_ErrorCode method, IAMExtendedErrorInfo.get_ErrorCode, IAMExtendedErrorInfo::get_ErrorCode, IAMExtendedErrorInfoget_ErrorCode, dshow.iamextendederrorinfo_get_errorcode, get_ErrorCode, get_ErrorCode method [DirectShow], get_ErrorCode method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_ErrorCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IAMExtendedErrorInfo::get_ErrorCode method
+# IAMExtendedErrorInfo::get_ErrorCode
 
 
 ## -description

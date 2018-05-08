@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemContext.Next
-title: IWbemContext::Next method
+title: IWbemContext::Next
 author: windows-driver-content
 description: The IWbemContext::Next method retrieves the next value in an enumeration of all context values beginning with IWbemContext::BeginEnumeration.
 old-location: wmi\iwbemcontext_next.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: e316564c-a739-472b-b7a8-8acbf71e1c58
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemContext, IWbemContext interface [Windows Management Instrumentation], Next method, IWbemContext::Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation], IWbemContext interface, Next,IWbemContext.Next, _hmm_iwbemcontext_next, wbemcli/IWbemContext::Next, wmi.iwbemcontext_next
+ms.keywords: IWbemContext interface [Windows Management Instrumentation],Next method, IWbemContext.Next, IWbemContext::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IWbemContext interface, _hmm_iwbemcontext_next, wbemcli/IWbemContext::Next, wmi.iwbemcontext_next
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,7 +51,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemContext::Next method
+# IWbemContext::Next
 
 
 ## -description

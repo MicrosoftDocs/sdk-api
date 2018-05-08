@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.IAnchor.SetGravity
-title: IAnchor::SetGravity method
+title: IAnchor::SetGravity
 author: windows-driver-content
 description: IAnchor::SetGravity method
 old-location: tsf\ianchor_setgravity.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: c532abcf-9ae0-4566-80f7-0bb4ae908fce
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: IAnchor, IAnchor interface [Text Services Framework], SetGravity method, IAnchor::SetGravity, SetGravity method [Text Services Framework], SetGravity method [Text Services Framework], IAnchor interface, SetGravity,IAnchor.SetGravity, textstor/IAnchor::SetGravity, tsf.ianchor_setgravity
+ms.keywords: IAnchor interface [Text Services Framework],SetGravity method, IAnchor.SetGravity, IAnchor::SetGravity, SetGravity, SetGravity method [Text Services Framework], SetGravity method [Text Services Framework],IAnchor interface, textstor/IAnchor::SetGravity, tsf.ianchor_setgravity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IAnchor::SetGravity method
+# IAnchor::SetGravity
 
 
 ## -description

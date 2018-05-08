@@ -1,6 +1,6 @@
 ---
 UID: NF:identitystore.IIdentityStore.EnumerateIdentities
-title: IIdentityStore::EnumerateIdentities method
+title: IIdentityStore::EnumerateIdentities
 author: windows-driver-content
 description: Gets a pointer to an IEnumUnknown interface pointer that can be used to enumerate identities across identity providers.
 old-location: security\iidentitystore_enumerateidentities.htm
@@ -8,7 +8,7 @@ old-project: SecAuthN
 ms.assetid: df1a53e0-6296-49ed-b0f0-85e9dc9ab947
 ms.author: windowsdriverdev
 ms.date: 4/24/2018
-ms.keywords: EnumerateIdentities method [Security], EnumerateIdentities method [Security], IIdentityStore interface, EnumerateIdentities,IIdentityStore.EnumerateIdentities, IIdentityStore, IIdentityStore interface [Security], EnumerateIdentities method, IIdentityStore::EnumerateIdentities, identitystore/IIdentityStore::EnumerateIdentities, security.iidentitystore_enumerateidentities
+ms.keywords: EnumerateIdentities, EnumerateIdentities method [Security], EnumerateIdentities method [Security],IIdentityStore interface, IIdentityStore interface [Security],EnumerateIdentities method, IIdentityStore.EnumerateIdentities, IIdentityStore::EnumerateIdentities, identitystore/IIdentityStore::EnumerateIdentities, security.iidentitystore_enumerateidentities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IIdentityStore::EnumerateIdentities method
+# IIdentityStore::EnumerateIdentities
 
 
 ## -description
@@ -60,7 +60,7 @@ The <b>EnumerateIdentities</b> method gets a pointer to an <a href="https://msdn
 
 ### -param eIdentityType [in]
 
-A value of the <a href="https://msdn.microsoft.com/b15fadf6-5331-4c66-9a6b-0cfdef2ca867">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
+A value of the <a href="https://msdn.microsoft.com/">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
 
 
 ### -param pFilterkey [in, optional]

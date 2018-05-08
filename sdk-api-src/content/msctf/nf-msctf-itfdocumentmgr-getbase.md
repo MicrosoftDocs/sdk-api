@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.GetBase
-title: ITfDocumentMgr::GetBase method
+title: ITfDocumentMgr::GetBase
 author: windows-driver-content
 description: ITfDocumentMgr::GetBase method
 old-location: tsf\itfdocumentmgr_getbase.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 71248c77-7440-412c-b565-39c04108b98b
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: GetBase method [Text Services Framework], GetBase method [Text Services Framework], ITfDocumentMgr interface, GetBase,ITfDocumentMgr.GetBase, ITfDocumentMgr, ITfDocumentMgr interface [Text Services Framework], GetBase method, ITfDocumentMgr::GetBase, _tsf_itfdocumentmgr_getbase_ref, msctf/ITfDocumentMgr::GetBase, tsf.itfdocumentmgr_getbase
+ms.keywords: GetBase, GetBase method [Text Services Framework], GetBase method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],GetBase method, ITfDocumentMgr.GetBase, ITfDocumentMgr::GetBase, _tsf_itfdocumentmgr_getbase_ref, msctf/ITfDocumentMgr::GetBase, tsf.itfdocumentmgr_getbase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfDocumentMgr::GetBase method
+# ITfDocumentMgr::GetBase
 
 
 ## -description

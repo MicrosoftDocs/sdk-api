@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_Opened
-title: IX509PrivateKey::get_Opened method
+title: IX509PrivateKey::get_Opened
 author: windows-driver-content
 description: Retrieves a Boolean value that specifies whether the private key is open.
 old-location: security\ix509privatekey_opened_property.htm
@@ -8,7 +8,7 @@ old-project: SecCertEnroll
 ms.assetid: 7f02b3d7-ab3a-4413-81ac-c626bc79a88c
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], Opened property, IX509PrivateKey.Opened, IX509PrivateKey::get_Opened, Opened property [Security], Opened property [Security], IX509PrivateKey interface, certenroll/IX509PrivateKey::Opened, certenroll/IX509PrivateKey::get_Opened, get_Opened,IX509PrivateKey.get_Opened, security.ix509privatekey_opened_property
+ms.keywords: IX509PrivateKey interface [Security],Opened property, IX509PrivateKey.Opened, IX509PrivateKey.get_Opened, IX509PrivateKey::Opened, IX509PrivateKey::get_Opened, Opened property [Security], Opened property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Opened, certenroll/IX509PrivateKey::get_Opened, get_Opened, security.ix509privatekey_opened_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll: CertEnroll.dll
 req.irql: 
 ---
 
-# IX509PrivateKey::get_Opened method
+# IX509PrivateKey::get_Opened
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.put_ApplicationData
-title: IAzApplication::put_ApplicationData method
+title: IAzApplication::put_ApplicationData
 author: windows-driver-content
 description: Sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\iazapplication_applicationdata.htm
@@ -8,7 +8,7 @@ old-project: SecAuthZ
 ms.assetid: 7d7ec5c8-8032-437a-92b5-5c578deda6f9
 ms.author: windowsdriverdev
 ms.date: 4/13/2018
-ms.keywords: ApplicationData property [Security], ApplicationData property [Security], AzApplication object, ApplicationData property [Security], IAzApplication interface, AzApplication object [Security], ApplicationData property, IAzApplication, IAzApplication interface [Security], ApplicationData property, IAzApplication.ApplicationData, IAzApplication::get_ApplicationData, IAzApplication::put_ApplicationData, azroles/IAzApplication::ApplicationData, azroles/IAzApplication::get_ApplicationData, azroles/IAzApplication::put_ApplicationData, put_ApplicationData,IAzApplication.put_ApplicationData, security.iazapplication_applicationdata
+ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzApplication object, ApplicationData property [Security],IAzApplication interface, AzApplication object [Security],ApplicationData property, IAzApplication interface [Security],ApplicationData property, IAzApplication.ApplicationData, IAzApplication.put_ApplicationData, IAzApplication::ApplicationData, IAzApplication::get_ApplicationData, IAzApplication::put_ApplicationData, azroles/IAzApplication::ApplicationData, azroles/IAzApplication::get_ApplicationData, azroles/IAzApplication::put_ApplicationData, put_ApplicationData, security.iazapplication_applicationdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.dll: Azroles.dll
 req.irql: 
 ---
 
-# IAzApplication::put_ApplicationData method
+# IAzApplication::put_ApplicationData
 
 
 ## -description

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetTag
-title: IDvbLinkageDescriptor::GetTag method
+title: IDvbLinkageDescriptor::GetTag
 author: windows-driver-content
 description: Gets the tag that identifies a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_gettag.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 4a01430f-13b2-40ff-a47e-98e1bcdbf4fc
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies], IDvbLinkageDescriptor interface, GetTag,IDvbLinkageDescriptor.GetTag, IDvbLinkageDescriptor, IDvbLinkageDescriptor interface [Microsoft TV Technologies], GetTag method, IDvbLinkageDescriptor::GetTag, dvbsiparser/IDvbLinkageDescriptor::GetTag, mstv.idvblinkagedescriptor_gettag
+ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbLinkageDescriptor.GetTag, IDvbLinkageDescriptor::GetTag, dvbsiparser/IDvbLinkageDescriptor::GetTag, mstv.idvblinkagedescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbLinkageDescriptor::GetTag method
+# IDvbLinkageDescriptor::GetTag
 
 
 ## -description

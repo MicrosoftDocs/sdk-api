@@ -8,7 +8,7 @@ old-project: ADSI
 ms.assetid: 5573d37b-10a8-4176-80c7-711552ff36cb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ADSystemInfo, IADsADSystemInfo, IADsADSystemInfo interface [ADSI], IADsADSystemInfo interface [ADSI], described, _ds_iadsadsysteminfo, adsi.iadsadsysteminfo, iads/IADsADSystemInfo
+ms.keywords: ADSystemInfo, IADsADSystemInfo, IADsADSystemInfo interface [ADSI], IADsADSystemInfo interface [ADSI],described, _ds_iadsadsysteminfo, adsi.iadsadsysteminfo, iads/IADsADSystemInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

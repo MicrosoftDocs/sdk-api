@@ -8,7 +8,7 @@ old-project: mediastreaming
 ms.assetid: 854C7024-D582-405D-8A5F-C152DE8BE0BE
 ms.author: windowsdriverdev
 ms.date: 4/10/2018
-ms.keywords: IMediaRendererActionInformation, IMediaRendererActionInformation interface [Media Streaming API], IMediaRendererActionInformation interface [Media Streaming API], described, mediastreaming.imediarendereractioninformation, windows/IMediaRendererActionInformation
+ms.keywords: IMediaRendererActionInformation, IMediaRendererActionInformation interface [Media Streaming API], IMediaRendererActionInformation interface [Media Streaming API],described, mediastreaming.imediarendereractioninformation, windows/IMediaRendererActionInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

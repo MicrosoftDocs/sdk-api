@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.RetrieveRequestedAttrs
-title: ITextStoreACP::RetrieveRequestedAttrs method
+title: ITextStoreACP::RetrieveRequestedAttrs
 author: windows-driver-content
 description: Gets the attributes returned by a call to an attribute request method.
 old-location: tsf\itextstoreacp_retrieverequestedattrs.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: 6cd34ca5-6561-4161-beac-98248f0415f6
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITextStoreACP, ITextStoreACP interface [Text Services Framework], RetrieveRequestedAttrs method, ITextStoreACP::RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework], ITextStoreACP interface, RetrieveRequestedAttrs,ITextStoreACP.RetrieveRequestedAttrs, _tsf_itextstoreacp_retrieverequestedattrs_ref, textstor/ITextStoreACP::RetrieveRequestedAttrs, tsf.itextstoreacp_retrieverequestedattrs
+ms.keywords: ITextStoreACP interface [Text Services Framework],RetrieveRequestedAttrs method, ITextStoreACP.RetrieveRequestedAttrs, ITextStoreACP::RetrieveRequestedAttrs, RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_retrieverequestedattrs_ref, textstor/ITextStoreACP::RetrieveRequestedAttrs, tsf.itextstoreacp_retrieverequestedattrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextStoreACP::RetrieveRequestedAttrs method
+# ITextStoreACP::RetrieveRequestedAttrs
 
 
 ## -description

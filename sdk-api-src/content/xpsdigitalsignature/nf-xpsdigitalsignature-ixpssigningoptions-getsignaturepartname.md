@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetSignaturePartName
-title: IXpsSigningOptions::GetSignaturePartName method
+title: IXpsSigningOptions::GetSignaturePartName
 author: windows-driver-content
 description: Gets the part name of the document's signature part.
 old-location: xps\ixpssigningoptions_getsignaturepartname.htm
@@ -8,7 +8,7 @@ old-project: printdocs
 ms.assetid: 8c5dfbda-0ceb-4694-bc5d-7e16e6f6d3bc
 ms.author: windowsdriverdev
 ms.date: 3/27/2018
-ms.keywords: GetSignaturePartName method [XPS Documents and Packaging], GetSignaturePartName method [XPS Documents and Packaging], IXpsSigningOptions interface, GetSignaturePartName,IXpsSigningOptions.GetSignaturePartName, IXpsSigningOptions, IXpsSigningOptions interface [XPS Documents and Packaging], GetSignaturePartName method, IXpsSigningOptions::GetSignaturePartName, xps.ixpssigningoptions_getsignaturepartname, xpsdigitalsignature/IXpsSigningOptions::GetSignaturePartName
+ms.keywords: GetSignaturePartName, GetSignaturePartName method [XPS Documents and Packaging], GetSignaturePartName method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetSignaturePartName method, IXpsSigningOptions.GetSignaturePartName, IXpsSigningOptions::GetSignaturePartName, xps.ixpssigningoptions_getsignaturepartname, xpsdigitalsignature/IXpsSigningOptions::GetSignaturePartName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IXpsSigningOptions::GetSignaturePartName method
+# IXpsSigningOptions::GetSignaturePartName
 
 
 ## -description

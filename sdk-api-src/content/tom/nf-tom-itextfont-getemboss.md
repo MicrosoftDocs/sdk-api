@@ -1,14 +1,14 @@
 ---
 UID: NF:tom.ITextFont.GetEmboss
-title: ITextFont::GetEmboss method
+title: ITextFont::GetEmboss
 author: windows-driver-content
 description: Gets whether characters are embossed.
 old-location: controls\ITextFont_GetEmboss.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getemboss.htm
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetEmboss method [Windows Controls], GetEmboss method [Windows Controls], ITextFont interface, GetEmboss,ITextFont.GetEmboss, ITextFont, ITextFont interface [Windows Controls], GetEmboss method, ITextFont::GetEmboss, _win32_ITextFont_GetEmboss, _win32_ITextFont_GetEmboss_cpp, controls.ITextFont_GetEmboss, controls._win32_ITextFont_GetEmboss, tom/ITextFont::GetEmboss
+ms.date: 4/27/2018
+ms.keywords: GetEmboss, GetEmboss method [Windows Controls], GetEmboss method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetEmboss method, ITextFont.GetEmboss, ITextFont::GetEmboss, _win32_ITextFont_GetEmboss, _win32_ITextFont_GetEmboss_cpp, controls.ITextFont_GetEmboss, controls._win32_ITextFont_GetEmboss, tom/ITextFont::GetEmboss
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITextFont::GetEmboss method
+# ITextFont::GetEmboss
 
 
 ## -description

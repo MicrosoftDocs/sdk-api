@@ -1,14 +1,14 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.GetLatency
-title: IAudioProcessingObject::GetLatency method
+title: IAudioProcessingObject::GetLatency
 author: windows-driver-content
 description: The GetLatency method returns the latency for this APO. Latency is the amount of time it takes a frame to traverse the processing pass of an APO.
 old-location: audio\iaudioprocessingobject_getlatency.htm
 old-project: audio
 ms.assetid: 7ac982cd-7fb7-4427-ac17-508bcc72391d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: GetLatency method [Audio Devices], GetLatency method [Audio Devices], IAudioProcessingObject interface, GetLatency,IAudioProcessingObject.GetLatency, IAudioProcessingObject, IAudioProcessingObject interface [Audio Devices], GetLatency method, IAudioProcessingObject::GetLatency, audio.iaudioprocessingobject_getlatency, audio_syseffects_r_51c02d16-7f19-43e9-8656-411abb78ee56.xml, audioenginebaseapo/IAudioProcessingObject::GetLatency
+ms.date: 5/1/2018
+ms.keywords: GetLatency, GetLatency method [Audio Devices], GetLatency method [Audio Devices],IAudioProcessingObject interface, IAudioProcessingObject interface [Audio Devices],GetLatency method, IAudioProcessingObject.GetLatency, IAudioProcessingObject::GetLatency, audio.iaudioprocessingobject_getlatency, audio_syseffects_r_51c02d16-7f19-43e9-8656-411abb78ee56.xml, audioenginebaseapo/IAudioProcessingObject::GetLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: Any level
 ---
 
-# IAudioProcessingObject::GetLatency method
+# IAudioProcessingObject::GetLatency
 
 
 ## -description

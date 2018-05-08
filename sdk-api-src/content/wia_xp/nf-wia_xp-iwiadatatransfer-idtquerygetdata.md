@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_xp.IWiaDataTransfer.idtQueryGetData
-title: IWiaDataTransfer::idtQueryGetData method
+title: IWiaDataTransfer::idtQueryGetData
 author: windows-driver-content
 description: The IWiaDataTransfer::idtQueryGetData method is used by applications to query a Windows Image Acquisition (WIA) device to determine what types of data formats it supports.
 old-location: wia\_wia_IWiaDataTransfer_idtQueryGetData.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtquerygetdata.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IWiaDataTransfer, IWiaDataTransfer interface [WIA], idtQueryGetData method, IWiaDataTransfer::idtQueryGetData, _wia_IWiaDataTransfer_idtQueryGetData, idtQueryGetData method [WIA], idtQueryGetData method [WIA], IWiaDataTransfer interface, idtQueryGetData,IWiaDataTransfer.idtQueryGetData, wia._wia_IWiaDataTransfer_idtQueryGetData, wia_xp/IWiaDataTransfer::idtQueryGetData
+ms.date: 5/3/2018
+ms.keywords: IWiaDataTransfer interface [WIA],idtQueryGetData method, IWiaDataTransfer.idtQueryGetData, IWiaDataTransfer::idtQueryGetData, _wia_IWiaDataTransfer_idtQueryGetData, idtQueryGetData, idtQueryGetData method [WIA], idtQueryGetData method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtQueryGetData, wia_xp/IWiaDataTransfer::idtQueryGetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWiaDataTransfer::idtQueryGetData method
+# IWiaDataTransfer::idtQueryGetData
 
 
 ## -description

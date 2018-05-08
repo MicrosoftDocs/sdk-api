@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceDataStream.Cancel
-title: IPortableDeviceDataStream::Cancel method
+title: IPortableDeviceDataStream::Cancel
 author: windows-driver-content
 description: The Cancel method cancels a call in progress on this interface.
 old-location: wpdsdk\iportabledevicedatastream_cancel.htm
@@ -8,7 +8,7 @@ old-project: wpd_sdk
 ms.assetid: 4a86cc78-8ef8-45e1-b63a-dac4c9dcdd9c
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK], IPortableDeviceDataStream interface, Cancel,IPortableDeviceDataStream.Cancel, IPortableDeviceDataStream, IPortableDeviceDataStream interface [Windows Portable Devices SDK], Cancel method, IPortableDeviceDataStream::Cancel, IPortableDeviceDataStreamCancel, portabledeviceapi/IPortableDeviceDataStream::Cancel, wpdsdk.iportabledevicedatastream_cancel
+ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceDataStream interface, IPortableDeviceDataStream interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceDataStream.Cancel, IPortableDeviceDataStream::Cancel, IPortableDeviceDataStreamCancel, portabledeviceapi/IPortableDeviceDataStream::Cancel, wpdsdk.iportabledevicedatastream_cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IPortableDeviceDataStream::Cancel method
+# IPortableDeviceDataStream::Cancel
 
 
 ## -description

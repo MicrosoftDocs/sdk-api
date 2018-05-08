@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon.StartScreenSaver
-title: ISensLogon::StartScreenSaver method
+title: ISensLogon::StartScreenSaver
 author: windows-driver-content
 description: The StartScreenSaver method notifies an application that a screen saver is started.
 old-location: sens\isenslogon_startscreensaver.htm
@@ -8,7 +8,7 @@ old-project: Sens
 ms.assetid: 47531e1f-e2d4-4475-a109-e213c903a7ba
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ISensLogon, ISensLogon interface [SENS], StartScreenSaver method, ISensLogon::StartScreenSaver, StartScreenSaver method [SENS], StartScreenSaver method [SENS], ISensLogon interface, StartScreenSaver,ISensLogon.StartScreenSaver, _zaw_isenslogon_startscreensaver, sens.isenslogon_startscreensaver, sensevts/ISensLogon::StartScreenSaver, syncmgr.isenslogon_startscreensaver
+ms.keywords: ISensLogon interface [SENS],StartScreenSaver method, ISensLogon.StartScreenSaver, ISensLogon::StartScreenSaver, StartScreenSaver, StartScreenSaver method [SENS], StartScreenSaver method [SENS],ISensLogon interface, _zaw_isenslogon_startscreensaver, sens.isenslogon_startscreensaver, sensevts/ISensLogon::StartScreenSaver, syncmgr.isenslogon_startscreensaver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# ISensLogon::StartScreenSaver method
+# ISensLogon::StartScreenSaver
 
 
 ## -description

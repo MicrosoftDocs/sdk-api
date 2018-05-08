@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.GetColorContexts
-title: IWICBitmapDecoder::GetColorContexts method
+title: IWICBitmapDecoder::GetColorContexts
 author: windows-driver-content
 description: Retrieves the IWICColorContext objects of the image.
 old-location: wic\_wic_codec_iwicbitmapdecoder_getcolorcontexts.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: 55fdf9c0-5fa4-46e2-b4d2-42b8d4c90887
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: GetColorContexts method [Windows Imaging Component], GetColorContexts method [Windows Imaging Component], IWICBitmapDecoder interface, GetColorContexts,IWICBitmapDecoder.GetColorContexts, IWICBitmapDecoder, IWICBitmapDecoder interface [Windows Imaging Component], GetColorContexts method, IWICBitmapDecoder::GetColorContexts, _wic_codec_iwicbitmapdecoder_getcolorcontexts, wic._wic_codec_iwicbitmapdecoder_getcolorcontexts, wincodec/IWICBitmapDecoder::GetColorContexts
+ms.keywords: GetColorContexts, GetColorContexts method [Windows Imaging Component], GetColorContexts method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetColorContexts method, IWICBitmapDecoder.GetColorContexts, IWICBitmapDecoder::GetColorContexts, _wic_codec_iwicbitmapdecoder_getcolorcontexts, wic._wic_codec_iwicbitmapdecoder_getcolorcontexts, wincodec/IWICBitmapDecoder::GetColorContexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapDecoder::GetColorContexts method
+# IWICBitmapDecoder::GetColorContexts
 
 
 ## -description

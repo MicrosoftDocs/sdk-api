@@ -7,7 +7,7 @@ old-location: security\tokenbinding_key_types.htm
 old-project: SecCNG
 ms.assetid: E5029CE3-CD23-4566-A951-35374DC7BC57
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/1/2018
 ms.keywords: TOKENBINDING_KEY_TYPES, TOKENBINDING_KEY_TYPES structure [Security], security.tokenbinding_key_types, tokenbinding/TOKENBINDING_KEY_TYPES
 ms.prod: windows-hardware
 ms.technology: windows-devices

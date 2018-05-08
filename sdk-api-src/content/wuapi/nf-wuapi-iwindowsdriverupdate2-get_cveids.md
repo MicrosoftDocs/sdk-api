@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate2.get_CveIDs
-title: IWindowsDriverUpdate2::get_CveIDs method
+title: IWindowsDriverUpdate2::get_CveIDs
 author: windows-driver-content
 description: Contains a collection of the Common Vulnerabilities and Exposures (CVE) identifiers that are associated with an update.
 old-location: wua\iwindowsdriverupdate2_cveids.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 6399d545-b300-4f78-b6df-c9892bc62fbb
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: CveIDs property [Windows Update Agent], CveIDs property [Windows Update Agent], IWindowsDriverUpdate2 interface, IWindowsDriverUpdate2, IWindowsDriverUpdate2 interface [Windows Update Agent], CveIDs property, IWindowsDriverUpdate2.CveIDs, IWindowsDriverUpdate2::get_CveIDs, get_CveIDs,IWindowsDriverUpdate2.get_CveIDs, wua.iwindowsdriverupdate2_cveids, wuapi/IWindowsDriverUpdate2::CveIDs, wuapi/IWindowsDriverUpdate2::get_CveIDs
+ms.keywords: CveIDs property [Windows Update Agent], CveIDs property [Windows Update Agent],IWindowsDriverUpdate2 interface, IWindowsDriverUpdate2 interface [Windows Update Agent],CveIDs property, IWindowsDriverUpdate2.CveIDs, IWindowsDriverUpdate2.get_CveIDs, IWindowsDriverUpdate2::CveIDs, IWindowsDriverUpdate2::get_CveIDs, get_CveIDs, wua.iwindowsdriverupdate2_cveids, wuapi/IWindowsDriverUpdate2::CveIDs, wuapi/IWindowsDriverUpdate2::get_CveIDs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ---
 
-# IWindowsDriverUpdate2::get_CveIDs method
+# IWindowsDriverUpdate2::get_CveIDs
 
 
 ## -description

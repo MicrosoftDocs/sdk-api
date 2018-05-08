@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IImageInformation.get_Width
-title: IImageInformation::get_Width method
+title: IImageInformation::get_Width
 author: windows-driver-content
 description: Gets the width of the image, in pixels.
 old-location: wua\iimageinformation_width.htm
@@ -8,7 +8,7 @@ old-project: Wua_Sdk
 ms.assetid: 90379e21-f67b-4c59-b3bf-da6aeefe5b00
 ms.author: windowsdriverdev
 ms.date: 4/18/2018
-ms.keywords: IImageInformation, IImageInformation interface [Windows Update Agent], Width property, IImageInformation.Width, IImageInformation::get_Width, Width property [Windows Update Agent], Width property [Windows Update Agent], IImageInformation interface, get_Width,IImageInformation.get_Width, wua.iimageinformation_width, wuapi/IImageInformation::Width, wuapi/IImageInformation::get_Width
+ms.keywords: IImageInformation interface [Windows Update Agent],Width property, IImageInformation.Width, IImageInformation.get_Width, IImageInformation::Width, IImageInformation::get_Width, Width property [Windows Update Agent], Width property [Windows Update Agent],IImageInformation interface, get_Width, wua.iimageinformation_width, wuapi/IImageInformation::Width, wuapi/IImageInformation::get_Width
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,7 +45,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# IImageInformation::get_Width method
+# IImageInformation::get_Width
 
 
 ## -description

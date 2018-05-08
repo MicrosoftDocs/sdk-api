@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IBasicVideo.SetDefaultDestinationPosition
-title: IBasicVideo::SetDefaultDestinationPosition method
+title: IBasicVideo::SetDefaultDestinationPosition
 author: windows-driver-content
 description: The SetDefaultDestinationPosition method reverts to the default destination rectangle. After this method is called, the video renderer uses the entire window for playback.
 old-location: dshow\ibasicvideo_setdefaultdestinationposition.htm
 old-project: DirectShow
 ms.assetid: 82ee1be5-4a58-4104-a8a5-3c3926e2f1d2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IBasicVideo, IBasicVideo interface [DirectShow], SetDefaultDestinationPosition method, IBasicVideo::SetDefaultDestinationPosition, IBasicVideoSetDefaultDestinationPosition, SetDefaultDestinationPosition method [DirectShow], SetDefaultDestinationPosition method [DirectShow], IBasicVideo interface, SetDefaultDestinationPosition,IBasicVideo.SetDefaultDestinationPosition, control/IBasicVideo::SetDefaultDestinationPosition, dshow.ibasicvideo_setdefaultdestinationposition
+ms.date: 4/30/2018
+ms.keywords: IBasicVideo interface [DirectShow],SetDefaultDestinationPosition method, IBasicVideo.SetDefaultDestinationPosition, IBasicVideo::SetDefaultDestinationPosition, IBasicVideoSetDefaultDestinationPosition, SetDefaultDestinationPosition, SetDefaultDestinationPosition method [DirectShow], SetDefaultDestinationPosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetDefaultDestinationPosition, dshow.ibasicvideo_setdefaultdestinationposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBasicVideo::SetDefaultDestinationPosition method
+# IBasicVideo::SetDefaultDestinationPosition
 
 
 ## -description

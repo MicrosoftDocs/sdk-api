@@ -7,8 +7,8 @@ old-location: shell\ISyncMgrConflict.htm
 old-project: shell
 ms.assetid: a5806a83-b470-4617-961d-b768160afc48
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ISyncMgrConflict, ISyncMgrConflict interface [Windows Shell], ISyncMgrConflict interface [Windows Shell], described, _shell_ISyncMgrConflict, shell.ISyncMgrConflict, syncmgr/ISyncMgrConflict
+ms.date: 5/3/2018
+ms.keywords: ISyncMgrConflict, ISyncMgrConflict interface [Windows Shell], ISyncMgrConflict interface [Windows Shell],described, _shell_ISyncMgrConflict, shell.ISyncMgrConflict, syncmgr/ISyncMgrConflict
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

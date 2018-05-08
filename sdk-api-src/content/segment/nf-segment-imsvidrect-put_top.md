@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidRect.put_Top
-title: IMSVidRect::put_Top method
+title: IMSVidRect::put_Top
 author: windows-driver-content
 description: The put_Top method specifies the top y-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_put_top.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: ee3dbbd2-a8b4-496b-84e6-b0d7615f6a1e
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], put_Top method, IMSVidRect::put_Top, IMSVidRectput_Top, mstv.imsvidrect_put_top, put_Top method [Microsoft TV Technologies], put_Top method [Microsoft TV Technologies], IMSVidRect interface, put_Top,IMSVidRect.put_Top, segment/IMSVidRect::put_Top
+ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Top method, IMSVidRect.put_Top, IMSVidRect::put_Top, IMSVidRectput_Top, mstv.imsvidrect_put_top, put_Top, put_Top method [Microsoft TV Technologies], put_Top method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Top
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IMSVidRect::put_Top method
+# IMSVidRect::put_Top
 
 
 ## -description

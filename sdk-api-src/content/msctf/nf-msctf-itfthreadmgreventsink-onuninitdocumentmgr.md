@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnUninitDocumentMgr
-title: ITfThreadMgrEventSink::OnUninitDocumentMgr method
+title: ITfThreadMgrEventSink::OnUninitDocumentMgr
 author: windows-driver-content
 description: ITfThreadMgrEventSink::OnUninitDocumentMgr method
 old-location: tsf\itfthreadmgreventsink_onuninitdocumentmgr.htm
@@ -8,7 +8,7 @@ old-project: TSF
 ms.assetid: da4532e4-aa00-41af-8dfc-1880dc5b3b22
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
-ms.keywords: ITfThreadMgrEventSink, ITfThreadMgrEventSink interface [Text Services Framework], OnUninitDocumentMgr method, ITfThreadMgrEventSink::OnUninitDocumentMgr, OnUninitDocumentMgr method [Text Services Framework], OnUninitDocumentMgr method [Text Services Framework], ITfThreadMgrEventSink interface, OnUninitDocumentMgr,ITfThreadMgrEventSink.OnUninitDocumentMgr, _tsf_itfthreadmgreventsink_onuninitdocumentmgr_ref, msctf/ITfThreadMgrEventSink::OnUninitDocumentMgr, tsf.itfthreadmgreventsink_onuninitdocumentmgr
+ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnUninitDocumentMgr method, ITfThreadMgrEventSink.OnUninitDocumentMgr, ITfThreadMgrEventSink::OnUninitDocumentMgr, OnUninitDocumentMgr, OnUninitDocumentMgr method [Text Services Framework], OnUninitDocumentMgr method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onuninitdocumentmgr_ref, msctf/ITfThreadMgrEventSink::OnUninitDocumentMgr, tsf.itfthreadmgreventsink_onuninitdocumentmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# ITfThreadMgrEventSink::OnUninitDocumentMgr method
+# ITfThreadMgrEventSink::OnUninitDocumentMgr
 
 
 ## -description

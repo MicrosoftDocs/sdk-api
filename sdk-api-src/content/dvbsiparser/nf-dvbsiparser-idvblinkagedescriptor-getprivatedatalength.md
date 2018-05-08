@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetPrivateDataLength
-title: IDvbLinkageDescriptor::GetPrivateDataLength method
+title: IDvbLinkageDescriptor::GetPrivateDataLength
 author: windows-driver-content
 description: Gets the length of the private data field from a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getprivatedatalength.htm
@@ -8,7 +8,7 @@ old-project: mstv
 ms.assetid: 6c37a877-5a0e-49ed-bf75-bb8ad73fa783
 ms.author: windowsdriverdev
 ms.date: 4/26/2018
-ms.keywords: GetPrivateDataLength method [Microsoft TV Technologies], GetPrivateDataLength method [Microsoft TV Technologies], IDvbLinkageDescriptor interface, GetPrivateDataLength,IDvbLinkageDescriptor.GetPrivateDataLength, IDvbLinkageDescriptor, IDvbLinkageDescriptor interface [Microsoft TV Technologies], GetPrivateDataLength method, IDvbLinkageDescriptor::GetPrivateDataLength, dvbsiparser/IDvbLinkageDescriptor::GetPrivateDataLength, mstv.idvblinkagedescriptor_getprivatedatalength
+ms.keywords: GetPrivateDataLength, GetPrivateDataLength method [Microsoft TV Technologies], GetPrivateDataLength method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetPrivateDataLength method, IDvbLinkageDescriptor.GetPrivateDataLength, IDvbLinkageDescriptor::GetPrivateDataLength, dvbsiparser/IDvbLinkageDescriptor::GetPrivateDataLength, mstv.idvblinkagedescriptor_getprivatedatalength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Media Format 9 Series or later
 ---
 
-# IDvbLinkageDescriptor::GetPrivateDataLength method
+# IDvbLinkageDescriptor::GetPrivateDataLength
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.GetHelperTokenSid
-title: IBitsTokenOptions::GetHelperTokenSid method
+title: IBitsTokenOptions::GetHelperTokenSid
 author: windows-driver-content
 description: Returns the SID of the helper token if one is set.
 old-location: bits\ibitstokenoptions_gethelpertokensid.htm
 old-project: Bits
 ms.assetid: 724614af-cae8-47d7-888d-ed1504a9bc12
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
-ms.keywords: GetHelperTokenSid method [BITS], GetHelperTokenSid method [BITS], IBitsTokenOptions interface, GetHelperTokenSid,IBitsTokenOptions.GetHelperTokenSid, IBitsTokenOptions, IBitsTokenOptions interface [BITS], GetHelperTokenSid method, IBitsTokenOptions::GetHelperTokenSid, bits.ibitstokenoptions_gethelpertokensid, bits4_0/IBitsTokenOptions::GetHelperTokenSid
+ms.date: 4/27/2018
+ms.keywords: GetHelperTokenSid, GetHelperTokenSid method [BITS], GetHelperTokenSid method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],GetHelperTokenSid method, IBitsTokenOptions.GetHelperTokenSid, IBitsTokenOptions::GetHelperTokenSid, bits.ibitstokenoptions_gethelpertokensid, bits4_0/IBitsTokenOptions::GetHelperTokenSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IBitsTokenOptions::GetHelperTokenSid method
+# IBitsTokenOptions::GetHelperTokenSid
 
 
 ## -description

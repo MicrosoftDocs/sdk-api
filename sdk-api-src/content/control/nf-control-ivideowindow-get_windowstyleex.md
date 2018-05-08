@@ -1,14 +1,14 @@
 ---
 UID: NF:control.IVideoWindow.get_WindowStyleEx
-title: IVideoWindow::get_WindowStyleEx method
+title: IVideoWindow::get_WindowStyleEx
 author: windows-driver-content
 description: The get_WindowStyleEx method retrieves the extended window styles on the video window.
 old-location: dshow\ivideowindow_get_windowstyleex.htm
 old-project: DirectShow
 ms.assetid: cdffe918-5802-406e-86b1-d1e9ebb6dbf7
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], get_WindowStyleEx method, IVideoWindow::get_WindowStyleEx, IVideoWindowget_WindowStyleEx, control/IVideoWindow::get_WindowStyleEx, dshow.ivideowindow_get_windowstyleex, get_WindowStyleEx method [DirectShow], get_WindowStyleEx method [DirectShow], IVideoWindow interface, get_WindowStyleEx,IVideoWindow.get_WindowStyleEx
+ms.date: 4/30/2018
+ms.keywords: IVideoWindow interface [DirectShow],get_WindowStyleEx method, IVideoWindow.get_WindowStyleEx, IVideoWindow::get_WindowStyleEx, IVideoWindowget_WindowStyleEx, control/IVideoWindow::get_WindowStyleEx, dshow.ivideowindow_get_windowstyleex, get_WindowStyleEx, get_WindowStyleEx method [DirectShow], get_WindowStyleEx method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.dll:
 req.irql: 
 ---
 
-# IVideoWindow::get_WindowStyleEx method
+# IVideoWindow::get_WindowStyleEx
 
 
 ## -description

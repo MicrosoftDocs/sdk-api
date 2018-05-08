@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.QueryCapability
-title: IWICBitmapDecoder::QueryCapability method
+title: IWICBitmapDecoder::QueryCapability
 author: windows-driver-content
 description: Retrieves the capabilities of the decoder based on the specified stream.
 old-location: wic\_wic_codec_iwicbitmapdecoder_querycapability.htm
@@ -8,7 +8,7 @@ old-project: wic
 ms.assetid: eeff3d5d-ed7f-41f7-b529-aeeeb8503a50
 ms.author: windowsdriverdev
 ms.date: 4/5/2018
-ms.keywords: IWICBitmapDecoder, IWICBitmapDecoder interface [Windows Imaging Component], QueryCapability method, IWICBitmapDecoder::QueryCapability, QueryCapability method [Windows Imaging Component], QueryCapability method [Windows Imaging Component], IWICBitmapDecoder interface, QueryCapability,IWICBitmapDecoder.QueryCapability, _wic_codec_iwicbitmapdecoder_querycapability, wic._wic_codec_iwicbitmapdecoder_querycapability, wincodec/IWICBitmapDecoder::QueryCapability
+ms.keywords: IWICBitmapDecoder interface [Windows Imaging Component],QueryCapability method, IWICBitmapDecoder.QueryCapability, IWICBitmapDecoder::QueryCapability, QueryCapability, QueryCapability method [Windows Imaging Component], QueryCapability method [Windows Imaging Component],IWICBitmapDecoder interface, _wic_codec_iwicbitmapdecoder_querycapability, wic._wic_codec_iwicbitmapdecoder_querycapability, wincodec/IWICBitmapDecoder::QueryCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICBitmapDecoder::QueryCapability method
+# IWICBitmapDecoder::QueryCapability
 
 
 ## -description

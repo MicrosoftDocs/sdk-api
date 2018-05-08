@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportMulticastSessionPolicy.get_SlowClientHandling
-title: IWdsTransportMulticastSessionPolicy::get_SlowClientHandling method
+title: IWdsTransportMulticastSessionPolicy::get_SlowClientHandling
 author: windows-driver-content
 description: Sets or retrieves a WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE value that indicates the method used by the server to handle clients that are slowing down a multicast transmission.
 old-location: wds\iwdstransportmulticastsessionpolicy_slowclienthandling.htm
@@ -8,7 +8,7 @@ old-project: Wds
 ms.assetid: db83fffe-a011-4b6a-940c-b539b0d4fd1a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IWdsTransportMulticastSessionPolicy, IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services], SlowClientHandling property, IWdsTransportMulticastSessionPolicy.SlowClientHandling, IWdsTransportMulticastSessionPolicy::get_SlowClientHandling, IWdsTransportMulticastSessionPolicy::put_SlowClientHandling, SlowClientHandling property [Windows Deployment Services], SlowClientHandling property [Windows Deployment Services], IWdsTransportMulticastSessionPolicy interface, get_SlowClientHandling,IWdsTransportMulticastSessionPolicy.get_SlowClientHandling, wds.iwdstransportmulticastsessionpolicy_slowclienthandling, wdstptmgmt/IWdsTransportMulticastSessionPolicy::SlowClientHandling, wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_SlowClientHandling, wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_SlowClientHandling
+ms.keywords: IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],SlowClientHandling property, IWdsTransportMulticastSessionPolicy.SlowClientHandling, IWdsTransportMulticastSessionPolicy.get_SlowClientHandling, IWdsTransportMulticastSessionPolicy::SlowClientHandling, IWdsTransportMulticastSessionPolicy::get_SlowClientHandling, IWdsTransportMulticastSessionPolicy::put_SlowClientHandling, SlowClientHandling property [Windows Deployment Services], SlowClientHandling property [Windows Deployment Services],IWdsTransportMulticastSessionPolicy interface, get_SlowClientHandling, wds.iwdstransportmulticastsessionpolicy_slowclienthandling, wdstptmgmt/IWdsTransportMulticastSessionPolicy::SlowClientHandling, wdstptmgmt/IWdsTransportMulticastSessionPolicy::get_SlowClientHandling, wdstptmgmt/IWdsTransportMulticastSessionPolicy::put_SlowClientHandling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -46,7 +46,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWdsTransportMulticastSessionPolicy::get_SlowClientHandling method
+# IWdsTransportMulticastSessionPolicy::get_SlowClientHandling
 
 
 ## -description

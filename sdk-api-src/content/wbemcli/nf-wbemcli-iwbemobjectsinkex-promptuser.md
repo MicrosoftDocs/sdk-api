@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.PromptUser
-title: IWbemObjectSinkEx::PromptUser method
+title: IWbemObjectSinkEx::PromptUser
 author: windows-driver-content
 description: TBD
 old-location: wmi\iwbemobjectsinkex_promptuser.htm
@@ -8,7 +8,7 @@ old-project: WmiSdk
 ms.assetid: a4ea6f73-e94f-4ffa-9528-43b52ab00192
 ms.author: windowsdriverdev
 ms.date: 4/11/2018
-ms.keywords: IWbemObjectSinkEx, IWbemObjectSinkEx interface [Windows Management Instrumentation], PromptUser method, IWbemObjectSinkEx::PromptUser, PromptUser method [Windows Management Instrumentation], PromptUser method [Windows Management Instrumentation], IWbemObjectSinkEx interface, PromptUser,IWbemObjectSinkEx.PromptUser, wbemcli/IWbemObjectSinkEx::PromptUser, wmi.iwbemobjectsinkex_promptuser
+ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],PromptUser method, IWbemObjectSinkEx.PromptUser, IWbemObjectSinkEx::PromptUser, PromptUser, PromptUser method [Windows Management Instrumentation], PromptUser method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::PromptUser, wmi.iwbemobjectsinkex_promptuser
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWbemObjectSinkEx::PromptUser method
+# IWbemObjectSinkEx::PromptUser
 
 
 ## -description

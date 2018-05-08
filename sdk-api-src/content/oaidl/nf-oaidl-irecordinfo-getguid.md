@@ -1,14 +1,14 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetGuid
-title: IRecordInfo::GetGuid method
+title: IRecordInfo::GetGuid
 author: windows-driver-content
 description: Gets the GUID of the record type.
 old-location: automat\irecordinfo_getguid.htm
 old-project: automat
 ms.assetid: e28ed38a-5cd6-4edb-871e-e69283e4d47e
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: GetGuid method [Automation], GetGuid method [Automation], IRecordInfo interface, GetGuid,IRecordInfo.GetGuid, IRecordInfo, IRecordInfo interface [Automation], GetGuid method, IRecordInfo::GetGuid, _oa96_IRecordInfo_GetGuid, automat.irecordinfo_getguid, oaidl/IRecordInfo::GetGuid
+ms.date: 5/4/2018
+ms.keywords: GetGuid, GetGuid method [Automation], GetGuid method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetGuid method, IRecordInfo.GetGuid, IRecordInfo::GetGuid, _oa96_IRecordInfo_GetGuid, automat.irecordinfo_getguid, oaidl/IRecordInfo::GetGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# IRecordInfo::GetGuid method
+# IRecordInfo::GetGuid
 
 
 ## -description
