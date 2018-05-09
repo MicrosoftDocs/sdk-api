@@ -1,0 +1,28 @@
+{
+  "tech": "gdiplus",
+  "headers": [
+    "gdipluslinecaps.h",
+    "gdiplusheaders.h",
+    "gdiplusbitmap.h",
+    "gdiplusimaging.h",
+    "gdipluseffects.h",
+    "gdiplusbrush.h",
+    "gdiplustypes.h",
+    "gdipluscolor.h",
+    "gdiplusbase.h",
+    "gdiplusgraphics.h",
+    "gdipluspath.h",
+    "gdiplusimageattributes.h",
+    "gdiplusmatrix.h",
+    "gdiplusmetafile.h",
+    "gdiplusmetaheader.h",
+    "gdipluspen.h",
+    "gdiplusstringformat.h",
+    "gdiplusinit.h",
+    "gdiplusimagecodec.h",
+    "gdipluspixelformats.h",
+    "gdiplusenums.h",
+    "gdipluscolormatrix.h"
+  ],
+  "displayName": "GDI+"
+}

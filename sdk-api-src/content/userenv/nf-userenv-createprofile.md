@@ -7,7 +7,7 @@ old-location: shell\CreateProfile.htm
 old-project: shell
 ms.assetid: cab9e20b-d94c-42e5-ada9-27194f398bb3
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: CreateProfile, CreateProfile function [Windows Shell], _shell_CreateProfile, shell.CreateProfile, userenv/CreateProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

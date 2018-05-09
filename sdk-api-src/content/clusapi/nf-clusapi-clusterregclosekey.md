@@ -7,7 +7,7 @@ old-location: mscs\clusterregclosekey.htm
 old-project: MsCS
 ms.assetid: 2216ac42-6beb-4ceb-bd15-12bb2886bc6a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: ClusterRegCloseKey, ClusterRegCloseKey function [Failover Cluster], _wolf_clusterregclosekey, clusapi/ClusterRegCloseKey, mscs.clusterregclosekey
 ms.prod: windows-hardware
 ms.technology: windows-devices

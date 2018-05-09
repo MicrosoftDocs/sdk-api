@@ -7,7 +7,7 @@ old-location: display\ddmapmemory.htm
 old-project: display
 ms.assetid: a05e2ba8-dfe1-447d-acfa-0eb8f4252107
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: DdMapMemory, DdMapMemory callback function [Display Devices], PDD_MAPMEMORY, PDD_MAPMEMORY callback, ddfncs_565a064a-cd87-4f20-8478-05176ce57ad8.xml, ddrawint/DdMapMemory, display.ddmapmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

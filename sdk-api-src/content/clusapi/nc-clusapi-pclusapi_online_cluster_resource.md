@@ -7,7 +7,7 @@ old-location: mscs\onlineclusterresource.htm
 old-project: MsCS
 ms.assetid: 8ea8d741-f6f7-48eb-9678-bbb53f76a9ec
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_ONLINE_CLUSTER_RESOURCE, PCLUSAPI_ONLINE_CLUSTER_RESOURCE callback, PCLUSAPI_ONLINE_CLUSTER_RESOURCE callback function [Failover Cluster], _wolf_onlineclusterresource, clusapi/PCLUSAPI_ONLINE_CLUSTER_RESOURCE, mscs.onlineclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfthreadfocussink_onkillthreadfocus.htm
 old-project: TSF
 ms.assetid: ea4034e3-e5c1-471e-ae9c-398ab7dbfe67
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfThreadFocusSink interface [Text Services Framework],OnKillThreadFocus method, ITfThreadFocusSink.OnKillThreadFocus, ITfThreadFocusSink::OnKillThreadFocus, OnKillThreadFocus, OnKillThreadFocus method [Text Services Framework], OnKillThreadFocus method [Text Services Framework],ITfThreadFocusSink interface, _tsf_itfthreadfocussink_onkillthreadfocus_ref, msctf/ITfThreadFocusSink::OnKillThreadFocus, tsf.itfthreadfocussink_onkillthreadfocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

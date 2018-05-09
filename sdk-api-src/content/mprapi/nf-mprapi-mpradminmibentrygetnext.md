@@ -7,7 +7,7 @@ old-location: rras\mpradminmibentrygetnext.htm
 old-project: RRAS
 ms.assetid: 31e73dcb-db73-4415-8275-88f9ae010ab7
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MprAdminMIBEntryGetNext, MprAdminMIBEntryGetNext function [RAS], _mpr_mpradminmibentrygetnext, mprapi/MprAdminMIBEntryGetNext, rras.mpradminmibentrygetnext
 ms.prod: windows-hardware
 ms.technology: windows-devices

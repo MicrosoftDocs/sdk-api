@@ -1,0 +1,13 @@
+{
+  "tech": "winauto",
+  "headers": [
+    "winuser.h",
+    "windef.h",
+    "msaatext.h",
+    "oleacc.h",
+    "uiautomationcore.h",
+    "uiautomationcoreapi.h",
+    "uiautomationclient.h"
+  ],
+  "displayName": "Windows Automation API"
+}

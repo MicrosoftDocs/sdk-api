@@ -7,7 +7,7 @@ old-location: security\kerb_ticket_logon.htm
 old-project: SecAuthN
 ms.assetid: 2c082c79-ce7f-45a1-8552-3b4e9034b7e3
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PKERB_TICKET_LOGON, KERB_TICKET_LOGON, KERB_TICKET_LOGON structure [Security], PKERB_TICKET_LOGON, PKERB_TICKET_LOGON structure pointer [Security], _KERB_TICKET_LOGON, _lsa_kerb_ticket_logon, ntsecapi/KERB_TICKET_LOGON, ntsecapi/PKERB_TICKET_LOGON, security.kerb_ticket_logon"
 ms.prod: windows-hardware
 ms.technology: windows-devices

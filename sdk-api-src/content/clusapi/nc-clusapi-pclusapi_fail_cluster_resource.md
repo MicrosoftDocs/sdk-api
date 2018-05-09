@@ -7,7 +7,7 @@ old-location: mscs\failclusterresource.htm
 old-project: MsCS
 ms.assetid: fcf0226e-4dd0-4c13-86eb-bc87e461234c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_FAIL_CLUSTER_RESOURCE, PCLUSAPI_FAIL_CLUSTER_RESOURCE callback, PCLUSAPI_FAIL_CLUSTER_RESOURCE callback function [Failover Cluster], _wolf_failclusterresource, clusapi/PCLUSAPI_FAIL_CLUSTER_RESOURCE, mscs.failclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

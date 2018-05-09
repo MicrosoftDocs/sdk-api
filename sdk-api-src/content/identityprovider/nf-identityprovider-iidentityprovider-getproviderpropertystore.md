@@ -7,7 +7,7 @@ old-location: security\iidentityprovider_getproviderpropertystore.htm
 old-project: SecAuthN
 ms.assetid: e0a8f732-5675-49f7-8c2f-6e5f8f1be957
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: GetProviderPropertyStore, GetProviderPropertyStore method [Security], GetProviderPropertyStore method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],GetProviderPropertyStore method, IIdentityProvider.GetProviderPropertyStore, IIdentityProvider::GetProviderPropertyStore, identityprovider/IIdentityProvider::GetProviderPropertyStore, security.iidentityprovider_getproviderpropertystore
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dd_palette_local.htm
 old-project: display
 ms.assetid: 28269aed-fb5e-42a2-aeca-9fa3c7f6481d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PDD_PALETTE_LOCAL, DD_PALETTE_LOCAL, DD_PALETTE_LOCAL structure [Display Devices], _DD_PALETTE_LOCAL, ddrawint/DD_PALETTE_LOCAL, ddstrcts_e56ec243-4e12-4e79-afd7-afce67f148b1.xml, display.dd_palette_local"
 ms.prod: windows-hardware
 ms.technology: windows-devices

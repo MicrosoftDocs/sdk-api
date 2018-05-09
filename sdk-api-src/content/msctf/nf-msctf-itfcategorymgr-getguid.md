@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_getguid.htm
 old-project: TSF
 ms.assetid: a5f5a67c-3152-4933-8a35-0a0cd555a0bf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: GetGUID, GetGUID method [Text Services Framework], GetGUID method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUID method, ITfCategoryMgr.GetGUID, ITfCategoryMgr::GetGUID, _tsf_itfcategorymgr_getguid_ref, msctf/ITfCategoryMgr::GetGUID, tsf.itfcategorymgr_getguid
 ms.prod: windows-hardware
 ms.technology: windows-devices

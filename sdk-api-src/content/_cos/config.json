@@ -1,0 +1,12 @@
+{
+  "tech": "cos",
+  "headers": [
+    "tbd",
+    "comsvcs.h",
+    "combaseapi.h",
+    "eventsys.h",
+    "comadmin.h",
+    "mtxdm.h"
+  ],
+  "displayName": "COM+ (Component Services)"
+}

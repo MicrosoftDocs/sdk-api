@@ -7,7 +7,7 @@ old-location: security\sspicompareauthidentities.htm
 old-project: SecAuthN
 ms.assetid: d2c4f363-3d86-48f0-bae1-4f9240d68bab
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: SspiCompareAuthIdentities, SspiCompareAuthIdentities function [Security], security.sspicompareauthidentities, sspi/SspiCompareAuthIdentities
 ms.prod: windows-hardware
 ms.technology: windows-devices

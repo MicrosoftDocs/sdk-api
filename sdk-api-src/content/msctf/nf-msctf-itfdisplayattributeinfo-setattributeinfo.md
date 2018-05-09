@@ -7,7 +7,7 @@ old-location: tsf\itfdisplayattributeinfo_setattributeinfo.htm
 old-project: TSF
 ms.assetid: 3e9a472c-7992-48fc-be47-993f6d53f043
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfDisplayAttributeInfo interface [Text Services Framework],SetAttributeInfo method, ITfDisplayAttributeInfo.SetAttributeInfo, ITfDisplayAttributeInfo::SetAttributeInfo, SetAttributeInfo, SetAttributeInfo method [Text Services Framework], SetAttributeInfo method [Text Services Framework],ITfDisplayAttributeInfo interface, _tsf_itfdisplayattributeinfo_setattributeinfo_ref, msctf/ITfDisplayAttributeInfo::SetAttributeInfo, tsf.itfdisplayattributeinfo_setattributeinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

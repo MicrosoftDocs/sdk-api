@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanelruninfo_istiprunning.htm
 old-project: tablet
 ms.assetid: 3d82dd05-c03c-4c97-8d41-84a74e3c3a8a
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: 3d82dd05-c03c-4c97-8d41-84a74e3c3a8a, ITextInputPanelRunInfo interface [Tablet PC],IsTipRunning method, ITextInputPanelRunInfo.IsTipRunning, ITextInputPanelRunInfo::IsTipRunning, IsTipRunning, IsTipRunning method [Tablet PC], IsTipRunning method [Tablet PC],ITextInputPanelRunInfo interface, peninputpanel/ITextInputPanelRunInfo::IsTipRunning, tablet.itextinputpanelruninfo_istiprunning
 ms.prod: windows-hardware
 ms.technology: windows-devices

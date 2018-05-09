@@ -7,7 +7,7 @@ old-location: shell\SHGetImageList.htm
 old-project: shell
 ms.assetid: 6ae80c1f-f2b7-4da9-b588-30391c8aef0e
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SHGetImageList, SHGetImageList function [Windows Shell], SHIL_EXTRALARGE, SHIL_JUMBO, SHIL_LARGE, SHIL_LAST, SHIL_SMALL, SHIL_SYSSMALL, _shell_SHGetImageList, shell.SHGetImageList, shellapi/SHGetImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices

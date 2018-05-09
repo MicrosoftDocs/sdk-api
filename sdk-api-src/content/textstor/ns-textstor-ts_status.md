@@ -7,7 +7,7 @@ old-location: tsf\ts_status.htm
 old-project: TSF
 ms.assetid: d27d81f2-8599-4b65-866b-4e8fd2f589f5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: TS_STATUS, TS_STATUS structure [Text Services Framework], _tsf_ts_status_ref, textstor/TS_STATUS, tsf.ts_status
 ms.prod: windows-hardware
 ms.technology: windows-devices

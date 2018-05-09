@@ -7,7 +7,7 @@ old-location: security\changeaccountpassword.htm
 old-project: SecAuthN
 ms.assetid: a1d1e315-d1a2-499a-b552-83180508271f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: ChangeAccountPassword, ChangeAccountPassword function [Security], ChangeAccountPasswordA, ChangeAccountPasswordW, security.changeaccountpassword, sspi/ChangeAccountPassword, sspi/ChangeAccountPasswordA, sspi/ChangeAccountPasswordW
 ms.prod: windows-hardware
 ms.technology: windows-devices

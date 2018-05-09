@@ -7,7 +7,7 @@ old-location: shell\WinHelp.htm
 old-project: shell
 ms.assetid: fce80bac-2a44-46e7-a87a-ef93f4599807
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: WinHelp, WinHelp function [Windows Shell], WinHelpA, WinHelpW, _win32_WinHelp, shell.WinHelp, winuser/WinHelp, winuser/WinHelpA, winuser/WinHelpW
 ms.prod: windows-hardware
 ms.technology: windows-devices

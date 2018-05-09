@@ -7,7 +7,7 @@ old-location: security\credui_info.htm
 old-project: SecAuthN
 ms.assetid: b21f8a42-3707-409c-b62a-9bbb29137b9b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PCREDUI_INFOW, CREDUI_INFO, CREDUI_INFO structure [Security], CREDUI_INFOW, PCREDUI_INFO, PCREDUI_INFO structure pointer [Security], _CREDUI_INFOW, _cred_credui_info, security.credui_info, wincred/CREDUI_INFO, wincred/PCREDUI_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

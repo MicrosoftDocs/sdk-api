@@ -7,7 +7,7 @@ old-location: tsf\tfintegratablecandidatelistselectionstyle.htm
 old-project: TSF
 ms.assetid: B3013879-99B2-4099-AD56-E2FDE3CC817A
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: STYLE_ACTIVE_SELECTION, STYLE_IMPLIED_SELECTION, TfIntegratableCandidateListSelectionStyle, TfIntegratableCandidateListSelectionStyle enumeration [Text Services Framework], __MIDL___MIDL_itf_ctffunc_0000_0022_0001, ctffunc/STYLE_ACTIVE_SELECTION, ctffunc/STYLE_IMPLIED_SELECTION, ctffunc/TfIntegratableCandidateListSelectionStyle, tsf.tfintegratablecandidatelistselectionstyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

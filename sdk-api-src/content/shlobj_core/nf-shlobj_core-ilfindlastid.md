@@ -7,7 +7,7 @@ old-location: shell\ILFindLastID.htm
 old-project: shell
 ms.assetid: 877029b7-a2fb-42c2-98a1-0eb6f229f1d9
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ILFindLastID, ILFindLastID function [Windows Shell], _win32_ILFindLastID, shell.ILFindLastID, shlobj_core/ILFindLastID
 ms.prod: windows-hardware
 ms.technology: windows-devices

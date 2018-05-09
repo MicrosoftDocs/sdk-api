@@ -7,7 +7,7 @@ old-location: tsf\itftextlayoutsink.htm
 old-project: TSF
 ms.assetid: 370e30a8-6eed-448a-87c7-7fd01e9973c6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfTextLayoutSink, ITfTextLayoutSink interface [Text Services Framework], ITfTextLayoutSink interface [Text Services Framework],described, _tsf_itftextlayoutsink_ref, msctf/ITfTextLayoutSink, tsf.itftextlayoutsink
 ms.prod: windows-hardware
 ms.technology: windows-devices

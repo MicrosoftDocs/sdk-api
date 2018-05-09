@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_insertembedded.htm
 old-project: TSF
 ms.assetid: 3d1612ee-1eb2-44c1-921e-a84af56a0790
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],InsertEmbedded method, ITextStoreACP.InsertEmbedded, ITextStoreACP::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_insertembedded_ref, textstor/ITextStoreACP::InsertEmbedded, tsf.itextstoreacp_insertembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices

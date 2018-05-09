@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_advisesink.htm
 old-project: TSF
 ms.assetid: aadf54e4-25ba-4280-a184-e1d2a2594c3c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],AdviseSink method, ITextStoreACP.AdviseSink, ITextStoreACP::AdviseSink, _tsf_itextstoreacp_advisesink_ref, textstor/ITextStoreACP::AdviseSink, tsf.itextstoreacp_advisesink
 ms.prod: windows-hardware
 ms.technology: windows-devices

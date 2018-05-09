@@ -7,7 +7,7 @@ old-location: tablet\iinkcursor_id.htm
 old-project: tablet
 ms.assetid: e302ef9f-da38-4190-af78-d26f9fc86543
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: ID property [Tablet PC], ID property [Tablet PC],IInkCursor interface, IInkCursor interface [Tablet PC],ID property, IInkCursor.ID, IInkCursor.get_ID, IInkCursor.get_Id, IInkCursor::ID, IInkCursor::get_ID, IInkCursor::get_Id, get_Id, msinkaut/IInkCursor::ID, msinkaut/IInkCursor::get_ID, tablet.iinkcursor_id
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronize_showproperties.htm
 old-project: shell
 ms.assetid: 5587cc8a-b359-483e-98ba-82f1bbe058d8
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],ShowProperties method, ISyncMgrSynchronize.ShowProperties, ISyncMgrSynchronize::ShowProperties, ShowProperties, ShowProperties method [Windows Shell], ShowProperties method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::ShowProperties, shell.syncmgr_isyncmgrsynchronize_showproperties, syncmgr.isyncmgrsynchronize_showproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

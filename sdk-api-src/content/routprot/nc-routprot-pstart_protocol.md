@@ -7,7 +7,7 @@ old-location: rras\startprotocol.htm
 old-project: RRAS
 ms.assetid: 8c1c0173-5abf-4e44-a633-16742fd2a4c0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: PSTART_PROTOCOL, PSTART_PROTOCOL callback, StartProtocol, StartProtocol callback function [RAS], _mpr_startprotocol, routprot/StartProtocol, rras.startprotocol
 ms.prod: windows-hardware
 ms.technology: windows-devices

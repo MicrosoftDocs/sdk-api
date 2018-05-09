@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchorsink_onlockgranted.htm
 old-project: TSF
 ms.assetid: 4a2ab828-1eb8-4aae-bebd-dc8b406fd58f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnLockGranted method, ITextStoreAnchorSink.OnLockGranted, ITextStoreAnchorSink::OnLockGranted, OnLockGranted, OnLockGranted method [Text Services Framework], OnLockGranted method [Text Services Framework],ITextStoreAnchorSink interface, TS_LF_READ, TS_LF_READWRITE, _tsf_itextstoreanchorsink_onlockgranted_ref, textstor/ITextStoreAnchorSink::OnLockGranted, tsf.itextstoreanchorsink_onlockgranted
 ms.prod: windows-hardware
 ms.technology: windows-devices

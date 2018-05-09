@@ -1,0 +1,15 @@
+{
+  "tech": "menurc",
+  "headers": [
+    "winbase.h",
+    "winnt.h",
+    "winuser.h",
+    "resourceindexer.h",
+    "shellapi.h",
+    "strsafe.h",
+    "winver.h",
+    "verrsrc.h",
+    "mrmresourceindexer.h"
+  ],
+  "displayName": "Menus and Other Resources"
+}

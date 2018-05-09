@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiapplication.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\iuiapplication.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/7/2018
 ms.keywords: IUIApplication, IUIApplication interface [Windows Ribbon], IUIApplication interface [Windows Ribbon],described, scenicintent_IUIApplication, uiribbon/IUIApplication, windowsribbon.windowsribbon_iuiapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\mibgetnext.htm
 old-project: RRAS
 ms.assetid: 00047426-11b6-4b68-8a44-45608611eafe
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MibGetNext, MibGetNext callback function [RAS], PMIB_GET_NEXT, PMIB_GET_NEXT callback, _mpr_mibgetnext, routprot/MibGetNext, rras.mibgetnext
 ms.prod: windows-hardware
 ms.technology: windows-devices

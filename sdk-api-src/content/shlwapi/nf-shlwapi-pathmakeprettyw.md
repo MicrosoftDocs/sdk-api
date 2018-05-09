@@ -7,7 +7,7 @@ old-location: shell\PathMakePretty.htm
 old-project: shell
 ms.assetid: fb871054-4c63-42de-b85b-edefa4b09ea0
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: PathMakePretty, PathMakePretty function [Windows Shell], PathMakePrettyA, PathMakePrettyW, _win32_PathMakePretty, shell.PathMakePretty, shlwapi/PathMakePretty, shlwapi/PathMakePrettyA, shlwapi/PathMakePrettyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

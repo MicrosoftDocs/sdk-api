@@ -7,7 +7,7 @@ old-location: display\ddflipoverlayinfo.htm
 old-project: display
 ms.assetid: 04e4baba-4b6c-4f0a-8197-1fb2d83f53d6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PDDFLIPOVERLAYINFO, DDFLIPOVERLAYINFO, DDFLIPOVERLAYINFO structure [Display Devices], PDDFLIPOVERLAYINFO, PDDFLIPOVERLAYINFO structure pointer [Display Devices], Video_Structs_c9d5aaff-82e8-482e-b774-6c14f0fa8610.xml, _DDFLIPOVERLAYINFO, display.ddflipoverlayinfo, dxmini/DDFLIPOVERLAYINFO, dxmini/PDDFLIPOVERLAYINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

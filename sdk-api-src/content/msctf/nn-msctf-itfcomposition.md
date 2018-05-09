@@ -7,7 +7,7 @@ old-location: tsf\itfcomposition.htm
 old-project: TSF
 ms.assetid: b1eb5782-13e3-4cbb-8c37-ce7219d1e838
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfComposition, ITfComposition interface [Text Services Framework], ITfComposition interface [Text Services Framework],described, _tsf_itfcomposition_ref, msctf/ITfComposition, tsf.itfcomposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

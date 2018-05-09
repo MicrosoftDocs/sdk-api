@@ -7,7 +7,7 @@ old-location: display\wndobj.htm
 old-project: display
 ms.assetid: 69c47add-82a7-48fd-ae91-7756a6a8d15b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PWNDOBJ, PWNDOBJ, PWNDOBJ structure pointer [Display Devices], WNDOBJ, WNDOBJ structure [Display Devices], _WNDOBJ, display.wndobj, grstrcts_78a58771-627a-419e-b6f0-00411e32a22a.xml, winddi/PWNDOBJ, winddi/WNDOBJ"
 ms.prod: windows-hardware
 ms.technology: windows-devices

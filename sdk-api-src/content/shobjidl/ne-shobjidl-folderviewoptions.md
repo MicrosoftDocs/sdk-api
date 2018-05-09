@@ -7,7 +7,7 @@ old-location: shell\FOLDERVIEWOPTIONS.htm
 old-project: shell
 ms.assetid: ab0ebc82-e917-4e3a-864b-fc3bb6280a48
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: FOLDERVIEWOPTIONS, FOLDERVIEWOPTIONS enumeration [Windows Shell], FVO_CUSTOMORDERING, FVO_CUSTOMPOSITION, FVO_DEFAULT, FVO_NOANIMATIONS, FVO_NOSCROLLTIPS, FVO_SUPPORTHYPERLINKS, FVO_VISTALAYOUT, _shell_FOLDERVIEWOPTIONS, shell.FOLDERVIEWOPTIONS, shobjidl/FOLDERVIEWOPTIONS, shobjidl/FVO_CUSTOMORDERING, shobjidl/FVO_CUSTOMPOSITION, shobjidl/FVO_DEFAULT, shobjidl/FVO_NOANIMATIONS, shobjidl/FVO_NOSCROLLTIPS, shobjidl/FVO_SUPPORTHYPERLINKS, shobjidl/FVO_VISTALAYOUT
 ms.prod: windows-hardware
 ms.technology: windows-devices

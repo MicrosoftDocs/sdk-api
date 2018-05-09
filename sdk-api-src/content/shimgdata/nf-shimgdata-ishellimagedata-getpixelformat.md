@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_GetPixelFormat.htm
 old-project: shell
 ms.assetid: 43520cdd-66f1-4c75-bcec-7631de4f96c3
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [Windows Shell], GetPixelFormat method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetPixelFormat method, IShellImageData.GetPixelFormat, IShellImageData::GetPixelFormat, _shell_IShellImageData_GetPixelFormat, shell.IShellImageData_GetPixelFormat, shimgdata/IShellImageData::GetPixelFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

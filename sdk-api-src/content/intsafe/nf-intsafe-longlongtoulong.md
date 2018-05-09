@@ -7,7 +7,7 @@ old-location: shell\DWordToUShort.htm
 old-project: shell
 ms.assetid: d0b990d6-26e0-4a09-8f24-f7f13be68f32
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: DWordToUShort, DWordToUShort function [Windows Shell], LongLongToULong, _shell_DWordToUShort, intsafe/DWordToUShort, shell.DWordToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

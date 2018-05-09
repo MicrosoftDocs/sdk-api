@@ -7,7 +7,7 @@ old-location: shell\TBINFO_str.htm
 old-project: shell
 ms.assetid: da82e861-129b-4536-b036-2238c9e4c84c
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: "*LPTBINFO, TBIF_APPEND, TBIF_PREPEND, TBIF_REPLACE, TBINFO, TBINFO structure [Windows Shell], _TBINFO, _win32_TBINFO_str, shell.TBINFO_str, shlobj/TBINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

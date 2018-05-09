@@ -1,0 +1,19 @@
+{
+  "tech": "lwef",
+  "headers": [
+    "shlobj.h",
+    "emptyvc.h",
+    "reconcil.h",
+    "shldisp.h",
+    "wdssharedidl.h",
+    "wdsview.h",
+    "wdsveiw.h",
+    "searchapi.h",
+    "mmcobj.h",
+    "wmiutils.h",
+    "provider.h",
+    "mpclient.h",
+    "windowsdefender.h"
+  ],
+  "displayName": "Legacy Windows Environment Features"
+}

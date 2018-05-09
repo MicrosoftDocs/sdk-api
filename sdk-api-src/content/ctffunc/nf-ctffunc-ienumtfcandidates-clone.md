@@ -7,7 +7,7 @@ old-location: tsf\ienumtfcandidates_clone.htm
 old-project: TSF
 ms.assetid: 7e7fc6d9-69eb-4457-be28-2b28b9eeeabb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfCandidates interface, IEnumTfCandidates interface [Text Services Framework],Clone method, IEnumTfCandidates.Clone, IEnumTfCandidates::Clone, _tsf_ienumtfcandidates_clone_ref, ctffunc/IEnumTfCandidates::Clone, tsf.ienumtfcandidates_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

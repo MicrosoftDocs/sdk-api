@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfaceenum.htm
 old-project: RRAS
 ms.assetid: 50486ad3-2f1d-4ab9-9a7f-7b72128486fb
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MprAdminInterfaceEnum, MprAdminInterfaceEnum function [RAS], _mpr_mpradmininterfaceenum, mprapi/MprAdminInterfaceEnum, rras.mpradmininterfaceenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

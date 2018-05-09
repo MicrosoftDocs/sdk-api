@@ -7,7 +7,7 @@ old-location: rras\rassecuritydialogcomplete.htm
 old-project: RRAS
 ms.assetid: 9ebe8b85-7500-405f-98c2-6f51f3339629
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: RasSecurityDialogComplete, RasSecurityDialogComplete function [RAS], _ras_rassecuritydialogcomplete, rasshost/RasSecurityDialogComplete, rras.rassecuritydialogcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itffnconfigureregistereudc_show.htm
 old-project: TSF
 ms.assetid: 40279381-7c1c-4b11-92c9-200b763e7c7d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfFnConfigureRegisterEudc interface [Text Services Framework],Show method, ITfFnConfigureRegisterEudc.Show, ITfFnConfigureRegisterEudc::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfFnConfigureRegisterEudc interface, ctffunc/ITfFnConfigureRegisterEudc::Show, tsf.itffnconfigureregistereudc_show
 ms.prod: windows-hardware
 ms.technology: windows-devices

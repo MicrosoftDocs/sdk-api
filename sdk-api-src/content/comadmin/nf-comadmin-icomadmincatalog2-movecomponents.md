@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_movecomponents.htm
 old-project: cossdk
 ms.assetid: 38cc4726-4b61-4f4b-9719-161297361f45
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],MoveComponents method, ICOMAdminCatalog2.MoveComponents, ICOMAdminCatalog2::MoveComponents, MoveComponents, MoveComponents method [COM+], MoveComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_MoveComponents, comadmin/ICOMAdminCatalog2::MoveComponents, cos.icomadmincatalog2_movecomponents
 ms.prod: windows-hardware
 ms.technology: windows-devices

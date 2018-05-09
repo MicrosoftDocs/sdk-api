@@ -7,7 +7,7 @@ old-location: shell\DWordToByte.htm
 old-project: shell
 ms.assetid: 4c5a73e0-8b08-4c40-9ed9-f627d11f6e2e
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: DWordToByte, DWordToByte function [Windows Shell], ULongToUInt8, _shell_DWordToByte, intsafe/DWordToByte, shell.DWordToByte
 ms.prod: windows-hardware
 ms.technology: windows-devices

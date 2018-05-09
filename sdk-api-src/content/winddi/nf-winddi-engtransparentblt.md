@@ -7,7 +7,7 @@ old-location: display\engtransparentblt.htm
 old-project: display
 ms.assetid: db98b15f-6b4b-4efc-aa24-20c728b09358
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: EngTransparentBlt, EngTransparentBlt function [Display Devices], display.engtransparentblt, gdifncs_1f33c0a3-6062-494c-aef0-2fa368d278ac.xml, winddi/EngTransparentBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices

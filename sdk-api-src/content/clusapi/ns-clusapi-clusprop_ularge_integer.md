@@ -7,7 +7,7 @@ old-location: mscs\clusprop_ularge_integer.htm
 old-project: MsCS
 ms.assetid: 1db28e46-e5e0-4d99-b9a8-80c3f1534ca6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PCLUSPROP_ULARGE_INTEGER, CLUSPROP_ULARGE_INTEGER, CLUSPROP_ULARGE_INTEGER structure [Failover Cluster], PCLUSPROP_ULARGE_INTEGER, PCLUSPROP_ULARGE_INTEGER structure pointer [Failover Cluster], _wolf_clusprop_ularge_integer, clusapi/CLUSPROP_ULARGE_INTEGER, clusapi/PCLUSPROP_ULARGE_INTEGER, mscs.clusprop_ularge_integer"
 ms.prod: windows-hardware
 ms.technology: windows-devices

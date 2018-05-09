@@ -7,7 +7,7 @@ old-location: cos\icrmformatlogrecords_getcolumnheaders.htm
 old-project: cossdk
 ms.assetid: b7ca50f9-7e42-4cde-9985-0501ae34f040
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: GetColumnHeaders, GetColumnHeaders method [COM+], GetColumnHeaders method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnHeaders method, ICrmFormatLogRecords.GetColumnHeaders, ICrmFormatLogRecords::GetColumnHeaders, _dtc_ICrmFormatLogRecords_GetColumnHeaders, comsvcs/ICrmFormatLogRecords::GetColumnHeaders, cos.icrmformatlogrecords_getcolumnheaders
 ms.prod: windows-hardware
 ms.technology: windows-devices

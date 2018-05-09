@@ -7,7 +7,7 @@ old-location: cos\icrmcompensatorvariants_beginpreparevariants.htm
 old-project: cossdk
 ms.assetid: f0cbfc39-2a29-4b1f-8d6e-87d0b1c68582
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: BeginPrepareVariants, BeginPrepareVariants method [COM+], BeginPrepareVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],BeginPrepareVariants method, ICrmCompensatorVariants.BeginPrepareVariants, ICrmCompensatorVariants::BeginPrepareVariants, _dtc_ICrmCompensatorVariants_BeginPrepareVariants, comsvcs/ICrmCompensatorVariants::BeginPrepareVariants, cos.icrmcompensatorvariants_beginpreparevariants
 ms.prod: windows-hardware
 ms.technology: windows-devices

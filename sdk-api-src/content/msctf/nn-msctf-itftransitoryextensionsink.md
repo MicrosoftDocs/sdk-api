@@ -7,7 +7,7 @@ old-location: tsf\itftransitoryextensionsink.htm
 old-project: TSF
 ms.assetid: c2c11bd9-ae33-462e-8534-dc57a5131846
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfTransitoryExtensionSink, ITfTransitoryExtensionSink interface [Text Services Framework], ITfTransitoryExtensionSink interface [Text Services Framework],described, _tsf_itftransitoryextensionsink_ref, msctf/ITfTransitoryExtensionSink, tsf.itftransitoryextensionsink
 ms.prod: windows-hardware
 ms.technology: windows-devices

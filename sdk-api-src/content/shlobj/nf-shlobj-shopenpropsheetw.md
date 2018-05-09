@@ -7,7 +7,7 @@ old-location: shell\SHOpenPropSheetW.htm
 old-project: shell
 ms.assetid: bf42b26e-0f10-47b4-9d3b-48c59618342d
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SHOpenPropSheet, SHOpenPropSheet function [Windows Shell], SHOpenPropSheetA, SHOpenPropSheetW, _win32_SHOpenPropSheetW, shell.SHOpenPropSheetW, shlobj/SHOpenPropSheet, shlobj/SHOpenPropSheetA, shlobj/SHOpenPropSheetW
 ms.prod: windows-hardware
 ms.technology: windows-devices

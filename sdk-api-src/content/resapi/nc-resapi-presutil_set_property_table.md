@@ -7,7 +7,7 @@ old-location: mscs\resutilsetpropertytable.htm
 old-project: MsCS
 ms.assetid: 79d8acfa-fc5d-4810-9775-d5f065d93d6f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_TABLE, PRESUTIL_SET_PROPERTY_TABLE callback, PRESUTIL_SET_PROPERTY_TABLE callback function [Failover Cluster], _wolf_resutilsetpropertytable, mscs.resutilsetpropertytable, resapi/PRESUTIL_SET_PROPERTY_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices

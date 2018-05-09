@@ -7,7 +7,7 @@ old-location: cos\imtseventinfo_get_count.htm
 old-project: cossdk
 ms.assetid: f92c93eb-841a-4bc8-9c02-644c30daccad
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_Count method, IMtsEventInfo.get_Count, IMtsEventInfo::get_Count, _dtc_IMtsEventInfo_Count, comsvcs/IMtsEventInfo::get_Count, cos.imtseventinfo_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],IMtsEventInfo interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\rascustomhangup.htm
 old-project: RRAS
 ms.assetid: 56410af3-7b23-4536-998d-88d78d45585d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: RasCustomHangUp, RasCustomHangUp callback function [RAS], RasCustomHangUpFn, RasCustomHangUpFn callback, _ras_rascustomhangup, ras/RasCustomHangUp, rras.rascustomhangup
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfcategorymgr_registercategory.htm
 old-project: TSF
 ms.assetid: 9e9a72a8-ea9b-4438-992c-5a7db64f7d82
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterCategory method, ITfCategoryMgr.RegisterCategory, ITfCategoryMgr::RegisterCategory, RegisterCategory, RegisterCategory method [Text Services Framework], RegisterCategory method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registercategory_ref, msctf/ITfCategoryMgr::RegisterCategory, tsf.itfcategorymgr_registercategory
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,7 @@
+{
+  "tech": "stream",
+  "headers": [
+    "mfidl.h",
+    "mfapi.h"
+  ]
+}

@@ -7,7 +7,7 @@ old-location: tsf\itfcompartment.htm
 old-project: TSF
 ms.assetid: c9ca3eb5-1fb1-4e45-9ec4-a0296f1bc8c3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfCompartment, ITfCompartment interface [Text Services Framework], ITfCompartment interface [Text Services Framework],described, _tsf_itfcompartment_ref, msctf/ITfCompartment, tsf.itfcompartment
 ms.prod: windows-hardware
 ms.technology: windows-devices

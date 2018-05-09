@@ -7,7 +7,7 @@ old-location: cos\iobjectcontexttip_gettipurl.htm
 old-project: cossdk
 ms.assetid: 9948a1b4-efbe-4a44-a67d-ea91a846708f
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: GetTipUrl, GetTipUrl method [COM+], GetTipUrl method [COM+],IObjectContextTip interface, IObjectContextTip interface [COM+],GetTipUrl method, IObjectContextTip.GetTipUrl, IObjectContextTip::GetTipUrl, _cos_IObjectContextTip_GetTipUrl, comsvcs/IObjectContextTip::GetTipUrl, cos.iobjectcontexttip_gettipurl
 ms.prod: windows-hardware
 ms.technology: windows-devices

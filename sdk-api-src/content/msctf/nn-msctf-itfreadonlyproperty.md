@@ -7,7 +7,7 @@ old-location: tsf\itfreadonlyproperty.htm
 old-project: TSF
 ms.assetid: f4021a3d-6b86-469f-8943-770e7ef0cf99
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfReadOnlyProperty, ITfReadOnlyProperty interface [Text Services Framework], ITfReadOnlyProperty interface [Text Services Framework],described, _tsf_itfreadonlyproperty_ref, msctf/ITfReadOnlyProperty, tsf.itfreadonlyproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

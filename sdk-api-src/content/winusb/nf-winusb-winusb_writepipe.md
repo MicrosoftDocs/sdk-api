@@ -7,7 +7,7 @@ old-location: buses\winusb_writepipe.htm
 old-project: usbref
 ms.assetid: 995b1d1b-8c08-4e67-8ba5-155231fe37f4
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: WinUsb_WritePipe, WinUsb_WritePipe function [Buses], buses.winusb_writepipe, winusb/WinUsb_WritePipe, winusbfunc_6fbed2b9-a65e-4802-8ba4-369a3200bffd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

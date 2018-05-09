@@ -7,7 +7,7 @@ old-location: shell\SHOpenWithDialog.htm
 old-project: shell
 ms.assetid: 026bfb34-a8a5-4bd7-9bc0-4aa395e6d535
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SHOpenWithDialog, SHOpenWithDialog function [Windows Shell], _shell_SHOpenWithDialog, shell.SHOpenWithDialog, shlobj_core/SHOpenWithDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

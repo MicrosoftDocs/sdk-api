@@ -7,7 +7,7 @@ old-location: tablet\igesturerecognizer_reset.htm
 old-project: tablet
 ms.assetid: 05676701-2977-453f-b2b9-7a256899e2b1
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: 05676701-2977-453f-b2b9-7a256899e2b1, IGestureRecognizer interface [Tablet PC],Reset method, IGestureRecognizer.Reset, IGestureRecognizer::Reset, Reset, Reset method [Tablet PC], Reset method [Tablet PC],IGestureRecognizer interface, rtscom/IGestureRecognizer::Reset, tablet.igesturerecognizer_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

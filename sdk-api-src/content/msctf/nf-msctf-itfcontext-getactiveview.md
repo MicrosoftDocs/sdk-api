@@ -7,7 +7,7 @@ old-location: tsf\itfcontext_getactiveview.htm
 old-project: TSF
 ms.assetid: 41f7eb74-bca2-4d53-8a70-0b872616fd1b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: GetActiveView, GetActiveView method [Text Services Framework], GetActiveView method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetActiveView method, ITfContext.GetActiveView, ITfContext::GetActiveView, _tsf_itfcontext_getactiveview_ref, msctf/ITfContext::GetActiveView, tsf.itfcontext_getactiveview
 ms.prod: windows-hardware
 ms.technology: windows-devices

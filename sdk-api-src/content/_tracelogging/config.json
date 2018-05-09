@@ -1,0 +1,9 @@
+{
+  "tech": "tracelogging",
+  "headers": [
+    "adomd.h",
+    "traceloggingactivity.h",
+    "traceloggingprovider.h"
+  ],
+  "displayName": "TraceLogging"
+}

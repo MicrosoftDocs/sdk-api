@@ -1,0 +1,17 @@
+{
+  "tech": "search",
+  "headers": [
+    "filter.h",
+    "indexsrv.h",
+    "ocidl.h",
+    "searchapi.h",
+    "structuredquerycondition.h",
+    "structuredquery.h",
+    "shobjidl_core.h",
+    "filtereg.h",
+    "search.h",
+    "subsmgr.h",
+    "query.h"
+  ],
+  "displayName": "Windows Search"
+}

@@ -7,7 +7,7 @@ old-location: cos\ieventsystem_eventobjectchangeeventclassid.htm
 old-project: cossdk
 ms.assetid: 58cd529d-f1e5-4777-9999-3f223d27dc64
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: EventObjectChangeEventClassID property [COM+], EventObjectChangeEventClassID property [COM+],IEventSystem interface, IEventSystem interface [COM+],EventObjectChangeEventClassID property, IEventSystem.EventObjectChangeEventClassID, IEventSystem.get_EventObjectChangeEventClassID, IEventSystem::EventObjectChangeEventClassID, IEventSystem::get_EventObjectChangeEventClassID, _cos_IEventSystem_Properties, cos.ieventsystem_eventobjectchangeeventclassid, eventsys/IEventSystem::EventObjectChangeEventClassID, eventsys/IEventSystem::get_EventObjectChangeEventClassID, get_EventObjectChangeEventClassID
 ms.prod: windows-hardware
 ms.technology: windows-devices

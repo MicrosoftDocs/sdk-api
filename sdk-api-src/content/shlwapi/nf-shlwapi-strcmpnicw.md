@@ -7,7 +7,7 @@ old-location: shell\StrCmpNIC.htm
 old-project: shell
 ms.assetid: ed2e7df9-7f36-4566-8a3e-e3517307a584
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: StrCmpNIC, StrCmpNIC function [Windows Shell], StrCmpNICA, StrCmpNICW, _shell_StrCmpNIC, shell.StrCmpNIC, shlwapi/StrCmpNIC, shlwapi/StrCmpNICA, shlwapi/StrCmpNICW
 ms.prod: windows-hardware
 ms.technology: windows-devices

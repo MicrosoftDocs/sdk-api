@@ -7,7 +7,7 @@ old-location: cos\icomactivityevents_onactivitydestroy.htm
 old-project: cossdk
 ms.assetid: af69bcf7-a925-42e2-a7a8-4ebf745955b9
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityDestroy method, IComActivityEvents.OnActivityDestroy, IComActivityEvents::OnActivityDestroy, OnActivityDestroy, OnActivityDestroy method [COM+], OnActivityDestroy method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityDestroy, comsvcs/IComActivityEvents::OnActivityDestroy, cos.icomactivityevents_onactivitydestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

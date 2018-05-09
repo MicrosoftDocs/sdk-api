@@ -7,6 +7,7 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: cimwin32
 ---
 
 # Mbnapi.h header

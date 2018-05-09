@@ -7,7 +7,7 @@ old-location: tsf\itfpropertystore_shrink.htm
 old-project: TSF
 ms.assetid: 55637d69-2f1a-435d-be23-4c29ec57b2ea
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfPropertyStore interface [Text Services Framework],Shrink method, ITfPropertyStore.Shrink, ITfPropertyStore::Shrink, Shrink, Shrink method [Text Services Framework], Shrink method [Text Services Framework],ITfPropertyStore interface, _tsf_itfpropertystore_shrink_ref, msctf/ITfPropertyStore::Shrink, tsf.itfpropertystore_shrink
 ms.prod: windows-hardware
 ms.technology: windows-devices

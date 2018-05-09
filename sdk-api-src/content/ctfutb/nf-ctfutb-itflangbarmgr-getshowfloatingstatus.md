@@ -7,7 +7,7 @@ old-location: tsf\itflangbarmgr_getshowfloatingstatus.htm
 old-project: TSF
 ms.assetid: ec187bf0-edf7-4d90-a102-92bb5b58ebdc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: GetShowFloatingStatus, GetShowFloatingStatus method [Text Services Framework], GetShowFloatingStatus method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetShowFloatingStatus method, ITfLangBarMgr.GetShowFloatingStatus, ITfLangBarMgr::GetShowFloatingStatus, _tsf_itflangbarmgr_getshowfloatingstatus_ref, ctfutb/ITfLangBarMgr::GetShowFloatingStatus, tsf.itflangbarmgr_getshowfloatingstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: windowsribbon\ui_swatchcolormode.htm
 old-project: windowsribbon
 ms.assetid: 9ACDE308-B8AE-4986-8B85-190B690A4374
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/7/2018
 ms.keywords: UI_SWATCHCOLORMODE, UI_SWATCHCOLORMODE enumeration [Windows Ribbon], UI_SWATCHCOLORMODE_MONOCHROME, UI_SWATCHCOLORMODE_NORMAL, uiribbon/UI_SWATCHCOLORMODE, uiribbon/UI_SWATCHCOLORMODE_MONOCHROME, uiribbon/UI_SWATCHCOLORMODE_NORMAL, windowsribbon.ui_swatchcolormode
 ms.prod: windows-hardware
 ms.technology: windows-devices

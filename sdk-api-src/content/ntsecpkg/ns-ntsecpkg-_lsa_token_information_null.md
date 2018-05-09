@@ -7,7 +7,7 @@ old-location: security\lsa_token_information_null.htm
 old-project: SecAuthN
 ms.assetid: fbcd0f78-1ad5-4bea-a95f-d19fb3894537
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PLSA_TOKEN_INFORMATION_NULL, LSA_TOKEN_INFORMATION_NULL, LSA_TOKEN_INFORMATION_NULL structure [Security], PLSA_TOKEN_INFORMATION_NULL, PLSA_TOKEN_INFORMATION_NULL structure pointer [Security], _LSA_TOKEN_INFORMATION_NULL, _lsa_lsa_token_information_null, ntsecpkg/LSA_TOKEN_INFORMATION_NULL, ntsecpkg/PLSA_TOKEN_INFORMATION_NULL, security.lsa_token_information_null"
 ms.prod: windows-hardware
 ms.technology: windows-devices

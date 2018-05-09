@@ -1,0 +1,20 @@
+{
+  "tech": "controls",
+  "headers": [
+    "winuser.h",
+    "commctrl.h",
+    "windowsx.h",
+    "commoncontrols.h",
+    "shlobj.h",
+    "prsht.h",
+    "richedit.h",
+    "tom.h",
+    "none",
+    "richole.h",
+    "textserv.h",
+    "dpa_dsa.h",
+    "uxtheme.h",
+    "tmschema.h"
+  ],
+  "displayName": "Windows Controls"
+}

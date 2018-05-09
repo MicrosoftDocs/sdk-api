@@ -7,7 +7,7 @@ old-location: display\ddgetscanline.htm
 old-project: display
 ms.assetid: 3738205f-2d27-4211-944a-6ca71954fe47
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: DdGetScanLine, DdGetScanLine callback function [Display Devices], PDD_GETSCANLINE, PDD_GETSCANLINE callback, ddfncs_640b22a3-e0aa-4e33-a510-36d91e5650cd.xml, ddrawint/DdGetScanLine, display.ddgetscanline
 ms.prod: windows-hardware
 ms.technology: windows-devices

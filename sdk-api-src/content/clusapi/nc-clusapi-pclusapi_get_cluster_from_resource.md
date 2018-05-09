@@ -7,7 +7,7 @@ old-location: mscs\getclusterfromresource.htm
 old-project: MsCS
 ms.assetid: d0ba93cb-94aa-4c68-b87e-518ee1e5c35c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_FROM_RESOURCE, PCLUSAPI_GET_CLUSTER_FROM_RESOURCE callback, PCLUSAPI_GET_CLUSTER_FROM_RESOURCE callback function [Failover Cluster], _wolf_getclusterfromresource, clusapi/PCLUSAPI_GET_CLUSTER_FROM_RESOURCE, mscs.getclusterfromresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

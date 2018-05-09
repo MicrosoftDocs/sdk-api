@@ -7,7 +7,7 @@ old-location: shell\LongToShort.htm
 old-project: shell
 ms.assetid: 7396ee67-c8bd-45e5-8500-ae5101e659d5
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: LongToShort, LongToShort function [Windows Shell], _shell_LongToShort, intsafe/LongToShort, shell.LongToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

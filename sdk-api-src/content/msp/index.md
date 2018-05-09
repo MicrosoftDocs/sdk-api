@@ -7,6 +7,7 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: tapi3
 ---
 
 # Msp.h header

@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpsink_onendedittransaction.htm
 old-project: TSF
 ms.assetid: 4d2819a2-c780-47bb-b3e5-0836b8b4c5dd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnEndEditTransaction method, ITextStoreACPSink.OnEndEditTransaction, ITextStoreACPSink::OnEndEditTransaction, OnEndEditTransaction, OnEndEditTransaction method [Text Services Framework], OnEndEditTransaction method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onendedittransaction_ref, textstor/ITextStoreACPSink::OnEndEditTransaction, tsf.itextstoreacpsink_onendedittransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

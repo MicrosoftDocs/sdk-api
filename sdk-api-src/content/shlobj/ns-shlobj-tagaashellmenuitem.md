@@ -7,7 +7,7 @@ old-location: shell\AASHELLMENUITEM_str.htm
 old-project: shell
 ms.assetid: 9d5ccbae-cc56-446f-be67-9623247d5045
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: "*LPAASHELLMENUITEM, AASHELLMENUITEM, AASHELLMENUITEM structure [Windows Shell], LPAASHELLMENUITEM, LPAASHELLMENUITEM structure pointer [Windows Shell], _win32_AASHELLMENUITEM_str, shell.AASHELLMENUITEM_str, shlobj/AASHELLMENUITEM, shlobj/LPAASHELLMENUITEM, tagAASHELLMENUITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\setfactoid.htm
 old-project: tablet
 ms.assetid: f805b364-1e7b-4995-bda9-47bff87fcdfa
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: SetFactoid, SetFactoid function [Tablet PC], f805b364-1e7b-4995-bda9-47bff87fcdfa, recapis/SetFactoid, tablet.setfactoid
 ms.prod: windows-hardware
 ms.technology: windows-devices

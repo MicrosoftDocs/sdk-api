@@ -7,7 +7,7 @@ old-location: rras\rtmgetlessspecificdestination.htm
 old-project: RRAS
 ms.assetid: b6ff1b1f-fd0e-4cfb-9030-67e27e8578f6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: RtmGetLessSpecificDestination, RtmGetLessSpecificDestination function [RAS], _rtmv2ref_rtmgetlessspecificdestination, rras.rtmgetlessspecificdestination, rtmv2/RtmGetLessSpecificDestination
 ms.prod: windows-hardware
 ms.technology: windows-devices

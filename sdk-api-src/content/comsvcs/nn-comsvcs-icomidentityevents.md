@@ -7,7 +7,7 @@ old-location: cos\icomidentityevents.htm
 old-project: cossdk
 ms.assetid: f064a5cd-c84d-4b80-96fc-1036af333901
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IComIdentityEvents, IComIdentityEvents interface [COM+], IComIdentityEvents interface [COM+],described, _dtc_IComIdentityEvents, comsvcs/IComIdentityEvents, cos.icomidentityevents
 ms.prod: windows-hardware
 ms.technology: windows-devices

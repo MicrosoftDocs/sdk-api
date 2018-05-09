@@ -7,7 +7,7 @@ old-location: rras\rtmgetenumdests.htm
 old-project: RRAS
 ms.assetid: f793b54e-9591-4b9f-b109-8487013c7af5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: RtmGetEnumDests, RtmGetEnumDests function [RAS], _rtmv2ref_rtmgetenumdests, rras.rtmgetenumdests, rtmv2/RtmGetEnumDests
 ms.prod: windows-hardware
 ms.technology: windows-devices

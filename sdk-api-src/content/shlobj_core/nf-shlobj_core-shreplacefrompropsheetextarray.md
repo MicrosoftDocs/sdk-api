@@ -7,7 +7,7 @@ old-location: shell\SHReplaceFromPropSheetExtArray.htm
 old-project: shell
 ms.assetid: a8bdde44-d668-46c4-9e58-7a45b775fe09
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SHReplaceFromPropSheetExtArray, SHReplaceFromPropSheetExtArray function [Windows Shell], _win32_SHReplaceFromPropSheetExtArray, shell.SHReplaceFromPropSheetExtArray, shlobj_core/SHReplaceFromPropSheetExtArray
 ms.prod: windows-hardware
 ms.technology: windows-devices

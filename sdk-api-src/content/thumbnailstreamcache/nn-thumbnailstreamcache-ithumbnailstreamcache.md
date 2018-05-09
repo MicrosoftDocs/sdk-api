@@ -7,7 +7,7 @@ old-location: shell\ithumbnailstreamcache.htm
 old-project: shell
 ms.assetid: 9D2C01E7-2B0B-462F-98A3-12ACBC40F6E7
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IThumbnailStreamCache, IThumbnailStreamCache interface [Windows Shell], IThumbnailStreamCache interface [Windows Shell],described, shell.ithumbnailstreamcache, thumbnailstreamcache/IThumbnailStreamCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

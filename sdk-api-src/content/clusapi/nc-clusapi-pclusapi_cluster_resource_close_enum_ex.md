@@ -7,7 +7,7 @@ old-location: mscs\clusterresourcecloseenumex.htm
 old-project: MsCS
 ms.assetid: 643CA960-F4F1-4028-B0A3-5258E9421D62
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM_EX, PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM_EX callback, PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM_EX, mscs.clusterresourcecloseenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices

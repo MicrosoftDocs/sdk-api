@@ -1,0 +1,15 @@
+{
+  "tech": "wmp",
+  "headers": [
+    "wmp.h",
+    "msfeeds.h",
+    "wmprealestate.h",
+    "wmpservices.h",
+    "effects.h",
+    "wmpplug.h",
+    "contentpartner.h",
+    "subscriptionservices.h",
+    "wmpdevices.h"
+  ],
+  "displayName": "Windows Media Player SDK"
+}

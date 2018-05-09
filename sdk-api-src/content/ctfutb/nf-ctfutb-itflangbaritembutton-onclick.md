@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritembutton_onclick.htm
 old-project: TSF
 ms.assetid: c725ee0b-57fe-4860-aa49-af61f2c7fa32
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfLangBarItemButton interface [Text Services Framework],OnClick method, ITfLangBarItemButton.OnClick, ITfLangBarItemButton::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemButton interface, _tsf_itflangbaritembutton_onclick_ref, ctfutb/ITfLangBarItemButton::OnClick, tsf.itflangbaritembutton_onclick
 ms.prod: windows-hardware
 ms.technology: windows-devices

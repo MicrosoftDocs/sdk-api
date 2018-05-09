@@ -7,7 +7,7 @@ old-location: rras\rassecuritydialogbegin.htm
 old-project: RRAS
 ms.assetid: 19f4591b-ecae-478b-b110-c0d88c72f7eb
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: RasSecurityDialogBegin, RasSecurityDialogBegin callback, RasSecurityDialogBegin callback function [RAS], _ras_rassecuritydialogbegin, rasshost/RasSecurityDialogBegin, rras.rassecuritydialogbegin
 ms.prod: windows-hardware
 ms.technology: windows-devices

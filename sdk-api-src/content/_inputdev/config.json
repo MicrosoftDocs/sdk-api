@@ -1,0 +1,7 @@
+{
+  "tech": "inputdev",
+  "headers": [
+    "winuser.h",
+    "commctrl.h"
+  ]
+}

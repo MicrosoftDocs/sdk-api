@@ -7,7 +7,7 @@ old-location: mscs\clus_csv_maintenance_mode_info.htm
 old-project: MsCS
 ms.assetid: 4DA05ADE-3C54-45A0-8A1C-911EB1ED1308
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PCLUS_CSV_MAINTENANCE_MODE_INFO, CLUS_CSV_MAINTENANCE_MODE_INFO, CLUS_CSV_MAINTENANCE_MODE_INFO structure [Failover Cluster], PCLUS_CSV_MAINTENANCE_MODE_INFO, PCLUS_CSV_MAINTENANCE_MODE_INFO structure pointer [Failover Cluster], clusapi/CLUS_CSV_MAINTENANCE_MODE_INFO, clusapi/PCLUS_CSV_MAINTENANCE_MODE_INFO, mscs.clus_csv_maintenance_mode_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

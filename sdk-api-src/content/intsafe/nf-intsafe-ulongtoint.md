@@ -7,7 +7,7 @@ old-location: shell\DWordToInt.htm
 old-project: shell
 ms.assetid: ec6810ed-ff8d-4d8c-9796-5b7ea5f86a38
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: DWordToInt, DWordToInt function [Windows Shell], ULongToInt, _shell_DWordToInt, intsafe/DWordToInt, shell.DWordToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

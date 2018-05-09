@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritembitmapbutton_getpreferredsize.htm
 old-project: TSF
 ms.assetid: 271e4e24-c81e-484c-84bb-d7b67038a5c5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: GetPreferredSize, GetPreferredSize method [Text Services Framework], GetPreferredSize method [Text Services Framework],ITfLangBarItemBitmapButton interface, ITfLangBarItemBitmapButton interface [Text Services Framework],GetPreferredSize method, ITfLangBarItemBitmapButton.GetPreferredSize, ITfLangBarItemBitmapButton::GetPreferredSize, _tsf_itflangbaritembitmapbutton_getpreferredsize_ref, ctfutb/ITfLangBarItemBitmapButton::GetPreferredSize, tsf.itflangbaritembitmapbutton_getpreferredsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

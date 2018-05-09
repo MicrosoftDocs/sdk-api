@@ -7,7 +7,7 @@ old-location: display\floatobj_setfloat.htm
 old-project: display
 ms.assetid: ba2c33fa-9489-482d-b27e-79537425cc4b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: FLOATOBJ_SetFloat, FLOATOBJ_SetFloat function [Display Devices], display.floatobj_setfloat, gdifncs_3bf0c118-feea-48f1-8e20-d3b43408a860.xml, winddi/FLOATOBJ_SetFloat
 ms.prod: windows-hardware
 ms.technology: windows-devices

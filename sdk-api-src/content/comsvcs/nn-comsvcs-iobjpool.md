@@ -7,7 +7,7 @@ old-location: cos\iobjpool.htm
 old-project: cossdk
 ms.assetid: d3730a37-933b-4705-b787-4b8bb728a278
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IObjPool, IObjPool interface [COM+], IObjPool interface [COM+],described, _cos_IObjPool, comsvcs/IObjPool, cos.iobjpool
 ms.prod: windows-hardware
 ms.technology: windows-devices

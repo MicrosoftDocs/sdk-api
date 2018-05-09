@@ -7,7 +7,7 @@ old-location: shell\PathCchAddBackslash.htm
 old-project: shell
 ms.assetid: b50677cd-8815-4d84-b70a-c83863378c56
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: PathCchAddBackslash, PathCchAddBackslash function [Windows Shell], pathcch/PathCchAddBackslash, shell.PathCchAddBackslash
 ms.prod: windows-hardware
 ms.technology: windows-devices

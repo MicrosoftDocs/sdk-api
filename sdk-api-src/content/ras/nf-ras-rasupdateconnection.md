@@ -7,7 +7,7 @@ old-location: rras\rasupdateconnection.htm
 old-project: RRAS
 ms.assetid: ab4fd68c-acc0-4586-9d3d-b796e23d635d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: RasUpdateConnection, RasUpdateConnection function [RAS], ras/RasUpdateConnection, rras.rasupdateconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

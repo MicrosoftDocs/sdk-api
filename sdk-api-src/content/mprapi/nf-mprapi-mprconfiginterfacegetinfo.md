@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfacegetinfo.htm
 old-project: RRAS
 ms.assetid: f33f9e66-1668-4839-9c98-5945104110bc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MprConfigInterfaceGetInfo, MprConfigInterfaceGetInfo function [RAS], _mpr_mprconfiginterfacegetinfo, mprapi/MprConfigInterfaceGetInfo, rras.mprconfiginterfacegetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

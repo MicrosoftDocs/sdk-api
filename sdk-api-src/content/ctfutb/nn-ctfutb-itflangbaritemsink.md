@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritemsink.htm
 old-project: TSF
 ms.assetid: 1734a011-1ee8-4afd-ace8-334eeaf14518
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfLangBarItemSink, ITfLangBarItemSink interface [Text Services Framework], ITfLangBarItemSink interface [Text Services Framework],described, _tsf_itflangbaritemsink_ref, ctfutb/ITfLangBarItemSink, tsf.itflangbaritemsink
 ms.prod: windows-hardware
 ms.technology: windows-devices

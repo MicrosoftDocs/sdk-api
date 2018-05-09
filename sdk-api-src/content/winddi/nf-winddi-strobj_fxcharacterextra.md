@@ -7,7 +7,7 @@ old-location: display\strobj_fxcharacterextra.htm
 old-project: display
 ms.assetid: 92989c16-5e82-4df2-9298-28b78757bd54
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: STROBJ_fxCharacterExtra, STROBJ_fxCharacterExtra function [Display Devices], display.strobj_fxcharacterextra, gdifncs_4f8ab918-f3b4-47d8-9297-ae9e658f2bad.xml, winddi/STROBJ_fxCharacterExtra
 ms.prod: windows-hardware
 ms.technology: windows-devices

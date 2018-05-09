@@ -7,7 +7,7 @@ old-location: cos\iplaybackcontrol.htm
 old-project: cossdk
 ms.assetid: 3a528e92-37ac-4108-b52a-557a90da4a47
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IPlaybackControl, IPlaybackControl interface [COM+], IPlaybackControl interface [COM+],described, _cos_IPlaybackControl, comsvcs/IPlaybackControl, cos.iplaybackcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

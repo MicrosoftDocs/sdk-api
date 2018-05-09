@@ -7,7 +7,7 @@ old-location: cos\ichecksxsconfig.htm
 old-project: cossdk
 ms.assetid: 34c97d61-694e-4ee3-92ed-55b0a787b747
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: ICheckSxSConfig, ICheckSxSConfig interface [COM+], ICheckSxSConfig interface [COM+],described, _cos_ICheckSxsConfig, comsvcs/ICheckSxSConfig, cos.ichecksxsconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

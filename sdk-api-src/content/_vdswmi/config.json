@@ -1,0 +1,6 @@
+{
+  "tech": "vdswmi",
+  "headers": [
+    "vds.h"
+  ]
+}

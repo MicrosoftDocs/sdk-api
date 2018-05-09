@@ -7,7 +7,7 @@ old-location: display\engsort.htm
 old-project: display
 ms.assetid: e3d1864e-97da-4085-89fa-86135a687f60
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: EngSort, EngSort function [Display Devices], display.engsort, gdifncs_d675bef7-30d0-4e0d-a798-a397b282ce48.xml, winddi/EngSort
 ms.prod: windows-hardware
 ms.technology: windows-devices

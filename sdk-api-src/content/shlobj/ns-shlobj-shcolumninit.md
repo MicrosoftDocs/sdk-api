@@ -7,7 +7,7 @@ old-location: shell\SHCOLUMNINIT_str.htm
 old-project: shell
 ms.assetid: eebe47c8-b3ee-4316-b578-5404ed8f7920
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: "*LPSHCOLUMNINIT, LPSHCOLUMNINFO, LPSHCOLUMNINFO structure pointer [Windows Shell], SHCOLUMNINIT, SHCOLUMNINIT structure [Windows Shell], _win32_SHCOLUMNINIT_str, shell.SHCOLUMNINIT_str, shlobj/LPSHCOLUMNINFO, shlobj/SHCOLUMNINIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

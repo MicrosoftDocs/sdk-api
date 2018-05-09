@@ -1,0 +1,19 @@
+{
+  "tech": "coreaudio",
+  "headers": [
+    "spatialaudiohrtf.h",
+    "audioendpoints.h",
+    "audioengineendpoint.h",
+    "spatialaudioclient.h",
+    "audioenginebaseapo.h",
+    "mmdeviceapi.h",
+    "devicetopology.h",
+    "audioclient.h",
+    "endpointvolume.h",
+    "audiopolicy.h",
+    "spatialaudiometadata.h",
+    "audiosessiontypes.h",
+    "functiondiscoverykeys_devpkey.h"
+  ],
+  "displayName": "Core Audio APIs"
+}

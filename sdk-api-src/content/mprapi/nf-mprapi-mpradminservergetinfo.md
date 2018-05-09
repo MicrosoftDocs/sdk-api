@@ -7,7 +7,7 @@ old-location: rras\mpradminservergetinfo.htm
 old-project: RRAS
 ms.assetid: d15dfb60-1239-4552-985f-d3c98f2981f4
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MprAdminServerGetInfo, MprAdminServerGetInfo function [RAS], _mpr_mpradminservergetinfo, mprapi/MprAdminServerGetInfo, rras.mpradminservergetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\iinkcursor.htm
 old-project: tablet
 ms.assetid: 39b365ad-1eb0-4183-8799-a3c3ecbd3f6e
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: 39b365ad-1eb0-4183-8799-a3c3ecbd3f6e, IInkCursor, IInkCursor interface [Tablet PC], IInkCursor interface [Tablet PC],described, msinkaut/IInkCursor, tablet.iinkcursor
 ms.prod: windows-hardware
 ms.technology: windows-devices

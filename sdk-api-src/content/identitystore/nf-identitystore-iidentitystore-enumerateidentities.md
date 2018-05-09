@@ -7,7 +7,7 @@ old-location: security\iidentitystore_enumerateidentities.htm
 old-project: SecAuthN
 ms.assetid: df1a53e0-6296-49ed-b0f0-85e9dc9ab947
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: EnumerateIdentities, EnumerateIdentities method [Security], EnumerateIdentities method [Security],IIdentityStore interface, IIdentityStore interface [Security],EnumerateIdentities method, IIdentityStore.EnumerateIdentities, IIdentityStore::EnumerateIdentities, identitystore/IIdentityStore::EnumerateIdentities, security.iidentitystore_enumerateidentities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,7 +60,7 @@ The <b>EnumerateIdentities</b> method gets a pointer to an <a href="https://msdn
 
 ### -param eIdentityType [in]
 
-A value of the <a href="https://msdn.microsoft.com/">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
+A value of the <a href="https://msdn.microsoft.com/b15fadf6-5331-4c66-9a6b-0cfdef2ca867">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
 
 
 ### -param pFilterkey [in, optional]

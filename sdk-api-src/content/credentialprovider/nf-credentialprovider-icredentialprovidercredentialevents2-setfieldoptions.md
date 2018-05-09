@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialEvents2_SetFieldOptions.htm
 old-project: shell
 ms.assetid: 5507E8DE-5746-4031-900B-3EF5C97BC2EE
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ICredentialProviderCredentialEvents2 interface [Windows Shell],SetFieldOptions method, ICredentialProviderCredentialEvents2.SetFieldOptions, ICredentialProviderCredentialEvents2::SetFieldOptions, SetFieldOptions, SetFieldOptions method [Windows Shell], SetFieldOptions method [Windows Shell],ICredentialProviderCredentialEvents2 interface, credentialprovider/ICredentialProviderCredentialEvents2::SetFieldOptions, shell.ICredentialProviderCredentialEvents2_SetFieldOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\drvenabledata.htm
 old-project: display
 ms.assetid: dbeaecf8-dea1-4412-babb-6e40bf5dc7b0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PDRVENABLEDATA, DRVENABLEDATA, DRVENABLEDATA structure [Display Devices], PDRVENABLEDATA, PDRVENABLEDATA structure pointer [Display Devices], display.drvenabledata, grstrcts_d39f1feb-36e3-4fc6-b580-5b428dbeebd0.xml, tagDRVENABLEDATA, winddi/DRVENABLEDATA, winddi/PDRVENABLEDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

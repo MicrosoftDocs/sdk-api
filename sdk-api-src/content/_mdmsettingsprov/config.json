@@ -1,0 +1,8 @@
+{
+  "tech": "mdmsettingsprov",
+  "headers": [
+    "winuser.h",
+    "certenroll.h"
+  ],
+  "displayName": "Mobile Device Management Settings Provider"
+}

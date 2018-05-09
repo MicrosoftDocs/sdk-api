@@ -7,7 +7,7 @@ old-location: rras\ras_stats.htm
 old-project: RRAS
 ms.assetid: f55852f9-fa6f-480c-9c65-d6631d5270a0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PRAS_STATS, PRAS_STATS, PRAS_STATS structure pointer [RAS], RAS_STATS, RAS_STATS structure [RAS], _RAS_STATS, _ras_ras_stats, ras/PRAS_STATS, ras/RAS_STATS, rras.ras_stats"
 ms.prod: windows-hardware
 ms.technology: windows-devices

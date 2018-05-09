@@ -7,7 +7,7 @@ old-location: mscs\sr_resource_type_replicated_disk.htm
 old-project: MsCS
 ms.assetid: 0C020CC3-43CD-49ED-B42D-2365D76ED40D
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_REPLICATED_DISK, PSR_RESOURCE_TYPE_REPLICATED_DISK, PSR_RESOURCE_TYPE_REPLICATED_DISK structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_DISK, SR_RESOURCE_TYPE_REPLICATED_DISK structure [Failover Cluster], _SR_RESOURCE_TYPE_REPLICATED_DISK, clusapi/PSR_RESOURCE_TYPE_REPLICATED_DISK, clusapi/SR_RESOURCE_TYPE_REPLICATED_DISK, mscs.sr_resource_type_replicated_disk"
 ms.prod: windows-hardware
 ms.technology: windows-devices

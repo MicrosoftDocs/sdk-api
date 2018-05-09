@@ -7,7 +7,7 @@ old-location: mscs\clusresgrouppreferredownernodes_collection.htm
 old-project: MsCS
 ms.assetid: 3425825e-890c-4d3d-919e-a66963e1fc55
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes, ClusResGroupPreferredOwnerNodes collection [Failover Cluster], ClusResGroupPreferredOwnerNodes collection [Failover Cluster],described, ISClusResGroupPreferredOwnerNodes, _wolf_clusresgrouppreferredownernodes_collection, msclus/ClusResGroupPreferredOwnerNodes, mscs.clusresgrouppreferredownernodes_collection
 ms.prod: windows-hardware
 ms.technology: windows-devices

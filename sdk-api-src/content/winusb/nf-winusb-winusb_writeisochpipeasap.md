@@ -7,7 +7,7 @@ old-location: buses\winusb_writeisochpipeasap.htm
 old-project: usbref
 ms.assetid: CC8776DF-9DC6-4B75-A4CE-EAC644EABABA
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: WinUsb_WriteIsochPipeAsap, WinUsb_WriteIsochPipeAsap routine [Buses], buses.winusb_writeisochpipeasap, winusb/WinUsb_WriteIsochPipeAsap
 ms.prod: windows-hardware
 ms.technology: windows-devices

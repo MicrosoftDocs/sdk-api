@@ -7,7 +7,7 @@ old-location: mscs\setclusternetworkname.htm
 old-project: MsCS
 ms.assetid: c1b5dcd0-8974-495c-b85a-1d426719e9f9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_NETWORK_NAME, PCLUSAPI_SET_CLUSTER_NETWORK_NAME callback, PCLUSAPI_SET_CLUSTER_NETWORK_NAME callback function [Failover Cluster], _wolf_setclusternetworkname, clusapi/PCLUSAPI_SET_CLUSTER_NETWORK_NAME, mscs.setclusternetworkname
 ms.prod: windows-hardware
 ms.technology: windows-devices

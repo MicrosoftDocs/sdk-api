@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrEvents_Reset.htm
 old-project: shell
 ms.assetid: 68c99781-aedf-4676-bbd2-ab6cc14bba46
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IEnumSyncMgrEvents interface [Windows Shell],Reset method, IEnumSyncMgrEvents.Reset, IEnumSyncMgrEvents::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumSyncMgrEvents interface, _shell_IEnumSyncMgrEvents_Reset, shell.IEnumSyncMgrEvents_Reset, syncmgr/IEnumSyncMgrEvents::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

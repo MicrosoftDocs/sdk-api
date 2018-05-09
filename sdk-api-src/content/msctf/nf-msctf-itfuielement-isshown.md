@@ -7,7 +7,7 @@ old-location: tsf\itfuielement_isshown.htm
 old-project: TSF
 ms.assetid: 84253cbe-a30e-4def-b268-0f5f1b7d54dc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfUIElement interface [Text Services Framework],IsShown method, ITfUIElement.IsShown, ITfUIElement::IsShown, IsShown, IsShown method [Text Services Framework], IsShown method [Text Services Framework],ITfUIElement interface, msctf/ITfUIElement::IsShown, tsf.itfuielement_isshown
 ms.prod: windows-hardware
 ms.technology: windows-devices

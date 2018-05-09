@@ -7,7 +7,7 @@ old-location: mscs\clusterregreadbatchreplynextcommand.htm
 old-project: MsCS
 ms.assetid: 4E0DEB5C-36AA-480C-913C-235DE9AEA58D
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: ClusterRegReadBatchReplyNextCommand, ClusterRegReadBatchReplyNextCommand function [Failover Cluster], clusapi/ClusterRegReadBatchReplyNextCommand, mscs.clusterregreadbatchreplynextcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

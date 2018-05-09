@@ -7,7 +7,7 @@ old-location: rras\mgmregistermprotocol.htm
 old-project: RRAS
 ms.assetid: a9b5f5f3-6e54-4a97-b3e7-e9e026947116
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MgmRegisterMProtocol, MgmRegisterMProtocol function [RAS], _mpr_mgmregistermprotocol, mgm/MgmRegisterMProtocol, rras.mgmregistermprotocol
 ms.prod: windows-hardware
 ms.technology: windows-devices

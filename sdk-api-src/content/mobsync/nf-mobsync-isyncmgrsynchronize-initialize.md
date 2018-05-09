@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronize_initialize.htm
 old-project: shell
 ms.assetid: 4357d66e-b1f5-4a3c-b1a9-3a40aa6d8e10
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],Initialize method, ISyncMgrSynchronize.Initialize, ISyncMgrSynchronize::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::Initialize, shell.syncmgr_isyncmgrsynchronize_initialize, syncmgr.isyncmgrsynchronize_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

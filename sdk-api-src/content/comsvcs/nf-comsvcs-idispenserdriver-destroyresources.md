@@ -7,7 +7,7 @@ old-location: cos\idispenserdriver_destroyresources.htm
 old-project: cossdk
 ms.assetid: 0c7fe9ca-8a27-4459-a95d-084d717d3a65
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: DestroyResourceS, DestroyResourceS method [COM+], DestroyResourceS method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],DestroyResourceS method, IDispenserDriver.DestroyResourceS, IDispenserDriver::DestroyResourceS, _dtc_IDispenserDriver_DestroyResourceS, comsvcs/IDispenserDriver::DestroyResourceS, cos.idispenserdriver_destroyresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

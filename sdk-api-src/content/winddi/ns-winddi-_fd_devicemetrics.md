@@ -7,7 +7,7 @@ old-location: display\fd_devicemetrics.htm
 old-project: display
 ms.assetid: c6518325-7efc-46dd-831b-7cb7d2f37ddb
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PFD_DEVICEMETRICS, FD_DEVICEMETRICS, FD_DEVICEMETRICS structure [Display Devices], PFD_DEVICEMETRICS, PFD_DEVICEMETRICS structure pointer [Display Devices], _FD_DEVICEMETRICS, display.fd_devicemetrics, grstrcts_56d66436-e791-4e40-8764-8a15ae4b6853.xml, winddi/FD_DEVICEMETRICS, winddi/PFD_DEVICEMETRICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

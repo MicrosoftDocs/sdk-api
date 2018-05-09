@@ -7,7 +7,7 @@ old-location: security\credprotect.htm
 old-project: SecAuthN
 ms.assetid: 1e299dfb-2ffe-463c-9e2c-b7774a2216e3
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: CredProtect, CredProtect function [Security], CredProtectA, CredProtectW, security.credprotect, wincred/CredProtect, wincred/CredProtectA, wincred/CredProtectW
 ms.prod: windows-hardware
 ms.technology: windows-devices

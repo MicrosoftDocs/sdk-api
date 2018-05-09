@@ -7,7 +7,7 @@ old-location: mscs\release.htm
 old-project: MsCS
 ms.assetid: 9e8e4557-b223-4f8f-9393-67f589181754
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLOSE_ROUTINE, PCLOSE_ROUTINE callback function [Failover Cluster], PRELEASE_ROUTINE, PRELEASE_ROUTINE callback, Release, Release callback function [Failover Cluster], _wolf_release, mscs.release, resapi/PCLOSE_ROUTINE, resapi/Release
 ms.prod: windows-hardware
 ms.technology: windows-devices

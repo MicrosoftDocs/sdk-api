@@ -7,7 +7,7 @@ old-location: mscs\paxostagcstruct.htm
 old-project: MsCS
 ms.assetid: 732CB125-F43A-4CC4-BC3F-EFB511BB7F2E
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PPaxosTagCStruct, PPaxosTagCStruct, PPaxosTagCStruct structure pointer [Failover Cluster], PaxosTagCStruct, PaxosTagCStruct structure [Failover Cluster], _PaxosTagCStruct, mscs.paxostagcstruct, resapi/PPaxosTagCStruct, resapi/PaxosTagCStruct"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\DriveType.htm
 old-project: shell
 ms.assetid: 3089656d-2e64-4d65-aa18-0a451d82fa95
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: DriveType, DriveType function [Windows Shell], _shell_DriveType, shell.DriveType, shlobj_core/DriveType
 ms.prod: windows-hardware
 ms.technology: windows-devices

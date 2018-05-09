@@ -1,0 +1,12 @@
+{
+  "tech": "mscs",
+  "headers": [
+    "olectl.h",
+    "clusapi.h",
+    "resapi.h",
+    "smbclnt.h",
+    "cluadmex.h",
+    "msclus.h"
+  ],
+  "displayName": "Windows Clustering"
+}

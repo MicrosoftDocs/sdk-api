@@ -7,7 +7,7 @@ old-location: mscs\getclusterquorumresource.htm
 old-project: MsCS
 ms.assetid: 0f841070-9dc0-49e0-9112-8d46185470b5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE, PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE callback, PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE callback function [Failover Cluster], _wolf_getclusterquorumresource, clusapi/PCLUSAPI_GET_CLUSTER_QUORUM_RESOURCE, mscs.getclusterquorumresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

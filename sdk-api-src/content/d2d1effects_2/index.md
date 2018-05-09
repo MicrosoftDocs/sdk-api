@@ -7,6 +7,7 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: direct2d
 ---
 
 # D2D1Effects_2.h header

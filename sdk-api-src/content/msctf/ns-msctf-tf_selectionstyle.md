@@ -7,7 +7,7 @@ old-location: tsf\tf_selectionstyle.htm
 old-project: TSF
 ms.assetid: 3a38172b-611b-445f-be24-ea2a19178255
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: TF_SELECTIONSTYLE, TF_SELECTIONSTYLE structure [Text Services Framework], _tsf_tf_selectionstyle_ref, msctf/TF_SELECTIONSTYLE, tsf.tf_selectionstyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

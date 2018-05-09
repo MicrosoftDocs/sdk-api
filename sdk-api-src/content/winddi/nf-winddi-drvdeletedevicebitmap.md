@@ -7,7 +7,7 @@ old-location: display\drvdeletedevicebitmap.htm
 old-project: display
 ms.assetid: cb52b133-95c6-4a3d-b8b6-e1628a301542
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: DrvDeleteDeviceBitmap, DrvDeleteDeviceBitmap function [Display Devices], ddifncs_3c8f9ccd-c145-481c-9d31-6a951557527d.xml, display.drvdeletedevicebitmap, winddi/DrvDeleteDeviceBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

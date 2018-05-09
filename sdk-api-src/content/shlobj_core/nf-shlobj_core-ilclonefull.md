@@ -7,7 +7,7 @@ old-location: shell\ILCloneFull.htm
 old-project: shell
 ms.assetid: 60af0eb7-306a-45f8-b5ce-eb6451f380d5
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ILCloneFull, ILCloneFull function [Windows Shell], _shell_ILCloneFull, shell.ILCloneFull, shlobj_core/ILCloneFull
 ms.prod: windows-hardware
 ms.technology: windows-devices

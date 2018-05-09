@@ -7,7 +7,7 @@ old-location: shell\SizeTAdd.htm
 old-project: shell
 ms.assetid: 1cabc944-0819-4a24-ab61-6d5375ba1573
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SizeTAdd, SizeTAdd function [Windows Shell], _shell_SizeTAdd, intsafe/SizeTAdd, shell.SizeTAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

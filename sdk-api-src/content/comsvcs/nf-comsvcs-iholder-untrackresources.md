@@ -7,7 +7,7 @@ old-location: cos\iholder_untrackresources.htm
 old-project: cossdk
 ms.assetid: 03e54d2d-9dfb-46cf-abb9-d3f37784c449
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IHolder interface [COM+],UntrackResourceS method, IHolder.UntrackResourceS, IHolder::UntrackResourceS, UntrackResourceS, UntrackResourceS method [COM+], UntrackResourceS method [COM+],IHolder interface, _dtc_IHolder_UntrackResourceS, comsvcs/IHolder::UntrackResourceS, cos.iholder_untrackresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

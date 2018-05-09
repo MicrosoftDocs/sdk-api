@@ -7,7 +7,7 @@ old-location: mscs\fileshare_change.htm
 old-project: MsCS
 ms.assetid: f317f162-49b2-43df-a298-e2de707e089a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PFILESHARE_CHANGE, FILESHARE_CHANGE, FILESHARE_CHANGE structure [Failover Cluster], FILESHARE_CHANGE_ADD, FILESHARE_CHANGE_DEL, FILESHARE_CHANGE_MODIFY, PFILESHARE_CHANGE, PFILESHARE_CHANGE structure pointer [Failover Cluster], _FILESHARE_CHANGE, clusapi/FILESHARE_CHANGE, clusapi/PFILESHARE_CHANGE, mscs.fileshare_change"
 ms.prod: windows-hardware
 ms.technology: windows-devices

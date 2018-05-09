@@ -7,7 +7,7 @@ old-location: mscs\closeclusternetinterface.htm
 old-project: MsCS
 ms.assetid: e5978e81-790a-4ca7-92b7-d19af31f222e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE, PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE callback, PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE callback function [Failover Cluster], _wolf_closeclusternetinterface, clusapi/PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE, mscs.closeclusternetinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

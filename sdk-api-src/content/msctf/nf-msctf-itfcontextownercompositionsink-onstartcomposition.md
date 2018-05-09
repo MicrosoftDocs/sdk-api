@@ -7,7 +7,7 @@ old-location: tsf\itfcontextownercompositionsink_onstartcomposition.htm
 old-project: TSF
 ms.assetid: 18356eda-42b1-4b29-8fd8-cff4a3f6d234
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],OnStartComposition method, ITfContextOwnerCompositionSink.OnStartComposition, ITfContextOwnerCompositionSink::OnStartComposition, OnStartComposition, OnStartComposition method [Text Services Framework], OnStartComposition method [Text Services Framework],ITfContextOwnerCompositionSink interface, _tsf_itfcontextownercompositionsink_onstartcomposition_ref, msctf/ITfContextOwnerCompositionSink::OnStartComposition, tsf.itfcontextownercompositionsink_onstartcomposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

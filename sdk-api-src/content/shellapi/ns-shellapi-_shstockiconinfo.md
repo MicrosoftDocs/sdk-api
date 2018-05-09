@@ -7,7 +7,7 @@ old-location: shell\SHSTOCKICONINFO.htm
 old-project: shell
 ms.assetid: 4d32826a-bb40-4805-9826-801c142b8d28
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SHSTOCKICONINFO, SHSTOCKICONINFO structure [Windows Shell], _SHSTOCKICONINFO, _SHSTOCKICONINFO structure [Windows Shell], _shell_SHSTOCKICONINFO, shell.SHSTOCKICONINFO, shellapi/SHSTOCKICONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

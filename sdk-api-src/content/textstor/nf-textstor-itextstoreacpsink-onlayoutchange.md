@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpsink_onlayoutchange.htm
 old-project: TSF
 ms.assetid: 2018d3ef-892f-46c0-8dd0-3e27a9f2272c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnLayoutChange method, ITextStoreACPSink.OnLayoutChange, ITextStoreACPSink::OnLayoutChange, OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onlayoutchange_ref, textstor/ITextStoreACPSink::OnLayoutChange, tsf.itextstoreacpsink_onlayoutchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

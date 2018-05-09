@@ -7,7 +7,7 @@ old-location: display\ddvideoportcaps.htm
 old-project: display
 ms.assetid: ea85f189-7308-48ad-b159-1809749f8183
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*LPDDVIDEOPORTCAPS, DDVIDEOPORTCAPS, DDVIDEOPORTCAPS structure [Display Devices], _DDVIDEOPORTCAPS, ddstrcts_6955b71e-772c-41a5-9aa0-7d0247fc9d0a.xml, display.ddvideoportcaps, dvp/DDVIDEOPORTCAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

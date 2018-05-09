@@ -7,7 +7,7 @@ old-location: rras\mpradminmibentrygetfirst.htm
 old-project: RRAS
 ms.assetid: e3c3ac47-d47c-4fd4-a064-b737bc40f190
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MprAdminMIBEntryGetFirst, MprAdminMIBEntryGetFirst function [RAS], _mpr_mpradminmibentrygetfirst, mprapi/MprAdminMIBEntryGetFirst, rras.mpradminmibentrygetfirst
 ms.prod: windows-hardware
 ms.technology: windows-devices

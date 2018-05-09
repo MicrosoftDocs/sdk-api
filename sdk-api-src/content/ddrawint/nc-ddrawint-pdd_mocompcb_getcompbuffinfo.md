@@ -7,7 +7,7 @@ old-location: display\ddmocompgetbuffinfo.htm
 old-project: display
 ms.assetid: 7303f80d-1b6e-401f-a9ef-cf646b716c70
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: DdMoCompGetBuffInfo, DdMoCompGetBuffInfo callback function [Display Devices], PDD_MOCOMPCB_GETCOMPBUFFINFO, PDD_MOCOMPCB_GETCOMPBUFFINFO callback, ddfncs_6b92e5df-6051-4481-a2a6-bb0f4cc4fd8e.xml, ddrawint/DdMoCompGetBuffInfo, display.ddmocompgetbuffinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

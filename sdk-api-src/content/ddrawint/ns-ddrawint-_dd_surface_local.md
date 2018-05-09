@@ -7,7 +7,7 @@ old-location: display\dd_surface_local.htm
 old-project: display
 ms.assetid: 45a41cec-0257-4e26-809d-c2fc4c247328
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PDD_SURFACE_LOCAL, DD_SURFACE_LOCAL, DD_SURFACE_LOCAL structure [Display Devices], _DD_SURFACE_LOCAL, ddrawint/DD_SURFACE_LOCAL, ddstrcts_07a504fc-c8bb-4b48-b825-4da3012e4f95.xml, display.dd_surface_local"
 ms.prod: windows-hardware
 ms.technology: windows-devices

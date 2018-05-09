@@ -7,7 +7,7 @@ old-location: cos\icontextstate.htm
 old-project: cossdk
 ms.assetid: cba54ad7-c670-4efb-ad3b-aca1daabc4a3
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IContextState, IContextState interface [COM+], IContextState interface [COM+],described, _cos_IContextState, comsvcs/IContextState, cos.icontextstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

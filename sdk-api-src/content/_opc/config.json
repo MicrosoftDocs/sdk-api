@@ -1,0 +1,7 @@
+{
+  "tech": "opc",
+  "headers": [
+    "msopc.h"
+  ],
+  "displayName": "Packaging"
+}

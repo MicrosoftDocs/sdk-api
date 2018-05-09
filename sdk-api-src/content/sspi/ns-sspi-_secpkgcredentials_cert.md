@@ -7,7 +7,7 @@ old-location: security\secpkgcredentials_cert.htm
 old-project: SecAuthN
 ms.assetid: 9EEE6E98-D45C-4929-9C9C-F344972D186F
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PSecPkgCredentials_Cert, PSecPkgCredentials_Cert, PSecPkgCredentials_Cert structure pointer [Security], SecPkgCredentials_Cert, SecPkgCredentials_Cert structure [Security], _SecPkgCredentials_Cert, security.secpkgcredentials_cert, sspi/PSecPkgCredentials_Cert, sspi/SecPkgCredentials_Cert"
 ms.prod: windows-hardware
 ms.technology: windows-devices

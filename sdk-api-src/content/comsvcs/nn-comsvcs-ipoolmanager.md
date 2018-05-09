@@ -7,7 +7,7 @@ old-location: cos\ipoolmanager.htm
 old-project: cossdk
 ms.assetid: 7811ad0c-e7b6-423b-8c52-ab8b1b97d6f4
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IPoolManager, IPoolManager interface [COM+], IPoolManager interface [COM+],described, _cos_IPoolManager, comsvcs/IPoolManager, cos.ipoolmanager
 ms.prod: windows-hardware
 ms.technology: windows-devices

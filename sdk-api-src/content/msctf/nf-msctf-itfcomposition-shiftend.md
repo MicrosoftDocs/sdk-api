@@ -7,7 +7,7 @@ old-location: tsf\itfcomposition_shiftend.htm
 old-project: TSF
 ms.assetid: 40472318-85de-4cff-ac60-adfcbacc1537
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfComposition interface [Text Services Framework],ShiftEnd method, ITfComposition.ShiftEnd, ITfComposition::ShiftEnd, ShiftEnd, ShiftEnd method [Text Services Framework], ShiftEnd method [Text Services Framework],ITfComposition interface, _tsf_itfcomposition_shiftend_ref, msctf/ITfComposition::ShiftEnd, tsf.itfcomposition_shiftend
 ms.prod: windows-hardware
 ms.technology: windows-devices

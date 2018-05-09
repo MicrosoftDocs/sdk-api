@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_promoteunconfiguredcomponents.htm
 old-project: cossdk
 ms.assetid: e6ed7fa7-3736-4e82-a153-116f4aa141a1
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: COMAdmin32BitComponent, COMAdmin64BitComponent, ICOMAdminCatalog2 interface [COM+],PromoteUnconfiguredComponents method, ICOMAdminCatalog2.PromoteUnconfiguredComponents, ICOMAdminCatalog2::PromoteUnconfiguredComponents, PromoteUnconfiguredComponents, PromoteUnconfiguredComponents method [COM+], PromoteUnconfiguredComponents method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_PromoteUnconfiguredComponents, comadmin/ICOMAdminCatalog2::PromoteUnconfiguredComponents, cos.icomadmincatalog2_promoteunconfiguredcomponents
 ms.prod: windows-hardware
 ms.technology: windows-devices

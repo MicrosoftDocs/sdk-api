@@ -7,7 +7,7 @@ old-location: security\iidentityprovider_unadvise.htm
 old-project: SecAuthN
 ms.assetid: ba8a12fc-ea4c-45b5-8339-9cbc88c160db
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: IIdentityProvider interface [Security],UnAdvise method, IIdentityProvider.UnAdvise, IIdentityProvider::UnAdvise, UnAdvise, UnAdvise method [Security], UnAdvise method [Security],IIdentityProvider interface, identityprovider/IIdentityProvider::UnAdvise, security.iidentityprovider_unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

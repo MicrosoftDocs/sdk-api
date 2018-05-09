@@ -7,7 +7,7 @@ old-location: shell\Win32DeleteFile.htm
 old-project: shell
 ms.assetid: e6b2ac77-a206-413e-aba7-0fd627799a95
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: Win32DeleteFile, Win32DeleteFile function [Windows Shell], _shell_Win32DeleteFile, shell.Win32DeleteFile, shlobj_core/Win32DeleteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

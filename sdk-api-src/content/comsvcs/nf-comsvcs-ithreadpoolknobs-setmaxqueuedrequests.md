@@ -7,7 +7,7 @@ old-location: cos\ithreadpoolknobs_setmaxqueuedrequests.htm
 old-project: cossdk
 ms.assetid: 63f579a0-853e-484b-bc49-1c0f4c76d889
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetMaxQueuedRequests method, IThreadPoolKnobs.SetMaxQueuedRequests, IThreadPoolKnobs::SetMaxQueuedRequests, SetMaxQueuedRequests, SetMaxQueuedRequests method [COM+], SetMaxQueuedRequests method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetMaxQueuedRequests, comsvcs/IThreadPoolKnobs::SetMaxQueuedRequests, cos.ithreadpoolknobs_setmaxqueuedrequests
 ms.prod: windows-hardware
 ms.technology: windows-devices

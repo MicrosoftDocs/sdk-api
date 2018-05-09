@@ -7,7 +7,7 @@ old-location: tsf\itfkeystrokemgr_ispreservedkey.htm
 old-project: TSF
 ms.assetid: 50deac9c-b659-494b-9cda-d6109fa39363
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],IsPreservedKey method, ITfKeystrokeMgr.IsPreservedKey, ITfKeystrokeMgr::IsPreservedKey, IsPreservedKey, IsPreservedKey method [Text Services Framework], IsPreservedKey method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_ispreservedkey_ref, msctf/ITfKeystrokeMgr::IsPreservedKey, tsf.itfkeystrokemgr_ispreservedkey
 ms.prod: windows-hardware
 ms.technology: windows-devices

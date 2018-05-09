@@ -7,7 +7,7 @@ old-location: mscs\setclustername.htm
 old-project: MsCS
 ms.assetid: fac59879-d73c-4955-8454-a2e9d185da10
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_SetClusterName, PCLUSAPI_SetClusterName callback, PCLUSAPI_SetClusterName callback function [Failover Cluster], _wolf_setclustername, clusapi/PCLUSAPI_SetClusterName, mscs.setclustername
 ms.prod: windows-hardware
 ms.technology: windows-devices

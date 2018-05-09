@@ -7,7 +7,7 @@ old-location: tsf\itfcontextview.htm
 old-project: TSF
 ms.assetid: 302d185d-dab7-4a77-a5cf-da2529d8b24a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfContextView, ITfContextView interface [Text Services Framework], ITfContextView interface [Text Services Framework],described, _tsf_itfcontextview_ref, msctf/ITfContextView, tsf.itfcontextview
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\credential_target_information.htm
 old-project: SecAuthN
 ms.assetid: 92180f2c-ef7c-4481-9b6f-19234c114afb
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PCREDENTIAL_TARGET_INFORMATIONW, CREDENTIAL_TARGET_INFORMATION, CREDENTIAL_TARGET_INFORMATION structure [Security], CREDENTIAL_TARGET_INFORMATIONW, PCREDENTIAL_TARGET_INFORMATION, PCREDENTIAL_TARGET_INFORMATION structure pointer [Security], _CREDENTIAL_TARGET_INFORMATIONW, _cred_credential_target_information, security.credential_target_information, wincred/CREDENTIAL_TARGET_INFORMATION, wincred/PCREDENTIAL_TARGET_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

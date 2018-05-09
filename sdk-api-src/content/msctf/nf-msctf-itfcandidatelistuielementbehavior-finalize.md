@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatelistuielementbehavior_finalize.htm
 old-project: TSF
 ms.assetid: 3602c094-4e8c-456b-9b6d-b0fc10110cff
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: Finalize, Finalize method [Text Services Framework], Finalize method [Text Services Framework],ITfCandidateListUIElementBehavior interface, ITfCandidateListUIElementBehavior interface [Text Services Framework],Finalize method, ITfCandidateListUIElementBehavior.Finalize, ITfCandidateListUIElementBehavior::Finalize, msctf/ITfCandidateListUIElementBehavior::Finalize, tsf.itfcandidatelistuielementbehavior_finalize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\glyphpos.htm
 old-project: display
 ms.assetid: 1eb80e7a-93f5-474c-bed9-5b19f6657788
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PGLYPHPOS, GLYPHPOS, GLYPHPOS structure [Display Devices], PGLYPHPOS, PGLYPHPOS structure pointer [Display Devices], _GLYPHPOS, display.glyphpos, grstrcts_52c5687f-a40b-43c6-8513-accd4c72def5.xml, winddi/GLYPHPOS, winddi/PGLYPHPOS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

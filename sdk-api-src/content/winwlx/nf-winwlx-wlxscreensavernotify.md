@@ -7,7 +7,7 @@ old-location: security\wlxscreensavernotify.htm
 old-project: SecAuthN
 ms.assetid: 72ed356d-bae3-42ac-87c2-99305951e24b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: WlxScreenSaverNotify, WlxScreenSaverNotify function [Security], _gina_wlxscreensavernotify, security.wlxscreensavernotify, winwlx/WlxScreenSaverNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

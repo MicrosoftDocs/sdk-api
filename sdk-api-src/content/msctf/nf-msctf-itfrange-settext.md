@@ -7,7 +7,7 @@ old-location: tsf\itfrange_settext.htm
 old-project: TSF
 ms.assetid: 797d96a1-0250-4e8d-a4bd-31152fd6eca7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfRange interface [Text Services Framework],SetText method, ITfRange.SetText, ITfRange::SetText, SetText, SetText method [Text Services Framework], SetText method [Text Services Framework],ITfRange interface, _tsf_itfrange_settext_ref, msctf/ITfRange::SetText, tsf.itfrange_settext
 ms.prod: windows-hardware
 ms.technology: windows-devices

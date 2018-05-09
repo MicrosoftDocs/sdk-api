@@ -7,7 +7,7 @@ old-location: shell\CONFIRM_CONFLICT_RESULT_INFO.htm
 old-project: shell
 ms.assetid: 572bb9b7-a33d-4323-9363-abb43d9411e6
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: CONFIRM_CONFLICT_RESULT_INFO, CONFIRM_CONFLICT_RESULT_INFO structure [Windows Shell], _shell_CONFIRM_CONFLICT_RESULT_INFO, shell.CONFIRM_CONFLICT_RESULT_INFO, syncmgr/CONFIRM_CONFLICT_RESULT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\pku2u_cert_blob.htm
 old-project: SecAuthN
 ms.assetid: f840e81e-3fed-4d05-8ac4-b19ce0267517
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PPKU2U_CERT_BLOB, PKU2U_CERT_BLOB, PKU2U_CERT_BLOB structure [Security], PPKU2U_CERT_BLOB, PPKU2U_CERT_BLOB structure pointer [Security], _PKU2U_CERT_BLOB, ntsecapi/PKU2U_CERT_BLOB, ntsecapi/PPKU2U_CERT_BLOB, security.pku2u_cert_blob"
 ms.prod: windows-hardware
 ms.technology: windows-devices

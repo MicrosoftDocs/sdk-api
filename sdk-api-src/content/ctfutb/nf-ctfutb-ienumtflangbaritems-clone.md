@@ -7,7 +7,7 @@ old-location: tsf\ienumtflangbaritems_clone.htm
 old-project: TSF
 ms.assetid: 2a1f4a40-cf2c-4872-bb15-c4622ab2bfd1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfLangBarItems interface, IEnumTfLangBarItems interface [Text Services Framework],Clone method, IEnumTfLangBarItems.Clone, IEnumTfLangBarItems::Clone, _tsf_ienumtflangbaritems_clone_ref, ctfutb/IEnumTfLangBarItems::Clone, tsf.ienumtflangbaritems_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

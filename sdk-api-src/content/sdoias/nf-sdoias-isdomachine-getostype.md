@@ -7,7 +7,7 @@ old-location: nps\SDO_isdomachine_getostype.htm
 old-project: Nps
 ms.assetid: aa4f31af-57b0-4ce2-b8b9-981e4ef30d31
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: GetOSType, GetOSType method [Network Policy Server], GetOSType method [Network Policy Server],ISdoMachine interface, GetOSType method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetOSType method, ISdoMachine.GetOSType, ISdoMachine::GetOSType, SdoMachine object [Network Policy Server],GetOSType method, _sdo_isdomachine_getostype, nps.SDO_isdomachine_getostype, sdo.isdomachine_getostype, sdoias/ISdoMachine::GetOSType
 ms.prod: windows-hardware
 ms.technology: windows-devices

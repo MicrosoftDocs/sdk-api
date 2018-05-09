@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_ActivateBackgroundTask.htm
 old-project: shell
 ms.assetid: 30ef83f0-cad1-4aee-9b70-0fe7189aff9e
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ActivateBackgroundTask, ActivateBackgroundTask method [Windows Shell], ActivateBackgroundTask method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],ActivateBackgroundTask method, IPackageDebugSettings.ActivateBackgroundTask, IPackageDebugSettings::ActivateBackgroundTask, shell.IPackageDebugSettings_ActivateBackgroundTask, shobjidl_core/IPackageDebugSettings::ActivateBackgroundTask
 ms.prod: windows-hardware
 ms.technology: windows-devices

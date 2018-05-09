@@ -7,7 +7,7 @@ old-location: security\createlogonsession.htm
 old-project: SecAuthN
 ms.assetid: 383c935c-a1f2-4d1b-bb02-e7e37f154771
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: CreateLogonSession, CreateLogonSession function [Security], LSA_CREATE_LOGON_SESSION, _lsa_createlogonsession, ntsecpkg/CreateLogonSession, security.createlogonsession
 ms.prod: windows-hardware
 ms.technology: windows-devices

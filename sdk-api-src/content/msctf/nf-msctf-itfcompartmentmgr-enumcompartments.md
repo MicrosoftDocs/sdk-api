@@ -7,7 +7,7 @@ old-location: tsf\itfcompartmentmgr_enumcompartments.htm
 old-project: TSF
 ms.assetid: d8c90637-dd6d-425f-9d5d-44c7dbfcf8a5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: EnumCompartments, EnumCompartments method [Text Services Framework], EnumCompartments method [Text Services Framework],ITfCompartmentMgr interface, ITfCompartmentMgr interface [Text Services Framework],EnumCompartments method, ITfCompartmentMgr.EnumCompartments, ITfCompartmentMgr::EnumCompartments, _tsf_itfcompartmentmgr_enumcompartments_ref, msctf/ITfCompartmentMgr::EnumCompartments, tsf.itfcompartmentmgr_enumcompartments
 ms.prod: windows-hardware
 ms.technology: windows-devices

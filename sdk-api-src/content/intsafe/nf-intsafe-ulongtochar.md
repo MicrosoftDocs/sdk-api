@@ -7,7 +7,7 @@ old-location: shell\DWordToChar.htm
 old-project: shell
 ms.assetid: 2d3d4114-53ec-420b-93e3-cddb7ae14413
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: DWordToChar, DWordToChar function [Windows Shell], ULongToChar, _shell_DWordToChar, intsafe/DWordToChar, shell.DWordToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

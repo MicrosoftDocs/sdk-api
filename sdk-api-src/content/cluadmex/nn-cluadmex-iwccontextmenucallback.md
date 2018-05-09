@@ -7,7 +7,7 @@ old-location: mscs\iwccontextmenucallback.htm
 old-project: MsCS
 ms.assetid: 50dbb062-100a-40af-8e52-7bd4574334f4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: IWCContextMenuCallback, IWCContextMenuCallback interface [Failover Cluster], IWCContextMenuCallback interface [Failover Cluster],described, _wolf_iwccontextmenucallback, cluadmex/IWCContextMenuCallback, mscs.iwccontextmenucallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

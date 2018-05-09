@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_SetAsDefFolderSettings.htm
 old-project: shell
 ms.assetid: b5bcbb41-7c43-4448-a612-fe2342c502a0
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],SetAsDefFolderSettings method, IBrowserService2.SetAsDefFolderSettings, IBrowserService2::SetAsDefFolderSettings, SetAsDefFolderSettings, SetAsDefFolderSettings method [Windows Shell], SetAsDefFolderSettings method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::SetAsDefFolderSettings, shell.IBrowserService2_SetAsDefFolderSettings, zone_IBrowserService2_SetAsDefFolderSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

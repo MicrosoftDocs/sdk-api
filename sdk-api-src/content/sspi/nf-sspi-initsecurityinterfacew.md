@@ -7,7 +7,7 @@ old-location: security\initsecurityinterface.htm
 old-project: SecAuthN
 ms.assetid: 1026eeab-e2d6-45f2-9677-82d6cfbf4e12
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: InitSecurityInterface, InitSecurityInterface function [Security], InitSecurityInterfaceA, InitSecurityInterfaceW, _ssp_initsecurityinterface, security.initsecurityinterface, sspi/InitSecurityInterface, sspi/InitSecurityInterfaceA, sspi/InitSecurityInterfaceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

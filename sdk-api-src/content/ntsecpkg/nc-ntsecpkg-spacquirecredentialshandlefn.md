@@ -7,7 +7,7 @@ old-location: security\spacquirecredentialshandle.htm
 old-project: SecAuthN
 ms.assetid: d01245d9-fbca-4346-acf5-86ae7f0eb01e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, SpAcquireCredentialsHandle, SpAcquireCredentialsHandle function [Security], SpAcquireCredentialsHandleFn, _ssp_spacquirecredentialshandle, ntsecpkg/SpAcquireCredentialsHandle, security.spacquirecredentialshandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

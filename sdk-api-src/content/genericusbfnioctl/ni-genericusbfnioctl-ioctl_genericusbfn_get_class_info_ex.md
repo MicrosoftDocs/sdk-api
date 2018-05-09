@@ -7,7 +7,7 @@ old-location: buses\ioctl_genericusbfn_get_class_info_ex.htm
 old-project: usbref
 ms.assetid: 9FC6E1F4-65AF-4315-B7F2-241E74820742
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX, IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX control, IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX control code [Buses], buses.ioctl_genericusbfn_get_class_info_ex, genericusbfnioctl/IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,6 @@
+{
+  "tech": "input_pointerdevice",
+  "headers": [
+    "winuser.h"
+  ]
+}

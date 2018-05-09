@@ -7,7 +7,7 @@ old-location: shell\PARSEDURL.htm
 old-project: shell
 ms.assetid: 9092dd7a-ff5b-465f-a808-ef4e0067f540
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: "*PPARSEDURLW, PARSEDURL, PARSEDURL structure [Windows Shell], PARSEDURLA, PARSEDURLW, PPARSEDURL, PPARSEDURL structure pointer [Windows Shell], _win32_PARSEDURL, shell.PARSEDURL, shlwapi/PARSEDURL, shlwapi/PARSEDURLA, shlwapi/PARSEDURLW, shlwapi/PPARSEDURL, tagPARSEDURLW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

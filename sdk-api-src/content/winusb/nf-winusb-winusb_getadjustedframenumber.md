@@ -7,7 +7,7 @@ old-location: buses\winusb_getadjustedframenumber.htm
 old-project: usbref
 ms.assetid: 4FB5D8D5-992C-49D2-87FE-FA1F34D98D70
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: WinUsb_GetAdjustedFrameNumber, WinUsb_GetAdjustedFrameNumber routine [Buses], buses.winusb_getadjustedframenumber, winusb/WinUsb_GetAdjustedFrameNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

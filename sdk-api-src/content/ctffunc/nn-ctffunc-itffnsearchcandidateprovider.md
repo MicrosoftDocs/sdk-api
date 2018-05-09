@@ -7,7 +7,7 @@ old-location: tsf\itffnsearchcandidateprovider.htm
 old-project: TSF
 ms.assetid: 5DD99E0A-42A2-4EA5-B24F-5C439F5D7EEF
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfFnSearchCandidateProvider, ITfFnSearchCandidateProvider interface [Text Services Framework], ITfFnSearchCandidateProvider interface [Text Services Framework],described, ctffunc/ITfFnSearchCandidateProvider, tsf.itffnsearchcandidateprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

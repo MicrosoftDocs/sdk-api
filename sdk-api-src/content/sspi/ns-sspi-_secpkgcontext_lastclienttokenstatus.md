@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_lastclienttokenstatus.htm
 old-project: SecAuthN
 ms.assetid: ccb2bb4e-3c65-4305-95ad-b9111f3936b5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PSecPkgContext_LastClientTokenStatus, PSecPkgContext_LastClientTokenStatus, PSecPkgContext_LastClientTokenStatus structure pointer [Security], SecPkgContext_LastClientTokenStatus, SecPkgContext_LastClientTokenStatus structure [Security], _SecPkgContext_LastClientTokenStatus, security.secpkgcontext_lastclienttokenstatus, sspi/PSecPkgContext_LastClientTokenStatus, sspi/SecPkgContext_LastClientTokenStatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices

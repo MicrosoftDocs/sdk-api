@@ -1,0 +1,11 @@
+{
+  "tech": "winsync",
+  "headers": [
+    "mshtmlc.h",
+    "winsync.h",
+    "synchronizationerrors.h",
+    "syncregistration.h",
+    "syncregistrationerrors.h"
+  ],
+  "displayName": "Windows Sync"
+}

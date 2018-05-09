@@ -1,0 +1,13 @@
+{
+  "tech": "fsrm",
+  "headers": [
+    "fsrmreports.h",
+    "fsrmtlb.h",
+    "fsrmenums.h",
+    "fsrm.h",
+    "fsrmquota.h",
+    "fsrmpipeline.h",
+    "fsrmscreen.h"
+  ],
+  "displayName": "File Server Resource Manager"
+}

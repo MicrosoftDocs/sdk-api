@@ -7,7 +7,7 @@ old-location: tsf\itfdocumentmgr_pop.htm
 old-project: TSF
 ms.assetid: bbf65d8d-5a59-4c4b-a132-fa28babcd70b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfDocumentMgr interface [Text Services Framework],Pop method, ITfDocumentMgr.Pop, ITfDocumentMgr::Pop, Pop, Pop method [Text Services Framework], Pop method [Text Services Framework],ITfDocumentMgr interface, _tsf_itfdocumentmgr_pop_ref, msctf/ITfDocumentMgr::Pop, tsf.itfdocumentmgr_pop
 ms.prod: windows-hardware
 ms.technology: windows-devices

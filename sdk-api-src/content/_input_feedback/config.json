@@ -1,0 +1,6 @@
+{
+  "tech": "input_feedback",
+  "headers": [
+    "winuser.h"
+  ]
+}

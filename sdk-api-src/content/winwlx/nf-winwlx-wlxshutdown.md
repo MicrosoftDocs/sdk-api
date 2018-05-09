@@ -7,7 +7,7 @@ old-location: security\wlxshutdown.htm
 old-project: SecAuthN
 ms.assetid: dab8a93d-a0fe-4a29-9a29-ad64627050b7
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: WLX_SAS_ACTION_SHUTDOWN, WLX_SAS_ACTION_SHUTDOWN_POWER_OFF, WLX_SAS_ACTION_SHUTDOWN_REBOOT, WlxShutdown, WlxShutdown function [Security], _gina_wlxshutdown, security.wlxshutdown, winwlx/WlxShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\clustergroupenumex.htm
 old-project: MsCS
 ms.assetid: 139FE5AB-9465-46F8-B360-F27F19D82A88
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_CLUSTER_GROUP_ENUM_EX, PCLUSAPI_CLUSTER_GROUP_ENUM_EX callback, PCLUSAPI_CLUSTER_GROUP_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM_EX, mscs.clustergroupenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices

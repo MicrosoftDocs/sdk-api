@@ -7,7 +7,7 @@ old-location: display\drvgettruetypefile.htm
 old-project: display
 ms.assetid: a9e83067-1fd2-4f31-ac6e-545623613f88
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: DrvGetTrueTypeFile, DrvGetTrueTypeFile function [Display Devices], ddifncs_ce14ab7e-837a-4e44-bae6-7630912ff16a.xml, display.drvgettruetypefile, winddi/DrvGetTrueTypeFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

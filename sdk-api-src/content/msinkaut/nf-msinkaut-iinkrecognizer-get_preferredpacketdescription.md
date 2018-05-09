@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognizer_preferredpacketdescription.htm
 old-project: tablet
 ms.assetid: 3486f667-a050-4063-99bf-09865d6edbda
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: 3486f667-a050-4063-99bf-09865d6edbda, IInkRecognizer interface [Tablet PC],PreferredPacketDescription property, IInkRecognizer.PreferredPacketDescription, IInkRecognizer.get_PreferredPacketDescription, IInkRecognizer::PreferredPacketDescription, IInkRecognizer::get_PreferredPacketDescription, PreferredPacketDescription property [Tablet PC], PreferredPacketDescription property [Tablet PC],IInkRecognizer interface, get_PreferredPacketDescription, msinkaut/IInkRecognizer::PreferredPacketDescription, msinkaut/IInkRecognizer::get_PreferredPacketDescription, tablet.iinkrecognizer_preferredpacketdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\icreatewithtiptransactionex.htm
 old-project: cossdk
 ms.assetid: 09927c61-ce64-4d8a-a5b3-542748bfd256
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: ICreateWithTipTransactionEx, ICreateWithTipTransactionEx interface [COM+], ICreateWithTipTransactionEx interface [COM+],described, _dtc_ICreateWithTipTransactionEx_Interface, comsvcs/ICreateWithTipTransactionEx, cos.icreatewithtiptransactionex
 ms.prod: windows-hardware
 ms.technology: windows-devices

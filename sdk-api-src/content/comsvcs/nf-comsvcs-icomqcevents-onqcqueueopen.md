@@ -7,7 +7,7 @@ old-location: cos\icomqcevents_onqcqueueopen.htm
 old-project: cossdk
 ms.assetid: 7dcd1726-650a-4bb5-ae12-48c6989e1692
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCQueueOpen method, IComQCEvents.OnQCQueueOpen, IComQCEvents::OnQCQueueOpen, OnQCQueueOpen, OnQCQueueOpen method [COM+], OnQCQueueOpen method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCQueueOpen, comsvcs/IComQCEvents::OnQCQueueOpen, cos.icomqcevents_onqcqueueopen
 ms.prod: windows-hardware
 ms.technology: windows-devices

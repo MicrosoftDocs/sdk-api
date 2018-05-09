@@ -7,7 +7,7 @@ old-location: shell\DWordToWord.htm
 old-project: shell
 ms.assetid: 677ecdbc-197e-461e-aeab-5c73662fbf16
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: DWordToWord, DWordToWord function [Windows Shell], ULongToUShort, _shell_DWordToWord, intsafe/DWordToWord, shell.DWordToWord
 ms.prod: windows-hardware
 ms.technology: windows-devices

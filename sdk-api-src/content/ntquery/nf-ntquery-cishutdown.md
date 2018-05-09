@@ -7,7 +7,7 @@ old-location: shell\CIShutdown.htm
 old-project: shell
 ms.assetid: 16c932a6-8def-4ff9-b531-03ebd011086a
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: CIShutdown, CIShutdown function [Windows Shell], _shell_CIShutdown, ntquery/CIShutdown, shell.CIShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

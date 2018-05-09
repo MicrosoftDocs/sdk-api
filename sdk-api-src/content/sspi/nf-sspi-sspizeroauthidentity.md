@@ -7,7 +7,7 @@ old-location: security\sspizeroauthidentity.htm
 old-project: SecAuthN
 ms.assetid: 50b1f24a-c802-4691-a450-316cb31bf44d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: SspiZeroAuthIdentity, SspiZeroAuthIdentity function [Security], security.sspizeroauthidentity, sspi/SspiZeroAuthIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices

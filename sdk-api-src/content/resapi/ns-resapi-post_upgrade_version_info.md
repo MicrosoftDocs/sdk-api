@@ -7,7 +7,7 @@ old-location: mscs\post_upgrade_version_info.htm
 old-project: MsCS
 ms.assetid: 6F5DE9C6-5499-49FE-99D1-C8B8AE88CB18
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PPOST_UPGRADE_VERSION_INFO, POST_UPGRADE_VERSION_INFO, POST_UPGRADE_VERSION_INFO structure [Failover Cluster], PPOST_UPGRADE_VERSION_INFO, PPOST_UPGRADE_VERSION_INFO structure pointer [Failover Cluster], mscs.post_upgrade_version_info, resapi/POST_UPGRADE_VERSION_INFO, resapi/PPOST_UPGRADE_VERSION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

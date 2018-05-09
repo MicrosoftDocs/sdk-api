@@ -7,7 +7,7 @@ old-location: cos\itransactioncontext_createinstance.htm
 old-project: cossdk
 ms.assetid: 3dc08700-0872-4d60-a968-cffed974c7b2
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ITransactionContext interface, ITransactionContext interface [COM+],CreateInstance method, ITransactionContext.CreateInstance, ITransactionContext::CreateInstance, _cos_ITransactionContext_CreateInstance, comsvcs/ITransactionContext::CreateInstance, cos.itransactioncontext_createinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

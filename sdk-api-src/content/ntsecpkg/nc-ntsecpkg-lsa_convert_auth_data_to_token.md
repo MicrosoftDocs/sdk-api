@@ -7,7 +7,7 @@ old-location: security\convertauthdatatotoken.htm
 old-project: SecAuthN
 ms.assetid: 99dfd3b3-40e0-44b2-8752-39b7b394ac0e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: ConvertAuthDataToToken, ConvertAuthDataToToken function [Security], LSA_CONVERT_AUTH_DATA_TO_TOKEN, _ssp_convertauthdatatotoken, ntsecpkg/ConvertAuthDataToToken, security.convertauthdatatotoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

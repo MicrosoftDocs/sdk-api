@@ -7,7 +7,7 @@ old-location: mscs\clusrestype_object.htm
 old-project: MsCS
 ms.assetid: e4ad6364-f318-47f9-a276-d99c91ffbbb5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: ClusResType, ClusResType object [Failover Cluster], ClusResType object [Failover Cluster],described, ISClusResType, _wolf_clusrestype_object, msclus/ClusResType, mscs.clusrestype_object
 ms.prod: windows-hardware
 ms.technology: windows-devices

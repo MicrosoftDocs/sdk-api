@@ -7,7 +7,7 @@ old-location: shell\PathUnmakeSystemFolder.htm
 old-project: shell
 ms.assetid: 9c748ed6-3ee6-4889-8fdd-b33ed9d711d0
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: PathUnmakeSystemFolder, PathUnmakeSystemFolder function [Windows Shell], PathUnmakeSystemFolderA, PathUnmakeSystemFolderW, _win32_PathUnmakeSystemFolder, shell.PathUnmakeSystemFolder, shlwapi/PathUnmakeSystemFolder, shlwapi/PathUnmakeSystemFolderA, shlwapi/PathUnmakeSystemFolderW
 ms.prod: windows-hardware
 ms.technology: windows-devices

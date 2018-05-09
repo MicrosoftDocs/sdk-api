@@ -7,7 +7,7 @@ old-location: shell\SHCreateDirectory.htm
 old-project: shell
 ms.assetid: 4927429c-f457-4dda-aa0d-236eb236795c
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SHCreateDirectory, SHCreateDirectory function [Windows Shell], _win32_SHCreateDirectory, shell.SHCreateDirectory, shlobj_core/SHCreateDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\csc_comtiintrinsicsconfig.htm
 old-project: cossdk
 ms.assetid: 0d700648-b5fe-46f6-9d27-e2601fe88d71
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: CSC_COMTIIntrinsicsConfig, CSC_COMTIIntrinsicsConfig enumeration [COM+], CSC_InheritCOMTIIntrinsics, CSC_NoCOMTIIntrinsics, _cos_CSC_COMTIIntrinsicsConfig, comsvcs/CSC_COMTIIntrinsicsConfig, comsvcs/CSC_InheritCOMTIIntrinsics, comsvcs/CSC_NoCOMTIIntrinsics, cos.csc_comtiintrinsicsconfig, tagCSC_COMTIIntrinsicsConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

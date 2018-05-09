@@ -7,7 +7,7 @@ old-location: cos\isystemappeventdata_ondatachanged.htm
 old-project: cossdk
 ms.assetid: db30c40e-8dd8-4055-b2c4-71f9d0c2efc4
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: ISystemAppEventData interface [COM+],OnDataChanged method, ISystemAppEventData.OnDataChanged, ISystemAppEventData::OnDataChanged, OnDataChanged, OnDataChanged method [COM+], OnDataChanged method [COM+],ISystemAppEventData interface, _dtc_ISystemAppEventData_OnDataChanged, comsvcs/ISystemAppEventData::OnDataChanged, cos.isystemappeventdata_ondatachanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

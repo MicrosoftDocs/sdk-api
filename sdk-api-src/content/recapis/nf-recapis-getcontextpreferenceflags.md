@@ -7,7 +7,7 @@ old-location: tablet\getcontextpreferenceflags.htm
 old-project: tablet
 ms.assetid: 0804cd56-7baf-4b93-97b5-4131118b72b6
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: GetContextPreferenceFlags, GetContextPreferenceFlags function [Tablet PC], recapis/GetContextPreferenceFlags, tablet.getcontextpreferenceflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

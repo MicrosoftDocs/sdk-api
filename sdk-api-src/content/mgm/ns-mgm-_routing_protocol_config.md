@@ -7,7 +7,7 @@ old-location: rras\routing_protocol_config_str.htm
 old-project: RRAS
 ms.assetid: acbf0519-a0c8-4b96-9722-9eeccee026d7
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PROUTING_PROTOCOL_CONFIG, PROUTING_PROTOCOL_CONFIG, PROUTING_PROTOCOL_CONFIG structure pointer [RAS], ROUTING_PROTOCOL_CONFIG, ROUTING_PROTOCOL_CONFIG structure [RAS], _ROUTING_PROTOCOL_CONFIG, _mpr_routing_protocol_config_str, mgm/PROUTING_PROTOCOL_CONFIG, mgm/ROUTING_PROTOCOL_CONFIG, rras.routing_protocol_config_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

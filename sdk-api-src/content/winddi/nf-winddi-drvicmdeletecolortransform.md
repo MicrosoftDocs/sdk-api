@@ -7,7 +7,7 @@ old-location: display\drvicmdeletecolortransform.htm
 old-project: display
 ms.assetid: aa1226d3-7b2a-4911-b785-eea9f72016f5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: DrvIcmDeleteColorTransform, DrvIcmDeleteColorTransform function [Display Devices], ddifncs_883d2f55-a3e0-4682-a099-8fef07b6e3a7.xml, display.drvicmdeletecolortransform, winddi/DrvIcmDeleteColorTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

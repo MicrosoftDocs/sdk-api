@@ -7,7 +7,7 @@ old-location: buses\winusb_getassociatedinterface.htm
 old-project: usbref
 ms.assetid: 1afc7b2f-4fb6-4ab4-8415-aaee9cd6ee0c
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: WinUsb_GetAssociatedInterface, WinUsb_GetAssociatedInterface function [Buses], buses.winusb_getassociatedinterface, winusb/WinUsb_GetAssociatedInterface, winusbfunc_22b6f592-12ca-433e-b7a1-885eebf60386.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

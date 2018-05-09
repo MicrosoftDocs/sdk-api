@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacedisconnect.htm
 old-project: RRAS
 ms.assetid: 32499e2f-9c67-4314-adbf-75482a9d511e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MprAdminInterfaceDisconnect, MprAdminInterfaceDisconnect function [RAS], _mpr_mpradmininterfacedisconnect, mprapi/MprAdminInterfaceDisconnect, rras.mpradmininterfacedisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

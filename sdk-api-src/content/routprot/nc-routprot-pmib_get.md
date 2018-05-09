@@ -7,7 +7,7 @@ old-location: rras\mibget.htm
 old-project: RRAS
 ms.assetid: a6f3d450-0ca1-4c22-9e48-addf317cac2a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MibGet, MibGet callback function [RAS], PMIB_GET, PMIB_GET callback, _mpr_mibget, routprot/MibGet, rras.mibget
 ms.prod: windows-hardware
 ms.technology: windows-devices

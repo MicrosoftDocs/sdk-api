@@ -1,0 +1,11 @@
+{
+  "tech": "perf",
+  "headers": [
+    "tbd",
+    "loadperf.h",
+    "perflib.h",
+    "pdh.h",
+    "winperf.h"
+  ],
+  "displayName": "Performance Counters"
+}

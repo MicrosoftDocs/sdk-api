@@ -7,7 +7,7 @@ old-location: mscs\clus_disk_number_info.htm
 old-project: MsCS
 ms.assetid: FF13CF5E-67EA-41B8-986C-B90691F82BF1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PCLUS_DISK_NUMBER_INFO, CLUS_DISK_NUMBER_INFO, CLUS_DISK_NUMBER_INFO structure [Failover Cluster], PCLUS_DISK_NUMBER_INFO, PCLUS_DISK_NUMBER_INFO structure pointer [Failover Cluster], _CLUS_DISK_NUMBER_INFO, clusapi/CLUS_DISK_NUMBER_INFO, clusapi/PCLUS_DISK_NUMBER_INFO, mscs.clus_disk_number_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

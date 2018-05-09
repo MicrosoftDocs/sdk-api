@@ -7,7 +7,7 @@ old-location: tsf\ianchor_isequal.htm
 old-project: TSF
 ms.assetid: a2dedce7-f64d-406a-bebc-9a4b51a1ae38
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: IAnchor interface [Text Services Framework],IsEqual method, IAnchor.IsEqual, IAnchor::IsEqual, IsEqual, IsEqual method [Text Services Framework], IsEqual method [Text Services Framework],IAnchor interface, textstor/IAnchor::IsEqual, tsf.ianchor_isequal
 ms.prod: windows-hardware
 ms.technology: windows-devices

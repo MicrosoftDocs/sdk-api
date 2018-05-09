@@ -7,7 +7,7 @@ old-location: security\lsa_forest_trust_binary_data.htm
 old-project: SecAuthN
 ms.assetid: 2ddcf54e-c30f-4146-8cb6-71fcdd42ae68
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PLSA_FOREST_TRUST_BINARY_DATA, LSA_FOREST_TRUST_BINARY_DATA, LSA_FOREST_TRUST_BINARY_DATA structure [Security], PLSA_FOREST_TRUST_BINARY_DATA, PLSA_FOREST_TRUST_BINARY_DATA structure pointer [Security], _LSA_FOREST_TRUST_BINARY_DATA, ntsecapi/LSA_FOREST_TRUST_BINARY_DATA, ntsecapi/PLSA_FOREST_TRUST_BINARY_DATA, security.lsa_forest_trust_binary_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices

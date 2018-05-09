@@ -7,7 +7,7 @@ old-location: security\spformatcredentials.htm
 old-project: SecAuthN
 ms.assetid: c6036636-7f22-4f64-b507-59212d37638b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: SpFormatCredentials, SpFormatCredentials function [Security], SpFormatCredentialsFn, _ssp_spformatcredentials, ntsecpkg/SpFormatCredentials, security.spformatcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

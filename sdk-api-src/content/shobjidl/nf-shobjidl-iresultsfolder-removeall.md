@@ -7,7 +7,7 @@ old-location: shell\IResultsFolder_RemoveAll.htm
 old-project: shell
 ms.assetid: 2aac1b5a-298a-4682-9874-7cf114ce1f63
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IResultsFolder interface [Windows Shell],RemoveAll method, IResultsFolder.RemoveAll, IResultsFolder::RemoveAll, RemoveAll, RemoveAll method [Windows Shell], RemoveAll method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveAll, shell.IResultsFolder_RemoveAll, shobjidl/IResultsFolder::RemoveAll
 ms.prod: windows-hardware
 ms.technology: windows-devices

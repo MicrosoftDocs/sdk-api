@@ -7,7 +7,7 @@ old-location: rras\rasgeterrorstring.htm
 old-project: RRAS
 ms.assetid: 4d308dd8-e623-467b-836e-faace19460f1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: RasGetErrorString, RasGetErrorString function [RAS], RasGetErrorStringA, RasGetErrorStringW, _ras_rasgeterrorstring, ras/RasGetErrorString, ras/RasGetErrorStringA, ras/RasGetErrorStringW, rras.rasgeterrorstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

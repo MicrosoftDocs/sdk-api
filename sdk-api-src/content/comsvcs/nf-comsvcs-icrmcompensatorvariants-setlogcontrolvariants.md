@@ -7,7 +7,7 @@ old-location: cos\icrmcompensatorvariants_setlogcontrolvariants.htm
 old-project: cossdk
 ms.assetid: 5cf602fb-b5b9-471b-b617-9df6725eaf35
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: ICrmCompensatorVariants interface [COM+],SetLogControlVariants method, ICrmCompensatorVariants.SetLogControlVariants, ICrmCompensatorVariants::SetLogControlVariants, SetLogControlVariants, SetLogControlVariants method [COM+], SetLogControlVariants method [COM+],ICrmCompensatorVariants interface, _dtc_ICrmCompensatorVariants_SetLogControlVariants, comsvcs/ICrmCompensatorVariants::SetLogControlVariants, cos.icrmcompensatorvariants_setlogcontrolvariants
 ms.prod: windows-hardware
 ms.technology: windows-devices

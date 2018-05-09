@@ -7,7 +7,7 @@ old-location: mscs\cluster_validate_directory.htm
 old-project: MsCS
 ms.assetid: e5cde16b-da06-4063-9337-c3cc6b6c285b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PCLUSTER_VALIDATE_DIRECTORY, CLUSTER_VALIDATE_DIRECTORY, CLUSTER_VALIDATE_DIRECTORY structure [Failover Cluster], PCLUSTER_VALIDATE_DIRECTORY, PCLUSTER_VALIDATE_DIRECTORY structure pointer [Failover Cluster], _CLUSTER_VALIDATE_DIRECTORY, clusapi/CLUSTER_VALIDATE_DIRECTORY, clusapi/PCLUSTER_VALIDATE_DIRECTORY, mscs.cluster_validate_directory"
 ms.prod: windows-hardware
 ms.technology: windows-devices

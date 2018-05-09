@@ -7,7 +7,7 @@ old-location: security\scardlistinterfaces.htm
 old-project: SecAuthN
 ms.assetid: 2460c133-3ad4-4f73-9f55-56fc3bab9cdb
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: SCardListInterfaces, SCardListInterfaces function [Security], SCardListInterfacesA, SCardListInterfacesW, _smart_scardlistinterfaces, security.scardlistinterfaces, winscard/SCardListInterfaces, winscard/SCardListInterfacesA, winscard/SCardListInterfacesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

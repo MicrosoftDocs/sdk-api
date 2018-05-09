@@ -7,7 +7,7 @@ old-location: shell\UInt8ToInt8.htm
 old-project: shell
 ms.assetid: e62784c6-0a26-4b3a-a9cc-0ab7b64ff37c
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: UInt8ToInt8, UInt8ToInt8 function [Windows Shell], intsafe/UInt8ToInt8, shell.UInt8ToInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices

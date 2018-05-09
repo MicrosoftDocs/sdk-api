@@ -7,7 +7,7 @@ old-location: security\sspiprepareforcredread.htm
 old-project: SecAuthN
 ms.assetid: f473fd7a-5c0f-4a77-829b-28a82ad0d28d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: SspiPrepareForCredRead, SspiPrepareForCredRead function [Security], security.sspiprepareforcredread, sspi/SspiPrepareForCredRead
 ms.prod: windows-hardware
 ms.technology: windows-devices

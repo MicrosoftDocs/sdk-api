@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_UpdateWindowList.htm
 old-project: shell
 ms.assetid: 0c82a486-f8ad-4868-80ab-ae4a2ebcc95f
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IBrowserService interface [Windows Shell],UpdateWindowList method, IBrowserService.UpdateWindowList, IBrowserService::UpdateWindowList, UpdateWindowList, UpdateWindowList method [Windows Shell], UpdateWindowList method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::UpdateWindowList, shell.IBrowserService_UpdateWindowList, zone_IBrowserService_UpdateWindowList
 ms.prod: windows-hardware
 ms.technology: windows-devices

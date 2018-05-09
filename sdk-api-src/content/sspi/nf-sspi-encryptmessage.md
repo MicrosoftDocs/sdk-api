@@ -7,7 +7,7 @@ old-location: security\encryptmessage__digest_.htm
 old-project: SecAuthN
 ms.assetid: 0045e931-929b-40c4-a524-5664d2fc5170
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: EncryptMessage, EncryptMessage (Digest), EncryptMessage function [Security], SealMessage [Security], security.encryptmessage__digest_, sspi/EncryptMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

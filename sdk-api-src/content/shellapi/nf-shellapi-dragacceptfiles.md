@@ -7,7 +7,7 @@ old-location: shell\DragAcceptFiles.htm
 old-project: shell
 ms.assetid: 1f16f6e4-7847-4bc7-adce-995876db24bd
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: DragAcceptFiles, DragAcceptFiles function [Windows Shell], _win32_DragAcceptFiles, shell.DragAcceptFiles, shellapi/DragAcceptFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

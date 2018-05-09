@@ -7,7 +7,7 @@ old-location: shell\StrCatChainW.htm
 old-project: shell
 ms.assetid: 8df35616-f6f3-45eb-9a83-89fc84938fd7
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: StrCatChainW, StrCatChainW function [Windows Shell], _shell_StrCatChainW, shell.StrCatChainW, shlwapi/StrCatChainW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,6 @@
+{
+  "tech": "ndisimplatcim",
+  "headers": [
+    "corecrt_io.h"
+  ]
+}

@@ -7,7 +7,7 @@ old-location: security\kerb_add_credentials_request.htm
 old-project: SecAuthN
 ms.assetid: a9a8810b-c9cf-4e19-8a33-7ad0c7ef8694
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PKERB_ADD_CREDENTIALS_REQUEST, KERB_ADD_CREDENTIALS_REQUEST, KERB_ADD_CREDENTIALS_REQUEST structure [Security], KERB_REQUEST_ADD_CREDENTIAL, KERB_REQUEST_REMOVE_CREDENTIAL, KERB_REQUEST_REPLACE_CREDENTIAL, PKERB_ADD_CREDENTIALS_REQUEST, PKERB_ADD_CREDENTIALS_REQUEST structure pointer [Security], _KERB_ADD_CREDENTIALS_REQUEST, ntsecapi/KERB_ADD_CREDENTIALS_REQUEST, ntsecapi/PKERB_ADD_CREDENTIALS_REQUEST, security.kerb_add_credentials_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices

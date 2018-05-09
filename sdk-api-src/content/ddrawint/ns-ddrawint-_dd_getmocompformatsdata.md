@@ -7,7 +7,7 @@ old-location: display\dd_getmocompformatsdata.htm
 old-project: display
 ms.assetid: 1effebea-1cdb-46e9-a783-5a68863a2756
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PDD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA structure [Display Devices], _DD_GETMOCOMPFORMATSDATA, ddrawint/DD_GETMOCOMPFORMATSDATA, ddstrcts_641a377d-109e-43f2-bc12-631964737386.xml, display.dd_getmocompformatsdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

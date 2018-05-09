@@ -7,7 +7,7 @@ old-location: security\npcancelconnection.htm
 old-project: SecAuthN
 ms.assetid: e06768b2-760c-48f1-a6a4-896c3ea286f6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: NPCancelConnection, NPCancelConnection function [Security], _mnp_npcancelconnection, npapi/NPCancelConnection, security.npcancelconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

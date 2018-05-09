@@ -7,7 +7,7 @@ old-location: cos\iappdomainhelper_initialize.htm
 old-project: cossdk
 ms.assetid: c5cdff7f-6fb4-4f49-995a-63e4ecaef71a
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IAppDomainHelper interface [COM+],Initialize method, IAppDomainHelper.Initialize, IAppDomainHelper::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IAppDomainHelper interface, _cos_IAppDomainHelper_Initialize, comsvcs/IAppDomainHelper::Initialize, cos.iappdomainhelper_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

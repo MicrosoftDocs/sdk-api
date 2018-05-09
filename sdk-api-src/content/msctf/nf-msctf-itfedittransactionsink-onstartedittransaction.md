@@ -7,7 +7,7 @@ old-location: tsf\itfedittransactionsink_onstartedittransaction.htm
 old-project: TSF
 ms.assetid: cf10e7aa-c2a1-4d7f-828a-434c9852f4d6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfEditTransactionSink interface [Text Services Framework],OnStartEditTransaction method, ITfEditTransactionSink.OnStartEditTransaction, ITfEditTransactionSink::OnStartEditTransaction, OnStartEditTransaction, OnStartEditTransaction method [Text Services Framework], OnStartEditTransaction method [Text Services Framework],ITfEditTransactionSink interface, _tsf_itfedittransactionsink_onstartedittransaction_ref, msctf/ITfEditTransactionSink::OnStartEditTransaction, tsf.itfedittransactionsink_onstartedittransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

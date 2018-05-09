@@ -7,7 +7,7 @@ old-location: cos\iservicesxsconfig.htm
 old-project: cossdk
 ms.assetid: 24d4a22b-0a01-4bf2-9cc6-4a1b31897d05
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IServiceSxSConfig, IServiceSxSConfig interface [COM+], IServiceSxSConfig interface [COM+],described, _cos_IServiceSxsConfig, comsvcs/IServiceSxSConfig, cos.iservicesxsconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,13 @@
+{
+  "tech": "properties",
+  "headers": [
+    "wtypes.h",
+    "shobjidl.h",
+    "shlobj.h",
+    "shellapi.h",
+    "propsys.h",
+    "propvarutil.h",
+    "propidl.h"
+  ],
+  "displayName": "Windows Property System"
+}

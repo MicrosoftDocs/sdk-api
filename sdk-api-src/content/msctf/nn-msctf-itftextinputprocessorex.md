@@ -7,7 +7,7 @@ old-location: tsf\itftextinputprocessorex.htm
 old-project: TSF
 ms.assetid: fc762a6f-8d15-4082-9588-fc77fa565549
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfTextInputProcessorEx, ITfTextInputProcessorEx interface [Text Services Framework], ITfTextInputProcessorEx interface [Text Services Framework],described, _tsf_itftextinputprocessorex_ref, msctf/ITfTextInputProcessorEx, tsf.itftextinputprocessorex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\SizeTToLongPtr.htm
 old-project: shell
 ms.assetid: b48b0d5c-4ce8-41d1-b9e8-7ee7449eb2d2
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SizeTToLongPtr, SizeTToLongPtr function [Windows Shell], UIntPtrToLongPtr, _shell_SizeTToLongPtr, intsafe/SizeTToLongPtr, shell.SizeTToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

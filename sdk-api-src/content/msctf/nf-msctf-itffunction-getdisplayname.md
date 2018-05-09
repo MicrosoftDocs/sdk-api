@@ -7,7 +7,7 @@ old-location: tsf\itffunction_getdisplayname.htm
 old-project: TSF
 ms.assetid: da52ca6d-9606-45c5-8db9-c876c827df14
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Text Services Framework], GetDisplayName method [Text Services Framework],ITfFunction interface, ITfFunction interface [Text Services Framework],GetDisplayName method, ITfFunction.GetDisplayName, ITfFunction::GetDisplayName, _tsf_itffunction_getdisplayname_ref, msctf/ITfFunction::GetDisplayName, tsf.itffunction_getdisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices

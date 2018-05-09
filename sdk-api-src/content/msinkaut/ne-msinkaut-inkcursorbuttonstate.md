@@ -7,7 +7,7 @@ old-location: tablet\inkcursorbuttonstate.htm
 old-project: tablet
 ms.assetid: 0e750bd6-0b57-499e-9691-966fb027cdb5
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: 0e750bd6-0b57-499e-9691-966fb027cdb5, ICBS_CursorUnavailable, ICBS_Down, ICBS_Up, InkCursorButtonState, InkCursorButtonState enumeration [Tablet PC], msinkaut/ICBS_CursorUnavailable, msinkaut/ICBS_Down, msinkaut/ICBS_Up, msinkaut/InkCursorButtonState, tablet.inkcursorbuttonstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

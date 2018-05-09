@@ -7,7 +7,7 @@ old-location: cos\icrmcompensator.htm
 old-project: cossdk
 ms.assetid: 9e5a8f2c-4115-42bd-a541-d0ce75c45b72
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: ICrmCompensator, ICrmCompensator interface [COM+], ICrmCompensator interface [COM+],described, _dtc_ICrmCompensator_Interface, comsvcs/ICrmCompensator, cos.icrmcompensator
 ms.prod: windows-hardware
 ms.technology: windows-devices

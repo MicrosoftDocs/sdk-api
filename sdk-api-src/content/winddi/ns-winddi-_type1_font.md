@@ -7,7 +7,7 @@ old-location: display\type1_font.htm
 old-project: display
 ms.assetid: c852a814-3ebc-4688-aa42-c99b0ee63918
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: TYPE1_FONT, TYPE1_FONT structure [Display Devices], _TYPE1_FONT, display.type1_font, grstrcts_5408143c-ae92-4fa6-b5a8-3ef75b46c30d.xml, winddi/TYPE1_FONT
 ms.prod: windows-hardware
 ms.technology: windows-devices

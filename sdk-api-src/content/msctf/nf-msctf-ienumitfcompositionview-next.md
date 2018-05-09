@@ -7,7 +7,7 @@ old-location: tsf\ienumitfcompositionview_next.htm
 old-project: TSF
 ms.assetid: 70b0dd55-41c0-4188-b79e-e49a0e203949
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: IEnumITfCompositionView interface [Text Services Framework],Next method, IEnumITfCompositionView.Next, IEnumITfCompositionView::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumITfCompositionView interface, _tsf_ienumitfcompositionview_next_ref, msctf/IEnumITfCompositionView::Next, tsf.ienumitfcompositionview_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

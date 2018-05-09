@@ -1,0 +1,7 @@
+{
+  "tech": "nfswmi",
+  "headers": [
+    "sdoias.h",
+    "shobjidl_core.h"
+  ]
+}

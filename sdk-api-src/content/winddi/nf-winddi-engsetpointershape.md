@@ -7,7 +7,7 @@ old-location: display\engsetpointershape.htm
 old-project: display
 ms.assetid: 9b3a1e44-f3c6-4160-8d5d-d114511ad201
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: EngSetPointerShape, EngSetPointerShape function [Display Devices], display.engsetpointershape, gdifncs_468e4611-6696-4535-af00-014999695d6e.xml, winddi/EngSetPointerShape
 ms.prod: windows-hardware
 ms.technology: windows-devices

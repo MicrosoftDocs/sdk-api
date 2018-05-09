@@ -7,7 +7,7 @@ old-location: display\engquerysystemattribute.htm
 old-project: display
 ms.assetid: 7559075d-f2df-4c71-9523-22417d5cfd5a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: EngQuerySystemAttribute, EngQuerySystemAttribute function [Display Devices], display.engquerysystemattribute, gdifncs_8d196296-10a2-4118-9318-fe0267df4e60.xml, winddi/EngQuerySystemAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

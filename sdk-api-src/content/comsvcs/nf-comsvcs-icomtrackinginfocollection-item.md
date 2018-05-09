@@ -7,7 +7,7 @@ old-location: cos\icomtrackinginfocollection_item.htm
 old-project: cossdk
 ms.assetid: 61da742b-d8cd-48db-a9b7-c754b8963907
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IComTrackingInfoCollection interface [COM+],Item method, IComTrackingInfoCollection.Item, IComTrackingInfoCollection::Item, Item, Item method [COM+], Item method [COM+],IComTrackingInfoCollection interface, _dtc_IComTrackingInfoCollection_Item, comsvcs/IComTrackingInfoCollection::Item, cos.icomtrackinginfocollection_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

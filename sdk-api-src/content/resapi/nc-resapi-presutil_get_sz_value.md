@@ -7,7 +7,7 @@ old-location: mscs\resutilgetszvalue.htm
 old-project: MsCS
 ms.assetid: c2ba04ea-0f98-4513-b8f8-658056a493e6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PRESUTIL_GET_SZ_VALUE, PRESUTIL_GET_SZ_VALUE callback, PRESUTIL_GET_SZ_VALUE callback function [Failover Cluster], _wolf_resutilgetszvalue, mscs.resutilgetszvalue, resapi/PRESUTIL_GET_SZ_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices

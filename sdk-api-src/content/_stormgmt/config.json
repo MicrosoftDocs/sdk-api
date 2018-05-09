@@ -1,0 +1,10 @@
+{
+  "tech": "stormgmt",
+  "headers": [
+    "dbdaoint.h",
+    "netcfgn.h",
+    "vds.h",
+    "vdssys.h"
+  ],
+  "displayName": "Windows Storage Management API"
+}

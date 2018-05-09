@@ -7,7 +7,7 @@ old-location: tsf\ienumtfdocumentmgrs_reset.htm
 old-project: TSF
 ms.assetid: 9f7b016d-ff67-4b73-b373-b5a04cd25b58
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: IEnumTfDocumentMgrs interface [Text Services Framework],Reset method, IEnumTfDocumentMgrs.Reset, IEnumTfDocumentMgrs::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfDocumentMgrs interface, _tsf_ienumtfdocumentmgrs_reset_ref, msctf/IEnumTfDocumentMgrs::Reset, tsf.ienumtfdocumentmgrs_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

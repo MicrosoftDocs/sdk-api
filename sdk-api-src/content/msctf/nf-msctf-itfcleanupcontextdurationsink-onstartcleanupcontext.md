@@ -7,7 +7,7 @@ old-location: tsf\itfcleanupcontextdurationsink_onstartcleanupcontext.htm
 old-project: TSF
 ms.assetid: a35aa7b1-273d-47ff-a705-298393f4abd2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfCleanupContextDurationSink interface [Text Services Framework],OnStartCleanupContext method, ITfCleanupContextDurationSink.OnStartCleanupContext, ITfCleanupContextDurationSink::OnStartCleanupContext, OnStartCleanupContext, OnStartCleanupContext method [Text Services Framework], OnStartCleanupContext method [Text Services Framework],ITfCleanupContextDurationSink interface, _tsf_itfcleanupcontextdurationsink_onstartcleanupcontext_ref, msctf/ITfCleanupContextDurationSink::OnStartCleanupContext, tsf.itfcleanupcontextdurationsink_onstartcleanupcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\DWordToUIntPtr.htm
 old-project: shell
 ms.assetid: d2b762fc-0b23-4815-af1a-5d2bae8899b3
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: DWordToUIntPtr, DWordToUIntPtr function [Windows Shell], ULongToUIntPtr, _shell_DWordToUIntPtr, intsafe/DWordToUIntPtr, shell.DWordToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

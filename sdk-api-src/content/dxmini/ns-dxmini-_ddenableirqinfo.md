@@ -7,7 +7,7 @@ old-location: display\ddenableirqinfo.htm
 old-project: display
 ms.assetid: f6ac3ef8-1afc-4c0f-b24f-34d3d56d62a8
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PDDENABLEIRQINFO, DDENABLEIRQINFO, DDENABLEIRQINFO structure [Display Devices], PDDENABLEIRQINFO, PDDENABLEIRQINFO structure pointer [Display Devices], Video_Structs_8d9ac070-bb9e-4cc4-af09-9e8f7942516f.xml, _DDENABLEIRQINFO, display.ddenableirqinfo, dxmini/DDENABLEIRQINFO, dxmini/PDDENABLEIRQINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

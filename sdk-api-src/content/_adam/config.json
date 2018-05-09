@@ -1,0 +1,6 @@
+{
+  "tech": "adam",
+  "headers": [
+    "ntdsapi.h"
+  ]
+}

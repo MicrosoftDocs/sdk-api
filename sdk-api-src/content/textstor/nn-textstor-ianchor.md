@@ -7,7 +7,7 @@ old-location: tsf\ianchor.htm
 old-project: TSF
 ms.assetid: a7d52959-8386-464f-958d-c870f286b265
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: IAnchor, IAnchor interface [Text Services Framework], IAnchor interface [Text Services Framework],described, textstor/IAnchor, tsf.ianchor
 ms.prod: windows-hardware
 ms.technology: windows-devices

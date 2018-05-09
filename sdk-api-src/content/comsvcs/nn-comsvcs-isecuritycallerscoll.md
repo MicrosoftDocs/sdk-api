@@ -7,7 +7,7 @@ old-location: cos\isecuritycallerscoll.htm
 old-project: cossdk
 ms.assetid: b9b16d2e-92fd-40d2-b33d-8a82a1291794
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: ISecurityCallersColl, ISecurityCallersColl interface [COM+], ISecurityCallersColl interface [COM+],described, _cos_ISecurityCallersColl, comsvcs/ISecurityCallersColl, cos.isecuritycallerscoll
 ms.prod: windows-hardware
 ms.technology: windows-devices

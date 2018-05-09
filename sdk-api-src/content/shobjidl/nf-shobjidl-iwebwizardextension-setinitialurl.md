@@ -7,7 +7,7 @@ old-location: shell\IWebWizardExtension_SetInitialURL.htm
 old-project: shell
 ms.assetid: 3fd0979f-2f45-4281-80df-72a4322ee219
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IWebWizardExtension interface [Windows Shell],SetInitialURL method, IWebWizardExtension.SetInitialURL, IWebWizardExtension::SetInitialURL, SetInitialURL, SetInitialURL method [Windows Shell], SetInitialURL method [Windows Shell],IWebWizardExtension interface, _shell_IWebWizardExtension_SetInitialURL, shell.IWebWizardExtension_SetInitialURL, shobjidl/IWebWizardExtension::SetInitialURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

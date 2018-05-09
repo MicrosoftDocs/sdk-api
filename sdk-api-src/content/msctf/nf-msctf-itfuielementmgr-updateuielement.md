@@ -7,7 +7,7 @@ old-location: tsf\itfuielementmgr_enduielement.htm
 old-project: TSF
 ms.assetid: cec22994-c233-4f84-8237-749ef3cc8aff
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfUIElementMgr interface [Text Services Framework],UpdateUIElement method, ITfUIElementMgr.UpdateUIElement, ITfUIElementMgr::UpdateUIElement, UpdateUIElement, UpdateUIElement method [Text Services Framework], UpdateUIElement method [Text Services Framework],ITfUIElementMgr interface, msctf/ITfUIElementMgr::UpdateUIElement, tsf.itfuielementmgr_enduielement
 ms.prod: windows-hardware
 ms.technology: windows-devices

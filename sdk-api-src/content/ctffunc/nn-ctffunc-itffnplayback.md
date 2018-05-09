@@ -7,7 +7,7 @@ old-location: tsf\itffnplayback.htm
 old-project: TSF
 ms.assetid: e9a0d1a3-70c9-4816-8cd4-f2574392953e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfFnPlayBack, ITfFnPlayBack interface [Text Services Framework], ITfFnPlayBack interface [Text Services Framework],described, _tsf_itffnplayback_ref, ctffunc/ITfFnPlayBack, tsf.itffnplayback
 ms.prod: windows-hardware
 ms.technology: windows-devices

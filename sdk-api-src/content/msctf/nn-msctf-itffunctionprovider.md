@@ -7,7 +7,7 @@ old-location: tsf\itffunctionprovider.htm
 old-project: TSF
 ms.assetid: e63fd561-1157-49b1-a981-e578d9538876
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfFunctionProvider, ITfFunctionProvider interface [Text Services Framework], ITfFunctionProvider interface [Text Services Framework],described, _tsf_itffunctionprovider_ref, msctf/ITfFunctionProvider, tsf.itffunctionprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

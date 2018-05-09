@@ -1,0 +1,8 @@
+{
+  "tech": "tapi2",
+  "headers": [
+    "tapi.h",
+    "tspi.h"
+  ],
+  "displayName": "Telephony Application Programming Interfaces"
+}

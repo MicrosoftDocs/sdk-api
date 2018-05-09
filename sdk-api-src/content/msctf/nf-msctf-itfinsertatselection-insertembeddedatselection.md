@@ -7,7 +7,7 @@ old-location: tsf\itfinsertatselection_insertembeddedatselection.htm
 old-project: TSF
 ms.assetid: 13fa9955-0087-4dd9-8a1d-814ab801e956
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfInsertAtSelection interface [Text Services Framework],InsertEmbeddedAtSelection method, ITfInsertAtSelection.InsertEmbeddedAtSelection, ITfInsertAtSelection::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITfInsertAtSelection interface, _tsf_itfinsertatselection_insertembeddedatselection_ref, msctf/ITfInsertAtSelection::InsertEmbeddedAtSelection, tsf.itfinsertatselection_insertembeddedatselection
 ms.prod: windows-hardware
 ms.technology: windows-devices

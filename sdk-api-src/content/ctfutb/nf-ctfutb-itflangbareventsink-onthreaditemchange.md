@@ -7,7 +7,7 @@ old-location: tsf\itflangbareventsink_onthreaditemchange.htm
 old-project: TSF
 ms.assetid: b59688f9-feb0-4598-bf4a-b0661dda5fad
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnThreadItemChange method, ITfLangBarEventSink.OnThreadItemChange, ITfLangBarEventSink::OnThreadItemChange, OnThreadItemChange, OnThreadItemChange method [Text Services Framework], OnThreadItemChange method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_onthreaditemchange_ref, ctfutb/ITfLangBarEventSink::OnThreadItemChange, tsf.itflangbareventsink_onthreaditemchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

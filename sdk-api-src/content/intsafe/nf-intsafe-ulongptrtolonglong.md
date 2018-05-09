@@ -7,7 +7,7 @@ old-location: shell\DWordPtrToInt64.htm
 old-project: shell
 ms.assetid: 59060455-0c91-4d9b-a124-069680694b8f
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: DWordPtrToInt64, DWordPtrToInt64 function [Windows Shell], ULongPtrToLongLong, _shell_DWordPtrToInt64, intsafe/DWordPtrToInt64, shell.DWordPtrToInt64
 ms.prod: windows-hardware
 ms.technology: windows-devices

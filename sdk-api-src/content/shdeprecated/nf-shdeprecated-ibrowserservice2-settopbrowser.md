@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_SetTopBrowser.htm
 old-project: shell
 ms.assetid: e230d832-c57b-4c4a-8da6-a56bf7fe58c9
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],SetTopBrowser method, IBrowserService2.SetTopBrowser, IBrowserService2::SetTopBrowser, SetTopBrowser, SetTopBrowser method [Windows Shell], SetTopBrowser method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::SetTopBrowser, shell.IBrowserService2_SetTopBrowser, zone_IBrowserService2_SetTopBrowser
 ms.prod: windows-hardware
 ms.technology: windows-devices

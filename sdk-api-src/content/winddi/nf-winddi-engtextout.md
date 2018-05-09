@@ -7,7 +7,7 @@ old-location: display\engtextout.htm
 old-project: display
 ms.assetid: 7891692e-a4e1-401a-99e0-ed8135dc6f1d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: EngTextOut, EngTextOut function [Display Devices], display.engtextout, gdifncs_e383ce94-952d-48e3-a814-afd38822aad2.xml, winddi/EngTextOut
 ms.prod: windows-hardware
 ms.technology: windows-devices

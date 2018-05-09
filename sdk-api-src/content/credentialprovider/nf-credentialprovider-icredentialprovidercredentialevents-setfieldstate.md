@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialEvents_SetFieldState.htm
 old-project: shell
 ms.assetid: d3498bca-cc31-4a80-9f31-e1e6d020d777
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldState method, ICredentialProviderCredentialEvents.SetFieldState, ICredentialProviderCredentialEvents::SetFieldState, SetFieldState, SetFieldState method [Windows Shell], SetFieldState method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldState, credentialprovider/ICredentialProviderCredentialEvents::SetFieldState, shell.ICredentialProviderCredentialEvents_SetFieldState
 ms.prod: windows-hardware
 ms.technology: windows-devices

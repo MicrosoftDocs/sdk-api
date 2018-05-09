@@ -7,7 +7,7 @@ old-location: display\dd_getvportflipstatusdata.htm
 old-project: display
 ms.assetid: 64be9019-a75f-42db-a636-b767f87c1858
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PDD_GETVPORTFLIPSTATUSDATA, DD_GETVPORTFLIPSTATUSDATA, DD_GETVPORTFLIPSTATUSDATA structure [Display Devices], _DD_GETVPORTFLIPSTATUSDATA, ddrawint/DD_GETVPORTFLIPSTATUSDATA, ddstrcts_a1239418-1670-477d-b96e-d21dc2b9647b.xml, display.dd_getvportflipstatusdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

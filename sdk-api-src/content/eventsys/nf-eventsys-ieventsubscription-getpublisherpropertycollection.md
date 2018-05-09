@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_getpublisherpropertycollection.htm
 old-project: cossdk
 ms.assetid: d59b46bc-cfc4-400b-8b91-6d0f68f8d9b3
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: GetPublisherPropertyCollection, GetPublisherPropertyCollection method [COM+], GetPublisherPropertyCollection method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetPublisherPropertyCollection method, IEventSubscription.GetPublisherPropertyCollection, IEventSubscription::GetPublisherPropertyCollection, _cos_IEventSubscription_GetPublisherPropertyCollection, cos.ieventsubscription_getpublisherpropertycollection, eventsys/IEventSubscription::GetPublisherPropertyCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

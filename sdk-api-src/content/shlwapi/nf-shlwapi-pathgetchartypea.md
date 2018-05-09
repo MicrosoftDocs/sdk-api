@@ -7,7 +7,7 @@ old-location: shell\PathGetCharType.htm
 old-project: shell
 ms.assetid: 838a255f-413e-424c-819e-47265224208d
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: PathGetCharType, PathGetCharType function [Windows Shell], PathGetCharTypeA, PathGetCharTypeW, _win32_PathGetCharType, shell.PathGetCharType, shlwapi/PathGetCharType, shlwapi/PathGetCharTypeA, shlwapi/PathGetCharTypeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

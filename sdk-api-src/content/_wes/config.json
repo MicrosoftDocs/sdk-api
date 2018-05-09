@@ -1,0 +1,8 @@
+{
+  "tech": "wes",
+  "headers": [
+    "winerror.h",
+    "winevt.h"
+  ],
+  "displayName": "wes"
+}

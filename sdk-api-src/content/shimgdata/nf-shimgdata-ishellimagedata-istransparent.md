@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_IsTransparent.htm
 old-project: shell
 ms.assetid: 613d2c01-47d5-41c3-8dba-5b1e1feabdf3
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsTransparent method, IShellImageData.IsTransparent, IShellImageData::IsTransparent, IsTransparent, IsTransparent method [Windows Shell], IsTransparent method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsTransparent, shell.IShellImageData_IsTransparent, shimgdata/IShellImageData::IsTransparent
 ms.prod: windows-hardware
 ms.technology: windows-devices

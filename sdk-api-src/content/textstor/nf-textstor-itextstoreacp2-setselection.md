@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp2_setselection.htm
 old-project: TSF
 ms.assetid: 0ed72ddd-523e-476a-ba4c-bbfef9483015
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],SetSelection method, ITextStoreACP2.SetSelection, ITextStoreACP2::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::SetSelection, tsf.itextstoreacp2_setselection
 ms.prod: windows-hardware
 ms.technology: windows-devices

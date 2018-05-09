@@ -1,0 +1,8 @@
+{
+  "tech": "axe",
+  "headers": [
+    "axeruntime.h",
+    "axecore.h",
+    "axehosting.h"
+  ]
+}

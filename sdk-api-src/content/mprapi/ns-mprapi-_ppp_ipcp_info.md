@@ -7,7 +7,7 @@ old-location: rras\ppp_ipcp_info.htm
 old-project: RRAS
 ms.assetid: c77f54d2-eac4-4e0a-92c5-c46d521a272d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: PPP_IPCP_INFO, PPP_IPCP_INFO structure [RAS], _PPP_IPCP_INFO, _mpr_ppp_ipcp_info, mprapi/PPP_IPCP_INFO, rras.ppp_ipcp_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

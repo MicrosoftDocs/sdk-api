@@ -7,7 +7,7 @@ old-location: security\sslcrackcertificate.htm
 old-project: SecAuthN
 ms.assetid: e5ffeebb-0b09-4f0a-b2dc-75fb2a3af7ed
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: SslCrackCertificate, SslCrackCertificate function [Security], schannel/SslCrackCertificate, security.sslcrackcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

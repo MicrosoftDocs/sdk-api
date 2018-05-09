@@ -7,7 +7,7 @@ old-location: shell\IVisualProperties_SetItemHeight.htm
 old-project: shell
 ms.assetid: ebd00a98-ea2b-4024-b911-7120d8307b54
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetItemHeight method, IVisualProperties.SetItemHeight, IVisualProperties::SetItemHeight, SetItemHeight, SetItemHeight method [Windows Shell], SetItemHeight method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetItemHeight, shell.IVisualProperties_SetItemHeight, shobjidl/IVisualProperties::SetItemHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices

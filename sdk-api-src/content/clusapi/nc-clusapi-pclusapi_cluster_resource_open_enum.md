@@ -7,7 +7,7 @@ old-location: mscs\clusterresourceopenenum.htm
 old-project: MsCS
 ms.assetid: f801401f-f49d-41de-b88b-b832330eeccf
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: CLUSTER_RESOURCE_ENUM_DEPENDS, CLUSTER_RESOURCE_ENUM_NODES, CLUSTER_RESOURCE_ENUM_PROVIDES, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM callback, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM callback function [Failover Cluster], _wolf_clusterresourceopenenum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM, mscs.clusterresourceopenenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

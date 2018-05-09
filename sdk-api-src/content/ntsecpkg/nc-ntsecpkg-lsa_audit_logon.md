@@ -7,7 +7,7 @@ old-location: security\auditlogon.htm
 old-project: SecAuthN
 ms.assetid: 1b0316ae-0c09-4a7e-8443-e59b4db9e825
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: AuditLogon, AuditLogon function [Security], LSA_AUDIT_LOGON, _ssp_auditlogon, ntsecpkg/AuditLogon, security.auditlogon
 ms.prod: windows-hardware
 ms.technology: windows-devices

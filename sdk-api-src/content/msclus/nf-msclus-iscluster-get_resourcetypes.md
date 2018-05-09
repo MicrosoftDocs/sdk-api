@@ -7,7 +7,7 @@ old-location: mscs\cluster_resourcetypes.htm
 old-project: MsCS
 ms.assetid: 73a9ca85-0da2-4978-965a-47bdee4ded6c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: Cluster object [Failover Cluster],ResourceTypes property, Cluster.ResourceTypes, ISCluster.get_ResourceTypes, ISCluster::get_ResourceTypes, ResourceTypes property [Failover Cluster], ResourceTypes property [Failover Cluster],Cluster object, _wolf_cluster.resourcetypes, get_ResourceTypes, mscs.cluster_resourcetypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

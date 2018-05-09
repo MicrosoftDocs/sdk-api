@@ -7,7 +7,7 @@ old-location: tsf\itfcontextcomposition.htm
 old-project: TSF
 ms.assetid: cf02c50c-dca8-47ad-b8ff-0fa3884db674
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfContextComposition, ITfContextComposition interface [Text Services Framework], ITfContextComposition interface [Text Services Framework],described, _tsf_itfcontextcomposition_ref, msctf/ITfContextComposition, tsf.itfcontextcomposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

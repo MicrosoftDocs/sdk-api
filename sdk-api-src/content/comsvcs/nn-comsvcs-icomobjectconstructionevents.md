@@ -7,7 +7,7 @@ old-location: cos\icomobjectconstructionevents.htm
 old-project: cossdk
 ms.assetid: c5fdb9b1-937e-43cb-93ff-e90f8c268fee
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IComObjectConstructionEvents, IComObjectConstructionEvents interface [COM+], IComObjectConstructionEvents interface [COM+],described, _dtc_IComObjectConstructionEvents, comsvcs/IComObjectConstructionEvents, cos.icomobjectconstructionevents
 ms.prod: windows-hardware
 ms.technology: windows-devices

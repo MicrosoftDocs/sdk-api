@@ -7,7 +7,7 @@ old-location: mscs\createcluster.htm
 old-project: MsCS
 ms.assetid: 672a1573-63e5-4321-a049-25bdafc1b5e0
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_CREATE_CLUSTER, PCLUSAPI_CREATE_CLUSTER callback, PCLUSAPI_CREATE_CLUSTER callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER, mscs.createcluster
 ms.prod: windows-hardware
 ms.technology: windows-devices

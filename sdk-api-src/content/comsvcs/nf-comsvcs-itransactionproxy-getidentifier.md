@@ -7,7 +7,7 @@ old-location: cos\itransactionproxy_getidentifier.htm
 old-project: cossdk
 ms.assetid: 8045989b-7b66-4340-a06e-4b4102d09784
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: GetIdentifier, GetIdentifier method [COM+], GetIdentifier method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],GetIdentifier method, ITransactionProxy.GetIdentifier, ITransactionProxy::GetIdentifier, comsvcs/ITransactionProxy::GetIdentifier, cos.itransactionproxy_getidentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

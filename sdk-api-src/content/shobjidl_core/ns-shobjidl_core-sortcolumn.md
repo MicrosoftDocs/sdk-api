@@ -7,7 +7,7 @@ old-location: shell\SORTCOLUMN.htm
 old-project: shell
 ms.assetid: 3ca4c318-6462-4e22-813c-ef7b3ef03230
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SORTCOLUMN, SORTCOLUMN structure [Windows Shell], SORT_ASCENDING, SORT_DESCENDING, _shell_SORTCOLUMN, shell.SORTCOLUMN, shobjidl_core/SORTCOLUMN
 ms.prod: windows-hardware
 ms.technology: windows-devices

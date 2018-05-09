@@ -7,7 +7,7 @@ old-location: display\ddlockout.htm
 old-project: display
 ms.assetid: b6046c49-828d-4b92-aab7-e872e1905929
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*LPDDLOCKOUT, DDLOCKOUT, DDLOCKOUT structure [Display Devices], LPDDLOCKOUT, LPDDLOCKOUT structure pointer [Display Devices], _DDLOCKOUT, ddkmapi/DDLOCKOUT, ddkmapi/LPDDLOCKOUT, ddstrcts_7125d1f6-8fc5-460b-bc11-089053f77b83.xml, display.ddlockout"
 ms.prod: windows-hardware
 ms.technology: windows-devices

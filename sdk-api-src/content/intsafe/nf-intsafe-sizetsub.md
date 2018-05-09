@@ -7,7 +7,7 @@ old-location: shell\SizeTSub.htm
 old-project: shell
 ms.assetid: 6a7b22e7-504b-4065-80fa-b972f0360b5c
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SizeTSub, SizeTSub function [Windows Shell], _shell_SizeTSub, intsafe/SizeTSub, shell.SizeTSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

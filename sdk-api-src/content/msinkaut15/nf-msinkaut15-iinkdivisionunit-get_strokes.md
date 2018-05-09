@@ -7,7 +7,7 @@ old-location: tablet\iinkdivisionunit_strokes.htm
 old-project: tablet
 ms.assetid: 505df3d7-740e-46fc-a942-2820b3428564
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: IInkDivisionUnit interface [Tablet PC],Strokes property, IInkDivisionUnit.Strokes, IInkDivisionUnit.get_Strokes, IInkDivisionUnit::Strokes, IInkDivisionUnit::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkDivisionUnit interface, get_Strokes, msinkaut15/IInkDivisionUnit::Strokes, msinkaut15/IInkDivisionUnit::get_Strokes, tablet.iinkdivisionunit_strokes
 ms.prod: windows-hardware
 ms.technology: windows-devices

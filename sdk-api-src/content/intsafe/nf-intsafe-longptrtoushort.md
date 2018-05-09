@@ -7,7 +7,7 @@ old-location: shell\LongPtrToUShort.htm
 old-project: shell
 ms.assetid: d20be0c8-f228-4fed-847b-d28d99ade476
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: LongPtrToUShort, LongPtrToUShort function [Windows Shell], intsafe/LongPtrToUShort, shell.LongPtrToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ILGetSize.htm
 old-project: shell
 ms.assetid: 099d4139-b0ea-42b7-991b-ee04e40994c6
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ILGetSize, ILGetSize function [Windows Shell], _win32_ILGetSize, shell.ILGetSize, shlobj_core/ILGetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

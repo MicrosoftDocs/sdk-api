@@ -7,7 +7,7 @@ old-location: shell\SHInvokePrinterCommand.htm
 old-project: shell
 ms.assetid: 32a5802f-cef7-4dbd-affd-82285fe97a8c
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: PRINTACTION_DOCUMENTDEFAULTS, PRINTACTION_NETINSTALL, PRINTACTION_NETINSTALLLINK, PRINTACTION_OPEN, PRINTACTION_OPENNETPRN, PRINTACTION_PROPERTIES, PRINTACTION_SERVERPROPERTIES, PRINTACTION_TESTPAGE, SHInvokePrinterCommand, SHInvokePrinterCommand function [Windows Shell], SHInvokePrinterCommandA, SHInvokePrinterCommandW, _win32_SHInvokePrinterCommand, shell.SHInvokePrinterCommand, shellapi/SHInvokePrinterCommand, shellapi/SHInvokePrinterCommandA, shellapi/SHInvokePrinterCommandW
 ms.prod: windows-hardware
 ms.technology: windows-devices

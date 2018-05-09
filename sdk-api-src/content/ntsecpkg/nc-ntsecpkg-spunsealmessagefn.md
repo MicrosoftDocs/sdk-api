@@ -7,7 +7,7 @@ old-location: security\spunsealmessage.htm
 old-project: SecAuthN
 ms.assetid: 3ece6f30-bb8b-4fad-a8c4-9088c134cf25
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: SpUnsealMessage, SpUnsealMessage function [Security], SpUnsealMessageFn, _ssp_spunsealmessage, ntsecpkg/SpUnsealMessage, security.spunsealmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

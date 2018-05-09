@@ -7,7 +7,7 @@ old-location: mscs\resutilgetszproperty.htm
 old-project: MsCS
 ms.assetid: 0f485910-e691-48fa-a96b-79573ce60616
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PRESUTIL_GET_SZ_PROPERTY, PRESUTIL_GET_SZ_PROPERTY callback, PRESUTIL_GET_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilgetszproperty, mscs.resutilgetszproperty, resapi/PRESUTIL_GET_SZ_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices

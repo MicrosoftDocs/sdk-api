@@ -7,7 +7,7 @@ old-location: shell\IStartMenuPinnedList.htm
 old-project: shell
 ms.assetid: e1f4dbdb-34c0-4bf5-bb8b-a622a81c1617
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IStartMenuPinnedList, IStartMenuPinnedList interface [Windows Shell], IStartMenuPinnedList interface [Windows Shell],described, _shell_IStartMenuPinnedList, shell.IStartMenuPinnedList, shobjidl/IStartMenuPinnedList
 ms.prod: windows-hardware
 ms.technology: windows-devices

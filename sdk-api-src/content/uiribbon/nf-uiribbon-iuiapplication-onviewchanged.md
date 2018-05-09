@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiapplication_onviewchanged.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\onviewchanged.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/7/2018
 ms.keywords: IUIApplication interface [Windows Ribbon],OnViewChanged method, IUIApplication.OnViewChanged, IUIApplication::OnViewChanged, OnViewChanged, OnViewChanged method [Windows Ribbon], OnViewChanged method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnViewChanged, uiribbon/IUIApplication::OnViewChanged, windowsribbon.windowsribbon_iuiapplication_onviewchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

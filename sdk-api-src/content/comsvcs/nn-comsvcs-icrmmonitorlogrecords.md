@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorlogrecords.htm
 old-project: cossdk
 ms.assetid: 5077ad2a-89c1-43f7-a7e0-7bd8036147b6
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: ICrmMonitorLogRecords, ICrmMonitorLogRecords interface [COM+], ICrmMonitorLogRecords interface [COM+],described, _dtc_ICrmMonitorLogRecords_Interface, comsvcs/ICrmMonitorLogRecords, cos.icrmmonitorlogrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

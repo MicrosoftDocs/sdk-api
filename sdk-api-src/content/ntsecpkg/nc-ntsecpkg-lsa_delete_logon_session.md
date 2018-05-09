@@ -7,7 +7,7 @@ old-location: security\deletelogonsession.htm
 old-project: SecAuthN
 ms.assetid: 72b9451c-8a94-4e64-bd78-0afef210671c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: DeleteLogonSession, DeleteLogonSession function [Security], LSA_DELETE_LOGON_SESSION, _lsa_deletelogonsession, ntsecpkg/DeleteLogonSession, security.deletelogonsession
 ms.prod: windows-hardware
 ms.technology: windows-devices

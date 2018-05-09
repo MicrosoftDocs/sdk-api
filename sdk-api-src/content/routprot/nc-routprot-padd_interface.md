@@ -7,7 +7,7 @@ old-location: rras\addinterface.htm
 old-project: RRAS
 ms.assetid: d2a90d20-7a1f-4301-adab-76224a4f8310
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: AddInterface, AddInterface callback function [RAS], DEMAND_DIAL, LOCAL_WORKSTATION_DIAL, PADD_INTERFACE, PADD_INTERFACE callback, PERMANENT, REMOTE_WORKSTATION_DIAL, _mpr_addinterface, routprot/AddInterface, rras.addinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

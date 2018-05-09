@@ -7,7 +7,7 @@ old-location: tsf\itfkeystrokemgr_advisekeyeventsink.htm
 old-project: TSF
 ms.assetid: dfda786a-09f5-412c-878d-0ba0cbbdafe0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: AdviseKeyEventSink, AdviseKeyEventSink method [Text Services Framework], AdviseKeyEventSink method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],AdviseKeyEventSink method, ITfKeystrokeMgr.AdviseKeyEventSink, ITfKeystrokeMgr::AdviseKeyEventSink, _tsf_itfkeystrokemgr_advisekeyeventsink_ref, msctf/ITfKeystrokeMgr::AdviseKeyEventSink, tsf.itfkeystrokemgr_advisekeyeventsink
 ms.prod: windows-hardware
 ms.technology: windows-devices

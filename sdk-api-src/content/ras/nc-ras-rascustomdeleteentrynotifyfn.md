@@ -7,7 +7,7 @@ old-location: rras\rascustomdeleteentrynotify.htm
 old-project: RRAS
 ms.assetid: bbdaff05-ec86-461a-b466-8f69cb9cba5a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: RCD_AllUsers, RCD_Eap, RCD_Logon, RCD_SingleUser, RasCustomDeleteEntryNotify, RasCustomDeleteEntryNotify callback function [RAS], RasCustomDeleteEntryNotifyFn, RasCustomDeleteEntryNotifyFn callback, _ras_rascustomdeleteentrynotify, ras/RasCustomDeleteEntryNotify, rras.rascustomdeleteentrynotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_ShowControlWindow.htm
 old-project: shell
 ms.assetid: 11ded544-6fba-41a5-bc61-222467fdbc05
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: FALSE, FCW_INTERNETBAR, FCW_PROGRESS, FCW_STATUS, FCW_TOOLBAR, FCW_TREE, IBrowserService interface [Windows Shell],ShowControlWindow method, IBrowserService.ShowControlWindow, IBrowserService::ShowControlWindow, ShowControlWindow, ShowControlWindow method [Windows Shell], ShowControlWindow method [Windows Shell],IBrowserService interface, TRUE, shdeprecated/IBrowserService::ShowControlWindow, shell.IBrowserService_ShowControlWindow, zone_IBrowserService_ShowControlWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

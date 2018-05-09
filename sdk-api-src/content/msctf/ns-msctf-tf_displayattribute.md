@@ -7,7 +7,7 @@ old-location: tsf\tf_displayattribute.htm
 old-project: TSF
 ms.assetid: 29faaa22-ea03-4a2e-a035-7979e2a89fc9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: TF_DISPLAYATTRIBUTE, TF_DISPLAYATTRIBUTE structure [Text Services Framework], _tsf_tf_displayattribute_ref, msctf/TF_DISPLAYATTRIBUTE, tsf.tf_displayattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\mpradminconnectionremovequarantine.htm
 old-project: RRAS
 ms.assetid: 9d8c33b4-4227-4538-bc0e-f663d1d560f1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MprAdminConnectionRemoveQuarantine, MprAdminConnectionRemoveQuarantine function [RAS], _mpr_mpradminconnectionremovequarantine, mprapi/MprAdminConnectionRemoveQuarantine, rras.mpradminconnectionremovequarantine
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\mgmtakeinterfaceownership.htm
 old-project: RRAS
 ms.assetid: b072c884-0b84-4dd9-a14c-185f5d327017
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MgmTakeInterfaceOwnership, MgmTakeInterfaceOwnership function [RAS], _mpr_mgmtakeinterfaceownership, mgm/MgmTakeInterfaceOwnership, rras.mgmtakeinterfaceownership
 ms.prod: windows-hardware
 ms.technology: windows-devices

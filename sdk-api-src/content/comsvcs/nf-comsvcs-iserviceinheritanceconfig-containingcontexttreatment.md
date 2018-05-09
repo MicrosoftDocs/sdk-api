@@ -7,7 +7,7 @@ old-location: cos\iserviceinheritanceconfig_containingcontexttreatment.htm
 old-project: cossdk
 ms.assetid: 05009c50-1d39-46f7-b549-281342d07f5b
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: ContainingContextTreatment, ContainingContextTreatment method [COM+], ContainingContextTreatment method [COM+],IServiceInheritanceConfig interface, IServiceInheritanceConfig interface [COM+],ContainingContextTreatment method, IServiceInheritanceConfig.ContainingContextTreatment, IServiceInheritanceConfig::ContainingContextTreatment, _cos_IServiceInheritanceConfig_ContainingContextTreatment, comsvcs/IServiceInheritanceConfig::ContainingContextTreatment, cos.iserviceinheritanceconfig_containingcontexttreatment
 ms.prod: windows-hardware
 ms.technology: windows-devices

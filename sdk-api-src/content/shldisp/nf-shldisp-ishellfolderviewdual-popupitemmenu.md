@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual_PopupItemMenu.htm
 old-project: shell
 ms.assetid: f44e91b7-b651-4b6f-9583-cd9335ae6369
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],PopupItemMenu method, IShellFolderViewDual.PopupItemMenu, IShellFolderViewDual::PopupItemMenu, PopupItemMenu, PopupItemMenu method [Windows Shell], PopupItemMenu method [Windows Shell],IShellFolderViewDual interface, _shell_IShellFolderViewDual_PopupItemMenu, shell.IShellFolderViewDual_PopupItemMenu, shldisp/IShellFolderViewDual::PopupItemMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

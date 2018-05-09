@@ -7,7 +7,7 @@ old-location: display\floatobj_sublong.htm
 old-project: display
 ms.assetid: 2a3e8a17-3718-4212-adfe-f109e286bec6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: FLOATOBJ_SubLong, FLOATOBJ_SubLong function [Display Devices], display.floatobj_sublong, gdifncs_8b50c7a1-6ed7-4368-8465-5b1b1e7f4c48.xml, winddi/FLOATOBJ_SubLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

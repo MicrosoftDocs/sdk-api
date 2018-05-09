@@ -7,7 +7,7 @@ old-location: security\crediread.htm
 old-project: SecAuthN
 ms.assetid: b6abfde9-74ac-4af0-b8ab-4f6be937f17f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: CREDP_FLAGS_CLEAR_PASSWORD, CREDP_FLAGS_DONT_CACHE_TI, CREDP_FLAGS_IN_PROCESS, CREDP_FLAGS_TRUSTED_CALLER, CREDP_FLAGS_USER_ENCRYPTED_PASSWORD, CREDP_FLAGS_USE_MIDL_HEAP, CredReadFn, CrediRead, CrediRead function [Security], ntsecpkg/CrediRead, security.crediread
 ms.prod: windows-hardware
 ms.technology: windows-devices

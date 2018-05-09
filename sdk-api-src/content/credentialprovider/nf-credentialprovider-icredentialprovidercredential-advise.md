@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_Advise.htm
 old-project: shell
 ms.assetid: 26db5ec5-78bf-4d88-90af-c822c8d3ce45
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],Advise method, ICredentialProviderCredential.Advise, ICredentialProviderCredential::Advise, credentialprovider/ICredentialProviderCredential::Advise, shell.ICredentialProviderCredential_Advise, shell_ICredentialProviderCredential_Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

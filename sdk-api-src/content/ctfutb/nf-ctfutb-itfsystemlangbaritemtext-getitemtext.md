@@ -7,7 +7,7 @@ old-location: tsf\itfsystemlangbaritemtext_getitemtext.htm
 old-project: TSF
 ms.assetid: eec4486e-c4fd-484f-bbd7-9f2ee974459b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: GetItemText, GetItemText method [Text Services Framework], GetItemText method [Text Services Framework],ITfSystemLangBarItemText interface, ITfSystemLangBarItemText interface [Text Services Framework],GetItemText method, ITfSystemLangBarItemText.GetItemText, ITfSystemLangBarItemText::GetItemText, ctfutb/ITfSystemLangBarItemText::GetItemText, tsf.itfsystemlangbaritemtext_getitemtext
 ms.prod: windows-hardware
 ms.technology: windows-devices

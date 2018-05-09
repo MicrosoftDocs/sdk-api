@@ -7,7 +7,7 @@ old-location: security\closesamuser.htm
 old-project: SecAuthN
 ms.assetid: 1e56e38e-ba8f-4781-80f1-e60bd33250e4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: CloseSamUser, CloseSamUser function [Security], LSA_CLOSE_SAM_USER, _ssp_closesamuser, ntsecpkg/CloseSamUser, security.closesamuser
 ms.prod: windows-hardware
 ms.technology: windows-devices

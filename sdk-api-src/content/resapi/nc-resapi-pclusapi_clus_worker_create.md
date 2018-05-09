@@ -7,7 +7,7 @@ old-location: mscs\clusworkercreate.htm
 old-project: MsCS
 ms.assetid: a7e8f8ad-c9de-4c6b-8926-b9a46d85924d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_CLUS_WORKER_CREATE, PCLUSAPI_CLUS_WORKER_CREATE callback, PCLUSAPI_CLUS_WORKER_CREATE callback function [Failover Cluster], _wolf_clusworkercreate, mscs.clusworkercreate, resapi/PCLUSAPI_CLUS_WORKER_CREATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

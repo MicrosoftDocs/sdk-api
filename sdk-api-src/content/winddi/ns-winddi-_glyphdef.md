@@ -7,7 +7,7 @@ old-location: display\glyphdef.htm
 old-project: display
 ms.assetid: d1a7a02c-acaf-46b5-9ffe-fddbb01408a5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: GLYPHDEF, GLYPHDEF union [Display Devices], _GLYPHDEF, display.glyphdef, grstrcts_d3283f02-3635-482d-a65a-b92f0a91aa54.xml, winddi/GLYPHDEF
 ms.prod: windows-hardware
 ms.technology: windows-devices

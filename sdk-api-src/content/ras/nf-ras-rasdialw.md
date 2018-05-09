@@ -7,7 +7,7 @@ old-location: rras\rasdial.htm
 old-project: RRAS
 ms.assetid: 579a9038-8216-4948-a065-fd45b97da73a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: 0, 1, 2, RasDial, RasDial function [RAS], RasDialA, RasDialW, _ras_rasdial, ras/RasDial, ras/RasDialA, ras/RasDialW, rras.rasdial
 ms.prod: windows-hardware
 ms.technology: windows-devices

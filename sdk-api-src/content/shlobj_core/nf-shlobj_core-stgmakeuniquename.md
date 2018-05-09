@@ -7,7 +7,7 @@ old-location: shell\StgMakeUniqueName.htm
 old-project: shell
 ms.assetid: d45ec25c-359b-46f8-b0f6-5888525c7349
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: StgMakeUniqueName, StgMakeUniqueName function [Windows Shell], _shell_StgMakeUniqueName, shell.StgMakeUniqueName, shlobj_core/StgMakeUniqueName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\engerasesurface.htm
 old-project: display
 ms.assetid: 3dace2e1-2a6b-42e5-a556-a3952cf4786c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: EngEraseSurface, EngEraseSurface function [Display Devices], display.engerasesurface, gdifncs_49673ad2-d8a0-4c8b-bf0f-c1fab9f3c519.xml, winddi/EngEraseSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

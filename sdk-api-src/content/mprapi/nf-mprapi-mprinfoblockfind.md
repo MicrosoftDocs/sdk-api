@@ -7,7 +7,7 @@ old-location: rras\mprinfoblockfind.htm
 old-project: RRAS
 ms.assetid: fd9a048b-03fb-4fe9-9f72-df07b35dd804
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MprInfoBlockFind, MprInfoBlockFind function [RAS], _mpr_mprinfoblockfind, mprapi/MprInfoBlockFind, rras.mprinfoblockfind
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dd_getvportsignaldata.htm
 old-project: display
 ms.assetid: 33db5ce5-534b-4e66-853b-5e60892f544b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PDD_GETVPORTSIGNALDATA, DD_GETVPORTSIGNALDATA, DD_GETVPORTSIGNALDATA structure [Display Devices], _DD_GETVPORTSIGNALDATA, ddrawint/DD_GETVPORTSIGNALDATA, ddstrcts_4079ddf7-58a7-46ef-b11a-858bbd486333.xml, display.dd_getvportsignaldata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

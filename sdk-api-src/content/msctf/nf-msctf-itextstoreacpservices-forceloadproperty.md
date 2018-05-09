@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpservices_forceloadproperty.htm
 old-project: TSF
 ms.assetid: 6792ccc0-7bbd-479c-9f24-a283ce03c7fe
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ForceLoadProperty, ForceLoadProperty method [Text Services Framework], ForceLoadProperty method [Text Services Framework],ITextStoreACPServices interface, ITextStoreACPServices interface [Text Services Framework],ForceLoadProperty method, ITextStoreACPServices.ForceLoadProperty, ITextStoreACPServices::ForceLoadProperty, _tsf_itextstoreacpservices_forceloadproperty_ref, msctf/ITextStoreACPServices::ForceLoadProperty, tsf.itextstoreacpservices_forceloadproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

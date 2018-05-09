@@ -7,7 +7,7 @@ old-location: security\impersonatesecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: 167eaf3b-b794-4587-946d-fa596f1f9411
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: ImpersonateSecurityContext, ImpersonateSecurityContext function [Security], _ssp_impersonatesecuritycontext, security.impersonatesecuritycontext, sspi/ImpersonateSecurityContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

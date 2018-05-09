@@ -7,7 +7,7 @@ old-location: tablet\igesturerecognizer_enablegestures.htm
 old-project: tablet
 ms.assetid: 59d39c2c-1c92-4325-b534-36b97a7df20f
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: 59d39c2c-1c92-4325-b534-36b97a7df20f, EnableGestures, EnableGestures method [Tablet PC], EnableGestures method [Tablet PC],IGestureRecognizer interface, IGestureRecognizer interface [Tablet PC],EnableGestures method, IGestureRecognizer.EnableGestures, IGestureRecognizer::EnableGestures, rtscom/IGestureRecognizer::EnableGestures, tablet.igesturerecognizer_enablegestures
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dd_attachlist.htm
 old-project: display
 ms.assetid: d79b9277-ef71-4ef8-804c-d5bc8f772d0f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PDD_ATTACHLIST, DD_ATTACHLIST, DD_ATTACHLIST structure [Display Devices], _DD_ATTACHLIST, ddrawint/DD_ATTACHLIST, ddstrcts_3c38acaf-5568-4af1-ae84-a6f4752b2a02.xml, display.dd_attachlist"
 ms.prod: windows-hardware
 ms.technology: windows-devices

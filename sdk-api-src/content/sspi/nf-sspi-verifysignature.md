@@ -7,7 +7,7 @@ old-location: security\verifysignature.htm
 old-project: SecAuthN
 ms.assetid: bebeef92-1d6e-4879-846f-12d706db0653
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: VerifySignature, VerifySignature function [Security], _ssp_verifysignature, security.verifysignature, sspi/VerifySignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

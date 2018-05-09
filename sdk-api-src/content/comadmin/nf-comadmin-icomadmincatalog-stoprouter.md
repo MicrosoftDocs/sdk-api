@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_stoprouter.htm
 old-project: cossdk
 ms.assetid: 23b0e4af-bdab-4f58-b3ab-82aab5516b48
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],StopRouter method, ICOMAdminCatalog.StopRouter, ICOMAdminCatalog::StopRouter, StopRouter, StopRouter method [COM+], StopRouter method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_StopRouter, comadmin/ICOMAdminCatalog::StopRouter, cos.icomadmincatalog_stoprouter
 ms.prod: windows-hardware
 ms.technology: windows-devices

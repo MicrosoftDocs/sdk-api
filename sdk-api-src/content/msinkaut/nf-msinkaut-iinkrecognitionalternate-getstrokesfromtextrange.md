@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_getstrokesfromtextrange.htm
 old-project: tablet
 ms.assetid: 7dd8fa24-191f-465d-abd2-9a489df0324a
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: 7dd8fa24-191f-465d-abd2-9a489df0324a, GetStrokesFromTextRange, GetStrokesFromTextRange method [Tablet PC], GetStrokesFromTextRange method [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],GetStrokesFromTextRange method, IInkRecognitionAlternate.GetStrokesFromTextRange, IInkRecognitionAlternate::GetStrokesFromTextRange, msinkaut/IInkRecognitionAlternate::GetStrokesFromTextRange, tablet.iinkrecognitionalternate_getstrokesfromtextrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

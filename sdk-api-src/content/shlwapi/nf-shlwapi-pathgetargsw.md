@@ -7,7 +7,7 @@ old-location: shell\PathGetArgs.htm
 old-project: shell
 ms.assetid: 17dfb601-1306-41b6-a504-8bf69ff204c9
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: PathGetArgs, PathGetArgs function [Windows Shell], PathGetArgsA, PathGetArgsW, _win32_PathGetArgs, shell.PathGetArgs, shlwapi/PathGetArgs, shlwapi/PathGetArgsA, shlwapi/PathGetArgsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

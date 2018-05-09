@@ -7,7 +7,7 @@ old-location: shell\IShellApp_IsInstalled.htm
 old-project: shell
 ms.assetid: 338ba632-5749-4850-b982-2247f0d0dcc5
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IShellApp interface [Windows Shell],IsInstalled method, IShellApp.IsInstalled, IShellApp::IsInstalled, IsInstalled, IsInstalled method [Windows Shell], IsInstalled method [Windows Shell],IShellApp interface, inet_IShellApp_IsInstalled, shappmgr/IShellApp::IsInstalled, shell.IShellApp_IsInstalled
 ms.prod: windows-hardware
 ms.technology: windows-devices

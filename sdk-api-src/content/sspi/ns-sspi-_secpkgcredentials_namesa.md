@@ -7,7 +7,7 @@ old-location: security\secpkgcredentials_names.htm
 old-project: SecAuthN
 ms.assetid: 38123a10-72a4-46eb-974b-3c01142dfc74
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PSecPkgCredentials_NamesA, PSecPkgCredentials_Names, PSecPkgCredentials_Names structure pointer [Security], SecPkgCredentials_Names, SecPkgCredentials_Names structure [Security], SecPkgCredentials_NamesA, SecPkgCredentials_NamesW, _SecPkgCredentials_NamesA, _ssp_secpkgcredentials_names, security.secpkgcredentials_names, sspi/PSecPkgCredentials_Names, sspi/SecPkgCredentials_Names, sspi/SecPkgCredentials_NamesA, sspi/SecPkgCredentials_NamesW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

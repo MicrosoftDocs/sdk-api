@@ -7,7 +7,7 @@ old-location: mscs\removeclusterresourcedependency.htm
 old-project: MsCS
 ms.assetid: 3640ad8d-db0d-4e55-bff0-35fb5d26776f
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY, PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY callback, PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY callback function [Failover Cluster], _wolf_removeclusterresourcedependency, clusapi/PCLUSAPI_REMOVE_CLUSTER_RESOURCE_DEPENDENCY, mscs.removeclusterresourcedependency
 ms.prod: windows-hardware
 ms.technology: windows-devices

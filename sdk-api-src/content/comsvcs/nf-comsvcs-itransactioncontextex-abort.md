@@ -7,7 +7,7 @@ old-location: cos\itransactioncontextex_abort.htm
 old-project: cossdk
 ms.assetid: 78f9169f-ecb3-4774-bd28-b1ba83c0838c
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionContextEx interface, ITransactionContextEx interface [COM+],Abort method, ITransactionContextEx.Abort, ITransactionContextEx::Abort, _cos_ITransactionContextEx_Abort, comsvcs/ITransactionContextEx::Abort, cos.itransactioncontextex_abort
 ms.prod: windows-hardware
 ms.technology: windows-devices

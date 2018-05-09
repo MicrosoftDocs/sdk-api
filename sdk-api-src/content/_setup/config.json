@@ -1,0 +1,23 @@
+{
+  "tech": "setup",
+  "headers": [
+    "photoacquire.h",
+    "setupapi.h",
+    "winbase.h",
+    "winnt.h",
+    "evalcom2.h",
+    "mergemod.h",
+    "advpub.h",
+    "certview.h",
+    "windows.storage.h",
+    "oemupgex.h",
+    "instance.h",
+    "msi.h",
+    "msiquery.h",
+    "winsxs.h",
+    "winbase.inl",
+    "sfcfiles.h",
+    "sfc.h"
+  ],
+  "displayName": "Setup API"
+}

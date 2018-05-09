@@ -7,7 +7,7 @@ old-location: tsf\tf_lmlattelement.htm
 old-project: TSF
 ms.assetid: 55cc631f-c9ab-4ca8-ab5b-43e8a2e88fc9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: TF_LMLATTELEMENT, TF_LMLATTELEMENT structure [Text Services Framework], _tsf_tf_lmlattelement_ref, ctffunc/TF_LMLATTELEMENT, tsf.tf_lmlattelement
 ms.prod: windows-hardware
 ms.technology: windows-devices

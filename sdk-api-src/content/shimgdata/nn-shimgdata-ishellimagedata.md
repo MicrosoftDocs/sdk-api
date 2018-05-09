@@ -7,7 +7,7 @@ old-location: shell\IShellImageData.htm
 old-project: shell
 ms.assetid: 935e651c-4dcd-4317-847e-34adf656035c
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IShellImageData interface [Windows Shell],described, _shell_IShellImageData, shell.IShellImageData, shimgdata/IShellImageData
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\lsasetforesttrustinformation.htm
 old-project: SecAuthN
 ms.assetid: 8b0f90ed-7dd4-4803-97c6-31d191b6d2b3
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: LsaSetForestTrustInformation, LsaSetForestTrustInformation function [Security], ntsecapi/LsaSetForestTrustInformation, security.lsasetforesttrustinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

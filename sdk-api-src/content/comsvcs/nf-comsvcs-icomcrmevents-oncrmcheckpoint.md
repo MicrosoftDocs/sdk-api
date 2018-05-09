@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents_oncrmcheckpoint.htm
 old-project: cossdk
 ms.assetid: f1a91d24-0a78-4d4f-a686-817d0609e2b1
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMCheckpoint method, IComCRMEvents.OnCRMCheckpoint, IComCRMEvents::OnCRMCheckpoint, OnCRMCheckpoint, OnCRMCheckpoint method [COM+], OnCRMCheckpoint method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMCheckpoint, comsvcs/IComCRMEvents::OnCRMCheckpoint, cos.icomcrmevents_oncrmcheckpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

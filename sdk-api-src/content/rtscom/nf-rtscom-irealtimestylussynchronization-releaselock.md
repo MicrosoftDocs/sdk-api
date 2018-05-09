@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylussynchronization_releaselock.htm
 old-project: tablet
 ms.assetid: 13970fda-7b2a-4fb7-9403-8d9aad39d83a
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: 13970fda-7b2a-4fb7-9403-8d9aad39d83a, IRealTimeStylusSynchronization interface [Tablet PC],ReleaseLock method, IRealTimeStylusSynchronization.ReleaseLock, IRealTimeStylusSynchronization::ReleaseLock, ReleaseLock, ReleaseLock method [Tablet PC], ReleaseLock method [Tablet PC],IRealTimeStylusSynchronization interface, rtscom/IRealTimeStylusSynchronization::ReleaseLock, tablet.irealtimestylussynchronization_releaselock
 ms.prod: windows-hardware
 ms.technology: windows-devices

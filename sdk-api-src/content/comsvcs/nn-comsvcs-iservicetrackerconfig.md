@@ -7,7 +7,7 @@ old-location: cos\iservicetrackerconfig.htm
 old-project: cossdk
 ms.assetid: 342713d0-be5e-4d47-85ba-b18673a17fb5
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IServiceTrackerConfig, IServiceTrackerConfig interface [COM+], IServiceTrackerConfig interface [COM+],described, _cos_IServiceTrackerConfig, comsvcs/IServiceTrackerConfig, cos.iservicetrackerconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

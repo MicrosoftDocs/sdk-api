@@ -1,0 +1,6 @@
+{
+  "tech": "wdacwmiprov",
+  "headers": [
+    "wbemcli.h"
+  ]
+}

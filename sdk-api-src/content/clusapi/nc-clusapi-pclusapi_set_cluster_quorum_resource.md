@@ -7,7 +7,7 @@ old-location: mscs\setclusterquorumresource.htm
 old-project: MsCS
 ms.assetid: 1a00c09e-4470-4c02-807d-c559fd992066
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: CLUS_HYBRID_QUORUM, CLUS_LEGACY_QUORUM, CLUS_NODE_MAJORITY_QUORUM, PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE, PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE callback, PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE callback function [Failover Cluster], _wolf_setclusterquorumresource, clusapi/PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE, mscs.setclusterquorumresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

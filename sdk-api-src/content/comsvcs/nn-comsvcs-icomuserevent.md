@@ -7,7 +7,7 @@ old-location: cos\icomuserevent.htm
 old-project: cossdk
 ms.assetid: a443b54a-018f-48a0-b61c-9e18e9567a22
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IComUserEvent, IComUserEvent interface [COM+], IComUserEvent interface [COM+],described, _dtc_IComUserEvent, comsvcs/IComUserEvent, cos.icomuserevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

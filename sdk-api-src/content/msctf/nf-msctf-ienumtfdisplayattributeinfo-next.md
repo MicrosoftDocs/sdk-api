@@ -7,7 +7,7 @@ old-location: tsf\ienumtfdisplayattributeinfo_next.htm
 old-project: TSF
 ms.assetid: db374ba3-8a65-4933-85cb-320c294d6041
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: IEnumTfDisplayAttributeInfo interface [Text Services Framework],Next method, IEnumTfDisplayAttributeInfo.Next, IEnumTfDisplayAttributeInfo::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfDisplayAttributeInfo interface, _tsf_ienumtfdisplayattributeinfo_next_ref, msctf/IEnumTfDisplayAttributeInfo::Next, tsf.ienumtfdisplayattributeinfo_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

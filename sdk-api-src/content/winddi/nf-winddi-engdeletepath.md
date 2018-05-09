@@ -7,7 +7,7 @@ old-location: display\engdeletepath.htm
 old-project: display
 ms.assetid: 65ecf4bc-5180-4b4b-a359-298f385b849e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: EngDeletePath, EngDeletePath function [Display Devices], display.engdeletepath, gdifncs_aa1e2ccc-cc76-4782-b2ff-9867576c82d1.xml, winddi/EngDeletePath
 ms.prod: windows-hardware
 ms.technology: windows-devices

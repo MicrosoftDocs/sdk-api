@@ -7,7 +7,7 @@ old-location: cos\icomapp2events_onappshutdown2.htm
 old-project: cossdk
 ms.assetid: a3f4ee75-25c2-449f-aad2-8ffa8b73d434
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IComApp2Events interface [COM+],OnAppShutdown2 method, IComApp2Events.OnAppShutdown2, IComApp2Events::OnAppShutdown2, OnAppShutdown2, OnAppShutdown2 method [COM+], OnAppShutdown2 method [COM+],IComApp2Events interface, _dtc_IComApp2Events_OnAppShutdown2, comsvcs/IComApp2Events::OnAppShutdown2, cos.icomapp2events_onappshutdown2
 ms.prod: windows-hardware
 ms.technology: windows-devices

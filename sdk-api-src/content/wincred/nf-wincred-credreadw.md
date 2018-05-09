@@ -7,7 +7,7 @@ old-location: security\credread.htm
 old-project: SecAuthN
 ms.assetid: 3222de7b-5290-4e82-a382-b2db6afc78cc
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: CredRead, CredRead function [Security], CredReadA, CredReadW, _cred_credread, security.credread, wincred/CredRead, wincred/CredReadA, wincred/CredReadW
 ms.prod: windows-hardware
 ms.technology: windows-devices

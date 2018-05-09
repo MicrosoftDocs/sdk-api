@@ -7,7 +7,7 @@ old-location: tablet\getleftseparator.htm
 old-project: tablet
 ms.assetid: 5528d31e-580f-4da7-b683-e9ea2931989b
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: GetLeftSeparator, GetLeftSeparator function [Tablet PC], recapis/GetLeftSeparator, tablet.getleftseparator
 ms.prod: windows-hardware
 ms.technology: windows-devices

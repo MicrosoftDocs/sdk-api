@@ -7,7 +7,7 @@ old-location: security\saslenumerateprofiles.htm
 old-project: SecAuthN
 ms.assetid: 0c11e0e3-2538-4703-bc32-31c73d65a498
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: SaslEnumerateProfiles, SaslEnumerateProfiles function [Security], SaslEnumerateProfilesA, SaslEnumerateProfilesW, security.saslenumerateprofiles, sspi/SaslEnumerateProfiles, sspi/SaslEnumerateProfilesA, sspi/SaslEnumerateProfilesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

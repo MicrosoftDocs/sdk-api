@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuicollection_insert.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\insert.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/7/2018
 ms.keywords: IUICollection interface [Windows Ribbon],Insert method, IUICollection.Insert, IUICollection::Insert, Insert, Insert method [Windows Ribbon], Insert method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_Insert, uiribbon/IUICollection::Insert, windowsribbon.windowsribbon_iuicollection_insert
 ms.prod: windows-hardware
 ms.technology: windows-devices

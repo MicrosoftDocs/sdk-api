@@ -7,7 +7,7 @@ old-location: nps\IAS_radius_extension_control_block.htm
 old-project: Nps
 ms.assetid: 13ff0645-d3f8-4220-a5bc-11bb515bca95
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PRADIUS_EXTENSION_CONTROL_BLOCK, PRADIUS_EXTENSION_CONTROL_BLOCK, PRADIUS_EXTENSION_CONTROL_BLOCK structure pointer [Network Policy Server], RADIUS_EXTENSION_CONTROL_BLOCK, RADIUS_EXTENSION_CONTROL_BLOCK structure [Network Policy Server], _RADIUS_EXTENSION_CONTROL_BLOCK, _ias_radius_extension_control_block, authif/PRADIUS_EXTENSION_CONTROL_BLOCK, authif/RADIUS_EXTENSION_CONTROL_BLOCK, ias.radius_extension_control_block, nps.IAS_radius_extension_control_block"
 ms.prod: windows-hardware
 ms.technology: windows-devices

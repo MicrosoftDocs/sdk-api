@@ -1,0 +1,10 @@
+{
+  "tech": "buses",
+  "headers": [
+    "genericusbfnioctl.h",
+    "usbuser.h",
+    "winusb.h",
+    "winusbio.h"
+  ],
+  "displayName": "USB driver reference"
+}

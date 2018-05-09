@@ -7,7 +7,7 @@ old-location: tsf\itflmlattice_enumlatticeelements.htm
 old-project: TSF
 ms.assetid: c42ad69f-d27a-40b7-8d63-3b422cb69db5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: EnumLatticeElements, EnumLatticeElements method [Text Services Framework], EnumLatticeElements method [Text Services Framework],ITfLMLattice interface, ITfLMLattice interface [Text Services Framework],EnumLatticeElements method, ITfLMLattice.EnumLatticeElements, ITfLMLattice::EnumLatticeElements, _tsf_itflmlattice_enumlatticeelements_ref, ctffunc/ITfLMLattice::EnumLatticeElements, tsf.itflmlattice_enumlatticeelements
 ms.prod: windows-hardware
 ms.technology: windows-devices

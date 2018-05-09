@@ -7,7 +7,7 @@ old-location: shell\IEnumPublishedApps.htm
 old-project: shell
 ms.assetid: 89a06b1d-1b72-46ca-91cd-bb63ea0cbff7
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IEnumPublishedApps, IEnumPublishedApps interface [Windows Shell], IEnumPublishedApps interface [Windows Shell],described, inet_IEnumPublishedApps, shappmgr/IEnumPublishedApps, shell.IEnumPublishedApps
 ms.prod: windows-hardware
 ms.technology: windows-devices

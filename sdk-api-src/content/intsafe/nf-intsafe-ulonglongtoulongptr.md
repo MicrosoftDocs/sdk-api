@@ -7,7 +7,7 @@ old-location: shell\ULongLongToDWordPtr.htm
 old-project: shell
 ms.assetid: 7f398e08-44a1-4815-b49d-95259e502eba
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ULongLongToDWordPtr, ULongLongToDWordPtr function [Windows Shell], ULongLongToULongPtr, _shell_ULongLongToDWordPtr, intsafe/ULongLongToDWordPtr, shell.ULongLongToDWordPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

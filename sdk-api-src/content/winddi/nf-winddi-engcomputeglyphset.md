@@ -7,7 +7,7 @@ old-location: display\engcomputeglyphset.htm
 old-project: display
 ms.assetid: 74722493-04cf-4401-a6d6-7afe8d4881d9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: EngComputeGlyphSet, EngComputeGlyphSet function [Display Devices], display.engcomputeglyphset, gdifncs_ba8356d5-4114-436c-9268-774b8e0918df.xml, winddi/EngComputeGlyphSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

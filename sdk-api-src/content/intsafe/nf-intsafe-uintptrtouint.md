@@ -7,7 +7,7 @@ old-location: shell\SizeTToUInt.htm
 old-project: shell
 ms.assetid: c960b9b0-ce6d-40d0-b813-ea513697e8bf
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SizeTToUInt, SizeTToUInt function [Windows Shell], UIntPtrToUInt, _shell_SizeTToUInt, intsafe/SizeTToUInt, shell.SizeTToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

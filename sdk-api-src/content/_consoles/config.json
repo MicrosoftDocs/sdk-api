@@ -1,0 +1,10 @@
+{
+  "tech": "consoles",
+  "headers": [
+    "winbase.h",
+    "wincon.h",
+    "consoleapi3.h",
+    "winuser.h"
+  ],
+  "displayName": "Consoles"
+}

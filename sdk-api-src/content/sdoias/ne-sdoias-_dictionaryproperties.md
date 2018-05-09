@@ -7,7 +7,7 @@ old-location: nps\SDO_dictionaryproperties.htm
 old-project: Nps
 ms.assetid: 47da09d8-9b45-4910-a6b1-1759c5000482
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: DICTIONARYPROPERTIES, DICTIONARYPROPERTIES enumeration [Network Policy Server], PROPERTY_DICTIONARY_ATTRIBUTES_COLLECTION, PROPERTY_DICTIONARY_LOCATION, _DICTIONARYPROPERTIES, _sdo_dictionaryproperties, nps.SDO_dictionaryproperties, sdo.dictionaryproperties, sdoias/DICTIONARYPROPERTIES, sdoias/PROPERTY_DICTIONARY_ATTRIBUTES_COLLECTION, sdoias/PROPERTY_DICTIONARY_LOCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

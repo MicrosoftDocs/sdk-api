@@ -7,7 +7,7 @@ old-location: rras\ras_port_0.htm
 old-project: RRAS
 ms.assetid: 361b065e-8240-465f-a0fe-d4bfc097ec70
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PRAS_PORT_0, PRAS_PORT_0, PRAS_PORT_0 structure pointer [RAS], RAS_PORT_0, RAS_PORT_0 structure [RAS], _RAS_PORT_0, _mpr_ras_port_0, mprapi/PRAS_PORT_0, mprapi/RAS_PORT_0, rras.ras_port_0"
 ms.prod: windows-hardware
 ms.technology: windows-devices

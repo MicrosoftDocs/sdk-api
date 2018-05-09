@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatestring.htm
 old-project: TSF
 ms.assetid: 82c77b59-a50c-42ae-ba1d-25a1c196662d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfCandidateString, ITfCandidateString interface [Text Services Framework], ITfCandidateString interface [Text Services Framework],described, _tsf_itfcandidatestring_ref, ctffunc/ITfCandidateString, tsf.itfcandidatestring
 ms.prod: windows-hardware
 ms.technology: windows-devices

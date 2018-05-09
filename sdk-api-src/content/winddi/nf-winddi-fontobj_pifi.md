@@ -7,7 +7,7 @@ old-location: display\fontobj_pifi.htm
 old-project: display
 ms.assetid: 797341c8-7346-477a-9c7c-b6abbeaac4b2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: FONTOBJ_pifi, FONTOBJ_pifi function [Display Devices], display.fontobj_pifi, gdifncs_702d11ac-850f-4e4d-aefa-1ccf404edb56.xml, winddi/FONTOBJ_pifi
 ms.prod: windows-hardware
 ms.technology: windows-devices

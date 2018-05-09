@@ -7,7 +7,7 @@ old-location: shell\GetWindowSubclass.htm
 old-project: shell
 ms.assetid: 3969f18e-3e12-4770-8596-2c2c6519c2a7
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: GetWindowSubclass, GetWindowSubclass function [Windows Shell], commctrl/GetWindowSubclass, inet_GetWindowSubclass, shell.GetWindowSubclass
 ms.prod: windows-hardware
 ms.technology: windows-devices

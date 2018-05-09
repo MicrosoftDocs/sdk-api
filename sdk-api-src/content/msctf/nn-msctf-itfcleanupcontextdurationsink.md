@@ -7,7 +7,7 @@ old-location: tsf\itfcleanupcontextdurationsink.htm
 old-project: TSF
 ms.assetid: 2bbdc26a-5543-4de4-b347-2062be593c4b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfCleanupContextDurationSink, ITfCleanupContextDurationSink interface [Text Services Framework], ITfCleanupContextDurationSink interface [Text Services Framework],described, _tsf_itfcleanupcontextdurationsink_ref, msctf/ITfCleanupContextDurationSink, tsf.itfcleanupcontextdurationsink
 ms.prod: windows-hardware
 ms.technology: windows-devices

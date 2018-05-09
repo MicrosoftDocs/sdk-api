@@ -7,7 +7,7 @@ old-location: tsf\ienumtflangbaritems_skip.htm
 old-project: TSF
 ms.assetid: f9b4b899-1bcc-4ba5-a1e7-ca0a45749678
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Skip method, IEnumTfLangBarItems.Skip, IEnumTfLangBarItems::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfLangBarItems interface, _tsf_ienumtflangbaritems_skip_ref, ctfutb/IEnumTfLangBarItems::Skip, tsf.ienumtflangbaritems_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

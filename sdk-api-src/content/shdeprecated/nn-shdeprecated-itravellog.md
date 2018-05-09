@@ -7,7 +7,7 @@ old-location: shell\ITravelLog.htm
 old-project: shell
 ms.assetid: 820869aa-ca93-4bb5-831a-3afb52da5389
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ITravelLog, ITravelLog interface [Windows Shell], ITravelLog interface [Windows Shell],described, shdeprecated/ITravelLog, shell.ITravelLog, zone_ITravelLog
 ms.prod: windows-hardware
 ms.technology: windows-devices

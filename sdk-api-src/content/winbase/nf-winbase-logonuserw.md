@@ -7,7 +7,7 @@ old-location: security\logonuser.htm
 old-project: SecAuthN
 ms.assetid: a6d880a0-0aed-4bdb-89c9-4f667ecb510e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: LOGON32_LOGON_BATCH, LOGON32_LOGON_INTERACTIVE, LOGON32_LOGON_NETWORK, LOGON32_LOGON_NETWORK_CLEARTEXT, LOGON32_LOGON_NEW_CREDENTIALS, LOGON32_LOGON_SERVICE, LOGON32_LOGON_UNLOCK, LOGON32_PROVIDER_DEFAULT, LOGON32_PROVIDER_WINNT40, LOGON32_PROVIDER_WINNT50, LogonUser, LogonUser function [Security], LogonUserA, LogonUserW, _win32_logonuser, security.logonuser, winbase/LogonUser, winbase/LogonUserA, winbase/LogonUserW
 ms.prod: windows-hardware
 ms.technology: windows-devices

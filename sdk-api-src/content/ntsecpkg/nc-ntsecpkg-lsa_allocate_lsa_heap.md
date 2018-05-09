@@ -7,7 +7,7 @@ old-location: security\allocatelsaheap.htm
 old-project: SecAuthN
 ms.assetid: cb87f1b1-3e1e-4add-8e74-ca7b4f8599ba
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: AllocateLsaHeap, AllocateLsaHeap function [Security], LSA_ALLOCATE_LSA_HEAP, _lsa_allocatelsaheap, ntsecpkg/AllocateLsaHeap, security.allocatelsaheap
 ms.prod: windows-hardware
 ms.technology: windows-devices

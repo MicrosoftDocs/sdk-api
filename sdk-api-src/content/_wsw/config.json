@@ -1,0 +1,10 @@
+{
+  "tech": "wsw",
+  "headers": [
+    "tbd",
+    "webservices.h",
+    "webservicesdebug.h",
+    "icontentprefetchertasktrigger.h"
+  ],
+  "displayName": "Windows Web Services"
+}

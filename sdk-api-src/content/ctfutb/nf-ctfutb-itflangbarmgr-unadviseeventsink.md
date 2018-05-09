@@ -7,7 +7,7 @@ old-location: tsf\itflangbarmgr_unadviseeventsink.htm
 old-project: TSF
 ms.assetid: 29dc5276-04fa-4219-a64d-10d775d73fdd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfLangBarMgr interface [Text Services Framework],UnadviseEventSink method, ITfLangBarMgr.UnadviseEventSink, ITfLangBarMgr::UnadviseEventSink, UnadviseEventSink, UnadviseEventSink method [Text Services Framework], UnadviseEventSink method [Text Services Framework],ITfLangBarMgr interface, _tsf_itflangbarmgr_unadviseeventsink_ref, ctfutb/ITfLangBarMgr::UnadviseEventSink, tsf.itflangbarmgr_unadviseeventsink
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\destroyrecognizer.htm
 old-project: tablet
 ms.assetid: ffd66ab7-fc11-407e-aedc-267271ecb32c
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: DestroyRecognizer, DestroyRecognizer function [Tablet PC], ffd66ab7-fc11-407e-aedc-267271ecb32c, recapis/DestroyRecognizer, tablet.destroyrecognizer
 ms.prod: windows-hardware
 ms.technology: windows-devices

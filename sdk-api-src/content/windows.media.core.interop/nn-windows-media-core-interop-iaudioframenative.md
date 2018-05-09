@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: TimeSpan
+req.typenames: PDF_RENDER_PARAMS
 topic_type:
 -	APIRef
 -	kbSyntax

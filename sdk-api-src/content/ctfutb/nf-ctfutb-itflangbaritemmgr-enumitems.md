@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritemmgr_enumitems.htm
 old-project: TSF
 ms.assetid: 90d61009-e0f7-4df6-a23b-1f9f489b15f9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: EnumItems, EnumItems method [Text Services Framework], EnumItems method [Text Services Framework],ITfLangBarItemMgr interface, ITfLangBarItemMgr interface [Text Services Framework],EnumItems method, ITfLangBarItemMgr.EnumItems, ITfLangBarItemMgr::EnumItems, _tsf_itflangbaritemmgr_enumitems_ref, ctfutb/ITfLangBarItemMgr::EnumItems, tsf.itflangbaritemmgr_enumitems
 ms.prod: windows-hardware
 ms.technology: windows-devices

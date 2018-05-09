@@ -7,7 +7,7 @@ old-location: shell\IFolderViewOptions.htm
 old-project: shell
 ms.assetid: 4831e62c-45e4-435d-b926-0e140cbfb6fc
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IFolderViewOptions, IFolderViewOptions interface [Windows Shell], IFolderViewOptions interface [Windows Shell],described, _shell_IFolderViewOptions, shell.IFolderViewOptions, shobjidl/IFolderViewOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

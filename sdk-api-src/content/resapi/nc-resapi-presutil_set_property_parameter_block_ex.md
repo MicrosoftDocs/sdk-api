@@ -7,7 +7,7 @@ old-location: mscs\resutilsetpropertyparameterblockex.htm
 old-project: MsCS
 ms.assetid: aeb53528-56bf-4330-ad43-22f1381df109
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX, PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX callback, PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX callback function [Failover Cluster], _wolf_resutilsetpropertyparameterblockex, mscs.resutilsetpropertyparameterblockex, resapi/PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfsourcesingle.htm
 old-project: TSF
 ms.assetid: 01e60ede-b871-4b38-b2ee-24f79c5b3e80
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfSourceSingle, ITfSourceSingle interface [Text Services Framework], ITfSourceSingle interface [Text Services Framework],described, _tsf_itfsourcesingle_ref, msctf/ITfSourceSingle, tsf.itfsourcesingle
 ms.prod: windows-hardware
 ms.technology: windows-devices

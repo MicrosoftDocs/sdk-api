@@ -7,7 +7,7 @@ old-location: tsf\ts_attrval.htm
 old-project: TSF
 ms.assetid: 9209ef60-6a1d-4aad-9f9f-775534116f37
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: TS_ATTRVAL, TS_ATTRVAL structure [Text Services Framework], _tsf_ts_attrval_ref, textstor/TS_ATTRVAL, tsf.ts_attrval
 ms.prod: windows-hardware
 ms.technology: windows-devices

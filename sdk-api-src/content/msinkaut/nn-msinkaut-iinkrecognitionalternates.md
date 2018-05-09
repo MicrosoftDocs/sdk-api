@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternates.htm
 old-project: tablet
 ms.assetid: 39f49762-de86-4a1a-ac7b-327b65c3eb54
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: 39f49762-de86-4a1a-ac7b-327b65c3eb54, IInkRecognitionAlternates, IInkRecognitionAlternates interface [Tablet PC], IInkRecognitionAlternates interface [Tablet PC],described, msinkaut/IInkRecognitionAlternates, tablet.iinkrecognitionalternates
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,10 @@
+{
+  "tech": "winmsg",
+  "headers": [
+    "olectl.h",
+    "winbase.h",
+    "winuser.h",
+    "windowsx.h",
+    "windef.h"
+  ]
+}

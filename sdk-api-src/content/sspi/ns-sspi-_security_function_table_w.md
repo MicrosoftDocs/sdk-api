@@ -7,7 +7,7 @@ old-location: security\securityfunctiontable.htm
 old-project: SecAuthN
 ms.assetid: 6315e8d6-b40a-4dd6-b6a6-598a965f93dc
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PSecurityFunctionTableW, PSecurityFunctionTable, PSecurityFunctionTable structure pointer [Security], SECURITY_SUPPORT_PROVIDER_INTERFACE_VERSION, SECURITY_SUPPORT_PROVIDER_INTERFACE_VERSION structure [Security], SecurityFunctionTable, SecurityFunctionTable structure [Security], SecurityFunctionTableA, SecurityFunctionTableW, _SECURITY_FUNCTION_TABLE_W, _ssp_securityfunctiontable, security.securityfunctiontable, sspi/PSecurityFunctionTable, sspi/SECURITY_SUPPORT_PROVIDER_INTERFACE_VERSION, sspi/SecurityFunctionTable, sspi/SecurityFunctionTableA, sspi/SecurityFunctionTableW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

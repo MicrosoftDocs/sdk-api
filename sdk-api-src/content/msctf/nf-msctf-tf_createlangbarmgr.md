@@ -7,7 +7,7 @@ old-location: tsf\tf_createlangbarmgr.htm
 old-project: TSF
 ms.assetid: 202c5496-fc64-498e-a6f6-fffacc218990
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: TF_CreateLangBarMgr, TF_CreateLangBarMgr function [Text Services Framework], msctf/TF_CreateLangBarMgr, tsf.tf_createlangbarmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices

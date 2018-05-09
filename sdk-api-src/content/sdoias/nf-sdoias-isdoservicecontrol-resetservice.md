@@ -7,7 +7,7 @@ old-location: nps\SDO_isdoservicecontrol_resetservice.htm
 old-project: Nps
 ms.assetid: c93675ad-b7c2-42b9-9ab8-7fb4cbb7a07c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: ISdoServiceControl interface [Network Policy Server],ResetService method, ISdoServiceControl.ResetService, ISdoServiceControl::ResetService, ResetService, ResetService method [Network Policy Server], ResetService method [Network Policy Server],ISdoServiceControl interface, _sdo_isdoservicecontrol_resetservice, nps.SDO_isdoservicecontrol_resetservice, sdo.isdoservicecontrol_resetservice, sdoias/ISdoServiceControl::ResetService
 ms.prod: windows-hardware
 ms.technology: windows-devices

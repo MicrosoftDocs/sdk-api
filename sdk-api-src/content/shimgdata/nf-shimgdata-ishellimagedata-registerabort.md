@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_RegisterAbort.htm
 old-project: shell
 ms.assetid: 21ea1f3b-3b8a-4a92-a1fb-c19f0e97a407
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IShellImageData interface [Windows Shell],RegisterAbort method, IShellImageData.RegisterAbort, IShellImageData::RegisterAbort, RegisterAbort, RegisterAbort method [Windows Shell], RegisterAbort method [Windows Shell],IShellImageData interface, _shell_IShellImageData_RegisterAbort, shell.IShellImageData_RegisterAbort, shimgdata/IShellImageData::RegisterAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices

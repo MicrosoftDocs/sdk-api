@@ -1,0 +1,9 @@
+{
+  "tech": "http",
+  "headers": [
+    "httpserv.h",
+    "http.h",
+    "winhttp.h"
+  ],
+  "displayName": "HTTP Server API"
+}

@@ -7,7 +7,7 @@ old-location: cos\idispensermanager.htm
 old-project: cossdk
 ms.assetid: a0465d78-f8b7-4934-9dc6-c8f0ead04bf1
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IDispenserManager, IDispenserManager interface [COM+], IDispenserManager interface [COM+],described, _dtc_IDispenserManager_Interface, comsvcs/IDispenserManager, cos.idispensermanager
 ms.prod: windows-hardware
 ms.technology: windows-devices

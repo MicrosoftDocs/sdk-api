@@ -7,7 +7,7 @@ old-location: display\floatobj_div.htm
 old-project: display
 ms.assetid: 110473d8-712a-4670-96e0-daf57dd5efd2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: FLOATOBJ_Div, FLOATOBJ_Div function [Display Devices], display.floatobj_div, gdifncs_0ffe4b55-d291-47b0-bbd4-351e01ffe228.xml, winddi/FLOATOBJ_Div
 ms.prod: windows-hardware
 ms.technology: windows-devices

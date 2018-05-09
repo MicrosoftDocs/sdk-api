@@ -7,7 +7,7 @@ old-location: shell\SHFILEINFO.htm
 old-project: shell
 ms.assetid: 9dbf873a-b447-4579-961e-20f2a64c87fe
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SHFILEINFO, SHFILEINFO structure [Windows Shell], SHFILEINFOW, _SHFILEINFOW, _win32_SHFILEINFO, shell.SHFILEINFO, shellapi/SHFILEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

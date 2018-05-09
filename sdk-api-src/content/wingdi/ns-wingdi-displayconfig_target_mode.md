@@ -7,7 +7,7 @@ old-location: display\displayconfig_target_mode.htm
 old-project: display
 ms.assetid: c81768f0-67d3-4ddd-94c8-013b1e4cf83e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: CCD_Structures_e251116b-4e11-42a0-9171-fa3935003510.xml, DISPLAYCONFIG_TARGET_MODE, DISPLAYCONFIG_TARGET_MODE structure [Display Devices], display.displayconfig_target_mode, wingdi/DISPLAYCONFIG_TARGET_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

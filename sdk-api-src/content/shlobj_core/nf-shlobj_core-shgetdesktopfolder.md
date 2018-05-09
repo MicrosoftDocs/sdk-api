@@ -7,7 +7,7 @@ old-location: shell\SHGetDesktopFolder.htm
 old-project: shell
 ms.assetid: 121cbd41-d512-4f33-b89c-d0dd9933df87
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SHGetDesktopFolder, SHGetDesktopFolder function [Windows Shell], _win32_SHGetDesktopFolder, shell.SHGetDesktopFolder, shlobj_core/SHGetDesktopFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_getembedded.htm
 old-project: TSF
 ms.assetid: 212286e1-aafa-4368-8dd3-45a0d4c6ecb9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetEmbedded method, ITextStoreAnchor.GetEmbedded, ITextStoreAnchor::GetEmbedded, textstor/ITextStoreAnchor::GetEmbedded, tsf.itextstoreanchor_getembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices

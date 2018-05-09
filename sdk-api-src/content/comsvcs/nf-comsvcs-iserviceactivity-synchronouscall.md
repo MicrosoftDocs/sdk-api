@@ -7,7 +7,7 @@ old-location: cos\iserviceactivity_synchronouscall.htm
 old-project: cossdk
 ms.assetid: d25e6942-7b1b-4b74-b711-2d0f513d0b38
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IServiceActivity interface [COM+],SynchronousCall method, IServiceActivity.SynchronousCall, IServiceActivity::SynchronousCall, SynchronousCall, SynchronousCall method [COM+], SynchronousCall method [COM+],IServiceActivity interface, _cos_IServiceActivity_SynchronousCall, comsvcs/IServiceActivity::SynchronousCall, cos.iserviceactivity_synchronouscall
 ms.prod: windows-hardware
 ms.technology: windows-devices

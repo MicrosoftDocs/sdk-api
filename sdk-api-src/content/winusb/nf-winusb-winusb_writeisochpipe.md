@@ -7,7 +7,7 @@ old-location: buses\winusb_writeisochpipe.htm
 old-project: usbref
 ms.assetid: E5185806-F447-49A8-BEC9-B85451E78533
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: WinUsb_WriteIsochPipe, WinUsb_WriteIsochPipe routine [Buses], buses.winusb_writeisochpipe, winusb/WinUsb_WriteIsochPipe
 ms.prod: windows-hardware
 ms.technology: windows-devices

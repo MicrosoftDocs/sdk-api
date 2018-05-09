@@ -7,7 +7,7 @@ old-location: security\notifyinfo.htm
 old-project: SecAuthN
 ms.assetid: 43b31128-da9c-470b-b030-0010b250a291
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*LPNOTIFYINFO, LPNOTIFYINFO, LPNOTIFYINFO structure pointer [Security], NOTIFYINFO, NOTIFYINFO structure [Security], _NOTIFYINFO, _mnp_notifyinfo, npapi/LPNOTIFYINFO, npapi/NOTIFYINFO, security.notifyinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

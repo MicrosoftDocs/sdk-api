@@ -7,7 +7,7 @@ old-location: security\crediunmarshalanddecodestring.htm
 old-project: SecAuthN
 ms.assetid: 15423c8d-ea3b-4981-b059-5828555a9e89
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: CrediUnmarshalandDecodeString, CrediUnmarshalandDecodeString function [Security], CrediUnmarshalandDecodeStringFn, ntsecpkg/CrediUnmarshalandDecodeString, security.crediunmarshalanddecodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices

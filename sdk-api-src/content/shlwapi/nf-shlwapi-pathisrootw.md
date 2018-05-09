@@ -7,7 +7,7 @@ old-location: shell\PathIsRoot.htm
 old-project: shell
 ms.assetid: 8586df98-91c4-49a6-9b07-7dceb8a63431
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: PathIsRoot, PathIsRoot function [Windows Shell], PathIsRootA, PathIsRootW, _win32_PathIsRoot, shell.PathIsRoot, shlwapi/PathIsRoot, shlwapi/PathIsRootA, shlwapi/PathIsRootW
 ms.prod: windows-hardware
 ms.technology: windows-devices

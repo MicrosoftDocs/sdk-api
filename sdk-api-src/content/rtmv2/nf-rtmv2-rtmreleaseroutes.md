@@ -7,7 +7,7 @@ old-location: rras\rtmreleaseroutes.htm
 old-project: RRAS
 ms.assetid: 4c893144-a2c5-4dc8-83c1-cae0d3024505
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: RtmReleaseRoutes, RtmReleaseRoutes function [RAS], _rtmv2ref_rtmreleaseroutes, rras.rtmreleaseroutes, rtmv2/RtmReleaseRoutes
 ms.prod: windows-hardware
 ms.technology: windows-devices

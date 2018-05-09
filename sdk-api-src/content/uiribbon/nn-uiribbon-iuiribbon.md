@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiribbon.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiribbon\iuiribbon.htm
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/7/2018
 ms.keywords: IUIRibbon, IUIRibbon interface [Windows Ribbon], IUIRibbon interface [Windows Ribbon],described, scenicintent_IUIRibbon, uiribbon/IUIRibbon, windowsribbon.windowsribbon_iuiribbon
 ms.prod: windows-hardware
 ms.technology: windows-devices

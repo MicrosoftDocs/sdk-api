@@ -7,7 +7,7 @@ old-location: tsf\ianchor_getgravity.htm
 old-project: TSF
 ms.assetid: c56a4c25-ac43-4fd3-8d6b-943eb0233ed4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: GetGravity, GetGravity method [Text Services Framework], GetGravity method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],GetGravity method, IAnchor.GetGravity, IAnchor::GetGravity, textstor/IAnchor::GetGravity, tsf.ianchor_getgravity
 ms.prod: windows-hardware
 ms.technology: windows-devices

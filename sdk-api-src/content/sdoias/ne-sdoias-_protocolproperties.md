@@ -7,7 +7,7 @@ old-location: nps\SDO_protocolproperties.htm
 old-project: Nps
 ms.assetid: d4767047-3e33-4ae7-a05d-e0e5037cb103
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PROPERTY_PROTOCOL_REQUEST_HANDLER, PROPERTY_PROTOCOL_START, PROTOCOLPROPERTIES, PROTOCOLPROPERTIES enumeration [Network Policy Server], _PROTOCOLPROPERTIES, _sdo_protocolproperties, nps.SDO_protocolproperties, sdo.protocolproperties, sdoias/PROPERTY_PROTOCOL_REQUEST_HANDLER, sdoias/PROPERTY_PROTOCOL_START, sdoias/PROTOCOLPROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices

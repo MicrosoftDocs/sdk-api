@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_requestsupportedattrs.htm
 old-project: TSF
 ms.assetid: 243cd002-c882-4ce9-b528-1a2229c46f4a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],RequestSupportedAttrs method, ITextStoreACP.RequestSupportedAttrs, ITextStoreACP::RequestSupportedAttrs, RequestSupportedAttrs, RequestSupportedAttrs method [Text Services Framework], RequestSupportedAttrs method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_requestsupportedattrs_ref, textstor/ITextStoreACP::RequestSupportedAttrs, tsf.itextstoreacp_requestsupportedattrs
 ms.prod: windows-hardware
 ms.technology: windows-devices

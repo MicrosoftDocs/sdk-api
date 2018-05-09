@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_Help.htm
 old-project: shell
 ms.assetid: 9460C87E-6703-4df6-A84C-8D394E0E6703
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: Help, Help method [Windows Shell], Help method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],Help method, IShellDispatch.Help, IShellDispatch::Help, shell.IShellDispatch_Help
 ms.prod: windows-hardware
 ms.technology: windows-devices

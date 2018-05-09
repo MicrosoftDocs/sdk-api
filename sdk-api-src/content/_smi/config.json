@@ -1,0 +1,8 @@
+{
+  "tech": "smi",
+  "headers": [
+    "wcmconfig.h",
+    "wcmerrors.h"
+  ],
+  "displayName": "Settings Management Infrastructure (SMI)"
+}

@@ -7,7 +7,7 @@ old-location: mscs\clustergetenumcountex.htm
 old-project: MsCS
 ms.assetid: EC66C1CF-4CAA-41C6-ABA1-BB576F0293F4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_CLUSTER_GET_ENUM_COUNT_EX, PCLUSAPI_CLUSTER_GET_ENUM_COUNT_EX callback, PCLUSAPI_CLUSTER_GET_ENUM_COUNT_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_GET_ENUM_COUNT_EX, mscs.clustergetenumcountex
 ms.prod: windows-hardware
 ms.technology: windows-devices

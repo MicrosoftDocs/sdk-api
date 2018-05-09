@@ -7,7 +7,7 @@ old-location: tsf\itffnconfigure.htm
 old-project: TSF
 ms.assetid: af23e668-9c00-4e53-89b6-c8be85ae961b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfFnConfigure, ITfFnConfigure interface [Text Services Framework], ITfFnConfigure interface [Text Services Framework],described, _tsf_itffnconfigure_ref, ctffunc/ITfFnConfigure, tsf.itffnconfigure
 ms.prod: windows-hardware
 ms.technology: windows-devices

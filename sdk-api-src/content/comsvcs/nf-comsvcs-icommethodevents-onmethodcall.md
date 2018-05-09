@@ -7,7 +7,7 @@ old-location: cos\icommethodevents_onmethodcall.htm
 old-project: cossdk
 ms.assetid: 5d68fe2c-7032-46d2-b88d-0b4f81c74760
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IComMethodEvents interface [COM+],OnMethodCall method, IComMethodEvents.OnMethodCall, IComMethodEvents::OnMethodCall, OnMethodCall, OnMethodCall method [COM+], OnMethodCall method [COM+],IComMethodEvents interface, _dtc_IComMethodEvents_OnMethodCall, comsvcs/IComMethodEvents::OnMethodCall, cos.icommethodevents_onmethodcall
 ms.prod: windows-hardware
 ms.technology: windows-devices

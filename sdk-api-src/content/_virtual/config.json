@@ -1,0 +1,10 @@
+{
+  "tech": "virtual",
+  "headers": [
+    "winreg.h",
+    "mpconfig.h",
+    "mmc.h",
+    "dbdao.h",
+    "vds.h"
+  ]
+}

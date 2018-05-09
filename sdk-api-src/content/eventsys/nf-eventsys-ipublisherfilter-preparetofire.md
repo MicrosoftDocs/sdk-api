@@ -7,7 +7,7 @@ old-location: cos\ipublisherfilter_preparetofire.htm
 old-project: cossdk
 ms.assetid: 78faa83f-ee73-4034-9be1-5576e5a909e3
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IPublisherFilter interface [COM+],PrepareToFire method, IPublisherFilter.PrepareToFire, IPublisherFilter::PrepareToFire, PrepareToFire, PrepareToFire method [COM+], PrepareToFire method [COM+],IPublisherFilter interface, _cos_IPublisherFilter_PrepareToFire, cos.ipublisherfilter_preparetofire, eventsys/IPublisherFilter::PrepareToFire
 ms.prod: windows-hardware
 ms.technology: windows-devices

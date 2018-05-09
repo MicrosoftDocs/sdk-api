@@ -7,7 +7,7 @@ old-location: mscs\resutilgetlongproperty.htm
 old-project: MsCS
 ms.assetid: 8f245708-287c-48eb-aec0-330b175042cf
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PRESUTIL_GET_LONG_PROPERTY, PRESUTIL_GET_LONG_PROPERTY callback, PRESUTIL_GET_LONG_PROPERTY callback function [Failover Cluster], mscs.resutilgetlongproperty, resapi/PRESUTIL_GET_LONG_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices

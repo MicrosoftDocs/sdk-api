@@ -7,7 +7,7 @@ old-location: cos\icreatewithtransactionex.htm
 old-project: cossdk
 ms.assetid: 39b455d3-d3d2-46ae-a45e-b036c18e45bc
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: ICreateWithTransactionEx, ICreateWithTransactionEx interface [COM+], ICreateWithTransactionEx interface [COM+],described, _dtc_ICreateWithTransactionEx_Interface, comsvcs/ICreateWithTransactionEx, cos.icreatewithtransactionex
 ms.prod: windows-hardware
 ms.technology: windows-devices

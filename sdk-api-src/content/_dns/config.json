@@ -1,0 +1,8 @@
+{
+  "tech": "dns",
+  "headers": [
+    "windns.h",
+    "sdoias.h"
+  ],
+  "displayName": "Domain Name System (DNS)"
+}

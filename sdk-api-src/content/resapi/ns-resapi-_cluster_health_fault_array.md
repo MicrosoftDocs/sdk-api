@@ -7,7 +7,7 @@ old-location: mscs\cluster_health_fault_array.htm
 old-project: MsCS
 ms.assetid: 7d741fca-3ded-4f24-81e0-e2c4e230ead2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PCLUSTER_HEALTH_FAULT_ARRAY, CLUSTER_HEALTH_FAULT_ARRAY, CLUSTER_HEALTH_FAULT_ARRAY structure [Failover Cluster], PCLUSTER_HEALTH_FAULT_ARRAY, PCLUSTER_HEALTH_FAULT_ARRAY structure pointer [Failover Cluster], _CLUSTER_HEALTH_FAULT_ARRAY, mscs.cluster_health_fault_array, resapi/CLUSTER_HEALTH_FAULT_ARRAY, resapi/PCLUSTER_HEALTH_FAULT_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

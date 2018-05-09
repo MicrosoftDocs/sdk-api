@@ -7,7 +7,7 @@ old-location: cos\imanagedobjectinfo_setwrapperstrength.htm
 old-project: cossdk
 ms.assetid: 0f03c6cb-4bfc-4871-8f5b-78ccc8df8838
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IManagedObjectInfo interface [COM+],SetWrapperStrength method, IManagedObjectInfo.SetWrapperStrength, IManagedObjectInfo::SetWrapperStrength, SetWrapperStrength, SetWrapperStrength method [COM+], SetWrapperStrength method [COM+],IManagedObjectInfo interface, _cos_IManagedObjectInfo_SetWrapperStrength, comsvcs/IManagedObjectInfo::SetWrapperStrength, cos.imanagedobjectinfo_setwrapperstrength
 ms.prod: windows-hardware
 ms.technology: windows-devices

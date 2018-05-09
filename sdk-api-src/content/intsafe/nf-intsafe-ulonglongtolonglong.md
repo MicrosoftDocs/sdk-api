@@ -7,7 +7,7 @@ old-location: shell\ULongLongToInt64.htm
 old-project: shell
 ms.assetid: 6dff4953-1469-491f-a31b-5e7fe72d0fb7
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ULongLongToInt64, ULongLongToInt64 function [Windows Shell], ULongLongToLongLong, _shell_ULongLongToInt64, intsafe/ULongLongToInt64, shell.ULongLongToInt64
 ms.prod: windows-hardware
 ms.technology: windows-devices

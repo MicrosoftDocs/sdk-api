@@ -7,7 +7,7 @@ old-location: security\cred_marshal_type.htm
 old-project: SecAuthN
 ms.assetid: 612fdd6f-2b4c-4f41-a00b-250f90eb85d3
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PCRED_MARSHAL_TYPE, CRED_MARSHAL_TYPE, CRED_MARSHAL_TYPE enumeration [Security], CertCredential, PCRED_MARSHAL_TYPE, PCRED_MARSHAL_TYPE enumeration pointer [Security], UsernameTargetCredential, _CRED_MARSHAL_TYPE, _cred_cred_marshal_type, security.cred_marshal_type, wincred/CRED_MARSHAL_TYPE, wincred/CertCredential, wincred/PCRED_MARSHAL_TYPE, wincred/UsernameTargetCredential"
 ms.prod: windows-hardware
 ms.technology: windows-devices

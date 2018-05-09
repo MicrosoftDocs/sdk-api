@@ -7,7 +7,7 @@ old-location: mscs\destroycluster.htm
 old-project: MsCS
 ms.assetid: 55e601de-b427-43cd-b7f8-6cc576077e59
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_DESTROY_CLUSTER, PCLUSAPI_DESTROY_CLUSTER callback, PCLUSAPI_DESTROY_CLUSTER callback function [Failover Cluster], clusapi/PCLUSAPI_DESTROY_CLUSTER, mscs.destroycluster
 ms.prod: windows-hardware
 ms.technology: windows-devices

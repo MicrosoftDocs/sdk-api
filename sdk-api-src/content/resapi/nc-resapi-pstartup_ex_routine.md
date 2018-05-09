@@ -7,7 +7,7 @@ old-location: mscs\startupex.htm
 old-project: MsCS
 ms.assetid: 7C669EDC-B7A1-4623-91A9-5D8C5949B50A
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PSTARTUP_EX_ROUTINE, PSTARTUP_EX_ROUTINE callback function [Failover Cluster], StartupEx, StartupEx callback, StartupEx callback function [Failover Cluster], mscs.startupex, resapi/PSTARTUP_EX_ROUTINE, resapi/StartupEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

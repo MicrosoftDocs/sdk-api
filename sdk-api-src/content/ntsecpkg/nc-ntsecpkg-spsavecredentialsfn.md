@@ -7,7 +7,7 @@ old-location: security\spsavecredentials.htm
 old-project: SecAuthN
 ms.assetid: 15983acb-6fa3-4c53-9ede-a41db95c82f1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: SpSaveCredentials, SpSaveCredentials function [Security], SpSaveCredentialsFn, _ssp_spsavecredentials, ntsecpkg/SpSaveCredentials, security.spsavecredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr_getfunctionprovider.htm
 old-project: TSF
 ms.assetid: b320790a-4b54-4475-97e6-e59f083cfc09
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: GUID_APP_FUNCTIONPROVIDER, GUID_SYSTEM_FUNCTIONPROVIDER, GetFunctionProvider, GetFunctionProvider method [Text Services Framework], GetFunctionProvider method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],GetFunctionProvider method, ITfThreadMgr.GetFunctionProvider, ITfThreadMgr::GetFunctionProvider, _tsf_itfthreadmgr_getfunctionprovider_ref, msctf/ITfThreadMgr::GetFunctionProvider, tsf.itfthreadmgr_getfunctionprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\DWordMult.htm
 old-project: shell
 ms.assetid: 80fd88c1-b05b-468f-9dc7-c6a432e49d6d
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: DWordMult, DWordMult function [Windows Shell], ULongMult, _shell_DWordMult, intsafe/DWordMult, shell.DWordMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

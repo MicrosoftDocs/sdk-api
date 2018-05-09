@@ -7,7 +7,7 @@ old-location: display\engcreatedevicesurface.htm
 old-project: display
 ms.assetid: 9c3ca4c4-7614-4739-8333-202c6ec2eab8
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: EngCreateDeviceSurface, EngCreateDeviceSurface function [Display Devices], display.engcreatedevicesurface, gdifncs_0a48d849-3e93-4310-87e1-cd0b6882b4a4.xml, winddi/EngCreateDeviceSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

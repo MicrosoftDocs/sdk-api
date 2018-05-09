@@ -7,7 +7,7 @@ old-location: security\callpackagepassthrough.htm
 old-project: SecAuthN
 ms.assetid: 622856ca-f49e-4995-bead-7b02501a84e5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: CallPackagePassthrough, CallPackagePassthrough function [Security], LSA_CALL_PACKAGE_PASSTHROUGH, _ssp_callpackagepassthrough, ntsecpkg/CallPackagePassthrough, security.callpackagepassthrough
 ms.prod: windows-hardware
 ms.technology: windows-devices

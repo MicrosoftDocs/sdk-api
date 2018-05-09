@@ -7,7 +7,7 @@ old-location: security\opensamuser.htm
 old-project: SecAuthN
 ms.assetid: 1d9bfbe5-8dd2-4b0f-a19a-361eef8901a4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: FALSE, LSA_OPEN_SAM_USER, OpenSamUser, OpenSamUser function [Security], SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, TRUE, _ssp_opensamuser, ntsecpkg/OpenSamUser, security.opensamuser
 ms.prod: windows-hardware
 ms.technology: windows-devices

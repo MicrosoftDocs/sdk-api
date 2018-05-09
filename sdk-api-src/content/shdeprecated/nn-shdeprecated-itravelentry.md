@@ -7,7 +7,7 @@ old-location: shell\ITravelEntry.htm
 old-project: shell
 ms.assetid: b8a5d532-c1fd-4302-b983-cc9a74270321
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ITravelEntry, ITravelEntry interface [Windows Shell], ITravelEntry interface [Windows Shell],described, shdeprecated/ITravelEntry, shell.ITravelEntry, zone_ITravelEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

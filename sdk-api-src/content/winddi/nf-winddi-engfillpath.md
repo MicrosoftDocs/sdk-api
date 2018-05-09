@@ -7,7 +7,7 @@ old-location: display\engfillpath.htm
 old-project: display
 ms.assetid: 81c4ae89-391c-482b-b5dc-ef34d41607a1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: EngFillPath, EngFillPath function [Display Devices], display.engfillpath, gdifncs_5128f1e3-265b-4570-8504-1782a07268d5.xml, winddi/EngFillPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

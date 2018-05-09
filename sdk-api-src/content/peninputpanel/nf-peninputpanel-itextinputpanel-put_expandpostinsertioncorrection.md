@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_expandpostinsertioncorrection.htm
 old-project: tablet
 ms.assetid: fda9ac46-7aa0-4991-94df-d71772b90726
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: ExpandPostInsertionCorrection property [Tablet PC], ExpandPostInsertionCorrection property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],ExpandPostInsertionCorrection property, ITextInputPanel.ExpandPostInsertionCorrection, ITextInputPanel.get_ExpandPostInsertionCorrection, ITextInputPanel.put_ExpandPostInsertionCorrection, ITextInputPanel::ExpandPostInsertionCorrection, ITextInputPanel::get_ExpandPostInsertionCorrection, ITextInputPanel::put_ExpandPostInsertionCorrection, fda9ac46-7aa0-4991-94df-d71772b90726, peninputpanel/ITextInputPanel::ExpandPostInsertionCorrection, peninputpanel/ITextInputPanel::get_ExpandPostInsertionCorrection, peninputpanel/ITextInputPanel::put_ExpandPostInsertionCorrection, put_ExpandPostInsertionCorrection, tablet.itextinputpanel_expandpostinsertioncorrection
 ms.prod: windows-hardware
 ms.technology: windows-devices

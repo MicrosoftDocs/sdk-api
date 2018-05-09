@@ -7,7 +7,7 @@ old-location: security\npfmxgetpermcaps.htm
 old-project: SecAuthN
 ms.assetid: 1df2c1d4-ce70-494d-98e4-cda553403215
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: NPFMXGetPermCaps, NPFMXGetPermCaps function [Security], _mnp_npfmxgetpermcaps, npapi/NPFMXGetPermCaps, security.npfmxgetpermcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

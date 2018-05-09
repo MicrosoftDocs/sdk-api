@@ -7,7 +7,7 @@ old-location: shell\SHCreateStreamOnFile.htm
 old-project: shell
 ms.assetid: 9b1fd6c4-d7b0-40b9-bc9f-ea062a1079c1
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SHCreateStreamOnFile, SHCreateStreamOnFile function [Windows Shell], SHCreateStreamOnFileA, SHCreateStreamOnFileW, _win32_SHCreateStreamOnFile, shell.SHCreateStreamOnFile, shlwapi/SHCreateStreamOnFile, shlwapi/SHCreateStreamOnFileA, shlwapi/SHCreateStreamOnFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

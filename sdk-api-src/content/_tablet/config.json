@@ -1,0 +1,25 @@
+{
+  "tech": "tablet",
+  "headers": [
+    "comsvcs.h",
+    "winuser.h",
+    "wingdi.h",
+    "shobjidl_core.h",
+    "windows.ui.xaml.shapes.h",
+    "windows.ui.xaml.documents.h",
+    "msinkaut.h",
+    "msinkaut15.h",
+    "tpcshrd.h",
+    "tabflicks.h",
+    "iacom.h",
+    "iaguid.h",
+    "inked.h",
+    "journal.h",
+    "micaut.h",
+    "rtscom.h",
+    "recapis.h",
+    "rectypes.h",
+    "peninputpanel.h"
+  ],
+  "displayName": "Tablet PC"
+}

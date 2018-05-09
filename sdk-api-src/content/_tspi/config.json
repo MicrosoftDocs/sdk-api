@@ -1,0 +1,7 @@
+{
+  "tech": "tspi",
+  "headers": [
+    "tapi.h",
+    "tspi.h"
+  ]
+}

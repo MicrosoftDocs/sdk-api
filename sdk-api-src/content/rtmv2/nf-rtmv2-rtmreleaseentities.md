@@ -7,7 +7,7 @@ old-location: rras\rtmreleaseentities.htm
 old-project: RRAS
 ms.assetid: 1f6c4275-0129-4f27-b9b2-bfda33d34d21
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: RtmReleaseEntities, RtmReleaseEntities function [RAS], _rtmv2ref_rtmreleaseentities, rras.rtmreleaseentities, rtmv2/RtmReleaseEntities
 ms.prod: windows-hardware
 ms.technology: windows-devices

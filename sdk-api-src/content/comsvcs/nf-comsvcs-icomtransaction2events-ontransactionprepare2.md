@@ -7,7 +7,7 @@ old-location: cos\icomtransaction2events_ontransactionprepare2.htm
 old-project: cossdk
 ms.assetid: 1b2ea10f-7b74-474e-bdf1-040d789fa7c9
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IComTransaction2Events interface [COM+],OnTransactionPrepare2 method, IComTransaction2Events.OnTransactionPrepare2, IComTransaction2Events::OnTransactionPrepare2, OnTransactionPrepare2, OnTransactionPrepare2 method [COM+], OnTransactionPrepare2 method [COM+],IComTransaction2Events interface, _cos_IComTransaction2Events_OnTransactionPrepare2, comsvcs/IComTransaction2Events::OnTransactionPrepare2, cos.icomtransaction2events_ontransactionprepare2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\drvquerytruetypetable.htm
 old-project: display
 ms.assetid: d1c76df6-8c27-47b5-a879-4e064081481c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: DrvQueryTrueTypeTable, DrvQueryTrueTypeTable function [Display Devices], ddifncs_bcc0c4c9-b3f4-471d-8f04-1cca202e9d24.xml, display.drvquerytruetypetable, winddi/DrvQueryTrueTypeTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

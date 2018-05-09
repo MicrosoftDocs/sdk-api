@@ -7,7 +7,7 @@ old-location: tablet\iinkcustomstrokes_item.htm
 old-project: tablet
 ms.assetid: 14cdc466-2acf-4af0-8fbc-74233edf3884
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: 14cdc466-2acf-4af0-8fbc-74233edf3884, IInkCustomStrokes interface [Tablet PC],Item method, IInkCustomStrokes.Item, IInkCustomStrokes::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCustomStrokes interface, msinkaut/IInkCustomStrokes::Item, tablet.iinkcustomstrokes_item
 ms.prod: windows-hardware
 ms.technology: windows-devices

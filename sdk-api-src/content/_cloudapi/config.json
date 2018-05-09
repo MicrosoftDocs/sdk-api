@@ -1,0 +1,7 @@
+{
+  "tech": "cloudapi",
+  "headers": [
+    "cfapi.h"
+  ],
+  "displayName": "Cloud Api"
+}

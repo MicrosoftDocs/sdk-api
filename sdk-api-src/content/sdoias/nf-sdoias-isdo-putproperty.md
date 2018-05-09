@@ -7,7 +7,7 @@ old-location: nps\SDO_isdo_putproperty.htm
 old-project: Nps
 ms.assetid: c2e440a7-d58c-4542-bd0b-a06b810edd34
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: ISdo interface [Network Policy Server],PutProperty method, ISdo.PutProperty, ISdo::PutProperty, PutProperty, PutProperty method [Network Policy Server], PutProperty method [Network Policy Server],ISdo interface, _sdo_isdo_putproperty, nps.SDO_isdo_putproperty, sdo.isdo_putproperty, sdoias/ISdo::PutProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

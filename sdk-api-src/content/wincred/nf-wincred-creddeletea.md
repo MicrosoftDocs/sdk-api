@@ -7,7 +7,7 @@ old-location: security\creddelete.htm
 old-project: SecAuthN
 ms.assetid: 154af9c8-18fd-412d-899d-7c6d2138380d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: CredDelete, CredDelete function [Security], CredDeleteA, CredDeleteW, _cred_creddelete, security.creddelete, wincred/CredDelete, wincred/CredDeleteA, wincred/CredDeleteW
 ms.prod: windows-hardware
 ms.technology: windows-devices

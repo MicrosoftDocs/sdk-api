@@ -7,7 +7,7 @@ old-location: buses\usbuser_controller_unicode_name.htm
 old-project: usbref
 ms.assetid: 16c445cb-dac6-49de-b376-cee47644924d
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSBUSER_CONTROLLER_UNICODE_NAME, PUSBUSER_CONTROLLER_UNICODE_NAME, PUSBUSER_CONTROLLER_UNICODE_NAME structure pointer [Buses], USBUSER_CONTROLLER_UNICODE_NAME, USBUSER_CONTROLLER_UNICODE_NAME structure [Buses], _USBUSER_CONTROLLER_UNICODE_NAME, buses.usbuser_controller_unicode_name, usbstrct_c2cd9d6c-f92a-4478-9e4b-bf71ff834888.xml, usbuser/PUSBUSER_CONTROLLER_UNICODE_NAME, usbuser/USBUSER_CONTROLLER_UNICODE_NAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices

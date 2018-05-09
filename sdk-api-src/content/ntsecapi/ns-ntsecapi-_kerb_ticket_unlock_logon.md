@@ -7,7 +7,7 @@ old-location: security\kerb_ticket_unlock_logon.htm
 old-project: SecAuthN
 ms.assetid: 24daa3d1-1116-4b0b-a19b-a23075a69197
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PKERB_TICKET_UNLOCK_LOGON, KERB_TICKET_UNLOCK_LOGON, KERB_TICKET_UNLOCK_LOGON structure [Security], PKERB_TICKET_UNLOCK_LOGON, PKERB_TICKET_UNLOCK_LOGON structure pointer [Security], _KERB_TICKET_UNLOCK_LOGON, _lsa_kerb_ticket_unlock_logon, ntsecapi/KERB_TICKET_UNLOCK_LOGON, ntsecapi/PKERB_TICKET_UNLOCK_LOGON, security.kerb_ticket_unlock_logon"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dd_ntprivatedrivercaps.htm
 old-project: display
 ms.assetid: d802b080-cf94-400a-96c4-e765008dfc8a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: DD_NTPRIVATEDRIVERCAPS, DD_NTPRIVATEDRIVERCAPS structure [Display Devices], ddrawint/DD_NTPRIVATEDRIVERCAPS, ddstrcts_37e03d8c-1dc6-44d4-afe7-1f92acb58898.xml, display.dd_ntprivatedrivercaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

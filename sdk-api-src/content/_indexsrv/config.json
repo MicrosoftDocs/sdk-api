@@ -1,0 +1,12 @@
+{
+  "tech": "indexsrv",
+  "headers": [
+    "tbd",
+    "ntquery.h",
+    "filter.h",
+    "indexsrv.h",
+    "cierror.h",
+    "cmdtree.h"
+  ],
+  "displayName": "Indexing Service"
+}

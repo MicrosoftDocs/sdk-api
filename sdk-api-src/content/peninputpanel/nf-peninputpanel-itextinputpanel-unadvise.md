@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_unadvise.htm
 old-project: tablet
 ms.assetid: 8ea2c112-0d57-4da6-89da-5afe57ff2346
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: 8ea2c112-0d57-4da6-89da-5afe57ff2346, ITextInputPanel interface [Tablet PC],Unadvise method, ITextInputPanel.Unadvise, ITextInputPanel::Unadvise, Unadvise, Unadvise method [Tablet PC], Unadvise method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::Unadvise, tablet.itextinputpanel_unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

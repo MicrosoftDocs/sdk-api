@@ -7,7 +7,7 @@ old-location: mscs\clustergroupcollectioncontrol.htm
 old-project: MsCS
 ms.assetid: 20f0f70a-b300-41b8-b215-e5a3f24db44b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL, PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL callback, PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_GROUP_GROUPSET_CONTROL, mscs.clustergroupcollectioncontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

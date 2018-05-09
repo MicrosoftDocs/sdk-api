@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_beziercusps.htm
 old-project: tablet
 ms.assetid: 9fdd007a-1c8e-4389-975c-849a67be94a1
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: 9fdd007a-1c8e-4389-975c-849a67be94a1, BezierCusps property [Tablet PC], BezierCusps property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],BezierCusps property, IInkStrokeDisp.BezierCusps, IInkStrokeDisp.get_BezierCusps, IInkStrokeDisp::BezierCusps, IInkStrokeDisp::get_BezierCusps, get_BezierCusps, msinkaut/IInkStrokeDisp::BezierCusps, msinkaut/IInkStrokeDisp::get_BezierCusps, tablet.iinkstrokedisp_beziercusps
 ms.prod: windows-hardware
 ms.technology: windows-devices

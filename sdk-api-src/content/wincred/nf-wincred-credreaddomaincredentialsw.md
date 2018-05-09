@@ -7,7 +7,7 @@ old-location: security\credreaddomaincredentials.htm
 old-project: SecAuthN
 ms.assetid: b62cb9c9-2a64-4ef4-97f0-e1ea85976d3e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: CredReadDomainCredentials, CredReadDomainCredentials function [Security], CredReadDomainCredentialsA, CredReadDomainCredentialsW, _cred_credreaddomaincredentials, security.credreaddomaincredentials, wincred/CredReadDomainCredentials, wincred/CredReadDomainCredentialsA, wincred/CredReadDomainCredentialsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

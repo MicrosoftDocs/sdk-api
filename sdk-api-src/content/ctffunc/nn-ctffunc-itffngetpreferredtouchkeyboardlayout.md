@@ -7,7 +7,7 @@ old-location: tsf\itffngetpreferredtouchkeyboardlayout.htm
 old-project: TSF
 ms.assetid: 1BC4A446-AEDC-44AA-9BD7-786917AD2556
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfFnGetPreferredTouchKeyboardLayout, ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework], ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework],described, ctffunc/ITfFnGetPreferredTouchKeyboardLayout, tsf.itffngetpreferredtouchkeyboardlayout
 ms.prod: windows-hardware
 ms.technology: windows-devices

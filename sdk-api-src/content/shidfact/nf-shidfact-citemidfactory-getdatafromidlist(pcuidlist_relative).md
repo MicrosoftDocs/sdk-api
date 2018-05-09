@@ -7,7 +7,7 @@ old-location: shell\citemidfactory_getdatafromidlist.htm
 old-project: shell
 ms.assetid: E3E2233D-F424-4BF9-AAC4-4DC2FB75E214
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetDataFromIDList method, CItemIDFactory.GetDataFromIDList, CItemIDFactory.GetDataFromIDList(PCUIDLIST_RELATIVE), CItemIDFactory::GetDataFromIDList, CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE), GetDataFromIDList, GetDataFromIDList method [Windows Shell], GetDataFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getdatafromidlist, shidfact/CItemIDFactory::GetDataFromIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices

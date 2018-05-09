@@ -7,7 +7,7 @@ old-location: security\spfreecredentialshandle.htm
 old-project: SecAuthN
 ms.assetid: c8364202-d366-47a2-bc4a-c899588a78db
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: SpFreeCredentialsHandle, SpFreeCredentialsHandle function [Security], SpFreeCredentialsHandleFn, _ssp_spfreecredentialshandle, ntsecpkg/SpFreeCredentialsHandle, security.spfreecredentialshandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

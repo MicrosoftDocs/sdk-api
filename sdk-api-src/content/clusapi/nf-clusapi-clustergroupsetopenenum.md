@@ -7,7 +7,7 @@ old-location: mscs\clustergroupcollectionopenenum.htm
 old-project: MsCS
 ms.assetid: 9e629cc8-2e5f-4682-a9b5-902d13a9792d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: ClusterGroupSetOpenEnum, ClusterGroupSetOpenEnum function [Failover Cluster], clusapi/ClusterGroupSetOpenEnum, mscs.clustergroupcollectionopenenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

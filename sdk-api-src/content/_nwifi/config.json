@@ -1,0 +1,15 @@
+{
+  "tech": "nwifi",
+  "headers": [
+    "wfdsink.h",
+    "wlantypes.h",
+    "windot11.h",
+    "wlanapi.h",
+    "dot1x.h",
+    "ntddndis.h",
+    "l2cmn.h",
+    "adhoc.h",
+    "wzcsapi.h"
+  ],
+  "displayName": "Native Wifi"
+}

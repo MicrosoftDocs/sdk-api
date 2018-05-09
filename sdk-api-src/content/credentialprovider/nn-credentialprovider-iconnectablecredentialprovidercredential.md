@@ -7,7 +7,7 @@ old-location: shell\IConnectableCredentialProviderCredential.htm
 old-project: shell
 ms.assetid: fe5f3145-b428-42c9-ab1d-1c0e63c4454b
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IConnectableCredentialProviderCredential, IConnectableCredentialProviderCredential interface [Windows Shell], IConnectableCredentialProviderCredential interface [Windows Shell],described, _shell_IConnectableCredentialProviderCredential, credentialprovider/IConnectableCredentialProviderCredential, shell.IConnectableCredentialProviderCredential
 ms.prod: windows-hardware
 ms.technology: windows-devices

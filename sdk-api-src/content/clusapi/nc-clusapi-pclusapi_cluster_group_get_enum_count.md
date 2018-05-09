@@ -7,7 +7,7 @@ old-location: mscs\clustergroupgetenumcount.htm
 old-project: MsCS
 ms.assetid: 068cd55e-4220-447c-bf2f-a515503b7cc9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT callback, PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT callback function [Failover Cluster], _wolf_clustergroupgetenumcount, clusapi/PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT, mscs.clustergroupgetenumcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

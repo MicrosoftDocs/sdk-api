@@ -1,0 +1,9 @@
+{
+  "tech": "edp",
+  "headers": [
+    "efswrtinterop.h",
+    "srpapi.h",
+    "edpwin32.h"
+  ],
+  "displayName": "Windows Information Protection (WIP)"
+}

@@ -7,7 +7,7 @@ old-location: tsf\itfproperty_clear.htm
 old-project: TSF
 ms.assetid: bbfbbe0d-bea7-4c46-8b9c-6b607a761f48
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: Clear, Clear method [Text Services Framework], Clear method [Text Services Framework],ITfProperty interface, ITfProperty interface [Text Services Framework],Clear method, ITfProperty.Clear, ITfProperty::Clear, _tsf_itfproperty_clear_ref, msctf/ITfProperty::Clear, tsf.itfproperty_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

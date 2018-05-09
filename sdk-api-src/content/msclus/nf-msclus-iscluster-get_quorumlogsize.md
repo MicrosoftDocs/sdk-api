@@ -7,7 +7,7 @@ old-location: mscs\cluster_quorumlogsize.htm
 old-project: MsCS
 ms.assetid: 38dff875-1fb9-4173-9d47-a9a9643770fe
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: Cluster object [Failover Cluster],QuorumLogSize property, Cluster.QuorumLogSize, ISCluster.get_QuorumLogSize, ISCluster.put_QuorumLogSize, ISCluster::get_QuorumLogSize, QuorumLogSize property [Failover Cluster], QuorumLogSize property [Failover Cluster],Cluster object, _wolf_cluster.quorumlogsize, get_QuorumLogSize, mscs.cluster_quorumlogsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

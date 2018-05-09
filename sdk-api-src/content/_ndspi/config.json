@@ -1,0 +1,6 @@
+{
+  "tech": "ndspi",
+  "headers": [
+    "ndspi.h"
+  ]
+}

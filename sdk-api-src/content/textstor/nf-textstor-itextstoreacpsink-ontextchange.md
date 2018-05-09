@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpsink_ontextchange.htm
 old-project: TSF
 ms.assetid: ed11ebb8-312b-40c7-90de-f5aa7591afd2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: 0, ITextStoreACPSink interface [Text Services Framework],OnTextChange method, ITextStoreACPSink.OnTextChange, ITextStoreACPSink::OnTextChange, OnTextChange, OnTextChange method [Text Services Framework], OnTextChange method [Text Services Framework],ITextStoreACPSink interface, TS_ST_CORRECTION, _tsf_itextstoreacpsink_ontextchange_ref, textstor/ITextStoreACPSink::OnTextChange, tsf.itextstoreacpsink_ontextchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

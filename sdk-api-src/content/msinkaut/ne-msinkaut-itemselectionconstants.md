@@ -7,7 +7,7 @@ old-location: tablet\itemselectionconstants.htm
 old-project: tablet
 ms.assetid: 785b5ac7-b629-4948-a8bf-e92b74dacdb7
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: 785b5ac7-b629-4948-a8bf-e92b74dacdb7, ISC_AllElements, ISC_FirstElement, InkSelectionConstants, InkSelectionConstants enumeration [Tablet PC], ItemSelectionConstants, ItemSelectionConstants enumeration [Tablet PC], msinkaut/ISC_AllElements, msinkaut/ISC_FirstElement, msinkaut/ItemSelectionConstants, tablet.itemselectionconstants
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_enabled.htm
 old-project: tablet
 ms.assetid: ab55a399-1990-4cfc-a4ab-834a5db8d7a9
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],InkCollector class, IInkCollector.put_Enabled, IInkCollector::put_Enabled, InkCollector class [Tablet PC],Enabled property, InkCollector.Enabled, InkCollector.get_Enabled, InkCollector.put_Enabled, ab55a399-1990-4cfc-a4ab-834a5db8d7a9, get_Enabled, put_Enabled, tablet.inkcollector_enabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

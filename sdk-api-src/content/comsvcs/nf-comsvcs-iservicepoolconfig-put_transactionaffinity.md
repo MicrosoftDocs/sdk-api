@@ -7,7 +7,7 @@ old-location: cos\iservicepoolconfig_put_transactionaffinity.htm
 old-project: cossdk
 ms.assetid: 2f69bae2-560d-455b-b1b4-922c2fb4563a
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_TransactionAffinity method, IServicePoolConfig.put_TransactionAffinity, IServicePoolConfig::put_TransactionAffinity, comsvcs/IServicePoolConfig::put_TransactionAffinity, cos.iservicepoolconfig_put_transactionaffinity, put_TransactionAffinity, put_TransactionAffinity method [COM+], put_TransactionAffinity method [COM+],IServicePoolConfig interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

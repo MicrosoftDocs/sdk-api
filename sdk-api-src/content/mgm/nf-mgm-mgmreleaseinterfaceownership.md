@@ -7,7 +7,7 @@ old-location: rras\mgmreleaseinterfaceownership.htm
 old-project: RRAS
 ms.assetid: 501970f7-7728-4a83-8f4b-207579d65d01
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MgmReleaseInterfaceOwnership, MgmReleaseInterfaceOwnership function [RAS], _mpr_mgmreleaseinterfaceownership, mgm/MgmReleaseInterfaceOwnership, rras.mgmreleaseinterfaceownership
 ms.prod: windows-hardware
 ms.technology: windows-devices

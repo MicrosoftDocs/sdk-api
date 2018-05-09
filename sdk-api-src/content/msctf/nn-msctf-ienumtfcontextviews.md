@@ -7,7 +7,7 @@ old-location: tsf\ienumtfcontextviews.htm
 old-project: TSF
 ms.assetid: d9b4be70-0ef3-421a-9c9a-18533d563170
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: IEnumTfContextViews, IEnumTfContextViews interface [Text Services Framework], IEnumTfContextViews interface [Text Services Framework],described, _tsf_ienumtfcontextviews_ref, msctf/IEnumTfContextViews, tsf.ienumtfcontextviews
 ms.prod: windows-hardware
 ms.technology: windows-devices

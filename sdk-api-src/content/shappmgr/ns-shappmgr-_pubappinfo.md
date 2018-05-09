@@ -7,7 +7,7 @@ old-location: shell\PUBAPPINFO.htm
 old-project: shell
 ms.assetid: 927c58d3-4208-4fd3-a3fa-18ae7d8d3136
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: "*PPUBAPPINFO, PUBAPPINFO, PUBAPPINFO structure [Windows Shell], _PubAppInfo, inet_PUBAPPINFO, shappmgr/PUBAPPINFO, shell.PUBAPPINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

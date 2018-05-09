@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_eapkeyblock.htm
 old-project: SecAuthN
 ms.assetid: c1b1f1d1-20f9-4a16-a279-b9cc95ff4e64
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock structure pointer [Security], SecPkgContext_EapKeyBlock, SecPkgContext_EapKeyBlock structure [Security], _SecPkgContext_EapKeyBlock, schannel/PSecPkgContext_EapKeyBlock, schannel/SecPkgContext_EapKeyBlock, security.secpkgcontext_eapkeyblock"
 ms.prod: windows-hardware
 ms.technology: windows-devices

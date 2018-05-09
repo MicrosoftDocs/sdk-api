@@ -7,7 +7,7 @@ old-location: mscs\closeclustergroup.htm
 old-project: MsCS
 ms.assetid: 5bbacf45-2e1a-402a-8592-c8f60034c4ad
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_CLOSE_CLUSTER_GROUP, PCLUSAPI_CLOSE_CLUSTER_GROUP callback, PCLUSAPI_CLOSE_CLUSTER_GROUP callback function [Failover Cluster], _wolf_closeclustergroup, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP, mscs.closeclustergroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

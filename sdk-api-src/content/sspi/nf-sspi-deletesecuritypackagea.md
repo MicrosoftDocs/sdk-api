@@ -7,7 +7,7 @@ old-location: security\deletesecuritypackage.htm
 old-project: SecAuthN
 ms.assetid: 7a9a2c64-92a4-419b-8b20-d0f5cba64147
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: DeleteSecurityPackage, DeleteSecurityPackage function [Security], DeleteSecurityPackageA, DeleteSecurityPackageW, security.deletesecuritypackage, sspi/DeleteSecurityPackage, sspi/DeleteSecurityPackageA, sspi/DeleteSecurityPackageW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfcompartment_getvalue.htm
 old-project: TSF
 ms.assetid: 31a9efbd-ebde-4877-a387-ebaccd97d732
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: GetValue, GetValue method [Text Services Framework], GetValue method [Text Services Framework],ITfCompartment interface, ITfCompartment interface [Text Services Framework],GetValue method, ITfCompartment.GetValue, ITfCompartment::GetValue, _tsf_itfcompartment_getvalue_ref, msctf/ITfCompartment::GetValue, tsf.itfcompartment_getvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

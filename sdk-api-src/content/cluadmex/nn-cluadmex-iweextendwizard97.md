@@ -7,7 +7,7 @@ old-location: mscs\iweextendwizard97.htm
 old-project: MsCS
 ms.assetid: 3473dc89-8676-4b13-b3c8-f112c0b9cf8c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: IWEExtendWizard97, IWEExtendWizard97 interface [Failover Cluster], IWEExtendWizard97 interface [Failover Cluster],described, _wolf_iweextendwizard97, cluadmex/IWEExtendWizard97, mscs.iweextendwizard97
 ms.prod: windows-hardware
 ms.technology: windows-devices

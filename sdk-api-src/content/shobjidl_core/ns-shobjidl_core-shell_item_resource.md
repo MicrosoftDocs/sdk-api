@@ -7,7 +7,7 @@ old-location: shell\SHELL_ITEM_RESOURCE.htm
 old-project: shell
 ms.assetid: 92ca56a2-e2c3-4651-aa29-115eb07119e9
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SHELL_ITEM_RESOURCE, SHELL_ITEM_RESOURCE structure [Windows Shell], _shell_SHELL_ITEM_RESOURCE, shell.SHELL_ITEM_RESOURCE, shobjidl_core/SHELL_ITEM_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices

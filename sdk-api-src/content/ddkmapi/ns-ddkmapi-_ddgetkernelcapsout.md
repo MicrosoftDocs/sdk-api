@@ -7,7 +7,7 @@ old-location: display\ddgetkernelcapsout.htm
 old-project: display
 ms.assetid: 7c0ccd18-3892-4512-9957-1ac01fa83f0f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*LPDDGETKERNELCAPSOUT, DDGETKERNELCAPSOUT, DDGETKERNELCAPSOUT structure [Display Devices], LPDDGETKERNELCAPSOUT, LPDDGETKERNELCAPSOUT structure pointer [Display Devices], _DDGETKERNELCAPSOUT, ddkmapi/DDGETKERNELCAPSOUT, ddkmapi/LPDDGETKERNELCAPSOUT, ddstrcts_4879ba8e-459c-4b10-b43a-854a85d4e10f.xml, display.ddgetkernelcapsout"
 ms.prod: windows-hardware
 ms.technology: windows-devices

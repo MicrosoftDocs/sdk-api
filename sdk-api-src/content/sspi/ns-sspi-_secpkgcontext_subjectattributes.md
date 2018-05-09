@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_subjectattributes.htm
 old-project: SecAuthN
 ms.assetid: 548E972F-EB94-4BBD-94F2-FA38184D179A
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PSecPkgContext_SubjectAttributes, PSecPkgContext_SubjectAttributes, PSecPkgContext_SubjectAttributes structure pointer [Security], SecPkgContext_SubjectAttributes, SecPkgContext_SubjectAttributes structure [Security], _SecPkgContext_SubjectAttributes, security.secpkgcontext_subjectattributes, sspi/PSecPkgContext_SubjectAttributes, sspi/SecPkgContext_SubjectAttributes"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\interfacestatus.htm
 old-project: RRAS
 ms.assetid: 8fd674a6-375e-450c-bd6b-4f252977dd8e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: InterfaceStatus, InterfaceStatus callback function [RAS], PINTERFACE_STATUS, PINTERFACE_STATUS callback, _mpr_interfacestatus, routprot/InterfaceStatus, rras.interfacestatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\cluster_nodes.htm
 old-project: MsCS
 ms.assetid: 690c9635-114f-4109-a9b9-4ebb1961c58b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: Cluster object [Failover Cluster],Nodes property, Cluster.Nodes, ISCluster.get_Nodes, ISCluster::get_Nodes, Nodes property [Failover Cluster], Nodes property [Failover Cluster],Cluster object, _wolf_cluster.nodes, get_Nodes, mscs.cluster_nodes
 ms.prod: windows-hardware
 ms.technology: windows-devices

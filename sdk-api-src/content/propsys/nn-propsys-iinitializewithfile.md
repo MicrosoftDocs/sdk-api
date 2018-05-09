@@ -7,7 +7,7 @@ old-location: shell\IInitializeWithFile.htm
 old-project: shell
 ms.assetid: 323181ab-1dc2-4b2a-a91f-3eccd7968bcd
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IInitializeWithFile, IInitializeWithFile interface [Windows Shell], IInitializeWithFile interface [Windows Shell],described, propsys/IInitializeWithFile, shell.IInitializeWithFile, shell_IInitializeWithFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

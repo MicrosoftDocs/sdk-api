@@ -7,7 +7,7 @@ old-location: tablet\setenabledunicoderanges.htm
 old-project: tablet
 ms.assetid: 68c7c06b-eab1-419d-ad58-22cbd4c3065e
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: 68c7c06b-eab1-419d-ad58-22cbd4c3065e, SetEnabledUnicodeRanges, SetEnabledUnicodeRanges function [Tablet PC], recapis/SetEnabledUnicodeRanges, tablet.setenabledunicoderanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

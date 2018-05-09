@@ -7,7 +7,7 @@ old-location: cos\crmregflags.htm
 old-project: cossdk
 ms.assetid: 94178edf-fd0d-4d8d-8bf8-ced17f65d82f
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: CRMREGFLAGS, CRMREGFLAGS enumeration [COM+], CRMREGFLAG_ABORTPHASE, CRMREGFLAG_ALLPHASES, CRMREGFLAG_COMMITPHASE, CRMREGFLAG_FAILIFINDOUBTSREMAIN, CRMREGFLAG_PREPAREPHASE, _cos_CRMREGFLAGS, comsvcs/CRMREGFLAGS, comsvcs/CRMREGFLAG_ABORTPHASE, comsvcs/CRMREGFLAG_ALLPHASES, comsvcs/CRMREGFLAG_COMMITPHASE, comsvcs/CRMREGFLAG_FAILIFINDOUBTSREMAIN, comsvcs/CRMREGFLAG_PREPAREPHASE, cos.crmregflags, tagCRMREGFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

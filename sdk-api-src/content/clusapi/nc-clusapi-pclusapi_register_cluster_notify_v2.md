@@ -7,7 +7,7 @@ old-location: mscs\registerclusternotifyv2.htm
 old-project: MsCS
 ms.assetid: DCBE285A-7386-4922-8599-19149FEBBD9F
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2, PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2 callback, PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2 callback function [Failover Cluster], clusapi/PCLUSAPI_REGISTER_CLUSTER_NOTIFY_V2, mscs.registerclusternotifyv2
 ms.prod: windows-hardware
 ms.technology: windows-devices

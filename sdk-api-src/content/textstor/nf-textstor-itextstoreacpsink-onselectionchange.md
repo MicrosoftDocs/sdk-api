@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpsink_onselectionchange.htm
 old-project: TSF
 ms.assetid: 500333ae-06dc-4194-a21b-e03c1acc9f9a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnSelectionChange method, ITextStoreACPSink.OnSelectionChange, ITextStoreACPSink::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onselectionchange_ref, textstor/ITextStoreACPSink::OnSelectionChange, tsf.itextstoreacpsink_onselectionchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dd_getheapalignmentdata.htm
 old-project: display
 ms.assetid: 5bdc13e3-396d-45f6-8c90-a831bbb23628
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: "*PDD_GETHEAPALIGNMENTDATA, DD_GETHEAPALIGNMENTDATA, DD_GETHEAPALIGNMENTDATA structure [Display Devices], PDD_GETHEAPALIGNMENTDATA, PDD_GETHEAPALIGNMENTDATA structure pointer [Display Devices], _DD_GETHEAPALIGNMENTDATA, ddstrcts_f3e28642-cebe-4512-9ef4-20cc707a4459.xml, display.dd_getheapalignmentdata, dmemmgr/DD_GETHEAPALIGNMENTDATA, dmemmgr/PDD_GETHEAPALIGNMENTDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

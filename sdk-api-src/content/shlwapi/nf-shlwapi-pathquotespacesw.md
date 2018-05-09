@@ -7,7 +7,7 @@ old-location: shell\PathQuoteSpaces.htm
 old-project: shell
 ms.assetid: 76a51c21-b924-4919-a6bb-8c6bdec5b3f0
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: PathQuoteSpaces, PathQuoteSpaces function [Windows Shell], PathQuoteSpacesA, PathQuoteSpacesW, _win32_PathQuoteSpaces, shell.PathQuoteSpaces, shlwapi/PathQuoteSpaces, shlwapi/PathQuoteSpacesA, shlwapi/PathQuoteSpacesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

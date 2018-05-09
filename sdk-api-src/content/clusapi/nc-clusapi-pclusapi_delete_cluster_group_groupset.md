@@ -7,7 +7,7 @@ old-location: mscs\deleteclustergroupcollection.htm
 old-project: MsCS
 ms.assetid: 8787d61b-7a80-404c-985f-1ad4ba01acf0
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET callback, PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET callback function [Failover Cluster], clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET, mscs.deleteclustergroupcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

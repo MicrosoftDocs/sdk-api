@@ -7,7 +7,7 @@ old-location: tsf\itffnlminternal.htm
 old-project: TSF
 ms.assetid: 319bccb3-0c33-4910-91c8-1c81cc309fc1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfFnLMInternal, ITfFnLMInternal interface [Text Services Framework], ITfFnLMInternal interface [Text Services Framework],described, _tsf_itffnlminternal_ref, ctffunc/ITfFnLMInternal, tsf.itffnlminternal
 ms.prod: windows-hardware
 ms.technology: windows-devices

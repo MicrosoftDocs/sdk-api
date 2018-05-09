@@ -7,7 +7,7 @@ old-location: rras\mibsettrapinfo.htm
 old-project: RRAS
 ms.assetid: 28056113-82a5-4493-ba49-509db3606fa0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MibSetTrapInfo, MibSetTrapInfo callback function [RAS], PMIB_SET_TRAP_INFO, PMIB_SET_TRAP_INFO callback, _mpr_mibsettrapinfo, routprot/MibSetTrapInfo, rras.mibsettrapinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ITravelLog_Revert.htm
 old-project: shell
 ms.assetid: 202ce028-d64c-4733-8006-1bdb1efa8ad3
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ITravelLog interface [Windows Shell],Revert method, ITravelLog.Revert, ITravelLog::Revert, Revert, Revert method [Windows Shell], Revert method [Windows Shell],ITravelLog interface, shdeprecated/ITravelLog::Revert, shell.ITravelLog_Revert, zone_ITravelLog_Revert
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\drvenablepdev.htm
 old-project: display
 ms.assetid: 9a7ed18a-f21c-486b-9261-59a3fe5aef9e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: DrvEnablePDEV, DrvEnablePDEV function [Display Devices], ddifncs_62a5b81b-a608-4da0-8315-3268fb6f65da.xml, display.drvenablepdev, winddi/DrvEnablePDEV
 ms.prod: windows-hardware
 ms.technology: windows-devices

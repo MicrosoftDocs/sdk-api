@@ -7,7 +7,7 @@ old-location: shell\ULongLongToDWord.htm
 old-project: shell
 ms.assetid: 7b3c3d2d-e509-4b55-88aa-1d183ab0a41c
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ULongLongToDWord, ULongLongToDWord function [Windows Shell], ULongLongToULong, _shell_ULongLongToDWord, intsafe/ULongLongToDWord, shell.ULongLongToDWord
 ms.prod: windows-hardware
 ms.technology: windows-devices

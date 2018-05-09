@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofilesex.htm
 old-project: TSF
 ms.assetid: c3d811df-dfa4-4de1-abb9-ff0291258c8c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfInputProcessorProfilesEx, ITfInputProcessorProfilesEx interface [Text Services Framework], ITfInputProcessorProfilesEx interface [Text Services Framework],described, msctf/ITfInputProcessorProfilesEx, tsf.itfinputprocessorprofilesex
 ms.prod: windows-hardware
 ms.technology: windows-devices

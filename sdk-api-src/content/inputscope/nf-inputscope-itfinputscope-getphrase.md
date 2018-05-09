@@ -7,7 +7,7 @@ old-location: tsf\itfinputscope_getphrase.htm
 old-project: TSF
 ms.assetid: 9a97dab0-2e3d-4921-80a6-0f2c79fbf4aa
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: GetPhrase, GetPhrase method [Text Services Framework], GetPhrase method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetPhrase method, ITfInputScope.GetPhrase, ITfInputScope::GetPhrase, inputscope/ITfInputScope::GetPhrase, tsf.itfinputscope_getphrase
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\LongLongMult.htm
 old-project: shell
 ms.assetid: 71f9cef9-33a2-48f2-a14f-aad364116e93
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: LongLongMult, LongLongMult function [Windows Shell], intsafe/LongLongMult, shell.LongLongMult
 ms.prod: windows-hardware
 ms.technology: windows-devices

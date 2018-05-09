@@ -7,7 +7,7 @@ old-location: mscs\igetclusteruiinfo_getclustername.htm
 old-project: MsCS
 ms.assetid: 2c892250-80b7-4bf8-9514-64833d0e3450
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: GetClusterName, GetClusterName method [Failover Cluster], GetClusterName method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetClusterName method, IGetClusterUIInfo.GetClusterName, IGetClusterUIInfo::GetClusterName, _wolf_igetclusteruiinfo_getclustername, cluadmex/IGetClusterUIInfo::GetClusterName, mscs.igetclusteruiinfo_getclustername
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\settextcontext.htm
 old-project: tablet
 ms.assetid: f5461326-3def-4564-81ea-32a63b889da0
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: SetTextContext, SetTextContext function [Tablet PC], f5461326-3def-4564-81ea-32a63b889da0, recapis/SetTextContext, tablet.settextcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfproperty_setvalue.htm
 old-project: TSF
 ms.assetid: 72064f9f-311e-4d7b-9ead-4fe2b7f528a8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfProperty interface [Text Services Framework],SetValue method, ITfProperty.SetValue, ITfProperty::SetValue, SetValue, SetValue method [Text Services Framework], SetValue method [Text Services Framework],ITfProperty interface, _tsf_itfproperty_setvalue_ref, msctf/ITfProperty::SetValue, tsf.itfproperty_setvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

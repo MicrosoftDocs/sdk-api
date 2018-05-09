@@ -7,7 +7,7 @@ old-location: security\secpkg_dll_functions.htm
 old-project: SecAuthN
 ms.assetid: a7881f06-792c-4791-9aa6-9a7eb202020b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: "*PSECPKG_DLL_FUNCTIONS, PSECPKG_DLL_FUNCTIONS, PSECPKG_DLL_FUNCTIONS structure pointer [Security], SECPKG_DLL_FUNCTIONS, SECPKG_DLL_FUNCTIONS structure [Security], _SECPKG_DLL_FUNCTIONS, _ssp_secpkg_dll_functions, ntsecpkg/PSECPKG_DLL_FUNCTIONS, ntsecpkg/SECPKG_DLL_FUNCTIONS, security.secpkg_dll_functions"
 ms.prod: windows-hardware
 ms.technology: windows-devices

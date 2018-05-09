@@ -7,7 +7,7 @@ old-location: shell\ULongPtrSub.htm
 old-project: shell
 ms.assetid: 29cc4dec-e02d-4ce4-a615-9b62bd08befb
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: ULongPtrSub, ULongPtrSub function [Windows Shell], _shell_ULongPtrSub, intsafe/ULongPtrSub, shell.ULongPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

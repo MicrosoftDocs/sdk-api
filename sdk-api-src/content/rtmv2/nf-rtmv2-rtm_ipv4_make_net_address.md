@@ -7,7 +7,7 @@ old-location: rras\rtm_ipv4_make_net_address.htm
 old-project: RRAS
 ms.assetid: 9a5d9ee0-8199-420b-9489-068d1171e647
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: RTM_IPV4_MAKE_NET_ADDRESS, RTM_IPV4_MAKE_NET_ADDRESS macro [RAS], _rtmv2ref_rtm_ipv4_make_net_address, rras.rtm_ipv4_make_net_address, rtmv2/RTM_IPV4_MAKE_NET_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices

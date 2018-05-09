@@ -7,7 +7,7 @@ old-location: rras\rtmdeleteenumhandle.htm
 old-project: RRAS
 ms.assetid: 87477e25-d4bc-44d2-932b-f266b0bdaafa
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: RtmDeleteEnumHandle, RtmDeleteEnumHandle function [RAS], _rtmv2ref_rtmdeleteenumhandle, rras.rtmdeleteenumhandle, rtmv2/RtmDeleteEnumHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

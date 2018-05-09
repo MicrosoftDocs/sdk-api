@@ -7,7 +7,7 @@ old-location: shell\StrCpy.htm
 old-project: shell
 ms.assetid: 83d1a8dc-fc43-4b06-b36c-c9c91d779d25
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: StrCpy, StrCpy function [Windows Shell], StrCpyW, _win32_StrCpy, shell.StrCpy, shlwapi/StrCpy, shlwapi/StrCpyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\scardintroducereadergroup.htm
 old-project: SecAuthN
 ms.assetid: aaf7d2f9-71d5-42bb-a96f-71124be40aa3
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardIntroduceReaderGroup, SCardIntroduceReaderGroup function [Security], SCardIntroduceReaderGroupA, SCardIntroduceReaderGroupW, _smart_scardintroducereadergroup, security.scardintroducereadergroup, winscard/SCardIntroduceReaderGroup, winscard/SCardIntroduceReaderGroupA, winscard/SCardIntroduceReaderGroupW
 ms.prod: windows-hardware
 ms.technology: windows-devices

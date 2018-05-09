@@ -1,0 +1,6 @@
+{
+  "tech": "vspixengine",
+  "headers": [
+    "vspixengine.h"
+  ]
+}

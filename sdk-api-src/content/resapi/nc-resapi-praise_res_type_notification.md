@@ -7,7 +7,7 @@ old-location: mscs\raiserestypenotification.htm
 old-project: MsCS
 ms.assetid: 9F5C8008-6B7B-4CA9-896C-15E5A3FB68C9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PRAISE_RES_TYPE_NOTIFICATION, PRAISE_RES_TYPE_NOTIFICATION callback function [Failover Cluster], RaiseResTypeNotification, RaiseResTypeNotification callback, RaiseResTypeNotification callback function [Failover Cluster], mscs.raiserestypenotification, resapi/PRAISE_RES_TYPE_NOTIFICATION, resapi/RaiseResTypeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

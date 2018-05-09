@@ -7,7 +7,7 @@ old-location: shell\FolderItems2_Object.htm
 old-project: shell
 ms.assetid: 0ca0efb3-6831-4561-9fd1-6d0b62704931
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: FolderItems2, FolderItems2 object [Windows Shell], FolderItems2 object [Windows Shell],described, _win32_FolderItems2_Object, shell.FolderItems2_Object, shldisp/FolderItems2
 ms.prod: windows-hardware
 ms.technology: windows-devices

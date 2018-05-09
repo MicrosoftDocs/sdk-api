@@ -1,0 +1,7 @@
+{
+  "tech": "battery",
+  "headers": [
+    "batclass.h"
+  ],
+  "displayName": "Battery Devices Reference"
+}

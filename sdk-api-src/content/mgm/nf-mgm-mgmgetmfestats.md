@@ -7,7 +7,7 @@ old-location: rras\mgmgetmfestats.htm
 old-project: RRAS
 ms.assetid: 16c4b403-0477-47da-9f98-55f8368dca15
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MGM_MFE_STATS_0, MGM_MFE_STATS_1, MgmGetMfeStats, MgmGetMfeStats function [RAS], _mpr_mgmgetmfestats, mgm/MgmGetMfeStats, rras.mgmgetmfestats
 ms.prod: windows-hardware
 ms.technology: windows-devices

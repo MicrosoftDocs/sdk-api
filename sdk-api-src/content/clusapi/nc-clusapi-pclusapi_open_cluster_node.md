@@ -7,7 +7,7 @@ old-location: mscs\openclusternode.htm
 old-project: MsCS
 ms.assetid: 7658a030-d4b2-407c-829f-61491b5907e6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PCLUSAPI_OPEN_CLUSTER_NODE, PCLUSAPI_OPEN_CLUSTER_NODE callback, PCLUSAPI_OPEN_CLUSTER_NODE callback function [Failover Cluster], _wolf_openclusternode, clusapi/PCLUSAPI_OPEN_CLUSTER_NODE, mscs.openclusternode
 ms.prod: windows-hardware
 ms.technology: windows-devices

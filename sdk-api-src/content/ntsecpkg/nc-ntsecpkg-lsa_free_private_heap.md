@@ -7,7 +7,7 @@ old-location: security\freeprivateheap.htm
 old-project: SecAuthN
 ms.assetid: f1ca1450-c59c-4c0f-b68b-373f1a7c70da
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: FreePrivateHeap, FreePrivateHeap function [Security], LSA_FREE_PRIVATE_HEAP, ntsecpkg/FreePrivateHeap, security.freeprivateheap
 ms.prod: windows-hardware
 ms.technology: windows-devices

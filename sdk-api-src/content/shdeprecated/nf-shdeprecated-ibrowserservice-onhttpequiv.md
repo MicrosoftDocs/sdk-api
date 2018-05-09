@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_OnHttpEquiv.htm
 old-project: shell
 ms.assetid: 9920c08b-c0c3-4359-9c00-3a1063cea0c7
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: FALSE, IBrowserService interface [Windows Shell],OnHttpEquiv method, IBrowserService.OnHttpEquiv, IBrowserService::OnHttpEquiv, OnHttpEquiv, OnHttpEquiv method [Windows Shell], OnHttpEquiv method [Windows Shell],IBrowserService interface, TRUE, shdeprecated/IBrowserService::OnHttpEquiv, shell.IBrowserService_OnHttpEquiv, zone_IBrowserService_OnHttpEquiv
 ms.prod: windows-hardware
 ms.technology: windows-devices

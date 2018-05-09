@@ -7,7 +7,7 @@ old-location: shell\IntlStrEqWorker.htm
 old-project: shell
 ms.assetid: bc8e823e-79b2-49fd-950d-96a6e7256377
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: IntlStrEqWorker, IntlStrEqWorker function [Windows Shell], IntlStrEqWorkerA, IntlStrEqWorkerW, _win32_IntlStrEqWorker, shell.IntlStrEqWorker, shlwapi/IntlStrEqWorker, shlwapi/IntlStrEqWorkerA, shlwapi/IntlStrEqWorkerW
 ms.prod: windows-hardware
 ms.technology: windows-devices

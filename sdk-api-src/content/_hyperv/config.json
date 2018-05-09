@@ -1,0 +1,13 @@
+{
+  "tech": "hyperv",
+  "headers": [
+    "winreg.h",
+    "mpconfig.h",
+    "sdoias.h",
+    "vmgenerationcounter.h",
+    "mmc.h",
+    "dbdao.h",
+    "dbdaoint.h"
+  ],
+  "displayName": "Hyper-V management"
+}

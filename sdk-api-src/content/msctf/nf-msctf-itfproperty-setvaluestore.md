@@ -7,7 +7,7 @@ old-location: tsf\itfproperty_setvaluestore.htm
 old-project: TSF
 ms.assetid: 146af429-54a8-41b6-b44e-b5d35f933435
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: ITfProperty interface [Text Services Framework],SetValueStore method, ITfProperty.SetValueStore, ITfProperty::SetValueStore, SetValueStore, SetValueStore method [Text Services Framework], SetValueStore method [Text Services Framework],ITfProperty interface, _tsf_itfproperty_setvaluestore_ref, msctf/ITfProperty::SetValueStore, tsf.itfproperty_setvaluestore
 ms.prod: windows-hardware
 ms.technology: windows-devices

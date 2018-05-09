@@ -7,7 +7,7 @@ old-location: tablet\iinkcursorbutton_name.htm
 old-project: tablet
 ms.assetid: a431a359-12ea-4ac2-a966-6ad45a63e646
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: IInkCursorButton interface [Tablet PC],Name property, IInkCursorButton.Name, IInkCursorButton.get_Name, IInkCursorButton::Name, IInkCursorButton::get_Name, Name property [Tablet PC], Name property [Tablet PC],IInkCursorButton interface, get_Name, msinkaut/IInkCursorButton::Name, msinkaut/IInkCursorButton::get_Name, tablet.iinkcursorbutton_name
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\querypower.htm
 old-project: RRAS
 ms.assetid: 591082fb-ef1e-4271-bf6c-d5034bdbae99
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: PQUERY_POWER, PQUERY_POWER callback, QueryPower, QueryPower callback function [RAS], _mpr_querypower, routprot/QueryPower, rras.querypower
 ms.prod: windows-hardware
 ms.technology: windows-devices

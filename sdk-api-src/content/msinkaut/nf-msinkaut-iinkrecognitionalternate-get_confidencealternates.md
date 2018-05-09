@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_confidencealternates.htm
 old-project: tablet
 ms.assetid: ef3ab614-7aff-4660-bb2a-783f14e75b94
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/7/2018
 ms.keywords: ConfidenceAlternates property [Tablet PC], ConfidenceAlternates property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],ConfidenceAlternates property, IInkRecognitionAlternate.ConfidenceAlternates, IInkRecognitionAlternate.get_ConfidenceAlternates, IInkRecognitionAlternate::ConfidenceAlternates, IInkRecognitionAlternate::get_ConfidenceAlternates, ef3ab614-7aff-4660-bb2a-783f14e75b94, get_ConfidenceAlternates, msinkaut/IInkRecognitionAlternate::ConfidenceAlternates, msinkaut/IInkRecognitionAlternate::get_ConfidenceAlternates, tablet.iinkrecognitionalternate_confidencealternates
 ms.prod: windows-hardware
 ms.technology: windows-devices

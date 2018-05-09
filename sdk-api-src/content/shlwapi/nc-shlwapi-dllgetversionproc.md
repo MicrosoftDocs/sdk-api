@@ -7,7 +7,7 @@ old-location: shell\DllGetVersion.htm
 old-project: shell
 ms.assetid: d7ec0f7d-ba2f-4aa4-b867-a2615244a580
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: DLLGETVERSIONPROC, DLLGETVERSIONPROC callback, DllGetVersion, DllGetVersion callback function [Windows Shell], _win32_DllGetVersion, _win32_DllGetVersion_cpp, shell.DllGetVersion, shlwapi/DllGetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

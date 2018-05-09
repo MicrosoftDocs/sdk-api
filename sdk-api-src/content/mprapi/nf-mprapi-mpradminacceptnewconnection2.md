@@ -7,7 +7,7 @@ old-location: rras\mpradminacceptnewconnection2.htm
 old-project: RRAS
 ms.assetid: 72cdcb3c-c44c-405c-ab4b-93bf9c628acf
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MprAdminAcceptNewConnection2, MprAdminAcceptNewConnection2 callback, MprAdminAcceptNewConnection2 callback function [RAS], _mpr_mpradminacceptnewconnection2, mprapi/MprAdminAcceptNewConnection2, rras.mpradminacceptnewconnection2
 ms.prod: windows-hardware
 ms.technology: windows-devices

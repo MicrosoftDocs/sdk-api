@@ -7,7 +7,7 @@ old-location: cos\icomthreadevents_onthreadterminate.htm
 old-project: cossdk
 ms.assetid: 8483962c-46c9-4ef1-8c7e-391a04334293
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadTerminate method, IComThreadEvents.OnThreadTerminate, IComThreadEvents::OnThreadTerminate, OnThreadTerminate, OnThreadTerminate method [COM+], OnThreadTerminate method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadTerminate, comsvcs/IComThreadEvents::OnThreadTerminate, cos.icomthreadevents_onthreadterminate
 ms.prod: windows-hardware
 ms.technology: windows-devices

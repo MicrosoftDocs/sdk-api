@@ -7,7 +7,7 @@ old-location: rras\rasdialfunc.htm
 old-project: RRAS
 ms.assetid: 668ebede-73ec-4ee9-9b81-7167e827db60
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: RasDialFunc, RasDialFunc callback, RasDialFunc callback function [RAS], _ras_rasdialfunc, ras/RasDialFunc, rras.rasdialfunc
 ms.prod: windows-hardware
 ms.technology: windows-devices

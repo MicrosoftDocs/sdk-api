@@ -7,7 +7,7 @@ old-location: mscs\startup.htm
 old-project: MsCS
 ms.assetid: b07a2c32-2ff5-4917-9bcb-e1cfe445b3b3
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/7/2018
 ms.keywords: PSTARTUP_ROUTINE, PSTARTUP_ROUTINE callback function [Failover Cluster], Startup, Startup callback, Startup callback function [Failover Cluster], _wolf_startup, mscs.startup, resapi/PSTARTUP_ROUTINE, resapi/Startup
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\SSIZETAdd.htm
 old-project: shell
 ms.assetid: a9a2eb36-f70b-45fb-a84a-391a0bb77954
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/7/2018
 ms.keywords: SSIZETAdd, SSIZETAdd function [Windows Shell], intsafe/SSIZETAdd, shell.SSIZETAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

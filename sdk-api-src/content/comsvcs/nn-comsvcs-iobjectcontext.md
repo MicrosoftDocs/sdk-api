@@ -7,7 +7,7 @@ old-location: cos\iobjectcontext.htm
 old-project: cossdk
 ms.assetid: 9395bc9a-dfe5-428a-839f-1c4ad090f636
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IObjectContext, IObjectContext interface [COM+], IObjectContext interface [COM+],described, _cos_IObjectContext, comsvcs/IObjectContext, cos.iobjectcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

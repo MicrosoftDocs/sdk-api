@@ -7,7 +7,7 @@ old-location: rras\mpradminestablishdomainrasserver.htm
 old-project: RRAS
 ms.assetid: 756e267b-73bf-46d3-a1af-d2442ceb7b52
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: MprAdminEstablishDomainRasServer, MprAdminEstablishDomainRasServer function [RAS], mprapi/MprAdminEstablishDomainRasServer, rras.mpradminestablishdomainrasserver
 ms.prod: windows-hardware
 ms.technology: windows-devices

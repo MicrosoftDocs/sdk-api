@@ -7,7 +7,7 @@ old-location: cos\icominstance2events_onobjectcreate2.htm
 old-project: cossdk
 ms.assetid: b7c359b8-2d49-4982-836b-50d749758fa6
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: IComInstance2Events interface [COM+],OnObjectCreate2 method, IComInstance2Events.OnObjectCreate2, IComInstance2Events::OnObjectCreate2, OnObjectCreate2, OnObjectCreate2 method [COM+], OnObjectCreate2 method [COM+],IComInstance2Events interface, _dtc_IComInstance2Events_OnObjectCreate2, comsvcs/IComInstance2Events::OnObjectCreate2, cos.icominstance2events_onobjectcreate2
 ms.prod: windows-hardware
 ms.technology: windows-devices

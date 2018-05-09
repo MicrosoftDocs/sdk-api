@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_areapplicationinstancespaused.htm
 old-project: cossdk
 ms.assetid: b526dc2e-107c-4936-95ac-2c0c91f5c09b
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/7/2018
 ms.keywords: AreApplicationInstancesPaused, AreApplicationInstancesPaused method [COM+], AreApplicationInstancesPaused method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],AreApplicationInstancesPaused method, ICOMAdminCatalog2.AreApplicationInstancesPaused, ICOMAdminCatalog2::AreApplicationInstancesPaused, _cos_icomadmincatalog2_AreApplicationInstancesPaused, comadmin/ICOMAdminCatalog2::AreApplicationInstancesPaused, cos.icomadmincatalog2_areapplicationinstancespaused
 ms.prod: windows-hardware
 ms.technology: windows-devices

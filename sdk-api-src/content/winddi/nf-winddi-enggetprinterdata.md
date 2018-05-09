@@ -7,7 +7,7 @@ old-location: display\enggetprinterdata.htm
 old-project: display
 ms.assetid: aeeda5d8-1447-42e4-b54b-39f657a0a53c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/7/2018
 ms.keywords: EngGetPrinterData, EngGetPrinterData function [Display Devices], display.enggetprinterdata, gdifncs_63eb49b8-c997-4d78-b4ec-0620afac41e9.xml, winddi/EngGetPrinterData
 ms.prod: windows-hardware
 ms.technology: windows-devices

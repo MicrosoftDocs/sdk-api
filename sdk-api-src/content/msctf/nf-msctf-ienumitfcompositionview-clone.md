@@ -7,7 +7,7 @@ old-location: tsf\ienumitfcompositionview_clone.htm
 old-project: TSF
 ms.assetid: 536b89ee-c2bd-4713-aa2c-2a2e4841a8de
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/7/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumITfCompositionView interface, IEnumITfCompositionView interface [Text Services Framework],Clone method, IEnumITfCompositionView.Clone, IEnumITfCompositionView::Clone, _tsf_ienumitfcompositionview_clone_ref, msctf/IEnumITfCompositionView::Clone, tsf.ienumitfcompositionview_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
