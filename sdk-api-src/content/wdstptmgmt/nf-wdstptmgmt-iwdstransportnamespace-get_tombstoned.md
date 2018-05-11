@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespace_tombstoned.htm
 old-project: Wds
 ms.assetid: a04b578b-ad18-46b0-a60e-77647fa67aaf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Tombstoned property, IWdsTransportNamespace.Tombstoned, IWdsTransportNamespace.get_Tombstoned, IWdsTransportNamespace::Tombstoned, IWdsTransportNamespace::get_Tombstoned, Tombstoned property [Windows Deployment Services], Tombstoned property [Windows Deployment Services],IWdsTransportNamespace interface, get_Tombstoned, wds.iwdstransportnamespace_tombstoned, wdstptmgmt/IWdsTransportNamespace::Tombstoned, wdstptmgmt/IWdsTransportNamespace::get_Tombstoned
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: policy\igpeinformation.htm
 old-project: Policy
 ms.assetid: 3b3e7793-fc69-43a3-a2b1-0aa36748a19b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IGPEInformation, IGPEInformation interface [Group Policy], IGPEInformation interface [Group Policy],described, _win32_igpeinformation, gpedit/IGPEInformation, policy.igpeinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

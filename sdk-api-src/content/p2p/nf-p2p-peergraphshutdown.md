@@ -7,7 +7,7 @@ old-location: p2p\peergraphshutdown.htm
 old-project: P2PSdk
 ms.assetid: 036f1bd6-f8aa-47ba-841e-f731ff486860
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGraphShutdown, PeerGraphShutdown function [Peer Networking], p2p.peergraphshutdown, p2p/PeerGraphShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

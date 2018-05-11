@@ -7,7 +7,7 @@ old-location: tapi3\itrendezvous.htm
 old-project: Tapi
 ms.assetid: ea8b0a66-b968-4a24-95db-e702d49a2870
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: ITRendezvous, ITRendezvous interface [TAPI 2.2], ITRendezvous interface [TAPI 2.2],described, _tapi3_itrendezvous, rend/ITRendezvous, tapi3.itrendezvous
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\MonthCal_SetCALID.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcalid.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: MonthCal_SetCALID, MonthCal_SetCALID macro [Windows Controls], _shell_MonthCal_SetCALID, _shell_MonthCal_SetCALID_cpp, commctrl/MonthCal_SetCALID, controls.MonthCal_SetCALID, controls._shell_MonthCal_SetCALID
 ms.prod: windows-hardware
 ms.technology: windows-devices

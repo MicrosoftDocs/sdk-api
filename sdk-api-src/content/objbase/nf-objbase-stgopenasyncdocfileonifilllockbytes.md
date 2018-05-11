@@ -7,7 +7,7 @@ old-location: stg\stgopenasyncdocfileonifilllockbytes.htm
 old-project: Stg
 ms.assetid: 6772b669-b311-4b7d-8873-44fadbecdec7
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: StgOpenAsyncDocfileOnIFillLockBytes, StgOpenAsyncDocfileOnIFillLockBytes function [Structured Storage], _stg_stgopenasyncdocfileonifilllockbytes, objbase/StgOpenAsyncDocfileOnIFillLockBytes, stg.stgopenasyncdocfileonifilllockbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices

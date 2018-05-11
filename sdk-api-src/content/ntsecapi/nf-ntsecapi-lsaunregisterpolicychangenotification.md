@@ -7,7 +7,7 @@ old-location: security\lsaunregisterpolicychangenotification.htm
 old-project: SecMgmt
 ms.assetid: c1000904-20a6-40db-9b59-2cbb79e00a67
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/9/2018
 ms.keywords: LsaUnregisterPolicyChangeNotification, LsaUnregisterPolicyChangeNotification function [Security], PolicyNotifyAccountDomainInformation, PolicyNotifyAuditEventsInformation, PolicyNotifyDnsDomainInformation, PolicyNotifyDomainEfsInformation, PolicyNotifyDomainKerberosTicketInformation, PolicyNotifyServerRoleInformation, _lsa_lsaunregisterpolicychangenotification, ntsecapi/LsaUnregisterPolicyChangeNotification, security.lsaunregisterpolicychangenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\iregisteredtask_setsecuritydescriptor.htm
 old-project: TaskSchd
 ms.assetid: 9c8ebfdb-3c23-4fec-9023-7a944d99a409
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],SetSecurityDescriptor method, IRegisteredTask.SetSecurityDescriptor, IRegisteredTask::SetSecurityDescriptor, SetSecurityDescriptor, SetSecurityDescriptor method [Task Scheduler], SetSecurityDescriptor method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_setsecuritydescriptor, taskschd/IRegisteredTask::SetSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

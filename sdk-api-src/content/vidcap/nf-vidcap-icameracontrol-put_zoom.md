@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_zoom.htm
 old-project: DirectShow
 ms.assetid: e6bb0206-04c4-4d93-b267-2881e58c0a14
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Zoom method, ICameraControl.put_Zoom, ICameraControl::put_Zoom, ICameraControlput_Zoom, dshow.icameracontrol_put_zoom, put_Zoom, put_Zoom method [DirectShow], put_Zoom method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Zoom
 ms.prod: windows-hardware
 ms.technology: windows-devices

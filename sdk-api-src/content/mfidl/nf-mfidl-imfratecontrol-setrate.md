@@ -7,7 +7,7 @@ old-location: mf\imfratecontrol_setrate.htm
 old-project: medfound
 ms.assetid: 428d73fa-f284-4861-a41e-04ea7709db0f
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 428d73fa-f284-4861-a41e-04ea7709db0f, IMFRateControl interface [Media Foundation],SetRate method, IMFRateControl.SetRate, IMFRateControl::SetRate, SetRate, SetRate method [Media Foundation], SetRate method [Media Foundation],IMFRateControl interface, mf.imfratecontrol_setrate, mfidl/IMFRateControl::SetRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

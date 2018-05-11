@@ -7,7 +7,7 @@ old-location: wds\iwdstransportservicepolicy2.htm
 old-project: Wds
 ms.assetid: F03FC0C8-D589-4C3C-A6C1-AD631839ED26
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportServicePolicy2, IWdsTransportServicePolicy2 interface [Windows Deployment Services], IWdsTransportServicePolicy2 interface [Windows Deployment Services],described, wds.iwdstransportservicepolicy2, wdstptmgmt/IWdsTransportServicePolicy2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\sublangid.htm
 old-project: Intl
 ms.assetid: 0441c915-f910-4ac7-ac0a-0b113f490d40
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: SUBLANGID, SUBLANGID macro [Internationalization for Windows Applications], _win32_SUBLANGID, intl.sublangid, winnt/SUBLANGID
 ms.prod: windows-hardware
 ms.technology: windows-devices

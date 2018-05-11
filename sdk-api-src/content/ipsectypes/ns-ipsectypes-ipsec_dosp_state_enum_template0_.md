@@ -7,7 +7,7 @@ old-location: fwp\ipsec_dosp_state_enum_template0.htm
 old-project: FWP
 ms.assetid: bfc34949-dd80-4fcd-8147-2fed62bce387
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPSEC_DOSP_STATE_ENUM_TEMPLATE0, IPSEC_DOSP_STATE_ENUM_TEMPLATE0 structure [Filtering], IPSEC_DOSP_STATE_ENUM_TEMPLATE0_, fwp.ipsec_dosp_state_enum_template0, ipsectypes/IPSEC_DOSP_STATE_ENUM_TEMPLATE0
 ms.prod: windows-hardware
 ms.technology: windows-devices

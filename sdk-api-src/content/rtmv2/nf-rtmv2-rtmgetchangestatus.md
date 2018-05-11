@@ -7,7 +7,7 @@ old-location: rras\rtmgetchangestatus.htm
 old-project: RRAS
 ms.assetid: fafe465a-6c89-45b0-83a9-f08d1d9546c6
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RtmGetChangeStatus, RtmGetChangeStatus function [RAS], _rtmv2ref_rtmgetchangestatus, rras.rtmgetchangestatus, rtmv2/RtmGetChangeStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

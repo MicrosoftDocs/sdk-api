@@ -7,7 +7,7 @@ old-location: shell\STRRET.htm
 old-project: shell
 ms.assetid: 7868ef9b-07db-455b-b0be-ef0db7891447
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*LPSTRRET, LPSTRRET, LPSTRRET structure pointer [Windows Shell], STRRET, STRRET structure [Windows Shell], STRRET_CSTR, STRRET_OFFSET, STRRET_WSTR, _STRRET, _win32_STRRET, shell.STRRET, shtypes/LPSTRRET, shtypes/STRRET"
 ms.prod: windows-hardware
 ms.technology: windows-devices

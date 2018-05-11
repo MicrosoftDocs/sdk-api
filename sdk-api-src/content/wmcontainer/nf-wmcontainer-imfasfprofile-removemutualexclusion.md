@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_removemutualexclusion.htm
 old-project: medfound
 ms.assetid: dbcf192f-1ab4-44c4-8444-5d2aba941fe1
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFASFProfile interface [Media Foundation],RemoveMutualExclusion method, IMFASFProfile.RemoveMutualExclusion, IMFASFProfile::RemoveMutualExclusion, RemoveMutualExclusion, RemoveMutualExclusion method [Media Foundation], RemoveMutualExclusion method [Media Foundation],IMFASFProfile interface, dbcf192f-1ab4-44c4-8444-5d2aba941fe1, mf.imfasfprofile_removemutualexclusion, wmcontainer/IMFASFProfile::RemoveMutualExclusion
 ms.prod: windows-hardware
 ms.technology: windows-devices

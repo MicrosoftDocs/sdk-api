@@ -7,7 +7,7 @@ old-location: mscs\looksalive.htm
 old-project: MsCS
 ms.assetid: cfc57325-847d-4f59-bee8-6a02b0a2ef32
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: LooksAlive, LooksAlive callback, LooksAlive callback function [Failover Cluster], PLOOKS_ALIVE_ROUTINE, PLOOKS_ALIVE_ROUTINE callback function [Failover Cluster], _wolf_looksalive, mscs.looksalive, resapi/LooksAlive, resapi/PLOOKS_ALIVE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices

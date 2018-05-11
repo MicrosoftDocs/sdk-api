@@ -7,7 +7,7 @@ old-location: display\enggetcurrentcodepage.htm
 old-project: display
 ms.assetid: d53a1b6b-40b1-42a5-acfe-4b17f24d00c1
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: EngGetCurrentCodePage, EngGetCurrentCodePage function [Display Devices], display.enggetcurrentcodepage, gdifncs_39440cc8-e1f5-4f88-b92a-d8a7eb3d1d39.xml, winddi/EngGetCurrentCodePage
 ms.prod: windows-hardware
 ms.technology: windows-devices

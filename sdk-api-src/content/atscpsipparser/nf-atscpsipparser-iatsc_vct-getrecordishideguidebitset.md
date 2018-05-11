@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordishideguidebitset.htm
 old-project: mstv
 ms.assetid: 74b2ec97-f225-4085-910e-9093995c46f8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetRecordIsHideGuideBitSet, GetRecordIsHideGuideBitSet method [Microsoft TV Technologies], GetRecordIsHideGuideBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsHideGuideBitSet method, IATSC_VCT.GetRecordIsHideGuideBitSet, IATSC_VCT::GetRecordIsHideGuideBitSet, IATSC_VCTGetRecordIsHideGuideBitSet, atscpsipparser/IATSC_VCT::GetRecordIsHideGuideBitSet, mstv.iatsc_vct_getrecordishideguidebitset
 ms.prod: windows-hardware
 ms.technology: windows-devices

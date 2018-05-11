@@ -7,7 +7,7 @@ old-location: shell\UShortToByte.htm
 old-project: shell
 ms.assetid: 2c980215-0e1d-4c7c-97e1-58d9c8d5abef
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: UShortToByte, UShortToByte function [Windows Shell], UShortToUChar, _shell_UShortToByte, intsafe/UShortToByte, shell.UShortToByte
 ms.prod: windows-hardware
 ms.technology: windows-devices

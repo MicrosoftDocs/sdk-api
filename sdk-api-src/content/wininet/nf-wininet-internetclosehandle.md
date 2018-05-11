@@ -7,7 +7,7 @@ old-location: wininet\internetclosehandle.htm
 old-project: WinInet
 ms.assetid: 52b57e3c-3cfe-40bc-b87b-90cf39c5c38d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: InternetCloseHandle, InternetCloseHandle function [WinINet], _win32_internetclosehandle, wininet.internetclosehandle, wininet/InternetCloseHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

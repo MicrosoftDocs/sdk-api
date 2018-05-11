@@ -7,7 +7,7 @@ old-location: shell\IHWEventHandler.htm
 old-project: shell
 ms.assetid: be49322a-99b2-4626-8e9d-29965bbe182d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IHWEventHandler, IHWEventHandler interface [Windows Shell], IHWEventHandler interface [Windows Shell],described, inet_IHWEventHandler, shell.IHWEventHandler, shobjidl/IHWEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

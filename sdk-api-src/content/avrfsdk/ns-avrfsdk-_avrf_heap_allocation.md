@@ -7,7 +7,7 @@ old-location: winprog\avrf_heap_allocation.htm
 old-project: DevNotes
 ms.assetid: 238c7de7-4bf1-4974-8a6f-09e4d5f756ab
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: "*PAVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION structure [Windows API], _AVRF_HEAP_ALLOCATION, avrfsdk/AVRF_HEAP_ALLOCATION, base.avrf_heap_allocation, winprog.avrf_heap_allocation"
 ms.prod: windows-hardware
 ms.technology: windows-devices

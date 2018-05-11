@@ -7,7 +7,7 @@ old-location: dshow\ipersistmediapropertybag.htm
 old-project: DirectShow
 ms.assetid: 33e4b76b-841a-4dc5-b117-e08a6f4dcbe7
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IPersistMediaPropertyBag, IPersistMediaPropertyBag interface [DirectShow], IPersistMediaPropertyBag interface [DirectShow],described, IPersistMediaPropertyBagInterface, dshow.ipersistmediapropertybag, strmif/IPersistMediaPropertyBag
 ms.prod: windows-hardware
 ms.technology: windows-devices

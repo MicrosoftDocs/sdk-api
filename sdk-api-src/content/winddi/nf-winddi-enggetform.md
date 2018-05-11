@@ -7,7 +7,7 @@ old-location: display\enggetform.htm
 old-project: display
 ms.assetid: b5cc37b1-3e5e-4d3b-b23f-1f737c8dcd28
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: EngGetForm, EngGetForm function [Display Devices], display.enggetform, gdifncs_178cf402-6353-453e-99c8-0164b0552231.xml, winddi/EngGetForm
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\ipsecsaenum1_func.htm
 old-project: FWP
 ms.assetid: 93db625d-9b7f-4038-8c36-dec2762927be
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPsecSaEnum1, IPsecSaEnum1 function [Filtering], fwp.ipsecsaenum1_func, fwpmu/IPsecSaEnum1
 ms.prod: windows-hardware
 ms.technology: windows-devices

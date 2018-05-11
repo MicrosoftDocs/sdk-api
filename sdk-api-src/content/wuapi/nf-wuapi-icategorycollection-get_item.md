@@ -7,7 +7,7 @@ old-location: wua\icategorycollection_item.htm
 old-project: Wua_Sdk
 ms.assetid: dbdf48a6-6a5b-4581-ba6c-a26acd004ecf
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: ICategoryCollection interface [Windows Update Agent],Item property, ICategoryCollection.Item, ICategoryCollection.get_Item, ICategoryCollection::Item, ICategoryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],ICategoryCollection interface, get_Item, wua.icategorycollection_item, wuapi/ICategoryCollection::Item, wuapi/ICategoryCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

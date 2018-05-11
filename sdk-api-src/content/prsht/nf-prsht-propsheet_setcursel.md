@@ -7,7 +7,7 @@ old-location: controls\PropSheet_SetCurSel.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setcursel.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: PropSheet_SetCurSel, PropSheet_SetCurSel macro [Windows Controls], _win32_PropSheet_SetCurSel, _win32_PropSheet_SetCurSel_cpp, controls.PropSheet_SetCurSel, controls._win32_PropSheet_SetCurSel, prsht/PropSheet_SetCurSel
 ms.prod: windows-hardware
 ms.technology: windows-devices

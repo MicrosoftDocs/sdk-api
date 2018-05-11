@@ -7,7 +7,7 @@ old-location: security\spupdatecredentialsfn.htm
 old-project: SecAuthN
 ms.assetid: 56aba12e-a335-4d16-81b0-7ab521f872e7
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SpUpdateCredentialsFn, SpUpdateCredentialsFn function [Security], ntsecpkg/SpUpdateCredentialsFn, security.spupdatecredentialsfn
 ms.prod: windows-hardware
 ms.technology: windows-devices

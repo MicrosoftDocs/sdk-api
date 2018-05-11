@@ -7,7 +7,7 @@ old-location: tsf\itffunctionprovider_gettype.htm
 old-project: TSF
 ms.assetid: fff9ad62-f777-423c-a59d-ebd7d99da6a9
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: GetType, GetType method [Text Services Framework], GetType method [Text Services Framework],ITfFunctionProvider interface, ITfFunctionProvider interface [Text Services Framework],GetType method, ITfFunctionProvider.GetType, ITfFunctionProvider::GetType, _tsf_itffunctionprovider_gettype_ref, msctf/ITfFunctionProvider::GetType, tsf.itffunctionprovider_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ExtractAssociatedIconEx.htm
 old-project: shell
 ms.assetid: f32260b0-917b-4406-aeee-34f71a7c7309
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ExtractAssociatedIconEx, ExtractAssociatedIconEx function [Windows Shell], ExtractAssociatedIconExA, ExtractAssociatedIconExW, _win32_ExtractAssociatedIconEx, shell.ExtractAssociatedIconEx, shellapi/ExtractAssociatedIconEx, shellapi/ExtractAssociatedIconExA, shellapi/ExtractAssociatedIconExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

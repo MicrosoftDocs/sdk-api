@@ -7,7 +7,7 @@ old-location: shell\ShortToByte.htm
 old-project: shell
 ms.assetid: 71bd9691-0733-47ba-bea3-0779c6bad253
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ShortToByte, ShortToByte function [Windows Shell], ShortToUInt8, _shell_ShortToByte, intsafe/ShortToByte, shell.ShortToByte
 ms.prod: windows-hardware
 ms.technology: windows-devices

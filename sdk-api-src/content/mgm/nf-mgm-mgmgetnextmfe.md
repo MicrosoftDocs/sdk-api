@@ -7,7 +7,7 @@ old-location: rras\mgmgetnextmfe.htm
 old-project: RRAS
 ms.assetid: 067003ef-bb92-48cc-bc13-5b90066c9123
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MgmGetNextMfe, MgmGetNextMfe function [RAS], _mpr_mgmgetnextmfe, mgm/MgmGetNextMfe, rras.mgmgetnextmfe
 ms.prod: windows-hardware
 ms.technology: windows-devices

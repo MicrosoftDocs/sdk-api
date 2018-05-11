@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_setidlewait.htm
 old-project: TaskSchd
 ms.assetid: f7ad639a-4094-4621-9add-b89958c0bda4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetIdleWait method, IScheduledWorkItem.SetIdleWait, IScheduledWorkItem::SetIdleWait, SetIdleWait, SetIdleWait method [Task Scheduler], SetIdleWait method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setidlewait, mstask/IScheduledWorkItem::SetIdleWait, taskschd.ischeduledworkitem_setidlewait
 ms.prod: windows-hardware
 ms.technology: windows-devices

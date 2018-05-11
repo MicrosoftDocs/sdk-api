@@ -7,7 +7,7 @@ old-location: dshow\iqualitycontrol.htm
 old-project: DirectShow
 ms.assetid: 2672e563-75d7-4a8a-b914-7b0712e856e8
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IQualityControl, IQualityControl interface [DirectShow], IQualityControl interface [DirectShow],described, IQualityControlInterface, dshow.iqualitycontrol, strmif/IQualityControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

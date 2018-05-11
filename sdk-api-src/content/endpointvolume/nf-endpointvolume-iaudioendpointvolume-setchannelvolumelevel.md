@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_setchannelvolumelevel.htm
 old-project: CoreAudio
 ms.assetid: 51f3b4dd-be9d-4b83-8605-a9962c6709a3
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],SetChannelVolumeLevel method, IAudioEndpointVolume.SetChannelVolumeLevel, IAudioEndpointVolume::SetChannelVolumeLevel, IAudioEndpointVolumeSetChannelVolumeLevel, SetChannelVolumeLevel, SetChannelVolumeLevel method [Core Audio], SetChannelVolumeLevel method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setchannelvolumelevel, endpointvolume/IAudioEndpointVolume::SetChannelVolumeLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

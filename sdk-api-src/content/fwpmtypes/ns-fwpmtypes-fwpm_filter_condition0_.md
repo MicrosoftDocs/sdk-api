@@ -7,7 +7,7 @@ old-location: fwp\fwpm_filter_condition0_struct.htm
 old-project: FWP
 ms.assetid: 4dfed9d7-e51b-425c-9f27-014229c140be
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_FILTER_CONDITION0, FWPM_FILTER_CONDITION0 structure [Filtering], FWPM_FILTER_CONDITION0_, fwp.fwpm_filter_condition0_struct, fwpmtypes/FWPM_FILTER_CONDITION0
 ms.prod: windows-hardware
 ms.technology: windows-devices

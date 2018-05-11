@@ -7,7 +7,7 @@ old-location: setup\setuprenameerror.htm
 old-project: SetupApi
 ms.assetid: 43371fa0-d7b4-42e0-a94d-d307a7210618
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupRenameError, SetupRenameError function [Setup API], SetupRenameErrorA, SetupRenameErrorW, _setupapi_setuprenameerror, setup.setuprenameerror, setupapi/SetupRenameError, setupapi/SetupRenameErrorA, setupapi/SetupRenameErrorW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: setup\msisourcelistforceresolution.htm
 old-project: Msi
 ms.assetid: b58747bf-65db-4563-b09a-0b05d2cf62ea
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiSourceListForceResolution, MsiSourceListForceResolution function, MsiSourceListForceResolutionA, MsiSourceListForceResolutionW, _msi_msisourcelistforceresolution, msi/MsiSourceListForceResolution, msi/MsiSourceListForceResolutionA, msi/MsiSourceListForceResolutionW, setup.msisourcelistforceresolution
 ms.prod: windows-hardware
 ms.technology: windows-devices

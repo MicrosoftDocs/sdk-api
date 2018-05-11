@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_addkeyframeaftertransition.htm
 old-project: UIAnimation
 ms.assetid: F5D13D36-1AEE-4D47-9683-A428E9ADF1D6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: AddKeyframeAfterTransition, AddKeyframeAfterTransition method [Windows Animation], AddKeyframeAfterTransition method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],AddKeyframeAfterTransition method, IUIAnimationStoryboard2.AddKeyframeAfterTransition, IUIAnimationStoryboard2::AddKeyframeAfterTransition, uianimation.iuianimationstoryboard2_addkeyframeaftertransition, uianimation/IUIAnimationStoryboard2::AddKeyframeAfterTransition
 ms.prod: windows-hardware
 ms.technology: windows-devices

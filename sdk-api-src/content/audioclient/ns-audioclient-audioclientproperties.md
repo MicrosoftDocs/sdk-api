@@ -7,7 +7,7 @@ old-location: coreaudio\audioclientproperties.htm
 old-project: CoreAudio
 ms.assetid: 5BCCD581-DB66-4939-A62A-2236B9E49AA7
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: AudioClientProperties, AudioClientProperties structure [Core Audio], PAudioClientProperties, PAudioClientProperties structure pointer [Core Audio], audioclient/AudioClientProperties, audioclient/PAudioClientProperties, coreaudio.audioclientproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

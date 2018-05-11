@@ -7,7 +7,7 @@ old-location: multimedia\capeditcopy.htm
 old-project: Multimedia
 ms.assetid: 25b16107-b2ec-4e16-a596-10708dbc639d
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: "_win32_capEditCopy, capEditCopy, capEditCopy macro [Windows Multimedia], multimedia.capeditcopy, vfw/capEditCopy"
 ms.prod: windows-hardware
 ms.technology: windows-devices

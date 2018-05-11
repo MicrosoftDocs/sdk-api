@@ -7,7 +7,7 @@ old-location: iphlp\flushipnettable2.htm
 old-project: IpHlp
 ms.assetid: 6ebfca41-acc3-450c-a3c5-881b8c3fca5e
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, FlushIpNetTable2, FlushIpNetTable2 function [IP Helper], iphlp.flushipnettable2, netioapi/FlushIpNetTable2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamtvaudio_get_tvaudiomode.htm
 old-project: DirectShow
 ms.assetid: fa2e71f3-3aa0-4260-925d-579006459a09
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMTVAudio interface [DirectShow],get_TVAudioMode method, IAMTVAudio.get_TVAudioMode, IAMTVAudio::get_TVAudioMode, IAMTVAudioget_TVAudioMode, dshow.iamtvaudio_get_tvaudiomode, get_TVAudioMode, get_TVAudioMode method [DirectShow], get_TVAudioMode method [DirectShow],IAMTVAudio interface, strmif/IAMTVAudio::get_TVAudioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\symsetcontext.htm
 old-project: Debug
 ms.assetid: 0a9c6bfe-5e60-48c4-af98-b910df3032d5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: SymSetContext, SymSetContext function, _win32_symsetcontext, base.symsetcontext, dbghelp/SymSetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

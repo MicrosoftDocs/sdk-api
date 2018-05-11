@@ -7,7 +7,7 @@ old-location: security\certstoreprovclosecallback.htm
 old-project: SecCrypto
 ms.assetid: 2d0aa2c2-e79f-485c-ad47-6d9672c778da
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CertStoreProvCloseCallback, CertStoreProvCloseCallback callback, CertStoreProvCloseCallback callback function [Security], PFN_CERT_STORE_PROV_CLOSE, PFN_CERT_STORE_PROV_CLOSE callback function [Security], _crypto2_certstoreprovclosecallback, security.certstoreprovclosecallback, wincrypt/CertStoreProvCloseCallback, wincrypt/PFN_CERT_STORE_PROV_CLOSE
 ms.prod: windows-hardware
 ms.technology: windows-devices

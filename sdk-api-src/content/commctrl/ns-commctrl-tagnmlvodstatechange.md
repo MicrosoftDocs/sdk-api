@@ -7,7 +7,7 @@ old-location: controls\NMLVODSTATECHANGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvodstatechange.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: "*LPNMLVODSTATECHANGE, LPNMLVODSTATECHANGE, LPNMLVODSTATECHANGE structure pointer [Windows Controls], NMLVODSTATECHANGE, NMLVODSTATECHANGE structure [Windows Controls], _win32_NMLVODSTATECHANGE, _win32_NMLVODSTATECHANGE_cpp, commctrl/LPNMLVODSTATECHANGE, commctrl/NMLVODSTATECHANGE, controls.NMLVODSTATECHANGE, controls._win32_NMLVODSTATECHANGE, tagNMLVODSTATECHANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

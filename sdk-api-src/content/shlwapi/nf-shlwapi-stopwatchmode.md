@@ -7,7 +7,7 @@ old-location: shell\StopWatchMode.htm
 old-project: shell
 ms.assetid: 3db69040-0720-41a3-ba88-db885a2685aa
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: StopWatchMode, StopWatchMode function [Windows Shell], _win32_StopWatchMode, shell.StopWatchMode, shlwapi/StopWatchMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

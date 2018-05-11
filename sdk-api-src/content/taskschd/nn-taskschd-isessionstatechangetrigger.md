@@ -7,7 +7,7 @@ old-location: taskschd\isessionstatechangetrigger.htm
 old-project: TaskSchd
 ms.assetid: 0bf56d67-6c44-4978-93a9-7b525f2bf140
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ISessionStateChangeTrigger, ISessionStateChangeTrigger interface [Task Scheduler], ISessionStateChangeTrigger interface [Task Scheduler],described, taskschd.isessionstatechangetrigger, taskschd/ISessionStateChangeTrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices

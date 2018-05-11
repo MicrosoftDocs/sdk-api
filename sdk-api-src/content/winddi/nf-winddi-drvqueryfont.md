@@ -7,7 +7,7 @@ old-location: display\drvqueryfont.htm
 old-project: display
 ms.assetid: 2ba6c8e3-9707-48dd-98d9-072f3eee8cd0
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: DrvQueryFont, DrvQueryFont function [Display Devices], ddifncs_b8a9ed0f-ad7f-47a3-b2d4-bbdd40386bd2.xml, display.drvqueryfont, winddi/DrvQueryFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: policy\managedapplication_str.htm
 old-project: Policy
 ms.assetid: 8ac78f92-e665-4dd0-b226-6bf41dcd050a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMANAGEDAPPLICATION, MANAGEDAPPLICATION, MANAGEDAPPLICATION structure [Group Policy], MANAGED_APPTYPE_SETUPEXE, MANAGED_APPTYPE_UNSUPPORTED, MANAGED_APPTYPE_WINDOWSINSTALLER, PMANAGEDAPPLICATION, PMANAGEDAPPLICATION structure pointer [Group Policy], _MANAGEDAPPLICATION, appmgmt/MANAGEDAPPLICATION, appmgmt/PMANAGEDAPPLICATION, policy.managedapplication_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: setup\setupqueryinforiginalfileinformation.htm
 old-project: SetupApi
 ms.assetid: bc7c08ff-3d6b-4d45-b634-1358302f6fc6
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupQueryInfOriginalFileInformation, SetupQueryInfOriginalFileInformation function [Setup API], SetupQueryInfOriginalFileInformationA, SetupQueryInfOriginalFileInformationW, _setupapi_setupqueryinforiginalfileinformation, setup.setupqueryinforiginalfileinformation, setupapi/SetupQueryInfOriginalFileInformation, setupapi/SetupQueryInfOriginalFileInformationA, setupapi/SetupQueryInfOriginalFileInformationW
 ms.prod: windows-hardware
 ms.technology: windows-devices

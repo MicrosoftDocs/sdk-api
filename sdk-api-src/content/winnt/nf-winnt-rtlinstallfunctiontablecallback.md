@@ -7,7 +7,7 @@ old-location: base\rtlinstallfunctiontablecallback.htm
 old-project: Debug
 ms.assetid: 63b35b17-0b0e-46ed-9dbf-98290ab08bd1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: RtlInstallFunctionTableCallback, RtlInstallFunctionTableCallback function, base.rtlinstallfunctiontablecallback, winnt/RtlInstallFunctionTableCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

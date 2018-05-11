@@ -7,7 +7,7 @@ old-location: tsf\ts_selection_acp.htm
 old-project: TSF
 ms.assetid: 739c87c5-3e9c-41f3-ad79-0b417347604b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: TS_SELECTION_ACP, TS_SELECTION_ACP structure [Text Services Framework], _tsf_ts_selection_acp_ref, textstor/TS_SELECTION_ACP, tsf.ts_selection_acp
 ms.prod: windows-hardware
 ms.technology: windows-devices

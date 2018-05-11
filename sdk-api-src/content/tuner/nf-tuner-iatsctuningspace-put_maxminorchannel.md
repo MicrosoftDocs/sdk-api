@@ -7,7 +7,7 @@ old-location: mstv\iatsctuningspace_put_maxminorchannel.htm
 old-project: mstv
 ms.assetid: e90b78da-abd5-40bc-8d88-8a257acabe23
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],put_MaxMinorChannel method, IATSCTuningSpace.put_MaxMinorChannel, IATSCTuningSpace::put_MaxMinorChannel, IATSCTuningSpaceput_MaxMinorChannel, mstv.iatsctuningspace_put_maxminorchannel, put_MaxMinorChannel, put_MaxMinorChannel method [Microsoft TV Technologies], put_MaxMinorChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, tuner/IATSCTuningSpace::put_MaxMinorChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\idigitalcabletunerequest.htm
 old-project: mstv
 ms.assetid: 75c3c80f-2f02-4cb7-a9e0-aad4076793e4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IDigitalCableTuneRequest, IDigitalCableTuneRequest interface [Microsoft TV Technologies], IDigitalCableTuneRequest interface [Microsoft TV Technologies],described, IDigitalCableTuneRequestInterface, mstv.idigitalcabletunerequest, tuner/IDigitalCableTuneRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

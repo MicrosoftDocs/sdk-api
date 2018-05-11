@@ -7,7 +7,7 @@ old-location: shell\SHGetKnownFolderItem.htm
 old-project: shell
 ms.assetid: d0880a8c-20dd-47cc-b6c5-23dedb32d453
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SHGetKnownFolderItem, SHGetKnownFolderItem function [Windows Shell], _shell_SHGetKnownFolderItem, shell.SHGetKnownFolderItem, shlobj_core/SHGetKnownFolderItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

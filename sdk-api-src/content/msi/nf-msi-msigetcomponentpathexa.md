@@ -7,7 +7,7 @@ old-location: setup\msigetcomponentpathex.htm
 old-project: Msi
 ms.assetid: 7501df09-170d-4f23-9404-d86e861ac7da
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiGetComponentPathEx, MsiGetComponentPathEx function [Setup API], MsiGetComponentPathExA, MsiGetComponentPathExW, NULL, User SID, msi/MsiGetComponentPathEx, msi/MsiGetComponentPathExA, msi/MsiGetComponentPathExW, s-1-1-0, setup.msigetcomponentpathex
 ms.prod: windows-hardware
 ms.technology: windows-devices

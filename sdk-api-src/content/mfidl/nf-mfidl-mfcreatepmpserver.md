@@ -7,7 +7,7 @@ old-location: mf\mfcreatepmpserver.htm
 old-project: medfound
 ms.assetid: 2bf5541e-9b7e-4e7a-a868-4956c1f70882
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 2bf5541e-9b7e-4e7a-a868-4956c1f70882, MFCreatePMPServer, MFCreatePMPServer function [Media Foundation], mf.mfcreatepmpserver, mfidl/MFCreatePMPServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

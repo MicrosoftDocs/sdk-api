@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetConditionType.htm
 old-project: properties
 ms.assetid: d71bfed8-22e4-4dde-ba88-4bedfe07af62
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: GetConditionType, GetConditionType method [Windows Properties], GetConditionType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetConditionType method, IPropertyDescription.GetConditionType, IPropertyDescription::GetConditionType, properties.IPropertyDescription_GetConditionType, propsys/IPropertyDescription::GetConditionType, shell.IPropertyDescription_GetConditionType, shell_IPropertyDescription_GetConditionType
 ms.prod: windows-hardware
 ms.technology: windows-devices

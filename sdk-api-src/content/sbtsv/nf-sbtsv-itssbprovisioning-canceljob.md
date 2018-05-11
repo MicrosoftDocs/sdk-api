@@ -7,7 +7,7 @@ old-location: termserv\itssbprovisioning_canceljob.htm
 old-project: TermServ
 ms.assetid: c0496a8c-00ec-43a4-a7c2-071acb6b068a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: CancelJob, CancelJob method [Remote Desktop Services], CancelJob method [Remote Desktop Services],ITsSbProvisioning interface, ITsSbProvisioning interface [Remote Desktop Services],CancelJob method, ITsSbProvisioning.CancelJob, ITsSbProvisioning::CancelJob, sbtsv/ITsSbProvisioning::CancelJob, termserv.itssbprovisioning_canceljob
 ms.prod: windows-hardware
 ms.technology: windows-devices

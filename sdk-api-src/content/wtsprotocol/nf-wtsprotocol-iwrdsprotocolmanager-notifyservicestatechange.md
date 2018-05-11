@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolmanager_notifyservicestatechange.htm
 old-project: TermServ
 ms.assetid: 32b2a05a-d5de-4f2f-bcaa-587cf22aa5c5
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifyServiceStateChange method, IWRdsProtocolManager.NotifyServiceStateChange, IWRdsProtocolManager::NotifyServiceStateChange, NotifyServiceStateChange, NotifyServiceStateChange method [Remote Desktop Services], NotifyServiceStateChange method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifyservicestatechange, wtsprotocol/IWRdsProtocolManager::NotifyServiceStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\fwpm_connection_subscription0.htm
 old-project: FWP
 ms.assetid: 020490f1-ccbe-41aa-b6ad-022be9c9bef4
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_CONNECTION_SUBSCRIPTION0, FWPM_CONNECTION_SUBSCRIPTION0 structure [Filtering], FWPM_CONNECTION_SUBSCRIPTION0_, fwp.fwpm_connection_subscription0, fwpmtypes/FWPM_CONNECTION_SUBSCRIPTION0
 ms.prod: windows-hardware
 ms.technology: windows-devices

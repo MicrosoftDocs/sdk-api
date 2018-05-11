@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_getchannelvolumelevelscalar.htm
 old-project: CoreAudio
 ms.assetid: e33d0010-9ea4-4375-9f23-81309f800988
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: GetChannelVolumeLevelScalar, GetChannelVolumeLevelScalar method [Core Audio], GetChannelVolumeLevelScalar method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetChannelVolumeLevelScalar method, IAudioEndpointVolume.GetChannelVolumeLevelScalar, IAudioEndpointVolume::GetChannelVolumeLevelScalar, IAudioEndpointVolumeGetChannelVolumeLevelScalar, coreaudio.iaudioendpointvolume_getchannelvolumelevelscalar, endpointvolume/IAudioEndpointVolume::GetChannelVolumeLevelScalar
 ms.prod: windows-hardware
 ms.technology: windows-devices

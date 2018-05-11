@@ -7,7 +7,7 @@ old-location: setup\msigetactivedatabase.htm
 old-project: Msi
 ms.assetid: 148d467f-fecd-42a9-b838-22799a159f97
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiGetActiveDatabase, MsiGetActiveDatabase function, _msi_msigetactivedatabase, msiquery/MsiGetActiveDatabase, setup.msigetactivedatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices

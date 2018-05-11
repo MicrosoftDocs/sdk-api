@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_getlanguage.htm
 old-project: medfound
 ms.assetid: 5676082D-A3D2-4239-A73F-65FA77D660EF
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetLanguage, GetLanguage method [Media Foundation], GetLanguage method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetLanguage method, IMFTimedTextTrack.GetLanguage, IMFTimedTextTrack::GetLanguage, mf.imftimedtexttrack_getlanguage, mfmediaengine/IMFTimedTextTrack::GetLanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

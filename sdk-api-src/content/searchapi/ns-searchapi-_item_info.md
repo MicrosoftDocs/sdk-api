@@ -7,7 +7,7 @@ old-location: search\_search_ITEM_INFO.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\item_info.htm
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/8/2018
 ms.keywords: ITEM_INFO, ITEM_INFO structure [search], _ITEM_INFO, _search_ITEM_INFO, search._search_ITEM_INFO, searchapi/ITEM_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

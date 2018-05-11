@@ -7,7 +7,7 @@ old-location: shell\IWizardSite_GetCancelledPage.htm
 old-project: shell
 ms.assetid: 682f5624-5fec-4bc9-9455-150e8e951538
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: GetCancelledPage, GetCancelledPage method [Windows Shell], GetCancelledPage method [Windows Shell],IWizardSite interface, IWizardSite interface [Windows Shell],GetCancelledPage method, IWizardSite.GetCancelledPage, IWizardSite::GetCancelledPage, _shell_IWizardSite_GetCancelledPage, shell.IWizardSite_GetCancelledPage, shobjidl/IWizardSite::GetCancelledPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

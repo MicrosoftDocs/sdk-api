@@ -7,7 +7,7 @@ old-location: base\openservice.htm
 old-project: Services
 ms.assetid: e0a42613-95ad-4d0f-a464-c6df33014064
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/9/2018
 ms.keywords: OpenService, OpenService function, OpenServiceA, OpenServiceW, _win32_openservice, base.openservice, winsvc/OpenService, winsvc/OpenServiceA, winsvc/OpenServiceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

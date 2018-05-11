@@ -7,7 +7,7 @@ old-location: wua\iupdatesearcherserviceid.htm
 old-project: Wua_Sdk
 ms.assetid: 7c00d26a-9ef0-45ec-81b3-d13f91dd7d8d
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],ServiceID property, IUpdateSearcher.ServiceID, IUpdateSearcher.get_ServiceID, IUpdateSearcher::ServiceID, IUpdateSearcher::get_ServiceID, IUpdateSearcher::put_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent],IUpdateSearcher interface, get_ServiceID, wua.iupdatesearcherserviceid, wuapi/IUpdateSearcher::ServiceID, wuapi/IUpdateSearcher::get_ServiceID, wuapi/IUpdateSearcher::put_ServiceID
 ms.prod: windows-hardware
 ms.technology: windows-devices

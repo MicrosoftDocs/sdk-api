@@ -7,7 +7,7 @@ old-location: taskschd\itriggercollection_clear.htm
 old-project: TaskSchd
 ms.assetid: 9a15ed27-a381-4b5c-9725-3a55ce86d666
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: Clear, Clear method [Task Scheduler], Clear method [Task Scheduler],ITriggerCollection interface, ITriggerCollection interface [Task Scheduler],Clear method, ITriggerCollection.Clear, ITriggerCollection::Clear, taskschd.itriggercollection_clear, taskschd/ITriggerCollection::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

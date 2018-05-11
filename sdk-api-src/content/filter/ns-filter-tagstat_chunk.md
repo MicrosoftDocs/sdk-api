@@ -7,7 +7,7 @@ old-location: indexsrv\stat_chunk.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_6a5n.htm
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/9/2018
 ms.keywords: STAT_CHUNK, STAT_CHUNK structure [Indexing Service], _idxs_STAT_CHUNK, filter/STAT_CHUNK, indexsrv.stat_chunk, tagSTAT_CHUNK
 ms.prod: windows-hardware
 ms.technology: windows-devices

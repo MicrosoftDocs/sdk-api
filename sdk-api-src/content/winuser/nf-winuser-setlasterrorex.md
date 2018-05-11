@@ -7,7 +7,7 @@ old-location: base\setlasterrorex.htm
 old-project: Debug
 ms.assetid: d97494db-868a-49d4-a613-e8beba86d4e6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: SetLastErrorEx, SetLastErrorEx function, _win32_setlasterrorex, base.setlasterrorex, winuser/SetLastErrorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

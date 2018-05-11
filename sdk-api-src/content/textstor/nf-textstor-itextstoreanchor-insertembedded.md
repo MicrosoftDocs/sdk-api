@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_insertembedded.htm
 old-project: TSF
 ms.assetid: 414842cc-7c3e-4f5c-93ac-3bd0eda5293e
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],InsertEmbedded method, ITextStoreAnchor.InsertEmbedded, ITextStoreAnchor::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::InsertEmbedded, tsf.itextstoreanchor_insertembedded
 ms.prod: windows-hardware
 ms.technology: windows-devices

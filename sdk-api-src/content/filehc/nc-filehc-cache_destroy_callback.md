@@ -7,8 +7,8 @@ old-location: winprog\cache_destroy_callback.htm
 old-project: DevNotes
 ms.assetid: daf85def-20ed-4162-b133-f730c50bf98a
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: CACHE_DESTROY_CALLBACK, CACHE_DESTROY_CALLBACK function pointer [Windows API], filehc/CACHE_DESTROY_CALLBACK, winprog.cache_destroy_callback
+ms.date: 5/9/2018
+ms.keywords: CACHE_DESTROY_CALLBACK, CACHE_DESTROY_CALLBACK callback, CACHE_DESTROY_CALLBACK callback function [Windows API], filehc/CACHE_DESTROY_CALLBACK, winprog.cache_destroy_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 5
 ---
 
-# CACHE_DESTROY_CALLBACK callback
+# CACHE_DESTROY_CALLBACK callback function
 
 
 ## -description

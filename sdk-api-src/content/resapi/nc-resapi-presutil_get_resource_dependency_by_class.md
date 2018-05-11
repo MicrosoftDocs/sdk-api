@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcedependencybyclass.htm
 old-project: MsCS
 ms.assetid: 7c2bd24a-8034-4a5f-8218-0a23d5e29b07
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS callback, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS callback function [Failover Cluster], _wolf_resutilgetresourcedependencybyclass, mscs.resutilgetresourcedependencybyclass, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices

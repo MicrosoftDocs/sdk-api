@@ -7,7 +7,7 @@ old-location: dshow\ipinconnection_notifyendofstream.htm
 old-project: DirectShow
 ms.assetid: 3a911436-a679-4a86-93f9-e9c57ca762c5
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IPinConnection interface [DirectShow],NotifyEndOfStream method, IPinConnection.NotifyEndOfStream, IPinConnection::NotifyEndOfStream, IPinConnectionNotifyEndOfStream, NotifyEndOfStream, NotifyEndOfStream method [DirectShow], NotifyEndOfStream method [DirectShow],IPinConnection interface, dshow.ipinconnection_notifyendofstream, strmif/IPinConnection::NotifyEndOfStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

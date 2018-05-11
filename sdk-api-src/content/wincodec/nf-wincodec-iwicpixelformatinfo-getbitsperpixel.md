@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpixelformatinfo_getbitsperpixel.htm
 old-project: wic
 ms.assetid: 484fb014-5999-46b9-8e32-3fd5296e483f
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: GetBitsPerPixel, GetBitsPerPixel method [Windows Imaging Component], GetBitsPerPixel method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetBitsPerPixel method, IWICPixelFormatInfo.GetBitsPerPixel, IWICPixelFormatInfo::GetBitsPerPixel, _wic_codec_iwicpixelformatinfo_getbitsperpixel, wic._wic_codec_iwicpixelformatinfo_getbitsperpixel, wincodec/IWICPixelFormatInfo::GetBitsPerPixel
 ms.prod: windows-hardware
 ms.technology: windows-devices

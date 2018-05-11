@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_getrenderingprefs.htm
 old-project: medfound
 ms.assetid: 9a5bd1d6-e604-4798-af29-ad0c1931b651
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 9a5bd1d6-e604-4798-af29-ad0c1931b651, GetRenderingPrefs, GetRenderingPrefs method [Media Foundation], GetRenderingPrefs method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetRenderingPrefs method, IMFVideoDisplayControl.GetRenderingPrefs, IMFVideoDisplayControl::GetRenderingPrefs, evr/IMFVideoDisplayControl::GetRenderingPrefs, mf.imfvideodisplaycontrol_getrenderingprefs
 ms.prod: windows-hardware
 ms.technology: windows-devices

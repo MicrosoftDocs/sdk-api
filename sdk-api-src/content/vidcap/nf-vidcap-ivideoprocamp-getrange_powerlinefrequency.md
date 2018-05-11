@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_getrange_powerlinefrequency.htm
 old-project: DirectShow
 ms.assetid: f6bb1df3-d033-4627-b5ea-574a2ebf43aa
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_PowerlineFrequency method, IVideoProcAmp.getRange_PowerlineFrequency, IVideoProcAmp::getRange_PowerlineFrequency, IVideoProcAmpgetRange_PowerlineFrequency, dshow.ivideoprocamp_getrange_powerlinefrequency, getRange_PowerlineFrequency, getRange_PowerlineFrequency method [DirectShow], getRange_PowerlineFrequency method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_PowerlineFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iatsccontentadvisorydescriptor.htm
 old-project: mstv
 ms.assetid: b7379d66-c57b-45e0-9c63-901bf3637f21
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IAtscContentAdvisoryDescriptor, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies], IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],described, IAtscContentAdvisoryDescriptorInterface, atscpsipparser/IAtscContentAdvisoryDescriptor, mstv.iatsccontentadvisorydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iammultimediastream_getfiltergraph.htm
 old-project: DirectShow
 ms.assetid: 7e772ced-d14e-45da-9e97-36579e7e3ffd
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetFilterGraph, GetFilterGraph method [DirectShow], GetFilterGraph method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],GetFilterGraph method, IAMMultiMediaStream.GetFilterGraph, IAMMultiMediaStream::GetFilterGraph, IAMMultiMediaStreamGetFilterGraph, amstream/IAMMultiMediaStream::GetFilterGraph, dshow.iammultimediastream_getfiltergraph
 ms.prod: windows-hardware
 ms.technology: windows-devices

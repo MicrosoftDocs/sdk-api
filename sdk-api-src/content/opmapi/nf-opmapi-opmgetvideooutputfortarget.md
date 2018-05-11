@@ -7,7 +7,7 @@ old-location: mf\opmgetvideooutputfortarget.htm
 old-project: medfound
 ms.assetid: 736F6C76-D208-49E8-9D96-F54ECE332FCA
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: OPMGetVideoOutputForTarget, OPMGetVideoOutputForTarget function [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opmgetvideooutputfortarget, opmapi/OPMGetVideoOutputForTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

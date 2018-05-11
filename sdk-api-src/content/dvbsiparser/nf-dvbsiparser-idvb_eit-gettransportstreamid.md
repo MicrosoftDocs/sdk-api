@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit_gettransportstreamid.htm
 old-project: mstv
 ms.assetid: 6333813c-e32c-4743-8a7b-98c0a63a66b9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetTransportStreamId method, IDVB_EIT.GetTransportStreamId, IDVB_EIT::GetTransportStreamId, IDVB_EITGetTransportStreamId, dvbsiparser/IDVB_EIT::GetTransportStreamId, mstv.idvb_eit_gettransportstreamid
 ms.prod: windows-hardware
 ms.technology: windows-devices

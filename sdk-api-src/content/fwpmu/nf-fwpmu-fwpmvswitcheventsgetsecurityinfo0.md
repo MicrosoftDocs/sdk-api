@@ -7,7 +7,7 @@ old-location: fwp\fwpmvswitcheventsgetsecurityinfo0.htm
 old-project: FWP
 ms.assetid: 20183a71-f750-4131-8d29-80a0624f8b8d
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmvSwitchEventsGetSecurityInfo0, FwpmvSwitchEventsGetSecurityInfo0 function [Filtering], fwp.fwpmvswitcheventsgetsecurityinfo0, fwpmu/FwpmvSwitchEventsGetSecurityInfo0
 ms.prod: windows-hardware
 ms.technology: windows-devices

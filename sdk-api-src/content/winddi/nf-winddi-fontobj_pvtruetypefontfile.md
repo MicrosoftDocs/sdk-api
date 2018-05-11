@@ -7,7 +7,7 @@ old-location: display\fontobj_pvtruetypefontfile.htm
 old-project: display
 ms.assetid: 2665d984-6a35-4950-92c0-82e7c8b633aa
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: FONTOBJ_pvTrueTypeFontFile, FONTOBJ_pvTrueTypeFontFile function [Display Devices], display.fontobj_pvtruetypefontfile, gdifncs_72ff6779-98e3-44b1-919c-06fa0ac1ffa2.xml, winddi/FONTOBJ_pvTrueTypeFontFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

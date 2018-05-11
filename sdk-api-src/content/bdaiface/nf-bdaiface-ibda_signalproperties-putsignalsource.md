@@ -7,7 +7,7 @@ old-location: mstv\ibda_signalproperties_putsignalsource.htm
 old-project: mstv
 ms.assetid: 81cd43b1-97a7-4663-984e-2c20a8315c7e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IBDA_SignalProperties interface [Microsoft TV Technologies],PutSignalSource method, IBDA_SignalProperties.PutSignalSource, IBDA_SignalProperties::PutSignalSource, IBDA_SignalPropertiesPutSignalSource, PutSignalSource, PutSignalSource method [Microsoft TV Technologies], PutSignalSource method [Microsoft TV Technologies],IBDA_SignalProperties interface, bdaiface/IBDA_SignalProperties::PutSignalSource, mstv.ibda_signalproperties_putsignalsource
 ms.prod: windows-hardware
 ms.technology: windows-devices

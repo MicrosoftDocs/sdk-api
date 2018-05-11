@@ -7,7 +7,7 @@ old-location: p2p\drt_address_list.htm
 old-project: P2PSdk
 ms.assetid: a795dff7-4182-42ad-b14b-142a6c1312c7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: "*PDRT_ADDRESS_LIST, DRT_ADDRESS_LIST, DRT_ADDRESS_LIST structure [Peer Networking], PDRT_ADDRESS_LIST, PDRT_ADDRESS_LIST structure pointer [Peer Networking], _DRT_ADDRESS_LIST, drt/DRT_ADDRESS_LIST, drt/PDRT_ADDRESS_LIST, p2p.drt_address_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winprog\ismediabehaviorenabled.htm
 old-project: DevNotes
 ms.assetid: 6D1F52E3-3AC0-4270-8931-53D8687A10C7
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: IsMediaBehaviorEnabled, IsMediaBehaviorEnabled function [Windows API], comppkgsup/IsMediaBehaviorEnabled, winprog.ismediabehaviorenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

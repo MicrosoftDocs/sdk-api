@@ -7,7 +7,7 @@ old-location: rras\mgm_enum_types.htm
 old-project: RRAS
 ms.assetid: 09b60342-25a8-4d0a-8176-3701f0622aa8
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ALL_SOURCES, ANY_SOURCE, MGM_ENUM_TYPES, MGM_ENUM_TYPES enumeration [RAS], _MGM_ENUM_TYPES, _mpr_mgm_enum_types, mgm/ALL_SOURCES, mgm/ANY_SOURCE, mgm/MGM_ENUM_TYPES, rras.mgm_enum_types
 ms.prod: windows-hardware
 ms.technology: windows-devices

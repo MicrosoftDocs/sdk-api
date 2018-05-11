@@ -7,7 +7,7 @@ old-location: stg\stgopenpropstg.htm
 old-project: Stg
 ms.assetid: ecc78e49-f1c2-4c2d-8390-b2b6f1dc776e
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: StgOpenPropStg, StgOpenPropStg function [Structured Storage], _stg_stgopenpropstg, coml2api/StgOpenPropStg, stg.stgopenpropstg
 ms.prod: windows-hardware
 ms.technology: windows-devices

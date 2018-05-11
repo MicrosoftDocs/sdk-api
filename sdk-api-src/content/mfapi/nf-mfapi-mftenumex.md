@@ -7,7 +7,7 @@ old-location: mf\mftenumex.htm
 old-project: medfound
 ms.assetid: e065ae51-85dd-48ef-9322-de4ade62c0fe
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MFTEnumEx, MFTEnumEx function [Media Foundation], mf.mftenumex, mfapi/MFTEnumEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongPtrToUInt
 title: ULongPtrToUInt function
 author: windows-driver-content
-description: Converts a value of type DWORD_PTR to a value of type UINT.
-old-location: shell\DWordPtrToUInt.htm
+description: Converts a value of type ULONG_PTR to a value of type UINT.
+old-location: shell\ULongPtrToUInt.htm
 old-project: shell
-ms.assetid: 0ba6cd3c-4098-40fa-bfef-c34274d2063d
+ms.assetid: 8b0c5cd0-cb8d-40c2-9a8d-0299074aa8a8
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: DWordPtrToUInt, DWordPtrToUInt function [Windows Shell], ULongPtrToUInt, _shell_DWordPtrToUInt, intsafe/DWordPtrToUInt, shell.DWordPtrToUInt
+ms.date: 5/9/2018
+ms.keywords: DWordPtrToUInt, SIZETToUInt, ULongPtrToUInt, ULongPtrToUInt function [Windows Shell], _shell_ULongPtrToUInt, intsafe/ULongPtrToUInt, shell.ULongPtrToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	DllExport
+-	HeaderDef
 api_location:
--	None
+-	Intsafe.h
 api_name:
--	DWordPtrToUInt
+-	ULongPtrToUInt
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: None
+req.dll: 
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>DWORD_PTR</b> to a value of type <b>UINT</b>.
+Converts a value of type <b>ULONG_PTR</b> to a value of type <b>UINT</b>.
 
 
 ## -parameters
@@ -58,26 +58,14 @@ Converts a value of type <b>DWORD_PTR</b> to a value of type <b>UINT</b>.
 
 
 
-### -param ulOperand
+### -param ulOperand [in]
 
-TBD
-
-
-### -param puResult
-
-TBD
-
-
-
-
-#### - dwOperand [in]
-
-Type: <b>DWORD_PTR</b>
+Type: <b>ULONG_PTR</b>
 
 The value to be converted.
 
 
-#### - puiResult [out]
+### -param puResult [out]
 
 Type: <b>UINT*</b>
 
@@ -100,6 +88,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>SIZETToUInt</b> is an alias for this function.
+
+<b>DWordPtrToUInt</b> is an alias for this function.
 
 
 

@@ -7,7 +7,7 @@ old-location: wds\iwdstransportclient.htm
 old-project: Wds
 ms.assetid: 39534411-3d69-408d-b495-10851fe40bdf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportClient, IWdsTransportClient interface [Windows Deployment Services], IWdsTransportClient interface [Windows Deployment Services],described, wds.iwdstransportclient, wdstptmgmt/IWdsTransportClient
 ms.prod: windows-hardware
 ms.technology: windows-devices

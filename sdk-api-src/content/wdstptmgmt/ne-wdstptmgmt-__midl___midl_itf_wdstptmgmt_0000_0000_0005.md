@@ -7,7 +7,7 @@ old-location: wds\wdstransport_service_notification.htm
 old-project: Wds
 ms.assetid: d239241d-efe9-409b-8425-c71382b27c05
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: "*PWDSTRANSPORT_SERVICE_NOTIFICATION, WDSTRANSPORT_SERVICE_NOTIFICATION, WDSTRANSPORT_SERVICE_NOTIFICATION enumeration [Windows Deployment Services], WdsTptServiceNotifyReadSettings, WdsTptServiceNotifyUnknown, __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0005, wds.wdstransport_service_notification, wdstptmgmt/WDSTRANSPORT_SERVICE_NOTIFICATION, wdstptmgmt/WdsTptServiceNotifyReadSettings, wdstptmgmt/WdsTptServiceNotifyUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewporteventhandler.htm
 old-project: directmanipulation
 ms.assetid: 3594011a-da4a-4550-9b3b-076218d09f39
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationViewportEventHandler, IDirectManipulationViewportEventHandler interface [Direct Manipulation], IDirectManipulationViewportEventHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationviewporteventhandler, directmanipulation/IDirectManipulationViewportEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

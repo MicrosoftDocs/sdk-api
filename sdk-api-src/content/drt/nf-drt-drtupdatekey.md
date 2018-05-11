@@ -7,7 +7,7 @@ old-location: p2p\drtupdatekey.htm
 old-project: P2PSdk
 ms.assetid: e7e65246-ebe0-4fdf-924c-8c19cfb1322e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: DrtUpdateKey, DrtUpdateKey function [Distributed Routing Tables], drt/DrtUpdateKey, p2p.drtupdatekey
 ms.prod: windows-hardware
 ms.technology: windows-devices

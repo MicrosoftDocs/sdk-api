@@ -7,7 +7,7 @@ old-location: winprog\fnfcistatus.htm
 old-project: DevNotes
 ms.assetid: 529fd3c8-9783-4dbe-9268-a9137935cf9b
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: FNFCISTATUS, FNFCISTATUS macro [Windows API], fci/FNFCISTATUS, winprog.fnfcistatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

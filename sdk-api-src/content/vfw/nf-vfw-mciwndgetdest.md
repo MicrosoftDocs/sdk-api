@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetdest.htm
 old-project: Multimedia
 ms.assetid: eca70819-fb7c-48b9-a479-d20aa0f05649
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: MCIWndGetDest, MCIWndGetDest macro [Windows Multimedia], _win32_MCIWndGetDest, multimedia.mciwndgetdest, vfw/MCIWndGetDest
 ms.prod: windows-hardware
 ms.technology: windows-devices

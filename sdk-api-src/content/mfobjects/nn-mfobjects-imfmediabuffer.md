@@ -7,7 +7,7 @@ old-location: mf\imfmediabuffer.htm
 old-project: medfound
 ms.assetid: 3ccc7089-d0d0-4eb1-b763-0d4e348af685
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 3ccc7089-d0d0-4eb1-b763-0d4e348af685, IMFMediaBuffer, IMFMediaBuffer interface [Media Foundation], IMFMediaBuffer interface [Media Foundation],described, mf.imfmediabuffer, mfobjects/IMFMediaBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

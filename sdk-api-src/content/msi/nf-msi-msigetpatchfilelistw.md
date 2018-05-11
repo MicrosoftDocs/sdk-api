@@ -7,7 +7,7 @@ old-location: setup\msigetpatchfilelist.htm
 old-project: Msi
 ms.assetid: c0a98ae4-d348-462d-8907-87116a64f79e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiGetPatchFileList, MsiGetPatchFileList function, MsiGetPatchFileListA, MsiGetPatchFileListW, msi/MsiGetPatchFileList, msi/MsiGetPatchFileListA, msi/MsiGetPatchFileListW, setup.msigetpatchfilelist
 ms.prod: windows-hardware
 ms.technology: windows-devices

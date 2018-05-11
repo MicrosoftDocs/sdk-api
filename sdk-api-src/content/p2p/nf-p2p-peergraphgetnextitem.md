@@ -7,7 +7,7 @@ old-location: p2p\peergraphgetnextitem.htm
 old-project: P2PSdk
 ms.assetid: f595e66d-570f-4642-bef8-ff5cf070649c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGraphGetNextItem, PeerGraphGetNextItem function [Peer Networking], p2p.peergraphgetnextitem, p2p/PeerGraphGetNextItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

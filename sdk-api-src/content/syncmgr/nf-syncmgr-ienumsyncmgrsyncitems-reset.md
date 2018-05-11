@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrSyncItems_Reset.htm
 old-project: shell
 ms.assetid: 8144b47e-0419-4bc8-a57d-dc5c2b743f62
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumSyncMgrSyncItems interface [Windows Shell],Reset method, IEnumSyncMgrSyncItems.Reset, IEnumSyncMgrSyncItems::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumSyncMgrSyncItems interface, _shell_IEnumSyncMgrSyncItems_Reset, shell.IEnumSyncMgrSyncItems_Reset, syncmgr/IEnumSyncMgrSyncItems::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

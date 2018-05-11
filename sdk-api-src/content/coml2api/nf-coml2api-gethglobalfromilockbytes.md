@@ -7,7 +7,7 @@ old-location: stg\gethglobalfromilockbytes.htm
 old-project: Stg
 ms.assetid: 084fcd1d-5b85-448c-862a-378353e1e2e6
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: GetHGlobalFromILockBytes, GetHGlobalFromILockBytes function [Structured Storage], _stg_gethglobalfromilockbytes, coml2api/GetHGlobalFromILockBytes, stg.gethglobalfromilockbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\dxvabufferinfo.htm
 old-project: medfound
 ms.assetid: 048a3fcf-6076-4500-b5cc-edfe782f467b
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: DXVABufferInfo, DXVABufferInfo structure [Media Foundation], _DXVABufferInfo, dxva9typ/DXVABufferInfo, mf.dxvabufferinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

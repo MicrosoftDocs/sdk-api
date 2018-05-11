@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual3_get_GroupBy.htm
 old-project: shell
 ms.assetid: 144fa908-01d3-43f4-95e6-2aad62c23912
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IShellFolderViewDual3 interface [Windows Shell],get_GroupBy method, IShellFolderViewDual3.get_GroupBy, IShellFolderViewDual3::get_GroupBy, _shell_IShellFolderViewDual3_get_GroupBy, get_GroupBy, get_GroupBy method [Windows Shell], get_GroupBy method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_get_GroupBy, shldisp/IShellFolderViewDual3::get_GroupBy
 ms.prod: windows-hardware
 ms.technology: windows-devices

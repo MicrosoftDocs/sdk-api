@@ -7,7 +7,7 @@ old-location: shell\IFileSaveDialog.htm
 old-project: shell
 ms.assetid: 74021f92-54ff-4c02-a8cf-49bcd7b9171e
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IFileSaveDialog, IFileSaveDialog interface [Windows Shell], IFileSaveDialog interface [Windows Shell],described, shell.IFileSaveDialog, shell_IFileSaveDialog, shobjidl_core/IFileSaveDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: OVERLAPPED, *LPOVERLAPPED
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriter_allocatesample.htm
 old-project: wmformat
 ms.assetid: b23b2364-fb36-479f-bf92-76a5bb4722de
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: AllocateSample, AllocateSample method [windows Media Format], AllocateSample method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],AllocateSample method, IWMWriter.AllocateSample, IWMWriter::AllocateSample, IWMWriterAllocateSample, wmformat.iwmwriter_allocatesample, wmsdkidl/IWMWriter::AllocateSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: policy\appcategoryinfolist_str.htm
 old-project: Policy
 ms.assetid: 640aa5d0-c135-46b7-a25f-03c6325cb561
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: APPCATEGORYINFOLIST, APPCATEGORYINFOLIST structure [Group Policy], PAPPCATEGORYINFOLIST, PAPPCATEGORYINFOLIST structure pointer [Group Policy], _APPCATEGORYINFOLIST, appmgmt/APPCATEGORYINFOLIST, appmgmt/PAPPCATEGORYINFOLIST, policy.appcategoryinfolist_str
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\ienumtfdocumentmgrs_clone.htm
 old-project: TSF
 ms.assetid: d7a6ff9c-327b-45bf-93d0-7bf08065ad9c
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfDocumentMgrs interface, IEnumTfDocumentMgrs interface [Text Services Framework],Clone method, IEnumTfDocumentMgrs.Clone, IEnumTfDocumentMgrs::Clone, _tsf_ienumtfdocumentmgrs_clone_ref, msctf/IEnumTfDocumentMgrs::Clone, tsf.ienumtfdocumentmgrs_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

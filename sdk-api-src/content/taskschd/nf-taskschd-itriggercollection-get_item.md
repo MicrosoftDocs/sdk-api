@@ -7,7 +7,7 @@ old-location: taskschd\itriggercollection_item.htm
 old-project: TaskSchd
 ms.assetid: 007e5792-bb91-435f-abe9-27366e6ec58a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITriggerCollection interface [Task Scheduler],Item property, ITriggerCollection.Item, ITriggerCollection.get_Item, ITriggerCollection::Item, ITriggerCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],ITriggerCollection interface, get_Item, taskschd.itriggercollection_item, taskschd/ITriggerCollection::Item, taskschd/ITriggerCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\fwpmconnectionsubscribe0.htm
 old-project: FWP
 ms.assetid: 86fe40b0-aada-44e1-91dd-0e825589159d
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmConnectionSubscribe0, FwpmConnectionSubscribe0 function [Filtering], fwp.fwpmconnectionsubscribe0, fwpmu/FwpmConnectionSubscribe0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iservicelocationdescriptor_getnumberofelements.htm
 old-project: mstv
 ms.assetid: 134e4051-6a73-4420-b12d-3171738bd8ad
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetNumberOfElements, GetNumberOfElements method [Microsoft TV Technologies], GetNumberOfElements method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetNumberOfElements method, IServiceLocationDescriptor.GetNumberOfElements, IServiceLocationDescriptor::GetNumberOfElements, atscpsipparser/IServiceLocationDescriptor::GetNumberOfElements, mstv.iservicelocationdescriptor_getnumberofelements
 ms.prod: windows-hardware
 ms.technology: windows-devices

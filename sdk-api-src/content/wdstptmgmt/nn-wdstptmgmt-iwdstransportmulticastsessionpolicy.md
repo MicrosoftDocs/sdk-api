@@ -7,7 +7,7 @@ old-location: wds\iwdstransportmulticastsessionpolicy.htm
 old-project: Wds
 ms.assetid: bb6677d6-7c60-486a-825a-bafec1f3ffed
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportMulticastSessionPolicy, IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services], IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],described, wds.iwdstransportmulticastsessionpolicy, wdstptmgmt/IWdsTransportMulticastSessionPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

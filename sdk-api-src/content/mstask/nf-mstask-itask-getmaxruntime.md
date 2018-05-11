@@ -7,7 +7,7 @@ old-location: taskschd\itask_getmaxruntime.htm
 old-project: TaskSchd
 ms.assetid: a9f27929-d304-4696-bb36-0c0a34c71388
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetMaxRunTime, GetMaxRunTime method [Task Scheduler], GetMaxRunTime method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetMaxRunTime method, ITask.GetMaxRunTime, ITask::GetMaxRunTime, _msb_itask_getmaxruntime, mstask/ITask::GetMaxRunTime, taskschd.itask_getmaxruntime
 ms.prod: windows-hardware
 ms.technology: windows-devices

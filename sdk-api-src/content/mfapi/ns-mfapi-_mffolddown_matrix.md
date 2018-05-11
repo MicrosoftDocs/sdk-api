@@ -7,7 +7,7 @@ old-location: mf\mffolddown_matrix.htm
 old-project: medfound
 ms.assetid: 59bf275d-583e-47aa-96ff-ce032c618081
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 59bf275d-583e-47aa-96ff-ce032c618081, MFFOLDDOWN_MATRIX, MFFOLDDOWN_MATRIX structure [Media Foundation], _MFFOLDDOWN_MATRIX, mf.mffolddown_matrix, mfapi/MFFOLDDOWN_MATRIX
 ms.prod: windows-hardware
 ms.technology: windows-devices

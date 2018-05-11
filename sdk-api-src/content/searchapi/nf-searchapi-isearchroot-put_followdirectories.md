@@ -7,7 +7,7 @@ old-location: search\_search_ISearchRoot_put_FollowDirectories.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_followdirectories.htm
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/8/2018
 ms.keywords: ISearchRoot interface [search],put_FollowDirectories method, ISearchRoot.put_FollowDirectories, ISearchRoot::put_FollowDirectories, _search_ISearchRoot_put_FollowDirectories, put_FollowDirectories, put_FollowDirectories method [search], put_FollowDirectories method [search],ISearchRoot interface, search._search_ISearchRoot_put_FollowDirectories, searchapi/ISearchRoot::put_FollowDirectories
 ms.prod: windows-hardware
 ms.technology: windows-devices

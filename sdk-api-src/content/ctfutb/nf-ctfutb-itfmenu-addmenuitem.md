@@ -7,7 +7,7 @@ old-location: tsf\itfmenu_addmenuitem.htm
 old-project: TSF
 ms.assetid: c00048d1-d7c1-4ea3-a132-5f5aa570148f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: AddMenuItem, AddMenuItem method [Text Services Framework], AddMenuItem method [Text Services Framework],ITfMenu interface, ITfMenu interface [Text Services Framework],AddMenuItem method, ITfMenu.AddMenuItem, ITfMenu::AddMenuItem, _tsf_itfmenu_addmenuitem_ref, ctfutb/ITfMenu::AddMenuItem, tsf.itfmenu_addmenuitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

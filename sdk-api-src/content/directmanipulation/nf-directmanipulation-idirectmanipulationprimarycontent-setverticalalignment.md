@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationprimarycontent_setverticalal
 old-project: directmanipulation
 ms.assetid: 111f0358-0955-4ebb-b273-c17d3fb84d75
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetVerticalAlignment method, IDirectManipulationPrimaryContent.SetVerticalAlignment, IDirectManipulationPrimaryContent::SetVerticalAlignment, SetVerticalAlignment, SetVerticalAlignment method [Direct Manipulation], SetVerticalAlignment method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setverticalalignment, directmanipulation/IDirectManipulationPrimaryContent::SetVerticalAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices

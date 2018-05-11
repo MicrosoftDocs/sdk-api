@@ -7,7 +7,7 @@ old-location: setup\msigetsummaryinformation.htm
 old-project: Msi
 ms.assetid: f3a6d7cc-83b2-45c6-bf86-c579b39c2c92
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiGetSummaryInformation, MsiGetSummaryInformation function, MsiGetSummaryInformationA, MsiGetSummaryInformationW, _msi_msigetsummaryinformation, msiquery/MsiGetSummaryInformation, msiquery/MsiGetSummaryInformationA, msiquery/MsiGetSummaryInformationW, setup.msigetsummaryinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

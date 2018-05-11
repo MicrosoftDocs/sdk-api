@@ -7,7 +7,7 @@ old-location: winrm\iwsmanresourcelocator_error.htm
 old-project: WinRM
 ms.assetid: 040333f5-32b0-4ec8-8deb-da9fcb2ea46b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],Error property, IWSManResourceLocator.Error, IWSManResourceLocator.get_Error, IWSManResourceLocator::Error, IWSManResourceLocator::get_Error, get_Error, winrm.iwsmanresourcelocator_error, wsmandisp/IWSManResourceLocator::Error, wsmandisp/IWSManResourceLocator::get_Error
 ms.prod: windows-hardware
 ms.technology: windows-devices

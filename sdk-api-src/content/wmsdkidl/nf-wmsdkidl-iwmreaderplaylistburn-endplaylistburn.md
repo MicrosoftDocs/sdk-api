@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderplaylistburn_endplaylistburn.htm
 old-project: wmformat
 ms.assetid: 355f23eb-3cdb-4c27-bc48-499f349aef2b
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: EndPlaylistBurn, EndPlaylistBurn method [windows Media Format], EndPlaylistBurn method [windows Media Format],IWMReaderPlaylistBurn interface, IWMReaderPlaylistBurn interface [windows Media Format],EndPlaylistBurn method, IWMReaderPlaylistBurn.EndPlaylistBurn, IWMReaderPlaylistBurn::EndPlaylistBurn, IWMReaderPlaylistBurnEndPlaylistBurn, wmformat.iwmreaderplaylistburn_endplaylistburn, wmsdkidl/IWMReaderPlaylistBurn::EndPlaylistBurn
 ms.prod: windows-hardware
 ms.technology: windows-devices

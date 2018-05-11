@@ -7,7 +7,7 @@ old-location: display\ddsetsurfacestate.htm
 old-project: display
 ms.assetid: a54b1496-1f7e-4ba9-acb3-2debbe7e980d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*LPDDSETSURFACESTATE, DDSETSURFACESTATE, DDSETSURFACESTATE structure [Display Devices], LPDDSETSURFACESTATE, LPDDSETSURFACESTATE structure pointer [Display Devices], _DDSETSURFACETATE, ddkmapi/DDSETSURFACESTATE, ddkmapi/LPDDSETSURFACESTATE, ddstrcts_ddf8814f-d375-4b3c-93dc-0a77d12f3aab.xml, display.ddsetsurfacestate"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage4_getreferences.htm
 old-project: WMDM
 ms.assetid: f8caf10b-69d4-4d37-836e-af260840254f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: GetReferences, GetReferences method [windows Media Device Manager], GetReferences method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],GetReferences method, IMDSPStorage4.GetReferences, IMDSPStorage4::GetReferences, IMDSPStorage4GetReferences, mswmdm/IMDSPStorage4::GetReferences, wmdm.imdspstorage4_getreferences
 ms.prod: windows-hardware
 ms.technology: windows-devices

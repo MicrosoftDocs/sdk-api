@@ -7,7 +7,7 @@ old-location: controls\ListView_GetNextItemIndex.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getnextitemindex.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: ListView_GetNextItemIndex, ListView_GetNextItemIndex macro [Windows Controls], _shell_ListView_GetNextItemIndex, _shell_ListView_GetNextItemIndex_cpp, commctrl/ListView_GetNextItemIndex, controls.ListView_GetNextItemIndex, controls._shell_ListView_GetNextItemIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

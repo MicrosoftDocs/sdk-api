@@ -7,7 +7,7 @@ old-location: fwp\fwpmsystemportsget0.htm
 old-project: FWP
 ms.assetid: 675b1078-8f8e-4a97-aa01-fbf8fbe2b50f
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmSystemPortsGet0, FwpmSystemPortsGet0 function [Filtering], fwp.fwpmsystemportsget0, fwpmu/FwpmSystemPortsGet0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfaudiostreamvolume_getchannelvolume.htm
 old-project: medfound
 ms.assetid: 5cfcc3a8-2911-45a3-8322-bf4e3b023dd2
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 5cfcc3a8-2911-45a3-8322-bf4e3b023dd2, GetChannelVolume, GetChannelVolume method [Media Foundation], GetChannelVolume method [Media Foundation],IMFAudioStreamVolume interface, IMFAudioStreamVolume interface [Media Foundation],GetChannelVolume method, IMFAudioStreamVolume.GetChannelVolume, IMFAudioStreamVolume::GetChannelVolume, mf.imfaudiostreamvolume_getchannelvolume, mfidl/IMFAudioStreamVolume::GetChannelVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\clusterencrypt.htm
 old-project: MsCS
 ms.assetid: 5C15E553-D6C6-47F7-B6DE-E7CA4795CA87
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PCLUSTER_ENCRYPT, PCLUSTER_ENCRYPT callback, PCLUSTER_ENCRYPT callback function [Failover Cluster], mscs.clusterencrypt, resapi/PCLUSTER_ENCRYPT
 ms.prod: windows-hardware
 ms.technology: windows-devices

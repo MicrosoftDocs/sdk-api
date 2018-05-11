@@ -7,7 +7,7 @@ old-location: dshow\ienumfilters_next.htm
 old-project: DirectShow
 ms.assetid: 0e376a01-d353-434c-864a-8001c8022679
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumFilters interface [DirectShow],Next method, IEnumFilters.Next, IEnumFilters::Next, IEnumFiltersNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumFilters interface, dshow.ienumfilters_next, strmif/IEnumFilters::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

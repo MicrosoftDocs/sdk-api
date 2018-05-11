@@ -7,7 +7,7 @@ old-location: security\iscesvcattachmentdata_getdata.htm
 old-project: SecMgmt
 ms.assetid: f0b51592-58d9-45f2-a0a5-7cdbde0bc0a1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/9/2018
 ms.keywords: GetData, GetData method [Security], GetData method [Security],ISceSvcAttachmentData interface, ISceSvcAttachmentData interface [Security],GetData method, ISceSvcAttachmentData.GetData, ISceSvcAttachmentData::GetData, SCE_SERVICE_ANALYSIS_INFO, SCE_SERVICE_CONFIGURATION_INFO, _config_iscesvcattachmentdata_getdata, scesvc/ISceSvcAttachmentData::GetData, security.iscesvcattachmentdata_getdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

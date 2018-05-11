@@ -7,7 +7,7 @@ old-location: p2p\peerpnrpstartup.htm
 old-project: P2PSdk
 ms.assetid: 27d8d6ab-679d-4b7b-bf90-7b0859e7e048
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerPnrpStartup, PeerPnrpStartup function [Peer Networking], p2p.peerpnrpstartup, p2p/PeerPnrpStartup
 ms.prod: windows-hardware
 ms.technology: windows-devices

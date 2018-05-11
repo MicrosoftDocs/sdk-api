@@ -7,7 +7,7 @@ old-location: policy\getlocalmanagedapplications.htm
 old-project: Policy
 ms.assetid: 4606ff09-7e23-4953-aeef-cac822995d35
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetLocalManagedApplications, GetLocalManagedApplications function [Group Policy], appmgmt/GetLocalManagedApplications, policy.getlocalmanagedapplications
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpostview_getpostviewformatcount.htm
 old-project: wmformat
 ms.assetid: b34b2418-5ae4-49a2-913a-bb4ac604ac4e
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: GetPostViewFormatCount, GetPostViewFormatCount method [windows Media Format], GetPostViewFormatCount method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewFormatCount method, IWMWriterPostView.GetPostViewFormatCount, IWMWriterPostView::GetPostViewFormatCount, IWMWriterPostViewGetPostViewFormatCount, wmformat.iwmwriterpostview_getpostviewformatcount, wmsdkidl/IWMWriterPostView::GetPostViewFormatCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

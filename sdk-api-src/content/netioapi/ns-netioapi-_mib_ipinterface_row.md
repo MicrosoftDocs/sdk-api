@@ -7,7 +7,7 @@ old-location: mib\mib_ipinterface_row.htm
 old-project: MIB
 ms.assetid: 28265037-f7a3-40a4-b386-20f43f32a8b3
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMIB_IPINTERFACE_ROW, AF_INET, AF_INET6, AF_UNSPEC, LinkLocalAlwaysOff, LinkLocalAlwaysOn, LinkLocalDelayed, LinkLocalUnchanged, MIB_IPINTERFACE_ROW, MIB_IPINTERFACE_ROW structure [MIB], PMIB_IPINTERFACE_ROW, PMIB_IPINTERFACE_ROW structure pointer [MIB], RouterDiscoveryDhcp, RouterDiscoveryDisabled, RouterDiscoveryEnabled, RouterDiscoveryUnchanged, _MIB_IPINTERFACE_ROW, mib.mib_ipinterface_row, netioapi/MIB_IPINTERFACE_ROW, netioapi/PMIB_IPINTERFACE_ROW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

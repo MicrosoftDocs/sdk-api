@@ -7,7 +7,7 @@ old-location: display\drvdithercolor.htm
 old-project: display
 ms.assetid: 635a4af8-ec19-4f99-80b2-bad2a6e87edc
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: DrvDitherColor, DrvDitherColor function [Display Devices], ddifncs_2b62d877-2c36-41ad-bca7-88f1daf3640c.xml, display.drvdithercolor, winddi/DrvDitherColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

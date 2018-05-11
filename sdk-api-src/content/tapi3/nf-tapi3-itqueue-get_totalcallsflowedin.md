@@ -7,7 +7,7 @@ old-location: tapi3\itqueue_get_totalcallsflowedin.htm
 old-project: Tapi
 ms.assetid: 5c351937-0f26-478a-a475-37bb67aa61b9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_TotalCallsFlowedIn method, ITQueue.get_TotalCallsFlowedIn, ITQueue::get_TotalCallsFlowedIn, _tapi3_itqueue_get_totalcallsflowedin, get_TotalCallsFlowedIn, get_TotalCallsFlowedIn method [TAPI 2.2], get_TotalCallsFlowedIn method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_totalcallsflowedin, tapi3cc/ITQueue::get_TotalCallsFlowedIn
 ms.prod: windows-hardware
 ms.technology: windows-devices

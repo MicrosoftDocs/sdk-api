@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_terminate.htm
 old-project: TaskSchd
 ms.assetid: 8ea2144b-4f51-41db-8eaf-50da83967ea5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],Terminate method, IScheduledWorkItem.Terminate, IScheduledWorkItem::Terminate, Terminate, Terminate method [Task Scheduler], Terminate method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_terminate, mstask/IScheduledWorkItem::Terminate, taskschd.ischeduledworkitem_terminate
 ms.prod: windows-hardware
 ms.technology: windows-devices

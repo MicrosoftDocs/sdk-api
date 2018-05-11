@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin_inairpackets.htm
 old-project: tablet
 ms.assetid: 9ff5f784-33f0-45b8-bccd-3e90a9afd67f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: 9ff5f784-33f0-45b8-bccd-3e90a9afd67f, IStylusPlugin interface [Tablet PC],InAirPackets method, IStylusPlugin.InAirPackets, IStylusPlugin::InAirPackets, InAirPackets, InAirPackets method [Tablet PC], InAirPackets method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::InAirPackets, tablet.istylusplugin_inairpackets
 ms.prod: windows-hardware
 ms.technology: windows-devices

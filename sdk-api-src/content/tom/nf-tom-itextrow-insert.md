@@ -7,7 +7,7 @@ old-location: controls\itextrow_insert.htm
 old-project: Controls
 ms.assetid: b46a6391-7332-4cca-8199-d801a1e4c299
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: ITextRow interface [Windows Controls],Insert method, ITextRow.Insert, ITextRow::Insert, Insert, Insert method [Windows Controls], Insert method [Windows Controls],ITextRow interface, controls.itextrow_insert, tom/ITextRow::Insert
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iidentityprovider_import.htm
 old-project: SecAuthN
 ms.assetid: 16cf4e84-1a68-4794-a456-1a9f5ce4896d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IIdentityProvider interface [Security],Import method, IIdentityProvider.Import, IIdentityProvider::Import, Import, Import method [Security], Import method [Security],IIdentityProvider interface, identityprovider/IIdentityProvider::Import, security.iidentityprovider_import
 ms.prod: windows-hardware
 ms.technology: windows-devices

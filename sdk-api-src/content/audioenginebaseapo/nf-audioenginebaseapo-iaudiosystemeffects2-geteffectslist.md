@@ -7,7 +7,7 @@ old-location: audio\iaudiosystemeffects2_geteffectslist.htm
 old-project: audio
 ms.assetid: FC337D99-E992-43DB-9565-3B46827A7960
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/8/2018
 ms.keywords: GetEffectsList, GetEffectsList method [Audio Devices], GetEffectsList method [Audio Devices],IAudioSystemEffects2 interface, IAudioSystemEffects2 interface [Audio Devices],GetEffectsList method, IAudioSystemEffects2.GetEffectsList, IAudioSystemEffects2::GetEffectsList, audio.iaudiosystemeffects2_geteffectslist, audioenginebaseapo/IAudioSystemEffects2::GetEffectsList
 ms.prod: windows-hardware
 ms.technology: windows-devices

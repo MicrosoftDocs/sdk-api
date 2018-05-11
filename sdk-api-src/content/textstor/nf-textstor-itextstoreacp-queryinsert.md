@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_queryinsert.htm
 old-project: TSF
 ms.assetid: e02846a2-d50c-4f1e-b44b-1dfa0bf50442
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],QueryInsert method, ITextStoreACP.QueryInsert, ITextStoreACP::QueryInsert, QueryInsert, QueryInsert method [Text Services Framework], QueryInsert method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_queryinsert_ref, textstor/ITextStoreACP::QueryInsert, tsf.itextstoreacp_queryinsert
 ms.prod: windows-hardware
 ms.technology: windows-devices

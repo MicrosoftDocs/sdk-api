@@ -7,7 +7,7 @@ old-location: mib\mib_iftable.htm
 old-project: MIB
 ms.assetid: 7c3ca3d0-b6fe-4e1c-858f-82ffb26622e7
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMIB_IFTABLE, MIB_IFTABLE, MIB_IFTABLE structure [MIB], PMIB_IFTABLE, PMIB_IFTABLE structure pointer [MIB], _MIB_IFTABLE, _mpr_mib_iftable, ifmib/MIB_IFTABLE, ifmib/PMIB_IFTABLE, iprtrmib/MIB_IFTABLE, iprtrmib/PMIB_IFTABLE, mib.mib_iftable, rras.mib_iftable"
 ms.prod: windows-hardware
 ms.technology: windows-devices

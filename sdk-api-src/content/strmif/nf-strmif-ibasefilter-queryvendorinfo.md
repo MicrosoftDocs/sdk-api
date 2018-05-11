@@ -7,7 +7,7 @@ old-location: dshow\ibasefilter_queryvendorinfo.htm
 old-project: DirectShow
 ms.assetid: 7524de26-360e-49c7-b636-7d05cf4d0ad2
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IBaseFilter interface [DirectShow],QueryVendorInfo method, IBaseFilter.QueryVendorInfo, IBaseFilter::QueryVendorInfo, IBaseFilterQueryVendorInfo, QueryVendorInfo, QueryVendorInfo method [DirectShow], QueryVendorInfo method [DirectShow],IBaseFilter interface, dshow.ibasefilter_queryvendorinfo, strmif/IBaseFilter::QueryVendorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

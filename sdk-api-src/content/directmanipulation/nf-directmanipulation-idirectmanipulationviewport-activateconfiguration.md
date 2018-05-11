@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_activateconfigurati
 old-project: directmanipulation
 ms.assetid: 16c5902d-dddd-4c40-b1f9-cb432940aa3d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ActivateConfiguration, ActivateConfiguration method [Direct Manipulation], ActivateConfiguration method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],ActivateConfiguration method, IDirectManipulationViewport.ActivateConfiguration, IDirectManipulationViewport::ActivateConfiguration, directmanipulation.idirectmanipulationviewport_activateconfiguration, directmanipulation/IDirectManipulationViewport::ActivateConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\sec_winnt_credui_context_vector.htm
 old-project: SecAuthN
 ms.assetid: 11a82e82-f5c5-4549-8e5f-9d479e9c8249
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PSEC_WINNT_CREDUI_CONTEXT_VECTOR, PSEC_WINNT_CREDUI_CONTEXT_VECTOR, PSEC_WINNT_CREDUI_CONTEXT_VECTOR structure pointer [Security], SEC_WINNT_CREDUI_CONTEXT_VECTOR, SEC_WINNT_CREDUI_CONTEXT_VECTOR structure [Security], _SEC_WINNT_CREDUI_CONTEXT_VECTOR, security.sec_winnt_credui_context_vector, sspi/PSEC_WINNT_CREDUI_CONTEXT_VECTOR, sspi/SEC_WINNT_CREDUI_CONTEXT_VECTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

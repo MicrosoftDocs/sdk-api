@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccomponentinfo.htm
 old-project: wic
 ms.assetid: a31267ed-60cd-4de9-9fed-26bb390b29e6
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: IWICComponentInfo, IWICComponentInfo interface [Windows Imaging Component], IWICComponentInfo interface [Windows Imaging Component],described, _wic_codec_iwiccomponentinfo, wic._wic_codec_iwiccomponentinfo, wincodec/IWICComponentInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

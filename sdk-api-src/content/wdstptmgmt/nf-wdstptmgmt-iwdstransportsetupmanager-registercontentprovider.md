@@ -7,7 +7,7 @@ old-location: wds\iwdstransportsetupmanager_registercontentprovider.htm
 old-project: Wds
 ms.assetid: c7793413-fef0-41e8-90f2-c8608f4ceb75
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],RegisterContentProvider method, IWdsTransportSetupManager.RegisterContentProvider, IWdsTransportSetupManager::RegisterContentProvider, RegisterContentProvider, RegisterContentProvider method [Windows Deployment Services], RegisterContentProvider method [Windows Deployment Services],IWdsTransportSetupManager interface, wds.iwdstransportsetupmanager_registercontentprovider, wdstptmgmt/IWdsTransportSetupManager::RegisterContentProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

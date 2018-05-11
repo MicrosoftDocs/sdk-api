@@ -7,7 +7,7 @@ old-location: base\symsrvgetfileindexinfo.htm
 old-project: Debug
 ms.assetid: ee5b0821-2746-467e-9d95-90776882ac95
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: SymSrvGetFileIndexInfo, SymSrvGetFileIndexInfo function, SymSrvGetFileIndexInfoW, base.symsrvgetfileindexinfo, dbghelp/SymSrvGetFileIndexInfo, dbghelp/SymSrvGetFileIndexInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

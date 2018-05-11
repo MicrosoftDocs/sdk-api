@@ -7,7 +7,7 @@ old-location: setup\msisettargetpath.htm
 old-project: Msi
 ms.assetid: bfd39656-4901-442f-940d-424d440caf70
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiSetTargetPath, MsiSetTargetPath function, MsiSetTargetPathA, MsiSetTargetPathW, _msi_msisettargetpath, msiquery/MsiSetTargetPath, msiquery/MsiSetTargetPathA, msiquery/MsiSetTargetPathW, setup.msisettargetpath
 ms.prod: windows-hardware
 ms.technology: windows-devices

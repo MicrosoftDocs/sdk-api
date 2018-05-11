@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriterencoderconfig.htm
 old-project: medfound
 ms.assetid: 3a0d090d-9eb1-4624-989b-c5da27b988aa
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFSinkWriterEncoderConfig, IMFSinkWriterEncoderConfig interface [Media Foundation], IMFSinkWriterEncoderConfig interface [Media Foundation],described, mf.imfsinkwriterencoderconfig, mfreadwrite/IMFSinkWriterEncoderConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

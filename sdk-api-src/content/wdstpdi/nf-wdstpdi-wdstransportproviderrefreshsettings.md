@@ -7,7 +7,7 @@ old-location: wds\wdstransportproviderrefreshsettings.htm
 old-project: Wds
 ms.assetid: b5fc2340-6820-4b11-b96b-dcf3186f0786
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsTransportProviderRefreshSettings, WdsTransportProviderRefreshSettings callback, WdsTransportProviderRefreshSettings callback function [Windows Deployment Services], wds.wdstransportproviderrefreshsettings, wdstpdi/WdsTransportProviderRefreshSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

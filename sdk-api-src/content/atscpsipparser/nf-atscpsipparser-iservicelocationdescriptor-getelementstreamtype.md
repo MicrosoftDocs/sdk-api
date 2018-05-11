@@ -7,7 +7,7 @@ old-location: mstv\iservicelocationdescriptor_getelementstreamtype.htm
 old-project: mstv
 ms.assetid: d95a9af9-2e09-4a94-ac13-1b17698cfff3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetElementStreamType, GetElementStreamType method [Microsoft TV Technologies], GetElementStreamType method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementStreamType method, IServiceLocationDescriptor.GetElementStreamType, IServiceLocationDescriptor::GetElementStreamType, atscpsipparser/IServiceLocationDescriptor::GetElementStreamType, mstv.iservicelocationdescriptor_getelementstreamtype
 ms.prod: windows-hardware
 ms.technology: windows-devices

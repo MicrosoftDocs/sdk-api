@@ -7,7 +7,7 @@ old-location: tablet\istylusplugin.htm
 old-project: tablet
 ms.assetid: bbef5cdb-4112-4733-80bb-692b7a198605
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], IStylusPlugin interface [Tablet PC],described, bbef5cdb-4112-4733-80bb-692b7a198605, rtscom/IStylusPlugin, tablet.istylusplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\peerdistserverretrievecontentinformation.htm
 old-project: P2PSdk
 ms.assetid: 376ece5f-93ea-4650-a6d8-351ae60fc15b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerDistServerRetrieveContentInformation, PeerDistServerRetrieveContentInformation function [Peer Networking], p2p.peerdistserverretrievecontentinformation, peerdist/PeerDistServerRetrieveContentInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

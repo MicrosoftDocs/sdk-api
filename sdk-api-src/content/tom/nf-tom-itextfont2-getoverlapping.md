@@ -7,7 +7,7 @@ old-location: controls\itextfont2_getoverlapping.htm
 old-project: Controls
 ms.assetid: 26937777-a44b-4196-aa6b-f35787f934a9
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetOverlapping, GetOverlapping method [Windows Controls], GetOverlapping method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetOverlapping method, ITextFont2.GetOverlapping, ITextFont2::GetOverlapping, controls.itextfont2_getoverlapping, tom/ITextFont2::GetOverlapping
 ms.prod: windows-hardware
 ms.technology: windows-devices

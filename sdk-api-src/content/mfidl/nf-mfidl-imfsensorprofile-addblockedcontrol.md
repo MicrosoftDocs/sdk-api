@@ -7,7 +7,7 @@ old-location: mf\imfsensorprofile_addblockedcontrol.htm
 old-project: medfound
 ms.assetid: 1D1EAD84-5053-47B2-9366-EEBE8681970F
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: AddBlockedControl, AddBlockedControl method [Media Foundation], AddBlockedControl method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],AddBlockedControl method, IMFSensorProfile.AddBlockedControl, IMFSensorProfile::AddBlockedControl, mf.imfsensorprofile_addblockedcontrol, mfidl/IMFSensorProfile::AddBlockedControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

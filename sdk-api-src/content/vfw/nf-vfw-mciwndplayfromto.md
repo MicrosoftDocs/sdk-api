@@ -7,7 +7,7 @@ old-location: multimedia\mciwndplayfromto.htm
 old-project: Multimedia
 ms.assetid: a592c28c-322f-4fd1-90e9-632703bf40c1
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: MCIWndPlayFromTo, MCIWndPlayFromTo macro [Windows Multimedia], _win32_MCIWndPlayFromTo, multimedia.mciwndplayfromto, vfw/MCIWndPlayFromTo
 ms.prod: windows-hardware
 ms.technology: windows-devices

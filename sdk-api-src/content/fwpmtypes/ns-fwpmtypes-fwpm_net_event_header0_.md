@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event_header0.htm
 old-project: FWP
 ms.assetid: 2fbb805d-d38b-4918-a291-fe1000ac2ea2
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_NET_EVENT_FLAG_APP_ID_SET, FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET, FWPM_NET_EVENT_FLAG_IP_VERSION_SET, FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET, FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET, FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET, FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET, FWPM_NET_EVENT_FLAG_SCOPE_ID_SET, FWPM_NET_EVENT_FLAG_USER_ID_SET, FWPM_NET_EVENT_HEADER0, FWPM_NET_EVENT_HEADER0 structure [Filtering], FWPM_NET_EVENT_HEADER0_, fwp.fwpm_net_event_header0, fwpmtypes/FWPM_NET_EVENT_HEADER0
 ms.prod: windows-hardware
 ms.technology: windows-devices

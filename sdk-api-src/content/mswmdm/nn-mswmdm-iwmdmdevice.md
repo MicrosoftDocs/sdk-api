@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice.htm
 old-project: WMDM
 ms.assetid: 44212da9-a38a-4ed5-86af-cf60b40bb54d
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: IWMDMDevice, IWMDMDevice interface [windows Media Device Manager], IWMDMDevice interface [windows Media Device Manager],described, IWMDMDeviceInterface, mswmdm/IWMDMDevice, wmdm.iwmdmdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

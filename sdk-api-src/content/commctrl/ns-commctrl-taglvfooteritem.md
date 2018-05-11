@@ -7,7 +7,7 @@ old-location: controls\LVFOOTERITEM.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfooteritem.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: "*LPLVFOOTERITEM, LPLVFOOTERITEM, LPLVFOOTERITEM structure pointer [Windows Controls], LVFIF_STATE, LVFIF_TEXT, LVFIS_FOCUSED, LVFOOTERITEM, LVFOOTERITEM structure [Windows Controls], _shell_LVFOOTERITEM, _shell_LVFOOTERITEM_cpp, commctrl/LPLVFOOTERITEM, commctrl/LVFOOTERITEM, controls.LVFOOTERITEM, controls._shell_LVFOOTERITEM, tagLVFOOTERITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriter_flush.htm
 old-project: wmformat
 ms.assetid: 1fa0c482-f1f5-4d3c-8268-731914caefa3
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: Flush, Flush method [windows Media Format], Flush method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],Flush method, IWMWriter.Flush, IWMWriter::Flush, IWMWriterFlush, wmformat.iwmwriter_flush, wmsdkidl/IWMWriter::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices

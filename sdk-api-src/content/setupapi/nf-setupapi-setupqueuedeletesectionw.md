@@ -7,7 +7,7 @@ old-location: setup\setupqueuedeletesection.htm
 old-project: SetupApi
 ms.assetid: 3e76e345-1d6c-4eb5-a743-b71d5ccc52e5
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupQueueDeleteSection, SetupQueueDeleteSection function [Setup API], SetupQueueDeleteSectionA, SetupQueueDeleteSectionW, _setupapi_setupqueuedeletesection, setup.setupqueuedeletesection, setupapi/SetupQueueDeleteSection, setupapi/SetupQueueDeleteSectionA, setupapi/SetupQueueDeleteSectionW
 ms.prod: windows-hardware
 ms.technology: windows-devices

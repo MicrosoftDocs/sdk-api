@@ -7,7 +7,7 @@ old-location: dshow\vmrallocationinfo.htm
 old-project: DirectShow
 ms.assetid: 3908f9d1-5120-413b-a142-08cd9005c401
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: VMRALLOCATIONINFO, VMRALLOCATIONINFO structure [DirectShow], VMRALLOCATIONINFOStructure, dshow.vmrallocationinfo, strmif/VMRALLOCATIONINFO, tagVMRALLOCATIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\iupdatedownloader_begindownload.htm
 old-project: Wua_Sdk
 ms.assetid: 9a953240-3d8e-4876-92a9-cc7efca62780
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: BeginDownload, BeginDownload method [Windows Update Agent], BeginDownload method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],BeginDownload method, IUpdateDownloader.BeginDownload, IUpdateDownloader::BeginDownload, wua.iupdatedownloader_begindownload, wuapi/IUpdateDownloader::BeginDownload
 ms.prod: windows-hardware
 ms.technology: windows-devices

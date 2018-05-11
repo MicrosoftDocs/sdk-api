@@ -7,7 +7,7 @@ old-location: search\isimplecommandcreator_getdefaultcatalog.htm
 old-project: search
 ms.assetid: 6BD65290-209A-4FCA-BD2B-E4BB800C8BEF
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/8/2018
 ms.keywords: GetDefaultCatalog, GetDefaultCatalog method [search], GetDefaultCatalog method [search],ISimpleCommandCreator interface, ISimpleCommandCreator interface [search],GetDefaultCatalog method, ISimpleCommandCreator.GetDefaultCatalog, ISimpleCommandCreator::GetDefaultCatalog, indexsrv/ISimpleCommandCreator::GetDefaultCatalog, search.isimplecommandcreator_getdefaultcatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: fwp\ipsecgetstatistics1_func.htm
 old-project: FWP
 ms.assetid: cb95167c-224f-4c78-a0a2-8268f766aa05
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
-ms.keywords: IPsecGetStatistics0, IPsecGetStatistics0 function [Filtering], IPsecGetStatistics1, fwp.ipsecgetstatistics1_func, fwpmu/IPsecGetStatistics0
+ms.date: 5/8/2018
+ms.keywords: IPsecGetStatistics1, IPsecGetStatistics1 function [Filtering], fwp.ipsecgetstatistics1_func, fwpmu/IPsecGetStatistics1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Fwpuclnt.dll
 api_name:
--	IPsecGetStatistics0
+-	IPsecGetStatistics1
 product: Windows
 targetos: Windows
 req.lib: Fwpuclnt.lib

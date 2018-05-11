@@ -7,7 +7,7 @@ old-location: shell\PtrdiffTSub.htm
 old-project: shell
 ms.assetid: 633ba8f5-ce8b-41a0-8af3-c06f69c9b676
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PtrdiffTSub, PtrdiffTSub function [Windows Shell], intsafe/PtrdiffTSub, shell.PtrdiffTSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

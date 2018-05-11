@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_connectnotify.htm
 old-project: TermServ
 ms.assetid: 9109d867-d9dc-4b95-a674-9f59ed7aa6a4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: ConnectNotify, ConnectNotify method [Remote Desktop Services], ConnectNotify method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],ConnectNotify method, IWTSProtocolConnection.ConnectNotify, IWTSProtocolConnection::ConnectNotify, termserv.iwtsprotocolconnection_connectnotify, wtsprotocol/IWTSProtocolConnection::ConnectNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

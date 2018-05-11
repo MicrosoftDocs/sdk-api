@@ -7,7 +7,7 @@ old-location: tapi2\lineshutdown.htm
 old-project: Tapi
 ms.assetid: d512508a-fb6a-41ec-a80d-f625abfdd184
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_lineshutdown, lineShutdown, lineShutdown function [TAPI 2.2], tapi/lineShutdown, tapi2.lineshutdown"
 ms.prod: windows-hardware
 ms.technology: windows-devices

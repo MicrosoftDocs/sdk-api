@@ -7,7 +7,7 @@ old-location: base\service_sid_info.htm
 old-project: Services
 ms.assetid: cb1a32bd-aafb-4e41-8d6f-673c3d747f14
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/9/2018
 ms.keywords: "*LPSERVICE_SID_INFO, LPSERVICE_SID_INFO, LPSERVICE_SID_INFO structure pointer, SERVICE_SID_INFO, SERVICE_SID_INFO structure, SERVICE_SID_TYPE_NONE, SERVICE_SID_TYPE_RESTRICTED, SERVICE_SID_TYPE_UNRESTRICTED, _SERVICE_SID_INFO, base.service_sid_info, winsvc/LPSERVICE_SID_INFO, winsvc/SERVICE_SID_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

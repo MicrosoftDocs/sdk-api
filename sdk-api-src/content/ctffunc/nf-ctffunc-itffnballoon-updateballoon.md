@@ -7,7 +7,7 @@ old-location: tsf\itffnballoon_updateballoon.htm
 old-project: TSF
 ms.assetid: b395d587-02a7-496e-8bfd-8fcaba2a3edc
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfFnBalloon interface [Text Services Framework],UpdateBalloon method, ITfFnBalloon.UpdateBalloon, ITfFnBalloon::UpdateBalloon, UpdateBalloon, UpdateBalloon method [Text Services Framework], UpdateBalloon method [Text Services Framework],ITfFnBalloon interface, _tsf_itffnballoon_updateballoon_ref, ctffunc/ITfFnBalloon::UpdateBalloon, tsf.itffnballoon_updateballoon
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi2\linecallhubtrackinginfo_str.htm
 old-project: Tapi
 ms.assetid: 1f4eaf7d-fc80-4131-af5a-30c6869c74ef
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "*LPLINECALLHUBTRACKINGINFO, LINECALLHUBTRACKINGINFO, LINECALLHUBTRACKINGINFO structure [TAPI 2.2], LPLINECALLHUBTRACKINGINFO, LPLINECALLHUBTRACKINGINFO structure pointer [TAPI 2.2], _tapi2_linecallhubtrackinginfo_str, linecallhubtrackinginfo_tag, tapi/LINECALLHUBTRACKINGINFO, tapi/LPLINECALLHUBTRACKINGINFO, tapi2.linecallhubtrackinginfo_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

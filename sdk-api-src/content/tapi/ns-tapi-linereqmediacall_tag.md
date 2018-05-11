@@ -7,7 +7,7 @@ old-location: tapi2\linereqmediacall_str.htm
 old-project: Tapi
 ms.assetid: 4b0e4919-ebf9-496c-a8c9-bb8357879c65
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "*LPLINEREQMEDIACALL, LINEREQMEDIACALL, LINEREQMEDIACALL structure [TAPI 2.2], LPLINEREQMEDIACALL, LPLINEREQMEDIACALL structure pointer [TAPI 2.2], _tapi2_linereqmediacall_str, linereqmediacall_tag, tapi/LINEREQMEDIACALL, tapi/LPLINEREQMEDIACALL, tapi2.linereqmediacall_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

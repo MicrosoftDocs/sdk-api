@@ -7,7 +7,7 @@ old-location: wua\iupdateservicemanager2_clientapplicationid.htm
 old-project: Wua_Sdk
 ms.assetid: 6783b7fc-ebb7-4b68-b71c-23e65ef61504
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateServiceManager2 interface, IUpdateServiceManager2 interface [Windows Update Agent],ClientApplicationID property, IUpdateServiceManager2.ClientApplicationID, IUpdateServiceManager2.get_ClientApplicationID, IUpdateServiceManager2::ClientApplicationID, IUpdateServiceManager2::get_ClientApplicationID, IUpdateServiceManager2::put_ClientApplicationID, get_ClientApplicationID, wua.iupdateservicemanager2_clientapplicationid, wuapi/IUpdateServiceManager2::ClientApplicationID, wuapi/IUpdateServiceManager2::get_ClientApplicationID, wuapi/IUpdateServiceManager2::put_ClientApplicationID
 ms.prod: windows-hardware
 ms.technology: windows-devices

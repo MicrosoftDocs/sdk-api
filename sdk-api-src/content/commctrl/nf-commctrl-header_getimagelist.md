@@ -7,7 +7,7 @@ old-location: controls\Header_GetImageList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getimagelist.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: Header_GetImageList, Header_GetImageList macro [Windows Controls], _win32_Header_GetImageList, _win32_Header_GetImageList_cpp, commctrl/Header_GetImageList, controls.Header_GetImageList, controls._win32_Header_GetImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices

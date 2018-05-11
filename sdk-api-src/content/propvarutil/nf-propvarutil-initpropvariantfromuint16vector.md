@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromUInt16Vector.htm
 old-project: properties
 ms.assetid: 2e0eebd9-c246-42a7-90a8-d27fff6a2eab
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: InitPropVariantFromUInt16Vector, InitPropVariantFromUInt16Vector function [Windows Properties], properties.InitPropVariantFromUInt16Vector, propvarutil/InitPropVariantFromUInt16Vector, shell.InitPropVariantFromUInt16Vector, shell_InitPropVariantFromUInt16Vector
 ms.prod: windows-hardware
 ms.technology: windows-devices

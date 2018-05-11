@@ -7,7 +7,7 @@ old-location: mstv\ipbdaattributesdescriptor_getattributepayload.htm
 old-project: mstv
 ms.assetid: 315f6afe-a5cc-4fe2-8029-fcf280b358b2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetAttributePayload, GetAttributePayload method [Microsoft TV Technologies], GetAttributePayload method [Microsoft TV Technologies],IPBDAAttributesDescriptor interface, IPBDAAttributesDescriptor interface [Microsoft TV Technologies],GetAttributePayload method, IPBDAAttributesDescriptor.GetAttributePayload, IPBDAAttributesDescriptor::GetAttributePayload, dvbsiparser/IPBDAAttributesDescriptor::GetAttributePayload, mstv.ipbdaattributesdescriptor_getattributepayload
 ms.prod: windows-hardware
 ms.technology: windows-devices

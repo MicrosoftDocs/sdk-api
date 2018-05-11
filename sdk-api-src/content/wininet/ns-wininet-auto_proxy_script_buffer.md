@@ -7,7 +7,7 @@ old-location: wininet\auto_proxy_script_buffer.htm
 old-project: WinInet
 ms.assetid: 4bbe875a-1eac-421a-90c6-ac60b2229b4c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: "*LPAUTO_PROXY_SCRIPT_BUFFER, AUTO_PROXY_SCRIPT_BUFFER, AUTO_PROXY_SCRIPT_BUFFER structure [WinINet], wininet.auto_proxy_script_buffer, wininet/AUTO_PROXY_SCRIPT_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\getipstatistics.htm
 old-project: IpHlp
 ms.assetid: 15daaa34-2011-462a-9543-f8d7ccb9f6fd
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetIpStatistics, GetIpStatistics function [IP Helper], _iphlp_getipstatistics, iphlp.getipstatistics, iphlpapi/GetIpStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

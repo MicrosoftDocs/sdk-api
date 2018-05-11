@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatelistuielement_getupdatedflags.htm
 old-project: TSF
 ms.assetid: 618bf940-3145-4da5-a253-620b17b045c8
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: GetUpdatedFlags, GetUpdatedFlags method [Text Services Framework], GetUpdatedFlags method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetUpdatedFlags method, ITfCandidateListUIElement.GetUpdatedFlags, ITfCandidateListUIElement::GetUpdatedFlags, TF_CLUIE_COUNT, TF_CLUIE_CURRENTPAGE, TF_CLUIE_DOCUMENTMGR, TF_CLUIE_PAGEINDEX, TF_CLUIE_SELECTION, TF_CLUIE_STRING, msctf/ITfCandidateListUIElement::GetUpdatedFlags, tsf.itfcandidatelistuielement_getupdatedflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

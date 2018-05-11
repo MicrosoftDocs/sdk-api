@@ -7,7 +7,7 @@ old-location: wmformat\inssbuffer3_setproperty.htm
 old-project: wmformat
 ms.assetid: 5aede025-65ae-4615-9511-af22b8c0dc00
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: INSSBuffer3 interface [windows Media Format],SetProperty method, INSSBuffer3.SetProperty, INSSBuffer3::SetProperty, INSSBuffer3SetProperty, SetProperty, SetProperty method [windows Media Format], SetProperty method [windows Media Format],INSSBuffer3 interface, wmformat.inssbuffer3_setproperty, wmsbuffer/INSSBuffer3::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

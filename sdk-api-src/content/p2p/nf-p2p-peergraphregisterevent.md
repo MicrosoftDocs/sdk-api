@@ -7,7 +7,7 @@ old-location: p2p\peergraphregisterevent.htm
 old-project: P2PSdk
 ms.assetid: 3ed963ba-0b9d-4de8-a610-b07cf49ed27f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGraphRegisterEvent, PeerGraphRegisterEvent function [Peer Networking], p2p.peergraphregisterevent, p2p/PeerGraphRegisterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\PathGetDriveNumber.htm
 old-project: shell
 ms.assetid: 38914866-fdd4-47f2-b0e7-d09d1cfb0eee
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PathGetDriveNumber, PathGetDriveNumber function [Windows Shell], PathGetDriveNumberA, PathGetDriveNumberW, _win32_PathGetDriveNumber, shell.PathGetDriveNumber, shlwapi/PathGetDriveNumber, shlwapi/PathGetDriveNumberA, shlwapi/PathGetDriveNumberW
 ms.prod: windows-hardware
 ms.technology: windows-devices

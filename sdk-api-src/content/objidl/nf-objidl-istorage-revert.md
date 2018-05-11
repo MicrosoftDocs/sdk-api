@@ -7,7 +7,7 @@ old-location: stg\istorage_revert.htm
 old-project: Stg
 ms.assetid: d1b7626e-bad1-47b5-8bcd-3da3b05c53c4
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: IStorage interface [Structured Storage],Revert method, IStorage.Revert, IStorage::Revert, Revert, Revert method [Structured Storage], Revert method [Structured Storage],IStorage interface, _stg_istorage_revert, objidl/IStorage::Revert, stg.istorage_revert
 ms.prod: windows-hardware
 ms.technology: windows-devices

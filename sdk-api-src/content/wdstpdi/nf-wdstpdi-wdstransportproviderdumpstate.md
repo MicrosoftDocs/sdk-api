@@ -7,7 +7,7 @@ old-location: wds\wdstransportproviderdumpstate.htm
 old-project: Wds
 ms.assetid: e7a7d866-2954-46fb-8356-dbd7761efcf3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsTransportProviderDumpState, WdsTransportProviderDumpState callback, WdsTransportProviderDumpState callback function [Windows Deployment Services], wds.wdstransportproviderdumpstate, wdstpdi/WdsTransportProviderDumpState
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\lookuppersistenttcpportreservation.htm
 old-project: IpHlp
 ms.assetid: 5EBEB774-13A2-49C2-92ED-5271081615AA
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: LookupPersistentTcpPortReservation, LookupPersistentTcpPortReservation function [IP Helper], iphlp.lookuppersistenttcpportreservation, iphlpapi/LookupPersistentTcpPortReservation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\imixerpinconfig_getblendingparameter.htm
 old-project: DirectShow
 ms.assetid: bcd54b8d-d742-4ac0-bcea-8de77b7f0074
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetBlendingParameter, GetBlendingParameter method [DirectShow], GetBlendingParameter method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetBlendingParameter method, IMixerPinConfig.GetBlendingParameter, IMixerPinConfig::GetBlendingParameter, IMixerPinConfigGetBlendingParameter, dshow.imixerpinconfig_getblendingparameter, mpconfig/IMixerPinConfig::GetBlendingParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices

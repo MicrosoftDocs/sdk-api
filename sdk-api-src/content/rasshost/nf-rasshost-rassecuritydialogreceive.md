@@ -7,7 +7,7 @@ old-location: rras\rassecuritydialogreceive.htm
 old-project: RRAS
 ms.assetid: ed5fcea6-6533-4c78-bd49-dfeaafd8192a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RasSecurityDialogReceive, RasSecurityDialogReceive function [RAS], _ras_rassecuritydialogreceive, rasshost/RasSecurityDialogReceive, rras.rassecuritydialogreceive
 ms.prod: windows-hardware
 ms.technology: windows-devices

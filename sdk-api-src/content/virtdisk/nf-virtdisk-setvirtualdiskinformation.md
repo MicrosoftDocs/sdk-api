@@ -7,7 +7,7 @@ old-location: vhd\setvirtualdiskinformation.htm
 old-project: VStor
 ms.assetid: bd4bee14-6812-4a28-8c44-2b8e8d42e697
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: SetVirtualDiskInformation, SetVirtualDiskInformation function [VHD], vhd.setvirtualdiskinformation, virtdisk/SetVirtualDiskInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

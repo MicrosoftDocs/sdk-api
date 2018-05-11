@@ -7,7 +7,7 @@ old-location: tapi3\ienumagenthandler_skip.htm
 old-project: Tapi
 ms.assetid: cf6b7003-13f1-4203-b341-2c9796cffdd2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IEnumAgentHandler interface [TAPI 2.2],Skip method, IEnumAgentHandler.Skip, IEnumAgentHandler::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumAgentHandler interface, _tapi3_ienumagenthandler_skip, tapi3.ienumagenthandler_skip, tapi3cc/IEnumAgentHandler::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

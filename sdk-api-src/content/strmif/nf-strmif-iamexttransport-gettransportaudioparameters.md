@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_gettransportaudioparameters.htm
 old-project: DirectShow
 ms.assetid: 90650920-f151-4e19-9133-4f1eb5eecbc2
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetTransportAudioParameters, GetTransportAudioParameters method [DirectShow], GetTransportAudioParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportAudioParameters method, IAMExtTransport.GetTransportAudioParameters, IAMExtTransport::GetTransportAudioParameters, IAMExtTransportGetTransportAudioParameters, dshow.iamexttransport_gettransportaudioparameters, strmif/IAMExtTransport::GetTransportAudioParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

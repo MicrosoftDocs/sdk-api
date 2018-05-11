@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth_open.htm
 old-project: audio
 ms.assetid: 15a16b27-7693-4fc6-80ae-e8aedcf879d0
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/8/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],Open method, IDirectMusicSynth.Open, IDirectMusicSynth::Open, Open, Open method [Audio Devices], Open method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_open, audmp-routines_5bb9c701-4377-42fb-91ac-733952708a38.xml, dmusics/IDirectMusicSynth::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

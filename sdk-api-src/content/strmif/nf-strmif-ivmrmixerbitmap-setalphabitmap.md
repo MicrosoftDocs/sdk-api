@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixerbitmap_setalphabitmap.htm
 old-project: DirectShow
 ms.assetid: 92e57c3a-6761-4a54-83f5-0ea0ce80d60b
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IVMRMixerBitmap interface [DirectShow],SetAlphaBitmap method, IVMRMixerBitmap.SetAlphaBitmap, IVMRMixerBitmap::SetAlphaBitmap, IVMRMixerBitmapSetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [DirectShow], SetAlphaBitmap method [DirectShow],IVMRMixerBitmap interface, dshow.ivmrmixerbitmap_setalphabitmap, strmif/IVMRMixerBitmap::SetAlphaBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

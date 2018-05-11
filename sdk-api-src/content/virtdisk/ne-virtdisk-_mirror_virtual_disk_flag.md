@@ -7,7 +7,7 @@ old-location: vhd\mirror_virtual_disk_flag.htm
 old-project: VStor
 ms.assetid: 14051691-eacb-40b8-a8ae-822bc054d0a1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: MIRROR_VIRTUAL_DISK_FLAG, MIRROR_VIRTUAL_DISK_FLAG enumeration [VHD], MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE, MIRROR_VIRTUAL_DISK_FLAG_NONE, _MIRROR_VIRTUAL_DISK_FLAG, vhd.mirror_virtual_disk_flag, virtdisk/MIRROR_VIRTUAL_DISK_FLAG, virtdisk/MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE, virtdisk/MIRROR_VIRTUAL_DISK_FLAG_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices

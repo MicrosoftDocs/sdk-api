@@ -7,7 +7,7 @@ old-location: dshow\iconfigasfwriter.htm
 old-project: DirectShow
 ms.assetid: 50fd7825-4844-4a7f-b949-4abfff5ef30f
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IConfigAsfWriter, IConfigAsfWriter interface [DirectShow], IConfigAsfWriter interface [DirectShow],described, IConfigAsfWriterInterface, dshow.iconfigasfwriter, dshowasf/IConfigAsfWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

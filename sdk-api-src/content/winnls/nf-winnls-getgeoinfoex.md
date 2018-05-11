@@ -7,7 +7,7 @@ old-location: intl\getgeoinfoex.htm
 old-project: Intl
 ms.assetid: 05BF6434-A80F-4BF5-9A43-C4D65E72F43B
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: GetGeoInfoEx, GetGeoInfoEx function [Internationalization for Windows Applications], intl.getgeoinfoex, winnls/GetGeoInfoEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfuielementsink_beginuielement.htm
 old-project: TSF
 ms.assetid: 068c6963-7d69-45b9-8f8b-7af358548a56
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: BeginUIElement, BeginUIElement method [Text Services Framework], BeginUIElement method [Text Services Framework],ITfUIElementSink interface, ITfUIElementSink interface [Text Services Framework],BeginUIElement method, ITfUIElementSink.BeginUIElement, ITfUIElementSink::BeginUIElement, msctf/ITfUIElementSink::BeginUIElement, tsf.itfuielementsink_beginuielement
 ms.prod: windows-hardware
 ms.technology: windows-devices

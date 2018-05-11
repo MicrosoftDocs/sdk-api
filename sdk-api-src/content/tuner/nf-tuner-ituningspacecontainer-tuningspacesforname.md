@@ -7,7 +7,7 @@ old-location: mstv\ituningspacecontainer_tuningspacesforname.htm
 old-project: mstv
 ms.assetid: de16a50e-7f5d-41e5-a17f-bb6d97179e4e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],TuningSpacesForName method, ITuningSpaceContainer.TuningSpacesForName, ITuningSpaceContainer::TuningSpacesForName, ITuningSpaceContainerTuningSpacesForName, TuningSpacesForName, TuningSpacesForName method [Microsoft TV Technologies], TuningSpacesForName method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_tuningspacesforname, tuner/ITuningSpaceContainer::TuningSpacesForName
 ms.prod: windows-hardware
 ms.technology: windows-devices

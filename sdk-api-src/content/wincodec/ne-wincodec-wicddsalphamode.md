@@ -7,7 +7,7 @@ old-location: wic\wicddsalphamode.htm
 old-project: wic
 ms.assetid: 67C9B07F-5259-4032-9EBF-CBC3B8637343
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: WICDdsAlphaMode, WICDdsAlphaMode enumeration [Windows Imaging Component], WICDdsAlphaModeCustom, WICDdsAlphaModeOpaque, WICDdsAlphaModePremultiplied, WICDdsAlphaModeStraight, WICDdsAlphaModeUnknown, wic.wicddsalphamode, wincodec/WICDdsAlphaMode, wincodec/WICDdsAlphaModeCustom, wincodec/WICDdsAlphaModeOpaque, wincodec/WICDdsAlphaModePremultiplied, wincodec/WICDdsAlphaModeStraight, wincodec/WICDdsAlphaModeUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\unmapdebuginformation.htm
 old-project: Debug
 ms.assetid: 86d82f23-7803-475f-8b23-c3964d33cb00
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: UnmapDebugInformation, UnmapDebugInformation function, _win32_unmapdebuginformation, base.unmapdebuginformation, dbghelp/UnmapDebugInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wds\iwdstransporttftpclient_ipaddress.htm
 old-project: Wds
 ms.assetid: ABF9E29D-225A-4673-8922-A1BF53B685F9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportTftpClient interface [Windows Deployment Services],IpAddress property, IWdsTransportTftpClient.IpAddress, IWdsTransportTftpClient.get_IpAddress, IWdsTransportTftpClient::IpAddress, IWdsTransportTftpClient::get_IpAddress, IpAddress property [Windows Deployment Services], IpAddress property [Windows Deployment Services],IWdsTransportTftpClient interface, get_IpAddress, wds.iwdstransporttftpclient_ipaddress, wdstptmgmt/IWdsTransportTftpClient::IpAddress, wdstptmgmt/IWdsTransportTftpClient::get_IpAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wds\iwdstransportsession_networkinterfaceaddress.htm
 old-project: Wds
 ms.assetid: 6585452b-037c-4ee8-807a-144b6b53695a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],NetworkInterfaceAddress property, IWdsTransportSession.NetworkInterfaceAddress, IWdsTransportSession.get_NetworkInterfaceAddress, IWdsTransportSession::NetworkInterfaceAddress, IWdsTransportSession::get_NetworkInterfaceAddress, NetworkInterfaceAddress property [Windows Deployment Services], NetworkInterfaceAddress property [Windows Deployment Services],IWdsTransportSession interface, get_NetworkInterfaceAddress, wds.iwdstransportsession_networkinterfaceaddress, wdstptmgmt/IWdsTransportSession::NetworkInterfaceAddress, wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

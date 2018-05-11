@@ -7,7 +7,7 @@ old-location: properties\PSCreateAdapterFromPropertyStore.htm
 old-project: properties
 ms.assetid: a3489f95-e790-481a-af6e-f30527dc476c
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: PSCreateAdapterFromPropertyStore, PSCreateAdapterFromPropertyStore function [Windows Properties], _shell_PSCreateAdapterFromPropertyStore, properties.PSCreateAdapterFromPropertyStore, propsys/PSCreateAdapterFromPropertyStore, shell.PSCreateAdapterFromPropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

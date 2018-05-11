@@ -7,7 +7,7 @@ old-location: wds\pxeproviderqueryindex.htm
 old-project: Wds
 ms.assetid: 0b28c075-7f2e-4149-b851-21614773e942
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: PxeProviderQueryIndex, PxeProviderQueryIndex function [Windows Deployment Services], wds.pxeproviderqueryindex, wdspxe/PxeProviderQueryIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\setipstatisticsex.htm
 old-project: IpHlp
 ms.assetid: 13b52016-5bdb-4546-af53-d3ae2708653b
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: AF_INET, AF_INET6, SetIpStatisticsEx, SetIpStatisticsEx function [IP Helper], iphlp.setipstatisticsex, iphlpapi/SetIpStatisticsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

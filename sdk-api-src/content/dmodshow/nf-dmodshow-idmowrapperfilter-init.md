@@ -7,7 +7,7 @@ old-location: dshow\idmowrapperfilter_init.htm
 old-project: DirectShow
 ms.assetid: 45f305b5-82bc-44c1-9af7-93aab371ed33
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IDMOWrapperFilter interface [DirectShow],Init method, IDMOWrapperFilter.Init, IDMOWrapperFilter::Init, IDMOWrapperFilterInit, Init, Init method [DirectShow], Init method [DirectShow],IDMOWrapperFilter interface, dmodshow/IDMOWrapperFilter::Init, dshow.idmowrapperfilter_init
 ms.prod: windows-hardware
 ms.technology: windows-devices

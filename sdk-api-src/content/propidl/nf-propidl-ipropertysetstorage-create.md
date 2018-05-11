@@ -7,7 +7,7 @@ old-location: stg\ipropertysetstorage_create.htm
 old-project: Stg
 ms.assetid: 9307788d-bce6-4025-8043-8b68e874a62b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: Create, Create method [Structured Storage], Create method [Structured Storage],IPropertySetStorage interface, IPropertySetStorage interface [Structured Storage],Create method, IPropertySetStorage.Create, IPropertySetStorage::Create, _stg_ipropertysetstorage_create, propidl/IPropertySetStorage::Create, stg.ipropertysetstorage_create
 ms.prod: windows-hardware
 ms.technology: windows-devices

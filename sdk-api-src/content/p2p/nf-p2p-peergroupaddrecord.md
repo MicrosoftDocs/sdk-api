@@ -7,7 +7,7 @@ old-location: p2p\peergroupaddrecord.htm
 old-project: P2PSdk
 ms.assetid: d9ca87bc-30da-4a19-b34a-8d8388ccd19a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGroupAddRecord, PeerGroupAddRecord function [Peer Networking], p2p.peergroupaddrecord, p2p/PeerGroupAddRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

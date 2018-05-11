@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespace_refresh.htm
 old-project: Wds
 ms.assetid: 9d5742e0-4197-4a15-82c6-5623940c0c7f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Refresh method, IWdsTransportNamespace.Refresh, IWdsTransportNamespace::Refresh, Refresh, Refresh method [Windows Deployment Services], Refresh method [Windows Deployment Services],IWdsTransportNamespace interface, wds.iwdstransportnamespace_refresh, wdstptmgmt/IWdsTransportNamespace::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

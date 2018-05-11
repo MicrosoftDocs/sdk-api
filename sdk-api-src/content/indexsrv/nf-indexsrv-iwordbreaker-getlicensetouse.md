@@ -7,7 +7,7 @@ old-location: indexsrv\iwordbreaker_getlicensetouse.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_7vvp.htm
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/9/2018
 ms.keywords: GetLicenseToUse, GetLicenseToUse method [Indexing Service], GetLicenseToUse method [Indexing Service],IWordBreaker interface, IWordBreaker interface [Indexing Service],GetLicenseToUse method, IWordBreaker.GetLicenseToUse, IWordBreaker::GetLicenseToUse, _idxs_IWordBreaker_GetLicenseToUse, indexsrv.iwordbreaker_getlicensetouse, indexsrv/IWordBreaker::GetLicenseToUse
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\weekly.htm
 old-project: TaskSchd
 ms.assetid: e2c14738-846c-485e-a564-d8e738ca61a2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: TASK_FRIDAY, TASK_MONDAY, TASK_SATURDAY, TASK_SUNDAY, TASK_THURSDAY, TASK_TUESDAY, TASK_WEDNESDAY, WEEKLY, WEEKLY structure [Task Scheduler], _WEEKLY, _msb_weekly, mstask/WEEKLY, taskschd.weekly, triggers [Task Scheduler],structures,WEEKLY
 ms.prod: windows-hardware
 ms.technology: windows-devices

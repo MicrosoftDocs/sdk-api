@@ -7,8 +7,8 @@ old-location: fwp\fwpmsublayersetsecurityinfobykey0_func.htm
 old-project: FWP
 ms.assetid: 47f1aa71-017d-4de2-8428-d666afa67b71
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
-ms.keywords: FwpmCalloutSetSecurityInfoByKey0, FwpmCalloutSetSecurityInfoByKey0 function [Filtering], FwpmSubLayerSetSecurityInfoByKey0, fwp.fwpmsublayersetsecurityinfobykey0_func, fwpmu/FwpmCalloutSetSecurityInfoByKey0
+ms.date: 5/8/2018
+ms.keywords: FwpmSubLayerSetSecurityInfoByKey0, FwpmSubLayerSetSecurityInfoByKey0 function [Filtering], fwp.fwpmsublayersetsecurityinfobykey0_func, fwpmu/FwpmSubLayerSetSecurityInfoByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Fwpuclnt.dll
 api_name:
--	FwpmCalloutSetSecurityInfoByKey0
+-	FwpmSubLayerSetSecurityInfoByKey0
 product: Windows
 targetos: Windows
 req.lib: Fwpuclnt.lib

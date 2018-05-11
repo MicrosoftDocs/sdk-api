@@ -7,7 +7,7 @@ old-location: vhd\expand_virtual_disk_version.htm
 old-project: VStor
 ms.assetid: 28651993-81ad-4dfc-9c8b-3768fab5d3ae
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: EXPAND_VIRTUAL_DISK_VERSION, EXPAND_VIRTUAL_DISK_VERSION enumeration [VHD], EXPAND_VIRTUAL_DISK_VERSION_1, EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED, _EXPAND_VIRTUAL_DISK_VERSION, vhd.expand_virtual_disk_version, virtdisk/EXPAND_VIRTUAL_DISK_VERSION, virtdisk/EXPAND_VIRTUAL_DISK_VERSION_1, virtdisk/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices

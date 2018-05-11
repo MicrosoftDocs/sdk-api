@@ -7,7 +7,7 @@ old-location: indexsrv\locatecatalogs.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_4t6b.htm
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/9/2018
 ms.keywords: LocateCatalogs, LocateCatalogs function [Indexing Service], LocateCatalogsA, LocateCatalogsW, _idxs_LocateCatalogs, indexsrv.locatecatalogs, ntquery/LocateCatalogs, ntquery/LocateCatalogsA, ntquery/LocateCatalogsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

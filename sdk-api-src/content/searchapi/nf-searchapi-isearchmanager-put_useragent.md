@@ -7,7 +7,7 @@ old-location: search\_search_ISearchManager_put_UserAgent.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\put_useragent.htm
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/8/2018
 ms.keywords: ISearchManager interface [search],put_UserAgent method, ISearchManager.put_UserAgent, ISearchManager::put_UserAgent, _search_ISearchManager_put_UserAgent, put_UserAgent, put_UserAgent method [search], put_UserAgent method [search],ISearchManager interface, search._search_ISearchManager_put_UserAgent, searchapi/ISearchManager::put_UserAgent
 ms.prod: windows-hardware
 ms.technology: windows-devices

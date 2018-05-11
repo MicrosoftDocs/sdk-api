@@ -7,7 +7,7 @@ old-location: shell\SHCreateMemStream.htm
 old-project: shell
 ms.assetid: f3ae8241-f3a6-4007-a10f-ff05960c5de8
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SHCreateMemStream, SHCreateMemStream function [Windows Shell], _win32_SHCreateMemStream, shell.SHCreateMemStream, shlwapi/SHCreateMemStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

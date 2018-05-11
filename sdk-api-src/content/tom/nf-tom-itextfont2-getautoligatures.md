@@ -7,7 +7,7 @@ old-location: controls\itextfont2_getautoligatures.htm
 old-project: Controls
 ms.assetid: f8209c34-139c-45e6-b110-f6d3d76f5575
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetAutoLigatures, GetAutoLigatures method [Windows Controls], GetAutoLigatures method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetAutoLigatures method, ITextFont2.GetAutoLigatures, ITextFont2::GetAutoLigatures, controls.itextfont2_getautoligatures, tom/ITextFont2::GetAutoLigatures
 ms.prod: windows-hardware
 ms.technology: windows-devices

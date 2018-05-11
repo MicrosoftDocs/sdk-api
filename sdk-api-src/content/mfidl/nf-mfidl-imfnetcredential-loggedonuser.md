@@ -7,7 +7,7 @@ old-location: mf\imfnetcredential_loggedonuser.htm
 old-project: medfound
 ms.assetid: 70f3dc70-ed6b-417c-93cb-e00efcdb43ec
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 70f3dc70-ed6b-417c-93cb-e00efcdb43ec, IMFNetCredential interface [Media Foundation],LoggedOnUser method, IMFNetCredential.LoggedOnUser, IMFNetCredential::LoggedOnUser, LoggedOnUser, LoggedOnUser method [Media Foundation], LoggedOnUser method [Media Foundation],IMFNetCredential interface, mf.imfnetcredential_loggedonuser, mfidl/IMFNetCredential::LoggedOnUser
 ms.prod: windows-hardware
 ms.technology: windows-devices

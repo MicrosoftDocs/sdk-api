@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol9_setaspectratiomode.htm
 old-project: DirectShow
 ms.assetid: 5ba46490-0a82-495f-8742-d7a8efa95332
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],SetAspectRatioMode method, IVMRWindowlessControl9.SetAspectRatioMode, IVMRWindowlessControl9::SetAspectRatioMode, IVMRWindowlessControl9SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_setaspectratiomode, vmr9/IVMRWindowlessControl9::SetAspectRatioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

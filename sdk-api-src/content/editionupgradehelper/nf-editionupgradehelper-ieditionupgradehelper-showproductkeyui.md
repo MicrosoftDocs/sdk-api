@@ -7,7 +7,7 @@ old-location: winprog\ieditionupgradehelper_showproductkeyui.htm
 old-project: DevNotes
 ms.assetid: 504B3699-8837-4C14-959A-B3B4385E8932
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: IEditionUpgradeHelper interface [Windows API],ShowProductKeyUI method, IEditionUpgradeHelper.ShowProductKeyUI, IEditionUpgradeHelper::ShowProductKeyUI, ShowProductKeyUI, ShowProductKeyUI method [Windows API], ShowProductKeyUI method [Windows API],IEditionUpgradeHelper interface, editionupgradehelper/IEditionUpgradeHelper::ShowProductKeyUI, winprog.ieditionupgradehelper_showproductkeyui
 ms.prod: windows-hardware
 ms.technology: windows-devices

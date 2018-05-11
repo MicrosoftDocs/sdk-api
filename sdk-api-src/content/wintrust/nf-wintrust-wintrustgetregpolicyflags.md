@@ -7,7 +7,7 @@ old-location: security\wintrustgetregpolicyflags.htm
 old-project: SecCrypto
 ms.assetid: f5e79ac8-9a70-4e79-ae4f-e128bd8c84de
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: WTPF_ALLOWONLYPERTRUST, WTPF_IGNOREEXPIRATION, WTPF_IGNOREREVOCATIONONTS, WTPF_IGNOREREVOKATION, WTPF_OFFLINEOKNBU_COM, WTPF_OFFLINEOKNBU_IND, WTPF_OFFLINEOK_COM, WTPF_OFFLINEOK_IND, WTPF_TESTCANBEVALID, WTPF_TRUSTTEST, WTPF_VERIFY_V1_OFF, WintrustGetRegPolicyFlags, WintrustGetRegPolicyFlags function [Security], security.wintrustgetregpolicyflags, wintrust/WintrustGetRegPolicyFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

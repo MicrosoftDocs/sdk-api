@@ -7,7 +7,7 @@ old-location: mscs\clusprop_binary.htm
 old-project: MsCS
 ms.assetid: 61169871-4998-4e9f-97dc-77344bbfa962
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PCLUSPROP_BINARY, CLUSPROP_BINARY, CLUSPROP_BINARY structure [Failover Cluster], PCLUSPROP_BINARY, PCLUSPROP_BINARY structure pointer [Failover Cluster], _wolf_clusprop_binary, clusapi/CLUSPROP_BINARY, clusapi/PCLUSPROP_BINARY, mscs.clusprop_binary"
 ms.prod: windows-hardware
 ms.technology: windows-devices

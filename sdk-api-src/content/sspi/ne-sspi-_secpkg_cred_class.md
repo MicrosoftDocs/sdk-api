@@ -7,7 +7,7 @@ old-location: security\secpkg_cred_class.htm
 old-project: SecAuthN
 ms.assetid: 2f5f9be2-e7b5-4d34-a2ad-89a99db78ad0
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PSECPKG_CRED_CLASS, PSECPKG_CRED_CLASS, PSECPKG_CRED_CLASS enumeration pointer [Security], SECPKG_CRED_CLASS, SECPKG_CRED_CLASS enumeration [Security], SecPkgCredClass_Ephemeral, SecPkgCredClass_Explicit = 40, SecPkgCredClass_None, SecPkgCredClass_PersistedGeneric, SecPkgCredClass_PersistedSpecific, _SECPKG_CRED_CLASS, security.secpkg_cred_class, sspi/PSECPKG_CRED_CLASS, sspi/SECPKG_CRED_CLASS, sspi/SecPkgCredClass_Ephemeral, sspi/SecPkgCredClass_Explicit = 40, sspi/SecPkgCredClass_None, sspi/SecPkgCredClass_PersistedGeneric, sspi/SecPkgCredClass_PersistedSpecific"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\ittonedetectionevent_get_callbackinstance.htm
 old-project: Tapi
 ms.assetid: 5ebd7fae-0060-4937-9812-8b48eceb9139
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: ITToneDetectionEvent interface [TAPI 2.2],get_CallbackInstance method, ITToneDetectionEvent.get_CallbackInstance, ITToneDetectionEvent::get_CallbackInstance, _tapi3_ittonedetectionevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITToneDetectionEvent interface, tapi3.ittonedetectionevent_get_callbackinstance, tapi3if/ITToneDetectionEvent::get_CallbackInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

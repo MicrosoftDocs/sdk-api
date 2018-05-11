@@ -7,7 +7,7 @@ old-location: dshow\videoinfo.htm
 old-project: DirectShow
 ms.assetid: f08a449c-fed4-400b-a2fc-817bd59ba3fd
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: VIDEOINFO, VIDEOINFO structure [DirectShow], VIDEOINFOStructure, amvideo/VIDEOINFO, dshow.videoinfo, tagVIDEOINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

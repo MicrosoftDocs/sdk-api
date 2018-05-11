@@ -7,7 +7,7 @@ old-location: wds\wdstransportservercompleteread.htm
 old-project: Wds
 ms.assetid: 0f98305d-4173-4d6f-9132-f1fcc12364ed
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsTransportServerCompleteRead, WdsTransportServerCompleteRead function [Windows Deployment Services], wds.wdstransportservercompleteread, wdstpdi/WdsTransportServerCompleteRead
 ms.prod: windows-hardware
 ms.technology: windows-devices

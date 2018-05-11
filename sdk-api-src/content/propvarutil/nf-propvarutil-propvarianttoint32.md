@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt32.htm
 old-project: properties
 ms.assetid: 937722d6-cabf-4c4d-8ca9-06d6ed91b77a
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: PropVariantToInt32, PropVariantToInt32 function [Windows Properties], properties.PropVariantToInt32, propvarutil/PropVariantToInt32, shell.PropVariantToInt32, shell_PropVariantToInt32
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiorenderclient_getbuffer.htm
 old-project: CoreAudio
 ms.assetid: c2a0d46b-e8d4-4c51-9810-5580504c9731
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: GetBuffer, GetBuffer method [Core Audio], GetBuffer method [Core Audio],IAudioRenderClient interface, IAudioRenderClient interface [Core Audio],GetBuffer method, IAudioRenderClient.GetBuffer, IAudioRenderClient::GetBuffer, IAudioRenderClientGetBuffer, audioclient/IAudioRenderClient::GetBuffer, coreaudio.iaudiorenderclient_getbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

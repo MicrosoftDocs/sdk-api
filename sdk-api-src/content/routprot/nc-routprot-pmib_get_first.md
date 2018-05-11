@@ -7,7 +7,7 @@ old-location: rras\mibgetfirst.htm
 old-project: RRAS
 ms.assetid: 3aef09e2-6314-4de8-a9dd-e02c13e0145c
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MibGetFirst, MibGetFirst callback function [RAS], PMIB_GET_FIRST, PMIB_GET_FIRST callback, _mpr_mibgetfirst, routprot/MibGetFirst, rras.mibgetfirst
 ms.prod: windows-hardware
 ms.technology: windows-devices

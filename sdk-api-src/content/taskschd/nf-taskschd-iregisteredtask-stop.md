@@ -7,7 +7,7 @@ old-location: taskschd\iregisteredtask_stop.htm
 old-project: TaskSchd
 ms.assetid: c58d7b15-1044-4d35-a501-b936503ee0fc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Stop method, IRegisteredTask.Stop, IRegisteredTask::Stop, Stop, Stop method [Task Scheduler], Stop method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_stop, taskschd/IRegisteredTask::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

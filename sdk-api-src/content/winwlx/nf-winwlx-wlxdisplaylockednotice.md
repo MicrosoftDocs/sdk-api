@@ -7,7 +7,7 @@ old-location: security\wlxdisplaylockednotice.htm
 old-project: SecAuthN
 ms.assetid: f8209ac4-e79b-4997-8dc3-c9224e10822b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: WlxDisplayLockedNotice, WlxDisplayLockedNotice function [Security], _gina_wlxdisplaylockednotice, security.wlxdisplaylockednotice, winwlx/WlxDisplayLockedNotice
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\idownloadprogresschangedcallback_invoke.htm
 old-project: Wua_Sdk
 ms.assetid: 09bdbb3a-0556-4b3a-ba18-2fe7bcb33999
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IDownloadProgressChangedCallback interface [Windows Update Agent],Invoke method, IDownloadProgressChangedCallback.Invoke, IDownloadProgressChangedCallback::Invoke, Invoke, Invoke method [Windows Update Agent], Invoke method [Windows Update Agent],IDownloadProgressChangedCallback interface, wua.idownloadprogresschangedcallback_invoke, wuapi/IDownloadProgressChangedCallback::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

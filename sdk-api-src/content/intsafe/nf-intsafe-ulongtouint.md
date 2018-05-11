@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongToUInt
 title: ULongToUInt function
 author: windows-driver-content
-description: Converts a value of type DWORD to a value of type UINT.
-old-location: shell\DWordToUInt.htm
+description: Converts a value of type ULONG to a value of type UINT.
+old-location: shell\ULongToUInt.htm
 old-project: shell
-ms.assetid: 93198910-c683-496a-b273-b38dff9e4463
+ms.assetid: f3e11789-9fea-41f6-9d96-ac0a7e267e7e
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: DWordToUInt, DWordToUInt function [Windows Shell], ULongToUInt, _shell_DWordToUInt, intsafe/DWordToUInt, shell.DWordToUInt
+ms.date: 5/9/2018
+ms.keywords: DWordToUInt, ULongToUInt, ULongToUInt function [Windows Shell], _shell_ULongToUInt, intsafe/ULongToUInt, shell.ULongToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	DllExport
+-	HeaderDef
 api_location:
--	None
+-	Intsafe.h
 api_name:
--	DWordToUInt
+-	ULongToUInt
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: None
+req.dll: 
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>DWORD</b> to a value of type <b>UINT</b>.
+Converts a value of type <b>ULONG</b> to a value of type <b>UINT</b>.
 
 
 ## -parameters
@@ -58,26 +58,14 @@ Converts a value of type <b>DWORD</b> to a value of type <b>UINT</b>.
 
 
 
-### -param ulOperand
+### -param ulOperand [in]
 
-TBD
-
-
-### -param puResult
-
-TBD
-
-
-
-
-#### - dwOperand [in]
-
-Type: <b>DWORD</b>
+Type: <b>ULONG</b>
 
 The value to be converted.
 
 
-#### - puiResult [out]
+### -param puResult [out]
 
 Type: <b>UINT*</b>
 
@@ -100,6 +88,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>DWordToUInt</b> is an alias for this function.
 
 
 

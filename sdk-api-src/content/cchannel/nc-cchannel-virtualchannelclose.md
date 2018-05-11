@@ -7,8 +7,8 @@ old-location: termserv\virtualchannelclose.htm
 old-project: TermServ
 ms.assetid: 96fd8910-6cc7-460c-9f63-3363fbbae0b1
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: VirtualChannelClose, VirtualChannelClose function pointer [Remote Desktop Services], _win32_virtualchannelclose, cchannel/VirtualChannelClose, termserv.virtualchannelclose
+ms.date: 5/8/2018
+ms.keywords: VirtualChannelClose, VirtualChannelClose callback, VirtualChannelClose callback function [Remote Desktop Services], _win32_virtualchannelclose, cchannel/VirtualChannelClose, termserv.virtualchannelclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# VIRTUALCHANNELCLOSE callback
+# VIRTUALCHANNELCLOSE callback function
 
 
 ## -description

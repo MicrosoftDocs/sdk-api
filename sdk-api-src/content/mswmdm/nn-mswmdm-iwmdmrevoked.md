@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmrevoked.htm
 old-project: WMDM
 ms.assetid: b627f243-3652-4db9-8a5e-6a2146b73424
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: IWMDMRevoked, IWMDMRevoked interface [windows Media Device Manager], IWMDMRevoked interface [windows Media Device Manager],described, IWMDMRevokedInterface, mswmdm/IWMDMRevoked, wmdm.iwmdmrevoked
 ms.prod: windows-hardware
 ms.technology: windows-devices

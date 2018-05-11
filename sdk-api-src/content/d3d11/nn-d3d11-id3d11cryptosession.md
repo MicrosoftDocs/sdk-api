@@ -7,7 +7,7 @@ old-location: mf\id3d11cryptosession.htm
 old-project: medfound
 ms.assetid: E17F39CB-61E3-44EF-805D-AD386743744E
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: ID3D11CryptoSession, ID3D11CryptoSession interface [Media Foundation], ID3D11CryptoSession interface [Media Foundation],described, d3d11/ID3D11CryptoSession, mf.id3d11cryptosession
 ms.prod: windows-hardware
 ms.technology: windows-devices

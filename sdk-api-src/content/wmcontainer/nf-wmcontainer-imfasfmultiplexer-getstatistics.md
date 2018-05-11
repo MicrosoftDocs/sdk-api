@@ -7,7 +7,7 @@ old-location: mf\imfasfmultiplexer_getstatistics.htm
 old-project: medfound
 ms.assetid: 56083ceb-3d39-4fda-995a-f91fa0e16853
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 56083ceb-3d39-4fda-995a-f91fa0e16853, GetStatistics, GetStatistics method [Media Foundation], GetStatistics method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],GetStatistics method, IMFASFMultiplexer.GetStatistics, IMFASFMultiplexer::GetStatistics, mf.imfasfmultiplexer_getstatistics, wmcontainer/IMFASFMultiplexer::GetStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

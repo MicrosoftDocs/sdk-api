@@ -7,7 +7,7 @@ old-location: security\createsharedmemory.htm
 old-project: SecAuthN
 ms.assetid: 22abafd7-1648-4bea-a0a8-0cb58333fbea
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: CreateSharedMemory, CreateSharedMemory function [Security], LSA_CREATE_SHARED_MEMORY, _ssp_createsharedmemory, ntsecpkg/CreateSharedMemory, security.createsharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

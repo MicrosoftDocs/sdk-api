@@ -7,7 +7,7 @@ old-location: shell\IFolderViewOptions_GetFolderViewOptions.htm
 old-project: shell
 ms.assetid: 9733c2b0-608f-4f20-b379-81de0c333473
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: GetFolderViewOptions, GetFolderViewOptions method [Windows Shell], GetFolderViewOptions method [Windows Shell],IFolderViewOptions interface, IFolderViewOptions interface [Windows Shell],GetFolderViewOptions method, IFolderViewOptions.GetFolderViewOptions, IFolderViewOptions::GetFolderViewOptions, _shell_IFolderViewOptions_GetFolderViewOptions, shell.IFolderViewOptions_GetFolderViewOptions, shobjidl/IFolderViewOptions::GetFolderViewOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamdroppedframes.htm
 old-project: DirectShow
 ms.assetid: b41c3792-76fe-48e0-b2f5-ca3b0ee4c8ae
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMDroppedFrames, IAMDroppedFrames interface [DirectShow], IAMDroppedFrames interface [DirectShow],described, IAMDroppedFramesInterface, dshow.iamdroppedframes, strmif/IAMDroppedFrames
 ms.prod: windows-hardware
 ms.technology: windows-devices

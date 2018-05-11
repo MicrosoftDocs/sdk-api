@@ -7,7 +7,7 @@ old-location: tsf\itffnreconversion.htm
 old-project: TSF
 ms.assetid: deb5c007-58d5-4bae-92eb-a05675f5dfac
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfFnReconversion, ITfFnReconversion interface [Text Services Framework], ITfFnReconversion interface [Text Services Framework],described, _tsf_itffnreconversion_ref, ctffunc/ITfFnReconversion, tsf.itffnreconversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

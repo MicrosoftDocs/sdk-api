@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_setmathproperties.htm
 old-project: Controls
 ms.assetid: a688354b-b231-44fc-9cfb-32c8e8b1361f
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetMathProperties method, ITextDocument2.SetMathProperties, ITextDocument2::SetMathProperties, SetMathProperties, SetMathProperties method [Windows Controls], SetMathProperties method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setmathproperties, tom/ITextDocument2::SetMathProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

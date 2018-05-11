@@ -7,7 +7,7 @@ old-location: shell\SHCreateDefaultPropertiesOp.htm
 old-project: shell
 ms.assetid: 5202ac48-16e7-4d64-8a69-2493036e1e11
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SHCreateDefaultPropertiesOp, SHCreateDefaultPropertiesOp function [Windows Shell], _shell_SHCreateDefaultPropertiesOp, shell.SHCreateDefaultPropertiesOp, shobjidl/SHCreateDefaultPropertiesOp
 ms.prod: windows-hardware
 ms.technology: windows-devices

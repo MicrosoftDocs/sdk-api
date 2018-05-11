@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_get_starttime.htm
 old-project: Tapi
 ms.assetid: aeb496d5-2cea-4c69-ba19-c9083d133c1e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_StartTime method, ITDirectoryObjectConference.get_StartTime, ITDirectoryObjectConference::get_StartTime, _tapi3_itdirectoryobjectconference_get_starttime, get_StartTime, get_StartTime method [TAPI 2.2], get_StartTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_StartTime, tapi3.itdirectoryobjectconference_get_starttime
 ms.prod: windows-hardware
 ms.technology: windows-devices

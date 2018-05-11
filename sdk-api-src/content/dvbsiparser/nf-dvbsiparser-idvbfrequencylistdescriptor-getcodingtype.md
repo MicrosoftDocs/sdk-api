@@ -7,7 +7,7 @@ old-location: mstv\idvbfrequencylistdescriptor_getcodingtype.htm
 old-project: mstv
 ms.assetid: 0d458f42-bea5-4503-a2d7-89efd1abc1a8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetCodingType, GetCodingType method [Microsoft TV Technologies], GetCodingType method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetCodingType method, IDvbFrequencyListDescriptor.GetCodingType, IDvbFrequencyListDescriptor::GetCodingType, IDvbFrequencyListDescriptorGetCodingType, dvbsiparser/IDvbFrequencyListDescriptor::GetCodingType, mstv.idvbfrequencylistdescriptor_getcodingtype
 ms.prod: windows-hardware
 ms.technology: windows-devices

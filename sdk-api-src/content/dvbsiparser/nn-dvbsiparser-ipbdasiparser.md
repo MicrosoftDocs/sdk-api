@@ -7,7 +7,7 @@ old-location: mstv\ipbdasiparser.htm
 old-project: mstv
 ms.assetid: a1cc25ec-b519-4c24-ba85-f2c240749fbd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IPBDASiParser, IPBDASiParser interface [DirectShow], IPBDASiParser interface [DirectShow],described, dvbsiparser/IPBDASiParser, mstv.ipbdasiparser
 ms.prod: windows-hardware
 ms.technology: windows-devices

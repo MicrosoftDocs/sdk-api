@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory_get_defaultobjectttl.htm
 old-project: Tapi
 ms.assetid: f0a24ad9-0020-4f62-a0f2-071b9d251f79
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DefaultObjectTTL method, ITDirectory.get_DefaultObjectTTL, ITDirectory::get_DefaultObjectTTL, _tapi3_itdirectory_get_defaultobjectttl, get_DefaultObjectTTL, get_DefaultObjectTTL method [TAPI 2.2], get_DefaultObjectTTL method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DefaultObjectTTL, tapi3.itdirectory_get_defaultobjectttl
 ms.prod: windows-hardware
 ms.technology: windows-devices

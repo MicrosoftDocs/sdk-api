@@ -7,7 +7,7 @@ old-location: p2p\peerdistgetoverlappedresult.htm
 old-project: P2PSdk
 ms.assetid: 09feff6e-fa74-4212-8345-09a11cc026c7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerDistGetOverlappedResult, PeerDistGetOverlappedResult function [Peer Networking], p2p.peerdistgetoverlappedresult, peerdist/PeerDistGetOverlappedResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

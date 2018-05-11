@@ -7,7 +7,7 @@ old-location: wua\iwindowsdriverupdateentry_devicestatus.htm
 old-project: Wua_Sdk
 ms.assetid: 598bdaa4-01ef-4b40-b8b2-c17fe9c2c4c3
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: DeviceStatus property [Windows Update Agent], DeviceStatus property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DeviceStatus property, IWindowsDriverUpdateEntry.DeviceStatus, IWindowsDriverUpdateEntry.get_DeviceStatus, IWindowsDriverUpdateEntry::DeviceStatus, IWindowsDriverUpdateEntry::get_DeviceStatus, get_DeviceStatus, wua.iwindowsdriverupdateentry_devicestatus, wuapi/IWindowsDriverUpdateEntry::DeviceStatus, wuapi/IWindowsDriverUpdateEntry::get_DeviceStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

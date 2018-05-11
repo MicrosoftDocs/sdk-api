@@ -7,7 +7,7 @@ old-location: security\wintrust_blob_info.htm
 old-project: SecCrypto
 ms.assetid: 8b13d355-4d24-4d8e-aae3-db16467999be
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: "*PWINTRUST_BLOB_INFO, PWINTRUST_BLOB_INFO, PWINTRUST_BLOB_INFO structure pointer [Security], WINTRUST_BLOB_INFO, WINTRUST_BLOB_INFO structure [Security], WINTRUST_BLOB_INFO_, _win32_wintrust_blob_info, security.wintrust_blob_info, wintrust/PWINTRUST_BLOB_INFO, wintrust/WINTRUST_BLOB_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

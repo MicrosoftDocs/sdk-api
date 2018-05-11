@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_setoutputtype.htm
 old-project: DirectShow
 ms.assetid: 1dda3c55-d37b-4e04-9509-0e5197d6b019
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IMediaObject interface [DirectShow],SetOutputType method, IMediaObject.SetOutputType, IMediaObject::SetOutputType, IMediaObjectSetOutputType, SetOutputType, SetOutputType method [DirectShow], SetOutputType method [DirectShow],IMediaObject interface, dshow.imediaobject_setoutputtype, mediaobj/IMediaObject::SetOutputType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: vhd\attach_virtual_disk_flag.htm
 old-project: VStor
 ms.assetid: 5792c2e2-0598-43ff-8c0f-5fb4a1a37656
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: ATTACH_VIRTUAL_DISK_FLAG, ATTACH_VIRTUAL_DISK_FLAG enumeration [VHD], ATTACH_VIRTUAL_DISK_FLAG_NONE, ATTACH_VIRTUAL_DISK_FLAG_NO_DRIVE_LETTER, ATTACH_VIRTUAL_DISK_FLAG_NO_LOCAL_HOST, ATTACH_VIRTUAL_DISK_FLAG_PERMANENT_LIFETIME, ATTACH_VIRTUAL_DISK_FLAG_READ_ONLY, _ATTACH_VIRTUAL_DISK_FLAG, vhd.attach_virtual_disk_flag, vhd.surface_virtual_disk_flag, virtdisk/ATTACH_VIRTUAL_DISK_FLAG, virtdisk/ATTACH_VIRTUAL_DISK_FLAG_NONE, virtdisk/ATTACH_VIRTUAL_DISK_FLAG_NO_DRIVE_LETTER, virtdisk/ATTACH_VIRTUAL_DISK_FLAG_NO_LOCAL_HOST, virtdisk/ATTACH_VIRTUAL_DISK_FLAG_PERMANENT_LIFETIME, virtdisk/ATTACH_VIRTUAL_DISK_FLAG_READ_ONLY
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\mpradminportclearstats.htm
 old-project: RRAS
 ms.assetid: dd932134-7954-4e0a-8170-1dea4ce82011
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MprAdminPortClearStats, MprAdminPortClearStats function [RAS], _mpr_mpradminportclearstats, mprapi/MprAdminPortClearStats, rras.mpradminportclearstats
 ms.prod: windows-hardware
 ms.technology: windows-devices

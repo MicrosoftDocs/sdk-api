@@ -7,7 +7,7 @@ old-location: wmformat\wmcreateeditor.htm
 old-project: wmformat
 ms.assetid: 3eed88d5-18e9-40b4-998d-af33ac5440b2
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: WMCreateEditor, WMCreateEditor function [windows Media Format], wmformat.wmcreateeditor, wmsdkidl/WMCreateEditor
 ms.prod: windows-hardware
 ms.technology: windows-devices

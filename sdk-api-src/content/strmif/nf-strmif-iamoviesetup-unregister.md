@@ -7,7 +7,7 @@ old-location: dshow\iamoviesetup_unregister.htm
 old-project: DirectShow
 ms.assetid: 96266aef-f1ef-4b75-9d2e-e574f76fdec7
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMovieSetup interface [DirectShow],Unregister method, IAMovieSetup.Unregister, IAMovieSetup::Unregister, IAMovieSetupUnregister, Unregister, Unregister method [DirectShow], Unregister method [DirectShow],IAMovieSetup interface, dshow.iamoviesetup_unregister, strmif/IAMovieSetup::Unregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

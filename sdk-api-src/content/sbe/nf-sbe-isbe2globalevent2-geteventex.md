@@ -7,7 +7,7 @@ old-location: mstv\isbe2globalevent2_geteventex.htm
 old-project: mstv
 ms.assetid: 44c30d8a-d62b-4e0f-8ff9-a4159df6d724
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetEventEx, GetEventEx method [Microsoft TV Technologies], GetEventEx method [Microsoft TV Technologies],ISBE2GlobalEvent2 interface, ISBE2GlobalEvent2 interface [Microsoft TV Technologies],GetEventEx method, ISBE2GlobalEvent2.GetEventEx, ISBE2GlobalEvent2::GetEventEx, mstv.isbe2globalevent2_geteventex, sbe/ISBE2GlobalEvent2::GetEventEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

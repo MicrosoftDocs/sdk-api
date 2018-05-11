@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_setroot.htm
 old-project: DirectShow
 ms.assetid: 3068edc0-c052-4f44-9f62-453320af20a3
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IDvdControl interface [DirectShow],SetRoot method, IDvdControl.SetRoot, IDvdControl::SetRoot, IDvdControlSetRoot, SetRoot, SetRoot method [DirectShow], SetRoot method [DirectShow],IDvdControl interface, dshow.idvdcontrol_setroot, strmif/IDvdControl::SetRoot
 ms.prod: windows-hardware
 ms.technology: windows-devices

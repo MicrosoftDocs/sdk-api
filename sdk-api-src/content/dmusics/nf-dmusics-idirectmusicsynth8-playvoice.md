@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth8_playvoice.htm
 old-project: audio
 ms.assetid: BFD0D40E-C880-4574-BB66-C393F806FAFA
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/8/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],PlayVoice method, IDirectMusicSynth8.PlayVoice, IDirectMusicSynth8::PlayVoice, PlayVoice, PlayVoice method [Audio Devices], PlayVoice method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_playvoice, dmusics/IDirectMusicSynth8::PlayVoice
 ms.prod: windows-hardware
 ms.technology: windows-devices

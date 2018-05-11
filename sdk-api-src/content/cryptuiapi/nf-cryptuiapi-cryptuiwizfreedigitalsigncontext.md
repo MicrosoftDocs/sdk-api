@@ -7,7 +7,7 @@ old-location: security\cryptuiwizfreedigitalsigncontext.htm
 old-project: SecCrypto
 ms.assetid: 039615ee-0485-4698-944f-23359253767a
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CryptUIWizFreeDigitalSignContext, CryptUIWizFreeDigitalSignContext function [Security], cryptuiapi/CryptUIWizFreeDigitalSignContext, security.cryptuiwizfreedigitalsigncontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\StgDeserializePropVariant.htm
 old-project: properties
 ms.assetid: 0517ef4d-e57c-4613-8d11-5e1eb14eb9fa
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: StgDeserializePropVariant, StgDeserializePropVariant function [Windows Properties], _shell_StgDeserializePropVariant, properties.StgDeserializePropVariant, propvarutil/StgDeserializePropVariant, shell.StgDeserializePropVariant
 ms.prod: windows-hardware
 ms.technology: windows-devices

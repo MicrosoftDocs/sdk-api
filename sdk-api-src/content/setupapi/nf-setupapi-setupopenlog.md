@@ -7,7 +7,7 @@ old-location: setup\setupopenlog.htm
 old-project: SetupApi
 ms.assetid: 3ff13002-7811-4e44-b12b-52d0d4c8de60
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupOpenLog, SetupOpenLog function [Setup API], _setupapi_setupopenlog, setup.setupopenlog, setupapi/SetupOpenLog
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itffnlmprocessor_getreconversion.htm
 old-project: TSF
 ms.assetid: 21fcef3f-252c-4f67-a789-4527b8ee1b94
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: GetReconversion, GetReconversion method [Text Services Framework], GetReconversion method [Text Services Framework],ITfFnLMProcessor interface, ITfFnLMProcessor interface [Text Services Framework],GetReconversion method, ITfFnLMProcessor.GetReconversion, ITfFnLMProcessor::GetReconversion, _tsf_itffnlmprocessor_getreconversion_ref, ctffunc/ITfFnLMProcessor::GetReconversion, tsf.itffnlmprocessor_getreconversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

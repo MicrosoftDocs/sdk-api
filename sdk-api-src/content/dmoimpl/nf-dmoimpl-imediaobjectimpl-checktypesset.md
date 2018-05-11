@@ -7,7 +7,7 @@ old-location: dshow\imediaobjectimpl_checktypesset.htm
 old-project: DirectShow
 ms.assetid: 4dfbd638-00d6-410b-bf81-e343d7ca75d5
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CheckTypesSet, CheckTypesSet method [DirectShow], CheckTypesSet method [DirectShow],IMediaObjectImpl interface, IMediaObjectImpl interface [DirectShow],CheckTypesSet method, IMediaObjectImpl.CheckTypesSet, IMediaObjectImpl::CheckTypesSet, IMediaObjectImplCheckTypesSet, dmoimpl/IMediaObjectImpl::CheckTypesSet, dshow.imediaobjectimpl_checktypesset
 ms.prod: windows-hardware
 ms.technology: windows-devices

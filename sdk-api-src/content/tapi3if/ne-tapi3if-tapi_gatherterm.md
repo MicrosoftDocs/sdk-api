@@ -7,7 +7,7 @@ old-location: tapi3\tapi_gatherterm.htm
 old-project: Tapi
 ms.assetid: 781266db-73a3-4202-922f-5c2d13bd3009
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: TAPI_GATHERTERM, TAPI_GATHERTERM enumeration [TAPI 2.2], TGT_BUFFERFULL, TGT_CANCEL, TGT_FIRSTTIMEOUT, TGT_INTERTIMEOUT, TGT_TERMDIGIT, _tapi3_tapi_gatherterm, tapi3.tapi_gatherterm, tapi3if/TAPI_GATHERTERM, tapi3if/TGT_BUFFERFULL, tapi3if/TGT_CANCEL, tapi3if/TGT_FIRSTTIMEOUT, tapi3if/TGT_INTERTIMEOUT, tapi3if/TGT_TERMDIGIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

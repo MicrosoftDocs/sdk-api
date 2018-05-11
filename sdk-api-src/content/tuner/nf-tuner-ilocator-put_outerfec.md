@@ -7,7 +7,7 @@ old-location: mstv\ilocator_put_outerfec.htm
 old-project: mstv
 ms.assetid: 0aaa4d8e-e760-4e22-90fe-e5667fafa113
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IDigitalLocatorput_OuterFEC, ILocator interface [Microsoft TV Technologies],put_OuterFEC method, ILocator.put_OuterFEC, ILocator::put_OuterFEC, mstv.ilocator_put_outerfec, put_OuterFEC, put_OuterFEC method [Microsoft TV Technologies], put_OuterFEC method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_OuterFEC
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncchangeunits_reset.htm
 old-project: winsync
 ms.assetid: 7d9bd900-dda3-4deb-ab38-484842873dea
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Reset method, IEnumSyncChangeUnits.Reset, IEnumSyncChangeUnits::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncChangeUnits interface, winsync.ienumsyncchangeunits_reset, winsync/IEnumSyncChangeUnits::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

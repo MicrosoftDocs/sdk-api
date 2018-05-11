@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespacescheduledcastautostart_starttime.htm
 old-project: Wds
 ms.assetid: 55cf3f30-6cc9-4885-8e2e-88eddb9b8fec
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services],StartTime property, IWdsTransportNamespaceScheduledCastAutoStart.StartTime, IWdsTransportNamespaceScheduledCastAutoStart.get_StartTime, IWdsTransportNamespaceScheduledCastAutoStart::StartTime, IWdsTransportNamespaceScheduledCastAutoStart::get_StartTime, IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime, StartTime property [Windows Deployment Services], StartTime property [Windows Deployment Services],IWdsTransportNamespaceScheduledCastAutoStart interface, get_StartTime, wds.iwdstransportnamespacescheduledcastautostart_starttime, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::StartTime, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::get_StartTime, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

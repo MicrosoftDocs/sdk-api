@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextgetbyid0.htm
 old-project: FWP
 ms.assetid: a5bfd0e6-0113-4953-954c-d58e9cda91f0
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPsecSaContextGetById0, IPsecSaContextGetById0 function [Filtering], fwp.ipsecsacontextgetbyid0, fwpmu/IPsecSaContextGetById0
 ms.prod: windows-hardware
 ms.technology: windows-devices

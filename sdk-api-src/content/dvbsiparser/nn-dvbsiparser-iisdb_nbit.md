@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit.htm
 old-project: mstv
 ms.assetid: 32c15a03-6683-4b22-b374-a15784696368
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IISDB_NBIT, IISDB_NBIT interface [Microsoft TV Technologies], IISDB_NBIT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_NBIT, mstv.iisdb_nbit
 ms.prod: windows-hardware
 ms.technology: windows-devices

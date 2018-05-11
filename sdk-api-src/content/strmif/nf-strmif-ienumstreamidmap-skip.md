@@ -7,7 +7,7 @@ old-location: dshow\ienumstreamidmap_skip.htm
 old-project: DirectShow
 ms.assetid: 54502cd5-50b2-4bd2-a13f-180bddac178a
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Skip method, IEnumStreamIdMap.Skip, IEnumStreamIdMap::Skip, IEnumStreamIdMapSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_skip, strmif/IEnumStreamIdMap::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

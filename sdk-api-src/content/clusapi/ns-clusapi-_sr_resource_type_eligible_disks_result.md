@@ -2,13 +2,13 @@
 UID: NS:clusapi._SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
 title: "_SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT"
 author: windows-driver-content
-description: Describes a set of information that indicates whether a disk is eligible for replication.
-old-location: mscs\sr_resource_type_disk_info.htm
+description: Describes a set of data disks retrieved by a resource type control code operation for storage replication.
+old-location: mscs\sr_resource_type_eligible_disks_result.htm
 old-project: MsCS
-ms.assetid: 8A53714D-D125-4B83-B51D-DF0EADE4C4E0
+ms.assetid: EF93A5C7-CBA6-4B8A-A324-8C3830A2B2F5
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: "*PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT structure pointer [Failover Cluster], SR_RESOURCE_TYPE_DISK_INFO, SR_RESOURCE_TYPE_DISK_INFO structure [Failover Cluster], SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT structure [Failover Cluster], _SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, clusapi/PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, clusapi/SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, msclus/PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, msclus/SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, mscs.sr_resource_type_disk_info"
+ms.date: 5/9/2018
+ms.keywords: "*PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT structure pointer [Failover Cluster], SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT structure [Failover Cluster], _SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, clusapi/PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, clusapi/SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT, mscs.sr_resource_type_eligible_disks_result"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -34,7 +34,6 @@ api_type:
 -	HeaderDef
 api_location:
 -	ClusAPI.h
--	MsClus.h
 api_name:
 -	SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
 product: Windows
@@ -50,7 +49,7 @@ req.irql:
 ## -description
 
 
-Describes a set of information that indicates whether a disk is eligible for replication.
+Describes a set of  data disks retrieved by a resource type control code operation for storage replication.
 
 
 ## -struct-fields
@@ -60,17 +59,12 @@ Describes a set of information that indicates whether a disk is eligible for rep
 
 ### -field Count
 
- 
+The number of retrieved disks.
 
 
-#### - DiskInfo
+### -field DiskInfo
 
-The cluster resource identifier of the disk.
-
-
-#### - Reason
-
-Indicates the reason that the disk is eligible or ineligible for replication.
+An array that contains the retrieved disk information.
 
 
 ## -see-also
@@ -78,11 +72,11 @@ Indicates the reason that the disk is eligible or ineligible for replication.
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/EF93A5C7-CBA6-4B8A-A324-8C3830A2B2F5">SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT</a>
+<a href="https://msdn.microsoft.com/8A53714D-D125-4B83-B51D-DF0EADE4C4E0">SR_RESOURCE_TYPE_DISK_INFO</a>
  
 
  

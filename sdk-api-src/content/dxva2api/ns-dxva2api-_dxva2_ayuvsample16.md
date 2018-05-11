@@ -7,7 +7,7 @@ old-location: mf\dxva2_ayuvsample16.htm
 old-project: medfound
 ms.assetid: 3e25182a-fd5d-437c-9441-44094a3450cb
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 3e25182a-fd5d-437c-9441-44094a3450cb, DXVA2_AYUVSample16, DXVA2_AYUVSample16 structure [Media Foundation], _DXVA2_AYUVSample16, dxva2api/DXVA2_AYUVSample16, mf.dxva2_ayuvsample16
 ms.prod: windows-hardware
 ms.technology: windows-devices

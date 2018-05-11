@@ -7,7 +7,7 @@ old-location: mstv\ienumtuningspaces.htm
 old-project: mstv
 ms.assetid: 9b64a48f-ebab-46af-a89d-b8bc488d85da
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IEnumTuningSpaces, IEnumTuningSpaces interface [Microsoft TV Technologies], IEnumTuningSpaces interface [Microsoft TV Technologies],described, IEnumTuningSpacesInterface, mstv.ienumtuningspaces, tuner/IEnumTuningSpaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

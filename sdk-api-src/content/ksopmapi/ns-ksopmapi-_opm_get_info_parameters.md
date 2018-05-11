@@ -7,7 +7,7 @@ old-location: mf\opm_get_info_parameters.htm
 old-project: medfound
 ms.assetid: 8959c7d1-9a78-497f-8841-d3e61e9db6a3
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: OPM_GET_INFO_PARAMETERS, OPM_GET_INFO_PARAMETERS structure [Media Foundation], _OPM_GET_INFO_PARAMETERS, ksopmapi/OPM_GET_INFO_PARAMETERS, mf.opm_get_info_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

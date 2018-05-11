@@ -7,7 +7,7 @@ old-location: tsf\itfrangebackup_restore.htm
 old-project: TSF
 ms.assetid: bb168504-34c0-4d30-826e-61926fd10a2a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfRangeBackup interface [Text Services Framework],Restore method, ITfRangeBackup.Restore, ITfRangeBackup::Restore, Restore, Restore method [Text Services Framework], Restore method [Text Services Framework],ITfRangeBackup interface, _tsf_itfrangebackup_restore_ref, msctf/ITfRangeBackup::Restore, tsf.itfrangebackup_restore
 ms.prod: windows-hardware
 ms.technology: windows-devices

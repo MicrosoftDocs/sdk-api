@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_settag.htm
 old-project: UIAnimation
 ms.assetid: ade41b03-9194-4b1a-a672-32bb48a2f5ba
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],SetTag method, IUIAnimationStoryboard.SetTag, IUIAnimationStoryboard::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_settag, uianimation/IUIAnimationStoryboard::SetTag
 ms.prod: windows-hardware
 ms.technology: windows-devices

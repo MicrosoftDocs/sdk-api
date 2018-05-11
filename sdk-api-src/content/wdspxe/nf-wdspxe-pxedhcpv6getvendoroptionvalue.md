@@ -7,7 +7,7 @@ old-location: wds\pxedhcpv6getvendoroptionvalue.htm
 old-project: Wds
 ms.assetid: 9F969C0C-93CA-4355-8556-2F43542570F1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: PxeDhcpv6GetVendorOptionValue, PxeDhcpv6GetVendorOptionValue function [Windows Deployment Services], wds.pxedhcpv6getvendoroptionvalue, wdspxe/PxeDhcpv6GetVendorOptionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mftgetinfo.htm
 old-project: medfound
 ms.assetid: d1bac1c7-3f9b-46b7-bdf7-c32983c648ee
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MFTGetInfo, MFTGetInfo function [Media Foundation], d1bac1c7-3f9b-46b7-bdf7-c32983c648ee, mf.mftgetinfo, mfapi/MFTGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\itaskservice_connect.htm
 old-project: TaskSchd
 ms.assetid: ba810bac-e587-4eb8-871c-449b4174ab46
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: Connect, Connect method [Task Scheduler], Connect method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],Connect method, ITaskService.Connect, ITaskService::Connect, taskschd.itaskservice_connect, taskschd/ITaskService::Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

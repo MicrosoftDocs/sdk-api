@@ -7,7 +7,7 @@ old-location: taskschd\idailytrigger.htm
 old-project: TaskSchd
 ms.assetid: 9980ddb1-9873-46d2-8dea-bfc3fd78bba8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDailyTrigger, IDailyTrigger interface [Task Scheduler], IDailyTrigger interface [Task Scheduler],described, daily trigger [Task Scheduler],interface, taskschd.idailytrigger, taskschd/IDailyTrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices

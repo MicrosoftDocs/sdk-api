@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_setrange.htm
 old-project: wmformat
 ms.assetid: d96c97ad-085d-4753-8efb-8a6bcb284e78
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetRange method, IWMSyncReader.SetRange, IWMSyncReader::SetRange, IWMSyncReaderSetRange, SetRange, SetRange method [windows Media Format], SetRange method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setrange, wmsdkidl/IWMSyncReader::SetRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

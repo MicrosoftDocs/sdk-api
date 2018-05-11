@@ -7,7 +7,7 @@ old-location: dshow\videoprocampflags.htm
 old-project: DirectShow
 ms.assetid: 42876f3b-d2b9-4ddb-85c0-80f5177eef6b
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: VideoProcAmpFlags, VideoProcAmpFlags enumeration [DirectShow], VideoProcAmpFlagsEnumeration, VideoProcAmp_Flags_Auto, VideoProcAmp_Flags_Manual, dshow.videoprocampflags, strmif/VideoProcAmpFlags, strmif/VideoProcAmp_Flags_Auto, strmif/VideoProcAmp_Flags_Manual, tagVideoProcAmpFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

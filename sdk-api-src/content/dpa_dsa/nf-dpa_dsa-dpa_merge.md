@@ -7,7 +7,7 @@ old-location: controls\DPA_Merge.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_merge.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: DPAM_INTERSECT, DPAM_NORMAL, DPAM_SORTED, DPAM_UNION, DPA_Merge, DPA_Merge function [Windows Controls], _shell_DPA_Merge, _shell_DPA_Merge_cpp, controls.DPA_Merge, controls._shell_DPA_Merge, dpa_dsa/DPA_Merge
 ms.prod: windows-hardware
 ms.technology: windows-devices

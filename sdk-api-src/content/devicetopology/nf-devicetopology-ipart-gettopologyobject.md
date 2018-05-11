@@ -7,7 +7,7 @@ old-location: coreaudio\ipart_gettopologyobject.htm
 old-project: CoreAudio
 ms.assetid: 5ad5fc66-6452-4d55-8c6a-a20a87431302
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: GetTopologyObject, GetTopologyObject method [Core Audio], GetTopologyObject method [Core Audio],IPart interface, IPart interface [Core Audio],GetTopologyObject method, IPart.GetTopologyObject, IPart::GetTopologyObject, IPartGetTopologyObject, coreaudio.ipart_gettopologyobject, devicetopology/IPart::GetTopologyObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

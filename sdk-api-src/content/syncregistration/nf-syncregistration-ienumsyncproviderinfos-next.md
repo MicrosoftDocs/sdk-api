@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncproviderinfos_next.htm
 old-project: winsync
 ms.assetid: b56cacfd-9cfe-4f5a-a945-dca299e43497
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumSyncProviderInfos interface [Windows Sync],Next method, IEnumSyncProviderInfos.Next, IEnumSyncProviderInfos::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncProviderInfos interface, syncregistration/IEnumSyncProviderInfos::Next, winsync.ienumsyncproviderinfos_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

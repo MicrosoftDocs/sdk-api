@@ -1,14 +1,14 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItems.GetMaxItemCount
-title: ISpatialAudioMetadataItems::GetMaxItemCount method
+title: ISpatialAudioMetadataItems::GetMaxItemCount
 author: windows-driver-content
 description: The maximum number of items allowed by the ISpatialAudioMetadataItems, defined when the object is created.
 old-location: coreaudio\ispatialaudiometadataitems_getmaxitemcount.htm
 old-project: CoreAudio
 ms.assetid: 933DEDE0-3DC1-4D0B-8EAE-58EFB52CE2FE
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
-ms.keywords: GetFrameCount method [Core Audio], GetFrameCount method [Core Audio], ISpatialAudioMetadataItems interface, GetMaxItemCount,ISpatialAudioMetadataItems.GetMaxItemCount, ISpatialAudioMetadataItems, ISpatialAudioMetadataItems interface [Core Audio], GetFrameCount method, ISpatialAudioMetadataItems::GetFrameCount, ISpatialAudioMetadataItems::GetMaxItemCount, coreaudio.ispatialaudiometadataitems_getmaxitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetFrameCount
+ms.date: 5/9/2018
+ms.keywords: GetMaxItemCount, GetMaxItemCount method [Core Audio], GetMaxItemCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetMaxItemCount method, ISpatialAudioMetadataItems.GetMaxItemCount, ISpatialAudioMetadataItems::GetMaxItemCount, coreaudio.ispatialaudiometadataitems_getmaxitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetMaxItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	SpatialAudioMetadata.h
 api_name:
--	ISpatialAudioMetadataItems.GetFrameCount
+-	ISpatialAudioMetadataItems.GetMaxItemCount
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataItems::GetMaxItemCount method
+# ISpatialAudioMetadataItems::GetMaxItemCount
 
 
 ## -description

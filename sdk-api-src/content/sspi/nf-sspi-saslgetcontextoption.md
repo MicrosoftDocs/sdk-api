@@ -7,7 +7,7 @@ old-location: security\saslgetcontextoption.htm
 old-project: SecAuthN
 ms.assetid: c9c424d3-07e6-4ed0-9189-c932af0475d9
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SASL_OPTION_AUTHZ_PROCESSING, SASL_OPTION_AUTHZ_STRING, SASL_OPTION_RECV_SIZE, SASL_OPTION_SEND_SIZE, SaslGetContextOption, SaslGetContextOption function [Security], security.saslgetcontextoption, sspi/SaslGetContextOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: vhd\detachvirtualdisk.htm
 old-project: VStor
 ms.assetid: 9b3874e1-e107-42f8-9ede-eb1eb6164ed2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: DetachVirtualDisk, DetachVirtualDisk function [VHD], vhd.detachvirtualdisk, vhd.unsurfacevirtualdisk, virtdisk/DetachVirtualDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices

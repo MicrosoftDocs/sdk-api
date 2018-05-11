@@ -7,7 +7,7 @@ old-location: rras\rasdeleteentry.htm
 old-project: RRAS
 ms.assetid: 80a6c2d3-917b-4d13-867f-a1399d434105
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RasDeleteEntry, RasDeleteEntry function [RAS], RasDeleteEntryA, RasDeleteEntryW, _ras_rasdeleteentry, ras/RasDeleteEntry, ras/RasDeleteEntryA, ras/RasDeleteEntryW, rras.rasdeleteentry
 ms.prod: windows-hardware
 ms.technology: windows-devices

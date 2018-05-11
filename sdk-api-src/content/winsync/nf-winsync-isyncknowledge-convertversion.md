@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_convertversion.htm
 old-project: winsync
 ms.assetid: f41edaa3-7c4e-4b2c-9897-474b3e7bfb67
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ConvertVersion, ConvertVersion method [Windows Sync], ConvertVersion method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ConvertVersion method, ISyncKnowledge.ConvertVersion, ISyncKnowledge::ConvertVersion, winsync.isyncknowledge_convertversion, winsync/ISyncKnowledge::ConvertVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

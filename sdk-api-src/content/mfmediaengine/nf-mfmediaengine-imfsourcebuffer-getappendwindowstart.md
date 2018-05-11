@@ -7,7 +7,7 @@ old-location: mf\imfsourcebuffer_getappendwindowstart.htm
 old-project: medfound
 ms.assetid: e5feb451-5bf9-475c-b501-599e2188a3f5
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetAppendWindowStart, GetAppendWindowStart method [Media Foundation], GetAppendWindowStart method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetAppendWindowStart method, IMFSourceBuffer.GetAppendWindowStart, IMFSourceBuffer::GetAppendWindowStart, mf.imfsourcebuffer_getappendwindowstart, mfmediaengine/IMFSourceBuffer::GetAppendWindowStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

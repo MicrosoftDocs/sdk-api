@@ -7,7 +7,7 @@ old-location: policy\installapplication.htm
 old-project: Policy
 ms.assetid: 5b2e1d82-a421-42af-9e1b-391ae9d4813e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: InstallApplication, InstallApplication function [Group Policy], appmgmt/InstallApplication, policy.installapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

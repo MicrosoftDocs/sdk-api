@@ -7,7 +7,7 @@ old-location: security\icertencodelongarray_getcount.htm
 old-project: SecCrypto
 ms.assetid: f60cffb1-5202-4dc8-97dd-9eddd381602a
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CCertEncodeLongArray object [Security],GetCount method, GetCount, GetCount method [Security], GetCount method [Security],CCertEncodeLongArray object, GetCount method [Security],ICertEncodeLongArray interface, ICertEncodeLongArray interface [Security],GetCount method, ICertEncodeLongArray.GetCount, ICertEncodeLongArray::GetCount, _certsrv_icertencodelongarray_getcount, certenc/ICertEncodeLongArray::GetCount, security.icertencodelongarray_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

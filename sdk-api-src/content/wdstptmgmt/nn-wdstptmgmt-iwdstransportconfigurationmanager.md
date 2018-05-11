@@ -7,7 +7,7 @@ old-location: wds\iwdstransportconfigurationmanager.htm
 old-project: Wds
 ms.assetid: b86f9bc7-ddee-4d18-b5cb-28d28fa7ae7e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportConfigurationManager, IWdsTransportConfigurationManager interface [Windows Deployment Services], IWdsTransportConfigurationManager interface [Windows Deployment Services],described, wds.iwdstransportconfigurationmanager, wdstptmgmt/IWdsTransportConfigurationManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

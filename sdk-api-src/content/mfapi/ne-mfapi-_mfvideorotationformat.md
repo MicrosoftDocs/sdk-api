@@ -7,7 +7,7 @@ old-location: mf\mfvideorotationformat.htm
 old-project: medfound
 ms.assetid: E2760742-3914-4B5C-87FB-38F2EF3025C3
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MFVideoRotationFormat, MFVideoRotationFormat enumeration [Media Foundation], MFVideoRotationFormat_0, MFVideoRotationFormat_180, MFVideoRotationFormat_270, MFVideoRotationFormat_90, _MFVideoRotationFormat, mf.mfvideorotationformat, mfapi/MFVideoRotationFormat, mfapi/MFVideoRotationFormat_0, mfapi/MFVideoRotationFormat_180, mfapi/MFVideoRotationFormat_270, mfapi/MFVideoRotationFormat_90
 ms.prod: windows-hardware
 ms.technology: windows-devices

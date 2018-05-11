@@ -7,7 +7,7 @@ old-location: mf\idirect3ddevicemanager9.htm
 old-project: medfound
 ms.assetid: e661e666-dc51-4a71-9ecd-62a667bb217d
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IDirect3DDeviceManager9, IDirect3DDeviceManager9 interface [Media Foundation], IDirect3DDeviceManager9 interface [Media Foundation],described, dxva2api/IDirect3DDeviceManager9, e661e666-dc51-4a71-9ecd-62a667bb217d, mf.idirect3ddevicemanager9
 ms.prod: windows-hardware
 ms.technology: windows-devices

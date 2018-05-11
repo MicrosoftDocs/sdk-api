@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectprimitiveimpl_isvolatile.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitiveimpl\isvolatile.htm
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IMILBitmapEffectPrimitiveImpl interface [WPF Bitmap Effects],IsVolatile method, IMILBitmapEffectPrimitiveImpl.IsVolatile, IMILBitmapEffectPrimitiveImpl::IsVolatile, IsVolatile, IsVolatile method [WPF Bitmap Effects], IsVolatile method [WPF Bitmap Effects],IMILBitmapEffectPrimitiveImpl interface, _wibe_imilbitmapeffectprimitiveimpl_isvolatile, mileffects/IMILBitmapEffectPrimitiveImpl::IsVolatile, wibe._wibe_imilbitmapeffectprimitiveimpl_isvolatile
 ms.prod: windows-hardware
 ms.technology: windows-devices

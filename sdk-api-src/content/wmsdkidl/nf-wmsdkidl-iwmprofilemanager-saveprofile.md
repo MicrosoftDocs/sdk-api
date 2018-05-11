@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofilemanager_saveprofile.htm
 old-project: wmformat
 ms.assetid: 806def9b-1842-4443-9a63-fba380545018
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],SaveProfile method, IWMProfileManager.SaveProfile, IWMProfileManager::SaveProfile, IWMProfileManagerSaveProfile, SaveProfile, SaveProfile method [windows Media Format], SaveProfile method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_saveprofile, wmsdkidl/IWMProfileManager::SaveProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

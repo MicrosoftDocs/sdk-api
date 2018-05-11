@@ -7,7 +7,7 @@ old-location: display\dx_irqdata.htm
 old-project: display
 ms.assetid: 258cfaa3-8de2-45d9-b61b-683cf41c127f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*PDX_IRQDATA, DX_IRQDATA, DX_IRQDATA structure [Display Devices], PDX_IRQDATA, PDX_IRQDATA structure pointer [Display Devices], _DX_IRQDATA, ddstrcts_abf413a4-709e-4458-930c-93f21c368892.xml, display.dx_irqdata, dxmini/DX_IRQDATA, dxmini/PDX_IRQDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

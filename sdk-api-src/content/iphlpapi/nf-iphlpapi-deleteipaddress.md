@@ -7,7 +7,7 @@ old-location: iphlp\deleteipaddress.htm
 old-project: IpHlp
 ms.assetid: d7ed986d-d62e-4723-ab74-85c3edfdf4ff
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: DeleteIPAddress, DeleteIPAddress function [IP Helper], _iphlp_deleteipaddress, iphlp.deleteipaddress, iphlpapi/DeleteIPAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

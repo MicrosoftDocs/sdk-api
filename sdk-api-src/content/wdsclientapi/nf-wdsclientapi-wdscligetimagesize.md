@@ -7,7 +7,7 @@ old-location: wds\wdscligetimagesize.htm
 old-project: Wds
 ms.assetid: 35d04426-dfb4-48db-bb81-734d2d2ecdcb
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsCliGetImageSize, WdsCliGetImageSize function [Windows Deployment Services], wds.wdscligetimagesize, wdsclientapi/WdsCliGetImageSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

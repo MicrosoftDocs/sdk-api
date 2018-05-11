@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiontabletransfereffect_setredtablevalue_overl
 old-project: directcomp
 ms.assetid: 9cfa766c-b88d-9a8f-109f-b42e9df79cbf
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: IDCompositionTableTransferEffect::SetRedTableValue, SetRedTableValue, SetRedTableValue methods [DirectComposition], dcomp/SetRedTableValue, directcomp.idcompositiontabletransfereffect_setredtablevalue_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices

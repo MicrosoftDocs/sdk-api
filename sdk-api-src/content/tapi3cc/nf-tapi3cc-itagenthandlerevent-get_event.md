@@ -7,7 +7,7 @@ old-location: tapi3\itagenthandlerevent_get_event.htm
 old-project: Tapi
 ms.assetid: 3362964c-15d3-497c-876b-46e8d26389c0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: ITAgentHandlerEvent interface [TAPI 2.2],get_Event method, ITAgentHandlerEvent.get_Event, ITAgentHandlerEvent::get_Event, _tapi3_itagenthandlerevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITAgentHandlerEvent interface, tapi3.itagenthandlerevent_get_event, tapi3cc/ITAgentHandlerEvent::get_Event
 ms.prod: windows-hardware
 ms.technology: windows-devices

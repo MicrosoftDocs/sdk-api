@@ -2,13 +2,13 @@
 UID: NF:msctf.ITfUIElementMgr.UpdateUIElement
 title: ITfUIElementMgr::UpdateUIElement
 author: windows-driver-content
-description: The ITfUIElementMgr::EndUIElement method is called by a text service when the element of UI is hidden.
-old-location: tsf\itfuielementmgr_enduielement.htm
+description: The ITfUIElementMgr::UpdateUIElement method is called by a text service when the UI element must be updated.
+old-location: tsf\itfuielementmgr_updateuielement.htm
 old-project: TSF
-ms.assetid: cec22994-c233-4f84-8237-749ef3cc8aff
+ms.assetid: c7df9abf-53a0-41a4-aac5-d90b9abfbeec
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: ITfUIElementMgr interface [Text Services Framework],UpdateUIElement method, ITfUIElementMgr.UpdateUIElement, ITfUIElementMgr::UpdateUIElement, UpdateUIElement, UpdateUIElement method [Text Services Framework], UpdateUIElement method [Text Services Framework],ITfUIElementMgr interface, msctf/ITfUIElementMgr::UpdateUIElement, tsf.itfuielementmgr_enduielement
+ms.date: 5/8/2018
+ms.keywords: ITfUIElementMgr interface [Text Services Framework],UpdateUIElement method, ITfUIElementMgr.UpdateUIElement, ITfUIElementMgr::UpdateUIElement, UpdateUIElement, UpdateUIElement method [Text Services Framework], UpdateUIElement method [Text Services Framework],ITfUIElementMgr interface, msctf/ITfUIElementMgr::UpdateUIElement, tsf.itfuielementmgr_updateuielement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>ITfUIElementMgr::EndUIElement</b> method is called by a text service when the element of UI is hidden.
+The <b>ITfUIElementMgr::UpdateUIElement</b> method is called by a text service when the UI element must be updated.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>ITfUIElementMgr::EndUIElement</b> method is called by a text service when
 
 ### -param dwUIElementId [in]
 
-[in] The element id to hide the UI element.
+[in] The element id to update the UI element.
 
 
 ## -returns

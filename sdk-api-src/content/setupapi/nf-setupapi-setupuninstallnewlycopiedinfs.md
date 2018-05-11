@@ -7,7 +7,7 @@ old-location: setup\setupuninstallnewlycopiedinfs.htm
 old-project: SetupApi
 ms.assetid: 7bc10d12-0a0e-48b6-9fb4-1bf1c99cc3be
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupUninstallNewlyCopiedInfs, SetupUninstallNewlyCopiedInfs function [Setup API], _setupapi_setupuninstallnewlycopiedinfs, setup.setupuninstallnewlycopiedinfs, setupapi/SetupUninstallNewlyCopiedInfs
 ms.prod: windows-hardware
 ms.technology: windows-devices

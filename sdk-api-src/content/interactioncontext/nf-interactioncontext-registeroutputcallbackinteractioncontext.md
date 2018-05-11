@@ -7,7 +7,7 @@ old-location: input_intcontext\registeroutputcallbackinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: 87000250-f225-4864-96d2-1e189f5be1a3
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/8/2018
 ms.keywords: RegisterOutputCallbackInteractionContext, RegisterOutputCallbackInteractionContext function, input_intcontext.registeroutputcallbackinteractioncontext, interactioncontext.registeroutputcallbackinteractioncontext, interactioncontext/RegisterOutputCallbackInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

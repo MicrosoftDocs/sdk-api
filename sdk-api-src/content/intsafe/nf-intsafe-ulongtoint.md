@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongToInt
 title: ULongToInt function
 author: windows-driver-content
-description: Converts a value of type DWORD to a value of type INT.
-old-location: shell\DWordToInt.htm
+description: Converts a value of type ULONG to a value of type INT.
+old-location: shell\ULongToInt.htm
 old-project: shell
-ms.assetid: ec6810ed-ff8d-4d8c-9796-5b7ea5f86a38
+ms.assetid: 601ed067-13a9-4d0c-b1e1-d05745d8dbe2
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: DWordToInt, DWordToInt function [Windows Shell], ULongToInt, _shell_DWordToInt, intsafe/DWordToInt, shell.DWordToInt
+ms.date: 5/9/2018
+ms.keywords: DWordToInt, ULongToInt, ULongToInt function [Windows Shell], _shell_ULongToInt, intsafe/ULongToInt, shell.ULongToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	DllExport
+-	HeaderDef
 api_location:
--	None
+-	Intsafe.h
 api_name:
--	DWordToInt
+-	ULongToInt
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: None
+req.dll: 
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>DWORD</b> to a value of type <b>INT</b>.
+Converts a value of type <b>ULONG</b> to a value of type <b>INT</b>.
 
 
 ## -parameters
@@ -58,9 +58,11 @@ Converts a value of type <b>DWORD</b> to a value of type <b>INT</b>.
 
 
 
-### -param ulOperand
+### -param ulOperand [in]
 
-TBD
+Type: <b>ULONG</b>
+
+The value to be converted.
 
 
 ### -param piResult [out]
@@ -68,13 +70,6 @@ TBD
 Type: <b>INT*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
-
-
-#### - dwOperand [in]
-
-Type: <b>DWORD</b>
-
-The value to be converted.
 
 
 ## -returns
@@ -93,6 +88,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>DWordToInt</b> is an alias for this function.
 
 
 

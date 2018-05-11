@@ -7,7 +7,7 @@ old-location: tapi3\itaddressdevicespecificevent_get_lparam1.htm
 old-project: Tapi
 ms.assetid: e0cae67a-0c39-407a-b563-bef14c36f014
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: ITAddressDeviceSpecificEvent interface [TAPI 2.2],get_lParam1 method, ITAddressDeviceSpecificEvent.get_lParam1, ITAddressDeviceSpecificEvent::get_lParam1, _tapi3_itaddressdevicespecificevent_get_lparam1, get_lParam1, get_lParam1 method [TAPI 2.2], get_lParam1 method [TAPI 2.2],ITAddressDeviceSpecificEvent interface, tapi3.itaddressdevicespecificevent_get_lparam1, tapi3if/ITAddressDeviceSpecificEvent::get_lParam1
 ms.prod: windows-hardware
 ms.technology: windows-devices

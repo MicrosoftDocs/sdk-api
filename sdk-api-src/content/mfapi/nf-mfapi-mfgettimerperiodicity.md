@@ -7,7 +7,7 @@ old-location: mf\mfgettimerperiodicity.htm
 old-project: medfound
 ms.assetid: 19d7ae7e-7ae3-474d-8111-3b60b9adb918
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 19d7ae7e-7ae3-474d-8111-3b60b9adb918, MFGetTimerPeriodicity, MFGetTimerPeriodicity function [Media Foundation], mf.mfgettimerperiodicity, mfapi/MFGetTimerPeriodicity
 ms.prod: windows-hardware
 ms.technology: windows-devices

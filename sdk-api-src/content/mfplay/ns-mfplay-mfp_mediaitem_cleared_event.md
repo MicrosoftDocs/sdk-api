@@ -7,7 +7,7 @@ old-location: mf\mfp_mediaitem_cleared_event.htm
 old-project: medfound
 ms.assetid: 74218ab7-75a7-49e6-bfaa-5f57b1788a19
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MFP_MEDIAITEM_CLEARED_EVENT, MFP_MEDIAITEM_CLEARED_EVENT structure [Media Foundation], mf.mfp_mediaitem_cleared_event, mfplay/MFP_MEDIAITEM_CLEARED_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamwmbufferpasscallback.htm
 old-project: DirectShow
 ms.assetid: c3a8e01e-a626-4e47-ad98-e22d1fe88906
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMWMBufferPassCallback, IAMWMBufferPassCallback interface [DirectShow], IAMWMBufferPassCallback interface [DirectShow],described, IAMWMBufferPassCallbackInterface, dshow.iamwmbufferpasscallback, dshowasf/IAMWMBufferPassCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

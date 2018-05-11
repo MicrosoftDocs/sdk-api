@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt32ArrayAlloc.htm
 old-project: properties
 ms.assetid: 4d6cbfc8-fe1c-4bd0-8d29-32bce01d31f8
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: VariantToUInt32ArrayAlloc, VariantToUInt32ArrayAlloc function [Windows Properties], _shell_VariantToUInt32ArrayAlloc, properties.VariantToUInt32ArrayAlloc, propvarutil/VariantToUInt32ArrayAlloc, shell.VariantToUInt32ArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

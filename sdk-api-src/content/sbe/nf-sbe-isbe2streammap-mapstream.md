@@ -7,7 +7,7 @@ old-location: mstv\isbe2streammap_mapstream.htm
 old-project: mstv
 ms.assetid: efe3b21d-9664-4367-9bfe-4c02589370c4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: ISBE2StreamMap interface [Microsoft TV Technologies],MapStream method, ISBE2StreamMap.MapStream, ISBE2StreamMap::MapStream, MapStream, MapStream method [Microsoft TV Technologies], MapStream method [Microsoft TV Technologies],ISBE2StreamMap interface, mstv.isbe2streammap_mapstream, sbe/ISBE2StreamMap::MapStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

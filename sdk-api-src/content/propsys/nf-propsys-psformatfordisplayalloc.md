@@ -7,7 +7,7 @@ old-location: properties\PSFormatForDisplayAlloc.htm
 old-project: properties
 ms.assetid: d411ea72-fb29-47b6-a7f6-0839b3e2caf2
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: PSFormatForDisplayAlloc, PSFormatForDisplayAlloc function [Windows Properties], properties.PSFormatForDisplayAlloc, propsys/PSFormatForDisplayAlloc, shell.PSFormatForDisplayAlloc, shell_PSFormatForDisplayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

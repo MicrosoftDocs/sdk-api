@@ -7,7 +7,7 @@ old-location: wmformat\iwmcodecinfo_getcodecformat.htm
 old-project: wmformat
 ms.assetid: dbfffc96-2286-4fdf-a76f-ad8e0ecd7aff
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: GetCodecFormat, GetCodecFormat method [windows Media Format], GetCodecFormat method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecFormat method, IWMCodecInfo.GetCodecFormat, IWMCodecInfo::GetCodecFormat, IWMCodecInfoGetCodecFormat, wmformat.iwmcodecinfo_getcodecformat, wmsdkidl/IWMCodecInfo::GetCodecFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

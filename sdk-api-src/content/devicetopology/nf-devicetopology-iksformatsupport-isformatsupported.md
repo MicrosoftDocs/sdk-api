@@ -7,7 +7,7 @@ old-location: coreaudio\iksformatsupport_isformatsupported.htm
 old-project: CoreAudio
 ms.assetid: 0f377b14-fd19-40ac-9875-9ee3bd8d51c7
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IKsFormatSupport interface [Core Audio],IsFormatSupported method, IKsFormatSupport.IsFormatSupported, IKsFormatSupport::IsFormatSupported, IKsFormatSupportIsFormatSupported, IsFormatSupported, IsFormatSupported method [Core Audio], IsFormatSupported method [Core Audio],IKsFormatSupport interface, coreaudio.iksformatsupport_isformatsupported, devicetopology/IKsFormatSupport::IsFormatSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

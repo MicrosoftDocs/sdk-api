@@ -7,7 +7,7 @@ old-location: wic\iwicplanarbitmapframeencode_writesource.htm
 old-project: wic
 ms.assetid: 220D9216-1053-48E1-B7FD-5E3E46001562
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: IWICPlanarBitmapFrameEncode interface [Windows Imaging Component],WriteSource method, IWICPlanarBitmapFrameEncode.WriteSource, IWICPlanarBitmapFrameEncode::WriteSource, WriteSource, WriteSource method [Windows Imaging Component], WriteSource method [Windows Imaging Component],IWICPlanarBitmapFrameEncode interface, wic.iwicplanarbitmapframeencode_writesource, wincodec/IWICPlanarBitmapFrameEncode::WriteSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

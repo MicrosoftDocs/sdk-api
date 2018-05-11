@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorendererdevices_get__newenum.htm
 old-project: mstv
 ms.assetid: afc8efc7-7e1f-4900-be6b-f41871ad4ebe
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],get__NewEnum method, IMSVidAudioRendererDevices.get__NewEnum, IMSVidAudioRendererDevices::get__NewEnum, IMSVidAudioRendererDevicesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, mstv.imsvidaudiorendererdevices_get__newenum, segment/IMSVidAudioRendererDevices::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpalette_hasalpha.htm
 old-project: wic
 ms.assetid: 7c2cd523-04e4-4f19-b7f3-cc2af7604283
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: HasAlpha, HasAlpha method [Windows Imaging Component], HasAlpha method [Windows Imaging Component],IWICPalette interface, IWICPalette interface [Windows Imaging Component],HasAlpha method, IWICPalette.HasAlpha, IWICPalette::HasAlpha, _wic_codec_iwicpalette_hasalpha, wic._wic_codec_iwicpalette_hasalpha, wincodec/IWICPalette::HasAlpha
 ms.prod: windows-hardware
 ms.technology: windows-devices

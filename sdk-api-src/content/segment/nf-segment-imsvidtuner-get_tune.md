@@ -7,7 +7,7 @@ old-location: mstv\imsvidtuner_get_tune.htm
 old-project: mstv
 ms.assetid: 189c878d-bf14-4464-96ce-5d2e09118dc4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IMSVidTuner interface [Microsoft TV Technologies],get_Tune method, IMSVidTuner.get_Tune, IMSVidTuner::get_Tune, IMSVidTunerget_Tune, get_Tune, get_Tune method [Microsoft TV Technologies], get_Tune method [Microsoft TV Technologies],IMSVidTuner interface, mstv.imsvidtuner_get_tune, segment/IMSVidTuner::get_Tune
 ms.prod: windows-hardware
 ms.technology: windows-devices

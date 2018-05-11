@@ -7,7 +7,7 @@ old-location: security\icertpolicy2_getmanagemodule.htm
 old-project: SecCrypto
 ms.assetid: a8d45938-1b89-4576-8705-7a174323e072
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CCertPolicy object [Security],GetManageModule method, GetManageModule, GetManageModule method [Security], GetManageModule method [Security],CCertPolicy object, GetManageModule method [Security],ICertPolicy2 interface, ICertPolicy2 interface [Security],GetManageModule method, ICertPolicy2.GetManageModule, ICertPolicy2::GetManageModule, _certsrv_icertpolicy2_getmanagemodule, certpol/ICertPolicy2::GetManageModule, security.icertpolicy2_getmanagemodule
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacegethandle.htm
 old-project: RRAS
 ms.assetid: a220dbc1-90e0-4290-8a65-c2a2dd218f07
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MprAdminInterfaceGetHandle, MprAdminInterfaceGetHandle function [RAS], _mpr_mpradmininterfacegethandle, mprapi/MprAdminInterfaceGetHandle, rras.mpradmininterfacegethandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

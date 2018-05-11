@@ -7,7 +7,7 @@ old-location: security\freesharedmemory.htm
 old-project: SecAuthN
 ms.assetid: def16ef0-4ae7-43c5-99c8-493bdf0c6a97
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: FreeSharedMemory, FreeSharedMemory function [Security], LSA_FREE_SHARED_MEMORY, _ssp_freesharedmemory, ntsecpkg/FreeSharedMemory, security.freesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

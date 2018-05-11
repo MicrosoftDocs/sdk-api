@@ -7,7 +7,7 @@ old-location: p2p\peerpnrpupdateregistration.htm
 old-project: P2PSdk
 ms.assetid: 628aa553-4a55-452b-bcca-4bb763fa6440
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerPnrpUpdateRegistration, PeerPnrpUpdateRegistration function [Peer Networking], p2p.peerpnrpupdateregistration, p2p/PeerPnrpUpdateRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices

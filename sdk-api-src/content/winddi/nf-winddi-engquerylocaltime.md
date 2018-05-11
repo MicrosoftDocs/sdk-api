@@ -7,7 +7,7 @@ old-location: display\engquerylocaltime.htm
 old-project: display
 ms.assetid: 826993fc-7cf2-4747-a0d9-086e5d7310b6
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: EngQueryLocalTime, EngQueryLocalTime function [Display Devices], display.engquerylocaltime, gdifncs_268682b0-aef3-4241-b49c-1cea87ec4f29.xml, winddi/EngQueryLocalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

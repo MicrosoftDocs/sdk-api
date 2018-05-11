@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_getstring.htm
 old-project: wmi_v2
 ms.assetid: 49bd7fa6-0164-4fb6-8154-75c39e6f7858
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_DestinationOptions_GetString, MI_DestinationOptions_GetString function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetString, wmi_v2.mi_destinationoptions_getstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

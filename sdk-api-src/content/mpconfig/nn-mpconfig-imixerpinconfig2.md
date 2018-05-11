@@ -7,7 +7,7 @@ old-location: dshow\imixerpinconfig2.htm
 old-project: DirectShow
 ms.assetid: d166b139-3ef7-4f47-817a-8f5b644a3776
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IMixerPinConfig2, IMixerPinConfig2 interface [DirectShow], IMixerPinConfig2 interface [DirectShow],described, IMixerPinConfig2Interface, dshow.imixerpinconfig2, mpconfig/IMixerPinConfig2
 ms.prod: windows-hardware
 ms.technology: windows-devices

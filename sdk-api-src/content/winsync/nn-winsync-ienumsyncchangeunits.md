@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncchangeunits.htm
 old-project: winsync
 ms.assetid: 77c1ef9a-9b76-433d-9654-fefb195a0f59
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumSyncChangeUnits, IEnumSyncChangeUnits interface [Windows Sync], IEnumSyncChangeUnits interface [Windows Sync],described, winsync.ienumsyncchangeunits, winsync/IEnumSyncChangeUnits
 ms.prod: windows-hardware
 ms.technology: windows-devices

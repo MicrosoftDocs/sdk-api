@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchadvanced.htm
 old-project: winsync
 ms.assetid: b78bc885-ed4e-4c83-ad1b-043c5b226337
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncChangeBatchAdvanced, ISyncChangeBatchAdvanced interface [Windows Sync], ISyncChangeBatchAdvanced interface [Windows Sync],described, winsync.isyncchangebatchadvanced, winsync/ISyncChangeBatchAdvanced
 ms.prod: windows-hardware
 ms.technology: windows-devices

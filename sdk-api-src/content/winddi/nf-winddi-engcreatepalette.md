@@ -7,7 +7,7 @@ old-location: display\engcreatepalette.htm
 old-project: display
 ms.assetid: 99b27e11-5a5f-4fa7-9cd0-422d24425fa1
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: EngCreatePalette, EngCreatePalette function [Display Devices], display.engcreatepalette, gdifncs_53382d1c-5765-48ee-904b-52dc46338d38.xml, winddi/EngCreatePalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wds\wdscliregistertrace.htm
 old-project: Wds
 ms.assetid: 1bdb1e47-fbbb-4952-9339-accdfe40bd18
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsCliRegisterTrace, WdsCliRegisterTrace function [Windows Deployment Services], wds.wdscliregistertrace, wdsclientapi/WdsCliRegisterTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

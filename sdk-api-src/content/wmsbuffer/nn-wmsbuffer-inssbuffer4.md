@@ -7,7 +7,7 @@ old-location: wmformat\inssbuffer4.htm
 old-project: wmformat
 ms.assetid: d6531e52-b58b-46ed-a47b-444cd98e1ec5
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: INSSBuffer4, INSSBuffer4 interface [windows Media Format], INSSBuffer4 interface [windows Media Format],described, INSSBuffer4Interface, wmformat.inssbuffer4, wmsbuffer/INSSBuffer4
 ms.prod: windows-hardware
 ms.technology: windows-devices

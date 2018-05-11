@@ -7,7 +7,7 @@ old-location: mscs\closeclusterresource.htm
 old-project: MsCS
 ms.assetid: dbefd7f9-3499-45b3-a5c8-d0000632f61c
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PCLUSAPI_CLOSE_CLUSTER_RESOURCE, PCLUSAPI_CLOSE_CLUSTER_RESOURCE callback, PCLUSAPI_CLOSE_CLUSTER_RESOURCE callback function [Failover Cluster], _wolf_closeclusterresource, clusapi/PCLUSAPI_CLOSE_CLUSTER_RESOURCE, mscs.closeclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

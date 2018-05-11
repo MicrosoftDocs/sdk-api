@@ -7,7 +7,7 @@ old-location: wmdm\imdspobjectinfo_gettotallength.htm
 old-project: WMDM
 ms.assetid: abd18861-550b-4968-ac96-05f07315d4db
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: GetTotalLength, GetTotalLength method [windows Media Device Manager], GetTotalLength method [windows Media Device Manager],IMDSPObjectInfo interface, IMDSPObjectInfo interface [windows Media Device Manager],GetTotalLength method, IMDSPObjectInfo.GetTotalLength, IMDSPObjectInfo::GetTotalLength, IMDSPObjectInfoGetTotalLength, mswmdm/IMDSPObjectInfo::GetTotalLength, wmdm.imdspobjectinfo_gettotallength
 ms.prod: windows-hardware
 ms.technology: windows-devices

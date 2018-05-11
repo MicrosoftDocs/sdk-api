@@ -7,7 +7,7 @@ old-location: display\perbandinfo.htm
 old-project: display
 ms.assetid: ec02542f-68d1-4d05-a4d1-e475725997ad
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*PPERBANDINFO, PERBANDINFO, PERBANDINFO structure [Display Devices], PPERBANDINFO, PPERBANDINFO structure pointer [Display Devices], _PERBANDINFO, display.perbandinfo, grstrcts_130088d9-975d-4b22-be85-90e129c64455.xml, winddi/PERBANDINFO, winddi/PPERBANDINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

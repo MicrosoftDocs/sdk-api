@@ -7,7 +7,7 @@ old-location: mf\imfrealtimeclient.htm
 old-project: medfound
 ms.assetid: b1d1901e-dd49-421f-9212-61e32cff411e
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFRealTimeClient, IMFRealTimeClient interface [Media Foundation], IMFRealTimeClient interface [Media Foundation],described, b1d1901e-dd49-421f-9212-61e32cff411e, mf.imfrealtimeclient, mfidl/IMFRealTimeClient
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winprog\iisolatedapplauncher.htm
 old-project: DevNotes
 ms.assetid: 49C30C52-ACE7-446D-A9B2-5BA7C6583700
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: IIsolatedAppLauncher, IIsolatedAppLauncher interface [Windows API], IIsolatedAppLauncher interface [Windows API],described, isolatedapplauncher/IIsolatedAppLauncher, winprog.iisolatedapplauncher
 ms.prod: windows-hardware
 ms.technology: windows-devices

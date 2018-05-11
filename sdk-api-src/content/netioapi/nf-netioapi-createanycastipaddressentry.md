@@ -7,7 +7,7 @@ old-location: iphlp\createanycastipaddressentry.htm
 old-project: IpHlp
 ms.assetid: 30393132-0fad-4687-b9e3-7b5cf47fbb96
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: CreateAnycastIpAddressEntry, CreateAnycastIpAddressEntry function [IP Helper], iphlp.createanycastipaddressentry, netioapi/CreateAnycastIpAddressEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

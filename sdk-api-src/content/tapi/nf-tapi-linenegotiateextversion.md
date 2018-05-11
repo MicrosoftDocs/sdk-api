@@ -7,7 +7,7 @@ old-location: tapi2\linenegotiateextversion.htm
 old-project: Tapi
 ms.assetid: 89a49709-a15b-4358-984a-fd836d8e237b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_linenegotiateextversion, lineNegotiateExtVersion, lineNegotiateExtVersion function [TAPI 2.2], tapi/lineNegotiateExtVersion, tapi2.linenegotiateextversion"
 ms.prod: windows-hardware
 ms.technology: windows-devices

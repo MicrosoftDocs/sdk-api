@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_registercontrolchangenotify.htm
 old-project: CoreAudio
 ms.assetid: 0a5711fa-700a-44ae-beed-aec421365b4c
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],RegisterControlChangeNotify method, IAudioEndpointVolume.RegisterControlChangeNotify, IAudioEndpointVolume::RegisterControlChangeNotify, IAudioEndpointVolumeRegisterControlChangeNotify, RegisterControlChangeNotify, RegisterControlChangeNotify method [Core Audio], RegisterControlChangeNotify method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_registercontrolchangenotify, endpointvolume/IAudioEndpointVolume::RegisterControlChangeNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

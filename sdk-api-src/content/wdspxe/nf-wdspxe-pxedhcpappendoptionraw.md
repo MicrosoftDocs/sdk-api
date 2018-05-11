@@ -7,8 +7,8 @@ old-location: wds\pxedhcpappendoptionraw.htm
 old-project: Wds
 ms.assetid: f6525a06-a3b0-4989-8132-fa8f1ad2fec3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PxeDhcpAppendOption, PxeDhcpAppendOption function [Windows Deployment Services], PxeDhcpAppendOptionRaw, wds.pxedhcpappendoptionraw, wdspxe/PxeDhcpAppendOption
+ms.date: 5/9/2018
+ms.keywords: PxeDhcpAppendOptionRaw, PxeDhcpAppendOptionRaw function [Windows Deployment Services], wds.pxedhcpappendoptionraw, wdspxe/PxeDhcpAppendOptionRaw
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	WdsPxe.dll
 api_name:
--	PxeDhcpAppendOption
+-	PxeDhcpAppendOptionRaw
 product: Windows
 targetos: Windows
 req.lib: WdsPxe.lib

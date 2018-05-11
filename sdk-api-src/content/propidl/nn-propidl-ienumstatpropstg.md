@@ -7,7 +7,7 @@ old-location: stg\ienumstatpropstg.htm
 old-project: Stg
 ms.assetid: e625e52a-5628-4d18-9282-aa1c141c83af
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumSTATPROPSTG, IEnumSTATPROPSTG interface [Structured Storage], IEnumSTATPROPSTG interface [Structured Storage],described, _stg_ienumstatpropstg, propidlbase/IEnumSTATPROPSTG, stg.ienumstatpropstg
 ms.prod: windows-hardware
 ms.technology: windows-devices

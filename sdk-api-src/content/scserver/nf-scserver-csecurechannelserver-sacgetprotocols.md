@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_sacgetprotocols.htm
 old-project: WMDM
 ms.assetid: 42878774-9c8b-4d80-a17e-6682da4d34ab
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],SACGetProtocols method, CSecureChannelServer.SACGetProtocols, CSecureChannelServer::SACGetProtocols, CSecureChannelServerSACGetProtocols, SACGetProtocols, SACGetProtocols method [windows Media Device Manager], SACGetProtocols method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::SACGetProtocols, wmdm.csecurechannelserver_sacgetprotocols
 ms.prod: windows-hardware
 ms.technology: windows-devices

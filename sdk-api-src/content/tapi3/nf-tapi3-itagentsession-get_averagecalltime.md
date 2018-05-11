@@ -7,7 +7,7 @@ old-location: tapi3\itagentsession_get_averagecalltime.htm
 old-project: Tapi
 ms.assetid: 05029076-cb76-4771-b0a8-0c09e184e6ee
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageCallTime method, ITAgentSession.get_AverageCallTime, ITAgentSession::get_AverageCallTime, _tapi3_itagentsession_get_averagecalltime, get_AverageCallTime, get_AverageCallTime method [TAPI 2.2], get_AverageCallTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_averagecalltime, tapi3cc/ITAgentSession::get_AverageCallTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

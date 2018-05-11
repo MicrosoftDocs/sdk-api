@@ -7,7 +7,7 @@ old-location: shell\IShellImageDataFactory.htm
 old-project: shell
 ms.assetid: c3de35de-9bf5-415c-93e9-ac0085195c27
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IShellImageDataFactory, IShellImageDataFactory interface [Windows Shell], IShellImageDataFactory interface [Windows Shell],described, _shell_IShellImageDataFactory, shell.IShellImageDataFactory, shimgdata/IShellImageDataFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

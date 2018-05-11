@@ -1,14 +1,14 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.GetFrameHeader
-title: IWICJpegFrameDecode::GetFrameHeader method
+title: IWICJpegFrameDecode::GetFrameHeader
 author: windows-driver-content
 description: Retrieves header data from the entire frame.
 old-location: wic\iwicjpegframedecode_getframeheader.htm
 old-project: wic
 ms.assetid: CE29251F-C2E2-422B-B6BD-034D6B479009
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetFrameHeader,IWICJpegFrameDecode.GetFrameHeader, GetScanHeader method [Windows Imaging Component], GetScanHeader method [Windows Imaging Component], IWICJpegFrameDecode interface, IWICJpegFrameDecode, IWICJpegFrameDecode interface [Windows Imaging Component], GetScanHeader method, IWICJpegFrameDecode::GetFrameHeader, IWICJpegFrameDecode::GetScanHeader, wic.iwicjpegframedecode_getframeheader, wincodec/IWICJpegFrameDecode::GetScanHeader
+ms.date: 5/9/2018
+ms.keywords: GetFrameHeader, GetFrameHeader method [Windows Imaging Component], GetFrameHeader method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetFrameHeader method, IWICJpegFrameDecode.GetFrameHeader, IWICJpegFrameDecode::GetFrameHeader, wic.iwicjpegframedecode_getframeheader, wincodec/IWICJpegFrameDecode::GetFrameHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Windowscodecs.dll
 api_name:
--	IWICJpegFrameDecode.GetScanHeader
+-	IWICJpegFrameDecode.GetFrameHeader
 product: Windows
 targetos: Windows
 req.lib: Windowscodecs.lib
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows Address Book 5.0
 ---
 
-# IWICJpegFrameDecode::GetFrameHeader method
+# IWICJpegFrameDecode::GetFrameHeader
 
 
 ## -description

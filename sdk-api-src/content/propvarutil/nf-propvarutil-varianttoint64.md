@@ -7,7 +7,7 @@ old-location: properties\VariantToInt64.htm
 old-project: properties
 ms.assetid: 5b8b4f93-dff1-40ef-9f99-c108a0b1bf70
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: VariantToInt64, VariantToInt64 function [Windows Properties], _shell_VariantToInt64, properties.VariantToInt64, propvarutil/VariantToInt64, shell.VariantToInt64
 ms.prod: windows-hardware
 ms.technology: windows-devices

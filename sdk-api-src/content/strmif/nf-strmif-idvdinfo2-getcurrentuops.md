@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getcurrentuops.htm
 old-project: DirectShow
 ms.assetid: 71ae88f0-17ad-4530-b2e7-6a8155c14a97
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetCurrentUOPS, GetCurrentUOPS method [DirectShow], GetCurrentUOPS method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentUOPS method, IDvdInfo2.GetCurrentUOPS, IDvdInfo2::GetCurrentUOPS, IDvdInfo2GetCurrentUOPS, dshow.idvdinfo2_getcurrentuops, strmif/IDvdInfo2::GetCurrentUOPS
 ms.prod: windows-hardware
 ms.technology: windows-devices

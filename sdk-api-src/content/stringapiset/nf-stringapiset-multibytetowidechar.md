@@ -7,7 +7,7 @@ old-location: intl\multibytetowidechar.htm
 old-project: Intl
 ms.assetid: a117fdfe-b52b-466f-9300-6455e91ea2a8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, MB_COMPOSITE, MB_ERR_INVALID_CHARS, MB_PRECOMPOSED, MB_USEGLYPHCHARS, MultiByteToWideChar, MultiByteToWideChar function [Internationalization for Windows Applications], _win32_MultiByteToWideChar, intl.multibytetowidechar, stringapiset/MultiByteToWideChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

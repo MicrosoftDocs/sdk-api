@@ -7,7 +7,7 @@ old-location: winsync\iloadchangecontext.htm
 old-project: winsync
 ms.assetid: 11d8971b-354f-4347-9d3f-6d32df8dc9d2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ILoadChangeContext, ILoadChangeContext interface [Windows Sync], ILoadChangeContext interface [Windows Sync],described, winsync.iloadchangecontext, winsync/ILoadChangeContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

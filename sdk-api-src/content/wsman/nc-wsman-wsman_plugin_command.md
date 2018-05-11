@@ -7,8 +7,8 @@ old-location: winrm\wsman_plugin_command.htm
 old-project: WinRM
 ms.assetid: df4b4e7b-cf30-4eb0-b646-49b17c883a16
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: WSManPluginCommand, WSManPluginCommand callback function [Windows Remote Management], winrm.wsman_plugin_command, wsman/WSMAN_PLUGIN_COMMAND, wsman/WSManPluginCommand
+ms.date: 5/8/2018
+ms.keywords: WSMAN_PLUGIN_COMMAND, WSMAN_PLUGIN_COMMAND callback, WSMAN_PLUGIN_COMMAND callback function [Windows Remote Management], WSManPluginCommand, winrm.wsman_plugin_command, wsman/WSMAN_PLUGIN_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Wsman.h
 api_name:
--	WSManPluginCommand
+-	WSMAN_PLUGIN_COMMAND
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# WSMAN_PLUGIN_COMMAND callback
+# WSMAN_PLUGIN_COMMAND callback function
 
 
 ## -description

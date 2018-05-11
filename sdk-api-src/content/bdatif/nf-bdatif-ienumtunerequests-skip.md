@@ -7,7 +7,7 @@ old-location: mstv\ienumtunerequests_skip.htm
 old-project: mstv
 ms.assetid: 43ed5c7e-2d31-417e-9d87-c3100e5096d0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Skip method, IEnumTuneRequests.Skip, IEnumTuneRequests::Skip, IEnumTuneRequestsSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Skip, mstv.ienumtunerequests_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

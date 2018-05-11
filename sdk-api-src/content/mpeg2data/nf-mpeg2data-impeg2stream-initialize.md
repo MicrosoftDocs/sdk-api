@@ -7,7 +7,7 @@ old-location: mstv\impeg2stream_initialize.htm
 old-project: mstv
 ms.assetid: a2ef2ebc-55dc-49d4-a5de-18203de113ce
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IMpeg2Stream interface [Microsoft TV Technologies],Initialize method, IMpeg2Stream.Initialize, IMpeg2Stream::Initialize, IMpeg2StreamInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IMpeg2Stream interface, mpeg2data/IMpeg2Stream::Initialize, mstv.impeg2stream_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\sr_security_descriptor.htm
 old-project: SecAuthN
 ms.assetid: 000ffbbe-5750-449b-8237-27c8d3c45454
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR structure pointer [Security], SR_SECURITY_DESCRIPTOR, SR_SECURITY_DESCRIPTOR structure [Security], _SR_SECURITY_DESCRIPTOR, _lsa_sr_security_descriptor, security.sr_security_descriptor, subauth/PSR_SECURITY_DESCRIPTOR, subauth/SR_SECURITY_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

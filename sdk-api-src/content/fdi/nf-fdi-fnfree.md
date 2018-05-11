@@ -7,7 +7,7 @@ old-location: winprog\fnfree.htm
 old-project: DevNotes
 ms.assetid: 646a0cb4-1f3a-42a1-a508-12d80bdb4a01
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: FNFREE, FNFREE macro [Windows API], fdi/FNFREE, winprog.fnfree
 ms.prod: windows-hardware
 ms.technology: windows-devices

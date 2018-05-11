@@ -7,7 +7,7 @@ old-location: wds\iwdstransportconfigurationmanager_servicepolicy.htm
 old-project: Wds
 ms.assetid: 3ee3abe8-3ac4-409c-b994-023b0c4c6f72
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],ServicePolicy property, IWdsTransportConfigurationManager.ServicePolicy, IWdsTransportConfigurationManager.get_ServicePolicy, IWdsTransportConfigurationManager::ServicePolicy, IWdsTransportConfigurationManager::get_ServicePolicy, ServicePolicy property [Windows Deployment Services], ServicePolicy property [Windows Deployment Services],IWdsTransportConfigurationManager interface, get_ServicePolicy, wds.iwdstransportconfigurationmanager_servicepolicy, wdstptmgmt/IWdsTransportConfigurationManager::ServicePolicy, wdstptmgmt/IWdsTransportConfigurationManager::get_ServicePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

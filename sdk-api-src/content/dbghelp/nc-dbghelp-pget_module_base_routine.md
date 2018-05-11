@@ -7,7 +7,7 @@ old-location: base\getmodulebaseproc64.htm
 old-project: Debug
 ms.assetid: a1060d41-183f-4cb1-8214-afef2996ca66
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: GetModuleBaseProc64, GetModuleBaseProc64 callback, GetModuleBaseProc64 callback function, PGET_MODULE_BASE_ROUTINE, PGET_MODULE_BASE_ROUTINE64, _win32_getmodulebaseproc64, base.getmodulebaseproc64, dbghelp/GetModuleBaseProc64
 ms.prod: windows-hardware
 ms.technology: windows-devices

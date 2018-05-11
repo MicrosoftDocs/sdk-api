@@ -7,7 +7,7 @@ old-location: wds\wdsclitransferimage.htm
 old-project: Wds
 ms.assetid: 43590cee-20d5-47da-8e35-fa4fda1da175
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WDS_CLI_TRANSFER_ASYNCHRONOUS, WdsCliTransferImage, WdsCliTransferImage function [Windows Deployment Services], wds.wdsclitransferimage, wdsclientapi/WdsCliTransferImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationprimitiveinterpolation.htm
 old-project: UIAnimation
 ms.assetid: 6EAE7874-1103-4D2E-A325-37E5A95705F5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: IUIAnimationPrimitiveInterpolation, IUIAnimationPrimitiveInterpolation interface [Windows Animation], IUIAnimationPrimitiveInterpolation interface [Windows Animation],described, uianimation.iuianimationprimitiveinterpolation, uianimation/IUIAnimationPrimitiveInterpolation
 ms.prod: windows-hardware
 ms.technology: windows-devices

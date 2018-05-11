@@ -7,7 +7,7 @@ old-location: base\symsrvstoresupplement.htm
 old-project: Debug
 ms.assetid: 579bd9ff-cb23-426b-8188-6897d83ada28
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: SymSrvStoreSupplement, SymSrvStoreSupplement function, SymSrvStoreSupplementW, base.symsrvstoresupplement, dbghelp/SymSrvStoreSupplement, dbghelp/SymSrvStoreSupplementW
 ms.prod: windows-hardware
 ms.technology: windows-devices

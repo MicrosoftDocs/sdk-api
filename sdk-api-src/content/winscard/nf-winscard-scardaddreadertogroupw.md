@@ -7,7 +7,7 @@ old-location: security\scardaddreadertogroup.htm
 old-project: SecAuthN
 ms.assetid: f2f5fcd8-3b60-4c8a-b92c-c63be970cc35
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardAddReaderToGroup, SCardAddReaderToGroup function [Security], SCardAddReaderToGroupA, SCardAddReaderToGroupW, _smart_scardaddreadertogroup, security.scardaddreadertogroup, winscard/SCardAddReaderToGroup, winscard/SCardAddReaderToGroupA, winscard/SCardAddReaderToGroupW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itacdgroup_get_name.htm
 old-project: Tapi
 ms.assetid: 93e61a42-3e60-4d52-bb19-68842f6947da
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: ITACDGroup interface [TAPI 2.2],get_Name method, ITACDGroup.get_Name, ITACDGroup::get_Name, _tapi3_itacdgroup_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITACDGroup interface, tapi3.itacdgroup_get_name, tapi3cc/ITACDGroup::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

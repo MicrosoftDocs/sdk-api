@@ -7,7 +7,7 @@ old-location: display\querydisplayconfig.htm
 old-project: display
 ms.assetid: b1792d7f-f216-4250-a6b6-a11b251a9cec
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: CCD_Functions_4fc57ba2-e10b-4d28-bbaf-a5ded2264e59.xml, QueryDisplayConfig, QueryDisplayConfig function [Display Devices], display.querydisplayconfig, winuser/QueryDisplayConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

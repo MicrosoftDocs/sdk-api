@@ -7,7 +7,7 @@ old-location: mstv\imsvidinputdevices_get_count.htm
 old-project: mstv
 ms.assetid: 52c2d9a1-f688-4f5e-a120-082d70f8dff1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IMSVidInputDevices interface [Microsoft TV Technologies],get_Count method, IMSVidInputDevices.get_Count, IMSVidInputDevices::get_Count, IMSVidInputDevicesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidInputDevices interface, mstv.imsvidinputdevices_get_count, segment/IMSVidInputDevices::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

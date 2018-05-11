@@ -7,7 +7,7 @@ old-location: tapi3\tapi_customtone_str.htm
 old-project: Tapi
 ms.assetid: 1d3c7b25-92a8-41f5-8186-f6425cc6be74
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "*LPTAPI_CUSTOMTONE, TAPI_CUSTOMTONE, TAPI_CUSTOMTONE structure [TAPI 2.2], _tapi3_tapi_customtone_str, tapi3.tapi_customtone_str, tapi3if/TAPI_CUSTOMTONE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

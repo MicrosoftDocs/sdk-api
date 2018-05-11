@@ -7,7 +7,7 @@ old-location: policy\igrouppolicyobject_save.htm
 old-project: Policy
 ms.assetid: e3713e5f-c710-48f7-8081-f2669c77449d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IGroupPolicyObject interface [Group Policy],Save method, IGroupPolicyObject.Save, IGroupPolicyObject::Save, Save, Save method [Group Policy], Save method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_save, gpedit/IGroupPolicyObject::Save, policy.igrouppolicyobject_save
 ms.prod: windows-hardware
 ms.technology: windows-devices

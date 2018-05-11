@@ -7,7 +7,7 @@ old-location: audio\dmus_voice_state.htm
 old-project: audio
 ms.assetid: B3140ADC-863E-4332-A8D1-CEF512B33F14
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/8/2018
 ms.keywords: DMUS_VOICE_STATE, DMUS_VOICE_STATE structure [Audio Devices], _DMUS_VOICE_STATE, audio.dmus_voice_state, dmusics/DMUS_VOICE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

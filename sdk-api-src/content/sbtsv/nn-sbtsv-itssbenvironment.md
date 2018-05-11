@@ -7,7 +7,7 @@ old-location: termserv\itssbenvironment.htm
 old-project: TermServ
 ms.assetid: 287cea18-c13c-4396-8970-39dd7f9b960e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: ITsSbEnvironment, ITsSbEnvironment interface [Remote Desktop Services], ITsSbEnvironment interface [Remote Desktop Services],described, sbtsv/ITsSbEnvironment, termserv.itssbenvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices

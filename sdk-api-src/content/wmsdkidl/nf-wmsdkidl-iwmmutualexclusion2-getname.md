@@ -7,7 +7,7 @@ old-location: wmformat\iwmmutualexclusion2_getname.htm
 old-project: wmformat
 ms.assetid: da62ed2e-7356-4b4e-b2c5-6c18ef806ba7
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: GetName, GetName method [windows Media Format], GetName method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetName method, IWMMutualExclusion2.GetName, IWMMutualExclusion2::GetName, IWMMutualExclusion2GetName, wmformat.iwmmutualexclusion2_getname, wmsdkidl/IWMMutualExclusion2::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices

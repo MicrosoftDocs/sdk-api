@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanagereventhandler.htm
 old-project: UIAnimation
 ms.assetid: caefafb8-55f8-47c3-adc7-26708b90d2cd
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: IUIAnimationManagerEventHandler, IUIAnimationManagerEventHandler interface [Windows Animation], IUIAnimationManagerEventHandler interface [Windows Animation],described, uianimation.iuianimationmanagereventhandler, uianimation/IUIAnimationManagerEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

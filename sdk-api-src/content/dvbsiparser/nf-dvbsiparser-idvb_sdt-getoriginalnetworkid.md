@@ -7,7 +7,7 @@ old-location: mstv\idvb_sdt_getoriginalnetworkid.htm
 old-project: mstv
 ms.assetid: 4feebc95-cdcf-443c-bbc1-969575cb795f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IDVB_SDT.GetOriginalNetworkId, IDVB_SDT::GetOriginalNetworkId, IDVB_SDTGetOriginalNetworkId, dvbsiparser/IDVB_SDT::GetOriginalNetworkId, mstv.idvb_sdt_getoriginalnetworkid
 ms.prod: windows-hardware
 ms.technology: windows-devices

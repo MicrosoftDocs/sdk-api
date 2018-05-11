@@ -7,7 +7,7 @@ old-location: wua\iupdate_installationbehavior.htm
 old-project: Wua_Sdk
 ms.assetid: f02e5ebc-a8ea-496b-a79e-52644b98e75d
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IUpdate interface [Windows Update Agent],InstallationBehavior property, IUpdate.InstallationBehavior, IUpdate.get_InstallationBehavior, IUpdate::InstallationBehavior, IUpdate::get_InstallationBehavior, InstallationBehavior property [Windows Update Agent], InstallationBehavior property [Windows Update Agent],IUpdate interface, get_InstallationBehavior, wua.iupdate_installationbehavior, wuapi/IUpdate::InstallationBehavior, wuapi/IUpdate::get_InstallationBehavior
 ms.prod: windows-hardware
 ms.technology: windows-devices

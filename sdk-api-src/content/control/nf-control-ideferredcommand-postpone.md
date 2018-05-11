@@ -7,7 +7,7 @@ old-location: dshow\ideferredcommand_postpone.htm
 old-project: DirectShow
 ms.assetid: 184370db-95df-45a8-b1a0-e399923f866e
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IDeferredCommand interface [DirectShow],Postpone method, IDeferredCommand.Postpone, IDeferredCommand::Postpone, IDeferredCommandPostpone, Postpone, Postpone method [DirectShow], Postpone method [DirectShow],IDeferredCommand interface, control/IDeferredCommand::Postpone, dshow.ideferredcommand_postpone
 ms.prod: windows-hardware
 ms.technology: windows-devices

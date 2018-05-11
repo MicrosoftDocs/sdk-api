@@ -7,7 +7,7 @@ old-location: tsf\ienumtfranges.htm
 old-project: TSF
 ms.assetid: 68e17539-3b00-4e51-964d-0516b448f6c8
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: IEnumTfRanges, IEnumTfRanges interface [Text Services Framework], IEnumTfRanges interface [Text Services Framework],described, _tsf_ienumtfranges_ref, msctf/IEnumTfRanges, tsf.ienumtfranges
 ms.prod: windows-hardware
 ms.technology: windows-devices

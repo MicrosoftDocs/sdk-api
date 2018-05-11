@@ -7,7 +7,7 @@ old-location: mstv\itunerequestinfo_createcomponentlist.htm
 old-project: mstv
 ms.assetid: cb4ec234-1e94-4c9f-8372-a5972df18948
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: CreateComponentList, CreateComponentList method [Microsoft TV Technologies], CreateComponentList method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],CreateComponentList method, ITuneRequestInfo.CreateComponentList, ITuneRequestInfo::CreateComponentList, ITuneRequestInfoCreateComponentList, bdatif/ITuneRequestInfo::CreateComponentList, mstv.itunerequestinfo_createcomponentlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

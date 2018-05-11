@@ -7,7 +7,7 @@ old-location: mscs\clusapplication_object.htm
 old-project: MsCS
 ms.assetid: 2f837658-18f5-44c9-b743-1980a616e71a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ClusApplication, ClusApplication object [Failover Cluster], ClusApplication object [Failover Cluster],described, ISClusApplication, _wolf_clusapplication_object, msclus/ClusApplication, mscs.clusapplication_object
 ms.prod: windows-hardware
 ms.technology: windows-devices

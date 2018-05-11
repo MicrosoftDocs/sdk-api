@@ -7,7 +7,7 @@ old-location: p2p\peer_publication_scope.htm
 old-project: P2PSdk
 ms.assetid: fecb9403-f790-4955-a879-fb3e6fbfe8ca
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PEER_PUBLICATION_SCOPE, PEER_PUBLICATION_SCOPE enumeration [Peer Networking], PEER_PUBLICATION_SCOPE_ALL, PEER_PUBLICATION_SCOPE_INTERNET, PEER_PUBLICATION_SCOPE_NEAR_ME, PEER_PUBLICATION_SCOPE_NONE, p2p.peer_publication_scope, p2p/PEER_PUBLICATION_SCOPE, p2p/PEER_PUBLICATION_SCOPE_ALL, p2p/PEER_PUBLICATION_SCOPE_INTERNET, p2p/PEER_PUBLICATION_SCOPE_NEAR_ME, p2p/PEER_PUBLICATION_SCOPE_NONE, peer_publication_scope_tag
 ms.prod: windows-hardware
 ms.technology: windows-devices

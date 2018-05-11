@@ -7,7 +7,7 @@ old-location: shell\SYNCMGR_CONFLICT_ITEM_TYPE.htm
 old-project: shell
 ms.assetid: b0bc2285-b3a3-43a9-b169-611f587bb086
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SYNCMGR_CIT_DELETED, SYNCMGR_CIT_UPDATED, SYNCMGR_CONFLICT_ITEM_TYPE, SYNCMGR_CONFLICT_ITEM_TYPE enumeration [Windows Shell], _shell_SYNCMGR_CONFLICT_ITEM_TYPE, shell.SYNCMGR_CONFLICT_ITEM_TYPE, syncmgr/SYNCMGR_CIT_DELETED, syncmgr/SYNCMGR_CIT_UPDATED, syncmgr/SYNCMGR_CONFLICT_ITEM_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

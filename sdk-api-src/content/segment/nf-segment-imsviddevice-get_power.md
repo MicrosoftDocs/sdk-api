@@ -7,7 +7,7 @@ old-location: mstv\imsviddevice_get_power.htm
 old-project: mstv
 ms.assetid: 3be4247b-43d4-4a32-8643-7eb2637aee6f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Power method, IMSVidDevice.get_Power, IMSVidDevice::get_Power, IMSVidDeviceget_Power, get_Power, get_Power method [Microsoft TV Technologies], get_Power method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_power, segment/IMSVidDevice::get_Power
 ms.prod: windows-hardware
 ms.technology: windows-devices

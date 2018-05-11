@@ -7,7 +7,7 @@ old-location: p2p\peercollabsignin.htm
 old-project: P2PSdk
 ms.assetid: 927cccfa-2711-439c-833f-348087927c09
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerCollabSignin, PeerCollabSignin function [Peer Networking], p2p.peercollabsignin, p2p/PeerCollabSignin
 ms.prod: windows-hardware
 ms.technology: windows-devices

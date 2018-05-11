@@ -7,7 +7,7 @@ old-location: tsf\ienumtflangbaritems_reset.htm
 old-project: TSF
 ms.assetid: 073c0307-b1cc-443b-890f-bccc0dbd5cf2
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Reset method, IEnumTfLangBarItems.Reset, IEnumTfLangBarItems::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLangBarItems interface, _tsf_ienumtflangbaritems_reset_ref, ctfutb/IEnumTfLangBarItems::Reset, tsf.ienumtflangbaritems_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

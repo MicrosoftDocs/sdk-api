@@ -7,7 +7,7 @@ old-location: multimedia\acmfilterenumcallback.htm
 old-project: Multimedia
 ms.assetid: 8d2eb1eb-97a3-4001-bec0-7bb9b107d38e
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: ACMFILTERTAGENUMCB, ACMFILTERTAGENUMCB callback, ACMFILTERTAGENUMCBA, ACMFILTERTAGENUMCBW, _win32_acmFilterEnumCallback, acmFilterEnumCallback, acmFilterEnumCallback callback function [Windows Multimedia], msacm/acmFilterEnumCallback, multimedia.acmfilterenumcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

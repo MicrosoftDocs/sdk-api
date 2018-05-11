@@ -7,7 +7,7 @@ old-location: rras\mpradminmibentryset.htm
 old-project: RRAS
 ms.assetid: 53dabf73-b9c5-4245-9269-bd7c6ce00026
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MprAdminMIBEntrySet, MprAdminMIBEntrySet function [RAS], _mpr_mpradminmibentryset, mprapi/MprAdminMIBEntrySet, rras.mpradminmibentryset
 ms.prod: windows-hardware
 ms.technology: windows-devices

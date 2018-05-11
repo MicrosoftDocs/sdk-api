@@ -7,7 +7,7 @@ old-location: setup\setuplogerror.htm
 old-project: SetupApi
 ms.assetid: 1e003338-9ada-48cb-89cc-557f12a43cd0
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupLogError, SetupLogError function [Setup API], SetupLogErrorA, SetupLogErrorW, _setupapi_setuplogerror, setup.setuplogerror, setupapi/SetupLogError, setupapi/SetupLogErrorA, setupapi/SetupLogErrorW
 ms.prod: windows-hardware
 ms.technology: windows-devices

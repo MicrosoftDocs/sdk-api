@@ -7,7 +7,7 @@ old-location: mib\mib_mcast_limit_row.htm
 old-project: MIB
 ms.assetid: dc5be2f4-5c6e-43c7-95e8-6a74938ce063
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMIB_MCAST_LIMIT_ROW, MIB_MCAST_LIMIT_ROW, MIB_MCAST_LIMIT_ROW structure [MIB], PMIB_MCAST_LIMIT_ROW, PMIB_MCAST_LIMIT_ROW structure pointer [MIB], iprtrmib/MIB_MCAST_LIMIT_ROW, iprtrmib/PMIB_MCAST_LIMIT_ROW, mib.mib_mcast_limit_row"
 ms.prod: windows-hardware
 ms.technology: windows-devices

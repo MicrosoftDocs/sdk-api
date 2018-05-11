@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_selectandactivatebutton.htm
 old-project: DirectShow
 ms.assetid: 1e5ad753-bc35-4a98-83d8-82ffccbbe3ed
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectAndActivateButton method, IDvdControl2.SelectAndActivateButton, IDvdControl2::SelectAndActivateButton, IDvdControl2SelectAndActivateButton, SelectAndActivateButton, SelectAndActivateButton method [DirectShow], SelectAndActivateButton method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectandactivatebutton, strmif/IDvdControl2::SelectAndActivateButton
 ms.prod: windows-hardware
 ms.technology: windows-devices

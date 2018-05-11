@@ -7,7 +7,7 @@ old-location: winsync\isyncchangeunit.htm
 old-project: winsync
 ms.assetid: 6c889a78-1a50-47b5-8e49-4aba741c0be0
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncChangeUnit, ISyncChangeUnit interface [Windows Sync], ISyncChangeUnit interface [Windows Sync],described, winsync.isyncchangeunit, winsync/ISyncChangeUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices

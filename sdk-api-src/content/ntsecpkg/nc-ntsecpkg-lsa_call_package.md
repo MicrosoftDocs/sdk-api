@@ -7,7 +7,7 @@ old-location: security\callpackage.htm
 old-project: SecAuthN
 ms.assetid: 770c41ab-df79-4371-9f1d-7bbce8193b5d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: CallPackage, CallPackage function [Security], LSA_CALL_PACKAGE, _ssp_callpackage, ntsecpkg/CallPackage, security.callpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices

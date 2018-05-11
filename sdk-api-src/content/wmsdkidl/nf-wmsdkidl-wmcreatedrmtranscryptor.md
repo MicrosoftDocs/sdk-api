@@ -7,7 +7,7 @@ old-location: wmformat\wmcreatedrmtranscryptor.htm
 old-project: wmformat
 ms.assetid: b8d7607f-5fd0-4f4a-b626-d08324aaa805
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: WMCreateDRMTranscryptor, WMCreateDRMTranscryptor function [windows Media Format], wmformat.wmcreatedrmtranscryptor, wmsdkidl/WMCreateDRMTranscryptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsync\ichangeunitlistfilterinfo_getchangeunitidcount.htm
 old-project: winsync
 ms.assetid: 23cb5f0f-0b8a-4e98-83b5-9353e7cee5d2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetChangeUnitIdCount, GetChangeUnitIdCount method [Windows Sync], GetChangeUnitIdCount method [Windows Sync],IChangeUnitListFilterInfo interface, IChangeUnitListFilterInfo interface [Windows Sync],GetChangeUnitIdCount method, IChangeUnitListFilterInfo.GetChangeUnitIdCount, IChangeUnitListFilterInfo::GetChangeUnitIdCount, winsync.ichangeunitlistfilterinfo_getchangeunitidcount, winsync/IChangeUnitListFilterInfo::GetChangeUnitIdCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

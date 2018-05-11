@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WritePOINTS.htm
 old-project: properties
 ms.assetid: B1E3E061-042A-4ba0-98F2-EA8A022882CC
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: PSPropertyBag_WritePOINTS, PSPropertyBag_WritePOINTS function [Windows Properties], properties.PSPropertyBag_WritePOINTS, propsys/PSPropertyBag_WritePOINTS, shell.PSPropertyBag_WritePOINTS, shell_PSPropertyBag_WritePOINTS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\iimageinformation_height.htm
 old-project: Wua_Sdk
 ms.assetid: 327b7579-3406-483a-9110-a20f9057e2a8
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: Height property [Windows Update Agent], Height property [Windows Update Agent],IImageInformation interface, IImageInformation interface [Windows Update Agent],Height property, IImageInformation.Height, IImageInformation.get_Height, IImageInformation::Height, IImageInformation::get_Height, get_Height, wua.iimageinformation_height, wuapi/IImageInformation::Height, wuapi/IImageInformation::get_Height
 ms.prod: windows-hardware
 ms.technology: windows-devices

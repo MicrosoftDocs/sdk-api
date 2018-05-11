@@ -7,7 +7,7 @@ old-location: tapi2\phoneshutdown.htm
 old-project: Tapi
 ms.assetid: 0cf8bc07-946a-450d-8062-b9e19c22a4c5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_phoneshutdown, phoneShutdown, phoneShutdown function [TAPI 2.2], tapi/phoneShutdown, tapi2.phoneshutdown"
 ms.prod: windows-hardware
 ms.technology: windows-devices

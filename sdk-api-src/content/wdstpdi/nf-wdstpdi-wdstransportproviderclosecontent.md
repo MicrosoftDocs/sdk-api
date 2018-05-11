@@ -7,7 +7,7 @@ old-location: wds\wdstransportproviderclosecontent.htm
 old-project: Wds
 ms.assetid: 358fdf14-b57b-4c07-b0a5-d8f49aa96c21
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsTransportProviderCloseContent, WdsTransportProviderCloseContent callback, WdsTransportProviderCloseContent callback function [Windows Deployment Services], wds.wdstransportproviderclosecontent, wdstpdi/WdsTransportProviderCloseContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

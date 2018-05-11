@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_getmenulanguages.htm
 old-project: DirectShow
 ms.assetid: 97c95208-e2fc-4c9a-b8ba-61419b96aec9
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetMenuLanguages, GetMenuLanguages method [DirectShow], GetMenuLanguages method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetMenuLanguages method, IDvdInfo2.GetMenuLanguages, IDvdInfo2::GetMenuLanguages, IDvdInfo2GetMenuLanguages, dshow.idvdinfo2_getmenulanguages, strmif/IDvdInfo2::GetMenuLanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices

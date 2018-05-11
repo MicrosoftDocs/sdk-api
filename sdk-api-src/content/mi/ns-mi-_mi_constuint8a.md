@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constuint8a.htm
 old-project: wmi_v2
 ms.assetid: 459f3d7b-5801-453f-9274-1473aac2cfbf
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_ConstUint8A, MI_ConstUint8A structure [Windows Management Infrastructure (MI)], _MI_ConstUint8A, mi/MI_ConstUint8A, wmi._mi_constuint8a, wmi_v2.mi_constuint8a
 ms.prod: windows-hardware
 ms.technology: windows-devices

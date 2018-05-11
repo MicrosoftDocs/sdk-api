@@ -7,7 +7,7 @@ old-location: multimedia\aviclearclipboard.htm
 old-project: Multimedia
 ms.assetid: e16d3666-9624-4341-a11c-73149f1f178e
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: AVIClearClipboard, AVIClearClipboard function [Windows Multimedia], _win32_AVIClearClipboard, multimedia.aviclearclipboard, vfw/AVIClearClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices

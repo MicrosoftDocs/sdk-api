@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex3_sessionflagusecredssp.htm
 old-project: WinRM
 ms.assetid: 69c62ad1-319e-4716-a2c7-61b931567244
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: IWSManEx3 interface [Windows Remote Management],SessionFlagUseCredSsp method, IWSManEx3.SessionFlagUseCredSsp, IWSManEx3::SessionFlagUseCredSsp, SessionFlagUseCredSsp, SessionFlagUseCredSsp method [Windows Remote Management], SessionFlagUseCredSsp method [Windows Remote Management],IWSManEx3 interface, winrm.iwsmanex3_sessionflagusecredssp, wsmandisp/IWSManEx3::SessionFlagUseCredSsp
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wininet\internetinitializeautoproxydll.htm
 old-project: WinInet
 ms.assetid: d55d64cb-ee92-4366-a1bb-f5d421ed81c8
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: InternetInitializeAutoProxyDll, InternetInitializeAutoProxyDll function [WinINet], _inet_internetinitializeautoproxydll_function, wininet.internetinitializeautoproxydll, winineti/InternetInitializeAutoProxyDll
 ms.prod: windows-hardware
 ms.technology: windows-devices

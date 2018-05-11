@@ -7,7 +7,7 @@ old-location: fwp\ipsecdospgetstatistics0.htm
 old-project: FWP
 ms.assetid: eb71e7c8-403c-4774-bc59-71e4a56ee1c4
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPsecDospGetStatistics0, IPsecDospGetStatistics0 function [Filtering], fwp.ipsecdospgetstatistics0, fwpmu/IPsecDospGetStatistics0
 ms.prod: windows-hardware
 ms.technology: windows-devices

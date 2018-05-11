@@ -7,7 +7,7 @@ old-location: input_intcontext\bufferpointerpacketsinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: a76c87f9-5811-4a34-9843-f13a0592ddb4
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/8/2018
 ms.keywords: BufferPointerPacketsInteractionContext, BufferPointerPacketsInteractionContext function, input_intcontext.bufferpointerpacketsinteractioncontext, interactioncontext.bufferpointerpacketsinteractioncontext, interactioncontext/BufferPointerPacketsInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

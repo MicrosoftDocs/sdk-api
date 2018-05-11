@@ -7,7 +7,7 @@ old-location: security\spmarshallsupplementalcreds.htm
 old-project: SecAuthN
 ms.assetid: 64792843-5129-4a71-b88b-b4caf495a567
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SpMarshallSupplementalCreds, SpMarshallSupplementalCreds function [Security], SpMarshallSupplementalCredsFn, _ssp_spmarshallsupplementalcreds, ntsecpkg/SpMarshallSupplementalCreds, security.spmarshallsupplementalcreds
 ms.prod: windows-hardware
 ms.technology: windows-devices

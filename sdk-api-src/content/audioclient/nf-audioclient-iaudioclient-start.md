@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient_start.htm
 old-project: CoreAudio
 ms.assetid: 706f9833-7f06-4bdc-96d5-6872f6effcb9
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IAudioClient interface [Core Audio],Start method, IAudioClient.Start, IAudioClient::Start, IAudioClientStart, Start, Start method [Core Audio], Start method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Start, coreaudio.iaudioclient_start
 ms.prod: windows-hardware
 ms.technology: windows-devices

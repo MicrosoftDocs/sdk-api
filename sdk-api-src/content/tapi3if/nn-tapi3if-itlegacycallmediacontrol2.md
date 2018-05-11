@@ -7,7 +7,7 @@ old-location: tapi3\itlegacycallmediacontrol2.htm
 old-project: Tapi
 ms.assetid: 47fa5669-1c74-4c18-8370-3efe35b3573e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: ITLegacyCallMediaControl2, ITLegacyCallMediaControl2 interface [TAPI 2.2], ITLegacyCallMediaControl2 interface [TAPI 2.2],described, _tapi3_itlegacycallmediacontrol2, tapi3.itlegacycallmediacontrol2, tapi3if/ITLegacyCallMediaControl2
 ms.prod: windows-hardware
 ms.technology: windows-devices

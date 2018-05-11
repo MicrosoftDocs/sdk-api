@@ -7,7 +7,7 @@ old-location: rras\mpradminconnectiongetinfoex.htm
 old-project: RRAS
 ms.assetid: 7b6a27da-306c-48e5-830b-215ce6f80ea1
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MprAdminConnectionGetInfoEx, MprAdminConnectionGetInfoEx function [RAS], mprapi/MprAdminConnectionGetInfoEx, rras.mpradminconnectiongetinfoex
 ms.prod: windows-hardware
 ms.technology: windows-devices

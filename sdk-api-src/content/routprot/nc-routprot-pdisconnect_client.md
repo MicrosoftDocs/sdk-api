@@ -7,7 +7,7 @@ old-location: rras\disconnectclient.htm
 old-project: RRAS
 ms.assetid: 45859605-2981-4236-9546-9b88e07673fe
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: DisconnectClient, DisconnectClient callback function [RAS], PDISCONNECT_CLIENT, PDISCONNECT_CLIENT callback, _mpr_disconnectclient, routprot/DisconnectClient, rras.disconnectclient
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_getpromptuserregularmode.htm
 old-project: wmi_v2
 ms.assetid: 10c22de2-3f07-4d91-aa95-c59285d6087f
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_OperationOptions_GetPromptUserRegularMode, MI_OperationOptions_GetPromptUserRegularMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetPromptUserRegularMode, wmi_v2.mi_operationoptions_getpromptuserregularmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

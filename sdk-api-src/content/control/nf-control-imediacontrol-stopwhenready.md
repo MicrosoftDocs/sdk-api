@@ -7,7 +7,7 @@ old-location: dshow\imediacontrol_stopwhenready.htm
 old-project: DirectShow
 ms.assetid: 55dd55b1-51f0-4b47-8432-99741eaee8bb
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IMediaControl interface [DirectShow],StopWhenReady method, IMediaControl.StopWhenReady, IMediaControl::StopWhenReady, IMediaControlStopWhenReady, StopWhenReady, StopWhenReady method [DirectShow], StopWhenReady method [DirectShow],IMediaControl interface, control/IMediaControl::StopWhenReady, dshow.imediacontrol_stopwhenready
 ms.prod: windows-hardware
 ms.technology: windows-devices

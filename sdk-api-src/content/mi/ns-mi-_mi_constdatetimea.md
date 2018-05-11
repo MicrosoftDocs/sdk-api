@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constdatetimea.htm
 old-project: wmi_v2
 ms.assetid: 2be1107f-9368-49cf-9d97-0834bbd06c59
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_ConstDatetimeA, MI_ConstDatetimeA structure [Windows Management Infrastructure (MI)], _MI_ConstDatetimeA, mi/MI_ConstDatetimeA, wmi._mi_constdatetimea, wmi_v2.mi_constdatetimea
 ms.prod: windows-hardware
 ms.technology: windows-devices

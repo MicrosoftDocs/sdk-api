@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_freeze_parms.htm
 old-project: Multimedia
 ms.assetid: 66dc6390-b966-43bf-a044-1c98b47479c8
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: "*LPMCI_DGV_FREEZE_PARMS, *LPMCI_DGV_PUT_PARMS, *LPMCI_DGV_RECT_PARMS, *LPMCI_DGV_UNFREEZE_PARMS, *LPMCI_DGV_WHERE_PARMS, LPMCI_DGV_FREEZE_PARMS, MCI_DGV_FREEZE_PARMS, MCI_DGV_FREEZE_PARMS structure [Windows Multimedia], MCI_DGV_PUT_PARMS, MCI_DGV_RECT_PARMS, MCI_DGV_UNFREEZE_PARMS, MCI_DGV_WHERE_PARMS, _win32_MCI_DGV_FREEZE_PARMS_str, digitalv/MCI_DGV_FREEZE_PARMS, multimedia.mci_dgv_freeze_parms"
 ms.prod: windows-hardware
 ms.technology: windows-devices

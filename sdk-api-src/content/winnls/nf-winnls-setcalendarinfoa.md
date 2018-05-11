@@ -7,7 +7,7 @@ old-location: intl\setcalendarinfo.htm
 old-project: Intl
 ms.assetid: 3599f68f-5b7c-4bf9-9c42-452047c0731f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: SetCalendarInfo, SetCalendarInfo function [Internationalization for Windows Applications], SetCalendarInfoA, SetCalendarInfoW, _win32_SetCalendarInfo, intl.setcalendarinfo, winnls/SetCalendarInfo, winnls/SetCalendarInfoA, winnls/SetCalendarInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

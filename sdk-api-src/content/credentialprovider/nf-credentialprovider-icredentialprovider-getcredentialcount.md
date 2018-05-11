@@ -7,7 +7,7 @@ old-location: shell\ICredentialProvider_GetCredentialCount.htm
 old-project: shell
 ms.assetid: 7d940d46-d4c2-4ab5-8559-416d78d3579e
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: GetCredentialCount, GetCredentialCount method [Windows Shell], GetCredentialCount method [Windows Shell],ICredentialProvider interface, ICredentialProvider interface [Windows Shell],GetCredentialCount method, ICredentialProvider.GetCredentialCount, ICredentialProvider::GetCredentialCount, credentialprovider/ICredentialProvider::GetCredentialCount, shell.ICredentialProvider_GetCredentialCount, shell_ICredentialProvider_GetCredentialCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

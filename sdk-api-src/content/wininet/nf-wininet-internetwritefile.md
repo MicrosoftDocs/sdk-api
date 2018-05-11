@@ -7,7 +7,7 @@ old-location: wininet\internetwritefile.htm
 old-project: WinInet
 ms.assetid: 3bf8d4d8-9193-4aed-acf9-8d7207b332a5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: InternetWriteFile, InternetWriteFile function [WinINet], _inet_internetwritefile_function, wininet.internetwritefile, wininet/InternetWriteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

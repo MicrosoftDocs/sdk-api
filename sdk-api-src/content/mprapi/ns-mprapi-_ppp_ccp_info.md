@@ -7,7 +7,7 @@ old-location: rras\ppp_ccp_info.htm
 old-project: RRAS
 ms.assetid: d50493c4-8a18-4cab-8973-a752f3f7f6c2
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PPP_CCP_COMPRESSION, PPP_CCP_ENCRYPTION128BIT, PPP_CCP_ENCRYPTION40BIT, PPP_CCP_ENCRYPTION40BITOLD, PPP_CCP_ENCRYPTION56BIT, PPP_CCP_HISTORYLESS, PPP_CCP_INFO, PPP_CCP_INFO structure [RAS], RASCCPCA_MPPC, RASCCPCA_STAC, _PPP_CCP_INFO, _mpr_ppp_ccp_info, mprapi/PPP_CCP_INFO, rras.ppp_ccp_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

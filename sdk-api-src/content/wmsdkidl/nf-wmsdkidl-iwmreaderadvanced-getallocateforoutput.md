@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced_getallocateforoutput.htm
 old-project: wmformat
 ms.assetid: b0da74ff-37d9-4bb3-85f2-f8e1585c2d7f
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: GetAllocateForOutput, GetAllocateForOutput method [windows Media Format], GetAllocateForOutput method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetAllocateForOutput method, IWMReaderAdvanced.GetAllocateForOutput, IWMReaderAdvanced::GetAllocateForOutput, IWMReaderAdvancedGetAllocateForOutput, wmformat.iwmreaderadvanced_getallocateforoutput, wmsdkidl/IWMReaderAdvanced::GetAllocateForOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

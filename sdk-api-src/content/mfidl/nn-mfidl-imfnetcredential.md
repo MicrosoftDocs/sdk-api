@@ -7,7 +7,7 @@ old-location: mf\imfnetcredential.htm
 old-project: medfound
 ms.assetid: d202e7bc-9ce0-4861-8552-5a4d599b1661
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFNetCredential, IMFNetCredential interface [Media Foundation], IMFNetCredential interface [Media Foundation],described, d202e7bc-9ce0-4861-8552-5a4d599b1661, mf.imfnetcredential, mfidl/IMFNetCredential
 ms.prod: windows-hardware
 ms.technology: windows-devices

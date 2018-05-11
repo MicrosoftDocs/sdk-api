@@ -7,7 +7,7 @@ old-location: vhd\compactvirtualdisk.htm
 old-project: VStor
 ms.assetid: 8f887ef9-6be5-455a-8904-2047f2efe13c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: CompactVirtualDisk, CompactVirtualDisk function [VHD], vhd.compactvirtualdisk, virtdisk/CompactVirtualDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices

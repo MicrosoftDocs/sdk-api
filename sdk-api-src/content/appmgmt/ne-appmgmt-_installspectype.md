@@ -7,7 +7,7 @@ old-location: policy\installspectype_enum.htm
 old-project: Policy
 ms.assetid: 9e62a22d-cae7-4b3e-9000-71eddb1f3cad
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: APPNAME, FILEEXT, INSTALLSPECTYPE, INSTALLSPECTYPE enumeration [Group Policy], _INSTALLSPECTYPE, appmgmt/APPNAME, appmgmt/FILEEXT, appmgmt/INSTALLSPECTYPE, policy.installspectype_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices

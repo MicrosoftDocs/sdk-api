@@ -7,7 +7,7 @@ old-location: mstv\icomponenttype_get_category.htm
 old-project: mstv
 ms.assetid: e0a61359-a15a-47f6-8388-90368867e945
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_Category method, IComponentType.get_Category, IComponentType::get_Category, IComponentTypeget_Category, get_Category, get_Category method [Microsoft TV Technologies], get_Category method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_category, tuner/IComponentType::get_Category
 ms.prod: windows-hardware
 ms.technology: windows-devices

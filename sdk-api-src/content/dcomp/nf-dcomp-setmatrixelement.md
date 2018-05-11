@@ -7,7 +7,7 @@ old-location: directcomp\idcompositioncolormatrixeffect_setmatrixelement_overloa
 old-project: directcomp
 ms.assetid: 47fd4fa3-d10f-7750-c7ef-fd03e8cf933a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: SetMatrixElement, SetMatrixElement methods [DirectComposition], dcomp/SetMatrixElement, directcomp.idcompositioncolormatrixeffect_setmatrixelement_overloaded, idcompositioncolormatrixeffect::SetMatrixElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

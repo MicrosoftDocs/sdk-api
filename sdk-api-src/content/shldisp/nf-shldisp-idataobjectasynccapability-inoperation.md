@@ -7,7 +7,7 @@ old-location: shell\IDataObjectAsyncCapability_InOperation.htm
 old-project: shell
 ms.assetid: 858EB8C4-88AB-40a3-B4FC-CCD19235CE55
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IDataObjectAsyncCapability interface [Windows Shell],InOperation method, IDataObjectAsyncCapability.InOperation, IDataObjectAsyncCapability::InOperation, InOperation, InOperation method [Windows Shell], InOperation method [Windows Shell],IDataObjectAsyncCapability interface, shell.IDataObjectAsyncCapability_InOperation, shldisp/IDataObjectAsyncCapability::InOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

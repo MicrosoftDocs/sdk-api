@@ -7,7 +7,7 @@ old-location: iphlp\notifystableunicastipaddresstable.htm
 old-project: IpHlp
 ms.assetid: 80d10088-79ef-41fd-add7-994d2a780ddb
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyStableUnicastIpAddressTable, NotifyStableUnicastIpAddressTable function [IP Helper], iphlp.notifystableunicastipaddresstable, netioapi/NotifyStableUnicastIpAddressTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

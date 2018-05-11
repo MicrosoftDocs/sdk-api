@@ -7,7 +7,7 @@ old-location: rras\mpradminderegisterconnectionnotification.htm
 old-project: RRAS
 ms.assetid: 72918a54-8e8a-404a-9fd3-45b0bcc98038
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MprAdminDeregisterConnectionNotification, MprAdminDeregisterConnectionNotification function [RAS], _mpr_mpradminderegisterconnectionnotification, mprapi/MprAdminDeregisterConnectionNotification, rras.mpradminderegisterconnectionnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

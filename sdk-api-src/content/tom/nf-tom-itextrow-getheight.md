@@ -7,7 +7,7 @@ old-location: controls\itextrow_getheight.htm
 old-project: Controls
 ms.assetid: 6befda1a-1a47-4668-b0cf-4fd66e7b633d
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetHeight, GetHeight method [Windows Controls], GetHeight method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetHeight method, ITextRow.GetHeight, ITextRow::GetHeight, controls.itextrow_getheight, tom/ITextRow::GetHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices

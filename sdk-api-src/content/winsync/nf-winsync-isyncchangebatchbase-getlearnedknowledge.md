@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchbase_getlearnedknowledge.htm
 old-project: winsync
 ms.assetid: cef04646-71a7-489d-9beb-fe87bb949218
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetLearnedKnowledge, GetLearnedKnowledge method [Windows Sync], GetLearnedKnowledge method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetLearnedKnowledge method, ISyncChangeBatchBase.GetLearnedKnowledge, ISyncChangeBatchBase::GetLearnedKnowledge, winsync.isyncchangebatchbase_getlearnedknowledge, winsync/ISyncChangeBatchBase::GetLearnedKnowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices

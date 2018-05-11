@@ -7,7 +7,7 @@ old-location: rras\ras_connection_1.htm
 old-project: RRAS
 ms.assetid: 5f6c6895-4baf-46d7-865a-b95342b70abb
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PRAS_CONNECTION_1, PRAS_CONNECTION_1, PRAS_CONNECTION_1 structure pointer [RAS], RAS_CONNECTION_1, RAS_CONNECTION_1 structure [RAS], _RAS_CONNECTION_1, _mpr_ras_connection_1, mprapi/PRAS_CONNECTION_1, mprapi/RAS_CONNECTION_1, rras.ras_connection_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices

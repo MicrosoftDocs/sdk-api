@@ -7,7 +7,7 @@ old-location: multimedia\mciwndcanconfig.htm
 old-project: Multimedia
 ms.assetid: 63d3721a-41e6-46cd-a95a-ac3a82a422f7
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: MCIWndCanConfig, MCIWndCanConfig macro [Windows Multimedia], _win32_MCIWndCanConfig, multimedia.mciwndcanconfig, vfw/MCIWndCanConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

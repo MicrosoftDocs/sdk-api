@@ -7,7 +7,7 @@ old-location: shell\deriverestrictedappcontainersidfromappcontainersidandrestric
 old-project: shell
 ms.assetid: D9E34178-3AC2-4C7A-906B-A42D69428C63
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName, DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function [Windows Shell], shell.deriverestrictedappcontainersidfromappcontainersidandrestrictedname, userenv/DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mfcreatetransformactivate.htm
 old-project: medfound
 ms.assetid: 845c7114-756b-4d0f-a92e-9c6e2eba7c94
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MFCreateTransformActivate, MFCreateTransformActivate function [Media Foundation], mf.mfcreatetransformactivate, mftransform/MFCreateTransformActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamasyncreadertimestampscaling_gettimestampmode.htm
 old-project: DirectShow
 ms.assetid: 2fbadd9d-e741-482f-9ff1-655b149fec49
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: FALSE, GetTimestampMode, GetTimestampMode method [DirectShow], GetTimestampMode method [DirectShow],IAMAsyncReaderTimestampScaling interface, IAMAsyncReaderTimestampScaling interface [DirectShow],GetTimestampMode method, IAMAsyncReaderTimestampScaling.GetTimestampMode, IAMAsyncReaderTimestampScaling::GetTimestampMode, TRUE, dshow.iamasyncreadertimestampscaling_gettimestampmode, strmif/IAMAsyncReaderTimestampScaling::GetTimestampMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

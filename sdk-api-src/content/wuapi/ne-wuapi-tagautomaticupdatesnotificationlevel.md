@@ -7,7 +7,7 @@ old-location: wua\automaticupdatesnotificationlevel.htm
 old-project: Wua_Sdk
 ms.assetid: a326400b-d6df-4947-8ab8-126d357834c3
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: AutomaticUpdatesNotificationLevel, AutomaticUpdatesNotificationLevel enumeration [Windows Update Agent], aunlDisabled, aunlNotConfigured, aunlNotifyBeforeDownload, aunlNotifyBeforeInstallation, aunlScheduledInstallation, tagAutomaticUpdatesNotificationLevel, wua.automaticupdatesnotificationlevel, wuapi/AutomaticUpdatesNotificationLevel, wuapi/aunlDisabled, wuapi/aunlNotConfigured, wuapi/aunlNotifyBeforeDownload, wuapi/aunlNotifyBeforeInstallation, wuapi/aunlScheduledInstallation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfacegetcustominfoex.htm
 old-project: RRAS
 ms.assetid: 97fa62f4-5e1c-4634-a3c7-974425717080
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MprConfigInterfaceGetCustomInfoEx, MprConfigInterfaceGetCustomInfoEx function [RAS], mprapi/MprConfigInterfaceGetCustomInfoEx, rras.mprconfiginterfacegetcustominfoex
 ms.prod: windows-hardware
 ms.technology: windows-devices

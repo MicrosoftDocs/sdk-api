@@ -7,7 +7,7 @@ old-location: vhd\mirrorvirtualdisk.htm
 old-project: VStor
 ms.assetid: eb72043a-7515-42c0-900d-feed4503ea7a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE, MIRROR_VIRTUAL_DISK_FLAG_NONE, MirrorVirtualDisk, MirrorVirtualDisk function [VHD], vhd.mirrorvirtualdisk, virtdisk/MirrorVirtualDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices

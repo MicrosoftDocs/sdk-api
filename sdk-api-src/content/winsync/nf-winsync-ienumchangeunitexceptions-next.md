@@ -7,7 +7,7 @@ old-location: winsync\ienumchangeunitexceptions_next.htm
 old-project: winsync
 ms.assetid: 97bf473d-4e63-4192-a5d8-b802d5887a55
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Next method, IEnumChangeUnitExceptions.Next, IEnumChangeUnitExceptions::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumChangeUnitExceptions interface, winsync.ienumchangeunitexceptions_next, winsync/IEnumChangeUnitExceptions::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

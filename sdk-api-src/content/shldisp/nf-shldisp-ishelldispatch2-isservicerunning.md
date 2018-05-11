@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_IsServiceRunning.htm
 old-project: shell
 ms.assetid: 91f3fba1-7aa5-423a-bc37-49db230c79db
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],IsServiceRunning method, IShellDispatch2.IsServiceRunning, IShellDispatch2::IsServiceRunning, IsServiceRunning, IsServiceRunning method [Windows Shell], IsServiceRunning method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_IsServiceRunning, shell.IShellDispatch2_IsServiceRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices

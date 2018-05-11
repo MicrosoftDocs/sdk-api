@@ -7,8 +7,8 @@ old-location: winrm\wsman_plugin_shutdown.htm
 old-project: WinRM
 ms.assetid: a9f72416-f6a7-4ba0-94d0-48f85393acab
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: WSMAN_PLUGIN_SHUTDOWN_IISHOST, WSMAN_PLUGIN_SHUTDOWN_SERVICE, WSMAN_PLUGIN_SHUTDOWN_SYSTEM, WSManPluginShutdown, WSManPluginShutdown callback function [Windows Remote Management], winrm.wsman_plugin_shutdown, wsman/WSMAN_PLUGIN_SHUTDOWN, wsman/WSManPluginShutdown
+ms.date: 5/8/2018
+ms.keywords: WSMAN_PLUGIN_SHUTDOWN, WSMAN_PLUGIN_SHUTDOWN callback, WSMAN_PLUGIN_SHUTDOWN callback function [Windows Remote Management], WSMAN_PLUGIN_SHUTDOWN_IISHOST, WSMAN_PLUGIN_SHUTDOWN_SERVICE, WSMAN_PLUGIN_SHUTDOWN_SYSTEM, WSManPluginShutdown, winrm.wsman_plugin_shutdown, wsman/WSMAN_PLUGIN_SHUTDOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Wsman.h
 api_name:
--	WSManPluginShutdown
+-	WSMAN_PLUGIN_SHUTDOWN
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# WSMAN_PLUGIN_SHUTDOWN callback
+# WSMAN_PLUGIN_SHUTDOWN callback function
 
 
 ## -description

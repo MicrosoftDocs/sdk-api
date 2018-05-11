@@ -7,7 +7,7 @@ old-location: rras\rtm_ipv4_get_addr_and_len.htm
 old-project: RRAS
 ms.assetid: e37bb309-845c-4685-bbfd-15ffc6c74fd0
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RTM_IPV4_GET_ADDR_AND_LEN, RTM_IPV4_GET_ADDR_AND_LEN macro [RAS], _rtmv2ref_rtm_ipv4_get_addr_and_len, rras.rtm_ipv4_get_addr_and_len, rtmv2/RTM_IPV4_GET_ADDR_AND_LEN
 ms.prod: windows-hardware
 ms.technology: windows-devices

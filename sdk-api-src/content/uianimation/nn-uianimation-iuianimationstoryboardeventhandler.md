@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboardeventhandler.htm
 old-project: UIAnimation
 ms.assetid: f43f53f9-1491-4847-89ef-e65ba98a2127
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: IUIAnimationStoryboardEventHandler, IUIAnimationStoryboardEventHandler interface [Windows Animation], IUIAnimationStoryboardEventHandler interface [Windows Animation],described, uianimation.iuianimationstoryboardeventhandler, uianimation/IUIAnimationStoryboardEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderadvanced4.htm
 old-project: wmformat
 ms.assetid: 56695c57-f6c5-4c57-b3d4-73d169b379fa
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMReaderAdvanced4, IWMReaderAdvanced4 interface [windows Media Format], IWMReaderAdvanced4 interface [windows Media Format],described, IWMReaderAdvanced4Interface, wmformat.iwmreaderadvanced4, wmsdkidl/IWMReaderAdvanced4
 ms.prod: windows-hardware
 ms.technology: windows-devices

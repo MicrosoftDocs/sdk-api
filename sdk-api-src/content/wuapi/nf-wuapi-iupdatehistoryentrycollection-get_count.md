@@ -7,7 +7,7 @@ old-location: wua\iupdatehistoryentrycollection_count.htm
 old-project: Wua_Sdk
 ms.assetid: f6bdf1f6-9754-45d7-a45b-3b1e8c9d400a
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateHistoryEntryCollection interface, IUpdateHistoryEntryCollection interface [Windows Update Agent],Count property, IUpdateHistoryEntryCollection.Count, IUpdateHistoryEntryCollection.get_Count, IUpdateHistoryEntryCollection::Count, IUpdateHistoryEntryCollection::get_Count, get_Count, wua.iupdatehistoryentrycollection_count, wuapi/IUpdateHistoryEntryCollection::Count, wuapi/IUpdateHistoryEntryCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

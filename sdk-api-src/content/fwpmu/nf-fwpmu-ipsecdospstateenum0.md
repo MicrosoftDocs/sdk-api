@@ -7,7 +7,7 @@ old-location: fwp\ipsecdospstateenum0.htm
 old-project: FWP
 ms.assetid: d69e323b-249b-4b90-8754-2c910fbc2fc4
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPsecDospStateEnum0, IPsecDospStateEnum0 function [Filtering], fwp.ipsecdospstateenum0, fwpmu/IPsecDospStateEnum0
 ms.prod: windows-hardware
 ms.technology: windows-devices

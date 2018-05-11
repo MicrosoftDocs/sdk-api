@@ -7,8 +7,8 @@ old-location: directcomp\dcompositionattachmousedragtohwnd.htm
 old-project: directcomp
 ms.assetid: 2d976c27-b7a4-5546-488a-ceb341c4fb1a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: DCompositionAttachMouseDragToHwnd, DCompositionAttachMouseWheelToHwnd, DCompositionAttachMouseWheelToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseWheelToHwnd, directcomp.dcompositionattachmousedragtohwnd
+ms.date: 5/8/2018
+ms.keywords: DCompositionAttachMouseDragToHwnd, DCompositionAttachMouseDragToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseDragToHwnd, directcomp.dcompositionattachmousedragtohwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Dcomp.dll
 api_name:
--	DCompositionAttachMouseWheelToHwnd
+-	DCompositionAttachMouseDragToHwnd
 product: Windows
 targetos: Windows
 req.lib: Dcomp.lib

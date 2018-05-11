@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_getresourceuri.htm
 old-project: wmi_v2
 ms.assetid: 24aff5ba-21e9-496c-a28d-7daeda26b670
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_OperationOptions_GetResourceUri, MI_OperationOptions_GetResourceUri function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetResourceUri, wmi_v2.mi_operationoptions_getresourceuri
 ms.prod: windows-hardware
 ms.technology: windows-devices

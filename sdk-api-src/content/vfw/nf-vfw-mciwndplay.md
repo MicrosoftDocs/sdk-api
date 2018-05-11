@@ -7,7 +7,7 @@ old-location: multimedia\mciwndplay.htm
 old-project: Multimedia
 ms.assetid: bfa88925-2f2a-4bbb-bd89-479515f759ac
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: MCIWndPlay, MCIWndPlay macro [Windows Multimedia], _win32_MCIWndPlay, multimedia.mciwndplay, vfw/MCIWndPlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

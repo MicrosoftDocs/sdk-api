@@ -7,7 +7,7 @@ old-location: audio\audiofxextensionparams.htm
 old-project: audio
 ms.assetid: 832F1190-ED3E-4059-AB45-18C23D98663B
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/8/2018
 ms.keywords: AudioFXExtensionParams, AudioFXExtensionParams structure [Audio Devices], PAudioFXExtensionParams, PAudioFXExtensionParams structure pointer [Audio Devices], __MIDL___MIDL_itf_audioenginebaseapo_0000_0007_0001, audio.audiofxextensionparams, audioenginebaseapo/AudioFXExtensionParams, audioenginebaseapo/PAudioFXExtensionParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

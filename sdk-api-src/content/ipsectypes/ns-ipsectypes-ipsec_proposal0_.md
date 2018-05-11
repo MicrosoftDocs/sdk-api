@@ -7,7 +7,7 @@ old-location: fwp\ipsec_proposal0_struct.htm
 old-project: FWP
 ms.assetid: bc551733-dbba-4d66-8054-fbf4bbfa28b5
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPSEC_PROPOSAL0, IPSEC_PROPOSAL0 structure [Filtering], IPSEC_PROPOSAL0_, fwp.ipsec_proposal0_struct, ipsectypes/IPSEC_PROPOSAL0
 ms.prod: windows-hardware
 ms.technology: windows-devices

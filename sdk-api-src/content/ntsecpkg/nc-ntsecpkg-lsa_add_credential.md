@@ -7,7 +7,7 @@ old-location: security\addcredential.htm
 old-project: SecAuthN
 ms.assetid: ea6ddd18-818e-43f5-9453-de2b3f994325
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: AddCredential, AddCredential function [Security], LSA_ADD_CREDENTIAL, _lsa_addcredential, ntsecpkg/AddCredential, security.addcredential
 ms.prod: windows-hardware
 ms.technology: windows-devices

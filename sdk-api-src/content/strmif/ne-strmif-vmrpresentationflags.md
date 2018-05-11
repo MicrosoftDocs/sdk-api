@@ -7,7 +7,7 @@ old-location: dshow\vmrpresentationflags.htm
 old-project: DirectShow
 ms.assetid: 27aab657-802e-4967-a5bd-3907637e1cfe
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: VMRPresentationFlags, VMRPresentationFlags enumeration [DirectShow], VMRPresentationFlagsEnumeration, VMRSample_Discontinuity, VMRSample_Preroll, VMRSample_SyncPoint, VMRSample_TimeValid, dshow.vmrpresentationflags, strmif/VMRPresentationFlags, strmif/VMRSample_Discontinuity, strmif/VMRSample_Preroll, strmif/VMRSample_SyncPoint, strmif/VMRSample_TimeValid
 ms.prod: windows-hardware
 ms.technology: windows-devices

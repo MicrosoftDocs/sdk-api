@@ -7,7 +7,7 @@ old-location: mf\imfmediatimerange_clear.htm
 old-project: medfound
 ms.assetid: F7CDC73E-CF14-48E2-9C8A-E1944099861A
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: Clear, Clear method [Media Foundation], Clear method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],Clear method, IMFMediaTimeRange.Clear, IMFMediaTimeRange::Clear, mf.imfmediatimerange_clear, mfmediaengine/IMFMediaTimeRange::Clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

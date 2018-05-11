@@ -7,7 +7,7 @@ old-location: security\secpkg_wow_client_dll.htm
 old-project: SecAuthN
 ms.assetid: AA48B271-E63F-4742-9776-6C85ED3A2BAB
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PSECPKG_WOW_CLIENT_DLL, PSECPKG_WOW_CLIENT_DLL, PSECPKG_WOW_CLIENT_DLL structure pointer [Security], SECPKG_WOW_CLIENT_DLL, SECPKG_WOW_CLIENT_DLL structure [Security], _SECPKG_WOW_CLIENT_DLL, ntsecpkg/PSECPKG_WOW_CLIENT_DLL, ntsecpkg/SECPKG_WOW_CLIENT_DLL, security.secpkg_wow_client_dll"
 ms.prod: windows-hardware
 ms.technology: windows-devices

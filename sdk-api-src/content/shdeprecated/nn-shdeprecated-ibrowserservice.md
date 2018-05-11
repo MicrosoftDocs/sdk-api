@@ -7,7 +7,7 @@ old-location: shell\IBrowserService.htm
 old-project: shell
 ms.assetid: e12ada84-0825-4946-8075-731dfc51ef50
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IBrowserService, IBrowserService interface [Windows Shell], IBrowserService interface [Windows Shell],described, shdeprecated/IBrowserService, shell.IBrowserService, zone_IBrowserService
 ms.prod: windows-hardware
 ms.technology: windows-devices

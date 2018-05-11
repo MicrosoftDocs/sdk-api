@@ -7,7 +7,7 @@ old-location: mstv\ibdacomparable_compareexact.htm
 old-project: mstv
 ms.assetid: 65053d86-4c8c-4c68-90a6-118454cf2eb1
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: CompareExact, CompareExact method [Microsoft TV Technologies], CompareExact method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],CompareExact method, IBDAComparable.CompareExact, IBDAComparable::CompareExact, IBDAComparableCompareExact, mstv.ibdacomparable_compareexact, tuner/IBDAComparable::CompareExact
 ms.prod: windows-hardware
 ms.technology: windows-devices

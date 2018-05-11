@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadertimecode.htm
 old-project: wmformat
 ms.assetid: 7f7d5608-c505-46ab-9e1e-e45b383c879b
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMReaderTimecode, IWMReaderTimecode interface [windows Media Format], IWMReaderTimecode interface [windows Media Format],described, IWMReaderTimecodeInterface, wmformat.iwmreadertimecode, wmsdkidl/IWMReaderTimecode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\lsalookupnames.htm
 old-project: SecMgmt
 ms.assetid: 867604aa-7a39-4da7-b189-a9183461e9a0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/9/2018
 ms.keywords: LsaLookupNames, LsaLookupNames function [Security], _lsa_lsalookupnames, ntsecapi/LsaLookupNames, security.lsalookupnames
 ms.prod: windows-hardware
 ms.technology: windows-devices

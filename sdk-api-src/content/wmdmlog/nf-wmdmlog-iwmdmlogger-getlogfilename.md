@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmlogger_getlogfilename.htm
 old-project: WMDM
 ms.assetid: 094761e6-539c-43ca-b882-f3dd7a19a243
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: GetLogFileName, GetLogFileName method [windows Media Device Manager], GetLogFileName method [windows Media Device Manager],IWMDMLogger interface, IWMDMLogger interface [windows Media Device Manager],GetLogFileName method, IWMDMLogger.GetLogFileName, IWMDMLogger::GetLogFileName, IWMDMLoggerGetLogFileName, wmdm.iwmdmlogger_getlogfilename, wmdmlog/IWMDMLogger::GetLogFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

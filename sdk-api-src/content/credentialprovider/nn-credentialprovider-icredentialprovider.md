@@ -7,7 +7,7 @@ old-location: shell\ICredentialProvider.htm
 old-project: shell
 ms.assetid: 7ce6cd61-16d1-414e-b9b3-4929a65c0cc6
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ICredentialProvider, ICredentialProvider interface [Windows Shell], ICredentialProvider interface [Windows Shell],described, credentialprovider/ICredentialProvider, shell.ICredentialProvider, shell_ICredentialProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

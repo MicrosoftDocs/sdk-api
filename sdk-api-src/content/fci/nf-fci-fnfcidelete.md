@@ -7,7 +7,7 @@ old-location: winprog\fnfcidelete.htm
 old-project: DevNotes
 ms.assetid: 5c85ad86-2794-4f7c-8c10-18fea3519b11
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: FNFCIDELETE, FNFCIDELETE macro [Windows API], fci/FNFCIDELETE, winprog.fnfcidelete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: setup\setupqueryspacerequiredondrive.htm
 old-project: SetupApi
 ms.assetid: 529e04e2-671a-4aad-bb1c-2b24cf2e5cd1
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupQuerySpaceRequiredOnDrive, SetupQuerySpaceRequiredOnDrive function [Setup API], SetupQuerySpaceRequiredOnDriveA, SetupQuerySpaceRequiredOnDriveW, _setupapi_setupqueryspacerequiredondrive, setup.setupqueryspacerequiredondrive, setupapi/SetupQuerySpaceRequiredOnDrive, setupapi/SetupQuerySpaceRequiredOnDriveA, setupapi/SetupQuerySpaceRequiredOnDriveW
 ms.prod: windows-hardware
 ms.technology: windows-devices

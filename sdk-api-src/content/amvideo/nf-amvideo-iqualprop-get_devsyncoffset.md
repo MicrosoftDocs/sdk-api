@@ -7,7 +7,7 @@ old-location: dshow\iqualprop_get_devsyncoffset.htm
 old-project: DirectShow
 ms.assetid: 69160479-7c72-46ed-9421-2a6c2c2861db
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IQualProp interface [DirectShow],get_DevSyncOffset method, IQualProp.get_DevSyncOffset, IQualProp::get_DevSyncOffset, IQualPropget_DevSyncOffset, amvideo/IQualProp::get_DevSyncOffset, dshow.iqualprop_get_devsyncoffset, get_DevSyncOffset, get_DevSyncOffset method [DirectShow], get_DevSyncOffset method [DirectShow],IQualProp interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\iwindowsupdateagentinfo_getinfo.htm
 old-project: Wua_Sdk
 ms.assetid: 7798032c-b0a3-4f2a-958a-f98192204832
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: GetInfo, GetInfo method [Windows Update Agent], GetInfo method [Windows Update Agent],IWindowsUpdateAgentInfo interface, IWindowsUpdateAgentInfo interface [Windows Update Agent],GetInfo method, IWindowsUpdateAgentInfo.GetInfo, IWindowsUpdateAgentInfo::GetInfo, wua.iwindowsupdateagentinfo_getinfo, wuapi/IWindowsUpdateAgentInfo::GetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

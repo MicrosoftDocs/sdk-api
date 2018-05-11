@@ -7,7 +7,7 @@ old-location: security\lsasettrusteddomaininfobyname.htm
 old-project: SecMgmt
 ms.assetid: 263e1025-1010-463d-8bc7-cdf916ce9872
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/9/2018
 ms.keywords: LsaSetTrustedDomainInfoByName, LsaSetTrustedDomainInfoByName function [Security], TrustedDomainAuthInformation, TrustedDomainFullInformation, TrustedDomainInformationEx, TrustedPosixInformation, _lsa_lsasettrusteddomaininfobyname, ntsecapi/LsaSetTrustedDomainInfoByName, security.lsasettrusteddomaininfobyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

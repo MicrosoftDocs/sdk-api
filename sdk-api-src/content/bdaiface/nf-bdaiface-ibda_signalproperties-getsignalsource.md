@@ -7,7 +7,7 @@ old-location: mstv\ibda_signalproperties_getsignalsource.htm
 old-project: mstv
 ms.assetid: 929ec042-3f43-468e-944a-919dda3893be
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetSignalSource, GetSignalSource method [Microsoft TV Technologies], GetSignalSource method [Microsoft TV Technologies],IBDA_SignalProperties interface, IBDA_SignalProperties interface [Microsoft TV Technologies],GetSignalSource method, IBDA_SignalProperties.GetSignalSource, IBDA_SignalProperties::GetSignalSource, IBDA_SignalPropertiesGetSignalSource, bdaiface/IBDA_SignalProperties::GetSignalSource, mstv.ibda_signalproperties_getsignalsource
 ms.prod: windows-hardware
 ms.technology: windows-devices

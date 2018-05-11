@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_setinputpreftype.htm
 old-project: medfound
 ms.assetid: 348b3cba-8c8c-4df9-8cb9-b69cd140cffb
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 348b3cba-8c8c-4df9-8cb9-b69cd140cffb, IMFTopologyNode interface [Media Foundation],SetInputPrefType method, IMFTopologyNode.SetInputPrefType, IMFTopologyNode::SetInputPrefType, SetInputPrefType, SetInputPrefType method [Media Foundation], SetInputPrefType method [Media Foundation],IMFTopologyNode interface, mf.imftopologynode_setinputpreftype, mfidl/IMFTopologyNode::SetInputPrefType
 ms.prod: windows-hardware
 ms.technology: windows-devices

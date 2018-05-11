@@ -7,7 +7,7 @@ old-location: winsync\isynccallback_onfullenumerationneeded.htm
 old-project: winsync
 ms.assetid: f52ddaf2-9ce2-4ebb-bace-024c059b2594
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnFullEnumerationNeeded method, ISyncCallback.OnFullEnumerationNeeded, ISyncCallback::OnFullEnumerationNeeded, OnFullEnumerationNeeded, OnFullEnumerationNeeded method [Windows Sync], OnFullEnumerationNeeded method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onfullenumerationneeded, winsync/ISyncCallback::OnFullEnumerationNeeded
 ms.prod: windows-hardware
 ms.technology: windows-devices

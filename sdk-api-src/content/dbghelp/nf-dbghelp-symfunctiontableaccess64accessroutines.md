@@ -7,7 +7,7 @@ old-location: base\symfunctiontableaccess64accessroutines.htm
 old-project: Debug
 ms.assetid: 7AE8779A-F3F8-45FF-B11C-4D48CF76FDCA
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: SymFunctionTableAccess64AccessRoutines, SymFunctionTableAccess64AccessRoutines function, base.symfunctiontableaccess64accessroutines, dbghelp/SymFunctionTableAccess64AccessRoutines
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_getselection.htm
 old-project: TSF
 ms.assetid: df1b21b7-b539-4546-96be-243a8e7ea75a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetSelection method, ITextStoreAnchor.GetSelection, ITextStoreAnchor::GetSelection, textstor/ITextStoreAnchor::GetSelection, tsf.itextstoreanchor_getselection
 ms.prod: windows-hardware
 ms.technology: windows-devices

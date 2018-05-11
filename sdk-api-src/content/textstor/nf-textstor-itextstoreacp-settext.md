@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_settext.htm
 old-project: TSF
 ms.assetid: aebeb6bc-7791-4c45-8563-eec6a738bd63
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],SetText method, ITextStoreACP.SetText, ITextStoreACP::SetText, SetText, SetText method [Text Services Framework], SetText method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_settext_ref, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP::SetText, tsf.itextstoreacp_settext
 ms.prod: windows-hardware
 ms.technology: windows-devices

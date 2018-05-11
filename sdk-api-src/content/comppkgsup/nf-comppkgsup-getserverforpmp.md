@@ -7,7 +7,7 @@ old-location: winprog\getserverforpmp.htm
 old-project: DevNotes
 ms.assetid: 0E343396-A294-45E3-88E5-9B63EB8B10B9
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: GetServerForPMP, GetServerForPMP function [Windows API], comppkgsup/GetServerForPMP, winprog.getserverforpmp
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\getanycastipaddresstable.htm
 old-project: IpHlp
 ms.assetid: 4eccae59-00be-4f9c-bb62-a507d7dad2e0
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetAnycastIpAddressTable, GetAnycastIpAddressTable function [IP Helper], iphlp.getanycastipaddresstable, netioapi/GetAnycastIpAddressTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

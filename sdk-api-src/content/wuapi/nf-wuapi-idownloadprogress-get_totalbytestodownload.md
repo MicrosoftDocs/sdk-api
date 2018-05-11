@@ -7,7 +7,7 @@ old-location: wua\idownloadprogress_totalbytestodownload.htm
 old-project: Wua_Sdk
 ms.assetid: 607e1d18-1df3-40c1-9104-de902561ede0
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IDownloadProgress interface [Windows Update Agent],TotalBytesToDownload property, IDownloadProgress.TotalBytesToDownload, IDownloadProgress.get_TotalBytesToDownload, IDownloadProgress::TotalBytesToDownload, IDownloadProgress::get_TotalBytesToDownload, TotalBytesToDownload property [Windows Update Agent], TotalBytesToDownload property [Windows Update Agent],IDownloadProgress interface, get_TotalBytesToDownload, wua.idownloadprogress_totalbytestodownload, wuapi/IDownloadProgress::TotalBytesToDownload, wuapi/IDownloadProgress::get_TotalBytesToDownload
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\imdserviceprovider3.htm
 old-project: WMDM
 ms.assetid: 94d4c323-07a9-406b-84e1-89703d2a8d10
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: IMDServiceProvider3, IMDServiceProvider3 interface [windows Media Device Manager], IMDServiceProvider3 interface [windows Media Device Manager],described, IMDServiceProvider3Interface, mswmdm/IMDServiceProvider3, wmdm.imdserviceprovider3
 ms.prod: windows-hardware
 ms.technology: windows-devices

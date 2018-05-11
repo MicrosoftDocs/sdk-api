@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetStringElem.htm
 old-project: properties
 ms.assetid: 6e803d93-5b55-4b73-8e23-a584f5f91969
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: PropVariantGetStringElem, PropVariantGetStringElem function [Windows Properties], _shell_PropVariantGetStringElem, properties.PropVariantGetStringElem, propvarutil/PropVariantGetStringElem, shell.PropVariantGetStringElem
 ms.prod: windows-hardware
 ms.technology: windows-devices

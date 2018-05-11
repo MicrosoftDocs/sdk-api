@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineex_setcurrenttimeex.htm
 old-project: medfound
 ms.assetid: ee594f0c-af49-44c2-8c68-16120f76c5e1
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetCurrentTimeEx method, IMFMediaEngineEx.SetCurrentTimeEx, IMFMediaEngineEx::SetCurrentTimeEx, SetCurrentTimeEx, SetCurrentTimeEx method [Media Foundation], SetCurrentTimeEx method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setcurrenttimeex, mfmediaengine/IMFMediaEngineEx::SetCurrentTimeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

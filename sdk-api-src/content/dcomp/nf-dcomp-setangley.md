@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionskewtransform_setangley_overloaded.htm
 old-project: directcomp
 ms.assetid: BD3D282C-5BBD-4BCE-AE15-4491A37D9149
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: IDCompositionSkewTransform::SetAngleY, SetAngleY, SetAngleY methods [DirectComposition], dcomp/SetAngleY, directcomp.idcompositionskewtransform_setangley_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices

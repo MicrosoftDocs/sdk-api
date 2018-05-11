@@ -7,7 +7,7 @@ old-location: setup\setupgetbinaryfield.htm
 old-project: SetupApi
 ms.assetid: 6dfd4c8b-0197-4c6d-a780-084b428805b2
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupGetBinaryField, SetupGetBinaryField function [Setup API], _setupapi_setupgetbinaryfield, setup.setupgetbinaryfield, setupapi/SetupGetBinaryField
 ms.prod: windows-hardware
 ms.technology: windows-devices

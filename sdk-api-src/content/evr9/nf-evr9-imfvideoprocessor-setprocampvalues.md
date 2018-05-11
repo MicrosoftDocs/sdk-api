@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessor_setprocampvalues.htm
 old-project: medfound
 ms.assetid: 84a5e022-773c-483b-adb5-5883b25b716f
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 84a5e022-773c-483b-adb5-5883b25b716f, IMFVideoProcessor interface [Media Foundation],SetProcAmpValues method, IMFVideoProcessor.SetProcAmpValues, IMFVideoProcessor::SetProcAmpValues, SetProcAmpValues, SetProcAmpValues method [Media Foundation], SetProcAmpValues method [Media Foundation],IMFVideoProcessor interface, evr9/IMFVideoProcessor::SetProcAmpValues, mf.imfvideoprocessor_setprocampvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices

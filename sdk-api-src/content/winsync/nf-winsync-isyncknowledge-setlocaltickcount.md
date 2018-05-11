@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_setlocaltickcount.htm
 old-project: winsync
 ms.assetid: 0da3728d-c2b8-4998-bdc4-50642af9e416
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],SetLocalTickCount method, ISyncKnowledge.SetLocalTickCount, ISyncKnowledge::SetLocalTickCount, SetLocalTickCount, SetLocalTickCount method [Windows Sync], SetLocalTickCount method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_setlocaltickcount, winsync/ISyncKnowledge::SetLocalTickCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

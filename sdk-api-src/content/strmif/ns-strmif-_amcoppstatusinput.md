@@ -7,7 +7,7 @@ old-location: dshow\amcoppstatusinput.htm
 old-project: DirectShow
 ms.assetid: 988e6d54-f241-4cfc-8793-fc42de92ac52
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: "*LPAMCOPPStatusInput, AMCOPPStatusInput, AMCOPPStatusInput structure [DirectShow], AMCOPPStatusInputStructure, LPAMCOPPStatusInput, LPAMCOPPStatusInput structure pointer [DirectShow], _AMCOPPStatusInput, dshow.amcoppstatusinput, strmif/AMCOPPStatusInput, strmif/LPAMCOPPStatusInput"
 ms.prod: windows-hardware
 ms.technology: windows-devices

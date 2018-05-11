@@ -7,7 +7,7 @@ old-location: fwp\ipsecsadbgetsecurityinfo0.htm
 old-project: FWP
 ms.assetid: 19121de3-91bc-4dca-94f8-599a43bb1e68
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPsecSaDbGetSecurityInfo0, IPsecSaDbGetSecurityInfo0 function [Filtering], fwp.ipsecsadbgetsecurityinfo0, fwpmu/IPsecSaDbGetSecurityInfo0
 ms.prod: windows-hardware
 ms.technology: windows-devices

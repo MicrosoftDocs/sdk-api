@@ -7,7 +7,7 @@ old-location: mstv\mpeg_date.htm
 old-project: mstv
 ms.assetid: 82c58d97-376f-40d0-9511-32361ece8ebb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: MPEG_DATE, MPEG_DATE structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0025, mpeg2structs/MPEG_DATE, mstv.mpeg_date
 ms.prod: windows-hardware
 ms.technology: windows-devices

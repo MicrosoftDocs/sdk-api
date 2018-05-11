@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_encryptparam.htm
 old-project: WMDM
 ms.assetid: dbfc72a6-acd5-40c2-8951-ab90e5c4d752
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],EncryptParam method, CSecureChannelServer.EncryptParam, CSecureChannelServer::EncryptParam, CSecureChannelServerEncryptParam, EncryptParam, EncryptParam method [windows Media Device Manager], EncryptParam method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::EncryptParam, wmdm.csecurechannelserver_encryptparam
 ms.prod: windows-hardware
 ms.technology: windows-devices

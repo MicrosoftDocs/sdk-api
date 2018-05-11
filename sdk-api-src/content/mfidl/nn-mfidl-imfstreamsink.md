@@ -7,7 +7,7 @@ old-location: mf\imfstreamsink.htm
 old-project: medfound
 ms.assetid: fe403cab-b901-4c8e-a23c-788ee65c4689
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFStreamSink, IMFStreamSink interface [Media Foundation], IMFStreamSink interface [Media Foundation],described, fe403cab-b901-4c8e-a23c-788ee65c4689, mf.imfstreamsink, mfidl/IMFStreamSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

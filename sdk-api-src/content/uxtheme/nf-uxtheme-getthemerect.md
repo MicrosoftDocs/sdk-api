@@ -7,7 +7,7 @@ old-location: controls\GetThemeRect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemerect.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetThemeRect, GetThemeRect function [Windows Controls], controls.GetThemeRect, controls.inet_GetThemeRect, inet_GetThemeRect, inet_GetThemeRect_cpp, uxtheme/GetThemeRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

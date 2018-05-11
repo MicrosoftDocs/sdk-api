@@ -7,7 +7,7 @@ old-location: fwp\ipsec_tunnel_endpoints0_struct.htm
 old-project: FWP
 ms.assetid: a37b13c7-61e4-49be-bd21-db3e7c9bcca5
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPSEC_TUNNEL_ENDPOINTS0, IPSEC_TUNNEL_ENDPOINTS0 structure [Filtering], IPSEC_TUNNEL_ENDPOINTS0_, fwp.ipsec_tunnel_endpoints0_struct, ipsectypes/IPSEC_TUNNEL_ENDPOINTS0
 ms.prod: windows-hardware
 ms.technology: windows-devices

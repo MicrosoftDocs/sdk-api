@@ -7,7 +7,7 @@ old-location: multimedia\capinfochunk.htm
 old-project: Multimedia
 ms.assetid: 7dbe8209-73c3-4eab-965e-91b94f77f0a7
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: "*LPCAPINFOCHUNK, *PCAPINFOCHUNK, CAPINFOCHUNK, CAPINFOCHUNK structure [Windows Multimedia], _win32_CAPINFOCHUNK_str, multimedia.capinfochunk, tagCapInfoChunk, vfw/CAPINFOCHUNK"
 ms.prod: windows-hardware
 ms.technology: windows-devices

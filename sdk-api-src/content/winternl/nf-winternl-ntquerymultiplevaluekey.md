@@ -7,7 +7,7 @@ old-location: winprog\ntquerymultiplevaluekey.htm
 old-project: DevNotes
 ms.assetid: fe78446c-b936-4ded-846a-f3ca26eff06e
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: NtQueryMultipleValueKey, NtQueryMultipleValueKey function [Windows API], base.ntquerymultiplevaluekey, winprog.ntquerymultiplevaluekey, winternl/NtQueryMultipleValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

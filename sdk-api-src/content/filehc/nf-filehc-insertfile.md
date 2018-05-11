@@ -7,7 +7,7 @@ old-location: winprog\_insertfile.htm
 old-project: DevNotes
 ms.assetid: 5461dc96-a625-43d7-87e7-c25389e9c822
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: InsertFile, InsertFile function [Windows API], filehc/InsertFile, winprog._insertfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

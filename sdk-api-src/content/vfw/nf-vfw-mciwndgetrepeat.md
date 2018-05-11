@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetrepeat.htm
 old-project: Multimedia
 ms.assetid: e5c346db-b33a-4420-b9e1-c634dcffa134
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: MCIWndGetRepeat, MCIWndGetRepeat macro [Windows Multimedia], _win32_MCIWndGetRepeat, multimedia.mciwndgetrepeat, vfw/MCIWndGetRepeat
 ms.prod: windows-hardware
 ms.technology: windows-devices

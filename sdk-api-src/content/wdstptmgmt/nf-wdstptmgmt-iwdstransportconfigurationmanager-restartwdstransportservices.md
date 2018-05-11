@@ -7,7 +7,7 @@ old-location: wds\iwdstransportconfigurationmanager_restartwdstransportservices.
 old-project: Wds
 ms.assetid: f0aa84fa-f2a6-4494-8994-89854565fd7b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],RestartWdsTransportServices method, IWdsTransportConfigurationManager.RestartWdsTransportServices, IWdsTransportConfigurationManager::RestartWdsTransportServices, RestartWdsTransportServices, RestartWdsTransportServices method [Windows Deployment Services], RestartWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_restartwdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::RestartWdsTransportServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

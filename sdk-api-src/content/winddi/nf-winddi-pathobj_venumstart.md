@@ -7,7 +7,7 @@ old-location: display\pathobj_venumstart.htm
 old-project: display
 ms.assetid: b83e6f87-be79-4743-bc52-b9310853c4f5
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: PATHOBJ_vEnumStart, PATHOBJ_vEnumStart function [Display Devices], display.pathobj_venumstart, gdifncs_93ed4330-ebfd-4ba1-b095-99beb3146452.xml, winddi/PATHOBJ_vEnumStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

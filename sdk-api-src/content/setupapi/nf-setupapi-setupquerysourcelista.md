@@ -7,7 +7,7 @@ old-location: setup\setupquerysourcelist.htm
 old-project: SetupApi
 ms.assetid: 8d1de1d5-5b82-45ae-b29c-4f9a93d28c6e
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupQuerySourceList, SetupQuerySourceList function [Setup API], SetupQuerySourceListA, SetupQuerySourceListW, _setupapi_setupquerysourcelist, setup.setupquerysourcelist, setupapi/SetupQuerySourceList, setupapi/SetupQuerySourceListA, setupapi/SetupQuerySourceListW
 ms.prod: windows-hardware
 ms.technology: windows-devices

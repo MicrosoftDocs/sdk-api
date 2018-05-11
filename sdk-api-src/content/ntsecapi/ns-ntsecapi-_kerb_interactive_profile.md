@@ -7,7 +7,7 @@ old-location: security\kerb_interactive_profile.htm
 old-project: SecAuthN
 ms.assetid: 8e9dd04b-8155-4f85-be00-ff9d8297deaa
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PKERB_INTERACTIVE_PROFILE, KERB_INTERACTIVE_PROFILE, KERB_INTERACTIVE_PROFILE structure [Security], LOGON_EXTRA_SIDS, LOGON_RESOURCE_GROUPS, PKERB_INTERACTIVE_PROFILE, PKERB_INTERACTIVE_PROFILE structure pointer [Security], _KERB_INTERACTIVE_PROFILE, _lsa_kerb_interactive_profile, ntsecapi/KERB_INTERACTIVE_PROFILE, ntsecapi/PKERB_INTERACTIVE_PROFILE, security.kerb_interactive_profile"
 ms.prod: windows-hardware
 ms.technology: windows-devices

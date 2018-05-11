@@ -2,21 +2,21 @@
 UID: NF:intsafe.LongLongToULong
 title: LongLongToULong function
 author: windows-driver-content
-description: Converts a value of type DWORD to a value of type USHORT.
-old-location: shell\DWordToUShort.htm
+description: Converts a value of type LONGLONG to a value of type ULONG.
+old-location: shell\LongLongToULong.htm
 old-project: shell
-ms.assetid: d0b990d6-26e0-4a09-8f24-f7f13be68f32
+ms.assetid: b816c07a-d257-4c2c-b3a7-958c763111ca
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: DWordToUShort, DWordToUShort function [Windows Shell], LongLongToULong, _shell_DWordToUShort, intsafe/DWordToUShort, shell.DWordToUShort
+ms.date: 5/9/2018
+ms.keywords: DWordToUShort, Int64ToDWordPtr, Int64ToSIZET, Int64ToULong, IntPtrToULong, LongLongToULong, LongLongToULong function [Windows Shell], intsafe/LongLongToULong, shell.LongLongToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	DllExport
+-	HeaderDef
 api_location:
--	None
+-	intsafe.h
 api_name:
--	DWordToUShort
+-	LongLongToULong
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: None
+req.dll: 
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>DWORD</b> to a value of type <b>USHORT</b>.
+Converts a value of type <b>LONGLONG</b> to a value of type <b>ULONG</b>.
 
 
 ## -parameters
@@ -58,37 +58,19 @@ Converts a value of type <b>DWORD</b> to a value of type <b>USHORT</b>.
 
 
 
-### -param llOperand
+### -param llOperand [in]
 
-TBD
-
-
-### -param pulResult
-
-TBD
+The value to convert.
 
 
+### -param pulResult [out]
 
-
-#### - dwOperand [in]
-
-Type: <b>DWORD</b>
-
-The value to be converted.
-
-
-#### - pusResult [out]
-
-Type: <b>USHORT*</b>
-
-A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
+The converted value.
 
 
 ## -returns
 
 
-
-Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -99,7 +81,15 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+<b>Int64ToULong</b> is an alias for this function.
+
+<b>Int64ToSIZET</b> is an alias for this function.
+
+<b>Int64ToDWordPtr</b> is an alias for this function.
+
+<b>IntPtrToULong</b> is an alias for this function.
+
+<b>DWordToUShort</b> is an alias for this function.
 
 
 

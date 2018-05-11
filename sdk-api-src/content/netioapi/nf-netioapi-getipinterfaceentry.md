@@ -7,7 +7,7 @@ old-location: iphlp\getipinterfaceentry.htm
 old-project: IpHlp
 ms.assetid: 604e33fd-ab12-4861-a083-544045f46ef4
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetIpInterfaceEntry, GetIpInterfaceEntry function [IP Helper], iphlp.getipinterfaceentry, netioapi/GetIpInterfaceEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

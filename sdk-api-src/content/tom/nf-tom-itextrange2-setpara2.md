@@ -7,7 +7,7 @@ old-location: controls\itextrange2_setpara2.htm
 old-project: Controls
 ms.assetid: ffd25a04-27a8-47c0-95a4-d66291971819
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetPara2 method, ITextRange2.SetPara2, ITextRange2::SetPara2, SetPara2, SetPara2 method [Windows Controls], SetPara2 method [Windows Controls],ITextRange2 interface, controls.itextrange2_setpara2, tom/ITextRange2::SetPara2
 ms.prod: windows-hardware
 ms.technology: windows-devices

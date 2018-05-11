@@ -7,7 +7,7 @@ old-location: coreaudio\idevicetopology_getconnectorcount.htm
 old-project: CoreAudio
 ms.assetid: 0b7f3b14-4c99-497b-a00e-a24535a621b7
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: GetConnectorCount, GetConnectorCount method [Core Audio], GetConnectorCount method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetConnectorCount method, IDeviceTopology.GetConnectorCount, IDeviceTopology::GetConnectorCount, IDeviceTopologyGetConnectorCount, coreaudio.idevicetopology_getconnectorcount, devicetopology/IDeviceTopology::GetConnectorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

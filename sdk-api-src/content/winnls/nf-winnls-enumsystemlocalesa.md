@@ -7,7 +7,7 @@ old-location: intl\enumsystemlocales.htm
 old-project: Intl
 ms.assetid: e6341460-3c4e-4040-8b49-3eb7d279e571
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: EnumSystemLocales, EnumSystemLocales function [Internationalization for Windows Applications], EnumSystemLocalesA, EnumSystemLocalesW, LCID_ALTERNATE_SORTS, LCID_INSTALLED, LCID_SUPPORTED, _win32_EnumSystemLocales, intl.enumsystemlocales, winnls/EnumSystemLocales, winnls/EnumSystemLocalesA, winnls/EnumSystemLocalesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

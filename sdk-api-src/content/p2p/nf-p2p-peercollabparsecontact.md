@@ -7,7 +7,7 @@ old-location: p2p\peercollabparsecontact.htm
 old-project: P2PSdk
 ms.assetid: c50954b2-0e63-412e-85ca-5149ed73791f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerCollabParseContact, PeerCollabParseContact function [Peer Networking], p2p.peercollabparsecontact, p2p/PeerCollabParseContact
 ms.prod: windows-hardware
 ms.technology: windows-devices

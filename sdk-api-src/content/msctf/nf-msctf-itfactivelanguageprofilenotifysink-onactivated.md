@@ -7,7 +7,7 @@ old-location: tsf\itfactivelanguageprofilenotifysink_onactivated.htm
 old-project: TSF
 ms.assetid: 89444189-254e-4a3c-9c8e-79c8b96aee34
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfActiveLanguageProfileNotifySink interface [Text Services Framework],OnActivated method, ITfActiveLanguageProfileNotifySink.OnActivated, ITfActiveLanguageProfileNotifySink::OnActivated, OnActivated, OnActivated method [Text Services Framework], OnActivated method [Text Services Framework],ITfActiveLanguageProfileNotifySink interface, _tsf_itfactivelanguageprofilenotifysink_onactivated_ref, msctf/ITfActiveLanguageProfileNotifySink::OnActivated, tsf.itfactivelanguageprofilenotifysink_onactivated
 ms.prod: windows-hardware
 ms.technology: windows-devices

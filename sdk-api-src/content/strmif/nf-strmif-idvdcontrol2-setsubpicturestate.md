@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_setsubpicturestate.htm
 old-project: DirectShow
 ms.assetid: 2e654bc1-293b-436b-bc33-8a8f269e9aee
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetSubpictureState method, IDvdControl2.SetSubpictureState, IDvdControl2::SetSubpictureState, IDvdControl2SetSubpictureState, SetSubpictureState, SetSubpictureState method [DirectShow], SetSubpictureState method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setsubpicturestate, strmif/IDvdControl2::SetSubpictureState
 ms.prod: windows-hardware
 ms.technology: windows-devices

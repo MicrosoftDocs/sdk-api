@@ -7,7 +7,7 @@ old-location: mstv\imsvidinputdevices_get__newenum.htm
 old-project: mstv
 ms.assetid: a33c9549-c5a6-48c1-bf49-66a7bf81cdaa
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IMSVidInputDevices interface [Microsoft TV Technologies],get__NewEnum method, IMSVidInputDevices.get__NewEnum, IMSVidInputDevices::get__NewEnum, IMSVidInputDevicesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidInputDevices interface, mstv.imsvidinputdevices_get__newenum, segment/IMSVidInputDevices::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

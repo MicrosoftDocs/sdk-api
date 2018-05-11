@@ -7,7 +7,7 @@ old-location: mf\dxvahd_blt_state.htm
 old-project: medfound
 ms.assetid: cd5f56ff-61d7-49df-8114-f6a14de8e06b
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: DXVAHD_BLT_STATE, DXVAHD_BLT_STATE enumeration [Media Foundation], DXVAHD_BLT_STATE_ALPHA_FILL, DXVAHD_BLT_STATE_BACKGROUND_COLOR, DXVAHD_BLT_STATE_CONSTRICTION, DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE, DXVAHD_BLT_STATE_PRIVATE, DXVAHD_BLT_STATE_TARGET_RECT, _DXVAHD_BLT_STATE, dxvahd/DXVAHD_BLT_STATE, dxvahd/DXVAHD_BLT_STATE_ALPHA_FILL, dxvahd/DXVAHD_BLT_STATE_BACKGROUND_COLOR, dxvahd/DXVAHD_BLT_STATE_CONSTRICTION, dxvahd/DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE, dxvahd/DXVAHD_BLT_STATE_PRIVATE, dxvahd/DXVAHD_BLT_STATE_TARGET_RECT, mf.dxvahd_blt_state
 ms.prod: windows-hardware
 ms.technology: windows-devices

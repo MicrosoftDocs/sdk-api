@@ -7,7 +7,7 @@ old-location: dshow\iamvideocompression.htm
 old-project: DirectShow
 ms.assetid: 6b7d8a98-35b8-442f-bf51-9e66fd03e2c9
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMVideoCompression, IAMVideoCompression interface [DirectShow], IAMVideoCompression interface [DirectShow],described, IAMVideoCompressionInterface, dshow.iamvideocompression, strmif/IAMVideoCompression
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi2\phonesethookswitch.htm
 old-project: Tapi
 ms.assetid: 048f98e3-ac1b-47f8-85c8-97e7b7690030
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_phonesethookswitch, phoneSetHookSwitch, phoneSetHookSwitch function [TAPI 2.2], tapi/phoneSetHookSwitch, tapi2.phonesethookswitch"
 ms.prod: windows-hardware
 ms.technology: windows-devices

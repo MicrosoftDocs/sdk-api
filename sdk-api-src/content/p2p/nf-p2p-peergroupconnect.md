@@ -7,7 +7,7 @@ old-location: p2p\peergroupconnect.htm
 old-project: P2PSdk
 ms.assetid: 240bcba7-29f9-4043-8203-e71175bee69a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGroupConnect, PeerGroupConnect function [Peer Networking], p2p.peergroupconnect, p2p/PeerGroupConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

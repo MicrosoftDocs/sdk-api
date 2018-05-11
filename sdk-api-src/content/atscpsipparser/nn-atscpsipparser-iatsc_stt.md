@@ -7,7 +7,7 @@ old-location: mstv\iatsc_stt.htm
 old-project: mstv
 ms.assetid: 03e903e0-e722-42c6-b6b7-448fecc379b9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IATSC_STT, IATSC_STT interface [Microsoft TV Technologies], IATSC_STT interface [Microsoft TV Technologies],described, IATSC_STTInterface, atscpsipparser/IATSC_STT, mstv.iatsc_stt
 ms.prod: windows-hardware
 ms.technology: windows-devices

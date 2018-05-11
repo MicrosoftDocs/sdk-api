@@ -7,7 +7,7 @@ old-location: p2p\peerpnrpendresolve.htm
 old-project: P2PSdk
 ms.assetid: b700a195-57c4-481a-93d2-82d543f5c6c6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerPnrpEndResolve, PeerPnrpEndResolve function [Peer Networking], p2p.peerpnrpendresolve, p2p/PeerPnrpEndResolve
 ms.prod: windows-hardware
 ms.technology: windows-devices

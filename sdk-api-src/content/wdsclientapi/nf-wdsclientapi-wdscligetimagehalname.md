@@ -7,7 +7,7 @@ old-location: wds\wdscligetimagehalname.htm
 old-project: Wds
 ms.assetid: c7e3dde3-2f69-4c58-a732-4fd059a9222e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsCliGetImageHalName, WdsCliGetImageHalName function [Windows Deployment Services], wds.wdscligetimagehalname, wdsclientapi/WdsCliGetImageHalName
 ms.prod: windows-hardware
 ms.technology: windows-devices

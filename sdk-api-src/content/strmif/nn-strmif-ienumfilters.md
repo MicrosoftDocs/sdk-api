@@ -7,7 +7,7 @@ old-location: dshow\ienumfilters.htm
 old-project: DirectShow
 ms.assetid: e105ccff-86c6-45d5-aead-6d303d038e5a
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumFilters, IEnumFilters interface [DirectShow], IEnumFilters interface [DirectShow],described, IEnumFiltersInterface, dshow.ienumfilters, strmif/IEnumFilters
 ms.prod: windows-hardware
 ms.technology: windows-devices

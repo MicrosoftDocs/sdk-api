@@ -7,7 +7,7 @@ old-location: of\ienumofflinefilesitems_clone.htm
 old-project: OfflineFiles
 ms.assetid: cef0adaf-d342-4eab-b455-2b51b7d70066
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: Clone, Clone method [Offline Files], Clone method [Offline Files],IEnumOfflineFilesItems interface, IEnumOfflineFilesItems interface [Offline Files],Clone method, IEnumOfflineFilesItems.Clone, IEnumOfflineFilesItems::Clone, cscobj/IEnumOfflineFilesItems::Clone, of.ienumofflinefilesitems_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

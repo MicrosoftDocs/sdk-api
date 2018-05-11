@@ -7,7 +7,7 @@ old-location: wds\pxedhcpv6initialize.htm
 old-project: Wds
 ms.assetid: B9287BDA-3C7A-457C-8D70-E27A0B9BAE99
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: PxeDhcpv6Initialize, PxeDhcpv6Initialize function [Windows Deployment Services], wds.pxedhcpv6initialize, wdspxe/PxeDhcpv6Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

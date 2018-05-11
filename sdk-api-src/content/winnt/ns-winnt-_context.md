@@ -7,7 +7,7 @@ old-location: base\context_str.htm
 old-project: Debug
 ms.assetid: a6c201b3-4402-4de4-89c7-e6e2fbcd27f7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: "*PCONTEXT, CONTEXT, CONTEXT structure, LPCONTEXT, LPCONTEXT structure pointer, _CONTEXT, _win32_context_str, base.context_str, winnt/CONTEXT, winnt/LPCONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

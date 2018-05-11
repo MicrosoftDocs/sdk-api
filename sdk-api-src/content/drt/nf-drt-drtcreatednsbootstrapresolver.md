@@ -7,7 +7,7 @@ old-location: p2p\drtcreatednsbootstrapresolver.htm
 old-project: P2PSdk
 ms.assetid: d4a92dd3-d66a-4c27-9180-f9c148735a4a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: DrtCreateDnsBootstrapResolver, DrtCreateDnsBootstrapResolver function [Distributed Routing Tables], drt/DrtCreateDnsBootstrapResolver, p2p.drtcreatednsbootstrapresolver
 ms.prod: windows-hardware
 ms.technology: windows-devices

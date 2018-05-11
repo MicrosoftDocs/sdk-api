@@ -7,7 +7,7 @@ old-location: mstv\icaptionservicedescriptor_getlanguagecode.htm
 old-project: mstv
 ms.assetid: 4b3b31dd-83cc-4067-a46f-929e1a75087a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetLanguageCode method, ICaptionServiceDescriptor.GetLanguageCode, ICaptionServiceDescriptor::GetLanguageCode, ICaptionServiceDescriptorGetLanguageCode, atscpsipparser/ICaptionServiceDescriptor::GetLanguageCode, mstv.icaptionservicedescriptor_getlanguagecode
 ms.prod: windows-hardware
 ms.technology: windows-devices

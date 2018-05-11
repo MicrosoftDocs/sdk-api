@@ -7,7 +7,7 @@ old-location: stg\ienumstatpropsetstg_next.htm
 old-project: Stg
 ms.assetid: 3af3c518-3db4-4436-b1c1-86587ce8fbf3
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumSTATPROPSETSTG interface [Structured Storage],Next method, IEnumSTATPROPSETSTG.Next, IEnumSTATPROPSETSTG::Next, Next, Next method [Structured Storage], Next method [Structured Storage],IEnumSTATPROPSETSTG interface, propidlbase/IEnumSTATPROPSETSTG::Next, stg.ienumstatpropsetstg_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

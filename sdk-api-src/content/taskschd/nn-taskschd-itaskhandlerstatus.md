@@ -7,7 +7,7 @@ old-location: taskschd\itaskhandlerstatus.htm
 old-project: TaskSchd
 ms.assetid: 8b846be3-f05f-4d90-9865-da245c2bfdbf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITaskHandlerStatus, ITaskHandlerStatus interface [Task Scheduler], ITaskHandlerStatus interface [Task Scheduler],described, taskschd.itaskhandlerstatus, taskschd/ITaskHandlerStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

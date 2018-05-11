@@ -7,7 +7,7 @@ old-location: display\dddestroypalette.htm
 old-project: display
 ms.assetid: b44936fd-0052-4f54-9e97-1664c381c697
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: DdDestroyPalette, DdDestroyPalette callback function [Display Devices], PDD_PALCB_DESTROYPALETTE, PDD_PALCB_DESTROYPALETTE callback, ddfncs_a0c991ff-d3b8-4793-a6b3-a72dc5f5d700.xml, ddrawint/DdDestroyPalette, display.dddestroypalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

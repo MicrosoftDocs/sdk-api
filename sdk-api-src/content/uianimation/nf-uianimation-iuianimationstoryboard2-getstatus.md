@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_getstatus.htm
 old-project: UIAnimation
 ms.assetid: 1694B720-891A-4214-A009-6AA722E5B83D
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetStatus, GetStatus method [Windows Animation], GetStatus method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],GetStatus method, IUIAnimationStoryboard2.GetStatus, IUIAnimationStoryboard2::GetStatus, uianimation.iuianimationstoryboard2_getstatus, uianimation/IUIAnimationStoryboard2::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

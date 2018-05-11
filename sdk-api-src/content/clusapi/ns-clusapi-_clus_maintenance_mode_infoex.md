@@ -7,7 +7,7 @@ old-location: mscs\clus_maintenance_mode_infoex.htm
 old-project: MsCS
 ms.assetid: d68b187d-39c5-42d3-b268-d5061da257c4
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PCLUS_MAINTENANCE_MODE_INFOEX, CLUS_MAINTENANCE_MODE_INFOEX, CLUS_MAINTENANCE_MODE_INFOEX structure [Failover Cluster], ClusterResourceFailed, ClusterResourceInitializing, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, ClusterResourceStateUnknown, MaintenanceModeTypeDisableIsAliveCheck, MaintenanceModeTypeOfflineResource, MaintenanceModeTypeUnclusterResource, PCLUS_MAINTENANCE_MODE_INFOEX, PCLUS_MAINTENANCE_MODE_INFOEX structure pointer [Failover Cluster], _CLUS_MAINTENANCE_MODE_INFOEX, clusapi/CLUS_MAINTENANCE_MODE_INFOEX, clusapi/PCLUS_MAINTENANCE_MODE_INFOEX, mscs.clus_maintenance_mode_infoex"
 ms.prod: windows-hardware
 ms.technology: windows-devices

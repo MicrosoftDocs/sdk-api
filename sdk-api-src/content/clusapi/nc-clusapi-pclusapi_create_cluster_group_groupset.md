@@ -7,7 +7,7 @@ old-location: mscs\createclustergroupcollection.htm
 old-project: MsCS
 ms.assetid: cb0cdf78-c6d6-47b3-bd11-5ab70416131b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET callback, PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER_GROUP_GROUPSET, mscs.createclustergroupcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

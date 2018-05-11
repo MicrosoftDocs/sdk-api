@@ -7,7 +7,7 @@ old-location: multimedia\mciwndcaneject.htm
 old-project: Multimedia
 ms.assetid: de5021d2-9e96-4fe4-99c7-91ffb2b11c7f
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: MCIWndCanEject, MCIWndCanEject macro [Windows Multimedia], _win32_MCIWndCanEject, multimedia.mciwndcaneject, vfw/MCIWndCanEject
 ms.prod: windows-hardware
 ms.technology: windows-devices

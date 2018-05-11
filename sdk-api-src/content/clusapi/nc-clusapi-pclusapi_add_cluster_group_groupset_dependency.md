@@ -7,7 +7,7 @@ old-location: mscs\addclustergroupcollectiondependency.htm
 old-project: MsCS
 ms.assetid: dab8cef1-475b-4d92-8f3f-e828d62bcd17
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY callback, PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY callback function [Failover Cluster], clusapi/PCLUSAPI_ADD_CLUSTER_GROUP_GROUPSET_DEPENDENCY, mscs.addclustergroupcollectiondependency
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfsample_removeallbuffers.htm
 old-project: medfound
 ms.assetid: c7ce734f-64da-4d45-905e-54a8898aa710
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFSample interface [Media Foundation],RemoveAllBuffers method, IMFSample.RemoveAllBuffers, IMFSample::RemoveAllBuffers, RemoveAllBuffers, RemoveAllBuffers method [Media Foundation], RemoveAllBuffers method [Media Foundation],IMFSample interface, c7ce734f-64da-4d45-905e-54a8898aa710, mf.imfsample_removeallbuffers, mfobjects/IMFSample::RemoveAllBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

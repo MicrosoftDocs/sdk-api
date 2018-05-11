@@ -7,7 +7,7 @@ old-location: base\enumservicesstatus.htm
 old-project: Services
 ms.assetid: 3a82ac0e-f3e8-4a5a-9b13-84e952712229
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/9/2018
 ms.keywords: EnumServicesStatus, EnumServicesStatus function, EnumServicesStatusA, EnumServicesStatusW, SERVICE_ACTIVE, SERVICE_DRIVER, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INACTIVE, SERVICE_KERNEL_DRIVER, SERVICE_STATE_ALL, SERVICE_WIN32, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_enumservicesstatus, base.enumservicesstatus, winsvc/EnumServicesStatus, winsvc/EnumServicesStatusA, winsvc/EnumServicesStatusW
 ms.prod: windows-hardware
 ms.technology: windows-devices

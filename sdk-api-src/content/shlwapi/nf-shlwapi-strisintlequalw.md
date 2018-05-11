@@ -7,7 +7,7 @@ old-location: shell\StrIsIntlEqual.htm
 old-project: shell
 ms.assetid: 02c66644-8aab-4ddd-a3ab-d52aeaa900a3
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: StrIsIntlEqual, StrIsIntlEqual function [Windows Shell], StrIsIntlEqualA, StrIsIntlEqualW, _win32_StrIsIntlEqual, shell.StrIsIntlEqual, shlwapi/StrIsIntlEqual, shlwapi/StrIsIntlEqualA, shlwapi/StrIsIntlEqualW
 ms.prod: windows-hardware
 ms.technology: windows-devices

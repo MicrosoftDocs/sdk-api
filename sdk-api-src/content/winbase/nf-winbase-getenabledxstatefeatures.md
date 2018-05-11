@@ -7,7 +7,7 @@ old-location: base\getenabledxstatefeatures.htm
 old-project: Debug
 ms.assetid: E7DE090F-F83E-440D-B2A3-BCF160889F2E
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: GetEnabledXStateFeatures, GetEnabledXStateFeatures function, base.getenabledxstatefeatures, winbase/GetEnabledXStateFeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices

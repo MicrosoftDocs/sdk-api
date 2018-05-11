@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicstream_initializefromistreamregion.htm
 old-project: wic
 ms.assetid: 508e1972-22ef-4211-adcf-03f8138624c9
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: IWICStream interface [Windows Imaging Component],InitializeFromIStreamRegion method, IWICStream.InitializeFromIStreamRegion, IWICStream::InitializeFromIStreamRegion, InitializeFromIStreamRegion, InitializeFromIStreamRegion method [Windows Imaging Component], InitializeFromIStreamRegion method [Windows Imaging Component],IWICStream interface, _wic_codec_iwicstream_initializefromistreamregion, wic._wic_codec_iwicstream_initializefromistreamregion, wincodec/IWICStream::InitializeFromIStreamRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfobjectreferencestream_loadreference.htm
 old-project: medfound
 ms.assetid: fabf7de2-8433-43ba-9ded-001569614054
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFObjectReferenceStream interface [Media Foundation],LoadReference method, IMFObjectReferenceStream.LoadReference, IMFObjectReferenceStream::LoadReference, LoadReference, LoadReference method [Media Foundation], LoadReference method [Media Foundation],IMFObjectReferenceStream interface, fabf7de2-8433-43ba-9ded-001569614054, mf.imfobjectreferencestream_loadreference, mfidl/IMFObjectReferenceStream::LoadReference
 ms.prod: windows-hardware
 ms.technology: windows-devices

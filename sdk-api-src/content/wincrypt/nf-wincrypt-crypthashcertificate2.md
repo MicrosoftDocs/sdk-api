@@ -7,7 +7,7 @@ old-location: security\crypthashcertificate2.htm
 old-project: SecCrypto
 ms.assetid: 9f315374-0002-499a-81ea-efcb3c19e68f
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CryptHashCertificate2, CryptHashCertificate2 function [Security], security.crypthashcertificate2, wincrypt/CryptHashCertificate2
 ms.prod: windows-hardware
 ms.technology: windows-devices

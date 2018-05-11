@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrotatetransform3d_setaxisx_overloaded.htm
 old-project: directcomp
 ms.assetid: 6ADBB027-8F80-4DF3-9199-DDB6570DF81B
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: IDCompositionRotateTransform3D::SetAxisX, SetAxisX, SetAxisX methods [DirectComposition], dcomp/SetAxisX, directcomp.idcompositionrotatetransform3d_setaxisx_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices

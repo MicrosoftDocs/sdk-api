@@ -7,7 +7,7 @@ old-location: mstv\iatsccomponenttype_get_flags.htm
 old-project: mstv
 ms.assetid: f89f59fd-31bf-48d6-9cb3-92504ba095a9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IATSCComponentType interface [Microsoft TV Technologies],get_Flags method, IATSCComponentType.get_Flags, IATSCComponentType::get_Flags, IATSCComponentTypeget_Flags, get_Flags, get_Flags method [Microsoft TV Technologies], get_Flags method [Microsoft TV Technologies],IATSCComponentType interface, mstv.iatsccomponenttype_get_flags, tuner/IATSCComponentType::get_Flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

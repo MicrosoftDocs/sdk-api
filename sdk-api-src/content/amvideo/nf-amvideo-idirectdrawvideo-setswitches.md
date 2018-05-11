@@ -7,7 +7,7 @@ old-location: dshow\idirectdrawvideo_setswitches.htm
 old-project: DirectShow
 ms.assetid: e6839757-2b63-497d-9978-35c8dfabc0ed
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetSwitches method, IDirectDrawVideo.SetSwitches, IDirectDrawVideo::SetSwitches, IDirectDrawVideoSetSwitches, SetSwitches, SetSwitches method [DirectShow], SetSwitches method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetSwitches, dshow.idirectdrawvideo_setswitches
 ms.prod: windows-hardware
 ms.technology: windows-devices

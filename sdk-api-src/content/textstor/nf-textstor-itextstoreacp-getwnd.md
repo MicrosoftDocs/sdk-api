@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_getwnd.htm
 old-project: TSF
 ms.assetid: 7fb49702-4e0e-4e8c-9227-83c0b014f5f2
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetWnd method, ITextStoreACP.GetWnd, ITextStoreACP::GetWnd, _tsf_itextstoreacp_getwnd_ref, textstor/ITextStoreACP::GetWnd, tsf.itextstoreacp_getwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

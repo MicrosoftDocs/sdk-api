@@ -7,7 +7,7 @@ old-location: base\stackwalkex.htm
 old-project: Debug
 ms.assetid: 87765e30-b444-4f68-b11f-1be73e0775fc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, SYM_STKWALK_DEFAULT, SYM_STKWALK_FORCE_FRAMEPTR, StackWalkEx, StackWalkEx function, base.stackwalkex, dbghelp/StackWalkEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

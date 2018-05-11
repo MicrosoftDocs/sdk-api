@@ -7,7 +7,7 @@ old-location: tsf\SetInputScopes2.htm
 old-project: TSF
 ms.assetid: 0b3e0e98-412f-4c6f-aa06-a7f17f8869ac
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: SetInputScopes2, SetInputScopes2 function [Text Services Framework], inputscope/SetInputScopes2, tsf.SetInputScopes2
 ms.prod: windows-hardware
 ms.technology: windows-devices

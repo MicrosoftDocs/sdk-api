@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_setresourceuri.htm
 old-project: wmi_v2
 ms.assetid: 0722bc88-59a6-476b-a325-343d0eb43086
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_OperationOptions_SetResourceUri, MI_OperationOptions_SetResourceUri function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetResourceUri, wmi_v2.mi_operationoptions_setresourceuri
 ms.prod: windows-hardware
 ms.technology: windows-devices

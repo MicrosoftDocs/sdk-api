@@ -7,7 +7,7 @@ old-location: fwp\fwpmneteventssetsecurityinfo0.htm
 old-project: FWP
 ms.assetid: ce4f76be-caee-49f3-98b6-ee4309bca484
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmNetEventsSetSecurityInfo0, FwpmNetEventsSetSecurityInfo0 function [Filtering], fwp.fwpmneteventssetsecurityinfo0, fwpmu/FwpmNetEventsSetSecurityInfo0
 ms.prod: windows-hardware
 ms.technology: windows-devices

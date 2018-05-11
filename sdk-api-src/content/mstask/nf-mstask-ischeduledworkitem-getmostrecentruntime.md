@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_getmostrecentruntime.htm
 old-project: TaskSchd
 ms.assetid: 38872c60-7d2b-4bfc-b771-98950ab8f40c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetMostRecentRunTime, GetMostRecentRunTime method [Task Scheduler], GetMostRecentRunTime method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetMostRecentRunTime method, IScheduledWorkItem.GetMostRecentRunTime, IScheduledWorkItem::GetMostRecentRunTime, _msb_ischeduledworkitem_getmostrecentruntime, mstask/IScheduledWorkItem::GetMostRecentRunTime, taskschd.ischeduledworkitem_getmostrecentruntime
 ms.prod: windows-hardware
 ms.technology: windows-devices

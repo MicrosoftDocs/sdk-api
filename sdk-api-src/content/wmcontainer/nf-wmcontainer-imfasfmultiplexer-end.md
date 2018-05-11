@@ -7,7 +7,7 @@ old-location: mf\imfasfmultiplexer_end.htm
 old-project: medfound
 ms.assetid: 2a106ea5-976a-40df-a554-1b76d9a07286
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 2a106ea5-976a-40df-a554-1b76d9a07286, End, End method [Media Foundation], End method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],End method, IMFASFMultiplexer.End, IMFASFMultiplexer::End, mf.imfasfmultiplexer_end, wmcontainer/IMFASFMultiplexer::End
 ms.prod: windows-hardware
 ms.technology: windows-devices

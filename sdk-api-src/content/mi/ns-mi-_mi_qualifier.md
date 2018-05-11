@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_qualifier.htm
 old-project: wmi_v2
 ms.assetid: 4BEBE8AB-90D3-4BBA-A544-7722309160A1
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_Qualifier, MI_Qualifier structure [Windows Management Infrastructure (MI)], _MI_Qualifier, mi/MI_Qualifier, wmi_v2.mi_qualifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

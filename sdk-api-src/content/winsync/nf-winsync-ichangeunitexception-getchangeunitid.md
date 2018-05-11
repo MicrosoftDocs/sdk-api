@@ -7,7 +7,7 @@ old-location: winsync\ichangeunitexception_getchangeunitid.htm
 old-project: winsync
 ms.assetid: 25a6eed2-6851-4a24-afd2-91982dc2bb8e
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetChangeUnitId, GetChangeUnitId method [Windows Sync], GetChangeUnitId method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetChangeUnitId method, IChangeUnitException.GetChangeUnitId, IChangeUnitException::GetChangeUnitId, winsync.ichangeunitexception_getchangeunitid, winsync/IChangeUnitException::GetChangeUnitId
 ms.prod: windows-hardware
 ms.technology: windows-devices

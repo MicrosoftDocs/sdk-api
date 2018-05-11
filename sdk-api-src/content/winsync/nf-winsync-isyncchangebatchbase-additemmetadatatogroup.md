@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchbase_additemmetadatatogroup.htm
 old-project: winsync
 ms.assetid: cb5b5a35-70d9-413d-8bf6-7003fe7681c8
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: AddItemMetadataToGroup, AddItemMetadataToGroup method [Windows Sync], AddItemMetadataToGroup method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],AddItemMetadataToGroup method, ISyncChangeBatchBase.AddItemMetadataToGroup, ISyncChangeBatchBase::AddItemMetadataToGroup, winsync.isyncchangebatchbase_additemmetadatatogroup, winsync/ISyncChangeBatchBase::AddItemMetadataToGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

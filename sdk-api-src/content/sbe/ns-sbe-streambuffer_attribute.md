@@ -7,7 +7,7 @@ old-location: mstv\streambuffer_attribute.htm
 old-project: mstv
 ms.assetid: 2b17626a-9268-4192-8acf-ed46bf632163
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: STREAMBUFFER_ATTRIBUTE, STREAMBUFFER_ATTRIBUTE structure [Microsoft TV Technologies], STREAMBUFFER_ATTRIBUTEStructure, mstv.streambuffer_attribute, sbe/STREAMBUFFER_ATTRIBUTE
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\isvalidnlsversion.htm
 old-project: Intl
 ms.assetid: 29556DB4-E569-4161-9E47-149E4C12DD3B
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: IsValidNLSVersion, IsValidNLSVersion function [Internationalization for Windows Applications], intl.isvalidnlsversion, winnls/IsValidNLSVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

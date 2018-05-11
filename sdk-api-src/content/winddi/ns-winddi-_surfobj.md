@@ -7,7 +7,7 @@ old-location: display\surfobj.htm
 old-project: display
 ms.assetid: cee7cb50-1e8a-422b-aebe-7030ae96fb34
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: SURFOBJ, SURFOBJ structure [Display Devices], _SURFOBJ, display.surfobj, grstrcts_ef22095d-660f-4276-9a10-1ce7451327fc.xml, winddi/SURFOBJ
 ms.prod: windows-hardware
 ms.technology: windows-devices

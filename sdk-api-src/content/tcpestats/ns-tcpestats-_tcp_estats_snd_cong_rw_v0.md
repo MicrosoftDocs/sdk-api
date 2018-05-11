@@ -7,7 +7,7 @@ old-location: iphlp\tcp_estats_snd_cong_rw_v0.htm
 old-project: IpHlp
 ms.assetid: 7fc7fb6a-4486-450f-b60e-8cf07b33c79a
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: "*PTCP_ESTATS_SND_CONG_RW_v0, PTCP_ESTATS_SND_CONG_RW_v0, PTCP_ESTATS_SND_CONG_RW_v0 structure pointer [IP Helper], TCP_ESTATS_SND_CONG_RW_v0, TCP_ESTATS_SND_CONG_RW_v0 structure [IP Helper], _TCP_ESTATS_SND_CONG_RW_v0, iphlp.tcp_estats_snd_cong_rw_v0, tcpestats/PTCP_ESTATS_SND_CONG_RW_v0, tcpestats/TCP_ESTATS_SND_CONG_RW_v0"
 ms.prod: windows-hardware
 ms.technology: windows-devices

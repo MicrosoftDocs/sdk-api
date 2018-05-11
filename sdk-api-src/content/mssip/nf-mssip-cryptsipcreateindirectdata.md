@@ -7,7 +7,7 @@ old-location: security\cryptsipcreateindirectdata.htm
 old-project: SecCrypto
 ms.assetid: bb4ecc95-972f-415c-9722-59b00a27cddc
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CryptSIPCreateIndirectData, CryptSIPCreateIndirectData function [Security], mssip/CryptSIPCreateIndirectData, security.cryptsipcreateindirectdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\peergraphgetrecord.htm
 old-project: P2PSdk
 ms.assetid: 5e777c02-980c-42f9-add7-9568c86c2efe
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGraphGetRecord, PeerGraphGetRecord function [Peer Networking], p2p.peergraphgetrecord, p2p/PeerGraphGetRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

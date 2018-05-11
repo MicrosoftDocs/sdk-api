@@ -7,7 +7,7 @@ old-location: winsync\isynccallback_onchange.htm
 old-project: winsync
 ms.assetid: 16bcc448-8acc-4349-a5d1-0c0764afe2ec
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnChange method, ISyncCallback.OnChange, ISyncCallback::OnChange, OnChange, OnChange method [Windows Sync], OnChange method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onchange, winsync/ISyncCallback::OnChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

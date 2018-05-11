@@ -7,7 +7,7 @@ old-location: mscs\sr_resource_type_replicated_partition_array.htm
 old-project: MsCS
 ms.assetid: 3FD68FF6-3377-4EBF-95F4-94835ABB1274
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY structure [Failover Cluster], _SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, clusapi/PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, clusapi/SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY, mscs.sr_resource_type_replicated_partition_array"
 ms.prod: windows-hardware
 ms.technology: windows-devices

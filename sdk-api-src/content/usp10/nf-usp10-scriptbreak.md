@@ -7,7 +7,7 @@ old-location: intl\scriptbreak.htm
 old-project: Intl
 ms.assetid: 1613819f-9473-4d9f-8a65-a109c9ef3f43
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: ScriptBreak, ScriptBreak function [Internationalization for Windows Applications], _win32_ScriptBreak, intl.scriptbreak, usp10/ScriptBreak
 ms.prod: windows-hardware
 ms.technology: windows-devices

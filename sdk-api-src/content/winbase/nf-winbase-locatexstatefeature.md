@@ -7,7 +7,7 @@ old-location: base\locatexstatefeature.htm
 old-project: Debug
 ms.assetid: 7AAEA13B-E4A4-4410-BFC7-09B81B92FF26
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: LocateXStateFeature, LocateXStateFeature function, base.locatexstatefeature, winbase/LocateXStateFeature
 ms.prod: windows-hardware
 ms.technology: windows-devices

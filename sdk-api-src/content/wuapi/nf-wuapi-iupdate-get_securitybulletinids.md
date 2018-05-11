@@ -7,7 +7,7 @@ old-location: wua\iupdate_securitybulletinids.htm
 old-project: Wua_Sdk
 ms.assetid: 63de677b-4a0e-4ac6-937f-bf195a0da205
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IUpdate interface [Windows Update Agent],SecurityBulletinIDs property, IUpdate.SecurityBulletinIDs, IUpdate.get_SecurityBulletinIDs, IUpdate::SecurityBulletinIDs, IUpdate::get_SecurityBulletinIDs, SecurityBulletinIDs property [Windows Update Agent], SecurityBulletinIDs property [Windows Update Agent],IUpdate interface, get_SecurityBulletinIDs, wua.iupdate_securitybulletinids, wuapi/IUpdate::SecurityBulletinIDs, wuapi/IUpdate::get_SecurityBulletinIDs
 ms.prod: windows-hardware
 ms.technology: windows-devices

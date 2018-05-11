@@ -7,7 +7,7 @@ old-location: tapi3\cmspcallmultigraph_unregisterwaitevent.htm
 old-project: Tapi
 ms.assetid: a6d20bb9-fa50-4627-a3de-886cde4b8911
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],UnregisterWaitEvent method, CMSPCallMultiGraph.UnregisterWaitEvent, CMSPCallMultiGraph::UnregisterWaitEvent, UnregisterWaitEvent, UnregisterWaitEvent method [TAPI 2.2], UnregisterWaitEvent method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_unregisterwaitevent, mspcall/CMSPCallMultiGraph::UnregisterWaitEvent, tapi3.cmspcallmultigraph_unregisterwaitevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

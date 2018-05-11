@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_qualifierset_getqualifiercount.htm
 old-project: wmi_v2
 ms.assetid: 0027b8fc-0528-4aa8-85bc-088429e1e045
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_QualifierSet_GetQualifierCount, MI_QualifierSet_GetQualifierCount function [Windows Management Infrastructure (MI)], mi/MI_QualifierSet_GetQualifierCount, wmi_v2.mi_qualifierset_getqualifiercount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\iupdateexception.htm
 old-project: Wua_Sdk
 ms.assetid: 9e7458be-b411-4395-98f2-c92308f78371
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IUpdateException, IUpdateException interface [Windows Update Agent], IUpdateException interface [Windows Update Agent],described, wua.iupdateexception, wuapi/IUpdateException
 ms.prod: windows-hardware
 ms.technology: windows-devices

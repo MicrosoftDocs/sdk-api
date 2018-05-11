@@ -7,7 +7,7 @@ old-location: tsf\itffnreconversion_queryrange.htm
 old-project: TSF
 ms.assetid: 022d0ad7-5359-48df-b83b-2319eb1a84bf
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfFnReconversion interface [Text Services Framework],QueryRange method, ITfFnReconversion.QueryRange, ITfFnReconversion::QueryRange, QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework],ITfFnReconversion interface, _tsf_itffnreconversion_queryrange_ref, ctffunc/ITfFnReconversion::QueryRange, tsf.itffnreconversion_queryrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

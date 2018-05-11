@@ -7,7 +7,7 @@ old-location: mf\mfallocateworkqueue.htm
 old-project: medfound
 ms.assetid: 8def4375-919c-4619-9484-9ce2708a3886
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 8def4375-919c-4619-9484-9ce2708a3886, MFAllocateWorkQueue, MFAllocateWorkQueue function [Media Foundation], mf.mfallocateworkqueue, mfapi/MFAllocateWorkQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

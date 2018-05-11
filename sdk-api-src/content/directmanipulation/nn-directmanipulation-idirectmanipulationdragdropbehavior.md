@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationdragdropbehavior.htm
 old-project: directmanipulation
 ms.assetid: 99D99BB6-1DA1-4B49-88F8-16A9561A9098
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationDragDropBehavior, IDirectManipulationDragDropBehavior interface [Direct Manipulation], IDirectManipulationDragDropBehavior interface [Direct Manipulation],described, directmanipulation.idirectmanipulationdragdropbehavior, directmanipulation/IDirectManipulationDragDropBehavior
 ms.prod: windows-hardware
 ms.technology: windows-devices

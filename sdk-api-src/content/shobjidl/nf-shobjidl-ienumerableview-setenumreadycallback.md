@@ -7,7 +7,7 @@ old-location: shell\IEnumerableView_SetEnumReadyCallback.htm
 old-project: shell
 ms.assetid: af824c16-5bbf-4c75-88d0-b76519152360
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumerableView interface [Windows Shell],SetEnumReadyCallback method, IEnumerableView.SetEnumReadyCallback, IEnumerableView::SetEnumReadyCallback, SetEnumReadyCallback, SetEnumReadyCallback method [Windows Shell], SetEnumReadyCallback method [Windows Shell],IEnumerableView interface, _shell_IEnumerableView_SetEnumReadyCallback, shell.IEnumerableView_SetEnumReadyCallback, shobjidl/IEnumerableView::SetEnumReadyCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

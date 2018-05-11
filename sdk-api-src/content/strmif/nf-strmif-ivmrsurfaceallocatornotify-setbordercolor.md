@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocatornotify_setbordercolor.htm
 old-project: DirectShow
 ms.assetid: 29d4b9df-a498-4aff-8e85-51ede64d69dc
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IVMRSurfaceAllocatorNotify interface [DirectShow],SetBorderColor method, IVMRSurfaceAllocatorNotify.SetBorderColor, IVMRSurfaceAllocatorNotify::SetBorderColor, IVMRSurfaceAllocatorNotifySetBorderColor, SetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow],IVMRSurfaceAllocatorNotify interface, dshow.ivmrsurfaceallocatornotify_setbordercolor, strmif/IVMRSurfaceAllocatorNotify::SetBorderColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

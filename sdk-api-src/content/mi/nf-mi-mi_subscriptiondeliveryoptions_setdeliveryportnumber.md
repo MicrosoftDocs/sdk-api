@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions_setdeliveryportnumber.htm
 old-project: wmi_v2
 ms.assetid: e5498e1a-d08b-421f-ba31-35b1378af871
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetDeliveryPortNumber, MI_SubscriptionDeliveryOptions_SetDeliveryPortNumber function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetDeliveryPortNumber, wmi_v2.mi_subscriptiondeliveryoptions_setdeliveryportnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

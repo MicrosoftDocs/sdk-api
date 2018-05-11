@@ -7,7 +7,7 @@ old-location: winsync\ienumsyncchanges_next.htm
 old-project: winsync
 ms.assetid: 23b5f46f-87f3-431e-a253-d349eed27082
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumSyncChanges interface [Windows Sync],Next method, IEnumSyncChanges.Next, IEnumSyncChanges::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncChanges interface, winsync.ienumsyncchanges_next, winsync/IEnumSyncChanges::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

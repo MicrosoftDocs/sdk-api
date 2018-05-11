@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationmanager3_getservice.htm
 old-project: directmanipulation
 ms.assetid: 36f46402-ed71-41d8-8df5-02ef59819bb3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetService, GetService method [Direct Manipulation], GetService method [Direct Manipulation],IDirectManipulationManager3 interface, IDirectManipulationManager3 interface [Direct Manipulation],GetService method, IDirectManipulationManager3.GetService, IDirectManipulationManager3::GetService, directmanipulation.idirectmanipulationmanager3_getservice, directmanipulation/IDirectManipulationManager3::GetService
 ms.prod: windows-hardware
 ms.technology: windows-devices

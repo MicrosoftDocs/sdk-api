@@ -7,7 +7,7 @@ old-location: fwp\fwp_v6_addr_and_mask_struct.htm
 old-project: FWP
 ms.assetid: d8566d41-677a-424f-89f3-e333a0520288
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWP_V6_ADDR_AND_MASK, FWP_V6_ADDR_AND_MASK structure [Filtering], FWP_V6_ADDR_AND_MASK_, fwp.fwp_v6_addr_and_mask_struct, fwptypes/FWP_V6_ADDR_AND_MASK
 ms.prod: windows-hardware
 ms.technology: windows-devices

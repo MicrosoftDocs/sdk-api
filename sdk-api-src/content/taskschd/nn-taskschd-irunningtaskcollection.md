@@ -7,7 +7,7 @@ old-location: taskschd\irunningtaskcollection.htm
 old-project: TaskSchd
 ms.assetid: f95efba5-563d-49c0-81d3-143aa158ad8f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IRunningTaskCollection, IRunningTaskCollection interface [Task Scheduler], IRunningTaskCollection interface [Task Scheduler],described, taskschd.irunningtaskcollection, taskschd/IRunningTaskCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mib\mib_ipforward_table2.htm
 old-project: MIB
 ms.assetid: 9ba938e8-3395-4c9d-b1d2-b2c030783c16
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMIB_IPFORWARD_TABLE2, MIB_IPFORWARD_TABLE2, MIB_IPFORWARD_TABLE2 structure [MIB], PMIB_IPFORWARD_TABLE2, PMIB_IPFORWARD_TABLE2 structure pointer [MIB], _MIB_IPFORWARD_TABLE2, mib.mib_ipforward_table2, netioapi/MIB_IPFORWARD_TABLE2, netioapi/PMIB_IPFORWARD_TABLE2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

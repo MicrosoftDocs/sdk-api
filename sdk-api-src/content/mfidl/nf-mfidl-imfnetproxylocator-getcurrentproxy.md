@@ -7,7 +7,7 @@ old-location: mf\imfnetproxylocator_getcurrentproxy.htm
 old-project: medfound
 ms.assetid: 5bc9a87b-a6d5-4ae0-a3a2-9cef2df79272
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 5bc9a87b-a6d5-4ae0-a3a2-9cef2df79272, GetCurrentProxy, GetCurrentProxy method [Media Foundation], GetCurrentProxy method [Media Foundation],IMFNetProxyLocator interface, IMFNetProxyLocator interface [Media Foundation],GetCurrentProxy method, IMFNetProxyLocator.GetCurrentProxy, IMFNetProxyLocator::GetCurrentProxy, mf.imfnetproxylocator_getcurrentproxy, mfidl/IMFNetProxyLocator::GetCurrentProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

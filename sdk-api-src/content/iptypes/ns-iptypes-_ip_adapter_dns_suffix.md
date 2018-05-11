@@ -7,7 +7,7 @@ old-location: iphlp\ip_adapter_dns_suffix.htm
 old-project: IpHlp
 ms.assetid: 3730a406-2995-48f7-b70e-1cf8258ee4a6
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: "*PIP_ADAPTER_DNS_SUFFIX, IP_ADAPTER_DNS_SUFFIX, IP_ADAPTER_DNS_SUFFIX structure [IP Helper], PIP_ADAPTER_DNS_SUFFIX, PIP_ADAPTER_DNS_SUFFIX structure pointer [IP Helper], _IP_ADAPTER_DNS_SUFFIX, iphlp.ip_adapter_dns_suffix, iptypes/IP_ADAPTER_DNS_SUFFIX, iptypes/PIP_ADAPTER_DNS_SUFFIX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ListView_RemoveAllGroups.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_removeallgroups.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: ListView_RemoveAllGroups, ListView_RemoveAllGroups macro [Windows Controls], _win32_ListView_RemoveAllGroups, _win32_ListView_RemoveAllGroups_cpp, commctrl/ListView_RemoveAllGroups, controls.ListView_RemoveAllGroups, controls._win32_ListView_RemoveAllGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\peer_group_authentication_scheme.htm
 old-project: P2PSdk
 ms.assetid: 51bbbfdb-fa64-473b-aa48-2562512a2af3
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PEER_GROUP_AUTHENTICATION_SCHEME, PEER_GROUP_AUTHENTICATION_SCHEME enumeration [Peer Networking], PEER_GROUP_GMC_AUTHENTICATION, PEER_GROUP_PASSWORD_AUTHENTICATION, p2p.peer_group_authentication_scheme, p2p/PEER_GROUP_AUTHENTICATION_SCHEME, p2p/PEER_GROUP_GMC_AUTHENTICATION, p2p/PEER_GROUP_PASSWORD_AUTHENTICATION, peer_group_authentication_scheme_tag
 ms.prod: windows-hardware
 ms.technology: windows-devices

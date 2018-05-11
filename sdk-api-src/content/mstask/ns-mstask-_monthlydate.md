@@ -7,7 +7,7 @@ old-location: taskschd\monthlydate.htm
 old-project: TaskSchd
 ms.assetid: 51d010c9-4e16-49b7-8034-dfb27761c6a6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: MONTHLYDATE, MONTHLYDATE structure [Task Scheduler], TASK_APRIL, TASK_AUGUST, TASK_DECEMBER, TASK_FEBRUARY, TASK_JANUARY, TASK_JULY, TASK_JUNE, TASK_MARCH, TASK_MAY, TASK_NOVEMBER, TASK_OCTOBER, TASK_SEPTEMBER, _MONTHLYDATE, _msb_monthlydate, mstask/MONTHLYDATE, taskschd.monthlydate, triggers [Task Scheduler],structures,MONTHLYDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

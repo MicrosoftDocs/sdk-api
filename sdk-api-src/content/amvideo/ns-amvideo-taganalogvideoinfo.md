@@ -7,7 +7,7 @@ old-location: dshow\analogvideoinfo.htm
 old-project: DirectShow
 ms.assetid: c0c568ce-6834-4bfe-aaae-addfbc0218bd
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: ANALOGVIDEOINFO, ANALOGVIDEOINFO structure [DirectShow], ANALOGVIDEOINFOStructure, amvideo/ANALOGVIDEOINFO, dshow.analogvideoinfo, tagAnalogVideoInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

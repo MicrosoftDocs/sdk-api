@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiooutputselector.htm
 old-project: CoreAudio
 ms.assetid: 571a44b6-972f-4d75-a31f-0e02cf728764
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IAudioOutputSelector, IAudioOutputSelector interface [Core Audio], IAudioOutputSelector interface [Core Audio],described, coreaudio.iaudiooutputselector, devicetopology/IAudioOutputSelector
 ms.prod: windows-hardware
 ms.technology: windows-devices

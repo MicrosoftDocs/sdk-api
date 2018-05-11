@@ -7,7 +7,7 @@ old-location: wds\wdsbpgetoptionbuffer.htm
 old-project: Wds
 ms.assetid: 2bd4105d-0066-4c6b-a1c0-fe9b633a6ad6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsBpGetOptionBuffer, WdsBpGetOptionBuffer function [Windows Deployment Services], wds.wdsbpgetoptionbuffer, wdsbp/WdsBpGetOptionBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

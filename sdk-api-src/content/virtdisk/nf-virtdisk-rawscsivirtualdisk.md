@@ -7,7 +7,7 @@ old-location: vhd\rawscsivirtualdisk.htm
 old-project: VStor
 ms.assetid: AB766EC7-2D6E-44EB-9C5C-C840A77242CE
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: RawSCSIVirtualDisk, RawSCSIVirtualDisk function [VHD], vhd.rawscsivirtualdisk, virtdisk/RawSCSIVirtualDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices

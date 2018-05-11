@@ -7,7 +7,7 @@ old-location: mscs\clusregistrykeys_collection.htm
 old-project: MsCS
 ms.assetid: 888f70d9-6562-4add-895d-604f22d75307
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ClusRegistryKeys, ClusRegistryKeys collection [Failover Cluster], ClusRegistryKeys collection [Failover Cluster],described, ISClusRegistryKeys, _wolf_clusregistrykeys_collection, msclus/ClusRegistryKeys, mscs.clusregistrykeys_collection
 ms.prod: windows-hardware
 ms.technology: windows-devices

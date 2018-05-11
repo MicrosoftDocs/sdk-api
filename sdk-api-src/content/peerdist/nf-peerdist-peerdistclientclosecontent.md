@@ -7,7 +7,7 @@ old-location: p2p\peerdistclientclosecontent.htm
 old-project: P2PSdk
 ms.assetid: c55300b7-13b6-42bf-b673-56a5e077416d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerDistClientCloseContent, PeerDistClientCloseContent function [Peer Networking], p2p.peerdistclientclosecontent, peerdist/PeerDistClientCloseContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

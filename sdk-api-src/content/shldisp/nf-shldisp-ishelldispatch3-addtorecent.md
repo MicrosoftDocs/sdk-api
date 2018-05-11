@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch3_AddToRecent.htm
 old-project: shell
 ms.assetid: aa5aef31-7f3f-4cc4-949d-1484de243ef3
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: AddToRecent, AddToRecent method [Windows Shell], AddToRecent method [Windows Shell],IShellDispatch3 object, IShellDispatch3 object [Windows Shell],AddToRecent method, IShellDispatch3.AddToRecent, IShellDispatch3::AddToRecent, _shell_IShellDispatch3_AddToRecent, shell.IShellDispatch3_AddToRecent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\itriggercollection__newenum.htm
 old-project: TaskSchd
 ms.assetid: a5df593a-8771-4a96-a9dd-abd4e3f1721f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITriggerCollection interface [Task Scheduler],_NewEnum property, ITriggerCollection._NewEnum, ITriggerCollection.get__NewEnum, ITriggerCollection::_NewEnum, ITriggerCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],ITriggerCollection interface, get__NewEnum, taskschd.itriggercollection__newenum, taskschd/ITriggerCollection::_NewEnum, taskschd/ITriggerCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

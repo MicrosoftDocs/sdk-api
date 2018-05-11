@@ -7,7 +7,7 @@ old-location: fwp\fwpm_provider_context2.htm
 old-project: FWP
 ms.assetid: aa397a4e-07cc-4eee-8d0f-798901a5bb29
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT2, FWPM_PROVIDER_CONTEXT2 structure [Filtering], FWPM_PROVIDER_CONTEXT2_, FWPM_PROVIDER_CONTEXT_FLAG_DOWNLEVEL, FWPM_PROVIDER_CONTEXT_FLAG_PERSISTENT, fwp.fwpm_provider_context2, fwpmtypes/FWPM_PROVIDER_CONTEXT2
 ms.prod: windows-hardware
 ms.technology: windows-devices

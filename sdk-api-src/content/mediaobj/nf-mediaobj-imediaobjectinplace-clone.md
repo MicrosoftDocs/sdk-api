@@ -7,7 +7,7 @@ old-location: dshow\imediaobjectinplace_clone.htm
 old-project: DirectShow
 ms.assetid: 6660afa8-3502-4e88-925b-192e06346243
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IMediaObjectInPlace interface, IMediaObjectInPlace interface [DirectShow],Clone method, IMediaObjectInPlace.Clone, IMediaObjectInPlace::Clone, IMediaObjectInPlaceClone, dshow.imediaobjectinplace_clone, mediaobj/IMediaObjectInPlace::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\ipsecdospstatecreateenumhandle0.htm
 old-project: FWP
 ms.assetid: 5ceb78eb-bcbf-48fe-b2a9-52a687e5ce20
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPsecDospStateCreateEnumHandle0, IPsecDospStateCreateEnumHandle0 function [Filtering], fwp.ipsecdospstatecreateenumhandle0, fwpmu/IPsecDospStateCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

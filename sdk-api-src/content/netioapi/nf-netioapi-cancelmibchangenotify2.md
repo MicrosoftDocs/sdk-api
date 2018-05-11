@@ -7,7 +7,7 @@ old-location: iphlp\cancelmibchangenotify2.htm
 old-project: IpHlp
 ms.assetid: 81492118-7513-49a2-9c61-3ecfaf84cc2d
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: CancelMibChangeNotify2, CancelMibChangeNotify2 function [IP Helper], iphlp.cancelmibchangenotify2, netioapi/CancelMibChangeNotify2
 ms.prod: windows-hardware
 ms.technology: windows-devices

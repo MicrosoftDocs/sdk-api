@@ -7,7 +7,7 @@ old-location: tsf\iuimanagereventsink_onwindowopening.htm
 old-project: TSF
 ms.assetid: B384AC51-2544-429B-ADEC-1D45CCB178FB
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowOpening method, IUIManagerEventSink.OnWindowOpening, IUIManagerEventSink::OnWindowOpening, OnWindowOpening, OnWindowOpening method [Text Services Framework], OnWindowOpening method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowOpening, tsf.iuimanagereventsink_onwindowopening
 ms.prod: windows-hardware
 ms.technology: windows-devices

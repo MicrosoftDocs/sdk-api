@@ -7,7 +7,7 @@ old-location: coreaudio\iconnector_isconnected.htm
 old-project: CoreAudio
 ms.assetid: 56aaee41-bf55-4556-b3d3-b0548a0db37c
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IConnector interface [Core Audio],IsConnected method, IConnector.IsConnected, IConnector::IsConnected, IConnectorIsConnected, IsConnected, IsConnected method [Core Audio], IsConnected method [Core Audio],IConnector interface, coreaudio.iconnector_isconnected, devicetopology/IConnector::IsConnected
 ms.prod: windows-hardware
 ms.technology: windows-devices

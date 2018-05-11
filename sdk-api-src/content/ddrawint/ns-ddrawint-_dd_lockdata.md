@@ -7,7 +7,7 @@ old-location: display\dd_lockdata.htm
 old-project: display
 ms.assetid: 46de3dbb-abdf-4518-b62d-891efa5a949b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*PDD_LOCKDATA, DD_LOCKDATA, DD_LOCKDATA structure [Display Devices], _DD_LOCKDATA, ddrawint/DD_LOCKDATA, ddstrcts_8de05e54-e1e1-4773-982d-e48f7e051f7e.xml, display.dd_lockdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

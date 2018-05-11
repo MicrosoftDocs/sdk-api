@@ -7,7 +7,7 @@ old-location: mf\iadvancedmediacapturesettings.htm
 old-project: medfound
 ms.assetid: f99669a1-5e6e-4e3b-8907-5fb537ecadfe
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IAdvancedMediaCaptureSettings, IAdvancedMediaCaptureSettings interface [Media Foundation], IAdvancedMediaCaptureSettings interface [Media Foundation],described, mf.iadvancedmediacapturesettings, mfmediacapture/IAdvancedMediaCaptureSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

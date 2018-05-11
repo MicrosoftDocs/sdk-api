@@ -7,7 +7,7 @@ old-location: winsync\isyncsessionstate2.htm
 old-project: winsync
 ms.assetid: c98e675f-48f4-4ffa-bc81-18a58edd8c34
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncSessionState2, ISyncSessionState2 interface [Windows Sync], ISyncSessionState2 interface [Windows Sync],described, winsync.isyncsessionstate2, winsync/ISyncSessionState2
 ms.prod: windows-hardware
 ms.technology: windows-devices

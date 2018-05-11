@@ -7,7 +7,7 @@ old-location: of\iofflinefilesshareinfo_getshareitem.htm
 old-project: OfflineFiles
 ms.assetid: fd4f92fb-1147-4be4-a61d-04f2f371b6c6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetShareItem, GetShareItem method [Offline Files], GetShareItem method [Offline Files],IOfflineFilesShareInfo interface, IOfflineFilesShareInfo interface [Offline Files],GetShareItem method, IOfflineFilesShareInfo.GetShareItem, IOfflineFilesShareInfo::GetShareItem, cscobj/IOfflineFilesShareInfo::GetShareItem, of.iofflinefilesshareinfo_getshareitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

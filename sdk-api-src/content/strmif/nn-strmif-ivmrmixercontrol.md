@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol.htm
 old-project: DirectShow
 ms.assetid: 2aefaebc-14e7-4918-9256-c5e9e3449095
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IVMRMixerControl, IVMRMixerControl interface [DirectShow], IVMRMixerControl interface [DirectShow],described, IVMRMixerControlInterface, dshow.ivmrmixercontrol, strmif/IVMRMixerControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

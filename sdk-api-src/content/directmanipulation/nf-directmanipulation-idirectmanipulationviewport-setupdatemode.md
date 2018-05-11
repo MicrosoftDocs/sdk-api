@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_setupdatemode.htm
 old-project: directmanipulation
 ms.assetid: 10516474-f3ef-4de7-a5b5-aabaa5c65cf5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetUpdateMode method, IDirectManipulationViewport.SetUpdateMode, IDirectManipulationViewport::SetUpdateMode, SetUpdateMode, SetUpdateMode method [Direct Manipulation], SetUpdateMode method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setupdatemode, directmanipulation/IDirectManipulationViewport::SetUpdateMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

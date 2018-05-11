@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofiles_activatelanguageprofile.htm
 old-project: TSF
 ms.assetid: d25e5a11-8394-4fc5-b210-afa753223307
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ActivateLanguageProfile, ActivateLanguageProfile method [Text Services Framework], ActivateLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],ActivateLanguageProfile method, ITfInputProcessorProfiles.ActivateLanguageProfile, ITfInputProcessorProfiles::ActivateLanguageProfile, _tsf_itfinputprocessorprofiles_activatelanguageprofile_ref, msctf/ITfInputProcessorProfiles::ActivateLanguageProfile, tsf.itfinputprocessorprofiles_activatelanguageprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

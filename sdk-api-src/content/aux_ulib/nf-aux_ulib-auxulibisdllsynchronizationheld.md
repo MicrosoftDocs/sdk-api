@@ -7,7 +7,7 @@ old-location: winprog\auxulibisdllsynchronizationheld.htm
 old-project: DevNotes
 ms.assetid: fa2adb90-757c-4796-9842-e1f1a16d46fa
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: AuxUlibIsDLLSynchronizationHeld, AuxUlibIsDLLSynchronizationHeld function [Windows API], aux_ulib/AuxUlibIsDLLSynchronizationHeld, winprog.auxulibisdllsynchronizationheld
 ms.prod: windows-hardware
 ms.technology: windows-devices

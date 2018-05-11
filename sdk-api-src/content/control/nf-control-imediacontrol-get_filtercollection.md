@@ -7,7 +7,7 @@ old-location: dshow\imediacontrol_get_filtercollection.htm
 old-project: DirectShow
 ms.assetid: 9a14e971-365e-4061-8d07-01216e793864
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IMediaControl interface [DirectShow],get_FilterCollection method, IMediaControl.get_FilterCollection, IMediaControl::get_FilterCollection, IMediaControlget_FilterCollection, control/IMediaControl::get_FilterCollection, dshow.imediacontrol_get_filtercollection, get_FilterCollection, get_FilterCollection method [DirectShow], get_FilterCollection method [DirectShow],IMediaControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

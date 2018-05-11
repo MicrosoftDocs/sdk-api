@@ -7,7 +7,7 @@ old-location: wininet\internettimefromsystemtime.htm
 old-project: WinInet
 ms.assetid: b52ba402-bad1-4005-b9d0-7630194272d1
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: InternetTimeFromSystemTime, InternetTimeFromSystemTime function [WinINet], InternetTimeFromSystemTimeA, InternetTimeFromSystemTimeW, _inet_internettimefromsystemtime_function, wininet.internettimefromsystemtime, wininet/InternetTimeFromSystemTime, wininet/InternetTimeFromSystemTimeA, wininet/InternetTimeFromSystemTimeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

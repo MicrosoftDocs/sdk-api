@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronizeinvoke.htm
 old-project: shell
 ms.assetid: 993fd482-39e0-4966-ba71-eed7e4b54f72
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncMgrSynchronizeInvoke, ISyncMgrSynchronizeInvoke interface [Windows Shell], ISyncMgrSynchronizeInvoke interface [Windows Shell],described, mobsync/ISyncMgrSynchronizeInvoke, shell.syncmgr_isyncmgrsynchronizeinvoke, syncmgr.isyncmgrsynchronizeinvoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

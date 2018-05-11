@@ -7,8 +7,8 @@ old-location: controls\BP_BUFFERFORMAT.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\bp_bufferformat.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
-ms.keywords: BPBF_COMPATIBLEBITMAP, BPBF_DIB, BPBF_TOPDOWNDIB, BPBF_TOPDOWNMONODIB, BP_ANIMATIONSTYLE, BP_ANIMATIONSTYLE enumeration [Windows Controls], BP_BUFFERFORMAT, BP_BUFFERFORMAT enumeration [Windows Controls], _BP_BUFFERFORMAT, _shell_BP_BUFFERFORMAT, _shell_BP_BUFFERFORMAT_cpp, controls.BP_BUFFERFORMAT, controls._shell_BP_BUFFERFORMAT, uxtheme/BPBF_COMPATIBLEBITMAP, uxtheme/BPBF_DIB, uxtheme/BPBF_TOPDOWNDIB, uxtheme/BPBF_TOPDOWNMONODIB, uxtheme/BP_BUFFERFORMAT
+ms.date: 5/9/2018
+ms.keywords: BPBF_COMPATIBLEBITMAP, BPBF_DIB, BPBF_TOPDOWNDIB, BPBF_TOPDOWNMONODIB, BP_BUFFERFORMAT, BP_BUFFERFORMAT enumeration [Windows Controls], _BP_BUFFERFORMAT, _shell_BP_BUFFERFORMAT, _shell_BP_BUFFERFORMAT_cpp, controls.BP_BUFFERFORMAT, controls._shell_BP_BUFFERFORMAT, uxtheme/BPBF_COMPATIBLEBITMAP, uxtheme/BPBF_DIB, uxtheme/BPBF_TOPDOWNDIB, uxtheme/BPBF_TOPDOWNMONODIB, uxtheme/BP_BUFFERFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Uxtheme.h
 api_name:
--	BP_ANIMATIONSTYLE
+-	BP_BUFFERFORMAT
 product: Windows
 targetos: Windows
 req.lib: 

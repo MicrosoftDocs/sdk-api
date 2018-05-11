@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_getchannelcount.htm
 old-project: CoreAudio
 ms.assetid: 83fd9afe-9bca-4569-a705-0e366b56522e
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: GetChannelCount, GetChannelCount method [Core Audio], GetChannelCount method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetChannelCount method, IAudioEndpointVolume.GetChannelCount, IAudioEndpointVolume::GetChannelCount, IAudioEndpointVolumeGetChannelCount, coreaudio.iaudioendpointvolume_getchannelcount, endpointvolume/IAudioEndpointVolume::GetChannelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

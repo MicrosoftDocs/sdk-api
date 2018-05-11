@@ -7,7 +7,7 @@ old-location: winprog\fhservicestartbackup.htm
 old-project: DevNotes
 ms.assetid: 30800744-8605-4F8B-9B7A-50F57CC73483
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: FhServiceStartBackup, FhServiceStartBackup function [Windows API], fhsvcctl/FhServiceStartBackup, winprog.fhservicestartbackup
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfcontextcomposition_enumcompositions.htm
 old-project: TSF
 ms.assetid: 230daf27-2655-4d67-b183-cd0f0c855298
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: EnumCompositions, EnumCompositions method [Text Services Framework], EnumCompositions method [Text Services Framework],ITfContextComposition interface, ITfContextComposition interface [Text Services Framework],EnumCompositions method, ITfContextComposition.EnumCompositions, ITfContextComposition::EnumCompositions, _tsf_itfcontextcomposition_enumcompositions_ref, msctf/ITfContextComposition::EnumCompositions, tsf.itfcontextcomposition_enumcompositions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\iupdate_canrequiresource.htm
 old-project: Wua_Sdk
 ms.assetid: 45d1cdb1-6aab-4119-8cd5-a4217c9adc3e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: CanRequireSource property [Windows Update Agent], CanRequireSource property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],CanRequireSource property, IUpdate.CanRequireSource, IUpdate.get_CanRequireSource, IUpdate::CanRequireSource, IUpdate::get_CanRequireSource, get_CanRequireSource, wua.iupdate_canrequiresource, wuapi/IUpdate::CanRequireSource, wuapi/IUpdate::get_CanRequireSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

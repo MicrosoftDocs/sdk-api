@@ -7,7 +7,7 @@ old-location: rras\getservicecount.htm
 old-project: RRAS
 ms.assetid: 44ba90c0-a019-4aca-92e2-1e795cbd335d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: GetServiceCount, GetServiceCount callback function [RAS], PGET_SERVICE_COUNT, PGET_SERVICE_COUNT callback, _mpr_getservicecount, rras.getservicecount, stm/GetServiceCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

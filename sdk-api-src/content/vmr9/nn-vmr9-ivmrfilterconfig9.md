@@ -7,7 +7,7 @@ old-location: dshow\ivmrfilterconfig9.htm
 old-project: DirectShow
 ms.assetid: 089e44c8-6a27-410d-aad5-08816bd4f915
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IVMRFilterConfig9, IVMRFilterConfig9 interface [DirectShow], IVMRFilterConfig9 interface [DirectShow],described, IVMRFilterConfig9Interface, dshow.ivmrfilterconfig9, vmr9/IVMRFilterConfig9
 ms.prod: windows-hardware
 ms.technology: windows-devices

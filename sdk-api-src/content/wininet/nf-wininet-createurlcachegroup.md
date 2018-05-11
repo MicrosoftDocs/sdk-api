@@ -7,7 +7,7 @@ old-location: wininet\createurlcachegroup.htm
 old-project: WinInet
 ms.assetid: bea0bc3b-75fb-4147-a4bd-f4290dfbf290
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: CreateUrlCacheGroup, CreateUrlCacheGroup function [WinINet], _inet_createurlcachegroup_function, wininet.createurlcachegroup, wininet/CreateUrlCacheGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

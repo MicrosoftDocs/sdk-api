@@ -7,7 +7,7 @@ old-location: mib\mib_ipmcast_boundary.htm
 old-project: MIB
 ms.assetid: a3d900be-14c9-4ad9-bc2e-382849a6d1c6
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMIB_IPMCAST_BOUNDARY, MIB_IPMCAST_BOUNDARY, MIB_IPMCAST_BOUNDARY structure [MIB], PMIB_IPMCAST_BOUNDARY, PMIB_IPMCAST_BOUNDARY structure pointer [MIB], _MIB_IPMCAST_BOUNDARY, iprtrmib/MIB_IPMCAST_BOUNDARY, iprtrmib/PMIB_IPMCAST_BOUNDARY, mib.mib_ipmcast_boundary"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: indexsrv\cistate.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9syt.htm
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/9/2018
 ms.keywords: CIState, CIState function [Indexing Service], _idxs_CIState, indexsrv.cistate, ntquery/CIState
 ms.prod: windows-hardware
 ms.technology: windows-devices

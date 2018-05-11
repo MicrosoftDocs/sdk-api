@@ -7,7 +7,7 @@ old-location: rras\mgmgroupenumerationend.htm
 old-project: RRAS
 ms.assetid: 87a0bd96-c877-443e-a539-a31ab0971869
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MgmGroupEnumerationEnd, MgmGroupEnumerationEnd function [RAS], _mpr_mgmgroupenumerationend, mgm/MgmGroupEnumerationEnd, rras.mgmgroupenumerationend
 ms.prod: windows-hardware
 ms.technology: windows-devices

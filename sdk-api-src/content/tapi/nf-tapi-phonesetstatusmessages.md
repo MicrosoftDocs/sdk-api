@@ -7,7 +7,7 @@ old-location: tapi2\phonesetstatusmessages.htm
 old-project: Tapi
 ms.assetid: eb3b6ea8-447f-44df-a0fb-9ab50d6471f8
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_phonesetstatusmessages, phoneSetStatusMessages, phoneSetStatusMessages function [TAPI 2.2], tapi/phoneSetStatusMessages, tapi2.phonesetstatusmessages"
 ms.prod: windows-hardware
 ms.technology: windows-devices

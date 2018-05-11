@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions_setmaximumlatency.htm
 old-project: wmi_v2
 ms.assetid: d28f4add-0f1c-4a9d-be0a-d91b1c8d9fc4
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetMaximumLatency, MI_SubscriptionDeliveryOptions_SetMaximumLatency function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetMaximumLatency, wmi_v2.mi_subscriptiondeliveryoptions_setmaximumlatency
 ms.prod: windows-hardware
 ms.technology: windows-devices

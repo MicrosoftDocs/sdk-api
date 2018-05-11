@@ -7,8 +7,8 @@ old-location: winrm\wsman_plugin_receive.htm
 old-project: WinRM
 ms.assetid: 59dff87b-17d5-4875-ad24-1520a04b05d2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: WSManPluginReceive, WSManPluginReceive callback function [Windows Remote Management], winrm.wsman_plugin_receive, wsman/WSMAN_PLUGIN_RECEIVE, wsman/WSManPluginReceive
+ms.date: 5/8/2018
+ms.keywords: WSMAN_PLUGIN_RECEIVE, WSMAN_PLUGIN_RECEIVE callback, WSMAN_PLUGIN_RECEIVE callback function [Windows Remote Management], WSManPluginReceive, winrm.wsman_plugin_receive, wsman/WSMAN_PLUGIN_RECEIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Wsman.h
 api_name:
--	WSManPluginReceive
+-	WSMAN_PLUGIN_RECEIVE
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# WSMAN_PLUGIN_RECEIVE callback
+# WSMAN_PLUGIN_RECEIVE callback function
 
 
 ## -description

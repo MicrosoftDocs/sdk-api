@@ -7,7 +7,7 @@ old-location: winprog\_lopen.htm
 old-project: DevNotes
 ms.assetid: E920F688-C694-44A6-ABD3-5414C4F01839
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: "_lopen, _lopen function [Windows API], winbase/_lopen, winprog._lopen"
 ms.prod: windows-hardware
 ms.technology: windows-devices

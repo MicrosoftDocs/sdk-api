@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth8_assignchanneltobuses.htm
 old-project: audio
 ms.assetid: 311C64D2-2455-4A1D-98F1-13313011CDB3
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/8/2018
 ms.keywords: AssignChannelToBuses, AssignChannelToBuses method [Audio Devices], AssignChannelToBuses method [Audio Devices],IDirectMusicSynth8 interface, IDirectMusicSynth8 interface [Audio Devices],AssignChannelToBuses method, IDirectMusicSynth8.AssignChannelToBuses, IDirectMusicSynth8::AssignChannelToBuses, audio.idirectmusicsynth8_assignchanneltobuses, dmusics/IDirectMusicSynth8::AssignChannelToBuses
 ms.prod: windows-hardware
 ms.technology: windows-devices

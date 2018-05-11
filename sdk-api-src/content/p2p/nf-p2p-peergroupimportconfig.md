@@ -7,7 +7,7 @@ old-location: p2p\peergroupimportconfig.htm
 old-project: P2PSdk
 ms.assetid: e459f2f9-b118-4e22-8b32-65d389795664
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGroupImportConfig, PeerGroupImportConfig function [Peer Networking], p2p.peergroupimportconfig, p2p/PeerGroupImportConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

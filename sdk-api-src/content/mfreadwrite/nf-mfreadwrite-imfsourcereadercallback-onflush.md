@@ -7,7 +7,7 @@ old-location: mf\imfsourcereadercallback_onflush.htm
 old-project: medfound
 ms.assetid: a8273b0a-a75a-453f-bb42-38d554e44262
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFSourceReaderCallback interface [Media Foundation],OnFlush method, IMFSourceReaderCallback.OnFlush, IMFSourceReaderCallback::OnFlush, OnFlush, OnFlush method [Media Foundation], OnFlush method [Media Foundation],IMFSourceReaderCallback interface, mf.imfsourcereadercallback_onflush, mfreadwrite/IMFSourceReaderCallback::OnFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices

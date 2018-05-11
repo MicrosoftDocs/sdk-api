@@ -7,7 +7,7 @@ old-location: directcomp\idcompositiongaussianblureffect_setstandarddeviation_ov
 old-project: directcomp
 ms.assetid: 2e911c48-69c2-1c71-cc41-a501b13a0ee2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: SetStandardDeviation, SetStandardDeviation methods [DirectComposition], dcomp/SetStandardDeviation, directcomp.idcompositiongaussianblureffect_setstandarddeviation_overloaded, idcompositiongaussianblureffect::SetStandardDeviation
 ms.prod: windows-hardware
 ms.technology: windows-devices

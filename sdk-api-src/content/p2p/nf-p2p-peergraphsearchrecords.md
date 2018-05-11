@@ -7,7 +7,7 @@ old-location: p2p\peergraphsearchrecords.htm
 old-project: P2PSdk
 ms.assetid: 0f20c738-ae56-4352-a1fb-5aa469a58bc8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGraphSearchRecords, PeerGraphSearchRecords function [Peer Networking], p2p.peergraphsearchrecords, p2p/PeerGraphSearchRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: of\iofflinefilestransparentcacheinfo.htm
 old-project: OfflineFiles
 ms.assetid: 49c8213c-e8a1-4cb8-9b58-120fc0982b7b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IOfflineFilesTransparentCacheInfo, IOfflineFilesTransparentCacheInfo interface [Offline Files], IOfflineFilesTransparentCacheInfo interface [Offline Files],described, cscobj/IOfflineFilesTransparentCacheInfo, of.iofflinefilestransparentcacheinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

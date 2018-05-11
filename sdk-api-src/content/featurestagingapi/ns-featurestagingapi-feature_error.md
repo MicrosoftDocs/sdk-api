@@ -7,7 +7,7 @@ old-location: winprog\feature_error.htm
 old-project: DevNotes
 ms.assetid: D289E97E-CEA7-408E-98D5-44A5B07B512A
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: FEATURE_ERROR, FEATURE_ERROR structure [Windows API], featurestagingapi/FEATURE_ERROR, winprog.feature_error
 ms.prod: windows-hardware
 ms.technology: windows-devices

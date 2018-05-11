@@ -7,7 +7,7 @@ old-location: wmformat\iwmregistereddevice_setattributebyname.htm
 old-project: wmformat
 ms.assetid: 49562f2a-1bb5-46d7-81cc-c13b66cf691f
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],SetAttributeByName method, IWMRegisteredDevice.SetAttributeByName, IWMRegisteredDevice::SetAttributeByName, IWMRegisteredDeviceSetAttributeByName, SetAttributeByName, SetAttributeByName method [windows Media Format], SetAttributeByName method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_setattributebyname, wmsdkidl/IWMRegisteredDevice::SetAttributeByName
 ms.prod: windows-hardware
 ms.technology: windows-devices

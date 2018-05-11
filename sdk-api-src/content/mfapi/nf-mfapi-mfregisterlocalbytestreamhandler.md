@@ -7,7 +7,7 @@ old-location: mf\mfregisterlocalbytestreamhandler.htm
 old-project: medfound
 ms.assetid: B41FAA50-9CF7-4DD0-8571-1817C7C49276
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MFRegisterLocalByteStreamHandler, MFRegisterLocalByteStreamHandler function [Media Foundation], mf.mfregisterlocalbytestreamhandler, mfapi/MFRegisterLocalByteStreamHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\drawdibend.htm
 old-project: Multimedia
 ms.assetid: 717f5404-b089-4556-8435-73ba5c52723a
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: DrawDibEnd, DrawDibEnd function [Windows Multimedia], _win32_DrawDibEnd, multimedia.drawdibend, vfw/DrawDibEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

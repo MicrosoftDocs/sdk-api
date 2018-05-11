@@ -7,7 +7,7 @@ old-location: fwp\fwpm_layer_statistics0.htm
 old-project: FWP
 ms.assetid: cc8e0159-fe28-4718-b5fe-d38d180b3e2c
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_LAYER_STATISTICS0, FWPM_LAYER_STATISTICS0 structure [Filtering], FWPM_LAYER_STATISTICS0_, fwp.fwpm_layer_statistics0, fwpmtypes/FWPM_LAYER_STATISTICS0
 ms.prod: windows-hardware
 ms.technology: windows-devices

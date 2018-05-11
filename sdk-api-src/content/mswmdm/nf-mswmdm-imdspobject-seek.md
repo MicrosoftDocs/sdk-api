@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject_seek.htm
 old-project: WMDM
 ms.assetid: 89494180-9dd7-41f3-b510-a59c38415d75
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Seek method, IMDSPObject.Seek, IMDSPObject::Seek, IMDSPObjectSeek, Seek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Seek, wmdm.imdspobject_seek
 ms.prod: windows-hardware
 ms.technology: windows-devices

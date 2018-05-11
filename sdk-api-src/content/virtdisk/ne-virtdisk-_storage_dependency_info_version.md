@@ -7,7 +7,7 @@ old-location: vhd\storage_dependency_info_version.htm
 old-project: VStor
 ms.assetid: 80437477-3f5e-4dac-a773-9339c5b742e2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: STORAGE_DEPENDENCY_INFO_VERSION, STORAGE_DEPENDENCY_INFO_VERSION enumeration [VHD], STORAGE_DEPENDENCY_INFO_VERSION_1, STORAGE_DEPENDENCY_INFO_VERSION_2, STORAGE_DEPENDENCY_INFO_VERSION_UNSPECIFIED, _STORAGE_DEPENDENCY_INFO_VERSION, vhd.storage_dependency_info_version, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION_1, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION_2, virtdisk/STORAGE_DEPENDENCY_INFO_VERSION_UNSPECIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices

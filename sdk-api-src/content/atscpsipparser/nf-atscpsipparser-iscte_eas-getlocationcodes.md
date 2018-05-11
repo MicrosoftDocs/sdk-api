@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getlocationcodes.htm
 old-project: mstv
 ms.assetid: 31fa68d4-1719-4a93-bec9-6a7ba4f36c0b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetLocationCodes, GetLocationCodes method [Microsoft TV Technologies], GetLocationCodes method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetLocationCodes method, ISCTE_EAS.GetLocationCodes, ISCTE_EAS::GetLocationCodes, ISCTE_EASGetLocationCodes, atscpsipparser/ISCTE_EAS::GetLocationCodes, mstv.iscte_eas_getlocationcodes
 ms.prod: windows-hardware
 ms.technology: windows-devices

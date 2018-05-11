@@ -7,7 +7,7 @@ old-location: controls\itexthost2_txdestroycaret.htm
 old-project: Controls
 ms.assetid: 627FEF54-FD74-4A41-89FC-E02EBD29D18A
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxDestroyCaret method, ITextHost2.TxDestroyCaret, ITextHost2::TxDestroyCaret, TxDestroyCaret, TxDestroyCaret method [Windows Controls], TxDestroyCaret method [Windows Controls],ITextHost2 interface, controls.itexthost2_txdestroycaret, textserv/ITextHost2::TxDestroyCaret
 ms.prod: windows-hardware
 ms.technology: windows-devices

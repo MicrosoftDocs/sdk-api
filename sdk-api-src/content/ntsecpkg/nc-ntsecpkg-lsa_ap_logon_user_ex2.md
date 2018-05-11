@@ -7,7 +7,7 @@ old-location: security\lsaaplogonuserex2.htm
 old-project: SecAuthN
 ms.assetid: 002ac773-bd46-49b5-b54c-6b8f5d5ef9f7
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: LSA_AP_LOGON_USER_EX2, LsaApLogonUserEx2, LsaApLogonUserEx2 function [Security], STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsaaplogonuserex2, ntsecpkg/LsaApLogonUserEx2, security.lsaaplogonuserex2
 ms.prod: windows-hardware
 ms.technology: windows-devices

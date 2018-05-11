@@ -7,7 +7,7 @@ old-location: multimedia\capdrivergetname.htm
 old-project: Multimedia
 ms.assetid: 50a5563d-5872-4cfd-a600-be83beceb0fe
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: "_win32_capDriverGetName, capDriverGetName, capDriverGetName macro [Windows Multimedia], multimedia.capdrivergetname, vfw/capDriverGetName"
 ms.prod: windows-hardware
 ms.technology: windows-devices

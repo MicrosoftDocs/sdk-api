@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationcompositor_addcontent.htm
 old-project: directmanipulation
 ms.assetid: 16c1a911-43cb-4c18-9e29-12a69b715e6a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: AddContent, AddContent method [Direct Manipulation], AddContent method [Direct Manipulation],IDirectManipulationCompositor interface, IDirectManipulationCompositor interface [Direct Manipulation],AddContent method, IDirectManipulationCompositor.AddContent, IDirectManipulationCompositor::AddContent, directmanipulation.idirectmanipulationcompositor_addcontent, directmanipulation/IDirectManipulationCompositor::AddContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

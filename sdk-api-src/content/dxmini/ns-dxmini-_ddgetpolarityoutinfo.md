@@ -7,7 +7,7 @@ old-location: display\ddgetpolarityoutinfo.htm
 old-project: display
 ms.assetid: 191d6c79-6f73-44f9-8016-912e4bb70453
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*PDDGETPOLARITYOUTINFO, DDGETPOLARITYOUTINFO, DDGETPOLARITYOUTINFO structure [Display Devices], PDDGETPOLARITYOUTINFO, PDDGETPOLARITYOUTINFO structure pointer [Display Devices], Video_Structs_eec12c7a-29ad-4c50-b85e-a78342fcbd8a.xml, _DDGETPOLARITYOUTINFO, display.ddgetpolarityoutinfo, dxmini/DDGETPOLARITYOUTINFO, dxmini/PDDGETPOLARITYOUTINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

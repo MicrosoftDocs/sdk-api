@@ -7,7 +7,7 @@ old-location: security\wlx_dispatch_version_1_2.htm
 old-project: SecAuthN
 ms.assetid: d6b3444f-ee74-40b3-a729-304c8e50195b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PWLX_DISPATCH_VERSION_1_2, PWLX_DISPATCH_VERSION_1_2, PWLX_DISPATCH_VERSION_1_2 structure pointer [Security], WLX_DISPATCH_VERSION_1_2, WLX_DISPATCH_VERSION_1_2 structure [Security], _WLX_DISPATCH_VERSION_1_2, _gina_wlx_dispatch_version_1_2, security.wlx_dispatch_version_1_2, winwlx/PWLX_DISPATCH_VERSION_1_2, winwlx/WLX_DISPATCH_VERSION_1_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

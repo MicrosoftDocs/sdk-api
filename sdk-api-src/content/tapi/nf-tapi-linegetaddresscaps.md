@@ -7,7 +7,7 @@ old-location: tapi2\linegetaddresscaps.htm
 old-project: Tapi
 ms.assetid: 08cdea8a-5b36-428c-b90f-8741ae5f3205
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_linegetaddresscaps, lineGetAddressCaps, lineGetAddressCaps function [TAPI 2.2], lineGetAddressCapsA, lineGetAddressCapsW, tapi/lineGetAddressCaps, tapi/lineGetAddressCapsA, tapi/lineGetAddressCapsW, tapi2.linegetaddresscaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\symenumlines.htm
 old-project: Debug
 ms.assetid: d518b320-e4db-4bd1-8221-583eb84c292c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: SymEnumLines, SymEnumLines function, SymEnumLinesW, base.symenumlines, dbghelp/SymEnumLines, dbghelp/SymEnumLinesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

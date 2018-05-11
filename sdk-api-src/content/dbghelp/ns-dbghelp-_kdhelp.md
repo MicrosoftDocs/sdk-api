@@ -7,7 +7,7 @@ old-location: base\kdhelp64_str.htm
 old-project: Debug
 ms.assetid: da31c92c-0257-4ae2-8d69-ea8cd58adc10
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: "*PKDHELP, KDHELP, KDHELP structure, KDHELP64, KDHELP64 structure, PKDHELP64, PKDHELP64 structure pointer, _KDHELP, _KDHELP64, _win32_kdhelp64_str, base.kdhelp64_str, dbghelp/KDHELP64, dbghelp/PKDHELP64"
 ms.prod: windows-hardware
 ms.technology: windows-devices

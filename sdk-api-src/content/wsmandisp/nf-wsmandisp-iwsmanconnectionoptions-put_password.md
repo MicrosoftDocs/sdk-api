@@ -7,7 +7,7 @@ old-location: winrm\iwsmanconnectionoptions_password.htm
 old-project: WinRM
 ms.assetid: 864279c0-1bb5-43dc-9636-35619199beb4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: IWSManConnectionOptions interface [Windows Remote Management],Password property, IWSManConnectionOptions.Password, IWSManConnectionOptions.put_Password, IWSManConnectionOptions::Password, IWSManConnectionOptions::put_Password, Password property [Windows Remote Management], Password property [Windows Remote Management],IWSManConnectionOptions interface, put_Password, winrm.iwsmanconnectionoptions_password, wsmandisp/IWSManConnectionOptions::Password, wsmandisp/IWSManConnectionOptions::put_Password
 ms.prod: windows-hardware
 ms.technology: windows-devices

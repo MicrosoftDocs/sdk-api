@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmlogger_reset.htm
 old-project: WMDM
 ms.assetid: 1b26aede-0db4-4597-8494-7fd5e5cba857
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],Reset method, IWMDMLogger.Reset, IWMDMLogger::Reset, IWMDMLoggerReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_reset, wmdmlog/IWMDMLogger::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\idvbdatabroadcastdescriptor_getlangid.htm
 old-project: mstv
 ms.assetid: 56fc47d6-042e-48ad-a0b8-39646453a6af
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetLangID, GetLangID method [Microsoft TV Technologies], GetLangID method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetLangID method, IDvbDataBroadcastDescriptor.GetLangID, IDvbDataBroadcastDescriptor::GetLangID, dvbsiparser/IDvbDataBroadcastDescriptor::GetLangID, mstv.idvbdatabroadcastdescriptor_getlangid
 ms.prod: windows-hardware
 ms.technology: windows-devices

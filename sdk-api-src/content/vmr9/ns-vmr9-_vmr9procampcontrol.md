@@ -7,7 +7,7 @@ old-location: dshow\vmr9procampcontrol.htm
 old-project: DirectShow
 ms.assetid: c4395344-e659-4e5a-aba0-ee27e65fe2cc
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: VMR9ProcAmpControl, VMR9ProcAmpControl structure [DirectShow], VMR9ProcAmpControlStructure, _VMR9ProcAmpControl, dshow.vmr9procampcontrol, vmr9/VMR9ProcAmpControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

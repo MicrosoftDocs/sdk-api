@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_priority_effect.htm
 old-project: UIAnimation
 ms.assetid: 2da8fa3b-0947-46cb-bdb1-725da08b9aaa
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: UI_ANIMATION_PRIORITY_EFFECT, UI_ANIMATION_PRIORITY_EFFECT enumeration [Windows Animation], UI_ANIMATION_PRIORITY_EFFECT_DELAY, UI_ANIMATION_PRIORITY_EFFECT_FAILURE, __MIDL___MIDL_itf_UIAnimation_0000_0008_0001, uianimation.ui_animation_priority_effect, uianimation/UI_ANIMATION_PRIORITY_EFFECT, uianimation/UI_ANIMATION_PRIORITY_EFFECT_DELAY, uianimation/UI_ANIMATION_PRIORITY_EFFECT_FAILURE
 ms.prod: windows-hardware
 ms.technology: windows-devices

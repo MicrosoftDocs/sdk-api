@@ -7,7 +7,7 @@ old-location: mscs\openclustergroup.htm
 old-project: MsCS
 ms.assetid: 0c7ef9d9-d32b-448e-9e07-6befb9b3e338
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PCLUSAPI_OPEN_CLUSTER_GROUP, PCLUSAPI_OPEN_CLUSTER_GROUP callback, PCLUSAPI_OPEN_CLUSTER_GROUP callback function [Failover Cluster], _wolf_openclustergroup, clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP, mscs.openclustergroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

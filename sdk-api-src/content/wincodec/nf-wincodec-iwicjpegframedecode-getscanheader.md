@@ -2,13 +2,13 @@
 UID: NF:wincodec.IWICJpegFrameDecode.GetScanHeader
 title: IWICJpegFrameDecode::GetScanHeader
 author: windows-driver-content
-description: Retrieves header data from the entire frame.
-old-location: wic\iwicjpegframedecode_getframeheader.htm
+description: Retrieves parameters from the Start Of Scan (SOS) marker for the scan with the specified index.
+old-location: wic\iwicjpegframedecode_getscanheader.htm
 old-project: wic
-ms.assetid: CE29251F-C2E2-422B-B6BD-034D6B479009
+ms.assetid: FD434498-CC04-4702-ACD3-EDD1DDE0B3AA
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: GetScanHeader, GetScanHeader method [Windows Imaging Component], GetScanHeader method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetScanHeader method, IWICJpegFrameDecode.GetScanHeader, IWICJpegFrameDecode::GetScanHeader, wic.iwicjpegframedecode_getframeheader, wincodec/IWICJpegFrameDecode::GetScanHeader
+ms.date: 5/9/2018
+ms.keywords: GetScanHeader, GetScanHeader method [Windows Imaging Component], GetScanHeader method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetScanHeader method, IWICJpegFrameDecode.GetScanHeader, IWICJpegFrameDecode::GetScanHeader, wic.iwicjpegframedecode_getscanheader, wincodec/IWICJpegFrameDecode::GetScanHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,7 +50,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Retrieves  header data from the entire frame.  The result includes parameters from the Start Of Frame (SOF) marker for the scan as well as parameters derived from other metadata such as the color model of the compressed data.
+Retrieves parameters from the Start Of Scan (SOS) marker for the scan with the specified index.
 
 
 ## -parameters
@@ -60,19 +60,14 @@ Retrieves  header data from the entire frame.  The result includes parameters fr
 
 ### -param scanIndex
 
+Type: <b>UINT</b>
+
+The index of the scan for which header data is retrieved.
 
 
+### -param pScanHeader [out]
 
-### -param pScanHeader
-
-
-
-
-
-
-#### - pFrameHeader [out]
-
-Type: <b><a href="https://msdn.microsoft.com/BB207D78-9E27-49A4-91E4-601CED109389">WICJpegFrameHeader</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/87A36F9B-CD6B-4343-AAA7-9FDBAD41E38A">WICJpegScanHeader</a>*</b>
 
 A pointer that receives the frame header data.
 
@@ -94,10 +89,6 @@ Returns S_OK on successful completion.
 
 
 <a href="https://msdn.microsoft.com/E6310320-53A8-40F1-8964-D21D8054E1B8">IWICJpegFrameDecode</a>
-
-
-
-<a href="https://msdn.microsoft.com/BB207D78-9E27-49A4-91E4-601CED109389">WICJpegFrameHeader</a>
  
 
  

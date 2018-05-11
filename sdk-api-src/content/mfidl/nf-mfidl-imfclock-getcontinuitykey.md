@@ -7,7 +7,7 @@ old-location: mf\imfclock_getcontinuitykey.htm
 old-project: medfound
 ms.assetid: 8afda8c7-bab6-40fd-b20c-6bb29ed4900f
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 8afda8c7-bab6-40fd-b20c-6bb29ed4900f, GetContinuityKey, GetContinuityKey method [Media Foundation], GetContinuityKey method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetContinuityKey method, IMFClock.GetContinuityKey, IMFClock::GetContinuityKey, mf.imfclock_getcontinuitykey, mfidl/IMFClock::GetContinuityKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\immdisabletextframeservice.htm
 old-project: Intl
 ms.assetid: ce294f9e-ba0b-460d-8685-85371af8a7e6
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: ImmDisableTextFrameService, ImmDisableTextFrameService function [Internationalization for Windows Applications], _win32_ImmDisableTextFrameService, imm/ImmDisableTextFrameService, intl.immdisabletextframeservice
 ms.prod: windows-hardware
 ms.technology: windows-devices

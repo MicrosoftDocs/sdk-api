@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatelistuielement_getcount.htm
 old-project: TSF
 ms.assetid: 9009203a-71d1-49b2-823d-d6f04bf3743b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: GetCount, GetCount method [Text Services Framework], GetCount method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetCount method, ITfCandidateListUIElement.GetCount, ITfCandidateListUIElement::GetCount, msctf/ITfCandidateListUIElement::GetCount, tsf.itfcandidatelistuielement_getcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

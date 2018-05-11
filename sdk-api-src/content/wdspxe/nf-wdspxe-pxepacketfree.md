@@ -7,7 +7,7 @@ old-location: wds\pxepacketfree.htm
 old-project: Wds
 ms.assetid: de93d42d-9c46-4944-a6e9-5dd72b8a3278
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: PxePacketFree, PxePacketFree function [Windows Deployment Services], wds.pxepacketfree, wdspxe/PxePacketFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

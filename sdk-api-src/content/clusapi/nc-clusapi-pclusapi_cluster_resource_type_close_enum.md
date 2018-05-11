@@ -7,7 +7,7 @@ old-location: mscs\clusterresourcetypecloseenum.htm
 old-project: MsCS
 ms.assetid: c6524604-7a73-414c-95bb-dce9524f3295
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM callback, PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM callback function [Failover Cluster], _wolf_clusterresourcetypecloseenum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_CLOSE_ENUM, mscs.clusterresourcetypecloseenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

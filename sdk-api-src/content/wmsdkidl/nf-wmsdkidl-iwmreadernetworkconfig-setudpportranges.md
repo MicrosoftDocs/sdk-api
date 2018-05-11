@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_setudpportranges.htm
 old-project: wmformat
 ms.assetid: 9a61943a-8ff9-4504-b76f-25e3c5c8d4a4
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetUDPPortRanges method, IWMReaderNetworkConfig.SetUDPPortRanges, IWMReaderNetworkConfig::SetUDPPortRanges, IWMReaderNetworkConfigSetUDPPortRanges, SetUDPPortRanges, SetUDPPortRanges method [windows Media Format], SetUDPPortRanges method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setudpportranges, wmsdkidl/IWMReaderNetworkConfig::SetUDPPortRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

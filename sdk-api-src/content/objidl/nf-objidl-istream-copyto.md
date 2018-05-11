@@ -7,7 +7,7 @@ old-location: stg\istream_copyto.htm
 old-project: Stg
 ms.assetid: 5bcd7da6-8bd5-4ab7-952f-f0a12e87f2d4
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: CopyTo, CopyTo method [Structured Storage], CopyTo method [Structured Storage],IStream interface, IStream interface [Structured Storage],CopyTo method, IStream.CopyTo, IStream::CopyTo, _stg_istream_copyto, objidl/IStream::CopyTo, stg.istream_copyto
 ms.prod: windows-hardware
 ms.technology: windows-devices

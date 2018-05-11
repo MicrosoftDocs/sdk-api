@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_Open.htm
 old-project: shell
 ms.assetid: 30FE669A-4AFD-4dfa-9F62-E62E744469C7
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IShellDispatch object [Windows Shell],Open method, IShellDispatch.Open, IShellDispatch::Open, Open, Open method [Windows Shell], Open method [Windows Shell],IShellDispatch object, shell.IShellDispatch_Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

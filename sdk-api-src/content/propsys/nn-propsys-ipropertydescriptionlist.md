@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescriptionList.htm
 old-project: properties
 ms.assetid: e0530195-27da-4df7-884f-518e905f3c0e
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: IPropertyDescriptionList, IPropertyDescriptionList interface [Windows Properties], IPropertyDescriptionList interface [Windows Properties],described, _shell_IPropertyDescriptionList, properties.IPropertyDescriptionList, propsys/IPropertyDescriptionList, shell.IPropertyDescriptionList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wds\wdsbpclosehandle.htm
 old-project: Wds
 ms.assetid: b35ec3e2-7dd5-4e17-b657-72bafe91921a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsBpCloseHandle, WdsBpCloseHandle function [Windows Deployment Services], wds.wdsbpclosehandle, wdsbp/WdsBpCloseHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

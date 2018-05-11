@@ -7,7 +7,7 @@ old-location: taskschd\itasksettings_deleteexpiredtaskafter.htm
 old-project: TaskSchd
 ms.assetid: c6a2a12d-a41a-4fd8-a328-bce0fe19deba
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: DeleteExpiredTaskAfter property [Task Scheduler], DeleteExpiredTaskAfter property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],DeleteExpiredTaskAfter property, ITaskSettings.DeleteExpiredTaskAfter, ITaskSettings.get_DeleteExpiredTaskAfter, ITaskSettings::DeleteExpiredTaskAfter, ITaskSettings::get_DeleteExpiredTaskAfter, ITaskSettings::put_DeleteExpiredTaskAfter, get_DeleteExpiredTaskAfter, taskschd.itasksettings_deleteexpiredtaskafter, taskschd/ITaskSettings::DeleteExpiredTaskAfter, taskschd/ITaskSettings::get_DeleteExpiredTaskAfter, taskschd/ITaskSettings::put_DeleteExpiredTaskAfter
 ms.prod: windows-hardware
 ms.technology: windows-devices

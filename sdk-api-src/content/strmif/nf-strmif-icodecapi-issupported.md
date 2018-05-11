@@ -7,7 +7,7 @@ old-location: dshow\icodecapi_issupported.htm
 old-project: DirectShow
 ms.assetid: 6f556532-1a49-45c1-b446-89c05e8a8237
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: ICodecAPI interface [DirectShow],IsSupported method, ICodecAPI.IsSupported, ICodecAPI::IsSupported, ICodecAPIIsSupported, IsSupported, IsSupported method [DirectShow], IsSupported method [DirectShow],ICodecAPI interface, dshow.icodecapi_issupported, strmif/ICodecAPI::IsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

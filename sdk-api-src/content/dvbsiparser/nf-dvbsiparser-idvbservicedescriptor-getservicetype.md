@@ -7,7 +7,7 @@ old-location: mstv\idvbservicedescriptor_getservicetype.htm
 old-project: mstv
 ms.assetid: f13b6b0e-d4bb-42a6-9bab-dc3e13bc26e9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetServiceType, GetServiceType method [Microsoft TV Technologies], GetServiceType method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetServiceType method, IDvbServiceDescriptor.GetServiceType, IDvbServiceDescriptor::GetServiceType, dvbsiparser/IDvbServiceDescriptor::GetServiceType, mstv.idvbservicedescriptor_getservicetype
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iscesvcattachmentpersistinfo_isdirty.htm
 old-project: SecMgmt
 ms.assetid: b430e598-e16c-47fc-8f19-fbcfc6b71337
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/9/2018
 ms.keywords: ISceSvcAttachmentPersistInfo interface [Security],IsDirty method, ISceSvcAttachmentPersistInfo.IsDirty, ISceSvcAttachmentPersistInfo::IsDirty, IsDirty, IsDirty method [Security], IsDirty method [Security],ISceSvcAttachmentPersistInfo interface, _config_iscesvcattachmentpersistinfo_isdirty, scesvc/ISceSvcAttachmentPersistInfo::IsDirty, security.iscesvcattachmentpersistinfo_isdirty
 ms.prod: windows-hardware
 ms.technology: windows-devices

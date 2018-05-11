@@ -7,7 +7,7 @@ old-location: mstv\ilocator_clone.htm
 old-project: mstv
 ms.assetid: 9a1fd730-80b9-439b-aab2-069710aa3dfa
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],ILocator interface, ILocator interface [Microsoft TV Technologies],Clone method, ILocator.Clone, ILocator::Clone, ILocatorClone, mstv.ilocator_clone, tuner/ILocator::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

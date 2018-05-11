@@ -7,7 +7,7 @@ old-location: setup\msidatabasegetprimarykeys.htm
 old-project: Msi
 ms.assetid: 08ceaf05-a64b-41ac-964b-ae4648e42bae
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiDatabaseGetPrimaryKeys, MsiDatabaseGetPrimaryKeys function, MsiDatabaseGetPrimaryKeysA, MsiDatabaseGetPrimaryKeysW, _msi_msidatabasegetprimarykeys, msiquery/MsiDatabaseGetPrimaryKeys, msiquery/MsiDatabaseGetPrimaryKeysA, msiquery/MsiDatabaseGetPrimaryKeysW, setup.msidatabasegetprimarykeys
 ms.prod: windows-hardware
 ms.technology: windows-devices

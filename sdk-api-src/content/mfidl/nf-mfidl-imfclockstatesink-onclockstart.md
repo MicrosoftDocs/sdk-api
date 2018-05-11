@@ -7,7 +7,7 @@ old-location: mf\imfclockstatesink_onclockstart.htm
 old-project: medfound
 ms.assetid: 1a696ffc-b8e6-4ef9-b980-35bfbd3d4128
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 1a696ffc-b8e6-4ef9-b980-35bfbd3d4128, IMFClockStateSink interface [Media Foundation],OnClockStart method, IMFClockStateSink.OnClockStart, IMFClockStateSink::OnClockStart, OnClockStart, OnClockStart method [Media Foundation], OnClockStart method [Media Foundation],IMFClockStateSink interface, mf.imfclockstatesink_onclockstart, mfidl/IMFClockStateSink::OnClockStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

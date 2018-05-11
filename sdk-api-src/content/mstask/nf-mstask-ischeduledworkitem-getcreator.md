@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_getcreator.htm
 old-project: TaskSchd
 ms.assetid: 25bbb200-3418-4ca9-87a5-5db537baceee
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetCreator, GetCreator method [Task Scheduler], GetCreator method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetCreator method, IScheduledWorkItem.GetCreator, IScheduledWorkItem::GetCreator, _msb_ischeduledworkitem_getcreator, mstask/IScheduledWorkItem::GetCreator, taskschd.ischeduledworkitem_getcreator
 ms.prod: windows-hardware
 ms.technology: windows-devices

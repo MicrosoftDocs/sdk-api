@@ -7,7 +7,7 @@ old-location: shell\IsOS.htm
 old-project: shell
 ms.assetid: 827a76bc-3581-4f1c-8095-8e2fd30dfdbc
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IsOS, IsOS function [Windows Shell], _win32_IsOS, shell.IsOS, shlwapi/IsOS
 ms.prod: windows-hardware
 ms.technology: windows-devices

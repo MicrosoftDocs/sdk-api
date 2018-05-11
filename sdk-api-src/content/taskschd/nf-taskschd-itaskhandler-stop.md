@@ -7,7 +7,7 @@ old-location: taskschd\itaskhandler_stop.htm
 old-project: TaskSchd
 ms.assetid: 93a112e7-5e44-42a9-a5f5-d61e1ad1eabc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Stop method, ITaskHandler.Stop, ITaskHandler::Stop, Stop, Stop method [Task Scheduler], Stop method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_stop, taskschd/ITaskHandler::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

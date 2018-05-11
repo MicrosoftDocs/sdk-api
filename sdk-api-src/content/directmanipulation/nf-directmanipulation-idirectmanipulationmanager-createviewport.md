@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationmanager_createviewport.htm
 old-project: directmanipulation
 ms.assetid: 82a0146d-89c1-4672-93a9-e8f406b03d4e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: CreateViewport, CreateViewport method [Direct Manipulation], CreateViewport method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],CreateViewport method, IDirectManipulationManager.CreateViewport, IDirectManipulationManager::CreateViewport, directmanipulation.idirectmanipulationmanager_createviewport, directmanipulation/IDirectManipulationManager::CreateViewport
 ms.prod: windows-hardware
 ms.technology: windows-devices

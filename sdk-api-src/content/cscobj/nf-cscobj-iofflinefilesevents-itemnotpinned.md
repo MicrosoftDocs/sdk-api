@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_itemnotpinned.htm
 old-project: OfflineFiles
 ms.assetid: cefd7408-9e98-48a4-ad43-0bdef9da1c95
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemNotPinned method, IOfflineFilesEvents.ItemNotPinned, IOfflineFilesEvents::ItemNotPinned, ItemNotPinned, ItemNotPinned method [Offline Files], ItemNotPinned method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemNotPinned, of.iofflinefilesevents_itemnotpinned
 ms.prod: windows-hardware
 ms.technology: windows-devices

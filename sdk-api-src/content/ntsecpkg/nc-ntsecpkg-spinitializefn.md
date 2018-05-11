@@ -7,7 +7,7 @@ old-location: security\spinitialize.htm
 old-project: SecAuthN
 ms.assetid: d93bafc6-d946-4214-b3c0-5e5a8e359638
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SpInitialize, SpInitialize function [Security], SpInitializeFn, _ssp_spinitialize, ntsecpkg/SpInitialize, security.spinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

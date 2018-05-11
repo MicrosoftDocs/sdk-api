@@ -7,7 +7,7 @@ old-location: shell\IWizardSite.htm
 old-project: shell
 ms.assetid: 4c366f9c-d774-4390-8f43-8c25f86e3c35
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IWizardSite, IWizardSite interface [Windows Shell], IWizardSite interface [Windows Shell],described, _shell_IWizardSite, shell.IWizardSite, shobjidl/IWizardSite
 ms.prod: windows-hardware
 ms.technology: windows-devices

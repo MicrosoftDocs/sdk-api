@@ -7,7 +7,7 @@ old-location: p2p\peerpnrpgetcloudinfo.htm
 old-project: P2PSdk
 ms.assetid: e6067973-68e3-4b0e-8a7a-ffba2ab2a971
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerPnrpGetCloudInfo, PeerPnrpGetCloudInfo function [Peer Networking], p2p.peerpnrpgetcloudinfo, p2p/PeerPnrpGetCloudInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

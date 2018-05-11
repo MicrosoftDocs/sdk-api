@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapcodecinfo_getdevicemodels.htm
 old-project: wic
 ms.assetid: ccc5aab6-8817-4c18-8e52-a1372b015541
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: GetDeviceModels, GetDeviceModels method [Windows Imaging Component], GetDeviceModels method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetDeviceModels method, IWICBitmapCodecInfo.GetDeviceModels, IWICBitmapCodecInfo::GetDeviceModels, _wic_codec_iwicbitmapcodecinfo_getdevicemodels, wic._wic_codec_iwicbitmapcodecinfo_getdevicemodels, wincodec/IWICBitmapCodecInfo::GetDeviceModels
 ms.prod: windows-hardware
 ms.technology: windows-devices

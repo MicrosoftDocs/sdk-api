@@ -7,7 +7,7 @@ old-location: security\credwrite.htm
 old-project: SecAuthN
 ms.assetid: 9a590347-d610-4916-bf63-60fbec173ac2
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: CRED_PRESERVE_CREDENTIAL_BLOB, CredWrite, CredWrite function [Security], CredWriteA, CredWriteW, _cred_credwrite, security.credwrite, wincred/CredWrite, wincred/CredWriteA, wincred/CredWriteW
 ms.prod: windows-hardware
 ms.technology: windows-devices

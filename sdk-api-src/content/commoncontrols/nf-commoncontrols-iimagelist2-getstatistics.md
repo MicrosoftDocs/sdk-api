@@ -7,7 +7,7 @@ old-location: controls\IImageList2_GetStatistics.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\getstatistics.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetStatistics, GetStatistics method [Windows Controls], GetStatistics method [Windows Controls],IImageList2 interface, IImageList2 interface [Windows Controls],GetStatistics method, IImageList2.GetStatistics, IImageList2::GetStatistics, _shell_IImageList2_GetStatistics, _shell_IImageList2_GetStatistics_cpp, commoncontrols/IImageList2::GetStatistics, controls.IImageList2_GetStatistics, controls._shell_IImageList2_GetStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iisdb_nbit_initialize.htm
 old-project: mstv
 ms.assetid: 8c4e3f53-1b32-4374-915f-15651259dd55
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IISDB_NBIT interface [Microsoft TV Technologies],Initialize method, IISDB_NBIT.Initialize, IISDB_NBIT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_NBIT interface, dvbsiparser/IISDB_NBIT::Initialize, mstv.iisdb_nbit_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

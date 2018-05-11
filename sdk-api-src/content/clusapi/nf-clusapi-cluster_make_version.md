@@ -7,7 +7,7 @@ old-location: mscs\cluster_make_version.htm
 old-project: MsCS
 ms.assetid: 0a53c070-efed-4105-8dce-60647869a93f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: CLUSTER_MAKE_VERSION, CLUSTER_MAKE_VERSION macro [Failover Cluster], _wolf_cluster_make_version, clusapi/CLUSTER_MAKE_VERSION, mscs.cluster_make_version
 ms.prod: windows-hardware
 ms.technology: windows-devices

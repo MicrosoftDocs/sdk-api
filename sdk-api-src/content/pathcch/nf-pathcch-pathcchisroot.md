@@ -7,7 +7,7 @@ old-location: shell\PathCchIsRoot.htm
 old-project: shell
 ms.assetid: b9770030-b298-47f8-98a7-3ce9b4d44dd1
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PathCchIsRoot, PathCchIsRoot function [Windows Shell], pathcch/PathCchIsRoot, shell.PathCchIsRoot
 ms.prod: windows-hardware
 ms.technology: windows-devices

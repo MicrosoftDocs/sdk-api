@@ -7,7 +7,7 @@ old-location: dshow\moduplicatemediatype.htm
 old-project: DirectShow
 ms.assetid: 8804ec3f-98c7-4305-a02c-67f5e560b4f7
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: MoDuplicateMediaType, MoDuplicateMediaType function [DirectShow], dmort/MoDuplicateMediaType, dshow.moduplicatemediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices

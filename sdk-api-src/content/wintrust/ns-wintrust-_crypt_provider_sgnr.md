@@ -7,7 +7,7 @@ old-location: security\crypt_provider_sgnr.htm
 old-project: SecCrypto
 ms.assetid: 39cf9a03-768d-4ae0-a19d-17652181dbe4
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: "*PCRYPT_PROVIDER_SGNR, CRYPT_PROVIDER_SGNR, CRYPT_PROVIDER_SGNR structure [Security], PCRYPT_PROVIDER_SGNR, PCRYPT_PROVIDER_SGNR structure pointer [Security], SGNR_TYPE_TIMESTAMP, _CRYPT_PROVIDER_SGNR, security.crypt_provider_sgnr, wintrust/CRYPT_PROVIDER_SGNR, wintrust/PCRYPT_PROVIDER_SGNR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

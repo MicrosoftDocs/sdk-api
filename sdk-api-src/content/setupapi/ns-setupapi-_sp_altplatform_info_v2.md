@@ -7,7 +7,7 @@ old-location: setup\sp_altplatform_info_v2.htm
 old-project: SetupApi
 ms.assetid: eb66ef5a-212d-4224-87b5-d64e8e188139
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: "*PSP_ALTPLATFORM_INFO_V2, PSP_ALTPLATFORM_INFO_V2, PSP_ALTPLATFORM_INFO_V2 structure pointer [Setup API], SP_ALTPLATFORM_INFO, SP_ALTPLATFORM_INFO_V2, SP_ALTPLATFORM_INFO_V2 structure [Setup API], VER_PLATFORM_WIN32_NT, VER_PLATFORM_WIN32_WINDOWS, _SP_ALTPLATFORM_INFO_V2, _setupapi_sp_altplatform_info, setup.sp_altplatform_info_v2, setupapi/PSP_ALTPLATFORM_INFO_V2, setupapi/SP_ALTPLATFORM_INFO_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

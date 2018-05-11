@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetCanonicalName.htm
 old-project: properties
 ms.assetid: 861c3b48-77cf-4f72-b85f-a6f921571dd7
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: GetCanonicalName, GetCanonicalName method [Windows Properties], GetCanonicalName method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetCanonicalName method, IPropertyDescription.GetCanonicalName, IPropertyDescription::GetCanonicalName, properties.IPropertyDescription_GetCanonicalName, propsys/IPropertyDescription::GetCanonicalName, shell.IPropertyDescription_GetCanonicalName, shell_IPropertyDescription_GetCanonicalName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IStreamUnbufferedInfo.htm
 old-project: shell
 ms.assetid: 51c28816-91a2-47cf-86b9-327a538ebca1
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IStreamUnbufferedInfo, IStreamUnbufferedInfo interface [Windows Shell], IStreamUnbufferedInfo interface [Windows Shell],described, _shell_IStreamUnbufferedInfo, shell.IStreamUnbufferedInfo, shobjidl/IStreamUnbufferedInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

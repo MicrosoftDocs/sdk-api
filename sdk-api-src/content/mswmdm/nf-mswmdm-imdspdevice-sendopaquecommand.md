@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice_sendopaquecommand.htm
 old-project: WMDM
 ms.assetid: d7b60187-84d1-4ff3-ab58-e6b8ea75ee37
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: IMDSPDevice interface [windows Media Device Manager],SendOpaqueCommand method, IMDSPDevice.SendOpaqueCommand, IMDSPDevice::SendOpaqueCommand, IMDSPDeviceSendOpaqueCommand, SendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager],IMDSPDevice interface, mswmdm/IMDSPDevice::SendOpaqueCommand, wmdm.imdspdevice_sendopaquecommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

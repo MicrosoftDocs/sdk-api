@@ -7,7 +7,7 @@ old-location: audio\ipropertystore_commit.htm
 old-project: audio
 ms.assetid: a3cc6815-a16f-45e7-a2d5-8f354f712170
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/8/2018
 ms.keywords: Commit, Commit method [Audio Devices], Commit method [Audio Devices],IPropertyStore interface, IPropertyStore interface [Audio Devices],Commit method, IPropertyStore.Commit, IPropertyStore::Commit, audio.ipropertystore_commit, audio_syseffects_r_65453880-01ab-4b73-b766-bb1daeb863ba.xml, propsys/IPropertyStore::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices

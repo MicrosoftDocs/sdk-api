@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromFileTimeVector.htm
 old-project: properties
 ms.assetid: 2f996f62-6605-405a-9cbb-6b41905eae29
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: InitPropVariantFromFileTimeVector, InitPropVariantFromFileTimeVector function [Windows Properties], properties.InitPropVariantFromFileTimeVector, propvarutil/InitPropVariantFromFileTimeVector, shell.InitPropVariantFromFileTimeVector, shell_InitPropVariantFromFileTimeVector
 ms.prod: windows-hardware
 ms.technology: windows-devices

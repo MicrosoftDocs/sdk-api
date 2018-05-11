@@ -7,7 +7,7 @@ old-location: mf\imfqualitymanager_notifyprocessinput.htm
 old-project: medfound
 ms.assetid: c6e35d03-ca83-4078-bcc1-b9c1d988de01
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFQualityManager interface [Media Foundation],NotifyProcessInput method, IMFQualityManager.NotifyProcessInput, IMFQualityManager::NotifyProcessInput, NotifyProcessInput, NotifyProcessInput method [Media Foundation], NotifyProcessInput method [Media Foundation],IMFQualityManager interface, c6e35d03-ca83-4078-bcc1-b9c1d988de01, mf.imfqualitymanager_notifyprocessinput, mfidl/IMFQualityManager::NotifyProcessInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

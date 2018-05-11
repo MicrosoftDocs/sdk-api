@@ -7,7 +7,7 @@ old-location: rras\rtmlocknexthop.htm
 old-project: RRAS
 ms.assetid: f5b6d430-a50e-49fc-8274-81bac1300477
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RtmLockNextHop, RtmLockNextHop function [RAS], _rtmv2ref_rtmlocknexthop, rras.rtmlocknexthop, rtmv2/RtmLockNextHop
 ms.prod: windows-hardware
 ms.technology: windows-devices

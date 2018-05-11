@@ -7,7 +7,7 @@ old-location: wua\iupdatehistoryentry_unmappedresultcode.htm
 old-project: Wua_Sdk
 ms.assetid: 8c0c49c2-6902-4c4b-95a9-5254b0b83897
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],UnmappedResultCode property, IUpdateHistoryEntry.UnmappedResultCode, IUpdateHistoryEntry.get_UnmappedResultCode, IUpdateHistoryEntry::UnmappedResultCode, IUpdateHistoryEntry::get_UnmappedResultCode, UnmappedResultCode property [Windows Update Agent], UnmappedResultCode property [Windows Update Agent],IUpdateHistoryEntry interface, get_UnmappedResultCode, wua.iupdatehistoryentry_unmappedresultcode, wuapi/IUpdateHistoryEntry::UnmappedResultCode, wuapi/IUpdateHistoryEntry::get_UnmappedResultCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

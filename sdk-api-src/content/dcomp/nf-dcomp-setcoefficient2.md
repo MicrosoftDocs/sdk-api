@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient2_
 old-project: directcomp
 ms.assetid: 58ecefbe-ca31-3c13-7bea-e97fb73753e2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: SetCoefficient2, dcomp/setcoefficient2, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient2_overloaded, idcompositionarithmeticcompositeeffect::setcoefficient2, setcoefficient2, setcoefficient2 methods [DirectComposition]
 ms.prod: windows-hardware
 ms.technology: windows-devices

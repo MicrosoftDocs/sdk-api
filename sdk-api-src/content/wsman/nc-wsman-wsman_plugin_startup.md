@@ -7,8 +7,8 @@ old-location: winrm\wsman_plugin_startup.htm
 old-project: WinRM
 ms.assetid: b3123f52-880b-4d14-a5a2-77c5924de99d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: WSManPluginStartup, WSManPluginStartup callback function [Windows Remote Management], winrm.wsman_plugin_startup, wsman/WSMAN_PLUGIN_STARTUP, wsman/WSManPluginStartup
+ms.date: 5/8/2018
+ms.keywords: WSMAN_PLUGIN_STARTUP, WSMAN_PLUGIN_STARTUP callback, WSMAN_PLUGIN_STARTUP callback function [Windows Remote Management], WSManPluginStartup, winrm.wsman_plugin_startup, wsman/WSMAN_PLUGIN_STARTUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Wsman.h
 api_name:
--	WSManPluginStartup
+-	WSMAN_PLUGIN_STARTUP
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# WSMAN_PLUGIN_STARTUP callback
+# WSMAN_PLUGIN_STARTUP callback function
 
 
 ## -description

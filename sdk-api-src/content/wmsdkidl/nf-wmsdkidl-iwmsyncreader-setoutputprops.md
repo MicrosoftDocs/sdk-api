@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_setoutputprops.htm
 old-project: wmformat
 ms.assetid: 5575fd7c-5eb0-4e4a-957d-e3fc174316ff
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetOutputProps method, IWMSyncReader.SetOutputProps, IWMSyncReader::SetOutputProps, IWMSyncReaderSetOutputProps, SetOutputProps, SetOutputProps method [windows Media Format], SetOutputProps method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setoutputprops, wmsdkidl/IWMSyncReader::SetOutputProps
 ms.prod: windows-hardware
 ms.technology: windows-devices

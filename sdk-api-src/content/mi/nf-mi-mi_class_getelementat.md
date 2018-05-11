@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_class_getelementat.htm
 old-project: wmi_v2
 ms.assetid: f5479cc7-e3f6-447f-a8f8-dc08f3babe54
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_Class_GetElementAt, MI_Class_GetElementAt function [Windows Management Infrastructure (MI)], MI_FLAG_ABSTRACT, MI_FLAG_ADOPT, MI_FLAG_ANY, MI_FLAG_ASSOCIATION, MI_FLAG_BORROW, MI_FLAG_CLASS, MI_FLAG_DISABLEOVERRIDE, MI_FLAG_ENABLEOVERRIDE, MI_FLAG_EXPENSIVE, MI_FLAG_IN, MI_FLAG_INDICATION, MI_FLAG_KEY, MI_FLAG_METHOD, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_FLAG_OUT, MI_FLAG_PARAMETER, MI_FLAG_PROPERTY, MI_FLAG_READONLY, MI_FLAG_REFERENCE, MI_FLAG_REQUIRED, MI_FLAG_RESTRICTED, MI_FLAG_STATIC, MI_FLAG_STREAM, MI_FLAG_TERMINAL, MI_FLAG_TOSUBCLASS, MI_FLAG_TRANSLATABLE, MI_FLAG_VERSION, mi/MI_Class_GetElementAt, wmi_v2.mi_class_getelementat
 ms.prod: windows-hardware
 ms.technology: windows-devices

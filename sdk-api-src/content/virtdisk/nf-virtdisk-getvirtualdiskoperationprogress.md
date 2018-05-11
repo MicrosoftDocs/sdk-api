@@ -7,7 +7,7 @@ old-location: vhd\getvirtualdiskoperationprogress.htm
 old-project: VStor
 ms.assetid: 392a5258-306d-4c06-a632-85e6fc65ddc9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetVirtualDiskOperationProgress, GetVirtualDiskOperationProgress function [VHD], vhd.getvirtualdiskoperationprogress, virtdisk/GetVirtualDiskOperationProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

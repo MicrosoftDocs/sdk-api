@@ -7,7 +7,7 @@ old-location: intl\script_tabdef.htm
 old-project: Intl
 ms.assetid: 023ec258-b3f9-4ea2-8c9d-838df1442068
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: SCRIPT_TABDEF, SCRIPT_TABDEF structure [Internationalization for Windows Applications], _win32_SCRIPT_TABDEF_str, intl.script_tabdef, tag_SCRIPT_TABDEF, usp10/SCRIPT_TABDEF
 ms.prod: windows-hardware
 ms.technology: windows-devices

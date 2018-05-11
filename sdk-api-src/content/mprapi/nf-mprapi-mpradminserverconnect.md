@@ -7,7 +7,7 @@ old-location: rras\mpradminserverconnect.htm
 old-project: RRAS
 ms.assetid: f93b37bc-d3d1-40f0-aef6-839bb43c88e2
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MprAdminServerConnect, MprAdminServerConnect function [RAS], _mpr_mpradminserverconnect, mprapi/MprAdminServerConnect, rras.mpradminserverconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

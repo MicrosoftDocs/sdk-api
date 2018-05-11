@@ -7,7 +7,7 @@ old-location: wds\wdstransportprovidercreateinstance.htm
 old-project: Wds
 ms.assetid: 534ba680-e5d7-47e7-83ad-2b621feab99f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsTransportProviderCreateInstance, WdsTransportProviderCreateInstance callback, WdsTransportProviderCreateInstance callback function [Windows Deployment Services], wds.wdstransportprovidercreateinstance, wdstpdi/WdsTransportProviderCreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

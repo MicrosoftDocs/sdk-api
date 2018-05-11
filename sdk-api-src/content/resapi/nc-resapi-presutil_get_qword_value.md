@@ -7,7 +7,7 @@ old-location: mscs\resutilgetqwordvalue.htm
 old-project: MsCS
 ms.assetid: 22017258-a71c-4167-b134-0cfd57f1ea08
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PRESUTIL_GET_QWORD_VALUE, PRESUTIL_GET_QWORD_VALUE callback, PRESUTIL_GET_QWORD_VALUE callback function [Failover Cluster], mscs.resutilgetqwordvalue, resapi/PRESUTIL_GET_QWORD_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices

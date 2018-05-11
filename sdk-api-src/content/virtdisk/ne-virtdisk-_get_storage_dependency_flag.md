@@ -7,7 +7,7 @@ old-location: vhd\get_storage_dependency_flag.htm
 old-project: VStor
 ms.assetid: 6a438edf-698b-4b2d-8864-c97fbf9eaa9f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: GET_STORAGE_DEPENDENCY_FLAG, GET_STORAGE_DEPENDENCY_FLAG enumeration [VHD], GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE, GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES, GET_STORAGE_DEPENDENCY_FLAG_NONE, _GET_STORAGE_DEPENDENCY_FLAG, vhd.get_storage_dependency_flag, virtdisk/GET_STORAGE_DEPENDENCY_FLAG, virtdisk/GET_STORAGE_DEPENDENCY_FLAG_DISK_HANDLE, virtdisk/GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES, virtdisk/GET_STORAGE_DEPENDENCY_FLAG_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices

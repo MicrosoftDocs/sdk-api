@@ -7,7 +7,7 @@ old-location: wds\wdsbpqueryoption.htm
 old-project: Wds
 ms.assetid: 98c0d220-db20-4aba-9df0-e50f3b947da2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsBpQueryOption, WdsBpQueryOption function [Windows Deployment Services], wds.wdsbpqueryoption, wdsbp/WdsBpQueryOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

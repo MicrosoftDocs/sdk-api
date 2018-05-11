@@ -7,7 +7,7 @@ old-location: mstv\ibda_signalproperties_getnetworktype.htm
 old-project: mstv
 ms.assetid: 6c799cad-2371-4845-a783-e7227fb81c4c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetNetworkType, GetNetworkType method [Microsoft TV Technologies], GetNetworkType method [Microsoft TV Technologies],IBDA_SignalProperties interface, IBDA_SignalProperties interface [Microsoft TV Technologies],GetNetworkType method, IBDA_SignalProperties.GetNetworkType, IBDA_SignalProperties::GetNetworkType, IBDA_SignalPropertiesGetNetworkType, bdaiface/IBDA_SignalProperties::GetNetworkType, mstv.ibda_signalproperties_getnetworktype
 ms.prod: windows-hardware
 ms.technology: windows-devices

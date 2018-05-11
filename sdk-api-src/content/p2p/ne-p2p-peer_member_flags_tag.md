@@ -7,7 +7,7 @@ old-location: p2p\peer_member_flags.htm
 old-project: P2PSdk
 ms.assetid: 96a8e4ae-dce6-4f07-ab22-71da347ef347
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PEER_MEMBER_FLAGS, PEER_MEMBER_FLAGS enumeration [Peer Networking], PEER_MEMBER_PRESENT, p2p.peer_member_flags, p2p/PEER_MEMBER_FLAGS, p2p/PEER_MEMBER_PRESENT, peer_member_flags_tag
 ms.prod: windows-hardware
 ms.technology: windows-devices

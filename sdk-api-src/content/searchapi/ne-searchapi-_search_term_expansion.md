@@ -7,7 +7,7 @@ old-location: search\_search_SEARCH_TERM_EXPANSION.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_term_expansion.htm
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/8/2018
 ms.keywords: SEARCH_TERM_EXPANSION, SEARCH_TERM_EXPANSION enumeration [search], SEARCH_TERM_NO_EXPANSION, SEARCH_TERM_PREFIX_ALL, SEARCH_TERM_STEM_ALL, _SEARCH_TERM_EXPANSION, _search_SEARCH_TERM_EXPANSION, search._search_SEARCH_TERM_EXPANSION, searchapi/SEARCH_TERM_EXPANSION, searchapi/SEARCH_TERM_NO_EXPANSION, searchapi/SEARCH_TERM_PREFIX_ALL, searchapi/SEARCH_TERM_STEM_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices

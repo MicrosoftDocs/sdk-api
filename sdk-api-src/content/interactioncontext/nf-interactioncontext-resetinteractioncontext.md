@@ -7,7 +7,7 @@ old-location: input_intcontext\resetinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: 5c9b7756-fad1-4656-952c-78845685aa21
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/8/2018
 ms.keywords: ResetInteractionContext, ResetInteractionContext function, input_intcontext.resetinteractioncontext, interactioncontext.resetinteractioncontext, interactioncontext/ResetInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

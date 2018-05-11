@@ -7,7 +7,7 @@ old-location: mf\mfputworkitemex2.htm
 old-project: medfound
 ms.assetid: A29DC852-AF0F-4269-97FB-DA1F725E7C09
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MFPutWorkItemEx2, MFPutWorkItemEx2 function [Media Foundation], mf.mfputworkitemex2, mfapi/MFPutWorkItemEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsync\isingleitemexception_getitemid.htm
 old-project: winsync
 ms.assetid: 1bcea395-d383-434f-b3a6-cffd4419fce3
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetItemId, GetItemId method [Windows Sync], GetItemId method [Windows Sync],ISingleItemException interface, ISingleItemException interface [Windows Sync],GetItemId method, ISingleItemException.GetItemId, ISingleItemException::GetItemId, winsync.isingleitemexception_getitemid, winsync/ISingleItemException::GetItemId
 ms.prod: windows-hardware
 ms.technology: windows-devices

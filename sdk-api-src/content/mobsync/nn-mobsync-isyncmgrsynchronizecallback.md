@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronizecallback.htm
 old-project: shell
 ms.assetid: 1c817a21-be91-43af-86c8-aa7909ae2fa2
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], ISyncMgrSynchronizeCallback interface [Windows Shell],described, mobsync/ISyncMgrSynchronizeCallback, shell.syncmgr_isyncmgrsynchronizecallback, syncmgr.isyncmgrsynchronizecallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

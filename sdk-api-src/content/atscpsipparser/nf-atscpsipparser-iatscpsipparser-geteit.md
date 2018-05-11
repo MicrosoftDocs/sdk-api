@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_geteit.htm
 old-project: mstv
 ms.assetid: b88a6728-d772-48b8-aebc-7d4cc133320a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetEIT, GetEIT method [Microsoft TV Technologies], GetEIT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetEIT method, IAtscPsipParser.GetEIT, IAtscPsipParser::GetEIT, IAtscPsipParserGetEIT, atscpsipparser/IAtscPsipParser::GetEIT, mstv.iatscpsipparser_geteit
 ms.prod: windows-hardware
 ms.technology: windows-devices

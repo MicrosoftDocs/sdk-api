@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiolfxcontrol_getlocaleffectsstate.htm
 old-project: CoreAudio
 ms.assetid: 33426EAC-13E6-4AF2-9D01-7C3057EB8104
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: GetLocalEffectsState, GetLocalEffectsState method [Core Audio], GetLocalEffectsState method [Core Audio],IAudioLfxControl interface, IAudioLfxControl interface [Core Audio],GetLocalEffectsState method, IAudioLfxControl.GetLocalEffectsState, IAudioLfxControl::GetLocalEffectsState, audioengineendpoint/IAudioLfxControl::GetLocalEffectsState, coreaudio.iaudiolfxcontrol_getlocaleffectsstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

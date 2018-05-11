@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_samuseraccount.htm
 old-project: TermServ
 ms.assetid: eb3d8e6b-60c6-4d24-824c-94b642f44956
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],SamUserAccount property, ITsSbClientConnection.SamUserAccount, ITsSbClientConnection.get_SamUserAccount, ITsSbClientConnection::SamUserAccount, ITsSbClientConnection::get_SamUserAccount, SamUserAccount property [Remote Desktop Services], SamUserAccount property [Remote Desktop Services],ITsSbClientConnection interface, get_SamUserAccount, sbtsv/ITsSbClientConnection::SamUserAccount, sbtsv/ITsSbClientConnection::get_SamUserAccount, termserv.itssbclientconnection_samuseraccount
 ms.prod: windows-hardware
 ms.technology: windows-devices

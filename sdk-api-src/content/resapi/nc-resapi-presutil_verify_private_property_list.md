@@ -7,7 +7,7 @@ old-location: mscs\resutilverifyprivatepropertylist.htm
 old-project: MsCS
 ms.assetid: 3d2eaa83-dd82-4023-8466-0131f7b90abc
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST, PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST callback, PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST callback function [Failover Cluster], _wolf_resutilverifyprivatepropertylist, mscs.resutilverifyprivatepropertylist, resapi/PRESUTIL_VERIFY_PRIVATE_PROPERTY_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices

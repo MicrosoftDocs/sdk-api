@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongMult
 title: ULongMult function
 author: windows-driver-content
-description: Multiplies one value of type DWORD by another.
-old-location: shell\DWordMult.htm
+description: Multiplies one value of type ULONG by another.
+old-location: shell\ULongMult.htm
 old-project: shell
-ms.assetid: 80fd88c1-b05b-468f-9dc7-c6a432e49d6d
+ms.assetid: 79710ade-498d-4cd7-ae6e-552a8e787193
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: DWordMult, DWordMult function [Windows Shell], ULongMult, _shell_DWordMult, intsafe/DWordMult, shell.DWordMult
+ms.date: 5/9/2018
+ms.keywords: DWordMult, ULongMult, ULongMult function [Windows Shell], _shell_ULongMult, intsafe/ULongMult, shell.ULongMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	DllExport
+-	HeaderDef
 api_location:
--	None
+-	Intsafe.h
 api_name:
--	DWordMult
+-	ULongMult
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: None
+req.dll: 
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Multiplies one value of type <b>DWORD</b> by another.
+Multiplies one value of type <b>ULONG</b> by another.
 
 
 ## -parameters
@@ -58,40 +58,23 @@ Multiplies one value of type <b>DWORD</b> by another.
 
 
 
-### -param ulMultiplicand
+### -param ulMultiplicand [in]
 
-TBD
+Type: <b>ULONG</b>
 
-
-### -param ulMultiplier
-
-TBD
+The value to be multiplied by <i>ulMultiplier</i>.
 
 
-### -param pulResult
+### -param ulMultiplier [in]
 
-TBD
+Type: <b>ULONG</b>
 
-
-
-
-#### - dwMultiplicand [in]
-
-Type: <b>DWORD</b>
-
-The value to be multiplied by <i>dwMultiplier</i>.
+The value by which to multiply <i>ulMultiplicand</i>.
 
 
-#### - dwMultiplier [in]
+### -param pulResult [out]
 
-Type: <b>DWORD</b>
-
-The value by which to multiply <i>dwMultiplicand</i>.
-
-
-#### - pdwResult [out]
-
-Type: <b>DWORD*</b>
+Type: <b>ULONG*</b>
 
 A pointer to the result. If the operation results in a value that overflows or underflows the capacity of the type, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
@@ -112,6 +95,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
+
+<b>DWordMult</b> is an alias for this function.
 
 
 

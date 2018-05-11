@@ -2,18 +2,18 @@
 UID: NS:mmreg.WAVEFORMATEXTENSIBLE
 title: WAVEFORMATEXTENSIBLE
 author: windows-driver-content
-description: The WAVEFORMATEXTENSIBLE structure specifies the format of an audio wave stream.
-old-location: audio\waveformatextensible.htm
-old-project: audio
-ms.assetid: 54bcb18e-df4b-471c-b121-4db75ce5c49b
+description: The WAVEFORMATEXTENSIBLE structure defines the format of waveform-audio data for formats having more than two channels or higher sample resolutions than allowed by WAVEFORMATEX.
+old-location: dshow\waveformatextensible.htm
+old-project: DirectShow
+ms.assetid: b16cdcab-fa4f-4c9a-b1f3-af459bd33245
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
-ms.keywords: "*LPWAVEFORMATIEEEFLOATEX, *LPWAVEFORMATPCMEX, *NPWAVEFORMATIEEEFLOATEX, *NPWAVEFORMATPCMEX, *PWAVEFORMATEXTENSIBLE, *PWAVEFORMATIEEEFLOATEX, *PWAVEFORMATPCMEX, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Audio Devices], WAVEFORMATIEEEFLOATEX, WAVEFORMATPCMEX, aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, audio.waveformatextensible, ksmedia/PWAVEFORMATEXTENSIBLE, ksmedia/WAVEFORMATEXTENSIBLE"
+ms.date: 5/9/2018
+ms.keywords: "*LPWAVEFORMATIEEEFLOATEX, *LPWAVEFORMATPCMEX, *NPWAVEFORMATIEEEFLOATEX, *NPWAVEFORMATPCMEX, *PWAVEFORMATEXTENSIBLE, *PWAVEFORMATIEEEFLOATEX, *PWAVEFORMATPCMEX, KSDATAFORMAT_SUBTYPE_ADPCM, KSDATAFORMAT_SUBTYPE_ALAW, KSDATAFORMAT_SUBTYPE_DRM, KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL, KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL_PLUS, KSDATAFORMAT_SUBTYPE_IEEE_FLOAT, KSDATAFORMAT_SUBTYPE_MPEG, KSDATAFORMAT_SUBTYPE_MULAW, KSDATAFORMAT_SUBTYPE_PCM, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [DirectShow], WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [DirectShow], WAVEFORMATEXTENSIBLEStructure, WAVEFORMATIEEEFLOATEX, WAVEFORMATPCMEX, dshow.waveformatextensible, ksmedia/PWAVEFORMATEXTENSIBLE, ksmedia/WAVEFORMATEXTENSIBLE, mmreg/PWAVEFORMATEXTENSIBLE, mmreg/WAVEFORMATEXTENSIBLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: mmreg.h
-req.include-header: Mmreg.h, Ksmedia.h, Mmreg.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -33,7 +33,8 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	ksmedia.h
+-	MMReg.h
+-	Ksmedia.h
 api_name:
 -	WAVEFORMATEXTENSIBLE
 product: Windows
@@ -50,7 +51,10 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The WAVEFORMATEXTENSIBLE structure specifies the format of an audio wave stream.
+
+The <b>WAVEFORMATEXTENSIBLE</b> structure defines the format of waveform-audio data for formats having more than two channels or higher sample resolutions than allowed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>.
+
+
 
 
 ## -struct-fields
@@ -60,363 +64,296 @@ The WAVEFORMATEXTENSIBLE structure specifies the format of an audio wave stream.
 
 ### -field Format
 
-Specifies the stream's wave-data format. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>. The <b>wFormat</b> member of WAVEFORMATEX should be set to WAVE_FORMAT_EXTENSIBLE. The <b>wBitsPerSample</b> member of WAVEFORMATEX is defined unambiguously as the size of the container for each sample. Sample containers are always byte-aligned, and <b>wBitsPerSample</b> must be a multiple of eight.
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure that specifies the basic format. The <b>wFormatTag</b> member must be WAVE_FORMAT_EXTENSIBLE, defined in Mmreg.h. The <b>cbSize</b> member must be at least 22.
 
 
 ### -field Samples
 
+A union that contains the following members.
+
 
 ### -field Samples.wValidBitsPerSample
 
-Specifies the precision of the sample in bits. The value of this member should be less than or equal to the container size specified in the <b>Format</b>.<b>wBitsPerSample</b> member. For more information, see the following Remarks section.
+Number of bits of precision in the signal. Usually equal to <b>WAVEFORMATEX.wBitsPerSample</b>. However, <b>wBitsPerSample</b> is the container size and must be a multiple of 8, whereas <b>wValidBitsPerSample</b> can be any value not exceeding the container size. For example, if the format uses 20-bit samples, <b>wBitsPerSample</b> must be at least 24, but <b>wValidBitsPerSample</b> is 20.
 
 
 ### -field Samples.wSamplesPerBlock
 
-Specifies the number of samples contained in one compressed block. This value is useful for estimating buffer requirements for compressed formats that have a fixed number of samples within each block. Set this member to zero if each block of compressed audio data contains a variable number of samples. In this case, buffer-estimation and buffer-position information must be obtained in other ways.
+Number of samples contained in one compressed block of audio data. This value is used in buffer estimation. This value is used with compressed formats that have a fixed number of samples within each block. This value can be set to zero if a variable number of samples is contained in each block of compressed audio data. In this case, buffer estimation and position information needs to be obtained in other ways.
 
 
 ### -field Samples.wReserved
 
-Reserved for internal use by operating system. Initialize to zero.
+
+              Reserved. Set to zero.
+            
 
 
 ### -field dwChannelMask
 
-Specifies the assignment of channels in the multichannel stream to speaker positions. The encoding is the same as that used for the <b>ActiveSpeakerPositions</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537083">KSAUDIO_CHANNEL_CONFIG</a> structure. For more information, see the following Remarks section.
+
+            Bitmask specifying the assignment of channels in the stream to speaker positions. See Remarks.
+          
 
 
 ### -field SubFormat
 
-Specifies the subformat. For more information, see the following Remarks section.
+
+            A GUID that specifies the format of the audio data. 
+          The following GUIDs are defined in Ksmedia.h.
+Third parties can define additional GUIDs.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="KSDATAFORMAT_SUBTYPE_ADPCM"></a><a id="ksdataformat_subtype_adpcm"></a><dl>
+<dt><b>KSDATAFORMAT_SUBTYPE_ADPCM</b></dt>
+</dl>
+</td>
+<td width="60%">
+Adaptive delta pulse code modulation (ADPCM)
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="KSDATAFORMAT_SUBTYPE_ALAW"></a><a id="ksdataformat_subtype_alaw"></a><dl>
+<dt><b>KSDATAFORMAT_SUBTYPE_ALAW</b></dt>
+</dl>
+</td>
+<td width="60%">
+A-law coding.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="KSDATAFORMAT_SUBTYPE_DRM"></a><a id="ksdataformat_subtype_drm"></a><dl>
+<dt><b>KSDATAFORMAT_SUBTYPE_DRM</b></dt>
+</dl>
+</td>
+<td width="60%">
+DRM-encoded format for digital-audio content protected by Microsoft Digital Rights Management.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL_PLUS"></a><a id="ksdataformat_subtype_iec61937_dolby_digital_plus"></a><dl>
+<dt><b>KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL_PLUS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Dolby Digital Plus formatted for HDMI output.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL"></a><a id="ksdataformat_subtype_iec61937_dolby_digital"></a><dl>
+<dt><b>KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Dolby Digital Plus formatted for S/PDIF or HDMI output.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="KSDATAFORMAT_SUBTYPE_IEEE_FLOAT"></a><a id="ksdataformat_subtype_ieee_float"></a><dl>
+<dt><b>KSDATAFORMAT_SUBTYPE_IEEE_FLOAT</b></dt>
+</dl>
+</td>
+<td width="60%">
+IEEE floating-point audio.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="KSDATAFORMAT_SUBTYPE_MPEG"></a><a id="ksdataformat_subtype_mpeg"></a><dl>
+<dt><b>KSDATAFORMAT_SUBTYPE_MPEG</b></dt>
+</dl>
+</td>
+<td width="60%">
+MPEG-1 audio payload.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="KSDATAFORMAT_SUBTYPE_MULAW"></a><a id="ksdataformat_subtype_mulaw"></a><dl>
+<dt><b>KSDATAFORMAT_SUBTYPE_MULAW</b></dt>
+</dl>
+</td>
+<td width="60%">
+μ-law coding
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="KSDATAFORMAT_SUBTYPE_PCM"></a><a id="ksdataformat_subtype_pcm"></a><dl>
+<dt><b>KSDATAFORMAT_SUBTYPE_PCM</b></dt>
+</dl>
+</td>
+<td width="60%">
+PCM audio.
+
+</td>
+</tr>
+</table>
+ 
 
 
 ## -remarks
 
 
 
-WAVEFORMATEXTENSIBLE is an extended form of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure. WAVEFORMATEX can unambiguously describe only a subset of the formats that can be described by WAVEFORMATEXTENSIBLE. WAVEFORMATEXTENSIBLE is not subject to the limitations of WAVEFORMATEX, which is unable to unambiguously specify formats with more than two channels or for which the number of valid bits per sample does not equal the sample container size. For more information, see <a href="https://msdn.microsoft.com/85aa74b4-8e33-49f4-82e7-561baa55c265">Audio Data Formats and Data Ranges</a>.
 
-Frequently, the <b>wValidBitsPerSample</b> member, which specifies the sample precision, contains the same value as the <b>Format</b>.<b>wBitsPerSample</b> member, which specifies the sample container size. However, these values can be different. For example, if the wave data originated from a 20-bit A/D converter, then <b>wValidBitsPerSample</b> should be 20 but <b>Format</b>.<b>wBitsPerSample</b> might be 24 or 32. If <b>wValidBitsPerSample</b> is less than <b>Format</b>.<b>wBitsPerSample</b>, the valid bits (the actual PCM data) are left-aligned within the container. The unused bits in the least-significant portion of the container should be set to zero.
+          The <b>WAVEFORMATEXTENSIBLE</b> structure can describe any format that can be described by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure, but provides additional support for more than two channels, for greater precision in the number of bits per sample, and for new compression schemes.
 
-Sample containers begin and end on byte boundaries, and the value of <b>Format</b>.<b>wBitsPerSample</b> should always be a multiple of eight. Also, the value of <b>wValidBitsPerSample</b> should never exceed that of <b>Format</b>.<b>wBitsPerSample</b>. Drivers should reject wave formats that violate these rules.
-
-The WAVEFORMATEXTENSIBLE structure's <b>dwChannelMask</b> member contains a mask indicating which channels are present in the multichannel stream. The least-significant bit represents the front-left speaker, the next bit corresponds to the front-right speaker, and so on. The following flag bits are defined in the header file Ksmedia.h.
+The <b>dwChannelMask</b> member specifies which channels are present in the multichannel stream. The least significant bit corresponds with the front left speaker, the next least significant bit corresponds to the front right speaker, and so on. The bits, in order of significance, are defined in Ksmedia.h and Mmreg.h as follows.
 
 <table>
 <tr>
-<th>Speaker position</th>
-<th>Flag bit</th>
+<th>
+              Speaker position
+            </th>
+<th>
+              Flag bit
+            </th>
 </tr>
 <tr>
-<td>
-SPEAKER_FRONT_LEFT
-
-</td>
-<td>
-0x1
-
-</td>
+<td>SPEAKER_FRONT_LEFT</td>
+<td>0x1</td>
 </tr>
 <tr>
-<td>
-SPEAKER_FRONT_RIGHT
-
-</td>
-<td>
-0x2
-
-</td>
+<td>SPEAKER_FRONT_RIGHT</td>
+<td>0x2</td>
 </tr>
 <tr>
-<td>
-SPEAKER_FRONT_CENTER
-
-</td>
-<td>
-0x4
-
-</td>
+<td>SPEAKER_FRONT_CENTER</td>
+<td>0x4</td>
 </tr>
 <tr>
-<td>
-SPEAKER_LOW_FREQUENCY
-
-</td>
-<td>
-0x8
-
-</td>
+<td>SPEAKER_LOW_FREQUENCY</td>
+<td>0x8</td>
 </tr>
 <tr>
-<td>
-SPEAKER_BACK_LEFT
-
-</td>
-<td>
-0x10
-
-</td>
+<td>SPEAKER_BACK_LEFT</td>
+<td>0x10</td>
 </tr>
 <tr>
-<td>
-SPEAKER_BACK_RIGHT
-
-</td>
-<td>
-0x20
-
-</td>
+<td>SPEAKER_BACK_RIGHT</td>
+<td>0x20</td>
 </tr>
 <tr>
-<td>
-SPEAKER_FRONT_LEFT_OF_CENTER
-
-</td>
-<td>
-0x40
-
-</td>
+<td>SPEAKER_FRONT_LEFT_OF_CENTER</td>
+<td>0x40</td>
 </tr>
 <tr>
-<td>
-SPEAKER_FRONT_RIGHT_OF_CENTER
-
-</td>
-<td>
-0x80
-
-</td>
+<td>SPEAKER_FRONT_RIGHT_OF_CENTER</td>
+<td>0x80</td>
 </tr>
 <tr>
-<td>
-SPEAKER_BACK_CENTER
-
-</td>
-<td>
-0x100
-
-</td>
+<td>SPEAKER_BACK_CENTER</td>
+<td>0x100</td>
 </tr>
 <tr>
-<td>
-SPEAKER_SIDE_LEFT
-
-</td>
-<td>
-0x200
-
-</td>
+<td>SPEAKER_SIDE_LEFT</td>
+<td>0x200</td>
 </tr>
 <tr>
-<td>
-SPEAKER_SIDE_RIGHT
-
-</td>
-<td>
-0x400
-
-</td>
+<td>SPEAKER_SIDE_RIGHT</td>
+<td>0x400</td>
 </tr>
 <tr>
-<td>
-SPEAKER_TOP_CENTER
-
-</td>
-<td>
-0x800
-
-</td>
+<td>SPEAKER_TOP_CENTER</td>
+<td>0x800</td>
 </tr>
 <tr>
-<td>
-SPEAKER_TOP_FRONT_LEFT
-
-</td>
-<td>
-0x1000
-
-</td>
+<td>SPEAKER_TOP_FRONT_LEFT</td>
+<td>0x1000</td>
 </tr>
 <tr>
-<td>
-SPEAKER_TOP_FRONT_CENTER
-
-</td>
-<td>
-0x2000
-
-</td>
+<td>SPEAKER_TOP_FRONT_CENTER</td>
+<td>0x2000</td>
 </tr>
 <tr>
-<td>
-SPEAKER_TOP_FRONT_RIGHT
-
-</td>
-<td>
-0x4000
-
-</td>
+<td>SPEAKER_TOP_FRONT_RIGHT</td>
+<td>0x4000</td>
 </tr>
 <tr>
-<td>
-SPEAKER_TOP_BACK_LEFT
-
-</td>
-<td>
-0x8000
-
-</td>
+<td>SPEAKER_TOP_BACK_LEFT</td>
+<td>0x8000</td>
 </tr>
 <tr>
-<td>
-SPEAKER_TOP_BACK_CENTER
-
-</td>
-<td>
-0x10000
-
-</td>
+<td>SPEAKER_TOP_BACK_CENTER</td>
+<td>0x10000</td>
 </tr>
 <tr>
-<td>
-SPEAKER_TOP_BACK_RIGHT
-
-</td>
-<td>
-0x20000
-
-</td>
+<td>SPEAKER_TOP_BACK_RIGHT</td>
+<td>0x20000</td>
 </tr>
 </table>
  
 
-The channels that are specified in <b>dwChannelMask</b> should be present in the order shown in the preceding table, beginning at the top.
-
-For example, if only front-left and front-center are specified, then front-left and front-center should be in channels 0 and 1, respectively, of the interleaved stream.
-
-As a second example, if <b>nChannels</b> (in the <b>Format</b> member; see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>) is set to 4 and <b>dwChannelMask</b> is set to 0x00000033, the audio channels are intended for playback to the front-left, front-right, back-left, and back-right speakers. The channel data should be interleaved in that order within each block.
-
-Channel locations beyond the predefined ones are considered reserved.
-
-Alternatively, the channel mask can be specified as one of the following constants, which are defined in Ksmedia.h and are bitwise ORed combinations of the preceding flags that represent standard speaker configurations:
-
-KSAUDIO_SPEAKER_MONO
-
-KSAUDIO_SPEAKER_STEREO
-
-KSAUDIO_SPEAKER_QUAD
-
-KSAUDIO_SPEAKER_SURROUND
-
-KSAUDIO_SPEAKER_5POINT1
-
-KSAUDIO_SPEAKER_7POINT1
-
-KSAUDIO_SPEAKER_DIRECTOUT
-
-A hardware device can be set to one of these speaker configurations by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537250">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>set-property request. For more information about setting speaker configurations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537083">KSAUDIO_CHANNEL_CONFIG</a>.
-
-Typically, the count in <b>nChannels</b> equals the number of bits set in <b>dwChannelMask</b>, but this is not necessarily so. If <b>nChannels</b> is less than the number of bits set in <b>dwChannelMask</b>, the extra (most significant) bits in <b>dwChannelMask</b> are ignored. If <b>nChannels</b> exceeds the number of bits set in <b>dwChannelMask</b>, the channels that have no corresponding mask bits are not assigned to any physical speaker position. In any speaker configuration other than KSAUDIO_SPEAKER_DIRECTOUT, an audio sink like KMixer (see <a href="https://msdn.microsoft.com/827997e2-6f07-4635-ac35-4ad026b82eae">KMixer System Driver</a>) simply ignores these excess channels and mixes only the channels that have corresponding mask bits.
-
-KSAUDIO_SPEAKER_DIRECTOUT represents a configuration with no speakers and is defined in Ksmedia.h as zero. In this configuration, the audio device renders the first channel to the first port on the device, the second channel to the second port on the device, and so on. This allows an audio authoring application to output multichannel data directly and without modification to a device such as a digital mixer or a digital audio storage device (hard disk or ADAT). For example, channels 0 through 30 might contain, respectively, drums, guitar, bass, voice, and so on. For this kind of raw audio data, speaker positions are meaningless, and assigning speaker positions to the input or output streams could cause a component such as KMixer to intervene inappropriately by performing an unwanted format conversion. If a device is unable to process the raw audio streams, it should reject a request to change its speaker configuration to KSAUDIO_SPEAKER_DIRECTOUT. For more information, see <a href="https://msdn.microsoft.com/a4198fb7-157f-40e3-8cca-5a9e392087d2">DSSPEAKER_DIRECTOUT Speaker Configuration</a>.
-
-For more information about multichannel configurations, see the white paper titled <i>Multiple Channel Audio Data and WAVE Files</i> at the <a href="http://go.microsoft.com/fwlink/p/?linkid=8751">audio technology</a> website.
-
-The <b>SubFormat</b> member contains a GUID that specifies the general data format for a wave stream. For example, this GUID might specify that the stream contains integer PCM data. The other members provide additional information such as the sample size and the number of channels. The meaning of the <b>SubFormat</b> GUID is similar to that of the 16-bit format tag in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a> structure's <b>wFormatTag</b> member.
-
-Before WAVEFORMATEXTENSIBLE was introduced in Windows 98 Second Edition, WAVEFORMATEX was the preferred structure for specifying wave formats. At that time, vendors needed to register each new wave format with Microsoft so that an official format tag could be assigned to the format. A list of registered format tags appears in public header file Mmreg.h.
-
-With WAVEFORMATEXTENSIBLE, registering formats is no longer necessary. Vendors can independently assign <b>SubFormat</b> GUIDs to their new formats as needed. However, Microsoft lists some of the more popular <b>SubFormat</b> GUIDs in public header file Ksmedia.h. Before defining a new <b>SubFormat</b> GUID, vendors should check the list of KSDATAFORMAT_SUBTYPE_<i>Xxx</i> constants in Ksmedia.h to see if an appropriate GUID has already been defined for a particular format.
-
-For backward compatibility, any wave format that can be specified by a stand-alone WAVEFORMATEX structure can also be defined by a WAVEFORMATEXTENSIBLE structure. Thus, every format tag in Mmreg.h has a corresponding <b>SubFormat</b> GUID. The following table shows some typical format tags and their corresponding <b>SubFormat</b> GUIDs.
+The following constants define some standard speaker configurations as bitwise ORs of the flags shown in the previous table.
 
 <table>
 <tr>
-<th>Format tag</th>
-<th>SubFormat GUID</th>
+<th>
+              Value
+            </th>
+<th>
+              Description
+            </th>
+<th>
+              Speakers
+            </th>
 </tr>
 <tr>
-<td>
-WAVE_FORMAT_PCM
-
-</td>
-<td>
-KSDATAFORMAT_SUBTYPE_PCM
-
-</td>
+<td>KSAUDIO_SPEAKER_MONO</td>
+<td>Mono</td>
+<td>Front center (C)</td>
 </tr>
 <tr>
-<td>
-WAVE_FORMAT_IEEE_FLOAT
-
-</td>
-<td>
-KSDATAFORMAT_SUBTYPE_IEEE_FLOAT
-
-</td>
+<td>KSAUDIO_SPEAKER_STEREO</td>
+<td>Stereo</td>
+<td>Front left (L), front right (R)</td>
 </tr>
 <tr>
-<td>
-WAVE_FORMAT_DRM
-
-</td>
-<td>
-KSDATAFORMAT_SUBTYPE_DRM
-
-</td>
+<td>KSAUDIO_SPEAKER_QUAD</td>
+<td>Quadraphonic</td>
+<td>L, R, back left (Lb), back right (Rb)</td>
 </tr>
 <tr>
-<td>
-WAVE_FORMAT_ALAW
-
-</td>
-<td>
-KSDATAFORMAT_SUBTYPE_ALAW
-
-</td>
+<td>KSAUDIO_SPEAKER_SURROUND</td>
+<td>Surround</td>
+<td>L, R, front center (C), back center (Cb)</td>
 </tr>
 <tr>
-<td>
-WAVE_FORMAT_MULAW
-
-</td>
-<td>
-KSDATAFORMAT_SUBTYPE_MULAW
-
-</td>
+<td>KSAUDIO_SPEAKER_5POINT1</td>
+<td>5.1 channel</td>
+<td>L, R, C, Lb, Rb, low frequency (LFE)</td>
 </tr>
 <tr>
-<td>
-WAVE_FORMAT_ADPCM
-
-</td>
-<td>
-KSDATAFORMAT_SUBTYPE_ADPCM
-
-</td>
+<td>KSAUDIO_SPEAKER_7POINT1</td>
+<td>7.1 channel</td>
+<td>L, R, C, Lb, Rb, front left-of-center, front right-of-center, LFE</td>
+</tr>
+<tr>
+<td>KSAUDIO_SPEAKER_5POINT1_SURROUND</td>
+<td>5.1 channel surround</td>
+<td>L, R, C, side left (Ls), side right (Rs), LFE</td>
+</tr>
+<tr>
+<td>KSAUDIO_SPEAKER_7POINT1_SURROUND</td>
+<td>7.1 channel surround</td>
+<td>L, R, C, Lb, Rb, Ls, Rs, LFE</td>
 </tr>
 </table>
  
 
-For more information, see <a href="https://msdn.microsoft.com/299ad5d3-df62-41cf-a18f-daa83cc60ef3">Converting Between Format Tags and Subformat GUIDs</a>.
-
-Because WAVEFORMATEXTENSIBLE is an extended version of WAVEFORMATEX, it can describe additional formats that cannot be described by WAVEFORMATEX alone. Vendors are free to define their own <b>SubFormat</b> GUIDs to identify proprietary formats for which no wave-format tags exist.
+For more information on this structure, see the document <a href="https://msdn.microsoft.com/library/windows/hardware/dn653308">Multiple Channel Audio Data and WAVE Files</a>, available at www.microsoft.com.
 
 
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537083">KSAUDIO_CHANNEL_CONFIG</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
- 
-
- 
 

@@ -7,7 +7,7 @@ old-location: properties\StgSerializePropVariant.htm
 old-project: properties
 ms.assetid: c588e239-616f-4569-88b5-6bfb504cefa1
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: StgSerializePropVariant, StgSerializePropVariant function [Windows Properties], _shell_StgSerializePropVariant, properties.StgSerializePropVariant, propvarutil/StgSerializePropVariant, shell.StgSerializePropVariant
 ms.prod: windows-hardware
 ms.technology: windows-devices

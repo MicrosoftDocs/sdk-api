@@ -7,7 +7,7 @@ old-location: wds\wdstransport_feature_flags.htm
 old-project: Wds
 ms.assetid: 60ce036d-7875-4fa7-8d7e-20a9faf63291
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: "*PWDSTRANSPORT_FEATURE_FLAGS, WDSTRANSPORT_FEATURE_FLAGS, WDSTRANSPORT_FEATURE_FLAGS enumeration [Windows Deployment Services], WdsTptFeatureAdminPack, WdsTptFeatureDeploymentServer, WdsTptFeatureTransportServer, __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0001, wds.wdstransport_feature_flags, wdstptmgmt/WDSTRANSPORT_FEATURE_FLAGS, wdstptmgmt/WdsTptFeatureAdminPack, wdstptmgmt/WdsTptFeatureDeploymentServer, wdstptmgmt/WdsTptFeatureTransportServer"
 ms.prod: windows-hardware
 ms.technology: windows-devices

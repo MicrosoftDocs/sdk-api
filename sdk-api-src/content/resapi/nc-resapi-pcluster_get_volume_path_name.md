@@ -7,7 +7,7 @@ old-location: mscs\clustergetvolumepathname.htm
 old-project: MsCS
 ms.assetid: eff2995a-d17c-4899-bff5-ead9526f859d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PCLUSTER_GET_VOLUME_PATH_NAME, PCLUSTER_GET_VOLUME_PATH_NAME callback, PCLUSTER_GET_VOLUME_PATH_NAME callback function [Failover Cluster], mscs.clustergetvolumepathname, resapi/PCLUSTER_GET_VOLUME_PATH_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices

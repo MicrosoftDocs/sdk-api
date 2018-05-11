@@ -7,7 +7,7 @@ old-location: rras\rtm_ipv4_set_addr_and_mask.htm
 old-project: RRAS
 ms.assetid: 23849eed-309a-41b8-b853-1267806166fa
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RTM_IPV4_SET_ADDR_AND_MASK, RTM_IPV4_SET_ADDR_AND_MASK macro [RAS], _rtmv2ref_rtm_ipv4_set_addr_and_mask, rras.rtm_ipv4_set_addr_and_mask, rtmv2/RTM_IPV4_SET_ADDR_AND_MASK
 ms.prod: windows-hardware
 ms.technology: windows-devices

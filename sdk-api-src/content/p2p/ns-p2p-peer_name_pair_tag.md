@@ -7,7 +7,7 @@ old-location: p2p\peer_name_pair.htm
 old-project: P2PSdk
 ms.assetid: 4c64664e-33c6-490e-b160-7bdb5fb428fa
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: "*PPEER_NAME_PAIR, PEER_NAME_PAIR, PEER_NAME_PAIR structure [Peer Networking], PPEER_NAME_PAIR, PPEER_NAME_PAIR structure pointer [Peer Networking], p2p.peer_name_pair, p2p/PPEER_NAME_PAIR, p2p/peer_name_pair_tag, peer_name_pair_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices

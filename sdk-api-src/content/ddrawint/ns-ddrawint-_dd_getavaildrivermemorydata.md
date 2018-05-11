@@ -7,7 +7,7 @@ old-location: display\dd_getavaildrivermemorydata.htm
 old-project: display
 ms.assetid: 4e344c43-55ae-49fc-94ef-390c399d5d0b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*PDD_GETAVAILDRIVERMEMORYDATA, DD_GETAVAILDRIVERMEMORYDATA, DD_GETAVAILDRIVERMEMORYDATA structure [Display Devices], _DD_GETAVAILDRIVERMEMORYDATA, ddrawint/DD_GETAVAILDRIVERMEMORYDATA, ddstrcts_874c0a25-9513-44fa-bbfc-a480c918a835.xml, display.dd_getavaildrivermemorydata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

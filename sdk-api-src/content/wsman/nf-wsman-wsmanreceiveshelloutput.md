@@ -7,7 +7,7 @@ old-location: winrm\wsmanreceiveshelloutput.htm
 old-project: WinRM
 ms.assetid: cc64f212-9897-4a58-b3f1-bc2093f593ba
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: WSManReceiveShellOutput, WSManReceiveShellOutput function [Windows Remote Management], winrm.wsmanreceiveshelloutput, wsman/WSManReceiveShellOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\wts_protocol_cache.htm
 old-project: TermServ
 ms.assetid: 94e699f4-278c-45fd-88e2-42f97e7ea305
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: "*PWTS_PROTOCOL_CACHE, PWRDS_PROTOCOL_CACHE, PWRDS_PROTOCOL_CACHE structure pointer [Remote Desktop Services], PWTS_PROTOCOL_CACHE, PWTS_PROTOCOL_CACHE structure pointer [Remote Desktop Services], WRDS_PROTOCOL_CACHE, WRDS_PROTOCOL_CACHE structure [Remote Desktop Services], WTS_PROTOCOL_CACHE, WTS_PROTOCOL_CACHE structure [Remote Desktop Services], _WTS_PROTOCOL_CACHE, termserv.wts_protocol_cache, wtsdefs/PWRDS_PROTOCOL_CACHE, wtsdefs/PWTS_PROTOCOL_CACHE, wtsdefs/WRDS_PROTOCOL_CACHE, wtsdefs/WTS_PROTOCOL_CACHE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

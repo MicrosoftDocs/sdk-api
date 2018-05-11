@@ -7,7 +7,7 @@ old-location: p2p\peercollabgetcontact.htm
 old-project: P2PSdk
 ms.assetid: b1233942-1bd5-4198-a00c-6d0516ab32dc
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerCollabGetContact, PeerCollabGetContact function [Peer Networking], p2p.peercollabgetcontact, p2p/PeerCollabGetContact
 ms.prod: windows-hardware
 ms.technology: windows-devices

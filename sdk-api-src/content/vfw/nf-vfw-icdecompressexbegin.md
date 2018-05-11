@@ -7,7 +7,7 @@ old-location: multimedia\icdecompressexbegin.htm
 old-project: Multimedia
 ms.assetid: 35277938-6fae-4207-8b91-439af2b481e8
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: ICDecompressExBegin, ICDecompressExBegin function [Windows Multimedia], _win32_ICDecompressExBegin, multimedia.icdecompressexbegin, vfw/ICDecompressExBegin
 ms.prod: windows-hardware
 ms.technology: windows-devices

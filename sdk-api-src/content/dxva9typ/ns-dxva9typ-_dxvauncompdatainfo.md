@@ -7,7 +7,7 @@ old-location: mf\dxvauncompdatainfo.htm
 old-project: medfound
 ms.assetid: bd19d9a8-7d69-4aea-9638-84c3f1a1e810
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: DXVAUncompDataInfo, DXVAUncompDataInfo structure [Media Foundation], _DXVAUncompDataInfo, dxva9typ/DXVAUncompDataInfo, mf.dxvauncompdatainfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

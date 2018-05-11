@@ -7,7 +7,7 @@ old-location: multimedia\avimakecompressedstream.htm
 old-project: Multimedia
 ms.assetid: 63279d7e-0e64-4708-a29c-60d5fdf75cb2
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: AVIMakeCompressedStream, AVIMakeCompressedStream function [Windows Multimedia], _win32_AVIMakeCompressedStream, multimedia.avimakecompressedstream, vfw/AVIMakeCompressedStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

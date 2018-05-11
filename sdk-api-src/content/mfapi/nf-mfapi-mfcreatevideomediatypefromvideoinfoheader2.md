@@ -7,7 +7,7 @@ old-location: mf\mfcreatevideomediatypefromvideoinfoheader2.htm
 old-project: medfound
 ms.assetid: 2c0f4c47-7018-42f3-ae63-5209daa44158
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 2c0f4c47-7018-42f3-ae63-5209daa44158, MFCreateVideoMediaTypeFromVideoInfoHeader2, MFCreateVideoMediaTypeFromVideoInfoHeader2 function [Media Foundation], mf.mfcreatevideomediatypefromvideoinfoheader2, mfapi/MFCreateVideoMediaTypeFromVideoInfoHeader2
 ms.prod: windows-hardware
 ms.technology: windows-devices

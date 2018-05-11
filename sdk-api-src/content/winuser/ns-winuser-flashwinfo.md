@@ -7,7 +7,7 @@ old-location: base\flashwinfo_str.htm
 old-project: Debug
 ms.assetid: b16636bc-fa77-4eb9-9801-dc2cdf0556e5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: "*PFLASHWINFO, FLASHWINFO, FLASHWINFO structure, FLASHW_ALL, FLASHW_CAPTION, FLASHW_STOP, FLASHW_TIMER, FLASHW_TIMERNOFG, FLASHW_TRAY, PFLASHWINFO, PFLASHWINFO structure pointer, _win32_flashwinfo_str, base.flashwinfo_str, winuser/FLASHWINFO, winuser/PFLASHWINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wds\wdscligetimagehandlefromfindhandle.htm
 old-project: Wds
 ms.assetid: 28cb93de-67f2-4e94-b0b7-0707c276662a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsCliGetImageHandleFromFindHandle, WdsCliGetImageHandleFromFindHandle function [Windows Deployment Services], wds.wdscligetimagehandlefromfindhandle, wdsclientapi/WdsCliGetImageHandleFromFindHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

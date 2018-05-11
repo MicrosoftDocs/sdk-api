@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorageglobals_gettotalfree.htm
 old-project: WMDM
 ms.assetid: a97c2d92-dc54-4987-b2b4-e4de2e546a1f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: GetTotalFree, GetTotalFree method [windows Media Device Manager], GetTotalFree method [windows Media Device Manager],IWMDMStorageGlobals interface, IWMDMStorageGlobals interface [windows Media Device Manager],GetTotalFree method, IWMDMStorageGlobals.GetTotalFree, IWMDMStorageGlobals::GetTotalFree, IWMDMStorageGlobalsGetTotalFree, mswmdm/IWMDMStorageGlobals::GetTotalFree, wmdm.iwmdmstorageglobals_gettotalfree
 ms.prod: windows-hardware
 ms.technology: windows-devices

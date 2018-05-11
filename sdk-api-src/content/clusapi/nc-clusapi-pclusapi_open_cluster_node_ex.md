@@ -7,7 +7,7 @@ old-location: mscs\openclusternodeex.htm
 old-project: MsCS
 ms.assetid: 2db24a30-0e4e-4647-8975-c9f584c3a9da
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PCLUSAPI_OPEN_CLUSTER_NODE_EX, PCLUSAPI_OPEN_CLUSTER_NODE_EX callback, PCLUSAPI_OPEN_CLUSTER_NODE_EX callback function [Failover Cluster], clusapi/PCLUSAPI_OPEN_CLUSTER_NODE_EX, mscs.openclusternodeex
 ms.prod: windows-hardware
 ms.technology: windows-devices

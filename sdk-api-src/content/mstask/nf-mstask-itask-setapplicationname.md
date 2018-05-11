@@ -7,7 +7,7 @@ old-location: taskschd\itask_setapplicationname.htm
 old-project: TaskSchd
 ms.assetid: 0bec25a9-e653-48b5-be41-8f513169fc8c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITask interface [Task Scheduler],SetApplicationName method, ITask.SetApplicationName, ITask::SetApplicationName, SetApplicationName, SetApplicationName method [Task Scheduler], SetApplicationName method [Task Scheduler],ITask interface, _msb_itask_setapplicationname, mstask/ITask::SetApplicationName, taskschd.itask_setapplicationname
 ms.prod: windows-hardware
 ms.technology: windows-devices

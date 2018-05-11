@@ -7,7 +7,7 @@ old-location: wua\iupdate5_autodownload.htm
 old-project: Wua_Sdk
 ms.assetid: b8819ba8-7333-488c-b337-0a51f995d942
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: AutoDownload property [Windows Update Agent], AutoDownload property [Windows Update Agent],IUpdate5 interface, IUpdate5 interface [Windows Update Agent],AutoDownload property, IUpdate5.AutoDownload, IUpdate5.get_AutoDownload, IUpdate5::AutoDownload, IUpdate5::get_AutoDownload, get_AutoDownload, wua.iupdate5_autodownload, wuapi/IUpdate5::AutoDownload, wuapi/IUpdate5::get_AutoDownload
 ms.prod: windows-hardware
 ms.technology: windows-devices

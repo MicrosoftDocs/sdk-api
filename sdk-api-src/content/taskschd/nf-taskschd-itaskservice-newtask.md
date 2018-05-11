@@ -7,7 +7,7 @@ old-location: taskschd\itaskservice_newtask.htm
 old-project: TaskSchd
 ms.assetid: 821fc610-cf94-4548-950d-b4fd7b2f90dc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITaskService interface [Task Scheduler],NewTask method, ITaskService.NewTask, ITaskService::NewTask, NewTask, NewTask method [Task Scheduler], NewTask method [Task Scheduler],ITaskService interface, taskschd.itaskservice_newtask, taskschd/ITaskService::NewTask
 ms.prod: windows-hardware
 ms.technology: windows-devices

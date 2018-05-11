@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorageglobals_getrootstorage.htm
 old-project: WMDM
 ms.assetid: 80b6cb71-d567-4fb5-9f75-82ae2fe118c7
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: GetRootStorage, GetRootStorage method [windows Media Device Manager], GetRootStorage method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetRootStorage method, IMDSPStorageGlobals.GetRootStorage, IMDSPStorageGlobals::GetRootStorage, IMDSPStorageGlobalsGetRootStorage, mswmdm/IMDSPStorageGlobals::GetRootStorage, wmdm.imdspstorageglobals_getrootstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

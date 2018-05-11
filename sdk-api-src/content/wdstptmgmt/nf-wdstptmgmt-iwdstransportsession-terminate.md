@@ -7,7 +7,7 @@ old-location: wds\iwdstransportsession_terminate.htm
 old-project: Wds
 ms.assetid: 2b616a69-1387-4c55-a80e-95ead719b911
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],Terminate method, IWdsTransportSession.Terminate, IWdsTransportSession::Terminate, Terminate, Terminate method [Windows Deployment Services], Terminate method [Windows Deployment Services],IWdsTransportSession interface, wds.iwdstransportsession_terminate, wdstptmgmt/IWdsTransportSession::Terminate
 ms.prod: windows-hardware
 ms.technology: windows-devices

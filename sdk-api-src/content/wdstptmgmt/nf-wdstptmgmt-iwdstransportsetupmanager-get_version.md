@@ -7,7 +7,7 @@ old-location: wds\iwdstransportsetupmanager_version.htm
 old-project: Wds
 ms.assetid: 0477a219-0300-41de-bd2a-83052bd7b90f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],Version property, IWdsTransportSetupManager.Version, IWdsTransportSetupManager.get_Version, IWdsTransportSetupManager::Version, IWdsTransportSetupManager::get_Version, Version property [Windows Deployment Services], Version property [Windows Deployment Services],IWdsTransportSetupManager interface, get_Version, wds.iwdstransportsetupmanager_version, wdstptmgmt/IWdsTransportSetupManager::Version, wdstptmgmt/IWdsTransportSetupManager::get_Version
 ms.prod: windows-hardware
 ms.technology: windows-devices

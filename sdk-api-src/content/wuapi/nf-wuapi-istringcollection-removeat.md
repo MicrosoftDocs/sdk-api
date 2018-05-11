@@ -7,7 +7,7 @@ old-location: wua\istringcollection_removeat.htm
 old-project: Wua_Sdk
 ms.assetid: a0b350b0-d5b4-49c6-acca-a50719d92262
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],RemoveAt method, IStringCollection.RemoveAt, IStringCollection::RemoveAt, RemoveAt, RemoveAt method [Windows Update Agent], RemoveAt method [Windows Update Agent],IStringCollection interface, wua.istringcollection_removeat, wuapi/IStringCollection::RemoveAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

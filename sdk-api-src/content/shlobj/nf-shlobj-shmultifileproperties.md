@@ -7,7 +7,7 @@ old-location: shell\SHMultiFileProperties.htm
 old-project: shell
 ms.assetid: 7c66fd91-4f7a-45f3-b849-bf210c552511
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SHMultiFileProperties, SHMultiFileProperties function [Windows Shell], _win32_SHMultiFileProperties, shell.SHMultiFileProperties, shlobj/SHMultiFileProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\ikeext_em_policy2.htm
 old-project: FWP
 ms.assetid: 01e3122b-812f-4c01-a514-dc0d513de822
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IKEEXT_EM_POLICY2, IKEEXT_EM_POLICY2 structure [Filtering], IKEEXT_EM_POLICY2_, fwp.ikeext_em_policy2, iketypes/IKEEXT_EM_POLICY2
 ms.prod: windows-hardware
 ms.technology: windows-devices

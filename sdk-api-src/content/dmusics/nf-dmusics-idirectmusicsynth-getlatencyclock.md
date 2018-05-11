@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth_getlatencyclock.htm
 old-project: audio
 ms.assetid: 36690d54-dc88-4e31-8f66-8a0b48be2712
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/8/2018
 ms.keywords: GetLatencyClock, GetLatencyClock method [Audio Devices], GetLatencyClock method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetLatencyClock method, IDirectMusicSynth.GetLatencyClock, IDirectMusicSynth::GetLatencyClock, audio.idirectmusicsynth_getlatencyclock, audmp-routines_79ca400b-e04b-4381-aacb-79a3f9415683.xml, dmusics/IDirectMusicSynth::GetLatencyClock
 ms.prod: windows-hardware
 ms.technology: windows-devices

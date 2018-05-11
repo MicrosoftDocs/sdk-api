@@ -7,7 +7,7 @@ old-location: setup\setupgetsourcefilesize.htm
 old-project: SetupApi
 ms.assetid: f1db8ad5-b133-410e-9843-38b09e2ef5e7
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupGetSourceFileSize, SetupGetSourceFileSize function [Setup API], SetupGetSourceFileSizeA, SetupGetSourceFileSizeW, _setupapi_setupgetsourcefilesize, setup.setupgetsourcefilesize, setupapi/SetupGetSourceFileSize, setupapi/SetupGetSourceFileSizeA, setupapi/SetupGetSourceFileSizeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

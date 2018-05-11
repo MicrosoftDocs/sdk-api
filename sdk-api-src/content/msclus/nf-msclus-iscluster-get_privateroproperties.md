@@ -7,7 +7,7 @@ old-location: mscs\cluster_privateroproperties.htm
 old-project: MsCS
 ms.assetid: 6a89c7ea-4f53-46c5-8373-ffbaf0a7a8cd
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: Cluster object [Failover Cluster],PrivateROProperties property, Cluster.PrivateROProperties, ISCluster.get_PrivateROProperties, ISCluster::get_PrivateROProperties, PrivateROProperties property [Failover Cluster], PrivateROProperties property [Failover Cluster],Cluster object, _wolf_cluster.privateroproperties, get_PrivateROProperties, mscs.cluster_privateroproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

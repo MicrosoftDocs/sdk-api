@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidersetsecurityinfobykey0_func.htm
 old-project: FWP
 ms.assetid: 4451ae03-cdff-4b43-84cd-a80d639ba79f
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmProviderSetSecurityInfoByKey0, FwpmProviderSetSecurityInfoByKey0 function [Filtering], fwp.fwpmprovidersetsecurityinfobykey0_func, fwpmu/FwpmProviderSetSecurityInfoByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

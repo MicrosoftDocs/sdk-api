@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_inserttextatselection.htm
 old-project: TSF
 ms.assetid: b57ad8da-6f79-4d27-96e0-608cbcaae826
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: 0, ITextStoreACP interface [Text Services Framework],InsertTextAtSelection method, ITextStoreACP.InsertTextAtSelection, ITextStoreACP::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITextStoreACP interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, _tsf_itextstoreacp_inserttextatselection_ref, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP::InsertTextAtSelection, tsf.itextstoreacp_inserttextatselection
 ms.prod: windows-hardware
 ms.technology: windows-devices

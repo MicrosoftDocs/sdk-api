@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instanceft.htm
 old-project: wmi_v2
 ms.assetid: a8cd93b7-c9e0-415e-811a-33826e38417f
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_InstanceFT, MI_InstanceFT structure [Windows Management Infrastructure (MI)], _MI_InstanceFT, mi/MI_InstanceFT, wmi_v2.mi_instanceft
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\peergroupunregisterevent.htm
 old-project: P2PSdk
 ms.assetid: ad13cbf6-0dc9-4de5-aae7-2ecf6af90ea6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGroupUnregisterEvent, PeerGroupUnregisterEvent function [Peer Networking], p2p.peergroupunregisterevent, p2p/PeerGroupUnregisterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

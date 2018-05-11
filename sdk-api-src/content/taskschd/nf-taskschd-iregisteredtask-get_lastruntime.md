@@ -7,7 +7,7 @@ old-location: taskschd\iregisteredtask_lastruntime.htm
 old-project: TaskSchd
 ms.assetid: c7ac7fea-35c7-4336-9142-6c97caa1dea0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],LastRunTime property, IRegisteredTask.LastRunTime, IRegisteredTask.get_LastRunTime, IRegisteredTask::LastRunTime, IRegisteredTask::get_LastRunTime, LastRunTime property [Task Scheduler], LastRunTime property [Task Scheduler],IRegisteredTask interface, get_LastRunTime, taskschd.iregisteredtask_lastruntime, taskschd/IRegisteredTask::LastRunTime, taskschd/IRegisteredTask::get_LastRunTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

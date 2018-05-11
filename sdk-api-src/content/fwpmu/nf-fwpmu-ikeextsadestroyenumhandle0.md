@@ -7,7 +7,7 @@ old-location: fwp\ikeextsadestroyenumhandle0.htm
 old-project: FWP
 ms.assetid: b9351d74-bc0b-4423-9f21-5f3be8608b8a
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IkeextSaDestroyEnumHandle0, IkeextSaDestroyEnumHandle0 function [Filtering], fwp.ikeextsadestroyenumhandle0, fwpmu/IkeextSaDestroyEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

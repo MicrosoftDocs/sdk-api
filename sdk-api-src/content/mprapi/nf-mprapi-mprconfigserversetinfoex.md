@@ -7,8 +7,8 @@ old-location: rras\mprconfigserversetinfoex.htm
 old-project: RRAS
 ms.assetid: 8251f391-7697-4024-9a9d-c7c810129a78
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: MprConfigServerSetInfo, MprConfigServerSetInfo function [RAS], MprConfigServerSetInfoEx, mprapi/MprConfigServerSetInfo, rras.mprconfigserversetinfoex
+ms.date: 5/9/2018
+ms.keywords: MprConfigServerSetInfoEx, MprConfigServerSetInfoEx function [RAS], mprapi/MprConfigServerSetInfoEx, rras.mprconfigserversetinfoex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Mprapi.dll
 api_name:
--	MprConfigServerSetInfo
+-	MprConfigServerSetInfoEx
 product: Windows
 targetos: Windows
 req.lib: Mprapi.lib

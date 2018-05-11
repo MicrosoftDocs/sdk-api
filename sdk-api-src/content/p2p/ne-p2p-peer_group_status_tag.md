@@ -7,7 +7,7 @@ old-location: p2p\peer_group_status.htm
 old-project: P2PSdk
 ms.assetid: ed3fa9a6-5180-419f-b5d1-02889bbcdd0d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PEER_GROUP_STATUS, PEER_GROUP_STATUS enumeration [Peer Networking], PEER_GROUP_STATUS_HAS_CONNECTIONS, PEER_GROUP_STATUS_LISTENING, p2p.peer_group_status, p2p/ PEER_GROUP_STATUS, p2p/PEER_GROUP_STATUS_HAS_CONNECTIONS, p2p/PEER_GROUP_STATUS_LISTENING, peer_group_status_tag
 ms.prod: windows-hardware
 ms.technology: windows-devices

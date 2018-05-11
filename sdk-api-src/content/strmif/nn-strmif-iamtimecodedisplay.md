@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodedisplay.htm
 old-project: DirectShow
 ms.assetid: 2edfc260-5bb6-475d-b8af-252e7c7a8552
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMTimecodeDisplay, IAMTimecodeDisplay interface [DirectShow], IAMTimecodeDisplay interface [DirectShow],described, IAMTimecodeDisplayInterface, dshow.iamtimecodedisplay, strmif/IAMTimecodeDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices

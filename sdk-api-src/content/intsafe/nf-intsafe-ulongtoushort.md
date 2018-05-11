@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongToUShort
 title: ULongToUShort function
 author: windows-driver-content
-description: Converts a value of type DWORD to a value of type WORD.
-old-location: shell\DWordToWord.htm
+description: Converts a value of type ULONG to a value of type USHORT.
+old-location: shell\ULongToUShort.htm
 old-project: shell
-ms.assetid: 677ecdbc-197e-461e-aeab-5c73662fbf16
+ms.assetid: 83fea16a-f9af-4c39-87b2-4f2eb69130d9
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: DWordToWord, DWordToWord function [Windows Shell], ULongToUShort, _shell_DWordToWord, intsafe/DWordToWord, shell.DWordToWord
+ms.date: 5/9/2018
+ms.keywords: DWordToWord, Int64ToDWord, ULongToUShort, ULongToUShort function [Windows Shell], ULongToWord, _shell_ULongToUShort, intsafe/ULongToUShort, shell.ULongToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	DllExport
+-	HeaderDef
 api_location:
--	None
+-	Intsafe.h
 api_name:
--	DWordToWord
+-	ULongToUShort
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: None
+req.dll: 
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>DWORD</b> to a value of type <b>WORD</b>.
+Converts a value of type <b>ULONG</b> to a value of type <b>USHORT</b>.
 
 
 ## -parameters
@@ -58,28 +58,16 @@ Converts a value of type <b>DWORD</b> to a value of type <b>WORD</b>.
 
 
 
-### -param ulOperand
+### -param ulOperand [in]
 
-TBD
-
-
-### -param pusResult
-
-TBD
-
-
-
-
-#### - dwOperand [in]
-
-Type: <b>DWORD</b>
+Type: <b>ULONG</b>
 
 The value to be converted.
 
 
-#### - pwResult [out]
+### -param pusResult [out]
 
-Type: <b>WORD*</b>
+Type: <b>USHORT*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
@@ -100,6 +88,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>Int64ToDWord</b> is an alias for this function.
+
+<b>ULongToWord</b> is an alias for this function.
+
+<b>DWordToWord</b> is an alias for this function.
 
 
 

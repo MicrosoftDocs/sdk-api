@@ -7,7 +7,7 @@ old-location: intl\getcpinfoex.htm
 old-project: Intl
 ms.assetid: c21ed6fe-85b6-438a-8f53-e30833e0c88a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_THREAD_ACP, GetCPInfoEx, GetCPInfoEx function [Internationalization for Windows Applications], GetCPInfoExA, GetCPInfoExW, _win32_GetCPInfoEx, intl.getcpinfoex, winnls/GetCPInfoEx, winnls/GetCPInfoExA, winnls/GetCPInfoExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

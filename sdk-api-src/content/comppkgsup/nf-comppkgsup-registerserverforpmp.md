@@ -7,7 +7,7 @@ old-location: winprog\registerserverforpmp.htm
 old-project: DevNotes
 ms.assetid: F18A5596-F21E-427B-8281-544DD7CA9E0B
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: RegisterServerForPMP, RegisterServerForPMP function [Windows API], comppkgsup/RegisterServerForPMP, winprog.registerserverforpmp
 ms.prod: windows-hardware
 ms.technology: windows-devices

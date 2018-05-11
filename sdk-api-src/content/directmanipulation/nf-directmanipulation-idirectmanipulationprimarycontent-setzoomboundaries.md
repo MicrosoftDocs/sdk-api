@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationprimarycontent_setzoombounda
 old-project: directmanipulation
 ms.assetid: 77e4054b-637f-4cff-bfab-0e2a0e992c59
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetZoomBoundaries method, IDirectManipulationPrimaryContent.SetZoomBoundaries, IDirectManipulationPrimaryContent::SetZoomBoundaries, SetZoomBoundaries, SetZoomBoundaries method [Direct Manipulation], SetZoomBoundaries method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setzoomboundaries, directmanipulation/IDirectManipulationPrimaryContent::SetZoomBoundaries
 ms.prod: windows-hardware
 ms.technology: windows-devices

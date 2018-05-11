@@ -7,7 +7,7 @@ old-location: setup\msigetfilehash.htm
 old-project: Msi
 ms.assetid: afd9f0b4-432f-4d23-b59d-7406ac2f68bb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiGetFileHash, MsiGetFileHash function, MsiGetFileHashA, MsiGetFileHashW, _msi_msigetfilehash, msi/MsiGetFileHash, msi/MsiGetFileHashA, msi/MsiGetFileHashW, setup.msigetfilehash
 ms.prod: windows-hardware
 ms.technology: windows-devices

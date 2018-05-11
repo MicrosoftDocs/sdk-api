@@ -7,7 +7,7 @@ old-location: vhd\virtual_disk_progress.htm
 old-project: VStor
 ms.assetid: 834d7384-09fe-493e-8402-135c453a1ecf
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: "*PVIRTUAL_DISK_PROGRESS, PVIRTUAL_DISK_PROGRESS, PVIRTUAL_DISK_PROGRESS structure pointer [VHD], VIRTUAL_DISK_PROGRESS, VIRTUAL_DISK_PROGRESS structure [VHD], _VIRTUAL_DISK_PROGRESS, vhd.virtual_disk_progress, virtdisk/PVIRTUAL_DISK_PROGRESS, virtdisk/VIRTUAL_DISK_PROGRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\ipsec_sa_context0.htm
 old-project: FWP
 ms.assetid: 1cf191f0-5052-40f6-8665-747ae3f38fb1
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPSEC_SA_CONTEXT0, IPSEC_SA_CONTEXT0 structure [Filtering], IPSEC_SA_CONTEXT0_, fwp.ipsec_sa_context0, ipsectypes/IPSEC_SA_CONTEXT0
 ms.prod: windows-hardware
 ms.technology: windows-devices

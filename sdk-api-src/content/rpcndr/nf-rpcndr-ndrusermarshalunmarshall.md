@@ -7,7 +7,7 @@ old-location: winprog\ndrusermarshalunmarshall.htm
 old-project: DevNotes
 ms.assetid: 8012973b-a41f-4729-a04a-8a1afb29cebe
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: NdrUserMarshalUnmarshall, NdrUserMarshalUnmarshall function [Windows API], rpcndr/NdrUserMarshalUnmarshall, winprog.ndrusermarshalunmarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\rtmdeletenexthop.htm
 old-project: RRAS
 ms.assetid: 708a890e-4dc6-49c7-b857-cdb8504e7f7f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RtmDeleteNextHop, RtmDeleteNextHop function [RAS], _rtmv2ref_rtmdeletenexthop, rras.rtmdeletenexthop, rtmv2/RtmDeleteNextHop
 ms.prod: windows-hardware
 ms.technology: windows-devices

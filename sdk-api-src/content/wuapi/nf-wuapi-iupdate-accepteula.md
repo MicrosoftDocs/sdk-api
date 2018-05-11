@@ -7,7 +7,7 @@ old-location: wua\iupdate_accepteula.htm
 old-project: Wua_Sdk
 ms.assetid: b3a25994-eace-45ec-8e6b-40d69796f168
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: AcceptEula, AcceptEula method [Windows Update Agent], AcceptEula method [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],AcceptEula method, IUpdate.AcceptEula, IUpdate::AcceptEula, wua.iupdate_accepteula, wuapi/IUpdate::AcceptEula
 ms.prod: windows-hardware
 ms.technology: windows-devices

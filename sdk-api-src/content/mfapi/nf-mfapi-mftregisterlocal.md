@@ -7,7 +7,7 @@ old-location: mf\mftregisterlocal.htm
 old-project: medfound
 ms.assetid: 802f7083-e224-4e5c-8a35-3e93da0cbd91
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MFTRegisterLocal, MFTRegisterLocal function [Media Foundation], mf.mftregisterlocal, mfapi/MFTRegisterLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\rtmderegisterentity.htm
 old-project: RRAS
 ms.assetid: dc13022b-e474-4442-a19c-856ee130c383
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RtmDeregisterEntity, RtmDeregisterEntity function [RAS], _rtmv2ref_rtmderegisterentity, rras.rtmderegisterentity, rtmv2/RtmDeregisterEntity
 ms.prod: windows-hardware
 ms.technology: windows-devices

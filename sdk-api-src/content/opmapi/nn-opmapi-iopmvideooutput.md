@@ -7,7 +7,7 @@ old-location: mf\iopmvideooutput.htm
 old-project: medfound
 ms.assetid: 8bf43577-3535-4f62-ac81-bb7e3c329403
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IOPMVideoOutput, IOPMVideoOutput interface [Media Foundation], IOPMVideoOutput interface [Media Foundation],described, mf.iopmvideooutput, opmapi/IOPMVideoOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceextension_getsourcebuffers.htm
 old-project: medfound
 ms.assetid: 553b2711-1098-4e07-824d-42d5b2d57c16
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetSourceBuffers, GetSourceBuffers method [Media Foundation], GetSourceBuffers method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],GetSourceBuffers method, IMFMediaSourceExtension.GetSourceBuffers, IMFMediaSourceExtension::GetSourceBuffers, mf.imfmediasourceextension_getsourcebuffers, mfmediaengine/IMFMediaSourceExtension::GetSourceBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

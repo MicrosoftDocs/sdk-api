@@ -7,7 +7,7 @@ old-location: mf\mfp_get_pause_event.htm
 old-project: medfound
 ms.assetid: 492b8c37-eae0-42ea-9a62-3c2e3ee0233f
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MFP_GET_PAUSE_EVENT, MFP_GET_PAUSE_EVENT macro [Media Foundation], mf.mfp_get_pause_event, mfplay/MFP_GET_PAUSE_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

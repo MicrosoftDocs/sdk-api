@@ -7,7 +7,7 @@ old-location: multimedia\drawdibstop.htm
 old-project: Multimedia
 ms.assetid: 8744d0d2-bcdc-464f-a55c-4b1db6a42522
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: DrawDibStop, DrawDibStop function [Windows Multimedia], _win32_DrawDibStop, multimedia.drawdibstop, vfw/DrawDibStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

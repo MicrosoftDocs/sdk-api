@@ -7,7 +7,7 @@ old-location: tsf\itflangbarmgr_setmodalinput.htm
 old-project: TSF
 ms.assetid: 754376e0-e7e4-4bd2-b89c-43d211634c65
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfLangBarMgr interface [Text Services Framework],SetModalInput method, ITfLangBarMgr.SetModalInput, ITfLangBarMgr::SetModalInput, SetModalInput, SetModalInput method [Text Services Framework], SetModalInput method [Text Services Framework],ITfLangBarMgr interface, _tsf_itflangbarmgr_setmodalinput_ref, ctfutb/ITfLangBarMgr::SetModalInput, tsf.itflangbarmgr_setmodalinput
 ms.prod: windows-hardware
 ms.technology: windows-devices

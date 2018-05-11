@@ -7,7 +7,7 @@ old-location: multimedia\acmformatenumcallback.htm
 old-project: Multimedia
 ms.assetid: 58775258-c42c-4d59-8922-c478b5bdf0d7
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: ACMFORMATTAGENUMCB, ACMFORMATTAGENUMCB callback, ACMFORMATTAGENUMCBA, ACMFORMATTAGENUMCBW, _win32_acmFormatEnumCallback, acmFormatEnumCallback, acmFormatEnumCallback callback function [Windows Multimedia], msacm/acmFormatEnumCallback, multimedia.acmformatenumcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

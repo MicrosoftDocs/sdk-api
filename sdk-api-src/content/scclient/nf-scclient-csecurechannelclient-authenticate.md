@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelclient_authenticate.htm
 old-project: WMDM
 ms.assetid: ce96b39f-13f8-47c8-affd-2094cf25f057
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: Authenticate, Authenticate method [windows Media Device Manager], Authenticate method [windows Media Device Manager],CSecureChannelClient interface, CSecureChannelClient interface [windows Media Device Manager],Authenticate method, CSecureChannelClient.Authenticate, CSecureChannelClient::Authenticate, CSecureChannelClientAuthenticate, scclient/CSecureChannelClient::Authenticate, wmdm.csecurechannelclient_authenticate
 ms.prod: windows-hardware
 ms.technology: windows-devices

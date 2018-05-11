@@ -7,7 +7,7 @@ old-location: controls\itextfont2_geteffects2.htm
 old-project: Controls
 ms.assetid: 6b28c995-33dd-4f5b-ac89-eec367e0a4d5
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetEffects2, GetEffects2 method [Windows Controls], GetEffects2 method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetEffects2 method, ITextFont2.GetEffects2, ITextFont2::GetEffects2, controls.itextfont2_geteffects2, tom/ITextFont2::GetEffects2, tomAutoSpaceAlpha, tomAutoSpaceNumeric, tomAutoSpaceParens, tomDoublestrike, tomEmbeddedFont, tomModWidthPairs, tomModWidthSpace, tomOverlapping
 ms.prod: windows-hardware
 ms.technology: windows-devices

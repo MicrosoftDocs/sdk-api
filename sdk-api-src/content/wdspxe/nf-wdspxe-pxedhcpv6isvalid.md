@@ -7,7 +7,7 @@ old-location: wds\pxedhcpv6isvalid.htm
 old-project: Wds
 ms.assetid: E20A9E7A-8CFA-4A2B-8A40-7937937332A5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: FALSE, PxeDhcpv6IsValid, PxeDhcpv6IsValid function [Windows Deployment Services], TRUE, wds.pxedhcpv6isvalid, wdspxe/PxeDhcpv6IsValid
 ms.prod: windows-hardware
 ms.technology: windows-devices

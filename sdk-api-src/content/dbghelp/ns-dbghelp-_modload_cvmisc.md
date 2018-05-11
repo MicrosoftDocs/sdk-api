@@ -7,7 +7,7 @@ old-location: base\modload_cvmisc.htm
 old-project: Debug
 ms.assetid: 24f1ed20-ef7a-4c7b-9bbe-4aaf26c219e7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: "*PMODLOAD_CVMISC, MODLOAD_CVMISC, MODLOAD_CVMISC structure, PMODLOAD_CVMISC, PMODLOAD_CVMISC structure pointer, _MODLOAD_CVMISC, base.modload_cvmisc, dbghelp/MODLOAD_CVMISC, dbghelp/PMODLOAD_CVMISC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

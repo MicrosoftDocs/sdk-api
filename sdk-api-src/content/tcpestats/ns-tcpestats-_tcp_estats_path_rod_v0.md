@@ -7,7 +7,7 @@ old-location: iphlp\tcp_estats_path_rod_v0.htm
 old-project: IpHlp
 ms.assetid: 35ed2a10-caac-4004-80ac-f62c3880f5de
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: "*PTCP_ESTATS_PATH_ROD_v0, PTCP_ESTATS_PATH_ROD_v0, PTCP_ESTATS_PATH_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_PATH_ROD_v0, TCP_ESTATS_PATH_ROD_v0 structure [IP Helper], _TCP_ESTATS_PATH_ROD_v0, iphlp.tcp_estats_path_rod_v0, tcpestats/PTCP_ESTATS_PATH_ROD_v0, tcpestats/TCP_ESTATS_PATH_ROD_v0"
 ms.prod: windows-hardware
 ms.technology: windows-devices

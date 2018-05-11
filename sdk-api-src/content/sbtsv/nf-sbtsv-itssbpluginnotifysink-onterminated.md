@@ -7,7 +7,7 @@ old-location: termserv\itssbpluginnotifysink_onterminated.htm
 old-project: TermServ
 ms.assetid: 554139f5-dd20-4bca-8eae-4621535616e6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: ITsSbPluginNotifySink interface [Remote Desktop Services],OnTerminated method, ITsSbPluginNotifySink.OnTerminated, ITsSbPluginNotifySink::OnTerminated, OnTerminated, OnTerminated method [Remote Desktop Services], OnTerminated method [Remote Desktop Services],ITsSbPluginNotifySink interface, sbtsv/ITsSbPluginNotifySink::OnTerminated, termserv.itssbpluginnotifysink_onterminated
 ms.prod: windows-hardware
 ms.technology: windows-devices

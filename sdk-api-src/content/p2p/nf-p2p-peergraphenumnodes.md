@@ -7,7 +7,7 @@ old-location: p2p\peergraphenumnodes.htm
 old-project: P2PSdk
 ms.assetid: 68231b0a-6002-4974-84d7-08b0629f3622
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGraphEnumNodes, PeerGraphEnumNodes function [Peer Networking], p2p.peergraphenumnodes, p2p/PeerGraphEnumNodes
 ms.prod: windows-hardware
 ms.technology: windows-devices

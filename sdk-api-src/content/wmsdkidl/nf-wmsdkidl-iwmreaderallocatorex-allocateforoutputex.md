@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderallocatorex_allocateforoutputex.htm
 old-project: wmformat
 ms.assetid: e2e4881b-2186-47c9-b74e-3a59a9fac7c9
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: AllocateForOutputEx, AllocateForOutputEx method [windows Media Format], AllocateForOutputEx method [windows Media Format],IWMReaderAllocatorEx interface, IWMReaderAllocatorEx interface [windows Media Format],AllocateForOutputEx method, IWMReaderAllocatorEx.AllocateForOutputEx, IWMReaderAllocatorEx::AllocateForOutputEx, IWMReaderAllocatorExAllocateForOutputEx, wmformat.iwmreaderallocatorex_allocateforoutputex, wmsdkidl/IWMReaderAllocatorEx::AllocateForOutputEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

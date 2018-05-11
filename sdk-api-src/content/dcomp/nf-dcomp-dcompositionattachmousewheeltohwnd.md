@@ -2,13 +2,13 @@
 UID: NF:dcomp.DCompositionAttachMouseWheelToHwnd
 title: DCompositionAttachMouseWheelToHwnd function
 author: windows-driver-content
-description: Creates an Interaction/InputSink to route mouse button down and any subsequent move and up events to the given HWND.
-old-location: directcomp\dcompositionattachmousedragtohwnd.htm
+description: Creates an Interaction/InputSink to route mouse wheel messages to the given HWND.
+old-location: directcomp\dcompositionattachmousewheeltohwnd.htm
 old-project: directcomp
-ms.assetid: 2d976c27-b7a4-5546-488a-ceb341c4fb1a
+ms.assetid: 0a047702-e707-8df7-7660-0759a94b21af
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: DCompositionAttachMouseDragToHwnd, DCompositionAttachMouseWheelToHwnd, DCompositionAttachMouseWheelToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseWheelToHwnd, directcomp.dcompositionattachmousedragtohwnd
+ms.date: 5/8/2018
+ms.keywords: DCompositionAttachMouseWheelToHwnd, DCompositionAttachMouseWheelToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseWheelToHwnd, directcomp.dcompositionattachmousewheeltohwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -49,11 +49,11 @@ req.irql:
 ## -description
 
 
-Creates an Interaction/InputSink to route mouse button down and any 
-     subsequent move and up events to the given HWND. There is no move 
-     thresholding; when enabled, all events including and following the down 
-     are unconditionally redirected to the specified window. After calling this 
-     API, the device owning the visual must be committed.
+Creates an Interaction/InputSink to route mouse wheel messages to the
+        given HWND.  This will fail if there is already an interaction attached
+        to this visual. After calling this API, the device that owns the visual must
+        be committed.
+      
 
 
 ## -parameters

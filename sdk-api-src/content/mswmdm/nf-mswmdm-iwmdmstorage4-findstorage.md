@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage4_findstorage.htm
 old-project: WMDM
 ms.assetid: 93ca4488-beaf-4617-99ba-19bb7707d4ba
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: FindStorage, FindStorage method [windows Media Device Manager], FindStorage method [windows Media Device Manager],IWMDMStorage4 interface, IWMDMStorage4 interface [windows Media Device Manager],FindStorage method, IWMDMStorage4.FindStorage, IWMDMStorage4::FindStorage, IWMDMStorage4FindStorage, mswmdm/IWMDMStorage4::FindStorage, wmdm.iwmdmstorage4_findstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

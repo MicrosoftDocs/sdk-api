@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient4_
 old-project: directcomp
 ms.assetid: adaa5348-3887-d3ba-dad1-e49310815cc2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: SetCoefficient4, SetCoefficient4 methods [DirectComposition], dcomp/SetCoefficient4, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient4_overloaded, idcompositionarithmeticcompositeeffect::SetCoefficient4
 ms.prod: windows-hardware
 ms.technology: windows-devices

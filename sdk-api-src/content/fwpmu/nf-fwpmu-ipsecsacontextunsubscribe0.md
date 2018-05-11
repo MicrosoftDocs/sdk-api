@@ -7,7 +7,7 @@ old-location: fwp\ipsecsacontextunsubscribe0.htm
 old-project: FWP
 ms.assetid: 9f82eefb-2a72-4a9c-8bf3-b3e3d466741f
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPsecSaContextUnsubscribe0, IPsecSaContextUnsubscribe0 function [Filtering], fwp.ipsecsacontextunsubscribe0, fwpmu/IPsecSaContextUnsubscribe0
 ms.prod: windows-hardware
 ms.technology: windows-devices

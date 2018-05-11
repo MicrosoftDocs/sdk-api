@@ -7,7 +7,7 @@ old-location: security\nppasswordchangenotify.htm
 old-project: SecAuthN
 ms.assetid: 5c7f5672-f379-4518-ae60-4f7d7e4caffa
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: NPPasswordChangeNotify, NPPasswordChangeNotify function [Security], SvcCtl, WN_NT_PASSWORD_CHANGED, WN_VALID_LOGON_ACCOUNT, WinSta_0, _mnp_nppasswordchangenotify, npapi/NPPasswordChangeNotify, security.nppasswordchangenotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

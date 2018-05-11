@@ -7,7 +7,7 @@ old-location: wmformat\iwmgetsecurechannel.htm
 old-project: wmformat
 ms.assetid: 0ebb380a-5c14-4630-8ae4-825809f4737a
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMGetSecureChannel, IWMGetSecureChannel interface [windows Media Format], IWMGetSecureChannel interface [windows Media Format],described, wmformat.iwmgetsecurechannel, wmsecure/IWMGetSecureChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

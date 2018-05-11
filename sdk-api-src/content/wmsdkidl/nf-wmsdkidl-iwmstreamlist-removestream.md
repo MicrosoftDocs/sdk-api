@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamlist_removestream.htm
 old-project: wmformat
 ms.assetid: 3b69f516-a321-49f1-a299-666143eaf8a5
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMStreamList interface [windows Media Format],RemoveStream method, IWMStreamList.RemoveStream, IWMStreamList::RemoveStream, IWMStreamListRemoveStream, RemoveStream, RemoveStream method [windows Media Format], RemoveStream method [windows Media Format],IWMStreamList interface, wmformat.iwmstreamlist_removestream, wmsdkidl/IWMStreamList::RemoveStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

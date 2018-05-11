@@ -7,7 +7,7 @@ old-location: display\displayconfig_target_preferred_mode.htm
 old-project: display
 ms.assetid: 1a4926ca-36d2-466c-b3d2-b59d34a89ee6
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: CCD_Structures_d19517fa-c72d-47bf-9198-c447efe1ba90.xml, DISPLAYCONFIG_TARGET_PREFERRED_MODE, DISPLAYCONFIG_TARGET_PREFERRED_MODE structure [Display Devices], display.displayconfig_target_preferred_mode, wingdi/DISPLAYCONFIG_TARGET_PREFERRED_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

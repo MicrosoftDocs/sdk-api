@@ -7,7 +7,7 @@ old-location: fwp\fwpmipsectunneladd2.htm
 old-project: FWP
 ms.assetid: 32c7d472-4904-46d3-b50e-08eaa0e06df0
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_TUNNEL_FLAG_ENABLE_VIRTUAL_IF_TUNNELING, FWPM_TUNNEL_FLAG_POINT_TO_POINT, FwpmIPsecTunnelAdd2, FwpmIPsecTunnelAdd2 function [Filtering], fwp.fwpmipsectunneladd2, fwpmu/FwpmIPsecTunnelAdd2
 ms.prod: windows-hardware
 ms.technology: windows-devices

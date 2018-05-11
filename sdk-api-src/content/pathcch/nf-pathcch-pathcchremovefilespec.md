@@ -7,7 +7,7 @@ old-location: shell\PathCchRemoveFileSpec.htm
 old-project: shell
 ms.assetid: c37aeddc-ed24-4828-b92b-bce0e6384726
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PathCchRemoveFileSpec, PathCchRemoveFileSpec function [Windows Shell], pathcch/PathCchRemoveFileSpec, shell.PathCchRemoveFileSpec
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IntlStrEqN.htm
 old-project: shell
 ms.assetid: ed777144-398c-4f36-bcc3-f6ba123ebfa7
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IntlStrEqN, IntlStrEqN function [Windows Shell], IntlStrEqNA, IntlStrEqNW, _win32_IntlStrEqN, shell.IntlStrEqN, shlwapi/IntlStrEqN, shlwapi/IntlStrEqNA, shlwapi/IntlStrEqNW
 ms.prod: windows-hardware
 ms.technology: windows-devices

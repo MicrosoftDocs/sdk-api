@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_setmute.htm
 old-project: CoreAudio
 ms.assetid: a0ab4fef-8333-4f21-ae8e-74285788ae0e
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],SetMute method, IAudioEndpointVolume.SetMute, IAudioEndpointVolume::SetMute, IAudioEndpointVolumeSetMute, SetMute, SetMute method [Core Audio], SetMute method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setmute, endpointvolume/IAudioEndpointVolume::SetMute
 ms.prod: windows-hardware
 ms.technology: windows-devices

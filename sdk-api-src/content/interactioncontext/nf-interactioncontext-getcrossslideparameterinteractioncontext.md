@@ -7,7 +7,7 @@ old-location: input_intcontext\getcrossslideparameterinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: 19e934c6-8cd7-4302-a903-bd7865aef908
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/8/2018
 ms.keywords: GetCrossSlideParameterInteractionContext, GetCrossSlideParameterInteractionContext function, input_intcontext.getcrossslideparameterinteractioncontext, interactioncontext.getcrossslideparameterinteractioncontext, interactioncontext/GetCrossSlideParameterInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

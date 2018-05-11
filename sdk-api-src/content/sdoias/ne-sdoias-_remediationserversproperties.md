@@ -7,8 +7,8 @@ old-location: nps\SDO_remediationserversproperties.htm
 old-project: Nps
 ms.assetid: 6cee6264-4cb7-47cc-81ba-a06d22f0528d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: PROPERTY_REMEDIATIONSERVERS_SERVERGROUPS, REMEDIATIONSERVERPROPERTIES, REMEDIATIONSERVERPROPERTIES enumeration [Network Policy Server], REMEDIATIONSERVERSPROPERTIES, _REMEDIATIONSERVERSPROPERTIES, nps.SDO_remediationserversproperties, sdo.remediationserversproperties, sdoias/PROPERTY_REMEDIATIONSERVERS_SERVERGROUPS, sdoias/REMEDIATIONSERVERPROPERTIES
+ms.date: 5/8/2018
+ms.keywords: PROPERTY_REMEDIATIONSERVERS_SERVERGROUPS, REMEDIATIONSERVERSPROPERTIES, REMEDIATIONSERVERSPROPERTIES enumeration [Network Policy Server], _REMEDIATIONSERVERSPROPERTIES, nps.SDO_remediationserversproperties, sdo.remediationserversproperties, sdoias/PROPERTY_REMEDIATIONSERVERS_SERVERGROUPS, sdoias/REMEDIATIONSERVERSPROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	SdoIas.h
 api_name:
--	REMEDIATIONSERVERPROPERTIES
+-	REMEDIATIONSERVERSPROPERTIES
 product: Windows
 targetos: Windows
 req.lib: Advapi32.lib

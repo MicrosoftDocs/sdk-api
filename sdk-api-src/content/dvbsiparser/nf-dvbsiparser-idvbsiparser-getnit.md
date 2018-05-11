@@ -7,7 +7,7 @@ old-location: mstv\idvbsiparser_getnit.htm
 old-project: mstv
 ms.assetid: a7c802ad-908f-4778-b8db-02fff4f3a13e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetNIT, GetNIT method [Microsoft TV Technologies], GetNIT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetNIT method, IDvbSiParser.GetNIT, IDvbSiParser::GetNIT, IDvbSiParserGetNIT, dvbsiparser/IDvbSiParser::GetNIT, mstv.idvbsiparser_getnit
 ms.prod: windows-hardware
 ms.technology: windows-devices

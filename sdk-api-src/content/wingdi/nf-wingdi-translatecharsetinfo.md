@@ -7,7 +7,7 @@ old-location: intl\translatecharsetinfo.htm
 old-project: Intl
 ms.assetid: 0e6e81f1-ec7b-42ba-8706-a352349fa6ab
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: TCI_SRCCHARSET, TCI_SRCCODEPAGE, TCI_SRCFONTSIG, TCI_SRCLOCALE, TranslateCharsetInfo, TranslateCharsetInfo function [Internationalization for Windows Applications], _win32_TranslateCharsetInfo, intl.translatecharsetinfo, wingdi/TranslateCharsetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

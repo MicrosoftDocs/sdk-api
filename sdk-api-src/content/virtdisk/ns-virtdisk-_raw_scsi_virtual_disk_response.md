@@ -7,8 +7,8 @@ old-location: vhd\raw_scsi_virtual_disk_response.htm
 old-project: VStor
 ms.assetid: CF3240A0-134B-4494-8451-7F8C6429D435
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: "*PRAW_SCSI_VIRTUAL_DISK_RESPONSE, PRAW_SCSI_VIRTUAL_DISK_PARAMETERS, PRAW_SCSI_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], RAW_SCSI_VIRTUAL_DISK_PARAMETERS, RAW_SCSI_VIRTUAL_DISK_PARAMETERS structure [VHD], RAW_SCSI_VIRTUAL_DISK_RESPONSE, RAW_SCSI_VIRTUAL_DISK_RESPONSE structure [VHD], _RAW_SCSI_VIRTUAL_DISK_RESPONSE, vhd.raw_scsi_virtual_disk_response, virtdisk/PRAW_SCSI_VIRTUAL_DISK_PARAMETERS, virtdisk/RAW_SCSI_VIRTUAL_DISK_RESPONSE"
+ms.date: 5/9/2018
+ms.keywords: "*PRAW_SCSI_VIRTUAL_DISK_RESPONSE, PRAW_SCSI_VIRTUAL_DISK_RESPONSE, PRAW_SCSI_VIRTUAL_DISK_RESPONSE structure pointer [VHD], RAW_SCSI_VIRTUAL_DISK_RESPONSE, RAW_SCSI_VIRTUAL_DISK_RESPONSE structure [VHD], _RAW_SCSI_VIRTUAL_DISK_RESPONSE, vhd.raw_scsi_virtual_disk_response, virtdisk/PRAW_SCSI_VIRTUAL_DISK_RESPONSE, virtdisk/RAW_SCSI_VIRTUAL_DISK_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	VirtDisk.h
 api_name:
--	RAW_SCSI_VIRTUAL_DISK_PARAMETERS
+-	RAW_SCSI_VIRTUAL_DISK_RESPONSE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -7,7 +7,7 @@ old-location: tapi2\linesetuptransfer.htm
 old-project: Tapi
 ms.assetid: 40f0ce8f-9809-43ec-af48-d8e410553048
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_linesetuptransfer, lineSetupTransfer, lineSetupTransfer function [TAPI 2.2], lineSetupTransferA, lineSetupTransferW, tapi/lineSetupTransfer, tapi/lineSetupTransferA, tapi/lineSetupTransferW, tapi2.linesetuptransfer"
 ms.prod: windows-hardware
 ms.technology: windows-devices

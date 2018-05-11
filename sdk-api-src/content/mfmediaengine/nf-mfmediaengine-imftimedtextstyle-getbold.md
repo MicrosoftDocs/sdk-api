@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_getbold.htm
 old-project: medfound
 ms.assetid: 53CAE4C9-061B-44F3-A81B-A276085C69F2
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetBold, GetBold method [Media Foundation], GetBold method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetBold method, IMFTimedTextStyle.GetBold, IMFTimedTextStyle::GetBold, mf.imftimedtextstyle_getbold, mfmediaengine/IMFTimedTextStyle::GetBold
 ms.prod: windows-hardware
 ms.technology: windows-devices

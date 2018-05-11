@@ -7,7 +7,7 @@ old-location: intl\imewrd.htm
 old-project: Intl
 ms.assetid: BC0D039A-7EB4-4A8D-B063-479CF4294FF0
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: "*PIMEWRD, IMEWRD, IMEWRD structure [Internationalization for Windows Applications], PIMEWRD, PIMEWRD structure pointer [Internationalization for Windows Applications], _IMEWRD, intl.imewrd, msime/IMEWRD, msime/PIMEWRD"
 ms.prod: windows-hardware
 ms.technology: windows-devices

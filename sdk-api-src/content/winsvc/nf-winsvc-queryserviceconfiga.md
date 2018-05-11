@@ -7,7 +7,7 @@ old-location: base\queryserviceconfig.htm
 old-project: Services
 ms.assetid: 364c5f61-dfbe-460b-8e42-5c457b65c050
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/9/2018
 ms.keywords: QueryServiceConfig, QueryServiceConfig function, QueryServiceConfigA, QueryServiceConfigW, _win32_queryserviceconfig, base.queryserviceconfig, winsvc/QueryServiceConfig, winsvc/QueryServiceConfigA, winsvc/QueryServiceConfigW
 ms.prod: windows-hardware
 ms.technology: windows-devices

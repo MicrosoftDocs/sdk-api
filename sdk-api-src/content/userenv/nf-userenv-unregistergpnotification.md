@@ -7,7 +7,7 @@ old-location: policy\unregistergpnotification.htm
 old-project: Policy
 ms.assetid: 39ac1361-0160-44e3-8b99-ff50978cc425
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: UnregisterGPNotification, UnregisterGPNotification function [Group Policy], _win32_unregistergpnotification, policy.unregistergpnotification, userenv/UnregisterGPNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

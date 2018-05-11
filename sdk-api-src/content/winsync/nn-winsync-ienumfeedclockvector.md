@@ -7,7 +7,7 @@ old-location: winsync\ienumfeedclockvector.htm
 old-project: winsync
 ms.assetid: 87679327-3a09-4416-b802-91171feb160a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumFeedClockVector, IEnumFeedClockVector interface [Windows Sync], IEnumFeedClockVector interface [Windows Sync],described, winsync.ienumfeedclockvector, winsync/IEnumFeedClockVector
 ms.prod: windows-hardware
 ms.technology: windows-devices

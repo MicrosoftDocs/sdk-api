@@ -7,7 +7,7 @@ old-location: security\cryptxmlgettransforms.htm
 old-project: SecCrypto
 ms.assetid: 676f5216-70bd-455d-9e08-230b2599e166
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CryptXmlGetTransforms, CryptXmlGetTransforms function [Security], cryptxml/CryptXmlGetTransforms, security.cryptxmlgettransforms
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\ianchor_clone.htm
 old-project: TSF
 ms.assetid: 2c5e767a-5f66-4ecf-89f1-b27ed38e887b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],Clone method, IAnchor.Clone, IAnchor::Clone, textstor/IAnchor::Clone, tsf.ianchor_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\peerdistclientstreamread.htm
 old-project: P2PSdk
 ms.assetid: 7c73e9e2-c723-4472-84e5-b0d25eb3b283
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PEERDIST_READ_TIMEOUT_DEFAULT, PEERDIST_READ_TIMEOUT_LOCAL_CACHE_ONLY, PeerDistClientStreamRead, PeerDistClientStreamRead function [Peer Networking], p2p.peerdistclientstreamread, peerdist/PeerDistClientStreamRead
 ms.prod: windows-hardware
 ms.technology: windows-devices

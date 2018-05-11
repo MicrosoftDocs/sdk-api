@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespace_deregister.htm
 old-project: Wds
 ms.assetid: 32881121-b5aa-4ccf-9884-431dbd283e4c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: Deregister, Deregister method [Windows Deployment Services], Deregister method [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Deregister method, IWdsTransportNamespace.Deregister, IWdsTransportNamespace::Deregister, wds.iwdstransportnamespace_deregister, wdstptmgmt/IWdsTransportNamespace::Deregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

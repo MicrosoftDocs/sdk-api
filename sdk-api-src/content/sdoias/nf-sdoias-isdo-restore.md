@@ -7,7 +7,7 @@ old-location: nps\SDO_isdo_restore.htm
 old-project: Nps
 ms.assetid: 446b1234-9b65-45dc-bb67-c315c26205dc
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ISdo interface [Network Policy Server],Restore method, ISdo.Restore, ISdo::Restore, Restore, Restore method [Network Policy Server], Restore method [Network Policy Server],ISdo interface, _sdo_isdo_restore, nps.SDO_isdo_restore, sdo.isdo_restore, sdoias/ISdo::Restore
 ms.prod: windows-hardware
 ms.technology: windows-devices

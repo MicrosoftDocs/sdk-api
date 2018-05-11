@@ -7,7 +7,7 @@ old-location: mscs\resutilfindlongproperty.htm
 old-project: MsCS
 ms.assetid: 6f75be85-37ef-4e2b-a588-bc1238cd8760
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PRESUTIL_FIND_LONG_PROPERTY, PRESUTIL_FIND_LONG_PROPERTY callback, PRESUTIL_FIND_LONG_PROPERTY callback function [Failover Cluster], _wolf_resutilfindlongproperty, mscs.resutilfindlongproperty, resapi/PRESUTIL_FIND_LONG_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\getnodeclusterstate.htm
 old-project: MsCS
 ms.assetid: 67534bc8-f19e-4330-850a-788a7f031f5b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ClusterStateNotConfigured, ClusterStateNotInstalled, ClusterStateNotRunning, ClusterStateRunning, PCLUSAPI_GET_NODE_CLUSTER_STATE, PCLUSAPI_GET_NODE_CLUSTER_STATE callback, PCLUSAPI_GET_NODE_CLUSTER_STATE callback function [Failover Cluster], _wolf_getnodeclusterstate, clusapi/PCLUSAPI_GET_NODE_CLUSTER_STATE, mscs.getnodeclusterstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

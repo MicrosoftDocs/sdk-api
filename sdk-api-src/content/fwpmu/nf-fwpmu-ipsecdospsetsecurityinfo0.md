@@ -7,7 +7,7 @@ old-location: fwp\ipsecdospsetsecurityinfo0.htm
 old-project: FWP
 ms.assetid: 46d18b8b-c688-4a41-841e-d952e9b07cf7
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPsecDospSetSecurityInfo0, IPsecDospSetSecurityInfo0 function [Filtering], fwp.ipsecdospsetsecurityinfo0, fwpmu/IPsecDospSetSecurityInfo0
 ms.prod: windows-hardware
 ms.technology: windows-devices

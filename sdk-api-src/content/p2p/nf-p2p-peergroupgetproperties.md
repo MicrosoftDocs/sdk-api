@@ -7,7 +7,7 @@ old-location: p2p\peergroupgetproperties.htm
 old-project: P2PSdk
 ms.assetid: 6273817f-9698-4c0b-93a9-9bbee2e5dc78
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGroupGetProperties, PeerGroupGetProperties function [Peer Networking], p2p.peergroupgetproperties, p2p/PeerGroupGetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongPtrToLongPtr
 title: ULongPtrToLongPtr function
 author: windows-driver-content
-description: Converts a value of type DWORD_PTR to a value of type LONG_PTR.
-old-location: shell\DWordPtrToLongPtr.htm
+description: Converts a value of type ULONG_PTR to a value of type LONG_PTR.
+old-location: shell\ULongPtrToLongPtr.htm
 old-project: shell
-ms.assetid: a214f8da-60e2-445a-8a75-ff15b283eeb3
+ms.assetid: 0da89cb7-721c-47d4-8f33-c8f44eb996b1
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: DWordPtrToLongPtr, DWordPtrToLongPtr function [Windows Shell], ULongPtrToLongPtr, _shell_DWordPtrToLongPtr, intsafe/DWordPtrToLongPtr, shell.DWordPtrToLongPtr
+ms.date: 5/9/2018
+ms.keywords: DWordPtrToLongPtr, DWordPtrToSSIZET, SIZETToLongPtr, SIZETToSSIZET, ULongPtrToLongPtr, ULongPtrToLongPtr function [Windows Shell], ULongPtrToSSIZET, _shell_ULongPtrToLongPtr, intsafe/ULongPtrToLongPtr, shell.ULongPtrToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	DllExport
+-	HeaderDef
 api_location:
--	None
+-	Intsafe.h
 api_name:
--	DWordPtrToLongPtr
+-	ULongPtrToLongPtr
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: None
+req.dll: 
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>DWORD_PTR</b> to a value of type <b>LONG_PTR</b>.
+Converts a value of type <b>ULONG_PTR</b> to a value of type <b>LONG_PTR</b>.
 
 
 ## -parameters
@@ -58,9 +58,11 @@ Converts a value of type <b>DWORD_PTR</b> to a value of type <b>LONG_PTR</b>.
 
 
 
-### -param ulOperand
+### -param ulOperand [in]
 
-TBD
+Type: <b>ULONG_PTR</b>
+
+The value to be converted.
 
 
 ### -param plResult [out]
@@ -68,13 +70,6 @@ TBD
 Type: <b>LONG_PTR*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
-
-
-#### - dwOperand [in]
-
-Type: <b>DWORD_PTR</b>
-
-The value to be converted.
 
 
 ## -returns
@@ -93,6 +88,16 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>DWordPtrToSSIZET</b> is an alias for this function.
+
+<b>ULongPtrToSSIZET</b> is an alias for this function.
+
+<b>SIZETToSSIZET</b> is an alias for this function.
+
+<b>SIZETToLongPtr</b> is an alias for this function.
+
+<b>DWordPtrToLongPtr</b> is an alias for this function.
 
 
 

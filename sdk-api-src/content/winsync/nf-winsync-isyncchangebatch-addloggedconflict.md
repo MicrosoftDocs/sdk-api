@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatch_addloggedconflict.htm
 old-project: winsync
 ms.assetid: e7f83c35-754a-4211-b893-2df6f65266a6
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: AddLoggedConflict, AddLoggedConflict method [Windows Sync], AddLoggedConflict method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],AddLoggedConflict method, ISyncChangeBatch.AddLoggedConflict, ISyncChangeBatch::AddLoggedConflict, winsync.isyncchangebatch_addloggedconflict, winsync/ISyncChangeBatch::AddLoggedConflict
 ms.prod: windows-hardware
 ms.technology: windows-devices

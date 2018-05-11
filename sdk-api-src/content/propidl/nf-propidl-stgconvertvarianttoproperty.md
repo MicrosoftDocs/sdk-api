@@ -7,8 +7,8 @@ old-location: stg\stgconvertvarianttoproperty.htm
 old-project: Stg
 ms.assetid: 3d35b808-4fa6-44ec-9c46-96ceee1dafd0
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
-ms.keywords: StgConvertPropertyToVariant, StgConvertPropertyToVariant function [Structured Storage], StgConvertVariantToProperty, propidl/StgConvertPropertyToVariant, stg.stgconvertvarianttoproperty
+ms.date: 5/9/2018
+ms.keywords: StgConvertVariantToProperty, StgConvertVariantToProperty function [Structured Storage], propidl/StgConvertVariantToProperty, stg.stgconvertvarianttoproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Ole32.dll
 api_name:
--	StgConvertPropertyToVariant
+-	StgConvertVariantToProperty
 product: Windows
 targetos: Windows
 req.lib: Ole32.lib

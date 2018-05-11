@@ -7,7 +7,7 @@ old-location: winsync\ireplicakeymap_lookupreplicakey.htm
 old-project: winsync
 ms.assetid: 92bae64f-67a5-4029-9d24-eee92a3fc55f
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: IReplicaKeyMap interface [Windows Sync],LookupReplicaKey method, IReplicaKeyMap.LookupReplicaKey, IReplicaKeyMap::LookupReplicaKey, LookupReplicaKey, LookupReplicaKey method [Windows Sync], LookupReplicaKey method [Windows Sync],IReplicaKeyMap interface, winsync.ireplicakeymap_lookupreplicakey, winsync/IReplicaKeyMap::LookupReplicaKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

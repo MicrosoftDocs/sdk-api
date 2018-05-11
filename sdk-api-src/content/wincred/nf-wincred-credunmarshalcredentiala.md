@@ -7,7 +7,7 @@ old-location: security\credunmarshalcredential.htm
 old-project: SecAuthN
 ms.assetid: 65757235-d92c-479f-8e2b-1f8d8564792b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: CredUnmarshalCredential, CredUnmarshalCredential function [Security], CredUnmarshalCredentialA, CredUnmarshalCredentialW, _cred_credunmarshalcredential, security.credunmarshalcredential, wincred/CredUnmarshalCredential, wincred/CredUnmarshalCredentialA, wincred/CredUnmarshalCredentialW
 ms.prod: windows-hardware
 ms.technology: windows-devices

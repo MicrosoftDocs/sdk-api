@@ -7,7 +7,7 @@ old-location: winsync\isyncchange_getchangeversion.htm
 old-project: winsync
 ms.assetid: 6b6def94-8c48-41f6-8869-e28d0db0d500
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetChangeVersion, GetChangeVersion method [Windows Sync], GetChangeVersion method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetChangeVersion method, ISyncChange.GetChangeVersion, ISyncChange::GetChangeVersion, winsync.isyncchange_getchangeversion, winsync/ISyncChange::GetChangeVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

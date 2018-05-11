@@ -7,7 +7,7 @@ old-location: rras\rtmisbestroute.htm
 old-project: RRAS
 ms.assetid: 4c4b72a8-7a6c-4216-af2d-8dee55b910af
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RtmIsBestRoute, RtmIsBestRoute function [RAS], _rtmv2ref_rtmisbestroute, rras.rtmisbestroute, rtmv2/RtmIsBestRoute
 ms.prod: windows-hardware
 ms.technology: windows-devices

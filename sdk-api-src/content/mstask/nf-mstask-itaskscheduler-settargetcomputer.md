@@ -7,7 +7,7 @@ old-location: taskschd\itaskscheduler_settargetcomputer.htm
 old-project: TaskSchd
 ms.assetid: e56d2384-026e-44e0-b6b7-20a41a421e09
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITaskScheduler interface [Task Scheduler],SetTargetComputer method, ITaskScheduler.SetTargetComputer, ITaskScheduler::SetTargetComputer, SetTargetComputer, SetTargetComputer method [Task Scheduler], SetTargetComputer method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_settargetcomputer, mstask/ITaskScheduler::SetTargetComputer, taskschd.itaskscheduler_settargetcomputer
 ms.prod: windows-hardware
 ms.technology: windows-devices

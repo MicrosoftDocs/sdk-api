@@ -7,7 +7,7 @@ old-location: rras\mgmgetprotocoloninterface.htm
 old-project: RRAS
 ms.assetid: 38f6cc9b-ae9e-49a3-8f5e-835699ff3d60
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MgmGetProtocolOnInterface, MgmGetProtocolOnInterface function [RAS], _mpr_mgmgetprotocoloninterface, mgm/MgmGetProtocolOnInterface, rras.mgmgetprotocoloninterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfstatussink.htm
 old-project: TSF
 ms.assetid: 5fc37251-938b-4581-bb54-816749b17001
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfStatusSink, ITfStatusSink interface [Text Services Framework], ITfStatusSink interface [Text Services Framework],described, _tsf_itfstatussink_ref, msctf/ITfStatusSink, tsf.itfstatussink
 ms.prod: windows-hardware
 ms.technology: windows-devices

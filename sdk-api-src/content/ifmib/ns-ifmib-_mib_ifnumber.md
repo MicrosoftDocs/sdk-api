@@ -7,7 +7,7 @@ old-location: mib\mib_ifnumber.htm
 old-project: MIB
 ms.assetid: cdab8d39-b0f9-462c-ac5e-ae0c420df067
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMIB_IFNUMBER, MIB_IFNUMBER, MIB_IFNUMBER structure [MIB], PMIB_IFNUMBER, PMIB_IFNUMBER structure pointer [MIB], _MIB_IFNUMBER, _mpr_mib_ifnumber, ifmib/MIB_IFNUMBER, ifmib/PMIB_IFNUMBER, iprtrmib/MIB_IFNUMBER, iprtrmib/PMIB_IFNUMBER, mib.mib_ifnumber, rras.mib_ifnumber"
 ms.prod: windows-hardware
 ms.technology: windows-devices

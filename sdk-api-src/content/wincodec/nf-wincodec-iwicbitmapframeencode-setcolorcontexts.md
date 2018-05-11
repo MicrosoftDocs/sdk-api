@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapframeencode_setcolorcontexts.htm
 old-project: wic
 ms.assetid: c955dede-297f-44c1-aa03-31a07a6d69d2
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetColorContexts method, IWICBitmapFrameEncode.SetColorContexts, IWICBitmapFrameEncode::SetColorContexts, SetColorContexts, SetColorContexts method [Windows Imaging Component], SetColorContexts method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setcolorcontexts, wic._wic_codec_iwicbitmapframeencode_setcolorcontexts, wincodec/IWICBitmapFrameEncode::SetColorContexts
 ms.prod: windows-hardware
 ms.technology: windows-devices

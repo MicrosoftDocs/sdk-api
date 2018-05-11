@@ -7,7 +7,7 @@ old-location: mstv\idvb_sit_gettabledescriptorbytag.htm
 old-project: mstv
 ms.assetid: 85048bfd-1765-44cc-8da5-eeb9698bbfe6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IDVB_SIT.GetTableDescriptorByTag, IDVB_SIT::GetTableDescriptorByTag, IDVB_SITGetTableDescriptorByTag, dvbsiparser/IDVB_SIT::GetTableDescriptorByTag, mstv.idvb_sit_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

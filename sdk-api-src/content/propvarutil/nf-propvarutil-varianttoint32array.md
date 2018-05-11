@@ -7,7 +7,7 @@ old-location: properties\VariantToInt32Array.htm
 old-project: properties
 ms.assetid: 9407e400-1621-4d96-b541-579aa3ac7a67
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: VariantToInt32Array, VariantToInt32Array function [Windows Properties], _shell_VariantToInt32Array, properties.VariantToInt32Array, propvarutil/VariantToInt32Array, shell.VariantToInt32Array
 ms.prod: windows-hardware
 ms.technology: windows-devices

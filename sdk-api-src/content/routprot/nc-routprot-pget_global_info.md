@@ -7,7 +7,7 @@ old-location: rras\getglobalinfo.htm
 old-project: RRAS
 ms.assetid: 89d4ca42-8f78-40bd-96f0-ad10181cb2d4
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: GetGlobalInfo, GetGlobalInfo callback function [RAS], PGET_GLOBAL_INFO, PGET_GLOBAL_INFO callback, _mpr_getglobalinfo, routprot/GetGlobalInfo, rras.getglobalinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

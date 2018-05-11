@@ -7,7 +7,7 @@ old-location: rras\rasgetentryproperties.htm
 old-project: RRAS
 ms.assetid: eef9c197-04b3-4f3c-a7bd-8c62f9fac560
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RasGetEntryProperties, RasGetEntryProperties function [RAS], RasGetEntryPropertiesA, RasGetEntryPropertiesW, _ras_rasgetentryproperties, ras/RasGetEntryProperties, ras/RasGetEntryPropertiesA, ras/RasGetEntryPropertiesW, rras.rasgetentryproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

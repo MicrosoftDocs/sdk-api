@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_getnamespace.htm
 old-project: wmi_v2
 ms.assetid: 885423d6-c247-4d45-a5fd-a1a18bd5e6e2
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_Instance_GetNameSpace, MI_Instance_GetNameSpace function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetNameSpace, wmi_v2.mi_instance_getnamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices

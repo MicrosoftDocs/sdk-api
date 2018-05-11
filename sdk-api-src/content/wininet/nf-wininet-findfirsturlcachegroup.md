@@ -7,7 +7,7 @@ old-location: wininet\findfirsturlcachegroup.htm
 old-project: WinInet
 ms.assetid: a333cbc6-a880-4b1c-be0d-abb083909638
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: FindFirstUrlCacheGroup, FindFirstUrlCacheGroup function [WinINet], _inet_findfirsturlcachegroup_function, wininet.findfirsturlcachegroup, wininet/FindFirstUrlCacheGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

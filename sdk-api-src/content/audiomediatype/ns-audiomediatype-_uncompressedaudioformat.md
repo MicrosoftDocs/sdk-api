@@ -7,7 +7,7 @@ old-location: audio\uncompressedauudioformat.htm
 old-project: audio
 ms.assetid: b1d35067-7ef3-4c29-8b16-642300485695
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/8/2018
 ms.keywords: UNCOMPRESSEDAUDIOFORMAT, UNCOMPRESSEDAUDIOFORMAT structure [Audio Devices], _UNCOMPRESSEDAUDIOFORMAT, aud-prop_077921c9-89ee-44ca-a585-d87e4d025c16.xml, audio.uncompressedauudioformat, audiomediatype/UNCOMPRESSEDAUUDIOFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices

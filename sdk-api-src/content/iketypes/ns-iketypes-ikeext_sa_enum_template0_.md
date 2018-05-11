@@ -7,7 +7,7 @@ old-location: fwp\ikeext_sa_enum_template0.htm
 old-project: FWP
 ms.assetid: 69bb80de-e512-4fbd-a62f-40bb211e6b26
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IKEEXT_SA_ENUM_TEMPLATE0, IKEEXT_SA_ENUM_TEMPLATE0 structure [Filtering], IKEEXT_SA_ENUM_TEMPLATE0_, fwp.ikeext_sa_enum_template0, iketypes/IKEEXT_SA_ENUM_TEMPLATE0
 ms.prod: windows-hardware
 ms.technology: windows-devices

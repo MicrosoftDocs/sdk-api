@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionhuerotationeffect_setangle_overloaded.htm
 old-project: directcomp
 ms.assetid: e4069c7a-c8a1-dadb-a1fc-1d0c4c58834f
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: SetAngle, SetAngle methods [DirectComposition], dcomp/SetAngle, directcomp.idcompositionhuerotationeffect_setangle_overloaded, idcompositionhuerotationeffect::SetAngle
 ms.prod: windows-hardware
 ms.technology: windows-devices

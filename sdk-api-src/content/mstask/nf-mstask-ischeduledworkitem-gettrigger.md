@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_gettrigger.htm
 old-project: TaskSchd
 ms.assetid: f99b342c-9233-43e3-93f1-88586e975608
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetTrigger, GetTrigger method [Task Scheduler], GetTrigger method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetTrigger method, IScheduledWorkItem.GetTrigger, IScheduledWorkItem::GetTrigger, _msb_ischeduledworkitem_gettrigger, mstask/IScheduledWorkItem::GetTrigger, taskschd.ischeduledworkitem_gettrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices

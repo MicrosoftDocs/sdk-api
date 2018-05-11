@@ -7,7 +7,7 @@ old-location: shell\IShellLink.htm
 old-project: shell
 ms.assetid: 67982d28-27ce-4482-b588-10fec8143750
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IShellLink, IShellLink interface [Windows Shell], IShellLink interface [Windows Shell],described, IShellLinkA, IShellLinkW, _win32_IShellLink, _win32_IShellLink_cpp, shell.IShellLink, shobjidl_core/IShellLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: OVERLAPPED, *LPOVERLAPPED
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

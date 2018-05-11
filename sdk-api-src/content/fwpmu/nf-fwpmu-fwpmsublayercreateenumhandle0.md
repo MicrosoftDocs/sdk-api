@@ -7,7 +7,7 @@ old-location: fwp\fwpmsublayercreateenumhandle0_func.htm
 old-project: FWP
 ms.assetid: a8acff10-8395-4ef8-8976-7a99cd498a7d
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmSubLayerCreateEnumHandle0, FwpmSubLayerCreateEnumHandle0 function [Filtering], fwp.fwpmsublayercreateenumhandle0_func, fwpmu/FwpmSubLayerCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

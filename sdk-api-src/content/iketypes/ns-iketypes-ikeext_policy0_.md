@@ -7,7 +7,7 @@ old-location: fwp\ikeext_policy0.htm
 old-project: FWP
 ms.assetid: 4c33087a-2736-491c-a89f-e4b9ab136026
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IKEEXT_POLICY0, IKEEXT_POLICY0 structure [Filtering], IKEEXT_POLICY0_, IKEEXT_POLICY_FLAG_DISABLE_DIAGNOSTICS, IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH, IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY, IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY, fwp.ikeext_policy0, iketypes/IKEEXT_POLICY0
 ms.prod: windows-hardware
 ms.technology: windows-devices

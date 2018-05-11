@@ -7,7 +7,7 @@ old-location: mib\mib_notification_type.htm
 old-project: MIB
 ms.assetid: 89f6a923-d745-4f9f-82d4-c77ffc8389cd
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMIB_NOTIFICATION_TYPE, MIB_NOTIFICATION_TYPE, MIB_NOTIFICATION_TYPE enumeration [MIB], MibAddInstance, MibDeleteInstance, MibInitialNotification, MibParameterNotification, PMIB_NOTIFICATION_TYPE, PMIB_NOTIFICATION_TYPE enumeration pointer [MIB], _MIB_NOTIFICATION_TYPE, mib.mib_notification_type, netioapi/MIB_NOTIFICATION_TYPE, netioapi/MibAddInstance, netioapi/MibDeleteInstance, netioapi/MibInitialNotification, netioapi/MibParameterNotification, netioapi/PMIB_NOTIFICATION_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrectangleclip_setleft_overloaded.htm
 old-project: directcomp
 ms.assetid: A8E2C2A3-6146-486F-8FF4-05097BFE9222
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: IDCompositionRectangleClip::SetLeft, SetLeft, SetLeft methods [DirectComposition], dcomp/SetLeft, directcomp.idcompositionrectangleclip_setleft_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\ienumworkitems_reset.htm
 old-project: TaskSchd
 ms.assetid: 920ba47b-41cd-462b-9b72-73898a5cd4d0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumWorkItems interface [Task Scheduler],Reset method, IEnumWorkItems.Reset, IEnumWorkItems::Reset, Reset, Reset method [Task Scheduler], Reset method [Task Scheduler],IEnumWorkItems interface, _msb_ienumworkitems_reset, mstask/IEnumWorkItems::Reset, taskschd.ienumworkitems_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

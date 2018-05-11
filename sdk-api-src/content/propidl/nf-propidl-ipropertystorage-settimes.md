@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_settimes.htm
 old-project: Stg
 ms.assetid: 23c7040a-e648-4898-806d-ad01d7027cc6
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: IPropertyStorage interface [Structured Storage],SetTimes method, IPropertyStorage.SetTimes, IPropertyStorage::SetTimes, SetTimes, SetTimes method [Structured Storage], SetTimes method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_settimes, propidl/IPropertyStorage::SetTimes, stg.ipropertystorage_settimes
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\cryptcatadminaddcatalog.htm
 old-project: SecCrypto
 ms.assetid: a227597c-a0af-4b86-bd29-03f478aef244
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CryptCATAdminAddCatalog, CryptCATAdminAddCatalog function [Security], mscat/CryptCATAdminAddCatalog, security.cryptcatadminaddcatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices

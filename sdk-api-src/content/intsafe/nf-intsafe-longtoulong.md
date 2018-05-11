@@ -7,7 +7,7 @@ old-location: shell\LongToDWord.htm
 old-project: shell
 ms.assetid: 164306d8-dfc1-4aee-baa8-2a0f57253c70
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: LongToDWord, LongToDWord function [Windows Shell], LongToULong, _shell_LongToDWord, intsafe/LongToDWord, shell.LongToDWord
 ms.prod: windows-hardware
 ms.technology: windows-devices

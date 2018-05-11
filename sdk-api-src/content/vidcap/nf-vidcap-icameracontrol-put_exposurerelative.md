@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_exposurerelative.htm
 old-project: DirectShow
 ms.assetid: 4afc3f7f-bba2-4160-b917-c792467d6305
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: ICameraControl interface [DirectShow],put_ExposureRelative method, ICameraControl.put_ExposureRelative, ICameraControl::put_ExposureRelative, ICameraControlput_ExposureRelative, dshow.icameracontrol_put_exposurerelative, put_ExposureRelative, put_ExposureRelative method [DirectShow], put_ExposureRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_ExposureRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices

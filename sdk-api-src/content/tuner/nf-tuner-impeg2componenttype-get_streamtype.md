@@ -7,7 +7,7 @@ old-location: mstv\impeg2componenttype_get_streamtype.htm
 old-project: mstv
 ms.assetid: c3aa2a63-aa02-41c3-bbdf-f155346eea0a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IMPEG2ComponentType interface [Microsoft TV Technologies],get_StreamType method, IMPEG2ComponentType.get_StreamType, IMPEG2ComponentType::get_StreamType, IMPEG2ComponentTypeget_StreamType, get_StreamType, get_StreamType method [Microsoft TV Technologies], get_StreamType method [Microsoft TV Technologies],IMPEG2ComponentType interface, mstv.impeg2componenttype_get_streamtype, tuner/IMPEG2ComponentType::get_StreamType
 ms.prod: windows-hardware
 ms.technology: windows-devices

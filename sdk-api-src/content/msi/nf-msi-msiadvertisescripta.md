@@ -7,7 +7,7 @@ old-location: setup\msiadvertisescript.htm
 old-project: Msi
 ms.assetid: 2c255c01-554b-42da-82ff-c946a40098ed
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiAdvertiseScript, MsiAdvertiseScript function, MsiAdvertiseScriptA, MsiAdvertiseScriptW, SCRIPTFLAGS_CACHEINFO, SCRIPTFLAGS_MACHINEASSIGN, SCRIPTFLAGS_REGDATA, SCRIPTFLAGS_REGDATA_APPINFO, SCRIPTFLAGS_REGDATA_CLASSINFO, SCRIPTFLAGS_REGDATA_CNFGINFO, SCRIPTFLAGS_REGDATA_EXTENSIONINFO, SCRIPTFLAGS_SHORTCUTS, SCRIPTFLAGS_VALIDATE_TRANSFORMS_LIST, _msi_msiadvertisescript, msi/MsiAdvertiseScript, msi/MsiAdvertiseScriptA, msi/MsiAdvertiseScriptW, setup.msiadvertisescript
 ms.prod: windows-hardware
 ms.technology: windows-devices

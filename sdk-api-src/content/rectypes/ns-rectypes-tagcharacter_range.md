@@ -7,7 +7,7 @@ old-location: tablet\character_range.htm
 old-project: tablet
 ms.assetid: 51d13adf-170e-4172-b752-c9dac5a96fa5
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PCHARACTER_RANGE, 51d13adf-170e-4172-b752-c9dac5a96fa5, CHARACTER_RANGE, CHARACTER_RANGE structure [Tablet PC], rectypes/CHARACTER_RANGE, tablet.character_range, tagCHARACTER_RANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

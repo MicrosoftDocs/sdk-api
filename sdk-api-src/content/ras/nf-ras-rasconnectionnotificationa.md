@@ -7,7 +7,7 @@ old-location: rras\rasconnectionnotification.htm
 old-project: RRAS
 ms.assetid: 7bbf928e-9b62-44fc-9d57-6c80f89865f0
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RASCN_BandwidthAdded, RASCN_BandwidthRemoved, RASCN_Connection, RASCN_Disconnection, RasConnectionNotification, RasConnectionNotification function [RAS], RasConnectionNotificationA, RasConnectionNotificationW, _ras_rasconnectionnotification, ras/RasConnectionNotification, ras/RasConnectionNotificationA, ras/RasConnectionNotificationW, rras.rasconnectionnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

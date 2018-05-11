@@ -7,7 +7,7 @@ old-location: tsf\itfcleanupcontextsink.htm
 old-project: TSF
 ms.assetid: f88ebef7-2796-4076-892f-28fac6e143de
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfCleanupContextSink, ITfCleanupContextSink interface [Text Services Framework], ITfCleanupContextSink interface [Text Services Framework],described, _tsf_itfcleanupcontextsink_ref, msctf/ITfCleanupContextSink, tsf.itfcleanupcontextsink
 ms.prod: windows-hardware
 ms.technology: windows-devices

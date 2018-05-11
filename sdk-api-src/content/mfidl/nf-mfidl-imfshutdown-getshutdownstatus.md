@@ -7,7 +7,7 @@ old-location: mf\imfshutdown_getshutdownstatus.htm
 old-project: medfound
 ms.assetid: 8cf5f5f3-a3ad-4745-87e8-764ed118477a
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 8cf5f5f3-a3ad-4745-87e8-764ed118477a, GetShutdownStatus, GetShutdownStatus method [Media Foundation], GetShutdownStatus method [Media Foundation],IMFShutdown interface, IMFShutdown interface [Media Foundation],GetShutdownStatus method, IMFShutdown.GetShutdownStatus, IMFShutdown::GetShutdownStatus, mf.imfshutdown_getshutdownstatus, mfidl/IMFShutdown::GetShutdownStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

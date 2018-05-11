@@ -7,7 +7,7 @@ old-location: security\pfncmhookproc.htm
 old-project: SecCrypto
 ms.assetid: 7172c995-a46b-437b-beaf-a0649cb8ec3d
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: PFNCMHOOKPROC, PFNCMHOOKPROC callback, PFNCMHOOKPROC callback function [Security], cryptdlg/PFNCMHOOKPROC, security.pfncmhookproc
 ms.prod: windows-hardware
 ms.technology: windows-devices

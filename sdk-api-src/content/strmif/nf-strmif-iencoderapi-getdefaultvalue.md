@@ -7,7 +7,7 @@ old-location: mstv\iencoderapi_getdefaultvalue.htm
 old-project: mstv
 ms.assetid: 86eb8008-6d1c-4de7-8a88-b42f33ca24d3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetDefaultValue, GetDefaultValue method [Microsoft TV Technologies], GetDefaultValue method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetDefaultValue method, IEncoderAPI.GetDefaultValue, IEncoderAPI::GetDefaultValue, IEncoderAPIGetDefaultValue, mstv.iencoderapi_getdefaultvalue, strmif/IEncoderAPI::GetDefaultValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

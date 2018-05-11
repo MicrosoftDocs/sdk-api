@@ -1,14 +1,14 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDeferContactService.DeferContact
-title: IDirectManipulationDeferContactService::DeferContact method
+title: IDirectManipulationDeferContactService::DeferContact
 author: windows-driver-content
 description: Specifies the amount of time to defer the execution of a call to SetContact for this pointerId.
 old-location: directmanipulation\idirectmanipulationdefercontactservice_defercontact.htm
 old-project: directmanipulation
 ms.assetid: DEC97DD5-E43F-4541-8A80-D20EC8026493
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: CancelContact method [Direct Manipulation], CancelContact method [Direct Manipulation], IDirectManipulationDeferContactService interface, DeferContact,IDirectManipulationDeferContactService.DeferContact, IDirectManipulationDeferContactService, IDirectManipulationDeferContactService interface [Direct Manipulation], CancelContact method, IDirectManipulationDeferContactService::CancelContact, IDirectManipulationDeferContactService::DeferContact, directmanipulation.idirectmanipulationdefercontactservice_defercontact, directmanipulation/IDirectManipulationDeferContactService::CancelContact
+ms.date: 5/9/2018
+ms.keywords: DeferContact, DeferContact method [Direct Manipulation], DeferContact method [Direct Manipulation],IDirectManipulationDeferContactService interface, IDirectManipulationDeferContactService interface [Direct Manipulation],DeferContact method, IDirectManipulationDeferContactService.DeferContact, IDirectManipulationDeferContactService::DeferContact, directmanipulation.idirectmanipulationdefercontactservice_defercontact, directmanipulation/IDirectManipulationDeferContactService::DeferContact
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	DirectManipulation.h
 api_name:
--	IDirectManipulationDeferContactService.CancelContact
+-	IDirectManipulationDeferContactService.DeferContact
 product: Windows
 targetos: Windows
 req.lib: 
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# IDirectManipulationDeferContactService::DeferContact method
+# IDirectManipulationDeferContactService::DeferContact
 
 
 ## -description

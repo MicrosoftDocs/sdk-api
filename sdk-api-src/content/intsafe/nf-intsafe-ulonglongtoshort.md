@@ -7,7 +7,7 @@ old-location: shell\ULongLongToShort.htm
 old-project: shell
 ms.assetid: 499af7eb-0429-4197-af05-40e9aaa877a8
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ULongLongToShort, ULongLongToShort function [Windows Shell], intsafe/ULongLongToShort, shell.ULongLongToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices

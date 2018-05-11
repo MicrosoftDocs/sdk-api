@@ -7,7 +7,7 @@ old-location: p2p\peergraphvalidatedeferredrecords.htm
 old-project: P2PSdk
 ms.assetid: a9a48d8a-f31e-4526-bd09-826f04a564b1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGraphValidateDeferredRecords, PeerGraphValidateDeferredRecords function [Peer Networking], p2p.peergraphvalidatedeferredrecords, p2p/PeerGraphValidateDeferredRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

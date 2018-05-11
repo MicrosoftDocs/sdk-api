@@ -7,7 +7,7 @@ old-location: properties\PSEnumeratePropertyDescriptions.htm
 old-project: properties
 ms.assetid: 687d5a32-3a2e-4b9b-b06c-ca06a6cd1595
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: PSEnumeratePropertyDescriptions, PSEnumeratePropertyDescriptions function [Windows Properties], properties.PSEnumeratePropertyDescriptions, propsys/PSEnumeratePropertyDescriptions, shell.PSEnumeratePropertyDescriptions, shell_PSEnumeratePropertyDescriptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

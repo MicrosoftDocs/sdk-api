@@ -7,7 +7,7 @@ old-location: tapi3\itagent_get_agentsessions.htm
 old-project: Tapi
 ms.assetid: 25503eae-ebee-4b57-ab5c-b3f152de9a96
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_AgentSessions method, ITAgent.get_AgentSessions, ITAgent::get_AgentSessions, _tapi3_itagent_get_agentsessions, get_AgentSessions, get_AgentSessions method [TAPI 2.2], get_AgentSessions method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_agentsessions, tapi3cc/ITAgent::get_AgentSessions
 ms.prod: windows-hardware
 ms.technology: windows-devices

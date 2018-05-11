@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationcontent.htm
 old-project: directmanipulation
 ms.assetid: 4d69a503-f998-4197-824f-4df48825c941
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationContent, IDirectManipulationContent interface [Direct Manipulation], IDirectManipulationContent interface [Direct Manipulation],described, directmanipulation.idirectmanipulationcontent, directmanipulation/IDirectManipulationContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

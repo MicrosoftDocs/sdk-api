@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparser2_getsdtt.htm
 old-project: mstv
 ms.assetid: fd361526-eb0c-4edd-b346-3bded48fdc06
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetSDTT, GetSDTT method [Microsoft TV Technologies], GetSDTT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetSDTT method, IIsdbSiParser2.GetSDTT, IIsdbSiParser2::GetSDTT, dvbsiparser/IIsdbSiParser2::GetSDTT, mstv.iisdbsiparser2_getsdtt
 ms.prod: windows-hardware
 ms.technology: windows-devices

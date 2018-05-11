@@ -7,7 +7,7 @@ old-location: mstv\ietfilterconfig_initlicense.htm
 old-project: mstv
 ms.assetid: d88d9ee0-1748-43e4-90d4-671b1449ef03
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IETFilterConfig interface [Microsoft TV Technologies],InitLicense method, IETFilterConfig.InitLicense, IETFilterConfig::InitLicense, IETFilterConfigInitLicense, InitLicense, InitLicense method [Microsoft TV Technologies], InitLicense method [Microsoft TV Technologies],IETFilterConfig interface, encdec/IETFilterConfig::InitLicense, mstv.ietfilterconfig_initlicense
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriter_getinputprops.htm
 old-project: wmformat
 ms.assetid: 2889a1a7-3111-4c13-b15a-659f519c22f6
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: GetInputProps, GetInputProps method [windows Media Format], GetInputProps method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputProps method, IWMWriter.GetInputProps, IWMWriter::GetInputProps, IWMWriterGetInputProps, wmformat.iwmwriter_getinputprops, wmsdkidl/IWMWriter::GetInputProps
 ms.prod: windows-hardware
 ms.technology: windows-devices

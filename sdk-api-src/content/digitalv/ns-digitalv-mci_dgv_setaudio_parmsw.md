@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_setaudio_parms.htm
 old-project: Multimedia
 ms.assetid: 9c2e72d0-5f6a-4884-a072-ed3d38b953c5
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: "*LPMCI_DGV_SETAUDIO_PARMSW, MCI_DGV_SETAUDIO_PARMS, MCI_DGV_SETAUDIO_PARMS structure [Windows Multimedia], MCI_DGV_SETAUDIO_PARMSW, _win32_MCI_DGV_SETAUDIO_PARMS_str, digitalv/MCI_DGV_SETAUDIO_PARMS, multimedia.mci_dgv_setaudio_parms"
 ms.prod: windows-hardware
 ms.technology: windows-devices

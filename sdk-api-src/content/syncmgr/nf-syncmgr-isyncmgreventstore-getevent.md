@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEventStore_GetEvent.htm
 old-project: shell
 ms.assetid: 6800ac62-1fd5-43a4-bd37-831449274a7b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: GetEvent, GetEvent method [Windows Shell], GetEvent method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEvent method, ISyncMgrEventStore.GetEvent, ISyncMgrEventStore::GetEvent, _shell_ISyncMgrEventStore_GetEvent, shell.ISyncMgrEventStore_GetEvent, syncmgr/ISyncMgrEventStore::GetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

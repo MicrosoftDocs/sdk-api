@@ -7,7 +7,7 @@ old-location: display\drvstrokeandfillpath.htm
 old-project: display
 ms.assetid: 92a04fe5-146d-4839-a854-1ac50705b447
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: DrvStrokeAndFillPath, DrvStrokeAndFillPath function [Display Devices], ddifncs_ca3b1895-31d0-4c1b-b47c-df61ccef2afa.xml, display.drvstrokeandfillpath, winddi/DrvStrokeAndFillPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

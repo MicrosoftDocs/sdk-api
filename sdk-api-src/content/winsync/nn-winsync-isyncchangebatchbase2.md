@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchbase2.htm
 old-project: winsync
 ms.assetid: 45f10ed0-b3ce-41f5-b2d9-9166bff2abec
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncChangeBatchBase2, ISyncChangeBatchBase2 interface [Windows Sync], ISyncChangeBatchBase2 interface [Windows Sync],described, winsync.isyncchangebatchbase2, winsync/ISyncChangeBatchBase2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmtranscryptor_read.htm
 old-project: wmformat
 ms.assetid: 55b1c73a-5c00-4e16-b0fe-2352ce09bffc
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMDRMTranscryptor interface [windows Media Format],Read method, IWMDRMTranscryptor.Read, IWMDRMTranscryptor::Read, IWMDRMTranscryptorRead, Read, Read method [windows Media Format], Read method [windows Media Format],IWMDRMTranscryptor interface, wmformat.iwmdrmtranscryptor_read, wmsdkidl/IWMDRMTranscryptor::Read
 ms.prod: windows-hardware
 ms.technology: windows-devices

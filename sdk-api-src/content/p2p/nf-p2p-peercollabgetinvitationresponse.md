@@ -7,7 +7,7 @@ old-location: p2p\peercollabgetinvitationresponse.htm
 old-project: P2PSdk
 ms.assetid: f9471e51-5eec-4927-bd12-7d362f5101ee
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerCollabGetInvitationResponse, PeerCollabGetInvitationResponse function [Peer Networking], p2p.peercollabgetinvitationresponse, p2p/PeerCollabGetInvitationResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices

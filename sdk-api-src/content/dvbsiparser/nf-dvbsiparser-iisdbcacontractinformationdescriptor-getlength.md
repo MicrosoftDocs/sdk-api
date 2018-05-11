@@ -7,7 +7,7 @@ old-location: mstv\iisdbcacontractinformationdescriptor_getlength.htm
 old-project: mstv
 ms.assetid: f8a4f327-c3ad-4170-91c8-57f6dc22e162
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbCAContractInformationDescriptor.GetLength, IIsdbCAContractInformationDescriptor::GetLength, dvbsiparser/IIsdbCAContractInformationDescriptor::GetLength, mstv.iisdbcacontractinformationdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\peerdistserverunpublish.htm
 old-project: P2PSdk
 ms.assetid: 880927c4-f7d7-4c75-b371-2fe401a50b20
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerDistServerUnpublish, PeerDistServerUnpublish function [Peer Networking], p2p.peerdistserverunpublish, peerdist/PeerDistServerUnpublish
 ms.prod: windows-hardware
 ms.technology: windows-devices

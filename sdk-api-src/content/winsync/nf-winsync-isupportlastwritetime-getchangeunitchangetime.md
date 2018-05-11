@@ -7,7 +7,7 @@ old-location: winsync\isupportlastwritetime_getchangeunitchangetime.htm
 old-project: winsync
 ms.assetid: f289d5a5-c991-4223-b59a-68b31ecffb8c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetChangeUnitChangeTime, GetChangeUnitChangeTime method [Windows Sync], GetChangeUnitChangeTime method [Windows Sync],ISupportLastWriteTime interface, ISupportLastWriteTime interface [Windows Sync],GetChangeUnitChangeTime method, ISupportLastWriteTime.GetChangeUnitChangeTime, ISupportLastWriteTime::GetChangeUnitChangeTime, winsync.isupportlastwritetime_getchangeunitchangetime, winsync/ISupportLastWriteTime::GetChangeUnitChangeTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

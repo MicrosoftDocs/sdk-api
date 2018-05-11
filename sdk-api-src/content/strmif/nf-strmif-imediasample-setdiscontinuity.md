@@ -7,7 +7,7 @@ old-location: dshow\imediasample_setdiscontinuity.htm
 old-project: DirectShow
 ms.assetid: 57041c71-4c7e-463a-92f5-c77a76aa545a
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IMediaSample interface [DirectShow],SetDiscontinuity method, IMediaSample.SetDiscontinuity, IMediaSample::SetDiscontinuity, IMediaSampleSetDiscontinuity, SetDiscontinuity, SetDiscontinuity method [DirectShow], SetDiscontinuity method [DirectShow],IMediaSample interface, dshow.imediasample_setdiscontinuity, strmif/IMediaSample::SetDiscontinuity
 ms.prod: windows-hardware
 ms.technology: windows-devices

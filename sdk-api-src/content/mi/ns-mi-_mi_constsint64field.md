@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constsint64field.htm
 old-project: wmi_v2
 ms.assetid: fff4b692-dbd8-4b4d-b62f-9af629c9862e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_ConstSint64Field, MI_ConstSint64Field structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstSint64Field, mi/MI_ConstSint64Field, wmi._mi_constsint64field, wmi_v2.mi_constsint64field
 ms.prod: windows-hardware
 ms.technology: windows-devices

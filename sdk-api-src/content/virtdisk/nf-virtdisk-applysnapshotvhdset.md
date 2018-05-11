@@ -7,7 +7,7 @@ old-location: vhd\applysnapshotvhdset.htm
 old-project: VStor
 ms.assetid: 1194B20E-AA50-4AEC-B9C4-AEA1BA84DD99
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: ApplySnapshotVhdSet, ApplySnapshotVhdSet function [VHD], vhd.applysnapshotvhdset, virtdisk/ApplySnapshotVhdSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

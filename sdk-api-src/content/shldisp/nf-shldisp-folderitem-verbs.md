@@ -7,7 +7,7 @@ old-location: shell\FolderItem_Verbs.htm
 old-project: shell
 ms.assetid: e31160cd-093a-45a6-a066-58120c44eb2c
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: FolderItem object [Windows Shell],Verbs method, FolderItem.Verbs, FolderItem::Verbs, Verbs, Verbs method [Windows Shell], Verbs method [Windows Shell],FolderItem object, _win32_FolderItem_Verbs, shell.FolderItem_Verbs
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\drtgeteventdata.htm
 old-project: P2PSdk
 ms.assetid: 94ed3028-0bd1-449b-9902-7dbae4a70ec1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: DrtGetEventData, DrtGetEventData function [Peer Networking], drt/DrtGetEventData, p2p.drtgeteventdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

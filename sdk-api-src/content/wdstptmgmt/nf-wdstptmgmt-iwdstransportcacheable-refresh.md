@@ -7,7 +7,7 @@ old-location: wds\iwdstransportcacheable_refresh.htm
 old-project: Wds
 ms.assetid: 2fd838b5-5623-4133-9ad8-ec051b2b698d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportCacheable interface [Windows Deployment Services],Refresh method, IWdsTransportCacheable.Refresh, IWdsTransportCacheable::Refresh, Refresh, Refresh method [Windows Deployment Services], Refresh method [Windows Deployment Services],IWdsTransportCacheable interface, wds.iwdstransportcacheable_refresh, wdstptmgmt/IWdsTransportCacheable::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

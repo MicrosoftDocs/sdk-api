@@ -7,7 +7,7 @@ old-location: wds\wdscliwaitfortransfer.htm
 old-project: Wds
 ms.assetid: 2328ce69-5a2d-4c4e-bf24-95a379fb7faa
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsCliWaitForTransfer, WdsCliWaitForTransfer function [Windows Deployment Services], wds.wdscliwaitfortransfer, wdsclientapi/WdsCliWaitForTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices

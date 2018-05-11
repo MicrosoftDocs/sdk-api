@@ -7,7 +7,7 @@ old-location: display\surfacealignment.htm
 old-project: display
 ms.assetid: 200f4e08-b5d3-484e-b87a-b3069dc3c99f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*LPSURFACEALIGNMENT, SURFACEALIGNMENT, SURFACEALIGNMENT structure [Display Devices], _SURFACEALIGNMENT, display.surfacealignment, dmemmgr/SURFACEALIGNMENT, grstrcts_8ab8c373-9600-45dc-9f16-f6c4de52a0c7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

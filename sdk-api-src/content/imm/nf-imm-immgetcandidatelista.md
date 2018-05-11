@@ -7,7 +7,7 @@ old-location: intl\immgetcandidatelist.htm
 old-project: Intl
 ms.assetid: 24163117-a283-4067-8ce6-118ca2de62c9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: ImmGetCandidateList, ImmGetCandidateList function [Internationalization for Windows Applications], ImmGetCandidateListA, ImmGetCandidateListW, _win32_ImmGetCandidateList, imm/ImmGetCandidateList, imm/ImmGetCandidateListA, imm/ImmGetCandidateListW, intl.immgetcandidatelist
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\dxva2_valuerange.htm
 old-project: medfound
 ms.assetid: e01328bb-9069-4874-aa35-b3c9bc1c6094
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: DXVA2_ValueRange, DXVA2_ValueRange structure [Media Foundation], _DXVA2_ValueRange, dxva2api/DXVA2_ValueRange, e01328bb-9069-4874-aa35-b3c9bc1c6094, mf.dxva2_valuerange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: stg\statstg.htm
 old-project: Stg
 ms.assetid: 54e1df08-de8f-430a-bf76-e66594df4839
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: STATSTG, STATSTG [Strctd Stg], STATSTG structure [Structured Storage], _stg_statstg, objidl/STATSTG, stg.statstg, tagSTATSTG
 ms.prod: windows-hardware
 ms.technology: windows-devices

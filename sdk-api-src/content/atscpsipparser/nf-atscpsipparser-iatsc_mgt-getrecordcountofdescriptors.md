@@ -7,7 +7,7 @@ old-location: mstv\iatsc_mgt_getrecordcountofdescriptors.htm
 old-project: mstv
 ms.assetid: 66be731b-d964-4806-ae78-2faa0c0d2810
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IATSC_MGT.GetRecordCountOfDescriptors, IATSC_MGT::GetRecordCountOfDescriptors, IATSC_MGTGetRecordCountOfDescriptors, atscpsipparser/IATSC_MGT::GetRecordCountOfDescriptors, mstv.iatsc_mgt_getrecordcountofdescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

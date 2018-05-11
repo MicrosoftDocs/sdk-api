@@ -7,7 +7,7 @@ old-location: dshow\tunerinputtype.htm
 old-project: DirectShow
 ms.assetid: e25ec8e2-6d94-4059-a34e-a9e7887582fb
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: TunerInputAntenna, TunerInputCable, TunerInputType, TunerInputType enumeration [DirectShow], TunerInputTypeEnumeration, dshow.tunerinputtype, strmif/TunerInputAntenna, strmif/TunerInputCable, strmif/TunerInputType, tagTunerInputType
 ms.prod: windows-hardware
 ms.technology: windows-devices

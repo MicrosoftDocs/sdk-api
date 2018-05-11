@@ -7,7 +7,7 @@ old-location: base\service_table_entry_str.htm
 old-project: Services
 ms.assetid: dd40c4f0-cbbe-429f-91c0-3ba141dab702
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/9/2018
 ms.keywords: "*LPSERVICE_TABLE_ENTRYW, LPSERVICE_TABLE_ENTRY, LPSERVICE_TABLE_ENTRY structure pointer, SERVICE_TABLE_ENTRY, SERVICE_TABLE_ENTRY structure, SERVICE_TABLE_ENTRYA, SERVICE_TABLE_ENTRYW, _SERVICE_TABLE_ENTRYW, _win32_service_table_entry_str, base.service_table_entry_str, winsvc/LPSERVICE_TABLE_ENTRY, winsvc/SERVICE_TABLE_ENTRY, winsvc/SERVICE_TABLE_ENTRYA, winsvc/SERVICE_TABLE_ENTRYW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

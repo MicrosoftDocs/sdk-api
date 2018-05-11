@@ -7,7 +7,7 @@ old-location: wua\isysteminformation_rebootrequired.htm
 old-project: Wua_Sdk
 ms.assetid: 069a4ace-d69e-4d8d-b880-81c58d9668bd
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: ISystemInformation interface [Windows Update Agent],RebootRequired property, ISystemInformation.RebootRequired, ISystemInformation.get_RebootRequired, ISystemInformation::RebootRequired, ISystemInformation::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],ISystemInformation interface, get_RebootRequired, wua.isysteminformation_rebootrequired, wuapi/ISystemInformation::RebootRequired, wuapi/ISystemInformation::get_RebootRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices

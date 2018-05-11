@@ -7,7 +7,7 @@ old-location: mf\mftimer_flags.htm
 old-project: medfound
 ms.assetid: bd94247a-ed58-4857-a39d-16880eea75e0
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MFTIMER_FLAGS, MFTIMER_FLAGS enumeration [Media Foundation], MFTIMER_RELATIVE, bd94247a-ed58-4857-a39d-16880eea75e0, mf.mftimer_flags, mfidl/MFTIMER_FLAGS, mfidl/MFTIMER_RELATIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices

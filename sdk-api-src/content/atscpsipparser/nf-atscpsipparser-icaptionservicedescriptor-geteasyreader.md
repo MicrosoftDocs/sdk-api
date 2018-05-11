@@ -7,7 +7,7 @@ old-location: mstv\icaptionservicedescriptor_geteasyreader.htm
 old-project: mstv
 ms.assetid: 7ecf31c8-b93e-4c6c-991c-33ce942757ec
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetEasyReader, GetEasyReader method [Microsoft TV Technologies], GetEasyReader method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetEasyReader method, ICaptionServiceDescriptor.GetEasyReader, ICaptionServiceDescriptor::GetEasyReader, ICaptionServiceDescriptorGetEasyReader, atscpsipparser/ICaptionServiceDescriptor::GetEasyReader, mstv.icaptionservicedescriptor_geteasyreader
 ms.prod: windows-hardware
 ms.technology: windows-devices

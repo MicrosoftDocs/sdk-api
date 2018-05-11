@@ -7,7 +7,7 @@ old-location: mf\imfoutputschema.htm
 old-project: medfound
 ms.assetid: d0786628-dde9-43a9-8e81-0b0c396ad426
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFOutputSchema, IMFOutputSchema interface [Media Foundation], IMFOutputSchema interface [Media Foundation],described, d0786628-dde9-43a9-8e81-0b0c396ad426, mf.imfoutputschema, mfidl/IMFOutputSchema
 ms.prod: windows-hardware
 ms.technology: windows-devices

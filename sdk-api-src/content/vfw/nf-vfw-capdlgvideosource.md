@@ -7,7 +7,7 @@ old-location: multimedia\capdlgvideosource.htm
 old-project: Multimedia
 ms.assetid: 9913a9e0-13ee-4f4b-9e8b-0f2549e4ded3
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: "_win32_capDlgVideoSource, capDlgVideoSource, capDlgVideoSource macro [Windows Multimedia], multimedia.capdlgvideosource, vfw/capDlgVideoSource"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmsinternaladminnetsource2.htm
 old-project: wmformat
 ms.assetid: 6d334725-11d5-4249-a83d-fc8c1c35a56f
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMSInternalAdminNetSource2, IWMSInternalAdminNetSource2 interface [windows Media Format], IWMSInternalAdminNetSource2 interface [windows Media Format],described, IWMSInternalAdminNetSource2Interface, wmformat.iwmsinternaladminnetsource2, wmsinternaladminnetsource/IWMSInternalAdminNetSource2
 ms.prod: windows-hardware
 ms.technology: windows-devices

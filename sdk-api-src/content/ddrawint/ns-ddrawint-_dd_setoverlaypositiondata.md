@@ -7,7 +7,7 @@ old-location: display\dd_setoverlaypositiondata.htm
 old-project: display
 ms.assetid: edfcbe23-81af-41fb-b29e-cd6e2da4d603
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*PDD_SETOVERLAYPOSITIONDATA, DD_SETOVERLAYPOSITIONDATA, DD_SETOVERLAYPOSITIONDATA structure [Display Devices], _DD_SETOVERLAYPOSITIONDATA, ddrawint/DD_SETOVERLAYPOSITIONDATA, ddstrcts_963680b2-05c1-4f15-959c-c38a8141541b.xml, display.dd_setoverlaypositiondata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

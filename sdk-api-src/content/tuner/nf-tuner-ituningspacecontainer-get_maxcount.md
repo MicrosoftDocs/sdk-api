@@ -7,7 +7,7 @@ old-location: mstv\ituningspacecontainer_get_maxcount.htm
 old-project: mstv
 ms.assetid: 72692bc6-a210-4e60-9c04-14a7ea531cb4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_MaxCount method, ITuningSpaceContainer.get_MaxCount, ITuningSpaceContainer::get_MaxCount, ITuningSpaceContainerget_MaxCount, get_MaxCount, get_MaxCount method [Microsoft TV Technologies], get_MaxCount method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_maxcount, tuner/ITuningSpaceContainer::get_MaxCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

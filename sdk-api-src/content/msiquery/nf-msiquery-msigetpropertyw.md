@@ -7,7 +7,7 @@ old-location: setup\msigetproperty.htm
 old-project: Msi
 ms.assetid: f2844673-3440-4b43-a9d0-31b9e8086f6f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiGetProperty, MsiGetProperty function, MsiGetPropertyA, MsiGetPropertyW, _msi_msigetproperty, msiquery/MsiGetProperty, msiquery/MsiGetPropertyA, msiquery/MsiGetPropertyW, setup.msigetproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

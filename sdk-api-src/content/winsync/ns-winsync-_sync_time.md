@@ -7,7 +7,7 @@ old-location: winsync\sync_time.htm
 old-project: winsync
 ms.assetid: f5e0df02-d016-4eae-9b9b-bfd754ade126
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: SYNC_TIME, SYNC_TIME structure [Windows Sync], _SYNC_TIME, winsync.sync_time, winsync/SYNC_TIME
 ms.prod: windows-hardware
 ms.technology: windows-devices

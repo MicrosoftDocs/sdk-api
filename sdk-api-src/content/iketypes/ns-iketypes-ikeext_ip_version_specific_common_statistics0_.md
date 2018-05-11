@@ -7,7 +7,7 @@ old-location: fwp\ikeext_ip_version_specific_common_statistics0.htm
 old-project: FWP
 ms.assetid: 0cacb7de-9f20-47ac-b040-8d65ede3bef3
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0, IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0 structure [Filtering], IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0_, fwp.ikeext_ip_version_specific_common_statistics0, iketypes/IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS0
 ms.prod: windows-hardware
 ms.technology: windows-devices

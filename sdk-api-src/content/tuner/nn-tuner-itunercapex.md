@@ -7,7 +7,7 @@ old-location: mstv\itunercapex.htm
 old-project: mstv
 ms.assetid: 414492d0-33d5-4b39-9884-36ed44e530cd
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: ITunerCapEx, ITunerCapEx interface [Microsoft TV Technologies], ITunerCapEx interface [Microsoft TV Technologies],described, mstv.itunercapex, tuner/ITunerCapEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\symenumprocesses.htm
 old-project: Debug
 ms.assetid: 281b83ff-8375-4edb-8a10-97af5dbdc87b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: SymEnumProcesses, SymEnumProcesses function, base.symenumprocesses, dbghelp/SymEnumProcesses
 ms.prod: windows-hardware
 ms.technology: windows-devices

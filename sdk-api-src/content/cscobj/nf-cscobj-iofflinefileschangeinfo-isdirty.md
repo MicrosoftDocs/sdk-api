@@ -7,7 +7,7 @@ old-location: of\iofflinefileschangeinfo_isdirty.htm
 old-project: OfflineFiles
 ms.assetid: 47b3bae2-d0fb-4e15-a03f-c9d5001e8786
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsDirty method, IOfflineFilesChangeInfo.IsDirty, IOfflineFilesChangeInfo::IsDirty, IsDirty, IsDirty method [Offline Files], IsDirty method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsDirty, of.iofflinefileschangeinfo_isdirty
 ms.prod: windows-hardware
 ms.technology: windows-devices

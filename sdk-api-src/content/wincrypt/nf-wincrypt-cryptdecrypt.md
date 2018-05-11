@@ -7,7 +7,7 @@ old-location: security\cryptdecrypt.htm
 old-project: SecCrypto
 ms.assetid: 7c3d2838-6fd1-4f6c-9586-8b94b459a31a
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CRYPT_DECRYPT_RSA_NO_PADDING_CHECK, CRYPT_OAEP, CryptDecrypt, CryptDecrypt function [Security], _crypto2_cryptdecrypt, security.cryptdecrypt, wincrypt/CryptDecrypt
 ms.prod: windows-hardware
 ms.technology: windows-devices

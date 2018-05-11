@@ -7,7 +7,7 @@ old-location: indexsrv\iwordbreaker_breaktext.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_22no.htm
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/9/2018
 ms.keywords: BreakText, BreakText method [Indexing Service], BreakText method [Indexing Service],IWordBreaker interface, IWordBreaker interface [Indexing Service],BreakText method, IWordBreaker.BreakText, IWordBreaker::BreakText, _idxs_IWordBreaker_BreakText, indexsrv.iwordbreaker_breaktext, indexsrv/IWordBreaker::BreakText
 ms.prod: windows-hardware
 ms.technology: windows-devices

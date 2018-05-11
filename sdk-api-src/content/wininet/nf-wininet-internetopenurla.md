@@ -7,7 +7,7 @@ old-location: wininet\internetopenurl.htm
 old-project: WinInet
 ms.assetid: 73f969c3-3fa7-43f5-88c5-ba78e59a8d1c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: InternetOpenUrl, InternetOpenUrl function [WinINet], InternetOpenUrlA, InternetOpenUrlW, _inet_internetopenurl_function, wininet.internetopenurl, wininet/InternetOpenUrl, wininet/InternetOpenUrlA, wininet/InternetOpenUrlW
 ms.prod: windows-hardware
 ms.technology: windows-devices

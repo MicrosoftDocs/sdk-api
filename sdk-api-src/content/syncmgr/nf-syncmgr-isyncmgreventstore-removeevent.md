@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEventStore_RemoveEvent.htm
 old-project: shell
 ms.assetid: 08d01b6f-1e1f-4f03-9595-f374805ae734
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncMgrEventStore interface [Windows Shell],RemoveEvent method, ISyncMgrEventStore.RemoveEvent, ISyncMgrEventStore::RemoveEvent, RemoveEvent, RemoveEvent method [Windows Shell], RemoveEvent method [Windows Shell],ISyncMgrEventStore interface, _shell_ISyncMgrEventStore_RemoveEvent, shell.ISyncMgrEventStore_RemoveEvent, syncmgr/ISyncMgrEventStore::RemoveEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

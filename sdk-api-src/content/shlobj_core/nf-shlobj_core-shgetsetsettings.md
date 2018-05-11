@@ -7,7 +7,7 @@ old-location: shell\SHGetSetSettings.htm
 old-project: shell
 ms.assetid: d7c2646c-03e0-4d7a-9503-bdf487d43723
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SHGetSetSettings, SHGetSetSettings function [Windows Shell], _win32_SHGetSetSettings, shell.SHGetSetSettings, shlobj_core/SHGetSetSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

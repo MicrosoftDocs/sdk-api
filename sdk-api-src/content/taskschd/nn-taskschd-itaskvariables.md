@@ -7,7 +7,7 @@ old-location: taskschd\itaskvariables.htm
 old-project: TaskSchd
 ms.assetid: 4f7a9dd3-0bf4-4c23-acdb-a5e0389120cc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITaskVariables, ITaskVariables interface [Task Scheduler], ITaskVariables interface [Task Scheduler],described, taskschd.itaskvariables, taskschd/ITaskVariables
 ms.prod: windows-hardware
 ms.technology: windows-devices

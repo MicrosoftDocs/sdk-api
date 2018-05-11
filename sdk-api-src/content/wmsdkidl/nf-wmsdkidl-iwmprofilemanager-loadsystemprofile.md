@@ -7,7 +7,7 @@ old-location: wmformat\iwmprofilemanager_loadsystemprofile.htm
 old-project: wmformat
 ms.assetid: 5de4bd41-953b-4f50-b495-1d852831ae34
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],LoadSystemProfile method, IWMProfileManager.LoadSystemProfile, IWMProfileManager::LoadSystemProfile, IWMProfileManagerLoadSystemProfile, LoadSystemProfile, LoadSystemProfile method [windows Media Format], LoadSystemProfile method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_loadsystemprofile, wmsdkidl/IWMProfileManager::LoadSystemProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

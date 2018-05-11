@@ -7,7 +7,7 @@ old-location: wds\wdscliobtaindriverpackagesex.htm
 old-project: Wds
 ms.assetid: C9AA3036-8E34-4F57-829C-F5D8CDA2EAA7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsCliObtainDriverPackagesEx, WdsCliObtainDriverPackagesEx function [Windows Deployment Services], wds.wdscliobtaindriverpackagesex, wdsclientapi/WdsCliObtainDriverPackagesEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

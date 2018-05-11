@@ -7,7 +7,7 @@ old-location: p2p\drt_leafset_key_change_type.htm
 old-project: P2PSdk
 ms.assetid: f4990710-7278-461f-a82e-94cd548eab35
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: DRT_LEAFSET_KEY_ADDED, DRT_LEAFSET_KEY_CHANGE_TYPE, DRT_LEAFSET_KEY_CHANGE_TYPE enumeration [Peer Networking], DRT_LEAFSET_KEY_DELETED, drt/DRT_LEAFSET_KEY_ADDED, drt/DRT_LEAFSET_KEY_CHANGE_TYPE, drt/DRT_LEAFSET_KEY_DELETED, drt_leafset_key_change_type_tag, p2p.drt_leafset_key_change_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

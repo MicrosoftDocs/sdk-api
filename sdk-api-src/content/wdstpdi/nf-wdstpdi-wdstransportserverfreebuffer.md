@@ -7,7 +7,7 @@ old-location: wds\wdstransportserverfreebuffer.htm
 old-project: Wds
 ms.assetid: c6123cec-fed3-4745-9d82-e501e972d54f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsTransportServerFreeBuffer, WdsTransportServerFreeBuffer function [Windows Deployment Services], wds.wdstransportserverfreebuffer, wdstpdi/WdsTransportServerFreeBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

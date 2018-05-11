@@ -7,7 +7,7 @@ old-location: base\getsymloaderror.htm
 old-project: Debug
 ms.assetid: EFCE3FC5-A815-401F-96C1-2A4F12E01C1C
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: GetSymLoadError, GetSymLoadError function, base.getsymloaderror, dbghelp/GetSymLoadError
 ms.prod: windows-hardware
 ms.technology: windows-devices

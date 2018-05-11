@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_sint8field.htm
 old-project: wmi_v2
 ms.assetid: 2661fb2a-6061-4a28-ba1f-619a48f97360
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Sint8Field, MI_Sint8Field structure [Windows Management Infrastructure (MI)], _MI_Sint8Field, mi/MI_Sint8Field, wmi._mi_sint8field, wmi_v2.mi_sint8field
 ms.prod: windows-hardware
 ms.technology: windows-devices

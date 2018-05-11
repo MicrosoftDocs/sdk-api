@@ -7,7 +7,7 @@ old-location: fwp\fwpmlayersetsecurityinfobykey0_func.htm
 old-project: FWP
 ms.assetid: a6f1e50b-bce1-42db-bb6f-dc0c93859015
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmLayerSetSecurityInfoByKey0, FwpmLayerSetSecurityInfoByKey0 function [Filtering], fwp.fwpmlayersetsecurityinfobykey0_func, fwpmu/FwpmLayerSetSecurityInfoByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

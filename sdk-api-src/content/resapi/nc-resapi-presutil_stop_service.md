@@ -7,7 +7,7 @@ old-location: mscs\resutilstopservice.htm
 old-project: MsCS
 ms.assetid: 22be9285-7db6-43dc-bf41-08187bbefc41
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PRESUTIL_STOP_SERVICE, PRESUTIL_STOP_SERVICE callback, PRESUTIL_STOP_SERVICE callback function [Failover Cluster], _wolf_resutilstopservice, mscs.resutilstopservice, resapi/PRESUTIL_STOP_SERVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices

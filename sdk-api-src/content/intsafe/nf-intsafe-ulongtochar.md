@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongToChar
 title: ULongToChar function
 author: windows-driver-content
-description: Converts a value of type DWORD to a value of type CHAR.
-old-location: shell\DWordToChar.htm
+description: Converts a value of type ULONG to a value of type CHAR.
+old-location: shell\ULongToChar.htm
 old-project: shell
-ms.assetid: 2d3d4114-53ec-420b-93e3-cddb7ae14413
+ms.assetid: 732521f0-4a8d-4308-9cb9-a52719e89e11
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: DWordToChar, DWordToChar function [Windows Shell], ULongToChar, _shell_DWordToChar, intsafe/DWordToChar, shell.DWordToChar
+ms.date: 5/9/2018
+ms.keywords: DWordToChar, ULongToChar, ULongToChar function [Windows Shell], _shell_ULongToChar, intsafe/ULongToChar, shell.ULongToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	DllExport
+-	HeaderDef
 api_location:
--	None
+-	Intsafe.h
 api_name:
--	DWordToChar
+-	ULongToChar
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: None
+req.dll: 
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>DWORD</b> to a value of type <b>CHAR</b>.
+Converts a value of type <b>ULONG</b> to a value of type <b>CHAR</b>.
 
 
 ## -parameters
@@ -58,9 +58,11 @@ Converts a value of type <b>DWORD</b> to a value of type <b>CHAR</b>.
 
 
 
-### -param ulOperand
+### -param ulOperand [in]
 
-TBD
+Type: <b>ULONG</b>
+
+The value to be converted.
 
 
 ### -param pch [out]
@@ -68,13 +70,6 @@ TBD
 Type: <b>__wchar_t*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
-
-
-#### - dwOperand [in]
-
-Type: <b>DWORD</b>
-
-The value to be converted.
 
 
 ## -returns
@@ -93,6 +88,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>DWordToChar</b> is an alias for this function.
 
 
 

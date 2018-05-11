@@ -7,7 +7,7 @@ old-location: indexsrv\iwordsink_startaltphrase.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_0945.htm
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/9/2018
 ms.keywords: IWordSink interface [Indexing Service],StartAltPhrase method, IWordSink.StartAltPhrase, IWordSink::StartAltPhrase, StartAltPhrase, StartAltPhrase method [Indexing Service], StartAltPhrase method [Indexing Service],IWordSink interface, _idxs_WordSink_StartAltPhrase, indexsrv.iwordsink_startaltphrase, indexsrv/IWordSink::StartAltPhrase
 ms.prod: windows-hardware
 ms.technology: windows-devices

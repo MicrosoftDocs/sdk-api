@@ -7,7 +7,7 @@ old-location: wua\iinstallationbehavior.htm
 old-project: Wua_Sdk
 ms.assetid: 43deb1b7-dfcb-46cc-b12d-0f8bfb18dd74
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IInstallationBehavior, IInstallationBehavior interface [Windows Update Agent], IInstallationBehavior interface [Windows Update Agent],described, wua.iinstallationbehavior, wuapi/IInstallationBehavior
 ms.prod: windows-hardware
 ms.technology: windows-devices

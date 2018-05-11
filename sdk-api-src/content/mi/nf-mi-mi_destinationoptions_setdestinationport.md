@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_setdestinationport.htm
 old-project: wmi_v2
 ms.assetid: 4359eb04-aaf7-490f-ab60-b42182b53611
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_DestinationOptions_SetDestinationPort, MI_DestinationOptions_SetDestinationPort function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetDestinationPort, wmi_v2.mi_destinationoptions_setdestinationport
 ms.prod: windows-hardware
 ms.technology: windows-devices

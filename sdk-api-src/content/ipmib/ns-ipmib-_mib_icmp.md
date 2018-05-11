@@ -7,7 +7,7 @@ old-location: mib\mib_icmp.htm
 old-project: MIB
 ms.assetid: 45ccaacb-f2cd-4be5-94ef-48d4403d5f60
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMIB_ICMP, MIB_ICMP, MIB_ICMP structure [MIB], PMIB_ICMP, PMIB_ICMP structure pointer [MIB], _MIB_ICMP, _mpr_mib_icmp, ipmib/MIB_ICMP, ipmib/PMIB_ICMP, iprtrmib/MIB_ICMP, iprtrmib/PMIB_ICMP, mib.mib_icmp, rras.mib_icmp"
 ms.prod: windows-hardware
 ms.technology: windows-devices

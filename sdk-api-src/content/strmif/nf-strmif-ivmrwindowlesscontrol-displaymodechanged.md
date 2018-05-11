@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol_displaymodechanged.htm
 old-project: DirectShow
 ms.assetid: 83fbca03-0e8c-4386-96ff-f572f0b13312
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: DisplayModeChanged, DisplayModeChanged method [DirectShow], DisplayModeChanged method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],DisplayModeChanged method, IVMRWindowlessControl.DisplayModeChanged, IVMRWindowlessControl::DisplayModeChanged, IVMRWindowlessControlDisplayModeChanged, dshow.ivmrwindowlesscontrol_displaymodechanged, strmif/IVMRWindowlessControl::DisplayModeChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

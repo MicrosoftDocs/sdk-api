@@ -7,7 +7,7 @@ old-location: iphlp\createipnetentry2.htm
 old-project: IpHlp
 ms.assetid: ca92b9f8-ec3c-4889-b649-f606c3920f92
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: CreateIpNetEntry2, CreateIpNetEntry2 function [IP Helper], iphlp.createipnetentry2, netioapi/CreateIpNetEntry2
 ms.prod: windows-hardware
 ms.technology: windows-devices

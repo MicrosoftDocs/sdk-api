@@ -7,7 +7,7 @@ old-location: security\allocateprivateheap.htm
 old-project: SecAuthN
 ms.assetid: 956e7aaf-e8b3-4db5-945a-b579f946b769
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: AllocatePrivateHeap, AllocatePrivateHeap function [Security], LSA_ALLOCATE_PRIVATE_HEAP, ntsecpkg/AllocatePrivateHeap, security.allocateprivateheap
 ms.prod: windows-hardware
 ms.technology: windows-devices

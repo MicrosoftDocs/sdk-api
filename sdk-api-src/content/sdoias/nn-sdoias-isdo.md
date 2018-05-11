@@ -7,7 +7,7 @@ old-location: nps\SDO_isdo.htm
 old-project: Nps
 ms.assetid: f8f49bf2-d8cc-40ad-ac52-05d74bcd931c
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ISdo, ISdo interface [Network Policy Server], ISdo interface [Network Policy Server],described, _sdo_isdo, nps.SDO_isdo, sdo.isdo, sdoias/ISdo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\scriptplace.htm
 old-project: Intl
 ms.assetid: 7f88432f-052f-4781-8346-31c8a0771e51
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: ScriptPlace, ScriptPlace function [Internationalization for Windows Applications], _win32_ScriptPlace, intl.scriptplace, usp10/ScriptPlace
 ms.prod: windows-hardware
 ms.technology: windows-devices

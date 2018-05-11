@@ -7,7 +7,7 @@ old-location: wua\idownloadprogress_currentupdateindex.htm
 old-project: Wua_Sdk
 ms.assetid: e357229d-cfb3-4ed6-b5b4-2e830fbda1ba
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: CurrentUpdateIndex property [Windows Update Agent], CurrentUpdateIndex property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdateIndex property, IDownloadProgress.CurrentUpdateIndex, IDownloadProgress.get_CurrentUpdateIndex, IDownloadProgress::CurrentUpdateIndex, IDownloadProgress::get_CurrentUpdateIndex, get_CurrentUpdateIndex, wua.idownloadprogress_currentupdateindex, wuapi/IDownloadProgress::CurrentUpdateIndex, wuapi/IDownloadProgress::get_CurrentUpdateIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

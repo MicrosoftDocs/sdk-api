@@ -7,7 +7,7 @@ old-location: mstv\ienumcomponents_clone.htm
 old-project: mstv
 ms.assetid: ca15a67e-1788-4f57-bfe8-ec1a3014044f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumComponents interface, IEnumComponents interface [Microsoft TV Technologies],Clone method, IEnumComponents.Clone, IEnumComponents::Clone, IEnumComponentsClone, mstv.ienumcomponents_clone, tuner/IEnumComponents::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

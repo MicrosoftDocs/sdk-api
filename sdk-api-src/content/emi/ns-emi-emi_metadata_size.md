@@ -7,7 +7,7 @@ old-location: powermeter\emi_metadata_size.htm
 old-project: powermeter
 ms.assetid: EC9C71E8-7864-464B-8F16-E9D80460B36B
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: EMI_METADATA_SIZE, EMI_METADATA_SIZE structure [Power Metering and Budgeting Devices], PEMI_METADATA_SIZE, PEMI_METADATA_SIZE structure pointer [Power Metering and Budgeting Devices], emi/EMI_METADATA_SIZE, emi/PEMI_METADATA_SIZE, powermeter.emi_metadata_size
 ms.prod: windows-hardware
 ms.technology: windows-devices

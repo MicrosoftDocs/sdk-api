@@ -7,7 +7,7 @@ old-location: mf\asf_index_descriptor.htm
 old-project: medfound
 ms.assetid: 2a540aef-068d-4465-b0ed-64aed828af01
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 2a540aef-068d-4465-b0ed-64aed828af01, ASF_INDEX_DESCRIPTOR, ASF_INDEX_DESCRIPTOR structure [Media Foundation], _ASF_INDEX_DESCRIPTOR, mf.asf_index_descriptor, wmcontainer/ASF_INDEX_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

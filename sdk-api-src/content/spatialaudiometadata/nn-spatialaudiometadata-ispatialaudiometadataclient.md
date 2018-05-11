@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataclient.htm
 old-project: CoreAudio
 ms.assetid: 42EDD4D2-3DAA-4F8F-A71C-7EDFEBBCB3FB
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: ISpatialAudioMetadataClient, ISpatialAudioMetadataClient interface [Core Audio], ISpatialAudioMetadataClient interface [Core Audio],described, coreaudio.ispatialaudiometadataclient, spatialaudiometadata/ISpatialAudioMetadataClient
 ms.prod: windows-hardware
 ms.technology: windows-devices

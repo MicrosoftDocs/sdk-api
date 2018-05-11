@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy.htm
 old-project: SecCrypto
 ms.assetid: 7d16161e-9827-46a0-9989-30ebca792bb1
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: ICertServerPolicy, ICertServerPolicy interface [Security], ICertServerPolicy interface [Security],described, _certsrv_icertserverpolicy, certif/ICertServerPolicy, security.icertserverpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: setup\imsmmerge2_createsourceimage.htm
 old-project: Msi
 ms.assetid: c42fa644-f0e6-4261-af76-741df572df3a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: CreateSourceImage, CreateSourceImage method, CreateSourceImage method,IMsmMerge2 interface, IMsmMerge2 interface,CreateSourceImage method, IMsmMerge2.CreateSourceImage, IMsmMerge2::CreateSourceImage, _msi_createsourceimage_function, mergemod/IMsmMerge2::CreateSourceImage, setup.imsmmerge2_createsourceimage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwiccolorcontext_gettype.htm
 old-project: wic
 ms.assetid: 34b23e94-bf6a-4440-825f-3997658e0095
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: GetType, GetType method [Windows Imaging Component], GetType method [Windows Imaging Component],IWICColorContext interface, IWICColorContext interface [Windows Imaging Component],GetType method, IWICColorContext.GetType, IWICColorContext::GetType, _wic_codec_iwiccolorcontext_gettype, wic._wic_codec_iwiccolorcontext_gettype, wincodec/IWICColorContext::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

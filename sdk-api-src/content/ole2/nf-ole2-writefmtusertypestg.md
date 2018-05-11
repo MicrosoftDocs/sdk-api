@@ -7,7 +7,7 @@ old-location: stg\writefmtusertypestg.htm
 old-project: Stg
 ms.assetid: ef60493c-164e-4633-a248-05c4afade937
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: WriteFmtUserTypeStg, WriteFmtUserTypeStg function [Structured Storage], _stg_writefmtusertypestg, ole2/WriteFmtUserTypeStg, stg.writefmtusertypestg
 ms.prod: windows-hardware
 ms.technology: windows-devices

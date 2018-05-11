@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_setusemachineid.htm
 old-project: wmi_v2
 ms.assetid: 115fd37f-72e8-4a24-9362-5165b68ce257
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_OperationOptions_SetUseMachineID, MI_OperationOptions_SetUseMachineID function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetUseMachineID, wmi_v2.mi_operationoptions_setusemachineid
 ms.prod: windows-hardware
 ms.technology: windows-devices

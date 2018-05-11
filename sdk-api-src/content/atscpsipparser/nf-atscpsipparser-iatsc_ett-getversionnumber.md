@@ -7,7 +7,7 @@ old-location: mstv\iatsc_ett_getversionnumber.htm
 old-project: mstv
 ms.assetid: bd9eefda-51ff-472c-b363-2f3c21ae2fec
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IATSC_ETT interface, IATSC_ETT interface [Microsoft TV Technologies],GetVersionNumber method, IATSC_ETT.GetVersionNumber, IATSC_ETT::GetVersionNumber, IATSC_ETTGetVersionNumber, atscpsipparser/IATSC_ETT::GetVersionNumber, mstv.iatsc_ett_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

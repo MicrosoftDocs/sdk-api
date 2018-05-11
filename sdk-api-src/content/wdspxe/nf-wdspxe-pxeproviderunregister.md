@@ -7,7 +7,7 @@ old-location: wds\pxeproviderunregister.htm
 old-project: Wds
 ms.assetid: b468d865-c680-4f72-a10c-3d91542df8d3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: PxeProviderUnRegister, PxeProviderUnRegister function [Windows Deployment Services], wds.pxeproviderunregister, wdspxe/PxeProviderUnRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices

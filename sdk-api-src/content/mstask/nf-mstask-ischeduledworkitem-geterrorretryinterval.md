@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_geterrorretryinterval.htm
 old-project: TaskSchd
 ms.assetid: e3ace124-cb02-4d4f-9d6c-18d0d99d64bf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetErrorRetryInterval, GetErrorRetryInterval method [Task Scheduler], GetErrorRetryInterval method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetErrorRetryInterval method, IScheduledWorkItem.GetErrorRetryInterval, IScheduledWorkItem::GetErrorRetryInterval, _msb_ischeduledworkitem_geterrorretryinterval, mstask/IScheduledWorkItem::GetErrorRetryInterval, taskschd.ischeduledworkitem_geterrorretryinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices

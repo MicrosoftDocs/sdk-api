@@ -7,7 +7,7 @@ old-location: taskschd\itaskfoldercollection_count.htm
 old-project: TaskSchd
 ms.assetid: 073a812d-209b-4e36-b94b-c24567377a84
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITaskFolderCollection interface, ITaskFolderCollection interface [Task Scheduler],Count property, ITaskFolderCollection.Count, ITaskFolderCollection.get_Count, ITaskFolderCollection::Count, ITaskFolderCollection::get_Count, get_Count, taskschd.itaskfoldercollection_count, taskschd/ITaskFolderCollection::Count, taskschd/ITaskFolderCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

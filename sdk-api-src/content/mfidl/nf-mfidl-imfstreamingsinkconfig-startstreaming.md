@@ -7,7 +7,7 @@ old-location: mf\imfstreamingsinkconfig_startstreaming.htm
 old-project: medfound
 ms.assetid: 22a75b19-9949-48fe-8844-511b11fbf20b
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: FALSE, IMFStreamingSinkConfig interface [Media Foundation],StartStreaming method, IMFStreamingSinkConfig.StartStreaming, IMFStreamingSinkConfig::StartStreaming, StartStreaming, StartStreaming method [Media Foundation], StartStreaming method [Media Foundation],IMFStreamingSinkConfig interface, TRUE, mf.imfstreamingsinkconfig_startstreaming, mfidl/IMFStreamingSinkConfig::StartStreaming
 ms.prod: windows-hardware
 ms.technology: windows-devices

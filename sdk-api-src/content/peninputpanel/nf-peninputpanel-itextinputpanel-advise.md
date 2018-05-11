@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_advise.htm
 old-project: tablet
 ms.assetid: 4ea32572-84e6-4230-a634-fc83cb86601f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: 4ea32572-84e6-4230-a634-fc83cb86601f, Advise, Advise method [Tablet PC], Advise method [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],Advise method, ITextInputPanel.Advise, ITextInputPanel::Advise, peninputpanel/ITextInputPanel::Advise, tablet.itextinputpanel_advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

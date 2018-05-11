@@ -7,7 +7,7 @@ old-location: indexsrv\iphrasesink_putphrase.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_8n8l.htm
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/9/2018
 ms.keywords: IPhraseSink interface [Indexing Service],PutPhrase method, IPhraseSink.PutPhrase, IPhraseSink::PutPhrase, PutPhrase, PutPhrase method [Indexing Service], PutPhrase method [Indexing Service],IPhraseSink interface, _idxs_PhraseSink_PutPhrase, indexsrv.iphrasesink_putphrase, indexsrv/IPhraseSink::PutPhrase
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wds\pfn_wdstransportclientreceivemetadata.htm
 old-project: Wds
 ms.assetid: 9acde77b-5360-4c55-b11d-bf85e5c8d00e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: PFN_WdsTransportClientReceiveMetadata, PFN_WdsTransportClientReceiveMetadata callback, PFN_WdsTransportClientReceiveMetadata callback function [Windows Deployment Services], wds.pfn_wdstransportclientreceivemetadata, wdstci/PFN_WdsTransportClientReceiveMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

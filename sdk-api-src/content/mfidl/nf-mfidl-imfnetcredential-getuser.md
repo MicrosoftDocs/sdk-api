@@ -7,7 +7,7 @@ old-location: mf\imfnetcredential_getuser.htm
 old-project: medfound
 ms.assetid: 11e10b9f-fd98-44f2-a829-d9ed3a5be189
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 11e10b9f-fd98-44f2-a829-d9ed3a5be189, GetUser, GetUser method [Media Foundation], GetUser method [Media Foundation],IMFNetCredential interface, IMFNetCredential interface [Media Foundation],GetUser method, IMFNetCredential.GetUser, IMFNetCredential::GetUser, mf.imfnetcredential_getuser, mfidl/IMFNetCredential::GetUser
 ms.prod: windows-hardware
 ms.technology: windows-devices

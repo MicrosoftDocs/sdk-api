@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_getrange_contrast.htm
 old-project: DirectShow
 ms.assetid: 3eb160f4-c3e6-4c74-a091-72c55416a81e
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Contrast method, IVideoProcAmp.getRange_Contrast, IVideoProcAmp::getRange_Contrast, IVideoProcAmpgetRange_Contrast, dshow.ivideoprocamp_getrange_contrast, getRange_Contrast, getRange_Contrast method [DirectShow], getRange_Contrast method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Contrast
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\fwpm_net_event_ipsec_kernel_drop0.htm
 old-project: FWP
 ms.assetid: ef970199-3603-4012-9033-afa4a7301fea
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_NET_EVENT_IPSEC_KERNEL_DROP0, FWPM_NET_EVENT_IPSEC_KERNEL_DROP0 structure [Filtering], FWPM_NET_EVENT_IPSEC_KERNEL_DROP0_, fwp.fwpm_net_event_ipsec_kernel_drop0, fwpmtypes/FWPM_NET_EVENT_IPSEC_KERNEL_DROP0
 ms.prod: windows-hardware
 ms.technology: windows-devices

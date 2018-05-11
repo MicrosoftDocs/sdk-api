@@ -7,7 +7,7 @@ old-location: p2p\peer_connection_flags.htm
 old-project: P2PSdk
 ms.assetid: 24723421-18e4-4333-8c25-f5ee08182f7f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PEER_CONNECTION_DIRECT, PEER_CONNECTION_FLAGS, PEER_CONNECTION_FLAGS enumeration [Peer Networking], PEER_CONNECTION_NEIGHBOR, p2p.peer_connection_flags, p2p/ PEER_CONNECTION_FLAGS, p2p/PEER_CONNECTION_DIRECT, p2p/PEER_CONNECTION_NEIGHBOR, peer_connection_flags_tag
 ms.prod: windows-hardware
 ms.technology: windows-devices

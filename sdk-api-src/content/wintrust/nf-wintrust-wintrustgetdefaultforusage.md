@@ -7,7 +7,7 @@ old-location: security\wintrustgetdefaultforusage.htm
 old-project: SecCrypto
 ms.assetid: B2ED5489-792F-4B00-A21E-EE1B1462D1C8
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: DWACTION_ALLOCANDFILL, DWACTION_FREE, WintrustGetDefaultForUsage, WintrustGetDefaultForUsage function [Security], security.wintrustgetdefaultforusage, wintrust/WintrustGetDefaultForUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\idxvahd_device_createvideoprocessor.htm
 old-project: medfound
 ms.assetid: 903e2c05-e4d4-42ca-a28d-6d4738ae6cfc
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: CreateVideoProcessor, CreateVideoProcessor method [Media Foundation], CreateVideoProcessor method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],CreateVideoProcessor method, IDXVAHD_Device.CreateVideoProcessor, IDXVAHD_Device::CreateVideoProcessor, dxvahd/IDXVAHD_Device::CreateVideoProcessor, mf.idxvahd_device_createvideoprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mib\mib_ipnet_table2.htm
 old-project: MIB
 ms.assetid: 39b87d81-69ce-4f9b-8af6-5e0c5051657c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMIB_IPNET_TABLE2, MIB_IPNET_TABLE2, MIB_IPNET_TABLE2 structure [MIB], PMIB_IPNET_TABLE2, PMIB_IPNET_TABLE2 structure pointer [MIB], _MIB_IPNET_TABLE2, mib.mib_ipnet_table2, netioapi/MIB_IPNET_TABLE2, netioapi/PMIB_IPNET_TABLE2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

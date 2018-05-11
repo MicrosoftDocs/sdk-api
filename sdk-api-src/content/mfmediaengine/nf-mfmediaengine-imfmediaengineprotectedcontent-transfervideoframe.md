@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineprotectedcontent_transfervideoframe.htm
 old-project: medfound
 ms.assetid: 3A5C6908-65F4-4E7A-AD71-BBD1C2A4ACE3
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],TransferVideoFrame method, IMFMediaEngineProtectedContent.TransferVideoFrame, IMFMediaEngineProtectedContent::TransferVideoFrame, TransferVideoFrame, TransferVideoFrame method [Media Foundation], TransferVideoFrame method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_transfervideoframe, mfmediaengine/IMFMediaEngineProtectedContent::TransferVideoFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

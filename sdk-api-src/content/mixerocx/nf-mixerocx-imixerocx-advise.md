@@ -7,7 +7,7 @@ old-location: dshow\imixerocx_advise.htm
 old-project: DirectShow
 ms.assetid: 6708fc46-19cb-4843-9c9d-99ff67ee6d08
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: Advise, Advise method [DirectShow], Advise method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],Advise method, IMixerOCX.Advise, IMixerOCX::Advise, IMixerOCXAdvise, dshow.imixerocx_advise, mixerocx/IMixerOCX::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\ievrvideostreamcontrol_setstreamactivestate.htm
 old-project: medfound
 ms.assetid: 85f711f1-1536-4ab0-90b7-79e22c210198
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 85f711f1-1536-4ab0-90b7-79e22c210198, IEVRVideoStreamControl interface [Media Foundation],SetStreamActiveState method, IEVRVideoStreamControl.SetStreamActiveState, IEVRVideoStreamControl::SetStreamActiveState, SetStreamActiveState, SetStreamActiveState method [Media Foundation], SetStreamActiveState method [Media Foundation],IEVRVideoStreamControl interface, evr9/IEVRVideoStreamControl::SetStreamActiveState, mf.ievrvideostreamcontrol_setstreamactivestate
 ms.prod: windows-hardware
 ms.technology: windows-devices

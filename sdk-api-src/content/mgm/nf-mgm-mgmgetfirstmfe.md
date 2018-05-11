@@ -7,7 +7,7 @@ old-location: rras\mgmgetfirstmfe.htm
 old-project: RRAS
 ms.assetid: b270efc9-479c-4f70-a29d-1fee269c4f30
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MgmGetFirstMfe, MgmGetFirstMfe function [RAS], _mpr_mgmgetfirstmfe, mgm/MgmGetFirstMfe, rras.mgmgetfirstmfe
 ms.prod: windows-hardware
 ms.technology: windows-devices

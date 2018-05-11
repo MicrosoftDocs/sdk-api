@@ -7,7 +7,7 @@ old-location: security\crypt_enum_keyid_prop.htm
 old-project: SecCrypto
 ms.assetid: c4461b79-d216-4d4a-bd5d-9260ec897c14
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CRYPT_ENUM_KEYID_PROP, CRYPT_ENUM_KEYID_PROP callback function [Security], PFN_CRYPT_ENUM_KEYID_PROP, PFN_CRYPT_ENUM_KEYID_PROP callback, security.crypt_enum_keyid_prop, wincrypt/CRYPT_ENUM_KEYID_PROP
 ms.prod: windows-hardware
 ms.technology: windows-devices

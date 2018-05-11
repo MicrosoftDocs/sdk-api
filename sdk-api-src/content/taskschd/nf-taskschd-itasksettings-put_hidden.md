@@ -7,7 +7,7 @@ old-location: taskschd\itasksettings_hidden.htm
 old-project: TaskSchd
 ms.assetid: 05d466e4-26f8-4fde-8c7e-9e16daadc220
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: Hidden property [Task Scheduler], Hidden property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],Hidden property, ITaskSettings.Hidden, ITaskSettings.put_Hidden, ITaskSettings::Hidden, ITaskSettings::get_Hidden, ITaskSettings::put_Hidden, put_Hidden, taskschd.itasksettings_hidden, taskschd/ITaskSettings::Hidden, taskschd/ITaskSettings::get_Hidden, taskschd/ITaskSettings::put_Hidden
 ms.prod: windows-hardware
 ms.technology: windows-devices

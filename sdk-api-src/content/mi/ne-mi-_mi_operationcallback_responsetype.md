@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationcallback_responsetype.htm
 old-project: wmi_v2
 ms.assetid: 07e1d42b-b9e4-4199-88b1-71864de37282
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_OperationCallback_ResponseType, MI_OperationCallback_ResponseType enumeration [Windows Management Infrastructure (MI)], MI_OperationCallback_ResponseType_No, MI_OperationCallback_ResponseType_NoToAll, MI_OperationCallback_ResponseType_Yes, MI_OperationCallback_ResponseType_YesToAll, _MI_OperationCallback_ResponseType, mi/MI_OperationCallback_ResponseType, mi/MI_OperationCallback_ResponseType_No, mi/MI_OperationCallback_ResponseType_NoToAll, mi/MI_OperationCallback_ResponseType_Yes, mi/MI_OperationCallback_ResponseType_YesToAll, wmi._mi_operationcallback_responsetype, wmi_v2.mi_operationcallback_responsetype
 ms.prod: windows-hardware
 ms.technology: windows-devices

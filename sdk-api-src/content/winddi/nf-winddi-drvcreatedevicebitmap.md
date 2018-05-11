@@ -7,7 +7,7 @@ old-location: display\drvcreatedevicebitmap.htm
 old-project: display
 ms.assetid: 1f5f49ef-bf08-4311-9a1b-fdc37e6c2063
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: DrvCreateDeviceBitmap, DrvCreateDeviceBitmap function [Display Devices], ddifncs_b3a739da-4a9d-4e84-a4e8-8b1e790a06af.xml, display.drvcreatedevicebitmap, winddi/DrvCreateDeviceBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

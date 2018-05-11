@@ -7,7 +7,7 @@ old-location: security\kerb_purge_binding_cache_request.htm
 old-project: SecAuthN
 ms.assetid: E78F90D6-8425-480C-B997-35CC4E5612E7
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PKERB_PURGE_BINDING_CACHE_REQUEST, KERB_PURGE_BINDING_CACHE_REQUEST, KERB_PURGE_BINDING_CACHE_REQUEST structure [Security], PKERB_PURGE_BINDING_CACHE_REQUEST, PKERB_PURGE_BINDING_CACHE_REQUEST structure pointer [Security], _KERB_PURGE_BINDING_CACHE_REQUEST, ntsecapi/KERB_PURGE_BINDING_CACHE_REQUEST, ntsecapi/PKERB_PURGE_BINDING_CACHE_REQUEST, security.kerb_purge_binding_cache_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices

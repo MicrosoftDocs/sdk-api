@@ -7,7 +7,7 @@ old-location: display\drvdestroyfont.htm
 old-project: display
 ms.assetid: aee3efbc-715d-42f2-a718-00057720175a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: DrvDestroyFont, DrvDestroyFont function [Display Devices], ddifncs_a73e0b14-897a-423d-a9db-8c4ba831a36b.xml, display.drvdestroyfont, winddi/DrvDestroyFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

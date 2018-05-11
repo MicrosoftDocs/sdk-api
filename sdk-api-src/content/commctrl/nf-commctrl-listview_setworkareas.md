@@ -7,7 +7,7 @@ old-location: controls\ListView_SetWorkAreas.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setworkareas.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: ListView_SetWorkAreas, ListView_SetWorkAreas macro [Windows Controls], _win32_ListView_SetWorkAreas, _win32_ListView_SetWorkAreas_cpp, commctrl/ListView_SetWorkAreas, controls.ListView_SetWorkAreas, controls._win32_ListView_SetWorkAreas
 ms.prod: windows-hardware
 ms.technology: windows-devices

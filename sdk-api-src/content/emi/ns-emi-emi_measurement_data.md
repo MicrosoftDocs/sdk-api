@@ -7,8 +7,8 @@ old-location: powermeter\emi_measurement_data.htm
 old-project: powermeter
 ms.assetid: 5D8E8146-D6B4-427B-9B17-0FB4FB0372A8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: EMI_MEASUREMENT_DATA, EMI_MEASUREMENT_DATA structure [Power Metering and Budgeting Devices], EMI_METADATA, EMI_METADATA structure [Power Metering and Budgeting Devices], PEMI_METADATA, PEMI_METADATA structure pointer [Power Metering and Budgeting Devices], emi/EMI_MEASUREMENT_DATA, emi/PEMI_METADATA, powermeter.emi_measurement_data
+ms.date: 5/8/2018
+ms.keywords: EMI_MEASUREMENT_DATA, EMI_MEASUREMENT_DATA structure [Power Metering and Budgeting Devices], PEMI_MEASUREMENT_DATA, PEMI_MEASUREMENT_DATA structure pointer [Power Metering and Budgeting Devices], emi/EMI_MEASUREMENT_DATA, emi/PEMI_MEASUREMENT_DATA, powermeter.emi_measurement_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	emi.h
 api_name:
--	EMI_METADATA
+-	EMI_MEASUREMENT_DATA
 product: Windows
 targetos: Windows
 req.lib: 

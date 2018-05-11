@@ -7,7 +7,7 @@ old-location: security\createtoken.htm
 old-project: SecAuthN
 ms.assetid: 2355cf1d-9f95-40be-aed4-8c2796137960
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: CreateToken, CreateToken function [Security], LSA_CREATE_TOKEN, LsaTokenInformationNull, LsaTokenInformationV1, _ssp_createtoken, ntsecpkg/CreateToken, security.createtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ibda_digitaldemodulator_put_outerfecmethod.htm
 old-project: mstv
 ms.assetid: 8ec9c75b-5f71-4a07-8234-8f38b96b962d
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_OuterFECMethod method, IBDA_DigitalDemodulator.put_OuterFECMethod, IBDA_DigitalDemodulator::put_OuterFECMethod, IBDA_DigitalDemodulatorput_OuterFECMethod, bdaiface/IBDA_DigitalDemodulator::put_OuterFECMethod, mstv.ibda_digitaldemodulator_put_outerfecmethod, put_OuterFECMethod, put_OuterFECMethod method [Microsoft TV Technologies], put_OuterFECMethod method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

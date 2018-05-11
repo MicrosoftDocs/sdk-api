@@ -7,7 +7,7 @@ old-location: controls\itextrange2_settext2.htm
 old-project: Controls
 ms.assetid: dd7a8a16-6cb5-40ee-8f5f-e51e68785d93
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetText2 method, ITextRange2.SetText2, ITextRange2::SetText2, SetText2, SetText2 method [Windows Controls], SetText2 method [Windows Controls],ITextRange2 interface, controls.itextrange2_settext2, tom/ITextRange2::SetText2, tomCheckTextLimit, tomLanguageTag, tomMathCFCheck, tomUnhide, tomUnicodeBiDi, tomUnlink
 ms.prod: windows-hardware
 ms.technology: windows-devices

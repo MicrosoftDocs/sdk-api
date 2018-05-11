@@ -7,7 +7,7 @@ old-location: intl\sysgeoclass.htm
 old-project: Intl
 ms.assetid: 27c2dec7-b5e7-47b7-8ce2-8dba3d0916bf
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: GEOCLASS_ALL, GEOCLASS_NATION, GEOCLASS_REGION, SYSGEOCLASS, SYSGEOCLASS enumeration [Internationalization for Windows Applications], _win32_SYSGEOCLASS, intl.sysgeoclass, winnls/GEOCLASS_ALL, winnls/GEOCLASS_NATION, winnls/GEOCLASS_REGION, winnls/SYSGEOCLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices

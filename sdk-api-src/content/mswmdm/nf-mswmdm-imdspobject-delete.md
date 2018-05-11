@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject_delete.htm
 old-project: WMDM
 ms.assetid: debaaa15-dbc5-44dd-8ad9-f7f900146231
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: Delete, Delete method [windows Media Device Manager], Delete method [windows Media Device Manager],IMDSPObject interface, IMDSPObject interface [windows Media Device Manager],Delete method, IMDSPObject.Delete, IMDSPObject::Delete, IMDSPObjectDelete, mswmdm/IMDSPObject::Delete, wmdm.imdspobject_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

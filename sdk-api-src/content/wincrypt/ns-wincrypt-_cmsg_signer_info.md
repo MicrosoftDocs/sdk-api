@@ -2,13 +2,13 @@
 UID: NS:wincrypt._CMSG_SIGNER_INFO
 title: "_CMSG_SIGNER_INFO"
 author: windows-driver-content
-description: Contains the content of the defined SignerInfo in signed or signed and enveloped messages.
-old-location: security\cmsg_cms_signer_info.htm
+description: The CMSG_SIGNER_INFO structure contains the content of the PKCS #7 defined SignerInfo in signed messages. In decoding a received message, CryptMsgGetParam is called for each signer to get a CMSG_SIGNER_INFO structure.
+old-location: security\cmsg_signer_info.htm
 old-project: SecCrypto
-ms.assetid: 177323ef-4e26-4681-a474-1a99fb6900af
+ms.assetid: eae631d2-5e5f-4964-b079-9692831b34fc
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
-ms.keywords: "*PCMSG_SIGNER_INFO, CMSG_CMS_SIGNER_INFO, CMSG_CMS_SIGNER_INFO structure [Security], CMSG_SIGNER_INFO, CMSG_SIGNER_INFO structure [Security], PCMSG_SIGNER_INFO, PCMSG_SIGNER_INFO structure pointer [Security], _CMSG_SIGNER_INFO, _crypto2_cmsg_cms_signer_info, security.cmsg_cms_signer_info, wincrypt/CMSG_CMS_SIGNER_INFO, wincrypt/PCMSG_SIGNER_INFO"
+ms.date: 5/9/2018
+ms.keywords: "*PCMSG_SIGNER_INFO, CMSG_SIGNER_INFO, CMSG_SIGNER_INFO structure [Security], PCMSG_SIGNER_INFO, PCMSG_SIGNER_INFO structure pointer [Security], _CMSG_SIGNER_INFO, _crypto2_cmsg_signer_info, security.cmsg_signer_info, wincrypt/CMSG_SIGNER_INFO, wincrypt/PCMSG_SIGNER_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,8 +50,8 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>CMSG_CMS_SIGNER_INFO</b> structure contains the content of the defined SignerInfo in signed or signed and enveloped messages. In decoding a received message, 
-<a href="https://msdn.microsoft.com/5a05eb09-208f-4e94-abfa-c2f14c0a3164">CryptMsgGetParam</a> is called for each signer to get a <b>CMSG_CMS_SIGNER_INFO</b> structure.
+The <b>CMSG_SIGNER_INFO</b> structure contains the content of the PKCS #7 defined SignerInfo in signed messages. In decoding a received message, 
+<a href="https://msdn.microsoft.com/5a05eb09-208f-4e94-abfa-c2f14c0a3164">CryptMsgGetParam</a> is called for each signer to get a <b>CMSG_SIGNER_INFO</b> structure.
 
 
 ## -struct-fields
@@ -66,43 +66,45 @@ The version of this structure.
 
 ### -field Issuer
 
- 
+
+						A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CERT_NAME_BLOB</a> structure that contains the issuer of a certificate with the public key needed to verify a signature.
 
 
 ### -field SerialNumber
 
- 
+
+						A <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_INTEGER_BLOB</a> structure that contains the serial number of the certificate that contains the public key needed to verify a signature. For more information, see 
+<a href="https://msdn.microsoft.com/8d0a3053-52d4-437a-bf55-6724b5825cdc">CERT_INFO</a>.
 
 
 ### -field HashAlgorithm
 
-A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm used in generating the hash of a message.
+
+<a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure specifying the algorithm used in generating the hash of a message.
 
 
 ### -field HashEncryptionAlgorithm
 
-A <a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm used to encrypt the hash.
+
+<a href="https://msdn.microsoft.com/ef0d3aa6-6b36-426f-a14c-2fdf7543deb9">CRYPT_ALGORITHM_IDENTIFIER</a> structure specifying the algorithm used to encrypt the hash.
 
 
 ### -field EncryptedHash
 
 A
-						<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure that contains the encrypted hash of the message, the signature.
+						<a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> that contains the encrypted hash of the message, the signature.
 
 
 ### -field AuthAttrs
 
-A <a href="https://msdn.microsoft.com/782f3022-d852-4ad7-8e0f-afbccc25928a">CRYPT_ATTRIBUTES</a> structure that contains authenticated attributes of the signer.
+
+<a href="https://msdn.microsoft.com/782f3022-d852-4ad7-8e0f-afbccc25928a">CRYPT_ATTRIBUTES</a> structure containing authenticated attributes of the signer.
 
 
 ### -field UnauthAttrs
 
-A <a href="https://msdn.microsoft.com/782f3022-d852-4ad7-8e0f-afbccc25928a">CRYPT_ATTRIBUTES</a> structure that contains unauthenticated attributes of the signer.
 
-
-#### - SignerId
-
-A <a href="https://msdn.microsoft.com/9e33f661-c365-4725-8c3f-27b6cdd9a84e">CERT_ID</a> structure that identifies the signer's certificate.
+<a href="https://msdn.microsoft.com/782f3022-d852-4ad7-8e0f-afbccc25928a">CRYPT_ATTRIBUTES</a> structure containing unauthenticated attributes of the signer.
 
 
 ## -see-also

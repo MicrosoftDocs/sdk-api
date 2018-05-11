@@ -7,7 +7,7 @@ old-location: winsync\ichangeconflict_getsourceproviderconflictingdata.htm
 old-project: winsync
 ms.assetid: 4227b559-59e9-4b87-beb0-2d47f3d81414
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetSourceProviderConflictingData, GetSourceProviderConflictingData method [Windows Sync], GetSourceProviderConflictingData method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetSourceProviderConflictingData method, IChangeConflict.GetSourceProviderConflictingData, IChangeConflict::GetSourceProviderConflictingData, winsync.ichangeconflict_getsourceproviderconflictingdata, winsync/IChangeConflict::GetSourceProviderConflictingData
 ms.prod: windows-hardware
 ms.technology: windows-devices

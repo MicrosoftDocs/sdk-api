@@ -7,7 +7,7 @@ old-location: wua\isearchjob.htm
 old-project: Wua_Sdk
 ms.assetid: aec4a812-cf5d-4986-a776-29c366bb1771
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: ISearchJob, ISearchJob interface [Windows Update Agent], ISearchJob interface [Windows Update Agent],described, wua.isearchjob, wuapi/ISearchJob
 ms.prod: windows-hardware
 ms.technology: windows-devices

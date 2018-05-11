@@ -7,7 +7,7 @@ old-location: wua\iupdateservicemanager2_queryserviceregistration_methods.htm
 old-project: Wua_Sdk
 ms.assetid: d8fd077f-f4a9-4db0-8a47-14241bc574fb
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IUpdateServiceManager2 interface [Windows Update Agent],QueryServiceRegistration method, IUpdateServiceManager2.QueryServiceRegistration, IUpdateServiceManager2::QueryServiceRegistration, QueryServiceRegistration, QueryServiceRegistration method [Windows Update Agent], QueryServiceRegistration method [Windows Update Agent],IUpdateServiceManager2 interface, wua.iupdateservicemanager2_queryserviceregistration_methods, wuapi/IUpdateServiceManager2::QueryServiceRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices

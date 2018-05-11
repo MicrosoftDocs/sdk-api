@@ -7,7 +7,7 @@ old-location: security\spinitusermodecontext.htm
 old-project: SecAuthN
 ms.assetid: e67a7ad3-b3d2-4c1a-a514-f51ccfaf990e
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SpInitUserModeContext, SpInitUserModeContext function [Security], SpInitUserModeContextFn, _ssp_spinitusermodecontext, ntsecpkg/SpInitUserModeContext, security.spinitusermodecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

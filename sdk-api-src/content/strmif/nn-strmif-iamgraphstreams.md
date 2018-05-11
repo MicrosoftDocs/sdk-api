@@ -7,7 +7,7 @@ old-location: dshow\iamgraphstreams.htm
 old-project: DirectShow
 ms.assetid: 30d44536-2a2d-44ab-bafc-bdb851cd272b
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMGraphStreams, IAMGraphStreams interface [DirectShow], IAMGraphStreams interface [DirectShow],described, IAMGraphStreamsInterface, dshow.iamgraphstreams, strmif/IAMGraphStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

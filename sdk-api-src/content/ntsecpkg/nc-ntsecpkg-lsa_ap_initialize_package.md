@@ -7,7 +7,7 @@ old-location: security\lsaapinitializepackage.htm
 old-project: SecAuthN
 ms.assetid: 1fed5a5e-5dc1-4b59-aa28-bd1395a27742
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: LSA_AP_INITIALIZE_PACKAGE, LsaApInitializePackage, LsaApInitializePackage function [Security], _lsa_lsaapinitializepackage, ntsecpkg/LsaApInitializePackage, security.lsaapinitializepackage
 ms.prod: windows-hardware
 ms.technology: windows-devices

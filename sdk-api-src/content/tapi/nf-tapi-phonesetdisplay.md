@@ -7,7 +7,7 @@ old-location: tapi2\phonesetdisplay.htm
 old-project: Tapi
 ms.assetid: 154efb07-7c4e-47f0-8a14-e2fe404efcb7
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_phonesetdisplay, phoneSetDisplay, phoneSetDisplay function [TAPI 2.2], tapi/phoneSetDisplay, tapi2.phonesetdisplay"
 ms.prod: windows-hardware
 ms.technology: windows-devices

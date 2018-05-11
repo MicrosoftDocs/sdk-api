@@ -7,7 +7,7 @@ old-location: winsync\ienumclockvector_skip.htm
 old-project: winsync
 ms.assetid: 76f76535-7f1f-431b-9b35-7bbb0d645dcd
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumClockVector interface [Windows Sync],Skip method, IEnumClockVector.Skip, IEnumClockVector::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumClockVector interface, winsync.ienumclockvector_skip, winsync/IEnumClockVector::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: nps\SDO_radiusservergroupproperties.htm
 old-project: Nps
 ms.assetid: b78aacfb-2e79-4c25-bc0c-acecb1a12993
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION, RADIUSSERVERGROUPPROPERTIES, RADIUSSERVERGROUPPROPERTIES enumeration [Network Policy Server], _RADIUSSERVERGROUPPROPERTIES, _sdo_radiusservergroupproperties, nps.SDO_radiusservergroupproperties, sdo.radiusservergroupproperties, sdoias/PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION, sdoias/RADIUSSERVERGROUPPROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ifilterchain.htm
 old-project: DirectShow
 ms.assetid: 04fa1e89-19cd-488e-9df2-8a5fd2c3f445
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IFilterChain, IFilterChain interface [DirectShow], IFilterChain interface [DirectShow],described, IFilterChainInterface, dshow.ifilterchain, strmif/IFilterChain
 ms.prod: windows-hardware
 ms.technology: windows-devices

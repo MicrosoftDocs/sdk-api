@@ -7,7 +7,7 @@ old-location: search\_search_SEARCH_ITEM_PERSISTENT_CHANGE.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_persistent_change.htm
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/8/2018
 ms.keywords: SEARCH_ITEM_PERSISTENT_CHANGE, SEARCH_ITEM_PERSISTENT_CHANGE structure [search], _SEARCH_ITEM_PERSISTENT_CHANGE, _search_SEARCH_ITEM_PERSISTENT_CHANGE, search._search_SEARCH_ITEM_PERSISTENT_CHANGE, searchapi/SEARCH_ITEM_PERSISTENT_CHANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices

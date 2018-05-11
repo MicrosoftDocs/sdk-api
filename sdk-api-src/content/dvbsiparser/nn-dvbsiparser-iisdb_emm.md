@@ -7,7 +7,7 @@ old-location: mstv\iisdb_emm.htm
 old-project: mstv
 ms.assetid: a1389e7c-a3f1-4782-b811-5e09615b3e47
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IISDB_EMM, IISDB_EMM interface [Microsoft TV Technologies], IISDB_EMM interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_EMM, mstv.iisdb_emm
 ms.prod: windows-hardware
 ms.technology: windows-devices

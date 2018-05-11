@@ -7,7 +7,7 @@ old-location: display\displayconfig_topology_id.htm
 old-project: display
 ms.assetid: 0018f137-7cdf-47b7-9ede-8685f9b073fb
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: CCD_Enumerations_a5eed051-186c-4a2e-8a8b-fd189d867fbd.xml, DISPLAYCONFIG_TOPOLOGY_CLONE, DISPLAYCONFIG_TOPOLOGY_EXTEND, DISPLAYCONFIG_TOPOLOGY_EXTERNAL, DISPLAYCONFIG_TOPOLOGY_FORCE_UINT32, DISPLAYCONFIG_TOPOLOGY_ID, DISPLAYCONFIG_TOPOLOGY_ID enumeration [Display Devices], DISPLAYCONFIG_TOPOLOGY_INTERNAL, display.displayconfig_topology_id, wingdi/DISPLAYCONFIG_TOPOLOGY_CLONE, wingdi/DISPLAYCONFIG_TOPOLOGY_EXTEND, wingdi/DISPLAYCONFIG_TOPOLOGY_EXTERNAL, wingdi/DISPLAYCONFIG_TOPOLOGY_FORCE_UINT32, wingdi/DISPLAYCONFIG_TOPOLOGY_ID, wingdi/DISPLAYCONFIG_TOPOLOGY_INTERNAL
 ms.prod: windows-hardware
 ms.technology: windows-devices

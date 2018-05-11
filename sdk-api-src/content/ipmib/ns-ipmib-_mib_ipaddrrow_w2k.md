@@ -7,7 +7,7 @@ old-location: mib\mib_ipaddrrow.htm
 old-project: MIB
 ms.assetid: ed1777bd-4c02-43e0-9bbb-6bb02702e1a4
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMIB_IPADDRROW, *PMIB_IPADDRROW_W2K, MIB_IPADDRROW, MIB_IPADDRROW structure [MIB], MIB_IPADDRROW_W2K, MIB_IPADDR_DELETED, MIB_IPADDR_DISCONNECTED, MIB_IPADDR_DYNAMIC, MIB_IPADDR_PRIMARY, MIB_IPADDR_TRANSIENT, PMIB_IPADDRROW, PMIB_IPADDRROW structure pointer [MIB], _MIB_IPADDRROW_W2K, _mpr_mib_ipaddrrow, ipmib/MIB_IPADDRROW, ipmib/PMIB_IPADDRROW, iprtrmib/MIB_IPADDRROW, iprtrmib/PMIB_IPADDRROW, mib.mib_ipaddrrow, rras.mib_ipaddrrow"
 ms.prod: windows-hardware
 ms.technology: windows-devices

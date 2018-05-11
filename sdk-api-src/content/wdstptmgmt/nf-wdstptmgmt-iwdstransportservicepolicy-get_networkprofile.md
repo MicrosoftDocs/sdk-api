@@ -7,7 +7,7 @@ old-location: wds\iwdstransportservicepolicy_networkprofile.htm
 old-project: Wds
 ms.assetid: f4eee4b3-915e-4d47-8464-306f890a5a2e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],NetworkProfile property, IWdsTransportServicePolicy.NetworkProfile, IWdsTransportServicePolicy.get_NetworkProfile, IWdsTransportServicePolicy::NetworkProfile, IWdsTransportServicePolicy::get_NetworkProfile, IWdsTransportServicePolicy::put_NetworkProfile, NetworkProfile property [Windows Deployment Services], NetworkProfile property [Windows Deployment Services],IWdsTransportServicePolicy interface, get_NetworkProfile, wds.iwdstransportservicepolicy_networkprofile, wdstptmgmt/IWdsTransportServicePolicy::NetworkProfile, wdstptmgmt/IWdsTransportServicePolicy::get_NetworkProfile, wdstptmgmt/IWdsTransportServicePolicy::put_NetworkProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

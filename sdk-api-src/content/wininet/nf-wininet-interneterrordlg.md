@@ -7,7 +7,7 @@ old-location: wininet\interneterrordlg.htm
 old-project: WinInet
 ms.assetid: 09384ba9-e5cc-48fd-a52c-15df223f87dc
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: InternetErrorDlg, InternetErrorDlg function [WinINet], _inet_interneterrordlg_function, wininet.interneterrordlg, wininet/InternetErrorDlg
 ms.prod: windows-hardware
 ms.technology: windows-devices

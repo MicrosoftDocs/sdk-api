@@ -7,7 +7,7 @@ old-location: controls\itexthost2_txshowdropcaret.htm
 old-project: Controls
 ms.assetid: D7FAD45E-3467-4F07-A0D9-3131E48C314B
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxShowDropCaret method, ITextHost2.TxShowDropCaret, ITextHost2::TxShowDropCaret, TxShowDropCaret, TxShowDropCaret method [Windows Controls], TxShowDropCaret method [Windows Controls],ITextHost2 interface, controls.itexthost2_txshowdropcaret, textserv/ITextHost2::TxShowDropCaret
 ms.prod: windows-hardware
 ms.technology: windows-devices

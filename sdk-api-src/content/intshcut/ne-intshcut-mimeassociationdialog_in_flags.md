@@ -7,7 +7,7 @@ old-location: shell\MIMEASSOCIATIONDIALOG_IN_FLAGS.htm
 old-project: shell
 ms.assetid: 916712a7-08ec-496d-aa83-42bf1e4bdbd8
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MIMEASSOCDLG_FL_REGISTER_ASSOC, MIMEASSOCIATIONDIALOG_IN_FLAGS, MIMEASSOCIATIONDIALOG_IN_FLAGS enumeration [Windows Shell], _win32_MIMEASSOCIATIONDIALOG_IN_FLAGS, intshcut/MIMEASSOCDLG_FL_REGISTER_ASSOC, intshcut/MIMEASSOCIATIONDIALOG_IN_FLAGS, mimeassociationdialog_in_flags, shell.MIMEASSOCIATIONDIALOG_IN_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

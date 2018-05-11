@@ -7,7 +7,7 @@ old-location: taskschd\itask_getapplicationname.htm
 old-project: TaskSchd
 ms.assetid: 79a8c324-1191-412b-be2b-eb5935337925
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetApplicationName, GetApplicationName method [Task Scheduler], GetApplicationName method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetApplicationName method, ITask.GetApplicationName, ITask::GetApplicationName, _msb_itask_getapplicationname, mstask/ITask::GetApplicationName, taskschd.itask_getapplicationname
 ms.prod: windows-hardware
 ms.technology: windows-devices

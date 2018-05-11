@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_createtrigger.htm
 old-project: TaskSchd
 ms.assetid: ff8c9c3b-697f-42f0-a5b5-6194e4c89096
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: CreateTrigger, CreateTrigger method [Task Scheduler], CreateTrigger method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],CreateTrigger method, IScheduledWorkItem.CreateTrigger, IScheduledWorkItem::CreateTrigger, _msb_ischeduledworkitem_createtrigger, mstask/IScheduledWorkItem::CreateTrigger, taskschd.ischeduledworkitem_createtrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices

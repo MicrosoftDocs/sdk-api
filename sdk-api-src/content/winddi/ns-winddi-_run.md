@@ -7,7 +7,7 @@ old-location: display\run.htm
 old-project: display
 ms.assetid: 7c53ec29-2541-40d3-95df-bf73d900a6d6
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*PRUN, PRUN, PRUN structure pointer [Display Devices], RUN, RUN structure [Display Devices], _RUN, display.run, grstrcts_ccdf6b98-1c92-4d72-b777-e4c075e53064.xml, winddi/PRUN, winddi/RUN"
 ms.prod: windows-hardware
 ms.technology: windows-devices

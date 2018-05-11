@@ -7,7 +7,7 @@ old-location: dshow\idvsplitter.htm
 old-project: DirectShow
 ms.assetid: a7fd27f4-2fc7-4115-b669-b08eed1ec032
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IDVSplitter, IDVSplitter interface [DirectShow], IDVSplitter interface [DirectShow],described, IDVSplitterInterface, dshow.idvsplitter, strmif/IDVSplitter
 ms.prod: windows-hardware
 ms.technology: windows-devices

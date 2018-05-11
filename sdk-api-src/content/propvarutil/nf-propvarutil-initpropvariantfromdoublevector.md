@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromDoubleVector.htm
 old-project: properties
 ms.assetid: 78e91213-870f-4bc1-b0eb-a9fbae3d6c4c
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: InitPropVariantFromDoubleVector, InitPropVariantFromDoubleVector function [Windows Properties], properties.InitPropVariantFromDoubleVector, propvarutil/InitPropVariantFromDoubleVector, shell.InitPropVariantFromDoubleVector, shell_InitPropVariantFromDoubleVector
 ms.prod: windows-hardware
 ms.technology: windows-devices

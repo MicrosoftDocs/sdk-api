@@ -7,7 +7,7 @@ old-location: shell\UnloadUserProfile.htm
 old-project: shell
 ms.assetid: 7ecb8a3f-c041-4133-b23a-101de8884882
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: UnloadUserProfile, UnloadUserProfile function [Windows Shell], _shell_UnloadUserProfile, shell.UnloadUserProfile, userenv/UnloadUserProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

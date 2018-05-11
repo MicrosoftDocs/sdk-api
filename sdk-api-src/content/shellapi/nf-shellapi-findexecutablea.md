@@ -7,7 +7,7 @@ old-location: shell\FindExecutable.htm
 old-project: shell
 ms.assetid: 969edbd9-164e-457f-ab0a-dc4d069bf16b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: FindExecutable, FindExecutable function [Windows Shell], FindExecutableA, FindExecutableW, _win32_FindExecutable, shell.FindExecutable, shellapi/FindExecutable, shellapi/FindExecutableA, shellapi/FindExecutableW
 ms.prod: windows-hardware
 ms.technology: windows-devices

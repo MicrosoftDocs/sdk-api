@@ -7,7 +7,7 @@ old-location: fwp\fwpmfilterenum0_func.htm
 old-project: FWP
 ms.assetid: ced06ffd-668f-4d2b-b727-b705ad6a3149
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmFilterEnum0, FwpmFilterEnum0 function [Filtering], fwp.fwpmfilterenum0_func, fwpmu/FwpmFilterEnum0
 ms.prod: windows-hardware
 ms.technology: windows-devices

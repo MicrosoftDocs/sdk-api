@@ -7,7 +7,7 @@ old-location: mstv\idtfilter3_getprotectiontype.htm
 old-project: mstv
 ms.assetid: 6b1e4186-de85-4de8-b309-82644c8b1269
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetProtectionType, GetProtectionType method [Microsoft TV Technologies], GetProtectionType method [Microsoft TV Technologies],IDTFilter3 interface, IDTFilter3 interface [Microsoft TV Technologies],GetProtectionType method, IDTFilter3.GetProtectionType, IDTFilter3::GetProtectionType, IDTFilter3GetProtectionType, encdec/IDTFilter3::GetProtectionType, mstv.idtfilter3_getprotectiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices

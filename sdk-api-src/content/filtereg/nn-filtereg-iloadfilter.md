@@ -7,7 +7,7 @@ old-location: search\iloadfilter.htm
 old-project: search
 ms.assetid: 7ac51909-fa0e-4f97-8da0-0ab4c5de7d60
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/8/2018
 ms.keywords: ILoadFilter, ILoadFilter interface [search], ILoadFilter interface [search],described, filtereg/ILoadFilter, search.iloadfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

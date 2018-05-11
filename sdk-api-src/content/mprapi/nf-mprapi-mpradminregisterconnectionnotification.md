@@ -7,7 +7,7 @@ old-location: rras\mpradminregisterconnectionnotification.htm
 old-project: RRAS
 ms.assetid: ba70154b-a2d1-4121-bea6-4572446bf9ee
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MprAdminRegisterConnectionNotification, MprAdminRegisterConnectionNotification function [RAS], _mpr_mpradminregisterconnectionnotification, mprapi/MprAdminRegisterConnectionNotification, rras.mpradminregisterconnectionnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

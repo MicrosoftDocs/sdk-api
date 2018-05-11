@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_getstreamselected.htm
 old-project: wmformat
 ms.assetid: bcde749e-c0fd-4be8-8708-a053854a9275
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: GetStreamSelected, GetStreamSelected method [windows Media Format], GetStreamSelected method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetStreamSelected method, IWMSyncReader.GetStreamSelected, IWMSyncReader::GetStreamSelected, IWMSyncReaderGetStreamSelected, wmformat.iwmsyncreader_getstreamselected, wmsdkidl/IWMSyncReader::GetStreamSelected
 ms.prod: windows-hardware
 ms.technology: windows-devices

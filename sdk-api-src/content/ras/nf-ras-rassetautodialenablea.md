@@ -7,7 +7,7 @@ old-location: rras\rassetautodialenable.htm
 old-project: RRAS
 ms.assetid: 0d5f7b8e-9bce-4e72-8657-f465ce4008c4
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RasSetAutodialEnable, RasSetAutodialEnable function [RAS], RasSetAutodialEnableA, RasSetAutodialEnableW, _ras_rassetautodialenable, ras/RasSetAutodialEnable, ras/RasSetAutodialEnableA, ras/RasSetAutodialEnableW, rras.rassetautodialenable
 ms.prod: windows-hardware
 ms.technology: windows-devices

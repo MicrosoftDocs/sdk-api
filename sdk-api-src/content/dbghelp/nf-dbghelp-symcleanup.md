@@ -7,7 +7,7 @@ old-location: base\symcleanup.htm
 old-project: Debug
 ms.assetid: 56107b71-a3f9-49af-9a90-df3585aed7c8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: SymCleanup, SymCleanup function, _win32_symcleanup, base.symcleanup, dbghelp/SymCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices

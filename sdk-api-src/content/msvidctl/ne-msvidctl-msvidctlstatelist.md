@@ -7,7 +7,7 @@ old-location: mstv\msvidctlstatelist.htm
 old-project: mstv
 ms.assetid: b4da9c6e-3235-4c78-b9e1-57c9d06fccbc
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: MSVidCtlStateList, MSVidCtlStateList enumeration [Microsoft TV Technologies], MSVidCtlStateListEnumeration, STATE_PAUSE, STATE_PLAY, STATE_STOP, STATE_UNBUILT, enumeration [Microsoft TV Technologies], mstv.msvidctlstatelist, msvidctl/MSVidCtlStateList, msvidctl/STATE_PAUSE, msvidctl/STATE_PLAY, msvidctl/STATE_STOP, msvidctl/STATE_UNBUILT
 ms.prod: windows-hardware
 ms.technology: windows-devices

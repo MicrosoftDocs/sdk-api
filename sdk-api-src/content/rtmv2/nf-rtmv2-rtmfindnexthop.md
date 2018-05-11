@@ -7,7 +7,7 @@ old-location: rras\rtmfindnexthop.htm
 old-project: RRAS
 ms.assetid: 82bf88ad-eb6d-4ea5-98a0-72280e341f83
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RtmFindNextHop, RtmFindNextHop function [RAS], _rtmv2ref_rtmfindnexthop, rras.rtmfindnexthop, rtmv2/RtmFindNextHop
 ms.prod: windows-hardware
 ms.technology: windows-devices

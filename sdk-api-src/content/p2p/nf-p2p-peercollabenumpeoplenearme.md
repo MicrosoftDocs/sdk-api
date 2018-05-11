@@ -7,7 +7,7 @@ old-location: p2p\peercollabenumpeoplenearme.htm
 old-project: P2PSdk
 ms.assetid: 4dc53f43-e662-4696-bc16-42b124f3358f
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerCollabEnumPeopleNearMe, PeerCollabEnumPeopleNearMe function [Peer Networking], p2p.peercollabenumpeoplenearme, p2p/PeerCollabEnumPeopleNearMe
 ms.prod: windows-hardware
 ms.technology: windows-devices

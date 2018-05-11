@@ -7,7 +7,7 @@ old-location: base\imagegetcertificateheader.htm
 old-project: Debug
 ms.assetid: 84b10926-7f49-406c-8939-d85f62844806
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: ImageGetCertificateHeader, ImageGetCertificateHeader function, _win32_imagegetcertificateheader, base.imagegetcertificateheader, imagehlp/ImageGetCertificateHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

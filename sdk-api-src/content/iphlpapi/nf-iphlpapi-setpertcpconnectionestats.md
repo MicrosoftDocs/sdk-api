@@ -7,7 +7,7 @@ old-location: iphlp\setpertcpconnectionestats.htm
 old-project: IpHlp
 ms.assetid: 96d838ca-69e3-4a73-b969-3e6e810a0a69
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: SetPerTcpConnectionEStats, SetPerTcpConnectionEStats function [IP Helper], iphlp.setpertcpconnectionestats, iphlpapi/SetPerTcpConnectionEStats
 ms.prod: windows-hardware
 ms.technology: windows-devices

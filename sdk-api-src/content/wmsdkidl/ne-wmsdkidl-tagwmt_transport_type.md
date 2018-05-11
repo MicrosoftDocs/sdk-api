@@ -7,7 +7,7 @@ old-location: wmformat\wmt_transport_type.htm
 old-project: wmformat
 ms.assetid: 1d689487-f71b-4b27-928c-c55bd22579ed
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: WMT_TRANSPORT_TYPE, WMT_TRANSPORT_TYPE enumeration [windows Media Format], WMT_Transport_Type_Reliable, WMT_Transport_Type_Unreliable, tagWMT_TRANSPORT_TYPE, wmformat.wmt_transport_type, wmsdkidl/WMT_TRANSPORT_TYPE, wmsdkidl/WMT_Transport_Type_Reliable, wmsdkidl/WMT_Transport_Type_Unreliable
 ms.prod: windows-hardware
 ms.technology: windows-devices

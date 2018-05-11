@@ -7,7 +7,7 @@ old-location: security\certenumcrlsinstore.htm
 old-project: SecCrypto
 ms.assetid: fc25ca04-8520-4053-9591-afc81c88670c
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CertEnumCRLsInStore, CertEnumCRLsInStore function [Security], _crypto2_certenumcrlsinstore, security.certenumcrlsinstore, wincrypt/CertEnumCRLsInStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\ddgetcurrentautoflipininfo.htm
 old-project: display
 ms.assetid: 17443cab-7dc6-4bc9-ae0c-463c6f76d768
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*PDDGETCURRENTAUTOFLIPININFO, DDGETCURRENTAUTOFLIPININFO, DDGETCURRENTAUTOFLIPININFO structure [Display Devices], PDDGETCURRENTAUTOFLIPININFO, PDDGETCURRENTAUTOFLIPININFO structure pointer [Display Devices], Video_Structs_3476fe24-7963-4d7c-a794-ade9c2fdca57.xml, _DDGETCURRENTAUTOFLIPININFO, display.ddgetcurrentautoflipininfo, dxmini/DDGETCURRENTAUTOFLIPININFO, dxmini/PDDGETCURRENTAUTOFLIPININFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

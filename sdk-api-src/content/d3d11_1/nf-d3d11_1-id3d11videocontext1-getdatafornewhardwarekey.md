@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext1_getdatafornewhardwarekey.htm
 old-project: medfound
 ms.assetid: 4C02F80C-CF7A-4E66-9172-D55A31986ACD
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetDataForNewHardwareKey, GetDataForNewHardwareKey method [Media Foundation], GetDataForNewHardwareKey method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],GetDataForNewHardwareKey method, ID3D11VideoContext1.GetDataForNewHardwareKey, ID3D11VideoContext1::GetDataForNewHardwareKey, d3d11_1/ID3D11VideoContext1::GetDataForNewHardwareKey, mf.id3d11videocontext1_getdatafornewhardwarekey
 ms.prod: windows-hardware
 ms.technology: windows-devices

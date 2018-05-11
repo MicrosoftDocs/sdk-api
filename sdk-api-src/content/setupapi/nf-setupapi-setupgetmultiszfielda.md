@@ -7,7 +7,7 @@ old-location: setup\setupgetmultiszfield.htm
 old-project: SetupApi
 ms.assetid: d884037c-a8d0-47a8-8b3f-70408866be05
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupGetMultiSzField, SetupGetMultiSzField function [Setup API], SetupGetMultiSzFieldA, SetupGetMultiSzFieldW, _setupapi_setupgetmultiszfield, setup.setupgetmultiszfield, setupapi/SetupGetMultiSzField, setupapi/SetupGetMultiSzFieldA, setupapi/SetupGetMultiSzFieldW
 ms.prod: windows-hardware
 ms.technology: windows-devices

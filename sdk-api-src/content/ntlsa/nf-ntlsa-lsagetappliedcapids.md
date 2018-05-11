@@ -7,7 +7,7 @@ old-location: security\lsagetappliedcapids.htm
 old-project: SecAuthN
 ms.assetid: DF10F5CE-BBF5-4CA8-919B-F59B7775C983
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: LsaGetAppliedCAPIDs, LsaGetAppliedCAPIDs function [Security], ntlsa/LsaGetAppliedCAPIDs, security.lsagetappliedcapids
 ms.prod: windows-hardware
 ms.technology: windows-devices

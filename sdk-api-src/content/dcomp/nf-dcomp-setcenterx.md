@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionrotatetransform3d_setcenterx_overloaded.ht
 old-project: directcomp
 ms.assetid: 2E4924A5-64D0-4415-B345-0DE9A0900258
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: IDCompositionRotateTransform3D::SetCenterX, SetCenterX, SetCenterX methods [DirectComposition], dcomp/SetCenterX, directcomp.idcompositionrotatetransform3d_setcenterx_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices

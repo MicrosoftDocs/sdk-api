@@ -7,7 +7,7 @@ old-location: mscs\cluspartitions_collection.htm
 old-project: MsCS
 ms.assetid: 8a3c602a-a3b1-4b63-8dfa-36200c5c30ab
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ClusPartitions, ClusPartitions collection [Failover Cluster], ClusPartitions collection [Failover Cluster],described, ISClusPartitions, _wolf_cluspartitions_collection, msclus/ClusPartitions, mscs.cluspartitions_collection
 ms.prod: windows-hardware
 ms.technology: windows-devices

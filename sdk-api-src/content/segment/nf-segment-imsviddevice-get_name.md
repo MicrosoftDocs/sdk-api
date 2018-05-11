@@ -7,7 +7,7 @@ old-location: mstv\imsviddevice_get_name.htm
 old-project: mstv
 ms.assetid: eb484684-7c20-498d-939e-ae5964d35669
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Name method, IMSVidDevice.get_Name, IMSVidDevice::get_Name, IMSVidDeviceget_Name, get_Name, get_Name method [Microsoft TV Technologies], get_Name method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_name, segment/IMSVidDevice::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

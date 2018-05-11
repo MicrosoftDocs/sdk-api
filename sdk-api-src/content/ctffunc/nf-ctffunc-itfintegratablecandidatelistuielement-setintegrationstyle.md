@@ -7,7 +7,7 @@ old-location: tsf\itfintegratablecandidatelistuielement_setintegrationstyle.htm
 old-project: TSF
 ms.assetid: DC6565A6-6CEC-4DD9-A845-1DDFF157266C
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],SetIntegrationStyle method, ITfIntegratableCandidateListUIElement.SetIntegrationStyle, ITfIntegratableCandidateListUIElement::SetIntegrationStyle, SetIntegrationStyle, SetIntegrationStyle method [Text Services Framework], SetIntegrationStyle method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::SetIntegrationStyle, tsf.itfintegratablecandidatelistuielement_setintegrationstyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

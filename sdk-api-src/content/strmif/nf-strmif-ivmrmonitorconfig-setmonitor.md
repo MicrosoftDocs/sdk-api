@@ -7,7 +7,7 @@ old-location: dshow\ivmrmonitorconfig_setmonitor.htm
 old-project: DirectShow
 ms.assetid: d443592e-23d8-425c-9f88-f4f786fb19c6
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IVMRMonitorConfig interface [DirectShow],SetMonitor method, IVMRMonitorConfig.SetMonitor, IVMRMonitorConfig::SetMonitor, IVMRMonitorConfigSetMonitor, SetMonitor, SetMonitor method [DirectShow], SetMonitor method [DirectShow],IVMRMonitorConfig interface, dshow.ivmrmonitorconfig_setmonitor, strmif/IVMRMonitorConfig::SetMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

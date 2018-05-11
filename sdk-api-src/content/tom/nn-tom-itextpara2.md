@@ -7,7 +7,7 @@ old-location: controls\itextpara2.htm
 old-project: Controls
 ms.assetid: 31a0849f-c651-4178-b1ff-a4333bcde5d9
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: ITextPara2, ITextPara2 interface [Windows Controls], ITextPara2 interface [Windows Controls],described, controls.itextpara2, tom/ITextPara2
 ms.prod: windows-hardware
 ms.technology: windows-devices

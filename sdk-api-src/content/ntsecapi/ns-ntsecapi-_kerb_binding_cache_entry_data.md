@@ -7,7 +7,7 @@ old-location: security\kerb_binding_cache_entry_data.htm
 old-project: SecAuthN
 ms.assetid: C5452477-B412-4E0C-B692-D79A47B8025A
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PKERB_BINDING_CACHE_ENTRY_DATA, DS_INET_ADDRESS, DS_NETBIOS_ADDRESS, KERB_BINDING_CACHE_ENTRY_DATA, KERB_BINDING_CACHE_ENTRY_DATA structure [Security], KERB_NO_DC_FLAGS, PKERB_BINDING_CACHE_ENTRY_DATA, PKERB_BINDING_CACHE_ENTRY_DATA structure pointer [Security], _KERB_BINDING_CACHE_ENTRY_DATA, ntsecapi/KERB_BINDING_CACHE_ENTRY_DATA, ntsecapi/PKERB_BINDING_CACHE_ENTRY_DATA, security.kerb_binding_cache_entry_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_itemaddedtocache.htm
 old-project: OfflineFiles
 ms.assetid: 7ab04b07-f72a-4a04-a470-4b85c21005c0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemAddedToCache method, IOfflineFilesEvents.ItemAddedToCache, IOfflineFilesEvents::ItemAddedToCache, ItemAddedToCache, ItemAddedToCache method [Offline Files], ItemAddedToCache method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemAddedToCache, of.iofflinefilesevents_itemaddedtocache
 ms.prod: windows-hardware
 ms.technology: windows-devices

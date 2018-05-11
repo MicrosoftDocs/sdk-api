@@ -7,7 +7,7 @@ old-location: dshow\iamlatency_getlatency.htm
 old-project: DirectShow
 ms.assetid: 5c5f6a73-d216-4a26-958e-ce8055575d17
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetLatency, GetLatency method [DirectShow], GetLatency method [DirectShow],IAMLatency interface, IAMLatency interface [DirectShow],GetLatency method, IAMLatency.GetLatency, IAMLatency::GetLatency, IAMLatencyGetLatency, dshow.iamlatency_getlatency, strmif/IAMLatency::GetLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices

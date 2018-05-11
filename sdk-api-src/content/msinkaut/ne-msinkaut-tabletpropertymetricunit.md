@@ -7,7 +7,7 @@ old-location: tablet\tabletpropertymetricunit.htm
 old-project: tablet
 ms.assetid: c2258c48-4062-4528-9ebb-21cdbecf70ab
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: TPMU_Centimeters, TPMU_Default, TPMU_Degrees, TPMU_Grams, TPMU_Inches, TPMU_Pounds, TPMU_Radians, TPMU_Seconds, TabletPropertyMetricUnit, TabletPropertyMetricUnit enumeration [Tablet PC], c2258c48-4062-4528-9ebb-21cdbecf70ab, msinkaut/TPMU_Centimeters, msinkaut/TPMU_Default, msinkaut/TPMU_Degrees, msinkaut/TPMU_Grams, msinkaut/TPMU_Inches, msinkaut/TPMU_Pounds, msinkaut/TPMU_Radians, msinkaut/TPMU_Seconds, msinkaut/TabletPropertyMetricUnit, tablet.tabletpropertymetricunit
 ms.prod: windows-hardware
 ms.technology: windows-devices

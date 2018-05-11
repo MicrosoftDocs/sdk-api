@@ -2,13 +2,13 @@
 UID: NS:emi.EMI_METADATA
 title: EMI_METADATA
 author: windows-driver-content
-description: The EMI_MEASUREMENT_DATA structure provides data about the current energy measurement and the time at which the measurement was taken.
-old-location: powermeter\emi_measurement_data.htm
+description: The EMI_METADATA structure provides metadata about a device that supports the Energy Metering Interface (EMI) interface, such as the hardware model and hardware revision.
+old-location: powermeter\emi_metadata.htm
 old-project: powermeter
-ms.assetid: 5D8E8146-D6B4-427B-9B17-0FB4FB0372A8
+ms.assetid: 8992AA5D-7D71-4D00-9B18-FE070D29C26E
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: EMI_MEASUREMENT_DATA, EMI_MEASUREMENT_DATA structure [Power Metering and Budgeting Devices], EMI_METADATA, EMI_METADATA structure [Power Metering and Budgeting Devices], PEMI_METADATA, PEMI_METADATA structure pointer [Power Metering and Budgeting Devices], emi/EMI_MEASUREMENT_DATA, emi/PEMI_METADATA, powermeter.emi_measurement_data
+ms.date: 5/8/2018
+ms.keywords: EMI_METADATA, EMI_METADATA structure [Power Metering and Budgeting Devices], PEMI_METADATA, PEMI_METADATA structure pointer [Power Metering and Budgeting Devices], emi/EMI_METADATA, emi/PEMI_METADATA, powermeter.emi_metadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,7 +50,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-The <b>EMI_MEASUREMENT_DATA</b> structure provides data about the current energy measurement and the time at which the measurement was taken.
+The <b>EMI_METADATA</b> structure provides metadata about a device that supports the  Energy Metering Interface (EMI) interface, such as the hardware model and hardware revision.
 
 
 ## -struct-fields
@@ -60,51 +60,39 @@ The <b>EMI_MEASUREMENT_DATA</b> structure provides data about the current energy
 
 ### -field MeasurementUnit
 
- 
+An <a href="https://msdn.microsoft.com/library/windows/hardware/dn957427">EMI_MEASUREMENT_UNIT</a> that specifies the unit of energy measurements that can be obtained from the device by calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn957434">IOCTL_EMI_GET_MEASUREMENT</a>. In devices that support <b>EMI_VERSION_V1</b>, the only supported unit is <b>EmiMeasurementUnitPicowattHours</b>.
 
 
 ### -field HardwareOEM
 
- 
+A null-terminated, Unicode string that contains the name of the OEM.
 
 
 ### -field HardwareModel
 
- 
+A null-terminated, Unicode string that specifies the device model.
 
 
 ### -field HardwareRevision
 
- 
+A value that specifies the current revision of the device.
 
 
 ### -field MeteredHardwareNameSize
 
- 
+The size of <b>MeteredHardwareName</b> in bytes, including the null terminator.
 
 
 ### -field MeteredHardwareName
 
- 
-
-
-
-
-#### - AbsoluteEnergy
-
-The total accumulated energy in the units specified by the <b>MeasurementUnit</b> field of the 	<a href="https://msdn.microsoft.com/library/windows/hardware/dn957428">EMI_METADATA</a> struct returned by <a href="https://msdn.microsoft.com/library/windows/hardware/dn957436">IOCTL_EMI_GET_METADATA</a>. In <b>EMI_VERSION_V1</b>, the only supported unit is picowatt-hours.
-
-
-#### - AbsoluteTime
-
-The time at which the energy measurement was taken, in 100 ns intervals. 
+A null-terminated, Unicode string that specifies the metered hardware name.
 
 
 ## -remarks
 
 
 
-This structure is returned through a successful completion of an <a href="https://msdn.microsoft.com/library/windows/hardware/dn957434">IOCTL_EMI_GET_MEASUREMENT</a> IOCTL request.
+This structure is returned through a successful completion of an <a href="https://msdn.microsoft.com/library/windows/hardware/dn957436">IOCTL_EMI_GET_METADATA</a> IOCTL request.
 
 
 
@@ -118,7 +106,7 @@ This structure is returned through a successful completion of an <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957434">IOCTL_EMI_GET_MEASUREMENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957436">IOCTL_EMI_GET_METADATA</a>
  
 
  

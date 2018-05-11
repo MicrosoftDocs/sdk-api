@@ -7,7 +7,7 @@ old-location: rras\createserviceenumerationhandle.htm
 old-project: RRAS
 ms.assetid: 68ed5662-ffa8-456b-b79c-a6fb27339262
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: CreateServiceEnumerationHandle, CreateServiceEnumerationHandle callback function [RAS], PCREATE_SERVICE_ENUMERATION_HANDLE, PCREATE_SERVICE_ENUMERATION_HANDLE callback, STM_ONLY_THIS_INTERFACE, STM_ONLY_THIS_PROTOCOL, STM_ONLY_THIS_TYPE, _mpr_createserviceenumerationhandle, rras.createserviceenumerationhandle, stm/CreateServiceEnumerationHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

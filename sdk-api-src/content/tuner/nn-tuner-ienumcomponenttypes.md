@@ -7,7 +7,7 @@ old-location: mstv\ienumcomponenttypes.htm
 old-project: mstv
 ms.assetid: ad7fb66d-6592-47ae-9a2f-4432d8aaaebb
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IEnumComponentTypes, IEnumComponentTypes interface [Microsoft TV Technologies], IEnumComponentTypes interface [Microsoft TV Technologies],described, IEnumComponentTypesInterface, mstv.ienumcomponenttypes, tuner/IEnumComponentTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

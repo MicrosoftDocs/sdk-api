@@ -7,7 +7,7 @@ old-location: winsync\ichangeconflict_getresolveactionforchange.htm
 old-project: winsync
 ms.assetid: b89124fe-200e-4061-974e-2d686de7a932
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetResolveActionForChange, GetResolveActionForChange method [Windows Sync], GetResolveActionForChange method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetResolveActionForChange method, IChangeConflict.GetResolveActionForChange, IChangeConflict::GetResolveActionForChange, winsync.ichangeconflict_getresolveactionforchange, winsync/IChangeConflict::GetResolveActionForChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

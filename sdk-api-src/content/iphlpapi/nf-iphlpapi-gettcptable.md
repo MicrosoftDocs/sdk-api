@@ -7,7 +7,7 @@ old-location: iphlp\gettcptable.htm
 old-project: IpHlp
 ms.assetid: e90c5aa0-3126-489b-af44-bf86cb45a6d1
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetTcpTable, GetTcpTable function [IP Helper], _iphlp_gettcptable, iphlp.gettcptable, iphlpapi/GetTcpTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

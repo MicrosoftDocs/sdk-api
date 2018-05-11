@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamconfig_getstreamnumber.htm
 old-project: wmformat
 ms.assetid: 2996c897-eb38-4432-8bf7-549023ab00f5
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: GetStreamNumber, GetStreamNumber method [windows Media Format], GetStreamNumber method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamNumber method, IWMStreamConfig.GetStreamNumber, IWMStreamConfig::GetStreamNumber, IWMStreamConfigGetStreamNumber, wmformat.iwmstreamconfig_getstreamnumber, wmsdkidl/IWMStreamConfig::GetStreamNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

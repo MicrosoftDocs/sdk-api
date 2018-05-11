@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth8.htm
 old-project: audio
 ms.assetid: C5D773BB-3939-494D-9F61-3DC8231295AF
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/8/2018
 ms.keywords: IDirectMusicSynth8, IDirectMusicSynth8 interface [Audio Devices], IDirectMusicSynth8 interface [Audio Devices],described, audio.idirectmusicsynth8, dmusics/IDirectMusicSynth8
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\resutil_largeint_data.htm
 old-project: MsCS
 ms.assetid: 2498a771-f430-4faa-81c8-78d56905d18b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PRESUTIL_LARGEINT_DATA, PRESUTIL_LARGEINT_DATA, PRESUTIL_LARGEINT_DATA structure pointer [Failover Cluster], RESUTIL_LARGEINT_DATA, RESUTIL_LARGEINT_DATA structure [Failover Cluster], _wolf_resutil_largeint_data, mscs.resutil_largeint_data, resapi/PRESUTIL_LARGEINT_DATA, resapi/RESUTIL_LARGEINT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

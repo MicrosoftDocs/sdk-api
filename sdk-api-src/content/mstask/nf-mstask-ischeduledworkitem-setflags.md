@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_setflags.htm
 old-project: TaskSchd
 ms.assetid: 640ba3c7-ed9d-4c4c-82fd-34fc777172c2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetFlags method, IScheduledWorkItem.SetFlags, IScheduledWorkItem::SetFlags, SetFlags, SetFlags method [Task Scheduler], SetFlags method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setflags, mstask/IScheduledWorkItem::SetFlags, taskschd.ischeduledworkitem_setflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

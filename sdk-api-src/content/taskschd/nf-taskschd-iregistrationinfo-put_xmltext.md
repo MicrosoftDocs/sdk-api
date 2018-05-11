@@ -7,7 +7,7 @@ old-location: taskschd\iregistrationinfo_xmltext.htm
 old-project: TaskSchd
 ms.assetid: ad7de0d3-c5df-49d7-9cc9-d52e30844615
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IRegistrationInfo interface [Task Scheduler],XmlText property, IRegistrationInfo.XmlText, IRegistrationInfo.put_XmlText, IRegistrationInfo::XmlText, IRegistrationInfo::get_XmlText, IRegistrationInfo::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler],IRegistrationInfo interface, put_XmlText, taskschd.iregistrationinfo_xmltext, taskschd/IRegistrationInfo::XmlText, taskschd/IRegistrationInfo::get_XmlText, taskschd/IRegistrationInfo::put_XmlText
 ms.prod: windows-hardware
 ms.technology: windows-devices

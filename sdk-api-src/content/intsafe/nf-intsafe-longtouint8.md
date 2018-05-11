@@ -7,7 +7,7 @@ old-location: shell\LongToByte.htm
 old-project: shell
 ms.assetid: f2851b5c-baf5-4e24-8cb0-c5beb11fd308
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: LongToByte, LongToByte function [Windows Shell], LongToUInt8, _shell_LongToByte, intsafe/LongToByte, shell.LongToByte
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\WALLPAPEROPT.htm
 old-project: shell
 ms.assetid: 5fafbc3a-606c-4175-ac3a-132a1bfded07
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*LPWALLPAPEROPT, WALLPAPEROPT, WALLPAPEROPT structure [Windows Shell], WPSTYLE_CENTER, WPSTYLE_CROPTOFIT, WPSTYLE_KEEPASPECT, WPSTYLE_MAX, WPSTYLE_SPAN, WPSTYLE_STRETCH, WPSTYLE_TILE, _tagWALLPAPEROPT, _win32_WALLPAPEROPT, shell.WALLPAPEROPT, shlobj_core/WALLPAPEROPT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

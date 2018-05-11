@@ -7,7 +7,7 @@ old-location: dshow\ifilesinkfilter2_getmode.htm
 old-project: DirectShow
 ms.assetid: b2a8e34e-a6c1-448b-be6e-31fba9d64f6e
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetMode, GetMode method [DirectShow], GetMode method [DirectShow],IFileSinkFilter2 interface, IFileSinkFilter2 interface [DirectShow],GetMode method, IFileSinkFilter2.GetMode, IFileSinkFilter2::GetMode, IFileSinkFilter2GetMode, dshow.ifilesinkfilter2_getmode, strmif/IFileSinkFilter2::GetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

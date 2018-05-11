@@ -7,7 +7,7 @@ old-location: tapi2\linesetagentactivity.htm
 old-project: Tapi
 ms.assetid: 2c46e1cb-e2d7-4cb5-b937-55011058fd15
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_linesetagentactivity, lineSetAgentActivity, lineSetAgentActivity function [TAPI 2.2], tapi/lineSetAgentActivity, tapi2.linesetagentactivity"
 ms.prod: windows-hardware
 ms.technology: windows-devices

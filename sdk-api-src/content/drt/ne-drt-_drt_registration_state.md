@@ -7,7 +7,7 @@ old-location: p2p\drt_registration_state.htm
 old-project: P2PSdk
 ms.assetid: 4c383efb-fedb-4f6f-9ae7-48fdf42887ac
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: "*PDRT_REGISTRATION_STATE, DRT_REGISTRATION_STATE, DRT_REGISTRATION_STATE enumeration [Distributed Routing Tables], DRT_REGISTRATION_STATE_UNRESOLVEABLE, _DRT_REGISTRATION_STATE, drt/DRT_REGISTRATION_STATE, drt/DRT_REGISTRATION_STATE_UNRESOLVEABLE, p2p.drt_registration_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices

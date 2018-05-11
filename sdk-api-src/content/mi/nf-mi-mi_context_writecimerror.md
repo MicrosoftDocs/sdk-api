@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_context_writecimerror.htm
 old-project: wmi_v2
 ms.assetid: 6df0841b-3e13-4f9a-9e54-5c3c0c0d79fe
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_Context_WriteCimError, MI_Context_WriteCimError function [Windows Management Infrastructure (MI)], mi/MI_Context_WriteCimError, wmi.mi_writecimerror, wmi_v2.mi_context_writecimerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

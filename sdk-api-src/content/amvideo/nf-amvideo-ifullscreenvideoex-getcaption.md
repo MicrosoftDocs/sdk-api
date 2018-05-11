@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_getcaption.htm
 old-project: DirectShow
 ms.assetid: 0757da34-cfc5-4a40-9ad0-03bd016ad828
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetCaption, GetCaption method [DirectShow], GetCaption method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetCaption method, IFullScreenVideoEx.GetCaption, IFullScreenVideoEx::GetCaption, IFullScreenVideoGetCaption, amvideo/IFullScreenVideoEx::GetCaption, dshow.ifullscreenvideoex_getcaption
 ms.prod: windows-hardware
 ms.technology: windows-devices

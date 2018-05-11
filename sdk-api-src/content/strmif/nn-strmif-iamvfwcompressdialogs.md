@@ -7,7 +7,7 @@ old-location: dshow\iamvfwcompressdialogs.htm
 old-project: DirectShow
 ms.assetid: 5cc23d68-e0e6-401a-8d16-63c8c68af241
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMVfwCompressDialogs, IAMVfwCompressDialogs interface [DirectShow], IAMVfwCompressDialogs interface [DirectShow],described, IAMVfwCompressDialogsInterface, dshow.iamvfwcompressdialogs, strmif/IAMVfwCompressDialogs
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\fwpmneteventsubscribe2.htm
 old-project: FWP
 ms.assetid: CC55CA33-A153-4B48-AA89-A28F010024F7
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmNetEventSubscribe2, FwpmNetEventSubscribe2 function [Filtering], fwp.fwpmneteventsubscribe2, fwpmu/FwpmNetEventSubscribe2
 ms.prod: windows-hardware
 ms.technology: windows-devices

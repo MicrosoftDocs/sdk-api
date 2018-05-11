@@ -7,7 +7,7 @@ old-location: base\ti_findchildren_params_str.htm
 old-project: Debug
 ms.assetid: 618717d2-879d-4284-a4c2-0a5102698ed9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: TI_FINDCHILDREN_PARAMS, TI_FINDCHILDREN_PARAMS structure, _TI_FINDCHILDREN_PARAMS, _win32_ti_findchildren_params_str, base.ti_findchildren_params_str, dbghelp/TI_FINDCHILDREN_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices

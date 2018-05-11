@@ -7,7 +7,7 @@ old-location: controls\getthemeanimationtransform.htm
 old-project: Controls
 ms.assetid: 3B7691C0-4237-4CE4-9B7C-937089AC5606
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetThemeAnimationTransform, GetThemeAnimationTransform function [Windows Controls], controls.getthemeanimationtransform, uxtheme/GetThemeAnimationTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

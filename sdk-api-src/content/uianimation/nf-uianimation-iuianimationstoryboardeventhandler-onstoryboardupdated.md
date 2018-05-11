@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboardeventhandler_onstoryboardupdated
 old-project: UIAnimation
 ms.assetid: e1a6349e-9c3f-49e5-8e50-b51bf260e9be
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: IUIAnimationStoryboardEventHandler interface [Windows Animation],OnStoryboardUpdated method, IUIAnimationStoryboardEventHandler.OnStoryboardUpdated, IUIAnimationStoryboardEventHandler::OnStoryboardUpdated, OnStoryboardUpdated, OnStoryboardUpdated method [Windows Animation], OnStoryboardUpdated method [Windows Animation],IUIAnimationStoryboardEventHandler interface, uianimation.iuianimationstoryboardeventhandler_onstoryboardupdated, uianimation/IUIAnimationStoryboardEventHandler::OnStoryboardUpdated
 ms.prod: windows-hardware
 ms.technology: windows-devices

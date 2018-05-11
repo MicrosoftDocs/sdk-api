@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_OnDestroy.htm
 old-project: shell
 ms.assetid: 103456a8-d4d1-46f7-b002-a8daa166db29
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnDestroy method, IBrowserService2.OnDestroy, IBrowserService2::OnDestroy, OnDestroy, OnDestroy method [Windows Shell], OnDestroy method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnDestroy, shell.IBrowserService2_OnDestroy, zone_IBrowserService2_OnDestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

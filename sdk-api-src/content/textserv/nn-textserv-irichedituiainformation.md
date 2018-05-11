@@ -7,7 +7,7 @@ old-location: controls\irichedituiainformation.htm
 old-project: Controls
 ms.assetid: BEED428C-6C88-45A8-948C-77288B817C49
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: IRichEditUiaInformation, IRichEditUiaInformation interface [Windows Controls], IRichEditUiaInformation interface [Windows Controls],described, controls.irichedituiainformation, textserv/IRichEditUiaInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

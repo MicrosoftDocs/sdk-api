@@ -7,7 +7,7 @@ old-location: wua\iupdatedownloadresult.htm
 old-project: Wua_Sdk
 ms.assetid: d2a800c9-c23a-4aab-a9c6-e408349818dd
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IUpdateDownloadResult, IUpdateDownloadResult interface [Windows Update Agent], IUpdateDownloadResult interface [Windows Update Agent],described, wua.iupdatedownloadresult, wuapi/IUpdateDownloadResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

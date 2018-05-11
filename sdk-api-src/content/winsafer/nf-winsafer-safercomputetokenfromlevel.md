@@ -7,7 +7,7 @@ old-location: security\safercomputetokenfromlevel.htm
 old-project: SecMgmt
 ms.assetid: 39406331-3101-48f2-8b92-e049849b2b38
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/9/2018
 ms.keywords: SAFER_TOKEN_COMPARE_ONLY, SAFER_TOKEN_MAKE_INERT, SAFER_TOKEN_NULL_IF_EQUAL, SAFER_TOKEN_WANT_FLAGS, SaferComputeTokenFromLevel, SaferComputeTokenFromLevel function [Security], security.safercomputetokenfromlevel, winsafer/SaferComputeTokenFromLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

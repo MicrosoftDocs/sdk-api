@@ -7,7 +7,7 @@ old-location: intl\scriptstringvalidate.htm
 old-project: Intl
 ms.assetid: dde9332a-0a89-4914-9d41-6ce6519cdcb2
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: ScriptStringValidate, ScriptStringValidate function [Internationalization for Windows Applications], _win32_ScriptStringValidate, intl.scriptstringvalidate, usp10/ScriptStringValidate
 ms.prod: windows-hardware
 ms.technology: windows-devices

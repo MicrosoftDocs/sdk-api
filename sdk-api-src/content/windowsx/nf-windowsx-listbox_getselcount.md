@@ -7,7 +7,7 @@ old-location: controls\ListBox_GetSelCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getselcount.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: ListBox_GetSelCount, ListBox_GetSelCount macro [Windows Controls], _win32_ListBox_GetSelCount, _win32_ListBox_GetSelCount_cpp, controls.ListBox_GetSelCount, controls._win32_ListBox_GetSelCount, windowsx/ListBox_GetSelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

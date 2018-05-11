@@ -7,7 +7,7 @@ old-location: input_intcontext\interaction_arguments_manipulation.htm
 old-project: Input_IntContext
 ms.assetid: 8ef21f5a-51ae-4923-a5b4-0ee18bca563f
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/8/2018
 ms.keywords: INTERACTION_ARGUMENTS_MANIPULATION, INTERACTION_ARGUMENTS_MANIPULATION structure, input_intcontext.interaction_arguments_manipulation, interactioncontext.interaction_arguments_manipulation, interactioncontext/INTERACTION_ARGUMENTS_MANIPULATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

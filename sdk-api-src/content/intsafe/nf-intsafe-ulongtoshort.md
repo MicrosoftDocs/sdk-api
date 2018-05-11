@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongToShort
 title: ULongToShort function
 author: windows-driver-content
-description: Converts a value of type DWORD to a value of type SHORT.
-old-location: shell\DWordToShort.htm
+description: Converts a value of type ULONG to a value of type SHORT.
+old-location: shell\ULongToShort.htm
 old-project: shell
-ms.assetid: d288a23f-9cd1-4ddb-849c-daa92aef9f07
+ms.assetid: e6af3c05-03e3-4c55-9730-710fe282dbf3
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: DWordToShort, DWordToShort function [Windows Shell], ULongToShort, _shell_DWordToShort, intsafe/DWordToShort, shell.DWordToShort
+ms.date: 5/9/2018
+ms.keywords: DWordToShort, ULongToShort, ULongToShort function [Windows Shell], _shell_ULongToShort, intsafe/ULongToShort, shell.ULongToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	DllExport
+-	HeaderDef
 api_location:
--	None
+-	Intsafe.h
 api_name:
--	DWordToShort
+-	ULongToShort
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: None
+req.dll: 
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>DWORD</b> to a value of type <b>SHORT</b>.
+Converts a value of type <b>ULONG</b> to a value of type <b>SHORT</b>.
 
 
 ## -parameters
@@ -58,9 +58,11 @@ Converts a value of type <b>DWORD</b> to a value of type <b>SHORT</b>.
 
 
 
-### -param ulOperand
+### -param ulOperand [in]
 
-TBD
+Type: <b>ULONG</b>
+
+The value to be converted.
 
 
 ### -param psResult [out]
@@ -68,13 +70,6 @@ TBD
 Type: <b>SHORT*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
-
-
-#### - dwOperand [in]
-
-Type: <b>DWORD</b>
-
-The value to be converted.
 
 
 ## -returns
@@ -93,6 +88,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>DWordToShort</b> is an alias for this function.
 
 
 

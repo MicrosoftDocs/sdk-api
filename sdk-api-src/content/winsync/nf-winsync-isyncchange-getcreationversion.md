@@ -7,7 +7,7 @@ old-location: winsync\isyncchange_getcreationversion.htm
 old-project: winsync
 ms.assetid: 2c795cbe-b587-42ef-9200-b7d0d972e7c7
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetCreationVersion, GetCreationVersion method [Windows Sync], GetCreationVersion method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetCreationVersion method, ISyncChange.GetCreationVersion, ISyncChange::GetCreationVersion, winsync.isyncchange_getcreationversion, winsync/ISyncChange::GetCreationVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\installationimpact.htm
 old-project: Wua_Sdk
 ms.assetid: 156c5aa2-125f-4ffd-b3eb-4dfed280255b
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: InstallationImpact, InstallationImpact enumeration [Windows Update Agent], iiMinor, iiNormal, iiRequiresExclusiveHandling, tagInstallationImpact, wua.installationimpact, wuapi/InstallationImpact, wuapi/iiMinor, wuapi/iiNormal, wuapi/iiRequiresExclusiveHandling
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmetadataprovider_getmfmetadata.htm
 old-project: medfound
 ms.assetid: 0a3c1932-c301-4ecd-b640-02d7bcfc2aca
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 0a3c1932-c301-4ecd-b640-02d7bcfc2aca, GetMFMetadata, GetMFMetadata method [Media Foundation], GetMFMetadata method [Media Foundation],IMFMetadataProvider interface, IMFMetadataProvider interface [Media Foundation],GetMFMetadata method, IMFMetadataProvider.GetMFMetadata, IMFMetadataProvider::GetMFMetadata, mf.imfmetadataprovider_getmfmetadata, mfidl/IMFMetadataProvider::GetMFMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

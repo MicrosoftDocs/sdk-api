@@ -7,7 +7,7 @@ old-location: iphlp\getunicastipaddressentry.htm
 old-project: IpHlp
 ms.assetid: d5475c09-05dd-41d7-80ff-63c52d78468c
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetUnicastIpAddressEntry, GetUnicastIpAddressEntry function [IP Helper], iphlp.getunicastipaddressentry, netioapi/GetUnicastIpAddressEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

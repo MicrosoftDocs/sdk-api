@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromBooleanVector.htm
 old-project: properties
 ms.assetid: d2e34efb-d5d9-4adf-b582-d3f82d04597f
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: InitPropVariantFromBooleanVector, InitPropVariantFromBooleanVector function [Windows Properties], _shell_InitPropVariantFromBooleanVector, properties.InitPropVariantFromBooleanVector, propvarutil/InitPropVariantFromBooleanVector, shell.InitPropVariantFromBooleanVector
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wininet\internetsetcookie.htm
 old-project: WinInet
 ms.assetid: 1b1ca72e-9c74-4e94-86a9-6fee12c83933
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: InternetSetCookie, InternetSetCookie function [WinINet], InternetSetCookieA, InternetSetCookieW, _win32_internetsetcookie, wininet.internetsetcookie, wininet/InternetSetCookie, wininet/InternetSetCookieA, wininet/InternetSetCookieW
 ms.prod: windows-hardware
 ms.technology: windows-devices

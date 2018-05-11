@@ -7,7 +7,7 @@ old-location: fwp\fwpm_callout0_struct.htm
 old-project: FWP
 ms.assetid: 4f565de5-5bc9-4508-9e4b-28d14a82a9a5
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_CALLOUT0, FWPM_CALLOUT0 structure [Filtering], FWPM_CALLOUT0_, FWPM_CALLOUT_FLAG_PERSISTENT, FWPM_CALLOUT_FLAG_REGISTERED, FWPM_CALLOUT_FLAG_USES_PROVIDER_CONTEXT, fwp.fwpm_callout0_struct, fwpmtypes/FWPM_CALLOUT0
 ms.prod: windows-hardware
 ms.technology: windows-devices

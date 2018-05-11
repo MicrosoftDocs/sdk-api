@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_GetPackageExecutionState.htm
 old-project: shell
 ms.assetid: 39560adc-9d35-48ec-8b70-2ed4b83dd1f6
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: GetPackageExecutionState, GetPackageExecutionState method [Windows Shell], GetPackageExecutionState method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],GetPackageExecutionState method, IPackageDebugSettings.GetPackageExecutionState, IPackageDebugSettings::GetPackageExecutionState, shell.IPackageDebugSettings_GetPackageExecutionState, shobjidl_core/IPackageDebugSettings::GetPackageExecutionState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: OVERLAPPED, *LPOVERLAPPED
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

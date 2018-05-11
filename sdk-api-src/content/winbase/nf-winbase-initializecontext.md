@@ -7,7 +7,7 @@ old-location: base\initializecontext.htm
 old-project: Debug
 ms.assetid: 909BF5F7-0622-4B22-A2EC-27722389700A
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: InitializeContext, InitializeContext function, base.initializecontext, winbase/InitializeContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

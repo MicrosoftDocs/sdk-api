@@ -7,7 +7,7 @@ old-location: winprog\rtluniform.htm
 old-project: DevNotes
 ms.assetid: 78bb05fa-3ebc-4e61-ae4f-58544da51200
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: RtlUniform, RtlUniform function [Windows API], winprog.rtluniform, winternl/RtlUniform
 ms.prod: windows-hardware
 ms.technology: windows-devices

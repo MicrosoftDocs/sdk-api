@@ -7,7 +7,7 @@ old-location: stg\isequentialstream_read.htm
 old-project: Stg
 ms.assetid: 934a90bb-5ed0-4d80-9906-352ad8586655
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: ISequentialStream interface [Structured Storage],Read method, ISequentialStream.Read, ISequentialStream::Read, Read, Read method [Structured Storage], Read method [Structured Storage],ISequentialStream interface, _stg_isequentialstream_read, objidl/ISequentialStream::Read, stg.isequentialstream_read
 ms.prod: windows-hardware
 ms.technology: windows-devices

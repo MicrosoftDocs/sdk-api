@@ -7,7 +7,7 @@ old-location: base\imagentheader.htm
 old-project: Debug
 ms.assetid: bf796c81-84d1-43e6-a2ff-b0be6f4603e0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: ImageNtHeader, ImageNtHeader function, _win32_imagentheader, base.imagentheader, dbghelp/ImageNtHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

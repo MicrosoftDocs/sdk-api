@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_defaultdrawingattributes.htm
 old-project: tablet
 ms.assetid: f31a93aa-e3de-4254-af3f-338576350815
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: DefaultDrawingAttributes property [Tablet PC], DefaultDrawingAttributes property [Tablet PC],InkCollector class, IInkCollector.get_DefaultDrawingAttributes, IInkCollector.put_DefaultDrawingAttributes, IInkCollector.putref_DefaultDrawingAttributes, IInkCollector::get_DefaultDrawingAttributes, InkCollector class [Tablet PC],DefaultDrawingAttributes property, InkCollector.DefaultDrawingAttributes, InkCollector.get_DefaultDrawingAttributes, InkCollector.put_DefaultDrawingAttributes, f31a93aa-e3de-4254-af3f-338576350815, get_DefaultDrawingAttributes, put_DefaultDrawingAttributes, putref_DefaultDrawingAttributes, tablet.inkcollector_defaultdrawingattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

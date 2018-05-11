@@ -7,7 +7,7 @@ old-location: tablet\ihandwrittentextinsertion.htm
 old-project: tablet
 ms.assetid: 67fcf19a-a864-40de-987f-406f18726a9f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: 67fcf19a-a864-40de-987f-406f18726a9f, IHandWrittenTextInsertion, IHandWrittenTextInsertion interface [Tablet PC], IHandWrittenTextInsertion interface [Tablet PC],described, peninputpanel/IHandWrittenTextInsertion, tablet.ihandwrittentextinsertion
 ms.prod: windows-hardware
 ms.technology: windows-devices

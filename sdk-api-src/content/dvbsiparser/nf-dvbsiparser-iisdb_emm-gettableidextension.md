@@ -7,7 +7,7 @@ old-location: mstv\iisdb_emm_gettableidextension.htm
 old-project: mstv
 ms.assetid: aa0aba5d-181b-4466-8ad1-5db541d36261
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetTableIdExtension, GetTableIdExtension method [Microsoft TV Technologies], GetTableIdExtension method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetTableIdExtension method, IISDB_EMM.GetTableIdExtension, IISDB_EMM::GetTableIdExtension, dvbsiparser/IISDB_EMM::GetTableIdExtension, mstv.iisdb_emm_gettableidextension
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_run.htm
 old-project: TaskSchd
 ms.assetid: f533fcf6-8ece-442f-b6d5-3702321db9e9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],Run method, IScheduledWorkItem.Run, IScheduledWorkItem::Run, Run, Run method [Task Scheduler], Run method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_run, mstask/IScheduledWorkItem::Run, taskschd.ischeduledworkitem_run
 ms.prod: windows-hardware
 ms.technology: windows-devices

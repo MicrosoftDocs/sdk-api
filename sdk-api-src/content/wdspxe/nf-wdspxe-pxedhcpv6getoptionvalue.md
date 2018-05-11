@@ -7,7 +7,7 @@ old-location: wds\pxedhcpv6getoptionvalue.htm
 old-project: Wds
 ms.assetid: 0DC0CF7F-0C74-4595-9DC6-9468E1E7DA20
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: PxeDhcpv6GetOptionValue, PxeDhcpv6GetOptionValue function [Windows Deployment Services], wds.pxedhcpv6getoptionvalue, wdspxe/PxeDhcpv6GetOptionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

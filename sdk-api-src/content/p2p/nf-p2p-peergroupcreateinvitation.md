@@ -7,7 +7,7 @@ old-location: p2p\peergroupcreateinvitation.htm
 old-project: P2PSdk
 ms.assetid: 1ae5c288-6e9b-452a-8994-7878d713cd6d
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PeerGroupCreateInvitation, PeerGroupCreateInvitation function [Peer Networking], p2p.peergroupcreateinvitation, p2p/PeerGroupCreateInvitation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\peerpnrpgetendpoint.htm
 old-project: P2PSdk
 ms.assetid: d81b0aab-90b5-4583-b554-efe38c220e59
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerPnrpGetEndpoint, PeerPnrpGetEndpoint function [Peer Networking], p2p.peerpnrpgetendpoint, p2p/PeerPnrpGetEndpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

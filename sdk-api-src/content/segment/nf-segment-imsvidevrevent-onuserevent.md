@@ -7,7 +7,7 @@ old-location: mstv\imsvidevrevent_onuserevent.htm
 old-project: mstv
 ms.assetid: 2eee9fd9-ed8d-482d-833a-c785d65cbf6a
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IMSVidEVREvent interface [Microsoft TV Technologies],OnUserEvent method, IMSVidEVREvent.OnUserEvent, IMSVidEVREvent::OnUserEvent, IMSVidEVREventOnUserEvent, OnUserEvent, OnUserEvent method [Microsoft TV Technologies], OnUserEvent method [Microsoft TV Technologies],IMSVidEVREvent interface, mstv.imsvidevrevent_onuserevent, segment/IMSVidEVREvent::OnUserEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

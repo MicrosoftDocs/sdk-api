@@ -7,7 +7,7 @@ old-location: shell\syncmgr_syncmgrprogressitem.htm
 old-project: shell
 ms.assetid: 94ac1206-be5f-467c-ab4a-11f574c406ca
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM structure pointer [Windows Shell], SYNCMGRPROGRESSITEM, SYNCMGRPROGRESSITEM structure [Windows Shell], _tagSYNCMGRPROGRESSITEM, mobsync/LPSYNCMGRPROGRESSITEM, mobsync/SYNCMGRPROGRESSITEM, shell.syncmgr_syncmgrprogressitem, syncmgr.syncmgrprogressitem"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wua\iupdate_title.htm
 old-project: Wua_Sdk
 ms.assetid: 83b1bcfc-d974-4804-8ed0-1ccde335b5ac
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Title property, IUpdate.Title, IUpdate.get_Title, IUpdate::Title, IUpdate::get_Title, Title property [Windows Update Agent], Title property [Windows Update Agent],IUpdate interface, get_Title, wua.iupdate_title, wuapi/IUpdate::Title, wuapi/IUpdate::get_Title
 ms.prod: windows-hardware
 ms.technology: windows-devices

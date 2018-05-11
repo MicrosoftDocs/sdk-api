@@ -7,7 +7,7 @@ old-location: nps\IAS_radius_data_type.htm
 old-project: Nps
 ms.assetid: 620d5c1f-61dc-48af-a1b2-4eaa81e358a7
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: RADIUS_DATA_TYPE, RADIUS_DATA_TYPE enumeration [Network Policy Server], _RADIUS_DATA_TYPE, _ias_radius_data_type, authif/RADIUS_DATA_TYPE, authif/rdtAddress, authif/rdtInteger, authif/rdtIpv6Address, authif/rdtString, authif/rdtTime, authif/rdtUnknown, ias.radius_data_type, nps.IAS_radius_data_type, rdtAddress, rdtInteger, rdtIpv6Address, rdtString, rdtTime, rdtUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

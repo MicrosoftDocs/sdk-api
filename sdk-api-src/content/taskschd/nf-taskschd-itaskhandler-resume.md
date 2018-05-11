@@ -7,7 +7,7 @@ old-location: taskschd\itaskhandler_resume.htm
 old-project: TaskSchd
 ms.assetid: 69e82100-2f21-49a1-8ede-e106cb8f1a25
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Resume method, ITaskHandler.Resume, ITaskHandler::Resume, Resume, Resume method [Task Scheduler], Resume method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_resume, taskschd/ITaskHandler::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices

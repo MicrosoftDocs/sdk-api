@@ -7,7 +7,7 @@ old-location: wua\iwebproxy_setpassword.htm
 old-project: Wua_Sdk
 ms.assetid: 59b500f1-2015-4f72-9be5-c2f57462dff0
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],SetPassword method, IWebProxy.SetPassword, IWebProxy::SetPassword, SetPassword, SetPassword method [Windows Update Agent], SetPassword method [Windows Update Agent],IWebProxy interface, wua.iwebproxy_setpassword, wuapi/IWebProxy::SetPassword
 ms.prod: windows-hardware
 ms.technology: windows-devices

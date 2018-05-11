@@ -7,7 +7,7 @@ old-location: mstv\ixdscodec_getlasterrorcode.htm
 old-project: mstv
 ms.assetid: 57fd833a-00cc-41d5-acf9-6b07aa8dc115
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetLastErrorCode method, IXDSCodec.GetLastErrorCode, IXDSCodec::GetLastErrorCode, IXDSCodecGetLastErrorCode, encdec/IXDSCodec::GetLastErrorCode, mstv.ixdscodec_getlasterrorcode
 ms.prod: windows-hardware
 ms.technology: windows-devices

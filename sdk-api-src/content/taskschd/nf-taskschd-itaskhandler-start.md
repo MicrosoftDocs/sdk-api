@@ -7,7 +7,7 @@ old-location: taskschd\itaskhandler_start.htm
 old-project: TaskSchd
 ms.assetid: e0a51387-e638-40ee-a4e4-edd7f3115975
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Start method, ITaskHandler.Start, ITaskHandler::Start, Start, Start method [Task Scheduler], Start method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_start, taskschd/ITaskHandler::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices

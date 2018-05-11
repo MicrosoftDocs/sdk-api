@@ -7,7 +7,7 @@ old-location: dshow\ibpcsatellitetuner_istapingpermitted.htm
 old-project: DirectShow
 ms.assetid: 5e5b661f-46d5-47f1-adeb-d323c57ddff0
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IBPCSatelliteTuner interface [DirectShow],IsTapingPermitted method, IBPCSatelliteTuner.IsTapingPermitted, IBPCSatelliteTuner::IsTapingPermitted, IBPCSatelliteTunerIsTapingPermitted, IsTapingPermitted, IsTapingPermitted method [DirectShow], IsTapingPermitted method [DirectShow],IBPCSatelliteTuner interface, dshow.ibpcsatellitetuner_istapingpermitted, strmif/IBPCSatelliteTuner::IsTapingPermitted
 ms.prod: windows-hardware
 ms.technology: windows-devices

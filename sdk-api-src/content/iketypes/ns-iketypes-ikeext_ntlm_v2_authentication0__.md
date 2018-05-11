@@ -7,7 +7,7 @@ old-location: fwp\ikeext_ntlm_v2_authentication0.htm
 old-project: FWP
 ms.assetid: 8ac34054-5066-49f2-80b6-e674f6175c8e
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IKEEXT_NTLM_V2_AUTHENTICATION0, IKEEXT_NTLM_V2_AUTHENTICATION0 structure [Filtering], IKEEXT_NTLM_V2_AUTHENTICATION0__, IKEEXT_NTLM_V2_AUTH_DONT_ACCEPT_EXPLICIT_CREDENTIALS, fwp.ikeext_ntlm_v2_authentication0, iketypes/IKEEXT_NTLM_V2_AUTHENTICATION0
 ms.prod: windows-hardware
 ms.technology: windows-devices

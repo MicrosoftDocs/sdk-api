@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport2.htm
 old-project: directmanipulation
 ms.assetid: 6EDFBA93-D2A2-4089-9976-CD1F8421B319
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationViewport2, IDirectManipulationViewport2 interface [Direct Manipulation], IDirectManipulationViewport2 interface [Direct Manipulation],described, directmanipulation.idirectmanipulationviewport2, directmanipulation/IDirectManipulationViewport2
 ms.prod: windows-hardware
 ms.technology: windows-devices

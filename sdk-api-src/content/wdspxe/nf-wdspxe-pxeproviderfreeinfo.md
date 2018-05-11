@@ -7,7 +7,7 @@ old-location: wds\pxeproviderfreeinfo.htm
 old-project: Wds
 ms.assetid: dd0f2b02-afc9-4ff6-b5b8-772ef15e4aa7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: PxeProviderFreeInfo, PxeProviderFreeInfo function [Windows Deployment Services], wds.pxeproviderfreeinfo, wdspxe/PxeProviderFreeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

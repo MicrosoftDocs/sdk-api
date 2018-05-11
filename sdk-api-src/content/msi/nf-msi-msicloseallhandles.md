@@ -7,7 +7,7 @@ old-location: setup\msicloseallhandles.htm
 old-project: Msi
 ms.assetid: 5914e99b-4895-4d12-bb4e-14a377b2eac4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiCloseAllHandles, MsiCloseAllHandles function, _msi_msicloseallhandles, msi/MsiCloseAllHandles, setup.msicloseallhandles
 ms.prod: windows-hardware
 ms.technology: windows-devices

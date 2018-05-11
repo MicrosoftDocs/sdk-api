@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager2.htm
 old-project: UIAnimation
 ms.assetid: BD7DAD23-2A7D-4EE7-9BCF-8380F928674D
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: IUIAnimationManager2, IUIAnimationManager2 interface [Windows Animation], IUIAnimationManager2 interface [Windows Animation],described, uianimation.iuianimationmanager2, uianimation/IUIAnimationManager2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_holdvariable.htm
 old-project: UIAnimation
 ms.assetid: E6B7C4F9-2377-4968-A16F-15F174EC5439
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: HoldVariable, HoldVariable method [Windows Animation], HoldVariable method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],HoldVariable method, IUIAnimationStoryboard2.HoldVariable, IUIAnimationStoryboard2::HoldVariable, uianimation.iuianimationstoryboard2_holdvariable, uianimation/IUIAnimationStoryboard2::HoldVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices

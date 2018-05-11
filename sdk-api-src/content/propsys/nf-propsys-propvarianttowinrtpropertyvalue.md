@@ -7,7 +7,7 @@ old-location: properties\propvarianttowinrtpropertyvalue.htm
 old-project: properties
 ms.assetid: 38DD3673-17FD-4F2A-BA58-A1A9983B92BF
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: PropVariantToWinRTPropertyValue, PropVariantToWinRTPropertyValue function [Windows Properties], properties.propvarianttowinrtpropertyvalue, propsys/PropVariantToWinRTPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

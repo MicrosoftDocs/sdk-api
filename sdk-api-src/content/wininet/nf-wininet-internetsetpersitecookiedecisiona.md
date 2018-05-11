@@ -7,7 +7,7 @@ old-location: wininet\internetsetpersitecookiedecision.htm
 old-project: WinInet
 ms.assetid: c25699b9-f79a-443b-b9a4-461c379fa8e4
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: InternetSetPerSiteCookieDecision, InternetSetPerSiteCookieDecision function [WinINet], InternetSetPerSiteCookieDecisionA, InternetSetPerSiteCookieDecisionW, wininet.internetsetpersitecookiedecision, wininet/InternetSetPerSiteCookieDecision, wininet/InternetSetPerSiteCookieDecisionA, wininet/InternetSetPerSiteCookieDecisionW
 ms.prod: windows-hardware
 ms.technology: windows-devices

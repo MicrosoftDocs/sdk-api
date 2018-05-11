@@ -7,7 +7,7 @@ old-location: wic\iwicimageencoder.htm
 old-project: wic
 ms.assetid: D9854D82-0226-4DD8-AE54-93E5B6544B46
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: IWICImageEncoder, IWICImageEncoder interface [Windows Imaging Component], IWICImageEncoder interface [Windows Imaging Component],described, wic.iwicimageencoder, wincodec/IWICImageEncoder
 ms.prod: windows-hardware
 ms.technology: windows-devices

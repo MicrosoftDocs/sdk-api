@@ -7,7 +7,7 @@ old-location: mf\itocentrylist_addentrybyindex.htm
 old-project: medfound
 ms.assetid: c8146c0f-ac91-42c7-9368-dd2db6079d3d
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: AddEntryByIndex, AddEntryByIndex method [Media Foundation], AddEntryByIndex method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],AddEntryByIndex method, ITocEntryList.AddEntryByIndex, ITocEntryList::AddEntryByIndex, codecapi.itocentrylist_addentrybyindex, mf.itocentrylist_addentrybyindex, wmcodecdsp/ITocEntryList::AddEntryByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

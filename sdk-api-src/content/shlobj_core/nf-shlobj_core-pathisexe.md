@@ -7,7 +7,7 @@ old-location: shell\PathIsExe.htm
 old-project: shell
 ms.assetid: 54e9dae7-f9c4-48b8-9b91-32ed21365fb7
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PathIsExe, PathIsExe function [Windows Shell], _win32_PathIsExe, shell.PathIsExe, shlobj_core/PathIsExe
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\peercollabcancelinvitation.htm
 old-project: P2PSdk
 ms.assetid: 733c4ece-283b-4d25-8dab-1351f6ca7d12
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerCollabCancelInvitation, PeerCollabCancelInvitation function [Peer Networking], p2p.peercollabcancelinvitation, p2p/PeerCollabCancelInvitation
 ms.prod: windows-hardware
 ms.technology: windows-devices

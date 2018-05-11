@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_setvariablechangehandler.htm
 old-project: UIAnimation
 ms.assetid: d773a59f-10a5-41e4-92f1-af72d8d15105
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetVariableChangeHandler method, IUIAnimationVariable.SetVariableChangeHandler, IUIAnimationVariable::SetVariableChangeHandler, SetVariableChangeHandler, SetVariableChangeHandler method [Windows Animation], SetVariableChangeHandler method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setvariablechangehandler, uianimation/IUIAnimationVariable::SetVariableChangeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

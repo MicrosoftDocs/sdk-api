@@ -7,7 +7,7 @@ old-location: base\minidump_secondary_flags.htm
 old-project: Debug
 ms.assetid: c8485db1-0cc0-4baa-90fb-b5c1f9236b80
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: MINIDUMP_SECONDARY_FLAGS, MINIDUMP_SECONDARY_FLAGS enumeration, MiniSecondaryWithoutPowerInfo, _MINIDUMP_SECONDARY_FLAGS, base.minidump_secondary_flags, minidumpapiset/MINIDUMP_SECONDARY_FLAGS, minidumpapiset/MiniSecondaryWithoutPowerInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

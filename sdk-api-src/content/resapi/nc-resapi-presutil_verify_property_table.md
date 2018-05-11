@@ -7,7 +7,7 @@ old-location: mscs\resutilverifypropertytable.htm
 old-project: MsCS
 ms.assetid: 5a079081-c11a-4f85-89d4-09a5e7fab29f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PRESUTIL_VERIFY_PROPERTY_TABLE, PRESUTIL_VERIFY_PROPERTY_TABLE callback, PRESUTIL_VERIFY_PROPERTY_TABLE callback function [Failover Cluster], _wolf_resutilverifypropertytable, mscs.resutilverifypropertytable, resapi/PRESUTIL_VERIFY_PROPERTY_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices

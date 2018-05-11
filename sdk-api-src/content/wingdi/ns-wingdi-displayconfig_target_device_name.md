@@ -7,7 +7,7 @@ old-location: display\displayconfig_target_device_name.htm
 old-project: display
 ms.assetid: 85507b69-8ce0-4f39-a4d3-7d67f515b451
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: CCD_Structures_71e42f61-634a-47fe-b330-404dbe59e211.xml, DISPLAYCONFIG_TARGET_DEVICE_NAME, DISPLAYCONFIG_TARGET_DEVICE_NAME structure [Display Devices], display.displayconfig_target_device_name, wingdi/DISPLAYCONFIG_TARGET_DEVICE_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices

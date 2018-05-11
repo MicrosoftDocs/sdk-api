@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_logonnotify.htm
 old-project: TermServ
 ms.assetid: 6065e827-23a5-4150-bda5-999b7acede65
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],LogonNotify method, IWTSProtocolConnection.LogonNotify, IWTSProtocolConnection::LogonNotify, LogonNotify, LogonNotify method [Remote Desktop Services], LogonNotify method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_logonnotify, wtsprotocol/IWTSProtocolConnection::LogonNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

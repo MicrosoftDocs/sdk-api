@@ -7,7 +7,7 @@ old-location: wic\iwicplanarformatconverter_initialize.htm
 old-project: wic
 ms.assetid: 0EEF6940-627A-4615-90C0-196AAB36843E
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: IWICPlanarFormatConverter interface [Windows Imaging Component],Initialize method, IWICPlanarFormatConverter.Initialize, IWICPlanarFormatConverter::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICPlanarFormatConverter interface, wic.iwicplanarformatconverter_initialize, wincodec/IWICPlanarFormatConverter::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

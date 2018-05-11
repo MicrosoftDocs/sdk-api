@@ -7,7 +7,7 @@ old-location: vhd\get_virtual_disk_info.htm
 old-project: VStor
 ms.assetid: 666c1d6e-cf23-4452-98ea-e7d4c31c3d3b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: "*PGET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO structure [VHD], PGET_VIRTUAL_DISK_INFO, PGET_VIRTUAL_DISK_INFO structure pointer [VHD], _GET_VIRTUAL_DISK_INFO, vhd.get_virtual_disk_info, virtdisk/GET_VIRTUAL_DISK_INFO, virtdisk/PGET_VIRTUAL_DISK_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

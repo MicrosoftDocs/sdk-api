@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicmetadatablockwriter_removewriterbyindex.htm
 old-project: wic
 ms.assetid: 030c5b0e-5db7-40ae-889c-2e1335d2c50b
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: IWICMetadataBlockWriter interface [Windows Imaging Component],RemoveWriterByIndex method, IWICMetadataBlockWriter.RemoveWriterByIndex, IWICMetadataBlockWriter::RemoveWriterByIndex, RemoveWriterByIndex, RemoveWriterByIndex method [Windows Imaging Component], RemoveWriterByIndex method [Windows Imaging Component],IWICMetadataBlockWriter interface, _wic_codec_iwicmetadatablockwriter_removewriterbyindex, wic._wic_codec_iwicmetadatablockwriter_removewriterbyindex, wincodecsdk/IWICMetadataBlockWriter::RemoveWriterByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

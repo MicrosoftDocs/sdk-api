@@ -7,7 +7,7 @@ old-location: dshow\imediaobjectinplace_process.htm
 old-project: DirectShow
 ms.assetid: 567117cd-db7b-4764-9c88-ab898a64b56a
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IMediaObjectInPlace interface [DirectShow],Process method, IMediaObjectInPlace.Process, IMediaObjectInPlace::Process, IMediaObjectInPlaceProcess, Process, Process method [DirectShow], Process method [DirectShow],IMediaObjectInPlace interface, dshow.imediaobjectinplace_process, mediaobj/IMediaObjectInPlace::Process
 ms.prod: windows-hardware
 ms.technology: windows-devices

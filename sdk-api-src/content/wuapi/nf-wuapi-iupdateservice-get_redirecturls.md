@@ -7,7 +7,7 @@ old-location: wua\iupdateservice_redirecturls.htm
 old-project: Wua_Sdk
 ms.assetid: 264e46d5-d72b-42c9-aed2-badbfc701cff
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],RedirectUrls property, IUpdateService.RedirectUrls, IUpdateService.get_RedirectUrls, IUpdateService::RedirectUrls, IUpdateService::get_RedirectUrls, RedirectUrls property [Windows Update Agent], RedirectUrls property [Windows Update Agent],IUpdateService interface, get_RedirectUrls, wua.iupdateservice_redirecturls, wuapi/IUpdateService::RedirectUrls, wuapi/IUpdateService::get_RedirectUrls
 ms.prod: windows-hardware
 ms.technology: windows-devices

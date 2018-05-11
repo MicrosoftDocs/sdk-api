@@ -7,7 +7,7 @@ old-location: multimedia\capvideostreamcallback.htm
 old-project: Multimedia
 ms.assetid: e21d7563-0ca8-4777-9fb0-de7c1c4ae618
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: CAPVIDEOCALLBACK, _win32_capVideoStreamCallback, capVideoStreamCallback, capVideoStreamCallback callback, capVideoStreamCallback callback function [Windows Multimedia], multimedia.capvideostreamcallback, vfw/capVideoStreamCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

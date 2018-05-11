@@ -7,7 +7,7 @@ old-location: wua\isearchresult_updates.htm
 old-project: Wua_Sdk
 ms.assetid: a978986c-6cb0-4333-9bfe-0456a133ee08
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: ISearchResult interface [Windows Update Agent],Updates property, ISearchResult.Updates, ISearchResult.get_Updates, ISearchResult::Updates, ISearchResult::get_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],ISearchResult interface, get_Updates, wua.isearchresult_updates, wuapi/ISearchResult::Updates, wuapi/ISearchResult::get_Updates
 ms.prod: windows-hardware
 ms.technology: windows-devices

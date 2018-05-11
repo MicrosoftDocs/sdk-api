@@ -7,7 +7,7 @@ old-location: wua\iupdateservice_expirationdate.htm
 old-project: Wua_Sdk
 ms.assetid: d13444bc-671b-4b3a-a970-0660ef63a4d8
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: ExpirationDate property [Windows Update Agent], ExpirationDate property [Windows Update Agent],IUpdateService interface, IUpdateService interface [Windows Update Agent],ExpirationDate property, IUpdateService.ExpirationDate, IUpdateService.get_ExpirationDate, IUpdateService::ExpirationDate, IUpdateService::get_ExpirationDate, get_ExpirationDate, wua.iupdateservice_expirationdate, wua.iupdateservice_expirydate, wuapi/IUpdateService::ExpirationDate, wuapi/IUpdateService::get_ExpirationDate
 ms.prod: windows-hardware
 ms.technology: windows-devices

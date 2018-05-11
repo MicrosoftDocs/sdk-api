@@ -7,7 +7,7 @@ old-location: fwp\fwpmsessionenum0_func.htm
 old-project: FWP
 ms.assetid: fb67d74a-dd96-434c-b218-a34ca6043cb1
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmSessionEnum0, FwpmSessionEnum0 function [Filtering], fwp.fwpmsessionenum0_func, fwpmu/FwpmSessionEnum0
 ms.prod: windows-hardware
 ms.technology: windows-devices

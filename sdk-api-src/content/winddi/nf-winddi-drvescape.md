@@ -7,7 +7,7 @@ old-location: display\drvescape.htm
 old-project: display
 ms.assetid: 7b59dc85-27f4-4529-847e-6027dae8a45a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: DrvEscape, DrvEscape function [Display Devices], ddifncs_14e6aa7f-fe76-48bb-9161-bdcc1a67309f.xml, display.drvescape, winddi/DrvEscape
 ms.prod: windows-hardware
 ms.technology: windows-devices

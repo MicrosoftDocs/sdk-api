@@ -7,7 +7,7 @@ old-location: input_intcontext\interaction_context_output_callback.htm
 old-project: Input_IntContext
 ms.assetid: 7d2badad-5b98-4717-9409-5ee75d8fa213
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/8/2018
 ms.keywords: INTERACTION_CONTEXT_OUTPUT_CALLBACK, INTERACTION_CONTEXT_OUTPUT_CALLBACK callback, INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function, input_intcontext.interaction_context_output_callback, interactioncontext.interaction_context_output_callback, interactioncontext/INTERACTION_CONTEXT_OUTPUT_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

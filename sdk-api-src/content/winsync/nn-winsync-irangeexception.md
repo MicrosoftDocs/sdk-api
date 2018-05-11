@@ -7,13 +7,13 @@ old-location: winsync\irangeexception.htm
 old-project: winsync
 ms.assetid: 7eea9fe0-80e7-43a9-a797-df12d4d809dc
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: IRangeException, IRangeException interface [Windows Sync], IRangeException interface [Windows Sync],described, mshtmlc/IRangeException, winsync.irangeexception
+ms.date: 5/9/2018
+ms.keywords: IRangeException, IRangeException interface [Windows Sync], IRangeException interface [Windows Sync],described, winsync.irangeexception, winsync/IRangeException
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
 req.header: winsync.h
-req.include-header: Winsync.h, Mshtml.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7 [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
@@ -33,7 +33,7 @@ topic_type:
 api_type:
 -	COM
 api_location:
--	mshtmlc.h
+-	winsync.h
 api_name:
 -	IRangeException
 product: Windows

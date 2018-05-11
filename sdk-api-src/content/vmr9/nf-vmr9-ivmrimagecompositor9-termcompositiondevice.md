@@ -7,7 +7,7 @@ old-location: dshow\ivmrimagecompositor9_termcompositiondevice.htm
 old-project: DirectShow
 ms.assetid: e218222b-fed3-4f4b-8d97-785774800d89
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IVMRImageCompositor9 interface [DirectShow],TermCompositionDevice method, IVMRImageCompositor9.TermCompositionDevice, IVMRImageCompositor9::TermCompositionDevice, IVMRImageCompositor9TermCompositionDevice, TermCompositionDevice, TermCompositionDevice method [DirectShow], TermCompositionDevice method [DirectShow],IVMRImageCompositor9 interface, dshow.ivmrimagecompositor9_termcompositiondevice, vmr9/IVMRImageCompositor9::TermCompositionDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

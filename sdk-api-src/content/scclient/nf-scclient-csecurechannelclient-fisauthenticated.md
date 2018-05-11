@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelclient_fisauthenticated.htm
 old-project: WMDM
 ms.assetid: 9b9a529a-c652-48e1-b70d-e95e2e34e2c5
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],fIsAuthenticated method, CSecureChannelClient.fIsAuthenticated, CSecureChannelClient::fIsAuthenticated, CSecureChannelClientfIsAuthenticated, fIsAuthenticated, fIsAuthenticated method [windows Media Device Manager], fIsAuthenticated method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::fIsAuthenticated, wmdm.csecurechannelclient_fisauthenticated
 ms.prod: windows-hardware
 ms.technology: windows-devices

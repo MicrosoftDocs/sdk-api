@@ -7,7 +7,7 @@ old-location: winrm\wsmanpluginoperationcomplete.htm
 old-project: WinRM
 ms.assetid: 6cb47762-edfc-48d7-88ec-d62056ea1751
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: WSManPluginOperationComplete, WSManPluginOperationComplete function [Windows Remote Management], winrm.wsmanpluginoperationcomplete, wsman/WSManPluginOperationComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

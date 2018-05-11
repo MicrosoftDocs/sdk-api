@@ -7,7 +7,7 @@ old-location: tsf\itflangbareventsink_showfloating.htm
 old-project: TSF
 ms.assetid: f667762a-f276-4311-827e-f89eca7eba1e
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],ShowFloating method, ITfLangBarEventSink.ShowFloating, ITfLangBarEventSink::ShowFloating, ShowFloating, ShowFloating method [Text Services Framework], ShowFloating method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_showfloating_ref, ctfutb/ITfLangBarEventSink::ShowFloating, tsf.itflangbareventsink_showfloating
 ms.prod: windows-hardware
 ms.technology: windows-devices

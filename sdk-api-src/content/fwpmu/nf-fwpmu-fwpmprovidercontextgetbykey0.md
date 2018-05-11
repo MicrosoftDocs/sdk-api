@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercontextgetbykey0_func.htm
 old-project: FWP
 ms.assetid: 09319701-4023-4517-ae25-a2c342cc9df2
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmProviderContextGetByKey0, FwpmProviderContextGetByKey0 function [Filtering], fwp.fwpmprovidercontextgetbykey0_func, fwpmu/FwpmProviderContextGetByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\setclusterserviceaccountpassword.htm
 old-project: MsCS
 ms.assetid: 4afadb62-2bea-46ef-b0d6-e327ac96d16f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: CLUSTER_SET_PASSWORD_IGNORE_DOWN_NODES, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD callback, PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD callback function [Failover Cluster], _wolf_setclusterserviceaccountpassword, clusapi/PCLUSAPI_SET_CLUSTER_SERVICE_ACCOUNT_PASSWORD, mscs.setclusterserviceaccountpassword
 ms.prod: windows-hardware
 ms.technology: windows-devices

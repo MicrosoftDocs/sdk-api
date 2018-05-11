@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioformatenumerator.htm
 old-project: CoreAudio
 ms.assetid: 50434617-E70E-4931-B98E-61650E9DEA7E
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IAudioFormatEnumerator, IAudioFormatEnumerator interface [Core Audio], IAudioFormatEnumerator interface [Core Audio],described, coreaudio.iaudioformatenumerator, spatialaudioclient/IAudioFormatEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

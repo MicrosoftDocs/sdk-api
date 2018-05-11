@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_GetComboBoxValueAt.htm
 old-project: shell
 ms.assetid: e64c6b80-03c9-46a3-91bd-6cd67d666540
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: GetComboBoxValueAt, GetComboBoxValueAt method [Windows Shell], GetComboBoxValueAt method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetComboBoxValueAt method, ICredentialProviderCredential.GetComboBoxValueAt, ICredentialProviderCredential::GetComboBoxValueAt, _shell_ICredentialProviderCredential_GetComboBoxValueAt, credentialprovider/ICredentialProviderCredential::GetComboBoxValueAt, shell.ICredentialProviderCredential_GetComboBoxValueAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

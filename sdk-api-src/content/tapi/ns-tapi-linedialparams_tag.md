@@ -7,7 +7,7 @@ old-location: tapi2\linedialparams_str.htm
 old-project: Tapi
 ms.assetid: efb65462-abe5-46db-9299-97871e0d011e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "*LPLINEDIALPARAMS, LINEDIALPARAMS, LINEDIALPARAMS structure [TAPI 2.2], LPLINEDIALPARAMS, LPLINEDIALPARAMS structure pointer [TAPI 2.2], _tapi2_linedialparams_str, linedialparams_tag, tapi/LINEDIALPARAMS, tapi/LPLINEDIALPARAMS, tapi2.linedialparams_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

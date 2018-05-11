@@ -7,7 +7,7 @@ old-location: base\queryservicestatusex.htm
 old-project: Services
 ms.assetid: 3fe02245-97b1-49f3-8f35-2dcd6f221547
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/9/2018
 ms.keywords: QueryServiceStatusEx, QueryServiceStatusEx function, _win32_queryservicestatusex, base.queryservicestatusex, winsvc/QueryServiceStatusEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

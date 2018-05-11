@@ -7,7 +7,7 @@ old-location: controls\NMLVDISPINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvdispinfo.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: "*LPNMLVDISPINFOW, NMLVDISPINFO, NMLVDISPINFO structure [Windows Controls], NMLVDISPINFOA, NMLVDISPINFOW, _win32_NMLVDISPINFO, _win32_NMLVDISPINFO_cpp, commctrl/NMLVDISPINFO, commctrl/NMLVDISPINFOA, commctrl/NMLVDISPINFOW, controls.NMLVDISPINFO, controls._win32_NMLVDISPINFO, tagLVDISPINFOW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

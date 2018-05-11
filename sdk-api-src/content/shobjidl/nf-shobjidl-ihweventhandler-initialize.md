@@ -7,7 +7,7 @@ old-location: shell\IHWEventHandler_Initialize.htm
 old-project: shell
 ms.assetid: 96eb582a-4f32-4e13-ad01-8b5ffabab582
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IHWEventHandler interface [Windows Shell],Initialize method, IHWEventHandler.Initialize, IHWEventHandler::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IHWEventHandler interface, inet_IHWEventHandler_Initialize, shell.IHWEventHandler_Initialize, shobjidl/IHWEventHandler::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

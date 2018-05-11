@@ -7,7 +7,7 @@ old-location: security\spgetextendedinformation.htm
 old-project: SecAuthN
 ms.assetid: e3cb602a-2c98-4e9c-bfbc-f12f353ce3e3
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SpGetExtendedInformation, SpGetExtendedInformation function [Security], SpGetExtendedInformationFn, _ssp_spgetextendedinformation, ntsecpkg/SpGetExtendedInformation, security.spgetextendedinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

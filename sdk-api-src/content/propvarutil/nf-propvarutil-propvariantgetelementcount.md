@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetElementCount.htm
 old-project: properties
 ms.assetid: 1d02f06e-f90b-40f2-923b-a89d2d4d535c
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: PropVariantGetElementCount, PropVariantGetElementCount function [Windows Properties], _shell_PropVariantGetElementCount, properties.PropVariantGetElementCount, propvarutil/PropVariantGetElementCount, shell.PropVariantGetElementCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

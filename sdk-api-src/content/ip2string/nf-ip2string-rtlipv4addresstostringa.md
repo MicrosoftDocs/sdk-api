@@ -7,7 +7,7 @@ old-location: iphlp\rtlipv4addresstostring.htm
 old-project: IpHlp
 ms.assetid: f198b770-9429-4b51-9fb4-06cf9917bc21
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: RtlIpv4AddressToString, RtlIpv4AddressToString function [IP Helper], RtlIpv4AddressToStringA, RtlIpv4AddressToStringW, ip2string/RtlIpv4AddressToString, ip2string/RtlIpv4AddressToStringA, ip2string/RtlIpv4AddressToStringW, iphlp.rtlipv4addresstostring
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\fwpmtransactionbegin0_func.htm
 old-project: FWP
 ms.assetid: 9eaf1101-7cf3-4eb2-9ca0-47108a5c80c7
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_TXN_READ_ONLY, FwpmTransactionBegin0, FwpmTransactionBegin0 function [Filtering], fwp.fwpmtransactionbegin0_func, fwpmu/FwpmTransactionBegin0
 ms.prod: windows-hardware
 ms.technology: windows-devices

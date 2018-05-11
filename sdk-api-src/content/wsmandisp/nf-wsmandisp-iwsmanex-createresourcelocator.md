@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex_createresourcelocator.htm
 old-project: WinRM
 ms.assetid: b670865d-96d6-4b06-a9a5-ed74574a0108
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: CreateResourceLocator, CreateResourceLocator method [Windows Remote Management], CreateResourceLocator method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],CreateResourceLocator method, IWSManEx.CreateResourceLocator, IWSManEx::CreateResourceLocator, winrm.iwsmanex_createresourcelocator, wsmandisp/IWSManEx::CreateResourceLocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

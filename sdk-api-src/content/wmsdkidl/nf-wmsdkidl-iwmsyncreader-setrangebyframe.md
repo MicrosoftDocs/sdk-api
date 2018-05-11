@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_setrangebyframe.htm
 old-project: wmformat
 ms.assetid: 3d53838c-0d07-4aa6-8797-9ed7e07cb8fe
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],SetRangeByFrame method, IWMSyncReader.SetRangeByFrame, IWMSyncReader::SetRangeByFrame, IWMSyncReaderSetRangeByFrame, SetRangeByFrame, SetRangeByFrame method [windows Media Format], SetRangeByFrame method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_setrangebyframe, wmsdkidl/IWMSyncReader::SetRangeByFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_rollrelative.htm
 old-project: DirectShow
 ms.assetid: b0dbfd1c-493f-4f35-88ab-cd3868a56370
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: ICameraControl interface [DirectShow],put_RollRelative method, ICameraControl.put_RollRelative, ICameraControl::put_RollRelative, ICameraControlput_RollRelative, dshow.icameracontrol_put_rollrelative, put_RollRelative, put_RollRelative method [DirectShow], put_RollRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_RollRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices

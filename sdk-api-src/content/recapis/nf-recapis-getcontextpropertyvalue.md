@@ -7,7 +7,7 @@ old-location: tablet\getcontextpropertyvalue.htm
 old-project: tablet
 ms.assetid: e3f154ce-b4bf-4520-a4de-03cfe27ef9b0
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: GetContextPropertyValue, GetContextPropertyValue function [Tablet PC], e3f154ce-b4bf-4520-a4de-03cfe27ef9b0, recapis/GetContextPropertyValue, tablet.getcontextpropertyvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

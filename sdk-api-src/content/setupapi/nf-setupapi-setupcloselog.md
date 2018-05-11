@@ -7,7 +7,7 @@ old-location: setup\setupcloselog.htm
 old-project: SetupApi
 ms.assetid: 659e7922-205c-4da2-90ed-aa7d7625af87
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupCloseLog, SetupCloseLog function [Setup API], _setupapi_setupcloselog, setup.setupcloselog, setupapi/SetupCloseLog
 ms.prod: windows-hardware
 ms.technology: windows-devices

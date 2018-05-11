@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrScheduleWizardUIOperation.htm
 old-project: shell
 ms.assetid: dcbe22fb-624f-4784-b1c3-5c463d6502a3
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncMgrScheduleWizardUIOperation, ISyncMgrScheduleWizardUIOperation interface [Windows Shell], ISyncMgrScheduleWizardUIOperation interface [Windows Shell],described, _shell_ISyncMgrScheduleWizardUIOperation, shell.ISyncMgrScheduleWizardUIOperation, syncmgr/ISyncMgrScheduleWizardUIOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

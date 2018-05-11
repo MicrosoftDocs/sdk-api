@@ -7,7 +7,7 @@ old-location: controls\ListView_SortGroups.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sortgroups.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: ListView_SortGroups, ListView_SortGroups macro [Windows Controls], _win32_ListView_SortGroups, _win32_ListView_SortGroups_cpp, commctrl/ListView_SortGroups, controls.ListView_SortGroups, controls._win32_ListView_SortGroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

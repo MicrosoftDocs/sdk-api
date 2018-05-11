@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelclient_decryptparam.htm
 old-project: WMDM
 ms.assetid: 4e19b86c-9efc-4c20-bac9-8cd6b944f69e
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],DecryptParam method, CSecureChannelClient.DecryptParam, CSecureChannelClient::DecryptParam, CSecureChannelClientDecryptParam, DecryptParam, DecryptParam method [windows Media Device Manager], DecryptParam method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::DecryptParam, wmdm.csecurechannelclient_decryptparam
 ms.prod: windows-hardware
 ms.technology: windows-devices

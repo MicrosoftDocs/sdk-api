@@ -7,7 +7,7 @@ old-location: base\debugsetprocesskillonexit.htm
 old-project: Debug
 ms.assetid: 7ef44527-bde4-41f0-a470-d3f404c77ea9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: DebugSetProcessKillOnExit, DebugSetProcessKillOnExit function, _win32_debugsetprocesskillonexit, base.debugsetprocesskillonexit, winbase/DebugSetProcessKillOnExit
 ms.prod: windows-hardware
 ms.technology: windows-devices

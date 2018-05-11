@@ -7,7 +7,7 @@ old-location: taskschd\itasksettings2.htm
 old-project: TaskSchd
 ms.assetid: ea08e599-5d4a-4919-abed-c35fe0977f3f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITaskSettings2, ITaskSettings2 interface [Task Scheduler], ITaskSettings2 interface [Task Scheduler],described, taskschd.itasksettings2, taskschd/ITaskSettings2
 ms.prod: windows-hardware
 ms.technology: windows-devices

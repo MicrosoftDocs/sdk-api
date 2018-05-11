@@ -7,7 +7,7 @@ old-location: iphlp\sendarp.htm
 old-project: IpHlp
 ms.assetid: 5cbaf45a-a64e-49fd-a920-01759b5c4f81
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: SendARP, SendARP function [IP Helper], _iphlp_sendarp, iphlp.sendarp, iphlpapi/SendARP
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\secpkg_short_vector.htm
 old-project: SecAuthN
 ms.assetid: 55F6B72E-B4D5-44F0-9268-D25D677746C5
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PSECPKG_SHORT_VECTOR, PSECPKG_SHORT_VECTOR, PSECPKG_SHORT_VECTOR structure pointer [Security], SECPKG_SHORT_VECTOR, SECPKG_SHORT_VECTOR structure [Security], _SECPKG_SHORT_VECTOR, ntsecpkg/PSECPKG_SHORT_VECTOR, ntsecpkg/SECPKG_SHORT_VECTOR, security.secpkg_short_vector"
 ms.prod: windows-hardware
 ms.technology: windows-devices

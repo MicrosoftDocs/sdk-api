@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject2.htm
 old-project: WMDM
 ms.assetid: f79c07a6-b7e6-4c00-83be-ac2bfc9a751b
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: IMDSPObject2, IMDSPObject2 interface [windows Media Device Manager], IMDSPObject2 interface [windows Media Device Manager],described, IMDSPObject2Interface, mswmdm/IMDSPObject2, wmdm.imdspobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices

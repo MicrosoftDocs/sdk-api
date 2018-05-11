@@ -7,7 +7,7 @@ old-location: display\engdebugprint.htm
 old-project: display
 ms.assetid: 2480adec-68b6-4ffe-8b20-2ca7cb1a4d79
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: EngDebugPrint, EngDebugPrint function [Display Devices], display.engdebugprint, gdifncs_e3529861-721f-41f3-aedc-12ef88353b24.xml, winddi/EngDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices

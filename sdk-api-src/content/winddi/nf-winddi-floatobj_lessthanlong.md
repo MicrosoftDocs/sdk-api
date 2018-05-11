@@ -7,7 +7,7 @@ old-location: display\floatobj_lessthanlong.htm
 old-project: display
 ms.assetid: 10665f5d-68ae-4f72-9fa2-c79cf86ded3d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: FLOATOBJ_LessThanLong, FLOATOBJ_LessThanLong function [Display Devices], display.floatobj_lessthanlong, gdifncs_ab38a262-384e-441b-8e87-665a29124cba.xml, winddi/FLOATOBJ_LessThanLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

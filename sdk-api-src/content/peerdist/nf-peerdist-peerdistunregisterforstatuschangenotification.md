@@ -7,7 +7,7 @@ old-location: p2p\peerdistunregisterforstatuschangenotification.htm
 old-project: P2PSdk
 ms.assetid: cb18c8bb-92b3-4d4e-9ce8-77c5628a9a1a
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerDistUnregisterForStatusChangeNotification, PeerDistUnregisterForStatusChangeNotification function [Peer Networking], p2p.peerdistunregisterforstatuschangenotification, peerdist/PeerDistUnregisterForStatusChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

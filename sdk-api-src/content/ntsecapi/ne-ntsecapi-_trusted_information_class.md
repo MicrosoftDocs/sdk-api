@@ -7,7 +7,7 @@ old-location: security\trusted_information_class.htm
 old-project: SecMgmt
 ms.assetid: 442a0944-b498-4d9f-b338-d5aed1663d8d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/9/2018
 ms.keywords: "*PTRUSTED_INFORMATION_CLASS, PTRUSTED_INFORMATION_CLASS, PTRUSTED_INFORMATION_CLASS enumeration pointer [Security], TRUSTED_INFORMATION_CLASS, TRUSTED_INFORMATION_CLASS enumeration [Security], TrustedControllersInformation, TrustedDomainAuthInformation, TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _TRUSTED_INFORMATION_CLASS, _lsa_trusted_information_class, ntsecapi/PTRUSTED_INFORMATION_CLASS, ntsecapi/TRUSTED_INFORMATION_CLASS, ntsecapi/TrustedControllersInformation, ntsecapi/TrustedDomainAuthInformation, ntsecapi/TrustedDomainFullInformation, ntsecapi/TrustedDomainInformationBasic, ntsecapi/TrustedDomainInformationEx, ntsecapi/TrustedDomainNameInformation, ntsecapi/TrustedPasswordInformation, ntsecapi/TrustedPosixOffsetInformation, security.trusted_information_class"
 ms.prod: windows-hardware
 ms.technology: windows-devices

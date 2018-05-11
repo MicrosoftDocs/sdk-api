@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessor.htm
 old-project: medfound
 ms.assetid: a9bc3162-4f37-4f0b-8a8e-8ebeb8f0d8d5
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectXVideoProcessor, IDirectXVideoProcessor interface [Media Foundation], IDirectXVideoProcessor interface [Media Foundation],described, a9bc3162-4f37-4f0b-8a8e-8ebeb8f0d8d5, dxva2api/IDirectXVideoProcessor, mf.idirectxvideoprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_titleplay.htm
 old-project: DirectShow
 ms.assetid: 5ca710f0-8f08-43d6-8cc1-a25068d5e0ef
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IDvdControl interface [DirectShow],TitlePlay method, IDvdControl.TitlePlay, IDvdControl::TitlePlay, IDvdControlTitlePlay, TitlePlay, TitlePlay method [DirectShow], TitlePlay method [DirectShow],IDvdControl interface, dshow.idvdcontrol_titleplay, strmif/IDvdControl::TitlePlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

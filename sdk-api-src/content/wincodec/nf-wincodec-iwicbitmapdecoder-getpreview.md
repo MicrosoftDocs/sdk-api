@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapdecoder_getpreview.htm
 old-project: wic
 ms.assetid: 8e726eba-bb74-45b8-be6b-63d9ce00c272
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: GetPreview, GetPreview method [Windows Imaging Component], GetPreview method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetPreview method, IWICBitmapDecoder.GetPreview, IWICBitmapDecoder::GetPreview, _wic_codec_iwicbitmapdecoder_getpreview, wic._wic_codec_iwicbitmapdecoder_getpreview, wincodec/IWICBitmapDecoder::GetPreview
 ms.prod: windows-hardware
 ms.technology: windows-devices

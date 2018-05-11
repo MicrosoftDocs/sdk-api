@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgr2_createdocumentmgr.htm
 old-project: TSF
 ms.assetid: 4B19EA80-9F42-4FFF-AB3D-4D0B5B2174F8
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: CreateDocumentMgr, CreateDocumentMgr method [Text Services Framework], CreateDocumentMgr method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],CreateDocumentMgr method, ITfThreadMgr2.CreateDocumentMgr, ITfThreadMgr2::CreateDocumentMgr, msctf/ITfThreadMgr2::CreateDocumentMgr, tsf.itfthreadmgr2_createdocumentmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices

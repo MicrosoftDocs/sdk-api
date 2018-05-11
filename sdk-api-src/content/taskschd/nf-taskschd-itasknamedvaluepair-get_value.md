@@ -7,7 +7,7 @@ old-location: taskschd\itasknamedvaluepair_value.htm
 old-project: TaskSchd
 ms.assetid: 15428c07-fdce-40d0-a36c-5e23b462471b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITaskNamedValuePair interface [Task Scheduler],Value property, ITaskNamedValuePair.Value, ITaskNamedValuePair.get_Value, ITaskNamedValuePair::Value, ITaskNamedValuePair::get_Value, ITaskNamedValuePair::put_Value, Value property [Task Scheduler], Value property [Task Scheduler],ITaskNamedValuePair interface, get_Value, taskschd.itasknamedvaluepair_value, taskschd/ITaskNamedValuePair::Value, taskschd/ITaskNamedValuePair::get_Value, taskschd/ITaskNamedValuePair::put_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices

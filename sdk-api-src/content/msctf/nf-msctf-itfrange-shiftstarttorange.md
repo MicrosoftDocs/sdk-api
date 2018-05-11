@@ -7,7 +7,7 @@ old-location: tsf\itfrange_shiftstarttorange.htm
 old-project: TSF
 ms.assetid: 8e3e40a0-71ba-4abf-ac99-99d66856746c
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftStartToRange method, ITfRange.ShiftStartToRange, ITfRange::ShiftStartToRange, ShiftStartToRange, ShiftStartToRange method [Text Services Framework], ShiftStartToRange method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftstarttorange_ref, msctf/ITfRange::ShiftStartToRange, tsf.itfrange_shiftstarttorange
 ms.prod: windows-hardware
 ms.technology: windows-devices

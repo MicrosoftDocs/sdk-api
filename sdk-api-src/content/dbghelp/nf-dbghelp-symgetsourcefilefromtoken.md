@@ -7,7 +7,7 @@ old-location: base\symgetsourcefilefromtoken.htm
 old-project: Debug
 ms.assetid: 67a282c2-99f8-4e35-9323-a81327404d1a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: SymGetSourceFileFromToken, SymGetSourceFileFromToken function, SymGetSourceFileFromTokenW, base.symgetsourcefilefromtoken, dbghelp/SymGetSourceFileFromToken, dbghelp/SymGetSourceFileFromTokenW
 ms.prod: windows-hardware
 ms.technology: windows-devices

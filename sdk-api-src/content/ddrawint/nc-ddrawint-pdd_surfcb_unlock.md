@@ -7,7 +7,7 @@ old-location: display\ddunlock.htm
 old-project: display
 ms.assetid: dbb7b34c-5473-42b9-b16f-e71b9c3e1db8
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: DdUnlock, DdUnlock callback function [Display Devices], PDD_SURFCB_UNLOCK, PDD_SURFCB_UNLOCK callback, ddfncs_9599bb87-0f48-4481-a5c8-4c3d60dc1fc6.xml, ddrawint/DdUnlock, display.ddunlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

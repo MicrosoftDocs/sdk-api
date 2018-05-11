@@ -7,7 +7,7 @@ old-location: mf\mfcreatetopology.htm
 old-project: medfound
 ms.assetid: 9811eca7-e822-4ff7-93e4-2eb6245d4490
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 9811eca7-e822-4ff7-93e4-2eb6245d4490, MFCreateTopology, MFCreateTopology function [Media Foundation], mf.mfcreatetopology, mfidl/MFCreateTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices

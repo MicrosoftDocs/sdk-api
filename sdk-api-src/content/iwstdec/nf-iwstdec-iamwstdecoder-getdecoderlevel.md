@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_getdecoderlevel.htm
 old-project: DirectShow
 ms.assetid: 629ee71d-7d79-4fa9-b169-3b5328659435
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetDecoderLevel, GetDecoderLevel method [DirectShow], GetDecoderLevel method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetDecoderLevel method, IAMWstDecoder.GetDecoderLevel, IAMWstDecoder::GetDecoderLevel, IAMWstDecoderGetDecoderLevel, dshow.iamwstdecoder_getdecoderlevel, iwstdec/IAMWstDecoder::GetDecoderLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

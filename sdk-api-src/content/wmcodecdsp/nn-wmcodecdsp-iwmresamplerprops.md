@@ -7,7 +7,7 @@ old-location: mf\iwmresamplerpropsinterface.htm
 old-project: medfound
 ms.assetid: af3cec68-59a2-4b9d-a279-e5af46e9c38e
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IWMResamplerProps, IWMResamplerProps interface [Media Foundation], IWMResamplerProps interface [Media Foundation],described, codecapi.iwmresamplerpropsinterface, mf.iwmresamplerprops, mf.iwmresamplerpropsinterface, wmcodecdsp/IWMResamplerProps
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\certaddcrllinktostore.htm
 old-project: SecCrypto
 ms.assetid: 2fde63ed-7522-4400-a16b-059a001e7c26
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_USE_EXISTING, CertAddCRLLinkToStore, CertAddCRLLinkToStore function [Security], _crypto2_certaddcrllinktostore, security.certaddcrllinktostore, wincrypt/CertAddCRLLinkToStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

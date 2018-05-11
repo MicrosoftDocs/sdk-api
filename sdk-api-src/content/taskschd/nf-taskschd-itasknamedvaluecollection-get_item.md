@@ -7,7 +7,7 @@ old-location: taskschd\itasknamedvaluecollection_item.htm
 old-project: TaskSchd
 ms.assetid: a243b814-7d83-466d-bd49-3414f3240780
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITaskNamedValueCollection interface [Task Scheduler],Item property, ITaskNamedValueCollection.Item, ITaskNamedValueCollection.get_Item, ITaskNamedValueCollection::Item, ITaskNamedValueCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],ITaskNamedValueCollection interface, get_Item, taskschd.itasknamedvaluecollection_item, taskschd/ITaskNamedValueCollection::Item, taskschd/ITaskNamedValueCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

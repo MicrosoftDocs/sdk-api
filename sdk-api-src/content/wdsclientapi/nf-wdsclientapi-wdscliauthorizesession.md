@@ -7,7 +7,7 @@ old-location: wds\wdscliauthorizesession.htm
 old-project: Wds
 ms.assetid: 88e95fa8-1a83-4ef9-b486-c8086cb08116
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsCliAuthorizeSession, WdsCliAuthorizeSession function [Windows Deployment Services], wds.wdscliauthorizesession, wdsclientapi/WdsCliAuthorizeSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

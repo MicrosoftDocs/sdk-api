@@ -7,7 +7,7 @@ old-location: taskschd\itasknamedvaluecollection_count.htm
 old-project: TaskSchd
 ms.assetid: aedb4d3d-0f72-4224-8488-4100d2416994
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Count property, ITaskNamedValueCollection.Count, ITaskNamedValueCollection.get_Count, ITaskNamedValueCollection::Count, ITaskNamedValueCollection::get_Count, get_Count, taskschd.itasknamedvaluecollection_count, taskschd/ITaskNamedValueCollection::Count, taskschd/ITaskNamedValueCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

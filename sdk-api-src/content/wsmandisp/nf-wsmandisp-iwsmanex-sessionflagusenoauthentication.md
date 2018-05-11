@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex_sessionflagusenoauthentication.htm
 old-project: WinRM
 ms.assetid: af3f7512-c1d5-4c4d-b79a-b0bf8b95be6d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseNoAuthentication method, IWSManEx.SessionFlagUseNoAuthentication, IWSManEx::SessionFlagUseNoAuthentication, SessionFlagUseNoAuthentication, SessionFlagUseNoAuthentication method [Windows Remote Management], SessionFlagUseNoAuthentication method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusenoauthentication, wsmandisp/IWSManEx::SessionFlagUseNoAuthentication
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\itasksettings3.htm
 old-project: TaskSchd
 ms.assetid: B0315585-A41C-423C-A059-14C2F04F6652
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITaskSettings3, ITaskSettings3 interface [Task Scheduler], ITaskSettings3 interface [Task Scheduler],described, taskschd.itasksettings3, taskschd/ITaskSettings3
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dd_flipdata.htm
 old-project: display
 ms.assetid: 1926db26-4a29-4ddb-85c6-dd2074eba0b8
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*PDD_FLIPDATA, DD_FLIPDATA, DD_FLIPDATA structure [Display Devices], _DD_FLIPDATA, ddrawint/DD_FLIPDATA, ddstrcts_cfb79a99-a030-4516-8b9f-b6c01b69187d.xml, display.dd_flipdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

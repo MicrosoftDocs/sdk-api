@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_getfilterpluginstore.htm
 old-project: TermServ
 ms.assetid: 39ba9d60-7dde-4aa1-b95e-ec26aef731ca
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: GetFilterPluginStore, GetFilterPluginStore method [Remote Desktop Services], GetFilterPluginStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetFilterPluginStore method, ITsSbProvider.GetFilterPluginStore, ITsSbProvider::GetFilterPluginStore, sbtsv/ITsSbProvider::GetFilterPluginStore, termserv.itssbprovider_getfilterpluginstore
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacp_getformattedtext.htm
 old-project: TSF
 ms.assetid: 1c4e6f8d-d7c6-455d-8efe-7da8dfdd9c4b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetFormattedText method, ITextStoreACP.GetFormattedText, ITextStoreACP::GetFormattedText, _tsf_itextstoreacp_getformattedtext_ref, textstor/ITextStoreACP::GetFormattedText, tsf.itextstoreacp_getformattedtext
 ms.prod: windows-hardware
 ms.technology: windows-devices

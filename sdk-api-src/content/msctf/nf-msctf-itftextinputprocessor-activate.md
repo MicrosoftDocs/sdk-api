@@ -7,7 +7,7 @@ old-location: tsf\itftextinputprocessor_activate.htm
 old-project: TSF
 ms.assetid: c5fd6b5c-0a78-4b5b-aad5-0c398798cf30
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: Activate, Activate method [Text Services Framework], Activate method [Text Services Framework],ITfTextInputProcessor interface, ITfTextInputProcessor interface [Text Services Framework],Activate method, ITfTextInputProcessor.Activate, ITfTextInputProcessor::Activate, _tsf_itftextinputprocessor_activate_ref, msctf/ITfTextInputProcessor::Activate, tsf.itftextinputprocessor_activate
 ms.prod: windows-hardware
 ms.technology: windows-devices

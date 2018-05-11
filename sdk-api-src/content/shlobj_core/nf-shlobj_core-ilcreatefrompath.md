@@ -7,7 +7,7 @@ old-location: shell\ILCreateFromPathW.htm
 old-project: shell
 ms.assetid: dee5486c-8be9-46c1-b5a1-e917e7c1e528
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ILCreateFromPath, ILCreateFromPath function [Windows Shell], ILCreateFromPathA, ILCreateFromPathW, _win32_ILCreateFromPathW, shell.ILCreateFromPathW, shlobj_core/ILCreateFromPath, shlobj_core/ILCreateFromPathA, shlobj_core/ILCreateFromPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

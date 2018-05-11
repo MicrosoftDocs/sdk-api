@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationupdatemanager_update.htm
 old-project: directmanipulation
 ms.assetid: dffa747c-933a-4b61-9f15-e175d9338774
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationUpdateManager interface [Direct Manipulation],Update method, IDirectManipulationUpdateManager.Update, IDirectManipulationUpdateManager::Update, Update, Update method [Direct Manipulation], Update method [Direct Manipulation],IDirectManipulationUpdateManager interface, directmanipulation.idirectmanipulationupdatemanager_update, directmanipulation/IDirectManipulationUpdateManager::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices

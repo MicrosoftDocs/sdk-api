@@ -7,7 +7,7 @@ old-location: mscs\isalive.htm
 old-project: MsCS
 ms.assetid: ff7661af-0a24-4a2e-bb31-c967845a4ff4
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IsAlive, IsAlive callback, IsAlive callback function [Failover Cluster], PIS_ALIVE_ROUTINE, PIS_ALIVE_ROUTINE callback function [Failover Cluster], _wolf_isalive, mscs.isalive, resapi/IsAlive, resapi/PIS_ALIVE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices

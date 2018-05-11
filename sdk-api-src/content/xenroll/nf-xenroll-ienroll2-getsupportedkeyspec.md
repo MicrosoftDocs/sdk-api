@@ -7,7 +7,7 @@ old-location: security\ienroll4_getsupportedkeyspec.htm
 old-project: SecCrypto
 ms.assetid: 8f7ace8e-0102-4c89-9d8a-e252ad60bb96
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetSupportedKeySpec, GetSupportedKeySpec method [Security], GetSupportedKeySpec method [Security],IEnroll2 interface, IEnroll2 interface [Security],GetSupportedKeySpec method, IEnroll2.GetSupportedKeySpec, IEnroll2::GetSupportedKeySpec, security.ienroll4_getsupportedkeyspec, xenroll/IEnroll2::GetSupportedKeySpec
 ms.prod: windows-hardware
 ms.technology: windows-devices

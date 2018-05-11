@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_context_newdynamicinstance.htm
 old-project: wmi_v2
 ms.assetid: 05415945-c804-4056-b4bf-673995c1d6e4
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_Context_NewDynamicInstance, MI_Context_NewDynamicInstance function [Windows Management Infrastructure (MI)], mi/MI_Context_NewDynamicInstance, wmi.mi_newdynamicinstance, wmi_v2.mi_context_newdynamicinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

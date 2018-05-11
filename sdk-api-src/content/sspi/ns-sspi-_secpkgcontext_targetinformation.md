@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_targetinformation.htm
 old-project: SecAuthN
 ms.assetid: 8a5a6bd6-8678-4544-a631-5ee4347bc685
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation, PSecPkgContext_TargetInformation structure pointer [Security], SecPkgContext_TargetInformation, SecPkgContext_TargetInformation structure [Security], _SecPkgContext_TargetInformation, security.secpkgcontext_targetinformation, sspi/PSecPkgContext_TargetInformation, sspi/SecPkgContext_TargetInformation"
 ms.prod: windows-hardware
 ms.technology: windows-devices

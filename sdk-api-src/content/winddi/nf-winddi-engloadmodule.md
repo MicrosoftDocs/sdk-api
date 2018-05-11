@@ -7,7 +7,7 @@ old-location: display\engloadmodule.htm
 old-project: display
 ms.assetid: 0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: EngLoadModule, EngLoadModule function [Display Devices], display.engloadmodule, gdifncs_43b05b8f-ecc9-4097-81d3-39716dabaf2f.xml, winddi/EngLoadModule
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\immgetdefaultimewnd.htm
 old-project: Intl
 ms.assetid: fc3cdfc2-fcdc-4682-b391-83ea4bb1571f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: ImmGetDefaultIMEWnd, ImmGetDefaultIMEWnd function [Internationalization for Windows Applications], _win32_ImmGetDefaultIMEWnd, imm/ImmGetDefaultIMEWnd, intl.immgetdefaultimewnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

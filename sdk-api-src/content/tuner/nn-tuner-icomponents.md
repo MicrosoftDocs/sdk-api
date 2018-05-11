@@ -7,7 +7,7 @@ old-location: mstv\icomponents.htm
 old-project: mstv
 ms.assetid: 670b47ba-bcbd-4281-95e3-a5d784f0610b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IComponents, IComponents interface [Microsoft TV Technologies], IComponents interface [Microsoft TV Technologies],described, IComponentsInterface, mstv.icomponents, tuner/IComponents
 ms.prod: windows-hardware
 ms.technology: windows-devices

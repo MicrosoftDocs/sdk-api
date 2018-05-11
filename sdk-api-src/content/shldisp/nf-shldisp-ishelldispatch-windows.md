@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_Windows.htm
 old-project: shell
 ms.assetid: 788E2106-3534-4e22-801F-677FD02BDFE0
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IShellDispatch object [Windows Shell],Windows method, IShellDispatch.Windows, IShellDispatch::Windows, Windows, Windows method [Windows Shell], Windows method [Windows Shell],IShellDispatch object, shell.IShellDispatch_Windows
 ms.prod: windows-hardware
 ms.technology: windows-devices

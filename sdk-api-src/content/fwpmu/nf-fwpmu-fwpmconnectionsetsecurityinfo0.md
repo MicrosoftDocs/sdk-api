@@ -7,7 +7,7 @@ old-location: fwp\fwpmconnectionsetsecurityinfo0.htm
 old-project: FWP
 ms.assetid: 74c976b0-68a5-4e09-8c6f-6ccb2766e0ad
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmConnectionSetSecurityInfo0, FwpmConnectionSetSecurityInfo0 function [Filtering], fwp.fwpmconnectionsetsecurityinfo0, fwpmu/FwpmConnectionSetSecurityInfo0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicdecodeoptions.htm
 old-project: wic
 ms.assetid: 27b9d6e1-e171-4c7f-8f96-fa5a93923e35
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: WICDecodeMetadataCacheOnDemand, WICDecodeMetadataCacheOnLoad, WICDecodeOptions, WICDecodeOptions enumeration [Windows Imaging Component], _wic_codec_wicdecodeoptions, wic._wic_codec_wicdecodeoptions, wincodec/WICDecodeMetadataCacheOnDemand, wincodec/WICDecodeMetadataCacheOnLoad, wincodec/WICDecodeOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

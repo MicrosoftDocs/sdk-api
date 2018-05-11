@@ -7,7 +7,7 @@ old-location: setup\setupqueuerename.htm
 old-project: SetupApi
 ms.assetid: 0b80eba9-9e71-4255-8c1b-039878682ec4
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupQueueRename, SetupQueueRename function [Setup API], SetupQueueRenameA, SetupQueueRenameW, _setupapi_setupqueuerename, setup.setupqueuerename, setupapi/SetupQueueRename, setupapi/SetupQueueRenameA, setupapi/SetupQueueRenameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

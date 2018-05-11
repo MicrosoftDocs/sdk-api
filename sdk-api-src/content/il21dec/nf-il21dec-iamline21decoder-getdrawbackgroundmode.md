@@ -7,7 +7,7 @@ old-location: dshow\iamline21decoder_getdrawbackgroundmode.htm
 old-project: DirectShow
 ms.assetid: 817a47d6-39c4-4186-81d0-ad822814f0ee
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetDrawBackgroundMode, GetDrawBackgroundMode method [DirectShow], GetDrawBackgroundMode method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetDrawBackgroundMode method, IAMLine21Decoder.GetDrawBackgroundMode, IAMLine21Decoder::GetDrawBackgroundMode, IAMLine21DecoderGetDrawBackgroundMode, dshow.iamline21decoder_getdrawbackgroundmode, il21dec/IAMLine21Decoder::GetDrawBackgroundMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

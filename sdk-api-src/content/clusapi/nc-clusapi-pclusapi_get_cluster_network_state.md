@@ -7,7 +7,7 @@ old-location: mscs\getclusternetworkstate.htm
 old-project: MsCS
 ms.assetid: 7fdbc0cf-fa7b-4b48-bd3c-46f174fc514a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_NETWORK_STATE, PCLUSAPI_GET_CLUSTER_NETWORK_STATE callback, PCLUSAPI_GET_CLUSTER_NETWORK_STATE callback function [Failover Cluster], _wolf_getclusternetworkstate, clusapi/PCLUSAPI_GET_CLUSTER_NETWORK_STATE, mscs.getclusternetworkstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

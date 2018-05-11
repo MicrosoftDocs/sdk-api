@@ -7,7 +7,7 @@ old-location: mscs\resutilgetexpandszvalue.htm
 old-project: MsCS
 ms.assetid: c0f1064c-d9ae-43af-9622-beae9aee0ce0
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PRESUTIL_GET_EXPAND_SZ_VALUE, PRESUTIL_GET_EXPAND_SZ_VALUE callback, PRESUTIL_GET_EXPAND_SZ_VALUE callback function [Failover Cluster], _wolf_resutilgetexpandszvalue, mscs.resutilgetexpandszvalue, resapi/PRESUTIL_GET_EXPAND_SZ_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices

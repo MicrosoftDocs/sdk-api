@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritem_gettooltipstring.htm
 old-project: TSF
 ms.assetid: f0bb3c7f-c21e-443a-965a-0601de0210b5
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: GetTooltipString, GetTooltipString method [Text Services Framework], GetTooltipString method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetTooltipString method, ITfLangBarItem.GetTooltipString, ITfLangBarItem::GetTooltipString, _tsf_itflangbaritem_gettooltipstring_ref, ctfutb/ITfLangBarItem::GetTooltipString, tsf.itflangbaritem_gettooltipstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

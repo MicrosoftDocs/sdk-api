@@ -7,7 +7,7 @@ old-location: mstv\ibda_voidtransform_stop.htm
 old-project: mstv
 ms.assetid: ff061aef-1058-4d1d-802e-89e7f4ebfe3c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IBDA_VoidTransform interface [Microsoft TV Technologies],Stop method, IBDA_VoidTransform.Stop, IBDA_VoidTransform::Stop, IBDA_VoidTransformStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IBDA_VoidTransform interface, bdaiface/IBDA_VoidTransform::Stop, mstv.ibda_voidtransform_stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

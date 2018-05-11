@@ -7,8 +7,8 @@ old-location: winrm\wsman_plugin_connect.htm
 old-project: WinRM
 ms.assetid: 694C732B-EAA0-4C8A-B3D5-E55ECA5EF733
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: WSManPluginConnect, WSManPluginConnect callback function [Windows Remote Management], winrm.wsman_plugin_connect, wsman/WSMAN_PLUGIN_CONNECT, wsman/WSManPluginConnect
+ms.date: 5/8/2018
+ms.keywords: WSMAN_PLUGIN_CONNECT, WSMAN_PLUGIN_CONNECT callback, WSMAN_PLUGIN_CONNECT callback function [Windows Remote Management], WSManPluginConnect, winrm.wsman_plugin_connect, wsman/WSMAN_PLUGIN_CONNECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	WsMan.h
 api_name:
--	WSManPluginConnect
+-	WSMAN_PLUGIN_CONNECT
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# WSMAN_PLUGIN_CONNECT callback
+# WSMAN_PLUGIN_CONNECT callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: shell\SHUnicodeToAnsi.htm
 old-project: shell
 ms.assetid: f0db3976-9956-418f-8432-7755b140050f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SHUnicodeToAnsi, SHUnicodeToAnsi function [Windows Shell], _win32_SHUnicodeToAnsi, shell.SHUnicodeToAnsi, shlwapi/SHUnicodeToAnsi
 ms.prod: windows-hardware
 ms.technology: windows-devices

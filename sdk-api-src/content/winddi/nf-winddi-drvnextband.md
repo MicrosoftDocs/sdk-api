@@ -7,7 +7,7 @@ old-location: display\drvnextband.htm
 old-project: display
 ms.assetid: 7c02d32b-6c95-4dd5-b9cf-2f64ba78f25a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: DrvNextBand, DrvNextBand function [Display Devices], ddifncs_dc66e17a-f2da-45cc-bc1a-8058006c6922.xml, display.drvnextband, winddi/DrvNextBand
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ienummediatypes_reset.htm
 old-project: DirectShow
 ms.assetid: d95d4e69-48dc-4ad1-a0e2-c5fea793b7b3
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumMediaTypes interface [DirectShow],Reset method, IEnumMediaTypes.Reset, IEnumMediaTypes::Reset, IEnumMediaTypesReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumMediaTypes interface, dshow.ienummediatypes_reset, strmif/IEnumMediaTypes::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wds\wdscliclose.htm
 old-project: Wds
 ms.assetid: 6a833209-b7a0-40d8-8eca-43c08287d67e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsCliClose, WdsCliClose function [Windows Deployment Services], wds.wdscliclose, wdsclientapi/WdsCliClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

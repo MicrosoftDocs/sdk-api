@@ -7,7 +7,7 @@ old-location: base\setservicestatus.htm
 old-project: Services
 ms.assetid: bb5943ff-2814-40f2-bee0-ae7132befde9
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/9/2018
 ms.keywords: SetServiceStatus, SetServiceStatus function, _win32_setservicestatus, base.setservicestatus, winsvc/SetServiceStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

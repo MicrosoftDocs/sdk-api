@@ -7,7 +7,7 @@ old-location: setup\setupduplicatediskspacelist.htm
 old-project: SetupApi
 ms.assetid: 92d18c15-e8e2-4e89-8d2f-7c87c948603f
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupDuplicateDiskSpaceList, SetupDuplicateDiskSpaceList function [Setup API], SetupDuplicateDiskSpaceListA, SetupDuplicateDiskSpaceListW, setup.setupduplicatediskspacelist, setupapi/SetupDuplicateDiskSpaceList, setupapi/SetupDuplicateDiskSpaceListA, setupapi/SetupDuplicateDiskSpaceListW
 ms.prod: windows-hardware
 ms.technology: windows-devices

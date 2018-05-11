@@ -7,7 +7,7 @@ old-location: intl\mappingdoaction.htm
 old-project: Intl
 ms.assetid: c3903d10-3429-4707-82b5-33efa6b2dc4c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: MappingDoAction, MappingDoAction function [Internationalization for Windows Applications], elscore/MappingDoAction, intl.mappingdoaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

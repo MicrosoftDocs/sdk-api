@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_get_httpproxyport.htm
 old-project: DirectShow
 ms.assetid: 4a0325bb-83d6-4fbc-a513-0b6002013a60
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_HTTPProxyPort method, IAMNetShowConfig.get_HTTPProxyPort, IAMNetShowConfig::get_HTTPProxyPort, IAMNetShowConfigget_HTTPProxyPort, dshow.iamnetshowconfig_get_httpproxyport, get_HTTPProxyPort, get_HTTPProxyPort method [DirectShow], get_HTTPProxyPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_HTTPProxyPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

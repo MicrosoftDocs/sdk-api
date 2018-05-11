@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_setpacketencoding.htm
 old-project: wmi_v2
 ms.assetid: cb7f922d-7e96-4304-9abe-bfa23709e1c7
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_DESTINATIONOPTIONS_PACKET_ENCODING_DEFAULT, MI_DESTINATIONOPTIONS_PACKET_ENCODING_UTF16, MI_DESTINATIONOPTIONS_PACKET_ENCODING_UTF8, MI_DestinationOptions_SetPacketEncoding, MI_DestinationOptions_SetPacketEncoding function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetPacketEncoding, wmi_v2.mi_destinationoptions_setpacketencoding
 ms.prod: windows-hardware
 ms.technology: windows-devices

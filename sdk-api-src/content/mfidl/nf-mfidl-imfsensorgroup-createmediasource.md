@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_createmediasource.htm
 old-project: medfound
 ms.assetid: 2C69A81E-7159-43AA-92EA-7B1EB4A7A681
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: CreateMediaSource, CreateMediaSource method [Media Foundation], CreateMediaSource method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],CreateMediaSource method, IMFSensorGroup.CreateMediaSource, IMFSensorGroup::CreateMediaSource, mf.imfsensorgroup_createmediasource, mfidl/IMFSensorGroup::CreateMediaSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

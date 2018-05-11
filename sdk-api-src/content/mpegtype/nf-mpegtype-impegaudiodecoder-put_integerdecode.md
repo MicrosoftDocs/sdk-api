@@ -7,7 +7,7 @@ old-location: dshow\impegaudiodecoder_put_integerdecode.htm
 old-project: DirectShow
 ms.assetid: a92fbcbf-0cd5-4c7a-bcde-a616a7d022bd
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_IntegerDecode method, IMpegAudioDecoder.put_IntegerDecode, IMpegAudioDecoder::put_IntegerDecode, IMpegAudioDecoderputIntegerDecode, dshow.impegaudiodecoder_put_integerdecode, mpegtype/IMpegAudioDecoder::put_IntegerDecode, put_IntegerDecode, put_IntegerDecode method [DirectShow], put_IntegerDecode method [DirectShow],IMpegAudioDecoder interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

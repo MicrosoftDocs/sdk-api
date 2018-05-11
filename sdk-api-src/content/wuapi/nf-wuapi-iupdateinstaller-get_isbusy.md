@@ -7,7 +7,7 @@ old-location: wua\iupdateinstaller_isbusy.htm
 old-project: Wua_Sdk
 ms.assetid: 20875312-f54a-45fc-a0f4-ed17b812dd9e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],IsBusy property, IUpdateInstaller.IsBusy, IUpdateInstaller.get_IsBusy, IUpdateInstaller::IsBusy, IUpdateInstaller::get_IsBusy, IsBusy property [Windows Update Agent], IsBusy property [Windows Update Agent],IUpdateInstaller interface, get_IsBusy, wua.iupdateinstaller_isbusy, wuapi/IUpdateInstaller::IsBusy, wuapi/IUpdateInstaller::get_IsBusy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wds\wdsclicreatesession.htm
 old-project: Wds
 ms.assetid: c66801b2-ad5c-464b-ace3-269214621c20
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsCliCreateSession, WdsCliCreateSession function [Windows Deployment Services], wds.wdsclicreatesession, wdsclientapi/WdsCliCreateSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrm\wsmancloseoperation.htm
 old-project: WinRM
 ms.assetid: 4fd51026-6a48-42ef-a245-7593a615c103
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: WSManCloseOperation, WSManCloseOperation function [Windows Remote Management], winrm.wsmancloseoperation, wsman/WSManCloseOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

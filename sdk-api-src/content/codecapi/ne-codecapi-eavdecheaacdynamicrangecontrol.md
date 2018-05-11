@@ -7,7 +7,7 @@ old-location: dshow\eavdecheaacdynamicrangecontrol.htm
 old-project: DirectShow
 ms.assetid: d854093c-4ec8-439c-a1be-c34e3d080616
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: codecapi/eAVDecHEAACDynamicRangeControl, codecapi/eAVDecHEAACDynamicRangeControl_OFF, codecapi/eAVDecHEAACDynamicRangeControl_ON, dshow.eavdecheaacdynamicrangecontrol, eAVDecHEAACDynamicRangeControl, eAVDecHEAACDynamicRangeControl enumeration [DirectShow], eAVDecHEAACDynamicRangeControl_OFF, eAVDecHEAACDynamicRangeControl_ON
 ms.prod: windows-hardware
 ms.technology: windows-devices

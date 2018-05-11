@@ -7,7 +7,7 @@ old-location: dshow\imixerocx_ondraw.htm
 old-project: DirectShow
 ms.assetid: 69b8752b-9f97-422e-8a9a-f49c7a472cb6
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IMixerOCX interface [DirectShow],OnDraw method, IMixerOCX.OnDraw, IMixerOCX::OnDraw, IMixerOCXOnDraw, OnDraw, OnDraw method [DirectShow], OnDraw method [DirectShow],IMixerOCX interface, dshow.imixerocx_ondraw, mixerocx/IMixerOCX::OnDraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespacemanager.htm
 old-project: Wds
 ms.assetid: de5fc470-af9f-4f9f-bc17-a347dc702e36
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportNamespaceManager, IWdsTransportNamespaceManager interface [Windows Deployment Services], IWdsTransportNamespaceManager interface [Windows Deployment Services],described, wds.iwdstransportnamespacemanager, wdstptmgmt/IWdsTransportNamespaceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

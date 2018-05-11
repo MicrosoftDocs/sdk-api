@@ -7,7 +7,7 @@ old-location: security\clientcallback.htm
 old-project: SecAuthN
 ms.assetid: d818a7b5-15c8-4d25-a8de-050926f34a9d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ClientCallback, ClientCallback function [Security], LSA_CLIENT_CALLBACK, _ssp_clientcallback, ntsecpkg/ClientCallback, security.clientcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

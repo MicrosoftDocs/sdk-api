@@ -7,7 +7,7 @@ old-location: mscs\freeclustercrypt.htm
 old-project: MsCS
 ms.assetid: 33EE9915-2204-4431-8B72-014D47AB4651
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PFREE_CLUSTER_CRYPT, PFREE_CLUSTER_CRYPT callback, PFREE_CLUSTER_CRYPT callback function [Failover Cluster], mscs.freeclustercrypt, resapi/PFREE_CLUSTER_CRYPT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_setaccountinformation.htm
 old-project: TaskSchd
 ms.assetid: fae1299f-2f3f-48cf-91d9-1057ce62172b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetAccountInformation method, IScheduledWorkItem.SetAccountInformation, IScheduledWorkItem::SetAccountInformation, SetAccountInformation, SetAccountInformation method [Task Scheduler], SetAccountInformation method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setaccountinformation, mstask/IScheduledWorkItem::SetAccountInformation, taskschd.ischeduledworkitem_setaccountinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\ienumtfdisplayattributeinfo_reset.htm
 old-project: TSF
 ms.assetid: fdfcf505-ae4a-4f7e-91f2-3e79efd56162
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: IEnumTfDisplayAttributeInfo interface [Text Services Framework],Reset method, IEnumTfDisplayAttributeInfo.Reset, IEnumTfDisplayAttributeInfo::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfDisplayAttributeInfo interface, _tsf_ienumtfdisplayattributeinfo_reset_ref, msctf/IEnumTfDisplayAttributeInfo::Reset, tsf.ienumtfdisplayattributeinfo_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

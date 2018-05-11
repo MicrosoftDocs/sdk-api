@@ -7,7 +7,7 @@ old-location: security\getencschannel.htm
 old-project: SecCrypto
 ms.assetid: 4879895e-8bf4-4464-a344-04e4b361c5c7
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetEncSChannel, GetEncSChannel function [Security], security.getencschannel, wincrypt/GetEncSChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

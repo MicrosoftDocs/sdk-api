@@ -7,7 +7,7 @@ old-location: vhd\raw_scsi_virtual_disk_parameters.htm
 old-project: VStor
 ms.assetid: E6E6BD59-F7BC-4523-B368-6EBE12285593
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: "*PRAW_SCSI_VIRTUAL_DISK_PARAMETERS, PRAW_SCSI_VIRTUAL_DISK_PARAMETERS, PRAW_SCSI_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], RAW_SCSI_VIRTUAL_DISK_PARAMETERS, RAW_SCSI_VIRTUAL_DISK_PARAMETERS structure [VHD], _RAW_SCSI_VIRTUAL_DISK_PARAMETERS, vhd.raw_scsi_virtual_disk_parameters, virtdisk/PRAW_SCSI_VIRTUAL_DISK_PARAMETERS, virtdisk/RAW_SCSI_VIRTUAL_DISK_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

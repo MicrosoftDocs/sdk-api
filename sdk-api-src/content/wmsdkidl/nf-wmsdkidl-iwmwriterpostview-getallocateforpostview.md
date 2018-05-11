@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterpostview_getallocateforpostview.htm
 old-project: wmformat
 ms.assetid: bd17eeec-a1ce-42db-a807-008ca2c4194f
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: GetAllocateForPostView, GetAllocateForPostView method [windows Media Format], GetAllocateForPostView method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetAllocateForPostView method, IWMWriterPostView.GetAllocateForPostView, IWMWriterPostView::GetAllocateForPostView, IWMWriterPostViewGetAllocateForPostView, wmformat.iwmwriterpostview_getallocateforpostview, wmsdkidl/IWMWriterPostView::GetAllocateForPostView
 ms.prod: windows-hardware
 ms.technology: windows-devices

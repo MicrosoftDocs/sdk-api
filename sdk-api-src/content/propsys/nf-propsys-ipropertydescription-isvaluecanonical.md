@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_IsValueCanonical.htm
 old-project: properties
 ms.assetid: e0eedb58-82ed-4481-8319-633ddf20949c
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: IPropertyDescription interface [Windows Properties],IsValueCanonical method, IPropertyDescription.IsValueCanonical, IPropertyDescription::IsValueCanonical, IsValueCanonical, IsValueCanonical method [Windows Properties], IsValueCanonical method [Windows Properties],IPropertyDescription interface, properties.IPropertyDescription_IsValueCanonical, propsys/IPropertyDescription::IsValueCanonical, shell.IPropertyDescription_IsValueCanonical, shell_IPropertyDescription_IsValueCanonical
 ms.prod: windows-hardware
 ms.technology: windows-devices

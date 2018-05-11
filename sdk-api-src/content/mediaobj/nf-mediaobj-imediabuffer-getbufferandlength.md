@@ -7,7 +7,7 @@ old-location: dshow\imediabuffer_getbufferandlength.htm
 old-project: DirectShow
 ms.assetid: 255ef101-f004-41c8-afb8-437d21decee5
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetBufferAndLength, GetBufferAndLength method [DirectShow], GetBufferAndLength method [DirectShow],IMediaBuffer interface, IMediaBuffer interface [DirectShow],GetBufferAndLength method, IMediaBuffer.GetBufferAndLength, IMediaBuffer::GetBufferAndLength, IMediaBufferGetBufferAndLength, dshow.imediabuffer_getbufferandlength, mediaobj/IMediaBuffer::GetBufferAndLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wds\pfn_wdstransportclientreceivecontents.htm
 old-project: Wds
 ms.assetid: 3a1cd9bb-c0da-4d66-9338-1f284fc15499
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: PFN_WdsTransportClientReceiveContents, PFN_WdsTransportClientReceiveContents callback, PFN_WdsTransportClientReceiveContents callback function [Windows Deployment Services], wds.pfn_wdstransportclientreceivecontents, wdstci/PFN_WdsTransportClientReceiveContents
 ms.prod: windows-hardware
 ms.technology: windows-devices

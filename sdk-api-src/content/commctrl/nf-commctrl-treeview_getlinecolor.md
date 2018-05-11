@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetLineColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getlinecolor.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: TreeView_GetLineColor, TreeView_GetLineColor macro [Windows Controls], _win32_TreeView_GetLineColor, _win32_TreeView_GetLineColor_cpp, commctrl/TreeView_GetLineColor, controls.TreeView_GetLineColor, controls._win32_TreeView_GetLineColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

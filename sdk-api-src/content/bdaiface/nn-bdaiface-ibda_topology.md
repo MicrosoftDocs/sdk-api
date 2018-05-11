@@ -7,7 +7,7 @@ old-location: mstv\ibda_topology.htm
 old-project: mstv
 ms.assetid: 35dfe39e-05b4-4c7b-9358-081429b064f2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IBDA_Topology, IBDA_Topology interface [Microsoft TV Technologies], IBDA_Topology interface [Microsoft TV Technologies],described, IBDA_TopologyInterface, bdaiface/IBDA_Topology, mstv.ibda_topology
 ms.prod: windows-hardware
 ms.technology: windows-devices

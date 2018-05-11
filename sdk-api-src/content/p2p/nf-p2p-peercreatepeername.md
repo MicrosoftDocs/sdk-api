@@ -7,7 +7,7 @@ old-location: p2p\peercreatepeername.htm
 old-project: P2PSdk
 ms.assetid: 8248b0ae-5d35-4d6e-91ef-c210033c99ef
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerCreatePeerName, PeerCreatePeerName function [Peer Networking], p2p.peercreatepeername, p2p/PeerCreatePeerName
 ms.prod: windows-hardware
 ms.technology: windows-devices

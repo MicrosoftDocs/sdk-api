@@ -7,7 +7,7 @@ old-location: wininet\internetcrackurl.htm
 old-project: WinInet
 ms.assetid: 30677071-3eb2-4d9c-a0a3-ff11a077f98a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, InternetCrackUrl, InternetCrackUrl function [WinINet], InternetCrackUrlA, InternetCrackUrlW, _inet_internetcrackurl_function, wininet.internetcrackurl, wininet/InternetCrackUrl, wininet/InternetCrackUrlA, wininet/InternetCrackUrlW
 ms.prod: windows-hardware
 ms.technology: windows-devices

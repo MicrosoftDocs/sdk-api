@@ -7,7 +7,7 @@ old-location: tapi2\lineregisterrequestrecipient.htm
 old-project: Tapi
 ms.assetid: ff2f9ab0-389f-4b35-abd1-29486750283b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_lineregisterrequestrecipient, lineRegisterRequestRecipient, lineRegisterRequestRecipient function [TAPI 2.2], tapi/lineRegisterRequestRecipient, tapi2.lineregisterrequestrecipient"
 ms.prod: windows-hardware
 ms.technology: windows-devices

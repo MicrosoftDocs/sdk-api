@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevicecontrol_getcapabilities.htm
 old-project: WMDM
 ms.assetid: 61d0e44c-f1be-4837-a773-48c6c5278fe0
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: GetCapabilities, GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager],IWMDMDeviceControl interface, IWMDMDeviceControl interface [windows Media Device Manager],GetCapabilities method, IWMDMDeviceControl.GetCapabilities, IWMDMDeviceControl::GetCapabilities, IWMDMDeviceControlGetCapabilities, mswmdm/IWMDMDeviceControl::GetCapabilities, wmdm.iwmdmdevicecontrol_getcapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

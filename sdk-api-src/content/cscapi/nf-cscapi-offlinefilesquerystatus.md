@@ -7,7 +7,7 @@ old-location: of\offlinefilesquerystatus.htm
 old-project: OfflineFiles
 ms.assetid: 2b3a77cd-e874-42fb-8bfa-6d6b26866153
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: OfflineFilesQueryStatus, OfflineFilesQueryStatus function [Offline Files], cscapi/OfflineFilesQueryStatus, of.offlinefilesquerystatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

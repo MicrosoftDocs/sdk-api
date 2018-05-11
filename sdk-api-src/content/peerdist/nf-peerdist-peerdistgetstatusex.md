@@ -7,7 +7,7 @@ old-location: p2p\peerdistgetstatusex.htm
 old-project: P2PSdk
 ms.assetid: 7D8D3B84-F353-4820-B035-5F289085BE7E
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerDistGetStatusEx, PeerDistGetStatusEx function [Peer Networking], p2p.peerdistgetstatusex, peerdist/PeerDistGetStatusEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\ddgetsurfacestateout.htm
 old-project: display
 ms.assetid: 8d84fcdf-c880-4a3e-a57d-12bb8e59cb5b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*LPDDGETSURFACESTATEOUT, DDGETSURFACESTATEOUT, DDGETSURFACESTATEOUT structure [Display Devices], LPDDGETSURFACESTATEOUT, LPDDGETSURFACESTATEOUT structure pointer [Display Devices], _DDGETSURFACESTATEOUT, ddkmapi/DDGETSURFACESTATEOUT, ddkmapi/LPDDGETSURFACESTATEOUT, ddstrcts_bfeeac46-f803-48ee-aac4-39cb4781f925.xml, display.ddgetsurfacestateout"
 ms.prod: windows-hardware
 ms.technology: windows-devices

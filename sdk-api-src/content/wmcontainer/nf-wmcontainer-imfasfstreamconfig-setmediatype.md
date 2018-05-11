@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamconfig_setmediatype.htm
 old-project: medfound
 ms.assetid: 53b7c4fd-a3bc-4e15-b2f6-380cae8ab2f6
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 53b7c4fd-a3bc-4e15-b2f6-380cae8ab2f6, IMFASFStreamConfig interface [Media Foundation],SetMediaType method, IMFASFStreamConfig.SetMediaType, IMFASFStreamConfig::SetMediaType, SetMediaType, SetMediaType method [Media Foundation], SetMediaType method [Media Foundation],IMFASFStreamConfig interface, mf.imfasfstreamconfig_setmediatype, wmcontainer/IMFASFStreamConfig::SetMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

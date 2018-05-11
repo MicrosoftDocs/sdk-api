@@ -7,7 +7,7 @@ old-location: shell\SIZETToDWord_1.htm
 old-project: shell
 ms.assetid: f56eb5fc-e4d4-4e42-bc4d-375046761f4d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SIZETToDWord, SIZETToDWord function [Windows Shell], UIntPtrToULong, _shell_SIZETToDWord, intsafe/SIZETToDWord, shell.SIZETToDWord, shell.SIZETToDWord_1
 ms.prod: windows-hardware
 ms.technology: windows-devices

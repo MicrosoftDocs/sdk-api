@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpalette_initializepredefined.htm
 old-project: wic
 ms.assetid: 507888ad-4e3f-4e31-83c4-63a473eb7681
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],InitializePredefined method, IWICPalette.InitializePredefined, IWICPalette::InitializePredefined, InitializePredefined, InitializePredefined method [Windows Imaging Component], InitializePredefined method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializepredefined, wic._wic_codec_iwicpalette_initializepredefined, wincodec/IWICPalette::InitializePredefined
 ms.prod: windows-hardware
 ms.technology: windows-devices

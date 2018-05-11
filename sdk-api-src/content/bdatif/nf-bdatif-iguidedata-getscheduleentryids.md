@@ -7,7 +7,7 @@ old-location: mstv\iguidedata_getscheduleentryids.htm
 old-project: mstv
 ms.assetid: d44abd0d-bcfc-418f-b541-c085032fb933
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetScheduleEntryIDs, GetScheduleEntryIDs method [Microsoft TV Technologies], GetScheduleEntryIDs method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetScheduleEntryIDs method, IGuideData.GetScheduleEntryIDs, IGuideData::GetScheduleEntryIDs, IGuideDataGetScheduleEntryIDs, bdatif/IGuideData::GetScheduleEntryIDs, mstv.iguidedata_getscheduleentryids
 ms.prod: windows-hardware
 ms.technology: windows-devices

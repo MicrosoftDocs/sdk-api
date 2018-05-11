@@ -7,7 +7,7 @@ old-location: setup\msievaluatecondition.htm
 old-project: Msi
 ms.assetid: 8a444bad-8537-40ec-8c7d-6835e4319580
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiEvaluateCondition, MsiEvaluateCondition function, MsiEvaluateConditionA, MsiEvaluateConditionW, _msi_msievaluatecondition, msiquery/MsiEvaluateCondition, msiquery/MsiEvaluateConditionA, msiquery/MsiEvaluateConditionW, setup.msievaluatecondition
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_get_ConnectTimeout.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\get_connecttimeout.htm
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/8/2018
 ms.keywords: ISearchCatalogManager interface [search],get_ConnectTimeout method, ISearchCatalogManager.get_ConnectTimeout, ISearchCatalogManager::get_ConnectTimeout, _search_ISearchCatalogManager_get_ConnectTimeout, get_ConnectTimeout, get_ConnectTimeout method [search], get_ConnectTimeout method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_get_ConnectTimeout, searchapi/ISearchCatalogManager::get_ConnectTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wds\wdscligetimagedescription.htm
 old-project: Wds
 ms.assetid: 57feb142-6c3a-4ce0-a23b-87d605234b70
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsCliGetImageDescription, WdsCliGetImageDescription function [Windows Deployment Services], wds.wdscligetimagedescription, wdsclientapi/WdsCliGetImageDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

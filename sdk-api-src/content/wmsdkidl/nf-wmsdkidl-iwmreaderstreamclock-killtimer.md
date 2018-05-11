@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderstreamclock_killtimer.htm
 old-project: wmformat
 ms.assetid: ebcd965f-8ea1-44e2-b1b4-c34a229058b2
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMReaderStreamClock interface [windows Media Format],KillTimer method, IWMReaderStreamClock.KillTimer, IWMReaderStreamClock::KillTimer, IWMReaderStreamClockKillTimer, KillTimer, KillTimer method [windows Media Format], KillTimer method [windows Media Format],IWMReaderStreamClock interface, wmformat.iwmreaderstreamclock_killtimer, wmsdkidl/IWMReaderStreamClock::KillTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices

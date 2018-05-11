@@ -7,7 +7,7 @@ old-location: audio\idirectmusicsynth_download.htm
 old-project: audio
 ms.assetid: 2f36654c-25bf-47c3-a4d6-990d427bd1fc
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/8/2018
 ms.keywords: Download, Download method [Audio Devices], Download method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Download method, IDirectMusicSynth.Download, IDirectMusicSynth::Download, audio.idirectmusicsynth_download, audmp-routines_5b59a66c-53b7-429c-81d1-8924f712b884.xml, dmusics/IDirectMusicSynth::Download
 ms.prod: windows-hardware
 ms.technology: windows-devices

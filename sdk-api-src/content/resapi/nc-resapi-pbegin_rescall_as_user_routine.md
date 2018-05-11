@@ -7,7 +7,7 @@ old-location: mscs\beginresourcecontrolasuser.htm
 old-project: MsCS
 ms.assetid: 58F065C6-0AE1-481D-ADA0-CF2907CB45DC
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: BeginResourceControlAsUser, BeginResourceControlAsUser callback, BeginResourceControlAsUser callback function [Failover Cluster], PBEGIN_RESCALL_AS_USER_ROUTINE, PBEGIN_RESCALL_AS_USER_ROUTINE callback function [Failover Cluster], mscs.beginresourcecontrolasuser, resapi/BeginResourceControlAsUser, resapi/PBEGIN_RESCALL_AS_USER_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices

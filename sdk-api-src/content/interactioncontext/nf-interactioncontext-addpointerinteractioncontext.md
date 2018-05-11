@@ -7,7 +7,7 @@ old-location: input_intcontext\addpointerinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: a720284f-af50-4e55-ae48-c78a1e826dc4
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/8/2018
 ms.keywords: AddPointerInteractionContext, AddPointerInteractionContext function, input_intcontext.addpointerinteractioncontext, interactioncontext.addpointerinteractioncontext, interactioncontext/AddPointerInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

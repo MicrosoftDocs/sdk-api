@@ -7,7 +7,7 @@ old-location: termserv\itssbprovisioningpluginnotifysink.htm
 old-project: TermServ
 ms.assetid: 6f91021c-d7a5-4131-bef7-b4f5f37f9f8b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink, ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services], ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbProvisioningPluginNotifySink, termserv.itssbprovisioningpluginnotifysink
 ms.prod: windows-hardware
 ms.technology: windows-devices

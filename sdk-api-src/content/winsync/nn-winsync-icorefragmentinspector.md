@@ -7,7 +7,7 @@ old-location: winsync\icorefragmentinspector.htm
 old-project: winsync
 ms.assetid: 10c22b92-bda8-42f6-9fd6-58e77e5a18d4
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ICoreFragmentInspector, ICoreFragmentInspector interface [Windows Sync], ICoreFragmentInspector interface [Windows Sync],described, winsync.icorefragmentinspector, winsync/ICoreFragmentInspector
 ms.prod: windows-hardware
 ms.technology: windows-devices

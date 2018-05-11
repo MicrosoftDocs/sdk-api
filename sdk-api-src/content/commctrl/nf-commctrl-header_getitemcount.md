@@ -7,7 +7,7 @@ old-location: controls\Header_GetItemCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemcount.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: Header_GetItemCount, Header_GetItemCount macro [Windows Controls], _win32_Header_GetItemCount, _win32_Header_GetItemCount_cpp, commctrl/Header_GetItemCount, controls.Header_GetItemCount, controls._win32_Header_GetItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\itextrange2_getgravity.htm
 old-project: Controls
 ms.assetid: a57ab2c2-1871-413a-bccd-47f5c1dd4570
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetGravity, GetGravity method [Windows Controls], GetGravity method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetGravity method, ITextRange2.GetGravity, ITextRange2::GetGravity, controls.itextrange2_getgravity, tom/ITextRange2::GetGravity, tomGravityBack, tomGravityFore, tomGravityIn, tomGravityOut, tomGravityUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

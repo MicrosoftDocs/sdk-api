@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_getownerreplicaid.htm
 old-project: winsync
 ms.assetid: 868ed5da-0bcb-43d9-9a43-81186f8b3409
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetOwnerReplicaId, GetOwnerReplicaId method [Windows Sync], GetOwnerReplicaId method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetOwnerReplicaId method, ISyncKnowledge.GetOwnerReplicaId, ISyncKnowledge::GetOwnerReplicaId, winsync.isyncknowledge_getownerreplicaid, winsync/ISyncKnowledge::GetOwnerReplicaId
 ms.prod: windows-hardware
 ms.technology: windows-devices

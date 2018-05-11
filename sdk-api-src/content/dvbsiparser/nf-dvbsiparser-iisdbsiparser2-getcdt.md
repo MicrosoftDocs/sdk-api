@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparser2_getcdt.htm
 old-project: mstv
 ms.assetid: c984a340-d31b-43a5-baac-323629002aab
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetCDT, GetCDT method [Microsoft TV Technologies], GetCDT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetCDT method, IIsdbSiParser2.GetCDT, IIsdbSiParser2::GetCDT, dvbsiparser/IIsdbSiParser2::GetCDT, mstv.iisdbsiparser2_getcdt
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_getmgt.htm
 old-project: mstv
 ms.assetid: abdfb558-aab9-4929-822a-08b35235c22f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetMGT, GetMGT method [Microsoft TV Technologies], GetMGT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetMGT method, IAtscPsipParser.GetMGT, IAtscPsipParser::GetMGT, IAtscPsipParserGetMGT, atscpsipparser/IAtscPsipParser::GetMGT, mstv.iatscpsipparser_getmgt
 ms.prod: windows-hardware
 ms.technology: windows-devices

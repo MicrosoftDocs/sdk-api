@@ -7,7 +7,7 @@ old-location: mf\mfcameraintrinsic_distortionmodel.htm
 old-project: medfound
 ms.assetid: 0D2410DC-E67E-4B5E-B55F-6B47A0B72290
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MFCameraIntrinsic_DistortionModel, MFCameraIntrinsic_DistortionModel structure [Media Foundation], PMFCameraIntrinsic_DistortionModel, PMFCameraIntrinsic_DistortionModel structure pointer [Media Foundation], _MFCameraIntrinsic_DistortionModel, mf.mfcameraintrinsic_distortionmodel, mfapi/MFCameraIntrinsic_DistortionModel, mfapi/PMFCameraIntrinsic_DistortionModel
 ms.prod: windows-hardware
 ms.technology: windows-devices

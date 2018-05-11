@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getcountofrecords.htm
 old-project: mstv
 ms.assetid: 3e445eed-907c-4a9b-80b7-b16460bc131c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetCountOfRecords method, IISDB_SDTT.GetCountOfRecords, IISDB_SDTT::GetCountOfRecords, dvbsiparser/IISDB_SDTT::GetCountOfRecords, mstv.iisdb_sdtt_getcountofrecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

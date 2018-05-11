@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionscaletransform3d_setscalez_overloaded.htm
 old-project: directcomp
 ms.assetid: CD00FBB3-246E-45D0-A7F6-5A7F9C37376B
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: IDCompositionScaleTransform3D::SetScaleZ, SetScaleZ, SetScaleZ methods [DirectComposition], dcomp/SetScaleZ, directcomp.idcompositionscaletransform3d_setscalez_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices

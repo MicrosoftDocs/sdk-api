@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_put_enablehttp.htm
 old-project: DirectShow
 ms.assetid: 162a581d-9697-4a6e-aedc-ec1ebc28a867
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableHTTP method, IAMNetShowConfig.put_EnableHTTP, IAMNetShowConfig::put_EnableHTTP, IAMNetShowConfigput_EnableHTTP, dshow.iamnetshowconfig_put_enablehttp, put_EnableHTTP, put_EnableHTTP method [DirectShow], put_EnableHTTP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableHTTP
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\PathCombine.htm
 old-project: shell
 ms.assetid: ed03334b-f688-4993-9685-092135ca29c9
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PathCombine, PathCombine function [Windows Shell], PathCombineA, PathCombineW, _win32_PathCombine, shell.PathCombine, shlwapi/PathCombine, shlwapi/PathCombineA, shlwapi/PathCombineW
 ms.prod: windows-hardware
 ms.technology: windows-devices

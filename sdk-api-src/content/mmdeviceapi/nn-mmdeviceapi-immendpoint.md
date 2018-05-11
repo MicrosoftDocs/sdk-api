@@ -7,7 +7,7 @@ old-location: coreaudio\immendpoint.htm
 old-project: CoreAudio
 ms.assetid: 293de8eb-204a-4c18-807c-b1405db85b12
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IMMEndpoint, IMMEndpoint interface [Core Audio], IMMEndpoint interface [Core Audio],described, coreaudio.immendpoint, mmdeviceapi/IMMEndpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\fwpmcalloutenum0_func.htm
 old-project: FWP
 ms.assetid: 6e6667d2-7147-43ed-a2fd-91baad1eb296
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmCalloutEnum0, FwpmCalloutEnum0 function [Filtering], fwp.fwpmcalloutenum0_func, fwpmu/FwpmCalloutEnum0
 ms.prod: windows-hardware
 ms.technology: windows-devices

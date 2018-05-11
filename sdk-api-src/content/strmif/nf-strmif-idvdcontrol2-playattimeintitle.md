@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_playattimeintitle.htm
 old-project: DirectShow
 ms.assetid: 034fa82f-38d2-4031-8d7f-dcf97aa699aa
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayAtTimeInTitle method, IDvdControl2.PlayAtTimeInTitle, IDvdControl2::PlayAtTimeInTitle, IDvdControl2PlayAtTimeInTitle, PlayAtTimeInTitle, PlayAtTimeInTitle method [DirectShow], PlayAtTimeInTitle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playattimeintitle, strmif/IDvdControl2::PlayAtTimeInTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices

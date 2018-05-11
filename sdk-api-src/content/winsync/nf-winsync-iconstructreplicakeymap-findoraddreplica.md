@@ -7,7 +7,7 @@ old-location: winsync\iconstructreplicakeymap_findoraddreplica.htm
 old-project: winsync
 ms.assetid: 10cf616c-a082-4a74-99bb-1b0b364291e5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: FindOrAddReplica, FindOrAddReplica method [Windows Sync], FindOrAddReplica method [Windows Sync],IConstructReplicaKeyMap interface, IConstructReplicaKeyMap interface [Windows Sync],FindOrAddReplica method, IConstructReplicaKeyMap.FindOrAddReplica, IConstructReplicaKeyMap::FindOrAddReplica, winsync.iconstructreplicakeymap_findoraddreplica, winsync/IConstructReplicaKeyMap::FindOrAddReplica
 ms.prod: windows-hardware
 ms.technology: windows-devices

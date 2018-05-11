@@ -7,7 +7,7 @@ old-location: mstv\ichanneltunerequest_get_channel.htm
 old-project: mstv
 ms.assetid: 1a529416-9b7a-41f4-961a-741b1a581d5f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IChannelTuneRequest interface [Microsoft TV Technologies],get_Channel method, IChannelTuneRequest.get_Channel, IChannelTuneRequest::get_Channel, IChannelTuneRequestget_Channel, get_Channel, get_Channel method [Microsoft TV Technologies], get_Channel method [Microsoft TV Technologies],IChannelTuneRequest interface, mstv.ichanneltunerequest_get_channel, tuner/IChannelTuneRequest::get_Channel
 ms.prod: windows-hardware
 ms.technology: windows-devices

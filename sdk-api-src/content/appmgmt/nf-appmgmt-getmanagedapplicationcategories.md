@@ -7,7 +7,7 @@ old-location: policy\getmanagedapplicationcategories.htm
 old-project: Policy
 ms.assetid: 10824852-7810-483a-91b3-2d9cc3d21934
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetManagedApplicationCategories, GetManagedApplicationCategories function [Group Policy], appmgmt/GetManagedApplicationCategories, policy.getmanagedapplicationcategories
 ms.prod: windows-hardware
 ms.technology: windows-devices

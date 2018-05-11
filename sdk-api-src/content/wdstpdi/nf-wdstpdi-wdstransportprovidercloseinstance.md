@@ -7,7 +7,7 @@ old-location: wds\wdstransportprovidercloseinstance.htm
 old-project: Wds
 ms.assetid: 3eb0a931-ca5d-4db4-9c40-9c52f98be429
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsTransportProviderCloseInstance, WdsTransportProviderCloseInstance callback, WdsTransportProviderCloseInstance callback function [Windows Deployment Services], wds.wdstransportprovidercloseinstance, wdstpdi/WdsTransportProviderCloseInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

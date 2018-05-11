@@ -7,7 +7,7 @@ old-location: tapi2\linegetstatusmessages.htm
 old-project: Tapi
 ms.assetid: c8ac3bff-be4f-43ca-9651-3263fa06af23
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_linegetstatusmessages, lineGetStatusMessages, lineGetStatusMessages function [TAPI 2.2], tapi/lineGetStatusMessages, tapi2.linegetstatusmessages"
 ms.prod: windows-hardware
 ms.technology: windows-devices

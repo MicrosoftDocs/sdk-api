@@ -7,7 +7,7 @@ old-location: winrm\wsmansignalshell.htm
 old-project: WinRM
 ms.assetid: 9954097d-3e27-4f56-bf8c-3d9aba5c19b5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: WSMAN_SIGNAL_SHELL_CODE_CTRL_BREAK, WSMAN_SIGNAL_SHELL_CODE_CTRL_C, WSMAN_SIGNAL_SHELL_CODE_TERMINATE, WSManSignalShell, WSManSignalShell function [Windows Remote Management], winrm.wsmansignalshell, wsman/WSManSignalShell
 ms.prod: windows-hardware
 ms.technology: windows-devices

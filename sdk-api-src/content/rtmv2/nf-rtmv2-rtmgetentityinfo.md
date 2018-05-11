@@ -7,7 +7,7 @@ old-location: rras\rtmgetentityinfo.htm
 old-project: RRAS
 ms.assetid: 6062369c-22c7-48e4-9dd3-91efba22df34
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RtmGetEntityInfo, RtmGetEntityInfo function [RAS], _rtmv2ref_rtmgetentityinfo, rras.rtmgetentityinfo, rtmv2/RtmGetEntityInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

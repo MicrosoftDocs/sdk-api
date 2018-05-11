@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmenumdevice_skip.htm
 old-project: WMDM
 ms.assetid: fd6d2066-5445-4e29-812f-7d52dc67d57a
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: IWMDMEnumDevice interface [windows Media Device Manager],Skip method, IWMDMEnumDevice.Skip, IWMDMEnumDevice::Skip, IWMDMEnumDeviceSkip, Skip, Skip method [windows Media Device Manager], Skip method [windows Media Device Manager],IWMDMEnumDevice interface, mswmdm/IWMDMEnumDevice::Skip, wmdm.iwmdmenumdevice_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

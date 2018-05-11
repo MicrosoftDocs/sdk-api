@@ -7,7 +7,7 @@ old-location: controls\itextstory_gettype.htm
 old-project: Controls
 ms.assetid: 43a75284-c461-4118-834c-9ce5ded55094
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetType, GetType method [Windows Controls], GetType method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetType method, ITextStory.GetType, ITextStory::GetType, controls.itextstory_gettype, tom/ITextStory::GetType, tomCommentsStory, tomEndnotesStory, tomEvenPagesFooterStory, tomEvenPagesHeaderStory, tomFindStory, tomFirstPageFooterStory, tomFirstPageHeaderStory, tomFootnotesStory, tomMainTextStory, tomPrimaryFooterStory, tomPrimaryHeaderStory, tomReplaceStory, tomScratchStory, tomTextFrameStory, tomUnknownStory
 ms.prod: windows-hardware
 ms.technology: windows-devices

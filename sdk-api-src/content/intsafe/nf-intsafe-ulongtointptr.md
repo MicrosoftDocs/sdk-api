@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongToIntPtr
 title: ULongToIntPtr function
 author: windows-driver-content
-description: Converts a value of type DWORD to a value of type INT_PTR.
-old-location: shell\DWordToIntPtr.htm
+description: Converts a value of type ULONG to a value of type INT_PTR.
+old-location: shell\ULongToIntPtr.htm
 old-project: shell
-ms.assetid: a1227279-03ab-4e24-bcff-1b9b679fb8f3
+ms.assetid: 0d7cd4f0-03fd-43a2-b3e9-10441f65bf78
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: DWordToIntPtr, DWordToIntPtr function [Windows Shell], ULongToIntPtr, _shell_DWordToIntPtr, intsafe/DWordToIntPtr, shell.DWordToIntPtr
+ms.date: 5/9/2018
+ms.keywords: DWordToIntPtr, DWordToPtrdiffT, ULongToIntPtr, ULongToIntPtr function [Windows Shell], ULongToPtrdiffT, _shell_ULongToIntPtr, intsafe/ULongToIntPtr, shell.ULongToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	DllExport
+-	HeaderDef
 api_location:
--	None
+-	Intsafe.h
 api_name:
--	DWordToIntPtr
+-	ULongToIntPtr
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: None
+req.dll: 
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>DWORD</b> to a value of type <b>INT_PTR</b>.
+Converts a value of type <b>ULONG</b> to a value of type <b>INT_PTR</b>.
 
 
 ## -parameters
@@ -58,9 +58,11 @@ Converts a value of type <b>DWORD</b> to a value of type <b>INT_PTR</b>.
 
 
 
-### -param ulOperand
+### -param ulOperand [in]
 
-TBD
+Type: <b>ULONG</b>
+
+The value to be converted.
 
 
 ### -param piResult [out]
@@ -68,13 +70,6 @@ TBD
 Type: <b>INT_PTR*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
-
-
-#### - dwOperand [in]
-
-Type: <b>DWORD</b>
-
-The value to be converted.
 
 
 ## -returns
@@ -93,6 +88,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>DWordToPtrdiffT</b> is an alias for this function.
+
+<b>ULongToPtrdiffT</b> is an alias for this function.
+
+<b>DWordToIntPtr</b> is an alias for this function.
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\iamvideocompression_put_windowsize.htm
 old-project: DirectShow
 ms.assetid: 744cd32d-5f61-4069-82c4-50bc1b800f24
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],put_WindowSize method, IAMVideoCompression.put_WindowSize, IAMVideoCompression::put_WindowSize, IAMVideoCompressionput_WindowSize, dshow.iamvideocompression_put_windowsize, put_WindowSize, put_WindowSize method [DirectShow], put_WindowSize method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::put_WindowSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

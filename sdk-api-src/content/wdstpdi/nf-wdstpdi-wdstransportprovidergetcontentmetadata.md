@@ -7,7 +7,7 @@ old-location: wds\wdstransportprovidergetcontentmetadata.htm
 old-project: Wds
 ms.assetid: ed243373-b5ff-418d-811c-544589ea11ac
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsTransportProviderGetContentMetadata, WdsTransportProviderGetContentMetadata callback, WdsTransportProviderGetContentMetadata callback function [Windows Deployment Services], wds.wdstransportprovidergetcontentmetadata, wdstpdi/WdsTransportProviderGetContentMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

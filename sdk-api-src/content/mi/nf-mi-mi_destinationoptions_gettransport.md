@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_gettransport.htm
 old-project: wmi_v2
 ms.assetid: 85e0a952-c51c-4877-b9fb-d2fe0d0b1bb1
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_DestinationOptions_GetTransport, MI_DestinationOptions_GetTransport function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetTransport, wmi_v2.mi_destinationoptions_gettransport
 ms.prod: windows-hardware
 ms.technology: windows-devices

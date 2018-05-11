@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_StopSessionRedirection.htm
 old-project: shell
 ms.assetid: 6edd4f9a-c9e8-45eb-a86b-a04116530aad
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StopSessionRedirection method, IPackageDebugSettings.StopSessionRedirection, IPackageDebugSettings::StopSessionRedirection, StopSessionRedirection, StopSessionRedirection method [Windows Shell], StopSessionRedirection method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StopSessionRedirection, shobjidl_core/IPackageDebugSettings::StopSessionRedirection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: OVERLAPPED, *LPOVERLAPPED
+req.typenames: 
 topic_type:
 -	APIRef
 -	kbSyntax

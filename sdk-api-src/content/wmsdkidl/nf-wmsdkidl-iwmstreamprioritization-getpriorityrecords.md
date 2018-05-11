@@ -7,7 +7,7 @@ old-location: wmformat\iwmstreamprioritization_getpriorityrecords.htm
 old-project: wmformat
 ms.assetid: 50b105c7-1e4f-435c-8bb6-643ea4d065bb
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: GetPriorityRecords, GetPriorityRecords method [windows Media Format], GetPriorityRecords method [windows Media Format],IWMStreamPrioritization interface, IWMStreamPrioritization interface [windows Media Format],GetPriorityRecords method, IWMStreamPrioritization.GetPriorityRecords, IWMStreamPrioritization::GetPriorityRecords, IWMStreamPrioritizationGetPriorityRecords, wmformat.iwmstreamprioritization_getpriorityrecords, wmsdkidl/IWMStreamPrioritization::GetPriorityRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

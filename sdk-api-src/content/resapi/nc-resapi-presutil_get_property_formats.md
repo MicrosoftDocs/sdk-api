@@ -7,7 +7,7 @@ old-location: mscs\resutilgetpropertyformats.htm
 old-project: MsCS
 ms.assetid: 034c7a4f-4219-47ea-afb0-a7c634d1b544
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PRESUTIL_GET_PROPERTY_FORMATS, PRESUTIL_GET_PROPERTY_FORMATS callback, PRESUTIL_GET_PROPERTY_FORMATS callback function [Failover Cluster], _wolf_resutilgetpropertyformats, mscs.resutilgetpropertyformats, resapi/PRESUTIL_GET_PROPERTY_FORMATS
 ms.prod: windows-hardware
 ms.technology: windows-devices

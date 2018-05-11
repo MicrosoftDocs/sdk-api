@@ -7,7 +7,7 @@ old-location: winrm\iwsmanconnectionoptionsex2.htm
 old-project: WinRM
 ms.assetid: 09159904-0160-411d-af54-f6aca94d4d7d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: IWSManConnectionOptionsEx2, IWSManConnectionOptionsEx2 interface [Windows Remote Management], IWSManConnectionOptionsEx2 interface [Windows Remote Management],described, winrm.iwsmanconnectionoptionsex2, wsmandisp/IWSManConnectionOptionsEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices

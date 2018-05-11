@@ -7,7 +7,7 @@ old-location: mstv\ipbda_eit_getversionnumber.htm
 old-project: mstv
 ms.assetid: 16249557-f1e4-4a9f-93bd-b93a2bb72353
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetVersionNumber method, IPBDA_EIT.GetVersionNumber, IPBDA_EIT::GetVersionNumber, dvbsiparser/IPBDA_EIT::GetVersionNumber, mstv.ipbda_eit_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

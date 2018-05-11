@@ -7,7 +7,7 @@ old-location: tapi2\linegetaddressstatus.htm
 old-project: Tapi
 ms.assetid: 8d747aa5-05cc-4426-9d46-24bce6b4af26
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_linegetaddressstatus, lineGetAddressStatus, lineGetAddressStatus function [TAPI 2.2], lineGetAddressStatusA, lineGetAddressStatusW, tapi/lineGetAddressStatus, tapi/lineGetAddressStatusA, tapi/lineGetAddressStatusW, tapi2.linegetaddressstatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices

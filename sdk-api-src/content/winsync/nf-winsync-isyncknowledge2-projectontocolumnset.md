@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge2_projectontocolumnset.htm
 old-project: winsync
 ms.assetid: fe183377-9b5a-476b-91af-ff974a9d41a4
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncKnowledge2 interface [Windows Sync],ProjectOntoColumnSet method, ISyncKnowledge2.ProjectOntoColumnSet, ISyncKnowledge2::ProjectOntoColumnSet, ProjectOntoColumnSet, ProjectOntoColumnSet method [Windows Sync], ProjectOntoColumnSet method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_projectontocolumnset, winsync/ISyncKnowledge2::ProjectOntoColumnSet
 ms.prod: windows-hardware
 ms.technology: windows-devices

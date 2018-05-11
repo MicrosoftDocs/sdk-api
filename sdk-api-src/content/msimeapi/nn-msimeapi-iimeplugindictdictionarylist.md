@@ -7,7 +7,7 @@ old-location: intl\iimeplugindictdictionarylist.htm
 old-project: Intl
 ms.assetid: EF14E963-26DF-4E72-9BDF-3AE99D0B7273
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: IImePlugInDictDictionaryList, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications], IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],described, intl.iimeplugindictdictionarylist, msimeapi/IImePlugInDictDictionaryList
 ms.prod: windows-hardware
 ms.technology: windows-devices

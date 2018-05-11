@@ -7,7 +7,7 @@ old-location: termserv\wts_protocol_counters.htm
 old-project: TermServ
 ms.assetid: 118c5e12-5436-4c0a-a31d-a60c5123e384
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: "*PWTS_PROTOCOL_COUNTERS, PWRDS_PROTOCOL_COUNTERS, PWRDS_PROTOCOL_COUNTERS structure pointer [Remote Desktop Services], PWTS_PROTOCOL_COUNTERS, PWTS_PROTOCOL_COUNTERS structure pointer [Remote Desktop Services], WRDS_PROTOCOL_COUNTERS, WRDS_PROTOCOL_COUNTERS structure [Remote Desktop Services], WTS_PROTOCOL_COUNTERS, WTS_PROTOCOL_COUNTERS structure [Remote Desktop Services], _WTS_PROTOCOL_COUNTERS, termserv.wts_protocol_counters, wtsdefs/PWRDS_PROTOCOL_COUNTERS, wtsdefs/PWTS_PROTOCOL_COUNTERS, wtsdefs/WRDS_PROTOCOL_COUNTERS, wtsdefs/WTS_PROTOCOL_COUNTERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

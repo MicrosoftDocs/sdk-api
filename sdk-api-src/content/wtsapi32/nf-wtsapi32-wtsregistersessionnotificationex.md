@@ -7,7 +7,7 @@ old-location: termserv\wtsregistersessionnotificationex.htm
 old-project: TermServ
 ms.assetid: 8670643e-33e0-482a-ade0-d136b8c97d37
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: NOTIFY_FOR_ALL_SESSIONS, NOTIFY_FOR_THIS_SESSION, WTSRegisterSessionNotificationEx, WTSRegisterSessionNotificationEx function [Remote Desktop Services], termserv.wtsregistersessionnotificationex, wtsapi32/WTSRegisterSessionNotificationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

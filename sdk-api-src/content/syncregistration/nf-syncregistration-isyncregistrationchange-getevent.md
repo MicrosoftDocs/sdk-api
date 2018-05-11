@@ -7,7 +7,7 @@ old-location: winsync\isyncregistrationchange_getevent.htm
 old-project: winsync
 ms.assetid: 7c96c6ad-13ca-4e00-8e6e-61898206001f
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetEvent, GetEvent method [Windows Sync], GetEvent method [Windows Sync],ISyncRegistrationChange interface, ISyncRegistrationChange interface [Windows Sync],GetEvent method, ISyncRegistrationChange.GetEvent, ISyncRegistrationChange::GetEvent, syncregistration/ISyncRegistrationChange::GetEvent, winsync.isyncregistrationchange_getevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: coreaudio\spatialaudiometadataitemsinfo.htm
 old-project: CoreAudio
 ms.assetid: EC694B26-988B-4765-8B9F-130FCF614166
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: PSpatialAudioMetadataItemsInfo, PSpatialAudioMetadataItemsInfo structure pointer [Core Audio], SpatialAudioMetadataItemsInfo, SpatialAudioMetadataItemsInfo structure [Core Audio], coreaudio.spatialaudiometadataitemsinfo, spatialaudiometadata/PSpatialAudioMetadataItemsInfo, spatialaudiometadata/SpatialAudioMetadataItemsInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

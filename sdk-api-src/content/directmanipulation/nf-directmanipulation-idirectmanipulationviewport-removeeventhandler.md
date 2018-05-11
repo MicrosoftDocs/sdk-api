@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_removeeventhandler.
 old-project: directmanipulation
 ms.assetid: ea8539c0-2c0e-4259-a104-ecc02a46372a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveEventHandler method, IDirectManipulationViewport.RemoveEventHandler, IDirectManipulationViewport::RemoveEventHandler, RemoveEventHandler, RemoveEventHandler method [Direct Manipulation], RemoveEventHandler method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_removeeventhandler, directmanipulation/IDirectManipulationViewport::RemoveEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

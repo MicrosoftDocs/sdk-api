@@ -7,7 +7,7 @@ old-location: directcomp\dcompositioncreatedevice3.htm
 old-project: directcomp
 ms.assetid: 5EF8F6E9-7632-42B4-A589-10CD4ABC7695
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: DCompositionCreateDevice3, DCompositionCreateDevice3 function [DirectComposition], dcomp/DCompositionCreateDevice3, directcomp.dcompositioncreatedevice3
 ms.prod: windows-hardware
 ms.technology: windows-devices

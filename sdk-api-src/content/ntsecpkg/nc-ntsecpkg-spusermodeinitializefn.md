@@ -7,7 +7,7 @@ old-location: security\spusermodeinitialize.htm
 old-project: SecAuthN
 ms.assetid: e260db29-995b-4f32-b389-4ef62b3b29bc
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SpUserModeInitialize, SpUserModeInitialize function [Security], SpUserModeInitializeFn, _ssp_spusermodeinitialize, ntsecpkg/SpUserModeInitialize, security.spusermodeinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

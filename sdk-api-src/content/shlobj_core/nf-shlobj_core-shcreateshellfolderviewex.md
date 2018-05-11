@@ -7,7 +7,7 @@ old-location: shell\SHCreateShellFolderViewEx.htm
 old-project: shell
 ms.assetid: 7edd6786-7d74-4065-8cf1-cbb489007a46
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SHCreateShellFolderViewEx, SHCreateShellFolderViewEx function [Windows Shell], _win32_SHCreateShellFolderViewEx, shell.SHCreateShellFolderViewEx, shlobj_core/SHCreateShellFolderViewEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\istreambufferreccomp_append.htm
 old-project: mstv
 ms.assetid: 17911b5d-6ef5-45d2-83c3-e1b481544008
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: Append, Append method [Microsoft TV Technologies], Append method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],Append method, IStreamBufferRecComp.Append, IStreamBufferRecComp::Append, IStreamBufferRecCompAppend, mstv.istreambufferreccomp_append, sbe/IStreamBufferRecComp::Append
 ms.prod: windows-hardware
 ms.technology: windows-devices

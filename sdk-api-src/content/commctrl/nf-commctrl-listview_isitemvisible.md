@@ -7,7 +7,7 @@ old-location: controls\ListView_IsItemVisible.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_isitemvisible.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: ListView_IsItemVisible, ListView_IsItemVisible macro [Windows Controls], _shell_ListView_IsItemVisible, _shell_ListView_IsItemVisible_cpp, commctrl/ListView_IsItemVisible, controls.ListView_IsItemVisible, controls._shell_ListView_IsItemVisible
 ms.prod: windows-hardware
 ms.technology: windows-devices

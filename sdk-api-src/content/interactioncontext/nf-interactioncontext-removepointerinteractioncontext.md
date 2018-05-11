@@ -7,7 +7,7 @@ old-location: input_intcontext\removepointerinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: d17f329b-f633-4aec-806f-3643206fce29
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/8/2018
 ms.keywords: RemovePointerInteractionContext, RemovePointerInteractionContext function, input_intcontext.removepointerinteractioncontext, interactioncontext.removepointerinteractioncontext, interactioncontext/RemovePointerInteractionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

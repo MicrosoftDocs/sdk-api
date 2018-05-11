@@ -7,7 +7,7 @@ old-location: shell\IPublishedApp_Install.htm
 old-project: shell
 ms.assetid: 6d8c5720-b48f-4268-810c-c04b14d20d73
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IPublishedApp interface [Windows Shell],Install method, IPublishedApp.Install, IPublishedApp::Install, Install, Install method [Windows Shell], Install method [Windows Shell],IPublishedApp interface, inet_IPublishedApp_Install, shappmgr/IPublishedApp::Install, shell.IPublishedApp_Install
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmediasource_shutdown.htm
 old-project: medfound
 ms.assetid: c7f890a8-74bd-4418-bb02-a3fee62dec6d
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFMediaSource interface [Media Foundation],Shutdown method, IMFMediaSource.Shutdown, IMFMediaSource::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFMediaSource interface, c7f890a8-74bd-4418-bb02-a3fee62dec6d, mf.imfmediasource_shutdown, mfidl/IMFMediaSource::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

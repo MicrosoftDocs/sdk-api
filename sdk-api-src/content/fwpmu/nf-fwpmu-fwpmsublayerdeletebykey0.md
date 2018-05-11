@@ -7,7 +7,7 @@ old-location: fwp\fwpmsublayerdeletebykey0_func.htm
 old-project: FWP
 ms.assetid: 4aa238a6-1a47-4fdc-b02b-f10cf0e90040
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmSubLayerDeleteByKey0, FwpmSubLayerDeleteByKey0 function [Filtering], fwp.fwpmsublayerdeletebykey0_func, fwpmu/FwpmSubLayerDeleteByKey0
 ms.prod: windows-hardware
 ms.technology: windows-devices

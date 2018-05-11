@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionbrightnesseffect_setwhitepointy_overloaded
 old-project: directcomp
 ms.assetid: b8111c61-cb02-e23f-6257-36708f775d02
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: SetWhitePointY, SetWhitePointY methods [DirectComposition], dcomp/SetWhitePointY, directcomp.idcompositionbrightnesseffect_setwhitepointy_overloaded, idcompositionbrightnesseffect::SetWhitePointY
 ms.prod: windows-hardware
 ms.technology: windows-devices

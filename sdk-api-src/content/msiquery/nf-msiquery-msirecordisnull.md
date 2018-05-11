@@ -7,7 +7,7 @@ old-location: setup\msirecordisnull.htm
 old-project: Msi
 ms.assetid: e37a458c-8868-4f8c-96fd-a713d2a9c5ad
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiRecordIsNull, MsiRecordIsNull function, _msi_msirecordisnull, msiquery/MsiRecordIsNull, setup.msirecordisnull
 ms.prod: windows-hardware
 ms.technology: windows-devices

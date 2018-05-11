@@ -7,7 +7,7 @@ old-location: mf\imfstreamingsinkconfig.htm
 old-project: medfound
 ms.assetid: 5eaef815-9660-487a-885d-457cd270ba3d
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFStreamingSinkConfig, IMFStreamingSinkConfig interface [Media Foundation], IMFStreamingSinkConfig interface [Media Foundation],described, mf.imfstreamingsinkconfig, mfidl/IMFStreamingSinkConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\tmgr_direction.htm
 old-project: Tapi
 ms.assetid: 1758efb7-55fc-4925-be56-7f43177db64f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: TMGR_DIRECTION, TMGR_DIRECTION enumeration [TAPI 2.2], TMGR_TD_BOTH, TMGR_TD_CAPTURE, TMGR_TD_RENDER, __MIDL___MIDL_itf_termmgr_0000_0000_0001, _tapi3_tmgr_direction, tapi3.tmgr_direction, termmgr/TMGR_DIRECTION, termmgr/TMGR_TD_BOTH, termmgr/TMGR_TD_CAPTURE, termmgr/TMGR_TD_RENDER
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\ikeext_keymodule_statistics0.htm
 old-project: FWP
 ms.assetid: 87dca500-bf57-463a-a6de-db270430ae29
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IKEEXT_KEYMODULE_STATISTICS0, IKEEXT_KEYMODULE_STATISTICS0 structure [Filtering], IKEEXT_KEYMODULE_STATISTICS0_, fwp.ikeext_keymodule_statistics0, iketypes/IKEEXT_KEYMODULE_STATISTICS0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamanalogvideodecoder_put_outputenable.htm
 old-project: DirectShow
 ms.assetid: 93163db3-ea9a-4383-b382-7d574ef24dfc
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],put_OutputEnable method, IAMAnalogVideoDecoder.put_OutputEnable, IAMAnalogVideoDecoder::put_OutputEnable, IAMAnalogVideoDecoderput_OutputEnable, dshow.iamanalogvideodecoder_put_outputenable, put_OutputEnable, put_OutputEnable method [DirectShow], put_OutputEnable method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::put_OutputEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices

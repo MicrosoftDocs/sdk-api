@@ -7,7 +7,7 @@ old-location: controls\Header_SetItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setitem.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: Header_SetItem, Header_SetItem macro [Windows Controls], _win32_Header_SetItem, _win32_Header_SetItem_cpp, commctrl/Header_SetItem, controls.Header_SetItem, controls._win32_Header_SetItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

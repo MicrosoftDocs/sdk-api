@@ -7,7 +7,7 @@ old-location: wmformat\iwmreaderplaylistburn.htm
 old-project: wmformat
 ms.assetid: a0e1a4f3-4226-44a2-b38e-e5512fda2048
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMReaderPlaylistBurn, IWMReaderPlaylistBurn interface [windows Media Format], IWMReaderPlaylistBurn interface [windows Media Format],described, IWMReaderPlaylistBurnInterface, wmformat.iwmreaderplaylistburn, wmsdkidl/IWMReaderPlaylistBurn
 ms.prod: windows-hardware
 ms.technology: windows-devices

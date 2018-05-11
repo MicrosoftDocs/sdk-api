@@ -7,7 +7,7 @@ old-location: tapi3\ienumdirectory.htm
 old-project: Tapi
 ms.assetid: 9c1e83c5-c718-4a3b-916d-e844a8377a29
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IEnumDirectory, IEnumDirectory interface [TAPI 2.2], IEnumDirectory interface [TAPI 2.2],described, _tapi3_ienumdirectory, rend/IEnumDirectory, tapi3.ienumdirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices

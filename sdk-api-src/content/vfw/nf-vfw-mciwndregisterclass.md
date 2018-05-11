@@ -7,7 +7,7 @@ old-location: multimedia\mciwndregisterclass.htm
 old-project: Multimedia
 ms.assetid: e5b7964a-ec2b-4fef-912d-f702cb3ee05c
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: MCIWndRegisterClass, MCIWndRegisterClass function [Windows Multimedia], _win32_MCIWndRegisterClass, multimedia.mciwndregisterclass, vfw/MCIWndRegisterClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

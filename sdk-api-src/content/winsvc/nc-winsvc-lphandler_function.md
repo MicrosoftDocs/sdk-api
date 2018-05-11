@@ -7,7 +7,7 @@ old-location: base\handler.htm
 old-project: Services
 ms.assetid: e2d6d3a7-070e-4343-abd7-b4b9f8dd6fbc
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/9/2018
 ms.keywords: Handler, Handler callback, Handler callback function, LPHANDLER_FUNCTION, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_SHUTDOWN, SERVICE_CONTROL_STOP, _win32_handler, base.handler, winsvc/Handler
 ms.prod: windows-hardware
 ms.technology: windows-devices

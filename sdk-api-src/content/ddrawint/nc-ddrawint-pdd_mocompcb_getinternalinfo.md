@@ -7,7 +7,7 @@ old-location: display\ddmocompgetinternalinfo.htm
 old-project: display
 ms.assetid: 297ff4a2-52f4-4b24-9abe-9c7d22a9b3ad
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: DdMoCompGetInternalInfo, DdMoCompGetInternalInfo callback function [Display Devices], PDD_MOCOMPCB_GETINTERNALINFO, PDD_MOCOMPCB_GETINTERNALINFO callback, ddfncs_0dc5afc5-0e35-49eb-a376-afbfe5def553.xml, ddrawint/DdMoCompGetInternalInfo, display.ddmocompgetinternalinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

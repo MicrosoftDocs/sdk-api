@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_ServiceStart.htm
 old-project: shell
 ms.assetid: 3af57cdc-f449-433d-a9e1-119038045e4c
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],ServiceStart method, IShellDispatch2.ServiceStart, IShellDispatch2::ServiceStart, ServiceStart, ServiceStart method [Windows Shell], ServiceStart method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_ServiceStart, shell.IShellDispatch2_ServiceStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

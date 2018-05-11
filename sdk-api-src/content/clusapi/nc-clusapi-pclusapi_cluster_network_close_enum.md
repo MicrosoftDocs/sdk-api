@@ -7,7 +7,7 @@ old-location: mscs\clusternetworkcloseenum.htm
 old-project: MsCS
 ms.assetid: 725164c5-dc6d-42f4-a703-06336711e72e
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PCLUSAPI_CLUSTER_NETWORK_CLOSE_ENUM, PCLUSAPI_CLUSTER_NETWORK_CLOSE_ENUM callback, PCLUSAPI_CLUSTER_NETWORK_CLOSE_ENUM callback function [Failover Cluster], _wolf_clusternetworkcloseenum, clusapi/PCLUSAPI_CLUSTER_NETWORK_CLOSE_ENUM, mscs.clusternetworkcloseenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

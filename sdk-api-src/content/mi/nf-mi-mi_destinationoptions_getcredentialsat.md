@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_getcredentialsat.htm
 old-project: wmi_v2
 ms.assetid: 605f6486-f7d4-433e-9f56-49a868de9e8e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_DestinationOptions_GetCredentialsAt, MI_DestinationOptions_GetCredentialsAt function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetCredentialsAt, wmi_v2.mi_destinationoptions_getcredentialsat
 ms.prod: windows-hardware
 ms.technology: windows-devices

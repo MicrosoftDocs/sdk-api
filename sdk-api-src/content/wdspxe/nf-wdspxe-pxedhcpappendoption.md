@@ -7,7 +7,7 @@ old-location: wds\pxedhcpappendoption.htm
 old-project: Wds
 ms.assetid: bc639af6-de51-4c82-985a-96e5a10389e7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: PxeDhcpAppendOption, PxeDhcpAppendOption function [Windows Deployment Services], wds.pxedhcpappendoption, wdspxe/PxeDhcpAppendOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

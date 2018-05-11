@@ -7,7 +7,7 @@ old-location: fwp\fwpm_connection0.htm
 old-project: FWP
 ms.assetid: 76a923d4-57a9-47ba-af91-ee33c3c5b34b
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_CONNECTION0, FWPM_CONNECTION0 structure [Filtering], FWPM_CONNECTION0_, fwp.fwpm_connection0, fwpmtypes/FWPM_CONNECTION0
 ms.prod: windows-hardware
 ms.technology: windows-devices

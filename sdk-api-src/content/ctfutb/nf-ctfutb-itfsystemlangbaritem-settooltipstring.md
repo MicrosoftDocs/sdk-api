@@ -7,7 +7,7 @@ old-location: tsf\itfsystemlangbaritem_settooltipstring.htm
 old-project: TSF
 ms.assetid: 6917fcd1-acce-4e5d-b04f-ee8ea69e71b4
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfSystemLangBarItem interface [Text Services Framework],SetTooltipString method, ITfSystemLangBarItem.SetTooltipString, ITfSystemLangBarItem::SetTooltipString, SetTooltipString, SetTooltipString method [Text Services Framework], SetTooltipString method [Text Services Framework],ITfSystemLangBarItem interface, _tsf_itfsystemlangbaritem_settooltipstring_ref, ctfutb/ITfSystemLangBarItem::SetTooltipString, tsf.itfsystemlangbaritem_settooltipstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\ilogontrigger.htm
 old-project: TaskSchd
 ms.assetid: c0206a18-53f2-4def-8f54-2b175a0579f4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ILogonTrigger, ILogonTrigger interface [Task Scheduler], ILogonTrigger interface [Task Scheduler],described, logon trigger [Task Scheduler],interface, taskschd.ilogontrigger, taskschd/ILogonTrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices

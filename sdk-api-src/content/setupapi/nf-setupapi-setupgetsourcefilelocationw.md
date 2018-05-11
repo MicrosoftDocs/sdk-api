@@ -7,7 +7,7 @@ old-location: setup\setupgetsourcefilelocation.htm
 old-project: SetupApi
 ms.assetid: 00245cb9-99de-464a-a0b4-d1efb1f1331b
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupGetSourceFileLocation, SetupGetSourceFileLocation function [Setup API], SetupGetSourceFileLocationA, SetupGetSourceFileLocationW, _setupapi_setupgetsourcefilelocation, setup.setupgetsourcefilelocation, setupapi/SetupGetSourceFileLocation, setupapi/SetupGetSourceFileLocationA, setupapi/SetupGetSourceFileLocationW
 ms.prod: windows-hardware
 ms.technology: windows-devices

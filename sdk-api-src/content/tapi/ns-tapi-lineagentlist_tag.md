@@ -7,7 +7,7 @@ old-location: tapi2\lineagentlist.htm
 old-project: Tapi
 ms.assetid: 176beb90-a9aa-4d40-9f84-e6ea9f84b5a2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "*LPLINEAGENTLIST, LINEAGENTLIST, LINEAGENTLIST structure [TAPI 2.2], LPLINEAGENTLIST, LPLINEAGENTLIST structure pointer [TAPI 2.2], _tapi2_lineagentlist, lineagentlist_tag, tapi/LINEAGENTLIST, tapi/LPLINEAGENTLIST, tapi2.lineagentlist"
 ms.prod: windows-hardware
 ms.technology: windows-devices

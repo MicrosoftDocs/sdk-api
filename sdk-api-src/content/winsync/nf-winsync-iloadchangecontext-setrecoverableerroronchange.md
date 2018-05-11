@@ -7,7 +7,7 @@ old-location: winsync\iloadchangecontext_setrecoverableerroronchange.htm
 old-project: winsync
 ms.assetid: 9e557889-a4f6-4e05-99ce-bb05013dc4cd
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ILoadChangeContext interface [Windows Sync],SetRecoverableErrorOnChange method, ILoadChangeContext.SetRecoverableErrorOnChange, ILoadChangeContext::SetRecoverableErrorOnChange, SetRecoverableErrorOnChange, SetRecoverableErrorOnChange method [Windows Sync], SetRecoverableErrorOnChange method [Windows Sync],ILoadChangeContext interface, winsync.iloadchangecontext_setrecoverableerroronchange, winsync/ILoadChangeContext::SetRecoverableErrorOnChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

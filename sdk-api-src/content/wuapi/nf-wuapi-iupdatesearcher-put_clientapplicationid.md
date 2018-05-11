@@ -7,7 +7,7 @@ old-location: wua\iupdatesearcherclientapplicationid.htm
 old-project: Wua_Sdk
 ms.assetid: 5b9ae823-5304-4ec4-937e-684d35bd3aed
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],ClientApplicationID property, IUpdateSearcher.ClientApplicationID, IUpdateSearcher.put_ClientApplicationID, IUpdateSearcher::ClientApplicationID, IUpdateSearcher::get_ClientApplicationID, IUpdateSearcher::put_ClientApplicationID, put_ClientApplicationID, wua.iupdatesearcherclientapplicationid, wuapi/IUpdateSearcher::ClientApplicationID, wuapi/IUpdateSearcher::get_ClientApplicationID, wuapi/IUpdateSearcher::put_ClientApplicationID
 ms.prod: windows-hardware
 ms.technology: windows-devices

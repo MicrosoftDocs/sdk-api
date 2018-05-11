@@ -7,7 +7,7 @@ old-location: base\splitsymbols.htm
 old-project: Debug
 ms.assetid: b9b940ce-8349-472e-b802-b477bd195b63
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: SPLITSYM_EXTRACT_ALL, SPLITSYM_REMOVE_PRIVATE, SPLITSYM_SYMBOLPATH_IS_SRC, SplitSymbols, SplitSymbols function, _win32_splitsymbols, base.splitsymbols, imagehlp/SplitSymbols
 ms.prod: windows-hardware
 ms.technology: windows-devices

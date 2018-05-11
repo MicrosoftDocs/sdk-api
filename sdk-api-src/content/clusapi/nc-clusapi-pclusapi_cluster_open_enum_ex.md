@@ -7,7 +7,7 @@ old-location: mscs\clusteropenenumex.htm
 old-project: MsCS
 ms.assetid: DA35A67E-6F20-47CC-A96A-591702A79EF5
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PCLUSAPI_CLUSTER_OPEN_ENUM_EX, PCLUSAPI_CLUSTER_OPEN_ENUM_EX callback, PCLUSAPI_CLUSTER_OPEN_ENUM_EX callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_OPEN_ENUM_EX, mscs.clusteropenenumex
 ms.prod: windows-hardware
 ms.technology: windows-devices

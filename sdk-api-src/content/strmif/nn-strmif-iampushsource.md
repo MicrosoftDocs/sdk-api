@@ -7,7 +7,7 @@ old-location: dshow\iampushsource.htm
 old-project: DirectShow
 ms.assetid: 5ab294a8-f250-405c-a589-68998bc04cdf
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMPushSource, IAMPushSource interface [DirectShow], IAMPushSource interface [DirectShow],described, IAMPushSourceInterface, dshow.iampushsource, strmif/IAMPushSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

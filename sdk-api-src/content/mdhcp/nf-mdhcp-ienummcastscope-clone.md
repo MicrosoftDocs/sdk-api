@@ -7,7 +7,7 @@ old-location: tapi3\ienummcastscope_clone.htm
 old-project: Tapi
 ms.assetid: 96b2a09f-8a02-471d-a738-f81a8132e0c1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumMcastScope interface, IEnumMcastScope interface [TAPI 2.2],Clone method, IEnumMcastScope.Clone, IEnumMcastScope::Clone, _tapi3_ienummcastscope_clone, mdhcp/IEnumMcastScope::Clone, tapi3.ienummcastscope_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

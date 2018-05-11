@@ -7,7 +7,7 @@ old-location: mstv\icaptionservicedescriptor.htm
 old-project: mstv
 ms.assetid: fc1f38af-2fe8-4c08-b6f8-312dd4771141
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: ICaptionServiceDescriptor, ICaptionServiceDescriptor interface [Microsoft TV Technologies], ICaptionServiceDescriptor interface [Microsoft TV Technologies],described, ICaptionServiceDescriptorInterface, atscpsipparser/ICaptionServiceDescriptor, mstv.icaptionservicedescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

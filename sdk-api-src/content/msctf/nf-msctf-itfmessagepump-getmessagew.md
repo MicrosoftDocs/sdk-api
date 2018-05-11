@@ -7,7 +7,7 @@ old-location: tsf\itfmessagepump_getmessagew.htm
 old-project: TSF
 ms.assetid: e2283d04-f5b8-4b86-9fa5-517e46417b07
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: GetMessageW, GetMessageW method [Text Services Framework], GetMessageW method [Text Services Framework],ITfMessagePump interface, ITfMessagePump interface [Text Services Framework],GetMessageW method, ITfMessagePump.GetMessageW, ITfMessagePump::GetMessageW, _tsf_itfmessagepump_getmessagew_ref, msctf/ITfMessagePump::GetMessageW, tsf.itfmessagepump_getmessagew
 ms.prod: windows-hardware
 ms.technology: windows-devices

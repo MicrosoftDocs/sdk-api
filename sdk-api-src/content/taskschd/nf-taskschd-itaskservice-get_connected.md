@@ -7,7 +7,7 @@ old-location: taskschd\itaskservice_connected.htm
 old-project: TaskSchd
 ms.assetid: 51450195-f11a-469a-a98f-4d1e00343e41
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: Connected property [Task Scheduler], Connected property [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],Connected property, ITaskService.Connected, ITaskService.get_Connected, ITaskService::Connected, ITaskService::get_Connected, get_Connected, taskschd.itaskservice_connected, taskschd/ITaskService::Connected, taskschd/ITaskService::get_Connected
 ms.prod: windows-hardware
 ms.technology: windows-devices

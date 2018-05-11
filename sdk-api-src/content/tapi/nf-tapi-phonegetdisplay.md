@@ -7,7 +7,7 @@ old-location: tapi2\phonegetdisplay.htm
 old-project: Tapi
 ms.assetid: f9176550-f48a-451d-be98-ad4bd593276b
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_phonegetdisplay, phoneGetDisplay, phoneGetDisplay function [TAPI 2.2], tapi/phoneGetDisplay, tapi2.phonegetdisplay"
 ms.prod: windows-hardware
 ms.technology: windows-devices

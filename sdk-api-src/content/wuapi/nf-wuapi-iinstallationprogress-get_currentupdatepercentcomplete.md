@@ -7,7 +7,7 @@ old-location: wua\iinstallationprogress_currentupdatepercentcomplete.htm
 old-project: Wua_Sdk
 ms.assetid: 2034cd9f-d666-43ff-b7d1-719b42a60cd5
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: CurrentUpdatePercentComplete property [Windows Update Agent], CurrentUpdatePercentComplete property [Windows Update Agent],IInstallationProgress interface, IInstallationProgress interface [Windows Update Agent],CurrentUpdatePercentComplete property, IInstallationProgress.CurrentUpdatePercentComplete, IInstallationProgress.get_CurrentUpdatePercentComplete, IInstallationProgress::CurrentUpdatePercentComplete, IInstallationProgress::get_CurrentUpdatePercentComplete, get_CurrentUpdatePercentComplete, wua.iinstallationprogress_currentupdatepercentcomplete, wuapi/IInstallationProgress::CurrentUpdatePercentComplete, wuapi/IInstallationProgress::get_CurrentUpdatePercentComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

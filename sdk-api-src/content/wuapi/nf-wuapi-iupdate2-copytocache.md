@@ -7,7 +7,7 @@ old-location: wua\iupdate2_copytocache.htm
 old-project: Wua_Sdk
 ms.assetid: a12f850a-df08-4263-bb66-94c45f7d875e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: CopyToCache, CopyToCache method [Windows Update Agent], CopyToCache method [Windows Update Agent],IUpdate2 interface, IUpdate2 interface [Windows Update Agent],CopyToCache method, IUpdate2.CopyToCache, IUpdate2::CopyToCache, wua.iupdate2_copytocache, wuapi/IUpdate2::CopyToCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

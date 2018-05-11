@@ -7,7 +7,7 @@ old-location: security\netremoveserviceaccount.htm
 old-project: SecMgmt
 ms.assetid: f67745b7-bdfd-44bc-83e0-2ad24b78e137
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/9/2018
 ms.keywords: NetRemoveServiceAccount, NetRemoveServiceAccount function [Security], SERVICE_ACCOUNT_FLAG_UNLINK_FROM_HOST_ONLY, lmaccess/NetRemoveServiceAccount, security.netremoveserviceaccount
 ms.prod: windows-hardware
 ms.technology: windows-devices

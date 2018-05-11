@@ -7,7 +7,7 @@ old-location: wmformat\wm_picture.htm
 old-project: wmformat
 ms.assetid: d3670cce-5b57-4624-b10d-2e4d9e9e263c
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: WM_PICTURE, WM_PICTURE structure [windows Media Format], _WMPicture, wmformat.wm_picture, wmsdkidl/WM_PICTURE
 ms.prod: windows-hardware
 ms.technology: windows-devices

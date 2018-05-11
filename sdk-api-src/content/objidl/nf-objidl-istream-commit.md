@@ -7,7 +7,7 @@ old-location: stg\istream_commit.htm
 old-project: Stg
 ms.assetid: 335c3a53-ca6a-42f3-bbf9-684ed48591e6
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IStream interface, IStream interface [Structured Storage],Commit method, IStream.Commit, IStream::Commit, _stg_istream_commit, objidl/IStream::Commit, stg.istream_commit
 ms.prod: windows-hardware
 ms.technology: windows-devices

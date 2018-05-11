@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference.htm
 old-project: Tapi
 ms.assetid: bab167cf-2726-4423-87b3-69227404bddc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: ITDirectoryObjectConference, ITDirectoryObjectConference interface [TAPI 2.2], ITDirectoryObjectConference interface [TAPI 2.2],described, _tapi3_itdirectoryobjectconference, rend/ITDirectoryObjectConference, tapi3.itdirectoryobjectconference
 ms.prod: windows-hardware
 ms.technology: windows-devices

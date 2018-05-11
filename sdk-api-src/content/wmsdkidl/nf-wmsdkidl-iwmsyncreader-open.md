@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_open.htm
 old-project: wmformat
 ms.assetid: dab1a9c4-487c-4b20-909e-05f3504698f5
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],Open method, IWMSyncReader.Open, IWMSyncReader::Open, IWMSyncReaderOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_open, wmsdkidl/IWMSyncReader::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

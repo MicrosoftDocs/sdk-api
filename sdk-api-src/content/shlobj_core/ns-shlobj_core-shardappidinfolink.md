@@ -7,7 +7,7 @@ old-location: shell\SHARDAPPIDINFOLINK.htm
 old-project: shell
 ms.assetid: 01613dc9-4516-4995-bd31-feee2eb650b2
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SHARDAPPIDINFOLINK, SHARDAPPIDINFOLINK structure [Windows Shell], _shell_SHARDAPPIDINFOLINK, shell.SHARDAPPIDINFOLINK, shlobj_core/SHARDAPPIDINFOLINK
 ms.prod: windows-hardware
 ms.technology: windows-devices

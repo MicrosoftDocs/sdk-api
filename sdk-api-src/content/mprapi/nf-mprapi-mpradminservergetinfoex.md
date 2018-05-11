@@ -7,8 +7,8 @@ old-location: rras\mpradminservergetinfoex.htm
 old-project: RRAS
 ms.assetid: 19fff58d-6e13-478f-a960-de5d0702661c
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: MprAdminServerGetInfo, MprAdminServerGetInfo function [RAS], MprAdminServerGetInfoEx, mprapi/MprAdminServerGetInfo, rras.mpradminservergetinfoex
+ms.date: 5/9/2018
+ms.keywords: MprAdminServerGetInfoEx, MprAdminServerGetInfoEx function [RAS], mprapi/MprAdminServerGetInfoEx, rras.mpradminservergetinfoex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Mprapi.dll
 api_name:
--	MprAdminServerGetInfo
+-	MprAdminServerGetInfoEx
 product: Windows
 targetos: Windows
 req.lib: Mprapi.lib

@@ -8,7 +8,7 @@ old-location: multimedia\iavieditstream.htm
 old-project: Multimedia
 ms.assetid: d32dc386-05cf-4f7b-9785-a38586a09402
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: IAVIEditStream, IAVIEditStream interface [Windows Multimedia], IAVIEditStream interface [Windows Multimedia],described, _win32_IAVIEditStream, multimedia.iavieditstream, vfw/IAVIEditStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

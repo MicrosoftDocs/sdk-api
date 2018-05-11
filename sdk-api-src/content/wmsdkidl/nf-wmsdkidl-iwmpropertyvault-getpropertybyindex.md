@@ -7,7 +7,7 @@ old-location: wmformat\iwmpropertyvault_getpropertybyindex.htm
 old-project: wmformat
 ms.assetid: edecc6d2-f784-4205-bd79-6098e553d5cd
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: GetPropertyByIndex, GetPropertyByIndex method [windows Media Format], GetPropertyByIndex method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],GetPropertyByIndex method, IWMPropertyVault.GetPropertyByIndex, IWMPropertyVault::GetPropertyByIndex, IWMPropertyVaultGetPropertyByIndex, wmformat.iwmpropertyvault_getpropertybyindex, wmsdkidl/IWMPropertyVault::GetPropertyByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

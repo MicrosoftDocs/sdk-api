@@ -7,7 +7,7 @@ old-location: mscs\resutilexpandenvironmentstrings.htm
 old-project: MsCS
 ms.assetid: 633e49f5-e01c-4cbd-a2ef-61fcb9e192f4
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PRESUTIL_EXPAND_ENVIRONMENT_STRINGS, PRESUTIL_EXPAND_ENVIRONMENT_STRINGS callback, PRESUTIL_EXPAND_ENVIRONMENT_STRINGS callback function [Failover Cluster], _wolf_resutilexpandenvironmentstrings, mscs.resutilexpandenvironmentstrings, resapi/PRESUTIL_EXPAND_ENVIRONMENT_STRINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocollicenseconnection_requestclientlicense.htm
 old-project: TermServ
 ms.assetid: 4740d7a4-aa82-4c9d-b93c-20a974f170ae
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],RequestClientLicense method, IWTSProtocolLicenseConnection.RequestClientLicense, IWTSProtocolLicenseConnection::RequestClientLicense, RequestClientLicense, RequestClientLicense method [Remote Desktop Services], RequestClientLicense method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_requestclientlicense, wtsprotocol/IWTSProtocolLicenseConnection::RequestClientLicense
 ms.prod: windows-hardware
 ms.technology: windows-devices

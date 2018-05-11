@@ -7,7 +7,7 @@ old-location: dshow\iamasyncreadertimestampscaling.htm
 old-project: DirectShow
 ms.assetid: 159ed107-383d-4a1a-b172-f2e339d6bc83
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMAsyncReaderTimestampScaling, IAMAsyncReaderTimestampScaling interface [DirectShow], IAMAsyncReaderTimestampScaling interface [DirectShow],described, dshow.iamasyncreadertimestampscaling, strmif/IAMAsyncReaderTimestampScaling
 ms.prod: windows-hardware
 ms.technology: windows-devices

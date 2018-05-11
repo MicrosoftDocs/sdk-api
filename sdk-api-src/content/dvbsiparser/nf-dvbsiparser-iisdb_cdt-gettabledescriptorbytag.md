@@ -7,7 +7,7 @@ old-location: mstv\iisdb_cdt_gettabledescriptorbytag.htm
 old-project: mstv
 ms.assetid: c06f9d03-a46a-4c3f-bacc-a78f79c411c3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IISDB_CDT.GetTableDescriptorByTag, IISDB_CDT::GetTableDescriptorByTag, dvbsiparser/IISDB_CDT::GetTableDescriptorByTag, mstv.iisdb_cdt_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

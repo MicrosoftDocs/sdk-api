@@ -7,7 +7,7 @@ old-location: controls\ListView_DeleteItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_deleteitem.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: ListView_DeleteItem, ListView_DeleteItem macro [Windows Controls], _win32_ListView_DeleteItem, _win32_ListView_DeleteItem_cpp, commctrl/ListView_DeleteItem, controls.ListView_DeleteItem, controls._win32_ListView_DeleteItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

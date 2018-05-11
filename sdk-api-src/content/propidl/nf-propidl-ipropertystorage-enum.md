@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_enum.htm
 old-project: Stg
 ms.assetid: 73f834cf-b6e4-4a48-bbdc-0c4ba87aacaf
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: Enum, Enum method [Structured Storage], Enum method [Structured Storage],IPropertyStorage interface, IPropertyStorage interface [Structured Storage],Enum method, IPropertyStorage.Enum, IPropertyStorage::Enum, _stg_ipropertystorage_enum, propidl/IPropertyStorage::Enum, stg.ipropertystorage_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices

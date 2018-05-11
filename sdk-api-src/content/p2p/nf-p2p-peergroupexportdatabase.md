@@ -7,7 +7,7 @@ old-location: p2p\peergroupexportdatabase.htm
 old-project: P2PSdk
 ms.assetid: ce448780-5a9b-4d2d-9dfb-192b4e6c1b22
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGroupExportDatabase, PeerGroupExportDatabase function [Peer Networking], p2p.peergroupexportdatabase, p2p/PeerGroupExportDatabase
 ms.prod: windows-hardware
 ms.technology: windows-devices

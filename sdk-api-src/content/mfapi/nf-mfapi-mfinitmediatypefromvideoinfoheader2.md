@@ -7,7 +7,7 @@ old-location: mf\mfinitmediatypefromvideoinfoheader2.htm
 old-project: medfound
 ms.assetid: 4077ae40-75b2-4c45-b62e-740e216ebf89
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 4077ae40-75b2-4c45-b62e-740e216ebf89, MFInitMediaTypeFromVideoInfoHeader2, MFInitMediaTypeFromVideoInfoHeader2 function [Media Foundation], mf.mfinitmediatypefromvideoinfoheader2, mfapi/MFInitMediaTypeFromVideoInfoHeader2
 ms.prod: windows-hardware
 ms.technology: windows-devices

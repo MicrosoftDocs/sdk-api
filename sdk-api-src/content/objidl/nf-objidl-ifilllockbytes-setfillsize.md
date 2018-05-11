@@ -7,7 +7,7 @@ old-location: stg\ifilllockbytes_setfillsize.htm
 old-project: Stg
 ms.assetid: 1336079e-02d2-4799-a58f-d097ec80c03b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: IFillLockBytes interface [Structured Storage],SetFillSize method, IFillLockBytes.SetFillSize, IFillLockBytes::SetFillSize, SetFillSize, SetFillSize method [Structured Storage], SetFillSize method [Structured Storage],IFillLockBytes interface, _stg_ifilllockbytes_setfillsize, objidl/IFillLockBytes::SetFillSize, stg.ifilllockbytes_setfillsize
 ms.prod: windows-hardware
 ms.technology: windows-devices

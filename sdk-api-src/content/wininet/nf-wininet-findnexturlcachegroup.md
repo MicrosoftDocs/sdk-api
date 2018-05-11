@@ -7,7 +7,7 @@ old-location: wininet\findnexturlcachegroup.htm
 old-project: WinInet
 ms.assetid: f3cbe67c-c069-404c-8ca4-d18b35cc4c4a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: FindNextUrlCacheGroup, FindNextUrlCacheGroup function [WinINet], _inet_findnexturlcachegroup_function, wininet.findnexturlcachegroup, wininet/FindNextUrlCacheGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

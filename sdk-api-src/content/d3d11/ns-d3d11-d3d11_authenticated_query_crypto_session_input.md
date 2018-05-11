@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_query_crypto_session_input.htm
 old-project: medfound
 ms.assetid: 012E594C-4E0B-48A3-828A-A8F8B901F8E7
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT, D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT, mf.d3d11_authenticated_query_crypto_session_input
 ms.prod: windows-hardware
 ms.technology: windows-devices

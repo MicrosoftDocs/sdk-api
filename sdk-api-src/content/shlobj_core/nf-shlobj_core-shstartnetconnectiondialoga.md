@@ -7,7 +7,7 @@ old-location: shell\SHStartNetConnectionDialog.htm
 old-project: shell
 ms.assetid: 9de9d5f4-a89f-42d2-b24e-b037694f6e92
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RESOURCETYPE_ANY, RESOURCETYPE_DISK, RESOURCETYPE_PRINT, SHStartNetConnectionDialog, SHStartNetConnectionDialog function [Windows Shell], SHStartNetConnectionDialogA, SHStartNetConnectionDialogW, _win32_SHStartNetConnectionDialog, shell.SHStartNetConnectionDialog, shlobj_core/SHStartNetConnectionDialog, shlobj_core/SHStartNetConnectionDialogA, shlobj_core/SHStartNetConnectionDialogW
 ms.prod: windows-hardware
 ms.technology: windows-devices

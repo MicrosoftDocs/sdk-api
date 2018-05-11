@@ -7,7 +7,7 @@ old-location: base\imagegetcertificatedata.htm
 old-project: Debug
 ms.assetid: ca4cf3a3-9324-4784-a6d8-44692f4840eb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: ImageGetCertificateData, ImageGetCertificateData function, _win32_imagegetcertificatedata, base.imagegetcertificatedata, imagehlp/ImageGetCertificateData
 ms.prod: windows-hardware
 ms.technology: windows-devices

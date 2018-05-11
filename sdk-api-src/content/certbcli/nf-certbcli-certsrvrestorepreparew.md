@@ -7,7 +7,7 @@ old-location: security\certsrvrestoreprepare.htm
 old-project: SecCrypto
 ms.assetid: e607b61c-9636-40e6-abba-74152f37b49e
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CSRESTORE_TYPE_FULL, CertSrvRestorePrepare, CertSrvRestorePrepare function [Security], CertSrvRestorePrepareW, _certsrv_certsrvrestoreprepare, certbcli/CertSrvRestorePrepare, certbcli/CertSrvRestorePrepareW, security.certsrvrestoreprepare
 ms.prod: windows-hardware
 ms.technology: windows-devices

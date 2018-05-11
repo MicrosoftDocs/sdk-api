@@ -7,7 +7,7 @@ old-location: properties\IPropertyChange.htm
 old-project: properties
 ms.assetid: 7bdc31d8-ba03-4010-8aa1-89701ebbf8cd
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: IPropertyChange, IPropertyChange interface [Windows Properties], IPropertyChange interface [Windows Properties],described, _shell_IPropertyChange, properties.IPropertyChange, propsys/IPropertyChange, shell.IPropertyChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

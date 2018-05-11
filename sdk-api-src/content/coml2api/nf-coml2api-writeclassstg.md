@@ -7,7 +7,7 @@ old-location: stg\writeclassstg.htm
 old-project: Stg
 ms.assetid: 5f2f16d1-923f-4ba7-8d4b-7e8535f6f15e
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: WriteClassStg, WriteClassStg function [Structured Storage], _stg_writeclassstg, coml2api/WriteClassStg, stg.writeclassstg
 ms.prod: windows-hardware
 ms.technology: windows-devices

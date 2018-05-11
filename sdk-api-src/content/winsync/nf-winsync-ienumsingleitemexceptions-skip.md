@@ -7,7 +7,7 @@ old-location: winsync\ienumsingleitemexceptions_skip.htm
 old-project: winsync
 ms.assetid: 80e3bb55-b467-4fa4-bb3e-70233e5b0265
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumSingleItemExceptions interface [Windows Sync],Skip method, IEnumSingleItemExceptions.Skip, IEnumSingleItemExceptions::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSingleItemExceptions interface, winsync.ienumsingleitemexceptions_skip, winsync/IEnumSingleItemExceptions::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\tf_da_color.htm
 old-project: TSF
 ms.assetid: 0ce8f941-c187-437f-8bad-f882e63b8421
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: TF_DA_COLOR, TF_DA_COLOR structure [Text Services Framework], _tsf_tf_da_color_ref, msctf/TF_DA_COLOR, tsf.tf_da_color
 ms.prod: windows-hardware
 ms.technology: windows-devices

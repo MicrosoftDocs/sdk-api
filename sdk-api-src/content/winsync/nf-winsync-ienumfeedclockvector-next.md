@@ -7,7 +7,7 @@ old-location: winsync\ienumfeedclockvector_next.htm
 old-project: winsync
 ms.assetid: 2303fac8-21ae-44df-8e47-9fe0fa88d90b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Next method, IEnumFeedClockVector.Next, IEnumFeedClockVector::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_next, winsync/IEnumFeedClockVector::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

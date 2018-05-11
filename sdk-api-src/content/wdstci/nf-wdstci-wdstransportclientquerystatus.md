@@ -7,7 +7,7 @@ old-location: wds\wdstransportclientquerystatus.htm
 old-project: Wds
 ms.assetid: 405d8575-a6ae-483e-a49a-9281c5e825a7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsTransportClientQueryStatus, WdsTransportClientQueryStatus function [Windows Deployment Services], wds.wdstransportclientquerystatus, wdstci/WdsTransportClientQueryStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

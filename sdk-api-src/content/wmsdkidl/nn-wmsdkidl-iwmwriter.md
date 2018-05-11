@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriter.htm
 old-project: wmformat
 ms.assetid: a194ef11-5203-4e85-af91-cdce0c53fe76
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMWriter, IWMWriter interface [windows Media Format], IWMWriter interface [windows Media Format],described, IWMWriterInterface, wmformat.iwmwriter, wmsdkidl/IWMWriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

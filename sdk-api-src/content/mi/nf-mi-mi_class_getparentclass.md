@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_class_getparentclass.htm
 old-project: wmi_v2
 ms.assetid: e90e3072-7d01-4959-bfee-c85ea89775a2
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_Class_GetParentClass, MI_Class_GetParentClass function [Windows Management Infrastructure (MI)], mi/MI_Class_GetParentClass, wmi_v2.mi_class_getparentclass
 ms.prod: windows-hardware
 ms.technology: windows-devices

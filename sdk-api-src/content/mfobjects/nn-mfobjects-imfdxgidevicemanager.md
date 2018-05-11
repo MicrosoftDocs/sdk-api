@@ -7,7 +7,7 @@ old-location: mf\imfdxgidevicemanager.htm
 old-project: medfound
 ms.assetid: 4A0DC266-FCF0-4ECD-AC78-CF429839486D
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFDXGIDeviceManager, IMFDXGIDeviceManager interface [Media Foundation], IMFDXGIDeviceManager interface [Media Foundation],described, mf.imfdxgidevicemanager, mfobjects/IMFDXGIDeviceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

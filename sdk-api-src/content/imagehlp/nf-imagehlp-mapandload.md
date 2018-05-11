@@ -7,7 +7,7 @@ old-location: base\mapandload.htm
 old-project: Debug
 ms.assetid: 42d5ea46-4b89-4d93-b9a9-18c2855df193
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: MapAndLoad, MapAndLoad function, _win32_mapandload, base.mapandload, imagehlp/MapAndLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices

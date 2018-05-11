@@ -7,7 +7,7 @@ old-location: mstv\imsvidgenericsink_put_sinkstreams.htm
 old-project: mstv
 ms.assetid: a9bb76ad-6b10-4a48-9d94-64e6d28a3b9f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],put_SinkStreams method, IMSVidGenericSink.put_SinkStreams, IMSVidGenericSink::put_SinkStreams, IMSVidGenericSinkput_SinkStreams, mstv.imsvidgenericsink_put_sinkstreams, put_SinkStreams, put_SinkStreams method [Microsoft TV Technologies], put_SinkStreams method [Microsoft TV Technologies],IMSVidGenericSink interface, segment/IMSVidGenericSink::put_SinkStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

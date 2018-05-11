@@ -7,7 +7,7 @@ old-location: winrm\iwsmanresourcelocator_clearselectors.htm
 old-project: WinRM
 ms.assetid: fccd0cd4-465b-454c-a300-ab50c25d6afe
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: ClearSelectors, ClearSelectors method [Windows Remote Management], ClearSelectors method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],ClearSelectors method, IWSManResourceLocator.ClearSelectors, IWSManResourceLocator::ClearSelectors, winrm.iwsmanresourcelocator_clearselectors, wsmandisp/IWSManResourceLocator::ClearSelectors
 ms.prod: windows-hardware
 ms.technology: windows-devices

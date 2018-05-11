@@ -7,7 +7,7 @@ old-location: vhd\delete_snapshot_vhdset_version.htm
 old-project: VStor
 ms.assetid: D92039E2-775F-4A77-83AA-5681A1A67835
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: DELETE_SNAPSHOT_VHDSET_VERSION, DELETE_SNAPSHOT_VHDSET_VERSION enumeration [VHD], DELETE_SNAPSHOT_VHDSET_VERSION_1, DELETE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED, PDELETE_SNAPSHOT_VHDSET_VERSION, PDELETE_SNAPSHOT_VHDSET_VERSION enumeration pointer [VHD], _DELETE_SNAPSHOT_VHDSET_VERSION, vhd.delete_snapshot_vhdset_version, virtdisk/DELETE_SNAPSHOT_VHDSET_VERSION, virtdisk/DELETE_SNAPSHOT_VHDSET_VERSION_1, virtdisk/DELETE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED, virtdisk/PDELETE_SNAPSHOT_VHDSET_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices

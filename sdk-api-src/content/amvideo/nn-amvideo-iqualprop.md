@@ -7,7 +7,7 @@ old-location: dshow\iqualprop.htm
 old-project: DirectShow
 ms.assetid: 428dfb97-0dfa-442c-819e-291e6a58f712
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IQualProp, IQualProp interface [DirectShow], IQualProp interface [DirectShow],described, IQualPropInterface, amvideo/IQualProp, dshow.iqualprop
 ms.prod: windows-hardware
 ms.technology: windows-devices

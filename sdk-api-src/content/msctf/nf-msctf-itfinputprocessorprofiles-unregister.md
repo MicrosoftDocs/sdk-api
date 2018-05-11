@@ -7,7 +7,7 @@ old-location: tsf\itfinputprocessorprofiles_unregister.htm
 old-project: TSF
 ms.assetid: 53de09dd-3d99-4968-8861-397b67daf8c5
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],Unregister method, ITfInputProcessorProfiles.Unregister, ITfInputProcessorProfiles::Unregister, Unregister, Unregister method [Text Services Framework], Unregister method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_unregister_ref, msctf/ITfInputProcessorProfiles::Unregister, tsf.itfinputprocessorprofiles_unregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

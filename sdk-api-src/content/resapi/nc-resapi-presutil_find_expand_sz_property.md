@@ -7,7 +7,7 @@ old-location: mscs\resutilfindexpandszproperty.htm
 old-project: MsCS
 ms.assetid: 44fb21bd-6cc2-4b1b-ae8f-c977fa336747
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PRESUTIL_FIND_EXPAND_SZ_PROPERTY, PRESUTIL_FIND_EXPAND_SZ_PROPERTY callback, PRESUTIL_FIND_EXPAND_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilfindexpandszproperty, mscs.resutilfindexpandszproperty, resapi/PRESUTIL_FIND_EXPAND_SZ_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices

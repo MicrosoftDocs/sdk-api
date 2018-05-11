@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_resume.htm
 old-project: DirectShow
 ms.assetid: 522dcb38-8c17-46b0-b5aa-5ee380057077
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IDvdControl2 interface [DirectShow],Resume method, IDvdControl2.Resume, IDvdControl2::Resume, IDvdControl2Resume, Resume, Resume method [DirectShow], Resume method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_resume, strmif/IDvdControl2::Resume
 ms.prod: windows-hardware
 ms.technology: windows-devices

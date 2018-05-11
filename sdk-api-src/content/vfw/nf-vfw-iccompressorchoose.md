@@ -7,7 +7,7 @@ old-location: multimedia\iccompressorchoose.htm
 old-project: Multimedia
 ms.assetid: 4a58df6a-9ac4-44bb-8c49-338bb60193fc
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: ICCompressorChoose, ICCompressorChoose function [Windows Multimedia], _win32_ICCompressorChoose, multimedia.iccompressorchoose, vfw/ICCompressorChoose
 ms.prod: windows-hardware
 ms.technology: windows-devices

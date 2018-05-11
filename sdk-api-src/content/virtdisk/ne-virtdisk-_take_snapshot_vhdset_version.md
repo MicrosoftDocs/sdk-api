@@ -7,7 +7,7 @@ old-location: vhd\take_snapshot_vhdset_version.htm
 old-project: VStor
 ms.assetid: E544AC22-6865-4ECF-92F8-B8027746C231
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: TAKE_SNAPSHOT_VHDSET_VERSION, TAKE_SNAPSHOT_VHDSET_VERSION enumeration [VHD], TAKE_SNAPSHOT_VHDSET_VERSION_1, TAKE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED, _TAKE_SNAPSHOT_VHDSET_VERSION, vhd.take_snapshot_vhdset_version, virtdisk/ TAKE_SNAPSHOT_VHDSET_VERSION_1, virtdisk/TAKE_SNAPSHOT_VHDSET_VERSION, virtdisk/TAKE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices

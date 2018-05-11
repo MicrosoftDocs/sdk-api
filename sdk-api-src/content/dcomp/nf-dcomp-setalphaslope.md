@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionlineartransfereffect_setalphaslope_overloa
 old-project: directcomp
 ms.assetid: 1de76dcb-9fcb-ddda-0a98-be151ff869ff
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: SetAlphaSlope, SetAlphaSlope methods [DirectComposition], dcomp/SetAlphaSlope, directcomp.idcompositionlineartransfereffect_setalphaslope_overloaded, idcompositionlineartransfereffect::SetAlphaSlope
 ms.prod: windows-hardware
 ms.technology: windows-devices

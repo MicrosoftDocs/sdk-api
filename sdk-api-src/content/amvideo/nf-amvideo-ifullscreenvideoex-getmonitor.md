@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_getmonitor.htm
 old-project: DirectShow
 ms.assetid: 18825029-2035-46b3-a6a5-9edd8e0437c6
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetMonitor method, IFullScreenVideoEx.GetMonitor, IFullScreenVideoEx::GetMonitor, IFullScreenVideoGetMonitor, amvideo/IFullScreenVideoEx::GetMonitor, dshow.ifullscreenvideoex_getmonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

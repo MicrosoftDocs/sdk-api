@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionvisual_setclip_overloaded.htm
 old-project: directcomp
 ms.assetid: ACEBA4F9-E1B0-459B-8DC2-272A822AB214
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: IDCompositionVisual::SetClip, SetClip, SetClip methods [DirectComposition], dcomp/SetClip, directcomp.idcompositionvisual_setclip_overloaded
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\getclustergroupkey.htm
 old-project: MsCS
 ms.assetid: 86f34e31-f240-485f-a5b6-e4de922b8d97
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: GetClusterGroupKey, GetClusterGroupKey function [Failover Cluster], _wolf_getclustergroupkey, clusapi/GetClusterGroupKey, mscs.getclustergroupkey
 ms.prod: windows-hardware
 ms.technology: windows-devices

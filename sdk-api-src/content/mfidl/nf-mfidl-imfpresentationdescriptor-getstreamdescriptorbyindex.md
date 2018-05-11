@@ -7,7 +7,7 @@ old-location: mf\imfpresentationdescriptor_getstreamdescriptorbyindex.htm
 old-project: medfound
 ms.assetid: 1db28049-cd62-4b1b-932b-b4d4e12fd671
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 1db28049-cd62-4b1b-932b-b4d4e12fd671, GetStreamDescriptorByIndex, GetStreamDescriptorByIndex method [Media Foundation], GetStreamDescriptorByIndex method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],GetStreamDescriptorByIndex method, IMFPresentationDescriptor.GetStreamDescriptorByIndex, IMFPresentationDescriptor::GetStreamDescriptorByIndex, mf.imfpresentationdescriptor_getstreamdescriptorbyindex, mfidl/IMFPresentationDescriptor::GetStreamDescriptorByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

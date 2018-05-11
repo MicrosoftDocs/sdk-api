@@ -7,7 +7,7 @@ old-location: wds\wdstransportclientaddrefbuffer.htm
 old-project: Wds
 ms.assetid: 941cac20-cca9-4351-8dee-f3910062c6b4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsTransportClientAddRefBuffer, WdsTransportClientAddRefBuffer function [Windows Deployment Services], wds.wdstransportclientaddrefbuffer, wdstci/WdsTransportClientAddRefBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

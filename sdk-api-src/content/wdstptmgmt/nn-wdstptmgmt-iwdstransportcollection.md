@@ -7,7 +7,7 @@ old-location: wds\iwdstransportcollection.htm
 old-project: Wds
 ms.assetid: 4a5c247f-28d7-4057-87e9-fca6e9effc96
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportCollection, IWdsTransportCollection interface [Windows Deployment Services], IWdsTransportCollection interface [Windows Deployment Services],described, wds.iwdstransportcollection, wdstptmgmt/IWdsTransportCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

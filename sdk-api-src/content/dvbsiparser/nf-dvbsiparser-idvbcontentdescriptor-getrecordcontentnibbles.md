@@ -7,7 +7,7 @@ old-location: mstv\idvbcontentdescriptor_getrecordcontentnibbles.htm
 old-project: mstv
 ms.assetid: 2b05403a-cf9e-4f23-907f-ffb90b6fc5e3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetRecordContentNibbles, GetRecordContentNibbles method [Microsoft TV Technologies], GetRecordContentNibbles method [Microsoft TV Technologies],IDvbContentDescriptor interface, IDvbContentDescriptor interface [Microsoft TV Technologies],GetRecordContentNibbles method, IDvbContentDescriptor.GetRecordContentNibbles, IDvbContentDescriptor::GetRecordContentNibbles, dvbsiparser/IDvbContentDescriptor::GetRecordContentNibbles, mstv.idvbcontentdescriptor_getrecordcontentnibbles
 ms.prod: windows-hardware
 ms.technology: windows-devices

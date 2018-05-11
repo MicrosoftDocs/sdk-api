@@ -7,7 +7,7 @@ old-location: fwp\ipsec_token_mode.htm
 old-project: FWP
 ms.assetid: 5f90e473-39e1-4eed-9ea1-1f20929d5a07
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPSEC_TOKEN_MODE, IPSEC_TOKEN_MODE enumeration [Filtering], IPSEC_TOKEN_MODE_, IPSEC_TOKEN_MODE_EXTENDED, IPSEC_TOKEN_MODE_MAIN, IPSEC_TOKEN_MODE_MAX, fwp.ipsec_token_mode, ipsectypes/IPSEC_TOKEN_MODE, ipsectypes/IPSEC_TOKEN_MODE_EXTENDED, ipsectypes/IPSEC_TOKEN_MODE_MAIN, ipsectypes/IPSEC_TOKEN_MODE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices

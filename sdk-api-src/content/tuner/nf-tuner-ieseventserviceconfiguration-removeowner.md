@@ -7,7 +7,7 @@ old-location: mstv\ieseventserviceconfiguration_removeowner.htm
 old-project: mstv
 ms.assetid: c55b732e-960c-4a0c-939b-2f3628b5c9b6
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],RemoveOwner method, IESEventServiceConfiguration.RemoveOwner, IESEventServiceConfiguration::RemoveOwner, RemoveOwner, RemoveOwner method [Microsoft TV Technologies], RemoveOwner method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_removeowner, tuner/IESEventServiceConfiguration::RemoveOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\peergrouppeertimetouniversaltime.htm
 old-project: P2PSdk
 ms.assetid: 27164da8-b5c7-41c1-bfe1-1c5797aa7ae1
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGroupPeerTimeToUniversalTime, PeerGroupPeerTimeToUniversalTime function [Peer Networking], p2p.peergrouppeertimetouniversaltime, p2p/PeerGroupPeerTimeToUniversalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

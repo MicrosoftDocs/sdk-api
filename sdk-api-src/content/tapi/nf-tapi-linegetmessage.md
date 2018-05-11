@@ -7,7 +7,7 @@ old-location: tapi2\linegetmessage.htm
 old-project: Tapi
 ms.assetid: ed6df53e-b01d-40bc-8676-b0f7e0eacfd1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_linegetmessage, lineGetMessage, lineGetMessage function [TAPI 2.2], tapi/lineGetMessage, tapi2.linegetmessage"
 ms.prod: windows-hardware
 ms.technology: windows-devices

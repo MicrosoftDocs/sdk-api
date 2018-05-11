@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_focusrelative.htm
 old-project: DirectShow
 ms.assetid: 21bc1cbe-747b-4846-814f-1aed0ac614d6
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: ICameraControl interface [DirectShow],get_FocusRelative method, ICameraControl.get_FocusRelative, ICameraControl::get_FocusRelative, ICameraControlget_FocusRelative, dshow.icameracontrol_get_focusrelative, get_FocusRelative, get_FocusRelative method [DirectShow], get_FocusRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_FocusRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices

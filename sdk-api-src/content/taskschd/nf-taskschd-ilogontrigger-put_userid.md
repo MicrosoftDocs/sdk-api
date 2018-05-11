@@ -7,7 +7,7 @@ old-location: taskschd\ilogontrigger_userid.htm
 old-project: TaskSchd
 ms.assetid: 22d69609-1400-41eb-ae25-4ca05c4733ba
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ILogonTrigger interface [Task Scheduler],UserId property, ILogonTrigger.UserId, ILogonTrigger.put_UserId, ILogonTrigger::UserId, ILogonTrigger::get_UserId, ILogonTrigger::put_UserId, UserId property [Task Scheduler], UserId property [Task Scheduler],ILogonTrigger interface, put_UserId, taskschd.ilogontrigger_userid, taskschd/ILogonTrigger::UserId, taskschd/ILogonTrigger::get_UserId, taskschd/ILogonTrigger::put_UserId
 ms.prod: windows-hardware
 ms.technology: windows-devices

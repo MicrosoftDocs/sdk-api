@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex_enumerationflaghierarchyshallow.htm
 old-project: WinRM
 ms.assetid: 590cf20d-56bc-4472-9d40-cc423bfb00df
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: EnumerationFlagHierarchyShallow, EnumerationFlagHierarchyShallow method [Windows Remote Management], EnumerationFlagHierarchyShallow method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagHierarchyShallow method, IWSManEx.EnumerationFlagHierarchyShallow, IWSManEx::EnumerationFlagHierarchyShallow, winrm.iwsmanex_enumerationflaghierarchyshallow, wsmandisp/IWSManEx::EnumerationFlagHierarchyShallow
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: setup\setupaddsectiontodiskspacelist.htm
 old-project: SetupApi
 ms.assetid: 8225d0b4-b750-4580-83f5-dcffdf2ee67b
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: FILEOP_COPY, FILEOP_DELETE, SetupAddSectionToDiskSpaceList, SetupAddSectionToDiskSpaceList function [Setup API], SetupAddSectionToDiskSpaceListA, SetupAddSectionToDiskSpaceListW, _setupapi_setupaddsectiontodiskspacelist, setup.setupaddsectiontodiskspacelist, setupapi/SetupAddSectionToDiskSpaceList, setupapi/SetupAddSectionToDiskSpaceListA, setupapi/SetupAddSectionToDiskSpaceListW
 ms.prod: windows-hardware
 ms.technology: windows-devices

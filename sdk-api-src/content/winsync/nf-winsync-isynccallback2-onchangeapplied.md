@@ -7,7 +7,7 @@ old-location: winsync\isynccallback2_onchangeapplied.htm
 old-project: winsync
 ms.assetid: 3397ca51-583b-4051-892b-68f505d85ccd
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncCallback2 interface [Windows Sync],OnChangeApplied method, ISyncCallback2.OnChangeApplied, ISyncCallback2::OnChangeApplied, OnChangeApplied, OnChangeApplied method [Windows Sync], OnChangeApplied method [Windows Sync],ISyncCallback2 interface, winsync.isynccallback2_onchangeapplied, winsync/ISyncCallback2::OnChangeApplied
 ms.prod: windows-hardware
 ms.technology: windows-devices

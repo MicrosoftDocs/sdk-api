@@ -7,7 +7,7 @@ old-location: of\iofflinefileschangeinfo_isdeletedoffline.htm
 old-project: OfflineFiles
 ms.assetid: c6a739f3-0c3d-46f1-8548-89be0660ef59
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsDeletedOffline method, IOfflineFilesChangeInfo.IsDeletedOffline, IOfflineFilesChangeInfo::IsDeletedOffline, IsDeletedOffline, IsDeletedOffline method [Offline Files], IsDeletedOffline method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsDeletedOffline, of.iofflinefileschangeinfo_isdeletedoffline
 ms.prod: windows-hardware
 ms.technology: windows-devices

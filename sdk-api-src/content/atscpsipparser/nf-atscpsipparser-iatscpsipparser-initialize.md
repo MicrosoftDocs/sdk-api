@@ -7,7 +7,7 @@ old-location: mstv\iatscpsipparser_initialize.htm
 old-project: mstv
 ms.assetid: 7a4d4d17-4fc5-481c-bcf8-0f68b2f0a8e2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IAtscPsipParser interface [Microsoft TV Technologies],Initialize method, IAtscPsipParser.Initialize, IAtscPsipParser::Initialize, IAtscPsipParserInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IAtscPsipParser interface, atscpsipparser/IAtscPsipParser::Initialize, mstv.iatscpsipparser_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

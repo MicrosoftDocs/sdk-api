@@ -7,7 +7,7 @@ old-location: tsf\itflangbareventsink_onthreadterminate.htm
 old-project: TSF
 ms.assetid: cdb5d505-524b-4fbc-a90a-181d22cbadbc
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnThreadTerminate method, ITfLangBarEventSink.OnThreadTerminate, ITfLangBarEventSink::OnThreadTerminate, OnThreadTerminate, OnThreadTerminate method [Text Services Framework], OnThreadTerminate method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_onthreadterminate_ref, ctfutb/ITfLangBarEventSink::OnThreadTerminate, tsf.itflangbareventsink_onthreadterminate
 ms.prod: windows-hardware
 ms.technology: windows-devices

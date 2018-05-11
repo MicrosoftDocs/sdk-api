@@ -7,7 +7,7 @@ old-location: p2p\peergraphsetnodeattributes.htm
 old-project: P2PSdk
 ms.assetid: 334b6c88-4d5d-4e73-843f-2be07b9de9c9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGraphSetNodeAttributes, PeerGraphSetNodeAttributes function [Peer Networking], p2p.peergraphsetnodeattributes, p2p/PeerGraphSetNodeAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrm\wsman_option_set.htm
 old-project: WinRM
 ms.assetid: 16a1447c-d764-44bf-9c62-064769ead0f3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: WSMAN_OPTION_SET, WSMAN_OPTION_SET structure [Windows Remote Management], _WSMAN_OPTION_SET, winrm.wsman_option_set, wsman/WSMAN_OPTION_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices

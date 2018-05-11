@@ -7,7 +7,7 @@ old-location: mf\mfcreateattributes.htm
 old-project: medfound
 ms.assetid: a79b1edd-5ca1-4550-a6ce-58073155affd
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MFCreateAttributes, MFCreateAttributes function [Media Foundation], a79b1edd-5ca1-4550-a6ce-58073155affd, mf.mfcreateattributes, mfapi/MFCreateAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

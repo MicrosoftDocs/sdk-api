@@ -7,7 +7,7 @@ old-location: taskschd\iregisteredtaskcollection_count.htm
 old-project: TaskSchd
 ms.assetid: 62667998-2743-488d-bea1-957a65006ad9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],IRegisteredTaskCollection interface, IRegisteredTaskCollection interface [Task Scheduler],Count property, IRegisteredTaskCollection.Count, IRegisteredTaskCollection.get_Count, IRegisteredTaskCollection::Count, IRegisteredTaskCollection::get_Count, get_Count, taskschd.iregisteredtaskcollection_count, taskschd/IRegisteredTaskCollection::Count, taskschd/IRegisteredTaskCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

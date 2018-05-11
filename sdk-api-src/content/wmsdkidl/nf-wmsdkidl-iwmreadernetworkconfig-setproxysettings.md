@@ -7,7 +7,7 @@ old-location: wmformat\iwmreadernetworkconfig_setproxysettings.htm
 old-project: wmformat
 ms.assetid: fe5bc4f2-860a-42e8-b9f1-cd3d8af619c2
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetProxySettings method, IWMReaderNetworkConfig.SetProxySettings, IWMReaderNetworkConfig::SetProxySettings, IWMReaderNetworkConfigSetProxySettings, SetProxySettings, SetProxySettings method [windows Media Format], SetProxySettings method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setproxysettings, wmsdkidl/IWMReaderNetworkConfig::SetProxySettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

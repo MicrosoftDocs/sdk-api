@@ -7,7 +7,7 @@ old-location: wds\iwdstransportcacheable_commit.htm
 old-project: Wds
 ms.assetid: bd651e56-3945-48ca-a490-e20db88eb2fb
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: Commit, Commit method [Windows Deployment Services], Commit method [Windows Deployment Services],IWdsTransportCacheable interface, IWdsTransportCacheable interface [Windows Deployment Services],Commit method, IWdsTransportCacheable.Commit, IWdsTransportCacheable::Commit, wds.iwdstransportcacheable_commit, wdstptmgmt/IWdsTransportCacheable::Commit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ipbdaentitlementdescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 51fc1ecc-ec18-415c-84f8-276ec581b24e
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IPBDAEntitlementDescriptor interface, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],GetLength method, IPBDAEntitlementDescriptor.GetLength, IPBDAEntitlementDescriptor::GetLength, dvbsiparser/IPBDAEntitlementDescriptor::GetLength, mstv.ipbdaentitlementdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

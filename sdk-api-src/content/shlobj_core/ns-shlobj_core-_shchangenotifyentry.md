@@ -7,7 +7,7 @@ old-location: shell\SHChangeNotifyEntry.htm
 old-project: shell
 ms.assetid: cb11435a-86f0-4b06-bfc6-e0417f2897a1
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SHChangeNotifyEntry, SHChangeNotifyEntry structure [Windows Shell], _SHChangeNotifyEntry, _win32_SHChangeNotifyEntry, shell.SHChangeNotifyEntry, shlobj_core/SHChangeNotifyEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\PathFindOnPath.htm
 old-project: shell
 ms.assetid: d9281eb2-39b7-444f-85b7-1e1e76c38ae2
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PathFindOnPath, PathFindOnPath function [Windows Shell], PathFindOnPathA, PathFindOnPathW, _win32_PathFindOnPath, shell.PathFindOnPath, shlwapi/PathFindOnPath, shlwapi/PathFindOnPathA, shlwapi/PathFindOnPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

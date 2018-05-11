@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmenumstorage_skip.htm
 old-project: WMDM
 ms.assetid: 0073f279-95e4-41e3-9195-c4c93fd41fb6
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: IWMDMEnumStorage interface [windows Media Device Manager],Skip method, IWMDMEnumStorage.Skip, IWMDMEnumStorage::Skip, IWMDMEnumStorageSkip, Skip, Skip method [windows Media Device Manager], Skip method [windows Media Device Manager],IWMDMEnumStorage interface, mswmdm/IWMDMEnumStorage::Skip, wmdm.iwmdmenumstorage_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

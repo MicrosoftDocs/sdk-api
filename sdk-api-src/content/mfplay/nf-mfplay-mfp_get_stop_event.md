@@ -7,7 +7,7 @@ old-location: mf\mfp_get_stop_event.htm
 old-project: medfound
 ms.assetid: 3ca3fa23-1abf-49fc-96e3-f094b483c78f
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MFP_GET_STOP_EVENT, MFP_GET_STOP_EVENT macro [Media Foundation], mf.mfp_get_stop_event, mfplay/MFP_GET_STOP_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

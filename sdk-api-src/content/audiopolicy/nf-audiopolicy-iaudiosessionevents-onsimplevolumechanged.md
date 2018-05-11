@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionevents_onsimplevolumechanged.htm
 old-project: CoreAudio
 ms.assetid: e60e8996-3c01-4458-88f2-cd6cb118bd76
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnSimpleVolumeChanged method, IAudioSessionEvents.OnSimpleVolumeChanged, IAudioSessionEvents::OnSimpleVolumeChanged, IAudioSessionEventsOnSimpleVolumeChanged, OnSimpleVolumeChanged, OnSimpleVolumeChanged method [Core Audio], OnSimpleVolumeChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnSimpleVolumeChanged, coreaudio.iaudiosessionevents_onsimplevolumechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

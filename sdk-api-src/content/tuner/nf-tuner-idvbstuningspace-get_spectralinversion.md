@@ -7,7 +7,7 @@ old-location: mstv\idvbstuningspace_get_spectralinversion.htm
 old-project: mstv
 ms.assetid: 68374808-2999-4196-9b2b-b6c97308b041
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_SpectralInversion method, IDVBSTuningSpace.get_SpectralInversion, IDVBSTuningSpace::get_SpectralInversion, IDVBSTuningSpaceget_SpectralInversion, get_SpectralInversion, get_SpectralInversion method [Microsoft TV Technologies], get_SpectralInversion method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_spectralinversion, tuner/IDVBSTuningSpace::get_SpectralInversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

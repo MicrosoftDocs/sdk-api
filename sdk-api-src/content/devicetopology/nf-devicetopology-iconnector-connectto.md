@@ -7,7 +7,7 @@ old-location: coreaudio\iconnector_connectto.htm
 old-project: CoreAudio
 ms.assetid: 57704103-0124-4c02-8f96-980a50e98cca
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: ConnectTo, ConnectTo method [Core Audio], ConnectTo method [Core Audio],IConnector interface, IConnector interface [Core Audio],ConnectTo method, IConnector.ConnectTo, IConnector::ConnectTo, IConnectorConnectTo, coreaudio.iconnector_connectto, devicetopology/IConnector::ConnectTo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\ikeext_cert_ekus0.htm
 old-project: FWP
 ms.assetid: e9669340-a1f2-455f-a490-a94694c83531
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IKEEXT_CERT_EKUS0, IKEEXT_CERT_EKUS0 structure [Filtering], IKEEXT_CERT_EKUS0_, fwp.ikeext_cert_ekus0, iketypes/IKEEXT_CERT_EKUS0
 ms.prod: windows-hardware
 ms.technology: windows-devices

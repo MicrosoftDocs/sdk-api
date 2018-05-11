@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationmanager3.htm
 old-project: directmanipulation
 ms.assetid: 566d4a36-5623-4896-b23b-3824551850b0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationManager3, IDirectManipulationManager3 interface [Direct Manipulation], IDirectManipulationManager3 interface [Direct Manipulation],described, directmanipulation.idirectmanipulationmanager3, directmanipulation/IDirectManipulationManager3
 ms.prod: windows-hardware
 ms.technology: windows-devices

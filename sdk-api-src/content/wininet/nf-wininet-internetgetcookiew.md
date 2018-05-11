@@ -7,7 +7,7 @@ old-location: wininet\internetgetcookie.htm
 old-project: WinInet
 ms.assetid: 12c1ebab-3954-4995-9e1f-bf29699af396
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: InternetGetCookie, InternetGetCookie function [WinINet], InternetGetCookieA, InternetGetCookieW, _win32_internetgetcookie, wininet.internetgetcookie, wininet/InternetGetCookie, wininet/InternetGetCookieA, wininet/InternetGetCookieW
 ms.prod: windows-hardware
 ms.technology: windows-devices

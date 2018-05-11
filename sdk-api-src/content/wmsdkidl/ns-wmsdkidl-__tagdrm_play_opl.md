@@ -7,7 +7,7 @@ old-location: wmformat\drm_play_opl.htm
 old-project: wmformat
 ms.assetid: 5d14bd02-0fb5-4982-b3dc-7f8277cb852f
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: DRM_PLAY_OPL, DRM_PLAY_OPL structure [windows Media Format], __tagDRM_PLAY_OPL, structure [windows Media Format], wmformat.drm_play_opl, wmsdkidl/DRM_PLAY_OPL
 ms.prod: windows-hardware
 ms.technology: windows-devices

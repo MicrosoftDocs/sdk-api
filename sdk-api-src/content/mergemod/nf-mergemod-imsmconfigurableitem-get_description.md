@@ -7,7 +7,7 @@ old-location: setup\imsmconfigurableitem_get_description.htm
 old-project: Msi
 ms.assetid: aafc79a0-51cb-4147-b72c-b5218835dc03
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: IMsmConfigurableItem interface,get_Description method, IMsmConfigurableItem.get_Description, IMsmConfigurableItem::get_Description, _msi_get_description_function, get_Description, get_Description method, get_Description method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Description, setup.imsmconfigurableitem_get_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

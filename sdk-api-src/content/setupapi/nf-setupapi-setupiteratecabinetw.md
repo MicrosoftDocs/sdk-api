@@ -7,7 +7,7 @@ old-location: setup\setupiteratecabinet.htm
 old-project: SetupApi
 ms.assetid: 2fa2d140-fa8e-41a8-9800-d10e5559fab4
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupIterateCabinet, SetupIterateCabinet function [Setup API], SetupIterateCabinetA, SetupIterateCabinetW, _setupapi_setupiteratecabinet, setup.setupiteratecabinet, setupapi/SetupIterateCabinet, setupapi/SetupIterateCabinetA, setupapi/SetupIterateCabinetW
 ms.prod: windows-hardware
 ms.technology: windows-devices

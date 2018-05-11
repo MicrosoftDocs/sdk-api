@@ -7,7 +7,7 @@ old-location: shell\UIntToLongPtr.htm
 old-project: shell
 ms.assetid: bf26b6da-ecc6-4ee0-9da8-54fa0261427a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: UIntToLongPtr, UIntToLongPtr function [Windows Shell], UIntToSSIZET, _shell_UIntToLongPtr, intsafe/UIntToLongPtr, shell.UIntToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

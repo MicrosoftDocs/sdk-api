@@ -7,7 +7,7 @@ old-location: winsync\isyncprovider.htm
 old-project: winsync
 ms.assetid: 0664267f-90ba-4123-bfe5-7cf748b78c10
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncProvider, ISyncProvider interface [Windows Sync], ISyncProvider interface [Windows Sync],described, winsync.isyncprovider, winsync/ISyncProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\iemailaction_subject.htm
 old-project: TaskSchd
 ms.assetid: 7e5e6e84-7d2f-4aa3-946f-fe7fac6e49db
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IEmailAction interface [Task Scheduler],Subject property, IEmailAction.Subject, IEmailAction.put_Subject, IEmailAction::Subject, IEmailAction::get_Subject, IEmailAction::put_Subject, Subject property [Task Scheduler], Subject property [Task Scheduler],IEmailAction interface, put_Subject, taskschd.iemailaction_subject, taskschd/IEmailAction::Subject, taskschd/IEmailAction::get_Subject, taskschd/IEmailAction::put_Subject
 ms.prod: windows-hardware
 ms.technology: windows-devices

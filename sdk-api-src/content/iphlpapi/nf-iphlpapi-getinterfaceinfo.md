@@ -7,7 +7,7 @@ old-location: iphlp\getinterfaceinfo.htm
 old-project: IpHlp
 ms.assetid: efc0d175-2c6d-4608-b385-1623a9e0375c
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetInterfaceInfo, GetInterfaceInfo function [IP Helper], _iphlp_getinterfaceinfo, iphlp.getinterfaceinfo, iphlpapi/GetInterfaceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

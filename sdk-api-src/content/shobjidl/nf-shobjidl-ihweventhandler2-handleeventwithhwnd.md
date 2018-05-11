@@ -7,7 +7,7 @@ old-location: shell\IHWEventHandler2_HandleEventWithHWND.htm
 old-project: shell
 ms.assetid: 65720250-ace5-488d-9be7-33b07d7cc667
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: HandleEventWithHWND, HandleEventWithHWND method [Windows Shell], HandleEventWithHWND method [Windows Shell],IHWEventHandler2 interface, IHWEventHandler2 interface [Windows Shell],HandleEventWithHWND method, IHWEventHandler2.HandleEventWithHWND, IHWEventHandler2::HandleEventWithHWND, _shell_IHWEventHandler2_HandleEventWithHWND, shell.IHWEventHandler2_HandleEventWithHWND, shobjidl/IHWEventHandler2::HandleEventWithHWND
 ms.prod: windows-hardware
 ms.technology: windows-devices

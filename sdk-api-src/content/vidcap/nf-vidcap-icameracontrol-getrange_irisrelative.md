@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_getrange_irisrelative.htm
 old-project: DirectShow
 ms.assetid: 9816e29b-3366-49e7-aa4c-46b06963c176
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_IrisRelative method, ICameraControl.getRange_IrisRelative, ICameraControl::getRange_IrisRelative, ICameraControlgetRange_IrisRelative, dshow.icameracontrol_getrange_irisrelative, getRange_IrisRelative, getRange_IrisRelative method [DirectShow], getRange_IrisRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_IrisRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices

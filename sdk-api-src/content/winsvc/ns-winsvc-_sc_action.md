@@ -7,7 +7,7 @@ old-location: base\sc_action_str.htm
 old-project: Services
 ms.assetid: e2c355a6-affe-46bf-a3e6-f8c420422d46
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/9/2018
 ms.keywords: "*LPSC_ACTION, LPSC_ACTION, LPSC_ACTION structure pointer, SC_ACTION, SC_ACTION structure, SC_ACTION_NONE, SC_ACTION_REBOOT, SC_ACTION_RESTART, SC_ACTION_RUN_COMMAND, _SC_ACTION, _win32_sc_action_str, base.sc_action_str, winsvc/LPSC_ACTION, winsvc/SC_ACTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

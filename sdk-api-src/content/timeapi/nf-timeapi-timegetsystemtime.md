@@ -7,7 +7,7 @@ old-location: multimedia\timegetsystemtime.htm
 old-project: Multimedia
 ms.assetid: 57871ada-d2b7-48a9-bed0-3780b836c77a
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: "_win32_timeGetSystemTime, mmsystem/timeGetSystemTime, multimedia.timegetsystemtime, timeGetSystemTime, timeGetSystemTime function [Windows Multimedia], timeapi/timeGetSystemTime"
 ms.prod: windows-hardware
 ms.technology: windows-devices

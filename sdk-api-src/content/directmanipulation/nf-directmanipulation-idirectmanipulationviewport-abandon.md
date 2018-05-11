@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_abandon.htm
 old-project: directmanipulation
 ms.assetid: 83d0bcde-03d2-4eba-991a-399b5307c8bd
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: Abandon, Abandon method [Direct Manipulation], Abandon method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Abandon method, IDirectManipulationViewport.Abandon, IDirectManipulationViewport::Abandon, directmanipulation.idirectmanipulationviewport_abandon, directmanipulation/IDirectManipulationViewport::Abandon
 ms.prod: windows-hardware
 ms.technology: windows-devices

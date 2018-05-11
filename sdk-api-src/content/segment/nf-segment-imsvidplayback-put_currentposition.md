@@ -7,7 +7,7 @@ old-location: mstv\imsvidplayback_put_currentposition.htm
 old-project: mstv
 ms.assetid: 3e9e0128-5609-4a9f-bbfc-a29a2174c5d0
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_CurrentPosition method, IMSVidPlayback.put_CurrentPosition, IMSVidPlayback::put_CurrentPosition, IMSVidPlaybackput_CurrentPosition, mstv.imsvidplayback_put_currentposition, put_CurrentPosition, put_CurrentPosition method [Microsoft TV Technologies], put_CurrentPosition method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_CurrentPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

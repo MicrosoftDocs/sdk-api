@@ -7,7 +7,7 @@ old-location: fwp\fwpm_field_type_enum.htm
 old-project: FWP
 ms.assetid: 46983847-7c68-4ee7-946e-ea62f34d1a38
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_FIELD_FLAGS, FWPM_FIELD_IP_ADDRESS, FWPM_FIELD_RAW_DATA, FWPM_FIELD_TYPE, FWPM_FIELD_TYPE enumeration [Filtering], FWPM_FIELD_TYPE_, FWPM_FIELD_TYPE_MAX, fwp.fwpm_field_type_enum, fwpmtypes/FWPM_FIELD_FLAGS, fwpmtypes/FWPM_FIELD_IP_ADDRESS, fwpmtypes/FWPM_FIELD_RAW_DATA, fwpmtypes/FWPM_FIELD_TYPE, fwpmtypes/FWPM_FIELD_TYPE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices

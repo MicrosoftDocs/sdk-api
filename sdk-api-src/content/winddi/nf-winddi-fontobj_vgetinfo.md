@@ -7,7 +7,7 @@ old-location: display\fontobj_vgetinfo.htm
 old-project: display
 ms.assetid: 4b952bdc-a496-4ded-9390-9f4b470f3a6c
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: FONTOBJ_vGetInfo, FONTOBJ_vGetInfo function [Display Devices], display.fontobj_vgetinfo, gdifncs_0b07bb13-32b4-404c-824f-02f2b5659295.xml, winddi/FONTOBJ_vGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

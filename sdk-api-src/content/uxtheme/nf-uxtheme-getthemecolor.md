@@ -7,7 +7,7 @@ old-location: controls\GetThemeColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemecolor.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetThemeColor, GetThemeColor function [Windows Controls], controls.GetThemeColor, controls.inet_GetThemeColor, inet_GetThemeColor, inet_GetThemeColor_cpp, uxtheme/GetThemeColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

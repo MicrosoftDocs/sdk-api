@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationviewport_setviewportrect.htm
 old-project: directmanipulation
 ms.assetid: 45dfdf6e-aa4d-489a-bf9a-016e42eb57f6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetViewportRect method, IDirectManipulationViewport.SetViewportRect, IDirectManipulationViewport::SetViewportRect, SetViewportRect, SetViewportRect method [Direct Manipulation], SetViewportRect method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setviewportrect, directmanipulation/IDirectManipulationViewport::SetViewportRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

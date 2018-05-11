@@ -7,7 +7,7 @@ old-location: stg\oleconvertistoragetoolestream.htm
 old-project: Stg
 ms.assetid: d100d32a-6559-4a7c-a0ae-780bc9d82611
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: OleConvertIStorageToOLESTREAM, OleConvertIStorageToOLESTREAM function [Structured Storage], _stg_oleconvertistoragetoolestream, ole2/OleConvertIStorageToOLESTREAM, stg.oleconvertistoragetoolestream
 ms.prod: windows-hardware
 ms.technology: windows-devices

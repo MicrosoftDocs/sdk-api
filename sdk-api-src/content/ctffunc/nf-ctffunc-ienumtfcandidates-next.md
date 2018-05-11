@@ -7,7 +7,7 @@ old-location: tsf\ienumtfcandidates_next.htm
 old-project: TSF
 ms.assetid: 50aaa3c0-6998-49de-9753-7be38625a10d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: IEnumTfCandidates interface [Text Services Framework],Next method, IEnumTfCandidates.Next, IEnumTfCandidates::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_next_ref, ctffunc/IEnumTfCandidates::Next, tsf.ienumtfcandidates_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

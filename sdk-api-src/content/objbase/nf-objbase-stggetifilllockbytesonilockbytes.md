@@ -7,7 +7,7 @@ old-location: stg\stggetifilllockbytesonilockbytes.htm
 old-project: Stg
 ms.assetid: 87159472-3b80-4c0f-b2d4-7635dfcf2121
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: StgGetIFillLockBytesOnILockBytes, StgGetIFillLockBytesOnILockBytes function [Structured Storage], _stg_stggetifilllockbytesonilockbytes, objbase/StgGetIFillLockBytesOnILockBytes, stg.stggetifilllockbytesonilockbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices

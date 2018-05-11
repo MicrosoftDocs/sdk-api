@@ -7,7 +7,7 @@ old-location: p2p\peergraphgetitemcount.htm
 old-project: P2PSdk
 ms.assetid: db97b7e0-6f85-4b61-843f-efb4bc93149b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGraphGetItemCount, PeerGraphGetItemCount function [Peer Networking], p2p.peergraphgetitemcount, p2p/PeerGraphGetItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\engdeleteevent.htm
 old-project: display
 ms.assetid: b1db14ed-345f-428e-9338-74c7b230e661
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: EngDeleteEvent, EngDeleteEvent function [Display Devices], display.engdeleteevent, gdifncs_8a703ede-e100-493c-8ede-82c03361633f.xml, winddi/EngDeleteEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

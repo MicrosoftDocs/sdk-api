@@ -7,7 +7,7 @@ old-location: winsync\isyncregistrationchange.htm
 old-project: winsync
 ms.assetid: 45376bd2-1f5f-4f4c-9c4c-f5add9438d5c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ISyncRegistrationChange, ISyncRegistrationChange interface [Windows Sync], ISyncRegistrationChange interface [Windows Sync],described, syncregistration/ISyncRegistrationChange, winsync.isyncregistrationchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

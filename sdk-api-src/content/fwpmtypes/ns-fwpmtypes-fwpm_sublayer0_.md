@@ -7,7 +7,7 @@ old-location: fwp\fwpm_sublayer0_struct.htm
 old-project: FWP
 ms.assetid: ce689b1d-1f5c-4dde-96cd-9001de3827aa
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_SUBLAYER0, FWPM_SUBLAYER0 structure [Filtering], FWPM_SUBLAYER0_, FWPM_SUBLAYER_FLAG_PERSISTENT, fwp.fwpm_sublayer0_struct, fwpmtypes/FWPM_SUBLAYER0
 ms.prod: windows-hardware
 ms.technology: windows-devices

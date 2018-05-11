@@ -7,7 +7,7 @@ old-location: fwp\ipsecsadestroyenumhandle0_func.htm
 old-project: FWP
 ms.assetid: acd02e35-0bcb-4882-9b85-b29a558d34b7
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPsecSaDestroyEnumHandle0, IPsecSaDestroyEnumHandle0 function [Filtering], fwp.ipsecsadestroyenumhandle0_func, fwpmu/IPsecSaDestroyEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

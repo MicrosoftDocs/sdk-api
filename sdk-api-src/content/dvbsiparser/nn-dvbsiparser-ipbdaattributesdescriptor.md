@@ -7,7 +7,7 @@ old-location: mstv\ipbdaattributesdescriptor.htm
 old-project: mstv
 ms.assetid: 489348b7-0f10-4a49-a7d4-10a1ed478aa8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IPBDAAttributesDescriptor, IPBDAAttributesDescriptor interface [Microsoft TV Technologies], IPBDAAttributesDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IPBDAAttributesDescriptor, mstv.ipbdaattributesdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

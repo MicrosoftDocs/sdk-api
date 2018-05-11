@@ -7,7 +7,7 @@ old-location: mf\dxvahd_stream_state_source_rect_data.htm
 old-project: medfound
 ms.assetid: 51f2cfe6-722b-4273-abf6-e1b8fdec9808
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, DXVAHD_STREAM_STATE_SOURCE_RECT_DATA structure [Media Foundation], FALSE, TRUE, _DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, dxvahd/DXVAHD_STREAM_STATE_SOURCE_RECT_DATA, mf.dxvahd_stream_state_source_rect_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

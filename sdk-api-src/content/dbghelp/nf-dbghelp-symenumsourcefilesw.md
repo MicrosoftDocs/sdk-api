@@ -7,7 +7,7 @@ old-location: base\symenumsourcefiles.htm
 old-project: Debug
 ms.assetid: 4649bdc6-74c5-4529-bedc-64e0277144d0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: SymEnumSourceFiles, SymEnumSourceFiles function, SymEnumSourceFilesW, base.symenumsourcefiles, dbghelp/SymEnumSourceFiles, dbghelp/SymEnumSourceFilesW
 ms.prod: windows-hardware
 ms.technology: windows-devices

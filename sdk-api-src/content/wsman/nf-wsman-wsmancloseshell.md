@@ -7,7 +7,7 @@ old-location: winrm\wsmancloseshell.htm
 old-project: WinRM
 ms.assetid: 1da452ef-5842-4d8d-941b-09fa57393ebb
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: WSManCloseShell, WSManCloseShell function [Windows Remote Management], winrm.wsmancloseshell, wsman/WSManCloseShell
 ms.prod: windows-hardware
 ms.technology: windows-devices

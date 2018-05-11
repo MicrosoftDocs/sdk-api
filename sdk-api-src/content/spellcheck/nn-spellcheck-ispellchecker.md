@@ -7,7 +7,7 @@ old-location: intl\ispellchecker.htm
 old-project: Intl
 ms.assetid: 3cc5f675-048d-4ef3-9b66-5f081ee17a18
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], ISpellChecker interface [Internationalization for Windows Applications],described, intl.ispellchecker, spellcheck/ISpellChecker
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\iwmmutualexclusion_settype.htm
 old-project: wmformat
 ms.assetid: 18796219-bc33-41b7-b2af-a23585c2500a
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMMutualExclusion interface [windows Media Format],SetType method, IWMMutualExclusion.SetType, IWMMutualExclusion::SetType, IWMMutualExclusionSetType, SetType, SetType method [windows Media Format], SetType method [windows Media Format],IWMMutualExclusion interface, wmformat.iwmmutualexclusion_settype, wmsdkidl/IWMMutualExclusion::SetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

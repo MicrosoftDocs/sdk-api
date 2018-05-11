@@ -7,7 +7,7 @@ old-location: controls\OpenThemeDataEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedataex.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: OTD_FORCE_RECT_SIZING, OTD_NONCLIENT, OpenThemeDataEx, OpenThemeDataEx function [Windows Controls], controls.OpenThemeDataEx, controls.inet_OpenThemeDataEx, inet_OpenThemeDataEx, inet_OpenThemeDataEx_cpp, uxtheme/OpenThemeDataEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

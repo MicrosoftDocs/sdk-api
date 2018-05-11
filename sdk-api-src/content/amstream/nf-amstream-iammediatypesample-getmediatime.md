@@ -7,7 +7,7 @@ old-location: dshow\iammediatypesample_getmediatime.htm
 old-project: DirectShow
 ms.assetid: 0ed66c17-f18b-4c8b-b31a-6dd4f5ab4292
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetMediaTime, GetMediaTime method [DirectShow], GetMediaTime method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetMediaTime method, IAMMediaTypeSample.GetMediaTime, IAMMediaTypeSample::GetMediaTime, IAMMediaTypeSampleGetMediaTime, amstream/IAMMediaTypeSample::GetMediaTime, dshow.iammediatypesample_getmediatime
 ms.prod: windows-hardware
 ms.technology: windows-devices

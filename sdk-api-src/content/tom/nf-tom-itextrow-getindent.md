@@ -7,7 +7,7 @@ old-location: controls\itextrow_getindent.htm
 old-project: Controls
 ms.assetid: 9caea02f-f8db-4366-aea6-d40759b8f792
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetIndent, GetIndent method [Windows Controls], GetIndent method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetIndent method, ITextRow.GetIndent, ITextRow::GetIndent, controls.itextrow_getindent, tom/ITextRow::GetIndent
 ms.prod: windows-hardware
 ms.technology: windows-devices

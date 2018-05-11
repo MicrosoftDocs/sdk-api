@@ -7,7 +7,7 @@ old-location: taskschd\itask_setmaxruntime.htm
 old-project: TaskSchd
 ms.assetid: fb9012c6-be41-4ec6-bb1a-73bd7896738f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITask interface [Task Scheduler],SetMaxRunTime method, ITask.SetMaxRunTime, ITask::SetMaxRunTime, SetMaxRunTime, SetMaxRunTime method [Task Scheduler], SetMaxRunTime method [Task Scheduler],ITask interface, _msb_itask_setmaxruntime, mstask/ITask::SetMaxRunTime, taskschd.itask_setmaxruntime
 ms.prod: windows-hardware
 ms.technology: windows-devices

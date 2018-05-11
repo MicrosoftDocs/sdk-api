@@ -7,7 +7,7 @@ old-location: stg\ilayoutstorage_endmonitor.htm
 old-project: Stg
 ms.assetid: 83b9486b-78b6-473c-9a9a-33f470a4d70f
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: EndMonitor, EndMonitor method [Structured Storage], EndMonitor method [Structured Storage],ILayoutStorage interface, ILayoutStorage interface [Structured Storage],EndMonitor method, ILayoutStorage.EndMonitor, ILayoutStorage::EndMonitor, _stg_ilayoutstorage_endmonitor, objidl/ILayoutStorage::EndMonitor, stg.ilayoutstorage_endmonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\ddsurfacedata.htm
 old-project: display
 ms.assetid: 4057cfcf-675e-439f-8b51-23adede1d35a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*LPDDSURFACEDATA, DDSURFACEDATA, DDSURFACEDATA structure [Display Devices], LPDDSURFACEDATA, LPDDSURFACEDATA structure pointer [Display Devices], Video_Structs_0138ef0b-62f2-4d2d-a76e-48d153080ca7.xml, _DDSURFACEDATA, display.ddsurfacedata, dxmini/DDSURFACEDATA, dxmini/LPDDSURFACEDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

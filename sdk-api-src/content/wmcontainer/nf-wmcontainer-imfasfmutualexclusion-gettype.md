@@ -7,7 +7,7 @@ old-location: mf\imfasfmutualexclusion_gettype.htm
 old-project: medfound
 ms.assetid: c6af870e-2ef8-4dea-b76b-7a78ceaaa3d3
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],GetType method, IMFASFMutualExclusion.GetType, IMFASFMutualExclusion::GetType, c6af870e-2ef8-4dea-b76b-7a78ceaaa3d3, mf.imfasfmutualexclusion_gettype, wmcontainer/IMFASFMutualExclusion::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

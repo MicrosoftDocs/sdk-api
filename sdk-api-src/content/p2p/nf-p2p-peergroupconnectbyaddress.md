@@ -7,7 +7,7 @@ old-location: p2p\peergroupconnectbyaddress.htm
 old-project: P2PSdk
 ms.assetid: 44885110-fcb1-402a-86c6-1229b087165b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGroupConnectByAddress, PeerGroupConnectByAddress function [Peer Networking], p2p.peergroupconnectbyaddress, p2p/PeerGroupConnectByAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

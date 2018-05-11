@@ -7,7 +7,7 @@ old-location: security\certenumphysicalstore.htm
 old-project: SecCrypto
 ms.assetid: 5804d565-5129-4e6d-8b3d-9bd938807740
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CertEnumPhysicalStore, CertEnumPhysicalStore function [Security], _crypto2_certenumphysicalstore, security.certenumphysicalstore, wincrypt/CertEnumPhysicalStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

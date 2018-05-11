@@ -7,7 +7,7 @@ old-location: vhd\modify_vhdset_parameters.htm
 old-project: VStor
 ms.assetid: 558323D6-2D97-40C8-9CAF-E97604D2F742
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMODIFY_VHDSET_PARAMETERS, MODIFY_VHDSET_PARAMETERS, MODIFY_VHDSET_PARAMETERS structure [VHD], PMODIFY_VHDSET_PARAMETERS, PMODIFY_VHDSET_PARAMETERS structure pointer [VHD], _MODIFY_VHDSET_PARAMETERS, vhd.modify_vhdset_parameters, virtdisk/MODIFY_VHDSET_PARAMETERS, virtdisk/PMODIFY_VHDSET_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

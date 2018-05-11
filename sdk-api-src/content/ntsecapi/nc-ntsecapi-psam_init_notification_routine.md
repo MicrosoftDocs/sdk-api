@@ -7,7 +7,7 @@ old-location: security\initializechangenotify.htm
 old-project: SecMgmt
 ms.assetid: c503c849-65da-4514-b6d9-a95c9d75433e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/9/2018
 ms.keywords: InitializeChangeNotify, InitializeChangeNotify callback function [Security], PSAM_INIT_NOTIFICATION_ROUTINE, PSAM_INIT_NOTIFICATION_ROUTINE callback, _pswd_initializechangenotify, ntsecapi/InitializeChangeNotify, security.initializechangenotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

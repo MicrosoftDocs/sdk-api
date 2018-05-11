@@ -7,7 +7,7 @@ old-location: winsync\icorefragmentinspector_nextcorefragments.htm
 old-project: winsync
 ms.assetid: 801a2643-d954-44b8-83ce-021be893d06a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ICoreFragmentInspector interface [Windows Sync],NextCoreFragments method, ICoreFragmentInspector.NextCoreFragments, ICoreFragmentInspector::NextCoreFragments, NextCoreFragments, NextCoreFragments method [Windows Sync], NextCoreFragments method [Windows Sync],ICoreFragmentInspector interface, winsync.icorefragmentinspector_nextcorefragments, winsync/ICoreFragmentInspector::NextCoreFragments
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\PSGetImageReferenceForValue.htm
 old-project: properties
 ms.assetid: E37AF2ED-E3F9-4e50-9317-9DAF03AC543F
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: PSGetImageReferenceForValue, PSGetImageReferenceForValue function [Windows Properties], _shell_PSGetImageReferenceForValue, properties.PSGetImageReferenceForValue, propsys/PSGetImageReferenceForValue, shell.PSGetImageReferenceForValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

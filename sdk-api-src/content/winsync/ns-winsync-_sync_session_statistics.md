@@ -7,7 +7,7 @@ old-location: winsync\sync_session_statistics.htm
 old-project: winsync
 ms.assetid: e6d1fe9e-6cf2-414a-9be6-b444af2c7525
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: SYNC_SESSION_STATISTICS, SYNC_SESSION_STATISTICS structure [Windows Sync], _SYNC_SESSION_STATISTICS, winsync.sync_session_statistics, winsync/SYNC_SESSION_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices

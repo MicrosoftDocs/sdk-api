@@ -7,7 +7,7 @@ old-location: input_intcontext\interaction_arguments_tap.htm
 old-project: Input_IntContext
 ms.assetid: 162f35a0-5053-46ad-a7ca-ce314d584e34
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/8/2018
 ms.keywords: INTERACTION_ARGUMENTS_TAP, INTERACTION_ARGUMENTS_TAP structure, input_intcontext.interaction_arguments_tap, interactioncontext.interaction_arguments_tap, interactioncontext/INTERACTION_ARGUMENTS_TAP
 ms.prod: windows-hardware
 ms.technology: windows-devices

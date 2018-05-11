@@ -7,7 +7,7 @@ old-location: p2p\peeridentityimport.htm
 old-project: P2PSdk
 ms.assetid: 273aa395-905a-41bd-a027-23f4b3f549b6
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerIdentityImport, PeerIdentityImport function [Peer Networking], p2p.peeridentityimport, p2p/PeerIdentityImport
 ms.prod: windows-hardware
 ms.technology: windows-devices

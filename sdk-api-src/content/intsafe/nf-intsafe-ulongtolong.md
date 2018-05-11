@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongToLong
 title: ULongToLong function
 author: windows-driver-content
-description: Converts a value of type DWORD to a value of type LONG.
-old-location: shell\DWordToLong.htm
+description: Converts a value of type ULONG to a value of type LONG.
+old-location: shell\ULongToLong.htm
 old-project: shell
-ms.assetid: 885566bf-cbc6-4f26-9869-fdefbd360ff2
+ms.assetid: 0cf73a49-84a9-4062-9dd3-6e0ad1a00b1c
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: DWordToLong, DWordToLong function [Windows Shell], ULongToLong, _shell_DWordToLong, intsafe/DWordToLong, shell.DWordToLong
+ms.date: 5/9/2018
+ms.keywords: DWordToLong, ULongToLong, ULongToLong function [Windows Shell], _shell_ULongToLong, intsafe/ULongToLong, shell.ULongToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	DllExport
+-	HeaderDef
 api_location:
--	None
+-	Intsafe.h
 api_name:
--	DWordToLong
+-	ULongToLong
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: None
+req.dll: 
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>DWORD</b> to a value of type <b>LONG</b>.
+Converts a value of type <b>ULONG</b> to a value of type <b>LONG</b>.
 
 
 ## -parameters
@@ -58,9 +58,11 @@ Converts a value of type <b>DWORD</b> to a value of type <b>LONG</b>.
 
 
 
-### -param ulOperand
+### -param ulOperand [in]
 
-TBD
+Type: <b>ULONG</b>
+
+The value to be converted.
 
 
 ### -param plResult [out]
@@ -68,13 +70,6 @@ TBD
 Type: <b>LONG*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
-
-
-#### - dwOperand [in]
-
-Type: <b>DWORD</b>
-
-The value to be converted.
 
 
 ## -returns
@@ -93,6 +88,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>DWordToLong</b> is an alias for this function.
 
 
 

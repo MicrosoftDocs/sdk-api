@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol_getstate.htm
 old-project: CoreAudio
 ms.assetid: 9c0188a1-7982-40f0-9040-bda00473160c
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: GetState, GetState method [Core Audio], GetState method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetState method, IAudioSessionControl.GetState, IAudioSessionControl::GetState, IAudioSessionControlGetState, audiopolicy/IAudioSessionControl::GetState, coreaudio.iaudiosessioncontrol_getstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

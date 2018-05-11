@@ -7,7 +7,7 @@ old-location: indexsrv\text_source.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_13xh.htm
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/9/2018
 ms.keywords: TEXT_SOURCE, TEXT_SOURCE structure [Indexing Service], _idxs_TEXT_SOURCE, indexsrv.text_source, indexsrv/TEXT_SOURCE, tagTEXT_SOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices

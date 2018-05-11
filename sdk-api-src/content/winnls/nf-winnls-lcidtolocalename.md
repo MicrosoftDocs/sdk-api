@@ -7,7 +7,7 @@ old-location: intl\lcidtolocalename.htm
 old-project: Intl
 ms.assetid: 63233e3e-5b7c-43cb-9c62-88b0791c2647
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: LCIDToLocaleName, LCIDToLocaleName function [Internationalization for Windows Applications], _win32_LCIDToLocaleName, intl.lcidtolocalename, winnls/LCIDToLocaleName
 ms.prod: windows-hardware
 ms.technology: windows-devices

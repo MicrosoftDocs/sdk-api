@@ -7,7 +7,7 @@ old-location: mf\mfgetattributedouble.htm
 old-project: medfound
 ms.assetid: 61a9e327-da29-45fd-8a99-e341561826af
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 61a9e327-da29-45fd-8a99-e341561826af, MFGetAttributeDouble, MFGetAttributeDouble function [Media Foundation], mf.mfgetattributedouble, mfapi/MFGetAttributeDouble
 ms.prod: windows-hardware
 ms.technology: windows-devices

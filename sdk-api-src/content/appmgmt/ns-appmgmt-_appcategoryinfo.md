@@ -7,7 +7,7 @@ old-location: policy\appcategoryinfo_str.htm
 old-project: Policy
 ms.assetid: a03f6617-2b55-4d63-85eb-421d7c5494da
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: APPCATEGORYINFO, APPCATEGORYINFO structure [Group Policy], _APPCATEGORYINFO, appmgmt/APPCATEGORYINFO, policy.appcategoryinfo_str
 ms.prod: windows-hardware
 ms.technology: windows-devices

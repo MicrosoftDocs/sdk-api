@@ -7,7 +7,7 @@ old-location: winsync\ienumsingleitemexceptions.htm
 old-project: winsync
 ms.assetid: fed8a258-bc23-454b-9d8a-e3873481b33b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumSingleItemExceptions, IEnumSingleItemExceptions interface [Windows Sync], IEnumSingleItemExceptions interface [Windows Sync],described, winsync.ienumsingleitemexceptions, winsync/IEnumSingleItemExceptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

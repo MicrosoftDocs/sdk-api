@@ -7,7 +7,7 @@ old-location: shell\SignalFileOpen.htm
 old-project: shell
 ms.assetid: b46bb06f-a183-4a39-89bd-457fa4fe728f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SignalFileOpen, SignalFileOpen function [Windows Shell], _win32_SignalFileOpen, shell.SignalFileOpen, shlobj_core/SignalFileOpen
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winsync\isyncchange_getchangeunits.htm
 old-project: winsync
 ms.assetid: d3d0d805-ed29-4c88-925a-a16e130a3fe5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetChangeUnits, GetChangeUnits method [Windows Sync], GetChangeUnits method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetChangeUnits method, ISyncChange.GetChangeUnits, ISyncChange::GetChangeUnits, winsync.isyncchange_getchangeunits, winsync/ISyncChange::GetChangeUnits
 ms.prod: windows-hardware
 ms.technology: windows-devices

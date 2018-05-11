@@ -7,7 +7,7 @@ old-location: display\displayconfig_support_virtual_resolution.htm
 old-project: display
 ms.assetid: D9208D00-F437-4B2E-8C39-044F75088659
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION, DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure [Display Devices], display.displayconfig_support_virtual_resolution, wingdi/DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: p2p\drtdeletednsbootstrapresolver.htm
 old-project: P2PSdk
 ms.assetid: fc3d0b6a-1bf3-41f9-82b6-965c285bc6c7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: DrtDeleteDnsBootstrapResolver, DrtDeleteDnsBootstrapResolver function [Distributed Routing Tables], drt/DrtDeleteDnsBootstrapResolver, p2p.drtdeletednsbootstrapresolver
 ms.prod: windows-hardware
 ms.technology: windows-devices

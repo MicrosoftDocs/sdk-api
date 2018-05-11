@@ -7,7 +7,7 @@ old-location: indexsrv\iwordbreaker_init.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_18ac.htm
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/9/2018
 ms.keywords: IWordBreaker interface [Indexing Service],Init method, IWordBreaker.Init, IWordBreaker::Init, Init, Init method [Indexing Service], Init method [Indexing Service],IWordBreaker interface, _idxs_IWordBreaker_Init, indexsrv.iwordbreaker_init, indexsrv/IWordBreaker::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices

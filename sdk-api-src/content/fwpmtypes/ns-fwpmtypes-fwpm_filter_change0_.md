@@ -7,7 +7,7 @@ old-location: fwp\fwpm_filter_change0_struct.htm
 old-project: FWP
 ms.assetid: 01c58002-5506-4e2a-ae85-30b16aad2dd6
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_FILTER_CHANGE0, FWPM_FILTER_CHANGE0 structure [Filtering], FWPM_FILTER_CHANGE0_, fwp.fwpm_filter_change0_struct, fwpmtypes/FWPM_FILTER_CHANGE0
 ms.prod: windows-hardware
 ms.technology: windows-devices

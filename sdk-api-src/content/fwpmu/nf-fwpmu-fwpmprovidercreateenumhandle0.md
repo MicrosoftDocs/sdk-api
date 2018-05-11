@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovidercreateenumhandle0_func.htm
 old-project: FWP
 ms.assetid: f32d728d-eacc-4027-a1b1-31272425fd26
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmProviderCreateEnumHandle0, FwpmProviderCreateEnumHandle0 function [Filtering], fwp.fwpmprovidercreateenumhandle0_func, fwpmu/FwpmProviderCreateEnumHandle0
 ms.prod: windows-hardware
 ms.technology: windows-devices

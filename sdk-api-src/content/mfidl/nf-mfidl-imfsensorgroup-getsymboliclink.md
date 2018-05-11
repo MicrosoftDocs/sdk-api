@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup_getsymboliclink.htm
 old-project: medfound
 ms.assetid: F71CFD47-6D44-4288-A70E-70040D19DB2D
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymbolicLink method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSymbolicLink method, IMFSensorGroup.GetSymbolicLink, IMFSensorGroup::GetSymbolicLink, mf.imfsensorgroup_getsymboliclink, mfidl/IMFSensorGroup::GetSymbolicLink
 ms.prod: windows-hardware
 ms.technology: windows-devices

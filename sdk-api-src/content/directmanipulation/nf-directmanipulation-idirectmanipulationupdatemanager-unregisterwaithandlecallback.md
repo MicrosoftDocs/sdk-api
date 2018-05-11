@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationupdatemanager_unregisterwait
 old-project: directmanipulation
 ms.assetid: d932a4a9-827f-4e23-b30a-3a4b85a60c6e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationUpdateManager interface [Direct Manipulation],UnregisterWaitHandleCallback method, IDirectManipulationUpdateManager.UnregisterWaitHandleCallback, IDirectManipulationUpdateManager::UnregisterWaitHandleCallback, UnregisterWaitHandleCallback, UnregisterWaitHandleCallback method [Direct Manipulation], UnregisterWaitHandleCallback method [Direct Manipulation],IDirectManipulationUpdateManager interface, directmanipulation.idirectmanipulationupdatemanager_unregisterwaithandlecallback, directmanipulation/IDirectManipulationUpdateManager::UnregisterWaitHandleCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: indexsrv\istemmer.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_4b76.htm
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/9/2018
 ms.keywords: IStemmer, IStemmer interface [Indexing Service], IStemmer interface [Indexing Service],described, _idxs_IStemmer, indexsrv.istemmer, indexsrv/IStemmer
 ms.prod: windows-hardware
 ms.technology: windows-devices

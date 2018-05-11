@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationcontent_settag.htm
 old-project: directmanipulation
 ms.assetid: d0dce3dd-3fbf-41ea-ba70-8574701d101e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationContent interface [Direct Manipulation],SetTag method, IDirectManipulationContent.SetTag, IDirectManipulationContent::SetTag, SetTag, SetTag method [Direct Manipulation], SetTag method [Direct Manipulation],IDirectManipulationContent interface, directmanipulation.idirectmanipulationcontent_settag, directmanipulation/IDirectManipulationContent::SetTag
 ms.prod: windows-hardware
 ms.technology: windows-devices

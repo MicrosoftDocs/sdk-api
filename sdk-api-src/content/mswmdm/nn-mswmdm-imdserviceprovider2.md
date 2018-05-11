@@ -7,7 +7,7 @@ old-location: wmdm\imdserviceprovider2.htm
 old-project: WMDM
 ms.assetid: d9ffaea8-5616-4bc2-a27c-8b77ea177b6b
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: IMDServiceProvider2, IMDServiceProvider2 interface [windows Media Device Manager], IMDServiceProvider2 interface [windows Media Device Manager],described, IMDServiceProvider2Interface, mswmdm/IMDServiceProvider2, wmdm.imdserviceprovider2
 ms.prod: windows-hardware
 ms.technology: windows-devices

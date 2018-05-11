@@ -7,7 +7,7 @@ old-location: mib\mib_tcp6table.htm
 old-project: MIB
 ms.assetid: 62bb8544-0a0a-40b5-92cf-9631c9a9987c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMIB_TCP6TABLE, MIB_TCP6TABLE, MIB_TCP6TABLE structure [MIB], PMIB_TCP6TABLE, PMIB_TCP6TABLE structure pointer [MIB], _MIB_TCP6TABLE, mib.mib_tcp6table, tcpmib/MIB_TCP6TABLE, tcpmib/PMIB_TCP6TABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

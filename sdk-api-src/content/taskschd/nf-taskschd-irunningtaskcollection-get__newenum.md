@@ -7,7 +7,7 @@ old-location: taskschd\irunningtaskcollection__newenum.htm
 old-project: TaskSchd
 ms.assetid: 933bb50b-7c9c-46f4-8746-dd14b0050d6c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IRunningTaskCollection interface [Task Scheduler],_NewEnum property, IRunningTaskCollection._NewEnum, IRunningTaskCollection.get__NewEnum, IRunningTaskCollection::_NewEnum, IRunningTaskCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],IRunningTaskCollection interface, get__NewEnum, taskschd.irunningtaskcollection__newenum, taskschd/IRunningTaskCollection::_NewEnum, taskschd/IRunningTaskCollection::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices

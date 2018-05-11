@@ -7,7 +7,7 @@ old-location: p2p\peercollabenumcontacts.htm
 old-project: P2PSdk
 ms.assetid: e5a259e5-c5cb-4a7e-8f60-29e4d7cc6ede
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerCollabEnumContacts, PeerCollabEnumContacts function [Peer Networking], p2p.peercollabenumcontacts, p2p/PeerCollabEnumContacts
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ixdstorat_parsexdsbytepair.htm
 old-project: mstv
 ms.assetid: 79c83962-13ac-4604-a6f0-677ea6f4af84
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IXDSToRat interface [Microsoft TV Technologies],ParseXDSBytePair method, IXDSToRat.ParseXDSBytePair, IXDSToRat::ParseXDSBytePair, IXDSToRatParseXDSBytePair, ParseXDSBytePair, ParseXDSBytePair method [Microsoft TV Technologies], ParseXDSBytePair method [Microsoft TV Technologies],IXDSToRat interface, mstv.ixdstorat_parsexdsbytepair, tvratings/IXDSToRat::ParseXDSBytePair
 ms.prod: windows-hardware
 ms.technology: windows-devices

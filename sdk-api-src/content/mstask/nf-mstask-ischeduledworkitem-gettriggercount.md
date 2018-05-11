@@ -7,7 +7,7 @@ old-location: taskschd\ischeduledworkitem_gettriggercount.htm
 old-project: TaskSchd
 ms.assetid: db1c98db-c4c1-45af-baba-097ee8dc6abf
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetTriggerCount, GetTriggerCount method [Task Scheduler], GetTriggerCount method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetTriggerCount method, IScheduledWorkItem.GetTriggerCount, IScheduledWorkItem::GetTriggerCount, _msb_ischeduledworkitem_gettriggercount, mstask/IScheduledWorkItem::GetTriggerCount, taskschd.ischeduledworkitem_gettriggercount
 ms.prod: windows-hardware
 ms.technology: windows-devices

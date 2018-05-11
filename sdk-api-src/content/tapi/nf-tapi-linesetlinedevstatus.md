@@ -7,7 +7,7 @@ old-location: tapi2\linesetlinedevstatus.htm
 old-project: Tapi
 ms.assetid: c8eb142d-5160-49f3-81c1-61094c180df8
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_linesetlinedevstatus, lineSetLineDevStatus, lineSetLineDevStatus function [TAPI 2.2], tapi/lineSetLineDevStatus, tapi2.linesetlinedevstatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices

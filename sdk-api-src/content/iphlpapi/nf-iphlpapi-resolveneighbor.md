@@ -7,7 +7,7 @@ old-location: iphlp\resolveneighbor.htm
 old-project: IpHlp
 ms.assetid: c9d902c7-6543-4811-8116-003a5153bd27
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: ResolveNeighbor, ResolveNeighbor function [IP Helper], iphlp.resolveneighbor, iphlpapi/ResolveNeighbor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\ifedictionary_close.htm
 old-project: Intl
 ms.assetid: 424FE6C8-2903-429C-AAC9-F9808E94047A
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: Close, Close method [Internationalization for Windows Applications], Close method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],Close method, IFEDictionary.Close, IFEDictionary::Close, intl.ifedictionary_close, msime/IFEDictionary::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

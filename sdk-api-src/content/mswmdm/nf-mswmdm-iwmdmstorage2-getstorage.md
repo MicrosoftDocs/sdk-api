@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage2_getstorage.htm
 old-project: WMDM
 ms.assetid: be7b3da1-583b-4bad-8e35-19f309242744
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: GetStorage, GetStorage method [windows Media Device Manager], GetStorage method [windows Media Device Manager],IWMDMStorage2 interface, IWMDMStorage2 interface [windows Media Device Manager],GetStorage method, IWMDMStorage2.GetStorage, IWMDMStorage2::GetStorage, IWMDMStorage2GetStorage, mswmdm/IWMDMStorage2::GetStorage, wmdm.iwmdmstorage2_getstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

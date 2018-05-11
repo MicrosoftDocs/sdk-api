@@ -7,7 +7,7 @@ old-location: mscs\resutilsetmultiszvalue.htm
 old-project: MsCS
 ms.assetid: db048ce5-ca83-424b-853f-eda445176c0b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PRESUTIL_SET_MULTI_SZ_VALUE, PRESUTIL_SET_MULTI_SZ_VALUE callback, PRESUTIL_SET_MULTI_SZ_VALUE callback function [Failover Cluster], _wolf_resutilsetmultiszvalue, mscs.resutilsetmultiszvalue, resapi/PRESUTIL_SET_MULTI_SZ_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_prompttype.htm
 old-project: wmi_v2
 ms.assetid: 183f40ed-214f-4468-8036-7753ae18575b
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_PROMPTTYPE_CRITICAL, MI_PROMPTTYPE_NORMAL, MI_PromptType, MI_PromptType enumeration [Windows Management Infrastructure (MI)], _MI_PromptType, mi/MI_PROMPTTYPE_CRITICAL, mi/MI_PROMPTTYPE_NORMAL, mi/MI_PromptType, wmi._mi_prompttype, wmi_v2.mi_prompttype
 ms.prod: windows-hardware
 ms.technology: windows-devices

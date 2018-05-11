@@ -7,7 +7,7 @@ old-location: base\getimageconfiginformation.htm
 old-project: Debug
 ms.assetid: 5d9b6705-7e65-4a60-912e-8ffcff9d7921
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: GetImageConfigInformation, GetImageConfigInformation function, _win32_getimageconfiginformation, base.getimageconfiginformation, imagehlp/GetImageConfigInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

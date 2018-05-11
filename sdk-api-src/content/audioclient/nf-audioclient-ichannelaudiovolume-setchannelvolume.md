@@ -7,7 +7,7 @@ old-location: coreaudio\ichannelaudiovolume_setchannelvolume.htm
 old-project: CoreAudio
 ms.assetid: b7baeebf-01d3-4dec-a674-73a84bbf7a66
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IChannelAudioVolume interface [Core Audio],SetChannelVolume method, IChannelAudioVolume.SetChannelVolume, IChannelAudioVolume::SetChannelVolume, IChannelAudioVolumeSetChannelVolume, SetChannelVolume, SetChannelVolume method [Core Audio], SetChannelVolume method [Core Audio],IChannelAudioVolume interface, audioclient/IChannelAudioVolume::SetChannelVolume, coreaudio.ichannelaudiovolume_setchannelvolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\clipboardformat.htm
 old-project: Controls
 ms.assetid: 5AD870B6-C4F1-446C-A516-171B24355EFA
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: CLIPBOARDFORMAT, CLIPBOARDFORMAT structure [Windows Controls], _clipboardformat, controls.clipboardformat, richedit/CLIPBOARDFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices

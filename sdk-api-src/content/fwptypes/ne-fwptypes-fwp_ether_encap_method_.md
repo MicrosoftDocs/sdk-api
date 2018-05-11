@@ -7,7 +7,7 @@ old-location: fwp\fwp_ether_encap_method.htm
 old-project: FWP
 ms.assetid: fd94a02e-ba2d-4f99-a340-11f2e594f319
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWP_ETHER_ENCAP_METHOD, FWP_ETHER_ENCAP_METHOD enumeration [Filtering], FWP_ETHER_ENCAP_METHOD_, FWP_ETHER_ENCAP_METHOD_ETHER_V2, FWP_ETHER_ENCAP_METHOD_SNAP, FWP_ETHER_ENCAP_METHOD_SNAP_W_OUI_ZERO, fwp.fwp_ether_encap_method, fwptypes/FWP_ETHER_ENCAP_METHOD, fwptypes/FWP_ETHER_ENCAP_METHOD_ETHER_V2, fwptypes/FWP_ETHER_ENCAP_METHOD_SNAP, fwptypes/FWP_ETHER_ENCAP_METHOD_SNAP_W_OUI_ZERO
 ms.prod: windows-hardware
 ms.technology: windows-devices

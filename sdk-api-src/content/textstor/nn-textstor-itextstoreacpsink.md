@@ -7,7 +7,7 @@ old-location: tsf\itextstoreacpsink.htm
 old-project: TSF
 ms.assetid: d7e5a04f-7159-436e-a522-4cb63063aeef
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITextStoreACPSink, ITextStoreACPSink interface [Text Services Framework], ITextStoreACPSink interface [Text Services Framework],described, _tsf_itextstoreacpsink_ref, textstor/ITextStoreACPSink, tsf.itextstoreacpsink
 ms.prod: windows-hardware
 ms.technology: windows-devices

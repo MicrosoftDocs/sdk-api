@@ -7,7 +7,7 @@ old-location: base\service_timechange_info.htm
 old-project: Services
 ms.assetid: 452b0678-dfea-4128-9236-273323b519f0
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/9/2018
 ms.keywords: "*PSERVICE_TIMECHANGE_INFO, PSERVICE_TIMECHANGE_INFO, PSERVICE_TIMECHANGE_INFO structure pointer, SERVICE_TIMECHANGE_INFO, SERVICE_TIMECHANGE_INFO structure, _SERVICE_TIMECHANGE_INFO, base.service_timechange_info, winsvc/PSERVICE_TIMECHANGE_INFO, winsvc/SERVICE_TIMECHANGE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

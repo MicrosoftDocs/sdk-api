@@ -7,7 +7,7 @@ old-location: indexsrv\citexttofulltreeex.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0trs.htm
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/9/2018
 ms.keywords: CITextToFullTreeEx, CITextToFullTreeEx function [Indexing Service], _idxs_CITextToFullTreeEx, indexsrv.citexttofulltreeex, ntquery/CITextToFullTreeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

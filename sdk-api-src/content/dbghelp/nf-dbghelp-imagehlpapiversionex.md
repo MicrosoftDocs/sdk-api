@@ -7,7 +7,7 @@ old-location: base\imagehlpapiversionex.htm
 old-project: Debug
 ms.assetid: 86a26160-ebad-4d6e-b559-3d59f2beb5ca
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: ImagehlpApiVersionEx, ImagehlpApiVersionEx function, _win32_imagehlpapiversionex, base.imagehlpapiversionex, dbghelp/ImagehlpApiVersionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

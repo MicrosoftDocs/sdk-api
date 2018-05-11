@@ -7,7 +7,7 @@ old-location: dshow\imediaseeking_getpreroll.htm
 old-project: DirectShow
 ms.assetid: 9d519aab-eb35-4a00-b6fe-23d734f969ae
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetPreroll, GetPreroll method [DirectShow], GetPreroll method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetPreroll method, IMediaSeeking.GetPreroll, IMediaSeeking::GetPreroll, IMediaSeekingGetPreroll, dshow.imediaseeking_getpreroll, strmif/IMediaSeeking::GetPreroll
 ms.prod: windows-hardware
 ms.technology: windows-devices

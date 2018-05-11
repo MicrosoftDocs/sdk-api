@@ -7,7 +7,7 @@ old-location: wmformat\wmiscontentprotected.htm
 old-project: wmformat
 ms.assetid: a28cdf06-8c4f-41ff-b9dc-eddf9bc9d674
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: WMIsContentProtected, WMIsContentProtected function [windows Media Format], wmformat.wmiscontentprotected, wmsdkidl/WMIsContentProtected
 ms.prod: windows-hardware
 ms.technology: windows-devices

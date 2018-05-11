@@ -7,7 +7,7 @@ old-location: wininet\ftpremovedirectory.htm
 old-project: WinInet
 ms.assetid: 4c02af2f-ece8-409a-9c3e-495e1beb80ef
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: FtpRemoveDirectory, FtpRemoveDirectory function [WinINet], FtpRemoveDirectoryA, FtpRemoveDirectoryW, _inet_ftpremovedirectory_function, wininet.ftpremovedirectory, wininet/FtpRemoveDirectory, wininet/FtpRemoveDirectoryA, wininet/FtpRemoveDirectoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

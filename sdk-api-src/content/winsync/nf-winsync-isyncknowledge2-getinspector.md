@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge2_getinspector.htm
 old-project: winsync
 ms.assetid: 088d864f-bb74-4fd8-b8cb-352cb2731edb
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetInspector, GetInspector method [Windows Sync], GetInspector method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetInspector method, ISyncKnowledge2.GetInspector, ISyncKnowledge2::GetInspector, winsync.isyncknowledge2_getinspector, winsync/ISyncKnowledge2::GetInspector
 ms.prod: windows-hardware
 ms.technology: windows-devices

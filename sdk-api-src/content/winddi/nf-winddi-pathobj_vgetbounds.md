@@ -7,7 +7,7 @@ old-location: display\pathobj_vgetbounds.htm
 old-project: display
 ms.assetid: f7ce7909-552c-4e23-a620-280fadeade01
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: PATHOBJ_vGetBounds, PATHOBJ_vGetBounds function [Display Devices], display.pathobj_vgetbounds, gdifncs_d5ad1bbf-ddbe-43c1-92a9-dbe3a0091b24.xml, winddi/PATHOBJ_vGetBounds
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\acmfiltertagdetails.htm
 old-project: Multimedia
 ms.assetid: 6b1fd113-5753-4a45-974c-ecf3f5d27866
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: "_win32_acmFilterTagDetails, acmFilterTagDetails, acmFilterTagDetails function [Windows Multimedia], acmFilterTagDetailsA, acmFilterTagDetailsW, msacm/acmFilterTagDetails, msacm/acmFilterTagDetailsA, msacm/acmFilterTagDetailsW, multimedia.acmfiltertagdetails"
 ms.prod: windows-hardware
 ms.technology: windows-devices

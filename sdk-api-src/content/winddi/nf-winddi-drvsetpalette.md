@@ -7,7 +7,7 @@ old-location: display\drvsetpalette.htm
 old-project: display
 ms.assetid: b7be48e6-188b-4b23-a494-30adcc18f12e
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: DrvSetPalette, DrvSetPalette function [Display Devices], ddifncs_b76ad321-743e-4e7b-bf58-85f969470e29.xml, display.drvsetpalette, winddi/DrvSetPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

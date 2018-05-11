@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetFileTimeElem.htm
 old-project: properties
 ms.assetid: e38b16ed-84cb-4444-bfbd-1165595bc9b5
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: PropVariantGetFileTimeElem, PropVariantGetFileTimeElem function [Windows Properties], _shell_PropVariantGetFileTimeElem, properties.PropVariantGetFileTimeElem, propvarutil/PropVariantGetFileTimeElem, shell.PropVariantGetFileTimeElem
 ms.prod: windows-hardware
 ms.technology: windows-devices

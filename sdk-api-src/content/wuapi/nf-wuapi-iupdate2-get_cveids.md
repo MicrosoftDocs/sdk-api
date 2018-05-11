@@ -7,7 +7,7 @@ old-location: wua\iupdate2_cveids.htm
 old-project: Wua_Sdk
 ms.assetid: 536a3dea-708d-4885-bf07-4088cb83d9da
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: CveIDs property [Windows Update Agent], CveIDs property [Windows Update Agent],IUpdate2 interface, IUpdate2 interface [Windows Update Agent],CveIDs property, IUpdate2.CveIDs, IUpdate2.get_CveIDs, IUpdate2::CveIDs, IUpdate2::get_CveIDs, get_CveIDs, wua.iupdate2_cveids, wuapi/IUpdate2::CveIDs, wuapi/IUpdate2::get_CveIDs
 ms.prod: windows-hardware
 ms.technology: windows-devices

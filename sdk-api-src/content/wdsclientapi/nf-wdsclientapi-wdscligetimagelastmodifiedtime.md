@@ -7,7 +7,7 @@ old-location: wds\wdscligetimagelastmodifiedtime.htm
 old-project: Wds
 ms.assetid: b0554857-ffef-4f45-8aba-90512ce7f3b1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsCliGetImageLastModifiedTime, WdsCliGetImageLastModifiedTime function [Windows Deployment Services], wds.wdscligetimagelastmodifiedtime, wdsclientapi/WdsCliGetImageLastModifiedTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

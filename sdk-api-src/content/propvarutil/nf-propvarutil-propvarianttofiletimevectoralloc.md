@@ -7,7 +7,7 @@ old-location: properties\PropVariantToFileTimeVectorAlloc.htm
 old-project: properties
 ms.assetid: 2d0125fe-f4af-451b-8dc7-d29a35cc927e
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: PropVariantToFileTimeVectorAlloc, PropVariantToFileTimeVectorAlloc function [Windows Properties], _shell_PropVariantToFileTimeVectorAlloc, properties.PropVariantToFileTimeVectorAlloc, propvarutil/PropVariantToFileTimeVectorAlloc, shell.PropVariantToFileTimeVectorAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

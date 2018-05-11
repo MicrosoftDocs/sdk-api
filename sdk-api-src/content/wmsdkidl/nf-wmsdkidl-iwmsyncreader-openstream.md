@@ -7,7 +7,7 @@ old-location: wmformat\iwmsyncreader_openstream.htm
 old-project: wmformat
 ms.assetid: ef42495a-2565-4925-882e-c3c42f9d418b
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMSyncReader interface [windows Media Format],OpenStream method, IWMSyncReader.OpenStream, IWMSyncReader::OpenStream, IWMSyncReaderOpenStream, OpenStream, OpenStream method [windows Media Format], OpenStream method [windows Media Format],IWMSyncReader interface, wmformat.iwmsyncreader_openstream, wmsdkidl/IWMSyncReader::OpenStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

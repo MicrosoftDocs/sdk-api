@@ -7,7 +7,7 @@ old-location: rras\rasgetprojectioninfoex.htm
 old-project: RRAS
 ms.assetid: e34216ed-fa78-4cb3-8db9-274c8ba196dd
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RasGetProjectionInfoEx, RasGetProjectionInfoEx function [RAS], ras/RasGetProjectionInfoEx, rras.rasgetprojectioninfoex
 ms.prod: windows-hardware
 ms.technology: windows-devices

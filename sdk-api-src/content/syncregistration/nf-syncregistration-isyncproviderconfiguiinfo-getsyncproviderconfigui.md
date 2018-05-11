@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderconfiguiinfo_getsyncproviderconfigui.htm
 old-project: winsync
 ms.assetid: eb9a2f2f-4c9f-405c-90f6-b251ab1a652d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetSyncProviderConfigUI, GetSyncProviderConfigUI method [Windows Sync], GetSyncProviderConfigUI method [Windows Sync],ISyncProviderConfigUIInfo interface, ISyncProviderConfigUIInfo interface [Windows Sync],GetSyncProviderConfigUI method, ISyncProviderConfigUIInfo.GetSyncProviderConfigUI, ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, syncregistration/ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, winsync.isyncproviderconfiguiinfo_getsyncproviderconfigui
 ms.prod: windows-hardware
 ms.technology: windows-devices

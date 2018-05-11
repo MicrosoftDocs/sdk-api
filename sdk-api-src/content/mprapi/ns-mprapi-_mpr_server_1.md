@@ -7,7 +7,7 @@ old-location: rras\mpr_server_1.htm
 old-project: RRAS
 ms.assetid: ea27a928-055b-4705-8f7c-dd9a221b2573
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMPR_SERVER_1, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, MPR_SERVER_1, MPR_SERVER_1 structure [RAS], PMPR_SERVER_1, PMPR_SERVER_1 structure pointer [RAS], _MPR_SERVER_1, mprapi/MPR_SERVER_1, mprapi/PMPR_SERVER_1, rras.mpr_server_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: taskschd\iregisteredtask_run.htm
 old-project: TaskSchd
 ms.assetid: 6b237ddd-e4e8-47f7-97e7-360e79841acc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Run method, IRegisteredTask.Run, IRegisteredTask::Run, Run, Run method [Task Scheduler], Run method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_run, taskschd/IRegisteredTask::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices

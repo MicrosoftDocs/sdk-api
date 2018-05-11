@@ -7,7 +7,7 @@ old-location: wic\wicjpegscanheader.htm
 old-project: wic
 ms.assetid: 87A36F9B-CD6B-4343-AAA7-9FDBAD41E38A
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: WICJpegScanHeader, WICJpegScanHeader structure [Windows Imaging Component], wic.wicjpegscanheader, wincodec/WICJpegScanHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

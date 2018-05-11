@@ -7,7 +7,7 @@ old-location: wua\iinstallationbehavior_rebootbehavior.htm
 old-project: Wua_Sdk
 ms.assetid: 7a26709e-8ce1-405a-902c-a71e892cd590
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IInstallationBehavior interface [Windows Update Agent],RebootBehavior property, IInstallationBehavior.RebootBehavior, IInstallationBehavior.get_RebootBehavior, IInstallationBehavior::RebootBehavior, IInstallationBehavior::get_RebootBehavior, RebootBehavior property [Windows Update Agent], RebootBehavior property [Windows Update Agent],IInstallationBehavior interface, get_RebootBehavior, wua.iinstallationbehavior_rebootbehavior, wuapi/IInstallationBehavior::RebootBehavior, wuapi/IInstallationBehavior::get_RebootBehavior
 ms.prod: windows-hardware
 ms.technology: windows-devices

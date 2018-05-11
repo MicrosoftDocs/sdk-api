@@ -7,7 +7,7 @@ old-location: shell\IShellWindows_OnCreated.htm
 old-project: shell
 ms.assetid: ef2f75fe-dc93-403d-af1a-c08c45e2d818
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: IShellWindows interface [Windows Shell],OnCreated method, IShellWindows.OnCreated, IShellWindows::OnCreated, OnCreated, OnCreated method [Windows Shell], OnCreated method [Windows Shell],IShellWindows interface, _win32_IShellWindows_OnCreated, exdisp/IShellWindows::OnCreated, shell.IShellWindows_OnCreated
 ms.prod: windows-hardware
 ms.technology: windows-devices

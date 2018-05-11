@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationprimarycontent_getcenterpoin
 old-project: directmanipulation
 ms.assetid: e38c1445-af4b-463b-8796-d72d69cb19c6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetCenterPoint, GetCenterPoint method [Direct Manipulation], GetCenterPoint method [Direct Manipulation],IDirectManipulationPrimaryContent interface, IDirectManipulationPrimaryContent interface [Direct Manipulation],GetCenterPoint method, IDirectManipulationPrimaryContent.GetCenterPoint, IDirectManipulationPrimaryContent::GetCenterPoint, directmanipulation.idirectmanipulationprimarycontent_getcenterpoint, directmanipulation/IDirectManipulationPrimaryContent::GetCenterPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

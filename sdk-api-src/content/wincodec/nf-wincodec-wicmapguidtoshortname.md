@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicmapguidtoshortname.htm
 old-project: wic
 ms.assetid: ae1e4680-2c20-4a3e-b931-206d26f4d09c
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: WICMapGuidToShortName, WICMapGuidToShortName function [Windows Imaging Component], _wic_codec_wicmapguidtoshortname, wic._wic_codec_wicmapguidtoshortname, wincodec/WICMapGuidToShortName
 ms.prod: windows-hardware
 ms.technology: windows-devices

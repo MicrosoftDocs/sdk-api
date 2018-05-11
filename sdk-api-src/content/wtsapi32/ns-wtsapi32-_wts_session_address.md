@@ -7,7 +7,7 @@ old-location: termserv\wts_session_address.htm
 old-project: TermServ
 ms.assetid: 4a8846a3-2bad-4ea1-b614-aca18484ea86
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: "*PWTS_SESSION_ADDRESS, PWTS_SESSION_ADDRESS, PWTS_SESSION_ADDRESS structure pointer [Remote Desktop Services], WTS_SESSION_ADDRESS, WTS_SESSION_ADDRESS structure [Remote Desktop Services], _WTS_SESSION_ADDRESS, termserv.wts_session_address, wtsapi32/PWTS_SESSION_ADDRESS, wtsapi32/WTS_SESSION_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\engstrokepath.htm
 old-project: display
 ms.assetid: e592297d-69ff-443e-bc76-9849b61a6915
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: EngStrokePath, EngStrokePath function [Display Devices], display.engstrokepath, gdifncs_d6a5ca42-fa75-4cba-8eff-d8c0801d058b.xml, winddi/EngStrokePath
 ms.prod: windows-hardware
 ms.technology: windows-devices

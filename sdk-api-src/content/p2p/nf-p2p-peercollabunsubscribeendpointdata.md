@@ -7,7 +7,7 @@ old-location: p2p\peercollabunsubscribeendpointdata.htm
 old-project: P2PSdk
 ms.assetid: af07c7f5-bce2-4479-ad2a-8e501cfb6710
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerCollabUnsubscribeEndpointData, PeerCollabUnsubscribeEndpointData function [Peer Networking], p2p.peercollabunsubscribeendpointdata, p2p/PeerCollabUnsubscribeEndpointData
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tsf\itfsource_unadvisesink.htm
 old-project: TSF
 ms.assetid: e5d40c6f-c8ab-4e53-94d0-a6b475ce7a84
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfSource interface [Text Services Framework],UnadviseSink method, ITfSource.UnadviseSink, ITfSource::UnadviseSink, UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework],ITfSource interface, _tsf_itfsource_unadvisesink_ref, msctf/ITfSource::UnadviseSink, tsf.itfsource_unadvisesink
 ms.prod: windows-hardware
 ms.technology: windows-devices

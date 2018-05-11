@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioformatenumerator_getformat.htm
 old-project: CoreAudio
 ms.assetid: 9949F688-51D1-418B-947D-2607C90CA4E4
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: GetFormat, GetFormat method [Core Audio], GetFormat method [Core Audio],IAudioFormatEnumerator interface, IAudioFormatEnumerator interface [Core Audio],GetFormat method, IAudioFormatEnumerator.GetFormat, IAudioFormatEnumerator::GetFormat, coreaudio.iaudioformatenumerator_getformat, spatialaudioclient/IAudioFormatEnumerator::GetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

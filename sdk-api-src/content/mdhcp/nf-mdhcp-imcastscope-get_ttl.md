@@ -7,7 +7,7 @@ old-location: tapi3\imcastscope_get_ttl.htm
 old-project: Tapi
 ms.assetid: 68e402e5-87ae-49fd-9149-8eb79a0a8aee
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IMcastScope interface [TAPI 2.2],get_TTL method, IMcastScope.get_TTL, IMcastScope::get_TTL, _tapi3_imcastscope_get_ttl, get_TTL, get_TTL method [TAPI 2.2], get_TTL method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_TTL, tapi3.imcastscope_get_ttl
 ms.prod: windows-hardware
 ms.technology: windows-devices

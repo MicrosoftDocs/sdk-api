@@ -7,7 +7,7 @@ old-location: mscs\clusscsiaddress_object.htm
 old-project: MsCS
 ms.assetid: 7becbcf6-bad9-44e2-9731-d53de8299b99
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: ClusScsiAddress, ClusScsiAddress object [Failover Cluster], ClusScsiAddress object [Failover Cluster],described, ISClusScsiAddress, _wolf_clusscsiaddress_object, msclus/ClusScsiAddress, mscs.clusscsiaddress_object
 ms.prod: windows-hardware
 ms.technology: windows-devices

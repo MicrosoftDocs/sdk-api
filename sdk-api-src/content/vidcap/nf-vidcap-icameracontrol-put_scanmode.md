@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_scanmode.htm
 old-project: DirectShow
 ms.assetid: 74d5d2bd-4aa4-49f6-a02f-c53af1333a1b
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: ICameraControl interface [DirectShow],put_ScanMode method, ICameraControl.put_ScanMode, ICameraControl::put_ScanMode, ICameraControlput_ScanMode, dshow.icameracontrol_put_scanmode, put_ScanMode, put_ScanMode method [DirectShow], put_ScanMode method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_ScanMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

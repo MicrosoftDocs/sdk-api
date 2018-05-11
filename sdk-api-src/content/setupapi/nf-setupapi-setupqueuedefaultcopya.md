@@ -7,7 +7,7 @@ old-location: setup\setupqueuedefaultcopy.htm
 old-project: SetupApi
 ms.assetid: 57e8dc72-5b0e-486c-9819-fa44085580eb
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupQueueDefaultCopy, SetupQueueDefaultCopy function [Setup API], SetupQueueDefaultCopyA, SetupQueueDefaultCopyW, _setupapi_setupqueuedefaultcopy, setup.setupqueuedefaultcopy, setupapi/SetupQueueDefaultCopy, setupapi/SetupQueueDefaultCopyA, setupapi/SetupQueueDefaultCopyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation2.htm
 old-project: WMDM
 ms.assetid: b3f7e92a-8feb-47cd-ae50-bc5bf9a37958
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: IWMDMOperation2, IWMDMOperation2 interface [windows Media Device Manager], IWMDMOperation2 interface [windows Media Device Manager],described, IWMDMOperation2Interface, mswmdm/IWMDMOperation2, wmdm.iwmdmoperation2
 ms.prod: windows-hardware
 ms.technology: windows-devices

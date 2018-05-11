@@ -7,7 +7,7 @@ old-location: mstv\iisdbdigitalcopycontroldescriptor.htm
 old-project: mstv
 ms.assetid: d509eb58-0c58-4173-8c9c-d52b81932b5c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IIsdbDigitalCopyControlDescriptor, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies], IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbDigitalCopyControlDescriptor, mstv.iisdbdigitalcopycontroldescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

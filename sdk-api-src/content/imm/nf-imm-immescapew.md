@@ -7,7 +7,7 @@ old-location: intl\immescape.htm
 old-project: Intl
 ms.assetid: f63783a8-9434-4fe4-943c-9383d049f848
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: ImmEscape, ImmEscape function [Internationalization for Windows Applications], ImmEscapeA, ImmEscapeW, _win32_ImmEscape, imm/ImmEscape, imm/ImmEscapeA, imm/ImmEscapeW, intl.immescape
 ms.prod: windows-hardware
 ms.technology: windows-devices

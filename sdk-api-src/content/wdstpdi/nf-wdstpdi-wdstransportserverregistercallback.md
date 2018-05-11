@@ -7,7 +7,7 @@ old-location: wds\wdstransportserverregistercallback.htm
 old-project: Wds
 ms.assetid: 565ceb6c-0e44-4c71-8b67-092cd33d088e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsTransportServerRegisterCallback, WdsTransportServerRegisterCallback function [Windows Deployment Services], wds.wdstransportserverregistercallback, wdstpdi/WdsTransportServerRegisterCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mfcreateasfstreamselector.htm
 old-project: medfound
 ms.assetid: 71b1af5b-f127-463f-9720-72e789bb2cd1
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 71b1af5b-f127-463f-9720-72e789bb2cd1, MFCreateASFStreamSelector, MFCreateASFStreamSelector function [Media Foundation], mf.mfcreateasfstreamselector, wmcontainer/MFCreateASFStreamSelector
 ms.prod: windows-hardware
 ms.technology: windows-devices

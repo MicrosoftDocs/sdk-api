@@ -7,8 +7,8 @@ old-location: wmformat\wmcreatesecurechannel_certified_des.htm
 old-project: wmformat
 ms.assetid: e204aada-1f04-4899-aadf-abfdcab310da
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: WMCreateSecureChannel_Certified_DES, WMCreateSecureChannel_DES, WMCreateSecureChannel_DES function [windows Media Format], wmformat.wmcreatesecurechannel_certified_des, wmsecure/WMCreateSecureChannel_DES
+ms.date: 5/9/2018
+ms.keywords: WMCreateSecureChannel_Certified_DES, WMCreateSecureChannel_Certified_DES function [windows Media Format], wmformat.wmcreatesecurechannel_certified_des, wmsecure/WMCreateSecureChannel_Certified_DES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Wmsecure.h
 api_name:
--	WMCreateSecureChannel_DES
+-	WMCreateSecureChannel_Certified_DES
 product: Windows
 targetos: Windows
 req.lib: 

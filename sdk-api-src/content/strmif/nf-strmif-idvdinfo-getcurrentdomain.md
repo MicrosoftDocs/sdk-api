@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getcurrentdomain.htm
 old-project: DirectShow
 ms.assetid: 35f173d5-fb8f-47e2-ab32-87fdb197710a
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetCurrentDomain, GetCurrentDomain method [DirectShow], GetCurrentDomain method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentDomain method, IDvdInfo.GetCurrentDomain, IDvdInfo::GetCurrentDomain, IDvdInfoGetCurrentDomain, dshow.idvdinfo_getcurrentdomain, strmif/IDvdInfo::GetCurrentDomain
 ms.prod: windows-hardware
 ms.technology: windows-devices

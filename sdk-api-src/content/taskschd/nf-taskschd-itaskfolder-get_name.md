@@ -7,7 +7,7 @@ old-location: taskschd\itaskfolder_name.htm
 old-project: TaskSchd
 ms.assetid: 092d1d40-e97a-44a3-aff0-41b2b6df8d6d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITaskFolder interface [Task Scheduler],Name property, ITaskFolder.Name, ITaskFolder.get_Name, ITaskFolder::Name, ITaskFolder::get_Name, Name property [Task Scheduler], Name property [Task Scheduler],ITaskFolder interface, get_Name, taskschd.itaskfolder_name, taskschd/ITaskFolder::Name, taskschd/ITaskFolder::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

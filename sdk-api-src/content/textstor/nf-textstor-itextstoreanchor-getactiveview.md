@@ -7,7 +7,7 @@ old-location: tsf\itextstoreanchor_getactiveview.htm
 old-project: TSF
 ms.assetid: b1940cac-7295-41c5-bd26-8be1d1fa4da9
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: GetActiveView, GetActiveView method [Text Services Framework], GetActiveView method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetActiveView method, ITextStoreAnchor.GetActiveView, ITextStoreAnchor::GetActiveView, textstor/ITextStoreAnchor::GetActiveView, tsf.itextstoreanchor_getactiveview
 ms.prod: windows-hardware
 ms.technology: windows-devices

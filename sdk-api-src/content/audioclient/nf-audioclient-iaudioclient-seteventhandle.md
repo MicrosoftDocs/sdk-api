@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient_seteventhandle.htm
 old-project: CoreAudio
 ms.assetid: 7bca0c00-5157-43bf-98bd-3bfb23abe860
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IAudioClient interface [Core Audio],SetEventHandle method, IAudioClient.SetEventHandle, IAudioClient::SetEventHandle, IAudioClientSetEventHandle, SetEventHandle, SetEventHandle method [Core Audio], SetEventHandle method [Core Audio],IAudioClient interface, audioclient/IAudioClient::SetEventHandle, coreaudio.iaudioclient_seteventhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

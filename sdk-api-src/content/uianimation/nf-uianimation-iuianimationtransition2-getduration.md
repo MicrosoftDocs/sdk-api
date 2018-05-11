@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransition2_getduration.htm
 old-project: UIAnimation
 ms.assetid: 07B5C7D7-80B1-4458-93A7-39F61121B618
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetDuration, GetDuration method [Windows Animation], GetDuration method [Windows Animation],IUIAnimationTransition2 interface, IUIAnimationTransition2 interface [Windows Animation],GetDuration method, IUIAnimationTransition2.GetDuration, IUIAnimationTransition2::GetDuration, uianimation.iuianimationtransition2_getduration, uianimation/IUIAnimationTransition2::GetDuration
 ms.prod: windows-hardware
 ms.technology: windows-devices

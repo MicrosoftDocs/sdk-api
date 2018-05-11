@@ -7,7 +7,7 @@ old-location: security\lsaapcallpackagepassthrough.htm
 old-project: SecAuthN
 ms.assetid: 8563b99d-8cc9-43a5-a6ae-615883c87bc2
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: LSA_AP_CALL_PACKAGE_PASSTHROUGH, LsaApCallPackagePassthrough, LsaApCallPackagePassthrough function [Security], _lsa_lsaapcallpackagepassthrough, ntsecpkg/LsaApCallPackagePassthrough, security.lsaapcallpackagepassthrough
 ms.prod: windows-hardware
 ms.technology: windows-devices

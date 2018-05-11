@@ -7,7 +7,7 @@ old-location: tapi2\linemessage_str.htm
 old-project: Tapi
 ms.assetid: 1d184948-4ba2-4c8c-8771-d1aea6c4f565
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "*LPLINEMESSAGE, LINEMESSAGE, LINEMESSAGE structure [TAPI 2.2], LPLINEMESSAGE, LPLINEMESSAGE structure pointer [TAPI 2.2], _tapi2_linemessage_str, linemessage_tag, tapi/LINEMESSAGE, tapi/LPLINEMESSAGE, tapi2.linemessage_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

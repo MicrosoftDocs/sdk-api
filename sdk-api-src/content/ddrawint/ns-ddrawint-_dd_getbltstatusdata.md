@@ -7,7 +7,7 @@ old-location: display\dd_getbltstatusdata.htm
 old-project: display
 ms.assetid: 16b0cac9-af8c-4106-b74e-6c9ada543851
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*PDD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA structure [Display Devices], _DD_GETBLTSTATUSDATA, ddrawint/DD_GETBLTSTATUSDATA, ddstrcts_fec10d7e-ffc0-4368-8cd8-e1028ac7874d.xml, display.dd_getbltstatusdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

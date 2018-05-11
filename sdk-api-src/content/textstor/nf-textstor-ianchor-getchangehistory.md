@@ -7,7 +7,7 @@ old-location: tsf\ianchor_getchangehistory.htm
 old-project: TSF
 ms.assetid: d373a379-1d27-4438-abaf-2e11f2332790
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: GetChangeHistory, GetChangeHistory method [Text Services Framework], GetChangeHistory method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],GetChangeHistory method, IAnchor.GetChangeHistory, IAnchor::GetChangeHistory, TS_CH_FOLLOWING_DEL, TS_CH_PRECEDING_DEL, textstor/IAnchor::GetChangeHistory, tsf.ianchor_getchangehistory
 ms.prod: windows-hardware
 ms.technology: windows-devices

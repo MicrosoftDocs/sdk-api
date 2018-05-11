@@ -7,7 +7,7 @@ old-location: p2p\drt_search_result.htm
 old-project: P2PSdk
 ms.assetid: 23cf713e-2730-456c-a3da-649c5ed00ffb
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: "*PDRT_SEARCH_RESULT, DRT_SEARCH_RESULT, DRT_SEARCH_RESULT structure [Peer Networking], PDRT_SEARCH_RESULT, PDRT_SEARCH_RESULT structure pointer [Peer Networking], drt/DRT_SEARCH_RESULT, drt/PDRT_SEARCH_RESULT, drt_search_result_tag, p2p.drt_search_result"
 ms.prod: windows-hardware
 ms.technology: windows-devices

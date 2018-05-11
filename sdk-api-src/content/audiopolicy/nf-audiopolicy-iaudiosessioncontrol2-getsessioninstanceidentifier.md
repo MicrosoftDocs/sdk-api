@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol2_getsessioninstanceidentifier.htm
 old-project: CoreAudio
 ms.assetid: 02350812-7f05-400e-87f7-1d912a23050d
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: GetSessionInstanceIdentifier, GetSessionInstanceIdentifier method [Core Audio], GetSessionInstanceIdentifier method [Core Audio],IAudioSessionControl2 interface, IAudioSessionControl2 interface [Core Audio],GetSessionInstanceIdentifier method, IAudioSessionControl2.GetSessionInstanceIdentifier, IAudioSessionControl2::GetSessionInstanceIdentifier, audiopolicy/IAudioSessionControl2::GetSessionInstanceIdentifier, coreaudio.iaudiosessioncontrol2_getsessioninstanceidentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

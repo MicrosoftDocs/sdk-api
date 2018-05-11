@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriterex_gettransformforstream.htm
 old-project: medfound
 ms.assetid: 72EEC01F-ED62-4DD7-A18C-766D01705CAE
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetTransformForStream, GetTransformForStream method [Media Foundation], GetTransformForStream method [Media Foundation],IMFSinkWriterEx interface, IMFSinkWriterEx interface [Media Foundation],GetTransformForStream method, IMFSinkWriterEx.GetTransformForStream, IMFSinkWriterEx::GetTransformForStream, mf.imfsinkwriterex_gettransformforstream, mfreadwrite/IMFSinkWriterEx::GetTransformForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

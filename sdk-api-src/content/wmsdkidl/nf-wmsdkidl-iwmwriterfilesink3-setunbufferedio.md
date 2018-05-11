@@ -7,7 +7,7 @@ old-location: wmformat\iwmwriterfilesink3_setunbufferedio.htm
 old-project: wmformat
 ms.assetid: 51a9c21b-d301-41e4-a9bc-321a5b2decca
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetUnbufferedIO method, IWMWriterFileSink3.SetUnbufferedIO, IWMWriterFileSink3::SetUnbufferedIO, IWMWriterFileSink3SetUnbufferedIO, SetUnbufferedIO, SetUnbufferedIO method [windows Media Format], SetUnbufferedIO method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setunbufferedio, wmsdkidl/IWMWriterFileSink3::SetUnbufferedIO
 ms.prod: windows-hardware
 ms.technology: windows-devices

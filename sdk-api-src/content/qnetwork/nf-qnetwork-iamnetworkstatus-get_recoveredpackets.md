@@ -7,7 +7,7 @@ old-location: dshow\iamnetworkstatus_get_recoveredpackets.htm
 old-project: DirectShow
 ms.assetid: e8362d52-ed20-444e-86ab-26c9eac3087c
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_RecoveredPackets method, IAMNetworkStatus.get_RecoveredPackets, IAMNetworkStatus::get_RecoveredPackets, IAMNetworkStatusget_RecoveredPackets, dshow.iamnetworkstatus_get_recoveredpackets, get_RecoveredPackets, get_RecoveredPackets method [DirectShow], get_RecoveredPackets method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_RecoveredPackets
 ms.prod: windows-hardware
 ms.technology: windows-devices

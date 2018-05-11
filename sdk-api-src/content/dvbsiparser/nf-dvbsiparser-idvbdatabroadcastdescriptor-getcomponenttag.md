@@ -7,7 +7,7 @@ old-location: mstv\idvbdatabroadcastdescriptor_getcomponenttag.htm
 old-project: mstv
 ms.assetid: 3b4c93ff-063b-4ebb-bc9a-09ec9cb6d538
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetComponentTag, GetComponentTag method [Microsoft TV Technologies], GetComponentTag method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetComponentTag method, IDvbDataBroadcastDescriptor.GetComponentTag, IDvbDataBroadcastDescriptor::GetComponentTag, dvbsiparser/IDvbDataBroadcastDescriptor::GetComponentTag, mstv.idvbdatabroadcastdescriptor_getcomponenttag
 ms.prod: windows-hardware
 ms.technology: windows-devices

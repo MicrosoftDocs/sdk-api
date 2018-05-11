@@ -7,7 +7,7 @@ old-location: dshow\iamgraphbuildercallback_createdfilter.htm
 old-project: DirectShow
 ms.assetid: 04a20a3f-a4a5-434b-896a-60d36430f390
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CreatedFilter, CreatedFilter method [DirectShow], CreatedFilter method [DirectShow],IAMGraphBuilderCallback interface, IAMGraphBuilderCallback interface [DirectShow],CreatedFilter method, IAMGraphBuilderCallback.CreatedFilter, IAMGraphBuilderCallback::CreatedFilter, IAMGraphBuilderCallbackCreatedFilter, dshow.iamgraphbuildercallback_createdfilter, strmif/IAMGraphBuilderCallback::CreatedFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

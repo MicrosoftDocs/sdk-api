@@ -7,7 +7,7 @@ old-location: mstv\bfentvrat_attributes_mpaa.htm
 old-project: mstv
 ms.assetid: 520046a3-2542-409e-9d8f-91a91cad54f3
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: BfEnTvRat_Attributes_MPAA, BfEnTvRat_Attributes_MPAA enumeration [Microsoft TV Technologies], MPAA_IsBlocked, MPAA_ValidAttrSubmask, mstv.bfentvrat_attributes_mpaa, tvratings/BfEnTvRat_Attributes_MPAA, tvratings/MPAA_IsBlocked, tvratings/MPAA_ValidAttrSubmask
 ms.prod: windows-hardware
 ms.technology: windows-devices

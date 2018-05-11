@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_output_rate.htm
 old-project: medfound
 ms.assetid: C950E5B5-E50C-4750-83F3-38296EF2009F
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_OUTPUT_RATE, D3D11_VIDEO_PROCESSOR_OUTPUT_RATE enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM, D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_HALF, D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL, d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_RATE, d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM, d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_HALF, d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL, mf.d3d11_video_processor_output_rate
 ms.prod: windows-hardware
 ms.technology: windows-devices

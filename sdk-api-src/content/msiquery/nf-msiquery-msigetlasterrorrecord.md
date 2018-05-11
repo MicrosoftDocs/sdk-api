@@ -7,7 +7,7 @@ old-location: setup\msigetlasterrorrecord.htm
 old-project: Msi
 ms.assetid: 0d6f4506-367b-43d7-ba1c-2a93c1d0cc51
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiGetLastErrorRecord, MsiGetLastErrorRecord function, _msi_msigetlasterrorrecord, msiquery/MsiGetLastErrorRecord, setup.msigetlasterrorrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

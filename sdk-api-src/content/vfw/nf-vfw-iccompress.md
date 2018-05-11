@@ -7,7 +7,7 @@ old-location: multimedia\iccompress.htm
 old-project: Multimedia
 ms.assetid: 99e7d87a-cbf5-42d3-897c-5f5c8860a13a
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: AVIIF_KEYFRAME, ICCOMPRESS_KEYFRAME, ICCompress, ICCompress function [Windows Multimedia], _win32_ICCompress, multimedia.iccompress, vfw/ICCompress
 ms.prod: windows-hardware
 ms.technology: windows-devices

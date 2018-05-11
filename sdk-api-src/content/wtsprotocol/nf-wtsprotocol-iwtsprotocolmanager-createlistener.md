@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolmanager_createlistener.htm
 old-project: TermServ
 ms.assetid: 2c947181-5cac-40c1-b993-537b580efafe
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWTSProtocolManager interface, IWTSProtocolManager interface [Remote Desktop Services],CreateListener method, IWTSProtocolManager.CreateListener, IWTSProtocolManager::CreateListener, termserv.iwtsprotocolmanager_createlistener, wtsprotocol/IWTSProtocolManager::CreateListener
 ms.prod: windows-hardware
 ms.technology: windows-devices

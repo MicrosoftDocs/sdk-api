@@ -7,7 +7,7 @@ old-location: wmformat\iwmregistereddevice_getattributebyindex.htm
 old-project: wmformat
 ms.assetid: 02a582d4-329e-47e3-9dbe-dba8a3e4b4b3
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: GetAttributeByIndex, GetAttributeByIndex method [windows Media Format], GetAttributeByIndex method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetAttributeByIndex method, IWMRegisteredDevice.GetAttributeByIndex, IWMRegisteredDevice::GetAttributeByIndex, IWMRegisteredDeviceGetAttributeByIndex, wmformat.iwmregistereddevice_getattributebyindex, wmsdkidl/IWMRegisteredDevice::GetAttributeByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

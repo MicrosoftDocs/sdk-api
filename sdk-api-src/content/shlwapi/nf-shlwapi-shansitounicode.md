@@ -7,7 +7,7 @@ old-location: shell\SHAnsiToUnicode.htm
 old-project: shell
 ms.assetid: 9578f26e-56ea-4f3b-b024-b2e285d0c4d2
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SHAnsiToUnicode, SHAnsiToUnicode function [Windows Shell], _win32_SHAnsiToUnicode, shell.SHAnsiToUnicode, shlwapi/SHAnsiToUnicode
 ms.prod: windows-hardware
 ms.technology: windows-devices

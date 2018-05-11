@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_volumestepup.htm
 old-project: CoreAudio
 ms.assetid: 35ed44cd-ba91-4b6a-b528-0e22df389d31
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],VolumeStepUp method, IAudioEndpointVolume.VolumeStepUp, IAudioEndpointVolume::VolumeStepUp, IAudioEndpointVolumeVolumeStepUp, VolumeStepUp, VolumeStepUp method [Core Audio], VolumeStepUp method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_volumestepup, endpointvolume/IAudioEndpointVolume::VolumeStepUp
 ms.prod: windows-hardware
 ms.technology: windows-devices

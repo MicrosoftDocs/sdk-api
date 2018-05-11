@@ -7,7 +7,7 @@ old-location: stg\ienumstatpropstg_skip.htm
 old-project: Stg
 ms.assetid: e70e4668-d52c-4135-948b-c8f5d141e6a2
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumSTATPROPSTG interface [Structured Storage],Skip method, IEnumSTATPROPSTG.Skip, IEnumSTATPROPSTG::Skip, Skip, Skip method [Structured Storage], Skip method [Structured Storage],IEnumSTATPROPSTG interface, propidlbase/IEnumSTATPROPSTG::Skip, stg.ienumstatpropstg_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\imdspdirecttransfer.htm
 old-project: WMDM
 ms.assetid: b053158c-9a1e-4da4-a428-7edceeaaee1e
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: IMDSPDirectTransfer, IMDSPDirectTransfer interface [windows Media Device Manager], IMDSPDirectTransfer interface [windows Media Device Manager],described, IMDSPDirectTransferInterface, mswmdm/IMDSPDirectTransfer, wmdm.imdspdirecttransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices

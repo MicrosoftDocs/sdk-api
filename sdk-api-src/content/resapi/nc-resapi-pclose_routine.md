@@ -2,13 +2,13 @@
 UID: NC:resapi.PCLOSE_ROUTINE
 title: PCLOSE_ROUTINE
 author: windows-driver-content
-description: Cancels an operation on a resource.
-old-location: mscs\cancel.htm
+description: Closes a resource.
+old-location: mscs\close.htm
 old-project: MsCS
-ms.assetid: F2A22C00-5B25-48F7-BB25-9C351A47B770
+ms.assetid: c7c74440-c98a-4440-8bf4-10ebd1a68608
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
-ms.keywords: Cancel, Cancel callback, Cancel callback function [Failover Cluster], PCLOSE_ROUTINE, PCLOSE_ROUTINE callback function [Failover Cluster], mscs.cancel, resapi/Cancel, resapi/PCLOSE_ROUTINE
+ms.date: 5/9/2018
+ms.keywords: Close, Close callback function [Failover Cluster], PCLOSE_ROUTINE, PCLOSE_ROUTINE callback, _wolf_close, mscs.close, resapi/Close, resapi/PCLOSE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -16,7 +16,7 @@ req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: None supported
-req.target-min-winversvr: Windows Server 2012
+req.target-min-winversvr: Windows Server 2008 Enterprise, Windows Server 2008 Datacenter
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	ResApi.h
 api_name:
--	Cancel
+-	Close
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,8 @@ req.product: Rights Management Services client 1.0 SP2 or later
 ## -description
 
 
-Cancels an operation on a resource.
+Closes a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>. The 
+    <b>PCLOSE_ROUTINE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -58,26 +59,44 @@ Cancels an operation on a resource.
 
 
 
-### -param Resource [in]
-
-The resource ID of the resource.
+### -param Resource
 
 
-#### - CancelFlags_RESERVED [in]
 
-Reserved.
+
+
+
+
+
+#### - ResourceId [in]
+
+Resource identifier of the resource to close.
 
 
 ## -returns
 
 
 
+None. Call <a href="https://msdn.microsoft.com/d9da833f-36ca-4046-8d2f-cd4449dd3c63">SetLastError</a> to specify that an error has 
+       occurred.
 
 
-Returns VOID that ...
+
+
+## -remarks
 
 
 
+For effective implementation strategies of the <b>Close</b> 
+     entry-point function, see 
+     <a href="https://msdn.microsoft.com/b3f99392-1402-4c8d-b16b-e20bda4173da">Implementing Close</a>.
+
+
+#### Examples
+
+See <a href="mscs.resource_dll_examples">Resource DLL Examples</a>.
+
+<div class="code"></div>
 
 
 

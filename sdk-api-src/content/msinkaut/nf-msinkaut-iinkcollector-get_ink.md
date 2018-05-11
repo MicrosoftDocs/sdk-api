@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_ink.htm
 old-project: tablet
 ms.assetid: 62881a0e-3932-49a1-8e7d-3e74474f2214
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: 62881a0e-3932-49a1-8e7d-3e74474f2214, IInkCollector.get_Ink, IInkCollector::get_Ink, Ink property [Tablet PC], Ink property [Tablet PC],InkCollector class, InkCollector class [Tablet PC],Ink property, InkCollector.Ink, InkCollector.get_Ink, get_Ink, putref_Ink, tablet.inkcollector_ink
 ms.prod: windows-hardware
 ms.technology: windows-devices

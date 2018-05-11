@@ -7,7 +7,7 @@ old-location: wmformat\wmvalidatedata.htm
 old-project: wmformat
 ms.assetid: 0bbe4ccc-a052-4bb9-ac6b-31d57ccf3bab
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: WMValidateData, WMValidateData function [windows Media Format], wmformat.wmvalidatedata, wmsdkvalidate/WMValidateData
 ms.prod: windows-hardware
 ms.technology: windows-devices

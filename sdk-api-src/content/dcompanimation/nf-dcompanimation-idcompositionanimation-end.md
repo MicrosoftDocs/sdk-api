@@ -7,7 +7,7 @@ old-location: directcomp\idcompositionanimation_end.htm
 old-project: directcomp
 ms.assetid: 71287ae2-d930-4e96-8c12-538d2b58ccc6
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: End, End method [DirectComposition], End method [DirectComposition],IDCompositionAnimation interface, IDCompositionAnimation interface [DirectComposition],End method, IDCompositionAnimation.End, IDCompositionAnimation::End, dcompanimation/IDCompositionAnimation::End, directcomp.idcompositionanimation_end
 ms.prod: windows-hardware
 ms.technology: windows-devices

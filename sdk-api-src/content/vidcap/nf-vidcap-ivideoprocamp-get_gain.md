@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_gain.htm
 old-project: DirectShow
 ms.assetid: 36d84db9-4a53-4087-b389-e707ed3d5572
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Gain method, IVideoProcAmp.get_Gain, IVideoProcAmp::get_Gain, IVideoProcAmpget_Gain, dshow.ivideoprocamp_get_gain, get_Gain, get_Gain method [DirectShow], get_Gain method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Gain
 ms.prod: windows-hardware
 ms.technology: windows-devices

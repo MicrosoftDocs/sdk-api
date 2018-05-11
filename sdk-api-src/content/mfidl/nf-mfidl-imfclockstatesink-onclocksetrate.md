@@ -7,7 +7,7 @@ old-location: mf\imfclockstatesink_onclocksetrate.htm
 old-project: medfound
 ms.assetid: ba8afdf9-13eb-4e3d-b8a7-c74e0b40e998
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFClockStateSink interface [Media Foundation],OnClockSetRate method, IMFClockStateSink.OnClockSetRate, IMFClockStateSink::OnClockSetRate, OnClockSetRate, OnClockSetRate method [Media Foundation], OnClockSetRate method [Media Foundation],IMFClockStateSink interface, ba8afdf9-13eb-4e3d-b8a7-c74e0b40e998, mf.imfclockstatesink_onclocksetrate, mfidl/IMFClockStateSink::OnClockSetRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

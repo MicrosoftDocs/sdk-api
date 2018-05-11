@@ -7,7 +7,7 @@ old-location: fwp\ipsec_token_type.htm
 old-project: FWP
 ms.assetid: 68eb9301-33d9-4ab9-b3e7-0fc83b6f0f1d
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IPSEC_TOKEN_TYPE, IPSEC_TOKEN_TYPE enumeration [Filtering], IPSEC_TOKEN_TYPE_, IPSEC_TOKEN_TYPE_IMPERSONATION, IPSEC_TOKEN_TYPE_MACHINE, IPSEC_TOKEN_TYPE_MAX, fwp.ipsec_token_type, ipsectypes/IPSEC_TOKEN_TYPE, ipsectypes/IPSEC_TOKEN_TYPE_IMPERSONATION, ipsectypes/IPSEC_TOKEN_TYPE_MACHINE, ipsectypes/IPSEC_TOKEN_TYPE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices

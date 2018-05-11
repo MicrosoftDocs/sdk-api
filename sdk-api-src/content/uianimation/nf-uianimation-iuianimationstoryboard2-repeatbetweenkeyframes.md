@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_repeatbetweenkeyframes.htm
 old-project: UIAnimation
 ms.assetid: 31BC2628-14B3-4405-BA9B-4FB275D9AC0D
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],RepeatBetweenKeyframes method, IUIAnimationStoryboard2.RepeatBetweenKeyframes, IUIAnimationStoryboard2::RepeatBetweenKeyframes, RepeatBetweenKeyframes, RepeatBetweenKeyframes method [Windows Animation], RepeatBetweenKeyframes method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_repeatbetweenkeyframes, uianimation/IUIAnimationStoryboard2::RepeatBetweenKeyframes
 ms.prod: windows-hardware
 ms.technology: windows-devices

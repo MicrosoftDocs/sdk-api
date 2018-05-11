@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersourceevent3_contentprimarilyaudio.htm
 old-project: mstv
 ms.assetid: 5ee38fac-78f8-4130-8d16-db5380e11c5f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: ContentPrimarilyAudio, ContentPrimarilyAudio method [Microsoft TV Technologies], ContentPrimarilyAudio method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent3 interface, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],ContentPrimarilyAudio method, IMSVidStreamBufferSourceEvent3.ContentPrimarilyAudio, IMSVidStreamBufferSourceEvent3::ContentPrimarilyAudio, IMSVidStreamBufferSourceEvent3ContentPrimarilyAudio, mstv.imsvidstreambuffersourceevent3_contentprimarilyaudio, segment/IMSVidStreamBufferSourceEvent3::ContentPrimarilyAudio
 ms.prod: windows-hardware
 ms.technology: windows-devices

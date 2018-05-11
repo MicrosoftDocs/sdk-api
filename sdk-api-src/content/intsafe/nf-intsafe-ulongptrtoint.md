@@ -7,7 +7,7 @@ old-location: shell\SizeTToInt.htm
 old-project: shell
 ms.assetid: 65f178c1-8029-40c5-af31-03f158d90582
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SizeTToInt, SizeTToInt function [Windows Shell], ULongPtrToInt, _shell_SizeTToInt, intsafe/SizeTToInt, shell.SizeTToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

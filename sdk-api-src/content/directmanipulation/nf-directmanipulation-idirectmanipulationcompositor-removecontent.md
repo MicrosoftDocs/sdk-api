@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationcompositor_removecontent.htm
 old-project: directmanipulation
 ms.assetid: 9bfb7fe4-abf9-4bb7-8d3f-673508053573
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationCompositor interface [Direct Manipulation],RemoveContent method, IDirectManipulationCompositor.RemoveContent, IDirectManipulationCompositor::RemoveContent, RemoveContent, RemoveContent method [Direct Manipulation], RemoveContent method [Direct Manipulation],IDirectManipulationCompositor interface, directmanipulation.idirectmanipulationcompositor_removecontent, directmanipulation/IDirectManipulationCompositor::RemoveContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicstreamprovider_refreshstream.htm
 old-project: wic
 ms.assetid: 47ee9b2a-b979-4009-b4e6-e2e39548976d
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: IWICStreamProvider interface [Windows Imaging Component],RefreshStream method, IWICStreamProvider.RefreshStream, IWICStreamProvider::RefreshStream, RefreshStream, RefreshStream method [Windows Imaging Component], RefreshStream method [Windows Imaging Component],IWICStreamProvider interface, _wic_codec_iwicstreamprovider_refreshstream, wic._wic_codec_iwicstreamprovider_refreshstream, wincodecsdk/IWICStreamProvider::RefreshStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

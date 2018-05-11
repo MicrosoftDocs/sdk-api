@@ -7,7 +7,7 @@ old-location: search\_search_PRIORITY_LEVEL.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\priority_level.htm
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/8/2018
 ms.keywords: PRIORITY_LEVEL, PRIORITY_LEVEL enumeration [search], PRIORITY_LEVEL_DEFAULT, PRIORITY_LEVEL_FOREGROUND, PRIORITY_LEVEL_HIGH, PRIORITY_LEVEL_LOW, __MIDL___MIDL_itf_searchapi_0000_0022_0001, _search_PRIORITY_LEVEL, search._search_PRIORITY_LEVEL, searchapi/PRIORITY_LEVEL, searchapi/PRIORITY_LEVEL_DEFAULT, searchapi/PRIORITY_LEVEL_FOREGROUND, searchapi/PRIORITY_LEVEL_HIGH, searchapi/PRIORITY_LEVEL_LOW
 ms.prod: windows-hardware
 ms.technology: windows-devices

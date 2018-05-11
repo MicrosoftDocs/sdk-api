@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicpalette_initializecustom.htm
 old-project: wic
 ms.assetid: eef17030-13eb-4d59-ac47-a49ffe2c80c8
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeCustom method, IWICPalette.InitializeCustom, IWICPalette::InitializeCustom, InitializeCustom, InitializeCustom method [Windows Imaging Component], InitializeCustom method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializecustom, wic._wic_codec_iwicpalette_initializecustom, wincodec/IWICPalette::InitializeCustom
 ms.prod: windows-hardware
 ms.technology: windows-devices

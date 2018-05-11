@@ -7,7 +7,7 @@ old-location: iphlp\getipforwardtable.htm
 old-project: IpHlp
 ms.assetid: 5d645353-7c87-4f8a-b7fd-149675a94743
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetIpForwardTable, GetIpForwardTable function [IP Helper], _iphlp_getipforwardtable, iphlp.getipforwardtable, iphlpapi/GetIpForwardTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

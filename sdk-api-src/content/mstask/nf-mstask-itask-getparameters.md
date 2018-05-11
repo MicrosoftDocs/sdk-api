@@ -7,7 +7,7 @@ old-location: taskschd\itask_getparameters.htm
 old-project: TaskSchd
 ms.assetid: f59118d6-b430-4fcd-9c78-e6b5a65c151a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetParameters, GetParameters method [Task Scheduler], GetParameters method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetParameters method, ITask.GetParameters, ITask::GetParameters, _msb_itask_getparameters, mstask/ITask::GetParameters, taskschd.itask_getparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

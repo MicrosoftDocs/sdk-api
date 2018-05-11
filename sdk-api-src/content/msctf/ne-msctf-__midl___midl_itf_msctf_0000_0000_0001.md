@@ -7,7 +7,7 @@ old-location: tsf\tfanchor.htm
 old-project: TSF
 ms.assetid: d670666f-2915-4a23-b825-b534a015e37f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: TF_ANCHOR_END, TF_ANCHOR_START, TfAnchor, TfAnchor enumeration [Text Services Framework], __MIDL___MIDL_itf_msctf_0000_0000_0001, _tsf_tfanchor_ref, msctf/TF_ANCHOR_END, msctf/TF_ANCHOR_START, msctf/TfAnchor, tsf.tfanchor
 ms.prod: windows-hardware
 ms.technology: windows-devices

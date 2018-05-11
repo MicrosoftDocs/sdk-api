@@ -7,7 +7,7 @@ old-location: stg\stgpropertylengthasvariant.htm
 old-project: Stg
 ms.assetid: 3e809ca9-3038-4d92-bb56-23bd45b6b644
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: StgPropertyLengthAsVariant, StgPropertyLengthAsVariant function [Structured Storage], propapi/StgPropertyLengthAsVariant, stg.stgpropertylengthasvariant
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmformat\inssbuffer_getlength.htm
 old-project: wmformat
 ms.assetid: a964124d-f25b-442c-a29d-0ee595bdbcce
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: GetLength, GetLength method [windows Media Format], GetLength method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetLength method, INSSBuffer.GetLength, INSSBuffer::GetLength, INSSBufferGetLength, wmformat.inssbuffer_getlength, wmsbuffer/INSSBuffer::GetLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

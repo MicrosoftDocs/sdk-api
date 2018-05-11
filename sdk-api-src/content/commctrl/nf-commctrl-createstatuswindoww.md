@@ -7,7 +7,7 @@ old-location: controls\CreateStatusWindow.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\createstatuswindow.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: CreateStatusWindow, CreateStatusWindow function [Windows Controls], CreateStatusWindowA, CreateStatusWindowW, _win32_CreateStatusWindow, _win32_CreateStatusWindow_cpp, commctrl/CreateStatusWindow, commctrl/CreateStatusWindowA, commctrl/CreateStatusWindowW, controls.CreateStatusWindow, controls._win32_CreateStatusWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

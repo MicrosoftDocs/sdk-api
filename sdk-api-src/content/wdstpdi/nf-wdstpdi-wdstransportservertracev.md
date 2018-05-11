@@ -7,7 +7,7 @@ old-location: wds\wdstransportservertracev.htm
 old-project: Wds
 ms.assetid: d7b85bc4-0f8e-416d-848f-2486f979ac1b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WDS_MC_TRACE_ERROR, WDS_MC_TRACE_FATAL, WDS_MC_TRACE_INFO, WDS_MC_TRACE_VERBOSE, WDS_MC_TRACE_WARNING, WdsTransportServerTraceV, WdsTransportServerTraceV function [Windows Deployment Services], wds.wdstransportservertracev, wdstpdi/WdsTransportServerTraceV
 ms.prod: windows-hardware
 ms.technology: windows-devices

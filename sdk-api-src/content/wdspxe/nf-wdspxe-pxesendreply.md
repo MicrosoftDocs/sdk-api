@@ -7,7 +7,7 @@ old-location: wds\pxesendreply.htm
 old-project: Wds
 ms.assetid: b4809f0b-b8a5-45d1-b6ef-8f812379e706
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: PxeSendReply, PxeSendReply function [Windows Deployment Services], wds.pxesendreply, wdspxe/PxeSendReply
 ms.prod: windows-hardware
 ms.technology: windows-devices

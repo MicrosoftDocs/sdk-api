@@ -7,7 +7,7 @@ old-location: winsync\iknowledgesyncprovider_getsyncbatchparameters.htm
 old-project: winsync
 ms.assetid: 25ebd3f7-8b62-44f3-83cd-c67c5e4f6617
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: GetSyncBatchParameters, GetSyncBatchParameters method [Windows Sync], GetSyncBatchParameters method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],GetSyncBatchParameters method, IKnowledgeSyncProvider.GetSyncBatchParameters, IKnowledgeSyncProvider::GetSyncBatchParameters, winsync.iknowledgesyncprovider_getsyncbatchparameters, winsync/IKnowledgeSyncProvider::GetSyncBatchParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

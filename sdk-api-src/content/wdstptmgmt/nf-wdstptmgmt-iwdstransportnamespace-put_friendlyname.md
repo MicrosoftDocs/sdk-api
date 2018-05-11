@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespace_friendlyname.htm
 old-project: Wds
 ms.assetid: 09964bb7-fddb-48e2-891a-d1f2fd8763eb
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: FriendlyName property [Windows Deployment Services], FriendlyName property [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],FriendlyName property, IWdsTransportNamespace.FriendlyName, IWdsTransportNamespace.put_FriendlyName, IWdsTransportNamespace::FriendlyName, IWdsTransportNamespace::get_FriendlyName, IWdsTransportNamespace::put_FriendlyName, put_FriendlyName, wds.iwdstransportnamespace_friendlyname, wdstptmgmt/IWdsTransportNamespace::FriendlyName, wdstptmgmt/IWdsTransportNamespace::get_FriendlyName, wdstptmgmt/IWdsTransportNamespace::put_FriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices

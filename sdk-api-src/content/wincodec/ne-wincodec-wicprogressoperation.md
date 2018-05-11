@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_wicprogressoperation.htm
 old-project: wic
 ms.assetid: 407b982d-7232-42ce-9ff5-7029b7d922a4
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: WICProgressOperation, WICProgressOperation enumeration [Windows Imaging Component], WICProgressOperationAll, WICProgressOperationCopyPixels, WICProgressOperationWritePixels, _wic_codec_wicprogressoperation, wic._wic_codec_wicprogressoperation, wincodec/WICProgressOperation, wincodec/WICProgressOperationAll, wincodec/WICProgressOperationCopyPixels, wincodec/WICProgressOperationWritePixels
 ms.prod: windows-hardware
 ms.technology: windows-devices

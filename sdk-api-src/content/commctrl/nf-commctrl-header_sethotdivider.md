@@ -7,7 +7,7 @@ old-location: controls\Header_SetHotDivider.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_sethotdivider.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: FALSE, Header_SetHotDivider, Header_SetHotDivider macro [Windows Controls], TRUE, _win32_Header_SetHotDivider, _win32_Header_SetHotDivider_cpp, commctrl/Header_SetHotDivider, controls.Header_SetHotDivider, controls._win32_Header_SetHotDivider
 ms.prod: windows-hardware
 ms.technology: windows-devices

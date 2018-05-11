@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice_getversion.htm
 old-project: WMDM
 ms.assetid: ae0253f2-30cd-46d0-b9e9-f2cb878c1ff3
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: GetVersion, GetVersion method [windows Media Device Manager], GetVersion method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetVersion method, IWMDMDevice.GetVersion, IWMDMDevice::GetVersion, IWMDMDeviceGetVersion, mswmdm/IWMDMDevice::GetVersion, wmdm.iwmdmdevice_getversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

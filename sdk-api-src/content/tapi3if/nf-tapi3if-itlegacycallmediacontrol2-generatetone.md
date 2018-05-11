@@ -7,7 +7,7 @@ old-location: tapi3\itlegacycallmediacontrol2_generatetone.htm
 old-project: Tapi
 ms.assetid: 4c77ee53-3c40-4fdc-9a35-40a8e74b4ec4
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: GenerateTone, GenerateTone method [TAPI 2.2], GenerateTone method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GenerateTone method, ITLegacyCallMediaControl2.GenerateTone, ITLegacyCallMediaControl2::GenerateTone, _tapi3_itlegacycallmediacontrol2_generatetone, tapi3.itlegacycallmediacontrol2_generatetone, tapi3if/ITLegacyCallMediaControl2::GenerateTone
 ms.prod: windows-hardware
 ms.technology: windows-devices

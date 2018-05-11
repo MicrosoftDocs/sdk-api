@@ -7,7 +7,7 @@ old-location: wmformat\wmcreateindexer.htm
 old-project: wmformat
 ms.assetid: 08f83923-ed33-41d2-b7f8-d70627197b31
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: WMCreateIndexer, WMCreateIndexer function [windows Media Format], wmformat.wmcreateindexer, wmsdkidl/WMCreateIndexer
 ms.prod: windows-hardware
 ms.technology: windows-devices

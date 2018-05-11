@@ -7,7 +7,7 @@ old-location: mib\mib_tcptable_owner_pid.htm
 old-project: MIB
 ms.assetid: ef39b832-1f22-468a-8734-c7d9bd3ac965
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: "*PMIB_TCPTABLE_OWNER_PID, MIB_TCPTABLE_OWNER_PID, MIB_TCPTABLE_OWNER_PID structure [MIB], PMIB_TCPTABLE_OWNER_PID, PMIB_TCPTABLE_OWNER_PID structure pointer [MIB], _MIB_TCPTABLE_OWNER_PID, iprtrmib/MIB_TCPTABLE_OWNER_PID, iprtrmib/PMIB_TCPTABLE_OWNER_PID, mib.mib_tcptable_owner_pid, tcpmib/MIB_TCPTABLE_OWNER_PID, tcpmib/PMIB_TCPTABLE_OWNER_PID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

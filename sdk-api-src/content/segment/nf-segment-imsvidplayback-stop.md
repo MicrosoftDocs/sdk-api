@@ -7,7 +7,7 @@ old-location: mstv\imsvidplayback_stop.htm
 old-project: mstv
 ms.assetid: 20262521-bb9c-4e37-b89c-8c439df50ed4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Stop method, IMSVidPlayback.Stop, IMSVidPlayback::Stop, IMSVidPlaybackStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_stop, segment/IMSVidPlayback::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

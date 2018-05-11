@@ -7,7 +7,7 @@ old-location: display\ddgetbltstatus.htm
 old-project: display
 ms.assetid: 77cce7a4-a0e6-48f7-933f-a216b13ddc93
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: DdGetBltStatus, DdGetBltStatus callback function [Display Devices], PDD_SURFCB_GETBLTSTATUS, PDD_SURFCB_GETBLTSTATUS callback, ddfncs_b4844b94-b4ec-402e-87c3-b7d83a980963.xml, ddrawint/DdGetBltStatus, display.ddgetbltstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

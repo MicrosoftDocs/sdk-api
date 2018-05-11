@@ -7,7 +7,7 @@ old-location: dshow\ivpbaseconfig_setvideoformat.htm
 old-project: DirectShow
 ms.assetid: 98b4182f-c286-4f4a-86b8-40d093456628
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetVideoFormat method, IVPBaseConfig.SetVideoFormat, IVPBaseConfig::SetVideoFormat, IVPBaseConfigSetVideoFormat, SetVideoFormat, SetVideoFormat method [DirectShow], SetVideoFormat method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setvideoformat, vpconfig/IVPBaseConfig::SetVideoFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

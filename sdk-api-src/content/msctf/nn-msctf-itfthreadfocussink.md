@@ -7,7 +7,7 @@ old-location: tsf\itfthreadfocussink.htm
 old-project: TSF
 ms.assetid: 17335fa9-01ee-4585-9454-f326b6281ab1
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfThreadFocusSink, ITfThreadFocusSink interface [Text Services Framework], ITfThreadFocusSink interface [Text Services Framework],described, _tsf_itfthreadfocussink_ref, msctf/ITfThreadFocusSink, tsf.itfthreadfocussink
 ms.prod: windows-hardware
 ms.technology: windows-devices

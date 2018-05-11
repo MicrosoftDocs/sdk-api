@@ -7,7 +7,7 @@ old-location: dshow\iamtuner_logout.htm
 old-project: DirectShow
 ms.assetid: 637823ec-0de9-431d-96b7-606abcc9013a
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMTuner interface [DirectShow],Logout method, IAMTuner.Logout, IAMTuner::Logout, IAMTunerLogout, Logout, Logout method [DirectShow], Logout method [DirectShow],IAMTuner interface, dshow.iamtuner_logout, strmif/IAMTuner::Logout
 ms.prod: windows-hardware
 ms.technology: windows-devices

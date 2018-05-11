@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfacecreate.htm
 old-project: RRAS
 ms.assetid: e368aa3c-bb80-49ed-a1da-39777dada960
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MprConfigInterfaceCreate, MprConfigInterfaceCreate function [RAS], _mpr_mprconfiginterfacecreate, mprapi/MprConfigInterfaceCreate, rras.mprconfiginterfacecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

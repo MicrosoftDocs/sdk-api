@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_uint32field.htm
 old-project: wmi_v2
 ms.assetid: e7ce085f-05c6-44d0-b22a-a2a0abce582e
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint32Field, MI_Uint32Field structure [Windows Management Infrastructure (MI)], _MI_Uint32Field, mi/MI_Uint32Field, wmi._mi_uint32field, wmi_v2.mi_uint32field
 ms.prod: windows-hardware
 ms.technology: windows-devices

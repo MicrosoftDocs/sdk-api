@@ -7,7 +7,7 @@ old-location: wic\wicjpegframeheader.htm
 old-project: wic
 ms.assetid: BB207D78-9E27-49A4-91E4-601CED109389
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: WICJpegFrameHeader, WICJpegFrameHeader structure [Windows Imaging Component], wic.wicjpegframeheader, wincodec/WICJpegFrameHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

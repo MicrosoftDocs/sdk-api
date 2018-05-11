@@ -7,7 +7,7 @@ old-location: wmformat\iwmdrmwriter_generatekeyid.htm
 old-project: wmformat
 ms.assetid: 11eff02d-af0a-4047-80fd-d92be2f40d86
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: GenerateKeyID, GenerateKeyID method [windows Media Format], GenerateKeyID method [windows Media Format],IWMDRMWriter interface, IWMDRMWriter interface [windows Media Format],GenerateKeyID method, IWMDRMWriter.GenerateKeyID, IWMDRMWriter::GenerateKeyID, IWMDRMWriterGenerateKeyID, wmformat.iwmdrmwriter_generatekeyid, wmsdkidl/IWMDRMWriter::GenerateKeyID
 ms.prod: windows-hardware
 ms.technology: windows-devices

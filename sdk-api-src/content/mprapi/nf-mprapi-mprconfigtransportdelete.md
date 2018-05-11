@@ -7,7 +7,7 @@ old-location: rras\mprconfigtransportdelete.htm
 old-project: RRAS
 ms.assetid: e022d0bc-f5ae-4c04-80f7-40ec77e2fa80
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MprConfigTransportDelete, MprConfigTransportDelete function [RAS], _mpr_mprconfigtransportdelete, mprapi/MprConfigTransportDelete, rras.mprconfigtransportdelete
 ms.prod: windows-hardware
 ms.technology: windows-devices

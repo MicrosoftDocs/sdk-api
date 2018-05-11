@@ -7,7 +7,7 @@ old-location: mstv\ipat.htm
 old-project: mstv
 ms.assetid: 31b0e558-0f22-4761-a964-1908c2835478
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IPAT, IPAT interface [Microsoft TV Technologies], IPAT interface [Microsoft TV Technologies],described, IPATInterface, mpeg2psiparser/IPAT, mstv.ipat
 ms.prod: windows-hardware
 ms.technology: windows-devices

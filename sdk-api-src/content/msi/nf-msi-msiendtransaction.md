@@ -7,7 +7,7 @@ old-location: setup\msiendtransaction.htm
 old-project: Msi
 ms.assetid: 70912430-63d7-4087-858c-fb13f47008e2
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiEndTransaction, MsiEndTransaction function [Setup API], msi/MsiEndTransaction, setup.msiendtransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

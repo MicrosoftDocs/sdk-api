@@ -7,7 +7,7 @@ old-location: p2p\peer_application.htm
 old-project: P2PSdk
 ms.assetid: a219231b-75d0-47d3-8294-f1cc25b43d27
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: "*PPEER_APPLICATION, PCPEER_APPLICATION, PCPEER_APPLICATION structure pointer [Peer Networking], PEER_APPLICATION, PEER_APPLICATION structure [Peer Networking], PPEER_APPLICATION, PPEER_APPLICATION structure pointer [Peer Networking], p2p.peer_application, p2p/PCPEER_APPLICATION, p2p/PEER_APPLICATION, p2p/PPEER_APPLICATION, peer_application_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices

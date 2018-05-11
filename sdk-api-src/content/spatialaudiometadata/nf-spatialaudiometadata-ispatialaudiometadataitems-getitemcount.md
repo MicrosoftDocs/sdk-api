@@ -1,14 +1,14 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItems.GetItemCount
-title: ISpatialAudioMetadataItems::GetItemCount method
+title: ISpatialAudioMetadataItems::GetItemCount
 author: windows-driver-content
 description: The current number of items stored by the ISpatialAudioMetadataItems.
 old-location: coreaudio\ispatialaudiometadataitems_getitemcount.htm
 old-project: CoreAudio
 ms.assetid: 168FDDA7-FB87-47B3-A7BC-88398663A7DD
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
-ms.keywords: GetFrameCount method [Core Audio], GetFrameCount method [Core Audio], ISpatialAudioMetadataItems interface, GetItemCount,ISpatialAudioMetadataItems.GetItemCount, ISpatialAudioMetadataItems, ISpatialAudioMetadataItems interface [Core Audio], GetFrameCount method, ISpatialAudioMetadataItems::GetFrameCount, ISpatialAudioMetadataItems::GetItemCount, coreaudio.ispatialaudiometadataitems_getitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetFrameCount
+ms.date: 5/9/2018
+ms.keywords: GetItemCount, GetItemCount method [Core Audio], GetItemCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetItemCount method, ISpatialAudioMetadataItems.GetItemCount, ISpatialAudioMetadataItems::GetItemCount, coreaudio.ispatialaudiometadataitems_getitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	SpatialAudioMetadata.h
 api_name:
--	ISpatialAudioMetadataItems.GetFrameCount
+-	ISpatialAudioMetadataItems.GetItemCount
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Internet Explorer 6.01
 ---
 
-# ISpatialAudioMetadataItems::GetItemCount method
+# ISpatialAudioMetadataItems::GetItemCount
 
 
 ## -description

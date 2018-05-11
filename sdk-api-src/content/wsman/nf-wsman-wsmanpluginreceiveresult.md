@@ -7,7 +7,7 @@ old-location: winrm\wsmanpluginreceiveresult.htm
 old-project: WinRM
 ms.assetid: 717c1e37-83e1-4caf-8b52-175999597fc0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: WSMAN_RECEIVE_STATE_ABNORMAL_TERMINATION, WSMAN_RECEIVE_STATE_INPUT_REQUIRED, WSMAN_RECEIVE_STATE_NONE, WSMAN_RECEIVE_STATE_NORMAL_TERMINATION, WSMAN_RECEIVE_STATE_WAITING, WSManPluginReceiveResult, WSManPluginReceiveResult function [Windows Remote Management], winrm.wsmanpluginreceiveresult, wsman/WSManPluginReceiveResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

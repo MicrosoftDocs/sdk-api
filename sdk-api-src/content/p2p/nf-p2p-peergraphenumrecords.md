@@ -7,7 +7,7 @@ old-location: p2p\peergraphenumrecords.htm
 old-project: P2PSdk
 ms.assetid: 528c7172-56ed-4e14-991a-69e9fde7b227
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerGraphEnumRecords, PeerGraphEnumRecords function [Peer Networking], p2p.peergraphenumrecords, p2p/PeerGraphEnumRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\imediabuffer_setlength.htm
 old-project: DirectShow
 ms.assetid: 06cfbfd3-d196-4adb-a6b3-9b5f88bc03a6
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IMediaBuffer interface [DirectShow],SetLength method, IMediaBuffer.SetLength, IMediaBuffer::SetLength, IMediaBufferSetLength, SetLength, SetLength method [DirectShow], SetLength method [DirectShow],IMediaBuffer interface, dshow.imediabuffer_setlength, mediaobj/IMediaBuffer::SetLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

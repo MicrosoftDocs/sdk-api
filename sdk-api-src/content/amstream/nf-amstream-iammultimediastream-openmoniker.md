@@ -7,7 +7,7 @@ old-location: dshow\iammultimediastream_openmoniker.htm
 old-project: DirectShow
 ms.assetid: ccfed197-6637-4283-9996-56049da49b84
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],OpenMoniker method, IAMMultiMediaStream.OpenMoniker, IAMMultiMediaStream::OpenMoniker, IAMMultiMediaStreamOpenMoniker, OpenMoniker, OpenMoniker method [DirectShow], OpenMoniker method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::OpenMoniker, dshow.iammultimediastream_openmoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices

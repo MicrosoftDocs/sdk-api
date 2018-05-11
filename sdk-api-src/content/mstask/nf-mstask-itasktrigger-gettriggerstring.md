@@ -7,7 +7,7 @@ old-location: taskschd\itasktrigger_gettriggerstring.htm
 old-project: TaskSchd
 ms.assetid: 5e21b61e-a43d-47b3-9380-b90d94e13cb8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetTriggerString, GetTriggerString method [Task Scheduler], GetTriggerString method [Task Scheduler],ITaskTrigger interface, ITaskTrigger interface [Task Scheduler],GetTriggerString method, ITaskTrigger.GetTriggerString, ITaskTrigger::GetTriggerString, _msb_itasktrigger_gettriggerstring, mstask/ITaskTrigger::GetTriggerString, taskschd.itasktrigger_gettriggerstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

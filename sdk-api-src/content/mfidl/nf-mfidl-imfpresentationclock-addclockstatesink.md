@@ -7,7 +7,7 @@ old-location: mf\imfpresentationclock_addclockstatesink.htm
 old-project: medfound
 ms.assetid: c90c3d26-51fa-4cd6-a154-6f72c21219d2
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: AddClockStateSink, AddClockStateSink method [Media Foundation], AddClockStateSink method [Media Foundation],IMFPresentationClock interface, IMFPresentationClock interface [Media Foundation],AddClockStateSink method, IMFPresentationClock.AddClockStateSink, IMFPresentationClock::AddClockStateSink, c90c3d26-51fa-4cd6-a154-6f72c21219d2, mf.imfpresentationclock_addclockstatesink, mfidl/IMFPresentationClock::AddClockStateSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

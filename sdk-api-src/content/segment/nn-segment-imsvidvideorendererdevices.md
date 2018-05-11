@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorendererdevices.htm
 old-project: mstv
 ms.assetid: cf8e1307-b4a5-464b-b9a6-32c195941309
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IMSVidVideoRendererDevices, IMSVidVideoRendererDevices interface [Microsoft TV Technologies], IMSVidVideoRendererDevices interface [Microsoft TV Technologies],described, IMSVidVideoRendererDevicesInterface, mstv.imsvidvideorendererdevices, segment/IMSVidVideoRendererDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices

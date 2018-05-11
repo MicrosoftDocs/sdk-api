@@ -7,7 +7,7 @@ old-location: mstv\ipbdaentitlementdescriptor.htm
 old-project: mstv
 ms.assetid: 2fe666fa-ebc4-4a47-87ce-085f357ce186
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IPBDAEntitlementDescriptor, IPBDAEntitlementDescriptor interface [Microsoft TV Technologies], IPBDAEntitlementDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IPBDAEntitlementDescriptor, mstv.ipbdaentitlementdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

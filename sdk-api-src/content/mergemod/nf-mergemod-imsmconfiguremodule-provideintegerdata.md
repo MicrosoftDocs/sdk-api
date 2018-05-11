@@ -7,7 +7,7 @@ old-location: setup\imsmconfiguremodule_provideintegerdata.htm
 old-project: Msi
 ms.assetid: 2d03ce35-2ded-4f65-a73f-2546d67b0454
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: IMsmConfigureModule interface,ProvideIntegerData method, IMsmConfigureModule.ProvideIntegerData, IMsmConfigureModule::ProvideIntegerData, ProvideIntegerData, ProvideIntegerData method, ProvideIntegerData method,IMsmConfigureModule interface, _msi_provideintegerdata_function, mergemod/IMsmConfigureModule::ProvideIntegerData, setup.imsmconfiguremodule_provideintegerdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

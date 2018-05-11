@@ -7,7 +7,7 @@ old-location: intl\filemuiinfo.htm
 old-project: Intl
 ms.assetid: 4c757d19-ac66-4ba4-a691-f575f61961be
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: "*PFILEMUIINFO, FILEMUIINFO, FILEMUIINFO structure [Internationalization for Windows Applications], PFILEMUIINFO, PFILEMUIINFO structure pointer [Internationalization for Windows Applications], _FILEMUIINFO, _win32_FILEMUIINFO, intl.filemuiinfo, winnls/FILEMUIINFO, winnls/PFILEMUIINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

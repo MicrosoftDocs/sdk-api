@@ -7,7 +7,7 @@ old-location: dshow\iamvideoprocamp_getrange.htm
 old-project: DirectShow
 ms.assetid: 54e462a8-bb65-43e2-acf1-f0d64db2bf24
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetRange, GetRange method [DirectShow], GetRange method [DirectShow],IAMVideoProcAmp interface, IAMVideoProcAmp interface [DirectShow],GetRange method, IAMVideoProcAmp.GetRange, IAMVideoProcAmp::GetRange, IAMVideoProcAmpGetRange, dshow.iamvideoprocamp_getrange, strmif/IAMVideoProcAmp::GetRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

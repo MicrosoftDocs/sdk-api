@@ -7,7 +7,7 @@ old-location: multimedia\avistreamformatsize.htm
 old-project: Multimedia
 ms.assetid: e29bbbc3-28b2-44d3-b1f1-66ad2b29a7a3
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: AVIStreamFormatSize, AVIStreamFormatSize macro [Windows Multimedia], _win32_AVIStreamFormatSize, multimedia.avistreamformatsize, vfw/AVIStreamFormatSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

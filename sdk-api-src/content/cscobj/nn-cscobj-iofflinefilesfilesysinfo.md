@@ -7,7 +7,7 @@ old-location: of\iofflinefilesfilesysinfo.htm
 old-project: OfflineFiles
 ms.assetid: d3da183d-eb12-4411-b461-b58689ef5bff
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IOfflineFilesFileSysInfo, IOfflineFilesFileSysInfo interface [Offline Files], IOfflineFilesFileSysInfo interface [Offline Files],described, cscobj/IOfflineFilesFileSysInfo, of.iofflinefilesfilesysinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

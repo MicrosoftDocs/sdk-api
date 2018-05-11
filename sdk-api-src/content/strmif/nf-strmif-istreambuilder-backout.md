@@ -7,7 +7,7 @@ old-location: dshow\istreambuilder_backout.htm
 old-project: DirectShow
 ms.assetid: b8f895a7-7f71-4c0d-af9d-e2b0ed433172
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: Backout, Backout method [DirectShow], Backout method [DirectShow],IStreamBuilder interface, IStreamBuilder interface [DirectShow],Backout method, IStreamBuilder.Backout, IStreamBuilder::Backout, IStreamBuilderBackout, dshow.istreambuilder_backout, strmif/IStreamBuilder::Backout
 ms.prod: windows-hardware
 ms.technology: windows-devices

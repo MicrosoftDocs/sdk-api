@@ -7,7 +7,7 @@ old-location: multimedia\mciwndvalidatemedia.htm
 old-project: Multimedia
 ms.assetid: 25dc3d0c-6718-4155-9a60-e140da0473e8
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: MCIWndValidateMedia, MCIWndValidateMedia macro [Windows Multimedia], _win32_MCIWndValidateMedia, multimedia.mciwndvalidatemedia, vfw/MCIWndValidateMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices

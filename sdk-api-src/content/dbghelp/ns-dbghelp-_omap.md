@@ -7,7 +7,7 @@ old-location: base\omap.htm
 old-project: Debug
 ms.assetid: 47f1dc1d-9305-4514-83b8-6d32bd9914f2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: "*POMAP, OMAP, OMAP structure, POMAP, POMAP structure pointer, _OMAP, base.omap, dbghelp/OMAP, dbghelp/POMAP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliverytype.htm
 old-project: wmi_v2
 ms.assetid: 3e1eb580-8f36-4ddb-8d65-7c7e65dd08bb
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_SubscriptionDeliveryType, MI_SubscriptionDeliveryType enumeration [Windows Management Infrastructure (MI)], MI_SubscriptionDeliveryType_Pull, MI_SubscriptionDeliveryType_Push, _MI_SubscriptionDeliveryType, mi/MI_SubscriptionDeliveryType, mi/MI_SubscriptionDeliveryType_Pull, mi/MI_SubscriptionDeliveryType_Push, wmi._mi_subscriptiondeliverytype, wmi_v2.mi_subscriptiondeliverytype
 ms.prod: windows-hardware
 ms.technology: windows-devices

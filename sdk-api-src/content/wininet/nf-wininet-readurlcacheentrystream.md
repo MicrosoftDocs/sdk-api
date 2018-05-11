@@ -7,7 +7,7 @@ old-location: wininet\readurlcacheentrystream.htm
 old-project: WinInet
 ms.assetid: 8cfd0c64-25ca-4f08-b9b3-2743ded18030
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: ReadUrlCacheEntryStream, ReadUrlCacheEntryStream function [WinINet], _inet_readurlcacheentrystream_function, wininet.readurlcacheentrystream, wininet/ReadUrlCacheEntryStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

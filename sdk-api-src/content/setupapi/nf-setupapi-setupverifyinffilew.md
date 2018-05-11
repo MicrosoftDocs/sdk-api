@@ -7,7 +7,7 @@ old-location: setup\setupverifyinffile.htm
 old-project: SetupApi
 ms.assetid: 3e64783f-6ded-498a-a994-ccd3ba217e91
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupVerifyInfFile, SetupVerifyInfFile function [Setup API], SetupVerifyInfFileA, SetupVerifyInfFileW, _setupapi_setupverifyinffile, setup.setupverifyinffile, setupapi/SetupVerifyInfFile, setupapi/SetupVerifyInfFileA, setupapi/SetupVerifyInfFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

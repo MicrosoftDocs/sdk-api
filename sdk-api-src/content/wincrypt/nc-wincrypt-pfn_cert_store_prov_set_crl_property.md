@@ -7,7 +7,7 @@ old-location: security\certstoreprovsetcrlpropertycallback.htm
 old-project: SecCrypto
 ms.assetid: 98ad9b24-8d7d-4fbe-8fd8-089f1ddfbff0
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CertStoreProvSetCRLPropertyCallback, CertStoreProvSetCRLPropertyCallback callback, CertStoreProvSetCRLPropertyCallback callback function [Security], PFN_CERT_STORE_PROV_SET_CRL_PROPERTY, PFN_CERT_STORE_PROV_SET_CRL_PROPERTY callback function [Security], _crypto2_certstoreprovsetcrlpropertycallback, security.certstoreprovsetcrlpropertycallback, wincrypt/CertStoreProvSetCRLPropertyCallback, wincrypt/PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices

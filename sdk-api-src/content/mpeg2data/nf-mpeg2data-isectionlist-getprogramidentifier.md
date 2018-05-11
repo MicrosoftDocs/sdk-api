@@ -7,7 +7,7 @@ old-location: mstv\isectionlist_getprogramidentifier.htm
 old-project: mstv
 ms.assetid: 25a4bd3c-ef02-4685-8c83-06025ce4410c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetProgramIdentifier, GetProgramIdentifier method [Microsoft TV Technologies], GetProgramIdentifier method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetProgramIdentifier method, ISectionList.GetProgramIdentifier, ISectionList::GetProgramIdentifier, ISectionListGetProgramIdentifier, mpeg2data/ISectionList::GetProgramIdentifier, mstv.isectionlist_getprogramidentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

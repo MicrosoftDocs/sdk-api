@@ -7,7 +7,7 @@ old-location: intl\enumcalendarinfoex.htm
 old-project: Intl
 ms.assetid: 5a313af5-e595-49b1-9651-a5afc158c7a7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: EnumCalendarInfoEx, EnumCalendarInfoEx function [Internationalization for Windows Applications], EnumCalendarInfoExA, EnumCalendarInfoExW, _win32_EnumCalendarInfoEx, intl.enumcalendarinfoex, winnls/EnumCalendarInfoEx, winnls/EnumCalendarInfoExA, winnls/EnumCalendarInfoExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

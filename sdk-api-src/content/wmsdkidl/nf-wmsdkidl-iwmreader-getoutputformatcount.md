@@ -7,7 +7,7 @@ old-location: wmformat\iwmreader_getoutputformatcount.htm
 old-project: wmformat
 ms.assetid: 282c5fb6-6b8a-4a13-8a20-4926c6f68800
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/9/2018
 ms.keywords: GetOutputFormatCount, GetOutputFormatCount method [windows Media Format], GetOutputFormatCount method [windows Media Format],IWMReader interface, IWMReader interface [windows Media Format],GetOutputFormatCount method, IWMReader.GetOutputFormatCount, IWMReader::GetOutputFormatCount, IWMReaderGetOutputFormatCount, wmformat.iwmreader_getoutputformatcount, wmsdkidl/IWMReader::GetOutputFormatCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

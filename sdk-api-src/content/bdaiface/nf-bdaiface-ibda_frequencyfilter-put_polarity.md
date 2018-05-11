@@ -7,7 +7,7 @@ old-location: mstv\ibda_frequencyfilter_put_polarity.htm
 old-project: mstv
 ms.assetid: d15bd0f9-4f2e-4098-bf5b-db03fde1362f
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Polarity method, IBDA_FrequencyFilter.put_Polarity, IBDA_FrequencyFilter::put_Polarity, IBDA_FrequencyFilterput_Polarity, bdaiface/IBDA_FrequencyFilter::put_Polarity, mstv.ibda_frequencyfilter_put_polarity, put_Polarity, put_Polarity method [Microsoft TV Technologies], put_Polarity method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

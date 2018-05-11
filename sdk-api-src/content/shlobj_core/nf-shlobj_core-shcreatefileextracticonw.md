@@ -7,7 +7,7 @@ old-location: shell\SHCreateFileExtractIcon.htm
 old-project: shell
 ms.assetid: af3beb0a-892b-43e5-b5b8-8005f497b6e5
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SHCreateFileExtractIcon, SHCreateFileExtractIcon function [Windows Shell], SHCreateFileExtractIconW, _win32_SHCreateFileExtractIcon, shell.SHCreateFileExtractIcon, shlobj_core/SHCreateFileExtractIcon, shlobj_core/SHCreateFileExtractIconW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: indexsrv\ifilter_flags.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0j03.htm
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/9/2018
 ms.keywords: IFILTER_FLAGS, IFILTER_FLAGS enumeration [Indexing Service], IFILTER_FLAGS_OLE_PROPERTIES, _idxs_IFILTER_FLAGS, filter/IFILTER_FLAGS, filter/IFILTER_FLAGS_OLE_PROPERTIES, indexsrv.ifilter_flags, tagIFILTER_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

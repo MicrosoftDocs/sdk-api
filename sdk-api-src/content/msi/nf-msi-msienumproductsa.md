@@ -7,7 +7,7 @@ old-location: setup\msienumproducts.htm
 old-project: Msi
 ms.assetid: c05ddc32-2c61-49ab-991f-8f9efae331a4
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/9/2018
 ms.keywords: MsiEnumProducts, MsiEnumProducts function, MsiEnumProductsA, MsiEnumProductsW, _msi_msienumproducts, msi/MsiEnumProducts, msi/MsiEnumProductsA, msi/MsiEnumProductsW, setup.msienumproducts
 ms.prod: windows-hardware
 ms.technology: windows-devices

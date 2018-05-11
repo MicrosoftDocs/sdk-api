@@ -7,7 +7,7 @@ old-location: policy\igpeinformation_gettype.htm
 old-project: Policy
 ms.assetid: 47769405-d32c-4f4f-86fc-970d89bba848
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GPOTypeDS, GPOTypeLocal, GPOTypeRemote, GetType, GetType method [Group Policy], GetType method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetType method, IGPEInformation.GetType, IGPEInformation::GetType, _win32_igpeinformation_gettype, gpedit/IGPEInformation::GetType, policy.igpeinformation_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices

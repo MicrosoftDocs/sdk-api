@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_getinputtype.htm
 old-project: DirectShow
 ms.assetid: 22693a22-97be-487d-ad17-31a2d8ee874c
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetInputType, GetInputType method [DirectShow], GetInputType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputType method, IMediaObject.GetInputType, IMediaObject::GetInputType, IMediaObjectGetInputType, dshow.imediaobject_getinputtype, mediaobj/IMediaObject::GetInputType
 ms.prod: windows-hardware
 ms.technology: windows-devices

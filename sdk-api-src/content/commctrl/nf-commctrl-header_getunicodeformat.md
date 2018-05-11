@@ -7,7 +7,7 @@ old-location: controls\Header_GetUnicodeFormat.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getunicodeformat.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: Header_GetUnicodeFormat, Header_GetUnicodeFormat macro [Windows Controls], _win32_Header_GetUnicodeFormat, _win32_Header_GetUnicodeFormat_cpp, commctrl/Header_GetUnicodeFormat, controls.Header_GetUnicodeFormat, controls._win32_Header_GetUnicodeFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

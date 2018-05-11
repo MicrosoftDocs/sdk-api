@@ -7,7 +7,7 @@ old-location: tsf\itflangbaritembitmapbutton_gettext.htm
 old-project: TSF
 ms.assetid: ac37ea79-59bb-44c1-aace-b3c0dccfd377
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITfLangBarItemBitmapButton interface, ITfLangBarItemBitmapButton interface [Text Services Framework],GetText method, ITfLangBarItemBitmapButton.GetText, ITfLangBarItemBitmapButton::GetText, _tsf_itflangbaritembitmapbutton_gettext_ref, ctfutb/ITfLangBarItemBitmapButton::GetText, tsf.itflangbaritembitmapbutton_gettext
 ms.prod: windows-hardware
 ms.technology: windows-devices

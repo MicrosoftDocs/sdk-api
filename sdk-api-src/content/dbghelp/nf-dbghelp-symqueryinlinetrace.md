@@ -7,7 +7,7 @@ old-location: base\symqueryinlinetrace.htm
 old-project: Debug
 ms.assetid: e65cf979-f482-4019-ab67-5e908d23bcfa
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: SymQueryInlineTrace, SymQueryInlineTrace function, base.symqueryinlinetrace, dbghelp/SymQueryInlineTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

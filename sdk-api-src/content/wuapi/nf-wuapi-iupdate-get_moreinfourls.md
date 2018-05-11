@@ -7,7 +7,7 @@ old-location: wua\iupdate_moreinfourls.htm
 old-project: Wua_Sdk
 ms.assetid: 8500bcf4-470d-472e-aa3a-ba424662ec41
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IUpdate interface [Windows Update Agent],MoreInfoUrls property, IUpdate.MoreInfoUrls, IUpdate.get_MoreInfoUrls, IUpdate::MoreInfoUrls, IUpdate::get_MoreInfoUrls, MoreInfoUrls property [Windows Update Agent], MoreInfoUrls property [Windows Update Agent],IUpdate interface, get_MoreInfoUrls, wua.iupdate_moreinfourls, wuapi/IUpdate::MoreInfoUrls, wuapi/IUpdate::get_MoreInfoUrls
 ms.prod: windows-hardware
 ms.technology: windows-devices

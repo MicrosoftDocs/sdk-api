@@ -7,7 +7,7 @@ old-location: setup\setupremovefromsourcelist.htm
 old-project: SetupApi
 ms.assetid: 9e87f481-7d6a-4d8e-8f71-d104de3533f8
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupRemoveFromSourceList, SetupRemoveFromSourceList function [Setup API], SetupRemoveFromSourceListA, SetupRemoveFromSourceListW, _setupapi_setupremovefromsourcelist, setup.setupremovefromsourcelist, setupapi/SetupRemoveFromSourceList, setupapi/SetupRemoveFromSourceListA, setupapi/SetupRemoveFromSourceListW
 ms.prod: windows-hardware
 ms.technology: windows-devices

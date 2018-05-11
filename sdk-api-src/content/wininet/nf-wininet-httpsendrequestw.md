@@ -7,7 +7,7 @@ old-location: wininet\httpsendrequest.htm
 old-project: WinInet
 ms.assetid: f53d9ff7-43b1-452f-a6cb-754d0229ab9a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: HttpSendRequest, HttpSendRequest function [WinINet], HttpSendRequestA, HttpSendRequestW, _inet_httpsendrequest_function, wininet.httpsendrequest, wininet/HttpSendRequest, wininet/HttpSendRequestA, wininet/HttpSendRequestW
 ms.prod: windows-hardware
 ms.technology: windows-devices

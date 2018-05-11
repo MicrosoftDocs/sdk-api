@@ -7,7 +7,7 @@ old-location: display\engalphablend.htm
 old-project: display
 ms.assetid: c8839271-0a75-4657-875f-114545f44777
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: EngAlphaBlend, EngAlphaBlend function [Display Devices], display.engalphablend, gdifncs_f7f6d10b-db7e-40af-8378-05cca946505f.xml, winddi/EngAlphaBlend
 ms.prod: windows-hardware
 ms.technology: windows-devices

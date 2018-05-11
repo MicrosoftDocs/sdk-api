@@ -7,7 +7,7 @@ old-location: mstv\iencoderapi_setvalue.htm
 old-project: mstv
 ms.assetid: a7dc0964-64b9-4ea3-8948-19ec100d64f5
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],SetValue method, IEncoderAPI.SetValue, IEncoderAPI::SetValue, IEncoderAPISetValue, SetValue, SetValue method [Microsoft TV Technologies], SetValue method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_setvalue, strmif/IEncoderAPI::SetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

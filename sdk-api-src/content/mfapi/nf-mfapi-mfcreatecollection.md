@@ -7,7 +7,7 @@ old-location: mf\mfcreatecollection.htm
 old-project: medfound
 ms.assetid: 6a7bf7b6-62f1-4eac-9849-39021ee50f42
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 6a7bf7b6-62f1-4eac-9849-39021ee50f42, MFCreateCollection, MFCreateCollection function [Media Foundation], mf.mfcreatecollection, mfapi/MFCreateCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

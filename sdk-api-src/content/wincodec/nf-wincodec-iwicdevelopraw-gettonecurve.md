@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicdevelopraw_gettonecurve.htm
 old-project: wic
 ms.assetid: 651f9efb-145a-400b-8d7c-255aee67c385
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: GetToneCurve, GetToneCurve method [Windows Imaging Component], GetToneCurve method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetToneCurve method, IWICDevelopRaw.GetToneCurve, IWICDevelopRaw::GetToneCurve, _wic_codec_iwicdevelopraw_gettonecurve, wic._wic_codec_iwicdevelopraw_gettonecurve, wincodec/IWICDevelopRaw::GetToneCurve
 ms.prod: windows-hardware
 ms.technology: windows-devices

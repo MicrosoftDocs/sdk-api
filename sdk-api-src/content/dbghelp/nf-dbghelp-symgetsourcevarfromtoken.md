@@ -7,7 +7,7 @@ old-location: base\symgetsourcevarfromtoken.htm
 old-project: Debug
 ms.assetid: 05e9005a-aef3-44a3-a73b-21830799a3d5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: SymGetSourceVarFromToken, SymGetSourceVarFromToken function, SymGetSourceVarFromTokenW, base.symgetsourcevarfromtoken, dbghelp/SymGetSourceVarFromToken, dbghelp/SymGetSourceVarFromTokenW
 ms.prod: windows-hardware
 ms.technology: windows-devices

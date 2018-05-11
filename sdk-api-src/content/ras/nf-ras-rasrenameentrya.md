@@ -7,7 +7,7 @@ old-location: rras\rasrenameentry.htm
 old-project: RRAS
 ms.assetid: 95c63e58-c96d-43ad-8878-ba9e29f53f6e
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RasRenameEntry, RasRenameEntry function [RAS], RasRenameEntryA, RasRenameEntryW, _ras_rasrenameentry, ras/RasRenameEntry, ras/RasRenameEntryA, ras/RasRenameEntryW, rras.rasrenameentry
 ms.prod: windows-hardware
 ms.technology: windows-devices

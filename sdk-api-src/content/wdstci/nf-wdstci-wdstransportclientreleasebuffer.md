@@ -7,7 +7,7 @@ old-location: wds\wdstransportclientreleasebuffer.htm
 old-project: Wds
 ms.assetid: bf0dcb89-0bc2-4e93-94ce-5c50039ef22b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsTransportClientReleaseBuffer, WdsTransportClientReleaseBuffer function [Windows Deployment Services], wds.wdstransportclientreleasebuffer, wdstci/WdsTransportClientReleaseBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

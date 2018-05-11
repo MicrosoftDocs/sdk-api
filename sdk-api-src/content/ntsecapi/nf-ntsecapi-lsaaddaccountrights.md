@@ -7,7 +7,7 @@ old-location: security\lsaaddaccountrights.htm
 old-project: SecMgmt
 ms.assetid: 66b78404-02c2-48e9-92c3-d27b68f77c23
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/9/2018
 ms.keywords: LsaAddAccountRights, LsaAddAccountRights function [Security], _lsa_lsaaddaccountrights, ntsecapi/LsaAddAccountRights, security.lsaaddaccountrights
 ms.prod: windows-hardware
 ms.technology: windows-devices

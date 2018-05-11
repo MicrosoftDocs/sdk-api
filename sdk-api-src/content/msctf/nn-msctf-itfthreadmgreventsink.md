@@ -7,7 +7,7 @@ old-location: tsf\itfthreadmgreventsink.htm
 old-project: TSF
 ms.assetid: be2a3eb1-cb17-4d8b-a44d-ccb33749c8f6
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfThreadMgrEventSink, ITfThreadMgrEventSink interface [Text Services Framework], ITfThreadMgrEventSink interface [Text Services Framework],described, _tsf_itfthreadmgreventsink_ref, msctf/ITfThreadMgrEventSink, tsf.itfthreadmgreventsink
 ms.prod: windows-hardware
 ms.technology: windows-devices

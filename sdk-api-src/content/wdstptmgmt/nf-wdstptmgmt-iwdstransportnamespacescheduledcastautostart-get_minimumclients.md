@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespacescheduledcastautostart_minimumclients.ht
 old-project: Wds
 ms.assetid: 69d85955-ea9c-4274-a5dd-fb03a0e87586
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services],MinimumClients property, IWdsTransportNamespaceScheduledCastAutoStart.MinimumClients, IWdsTransportNamespaceScheduledCastAutoStart.get_MinimumClients, IWdsTransportNamespaceScheduledCastAutoStart::MinimumClients, IWdsTransportNamespaceScheduledCastAutoStart::get_MinimumClients, IWdsTransportNamespaceScheduledCastAutoStart::put_MinimumClients, MinimumClients property [Windows Deployment Services], MinimumClients property [Windows Deployment Services],IWdsTransportNamespaceScheduledCastAutoStart interface, get_MinimumClients, wds.iwdstransportnamespacescheduledcastautostart_minimumclients, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::MinimumClients, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::get_MinimumClients, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::put_MinimumClients
 ms.prod: windows-hardware
 ms.technology: windows-devices

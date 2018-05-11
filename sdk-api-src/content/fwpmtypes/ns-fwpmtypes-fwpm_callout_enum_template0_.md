@@ -7,7 +7,7 @@ old-location: fwp\fwpm_callout_enum_template0_struct.htm
 old-project: FWP
 ms.assetid: 10997be6-069d-4d1a-a6b1-1a1e0a5359c5
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_CALLOUT_ENUM_TEMPLATE0, FWPM_CALLOUT_ENUM_TEMPLATE0 structure [Filtering], FWPM_CALLOUT_ENUM_TEMPLATE0_, fwp.fwpm_callout_enum_template0_struct, fwpmtypes/FWPM_CALLOUT_ENUM_TEMPLATE0
 ms.prod: windows-hardware
 ms.technology: windows-devices

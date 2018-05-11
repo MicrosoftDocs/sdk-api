@@ -7,7 +7,7 @@ old-location: mscs\resutil_filetime_data.htm
 old-project: MsCS
 ms.assetid: 47009cac-fcfe-43f5-9676-4e5db863c909
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA structure pointer [Failover Cluster], RESUTIL_FILETIME_DATA, RESUTIL_FILETIME_DATA structure [Failover Cluster], mscs.resutil_filetime_data, resapi/PRESUTIL_FILETIME_DATA, resapi/RESUTIL_FILETIME_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mf_quaternion.htm
 old-project: medfound
 ms.assetid: 109C0C32-0465-46A6-8851-E56159BE6FD0
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MF_QUATERNION, MF_QUATERNION structure [Media Foundation], PMF_QUATERNION, PMF_QUATERNION structure pointer [Media Foundation], _MF_QUATERNION, mf.mf_quaternion, mfapi/MF_QUATERNION, mfapi/PMF_QUATERNION
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\fwpmprovideradd0_func.htm
 old-project: FWP
 ms.assetid: e76f03e2-0853-465a-9f82-c29d35de32c9
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmProviderAdd0, FwpmProviderAdd0 function [Filtering], fwp.fwpmprovideradd0_func, fwpmu/FwpmProviderAdd0
 ms.prod: windows-hardware
 ms.technology: windows-devices

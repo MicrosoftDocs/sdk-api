@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_run.htm
 old-project: mstv
 ms.assetid: 37ed6d7b-2e44-4bce-b476-8e8b28635346
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Run method, IMSVidCtl.Run, IMSVidCtl::Run, IMSVidCtlRun, Run, Run method [Microsoft TV Technologies], Run method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_run, msvidctl/IMSVidCtl::Run
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_CascadeWindows.htm
 old-project: shell
 ms.assetid: 6A957D70-D6A3-4485-8DF3-7FD2C6DEFF78
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: CascadeWindows, CascadeWindows method [Windows Shell], CascadeWindows method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],CascadeWindows method, IShellDispatch.CascadeWindows, IShellDispatch::CascadeWindows, shell.IShellDispatch_CascadeWindows
 ms.prod: windows-hardware
 ms.technology: windows-devices

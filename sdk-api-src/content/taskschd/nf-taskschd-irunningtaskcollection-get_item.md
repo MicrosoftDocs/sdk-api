@@ -7,7 +7,7 @@ old-location: taskschd\irunningtaskcollection_item.htm
 old-project: TaskSchd
 ms.assetid: e82e7e1b-a3bd-4456-85a9-e0005f954618
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IRunningTaskCollection interface [Task Scheduler],Item property, IRunningTaskCollection.Item, IRunningTaskCollection.get_Item, IRunningTaskCollection::Item, IRunningTaskCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],IRunningTaskCollection interface, get_Item, taskschd.irunningtaskcollection_item, taskschd/IRunningTaskCollection::Item, taskschd/IRunningTaskCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

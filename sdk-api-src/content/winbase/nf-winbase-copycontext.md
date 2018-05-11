@@ -7,7 +7,7 @@ old-location: base\copycontext.htm
 old-project: Debug
 ms.assetid: 805CD02A-53BC-487C-83F8-FE804368C770
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: CopyContext, CopyContext function, base.copycontext, winbase/CopyContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

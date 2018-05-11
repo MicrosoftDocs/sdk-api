@@ -7,7 +7,7 @@ old-location: shell\SHGetNewLinkInfo.htm
 old-project: shell
 ms.assetid: ca658d5c-af7b-400c-8f4d-7d4b07bf7f2b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: SHGNLI_NOLNK, SHGNLI_NOLOCNAME, SHGNLI_NOUNIQUE, SHGNLI_PIDL, SHGNLI_PREFIXNAME, SHGNLI_USEURLEXT, SHGetNewLinkInfo, SHGetNewLinkInfo function [Windows Shell], SHGetNewLinkInfoA, SHGetNewLinkInfoW, _win32_SHGetNewLinkInfo, shell.SHGetNewLinkInfo, shellapi/SHGetNewLinkInfo, shellapi/SHGetNewLinkInfoA, shellapi/SHGetNewLinkInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

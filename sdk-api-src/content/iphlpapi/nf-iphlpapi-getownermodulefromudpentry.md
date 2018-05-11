@@ -7,7 +7,7 @@ old-location: iphlp\getownermodulefromudpentry.htm
 old-project: IpHlp
 ms.assetid: bd8f82b0-4a2d-48f1-8ae7-85257c6ae656
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetOwnerModuleFromUdpEntry, GetOwnerModuleFromUdpEntry function [IP Helper], iphlp.getownermodulefromudpentry, iphlpapi/GetOwnerModuleFromUdpEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

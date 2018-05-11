@@ -7,7 +7,7 @@ old-location: security\crypt_provider_defusage.htm
 old-project: SecCrypto
 ms.assetid: 28A93F39-0CBC-432C-841B-83B54A50EA14
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: "*PCRYPT_PROVIDER_DEFUSAGE, CRYPT_PROVIDER_DEFUSAGE, CRYPT_PROVIDER_DEFUSAGE structure [Security], PCRYPT_PROVIDER_DEFUSAGE, PCRYPT_PROVIDER_DEFUSAGE structure pointer [Security], _CRYPT_PROVIDER_DEFUSAGE, security.crypt_provider_defusage, wintrust/CRYPT_PROVIDER_DEFUSAGE, wintrust/PCRYPT_PROVIDER_DEFUSAGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\videocontrolflags.htm
 old-project: DirectShow
 ms.assetid: 9d7feb46-fb07-46d8-a9a5-511578873cf3
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: VideoControlFlag_ExternalTriggerEnable, VideoControlFlag_FlipHorizontal, VideoControlFlag_FlipVertical, VideoControlFlag_Trigger, VideoControlFlags, VideoControlFlags enumeration [DirectShow], VideoControlFlagsEnumeration, dshow.videocontrolflags, strmif/VideoControlFlag_ExternalTriggerEnable, strmif/VideoControlFlag_FlipHorizontal, strmif/VideoControlFlag_FlipVertical, strmif/VideoControlFlag_Trigger, strmif/VideoControlFlags, tagVideoControlFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

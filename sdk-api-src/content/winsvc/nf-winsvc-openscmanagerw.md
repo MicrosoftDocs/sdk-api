@@ -7,7 +7,7 @@ old-location: base\openscmanager.htm
 old-project: Services
 ms.assetid: a0237989-e5a7-4a3a-ab23-e2474a995341
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/9/2018
 ms.keywords: OpenSCManager, OpenSCManager function, OpenSCManagerA, OpenSCManagerW, _win32_openscmanager, base.openscmanager, winsvc/OpenSCManager, winsvc/OpenSCManagerA, winsvc/OpenSCManagerW
 ms.prod: windows-hardware
 ms.technology: windows-devices

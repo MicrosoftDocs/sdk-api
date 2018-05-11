@@ -7,7 +7,7 @@ old-location: security\updatecredentials.htm
 old-project: SecAuthN
 ms.assetid: 952ed682-775a-4370-8a89-15ca35553667
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: LSA_UPDATE_PRIMARY_CREDENTIALS, UpdateCredentials, UpdateCredentials function [Security], _ssp_updatecredentials, ntsecpkg/UpdateCredentials, security.updatecredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

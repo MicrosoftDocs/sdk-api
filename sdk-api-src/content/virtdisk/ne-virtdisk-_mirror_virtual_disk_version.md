@@ -7,7 +7,7 @@ old-location: vhd\mirror_virtual_disk_version.htm
 old-project: VStor
 ms.assetid: 42045e2b-3e3b-4497-b6bb-18f360139c18
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/9/2018
 ms.keywords: MIRROR_VIRTUAL_DISK_VERSION, MIRROR_VIRTUAL_DISK_VERSION enumeration [VHD], MIRROR_VIRTUAL_DISK_VERSION_1, MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED, _MIRROR_VIRTUAL_DISK_VERSION, vhd.mirror_virtual_disk_version, virtdisk/MIRROR_VIRTUAL_DISK_VERSION, virtdisk/MIRROR_VIRTUAL_DISK_VERSION_1, virtdisk/MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices

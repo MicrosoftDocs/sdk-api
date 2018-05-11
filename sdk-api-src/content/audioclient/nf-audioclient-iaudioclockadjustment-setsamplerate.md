@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclockadjustment_setsamplerate.htm
 old-project: CoreAudio
 ms.assetid: fbb5b525-dc5a-4845-a1fa-ed37281b5c69
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IAudioClockAdjustment interface [Core Audio],SetSampleRate method, IAudioClockAdjustment.SetSampleRate, IAudioClockAdjustment::SetSampleRate, SetSampleRate, SetSampleRate method [Core Audio], SetSampleRate method [Core Audio],IAudioClockAdjustment interface, audioclient/IAudioClockAdjustment::SetSampleRate, coreaudio.iaudioclockadjustment_setsamplerate
 ms.prod: windows-hardware
 ms.technology: windows-devices

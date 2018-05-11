@@ -7,7 +7,7 @@ old-location: tsf\itflangbareventsink_onmodalinput.htm
 old-project: TSF
 ms.assetid: 781efe26-f3f4-401b-9558-d228e875abc4
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: ITfLangBarEventSink interface [Text Services Framework],OnModalInput method, ITfLangBarEventSink.OnModalInput, ITfLangBarEventSink::OnModalInput, OnModalInput, OnModalInput method [Text Services Framework], OnModalInput method [Text Services Framework],ITfLangBarEventSink interface, _tsf_itflangbareventsink_onmodalinput_ref, ctfutb/ITfLangBarEventSink::OnModalInput, tsf.itflangbareventsink_onmodalinput
 ms.prod: windows-hardware
 ms.technology: windows-devices

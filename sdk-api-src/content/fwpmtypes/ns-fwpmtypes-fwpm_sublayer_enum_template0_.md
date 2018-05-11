@@ -7,7 +7,7 @@ old-location: fwp\fwpm_sublayer_enum_template0_struct.htm
 old-project: FWP
 ms.assetid: 4f05730c-7bf6-4bf4-b3ec-d8fe138b2228
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FWPM_SUBLAYER_ENUM_TEMPLATE0, FWPM_SUBLAYER_ENUM_TEMPLATE0 structure [Filtering], FWPM_SUBLAYER_ENUM_TEMPLATE0_, fwp.fwpm_sublayer_enum_template0_struct, fwpmtypes/FWPM_SUBLAYER_ENUM_TEMPLATE0
 ms.prod: windows-hardware
 ms.technology: windows-devices

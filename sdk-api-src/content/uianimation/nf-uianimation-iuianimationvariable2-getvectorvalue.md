@@ -1,14 +1,14 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetVectorValue
-title: IUIAnimationVariable2::GetVectorValue method
+title: IUIAnimationVariable2::GetVectorValue
 author: windows-driver-content
 description: Gets the value of the animation variable in the specified dimension.
 old-location: uianimation\iuianimationvariable2_getvectorvalue.htm
 old-project: UIAnimation
 ms.assetid: B53EDC6C-7B1E-4CDE-8F4A-5B0601892630
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: GetValue method [Windows Animation], GetValue method [Windows Animation], IUIAnimationVariable2 interface, GetVectorValue,IUIAnimationVariable2.GetVectorValue, IUIAnimationVariable2, IUIAnimationVariable2 interface [Windows Animation], GetValue method, IUIAnimationVariable2::GetValue, IUIAnimationVariable2::GetVectorValue, uianimation.iuianimationvariable2_getvectorvalue, uianimation/IUIAnimationVariable2::GetValue
+ms.date: 5/9/2018
+ms.keywords: GetVectorValue, GetVectorValue method [Windows Animation], GetVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetVectorValue method, IUIAnimationVariable2.GetVectorValue, IUIAnimationVariable2::GetVectorValue, uianimation.iuianimationvariable2_getvectorvalue, uianimation/IUIAnimationVariable2::GetVectorValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	UIAnimation.dll
 api_name:
--	IUIAnimationVariable2.GetValue
+-	IUIAnimationVariable2.GetVectorValue
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# IUIAnimationVariable2::GetVectorValue method
+# IUIAnimationVariable2::GetVectorValue
 
 
 ## -description

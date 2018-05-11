@@ -7,7 +7,7 @@ old-location: mstv\iisdb_cdt_getsizeofdatamodule.htm
 old-project: mstv
 ms.assetid: c05a8c14-f0da-49d7-be34-1cac435a98da
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetSizeOfDataModule, GetSizeOfDataModule method [Microsoft TV Technologies], GetSizeOfDataModule method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetSizeOfDataModule method, IISDB_CDT.GetSizeOfDataModule, IISDB_CDT::GetSizeOfDataModule, dvbsiparser/IISDB_CDT::GetSizeOfDataModule, mstv.iisdb_cdt_getsizeofdatamodule
 ms.prod: windows-hardware
 ms.technology: windows-devices

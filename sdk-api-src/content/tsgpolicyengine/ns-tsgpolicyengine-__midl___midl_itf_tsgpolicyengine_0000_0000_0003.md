@@ -7,7 +7,7 @@ old-location: termserv\aaaccountingdata.htm
 old-project: TermServ
 ms.assetid: 1c79f910-8dd9-47dc-80d1-f6252f0a43dd
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/8/2018
 ms.keywords: AAAccountingData, AAAccountingData structure [Remote Desktop Services], __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003, termserv.aaaccountingdata, tsgpolicyengine/AAAccountingData
 ms.prod: windows-hardware
 ms.technology: windows-devices

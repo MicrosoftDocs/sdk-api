@@ -7,7 +7,7 @@ old-location: base\findexecutableimageex.htm
 old-project: Debug
 ms.assetid: 7571e168-2e91-4c97-9139-8225d28cc399
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: FindExecutableImageEx, FindExecutableImageEx function, FindExecutableImageExW, _win32_findexecutableimageex, base.findexecutableimageex, dbghelp/FindExecutableImageEx, dbghelp/FindExecutableImageExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

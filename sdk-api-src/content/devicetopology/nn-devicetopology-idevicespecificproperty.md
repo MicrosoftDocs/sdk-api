@@ -7,7 +7,7 @@ old-location: coreaudio\idevicespecificproperty.htm
 old-project: CoreAudio
 ms.assetid: 52873fe2-7f59-4a30-b526-cbefa27a81bb
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: IDeviceSpecificProperty, IDeviceSpecificProperty interface [Core Audio], IDeviceSpecificProperty interface [Core Audio],described, coreaudio.idevicespecificproperty, devicetopology/IDeviceSpecificProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

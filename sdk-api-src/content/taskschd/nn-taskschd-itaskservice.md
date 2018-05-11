@@ -7,7 +7,7 @@ old-location: taskschd\itaskservice.htm
 old-project: TaskSchd
 ms.assetid: 2459aaae-4c3a-458a-ad2c-bfff3a0322d3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITaskService, ITaskService interface [Task Scheduler], ITaskService interface [Task Scheduler],described, taskschd.itaskservice, taskschd/ITaskService
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_clientft_v1.htm
 old-project: wmi_v2
 ms.assetid: 9c8c812d-d91d-4754-9be5-c05360364b1b
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_ClientFT_V1, MI_ClientFT_V1 structure [Windows Management Infrastructure (MI)], _MI_ClientFT_V1, mi/MI_ClientFT_V1, mi/mi_clientFT_V1, mi_clientFT_V1, mi_clientFT_V1 structure pointer [Windows Management Infrastructure (MI)], wmi._mi_clientft_v1, wmi_v2.mi_clientft_v1
 ms.prod: windows-hardware
 ms.technology: windows-devices

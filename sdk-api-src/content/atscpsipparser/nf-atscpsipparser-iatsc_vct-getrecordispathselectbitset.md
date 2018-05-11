@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordispathselectbitset.htm
 old-project: mstv
 ms.assetid: 6f3e1e5c-0506-420d-981b-d30d77604e97
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetRecordIsPathSelectBitSet, GetRecordIsPathSelectBitSet method [Microsoft TV Technologies], GetRecordIsPathSelectBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsPathSelectBitSet method, IATSC_VCT.GetRecordIsPathSelectBitSet, IATSC_VCT::GetRecordIsPathSelectBitSet, IATSC_VCTGetRecordIsPathSelectBitSet, atscpsipparser/IATSC_VCT::GetRecordIsPathSelectBitSet, mstv.iatsc_vct_getrecordispathselectbitset
 ms.prod: windows-hardware
 ms.technology: windows-devices

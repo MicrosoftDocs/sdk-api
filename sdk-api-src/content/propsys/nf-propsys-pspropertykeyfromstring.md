@@ -7,7 +7,7 @@ old-location: properties\PSPropertyKeyFromString.htm
 old-project: properties
 ms.assetid: 9096912a-14ad-4a45-a564-08f98fce3f96
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: PSPropertyKeyFromString, PSPropertyKeyFromString function [Windows Properties], _shell_PSPropertyKeyFromString, properties.PSPropertyKeyFromString, propsys/PSPropertyKeyFromString, shell.PSPropertyKeyFromString
 ms.prod: windows-hardware
 ms.technology: windows-devices

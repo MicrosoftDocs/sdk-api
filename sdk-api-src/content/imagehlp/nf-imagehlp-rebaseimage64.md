@@ -7,8 +7,8 @@ old-location: base\rebaseimage64.htm
 old-project: Debug
 ms.assetid: 3d60358c-8aa6-4b30-a46e-ce0e15964b5a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
-ms.keywords: ReBaseImage, ReBaseImage function, ReBaseImage64, base.rebaseimage64, imagehlp/ReBaseImage
+ms.date: 5/8/2018
+ms.keywords: ReBaseImage64, ReBaseImage64 function, base.rebaseimage64, imagehlp/ReBaseImage64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Imagehlp.dll
 api_name:
--	ReBaseImage
+-	ReBaseImage64
 product: Windows
 targetos: Windows
 req.lib: Imagehlp.lib

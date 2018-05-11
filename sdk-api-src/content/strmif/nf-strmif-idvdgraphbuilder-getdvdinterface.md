@@ -7,7 +7,7 @@ old-location: dshow\idvdgraphbuilder_getdvdinterface.htm
 old-project: DirectShow
 ms.assetid: e16cb767-87a9-49f6-a3a7-88166f2abe73
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: GetDvdInterface, GetDvdInterface method [DirectShow], GetDvdInterface method [DirectShow],IDvdGraphBuilder interface, IDvdGraphBuilder interface [DirectShow],GetDvdInterface method, IDvdGraphBuilder.GetDvdInterface, IDvdGraphBuilder::GetDvdInterface, IDvdGraphBuilderGetDvdInterface, dshow.idvdgraphbuilder_getdvdinterface, strmif/IDvdGraphBuilder::GetDvdInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

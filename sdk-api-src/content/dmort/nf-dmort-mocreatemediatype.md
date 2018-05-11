@@ -7,7 +7,7 @@ old-location: dshow\mocreatemediatype.htm
 old-project: DirectShow
 ms.assetid: f67b04b5-163e-4793-8df0-10a4b2be5025
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: MoCreateMediaType, MoCreateMediaType function [DirectShow], dmort/MoCreateMediaType, dshow.mocreatemediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices

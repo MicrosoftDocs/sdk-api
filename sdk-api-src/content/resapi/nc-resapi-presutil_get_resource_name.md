@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcename.htm
 old-project: MsCS
 ms.assetid: 968d013f-6502-4981-982e-7b3f10c53b60
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME, PRESUTIL_GET_RESOURCE_NAME callback, PRESUTIL_GET_RESOURCE_NAME callback function [Failover Cluster], _wolf_resutilgetresourcename, mscs.resutilgetresourcename, resapi/PRESUTIL_GET_RESOURCE_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices

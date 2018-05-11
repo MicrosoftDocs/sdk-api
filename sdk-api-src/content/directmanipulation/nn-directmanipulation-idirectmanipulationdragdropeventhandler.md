@@ -7,7 +7,7 @@ old-location: directmanipulation\idirectmanipulationdragdropeventhandler.htm
 old-project: directmanipulation
 ms.assetid: B0F4120F-E64C-4224-A1C5-00DBEE63949B
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IDirectManipulationDragDropEventHandler, IDirectManipulationDragDropEventHandler interface [Direct Manipulation], IDirectManipulationDragDropEventHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationdragdropeventhandler, directmanipulation/IDirectManipulationDragDropEventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

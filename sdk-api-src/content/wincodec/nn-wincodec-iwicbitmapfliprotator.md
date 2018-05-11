@@ -7,7 +7,7 @@ old-location: wic\_wic_codec_iwicbitmapfliprotator.htm
 old-project: wic
 ms.assetid: 1fcb19ba-34bd-48c0-9964-0c973c31cacc
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/9/2018
 ms.keywords: IWICBitmapFlipRotator, IWICBitmapFlipRotator interface [Windows Imaging Component], IWICBitmapFlipRotator interface [Windows Imaging Component],described, _wic_codec_iwicbitmapfliprotator, wic._wic_codec_iwicbitmapfliprotator, wincodec/IWICBitmapFlipRotator
 ms.prod: windows-hardware
 ms.technology: windows-devices

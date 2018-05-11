@@ -7,7 +7,7 @@ old-location: mstv\ieslicenserenewalresultevent_getrenewalresultcode.htm
 old-project: mstv
 ms.assetid: 99b46541-8c94-4456-aae9-d266fc52a6a9
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetRenewalResultCode, GetRenewalResultCode method [DirectShow], GetRenewalResultCode method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetRenewalResultCode method, IESLicenseRenewalResultEvent.GetRenewalResultCode, IESLicenseRenewalResultEvent::GetRenewalResultCode, mstv.ieslicenserenewalresultevent_getrenewalresultcode, tuner/IESLicenseRenewalResultEvent::GetRenewalResultCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

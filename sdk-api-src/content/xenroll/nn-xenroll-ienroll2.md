@@ -7,7 +7,7 @@ old-location: security\ienroll2.htm
 old-project: SecCrypto
 ms.assetid: 60a28944-35de-4ea2-8523-5634685ac224
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IEnroll2, IEnroll2 interface [Security], IEnroll2 interface [Security],described, security.ienroll2, xenroll/IEnroll2
 ms.prod: windows-hardware
 ms.technology: windows-devices

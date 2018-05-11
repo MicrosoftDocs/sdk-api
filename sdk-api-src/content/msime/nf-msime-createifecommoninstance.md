@@ -7,7 +7,7 @@ old-location: intl\createifecommoninstance.htm
 old-project: Intl
 ms.assetid: A8A0CCC4-0A60-4E2A-9E6D-DC2C614B631D
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/9/2018
 ms.keywords: CreateIFECommonInstance, CreateIFECommonInstance function [Internationalization for Windows Applications], intl.createifecommoninstance, msime/CreateIFECommonInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

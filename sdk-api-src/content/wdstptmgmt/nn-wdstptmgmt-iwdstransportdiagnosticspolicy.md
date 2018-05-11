@@ -7,7 +7,7 @@ old-location: wds\iwdstransportdiagnosticspolicy.htm
 old-project: Wds
 ms.assetid: 01b52fcf-64f5-4e71-931b-a3a6b4d9b2b2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IWdsTransportDiagnosticsPolicy, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services], IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],described, wds.iwdstransportdiagnosticspolicy, wdstptmgmt/IWdsTransportDiagnosticsPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

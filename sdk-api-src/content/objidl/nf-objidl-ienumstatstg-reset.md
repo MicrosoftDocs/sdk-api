@@ -7,7 +7,7 @@ old-location: stg\ienumstatstg_reset.htm
 old-project: Stg
 ms.assetid: 696aaa93-1b56-4baf-a6be-753c7d6f5456
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: IEnumSTATSTG interface [Structured Storage],Reset method, IEnumSTATSTG.Reset, IEnumSTATSTG::Reset, Reset, Reset method [Structured Storage], Reset method [Structured Storage],IEnumSTATSTG interface, objidl/IEnumSTATSTG::Reset, stg.ienumstatstg_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

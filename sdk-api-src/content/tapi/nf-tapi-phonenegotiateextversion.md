@@ -7,7 +7,7 @@ old-location: tapi2\phonenegotiateextversion.htm
 old-project: Tapi
 ms.assetid: f62aa1da-7256-400a-998d-4c24d01989ec
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_phonenegotiateextversion, phoneNegotiateExtVersion, phoneNegotiateExtVersion function [TAPI 2.2], tapi/phoneNegotiateExtVersion, tapi2.phonenegotiateextversion"
 ms.prod: windows-hardware
 ms.technology: windows-devices

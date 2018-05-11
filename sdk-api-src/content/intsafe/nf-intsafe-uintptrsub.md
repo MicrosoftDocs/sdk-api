@@ -7,7 +7,7 @@ old-location: shell\UIntPtrSub.htm
 old-project: shell
 ms.assetid: 629bc700-ca64-4849-bdad-59e67857ff8d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: UIntPtrSub, UIntPtrSub function [Windows Shell], _shell_UIntPtrSub, intsafe/UIntPtrSub, shell.UIntPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

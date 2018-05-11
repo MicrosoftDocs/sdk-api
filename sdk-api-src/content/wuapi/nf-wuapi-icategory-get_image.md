@@ -7,7 +7,7 @@ old-location: wua\icategory_image.htm
 old-project: Wua_Sdk
 ms.assetid: 41f0dd44-c919-4264-8f35-ea4e48fd5503
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: ICategory interface [Windows Update Agent],Image property, ICategory.Image, ICategory.get_Image, ICategory::Image, ICategory::get_Image, Image property [Windows Update Agent], Image property [Windows Update Agent],ICategory interface, get_Image, wua.icategory_image, wuapi/ICategory::Image, wuapi/ICategory::get_Image
 ms.prod: windows-hardware
 ms.technology: windows-devices

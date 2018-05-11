@@ -7,7 +7,7 @@ old-location: security\central_access_policy.htm
 old-project: SecAuthN
 ms.assetid: C1C2E8AE-0B7F-4620-9C27-31DAF683E342
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PCENTRAL_ACCESS_POLICY, CENTRAL_ACCESS_POLICY, CENTRAL_ACCESS_POLICY structure [Security], PCENTRAL_ACCESS_POLICY, PCENTRAL_ACCESS_POLICY structure pointer [Security], _CENTRAL_ACCESS_POLICY, ntlsa/CENTRAL_ACCESS_POLICY, ntlsa/PCENTRAL_ACCESS_POLICY, security.central_access_policy"
 ms.prod: windows-hardware
 ms.technology: windows-devices

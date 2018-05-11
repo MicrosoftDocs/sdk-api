@@ -7,7 +7,7 @@ old-location: wmdm\imdspobjectinfo.htm
 old-project: WMDM
 ms.assetid: f0003b14-7ae7-4822-befe-6bb1779328ec
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/9/2018
 ms.keywords: IMDSPObjectInfo, IMDSPObjectInfo interface [windows Media Device Manager], IMDSPObjectInfo interface [windows Media Device Manager],described, IMDSPObjectInfoInterface, mswmdm/IMDSPObjectInfo, wmdm.imdspobjectinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

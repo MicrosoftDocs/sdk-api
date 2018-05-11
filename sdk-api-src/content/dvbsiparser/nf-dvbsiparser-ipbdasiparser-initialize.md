@@ -7,7 +7,7 @@ old-location: mstv\ipbdasiparser_initialize.htm
 old-project: mstv
 ms.assetid: fb161e1a-ae10-4d5e-907a-91c7e80c11d8
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: IPBDASiParser interface [Microsoft TV Technologies],Initialize method, IPBDASiParser.Initialize, IPBDASiParser::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPBDASiParser interface, dshow.ipbdasiparser_initialize, dvbsiparser/IPBDASiParser::Initialize, mstv.ipbdasiparser_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

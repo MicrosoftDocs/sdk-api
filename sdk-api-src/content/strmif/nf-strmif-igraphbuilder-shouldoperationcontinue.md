@@ -7,7 +7,7 @@ old-location: dshow\igraphbuilder_shouldoperationcontinue.htm
 old-project: DirectShow
 ms.assetid: 0d862a41-6896-40a5-8bfc-129b15dfc671
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IGraphBuilder interface [DirectShow],ShouldOperationContinue method, IGraphBuilder.ShouldOperationContinue, IGraphBuilder::ShouldOperationContinue, IGraphBuilderShouldOperationContinue, ShouldOperationContinue, ShouldOperationContinue method [DirectShow], ShouldOperationContinue method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_shouldoperationcontinue, strmif/IGraphBuilder::ShouldOperationContinue
 ms.prod: windows-hardware
 ms.technology: windows-devices

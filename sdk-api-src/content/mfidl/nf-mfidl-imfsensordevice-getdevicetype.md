@@ -7,7 +7,7 @@ old-location: mf\imfsensordevice_getdevicetype.htm
 old-project: medfound
 ms.assetid: 6714B5A8-83F2-44CD-B061-749EA6BFBF20
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: GetDeviceType, GetDeviceType method [Media Foundation], GetDeviceType method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceType method, IMFSensorDevice.GetDeviceType, IMFSensorDevice::GetDeviceType, mf.imfsensordevice_getdevicetype, mfidl/IMFSensorDevice::GetDeviceType
 ms.prod: windows-hardware
 ms.technology: windows-devices

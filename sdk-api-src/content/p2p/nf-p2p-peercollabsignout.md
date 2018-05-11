@@ -7,7 +7,7 @@ old-location: p2p\peercollabsignout.htm
 old-project: P2PSdk
 ms.assetid: aa69a233-6104-47c6-a0b5-378794108623
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerCollabSignout, PeerCollabSignout function [Peer Networking], p2p.peercollabsignout, p2p/PeerCollabSignout
 ms.prod: windows-hardware
 ms.technology: windows-devices

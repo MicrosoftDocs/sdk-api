@@ -7,7 +7,7 @@ old-location: tsf\itfrangeacp_getextent.htm
 old-project: TSF
 ms.assetid: 14838cea-1a19-4faa-ac7f-617fde82432d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: GetExtent, GetExtent method [Text Services Framework], GetExtent method [Text Services Framework],ITfRangeACP interface, ITfRangeACP interface [Text Services Framework],GetExtent method, ITfRangeACP.GetExtent, ITfRangeACP::GetExtent, _tsf_itfrangeacp_getextent_ref, msctf/ITfRangeACP::GetExtent, tsf.itfrangeacp_getextent
 ms.prod: windows-hardware
 ms.technology: windows-devices

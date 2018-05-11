@@ -7,7 +7,7 @@ old-location: mscs\clres_v2_functions.htm
 old-project: MsCS
 ms.assetid: 81A5169E-C2AB-4666-9D9F-9DE4A639D0D6
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PCLRES_V2_FUNCTIONS, CLRES_V2_FUNCTIONS, CLRES_V2_FUNCTIONS structure [Failover Cluster], PCLRES_V2_FUNCTIONS, PCLRES_V2_FUNCTIONS structure pointer [Failover Cluster], mscs.clres_v2_functions, resapi/CLRES_V2_FUNCTIONS, resapi/PCLRES_V2_FUNCTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

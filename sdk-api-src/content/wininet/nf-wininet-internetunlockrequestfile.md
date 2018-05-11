@@ -7,7 +7,7 @@ old-location: wininet\internetunlockrequestfile.htm
 old-project: WinInet
 ms.assetid: 356f7277-66ef-450f-ab5a-0303d0b1d807
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: InternetUnlockRequestFile, InternetUnlockRequestFile function [WinINet], _inet_internetunlockrequestfile_function, wininet.internetunlockrequestfile, wininet/InternetUnlockRequestFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

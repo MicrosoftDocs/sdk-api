@@ -7,7 +7,7 @@ old-location: p2p\peeridentitygetxml.htm
 old-project: P2PSdk
 ms.assetid: 94172351-291e-461e-8c7f-0925c80df0c3
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerIdentityGetXML, PeerIdentityGetXML function [Peer Networking], p2p.peeridentitygetxml, p2p/PeerIdentityGetXML
 ms.prod: windows-hardware
 ms.technology: windows-devices

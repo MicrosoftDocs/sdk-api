@@ -7,7 +7,7 @@ old-location: wininet\internetreadfileex.htm
 old-project: WinInet
 ms.assetid: 04e7bb7e-d925-41fd-8333-3cb443a04c5b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/8/2018
 ms.keywords: InternetReadFileEx, InternetReadFileEx function [WinINet], InternetReadFileExA, InternetReadFileExW, _inet_internetreadfileex_function, wininet.internetreadfileex, wininet/InternetReadFileEx, wininet/InternetReadFileExA, wininet/InternetReadFileExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

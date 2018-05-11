@@ -7,7 +7,7 @@ old-location: p2p\peerdistshutdown.htm
 old-project: P2PSdk
 ms.assetid: 47fe4a77-2895-4d5b-beff-995e12fb0644
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/8/2018
 ms.keywords: PeerDistShutdown, PeerDistShutdown function [Peer Networking], p2p.peerdistshutdown, peerdist/PeerDistShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

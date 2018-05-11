@@ -7,7 +7,7 @@ old-location: rras\rtmregisterentity.htm
 old-project: RRAS
 ms.assetid: 2b952ea2-cf33-49e3-ae31-a14b0907a1b5
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: RtmRegisterEntity, RtmRegisterEntity function [RAS], _rtmv2ref_rtmregisterentity, rras.rtmregisterentity, rtmv2/RtmRegisterEntity
 ms.prod: windows-hardware
 ms.technology: windows-devices

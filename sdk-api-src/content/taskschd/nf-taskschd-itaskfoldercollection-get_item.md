@@ -7,7 +7,7 @@ old-location: taskschd\itaskfoldercollection_item.htm
 old-project: TaskSchd
 ms.assetid: 6caf3128-5e97-4653-88d3-3eb8131409dd
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: ITaskFolderCollection interface [Task Scheduler],Item property, ITaskFolderCollection.Item, ITaskFolderCollection.get_Item, ITaskFolderCollection::Item, ITaskFolderCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],ITaskFolderCollection interface, get_Item, taskschd.itaskfoldercollection_item, taskschd/ITaskFolderCollection::Item, taskschd/ITaskFolderCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

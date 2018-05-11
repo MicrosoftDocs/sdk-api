@@ -7,7 +7,7 @@ old-location: fwp\fwpmfiltersubscriptionsget0_func.htm
 old-project: FWP
 ms.assetid: 347c7792-12bc-4a2c-b4c2-7a71ee4a3709
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmFilterSubscriptionsGet0, FwpmFilterSubscriptionsGet0 function [Filtering], fwp.fwpmfiltersubscriptionsget0_func, fwpmu/FwpmFilterSubscriptionsGet0
 ms.prod: windows-hardware
 ms.technology: windows-devices

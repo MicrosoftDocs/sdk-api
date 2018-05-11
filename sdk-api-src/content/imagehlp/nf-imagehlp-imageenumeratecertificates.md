@@ -7,7 +7,7 @@ old-location: base\imageenumeratecertificates.htm
 old-project: Debug
 ms.assetid: 5f2e4fb7-180a-4172-9c38-5f65dfd29f69
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/8/2018
 ms.keywords: ImageEnumerateCertificates, ImageEnumerateCertificates function, _win32_imageenumeratecertificates, base.imageenumeratecertificates, imagehlp/ImageEnumerateCertificates
 ms.prod: windows-hardware
 ms.technology: windows-devices

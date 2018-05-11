@@ -7,7 +7,7 @@ old-location: mstv\ixdscodec_getxdspacket.htm
 old-project: mstv
 ms.assetid: 44a74489-4ed7-42f0-b8d5-bf86e0f7072c
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetXDSPacket, GetXDSPacket method [Microsoft TV Technologies], GetXDSPacket method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetXDSPacket method, IXDSCodec.GetXDSPacket, IXDSCodec::GetXDSPacket, IXDSCodecGetXDSPacket, encdec/IXDSCodec::GetXDSPacket, mstv.ixdscodec_getxdspacket
 ms.prod: windows-hardware
 ms.technology: windows-devices

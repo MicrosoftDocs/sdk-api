@@ -7,7 +7,7 @@ old-location: dshow\amvabeginframeinfo.htm
 old-project: DirectShow
 ms.assetid: 49af9094-86d5-4c11-b871-41f9984e0faf
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: "*LPAMVABeginFrameInfo, AMVABeginFrameInfo, AMVABeginFrameInfo structure [DirectShow], AMVABeginFrameInfoStructure, LPAMVABeginFrameInfo, LPAMVABeginFrameInfo structure pointer [DirectShow], _tag_AMVABeginFrameInfo, amva/AMVABeginFrameInfo, amva/LPAMVABeginFrameInfo, dshow.amvabeginframeinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

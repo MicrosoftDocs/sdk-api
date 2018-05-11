@@ -7,7 +7,7 @@ old-location: wds\iwdstransportnamespace_clone.htm
 old-project: Wds
 ms.assetid: bc7eb27e-8bbb-414a-bfc2-25cc762b451d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: Clone, Clone method [Windows Deployment Services], Clone method [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Clone method, IWdsTransportNamespace.Clone, IWdsTransportNamespace::Clone, wds.iwdstransportnamespace_clone, wdstptmgmt/IWdsTransportNamespace::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

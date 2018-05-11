@@ -7,7 +7,7 @@ old-location: security\credireaddomaincredentials.htm
 old-project: SecAuthN
 ms.assetid: fa5c92be-c74b-4143-8526-b60c25461b8c
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: CREDP_FLAGS_CLEAR_PASSWORD, CREDP_FLAGS_DONT_CACHE_TI, CREDP_FLAGS_IN_PROCESS, CREDP_FLAGS_TRUSTED_CALLER, CREDP_FLAGS_USER_ENCRYPTED_PASSWORD, CREDP_FLAGS_USE_MIDL_HEAP, CredReadDomainCredentialsFn, CrediReadDomainCredentials, CrediReadDomainCredentials function [Security], ntsecpkg/CrediReadDomainCredentials, security.credireaddomaincredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mf_capture_engine_device_type.htm
 old-project: medfound
 ms.assetid: 302C998E-51F6-4CEC-8940-DAF561D08EFD
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: MF_CAPTURE_ENGINE_DEVICE_TYPE, MF_CAPTURE_ENGINE_DEVICE_TYPE enumeration [Media Foundation], MF_CAPTURE_ENGINE_DEVICE_TYPE_AUDIO, MF_CAPTURE_ENGINE_DEVICE_TYPE_VIDEO, mf.mf_capture_engine_device_type, mfcaptureengine/MF_CAPTURE_ENGINE_DEVICE_TYPE, mfcaptureengine/MF_CAPTURE_ENGINE_DEVICE_TYPE_AUDIO, mfcaptureengine/MF_CAPTURE_ENGINE_DEVICE_TYPE_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices

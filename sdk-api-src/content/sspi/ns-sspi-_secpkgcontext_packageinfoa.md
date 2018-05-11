@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_packageinfo.htm
 old-project: SecAuthN
 ms.assetid: 94c21f22-d974-4ae5-beef-d4567e6ea7e1
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: "*PSecPkgContext_PackageInfoA, PSecPkgContext_PackageInfo, PSecPkgContext_PackageInfo structure pointer [Security], SecPkgContext_PackageInfo, SecPkgContext_PackageInfo structure [Security], SecPkgContext_PackageInfoA, _SecPkgContext_PackageInfoA, _SecPkgContext_PackageInfoW, _ssp_secpkgcontext_packageinfo, security.secpkgcontext_packageinfo, sspi/PSecPkgContext_PackageInfo, sspi/SecPkgContext_PackageInfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

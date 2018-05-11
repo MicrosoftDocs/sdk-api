@@ -7,7 +7,7 @@ old-location: mscs\resutilfinddependentdiskresourcedriveletter.htm
 old-project: MsCS
 ms.assetid: 8f2187e3-6bb7-4756-af2b-a28857581bcb
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER, PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER callback, PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER callback function [Failover Cluster], _wolf_resutilfinddependentdiskresourcedriveletter, mscs.resutilfinddependentdiskresourcedriveletter, resapi/PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER
 ms.prod: windows-hardware
 ms.technology: windows-devices

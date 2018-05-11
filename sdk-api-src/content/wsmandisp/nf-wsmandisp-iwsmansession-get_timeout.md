@@ -7,7 +7,7 @@ old-location: winrm\iwsmansession_timeout.htm
 old-project: WinRM
 ms.assetid: 23cec29b-20aa-440e-9c4d-c65cf81da719
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Timeout property, IWSManSession.Timeout, IWSManSession.get_Timeout, IWSManSession::Timeout, IWSManSession::get_Timeout, IWSManSession::put_Timeout, Timeout property [Windows Remote Management], Timeout property [Windows Remote Management],IWSManSession interface, get_Timeout, winrm.iwsmansession_timeout, wsmandisp/IWSManSession::Timeout, wsmandisp/IWSManSession::get_Timeout, wsmandisp/IWSManSession::put_Timeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

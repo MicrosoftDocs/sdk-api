@@ -7,7 +7,7 @@ old-location: shell\UInt8Mult.htm
 old-project: shell
 ms.assetid: 0e8862e8-68b6-4ac3-a8fc-872c1dbb3265
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: UInt8Mult, UInt8Mult function [Windows Shell], intsafe/UInt8Mult, shell.UInt8Mult
 ms.prod: windows-hardware
 ms.technology: windows-devices

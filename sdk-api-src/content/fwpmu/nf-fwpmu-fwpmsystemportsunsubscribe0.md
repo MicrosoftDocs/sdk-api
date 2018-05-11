@@ -7,7 +7,7 @@ old-location: fwp\fwpmsystemportsunsubscribe0.htm
 old-project: FWP
 ms.assetid: d078ae73-32a7-4341-b142-d1fdf8388255
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmSystemPortsUnsubscribe0, FwpmSystemPortsUnsubscribe0 function [Filtering], fwp.fwpmsystemportsunsubscribe0, fwpmu/FwpmSystemPortsUnsubscribe0
 ms.prod: windows-hardware
 ms.technology: windows-devices

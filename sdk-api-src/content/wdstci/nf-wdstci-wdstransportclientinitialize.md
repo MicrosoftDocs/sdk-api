@@ -7,7 +7,7 @@ old-location: wds\wdstransportclientinitialize.htm
 old-project: Wds
 ms.assetid: 6494a155-61de-40bd-a29a-79134da96bbe
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: WdsTransportClientInitialize, WdsTransportClientInitialize function [Windows Deployment Services], wds.wdstransportclientinitialize, wdstci/WdsTransportClientInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

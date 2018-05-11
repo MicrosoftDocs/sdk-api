@@ -7,7 +7,7 @@ old-location: rras\mprconfigserverconnect.htm
 old-project: RRAS
 ms.assetid: 40029088-191d-49b1-88d3-79ffb2da0eef
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: MprConfigServerConnect, MprConfigServerConnect function [RAS], _mpr_mprconfigserverconnect, mprapi/MprConfigServerConnect, rras.mprconfigserverconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

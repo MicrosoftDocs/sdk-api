@@ -7,7 +7,7 @@ old-location: tsf\itfcandidatelistuielementbehavior_abort.htm
 old-project: TSF
 ms.assetid: 2e9d231c-fd80-45fa-bfd0-6a9e057dccf2
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: Abort, Abort method [Text Services Framework], Abort method [Text Services Framework],ITfCandidateListUIElementBehavior interface, ITfCandidateListUIElementBehavior interface [Text Services Framework],Abort method, ITfCandidateListUIElementBehavior.Abort, ITfCandidateListUIElementBehavior::Abort, msctf/ITfCandidateListUIElementBehavior::Abort, tsf.itfcandidatelistuielementbehavior_abort
 ms.prod: windows-hardware
 ms.technology: windows-devices

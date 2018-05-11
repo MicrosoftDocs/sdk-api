@@ -7,7 +7,7 @@ old-location: fwp\ikeext_cookie_pair0.htm
 old-project: FWP
 ms.assetid: c752545b-1880-40ac-871e-e36d4b81668f
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IKEEXT_COOKIE_PAIR0, IKEEXT_COOKIE_PAIR0 structure [Filtering], IKEEXT_COOKIE_PAIR0_, fwp.ikeext_cookie_pair0, iketypes/IKEEXT_COOKIE_PAIR0
 ms.prod: windows-hardware
 ms.technology: windows-devices

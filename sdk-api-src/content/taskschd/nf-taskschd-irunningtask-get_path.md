@@ -7,7 +7,7 @@ old-location: taskschd\irunningtask_path.htm
 old-project: TaskSchd
 ms.assetid: 8c364628-63dd-4018-9eeb-6acab265c144
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: IRunningTask interface [Task Scheduler],Path property, IRunningTask.Path, IRunningTask.get_Path, IRunningTask::Path, IRunningTask::get_Path, Path property [Task Scheduler], Path property [Task Scheduler],IRunningTask interface, get_Path, taskschd.irunningtask_path, taskschd/IRunningTask::Path, taskschd/IRunningTask::get_Path
 ms.prod: windows-hardware
 ms.technology: windows-devices

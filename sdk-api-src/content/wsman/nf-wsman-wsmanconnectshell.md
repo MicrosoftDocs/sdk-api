@@ -7,7 +7,7 @@ old-location: winrm\wsmanconnectshell.htm
 old-project: WinRM
 ms.assetid: B765AB84-5EDA-46D6-9150-A8BBD101EF10
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: WSManConnectShell, WSManConnectShell function [Windows Remote Management], winrm.wsmanconnectshell, wsman/WSManConnectShell
 ms.prod: windows-hardware
 ms.technology: windows-devices

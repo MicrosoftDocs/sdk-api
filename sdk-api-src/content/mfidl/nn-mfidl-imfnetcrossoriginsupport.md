@@ -7,7 +7,7 @@ old-location: mf\imfnetcrossoriginsupport.htm
 old-project: medfound
 ms.assetid: 239E5731-4425-46D4-AFEC-F3E59258B1DF
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFNetCrossOriginSupport, IMFNetCrossOriginSupport interface [Media Foundation], IMFNetCrossOriginSupport interface [Media Foundation],described, mf.imfnetcrossoriginsupport, mfidl/IMFNetCrossOriginSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -33,12 +33,12 @@ topic_type:
 api_type:
 -	COM
 api_location:
--	mfplat.dll
+-	mfidl.h
 api_name:
 -	IMFNetCrossOriginSupport
 product: Windows
 targetos: Windows
-req.lib: Mfplat.lib
+req.lib: Mfuuid.lib
 req.dll: Mfplat.dll
 req.irql: 
 req.product: GDI+ 1.1

@@ -7,7 +7,7 @@ old-location: security\certresynccertificatechainengine.htm
 old-project: SecCrypto
 ms.assetid: D8674AD1-0407-4D1E-9E21-60CAC6D01FC5
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: CertResyncCertificateChainEngine, CertResyncCertificateChainEngine function [Security], security.certresynccertificatechainengine, wincrypt/CertResyncCertificateChainEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices

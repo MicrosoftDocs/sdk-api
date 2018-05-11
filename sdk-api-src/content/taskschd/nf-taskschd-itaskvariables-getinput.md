@@ -7,7 +7,7 @@ old-location: taskschd\itaskvariables_getinput.htm
 old-project: TaskSchd
 ms.assetid: 7c38a633-b3f1-4894-9152-e01a083a54fc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/9/2018
 ms.keywords: GetInput, GetInput method [Task Scheduler], GetInput method [Task Scheduler],ITaskVariables interface, ITaskVariables interface [Task Scheduler],GetInput method, ITaskVariables.GetInput, ITaskVariables::GetInput, taskschd.itaskvariables_getinput, taskschd/ITaskVariables::GetInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

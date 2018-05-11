@@ -7,7 +7,7 @@ old-location: multimedia\avifileinfo.htm
 old-project: Multimedia
 ms.assetid: 10d7decf-a133-4d55-93d5-867952307819
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/9/2018
 ms.keywords: AVIFileInfo, AVIFileInfo function [Windows Multimedia], AVIFileInfoA, AVIFileInfoW, _win32_AVIFileInfo, multimedia.avifileinfo, vfw/AVIFileInfo, vfw/AVIFileInfoA, vfw/AVIFileInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

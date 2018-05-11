@@ -7,7 +7,7 @@ old-location: shell\EXP_PROPERTYSTORAGE.htm
 old-project: shell
 ms.assetid: b7228610-c28a-4e19-80c9-30997a360b9c
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: EXP_PROPERTYSTORAGE, EXP_PROPERTYSTORAGE structure [Windows Shell], _shell_EXP_PROPERTYSTORAGE, shell.EXP_PROPERTYSTORAGE, shlobj_core/EXP_PROPERTYSTORAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices

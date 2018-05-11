@@ -7,7 +7,7 @@ old-location: mf\toc_descriptor.htm
 old-project: medfound
 ms.assetid: a79f75c5-be98-4120-85be-71bedbcc0ea2
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: TOC_DESCRIPTOR, TOC_DESCRIPTOR structure [Media Foundation], _TOC_DESCRIPTOR, codecapi.toc_descriptor, mf.toc_descriptor, wmcodecdsp/TOC_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

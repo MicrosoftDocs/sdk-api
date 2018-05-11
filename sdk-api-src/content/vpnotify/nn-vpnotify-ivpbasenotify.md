@@ -7,7 +7,7 @@ old-location: dshow\ivpbasenotify.htm
 old-project: DirectShow
 ms.assetid: c72bd662-366c-4102-9ad9-9e4c59096ede
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IVPBaseNotify, IVPBaseNotify interface [DirectShow], IVPBaseNotify interface [DirectShow],described, IVPBaseNotifyInterface, dshow.ivpbasenotify, vpnotify/IVPBaseNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

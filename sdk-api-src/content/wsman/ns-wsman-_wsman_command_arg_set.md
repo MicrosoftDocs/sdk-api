@@ -7,7 +7,7 @@ old-location: winrm\wsman_command_arg_set.htm
 old-project: WinRM
 ms.assetid: 0904851f-e275-445c-b3fa-e5974d037322
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: WSMAN_COMMAND_ARG_SET, WSMAN_COMMAND_ARG_SET structure [Windows Remote Management], _WSMAN_COMMAND_ARG_SET, winrm.wsman_command_arg_set, wsman/WSMAN_COMMAND_ARG_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfpmpserver_lockprocess.htm
 old-project: medfound
 ms.assetid: 9a25abfb-5038-4869-ad70-1ae52e8cf599
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: 9a25abfb-5038-4869-ad70-1ae52e8cf599, IMFPMPServer interface [Media Foundation],LockProcess method, IMFPMPServer.LockProcess, IMFPMPServer::LockProcess, LockProcess, LockProcess method [Media Foundation], LockProcess method [Media Foundation],IMFPMPServer interface, mf.imfpmpserver_lockprocess, mfidl/IMFPMPServer::LockProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\floatobj.htm
 old-project: display
 ms.assetid: 5f8c401b-7487-4d75-a0a8-534fa7992a3d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: "*PFLOATOBJ, FLOATOBJ, FLOATOBJ structure [Display Devices], PFLOATOBJ, PFLOATOBJ structure pointer [Display Devices], _FLOATOBJ, display.floatobj, grstrcts_5e2796fc-6ccc-4230-9ded-fd2222f0e8ac.xml, winddi/FLOATOBJ, winddi/PFLOATOBJ"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmediasourceex_setd3dmanager.htm
 old-project: medfound
 ms.assetid: 9E956E68-9950-4AA1-BF43-C1DCB02393F7
 ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.date: 5/9/2018
 ms.keywords: IMFMediaSourceEx interface [Media Foundation],SetD3DManager method, IMFMediaSourceEx.SetD3DManager, IMFMediaSourceEx::SetD3DManager, SetD3DManager, SetD3DManager method [Media Foundation], SetD3DManager method [Media Foundation],IMFMediaSourceEx interface, mf.imfmediasourceex_setd3dmanager, mfidl/IMFMediaSourceEx::SetD3DManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

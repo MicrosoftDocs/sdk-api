@@ -7,7 +7,7 @@ old-location: controls\ITextPara_GetListAlignment.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlistalignment.htm
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/9/2018
 ms.keywords: GetListAlignment, GetListAlignment method [Windows Controls], GetListAlignment method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListAlignment method, ITextPara.GetListAlignment, ITextPara::GetListAlignment, _win32_ITextPara_GetListAlignment, _win32_ITextPara_GetListAlignment_cpp, controls.ITextPara_GetListAlignment, controls._win32_ITextPara_GetListAlignment, tom/ITextPara::GetListAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices

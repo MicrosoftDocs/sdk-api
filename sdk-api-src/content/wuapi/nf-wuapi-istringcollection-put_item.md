@@ -7,7 +7,7 @@ old-location: wua\istringcollection_item.htm
 old-project: Wua_Sdk
 ms.assetid: ae92e856-ed3c-4745-827b-a5bb8e2f5938
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],Item property, IStringCollection.Item, IStringCollection.put_Item, IStringCollection::Item, IStringCollection::get_Item, IStringCollection::put_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IStringCollection interface, put_Item, wua.istringcollection_item, wuapi/IStringCollection::Item, wuapi/IStringCollection::get_Item, wuapi/IStringCollection::put_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

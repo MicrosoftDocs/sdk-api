@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadataitemsbuffer_detachbuffer.htm
 old-project: CoreAudio
 ms.assetid: EE914F58-31C3-4621-987D-D0804CE90CA9
 ms.author: windowsdriverdev
-ms.date: 4/4/2018
+ms.date: 5/9/2018
 ms.keywords: DetachBuffer, DetachBuffer method [Core Audio], DetachBuffer method [Core Audio],ISpatialAudioMetadataItemsBuffer interface, ISpatialAudioMetadataItemsBuffer interface [Core Audio],DetachBuffer method, ISpatialAudioMetadataItemsBuffer.DetachBuffer, ISpatialAudioMetadataItemsBuffer::DetachBuffer, coreaudio.ispatialaudiometadataitemsbuffer_detachbuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::DetachBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

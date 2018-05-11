@@ -7,7 +7,7 @@ old-location: display\drvalphablend.htm
 old-project: display
 ms.assetid: fff3df30-cb29-4da3-97bc-dba5fbba1db5
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/8/2018
 ms.keywords: DrvAlphaBlend, DrvAlphaBlend function [Display Devices], ddifncs_fc2d104a-d161-4f43-af15-ad088b5a2d3f.xml, display.drvalphablend, winddi/DrvAlphaBlend
 ms.prod: windows-hardware
 ms.technology: windows-devices

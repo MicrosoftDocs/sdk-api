@@ -7,7 +7,7 @@ old-location: security\callpackageex.htm
 old-project: SecAuthN
 ms.assetid: b26eb42d-9692-4df7-bbde-f7bce0924221
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/9/2018
 ms.keywords: CallPackageEx, CallPackageEx function [Security], LSA_CALL_PACKAGEEX, _ssp_callpackageex, ntsecpkg/CallPackageEx, security.callpackageex
 ms.prod: windows-hardware
 ms.technology: windows-devices

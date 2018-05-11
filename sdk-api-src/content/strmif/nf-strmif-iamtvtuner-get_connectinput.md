@@ -7,7 +7,7 @@ old-location: dshow\iamtvtuner_get_connectinput.htm
 old-project: DirectShow
 ms.assetid: 9dbcdc9f-7efe-4784-a60c-a6c161befb9b
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_ConnectInput method, IAMTVTuner.get_ConnectInput, IAMTVTuner::get_ConnectInput, IAMTVTunerget_ConnectInput, dshow.iamtvtuner_get_connectinput, get_ConnectInput, get_ConnectInput method [DirectShow], get_ConnectInput method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_ConnectInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

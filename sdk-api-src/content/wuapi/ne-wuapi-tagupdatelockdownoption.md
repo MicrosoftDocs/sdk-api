@@ -7,7 +7,7 @@ old-location: wua\updatelockdownoption.htm
 old-project: Wua_Sdk
 ms.assetid: 6e664485-d26f-4702-9190-9440b13c60b5
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/9/2018
 ms.keywords: UpdateLockdownOption, UpdateLockdownOption enumeration [Windows Update Agent], tagUpdateLockdownOption, uloForWebsiteAccess, wua.updatelockdownoption, wuapi/UpdateLockdownOption, wuapi/uloForWebsiteAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

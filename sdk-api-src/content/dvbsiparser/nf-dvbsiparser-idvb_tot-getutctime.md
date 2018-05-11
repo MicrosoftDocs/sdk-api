@@ -7,7 +7,7 @@ old-location: mstv\idvb_tot_getutctime.htm
 old-project: mstv
 ms.assetid: 67092908-b2bb-4dc6-8fb4-d45b03823c69
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetUTCTime, GetUTCTime method [Microsoft TV Technologies], GetUTCTime method [Microsoft TV Technologies],IDVB_TOT interface, IDVB_TOT interface [Microsoft TV Technologies],GetUTCTime method, IDVB_TOT.GetUTCTime, IDVB_TOT::GetUTCTime, IDVB_TOTGetUTCTime, dvbsiparser/IDVB_TOT::GetUTCTime, mstv.idvb_tot_getutctime
 ms.prod: windows-hardware
 ms.technology: windows-devices

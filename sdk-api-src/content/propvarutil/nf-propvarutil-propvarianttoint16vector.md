@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt16Vector.htm
 old-project: properties
 ms.assetid: 33240552-7caa-4114-aad6-7341551b1fbe
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/8/2018
 ms.keywords: PropVariantToInt16Vector, PropVariantToInt16Vector function [Windows Properties], _shell_PropVariantToInt16Vector, properties.PropVariantToInt16Vector, propvarutil/PropVariantToInt16Vector, shell.PropVariantToInt16Vector
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\icat_gettabledescriptorbytag.htm
 old-project: mstv
 ms.assetid: f28fb2c1-d9bb-4786-b3cc-db9583752e1b
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.date: 5/8/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, ICAT.GetTableDescriptorByTag, ICAT::GetTableDescriptorByTag, ICATGetTableDescriptorByTag, mpeg2psiparser/ICAT::GetTableDescriptorByTag, mstv.icat_gettabledescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

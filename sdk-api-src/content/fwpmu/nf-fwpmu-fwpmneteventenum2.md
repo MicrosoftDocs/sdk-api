@@ -7,7 +7,7 @@ old-location: fwp\fwpmneteventenum2.htm
 old-project: FWP
 ms.assetid: bf0974b1-8ddf-4f88-8b15-75f255f7a9d6
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: FwpmNetEventEnum2, FwpmNetEventEnum2 function [Filtering], fwp.fwpmneteventenum2, fwpmu/FwpmNetEventEnum2
 ms.prod: windows-hardware
 ms.technology: windows-devices

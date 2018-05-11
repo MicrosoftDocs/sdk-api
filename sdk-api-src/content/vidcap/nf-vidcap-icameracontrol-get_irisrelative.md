@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_irisrelative.htm
 old-project: DirectShow
 ms.assetid: 15f01c00-ff18-4d58-a03b-9293a8a6a68c
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: ICameraControl interface [DirectShow],get_IrisRelative method, ICameraControl.get_IrisRelative, ICameraControl::get_IrisRelative, ICameraControlget_IrisRelative, dshow.icameracontrol_get_irisrelative, get_IrisRelative, get_IrisRelative method [DirectShow], get_IrisRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_IrisRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fwp\ikeext_preshared_key_authentication1.htm
 old-project: FWP
 ms.assetid: b2009797-f5fd-4d14-8a59-832f9a0acff1
 ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.date: 5/8/2018
 ms.keywords: IKEEXT_PRESHARED_KEY_AUTHENTICATION1, IKEEXT_PRESHARED_KEY_AUTHENTICATION1 structure [Filtering], IKEEXT_PRESHARED_KEY_AUTHENTICATION1__, IKEEXT_PSK_FLAG_LOCAL_AUTH_ONLY, IKEEXT_PSK_FLAG_REMOTE_AUTH_ONLY, fwp.ikeext_preshared_key_authentication1, iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION1
 ms.prod: windows-hardware
 ms.technology: windows-devices

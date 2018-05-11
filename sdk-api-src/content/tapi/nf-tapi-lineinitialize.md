@@ -7,7 +7,7 @@ old-location: tapi2\lineinitialize.htm
 old-project: Tapi
 ms.assetid: 4b406f19-be9b-4130-91a7-5fdfa56f7fc3
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: "_tapi2_lineinitialize, lineInitialize, lineInitialize function [TAPI 2.2], tapi/lineInitialize, tapi2.lineinitialize"
 ms.prod: windows-hardware
 ms.technology: windows-devices

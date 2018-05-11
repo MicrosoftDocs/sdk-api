@@ -7,7 +7,7 @@ old-location: stg\stgconvertpropertytovariant.htm
 old-project: Stg
 ms.assetid: ea4196e6-fc99-4288-942a-e5283f2e5544
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/9/2018
 ms.keywords: StgConvertPropertyToVariant, StgConvertPropertyToVariant function [Structured Storage], propidl/StgConvertPropertyToVariant, stg.stgconvertpropertytovariant
 ms.prod: windows-hardware
 ms.technology: windows-devices

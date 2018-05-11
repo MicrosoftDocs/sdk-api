@@ -7,7 +7,7 @@ old-location: setup\setupcloseinffile.htm
 old-project: SetupApi
 ms.assetid: 78b6a69d-e588-45f1-bf5c-a6feaf8b3364
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/9/2018
 ms.keywords: SetupCloseInfFile, SetupCloseInfFile function [Setup API], _setupapi_setupcloseinffile, setup.setupcloseinffile, setupapi/SetupCloseInfFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

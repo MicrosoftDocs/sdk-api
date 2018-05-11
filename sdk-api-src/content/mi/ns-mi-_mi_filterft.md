@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_filterft.htm
 old-project: wmi_v2
 ms.assetid: f090b05e-e99b-47aa-8458-8e2cf9031ac7
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/8/2018
 ms.keywords: MI_FilterFT, MI_FilterFT structure [Windows Management Infrastructure (MI)], _MI_FilterFT, mi/MI_FilterFT, wmi_v2.mi_filterft
 ms.prod: windows-hardware
 ms.technology: windows-devices

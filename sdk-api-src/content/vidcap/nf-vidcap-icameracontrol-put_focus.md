@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_put_focus.htm
 old-project: DirectShow
 ms.assetid: c896bf2b-33b6-4e7c-bf84-b7dd8f57a4d4
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/9/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Focus method, ICameraControl.put_Focus, ICameraControl::put_Focus, ICameraControlput_Focus, dshow.icameracontrol_put_focus, put_Focus, put_Focus method [DirectShow], put_Focus method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Focus
 ms.prod: windows-hardware
 ms.technology: windows-devices

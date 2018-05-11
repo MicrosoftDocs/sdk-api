@@ -7,7 +7,7 @@ old-location: winsync\icorefragment.htm
 old-project: winsync
 ms.assetid: 3e232531-ad44-4ad1-b186-46edbc07291b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/9/2018
 ms.keywords: ICoreFragment, ICoreFragment interface [Windows Sync], ICoreFragment interface [Windows Sync],described, winsync.icorefragment, winsync/ICoreFragment
 ms.prod: windows-hardware
 ms.technology: windows-devices
