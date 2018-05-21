@@ -7,7 +7,7 @@ old-location: fs\ioctl_storage_query_property.htm
 old-project: FileIO
 ms.assetid: 6755dcd4-e4a0-423f-9dcc-b9719c8e5c88
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: IOCTL_STORAGE_QUERY_PROPERTY, IOCTL_STORAGE_QUERY_PROPERTY control, IOCTL_STORAGE_QUERY_PROPERTY control code [Files], fs.ioctl_storage_query_property, winioctl/IOCTL_STORAGE_QUERY_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices

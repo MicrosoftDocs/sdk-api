@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromHICON_hicon_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromhicon.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Bitmap class [GDI+],FromHICON method, Bitmap.FromHICON, Bitmap::FromHICON, FromHICON, FromHICON method [GDI+], FromHICON method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromHICON_hicon_, gdiplus._gdiplus_CLASS_Bitmap_FromHICON_hicon_
 ms.prod: windows-hardware
 ms.technology: windows-devices

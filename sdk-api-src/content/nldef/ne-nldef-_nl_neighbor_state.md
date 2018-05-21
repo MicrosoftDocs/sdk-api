@@ -38,8 +38,8 @@ api_name:
 -	NL_NEIGHBOR_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Newdev.lib
+req.dll: Newdev.dll
 req.irql: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---

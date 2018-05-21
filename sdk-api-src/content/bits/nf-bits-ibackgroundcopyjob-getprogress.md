@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_getprogress.htm
 old-project: Bits
 ms.assetid: 30aae990-1cc1-468b-9e5f-7ef5ce6eeb9a
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetProgress method, IBackgroundCopyJob.GetProgress, IBackgroundCopyJob::GetProgress, _drz_ibackgroundcopyjob_getprogress, bits.ibackgroundcopyjob_getprogress, bits/IBackgroundCopyJob::GetProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

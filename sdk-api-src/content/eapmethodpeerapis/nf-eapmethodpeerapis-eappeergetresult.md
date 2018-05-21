@@ -7,7 +7,7 @@ old-location: eaphost\eappeergetresult.htm
 old-project: EAPHost
 ms.assetid: fc73cf5f-68c5-403b-8bf1-6befa2c4f5d8
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapPeerGetResult, EapPeerGetResult function [EAPHost], eaphost.eappeergetresult, eapmethodpeerapis/EapPeerGetResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

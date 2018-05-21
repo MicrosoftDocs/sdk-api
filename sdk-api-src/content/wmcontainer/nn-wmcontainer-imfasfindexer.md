@@ -7,7 +7,7 @@ old-location: mf\imfasfindexer.htm
 old-project: medfound
 ms.assetid: 93127fe4-bca9-4674-ae21-012367d7dd2f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 93127fe4-bca9-4674-ae21-012367d7dd2f, IMFASFIndexer, IMFASFIndexer interface [Media Foundation], IMFASFIndexer interface [Media Foundation],described, mf.imfasfindexer, wmcontainer/IMFASFIndexer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\secbufferdesc.htm
 old-project: SecAuthN
 ms.assetid: fc6ef09c-3ba9-4bcb-a3c2-07422af8eaa9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSecBufferDesc, PSecBufferDesc, PSecBufferDesc structure pointer [Security], SecBufferDesc, SecBufferDesc structure [Security], _SecBufferDesc, _ssp_secbufferdesc, security.secbufferdesc, sspi/PSecBufferDesc, sspi/SecBufferDesc"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SecBufferDesc structure

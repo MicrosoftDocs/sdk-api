@@ -7,7 +7,7 @@ old-location: tapi3\imcastleaseinfo_get_ttl.htm
 old-project: Tapi
 ms.assetid: 393b9d6c-430c-42f8-88fa-4bf5c9c04c1f
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_TTL method, IMcastLeaseInfo.get_TTL, IMcastLeaseInfo::get_TTL, _tapi3_imcastleaseinfo_get_ttl, get_TTL, get_TTL method [TAPI 2.2], get_TTL method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_TTL, tapi3.imcastleaseinfo_get_ttl
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcenamedependency.htm
 old-project: MsCS
 ms.assetid: 071f11bb-fcb3-4c76-ad81-b19ff7bdcb4a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY, PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY callback, PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY callback function [Failover Cluster], _wolf_resutilgetresourcenamedependency, mscs.resutilgetresourcenamedependency, resapi/PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices

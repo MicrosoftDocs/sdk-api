@@ -7,7 +7,7 @@ old-location: com\initialize.htm
 old-project: com
 ms.assetid: 615E552B-46EF-4D94-BF60-A44885731F75
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: Initialize, Initialize function [COM], com.initialize, roapi/Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

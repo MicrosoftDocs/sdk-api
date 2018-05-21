@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclienttouchpointer_pointerspeed.htm
 old-project: TermServ
 ms.assetid: 40c35308-cabe-4a71-b7bb-b5ada5eafa91
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],PointerSpeed property, IRemoteDesktopClientTouchPointer.PointerSpeed, IRemoteDesktopClientTouchPointer.get_PointerSpeed, IRemoteDesktopClientTouchPointer::PointerSpeed, IRemoteDesktopClientTouchPointer::get_PointerSpeed, PointerSpeed property [Remote Desktop Services], PointerSpeed property [Remote Desktop Services],IRemoteDesktopClientTouchPointer interface, get_PointerSpeed, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::PointerSpeed, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_PointerSpeed, termserv.iremotedesktopclienttouchpointer_pointerspeed
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: menurc\stringcchprintf.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchprintf.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: StringCchPrintf, StringCchPrintf function [Menus and Other Resources], StringCchPrintfA, StringCchPrintfW, _shell_StringCchPrintf, _shell_stringcchprintf_cpp, menurc.stringcchprintf, strsafe/StringCchPrintf, strsafe/StringCchPrintfA, strsafe/StringCchPrintfW, winui._shell_stringcchprintf
 ms.prod: windows-hardware
 ms.technology: windows-devices

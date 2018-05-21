@@ -7,7 +7,7 @@ old-location: mstv\impeg2tablefilter_removepid.htm
 old-project: mstv
 ms.assetid: e9ce49e3-e256-4150-ab73-b57ed34ab30c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMpeg2TableFilter interface [Microsoft TV Technologies],RemovePID method, IMpeg2TableFilter.RemovePID, IMpeg2TableFilter::RemovePID, IMpeg2TableFilterRemovePID, RemovePID, RemovePID method [Microsoft TV Technologies], RemovePID method [Microsoft TV Technologies],IMpeg2TableFilter interface, mpeg2data/IMpeg2TableFilter::RemovePID, mstv.impeg2tablefilter_removepid
 ms.prod: windows-hardware
 ms.technology: windows-devices

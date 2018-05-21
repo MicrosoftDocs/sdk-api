@@ -7,7 +7,7 @@ old-location: eap\raseapinvokeinteractiveui.htm
 old-project: EAP
 ms.assetid: 71dd40c9-acbd-4fb6-800d-d3f83a61b7b8
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/16/2018
 ms.keywords: RasEapInvokeInteractiveUI, RasEapInvokeInteractiveUI callback, RasEapInvokeInteractiveUI callback function [EAP], _eap_raseapinvokeinteractiveui, eap.raseapinvokeinteractiveui, raseapif/RasEapInvokeInteractiveUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

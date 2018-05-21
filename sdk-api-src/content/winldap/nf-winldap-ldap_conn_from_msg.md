@@ -7,7 +7,7 @@ old-location: ldap\ldap_conn_from_msg.htm
 old-project: LDAP
 ms.assetid: 0f536c42-06c1-43d9-a298-4a9e9bf96a46
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_conn_from_msg, ldap.ldap__conn__from__msg, ldap.ldap_conn_from_msg, ldap_conn_from_msg, ldap_conn_from_msg function [LDAP], winldap/ldap_conn_from_msg"
 ms.prod: windows-hardware
 ms.technology: windows-devices

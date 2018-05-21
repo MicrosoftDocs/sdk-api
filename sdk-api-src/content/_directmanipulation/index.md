@@ -2,11 +2,12 @@
 UID: TP:directmanipulation
 ms.assetid: b4054831-982d-3b85-96f1-a2f6819aac6a
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Direct Manipulation
@@ -83,8 +84,8 @@ For the programming guide, see [Direct Manipulation](https://review.docs.microso
 | [IDirectManipulationContent::SetTag](..\directmanipulation\nf-directmanipulation-idirectmanipulationcontent-settag.md) | Specifies the tag object for the content. |
 | [IDirectManipulationContent::SyncContentTransform](..\directmanipulation\nf-directmanipulation-idirectmanipulationcontent-synccontenttransform.md) | Modifies the content transform while maintaining the output transform. |
 | [IDirectManipulationDeferContactService::CancelContact](..\directmanipulation\nf-directmanipulation-idirectmanipulationdefercontactservice-cancelcontact.md) | Cancel all scheduled calls to SetContact for this pointerId. |
-| [IDirectManipulationDeferContactService::CancelDeferral method](..\directmanipulation\nf-directmanipulation-idirectmanipulationdefercontactservice-canceldeferral.md) | Cancel the deferral set in DeferContact and process the scheduled SetContact call for this pointerId. |
-| [IDirectManipulationDeferContactService::DeferContact method](..\directmanipulation\nf-directmanipulation-idirectmanipulationdefercontactservice-defercontact.md) | Specifies the amount of time to defer the execution of a call to SetContact for this pointerId. |
+| [IDirectManipulationDeferContactService::CancelDeferral](..\directmanipulation\nf-directmanipulation-idirectmanipulationdefercontactservice-canceldeferral.md) | Cancel the deferral set in DeferContact and process the scheduled SetContact call for this pointerId. |
+| [IDirectManipulationDeferContactService::DeferContact](..\directmanipulation\nf-directmanipulation-idirectmanipulationdefercontactservice-defercontact.md) | Specifies the amount of time to defer the execution of a call to SetContact for this pointerId. |
 | [IDirectManipulationDragDropBehavior::GetStatus](..\directmanipulation\nf-directmanipulation-idirectmanipulationdragdropbehavior-getstatus.md) | Gets the status of the drag-drop interaction for the viewport this behavior is attached to. |
 | [IDirectManipulationDragDropBehavior::SetConfiguration](..\directmanipulation\nf-directmanipulation-idirectmanipulationdragdropbehavior-setconfiguration.md) | Sets the configuration of the drag-drop interaction for the viewport this behavior is attached to. |
 | [IDirectManipulationDragDropEventHandler::OnDragDropStatusChange](..\directmanipulation\nf-directmanipulation-idirectmanipulationdragdropeventhandler-ondragdropstatuschange.md) | Called when a status change happens in the viewport that the drag-and-drop behavior is attached to. |

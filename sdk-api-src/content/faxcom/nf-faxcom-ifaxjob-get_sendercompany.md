@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_get_sendercompany_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7uk9.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxJob object [Fax Service],SenderCompany property, FaxJob.SenderCompany, IFaxJob.get_SenderCompany, IFaxJob::get_SenderCompany, SenderCompany property [Fax Service], SenderCompany property [Fax Service],FaxJob object, _mfax_ifaxjob_get_sendercompany, fax._mfax_ifaxjob_get_sendercompany, fax._mfax_ifaxjob_get_sendercompany_vb, get_SenderCompany
 ms.prod: windows-hardware
 ms.technology: windows-devices

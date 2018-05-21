@@ -7,7 +7,7 @@ old-location: controls\INDEXTOSTATEIMAGEMASK.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\indextostateimagemask.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: INDEXTOSTATEIMAGEMASK, INDEXTOSTATEIMAGEMASK macro [Windows Controls], _win32_INDEXTOSTATEIMAGEMASK, _win32_INDEXTOSTATEIMAGEMASK_cpp, commctrl/INDEXTOSTATEIMAGEMASK, controls.INDEXTOSTATEIMAGEMASK, controls._win32_INDEXTOSTATEIMAGEMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices

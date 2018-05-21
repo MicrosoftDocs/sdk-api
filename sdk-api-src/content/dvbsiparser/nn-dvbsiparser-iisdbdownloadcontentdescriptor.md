@@ -7,7 +7,7 @@ old-location: mstv\iisdbdownloadcontentdescriptor.htm
 old-project: mstv
 ms.assetid: beef626c-64b1-4f49-bb21-69022907004d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IIsdbDownloadContentDescriptor, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies], IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbDownloadContentDescriptor, mstv.iisdbdownloadcontentdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

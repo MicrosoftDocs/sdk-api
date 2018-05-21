@@ -7,7 +7,7 @@ old-location: security\security_string.htm
 old-project: SecAuthN
 ms.assetid: 4E03761C-8199-4D9F-B9DA-8941F0CC6700
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSECURITY_STRING, PSECURITY_STRING, PSECURITY_STRING structure pointer [Security], SECURITY_STRING, SECURITY_STRING structure [Security], _SECURITY_STRING, security.security_string, sspi/PSECURITY_STRING, sspi/SECURITY_STRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SECURITY_STRING structure

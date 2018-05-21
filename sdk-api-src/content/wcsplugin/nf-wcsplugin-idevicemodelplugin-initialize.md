@@ -7,7 +7,7 @@ old-location: wcs\IDeviceModelPlugIn_Initialize.htm
 old-project: WCS
 ms.assetid: ae47dcc5-f771-4586-9086-b4ab1600c1bc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/17/2018
 ms.keywords: IDeviceModelPlugIn interface [Windows Color System],Initialize method, IDeviceModelPlugIn.Initialize, IDeviceModelPlugIn::Initialize, Initialize, Initialize method [Windows Color System], Initialize method [Windows Color System],IDeviceModelPlugIn interface, _color_IDeviceModelPlugIn::Initialize, wcs.IDeviceModelPlugIn_Initialize, wcsplugin/IDeviceModelPlugIn::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

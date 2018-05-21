@@ -2,7 +2,7 @@
 UID: NA:activation
 ms.assetid: b64de635-e3fc-3b35-87da-ea438611dc4b
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

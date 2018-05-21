@@ -2,7 +2,7 @@
 UID: NA:shellscalingapi
 ms.assetid: d748591d-610c-3f80-98ea-e0680533f5c1
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

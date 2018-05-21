@@ -500,7 +500,7 @@ If compatibility mode is in effect, the <b>OSVERSIONINFOEX</b> structure contain
 To determine whether a Win32-based application is running on WOW64, call the 
     <a href="https://msdn.microsoft.com/5a237542-e432-487c-aa59-2ede427dd1eb">IsWow64Process</a> function. To determine whether the system is running a  64-bit version of Windows, call the <a href="https://msdn.microsoft.com/a4a1123b-83d7-4ee2-aa38-68fff5373618">GetNativeSystemInfo</a> function.
 
-The <a href="base.getsystemmetrics">GetSystemMetrics</a> function provides the 
+The <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> function provides the 
     following additional information about the current operating system. 
 
 <table>

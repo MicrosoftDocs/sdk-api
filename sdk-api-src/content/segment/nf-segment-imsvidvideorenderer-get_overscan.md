@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_get_overscan.htm
 old-project: mstv
 ms.assetid: 2c4946e6-b25c-4e6a-b640-73982c0da871
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_OverScan method, IMSVidVideoRenderer.get_OverScan, IMSVidVideoRenderer::get_OverScan, IMSVidVideoRendererget_OverScan, get_OverScan, get_OverScan method [Microsoft TV Technologies], get_OverScan method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_overscan, segment/IMSVidVideoRenderer::get_OverScan
 ms.prod: windows-hardware
 ms.technology: windows-devices

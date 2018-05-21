@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob1_get_jobid.htm
 old-project: Bits
 ms.assetid: 4f639576-33fd-413c-a163-764c0aa2ce81
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: IBackgroundCopyJob1 interface [BITS],get_JobID method, IBackgroundCopyJob1.get_JobID, IBackgroundCopyJob1::get_JobID, bits.ibackgroundcopyjob1_get_jobid, get_JobID, get_JobID method [BITS], get_JobID method [BITS],IBackgroundCopyJob1 interface, qmgr/IBackgroundCopyJob1::get_JobID
 ms.prod: windows-hardware
 ms.technology: windows-devices

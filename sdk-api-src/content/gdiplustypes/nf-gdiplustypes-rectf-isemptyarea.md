@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_IsEmptyArea_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\isemptyarea_36.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: IsEmptyArea, IsEmptyArea method [GDI+], IsEmptyArea method [GDI+],RectF class, RectF class [GDI+],IsEmptyArea method, RectF.IsEmptyArea, RectF::IsEmptyArea, _gdiplus_CLASS_RectF_IsEmptyArea_, gdiplus._gdiplus_CLASS_RectF_IsEmptyArea_
 ms.prod: windows-hardware
 ms.technology: windows-devices

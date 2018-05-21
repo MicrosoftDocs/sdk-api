@@ -7,7 +7,7 @@ old-location: cos\iobjectcontext_issecurityenabled.htm
 old-project: cossdk
 ms.assetid: eba720e5-5c25-4723-b9e5-3bbdb69ada30
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IObjectContext interface [COM+],IsSecurityEnabled method, IObjectContext.IsSecurityEnabled, IObjectContext::IsSecurityEnabled, IsSecurityEnabled, IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+],IObjectContext interface, _cos_IObjectContext_IsSecurityEnabled, comsvcs/IObjectContext::IsSecurityEnabled, cos.iobjectcontext_issecurityenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

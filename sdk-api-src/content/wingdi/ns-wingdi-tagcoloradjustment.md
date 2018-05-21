@@ -7,7 +7,7 @@ old-location: gdi\coloradjustment.htm
 old-project: gdi
 ms.assetid: 9a080f60-0bce-46b6-b8a8-f534ff83a0a8
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPCOLORADJUSTMENT, *PCOLORADJUSTMENT, COLORADJUSTMENT, COLORADJUSTMENT structure [Windows GDI], PCOLORADJUSTMENT, PCOLORADJUSTMENT structure pointer [Windows GDI], _win32_COLORADJUSTMENT_str, gdi.coloradjustment, tagCOLORADJUSTMENT, wingdi/COLORADJUSTMENT, wingdi/PCOLORADJUSTMENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

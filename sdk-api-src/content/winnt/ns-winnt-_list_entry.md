@@ -7,7 +7,7 @@ old-location: base\slist_entry_str.htm
 old-project: Sync
 ms.assetid: 6c467621-fa51-49f1-b962-2dd5ec0f7084
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/17/2018
 ms.keywords: "*PLIST_ENTRY, LIST_ENTRY, PRLIST_ENTRY, PSLIST_ENTRY, PSLIST_ENTRY structure pointer, SLIST_ENTRY, SLIST_ENTRY structure, _LIST_ENTRY, _SLIST_ENTRY, _win32_slist_entry_str, base.slist_entry_str, winnt/PSLIST_ENTRY, winnt/SLIST_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

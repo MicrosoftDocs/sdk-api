@@ -7,7 +7,7 @@ old-location: security\kerb_ticket_cache_info.htm
 old-project: SecAuthN
 ms.assetid: e9ac70f0-65dc-4c5a-b41f-7c4659680333
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PKERB_TICKET_CACHE_INFO, KERB_TICKET_CACHE_INFO, KERB_TICKET_CACHE_INFO structure [Security], KERB_TICKET_FLAGS_forwardable, KERB_TICKET_FLAGS_forwarded, KERB_TICKET_FLAGS_hw_authent, KERB_TICKET_FLAGS_initial, KERB_TICKET_FLAGS_invalid, KERB_TICKET_FLAGS_may_postdate, KERB_TICKET_FLAGS_ok_as_delegate, KERB_TICKET_FLAGS_postdated, KERB_TICKET_FLAGS_pre_authent, KERB_TICKET_FLAGS_proxiable, KERB_TICKET_FLAGS_proxy, KERB_TICKET_FLAGS_renewable, KERB_TICKET_FLAGS_reserved, KERB_TICKET_FLAGS_reserved1, PKERB_TICKET_CACHE_INFO, PKERB_TICKET_CACHE_INFO structure pointer [Security], _KERB_TICKET_CACHE_INFO, _lsa_kerb_ticket_cache_info, ntsecapi/KERB_TICKET_CACHE_INFO, ntsecapi/PKERB_TICKET_CACHE_INFO, security.kerb_ticket_cache_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

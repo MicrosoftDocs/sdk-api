@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer_get_treblerange.htm
 old-project: DirectShow
 ms.assetid: 726cbdda-5772-43bc-846f-f7d1672cc56f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_TrebleRange method, IAMAudioInputMixer.get_TrebleRange, IAMAudioInputMixer::get_TrebleRange, IAMAudioInputMixerget_TrebleRange, dshow.iamaudioinputmixer_get_treblerange, get_TrebleRange, get_TrebleRange method [DirectShow], get_TrebleRange method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_TrebleRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

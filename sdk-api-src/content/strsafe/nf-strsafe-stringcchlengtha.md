@@ -7,7 +7,7 @@ old-location: menurc\stringcchlength.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchlength.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: StringCchLength, StringCchLength function [Menus and Other Resources], StringCchLengthA, StringCchLengthW, _shell_StringCchLength, _shell_stringcchlength_cpp, menurc.stringcchlength, strsafe/StringCchLength, strsafe/StringCchLengthA, strsafe/StringCchLengthW, winui._shell_stringcchlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

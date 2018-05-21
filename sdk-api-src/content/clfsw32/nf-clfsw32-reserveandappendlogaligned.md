@@ -7,7 +7,7 @@ old-location: fs\reserveandappendlogaligned.htm
 old-project: Clfs
 ms.assetid: fce678e3-3b30-4bb9-ab61-d7c8b24fd1d7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: CLFS_FLAG_FORCE_APPEND, CLFS_FLAG_FORCE_FLUSH, CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, ReserveAndAppendLogAligned, ReserveAndAppendLogAligned function [Files], clfsw32/ReserveAndAppendLogAligned, fs.reserveandappendlogaligned
 ms.prod: windows-hardware
 ms.technology: windows-devices

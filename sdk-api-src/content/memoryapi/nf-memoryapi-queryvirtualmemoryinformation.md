@@ -7,7 +7,7 @@ old-location: base\queryvirtualmemoryinformation.htm
 old-project: Memory
 ms.assetid: D887FB6E-2594-4822-BA5E-803F9B12DCBC
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: QueryVirtualMemoryInformation, QueryVirtualMemoryInformation function, base.queryvirtualmemoryinformation, memoryapi/QueryVirtualMemoryInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

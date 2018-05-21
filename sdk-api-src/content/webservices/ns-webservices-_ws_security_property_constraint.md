@@ -7,7 +7,7 @@ old-location: wsw\ws_security_property_constraint.htm
 old-project: wsw
 ms.assetid: 382d75be-2c56-44f5-8069-740ad9b9d1c4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_SECURITY_PROPERTY_CONSTRAINT, WS_SECURITY_PROPERTY_CONSTRAINT structure [Web Services for Windows], _WS_SECURITY_PROPERTY_CONSTRAINT, webservices/WS_SECURITY_PROPERTY_CONSTRAINT, wsw.ws_security_property_constraint
 ms.prod: windows-hardware
 ms.technology: windows-devices

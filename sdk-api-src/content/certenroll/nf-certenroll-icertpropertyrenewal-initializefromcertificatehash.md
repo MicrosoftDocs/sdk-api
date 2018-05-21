@@ -7,7 +7,7 @@ old-location: security\icertpropertyrenewal_initializefromcertificatehash_method
 old-project: SecCertEnroll
 ms.assetid: 87e0eabf-7a4a-4ff2-a9ce-6482f119cafd
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ICertPropertyRenewal interface [Security],InitializeFromCertificateHash method, ICertPropertyRenewal.InitializeFromCertificateHash, ICertPropertyRenewal::InitializeFromCertificateHash, InitializeFromCertificateHash, InitializeFromCertificateHash method [Security], InitializeFromCertificateHash method [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::InitializeFromCertificateHash, security.icertpropertyrenewal_initializefromcertificatehash_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

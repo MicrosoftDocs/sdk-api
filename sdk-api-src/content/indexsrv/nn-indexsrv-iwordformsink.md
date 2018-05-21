@@ -3,12 +3,12 @@ UID: NN:indexsrv.IWordFormSink
 title: IWordFormSink
 author: windows-driver-content
 description: Handles the list of alternative word forms that stemmers generate during query time.
-old-location: indexsrv\iwordformsink.htm
-old-project: IndexSrv
-ms.assetid: VS|indexsrv|~\html\ixrefobj_2z1n.htm
+old-location: search\iwordformsink.htm
+old-project: search
+ms.assetid: 81D52B0C-BADD-48C0-85DB-57CA82D7BBA8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: IWordFormSink, IWordFormSink interface [Indexing Service], IWordFormSink interface [Indexing Service],described, _idxs_StemSink, indexsrv.iwordformsink, indexsrv/IWordFormSink
+ms.date: 5/8/2018
+ms.keywords: IWordFormSink, IWordFormSink interface [search], IWordFormSink interface [search],described, indexsrv/IWordFormSink, search.iwordformsink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -50,8 +50,6 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
-
 Handles the list of alternative word forms that stemmers generate during query time.
 
 
@@ -73,19 +71,19 @@ The <b>IWordFormSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e286de4-eebf-43df-871c-bd8d6add2bd6">PutAltWord</a>
+<a href="https://msdn.microsoft.com/4F6A3E88-A17C-4CA3-849D-FF0DC06D5DC3">PutAltWord</a>
 </td>
 <td align="left" width="63%">
-Puts an alternative form of a word in the WordFormSink.
+Puts an alternative form of a word in the <b>IWordFormSink</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f7ec20fb-1362-4fc0-be5a-7035fa4b3ed5">PutWord</a>
+<a href="https://msdn.microsoft.com/333A3109-6C0A-42AE-9E10-87F53C7F737C">PutWord</a>
 </td>
 <td align="left" width="63%">
-Puts the original word form in the WordFormSink.
+Puts the original word form in the <b>IWordFormSink</b> object.
 
 </td>
 </tr>
@@ -96,12 +94,12 @@ Puts the original word form in the WordFormSink.
 
 
 
-Indexing Service creates and initializes instances of the StemSink object. The WordFormSink receives the <i>ulMaxTokenSize</i> parameter during initialization. The value for this parameter is determined by the <a href="https://msdn.microsoft.com/3b655078-367d-4e74-aeb1-a5b5c135e88e">IStemmer</a> implementation and determines the maximum length, in characters, for a single word that the WordFormSink handles.
+Windows Search creates and initializes instances of the StemSink object. The <b>IWordFormSink</b> object receives the <i>ulMaxTokenSize</i> parameter during initialization. The value for this parameter is determined by the <a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a> implementation and determines the maximum length, in characters, for a single word that the <b>IWordFormSink</b> handles.
 
 
 
 
-<a href="https://msdn.microsoft.com/3b655078-367d-4e74-aeb1-a5b5c135e88e">IStemmer</a> implementations receive a pointer to the WordFormSink object in the <a href="https://msdn.microsoft.com/944c3776-3b92-4f41-8b85-7f27b2779177">GenerateWordForms</a> method.
+<a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a> implementations receive a pointer to the <b>IWordFormSink</b> object in the <a href="https://msdn.microsoft.com/7996468d-3b5f-4bfc-837d-51082655cbbc">GenerateWordForms</a> method.
 
 
 
@@ -113,7 +111,7 @@ Indexing Service creates and initializes instances of the StemSink object. The W
 
 
 
-<a href="https://msdn.microsoft.com/3b655078-367d-4e74-aeb1-a5b5c135e88e">IStemmer</a>
+<a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: ncd\iwsdserviceproxy_endgetmetadata.htm
 old-project: WsdApi
 ms.assetid: 6024770a-e4cb-4db1-9767-51b559fd8244
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EndGetMetadata, EndGetMetadata method, EndGetMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,EndGetMetadata method, IWSDServiceProxy.EndGetMetadata, IWSDServiceProxy::EndGetMetadata, ncd.iwsdserviceproxy_endgetmetadata, wsdclient/IWSDServiceProxy::EndGetMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

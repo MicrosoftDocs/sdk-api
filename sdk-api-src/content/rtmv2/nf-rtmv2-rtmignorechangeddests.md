@@ -7,7 +7,7 @@ old-location: rras\rtmignorechangeddests.htm
 old-project: RRAS
 ms.assetid: 9e0b4311-deba-45d6-b1c2-a1b661f25d0f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RtmIgnoreChangedDests, RtmIgnoreChangedDests function [RAS], _rtmv2ref_rtmignorechangeddests, rras.rtmignorechangeddests, rtmv2/RtmIgnoreChangedDests
 ms.prod: windows-hardware
 ms.technology: windows-devices

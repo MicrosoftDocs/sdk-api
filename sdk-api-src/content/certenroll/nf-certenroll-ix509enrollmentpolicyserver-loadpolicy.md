@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_loadpolicy.htm
 old-project: SecCertEnroll
 ms.assetid: 5b617c6e-91bc-4a22-acd6-41083102850a
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],LoadPolicy method, IX509EnrollmentPolicyServer.LoadPolicy, IX509EnrollmentPolicyServer::LoadPolicy, LoadOptionCacheOnly, LoadOptionDefault, LoadOptionRegisterForADChanges, LoadOptionReload, LoadPolicy, LoadPolicy method [Security], LoadPolicy method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::LoadPolicy, security.ix509enrollmentpolicyserver_loadpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

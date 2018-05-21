@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothenablediscovery.htm
 old-project: Bluetooth
 ms.assetid: ca28c9cd-a271-48fa-901c-e99e063854d5
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothEnableDiscovery, BluetoothEnableDiscovery function [Bluetooth], bluetooth.bluetoothenablediscovery, bluetoothapis/BluetoothEnableDiscovery
 ms.prod: windows-hardware
 ms.technology: windows-devices

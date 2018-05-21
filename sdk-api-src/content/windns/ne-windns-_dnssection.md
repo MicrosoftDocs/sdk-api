@@ -7,7 +7,7 @@ old-location: dns\dns_section.htm
 old-project: DNS
 ms.assetid: d51ef2c7-c2bb-4eed-a026-a559460352b6
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: DNS_SECTION, DNS_SECTION enumeration [DNS], DnsSectionAddtional, DnsSectionAnswer, DnsSectionAuthority, DnsSectionQuestion, _DnsSection, dns.dns_section, windns/DNS_SECTION, windns/DnsSectionAddtional, windns/DnsSectionAnswer, windns/DnsSectionAuthority, windns/DnsSectionQuestion
 ms.prod: windows-hardware
 ms.technology: windows-devices

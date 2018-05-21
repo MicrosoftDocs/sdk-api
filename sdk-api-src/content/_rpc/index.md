@@ -2,7 +2,7 @@
 UID: TP:rpc
 ms.assetid: 47b47c5f-ee14-33e0-96c0-18c7b2796fcb
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

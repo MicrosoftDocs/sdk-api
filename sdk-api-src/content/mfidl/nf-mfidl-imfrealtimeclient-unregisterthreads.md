@@ -7,7 +7,7 @@ old-location: mf\imfrealtimeclient_unregisterthreads.htm
 old-project: medfound
 ms.assetid: 9bd65ff1-c283-47b8-8299-383b2b773c18
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 9bd65ff1-c283-47b8-8299-383b2b773c18, IMFRealTimeClient interface [Media Foundation],UnregisterThreads method, IMFRealTimeClient.UnregisterThreads, IMFRealTimeClient::UnregisterThreads, UnregisterThreads, UnregisterThreads method [Media Foundation], UnregisterThreads method [Media Foundation],IMFRealTimeClient interface, mf.imfrealtimeclient_unregisterthreads, mfidl/IMFRealTimeClient::UnregisterThreads
 ms.prod: windows-hardware
 ms.technology: windows-devices

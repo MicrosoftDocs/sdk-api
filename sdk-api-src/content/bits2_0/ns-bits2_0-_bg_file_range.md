@@ -7,7 +7,7 @@ old-location: bits\bg_file_range.htm
 old-project: Bits
 ms.assetid: 4ed20321-fb89-410b-906e-9f2c4366645a
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: BG_FILE_RANGE, BG_FILE_RANGE structure [BITS], _BG_FILE_RANGE, bits.bg_file_range, bits2_0/BG_FILE_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices

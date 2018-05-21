@@ -7,7 +7,7 @@ old-location: rras\blockconvertservicestostatic.htm
 old-project: RRAS
 ms.assetid: 60d1ee7b-bba3-4dd1-8faf-520a2e3cfad3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: BlockConvertServicesToStatic, BlockConvertServicesToStatic callback function [RAS], PBLOCK_CONVERT_SERVICES_TO_STATIC, PBLOCK_CONVERT_SERVICES_TO_STATIC callback, _mpr_blockconvertservicestostatic, rras.blockconvertservicestostatic, stm/BlockConvertServicesToStatic
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # PBLOCK_CONVERT_SERVICES_TO_STATIC callback function

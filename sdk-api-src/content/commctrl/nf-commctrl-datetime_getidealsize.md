@@ -7,7 +7,7 @@ old-location: controls\DateTime_GetIdealSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getidealsize.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: DateTime_GetIdealSize, DateTime_GetIdealSize macro [Windows Controls], _shell_DateTime_GetIdealSize, _shell_DateTime_GetIdealSize_cpp, commctrl/DateTime_GetIdealSize, controls.DateTime_GetIdealSize, controls._shell_DateTime_GetIdealSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

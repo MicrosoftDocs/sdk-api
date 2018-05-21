@@ -7,7 +7,7 @@ old-location: ncd\iwsdasyncresult_abort.htm
 old-project: WsdApi
 ms.assetid: 9237bcb4-4404-4d15-a18a-1d651e3fb899
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: Abort, Abort method, Abort method,IWSDAsyncResult interface, IWSDAsyncResult interface,Abort method, IWSDAsyncResult.Abort, IWSDAsyncResult::Abort, ncd.iwsdasyncresult_abort, wsdclient/IWSDAsyncResult::Abort
 ms.prod: windows-hardware
 ms.technology: windows-devices

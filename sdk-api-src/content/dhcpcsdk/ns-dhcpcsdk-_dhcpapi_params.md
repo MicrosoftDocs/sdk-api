@@ -7,7 +7,7 @@ old-location: dhcp\dhcpapi_params.htm
 old-project: DHCP
 ms.assetid: be8329a3-c3ad-4f5b-92ae-cf18fa847d53
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCPAPI_PARAMS, *LPDHCPAPI_PARAMS structure [DHCP], *LPDHCPCAPI_PARAMS, *LPDHCPCAPI_PARAMS structure [DHCP], *PDHCPAPI_PARAMS, *PDHCPAPI_PARAMS structure [DHCP], *PDHCPCAPI_PARAMS, *PDHCPCAPI_PARAMS structure [DHCP], DHCPAPI_PARAMS, DHCPAPI_PARAMS structure [DHCP], DHCPCAPI_PARAMS, DHCPCAPI_PARAMS structure [DHCP], _DHCPAPI_PARAMS, dhcp.dhcpapi_params, dhcpcsdk/*LPDHCPAPI_PARAMS, dhcpcsdk/*LPDHCPCAPI_PARAMS, dhcpcsdk/*PDHCPAPI_PARAMS, dhcpcsdk/*PDHCPCAPI_PARAMS, dhcpcsdk/DHCPAPI_PARAMS, dhcpcsdk/DHCPCAPI_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

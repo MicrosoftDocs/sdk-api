@@ -7,7 +7,7 @@ old-location: security\cert_chain_find_by_issuer_para.htm
 old-project: SecCrypto
 ms.assetid: 7dee640e-6bad-4d3c-910f-da928a8682c9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PCERT_CHAIN_FIND_BY_ISSUER_PARA, *PCERT_CHAIN_FIND_ISSUER_PARA, AT_KEYEXCHANGE, AT_SIGNATURE, CERT_CHAIN_FIND_BY_ISSUER_PARA, CERT_CHAIN_FIND_BY_ISSUER_PARA structure [Security], CERT_CHAIN_FIND_ISSUER_PARA, _CERT_CHAIN_FIND_BY_ISSUER_PARA, _CERT_CHAIN_FIND_BY_ISSUER_PARA structure [Security], _crypto2_cert_chain_find_by_issuer_para, security.cert_chain_find_by_issuer_para, wincrypt/CERT_CHAIN_FIND_BY_ISSUER_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

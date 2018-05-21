@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Effect_GetParameterSize_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectmethods\getparametersize.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Effect class [GDI+],GetParameterSize method, Effect.GetParameterSize, Effect::GetParameterSize, GetParameterSize, GetParameterSize method [GDI+], GetParameterSize method [GDI+],Effect class, _gdiplus_CLASS_Effect_GetParameterSize_, gdiplus._gdiplus_CLASS_Effect_GetParameterSize_
 ms.prod: windows-hardware
 ms.technology: windows-devices

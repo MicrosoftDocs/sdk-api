@@ -7,7 +7,7 @@ old-location: com\iolecontrol.htm
 old-project: com
 ms.assetid: ef85dce6-b680-4a72-9277-4cfdab27cbbc
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IOleControl, IOleControl interface [COM], IOleControl interface [COM],described, _ctrl_iolecontrol, com.iolecontrol, ocidl/IOleControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

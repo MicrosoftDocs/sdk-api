@@ -7,7 +7,7 @@ old-location: rpc\rpcserveruseallprotseqsif.htm
 old-project: Rpc
 ms.assetid: 6f3f7726-3e12-4b0b-8454-25f06a29b245
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcServerUseAllProtseqsIf, RpcServerUseAllProtseqsIf function [RPC], _rpc_rpcserveruseallprotseqsif, rpc.rpcserveruseallprotseqsif, rpcdce/RpcServerUseAllProtseqsIf
 ms.prod: windows-hardware
 ms.technology: windows-devices

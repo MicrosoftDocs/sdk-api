@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordname.htm
 old-project: mstv
 ms.assetid: b97baa53-d927-4a3c-91a5-3d06d26e797f
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordName, GetRecordName method [Microsoft TV Technologies], GetRecordName method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordName method, IATSC_VCT.GetRecordName, IATSC_VCT::GetRecordName, IATSC_VCTGetRecordName, atscpsipparser/IATSC_VCT::GetRecordName, mstv.iatsc_vct_getrecordname
 ms.prod: windows-hardware
 ms.technology: windows-devices

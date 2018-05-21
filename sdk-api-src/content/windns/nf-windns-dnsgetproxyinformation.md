@@ -7,7 +7,7 @@ old-location: dns\dnsgetproxyinformation.htm
 old-project: DNS
 ms.assetid: fdc8eb09-e071-4f03-974a-2b11a657ab18
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: DnsGetProxyInformation, DnsGetProxyInformation function [DNS], dns.dnsgetproxyinformation, windns/DnsGetProxyInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ad\dsquerysitesfree.htm
 old-project: AD
 ms.assetid: 810caa4f-8275-4ad8-ad3e-72061fc073dd
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: DsQuerySitesFree, DsQuerySitesFree function [Active Directory], ad.dsquerysitesfree, ntdsapi/DsQuerySitesFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

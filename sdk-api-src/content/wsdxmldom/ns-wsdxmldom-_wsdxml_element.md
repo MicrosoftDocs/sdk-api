@@ -7,7 +7,7 @@ old-location: ncd\wsdxml_element_struct.htm
 old-project: WsdApi
 ms.assetid: 727149b4-31b0-4fd8-b0fa-eb773edb171e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSDXML_ELEMENT, WSDXML_ELEMENT structure, _WSDXML_ELEMENT, ncd.wsdxml_element_struct, wsdxmldom/WSDXML_ELEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

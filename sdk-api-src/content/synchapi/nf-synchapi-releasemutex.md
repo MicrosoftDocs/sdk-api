@@ -7,7 +7,7 @@ old-location: base\releasemutex.htm
 old-project: Sync
 ms.assetid: c3e4daa8-92de-455c-847c-ea59225b3aa2
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/17/2018
 ms.keywords: ReleaseMutex, ReleaseMutex function, _win32_releasemutex, base.releasemutex, synchapi/ReleaseMutex, winbase/ReleaseMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices

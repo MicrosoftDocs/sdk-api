@@ -7,7 +7,7 @@ old-location: imapi\idiscmasterprogressevents_notifyblockprogress.htm
 old-project: imapi
 ms.assetid: 6c156be7-5ba4-48e7-a0d1-b0b8d69b30e2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyBlockProgress method, IDiscMasterProgressEvents.NotifyBlockProgress, IDiscMasterProgressEvents::NotifyBlockProgress, NotifyBlockProgress, NotifyBlockProgress method [IMAPI], NotifyBlockProgress method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyblockprogress, base.idiscmasterprogressevents_notifyblockprogress, imapi.idiscmasterprogressevents_notifyblockprogress, imapi/IDiscMasterProgressEvents::NotifyBlockProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

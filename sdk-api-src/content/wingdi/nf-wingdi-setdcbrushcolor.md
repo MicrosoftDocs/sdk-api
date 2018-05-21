@@ -7,7 +7,7 @@ old-location: gdi\setdcbrushcolor.htm
 old-project: gdi
 ms.assetid: 4feed536-2f1d-4a25-8311-7cae303167ca
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: SetDCBrushColor, SetDCBrushColor function [Windows GDI], _win32_SetDCBrushColor, gdi.setdcbrushcolor, wingdi/SetDCBrushColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

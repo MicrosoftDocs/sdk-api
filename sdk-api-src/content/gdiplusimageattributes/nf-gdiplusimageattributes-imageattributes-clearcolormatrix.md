@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearColorMatrix_type_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearcolormatrix.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: ClearColorMatrix, ClearColorMatrix method [GDI+], ClearColorMatrix method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearColorMatrix method, ImageAttributes.ClearColorMatrix, ImageAttributes::ClearColorMatrix, _gdiplus_CLASS_ImageAttributes_ClearColorMatrix_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearColorMatrix_type_
 ms.prod: windows-hardware
 ms.technology: windows-devices

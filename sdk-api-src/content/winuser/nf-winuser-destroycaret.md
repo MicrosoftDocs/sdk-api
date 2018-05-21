@@ -7,7 +7,7 @@ old-location: menurc\destroycaret.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\destroycaret.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: DestroyCaret, DestroyCaret function [Menus and Other Resources], _win32_DestroyCaret, _win32_destroycaret_cpp, menurc.destroycaret, winui._win32_destroycaret, winuser/DestroyCaret
 ms.prod: windows-hardware
 ms.technology: windows-devices

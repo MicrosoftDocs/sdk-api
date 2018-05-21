@@ -2,11 +2,12 @@
 UID: TP:wnv
 ms.assetid: 0373728d-f3cc-3b01-ab7e-474698d5e450
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Windows Network Virtualization

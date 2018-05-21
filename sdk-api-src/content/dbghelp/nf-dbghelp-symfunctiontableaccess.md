@@ -7,7 +7,7 @@ old-location: base\symfunctiontableaccess64.htm
 old-project: Debug
 ms.assetid: f79e6af9-9931-4bd7-ae12-29d890267a89
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SymFunctionTableAccess, SymFunctionTableAccess function, SymFunctionTableAccess64, SymFunctionTableAccess64 function, _win32_symfunctiontableaccess64, base.symfunctiontableaccess64, dbghelp/SymFunctionTableAccess, dbghelp/SymFunctionTableAccess64
 ms.prod: windows-hardware
 ms.technology: windows-devices

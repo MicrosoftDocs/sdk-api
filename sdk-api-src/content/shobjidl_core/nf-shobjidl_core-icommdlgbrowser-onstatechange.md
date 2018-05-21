@@ -1,0 +1,137 @@
+---
+UID: NF:shobjidl_core.ICommDlgBrowser.OnStateChange
+title: ICommDlgBrowser::OnStateChange
+author: windows-driver-content
+description: Called after a state, identified by the uChange parameter, has changed in the IShellView interface.
+old-location: shell\ICommDlgBrowser_OnStateChange.htm
+old-project: shell
+ms.assetid: ec9f0e5d-ca64-4ab4-b2cc-6d0748ede8b2
+ms.author: windowsdriverdev
+ms.date: 5/16/2018
+ms.keywords: CDBOSC_KILLFOCUS, CDBOSC_RENAME, CDBOSC_SELCHANGE, CDBOSC_SETFOCUS, CDBOSC_STATECHANGE, ICommDlgBrowser interface [Windows Shell],OnStateChange method, ICommDlgBrowser.OnStateChange, ICommDlgBrowser::OnStateChange, OnStateChange, OnStateChange method [Windows Shell], OnStateChange method [Windows Shell],ICommDlgBrowser interface, _win32_ICommDlgBrowser_OnStateChange, shell.ICommDlgBrowser_OnStateChange, shobjidl_core/ICommDlgBrowser::OnStateChange
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shlobj.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	Shell32.dll
+api_name:
+-	ICommDlgBrowser.OnStateChange
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
+req.product: Outlook Express 6.0
+---
+
+# ICommDlgBrowser::OnStateChange
+
+
+## -description
+
+
+Called after a state, identified by the <i>uChange</i> parameter, has changed in the <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> interface.
+
+
+## -parameters
+
+
+
+
+### -param ppshv
+
+Type: <b><a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a>*</b>
+
+A pointer to the view's <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> interface.
+
+
+### -param uChange
+
+Type: <b>ULONG</b>
+
+Change in the selection state. This parameter can be one of the following values.
+
+
+
+#### CDBOSC_SETFOCUS
+
+The focus has been set to the view.
+
+
+
+#### CDBOSC_KILLFOCUS
+
+The view has lost the focus.
+
+
+
+#### CDBOSC_SELCHANGE
+
+The selection has changed.
+
+
+
+#### CDBOSC_RENAME
+
+An item has been renamed.
+
+
+
+#### CDBOSC_STATECHANGE
+
+An item has been checked or unchecked.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This method is used to let the common file dialog boxes track the state of the view and change its user interface as needed.
+
+<h3><a id="Note_to_Calling_Applications"></a><a id="note_to_calling_applications"></a><a id="NOTE_TO_CALLING_APPLICATIONS"></a>Note to Calling Applications</h3>
+When items in the view are selected, or when the view loses the focus, it needs to call this method to notify the common dialog that either the view state or selection state is changing.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bf89ac6e-6c2e-4944-885c-9ab62f58fe71">ICommDlgBrowser</a>
+ 
+
+ 
+

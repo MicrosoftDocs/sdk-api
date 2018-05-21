@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothfindfirstradio.htm
 old-project: Bluetooth
 ms.assetid: f31bb18b-c129-417f-ab87-cf114a2e094f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothFindFirstRadio, BluetoothFindFirstRadio function [Bluetooth], bluetooth.bluetoothfindfirstradio, bluetoothapis/BluetoothFindFirstRadio
 ms.prod: windows-hardware
 ms.technology: windows-devices

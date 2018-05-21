@@ -2,7 +2,7 @@
 UID: TP:nla
 ms.assetid: bab08dd3-cacc-3530-8910-b8ce6776ff7b
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

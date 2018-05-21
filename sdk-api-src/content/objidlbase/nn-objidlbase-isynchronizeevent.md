@@ -7,7 +7,7 @@ old-location: com\isynchronizeevent.htm
 old-project: com
 ms.assetid: b4721498-0455-415a-bf2f-c8c8fdf3b75c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: ISynchronizeEvent, ISynchronizeEvent interface [COM], ISynchronizeEvent interface [COM],described, _com_isynchronizeevent, com.isynchronizeevent, objidlbase/ISynchronizeEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

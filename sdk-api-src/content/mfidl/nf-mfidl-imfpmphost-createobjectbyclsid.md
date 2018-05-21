@@ -7,7 +7,7 @@ old-location: mf\imfpmphost_createobjectbyclsid.htm
 old-project: medfound
 ms.assetid: 787fc392-1858-41f4-a1ce-2da02a5e789f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 787fc392-1858-41f4-a1ce-2da02a5e789f, CreateObjectByCLSID, CreateObjectByCLSID method [Media Foundation], CreateObjectByCLSID method [Media Foundation],IMFPMPHost interface, IMFPMPHost interface [Media Foundation],CreateObjectByCLSID method, IMFPMPHost.CreateObjectByCLSID, IMFPMPHost::CreateObjectByCLSID, mf.imfpmphost_createobjectbyclsid, mfidl/IMFPMPHost::CreateObjectByCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgideclareadapterremovalsupport.htm
 old-project: direct3ddxgi
 ms.assetid: 602EA66C-6D3D-4604-822C-DBD66EB70C3C
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: DXGIDeclareAdapterRemovalSupport, DXGIDeclareAdapterRemovalSupport function [DXGI], direct3ddxgi.dxgideclareadapterremovalsupport, dxgi1_6/DXGIDeclareAdapterRemovalSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DXGI_GPU_PREFERENCE
+req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
 topic_type:
 -	APIRef
 -	kbSyntax

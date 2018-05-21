@@ -7,7 +7,7 @@ old-location: fs\storage_protocol_data_descriptor.htm
 old-project: FileIO
 ms.assetid: BCA56343-9FB4-4079-9DB1-5DD55529B586
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, PSTORAGE_PROTOCOL_DATA_DESCRIPTOR structure pointer [Files], STORAGE_PROTOCOL_DATA_DESCRIPTOR, STORAGE_PROTOCOL_DATA_DESCRIPTOR structure [Files], _STORAGE_PROTOCOL_DATA_DESCRIPTOR, fs.storage_protocol_data_descriptor, winioctl/PSTORAGE_PROTOCOL_DATA_DESCRIPTOR, winioctl/STORAGE_PROTOCOL_DATA_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

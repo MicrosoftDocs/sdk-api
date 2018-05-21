@@ -2,21 +2,21 @@
 UID: NF:intsafe.LongLongToIntPtr
 title: LongLongToIntPtr function
 author: windows-driver-content
-description: Converts a value of type INT64 to a value of type INT_PTR.
-old-location: shell\Int64ToIntPtr.htm
+description: Converts a value of type LONGLONG to a value of type INT_PTR.
+old-location: shell\LongLongToIntPtr.htm
 old-project: shell
-ms.assetid: c8250722-c041-4b4f-8956-f049c9f89d23
+ms.assetid: fb10650f-6536-491c-8897-0f826b506e5a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: Int64ToIntPtr, Int64ToIntPtr function [Windows Shell], LongLongToIntPtr, _shell_Int64ToIntPtr, intsafe/Int64ToIntPtr, shell.Int64ToIntPtr
+ms.date: 5/16/2018
+ms.keywords: Int64ToIntPtr, Int64ToPtrdiffT, LongLongToIntPtr, LongLongToIntPtr function [Windows Shell], intsafe/LongLongToIntPtr, shell.LongLongToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,9 +33,9 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	Intsafe.h
+-	intsafe.h
 api_name:
--	Int64ToIntPtr
+-	LongLongToIntPtr
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>INT64</b> to a value of type <b>INT_PTR</b>.
+Converts a value of type <b>LONGLONG</b> to a value of type <b>INT_PTR</b>.
 
 
 ## -parameters
@@ -58,30 +58,19 @@ Converts a value of type <b>INT64</b> to a value of type <b>INT_PTR</b>.
 
 
 
-### -param llOperand
+### -param llOperand [in]
 
-TBD
+The value to convert.
 
 
 ### -param piResult [out]
 
-Type: <b>INT_PTR*</b>
-
-A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
-
-
-#### - i64Operand [in]
-
-Type: <b>INT64</b>
-
-The value to be converted.
+The converted value.
 
 
 ## -returns
 
 
-
-Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -92,7 +81,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+<b>Int64ToPtrdiffT</b> is an alias for this function.
+
+<b>Int64ToIntPtr</b> is an alias for this function.
 
 
 

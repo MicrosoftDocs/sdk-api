@@ -2,7 +2,7 @@
 UID: TP:winsat
 ms.assetid: 0aeab50b-bfa8-3845-b2af-5a9d26d69145
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

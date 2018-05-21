@@ -7,7 +7,7 @@ old-location: security\lsalookupauthenticationpackage.htm
 old-project: SecAuthN
 ms.assetid: c6504aea-fdba-44ac-b2dc-070707bb1183
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: LsaLookupAuthenticationPackage, LsaLookupAuthenticationPackage function [Security], MICROSOFT_KERBEROS_NAME_A, MSV1_0_PACKAGE_NAME, NEGOSSP_NAME_A, _lsa_lsalookupauthenticationpackage, ntsecapi/LsaLookupAuthenticationPackage, security.lsalookupauthenticationpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices

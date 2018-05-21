@@ -7,7 +7,7 @@ old-location: of\iofflinefilesprogress_queryabort.htm
 old-project: OfflineFiles
 ms.assetid: 24b95898-0fe6-420b-83f2-ac77f493aeab
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesProgress interface [Offline Files],QueryAbort method, IOfflineFilesProgress.QueryAbort, IOfflineFilesProgress::QueryAbort, QueryAbort, QueryAbort method [Offline Files], QueryAbort method [Offline Files],IOfflineFilesProgress interface, cscobj/IOfflineFilesProgress::QueryAbort, of.iofflinefilesprogress_queryabort
 ms.prod: windows-hardware
 ms.technology: windows-devices

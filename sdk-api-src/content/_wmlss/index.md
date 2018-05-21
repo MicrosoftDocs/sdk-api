@@ -2,11 +2,12 @@
 UID: TP:wmlss
 ms.assetid: a7b62606-c322-3523-8185-eeea8cb1088a
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Windows Media Library Sharing Services

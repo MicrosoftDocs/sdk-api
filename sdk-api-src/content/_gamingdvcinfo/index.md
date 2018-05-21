@@ -2,11 +2,12 @@
 UID: TP:gamingdvcinfo
 ms.assetid: b4972891-4403-3035-b6d1-a021050f576f
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Gaming Device Information

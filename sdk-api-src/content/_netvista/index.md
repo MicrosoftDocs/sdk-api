@@ -2,7 +2,7 @@
 UID: TP:netvista
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -18,6 +18,7 @@ Overview of the Network Drivers, Windows Vista and Later technology.
 To develop Network Drivers, Windows Vista and Later, you need these headers:
 
  * [fwpstypes.h](..\fwpstypes\index.md)
+ * [l2cmn.h](..\l2cmn\index.md)
  * [ndkinfo.h](..\ndkinfo\index.md)
 
 For the programming guide, see [Network Drivers, Windows Vista and Later](https://review.docs.microsoft.com/en-us/win32-test/netvista).
@@ -39,6 +40,7 @@ For the programming guide, see [Network Drivers, Windows Vista and Later](https:
 | [FWPS_INCOMING_VALUE0_ structure](..\fwpstypes\ns-fwpstypes-fwps_incoming_value0_.md) | The FWPS_INCOMING_VALUE0 structure defines an individual data value.Note  FWPS_INCOMING_VALUE0 is a specific version of FWPS_INCOMING_VALUE. |
 | [FWPS_INCOMING_VALUES0_ structure](..\fwpstypes\ns-fwpstypes-fwps_incoming_values0_.md) | The FWPS_INCOMING_VALUES0 structure defines data values that are passed by the filter engine to a callout's classifyFn callout function.Note  FWPS_INCOMING_VALUES0 is a specific version of FWPS_INCOMING_VALUES. |
 | [NDK_VERSION structure](..\ndkinfo\ns-ndkinfo-ndk_version.md) | The NDK_VERSION structure specifies major and minor versions in the NDK interface. |
+| [_L2_NOTIFICATION_DATA structure](..\l2cmn\ns-l2cmn-_l2_notification_data.md) | Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later. |
 | [_NDK_ADAPTER_INFO structure](..\ndkinfo\ns-ndkinfo-_ndk_adapter_info.md) | The NDK_ADAPTER_INFO structure specifies information about limits and capabilities of an NDK adapter. |
 
 ## Enumerations

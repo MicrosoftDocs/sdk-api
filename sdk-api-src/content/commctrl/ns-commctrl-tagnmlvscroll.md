@@ -7,7 +7,7 @@ old-location: controls\NMLVSCROLL.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvscroll.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPNMLVSCROLL, LPNMLVSCROLL, LPNMLVSCROLL structure pointer [Windows Controls], NMLVSCROLL, NMLVSCROLL structure [Windows Controls], commctrl/LPNMLVSCROLL, commctrl/NMLVSCROLL, controls.NMLVSCROLL, controls.inet_NMLVSCROLL, inet_NMLVSCROLL, inet_NMLVSCROLL_cpp, tagNMLVSCROLL"
 ms.prod: windows-hardware
 ms.technology: windows-devices

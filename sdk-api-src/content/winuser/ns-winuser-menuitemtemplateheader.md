@@ -7,7 +7,7 @@ old-location: menurc\menuitemtemplateheader.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuitemtemplateheader.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: "*PMENUITEMTEMPLATEHEADER, MENUITEMTEMPLATEHEADER, MENUITEMTEMPLATEHEADER structure [Menus and Other Resources], PMENUITEMTEMPLATEHEADER, PMENUITEMTEMPLATEHEADER structure pointer [Menus and Other Resources], _win32_MENUITEMTEMPLATEHEADER_str, _win32_menuitemtemplateheader_str_cpp, menurc.menuitemtemplateheader, winui._win32_menuitemtemplateheader_str, winuser/MENUITEMTEMPLATEHEADER, winuser/PMENUITEMTEMPLATEHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\fontdesc.htm
 old-project: com
 ms.assetid: c677b0ba-fd52-40e8-b7c3-b80a01c9fb26
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPFONTDESC, FONTDESC, FONTDESC structure [COM], LPFONTDESC, LPFONTDESC structure pointer [COM], _ctrl_FONTDESC, com.fontdesc, olectl/FONTDESC, olectl/LPFONTDESC, tagFONTDESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

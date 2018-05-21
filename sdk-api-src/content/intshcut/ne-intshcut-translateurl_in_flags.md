@@ -7,7 +7,7 @@ old-location: shell\TRANSLATEURL_IN_FLAGS.htm
 old-project: shell
 ms.assetid: b04d5c7d-6d3f-4904-8de5-7586437320e9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: TRANSLATEURL_FL_GUESS_PROTOCOL, TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL, TRANSLATEURL_IN_FLAGS, TRANSLATEURL_IN_FLAGS enumeration [Windows Shell], _win32_TRANSLATEURL_IN_FLAGS, intshcut/TRANSLATEURL_FL_GUESS_PROTOCOL, intshcut/TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL, intshcut/TRANSLATEURL_IN_FLAGS, shell.TRANSLATEURL_IN_FLAGS, translateurl_in_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

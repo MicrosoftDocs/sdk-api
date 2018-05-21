@@ -7,7 +7,7 @@ old-location: cos\tracking_coll_type.htm
 old-project: cossdk
 ms.assetid: 0dd3defb-0731-4bef-9735-6a4b7551cff2
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: TRACKING_COLL_TYPE, TRACKING_COLL_TYPE enumeration [COM+], TRKCOLL_APPLICATIONS, TRKCOLL_COMPONENTS, TRKCOLL_PROCESSES, __MIDL___MIDL_itf_autosvcs_0000_0034_0001, _cos_TRACKING_COLL_TYPE, comsvcs/TRACKING_COLL_TYPE, comsvcs/TRKCOLL_APPLICATIONS, comsvcs/TRKCOLL_COMPONENTS, comsvcs/TRKCOLL_PROCESSES, cos.tracking_coll_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

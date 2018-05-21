@@ -7,7 +7,7 @@ old-location: dataxchg\countclipboardformats.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\countclipboardformats.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: CountClipboardFormats, CountClipboardFormats function [Data Exchange], _win32_CountClipboardFormats, _win32_countclipboardformats_cpp, dataxchg.countclipboardformats, winui._win32_countclipboardformats, winuser/CountClipboardFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices

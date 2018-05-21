@@ -7,7 +7,7 @@ old-location: shell\IInitializeNetworkFolder_Initialize.htm
 old-project: shell
 ms.assetid: a547b6f9-a4cc-4924-97f3-9fe08e6efc06
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IInitializeNetworkFolder interface [Windows Shell],Initialize method, IInitializeNetworkFolder.Initialize, IInitializeNetworkFolder::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeNetworkFolder interface, _shell_IInitializeNetworkFolder_Initialize, shell.IInitializeNetworkFolder_Initialize, shobjidl/IInitializeNetworkFolder::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice3.htm
 old-project: direct3ddxgi
 ms.assetid: 3D6A0173-456D-4783-943D-35F335F358BE
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: IDXGIDevice3, IDXGIDevice3 interface [DXGI], IDXGIDevice3 interface [DXGI],described, direct3ddxgi.idxgidevice3, dxgi1_3/IDXGIDevice3
 ms.prod: windows-hardware
 ms.technology: windows-devices

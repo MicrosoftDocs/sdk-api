@@ -7,7 +7,7 @@ old-location: rras\mprinfoblockset.htm
 old-project: RRAS
 ms.assetid: 55912927-d886-46d1-a5c1-e10f19c117ab
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MprInfoBlockSet, MprInfoBlockSet function [RAS], _mpr_mprinfoblockset, mprapi/MprInfoBlockSet, rras.mprinfoblockset
 ms.prod: windows-hardware
 ms.technology: windows-devices

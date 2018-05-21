@@ -7,7 +7,7 @@ old-location: security\crypt_rsa_ssa_pss_parameters.htm
 old-project: SecCrypto
 ms.assetid: 3887e6c7-17df-42d3-82b1-a8f410321ba0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PCRYPT_RSA_SSA_PSS_PARAMETERS, CRYPT_RSA_SSA_PSS_PARAMETERS, CRYPT_RSA_SSA_PSS_PARAMETERS structure [Security], PCRYPT_RSA_SSA_PSS_PARAMETERS, PCRYPT_RSA_SSA_PSS_PARAMETERS structure pointer [Security], _CRYPT_RSA_SSA_PSS_PARAMETERS, security.crypt_rsa_ssa_pss_parameters, wincrypt/CRYPT_RSA_SSA_PSS_PARAMETERS, wincrypt/PCRYPT_RSA_SSA_PSS_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

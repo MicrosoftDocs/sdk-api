@@ -7,7 +7,7 @@ old-location: ncd\wsd_metadata_section_list_struct.htm
 old-project: WsdApi
 ms.assetid: e5c6373a-f365-499d-a971-472ffa557a41
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_METADATA_SECTION_LIST, WSD_METADATA_SECTION_LIST structure, _WSD_METADATA_SECTION_LIST, ncd.wsd_metadata_section_list_struct, wsdtypes/WSD_METADATA_SECTION_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices

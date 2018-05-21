@@ -7,7 +7,7 @@ old-location: controls\NMMOUSE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmmouse.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPNMMOUSE, LPNMMOUSE, LPNMMOUSE structure pointer [Windows Controls], NMCLICK, NMMOUSE, NMMOUSE structure [Windows Controls], _win32_NMMOUSE, _win32_NMMOUSE_cpp, commctrl/LPNMMOUSE, commctrl/NMMOUSE, controls.NMMOUSE, controls._win32_NMMOUSE, tagNMMOUSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

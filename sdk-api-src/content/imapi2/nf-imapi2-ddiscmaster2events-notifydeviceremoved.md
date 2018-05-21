@@ -7,7 +7,7 @@ old-location: imapi\ddiscmaster2events_notifydeviceremoved.htm
 old-project: imapi
 ms.assetid: 626096ba-f2d7-4a75-b04c-f95aad6915cc
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: DDiscMaster2Events interface [IMAPI],NotifyDeviceRemoved method, DDiscMaster2Events.NotifyDeviceRemoved, DDiscMaster2Events::NotifyDeviceRemoved, NotifyDeviceRemoved, NotifyDeviceRemoved method [IMAPI], NotifyDeviceRemoved method [IMAPI],DDiscMaster2Events interface, imapi.ddiscmaster2events_notifydeviceremoved, imapi2/DDiscMaster2Events::NotifyDeviceRemoved
 ms.prod: windows-hardware
 ms.technology: windows-devices

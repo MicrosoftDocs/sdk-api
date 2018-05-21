@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordisaccesscontrolledbitset.htm
 old-project: mstv
 ms.assetid: c94dc694-dc3f-4639-997e-fb6d534c9e4c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordIsAccessControlledBitSet, GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies], GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsAccessControlledBitSet method, IATSC_VCT.GetRecordIsAccessControlledBitSet, IATSC_VCT::GetRecordIsAccessControlledBitSet, IATSC_VCTGetRecordIsAccessControlledBitSet, atscpsipparser/IATSC_VCT::GetRecordIsAccessControlledBitSet, mstv.iatsc_vct_getrecordisaccesscontrolledbitset
 ms.prod: windows-hardware
 ms.technology: windows-devices

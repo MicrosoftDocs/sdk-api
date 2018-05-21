@@ -7,7 +7,7 @@ old-location: shell\ReadCabinetState.htm
 old-project: shell
 ms.assetid: 0f0c6a10-588f-4c79-b73b-cf0bf9336ffc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ReadCabinetState, ReadCabinetState function [Windows Shell], _win32_ReadCabinetState, shell.ReadCabinetState, shlobj_core/ReadCabinetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

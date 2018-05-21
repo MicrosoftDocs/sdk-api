@@ -7,7 +7,7 @@ old-location: termserv\iworkspaceregistration.htm
 old-project: TermServ
 ms.assetid: 29e7da7b-7da2-4000-8f3d-d12aa7e12fed
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IWorkspaceRegistration, IWorkspaceRegistration interface [Remote Desktop Services], IWorkspaceRegistration interface [Remote Desktop Services],described, termserv.iworkspaceregistration, workspaceruntime/IWorkspaceRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices

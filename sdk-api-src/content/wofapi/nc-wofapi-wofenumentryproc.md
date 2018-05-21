@@ -7,8 +7,8 @@ old-location: fs\wofenumentryproc.htm
 old-project: FileIO
 ms.assetid: B0569A28-7B5F-451D-A972-89A6D42F9821
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: "*WofEnumEntryProc, *WofEnumEntryProc callback function [Files], fs.wofenumentryproc, wofapi/*WofEnumEntryProc"
+ms.date: 5/16/2018
+ms.keywords: WofEnumEntryProc, WofEnumEntryProc function, WofEnumEntryProc function pointer [Files], fs.wofenumentryproc, wofapi/WofEnumEntryProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	wofapi.h
 api_name:
--	*WofEnumEntryProc
+-	WofEnumEntryProc
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# WofEnumEntryProc callback
+# WofEnumEntryProc callback function
 
 
 ## -description

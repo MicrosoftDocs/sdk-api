@@ -7,7 +7,7 @@ old-location: mscs\setappinstancecsvflags.htm
 old-project: MsCS
 ms.assetid: 37FDAB0A-1593-47D6-B4CE-A667EBA01680
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: SET_APP_INSTANCE_CSV_FLAGS, SET_APP_INSTANCE_CSV_FLAGS callback, SET_APP_INSTANCE_CSV_FLAGS callback function [Failover Cluster], mscs.setappinstancecsvflags, smbclnt/SET_APP_INSTANCE_CSV_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SET_APP_INSTANCE_CSV_FLAGS callback function

@@ -1,14 +1,14 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.TuningSpacesForCLSID
-title: ITuningSpaceContainer::TuningSpacesForCLSID method
+title: ITuningSpaceContainer::TuningSpacesForCLSID
 author: windows-driver-content
 description: The TuningSpacesForCLSID method retrieves a collection of tuning spaces that match the specified CLSID.This method is intended for Automation clients, because it returns the CLSID as a BSTR.
 old-location: mstv\ituningspacecontainer_tuningspacesforclsid.htm
 old-project: mstv
 ms.assetid: 8e2d6103-baed-40ee-9a94-9434cf8e3474
 ms.author: windowsdriverdev
-ms.date: 4/26/2018
-ms.keywords: ITuningSpaceContainer, ITuningSpaceContainer interface [Microsoft TV Technologies], _TuningSpacesForCLSID method, ITuningSpaceContainer::TuningSpacesForCLSID, ITuningSpaceContainer::_TuningSpacesForCLSID, TuningSpacesForCLSID,ITuningSpaceContainer.TuningSpacesForCLSID, _TuningSpacesForCLSID method [Microsoft TV Technologies], _TuningSpacesForCLSID method [Microsoft TV Technologies], ITuningSpaceContainer interface, mstv.ituningspacecontainer_tuningspacesforclsid, tuner/ITuningSpaceContainer::_TuningSpacesForCLSID
+ms.date: 5/14/2018
+ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],TuningSpacesForCLSID method, ITuningSpaceContainer.TuningSpacesForCLSID, ITuningSpaceContainer::TuningSpacesForCLSID, TuningSpacesForCLSID, TuningSpacesForCLSID method [Microsoft TV Technologies], TuningSpacesForCLSID method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_tuningspacesforclsid, tuner/ITuningSpaceContainer::TuningSpacesForCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	tuner.h
 api_name:
--	ITuningSpaceContainer._TuningSpacesForCLSID
+-	ITuningSpaceContainer.TuningSpacesForCLSID
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP with SP1 and later
 ---
 
-# ITuningSpaceContainer::TuningSpacesForCLSID method
+# ITuningSpaceContainer::TuningSpacesForCLSID
 
 
 ## -description

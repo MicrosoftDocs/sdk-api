@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist_setcomputeroot32bitconstants.
 old-project: direct3d12
 ms.assetid: A4623522-4748-4999-80EC-E6AC8934136A
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRoot32BitConstants method, ID3D12GraphicsCommandList.SetComputeRoot32BitConstants, ID3D12GraphicsCommandList::SetComputeRoot32BitConstants, SetComputeRoot32BitConstants, SetComputeRoot32BitConstants method, SetComputeRoot32BitConstants method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRoot32BitConstants, direct3d12.id3d12graphicscommandlist_setcomputeroot32bitconstants
 ms.prod: windows-hardware
 ms.technology: windows-devices

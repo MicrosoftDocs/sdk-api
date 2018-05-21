@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_feature_data_existing_heaps.htm
 old-project: direct3d12
 ms.assetid: 7F0D0FAD-BF29-43AD-95FA-85B9719C4782
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12_FEATURE_DATA_EXISTING_HEAPS, D3D12_FEATURE_DATA_EXISTING_HEAPS structure, d3d12/D3D12_FEATURE_DATA_EXISTING_HEAPS, direct3d12.d3d12_feature_data_existing_heaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\wsabortlistener.htm
 old-project: wsw
 ms.assetid: 894a325b-53ac-4f45-ac24-87ed3a40b03d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsAbortListener, WsAbortListener function [Web Services for Windows], webservices/WsAbortListener, wsw.wsabortlistener
 ms.prod: windows-hardware
 ms.technology: windows-devices

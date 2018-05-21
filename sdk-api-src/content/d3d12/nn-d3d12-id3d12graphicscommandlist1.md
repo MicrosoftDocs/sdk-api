@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12graphicscommandlist1.htm
 old-project: direct3d12
 ms.assetid: E156C26B-0E51-4F43-9AB2-373E4C67A496
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: ID3D12GraphicsCommandList1, ID3D12GraphicsCommandList1 interface, ID3D12GraphicsCommandList1 interface,described, d3d12/ID3D12GraphicsCommandList1, direct3d12.id3d12graphicscommandlist1
 ms.prod: windows-hardware
 ms.technology: windows-devices

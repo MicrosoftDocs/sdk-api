@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetLinearColors_color1_
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setlinearcolors.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: LinearGradientBrush class [GDI+],SetLinearColors method, LinearGradientBrush.SetLinearColors, LinearGradientBrush::SetLinearColors, SetLinearColors, SetLinearColors method [GDI+], SetLinearColors method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_SetLinearColors_color1_color2_, gdiplus._gdiplus_CLASS_LinearGradientBrush_SetLinearColors_color1_color2_
 ms.prod: windows-hardware
 ms.technology: windows-devices

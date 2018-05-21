@@ -2,11 +2,12 @@
 UID: NA:tssbx
 ms.assetid: 6f94fcf5-4429-3e2f-9af2-158daca66609
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: termserv
 ---
 

@@ -7,7 +7,7 @@ old-location: mstv\ibda_digitaldemodulator2_get_pilot.htm
 old-project: mstv
 ms.assetid: c24b7b56-b6f4-44d7-a2d3-be7d12eb2335
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_Pilot method, IBDA_DigitalDemodulator2.get_Pilot, IBDA_DigitalDemodulator2::get_Pilot, bdaiface/IBDA_DigitalDemodulator2::get_Pilot, get_Pilot, get_Pilot method [Microsoft TV Technologies], get_Pilot method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_pilot
 ms.prod: windows-hardware
 ms.technology: windows-devices

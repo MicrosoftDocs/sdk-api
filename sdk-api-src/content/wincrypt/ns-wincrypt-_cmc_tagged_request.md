@@ -7,7 +7,7 @@ old-location: security\cmc_tagged_request.htm
 old-project: SecCrypto
 ms.assetid: 425a3f14-8bc9-471d-b11c-1608db473cce
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PCMC_TAGGED_REQUEST, CMC_TAGGED_REQUEST, CMC_TAGGED_REQUEST structure [Security], PCMC_TAGGED_REQUEST, PCMC_TAGGED_REQUEST structure pointer [Security], _CMC_TAGGED_REQUEST, _crypto2_cmc_tagged_request, security.cmc_tagged_request, wincrypt/CMC_TAGGED_REQUEST, wincrypt/PCMC_TAGGED_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

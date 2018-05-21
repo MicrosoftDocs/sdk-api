@@ -7,7 +7,7 @@ old-location: intl\immgetopenstatus.htm
 old-project: Intl
 ms.assetid: 8011bb84-9bda-49b7-8f44-76af4388ce21
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ImmGetOpenStatus, ImmGetOpenStatus function [Internationalization for Windows Applications], _win32_ImmGetOpenStatus, imm/ImmGetOpenStatus, intl.immgetopenstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

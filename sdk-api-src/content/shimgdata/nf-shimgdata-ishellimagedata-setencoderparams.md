@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_SetEncoderParams.htm
 old-project: shell
 ms.assetid: 20a5b0ab-5dcb-4ea9-9c15-d7c1e6c2c6be
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IShellImageData interface [Windows Shell],SetEncoderParams method, IShellImageData.SetEncoderParams, IShellImageData::SetEncoderParams, SetEncoderParams, SetEncoderParams method [Windows Shell], SetEncoderParams method [Windows Shell],IShellImageData interface, _shell_IShellImageData_SetEncoderParams, shell.IShellImageData_SetEncoderParams, shimgdata/IShellImageData::SetEncoderParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

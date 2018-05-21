@@ -7,7 +7,7 @@ old-location: mf\imfmediatimerange.htm
 old-project: medfound
 ms.assetid: E39646E6-66F4-4413-A84B-43039689AEE7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFMediaTimeRange, IMFMediaTimeRange interface [Media Foundation], IMFMediaTimeRange interface [Media Foundation],described, mf.imfmediatimerange, mfmediaengine/IMFMediaTimeRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

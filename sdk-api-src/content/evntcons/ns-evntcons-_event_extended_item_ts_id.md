@@ -7,7 +7,7 @@ old-location: etw\event_extended_item_ts_id.htm
 old-project: ETW
 ms.assetid: fcf1252d-9730-45a2-b601-60f76decd0dd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: "*PEVENT_EXTENDED_ITEM_TS_ID, EVENT_EXTENDED_ITEM_TS_ID, EVENT_EXTENDED_ITEM_TS_ID structure [ETW], PEVENT_EXTENDED_ITEM_TS_ID, PEVENT_EXTENDED_ITEM_TS_ID structure pointer [ETW], _EVENT_EXTENDED_ITEM_TS_ID, base.event_extended_item_ts_id, etw.event_extended_item_ts_id, evntcons/EVENT_EXTENDED_ITEM_TS_ID, evntcons/PEVENT_EXTENDED_ITEM_TS_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\minidump_user_stream_str.htm
 old-project: Debug
 ms.assetid: 43eae98c-fba3-43a4-97e6-8b81874e856e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: "*PMINIDUMP_USER_STREAM, MINIDUMP_USER_STREAM, MINIDUMP_USER_STREAM structure, PMINIDUMP_USER_STREAM, PMINIDUMP_USER_STREAM structure pointer, _MINIDUMP_USER_STREAM, _win32_minidump_user_stream_str, base.minidump_user_stream_str, minidumpapiset/MINIDUMP_USER_STREAM, minidumpapiset/PMINIDUMP_USER_STREAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

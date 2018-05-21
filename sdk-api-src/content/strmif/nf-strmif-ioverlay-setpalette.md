@@ -7,7 +7,7 @@ old-location: dshow\ioverlay_setpalette.htm
 old-project: DirectShow
 ms.assetid: 572f77ab-08a8-453a-993b-724da967bcde
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IOverlay interface [DirectShow],SetPalette method, IOverlay.SetPalette, IOverlay::SetPalette, IOverlaySetPalette, SetPalette, SetPalette method [DirectShow], SetPalette method [DirectShow],IOverlay interface, dshow.ioverlay_setpalette, strmif/IOverlay::SetPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

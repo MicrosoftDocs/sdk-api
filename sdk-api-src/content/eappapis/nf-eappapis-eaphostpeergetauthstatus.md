@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeergetauthstatus.htm
 old-project: EAPHost
 ms.assetid: cb5ceffb-941f-48ad-9271-111f41adc65b
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapHostNapInfo, EapHostPeerAuthStatus, EapHostPeerGetAuthStatus, EapHostPeerGetAuthStatus function [EAPHost], EapHostPeerIdentity, EapHostPeerIdentityExtendedInfo, eaphost.eaphostpeergetauthstatus, eappapis/EapHostPeerGetAuthStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

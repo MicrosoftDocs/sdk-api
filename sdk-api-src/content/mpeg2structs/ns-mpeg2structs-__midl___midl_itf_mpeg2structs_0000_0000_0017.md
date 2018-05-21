@@ -7,7 +7,7 @@ old-location: mstv\atsc_filter_options.htm
 old-project: mstv
 ms.assetid: 16e33f92-9e25-4a03-a21f-0ea5a99470ee
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: ATSC_FILTER_OPTIONS, ATSC_FILTER_OPTIONS structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0017, mpeg2structs/ATSC_FILTER_OPTIONS, mstv.atsc_filter_options
 ms.prod: windows-hardware
 ms.technology: windows-devices

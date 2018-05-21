@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tile_range_flags.htm
 old-project: direct3d12
 ms.assetid: D6C35804-4F83-4F33-A4A3-06C5D73174FB
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12_TILE_RANGE_FLAGS, D3D12_TILE_RANGE_FLAGS enumeration, D3D12_TILE_RANGE_FLAG_NONE, D3D12_TILE_RANGE_FLAG_NULL, D3D12_TILE_RANGE_FLAG_REUSE_SINGLE_TILE, D3D12_TILE_RANGE_FLAG_SKIP, d3d12/D3D12_TILE_RANGE_FLAGS, d3d12/D3D12_TILE_RANGE_FLAG_NONE, d3d12/D3D12_TILE_RANGE_FLAG_NULL, d3d12/D3D12_TILE_RANGE_FLAG_REUSE_SINGLE_TILE, d3d12/D3D12_TILE_RANGE_FLAG_SKIP, direct3d12.d3d12_tile_range_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

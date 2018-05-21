@@ -7,7 +7,7 @@ old-location: com\ioleinplaceframe_enablemodeless.htm
 old-project: com
 ms.assetid: 4c6ea1ee-861d-45ff-a9d2-d3b241f00c9f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: EnableModeless, EnableModeless method [COM], EnableModeless method [COM],IOleInPlaceFrame interface, IOleInPlaceFrame interface [COM],EnableModeless method, IOleInPlaceFrame.EnableModeless, IOleInPlaceFrame::EnableModeless, _ole_ioleinplaceframe_enablemodeless, com.ioleinplaceframe_enablemodeless, oleidl/IOleInPlaceFrame::EnableModeless
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iatsc_stt_getprotocolversion.htm
 old-project: mstv
 ms.assetid: c735400d-9227-4f13-9703-ddafdf5772b0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetProtocolVersion, GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetProtocolVersion method, IATSC_STT.GetProtocolVersion, IATSC_STT::GetProtocolVersion, IATSC_STTGetProtocolVersion, atscpsipparser/IATSC_STT::GetProtocolVersion, mstv.iatsc_stt_getprotocolversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

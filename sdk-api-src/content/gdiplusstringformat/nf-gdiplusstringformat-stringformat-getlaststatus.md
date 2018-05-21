@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetLastStatus_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getlaststatus_15.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],StringFormat class, StringFormat class [GDI+],GetLastStatus method, StringFormat.GetLastStatus, StringFormat::GetLastStatus, _gdiplus_CLASS_StringFormat_GetLastStatus_, gdiplus._gdiplus_CLASS_StringFormat_GetLastStatus_
 ms.prod: windows-hardware
 ms.technology: windows-devices

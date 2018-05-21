@@ -7,7 +7,7 @@ old-location: ncd\wsdattachlinkedmemory_func.htm
 old-project: WsdApi
 ms.assetid: 4f7bc268-6fcf-42f2-8457-e5094bee6e68
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSDAttachLinkedMemory, WSDAttachLinkedMemory function, ncd.wsdattachlinkedmemory_func, wsdutil/WSDAttachLinkedMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

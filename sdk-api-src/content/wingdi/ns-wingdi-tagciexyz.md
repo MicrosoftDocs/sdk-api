@@ -7,7 +7,7 @@ old-location: wcs\ciexyz.htm
 old-project: WCS
 ms.assetid: 3735c143-8eb3-4b91-a81e-5bc6bda1dfaa
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPCIEXYZ, CIEXYZ, CIEXYZ FAR* LPCIEXYZ, CIEXYZ FAR* LPCIEXYZ structure [Windows Color System], CIEXYZ structure [Windows Color System], _color_CIEXYZ_str, tagCIEXYZ, wcs.ciexyz, wingdi/CIEXYZ, wingdi/CIEXYZ FAR* LPCIEXYZ"
 ms.prod: windows-hardware
 ms.technology: windows-devices

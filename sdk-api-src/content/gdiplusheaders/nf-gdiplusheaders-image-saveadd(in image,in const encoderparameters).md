@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_SaveAdd_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\imagesaveaddmethods.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Image.SaveAdd, Image.SaveAdd(IN Image,IN const EncoderParameters), Image::SaveAdd, Image::SaveAdd(IN Image,IN const EncoderParameters), SaveAdd, SaveAdd methods [GDI+], _gdiplus_CLASS_Image_SaveAdd_Methods, gdiplus._gdiplus_CLASS_Image_SaveAdd_Methods, gdiplusheaders/SaveAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

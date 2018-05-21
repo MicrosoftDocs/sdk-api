@@ -7,7 +7,7 @@ old-location: mstv\idvblinkagedescriptor_getprivatedatalength.htm
 old-project: mstv
 ms.assetid: 6c37a877-5a0e-49ed-bf75-bb8ad73fa783
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetPrivateDataLength, GetPrivateDataLength method [Microsoft TV Technologies], GetPrivateDataLength method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetPrivateDataLength method, IDvbLinkageDescriptor.GetPrivateDataLength, IDvbLinkageDescriptor::GetPrivateDataLength, dvbsiparser/IDvbLinkageDescriptor::GetPrivateDataLength, mstv.idvblinkagedescriptor_getprivatedatalength
 ms.prod: windows-hardware
 ms.technology: windows-devices

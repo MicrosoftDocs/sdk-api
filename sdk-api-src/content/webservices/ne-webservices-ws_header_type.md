@@ -7,7 +7,7 @@ old-location: wsw\ws_header_type.htm
 old-project: wsw
 ms.assetid: 4c9b927d-00c7-41e4-bc29-e84a4c23c162
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_ACTION_HEADER, WS_FAULT_TO_HEADER, WS_FROM_HEADER, WS_HEADER_TYPE, WS_HEADER_TYPE enumeration [Web Services for Windows], WS_MESSAGE_ID_HEADER, WS_RELATES_TO_HEADER, WS_REPLY_TO_HEADER, WS_TO_HEADER, webservices/WS_ACTION_HEADER, webservices/WS_FAULT_TO_HEADER, webservices/WS_FROM_HEADER, webservices/WS_HEADER_TYPE, webservices/WS_MESSAGE_ID_HEADER, webservices/WS_RELATES_TO_HEADER, webservices/WS_REPLY_TO_HEADER, webservices/WS_TO_HEADER, wsw.ws_header_type
 ms.prod: windows-hardware
 ms.technology: windows-devices

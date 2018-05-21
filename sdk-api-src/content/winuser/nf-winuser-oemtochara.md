@@ -7,7 +7,7 @@ old-location: menurc\oemtochar.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\oemtochar.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: OemToChar, OemToChar function [Menus and Other Resources], OemToCharA, OemToCharW, _win32_OemToChar, _win32_oemtochar_cpp, menurc.oemtochar, winui._win32_oemtochar, winuser/OemToChar, winuser/OemToCharA, winuser/OemToCharW
 ms.prod: windows-hardware
 ms.technology: windows-devices

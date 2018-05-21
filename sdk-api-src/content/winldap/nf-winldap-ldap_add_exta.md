@@ -7,7 +7,7 @@ old-location: ldap\ldap_add_ext.htm
 old-project: LDAP
 ms.assetid: 13ad97e7-6d3c-43a6-b806-ec775abe303c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_add_ext, ldap.ldap__add__ext, ldap.ldap_add_ext, ldap_add_ext, ldap_add_ext function [LDAP], ldap_add_extA, ldap_add_extW, winldap/ldap_add_ext, winldap/ldap_add_extA, winldap/ldap_add_extW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

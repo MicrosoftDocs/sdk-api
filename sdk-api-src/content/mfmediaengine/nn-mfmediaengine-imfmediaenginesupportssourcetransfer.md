@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesupportssourcetransfer.htm
 old-project: medfound
 ms.assetid: 8784dcc2-52f4-41d9-a0ae-3ea7a736b604
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFMediaEngineSupportsSourceTransfer, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation], IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],described, mf.imfmediaenginesupportssourcetransfer, mfmediaengine/IMFMediaEngineSupportsSourceTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices

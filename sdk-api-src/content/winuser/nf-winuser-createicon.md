@@ -7,7 +7,7 @@ old-location: menurc\createicon.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\createicon.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: CreateIcon, CreateIcon function [Menus and Other Resources], _win32_CreateIcon, _win32_createicon_cpp, menurc.createicon, winui._win32_createicon, winuser/CreateIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,7 +124,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-The <i>nWidth</i> and <i>nHeight</i> parameters must specify a width and height supported by the current display driver, because the system cannot create icons of other sizes. To determine the width and height supported by the display driver, use the <a href="base.getsystemmetrics">GetSystemMetrics</a> function, specifying the <b>SM_CXICON</b> or <b>SM_CYICON</b> value. 
+The <i>nWidth</i> and <i>nHeight</i> parameters must specify a width and height supported by the current display driver, because the system cannot create icons of other sizes. To determine the width and height supported by the display driver, use the <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> function, specifying the <b>SM_CXICON</b> or <b>SM_CYICON</b> value. 
 
 <b>CreateIcon</b> applies the following truth table to the AND and XOR bitmasks.
 
@@ -177,7 +177,7 @@ For an example, see <a href="using_icons.htm">Creating an Icon</a>.
 
 
 
-<a href="base.getsystemmetrics">GetSystemMetrics</a>
+<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
 
 
 

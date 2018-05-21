@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionresult_setresultonstrokes.htm
 old-project: tablet
 ms.assetid: 928f6f39-1b8f-403a-8c18-0931c5a6dc5d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: 928f6f39-1b8f-403a-8c18-0931c5a6dc5d, IInkRecognitionResult interface [Tablet PC],SetResultOnStrokes method, IInkRecognitionResult.SetResultOnStrokes, IInkRecognitionResult::SetResultOnStrokes, SetResultOnStrokes, SetResultOnStrokes method [Tablet PC], SetResultOnStrokes method [Tablet PC],IInkRecognitionResult interface, msinkaut/IInkRecognitionResult::SetResultOnStrokes, tablet.iinkrecognitionresult_setresultonstrokes
 ms.prod: windows-hardware
 ms.technology: windows-devices

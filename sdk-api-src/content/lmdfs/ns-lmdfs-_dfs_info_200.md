@@ -7,7 +7,7 @@ old-location: dfs\dfs_info_200_str.htm
 old-project: Dfs
 ms.assetid: a37a97b2-f2f2-45fc-9466-da75e273b075
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDFS_INFO_200, *PDFS_INFO_200, DFS_INFO_200, DFS_INFO_200 structure [Distributed File System], LPDFS_INFO_200, LPDFS_INFO_200 structure pointer [Distributed File System], PDFS_INFO_200, PDFS_INFO_200 structure pointer [Distributed File System], _DFS_INFO_200, _win32_dfs_info_200_str, dfs.dfs_info_200_str, fs.dfs_info_200_str, lmdfs/DFS_INFO_200, lmdfs/LPDFS_INFO_200, lmdfs/PDFS_INFO_200, netmgmt.dfs_info_200_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

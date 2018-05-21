@@ -7,7 +7,7 @@ old-location: ics\inet_firewall_ac_binaries.htm
 old-project: ICS
 ms.assetid: 5403303e-e65c-47cf-af84-3d748db8661b
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: "*PINET_FIREWALL_AC_BINARIES, INET_FIREWALL_AC_BINARIES, INET_FIREWALL_AC_BINARIES structure [ICS/ICF], PINET_FIREWALL_AC_BINARIES, PINET_FIREWALL_AC_BINARIES structure pointer [ICS/ICF], _INET_FIREWALL_AC_BINARIES, ics.inet_firewall_ac_binaries, networkisolation/INET_FIREWALL_AC_BINARIES, networkisolation/PINET_FIREWALL_AC_BINARIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

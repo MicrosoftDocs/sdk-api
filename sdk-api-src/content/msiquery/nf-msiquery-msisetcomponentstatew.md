@@ -7,7 +7,7 @@ old-location: setup\msisetcomponentstate.htm
 old-project: Msi
 ms.assetid: d538c81f-130b-4522-9f85-47f04e24f125
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiSetComponentState, MsiSetComponentState function, MsiSetComponentStateA, MsiSetComponentStateW, _msi_msisetcomponentstate, msiquery/MsiSetComponentState, msiquery/MsiSetComponentStateA, msiquery/MsiSetComponentStateW, setup.msisetcomponentstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

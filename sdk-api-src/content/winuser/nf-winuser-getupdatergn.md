@@ -7,7 +7,7 @@ old-location: gdi\getupdatergn.htm
 old-project: gdi
 ms.assetid: d80c4b44-3f50-46f9-bf5a-fff7868d91ba
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetUpdateRgn, GetUpdateRgn function [Windows GDI], _win32_GetUpdateRgn, gdi.getupdatergn, winuser/GetUpdateRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

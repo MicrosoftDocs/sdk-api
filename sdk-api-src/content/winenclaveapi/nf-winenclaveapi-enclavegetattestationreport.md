@@ -7,7 +7,7 @@ old-location: base\enclavegetattestationreport.htm
 old-project: Memory
 ms.assetid: FEE8F05B-540F-4C10-A90C-55607A4E9293
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: EnclaveGetAttestationReport, EnclaveGetAttestationReport function, base.enclavegetattestationreport, winenclaveapi/EnclaveGetAttestationReport
 ms.prod: windows-hardware
 ms.technology: windows-devices

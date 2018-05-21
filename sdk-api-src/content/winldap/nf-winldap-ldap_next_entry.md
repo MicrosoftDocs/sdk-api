@@ -7,7 +7,7 @@ old-location: ldap\ldap_next_entry.htm
 old-project: LDAP
 ms.assetid: a0920107-6f99-4d28-a12f-c7f952933472
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_next_entry, ldap.ldap__next__entry, ldap.ldap_next_entry, ldap_next_entry, ldap_next_entry function [LDAP], winldap/ldap_next_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrSyncItems_Next.htm
 old-project: shell
 ms.assetid: b886e3a8-a94b-45ed-893b-889bef70ae6a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IEnumSyncMgrSyncItems interface [Windows Shell],Next method, IEnumSyncMgrSyncItems.Next, IEnumSyncMgrSyncItems::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumSyncMgrSyncItems interface, _shell_IEnumSyncMgrSyncItems_Next, shell.IEnumSyncMgrSyncItems_Next, syncmgr/IEnumSyncMgrSyncItems::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

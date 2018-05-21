@@ -2,11 +2,12 @@
 UID: NA:tspubplugin2com
 ms.assetid: 188e3156-885e-3f73-873d-d6473a0c7833
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: termserv
 ---
 

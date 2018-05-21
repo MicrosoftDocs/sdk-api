@@ -7,7 +7,7 @@ old-location: mf\imfmuxstreammediatypemanager_getstreamconfiguration.htm
 old-project: medfound
 ms.assetid: 5B2B7F8C-0D3B-4BBB-8445-1A428A29A272
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetStreamConfiguration, GetStreamConfiguration method [Media Foundation], GetStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetStreamConfiguration method, IMFMuxStreamMediaTypeManager.GetStreamConfiguration, IMFMuxStreamMediaTypeManager::GetStreamConfiguration, mf.imfmuxstreammediatypemanager_getstreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::GetStreamConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

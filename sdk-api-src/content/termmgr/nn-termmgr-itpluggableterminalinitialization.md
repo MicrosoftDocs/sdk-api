@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalinitialization.htm
 old-project: Tapi
 ms.assetid: cc1e6fb7-1b2a-40bd-83a8-d3b8be93ddc0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: ITPluggableTerminalInitialization, ITPluggableTerminalInitialization interface [TAPI 2.2], ITPluggableTerminalInitialization interface [TAPI 2.2],described, _tapi3_itpluggableterminalinitialization, tapi3.itpluggableterminalinitialization, termmgr/ITPluggableTerminalInitialization
 ms.prod: windows-hardware
 ms.technology: windows-devices

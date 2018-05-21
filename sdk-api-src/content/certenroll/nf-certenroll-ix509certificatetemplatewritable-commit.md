@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplatewritable_commit.htm
 old-project: SecCertEnroll
 ms.assetid: ee7d5640-8d06-4a1a-bce2-f76ee6276207
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: Commit, Commit method [Security], Commit method [Security],IX509CertificateTemplateWritable interface, CommitFlagDeleteTemplate, CommitFlagSaveTemplateGenerateOID, CommitFlagSaveTemplateOverwrite, CommitFlagSaveTemplateUseCurrentOID, IX509CertificateTemplateWritable interface [Security],Commit method, IX509CertificateTemplateWritable.Commit, IX509CertificateTemplateWritable::Commit, certenroll/IX509CertificateTemplateWritable::Commit, security.ix509certificatetemplatewritable_commit
 ms.prod: windows-hardware
 ms.technology: windows-devices

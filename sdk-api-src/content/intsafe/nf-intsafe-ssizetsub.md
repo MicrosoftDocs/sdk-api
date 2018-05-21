@@ -7,7 +7,7 @@ old-location: shell\SSIZETSub.htm
 old-project: shell
 ms.assetid: 8c7ca2cb-3753-4d65-9179-5c8e1782c7ff
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: SSIZETSub, SSIZETSub function [Windows Shell], intsafe/SSIZETSub, shell.SSIZETSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

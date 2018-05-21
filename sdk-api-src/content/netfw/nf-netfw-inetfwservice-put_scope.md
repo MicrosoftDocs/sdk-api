@@ -7,7 +7,7 @@ old-location: ics\inetfwservice_scope.htm
 old-project: ICS
 ms.assetid: 17a7e47d-2145-4439-9999-7384de9fd12c
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetFwService interface [ICS/ICF],Scope property, INetFwService.Scope, INetFwService.put_Scope, INetFwService::Scope, INetFwService::get_Scope, INetFwService::put_Scope, Scope property [ICS/ICF], Scope property [ICS/ICF],INetFwService interface, ics.inetfwservice_scope, netfw/INetFwService::Scope, netfw/INetFwService::get_Scope, netfw/INetFwService::put_Scope, put_Scope
 ms.prod: windows-hardware
 ms.technology: windows-devices

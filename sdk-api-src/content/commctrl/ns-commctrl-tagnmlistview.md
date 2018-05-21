@@ -7,7 +7,7 @@ old-location: controls\NMLISTVIEW.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlistview.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPNMLISTVIEW, LPNMLISTVIEW, LPNMLISTVIEW structure pointer [Windows Controls], NMLISTVIEW, NMLISTVIEW structure [Windows Controls], _win32_NMLISTVIEW, _win32_NMLISTVIEW_cpp, commctrl/LPNMLISTVIEW, commctrl/NMLISTVIEW, controls.NMLISTVIEW, controls._win32_NMLISTVIEW, tagNMLISTVIEW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

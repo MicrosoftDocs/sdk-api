@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothisconnectable.htm
 old-project: Bluetooth
 ms.assetid: e20ad938-cab4-4017-95bf-8d6843f048eb
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothIsConnectable, BluetoothIsConnectable function [Bluetooth], bluetooth.bluetoothisconnectable, bluetoothapis/BluetoothIsConnectable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iassociatedidentityprovider.htm
 old-project: SecAuthN
 ms.assetid: 007d5daf-f0cf-4bfb-bd87-bb949bf90126
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: IAssociatedIdentityProvider, IAssociatedIdentityProvider interface [Security], IAssociatedIdentityProvider interface [Security],described, identityprovider/IAssociatedIdentityProvider, identitystore/IAssociatedIdentityProvider, security.iassociatedidentityprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\getmapmode.htm
 old-project: gdi
 ms.assetid: bc446b86-3dde-4460-bc54-1eaa4ad19941
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetMapMode, GetMapMode function [Windows GDI], _win32_GetMapMode, gdi.getmapmode, wingdi/GetMapMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

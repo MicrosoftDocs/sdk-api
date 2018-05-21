@@ -7,7 +7,7 @@ old-location: mf\imfasfmutualexclusion.htm
 old-project: medfound
 ms.assetid: 9c2278ec-77d1-445e-94bc-44e5d48f14ae
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 9c2278ec-77d1-445e-94bc-44e5d48f14ae, IMFASFMutualExclusion, IMFASFMutualExclusion interface [Media Foundation], IMFASFMutualExclusion interface [Media Foundation],described, mf.imfasfmutualexclusion, wmcontainer/IMFASFMutualExclusion
 ms.prod: windows-hardware
 ms.technology: windows-devices

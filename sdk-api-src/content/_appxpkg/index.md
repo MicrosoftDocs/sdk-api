@@ -2,7 +2,7 @@
 UID: TP:appxpkg
 ms.assetid: 293875dc-2153-3c83-b216-e0140d6681e4
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

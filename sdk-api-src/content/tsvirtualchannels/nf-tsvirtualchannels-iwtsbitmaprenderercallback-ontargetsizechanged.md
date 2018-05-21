@@ -7,7 +7,7 @@ old-location: termserv\iwtsbitmaprenderercallback_ontargetsizechanged.htm
 old-project: TermServ
 ms.assetid: 2c4eeec8-7d9c-4321-9fdb-3ea8c7a36893
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IWTSBitmapRendererCallback interface [Remote Desktop Services],OnTargetSizeChanged method, IWTSBitmapRendererCallback.OnTargetSizeChanged, IWTSBitmapRendererCallback::OnTargetSizeChanged, OnTargetSizeChanged, OnTargetSizeChanged method [Remote Desktop Services], OnTargetSizeChanged method [Remote Desktop Services],IWTSBitmapRendererCallback interface, termserv.iwtsbitmaprenderercallback_ontargetsizechanged, tsvirtualchannels/IWTSBitmapRendererCallback::OnTargetSizeChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

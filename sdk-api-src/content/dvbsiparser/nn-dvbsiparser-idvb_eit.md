@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit.htm
 old-project: mstv
 ms.assetid: 86280e1e-09c3-45a4-bdfb-53eda8e5700e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IDVB_EIT, IDVB_EIT interface [Microsoft TV Technologies], IDVB_EIT interface [Microsoft TV Technologies],described, IDVB_EITInterface, dvbsiparser/IDVB_EIT, mstv.idvb_eit
 ms.prod: windows-hardware
 ms.technology: windows-devices

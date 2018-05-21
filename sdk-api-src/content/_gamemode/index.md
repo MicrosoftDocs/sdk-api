@@ -2,11 +2,12 @@
 UID: TP:gamemode
 ms.assetid: 7e85c2c5-8d7f-3617-a348-14e79b75cc10
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Game Mode

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constuint32afield.htm
 old-project: wmi_v2
 ms.assetid: 8c4c7047-6cb3-4ce3-bd19-a8d2c85cf310
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_ConstUint32AField, MI_ConstUint32AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstUint32AField, mi/MI_ConstUint32AField, wmi._mi_constuint32afield, wmi_v2.mi_constuint32afield
 ms.prod: windows-hardware
 ms.technology: windows-devices

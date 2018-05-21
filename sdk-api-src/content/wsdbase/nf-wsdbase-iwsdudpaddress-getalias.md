@@ -7,7 +7,7 @@ old-location: ncd\iwsdudpaddress_getalias.htm
 old-project: WsdApi
 ms.assetid: c11a7e39-6df1-411b-9992-6ce869b0db69
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetAlias, GetAlias method, GetAlias method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetAlias method, IWSDUdpAddress.GetAlias, IWSDUdpAddress::GetAlias, ncd.iwsdudpaddress_getalias, wsdbase/IWSDUdpAddress::GetAlias
 ms.prod: windows-hardware
 ms.technology: windows-devices

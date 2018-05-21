@@ -7,7 +7,7 @@ old-location: dshow\avistdindex.htm
 old-project: DirectShow
 ms.assetid: b437b333-84a3-44d3-a4cc-0d07a331b010
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AVISTDINDEX, AVISTDINDEX structure [DirectShow], PAVISTDINDEX, PAVISTDINDEX structure pointer [DirectShow], _avistdindex, aviriff/AVISTDINDEX, aviriff/PAVISTDINDEX, dshow.avistdindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

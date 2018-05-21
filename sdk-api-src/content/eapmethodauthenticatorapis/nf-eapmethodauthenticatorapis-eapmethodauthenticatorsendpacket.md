@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorsendpacket.htm
 old-project: EAPHost
 ms.assetid: 5227ff56-8ac3-4fd7-b6c0-c2d3ef6b906e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapMethodAuthenticatorSendPacket, EapMethodAuthenticatorSendPacket function [EAPHost], eaphost.eapmethodauthenticatorsendpacket, eapmethodauthenticatorapis/EapMethodAuthenticatorSendPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509extensionalternativenames_alternativenames_property.
 old-project: SecCertEnroll
 ms.assetid: 816afa9d-2283-4e17-ad12-ee53e5353d83
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: AlternativeNames property [Security], AlternativeNames property [Security],IX509ExtensionAlternativeNames interface, IX509ExtensionAlternativeNames interface [Security],AlternativeNames property, IX509ExtensionAlternativeNames.AlternativeNames, IX509ExtensionAlternativeNames.get_AlternativeNames, IX509ExtensionAlternativeNames::AlternativeNames, IX509ExtensionAlternativeNames::get_AlternativeNames, certenroll/IX509ExtensionAlternativeNames::AlternativeNames, certenroll/IX509ExtensionAlternativeNames::get_AlternativeNames, get_AlternativeNames, security.ix509extensionalternativenames_alternativenames_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

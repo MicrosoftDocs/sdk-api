@@ -7,7 +7,7 @@ old-location: winrm\wsman_plugin_shell.htm
 old-project: WinRM
 ms.assetid: 3016612a-ce99-405b-afae-200bcad9ed20
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: WSMAN_PLUGIN_SHELL, WSMAN_PLUGIN_SHELL callback, WSMAN_PLUGIN_SHELL callback function [Windows Remote Management], WSManPluginShell, winrm.wsman_plugin_shell, wsman/WSMAN_PLUGIN_SHELL
 ms.prod: windows-hardware
 ms.technology: windows-devices

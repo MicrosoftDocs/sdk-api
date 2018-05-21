@@ -7,7 +7,7 @@ old-location: controls\itextfont2_getspaceextension.htm
 old-project: Controls
 ms.assetid: 36623ab5-3584-49c7-aeba-c34cfc8053e6
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetSpaceExtension, GetSpaceExtension method [Windows Controls], GetSpaceExtension method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetSpaceExtension method, ITextFont2.GetSpaceExtension, ITextFont2::GetSpaceExtension, controls.itextfont2_getspaceextension, tom/ITextFont2::GetSpaceExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

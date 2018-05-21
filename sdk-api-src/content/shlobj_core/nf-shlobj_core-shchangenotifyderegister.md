@@ -7,7 +7,7 @@ old-location: shell\SHChangeNotifyDeregister.htm
 old-project: shell
 ms.assetid: fad021dc-8199-4384-b623-c98bc618799f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: NTSHChangeNotifyDeregister, SHChangeNotifyDeregister, SHChangeNotifyDeregister function [Windows Shell], _win32_SHChangeNotifyDeregister, shell.SHChangeNotifyDeregister, shlobj_core/NTSHChangeNotifyDeregister, shlobj_core/SHChangeNotifyDeregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bluetooth\bluetooth_numeric_comparison_info.htm
 old-project: Bluetooth
 ms.assetid: 5e8f8250-6790-41dd-bd0b-13a421cf3ebc
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: "*PBLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_INFO structure [Bluetooth], PBLUETOOTH_NUMERIC_COMPARISON_INFO, PBLUETOOTH_NUMERIC_COMPARISON_INFO structure pointer [Bluetooth], _BLUETOOTH_NUMERIC_COMPARISON_INFO, bluetooth.bluetooth_numeric_comparison_info, bluetoothapis/BLUETOOTH_NUMERIC_COMPARISON_INFO, bluetoothapis/PBLUETOOTH_NUMERIC_COMPARISON_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

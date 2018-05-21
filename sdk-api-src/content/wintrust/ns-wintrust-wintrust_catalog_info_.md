@@ -7,7 +7,7 @@ old-location: security\wintrust_catalog_info.htm
 old-project: SecCrypto
 ms.assetid: 5d095e0f-c8c9-4717-b23a-985737b78431
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PWINTRUST_CATALOG_INFO, PWINTRUST_CATALOG_INFO, PWINTRUST_CATALOG_INFO structure pointer [Security], WINTRUST_CATALOG_INFO, WINTRUST_CATALOG_INFO structure [Security], WINTRUST_CATALOG_INFO_, _win32_wintrust_catalog_info, security.wintrust_catalog_info, wintrust/PWINTRUST_CATALOG_INFO, wintrust/WINTRUST_CATALOG_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

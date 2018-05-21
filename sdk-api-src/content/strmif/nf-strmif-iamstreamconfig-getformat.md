@@ -7,7 +7,7 @@ old-location: dshow\iamstreamconfig_getformat.htm
 old-project: DirectShow
 ms.assetid: 5443141b-eb2c-412c-8bd1-7175e724b602
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetFormat method, IAMStreamConfig.GetFormat, IAMStreamConfig::GetFormat, IAMStreamConfigGetFormat, dshow.iamstreamconfig_getformat, strmif/IAMStreamConfig::GetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constsint32a.htm
 old-project: wmi_v2
 ms.assetid: 659ac277-cb7d-4617-8ad3-262cc5a5bf85
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_ConstSint32A, MI_ConstSint32A structure [Windows Management Infrastructure (MI)], _MI_ConstSint32A, mi/MI_ConstSint32A, wmi._mi_constsint32a, wmi_v2.mi_constsint32a
 ms.prod: windows-hardware
 ms.technology: windows-devices

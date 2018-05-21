@@ -7,7 +7,7 @@ old-location: security\ocsp_request_info.htm
 old-project: SecCrypto
 ms.assetid: ec939c3b-f155-45f2-b507-6c2e6069a868
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*POCSP_REQUEST_INFO, OCSP_REQUEST_INFO, OCSP_REQUEST_INFO structure [Security], OCSP_REQUEST_V1, POCSP_REQUEST_INFO, POCSP_REQUEST_INFO structure pointer [Security], _OCSP_REQUEST_INFO, security.ocsp_request_info, wincrypt/OCSP_REQUEST_INFO, wincrypt/POCSP_REQUEST_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

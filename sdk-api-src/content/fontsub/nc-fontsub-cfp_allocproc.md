@@ -7,7 +7,7 @@ old-location: gdi\cfp_allocproc.htm
 old-project: gdi
 ms.assetid: f6a98721-ebd1-4d83-bc9d-adde2e3ce525
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: CFP_ALLOCPROC, CFP_ALLOCPROC callback, CFP_ALLOCPROC callback function [Windows GDI], _win32_CFP_ALLOCPROC, fontsub/CFP_ALLOCPROC, gdi.cfp_allocproc
 ms.prod: windows-hardware
 ms.technology: windows-devices

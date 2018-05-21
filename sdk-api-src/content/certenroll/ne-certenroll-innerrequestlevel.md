@@ -7,7 +7,7 @@ old-location: security\innerrequestlevel_enum.htm
 old-project: SecCertEnroll
 ms.assetid: 57b16024-5347-4218-90a7-d85e403aacf0
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: InnerRequestLevel, InnerRequestLevel enumeration [Security], LevelInnermost, LevelNext, certenroll/InnerRequestLevel, certenroll/LevelInnermost, certenroll/LevelNext, security.innerrequestlevel_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices

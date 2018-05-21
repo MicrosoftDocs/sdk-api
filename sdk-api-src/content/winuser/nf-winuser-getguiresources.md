@@ -7,7 +7,7 @@ old-location: base\getguiresources.htm
 old-project: ProcThread
 ms.assetid: 55fbb7e8-79b4-4011-b522-25ea5a928b86
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: GR_GDIOBJECTS, GR_GDIOBJECTS_PEAK, GR_USEROBJECTS, GR_USEROBJECTS_PEAK, GetGuiResources, GetGuiResources function, _win32_getguiresources, base.getguiresources, winuser/GetGuiResources
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: perf\perfcounterdatatype.htm
 old-project: PerfCtrs
 ms.assetid: E64C73F0-034E-408B-8537-CE6855C01347
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PERF_COUNTERSET, PERF_ERROR_RETURN, PERF_MULTIPLE_COUNTERS, PERF_MULTIPLE_INSTANCES, PERF_SINGLE_COUNTER, PerfCounterDataType, PerfCounterDataType enumeration [Perf], _PerfCounterDataType, perf.perfcounterdatatype, perflib/PERF_COUNTERSET, perflib/PERF_ERROR_RETURN, perflib/PERF_MULTIPLE_COUNTERS, perflib/PERF_MULTIPLE_INSTANCES, perflib/PERF_SINGLE_COUNTER, perflib/PerfCounterDataType
 ms.prod: windows-hardware
 ms.technology: windows-devices

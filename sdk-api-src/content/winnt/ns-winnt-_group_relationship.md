@@ -7,7 +7,7 @@ old-location: base\group_relationship.htm
 old-project: ProcThread
 ms.assetid: 3529ddef-04c5-4573-877d-c225da684e38
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: "*PGROUP_RELATIONSHIP, GROUP_RELATIONSHIP, GROUP_RELATIONSHIP structure, PGROUP_RELATIONSHIP, PGROUP_RELATIONSHIP structure pointer, _GROUP_RELATIONSHIP, base.group_relationship, winnt/GROUP_RELATIONSHIP, winnt/PGROUP_RELATIONSHIP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

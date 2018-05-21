@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_providerclsid_method.htm
 old-project: SecCrypto
 ms.assetid: 4ea109a9-00ed-46b5-a58c-7dc5bc936102
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],ProviderCLSID property, IOCSPCAConfiguration.ProviderCLSID, IOCSPCAConfiguration.get_ProviderCLSID, IOCSPCAConfiguration::ProviderCLSID, IOCSPCAConfiguration::get_ProviderCLSID, IOCSPCAConfiguration::put_ProviderCLSID, ProviderCLSID property [Security], ProviderCLSID property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::ProviderCLSID, certadm/IOCSPCAConfiguration::get_ProviderCLSID, certadm/IOCSPCAConfiguration::put_ProviderCLSID, get_ProviderCLSID, security.iocspcaconfiguration_providerclsid_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

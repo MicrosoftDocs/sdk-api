@@ -7,7 +7,7 @@ old-location: mstv\mpeg_winsock.htm
 old-project: mstv
 ms.assetid: b8128811-dd8c-40e0-9010-8c473e253270
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: MPEG_WINSOCK, MPEG_WINSOCK structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0029, mpeg2structs/MPEG_WINSOCK, mstv.mpeg_winsock
 ms.prod: windows-hardware
 ms.technology: windows-devices

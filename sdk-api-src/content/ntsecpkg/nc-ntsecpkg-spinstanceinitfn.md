@@ -7,7 +7,7 @@ old-location: security\spinstanceinit.htm
 old-project: SecAuthN
 ms.assetid: 12f5903d-af13-40fd-8a23-2a28ffd9fc44
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SpInstanceInit, SpInstanceInit function [Security], SpInstanceInitFn, _ssp_spinstanceinit, ntsecpkg/SpInstanceInit, security.spinstanceinit
 ms.prod: windows-hardware
 ms.technology: windows-devices

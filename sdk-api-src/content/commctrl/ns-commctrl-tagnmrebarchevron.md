@@ -7,7 +7,7 @@ old-location: controls\NMREBARCHEVRON.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarchevron.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPNMREBARCHEVRON, LPNMREBARCHEVRON, LPNMREBARCHEVRON structure pointer [Windows Controls], NMREBARCHEVRON, NMREBARCHEVRON structure [Windows Controls], _win32_NMREBARCHEVRON, _win32_NMREBARCHEVRON_cpp, commctrl/LPNMREBARCHEVRON, commctrl/NMREBARCHEVRON, controls.NMREBARCHEVRON, controls._win32_NMREBARCHEVRON, tagNMREBARCHEVRON"
 ms.prod: windows-hardware
 ms.technology: windows-devices

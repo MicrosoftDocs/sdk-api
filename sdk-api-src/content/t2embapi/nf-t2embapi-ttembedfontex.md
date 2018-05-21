@@ -7,7 +7,7 @@ old-location: gdi\ttembedfontex.htm
 old-project: gdi
 ms.assetid: 2b052d83-0791-4fcb-ab94-7924c751b051
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: CHARSET_SYMBOL, CHARSET_UNICODE, EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, TTEMBED_EMBEDEUDC, TTEMBED_RAW, TTEMBED_SUBSET, TTEMBED_TTCOMPRESSED, TTEmbedFontEx, TTEmbedFontEx function [Windows GDI], _win32_TTEmbedFontEx, gdi.ttembedfontex, t2embapi/TTEmbedFontEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: netshell\inithelperdll.htm
 old-project: NetShell
 ms.assetid: 9af7e818-bb08-4d35-bab4-43cb94845f25
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
-ms.keywords: InitHelperDll, InitHelperDll callback function [NetShell], NS_DLL_INIT_FN, NS_DLL_INIT_FN callback, _netsh_inithelperdll, netsh/InitHelperDll, netshell.inithelperdll
+ms.date: 5/10/2018
+ms.keywords: InitHelperDll, NS_DLL_INIT_FN, NS_DLL_INIT_FN callback, NS_DLL_INIT_FN callback function [NetShell], _netsh_inithelperdll, netsh/NS_DLL_INIT_FN, netshell.inithelperdll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Netsh.h
 api_name:
--	InitHelperDll
+-	NS_DLL_INIT_FN
 product: Windows
 targetos: Windows
 req.lib: 

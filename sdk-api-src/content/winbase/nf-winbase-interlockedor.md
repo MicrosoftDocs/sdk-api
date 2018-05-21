@@ -7,7 +7,7 @@ old-location: base\interlockedor.htm
 old-project: Sync
 ms.assetid: c677e9fb-4188-466a-8283-9d65a50d150e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/17/2018
 ms.keywords: InterlockedOr, InterlockedOr function, base.interlockedor, winbase/InterlockedOr
 ms.prod: windows-hardware
 ms.technology: windows-devices

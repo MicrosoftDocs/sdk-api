@@ -7,7 +7,7 @@ old-location: perf\pdhupdatelogfilecatalog.htm
 old-project: PerfCtrs
 ms.assetid: e8aa8462-48f1-4ccd-8c41-a7358975e056
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PdhUpdateLogFileCatalog, PdhUpdateLogFileCatalog function [Perf], _win32_pdhupdatelogfilecatalog, base.pdhupdatelogfilecatalog, pdh/PdhUpdateLogFileCatalog, perf.pdhupdatelogfilecatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices

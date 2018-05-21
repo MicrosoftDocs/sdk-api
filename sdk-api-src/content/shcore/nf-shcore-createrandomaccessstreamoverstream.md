@@ -7,7 +7,7 @@ old-location: winrt\createrandomaccessstreamoverstream.htm
 old-project: WinRT
 ms.assetid: 7A4BA702-0E2E-4FA9-8BEB-313D2D29762E
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: CreateRandomAccessStreamOverStream, CreateRandomAccessStreamOverStream function [Windows Runtime], shcore/CreateRandomAccessStreamOverStream, winrt.createrandomaccessstreamoverstream
 ms.prod: windows-hardware
 ms.technology: windows-devices

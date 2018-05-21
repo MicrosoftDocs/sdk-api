@@ -7,7 +7,7 @@ old-location: mstv\iisdb_cdt_getoriginalnetworkid.htm
 old-project: mstv
 ms.assetid: 67adf536-1163-45e3-893c-e9501fefafe7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IISDB_CDT.GetOriginalNetworkId, IISDB_CDT::GetOriginalNetworkId, dvbsiparser/IISDB_CDT::GetOriginalNetworkId, mstv.iisdb_cdt_getoriginalnetworkid
 ms.prod: windows-hardware
 ms.technology: windows-devices

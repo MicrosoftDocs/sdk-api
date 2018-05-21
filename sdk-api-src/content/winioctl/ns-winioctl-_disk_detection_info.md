@@ -7,7 +7,7 @@ old-location: fs\disk_detection_info_str.htm
 old-project: FileIO
 ms.assetid: 57ca68f4-f748-4bc4-90c3-13d545716d87
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PDISK_DETECTION_INFO, DISK_DETECTION_INFO, DISK_DETECTION_INFO structure [Files], DetectExInt13, DetectInt13, DetectNone, PDISK_DETECTION_INFO, PDISK_DETECTION_INFO structure pointer [Files], _DISK_DETECTION_INFO, _win32_disk_detection_info_str, base.disk_detection_info_str, fs.disk_detection_info_str, winioctl/DISK_DETECTION_INFO, winioctl/PDISK_DETECTION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

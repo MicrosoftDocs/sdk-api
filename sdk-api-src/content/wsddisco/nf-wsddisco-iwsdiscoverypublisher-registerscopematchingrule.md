@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoverypublisher_registerscopematchingrule_method.htm
 old-project: WsdApi
 ms.assetid: 3ceb55de-c8be-43a7-93d7-8f674f9645ef
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDiscoveryPublisher interface,RegisterScopeMatchingRule method, IWSDiscoveryPublisher.RegisterScopeMatchingRule, IWSDiscoveryPublisher::RegisterScopeMatchingRule, RegisterScopeMatchingRule, RegisterScopeMatchingRule method, RegisterScopeMatchingRule method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_registerscopematchingrule_method, wsddisco/IWSDiscoveryPublisher::RegisterScopeMatchingRule
 ms.prod: windows-hardware
 ms.technology: windows-devices

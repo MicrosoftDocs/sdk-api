@@ -7,7 +7,7 @@ old-location: controls\EDITSTREAM.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\editstream.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: EDITSTREAM, EDITSTREAM structure [Windows Controls], _editstream, _win32_EDITSTREAM_str, _win32_EDITSTREAM_str_cpp, controls.EDITSTREAM, controls._win32_EDITSTREAM_str, richedit/EDITSTREAM
 ms.prod: windows-hardware
 ms.technology: windows-devices

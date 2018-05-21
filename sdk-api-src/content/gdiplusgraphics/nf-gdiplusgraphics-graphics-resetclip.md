@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_ResetClip_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\resetclip.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Graphics class [GDI+],ResetClip method, Graphics.ResetClip, Graphics::ResetClip, ResetClip, ResetClip method [GDI+], ResetClip method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_ResetClip_, gdiplus._gdiplus_CLASS_Graphics_ResetClip_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ibda_networkprovider_gettuningspace.htm
 old-project: mstv
 ms.assetid: 3c7305a1-4a63-42a9-abc2-ae5394c3be9a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetTuningSpace, GetTuningSpace method [Microsoft TV Technologies], GetTuningSpace method [Microsoft TV Technologies],IBDA_NetworkProvider interface, IBDA_NetworkProvider interface [Microsoft TV Technologies],GetTuningSpace method, IBDA_NetworkProvider.GetTuningSpace, IBDA_NetworkProvider::GetTuningSpace, IBDA_NetworkProviderGetTuningSpace, bdaiface/IBDA_NetworkProvider::GetTuningSpace, mstv.ibda_networkprovider_gettuningspace
 ms.prod: windows-hardware
 ms.technology: windows-devices

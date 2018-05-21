@@ -7,7 +7,7 @@ old-location: bluetooth\sdpqueryuuid.htm
 old-project: Bluetooth
 ms.assetid: 8c67b1b1-d289-4273-a512-589b19cd1f85
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: SdpQueryUuid, SdpQueryUuid structure [Bluetooth], _SdpQueryUuid, bluetooth.sdpqueryuuid, bthsdpdef/SdpQueryUuid
 ms.prod: windows-hardware
 ms.technology: windows-devices

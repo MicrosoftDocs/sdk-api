@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_read.htm
 old-project: Multimedia
 ms.assetid: 95835ba2-5085-467f-ae2c-27dd4d2ea68c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],Read method, IAVIStream.Read, IAVIStream::Read, Read, Read method [Windows Multimedia], Read method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_Read, multimedia.iavistream_read, vfw/IAVIStream::Read
 ms.prod: windows-hardware
 ms.technology: windows-devices

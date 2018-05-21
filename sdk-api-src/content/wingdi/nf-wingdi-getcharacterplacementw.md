@@ -7,7 +7,7 @@ old-location: gdi\getcharacterplacement.htm
 old-project: gdi
 ms.assetid: 80d3f4b3-503b-4abb-826c-e5c09972ba2f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GCP_CLASSIN, GCP_DIACRITIC, GCP_DISPLAYZWG, GCP_GLYPHSHAPE, GCP_JUSTIFY, GCP_KASHIDA, GCP_LIGATE, GCP_MAXEXTENT, GCP_NEUTRALOVERRIDE, GCP_NUMERICOVERRIDE, GCP_NUMERICSLATIN, GCP_NUMERICSLOCAL, GCP_REORDER, GCP_SYMSWAPOFF, GCP_USEKERNING, GetCharacterPlacement, GetCharacterPlacement function [Windows GDI], GetCharacterPlacementA, GetCharacterPlacementW, _win32_GetCharacterPlacement, gdi.getcharacterplacement, wingdi/GetCharacterPlacement, wingdi/GetCharacterPlacementA, wingdi/GetCharacterPlacementW
 ms.prod: windows-hardware
 ms.technology: windows-devices

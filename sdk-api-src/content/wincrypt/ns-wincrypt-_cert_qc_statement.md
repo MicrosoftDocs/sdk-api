@@ -7,7 +7,7 @@ old-location: security\cert_qc_statement.htm
 old-project: SecCrypto
 ms.assetid: e163da81-d854-4f56-8eef-2788f1b566ba
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PCERT_QC_STATEMENT, CERT_QC_STATEMENT, CERT_QC_STATEMENT structure [Security], PCERT_QC_STATEMENT, PCERT_QC_STATEMENT structure pointer [Security], _CERT_QC_STATEMENT, security.cert_qc_statement, szOID_QC_EU_COMPLIANCE, szOID_QC_SSCD, wincrypt/CERT_QC_STATEMENT, wincrypt/PCERT_QC_STATEMENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

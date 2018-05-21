@@ -7,7 +7,7 @@ old-location: dns\dnsrecordlistfree.htm
 old-project: DNS
 ms.assetid: fc4c0cb4-646f-4946-8f07-b5a858f7064a
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: DnsRecordListFree, DnsRecordListFree function [DNS], _dns_dnsrecordlistfree, dns.dnsrecordlistfree, windns/DnsRecordListFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

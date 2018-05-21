@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_gettimeout.htm
 old-project: wmi_v2
 ms.assetid: b55e75cc-86e5-4a4e-8bb7-2fec196033cc
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_OperationOptions_GetTimeout, MI_OperationOptions_GetTimeout function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetTimeout, wmi_v2.mi_operationoptions_gettimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

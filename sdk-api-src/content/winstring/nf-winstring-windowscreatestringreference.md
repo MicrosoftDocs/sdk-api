@@ -7,7 +7,7 @@ old-location: winrt\windowscreatestringreference.htm
 old-project: WinRT
 ms.assetid: 0361BB7E-DA49-4289-A93E-DE7AAB8712AC
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: WindowsCreateStringReference, WindowsCreateStringReference function [Windows Runtime], winrt.windowscreatestringreference, winstring/WindowsCreateStringReference
 ms.prod: windows-hardware
 ms.technology: windows-devices

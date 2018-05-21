@@ -130,7 +130,7 @@ Called when the user selects an item in the menu that the language bar displays 
 
 
 
-A language bar bitmap button functions as a button item on the language bar that displays text and a small bitmap. The bitmap displayed for the item should not be larger than the size of a small icon. Obtain these dimensions by calling <a href="base.getsystemmetrics">GetSystemMetrics</a> with SM_CXSMICON for the width and SM_CYSMICON for the height.
+A language bar bitmap button functions as a button item on the language bar that displays text and a small bitmap. The bitmap displayed for the item should not be larger than the size of a small icon. Obtain these dimensions by calling <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> with SM_CXSMICON for the width and SM_CYSMICON for the height.
 
 
 
@@ -140,7 +140,7 @@ A language bar bitmap button functions as a button item on the language bar that
 
 
 
-<a href="base.getsystemmetrics">GetSystemMetrics</a>
+<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
 
 
 

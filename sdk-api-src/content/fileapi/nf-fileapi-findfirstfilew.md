@@ -7,7 +7,7 @@ old-location: fs\findfirstfile.htm
 old-project: FileIO
 ms.assetid: 02fc92c4-582d-4c9f-a811-b5c839e9fffa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: FindFirstFile, FindFirstFile function [Files], FindFirstFileA, FindFirstFileW, _win32_findfirstfile, base.findfirstfile, fileapi/FindFirstFile, fileapi/FindFirstFileA, fileapi/FindFirstFileW, fs.findfirstfile, winbase/FindFirstFile, winbase/FindFirstFileA, winbase/FindFirstFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

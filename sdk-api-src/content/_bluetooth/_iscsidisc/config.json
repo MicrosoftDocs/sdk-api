@@ -1,0 +1,7 @@
+{
+  "tech": "iscsidisc",
+  "headers": [
+    "iscsidsc.h"
+  ],
+  "displayName": "iSCSI Discovery Library API"
+}

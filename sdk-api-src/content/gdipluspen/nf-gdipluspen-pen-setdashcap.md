@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_SetDashCap_dashCap_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setdashcap.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Pen class [GDI+],SetDashCap method, Pen.SetDashCap, Pen::SetDashCap, SetDashCap, SetDashCap method [GDI+], SetDashCap method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetDashCap_dashCap_, gdiplus._gdiplus_CLASS_Pen_SetDashCap_dashCap_
 ms.prod: windows-hardware
 ms.technology: windows-devices

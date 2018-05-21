@@ -7,7 +7,7 @@ old-location: ncd\iwsdmetadataexchange_getmetadata_method.htm
 old-project: WsdApi
 ms.assetid: ab84ed56-37a5-48ff-a616-cb92dc07a8ee
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetMetadata, GetMetadata method, GetMetadata method,IWSDMetadataExchange interface, IWSDMetadataExchange interface,GetMetadata method, IWSDMetadataExchange.GetMetadata, IWSDMetadataExchange::GetMetadata, ncd.iwsdmetadataexchange_getmetadata_method, wsdclient/IWSDMetadataExchange::GetMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_dictionary.htm
 old-project: wsw
 ms.assetid: 2cba47fd-a049-4e50-99dd-20ccf91c9e0f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_XML_DICTIONARY, WS_XML_DICTIONARY structure [Web Services for Windows], _WS_XML_DICTIONARY, webservices/WS_XML_DICTIONARY, wsw.ws_xml_dictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices

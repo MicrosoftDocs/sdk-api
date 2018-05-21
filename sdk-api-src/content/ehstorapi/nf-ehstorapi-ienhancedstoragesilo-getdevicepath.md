@@ -50,7 +50,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Retrieves the path to the silo device node. The returned string is suitable for passing to <b>Windows System</b> APIs such as <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> or <a href="http://go.microsoft.com/fwlink/p/?linkid=134840">SetupDiOpenDeviceInterface</a>.
+Retrieves the path to the silo device node. The returned string is suitable for passing to <b>Windows System</b> APIs such as <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552074">SetupDiOpenDeviceInterface</a>.
 
 
 ## -parameters

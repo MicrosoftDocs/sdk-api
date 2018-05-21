@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder_getfiltergraph.htm
 old-project: DirectShow
 ms.assetid: 9cb43dca-79f1-4467-8e17-6f2a0b4db785
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetFiltergraph, GetFiltergraph method [DirectShow], GetFiltergraph method [DirectShow],ICaptureGraphBuilder interface, ICaptureGraphBuilder interface [DirectShow],GetFiltergraph method, ICaptureGraphBuilder.GetFiltergraph, ICaptureGraphBuilder::GetFiltergraph, ICaptureGraphBuilderGetFiltergraph, dshow.icapturegraphbuilder_getfiltergraph, strmif/ICaptureGraphBuilder::GetFiltergraph
 ms.prod: windows-hardware
 ms.technology: windows-devices

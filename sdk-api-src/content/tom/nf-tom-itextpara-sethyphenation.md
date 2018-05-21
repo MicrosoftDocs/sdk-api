@@ -7,7 +7,7 @@ old-location: controls\ITextPara_SetHyphenation.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\sethyphenation.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextPara interface [Windows Controls],SetHyphenation method, ITextPara.SetHyphenation, ITextPara::SetHyphenation, SetHyphenation, SetHyphenation method [Windows Controls], SetHyphenation method [Windows Controls],ITextPara interface, _win32_ITextPara_SetHyphenation, _win32_ITextPara_SetHyphenation_cpp, controls.ITextPara_SetHyphenation, controls._win32_ITextPara_SetHyphenation, tom/ITextPara::SetHyphenation
 ms.prod: windows-hardware
 ms.technology: windows-devices

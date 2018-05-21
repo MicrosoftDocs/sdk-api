@@ -7,7 +7,7 @@ old-location: display\ddopendirectdrawout.htm
 old-project: display
 ms.assetid: 49fa1354-2b66-4e97-a8e6-aa7c995d6628
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*LPDDOPENDIRECTDRAWOUT, DDOPENDIRECTDRAWOUT, DDOPENDIRECTDRAWOUT structure [Display Devices], LPDDOPENDIRECTDRAWOUT, LPDDOPENDIRECTDRAWOUT structure pointer [Display Devices], _DDOPENDIRECTDRAWOUT, ddkmapi/DDOPENDIRECTDRAWOUT, ddkmapi/LPDDOPENDIRECTDRAWOUT, ddstrcts_26b6b5d6-563a-4d01-b2f5-dc984b8d382e.xml, display.ddopendirectdrawout"
 ms.prod: windows-hardware
 ms.technology: windows-devices

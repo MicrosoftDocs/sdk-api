@@ -7,7 +7,7 @@ old-location: mstv\ipersisttunexml_initnew.htm
 old-project: mstv
 ms.assetid: 75485d59-118c-4098-974b-40f7a36dbd91
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IPersistTuneXml interface [Microsoft TV Technologies],InitNew method, IPersistTuneXml.InitNew, IPersistTuneXml::InitNew, InitNew, InitNew method [Microsoft TV Technologies], InitNew method [Microsoft TV Technologies],IPersistTuneXml interface, mstv.ipersisttunexml_initnew, tuner/IPersistTuneXml::InitNew
 ms.prod: windows-hardware
 ms.technology: windows-devices

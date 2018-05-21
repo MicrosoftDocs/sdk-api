@@ -7,7 +7,7 @@ old-location: security\saslsetcontextoption.htm
 old-project: SecAuthN
 ms.assetid: 3c3b1209-b0de-4100-8dfe-53ea314b790b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SASL_OPTION_AUTHZ_PROCESSING, SASL_OPTION_AUTHZ_STRING, SASL_OPTION_RECV_SIZE, SASL_OPTION_SEND_SIZE, SaslSetContextOption, SaslSetContextOption function [Security], security.saslsetcontextoption, sspi/SaslSetContextOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SaslSetContextOption function

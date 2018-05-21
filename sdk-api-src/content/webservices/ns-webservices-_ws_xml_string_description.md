@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_string_description.htm
 old-project: wsw
 ms.assetid: 5b3c28ed-ed2c-4d65-a641-a653eddd021e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_XML_STRING_DESCRIPTION, WS_XML_STRING_DESCRIPTION structure [Web Services for Windows], _WS_XML_STRING_DESCRIPTION, webservices/WS_XML_STRING_DESCRIPTION, wsw.ws_xml_string_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\ivirtualsurfaceimagesourcenative_registerforupdatesneeded.ht
 old-project: WinRT
 ms.assetid: D12AE5FD-ED3D-49E5-8E41-B1598C64A108
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: IVirtualSurfaceImageSourceNative interface [Windows Runtime],RegisterForUpdatesNeeded method, IVirtualSurfaceImageSourceNative.RegisterForUpdatesNeeded, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded, IVirtualSurfaceImageSourceNative::xaml, RegisterForUpdatesNeeded, RegisterForUpdatesNeeded method [Windows Runtime], RegisterForUpdatesNeeded method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, windows/IVirtualSurfaceImageSourceNative::RegisterForUpdatesNeeded, winrt.ivirtualsurfaceimagesourcenative_registerforupdatesneeded
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: setup\msidetermineapplicablepatches.htm
 old-project: Msi
 ms.assetid: 2362d1dd-695e-48a3-b8ef-4516952ed253
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MsiDetermineApplicablePatches, MsiDetermineApplicablePatches function, MsiDetermineApplicablePatchesA, MsiDetermineApplicablePatchesW, msi/MsiDetermineApplicablePatches, msi/MsiDetermineApplicablePatchesA, msi/MsiDetermineApplicablePatchesW, setup.msidetermineapplicablepatches
 ms.prod: windows-hardware
 ms.technology: windows-devices

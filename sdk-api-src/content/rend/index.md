@@ -2,7 +2,7 @@
 UID: NA:rend
 ms.assetid: c1afc144-3799-37a1-9287-ce110baa1159
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

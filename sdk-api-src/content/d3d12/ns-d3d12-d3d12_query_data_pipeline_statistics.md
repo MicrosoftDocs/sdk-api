@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_query_data_pipeline_statistics.htm
 old-project: direct3d12
 ms.assetid: 0A84A3C8-0F6F-420E-88C9-26EC03F03179
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12_QUERY_DATA_PIPELINE_STATISTICS, D3D12_QUERY_DATA_PIPELINE_STATISTICS structure, d3d12/D3D12_QUERY_DATA_PIPELINE_STATISTICS, direct3d12.d3d12_query_data_pipeline_statistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

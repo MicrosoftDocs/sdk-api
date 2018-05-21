@@ -7,7 +7,7 @@ old-location: dshow\iamlatency.htm
 old-project: DirectShow
 ms.assetid: 83384ef6-40d6-4d37-866d-6059dc5d7542
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMLatency, IAMLatency interface [DirectShow], IAMLatency interface [DirectShow],described, IAMLatencyInterface, dshow.iamlatency, strmif/IAMLatency
 ms.prod: windows-hardware
 ms.technology: windows-devices

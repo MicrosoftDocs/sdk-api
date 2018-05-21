@@ -7,7 +7,7 @@ old-location: shell\RemoveWindowSubclass.htm
 old-project: shell
 ms.assetid: 09f27240-f3af-4791-afcb-a82bda79712a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RemoveWindowSubclass, RemoveWindowSubclass function [Windows Shell], commctrl/RemoveWindowSubclass, inet_RemoveWindowSubclass, shell.RemoveWindowSubclass
 ms.prod: windows-hardware
 ms.technology: windows-devices

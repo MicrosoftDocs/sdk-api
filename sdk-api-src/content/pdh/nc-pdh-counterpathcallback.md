@@ -7,7 +7,7 @@ old-location: perf\counterpathcallback.htm
 old-project: PerfCtrs
 ms.assetid: b7a2112e-9f50-4a36-b022-f9609b2827bc
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: CounterPathCallBack, CounterPathCallBack callback, CounterPathCallBack callback function [Perf], _win32_counterpathcallback, base.counterpathcallback, pdh/CounterPathCallBack, perf.counterpathcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

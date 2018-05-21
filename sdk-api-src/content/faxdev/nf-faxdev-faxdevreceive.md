@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevreceive.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_31lx.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxDevReceive, FaxDevReceive function [Fax Service], _mfax_faxdevreceive, fax._mfax_faxdevreceive, faxdev/FaxDevReceive
 ms.prod: windows-hardware
 ms.technology: windows-devices

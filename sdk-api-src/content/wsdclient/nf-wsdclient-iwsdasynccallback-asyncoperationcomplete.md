@@ -7,7 +7,7 @@ old-location: ncd\iwsdasynccallback_asyncoperationcomplete_method.htm
 old-project: WsdApi
 ms.assetid: f2272d1e-bb12-43cd-a0ae-80530ad25fcf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: AsyncOperationComplete, AsyncOperationComplete method, AsyncOperationComplete method,IWSDAsyncCallback interface, IWSDAsyncCallback interface,AsyncOperationComplete method, IWSDAsyncCallback.AsyncOperationComplete, IWSDAsyncCallback::AsyncOperationComplete, ncd.iwsdasynccallback_asyncoperationcomplete_method, wsdclient/IWSDAsyncCallback::AsyncOperationComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

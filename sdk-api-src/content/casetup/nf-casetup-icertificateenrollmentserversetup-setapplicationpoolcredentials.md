@@ -7,7 +7,7 @@ old-location: security\icertificateenrollmentserversetup_setapplicationpoolcrede
 old-project: SecCrypto
 ms.assetid: E85DA115-C705-44B8-B4D4-E862634CDC41
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],SetApplicationPoolCredentials method, ICertificateEnrollmentServerSetup.SetApplicationPoolCredentials, ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials, SetApplicationPoolCredentials, SetApplicationPoolCredentials method [Security], SetApplicationPoolCredentials method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::SetApplicationPoolCredentials, security.icertificateenrollmentserversetup_setapplicationpoolcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

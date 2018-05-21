@@ -7,7 +7,7 @@ old-location: controls\Edit_GetModify.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getmodify.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: Edit_GetModify, Edit_GetModify macro [Windows Controls], _win32_Edit_GetModify, _win32_Edit_GetModify_cpp, controls.Edit_GetModify, controls._win32_Edit_GetModify, windowsx/Edit_GetModify
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,11 +2,12 @@
 UID: TP:of
 ms.assetid: 2f2d31c8-6a7c-3de3-a1d6-93b8c634470c
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Offline Files

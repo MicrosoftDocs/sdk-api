@@ -7,7 +7,7 @@ old-location: base\securememorycachecallback.htm
 old-project: Memory
 ms.assetid: abde4b6f-7cd8-4a4b-9b00-f035b2c29054
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: PSECURE_MEMORY_CACHE_CALLBACK, PSECURE_MEMORY_CACHE_CALLBACK callback function, SecureMemoryCacheCallback, SecureMemoryCacheCallback callback, SecureMemoryCacheCallback callback function, base.securememorycachecallback, winnt/PSECURE_MEMORY_CACHE_CALLBACK, winnt/SecureMemoryCacheCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -100,8 +100,8 @@ After the callback function is registered, it is called after any attempt to fre
     <b>FALSE</b>.
 
 The application secures and unsecures a memory range by sending requests to a device driver, which uses the 
-    <a href="http://go.microsoft.com/fwlink/p/?linkid=99148">MmSecureVirtualMemory</a> and 
-    <a href="http://go.microsoft.com/fwlink/p/?linkid=100741">MmUnsecureVirtualMemory</a> 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff556374">MmSecureVirtualMemory</a> and 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff556395">MmUnsecureVirtualMemory</a> 
     functions to actually secure and unsecure the range. Operations on other types of secured or locked memory do not 
     trigger this callback.
 

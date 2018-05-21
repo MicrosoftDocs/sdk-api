@@ -7,7 +7,7 @@ old-location: ncd\iwsddevicehost_stop_method.htm
 old-project: WsdApi
 ms.assetid: 7a31e45a-7d38-44b7-84c7-7471bc14cc94
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDDeviceHost interface,Stop method, IWSDDeviceHost.Stop, IWSDDeviceHost::Stop, Stop, Stop method, Stop method,IWSDDeviceHost interface, ncd.iwsddevicehost_stop_method, wsdhost/IWSDDeviceHost::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

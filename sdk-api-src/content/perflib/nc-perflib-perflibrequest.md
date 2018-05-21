@@ -7,7 +7,7 @@ old-location: perf\controlcallback_perflibv2.htm
 old-project: PerfCtrs
 ms.assetid: 0f771ab7-af42-481b-b2da-20dcdf49b82b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: ControlCallback, ControlCallback callback function [Perf], PERFLIBREQUEST, PERFLIBREQUEST callback, PERF_ADD_COUNTER, PERF_COLLECT_END, PERF_COLLECT_START, PERF_ENUM_INSTANCES, PERF_REMOVE_COUNTER, base.controlcallback_perflibv2, perf.controlcallback_perflibv2, perflib/ControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

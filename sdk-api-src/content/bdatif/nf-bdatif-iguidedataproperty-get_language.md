@@ -7,7 +7,7 @@ old-location: mstv\iguidedataproperty_get_language.htm
 old-project: mstv
 ms.assetid: e49a35f3-0517-4e84-b806-203818a0f62c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Language method, IGuideDataProperty.get_Language, IGuideDataProperty::get_Language, IGuideDataPropertyget_Language, bdatif/IGuideDataProperty::get_Language, get_Language, get_Language method [Microsoft TV Technologies], get_Language method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_language
 ms.prod: windows-hardware
 ms.technology: windows-devices

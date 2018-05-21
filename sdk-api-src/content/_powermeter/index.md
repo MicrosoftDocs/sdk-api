@@ -2,7 +2,7 @@
 UID: TP:powermeter
 ms.assetid: 87d19931-d859-3aff-b7ce-1b0060d965a5
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ For the programming guide, see [Power Metering and Budgeting Reference](https://
 | Title   | Description   |
 | ---- |:---- |
 | [EMI_MEASUREMENT_DATA structure](..\emi\ns-emi-emi_measurement_data.md) | The EMI_MEASUREMENT_DATA structure provides data about the current energy measurement and the time at which the measurement was taken. |
-| [EMI_METADATA structure](..\emi\ns-emi-emi_metadata.md) | The EMI_MEASUREMENT_DATA structure provides data about the current energy measurement and the time at which the measurement was taken. |
+| [EMI_METADATA structure](..\emi\ns-emi-emi_metadata.md) | The EMI_METADATA structure provides metadata about a device that supports the Energy Metering Interface (EMI) interface, such as the hardware model and hardware revision. |
 | [EMI_METADATA_SIZE structure](..\emi\ns-emi-emi_metadata_size.md) | The EMI_METADATA_SIZE structure specifies the size of the Energy Metering Interface (EMI) metadata object that can be obtained from the device by issuing an IOCTL_EMI_GET_METADATA request. |
 | [EMI_VERSION structure](..\emi\ns-emi-emi_version.md) | The EMI_VERSION structure describes the version of the Energy Metering Interface (EMI) that is supported by a device. |
 

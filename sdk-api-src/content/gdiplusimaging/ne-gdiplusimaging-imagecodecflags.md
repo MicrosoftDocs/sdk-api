@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_ImageCodecFlags.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\imagecodecflags.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: ImageCodecFlags, ImageCodecFlags enumeration [GDI+], ImageCodecFlagsBlockingDecode, ImageCodecFlagsBuiltin, ImageCodecFlagsDecoder, ImageCodecFlagsEncoder, ImageCodecFlagsSeekableEncode, ImageCodecFlagsSupportBitmap, ImageCodecFlagsSupportVector, ImageCodecFlagsSystem, ImageCodecFlagsUser, _gdiplus_ENUM_ImageCodecFlags, gdiplus._gdiplus_ENUM_ImageCodecFlags, gdiplusimaging/ImageCodecFlags, gdiplusimaging/ImageCodecFlagsBlockingDecode, gdiplusimaging/ImageCodecFlagsBuiltin, gdiplusimaging/ImageCodecFlagsDecoder, gdiplusimaging/ImageCodecFlagsEncoder, gdiplusimaging/ImageCodecFlagsSeekableEncode, gdiplusimaging/ImageCodecFlagsSupportBitmap, gdiplusimaging/ImageCodecFlagsSupportVector, gdiplusimaging/ImageCodecFlagsSystem, gdiplusimaging/ImageCodecFlagsUser
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\spgetcredentials.htm
 old-project: SecAuthN
 ms.assetid: bdf96b19-30eb-4cb2-b3ec-bd6f406233c5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SpGetCredentials, SpGetCredentials function [Security], SpGetCredentialsFn, _ssp_spgetcredentials, ntsecpkg/SpGetCredentials, security.spgetcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

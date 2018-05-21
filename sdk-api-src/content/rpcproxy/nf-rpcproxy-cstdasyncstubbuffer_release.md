@@ -7,7 +7,7 @@ old-location: rpc\cstdasyncstubbuffer_release.htm
 old-project: Rpc
 ms.assetid: 963EB39C-F260-4FE5-94A9-D23AC7CC59E1
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: CStdAsyncStubBuffer_Release, CStdAsyncStubBuffer_Release function [RPC], rpc.cstdasyncstubbuffer_release, rpcproxy/CStdAsyncStubBuffer_Release
 ms.prod: windows-hardware
 ms.technology: windows-devices

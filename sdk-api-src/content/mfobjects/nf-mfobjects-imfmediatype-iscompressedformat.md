@@ -7,7 +7,7 @@ old-location: mf\imfmediatype_iscompressedformat.htm
 old-project: medfound
 ms.assetid: d15d683b-f2ce-40ac-9724-a0785f5d335c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFMediaType interface [Media Foundation],IsCompressedFormat method, IMFMediaType.IsCompressedFormat, IMFMediaType::IsCompressedFormat, IsCompressedFormat, IsCompressedFormat method [Media Foundation], IsCompressedFormat method [Media Foundation],IMFMediaType interface, d15d683b-f2ce-40ac-9724-a0785f5d335c, mf.imfmediatype_iscompressedformat, mfobjects/IMFMediaType::IsCompressedFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

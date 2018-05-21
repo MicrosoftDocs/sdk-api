@@ -7,7 +7,7 @@ old-location: intl\idntounicode.htm
 old-project: Intl
 ms.assetid: 90707414-aef7-4265-bc2b-d48ac79db099
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IdnToUnicode, IdnToUnicode function [Internationalization for Windows Applications], _win32_IdnToUnicode, intl.idntounicode, winnls/IdnToUnicode
 ms.prod: windows-hardware
 ms.technology: windows-devices

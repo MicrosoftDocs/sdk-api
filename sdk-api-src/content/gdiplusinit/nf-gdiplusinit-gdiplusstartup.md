@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_FUNC_GdiplusStartup_token_input_output_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\gdiplusstartup.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GdiplusStartup, GdiplusStartup function [GDI+], _gdiplus_FUNC_GdiplusStartup_token_input_output_, gdiplus._gdiplus_FUNC_GdiplusStartup_token_input_output_, gdiplusinit/GdiplusStartup
 ms.prod: windows-hardware
 ms.technology: windows-devices

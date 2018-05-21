@@ -2,11 +2,12 @@
 UID: TP:htmlhelp
 ms.assetid: adfbbda2-b7ca-3f58-bd38-3aaccbf29126
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Microsoft HTML Help 1.4

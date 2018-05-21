@@ -7,7 +7,7 @@ old-location: menurc\setmenuitembitmaps.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenuitembitmaps.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: MF_BYCOMMAND, MF_BYPOSITION, SetMenuItemBitmaps, SetMenuItemBitmaps function [Menus and Other Resources], _win32_SetMenuItemBitmaps, _win32_setmenuitembitmaps_cpp, menurc.setmenuitembitmaps, winui._win32_setmenuitembitmaps, winuser/SetMenuItemBitmaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -147,7 +147,7 @@ When the menu is destroyed, these bitmaps are not destroyed; it is up to the app
 
 The selected and clear bitmaps should be monochrome. The system uses the Boolean AND operator to combine bitmaps with the menu so that the white part becomes transparent and the black part becomes the menu-item color. If you use color bitmaps, the results may be undesirable.
 
-Use the <a href="base.getsystemmetrics">GetSystemMetrics</a> function with the <b>CXMENUCHECK</b> and <b>CYMENUCHECK</b> values to retrieve the bitmap dimensions.
+Use the <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> function with the <b>CXMENUCHECK</b> and <b>CYMENUCHECK</b> values to retrieve the bitmap dimensions.
 
 
 #### Examples

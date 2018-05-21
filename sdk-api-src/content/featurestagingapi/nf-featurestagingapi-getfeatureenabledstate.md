@@ -7,7 +7,7 @@ old-location: winprog\getfeatureenabledstate.htm
 old-project: DevNotes
 ms.assetid: F07DFA37-6155-473F-A426-7D15F3ED46B1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetFeatureEnabledState, GetFeatureEnabledState function [Windows API], featurestagingapi/GetFeatureEnabledState, winprog.getfeatureenabledstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

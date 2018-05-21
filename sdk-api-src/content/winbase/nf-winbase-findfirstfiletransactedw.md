@@ -7,7 +7,7 @@ old-location: fs\findfirstfiletransacted.htm
 old-project: FileIO
 ms.assetid: d94bf32b-f14b-44b4-824b-ed453d0424ef
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: FIND_FIRST_EX_CASE_SENSITIVE, FindFirstFileTransacted, FindFirstFileTransacted function [Files], FindFirstFileTransactedA, FindFirstFileTransactedW, fs.findfirstfiletransacted, winbase/FindFirstFileTransacted, winbase/FindFirstFileTransactedA, winbase/FindFirstFileTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

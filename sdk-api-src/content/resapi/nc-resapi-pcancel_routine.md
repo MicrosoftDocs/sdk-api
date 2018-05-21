@@ -7,7 +7,7 @@ old-location: mscs\cancel.htm
 old-project: MsCS
 ms.assetid: F2A22C00-5B25-48F7-BB25-9C351A47B770
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: Cancel, Cancel callback, Cancel callback function [Failover Cluster], PCANCEL_ROUTINE, PCANCEL_ROUTINE callback function [Failover Cluster], mscs.cancel, resapi/Cancel, resapi/PCANCEL_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:dot1x
 ms.assetid: 2a7bf8b9-273f-3795-823b-4358785e0159
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

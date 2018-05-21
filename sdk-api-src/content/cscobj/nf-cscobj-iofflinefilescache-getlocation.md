@@ -7,7 +7,7 @@ old-location: of\iofflinefilescache_getlocation.htm
 old-project: OfflineFiles
 ms.assetid: e608c662-23d2-4dcc-95fc-e949ba9f848f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: GetLocation, GetLocation method [Offline Files], GetLocation method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetLocation method, IOfflineFilesCache.GetLocation, IOfflineFilesCache::GetLocation, cscobj/IOfflineFilesCache::GetLocation, of.iofflinefilescache_getlocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

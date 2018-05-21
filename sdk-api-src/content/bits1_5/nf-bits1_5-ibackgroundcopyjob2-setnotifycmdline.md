@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob2_setnotifycmdline.htm
 old-project: Bits
 ms.assetid: 61b99d01-ca0f-4a89-b7ca-77d23c21a9ad
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetNotifyCmdLine method, IBackgroundCopyJob2.SetNotifyCmdLine, IBackgroundCopyJob2::SetNotifyCmdLine, SetNotifyCmdLine, SetNotifyCmdLine method [BITS], SetNotifyCmdLine method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setnotifycmdline, bits.ibackgroundcopyjob2_setnotifycmdline, bits1_5/IBackgroundCopyJob2::SetNotifyCmdLine
 ms.prod: windows-hardware
 ms.technology: windows-devices

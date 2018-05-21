@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddPath_addingPath_connect_.ht
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\addpath.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: AddPath, AddPath method [GDI+], AddPath method [GDI+],GraphicsPath class, FALSE, GraphicsPath class [GDI+],AddPath method, GraphicsPath.AddPath, GraphicsPath::AddPath, TRUE, _gdiplus_CLASS_GraphicsPath_AddPath_addingPath_connect_, gdiplus._gdiplus_CLASS_GraphicsPath_AddPath_addingPath_connect_
 ms.prod: windows-hardware
 ms.technology: windows-devices

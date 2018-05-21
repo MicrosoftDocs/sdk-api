@@ -7,7 +7,7 @@ old-location: security\iobjectid_getalgorithmname.htm
 old-project: SecCertEnroll
 ms.assetid: 3d24d658-1016-4e63-8d93-5db0a3144121
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: GetAlgorithmName, GetAlgorithmName method [Security], GetAlgorithmName method [Security],IObjectId interface, IObjectId interface [Security],GetAlgorithmName method, IObjectId.GetAlgorithmName, IObjectId::GetAlgorithmName, certenroll/IObjectId::GetAlgorithmName, security.iobjectid_getalgorithmname
 ms.prod: windows-hardware
 ms.technology: windows-devices

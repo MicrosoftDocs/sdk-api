@@ -7,7 +7,7 @@ old-location: ncd\iwsdhttpmessageparameters_setcontext.htm
 old-project: WsdApi
 ms.assetid: 8e1bbfbe-b7a7-4235-bb2d-8ee0ef301871
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetContext method, IWSDHttpMessageParameters.SetContext, IWSDHttpMessageParameters::SetContext, SetContext, SetContext method, SetContext method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setcontext, wsdbase/IWSDHttpMessageParameters::SetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

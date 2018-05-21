@@ -7,7 +7,7 @@ old-location: controls\ITextPara_SetKeepTogether.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setkeeptogether.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextPara interface [Windows Controls],SetKeepTogether method, ITextPara.SetKeepTogether, ITextPara::SetKeepTogether, SetKeepTogether, SetKeepTogether method [Windows Controls], SetKeepTogether method [Windows Controls],ITextPara interface, _win32_ITextPara_SetKeepTogether, _win32_ITextPara_SetKeepTogether_cpp, controls.ITextPara_SetKeepTogether, controls._win32_ITextPara_SetKeepTogether, tom/ITextPara::SetKeepTogether
 ms.prod: windows-hardware
 ms.technology: windows-devices

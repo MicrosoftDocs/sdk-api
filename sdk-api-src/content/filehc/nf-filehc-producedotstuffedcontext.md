@@ -7,7 +7,7 @@ old-location: winprog\_producedotstuffedcontext.htm
 old-project: DevNotes
 ms.assetid: 6fbac935-339d-4744-9359-7b3b85bfb7c6
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ProduceDotStuffedContext, ProduceDotStuffedContext function [Windows API], filehc/ProduceDotStuffedContext, winprog._producedotstuffedcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CREATEFILE2_EXTENDED_PARAMETERS, *PCREATEFILE2_EXTENDED_PARAMETERS, *LPCREATEFILE2_EXTENDED_PARAMETERS
+req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 topic_type:
 -	APIRef
 -	kbSyntax

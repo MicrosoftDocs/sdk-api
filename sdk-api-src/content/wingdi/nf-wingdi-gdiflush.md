@@ -7,7 +7,7 @@ old-location: gdi\gdiflush.htm
 old-project: gdi
 ms.assetid: 6d2f398d-7a30-4b14-81de-23ab10e1749c
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GdiFlush, GdiFlush function [Windows GDI], _win32_GdiFlush, gdi.gdiflush, wingdi/GdiFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices

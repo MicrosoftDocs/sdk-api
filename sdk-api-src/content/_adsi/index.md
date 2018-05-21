@@ -2,7 +2,7 @@
 UID: TP:adsi
 ms.assetid: 534ca0a3-4d26-3e5d-a913-50ae21601fba
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

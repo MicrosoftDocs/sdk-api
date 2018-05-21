@@ -7,7 +7,7 @@ old-location: shell\ShortToUChar.htm
 old-project: shell
 ms.assetid: dd3eab34-7cf1-4a60-8fd8-bcc9db1855d7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ShortToUChar, ShortToUChar function [Windows Shell], _shell_ShortToUChar, intsafe/ShortToUChar, shell.ShortToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

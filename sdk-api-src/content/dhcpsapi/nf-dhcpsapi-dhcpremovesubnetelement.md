@@ -7,7 +7,7 @@ old-location: dhcp\dhcpremovesubnetelement.htm
 old-project: DHCP
 ms.assetid: b27de25f-c96d-4881-9788-495ffe220d61
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpRemoveSubnetElement, DhcpRemoveSubnetElement function [DHCP], dhcp.dhcpremovesubnetelement, dhcpsapi/DhcpRemoveSubnetElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

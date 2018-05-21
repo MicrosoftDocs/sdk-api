@@ -7,7 +7,7 @@ old-location: intl\wordlist_type.htm
 old-project: Intl
 ms.assetid: F1D517F3-CAE3-46DC-867E-D8D73C20CF9A
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: WORDLIST_TYPE, WORDLIST_TYPE enumeration [Internationalization for Windows Applications], WORDLIST_TYPE_ADD, WORDLIST_TYPE_AUTOCORRECT, WORDLIST_TYPE_EXCLUDE, WORDLIST_TYPE_IGNORE, intl.wordlist_type, spellcheck/WORDLIST_TYPE, spellcheck/WORDLIST_TYPE_ADD, spellcheck/WORDLIST_TYPE_AUTOCORRECT, spellcheck/WORDLIST_TYPE_EXCLUDE, spellcheck/WORDLIST_TYPE_IGNORE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # WORDLIST_TYPE enumeration

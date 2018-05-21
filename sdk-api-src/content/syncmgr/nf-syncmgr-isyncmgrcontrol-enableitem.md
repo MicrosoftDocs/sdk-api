@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_EnableItem.htm
 old-project: shell
 ms.assetid: 2e88fb21-201c-47b9-b341-1a8d9358a455
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: EnableItem, EnableItem method [Windows Shell], EnableItem method [Windows Shell],ISyncMgrControl interface, ISyncMgrControl interface [Windows Shell],EnableItem method, ISyncMgrControl.EnableItem, ISyncMgrControl::EnableItem, _shell_ISyncMgrControl_EnableItem, shell.ISyncMgrControl_EnableItem, syncmgr/ISyncMgrControl::EnableItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

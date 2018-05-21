@@ -7,7 +7,7 @@ old-location: shell\AssocCreateForClasses.htm
 old-project: shell
 ms.assetid: 43257507-dd5e-4622-8445-c132187fd1e5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AssocCreateForClasses, AssocCreateForClasses function [Windows Shell], _shell_AssocCreateForClasses, shell.AssocCreateForClasses, shellapi/AssocCreateForClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\initializeprocthreadattributelist.htm
 old-project: ProcThread
 ms.assetid: 58ce70a1-5b73-429f-a062-bacd9b9c5bc8
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: InitializeProcThreadAttributeList, InitializeProcThreadAttributeList function, base.initializeprocthreadattributelist, processthreadsapi/InitializeProcThreadAttributeList, winbase/InitializeProcThreadAttributeList
 ms.prod: windows-hardware
 ms.technology: windows-devices

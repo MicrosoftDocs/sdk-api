@@ -7,7 +7,7 @@ old-location: wsw\wsflushwriter.htm
 old-project: wsw
 ms.assetid: ba631942-d5a0-4d93-9899-c3f0ebd4aae5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsFlushWriter, WsFlushWriter function [Web Services for Windows], webservices/WsFlushWriter, wsw.wsflushwriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

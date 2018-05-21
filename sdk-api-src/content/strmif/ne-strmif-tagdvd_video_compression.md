@@ -7,7 +7,7 @@ old-location: dshow\dvd_video_compression.htm
 old-project: DirectShow
 ms.assetid: e147a860-4c69-4da0-96d1-dfc4957880d9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DVD_VIDEO_COMPRESSION, DVD_VIDEO_COMPRESSION , DVD_VIDEO_COMPRESSION enumeration [DirectShow], DVD_VIDEO_COMPRESSIONEnumeration, DVD_VideoCompression_MPEG1, DVD_VideoCompression_MPEG2, DVD_VideoCompression_Other, dshow.dvd_video_compression, strmif/DVD_VIDEO_COMPRESSION, strmif/DVD_VideoCompression_MPEG1, strmif/DVD_VideoCompression_MPEG2, strmif/DVD_VideoCompression_Other, tagDVD_VIDEO_COMPRESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # tagDVD_VIDEO_COMPRESSION enumeration

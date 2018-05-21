@@ -7,7 +7,7 @@ old-location: controls\LVITEM.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvitem.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPLVITEMW, I_GROUPIDCALLBACK, I_GROUPIDNONE, LPLVITEM, LPLVITEM structure pointer [Windows Controls], LVCFMT_FILL, LVCFMT_LINE_BREAK, LVCFMT_NO_TITLE, LVCFMT_TILE_PLACEMENTMASK, LVCFMT_WRAP, LVIF_COLFMT, LVIF_COLUMNS, LVIF_DI_SETITEM, LVIF_GROUPID, LVIF_IMAGE, LVIF_INDENT, LVIF_NORECOMPUTE, LVIF_PARAM, LVIF_STATE, LVIF_TEXT, LVITEM, LVITEM structure [Windows Controls], LVITEMA, LVITEMW, _win32_LVITEM, _win32_LVITEM_cpp, commctrl/LPLVITEM, commctrl/LVITEM, commctrl/LVITEMA, commctrl/LVITEMW, controls.LVITEM, controls._win32_LVITEM, tagLVITEMW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

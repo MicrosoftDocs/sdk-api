@@ -7,7 +7,7 @@ old-location: tapi2\linehandoff.htm
 old-project: Tapi
 ms.assetid: 931c2fa4-dad6-432d-8f07-bb04b646916b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: "_tapi2_linehandoff, lineHandoff, lineHandoff function [TAPI 2.2], lineHandoffA, lineHandoffW, tapi/lineHandoff, tapi/lineHandoffA, tapi/lineHandoffW, tapi2.linehandoff"
 ms.prod: windows-hardware
 ms.technology: windows-devices

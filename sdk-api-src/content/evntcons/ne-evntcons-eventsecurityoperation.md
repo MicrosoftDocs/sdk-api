@@ -7,7 +7,7 @@ old-location: etw\eventsecurityoperation.htm
 old-project: ETW
 ms.assetid: 81f6cf07-2705-4075-b085-d5aebba17121
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EVENTSECURITYOPERATION, EVENTSECURITYOPERATION enumeration [ETW], EventSecurityAddDACL, EventSecurityAddSACL, EventSecurityMax, EventSecuritySetDACL, EventSecuritySetSACL, base.eventsecurityoperation, etw.eventsecurityoperation, evntcons/EVENTSECURITYOPERATION, evntcons/EventSecurityAddDACL, evntcons/EventSecurityAddSACL, evntcons/EventSecurityMax, evntcons/EventSecuritySetDACL, evntcons/EventSecuritySetSACL
 ms.prod: windows-hardware
 ms.technology: windows-devices

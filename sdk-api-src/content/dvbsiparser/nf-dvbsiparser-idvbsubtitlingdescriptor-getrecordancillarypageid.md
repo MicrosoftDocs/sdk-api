@@ -7,7 +7,7 @@ old-location: mstv\idvbsubtitlingdescriptor_getrecordancillarypageid.htm
 old-project: mstv
 ms.assetid: ab490087-063d-4e9f-8aa5-679804548d26
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordAncillaryPageID, GetRecordAncillaryPageID method [Microsoft TV Technologies], GetRecordAncillaryPageID method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordAncillaryPageID method, IDvbSubtitlingDescriptor.GetRecordAncillaryPageID, IDvbSubtitlingDescriptor::GetRecordAncillaryPageID, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordAncillaryPageID, mstv.idvbsubtitlingdescriptor_getrecordancillarypageid
 ms.prod: windows-hardware
 ms.technology: windows-devices

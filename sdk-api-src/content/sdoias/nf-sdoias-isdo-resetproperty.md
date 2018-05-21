@@ -7,7 +7,7 @@ old-location: nps\SDO_isdo_resetproperty.htm
 old-project: Nps
 ms.assetid: 650df0aa-6331-4a3f-b965-d48fd68fd31d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ISdo interface [Network Policy Server],ResetProperty method, ISdo.ResetProperty, ISdo::ResetProperty, ResetProperty, ResetProperty method [Network Policy Server], ResetProperty method [Network Policy Server],ISdo interface, _sdo_isdo_resetproperty, nps.SDO_isdo_resetproperty, sdo.isdo_resetproperty, sdoias/ISdo::ResetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

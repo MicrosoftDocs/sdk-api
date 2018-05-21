@@ -7,7 +7,7 @@ old-location: mf\imfsample.htm
 old-project: medfound
 ms.assetid: b1c3758c-5133-41ee-b991-ae99d0296ccc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFSample, IMFSample interface [Media Foundation], IMFSample interface [Media Foundation],described, b1c3758c-5133-41ee-b991-ae99d0296ccc, mf.imfsample, mfobjects/IMFSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

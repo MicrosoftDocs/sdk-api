@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_SetMiterLimit_miterLimit_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setmiterlimit.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Pen class [GDI+],SetMiterLimit method, Pen.SetMiterLimit, Pen::SetMiterLimit, SetMiterLimit, SetMiterLimit method [GDI+], SetMiterLimit method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetMiterLimit_miterLimit_, gdiplus._gdiplus_CLASS_Pen_SetMiterLimit_miterLimit_
 ms.prod: windows-hardware
 ms.technology: windows-devices

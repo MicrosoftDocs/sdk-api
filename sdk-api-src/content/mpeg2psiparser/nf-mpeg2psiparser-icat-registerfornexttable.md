@@ -7,7 +7,7 @@ old-location: mstv\icat_registerfornexttable.htm
 old-project: mstv
 ms.assetid: 17d77207-253f-48e2-a7ec-3bcc549d2d5e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: ICAT interface [Microsoft TV Technologies],RegisterForNextTable method, ICAT.RegisterForNextTable, ICAT::RegisterForNextTable, ICATRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],ICAT interface, mpeg2psiparser/ICAT::RegisterForNextTable, mstv.icat_registerfornexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ldap\ldap_add_s.htm
 old-project: LDAP
 ms.assetid: 83ad8c35-92c4-4d73-93f5-f470655e8db5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_add_s, ldap.ldap__add__s, ldap.ldap_add_s, ldap_add_s, ldap_add_s function [LDAP], ldap_add_sA, ldap_add_sW, winldap/ldap_add_s, winldap/ldap_add_sA, winldap/ldap_add_sW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

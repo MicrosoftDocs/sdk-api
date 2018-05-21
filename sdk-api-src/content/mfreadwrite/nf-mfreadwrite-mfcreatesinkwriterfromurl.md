@@ -7,7 +7,7 @@ old-location: mf\mfcreatesinkwriterfromurl.htm
 old-project: medfound
 ms.assetid: ac6a30c7-5e44-453a-8114-8d7d65332024
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFCreateSinkWriterFromURL, MFCreateSinkWriterFromURL function [Media Foundation], mf.mfcreatesinkwriterfromurl, mfreadwrite/MFCreateSinkWriterFromURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\createlogmarshallingarea.htm
 old-project: Clfs
 ms.assetid: 750c0615-bfac-402b-a590-6c9d800cf2d8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: CreateLogMarshallingArea, CreateLogMarshallingArea function [Files], clfsw32/CreateLogMarshallingArea, fs.createlogmarshalingarea, fs.createlogmarshallingarea
 ms.prod: windows-hardware
 ms.technology: windows-devices

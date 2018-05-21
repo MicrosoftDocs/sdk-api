@@ -7,7 +7,7 @@ old-location: dshow\vmr9deinterlaceprefs.htm
 old-project: DirectShow
 ms.assetid: 1e5f5749-bdf9-4220-9867-ba6899797850
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DeinterlacePref9_BOB, DeinterlacePref9_Mask, DeinterlacePref9_NextBest, DeinterlacePref9_Weave, VMR9DeinterlacePrefs, VMR9DeinterlacePrefs , VMR9DeinterlacePrefs enumeration [DirectShow], VMR9DeinterlacePrefsEnumeration, __MIDL___MIDL_itf_vmr9_0000_0013_0001, dshow.vmr9deinterlaceprefs, vmr9/DeinterlacePref9_BOB, vmr9/DeinterlacePref9_Mask, vmr9/DeinterlacePref9_NextBest, vmr9/DeinterlacePref9_Weave, vmr9/VMR9DeinterlacePrefs
 ms.prod: windows-hardware
 ms.technology: windows-devices

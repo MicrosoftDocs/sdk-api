@@ -7,7 +7,7 @@ old-location: mstv\iatsccontentadvisorydescriptor_getrecordratingdescriptiontext
 old-project: mstv
 ms.assetid: 8a94a7ee-1909-4853-a72b-1174ee3c7803
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordRatingDescriptionText, GetRecordRatingDescriptionText method [Microsoft TV Technologies], GetRecordRatingDescriptionText method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRecordRatingDescriptionText method, IAtscContentAdvisoryDescriptor.GetRecordRatingDescriptionText, IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText, IAtscContentAdvisoryDescriptorGetRecordRatingDescriptionText, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingDescriptionText, mstv.iatsccontentadvisorydescriptor_getrecordratingdescriptiontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\minidump_handle_descriptor_2.htm
 old-project: Debug
 ms.assetid: c0678315-391c-4ce9-aa77-a88afccf79d9
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: "*PMINIDUMP_HANDLE_DESCRIPTOR_2, *PMINIDUMP_HANDLE_DESCRIPTOR_N, MINIDUMP_HANDLE_DESCRIPTOR_2, MINIDUMP_HANDLE_DESCRIPTOR_2 structure, MINIDUMP_HANDLE_DESCRIPTOR_N, PMINIDUMP_HANDLE_DESCRIPTOR_2, PMINIDUMP_HANDLE_DESCRIPTOR_2 structure pointer, _MINIDUMP_HANDLE_DESCRIPTOR_2, base.minidump_handle_descriptor_2, minidumpapiset/MINIDUMP_HANDLE_DESCRIPTOR_2, minidumpapiset/PMINIDUMP_HANDLE_DESCRIPTOR_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

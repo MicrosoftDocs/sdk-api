@@ -7,7 +7,7 @@ old-location: shell\PERSIST_FOLDER_TARGET_INFO_str.htm
 old-project: shell
 ms.assetid: 74441551-c315-4203-a4f5-cd4e6c57b58b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CSIDL_FLAG_CREATE, CSIDL_FLAG_PFTI_TRACKTARGET, PERSIST_FOLDER_TARGET_INFO, PERSIST_FOLDER_TARGET_INFO structure [Windows Shell], _PERSIST_FOLDER_TARGET_INFO, _win32_PERSIST_FOLDER_TARGET_INFO_str, shell.PERSIST_FOLDER_TARGET_INFO_str, shobjidl_core/PERSIST_FOLDER_TARGET_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _PERSIST_FOLDER_TARGET_INFO structure

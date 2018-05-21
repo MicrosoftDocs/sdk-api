@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_qname_text.htm
 old-project: wsw
 ms.assetid: 8c32f3f1-6a75-4f3f-96d3-1c84f6b20558
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_XML_QNAME_TEXT, WS_XML_QNAME_TEXT structure [Web Services for Windows], _WS_XML_QNAME_TEXT, webservices/WS_XML_QNAME_TEXT, wsw.ws_xml_qname_text
 ms.prod: windows-hardware
 ms.technology: windows-devices

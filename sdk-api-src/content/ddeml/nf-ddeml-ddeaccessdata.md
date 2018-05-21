@@ -7,7 +7,7 @@ old-location: dataxchg\ddeaccessdata.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeaccessdata.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: DdeAccessData, DdeAccessData function [Data Exchange], _win32_DdeAccessData, _win32_ddeaccessdata_cpp, dataxchg.ddeaccessdata, ddeml/DdeAccessData, winui._win32_ddeaccessdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

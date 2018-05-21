@@ -7,7 +7,7 @@ old-location: wsw\ws_soapudp_url.htm
 old-project: wsw
 ms.assetid: f39c551f-891b-48c2-8143-84845506cde9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_SOAPUDP_URL, WS_SOAPUDP_URL structure [Web Services for Windows], _WS_SOAPUDP_URL, webservices/WS_SOAPUDP_URL, wsw.ws_soapudp_url
 ms.prod: windows-hardware
 ms.technology: windows-devices

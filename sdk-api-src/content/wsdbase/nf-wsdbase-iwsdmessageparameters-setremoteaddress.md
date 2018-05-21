@@ -7,7 +7,7 @@ old-location: ncd\iwsdmessageparameters_setremoteaddress.htm
 old-project: WsdApi
 ms.assetid: 7e762942-37b2-43ca-96e3-98594b929d98
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDMessageParameters interface,SetRemoteAddress method, IWSDMessageParameters.SetRemoteAddress, IWSDMessageParameters::SetRemoteAddress, SetRemoteAddress, SetRemoteAddress method, SetRemoteAddress method,IWSDMessageParameters interface, ncd.iwsdmessageparameters_setremoteaddress, wsdbase/IWSDMessageParameters::SetRemoteAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

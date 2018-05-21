@@ -7,7 +7,7 @@ old-location: dns\dns_aaaa_data.htm
 old-project: DNS
 ms.assetid: 0bc48e86-368c-431c-b67a-b7689dca8d3c
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: "*PDNS_AAAA_DATA, DNS_AAAA_DATA, DNS_AAAA_DATA structure [DNS], PDNS_AAAA_DATA, PDNS_AAAA_DATA structure pointer [DNS], _dns_dns_aaaa_data, dns.dns_aaaa_data, windns/DNS_AAAA_DATA, windns/PDNS_AAAA_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

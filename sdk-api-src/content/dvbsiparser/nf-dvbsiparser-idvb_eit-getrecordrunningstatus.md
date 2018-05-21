@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit_getrecordrunningstatus.htm
 old-project: mstv
 ms.assetid: fc5d4bc7-4d56-453f-90ed-6187f55ea464
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordRunningStatus, GetRecordRunningStatus method [Microsoft TV Technologies], GetRecordRunningStatus method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetRecordRunningStatus method, IDVB_EIT.GetRecordRunningStatus, IDVB_EIT::GetRecordRunningStatus, IDVB_EITGetRecordRunningStatus, dvbsiparser/IDVB_EIT::GetRecordRunningStatus, mstv.idvb_eit_getrecordrunningstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

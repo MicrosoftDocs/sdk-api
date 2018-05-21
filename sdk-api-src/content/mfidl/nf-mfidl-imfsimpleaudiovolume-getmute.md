@@ -7,7 +7,7 @@ old-location: mf\imfsimpleaudiovolume_getmute.htm
 old-project: medfound
 ms.assetid: 13907d3c-62c0-4cb8-8921-5a38a63d7d6e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 13907d3c-62c0-4cb8-8921-5a38a63d7d6e, GetMute, GetMute method [Media Foundation], GetMute method [Media Foundation],IMFSimpleAudioVolume interface, IMFSimpleAudioVolume interface [Media Foundation],GetMute method, IMFSimpleAudioVolume.GetMute, IMFSimpleAudioVolume::GetMute, mf.imfsimpleaudiovolume_getmute, mfidl/IMFSimpleAudioVolume::GetMute
 ms.prod: windows-hardware
 ms.technology: windows-devices

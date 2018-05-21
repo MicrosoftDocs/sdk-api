@@ -7,7 +7,7 @@ old-location: security\cryptmsgcountersignencoded.htm
 old-project: SecCrypto
 ms.assetid: d9fd734b-e14d-4392-ac88-5565aefbedb4
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CryptMsgCountersignEncoded, CryptMsgCountersignEncoded function [Security], _crypto2_cryptmsgcountersignencoded, security.cryptmsgcountersignencoded, wincrypt/CryptMsgCountersignEncoded
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iddrawexclmodevideocallback.htm
 old-project: DirectShow
 ms.assetid: 7f22d4cd-93e0-4d7d-b8f3-932488d2c672
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IDDrawExclModeVideoCallback, IDDrawExclModeVideoCallback interface [DirectShow], IDDrawExclModeVideoCallback interface [DirectShow],described, IDDrawExclModeVideoCallbackInterface, dshow.iddrawexclmodevideocallback, strmif/IDDrawExclModeVideoCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

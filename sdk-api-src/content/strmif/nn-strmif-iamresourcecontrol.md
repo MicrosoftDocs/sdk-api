@@ -7,7 +7,7 @@ old-location: dshow\iamresourcecontrol.htm
 old-project: DirectShow
 ms.assetid: 9b0b6b46-bf61-44c2-981a-44df4d7c6dfb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMResourceControl, IAMResourceControl interface [DirectShow], IAMResourceControl interface [DirectShow],described, IAMResourceControlInterface, dshow.iamresourcecontrol, strmif/IAMResourceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

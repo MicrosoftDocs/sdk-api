@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables_getnextguid.htm
 old-project: WinRT
 ms.assetid: b624f727-8371-49a1-8ec7-7110d9b8f971
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: GetNextGuid, GetNextGuid method [Windows Runtime], GetNextGuid method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetNextGuid method, IMetaDataTables.GetNextGuid, IMetaDataTables::GetNextGuid, rometadataapi/IMetaDataTables::GetNextGuid, winrt.imetadatatables_getnextguid
 ms.prod: windows-hardware
 ms.technology: windows-devices

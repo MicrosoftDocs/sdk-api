@@ -7,7 +7,7 @@ old-location: fs\disk_cache_information_str.htm
 old-project: FileIO
 ms.assetid: ea175bea-5f2b-4f3e-9fe0-239b1d2e3d96
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PDISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Files], EqualPriority, KeepPrefetchedData, KeepReadData, PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Files], _DISK_CACHE_INFORMATION, base.disk_cache_information_str, fs.disk_cache_information_str, winioctl/DISK_CACHE_INFORMATION, winioctl/PDISK_CACHE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

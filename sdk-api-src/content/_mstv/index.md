@@ -2,11 +2,12 @@
 UID: TP:mstv
 ms.assetid: c2a5b070-2d31-379e-bb1b-8084848a387c
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Microsoft TV Technologies
@@ -78,7 +79,7 @@ For the programming guide, see [Microsoft TV Technologies](https://review.docs.m
 | [__MIDL___MIDL_itf_mpeg2structs_0000_0000_0019 structure](..\mpeg2structs\ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0019.md) | The MPEG2_FILTER structure specifies criteria for matching MPEG-2 section headers. |
 | [__MIDL___MIDL_itf_mpeg2structs_0000_0000_0020 structure](..\mpeg2structs\ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0020.md) | The MPEG2_FILTER2 structure specifies criteria for matching MPEG-2 section headers. |
 | [__MIDL___MIDL_itf_mpeg2structs_0000_0000_0023 structure](..\mpeg2structs\ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0023.md) | The MPEG_STREAM_BUFFER structure defines a buffer that receives MPEG-2 data. |
-| [__MIDL___MIDL_itf_mpeg2structs_0000_0000_0024 structure](..\mpeg2structs\ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0024.md) | The MPEG_DURATION structure is a typedef for the MPEG_TIME structure. |
+| [__MIDL___MIDL_itf_mpeg2structs_0000_0000_0024 structure](..\mpeg2structs\ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0024.md) | The MPEG_TIME structure represents a time of day, or a duration. |
 | [__MIDL___MIDL_itf_mpeg2structs_0000_0000_0025 structure](..\mpeg2structs\ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0025.md) | The MPEG_DATE structure specifies a date. |
 | [__MIDL___MIDL_itf_mpeg2structs_0000_0000_0026 structure](..\mpeg2structs\ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0026.md) | The MPEG_DATE_AND_TIME structure specifies a date and time. |
 | [__MIDL___MIDL_itf_mpeg2structs_0000_0000_0028 structure](..\mpeg2structs\ns-mpeg2structs-__midl___midl_itf_mpeg2structs_0000_0000_0028.md) | The MPEG_BCS_DEMUX structure identifies the filter graph that is providing the MPEG-2 data stream. |
@@ -752,6 +753,8 @@ For the programming guide, see [Microsoft TV Technologies](https://review.docs.m
 | [ICAT::Initialize](..\mpeg2psiparser\nf-mpeg2psiparser-icat-initialize.md) | This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. |
 | [ICAT::RegisterForNextTable](..\mpeg2psiparser\nf-mpeg2psiparser-icat-registerfornexttable.md) | This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. |
 | [ICAT::RegisterForWhenCurrent](..\mpeg2psiparser\nf-mpeg2psiparser-icat-registerforwhencurrent.md) | This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. |
+| [ICCSubStreamFiltering::get_SubstreamTypes](..\bdaiface\nf-bdaiface-iccsubstreamfiltering-get_substreamtypes.md) | This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. |
+| [ICCSubStreamFiltering::put_SubstreamTypes](..\bdaiface\nf-bdaiface-iccsubstreamfiltering-put_substreamtypes.md) | This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. |
 | [ICaptionServiceDescriptor::GetCCType](..\atscpsipparser\nf-atscpsipparser-icaptionservicedescriptor-getcctype.md) | This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. |
 | [ICaptionServiceDescriptor::GetCaptionServiceNumber](..\atscpsipparser\nf-atscpsipparser-icaptionservicedescriptor-getcaptionservicenumber.md) | This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. |
 | [ICaptionServiceDescriptor::GetEasyReader](..\atscpsipparser\nf-atscpsipparser-icaptionservicedescriptor-geteasyreader.md) | This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. |
@@ -1359,7 +1362,7 @@ For the programming guide, see [Microsoft TV Technologies](https://review.docs.m
 | [IIsdbAudioComponentDescriptor::GetComponentTag](..\dvbsiparser\nf-dvbsiparser-iisdbaudiocomponentdescriptor-getcomponenttag.md) | Gets the value of the component_tag field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. |
 | [IIsdbAudioComponentDescriptor::GetComponentType](..\dvbsiparser\nf-dvbsiparser-iisdbaudiocomponentdescriptor-getcomponenttype.md) | Gets the value of the component_type field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This field identifies the audio component type. |
 | [IIsdbAudioComponentDescriptor::GetESMultiLingualFlag](..\dvbsiparser\nf-dvbsiparser-iisdbaudiocomponentdescriptor-getesmultilingualflag.md) | Gets a flag from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor that indicates whether the stream uses ES multilingual mode. |
-| [IIsdbAudioComponentDescriptor::GetLanguageCode2 method](..\dvbsiparser\nf-dvbsiparser-iisdbaudiocomponentdescriptor-getlanguagecode2.md) | In ES multilingual mode, gets the second three-character ISO 639 language code from an ISDB audio component descriptor. |
+| [IIsdbAudioComponentDescriptor::GetLanguageCode2](..\dvbsiparser\nf-dvbsiparser-iisdbaudiocomponentdescriptor-getlanguagecode2.md) | In ES multilingual mode, gets the second three-character ISO 639 language code from an ISDB audio component descriptor. |
 | [IIsdbAudioComponentDescriptor::GetLanguageCode](..\dvbsiparser\nf-dvbsiparser-iisdbaudiocomponentdescriptor-getlanguagecode.md) | Gets the three-character ISO 639 language code from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. If the stream uses ES multilingual mode, this method returns the first language code. |
 | [IIsdbAudioComponentDescriptor::GetLength](..\dvbsiparser\nf-dvbsiparser-iisdbaudiocomponentdescriptor-getlength.md) | Gets the body length of an Integrated Services Digital Broadcasting (ISDB) audio component descriptor, in bytes. |
 | [IIsdbAudioComponentDescriptor::GetMainComponentFlag](..\dvbsiparser\nf-dvbsiparser-iisdbaudiocomponentdescriptor-getmaincomponentflag.md) | Gets a flag from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor that indicates whether the audio component is the main audio. |
@@ -2059,9 +2062,9 @@ For the programming guide, see [Microsoft TV Technologies](https://review.docs.m
 | [ITuningSpaceContainer::Add](..\tuner\nf-tuner-ituningspacecontainer-add.md) | The Add method adds a new persistent tuning space to the system. |
 | [ITuningSpaceContainer::FindID](..\tuner\nf-tuner-ituningspacecontainer-findid.md) | The FindID method retrieves the ID of a specified tuning space within the collection. |
 | [ITuningSpaceContainer::Remove](..\tuner\nf-tuner-ituningspacecontainer-remove.md) | The Remove method permanently removes a tuning space from the system. |
-| [ITuningSpaceContainer::TuningSpacesForCLSID method](..\tuner\nf-tuner-ituningspacecontainer-tuningspacesforclsid.md) | The TuningSpacesForCLSID method retrieves a collection of tuning spaces that match the specified CLSID.This method is intended for Automation clients, because it returns the CLSID as a BSTR. |
+| [ITuningSpaceContainer::TuningSpacesForCLSID](..\tuner\nf-tuner-ituningspacecontainer-tuningspacesforclsid.md) | The TuningSpacesForCLSID method retrieves a collection of tuning spaces that match the specified CLSID.This method is intended for Automation clients, because it returns the CLSID as a BSTR. |
 | [ITuningSpaceContainer::TuningSpacesForName](..\tuner\nf-tuner-ituningspacecontainer-tuningspacesforname.md) | The TuningSpacesForName method retrieves a collection of tuning spaces that match the specified name. |
-| [ITuningSpaceContainer::_TuningSpacesForCLSID](..\tuner\nf-tuner-ituningspacecontainer-_tuningspacesforclsid.md) | The TuningSpacesForCLSID method retrieves a collection of tuning spaces that match the specified CLSID.This method is intended for Automation clients, because it returns the CLSID as a BSTR. |
+| [ITuningSpaceContainer::_TuningSpacesForCLSID](..\tuner\nf-tuner-ituningspacecontainer-_tuningspacesforclsid.md) | The _TuningSpacesForCLSID method retrieves a collection of tuning spaces that match the specified CLSID. |
 | [ITuningSpaceContainer::get_Count](..\tuner\nf-tuner-ituningspacecontainer-get_count.md) | The get_Count method retrieves the number of tuning spaces currently available on the local system. |
 | [ITuningSpaceContainer::get_EnumTuningSpaces](..\tuner\nf-tuner-ituningspacecontainer-get_enumtuningspaces.md) | The get_EnumTuningSpaces method retrieves a collection of all tuning spaces available on the local system. |
 | [ITuningSpaceContainer::get_Item](..\tuner\nf-tuner-ituningspacecontainer-get_item.md) | The get_Item method retrieves a tuning space with the specified ID. |

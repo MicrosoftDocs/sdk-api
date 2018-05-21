@@ -7,7 +7,7 @@ old-location: controls\IMAGEINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\structures\imageinfo.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPIMAGEINFO, IMAGEINFO, IMAGEINFO structure [Windows Controls], LPIMAGEINFO, LPIMAGEINFO structure pointer [Windows Controls], _IMAGEINFO, _win32_IMAGEINFO, _win32_IMAGEINFO_cpp, commoncontrols/IMAGEINFO, commoncontrols/LPIMAGEINFO, controls.IMAGEINFO, controls._win32_IMAGEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

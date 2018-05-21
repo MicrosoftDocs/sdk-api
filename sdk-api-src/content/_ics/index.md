@@ -2,11 +2,12 @@
 UID: TP:ics
 ms.assetid: 9d94480c-7b4f-37ab-b155-d62cf72d1a3e
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Windows Firewall Technologies

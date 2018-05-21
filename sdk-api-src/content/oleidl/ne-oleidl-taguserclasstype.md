@@ -7,7 +7,7 @@ old-location: com\userclasstype.htm
 old-project: com
 ms.assetid: f35dd18a-7fde-4954-8315-bc9bfd933827
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: USERCLASSTYPE, USERCLASSTYPE enumeration [COM], USERCLASSTYPE_APPNAME, USERCLASSTYPE_FULL, USERCLASSTYPE_SHORT, _ole_USERCLASSTYPE, com.userclasstype, oleidl/USERCLASSTYPE, oleidl/USERCLASSTYPE_APPNAME, oleidl/USERCLASSTYPE_FULL, oleidl/USERCLASSTYPE_SHORT, tagUSERCLASSTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

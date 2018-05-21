@@ -1,0 +1,7 @@
+{
+  "tech": "xinput",
+  "headers": [
+    "xinput.h"
+  ],
+  "displayName": "XInput Game Controller APIs"
+}

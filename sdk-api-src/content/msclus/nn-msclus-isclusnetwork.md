@@ -7,7 +7,7 @@ old-location: mscs\clusnetwork_object.htm
 old-project: MsCS
 ms.assetid: d51e9872-eb86-4b0e-b417-1a2e5ac6ee9c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: ClusNetwork, ClusNetwork object [Failover Cluster], ClusNetwork object [Failover Cluster],described, ISClusNetwork, _wolf_clusnetwork_object, msclus/ClusNetwork, mscs.clusnetwork_object
 ms.prod: windows-hardware
 ms.technology: windows-devices

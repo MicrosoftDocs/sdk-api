@@ -7,7 +7,7 @@ old-location: security\spexportsecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: 0c8cafb3-aaf5-4937-91dc-e534bb6e4caf
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SECPKG_CONTEXT_EXPORT_DELETE_OLD, SECPKG_CONTEXT_EXPORT_RESET_NEW, SpExportSecurityContext, SpExportSecurityContext function [Security], SpExportSecurityContextFn, _ssp_spexportsecuritycontext, ntsecpkg/SpExportSecurityContext, security.spexportsecuritycontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

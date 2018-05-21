@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetBlend_blendFactors_b
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getblend.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetBlend, GetBlend method [GDI+], GetBlend method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetBlend method, LinearGradientBrush.GetBlend, LinearGradientBrush::GetBlend, _gdiplus_CLASS_LinearGradientBrush_GetBlend_blendFactors_blendPositions_count_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetBlend_blendFactors_blendPositions_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

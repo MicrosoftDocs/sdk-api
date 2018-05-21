@@ -7,7 +7,7 @@ old-location: eaphost\eappeermethodresultreason.htm
 old-project: EAPHost
 ms.assetid: 5f7f18cd-cc75-4d13-a0c0-c60f8c5f1a07
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapPeerMethodResultFailure, EapPeerMethodResultReason, EapPeerMethodResultReason enumeration [EAPHost], EapPeerMethodResultReasonOle, EapPeerMethodResultSuccess, EapPeerMethodResultUnknown, eapauthenticatoractiondefine/EapPeerMethodResultFailure, eapauthenticatoractiondefine/EapPeerMethodResultReason, eapauthenticatoractiondefine/EapPeerMethodResultSuccess, eapauthenticatoractiondefine/EapPeerMethodResultUnknown, eaphost.eappeermethodresultreason, tagEapPeerMethodResultReason
 ms.prod: windows-hardware
 ms.technology: windows-devices

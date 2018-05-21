@@ -7,7 +7,7 @@ old-location: mscs\evictclusternodeex.htm
 old-project: MsCS
 ms.assetid: 7f7ba010-265e-40d5-a429-a776d164fa07
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PCLUSAPI_EVICT_CLUSTER_NODE_EX, PCLUSAPI_EVICT_CLUSTER_NODE_EX callback, PCLUSAPI_EVICT_CLUSTER_NODE_EX callback function [Failover Cluster], _wolf_evictclusternodeex, clusapi/PCLUSAPI_EVICT_CLUSTER_NODE_EX, mscs.evictclusternodeex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\iperpropertybrowsing_getpredefinedvalue.htm
 old-project: com
 ms.assetid: a532ebed-3ed8-4b49-a17f-f542fdbd74ff
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: GetPredefinedValue, GetPredefinedValue method [COM], GetPredefinedValue method [COM],IPerPropertyBrowsing interface, IPerPropertyBrowsing interface [COM],GetPredefinedValue method, IPerPropertyBrowsing.GetPredefinedValue, IPerPropertyBrowsing::GetPredefinedValue, _ctrl_iperpropertybrowsing_getpredefinedvalue, com.iperpropertybrowsing_getpredefinedvalue, ocidl/IPerPropertyBrowsing::GetPredefinedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\LITEM.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\litem.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: "*PLITEM, LITEM, LITEM structure [Windows Controls], PLITEM, PLITEM structure pointer [Windows Controls], commctrl/LITEM, commctrl/PLITEM, controls.LITEM, controls.inet_LITEM, inet_LITEM, inet_LITEM_cpp, tagLITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

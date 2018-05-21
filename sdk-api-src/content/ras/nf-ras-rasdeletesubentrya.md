@@ -7,7 +7,7 @@ old-location: rras\rasdeletesubentry.htm
 old-project: RRAS
 ms.assetid: c423d0cc-7275-4703-abee-4eada625d956
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RasDeleteSubEntry, RasDeleteSubEntry function [RAS], RasDeleteSubEntryA, RasDeleteSubEntryW, _ras_rasdeletesubentry, ras/RasDeleteSubEntry, ras/RasDeleteSubEntryA, ras/RasDeleteSubEntryW, rras.rasdeletesubentry
 ms.prod: windows-hardware
 ms.technology: windows-devices

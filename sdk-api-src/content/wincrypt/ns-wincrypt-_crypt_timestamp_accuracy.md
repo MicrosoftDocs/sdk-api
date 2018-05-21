@@ -7,7 +7,7 @@ old-location: security\crypt_timestamp_accuracy.htm
 old-project: SecCrypto
 ms.assetid: 9115db8a-7cc1-4360-b89b-6c33ddb67fe9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PCRYPT_TIMESTAMP_ACCURACY, CRYPT_TIMESTAMP_ACCURACY, CRYPT_TIMESTAMP_ACCURACY structure [Security], PCRYPT_TIMESTAMP_ACCURACY, PCRYPT_TIMESTAMP_ACCURACY structure pointer [Security], _CRYPT_TIMESTAMP_ACCURACY, security.crypt_timestamp_accuracy, wincrypt/CRYPT_TIMESTAMP_ACCURACY, wincrypt/PCRYPT_TIMESTAMP_ACCURACY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

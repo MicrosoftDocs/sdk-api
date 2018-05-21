@@ -2,7 +2,7 @@
 UID: NA:routprot
 ms.assetid: 3ed4e743-acd6-3f77-9ada-3f5fde23262c
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

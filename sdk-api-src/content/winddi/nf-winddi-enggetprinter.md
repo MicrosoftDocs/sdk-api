@@ -7,7 +7,7 @@ old-location: display\enggetprinter.htm
 old-project: display
 ms.assetid: dd492777-48a2-4fb6-9202-a2af3b632678
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: EngGetPrinter, EngGetPrinter function [Display Devices], display.enggetprinter, gdifncs_6e95ce51-f1ca-4e44-b26d-b677ace5e297.xml, winddi/EngGetPrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices

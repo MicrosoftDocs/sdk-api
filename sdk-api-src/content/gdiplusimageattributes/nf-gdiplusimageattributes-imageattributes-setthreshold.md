@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetThreshold_threshold_type
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setthreshold.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: ImageAttributes class [GDI+],SetThreshold method, ImageAttributes.SetThreshold, ImageAttributes::SetThreshold, SetThreshold, SetThreshold method [GDI+], SetThreshold method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetThreshold_threshold_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetThreshold_threshold_type_
 ms.prod: windows-hardware
 ms.technology: windows-devices

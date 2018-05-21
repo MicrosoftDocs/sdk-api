@@ -7,7 +7,7 @@ old-location: setup\msiinstallmissingfile.htm
 old-project: Msi
 ms.assetid: 289ce1e2-64ac-4222-9d0d-52c8fdd4f9c3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MsiInstallMissingFile, MsiInstallMissingFile function, MsiInstallMissingFileA, MsiInstallMissingFileW, _msi_msiinstallmissingfile, msi/MsiInstallMissingFile, msi/MsiInstallMissingFileA, msi/MsiInstallMissingFileW, setup.msiinstallmissingfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,11 +2,12 @@
 UID: TP:magapi
 ms.assetid: 19ca8483-79f5-3a9e-a85d-cd3f31a764c4
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Magnification API

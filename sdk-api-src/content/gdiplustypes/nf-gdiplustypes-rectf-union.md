@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_Union_c_a_b_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\union_81c_a_b.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: RectF class [GDI+],Union method, RectF.Union, RectF::Union, Union, Union method [GDI+], Union method [GDI+],RectF class, _gdiplus_CLASS_RectF_Union_c_a_b_, gdiplus._gdiplus_CLASS_RectF_Union_c_a_b_
 ms.prod: windows-hardware
 ms.technology: windows-devices

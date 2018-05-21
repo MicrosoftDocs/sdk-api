@@ -7,7 +7,7 @@ old-location: mf\imfpmpclient.htm
 old-project: medfound
 ms.assetid: adfba5dd-eae6-48f3-a155-65bd491c952c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFPMPClient, IMFPMPClient interface [Media Foundation], IMFPMPClient interface [Media Foundation],described, adfba5dd-eae6-48f3-a155-65bd491c952c, mf.imfpmpclient, mfidl/IMFPMPClient
 ms.prod: windows-hardware
 ms.technology: windows-devices

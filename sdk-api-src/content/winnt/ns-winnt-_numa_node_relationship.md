@@ -7,7 +7,7 @@ old-location: base\numa_node_relationship.htm
 old-project: ProcThread
 ms.assetid: a4e4c994-c4af-4b4f-8684-6037bcba35a9
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: "*PNUMA_NODE_RELATIONSHIP, NUMA_NODE_RELATIONSHIP, NUMA_NODE_RELATIONSHIP structure, PNUMA_NODE_RELATIONSHIP, PNUMA_NODE_RELATIONSHIP structure pointer, _NUMA_NODE_RELATIONSHIP, base.numa_node_relationship, winnt/NUMA_NODE_RELATIONSHIP, winnt/PNUMA_NODE_RELATIONSHIP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

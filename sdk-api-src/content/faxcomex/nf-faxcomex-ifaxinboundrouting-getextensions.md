@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxinboundrouting_getextensions_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_80oj_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: GetExtensions, GetExtensions method [Fax Service], GetExtensions method [Fax Service],IFaxInboundRouting interface, IFaxInboundRouting interface [Fax Service],GetExtensions method, IFaxInboundRouting.GetExtensions, IFaxInboundRouting::GetExtensions, _mfax_faxinboundrouting.getextensions_cpp, fax._mfax_faxinboundrouting_getextensions_cpp, faxcomex/IFaxInboundRouting::GetExtensions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: TP:sysmon
 ms.assetid: e50315b4-2438-36a1-bfa1-0741ed7a8d77
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

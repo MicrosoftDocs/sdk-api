@@ -7,7 +7,7 @@ old-location: fs\wofgetdriverversion.htm
 old-project: FileIO
 ms.assetid: F142903A-329D-40E3-A233-F013C26EC1EA
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: WofGetDriverVersion, WofGetDriverVersion function [Files], fs.wofgetdriverversion, wofapi/WofGetDriverVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

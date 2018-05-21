@@ -7,7 +7,7 @@ old-location: wsw\ws_tcp_sspi_transport_security_binding_constraint.htm
 old-project: wsw
 ms.assetid: c2e793dd-99a7-4028-9e08-4376d494e2b5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT, WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], _WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT, webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT, wsw.ws_tcp_sspi_transport_security_binding_constraint
 ms.prod: windows-hardware
 ms.technology: windows-devices

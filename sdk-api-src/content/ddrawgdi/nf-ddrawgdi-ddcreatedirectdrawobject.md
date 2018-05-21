@@ -7,7 +7,7 @@ old-location: winprog\_dxgkernel_ddcreatedirectdrawobject.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddcreatedirectdrawobject.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DdCreateDirectDrawObject, DdCreateDirectDrawObject function [Windows API], GdiEntry1, _dxgkernel_ddcreatedirectdrawobject, ddrawgdi/DdCreateDirectDrawObject, ddrawgdi/GdiEntry1, winprog._dxgkernel_ddcreatedirectdrawobject, winui._dxgkernel_ddcreatedirectdrawobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

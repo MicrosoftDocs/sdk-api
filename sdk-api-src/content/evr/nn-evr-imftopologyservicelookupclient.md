@@ -7,7 +7,7 @@ old-location: mf\imftopologyservicelookupclient.htm
 old-project: medfound
 ms.assetid: c4215d08-3734-44b9-b053-0d49d89a90f6
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFTopologyServiceLookupClient, IMFTopologyServiceLookupClient interface [Media Foundation], IMFTopologyServiceLookupClient interface [Media Foundation],described, c4215d08-3734-44b9-b053-0d49d89a90f6, evr/IMFTopologyServiceLookupClient, mf.imftopologyservicelookupclient
 ms.prod: windows-hardware
 ms.technology: windows-devices

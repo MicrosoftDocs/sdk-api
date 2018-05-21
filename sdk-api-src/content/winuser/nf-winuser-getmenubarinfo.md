@@ -7,7 +7,7 @@ old-location: menurc\getmenubarinfo.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenubarinfo.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: GetMenuBarInfo, GetMenuBarInfo function [Menus and Other Resources], OBJID_CLIENT, OBJID_MENU, OBJID_SYSMENU, _win32_GetMenuBarInfo, _win32_getmenubarinfo_cpp, menurc.getmenubarinfo, winui._win32_getmenubarinfo, winuser/GetMenuBarInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

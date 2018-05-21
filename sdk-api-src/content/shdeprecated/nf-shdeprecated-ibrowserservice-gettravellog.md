@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_GetTravelLog.htm
 old-project: shell
 ms.assetid: 8e6c09e4-5489-4c21-8e42-28cdc4c216f1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetTravelLog, GetTravelLog method [Windows Shell], GetTravelLog method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetTravelLog method, IBrowserService.GetTravelLog, IBrowserService::GetTravelLog, shdeprecated/IBrowserService::GetTravelLog, shell.IBrowserService_GetTravelLog, zone_IBrowserService_GetTravelLog
 ms.prod: windows-hardware
 ms.technology: windows-devices

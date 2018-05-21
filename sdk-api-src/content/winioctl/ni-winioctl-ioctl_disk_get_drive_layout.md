@@ -7,7 +7,7 @@ old-location: fs\ioctl_disk_get_drive_layout.htm
 old-project: FileIO
 ms.assetid: 6c1bc445-3cd1-4f86-a36b-f74ad8f4d2e5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT, IOCTL_DISK_GET_DRIVE_LAYOUT control, IOCTL_DISK_GET_DRIVE_LAYOUT control code [Files], _win32_ioctl_disk_get_drive_layout, base.ioctl_disk_get_drive_layout, fs.ioctl_disk_get_drive_layout, winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT
 ms.prod: windows-hardware
 ms.technology: windows-devices

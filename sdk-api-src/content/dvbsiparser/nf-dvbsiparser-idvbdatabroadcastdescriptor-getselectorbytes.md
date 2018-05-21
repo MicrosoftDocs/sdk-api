@@ -7,7 +7,7 @@ old-location: mstv\idvbdatabroadcastdescriptor_getselectorbytes.htm
 old-project: mstv
 ms.assetid: 72fca5a8-2ea5-4000-8b00-dbd408cba602
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetSelectorBytes, GetSelectorBytes method [Microsoft TV Technologies], GetSelectorBytes method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetSelectorBytes method, IDvbDataBroadcastDescriptor.GetSelectorBytes, IDvbDataBroadcastDescriptor::GetSelectorBytes, dvbsiparser/IDvbDataBroadcastDescriptor::GetSelectorBytes, mstv.idvbdatabroadcastdescriptor_getselectorbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices

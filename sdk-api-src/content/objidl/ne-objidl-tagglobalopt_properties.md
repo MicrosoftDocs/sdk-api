@@ -7,7 +7,7 @@ old-location: com\globalopt_properties.htm
 old-project: com
 ms.assetid: 210BAEAF-D6FF-46E0-A187-D89EBB655B9C
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: COMGLB_APPID, COMGLB_EXCEPTION_HANDLING, COMGLB_RO_SETTINGS, COMGLB_RPC_THREADPOOL_SETTING, COMGLB_UNMARSHALING_POLICY, GLOBALOPT_PROPERTIES, GLOBALOPT_PROPERTIES enumeration [COM], com.globalopt_properties, objidl/COMGLB_APPID, objidl/COMGLB_EXCEPTION_HANDLING, objidl/COMGLB_RO_SETTINGS, objidl/COMGLB_RPC_THREADPOOL_SETTING, objidl/COMGLB_UNMARSHALING_POLICY, objidl/GLOBALOPT_PROPERTIES, tagGLOBALOPT_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices

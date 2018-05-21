@@ -7,7 +7,7 @@ old-location: mstv\ienumstreambufferrecordingattrib_clone.htm
 old-project: mstv
 ms.assetid: 542a8b5d-641a-4ffb-9c8b-7232b1723a07
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumStreamBufferRecordingAttrib interface, IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies],Clone method, IEnumStreamBufferRecordingAttrib.Clone, IEnumStreamBufferRecordingAttrib::Clone, IEnumStreamBufferRecordingAttribClone, mstv.ienumstreambufferrecordingattrib_clone, sbe/IEnumStreamBufferRecordingAttrib::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

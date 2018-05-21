@@ -7,7 +7,7 @@ old-location: fs\findfirstfileex.htm
 old-project: FileIO
 ms.assetid: 9f40e98f-153f-4b65-afd9-06742684c100
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: FIND_FIRST_EX_CASE_SENSITIVE, FIND_FIRST_EX_LARGE_FETCH, FIND_FIRST_EX_ON_DISK_ENTRIES_ONLY, FindFirstFileEx, FindFirstFileEx function [Files], FindFirstFileExA, FindFirstFileExW, _win32_findfirstfileex, base.findfirstfileex, fileapi/FindFirstFileEx, fileapi/FindFirstFileExA, fileapi/FindFirstFileExW, fs.findfirstfileex, winbase/FindFirstFileEx, winbase/FindFirstFileExA, winbase/FindFirstFileExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

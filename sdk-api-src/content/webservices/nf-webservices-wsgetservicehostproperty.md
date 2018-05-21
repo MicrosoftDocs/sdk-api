@@ -7,7 +7,7 @@ old-location: wsw\wsgetservicehostproperty.htm
 old-project: wsw
 ms.assetid: 3793cb79-37b9-4d94-9932-9eb3b259b60e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsGetServiceHostProperty, WsGetServiceHostProperty function [Web Services for Windows], webservices/WsGetServiceHostProperty, wsw.wsgetservicehostproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

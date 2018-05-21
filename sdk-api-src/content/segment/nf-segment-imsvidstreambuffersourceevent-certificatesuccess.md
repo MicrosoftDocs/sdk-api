@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersourceevent_certificatesuccess.htm
 old-project: mstv
 ms.assetid: 1c541058-5e02-4b78-8c28-a2a0709d5872
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: CertificateSuccess, CertificateSuccess method [Microsoft TV Technologies], CertificateSuccess method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],CertificateSuccess method, IMSVidStreamBufferSourceEvent.CertificateSuccess, IMSVidStreamBufferSourceEvent::CertificateSuccess, IMSVidStreamBufferSourceEventCertificateSuccess, mstv.imsvidstreambuffersourceevent_certificatesuccess, segment/IMSVidStreamBufferSourceEvent::CertificateSuccess
 ms.prod: windows-hardware
 ms.technology: windows-devices

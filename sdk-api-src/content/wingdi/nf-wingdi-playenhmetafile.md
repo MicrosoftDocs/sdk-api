@@ -7,7 +7,7 @@ old-location: gdi\playenhmetafile.htm
 old-project: gdi
 ms.assetid: 51e8937b-0c42-49fe-8930-7af303fce788
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: PlayEnhMetaFile, PlayEnhMetaFile function [Windows GDI], _win32_PlayEnhMetaFile, gdi.playenhmetafile, wingdi/PlayEnhMetaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\engdeletesemaphore.htm
 old-project: display
 ms.assetid: 6855017c-8919-496b-b82c-d65dea7ad5f0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: EngDeleteSemaphore, EngDeleteSemaphore function [Display Devices], display.engdeletesemaphore, gdifncs_a669ceb3-f9b3-4940-b1f8-17c55ee42f59.xml, winddi/EngDeleteSemaphore
 ms.prod: windows-hardware
 ms.technology: windows-devices

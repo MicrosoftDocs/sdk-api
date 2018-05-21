@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingqueue_agelimit_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7qyc.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service],FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service],AgeLimit property, FaxOutgoingQueue.AgeLimit, IFaxOutgoingQueue.get_AgeLimit, IFaxOutgoingQueue::get_AgeLimit, _mfax_faxoutgoingqueue.agelimit, fax._mfax_faxoutgoingqueue_agelimit, fax._mfax_faxoutgoingqueue_agelimit_vb, get_AgeLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

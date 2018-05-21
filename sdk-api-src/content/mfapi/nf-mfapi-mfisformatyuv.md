@@ -7,7 +7,7 @@ old-location: mf\mfisformatyuv.htm
 old-project: medfound
 ms.assetid: dbf6acd3-79c6-4ec2-a867-f2b2d8b41f53
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFIsFormatYUV, MFIsFormatYUV function [Media Foundation], dbf6acd3-79c6-4ec2-a867-f2b2d8b41f53, mf.mfisformatyuv, mfapi/MFIsFormatYUV
 ms.prod: windows-hardware
 ms.technology: windows-devices

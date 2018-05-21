@@ -7,7 +7,7 @@ old-location: base\localsize.htm
 old-project: Memory
 ms.assetid: d1337845-d89c-4cd5-a584-36fe0c682c1a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: LocalSize, LocalSize function, _win32_localsize, base.localsize, winbase/LocalSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

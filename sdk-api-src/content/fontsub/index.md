@@ -2,7 +2,7 @@
 UID: NA:fontsub
 ms.assetid: 6833a040-f023-32b7-89ca-6053ded43f00
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:bluetoothleapis
 ms.assetid: da12075a-3734-36fe-b142-5e2c72776d23
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

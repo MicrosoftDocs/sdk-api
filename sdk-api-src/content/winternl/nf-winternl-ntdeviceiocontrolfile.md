@@ -7,7 +7,7 @@ old-location: winprog\ntdeviceiocontrolfile.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntdeviceiocontrolfile.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: NtDeviceIoControlFile, NtDeviceIoControlFile function [Windows API], winprog.ntdeviceiocontrolfile, winternl/NtDeviceIoControlFile, winui.ntdeviceiocontrolfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: 
 req.dll: SrClient.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SRSetRestorePointA function

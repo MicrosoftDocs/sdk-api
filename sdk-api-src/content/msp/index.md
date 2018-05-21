@@ -2,7 +2,7 @@
 UID: NA:msp
 ms.assetid: 26162b4b-e5e5-3866-afd3-3bc76512910a
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

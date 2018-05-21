@@ -7,7 +7,7 @@ old-location: mstv\ibda_topology_getpintypes.htm
 old-project: mstv
 ms.assetid: e94c5ae3-1d5f-4ca6-a09b-7190cbe2035b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetPinTypes, GetPinTypes method [Microsoft TV Technologies], GetPinTypes method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetPinTypes method, IBDA_Topology.GetPinTypes, IBDA_Topology::GetPinTypes, IBDA_TopologyGetPinTypes, bdaiface/IBDA_Topology::GetPinTypes, mstv.ibda_topology_getpintypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

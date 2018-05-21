@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore.htm
 old-project: TermServ
 ms.assetid: b8b54827-6c6b-4531-8ae3-73baed6125cd
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ITsSbResourcePluginStore, ITsSbResourcePluginStore interface [Remote Desktop Services], ITsSbResourcePluginStore interface [Remote Desktop Services],described, sbtsv/ITsSbResourcePluginStore, termserv.itssbresourcepluginstore
 ms.prod: windows-hardware
 ms.technology: windows-devices

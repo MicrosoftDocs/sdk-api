@@ -7,7 +7,7 @@ old-location: intl\corrective_action.htm
 old-project: Intl
 ms.assetid: 370CF89E-97BF-4AB5-8AD6-3B2DF08463E0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CORRECTIVE_ACTION, CORRECTIVE_ACTION enumeration [Internationalization for Windows Applications], CORRECTIVE_ACTION_DELETE, CORRECTIVE_ACTION_GET_SUGGESTIONS, CORRECTIVE_ACTION_NONE, CORRECTIVE_ACTION_REPLACE, intl.corrective_action, spellcheck/CORRECTIVE_ACTION, spellcheck/CORRECTIVE_ACTION_DELETE, spellcheck/CORRECTIVE_ACTION_GET_SUGGESTIONS, spellcheck/CORRECTIVE_ACTION_NONE, spellcheck/CORRECTIVE_ACTION_REPLACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # CORRECTIVE_ACTION enumeration

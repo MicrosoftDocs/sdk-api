@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetTextContrast_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gettextcontrast.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetTextContrast, GetTextContrast method [GDI+], GetTextContrast method [GDI+],Graphics class, Graphics class [GDI+],GetTextContrast method, Graphics.GetTextContrast, Graphics::GetTextContrast, _gdiplus_CLASS_Graphics_GetTextContrast_, gdiplus._gdiplus_CLASS_Graphics_GetTextContrast_
 ms.prod: windows-hardware
 ms.technology: windows-devices

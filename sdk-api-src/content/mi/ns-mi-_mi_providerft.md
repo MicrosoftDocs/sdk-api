@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_providerft.htm
 old-project: wmi_v2
 ms.assetid: 494eb3cb-6476-4fe3-8da4-dc7112c6f62f
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_ProviderFT, MI_ProviderFT structure [Windows Management Infrastructure (MI)], _MI_ProviderFT, mi/MI_ProviderFT, wmi_v2.mi_providerft
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\monitor_state.htm
 old-project: MsCS
 ms.assetid: 2e5a1c19-4382-42de-8535-4bcf57a9b845
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: "*PMONITOR_STATE, MONITOR_STATE, MONITOR_STATE structure [Failover Cluster], PMONITOR_STATE, PMONITOR_STATE structure pointer [Failover Cluster], mscs.monitor_state, resapi/MONITOR_STATE, resapi/PMONITOR_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

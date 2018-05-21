@@ -7,7 +7,7 @@ old-location: dshow\iammediacontent_get_rating.htm
 old-project: DirectShow
 ms.assetid: 2eeb1356-23f5-48dc-be71-062f1501d163
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Rating method, IAMMediaContent.get_Rating, IAMMediaContent::get_Rating, IAMMediaContentget_Rating, dshow.iammediacontent_get_rating, get_Rating, get_Rating method [DirectShow], get_Rating method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Rating
 ms.prod: windows-hardware
 ms.technology: windows-devices

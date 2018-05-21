@@ -7,7 +7,7 @@ old-location: base\openthreadwaitchainsession.htm
 old-project: Debug
 ms.assetid: 405d9f3d-c11b-4e20-acc8-9c4f7989685d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: OpenThreadWaitChainSession, OpenThreadWaitChainSession function, WCT_ASYNC_OPEN_FLAG, base.openthreadwaitchainsession, wct/OpenThreadWaitChainSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\ws_security_context_property.htm
 old-project: wsw
 ms.assetid: 426b9847-8217-41ce-8962-138176e0555b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_SECURITY_CONTEXT_PROPERTY, WS_SECURITY_CONTEXT_PROPERTY structure [Web Services for Windows], _WS_SECURITY_CONTEXT_PROPERTY, webservices/WS_SECURITY_CONTEXT_PROPERTY, wsw.ws_security_context_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

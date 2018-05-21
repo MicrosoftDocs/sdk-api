@@ -7,7 +7,7 @@ old-location: winprog\_invalidatename.htm
 old-project: DevNotes
 ms.assetid: 86c6eccf-5c4a-421b-b8e2-762ea5b77bf3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: InvalidateName, InvalidateName function [Windows API], filehc/InvalidateName, winprog._invalidatename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CREATEFILE2_EXTENDED_PARAMETERS, *PCREATEFILE2_EXTENDED_PARAMETERS, *LPCREATEFILE2_EXTENDED_PARAMETERS
+req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 topic_type:
 -	APIRef
 -	kbSyntax

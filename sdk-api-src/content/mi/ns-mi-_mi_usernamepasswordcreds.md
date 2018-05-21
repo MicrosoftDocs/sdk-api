@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_usernamepasswordcreds.htm
 old-project: wmi_v2
 ms.assetid: 1cbbe6b0-d6db-4ca4-9529-701ec4993cb1
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_UsernamePasswordCreds, MI_UsernamePasswordCreds structure [Windows Management Infrastructure (MI)], _MI_UsernamePasswordCreds, mi/MI_UsernamePasswordCreds, wmi._mi_usernamepasswordcreds, wmi_v2.mi_usernamepasswordcreds
 ms.prod: windows-hardware
 ms.technology: windows-devices

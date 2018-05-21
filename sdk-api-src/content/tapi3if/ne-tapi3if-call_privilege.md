@@ -7,7 +7,7 @@ old-location: tapi3\call_privilege.htm
 old-project: Tapi
 ms.assetid: 8d2ab3d2-9531-40fc-910d-2bd81a075cc3
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: CALL_PRIVILEGE, CALL_PRIVILEGE enumeration [TAPI 2.2], CP_MONITOR, CP_OWNER, _tapi3_call_privilege, tapi3.call_privilege, tapi3if/CALL_PRIVILEGE, tapi3if/CP_MONITOR, tapi3if/CP_OWNER
 ms.prod: windows-hardware
 ms.technology: windows-devices

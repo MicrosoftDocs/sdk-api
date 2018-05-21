@@ -7,7 +7,7 @@ old-location: of\iofflinefileseventsfilter.htm
 old-project: OfflineFiles
 ms.assetid: 8c2c793e-c91c-4ca7-a03c-e349de00de6c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesEventsFilter, IOfflineFilesEventsFilter interface [Offline Files], IOfflineFilesEventsFilter interface [Offline Files],described, cscobj/IOfflineFilesEventsFilter, of.iofflinefileseventsfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

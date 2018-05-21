@@ -2,7 +2,7 @@
 UID: NA:audioendpoints
 ms.assetid: dfd638f5-1f47-3302-a758-098e9f513282
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Blur_GetParameters_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blurclass\blurmethods\getparameters.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Blur class [GDI+],GetParameters method, Blur.GetParameters, Blur::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],Blur class, _gdiplus_CLASS_Blur_GetParameters_, gdiplus._gdiplus_CLASS_Blur_GetParameters_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:fhcfg
 ms.assetid: c4428648-2da6-3eab-beae-9c81995dff38
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

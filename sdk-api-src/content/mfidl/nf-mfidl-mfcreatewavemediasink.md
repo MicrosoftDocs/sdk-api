@@ -7,7 +7,7 @@ old-location: mf\mfcreatewavemediasink.htm
 old-project: medfound
 ms.assetid: AF2FAE46-E7A0-4294-8EE1-499AE11CD1E3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFCreateWAVEMediaSink, MFCreateWAVEMediaSink function [Media Foundation], mf.mfcreatewavemediasink, mfidl/MFCreateWAVEMediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

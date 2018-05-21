@@ -7,7 +7,7 @@ old-location: winprog\ipaddrentry.htm
 old-project: DevNotes
 ms.assetid: c48453e8-05f1-49d8-bae6-fad0681bdf7e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IPAddrEntry, IPAddrEntry structure [Windows API], tcpioctl/IPAddrEntry, winprog.ipaddrentry
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetBaseInset_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getbaseinset.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: CustomLineCap class [GDI+],GetBaseInset method, CustomLineCap.GetBaseInset, CustomLineCap::GetBaseInset, GetBaseInset, GetBaseInset method [GDI+], GetBaseInset method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetBaseInset_, gdiplus._gdiplus_CLASS_CustomLineCap_GetBaseInset_
 ms.prod: windows-hardware
 ms.technology: windows-devices

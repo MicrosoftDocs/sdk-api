@@ -7,7 +7,7 @@ old-location: com\iglobaloptions_set.htm
 old-project: com
 ms.assetid: 5a59c862-64a4-45b5-8b6b-dacbfb4d170b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IGlobalOptions interface [COM],Set method, IGlobalOptions.Set, IGlobalOptions::Set, Set, Set method [COM], Set method [COM],IGlobalOptions interface, _com_iglobaloptions_set, com.iglobaloptions_set, objidlbase/IGlobalOptions::Set
 ms.prod: windows-hardware
 ms.technology: windows-devices

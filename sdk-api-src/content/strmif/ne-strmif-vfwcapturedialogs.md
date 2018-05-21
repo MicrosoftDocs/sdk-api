@@ -7,7 +7,7 @@ old-location: dshow\vfwcapturedialogs.htm
 old-project: DirectShow
 ms.assetid: 0465d887-6452-4a67-9f52-a459620d12d2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: VfwCaptureDialog_Display, VfwCaptureDialog_Format, VfwCaptureDialog_Source, VfwCaptureDialogs, VfwCaptureDialogs enumeration [DirectShow], VfwCaptureDialogsEnumeration, dshow.vfwcapturedialogs, strmif/VfwCaptureDialog_Display, strmif/VfwCaptureDialog_Format, strmif/VfwCaptureDialog_Source, strmif/VfwCaptureDialogs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # VfwCaptureDialogs enumeration

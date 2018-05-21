@@ -2,7 +2,7 @@
 UID: TP:direct3d9
 ms.assetid: e1922644-f233-3eab-8912-7b4d2f26d8ec
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mib\mib_ippath_row.htm
 old-project: MIB
 ms.assetid: 0cfef3cb-bb96-4250-864b-2468a46ba277
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PMIB_IPPATH_ROW, MIB_IPPATH_ROW, MIB_IPPATH_ROW structure [MIB], PMIB_IPPATH_ROW, PMIB_IPPATH_ROW structure pointer [MIB], _MIB_IPPATH_ROW, mib.mib_ippath_row, netioapi/MIB_IPPATH_ROW, netioapi/PMIB_IPPATH_ROW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

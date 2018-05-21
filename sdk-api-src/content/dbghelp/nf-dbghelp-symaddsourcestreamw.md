@@ -7,7 +7,7 @@ old-location: base\symaddsourcestream.htm
 old-project: Debug
 ms.assetid: 1f85a5d3-70dc-430f-9a54-7cc08484ca93
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SymAddSourceStream, SymAddSourceStream function, SymAddSourceStreamW, base.symaddsourcestream, dbghelp/SymAddSourceStream, dbghelp/SymAddSourceStreamW
 ms.prod: windows-hardware
 ms.technology: windows-devices

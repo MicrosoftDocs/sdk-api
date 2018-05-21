@@ -2,7 +2,7 @@
 UID: NA:qmgr
 ms.assetid: d0fc121e-b38a-3c8a-9aa0-8f0655d0f82f
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

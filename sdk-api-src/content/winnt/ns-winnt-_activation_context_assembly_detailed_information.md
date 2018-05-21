@@ -7,7 +7,7 @@ old-location: setup\activation_context_assembly_detailed_information.htm
 old-project: SbsCs
 ms.assetid: b093cc6a-55ea-49bf-904d-2b43517f9b02
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: "*PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION structure [Side-by-side Assemblies], PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION structure pointer [Side-by-side Assemblies], _ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, _win32_activation_context_assembly_detailed_information, setup.activation_context_assembly_detailed_information, winnt/ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, winnt/PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

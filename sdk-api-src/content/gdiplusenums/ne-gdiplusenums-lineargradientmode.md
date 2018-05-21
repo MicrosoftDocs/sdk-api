@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_LinearGradientMode.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\lineargradientmode.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: LinearGradientMode, LinearGradientMode enumeration [GDI+], LinearGradientModeBackwardDiagonal, LinearGradientModeForwardDiagonal, LinearGradientModeHorizontal, LinearGradientModeVertical, _gdiplus_ENUM_LinearGradientMode, gdiplus._gdiplus_ENUM_LinearGradientMode, gdiplusenums/LinearGradientMode, gdiplusenums/LinearGradientModeBackwardDiagonal, gdiplusenums/LinearGradientModeForwardDiagonal, gdiplusenums/LinearGradientModeHorizontal, gdiplusenums/LinearGradientModeVertical
 ms.prod: windows-hardware
 ms.technology: windows-devices

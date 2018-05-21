@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_initializeimport.htm
 old-project: SecCertEnroll
 ms.assetid: b397f57f-e01e-4c2b-8338-892f56b76c9e
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],InitializeImport method, IX509EnrollmentPolicyServer.InitializeImport, IX509EnrollmentPolicyServer::InitializeImport, InitializeImport, InitializeImport method [Security], InitializeImport method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::InitializeImport, security.ix509enrollmentpolicyserver_initializeimport
 ms.prod: windows-hardware
 ms.technology: windows-devices

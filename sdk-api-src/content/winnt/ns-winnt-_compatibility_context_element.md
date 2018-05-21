@@ -7,7 +7,7 @@ old-location: setup\compatibility_context_element.htm
 old-project: SbsCs
 ms.assetid: 3e654f44-43f6-4282-b277-14ed6e25abf2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: "*PCOMPATIBILITY_CONTEXT_ELEMENT, COMPATIBILITY_CONTEXT_ELEMENT, COMPATIBILITY_CONTEXT_ELEMENT structure [Setup API], PCOMPATIBILITY_CONTEXT_ELEMENT, PCOMPATIBILITY_CONTEXT_ELEMENT structure pointer [Setup API], _COMPATIBILITY_CONTEXT_ELEMENT, setup.compatibility_context_element, winnt/COMPATIBILITY_CONTEXT_ELEMENT, winnt/PCOMPATIBILITY_CONTEXT_ELEMENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

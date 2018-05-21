@@ -7,7 +7,7 @@ old-location: rras\mibset.htm
 old-project: RRAS
 ms.assetid: f1df3476-f6c5-4f7e-bc86-83e5f8d0cd57
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MibSet, PMIB_SET, PMIB_SET callback, PMIB_SET callback function [RAS], TBD, _mpr_mibset, routprot/PMIB_SET, rras.mibset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rpc\rpc_call_attributes_v2.htm
 old-project: Rpc
 ms.assetid: eccc4b78-19f8-415f-bd0f-b1f9f454435e
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RPC_CALL_ATTRIBUTES, RPC_CALL_ATTRIBUTES structure [RPC], RPC_CALL_ATTRIBUTES_V2, RPC_CALL_ATTRIBUTES_V2 structure [RPC], RPC_CALL_ATTRIBUTES_V2_A, RPC_CALL_ATTRIBUTES_V2_W, RPC_CALL_STATUS_CANCELLED, RPC_CALL_STATUS_DISCONNECTED, RPC_CALL_STATUS_IN_PROGRESS, RPC_QUERY_CALL_LOCAL_ADDRESS, RPC_QUERY_CLIENT_PID, RPC_QUERY_CLIENT_PRINCIPAL_NAME, RPC_QUERY_SERVER_PRINCIPAL_NAME, rpc.rpc_call_attributes_v2, rpcasync/RPC_CALL_ATTRIBUTES, rpcasync/RPC_CALL_ATTRIBUTES_V2, rpcasync/RPC_CALL_ATTRIBUTES_V2_A, rpcasync/RPC_CALL_ATTRIBUTES_V2_W, tagRPC_CALL_ATTRIBUTES_V2_W
 ms.prod: windows-hardware
 ms.technology: windows-devices

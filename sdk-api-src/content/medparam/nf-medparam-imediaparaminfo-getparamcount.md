@@ -7,7 +7,7 @@ old-location: dshow\imediaparaminfo_getparamcount.htm
 old-project: DirectShow
 ms.assetid: 0c518b8e-d5a7-40ba-9b10-4d23d4376890
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetParamCount, GetParamCount method [DirectShow], GetParamCount method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamCount method, IMediaParamInfo.GetParamCount, IMediaParamInfo::GetParamCount, IMediaParamInfoGetParamCount, dshow.imediaparaminfo_getparamcount, medparam/IMediaParamInfo::GetParamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

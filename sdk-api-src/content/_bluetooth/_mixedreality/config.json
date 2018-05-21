@@ -1,0 +1,8 @@
+{
+  "tech": "mixedreality",
+  "headers": [
+    "spatialinteractionmanagerinterop.h",
+    "holographicspaceinterop.h"
+  ],
+  "displayName": "Windows Mixed Reality"
+}

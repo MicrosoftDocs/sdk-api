@@ -7,7 +7,7 @@ old-location: wsw\wsfreechannel.htm
 old-project: wsw
 ms.assetid: 74e36d19-c6db-4bba-90e3-88a48b6a1fb5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsFreeChannel, WsFreeChannel function [Web Services for Windows], webservices/WsFreeChannel, wsw.wsfreechannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

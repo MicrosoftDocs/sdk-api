@@ -7,7 +7,7 @@ old-location: intl\compositionform.htm
 old-project: Intl
 ms.assetid: 9b76474a-1ea9-4fcf-9fa8-deee5009a7ba
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPCOMPOSITIONFORM, *NPCOMPOSITIONFORM, *PCOMPOSITIONFORM, COMPOSITIONFORM, COMPOSITIONFORM structure [Internationalization for Windows Applications], PCOMPOSITIONFORM, PCOMPOSITIONFORM structure pointer [Internationalization for Windows Applications], _win32_COMPOSITIONFORM_str, imm/COMPOSITIONFORM, imm/PCOMPOSITIONFORM, intl.compositionform, tagCOMPOSITIONFORM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

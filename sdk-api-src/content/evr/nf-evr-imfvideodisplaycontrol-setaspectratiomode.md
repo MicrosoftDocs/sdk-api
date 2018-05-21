@@ -7,7 +7,7 @@ old-location: mf\imfvideodisplaycontrol_setaspectratiomode.htm
 old-project: medfound
 ms.assetid: dd49a110-1c11-4eca-9e7b-6021f3bdd397
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFVideoDisplayControl interface [Media Foundation],SetAspectRatioMode method, IMFVideoDisplayControl.SetAspectRatioMode, IMFVideoDisplayControl::SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [Media Foundation], SetAspectRatioMode method [Media Foundation],IMFVideoDisplayControl interface, dd49a110-1c11-4eca-9e7b-6021f3bdd397, evr/IMFVideoDisplayControl::SetAspectRatioMode, mf.imfvideodisplaycontrol_setaspectratiomode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxreceiptoptions_authenticationtype_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7g11.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: AuthenticationType property [Fax Service], AuthenticationType property [Fax Service],FaxReceiptOptions object, FaxReceiptOptions object [Fax Service],AuthenticationType property, FaxReceiptOptions.AuthenticationType, IFaxReceiptOptions.get_AuthenticationType, IFaxReceiptOptions::get_AuthenticationType, _mfax_faxreceiptoptions.authenticationtype, fax._mfax_faxreceiptoptions_authenticationtype, fax._mfax_faxreceiptoptions_authenticationtype_vb, get_AuthenticationType
 ms.prod: windows-hardware
 ms.technology: windows-devices

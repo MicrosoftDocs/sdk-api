@@ -7,7 +7,7 @@ old-location: ics\count_property_of_inetfwauthorizedapplications_count.htm
 old-project: ICS
 ms.assetid: 6b0cc653-d5be-42af-ac8b-551b961550da
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwAuthorizedApplications interface, INetFwAuthorizedApplications interface [ICS/ICF],Count property, INetFwAuthorizedApplications.Count, INetFwAuthorizedApplications.get_Count, INetFwAuthorizedApplications::Count, INetFwAuthorizedApplications::get_Count, get_Count, ics.count_property_of_inetfwauthorizedapplications_count, netfw/INetFwAuthorizedApplications::Count, netfw/INetFwAuthorizedApplications::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

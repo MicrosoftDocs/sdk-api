@@ -7,7 +7,7 @@ old-location: rras\mpradminusergetinfo.htm
 old-project: RRAS
 ms.assetid: d04f6925-ac38-4adf-ac2e-701db5435c90
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MprAdminUserGetInfo, MprAdminUserGetInfo function [RAS], _mpr_mpradminusergetinfo, mprapi/MprAdminUserGetInfo, rras.mpradminusergetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\clienttoscreen.htm
 old-project: gdi
 ms.assetid: 3b1e2699-7f5f-444d-9072-f2ca7c8fa511
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: ClientToScreen, ClientToScreen function [Windows GDI], _win32_ClientToScreen, gdi.clienttoscreen, winuser/ClientToScreen
 ms.prod: windows-hardware
 ms.technology: windows-devices

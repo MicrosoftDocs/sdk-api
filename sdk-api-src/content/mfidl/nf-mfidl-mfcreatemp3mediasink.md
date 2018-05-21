@@ -7,7 +7,7 @@ old-location: mf\mfcreatemp3mediasink.htm
 old-project: medfound
 ms.assetid: b555e9c8-5a2a-452d-8edf-c41c0e24296b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFCreateMP3MediaSink, MFCreateMP3MediaSink function [Media Foundation], mf.mfcreatemp3mediasink, mfidl/MFCreateMP3MediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

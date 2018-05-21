@@ -1,0 +1,6 @@
+{
+  "tech": "recovery",
+  "headers": [
+    "winbase.h"
+  ]
+}

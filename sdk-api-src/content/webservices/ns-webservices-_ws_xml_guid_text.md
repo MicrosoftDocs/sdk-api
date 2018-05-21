@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_guid_text.htm
 old-project: wsw
 ms.assetid: e70ea1d2-8381-4b23-88e6-842fe22889a5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_XML_GUID_TEXT, WS_XML_GUID_TEXT structure [Web Services for Windows], _WS_XML_GUID_TEXT, webservices/WS_XML_GUID_TEXT, wsw.ws_xml_guid_text
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SLGetLicensingStatusInformation function

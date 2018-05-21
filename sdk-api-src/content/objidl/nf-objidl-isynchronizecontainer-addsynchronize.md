@@ -7,7 +7,7 @@ old-location: com\isynchronizecontainer_addsynchronize.htm
 old-project: com
 ms.assetid: b2d48de3-848c-4cc9-bd96-fffbb2ca2ba3
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: AddSynchronize, AddSynchronize method [COM], AddSynchronize method [COM],ISynchronizeContainer interface, ISynchronizeContainer interface [COM],AddSynchronize method, ISynchronizeContainer.AddSynchronize, ISynchronizeContainer::AddSynchronize, _com_isynchronizecontainer_addsynchronize, com.isynchronizecontainer_addsynchronize, objidlbase/ISynchronizeContainer::AddSynchronize
 ms.prod: windows-hardware
 ms.technology: windows-devices

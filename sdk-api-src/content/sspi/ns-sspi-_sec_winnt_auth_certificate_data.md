@@ -7,7 +7,7 @@ old-location: security\sec_winnt_auth_certificate_data.htm
 old-project: SecAuthN
 ms.assetid: 08dc5062-2925-4ec2-aef3-c7ff1cba9544
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DATA structure pointer [Security], SEC_WINNT_AUTH_CERTIFICATE_DATA, SEC_WINNT_AUTH_CERTIFICATE_DATA structure [Security], _SEC_WINNT_AUTH_CERTIFICATE_DATA, security.sec_winnt_auth_certificate_data, sspi/PSEC_WINNT_AUTH_CERTIFICATE_DATA, sspi/SEC_WINNT_AUTH_CERTIFICATE_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SEC_WINNT_AUTH_CERTIFICATE_DATA structure

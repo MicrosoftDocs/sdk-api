@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_parameterset_getmethodreturntype.htm
 old-project: wmi_v2
 ms.assetid: 8d2e881a-72a8-4819-a407-b7381ab7a94a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_ParameterSet_GetMethodReturnType, MI_ParameterSet_GetMethodReturnType function [Windows Management Infrastructure (MI)], mi/MI_ParameterSet_GetMethodReturnType, wmi_v2.mi_parameterset_getmethodreturntype
 ms.prod: windows-hardware
 ms.technology: windows-devices

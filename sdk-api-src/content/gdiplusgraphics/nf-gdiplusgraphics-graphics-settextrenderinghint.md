@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_SetTextRenderingHint_newMode_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\settextrenderinghint.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Graphics class [GDI+],SetTextRenderingHint method, Graphics.SetTextRenderingHint, Graphics::SetTextRenderingHint, SetTextRenderingHint, SetTextRenderingHint method [GDI+], SetTextRenderingHint method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetTextRenderingHint_newMode_, gdiplus._gdiplus_CLASS_Graphics_SetTextRenderingHint_newMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices

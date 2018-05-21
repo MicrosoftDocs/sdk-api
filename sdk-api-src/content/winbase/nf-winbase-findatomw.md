@@ -7,7 +7,7 @@ old-location: dataxchg\findatom.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\findatom.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: FindAtom, FindAtom function [Data Exchange], FindAtomA, FindAtomW, _win32_FindAtom, _win32_findatom_cpp, dataxchg.findatom, winbase/FindAtom, winbase/FindAtomA, winbase/FindAtomW, winui._win32_findatom
 ms.prod: windows-hardware
 ms.technology: windows-devices

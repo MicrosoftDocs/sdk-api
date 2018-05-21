@@ -7,7 +7,7 @@ old-location: multimedia\acmdriveradd.htm
 old-project: Multimedia
 ms.assetid: f037cab8-a1f4-487f-ab0a-11e11993b007
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "_win32_acmDriverAdd, acmDriverAdd, acmDriverAdd function [Windows Multimedia], acmDriverAddA, acmDriverAddW, msacm/acmDriverAdd, msacm/acmDriverAddA, msacm/acmDriverAddW, multimedia.acmdriveradd"
 ms.prod: windows-hardware
 ms.technology: windows-devices

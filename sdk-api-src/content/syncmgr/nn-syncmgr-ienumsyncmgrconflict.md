@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrConflict.htm
 old-project: shell
 ms.assetid: 627f39be-5c9d-49a1-af73-210cdbb7940a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IEnumSyncMgrConflict, IEnumSyncMgrConflict interface [Windows Shell], IEnumSyncMgrConflict interface [Windows Shell],described, _shell_IEnumSyncMgrConflict, shell.IEnumSyncMgrConflict, syncmgr/IEnumSyncMgrConflict
 ms.prod: windows-hardware
 ms.technology: windows-devices

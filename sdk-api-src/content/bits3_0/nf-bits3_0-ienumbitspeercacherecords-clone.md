@@ -7,7 +7,7 @@ old-location: bits\ienumbitspeercacherecords_clone.htm
 old-project: Bits
 ms.assetid: 4eb19401-119d-4ce6-92b1-aa41b6dcb97c
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBitsPeerCacheRecords interface, IEnumBitsPeerCacheRecords interface [BITS],Clone method, IEnumBitsPeerCacheRecords.Clone, IEnumBitsPeerCacheRecords::Clone, bits.ienumbitspeercacherecords_clone, bits3_0/IEnumBitsPeerCacheRecords::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

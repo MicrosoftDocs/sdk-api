@@ -7,7 +7,7 @@ old-location: ncd\wsd_reference_parameters_struct.htm
 old-project: WsdApi
 ms.assetid: add8bda6-b5b1-4026-9900-829ece926670
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_REFERENCE_PARAMETERS, WSD_REFERENCE_PARAMETERS structure, _WSD_REFERENCE_PARAMETERS, ncd.wsd_reference_parameters_struct, wsdtypes/WSD_REFERENCE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices

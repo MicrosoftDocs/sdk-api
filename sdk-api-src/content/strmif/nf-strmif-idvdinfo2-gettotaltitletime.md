@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo2_gettotaltitletime.htm
 old-project: DirectShow
 ms.assetid: 90768da1-592a-49ec-99b0-56f463c322e8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetTotalTitleTime, GetTotalTitleTime method [DirectShow], GetTotalTitleTime method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetTotalTitleTime method, IDvdInfo2.GetTotalTitleTime, IDvdInfo2::GetTotalTitleTime, IDvdInfo2GetTotalTitleTime, dshow.idvdinfo2_gettotaltitletime, strmif/IDvdInfo2::GetTotalTitleTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

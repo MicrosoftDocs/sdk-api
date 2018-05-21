@@ -7,7 +7,7 @@ old-location: base\getprocessaffinitymask.htm
 old-project: ProcThread
 ms.assetid: f50ca86e-fa81-4ed9-ae6c-63a4e7f2a53f
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: GetProcessAffinityMask, GetProcessAffinityMask function, _win32_getprocessaffinitymask, base.getprocessaffinitymask, winbase/GetProcessAffinityMask
 ms.prod: windows-hardware
 ms.technology: windows-devices

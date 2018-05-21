@@ -7,7 +7,7 @@ old-location: security\opentokenbylogonid.htm
 old-project: SecAuthN
 ms.assetid: 3cd3e4fe-7548-44f9-ab04-01b30bdf3bd9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: LSA_OPEN_TOKEN_BY_LOGON_ID, OpenTokenByLogonId, OpenTokenByLogonId function [Security], ntsecpkg/OpenTokenByLogonId, security.opentokenbylogonid
 ms.prod: windows-hardware
 ms.technology: windows-devices

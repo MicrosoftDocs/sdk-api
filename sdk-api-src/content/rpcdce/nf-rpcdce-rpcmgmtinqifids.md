@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtinqifids.htm
 old-project: Rpc
 ms.assetid: f6d89f2c-ff51-44ab-9f8a-2f76cd3ac6db
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcMgmtInqIfIds, RpcMgmtInqIfIds function [RPC], _rpc_rpcmgmtinqifids, rpc.rpcmgmtinqifids, rpcdce/RpcMgmtInqIfIds
 ms.prod: windows-hardware
 ms.technology: windows-devices

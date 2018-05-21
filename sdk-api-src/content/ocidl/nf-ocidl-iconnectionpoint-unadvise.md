@@ -7,7 +7,7 @@ old-location: com\iconnectionpoint_unadvise.htm
 old-project: com
 ms.assetid: 71641bad-2fd1-4d94-a6d0-116f5687a95b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IConnectionPoint interface [COM],Unadvise method, IConnectionPoint.Unadvise, IConnectionPoint::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IConnectionPoint interface, _com_iconnectionpoint_unadvise, com.iconnectionpoint_unadvise, ocidl/IConnectionPoint::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_beginframe.htm
 old-project: DirectShow
 ms.assetid: 00077ffe-4acb-4648-9e95-652184e4449b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: BeginFrame, BeginFrame method [DirectShow], BeginFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],BeginFrame method, IAMVideoAccelerator.BeginFrame, IAMVideoAccelerator::BeginFrame, IAMVideoAcceleratorBeginFrame, dshow.iamvideoaccelerator_beginframe, videoacc/IAMVideoAccelerator::BeginFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

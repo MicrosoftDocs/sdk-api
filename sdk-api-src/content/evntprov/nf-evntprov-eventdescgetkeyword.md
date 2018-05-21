@@ -7,7 +7,7 @@ old-location: etw\eventdescgetkeyword_func.htm
 old-project: ETW
 ms.assetid: 4c96fad0-23c4-44cc-8b8f-2d62f08429d2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EventDescGetKeyword, EventDescGetKeyword function [ETW], base.eventdescgetkeyword_func, etw.eventdescgetkeyword_func, evntprov/EventDescGetKeyword
 ms.prod: windows-hardware
 ms.technology: windows-devices

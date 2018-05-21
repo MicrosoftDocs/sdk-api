@@ -7,7 +7,7 @@ old-location: ncd\wsd_event_struct.htm
 old-project: WsdApi
 ms.assetid: d8697474-bfe5-4704-b1ac-15cf96f2ca92
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_EVENT, WSD_EVENT structure, _WSD_EVENT, ncd.wsd_event_struct, wsdtypes/WSD_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorfreeerrormemory.htm
 old-project: EAPHost
 ms.assetid: 8fcf82d6-9809-4a28-a694-1f7494216f82
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapMethodAuthenticatorFreeErrorMemory, EapMethodAuthenticatorFreeErrorMemory function [EAPHost], eaphost.eapmethodauthenticatorfreeerrormemory, eapmethodauthenticatorapis/EapMethodAuthenticatorFreeErrorMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

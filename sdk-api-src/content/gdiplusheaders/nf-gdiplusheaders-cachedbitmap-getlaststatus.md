@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CachedBitmap_GetLastStatus_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\cachedbitmapclass\getlaststatus_27.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: CachedBitmap class [GDI+],GetLastStatus method, CachedBitmap.GetLastStatus, CachedBitmap::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],CachedBitmap class, _gdiplus_CLASS_CachedBitmap_GetLastStatus_, gdiplus._gdiplus_CLASS_CachedBitmap_GetLastStatus_
 ms.prod: windows-hardware
 ms.technology: windows-devices

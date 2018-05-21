@@ -7,7 +7,7 @@ old-location: com\cogetstdmarshalex.htm
 old-project: com
 ms.assetid: 405c5ff3-8702-48b3-9be9-df4a9461696e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CoGetStdMarshalEx, CoGetStdMarshalEx function [COM], SMEXF_HANDLER, SMEXF_SERVER, _com_CoGetStdMarshalEx, com.cogetstdmarshalex, combaseapi/CoGetStdMarshalEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

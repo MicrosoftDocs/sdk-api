@@ -2,7 +2,7 @@
 UID: NA:dmoreg
 ms.assetid: dee28265-f344-39f6-b05e-56792408e803
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

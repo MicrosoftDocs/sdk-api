@@ -2,13 +2,13 @@
 UID: NF:intsafe.UIntPtrToLongPtr
 title: UIntPtrToLongPtr function
 author: windows-driver-content
-description: Converts a value of type size_t to a value of type LONG_PTR.
-old-location: shell\SizeTToLongPtr.htm
+description: Converts a value of type UINT_PTR to a value of type LONG_PTR.
+old-location: shell\UIntPtrToLongPtr.htm
 old-project: shell
-ms.assetid: b48b0d5c-4ce8-41d1-b9e8-7ee7449eb2d2
+ms.assetid: 13956b42-981c-41ef-8137-e2c84f662a6b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: SizeTToLongPtr, SizeTToLongPtr function [Windows Shell], UIntPtrToLongPtr, _shell_SizeTToLongPtr, intsafe/SizeTToLongPtr, shell.SizeTToLongPtr
+ms.date: 5/16/2018
+ms.keywords: SizeTToLongPtr, SizeTToSSIZET, UIntPtrToLongPtr, UIntPtrToLongPtr function [Windows Shell], UIntPtrToSSIZET, _shell_UIntPtrToLongPtr, intsafe/UIntPtrToLongPtr, shell.UIntPtrToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	SizeTToLongPtr
+-	UIntPtrToLongPtr
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>size_t</b> to a value of type <b>LONG_PTR</b>.
+Converts a value of type <b>UINT_PTR</b> to a value of type <b>LONG_PTR</b>.
 
 
 ## -parameters
@@ -58,9 +58,11 @@ Converts a value of type <b>size_t</b> to a value of type <b>LONG_PTR</b>.
 
 
 
-### -param uOperand
+### -param uOperand [in]
 
-TBD
+Type: <b>UINT_PTR</b>
+
+The value to be converted.
 
 
 ### -param plResult [out]
@@ -68,13 +70,6 @@ TBD
 Type: <b>LONG_PTR*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
-
-
-#### - cbOperand [in]
-
-Type: <b>size_t</b>
-
-The value to be converted.
 
 
 ## -returns
@@ -93,6 +88,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>SizeTToSSIZET</b> is an alias for this function.
+
+<b>UIntPtrToSSIZET</b> is an alias for this function.
+
+<b>SizeTToLongPtr</b> is an alias for this function.
 
 
 

@@ -7,7 +7,7 @@ old-location: security\certverifycrlrevocation.htm
 old-project: SecCrypto
 ms.assetid: a46ac5b5-bc44-4857-a7fb-4f35d438e3f7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CertVerifyCRLRevocation, CertVerifyCRLRevocation function [Security], _crypto2_certverifycrlrevocation, security.certverifycrlrevocation, wincrypt/CertVerifyCRLRevocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

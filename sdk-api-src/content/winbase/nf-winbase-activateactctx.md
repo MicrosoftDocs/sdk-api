@@ -7,7 +7,7 @@ old-location: setup\activateactctx.htm
 old-project: SbsCs
 ms.assetid: 03381d95-1b5d-4b70-8c86-937ab9b2672d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: ActivateActCtx, ActivateActCtx function [Side-by-side Assemblies], _win32_activateactctx, setup.activateactctx, winbase/ActivateActCtx
 ms.prod: windows-hardware
 ms.technology: windows-devices

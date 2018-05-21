@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_onuideactivate.htm
 old-project: com
 ms.assetid: 926c02b4-0bfa-4509-b5bc-4e5007e4db1a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnUIDeactivate method, IOleInPlaceSite.OnUIDeactivate, IOleInPlaceSite::OnUIDeactivate, IOleInPlaceSiteWindowless.OnUIDeactivate, OnUIDeactivate, OnUIDeactivate method [COM], OnUIDeactivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_onuideactivate, com.ioleinplacesite_onuideactivate, oleidl/IOleInPlaceSite::OnUIDeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\imarshal_unmarshalinterface.htm
 old-project: com
 ms.assetid: 5b496028-57db-447e-8c5c-76b7ea0fa4ee
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IMarshal interface [COM],UnmarshalInterface method, IMarshal.UnmarshalInterface, IMarshal::UnmarshalInterface, UnmarshalInterface, UnmarshalInterface method [COM], UnmarshalInterface method [COM],IMarshal interface, _com_imarshal_unmarshalinterface, com.imarshal_unmarshalinterface, objidlbase/IMarshal::UnmarshalInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

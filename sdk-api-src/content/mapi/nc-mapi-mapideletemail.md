@@ -7,7 +7,7 @@ old-location: mapi\mapideletemail.htm
 old-project: WindowsMAPI
 ms.assetid: b149ef88-de0e-4a99-9150-7250d2b9540a
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/11/2018
 ms.keywords: MAPIDeleteMail, MAPIDeleteMail callback, MAPIDeleteMail callback function, mapi.mapideletemail, mapi/MAPIDeleteMail
 ms.prod: windows-hardware
 ms.technology: windows-devices

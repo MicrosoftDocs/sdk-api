@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxNotify.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxnotify.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextHost interface [Windows Controls],TxNotify method, ITextHost.TxNotify, ITextHost::TxNotify, TxNotify, TxNotify method [Windows Controls], TxNotify method [Windows Controls],ITextHost interface, _win32_ITextHost_TxNotify, _win32_ITextHost_TxNotify_cpp, controls.ITextHost_TxNotify, controls._win32_ITextHost_TxNotify, textserv/ITextHost::TxNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

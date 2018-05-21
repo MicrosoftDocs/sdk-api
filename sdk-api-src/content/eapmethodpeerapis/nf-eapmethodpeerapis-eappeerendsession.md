@@ -7,7 +7,7 @@ old-location: eaphost\eappeerendsession.htm
 old-project: EAPHost
 ms.assetid: e4740a71-bf80-41ae-b9c1-91b9769854e7
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapPeerEndSession, EapPeerEndSession function [EAPHost], eaphost.eappeerendsession, eapmethodpeerapis/EapPeerEndSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

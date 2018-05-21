@@ -7,7 +7,7 @@ old-location: fs\ioctl_disk_set_partition_info.htm
 old-project: FileIO
 ms.assetid: 868cad92-fa88-4a5a-98bb-92e73c115a22
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: IOCTL_DISK_SET_PARTITION_INFO, IOCTL_DISK_SET_PARTITION_INFO control, IOCTL_DISK_SET_PARTITION_INFO control code [Files], _win32_ioctl_disk_set_partition_info, base.ioctl_disk_set_partition_info, fs.ioctl_disk_set_partition_info, winioctl/IOCTL_DISK_SET_PARTITION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

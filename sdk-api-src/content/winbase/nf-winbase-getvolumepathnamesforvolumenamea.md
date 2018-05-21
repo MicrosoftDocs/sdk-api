@@ -7,7 +7,7 @@ old-location: fs\getvolumepathnamesforvolumename.htm
 old-project: FileIO
 ms.assetid: 067904c1-d3e1-4cfd-ac63-6ef32d9a2513
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: GetVolumePathNamesForVolumeName, GetVolumePathNamesForVolumeName function [Files], GetVolumePathNamesForVolumeNameA, GetVolumePathNamesForVolumeNameW, _win32_getvolumepathnamesforvolumename, base.getvolumepathnamesforvolumename, fileapi/GetVolumePathNamesForVolumeName, fileapi/GetVolumePathNamesForVolumeNameA, fileapi/GetVolumePathNamesForVolumeNameW, fs.getvolumepathnamesforvolumename, winbase/GetVolumePathNamesForVolumeName, winbase/GetVolumePathNamesForVolumeNameA, winbase/GetVolumePathNamesForVolumeNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

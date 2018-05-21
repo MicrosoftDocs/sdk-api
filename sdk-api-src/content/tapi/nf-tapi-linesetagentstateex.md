@@ -7,7 +7,7 @@ old-location: tapi2\linesetagentstateex.htm
 old-project: Tapi
 ms.assetid: f7da697a-658e-4f0d-8e6c-539fd8fb1935
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: "_tapi2_linesetagentstateex, lineSetAgentStateEx, lineSetAgentStateEx function [TAPI 2.2], tapi/lineSetAgentStateEx, tapi2.linesetagentstateex"
 ms.prod: windows-hardware
 ms.technology: windows-devices

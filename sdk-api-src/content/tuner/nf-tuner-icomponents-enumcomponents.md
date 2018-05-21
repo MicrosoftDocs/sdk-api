@@ -7,7 +7,7 @@ old-location: mstv\icomponents_enumcomponents.htm
 old-project: mstv
 ms.assetid: 214030ff-8aec-46df-8b59-f31fe926d8aa
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: EnumComponents, EnumComponents method [Microsoft TV Technologies], EnumComponents method [Microsoft TV Technologies],IComponents interface, IComponents interface [Microsoft TV Technologies],EnumComponents method, IComponents.EnumComponents, IComponents::EnumComponents, IComponentsEnumComponents, mstv.icomponents_enumcomponents, tuner/IComponents::EnumComponents
 ms.prod: windows-hardware
 ms.technology: windows-devices

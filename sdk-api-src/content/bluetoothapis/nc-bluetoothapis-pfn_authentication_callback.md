@@ -7,7 +7,7 @@ old-location: bluetooth\pfn_authentication_callback.htm
 old-project: Bluetooth
 ms.assetid: 756bfea7-ad03-4fba-b591-42796e7d52ff
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: PFN_AUTHENTICATION_CALLBACK, PFN_AUTHENTICATION_CALLBACK callback, PFN_AUTHENTICATION_CALLBACK callback function [Bluetooth], bluetooth.pfn_authentication_callback, bluetoothapis/PFN_AUTHENTICATION_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\imcastleaseinfo_get_addresses.htm
 old-project: Tapi
 ms.assetid: 37dc1bc8-b3d9-4c84-8d37-89d50570d95c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_Addresses method, IMcastLeaseInfo.get_Addresses, IMcastLeaseInfo::get_Addresses, _tapi3_imcastleaseinfo_get_addresses, get_Addresses, get_Addresses method [TAPI 2.2], get_Addresses method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_Addresses, tapi3.imcastleaseinfo_get_addresses
 ms.prod: windows-hardware
 ms.technology: windows-devices

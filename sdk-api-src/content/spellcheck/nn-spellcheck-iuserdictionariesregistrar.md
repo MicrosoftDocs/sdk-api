@@ -7,7 +7,7 @@ old-location: intl\iuserdictionariesregistrar.htm
 old-project: Intl
 ms.assetid: eca9446a-268e-4318-a5e7-8bb8592c9660
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IUserDictionariesRegistrar, IUserDictionariesRegistrar interface [Internationalization for Windows Applications], IUserDictionariesRegistrar interface [Internationalization for Windows Applications],described, intl.iuserdictionariesregistrar, spellcheck/IUserDictionariesRegistrar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IUserDictionariesRegistrar interface

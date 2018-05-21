@@ -2,11 +2,12 @@
 UID: TP:wmi_v2
 ms.assetid: 824b23dd-9cc9-3dd8-bc5a-af4068a53abd
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Windows Management Infrastructure (MI)

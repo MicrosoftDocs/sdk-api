@@ -7,7 +7,7 @@ old-location: ncd\iwsdudpaddress_getsockaddr.htm
 old-project: WsdApi
 ms.assetid: 4a29722f-a3b7-4285-9ade-06de125f8b91
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetSockaddr, GetSockaddr method, GetSockaddr method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetSockaddr method, IWSDUdpAddress.GetSockaddr, IWSDUdpAddress::GetSockaddr, ncd.iwsdudpaddress_getsockaddr, wsdbase/IWSDUdpAddress::GetSockaddr
 ms.prod: windows-hardware
 ms.technology: windows-devices

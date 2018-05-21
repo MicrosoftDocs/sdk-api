@@ -7,7 +7,7 @@ old-location: etw\tdhenumerateproviderfieldinformation_func.htm
 old-project: ETW
 ms.assetid: ab34a433-b641-4408-81d5-c93609204d24
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: TdhEnumerateProviderFieldInformation, TdhEnumerateProviderFieldInformation function [ETW], etw.tdhenumerateproviderfieldinformation_func, tdh.tdhenumerateproviderfieldinformation_func, tdh/TdhEnumerateProviderFieldInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

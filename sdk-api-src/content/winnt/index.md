@@ -2,7 +2,7 @@
 UID: NA:winnt
 ms.assetid: 800710c2-56cd-36a6-a445-b2520f403001
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_view_instance_location.htm
 old-project: direct3d12
 ms.assetid: 10E5956E-6DFB-447D-8D1A-C1A41A1C4A03
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12_VIEW_INSTANCE_LOCATION, D3D12_VIEW_INSTANCE_LOCATION structure, d3d12/D3D12_VIEW_INSTANCE_LOCATION, direct3d12.d3d12_view_instance_location
 ms.prod: windows-hardware
 ms.technology: windows-devices

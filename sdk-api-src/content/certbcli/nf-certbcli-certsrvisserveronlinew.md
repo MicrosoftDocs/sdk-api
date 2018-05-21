@@ -7,7 +7,7 @@ old-location: security\certsrvisserveronline.htm
 old-project: SecCrypto
 ms.assetid: fce1ea87-6c02-433e-af38-99b33528b1f1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CertSrvIsServerOnline, CertSrvIsServerOnline function [Security], CertSrvIsServerOnlineW, _certsrv_certsrvisserveronline, certbcli/CertSrvIsServerOnline, certbcli/CertSrvIsServerOnlineW, security.certsrvisserveronline
 ms.prod: windows-hardware
 ms.technology: windows-devices

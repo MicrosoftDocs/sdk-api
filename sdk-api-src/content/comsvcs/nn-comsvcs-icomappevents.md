@@ -7,7 +7,7 @@ old-location: cos\icomappevents.htm
 old-project: cossdk
 ms.assetid: 61ae1926-601b-4d97-80e4-d2d2098ced39
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IComAppEvents, IComAppEvents interface [COM+], IComAppEvents interface [COM+],described, _dtc_IComAppEvents, comsvcs/IComAppEvents, cos.icomappevents
 ms.prod: windows-hardware
 ms.technology: windows-devices

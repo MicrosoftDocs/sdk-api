@@ -7,7 +7,7 @@ old-location: ics\inetfwmgr_isportallowed.htm
 old-project: ICS
 ms.assetid: 39e68271-8046-470a-af90-17bed770716d
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],IsPortAllowed method, INetFwMgr.IsPortAllowed, INetFwMgr::IsPortAllowed, IsPortAllowed, IsPortAllowed method [ICS/ICF], IsPortAllowed method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_isportallowed, netfw/INetFwMgr::IsPortAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices

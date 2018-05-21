@@ -146,7 +146,7 @@ Note that a unique identifier is not the same as a volume GUID path. To find the
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=158259">MOUNTDEV_UNIQUE_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562264">MOUNTDEV_UNIQUE_ID</a>
 
 
 

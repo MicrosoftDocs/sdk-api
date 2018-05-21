@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_getpriority.htm
 old-project: Bits
 ms.assetid: 8602ed59-a372-4cb3-bbda-cf1c7afc3669
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: GetPriority, GetPriority method [BITS], GetPriority method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetPriority method, IBackgroundCopyJob.GetPriority, IBackgroundCopyJob::GetPriority, _drz_ibackgroundcopyjob_getpriority, bits.ibackgroundcopyjob_getpriority, bits/IBackgroundCopyJob::GetPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

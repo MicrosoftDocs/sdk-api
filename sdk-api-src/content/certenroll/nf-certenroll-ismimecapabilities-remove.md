@@ -7,7 +7,7 @@ old-location: security\ismimecapabilities_remove_method.htm
 old-project: SecCertEnroll
 ms.assetid: 516726cc-f7b9-4813-999f-036694322fe5
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ISmimeCapabilities interface [Security],Remove method, ISmimeCapabilities.Remove, ISmimeCapabilities::Remove, Remove, Remove method [Security], Remove method [Security],ISmimeCapabilities interface, certenroll/ISmimeCapabilities::Remove, security.ismimecapabilities_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

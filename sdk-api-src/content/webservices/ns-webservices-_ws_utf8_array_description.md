@@ -7,7 +7,7 @@ old-location: wsw\ws_utf8_array_description.htm
 old-project: wsw
 ms.assetid: f4aa8194-06b0-4da7-b4cc-b59c0a046711
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_UTF8_ARRAY_DESCRIPTION, WS_UTF8_ARRAY_DESCRIPTION structure [Web Services for Windows], _WS_UTF8_ARRAY_DESCRIPTION, webservices/WS_UTF8_ARRAY_DESCRIPTION, wsw.ws_utf8_array_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

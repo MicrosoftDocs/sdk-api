@@ -7,7 +7,7 @@ old-location: controls\ITextDocument_Save.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\save.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextDocument interface [Windows Controls],Save method, ITextDocument.Save, ITextDocument::Save, Save, Save method [Windows Controls], Save method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Save, _win32_ITextDocument_Save_cpp, controls.ITextDocument_Save, controls._win32_ITextDocument_Save, tom/ITextDocument::Save
 ms.prod: windows-hardware
 ms.technology: windows-devices

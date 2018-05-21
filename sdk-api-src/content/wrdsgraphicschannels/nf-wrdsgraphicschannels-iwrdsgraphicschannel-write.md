@@ -7,7 +7,7 @@ old-location: termserv\iwrdsgraphicschannel_write.htm
 old-project: TermServ
 ms.assetid: 6ce627d8-078d-427a-b732-473d4f44f719
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IWRdsGraphicsChannel interface [Remote Desktop Services],Write method, IWRdsGraphicsChannel.Write, IWRdsGraphicsChannel::Write, Write, Write method [Remote Desktop Services], Write method [Remote Desktop Services],IWRdsGraphicsChannel interface, termserv.iwrdsgraphicschannel_write, wrdsgraphicschannels/IWRdsGraphicsChannel::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices

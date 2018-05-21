@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxport_get_deviceid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8gf8.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: DeviceId property [Fax Service], DeviceId property [Fax Service],FaxPort object, FaxPort object [Fax Service],DeviceId property, FaxPort.DeviceId, IFaxPort.get_DeviceId, IFaxPort::get_DeviceId, _mfax_ifaxport_get_deviceid, fax._mfax_ifaxport_get_deviceid, fax._mfax_ifaxport_get_deviceid_vb, get_DeviceId
 ms.prod: windows-hardware
 ms.technology: windows-devices

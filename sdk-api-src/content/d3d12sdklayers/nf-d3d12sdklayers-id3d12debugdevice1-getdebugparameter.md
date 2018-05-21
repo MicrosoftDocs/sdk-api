@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugdevice1_getdebugparameter.htm
 old-project: direct3d12
 ms.assetid: 13A7E7D6-FF00-4E17-A7C5-C383F93F6A06
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: GetDebugParameter, GetDebugParameter method, GetDebugParameter method,ID3D12DebugDevice1 interface, ID3D12DebugDevice1 interface,GetDebugParameter method, ID3D12DebugDevice1.GetDebugParameter, ID3D12DebugDevice1::GetDebugParameter, d3d12sdklayers/ID3D12DebugDevice1::GetDebugParameter, direct3d12.id3d12debugdevice1_getdebugparameter
 ms.prod: windows-hardware
 ms.technology: windows-devices

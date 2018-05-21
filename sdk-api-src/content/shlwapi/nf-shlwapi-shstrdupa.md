@@ -7,7 +7,7 @@ old-location: shell\SHStrDup.htm
 old-project: shell
 ms.assetid: 6f014fb4-7637-48a8-9bec-d3278c46a6d8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: SHStrDup, SHStrDup function [Windows Shell], SHStrDupA, SHStrDupW, _win32_SHStrDup, shell.SHStrDup, shlwapi/SHStrDup, shlwapi/SHStrDupA, shlwapi/SHStrDupW
 ms.prod: windows-hardware
 ms.technology: windows-devices

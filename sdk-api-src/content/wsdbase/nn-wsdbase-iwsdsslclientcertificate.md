@@ -7,7 +7,7 @@ old-location: ncd\iwsdsslclientcertificate.htm
 old-project: WsdApi
 ms.assetid: d1b5eb99-7bbb-4881-8251-4362368dff88
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDSSLClientCertificate, IWSDSSLClientCertificate interface, IWSDSSLClientCertificate interface,described, ncd.iwsdsslclientcertificate, wsdbase/IWSDSSLClientCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

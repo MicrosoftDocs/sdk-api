@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmappingprops_get_targetipaddress.htm
 old-project: ICS
 ms.assetid: af794535-8b36-4306-a220-f4938f0e6ee9
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_TargetIPAddress method, INetSharingPortMappingProps.get_TargetIPAddress, INetSharingPortMappingProps::get_TargetIPAddress, _ics_inetsharingportmappingprops_get_targetipaddress, get_TargetIPAddress, get_TargetIPAddress method [ICS/ICF], get_TargetIPAddress method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_targetipaddress, netcon/INetSharingPortMappingProps::get_TargetIPAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

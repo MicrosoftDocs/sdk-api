@@ -7,7 +7,7 @@ old-location: dataxchg\ddegetlasterror.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddegetlasterror.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: DdeGetLastError, DdeGetLastError function [Data Exchange], _win32_DdeGetLastError, _win32_ddegetlasterror_cpp, dataxchg.ddegetlasterror, ddeml/DdeGetLastError, winui._win32_ddegetlasterror
 ms.prod: windows-hardware
 ms.technology: windows-devices

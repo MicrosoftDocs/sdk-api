@@ -2,7 +2,7 @@
 UID: NA:chstrarr
 ms.assetid: e38b81d1-057e-3ea0-bd92-b6c10bc02719
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

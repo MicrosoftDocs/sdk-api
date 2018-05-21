@@ -7,7 +7,7 @@ old-location: multimedia\cappaletteauto.htm
 old-project: Multimedia
 ms.assetid: d83e7dbc-d063-4e76-a7a1-37eaf73b5e8a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "_win32_capPaletteAuto, capPaletteAuto, capPaletteAuto macro [Windows Multimedia], multimedia.cappaletteauto, vfw/capPaletteAuto"
 ms.prod: windows-hardware
 ms.technology: windows-devices

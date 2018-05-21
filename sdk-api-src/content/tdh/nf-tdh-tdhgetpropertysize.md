@@ -7,7 +7,7 @@ old-location: etw\tdhgetpropertysize_func.htm
 old-project: ETW
 ms.assetid: 52b034db-b08b-4c79-973f-33800ca866f5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: TdhGetPropertySize, TdhGetPropertySize function [ETW], etw.tdhgetpropertysize_func, tdh.tdhgetpropertysize_func, tdh/TdhGetPropertySize
 ms.prod: windows-hardware
 ms.technology: windows-devices

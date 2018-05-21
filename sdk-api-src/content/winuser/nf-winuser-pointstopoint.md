@@ -7,7 +7,7 @@ old-location: gdi\pointstopoint.htm
 old-project: gdi
 ms.assetid: 921da8a5-cd8a-4851-b470-9b7bd10afaad
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: POINTSTOPOINT, POINTSTOPOINT macro [Windows GDI], _win32_POINTSTOPOINT, gdi.pointstopoint, winuser/POINTSTOPOINT
 ms.prod: windows-hardware
 ms.technology: windows-devices

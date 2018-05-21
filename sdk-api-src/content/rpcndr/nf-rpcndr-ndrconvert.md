@@ -7,7 +7,7 @@ old-location: rpc\ndrconvert.htm
 old-project: Rpc
 ms.assetid: ee9952c3-04e1-4fc0-a1fb-d50bc60e87f6
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: NdrConvert, NdrConvert
 , NdrConvert function [RPC], rpc.ndrconvert, rpcndr/NdrConvert
 ms.prod: windows-hardware

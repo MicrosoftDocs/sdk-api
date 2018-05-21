@@ -7,7 +7,7 @@ old-location: ics\inetsharingportmappingprops_get_externalport.htm
 old-project: ICS
 ms.assetid: d1cf6a3f-c6d2-4514-89e6-af58be22dabb
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_ExternalPort method, INetSharingPortMappingProps.get_ExternalPort, INetSharingPortMappingProps::get_ExternalPort, _ics_inetsharingportmappingprops_get_port, get_ExternalPort, get_ExternalPort method [ICS/ICF], get_ExternalPort method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_externalport, ics.inetsharingportmappingprops_get_port, netcon/INetSharingPortMappingProps::get_ExternalPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

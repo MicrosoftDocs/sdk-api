@@ -7,7 +7,7 @@ old-location: shell\IShellLink.htm
 old-project: shell
 ms.assetid: 67982d28-27ce-4482-b588-10fec8143750
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IShellLink, IShellLink interface [Windows Shell], IShellLink interface [Windows Shell],described, IShellLinkA, IShellLinkW, _win32_IShellLink, _win32_IShellLink_cpp, shell.IShellLink, shobjidl_core/IShellLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_name:
 -	IShellLinkA
 product: Windows
 targetos: Windows
-req.lib: 
+req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IShellLinkW interface

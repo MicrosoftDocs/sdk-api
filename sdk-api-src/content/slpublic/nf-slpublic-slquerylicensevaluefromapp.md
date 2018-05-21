@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Api-ms-win-core-slapi-l1-1-0.lib
 req.dll: Api-ms-win-core-slapi-l1-1-0.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SLQueryLicenseValueFromApp function

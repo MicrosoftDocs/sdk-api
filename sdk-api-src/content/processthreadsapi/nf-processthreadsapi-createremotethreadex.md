@@ -7,7 +7,7 @@ old-location: base\createremotethreadex.htm
 old-project: ProcThread
 ms.assetid: 9c2d9e20-7614-4010-9b8b-4f0e9bc2e6fe
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: CREATE_SUSPENDED, CreateRemoteThreadEx, CreateRemoteThreadEx function, STACK_SIZE_PARAM_IS_A_RESERVATION, base.createremotethreadex, processthreadsapi/CreateRemoteThreadEx, winbase/CreateRemoteThreadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

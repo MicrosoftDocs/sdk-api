@@ -7,7 +7,7 @@ old-location: com\codisconnectcontext.htm
 old-project: com
 ms.assetid: faacb583-285a-4ec6-9700-22320e87de6e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CoDisconnectContext, CoDisconnectContext function [COM], _com_CoDisconnectContext, com.codisconnectcontext, combaseapi/CoDisconnectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

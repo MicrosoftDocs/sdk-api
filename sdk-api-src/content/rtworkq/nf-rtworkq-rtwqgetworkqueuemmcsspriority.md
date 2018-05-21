@@ -7,7 +7,7 @@ old-location: base\rtwqgetworkqueuemmcsspriority.htm
 old-project: ProcThread
 ms.assetid: c9f18299-bd0a-4c1c-acc0-2cc8bc84aa82
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: RtwqGetWorkQueueMMCSSPriority, RtwqGetWorkQueueMMCSSPriority function, base.rtwqgetworkqueuemmcsspriority, rtworkq/RtwqGetWorkQueueMMCSSPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

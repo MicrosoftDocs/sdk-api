@@ -7,7 +7,7 @@ old-location: fs\deletevolumemountpoint.htm
 old-project: FileIO
 ms.assetid: b1a0a273-fa7f-4794-8b50-c74f00b0228d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: DeleteVolumeMountPoint, DeleteVolumeMountPoint function [Files], DeleteVolumeMountPointA, DeleteVolumeMountPointW, _win32_deletevolumemountpoint, base.deletevolumemountpoint, fileapi/DeleteVolumeMountPoint, fileapi/DeleteVolumeMountPointA, fileapi/DeleteVolumeMountPointW, fs.deletevolumemountpoint, winbase/DeleteVolumeMountPoint, winbase/DeleteVolumeMountPointA, winbase/DeleteVolumeMountPointW
 ms.prod: windows-hardware
 ms.technology: windows-devices

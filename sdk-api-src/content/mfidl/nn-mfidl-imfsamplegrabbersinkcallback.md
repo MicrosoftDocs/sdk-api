@@ -7,7 +7,7 @@ old-location: mf\imfsamplegrabbersinkcallback.htm
 old-project: medfound
 ms.assetid: 6635823c-f532-4012-ad3c-382491b61671
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 6635823c-f532-4012-ad3c-382491b61671, IMFSampleGrabberSinkCallback, IMFSampleGrabberSinkCallback interface [Media Foundation], IMFSampleGrabberSinkCallback interface [Media Foundation],described, mf.imfsamplegrabbersinkcallback, mfidl/IMFSampleGrabberSinkCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

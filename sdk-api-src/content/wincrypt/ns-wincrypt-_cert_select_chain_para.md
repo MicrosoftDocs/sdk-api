@@ -7,7 +7,7 @@ old-location: security\cert_select_chain_para.htm
 old-project: SecCrypto
 ms.assetid: 55c6c063-2a65-40ad-8d3f-7723b83cf021
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PCERT_SELECT_CHAIN_PARA, CERT_CHAIN_CACHE_ONLY_URL_RETRIEVAL, CERT_CHAIN_REVOCATION_CHECK_CACHE_ONLY, CERT_SELECT_CHAIN_PARA, CERT_SELECT_CHAIN_PARA structure [Security], PCCERT_SELECT_CHAIN_PARA, PCCERT_SELECT_CHAIN_PARA structure pointer [Security], PCERT_SELECT_CHAIN_PARA, PCERT_SELECT_CHAIN_PARA structure pointer [Security], _CERT_SELECT_CHAIN_PARA, security.cert_select_chain_para, wincrypt/CERT_SELECT_CHAIN_PARA, wincrypt/PCCERT_SELECT_CHAIN_PARA, wincrypt/PCERT_SELECT_CHAIN_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

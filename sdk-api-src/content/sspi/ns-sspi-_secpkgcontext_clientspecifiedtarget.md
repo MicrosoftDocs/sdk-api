@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_clientspecifiedtarget.htm
 old-project: SecAuthN
 ms.assetid: 67536f69-a1fc-4f26-84dc-872635bafa3b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSecPkgContext_ClientSpecifiedTarget, PSecPkgContext_ClientSpecifiedTarget, PSecPkgContext_ClientSpecifiedTarget structure pointer [Security], SecPkgContext_ClientSpecifiedTarget, SecPkgContext_ClientSpecifiedTarget structure [Security], _SecPkgContext_ClientSpecifiedTarget, security.secpkgcontext_clientspecifiedtarget, sspi/PSecPkgContext_ClientSpecifiedTarget, sspi/SecPkgContext_ClientSpecifiedTarget"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_ClientSpecifiedTarget structure

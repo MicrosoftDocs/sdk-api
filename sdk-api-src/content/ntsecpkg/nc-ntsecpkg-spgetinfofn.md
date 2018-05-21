@@ -7,7 +7,7 @@ old-location: security\spgetinfo.htm
 old-project: SecAuthN
 ms.assetid: e1e6f71f-6f54-424c-be49-7bc11cb19036
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SpGetInfo, SpGetInfo function [Security], SpGetInfoFn, _ssp_spgetinfo, ntsecpkg/SpGetInfo, security.spgetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

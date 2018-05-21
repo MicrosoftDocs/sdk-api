@@ -7,7 +7,7 @@ old-location: termserv\wtssetuserconfig.htm
 old-project: TermServ
 ms.assetid: 44d027c6-6ebb-4750-a0fa-17fdf31e45cd
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: WTSSetUserConfig, WTSSetUserConfig function [Remote Desktop Services], WTSSetUserConfigA, WTSSetUserConfigW, _win32_wtssetuserconfig, termserv.wtssetuserconfig, wtsapi32/WTSSetUserConfig, wtsapi32/WTSSetUserConfigA, wtsapi32/WTSSetUserConfigW
 ms.prod: windows-hardware
 ms.technology: windows-devices

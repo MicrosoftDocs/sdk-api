@@ -7,7 +7,7 @@ old-location: termserv\iworkspacerestyperegistry_getresourcetypeinfo.htm
 old-project: TermServ
 ms.assetid: 60fa6676-c098-41b6-bebd-0a600ca37954
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: GetResourceTypeInfo, GetResourceTypeInfo method [Remote Desktop Services], GetResourceTypeInfo method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, GetResourceTypeInfo method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],GetResourceTypeInfo method, IWorkspaceResTypeRegistry.GetResourceTypeInfo, IWorkspaceResTypeRegistry::GetResourceTypeInfo, Workspace object [Remote Desktop Services],GetResourceTypeInfo method, termserv.iworkspacerestyperegistry_getresourcetypeinfo, workspaceax/IWorkspaceResTypeRegistry::GetResourceTypeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

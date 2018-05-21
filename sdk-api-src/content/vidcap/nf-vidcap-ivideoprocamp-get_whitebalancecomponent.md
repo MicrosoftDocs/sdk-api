@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_whitebalancecomponent.htm
 old-project: DirectShow
 ms.assetid: b9beb89f-df55-4b76-a679-5e27cb0af9fb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_WhiteBalanceComponent method, IVideoProcAmp.get_WhiteBalanceComponent, IVideoProcAmp::get_WhiteBalanceComponent, IVideoProcAmpget_WhiteBalanceComponent, dshow.ivideoprocamp_get_whitebalancecomponent, get_WhiteBalanceComponent, get_WhiteBalanceComponent method [DirectShow], get_WhiteBalanceComponent method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_WhiteBalanceComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamanalogvideodecoder_get_numberoflines.htm
 old-project: DirectShow
 ms.assetid: d1c30230-bd47-4bdb-a89a-332c4da7cc00
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_NumberOfLines method, IAMAnalogVideoDecoder.get_NumberOfLines, IAMAnalogVideoDecoder::get_NumberOfLines, IAMAnalogVideoDecoderget_NumberOfLines, dshow.iamanalogvideodecoder_get_numberoflines, get_NumberOfLines, get_NumberOfLines method [DirectShow], get_NumberOfLines method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_NumberOfLines
 ms.prod: windows-hardware
 ms.technology: windows-devices

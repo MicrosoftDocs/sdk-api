@@ -7,7 +7,7 @@ old-location: mstv\ienumtuningspaces_next.htm
 old-project: mstv
 ms.assetid: 1220d006-10e9-4e64-8a18-8828b62d5da9
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IEnumTuningSpaces interface [Microsoft TV Technologies],Next method, IEnumTuningSpaces.Next, IEnumTuningSpaces::Next, IEnumTuningSpacesNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumTuningSpaces interface, mstv.ienumtuningspaces_next, tuner/IEnumTuningSpaces::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\wsgetnamespacefromprefix.htm
 old-project: wsw
 ms.assetid: 35351ce3-4ff9-4a15-856b-c3ee485f9d37
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsGetNamespaceFromPrefix, WsGetNamespaceFromPrefix function [Web Services for Windows], webservices/WsGetNamespaceFromPrefix, wsw.wsgetnamespacefromprefix
 ms.prod: windows-hardware
 ms.technology: windows-devices

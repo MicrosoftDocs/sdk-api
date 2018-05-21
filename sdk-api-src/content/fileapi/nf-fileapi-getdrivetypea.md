@@ -7,7 +7,7 @@ old-location: fs\getdrivetype.htm
 old-project: FileIO
 ms.assetid: b3989a3f-fc90-4ea0-8d3e-8e57068a08bc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: GetDriveType, GetDriveType function [Files], GetDriveTypeA, GetDriveTypeW, _win32_getdrivetype, base.getdrivetype, fileapi/GetDriveType, fileapi/GetDriveTypeA, fileapi/GetDriveTypeW, fs.getdrivetype, winbase/GetDriveType, winbase/GetDriveTypeA, winbase/GetDriveTypeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -2,7 +2,7 @@
 UID: NA:baseaudioprocessingobject
 ms.assetid: 2d494446-d1ae-3f4f-89e6-9a166b669923
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

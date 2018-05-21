@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_BeginContainer_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsbegincontainermethods\begincontainer.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: BeginContainer, BeginContainer method [GDI+], BeginContainer method [GDI+],Graphics class, Graphics class [GDI+],BeginContainer method, Graphics.BeginContainer, Graphics.BeginContainer(), Graphics::BeginContainer, _gdiplus_CLASS_Graphics_BeginContainer_, gdiplus._gdiplus_CLASS_Graphics_BeginContainer_
 ms.prod: windows-hardware
 ms.technology: windows-devices

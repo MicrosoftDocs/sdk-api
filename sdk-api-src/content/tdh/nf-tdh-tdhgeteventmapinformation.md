@@ -7,7 +7,7 @@ old-location: etw\tdhgeteventmapinformation_func.htm
 old-project: ETW
 ms.assetid: 2625b65c-7f9e-4a87-85c6-d16857ef4987
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: TdhGetEventMapInformation, TdhGetEventMapInformation function [ETW], etw.tdhgeteventmapinformation_func, tdh.tdhgeteventmapinformation_func, tdh/TdhGetEventMapInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

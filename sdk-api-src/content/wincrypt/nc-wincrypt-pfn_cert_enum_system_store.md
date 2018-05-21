@@ -7,7 +7,7 @@ old-location: security\certenumsystemstorecallback.htm
 old-project: SecCrypto
 ms.assetid: f070a9bd-be0b-49d0-9cab-a5d6f05d4e22
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CERT_SYSTEM_STORE_LOCATION_MASK, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertEnumSystemStoreCallback, CertEnumSystemStoreCallback callback, CertEnumSystemStoreCallback callback function [Security], PFN_CERT_ENUM_SYSTEM_STORE, PFN_CERT_ENUM_SYSTEM_STORE callback function [Security], security.certenumsystemstorecallback, wincrypt/CertEnumSystemStoreCallback, wincrypt/PFN_CERT_ENUM_SYSTEM_STORE
 ms.prod: windows-hardware
 ms.technology: windows-devices

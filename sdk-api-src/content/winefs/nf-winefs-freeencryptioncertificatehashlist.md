@@ -7,7 +7,7 @@ old-location: fs\freeencryptioncertificatehashlist.htm
 old-project: FileIO
 ms.assetid: 63d5811f-a135-45b0-8f23-fd8851f7bcca
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: FreeEncryptionCertificateHashList, FreeEncryptionCertificateHashList function [Files], _win32_freeencryptioncertificatehashlist, base.freeencryptioncertificatehashlist, fs.freeencryptioncertificatehashlist, winefs/FreeEncryptionCertificateHashList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: TP:mediastreaming
 ms.assetid: 657c5a21-72d5-3f12-a0eb-79444b5e3ef4
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

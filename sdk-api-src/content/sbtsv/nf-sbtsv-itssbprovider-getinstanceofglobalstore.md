@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_getinstanceofglobalstore.htm
 old-project: TermServ
 ms.assetid: e6c83775-56e7-4342-a26a-418f472e190f
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: GetInstanceOfGlobalStore, GetInstanceOfGlobalStore method [Remote Desktop Services], GetInstanceOfGlobalStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetInstanceOfGlobalStore method, ITsSbProvider.GetInstanceOfGlobalStore, ITsSbProvider::GetInstanceOfGlobalStore, sbtsv/ITsSbProvider::GetInstanceOfGlobalStore, termserv.itssbprovider_getinstanceofglobalstore
 ms.prod: windows-hardware
 ms.technology: windows-devices

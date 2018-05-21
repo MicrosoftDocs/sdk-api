@@ -7,7 +7,7 @@ old-location: mstv\idvb_sit_getcountoftabledescriptors.htm
 old-project: mstv
 ms.assetid: 7fe03fe0-f12e-43cb-b340-26fffdf2d873
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IDVB_SIT.GetCountOfTableDescriptors, IDVB_SIT::GetCountOfTableDescriptors, IDVB_SITGetCountOfTableDescriptors, dvbsiparser/IDVB_SIT::GetCountOfTableDescriptors, mstv.idvb_sit_getcountoftabledescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

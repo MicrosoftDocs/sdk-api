@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorgetresult.htm
 old-project: EAPHost
 ms.assetid: 898b5465-a030-4df6-a51f-0725c6332e80
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapMethodAuthenticatorGetResult, EapMethodAuthenticatorGetResult function [EAPHost], eaphost.eapmethodauthenticatorgetresult, eapmethodauthenticatorapis/EapMethodAuthenticatorGetResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

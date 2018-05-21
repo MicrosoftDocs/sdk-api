@@ -7,7 +7,7 @@ old-location: fs\find_by_sid_data.htm
 old-project: FileIO
 ms.assetid: fd0294a1-be43-4353-8edc-dff8bf0b0787
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PFIND_BY_SID_DATA, FIND_BY_SID_DATA, FIND_BY_SID_DATA structure [Files], PFIND_BY_SID_DATA, PFIND_BY_SID_DATA structure pointer [Files], base.find_by_sid_data, fs.find_by_sid_data, winioctl/FIND_BY_SID_DATA, winioctl/PFIND_BY_SID_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

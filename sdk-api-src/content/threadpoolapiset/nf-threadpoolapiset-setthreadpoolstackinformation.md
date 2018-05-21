@@ -7,7 +7,7 @@ old-location: base\setthreadpoolstackinformation.htm
 old-project: ProcThread
 ms.assetid: dbed0a95-30d8-4e63-b141-743401103c53
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: SetThreadpoolStackInformation, SetThreadpoolStackInformation function, base.setthreadpoolstackinformation, threadpoolapiset/SetThreadpoolStackInformation, winbase/SetThreadpoolStackInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

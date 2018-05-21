@@ -7,7 +7,7 @@ old-location: gdi\getwindoworgex.htm
 old-project: gdi
 ms.assetid: 9579ed10-6d4c-4724-af8b-22cab5b6ff5e
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetWindowOrgEx, GetWindowOrgEx function [Windows GDI], _win32_GetWindowOrgEx, gdi.getwindoworgex, wingdi/GetWindowOrgEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

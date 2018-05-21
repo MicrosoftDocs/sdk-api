@@ -7,7 +7,7 @@ old-location: mapi\mapimessage.htm
 old-project: WindowsMAPI
 ms.assetid: 7f696dd6-bfae-4c7d-b55f-d37952691c02
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/11/2018
 ms.keywords: "*lpMapiMessage, MAPI_RECEIPT_REQUESTED, MAPI_SENT, MAPI_UNREAD, MapiMessage, MapiMessage structure, lpMapiMessage, lpMapiMessage structure pointer, mapi.mapimessage, mapi/MapiMessage, mapi/lpMapiMessage"
 ms.prod: windows-hardware
 ms.technology: windows-devices

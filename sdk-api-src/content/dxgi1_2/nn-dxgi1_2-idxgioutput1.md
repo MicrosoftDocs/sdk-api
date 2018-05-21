@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput1.htm
 old-project: direct3ddxgi
 ms.assetid: 27C7BD34-0746-4D5F-A746-45FFEE5BCD31
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: IDXGIOutput1, IDXGIOutput1 interface [DXGI], IDXGIOutput1 interface [DXGI],described, direct3ddxgi.idxgioutput1, dxgi1_2/IDXGIOutput1
 ms.prod: windows-hardware
 ms.technology: windows-devices

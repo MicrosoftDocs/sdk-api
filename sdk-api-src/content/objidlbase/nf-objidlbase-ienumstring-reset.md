@@ -7,7 +7,7 @@ old-location: com\ienumstring_reset.htm
 old-project: com
 ms.assetid: 6f134738-b5ed-4f45-bf91-eeb28c8965c6
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IEnumString interface [COM],Reset method, IEnumString.Reset, IEnumString::Reset, Reset, Reset method [COM], Reset method [COM],IEnumString interface, _com_ienumstring_reset, com.ienumstring_reset, objidlbase/IEnumString::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

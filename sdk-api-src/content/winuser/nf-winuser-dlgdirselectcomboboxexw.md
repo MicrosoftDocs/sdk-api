@@ -7,7 +7,7 @@ old-location: controls\DlgDirSelectComboBoxEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirselectcomboboxex.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: DlgDirSelectComboBoxEx, DlgDirSelectComboBoxEx function [Windows Controls], DlgDirSelectComboBoxExA, DlgDirSelectComboBoxExW, _win32_DlgDirSelectComboBoxEx, _win32_DlgDirSelectComboBoxEx_cpp, controls.DlgDirSelectComboBoxEx, controls._win32_DlgDirSelectComboBoxEx, winuser/DlgDirSelectComboBoxEx, winuser/DlgDirSelectComboBoxExA, winuser/DlgDirSelectComboBoxExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

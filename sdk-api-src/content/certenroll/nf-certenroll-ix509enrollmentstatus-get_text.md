@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentstatus_text_property.htm
 old-project: SecCertEnroll
 ms.assetid: 071c4040-cdcf-4a01-918d-397726a235ed
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509EnrollmentStatus interface [Security],Text property, IX509EnrollmentStatus.Text, IX509EnrollmentStatus.get_Text, IX509EnrollmentStatus::Text, IX509EnrollmentStatus::get_Text, IX509EnrollmentStatus::put_Text, Text property [Security], Text property [Security],IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Text, certenroll/IX509EnrollmentStatus::get_Text, certenroll/IX509EnrollmentStatus::put_Text, get_Text, security.ix509enrollmentstatus_text_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

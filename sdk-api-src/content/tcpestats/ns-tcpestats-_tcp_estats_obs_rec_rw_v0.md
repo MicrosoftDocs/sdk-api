@@ -7,7 +7,7 @@ old-location: iphlp\tcp_estats_obs_rec_rw_v0.htm
 old-project: IpHlp
 ms.assetid: 91c2d5d9-3198-42a7-abf7-077281b491f2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*PTCP_ESTATS_OBS_REC_RW_v0, PTCP_ESTATS_OBS_REC_RW_v0, PTCP_ESTATS_OBS_REC_RW_v0 structure pointer [IP Helper], TCP_ESTATS_OBS_REC_RW_v0, TCP_ESTATS_OBS_REC_RW_v0 structure [IP Helper], _TCP_ESTATS_OBS_REC_RW_v0, iphlp.tcp_estats_obs_rec_rw_v0, tcpestats/PTCP_ESTATS_OBS_REC_RW_v0, tcpestats/TCP_ESTATS_OBS_REC_RW_v0"
 ms.prod: windows-hardware
 ms.technology: windows-devices

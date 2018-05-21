@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo_getnumberoutputs.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectionsinfo\getnumberoutputs.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetNumberOutputs, GetNumberOutputs method [WPF Bitmap Effects], GetNumberOutputs method [WPF Bitmap Effects],IMILBitmapEffectConnectionsInfo interface, IMILBitmapEffectConnectionsInfo interface [WPF Bitmap Effects],GetNumberOutputs method, IMILBitmapEffectConnectionsInfo.GetNumberOutputs, IMILBitmapEffectConnectionsInfo::GetNumberOutputs, _wibe_imilbitmapeffectconnectionsinfo_getnumberoutputs, mileffects/IMILBitmapEffectConnectionsInfo::GetNumberOutputs, wibe._wibe_imilbitmapeffectconnectionsinfo_getnumberoutputs
 ms.prod: windows-hardware
 ms.technology: windows-devices

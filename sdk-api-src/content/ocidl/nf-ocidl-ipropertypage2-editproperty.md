@@ -7,7 +7,7 @@ old-location: com\ipropertypage2_editproperty.htm
 old-project: com
 ms.assetid: a41d2d50-6484-43d0-a41c-1cfa3bfdbe8e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: EditProperty, EditProperty method [COM], EditProperty method [COM],IPropertyPage2 interface, IPropertyPage2 interface [COM],EditProperty method, IPropertyPage2.EditProperty, IPropertyPage2::EditProperty, _ctrl_ipropertypage2_editproperty, com.ipropertypage2_editproperty, ocidl/IPropertyPage2::EditProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

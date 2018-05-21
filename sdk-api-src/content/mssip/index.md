@@ -2,7 +2,7 @@
 UID: NA:mssip
 ms.assetid: 6048e3fd-fd19-3077-a19b-e4d421c7af4c
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

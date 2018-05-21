@@ -7,7 +7,7 @@ old-location: rpc\ndrasyncclientcall.htm
 old-project: Rpc
 ms.assetid: 591f56de-6ceb-46d7-9720-cd2213605ef2
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: NdrAsyncClientCall, NdrAsyncClientCall function [RPC], rpc.ndrasyncclientcall, rpcndr/NdrAsyncClientCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfacedelete.htm
 old-project: RRAS
 ms.assetid: 1777f742-8037-40d9-8279-b4bb89ea6f0d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MprConfigInterfaceDelete, MprConfigInterfaceDelete function [RAS], _mpr_mprconfiginterfacedelete, mprapi/MprConfigInterfaceDelete, rras.mprconfiginterfacedelete
 ms.prod: windows-hardware
 ms.technology: windows-devices

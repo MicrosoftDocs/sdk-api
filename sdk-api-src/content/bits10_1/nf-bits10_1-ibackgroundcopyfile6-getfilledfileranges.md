@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile6_getfilledfileranges.htm
 old-project: Bits
 ms.assetid: D3549C42-6642-4C3C-9D97-6F2F9732C48E
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: GetFilledFileRanges, GetFilledFileRanges method [BITS], GetFilledFileRanges method [BITS],IBackgroundCopyFile6 interface, IBackgroundCopyFile6 interface [BITS],GetFilledFileRanges method, IBackgroundCopyFile6.GetFilledFileRanges, IBackgroundCopyFile6::GetFilledFileRanges, bits.ibackgroundcopyfile6_getfilledfileranges, bits10_1/IBackgroundCopyFile6::GetFilledFileRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

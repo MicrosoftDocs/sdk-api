@@ -7,7 +7,7 @@ old-location: wsw\ws_service_property_id.htm
 old-project: wsw
 ms.assetid: 305fe7ad-e4a2-499a-b34b-e5b7cde53e22
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_SERVICE_PROPERTY_CLOSE_TIMEOUT, WS_SERVICE_PROPERTY_FAULT_DISCLOSURE, WS_SERVICE_PROPERTY_FAULT_LANGID, WS_SERVICE_PROPERTY_HOST_STATE, WS_SERVICE_PROPERTY_HOST_USER_STATE, WS_SERVICE_PROPERTY_ID, WS_SERVICE_PROPERTY_ID enumeration [Web Services for Windows], WS_SERVICE_PROPERTY_METADATA, webservices/WS_SERVICE_PROPERTY_CLOSE_TIMEOUT, webservices/WS_SERVICE_PROPERTY_FAULT_DISCLOSURE, webservices/WS_SERVICE_PROPERTY_FAULT_LANGID, webservices/WS_SERVICE_PROPERTY_HOST_STATE, webservices/WS_SERVICE_PROPERTY_HOST_USER_STATE, webservices/WS_SERVICE_PROPERTY_ID, webservices/WS_SERVICE_PROPERTY_METADATA, wsw.ws_service_property_id
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\olecreatepictureindirect.htm
 old-project: com
 ms.assetid: fb021348-07d4-4974-a71e-abb1b8d760c4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleCreatePictureIndirect, OleCreatePictureIndirect function [COM], _ole_OleCreatePictureIndirect, com.olecreatepictureindirect, olectl/OleCreatePictureIndirect
 ms.prod: windows-hardware
 ms.technology: windows-devices

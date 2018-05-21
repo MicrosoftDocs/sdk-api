@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_MakeInfinite_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\makeinfinite.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: MakeInfinite, MakeInfinite method [GDI+], MakeInfinite method [GDI+],Region class, Region class [GDI+],MakeInfinite method, Region.MakeInfinite, Region::MakeInfinite, _gdiplus_CLASS_Region_MakeInfinite_, gdiplus._gdiplus_CLASS_Region_MakeInfinite_
 ms.prod: windows-hardware
 ms.technology: windows-devices

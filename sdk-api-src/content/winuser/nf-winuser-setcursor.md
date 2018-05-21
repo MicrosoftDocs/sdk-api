@@ -7,7 +7,7 @@ old-location: menurc\setcursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setcursor.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: SetCursor, SetCursor function [Menus and Other Resources], _win32_SetCursor, _win32_setcursor_cpp, menurc.setcursor, winui._win32_setcursor, winuser/SetCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -128,7 +128,7 @@ For an example, see <a href="using_cursors.htm">Displaying a Cursor</a>.
 
 
 
-<a href="base.getsystemmetrics">GetSystemMetrics</a>
+<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
 
 
 

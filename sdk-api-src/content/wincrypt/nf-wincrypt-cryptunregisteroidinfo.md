@@ -7,7 +7,7 @@ old-location: security\cryptunregisteroidinfo.htm
 old-project: SecCrypto
 ms.assetid: 1217397b-2af9-4f58-8616-5a18ee2f4b8c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CryptUnregisterOIDInfo, CryptUnregisterOIDInfo function [Security], _crypto2_cryptunregisteroidinfo, security.cryptunregisteroidinfo, wincrypt/CryptUnregisterOIDInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

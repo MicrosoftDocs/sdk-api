@@ -2,7 +2,7 @@
 UID: NA:fdi_fci_types
 ms.assetid: 912c8328-9a99-3cdb-90f4-3abc27dcb0da
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

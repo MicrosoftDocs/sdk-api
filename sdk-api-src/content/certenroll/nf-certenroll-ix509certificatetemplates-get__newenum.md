@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplates__newenum.htm
 old-project: SecCertEnroll
 ms.assetid: 9152cb6a-7f8f-48c8-866d-b8cb3f9663eb
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509CertificateTemplates interface [Security],_NewEnum property, IX509CertificateTemplates._NewEnum, IX509CertificateTemplates.get__NewEnum, IX509CertificateTemplates::_NewEnum, IX509CertificateTemplates::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::_NewEnum, certenroll/IX509CertificateTemplates::get__NewEnum, get__NewEnum, security.ix509certificatetemplates__newenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

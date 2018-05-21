@@ -7,7 +7,7 @@ old-location: intl\ispellcheckerfactory_issupported.htm
 old-project: Intl
 ms.assetid: eb21850d-d490-4055-8910-70f9c0090f59
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ISpellCheckerFactory interface [Internationalization for Windows Applications],IsSupported method, ISpellCheckerFactory.IsSupported, ISpellCheckerFactory::IsSupported, IsSupported, IsSupported method [Internationalization for Windows Applications], IsSupported method [Internationalization for Windows Applications],ISpellCheckerFactory interface, intl.ispellcheckerfactory_issupported, spellcheck/ISpellCheckerFactory::IsSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # ISpellCheckerFactory::IsSupported

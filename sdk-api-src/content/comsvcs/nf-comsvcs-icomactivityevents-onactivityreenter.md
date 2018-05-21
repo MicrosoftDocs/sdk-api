@@ -7,7 +7,7 @@ old-location: cos\icomactivityevents_onactivityreenter.htm
 old-project: cossdk
 ms.assetid: e055caab-379c-47c5-b62a-28ce5c2a0573
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityReenter method, IComActivityEvents.OnActivityReenter, IComActivityEvents::OnActivityReenter, OnActivityReenter, OnActivityReenter method [COM+], OnActivityReenter method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityReenter, comsvcs/IComActivityEvents::OnActivityReenter, cos.icomactivityevents_onactivityreenter
 ms.prod: windows-hardware
 ms.technology: windows-devices

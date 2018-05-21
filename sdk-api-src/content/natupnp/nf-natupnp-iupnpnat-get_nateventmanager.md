@@ -7,7 +7,7 @@ old-location: ics\iupnpnat_get_nateventmanager.htm
 old-project: ICS
 ms.assetid: 594fdd40-062e-4f81-af11-4170a5870472
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: IUPnPNAT interface [ICS/ICF],get_NATEventManager method, IUPnPNAT.get_NATEventManager, IUPnPNAT::get_NATEventManager, _ics_iupnpnat_get_nateventmanager, get_NATEventManager, get_NATEventManager method [ICS/ICF], get_NATEventManager method [ICS/ICF],IUPnPNAT interface, ics.iupnpnat_get_nateventmanager, natupnp/IUPnPNAT::get_NATEventManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:inked
 ms.assetid: 9d8b5187-1dd9-36ba-a92d-7b58ceff402d
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

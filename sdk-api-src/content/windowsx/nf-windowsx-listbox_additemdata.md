@@ -7,7 +7,7 @@ old-location: controls\ListBox_AddItemData.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_additemdata.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ListBox_AddItemData, ListBox_AddItemData macro [Windows Controls], _win32_ListBox_AddItemData, _win32_ListBox_AddItemData_cpp, controls.ListBox_AddItemData, controls._win32_ListBox_AddItemData, windowsx/ListBox_AddItemData
 ms.prod: windows-hardware
 ms.technology: windows-devices

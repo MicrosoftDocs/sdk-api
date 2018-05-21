@@ -7,7 +7,7 @@ old-location: fs\setendoffile.htm
 old-project: FileIO
 ms.assetid: 2a579609-144a-4b77-8605-87aecf1f0957
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: SetEndOfFile, SetEndOfFile function [Files], _win32_setendoffile, base.setendoffile, fileapi/SetEndOfFile, fs.setendoffile, winbase/SetEndOfFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

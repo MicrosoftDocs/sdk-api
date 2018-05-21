@@ -7,7 +7,7 @@ old-location: base\rtwqinvokecallback.htm
 old-project: ProcThread
 ms.assetid: ba1ac638-b21d-4a0e-8599-b572b5ef2fa6
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: RtwqInvokeCallback, RtwqInvokeCallback function, base.rtwqinvokecallback, rtworkq/RtwqInvokeCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

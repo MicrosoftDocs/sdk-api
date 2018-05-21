@@ -7,7 +7,7 @@ old-location: wsw\wssetfaulterrordetail.htm
 old-project: wsw
 ms.assetid: 469982a5-42da-40e7-a053-4820fee58828
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsSetFaultErrorDetail, WsSetFaultErrorDetail function [Web Services for Windows], webservices/WsSetFaultErrorDetail, wsw.wssetfaulterrordetail
 ms.prod: windows-hardware
 ms.technology: windows-devices

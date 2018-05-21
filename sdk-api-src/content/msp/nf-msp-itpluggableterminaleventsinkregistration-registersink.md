@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminaleventsinkregistration_registersink.htm
 old-project: Tapi
 ms.assetid: 4887d299-8c63-4ead-b456-e80417e6ec56
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2],RegisterSink method, ITPluggableTerminalEventSinkRegistration.RegisterSink, ITPluggableTerminalEventSinkRegistration::RegisterSink, RegisterSink, RegisterSink method [TAPI 2.2], RegisterSink method [TAPI 2.2],ITPluggableTerminalEventSinkRegistration interface, _tapi3_itpluggableterminaleventsinkregistration_registersink, msp/ITPluggableTerminalEventSinkRegistration::RegisterSink, tapi3.itpluggableterminaleventsinkregistration_registersink
 ms.prod: windows-hardware
 ms.technology: windows-devices

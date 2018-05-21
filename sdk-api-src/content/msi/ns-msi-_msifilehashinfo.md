@@ -7,7 +7,7 @@ old-location: setup\msifilehashinfo.htm
 old-project: Msi
 ms.assetid: b4176b5b-149d-4542-9a6c-27281877a3ff
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: "*PMSIFILEHASHINFO, MSIFILEHASHINFO, MSIFILEHASHINFO structure, PMSIFILEHASHINFO, PMSIFILEHASHINFO structure pointer, _MSIFILEHASHINFO, _msi_msifilehashinfo, msi/MSIFILEHASHINFO, msi/PMSIFILEHASHINFO, setup.msifilehashinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

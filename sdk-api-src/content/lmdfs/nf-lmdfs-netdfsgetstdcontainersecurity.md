@@ -7,7 +7,7 @@ old-location: dfs\netdfsgetstdcontainersecurity.htm
 old-project: Dfs
 ms.assetid: 63ad610e-c66f-4fad-b3b6-2ee15e90a723
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: NetDfsGetStdContainerSecurity, NetDfsGetStdContainerSecurity function [Distributed File System], dfs.netdfsgetstdcontainersecurity, fs.netdfsgetstdcontainersecurity, lmdfs/NetDfsGetStdContainerSecurity, netmgmt.netdfsgetstdcontainersecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

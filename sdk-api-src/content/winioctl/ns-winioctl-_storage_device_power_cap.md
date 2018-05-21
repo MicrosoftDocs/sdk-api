@@ -7,7 +7,7 @@ old-location: fs\storage_device_power_cap.htm
 old-project: FileIO
 ms.assetid: B81C7D08-980E-4BA2-8CF8-7B6E58709102
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP structure pointer [Files], STORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP structure [Files], _STORAGE_DEVICE_POWER_CAP, fs.storage_device_power_cap, winioctl/PSTORAGE_DEVICE_POWER_CAP, winioctl/STORAGE_DEVICE_POWER_CAP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\CreateUpDownControl.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\updown\functions\createupdowncontrol.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: CreateUpDownControl, CreateUpDownControl function [Windows Controls], _win32_CreateUpDownControl, _win32_CreateUpDownControl_cpp, commctrl/CreateUpDownControl, controls.CreateUpDownControl, controls._win32_CreateUpDownControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

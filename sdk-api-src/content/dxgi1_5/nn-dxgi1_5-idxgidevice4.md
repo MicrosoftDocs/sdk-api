@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice4.htm
 old-project: direct3ddxgi
 ms.assetid: 15EA6B68-587E-4D92-A70D-7DDA9915EBC2
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: IDXGIDevice4, IDXGIDevice4 interface [DXGI], IDXGIDevice4 interface [DXGI],described, direct3ddxgi.idxgidevice4, dxgi1_5/IDXGIDevice4
 ms.prod: windows-hardware
 ms.technology: windows-devices

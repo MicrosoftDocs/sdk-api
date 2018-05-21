@@ -2,7 +2,7 @@
 UID: NA:wmcodecdsp
 ms.assetid: 75f67bd6-f134-3f81-8b6c-463ec552fd28
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

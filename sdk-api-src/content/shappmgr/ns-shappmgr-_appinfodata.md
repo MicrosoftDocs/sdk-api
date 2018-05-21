@@ -7,7 +7,7 @@ old-location: shell\APPINFODATA.htm
 old-project: shell
 ms.assetid: 3560b088-d899-4fb2-a47c-101f8f5e3bf7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*PAPPINFODATA, APPINFODATA, APPINFODATA structure [Windows Shell], _AppInfoData, inet_APPINFODATA, shappmgr/APPINFODATA, shell.APPINFODATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

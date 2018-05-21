@@ -7,7 +7,7 @@ old-location: wcs\jchcolorf.htm
 old-project: WCS
 ms.assetid: a7bf9e3c-b718-437b-a4d9-3edaef29f3ff
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/17/2018
 ms.keywords: JChColorF, JChColorF structure [Windows Color System], _JChColorF, wcs.jchcolorf, wcsplugin/JChColorF
 ms.prod: windows-hardware
 ms.technology: windows-devices

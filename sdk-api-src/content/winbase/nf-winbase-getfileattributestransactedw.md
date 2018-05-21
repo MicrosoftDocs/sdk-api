@@ -7,7 +7,7 @@ old-location: fs\getfileattributestransacted.htm
 old-project: FileIO
 ms.assetid: dd1435da-93e5-440a-913a-9e40e39b4a01
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: GetFileAttributesTransacted, GetFileAttributesTransacted function [Files], GetFileAttributesTransactedA, GetFileAttributesTransactedW, GetFileExInfoStandard, fs.getfileattributestransacted, winbase/GetFileAttributesTransacted, winbase/GetFileAttributesTransactedA, winbase/GetFileAttributesTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: menurc\findresourceex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\findresourceex.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: FindResourceEx, FindResourceEx function [Menus and Other Resources], FindResourceExA, FindResourceExW, _win32_FindResourceEx, _win32_findresourceex_cpp, menurc.findresourceex, winbase/FindResourceEx, winbase/FindResourceExA, winbase/FindResourceExW, winui._win32_findresourceex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyfile3_gettemporaryname.htm
 old-project: Bits
 ms.assetid: 3fa4cc3b-b134-4e11-8bb6-1c9855d8dd37
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: GetTemporaryName, GetTemporaryName method [BITS], GetTemporaryName method [BITS],IBackgroundCopyFile3 interface, IBackgroundCopyFile3 interface [BITS],GetTemporaryName method, IBackgroundCopyFile3.GetTemporaryName, IBackgroundCopyFile3::GetTemporaryName, bits.ibackgroundcopyfile3_gettemporaryname, bits3_0/IBackgroundCopyFile3::GetTemporaryName
 ms.prod: windows-hardware
 ms.technology: windows-devices

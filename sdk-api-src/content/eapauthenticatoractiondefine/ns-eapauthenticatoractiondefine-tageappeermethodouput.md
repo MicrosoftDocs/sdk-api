@@ -7,7 +7,7 @@ old-location: eaphost\eappeermethodoutput.htm
 old-project: EAPHost
 ms.assetid: fb3d423e-8509-4478-87d5-86bcbd90a8e7
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapPeerMethodOutput, EapPeerMethodOutput structure [EAPHost], eapauthenticatoractiondefine/EapPeerMethodOutput, eaphost.eappeermethodoutput, tagEapPeerMethodOuput
 ms.prod: windows-hardware
 ms.technology: windows-devices

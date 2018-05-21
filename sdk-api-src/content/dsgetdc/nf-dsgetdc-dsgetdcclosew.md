@@ -7,7 +7,7 @@ old-location: ad\dsgetdcclose.htm
 old-project: AD
 ms.assetid: d193e4cd-ad66-4d93-b912-348f17e93a6f
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: DsGetDcClose, DsGetDcClose function [Active Directory], DsGetDcCloseW, ad.dsgetdcclose, dsgetdc/DsGetDcClose, dsgetdc/DsGetDcCloseW
 ms.prod: windows-hardware
 ms.technology: windows-devices

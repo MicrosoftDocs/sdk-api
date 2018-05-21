@@ -7,7 +7,7 @@ old-location: iscsidisc\getiscsisessionlist.htm
 old-project: iSCSIDisc
 ms.assetid: b16b9e52-67af-4745-ac67-a2096dafe94e
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/11/2018
 ms.keywords: GetIScsiSessionListA, GetIscsiSessionList, GetIscsiSessionList function [iSCSI Discovery Library API], GetIscsiSessionListA, GetIscsiSessionListW, iscsidisc.getiscsisessionlist, iscsidsc/GetIscsiSessionList, iscsidsc/GetIscsiSessionListA, iscsidsc/GetIscsiSessionListW
 ms.prod: windows-hardware
 ms.technology: windows-devices

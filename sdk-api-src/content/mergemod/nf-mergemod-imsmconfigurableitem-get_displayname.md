@@ -7,7 +7,7 @@ old-location: setup\imsmconfigurableitem_get_displayname.htm
 old-project: Msi
 ms.assetid: f947e570-251d-4638-b8b8-aaa6f08bde46
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: IMsmConfigurableItem interface,get_DisplayName method, IMsmConfigurableItem.get_DisplayName, IMsmConfigurableItem::get_DisplayName, _msi_get_displayname_function, get_DisplayName, get_DisplayName method, get_DisplayName method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_DisplayName, setup.imsmconfigurableitem_get_displayname
 ms.prod: windows-hardware
 ms.technology: windows-devices

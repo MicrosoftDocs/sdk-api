@@ -2,7 +2,7 @@
 UID: NA:rpcndr
 ms.assetid: 94d2ad6f-f235-3269-ab39-c3bf3e799b2b
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

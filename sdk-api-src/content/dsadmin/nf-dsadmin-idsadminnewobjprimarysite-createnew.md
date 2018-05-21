@@ -7,7 +7,7 @@ old-location: ad\idsadminnewobjprimarysite_createnew.htm
 old-project: AD
 ms.assetid: ec685ae1-6a37-43d3-84ed-7409611ab63b
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: CreateNew, CreateNew method [Active Directory], CreateNew method [Active Directory],IDsAdminNewObjPrimarySite interface, IDsAdminNewObjPrimarySite interface [Active Directory],CreateNew method, IDsAdminNewObjPrimarySite.CreateNew, IDsAdminNewObjPrimarySite::CreateNew, _glines_idsadminnewobjprimarysite_createnew, ad.idsadminnewobjprimarysite__createnew, ad.idsadminnewobjprimarysite_createnew, dsadmin/IDsAdminNewObjPrimarySite::CreateNew
 ms.prod: windows-hardware
 ms.technology: windows-devices

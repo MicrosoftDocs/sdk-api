@@ -7,7 +7,7 @@ old-location: bits\bg_auth_target.htm
 old-project: Bits
 ms.assetid: efe7aa0a-48fc-4192-b81b-40d3a9b0fb22
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: BG_AUTH_TARGET, BG_AUTH_TARGET enumeration [BITS], BG_AUTH_TARGET_PROXY, BG_AUTH_TARGET_SERVER, __MIDL_IBackgroundCopyJob2_0001, _drz_bg_auth_target, bits.bg_auth_target, bits1_5/BG_AUTH_TARGET, bits1_5/BG_AUTH_TARGET_PROXY, bits1_5/BG_AUTH_TARGET_SERVER
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\initializethreadpoolenvironment.htm
 old-project: ProcThread
 ms.assetid: ad610b7a-9865-4feb-81d2-491f9f87ef3e
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: InitializeThreadpoolEnvironment, InitializeThreadpoolEnvironment function, base.initializethreadpoolenvironment, winbase/InitializeThreadpoolEnvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices

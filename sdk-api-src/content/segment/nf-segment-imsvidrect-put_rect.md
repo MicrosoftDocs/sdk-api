@@ -7,7 +7,7 @@ old-location: mstv\imsvidrect_put_rect.htm
 old-project: mstv
 ms.assetid: e50fd657-d913-49f5-b4dd-fb4c0d207417
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Rect method, IMSVidRect.put_Rect, IMSVidRect::put_Rect, IMSVidRectput_Rect, mstv.imsvidrect_put_rect, put_Rect, put_Rect method [Microsoft TV Technologies], put_Rect method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Rect
 ms.prod: windows-hardware
 ms.technology: windows-devices

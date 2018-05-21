@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetvolume.htm
 old-project: Multimedia
 ms.assetid: e5fba475-d7d8-40de-aac7-0188954da180
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MCIWndGetVolume, MCIWndGetVolume macro [Windows Multimedia], _win32_MCIWndGetVolume, multimedia.mciwndgetvolume, vfw/MCIWndGetVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

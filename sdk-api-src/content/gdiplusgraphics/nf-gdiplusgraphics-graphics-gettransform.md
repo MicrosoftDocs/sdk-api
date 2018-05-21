@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetTransform_matrix_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gettransform.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetTransform, GetTransform method [GDI+], GetTransform method [GDI+],Graphics class, Graphics class [GDI+],GetTransform method, Graphics.GetTransform, Graphics::GetTransform, _gdiplus_CLASS_Graphics_GetTransform_matrix_, gdiplus._gdiplus_CLASS_Graphics_GetTransform_matrix_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowexprops_getcodecurl.htm
 old-project: DirectShow
 ms.assetid: ad5672a8-2af9-45ef-b510-3c2f8948f64b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetCodecURL, GetCodecURL method [DirectShow], GetCodecURL method [DirectShow],IAMNetShowExProps interface, IAMNetShowExProps interface [DirectShow],GetCodecURL method, IAMNetShowExProps.GetCodecURL, IAMNetShowExProps::GetCodecURL, IAMNetShowExPropsGetCodecURL, dshow.iamnetshowexprops_getcodecurl, qnetwork/IAMNetShowExProps::GetCodecURL
 ms.prod: windows-hardware
 ms.technology: windows-devices

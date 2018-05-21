@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_get_discountsend_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8h9g.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: DiscountSend property [Fax Service], DiscountSend property [Fax Service],FaxJob object, FaxJob object [Fax Service],DiscountSend property, FaxJob.DiscountSend, IFaxJob.get_DiscountSend, IFaxJob::get_DiscountSend, _mfax_ifaxjob_get_discountsend, fax._mfax_ifaxjob_get_discountsend, fax._mfax_ifaxjob_get_discountsend_vb, get_DiscountSend
 ms.prod: windows-hardware
 ms.technology: windows-devices

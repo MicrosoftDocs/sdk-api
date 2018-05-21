@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12sharingcontract_sharedfencesignal.htm
 old-project: direct3d12
 ms.assetid: E90576A7-B665-4911-A17E-FD328CD71458
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: ID3D12SharingContract interface,SharedFenceSignal method, ID3D12SharingContract.SharedFenceSignal, ID3D12SharingContract::SharedFenceSignal, SharedFenceSignal, SharedFenceSignal method, SharedFenceSignal method,ID3D12SharingContract interface, d3d12sdklayers/ID3D12SharingContract::SharedFenceSignal, direct3d12.id3d12sharingcontract_sharedfencesignal
 ms.prod: windows-hardware
 ms.technology: windows-devices

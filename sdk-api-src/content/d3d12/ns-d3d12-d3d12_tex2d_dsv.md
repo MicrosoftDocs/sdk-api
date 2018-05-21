@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex2d_dsv.htm
 old-project: direct3d12
 ms.assetid: CA6D824D-48EF-4D13-BC13-11B3E0571BC1
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12_TEX2D_DSV, D3D12_TEX2D_DSV structure, d3d12/D3D12_TEX2D_DSV, direct3d12.d3d12_tex2d_dsv
 ms.prod: windows-hardware
 ms.technology: windows-devices

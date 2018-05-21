@@ -7,7 +7,7 @@ old-location: rras\getnextorderedservice.htm
 old-project: RRAS
 ms.assetid: e25d7086-cfb7-41ea-8f4e-7e4f065830d9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetNextOrderedService, GetNextOrderedService callback function [RAS], PGET_NEXT_ORDERED_SERVICE, PGET_NEXT_ORDERED_SERVICE callback, _mpr_getnextorderedservice, rras.getnextorderedservice, stm/GetNextOrderedService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # PGET_NEXT_ORDERED_SERVICE callback function

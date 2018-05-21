@@ -7,7 +7,7 @@ old-location: tapi3\cmspaddress_shutdownmspcallhelper.htm
 old-project: Tapi
 ms.assetid: 66f7b743-6100-45b9-98b0-3bacfcffed15
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: CMSPAddress [TAPI 2.2],ShutdownMSPCallHelper method, CMSPAddress,ShutdownMSPCallHelper, CMSPAddress::ShutdownMSPCallHelper, ShutdownMSPCallHelper, ShutdownMSPCallHelper method [TAPI 2.2], ShutdownMSPCallHelper method [TAPI 2.2],CMSPAddress, ShutdownMSPCallHelper,CMSPAddress, _tapi3_cmspaddress_shutdownmspcallhelper, mspaddr/CMSPAddress::ShutdownMSPCallHelper, tapi3.cmspaddress_shutdownmspcallhelper
 ms.prod: windows-hardware
 ms.technology: windows-devices

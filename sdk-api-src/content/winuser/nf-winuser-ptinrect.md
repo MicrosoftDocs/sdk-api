@@ -7,7 +7,7 @@ old-location: gdi\ptinrect.htm
 old-project: gdi
 ms.assetid: 8a47a238-082c-44b8-a270-5ebb4d3d9fc8
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: PtInRect, PtInRect function [Windows GDI], _win32_PtInRect, gdi.ptinrect, winuser/PtInRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

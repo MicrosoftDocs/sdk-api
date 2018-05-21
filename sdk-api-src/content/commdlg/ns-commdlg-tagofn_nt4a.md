@@ -7,7 +7,7 @@ old-location: dlgbox\openfilename_nt4_str.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\openfilename_nt4.htm
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPOPENFILENAME_NT4A, OPENFILENAME_NT4, OPENFILENAME_NT4 structure [Dialog Boxes], OPENFILENAME_NT4A, OPENFILENAME_NT4W, _win32_OPENFILENAME_NT4_str, _win32_openfilename_nt4_str_cpp, commdlg/OPENFILENAME_NT4, commdlg/OPENFILENAME_NT4A, commdlg/OPENFILENAME_NT4W, dlgbox.openfilename_nt4_str, tagOFN_NT4A, winui._win32_openfilename_nt4_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_Translate_offsetX_offsetY_order_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\translate.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Matrix class [GDI+],Translate method, Matrix.Translate, Matrix::Translate, Translate, Translate method [GDI+], Translate method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_Translate_offsetX_offsetY_order_, gdiplus._gdiplus_CLASS_Matrix_Translate_offsetX_offsetY_order_
 ms.prod: windows-hardware
 ms.technology: windows-devices

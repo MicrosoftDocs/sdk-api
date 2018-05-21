@@ -7,7 +7,7 @@ old-location: mstv\ipbda_eit_initialize.htm
 old-project: mstv
 ms.assetid: 1f0d5a6e-eaa8-4694-b6d6-f1217ec6eb88
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IPBDA_EIT interface [Microsoft TV Technologies],Initialize method, IPBDA_EIT.Initialize, IPBDA_EIT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPBDA_EIT interface, dvbsiparser/IPBDA_EIT::Initialize, mstv.ipbda_eit_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

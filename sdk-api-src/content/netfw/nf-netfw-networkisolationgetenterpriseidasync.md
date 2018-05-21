@@ -7,7 +7,7 @@ old-location: ics\networkisolationgetenterpriseidasync.htm
 old-project: ICS
 ms.assetid: 709211F9-FE7A-4C43-AD35-101C4B64ED26
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: NetworkIsolationGetEnterpriseIdAsync, NetworkIsolationGetEnterpriseIdAsync function [ICS/ICF], ics.networkisolationgetenterpriseidasync, netfw/NetworkIsolationGetEnterpriseIdAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

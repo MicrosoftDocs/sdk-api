@@ -7,7 +7,7 @@ old-location: security\ienroll4_resetattributes.htm
 old-project: SecCrypto
 ms.assetid: f9da2371-441e-45c7-9723-39d01b6ece27
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: IEnroll4 interface [Security],resetAttributes method, IEnroll4.resetAttributes, IEnroll4::resetAttributes, resetAttributes, resetAttributes method [Security], resetAttributes method [Security],IEnroll4 interface, security.ienroll4_resetattributes, xenroll/IEnroll4::resetAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

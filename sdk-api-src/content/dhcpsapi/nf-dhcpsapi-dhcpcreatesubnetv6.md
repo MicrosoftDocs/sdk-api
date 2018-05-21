@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcreatesubnetv6.htm
 old-project: DHCP
 ms.assetid: a27ac111-39bf-4695-989a-1c83e7704ff4
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpCreateSubnetV6, DhcpCreateSubnetV6 function [DHCP], dhcp.dhcpcreatesubnetv6, dhcpsapi/DhcpCreateSubnetV6
 ms.prod: windows-hardware
 ms.technology: windows-devices

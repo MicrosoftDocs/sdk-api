@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_ismodeenabled.htm
 old-project: DirectShow
 ms.assetid: 97d8b9f8-4dbf-4b49-b32f-4513c9e5186e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsModeEnabled method, IFullScreenVideoEx.IsModeEnabled, IFullScreenVideoEx::IsModeEnabled, IFullScreenVideoIsModeEnabled, IsModeEnabled, IsModeEnabled method [DirectShow], IsModeEnabled method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsModeEnabled, dshow.ifullscreenvideoex_ismodeenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

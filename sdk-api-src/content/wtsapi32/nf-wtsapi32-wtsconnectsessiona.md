@@ -7,7 +7,7 @@ old-location: termserv\wtsconnectsession.htm
 old-project: TermServ
 ms.assetid: 3911b02c-43df-4a8d-9cd6-92d2e5323f61
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: WTSConnectSession, WTSConnectSession function [Remote Desktop Services], WTSConnectSessionA, WTSConnectSessionW, termserv.wtsconnectsession, wtsapi32/WTSConnectSession, wtsapi32/WTSConnectSessionA, wtsapi32/WTSConnectSessionW
 ms.prod: windows-hardware
 ms.technology: windows-devices

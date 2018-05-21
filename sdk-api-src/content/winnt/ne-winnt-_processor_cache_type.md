@@ -7,7 +7,7 @@ old-location: base\processor_cache_type.htm
 old-project: ProcThread
 ms.assetid: 23044f67-e944-43c2-8c75-3d2fba87cb3c
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: CacheData, CacheInstruction, CacheTrace, CacheUnified, PROCESSOR_CACHE_TYPE, PROCESSOR_CACHE_TYPE enumeration, _PROCESSOR_CACHE_TYPE, base.processor_cache_type, winnt/CacheData, winnt/CacheInstruction, winnt/CacheTrace, winnt/CacheUnified, winnt/PROCESSOR_CACHE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\iwsdserviceproxyeventing_beginunsubscribetomultipleoperations.
 old-project: WsdApi
 ms.assetid: a8a3dd48-89a2-4d7b-98e0-3dcb3c32cb2b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: BeginUnsubscribeToMultipleOperations, BeginUnsubscribeToMultipleOperations method, BeginUnsubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginUnsubscribeToMultipleOperations method, IWSDServiceProxyEventing.BeginUnsubscribeToMultipleOperations, IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_beginunsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: TP:properties
 ms.assetid: ad4462be-c0de-3130-918e-217804db0bf6
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -20,6 +20,7 @@ To develop Windows Property System, you need these headers:
  * [propidl.h](..\propidl\index.md)
  * [propsys.h](..\propsys\index.md)
  * [propvarutil.h](..\propvarutil\index.md)
+ * [shobjidl_core.h](..\shobjidl_core\index.md)
 
 For the programming guide, see [Windows Property System](https://review.docs.microsoft.com/en-us/win32-test/properties).
 
@@ -224,6 +225,8 @@ For the programming guide, see [Windows Property System](https://review.docs.mic
 | [PropVariantToUInt64WithDefault function](..\propvarutil\nf-propvarutil-propvarianttouint64withdefault.md) | Extracts ULONGLONG value from a PROPVARIANT structure. If no value exists, then the specified default value is returned. |
 | [PropVariantToVariant function](..\propvarutil\nf-propvarutil-propvarianttovariant.md) | Converts the contents of a PROPVARIANT structure to a VARIANT structure. |
 | [PropVariantToWinRTPropertyValue function](..\propsys\nf-propsys-propvarianttowinrtpropertyvalue.md) | Extracts data from a PROPVARIANT structure into a Windows Runtime property value. |
+| [SHGetPropertyStoreFromIDList function](..\shobjidl_core\nf-shobjidl_core-shgetpropertystorefromidlist.md) | Retrieves an object that supports IPropertyStore or related interfaces from a pointer to an item identifier list (PIDL). |
+| [SHGetPropertyStoreFromParsingName function](..\shobjidl_core\nf-shobjidl_core-shgetpropertystorefromparsingname.md) | Returns a property store for an item, given a path or parsing name. |
 | [StgDeserializePropVariant function](..\propvarutil\nf-propvarutil-stgdeserializepropvariant.md) | Deserializes a specified SERIALIZEDPROPERTYVALUE structure, creating a PROPVARIANT structure. |
 | [StgSerializePropVariant function](..\propvarutil\nf-propvarutil-stgserializepropvariant.md) | Serializes a specified PROPVARIANT structure, creating a SERIALIZEDPROPERTYVALUE structure. |
 | [VariantCompare function](..\propvarutil\nf-propvarutil-variantcompare.md) | Compares two variant structures, based on default comparison rules. |
@@ -288,7 +291,9 @@ For the programming guide, see [Windows Property System](https://review.docs.mic
 | Title   | Description   |
 | ---- |:---- |
 | [GETPROPERTYSTOREFLAGS enumeration](..\propsys\ne-propsys-getpropertystoreflags.md) | Indicates flags that modify the property store object retrieved by methods that create a property store, such as IShellItem2 |
+| [PDOPSTATUS enumeration](..\shobjidl_core\ne-shobjidl_core-pdopstatus.md) | Provides operation status flags. |
 | [PKA_FLAGS enumeration](..\propsys\ne-propsys-pka_flags.md) | Describes property change array behavior. |
+| [PLACEHOLDER_STATES enumeration](..\shobjidl_core\ne-shobjidl_core-placeholder_states.md) | Specifies the states that a placeholder file can have. Retrieve this value through the System.FilePlaceholderStatus (PKEY_FilePlaceholderStatus) property. |
 | [PROPDESC_AGGREGATION_TYPE enumeration](..\propsys\ne-propsys-propdesc_aggregation_type.md) | Describes how property values are displayed when multiple items are selected. |
 | [PROPDESC_COLUMNINDEX_TYPE enumeration](..\propsys\ne-propsys-propdesc_columnindex_type.md) | Indicates whether or how a property can be indexed. |
 | [PROPDESC_CONDITION_TYPE enumeration](..\propsys\ne-propsys-propdesc_condition_type.md) | Describes the condition type to use when displaying the property in the query builder UI in Windows Vista, but not in Windows 7 and later. |
@@ -300,6 +305,7 @@ For the programming guide, see [Windows Property System](https://review.docs.mic
 | [PROPDESC_VIEW_FLAGS enumeration](..\propsys\ne-propsys-propdesc_view_flags.md) | These flags describe properties in property description list strings. |
 | [PROPVAR_COMPARE_UNIT enumeration](..\propvarutil\ne-propvarutil-propvar_compare_unit.md) | These flags are associated with certain PROPVARIANT structure comparisons. |
 | [PSC_STATE enumeration](..\propsys\ne-propsys-psc_state.md) | Specifies the state of a property. They are set manually by the code that is hosting the in-memory property store cache. |
+| [SYNC_TRANSFER_STATUS enumeration](..\shobjidl_core\ne-shobjidl_core-sync_transfer_status.md) | Specifies possible status values used in the System.SyncTransferStatus property. |
 
 ## Interfaces
 
@@ -320,6 +326,7 @@ For the programming guide, see [Windows Property System](https://review.docs.mic
 | [IPropertyStoreCapabilities interface](..\propsys\nn-propsys-ipropertystorecapabilities.md) | Exposes a method that determines whether a property can be edited in the UI by the user. |
 | [IPropertyStoreFactory interface](..\propsys\nn-propsys-ipropertystorefactory.md) | Exposes methods to get an IPropertyStore object. |
 | [IPropertySystem interface](..\propsys\nn-propsys-ipropertysystem.md) | Exposes methods that get property descriptions, register and unregister property schemas, enumerate property descriptions, and format property values in a type-strict way. |
+| [IPropertyUI interface](..\shobjidl_core\nn-shobjidl_core-ipropertyui.md) | Developers should use IPropertyDescription instead. |
 
 ## Methods
 
@@ -387,3 +394,10 @@ For the programming guide, see [Windows Property System](https://review.docs.mic
 | [IPropertySystem::GetPropertyDescription](..\propsys\nf-propsys-ipropertysystem-getpropertydescription.md) | Gets an instance of the subsystem object that implements IPropertyDescription, to obtain the property description for a given PROPERTYKEY. |
 | [IPropertySystem::RegisterPropertySchema](..\propsys\nf-propsys-ipropertysystem-registerpropertyschema.md) | Informs the schema subsystem of the addition of a property description schema file. |
 | [IPropertySystem::UnregisterPropertySchema](..\propsys\nf-propsys-ipropertysystem-unregisterpropertyschema.md) | Informs the schema subsystem of the removal of a property description schema (.propdesc) file, using a file path to the .propdesc file on the local machine. |
+| [IPropertyUI::FormatForDisplay](..\shobjidl_core\nf-shobjidl_core-ipropertyui-formatfordisplay.md) | Developers should use IPropertyDescription instead. Gets a formatted, Unicode string representation of a property value. |
+| [IPropertyUI::GetDefaultWidth](..\shobjidl_core\nf-shobjidl_core-ipropertyui-getdefaultwidth.md) | Developers should use IPropertyDescription instead. Gets the width of the property description. |
+| [IPropertyUI::GetDisplayName](..\shobjidl_core\nf-shobjidl_core-ipropertyui-getdisplayname.md) | Developers should use IPropertyDescription instead. Gets a string specifying the name of the property suitable for display to users. |
+| [IPropertyUI::GetFlags](..\shobjidl_core\nf-shobjidl_core-ipropertyui-getflags.md) | Developers should use IPropertyDescription instead. Gets property feature flags for a specified property. |
+| [IPropertyUI::GetHelpInfo](..\shobjidl_core\nf-shobjidl_core-ipropertyui-gethelpinfo.md) | Developers should use IPropertyDescription instead. |
+| [IPropertyUI::GetPropertyDescription](..\shobjidl_core\nf-shobjidl_core-ipropertyui-getpropertydescription.md) | Developers should use IPropertyDescription instead. Gets the property description of a specified property. |
+| [IPropertyUI::ParsePropertyName](..\shobjidl_core\nf-shobjidl_core-ipropertyui-parsepropertyname.md) | Developers should use IPropertyDescription instead. Reads the characters of the specified property name and identifies the FMTID and PROPID of the property. |

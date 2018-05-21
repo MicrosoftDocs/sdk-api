@@ -7,7 +7,7 @@ old-location: mstv\imsvidvmr9_get_suppresseffects.htm
 old-project: mstv
 ms.assetid: 7d2d10fe-39c2-4ee1-a5c5-5624b2fbc2ef
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],get_SuppressEffects method, IMSVidVMR9.get_SuppressEffects, IMSVidVMR9::get_SuppressEffects, IMSVidVMR9get_SuppressEffects, get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies],IMSVidVMR9 interface, mstv.imsvidvmr9_get_suppresseffects, segment/IMSVidVMR9::get_SuppressEffects
 ms.prod: windows-hardware
 ms.technology: windows-devices

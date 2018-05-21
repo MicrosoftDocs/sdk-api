@@ -7,7 +7,7 @@ old-location: fs\queryusersonencryptedfile.htm
 old-project: FileIO
 ms.assetid: 1bdab753-e7f2-4c08-8b37-3903c0842227
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: QueryUsersOnEncryptedFile, QueryUsersOnEncryptedFile function [Files], _win32_queryusersonencryptedfile, base.queryusersonencryptedfile, fs.queryusersonencryptedfile, winefs/QueryUsersOnEncryptedFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

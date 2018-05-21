@@ -2,7 +2,7 @@
 UID: NA:spellcheck
 ms.assetid: f76616ad-6324-32ad-b54a-894aef1cf4af
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

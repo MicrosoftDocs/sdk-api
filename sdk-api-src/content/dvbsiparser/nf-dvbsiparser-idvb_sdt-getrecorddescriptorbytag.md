@@ -7,7 +7,7 @@ old-location: mstv\idvb_sdt_getrecorddescriptorbytag.htm
 old-project: mstv
 ms.assetid: f4801a47-7cdb-4c31-8bb5-b59df14f0550
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IDVB_SDT.GetRecordDescriptorByTag, IDVB_SDT::GetRecordDescriptorByTag, IDVB_SDTGetRecordDescriptorByTag, dvbsiparser/IDVB_SDT::GetRecordDescriptorByTag, mstv.idvb_sdt_getrecorddescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

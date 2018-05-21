@@ -7,7 +7,7 @@ old-location: security\secbuffer.htm
 old-project: SecAuthN
 ms.assetid: 75f49d9c-7d3c-4f45-a94e-44cd05773a07
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSecBuffer, PSecBuffer, PSecBuffer structure pointer [Security], SECBUFFER_ALERT, SECBUFFER_APPLICATION_PROTOCOLS, SECBUFFER_ATTRMASK, SECBUFFER_CHANGE_PASS_RESPONSE, SECBUFFER_CHANNEL_BINDINGS, SECBUFFER_DATA, SECBUFFER_DTLS_MTU, SECBUFFER_EMPTY, SECBUFFER_EXTRA, SECBUFFER_MECHLIST, SECBUFFER_MECHLIST_SIGNATURE, SECBUFFER_MISSING, SECBUFFER_PKG_PARAMS, SECBUFFER_PRESHARED_KEY, SECBUFFER_PRESHARED_KEY_IDENTITY, SECBUFFER_READONLY, SECBUFFER_READONLY_WITH_CHECKSUM, SECBUFFER_SRTP_MASTER_KEY_IDENTIFIER, SECBUFFER_SRTP_PROTECTION_PROFILES, SECBUFFER_STREAM_HEADER, SECBUFFER_STREAM_TRAILER, SECBUFFER_TARGET, SECBUFFER_TARGET_HOST, SECBUFFER_TOKEN, SECBUFFER_TOKEN_BINDING, SecBuffer, SecBuffer structure [Security], _SecBuffer, _ssp_secbuffer, security.secbuffer, sspi/PSecBuffer, sspi/SecBuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SecBuffer structure

@@ -7,7 +7,7 @@ old-location: wsw\ws_int64_description.htm
 old-project: wsw
 ms.assetid: b8e355c0-2695-4162-aa77-703367ee117e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_INT64_DESCRIPTION, WS_INT64_DESCRIPTION structure [Web Services for Windows], _WS_INT64_DESCRIPTION, webservices/WS_INT64_DESCRIPTION, wsw.ws_int64_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

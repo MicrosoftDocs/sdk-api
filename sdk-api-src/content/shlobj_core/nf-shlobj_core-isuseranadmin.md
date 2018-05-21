@@ -7,7 +7,7 @@ old-location: shell\IsUserAnAdmin.htm
 old-project: shell
 ms.assetid: fe698d32-32f6-4b2b-ad0c-5d9ec815177f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IsUserAnAdmin, IsUserAnAdmin function [Windows Shell], _win32_IsUserAnAdmin, shell.IsUserAnAdmin, shlobj_core/IsUserAnAdmin
 ms.prod: windows-hardware
 ms.technology: windows-devices

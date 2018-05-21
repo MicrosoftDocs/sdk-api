@@ -7,7 +7,7 @@ old-location: fs\getfileattributes.htm
 old-project: FileIO
 ms.assetid: 9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: GetFileAttributes, GetFileAttributes function [Files], GetFileAttributesA, GetFileAttributesW, _win32_getfileattributes, base.getfileattributes, fileapi/GetFileAttributes, fileapi/GetFileAttributesA, fileapi/GetFileAttributesW, fs.getfileattributes, winbase/GetFileAttributes, winbase/GetFileAttributesA, winbase/GetFileAttributesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_reader_mtom_encoding.htm
 old-project: wsw
 ms.assetid: dec4d9ad-71d3-48f9-b6c3-49cf6bcb85fb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_XML_READER_MTOM_ENCODING, WS_XML_READER_MTOM_ENCODING structure [Web Services for Windows], _WS_XML_READER_MTOM_ENCODING, webservices/WS_XML_READER_MTOM_ENCODING, wsw.ws_xml_reader_mtom_encoding
 ms.prod: windows-hardware
 ms.technology: windows-devices

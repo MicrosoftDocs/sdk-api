@@ -7,7 +7,7 @@ old-location: security\secpkgcredentials_cert.htm
 old-project: SecAuthN
 ms.assetid: 9EEE6E98-D45C-4929-9C9C-F344972D186F
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSecPkgCredentials_Cert, PSecPkgCredentials_Cert, PSecPkgCredentials_Cert structure pointer [Security], SecPkgCredentials_Cert, SecPkgCredentials_Cert structure [Security], _SecPkgCredentials_Cert, security.secpkgcredentials_cert, sspi/PSecPkgCredentials_Cert, sspi/SecPkgCredentials_Cert"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgCredentials_Cert structure

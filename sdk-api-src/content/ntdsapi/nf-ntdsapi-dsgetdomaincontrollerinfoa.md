@@ -7,7 +7,7 @@ old-location: ad\dsgetdomaincontrollerinfo.htm
 old-project: AD
 ms.assetid: 52db3b25-e6b0-4a0d-831b-89a203580cf1
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: 1, 2, 3, DsGetDomainControllerInfo, DsGetDomainControllerInfo function [Active Directory], DsGetDomainControllerInfoA, DsGetDomainControllerInfoW, _glines_dsgetdomaincontrollerinfo, ad.dsgetdomaincontrollerinfo, ntdsapi/DsGetDomainControllerInfo, ntdsapi/DsGetDomainControllerInfoA, ntdsapi/DsGetDomainControllerInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

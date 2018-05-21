@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveredservice_getinstanceid.htm
 old-project: WsdApi
 ms.assetid: 993f4ef1-ff13-4454-b22f-29c9628da5e0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetInstanceId, GetInstanceId method, GetInstanceId method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetInstanceId method, IWSDiscoveredService.GetInstanceId, IWSDiscoveredService::GetInstanceId, ncd.iwsdiscoveredservice_getinstanceid, wsddisco/IWSDiscoveredService::GetInstanceId
 ms.prod: windows-hardware
 ms.technology: windows-devices

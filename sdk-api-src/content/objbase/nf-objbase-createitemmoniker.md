@@ -7,7 +7,7 @@ old-location: com\createitemmoniker.htm
 old-project: com
 ms.assetid: 339919ed-660c-4239-825b-7fa96c48e5cd
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CreateItemMoniker, CreateItemMoniker function [COM], _com_CreateItemMoniker, com.createitemmoniker, objbase/CreateItemMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices

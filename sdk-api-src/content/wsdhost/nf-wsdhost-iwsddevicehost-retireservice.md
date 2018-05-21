@@ -7,7 +7,7 @@ old-location: ncd\iwsddevicehost_retireservice_method.htm
 old-project: WsdApi
 ms.assetid: 7832c787-f268-44e3-b394-363299b6a823
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDDeviceHost interface,RetireService method, IWSDDeviceHost.RetireService, IWSDDeviceHost::RetireService, RetireService, RetireService method, RetireService method,IWSDDeviceHost interface, ncd.iwsddevicehost_retireservice_method, wsdhost/IWSDDeviceHost::RetireService
 ms.prod: windows-hardware
 ms.technology: windows-devices

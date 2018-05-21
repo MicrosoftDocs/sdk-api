@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopymanager_getjob.htm
 old-project: Bits
 ms.assetid: dbb7cae6-7e9c-4ac5-8f02-372acaa4fb4d
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: GetJob, GetJob method [BITS], GetJob method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],GetJob method, IBackgroundCopyManager.GetJob, IBackgroundCopyManager::GetJob, _drz_ibackgroundcopymanager_getjob, bits.ibackgroundcopymanager_getjob, bits/IBackgroundCopyManager::GetJob
 ms.prod: windows-hardware
 ms.technology: windows-devices

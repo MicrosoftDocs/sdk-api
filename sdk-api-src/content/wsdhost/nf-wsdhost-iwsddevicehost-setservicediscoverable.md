@@ -7,7 +7,7 @@ old-location: ncd\iwsddevicehost_setservicediscoverable.htm
 old-project: WsdApi
 ms.assetid: 8f6aa8f6-3b7a-4d13-a052-c73f21823661
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDDeviceHost interface,SetServiceDiscoverable method, IWSDDeviceHost.SetServiceDiscoverable, IWSDDeviceHost::SetServiceDiscoverable, SetServiceDiscoverable, SetServiceDiscoverable method, SetServiceDiscoverable method,IWSDDeviceHost interface, ncd.iwsddevicehost_setservicediscoverable, wsdhost/IWSDDeviceHost::SetServiceDiscoverable
 ms.prod: windows-hardware
 ms.technology: windows-devices

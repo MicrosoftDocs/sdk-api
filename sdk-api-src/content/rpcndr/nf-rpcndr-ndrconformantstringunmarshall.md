@@ -7,7 +7,7 @@ old-location: rpc\ndrconformantstringunmarshall.htm
 old-project: Rpc
 ms.assetid: 3965e5aa-8695-4dd3-a75b-ee007ee3cccd
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: NdrConformantStringUnmarshall, NdrConformantStringUnmarshall function [RPC], rpc.ndrconformantstringunmarshall, rpcndr/NdrConformantStringUnmarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

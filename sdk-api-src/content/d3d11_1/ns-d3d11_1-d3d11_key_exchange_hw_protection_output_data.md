@@ -7,7 +7,7 @@ old-location: mf\d3d11_key_exchange_hw_protection_output_data.htm
 old-project: medfound
 ms.assetid: D8F987CA-0BD2-42D1-AE95-8D2D118655B1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA, D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA structure [Media Foundation], d3d11_1/D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA, mf.d3d11_key_exchange_hw_protection_output_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

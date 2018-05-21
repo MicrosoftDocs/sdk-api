@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_disablevideo.htm
 old-project: mstv
 ms.assetid: 5c8f7af1-0416-4860-aa05-d2167452291e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: DisableVideo, DisableVideo method [Microsoft TV Technologies], DisableVideo method [Microsoft TV Technologies],IMSVidCtl interface, IMSVidCtl interface [Microsoft TV Technologies],DisableVideo method, IMSVidCtl.DisableVideo, IMSVidCtl::DisableVideo, IMSVidCtlDisableVideo, mstv.imsvidctl_disablevideo, msvidctl/IMSVidCtl::DisableVideo
 ms.prod: windows-hardware
 ms.technology: windows-devices

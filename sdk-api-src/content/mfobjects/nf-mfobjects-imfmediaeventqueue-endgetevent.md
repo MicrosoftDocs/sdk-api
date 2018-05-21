@@ -7,7 +7,7 @@ old-location: mf\imfmediaeventqueue_endgetevent.htm
 old-project: medfound
 ms.assetid: bb0ea226-9dc0-43e3-a482-cfec531b5734
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: EndGetEvent, EndGetEvent method [Media Foundation], EndGetEvent method [Media Foundation],IMFMediaEventQueue interface, IMFMediaEventQueue interface [Media Foundation],EndGetEvent method, IMFMediaEventQueue.EndGetEvent, IMFMediaEventQueue::EndGetEvent, bb0ea226-9dc0-43e3-a482-cfec531b5734, mf.imfmediaeventqueue_endgetevent, mfobjects/IMFMediaEventQueue::EndGetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

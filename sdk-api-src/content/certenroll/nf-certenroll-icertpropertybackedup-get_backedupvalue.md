@@ -7,7 +7,7 @@ old-location: security\icertpropertybackedup_backedupvalue_property.htm
 old-project: SecCertEnroll
 ms.assetid: 206ef65a-93c5-4c0d-b673-42a0b065225c
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: BackedUpValue property [Security], BackedUpValue property [Security],ICertPropertyBackedUp interface, ICertPropertyBackedUp interface [Security],BackedUpValue property, ICertPropertyBackedUp.BackedUpValue, ICertPropertyBackedUp.get_BackedUpValue, ICertPropertyBackedUp::BackedUpValue, ICertPropertyBackedUp::get_BackedUpValue, certenroll/ICertPropertyBackedUp::BackedUpValue, certenroll/ICertPropertyBackedUp::get_BackedUpValue, get_BackedUpValue, security.icertpropertybackedup_backedupvalue_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

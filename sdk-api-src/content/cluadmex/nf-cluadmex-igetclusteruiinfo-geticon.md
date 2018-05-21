@@ -7,7 +7,7 @@ old-location: mscs\igetclusteruiinfo_geticon.htm
 old-project: MsCS
 ms.assetid: b4572178-6225-4a22-8b45-7e8abbaa9759
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: GetIcon, GetIcon method [Failover Cluster], GetIcon method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetIcon method, IGetClusterUIInfo.GetIcon, IGetClusterUIInfo::GetIcon, _wolf_igetclusteruiinfo_geticon, cluadmex/IGetClusterUIInfo::GetIcon, mscs.igetclusteruiinfo_geticon
 ms.prod: windows-hardware
 ms.technology: windows-devices

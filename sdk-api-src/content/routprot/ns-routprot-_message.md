@@ -7,7 +7,7 @@ old-location: rras\message.htm
 old-project: RRAS
 ms.assetid: 94f3069f-c282-4dea-84f9-48645f4e1593
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*PMESSAGE, MESSAGE, MESSAGE structure [RAS], PMESSAGE, PMESSAGE structure pointer [RAS], _MESSAGE, _mpr_message, routprot/MESSAGE, routprot/PMESSAGE, rras.message"
 ms.prod: windows-hardware
 ms.technology: windows-devices

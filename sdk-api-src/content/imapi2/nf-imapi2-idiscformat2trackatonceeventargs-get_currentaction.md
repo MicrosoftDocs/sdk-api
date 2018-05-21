@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonceeventargs_get_currentaction.htm
 old-project: imapi
 ms.assetid: c4a0a07a-c80e-4dca-b3bb-8b2f26f969d8
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IDiscFormat2TrackAtOnceEventArgs interface [IMAPI],get_CurrentAction method, IDiscFormat2TrackAtOnceEventArgs.get_CurrentAction, IDiscFormat2TrackAtOnceEventArgs::get_CurrentAction, get_CurrentAction, get_CurrentAction method [IMAPI], get_CurrentAction method [IMAPI],IDiscFormat2TrackAtOnceEventArgs interface, imapi.idiscformat2trackatonceeventargs_get_currentaction, imapi2/IDiscFormat2TrackAtOnceEventArgs::get_CurrentAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

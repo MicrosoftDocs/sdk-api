@@ -7,7 +7,7 @@ old-location: ncd\wsd_datetime_struct.htm
 old-project: WsdApi
 ms.assetid: ec42d69c-133a-4e76-bbbe-0e6978f4723a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_DATETIME, WSD_DATETIME structure, _WSD_DATETIME, ncd.wsd_datetime_struct, wsdxml/WSD_DATETIME
 ms.prod: windows-hardware
 ms.technology: windows-devices

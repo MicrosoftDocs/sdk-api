@@ -2,7 +2,7 @@
 UID: NA:winuser
 ms.assetid: 36ab57e8-bfcf-33fc-918e-fb2ddcf2a90b
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,6 +16,6 @@ tech.root: wintouch
 ## -description
 
 
-This header is used by consoles. For more information, see:
+This header is used by controls. For more information, see:
 
-- [Consoles](../_consoles/index.md)
+- [Windows Controls](../_controls/index.md)

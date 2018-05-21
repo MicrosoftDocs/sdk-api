@@ -7,7 +7,7 @@ old-location: wsw\wsreadtype.htm
 old-project: wsw
 ms.assetid: 6d026b2e-f2c2-4990-9178-152585a7749a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsReadType, WsReadType function [Web Services for Windows], webservices/WsReadType, wsw.wsreadtype
 ms.prod: windows-hardware
 ms.technology: windows-devices

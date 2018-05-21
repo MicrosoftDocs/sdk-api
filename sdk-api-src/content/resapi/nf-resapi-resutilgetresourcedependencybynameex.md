@@ -7,7 +7,7 @@ old-location: mscs\resutilgetresourcedependencybynameex.htm
 old-project: MsCS
 ms.assetid: 3BB9E8D4-2E8C-4A67-966F-6E2729ACE9A9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME function [Failover Cluster], ResUtilGetResourceDependencyByName, ResUtilGetResourceDependencyByName function [Failover Cluster], ResUtilGetResourceDependencyByNameEx, mscs.resutilgetresourcedependencybynameex, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_NAME, resapi/ResUtilGetResourceDependencyByName
 ms.prod: windows-hardware
 ms.technology: windows-devices

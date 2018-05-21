@@ -204,7 +204,7 @@ The name of the adapter to which this disk is attached. The Plug and Play Manage
 
 The string returned by the Plug and Play Manager. The Plug and Play Manager uses the device path to 
       uniquely identify a device on a computer. For more information, see 
-      <a href="http://go.microsoft.com/fwlink/p/?linkid=91287">SP_DEVICE_INTERFACE_DETAIL_DATA</a>.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552343">SP_DEVICE_INTERFACE_DETAIL_DATA</a>.
 
 
 ## -remarks

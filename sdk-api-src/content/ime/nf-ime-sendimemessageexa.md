@@ -7,7 +7,7 @@ old-location: winprog\_win32_sendimemessageex.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\sendimemessageex.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: SendIMEMessageEx, SendIMEMessageEx function [Windows API], SendIMEMessageExA, SendIMEMessageExW, _win32_SendIMEMessageEx, ime/SendIMEMessageEx, ime/SendIMEMessageExA, ime/SendIMEMessageExW, winprog._win32_sendimemessageex, winui._win32_sendimemessageex
 ms.prod: windows-hardware
 ms.technology: windows-devices

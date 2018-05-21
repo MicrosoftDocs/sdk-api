@@ -7,7 +7,7 @@ old-location: controls\IImageList_GetImageInfo.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getimageinfo.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetImageInfo, GetImageInfo method [Windows Controls], GetImageInfo method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetImageInfo method, IImageList.GetImageInfo, IImageList::GetImageInfo, comctl_IImageList_GetImageInfo, comctl_IImageList_GetImageInfo_cpp, commoncontrols/IImageList::GetImageInfo, controls.IImageList_GetImageInfo, controls.comctl_IImageList_GetImageInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

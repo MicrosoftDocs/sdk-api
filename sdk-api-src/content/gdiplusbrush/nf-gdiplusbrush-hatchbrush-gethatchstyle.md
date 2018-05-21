@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_HatchBrush_GetHatchStyle_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\hatchbrushclass\hatchbrushmethods\gethatchstyle.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetHatchStyle, GetHatchStyle method [GDI+], GetHatchStyle method [GDI+],HatchBrush class, HatchBrush class [GDI+],GetHatchStyle method, HatchBrush.GetHatchStyle, HatchBrush::GetHatchStyle, _gdiplus_CLASS_HatchBrush_GetHatchStyle_, gdiplus._gdiplus_CLASS_HatchBrush_GetHatchStyle_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winprog\_lwrite.htm
 old-project: DevNotes
 ms.assetid: 34b875a4-ca45-4f9d-a5be-e6e4d41c68bf
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "_lwrite, _lwrite function [Windows API], winbase/_lwrite, winprog._lwrite"
 ms.prod: windows-hardware
 ms.technology: windows-devices

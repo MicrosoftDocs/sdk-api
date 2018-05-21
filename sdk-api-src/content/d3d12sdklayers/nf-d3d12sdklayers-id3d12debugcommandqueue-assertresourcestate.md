@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12debugcommandqueue_assertresourcestate.htm
 old-project: direct3d12
 ms.assetid: D96DE885-D3B3-4EE5-A119-54F4261D7056
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: AssertResourceState, AssertResourceState method, AssertResourceState method,ID3D12DebugCommandQueue interface, ID3D12DebugCommandQueue interface,AssertResourceState method, ID3D12DebugCommandQueue.AssertResourceState, ID3D12DebugCommandQueue::AssertResourceState, d3d12sdklayers/ID3D12DebugCommandQueue::AssertResourceState, direct3d12.id3d12debugcommandqueue_assertresourcestate
 ms.prod: windows-hardware
 ms.technology: windows-devices

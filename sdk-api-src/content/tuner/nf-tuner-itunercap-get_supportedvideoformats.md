@@ -7,7 +7,7 @@ old-location: mstv\itunercap_get_supportedvideoformats.htm
 old-project: mstv
 ms.assetid: 301402bd-8c9c-4dab-a00b-29aaa8efb2a2
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: ITunerCap interface [Microsoft TV Technologies],get_SupportedVideoFormats method, ITunerCap.get_SupportedVideoFormats, ITunerCap::get_SupportedVideoFormats, ITunerCapget_SupportedVideoFormats, get_SupportedVideoFormats, get_SupportedVideoFormats method [Microsoft TV Technologies], get_SupportedVideoFormats method [Microsoft TV Technologies],ITunerCap interface, mstv.itunercap_get_supportedvideoformats, tuner/ITunerCap::get_SupportedVideoFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices

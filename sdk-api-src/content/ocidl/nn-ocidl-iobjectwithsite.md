@@ -7,7 +7,7 @@ old-location: com\iobjectwithsite.htm
 old-project: com
 ms.assetid: e688136e-e06b-46ba-bec9-b8db2f9c468d
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IObjectWithSite, IObjectWithSite interface [COM], IObjectWithSite interface [COM],described, _ole_iobjectwithsite, com.iobjectwithsite, ocidl/IObjectWithSite
 ms.prod: windows-hardware
 ms.technology: windows-devices

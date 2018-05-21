@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsender_company_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2c8p.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: Company property [Fax Service], Company property [Fax Service],FaxSender object, FaxSender object [Fax Service],Company property, FaxSender.Company, IFaxSender.put_Company, IFaxSender::put_Company, _mfax_faxsender.company, fax._mfax_faxsender_company, fax._mfax_faxsender_company_vb, put_Company
 ms.prod: windows-hardware
 ms.technology: windows-devices

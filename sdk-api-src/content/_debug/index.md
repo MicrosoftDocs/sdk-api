@@ -2,11 +2,12 @@
 UID: TP:debug
 ms.assetid: ef7e939a-0110-36b3-8c6d-e740e5c83133
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Error Handling

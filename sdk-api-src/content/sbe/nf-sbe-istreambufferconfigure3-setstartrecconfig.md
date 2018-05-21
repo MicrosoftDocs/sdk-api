@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure3_setstartrecconfig.htm
 old-project: mstv
 ms.assetid: 6ae896ce-72e8-49aa-a538-2a269ef07ade
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IStreamBufferConfigure3 interface [Microsoft TV Technologies],SetStartRecConfig method, IStreamBufferConfigure3.SetStartRecConfig, IStreamBufferConfigure3::SetStartRecConfig, IStreamBufferConfigure3SetStartRecConfig, SetStartRecConfig, SetStartRecConfig method [Microsoft TV Technologies], SetStartRecConfig method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, mstv.istreambufferconfigure3_setstartrecconfig, sbe/IStreamBufferConfigure3::SetStartRecConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

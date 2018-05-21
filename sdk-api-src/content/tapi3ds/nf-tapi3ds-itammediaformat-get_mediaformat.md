@@ -7,7 +7,7 @@ old-location: tapi3\itammediaformat_get_mediaformat.htm
 old-project: Tapi
 ms.assetid: 384cd41e-b59a-4ac4-9687-cf0f0738dfe0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: ITAMMediaFormat interface [TAPI 2.2],get_MediaFormat method, ITAMMediaFormat.get_MediaFormat, ITAMMediaFormat::get_MediaFormat, _tapi3_itammediaformat_get_mediaformat, get_MediaFormat, get_MediaFormat method [TAPI 2.2], get_MediaFormat method [TAPI 2.2],ITAMMediaFormat interface, tapi3.itammediaformat_get_mediaformat, tapi3ds/ITAMMediaFormat::get_MediaFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

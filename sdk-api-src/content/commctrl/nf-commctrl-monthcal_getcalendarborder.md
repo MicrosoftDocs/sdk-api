@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetCalendarBorder.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendarborder.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MonthCal_GetCalendarBorder, MonthCal_GetCalendarBorder macro [Windows Controls], _shell_MonthCal_GetCalendarBorder, _shell_MonthCal_GetCalendarBorder_cpp, commctrl/MonthCal_GetCalendarBorder, controls.MonthCal_GetCalendarBorder, controls._shell_MonthCal_GetCalendarBorder
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winprog\tcompfromlzxwindow.htm
 old-project: DevNotes
 ms.assetid: 39b5a1e0-a711-444b-8326-4aba9a98f203
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: TCOMPfromLZXWindow, TCOMPfromLZXWindow macro [Windows API], fdi_fci_types/TCOMPfromLZXWindow, winprog.tcompfromlzxwindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

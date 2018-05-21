@@ -7,7 +7,7 @@ old-location: winrt\iagilereference.htm
 old-project: WinRT
 ms.assetid: 51787A45-BCDE-4028-A338-1C16F2DE79AD
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: IAgileReference, IAgileReference interface [Windows Runtime], IAgileReference interface [Windows Runtime],described, objidl/IAgileReference, winrt.iagilereference
 ms.prod: windows-hardware
 ms.technology: windows-devices

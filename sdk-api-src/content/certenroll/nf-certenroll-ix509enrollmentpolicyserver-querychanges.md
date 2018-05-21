@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_querychanges.htm
 old-project: SecCertEnroll
 ms.assetid: c83faaba-0355-4765-bc08-5e0e02afe8c2
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],QueryChanges method, IX509EnrollmentPolicyServer.QueryChanges, IX509EnrollmentPolicyServer::QueryChanges, QueryChanges, QueryChanges method [Security], QueryChanges method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::QueryChanges, security.ix509enrollmentpolicyserver_querychanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

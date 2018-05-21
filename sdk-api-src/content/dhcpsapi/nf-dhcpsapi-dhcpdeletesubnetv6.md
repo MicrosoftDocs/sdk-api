@@ -7,7 +7,7 @@ old-location: dhcp\dhcpdeletesubnetv6.htm
 old-project: DHCP
 ms.assetid: f2c10d8c-ab5f-4a61-89aa-20f2db89db36
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpDeleteSubnetV6, DhcpDeleteSubnetV6 function [DHCP], dhcp.dhcpdeletesubnetv6, dhcpsapi/DhcpDeleteSubnetV6
 ms.prod: windows-hardware
 ms.technology: windows-devices

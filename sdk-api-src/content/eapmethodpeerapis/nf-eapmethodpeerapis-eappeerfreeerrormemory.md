@@ -7,7 +7,7 @@ old-location: eaphost\eappeerfreeerrormemory.htm
 old-project: EAPHost
 ms.assetid: 85b4197c-5caf-4e2b-94fd-e651712dd39d
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapPeerFreeErrorMemory, EapPeerFreeErrorMemory function [EAPHost], eaphost.eappeerfreeerrormemory, eapmethodpeerapis/EapPeerFreeErrorMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\EditWordBreakProcEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditcallbackfunctions\editwordbreakprocex.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: EditWordBreakProcEx, EditWordBreakProcEx callback, EditWordBreakProcEx callback function [Windows Controls], _win32_EditWordBreakProcEx, _win32_EditWordBreakProcEx_cpp, controls.EditWordBreakProcEx, controls._win32_EditWordBreakProcEx, richedit/EditWordBreakProcEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

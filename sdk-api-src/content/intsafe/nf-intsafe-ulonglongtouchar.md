@@ -7,7 +7,7 @@ old-location: shell\ULongLongToUChar.htm
 old-project: shell
 ms.assetid: 0cf22d19-db44-4307-9fbc-6d814c21c06d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ULongLongToUChar, ULongLongToUChar function [Windows Shell], intsafe/ULongLongToUChar, shell.ULongLongToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

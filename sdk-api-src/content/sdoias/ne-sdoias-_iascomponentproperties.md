@@ -7,7 +7,7 @@ old-location: nps\SDO_iascomponentproperties.htm
 old-project: Nps
 ms.assetid: 5b2ab351-88b8-4a9d-9954-883d9e251b4c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IASCOMPONENTPROPERTIES, IASCOMPONENTPROPERTIES enumeration [Network Policy Server], PROPERTY_COMPONENT_ID, PROPERTY_COMPONENT_PROG_ID, PROPERTY_COMPONENT_START, _IASCOMPONENTPROPERTIES, _sdo_iascomponentproperties, nps.SDO_iascomponentproperties, sdo.iascomponentproperties, sdoias/IASCOMPONENTPROPERTIES, sdoias/PROPERTY_COMPONENT_ID, sdoias/PROPERTY_COMPONENT_PROG_ID, sdoias/PROPERTY_COMPONENT_START
 ms.prod: windows-hardware
 ms.technology: windows-devices

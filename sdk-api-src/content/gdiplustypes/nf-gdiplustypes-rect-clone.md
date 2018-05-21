@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\clone_11.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Rect class, Rect class [GDI+],Clone method, Rect.Clone, Rect::Clone, _gdiplus_CLASS_Rect_Clone_, gdiplus._gdiplus_CLASS_Rect_Clone_
 ms.prod: windows-hardware
 ms.technology: windows-devices

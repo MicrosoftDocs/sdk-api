@@ -7,7 +7,7 @@ old-location: controls\GetThemePartSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemepartsize.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetThemePartSize, GetThemePartSize function [Windows Controls], controls.GetThemePartSize, controls.inet_GetThemePartSize, inet_GetThemePartSize, inet_GetThemePartSize_cpp, uxtheme/GetThemePartSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

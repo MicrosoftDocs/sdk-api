@@ -7,7 +7,7 @@ old-location: termserv\iwtsbitmaprenderer_removemapping.htm
 old-project: TermServ
 ms.assetid: 7961ba11-4ef8-4b08-8c50-68bd26999dc2
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IWTSBitmapRenderer interface [Remote Desktop Services],RemoveMapping method, IWTSBitmapRenderer.RemoveMapping, IWTSBitmapRenderer::RemoveMapping, RemoveMapping, RemoveMapping method [Remote Desktop Services], RemoveMapping method [Remote Desktop Services],IWTSBitmapRenderer interface, termserv.iwtsbitmaprenderer_removemapping, tsvirtualchannels/IWTSBitmapRenderer::RemoveMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ad\dsfreepasswordcredentials.htm
 old-project: AD
 ms.assetid: 3d008aa8-feff-426f-911b-a447257076c2
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: DsFreePasswordCredentials, DsFreePasswordCredentials function [Active Directory], _glines_dsfreepasswordcredentials, ad.dsfreepasswordcredentials, ntdsapi/DsFreePasswordCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

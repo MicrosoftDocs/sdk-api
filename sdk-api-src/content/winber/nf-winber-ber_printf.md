@@ -7,7 +7,7 @@ old-location: ldap\ber_printf.htm
 old-project: LDAP
 ms.assetid: 6bae449b-eb75-4598-aacc-65567de67997
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ber_printf, ber_printf, ber_printf function [LDAP], ldap.ber__printf, ldap.ber_printf, winber/ber_printf"
 ms.prod: windows-hardware
 ms.technology: windows-devices

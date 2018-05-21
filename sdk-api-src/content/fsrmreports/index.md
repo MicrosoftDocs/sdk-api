@@ -2,11 +2,12 @@
 UID: NA:fsrmreports
 ms.assetid: 7b8e6d24-09ee-3bf8-b96e-20ec47982599
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: fsrm
 ---
 
@@ -16,6 +17,6 @@ tech.root: fsrm
 ## -description
 
 
-This header is used by tmg. For more information, see:
+This header is used by fsrm. For more information, see:
 
-- [Forefront Threat Management Gateway (TMG)](../_tmg/index.md)
+- [File Server Resource Manager](../_fsrm/index.md)

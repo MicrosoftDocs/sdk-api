@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_HueSaturationLightnessParams.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\huesaturationlightnessparams.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: HueSaturationLightnessParams, HueSaturationLightnessParams structure [GDI+], _gdiplus_STRUC_HueSaturationLightnessParams, gdiplus._gdiplus_STRUC_HueSaturationLightnessParams, gdipluseffects/HueSaturationLightnessParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

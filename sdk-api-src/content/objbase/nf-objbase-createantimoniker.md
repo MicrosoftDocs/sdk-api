@@ -7,7 +7,7 @@ old-location: com\createantimoniker.htm
 old-project: com
 ms.assetid: 1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CreateAntiMoniker, CreateAntiMoniker function [COM], _com_CreateAntiMoniker, com.createantimoniker, objbase/CreateAntiMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices

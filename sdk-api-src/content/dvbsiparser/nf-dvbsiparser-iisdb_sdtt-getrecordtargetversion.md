@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getrecordtargetversion.htm
 old-project: mstv
 ms.assetid: e8e85c5b-e577-45b9-b377-c21700c818bb
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordTargetVersion, GetRecordTargetVersion method [Microsoft TV Technologies], GetRecordTargetVersion method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordTargetVersion method, IISDB_SDTT.GetRecordTargetVersion, IISDB_SDTT::GetRecordTargetVersion, dvbsiparser/IISDB_SDTT::GetRecordTargetVersion, mstv.iisdb_sdtt_getrecordtargetversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

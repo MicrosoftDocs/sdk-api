@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Region_FromHRGN_hRgn_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\fromhrgn.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: FromHRGN, FromHRGN method [GDI+], FromHRGN method [GDI+],Region class, Region class [GDI+],FromHRGN method, Region.FromHRGN, Region::FromHRGN, _gdiplus_CLASS_Region_FromHRGN_hRgn_, gdiplus._gdiplus_CLASS_Region_FromHRGN_hRgn_
 ms.prod: windows-hardware
 ms.technology: windows-devices

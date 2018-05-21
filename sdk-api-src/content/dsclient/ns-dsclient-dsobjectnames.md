@@ -7,7 +7,7 @@ old-location: ad\dsobjectnames.htm
 old-project: AD
 ms.assetid: dfc1e88f-40ff-4ec1-9718-4801f678fa3f
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDSOBJECTNAMES, DSOBJECTNAMES, DSOBJECTNAMES structure [Active Directory], LPDSOBJECTNAMES, LPDSOBJECTNAMES structure pointer [Active Directory], _glines_dsobjectnames, ad.dsobjectnames, dsclient/DSOBJECTNAMES, dsclient/LPDSOBJECTNAMES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

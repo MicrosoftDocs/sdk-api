@@ -2,7 +2,7 @@
 UID: NA:perflib
 ms.assetid: 882c5ff2-079d-3e33-9d2a-f993faf213fd
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

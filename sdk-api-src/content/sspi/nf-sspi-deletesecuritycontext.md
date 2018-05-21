@@ -7,7 +7,7 @@ old-location: security\deletesecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: 2a4dd697-ef90-4c37-ab74-0e5ab92794cd
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: DeleteSecurityContext, DeleteSecurityContext function [Security], _ssp_deletesecuritycontext, security.deletesecuritycontext, sspi/DeleteSecurityContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # DeleteSecurityContext function

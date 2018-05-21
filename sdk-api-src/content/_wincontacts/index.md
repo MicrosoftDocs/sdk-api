@@ -2,11 +2,12 @@
 UID: TP:wincontacts
 ms.assetid: e0e7bda2-6a92-33f7-a8e7-cf235874dd82
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Windows Contacts

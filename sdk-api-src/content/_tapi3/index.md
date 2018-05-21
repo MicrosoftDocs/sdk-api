@@ -2,7 +2,7 @@
 UID: TP:tapi3
 ms.assetid: 64ae5436-6ff5-354b-8cdb-80f9efe7c1c9
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: wab\_wab_SPropProblemArray.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropproblemarray.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
-ms.keywords: "*LPSPropProblemArray, SPropProblem, SPropProblem structure [Windows Address Book], SPropProblemArray, SPropProblemArray structure [Windows Address Book], _SPropProblemArray, _wab_SPropProblemArray, wab._wab_SPropProblemArray, wabdefs/SPropProblemArray"
+ms.date: 5/10/2018
+ms.keywords: "*LPSPropProblemArray, SPropProblemArray, SPropProblemArray structure [Windows Address Book], _SPropProblemArray, _wab_SPropProblemArray, wab._wab_SPropProblemArray, wabdefs/SPropProblemArray"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Wabdefs.h
 api_name:
--	SPropProblem
+-	SPropProblemArray
 product: Windows
 targetos: Windows
 req.lib: 

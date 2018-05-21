@@ -7,7 +7,7 @@ old-location: security\ix509scepenrollment_initializeforpending.htm
 old-project: SecCertEnroll
 ms.assetid: 6b6f9e9d-5316-4928-861a-22497e1f5c00
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],InitializeForPending method, IX509SCEPEnrollment.InitializeForPending, IX509SCEPEnrollment::InitializeForPending, InitializeForPending, InitializeForPending method [Security], InitializeForPending method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::InitializeForPending, security.ix509scepenrollment_initializeforpending
 ms.prod: windows-hardware
 ms.technology: windows-devices

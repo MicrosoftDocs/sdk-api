@@ -7,7 +7,7 @@ old-location: dshow\dvd_titleattributes.htm
 old-project: DirectShow
 ms.assetid: e80baf09-93b7-4285-ac9a-af72cae137de
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DVD_TitleAttributes, DVD_TitleAttributes structure [DirectShow], DVD_TitleAttributesStructure, dshow.dvd_titleattributes, strmif/DVD_TitleAttributes, tagDVD_TitleMainAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

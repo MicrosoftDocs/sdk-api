@@ -2,7 +2,7 @@
 UID: NA:mstcpip
 ms.assetid: 5795aad3-d73f-3d60-acb3-db3855cccafa
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

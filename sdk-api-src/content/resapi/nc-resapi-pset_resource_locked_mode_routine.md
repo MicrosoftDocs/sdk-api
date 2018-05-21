@@ -7,7 +7,7 @@ old-location: mscs\setresourcelockedmode.htm
 old-project: MsCS
 ms.assetid: 000D127C-7BDE-4FC1-984E-2EE805E603FC
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PSET_RESOURCE_LOCKED_MODE_ROUTINE, PSET_RESOURCE_LOCKED_MODE_ROUTINE callback function [Failover Cluster], SetResourceLockedMode, SetResourceLockedMode callback, SetResourceLockedMode callback function [Failover Cluster], mscs.setresourcelockedmode, resapi/PSET_RESOURCE_LOCKED_MODE_ROUTINE, resapi/SetResourceLockedMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

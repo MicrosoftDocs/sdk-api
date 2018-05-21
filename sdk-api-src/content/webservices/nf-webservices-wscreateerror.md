@@ -7,7 +7,7 @@ old-location: wsw\wscreateerror.htm
 old-project: wsw
 ms.assetid: 0ec858f7-12a5-43cf-94a7-3838ab6d76ae
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsCreateError, WsCreateError function [Web Services for Windows], webservices/WsCreateError, wsw.wscreateerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

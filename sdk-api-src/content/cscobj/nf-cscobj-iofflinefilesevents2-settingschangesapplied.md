@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents2_settingschangesapplied.htm
 old-project: OfflineFiles
 ms.assetid: af59c8ac-ecd4-48e7-9ebb-8802e7d6ffef
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],SettingsChangesApplied method, IOfflineFilesEvents2.SettingsChangesApplied, IOfflineFilesEvents2::SettingsChangesApplied, SettingsChangesApplied, SettingsChangesApplied method [Offline Files], SettingsChangesApplied method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::SettingsChangesApplied, of.iofflinefilesevents2_settingschangesapplied
 ms.prod: windows-hardware
 ms.technology: windows-devices

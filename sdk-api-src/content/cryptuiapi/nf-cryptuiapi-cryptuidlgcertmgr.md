@@ -7,7 +7,7 @@ old-location: security\cryptuidlgcertmgr.htm
 old-project: SecCrypto
 ms.assetid: 8d94694e-1724-42aa-99bb-6ed2c6d3bc0e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CryptUIDlgCertMgr, CryptUIDlgCertMgr function [Security], cryptuiapi/CryptUIDlgCertMgr, security.cryptuidlgcertmgr
 ms.prod: windows-hardware
 ms.technology: windows-devices

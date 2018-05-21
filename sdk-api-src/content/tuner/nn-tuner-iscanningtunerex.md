@@ -7,7 +7,7 @@ old-location: mstv\iscanningtunerex.htm
 old-project: mstv
 ms.assetid: 3f89173a-d24b-400c-a229-28efb7a703be
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IScanningTunerEx, IScanningTunerEx interface [Microsoft TV Technologies], IScanningTunerEx interface [Microsoft TV Technologies],described, IScanningTunerExInterface, mstv.iscanningtunerex, tuner/IScanningTunerEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

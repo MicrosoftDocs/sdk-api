@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambufferv2sourceevent_broadcastevent.htm
 old-project: mstv
 ms.assetid: f5d5b6d8-9baa-4a9e-8275-e817394c211a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: BroadcastEvent, BroadcastEvent method [Microsoft TV Technologies], BroadcastEvent method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],BroadcastEvent method, IMSVidStreamBufferV2SourceEvent.BroadcastEvent, IMSVidStreamBufferV2SourceEvent::BroadcastEvent, mstv.imsvidstreambufferv2sourceevent_broadcastevent, segment/IMSVidStreamBufferV2SourceEvent::BroadcastEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

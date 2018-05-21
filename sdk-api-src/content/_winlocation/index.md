@@ -2,7 +2,7 @@
 UID: TP:winlocation
 ms.assetid: 2a5fa965-1b15-3465-91e6-0823cc0eceb6
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

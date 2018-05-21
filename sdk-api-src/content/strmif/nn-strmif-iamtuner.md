@@ -7,7 +7,7 @@ old-location: dshow\iamtuner.htm
 old-project: DirectShow
 ms.assetid: 997d39c5-a1a5-4d2d-8704-9846f149712c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMTuner, IAMTuner interface [DirectShow], IAMTuner interface [DirectShow],described, IAMTunerInterface, dshow.iamtuner, strmif/IAMTuner
 ms.prod: windows-hardware
 ms.technology: windows-devices

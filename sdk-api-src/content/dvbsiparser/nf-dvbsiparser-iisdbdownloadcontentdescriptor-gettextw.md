@@ -7,7 +7,7 @@ old-location: mstv\iisdbdownloadcontentdescriptor_gettextw.htm
 old-project: mstv
 ms.assetid: cf26ff9b-02d8-4470-bde5-6a18c62c6511
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetTextW method, IIsdbDownloadContentDescriptor.GetTextW, IIsdbDownloadContentDescriptor::GetTextW, dvbsiparser/IIsdbDownloadContentDescriptor::GetTextW, mstv.iisdbdownloadcontentdescriptor_gettextw
 ms.prod: windows-hardware
 ms.technology: windows-devices

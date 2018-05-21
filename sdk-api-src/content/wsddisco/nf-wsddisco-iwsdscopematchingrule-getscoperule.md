@@ -7,7 +7,7 @@ old-location: ncd\iwsdscopematchingrule_getscoperule_method.htm
 old-project: WsdApi
 ms.assetid: 86ce14eb-555f-4575-a335-8a428cffa20d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetScopeRule, GetScopeRule method, GetScopeRule method,IWSDScopeMatchingRule interface, IWSDScopeMatchingRule interface,GetScopeRule method, IWSDScopeMatchingRule.GetScopeRule, IWSDScopeMatchingRule::GetScopeRule, ncd.iwsdscopematchingrule_getscoperule_method, wsddisco/IWSDScopeMatchingRule::GetScopeRule
 ms.prod: windows-hardware
 ms.technology: windows-devices

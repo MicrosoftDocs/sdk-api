@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_itemdisconnected.htm
 old-project: OfflineFiles
 ms.assetid: b0f9d873-cda5-4805-bb5e-d23d47b53f1d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemDisconnected method, IOfflineFilesEvents.ItemDisconnected, IOfflineFilesEvents::ItemDisconnected, ItemDisconnected, ItemDisconnected method [Offline Files], ItemDisconnected method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemDisconnected, of.iofflinefilesevents_itemdisconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\copyprogressroutine.htm
 old-project: FileIO
 ms.assetid: 2c02b212-d4ac-4b01-8955-2561d8c42b1b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: CALLBACK_CHUNK_FINISHED, CALLBACK_STREAM_SWITCH, CopyProgressRoutine, CopyProgressRoutine callback, CopyProgressRoutine callback function [Files], LPPROGRESS_ROUTINE, LPPROGRESS_ROUTINE callback function [Files], _win32_copyprogressroutine, base.copyprogressroutine, fs.copyprogressroutine, winbase/CopyProgressRoutine, winbase/LPPROGRESS_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices

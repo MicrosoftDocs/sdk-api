@@ -7,7 +7,7 @@ old-location: com\irunnableobject_lockrunning.htm
 old-project: com
 ms.assetid: ce501785-16ad-4120-abea-41e2d6ca67df
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IRunnableObject interface [COM],LockRunning method, IRunnableObject.LockRunning, IRunnableObject::LockRunning, LockRunning, LockRunning method [COM], LockRunning method [COM],IRunnableObject interface, _com_irunnableobject_lockrunning, com.irunnableobject_lockrunning, objidl/IRunnableObject::LockRunning
 ms.prod: windows-hardware
 ms.technology: windows-devices

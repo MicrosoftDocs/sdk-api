@@ -7,7 +7,7 @@ old-location: wsw\ws_bool_description.htm
 old-project: wsw
 ms.assetid: 2f013802-c564-4544-946f-534afd402474
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_BOOL_DESCRIPTION, WS_BOOL_DESCRIPTION structure [Web Services for Windows], _WS_BOOL_DESCRIPTION, webservices/WS_BOOL_DESCRIPTION, wsw.ws_bool_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

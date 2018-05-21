@@ -2,7 +2,7 @@
 UID: TP:direct2d
 ms.assetid: 43d8949c-ea1e-342c-bf43-cea67f63ae14
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

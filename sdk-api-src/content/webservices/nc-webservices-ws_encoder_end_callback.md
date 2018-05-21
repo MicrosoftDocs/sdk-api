@@ -7,7 +7,7 @@ old-location: wsw\ws_encoder_end_callback.htm
 old-project: wsw
 ms.assetid: ab0f88f7-e2b4-48e0-9041-ac4aa66f1575
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_ENCODER_END_CALLBACK, WS_ENCODER_END_CALLBACK callback, WS_ENCODER_END_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_END_CALLBACK, wsw.ws_encoder_end_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

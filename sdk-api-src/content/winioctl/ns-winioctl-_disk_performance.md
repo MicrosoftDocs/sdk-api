@@ -7,7 +7,7 @@ old-location: fs\disk_performance_str.htm
 old-project: FileIO
 ms.assetid: 938ec37b-450e-4ebf-ad2b-9f1ac5f56112
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PDISK_PERFORMANCE, DISK_PERFORMANCE, DISK_PERFORMANCE structure [Files], PDISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Files], _DISK_PERFORMANCE, _win32_disk_performance_str, base.disk_performance_str, fs.disk_performance_str, winioctl/DISK_PERFORMANCE, winioctl/PDISK_PERFORMANCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

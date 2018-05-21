@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_shutdownapplicationinstances.htm
 old-project: cossdk
 ms.assetid: 1de6c76b-f6f1-44d3-9bd4-4b6ac921893a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],ShutdownApplicationInstances method, ICOMAdminCatalog2.ShutdownApplicationInstances, ICOMAdminCatalog2::ShutdownApplicationInstances, ShutdownApplicationInstances, ShutdownApplicationInstances method [COM+], ShutdownApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_ShutdownApplicationInstances, comadmin/ICOMAdminCatalog2::ShutdownApplicationInstances, cos.icomadmincatalog2_shutdownapplicationinstances
 ms.prod: windows-hardware
 ms.technology: windows-devices

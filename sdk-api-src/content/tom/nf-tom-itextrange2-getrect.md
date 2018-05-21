@@ -7,7 +7,7 @@ old-location: controls\itextrange2_getrect.htm
 old-project: Controls
 ms.assetid: 14f0faab-ff37-4f86-a4ba-b6c207d7ddf0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetRect, GetRect method [Windows Controls], GetRect method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetRect method, ITextRange2.GetRect, ITextRange2::GetRect, controls.itextrange2_getrect, tom/ITextRange2::GetRect, tomAllowOffClient, tomClientCoord, tomObjectArg, tomTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\ws_enum_value.htm
 old-project: wsw
 ms.assetid: 4d1ec30a-d8fe-41b2-b689-4011dbb55d34
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_ENUM_VALUE, WS_ENUM_VALUE structure [Web Services for Windows], _WS_ENUM_VALUE, webservices/WS_ENUM_VALUE, wsw.ws_enum_value
 ms.prod: windows-hardware
 ms.technology: windows-devices

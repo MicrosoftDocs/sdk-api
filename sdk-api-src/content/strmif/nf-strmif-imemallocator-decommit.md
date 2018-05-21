@@ -7,7 +7,7 @@ old-location: dshow\imemallocator_decommit.htm
 old-project: DirectShow
 ms.assetid: 2c1211c1-e047-4240-b85a-9be0a9290d31
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: Decommit, Decommit method [DirectShow], Decommit method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],Decommit method, IMemAllocator.Decommit, IMemAllocator::Decommit, IMemAllocatorDecommit, dshow.imemallocator_decommit, strmif/IMemAllocator::Decommit
 ms.prod: windows-hardware
 ms.technology: windows-devices

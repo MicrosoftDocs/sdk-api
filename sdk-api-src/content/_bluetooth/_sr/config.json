@@ -1,0 +1,8 @@
+{
+  "tech": "sr",
+  "headers": [
+    "tbd",
+    "srrestoreptapi.h"
+  ],
+  "displayName": "System Restore"
+}

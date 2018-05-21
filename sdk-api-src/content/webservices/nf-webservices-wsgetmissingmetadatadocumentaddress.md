@@ -7,7 +7,7 @@ old-location: wsw\wsgetmissingmetadatadocumentaddress.htm
 old-project: wsw
 ms.assetid: 7854fb44-c397-4fd0-8a0e-ea293eba4f01
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsGetMissingMetadataDocumentAddress, WsGetMissingMetadataDocumentAddress function [Web Services for Windows], webservices/WsGetMissingMetadataDocumentAddress, wsw.wsgetmissingmetadatadocumentaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

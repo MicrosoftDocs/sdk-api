@@ -7,7 +7,7 @@ old-location: winrm\wsman_plugin_send.htm
 old-project: WinRM
 ms.assetid: d287915b-9af9-4b87-9456-224e96e6dc20
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: WSMAN_PLUGIN_SEND, WSMAN_PLUGIN_SEND callback, WSMAN_PLUGIN_SEND callback function [Windows Remote Management], WSManPluginSend, winrm.wsman_plugin_send, wsman/WSMAN_PLUGIN_SEND
 ms.prod: windows-hardware
 ms.technology: windows-devices

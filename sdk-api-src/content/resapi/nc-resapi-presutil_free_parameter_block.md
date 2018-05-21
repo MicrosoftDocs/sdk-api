@@ -7,7 +7,7 @@ old-location: mscs\resutilfreeparameterblock.htm
 old-project: MsCS
 ms.assetid: 2e884794-dbb7-47a8-8843-e9c030ce515d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PRESUTIL_FREE_PARAMETER_BLOCK, PRESUTIL_FREE_PARAMETER_BLOCK callback, PRESUTIL_FREE_PARAMETER_BLOCK callback function [Failover Cluster], _wolf_resutilfreeparameterblock, mscs.resutilfreeparameterblock, resapi/PRESUTIL_FREE_PARAMETER_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices

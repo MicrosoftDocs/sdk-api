@@ -2,7 +2,7 @@
 UID: NA:wmpservices
 ms.assetid: 941d3782-a212-301e-ae15-ab2ff18b55bd
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

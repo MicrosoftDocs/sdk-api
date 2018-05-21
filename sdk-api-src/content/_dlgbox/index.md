@@ -2,7 +2,7 @@
 UID: TP:dlgbox
 ms.assetid: a28127d0-a8ac-381f-95fa-d472ee915ef7
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,6 +39,12 @@ For the programming guide, see [Dialog Boxes](https://review.docs.microsoft.com/
 | [GetSaveFileNameW function](..\commdlg\nf-commdlg-getsavefilenamew.md) | Creates a Save dialog box that lets the user specify the drive, directory, and name of a file to save. |
 | [ReplaceTextA function](..\commdlg\nf-commdlg-replacetexta.md) | Creates a system-defined modeless dialog box that lets the user specify a string to search for and a replacement string, as well as options to control the find and replace operations. |
 | [ReplaceTextW function](..\commdlg\nf-commdlg-replacetextw.md) | Creates a system-defined modeless dialog box that lets the user specify a string to search for and a replacement string, as well as options to control the find and replace operations. |
+
+## Callback functions
+
+| Title   | Description   |
+| ---- |:---- |
+| [LPCCHOOKPROC callback function](..\commdlg\nc-commdlg-lpcchookproc.md) | Receives messages or notifications intended for the default dialog box procedure of the Color dialog box. This is an application-defined or library-defined callback function that is used with the ChooseColor function. |
 
 ## Structures
 

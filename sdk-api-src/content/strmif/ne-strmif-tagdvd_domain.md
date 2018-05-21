@@ -7,7 +7,7 @@ old-location: dshow\dvd_domain.htm
 old-project: DirectShow
 ms.assetid: 2763a159-d4de-44c2-905b-5828f328cbd2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DVD_DOMAIN, DVD_DOMAIN , DVD_DOMAIN enumeration [DirectShow], DVD_DOMAINEnumeration, DVD_DOMAIN_FirstPlay, DVD_DOMAIN_Stop, DVD_DOMAIN_Title, DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, dshow.dvd_domain, strmif/DVD_DOMAIN, strmif/DVD_DOMAIN_FirstPlay, strmif/DVD_DOMAIN_Stop, strmif/DVD_DOMAIN_Title, strmif/DVD_DOMAIN_VideoManagerMenu, strmif/DVD_DOMAIN_VideoTitleSetMenu, tagDVD_DOMAIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # tagDVD_DOMAIN enumeration

@@ -1,0 +1,9 @@
+{
+  "tech": "directcomp",
+  "headers": [
+    "dcomp.h",
+    "dcompanimation.h",
+    "dcomptypes.h"
+  ],
+  "displayName": "DirectComposition"
+}

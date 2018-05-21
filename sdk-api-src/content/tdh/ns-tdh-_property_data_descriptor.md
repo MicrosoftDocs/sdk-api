@@ -7,7 +7,7 @@ old-location: etw\property_data_descriptor_struct.htm
 old-project: ETW
 ms.assetid: 38e6f5b1-fce5-45e4-ac7a-09ba40d29837
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: "*PPROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR structure [ETW], _PROPERTY_DATA_DESCRIPTOR, etw.property_data_descriptor_struct, tdh.property_data_descriptor_struct, tdh/PROPERTY_DATA_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

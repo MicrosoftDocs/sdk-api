@@ -7,7 +7,7 @@ old-location: security\scard_readerstate.htm
 old-project: SecAuthN
 ms.assetid: 4e9bbed7-f899-4361-a526-029a710d5147
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*LPSCARD_READERSTATEW, *PSCARD_READERSTATEW, LPSCARD_READERSTATE, LPSCARD_READERSTATE structure pointer [Security], PSCARD_READERSTATE, PSCARD_READERSTATE structure pointer [Security], SCARD_READERSTATE, SCARD_READERSTATE structure [Security], SCARD_READERSTATEA, SCARD_READERSTATEW, SCARD_STATE_ATRMATCH, SCARD_STATE_CHANGED, SCARD_STATE_EMPTY, SCARD_STATE_EXCLUSIVE, SCARD_STATE_IGNORE, SCARD_STATE_INUSE, SCARD_STATE_MUTE, SCARD_STATE_PRESENT, SCARD_STATE_UNAVAILABLE, SCARD_STATE_UNAWARE, SCARD_STATE_UNKNOWN, _smart_scard_readerstate, security.scard_readerstate, winscard/LPSCARD_READERSTATE, winscard/PSCARD_READERSTATE, winscard/SCARD_READERSTATE, winscard/SCARD_READERSTATEA, winscard/SCARD_READERSTATEW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\ws_username_message_security_binding_template.htm
 old-project: wsw
 ms.assetid: c538c670-9a61-4891-9f63-e0eea12ee224
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE, WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], _WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE, webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE, wsw.ws_username_message_security_binding_template
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\ifedictionary_create.htm
 old-project: Intl
 ms.assetid: 218DEE1C-945A-4CD8-BAD5-12F904FAB2DD
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: Create, Create method [Internationalization for Windows Applications], Create method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],Create method, IFEDictionary.Create, IFEDictionary::Create, intl.ifedictionary_create, msime/IFEDictionary::Create
 ms.prod: windows-hardware
 ms.technology: windows-devices

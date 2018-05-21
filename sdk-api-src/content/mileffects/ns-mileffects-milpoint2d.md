@@ -7,7 +7,7 @@ old-location: wibe\_wibe_mil_2dpointd.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\structs\mil_2dpointd.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MIL_2DPOINTD, MIL_2DPOINTD structure [WPF Bitmap Effects], MilPoint2D, _wibe_mil_2dpointd, mileffects/MIL_2DPOINTD, wibe._wibe_mil_2dpointd
 ms.prod: windows-hardware
 ms.technology: windows-devices

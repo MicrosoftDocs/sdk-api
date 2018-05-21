@@ -7,7 +7,7 @@ old-location: security\ix509extensionsubjectkeyidentifier_subjectkeyidentifier_p
 old-project: SecCertEnroll
 ms.assetid: b055197c-d659-4b92-92b2-b7955beac08a
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier interface [Security],SubjectKeyIdentifier property, IX509ExtensionSubjectKeyIdentifier.SubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier.get_SubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier::SubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier::get_SubjectKeyIdentifier, SubjectKeyIdentifier property [Security], SubjectKeyIdentifier property [Security],IX509ExtensionSubjectKeyIdentifier interface, certenroll/IX509ExtensionSubjectKeyIdentifier::SubjectKeyIdentifier, certenroll/IX509ExtensionSubjectKeyIdentifier::get_SubjectKeyIdentifier, get_SubjectKeyIdentifier, security.ix509extensionsubjectkeyidentifier_subjectkeyidentifier_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

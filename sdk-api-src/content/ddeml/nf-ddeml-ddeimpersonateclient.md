@@ -7,7 +7,7 @@ old-location: dataxchg\ddeimpersonateclient.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeimpersonateclient.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: DdeImpersonateClient, DdeImpersonateClient function [Data Exchange], _win32_DdeImpersonateClient, _win32_ddeimpersonateclient_cpp, dataxchg.ddeimpersonateclient, ddeml/DdeImpersonateClient, winui._win32_ddeimpersonateclient
 ms.prod: windows-hardware
 ms.technology: windows-devices

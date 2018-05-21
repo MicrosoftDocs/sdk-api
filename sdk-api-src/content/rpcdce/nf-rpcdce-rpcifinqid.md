@@ -7,7 +7,7 @@ old-location: rpc\rpcifinqid.htm
 old-project: Rpc
 ms.assetid: 1b91e88c-b242-472f-b719-60f96599cb67
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcIfInqId, RpcIfInqId function [RPC], _rpc_rpcifinqid, rpc.rpcifinqid, rpcdce/RpcIfInqId
 ms.prod: windows-hardware
 ms.technology: windows-devices

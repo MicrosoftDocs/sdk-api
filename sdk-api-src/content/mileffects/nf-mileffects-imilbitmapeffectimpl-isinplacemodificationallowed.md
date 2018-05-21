@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectimpl_isinplacemodificationallowed.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\isinplacemodificationallowed.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMILBitmapEffectImpl interface [WPF Bitmap Effects],IsInPlaceModificationAllowed method, IMILBitmapEffectImpl.IsInPlaceModificationAllowed, IMILBitmapEffectImpl::IsInPlaceModificationAllowed, IsInPlaceModificationAllowed, IsInPlaceModificationAllowed method [WPF Bitmap Effects], IsInPlaceModificationAllowed method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, _wibe_imilbitmapeffectimpl_isinplacemodificationallowed, mileffects/IMILBitmapEffectImpl::IsInPlaceModificationAllowed, wibe._wibe_imilbitmapeffectimpl_isinplacemodificationallowed
 ms.prod: windows-hardware
 ms.technology: windows-devices

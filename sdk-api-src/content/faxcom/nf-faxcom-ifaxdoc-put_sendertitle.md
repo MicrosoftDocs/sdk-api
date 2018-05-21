@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_sendertitle_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3obp.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxDoc object [Fax Service],SenderTitle property, FaxDoc.SenderTitle, IFaxDoc.put_SenderTitle, IFaxDoc::put_SenderTitle, SenderTitle property [Fax Service], SenderTitle property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_sendertitle, fax._mfax_ifaxdoc_get_sendertitle, fax._mfax_ifaxdoc_get_sendertitle_vb, put_SenderTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: rras\pmgm_prune_alert_callback.htm
 old-project: RRAS
 ms.assetid: 1c23df04-2a31-475e-a8da-783796a60e00
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: MgmPruneAlertCallback, MgmPruneAlertCallback callback function [RAS], _mpr_pmgm_prune_alert_callback, mgm/MgmPruneAlertCallback, rras.pmgm_prune_alert_callback
+ms.date: 5/16/2018
+ms.keywords: MgmPruneAlertCallback, PMGM_PRUNE_ALERT_CALLBACK, PMGM_PRUNE_ALERT_CALLBACK callback, PMGM_PRUNE_ALERT_CALLBACK callback function [RAS], _mpr_pmgm_prune_alert_callback, mgm/PMGM_PRUNE_ALERT_CALLBACK, rras.pmgm_prune_alert_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# PMGM_PRUNE_ALERT_CALLBACK callback
+# PMGM_PRUNE_ALERT_CALLBACK callback function
 
 
 ## -description

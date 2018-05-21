@@ -7,7 +7,7 @@ old-location: wsw\wswriteenvelopestart.htm
 old-project: wsw
 ms.assetid: 213fe780-82f2-4140-92f2-2665317a5cb6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsWriteEnvelopeStart, WsWriteEnvelopeStart function [Web Services for Windows], webservices/WsWriteEnvelopeStart, wsw.wswriteenvelopestart
 ms.prod: windows-hardware
 ms.technology: windows-devices

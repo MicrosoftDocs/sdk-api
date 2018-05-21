@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_graphics_pipeline_state_desc.htm
 old-project: direct3d12
 ms.assetid: 35D10150-A633-4D38-B684-3E2DF357FFC0
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12_GRAPHICS_PIPELINE_STATE_DESC, D3D12_GRAPHICS_PIPELINE_STATE_DESC structure, d3d12/D3D12_GRAPHICS_PIPELINE_STATE_DESC, direct3d12.d3d12_graphics_pipeline_state_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

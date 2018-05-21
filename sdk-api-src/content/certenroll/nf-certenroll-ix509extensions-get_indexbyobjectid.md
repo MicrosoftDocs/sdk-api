@@ -7,7 +7,7 @@ old-location: security\ix509extensions_indexbyobjectid_property.htm
 old-project: SecCertEnroll
 ms.assetid: 1048c1d8-11f9-4a44-a492-0518cb1782c6
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509Extensions interface [Security],IndexByObjectId property, IX509Extensions.IndexByObjectId, IX509Extensions.get_IndexByObjectId, IX509Extensions::IndexByObjectId, IX509Extensions::get_IndexByObjectId, IndexByObjectId property [Security], IndexByObjectId property [Security],IX509Extensions interface, certenroll/IX509Extensions::IndexByObjectId, certenroll/IX509Extensions::get_IndexByObjectId, get_IndexByObjectId, security.ix509extensions_indexbyobjectid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

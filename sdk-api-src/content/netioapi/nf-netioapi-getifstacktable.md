@@ -7,7 +7,7 @@ old-location: iphlp\getifstacktable.htm
 old-project: IpHlp
 ms.assetid: c1b0f091-2aef-447e-9866-a886838a6267
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetIfStackTable, GetIfStackTable function [IP Helper], iphlp.getifstacktable, netioapi/GetIfStackTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

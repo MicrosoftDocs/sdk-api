@@ -7,7 +7,7 @@ old-location: fs\txfs_list_transactions.htm
 old-project: FileIO
 ms.assetid: 4c5ec2eb-f0d9-4603-96d5-1a53e56e97b8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PTXFS_LIST_TRANSACTIONS, PTXFS_LIST_TRANSACTIONS, PTXFS_LIST_TRANSACTIONS structure pointer [Files], TXFS_LIST_TRANSACTIONS, TXFS_LIST_TRANSACTIONS structure [Files], _TXFS_LIST_TRANSACTIONS, fs.txfs_list_transactions, winioctl/PTXFS_LIST_TRANSACTIONS, winioctl/TXFS_LIST_TRANSACTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

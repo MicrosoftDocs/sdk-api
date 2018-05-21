@@ -7,7 +7,7 @@ old-location: fs\findnextchangenotification.htm
 old-project: FileIO
 ms.assetid: 0f93cc96-6e3b-4c03-aa5a-7a74d054a7ff
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: FindNextChangeNotification, FindNextChangeNotification function [Files], _win32_findnextchangenotification, base.findnextchangenotification, fileapi/FindNextChangeNotification, fs.findnextchangenotification, winbase/FindNextChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator_get_mediacatalognumber.htm
 old-project: imapi
 ms.assetid: db6f46b7-9965-4b06-a437-bdfdac7d5efa
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_MediaCatalogNumber method, IRawCDImageCreator.get_MediaCatalogNumber, IRawCDImageCreator::get_MediaCatalogNumber, get_MediaCatalogNumber, get_MediaCatalogNumber method [IMAPI], get_MediaCatalogNumber method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_mediacatalognumber, imapi2/IRawCDImageCreator::get_MediaCatalogNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

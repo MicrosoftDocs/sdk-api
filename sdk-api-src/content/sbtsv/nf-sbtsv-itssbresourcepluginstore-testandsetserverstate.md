@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_testandsetserverstate.htm
 old-project: TermServ
 ms.assetid: 5b209587-090e-4338-95b3-542e50412587
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],TestAndSetServerState method, ITsSbResourcePluginStore.TestAndSetServerState, ITsSbResourcePluginStore::TestAndSetServerState, TestAndSetServerState, TestAndSetServerState method [Remote Desktop Services], TestAndSetServerState method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::TestAndSetServerState, termserv.itssbresourcepluginstore_testandsetserverstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

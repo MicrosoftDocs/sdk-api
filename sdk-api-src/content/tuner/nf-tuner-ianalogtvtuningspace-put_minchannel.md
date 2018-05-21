@@ -7,7 +7,7 @@ old-location: mstv\ianalogtvtuningspace_put_minchannel.htm
 old-project: mstv
 ms.assetid: e0e348a6-a536-4c1b-82ba-c2502c5d92c0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],put_MinChannel method, IAnalogTVTuningSpace.put_MinChannel, IAnalogTVTuningSpace::put_MinChannel, IAnalogTVTuningSpaceput_MinChannel, mstv.ianalogtvtuningspace_put_minchannel, put_MinChannel, put_MinChannel method [Microsoft TV Technologies], put_MinChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, tuner/IAnalogTVTuningSpace::put_MinChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

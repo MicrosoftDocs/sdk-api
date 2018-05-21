@@ -7,7 +7,7 @@ old-location: com\olesave.htm
 old-project: com
 ms.assetid: b8d8e1af-05a3-42f5-8672-910a2606e613
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleSave, OleSave function [COM], _ole_OleSave, com.olesave, ole2/OleSave
 ms.prod: windows-hardware
 ms.technology: windows-devices

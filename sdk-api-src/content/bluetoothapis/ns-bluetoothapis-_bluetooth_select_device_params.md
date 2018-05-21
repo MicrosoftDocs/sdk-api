@@ -7,7 +7,7 @@ old-location: bluetooth\bluetooth_select_device_params.htm
 old-project: Bluetooth
 ms.assetid: 34ab348b-ce5d-422a-9bec-adbefa4a5ea0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BLUETOOTH_SELECT_DEVICE_PARAMS, BLUETOOTH_SELECT_DEVICE_PARAMS structure [Bluetooth], _BLUETOOTH_SELECT_DEVICE_PARAMS, _bth_bluetooth_select_device_params, bluetooth.bluetooth_select_device_params, bluetoothapis/BLUETOOTH_SELECT_DEVICE_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices

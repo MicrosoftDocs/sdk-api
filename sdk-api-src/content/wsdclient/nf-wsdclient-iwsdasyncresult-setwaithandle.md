@@ -7,7 +7,7 @@ old-location: ncd\iwsdasyncresult_setwaithandle_method.htm
 old-project: WsdApi
 ms.assetid: d7196785-0e9c-4320-a14e-60457f72c66b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDAsyncResult interface,SetWaitHandle method, IWSDAsyncResult.SetWaitHandle, IWSDAsyncResult::SetWaitHandle, SetWaitHandle, SetWaitHandle method, SetWaitHandle method,IWSDAsyncResult interface, ncd.iwsdasyncresult_setwaithandle_method, wsdclient/IWSDAsyncResult::SetWaitHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\websecuritylevel_enum.htm
 old-project: SecCertEnroll
 ms.assetid: fa87ec81-59d9-495c-9b2e-5394678cd020
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: LevelSafe, LevelUnsafe, WebSecurityLevel, WebSecurityLevel enumeration [Security], certenroll/LevelSafe, certenroll/LevelUnsafe, certenroll/WebSecurityLevel, security.websecuritylevel_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices

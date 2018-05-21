@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetSurroundColors_colors_
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setsurroundcolors.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: PathGradientBrush class [GDI+],SetSurroundColors method, PathGradientBrush.SetSurroundColors, PathGradientBrush::SetSurroundColors, SetSurroundColors, SetSurroundColors method [GDI+], SetSurroundColors method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetSurroundColors_colors_count_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetSurroundColors_colors_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\AssocGetDetailsOfPropKey.htm
 old-project: shell
 ms.assetid: f13af5f4-1b6a-419c-a042-e05c9ec51d02
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AssocGetDetailsOfPropKey, AssocGetDetailsOfPropKey function [Windows Shell], _shell_AssocGetDetailsOfPropKey, shell.AssocGetDetailsOfPropKey, shlobj_core/AssocGetDetailsOfPropKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

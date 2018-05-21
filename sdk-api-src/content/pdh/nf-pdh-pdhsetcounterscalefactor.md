@@ -7,7 +7,7 @@ old-location: perf\pdhsetcounterscalefactor.htm
 old-project: PerfCtrs
 ms.assetid: 6db99e03-0b03-4c1c-b82a-2982b52746db
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PdhSetCounterScaleFactor, PdhSetCounterScaleFactor function [Perf], _win32_pdhsetcounterscalefactor, base.pdhsetcounterscalefactor, pdh/PdhSetCounterScaleFactor, perf.pdhsetcounterscalefactor
 ms.prod: windows-hardware
 ms.technology: windows-devices

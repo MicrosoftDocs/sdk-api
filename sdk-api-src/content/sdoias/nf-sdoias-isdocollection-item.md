@@ -7,7 +7,7 @@ old-location: nps\SDO_isdocollection_item.htm
 old-project: Nps
 ms.assetid: 1c830e23-dc6f-49dd-83fe-8ddd39ac1bf6
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],Item method, ISdoCollection.Item, ISdoCollection::Item, Item, Item method [Network Policy Server], Item method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_item, nps.SDO_isdocollection_item, sdo.isdocollection_item, sdoias/ISdoCollection::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

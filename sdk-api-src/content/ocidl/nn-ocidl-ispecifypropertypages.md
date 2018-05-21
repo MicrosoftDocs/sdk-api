@@ -7,7 +7,7 @@ old-location: com\ispecifypropertypages.htm
 old-project: com
 ms.assetid: fd986241-aabe-477e-a382-28a1ecfd5410
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: ISpecifyPropertyPages, ISpecifyPropertyPages interface [COM], ISpecifyPropertyPages interface [COM],described, _ctrl_ispecifypropertypages, com.ispecifypropertypages, ocidl/ISpecifyPropertyPages
 ms.prod: windows-hardware
 ms.technology: windows-devices

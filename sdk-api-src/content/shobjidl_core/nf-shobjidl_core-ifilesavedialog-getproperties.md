@@ -7,7 +7,7 @@ old-location: shell\IFileSaveDialog_GetProperties.htm
 old-project: shell
 ms.assetid: 734a1bf9-ff63-48a5-9508-3a576ea24ab7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetProperties, GetProperties method [Windows Shell], GetProperties method [Windows Shell],IFileSaveDialog interface, IFileSaveDialog interface [Windows Shell],GetProperties method, IFileSaveDialog.GetProperties, IFileSaveDialog::GetProperties, shell.IFileSaveDialog_GetProperties, shell_IFileSaveDialog_GetProperties, shobjidl_core/IFileSaveDialog::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IFileSaveDialog::GetProperties

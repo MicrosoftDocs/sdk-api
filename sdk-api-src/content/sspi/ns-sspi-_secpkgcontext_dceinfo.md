@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_dceinfo.htm
 old-project: SecAuthN
 ms.assetid: 490688d0-efdd-4a40-88b9-eb53ff592d2a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSecPkgContext_DceInfo, PSecPkgContext_DceInfo, PSecPkgContext_DceInfo structure pointer [Security], SecPkgContext_DceInfo, SecPkgContext_DceInfo structure [Security], _SecPkgContext_DceInfo, _ssp_secpkgcontext_dceinfo, security.secpkgcontext_dceinfo, sspi/PSecPkgContext_DceInfo, sspi/SecPkgContext_DceInfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_DceInfo structure

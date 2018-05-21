@@ -7,7 +7,7 @@ old-location: security\revertsecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: d4ed1fe9-2e0a-4648-a010-1eae49ba03ee
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: RevertSecurityContext, RevertSecurityContext function [Security], _ssp_revertsecuritycontext, security.revertsecuritycontext, sspi/RevertSecurityContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # RevertSecurityContext function

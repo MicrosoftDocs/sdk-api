@@ -7,7 +7,7 @@ old-location: com\oleuieditlinks_struct.htm
 old-project: com
 ms.assetid: 0a139936-bda4-40c8-85d6-b52ff042f2d9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPOLEUIEDITLINKSA, *POLEUIEDITLINKSA, ELF_DISABLECANCELLINK, ELF_DISABLECHANGESOURCE, ELF_DISABLEOPENSOURCE, ELF_DISABLEUPDATENOW, ELF_SHOWHELP, LPOLEUIEDITLINKS, LPOLEUIEDITLINKS structure pointer [COM], OLEUIEDITLINKS, OLEUIEDITLINKS structure [COM], OLEUIEDITLINKSA, OLEUIEDITLINKSW, POLEUIEDITLINKS, POLEUIEDITLINKS structure pointer [COM], _ole_OLEUIEDITLINKS_str, com.oleuieditlinks_struct, oledlg/LPOLEUIEDITLINKS, oledlg/OLEUIEDITLINKS, oledlg/OLEUIEDITLINKSA, oledlg/OLEUIEDITLINKSW, oledlg/POLEUIEDITLINKS, tagOLEUIEDITLINKSA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

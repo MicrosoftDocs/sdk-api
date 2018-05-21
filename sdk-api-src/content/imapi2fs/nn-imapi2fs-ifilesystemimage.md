@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage.htm
 old-project: imapi
 ms.assetid: 0256f1d2-a3fb-45b2-bd84-e2b71148e4ec
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], IFileSystemImage interface [IMAPI],described, imapi.ifilesystemimage, imapi2fs/IFileSystemImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

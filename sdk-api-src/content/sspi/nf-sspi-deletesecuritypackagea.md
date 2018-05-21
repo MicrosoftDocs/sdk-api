@@ -7,7 +7,7 @@ old-location: security\deletesecuritypackage.htm
 old-project: SecAuthN
 ms.assetid: 7a9a2c64-92a4-419b-8b20-d0f5cba64147
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: DeleteSecurityPackage, DeleteSecurityPackage function [Security], DeleteSecurityPackageA, DeleteSecurityPackageW, security.deletesecuritypackage, sspi/DeleteSecurityPackage, sspi/DeleteSecurityPackageA, sspi/DeleteSecurityPackageW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # DeleteSecurityPackageA function

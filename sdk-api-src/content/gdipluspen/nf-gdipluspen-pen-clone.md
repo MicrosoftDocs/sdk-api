@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\clone_85.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Pen class, Pen class [GDI+],Clone method, Pen.Clone, Pen::Clone, _gdiplus_CLASS_Pen_Clone_, gdiplus._gdiplus_CLASS_Pen_Clone_
 ms.prod: windows-hardware
 ms.technology: windows-devices

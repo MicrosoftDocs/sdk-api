@@ -7,7 +7,7 @@ old-location: dshow\am_mpegsystemtype.htm
 old-project: DirectShow
 ms.assetid: 218bf0c3-e618-4dcc-8618-34cd1fb5c0a8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AM_MPEGSYSTEMTYPE, AM_MPEGSYSTEMTYPE structure [DirectShow], dshow.am_mpegsystemtype, mpegtype/AM_MPEGSYSTEMTYPE, tagAM_MPEGSYSTEMTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

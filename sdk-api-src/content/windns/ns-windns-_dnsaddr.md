@@ -7,7 +7,7 @@ old-location: dns\dns_addr.htm
 old-project: DNS
 ms.assetid: c14e6fc0-34b3-40e8-b9b8-61e4aea01677
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: "*PDNS_ADDR, DNS_ADDR, DNS_ADDR structure [DNS], PDNS_ADDR, PDNS_ADDR structure pointer [DNS], _DnsAddr, dns.dns_addr, windns/DNS_ADDR, windns/PDNS_ADDR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

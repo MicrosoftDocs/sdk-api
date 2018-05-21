@@ -7,7 +7,7 @@ old-location: netshell\matchtoken.htm
 old-project: NetShell
 ms.assetid: d6389d2e-1987-4ea6-967c-260686659852
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/10/2018
 ms.keywords: MatchToken, MatchToken function [NetShell], _netsh_matchtoken, netsh/MatchToken, netshell.matchtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

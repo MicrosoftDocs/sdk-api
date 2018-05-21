@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_SetPixel_x_y_color_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\setpixel.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Bitmap class [GDI+],SetPixel method, Bitmap.SetPixel, Bitmap::SetPixel, SetPixel, SetPixel method [GDI+], SetPixel method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_SetPixel_x_y_color_, gdiplus._gdiplus_CLASS_Bitmap_SetPixel_x_y_color_
 ms.prod: windows-hardware
 ms.technology: windows-devices

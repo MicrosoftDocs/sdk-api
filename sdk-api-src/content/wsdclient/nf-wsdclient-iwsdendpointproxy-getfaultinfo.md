@@ -7,7 +7,7 @@ old-location: ncd\iwsdendpointproxy_getfaultinfo.htm
 old-project: WsdApi
 ms.assetid: 45ed30fd-7e4f-44f5-bb90-5686746e39be
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetFaultInfo, GetFaultInfo method, GetFaultInfo method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,GetFaultInfo method, IWSDEndpointProxy.GetFaultInfo, IWSDEndpointProxy::GetFaultInfo, ncd.iwsdendpointproxy_getfaultinfo, wsdclient/IWSDEndpointProxy::GetFaultInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: TP:dataxchg
 ms.assetid: 8367a3cd-5a5f-3203-9e68-d3a9a508c968
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

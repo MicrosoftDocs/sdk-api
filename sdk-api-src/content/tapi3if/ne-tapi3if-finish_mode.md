@@ -7,7 +7,7 @@ old-location: tapi3\finish_mode.htm
 old-project: Tapi
 ms.assetid: f0bf1d93-b6c3-473a-b7ee-2ebb984f42c5
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: FINISH_MODE, FINISH_MODE enumeration [TAPI 2.2], FM_ASCONFERENCE, FM_ASTRANSFER, _tapi3_finish_mode, tapi3.finish_mode, tapi3if/FINISH_MODE, tapi3if/FM_ASCONFERENCE, tapi3if/FM_ASTRANSFER
 ms.prod: windows-hardware
 ms.technology: windows-devices

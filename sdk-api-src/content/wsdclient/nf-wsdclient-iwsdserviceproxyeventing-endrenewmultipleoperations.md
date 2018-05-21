@@ -7,7 +7,7 @@ old-location: ncd\iwsdserviceproxyeventing_endrenewmultipleoperations.htm
 old-project: WsdApi
 ms.assetid: fb5be204-a775-4abb-af5b-9a829b69fa14
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EndRenewMultipleOperations, EndRenewMultipleOperations method, EndRenewMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,EndRenewMultipleOperations method, IWSDServiceProxyEventing.EndRenewMultipleOperations, IWSDServiceProxyEventing::EndRenewMultipleOperations, ncd.iwsdserviceproxyeventing_endrenewmultipleoperations, wsdclient/IWSDServiceProxyEventing::EndRenewMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

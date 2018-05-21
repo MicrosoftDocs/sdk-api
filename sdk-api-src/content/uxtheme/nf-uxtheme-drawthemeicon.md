@@ -7,7 +7,7 @@ old-location: controls\DrawThemeIcon.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeicon.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: DrawThemeIcon, DrawThemeIcon function [Windows Controls], controls.DrawThemeIcon, controls.inet_DrawThemeIcon, inet_DrawThemeIcon, inet_DrawThemeIcon_cpp, uxtheme/DrawThemeIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

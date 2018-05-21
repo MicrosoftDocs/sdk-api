@@ -7,7 +7,7 @@ old-location: ldap\ber_skip_tag.htm
 old-project: LDAP
 ms.assetid: aa7548db-7752-4ce5-9f24-434abe77b000
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ber_skip_tag, ber_skip_tag, ber_skip_tag function [LDAP], ldap.ber__skip__tag, ldap.ber_skip_tag, winber/ber_skip_tag"
 ms.prod: windows-hardware
 ms.technology: windows-devices

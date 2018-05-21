@@ -7,7 +7,7 @@ old-location: ldap\ldap_err2string.htm
 old-project: LDAP
 ms.assetid: ebdccc79-e9c7-4a25-a1ab-01ba2b6f2d59
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_err2string, ldap.ldap__err2string, ldap.ldap_err2string, ldap_err2string, ldap_err2string function [LDAP], ldap_err2stringA, ldap_err2stringW, winldap/ldap_err2string, winldap/ldap_err2stringA, winldap/ldap_err2stringW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

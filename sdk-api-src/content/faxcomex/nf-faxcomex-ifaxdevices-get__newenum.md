@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdevices_get__newenum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2iel.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: IFaxDevices interface [Fax Service],get__NewEnum method, IFaxDevices.get__NewEnum, IFaxDevices::get__NewEnum, _mfax_ifaxdevices_get__newenum, fax._mfax_ifaxdevices_get__newenum, faxcomex/IFaxDevices::get__NewEnum, get__NewEnum, get__NewEnum method [Fax Service], get__NewEnum method [Fax Service],IFaxDevices interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

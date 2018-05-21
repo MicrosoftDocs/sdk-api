@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandler_GetHandlerInfo.htm
 old-project: shell
 ms.assetid: 078f7cee-fb75-4b8b-8c90-720c26d1f361
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetHandlerInfo, GetHandlerInfo method [Windows Shell], GetHandlerInfo method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetHandlerInfo method, ISyncMgrHandler.GetHandlerInfo, ISyncMgrHandler::GetHandlerInfo, _shell_ISyncMgrHandler_GetHandlerInfo, shell.ISyncMgrHandler_GetHandlerInfo, syncmgr/ISyncMgrHandler::GetHandlerInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

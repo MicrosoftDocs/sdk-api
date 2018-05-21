@@ -7,7 +7,7 @@ old-location: rras\mprconfigtransportgethandle.htm
 old-project: RRAS
 ms.assetid: 2d3a2300-de10-4ee0-ba0e-bda26cf9a910
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MprConfigTransportGetHandle, MprConfigTransportGetHandle function [RAS], _mpr_mprconfigtransportgethandle, mprapi/MprConfigTransportGetHandle, rras.mprconfigtransportgethandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

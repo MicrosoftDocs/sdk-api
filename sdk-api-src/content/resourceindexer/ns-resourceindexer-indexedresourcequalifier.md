@@ -7,7 +7,7 @@ old-location: menurc\indexedresourcequalifier.htm
 old-project: menurc
 ms.assetid: A6F253AD-0756-4996-AC6C-5B09C55DE22E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: IndexedResourceQualifier, IndexedResourceQualifier structure [Menus and Other Resources], menurc.indexedresourcequalifier, resourceindexer/IndexedResourceQualifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

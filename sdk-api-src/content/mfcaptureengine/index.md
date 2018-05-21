@@ -2,7 +2,7 @@
 UID: NA:mfcaptureengine
 ms.assetid: 348947e2-9865-3fc3-997c-0e7c76a0f215
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

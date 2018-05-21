@@ -7,7 +7,7 @@ old-location: wcs\IDeviceModelPlugIn_GetNeutralAxisSize.htm
 old-project: WCS
 ms.assetid: a4b16003-b193-48b8-9dee-9ffb39f9159d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/17/2018
 ms.keywords: GetNeutralAxisSize, GetNeutralAxisSize method [Windows Color System], GetNeutralAxisSize method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetNeutralAxisSize method, IDeviceModelPlugIn.GetNeutralAxisSize, IDeviceModelPlugIn::GetNeutralAxisSize, _color_IDeviceModelPlugIn::GetNeutralAxisSize, wcs.IDeviceModelPlugIn_GetNeutralAxisSize, wcsplugin/IDeviceModelPlugIn::GetNeutralAxisSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

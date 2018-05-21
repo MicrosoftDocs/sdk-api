@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_float_text.htm
 old-project: wsw
 ms.assetid: f6d0401a-fc5f-4be8-96ce-211f6a29c560
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_XML_FLOAT_TEXT, WS_XML_FLOAT_TEXT structure [Web Services for Windows], _WS_XML_FLOAT_TEXT, webservices/WS_XML_FLOAT_TEXT, wsw.ws_xml_float_text
 ms.prod: windows-hardware
 ms.technology: windows-devices

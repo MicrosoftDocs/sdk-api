@@ -7,7 +7,7 @@ old-location: fs\repair_copies_input.htm
 old-project: FileIO
 ms.assetid: c3cefb13-4825-4482-a87c-4ba482d3820b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PREPAIR_COPIES_INPUT, PREPAIR_COPIES_INPUT, PREPAIR_COPIES_INPUT structure pointer [Files], REPAIR_COPIES_INPUT, REPAIR_COPIES_INPUT structure [Files], _REPAIR_COPIES_INPUT, fs.repair_copies_input, winioctl/PREPAIR_COPIES_INPUT, winioctl/REPAIR_COPIES_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

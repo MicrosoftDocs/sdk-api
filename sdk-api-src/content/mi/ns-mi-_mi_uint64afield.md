@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_uint64afield.htm
 old-project: wmi_v2
 ms.assetid: 4ecaf6fa-f2d9-4a79-82b7-653b93c3eba4
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint64AField, MI_Uint64AField structure [Windows Management Infrastructure (MI)], _MI_Uint64AField, mi/MI_Uint64AField, wmi._mi_uint64afield, wmi_v2.mi_uint64afield
 ms.prod: windows-hardware
 ms.technology: windows-devices

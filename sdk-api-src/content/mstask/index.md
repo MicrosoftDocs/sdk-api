@@ -2,7 +2,7 @@
 UID: NA:mstask
 ms.assetid: ee24e518-a7b3-3029-9e89-3a815727ab3e
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

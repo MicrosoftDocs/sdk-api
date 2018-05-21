@@ -7,8 +7,8 @@ old-location: rras\pmgm_wrong_if_callback.htm
 old-project: RRAS
 ms.assetid: d74f6984-35a0-42f4-8460-b7ad2fbba1b8
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: MgmWrongIfCallback, MgmWrongIfCallback callback function [RAS], _mpr_pmgm_wrong_if_callback, mgm/MgmWrongIfCallback, rras.pmgm_wrong_if_callback
+ms.date: 5/16/2018
+ms.keywords: MgmWrongIfCallback, PMGM_WRONG_IF_CALLBACK, PMGM_WRONG_IF_CALLBACK callback, PMGM_WRONG_IF_CALLBACK callback function [RAS], _mpr_pmgm_wrong_if_callback, mgm/PMGM_WRONG_IF_CALLBACK, rras.pmgm_wrong_if_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# PMGM_WRONG_IF_CALLBACK callback
+# PMGM_WRONG_IF_CALLBACK callback function
 
 
 ## -description

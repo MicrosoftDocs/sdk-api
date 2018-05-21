@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs7v2_checkcertificatesignature.
 old-project: SecCertEnroll
 ms.assetid: 6ee30e16-1901-45dc-8023-ef605d8a4d21
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: CheckCertificateSignature, CheckCertificateSignature method [Security], CheckCertificateSignature method [Security],IX509CertificateRequestPkcs7V2 interface, IX509CertificateRequestPkcs7V2 interface [Security],CheckCertificateSignature method, IX509CertificateRequestPkcs7V2.CheckCertificateSignature, IX509CertificateRequestPkcs7V2::CheckCertificateSignature, certenroll/IX509CertificateRequestPkcs7V2::CheckCertificateSignature, security.ix509certificaterequestpkcs7v2_checkcertificatesignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

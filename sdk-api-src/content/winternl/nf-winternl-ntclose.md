@@ -7,7 +7,7 @@ old-location: winprog\ntclose.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntclose.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: NtClose, NtClose function [Windows API], winprog.ntclose, winternl/NtClose, winui.ntclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

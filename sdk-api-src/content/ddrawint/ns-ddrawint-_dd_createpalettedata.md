@@ -7,7 +7,7 @@ old-location: display\dd_createpalettedata.htm
 old-project: display
 ms.assetid: e43ad510-b44b-4a4d-abb2-10062ce69140
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA, DD_CREATEPALETTEDATA structure [Display Devices], _DD_CREATEPALETTEDATA, ddrawint/DD_CREATEPALETTEDATA, ddstrcts_9370d793-ebdf-47ef-bc5f-869906c6e20a.xml, display.dd_createpalettedata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

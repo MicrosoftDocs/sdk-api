@@ -7,7 +7,7 @@ old-location: dshow\igraphconfig_getstarttime.htm
 old-project: DirectShow
 ms.assetid: 76d06517-3029-4ece-934e-b1c6f7f65f2c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetStartTime, GetStartTime method [DirectShow], GetStartTime method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],GetStartTime method, IGraphConfig.GetStartTime, IGraphConfig::GetStartTime, IGraphConfigGetStartTime, dshow.igraphconfig_getstarttime, strmif/IGraphConfig::GetStartTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

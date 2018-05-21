@@ -7,7 +7,7 @@ old-location: mstv\iisdbcacontractinformationdescriptor_getrecordcomponenttag.ht
 old-project: mstv
 ms.assetid: cd032a24-228a-47e3-97f4-1046b426c587
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordComponentTag, GetRecordComponentTag method [Microsoft TV Technologies], GetRecordComponentTag method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetRecordComponentTag method, IIsdbCAContractInformationDescriptor.GetRecordComponentTag, IIsdbCAContractInformationDescriptor::GetRecordComponentTag, dvbsiparser/IIsdbCAContractInformationDescriptor::GetRecordComponentTag, mstv.iisdbcacontractinformationdescriptor_getrecordcomponenttag
 ms.prod: windows-hardware
 ms.technology: windows-devices

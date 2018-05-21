@@ -7,7 +7,7 @@ old-location: of\iofflinefilesprogress_begin.htm
 old-project: OfflineFiles
 ms.assetid: d3fe6abf-fc0c-4bba-9c9f-5d0e77c27b43
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: Begin, Begin method [Offline Files], Begin method [Offline Files],IOfflineFilesProgress interface, IOfflineFilesProgress interface [Offline Files],Begin method, IOfflineFilesProgress.Begin, IOfflineFilesProgress::Begin, cscobj/IOfflineFilesProgress::Begin, of.iofflinefilesprogress_begin
 ms.prod: windows-hardware
 ms.technology: windows-devices

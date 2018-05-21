@@ -7,7 +7,7 @@ old-location: iscsidisc\iscsi_device_on_session.htm
 old-project: iSCSIDisc
 ms.assetid: ea5d01ee-64c7-43bb-8945-af38d06de36c
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/11/2018
 ms.keywords: "*PISCSI_DEVICE_ON_SESSIONW, ISCSI_DEVICE_ON_SESSION, ISCSI_DEVICE_ON_SESSION structure [iSCSI Discovery Library API], ISCSI_DEVICE_ON_SESSIONA, ISCSI_DEVICE_ON_SESSIONW, PISCSI_DEVICE_ON_SESSION, PISCSI_DEVICE_ON_SESSION structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_device_on_session, iscsidsc/ISCSI_DEVICE_ON_SESSION, iscsidsc/ISCSI_DEVICE_ON_SESSIONA, iscsidsc/ISCSI_DEVICE_ON_SESSIONW, iscsidsc/PISCSI_DEVICE_ON_SESSION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

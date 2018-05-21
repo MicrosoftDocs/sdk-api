@@ -7,8 +7,8 @@ old-location: netshell\ns_context_commit_fn.htm
 old-project: NetShell
 ms.assetid: 2380cd4e-5e41-4bfb-874c-50be09044c85
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
-ms.keywords: NETSH_COMMIT, NETSH_FLUSH, NETSH_SAVE, NETSH_UNCOMMIT, SampleCommit, SampleCommit callback function [NetShell], _netsh_ns_context_commit_fn, netsh/SampleCommit, netshell.ns_context_commit_fn
+ms.date: 5/10/2018
+ms.keywords: NETSH_COMMIT, NETSH_FLUSH, NETSH_SAVE, NETSH_UNCOMMIT, NS_CONTEXT_COMMIT_FN, NS_CONTEXT_COMMIT_FN callback, NS_CONTEXT_COMMIT_FN callback function [NetShell], SampleCommit, _netsh_ns_context_commit_fn, netsh/NS_CONTEXT_COMMIT_FN, netshell.ns_context_commit_fn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Netsh.h
 api_name:
--	SampleCommit
+-	NS_CONTEXT_COMMIT_FN
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# NS_CONTEXT_COMMIT_FN callback
+# NS_CONTEXT_COMMIT_FN callback function
 
 
 ## -description

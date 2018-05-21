@@ -7,7 +7,7 @@ old-location: winprog\ndrsimplestructunmarshall.htm
 old-project: DevNotes
 ms.assetid: 6b4a28a3-3d0f-43c5-b59a-58c14435e28f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: NdrSimpleStructUnmarshall, NdrSimpleStructUnmarshall function [Windows API], rpcndr/NdrSimpleStructUnmarshall, winprog.ndrsimplestructunmarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

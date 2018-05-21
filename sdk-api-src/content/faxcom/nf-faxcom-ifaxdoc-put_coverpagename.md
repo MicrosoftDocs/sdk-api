@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_coverpagename_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3kmd.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: CoverpageName property [Fax Service], CoverpageName property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],CoverpageName property, FaxDoc.CoverpageName, IFaxDoc.put_CoverpageName, IFaxDoc::put_CoverpageName, _mfax_ifaxdoc_get_coverpagename, fax._mfax_ifaxdoc_get_coverpagename, fax._mfax_ifaxdoc_get_coverpagename_vb, put_CoverpageName
 ms.prod: windows-hardware
 ms.technology: windows-devices

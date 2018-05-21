@@ -7,7 +7,7 @@ old-location: cos\iserviceactivity.htm
 old-project: cossdk
 ms.assetid: 005bf0ec-f5a7-41a3-85b3-07f79f26af27
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IServiceActivity, IServiceActivity interface [COM+], IServiceActivity interface [COM+],described, _cos_IServiceActivity, comsvcs/IServiceActivity, cos.iserviceactivity
 ms.prod: windows-hardware
 ms.technology: windows-devices

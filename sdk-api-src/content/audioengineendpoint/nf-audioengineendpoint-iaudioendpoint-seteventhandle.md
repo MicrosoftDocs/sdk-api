@@ -7,7 +7,7 @@ old-location: termserv\iaudioendpoint_seteventhandle.htm
 old-project: TermServ
 ms.assetid: 9f0f216a-d785-42e9-b07d-f1f2568b5833
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IAudioEndpoint interface [Remote Desktop Services],SetEventHandle method, IAudioEndpoint.SetEventHandle, IAudioEndpoint::SetEventHandle, SetEventHandle, SetEventHandle method [Remote Desktop Services], SetEventHandle method [Remote Desktop Services],IAudioEndpoint interface, audioengineendpoint/IAudioEndpoint::SetEventHandle, termserv.iaudioendpoint_seteventhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

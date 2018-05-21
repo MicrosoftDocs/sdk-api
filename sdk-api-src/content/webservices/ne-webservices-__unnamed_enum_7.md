@@ -7,7 +7,7 @@ old-location: wsw\ws_security_algorithm_property_id.htm
 old-project: wsw
 ms.assetid: eef63792-9dc6-49f5-bca3-e8056d0750f3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_SECURITY_ALGORITHM_PROPERTY_ID, WS_SECURITY_ALGORITHM_PROPERTY_ID enumeration [Web Services for Windows], webservices/WS_SECURITY_ALGORITHM_PROPERTY_ID, wsw.ws_security_algorithm_property_id
 ms.prod: windows-hardware
 ms.technology: windows-devices

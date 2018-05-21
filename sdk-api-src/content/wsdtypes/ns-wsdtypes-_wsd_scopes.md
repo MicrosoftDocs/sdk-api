@@ -7,7 +7,7 @@ old-location: ncd\wsd_scopes_struct.htm
 old-project: WsdApi
 ms.assetid: 3415fef0-dbf4-4ece-bad0-6cd6831404db
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_SCOPES, WSD_SCOPES structure, _WSD_SCOPES, ncd.wsd_scopes_struct, wsdtypes/WSD_SCOPES
 ms.prod: windows-hardware
 ms.technology: windows-devices

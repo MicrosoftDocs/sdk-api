@@ -7,7 +7,7 @@ old-location: multimedia\captureparms.htm
 old-project: Multimedia
 ms.assetid: 6bf7e374-5991-4a7b-984a-628d3e77b2d7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPCAPTUREPARMS, *PCAPTUREPARMS, CAPTUREPARMS, CAPTUREPARMS structure [Windows Multimedia], _win32_CAPTUREPARMS_str, multimedia.captureparms, tagCaptureParms, vfw/CAPTUREPARMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

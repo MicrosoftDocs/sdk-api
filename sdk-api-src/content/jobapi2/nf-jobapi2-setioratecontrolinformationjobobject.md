@@ -7,7 +7,7 @@ old-location: base\setioratecontrolinformationjobobject.htm
 old-project: ProcThread
 ms.assetid: 7E108E01-6D43-4336-BFE0-5EE655FD5D45
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: SetIoRateControlInformationJobObject, SetIoRateControlInformationJobObject function, base.setioratecontrolinformationjobobject, jobapi2/SetIoRateControlInformationJobObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

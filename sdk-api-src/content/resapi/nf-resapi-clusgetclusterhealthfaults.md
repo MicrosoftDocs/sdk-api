@@ -7,7 +7,7 @@ old-location: mscs\clusgetclusterhealthfaults.htm
 old-project: MsCS
 ms.assetid: 971d4cb6-be46-4259-9c40-72388b70aff7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: ClusGetClusterHealthFaults, ClusGetClusterHealthFaults function [Failover Cluster], mscs.clusgetclusterhealthfaults, resapi/ClusGetClusterHealthFaults
 ms.prod: windows-hardware
 ms.technology: windows-devices

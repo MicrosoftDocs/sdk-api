@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeergetmethods.htm
 old-project: EAPHost
 ms.assetid: 5b2b351b-d6d8-406c-aa9f-ac720def3681
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapHostPeerGetMethods, EapHostPeerGetMethods function [EAPHost], eaphost.eaphostpeergetmethods, eaphostpeerconfigapis/EapHostPeerGetMethods
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_SetExtendedStyle.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setextendedstyle.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: TabCtrl_SetExtendedStyle, TabCtrl_SetExtendedStyle macro [Windows Controls], _win32_TabCtrl_SetExtendedStyle, _win32_TabCtrl_SetExtendedStyle_cpp, commctrl/TabCtrl_SetExtendedStyle, controls.TabCtrl_SetExtendedStyle, controls._win32_TabCtrl_SetExtendedStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

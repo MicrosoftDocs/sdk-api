@@ -7,7 +7,7 @@ old-location: mib\mib_tcptable.htm
 old-project: MIB
 ms.assetid: a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PMIB_TCPTABLE, MIB_TCPTABLE, MIB_TCPTABLE structure [MIB], PMIB_TCPTABLE, PMIB_TCPTABLE structure pointer [MIB], _MIB_TCPTABLE, _mpr_mib_tcptable, iprtrmib/MIB_TCPTABLE, iprtrmib/PMIB_TCPTABLE, mib.mib_tcptable, rras.mib_tcptable, tcpmib/MIB_TCPTABLE, tcpmib/PMIB_TCPTABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

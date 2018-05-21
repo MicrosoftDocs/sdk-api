@@ -1,0 +1,103 @@
+---
+UID: NF:shobjidl_core.IFolderView2.GetSelectedItem
+title: IFolderView2::GetSelectedItem
+author: windows-driver-content
+description: Locates the currently selected item at or after a given index.
+old-location: shell\IFolderView2_GetSelectedItem.htm
+old-project: shell
+ms.assetid: fca9fd45-05ce-4300-aecf-a2843614a11d
+ms.author: windowsdriverdev
+ms.date: 5/16/2018
+ms.keywords: GetSelectedItem, GetSelectedItem method [Windows Shell], GetSelectedItem method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetSelectedItem method, IFolderView2.GetSelectedItem, IFolderView2::GetSelectedItem, _shell_IFolderView2_GetSelectedItem, shell.IFolderView2_GetSelectedItem, shobjidl_core/IFolderView2::GetSelectedItem
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	IFolderView2.GetSelectedItem
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
+---
+
+# IFolderView2::GetSelectedItem
+
+
+## -description
+
+
+Locates the currently selected item at or after a given index.
+
+
+## -parameters
+
+
+
+
+### -param iStart [in]
+
+Type: <b>int</b>
+
+The index position from which to start searching for the currently selected item.
+
+
+### -param piItem [out]
+
+Type: <b>int*</b>
+
+A pointer to a value that receives the index of the item in the view.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns S_OK if a selected item was found, or an error value otherwise, including the following:
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+Item not found. Note that this is a success code. The operation was successful in searching the view, it simply did not find a currently selected item after the given index (<i>iStart</i>). It is possible that no item was selected, or that the selected item had an index less than <i>iStart</i>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+

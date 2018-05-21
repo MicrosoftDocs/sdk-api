@@ -2,7 +2,7 @@
 UID: TP:cos
 ms.assetid: fa1a2831-adb6-3c65-849b-78572fe3c364
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

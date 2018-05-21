@@ -7,7 +7,7 @@ old-location: ncd\iwsddeviceproxy_getthisdevicemetadata_method.htm
 old-project: WsdApi
 ms.assetid: 95a87bb1-8e62-4ece-a7bc-2483ea282ede
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetThisDeviceMetadata, GetThisDeviceMetadata method, GetThisDeviceMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetThisDeviceMetadata method, IWSDDeviceProxy.GetThisDeviceMetadata, IWSDDeviceProxy::GetThisDeviceMetadata, ncd.iwsddeviceproxy_getthisdevicemetadata_method, wsdclient/IWSDDeviceProxy::GetThisDeviceMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

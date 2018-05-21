@@ -2,7 +2,7 @@
 UID: TP:xaudio2
 ms.assetid: f4dc61e6-fea4-3675-94bd-c29e3ea2b7f0
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

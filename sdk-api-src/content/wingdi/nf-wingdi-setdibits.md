@@ -7,7 +7,7 @@ old-location: gdi\setdibits.htm
 old-project: gdi
 ms.assetid: 706f4532-4073-4d5c-ae2d-e33aea9163e9
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, SetDIBits, SetDIBits function [Windows GDI], _win32_SetDIBits, gdi.setdibits, wingdi/SetDIBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

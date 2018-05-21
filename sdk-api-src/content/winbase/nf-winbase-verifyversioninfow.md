@@ -232,7 +232,7 @@ Identifying the current operating system is usually not the best way to determin
 <a href="https://msdn.microsoft.com/8e3ab4d6-bacd-4bc5-b8f6-dd49289354de">GetVersionEx</a> to determine the operating system platform or version number, test for the presence of the feature itself. For more information, see 
 <a href="https://msdn.microsoft.com/1a70b1d9-ed66-4201-9921-4e26e4001020">Operating System Version</a>.
 
-To verify whether the current operating system is either the Media Center or Tablet PC version of Windows, call <a href="base.getsystemmetrics">GetSystemMetrics</a>.
+To verify whether the current operating system is either the Media Center or Tablet PC version of Windows, call <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>.
 
 <b>Windows 10:  </b><b>VerifyVersionInfo</b> returns false when called by applications that do not have a compatibility manifest for Windows 8.1 or Windows 10 if the <i>lpVersionInfo</i> parameter is set so that it specifies Windows 8.1 or Windows 10, even when the current operating system version is Windows 8.1 or Windows 10. Specifically, <b>VerifyVersionInfo</b> has the following behavior:<ul>
 <li>If  the application has no manifest, <b>VerifyVersionInfo</b> behaves as if the operation system version is Windows 8 (6.2).</li>

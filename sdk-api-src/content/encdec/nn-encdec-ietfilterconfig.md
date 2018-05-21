@@ -7,7 +7,7 @@ old-location: mstv\ietfilterconfig.htm
 old-project: mstv
 ms.assetid: 6fa3da1b-863b-4ed7-b5ef-4ed1c05d2456
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IETFilterConfig, IETFilterConfig interface [Microsoft TV Technologies], IETFilterConfig interface [Microsoft TV Technologies],described, IETFilterConfigInterface, encdec/IETFilterConfig, mstv.ietfilterconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

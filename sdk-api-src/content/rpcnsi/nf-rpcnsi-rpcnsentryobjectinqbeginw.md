@@ -7,7 +7,7 @@ old-location: rpc\rpcnsentryobjectinqbegin.htm
 old-project: Rpc
 ms.assetid: dc667dc3-0812-43d5-adc2-aa29ee67f045
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcNsEntryObjectInqBegin, RpcNsEntryObjectInqBegin function [RPC], RpcNsEntryObjectInqBeginA, RpcNsEntryObjectInqBeginW, _rpc_rpcnsentryobjectinqbegin, rpc.rpcnsentryobjectinqbegin, rpcnsi/RpcNsEntryObjectInqBegin, rpcnsi/RpcNsEntryObjectInqBeginA, rpcnsi/RpcNsEntryObjectInqBeginW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\setprocessworkingsetsize.htm
 old-project: ProcThread
 ms.assetid: 8bc0053c-f687-43b5-a435-df1e813a5204
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: SetProcessWorkingSetSize, SetProcessWorkingSetSize function, _win32_setprocessworkingsetsize, base.setprocessworkingsetsize, winbase/SetProcessWorkingSetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

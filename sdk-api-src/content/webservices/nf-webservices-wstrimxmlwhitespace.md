@@ -7,7 +7,7 @@ old-location: wsw\wstrimxmlwhitespace.htm
 old-project: wsw
 ms.assetid: afefbf03-27fc-4e0e-bba2-ce42cf9ab01d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsTrimXmlWhitespace, WsTrimXmlWhitespace function [Web Services for Windows], webservices/WsTrimXmlWhitespace, wsw.wstrimxmlwhitespace
 ms.prod: windows-hardware
 ms.technology: windows-devices

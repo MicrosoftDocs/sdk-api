@@ -2,7 +2,7 @@
 UID: NA:wincrypt
 ms.assetid: 9f9635e4-3e62-30ea-ac59-30f821c272a5
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

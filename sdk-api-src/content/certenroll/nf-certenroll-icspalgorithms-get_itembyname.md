@@ -7,7 +7,7 @@ old-location: security\icspalgorithms_itembyname_property.htm
 old-project: SecCertEnroll
 ms.assetid: a5984d8a-3199-4976-ac0f-95917843f473
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ICspAlgorithms interface [Security],ItemByName property, ICspAlgorithms.ItemByName, ICspAlgorithms.get_ItemByName, ICspAlgorithms::ItemByName, ICspAlgorithms::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::ItemByName, certenroll/ICspAlgorithms::get_ItemByName, get_ItemByName, security.icspalgorithms_itembyname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

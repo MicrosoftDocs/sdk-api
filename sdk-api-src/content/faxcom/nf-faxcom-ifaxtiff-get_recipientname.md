@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxtiff_get_recipientname_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_29b9.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxTiff object [Fax Service],RecipientName property, FaxTiff.RecipientName, IFaxTiff.get_RecipientName, IFaxTiff::get_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_recipientname, fax._mfax_ifaxtiff_get_recipientname, fax._mfax_ifaxtiff_get_recipientname_vb, get_RecipientName
 ms.prod: windows-hardware
 ms.technology: windows-devices

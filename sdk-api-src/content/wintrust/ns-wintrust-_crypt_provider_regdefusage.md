@@ -7,7 +7,7 @@ old-location: security\crypt_provider_regdefusage.htm
 old-project: SecCrypto
 ms.assetid: A6047CBA-E4BA-4A31-B700-C368CFB57895
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PCRYPT_PROVIDER_REGDEFUSAGE, CRYPT_PROVIDER_REGDEFUSAGE, CRYPT_PROVIDER_REGDEFUSAGE structure [Security], PCRYPT_PROVIDER_REGDEFUSAGE, PCRYPT_PROVIDER_REGDEFUSAGE structure pointer [Security], _CRYPT_PROVIDER_REGDEFUSAGE, security.crypt_provider_regdefusage, wintrust/CRYPT_PROVIDER_REGDEFUSAGE, wintrust/PCRYPT_PROVIDER_REGDEFUSAGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

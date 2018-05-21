@@ -7,7 +7,7 @@ old-location: mstv\idtfilter_get_blockedratingattributes.htm
 old-project: mstv
 ms.assetid: cf7a5596-3d10-4ce9-a8c8-2703cf1eb7f8
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_BlockedRatingAttributes method, IDTFilter.get_BlockedRatingAttributes, IDTFilter::get_BlockedRatingAttributes, IDTFilterget_BlockedRatingAttributes, encdec/IDTFilter::get_BlockedRatingAttributes, get_BlockedRatingAttributes, get_BlockedRatingAttributes method [Microsoft TV Technologies], get_BlockedRatingAttributes method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_blockedratingattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

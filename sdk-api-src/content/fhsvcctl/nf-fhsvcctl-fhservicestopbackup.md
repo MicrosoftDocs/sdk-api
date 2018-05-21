@@ -7,7 +7,7 @@ old-location: winprog\fhservicestopbackup.htm
 old-project: DevNotes
 ms.assetid: 17FCD464-2543-454A-B60E-E37EDF61C595
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FhServiceStopBackup, FhServiceStopBackup function [Windows API], fhsvcctl/FhServiceStopBackup, winprog.fhservicestopbackup
 ms.prod: windows-hardware
 ms.technology: windows-devices

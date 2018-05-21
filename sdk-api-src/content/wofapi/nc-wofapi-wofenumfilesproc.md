@@ -7,8 +7,8 @@ old-location: fs\wofenumfilesproc.htm
 old-project: FileIO
 ms.assetid: E710869D-68A9-4E30-96DE-6313A5A182D8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: "*WofEnumFilesProc, *WofEnumFilesProc callback function [Files], fs.wofenumfilesproc, wofapi/*WofEnumFilesProc"
+ms.date: 5/16/2018
+ms.keywords: WofEnumFilesProc, WofEnumFilesProc function, WofEnumFilesProc function pointer [Files], fs.wofenumfilesproc, wofapi/WofEnumFilesProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	wofapi.h
 api_name:
--	*WofEnumFilesProc
+-	WofEnumFilesProc
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---
 
-# WofEnumFilesProc callback
+# WofEnumFilesProc callback function
 
 
 ## -description

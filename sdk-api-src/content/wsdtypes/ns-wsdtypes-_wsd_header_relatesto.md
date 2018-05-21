@@ -7,7 +7,7 @@ old-location: ncd\wsd_header_relatesto.htm
 old-project: WsdApi
 ms.assetid: 6085620e-2e3d-4e77-90cd-7cb9fd2c197e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_HEADER_RELATESTO, WSD_HEADER_RELATESTO structure, _WSD_HEADER_RELATESTO, ncd.wsd_header_relatesto, ncd.wsd_header_relayesto, wsdtypes/WSD_HEADER_RELATESTO
 ms.prod: windows-hardware
 ms.technology: windows-devices

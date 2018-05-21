@@ -7,7 +7,7 @@ old-location: base\vectoredhandler.htm
 old-project: Debug
 ms.assetid: a00f0e8d-a10b-48d4-b918-57b2ff9cb984
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: PVECTORED_EXCEPTION_HANDLER, VectoredHandler, VectoredHandler callback, VectoredHandler callback function, _win32_vectoredhandler, base.vectoredhandler, winnt/VectoredHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\ibootoptions_assignbootimage.htm
 old-project: imapi
 ms.assetid: 63d598dd-72a8-4544-813d-11f2e7e53ec5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: AssignBootImage, AssignBootImage method [IMAPI], AssignBootImage method [IMAPI],IBootOptions interface, IBootOptions interface [IMAPI],AssignBootImage method, IBootOptions.AssignBootImage, IBootOptions::AssignBootImage, imapi.ibootoptions_assignbootimage, imapi2fs/IBootOptions::AssignBootImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

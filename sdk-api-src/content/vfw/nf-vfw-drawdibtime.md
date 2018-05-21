@@ -7,7 +7,7 @@ old-location: multimedia\drawdibtime.htm
 old-project: Multimedia
 ms.assetid: 86dd2c5c-f853-4954-b245-6aa51d157600
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DrawDibTime, DrawDibTime function [Windows Multimedia], _win32_DrawDibTime, multimedia.drawdibtime, vfw/DrawDibTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

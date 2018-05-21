@@ -7,7 +7,7 @@ old-location: mf\imfattributes_getitemtype.htm
 old-project: medfound
 ms.assetid: 2c3a3c30-da10-4365-9f76-598a4ca7675c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 2c3a3c30-da10-4365-9f76-598a4ca7675c, GetItemType, GetItemType method [Media Foundation], GetItemType method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetItemType method, IMFAttributes.GetItemType, IMFAttributes::GetItemType, mf.imfattributes_getitemtype, mfobjects/IMFAttributes::GetItemType
 ms.prod: windows-hardware
 ms.technology: windows-devices

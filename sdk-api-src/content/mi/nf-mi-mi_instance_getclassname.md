@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_getclassname.htm
 old-project: wmi_v2
 ms.assetid: d2129902-3a2d-479d-b83a-3582094b2fce
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_Instance_GetClassName, MI_Instance_GetClassName function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetClassName, wmi_v2.mi_instance_getclassname
 ms.prod: windows-hardware
 ms.technology: windows-devices

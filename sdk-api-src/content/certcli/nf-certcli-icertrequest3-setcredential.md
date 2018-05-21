@@ -7,7 +7,7 @@ old-location: security\icertrequest3_setcredential.htm
 old-project: SecCrypto
 ms.assetid: cdc3fc7b-aef6-4d73-876e-c958d7bf8f98
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CCertRequest object [Security],SetCredential method, ICertRequest3 class [Security],SetCredential method, ICertRequest3.SetCredential, ICertRequest3::SetCredential, SetCredential, SetCredential method [Security], SetCredential method [Security],CCertRequest object, SetCredential method [Security],ICertRequest3 class, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certcli/ICertRequest3::SetCredential, security.icertrequest3_setcredential
 ms.prod: windows-hardware
 ms.technology: windows-devices

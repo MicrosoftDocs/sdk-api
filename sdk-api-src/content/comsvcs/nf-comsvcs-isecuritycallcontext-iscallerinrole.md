@@ -7,7 +7,7 @@ old-location: cos\isecuritycallcontext_iscallerinrole.htm
 old-project: cossdk
 ms.assetid: 544deb46-6427-4936-97a6-ea995b5e77ba
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: ISecurityCallContext interface [COM+],IsCallerInRole method, ISecurityCallContext.IsCallerInRole, ISecurityCallContext::IsCallerInRole, IsCallerInRole, IsCallerInRole method [COM+], IsCallerInRole method [COM+],ISecurityCallContext interface, _cos_ISecurityCallContext_IsCallerInRole, comsvcs/ISecurityCallContext::IsCallerInRole, cos.isecuritycallcontext_iscallerinrole
 ms.prod: windows-hardware
 ms.technology: windows-devices

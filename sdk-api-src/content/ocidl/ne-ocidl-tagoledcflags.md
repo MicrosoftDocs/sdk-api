@@ -7,7 +7,7 @@ old-location: com\oledcflags.htm
 old-project: com
 ms.assetid: f8953376-2cbb-4f03-8216-2727d6a9f128
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OLEDCFLAGS, OLEDCFLAGS enumeration [COM], OLEDC_NODRAW, OLEDC_OFFSCREEN, OLEDC_PAINTBKGND, _ole_OLEDCFLAGS, com.oledcflags, ocidl/OLEDCFLAGS, ocidl/OLEDC_NODRAW, ocidl/OLEDC_OFFSCREEN, ocidl/OLEDC_PAINTBKGND, tagOLEDCFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

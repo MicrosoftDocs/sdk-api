@@ -7,7 +7,7 @@ old-location: eaphost\eapsimcredential.htm
 old-project: EAPHost
 ms.assetid: 483BF257-BB9F-4AF6-A55C-77277AC6E21F
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapSimCredential, EapSimCredential structure [EAPHost], _EapSimCredential, eaphost.eapsimcredential, eaptypes/EAPSimCredential
 ms.prod: windows-hardware
 ms.technology: windows-devices

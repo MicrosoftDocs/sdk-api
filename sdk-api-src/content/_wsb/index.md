@@ -2,11 +2,12 @@
 UID: TP:wsb
 ms.assetid: d329838b-7159-34cd-b2ce-9c345c166b33
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Windows Server Backup

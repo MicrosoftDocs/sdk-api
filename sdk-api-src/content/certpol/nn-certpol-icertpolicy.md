@@ -7,7 +7,7 @@ old-location: security\icertpolicy.htm
 old-project: SecCrypto
 ms.assetid: 14031490-be8e-47f9-8c66-ae27f7d3599c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: ICertPolicy, ICertPolicy interface [Security], ICertPolicy interface [Security],described, _certsrv_icertpolicy, certpol/ICertPolicy, security.icertpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: X509RequestType
+req.typenames: X509SCEPFailInfo
 topic_type:
 -	APIRef
 -	kbSyntax

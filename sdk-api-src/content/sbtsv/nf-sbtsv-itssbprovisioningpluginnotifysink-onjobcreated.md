@@ -7,7 +7,7 @@ old-location: termserv\itssbprovisioningpluginnotifysink_onjobcreated.htm
 old-project: TermServ
 ms.assetid: daab9172-d984-4b47-9f64-59216513aff7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnJobCreated method, ITsSbProvisioningPluginNotifySink.OnJobCreated, ITsSbProvisioningPluginNotifySink::OnJobCreated, OnJobCreated, OnJobCreated method [Remote Desktop Services], OnJobCreated method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCreated, termserv.itssbprovisioningpluginnotifysink_onjobcreated
 ms.prod: windows-hardware
 ms.technology: windows-devices

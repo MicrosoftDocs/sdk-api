@@ -7,7 +7,7 @@ old-location: gdi\dptolp.htm
 old-project: gdi
 ms.assetid: 0106867c-e8c5-4826-8cba-60c29e1d021a
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: DPtoLP, DPtoLP function [Windows GDI], _win32_DPtoLP, gdi.dptolp, wingdi/DPtoLP
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\coinitializesecurity.htm
 old-project: com
 ms.assetid: e0933741-6b75-4ce1-aa63-6240e4a7130f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CoInitializeSecurity, CoInitializeSecurity function [COM], _com_CoInitializeSecurity, com.coinitializesecurity, combaseapi/CoInitializeSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

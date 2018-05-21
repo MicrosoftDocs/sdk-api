@@ -7,7 +7,7 @@ old-location: mf\mfinputtrustauthority_access_action.htm
 old-project: medfound
 ms.assetid: 24e74739-054c-46ef-8df7-b29a9a2ea94a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 24e74739-054c-46ef-8df7-b29a9a2ea94a, MFINPUTTRUSTAUTHORITY_ACCESS_ACTION, MFINPUTTRUSTAUTHORITY_ACCESS_ACTION structure [Media Foundation], _MFINPUTTRUSTAUTHORITY_ACTION, mf.mfinputtrustauthority_access_action, mfidl/MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices

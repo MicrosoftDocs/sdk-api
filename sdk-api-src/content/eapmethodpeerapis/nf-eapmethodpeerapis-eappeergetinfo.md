@@ -7,7 +7,7 @@ old-location: eaphost\eappeergetinfo.htm
 old-project: EAPHost
 ms.assetid: 99b7e136-b502-435b-9c62-a0e106ec8ec5
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapPeerGetInfo, EapPeerGetInfo function [EAPHost], eaphost.eappeergetinfo, eapmethodpeerapis/EapPeerGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

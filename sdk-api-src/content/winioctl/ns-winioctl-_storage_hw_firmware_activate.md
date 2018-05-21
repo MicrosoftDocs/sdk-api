@@ -7,7 +7,7 @@ old-location: fs\storage_hw_firmware_activate.htm
 old-project: FileIO
 ms.assetid: 2DAAC1FE-2503-4820-9718-9A653B0A05CA
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE structure pointer [Files], STORAGE_HW_FIRMWARE_ACTIVATE, STORAGE_HW_FIRMWARE_ACTIVATE structure [Files], _STORAGE_HW_FIRMWARE_ACTIVATE, fs.storage_hw_firmware_activate, winioctl/PSTORAGE_HW_FIRMWARE_ACTIVATE, winioctl/STORAGE_HW_FIRMWARE_ACTIVATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

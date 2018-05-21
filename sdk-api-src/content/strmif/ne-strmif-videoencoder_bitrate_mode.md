@@ -7,7 +7,7 @@ old-location: dshow\videoencoder_bitrate_mode.htm
 old-project: DirectShow
 ms.assetid: ccceae9a-6d1d-4453-bd84-88cefc20320e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ConstantBitRate, VIDEOENCODER_BITRATE_MODE, VIDEOENCODER_BITRATE_MODE , VIDEOENCODER_BITRATE_MODE enumeration [DirectShow], VIDEOENCODER_BITRATE_MODEEnumeration, VariableBitRateAverage, VariableBitRatePeak, dshow.videoencoder_bitrate_mode, strmif/ConstantBitRate, strmif/VIDEOENCODER_BITRATE_MODE, strmif/VariableBitRateAverage, strmif/VariableBitRatePeak
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # VIDEOENCODER_BITRATE_MODE enumeration

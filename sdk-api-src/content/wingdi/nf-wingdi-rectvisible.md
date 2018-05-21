@@ -7,7 +7,7 @@ old-location: gdi\rectvisible.htm
 old-project: gdi
 ms.assetid: 990e9b22-0ce3-42b8-a87e-32fd2f2bc2fb
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: RectVisible, RectVisible function [Windows GDI], _win32_RectVisible, gdi.rectvisible, wingdi/RectVisible
 ms.prod: windows-hardware
 ms.technology: windows-devices

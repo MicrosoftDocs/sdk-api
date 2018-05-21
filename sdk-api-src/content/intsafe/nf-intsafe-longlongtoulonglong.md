@@ -2,21 +2,21 @@
 UID: NF:intsafe.LongLongToULongLong
 title: LongLongToULongLong function
 author: windows-driver-content
-description: Converts a value of type INT64 to a value of type ULONGLONG.
-old-location: shell\Int64ToULongLong.htm
+description: Converts a value of type LONGLONG to a value of type ULONGLONG.
+old-location: shell\LongLongToULongLong.htm
 old-project: shell
-ms.assetid: c1cc723c-6f03-4517-849c-eac31393dc53
+ms.assetid: 994f0b9f-77a6-41ef-9022-a26ef5660204
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: Int64ToULongLong, Int64ToULongLong function [Windows Shell], LongLongToULongLong, _shell_Int64ToULongLong, intsafe/Int64ToULongLong, shell.Int64ToULongLong
+ms.date: 5/16/2018
+ms.keywords: Int64ToULongLong, IntPtrToUIntPtr, IntPtrToULongPtr, LongLongToULongLong, LongLongToULongLong function [Windows Shell], intsafe/LongLongToULongLong, shell.LongLongToULongLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,9 +33,9 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	Intsafe.h
+-	intsafe.h
 api_name:
--	Int64ToULongLong
+-	LongLongToULongLong
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>INT64</b> to a value of type <b>ULONGLONG</b>.
+Converts a value of type <b>LONGLONG</b> to a value of type <b>ULONGLONG</b>.
 
 
 ## -parameters
@@ -58,30 +58,19 @@ Converts a value of type <b>INT64</b> to a value of type <b>ULONGLONG</b>.
 
 
 
-### -param llOperand
+### -param llOperand [in]
 
-TBD
+The value to convert.
 
 
 ### -param pullResult [out]
 
-Type: <b>ULONGLONG*</b>
-
-A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
-
-
-#### - i64Operand [in]
-
-Type: <b>INT64</b>
-
-The value to be converted.
+The converted value.
 
 
 ## -returns
 
 
-
-Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -92,7 +81,11 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+<b>IntPtrToULongPtr</b> is an alias for this function.
+
+<b>IntPtrToUIntPtr</b> is an alias for this function.
+
+<b>Int64ToULongLong</b> is an alias for this function.
 
 
 

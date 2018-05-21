@@ -7,7 +7,7 @@ old-location: com\icomthreadinginfo.htm
 old-project: com
 ms.assetid: fa4c7d82-ec5d-43d6-914e-bba60ad19aa2
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IComThreadingInfo, IComThreadingInfo interface [COM], IComThreadingInfo interface [COM],described, _com_icomthreadinginfo_interface, com.icomthreadinginfo, objidlbase/IComThreadingInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

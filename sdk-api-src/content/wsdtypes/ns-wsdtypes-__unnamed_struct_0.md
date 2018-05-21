@@ -7,7 +7,7 @@ old-location: ncd\responsebody_getmetadata_struct.htm
 old-project: WsdApi
 ms.assetid: 445513a8-5785-4822-bb2e-ec9b7665ac7a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: RESPONSEBODY_GetMetadata, RESPONSEBODY_GetMetadata structure, ncd.responsebody_getmetadata_struct, wsdtypes/RESPONSEBODY_GetMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

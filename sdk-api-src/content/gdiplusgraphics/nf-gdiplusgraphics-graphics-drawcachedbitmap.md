@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawCachedBitmap_cb_x_y_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\drawcachedbitmap.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: DrawCachedBitmap, DrawCachedBitmap method [GDI+], DrawCachedBitmap method [GDI+],Graphics class, Graphics class [GDI+],DrawCachedBitmap method, Graphics.DrawCachedBitmap, Graphics::DrawCachedBitmap, _gdiplus_CLASS_Graphics_DrawCachedBitmap_cb_x_y_, gdiplus._gdiplus_CLASS_Graphics_DrawCachedBitmap_cb_x_y_
 ms.prod: windows-hardware
 ms.technology: windows-devices

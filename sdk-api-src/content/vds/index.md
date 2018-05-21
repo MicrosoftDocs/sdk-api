@@ -2,7 +2,7 @@
 UID: NA:vds
 ms.assetid: e0f296a4-ccbc-378e-85b8-f04b91873ba3
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,6 +16,6 @@ tech.root: vdswmi
 ## -description
 
 
-This header is used by stormgmt. For more information, see:
+This header is used by base. For more information, see:
 
-- [Windows Storage Management API](../_stormgmt/index.md)
+- [Error Handling](../_base/index.md)

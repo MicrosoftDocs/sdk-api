@@ -7,7 +7,7 @@ old-location: security\ienumcertviewextension_reset.htm
 old-project: SecCrypto
 ms.assetid: 7af29b1f-5b43-4ab7-81fa-d03e065f014f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: IEnumCERTVIEWEXTENSION interface [Security],Reset method, IEnumCERTVIEWEXTENSION object [Security],Reset method, IEnumCERTVIEWEXTENSION.Reset, IEnumCERTVIEWEXTENSION::Reset, Reset, Reset method [Security], Reset method [Security],IEnumCERTVIEWEXTENSION interface, Reset method [Security],IEnumCERTVIEWEXTENSION object, _certsrv_ienumcertviewextension_reset, certview/IEnumCERTVIEWEXTENSION::Reset, security.ienumcertviewextension_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

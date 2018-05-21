@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get_outputsavailable.htm
 old-project: mstv
 ms.assetid: f45b752c-6b7f-4803-93fe-92ec44cd9509
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_OutputsAvailable method, IMSVidCtl.get_OutputsAvailable, IMSVidCtl::get_OutputsAvailable, IMSVidCtlget_OutputsAvailable, get_OutputsAvailable, get_OutputsAvailable method [Microsoft TV Technologies], get_OutputsAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_outputsavailable, msvidctl/IMSVidCtl::get_OutputsAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

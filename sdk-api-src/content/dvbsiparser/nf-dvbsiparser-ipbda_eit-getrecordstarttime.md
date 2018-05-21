@@ -7,7 +7,7 @@ old-location: mstv\ipbda_eit_getrecordstarttime.htm
 old-project: mstv
 ms.assetid: 7022ac7c-b0ea-4ca1-931f-b09906f67df7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordStartTime, GetRecordStartTime method [Microsoft TV Technologies], GetRecordStartTime method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordStartTime method, IPBDA_EIT.GetRecordStartTime, IPBDA_EIT::GetRecordStartTime, dvbsiparser/IPBDA_EIT::GetRecordStartTime, mstv.ipbda_eit_getrecordstarttime
 ms.prod: windows-hardware
 ms.technology: windows-devices

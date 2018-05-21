@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetAllCaps.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getallcaps.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetAllCaps, GetAllCaps method [Windows Controls], GetAllCaps method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetAllCaps method, ITextFont.GetAllCaps, ITextFont::GetAllCaps, _win32_ITextFont_GetAllCaps, _win32_ITextFont_GetAllCaps_cpp, controls.ITextFont_GetAllCaps, controls._win32_ITextFont_GetAllCaps, tom/ITextFont::GetAllCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

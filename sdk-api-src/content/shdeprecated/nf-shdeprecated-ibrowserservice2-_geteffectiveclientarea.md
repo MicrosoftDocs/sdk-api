@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__GetEffectiveClientArea.htm
 old-project: shell
 ms.assetid: c0c53cd4-4b85-42d5-98c3-22ef46644a3f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetEffectiveClientArea method, IBrowserService2._GetEffectiveClientArea, IBrowserService2::_GetEffectiveClientArea, _GetEffectiveClientArea, _GetEffectiveClientArea method [Windows Shell], _GetEffectiveClientArea method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetEffectiveClientArea, shell.IBrowserService2__GetEffectiveClientArea, zone_IBrowserService2__GetEffectiveClientArea
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\policyserverurlflags.htm
 old-project: SecCertEnroll
 ms.assetid: e73bccb8-ca4d-4007-bdf3-1194ede5fdd1
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: PolicyServerUrlFlags, PolicyServerUrlFlags enumeration [Security], PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, certenroll/PolicyServerUrlFlags, certenroll/PsfAllowUnTrustedCA, certenroll/PsfAutoEnrollmentEnabled, certenroll/PsfLocationGroupPolicy, certenroll/PsfLocationRegistry, certenroll/PsfNone, certenroll/PsfUseClientId, security.policyserverurlflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

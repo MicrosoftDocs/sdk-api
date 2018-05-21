@@ -7,7 +7,7 @@ old-location: multimedia\capfilesaveas.htm
 old-project: Multimedia
 ms.assetid: 164bb345-c092-4adb-8f0f-83e31d36390f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "_win32_capFileSaveAs, capFileSaveAs, capFileSaveAs macro [Windows Multimedia], multimedia.capfilesaveas, vfw/capFileSaveAs"
 ms.prod: windows-hardware
 ms.technology: windows-devices

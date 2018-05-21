@@ -7,7 +7,7 @@ old-location: security\makesignature.htm
 old-project: SecAuthN
 ms.assetid: d17824b0-6121-48a3-b19b-d4fae3e1348e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: 0, 1, 2, 3, 4, MakeSignature, MakeSignature function [Security], _ssp_makesignature, security.makesignature, sspi/MakeSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # MakeSignature function

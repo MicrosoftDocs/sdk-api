@@ -7,7 +7,7 @@ old-location: ncd\wsd_this_device_metadata_struct.htm
 old-project: WsdApi
 ms.assetid: 7b9d063f-f0d5-4333-a5d8-e9a6d2d9af88
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_THIS_DEVICE_METADATA, WSD_THIS_DEVICE_METADATA structure, _WSD_THIS_DEVICE_METADATA, ncd.wsd_this_device_metadata_struct, wsdtypes/WSD_THIS_DEVICE_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

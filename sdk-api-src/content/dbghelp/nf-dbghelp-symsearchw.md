@@ -7,7 +7,7 @@ old-location: base\symsearch.htm
 old-project: Debug
 ms.assetid: d6b3c06b-fcfd-436c-b267-99ec1380e744
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SYMSEARCH_ALLITEMS, SYMSEARCH_GLOBALSONLY, SYMSEARCH_MASKOBJS, SYMSEARCH_RECURSE, SymSearch, SymSearch function, SymSearchW, base.symsearch, dbghelp/SymSearch, dbghelp/SymSearchW
 ms.prod: windows-hardware
 ms.technology: windows-devices

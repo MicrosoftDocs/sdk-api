@@ -7,7 +7,7 @@ old-location: wsw\wsreadmessageend.htm
 old-project: wsw
 ms.assetid: 3112be44-f610-421f-a4ea-0f87fc383540
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsReadMessageEnd, WsReadMessageEnd function [Web Services for Windows], webservices/WsReadMessageEnd, wsw.wsreadmessageend
 ms.prod: windows-hardware
 ms.technology: windows-devices

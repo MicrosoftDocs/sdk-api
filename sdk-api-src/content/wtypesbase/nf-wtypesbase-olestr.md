@@ -7,7 +7,7 @@ old-location: com\olestr_macro.htm
 old-project: com
 ms.assetid: bf3341a0-5b1d-479b-998d-a61bb945e0c3
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OLESTR, OLESTR macro [COM], _com_OLESTR, com.olestr, com.olestr_macro, wtypesbase/OLESTR
 ms.prod: windows-hardware
 ms.technology: windows-devices

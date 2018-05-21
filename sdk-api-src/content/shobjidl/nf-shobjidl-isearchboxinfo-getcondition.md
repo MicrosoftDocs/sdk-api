@@ -7,7 +7,7 @@ old-location: shell\ISearchBoxInfo_GetCondition.htm
 old-project: shell
 ms.assetid: 9a1159df-78ef-493b-8286-eefb0ac004ef
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetCondition, GetCondition method [Windows Shell], GetCondition method [Windows Shell],ISearchBoxInfo interface, ISearchBoxInfo interface [Windows Shell],GetCondition method, ISearchBoxInfo.GetCondition, ISearchBoxInfo::GetCondition, _shell_ISearchBoxInfo_GetCondition, shell.ISearchBoxInfo_GetCondition, shobjidl/ISearchBoxInfo::GetCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices

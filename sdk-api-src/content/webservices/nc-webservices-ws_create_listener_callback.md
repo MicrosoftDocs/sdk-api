@@ -7,7 +7,7 @@ old-location: wsw\ws_create_listener_callback.htm
 old-project: wsw
 ms.assetid: 2d8e476d-dc68-44b4-b53b-be440a32efda
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_CREATE_LISTENER_CALLBACK, WS_CREATE_LISTENER_CALLBACK callback, WS_CREATE_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_LISTENER_CALLBACK, wsw.ws_create_listener_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

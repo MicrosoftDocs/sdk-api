@@ -7,7 +7,7 @@ old-location: imapi\ijolietdiscmaster.htm
 old-project: imapi
 ms.assetid: e2269b68-1860-4afd-90f2-d61297f3fa9b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IJolietDiscMaster, IJolietDiscMaster interface [IMAPI], IJolietDiscMaster interface [IMAPI],described, _win32_ijolietdiscmaster, base.ijolietdiscmaster, imapi.ijolietdiscmaster, imapi/IJolietDiscMaster
 ms.prod: windows-hardware
 ms.technology: windows-devices

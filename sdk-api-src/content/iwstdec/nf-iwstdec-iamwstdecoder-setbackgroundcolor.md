@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_setbackgroundcolor.htm
 old-project: DirectShow
 ms.assetid: d65726aa-a826-41d4-95f3-40c86d7b9347
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetBackgroundColor method, IAMWstDecoder.SetBackgroundColor, IAMWstDecoder::SetBackgroundColor, IAMWstDecoderSetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [DirectShow], SetBackgroundColor method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setbackgroundcolor, iwstdec/IAMWstDecoder::SetBackgroundColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

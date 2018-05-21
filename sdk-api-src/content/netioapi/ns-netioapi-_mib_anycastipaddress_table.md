@@ -7,7 +7,7 @@ old-location: mib\mib_anycastipaddress_table.htm
 old-project: MIB
 ms.assetid: 46b99759-eb9a-4f91-a6b6-40e6e9f55038
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PMIB_ANYCASTIPADDRESS_TABLE, MIB_ANYCASTIPADDRESS_TABLE, MIB_ANYCASTIPADDRESS_TABLE structure [MIB], PMIB_ANYCASTIPADDRESS_TABLE, PMIB_ANYCASTIPADDRESS_TABLE structure pointer [MIB], _MIB_ANYCASTIPADDRESS_TABLE, mib.mib_anycastipaddress_table, netioapi/MIB_ANYCASTIPADDRESS_TABLE, netioapi/PMIB_ANYCASTIPADDRESS_TABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

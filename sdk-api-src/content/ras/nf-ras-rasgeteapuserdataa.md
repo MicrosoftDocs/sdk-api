@@ -7,7 +7,7 @@ old-location: rras\rasgeteapuserdata.htm
 old-project: RRAS
 ms.assetid: 6b1a1c73-28af-43ff-b79c-c796ddae219c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RasGetEapUserData, RasGetEapUserData function [RAS], RasGetEapUserDataA, RasGetEapUserDataW, _ras_rasgeteapuserdata, ras/RasGetEapUserData, ras/RasGetEapUserDataA, ras/RasGetEapUserDataW, rras.rasgeteapuserdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

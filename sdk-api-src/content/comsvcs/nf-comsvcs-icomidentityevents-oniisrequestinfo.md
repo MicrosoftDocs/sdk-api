@@ -7,7 +7,7 @@ old-location: cos\icomidentityevents_oniisrequestinfo.htm
 old-project: cossdk
 ms.assetid: 88beaef9-d042-4836-8223-6063c87ba06a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IComIdentityEvents interface [COM+],OnIISRequestInfo method, IComIdentityEvents.OnIISRequestInfo, IComIdentityEvents::OnIISRequestInfo, OnIISRequestInfo, OnIISRequestInfo method [COM+], OnIISRequestInfo method [COM+],IComIdentityEvents interface, _dtc_IComIdentityEvents_OnIISRequestInfo, comsvcs/IComIdentityEvents::OnIISRequestInfo, cos.icomidentityevents_oniisrequestinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

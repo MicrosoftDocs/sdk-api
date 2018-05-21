@@ -7,7 +7,7 @@ old-location: mstv\iesevent.htm
 old-project: mstv
 ms.assetid: 3c375480-c6df-4bb0-b417-5765b0bed9bf
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IESEvent, IESEvent interface [Microsoft TV Technologies], IESEvent interface [Microsoft TV Technologies],described, mstv.iesevent, tuner/IESEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

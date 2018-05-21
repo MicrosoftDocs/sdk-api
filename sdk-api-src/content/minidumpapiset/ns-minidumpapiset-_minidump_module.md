@@ -7,7 +7,7 @@ old-location: base\minidump_module_str.htm
 old-project: Debug
 ms.assetid: 17e32c6e-29df-4308-b22d-39e13bc6a2a5
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: "*PMINIDUMP_MODULE, MINIDUMP_MODULE, MINIDUMP_MODULE structure, PMINIDUMP_MODULE, PMINIDUMP_MODULE structure pointer, _MINIDUMP_MODULE, _win32_minidump_module_str, base.minidump_module_str, minidumpapiset/MINIDUMP_MODULE, minidumpapiset/PMINIDUMP_MODULE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

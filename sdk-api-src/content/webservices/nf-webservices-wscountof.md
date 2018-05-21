@@ -7,7 +7,7 @@ old-location: wsw\wscountof.htm
 old-project: wsw
 ms.assetid: 3087fa5e-46fc-4580-999c-f80a2b8555f6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsCountOf, WsCountOf macro [Web Services for Windows], webservices/WsCountOf, wsw.wscountof
 ms.prod: windows-hardware
 ms.technology: windows-devices

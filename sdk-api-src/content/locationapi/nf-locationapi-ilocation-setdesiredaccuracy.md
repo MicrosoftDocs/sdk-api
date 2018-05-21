@@ -7,7 +7,7 @@ old-location: winlocation\ilocation_setdesiredaccuracy.htm
 old-project: LocationAPI
 ms.assetid: 85623570-3b48-42ea-babd-fe4282629d92
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: ILocation interface [WinLocation],SetDesiredAccuracy method, ILocation.SetDesiredAccuracy, ILocation::SetDesiredAccuracy, SetDesiredAccuracy, SetDesiredAccuracy method [WinLocation], SetDesiredAccuracy method [WinLocation],ILocation interface, locationapi/ILocation::SetDesiredAccuracy, winlocation.ilocation_setdesiredaccuracy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\sspicopyauthidentity.htm
 old-project: SecAuthN
 ms.assetid: e53807bf-b5a1-4479-a73b-dd85c5da173e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SspiCopyAuthIdentity, SspiCopyAuthIdentity function [Security], security.sspicopyauthidentity, sspi/SspiCopyAuthIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SspiCopyAuthIdentity function

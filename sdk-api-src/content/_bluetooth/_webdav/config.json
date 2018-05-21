@@ -1,0 +1,7 @@
+{
+  "tech": "webdav",
+  "headers": [
+    "davclnt.h"
+  ],
+  "displayName": "WebDAV"
+}

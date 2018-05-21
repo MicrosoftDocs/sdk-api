@@ -7,7 +7,7 @@ old-location: base\mapdebuginformation.htm
 old-project: Debug
 ms.assetid: 749a2a99-f6c4-4af3-aa0b-8a7bb5c690da
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: MapDebugInformation, MapDebugInformation function, _win32_mapdebuginformation, base.mapdebuginformation, dbghelp/MapDebugInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

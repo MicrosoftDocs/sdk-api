@@ -7,7 +7,7 @@ old-location: security\cryptverifydetachedmessagesignature.htm
 old-project: SecCrypto
 ms.assetid: d437f6bf-eb56-4d29-bb91-eb8487e50219
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CryptVerifyDetachedMessageSignature, CryptVerifyDetachedMessageSignature function [Security], _crypto2_cryptverifydetachedmessagesignature, security.cryptverifydetachedmessagesignature, wincrypt/CryptVerifyDetachedMessageSignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

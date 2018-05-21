@@ -7,7 +7,7 @@ old-location: fs\readfile.htm
 old-project: FileIO
 ms.assetid: 4ad4580d-c002-44a4-a5f6-757e83ed8732
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: ReadFile, ReadFile function [Files], _win32_readfile, base.readfile, fileapi/ReadFile, fs.readfile, winbase/ReadFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

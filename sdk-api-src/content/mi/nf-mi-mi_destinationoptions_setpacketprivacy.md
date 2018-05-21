@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_setpacketprivacy.htm
 old-project: wmi_v2
 ms.assetid: bb047646-fa95-4691-946c-5faf5b7edc8b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_DestinationOptions_SetPacketPrivacy, MI_DestinationOptions_SetPacketPrivacy function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetPacketPrivacy, wmi_v2.mi_destinationoptions_setpacketprivacy
 ms.prod: windows-hardware
 ms.technology: windows-devices

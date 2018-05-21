@@ -7,7 +7,7 @@ old-location: ncd\wsdupdretransmitparams.htm
 old-project: WsdApi
 ms.assetid: 41bf73d8-0b20-4c38-b8b4-85c39eff0d91
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: PWSDUdpRetransmitParams, PWSDUdpRetransmitParams structure pointer, WSDUdpRetransmitParams, WSDUdpRetransmitParams structure, _WSDUdpRetransmitParams, ncd.wsdupdretransmitparams, wsdbase/PWSDUdpRetransmitParams, wsdbase/WSDUdpRetransmitParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

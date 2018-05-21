@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCou
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getmeasurablecharacterrangecount.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetMeasurableCharacterRangeCount, GetMeasurableCharacterRangeCount method [GDI+], GetMeasurableCharacterRangeCount method [GDI+],StringFormat class, StringFormat class [GDI+],GetMeasurableCharacterRangeCount method, StringFormat.GetMeasurableCharacterRangeCount, StringFormat::GetMeasurableCharacterRangeCount, _gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_, gdiplus._gdiplus_CLASS_StringFormat_GetMeasurableCharacterRangeCount_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\iwsdsignatureproperty_ismessagesignaturetrusted.htm
 old-project: WsdApi
 ms.assetid: b71ddd44-4823-455c-aea7-ee2f63b423bb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDSignatureProperty interface,IsMessageSignatureTrusted method, IWSDSignatureProperty.IsMessageSignatureTrusted, IWSDSignatureProperty::IsMessageSignatureTrusted, IsMessageSignatureTrusted, IsMessageSignatureTrusted method, IsMessageSignatureTrusted method,IWSDSignatureProperty interface, ncd.iwsdsignatureproperty_ismessagesignaturetrusted, wsdbase/IWSDSignatureProperty::IsMessageSignatureTrusted
 ms.prod: windows-hardware
 ms.technology: windows-devices

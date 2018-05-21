@@ -7,7 +7,7 @@ old-location: gdi\getstretchbltmode.htm
 old-project: gdi
 ms.assetid: a4408e28-d7ac-44e9-905d-efa75c60e503
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetStretchBltMode, GetStretchBltMode function [Windows GDI], _win32_GetStretchBltMode, gdi.getstretchbltmode, wingdi/GetStretchBltMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

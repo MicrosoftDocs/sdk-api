@@ -7,7 +7,7 @@ old-location: security\pstvalidate.htm
 old-project: SecAuthN
 ms.assetid: 4e1c4ebd-977e-4967-8ff6-694be0016276
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: PstValidate, PstValidate function [Security], certpoleng/PstValidate, security.pstvalidate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: X509RequestType
+req.typenames: X509SCEPFailInfo
 topic_type:
 -	APIRef
 -	kbSyntax

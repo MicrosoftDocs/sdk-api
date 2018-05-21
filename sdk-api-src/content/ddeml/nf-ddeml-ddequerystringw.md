@@ -7,7 +7,7 @@ old-location: dataxchg\ddequerystring.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddequerystring.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: DdeQueryString, DdeQueryString function [Data Exchange], DdeQueryStringA, DdeQueryStringW, _win32_DdeQueryString, _win32_ddequerystring_cpp, dataxchg.ddequerystring, ddeml/DdeQueryString, ddeml/DdeQueryStringA, ddeml/DdeQueryStringW, winui._win32_ddequerystring
 ms.prod: windows-hardware
 ms.technology: windows-devices

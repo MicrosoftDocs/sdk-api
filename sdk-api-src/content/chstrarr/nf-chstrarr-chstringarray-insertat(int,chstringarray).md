@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CF_SYNC_STATUS
+req.typenames: CONFLICT_DETAILS_W, *PCONFLICT_DETAILS_W
 topic_type:
 -	APIRef
 -	kbSyntax

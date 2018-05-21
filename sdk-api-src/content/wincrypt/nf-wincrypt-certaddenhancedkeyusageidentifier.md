@@ -7,7 +7,7 @@ old-location: security\certaddenhancedkeyusageidentifier.htm
 old-project: SecCrypto
 ms.assetid: 1bec8d2f-aa43-4a8b-9414-c3a4e5fcb470
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CertAddEnhancedKeyUsageIdentifier, CertAddEnhancedKeyUsageIdentifier function [Security], _crypto2_certaddenhancedkeyusageidentifier, security.certaddenhancedkeyusageidentifier, wincrypt/CertAddEnhancedKeyUsageIdentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

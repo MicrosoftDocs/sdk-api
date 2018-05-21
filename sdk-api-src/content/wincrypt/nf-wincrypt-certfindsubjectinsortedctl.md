@@ -7,7 +7,7 @@ old-location: security\certfindsubjectinsortedctl.htm
 old-project: SecCrypto
 ms.assetid: 027e89e6-3de0-440d-be70-2281778f9a1e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CertFindSubjectInSortedCTL, CertFindSubjectInSortedCTL function [Security], _crypto2_certfindsubjectinsortedctl, security.certfindsubjectinsortedctl, wincrypt/CertFindSubjectInSortedCTL
 ms.prod: windows-hardware
 ms.technology: windows-devices

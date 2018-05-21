@@ -7,7 +7,7 @@ old-location: intl\ispellingerror_startindex.htm
 old-project: Intl
 ms.assetid: bf4e8981-9f7c-4f4f-bb22-866649af2727
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ISpellingError interface [Internationalization for Windows Applications],StartIndex property, ISpellingError.StartIndex, ISpellingError.get_StartIndex, ISpellingError::StartIndex, ISpellingError::get_StartIndex, StartIndex property [Internationalization for Windows Applications], StartIndex property [Internationalization for Windows Applications],ISpellingError interface, get_StartIndex, intl.ispellingerror_startindex, spellcheck/ISpellingError::StartIndex, spellcheck/ISpellingError::get_StartIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # ISpellingError::get_StartIndex

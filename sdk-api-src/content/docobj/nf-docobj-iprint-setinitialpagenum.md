@@ -7,7 +7,7 @@ old-location: com\iprint_setinitialpagenum.htm
 old-project: com
 ms.assetid: 352a4dc0-c79e-46e3-8212-55fd7d2916bc
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IPrint interface [COM],SetInitialPageNum method, IPrint.SetInitialPageNum, IPrint::SetInitialPageNum, SetInitialPageNum, SetInitialPageNum method [COM], SetInitialPageNum method [COM],IPrint interface, _ctrl_iprint_setinitialpagenum, com.iprint_setinitialpagenum, docobj/IPrint::SetInitialPageNum
 ms.prod: windows-hardware
 ms.technology: windows-devices

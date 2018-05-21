@@ -7,7 +7,7 @@ old-location: winprog\_cacherichcreatefile.htm
 old-project: DevNotes
 ms.assetid: 89b0adcd-0084-4538-b162-661ddae53dc8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CacheRichCreateFile, CacheRichCreateFile function [Windows API], filehc/CacheRichCreateFile, winprog._cacherichcreatefile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CREATEFILE2_EXTENDED_PARAMETERS, *PCREATEFILE2_EXTENDED_PARAMETERS, *LPCREATEFILE2_EXTENDED_PARAMETERS
+req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 topic_type:
 -	APIRef
 -	kbSyntax

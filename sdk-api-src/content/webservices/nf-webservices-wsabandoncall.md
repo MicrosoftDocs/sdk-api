@@ -7,7 +7,7 @@ old-location: wsw\wsabandoncall.htm
 old-project: wsw
 ms.assetid: 709af94d-44ad-46af-8771-99d0aba5d77d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsAbandonCall, WsAbandonCall function [Web Services for Windows], webservices/WsAbandonCall, wsw.wsabandoncall
 ms.prod: windows-hardware
 ms.technology: windows-devices

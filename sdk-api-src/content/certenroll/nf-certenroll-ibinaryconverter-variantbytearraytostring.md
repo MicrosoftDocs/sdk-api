@@ -7,7 +7,7 @@ old-location: security\ibinaryconverter_variantbytearraytostring_method.htm
 old-project: SecCertEnroll
 ms.assetid: c10c93c1-10b1-4724-9df5-3c17c593c2b9
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IBinaryConverter interface [Security],VariantByteArrayToString method, IBinaryConverter.VariantByteArrayToString, IBinaryConverter::VariantByteArrayToString, VariantByteArrayToString, VariantByteArrayToString method [Security], VariantByteArrayToString method [Security],IBinaryConverter interface, certenroll/IBinaryConverter::VariantByteArrayToString, security.ibinaryconverter_variantbytearraytostring_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

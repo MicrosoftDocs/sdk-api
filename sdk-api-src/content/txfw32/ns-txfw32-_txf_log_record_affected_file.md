@@ -7,7 +7,7 @@ old-location: fs\txf_log_record_affected_file.htm
 old-project: FileIO
 ms.assetid: 9fe7375a-58ef-4807-942f-e21858f09217
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PTXF_LOG_RECORD_AFFECTED_FILE, PTXF_LOG_RECORD_AFFECTED_FILE, PTXF_LOG_RECORD_AFFECTED_FILE structure pointer [Files], TXF_LOG_RECORD_AFFECTED_FILE, TXF_LOG_RECORD_AFFECTED_FILE structure [Files], _TXF_LOG_RECORD_AFFECTED_FILE, fs.txf_log_record_affected_file, txfw32/PTXF_LOG_RECORD_AFFECTED_FILE, txfw32/TXF_LOG_RECORD_AFFECTED_FILE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

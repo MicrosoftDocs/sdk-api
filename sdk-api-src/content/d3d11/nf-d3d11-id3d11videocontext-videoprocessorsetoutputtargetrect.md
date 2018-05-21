@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorsetoutputtargetrect.htm
 old-project: medfound
 ms.assetid: D49EED28-E26E-48B5-A050-8EB568A3D31A
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputTargetRect method, ID3D11VideoContext.VideoProcessorSetOutputTargetRect, ID3D11VideoContext::VideoProcessorSetOutputTargetRect, VideoProcessorSetOutputTargetRect, VideoProcessorSetOutputTargetRect method [Media Foundation], VideoProcessorSetOutputTargetRect method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputTargetRect, mf.id3d11videocontext_videoprocessorsetoutputtargetrect
 ms.prod: windows-hardware
 ms.technology: windows-devices

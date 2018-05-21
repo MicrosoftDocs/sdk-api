@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentstatus_appendtext_method.htm
 old-project: SecCertEnroll
 ms.assetid: aa7c3325-c897-49e3-b38c-ff1efead5f26
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: AppendText, AppendText method [Security], AppendText method [Security],IX509EnrollmentStatus interface, IX509EnrollmentStatus interface [Security],AppendText method, IX509EnrollmentStatus.AppendText, IX509EnrollmentStatus::AppendText, certenroll/IX509EnrollmentStatus::AppendText, security.ix509enrollmentstatus_appendtext_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

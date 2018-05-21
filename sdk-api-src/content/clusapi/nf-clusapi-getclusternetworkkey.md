@@ -7,7 +7,7 @@ old-location: mscs\getclusternetworkkey.htm
 old-project: MsCS
 ms.assetid: c5d914b4-0419-4c03-bed4-ecb87e44db5e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: GetClusterNetworkKey, GetClusterNetworkKey function [Failover Cluster], _wolf_getclusternetworkkey, clusapi/GetClusterNetworkKey, mscs.getclusternetworkkey
 ms.prod: windows-hardware
 ms.technology: windows-devices

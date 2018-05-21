@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_FromStream_stream_useEmbeddedColorMan
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\fromstream_58stream_useembeddedcolormanagement.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: FromStream, FromStream method [GDI+], FromStream method [GDI+],Image class, Image class [GDI+],FromStream method, Image.FromStream, Image::FromStream, _gdiplus_CLASS_Image_FromStream_stream_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Image_FromStream_stream_useEmbeddedColorManagement_
 ms.prod: windows-hardware
 ms.technology: windows-devices

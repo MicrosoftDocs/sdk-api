@@ -7,7 +7,7 @@ old-location: eaphost\eappeerprocessrequestpacket.htm
 old-project: EAPHost
 ms.assetid: 7054b6e5-68df-4d76-9941-99ee00178926
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapPeerProcessRequestPacket, EapPeerProcessRequestPacket function [EAPHost], eaphost.eappeerprocessrequestpacket, eapmethodpeerapis/EapPeerProcessRequestPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices

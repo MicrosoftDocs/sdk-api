@@ -7,7 +7,7 @@ old-location: com\irpcchannelbuffer_getdestctx.htm
 old-project: com
 ms.assetid: 34599869-0c85-403a-88c2-ea8e865d533a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: GetDestCtx, GetDestCtx method [COM], GetDestCtx method [COM],IRpcChannelBuffer interface, IRpcChannelBuffer interface [COM],GetDestCtx method, IRpcChannelBuffer.GetDestCtx, IRpcChannelBuffer::GetDestCtx, _com_irpcchannelbuffer_getdestctx, com.irpcchannelbuffer_getdestctx, objidlbase/IRpcChannelBuffer::GetDestCtx
 ms.prod: windows-hardware
 ms.technology: windows-devices

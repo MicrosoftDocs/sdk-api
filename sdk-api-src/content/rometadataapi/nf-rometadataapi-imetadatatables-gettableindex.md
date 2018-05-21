@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables_gettableindex.htm
 old-project: WinRT
 ms.assetid: 4bc00076-f706-4941-84bd-f1b9c61934e5
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: GetTableIndex, GetTableIndex method [Windows Runtime], GetTableIndex method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetTableIndex method, IMetaDataTables.GetTableIndex, IMetaDataTables::GetTableIndex, rometadataapi/IMetaDataTables::GetTableIndex, winrt.imetadatatables_gettableindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\itocentrylist.htm
 old-project: medfound
 ms.assetid: 98052f26-7956-4973-ab86-428e7a355937
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: ITocEntryList, ITocEntryList interface [Media Foundation], ITocEntryList interface [Media Foundation],described, codecapi.itocentrylist, mf.itocentrylist, wmcodecdsp/ITocEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices

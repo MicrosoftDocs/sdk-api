@@ -7,7 +7,7 @@ old-location: iphlp\getipinterfacetable.htm
 old-project: IpHlp
 ms.assetid: 09f2bbff-3281-41ae-878f-61c5afa20ec5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpInterfaceTable, GetIpInterfaceTable function [IP Helper], iphlp.getipinterfacetable, netioapi/GetIpInterfaceTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

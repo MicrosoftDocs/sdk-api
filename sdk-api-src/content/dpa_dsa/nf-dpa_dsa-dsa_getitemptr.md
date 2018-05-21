@@ -7,7 +7,7 @@ old-location: controls\DSA_GetItemPtr.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_getitemptr.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: DSA_GetItemPtr, DSA_GetItemPtr function [Windows Controls], _win32_DSA_GetItemPtr, _win32_DSA_GetItemPtr_cpp, controls.DSA_GetItemPtr, controls._win32_DSA_GetItemPtr, dpa_dsa/DSA_GetItemPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

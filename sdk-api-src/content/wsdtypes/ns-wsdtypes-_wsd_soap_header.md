@@ -7,7 +7,7 @@ old-location: ncd\wsd_soap_header_struct.htm
 old-project: WsdApi
 ms.assetid: 6a0f0fd3-486e-45b3-bac6-e241bce8e2dc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_SOAP_HEADER, WSD_SOAP_HEADER structure, _WSD_SOAP_HEADER, ncd.wsd_soap_header_struct, wsdtypes/WSD_SOAP_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices

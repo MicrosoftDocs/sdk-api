@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory5_checkfeaturesupport.htm
 old-project: direct3ddxgi
 ms.assetid: 959F83F8-ADC6-4609-8F63-BEDDFC2EF088
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: CheckFeatureSupport, CheckFeatureSupport method [DXGI], CheckFeatureSupport method [DXGI],IDXGIFactory5 interface, IDXGIFactory5 interface [DXGI],CheckFeatureSupport method, IDXGIFactory5.CheckFeatureSupport, IDXGIFactory5::CheckFeatureSupport, direct3ddxgi.idxgifactory5_checkfeaturesupport, dxgi1_5/IDXGIFactory5::CheckFeatureSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices

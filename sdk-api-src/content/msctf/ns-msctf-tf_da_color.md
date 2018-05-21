@@ -68,7 +68,7 @@ Specifies the color type as defined in the <a href="https://msdn.microsoft.com/f
 
 ### -field nIndex
 
-Specifies the color as a system color index as defined in <a href="base.getsyscolor">GetSysColor</a>. This member is used only if <b>type</b> is equal to TF_CT_SYSCOLOR.
+Specifies the color as a system color index as defined in <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>. This member is used only if <b>type</b> is equal to TF_CT_SYSCOLOR.
 
 
 ### -field cr
@@ -81,7 +81,7 @@ Specifies the color as an RGB value. This member is used only if <b>type</b> is 
 
 
 
-<a href="base.getsyscolor">GetSysColor</a>
+<a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>
 
 
 

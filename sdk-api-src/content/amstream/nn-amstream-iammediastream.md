@@ -7,7 +7,7 @@ old-location: dshow\iammediastream.htm
 old-project: DirectShow
 ms.assetid: 14185e7d-d08d-4fd8-a255-075eaf12a708
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMMediaStream, IAMMediaStream interface [DirectShow], IAMMediaStream interface [DirectShow],described, IAMMediaStreamInterface, amstream/IAMMediaStream, dshow.iammediastream
 ms.prod: windows-hardware
 ms.technology: windows-devices

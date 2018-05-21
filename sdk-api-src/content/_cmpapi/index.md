@@ -2,7 +2,7 @@
 UID: TP:cmpapi
 ms.assetid: 865b4105-cb5f-37f2-b782-91e1abe4269c
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

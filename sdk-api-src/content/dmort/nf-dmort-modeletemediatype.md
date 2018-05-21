@@ -7,7 +7,7 @@ old-location: dshow\modeletemediatype.htm
 old-project: DirectShow
 ms.assetid: adbfe1e1-e956-48de-9ed1-9f8f4c66ff1c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MoDeleteMediaType, MoDeleteMediaType function [DirectShow], dmort/MoDeleteMediaType, dshow.modeletemediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices

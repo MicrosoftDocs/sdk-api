@@ -7,7 +7,7 @@ old-location: shell\AssocGetPerceivedType.htm
 old-project: shell
 ms.assetid: d37f1574-b261-43bf-9712-05a569ab4246
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AssocGetPerceivedType, AssocGetPerceivedType function [Windows Shell], PERCEIVEDFLAG_GDIPLUS, PERCEIVEDFLAG_HARDCODED, PERCEIVEDFLAG_NATIVESUPPORT, PERCEIVEDFLAG_SOFTCODED, PERCEIVEDFLAG_UNDEFINED, PERCEIVEDFLAG_WMSDK, PERCEIVEDFLAG_ZIPFOLDER, _shell_AssocGetPerceivedType, shell.AssocGetPerceivedType, shlwapi/AssocGetPerceivedType
 ms.prod: windows-hardware
 ms.technology: windows-devices

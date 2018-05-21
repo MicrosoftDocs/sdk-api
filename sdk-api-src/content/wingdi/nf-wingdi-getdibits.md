@@ -7,7 +7,7 @@ old-location: gdi\getdibits.htm
 old-project: gdi
 ms.assetid: be3ffa3f-b343-4e38-8b1e-aeccf35d92b8
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, GetDIBits, GetDIBits function [Windows GDI], _win32_GetDIBits, gdi.getdibits, wingdi/GetDIBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

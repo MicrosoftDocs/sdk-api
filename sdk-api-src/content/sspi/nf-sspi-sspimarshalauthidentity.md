@@ -7,7 +7,7 @@ old-location: security\sspimarshalauthidentity.htm
 old-project: SecAuthN
 ms.assetid: e43135ad-7fcd-4da6-a4e4-c91c41eeb865
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SspiMarshalAuthIdentity, SspiMarshalAuthIdentity function [Security], security.sspimarshalauthidentity, sspi/SspiMarshalAuthIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SspiMarshalAuthIdentity function

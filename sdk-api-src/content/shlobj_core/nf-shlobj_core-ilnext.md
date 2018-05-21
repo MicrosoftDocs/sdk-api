@@ -7,7 +7,7 @@ old-location: shell\ILNext_PCUIDLIST_RELATIVE.htm
 old-project: shell
 ms.assetid: 9f9650b3-1f0c-413c-bc32-29dd81556ce0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ILNext, ILNext function [Windows Shell], ILNext(PCUIDLIST_RELATIVE), _shell_ILNext_PCUIDLIST_RELATIVE, shell.ILNext_PCUIDLIST_RELATIVE, shlobj_core/ILNext
 ms.prod: windows-hardware
 ms.technology: windows-devices

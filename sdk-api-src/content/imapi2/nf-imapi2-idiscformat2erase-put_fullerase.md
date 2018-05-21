@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2erase_put_fullerase.htm
 old-project: imapi
 ms.assetid: 9a76ebbe-69c5-46a4-b620-220957220e53
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IDiscFormat2Erase interface [IMAPI],put_FullErase method, IDiscFormat2Erase.put_FullErase, IDiscFormat2Erase::put_FullErase, imapi.idiscformat2erase_put_fullerase, imapi2/IDiscFormat2Erase::put_FullErase, put_FullErase, put_FullErase method [IMAPI], put_FullErase method [IMAPI],IDiscFormat2Erase interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

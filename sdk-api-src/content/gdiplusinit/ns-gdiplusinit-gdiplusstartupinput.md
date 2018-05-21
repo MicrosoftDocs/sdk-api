@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_GdiplusStartupInput.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\gdiplusstartupinput.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GdiplusStartupInput, GdiplusStartupInput structure [GDI+], _gdiplus_STRUC_GdiplusStartupInput, gdiplus._gdiplus_STRUC_GdiplusStartupInput, gdiplusinit/GdiplusStartupInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

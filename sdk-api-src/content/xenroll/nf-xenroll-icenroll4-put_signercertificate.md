@@ -7,7 +7,7 @@ old-location: security\icenroll4_signercertificate.htm
 old-project: SecCrypto
 ms.assetid: 3e5b8964-f737-407e-b265-fe095bd6f8ad
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CEnroll object [Security],SignerCertificate property, ICEnroll4 interface [Security],SignerCertificate property, ICEnroll4.SignerCertificate, ICEnroll4.put_SignerCertificate, ICEnroll4::SignerCertificate, ICEnroll4::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],CEnroll object, SignerCertificate property [Security],ICEnroll4 interface, put_SignerCertificate, security.icenroll4_signercertificate, xenroll/ICEnroll4::SignerCertificate, xenroll/ICEnroll4::put_SignerCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

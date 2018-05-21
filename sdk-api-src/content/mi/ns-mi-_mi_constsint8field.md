@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constsint8field.htm
 old-project: wmi_v2
 ms.assetid: 5cb8f565-430a-416f-879f-87a3dcb5a6b4
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_ConstSint8Field, MI_ConstSint8Field structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstSint8Field, mi/MI_ConstSint8Field, wmi._mi_constsint8field, wmi_v2.mi_constsint8field
 ms.prod: windows-hardware
 ms.technology: windows-devices

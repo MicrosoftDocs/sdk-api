@@ -7,7 +7,7 @@ old-location: tapi2\linegetagentinfo.htm
 old-project: Tapi
 ms.assetid: 166b0595-2df0-431f-924c-6899b47408ac
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: "_tapi2_linegetagentinfo, lineGetAgentInfo, lineGetAgentInfo function [TAPI 2.2], tapi/lineGetAgentInfo, tapi2.linegetagentinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

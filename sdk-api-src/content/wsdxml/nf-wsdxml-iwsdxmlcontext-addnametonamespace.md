@@ -7,7 +7,7 @@ old-location: ncd\iwsdxmlcontext_addnametonamespace_method.htm
 old-project: WsdApi
 ms.assetid: d480f868-46ab-4d9c-ae52-4e5ca5cb9fd9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: AddNameToNamespace, AddNameToNamespace method, AddNameToNamespace method,IWSDXMLContext interface, IWSDXMLContext interface,AddNameToNamespace method, IWSDXMLContext.AddNameToNamespace, IWSDXMLContext::AddNameToNamespace, ncd.iwsdxmlcontext_addnametonamespace_method, wsdxml/IWSDXMLContext::AddNameToNamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices

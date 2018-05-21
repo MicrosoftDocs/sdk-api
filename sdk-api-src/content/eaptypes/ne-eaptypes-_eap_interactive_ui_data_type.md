@@ -7,7 +7,7 @@ old-location: eaphost\eap_interactive_ui_data_type.htm
 old-project: EAPHost
 ms.assetid: 0b3cd58c-9396-4c79-842b-76bf03aa7d7a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EAP_INTERACTIVE_UI_DATA_TYPE, EAP_INTERACTIVE_UI_DATA_TYPE enumeration [EAPHost], EapCredExpiryReq, EapCredExpiryResp, EapCredLogonReq, EapCredLogonResp, EapCredReq, EapCredResp, _EAP_INTERACTIVE_UI_DATA_TYPE, eaphost.eap_interactive_ui_data_type, eaptypes/EAP_INTERACTIVE_UI_DATA_TYPE, eaptypes/EapCredExpiryReq, eaptypes/EapCredExpiryResp, eaptypes/EapCredLogonReq, eaptypes/EapCredLogonResp, eaptypes/EapCredReq, eaptypes/EapCredResp
 ms.prod: windows-hardware
 ms.technology: windows-devices

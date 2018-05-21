@@ -7,7 +7,7 @@ old-location: base\symsetextendedoption.htm
 old-project: Debug
 ms.assetid: 25756250-D2B4-4D5A-BED0-238C34C18093
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SymSetExtendedOption, SymSetExtendedOption function, base.symsetextendedoption, dbghelp/SymSetExtendedOption
 ms.prod: windows-hardware
 ms.technology: windows-devices

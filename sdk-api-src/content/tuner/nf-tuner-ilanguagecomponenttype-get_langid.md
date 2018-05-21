@@ -7,7 +7,7 @@ old-location: mstv\ilanguagecomponenttype_get_langid.htm
 old-project: mstv
 ms.assetid: f70dcc70-701a-4465-ad40-1ddc5e697f46
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: ILanguageComponentType interface [Microsoft TV Technologies],get_LangID method, ILanguageComponentType.get_LangID, ILanguageComponentType::get_LangID, ILanguageComponentTypeget_LangID, get_LangID, get_LangID method [Microsoft TV Technologies], get_LangID method [Microsoft TV Technologies],ILanguageComponentType interface, mstv.ilanguagecomponenttype_get_langid, tuner/ILanguageComponentType::get_LangID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\getgraphicsmode.htm
 old-project: gdi
 ms.assetid: 62e2960b-d414-4e84-a94f-60b192071402
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetGraphicsMode, GetGraphicsMode function [Windows GDI], _win32_GetGraphicsMode, gdi.getgraphicsmode, wingdi/GetGraphicsMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoverypublisher_matchprobeex_method.htm
 old-project: WsdApi
 ms.assetid: d2441bdc-848b-48c4-bc4e-5b8f854cc4a5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDiscoveryPublisher interface,MatchProbeEx method, IWSDiscoveryPublisher.MatchProbeEx, IWSDiscoveryPublisher::MatchProbeEx, MatchProbeEx, MatchProbeEx method, MatchProbeEx method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_matchprobeex_method, wsddisco/IWSDiscoveryPublisher::MatchProbeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

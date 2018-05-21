@@ -7,7 +7,7 @@ old-location: security\freelsaheap.htm
 old-project: SecAuthN
 ms.assetid: bd461a23-2501-48c5-8f2f-c6c98383157f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: FreeLsaHeap, FreeLsaHeap function [Security], LSA_FREE_LSA_HEAP, _lsa_freelsaheap, ntsecpkg/FreeLsaHeap, security.freelsaheap
 ms.prod: windows-hardware
 ms.technology: windows-devices

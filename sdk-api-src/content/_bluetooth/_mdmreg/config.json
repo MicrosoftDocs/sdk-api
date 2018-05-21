@@ -1,0 +1,7 @@
+{
+  "tech": "mdmreg",
+  "headers": [
+    "mdmregistration.h"
+  ],
+  "displayName": "Mobile Device Management Registration"
+}

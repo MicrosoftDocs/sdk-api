@@ -7,7 +7,7 @@ old-location: base\minidumpwritedump.htm
 old-project: Debug
 ms.assetid: b476023d-0e93-4d76-9ba8-ce5766c9ac51
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: MiniDumpWriteDump, MiniDumpWriteDump function, _win32_minidumpwritedump, base.minidumpwritedump, minidumpapiset/MiniDumpWriteDump
 ms.prod: windows-hardware
 ms.technology: windows-devices

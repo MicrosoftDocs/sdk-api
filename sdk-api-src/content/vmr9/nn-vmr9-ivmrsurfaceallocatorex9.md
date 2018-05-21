@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocatorex9.htm
 old-project: DirectShow
 ms.assetid: 4c43867f-6c4b-4ed7-af83-0133c997efcb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IVMRSurfaceAllocatorEx9, IVMRSurfaceAllocatorEx9 interface [DirectShow], IVMRSurfaceAllocatorEx9 interface [DirectShow],described, IVMRSurfaceAllocatorEx9Interface, dshow.ivmrsurfaceallocatorex9, vmr9/IVMRSurfaceAllocatorEx9
 ms.prod: windows-hardware
 ms.technology: windows-devices

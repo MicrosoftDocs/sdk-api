@@ -7,7 +7,7 @@ old-location: of\iofflinefilescache_setdiskspacelimits.htm
 old-project: OfflineFiles
 ms.assetid: cdbfd5af-000a-4724-8a44-5641b2f75896
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],SetDiskSpaceLimits method, IOfflineFilesCache.SetDiskSpaceLimits, IOfflineFilesCache::SetDiskSpaceLimits, SetDiskSpaceLimits, SetDiskSpaceLimits method [Offline Files], SetDiskSpaceLimits method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::SetDiskSpaceLimits, of.iofflinefilescache_setdiskspacelimits
 ms.prod: windows-hardware
 ms.technology: windows-devices

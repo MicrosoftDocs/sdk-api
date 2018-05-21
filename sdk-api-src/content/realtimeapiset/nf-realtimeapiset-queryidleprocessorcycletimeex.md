@@ -7,7 +7,7 @@ old-location: base\queryidleprocessorcycletimeex.htm
 old-project: ProcThread
 ms.assetid: 4bf05e40-96d1-4c01-b3a8-8a45934b38c6
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: QueryIdleProcessorCycleTimeEx, QueryIdleProcessorCycleTimeEx function, base.queryidleprocessorcycletimeex, realtimeapiset/QueryIdleProcessorCycleTimeEx, winbase/QueryIdleProcessorCycleTimeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

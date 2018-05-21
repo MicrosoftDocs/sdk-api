@@ -7,7 +7,7 @@ old-location: gdi\windowfromdc.htm
 old-project: gdi
 ms.assetid: 57ecec82-03be-4d1a-84cf-6b64131af19d
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: WindowFromDC, WindowFromDC function [Windows GDI], _win32_WindowFromDC, gdi.windowfromdc, winuser/WindowFromDC
 ms.prod: windows-hardware
 ms.technology: windows-devices

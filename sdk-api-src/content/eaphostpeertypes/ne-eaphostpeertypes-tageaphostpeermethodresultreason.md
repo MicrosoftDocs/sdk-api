@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeermethodresultreason.htm
 old-project: EAPHost
 ms.assetid: f43d2883-d23f-455b-bde0-244a88630d25
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapHostPeerMethodResultAltSuccessReceived, EapHostPeerMethodResultFromMethod, EapHostPeerMethodResultReason, EapHostPeerMethodResultReason enumeration [EAPHost], EapHostPeerMethodResultTimeout, eaphost.eaphostpeermethodresultreason, eaphostpeertypes/EapHostPeerMethodResultAltSuccessReceived, eaphostpeertypes/EapHostPeerMethodResultFromMethod, eaphostpeertypes/EapHostPeerMethodResultReason, eaphostpeertypes/EapHostPeerMethodResultTimeout, tagEapHostPeerMethodResultReason
 ms.prod: windows-hardware
 ms.technology: windows-devices

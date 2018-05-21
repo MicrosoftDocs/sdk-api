@@ -7,7 +7,7 @@ old-location: security\certsrvbackupread.htm
 old-project: SecCrypto
 ms.assetid: cfc72002-40ee-4854-a026-b956acd5d758
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CertSrvBackupRead, CertSrvBackupRead function [Security], _certsrv_certsrvbackupread, certbcli/CertSrvBackupRead, security.certsrvbackupread
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\scardforgetreader.htm
 old-project: SecAuthN
 ms.assetid: 2022caff-ba01-4d0d-977c-3f51bde95659
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SCardForgetReader, SCardForgetReader function [Security], SCardForgetReaderA, SCardForgetReaderW, _smart_scardforgetreader, security.scardforgetreader, winscard/SCardForgetReader, winscard/SCardForgetReaderA, winscard/SCardForgetReaderW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetMonthDelta.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmonthdelta.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MonthCal_GetMonthDelta, MonthCal_GetMonthDelta macro [Windows Controls], _win32_MonthCal_GetMonthDelta, _win32_MonthCal_GetMonthDelta_cpp, commctrl/MonthCal_GetMonthDelta, controls.MonthCal_GetMonthDelta, controls._win32_MonthCal_GetMonthDelta
 ms.prod: windows-hardware
 ms.technology: windows-devices

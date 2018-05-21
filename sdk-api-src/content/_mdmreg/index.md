@@ -2,7 +2,7 @@
 UID: TP:mdmreg
 ms.assetid: 4d87bfdb-f90b-391a-8117-d64350326fa4
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

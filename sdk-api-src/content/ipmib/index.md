@@ -2,11 +2,12 @@
 UID: NA:ipmib
 ms.assetid: 3247e3ce-6e49-3f90-a529-f2f72b8e8391
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: mib
 ---
 

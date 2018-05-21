@@ -7,7 +7,7 @@ old-location: mstv\istreambufferrecordingattribute_enumattributes.htm
 old-project: mstv
 ms.assetid: 2944d1c4-a4ed-47a7-a0c4-a75cddb9cc99
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: EnumAttributes, EnumAttributes method [Microsoft TV Technologies], EnumAttributes method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],EnumAttributes method, IStreamBufferRecordingAttribute.EnumAttributes, IStreamBufferRecordingAttribute::EnumAttributes, IStreamBufferRecordingAttributeEnumAttributes, mstv.istreambufferrecordingattribute_enumattributes, sbe/IStreamBufferRecordingAttribute::EnumAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

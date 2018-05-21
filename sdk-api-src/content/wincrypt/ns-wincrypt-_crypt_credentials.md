@@ -7,7 +7,7 @@ old-location: security\crypt_credentials.htm
 old-project: SecCrypto
 ms.assetid: d28b2f52-3258-44ad-a3ab-0743d3afcd62
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PCRYPT_CREDENTIALS, CREDENTIAL_OID_PASSWORD_CREDENTIALS, CRYPT_CREDENTIALS, CRYPT_CREDENTIALS structure [Security], PCRYPT_CREDENTIALS, PCRYPT_CREDENTIALS structure pointer [Security], _CRYPT_CREDENTIALS, security.crypt_credentials, wincrypt/CRYPT_CREDENTIALS, wincrypt/PCRYPT_CREDENTIALS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

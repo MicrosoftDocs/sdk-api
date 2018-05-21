@@ -7,7 +7,7 @@ old-location: security\ibinaryconverter.htm
 old-project: SecCertEnroll
 ms.assetid: 495a321a-3005-4537-b082-5003e437d21f
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IBinaryConverter, IBinaryConverter interface [Security], IBinaryConverter interface [Security],described, certenroll/IBinaryConverter, security.ibinaryconverter
 ms.prod: windows-hardware
 ms.technology: windows-devices

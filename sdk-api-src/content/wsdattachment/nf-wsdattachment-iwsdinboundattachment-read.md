@@ -7,7 +7,7 @@ old-location: ncd\iwsdinboundattachment_read_method.htm
 old-project: WsdApi
 ms.assetid: 66b8ce84-23b3-43f2-826d-c866b8bedab1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDInboundAttachment interface,Read method, IWSDInboundAttachment.Read, IWSDInboundAttachment::Read, Read, Read method, Read method,IWSDInboundAttachment interface, ncd.iwsdinboundattachment_read_method, wsdattachment/IWSDInboundAttachment::Read
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi2\linetranslatecaps_str.htm
 old-project: Tapi
 ms.assetid: 9b4dcbe6-41e9-4b9c-9150-d0c7edef5a19
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: "*LPLINETRANSLATECAPS, LINETRANSLATECAPS, LINETRANSLATECAPS structure [TAPI 2.2], LPLINETRANSLATECAPS, LPLINETRANSLATECAPS structure pointer [TAPI 2.2], _tapi2_linetranslatecaps_str, linetranslatecaps_tag, tapi/LINETRANSLATECAPS, tapi/LPLINETRANSLATECAPS, tapi2.linetranslatecaps_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

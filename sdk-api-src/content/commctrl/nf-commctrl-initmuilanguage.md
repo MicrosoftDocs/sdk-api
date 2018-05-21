@@ -7,7 +7,7 @@ old-location: controls\InitMUILanguage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\initmuilanguage.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: InitMUILanguage, InitMUILanguage function [Windows Controls], _win32_InitMUILanguage, _win32_InitMUILanguage_cpp, commctrl/InitMUILanguage, controls.InitMUILanguage, controls._win32_InitMUILanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

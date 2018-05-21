@@ -7,7 +7,7 @@ old-location: winrt\isoftwarebitmapnativefactory.htm
 old-project: WinRT
 ms.assetid: 613BFE81-AC55-4786-B6BD-0FFB7506D7F1
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: ISoftwareBitmapNativeFactory, ISoftwareBitmapNativeFactory interface [Windows Runtime], ISoftwareBitmapNativeFactory interface [Windows Runtime],described, windows/ISoftwareBitmapNativeFactory, winrt.isoftwarebitmapnativefactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertyCount_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertycount.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetPropertyCount, GetPropertyCount method [GDI+], GetPropertyCount method [GDI+],Image class, Image class [GDI+],GetPropertyCount method, Image.GetPropertyCount, Image::GetPropertyCount, _gdiplus_CLASS_Image_GetPropertyCount_, gdiplus._gdiplus_CLASS_Image_GetPropertyCount_
 ms.prod: windows-hardware
 ms.technology: windows-devices

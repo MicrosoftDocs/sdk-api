@@ -7,7 +7,7 @@ old-location: shell\IShellWindows_ProcessAttachDetach.htm
 old-project: shell
 ms.assetid: 79bc04f0-7b03-40aa-8324-7b4eccc8c527
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IShellWindows interface [Windows Shell],ProcessAttachDetach method, IShellWindows.ProcessAttachDetach, IShellWindows::ProcessAttachDetach, ProcessAttachDetach, ProcessAttachDetach method [Windows Shell], ProcessAttachDetach method [Windows Shell],IShellWindows interface, _win32_IShellWindows_ProcessAttachDetach, exdisp/IShellWindows::ProcessAttachDetach, shell.IShellWindows_ProcessAttachDetach
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\destroyalternate.htm
 old-project: tablet
 ms.assetid: d355d377-2021-4e74-b3bb-2058271c9be9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: DestroyAlternate, DestroyAlternate function [Tablet PC], d355d377-2021-4e74-b3bb-2058271c9be9, recapis/DestroyAlternate, tablet.destroyalternate
 ms.prod: windows-hardware
 ms.technology: windows-devices

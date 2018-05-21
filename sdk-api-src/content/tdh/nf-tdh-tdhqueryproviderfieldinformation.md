@@ -7,7 +7,7 @@ old-location: etw\tdhqueryproviderfieldinformation_func.htm
 old-project: ETW
 ms.assetid: ca3c1519-0b86-4bdb-b027-9c662df5466e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: TdhQueryProviderFieldInformation, TdhQueryProviderFieldInformation function [ETW], etw.tdhqueryproviderfieldinformation_func, tdh.tdhqueryproviderfieldinformation_func, tdh/TdhQueryProviderFieldInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

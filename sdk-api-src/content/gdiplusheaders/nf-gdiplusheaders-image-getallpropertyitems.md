@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetAllPropertyItems_totalBufferSize_n
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getallpropertyitems.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetAllPropertyItems, GetAllPropertyItems method [GDI+], GetAllPropertyItems method [GDI+],Image class, Image class [GDI+],GetAllPropertyItems method, Image.GetAllPropertyItems, Image::GetAllPropertyItems, _gdiplus_CLASS_Image_GetAllPropertyItems_totalBufferSize_numProperties_allItems_, gdiplus._gdiplus_CLASS_Image_GetAllPropertyItems_totalBufferSize_numProperties_allItems_
 ms.prod: windows-hardware
 ms.technology: windows-devices

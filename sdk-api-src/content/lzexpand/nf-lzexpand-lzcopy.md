@@ -7,7 +7,7 @@ old-location: fs\lzcopy.htm
 old-project: FileIO
 ms.assetid: 9b6e1ab7-68a2-4721-9e84-11c4126f37a7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: LZCopy, LZCopy function [Files], _win32_lzcopy, base.lzcopy, fs.lzcopy, lzexpand/LZCopy
 ms.prod: windows-hardware
 ms.technology: windows-devices

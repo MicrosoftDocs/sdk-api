@@ -7,7 +7,7 @@ old-location: shell\UInt8ToChar.htm
 old-project: shell
 ms.assetid: f622eab3-4815-465a-823e-c52f1cb1c126
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: UInt8ToChar, UInt8ToChar function [Windows Shell], intsafe/UInt8ToChar, shell.UInt8ToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

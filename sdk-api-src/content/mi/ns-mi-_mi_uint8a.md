@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_uint8a.htm
 old-project: wmi_v2
 ms.assetid: 8d9951eb-7656-4c66-aecb-3e47734a776a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_Uint8A, MI_Uint8A structure [Windows Management Infrastructure (MI)], _MI_Uint8A, mi/MI_Uint8A, wmi._mi_uint8a, wmi_v2.mi_uint8a
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\saslgetprofilepackage.htm
 old-project: SecAuthN
 ms.assetid: b7cecc5f-775f-40ba-abfc-27d51b3f5395
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SaslGetProfilePackage, SaslGetProfilePackage function [Security], SaslGetProfilePackageA, SaslGetProfilePackageW, security.saslgetprofilepackage, sspi/SaslGetProfilePackage, sspi/SaslGetProfilePackageA, sspi/SaslGetProfilePackageW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SaslGetProfilePackageW function

@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothauthenticatemultipledevices.htm
 old-project: Bluetooth
 ms.assetid: 81dd4925-7f0a-468f-b706-244ce99e91df
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothAuthenticateMultipleDevices, BluetoothAuthenticateMultipleDevices function [Bluetooth], bluetooth.bluetoothauthenticatemultipledevices, bluetoothapis/BluetoothAuthenticateMultipleDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices

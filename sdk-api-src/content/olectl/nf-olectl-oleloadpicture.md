@@ -7,7 +7,7 @@ old-location: com\oleloadpicture.htm
 old-project: com
 ms.assetid: de1847cd-ecc0-4941-9dbc-a60b8ef0b1c1
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleLoadPicture, OleLoadPicture function [COM], _ole_OleLoadPicture, com.oleloadpicture, olectl/OleLoadPicture
 ms.prod: windows-hardware
 ms.technology: windows-devices

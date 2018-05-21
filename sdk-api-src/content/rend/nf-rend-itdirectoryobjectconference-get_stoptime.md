@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobjectconference_get_stoptime.htm
 old-project: Tapi
 ms.assetid: df22b117-8382-4ea2-8e6b-961f87f41b21
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_StopTime method, ITDirectoryObjectConference.get_StopTime, ITDirectoryObjectConference::get_StopTime, _tapi3_itdirectoryobjectconference_get_stoptime, get_StopTime, get_StopTime method [TAPI 2.2], get_StopTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_StopTime, tapi3.itdirectoryobjectconference_get_stoptime
 ms.prod: windows-hardware
 ms.technology: windows-devices

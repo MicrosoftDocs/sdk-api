@@ -7,7 +7,7 @@ old-location: winprog\fciflushcabinet.htm
 old-project: DevNotes
 ms.assetid: dc586260-180e-4a6b-accf-2ddd62ac1335
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FCIFlushCabinet, FCIFlushCabinet function [Windows API], fci/FCIFlushCabinet, winprog.fciflushcabinet
 ms.prod: windows-hardware
 ms.technology: windows-devices

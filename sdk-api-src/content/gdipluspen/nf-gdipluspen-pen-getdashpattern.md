@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashPattern_dashArray_count_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashpattern.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetDashPattern, GetDashPattern method [GDI+], GetDashPattern method [GDI+],Pen class, Pen class [GDI+],GetDashPattern method, Pen.GetDashPattern, Pen::GetDashPattern, _gdiplus_CLASS_Pen_GetDashPattern_dashArray_count_, gdiplus._gdiplus_CLASS_Pen_GetDashPattern_dashArray_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

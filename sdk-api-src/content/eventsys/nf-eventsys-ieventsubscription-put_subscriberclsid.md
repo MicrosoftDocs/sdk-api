@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_subscriberclsid.htm
 old-project: cossdk
 ms.assetid: 004f662c-8fcb-4490-897b-48bf5ea306c7
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IEventSubscription interface [COM+],SubscriberCLSID property, IEventSubscription.SubscriberCLSID, IEventSubscription.put_SubscriberCLSID, IEventSubscription::SubscriberCLSID, IEventSubscription::get_SubscriberCLSID, IEventSubscription::put_SubscriberCLSID, SubscriberCLSID property [COM+], SubscriberCLSID property [COM+],IEventSubscription interface, cos.ieventsubscription_subscriberclsid, eventsys/IEventSubscription::SubscriberCLSID, eventsys/IEventSubscription::get_SubscriberCLSID, eventsys/IEventSubscription::put_SubscriberCLSID, put_SubscriberCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

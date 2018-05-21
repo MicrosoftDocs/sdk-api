@@ -7,7 +7,7 @@ old-location: dshow\iresourceconsumer.htm
 old-project: DirectShow
 ms.assetid: dda2b207-dcd8-42df-95a3-d4bfbb4a7fd8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IResourceConsumer, IResourceConsumer interface [DirectShow], IResourceConsumer interface [DirectShow],described, IResourceConsumerInterface, dshow.iresourceconsumer, strmif/IResourceConsumer
 ms.prod: windows-hardware
 ms.technology: windows-devices

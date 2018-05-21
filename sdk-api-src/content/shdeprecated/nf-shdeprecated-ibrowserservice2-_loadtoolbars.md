@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2__LoadToolbars.htm
 old-project: shell
 ms.assetid: b3dd5b22-8834-4601-b91b-d5c4ded01549
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_LoadToolbars method, IBrowserService2._LoadToolbars, IBrowserService2::_LoadToolbars, _LoadToolbars, _LoadToolbars method [Windows Shell], _LoadToolbars method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_LoadToolbars, shell.IBrowserService2__LoadToolbars, zone_IBrowserService2__LoadToolbars
 ms.prod: windows-hardware
 ms.technology: windows-devices

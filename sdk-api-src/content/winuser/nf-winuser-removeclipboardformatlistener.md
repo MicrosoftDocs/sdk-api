@@ -7,7 +7,7 @@ old-location: dataxchg\removeclipboardformatlistener.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\removeclipboardformatlistener.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: RemoveClipboardFormatListener, RemoveClipboardFormatListener function [Data Exchange], _win32_RemoveClipboardFormatListener, _win32_removeclipboardformatlistener_cpp, dataxchg.removeclipboardformatlistener, winui._win32_removeclipboardformatlistener, winuser/RemoveClipboardFormatListener
 ms.prod: windows-hardware
 ms.technology: windows-devices

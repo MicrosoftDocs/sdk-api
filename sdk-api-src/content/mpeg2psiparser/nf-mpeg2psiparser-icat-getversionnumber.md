@@ -7,7 +7,7 @@ old-location: mstv\icat_getversionnumber.htm
 old-project: mstv
 ms.assetid: d117e4dd-5e7f-4f60-b657-25eae0f655cc
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetVersionNumber method, ICAT.GetVersionNumber, ICAT::GetVersionNumber, ICATGetVersionNumber, mpeg2psiparser/ICAT::GetVersionNumber, mstv.icat_getversionnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\idvb_sdt_getversionhash.htm
 old-project: mstv
 ms.assetid: 56a52beb-d529-4119-a71f-c1f5d671e55b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetVersionHash method, IDVB_SDT.GetVersionHash, IDVB_SDT::GetVersionHash, IDVB_SDTGetVersionHash, dvbsiparser/IDVB_SDT::GetVersionHash, mstv.idvb_sdt_getversionhash
 ms.prod: windows-hardware
 ms.technology: windows-devices

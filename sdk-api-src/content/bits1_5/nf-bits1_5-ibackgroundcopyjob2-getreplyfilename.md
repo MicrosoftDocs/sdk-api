@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob2_getreplyfilename.htm
 old-project: Bits
 ms.assetid: 57f9245c-c1ae-4027-8e84-4926fa4861c3
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: GetReplyFileName, GetReplyFileName method [BITS], GetReplyFileName method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyFileName method, IBackgroundCopyJob2.GetReplyFileName, IBackgroundCopyJob2::GetReplyFileName, _drz_ibackgroundcopyjob2_getreplyfilename, bits.ibackgroundcopyjob2_getreplyfilename, bits1_5/IBackgroundCopyJob2::GetReplyFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: setup\msiadvertiseproductex.htm
 old-project: Msi
 ms.assetid: 27e8deb6-912f-4103-97a6-ec505340dccc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ADVERTISEFLAGS_MACHINEASSIGN, ADVERTISEFLAGS_USERASSIGN, MSIADVERTISEOPTIONS_INSTANCE, MSIARCHITECTUREFLAGS_AMD64, MSIARCHITECTUREFLAGS_IA64, MSIARCHITECTUREFLAGS_X86, MsiAdvertiseProductEx, MsiAdvertiseProductEx function, MsiAdvertiseProductExA, MsiAdvertiseProductExW, _msi_msiadvertiseproductex, msi/MsiAdvertiseProductEx, msi/MsiAdvertiseProductExA, msi/MsiAdvertiseProductExW, none, setup.msiadvertiseproductex
 ms.prod: windows-hardware
 ms.technology: windows-devices

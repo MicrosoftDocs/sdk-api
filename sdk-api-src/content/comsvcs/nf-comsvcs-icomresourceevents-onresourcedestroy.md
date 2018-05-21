@@ -7,7 +7,7 @@ old-location: cos\icomresourceevents_onresourcedestroy.htm
 old-project: cossdk
 ms.assetid: cc934b47-8031-4dab-ae00-6389f54749b8
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceDestroy method, IComResourceEvents.OnResourceDestroy, IComResourceEvents::OnResourceDestroy, OnResourceDestroy, OnResourceDestroy method [COM+], OnResourceDestroy method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceDestroy, comsvcs/IComResourceEvents::OnResourceDestroy, cos.icomresourceevents_onresourcedestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

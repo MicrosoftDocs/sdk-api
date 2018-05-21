@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawBezier_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawbeziermethods.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: DrawBezier, DrawBezier methods [GDI+], Graphics.DrawBezier, Graphics.DrawBezier(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT), Graphics::DrawBezier, Graphics::DrawBezier(IN const Pen,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Graphics_DrawBezier_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawBezier_Methods, gdiplusgraphics/DrawBezier
 ms.prod: windows-hardware
 ms.technology: windows-devices

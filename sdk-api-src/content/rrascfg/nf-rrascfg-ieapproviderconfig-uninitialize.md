@@ -7,7 +7,7 @@ old-location: eap\ieapproviderconfig_uninitialize.htm
 old-project: EAP
 ms.assetid: f96ffa3f-cd3c-4979-87b3-1a2afb7a3621
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/16/2018
 ms.keywords: IEAPProviderConfig interface [EAP],Uninitialize method, IEAPProviderConfig.Uninitialize, IEAPProviderConfig::Uninitialize, Uninitialize, Uninitialize method [EAP], Uninitialize method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_uninitialize, eap.ieapproviderconfig_uninitialize, rrascfg/IEAPProviderConfig::Uninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

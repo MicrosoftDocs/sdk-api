@@ -7,7 +7,7 @@ old-location: menurc\copyicon.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\copyicon.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: CopyIcon, CopyIcon function [Menus and Other Resources], _win32_CopyIcon, _win32_copyicon_cpp, menurc.copyicon, winui._win32_copyicon, winuser/CopyIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpdsinit.htm
 old-project: DHCP
 ms.assetid: c622d492-91a8-4fd3-87ed-3545e7b83a0a
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpDsInit, DhcpDsInit function [DHCP], dhcp.dhcpdsinit, dhcpsapi/DhcpDsInit
 ms.prod: windows-hardware
 ms.technology: windows-devices

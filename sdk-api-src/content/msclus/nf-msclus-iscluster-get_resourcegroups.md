@@ -7,7 +7,7 @@ old-location: mscs\cluster_resourcegroups.htm
 old-project: MsCS
 ms.assetid: 449e4432-571c-403c-81c7-da50f455224c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: Cluster object [Failover Cluster],ResourceGroups property, Cluster.ResourceGroups, ISCluster.get_ResourceGroups, ISCluster::get_ResourceGroups, ResourceGroups property [Failover Cluster], ResourceGroups property [Failover Cluster],Cluster object, _wolf_cluster.resourcegroups, get_ResourceGroups, mscs.cluster_resourcegroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

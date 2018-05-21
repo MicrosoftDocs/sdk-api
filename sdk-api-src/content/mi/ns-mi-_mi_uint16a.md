@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_uint16a.htm
 old-project: wmi_v2
 ms.assetid: 0168ca28-4d3e-4757-8729-b9f8206ffc85
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_Uint16A, MI_Uint16A structure [Windows Management Infrastructure (MI)], _MI_Uint16A, mi/MI_Uint16A, wmi._mi_uint16a, wmi_v2.mi_uint16a
 ms.prod: windows-hardware
 ms.technology: windows-devices

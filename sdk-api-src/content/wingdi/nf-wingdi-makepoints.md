@@ -7,7 +7,7 @@ old-location: gdi\makepoints.htm
 old-project: gdi
 ms.assetid: 1f84cfd0-2836-4c20-9408-17e0d57742be
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: MAKEPOINTS, MAKEPOINTS macro [Windows GDI], _win32_MAKEPOINTS, gdi.makepoints, wingdi/MAKEPOINTS
 ms.prod: windows-hardware
 ms.technology: windows-devices

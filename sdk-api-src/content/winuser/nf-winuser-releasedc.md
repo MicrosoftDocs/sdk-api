@@ -7,7 +7,7 @@ old-location: gdi\releasedc.htm
 old-project: gdi
 ms.assetid: c4f48f1e-4a37-4330-908e-2ac5c65e1a1d
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: ReleaseDC, ReleaseDC function [Windows GDI], _win32_ReleaseDC, gdi.releasedc, winuser/ReleaseDC
 ms.prod: windows-hardware
 ms.technology: windows-devices

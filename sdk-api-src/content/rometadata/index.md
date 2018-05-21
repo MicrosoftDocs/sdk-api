@@ -2,7 +2,7 @@
 UID: NA:rometadata
 ms.assetid: c5190fb6-efe5-3aff-b878-deadbdfbc1c6
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: perf\pdhremovecounter.htm
 old-project: PerfCtrs
 ms.assetid: adf9c7bd-47d6-489a-88fc-954fdf127ce8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PdhRemoveCounter, PdhRemoveCounter function [Perf], _win32_pdhremovecounter, base.pdhremovecounter, pdh/PdhRemoveCounter, perf.pdhremovecounter
 ms.prod: windows-hardware
 ms.technology: windows-devices

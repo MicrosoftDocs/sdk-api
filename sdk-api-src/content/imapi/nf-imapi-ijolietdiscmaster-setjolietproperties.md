@@ -7,7 +7,7 @@ old-location: imapi\ijolietdiscmaster_setjolietproperties.htm
 old-project: imapi
 ms.assetid: 467f8fb8-2a82-46d2-b304-3c3a600a9c63
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IJolietDiscMaster interface [IMAPI],SetJolietProperties method, IJolietDiscMaster.SetJolietProperties, IJolietDiscMaster::SetJolietProperties, SetJolietProperties, SetJolietProperties method [IMAPI], SetJolietProperties method [IMAPI],IJolietDiscMaster interface, _win32_ijolietdiscmaster_setjolietproperties, base.ijolietdiscmaster_setjolietproperties, imapi.ijolietdiscmaster_setjolietproperties, imapi/IJolietDiscMaster::SetJolietProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

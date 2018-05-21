@@ -7,7 +7,7 @@ old-location: shell\StrCmpNI.htm
 old-project: shell
 ms.assetid: c6657bd5-21b6-457c-9ed0-45e44b2571ba
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: StrCmpNI, StrCmpNI function [Windows Shell], StrCmpNIA, StrCmpNIW, _win32_StrCmpNI, shell.StrCmpNI, shlwapi/StrCmpNI, shlwapi/StrCmpNIA, shlwapi/StrCmpNIW
 ms.prod: windows-hardware
 ms.technology: windows-devices

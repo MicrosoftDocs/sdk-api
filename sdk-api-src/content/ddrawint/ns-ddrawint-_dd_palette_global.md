@@ -7,7 +7,7 @@ old-location: display\dd_palette_global.htm
 old-project: display
 ms.assetid: 3ec5b950-c0b4-4a50-bdac-fb53c757f1f1
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDD_PALETTE_GLOBAL, DD_PALETTE_GLOBAL, DD_PALETTE_GLOBAL structure [Display Devices], _DD_PALETTE_GLOBAL, ddrawint/DD_PALETTE_GLOBAL, ddstrcts_26530035-45cd-43d3-84ee-b8b171c7c2de.xml, display.dd_palette_global"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\cappaletteopen.htm
 old-project: Multimedia
 ms.assetid: 1d50795e-c414-4bf5-a255-76532a34d944
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "_win32_capPaletteOpen, capPaletteOpen, capPaletteOpen macro [Windows Multimedia], multimedia.cappaletteopen, vfw/capPaletteOpen"
 ms.prod: windows-hardware
 ms.technology: windows-devices

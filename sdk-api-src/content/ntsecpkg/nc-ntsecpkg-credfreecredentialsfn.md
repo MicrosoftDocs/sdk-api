@@ -7,7 +7,7 @@ old-location: security\credifreecredentials.htm
 old-project: SecAuthN
 ms.assetid: 9da22201-884d-4822-a769-c2ce0d36ec73
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CredFreeCredentialsFn, CrediFreeCredentials, CrediFreeCredentials function [Security], ntsecpkg/CrediFreeCredentials, security.credifreecredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

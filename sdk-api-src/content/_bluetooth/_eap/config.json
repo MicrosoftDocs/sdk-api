@@ -1,0 +1,8 @@
+{
+  "tech": "eap",
+  "headers": [
+    "raseapif.h",
+    "rrascfg.h"
+  ],
+  "displayName": "eap"
+}

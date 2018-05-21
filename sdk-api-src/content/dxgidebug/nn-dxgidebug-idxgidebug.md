@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidebug.htm
 old-project: direct3ddxgi
 ms.assetid: 7DCA4750-A397-4B5A-908F-A046427D30FB
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: IDXGIDebug, IDXGIDebug interface [DXGI], IDXGIDebug interface [DXGI],described, direct3ddxgi.idxgidebug, dxgidebug/IDXGIDebug
 ms.prod: windows-hardware
 ms.technology: windows-devices

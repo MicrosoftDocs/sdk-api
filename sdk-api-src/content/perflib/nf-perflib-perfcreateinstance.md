@@ -7,7 +7,7 @@ old-location: perf\perfcreateinstance.htm
 old-project: PerfCtrs
 ms.assetid: 73be8588-2c87-4c27-933d-62b8605ed9a3
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PerfCreateInstance, PerfCreateInstance function [Perf], base.perfcreateinstance, perf.perfcreateinstance, perflib/PerfCreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

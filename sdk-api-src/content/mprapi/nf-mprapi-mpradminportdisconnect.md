@@ -7,7 +7,7 @@ old-location: rras\mpradminportdisconnect.htm
 old-project: RRAS
 ms.assetid: 97ba7bdf-fac2-44a5-94a8-0b3075a19013
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MprAdminPortDisconnect, MprAdminPortDisconnect function [RAS], _mpr_mpradminportdisconnect, mprapi/MprAdminPortDisconnect, rras.mpradminportdisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

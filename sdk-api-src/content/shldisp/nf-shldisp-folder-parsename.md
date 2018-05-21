@@ -7,7 +7,7 @@ old-location: shell\Folder_ParseName.htm
 old-project: shell
 ms.assetid: 3af7052c-fb81-4a96-9bf9-379b0365a376
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: Folder object [Windows Shell],ParseName method, Folder.ParseName, Folder::ParseName, ParseName, ParseName method [Windows Shell], ParseName method [Windows Shell],Folder object, _win32_Folder_ParseName, shell.Folder_ParseName
 ms.prod: windows-hardware
 ms.technology: windows-devices

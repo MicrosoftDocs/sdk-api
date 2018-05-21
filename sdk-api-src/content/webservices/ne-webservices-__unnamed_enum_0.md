@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_buffer_property_id.htm
 old-project: wsw
 ms.assetid: 580a72d3-6800-48b3-9345-4e3b20bb4066
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_XML_BUFFER_PROPERTY_ID, WS_XML_BUFFER_PROPERTY_ID enumeration [Web Services for Windows], webservices/WS_XML_BUFFER_PROPERTY_ID, wsw.ws_xml_buffer_property_id
 ms.prod: windows-hardware
 ms.technology: windows-devices

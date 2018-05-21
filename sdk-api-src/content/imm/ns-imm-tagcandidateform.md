@@ -7,7 +7,7 @@ old-location: intl\candidateform.htm
 old-project: Intl
 ms.assetid: 86edcfe0-07f7-4bd7-9444-3a884aeb7926
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPCANDIDATEFORM, *NPCANDIDATEFORM, *PCANDIDATEFORM, CANDIDATEFORM, CANDIDATEFORM structure [Internationalization for Windows Applications], PCANDIDATEFORM, PCANDIDATEFORM structure pointer [Internationalization for Windows Applications], _win32_CANDIDATEFORM_str, imm/CANDIDATEFORM, imm/PCANDIDATEFORM, intl.candidateform, tagCANDIDATEFORM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

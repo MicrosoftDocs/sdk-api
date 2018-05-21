@@ -7,7 +7,7 @@ old-location: wsw\wscreatexmlbuffer.htm
 old-project: wsw
 ms.assetid: 4e122283-f285-4fff-b240-22e4a7476639
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsCreateXmlBuffer, WsCreateXmlBuffer function [Web Services for Windows], webservices/WsCreateXmlBuffer, wsw.wscreatexmlbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

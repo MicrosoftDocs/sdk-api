@@ -7,7 +7,7 @@ old-location: dfs\netdfssetftcontainersecurity.htm
 old-project: Dfs
 ms.assetid: 84300e38-b263-4c38-bc31-5221621b89f1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: NetDfsSetFtContainerSecurity, NetDfsSetFtContainerSecurity function [Distributed File System], dfs.netdfssetftcontainersecurity, fs.netdfssetftcontainersecurity, lmdfs/NetDfsSetFtContainerSecurity, netmgmt.netdfssetftcontainersecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

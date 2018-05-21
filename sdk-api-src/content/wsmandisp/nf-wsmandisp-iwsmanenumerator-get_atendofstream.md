@@ -7,7 +7,7 @@ old-location: winrm\iwsmanenumerator_atendofstream.htm
 old-project: WinRM
 ms.assetid: d80028b0-04ff-4c6d-90f5-1c81141a956c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: AtEndOfStream property [Windows Remote Management], AtEndOfStream property [Windows Remote Management],IWSManEnumerator interface, IWSManEnumerator interface [Windows Remote Management],AtEndOfStream property, IWSManEnumerator.AtEndOfStream, IWSManEnumerator.get_AtEndOfStream, IWSManEnumerator::AtEndOfStream, IWSManEnumerator::get_AtEndOfStream, get_AtEndOfStream, winrm.iwsmanenumerator_atendofstream, wsmandisp/IWSManEnumerator::AtEndOfStream, wsmandisp/IWSManEnumerator::get_AtEndOfStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

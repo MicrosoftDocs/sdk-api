@@ -7,7 +7,7 @@ old-location: mstv\idvblinkagedescriptor.htm
 old-project: mstv
 ms.assetid: 4e419b50-b9c2-48e4-a484-f0fcf5c9cb7f
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IDvbLinkageDescriptor, IDvbLinkageDescriptor interface [Microsoft TV Technologies], IDvbLinkageDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbLinkageDescriptor, mstv.idvblinkagedescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

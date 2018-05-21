@@ -7,7 +7,7 @@ old-location: base\enclavegetenclaveinformation.htm
 old-project: Memory
 ms.assetid: 26349C3C-4B73-430C-B002-ED262DB0304F
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: EnclaveGetEnclaveInformation, EnclaveGetEnclaveInformation function, base.enclavegetenclaveinformation, winenclaveapi/EnclaveGetEnclaveInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

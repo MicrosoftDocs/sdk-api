@@ -7,7 +7,7 @@ old-location: security\icertserverpolicy_getcertificateextension.htm
 old-project: SecCrypto
 ms.assetid: e2c8e1d5-6ddb-4c8f-8052-f45cd52e2bef
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CCertServerPolicy object [Security],GetCertificateExtension method, GetCertificateExtension, GetCertificateExtension method [Security], GetCertificateExtension method [Security],CCertServerPolicy object, GetCertificateExtension method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetCertificateExtension method, ICertServerPolicy.GetCertificateExtension, ICertServerPolicy::GetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertserverpolicy_getcertificateextension, certif/ICertServerPolicy::GetCertificateExtension, security.icertserverpolicy_getcertificateextension
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersourceevent3_broadcasteventex.htm
 old-project: mstv
 ms.assetid: 2d97bcc0-ae13-436b-b741-2f22eb36f5de
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: BroadcastEventEx, BroadcastEventEx method [Microsoft TV Technologies], BroadcastEventEx method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent3 interface, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],BroadcastEventEx method, IMSVidStreamBufferSourceEvent3.BroadcastEventEx, IMSVidStreamBufferSourceEvent3::BroadcastEventEx, IMSVidStreamBufferSourceEvent3BroadcastEventEx, mstv.imsvidstreambuffersourceevent3_broadcasteventex, segment/IMSVidStreamBufferSourceEvent3::BroadcastEventEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iisdbcomponentgroupdescriptor_getcomponentgrouptype.htm
 old-project: mstv
 ms.assetid: 6bf17c29-ee43-4de8-a536-bea44238aa53
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetComponentGroupType, GetComponentGroupType method [Microsoft TV Technologies], GetComponentGroupType method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetComponentGroupType method, IIsdbComponentGroupDescriptor.GetComponentGroupType, IIsdbComponentGroupDescriptor::GetComponentGroupType, dvbsiparser/IIsdbComponentGroupDescriptor::GetComponentGroupType, mstv.iisdbcomponentgroupdescriptor_getcomponentgrouptype
 ms.prod: windows-hardware
 ms.technology: windows-devices

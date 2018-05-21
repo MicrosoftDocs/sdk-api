@@ -7,7 +7,7 @@ old-location: com\iglobalinterfacetable.htm
 old-project: com
 ms.assetid: 0c1feee7-e33b-4b5d-8e35-4de6895e3947
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IGlobalInterfaceTable, IGlobalInterfaceTable interface [COM], IGlobalInterfaceTable interface [COM],described, _com_iglobalinterfacetable, com.iglobalinterfacetable, objidl/IGlobalInterfaceTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

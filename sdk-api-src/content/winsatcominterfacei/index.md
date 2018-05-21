@@ -2,7 +2,7 @@
 UID: NA:winsatcominterfacei
 ms.assetid: 76c75004-d546-3d55-9e2d-5744db03b8ab
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\getprocesstimes.htm
 old-project: ProcThread
 ms.assetid: 4c1e8bd4-5ed2-4c97-bc4f-1083a8b24623
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: GetProcessTimes, GetProcessTimes function, _win32_getprocesstimes, base.getprocesstimes, processthreadsapi/GetProcessTimes, winbase/GetProcessTimes
 ms.prod: windows-hardware
 ms.technology: windows-devices

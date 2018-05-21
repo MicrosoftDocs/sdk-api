@@ -7,7 +7,7 @@ old-location: of\iofflinefilesconnectioninfo_transitionoffline.htm
 old-project: OfflineFiles
 ms.assetid: cb32238d-c8f2-4228-8472-4a699b24c621
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],TransitionOffline method, IOfflineFilesConnectionInfo.TransitionOffline, IOfflineFilesConnectionInfo::TransitionOffline, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, TransitionOffline, TransitionOffline method [Offline Files], TransitionOffline method [Offline Files],IOfflineFilesConnectionInfo interface, cscobj/IOfflineFilesConnectionInfo::TransitionOffline, of.iofflinefilesconnectioninfo_transitionoffline
 ms.prod: windows-hardware
 ms.technology: windows-devices

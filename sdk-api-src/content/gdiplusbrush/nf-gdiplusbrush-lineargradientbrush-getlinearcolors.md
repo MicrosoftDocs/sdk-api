@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetLinearColors_colors_
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getlinearcolors.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetLinearColors, GetLinearColors method [GDI+], GetLinearColors method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetLinearColors method, LinearGradientBrush.GetLinearColors, LinearGradientBrush::GetLinearColors, _gdiplus_CLASS_LinearGradientBrush_GetLinearColors_colors_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetLinearColors_colors_
 ms.prod: windows-hardware
 ms.technology: windows-devices

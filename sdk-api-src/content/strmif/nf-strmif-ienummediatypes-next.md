@@ -7,7 +7,7 @@ old-location: dshow\ienummediatypes_next.htm
 old-project: DirectShow
 ms.assetid: 7a57fa8e-756b-457c-918a-154fbd085ea3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IEnumMediaTypes interface [DirectShow],Next method, IEnumMediaTypes.Next, IEnumMediaTypes::Next, IEnumMediaTypesNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumMediaTypes interface, dshow.ienummediatypes_next, strmif/IEnumMediaTypes::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

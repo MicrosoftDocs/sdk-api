@@ -7,7 +7,7 @@ old-location: fs\find_by_sid_output.htm
 old-project: FileIO
 ms.assetid: fc616f88-c8c9-43de-8b17-2b8c38e5cdbb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PFIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT structure [Files], PFIND_BY_SID_OUTPUT, PFIND_BY_SID_OUTPUT structure pointer [Files], base.find_by_sid_output, fs.find_by_sid_output, winioctl/FIND_BY_SID_OUTPUT, winioctl/PFIND_BY_SID_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

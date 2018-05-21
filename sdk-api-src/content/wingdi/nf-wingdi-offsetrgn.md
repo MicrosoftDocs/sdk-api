@@ -7,7 +7,7 @@ old-location: gdi\offsetrgn.htm
 old-project: gdi
 ms.assetid: 5228c614-3278-4852-a867-7eed57359aef
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: OffsetRgn, OffsetRgn function [Windows GDI], _win32_OffsetRgn, gdi.offsetrgn, wingdi/OffsetRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

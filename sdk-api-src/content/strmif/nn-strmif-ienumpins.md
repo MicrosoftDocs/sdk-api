@@ -7,7 +7,7 @@ old-location: dshow\ienumpins.htm
 old-project: DirectShow
 ms.assetid: 839190b4-fd29-4a94-8838-d84adfdd9668
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IEnumPins, IEnumPins interface [DirectShow], IEnumPins interface [DirectShow],described, IEnumPinsInterface, dshow.ienumpins, strmif/IEnumPins
 ms.prod: windows-hardware
 ms.technology: windows-devices

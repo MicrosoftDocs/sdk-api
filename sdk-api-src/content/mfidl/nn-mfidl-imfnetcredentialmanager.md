@@ -7,7 +7,7 @@ old-location: mf\imfnetcredentialmanager.htm
 old-project: medfound
 ms.assetid: 002d8608-4ef9-40fd-8dcc-fe6ade34478e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 002d8608-4ef9-40fd-8dcc-fe6ade34478e, IMFNetCredentialManager, IMFNetCredentialManager interface [Media Foundation], IMFNetCredentialManager interface [Media Foundation],described, mf.imfnetcredentialmanager, mfidl/IMFNetCredentialManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

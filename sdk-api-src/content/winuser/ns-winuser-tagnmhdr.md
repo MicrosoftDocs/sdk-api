@@ -7,7 +7,7 @@ old-location: controls\NMHDR.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmhdr.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPNMHDR, NMHDR, NMHDR structure [Windows Controls], _win32_NMHDR_str, _win32_NMHDR_str_cpp, controls.NMHDR, controls._win32_NMHDR_str, richedit/NMHDR, tagNMHDR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

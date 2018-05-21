@@ -2,7 +2,7 @@
 UID: NA:ras
 ms.assetid: 14fb1b47-db34-32d2-b06a-97ac35547419
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

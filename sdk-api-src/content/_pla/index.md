@@ -2,11 +2,12 @@
 UID: TP:pla
 ms.assetid: 99eb3402-4930-35cb-8472-646e4361517a
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Performance Logs and Alerts

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_suspend.htm
 old-project: Bits
 ms.assetid: 88429730-b8e5-4969-934c-f0945fdd46a6
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],Suspend method, IBackgroundCopyJob.Suspend, IBackgroundCopyJob::Suspend, Suspend, Suspend method [BITS], Suspend method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_suspend, bits.ibackgroundcopyjob_suspend, bits/IBackgroundCopyJob::Suspend
 ms.prod: windows-hardware
 ms.technology: windows-devices

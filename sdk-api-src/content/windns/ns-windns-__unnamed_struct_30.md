@@ -7,7 +7,7 @@ old-location: dns\dns_srv_data.htm
 old-project: DNS
 ms.assetid: 212db7ac-a5e3-4e58-b1c2-0eb551403dfc
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: "*PDNS_SRV_DATA, *PDNS_SRV_DATAW, DNS_SRV_DATA, DNS_SRV_DATA structure [DNS], DNS_SRV_DATAW, PDNS_SRV_DATA, PDNS_SRV_DATA structure pointer [DNS], _dns_dns_srv_data, dns.dns_srv_data, windns/DNS_SRV_DATA, windns/PDNS_SRV_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

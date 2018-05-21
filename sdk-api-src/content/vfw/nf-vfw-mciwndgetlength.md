@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetlength.htm
 old-project: Multimedia
 ms.assetid: 2d027660-b2dd-4613-9583-30d7a45f7a1d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MCIWndGetLength, MCIWndGetLength macro [Windows Multimedia], _win32_MCIWndGetLength, multimedia.mciwndgetlength, vfw/MCIWndGetLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

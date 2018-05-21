@@ -7,7 +7,7 @@ old-location: shell\StrCmpI.htm
 old-project: shell
 ms.assetid: d059b6bd-8f03-4273-aa7a-b8b07f84d268
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: StrCmpI, StrCmpI function [Windows Shell], StrCmpIW, _win32_StrCmpI, shell.StrCmpI, shlwapi/StrCmpI, shlwapi/StrCmpIW
 ms.prod: windows-hardware
 ms.technology: windows-devices

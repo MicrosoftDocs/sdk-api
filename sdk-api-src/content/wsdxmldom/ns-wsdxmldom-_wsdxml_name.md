@@ -7,7 +7,7 @@ old-location: ncd\wsdxml_name_struct.htm
 old-project: WsdApi
 ms.assetid: 9dce71d2-700c-4f86-9308-dee6a69010bb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSDXML_NAME, WSDXML_NAME structure, _WSDXML_NAME, ncd.wsdxml_name_struct, wsdxmldom/WSDXML_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices

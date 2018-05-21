@@ -7,7 +7,7 @@ old-location: mstv\iatsc_eit_getrecorddescriptorbytag.htm
 old-project: mstv
 ms.assetid: fdd7f03f-8e03-436f-bfe2-bb46a6a4b415
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IATSC_EIT.GetRecordDescriptorByTag, IATSC_EIT::GetRecordDescriptorByTag, IATSC_EITGetRecordDescriptorByTag, atscpsipparser/IATSC_EIT::GetRecordDescriptorByTag, mstv.iatsc_eit_getrecorddescriptorbytag
 ms.prod: windows-hardware
 ms.technology: windows-devices

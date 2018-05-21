@@ -7,7 +7,7 @@ old-location: base\processor_number.htm
 old-project: ProcThread
 ms.assetid: 9005c6d4-07a9-4ce0-9ee2-54880d7244c3
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: "*PPROCESSOR_NUMBER, PPROCESSOR_NUMBER, PPROCESSOR_NUMBER structure pointer, PROCESSOR_NUMBER, PROCESSOR_NUMBER structure, _PROCESSOR_NUMBER, base.processor_number, winnt/PPROCESSOR_NUMBER, winnt/PROCESSOR_NUMBER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

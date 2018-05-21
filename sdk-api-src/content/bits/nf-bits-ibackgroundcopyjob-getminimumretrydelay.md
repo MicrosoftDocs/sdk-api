@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_getminimumretrydelay.htm
 old-project: Bits
 ms.assetid: af599174-44f8-4d5e-b9ff-61ddbb330580
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: GetMinimumRetryDelay, GetMinimumRetryDelay method [BITS], GetMinimumRetryDelay method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetMinimumRetryDelay method, IBackgroundCopyJob.GetMinimumRetryDelay, IBackgroundCopyJob::GetMinimumRetryDelay, _drz_ibackgroundcopyjob_getminimumretrydelay, bits.ibackgroundcopyjob_getminimumretrydelay, bits/IBackgroundCopyJob::GetMinimumRetryDelay
 ms.prod: windows-hardware
 ms.technology: windows-devices

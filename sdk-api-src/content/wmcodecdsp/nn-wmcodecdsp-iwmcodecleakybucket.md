@@ -7,7 +7,7 @@ old-location: mf\iwmcodecleakybucketinterface.htm
 old-project: medfound
 ms.assetid: 93a0169e-39fe-4152-8698-72a0650be41a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IWMCodecLeakyBucket, IWMCodecLeakyBucket interface [Media Foundation], IWMCodecLeakyBucket interface [Media Foundation],described, codecapi.iwmcodecleakybucketinterface, mf.iwmcodecleakybucketinterface, wmcodecdsp/IWMCodecLeakyBucket
 ms.prod: windows-hardware
 ms.technology: windows-devices

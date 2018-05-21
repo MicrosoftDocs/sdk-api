@@ -7,7 +7,7 @@ old-location: menurc\charnextexa.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charnextexa.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CharNextExA, CharNextExA function [Menus and Other Resources], _win32_CharNextExA, _win32_charnextexa_cpp, menurc.charnextexa, winui._win32_charnextexa, winuser/CharNextExA
 ms.prod: windows-hardware
 ms.technology: windows-devices

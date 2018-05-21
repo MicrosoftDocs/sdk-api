@@ -7,7 +7,7 @@ old-location: security\icertificatepolicies.htm
 old-project: SecCertEnroll
 ms.assetid: 2503adcb-0b73-42ef-98cf-a2b906e34ef7
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ICertificatePolicies, ICertificatePolicies interface [Security], ICertificatePolicies interface [Security],described, certenroll/ICertificatePolicies, security.icertificatepolicies
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLine_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddlinemethods.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: AddLine, AddLine methods [GDI+], GraphicsPath.AddLine, GraphicsPath.AddLine(IN REAL,IN REAL,IN REAL,IN REAL), GraphicsPath::AddLine, GraphicsPath::AddLine(IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddLine_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddLine_Methods, gdipluspath/AddLine
 ms.prod: windows-hardware
 ms.technology: windows-devices

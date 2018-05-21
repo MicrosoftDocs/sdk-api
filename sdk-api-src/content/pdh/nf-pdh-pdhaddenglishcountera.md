@@ -7,7 +7,7 @@ old-location: perf\pdhaddenglishcounter.htm
 old-project: PerfCtrs
 ms.assetid: 6a94b40d-0105-4358-93e1-dae603a35cc4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PdhAddEnglishCounter, PdhAddEnglishCounter function [Perf], PdhAddEnglishCounterA, PdhAddEnglishCounterW, pdh/PdhAddEnglishCounter, pdh/PdhAddEnglishCounterA, pdh/PdhAddEnglishCounterW, perf.pdhaddenglishcounter
 ms.prod: windows-hardware
 ms.technology: windows-devices

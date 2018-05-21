@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter3.htm
 old-project: direct3ddxgi
 ms.assetid: 547840B4-4AAB-4049-8D79-BD34BA4D32CD
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: IDXGIAdapter3, IDXGIAdapter3 interface [DXGI], IDXGIAdapter3 interface [DXGI],described, direct3ddxgi.idxgiadapter3, dxgi1_4/IDXGIAdapter3
 ms.prod: windows-hardware
 ms.technology: windows-devices

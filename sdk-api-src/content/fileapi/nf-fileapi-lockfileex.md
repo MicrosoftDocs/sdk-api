@@ -7,7 +7,7 @@ old-location: fs\lockfileex.htm
 old-project: FileIO
 ms.assetid: 30931ed0-495c-4b50-964a-c507d4ebc2be
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: LOCKFILE_EXCLUSIVE_LOCK, LOCKFILE_FAIL_IMMEDIATELY, LockFileEx, LockFileEx function [Files], _win32_lockfileex, base.lockfileex, fileapi/LockFileEx, fs.lockfileex, winbase/LockFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

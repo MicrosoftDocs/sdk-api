@@ -7,7 +7,7 @@ old-location: com\createdatacache.htm
 old-project: com
 ms.assetid: 8a64675b-1337-4555-b9a6-e19f9b987ba2
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CreateDataCache, CreateDataCache function [COM], _ole_CreateDataCache, com.createdatacache, objbase/CreateDataCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

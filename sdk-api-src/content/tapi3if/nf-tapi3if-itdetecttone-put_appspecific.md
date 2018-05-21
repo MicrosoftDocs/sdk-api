@@ -7,7 +7,7 @@ old-location: tapi3\itdetecttone_put_appspecific.htm
 old-project: Tapi
 ms.assetid: 0d008cda-bb01-4249-a0ca-a40d2daacbc4
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: ITDetectTone interface [TAPI 2.2],put_AppSpecific method, ITDetectTone.put_AppSpecific, ITDetectTone::put_AppSpecific, _tapi3_itdetecttone_put_appspecific, put_AppSpecific, put_AppSpecific method [TAPI 2.2], put_AppSpecific method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_put_appspecific, tapi3if/ITDetectTone::put_AppSpecific
 ms.prod: windows-hardware
 ms.technology: windows-devices

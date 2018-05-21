@@ -7,7 +7,7 @@ old-location: etw\eventunregister_func.htm
 old-project: ETW
 ms.assetid: fdcccf6f-2f31-4356-a4ee-3b6229c01b75
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EventUnregister, EventUnregister function [ETW], base.eventunregister_func, etw.eventunregister_func, evntprov/EventUnregister
 ms.prod: windows-hardware
 ms.technology: windows-devices

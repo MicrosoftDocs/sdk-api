@@ -7,7 +7,7 @@ old-location: controls\PSHNOTIFY.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\pshnotify.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPPSHNOTIFY, LPPSHNOTIFY, LPPSHNOTIFY structure pointer [Windows Controls], PSHNOTIFY, PSHNOTIFY structure [Windows Controls], _PSHNOTIFY, _win32_PSHNOTIFY, _win32_PSHNOTIFY_cpp, controls.PSHNOTIFY, controls._win32_PSHNOTIFY, prsht/LPPSHNOTIFY, prsht/PSHNOTIFY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\createbitmapindirect.htm
 old-project: gdi
 ms.assetid: 79f73e28-4ee3-472d-9a20-3ffe7cf2a6b5
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: CreateBitmapIndirect, CreateBitmapIndirect function [Windows GDI], _win32_CreateBitmapIndirect, gdi.createbitmapindirect, wingdi/CreateBitmapIndirect
 ms.prod: windows-hardware
 ms.technology: windows-devices

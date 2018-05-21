@@ -7,7 +7,7 @@ old-location: security\icryptattributes__newenum_property.htm
 old-project: SecCertEnroll
 ms.assetid: 872ef6ff-d093-48e7-9062-4b81a771666d
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ICryptAttributes interface [Security],_NewEnum property, ICryptAttributes._NewEnum, ICryptAttributes.get__NewEnum, ICryptAttributes::_NewEnum, ICryptAttributes::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICryptAttributes interface, certenroll/ICryptAttributes::_NewEnum, certenroll/ICryptAttributes::get__NewEnum, get__NewEnum, security.icryptattributes__newenum_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

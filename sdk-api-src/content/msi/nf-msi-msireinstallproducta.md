@@ -7,7 +7,7 @@ old-location: setup\msireinstallproduct.htm
 old-project: Msi
 ms.assetid: ad69868e-d653-417d-b902-d0d62e05c985
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MsiReinstallProduct, MsiReinstallProduct function, MsiReinstallProductA, MsiReinstallProductW, REINSTALLMODE_FILEEQUALVERSION, REINSTALLMODE_FILEEXACT, REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEREPLACE, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_PACKAGE, REINSTALLMODE_SHORTCUT, REINSTALLMODE_USERDATA, _msi_msireinstallproduct, msi/MsiReinstallProduct, msi/MsiReinstallProductA, msi/MsiReinstallProductW, setup.msireinstallproduct
 ms.prod: windows-hardware
 ms.technology: windows-devices

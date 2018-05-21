@@ -7,7 +7,7 @@ old-location: gdi\getbrushorgex.htm
 old-project: gdi
 ms.assetid: 0b938237-cb06-4776-86f8-14478abcee00
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetBrushOrgEx, GetBrushOrgEx function [Windows GDI], _win32_GetBrushOrgEx, gdi.getbrushorgex, wingdi/GetBrushOrgEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\mmtaskyield.htm
 old-project: Multimedia
 ms.assetid: dd52af03-94fa-4227-b4fc-25089ef54fd7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: mmTaskYield, mmTaskYield function [Windows Multimedia], mmddk/mmTaskYield, multimedia.mmtaskyield
 ms.prod: windows-hardware
 ms.technology: windows-devices

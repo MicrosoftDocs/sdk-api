@@ -7,7 +7,7 @@ old-location: com\imallocspy_postfree.htm
 old-project: com
 ms.assetid: b46b0b1e-6144-4bb8-84d5-9db5690b7421
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IMallocSpy interface [COM],PostFree method, IMallocSpy.PostFree, IMallocSpy::PostFree, PostFree, PostFree method [COM], PostFree method [COM],IMallocSpy interface, _com_imallocspy_postfree, com.imallocspy_postfree, objidl/IMallocSpy::PostFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

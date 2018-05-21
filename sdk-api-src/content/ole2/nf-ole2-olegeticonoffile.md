@@ -7,7 +7,7 @@ old-location: com\olegeticonoffile.htm
 old-project: com
 ms.assetid: 2fa9cd75-4dc6-45a3-aa62-e82bd28289a5
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleGetIconOfFile, OleGetIconOfFile function [COM], _com_OleGetIconOfFile, com.olegeticonoffile, ole2/OleGetIconOfFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

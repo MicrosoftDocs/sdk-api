@@ -7,7 +7,7 @@ old-location: mib\mib_tcp6table_owner_pid.htm
 old-project: MIB
 ms.assetid: 93629d1d-e5f2-4ae8-b585-17e39ae4986d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PMIB_TCP6TABLE_OWNER_PID, MIB_TCP6TABLE_OWNER_PID, MIB_TCP6TABLE_OWNER_PID structure [MIB], PMIB_TCP6TABLE_OWNER_PID, PMIB_TCP6TABLE_OWNER_PID structure pointer [MIB], _MIB_TCP6TABLE_OWNER_PID, iprtrmib/MIB_TCP6TABLE_OWNER_PID, iprtrmib/PMIB_TCP6TABLE_OWNER_PID, mib.mib_tcp6table_owner_pid, tcpmib/MIB_TCP6TABLE_OWNER_PID, tcpmib/PMIB_TCP6TABLE_OWNER_PID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

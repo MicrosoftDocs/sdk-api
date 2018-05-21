@@ -7,7 +7,7 @@ old-location: intl\getcalendarinfoex.htm
 old-project: Intl
 ms.assetid: b3c2fb74-0559-4752-9bdb-36b78084aed5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetCalendarInfoEx, GetCalendarInfoEx function [Internationalization for Windows Applications], _win32_GetCalendarInfoEx, intl.getcalendarinfoex, winnls/GetCalendarInfoEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

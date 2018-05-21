@@ -7,7 +7,7 @@ old-location: wsw\ws_http_policy_description.htm
 old-project: wsw
 ms.assetid: 808d4198-7863-448e-a299-23c6d1f53dc6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_HTTP_POLICY_DESCRIPTION, WS_HTTP_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_HTTP_POLICY_DESCRIPTION, webservices/WS_HTTP_POLICY_DESCRIPTION, wsw.ws_http_policy_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

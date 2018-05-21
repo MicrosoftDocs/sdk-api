@@ -7,7 +7,7 @@ old-location: mf\opm_get_codec_info_information.htm
 old-project: medfound
 ms.assetid: 20865210-7f0f-4310-879e-9d1fe97f5df2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: OPM_GET_CODEC_INFO_INFORMATION, OPM_GET_CODEC_INFO_INFORMATION structure [Media Foundation], _OPM_GET_CODEC_INFO_INFORMATION, ksopmapi/OPM_GET_CODEC_INFO_INFORMATION, mf.opm_get_codec_info_information
 ms.prod: windows-hardware
 ms.technology: windows-devices

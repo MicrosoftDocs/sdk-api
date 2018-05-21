@@ -7,7 +7,7 @@ old-location: fs\getlogicaldrivestrings.htm
 old-project: FileIO
 ms.assetid: d3a83f8d-c37c-48b9-a24c-f81dfe5773e9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: GetLogicalDriveStrings, GetLogicalDriveStrings function [Files], GetLogicalDriveStringsA, GetLogicalDriveStringsW, _win32_getlogicaldrivestrings, base.getlogicaldrivestrings, fileapi/GetLogicalDriveStrings, fileapi/GetLogicalDriveStringsA, fileapi/GetLogicalDriveStringsW, fs.getlogicaldrivestrings, winbase/GetLogicalDriveStrings, winbase/GetLogicalDriveStringsA, winbase/GetLogicalDriveStringsW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

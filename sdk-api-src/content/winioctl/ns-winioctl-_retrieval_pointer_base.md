@@ -7,7 +7,7 @@ old-location: fs\retrieval_pointer_base.htm
 old-project: FileIO
 ms.assetid: e0a779fb-6c46-4831-95dc-968e17f86a81
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PRETRIEVAL_POINTER_BASE, PRETRIEVAL_POINTER_BASE, PRETRIEVAL_POINTER_BASE structure pointer [Files], RETRIEVAL_POINTER_BASE, RETRIEVAL_POINTER_BASE structure [Files], _RETRIEVAL_POINTER_BASE, fs.retrieval_pointer_base, winioctl/PRETRIEVAL_POINTER_BASE, winioctl/RETRIEVAL_POINTER_BASE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

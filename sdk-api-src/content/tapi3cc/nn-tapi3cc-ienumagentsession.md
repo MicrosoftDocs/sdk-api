@@ -7,7 +7,7 @@ old-location: tapi3\ienumagentsession.htm
 old-project: Tapi
 ms.assetid: 38b9fc57-a0af-4dfa-9058-e721138c8be9
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: IEnumAgentSession, IEnumAgentSession interface [TAPI 2.2], IEnumAgentSession interface [TAPI 2.2],described, _tapi3_ienumagentsession, tapi3.ienumagentsession, tapi3cc/IEnumAgentSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

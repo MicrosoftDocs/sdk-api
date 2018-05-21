@@ -7,7 +7,7 @@ old-location: security\sspidecryptauthidentityex.htm
 old-project: SecAuthN
 ms.assetid: 86598BAA-0E87-46A9-AA1A-BF04BF0CDAFA
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SspiDecryptAuthIdentityEx, SspiDecryptAuthIdentityEx function [Security], security.sspidecryptauthidentityex, sspi/SspiDecryptAuthIdentityEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SspiDecryptAuthIdentityEx function

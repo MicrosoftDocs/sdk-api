@@ -7,7 +7,7 @@ old-location: rpc\rpc_async_notification_info.htm
 old-project: Rpc
 ms.assetid: 253f3d23-4cc2-44b3-9d25-c7f26d73ed1e
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: "*PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO, PRPC_ASYNC_NOTIFICATION_INFO union pointer [RPC], RPC_ASYNC_NOTIFICATION_INFO, RPC_ASYNC_NOTIFICATION_INFO union [RPC], _RPC_ASYNC_NOTIFICATION_INFO, rpc.rpc_async_notification_info, rpcasync/PRPC_ASYNC_NOTIFICATION_INFO, rpcasync/RPC_ASYNC_NOTIFICATION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

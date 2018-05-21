@@ -7,7 +7,7 @@ old-location: wsw\ws_http_redirect_callback_context.htm
 old-project: wsw
 ms.assetid: 2348fcdb-2f76-4a30-91c4-ed7d63012da1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_HTTP_REDIRECT_CALLBACK_CONTEXT, WS_HTTP_REDIRECT_CALLBACK_CONTEXT structure [Web Services for Windows], _WS_HTTP_REDIRECT_CALLBACK_CONTEXT, webservices/WS_HTTP_REDIRECT_CALLBACK_CONTEXT, wsw.ws_http_redirect_callback_context
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\mgmgroupenumerationgetnext.htm
 old-project: RRAS
 ms.assetid: a5e659e9-b566-490b-831b-96f9de822ebf
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MgmGroupEnumerationGetNext, MgmGroupEnumerationGetNext function [RAS], _mpr_mgmgroupenumerationgetnext, mgm/MgmGroupEnumerationGetNext, rras.mgmgroupenumerationgetnext
 ms.prod: windows-hardware
 ms.technology: windows-devices

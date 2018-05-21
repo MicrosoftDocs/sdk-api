@@ -7,7 +7,7 @@ old-location: display\cancreated3dbuffer.htm
 old-project: display
 ms.assetid: 94aace9f-0927-4b33-a9ea-79c27d5edea9
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: CanCreateD3DBuffer, CanCreateD3DBuffer callback function [Display Devices], PDD_CANCREATESURFACE, PDD_CANCREATESURFACE callback, d3dfncs_c13b55de-ef44-4535-959c-dd61bfc3df10.xml, ddrawint/CanCreateD3DBuffer, display.cancreated3dbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

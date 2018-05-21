@@ -2,11 +2,12 @@
 UID: TP:com
 ms.assetid: c245c790-cc58-3030-b206-20f7769711fc
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Component Object Model (COM)
@@ -67,6 +68,7 @@ For the programming guide, see [Component Object Model (COM)](https://review.doc
 | [CoCopyProxy function](..\combaseapi\nf-combaseapi-cocopyproxy.md) | Makes a private copy of the specified proxy. |
 | [CoCreateFreeThreadedMarshaler function](..\combaseapi\nf-combaseapi-cocreatefreethreadedmarshaler.md) | Creates an aggregatable object capable of context-dependent marshaling. |
 | [CoCreateGuid function](..\combaseapi\nf-combaseapi-cocreateguid.md) | Creates a GUID, a unique 128-bit integer used for CLSIDs and interface identifiers. |
+| [CoCreateInstance function](..\combaseapi\nf-combaseapi-cocreateinstance.md) | Creates a single uninitialized object of the class associated with a specified CLSID. |
 | [CoCreateInstanceEx function](..\combaseapi\nf-combaseapi-cocreateinstanceex.md) | Creates an instance of a specific class on a specific computer. |
 | [CoCreateInstanceFromApp function](..\combaseapi\nf-combaseapi-cocreateinstancefromapp.md) | Creates an instance of a specific class on a specific computer from within an app container. |
 | [CoDecrementMTAUsage function](..\combaseapi\nf-combaseapi-codecrementmtausage.md) | Releases the increment made by a previous call to the CoIncrementMTAUsage function. |

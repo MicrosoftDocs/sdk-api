@@ -7,7 +7,7 @@ old-location: com\createpointermoniker.htm
 old-project: com
 ms.assetid: d4d40fd5-6035-4ddc-a443-01d32dcf4bca
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CreatePointerMoniker, CreatePointerMoniker function [COM], _com_CreatePointerMoniker, com.createpointermoniker, objbase/CreatePointerMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices

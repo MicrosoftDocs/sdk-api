@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsEmfOrEmfPlus_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isemforemfplus.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: IsEmfOrEmfPlus, IsEmfOrEmfPlus method [GDI+], IsEmfOrEmfPlus method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsEmfOrEmfPlus method, MetafileHeader.IsEmfOrEmfPlus, MetafileHeader::IsEmfOrEmfPlus, _gdiplus_CLASS_MetafileHeader_IsEmfOrEmfPlus_, gdiplus._gdiplus_CLASS_MetafileHeader_IsEmfOrEmfPlus_
 ms.prod: windows-hardware
 ms.technology: windows-devices

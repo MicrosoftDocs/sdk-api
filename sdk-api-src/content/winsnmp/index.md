@@ -2,7 +2,7 @@
 UID: NA:winsnmp
 ms.assetid: 2c19f8bb-b313-35c5-9596-08b099278a27
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,88 @@
+---
+UID: NF:shobjidl_core.IDesktopWallpaper.GetBackgroundColor
+title: IDesktopWallpaper::GetBackgroundColor
+author: windows-driver-content
+description: Retrieves the color that is visible on the desktop when no image is displayed or when the desktop background has been disabled. This color is also used as a border when the desktop wallpaper does not fill the entire screen.
+old-location: shell\IDesktopWallpaper_GetBackgroundColor.htm
+old-project: shell
+ms.assetid: 92666512-BE10-4ee7-B670-18F0C714A4C9
+ms.author: windowsdriverdev
+ms.date: 5/16/2018
+ms.keywords: GetBackgroundColor, GetBackgroundColor method [Windows Shell], GetBackgroundColor method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetBackgroundColor method, IDesktopWallpaper.GetBackgroundColor, IDesktopWallpaper::GetBackgroundColor, shell.IDesktopWallpaper_GetBackgroundColor, shobjidl_core/IDesktopWallpaper::GetBackgroundColor
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: shobjidl_core.h
+req.include-header: Shobjidl.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Shobjidl.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: 
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	shobjidl_core.h
+api_name:
+-	IDesktopWallpaper.GetBackgroundColor
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Outlook Express 6.0
+---
+
+# IDesktopWallpaper::GetBackgroundColor
+
+
+## -description
+
+
+Retrieves the color that is visible on the desktop when no image is displayed or when the desktop background has been disabled. This color is also used as a border when the desktop wallpaper does not fill the entire screen.
+
+
+## -parameters
+
+
+
+
+### -param color [out]
+
+A pointer to a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> value that, when this method returns successfully, receives the RGB color value. If this method fails, this value is set to 0.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/A83903B5-314B-4a8b-8D37-F8A8995DE0CB">IDesktopWallpaper</a>
+
+
+
+<a href="https://msdn.microsoft.com/9CA14C0B-4727-4702-9EB0-4D24003EB456">IDesktopWallpaper::SetBackgroundColor</a>
+ 
+
+ 
+

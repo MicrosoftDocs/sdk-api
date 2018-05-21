@@ -7,7 +7,7 @@ old-location: com\ibindctx.htm
 old-project: com
 ms.assetid: e4c8abb5-0c89-44dd-8d95-efbfcc999b46
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IBindCtx, IBindCtx interface [COM], IBindCtx interface [COM],described, _com_ibindctx, com.ibindctx, objidl/IBindCtx
 ms.prod: windows-hardware
 ms.technology: windows-devices

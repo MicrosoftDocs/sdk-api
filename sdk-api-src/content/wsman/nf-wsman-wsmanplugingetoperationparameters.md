@@ -7,7 +7,7 @@ old-location: winrm\wsmanplugingetoperationparameters.htm
 old-project: WinRM
 ms.assetid: 338e7afc-d05b-4779-ae74-e9ee97e9e0ce
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: WSMAN_PLUGIN_PARAMS_GET_REQUESTED_DATA_LOCALE, WSMAN_PLUGIN_PARAMS_GET_REQUESTED_LOCALE, WSMAN_PLUGIN_PARAMS_LARGEST_RESULT_SIZE, WSMAN_PLUGIN_PARAMS_MAX_ENVELOPE_SIZE, WSMAN_PLUGIN_PARAMS_REMAINING_RESULT_SIZE, WSMAN_PLUGIN_PARAMS_TIMEOUT, WSManPluginGetOperationParameters, WSManPluginGetOperationParameters function [Windows Remote Management], winrm.wsmanplugingetoperationparameters, wsman/WSManPluginGetOperationParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

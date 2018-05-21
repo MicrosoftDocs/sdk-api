@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersink3_get__dataanalysisfilter.htm
 old-project: mstv
 ms.assetid: 6ca6bef1-807c-4dfb-bb9e-ef90af70e981
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get__DataAnalysisFilter method, IMSVidStreamBufferSink3.get__DataAnalysisFilter, IMSVidStreamBufferSink3::get__DataAnalysisFilter, IMSVidStreamBufferSink3get__DataAnalysisFilter, get__DataAnalysisFilter, get__DataAnalysisFilter method [Microsoft TV Technologies], get__DataAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get__dataanalysisfilter, segment/IMSVidStreamBufferSink3::get__DataAnalysisFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

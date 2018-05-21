@@ -7,7 +7,7 @@ old-location: setup\deactivateactctx.htm
 old-project: SbsCs
 ms.assetid: 2a53eb1a-ce0b-4b20-a346-1ff9636a74d6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: 0, DEACTIVATE_ACTCTX_FLAG_FORCE_EARLY_DEACTIVATION, DeactivateActCtx, DeactivateActCtx function [Side-by-side Assemblies], _win32_deactivateactctx, setup.deactivateactctx, winbase/DeactivateActCtx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ipicture_set_hpal.htm
 old-project: com
 ms.assetid: c20b9efd-cf85-4ee1-890b-35fde0226982
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IPicture interface [COM],set_hPal method, IPicture.set_hPal, IPicture::set_hPal, _ctrl_ipicture_set_hpal, com.ipicture_set_hpal, ocidl/IPicture::set_hPal, set_hPal, set_hPal method [COM], set_hPal method [COM],IPicture interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

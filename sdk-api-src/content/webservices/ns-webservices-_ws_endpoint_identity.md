@@ -7,7 +7,7 @@ old-location: wsw\ws_endpoint_identity.htm
 old-project: wsw
 ms.assetid: 59c851b4-6e1a-4144-9742-48d5c094d592
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_ENDPOINT_IDENTITY, WS_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_ENDPOINT_IDENTITY, webservices/WS_ENDPOINT_IDENTITY, wsw.ws_endpoint_identity
 ms.prod: windows-hardware
 ms.technology: windows-devices

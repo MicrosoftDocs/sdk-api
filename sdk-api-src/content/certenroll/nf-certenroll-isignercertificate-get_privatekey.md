@@ -7,7 +7,7 @@ old-location: security\isignercertificate_privatekey_property.htm
 old-project: SecCertEnroll
 ms.assetid: 047a22ba-9817-45b7-aa9a-356245d2b824
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ISignerCertificate interface [Security],PrivateKey property, ISignerCertificate.PrivateKey, ISignerCertificate.get_PrivateKey, ISignerCertificate::PrivateKey, ISignerCertificate::get_PrivateKey, PrivateKey property [Security], PrivateKey property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::PrivateKey, certenroll/ISignerCertificate::get_PrivateKey, get_PrivateKey, security.isignercertificate_privatekey_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

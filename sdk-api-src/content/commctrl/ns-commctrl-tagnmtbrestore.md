@@ -7,7 +7,7 @@ old-location: controls\NMTBRESTORE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbrestore.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPNMTBRESTORE, LPNMTBRESTORE, LPNMTBRESTORE structure pointer [Windows Controls], NMTBRESTORE, NMTBRESTORE structure [Windows Controls], _win32_NMTBRESTORE, _win32_NMTBRESTORE_cpp, commctrl/LPNMTBRESTORE, commctrl/NMTBRESTORE, controls.NMTBRESTORE, controls._win32_NMTBRESTORE, tagNMTBRESTORE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

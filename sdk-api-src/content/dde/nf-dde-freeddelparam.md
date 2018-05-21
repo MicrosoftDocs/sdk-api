@@ -7,7 +7,7 @@ old-location: dataxchg\freeddelparam.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\freeddelparam.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: FreeDDElParam, FreeDDElParam function [Data Exchange], _win32_FreeDDElParam, _win32_freeddelparam_cpp, dataxchg.freeddelparam, dde/FreeDDElParam, winui._win32_freeddelparam
 ms.prod: windows-hardware
 ms.technology: windows-devices

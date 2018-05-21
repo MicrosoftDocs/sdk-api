@@ -7,7 +7,7 @@ old-location: mf\opm_set_acp_and_cgmsa_signaling_parameters.htm
 old-project: medfound
 ms.assetid: bb7caedd-cd9e-4b36-b1a1-a457de44afb1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure [Media Foundation], _OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, mf.opm_set_acp_and_cgmsa_signaling_parameters, opmapi/OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\setmetafilebitsex.htm
 old-project: gdi
 ms.assetid: 232eeba9-f579-4b5f-a31a-416aeb56a909
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: SetMetaFileBitsEx, SetMetaFileBitsEx function [Windows GDI], _win32_SetMetaFileBitsEx, gdi.setmetafilebitsex, wingdi/SetMetaFileBitsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

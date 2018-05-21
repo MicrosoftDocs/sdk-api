@@ -7,7 +7,7 @@ old-location: security\impersonatesecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: 167eaf3b-b794-4587-946d-fa596f1f9411
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: ImpersonateSecurityContext, ImpersonateSecurityContext function [Security], _ssp_impersonatesecuritycontext, security.impersonatesecuritycontext, sspi/ImpersonateSecurityContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # ImpersonateSecurityContext function

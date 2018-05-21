@@ -7,7 +7,7 @@ old-location: dshow\dmo_output_data_buffer.htm
 old-project: DirectShow
 ms.assetid: 87fa2000-8dab-4f30-940a-14fb6699f616
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*PDMO_OUTPUT_DATA_BUFFER, DMO_OUTPUT_DATA_BUFFER, DMO_OUTPUT_DATA_BUFFER structure [DirectShow], DMO_OUTPUT_DATA_BUFFERStructure, PDMO_OUTPUT_DATA_BUFFER, PDMO_OUTPUT_DATA_BUFFER structure pointer [DirectShow], _DMO_OUTPUT_DATA_BUFFER, dshow.dmo_output_data_buffer, mediaobj/DMO_OUTPUT_DATA_BUFFER, mediaobj/PDMO_OUTPUT_DATA_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

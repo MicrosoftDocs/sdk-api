@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_reservation_info_array.htm
 old-project: DHCP
 ms.assetid: 9823ee47-6b61-4256-8fac-d301d72774ec
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_RESERVATION_INFO_ARRAY, DHCP_RESERVATION_INFO_ARRAY, DHCP_RESERVATION_INFO_ARRAY structure [DHCP], LPDHCP_RESERVATION_INFO_ARRAY, LPDHCP_RESERVATION_INFO_ARRAY structure pointer [DHCP], _DHCP_RESERVATION_INFO_ARRAY, dhcp.dhcp_reservation_info_array, dhcpsapi/DHCP_RESERVATION_INFO_ARRAY, dhcpsapi/LPDHCP_RESERVATION_INFO_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

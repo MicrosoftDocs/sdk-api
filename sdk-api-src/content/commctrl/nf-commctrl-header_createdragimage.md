@@ -7,7 +7,7 @@ old-location: controls\Header_CreateDragImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_createdragimage.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: Header_CreateDragImage, Header_CreateDragImage macro [Windows Controls], _win32_Header_CreateDragImage, _win32_Header_CreateDragImage_cpp, commctrl/Header_CreateDragImage, controls.Header_CreateDragImage, controls._win32_Header_CreateDragImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

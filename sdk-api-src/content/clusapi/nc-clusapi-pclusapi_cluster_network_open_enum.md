@@ -7,7 +7,7 @@ old-location: mscs\clusternetworkopenenum.htm
 old-project: MsCS
 ms.assetid: 59f6fd26-1d96-4b04-858d-bfd3e4d25d01
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: CLUSTER_NETWORK_ENUM_NETINTERFACES, PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM, PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM callback, PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM callback function [Failover Cluster], _wolf_clusternetworkopenenum, clusapi/PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM, mscs.clusternetworkopenenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

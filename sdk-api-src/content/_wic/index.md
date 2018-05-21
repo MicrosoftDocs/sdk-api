@@ -2,7 +2,7 @@
 UID: TP:wic
 ms.assetid: 4b34c381-d2c6-3b09-91ab-1f2c0f240d8b
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -359,9 +359,9 @@ For the programming guide, see [Windows Imaging Component](https://review.docs.m
 | [IWICJpegFrameDecode::DoesSupportIndexing](..\wincodec\nf-wincodec-iwicjpegframedecode-doessupportindexing.md) | Retrieves a value indicating whether this decoder supports indexing for efficient random access. |
 | [IWICJpegFrameDecode::GetAcHuffmanTable](..\wincodec\nf-wincodec-iwicjpegframedecode-getachuffmantable.md) | Retrieves a copy of the AC Huffman table for the specified scan and table. |
 | [IWICJpegFrameDecode::GetDcHuffmanTable](..\wincodec\nf-wincodec-iwicjpegframedecode-getdchuffmantable.md) | Retrieves a copy of the DC Huffman table for the specified scan and table. |
-| [IWICJpegFrameDecode::GetFrameHeader method](..\wincodec\nf-wincodec-iwicjpegframedecode-getframeheader.md) | Retrieves header data from the entire frame. |
+| [IWICJpegFrameDecode::GetFrameHeader](..\wincodec\nf-wincodec-iwicjpegframedecode-getframeheader.md) | Retrieves header data from the entire frame. |
 | [IWICJpegFrameDecode::GetQuantizationTable](..\wincodec\nf-wincodec-iwicjpegframedecode-getquantizationtable.md) | Retrieves a copy of the quantization table. |
-| [IWICJpegFrameDecode::GetScanHeader](..\wincodec\nf-wincodec-iwicjpegframedecode-getscanheader.md) | Retrieves header data from the entire frame. |
+| [IWICJpegFrameDecode::GetScanHeader](..\wincodec\nf-wincodec-iwicjpegframedecode-getscanheader.md) | Retrieves parameters from the Start Of Scan (SOS) marker for the scan with the specified index. |
 | [IWICJpegFrameDecode::SetIndexing](..\wincodec\nf-wincodec-iwicjpegframedecode-setindexing.md) | Enables indexing of the JPEG for efficient random access. |
 | [IWICJpegFrameEncode::GetAcHuffmanTable](..\wincodec\nf-wincodec-iwicjpegframeencode-getachuffmantable.md) | Retrieves a copy of the AC Huffman table for the specified scan and table. |
 | [IWICJpegFrameEncode::GetDcHuffmanTable](..\wincodec\nf-wincodec-iwicjpegframeencode-getdchuffmantable.md) | Retrieves a copy of the DC Huffman table for the specified scan and table. |

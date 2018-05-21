@@ -7,7 +7,7 @@ old-location: intl\createifedictionaryinstance.htm
 old-project: Intl
 ms.assetid: 1B762B74-D282-46FE-8202-CA88E478940F
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CreateIFEDictionaryInstance, CreateIFEDictionaryInstance function [Internationalization for Windows Applications], intl.createifedictionaryinstance, msime/CreateIFEDictionaryInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

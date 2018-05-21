@@ -7,7 +7,7 @@ old-location: dshow\mpeg1videoinfo.htm
 old-project: DirectShow
 ms.assetid: ae5b8825-7c1c-4a44-b665-098732e6c3bc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MPEG1VIDEOINFO, MPEG1VIDEOINFO structure [DirectShow], MPEG1VIDEOINFOStructure, amvideo/MPEG1VIDEOINFO, dshow.mpeg1videoinfo, tagMPEG1VIDEOINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

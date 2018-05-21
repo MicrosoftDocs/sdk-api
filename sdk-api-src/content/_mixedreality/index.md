@@ -2,11 +2,12 @@
 UID: TP:mixedreality
 ms.assetid: a417faa2-0605-3077-8a35-ccd591af9ea5
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Windows Mixed Reality

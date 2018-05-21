@@ -7,7 +7,7 @@ old-location: base\peb_ldr_data.htm
 old-project: ProcThread
 ms.assetid: 2e03b513-5c03-4436-99f8-3a6d3a45aff2
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: "*PPEB_LDR_DATA, PEB_LDR_DATA, PEB_LDR_DATA structure, PPEB_LDR_DATA, PPEB_LDR_DATA structure pointer, _PEB_LDR_DATA, base.peb_ldr_data, winternl/PEB_LDR_DATA, winternl/PPEB_LDR_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

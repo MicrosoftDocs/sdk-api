@@ -7,7 +7,7 @@ old-location: dshow\iamaudioinputmixer_put_enable.htm
 old-project: DirectShow
 ms.assetid: 84f179bf-2e2f-4ba0-81b7-c20acd09ccea
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Enable method, IAMAudioInputMixer.put_Enable, IAMAudioInputMixer::put_Enable, IAMAudioInputMixerput_Enable, dshow.iamaudioinputmixer_put_enable, put_Enable, put_Enable method [DirectShow], put_Enable method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices

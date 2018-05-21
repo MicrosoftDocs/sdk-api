@@ -7,7 +7,7 @@ old-location: controls\INDEXTOOVERLAYMASK.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\indextooverlaymask.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: INDEXTOOVERLAYMASK, INDEXTOOVERLAYMASK macro [Windows Controls], _win32_INDEXTOOVERLAYMASK, _win32_INDEXTOOVERLAYMASK_cpp, commctrl/INDEXTOOVERLAYMASK, controls.INDEXTOOVERLAYMASK, controls._win32_INDEXTOOVERLAYMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices

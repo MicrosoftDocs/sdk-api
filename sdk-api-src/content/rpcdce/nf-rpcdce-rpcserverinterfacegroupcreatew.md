@@ -7,7 +7,7 @@ old-location: rpc\rpcserverinterfacegroupcreate.htm
 old-project: Rpc
 ms.assetid: 7B648221-8256-42C9-B200-0EFD3B0DBA91
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcServerInterfaceGroupCreate, RpcServerInterfaceGroupCreate function [RPC], RpcServerInterfaceGroupCreateA, RpcServerInterfaceGroupCreateW, rpc.rpcserverinterfacegroupcreate, rpcdce/RpcServerInterfaceGroupCreate, rpcdce/RpcServerInterfaceGroupCreateA, rpcdce/RpcServerInterfaceGroupCreateW
 ms.prod: windows-hardware
 ms.technology: windows-devices

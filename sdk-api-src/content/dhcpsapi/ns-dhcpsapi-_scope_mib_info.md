@@ -7,7 +7,7 @@ old-location: dhcp\scope_mib_info.htm
 old-project: DHCP
 ms.assetid: 54f54734-3e4a-489f-a61d-85fd436d28ad
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPSCOPE_MIB_INFO, LPSCOPE_MIB_INFO, LPSCOPE_MIB_INFO structure pointer [DHCP], SCOPE_MIB_INFO, SCOPE_MIB_INFO structure [DHCP], _SCOPE_MIB_INFO, dhcp.scope_mib_info, dhcpsapi/LPSCOPE_MIB_INFO, dhcpsapi/_SCOPE_MIB_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

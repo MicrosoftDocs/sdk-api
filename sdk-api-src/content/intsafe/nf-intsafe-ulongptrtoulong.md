@@ -7,8 +7,8 @@ old-location: shell\ULongPtrToULong.htm
 old-project: shell
 ms.assetid: 7cae7414-055c-4362-8023-71ff9db20cbb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: DWordPtrToDWord, DWordPtrToULong, SIZETToULong, ULongPtrToDWord, ULongPtrToULong, ULongPtrToULong function [Windows Shell], _shell_ULongPtrToULong, intsafe/ULongPtrToULong, shell.ULongPtrToULong
+ms.date: 5/16/2018
+ms.keywords: DWordPtrToDWord, DWordPtrToULong, SIZETToDWord, SIZETToULong, ULongPtrToDWord, ULongPtrToULong, ULongPtrToULong function [Windows Shell], _shell_ULongPtrToULong, intsafe/ULongPtrToULong, shell.ULongPtrToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,6 +96,8 @@ This is one of a set of inline functions designed to provide type conversions an
 <b>ULongPtrToDWord</b> is an alias for this function.
 
 <b>DWordPtrToDWord</b> is an alias for this function.
+
+<b>SIZETToDWord</b> is an alias for this function.
 
 
 

@@ -7,7 +7,7 @@ old-location: mf\imfcapturesource_getdevicestreamcount.htm
 old-project: medfound
 ms.assetid: 0CD466EF-4753-42F6-A9B9-71CBB0668342
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetDeviceStreamCount, GetDeviceStreamCount method [Media Foundation], GetDeviceStreamCount method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetDeviceStreamCount method, IMFCaptureSource.GetDeviceStreamCount, IMFCaptureSource::GetDeviceStreamCount, mf.imfcapturesource_getdevicestreamcount, mfcaptureengine/IMFCaptureSource::GetDeviceStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextPathType_pathType_
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\nextpathtype.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GraphicsPathIterator class [GDI+],NextPathType method, GraphicsPathIterator.NextPathType, GraphicsPathIterator::NextPathType, NextPathType, NextPathType method [GDI+], NextPathType method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_NextPathType_pathType_startIndex_endIndex_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextPathType_pathType_startIndex_endIndex_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\initializeenclave.htm
 old-project: Memory
 ms.assetid: 6A711135-A522-40AE-965F-E1AF97D0076A
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: InitializeEnclave, InitializeEnclave function, base.initializeenclave, enclaveapi/InitializeEnclave
 ms.prod: windows-hardware
 ms.technology: windows-devices

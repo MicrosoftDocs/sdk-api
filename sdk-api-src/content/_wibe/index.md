@@ -2,11 +2,12 @@
 UID: TP:wibe
 ms.assetid: d29980a8-57dd-3a84-8b40-97d870d7b460
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # WPF Bitmap Effects
@@ -26,6 +27,7 @@ For the programming guide, see [WPF Bitmap Effects](https://review.docs.microsof
 | Title   | Description   |
 | ---- |:---- |
 | [MILMatrixF structure](..\mileffects\ns-mileffects-milmatrixf.md) | Represents a 4x4 affine transformation matrix. |
+| [MilMatrix3x2D structure](..\mileffects\ns-mileffects-milmatrix3x2d.md) | Represents a 3x3 matrix. |
 | [MilPoint2D structure](..\mileffects\ns-mileffects-milpoint2d.md) | Represents an x- and y-coordinate pair in two-dimensional space. |
 | [MilRectD structure](..\mileffects\ns-mileffects-milrectd.md) | Describes the width, height, and location of a rectangle. |
 

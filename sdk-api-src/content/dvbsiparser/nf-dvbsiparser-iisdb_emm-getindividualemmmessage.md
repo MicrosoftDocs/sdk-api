@@ -7,7 +7,7 @@ old-location: mstv\iisdb_emm_getindividualemmmessage.htm
 old-project: mstv
 ms.assetid: 311b4efb-dacb-41e1-a798-913e3f99b168
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetIndividualEmmMessage, GetIndividualEmmMessage method [Microsoft TV Technologies], GetIndividualEmmMessage method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetIndividualEmmMessage method, IISDB_EMM.GetIndividualEmmMessage, IISDB_EMM::GetIndividualEmmMessage, dvbsiparser/IISDB_EMM::GetIndividualEmmMessage, mstv.iisdb_emm_getindividualemmmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

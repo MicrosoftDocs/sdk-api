@@ -7,7 +7,7 @@ old-location: security\icspinformation_name_property.htm
 old-project: SecCertEnroll
 ms.assetid: 86f6993d-c96e-4753-9670-fdcc30e8c019
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ICspInformation interface [Security],Name property, ICspInformation.Name, ICspInformation.get_Name, ICspInformation::Name, ICspInformation::get_Name, Name property [Security], Name property [Security],ICspInformation interface, certenroll/ICspInformation::Name, certenroll/ICspInformation::get_Name, get_Name, security.icspinformation_name_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

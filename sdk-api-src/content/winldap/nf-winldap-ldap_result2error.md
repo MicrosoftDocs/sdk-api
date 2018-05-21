@@ -7,7 +7,7 @@ old-location: ldap\ldap_result2error.htm
 old-project: LDAP
 ms.assetid: 67198ed0-c210-4eb1-b0f9-13cdb128c57d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_result2error, ldap.ldap__result2error, ldap.ldap_result2error, ldap_result2error, ldap_result2error function [LDAP], winldap/ldap_result2error"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\setmapmode.htm
 old-project: gdi
 ms.assetid: a4d6a63a-6d2d-4bd9-9e71-4cd1b5f145a4
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: MM_ANISOTROPIC, MM_HIENGLISH, MM_HIMETRIC, MM_ISOTROPIC, MM_LOENGLISH, MM_LOMETRIC, MM_TEXT, MM_TWIPS, SetMapMode, SetMapMode function [Windows GDI], _win32_SetMapMode, gdi.setmapmode, wingdi/SetMapMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

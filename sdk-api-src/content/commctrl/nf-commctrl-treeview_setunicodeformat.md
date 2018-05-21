@@ -7,7 +7,7 @@ old-location: controls\TreeView_SetUnicodeFormat.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setunicodeformat.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: TreeView_SetUnicodeFormat, TreeView_SetUnicodeFormat macro [Windows Controls], _win32_TreeView_SetUnicodeFormat, _win32_TreeView_SetUnicodeFormat_cpp, commctrl/TreeView_SetUnicodeFormat, controls.TreeView_SetUnicodeFormat, controls._win32_TreeView_SetUnicodeFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

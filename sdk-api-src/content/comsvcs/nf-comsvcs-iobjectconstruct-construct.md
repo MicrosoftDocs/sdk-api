@@ -7,7 +7,7 @@ old-location: cos\iobjectconstruct_construct.htm
 old-project: cossdk
 ms.assetid: 6bbb25c7-bd60-46cb-baed-114c50feb1f3
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: Construct, Construct method [COM+], Construct method [COM+],IObjectConstruct interface, IObjectConstruct interface [COM+],Construct method, IObjectConstruct.Construct, IObjectConstruct::Construct, _cos_IObjectConstruct_Construct, comsvcs/IObjectConstruct::Construct, cos.iobjectconstruct_construct
 ms.prod: windows-hardware
 ms.technology: windows-devices

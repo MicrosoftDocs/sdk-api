@@ -7,7 +7,7 @@ old-location: rras\createstaticservice.htm
 old-project: RRAS
 ms.assetid: 529beae6-ba39-417c-8fa6-7b97fc720352
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CreateStaticService, CreateStaticService callback function [RAS], PCREATE_STATIC_SERVICE, PCREATE_STATIC_SERVICE callback, _mpr_createstaticservice, rras.createstaticservice, stm/CreateStaticService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # PCREATE_STATIC_SERVICE callback function

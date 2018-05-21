@@ -2,7 +2,7 @@
 UID: NA:windowsstoragecom
 ms.assetid: a14812d9-7fe5-3987-9160-1f397b3c3877
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

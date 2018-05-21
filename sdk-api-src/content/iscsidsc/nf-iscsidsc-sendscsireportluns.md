@@ -7,7 +7,7 @@ old-location: iscsidisc\sendscsireportluns.htm
 old-project: iSCSIDisc
 ms.assetid: 0898daf0-67ae-47a4-90bf-2112b6e6b20c
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/11/2018
 ms.keywords: SendScsiReportLuns, SendScsiReportLuns function [iSCSI Discovery Library API], iscsidisc.sendscsireportluns, iscsidsc/SendScsiReportLuns
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itlegacycallmediacontrol2_generatecustomtones.htm
 old-project: Tapi
 ms.assetid: fcc5d3c9-a7ab-4467-a948-b9fd68afe7b4
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: GenerateCustomTones, GenerateCustomTones method [TAPI 2.2], GenerateCustomTones method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GenerateCustomTones method, ITLegacyCallMediaControl2.GenerateCustomTones, ITLegacyCallMediaControl2::GenerateCustomTones, _tapi3_itlegacycallmediacontrol2_generatecustomtones, tapi3.itlegacycallmediacontrol2_generatecustomtones, tapi3if/ITLegacyCallMediaControl2::GenerateCustomTones
 ms.prod: windows-hardware
 ms.technology: windows-devices

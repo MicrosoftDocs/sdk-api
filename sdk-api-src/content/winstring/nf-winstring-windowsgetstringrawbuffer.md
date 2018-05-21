@@ -7,7 +7,7 @@ old-location: winrt\windowsgetstringrawbuffer.htm
 old-project: WinRT
 ms.assetid: D2906CD0-7529-459E-A0E9-66D29A5DD1B0
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: WindowsGetStringRawBuffer, WindowsGetStringRawBuffer function [Windows Runtime], winrt.windowsgetstringrawbuffer, winstring/WindowsGetStringRawBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getfutureuse2.htm
 old-project: mstv
 ms.assetid: 19404536-3104-4ac7-a979-73236007d553
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetFutureUse2, GetFutureUse2 method [Microsoft TV Technologies], GetFutureUse2 method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetFutureUse2 method, IIsdbHierarchicalTransmissionDescriptor.GetFutureUse2, IIsdbHierarchicalTransmissionDescriptor::GetFutureUse2, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetFutureUse2, mstv.iisdbhierarchicaltransmissiondescriptor_getfutureuse2
 ms.prod: windows-hardware
 ms.technology: windows-devices

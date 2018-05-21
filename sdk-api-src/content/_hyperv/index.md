@@ -2,7 +2,7 @@
 UID: TP:hyperv
 ms.assetid: 61481173-288c-3c51-981d-d766e94aef88
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

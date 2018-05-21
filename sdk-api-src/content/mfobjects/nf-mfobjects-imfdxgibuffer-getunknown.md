@@ -7,7 +7,7 @@ old-location: mf\imfdxgibuffer_getunknown.htm
 old-project: medfound
 ms.assetid: 6B4A5E79-3A0A-439E-ABE1-F92C3D07FB57
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetUnknown, GetUnknown method [Media Foundation], GetUnknown method [Media Foundation],IMFDXGIBuffer interface, IMFDXGIBuffer interface [Media Foundation],GetUnknown method, IMFDXGIBuffer.GetUnknown, IMFDXGIBuffer::GetUnknown, mf.imfdxgibuffer_getunknown, mfobjects/IMFDXGIBuffer::GetUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices

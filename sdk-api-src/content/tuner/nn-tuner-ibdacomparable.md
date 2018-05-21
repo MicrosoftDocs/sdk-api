@@ -7,7 +7,7 @@ old-location: mstv\ibdacomparable.htm
 old-project: mstv
 ms.assetid: 6f582ae2-d8c6-4d85-a01f-e98c6ee16021
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IBDAComparable, IBDAComparable interface [Microsoft TV Technologies], IBDAComparable interface [Microsoft TV Technologies],described, IBDAComparableInterface, mstv.ibdacomparable, tuner/IBDAComparable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\ipin_newsegment.htm
 old-project: DirectShow
 ms.assetid: 70c4bda0-3efa-4f85-b71e-174c4c80830c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IPin interface [DirectShow],NewSegment method, IPin.NewSegment, IPin::NewSegment, IPinNewSegment, NewSegment, NewSegment method [DirectShow], NewSegment method [DirectShow],IPin interface, dshow.ipin_newsegment, strmif/IPin::NewSegment
 ms.prod: windows-hardware
 ms.technology: windows-devices

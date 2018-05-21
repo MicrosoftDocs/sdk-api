@@ -2,7 +2,7 @@
 UID: TP:controls
 ms.assetid: 8fd04b8c-ce59-322c-a20f-91a83d03f80a
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,5 +28,6 @@ To develop Windows Controls, you need these headers:
  * [tom.h](..\tom\index.md)
  * [uxtheme.h](..\uxtheme\index.md)
  * [windowsx.h](..\windowsx\index.md)
+ * [winuser.h](..\winuser\index.md)
 
 For the programming guide, see [Windows Controls](https://review.docs.microsoft.com/en-us/win32-test/controls).

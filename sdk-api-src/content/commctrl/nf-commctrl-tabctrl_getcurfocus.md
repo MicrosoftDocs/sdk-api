@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_GetCurFocus.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getcurfocus.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: TabCtrl_GetCurFocus, TabCtrl_GetCurFocus macro [Windows Controls], _win32_TabCtrl_GetCurFocus, _win32_TabCtrl_GetCurFocus_cpp, commctrl/TabCtrl_GetCurFocus, controls.TabCtrl_GetCurFocus, controls._win32_TabCtrl_GetCurFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

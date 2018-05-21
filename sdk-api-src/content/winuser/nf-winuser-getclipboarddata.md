@@ -7,7 +7,7 @@ old-location: dataxchg\getclipboarddata.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboarddata.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: GetClipboardData, GetClipboardData function [Data Exchange], _win32_GetClipboardData, _win32_getclipboarddata_cpp, dataxchg.getclipboarddata, winui._win32_getclipboarddata, winuser/GetClipboardData
 ms.prod: windows-hardware
 ms.technology: windows-devices

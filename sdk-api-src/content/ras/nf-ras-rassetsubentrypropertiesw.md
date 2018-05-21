@@ -7,7 +7,7 @@ old-location: rras\rassetsubentryproperties.htm
 old-project: RRAS
 ms.assetid: 6bbc826b-e296-42d0-89d0-a13d0ce94929
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RasSetSubEntryProperties, RasSetSubEntryProperties function [RAS], RasSetSubEntryPropertiesA, RasSetSubEntryPropertiesW, _ras_rassetsubentryproperties, ras/RasSetSubEntryProperties, ras/RasSetSubEntryPropertiesA, ras/RasSetSubEntryPropertiesW, rras.rassetsubentryproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

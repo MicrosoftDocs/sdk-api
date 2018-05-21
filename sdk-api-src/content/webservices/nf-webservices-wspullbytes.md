@@ -7,7 +7,7 @@ old-location: wsw\wspullbytes.htm
 old-project: wsw
 ms.assetid: 39e25db6-e51f-45cb-9739-260e7c246fcc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsPullBytes, WsPullBytes function [Web Services for Windows], webservices/WsPullBytes, wsw.wspullbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices

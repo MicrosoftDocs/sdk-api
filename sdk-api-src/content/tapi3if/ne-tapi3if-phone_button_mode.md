@@ -7,7 +7,7 @@ old-location: tapi3\phone_button_mode.htm
 old-project: Tapi
 ms.assetid: ae410224-bb01-4d56-95e8-1c2ead544cf1
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: PBM_CALL, PBM_DISPLAY, PBM_DUMMY, PBM_FEATURE, PBM_KEYPAD, PBM_LOCAL, PHONE_BUTTON_MODE, PHONE_BUTTON_MODE enumeration [TAPI 2.2], _tapi3_phone_button_mode, tapi3.phone_button_mode, tapi3if/PBM_CALL, tapi3if/PBM_DISPLAY, tapi3if/PBM_DUMMY, tapi3if/PBM_FEATURE, tapi3if/PBM_KEYPAD, tapi3if/PBM_LOCAL, tapi3if/PHONE_BUTTON_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

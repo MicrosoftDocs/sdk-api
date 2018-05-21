@@ -7,7 +7,7 @@ old-location: winprog\fnfcifileplaced.htm
 old-project: DevNotes
 ms.assetid: f8a1bcfc-8a13-49cf-a3e7-caec6c6421b0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FNFCIFILEPLACED, FNFCIFILEPLACED macro [Windows API], fci/FNFCIFILEPLACED, winprog.fnfcifileplaced
 ms.prod: windows-hardware
 ms.technology: windows-devices

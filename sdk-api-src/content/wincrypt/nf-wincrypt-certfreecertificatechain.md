@@ -7,7 +7,7 @@ old-location: security\certfreecertificatechain.htm
 old-project: SecCrypto
 ms.assetid: 5ba181c2-6936-4848-a571-2bb58f46f081
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CertFreeCertificateChain, CertFreeCertificateChain function [Security], _crypto2_certfreecertificatechain, security.certfreecertificatechain, wincrypt/CertFreeCertificateChain
 ms.prod: windows-hardware
 ms.technology: windows-devices

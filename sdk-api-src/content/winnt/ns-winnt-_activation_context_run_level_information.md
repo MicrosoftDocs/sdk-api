@@ -7,7 +7,7 @@ old-location: setup\activation_context_run_level_information.htm
 old-project: SbsCs
 ms.assetid: 1c4e7333-6982-4d58-ab2a-d1993c59d0ef
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: "*PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION structure [Side-by-side Assemblies], PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION structure pointer [Side-by-side Assemblies], _ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, setup.activation_context_run_level_information, winnt/ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION, winnt/PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

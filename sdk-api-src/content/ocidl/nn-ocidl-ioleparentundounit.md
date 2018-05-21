@@ -7,7 +7,7 @@ old-location: com\ioleparentundounit.htm
 old-project: com
 ms.assetid: 4407d673-286a-4221-ae35-09b9865161f8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IOleParentUndoUnit, IOleParentUndoUnit interface [COM], IOleParentUndoUnit interface [COM],described, _ole_ioleparentundounit, com.ioleparentundounit, ocidl/IOleParentUndoUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices

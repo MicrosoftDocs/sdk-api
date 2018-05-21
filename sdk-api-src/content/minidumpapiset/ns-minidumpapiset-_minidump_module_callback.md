@@ -7,7 +7,7 @@ old-location: base\minidump_module_callback_str.htm
 old-project: Debug
 ms.assetid: 8ca48df0-ed0e-4ee3-a20a-d89057be37f3
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: "*PMINIDUMP_MODULE_CALLBACK, MINIDUMP_MODULE_CALLBACK, MINIDUMP_MODULE_CALLBACK structure, PMINIDUMP_MODULE_CALLBACK, PMINIDUMP_MODULE_CALLBACK structure pointer, _MINIDUMP_MODULE_CALLBACK, _win32_minidump_module_callback_str, base.minidump_module_callback_str, minidumpapiset/MINIDUMP_MODULE_CALLBACK, minidumpapiset/PMINIDUMP_MODULE_CALLBACK"
 ms.prod: windows-hardware
 ms.technology: windows-devices

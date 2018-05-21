@@ -7,7 +7,7 @@ old-location: base\waitformultipleobjectsex.htm
 old-project: Sync
 ms.assetid: 47a167fb-4714-4353-b924-a161f367673c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/17/2018
 ms.keywords: WaitForMultipleObjectsEx, WaitForMultipleObjectsEx function, _win32_waitformultipleobjectsex, base.waitformultipleobjectsex, synchapi/WaitForMultipleObjectsEx, winbase/WaitForMultipleObjectsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

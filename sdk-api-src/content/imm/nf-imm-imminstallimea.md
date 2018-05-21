@@ -7,7 +7,7 @@ old-location: intl\imminstallime.htm
 old-project: Intl
 ms.assetid: 8743908b-c9b4-41ff-952e-039253fb1246
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ImmInstallIME, ImmInstallIME function [Internationalization for Windows Applications], ImmInstallIMEA, ImmInstallIMEW, _win32_ImmInstallIME, imm/ImmInstallIME, imm/ImmInstallIMEA, imm/ImmInstallIMEW, intl.imminstallime
 ms.prod: windows-hardware
 ms.technology: windows-devices

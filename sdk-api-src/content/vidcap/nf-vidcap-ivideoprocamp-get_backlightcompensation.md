@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_backlightcompensation.htm
 old-project: DirectShow
 ms.assetid: 1b0b4c06-5958-446e-bd06-4ee6f90b6e78
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_BacklightCompensation method, IVideoProcAmp.get_BacklightCompensation, IVideoProcAmp::get_BacklightCompensation, IVideoProcAmpget_BacklightCompensation, dshow.ivideoprocamp_get_backlightcompensation, get_BacklightCompensation, get_BacklightCompensation method [DirectShow], get_BacklightCompensation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_BacklightCompensation
 ms.prod: windows-hardware
 ms.technology: windows-devices

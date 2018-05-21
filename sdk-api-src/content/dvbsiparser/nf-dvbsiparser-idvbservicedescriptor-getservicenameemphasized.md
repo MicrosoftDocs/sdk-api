@@ -7,7 +7,7 @@ old-location: mstv\idvbservicedescriptor_getservicenameemphasized.htm
 old-project: mstv
 ms.assetid: 232bdf11-b9f5-48cd-8cd5-f03cd589d43e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetServiceNameEmphasized, GetServiceNameEmphasized method [Microsoft TV Technologies], GetServiceNameEmphasized method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetServiceNameEmphasized method, IDvbServiceDescriptor.GetServiceNameEmphasized, IDvbServiceDescriptor::GetServiceNameEmphasized, dvbsiparser/IDvbServiceDescriptor::GetServiceNameEmphasized, mstv.idvbservicedescriptor_getservicenameemphasized
 ms.prod: windows-hardware
 ms.technology: windows-devices

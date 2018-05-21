@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumsubnetclientsfilterstatusinfo.htm
 old-project: DHCP
 ms.assetid: a88455ca-ba64-46d0-af8f-be90c57d96f3
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpEnumSubnetClientsFilterStatusInfo, DhcpEnumSubnetClientsFilterStatusInfo function [DHCP], dhcp.dhcpenumsubnetclientsfilterstatusinfo, dhcpsapi/DhcpEnumSubnetClientsFilterStatusInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\inateventmanager_put_numberofentriescallback.htm
 old-project: ICS
 ms.assetid: a02a0f1e-5085-444b-adc4-c3cd919f7e25
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INATEventManager interface [ICS/ICF],put_NumberOfEntriesCallback method, INATEventManager.put_NumberOfEntriesCallback, INATEventManager::put_NumberOfEntriesCallback, _ics_inateventmanager_put_numberofentriescallback, ics.inateventmanager_put_numberofentriescallback, natupnp/INATEventManager::put_NumberOfEntriesCallback, put_NumberOfEntriesCallback, put_NumberOfEntriesCallback method [ICS/ICF], put_NumberOfEntriesCallback method [ICS/ICF],INATEventManager interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

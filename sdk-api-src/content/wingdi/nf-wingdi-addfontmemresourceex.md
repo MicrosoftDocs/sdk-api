@@ -7,7 +7,7 @@ old-location: gdi\addfontmemresourceex.htm
 old-project: gdi
 ms.assetid: ad5153ba-fa9d-4a07-9be3-a07b524c1539
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: AddFontMemResourceEx, AddFontMemResourceEx function [Windows GDI], _win32_AddFontMemResourceEx, gdi.addfontmemresourceex, wingdi/AddFontMemResourceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ITextPara_ClearAllTabs.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\clearalltabs.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ClearAllTabs, ClearAllTabs method [Windows Controls], ClearAllTabs method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],ClearAllTabs method, ITextPara.ClearAllTabs, ITextPara::ClearAllTabs, _win32_ITextPara_ClearAllTabs, _win32_ITextPara_ClearAllTabs_cpp, controls.ITextPara_ClearAllTabs, controls._win32_ITextPara_ClearAllTabs, tom/ITextPara::ClearAllTabs
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\iaudioendpointrt_getcurrentpadding.htm
 old-project: TermServ
 ms.assetid: f61497c8-35da-4fbf-af83-1f15d5fe94f7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: GetCurrentPadding, GetCurrentPadding method [Remote Desktop Services], GetCurrentPadding method [Remote Desktop Services],IAudioEndpointRT interface, IAudioEndpointRT interface [Remote Desktop Services],GetCurrentPadding method, IAudioEndpointRT.GetCurrentPadding, IAudioEndpointRT::GetCurrentPadding, audioengineendpoint/IAudioEndpointRT::GetCurrentPadding, termserv.iaudioendpointrt_getcurrentpadding
 ms.prod: windows-hardware
 ms.technology: windows-devices

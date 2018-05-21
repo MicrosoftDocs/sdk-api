@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsetglobalroutinginfo.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3jlb.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxSetGlobalRoutingInfo, FaxSetGlobalRoutingInfo function [Fax Service], FaxSetGlobalRoutingInfoA, FaxSetGlobalRoutingInfoW, _mfax_faxsetglobalroutinginfo, fax._mfax_faxsetglobalroutinginfo, winfax/FaxSetGlobalRoutingInfo, winfax/FaxSetGlobalRoutingInfoA, winfax/FaxSetGlobalRoutingInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

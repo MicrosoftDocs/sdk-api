@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothsdpenumattributes.htm
 old-project: Bluetooth
 ms.assetid: 3113db03-a32f-47ad-a442-3769f41ee8e7
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothSdpEnumAttributes, BluetoothSdpEnumAttributes function [Bluetooth], bluetooth.bluetoothsdpenumattributes, bluetoothapis/BluetoothSdpEnumAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

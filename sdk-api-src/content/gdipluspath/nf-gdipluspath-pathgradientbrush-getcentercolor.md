@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetCenterColor_color_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getcentercolor.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetCenterColor, GetCenterColor method [GDI+], GetCenterColor method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetCenterColor method, PathGradientBrush.GetCenterColor, PathGradientBrush::GetCenterColor, _gdiplus_CLASS_PathGradientBrush_GetCenterColor_color_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetCenterColor_color_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: menurc\getmenuitemid.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuitemid.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: GetMenuItemID, GetMenuItemID function [Menus and Other Resources], _win32_GetMenuItemID, _win32_getmenuitemid_cpp, menurc.getmenuitemid, winui._win32_getmenuitemid, winuser/GetMenuItemID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winrt\getrestrictederrorinfo.htm
 old-project: WinRT
 ms.assetid: CA459E57-90D5-44F6-A896-4E1C2FA0DC57
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: GetRestrictedErrorInfo, GetRestrictedErrorInfo function [Windows Runtime], roerrorapi/GetRestrictedErrorInfo, winrt.getrestrictederrorinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icertpropertyrenewal_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: dc1e124e-400a-4f1e-8e87-095b6a3341d4
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ICertPropertyRenewal interface [Security],Initialize method, ICertPropertyRenewal.Initialize, ICertPropertyRenewal::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyRenewal interface, certenroll/ICertPropertyRenewal::Initialize, security.icertpropertyrenewal_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

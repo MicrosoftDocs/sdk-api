@@ -7,7 +7,7 @@ old-location: iphlp\getunicastipaddresstable.htm
 old-project: IpHlp
 ms.assetid: bdafc4a4-5f3c-4dd5-ba9b-4f6045a82652
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetUnicastIpAddressTable, GetUnicastIpAddressTable function [IP Helper], iphlp.getunicastipaddresstable, netioapi/GetUnicastIpAddressTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

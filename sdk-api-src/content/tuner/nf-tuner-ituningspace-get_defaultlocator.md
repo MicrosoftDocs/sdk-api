@@ -7,7 +7,7 @@ old-location: mstv\ituningspace_get_defaultlocator.htm
 old-project: mstv
 ms.assetid: facc14bd-182e-4b8e-a567-1bf1d3c4ff36
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_DefaultLocator method, ITuningSpace.get_DefaultLocator, ITuningSpace::get_DefaultLocator, ITuningSpaceget_DefaultLocator, get_DefaultLocator, get_DefaultLocator method [Microsoft TV Technologies], get_DefaultLocator method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_defaultlocator, tuner/ITuningSpace::get_DefaultLocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

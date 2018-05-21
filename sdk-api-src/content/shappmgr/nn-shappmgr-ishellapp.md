@@ -7,7 +7,7 @@ old-location: shell\IShellApp.htm
 old-project: shell
 ms.assetid: 2f56744c-a10e-423f-8b8f-c3257e560310
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IShellApp, IShellApp interface [Windows Shell], IShellApp interface [Windows Shell],described, inet_IShellApp, shappmgr/IShellApp, shell.IShellApp
 ms.prod: windows-hardware
 ms.technology: windows-devices

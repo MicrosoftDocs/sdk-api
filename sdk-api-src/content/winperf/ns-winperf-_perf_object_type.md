@@ -7,7 +7,7 @@ old-location: perf\perf_object_type_str.htm
 old-project: PerfCtrs
 ms.assetid: 9ed4f890-6256-45fd-a310-b5963a6131ae
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: "*PPERF_OBJECT_TYPE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PERF_OBJECT_TYPE, PERF_OBJECT_TYPE structure [Perf], _PERF_OBJECT_TYPE, _win32_perf_object_type_str, base.perf_object_type_str, perf.perf_object_type_str, winperf/PERF_OBJECT_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

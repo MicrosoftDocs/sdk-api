@@ -7,7 +7,7 @@ old-location: tapi3\itrendezvous_createdirectoryobject.htm
 old-project: Tapi
 ms.assetid: e3ad77cf-9112-4561-896c-2eba7e07eb19
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: CreateDirectoryObject, CreateDirectoryObject method [TAPI 2.2], CreateDirectoryObject method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],CreateDirectoryObject method, ITRendezvous.CreateDirectoryObject, ITRendezvous::CreateDirectoryObject, _tapi3_itrendezvous_createdirectoryobject, rend/ITRendezvous::CreateDirectoryObject, tapi3.itrendezvous_createdirectoryobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

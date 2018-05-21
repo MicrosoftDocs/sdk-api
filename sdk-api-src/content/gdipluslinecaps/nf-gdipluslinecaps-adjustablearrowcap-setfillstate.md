@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_SetFillState_isFilled_.h
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\setfillstate.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: AdjustableArrowCap class [GDI+],SetFillState method, AdjustableArrowCap.SetFillState, AdjustableArrowCap::SetFillState, SetFillState, SetFillState method [GDI+], SetFillState method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_SetFillState_isFilled_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetFillState_isFilled_
 ms.prod: windows-hardware
 ms.technology: windows-devices

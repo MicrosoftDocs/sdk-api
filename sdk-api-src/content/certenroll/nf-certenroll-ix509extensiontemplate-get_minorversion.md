@@ -7,7 +7,7 @@ old-location: security\ix509extensiontemplate_minorversion_property.htm
 old-project: SecCertEnroll
 ms.assetid: 0fb17099-4bf6-405c-8b54-4280a8023256
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509ExtensionTemplate interface [Security],MinorVersion property, IX509ExtensionTemplate.MinorVersion, IX509ExtensionTemplate.get_MinorVersion, IX509ExtensionTemplate::MinorVersion, IX509ExtensionTemplate::get_MinorVersion, MinorVersion property [Security], MinorVersion property [Security],IX509ExtensionTemplate interface, certenroll/IX509ExtensionTemplate::MinorVersion, certenroll/IX509ExtensionTemplate::get_MinorVersion, get_MinorVersion, security.ix509extensiontemplate_minorversion_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

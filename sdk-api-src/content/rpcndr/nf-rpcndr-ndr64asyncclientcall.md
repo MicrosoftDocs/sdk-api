@@ -7,7 +7,7 @@ old-location: rpc\ndr64asyncclientcall.htm
 old-project: Rpc
 ms.assetid: 0C2188A9-CEAA-487F-9385-48E9BF7773B9
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: Ndr64AsyncClientCall, Ndr64AsyncClientCall function [RPC], rpc.ndr64asyncclientcall, rpcndr/Ndr64AsyncClientCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

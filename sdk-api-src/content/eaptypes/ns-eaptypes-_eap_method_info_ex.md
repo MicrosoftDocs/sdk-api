@@ -7,7 +7,7 @@ old-location: eaphost\eap_method_info_ex.htm
 old-project: EAPHost
 ms.assetid: 2d25f418-2130-4f9c-b3f4-f639dfba020a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EAP_METHOD_INFO_EX, EAP_METHOD_INFO_EX structure [EAPHost], _EAP_METHOD_INFO_EX, eaphost.eap_method_info_ex, eaptypes/EAP_METHOD_INFO_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices

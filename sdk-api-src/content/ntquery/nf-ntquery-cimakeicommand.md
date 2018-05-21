@@ -7,7 +7,7 @@ old-location: indexsrv\cimakeicommand.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9u90.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CIMakeICommand, CIMakeICommand function [Indexing Service], _idxs_CIMakeICommand, indexsrv.cimakeicommand, ntquery/CIMakeICommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

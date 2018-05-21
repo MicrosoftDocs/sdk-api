@@ -7,7 +7,7 @@ old-location: winrt\identitytype.htm
 old-project: WinRT
 ms.assetid: 17EBFEE2-903A-4B64-A59F-D94E96E4457E
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: ActivateAsActivator, ActivateAsPackage, IdentityType, IdentityType enumeration [Windows Runtime], RunAs, activationregistration/ActivateAsActivator, activationregistration/ActivateAsPackage, activationregistration/IdentityType, activationregistration/RunAs, winrt.identitytype
 ms.prod: windows-hardware
 ms.technology: windows-devices

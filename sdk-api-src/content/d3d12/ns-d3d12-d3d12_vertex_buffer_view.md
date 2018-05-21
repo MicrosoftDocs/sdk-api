@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_vertex_buffer_view.htm
 old-project: direct3d12
 ms.assetid: 7EFE1929-FCDD-48DD-99E4-135D8B515290
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12_VERTEX_BUFFER_VIEW, D3D12_VERTEX_BUFFER_VIEW structure, d3d12/D3D12_VERTEX_BUFFER_VIEW, direct3d12.d3d12_vertex_buffer_view
 ms.prod: windows-hardware
 ms.technology: windows-devices

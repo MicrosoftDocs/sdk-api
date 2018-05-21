@@ -7,7 +7,7 @@ old-location: mib\mib_udp6row.htm
 old-project: MIB
 ms.assetid: c2cc4f77-8557-4206-9e46-aadf065eb8df
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PMIB_UDP6ROW, MIB_UDP6ROW, MIB_UDP6ROW structure [MIB], PMIB_UDP6ROW, PMIB_UDP6ROW structure pointer [MIB], _MIB_UDP6ROW, mib.mib_udp6row, udpmib/MIB_UDP6ROW, udpmib/PMIB_UDP6ROW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

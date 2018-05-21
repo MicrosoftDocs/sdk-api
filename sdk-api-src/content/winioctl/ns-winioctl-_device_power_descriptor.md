@@ -7,7 +7,7 @@ old-location: fs\device_power_descriptor.htm
 old-project: FileIO
 ms.assetid: 63e51485-db3f-45ed-925e-0abf105c8aef
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PDEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR structure [Storage Devices], PDEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_POWER_DESCRIPTOR, fs.device_power_descriptor, fs.device_zero_power_odd_descriptor, winioctl/DEVICE_POWER_DESCRIPTOR, winioctl/PDEVICE_POWER_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,8 @@
+{
+  "tech": "input_ink",
+  "headers": [
+    "inkpresenterdesktop.h",
+    "inkrenderer.h"
+  ],
+  "displayName": "Ink input"
+}

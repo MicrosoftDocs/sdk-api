@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_objectdecl.htm
 old-project: wmi_v2
 ms.assetid: 8759FEE5-9703-443E-9A2D-982158BC2EFA
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_ObjectDecl, MI_ObjectDecl structure [Windows Management Infrastructure (MI)], _MI_ObjectDecl, mi/MI_ObjectDecl, wmi_v2.mi_objectdecl
 ms.prod: windows-hardware
 ms.technology: windows-devices

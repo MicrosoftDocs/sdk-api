@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxroutingmethod_get_friendlyname_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8cdh.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxRoutingMethod object [Fax Service],FriendlyName property, FaxRoutingMethod.FriendlyName, FriendlyName property [Fax Service], FriendlyName property [Fax Service],FaxRoutingMethod object, IFaxRoutingMethod.get_FriendlyName, IFaxRoutingMethod::get_FriendlyName, _mfax_ifaxroutingmethod_get_friendlyname, fax._mfax_ifaxroutingmethod_get_friendlyname, fax._mfax_ifaxroutingmethod_get_friendlyname_vb, get_FriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\reco_attrs.htm
 old-project: tablet
 ms.assetid: 5ebbb47f-1a11-4e97-8e45-29dbe07fe86d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: 5ebbb47f-1a11-4e97-8e45-29dbe07fe86d, RECO_ATTRS, RECO_ATTRS structure [Tablet PC], rectypes/RECO_ATTRS, tablet.reco_attrs, tagRECO_ATTRS
 ms.prod: windows-hardware
 ms.technology: windows-devices

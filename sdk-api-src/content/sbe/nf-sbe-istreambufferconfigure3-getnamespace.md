@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure3_getnamespace.htm
 old-project: mstv
 ms.assetid: c03b5edd-e2b2-4ac9-b2e7-080f3796a6cc
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetNamespace, GetNamespace method [Microsoft TV Technologies], GetNamespace method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, IStreamBufferConfigure3 interface [Microsoft TV Technologies],GetNamespace method, IStreamBufferConfigure3.GetNamespace, IStreamBufferConfigure3::GetNamespace, IStreamBufferConfigure3GetNamespace, mstv.istreambufferconfigure3_getnamespace, sbe/IStreamBufferConfigure3::GetNamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices

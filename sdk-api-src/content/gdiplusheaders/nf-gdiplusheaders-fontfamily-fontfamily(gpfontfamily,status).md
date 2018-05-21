@@ -2,21 +2,21 @@
 UID: NF:gdiplusheaders.FontFamily.FontFamily(GpFontFamily,Status)
 title: FontFamily::FontFamily(GpFontFamily,Status)
 author: windows-driver-content
-description: Creates an empty FontFamily::FontFamily object.
-old-location: gdiplus\_gdiplus_CLASS_FontFamily_FontFamily_.htm
+description: This topic lists the constructors of the FontFamily class. For a complete class listing, see FontFamilyClass.
+old-location: gdiplus\_gdiplus_CLASS_FontFamily_Constructors.htm
 old-project: gdiplus
-ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilyconstructors\fontfamily_11.htm
+ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilyconstructors.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
-ms.keywords: FontFamily, FontFamily class [GDI+],FontFamily constructor, FontFamily constructor [GDI+], FontFamily constructor [GDI+],FontFamily class, FontFamily.FontFamily, FontFamily.FontFamily(), FontFamily.FontFamily(GpFontFamily,Status), FontFamily::FontFamily, FontFamily::FontFamily(GpFontFamily,Status), _gdiplus_CLASS_FontFamily_FontFamily_, gdiplus._gdiplus_CLASS_FontFamily_FontFamily_
+ms.date: 5/14/2018
+ms.keywords: FontFamily, FontFamily constructors [GDI+], FontFamily.FontFamily, FontFamily.FontFamily(GpFontFamily,Status), FontFamily::FontFamily, FontFamily::FontFamily(GpFontFamily,Status), _gdiplus_CLASS_FontFamily_Constructors, gdiplus._gdiplus_CLASS_FontFamily_Constructors, gdiplusheaders/FontFamily
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
 req.header: gdiplusheaders.h
-req.include-header: Gdiplus.h
+req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	COM
+-	HeaderDef
 api_location:
--	Gdiplus.dll
+-	gdiplusheaders.h
 api_name:
 -	FontFamily.FontFamily
 product: Windows
 targetos: Windows
-req.lib: Gdiplus.lib
-req.dll: Gdiplus.dll
+req.lib: 
+req.dll: 
 req.irql: 
 req.product: GDI+ 1.0
 ---
@@ -50,22 +50,32 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates an empty <b>FontFamily::FontFamily</b> object.
+<span>This topic lists the constructors of the 
+			<a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a> class. For a complete class listing, see <b>FontFamilyClass</b>. 
+</span><h3>Overload list</h3><table>
+<tr>
+<th align="left" width="37%">Constructor</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/2d9e8f9e-9477-4b2b-b4b3-72781ede2c07">FontFamily()</a>
+</td>
+<td align="left" width="63%">
+Creates an empty <a href="https://msdn.microsoft.com/2d9e8f9e-9477-4b2b-b4b3-72781ede2c07">FontFamily::FontFamily</a> object.
 
+</td>
+</tr>
+<tr>
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/2879eb4e-7d3b-4e7c-a4ad-2d7479283345">FontFamily(WCHAR*,FontCollection*)</a>
+</td>
+<td align="left" width="63%">
+Creates a <a href="https://msdn.microsoft.com/2879eb4e-7d3b-4e7c-a4ad-2d7479283345">FontFamily::FontFamily</a> object based on a specified font family.
+
+</td>
+</tr>
+</table>
 
 ## -parameters
-
-
-
-
-### -param nativeFamily
-
-
-
-
-### -param status
-
-
-
-
 

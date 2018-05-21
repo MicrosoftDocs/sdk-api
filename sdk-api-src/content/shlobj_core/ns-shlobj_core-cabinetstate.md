@@ -7,7 +7,7 @@ old-location: shell\CABINETSTATE.htm
 old-project: shell
 ms.assetid: 4b82b6a8-c4c0-4af2-9612-0551376c1c62
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPCABINETSTATE, CABINETSTATE, CABINETSTATE structure [Windows Shell], FALSE, SHCONTF_FOLDERS, SHCONTF_NONFOLDERS, TRUE, _win32_CABINETSTATE, shell.CABINETSTATE, shlobj_core/CABINETSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

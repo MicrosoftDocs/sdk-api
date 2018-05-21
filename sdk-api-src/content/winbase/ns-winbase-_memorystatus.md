@@ -7,7 +7,7 @@ old-location: base\memorystatus_str.htm
 old-project: Memory
 ms.assetid: 7815ec8f-cacf-4c1b-b5f7-5bb3ef8d759c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPMEMORYSTATUS, LPMEMORYSTATUS, LPMEMORYSTATUS structure pointer, MEMORYSTATUS, MEMORYSTATUS structure, _MEMORYSTATUS, _win32_memorystatus_str, base.memorystatus_str, winbase/LPMEMORYSTATUS, winbase/MEMORYSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

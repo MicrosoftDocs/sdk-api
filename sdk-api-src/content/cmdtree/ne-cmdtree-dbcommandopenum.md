@@ -7,7 +7,7 @@ old-location: indexsrv\dbcommandopenum.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_6yp9.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DBCOMMANDOPENUM, DBCOMMANDOPENUM enumeration [Indexing Service], See below., _idxs_DBCOMMANDOPENUM, cmdtree/DBCOMMANDOPENUM, cmdtree/See below., indexsrv.dbcommandopenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

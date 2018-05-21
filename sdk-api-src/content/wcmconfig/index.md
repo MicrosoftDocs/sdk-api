@@ -2,11 +2,12 @@
 UID: NA:wcmconfig
 ms.assetid: 95ac423c-bf97-334b-a8ff-0e284ec817e7
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: smi
 ---
 

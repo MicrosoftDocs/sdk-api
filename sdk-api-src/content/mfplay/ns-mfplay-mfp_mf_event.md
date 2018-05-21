@@ -7,7 +7,7 @@ old-location: mf\mfp_mf_event.htm
 old-project: medfound
 ms.assetid: 61dec86d-919c-4b1b-ab2a-527d062ae0f8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFP_MF_EVENT, MFP_MF_EVENT structure [Media Foundation], mf.mfp_mf_event, mfplay/MFP_MF_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\saslinitializesecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: 9cc661b7-f1b0-4fb1-b799-5b318d87fd4d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: ISC_REQ_CONFIDENTIALITY, ISC_REQ_CONNECTION, ISC_REQ_EXTENDED_ERROR, ISC_REQ_INTEGRITY, ISC_REQ_MUTUAL_AUTH, ISC_REQ_REPLAY_DETECT, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, SaslInitializeSecurityContext, SaslInitializeSecurityContext function [Security], SaslInitializeSecurityContextA, SaslInitializeSecurityContextW, security.saslinitializesecuritycontext, sspi/SaslInitializeSecurityContext, sspi/SaslInitializeSecurityContextA, sspi/SaslInitializeSecurityContextW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SaslInitializeSecurityContextA function

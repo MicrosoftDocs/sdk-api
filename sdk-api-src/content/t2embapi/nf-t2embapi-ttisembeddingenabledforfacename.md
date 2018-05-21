@@ -7,7 +7,7 @@ old-location: gdi\ttisembeddingenabledforfacename.htm
 old-project: gdi
 ms.assetid: 1f494bb1-62c4-45c4-b1a5-df6842d94dcc
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: TTIsEmbeddingEnabledForFacename, TTIsEmbeddingEnabledForFacename function [Windows GDI], _win32_TTIsEmbeddingEnabledForFacename, gdi.ttisembeddingenabledforfacename, t2embapi/TTIsEmbeddingEnabledForFacename
 ms.prod: windows-hardware
 ms.technology: windows-devices

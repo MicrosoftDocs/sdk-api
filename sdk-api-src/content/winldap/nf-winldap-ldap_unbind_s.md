@@ -7,7 +7,7 @@ old-location: ldap\ldap_unbind_s.htm
 old-project: LDAP
 ms.assetid: b4dcf3cc-d4cb-40ca-a57e-150d4008108c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_unbind_s, ldap.ldap__unbind__s, ldap.ldap_unbind_s, ldap_unbind_s, ldap_unbind_s function [LDAP], winldap/ldap_unbind_s"
 ms.prod: windows-hardware
 ms.technology: windows-devices

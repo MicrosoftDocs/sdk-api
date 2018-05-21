@@ -7,7 +7,7 @@ old-location: base\stackframe_ex.htm
 old-project: Debug
 ms.assetid: d4606619-f9c5-41e9-8627-17846b98956a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPSTACKFRAME_EX, INLINE_FRAME_CONTEXT_IGNORE, INLINE_FRAME_CONTEXT_INIT, LPSTACKFRAME_EX, LPSTACKFRAME_EX structure pointer, STACKFRAME_EX, STACKFRAME_EX structure, _tagSTACKFRAME_EX, base.stackframe_ex, dbghelp/LPSTACKFRAME_EX, dbghelp/STACKFRAME_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

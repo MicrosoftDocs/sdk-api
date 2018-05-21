@@ -7,7 +7,7 @@ old-location: eaphost\eappeersetcredentials.htm
 old-project: EAPHost
 ms.assetid: d50a72bd-0b3f-4b68-be96-5debb3fd99f8
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapPeerSetCredentials, EapPeerSetCredentials function [EAPHost], eaphost.eappeersetcredentials, eapmethodpeerapis/EapPeerSetCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

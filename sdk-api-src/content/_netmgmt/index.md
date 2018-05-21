@@ -2,7 +2,7 @@
 UID: TP:netmgmt
 ms.assetid: 8945323d-7076-32b1-b620-104bd20964b6
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

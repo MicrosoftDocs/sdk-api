@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_edgetraversal.htm
 old-project: ICS
 ms.assetid: a45a8161-3273-4d43-86bf-34d1b776dbbc
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: EdgeTraversal property [ICS/ICF], EdgeTraversal property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],EdgeTraversal property, INetFwRule.EdgeTraversal, INetFwRule.put_EdgeTraversal, INetFwRule::EdgeTraversal, INetFwRule::get_EdgeTraversal, INetFwRule::put_EdgeTraversal, ics.inetfwrule_edgetraversal, netfw/INetFwRule::EdgeTraversal, netfw/INetFwRule::get_EdgeTraversal, netfw/INetFwRule::put_EdgeTraversal, put_EdgeTraversal
 ms.prod: windows-hardware
 ms.technology: windows-devices

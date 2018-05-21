@@ -7,7 +7,7 @@ old-location: fs\txflogcreatefilereadcontext.htm
 old-project: FileIO
 ms.assetid: 57218f53-adcd-4a9a-b772-d3dab576b8c1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: TxfLogCreateFileReadContext, TxfLogCreateFileReadContext function [Files], fs.txflogcreatefilereadcontext, txfw32/TxfLogCreateFileReadContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

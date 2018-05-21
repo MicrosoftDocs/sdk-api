@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeersetuicontext.htm
 old-project: EAPHost
 ms.assetid: f532dd65-d807-4880-9339-ba233e0faa38
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapHostPeerSetUIContext, EapHostPeerSetUIContext function [EAPHost], eaphost.eaphostpeersetuicontext, eappapis/EapHostPeerSetUIContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_findsample.htm
 old-project: Multimedia
 ms.assetid: 77927e6c-beee-4774-b727-5cd608cefb3d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FindSample, FindSample method [Windows Multimedia], FindSample method [Windows Multimedia],IAVIStream interface, IAVIStream interface [Windows Multimedia],FindSample method, IAVIStream.FindSample, IAVIStream::FindSample, _win32_IAVIStream_FindSample, multimedia.iavistream_findsample, vfw/IAVIStream::FindSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

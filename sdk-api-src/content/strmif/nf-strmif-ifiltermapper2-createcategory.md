@@ -7,7 +7,7 @@ old-location: dshow\ifiltermapper2_createcategory.htm
 old-project: DirectShow
 ms.assetid: 37dc50a0-530c-4b31-b766-9e161b04c6d5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CreateCategory, CreateCategory method [DirectShow], CreateCategory method [DirectShow],IFilterMapper2 interface, IFilterMapper2 interface [DirectShow],CreateCategory method, IFilterMapper2.CreateCategory, IFilterMapper2::CreateCategory, IFilterMapper2CreateCategory, dshow.ifiltermapper2_createcategory, strmif/IFilterMapper2::CreateCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices

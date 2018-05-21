@@ -7,7 +7,7 @@ old-location: winrm\iwsmanconnectionoptionsex2_proxyauthenticationusebasic.htm
 old-project: WinRM
 ms.assetid: 4bfce6f5-9980-4158-be1d-0f3ec081a9b2
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyAuthenticationUseBasic method, IWSManConnectionOptionsEx2.ProxyAuthenticationUseBasic, IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic, ProxyAuthenticationUseBasic, ProxyAuthenticationUseBasic method [Windows Remote Management], ProxyAuthenticationUseBasic method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxyauthenticationusebasic, wsmandisp/IWSManConnectionOptionsEx2::ProxyAuthenticationUseBasic
 ms.prod: windows-hardware
 ms.technology: windows-devices

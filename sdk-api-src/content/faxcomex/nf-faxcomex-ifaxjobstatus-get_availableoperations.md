@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxjobstatus_availableoperations_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1xwz.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],FaxJobStatus object, FaxJobStatus object [Fax Service],AvailableOperations property, FaxJobStatus.AvailableOperations, IFaxJobStatus.get_AvailableOperations, IFaxJobStatus::get_AvailableOperations, _mfax_faxjobstatus.availableoperations, fax._mfax_faxjobstatus_availableoperations, fax._mfax_faxjobstatus_availableoperations_vb, get_AvailableOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

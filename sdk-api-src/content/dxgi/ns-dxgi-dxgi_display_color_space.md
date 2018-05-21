@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_display_color_space.htm
 old-project: direct3ddxgi
 ms.assetid: AE549DD8-240C-41F9-9223-728BFCA19DD7
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: DXGI_DISPLAY_COLOR_SPACE, DXGI_DISPLAY_COLOR_SPACE structure [DXGI], direct3ddxgi.dxgi_display_color_space, dxgi/DXGI_DISPLAY_COLOR_SPACE
 ms.prod: windows-hardware
 ms.technology: windows-devices

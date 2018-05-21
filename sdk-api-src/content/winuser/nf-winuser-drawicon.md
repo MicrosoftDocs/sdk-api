@@ -7,7 +7,7 @@ old-location: menurc\drawicon.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\drawicon.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: DrawIcon, DrawIcon function [Menus and Other Resources], _win32_DrawIcon, _win32_drawicon_cpp, menurc.drawicon, winui._win32_drawicon, winuser/DrawIcon
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,7 +107,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 <b>DrawIcon</b> places the icon's upper-left corner at the location specified by the <i>X</i> and <i>Y</i> parameters. The location is subject to the current mapping mode of the device context. 
 
-<b>DrawIcon</b> draws the icon or cursor using the width and height specified by the system metric values for icons; for more information, see <a href="base.getsystemmetrics">GetSystemMetrics</a>.
+<b>DrawIcon</b> draws the icon or cursor using the width and height specified by the system metric values for icons; for more information, see <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>.
 
 
 #### Examples

@@ -7,7 +7,7 @@ old-location: security\ix509namevaluepair_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: 3e935718-a59a-443e-bff2-a010a41e7756
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509NameValuePair interface [Security],Initialize method, IX509NameValuePair.Initialize, IX509NameValuePair::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509NameValuePair interface, certenroll/IX509NameValuePair::Initialize, security.ix509namevaluepair_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

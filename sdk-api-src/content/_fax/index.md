@@ -2,11 +2,12 @@
 UID: TP:fax
 ms.assetid: 990b9f1f-aeba-3600-b458-c0e0d71308fc
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Fax Service

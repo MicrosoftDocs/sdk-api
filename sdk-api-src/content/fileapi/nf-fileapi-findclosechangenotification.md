@@ -7,7 +7,7 @@ old-location: fs\findclosechangenotification.htm
 old-project: FileIO
 ms.assetid: 17ca915c-3891-41f0-8816-6ac31c957afe
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: FindCloseChangeNotification, FindCloseChangeNotification function [Files], _win32_findclosechangenotification, base.findclosechangenotification, fileapi/FindCloseChangeNotification, fs.findclosechangenotification, winbase/FindCloseChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

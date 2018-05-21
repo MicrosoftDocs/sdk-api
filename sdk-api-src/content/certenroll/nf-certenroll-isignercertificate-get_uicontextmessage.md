@@ -7,7 +7,7 @@ old-location: security\isignercertificate_uicontextmessage_property.htm
 old-project: SecCertEnroll
 ms.assetid: 0fd874b0-9093-4c1b-94a0-a2aaad19010e
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ISignerCertificate interface [Security],UIContextMessage property, ISignerCertificate.UIContextMessage, ISignerCertificate.get_UIContextMessage, ISignerCertificate::UIContextMessage, ISignerCertificate::get_UIContextMessage, ISignerCertificate::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::UIContextMessage, certenroll/ISignerCertificate::get_UIContextMessage, certenroll/ISignerCertificate::put_UIContextMessage, get_UIContextMessage, security.isignercertificate_uicontextmessage_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

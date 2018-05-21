@@ -7,7 +7,7 @@ old-location: mstv\idvb_nit_registerfornexttable.htm
 old-project: mstv
 ms.assetid: f299cdcb-d0da-4e79-9f2d-c792bbb43313
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IDVB_NIT interface [Microsoft TV Technologies],RegisterForNextTable method, IDVB_NIT.RegisterForNextTable, IDVB_NIT::RegisterForNextTable, IDVB_NITRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IDVB_NIT interface, dvbsiparser/IDVB_NIT::RegisterForNextTable, mstv.idvb_nit_registerfornexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices

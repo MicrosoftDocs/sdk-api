@@ -7,7 +7,7 @@ old-location: dshow\iamtuner_put_mode.htm
 old-project: DirectShow
 ms.assetid: 4c0691fb-e291-43eb-9828-f58474a4334d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMTuner interface [DirectShow],put_Mode method, IAMTuner.put_Mode, IAMTuner::put_Mode, IAMTunerput_Mode, dshow.iamtuner_put_mode, put_Mode, put_Mode method [DirectShow], put_Mode method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_Mode
 ms.prod: windows-hardware
 ms.technology: windows-devices

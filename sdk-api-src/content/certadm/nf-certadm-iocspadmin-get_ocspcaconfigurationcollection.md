@@ -7,7 +7,7 @@ old-location: security\iocspadmin_ocspcaconfigurationcollection_method.htm
 old-project: SecCrypto
 ms.assetid: 77be6c77-f693-448b-ad2d-f148b2b3dc78
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: IOCSPAdmin interface [Security],OCSPCAConfigurationCollection property, IOCSPAdmin.OCSPCAConfigurationCollection, IOCSPAdmin.get_OCSPCAConfigurationCollection, IOCSPAdmin::OCSPCAConfigurationCollection, IOCSPAdmin::get_OCSPCAConfigurationCollection, OCSPCAConfigurationCollection property [Security], OCSPCAConfigurationCollection property [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::OCSPCAConfigurationCollection, certadm/IOCSPAdmin::get_OCSPCAConfigurationCollection, get_OCSPCAConfigurationCollection, security.iocspadmin_ocspcaconfigurationcollection_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

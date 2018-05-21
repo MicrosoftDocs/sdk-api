@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveryprovidernotify_searchfailed_method.htm
 old-project: WsdApi
 ms.assetid: 8f861c69-2967-4a8d-a64a-e2409d722984
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDiscoveryProviderNotify interface,SearchFailed method, IWSDiscoveryProviderNotify.SearchFailed, IWSDiscoveryProviderNotify::SearchFailed, SearchFailed, SearchFailed method, SearchFailed method,IWSDiscoveryProviderNotify interface, ncd.iwsdiscoveryprovidernotify_searchfailed_method, wsddisco/IWSDiscoveryProviderNotify::SearchFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\createrectrgnindirect.htm
 old-project: gdi
 ms.assetid: f32e0b94-ce9c-4098-81fe-b239a9544621
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: CreateRectRgnIndirect, CreateRectRgnIndirect function [Windows GDI], _win32_CreateRectRgnIndirect, gdi.createrectrgnindirect, wingdi/CreateRectRgnIndirect
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: indexsrv\cibuildquerynode.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0c11.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CIBuildQueryNode, CIBuildQueryNode function [Indexing Service], _idxs_CIBuildQueryNode, indexsrv.cibuildquerynode, ntquery/CIBuildQueryNode
 ms.prod: windows-hardware
 ms.technology: windows-devices

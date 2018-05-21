@@ -7,7 +7,7 @@ old-location: security\querysecuritycontexttoken.htm
 old-project: SecAuthN
 ms.assetid: 5dc23608-9ce3-4fee-8161-2e409cef4063
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: QuerySecurityContextToken, QuerySecurityContextToken function [Security], _ssp_querysecuritycontexttoken, security.querysecuritycontexttoken, sspi/QuerySecurityContextToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # QuerySecurityContextToken function

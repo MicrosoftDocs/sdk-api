@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothselectdevices.htm
 old-project: Bluetooth
 ms.assetid: 97fcbd72-99d5-4c5b-bf16-75eea97cbc77
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothSelectDevices, BluetoothSelectDevices function [Bluetooth], _bth_bluetoothselectdevices, bluetooth.bluetoothselectdevices, bluetoothapis/BluetoothSelectDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices

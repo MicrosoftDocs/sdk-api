@@ -7,7 +7,7 @@ old-location: ldap\ldapapifeatureinfo.htm
 old-project: LDAP
 ms.assetid: c8e4a3a2-a606-49af-887d-905d67705423
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: LDAPAPIFeatureInfo, LDAPAPIFeatureInfo structure [LDAP], LDAPAPIFeatureInfoA, LDAPAPIFeatureInfoW, ldap.ldapapifeatureinfo, ldap_apifeature_infoA, winldap/LDAPAPIFeatureInfo, winldap/LDAPAPIFeatureInfoA, winldap/LDAPAPIFeatureInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices

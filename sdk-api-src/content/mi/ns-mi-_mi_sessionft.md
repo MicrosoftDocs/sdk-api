@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_sessionft.htm
 old-project: wmi_v2
 ms.assetid: 24bf4ca7-db0e-4ce5-bffd-48d94130c424
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_SessionFT, MI_SessionFT structure [Windows Management Infrastructure (MI)], _MI_SessionFT, mi/MI_SessionFT, wmi_v2.mi_sessionft
 ms.prod: windows-hardware
 ms.technology: windows-devices

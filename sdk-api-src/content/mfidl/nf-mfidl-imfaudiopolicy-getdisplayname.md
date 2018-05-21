@@ -7,7 +7,7 @@ old-location: mf\imfaudiopolicy_getdisplayname.htm
 old-project: medfound
 ms.assetid: 7826b4a1-5887-46a5-b312-91159596ccf5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 7826b4a1-5887-46a5-b312-91159596ccf5, GetDisplayName, GetDisplayName method [Media Foundation], GetDisplayName method [Media Foundation],IMFAudioPolicy interface, IMFAudioPolicy interface [Media Foundation],GetDisplayName method, IMFAudioPolicy.GetDisplayName, IMFAudioPolicy::GetDisplayName, mf.imfaudiopolicy_getdisplayname, mfidl/IMFAudioPolicy::GetDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

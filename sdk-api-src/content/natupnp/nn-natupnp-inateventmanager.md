@@ -7,7 +7,7 @@ old-location: ics\inateventmanager.htm
 old-project: ICS
 ms.assetid: 18c5df1a-e57e-4f44-bac5-a5861f939673
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INATEventManager, INATEventManager interface [ICS/ICF], INATEventManager interface [ICS/ICF],described, _ics_inateventmanager, ics.inateventmanager, natupnp/INATEventManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

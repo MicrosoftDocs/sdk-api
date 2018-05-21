@@ -7,7 +7,7 @@ old-location: rpc\rpc_if_id.htm
 old-project: Rpc
 ms.assetid: 6fad80e0-4239-48f7-9cd1-3b9c56303346
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RPC_IF_ID, RPC_IF_ID structure [RPC], _RPC_IF_ID, _rpc_rpc_if_id, rpc.rpc_if_id, rpcdce/RPC_IF_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices

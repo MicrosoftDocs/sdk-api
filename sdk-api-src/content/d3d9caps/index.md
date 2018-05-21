@@ -2,7 +2,7 @@
 UID: NA:d3d9caps
 ms.assetid: 9e673793-a9e8-36aa-ba1d-9887d36549c5
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\WebWizardHost.htm
 old-project: shell
 ms.assetid: 7b3690dc-2007-43a0-80a3-4a68e3c8464d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IWebWizardHost, WebWizardHost, WebWizardHost object [Windows Shell], WebWizardHost object [Windows Shell],described, _shell_WebWizardHost, shell.WebWizardHost, shldisp/WebWizardHost
 ms.prod: windows-hardware
 ms.technology: windows-devices

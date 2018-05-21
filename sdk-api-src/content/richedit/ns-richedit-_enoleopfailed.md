@@ -7,7 +7,7 @@ old-location: controls\ENOLEOPFAILED.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enoleopfailed.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ENOLEOPFAILED, ENOLEOPFAILED structure [Windows Controls], _enoleopfailed, _win32_ENOLEOPFAILED_str, _win32_ENOLEOPFAILED_str_cpp, controls.ENOLEOPFAILED, controls._win32_ENOLEOPFAILED_str, richedit/ENOLEOPFAILED
 ms.prod: windows-hardware
 ms.technology: windows-devices

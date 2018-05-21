@@ -7,7 +7,7 @@ old-location: fs\exfat_statistics.htm
 old-project: FileIO
 ms.assetid: fc33e967-fbc0-4f98-9b6c-2d6ac103a256
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PEXFAT_STATISTICS, EXFAT_STATISTICS, EXFAT_STATISTICS structure [Files], PEXFAT_STATISTICS, PEXFAT_STATISTICS structure pointer [Files], _EXFAT_STATISTICS, fs.exfat_statistics, winioctl/EXFAT_STATISTICS, winioctl/PEXFAT_STATISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

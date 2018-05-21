@@ -7,7 +7,7 @@ old-location: security\secpkg_event_notify.htm
 old-project: SecAuthN
 ms.assetid: 68516a5a-940f-48be-ba9c-5e72d23bc737
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSECPKG_EVENT_NOTIFY, PSECPKG_EVENT_NOTIFY, PSECPKG_EVENT_NOTIFY structure pointer [Security], SECPKG_EVENT_NOTIFY, SECPKG_EVENT_NOTIFY structure [Security], _SECPKG_EVENT_NOTIFY, _ssp_secpkg_event_notify, ntsecpkg/PSECPKG_EVENT_NOTIFY, ntsecpkg/SECPKG_EVENT_NOTIFY, security.secpkg_event_notify"
 ms.prod: windows-hardware
 ms.technology: windows-devices

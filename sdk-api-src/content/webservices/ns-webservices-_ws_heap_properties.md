@@ -7,7 +7,7 @@ old-location: wsw\ws_heap_properties.htm
 old-project: wsw
 ms.assetid: d367bb85-514d-4acc-b67f-f7381a9a6404
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_HEAP_PROPERTIES, WS_HEAP_PROPERTIES structure [Web Services for Windows], _WS_HEAP_PROPERTIES, webservices/WS_HEAP_PROPERTIES, wsw.ws_heap_properties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_getcurrentservice.htm
 old-project: DirectShow
 ms.assetid: d16b3501-efee-48e6-8d5d-d76f206d77ed
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetCurrentService, GetCurrentService method [DirectShow], GetCurrentService method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetCurrentService method, IAMWstDecoder.GetCurrentService, IAMWstDecoder::GetCurrentService, IAMWstDecoderGetCurrentService, dshow.iamwstdecoder_getcurrentservice, iwstdec/IAMWstDecoder::GetCurrentService
 ms.prod: windows-hardware
 ms.technology: windows-devices

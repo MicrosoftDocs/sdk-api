@@ -7,7 +7,7 @@ old-location: fs\ioctl_disk_reassign_blocks.htm
 old-project: FileIO
 ms.assetid: 57343bc9-9dd4-47a3-8130-07ea330eb4d3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS, IOCTL_DISK_REASSIGN_BLOCKS control, IOCTL_DISK_REASSIGN_BLOCKS control code [Files], _win32_ioctl_disk_reassign_blocks, base.ioctl_disk_reassign_blocks, fs.ioctl_disk_reassign_blocks, winioctl/IOCTL_DISK_REASSIGN_BLOCKS
 ms.prod: windows-hardware
 ms.technology: windows-devices

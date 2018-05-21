@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_getfocus.htm
 old-project: com
 ms.assetid: 282f350c-d196-40c2-880f-55f28dc48f2b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: GetFocus, GetFocus method [COM], GetFocus method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetFocus method, IOleInPlaceSiteWindowless.GetFocus, IOleInPlaceSiteWindowless::GetFocus, _ole_ioleinplacesitewindowless_getfocus, com.ioleinplacesitewindowless_getfocus, ocidl/IOleInPlaceSiteWindowless::GetFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices

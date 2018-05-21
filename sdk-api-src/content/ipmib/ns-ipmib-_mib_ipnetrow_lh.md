@@ -7,7 +7,7 @@ old-location: mib\mib_ipnetrow.htm
 old-project: MIB
 ms.assetid: aa9aa9f9-2334-4b08-896f-f4a77caa0f7f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PMIB_IPNETROW, *PMIB_IPNETROW_LH, MIB_IPNETROW, MIB_IPNETROW structure [MIB], MIB_IPNETROW_LH, MIB_IPNET_TYPE_DYNAMIC, MIB_IPNET_TYPE_INVALID, MIB_IPNET_TYPE_OTHER, MIB_IPNET_TYPE_STATIC, PMIB_IPNETROW, PMIB_IPNETROW structure pointer [MIB], _MIB_IPNETROW_LH, _mpr_mib_ipnetrow, ipmib/MIB_IPNETROW, ipmib/PMIB_IPNETROW, iprtrmib/MIB_IPNETROW, iprtrmib/PMIB_IPNETROW, mib.mib_ipnetrow, rras.mib_ipnetrow"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10v2_initializefrompublickeyte
 old-project: SecCertEnroll
 ms.assetid: 20e94948-1455-46c4-bc8c-55dfde45818c
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestPkcs10V2 interface [Security],InitializeFromPublicKeyTemplate method, IX509CertificateRequestPkcs10V2.InitializeFromPublicKeyTemplate, IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate, InitializeFromPublicKeyTemplate, InitializeFromPublicKeyTemplate method [Security], InitializeFromPublicKeyTemplate method [Security],IX509CertificateRequestPkcs10V2 interface, certenroll/IX509CertificateRequestPkcs10V2::InitializeFromPublicKeyTemplate, security.ix509certificaterequestpkcs10v2_initializefrompublickeytemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

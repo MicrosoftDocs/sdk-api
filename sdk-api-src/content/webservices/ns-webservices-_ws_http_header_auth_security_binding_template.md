@@ -7,7 +7,7 @@ old-location: wsw\ws_http_header_auth_security_binding_template.htm
 old-project: wsw
 ms.assetid: 4eabe380-de6d-48e3-bdad-dbf593a9850a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE, WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], _WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE, webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE, wsw.ws_http_header_auth_security_binding_template
 ms.prod: windows-hardware
 ms.technology: windows-devices

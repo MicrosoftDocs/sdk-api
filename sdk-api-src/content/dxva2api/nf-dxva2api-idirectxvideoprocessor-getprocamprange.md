@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessor_getprocamprange.htm
 old-project: medfound
 ms.assetid: e15c8425-7a0b-4d03-b2da-467c800c57c2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetProcAmpRange, GetProcAmpRange method [Media Foundation], GetProcAmpRange method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetProcAmpRange method, IDirectXVideoProcessor.GetProcAmpRange, IDirectXVideoProcessor::GetProcAmpRange, dxva2api/IDirectXVideoProcessor::GetProcAmpRange, e15c8425-7a0b-4d03-b2da-467c800c57c2, mf.idirectxvideoprocessor_getprocamprange
 ms.prod: windows-hardware
 ms.technology: windows-devices

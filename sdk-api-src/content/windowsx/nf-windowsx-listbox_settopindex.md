@@ -7,7 +7,7 @@ old-location: controls\ListBox_SetTopIndex.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_settopindex.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ListBox_SetTopIndex, ListBox_SetTopIndex macro [Windows Controls], _win32_ListBox_SetTopIndex, _win32_ListBox_SetTopIndex_cpp, controls.ListBox_SetTopIndex, controls._win32_ListBox_SetTopIndex, windowsx/ListBox_SetTopIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ituningspaces.htm
 old-project: mstv
 ms.assetid: db252e22-8efe-4bfc-8fd3-2be7022bbbbd
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: ITuningSpaces, ITuningSpaces interface [Microsoft TV Technologies], ITuningSpaces interface [Microsoft TV Technologies],described, ITuningSpacesInterface, mstv.ituningspaces, tuner/ITuningSpaces
 ms.prod: windows-hardware
 ms.technology: windows-devices

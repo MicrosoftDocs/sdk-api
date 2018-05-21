@@ -7,7 +7,7 @@ old-location: intl\ispellcheckerfactory.htm
 old-project: Intl
 ms.assetid: 7febbb7e-c557-4698-bf58-6e6e7f61b071
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ISpellCheckerFactory, ISpellCheckerFactory interface [Internationalization for Windows Applications], ISpellCheckerFactory interface [Internationalization for Windows Applications],described, intl.ispellcheckerfactory, spellcheck/ISpellCheckerFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # ISpellCheckerFactory interface

@@ -7,7 +7,7 @@ old-location: security\certsetenhancedkeyusage.htm
 old-project: SecCrypto
 ms.assetid: 423b0232-846e-4e40-bc42-d30c48c548da
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CertSetEnhancedKeyUsage, CertSetEnhancedKeyUsage function [Security], _crypto2_certsetenhancedkeyusage, security.certsetenhancedkeyusage, wincrypt/CertSetEnhancedKeyUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices

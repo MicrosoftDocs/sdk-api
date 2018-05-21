@@ -7,7 +7,7 @@ old-location: com\iconnectionpointcontainer_enumconnectionpoints.htm
 old-project: com
 ms.assetid: 527f94b6-af8e-4ff0-8e99-cd4c5d692628
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: EnumConnectionPoints, EnumConnectionPoints method [COM], EnumConnectionPoints method [COM],IConnectionPointContainer interface, IConnectionPointContainer interface [COM],EnumConnectionPoints method, IConnectionPointContainer.EnumConnectionPoints, IConnectionPointContainer::EnumConnectionPoints, _com_iconnectionpointcontainer_enumconnectionpoints, com.iconnectionpointcontainer_enumconnectionpoints, ocidl/IConnectionPointContainer::EnumConnectionPoints
 ms.prod: windows-hardware
 ms.technology: windows-devices

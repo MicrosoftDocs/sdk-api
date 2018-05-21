@@ -7,7 +7,7 @@ old-location: security\ix509endorsementkey.htm
 old-project: SecCertEnroll
 ms.assetid: 24f063a7-02e3-47cf-89ca-ebc63bf3e2dc
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509EndorsementKey, IX509EndorsementKey interface [Security], IX509EndorsementKey interface [Security],described, certenroll/IX509EndorsementKey, security.ix509endorsementkey
 ms.prod: windows-hardware
 ms.technology: windows-devices

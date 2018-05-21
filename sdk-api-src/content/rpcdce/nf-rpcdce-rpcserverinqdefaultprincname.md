@@ -7,7 +7,7 @@ old-location: rpc\rpcserverinqdefaultprincname.htm
 old-project: Rpc
 ms.assetid: b265e0ae-cdef-450e-bf16-25da5bea7d5e
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcServerInqDefaultPrincName, RpcServerInqDefaultPrincName function [RPC], RpcServerInqDefaultPrincNameA, RpcServerInqDefaultPrincNameW, _rpc_rpcserverinqdefaultprincname, rpc.rpcserverinqdefaultprincname, rpcdce/RpcServerInqDefaultPrincName, rpcdce/RpcServerInqDefaultPrincNameA, rpcdce/RpcServerInqDefaultPrincNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

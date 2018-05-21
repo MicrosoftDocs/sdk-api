@@ -7,7 +7,7 @@ old-location: ics\inetfwicmpsettings_allowinboundmaskrequest.htm
 old-project: ICS
 ms.assetid: 5d34c60a-115b-4882-bc41-ea8b3528f9df
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: AllowInboundMaskRequest property [ICS/ICF], AllowInboundMaskRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundMaskRequest property, INetFwIcmpSettings.AllowInboundMaskRequest, INetFwIcmpSettings.put_AllowInboundMaskRequest, INetFwIcmpSettings::AllowInboundMaskRequest, INetFwIcmpSettings::get_AllowInboundMaskRequest, INetFwIcmpSettings::put_AllowInboundMaskRequest, ics.inetfwicmpsettings_allowinboundmaskrequest, netfw/INetFwIcmpSettings::AllowInboundMaskRequest, netfw/INetFwIcmpSettings::get_AllowInboundMaskRequest, netfw/INetFwIcmpSettings::put_AllowInboundMaskRequest, put_AllowInboundMaskRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

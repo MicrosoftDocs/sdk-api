@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectfactory.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\imilbitmapeffectfactory.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMILBitmapEffectFactory, IMILBitmapEffectFactory interface [WPF Bitmap Effects], IMILBitmapEffectFactory interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectfactory, mileffects/IMILBitmapEffectFactory, wibe._wibe_imilbitmapeffectfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

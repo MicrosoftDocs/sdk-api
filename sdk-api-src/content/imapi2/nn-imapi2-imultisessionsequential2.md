@@ -7,7 +7,7 @@ old-location: imapi\imultisessionsequential2.htm
 old-project: imapi
 ms.assetid: da226f8f-7ae9-4013-a0d4-c76a7b5dae64
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IMultisessionSequential2, IMultisessionSequential2 interface [IMAPI], IMultisessionSequential2 interface [IMAPI],described, imapi.imultisessionsequential2, imapi2/IMultisessionSequential2
 ms.prod: windows-hardware
 ms.technology: windows-devices

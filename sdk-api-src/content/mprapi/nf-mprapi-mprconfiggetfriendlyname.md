@@ -7,7 +7,7 @@ old-location: rras\mprconfiggetfriendlyname.htm
 old-project: RRAS
 ms.assetid: 16cd38f2-5029-4b95-871d-a8ba6c96b78c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MprConfigGetFriendlyName, MprConfigGetFriendlyName function [RAS], _mpr_mprconfiggetfriendlyname, mprapi/MprConfigGetFriendlyName, rras.mprconfiggetfriendlyname
 ms.prod: windows-hardware
 ms.technology: windows-devices

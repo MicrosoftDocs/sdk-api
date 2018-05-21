@@ -7,7 +7,7 @@ old-location: mf\unpacksize.htm
 old-project: medfound
 ms.assetid: A98C2908-E566-4E2F-BED8-10C7D649F8B2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: UnpackSize, UnpackSize function [Media Foundation], mf.unpacksize, mfapi/UnpackSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

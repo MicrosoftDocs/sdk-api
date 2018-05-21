@@ -7,7 +7,7 @@ old-location: security\iocspadmin_getconfiguration_method.htm
 old-project: SecCrypto
 ms.assetid: bf3c5757-0e97-46d2-89c2-f62a5e367fbb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: GetConfiguration, GetConfiguration method [Security], GetConfiguration method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetConfiguration method, IOCSPAdmin.GetConfiguration, IOCSPAdmin::GetConfiguration, certadm/IOCSPAdmin::GetConfiguration, security.iocspadmin_getconfiguration_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

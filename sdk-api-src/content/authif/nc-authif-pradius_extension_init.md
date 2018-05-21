@@ -7,8 +7,8 @@ old-location: nps\IAS_radiusextensioninit.htm
 old-project: Nps
 ms.assetid: a463927f-550d-4078-8c0f-35c8742d887a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
-ms.keywords: PRADIUS_EXTENSION_INIT, PRADIUS_EXTENSION_INIT callback, RadiusExtensionInit, RadiusExtensionInit callback function [Network Policy Server], _ias_radiusextensioninit, authif/RadiusExtensionInit, ias.radiusextensioninit, nps.IAS_radiusextensioninit
+ms.date: 5/10/2018
+ms.keywords: PRADIUS_EXTENSION_INIT, PRADIUS_EXTENSION_INIT callback, PRADIUS_EXTENSION_INIT callback function [Network Policy Server], RadiusExtensionInit, _ias_radiusextensioninit, authif/PRADIUS_EXTENSION_INIT, ias.radiusextensioninit, nps.IAS_radiusextensioninit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	AuthIf.h
 api_name:
--	RadiusExtensionInit
+-	PRADIUS_EXTENSION_INIT
 product: Windows
 targetos: Windows
 req.lib: 

@@ -7,7 +7,7 @@ old-location: base\rtwq_workqueue_type.htm
 old-project: ProcThread
 ms.assetid: 4aab85f3-855e-4fbf-9d25-209214bdd73b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: RTWQ_MULTITHREADED_WORKQUEUE, RTWQ_STANDARD_WORKQUEUE, RTWQ_WINDOW_WORKQUEUE, RTWQ_WORKQUEUE_TYPE, RTWQ_WORKQUEUE_TYPE enumeration, base.rtwq_workqueue_type, rtworkq/RTWQ_MULTITHREADED_WORKQUEUE, rtworkq/RTWQ_STANDARD_WORKQUEUE, rtworkq/RTWQ_WINDOW_WORKQUEUE, rtworkq/RTWQ_WORKQUEUE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

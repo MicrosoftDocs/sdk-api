@@ -7,7 +7,7 @@ old-location: base\getprocesshandlecount.htm
 old-project: ProcThread
 ms.assetid: bb8cf86b-00b8-4a64-90f8-66ac6dbf9dee
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: GetProcessHandleCount, GetProcessHandleCount function, base.getprocesshandlecount, processthreadsapi/GetProcessHandleCount, winbase/GetProcessHandleCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

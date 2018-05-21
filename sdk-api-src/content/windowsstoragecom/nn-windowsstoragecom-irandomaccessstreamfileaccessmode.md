@@ -7,7 +7,7 @@ old-location: winrt\irandomaccessstreamfileaccessmode.htm
 old-project: WinRT
 ms.assetid: 20A538B5-ACD6-4BD9-9CDC-3F2CCDCAF251
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: IRandomAccessStreamFileAccessMode, IRandomAccessStreamFileAccessMode interface [Windows Runtime], IRandomAccessStreamFileAccessMode interface [Windows Runtime],described, windowsstoragecom/IRandomAccessStreamFileAccessMode, winrt.irandomaccessstreamfileaccessmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

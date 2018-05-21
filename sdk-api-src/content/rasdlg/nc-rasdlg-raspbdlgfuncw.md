@@ -7,7 +7,7 @@ old-location: rras\raspbdlgfunc.htm
 old-project: RRAS
 ms.assetid: 70bb60a1-6a56-43fd-9352-8ced34ddd174
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RASPBDEVENT_AddEntry, RASPBDEVENT_DialEntry, RASPBDEVENT_EditEntry, RASPBDEVENT_EditGlobals, RASPBDEVENT_NoUser, RASPBDEVENT_NoUserEdit, RASPBDEVENT_RemoveEntry, RasPBDlgFunc, RasPBDlgFunc callback, RasPBDlgFunc callback function [RAS], RasPBDlgFuncA, RasPBDlgFuncW, _ras_raspbdlgfunc, rasdlg/RasPBDlgFunc, rasdlg/RasPBDlgFuncA, rasdlg/RasPBDlgFuncW, rras.raspbdlgfunc
 ms.prod: windows-hardware
 ms.technology: windows-devices

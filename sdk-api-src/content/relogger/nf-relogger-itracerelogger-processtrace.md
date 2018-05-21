@@ -7,7 +7,7 @@ old-location: etw\itracerelogger_processtrace.htm
 old-project: ETW
 ms.assetid: ab844b34-0e06-447f-a0b7-dd56ca0b50ed
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: ITraceRelogger interface [ETW],ProcessTrace method, ITraceRelogger.ProcessTrace, ITraceRelogger::ProcessTrace, ProcessTrace, ProcessTrace method [ETW], ProcessTrace method [ETW],ITraceRelogger interface, etw.itracerelogger_processtrace, relogger/ITraceRelogger::ProcessTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

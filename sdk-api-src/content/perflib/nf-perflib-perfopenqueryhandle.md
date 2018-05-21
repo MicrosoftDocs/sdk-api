@@ -7,7 +7,7 @@ old-location: perf\perfopenqueryhandle.htm
 old-project: PerfCtrs
 ms.assetid: 5105F617-9443-451D-B802-C6A241769E65
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PerfOpenQueryHandle, PerfOpenQueryHandle function [Perf], perf.perfopenqueryhandle, perflib/PerfOpenQueryHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

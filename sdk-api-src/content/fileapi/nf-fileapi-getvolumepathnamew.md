@@ -7,7 +7,7 @@ old-location: fs\getvolumepathname.htm
 old-project: FileIO
 ms.assetid: fa34786c-af82-4b59-bf36-e9a95a2f913e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: GetVolumePathName, GetVolumePathName function [Files], GetVolumePathNameA, GetVolumePathNameW, _win32_getvolumepathname, base.getvolumepathname, fileapi/GetVolumePathName, fileapi/GetVolumePathNameA, fileapi/GetVolumePathNameW, fs.getvolumepathname, winbase/GetVolumePathName, winbase/GetVolumePathNameA, winbase/GetVolumePathNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

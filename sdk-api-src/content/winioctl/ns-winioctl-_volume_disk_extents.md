@@ -7,7 +7,7 @@ old-location: fs\volume_disk_extents_str.htm
 old-project: FileIO
 ms.assetid: 3f38f03c-1b99-4072-904c-dca1b98a245c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS structure pointer [Files], VOLUME_DISK_EXTENTS, VOLUME_DISK_EXTENTS structure [Files], _VOLUME_DISK_EXTENTS, _win32_volume_disk_extents_str, base.volume_disk_extents_str, fs.volume_disk_extents_str, winioctl/PVOLUME_DISK_EXTENTS, winioctl/VOLUME_DISK_EXTENTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

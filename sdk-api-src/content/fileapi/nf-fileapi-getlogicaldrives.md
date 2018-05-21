@@ -7,7 +7,7 @@ old-location: fs\getlogicaldrives.htm
 old-project: FileIO
 ms.assetid: 21a66050-3bab-4c70-9003-3b52e8c72b00
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: GetLogicalDrives, GetLogicalDrives function [Files], _win32_getlogicaldrives, base.getlogicaldrives, fileapi/GetLogicalDrives, fs.getlogicaldrives, winbase/GetLogicalDrives
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

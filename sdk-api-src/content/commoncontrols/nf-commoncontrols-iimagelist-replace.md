@@ -7,7 +7,7 @@ old-location: controls\IImageList_Replace.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\replace.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: IImageList interface [Windows Controls],Replace method, IImageList.Replace, IImageList::Replace, Replace, Replace method [Windows Controls], Replace method [Windows Controls],IImageList interface, comctl_IImageList_Replace, comctl_IImageList_Replace_cpp, commoncontrols/IImageList::Replace, controls.IImageList_Replace, controls.comctl_IImageList_Replace
 ms.prod: windows-hardware
 ms.technology: windows-devices

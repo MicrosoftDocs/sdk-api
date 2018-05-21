@@ -7,7 +7,7 @@ old-location: fs\setfilepointer.htm
 old-project: FileIO
 ms.assetid: a0a0081b-9132-4dea-967b-1ee1d1fdfa13
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointer, SetFilePointer function [Files], _win32_setfilepointer, base.setfilepointer, fileapi/SetFilePointer, fs.setfilepointer, winbase/SetFilePointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

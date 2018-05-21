@@ -7,7 +7,7 @@ old-location: ncd\iwsdserviceproxy_getservicemetadata_method.htm
 old-project: WsdApi
 ms.assetid: 552da68f-6e6a-44b2-8c95-e29bc67de3c2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetServiceMetadata, GetServiceMetadata method, GetServiceMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,GetServiceMetadata method, IWSDServiceProxy.GetServiceMetadata, IWSDServiceProxy::GetServiceMetadata, ncd.iwsdserviceproxy_getservicemetadata_method, wsdclient/IWSDServiceProxy::GetServiceMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

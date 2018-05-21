@@ -7,7 +7,7 @@ old-location: menurc\stringcchgets.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchgets.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: StringCchGets, StringCchGets function [Menus and Other Resources], StringCchGetsA, StringCchGetsW, _shell_StringCchGets, _shell_stringcchgets_cpp, menurc.stringcchgets, strsafe/StringCchGets, strsafe/StringCchGetsA, strsafe/StringCchGetsW, winui._shell_stringcchgets
 ms.prod: windows-hardware
 ms.technology: windows-devices

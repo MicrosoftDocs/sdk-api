@@ -7,7 +7,7 @@ old-location: fs\lsnnull.htm
 old-project: Clfs
 ms.assetid: effa7924-fcde-4aaf-964b-a6916cb6d1f5
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: ClfsLsnNull, LsnNull, LsnNull function [Files], clfs/LsnNull, fs.lsnnull
 ms.prod: windows-hardware
 ms.technology: windows-devices

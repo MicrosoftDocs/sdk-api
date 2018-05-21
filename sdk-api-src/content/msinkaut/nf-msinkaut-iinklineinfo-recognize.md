@@ -7,7 +7,7 @@ old-location: tablet\iinklineinfo_recognize.htm
 old-project: tablet
 ms.assetid: b6a0f559-72e8-40db-ba9a-0f1b27ba6a96
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: IInkLineInfo interface [Tablet PC],Recognize method, IInkLineInfo.Recognize, IInkLineInfo::Recognize, Recognize, Recognize method [Tablet PC], Recognize method [Tablet PC],IInkLineInfo interface, b6a0f559-72e8-40db-ba9a-0f1b27ba6a96, msinkaut/IInkLineInfo::Recognize, tablet.iinklineinfo_recognize
 ms.prod: windows-hardware
 ms.technology: windows-devices

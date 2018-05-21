@@ -7,7 +7,7 @@ old-location: ldap\ber_bvecfree.htm
 old-project: LDAP
 ms.assetid: 5c2b53e4-257e-4c3f-b712-345e6b33341b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ber_bvecfree, ber_bvecfree, ber_bvecfree function [LDAP], ldap.ber__bvecfree, ldap.ber_bvecfree, winber/ber_bvecfree"
 ms.prod: windows-hardware
 ms.technology: windows-devices

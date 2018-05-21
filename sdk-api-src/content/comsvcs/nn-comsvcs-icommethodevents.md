@@ -7,7 +7,7 @@ old-location: cos\icommethodevents.htm
 old-project: cossdk
 ms.assetid: 24670a23-4300-48f9-a089-dff3082cb544
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IComMethodEvents, IComMethodEvents interface [COM+], IComMethodEvents interface [COM+],described, _dtc_IComMethodEvents, comsvcs/IComMethodEvents, cos.icommethodevents
 ms.prod: windows-hardware
 ms.technology: windows-devices

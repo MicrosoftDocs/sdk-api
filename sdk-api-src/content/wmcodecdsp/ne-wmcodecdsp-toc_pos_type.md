@@ -7,7 +7,7 @@ old-location: mf\toc_pos_type.htm
 old-project: medfound
 ms.assetid: 799059b5-9949-48af-8c54-4cb4975f8249
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: TOC_POS_INHEADER, TOC_POS_TOPLEVELOBJECT, TOC_POS_TYPE, TOC_POS_TYPE enumeration [Media Foundation], codecapi.toc_pos_type, mf.toc_pos_type, wmcodecdsp/TOC_POS_INHEADER, wmcodecdsp/TOC_POS_TOPLEVELOBJECT, wmcodecdsp/TOC_POS_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

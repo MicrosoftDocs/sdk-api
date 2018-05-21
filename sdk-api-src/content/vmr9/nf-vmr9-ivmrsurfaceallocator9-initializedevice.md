@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocator9_initializedevice.htm
 old-project: DirectShow
 ms.assetid: 44c22dc0-98a9-4a6e-a488-1d70dfff6acd
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IVMRSurfaceAllocator9 interface [DirectShow],InitializeDevice method, IVMRSurfaceAllocator9.InitializeDevice, IVMRSurfaceAllocator9::InitializeDevice, IVMRSurfaceAllocator9InitializeDevice, InitializeDevice, InitializeDevice method [DirectShow], InitializeDevice method [DirectShow],IVMRSurfaceAllocator9 interface, dshow.ivmrsurfaceallocator9_initializedevice, vmr9/IVMRSurfaceAllocator9::InitializeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

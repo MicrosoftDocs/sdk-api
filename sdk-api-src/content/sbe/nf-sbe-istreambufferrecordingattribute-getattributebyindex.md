@@ -7,7 +7,7 @@ old-location: mstv\istreambufferrecordingattribute_getattributebyindex.htm
 old-project: mstv
 ms.assetid: a4d9d25f-1e21-40e5-80c4-a8fe15dbc216
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetAttributeByIndex, GetAttributeByIndex method [Microsoft TV Technologies], GetAttributeByIndex method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],GetAttributeByIndex method, IStreamBufferRecordingAttribute.GetAttributeByIndex, IStreamBufferRecordingAttribute::GetAttributeByIndex, IStreamBufferRecordingAttributeGetAttributeByIndex, mstv.istreambufferrecordingattribute_getattributebyindex, sbe/IStreamBufferRecordingAttribute::GetAttributeByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

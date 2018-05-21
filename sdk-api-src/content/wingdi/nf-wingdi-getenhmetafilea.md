@@ -7,7 +7,7 @@ old-location: gdi\getenhmetafile.htm
 old-project: gdi
 ms.assetid: bcb9611e-8e4e-4f87-8a1e-dedbe0042821
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetEnhMetaFile, GetEnhMetaFile function [Windows GDI], GetEnhMetaFileA, GetEnhMetaFileW, _win32_GetEnhMetaFile, gdi.getenhmetafile, wingdi/GetEnhMetaFile, wingdi/GetEnhMetaFileA, wingdi/GetEnhMetaFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: etw\eventdescorkeyword_func.htm
 old-project: ETW
 ms.assetid: ad5e06cf-e2fa-4696-9521-61ff012b9204
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EventDescOrKeyword, EventDescOrKeyword function [ETW], base.eventdescorkeyword_func, etw.eventdescorkeyword_func, evntprov/EventDescOrKeyword
 ms.prod: windows-hardware
 ms.technology: windows-devices

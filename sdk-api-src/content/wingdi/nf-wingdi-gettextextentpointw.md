@@ -7,7 +7,7 @@ old-location: gdi\gettextextentpoint.htm
 old-project: gdi
 ms.assetid: 731085ce-009d-42e1-885f-2f5151e0f6d3
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetTextExtentPoint, GetTextExtentPoint function [Windows GDI], GetTextExtentPointA, GetTextExtentPointW, _win32_GetTextExtentPoint, gdi.gettextextentpoint, wingdi/GetTextExtentPoint, wingdi/GetTextExtentPointA, wingdi/GetTextExtentPointW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: TP:wininet
 ms.assetid: a15a265a-5b11-3750-b1a2-587bb83a92f1
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

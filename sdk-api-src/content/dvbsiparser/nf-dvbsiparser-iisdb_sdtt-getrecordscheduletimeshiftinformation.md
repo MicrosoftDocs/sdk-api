@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getrecordscheduletimeshiftinformation.htm
 old-project: mstv
 ms.assetid: caf9f0b1-5529-4e8e-ab03-45d7d3268113
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordScheduleTimeShiftInformation, GetRecordScheduleTimeShiftInformation method [Microsoft TV Technologies], GetRecordScheduleTimeShiftInformation method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordScheduleTimeShiftInformation method, IISDB_SDTT.GetRecordScheduleTimeShiftInformation, IISDB_SDTT::GetRecordScheduleTimeShiftInformation, dvbsiparser/IISDB_SDTT::GetRecordScheduleTimeShiftInformation, mstv.iisdb_sdtt_getrecordscheduletimeshiftinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

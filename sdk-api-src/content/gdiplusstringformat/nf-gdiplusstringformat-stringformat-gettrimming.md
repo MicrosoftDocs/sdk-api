@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetTrimming_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettrimming.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetTrimming, GetTrimming method [GDI+], GetTrimming method [GDI+],StringFormat class, StringFormat class [GDI+],GetTrimming method, StringFormat.GetTrimming, StringFormat::GetTrimming, _gdiplus_CLASS_StringFormat_GetTrimming_, gdiplus._gdiplus_CLASS_StringFormat_GetTrimming_
 ms.prod: windows-hardware
 ms.technology: windows-devices

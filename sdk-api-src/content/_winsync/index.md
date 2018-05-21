@@ -2,11 +2,12 @@
 UID: TP:winsync
 ms.assetid: ee92abfb-a568-3036-bd81-7498365db57b
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Windows Sync

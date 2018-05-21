@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_GetRight_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getright_25.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetRight, GetRight method [GDI+], GetRight method [GDI+],RectF class, RectF class [GDI+],GetRight method, RectF.GetRight, RectF::GetRight, _gdiplus_CLASS_RectF_GetRight_, gdiplus._gdiplus_CLASS_RectF_GetRight_
 ms.prod: windows-hardware
 ms.technology: windows-devices

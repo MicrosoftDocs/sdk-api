@@ -7,7 +7,7 @@ old-location: mscs\removeclustergroupcollectiondependency.htm
 old-project: MsCS
 ms.assetid: 1a9dcc3f-e73a-4f14-a418-b1c62a0c98c2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY, PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY callback, PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY callback function [Failover Cluster], clusapi/PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY, mscs.removeclustergroupcollectiondependency
 ms.prod: windows-hardware
 ms.technology: windows-devices

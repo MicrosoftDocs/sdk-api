@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_geteffectcolor.htm
 old-project: Controls
 ms.assetid: 4bc2740e-852f-430b-913e-5d28baec3272
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetEffectColor, GetEffectColor method [Windows Controls], GetEffectColor method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetEffectColor method, ITextDocument2.GetEffectColor, ITextDocument2::GetEffectColor, controls.itextdocument2_geteffectcolor, tom/ITextDocument2::GetEffectColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

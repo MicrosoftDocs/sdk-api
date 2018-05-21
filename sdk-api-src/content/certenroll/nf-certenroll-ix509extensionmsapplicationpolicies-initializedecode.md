@@ -7,7 +7,7 @@ old-location: security\ix509extensionmsapplicationpolicies_initializedecode_meth
 old-project: SecCertEnroll
 ms.assetid: b99d756c-01fd-4bde-a64b-c908626e9190
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509ExtensionMSApplicationPolicies interface [Security],InitializeDecode method, IX509ExtensionMSApplicationPolicies.InitializeDecode, IX509ExtensionMSApplicationPolicies::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionMSApplicationPolicies interface, certenroll/IX509ExtensionMSApplicationPolicies::InitializeDecode, security.ix509extensionmsapplicationpolicies_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

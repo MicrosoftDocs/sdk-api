@@ -2,7 +2,7 @@
 UID: NA:wsipv6ok
 ms.assetid: 37f26d23-2596-3f0e-add4-124f21eac266
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

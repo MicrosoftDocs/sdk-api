@@ -2,7 +2,7 @@
 UID: NA:ktmtypes
 ms.assetid: 8a60bdf8-2faa-3238-b021-1f23bf7e60e2
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

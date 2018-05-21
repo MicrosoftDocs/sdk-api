@@ -7,7 +7,7 @@ old-location: com\ioleundounit_getunittype.htm
 old-project: com
 ms.assetid: 1f0c719e-75cd-48dd-8bd8-78eb63cc141a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: GetUnitType, GetUnitType method [COM], GetUnitType method [COM],IOleUndoUnit interface, IOleUndoUnit interface [COM],GetUnitType method, IOleUndoUnit.GetUnitType, IOleUndoUnit::GetUnitType, _ole_ioleundounit_getunittype, com.ioleundounit_getunittype, ocidl/IOleUndoUnit::GetUnitType
 ms.prod: windows-hardware
 ms.technology: windows-devices

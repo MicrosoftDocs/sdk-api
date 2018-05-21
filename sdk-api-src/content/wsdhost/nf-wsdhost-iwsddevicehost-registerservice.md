@@ -7,7 +7,7 @@ old-location: ncd\iwsddevicehost_registerservice_method.htm
 old-project: WsdApi
 ms.assetid: 8e125e72-4060-4be6-b370-b2f6b24d9da7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDDeviceHost interface,RegisterService method, IWSDDeviceHost.RegisterService, IWSDDeviceHost::RegisterService, RegisterService, RegisterService method, RegisterService method,IWSDDeviceHost interface, ncd.iwsddevicehost_registerservice_method, wsdhost/IWSDDeviceHost::RegisterService
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\igetclusteruiinfo.htm
 old-project: MsCS
 ms.assetid: e41afb20-5bb8-475f-a056-53d7be8f4bf0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: IGetClusterUIInfo, IGetClusterUIInfo interface [Failover Cluster], IGetClusterUIInfo interface [Failover Cluster],described, _wolf_igetclusteruiinfo, cluadmex/IGetClusterUIInfo, mscs.igetclusteruiinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

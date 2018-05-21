@@ -7,7 +7,7 @@ old-location: com\ioleobject.htm
 old-project: com
 ms.assetid: 58b32c87-39b6-4d64-9174-cf798ed302c2
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IOleObject, IOleObject interface [COM], IOleObject interface [COM],described, _ole_ioleobject, com.ioleobject, oleidl/IOleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

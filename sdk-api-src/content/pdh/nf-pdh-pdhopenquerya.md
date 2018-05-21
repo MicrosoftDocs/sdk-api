@@ -7,7 +7,7 @@ old-location: perf\pdhopenquery.htm
 old-project: PerfCtrs
 ms.assetid: ec4e5353-c7f5-4957-b7f4-39df508846a0
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PdhOpenQuery, PdhOpenQuery function [Perf], PdhOpenQueryA, PdhOpenQueryW, _win32_pdhopenquery, base.pdhopenquery, pdh/PdhOpenQuery, pdh/PdhOpenQueryA, pdh/PdhOpenQueryW, perf.pdhopenquery
 ms.prod: windows-hardware
 ms.technology: windows-devices

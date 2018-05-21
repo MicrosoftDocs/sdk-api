@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersourceevent_ratingschanged.htm
 old-project: mstv
 ms.assetid: 0754fb90-3f68-4f10-ab9b-74f7f7aeb047
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],RatingsChanged method, IMSVidStreamBufferSourceEvent.RatingsChanged, IMSVidStreamBufferSourceEvent::RatingsChanged, IMSVidStreamBufferSourceEventRatingsChanged, RatingsChanged, RatingsChanged method [Microsoft TV Technologies], RatingsChanged method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_ratingschanged, segment/IMSVidStreamBufferSourceEvent::RatingsChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

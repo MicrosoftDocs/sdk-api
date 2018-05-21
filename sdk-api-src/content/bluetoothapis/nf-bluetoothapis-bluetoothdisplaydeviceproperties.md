@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothdisplaydeviceproperties.htm
 old-project: Bluetooth
 ms.assetid: cb33cf35-eb1e-4953-a779-4eb38afe0c34
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothDisplayDeviceProperties, BluetoothDisplayDeviceProperties function [Bluetooth], bluetooth.bluetoothdisplaydeviceproperties, bluetoothapis/BluetoothDisplayDeviceProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

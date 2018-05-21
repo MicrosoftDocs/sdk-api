@@ -7,8 +7,8 @@ old-location: wab\_wab_SRestriction.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srestriction.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
-ms.keywords: "*LPSRestriction, RES_AND, RES_BITMASK, RES_COMMENT, RES_COMPAREPROPS, RES_CONTENT, RES_EXIST, RES_NOT, RES_OR, RES_PROPERTY, RES_SIZE, RES_SUBRESTRICTION, SPropProblem, SPropProblem structure [Windows Address Book], SRestriction, SRestriction structure [Windows Address Book], _SRestriction, _wab_SRestriction, wab._wab_SRestriction, wabdefs/SRestriction"
+ms.date: 5/10/2018
+ms.keywords: "*LPSRestriction, RES_AND, RES_BITMASK, RES_COMMENT, RES_COMPAREPROPS, RES_CONTENT, RES_EXIST, RES_NOT, RES_OR, RES_PROPERTY, RES_SIZE, RES_SUBRESTRICTION, SRestriction, SRestriction structure [Windows Address Book], _SRestriction, _wab_SRestriction, wab._wab_SRestriction, wabdefs/SRestriction"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Wabdefs.h
 api_name:
--	SPropProblem
+-	SRestriction
 product: Windows
 targetos: Windows
 req.lib: 

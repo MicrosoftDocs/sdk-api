@@ -7,7 +7,7 @@ old-location: com\mkparsedisplayname.htm
 old-project: com
 ms.assetid: ada46dd3-e2c5-4ff5-89bd-3805f98b247b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: MkParseDisplayName, MkParseDisplayName function [COM], _com_MkParseDisplayName, com.mkparsedisplayname, objbase/MkParseDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance.htm
 old-project: wmi_v2
 ms.assetid: 3dce1817-7995-49e5-8cc0-ee9496665e5c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_Instance, MI_Instance structure [Windows Management Infrastructure (MI)], _MI_Instance, mi/MI_Instance, wmi._mi_instance, wmi_v2.mi_instance
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\controlinfo.htm
 old-project: com
 ms.assetid: 3f22dc1d-554a-4dd1-a79a-121117f65caf
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPCONTROLINFO, CONTROLINFO, CONTROLINFO structure [COM], LPCONTROLINFO, LPCONTROLINFO structure pointer [COM], _ctrl_CONTROLINFO, com.controlinfo, ocidl/CONTROLINFO, ocidl/LPCONTROLINFO, tagCONTROLINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

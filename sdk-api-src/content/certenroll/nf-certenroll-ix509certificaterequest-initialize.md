@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequest_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: be0e2cda-5481-49ab-9a12-6dc52981fd24
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequest interface [Security],Initialize method, IX509CertificateRequest.Initialize, IX509CertificateRequest::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::Initialize, security.ix509certificaterequest_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

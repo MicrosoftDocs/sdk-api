@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage3_put_createredundantudfmetadatafiles.htm
 old-project: imapi
 ms.assetid: 594ef77e-57be-4ef0-9eba-3e6fc0340f6e
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IFileSystemImage3 interface [IMAPI],put_CreateRedundantUdfMetadataFiles method, IFileSystemImage3.put_CreateRedundantUdfMetadataFiles, IFileSystemImage3::put_CreateRedundantUdfMetadataFiles, imapi.ifilesystemimage3_put_createredundantudfmetadatafiles, imapi2fs/IFileSystemImage3::put_CreateRedundantUdfMetadataFiles, put_CreateRedundantUdfMetadataFiles, put_CreateRedundantUdfMetadataFiles method [IMAPI], put_CreateRedundantUdfMetadataFiles method [IMAPI],IFileSystemImage3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,11 +2,12 @@
 UID: TP:rdp
 ms.assetid: f2fdbe9c-5378-3329-bc7e-5993852bc608
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Windows Desktop Sharing

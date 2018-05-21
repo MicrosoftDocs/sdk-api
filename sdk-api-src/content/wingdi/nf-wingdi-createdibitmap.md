@@ -7,7 +7,7 @@ old-location: gdi\createdibitmap.htm
 old-project: gdi
 ms.assetid: e9a5b525-a6b6-4309-9e53-69d274b85783
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: CBM_INIT, CreateDIBitmap, CreateDIBitmap function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBitmap, gdi.createdibitmap, wingdi/CreateDIBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: of\iofflinefilescache_getdiskspaceinformation.htm
 old-project: OfflineFiles
 ms.assetid: 94ea826a-bfc4-4010-a57f-c3a1af985d03
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: GetDiskSpaceInformation, GetDiskSpaceInformation method [Offline Files], GetDiskSpaceInformation method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetDiskSpaceInformation method, IOfflineFilesCache.GetDiskSpaceInformation, IOfflineFilesCache::GetDiskSpaceInformation, cscobj/IOfflineFilesCache::GetDiskSpaceInformation, of.iofflinefilescache_getdiskspaceinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

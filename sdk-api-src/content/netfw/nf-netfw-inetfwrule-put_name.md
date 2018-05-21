@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_name.htm
 old-project: ICS
 ms.assetid: 669ea684-5b00-4b60-8259-fad02cca572b
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Name property, INetFwRule.Name, INetFwRule.put_Name, INetFwRule::Name, INetFwRule::get_Name, INetFwRule::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwRule interface, ics.inetfwrule_name, netfw/INetFwRule::Name, netfw/INetFwRule::get_Name, netfw/INetFwRule::put_Name, put_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

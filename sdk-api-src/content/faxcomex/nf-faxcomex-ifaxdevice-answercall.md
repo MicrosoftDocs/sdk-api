@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevice_answercall_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_76uk.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: AnswerCall, AnswerCall method [Fax Service], AnswerCall method [Fax Service],FaxDevice object, FaxDevice object [Fax Service],AnswerCall method, FaxDevice.AnswerCall, IFaxDevice.AnswerCall, IFaxDevice::AnswerCall, _mfax_faxdevice.answercall, fax._mfax_faxdevice_answercall, fax._mfax_faxdevice_answercall_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\engcreateclip.htm
 old-project: display
 ms.assetid: 719b006f-1eb0-41c6-8b88-c8241a394abe
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: EngCreateClip, EngCreateClip function [Display Devices], display.engcreateclip, gdifncs_e1faed88-1f89-49c2-871e-097e56db1a10.xml, winddi/EngCreateClip
 ms.prod: windows-hardware
 ms.technology: windows-devices

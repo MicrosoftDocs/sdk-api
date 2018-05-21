@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Slwga.lib
 req.dll: Slwga.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SLIsGenuineLocalEx function

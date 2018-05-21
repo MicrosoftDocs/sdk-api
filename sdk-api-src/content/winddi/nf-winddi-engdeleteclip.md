@@ -7,7 +7,7 @@ old-location: display\engdeleteclip.htm
 old-project: display
 ms.assetid: 7af85df1-1e37-4a69-82a0-1c1eec32dd48
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: EngDeleteClip, EngDeleteClip function [Display Devices], display.engdeleteclip, gdifncs_0ca10e14-e720-49f3-8c56-9c9dd646f04f.xml, winddi/EngDeleteClip
 ms.prod: windows-hardware
 ms.technology: windows-devices

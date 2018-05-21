@@ -7,7 +7,7 @@ old-location: base\callbackmayrunlong.htm
 old-project: ProcThread
 ms.assetid: 59364b91-d78b-46e2-b298-42f77e712577
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: CallbackMayRunLong, CallbackMayRunLong function, base.callbackmayrunlong, threadpoolapiset/CallbackMayRunLong, winbase/CallbackMayRunLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

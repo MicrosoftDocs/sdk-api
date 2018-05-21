@@ -7,7 +7,7 @@ old-location: rpc\ndrmesprocencodedecode4.htm
 old-project: Rpc
 ms.assetid: 53A24D77-0C23-4C06-AAB8-521528297E4F
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: NdrMesProcEncodeDecode4, NdrMesProcEncodeDecode4 function [RPC], rpc.ndrmesprocencodedecode4, rpcndr/NdrMesProcEncodeDecode4
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\displayconfig_target_base_type.htm
 old-project: display
 ms.assetid: 7916E714-9A3C-4682-AC08-9B6EE222D8B7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: DISPLAYCONFIG_TARGET_BASE_TYPE, DISPLAYCONFIG_TARGET_BASE_TYPE structure [Display Devices], display.displayconfig_target_base_type, wingdi/DISPLAYCONFIG_TARGET_BASE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

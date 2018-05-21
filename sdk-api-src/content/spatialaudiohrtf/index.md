@@ -2,7 +2,7 @@
 UID: NA:spatialaudiohrtf
 ms.assetid: ddbf89fe-c8b2-3dcf-85f9-b8f875fd37e7
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

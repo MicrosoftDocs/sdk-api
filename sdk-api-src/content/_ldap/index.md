@@ -2,11 +2,12 @@
 UID: TP:ldap
 ms.assetid: 15a0bafb-f4a0-3e3e-87c9-c56597e8b4ff
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Lightweight Directory Access Protocol

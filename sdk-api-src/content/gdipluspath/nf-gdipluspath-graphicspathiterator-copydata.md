@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_CopyData_points_types_
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\copydata.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: CopyData, CopyData method [GDI+], CopyData method [GDI+],GraphicsPathIterator class, GraphicsPathIterator class [GDI+],CopyData method, GraphicsPathIterator.CopyData, GraphicsPathIterator::CopyData, _gdiplus_CLASS_GraphicsPathIterator_CopyData_points_types_startIndex_endIndex_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_CopyData_points_types_startIndex_endIndex_
 ms.prod: windows-hardware
 ms.technology: windows-devices

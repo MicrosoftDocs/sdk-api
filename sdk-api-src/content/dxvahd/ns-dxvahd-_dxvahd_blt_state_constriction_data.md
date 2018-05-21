@@ -7,7 +7,7 @@ old-location: mf\dxvahd_blt_state_constriction_data.htm
 old-project: medfound
 ms.assetid: 962a99bd-060d-4101-b65a-d0406e136bf7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: DXVAHD_BLT_STATE_CONSTRICTION_DATA, DXVAHD_BLT_STATE_CONSTRICTION_DATA structure [Media Foundation], _DXVAHD_BLT_STATE_CONSTRICTION_DATA, dxvahd/DXVAHD_BLT_STATE_CONSTRICTION_DATA, mf.dxvahd_blt_state_constriction_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

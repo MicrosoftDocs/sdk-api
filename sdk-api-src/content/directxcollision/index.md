@@ -2,7 +2,7 @@
 UID: NA:directxcollision
 ms.assetid: 99342ae6-316f-3c01-8d39-173dd588aa1c
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

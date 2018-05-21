@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_getfontfamily.htm
 old-project: medfound
 ms.assetid: 4250F2ED-F479-45E9-89A3-9037F40BD4E2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetFontFamily, GetFontFamily method [Media Foundation], GetFontFamily method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetFontFamily method, IMFTimedTextStyle.GetFontFamily, IMFTimedTextStyle::GetFontFamily, mf.imftimedtextstyle_getfontfamily, mfmediaengine/IMFTimedTextStyle::GetFontFamily
 ms.prod: windows-hardware
 ms.technology: windows-devices

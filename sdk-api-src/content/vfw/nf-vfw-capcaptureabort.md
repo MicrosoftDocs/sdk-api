@@ -7,7 +7,7 @@ old-location: multimedia\capcaptureabort.htm
 old-project: Multimedia
 ms.assetid: a1c17695-ee91-4f76-a2be-a6e512903c8f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "_win32_capCaptureAbort, capCaptureAbort, capCaptureAbort macro [Windows Multimedia], multimedia.capcaptureabort, vfw/capCaptureAbort"
 ms.prod: windows-hardware
 ms.technology: windows-devices

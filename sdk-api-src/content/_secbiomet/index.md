@@ -2,7 +2,7 @@
 UID: TP:secbiomet
 ms.assetid: e8f9b75a-0dd8-3544-bc54-6d945c8b30fc
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\symfromname.htm
 old-project: Debug
 ms.assetid: 26b9eba7-2038-4640-aeb2-3052889b14ea
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SymFromName, SymFromName function, SymFromNameW, _win32_symfromname, base.symfromname, dbghelp/SymFromName, dbghelp/SymFromNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

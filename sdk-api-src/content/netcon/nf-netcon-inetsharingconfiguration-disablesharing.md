@@ -7,7 +7,7 @@ old-location: ics\inetsharingconfiguration_disablesharing.htm
 old-project: ICS
 ms.assetid: 85fda578-603c-4447-8546-374077235943
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: DisableSharing, DisableSharing method [ICS/ICF], DisableSharing method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],DisableSharing method, INetSharingConfiguration.DisableSharing, INetSharingConfiguration::DisableSharing, _ics_inetsharingconfiguration_disablesharing, ics.inetsharingconfiguration_disablesharing, netcon/INetSharingConfiguration::DisableSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices

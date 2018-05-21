@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfconstructors\pointf_52.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: PointF, PointF class [GDI+],PointF constructor, PointF constructor [GDI+], PointF constructor [GDI+],PointF class, PointF.PointF, PointF.PointF(), PointF.PointF(IN REAL,IN REAL), PointF::PointF, PointF::PointF(IN REAL,IN REAL), _gdiplus_CLASS_PointF_PointF_, gdiplus._gdiplus_CLASS_PointF_PointF_
 ms.prod: windows-hardware
 ms.technology: windows-devices

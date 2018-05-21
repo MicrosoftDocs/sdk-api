@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurfaceallocator_freesurface.htm
 old-project: DirectShow
 ms.assetid: 7b00d32c-832f-439f-8da5-7e77f90e1510
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FreeSurface, FreeSurface method [DirectShow], FreeSurface method [DirectShow],IVMRSurfaceAllocator interface, IVMRSurfaceAllocator interface [DirectShow],FreeSurface method, IVMRSurfaceAllocator.FreeSurface, IVMRSurfaceAllocator::FreeSurface, IVMRSurfaceAllocatorFreeSurface, dshow.ivmrsurfaceallocator_freesurface, strmif/IVMRSurfaceAllocator::FreeSurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

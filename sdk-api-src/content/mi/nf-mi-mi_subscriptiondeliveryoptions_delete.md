@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions_delete.htm
 old-project: wmi_v2
 ms.assetid: 658dcb26-4ba1-42ef-a404-b431d0c92864
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_Delete, MI_SubscriptionDeliveryOptions_Delete function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_Delete, wmi_v2.mi_subscriptiondeliveryoptions_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

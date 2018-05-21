@@ -7,7 +7,7 @@ old-location: controls\tablecellparms.htm
 old-project: Controls
 ms.assetid: 75bf07bd-103b-4f35-b421-5a7559c7b90e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: TABLECELLPARMS, TABLECELLPARMS structure [Windows Controls], _tableCellParms, controls.tablecellparms, richedit/TABLECELLPARMS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509policyserverlistmanager_count.htm
 old-project: SecCertEnroll
 ms.assetid: 77211dd5-c6df-428b-8f2d-410485109548
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: Count property [Security], Count property [Security],IX509PolicyServerListManager interface, IX509PolicyServerListManager interface [Security],Count property, IX509PolicyServerListManager.Count, IX509PolicyServerListManager.get_Count, IX509PolicyServerListManager::Count, IX509PolicyServerListManager::get_Count, certenroll/IX509PolicyServerListManager::Count, certenroll/IX509PolicyServerListManager::get_Count, get_Count, security.ix509policyserverlistmanager_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

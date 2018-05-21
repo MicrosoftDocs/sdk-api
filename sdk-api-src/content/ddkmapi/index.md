@@ -2,7 +2,7 @@
 UID: NA:ddkmapi
 ms.assetid: b6ffa318-6cae-316b-afea-e5809778bc2e
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

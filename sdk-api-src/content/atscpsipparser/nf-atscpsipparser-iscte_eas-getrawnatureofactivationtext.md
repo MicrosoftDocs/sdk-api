@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getrawnatureofactivationtext.htm
 old-project: mstv
 ms.assetid: 11ada9ab-b55f-41c1-9d7d-1c856a17a3a9
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRawNatureOfActivationText, GetRawNatureOfActivationText method [Microsoft TV Technologies], GetRawNatureOfActivationText method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetRawNatureOfActivationText method, ISCTE_EAS.GetRawNatureOfActivationText, ISCTE_EAS::GetRawNatureOfActivationText, atscpsipparser/ISCTE_EAS::GetRawNatureOfActivationText, mstv.iscte_eas_getrawnatureofactivationtext
 ms.prod: windows-hardware
 ms.technology: windows-devices

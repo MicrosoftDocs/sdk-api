@@ -7,7 +7,7 @@ old-location: mscs\resutilgetbinaryvalue.htm
 old-project: MsCS
 ms.assetid: d5068cc4-1fdc-430a-a48b-8e024bc20ca3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PRESUTIL_GET_BINARY_VALUE, PRESUTIL_GET_BINARY_VALUE callback, PRESUTIL_GET_BINARY_VALUE callback function [Failover Cluster], _wolf_resutilgetbinaryvalue, mscs.resutilgetbinaryvalue, resapi/PRESUTIL_GET_BINARY_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices

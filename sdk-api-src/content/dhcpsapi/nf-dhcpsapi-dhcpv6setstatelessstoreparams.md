@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6setstatelessstoreparams.htm
 old-project: DHCP
 ms.assetid: 8f64c1bb-8f02-45e3-b9ed-8fce2bf9885c
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpV6SetStatelessStoreParams, DhcpV6SetStatelessStoreParams function [DHCP], dhcp.dhcpv6setstatelessstoreparams, dhcpsapi/DhcpV6SetStatelessStoreParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

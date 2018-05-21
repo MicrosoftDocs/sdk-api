@@ -7,7 +7,7 @@ old-location: etw\tdhgetdecodingparameter.htm
 old-project: ETW
 ms.assetid: 81aeea7c-fd35-4fa8-af72-804006c22f7b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: TdhGetDecodingParameter, TdhGetDecodingParameter function [ETW], etw.tdhgetdecodingparameter, tdh/TdhGetDecodingParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices

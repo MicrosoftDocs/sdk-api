@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex3.htm
 old-project: WinRM
 ms.assetid: 6d362cdf-0f77-446a-8df9-1d38eca853a2
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: IWSManEx3, IWSManEx3 interface [Windows Remote Management], IWSManEx3 interface [Windows Remote Management],described, winrm.iwsmanex3, wsmandisp/IWSManEx3
 ms.prod: windows-hardware
 ms.technology: windows-devices

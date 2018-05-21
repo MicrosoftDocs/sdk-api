@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_getoptionat.htm
 old-project: wmi_v2
 ms.assetid: 06ae674b-c7d7-47c1-81f2-6a825d9889a2
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_OperationOptions_GetOptionAt, MI_OperationOptions_GetOptionAt function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetOptionAt, wmi_v2.mi_operationoptions_getoptionat
 ms.prod: windows-hardware
 ms.technology: windows-devices

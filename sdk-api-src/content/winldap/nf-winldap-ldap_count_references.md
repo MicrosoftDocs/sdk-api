@@ -7,7 +7,7 @@ old-location: ldap\ldap_count_references.htm
 old-project: LDAP
 ms.assetid: 1d216f39-6eb4-4c3d-8f97-92835aac2aca
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_count_references, ldap.ldap__count__references, ldap.ldap_count_references, ldap_count_references, ldap_count_references function [LDAP], winldap/ldap_count_references"
 ms.prod: windows-hardware
 ms.technology: windows-devices

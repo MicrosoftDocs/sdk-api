@@ -7,7 +7,7 @@ old-location: display\ddgetfieldnumout.htm
 old-project: display
 ms.assetid: 6af9d0be-03b7-4153-a4d6-cf36afe4fd0e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*LPDDGETFIELDNUMOUT, DDGETFIELDNUMOUT, DDGETFIELDNUMOUT structure [Display Devices], LPDDGETFIELDNUMOUT, LPDDGETFIELDNUMOUT structure pointer [Display Devices], _DDGETFIELDNUMOUT, ddkmapi/DDGETFIELDNUMOUT, ddkmapi/LPDDGETFIELDNUMOUT, ddstrcts_a52a121b-2050-41c3-a5ee-6ad474e3a666.xml, display.ddgetfieldnumout"
 ms.prod: windows-hardware
 ms.technology: windows-devices

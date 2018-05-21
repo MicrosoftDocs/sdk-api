@@ -7,7 +7,7 @@ old-location: mstv\iisdb_bit_getcountoftabledescriptors.htm
 old-project: mstv
 ms.assetid: 69b1851b-b8a9-4dfe-be6b-ffadd2a83b12
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IISDB_BIT.GetCountOfTableDescriptors, IISDB_BIT::GetCountOfTableDescriptors, dvbsiparser/IISDB_BIT::GetCountOfTableDescriptors, mstv.iisdb_bit_getcountoftabledescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

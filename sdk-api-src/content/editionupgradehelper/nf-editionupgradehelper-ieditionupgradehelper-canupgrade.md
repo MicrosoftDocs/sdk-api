@@ -7,7 +7,7 @@ old-location: winprog\ieditionupgradehelper_canupgrade.htm
 old-project: DevNotes
 ms.assetid: 8B2776DC-09DE-4E40-96CC-656C4B09A109
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CanUpgrade, CanUpgrade method [Windows API], CanUpgrade method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],CanUpgrade method, IEditionUpgradeHelper.CanUpgrade, IEditionUpgradeHelper::CanUpgrade, editionupgradehelper/IEditionUpgradeHelper::CanUpgrade, winprog.ieditionupgradehelper_canupgrade
 ms.prod: windows-hardware
 ms.technology: windows-devices

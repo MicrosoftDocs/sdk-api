@@ -7,7 +7,7 @@ old-location: base\waitforsingleobjectex.htm
 old-project: Sync
 ms.assetid: 530b5340-f8b2-4e00-a3ca-87a7c7372482
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/17/2018
 ms.keywords: WaitForSingleObjectEx, WaitForSingleObjectEx function, _win32_waitforsingleobjectex, base.waitforsingleobjectex, synchapi/WaitForSingleObjectEx, winbase/WaitForSingleObjectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

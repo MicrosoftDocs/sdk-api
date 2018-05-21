@@ -7,7 +7,7 @@ old-location: base\minidump_memory_info_list_str.htm
 old-project: Debug
 ms.assetid: c1c9a79b-a35a-47e8-be4c-10b3c4ace937
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: "*PMINIDUMP_MEMORY_INFO_LIST, MINIDUMP_MEMORY_INFO_LIST, MINIDUMP_MEMORY_INFO_LIST structure, PMINIDUMP_MEMORY_INFO_LIST, PMINIDUMP_MEMORY_INFO_LIST structure pointer, _MINIDUMP_MEMORY_INFO_LIST, base.minidump_memory_info_list_str, minidumpapiset/MINIDUMP_MEMORY_INFO_LIST, minidumpapiset/PMINIDUMP_MEMORY_INFO_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

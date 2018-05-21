@@ -7,7 +7,7 @@ old-location: winrm\wsmanreconnectshell.htm
 old-project: WinRM
 ms.assetid: 92D9D3FE-73A1-45FA-AD8A-344AB909C6F7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: WSManReconnectShell, WSManReconnectShell function [Windows Remote Management], winrm.wsmanreconnectshell, wsman/WSManReconnectShell
 ms.prod: windows-hardware
 ms.technology: windows-devices

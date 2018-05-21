@@ -2,7 +2,7 @@
 UID: NA:timeapi
 ms.assetid: 2edbce99-7063-381b-8699-e8e1ddea7a6b
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

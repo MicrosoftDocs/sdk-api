@@ -7,7 +7,7 @@ old-location: security\spapplycontroltoken.htm
 old-project: SecAuthN
 ms.assetid: 60c5e310-dd80-4bf7-9480-ac614c98d75f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SpApplyControlToken, SpApplyControlToken function [Security], SpApplyControlTokenFn, _ssp_spapplycontroltoken, ntsecpkg/SpApplyControlToken, security.spapplycontroltoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

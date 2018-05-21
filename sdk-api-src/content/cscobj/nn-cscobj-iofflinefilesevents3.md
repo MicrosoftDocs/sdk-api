@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents3.htm
 old-project: OfflineFiles
 ms.assetid: f68c2c0c-e4f7-4048-99c9-761f98928157
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesEvents3, IOfflineFilesEvents3 interface [Offline Files], IOfflineFilesEvents3 interface [Offline Files],described, cscobj/IOfflineFilesEvents3, of.iofflinefilesevents3
 ms.prod: windows-hardware
 ms.technology: windows-devices

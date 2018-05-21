@@ -7,7 +7,7 @@ old-location: com\ioledocument_getdocmiscstatus.htm
 old-project: com
 ms.assetid: de279d46-057e-4c3a-8af3-14f7b65147fd
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: GetDocMiscStatus, GetDocMiscStatus method [COM], GetDocMiscStatus method [COM],IOleDocument interface, IOleDocument interface [COM],GetDocMiscStatus method, IOleDocument.GetDocMiscStatus, IOleDocument::GetDocMiscStatus, _ole_ioledocument_getdocmiscstatus, com.ioledocument_getdocmiscstatus, docobj/IOleDocument::GetDocMiscStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

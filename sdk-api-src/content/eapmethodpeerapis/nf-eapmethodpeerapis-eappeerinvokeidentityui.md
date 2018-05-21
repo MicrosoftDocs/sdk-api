@@ -7,7 +7,7 @@ old-location: eaphost\eappeerinvokeidentityui.htm
 old-project: EAPHost
 ms.assetid: 9b3a525a-2322-496e-83c7-a3180235583a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapPeerInvokeIdentityUI, EapPeerInvokeIdentityUI function [EAPHost], eaphost.eappeerinvokeidentityui, eapmethodpeerapis/EapPeerInvokeIdentityUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

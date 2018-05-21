@@ -7,7 +7,7 @@ old-location: mstv\icomponent_clone.htm
 old-project: mstv
 ms.assetid: 8d643a76-c0aa-4ded-9534-0ff7c4e8402d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IComponent interface, IComponent interface [Microsoft TV Technologies],Clone method, IComponent.Clone, IComponent::Clone, IComponentClone, mstv.icomponent_clone, tuner/IComponent::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

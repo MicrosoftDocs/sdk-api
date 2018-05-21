@@ -7,7 +7,7 @@ old-location: mf\imfsourcereadercallback_onreadsample.htm
 old-project: medfound
 ms.assetid: 1f334b49-d297-478d-a037-2fc53a75ed52
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFSourceReaderCallback interface [Media Foundation],OnReadSample method, IMFSourceReaderCallback.OnReadSample, IMFSourceReaderCallback::OnReadSample, OnReadSample, OnReadSample method [Media Foundation], OnReadSample method [Media Foundation],IMFSourceReaderCallback interface, mf.imfsourcereadercallback_onreadsample, mfreadwrite/IMFSourceReaderCallback::OnReadSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

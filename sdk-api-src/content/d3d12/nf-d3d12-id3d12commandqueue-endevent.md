@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12commandqueue_endevent.htm
 old-project: direct3d12
 ms.assetid: CA45061A-3DD6-4FFB-9723-ED33343052F3
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: EndEvent, EndEvent method, EndEvent method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,EndEvent method, ID3D12CommandQueue.EndEvent, ID3D12CommandQueue::EndEvent, d3d12/ID3D12CommandQueue::EndEvent, direct3d12.id3d12commandqueue_endevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

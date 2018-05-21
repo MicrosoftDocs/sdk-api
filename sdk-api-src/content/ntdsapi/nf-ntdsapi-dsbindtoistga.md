@@ -7,7 +7,7 @@ old-location: ad\dsbindtoistg.htm
 old-project: AD
 ms.assetid: bd53124c-8578-495d-b540-d4b4c09297c3
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: DsBindToISTG, DsBindToISTG function [Active Directory], DsBindToISTGA, DsBindToISTGW, ad.dsbindtoistg, ntdsapi/DsBindToISTG, ntdsapi/DsBindToISTGA, ntdsapi/DsBindToISTGW
 ms.prod: windows-hardware
 ms.technology: windows-devices

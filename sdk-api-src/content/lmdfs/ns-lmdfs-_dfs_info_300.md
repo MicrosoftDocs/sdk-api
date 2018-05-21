@@ -7,7 +7,7 @@ old-location: dfs\dfs_info_300_str.htm
 old-project: Dfs
 ms.assetid: b418517a-9313-49e9-a679-69b02f4ee37f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDFS_INFO_300, *PDFS_INFO_300, DFS_INFO_300, DFS_INFO_300 structure [Distributed File System], DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, LPDFS_INFO_300, LPDFS_INFO_300 structure pointer [Distributed File System], PDFS_INFO_300, PDFS_INFO_300 structure pointer [Distributed File System], _DFS_INFO_300, _win32_dfs_info_300_str, dfs.dfs_info_300_str, fs.dfs_info_300_str, lmdfs/DFS_INFO_300, lmdfs/LPDFS_INFO_300, lmdfs/PDFS_INFO_300, netmgmt.dfs_info_300_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

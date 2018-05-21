@@ -7,7 +7,7 @@ old-location: wsw\ws_duration_comparison_callback.htm
 old-project: wsw
 ms.assetid: 69f5d387-15b1-41cc-a0f8-047b8f6adb93
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_DURATION_COMPARISON_CALLBACK, WS_DURATION_COMPARISON_CALLBACK callback, WS_DURATION_COMPARISON_CALLBACK callback function [Web Services for Windows], webservices/WS_DURATION_COMPARISON_CALLBACK, wsw.ws_duration_comparison_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

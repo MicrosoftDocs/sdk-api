@@ -7,7 +7,7 @@ old-location: fs\disk_grow_partition_str.htm
 old-project: FileIO
 ms.assetid: 17ff8bbb-45a6-4ddd-a871-8519500c03a9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PDISK_GROW_PARTITION, DISK_GROW_PARTITION, DISK_GROW_PARTITION structure [Files], PDISK_GROW_PARTITION, PDISK_GROW_PARTITION structure pointer [Files], _DISK_GROW_PARTITION, base.disk_grow_partition_str, fs.disk_grow_partition_str, winioctl/DISK_GROW_PARTITION, winioctl/PDISK_GROW_PARTITION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

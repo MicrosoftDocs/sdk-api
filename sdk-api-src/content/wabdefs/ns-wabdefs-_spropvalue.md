@@ -7,8 +7,8 @@ old-location: wab\_wab_SPropValue.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropvalue.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
-ms.keywords: "*LPSPropValue, SPropProblem, SPropProblem structure [Windows Address Book], SPropValue, SPropValue structure [Windows Address Book], _SPropValue, _wab_SPropValue, wab._wab_SPropValue, wabdefs/SPropValue"
+ms.date: 5/10/2018
+ms.keywords: "*LPSPropValue, SPropValue, SPropValue structure [Windows Address Book], _SPropValue, _wab_SPropValue, wab._wab_SPropValue, wabdefs/SPropValue"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Wabdefs.h
 api_name:
--	SPropProblem
+-	SPropValue
 product: Windows
 targetos: Windows
 req.lib: 

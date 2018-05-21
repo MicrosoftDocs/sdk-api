@@ -2,11 +2,12 @@
 UID: TP:dedup
 ms.assetid: cd834ca0-b712-386c-8042-173e3d8c8820
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Data Deduplication API

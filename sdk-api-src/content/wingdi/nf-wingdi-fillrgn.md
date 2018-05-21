@@ -7,7 +7,7 @@ old-location: gdi\fillrgn.htm
 old-project: gdi
 ms.assetid: c4e0eca5-442b-462b-a4f2-0c628b6d3d38
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: FillRgn, FillRgn function [Windows GDI], _win32_FillRgn, gdi.fillrgn, wingdi/FillRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

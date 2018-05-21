@@ -7,7 +7,7 @@ old-location: fs\writefilegather.htm
 old-project: FileIO
 ms.assetid: 9590eabb-6e85-406e-8101-e67f87e6850b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: WriteFileGather, WriteFileGather function [Files], _win32_writefilegather, base.writefilegather, fileapi/WriteFileGather, fs.writefilegather, winbase/WriteFileGather
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

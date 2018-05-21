@@ -7,7 +7,7 @@ old-location: wsw\ws_charset.htm
 old-project: wsw
 ms.assetid: 47dadf5d-1bc7-4f93-936c-21c936bc3fc3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_CHARSET, WS_CHARSET enumeration [Web Services for Windows], WS_CHARSET_AUTO, WS_CHARSET_UTF16BE, WS_CHARSET_UTF16LE, WS_CHARSET_UTF8, webservices/WS_CHARSET, webservices/WS_CHARSET_AUTO, webservices/WS_CHARSET_UTF16BE, webservices/WS_CHARSET_UTF16LE, webservices/WS_CHARSET_UTF8, wsw.ws_charset
 ms.prod: windows-hardware
 ms.technology: windows-devices

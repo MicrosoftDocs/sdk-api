@@ -7,7 +7,7 @@ old-location: mstv\ixdscodecconfig_setpausebuffertime.htm
 old-project: mstv
 ms.assetid: 46e71958-86bc-4649-a401-b16131dd6bbd
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IXDSCodecConfig interface [Microsoft TV Technologies],SetPauseBufferTime method, IXDSCodecConfig.SetPauseBufferTime, IXDSCodecConfig::SetPauseBufferTime, IXDSCodecConfigSetPauseBufferTime, SetPauseBufferTime, SetPauseBufferTime method [Microsoft TV Technologies], SetPauseBufferTime method [Microsoft TV Technologies],IXDSCodecConfig interface, encdec/IXDSCodecConfig::SetPauseBufferTime, mstv.ixdscodecconfig_setpausebuffertime
 ms.prod: windows-hardware
 ms.technology: windows-devices

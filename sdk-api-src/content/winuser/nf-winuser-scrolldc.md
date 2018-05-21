@@ -7,7 +7,7 @@ old-location: controls\ScrollDC.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\scrolldc.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ScrollDC, ScrollDC function [Windows Controls], _win32_ScrollDC, _win32_ScrollDC_cpp, controls.ScrollDC, controls._win32_ScrollDC, winuser/ScrollDC
 ms.prod: windows-hardware
 ms.technology: windows-devices

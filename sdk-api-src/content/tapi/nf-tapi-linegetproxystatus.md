@@ -7,7 +7,7 @@ old-location: tapi2\linegetproxystatus.htm
 old-project: Tapi
 ms.assetid: 0684f52f-13dd-4734-9242-acd03f7a25ae
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: "_tapi2_linegetproxystatus, lineGetProxyStatus, lineGetProxyStatus function [TAPI 2.2], tapi/lineGetProxyStatus, tapi2.linegetproxystatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices

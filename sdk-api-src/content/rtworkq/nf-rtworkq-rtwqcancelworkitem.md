@@ -7,7 +7,7 @@ old-location: base\rtwqcancelworkitem.htm
 old-project: ProcThread
 ms.assetid: 55d5c6d6-310e-4f73-bbf4-9ac47a3ed295
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: RtwqCancelWorkItem, RtwqCancelWorkItem function, base.rtwqcancelworkitem, rtworkq/RtwqCancelWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

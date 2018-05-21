@@ -7,7 +7,7 @@ old-location: com\olerun.htm
 old-project: com
 ms.assetid: 9035f996-b163-4855-aa9d-184b77072ead
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleRun, OleRun function [COM], _ole_OleRun, com.olerun, ole2/OleRun
 ms.prod: windows-hardware
 ms.technology: windows-devices

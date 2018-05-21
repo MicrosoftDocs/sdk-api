@@ -7,7 +7,7 @@ old-location: controls\LVSETINFOTIP.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvsetinfotip.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: "*PLVSETINFOTIP, LVSETINFOTIP, LVSETINFOTIP structure [Windows Controls], PLVSETINFOTIP, PLVSETINFOTIP structure pointer [Windows Controls], commctrl/LVSETINFOTIP, commctrl/PLVSETINFOTIP, controls.LVSETINFOTIP, controls.inet_LVSETINFOTIP, inet_LVSETINFOTIP, inet_LVSETINFOTIP_cpp, tagLVSETINFOTIP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

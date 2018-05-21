@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Windows.Networking.lib
 req.dll: Windows.Networking.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # AudioObjectType enumeration

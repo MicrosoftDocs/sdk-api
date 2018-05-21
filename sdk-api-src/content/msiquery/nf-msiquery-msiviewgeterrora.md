@@ -7,7 +7,7 @@ old-location: setup\msiviewgeterror.htm
 old-project: Msi
 ms.assetid: a59ab850-204b-40b7-bf24-d6a2d7ae82f4
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MsiViewGetError, MsiViewGetError function, MsiViewGetErrorA, MsiViewGetErrorW, _msi_msiviewgeterror, msiquery/MsiViewGetError, msiquery/MsiViewGetErrorA, msiquery/MsiViewGetErrorW, setup.msiviewgeterror
 ms.prod: windows-hardware
 ms.technology: windows-devices

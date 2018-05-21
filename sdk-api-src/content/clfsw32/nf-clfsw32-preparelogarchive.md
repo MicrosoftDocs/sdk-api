@@ -7,7 +7,7 @@ old-location: fs\preparelogarchive.htm
 old-project: Clfs
 ms.assetid: dfdad56a-7485-4c23-852e-819980ecd5e9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: PrepareLogArchive, PrepareLogArchive function [Files], clfsw32/PrepareLogArchive, fs.preparelogarchive
 ms.prod: windows-hardware
 ms.technology: windows-devices

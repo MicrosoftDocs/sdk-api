@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_focus.htm
 old-project: DirectShow
 ms.assetid: 59ab6306-539f-4be4-8e69-348eab6220ea
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Focus method, ICameraControl.get_Focus, ICameraControl::get_Focus, ICameraControlget_Focus, dshow.icameracontrol_get_focus, get_Focus, get_Focus method [DirectShow], get_Focus method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Focus
 ms.prod: windows-hardware
 ms.technology: windows-devices

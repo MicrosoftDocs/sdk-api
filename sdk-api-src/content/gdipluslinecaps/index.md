@@ -2,7 +2,7 @@
 UID: NA:gdipluslinecaps
 ms.assetid: a6576ae2-4880-3293-920e-419821fb5fe2
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

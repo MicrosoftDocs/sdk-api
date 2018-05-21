@@ -7,7 +7,7 @@ old-location: winrm\iwsmanresourcelocator_clearoptions.htm
 old-project: WinRM
 ms.assetid: 4c71948d-2321-41b5-b961-c4a514830b26
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: ClearOptions, ClearOptions method [Windows Remote Management], ClearOptions method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],ClearOptions method, IWSManResourceLocator.ClearOptions, IWSManResourceLocator::ClearOptions, winrm.iwsmanresourcelocator_clearoptions, wsmandisp/IWSManResourceLocator::ClearOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

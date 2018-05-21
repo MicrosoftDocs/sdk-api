@@ -2,7 +2,7 @@
 UID: TP:sens
 ms.assetid: 90cfd6a7-8ab8-37c6-ad62-4a2764299d85
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

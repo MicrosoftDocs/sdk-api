@@ -7,7 +7,7 @@ old-location: winrt\instancingtype.htm
 old-project: WinRT
 ms.assetid: 42E6A5EE-06B0-4F38-92D0-729922AD9FFF
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: InstancingType, InstancingType enumeration [Windows Runtime], MultipleInstances, SingleInstance, activationregistration/InstancingType, activationregistration/MultipleInstances, activationregistration/SingleInstance, winrt.instancingtype
 ms.prod: windows-hardware
 ms.technology: windows-devices

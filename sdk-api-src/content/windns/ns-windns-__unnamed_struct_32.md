@@ -7,7 +7,7 @@ old-location: dns\dns_naptr_data.htm
 old-project: DNS
 ms.assetid: 8f576efb-4ef3-4fc0-8cf5-d373460a3b3c
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: "*PDNS_NAPTR_DATA, *PDNS_NAPTR_DATAW, DNS_NAPTR_DATA, DNS_NAPTR_DATA structure [DNS], DNS_NAPTR_DATAW, PDNS_NAPTR_DATA, PDNS_NAPTR_DATA structure pointer [DNS], dns.dns_naptr_data, windns/DNS_NAPTR_DATA, windns/PDNS_NAPTR_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

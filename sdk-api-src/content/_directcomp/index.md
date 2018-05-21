@@ -2,7 +2,7 @@
 UID: TP:directcomp
 ms.assetid: efb19c94-b4cc-3005-83ee-8d631642e8f9
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ For the programming guide, see [DirectComposition](https://review.docs.microsoft
 | Title   | Description   |
 | ---- |:---- |
 | [DCompositionAttachMouseDragToHwnd function](..\dcomp\nf-dcomp-dcompositionattachmousedragtohwnd.md) | Creates an Interaction/InputSink to route mouse button down and any subsequent move and up events to the given HWND. |
-| [DCompositionAttachMouseWheelToHwnd function](..\dcomp\nf-dcomp-dcompositionattachmousewheeltohwnd.md) | Creates an Interaction/InputSink to route mouse button down and any subsequent move and up events to the given HWND. |
+| [DCompositionAttachMouseWheelToHwnd function](..\dcomp\nf-dcomp-dcompositionattachmousewheeltohwnd.md) | Creates an Interaction/InputSink to route mouse wheel messages to the given HWND. |
 | [DCompositionCreateDevice function](..\dcomp\nf-dcomp-dcompositioncreatedevice.md) | Creates a new device object that can be used to create other Microsoft DirectComposition objects. |
 | [DCompositionCreateDevice2 function](..\dcomp\nf-dcomp-dcompositioncreatedevice2.md) | Creates a new device object that can be used to create other Microsoft DirectComposition objects. |
 | [DCompositionCreateDevice3 function](..\dcomp\nf-dcomp-dcompositioncreatedevice3.md) | Creates a new DirectComposition device object, which can be used to create other DirectComposition objects. |

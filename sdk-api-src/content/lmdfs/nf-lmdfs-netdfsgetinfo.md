@@ -7,7 +7,7 @@ old-location: dfs\netdfsgetinfo.htm
 old-project: Dfs
 ms.assetid: bbb2f24d-1c49-4016-a16b-60fde4a78193
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: 1, 100, 150, 2, 3, 4, 5, 50, 6, 7, 8, 9, NetDfsGetInfo, NetDfsGetInfo function [Distributed File System], _win32_netdfsgetinfo, dfs.netdfsgetinfo, fs.netdfsgetinfo, lmdfs/NetDfsGetInfo, netmgmt.netdfsgetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

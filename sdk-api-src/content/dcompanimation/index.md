@@ -2,7 +2,7 @@
 UID: NA:dcompanimation
 ms.assetid: 829b3736-320b-32aa-bac4-64a829d56247
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

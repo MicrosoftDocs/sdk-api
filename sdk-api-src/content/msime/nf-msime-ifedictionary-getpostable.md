@@ -7,7 +7,7 @@ old-location: intl\ifedictionary_getpostable.htm
 old-project: Intl
 ms.assetid: 0453B37B-A73A-4CD8-AD09-49B9A65B9FD6
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetPosTable, GetPosTable method [Internationalization for Windows Applications], GetPosTable method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],GetPosTable method, IFEDictionary.GetPosTable, IFEDictionary::GetPosTable, intl.ifedictionary_getpostable, msime/IFEDictionary::GetPosTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

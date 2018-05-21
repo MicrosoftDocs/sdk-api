@@ -7,7 +7,7 @@ old-location: imapi\idiscmaster_open.htm
 old-project: imapi
 ms.assetid: f9d64a07-67d9-4cc1-aeb5-64762a4e8153
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IDiscMaster interface [IMAPI],Open method, IDiscMaster.Open, IDiscMaster::Open, Open, Open method [IMAPI], Open method [IMAPI],IDiscMaster interface, _win32_idiscmaster_open, base.idiscmaster_open, imapi.idiscmaster_open, imapi/IDiscMaster::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_flags.htm
 old-project: SecAuthN
 ms.assetid: 0be0e945-4048-4748-a9fd-15d08fb7ff3e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSecPkgContext_Flags, PSecPkgContext_Flags, PSecPkgContext_Flags structure pointer [Security], SecPkgContext_Flags, SecPkgContext_Flags structure [Security], _SecPkgContext_Flags, security.secpkgcontext_flags, sspi/PSecPkgContext_Flags, sspi/SecPkgContext_Flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_Flags structure

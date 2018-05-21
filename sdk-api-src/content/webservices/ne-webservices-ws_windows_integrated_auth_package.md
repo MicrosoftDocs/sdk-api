@@ -7,7 +7,7 @@ old-location: wsw\ws_windows_integrated_auth_package.htm
 old-project: wsw
 ms.assetid: 7aa0bbf3-afc0-4deb-9cb3-62e297dd8702
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_WINDOWS_INTEGRATED_AUTH_PACKAGE, WS_WINDOWS_INTEGRATED_AUTH_PACKAGE enumeration [Web Services for Windows], WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_KERBEROS, WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_NTLM, WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_SPNEGO, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_KERBEROS, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_NTLM, webservices/WS_WINDOWS_INTEGRATED_AUTH_PACKAGE_SPNEGO, wsw.ws_windows_integrated_auth_package
 ms.prod: windows-hardware
 ms.technology: windows-devices

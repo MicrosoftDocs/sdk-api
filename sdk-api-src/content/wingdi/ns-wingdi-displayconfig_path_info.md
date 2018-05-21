@@ -7,7 +7,7 @@ old-location: display\displayconfig_path_info.htm
 old-project: display
 ms.assetid: e218c36d-60d5-42c8-9443-419a388a2b8d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: CCD_Structures_2953f0bc-d985-40e0-894d-9fe2593061ed.xml, DISPLAYCONFIG_PATH_INFO, DISPLAYCONFIG_PATH_INFO structure [Display Devices], display.displayconfig_path_info, wingdi/DISPLAYCONFIG_PATH_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

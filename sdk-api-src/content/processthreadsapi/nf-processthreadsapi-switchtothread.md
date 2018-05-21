@@ -7,7 +7,7 @@ old-location: base\switchtothread.htm
 old-project: ProcThread
 ms.assetid: d1e6d734-0c5b-4aa0-b1b3-220f2615e56b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: SwitchToThread, SwitchToThread function, _win32_switchtothread, base.switchtothread, processthreadsapi/SwitchToThread, winbase/SwitchToThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

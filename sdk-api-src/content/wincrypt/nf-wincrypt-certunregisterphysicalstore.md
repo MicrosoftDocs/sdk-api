@@ -7,7 +7,7 @@ old-location: security\certunregisterphysicalstore.htm
 old-project: SecCrypto
 ms.assetid: 06480a2f-5a94-4cf5-9774-ceb9499e1d44
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CERT_STORE_DELETE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertUnregisterPhysicalStore, CertUnregisterPhysicalStore function [Security], _crypto2_certunregisterphysicalstore, security.certunregisterphysicalstore, wincrypt/CertUnregisterPhysicalStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

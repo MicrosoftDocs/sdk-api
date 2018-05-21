@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetNextItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getnextitem.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: TVGN_CARET, TVGN_CHILD, TVGN_DROPHILITE, TVGN_FIRSTVISIBLE, TVGN_NEXT, TVGN_NEXTSELECTED, TVGN_NEXTVISIBLE, TVGN_PARENT, TVGN_PREVIOUS, TVGN_PREVIOUSVISIBLE, TVGN_ROOT, TreeView_GetNextItem, TreeView_GetNextItem macro [Windows Controls], _win32_TreeView_GetNextItem, _win32_TreeView_GetNextItem_cpp, commctrl/TreeView_GetNextItem, controls.TreeView_GetNextItem, controls._win32_TreeView_GetNextItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

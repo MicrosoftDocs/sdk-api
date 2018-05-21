@@ -7,7 +7,7 @@ old-location: dshow\ifiltermapper_enummatchingfilters.htm
 old-project: DirectShow
 ms.assetid: 602a7568-f5f8-4705-a2bc-6b9408bbbe54
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: EnumMatchingFilters, EnumMatchingFilters method [DirectShow], EnumMatchingFilters method [DirectShow],IFilterMapper interface, IFilterMapper interface [DirectShow],EnumMatchingFilters method, IFilterMapper.EnumMatchingFilters, IFilterMapper::EnumMatchingFilters, IFilterMapperEnumMatchingFilters, dshow.ifiltermapper_enummatchingfilters, strmif/IFilterMapper::EnumMatchingFilters
 ms.prod: windows-hardware
 ms.technology: windows-devices

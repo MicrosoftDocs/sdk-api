@@ -2,7 +2,7 @@
 UID: NA:mfmediacapture
 ms.assetid: 81a9bf93-21b8-3207-a1de-80a3f1eaeb66
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

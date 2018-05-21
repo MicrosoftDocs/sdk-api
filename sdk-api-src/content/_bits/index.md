@@ -2,7 +2,7 @@
 UID: TP:bits
 ms.assetid: ac07ff24-925f-3c58-8665-88c85795fdca
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

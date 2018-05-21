@@ -7,7 +7,7 @@ old-location: winrm\wsman_proxy_info.htm
 old-project: WinRM
 ms.assetid: 0542fa39-c574-4a5e-b8eb-6ddf8a58600a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: WSMAN_PROXY_INFO, WSMAN_PROXY_INFO structure [Windows Remote Management], _WSMAN_PROXY_INFO, winrm.wsman_proxy_info, wsman/WSMAN_PROXY_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

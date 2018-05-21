@@ -7,7 +7,7 @@ old-location: mstv\impeg2_tif_control_registertif.htm
 old-project: mstv
 ms.assetid: d17b1f6b-24f4-40f4-9a58-aa582c0958f8
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],RegisterTIF method, IMPEG2_TIF_CONTROL.RegisterTIF, IMPEG2_TIF_CONTROL::RegisterTIF, IMPEG2_TIF_CONTROLRegisterTIF, RegisterTIF, RegisterTIF method [Microsoft TV Technologies], RegisterTIF method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, bdatif/IMPEG2_TIF_CONTROL::RegisterTIF, mstv.impeg2_tif_control_registertif
 ms.prod: windows-hardware
 ms.technology: windows-devices

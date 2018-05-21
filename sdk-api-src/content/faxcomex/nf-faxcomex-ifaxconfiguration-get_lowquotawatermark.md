@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_LowQuotaWaterMark_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\lowquotawatermark.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxConfiguration object [Fax Service],LowQuotaWaterMark property, FaxConfiguration.LowQuotaWaterMark, IFaxConfiguration.get_LowQuotaWaterMark, IFaxConfiguration::get_LowQuotaWaterMark, LowQuotaWaterMark property [Fax Service], LowQuotaWaterMark property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_LowQuotaWaterMark, fax._mfax_FaxConfiguration_LowQuotaWaterMark_vb, get_LowQuotaWaterMark
 ms.prod: windows-hardware
 ms.technology: windows-devices

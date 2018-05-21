@@ -7,7 +7,7 @@ old-location: mf\imfsavejob_endsave.htm
 old-project: medfound
 ms.assetid: 9d63d7b5-4454-4301-b467-eea82bace6ff
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 9d63d7b5-4454-4301-b467-eea82bace6ff, EndSave, EndSave method [Media Foundation], EndSave method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],EndSave method, IMFSaveJob.EndSave, IMFSaveJob::EndSave, mf.imfsavejob_endsave, mfidl/IMFSaveJob::EndSave
 ms.prod: windows-hardware
 ms.technology: windows-devices

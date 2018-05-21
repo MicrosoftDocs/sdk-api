@@ -7,7 +7,7 @@ old-location: iscsidisc\reportiscsipersistentlogins.htm
 old-project: iSCSIDisc
 ms.assetid: 0ab1a864-b44e-4307-9f7c-93cc0d40ff3a
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/11/2018
 ms.keywords: ReportIScsiPersistentLoginsA, ReportIscsiPersistentLogins, ReportIscsiPersistentLogins function [iSCSI Discovery Library API], ReportIscsiPersistentLoginsA, ReportIscsiPersistentLoginsW, iscsidisc.reportiscsipersistentlogins, iscsidsc/ReportIscsiPersistentLogins, iscsidsc/ReportIscsiPersistentLoginsA, iscsidsc/ReportIscsiPersistentLoginsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

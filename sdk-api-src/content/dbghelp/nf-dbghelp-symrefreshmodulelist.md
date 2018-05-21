@@ -7,7 +7,7 @@ old-location: base\symrefreshmodulelist.htm
 old-project: Debug
 ms.assetid: c1c934e5-4a0a-4cb5-bb12-d6743f034ccb
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SymRefreshModuleList, SymRefreshModuleList function, base.symrefreshmodulelist, dbghelp/SymRefreshModuleList
 ms.prod: windows-hardware
 ms.technology: windows-devices

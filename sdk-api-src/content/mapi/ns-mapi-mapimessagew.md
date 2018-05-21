@@ -7,8 +7,8 @@ old-location: mapi\mapimessagew.htm
 old-project: WindowsMAPI
 ms.assetid: 3C74A9C0-1483-4A97-94EB-19A0D30D9A08
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: "*lpMapiMessageW, MAPI_RECEIPT_REQUESTED, MAPI_SENT, MAPI_UNREAD, MapiMessage, MapiMessageW, MapiMessageW structure, lpMapiMessageW, lpMapiMessageW structure pointer, mapi.mapimessagew, mapi/MapiMessage, mapi/MapiMessageW, mapi/lpMapiMessageW"
+ms.date: 5/11/2018
+ms.keywords: "*lpMapiMessageW, MAPI_RECEIPT_REQUESTED, MAPI_SENT, MAPI_UNREAD, MapiMessageW, MapiMessageW structure, lpMapiMessageW, lpMapiMessageW structure pointer, mapi.mapimessagew, mapi/MapiMessageW, mapi/lpMapiMessageW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: MapiMessageW (Unicode) and MapiMessage (ANSI)
+req.unicode-ansi: 
 req.idl: 
 req.max-support: 
 req.namespace: 
@@ -35,8 +35,6 @@ api_type:
 api_location:
 -	Mapi.h
 api_name:
--	MapiMessageW
--	MapiMessage
 -	MapiMessageW
 product: Windows
 targetos: Windows

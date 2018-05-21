@@ -7,7 +7,7 @@ old-location: setup\msisetmode.htm
 old-project: Msi
 ms.assetid: bf0eef83-8ef4-4107-b598-ccc50b179858
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MsiSetMode, MsiSetMode function, _msi_msisetmode, msiquery/MsiSetMode, setup.msisetmode
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\pointfx.htm
 old-project: gdi
 ms.assetid: a8736c6c-7944-42ed-811c-308f41f1ab2f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPPOINTFX, LPPOINTFX, LPPOINTFX structure pointer [Windows GDI], POINTFX, POINTFX structure [Windows GDI], _win32_POINTFX_str, gdi.pointfx, tagPOINTFX, wingdi/LPPOINTFX, wingdi/POINTFX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

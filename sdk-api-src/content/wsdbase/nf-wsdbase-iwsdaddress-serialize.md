@@ -7,7 +7,7 @@ old-location: ncd\iwsdaddress_serialize.htm
 old-project: WsdApi
 ms.assetid: 6264a2f6-39db-4c55-a0b3-2705d2093d77
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDAddress interface,Serialize method, IWSDAddress.Serialize, IWSDAddress::Serialize, Serialize, Serialize method, Serialize method,IWSDAddress interface, ncd.iwsdaddress_serialize, wsdbase/IWSDAddress::Serialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

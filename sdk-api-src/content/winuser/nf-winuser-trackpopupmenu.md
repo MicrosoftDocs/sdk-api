@@ -7,7 +7,7 @@ old-location: menurc\trackpopupmenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\trackpopupmenu.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: TPM_BOTTOMALIGN, TPM_CENTERALIGN, TPM_HORNEGANIMATION, TPM_HORPOSANIMATION, TPM_LEFTALIGN, TPM_LEFTBUTTON, TPM_NOANIMATION, TPM_NONOTIFY, TPM_RETURNCMD, TPM_RIGHTALIGN, TPM_RIGHTBUTTON, TPM_TOPALIGN, TPM_VCENTERALIGN, TPM_VERNEGANIMATION, TPM_VERPOSANIMATION, TrackPopupMenu, TrackPopupMenu function [Menus and Other Resources], _win32_TrackPopupMenu, _win32_trackpopupmenu_cpp, menurc.trackpopupmenu, winui._win32_trackpopupmenu, winuser/TrackPopupMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -305,7 +305,7 @@ Animates the menu from top to bottom.
 </table>
  
 
-For any animation to occur, the <a href="base.systemparametersinfo">SystemParametersInfo</a> function must set <b>SPI_SETMENUANIMATION</b>. Also, all the TPM_*ANIMATION flags, except <b>TPM_NOANIMATION</b>, are ignored if menu fade animation is on. For more information, see the <b>SPI_GETMENUFADE</b> flag in <b>SystemParametersInfo</b>. 
+For any animation to occur, the <a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a> function must set <b>SPI_SETMENUANIMATION</b>. Also, all the TPM_*ANIMATION flags, except <b>TPM_NOANIMATION</b>, are ignored if menu fade animation is on. For more information, see the <b>SPI_GETMENUFADE</b> flag in <b>SystemParametersInfo</b>. 
 
  Use the <b>TPM_RECURSE</b> flag to display a menu when another menu is already displayed. This is intended to support context menus within a menu. 
 
@@ -364,7 +364,7 @@ If you do not specify <b>TPM_RETURNCMD</b> in the <i>uFlags</i> parameter, the r
 
 
 
-Call <a href="base.getsystemmetrics">GetSystemMetrics</a> with <b>SM_MENUDROPALIGNMENT</b> to determine the correct horizontal alignment flag (<b>TPM_LEFTALIGN</b> or <b>TPM_RIGHTALIGN</b>) and/or horizontal animation direction flag (<b>TPM_HORPOSANIMATION</b> or <b>TPM_HORNEGANIMATION</b>) to pass to <b>TrackPopupMenu</b> or <a href="https://msdn.microsoft.com/86b8f21b-0dfe-462e-a34a-c80ee5c1d185">TrackPopupMenuEx</a>. This is essential for creating an optimal user experience, especially when developing Microsoft Tablet PC applications.
+Call <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> with <b>SM_MENUDROPALIGNMENT</b> to determine the correct horizontal alignment flag (<b>TPM_LEFTALIGN</b> or <b>TPM_RIGHTALIGN</b>) and/or horizontal animation direction flag (<b>TPM_HORPOSANIMATION</b> or <b>TPM_HORNEGANIMATION</b>) to pass to <b>TrackPopupMenu</b> or <a href="https://msdn.microsoft.com/86b8f21b-0dfe-462e-a34a-c80ee5c1d185">TrackPopupMenuEx</a>. This is essential for creating an optimal user experience, especially when developing Microsoft Tablet PC applications.
 
 To specify an area of the screen that the menu should not overlap, use the <a href="https://msdn.microsoft.com/86b8f21b-0dfe-462e-a34a-c80ee5c1d185">TrackPopupMenuEx</a> function
 

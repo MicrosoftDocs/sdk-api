@@ -7,7 +7,7 @@ old-location: setup\msiviewexecute.htm
 old-project: Msi
 ms.assetid: 12b2373f-425a-4035-bdb4-be1a5469f1d7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MsiViewExecute, MsiViewExecute function, _msi_msiviewexecute, msiquery/MsiViewExecute, setup.msiviewexecute
 ms.prod: windows-hardware
 ms.technology: windows-devices

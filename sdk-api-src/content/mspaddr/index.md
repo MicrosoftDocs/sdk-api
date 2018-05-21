@@ -2,7 +2,7 @@
 UID: NA:mspaddr
 ms.assetid: e17d95e0-882e-3ede-a60d-00d956598401
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

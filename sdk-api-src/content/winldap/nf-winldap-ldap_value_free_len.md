@@ -7,7 +7,7 @@ old-location: ldap\ldap_value_free_len.htm
 old-project: LDAP
 ms.assetid: bae95e09-bb3b-4fb3-887f-3cff0a0e6c22
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_value_free_len, ldap.ldap__value__free__len, ldap.ldap_value_free_len, ldap_value_free_len, ldap_value_free_len function [LDAP], winldap/ldap_value_free_len"
 ms.prod: windows-hardware
 ms.technology: windows-devices

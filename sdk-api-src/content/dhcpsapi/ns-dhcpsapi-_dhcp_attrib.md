@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_attrib.htm
 old-project: DHCP
 ms.assetid: 26822137-8633-4e18-a69f-eeebf9e78f9a
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_ATTRIB, *PDHCP_ATTRIB, DHCP_ATTRIB, DHCP_ATTRIB structure [DHCP], DHCP_ATTRIB_BOOL_IS_ADMIN, DHCP_ATTRIB_BOOL_IS_BINDING_AWARE, DHCP_ATTRIB_BOOL_IS_DYNBOOTP, DHCP_ATTRIB_BOOL_IS_PART_OF_DSDC, DHCP_ATTRIB_BOOL_IS_ROGUE, DHCP_ATTRIB_ULONG_RESTORE_STATUS, PDHCP_ATTRIB *LPDHCP_ATTRIB, PDHCP_ATTRIB *LPDHCP_ATTRIB structure pointer [DHCP], _DHCP_ATTRIB, dhcp.dhcp_attrib, dhcpsapi/PDHCP_ATTRIB *LPDHCP_ATTRIB, dhcpsapi/_DHCP_ATTRIB"
 ms.prod: windows-hardware
 ms.technology: windows-devices

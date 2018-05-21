@@ -7,7 +7,7 @@ old-location: com\oleloadfromstream.htm
 old-project: com
 ms.assetid: 2d54a0ef-906b-4886-a095-4ff2f3d4e634
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleLoadFromStream, OleLoadFromStream function [COM], _ole_OleLoadFromStream, com.oleloadfromstream, ole/OleLoadFromStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

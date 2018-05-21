@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectfactory_createeffectouter.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\createeffectouter.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: CreateEffectOuter, CreateEffectOuter method [WPF Bitmap Effects], CreateEffectOuter method [WPF Bitmap Effects],IMILBitmapEffectFactory interface, IMILBitmapEffectFactory interface [WPF Bitmap Effects],CreateEffectOuter method, IMILBitmapEffectFactory.CreateEffectOuter, IMILBitmapEffectFactory::CreateEffectOuter, _wibe_imilbitmapeffectfactory_createeffectouter, mileffects/IMILBitmapEffectFactory::CreateEffectOuter, wibe._wibe_imilbitmapeffectfactory_createeffectouter
 ms.prod: windows-hardware
 ms.technology: windows-devices

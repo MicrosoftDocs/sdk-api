@@ -7,7 +7,7 @@ old-location: mf\d3d11_authenticated_query_current_accessibility_encryption_outp
 old-project: medfound
 ms.assetid: 8025B6C7-9A4A-431D-98B8-5C43DCF994ED
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_CURRENT_ACCESSIBILITY_ENCRYPTION_OUTPUT, D3D11_AUTHENTICATED_QUERY_CURRENT_ACCESSIBILITY_ENCRYPTION_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_CURRENT_ACCESSIBILITY_ENCRYPTION_OUTPUT, mf.d3d11_authenticated_query_current_accessibility_encryption_output
 ms.prod: windows-hardware
 ms.technology: windows-devices

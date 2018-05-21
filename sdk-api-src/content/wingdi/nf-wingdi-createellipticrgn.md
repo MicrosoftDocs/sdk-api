@@ -7,7 +7,7 @@ old-location: gdi\createellipticrgn.htm
 old-project: gdi
 ms.assetid: b4e9b210-8e22-42db-bb6e-65f1fb870eff
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: CreateEllipticRgn, CreateEllipticRgn function [Windows GDI], _win32_CreateEllipticRgn, gdi.createellipticrgn, wingdi/CreateEllipticRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

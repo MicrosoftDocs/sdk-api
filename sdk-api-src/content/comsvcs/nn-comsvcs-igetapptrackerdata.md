@@ -7,7 +7,7 @@ old-location: cos\igetapptrackerdata.htm
 old-project: cossdk
 ms.assetid: f2f9c03b-4f57-4087-8fef-5cdccece91d9
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IGetAppTrackerData, IGetAppTrackerData interface [COM+], IGetAppTrackerData interface [COM+],described, comsvcs/IGetAppTrackerData, cos.igetapptrackerdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

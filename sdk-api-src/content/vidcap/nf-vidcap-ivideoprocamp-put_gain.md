@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_put_gain.htm
 old-project: DirectShow
 ms.assetid: 8256c1d9-ca3f-4b6a-921d-a424932927b5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Gain method, IVideoProcAmp.put_Gain, IVideoProcAmp::put_Gain, IVideoProcAmpput_Gain, dshow.ivideoprocamp_put_gain, put_Gain, put_Gain method [DirectShow], put_Gain method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Gain
 ms.prod: windows-hardware
 ms.technology: windows-devices

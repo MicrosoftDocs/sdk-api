@@ -7,7 +7,7 @@ old-location: mstv\idvbsiparser_getpat.htm
 old-project: mstv
 ms.assetid: 09413d56-e735-4ecf-a505-7d9e2c31d190
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetPAT, GetPAT method [Microsoft TV Technologies], GetPAT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetPAT method, IDvbSiParser.GetPAT, IDvbSiParser::GetPAT, IDvbSiParserGetPAT, dvbsiparser/IDvbSiParser::GetPAT, mstv.idvbsiparser_getpat
 ms.prod: windows-hardware
 ms.technology: windows-devices

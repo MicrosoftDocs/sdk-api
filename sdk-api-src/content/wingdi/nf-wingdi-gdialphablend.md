@@ -7,7 +7,7 @@ old-location: gdi\gdialphablend.htm
 old-project: gdi
 ms.assetid: 703d2a6a-0f3f-4f8f-90bd-e1e821dfbcde
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GdiAlphaBlend, GdiAlphaBlend function [Windows GDI], gdi.gdialphablend, wingdi/GdiAlphaBlend
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\engunmapfontfilefd.htm
 old-project: display
 ms.assetid: 61c1acb6-c158-4ba4-ad5b-2f7b1a9bf106
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: EngUnmapFontFileFD, EngUnmapFontFileFD function [Display Devices], display.engunmapfontfilefd, gdifncs_40ba83d0-7822-402b-9463-f593ddaecaed.xml, winddi/EngUnmapFontFileFD
 ms.prod: windows-hardware
 ms.technology: windows-devices

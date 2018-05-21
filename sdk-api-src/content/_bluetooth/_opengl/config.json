@@ -1,0 +1,8 @@
+{
+  "tech": "opengl",
+  "headers": [
+    "wingdi.h",
+    "gl.h",
+    "glu.h"
+  ]
+}

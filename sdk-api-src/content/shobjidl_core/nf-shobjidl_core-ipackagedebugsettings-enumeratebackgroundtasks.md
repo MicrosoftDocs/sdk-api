@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_EnumerateBackgroundTasks.htm
 old-project: shell
 ms.assetid: 14a516c8-fb15-41b6-807c-b14d81148e0e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: EnumerateBackgroundTasks, EnumerateBackgroundTasks method [Windows Shell], EnumerateBackgroundTasks method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],EnumerateBackgroundTasks method, IPackageDebugSettings.EnumerateBackgroundTasks, IPackageDebugSettings::EnumerateBackgroundTasks, shell.IPackageDebugSettings_EnumerateBackgroundTasks, shobjidl_core/IPackageDebugSettings::EnumerateBackgroundTasks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IPackageDebugSettings::EnumerateBackgroundTasks

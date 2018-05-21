@@ -7,7 +7,7 @@ old-location: tablet\iinktablet2.htm
 old-project: tablet
 ms.assetid: c912689c-9a85-41a0-87d8-68332ea762a7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: IInkTablet2, IInkTablet2 interface [Tablet PC], IInkTablet2 interface [Tablet PC],described, c912689c-9a85-41a0-87d8-68332ea762a7, msinkaut/IInkTablet2, tablet.iinktablet2
 ms.prod: windows-hardware
 ms.technology: windows-devices

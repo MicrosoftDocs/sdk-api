@@ -7,7 +7,7 @@ old-location: bluetooth\bluetooth_authenticate_response.htm
 old-project: Bluetooth
 ms.assetid: fc7eda84-3e7b-49e9-a1a6-e1759c894e1a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: "*PBLUETOOTH_AUTHENTICATE_RESPONSE, BLUETOOTH_AUTHENTICATE_RESPONSE, BLUETOOTH_AUTHENTICATE_RESPONSE structure [Bluetooth], PBLUETOOTH_AUTHENTICATE_RESPONSE, PBLUETOOTH_AUTHENTICATE_RESPONSE structure pointer [Bluetooth], _BLUETOOTH_AUTHENTICATE_RESPONSE, bluetooth.bluetooth_authenticate_response, bluetoothapis/BLUETOOTH_AUTHENTICATE_RESPONSE, bluetoothapis/PBLUETOOTH_AUTHENTICATE_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

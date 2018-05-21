@@ -7,7 +7,7 @@ old-location: ncd\iwsdhttpmessageparameters_getinboundhttpheaders.htm
 old-project: WsdApi
 ms.assetid: 99b30444-1059-45c3-ac72-a0f98d722365
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetInboundHttpHeaders, GetInboundHttpHeaders method, GetInboundHttpHeaders method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetInboundHttpHeaders method, IWSDHttpMessageParameters.GetInboundHttpHeaders, IWSDHttpMessageParameters::GetInboundHttpHeaders, ncd.iwsdhttpmessageparameters_getinboundhttpheaders, wsdbase/IWSDHttpMessageParameters::GetInboundHttpHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices

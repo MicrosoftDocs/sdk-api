@@ -7,7 +7,7 @@ old-location: wsw\wscreatemessage.htm
 old-project: wsw
 ms.assetid: 1c48647e-9e77-4b7a-add3-e035c7f9f27e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsCreateMessage, WsCreateMessage function [Web Services for Windows], webservices/WsCreateMessage, wsw.wscreatemessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

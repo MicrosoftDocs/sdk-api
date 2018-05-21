@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_recipientaddress_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_83w3.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxDoc object [Fax Service],RecipientAddress property, FaxDoc.RecipientAddress, IFaxDoc.get_RecipientAddress, IFaxDoc::get_RecipientAddress, RecipientAddress property [Fax Service], RecipientAddress property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientaddress, fax._mfax_ifaxdoc_get_recipientaddress, fax._mfax_ifaxdoc_get_recipientaddress_vb, get_RecipientAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

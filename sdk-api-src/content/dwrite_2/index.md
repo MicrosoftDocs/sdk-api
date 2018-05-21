@@ -2,7 +2,7 @@
 UID: NA:dwrite_2
 ms.assetid: 8804b1ea-b645-30a9-955e-4424e89e813e
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

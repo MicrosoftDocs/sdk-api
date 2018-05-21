@@ -7,8 +7,8 @@ old-location: mib\mib_tcpstats2.htm
 old-project: MIB
 ms.assetid: A32AA866-406B-4BE0-A4F1-5EBC9DFD646D
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: "*PMIB_TCPSTATS2, MIB_TCPSTATS, MIB_TCPSTATS structure [MIB], MIB_TCPSTATS2, MIB_TCPSTATS2 structure [MIB], MIB_TCP_RTO_CONSTANT, MIB_TCP_RTO_OTHER, MIB_TCP_RTO_RSRE, MIB_TCP_RTO_VANJ, PMIB_TCPSTATS, PMIB_TCPSTATS structure pointer [MIB], _MIB_TCPSTATS2, mib.mib_tcpstats2, tcpmib/MIB_TCPSTATS2, tcpmib/PMIB_TCPSTATS"
+ms.date: 5/14/2018
+ms.keywords: "*PMIB_TCPSTATS2, MIB_TCPSTATS2, MIB_TCPSTATS2 structure [MIB], MIB_TCP_RTO_CONSTANT, MIB_TCP_RTO_OTHER, MIB_TCP_RTO_RSRE, MIB_TCP_RTO_VANJ, PMIB_TCPSTATS2, PMIB_TCPSTATS2 structure pointer [MIB], _MIB_TCPSTATS2, mib.mib_tcpstats2, tcpmib/MIB_TCPSTATS2, tcpmib/PMIB_TCPSTATS2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Tcpmib.h
 api_name:
--	MIB_TCPSTATS
+-	MIB_TCPSTATS2
 product: Windows
 targetos: Windows
 req.lib: 

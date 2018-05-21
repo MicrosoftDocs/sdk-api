@@ -7,7 +7,7 @@ old-location: display\engstrokeandfillpath.htm
 old-project: display
 ms.assetid: a58ce829-aa55-46d6-b6d0-205140a9548c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: EngStrokeAndFillPath, EngStrokeAndFillPath function [Display Devices], display.engstrokeandfillpath, gdifncs_aad2693d-6a0e-40ab-ad95-aa38e77c7651.xml, winddi/EngStrokeAndFillPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

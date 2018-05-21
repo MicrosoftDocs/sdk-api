@@ -7,7 +7,7 @@ old-location: mf\dxvahd_rational.htm
 old-project: medfound
 ms.assetid: 8064820e-533e-4b40-8eeb-e3ad6a6b1ff7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: DXVAHD_RATIONAL, DXVAHD_RATIONAL structure [Media Foundation], _DXVAHD_RATIONAL, dxvahd/DXVAHD_RATIONAL, mf.dxvahd_rational
 ms.prod: windows-hardware
 ms.technology: windows-devices

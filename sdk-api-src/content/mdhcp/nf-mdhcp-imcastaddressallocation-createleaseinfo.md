@@ -7,7 +7,7 @@ old-location: tapi3\imcastaddressallocation_createleaseinfo.htm
 old-project: Tapi
 ms.assetid: b7a65998-3329-4117-be91-10e2dd7047d5
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: CreateLeaseInfo, CreateLeaseInfo method [TAPI 2.2], CreateLeaseInfo method [TAPI 2.2],IMcastAddressAllocation interface, IMcastAddressAllocation interface [TAPI 2.2],CreateLeaseInfo method, IMcastAddressAllocation.CreateLeaseInfo, IMcastAddressAllocation::CreateLeaseInfo, _tapi3_imcastaddressallocation_createleaseinfo, mdhcp/IMcastAddressAllocation::CreateLeaseInfo, tapi3.imcastaddressallocation_createleaseinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

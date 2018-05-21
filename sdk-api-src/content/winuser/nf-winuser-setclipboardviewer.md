@@ -7,7 +7,7 @@ old-location: dataxchg\setclipboardviewer.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\setclipboardviewer.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: SetClipboardViewer, SetClipboardViewer function [Data Exchange], _win32_SetClipboardViewer, _win32_setclipboardviewer_cpp, dataxchg.setclipboardviewer, winui._win32_setclipboardviewer, winuser/SetClipboardViewer
 ms.prod: windows-hardware
 ms.technology: windows-devices

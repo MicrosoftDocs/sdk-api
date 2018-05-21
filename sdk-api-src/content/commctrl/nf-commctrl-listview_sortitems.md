@@ -7,7 +7,7 @@ old-location: controls\ListView_SortItems.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sortitems.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ListView_SortItems, ListView_SortItems macro [Windows Controls], _win32_ListView_SortItems, _win32_ListView_SortItems_cpp, commctrl/ListView_SortItems, controls.ListView_SortItems, controls._win32_ListView_SortItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: TP:mf
 ms.assetid: f37d0852-e606-3529-b146-65a564153343
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -18,7 +18,6 @@ Overview of the Microsoft Media Foundation technology.
 To develop Microsoft Media Foundation, you need these headers:
 
  * [dxva2api.h](..\dxva2api\index.md)
- * [dxva2swdev.h](..\dxva2swdev\index.md)
  * [dxvahd.h](..\dxvahd\index.md)
  * [evr.h](..\evr\index.md)
  * [evr9.h](..\evr9\index.md)

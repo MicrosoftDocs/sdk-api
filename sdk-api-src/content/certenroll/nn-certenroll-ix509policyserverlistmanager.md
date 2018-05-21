@@ -7,7 +7,7 @@ old-location: security\ix509policyserverlistmanager.htm
 old-project: SecCertEnroll
 ms.assetid: a9fe4f4b-a35d-40e6-b99a-a89f58e79250
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509PolicyServerListManager, IX509PolicyServerListManager interface [Security], IX509PolicyServerListManager interface [Security],described, certenroll/IX509PolicyServerListManager, security.ix509policyserverlistmanager
 ms.prod: windows-hardware
 ms.technology: windows-devices

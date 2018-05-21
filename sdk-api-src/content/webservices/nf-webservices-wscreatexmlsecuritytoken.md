@@ -7,7 +7,7 @@ old-location: wsw\wscreatexmlsecuritytoken.htm
 old-project: wsw
 ms.assetid: 1d82c6c3-2bcf-4883-aed7-1a163bbb2228
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsCreateXmlSecurityToken, WsCreateXmlSecurityToken function [Web Services for Windows], webservices/WsCreateXmlSecurityToken, wsw.wscreatexmlsecuritytoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

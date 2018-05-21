@@ -7,7 +7,7 @@ old-location: com\cogetinstancefromfile.htm
 old-project: com
 ms.assetid: f8a22f5f-a21f-49e7-bd6c-ca987206ee46
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CoGetInstanceFromFile, CoGetInstanceFromFile function [COM], _com_CoGetInstanceFromFile, com.cogetinstancefromfile, objbase/CoGetInstanceFromFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

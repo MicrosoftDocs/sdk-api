@@ -7,7 +7,7 @@ old-location: winprog\eavrfresourcetypes.htm
 old-project: DevNotes
 ms.assetid: 6887e584-0d0f-45ca-b926-47a55f19c9a2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AvrfResourceHandleTrace, AvrfResourceHeapAllocation, AvrfResourceMax, avrfsdk/AvrfResourceHandleTrace, avrfsdk/AvrfResourceHeapAllocation, avrfsdk/AvrfResourceMax, avrfsdk/eAvrfResourceTypes, base.eavrfresourcetypes, eAvrfResourceTypes, eAvrfResourceTypes enumeration [Windows API], winprog.eavrfresourcetypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

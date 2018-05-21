@@ -7,7 +7,7 @@ old-location: com\cosetmessagedispatcher.htm
 old-project: com
 ms.assetid: 3D6CFE01-8D3D-474E-A7D0-9B129ECD4EEA
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CoSetMessageDispatcher, CoSetMessageDispatcher function [COM], com.cosetmessagedispatcher, messagedispatcherapi/CoSetMessageDispatcher
 ms.prod: windows-hardware
 ms.technology: windows-devices

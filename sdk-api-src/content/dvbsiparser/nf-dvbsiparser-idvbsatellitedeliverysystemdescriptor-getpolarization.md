@@ -7,7 +7,7 @@ old-location: mstv\idvbsatellitedeliverysystemdescriptor_getpolarization.htm
 old-project: mstv
 ms.assetid: fe063a08-74bd-40c4-a185-3cc932a0a06d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetPolarization, GetPolarization method [Microsoft TV Technologies], GetPolarization method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetPolarization method, IDvbSatelliteDeliverySystemDescriptor.GetPolarization, IDvbSatelliteDeliverySystemDescriptor::GetPolarization, IDvbSatelliteDeliverySystemDescriptorGetPolarization, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetPolarization, mstv.idvbsatellitedeliverysystemdescriptor_getpolarization
 ms.prod: windows-hardware
 ms.technology: windows-devices

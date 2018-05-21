@@ -7,7 +7,7 @@ old-location: menurc\loadimage.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadimage.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: IMAGE_BITMAP, IMAGE_CURSOR, IMAGE_ICON, LR_CREATEDIBSECTION, LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_LOADFROMFILE, LR_LOADMAP3DCOLORS, LR_LOADTRANSPARENT, LR_MONOCHROME, LR_SHARED, LR_VGACOLOR, LoadImage, LoadImage function [Menus and Other Resources], LoadImageA, LoadImageW, _win32_LoadImage, _win32_loadimage_cpp, menurc.loadimage, winui._win32_loadimage, winuser/LoadImage, winuser/LoadImageA, winuser/LoadImageW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -417,7 +417,7 @@ For an example, see <a href="https://msdn.microsoft.com/ea9e36c9-b10d-441e-b1b5-
 
 
 
-<a href="base.getsystemmetrics">GetSystemMetrics</a>
+<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
 
 
 

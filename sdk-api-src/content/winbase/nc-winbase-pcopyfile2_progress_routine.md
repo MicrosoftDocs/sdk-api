@@ -7,7 +7,7 @@ old-location: fs\copyfile2progressroutine.htm
 old-project: FileIO
 ms.assetid: d14b5f5b-c353-49e8-82bb-a695a3ec76fd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: CopyFile2ProgressRoutine, CopyFile2ProgressRoutine callback function [Files], PCOPYFILE2_PROGRESS_ROUTINE, PCOPYFILE2_PROGRESS_ROUTINE callback, fs.copyfile2progressroutine, winbase/CopyFile2ProgressRoutine, winbase/PCOPYFILE2_PROGRESS_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices

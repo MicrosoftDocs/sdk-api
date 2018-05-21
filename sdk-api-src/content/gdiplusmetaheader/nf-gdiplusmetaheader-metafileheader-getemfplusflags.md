@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetEmfPlusFlags_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getemfplusflags.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetEmfPlusFlags, GetEmfPlusFlags method [GDI+], GetEmfPlusFlags method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetEmfPlusFlags method, MetafileHeader.GetEmfPlusFlags, MetafileHeader::GetEmfPlusFlags, _gdiplus_CLASS_MetafileHeader_GetEmfPlusFlags_, gdiplus._gdiplus_CLASS_MetafileHeader_GetEmfPlusFlags_
 ms.prod: windows-hardware
 ms.technology: windows-devices

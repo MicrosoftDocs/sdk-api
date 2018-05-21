@@ -7,7 +7,7 @@ old-location: dshow\iammediatypesample_issyncpoint.htm
 old-project: DirectShow
 ms.assetid: 0494f51e-2602-4574-88dd-0839a1d2f04f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],IsSyncPoint method, IAMMediaTypeSample.IsSyncPoint, IAMMediaTypeSample::IsSyncPoint, IAMMediaTypeSampleIsSyncPoint, IsSyncPoint, IsSyncPoint method [DirectShow], IsSyncPoint method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::IsSyncPoint, dshow.iammediatypesample_issyncpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

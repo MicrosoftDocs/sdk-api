@@ -7,7 +7,7 @@ old-location: security\ix509extensionsmimecapabilities_initializedecode_method.h
 old-project: SecCertEnroll
 ms.assetid: 9b89b9aa-3e71-4511-8e5a-1fe2165fa672
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509ExtensionSmimeCapabilities interface [Security],InitializeDecode method, IX509ExtensionSmimeCapabilities.InitializeDecode, IX509ExtensionSmimeCapabilities::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionSmimeCapabilities interface, certenroll/IX509ExtensionSmimeCapabilities::InitializeDecode, security.ix509extensionsmimecapabilities_initializedecode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

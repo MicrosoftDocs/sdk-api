@@ -2,7 +2,7 @@
 UID: TP:tracelogging
 ms.assetid: 1bc44f9c-6d1d-3afa-9402-657cb5c8625e
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

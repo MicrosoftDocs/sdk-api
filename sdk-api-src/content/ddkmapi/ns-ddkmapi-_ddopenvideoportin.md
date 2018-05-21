@@ -7,7 +7,7 @@ old-location: display\ddopenvideoportin.htm
 old-project: display
 ms.assetid: 53a0fdb3-583d-4da2-939c-6640ca9e6c31
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*LPDDOPENVIDEOPORTIN, DDOPENVIDEOPORTIN, DDOPENVIDEOPORTIN structure [Display Devices], LPDDOPENVIDEOPORTIN, LPDDOPENVIDEOPORTIN structure pointer [Display Devices], _DDOPENVIDEOPORTIN, ddkmapi/DDOPENVIDEOPORTIN, ddkmapi/LPDDOPENVIDEOPORTIN, ddstrcts_946323a4-8ead-46d5-aa18-2a3e1eaef2f1.xml, display.ddopenvideoportin"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:codecapi
 ms.assetid: 0248a00c-1498-3462-9c8f-cc566a1a2a00
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

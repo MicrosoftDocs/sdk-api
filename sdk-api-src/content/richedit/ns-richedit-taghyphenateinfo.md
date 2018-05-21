@@ -7,7 +7,7 @@ old-location: controls\HYPHENATEINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\hyphenateinfo.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: HYPHENATEINFO, HYPHENATEINFO structure [Windows Controls], _win32_HYPHENATEINFO_str, _win32_HYPHENATEINFO_str_cpp, controls.HYPHENATEINFO, controls._win32_HYPHENATEINFO_str, richedit/HYPHENATEINFO, tagHyphenateInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

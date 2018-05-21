@@ -2,7 +2,7 @@
 UID: TP:snmp
 ms.assetid: ba20b313-5fd0-3d24-a094-f411706096ba
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

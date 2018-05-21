@@ -7,7 +7,7 @@ old-location: com\idataadviseholder_advise.htm
 old-project: com
 ms.assetid: 3b72a50b-a18f-4ec0-9d1d-52b07eb84faf
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: ADVF_DATAONSTOP, ADVF_NODATA, ADVF_ONLYONCE, ADVF_PRIMEFIRST, Advise, Advise method [COM], Advise method [COM],IDataAdviseHolder interface, IDataAdviseHolder interface [COM],Advise method, IDataAdviseHolder.Advise, IDataAdviseHolder::Advise, _ole_idataadviseholder_advise, com.idataadviseholder_advise, objidl/IDataAdviseHolder::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

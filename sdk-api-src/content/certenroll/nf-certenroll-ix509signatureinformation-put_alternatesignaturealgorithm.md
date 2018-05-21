@@ -7,7 +7,7 @@ old-location: security\ix509signatureinformation_alternatesignaturealgorithm_pro
 old-project: SecCertEnroll
 ms.assetid: e62ecdf1-56d8-4707-8e5d-deef4d79a34c
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: AlternateSignatureAlgorithm property [Security], AlternateSignatureAlgorithm property [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],AlternateSignatureAlgorithm property, IX509SignatureInformation.AlternateSignatureAlgorithm, IX509SignatureInformation.put_AlternateSignatureAlgorithm, IX509SignatureInformation::AlternateSignatureAlgorithm, IX509SignatureInformation::get_AlternateSignatureAlgorithm, IX509SignatureInformation::put_AlternateSignatureAlgorithm, certenroll/IX509SignatureInformation::AlternateSignatureAlgorithm, certenroll/IX509SignatureInformation::get_AlternateSignatureAlgorithm, certenroll/IX509SignatureInformation::put_AlternateSignatureAlgorithm, put_AlternateSignatureAlgorithm, security.ix509signatureinformation_alternatesignaturealgorithm_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamnetworkstatus_get_receivedpackets.htm
 old-project: DirectShow
 ms.assetid: 9437489d-87bf-45d4-82f3-22e8adb4df54
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_ReceivedPackets method, IAMNetworkStatus.get_ReceivedPackets, IAMNetworkStatus::get_ReceivedPackets, IAMNetworkStatusget_ReceivedPackets, dshow.iamnetworkstatus_get_receivedpackets, get_ReceivedPackets, get_ReceivedPackets method [DirectShow], get_ReceivedPackets method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_ReceivedPackets
 ms.prod: windows-hardware
 ms.technology: windows-devices

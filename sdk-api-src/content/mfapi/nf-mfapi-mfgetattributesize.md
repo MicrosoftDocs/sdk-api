@@ -7,7 +7,7 @@ old-location: mf\mfgetattributesize.htm
 old-project: medfound
 ms.assetid: c74445b2-a2ec-4c77-a8bf-61a6b54cef75
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFGetAttributeSize, MFGetAttributeSize function [Media Foundation], c74445b2-a2ec-4c77-a8bf-61a6b54cef75, mf.mfgetattributesize, mfapi/MFGetAttributeSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

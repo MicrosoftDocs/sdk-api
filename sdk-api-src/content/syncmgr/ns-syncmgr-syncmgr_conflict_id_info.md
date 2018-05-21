@@ -7,7 +7,7 @@ old-location: shell\SYNCMGR_CONFLICT_ID_INFO.htm
 old-project: shell
 ms.assetid: 9a54ef7e-0b22-436e-891b-80610ddaef00
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*PSYNCMGR_CONFLICT_ID_INFO, PSYNCMGR_CONFLICT_ID_INFO, PSYNCMGR_CONFLICT_ID_INFO structure pointer [Windows Shell], SYNCMGR_CONFLICT_ID_INFO, SYNCMGR_CONFLICT_ID_INFO structure [Windows Shell], _shell_SYNCMGR_CONFLICT_ID_INFO, shell.SYNCMGR_CONFLICT_ID_INFO, syncmgr/PSYNCMGR_CONFLICT_ID_INFO, syncmgr/SYNCMGR_CONFLICT_ID_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

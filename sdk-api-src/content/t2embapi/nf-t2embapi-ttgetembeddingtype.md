@@ -7,7 +7,7 @@ old-location: gdi\ttgetembeddingtype.htm
 old-project: gdi
 ms.assetid: c442447f-221d-4bce-9749-fb9fbe333808
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, TTGetEmbeddingType, TTGetEmbeddingType function [Windows GDI], _win32_TTGetEmbeddingType, gdi.ttgetembeddingtype, t2embapi/TTGetEmbeddingType
 ms.prod: windows-hardware
 ms.technology: windows-devices

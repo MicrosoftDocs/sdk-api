@@ -7,7 +7,7 @@ old-location: cos\icomlbarguments_setmachinename.htm
 old-project: cossdk
 ms.assetid: 55f9d45e-5c36-4f02-9a9d-111ad4abf016
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: ICOMLBArguments interface [COM+],SetMachineName method, ICOMLBArguments.SetMachineName, ICOMLBArguments::SetMachineName, SetMachineName, SetMachineName method [COM+], SetMachineName method [COM+],ICOMLBArguments interface, _cos_ICOMLBArguments_SetMachineName, comsvcs/ICOMLBArguments::SetMachineName, cos.icomlbarguments_setmachinename
 ms.prod: windows-hardware
 ms.technology: windows-devices

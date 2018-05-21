@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_Flush_intention_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\flush.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Flush, Flush method [GDI+], Flush method [GDI+],Graphics class, Graphics class [GDI+],Flush method, Graphics.Flush, Graphics::Flush, _gdiplus_CLASS_Graphics_Flush_intention_, gdiplus._gdiplus_CLASS_Graphics_Flush_intention_
 ms.prod: windows-hardware
 ms.technology: windows-devices

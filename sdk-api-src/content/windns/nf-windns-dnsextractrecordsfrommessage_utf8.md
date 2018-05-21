@@ -7,7 +7,7 @@ old-location: dns\dnsextractrecordsfrommessage.htm
 old-project: DNS
 ms.assetid: 0179bf3e-9243-4dd7-a2ab-e2f6f4bf4b82
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: DnsExtractRecordsFromMessage, DnsExtractRecordsFromMessage_UTF8, DnsExtractRecordsFromMessage_W, DnsExtractRecordsFromMessage_W function [DNS], _dns_dnsextractrecordsfrommessage, dns.dnsextractrecordsfrommessage, windns/DnsExtractRecordsFromMessage_UTF8, windns/DnsExtractRecordsFromMessage_W
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mfcreatetranscodeprofile.htm
 old-project: medfound
 ms.assetid: 2a482c6f-6e20-419a-a7eb-085c41cc8186
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFCreateTranscodeProfile, MFCreateTranscodeProfile function [Media Foundation], mf.mfcreatetranscodeprofile, mfidl/MFCreateTranscodeProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

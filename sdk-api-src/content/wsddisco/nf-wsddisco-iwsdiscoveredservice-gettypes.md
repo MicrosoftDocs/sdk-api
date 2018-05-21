@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveredservice_gettypes.htm
 old-project: WsdApi
 ms.assetid: fda4def4-4c1d-49a7-bfc1-56ff744a7a9d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetTypes, GetTypes method, GetTypes method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetTypes method, IWSDiscoveredService.GetTypes, IWSDiscoveredService::GetTypes, ncd.iwsdiscoveredservice_gettypes, wsddisco/IWSDiscoveredService::GetTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

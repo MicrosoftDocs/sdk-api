@@ -7,7 +7,7 @@ old-location: mib\mib_ipaddrtable.htm
 old-project: MIB
 ms.assetid: 12a929e5-813d-4dae-9ea0-5a3c0a88cf05
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PMIB_IPADDRTABLE, MIB_IPADDRTABLE, MIB_IPADDRTABLE structure [MIB], PMIB_IPADDRTABLE, PMIB_IPADDRTABLE structure pointer [MIB], _MIB_IPADDRTABLE, _mpr_mib_ipaddrtable, ipmib/MIB_IPADDRTABLE, ipmib/PMIB_IPADDRTABLE, iprtrmib/MIB_IPADDRTABLE, iprtrmib/PMIB_IPADDRTABLE, mib.mib_ipaddrtable, rras.mib_ipaddrtable"
 ms.prod: windows-hardware
 ms.technology: windows-devices

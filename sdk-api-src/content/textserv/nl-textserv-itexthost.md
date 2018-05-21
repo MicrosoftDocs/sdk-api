@@ -7,7 +7,7 @@ old-location: controls\ITextHost.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextHost, ITextHost interface [Windows Controls], ITextHost interface [Windows Controls],described, _win32_ITextHost, _win32_ITextHost_cpp, controls.ITextHost, controls._win32_ITextHost, textserv/ITextHost
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\LongLongSub.htm
 old-project: shell
 ms.assetid: 8c6c65c7-0f93-4823-a6f3-cc59c4b5b207
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: LongLongSub, LongLongSub function [Windows Shell], intsafe/LongLongSub, shell.LongLongSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

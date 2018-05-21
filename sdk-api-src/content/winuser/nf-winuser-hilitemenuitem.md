@@ -7,7 +7,7 @@ old-location: menurc\hilitemenuitem.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\hilitemenuitem.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: HiliteMenuItem, HiliteMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_HILITE, MF_UNHILITE, _win32_HiliteMenuItem, _win32_hilitemenuitem_cpp, menurc.hilitemenuitem, winui._win32_hilitemenuitem, winuser/HiliteMenuItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

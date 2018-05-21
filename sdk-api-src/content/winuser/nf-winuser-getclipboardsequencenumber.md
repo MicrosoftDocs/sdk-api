@@ -7,7 +7,7 @@ old-location: dataxchg\getclipboardsequencenumber.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboardsequencenumber.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: GetClipboardSequenceNumber, GetClipboardSequenceNumber function [Data Exchange], _win32_GetClipboardSequenceNumber, _win32_getclipboardsequencenumber_cpp, dataxchg.getclipboardsequencenumber, winui._win32_getclipboardsequencenumber, winuser/GetClipboardSequenceNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

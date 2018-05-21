@@ -7,7 +7,7 @@ old-location: security\cracksinglename.htm
 old-project: SecAuthN
 ms.assetid: de42ca97-4ce2-4bfb-abd1-7409cc5c09a8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CrackSingleName, CrackSingleName function [Security], DS_CANONICAL_NAME, DS_CANONICAL_NAME_EX, DS_DISPLAY_NAME, DS_FQDN_1779_NAME, DS_NT4_ACCOUNT_NAME, DS_SERVICE_PRINCIPAL_NAME, DS_SID_OR_SID_HISTORY_NAME, DS_UNIQUE_ID_NAME, DS_UNKNOWN_NAME, DS_USER_PRINCIPAL_NAME, LSA_CRACK_SINGLE_NAME, _ssp_cracksinglename, ntsecpkg/CrackSingleName, security.cracksinglename
 ms.prod: windows-hardware
 ms.technology: windows-devices

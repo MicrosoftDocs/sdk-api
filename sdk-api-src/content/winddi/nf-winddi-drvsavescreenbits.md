@@ -7,7 +7,7 @@ old-location: display\drvsavescreenbits.htm
 old-project: display
 ms.assetid: c91c860f-502e-4bd6-9a0b-653e5ef14735
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: DrvSaveScreenBits, DrvSaveScreenBits function [Display Devices], ddifncs_36f63073-3525-4300-941f-709aba9204c7.xml, display.drvsavescreenbits, winddi/DrvSaveScreenBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

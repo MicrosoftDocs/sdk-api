@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_get_faxnumber_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_42wi.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxJob object [Fax Service],FaxNumber property, FaxJob.FaxNumber, FaxNumber property [Fax Service], FaxNumber property [Fax Service],FaxJob object, IFaxJob.get_FaxNumber, IFaxJob::get_FaxNumber, _mfax_ifaxjob_get_faxnumber, fax._mfax_ifaxjob_get_faxnumber, fax._mfax_ifaxjob_get_faxnumber_vb, get_FaxNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

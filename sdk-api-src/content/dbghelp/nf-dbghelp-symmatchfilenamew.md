@@ -7,7 +7,7 @@ old-location: base\symmatchfilename.htm
 old-project: Debug
 ms.assetid: 69787cc7-db84-4c60-8d7d-f8eae18c82e9
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SymMatchFileName, SymMatchFileName function, SymMatchFileNameW, _win32_symmatchfilename, base.symmatchfilename, dbghelp/SymMatchFileName, dbghelp/SymMatchFileNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

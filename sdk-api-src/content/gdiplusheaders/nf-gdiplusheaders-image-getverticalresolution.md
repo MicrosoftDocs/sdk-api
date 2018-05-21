@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetVerticalResolution_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getverticalresolution.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetVerticalResolution, GetVerticalResolution method [GDI+], GetVerticalResolution method [GDI+],Image class, Image class [GDI+],GetVerticalResolution method, Image.GetVerticalResolution, Image::GetVerticalResolution, _gdiplus_CLASS_Image_GetVerticalResolution_, gdiplus._gdiplus_CLASS_Image_GetVerticalResolution_
 ms.prod: windows-hardware
 ms.technology: windows-devices

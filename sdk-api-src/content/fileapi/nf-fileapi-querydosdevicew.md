@@ -7,7 +7,7 @@ old-location: fs\querydosdevice.htm
 old-project: FileIO
 ms.assetid: ff25bc2b-dde6-40c3-a270-372daab2e5c4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: QueryDosDevice, QueryDosDevice function [Files], QueryDosDeviceA, QueryDosDeviceW, _win32_querydosdevice, base.querydosdevice, fileapi/QueryDosDevice, fileapi/QueryDosDeviceA, fileapi/QueryDosDeviceW, fs.querydosdevice, winbase/QueryDosDevice, winbase/QueryDosDeviceA, winbase/QueryDosDeviceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

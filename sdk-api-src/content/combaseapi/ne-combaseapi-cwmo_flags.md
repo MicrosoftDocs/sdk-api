@@ -7,7 +7,7 @@ old-location: com\cwmo_flags.htm
 old-project: com
 ms.assetid: 5FE605A9-DE92-4CD9-9390-6C9F5189A7CB
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CWMO_DISPATCH_CALLS, CWMO_DISPATCH_WINDOW_MESSAGE, CWMO_FLAGS, CWMO_FLAGS enumeration [COM], com.cwmo_flags, combaseapi/CWMO_DISPATCH_CALLS, combaseapi/CWMO_DISPATCH_WINDOW_MESSAGE, combaseapi/CWMO_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

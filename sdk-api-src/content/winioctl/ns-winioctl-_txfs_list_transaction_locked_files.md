@@ -7,7 +7,7 @@ old-location: fs\txfs_list_transaction_locked_files.htm
 old-project: FileIO
 ms.assetid: 55ef34c5-8d99-457d-b670-8c9efaa2eae2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PTXFS_LIST_TRANSACTION_LOCKED_FILES, PTXFS_LIST_TRANSACTION_LOCKED_FILES, PTXFS_LIST_TRANSACTION_LOCKED_FILES structure pointer [Files], TXFS_LIST_TRANSACTION_LOCKED_FILES, TXFS_LIST_TRANSACTION_LOCKED_FILES structure [Files], _TXFS_LIST_TRANSACTION_LOCKED_FILES, fs.txfs_list_transaction_locked_files, winioctl/PTXFS_LIST_TRANSACTION_LOCKED_FILES, winioctl/TXFS_LIST_TRANSACTION_LOCKED_FILES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

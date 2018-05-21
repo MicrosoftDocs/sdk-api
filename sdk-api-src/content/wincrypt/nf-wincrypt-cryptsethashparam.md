@@ -7,7 +7,7 @@ old-location: security\cryptsethashparam.htm
 old-project: SecCrypto
 ms.assetid: 0c8d3ef9-e7b5-4e49-a2f8-9c85b16549da
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CryptSetHashParam, CryptSetHashParam function [Security], HP_HASHVAL., HP_HMAC_INFO., _crypto2_cryptsethashparam, security.cryptsethashparam, wincrypt/CryptSetHashParam
 ms.prod: windows-hardware
 ms.technology: windows-devices

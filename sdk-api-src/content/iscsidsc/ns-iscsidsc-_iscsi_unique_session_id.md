@@ -2,13 +2,13 @@
 UID: NS:iscsidsc._ISCSI_UNIQUE_SESSION_ID
 title: "_ISCSI_UNIQUE_SESSION_ID"
 author: windows-driver-content
-description: ISCSI_UNIQUE_CONNECTION_ID structure is an opaque entity that contains data that uniquely identifies a connection.
-old-location: iscsidisc\iscsi_unique_connection_id.htm
+description: ISCSI_UNIQUE_SESSION_ID structure is an opaque entity that contains data that uniquely identifies a session.
+old-location: iscsidisc\iscsi_unique_session_id.htm
 old-project: iSCSIDisc
-ms.assetid: cc68fda4-6dbf-42de-8e0e-e144bd4e9524
+ms.assetid: d13975f9-58d0-425c-a2de-a0d1d70850d3
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
-ms.keywords: "*PISCSI_UNIQUE_CONNECTION_ID, *PISCSI_UNIQUE_SESSION_ID, ISCSI_UNIQUE_CONNECTION_ID, ISCSI_UNIQUE_CONNECTION_ID structure [iSCSI Discovery Library API], ISCSI_UNIQUE_SESSION_ID, _ISCSI_UNIQUE_SESSION_ID, iscsidisc.iscsi_unique_connection_id, iscsidsc/ISCSI_UNIQUE_CONNECTION_ID"
+ms.date: 5/11/2018
+ms.keywords: "*PISCSI_UNIQUE_CONNECTION_ID, *PISCSI_UNIQUE_SESSION_ID, ISCSI_UNIQUE_CONNECTION_ID, ISCSI_UNIQUE_SESSION_ID, ISCSI_UNIQUE_SESSION_ID structure [iSCSI Discovery Library API], _ISCSI_UNIQUE_SESSION_ID, iscsidisc.iscsi_unique_session_id, iscsidsc/ISCSI_UNIQUE_SESSION_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Iscsidsc.h
 api_name:
--	ISCSI_UNIQUE_CONNECTION_ID
+-	ISCSI_UNIQUE_SESSION_ID
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,8 +50,17 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>ISCSI_UNIQUE_CONNECTION_ID</b> structure is an opaque entity that contains data that uniquely identifies a connection.
+The <b>ISCSI_UNIQUE_SESSION_ID</b> structure is an opaque entity that contains data that uniquely identifies a session.
 
 
 ## -struct-fields
+
+
+## -remarks
+
+
+
+The <b>ISCSI_UNIQUE_CONNECTION_ID</b> is an alias for <b>ISCSI_UNIQUE_SESSION_ID</b>. The <b>ISCSI_UNIQUE_CONNECTION_ID</b> structure is an opaque entity that contains data that uniquely identifies a connection.
+
+
 

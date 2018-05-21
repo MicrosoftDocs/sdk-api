@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_Scale_scaleX_scaleY_order_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\scale.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Matrix class [GDI+],Scale method, Matrix.Scale, Matrix::Scale, Scale, Scale method [GDI+], Scale method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_Scale_scaleX_scaleY_order_, gdiplus._gdiplus_CLASS_Matrix_Scale_scaleX_scaleY_order_
 ms.prod: windows-hardware
 ms.technology: windows-devices

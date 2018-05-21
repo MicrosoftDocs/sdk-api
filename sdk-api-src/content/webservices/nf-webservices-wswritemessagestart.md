@@ -7,7 +7,7 @@ old-location: wsw\wswritemessagestart.htm
 old-project: wsw
 ms.assetid: 43cc43a5-7853-4170-911d-e514ac722da5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsWriteMessageStart, WsWriteMessageStart function [Web Services for Windows], webservices/WsWriteMessageStart, wsw.wswritemessagestart
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\irqcallback.htm
 old-project: display
 ms.assetid: c4e47fb2-0d41-4efe-8f84-41e279ac8bbb
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IRQCallback, IRQCallback callback function [Display Devices], PDX_IRQCALLBACK, PDX_IRQCALLBACK callback, ddfncs_761fa81e-0ee5-45f4-9e33-36ecfe5c00fb.xml, display.irqcallback, dxmini/IRQCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

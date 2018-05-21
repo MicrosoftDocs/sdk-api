@@ -2,7 +2,7 @@
 UID: TP:directdraw
 ms.assetid: 43e6d44d-8b53-399d-b068-b5e0d91fc439
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

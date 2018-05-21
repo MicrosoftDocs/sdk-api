@@ -7,7 +7,7 @@ old-location: security\cryptcatgetmemberinfo.htm
 old-project: SecCrypto
 ms.assetid: ff265232-f57e-4ab0-ba07-05e6d6745ae3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CryptCATGetMemberInfo, CryptCATGetMemberInfo function [Security], mscat/CryptCATGetMemberInfo, security.cryptcatgetmemberinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

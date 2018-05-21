@@ -82,7 +82,7 @@ Returns an enumeration of all actions available to the silo object.
 <a href="https://msdn.microsoft.com/98ef04a1-d14d-4de3-b24a-0f044335d75b">GetDevicePath</a>
 </td>
 <td align="left" width="63%">
-Returns the path to the silo device node. The supplied string is suitable for passing to Windows System APIs such as <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> or <a href="http://go.microsoft.com/fwlink/p/?linkid=134840">SetupDiOpenDeviceInterface</a>.
+Returns the path to the silo device node. The supplied string is suitable for passing to Windows System APIs such as <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552074">SetupDiOpenDeviceInterface</a>.
 
 </td>
 </tr>

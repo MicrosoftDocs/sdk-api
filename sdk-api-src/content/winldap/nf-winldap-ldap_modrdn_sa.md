@@ -7,7 +7,7 @@ old-location: ldap\ldap_modrdn_s.htm
 old-project: LDAP
 ms.assetid: 0ea0c52d-5056-4ccf-bc64-87a2f0ebd0c5
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_modrdn_s, ldap.ldap__modrdn__s, ldap.ldap_modrdn_s, ldap_modrdn_s, ldap_modrdn_s function [LDAP], ldap_modrdn_sA, ldap_modrdn_sW, winldap/ldap_modrdn_s, winldap/ldap_modrdn_sA, winldap/ldap_modrdn_sW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

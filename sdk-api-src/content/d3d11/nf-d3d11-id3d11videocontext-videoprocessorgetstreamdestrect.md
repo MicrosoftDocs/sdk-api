@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorgetstreamdestrect.htm
 old-project: medfound
 ms.assetid: F7968C74-8053-4A16-88C7-30729900B95D
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamDestRect method, ID3D11VideoContext.VideoProcessorGetStreamDestRect, ID3D11VideoContext::VideoProcessorGetStreamDestRect, VideoProcessorGetStreamDestRect, VideoProcessorGetStreamDestRect method [Media Foundation], VideoProcessorGetStreamDestRect method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamDestRect, mf.id3d11videocontext_videoprocessorgetstreamdestrect
 ms.prod: windows-hardware
 ms.technology: windows-devices

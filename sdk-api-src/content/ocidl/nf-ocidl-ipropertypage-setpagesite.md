@@ -7,7 +7,7 @@ old-location: com\ipropertypage_setpagesite.htm
 old-project: com
 ms.assetid: a57f3f0c-53c0-4ddf-9827-df912f263a9e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IPropertyPage interface [COM],SetPageSite method, IPropertyPage.SetPageSite, IPropertyPage::SetPageSite, SetPageSite, SetPageSite method [COM], SetPageSite method [COM],IPropertyPage interface, _ctrl_ipropertypage_setpagesite, com.ipropertypage_setpagesite, ocidl/IPropertyPage::SetPageSite
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromResource_hInstance_bitmapName_.h
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromresource.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Bitmap class [GDI+],FromResource method, Bitmap.FromResource, Bitmap::FromResource, FromResource, FromResource method [GDI+], FromResource method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromResource_hInstance_bitmapName_, gdiplus._gdiplus_CLASS_Bitmap_FromResource_hInstance_bitmapName_
 ms.prod: windows-hardware
 ms.technology: windows-devices

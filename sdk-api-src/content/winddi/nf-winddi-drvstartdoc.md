@@ -7,7 +7,7 @@ old-location: display\drvstartdoc.htm
 old-project: display
 ms.assetid: f73adc24-2e61-4b62-9d38-12a23b62ed01
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: DrvStartDoc, DrvStartDoc function [Display Devices], ddifncs_18494fde-3744-4ade-a245-f312b1fc4b48.xml, display.drvstartdoc, winddi/DrvStartDoc
 ms.prod: windows-hardware
 ms.technology: windows-devices

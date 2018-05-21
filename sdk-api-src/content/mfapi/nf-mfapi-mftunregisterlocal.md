@@ -7,7 +7,7 @@ old-location: mf\mftunregisterlocal.htm
 old-project: medfound
 ms.assetid: e77edce7-0abb-41a3-a65e-fd159173e135
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFTUnregisterLocal, MFTUnregisterLocal function [Media Foundation], mf.mftunregisterlocal, mfapi/MFTUnregisterLocal
 ms.prod: windows-hardware
 ms.technology: windows-devices

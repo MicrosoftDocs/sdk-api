@@ -7,7 +7,7 @@ old-location: mstv\icomponenttype_put_mediamajortype.htm
 old-project: mstv
 ms.assetid: 455a51f4-eb01-437a-9cb9-6ff93a6cc76e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put_MediaMajorType method, IComponentType.put_MediaMajorType, IComponentType::put_MediaMajorType, IComponentTypeput_MediaMajorType, mstv.icomponenttype_put_mediamajortype, put_MediaMajorType, put_MediaMajorType method [Microsoft TV Technologies], put_MediaMajorType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put_MediaMajorType
 ms.prod: windows-hardware
 ms.technology: windows-devices

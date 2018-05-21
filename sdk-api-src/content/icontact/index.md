@@ -2,11 +2,12 @@
 UID: NA:icontact
 ms.assetid: c62c671d-c967-3561-84d5-ca8e3fe1b2f6
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: wincontacts
 ---
 

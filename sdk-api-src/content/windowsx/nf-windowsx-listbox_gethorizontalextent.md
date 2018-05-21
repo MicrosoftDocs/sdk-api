@@ -7,7 +7,7 @@ old-location: controls\ListBox_GetHorizontalExtent.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_gethorizontalextent.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ListBox_GetHorizontalExtent, ListBox_GetHorizontalExtent macro [Windows Controls], _win32_ListBox_GetHorizontalExtent, _win32_ListBox_GetHorizontalExtent_cpp, controls.ListBox_GetHorizontalExtent, controls._win32_ListBox_GetHorizontalExtent, windowsx/ListBox_GetHorizontalExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices

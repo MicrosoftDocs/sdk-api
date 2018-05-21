@@ -7,7 +7,7 @@ old-location: cos\imanagedpooledobj.htm
 old-project: cossdk
 ms.assetid: 04853859-5d85-4b88-9e1b-422e3454fd3f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IManagedPooledObj, IManagedPooledObj interface [COM+], IManagedPooledObj interface [COM+],described, _cos_IManagedPooledObj, comsvcs/IManagedPooledObj, cos.imanagedpooledobj
 ms.prod: windows-hardware
 ms.technology: windows-devices

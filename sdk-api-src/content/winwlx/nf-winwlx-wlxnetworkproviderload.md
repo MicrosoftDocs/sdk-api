@@ -7,7 +7,7 @@ old-location: security\wlxnetworkproviderload.htm
 old-project: SecAuthN
 ms.assetid: d9a39211-f876-46d8-9a7c-c6bb3ba9edfe
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: WlxNetworkProviderLoad, WlxNetworkProviderLoad function [Security], _gina_wlxnetworkproviderload, security.wlxnetworkproviderload, winwlx/WlxNetworkProviderLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices

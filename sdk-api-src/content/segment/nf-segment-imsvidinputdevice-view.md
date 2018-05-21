@@ -7,7 +7,7 @@ old-location: mstv\imsvidinputdevice_view.htm
 old-project: mstv
 ms.assetid: f106e520-86e5-4b7e-8e16-1f82797f128f
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidInputDevice interface [Microsoft TV Technologies],View method, IMSVidInputDevice.View, IMSVidInputDevice::View, IMSVidInputDeviceView, View, View method [Microsoft TV Technologies], View method [Microsoft TV Technologies],IMSVidInputDevice interface, mstv.imsvidinputdevice_view, segment/IMSVidInputDevice::View
 ms.prod: windows-hardware
 ms.technology: windows-devices

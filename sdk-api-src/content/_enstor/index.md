@@ -2,11 +2,12 @@
 UID: TP:enstor
 ms.assetid: 233ef84c-dce9-3d93-bcda-5f4649228169
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Enhanced Storage

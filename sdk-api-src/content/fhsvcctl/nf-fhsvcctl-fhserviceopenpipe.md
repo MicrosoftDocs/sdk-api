@@ -7,7 +7,7 @@ old-location: winprog\fhserviceopenpipe.htm
 old-project: DevNotes
 ms.assetid: D0927124-0568-4897-9169-445C252E8ED4
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FhServiceOpenPipe, FhServiceOpenPipe function [Windows API], fhsvcctl/FhServiceOpenPipe, winprog.fhserviceopenpipe
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\saslacceptsecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: 39ef6522-ff70-4066-a34d-f2af2174f6ee
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: ASC_REQ_CONFIDENTIALITY, ASC_REQ_HTTP, SaslAcceptSecurityContext, SaslAcceptSecurityContext function [Security], security.saslacceptsecuritycontext, sspi/SaslAcceptSecurityContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SaslAcceptSecurityContext function

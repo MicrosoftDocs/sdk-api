@@ -7,7 +7,7 @@ old-location: winprog\_getdotstuffstate.htm
 old-project: DevNotes
 ms.assetid: 069d9cc9-0478-457a-826b-2e4d1e1b0b05
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetDotStuffState, GetDotStuffState function [Windows API], filehc/GetDotStuffState, winprog._getdotstuffstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CREATEFILE2_EXTENDED_PARAMETERS, *PCREATEFILE2_EXTENDED_PARAMETERS, *LPCREATEFILE2_EXTENDED_PARAMETERS
+req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 topic_type:
 -	APIRef
 -	kbSyntax

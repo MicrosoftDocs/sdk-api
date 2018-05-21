@@ -7,7 +7,7 @@ old-location: eaphost\eaphost_auth_status.htm
 old-project: EAPHost
 ms.assetid: e1d0ff30-955c-4998-ae01-5dbadf3f4123
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EAPHOST_AUTH_STATUS, EAPHOST_AUTH_STATUS enumeration [EAPHost], EapHostAuthFailed, EapHostAuthIdentityExchange, EapHostAuthInProgress, EapHostAuthNegotiatingType, EapHostAuthNotStarted, EapHostAuthSucceeded, EapHostInvalidSession, _EAPHOST_AUTH_STATUS, eaphost.eaphost_auth_status, eaphostpeertypes/EAPHOST_AUTH_STATUS, eaphostpeertypes/EapHostAuthFailed, eaphostpeertypes/EapHostAuthIdentityExchange, eaphostpeertypes/EapHostAuthInProgress, eaphostpeertypes/EapHostAuthNegotiatingType, eaphostpeertypes/EapHostAuthNotStarted, eaphostpeertypes/EapHostAuthSucceeded, eaphostpeertypes/EapHostInvalidSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

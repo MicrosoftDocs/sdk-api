@@ -7,7 +7,7 @@ old-location: ncd\iwsdasyncresult_getendpointproxy.htm
 old-project: WsdApi
 ms.assetid: f2b1f43a-e86c-4ec9-a39f-9c5050f3e3c3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetEndpointProxy, GetEndpointProxy method, GetEndpointProxy method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetEndpointProxy method, IWSDAsyncResult.GetEndpointProxy, IWSDAsyncResult::GetEndpointProxy, ncd.iwsdasyncresult_getendpointproxy, wsdclient/IWSDAsyncResult::GetEndpointProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\setbitmapbits.htm
 old-project: gdi
 ms.assetid: 3cab12a6-c408-4552-bec0-5ecfd8374757
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: SetBitmapBits, SetBitmapBits function [Windows GDI], _win32_SetBitmapBits, gdi.setbitmapbits, wingdi/SetBitmapBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

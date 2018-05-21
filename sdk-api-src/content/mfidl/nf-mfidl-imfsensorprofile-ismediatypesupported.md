@@ -7,7 +7,7 @@ old-location: mf\imfsensorprofile_ismediatypesupported.htm
 old-project: medfound
 ms.assetid: 9535AF14-A6DF-49E9-B264-734B96A3DC29
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFSensorProfile interface [Media Foundation],IsMediaTypeSupported method, IMFSensorProfile.IsMediaTypeSupported, IMFSensorProfile::IsMediaTypeSupported, IsMediaTypeSupported, IsMediaTypeSupported method [Media Foundation], IsMediaTypeSupported method [Media Foundation],IMFSensorProfile interface, mf.imfsensorprofile_ismediatypesupported, mfidl/IMFSensorProfile::IsMediaTypeSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

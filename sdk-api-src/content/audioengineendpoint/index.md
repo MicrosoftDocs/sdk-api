@@ -2,7 +2,7 @@
 UID: NA:audioengineendpoint
 ms.assetid: e3f686f9-6316-396c-adf4-e0ac9e6d8ad8
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

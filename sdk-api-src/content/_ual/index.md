@@ -2,11 +2,12 @@
 UID: TP:ual
 ms.assetid: 064ae0f9-7282-39cf-be9e-a2768a182496
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # User Access Logging

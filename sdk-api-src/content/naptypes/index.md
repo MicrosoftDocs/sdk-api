@@ -2,7 +2,7 @@
 UID: NA:naptypes
 ms.assetid: e50324ba-586f-3cfc-a612-55cd4b98b0d0
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

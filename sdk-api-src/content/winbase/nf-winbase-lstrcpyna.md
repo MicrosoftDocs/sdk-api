@@ -7,7 +7,7 @@ old-location: menurc\lstrcpyn.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcpyn.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: "_win32_lstrcpyn, _win32_lstrcpyn_cpp, lstrcpyn, lstrcpyn function [Menus and Other Resources], lstrcpynA, lstrcpynW, menurc.lstrcpyn, winbase/lstrcpyn, winbase/lstrcpynA, winbase/lstrcpynW, winui._win32_lstrcpyn"
 ms.prod: windows-hardware
 ms.technology: windows-devices

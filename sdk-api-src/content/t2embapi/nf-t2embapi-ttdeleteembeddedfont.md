@@ -7,7 +7,7 @@ old-location: gdi\ttdeleteembeddedfont.htm
 old-project: gdi
 ms.assetid: cbd0945a-3f78-43d2-87f7-18e6e9d00096
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: TTDELETE_DONTREMOVEFONT, TTDeleteEmbeddedFont, TTDeleteEmbeddedFont function [Windows GDI], _win32_TTDeleteEmbeddedFont, gdi.ttdeleteembeddedfont, t2embapi/TTDeleteEmbeddedFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

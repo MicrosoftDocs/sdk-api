@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingqueue_branding_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8acn.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: Branding property [Fax Service], Branding property [Fax Service],FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service],Branding property, FaxOutgoingQueue.Branding, IFaxOutgoingQueue.get_Branding, IFaxOutgoingQueue::get_Branding, _mfax_faxoutgoingqueue.branding, fax._mfax_faxoutgoingqueue_branding, fax._mfax_faxoutgoingqueue_branding_vb, get_Branding
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\certfreeserverocspresponsecontext.htm
 old-project: SecCrypto
 ms.assetid: a07fc1e0-6f06-4336-b33c-d4d6a838b609
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CertFreeServerOcspResponseContext, CertFreeServerOcspResponseContext function [Security], security.certfreeserverocspresponsecontext, wincrypt/CertFreeServerOcspResponseContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

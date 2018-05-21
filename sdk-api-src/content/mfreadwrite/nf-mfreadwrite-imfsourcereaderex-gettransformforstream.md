@@ -7,7 +7,7 @@ old-location: mf\imfsourcereaderex_gettransformforstream.htm
 old-project: medfound
 ms.assetid: 39F2D132-5D2B-4389-AB30-FE2942EC3965
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetTransformForStream, GetTransformForStream method [Media Foundation], GetTransformForStream method [Media Foundation],IMFSourceReaderEx interface, IMFSourceReaderEx interface [Media Foundation],GetTransformForStream method, IMFSourceReaderEx.GetTransformForStream, IMFSourceReaderEx::GetTransformForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereaderex_gettransformforstream, mfreadwrite/IMFSourceReaderEx::GetTransformForStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

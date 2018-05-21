@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device3.htm
 old-project: direct3d12
 ms.assetid: 038E546C-4000-401A-8A11-7A83F391676E
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: Id3d12device3, Id3d12device3 interface, Id3d12device3 interface,described, d3d12/Id3d12device3, direct3d12.id3d12device3
 ms.prod: windows-hardware
 ms.technology: windows-devices

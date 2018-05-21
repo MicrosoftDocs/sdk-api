@@ -2,7 +2,7 @@
 UID: NA:in6addr
 ms.assetid: 2884d416-3704-3d35-8cf6-82005d09ca55
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

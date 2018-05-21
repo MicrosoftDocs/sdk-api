@@ -7,7 +7,7 @@ old-location: fs\wofwimupdateentry.htm
 old-project: FileIO
 ms.assetid: 91CAE0F4-C0DB-40CE-BED9-C27E4856D4A0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: WofWimUpdateEntry, WofWimUpdateEntry function [Files], fs.wofwimupdateentry, wofapi/WofWimUpdateEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

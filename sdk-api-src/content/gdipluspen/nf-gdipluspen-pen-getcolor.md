@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_GetColor_color_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getcolor.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetColor, GetColor method [GDI+], GetColor method [GDI+],Pen class, Pen class [GDI+],GetColor method, Pen.GetColor, Pen::GetColor, _gdiplus_CLASS_Pen_GetColor_color_, gdiplus._gdiplus_CLASS_Pen_GetColor_color_
 ms.prod: windows-hardware
 ms.technology: windows-devices

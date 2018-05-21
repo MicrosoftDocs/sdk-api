@@ -7,7 +7,7 @@ old-location: ncd\wsd_localized_string_struct.htm
 old-project: WsdApi
 ms.assetid: c90cc459-a10d-4b2b-81bc-96e562755b6c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_LOCALIZED_STRING, WSD_LOCALIZED_STRING structure, _WSD_LOCALIZED_STRING, ncd.wsd_localized_string_struct, wsdtypes/WSD_LOCALIZED_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices

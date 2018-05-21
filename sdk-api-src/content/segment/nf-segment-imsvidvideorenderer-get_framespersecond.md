@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_get_framespersecond.htm
 old-project: mstv
 ms.assetid: 94634499-748d-42d1-8d06-fb52d10d4656
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_FramesPerSecond method, IMSVidVideoRenderer.get_FramesPerSecond, IMSVidVideoRenderer::get_FramesPerSecond, IMSVidVideoRendererget_FramesPerSecond, get_FramesPerSecond, get_FramesPerSecond method [Microsoft TV Technologies], get_FramesPerSecond method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_framespersecond, segment/IMSVidVideoRenderer::get_FramesPerSecond
 ms.prod: windows-hardware
 ms.technology: windows-devices

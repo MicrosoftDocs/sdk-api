@@ -7,7 +7,7 @@ old-location: fs\createdirectory.htm
 old-project: FileIO
 ms.assetid: f8ca8b10-c8bd-4285-8a40-dbec4c24729c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: CreateDirectory, CreateDirectory function [Files], CreateDirectoryA, CreateDirectoryW, _win32_createdirectory, base.createdirectory, fileapi/CreateDirectory, fileapi/CreateDirectoryA, fileapi/CreateDirectoryW, fs.createdirectory, winbase/CreateDirectory, winbase/CreateDirectoryA, winbase/CreateDirectoryW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

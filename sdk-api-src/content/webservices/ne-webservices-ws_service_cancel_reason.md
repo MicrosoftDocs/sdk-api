@@ -7,7 +7,7 @@ old-location: wsw\ws_service_cancel_reason.htm
 old-project: wsw
 ms.assetid: 7d0266fa-193b-4883-8007-8151e411b46f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_SERVICE_CANCEL_REASON, WS_SERVICE_CANCEL_REASON enumeration [Web Services for Windows], WS_SERVICE_CHANNEL_FAULTED, WS_SERVICE_HOST_ABORT, webservices/WS_SERVICE_CANCEL_REASON, webservices/WS_SERVICE_CHANNEL_FAULTED, webservices/WS_SERVICE_HOST_ABORT, wsw.ws_service_cancel_reason
 ms.prod: windows-hardware
 ms.technology: windows-devices

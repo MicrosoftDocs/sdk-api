@@ -2,7 +2,7 @@
 UID: TP:security
 ms.assetid: b363e999-e030-3061-ae49-cc5ffd5ea84d
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,12 +29,14 @@ To develop Authentication, you need these headers:
  * [certbcli.h](..\certbcli\index.md)
  * [certcli.h](..\certcli\index.md)
  * [certenc.h](..\certenc\index.md)
+ * [certenroll.h](..\certenroll\index.md)
  * [certexit.h](..\certexit\index.md)
  * [certif.h](..\certif\index.md)
  * [certmod.h](..\certmod\index.md)
  * [certpol.h](..\certpol\index.md)
  * [certpoleng.h](..\certpoleng\index.md)
  * [certsrv.h](..\certsrv\index.md)
+ * [certview.h](..\certview\index.md)
  * [credssp.h](..\credssp\index.md)
  * [cryptdlg.h](..\cryptdlg\index.md)
  * [cryptuiapi.h](..\cryptuiapi\index.md)

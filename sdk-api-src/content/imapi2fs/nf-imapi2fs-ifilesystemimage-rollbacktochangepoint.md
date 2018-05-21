@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_rollbacktochangepoint.htm
 old-project: imapi
 ms.assetid: 852b88ed-6af7-4fe6-bf5f-831d55423130
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IFileSystemImage interface [IMAPI],RollbackToChangePoint method, IFileSystemImage.RollbackToChangePoint, IFileSystemImage::RollbackToChangePoint, RollbackToChangePoint, RollbackToChangePoint method [IMAPI], RollbackToChangePoint method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_rollbacktochangepoint, imapi2fs/IFileSystemImage::RollbackToChangePoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

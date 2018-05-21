@@ -7,7 +7,7 @@ old-location: security\sspiencodeauthidentityasstrings.htm
 old-project: SecAuthN
 ms.assetid: 0610a7b8-67e9-4c01-893f-da579eeea2f8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SspiEncodeAuthIdentityAsStrings, SspiEncodeAuthIdentityAsStrings function [Security], SspiEncodeAuthIdentityAsStringsA, SspiEncodeAuthIdentityAsStringsW, security.sspiencodeauthidentityasstrings, sspi/SspiEncodeAuthIdentityAsStrings, sspi/SspiEncodeAuthIdentityAsStringsA, sspi/SspiEncodeAuthIdentityAsStringsW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SspiEncodeAuthIdentityAsStrings function

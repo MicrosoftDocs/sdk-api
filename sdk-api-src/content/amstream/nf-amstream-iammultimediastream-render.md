@@ -7,7 +7,7 @@ old-location: dshow\iammultimediastream_render.htm
 old-project: DirectShow
 ms.assetid: 09866cf0-650d-4d8e-81d4-6a568709c027
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],Render method, IAMMultiMediaStream.Render, IAMMultiMediaStream::Render, IAMMultiMediaStreamRender, Render, Render method [DirectShow], Render method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::Render, dshow.iammultimediastream_render
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dlgbox\replacetext.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\replacetext.htm
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/17/2018
 ms.keywords: ReplaceText, ReplaceText function [Dialog Boxes], ReplaceTextA, ReplaceTextW, _win32_ReplaceText, _win32_replacetext_cpp, commdlg/ReplaceText, commdlg/ReplaceTextA, commdlg/ReplaceTextW, dlgbox.replacetext, winui._win32_replacetext
 ms.prod: windows-hardware
 ms.technology: windows-devices

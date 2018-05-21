@@ -7,7 +7,7 @@ old-location: mscs\clusworkersterminate.htm
 old-project: MsCS
 ms.assetid: af9bcdcf-ca92-438b-94f2-f0e7529952fb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: ClusWorkersTerminate, ClusWorkersTerminate function [Failover Cluster], mscs.clusworkersterminate, resapi/ClusWorkersTerminate
 ms.prod: windows-hardware
 ms.technology: windows-devices

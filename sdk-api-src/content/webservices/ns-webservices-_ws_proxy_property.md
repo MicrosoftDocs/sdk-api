@@ -7,7 +7,7 @@ old-location: wsw\ws_proxy_property.htm
 old-project: wsw
 ms.assetid: eb8ce473-bf9e-4eae-8c40-8e2972a26d41
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_PROXY_PROPERTY, WS_PROXY_PROPERTY structure [Web Services for Windows], _WS_PROXY_PROPERTY, webservices/WS_PROXY_PROPERTY, wsw.ws_proxy_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

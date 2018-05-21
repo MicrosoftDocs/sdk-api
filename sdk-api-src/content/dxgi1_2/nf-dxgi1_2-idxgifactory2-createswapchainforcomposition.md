@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_createswapchainforcompositionsurface.ht
 old-project: direct3ddxgi
 ms.assetid: 8AE13082-F8C3-422A-A111-4E91488BD1AF
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: CreateSwapChainForComposition, CreateSwapChainForComposition method [DXGI], CreateSwapChainForComposition method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],CreateSwapChainForComposition method, IDXGIFactory2.CreateSwapChainForComposition, IDXGIFactory2::CreateSwapChainForComposition, direct3ddxgi.idxgifactory2_createswapchainforcompositionsurface, dxgi1_2/IDXGIFactory2::CreateSwapChainForComposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -165,6 +165,10 @@ The <a href="https://msdn.microsoft.com/77F5EB53-0DF9-4BA7-810C-9B7B073E76A7">IS
 
 ## -see-also
 
+
+
+
+<a href="direct3ddxgi.for_best_performance__use_dxgi_flip_model">For best performance, use DXGI flip model</a>
 
 
 

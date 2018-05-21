@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersourceevent_ratingsunblocked.htm
 old-project: mstv
 ms.assetid: a255df5b-f7fe-4f99-9d29-59e30b922975
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],RatingsUnblocked method, IMSVidStreamBufferSourceEvent.RatingsUnblocked, IMSVidStreamBufferSourceEvent::RatingsUnblocked, IMSVidStreamBufferSourceEventRatingsUnblocked, RatingsUnblocked, RatingsUnblocked method [Microsoft TV Technologies], RatingsUnblocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_ratingsunblocked, segment/IMSVidStreamBufferSourceEvent::RatingsUnblocked
 ms.prod: windows-hardware
 ms.technology: windows-devices

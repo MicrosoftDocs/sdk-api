@@ -7,7 +7,7 @@ old-location: security\ix509attributes_remove_method.htm
 old-project: SecCertEnroll
 ms.assetid: 5821f4bd-5165-4ffc-8d1c-5ef89188b307
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509Attributes interface [Security],Remove method, IX509Attributes.Remove, IX509Attributes::Remove, Remove, Remove method [Security], Remove method [Security],IX509Attributes interface, certenroll/IX509Attributes::Remove, security.ix509attributes_remove_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

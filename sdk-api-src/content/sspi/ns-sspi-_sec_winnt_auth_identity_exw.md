@@ -7,7 +7,7 @@ old-location: security\sec_winnt_auth_identity_ex.htm
 old-project: SecAuthN
 ms.assetid: 6b95bce8-5613-4403-9bda-16262596bb1b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSEC_WINNT_AUTH_IDENTITY_EXW, PSEC_WINNT_AUTH_IDENTITY_EX, PSEC_WINNT_AUTH_IDENTITY_EX structure pointer [Security], SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_EX, SEC_WINNT_AUTH_IDENTITY_EX structure [Security], SEC_WINNT_AUTH_IDENTITY_EXW, SEC_WINNT_AUTH_IDENTITY_MARSHALLED, SEC_WINNT_AUTH_IDENTITY_ONLY, SEC_WINNT_AUTH_IDENTITY_UNICODE, _SEC_WINNT_AUTH_IDENTITY_EXA, _SEC_WINNT_AUTH_IDENTITY_EXW, _ssp_sec_winnt_auth_identity_ex, security.sec_winnt_auth_identity_ex, sspi/PSEC_WINNT_AUTH_IDENTITY_EX, sspi/SEC_WINNT_AUTH_IDENTITY_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SEC_WINNT_AUTH_IDENTITY_EXW structure

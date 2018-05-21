@@ -7,7 +7,7 @@ old-location: cos\ithreadpoolknobs_setdeletedelay.htm
 old-project: cossdk
 ms.assetid: dd01dc40-fbf6-48f9-bef7-8a935a6adf28
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetDeleteDelay method, IThreadPoolKnobs.SetDeleteDelay, IThreadPoolKnobs::SetDeleteDelay, SetDeleteDelay, SetDeleteDelay method [COM+], SetDeleteDelay method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetDeleteDelay, comsvcs/IThreadPoolKnobs::SetDeleteDelay, cos.ithreadpoolknobs_setdeletedelay
 ms.prod: windows-hardware
 ms.technology: windows-devices

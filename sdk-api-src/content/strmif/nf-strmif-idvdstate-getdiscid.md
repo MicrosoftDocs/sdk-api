@@ -7,7 +7,7 @@ old-location: dshow\idvdstate_getdiscid.htm
 old-project: DirectShow
 ms.assetid: 1a3d8dba-4281-4385-b48f-d9d1b1134676
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetDiscID, GetDiscID method [DirectShow], GetDiscID method [DirectShow],IDvdState interface, IDvdState interface [DirectShow],GetDiscID method, IDvdState.GetDiscID, IDvdState::GetDiscID, IDvdStateGetDiscID, dshow.idvdstate_getdiscid, strmif/IDvdState::GetDiscID
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\igraphconfig.htm
 old-project: DirectShow
 ms.assetid: 7df22157-9dd1-410e-b037-a155f7b9a01b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IGraphConfig, IGraphConfig interface [DirectShow], IGraphConfig interface [DirectShow],described, IGraphConfigInterface, dshow.igraphconfig, strmif/IGraphConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

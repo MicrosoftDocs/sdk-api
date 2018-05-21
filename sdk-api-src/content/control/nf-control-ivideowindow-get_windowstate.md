@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_windowstate.htm
 old-project: DirectShow
 ms.assetid: ecda497c-634b-4a7e-9f21-85bde307c796
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_WindowState method, IVideoWindow.get_WindowState, IVideoWindow::get_WindowState, IVideoWindowget_WindowState, control/IVideoWindow::get_WindowState, dshow.ivideowindow_get_windowstate, get_WindowState, get_WindowState method [DirectShow], get_WindowState method [DirectShow],IVideoWindow interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

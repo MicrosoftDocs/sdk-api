@@ -7,7 +7,7 @@ old-location: gdi\animatepalette.htm
 old-project: gdi
 ms.assetid: 65dd45e2-39a4-4a94-bd14-b0c8e4a609a3
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: AnimatePalette, AnimatePalette function [Windows GDI], _win32_AnimatePalette, gdi.animatepalette, wingdi/AnimatePalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\bindmoniker.htm
 old-project: com
 ms.assetid: 5a022c39-fc2c-458b-9dfe-fed1255d49a4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: BindMoniker, BindMoniker function [COM], _com_BindMoniker, com.bindmoniker, objbase/BindMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices

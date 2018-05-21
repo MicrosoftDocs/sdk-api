@@ -7,7 +7,7 @@ old-location: dhcp\dhcphlprisv4policywellformed.htm
 old-project: DHCP
 ms.assetid: 820b45f6-aa09-4e15-bf77-caa2723f4ea8
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpHlprIsV4PolicyWellFormed, DhcpHlprIsV4PolicyWellFormed function [DHCP], dhcp.dhcphlprisv4policywellformed, dhcpsapi/DhcpHlprIsV4PolicyWellFormed
 ms.prod: windows-hardware
 ms.technology: windows-devices

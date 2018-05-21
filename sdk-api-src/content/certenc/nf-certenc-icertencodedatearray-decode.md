@@ -7,7 +7,7 @@ old-location: security\icertencodedatearray_decode.htm
 old-project: SecCrypto
 ms.assetid: 79937ef7-4b1a-4132-9ef4-23b2857c7fac
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CCertEncodeDateArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeDateArray object, Decode method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],Decode method, ICertEncodeDateArray.Decode, ICertEncodeDateArray::Decode, _certsrv_icertencodedatearray_decode, certenc/ICertEncodeDateArray::Decode, security.icertencodedatearray_decode
 ms.prod: windows-hardware
 ms.technology: windows-devices

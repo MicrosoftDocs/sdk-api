@@ -7,7 +7,7 @@ old-location: security\crypt_xml_algorithm.htm
 old-project: SecCrypto
 ms.assetid: 4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PCRYPT_XML_ALGORITHM, CRYPT_XML_ALGORITHM, CRYPT_XML_ALGORITHM structure [Security], PCRYPT_XML_ALGORITHM, PCRYPT_XML_ALGORITHM structure pointer [Security], _CRYPT_XML_ALGORITHM, cryptxml/CRYPT_XML_ALGORITHM, cryptxml/PCRYPT_XML_ALGORITHM, security.crypt_xml_algorithm"
 ms.prod: windows-hardware
 ms.technology: windows-devices

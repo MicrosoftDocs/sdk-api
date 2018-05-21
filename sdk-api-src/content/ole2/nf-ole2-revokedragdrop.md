@@ -7,7 +7,7 @@ old-location: com\revokedragdrop.htm
 old-project: com
 ms.assetid: c0fa963c-ed06-426c-8ffc-31b02f083a23
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: RevokeDragDrop, RevokeDragDrop function [COM], _ole_RevokeDragDrop, com.revokedragdrop, ole2/RevokeDragDrop
 ms.prod: windows-hardware
 ms.technology: windows-devices

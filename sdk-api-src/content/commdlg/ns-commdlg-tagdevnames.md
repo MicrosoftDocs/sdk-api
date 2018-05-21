@@ -7,7 +7,7 @@ old-location: dlgbox\devnames_str.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\devnames.htm
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDEVNAMES, DEVNAMES, DEVNAMES structure [Dialog Boxes], LPDEVNAMES, LPDEVNAMES structure pointer [Dialog Boxes], _win32_DEVNAMES_str, _win32_devnames_str_cpp, commdlg/DEVNAMES, commdlg/LPDEVNAMES, dlgbox.devnames_str, tagDEVNAMES, winui._win32_devnames_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

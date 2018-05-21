@@ -7,7 +7,7 @@ old-location: controls\IImageList2_Initialize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\initialize.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: IImageList2 interface [Windows Controls],Initialize method, IImageList2.Initialize, IImageList2::Initialize, Initialize, Initialize method [Windows Controls], Initialize method [Windows Controls],IImageList2 interface, _shell_IImageList2_Initialize, _shell_IImageList2_Initialize_cpp, commoncontrols/IImageList2::Initialize, controls.IImageList2_Initialize, controls._shell_IImageList2_Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\isreparsetagmicrosoft.htm
 old-project: FileIO
 ms.assetid: f64378a7-084e-41c7-9331-dcffa11e0ae9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: IsReparseTagMicrosoft, IsReparseTagMicrosoft macro [Files], _win32_isreparsetagmicrosoft, base.isreparsetagmicrosoft, fs.isreparsetagmicrosoft, winnt/IsReparseTagMicrosoft
 ms.prod: windows-hardware
 ms.technology: windows-devices

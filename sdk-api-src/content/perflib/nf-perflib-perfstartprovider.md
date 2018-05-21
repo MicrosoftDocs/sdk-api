@@ -7,7 +7,7 @@ old-location: perf\perfstartprovider.htm
 old-project: PerfCtrs
 ms.assetid: b417b19b-adbc-40e3-aca1-c2cd94a79232
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PerfStartProvider, PerfStartProvider function [Perf], base.perfstartprovider, perf.perfstartprovider, perflib/PerfStartProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

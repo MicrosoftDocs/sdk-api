@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_nonettransports.htm
 old-project: OfflineFiles
 ms.assetid: 4970acd4-b99d-4d7a-a0bc-04c10a4423b8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],NoNetTransports method, IOfflineFilesEvents.NoNetTransports, IOfflineFilesEvents::NoNetTransports, NoNetTransports, NoNetTransports method [Offline Files], NoNetTransports method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::NoNetTransports, of.iofflinefilesevents_nonettransports
 ms.prod: windows-hardware
 ms.technology: windows-devices

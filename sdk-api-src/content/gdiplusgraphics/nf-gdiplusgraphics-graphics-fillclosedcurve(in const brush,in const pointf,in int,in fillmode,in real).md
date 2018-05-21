@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FillClosedCurve_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillclosedcurvemethods.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: FillClosedCurve, FillClosedCurve methods [GDI+], Graphics.FillClosedCurve, Graphics.FillClosedCurve(IN const Brush,IN const PointF,IN INT,IN FillMode,IN REAL), Graphics::FillClosedCurve, Graphics::FillClosedCurve(IN const Brush,IN const PointF,IN INT,IN FillMode,IN REAL), _gdiplus_CLASS_Graphics_FillClosedCurve_Methods, gdiplus._gdiplus_CLASS_Graphics_FillClosedCurve_Methods, gdiplusgraphics/FillClosedCurve
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IBrowserService2_v_GetViewStream.htm
 old-project: shell
 ms.assetid: fb6b2739-7eb1-4037-8a21-1c4d0f70cde3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_GetViewStream method, IBrowserService2.v_GetViewStream, IBrowserService2::v_GetViewStream, shdeprecated/IBrowserService2::v_GetViewStream, shell.IBrowserService2_v_GetViewStream, v_GetViewStream, v_GetViewStream method [Windows Shell], v_GetViewStream method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_GetViewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

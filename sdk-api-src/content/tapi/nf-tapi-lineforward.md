@@ -7,7 +7,7 @@ old-location: tapi2\lineforward.htm
 old-project: Tapi
 ms.assetid: 68dc99c5-1158-4e18-8e32-08216ff3567b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: "_tapi2_lineforward, lineForward, lineForward function [TAPI 2.2], lineForwardA, lineForwardW, tapi/lineForward, tapi/lineForwardA, tapi/lineForwardW, tapi2.lineforward"
 ms.prod: windows-hardware
 ms.technology: windows-devices

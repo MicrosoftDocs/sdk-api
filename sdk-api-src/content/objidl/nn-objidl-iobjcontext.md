@@ -7,7 +7,7 @@ old-location: com\iobjcontext.htm
 old-project: com
 ms.assetid: 983615a1-cfa2-4137-8c7e-42e2ef6923a8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IObjContext, IObjContext interface [COM], IObjContext interface [COM],described, _com_iobjcontext, com.iobjcontext, objidlbase/IObjContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

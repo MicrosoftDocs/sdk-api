@@ -7,7 +7,7 @@ old-location: bluetooth\bluetooth_device_search_params.htm
 old-project: Bluetooth
 ms.assetid: e267df61-d0f5-434f-b49c-6899c2abfa2a
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BLUETOOTH_DEVICE_SEARCH_PARAMS, BLUETOOTH_DEVICE_SEARCH_PARAMS structure [Bluetooth], _BLUETOOTH_DEVICE_SEARCH_PARAMS, bluetooth.bluetooth_device_search_params, bluetoothapis/BLUETOOTH_DEVICE_SEARCH_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices

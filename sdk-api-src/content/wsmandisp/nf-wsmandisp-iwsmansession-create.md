@@ -7,7 +7,7 @@ old-location: winrm\iwsmansession_create.htm
 old-project: WinRM
 ms.assetid: 7e8b561e-c724-427b-88a0-34a6c8a9c6bd
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: Create, Create method [Windows Remote Management], Create method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Create method, IWSManSession.Create, IWSManSession::Create, winrm.iwsmansession_create, wsmandisp/IWSManSession::Create
 ms.prod: windows-hardware
 ms.technology: windows-devices

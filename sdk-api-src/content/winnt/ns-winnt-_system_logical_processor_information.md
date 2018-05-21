@@ -7,7 +7,7 @@ old-location: base\system_logical_processor_information.htm
 old-project: ProcThread
 ms.assetid: 32ef5dd8-c00d-44ee-a291-a18653beb1b9
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: "*PSYSTEM_LOGICAL_PROCESSOR_INFORMATION, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION, PSYSTEM_LOGICAL_PROCESSOR_INFORMATION structure pointer, RelationCache, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, SYSTEM_LOGICAL_PROCESSOR_INFORMATION, SYSTEM_LOGICAL_PROCESSOR_INFORMATION structure, _SYSTEM_LOGICAL_PROCESSOR_INFORMATION, base.system_logical_processor_information, winnt/PSYSTEM_LOGICAL_PROCESSOR_INFORMATION, winnt/SYSTEM_LOGICAL_PROCESSOR_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

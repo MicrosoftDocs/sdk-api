@@ -7,7 +7,7 @@ old-location: menurc\stringcchprintf_l.htm
 old-project: menurc
 ms.assetid: 9484d792-3f4e-42cd-96e3-7ce0b16859cc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: StringCchPrintf_l, StringCchPrintf_l function [Menus and Other Resources], StringCchPrintf_lA, StringCchPrintf_lW, menurc.stringcchprintf_l, strsafe/StringCchPrintf_l, strsafe/StringCchPrintf_lA, strsafe/StringCchPrintf_lW
 ms.prod: windows-hardware
 ms.technology: windows-devices

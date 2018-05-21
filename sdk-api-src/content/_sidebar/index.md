@@ -2,7 +2,7 @@
 UID: TP:sidebar
 ms.assetid: 5b5f5c9e-0112-3ee8-962d-1fc7c54df431
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

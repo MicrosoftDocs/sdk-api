@@ -7,7 +7,7 @@ old-location: com\olebuildversion.htm
 old-project: com
 ms.assetid: 5715CF82-7598-4D04-8EC8-BB27582A739E
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleBuildVersion, OleBuildVersion function [COM], com.olebuildversion, ole2/OleBuildVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

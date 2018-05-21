@@ -7,7 +7,7 @@ old-location: fs\wofenumentries.htm
 old-project: FileIO
 ms.assetid: D6BCBFC1-C916-43E3-BB6A-E8EB6467850B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: WofEnumEntries, WofEnumEntries function [Files], fs.wofenumentries, wofapi/WofEnumEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices

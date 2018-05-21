@@ -7,7 +7,7 @@ old-location: intl\ispellcheckprovider_id.htm
 old-project: Intl
 ms.assetid: 4FB41CF0-1F08-42F8-86A7-F38FE740F436
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],Id property, ISpellCheckProvider.Id, ISpellCheckProvider.get_Id, ISpellCheckProvider::Id, ISpellCheckProvider::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_Id, intl.ispellcheckprovider_id, spellcheckprovider/ISpellCheckProvider::Id, spellcheckprovider/ISpellCheckProvider::get_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # ISpellCheckProvider::get_Id

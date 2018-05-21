@@ -7,7 +7,7 @@ old-location: mf\mfvideoalphabitmapparams.htm
 old-project: medfound
 ms.assetid: 3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce, MFVideoAlphaBitmapParams, MFVideoAlphaBitmapParams structure [Media Foundation], evr9/MFVideoAlphaBitmapParams, mf.mfvideoalphabitmapparams
 ms.prod: windows-hardware
 ms.technology: windows-devices

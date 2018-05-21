@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorshutdown.htm
 old-project: EAPHost
 ms.assetid: 7b6f883f-f3ea-48d0-b61c-9056316cd232
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapMethodAuthenticatorShutdown, EapMethodAuthenticatorShutdown function [EAPHost], eaphost.eapmethodauthenticatorshutdown, eapmethodauthenticatorapis/EapMethodAuthenticatorShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

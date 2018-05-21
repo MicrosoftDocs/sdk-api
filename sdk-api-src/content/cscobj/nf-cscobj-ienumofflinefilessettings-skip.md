@@ -7,7 +7,7 @@ old-location: of\ienumofflinefilessettings_skip.htm
 old-project: OfflineFiles
 ms.assetid: 8b84fcef-f4e3-4e23-b254-dd21f145c1ba
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IEnumOfflineFilesSettings interface [Offline Files],Skip method, IEnumOfflineFilesSettings.Skip, IEnumOfflineFilesSettings::Skip, Skip, Skip method [Offline Files], Skip method [Offline Files],IEnumOfflineFilesSettings interface, cscobj/IEnumOfflineFilesSettings::Skip, of.ienumofflinefilessettings_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

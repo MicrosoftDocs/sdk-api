@@ -7,7 +7,7 @@ old-location: base\symgethomedirectory.htm
 old-project: Debug
 ms.assetid: 490de8cd-2738-4770-b708-fa2d61b83587
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SymGetHomeDirectory, SymGetHomeDirectory function, SymGetHomeDirectoryW, base.symgethomedirectory, dbghelp/SymGetHomeDirectory, dbghelp/SymGetHomeDirectoryW, hdBase, hdSrc, hdSym
 ms.prod: windows-hardware
 ms.technology: windows-devices

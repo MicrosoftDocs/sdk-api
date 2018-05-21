@@ -7,7 +7,7 @@ old-location: mf\imfcollection_getelementcount.htm
 old-project: medfound
 ms.assetid: 4bd46f66-0542-4185-b50e-163cc3b4e2f8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 4bd46f66-0542-4185-b50e-163cc3b4e2f8, GetElementCount, GetElementCount method [Media Foundation], GetElementCount method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],GetElementCount method, IMFCollection.GetElementCount, IMFCollection::GetElementCount, mf.imfcollection_getelementcount, mfobjects/IMFCollection::GetElementCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

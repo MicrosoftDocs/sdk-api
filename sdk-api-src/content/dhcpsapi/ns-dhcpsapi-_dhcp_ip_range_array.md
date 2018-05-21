@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_ip_range_array.htm
 old-project: DHCP
 ms.assetid: BC6C85D6-D123-44D6-BFE4-3073EC51B7EA
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_IP_RANGE_ARRAY, *PDHCP_IP_RANGE_ARRAY, DHCP_IP_RANGE_ARRAY, DHCP_IP_RANGE_ARRAY structure [DHCP], LPDHCP_IP_RANGE_ARRAY, LPDHCP_IP_RANGE_ARRAY structure pointer [DHCP], PDHCP_IP_RANGE_ARRAY, PDHCP_IP_RANGE_ARRAY structure pointer [DHCP], _DHCP_IP_RANGE_ARRAY, dhcp.dhcp_ip_range_array, dhcpsapi/DHCP_IP_RANGE_ARRAY, dhcpsapi/LPDHCP_IP_RANGE_ARRAY, dhcpsapi/PDHCP_IP_RANGE_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:d2d1effectauthor
 ms.assetid: 25418b10-2542-3985-81e4-7a66e7e2ec17
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\wlx_client_credentials_info_v1_0.htm
 old-project: SecAuthN
 ms.assetid: 25fdc00d-e484-415f-8f1b-1f8ed911f9ef
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PWLX_CLIENT_CREDENTIALS_INFO_V1_0, PWLX_CLIENT_CREDENTIALS_INFO_V1_0, PWLX_CLIENT_CREDENTIALS_INFO_V1_0 structure pointer [Security], WLX_CLIENT_CREDENTIALS_INFO_V1_0, WLX_CLIENT_CREDENTIALS_INFO_V1_0 structure [Security], _WLX_CLIENT_CREDENTIALS_INFO, _gina_wlx_client_credentials_info_v1_0, security.wlx_client_credentials_info_v1_0, winwlx/PWLX_CLIENT_CREDENTIALS_INFO_V1_0, winwlx/WLX_CLIENT_CREDENTIALS_INFO_V1_0"
 ms.prod: windows-hardware
 ms.technology: windows-devices

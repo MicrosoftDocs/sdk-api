@@ -7,7 +7,7 @@ old-location: nps\IAS_radius_attribute_array.htm
 old-project: Nps
 ms.assetid: 2eec8b05-c74d-4876-a475-0be7f60014d0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*PRADIUS_ATTRIBUTE_ARRAY, PRADIUS_ATTRIBUTE_ARRAY, PRADIUS_ATTRIBUTE_ARRAY structure pointer [Network Policy Server], RADIUS_ATTRIBUTE_ARRAY, RADIUS_ATTRIBUTE_ARRAY structure [Network Policy Server], _RADIUS_ATTRIBUTE_ARRAY, _ias_radius_attribute_array, authif/PRADIUS_ATTRIBUTE_ARRAY, authif/RADIUS_ATTRIBUTE_ARRAY, ias.radius_attribute_array, nps.IAS_radius_attribute_array"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -68,29 +68,185 @@ Specifies the size of the structure.
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a> function provided by NPS. NPS sets the value of the member.
 
 
+
+#### This
+
+Pointer to the 
+<b>RADIUS_ATTRIBUTE_ARRAY</b> structure that represents the array of attributes to which to append the specified attribute.
+
+The 
+<a href="https://msdn.microsoft.com/e8df573c-567e-476d-bff8-63e57b719f8a">GetRequest</a> and 
+<a href="https://msdn.microsoft.com/c82797fb-7ff9-496e-9744-28825529156a">GetResponse</a> functions return pointers to 
+<b>RADIUS_ATTRIBUTE_ARRAY</b> structures.
+
+
+
+#### pAttr
+
+Pointer to a 
+<a href="https://msdn.microsoft.com/7c6e1a41-9736-4bd3-b709-779d871ead57">RADIUS_ATTRIBUTE</a> structure for the attribute to append to the array.
+
+
 ### -field AttributeAt
 
 Pointer to the <a href="https://msdn.microsoft.com/73766632-bd70-4b0c-ac4c-b3e7901588cd">AttributeAt</a> function provided by NPS. NPS sets the value of the member.
+   
+
+The 
+<a href="https://msdn.microsoft.com/73766632-bd70-4b0c-ac4c-b3e7901588cd">AttributeAt</a> function returns a const pointer to the specified attribute within the array.
+
+
+
+#### This
+
+Pointer to the 
+<b>RADIUS_ATTRIBUTE_ARRAY</b> structure that represents the array of attributes from which to retrieve the specified attribute.
+
+The 
+<a href="https://msdn.microsoft.com/e8df573c-567e-476d-bff8-63e57b719f8a">GetRequest</a> and 
+<a href="https://msdn.microsoft.com/c82797fb-7ff9-496e-9744-28825529156a">GetResponse</a> functions return pointers to 
+<b>RADIUS_ATTRIBUTE_ARRAY</b> structures.
+
+
+
+#### dwIndex
+
+Specifies the index of the attribute to retrieve. The function returns <b>NULL</b> if this index is out of range.
+
+Use the 
+<a href="https://msdn.microsoft.com/467909be-1184-419a-8cd9-a0ad008c94ef">GetSize</a> function to determine the size of the array. The largest index is one less than the size of the array.
 
 
 ### -field GetSize
 
 Pointer to the <a href="https://msdn.microsoft.com/467909be-1184-419a-8cd9-a0ad008c94ef">GetSize</a> function provided by NPS. NPS sets the value of the member.
 
+The 
+<a href="https://msdn.microsoft.com/467909be-1184-419a-8cd9-a0ad008c94ef">GetSize</a> function returns the size of the attribute array.
+
+The 
+<a href="https://msdn.microsoft.com/467909be-1184-419a-8cd9-a0ad008c94ef">GetSize</a> function returns the size of the attribute array, not the largest index. Because attribute arrays use zero-based indexes, the size of the array is one greater than the largest index.
+
+
+
+#### This
+
+Pointer to the 
+<b>RADIUS_ATTRIBUTE_ARRAY</b> structure that represents the array of attributes for which to retrieve the size.
+
+The 
+<a href="https://msdn.microsoft.com/e8df573c-567e-476d-bff8-63e57b719f8a">GetRequest</a> and 
+<a href="https://msdn.microsoft.com/c82797fb-7ff9-496e-9744-28825529156a">GetResponse</a> functions return pointers to 
+<b>RADIUS_ATTRIBUTE_ARRAY</b> structures.
+
 
 ### -field InsertAt
 
 Pointer to the <a href="https://msdn.microsoft.com/d6591abd-e203-40ae-9790-06157ed8c20a">InsertAt</a> function provided by NPS. NPS sets the value of the member.
+
+The 
+<a href="https://msdn.microsoft.com/d6591abd-e203-40ae-9790-06157ed8c20a">InsertAt</a> function inserts the specified attribute at the specified index in the array.
+
+When the 
+<a href="https://msdn.microsoft.com/d6591abd-e203-40ae-9790-06157ed8c20a">InsertAt</a> function inserts a new attribute into the array, it increments the index of the pre-existing attribute at this index. Similarly, it increments the index of any pre-existing attributes at higher indexes.
+
+To append an attribute to the end of the attribute array, use the 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a> function.
+
+
+
+#### This
+
+Pointer to the 
+<b>RADIUS_ATTRIBUTE_ARRAY</b> structure that represents the array of attributes in which to insert the specified attribute.
+
+The 
+<a href="https://msdn.microsoft.com/e8df573c-567e-476d-bff8-63e57b719f8a">GetRequest</a> and 
+<a href="https://msdn.microsoft.com/c82797fb-7ff9-496e-9744-28825529156a">GetResponse</a> functions return pointers to 
+<b>RADIUS_ATTRIBUTE_ARRAY</b> structures.
+
+
+
+#### dwIndex
+
+Specifies the index at which to insert the specified attribute.
+
+Use the 
+<a href="https://msdn.microsoft.com/467909be-1184-419a-8cd9-a0ad008c94ef">GetSize</a> function to determine the size of the array. The largest index is one less than the size of the array.
+
+
+
+#### pAttr
+
+Pointer to a 
+<a href="https://msdn.microsoft.com/7c6e1a41-9736-4bd3-b709-779d871ead57">RADIUS_ATTRIBUTE</a> structure for the attribute to insert into the array.
 
 
 ### -field RemoveAt
 
 Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a> function provided by NPS. NPS sets the value of the member.
 
+The 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a> function removes the attribute at the specified index in the array.
+
+When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597596">RemoveAt</a> function removes an attribute from the array, it decrements the index of any pre-existing attributes at higher indexes.
+
+
+
+#### This
+
+Pointer to the 
+<b>RADIUS_ATTRIBUTE_ARRAY</b> structure that represents the array of attributes from which to remove the specified attribute.
+
+The 
+<a href="https://msdn.microsoft.com/e8df573c-567e-476d-bff8-63e57b719f8a">GetRequest</a> and 
+<a href="https://msdn.microsoft.com/c82797fb-7ff9-496e-9744-28825529156a">GetResponse</a> functions return pointers to 
+<b>RADIUS_ATTRIBUTE_ARRAY</b> structures.
+
+
+
+#### dwIndex
+
+Specifies the index of the attribute to remove.
+
+Use the 
+<a href="https://msdn.microsoft.com/467909be-1184-419a-8cd9-a0ad008c94ef">GetSize</a> function to determine the size of the array. The largest index is one less than the size of the array.
+
 
 ### -field SetAt
 
 Pointer to the <a href="https://msdn.microsoft.com/7962de64-7140-4920-86ac-d2137df8c5a1">SetAt</a> function provided by NPS. NPS sets the value of the member.
+
+The 
+<a href="https://msdn.microsoft.com/7962de64-7140-4920-86ac-d2137df8c5a1">SetAt</a> function replaces the attribute at the specified index with the specified attribute.
+
+
+
+#### This
+
+Pointer to the 
+<b>RADIUS_ATTRIBUTE_ARRAY</b> structure that represents the array of attributes that contains the attribute to replace.
+
+The 
+<a href="https://msdn.microsoft.com/e8df573c-567e-476d-bff8-63e57b719f8a">GetRequest</a> and 
+<a href="https://msdn.microsoft.com/c82797fb-7ff9-496e-9744-28825529156a">GetResponse</a> functions return pointers to 
+<b>RADIUS_ATTRIBUTE_ARRAY</b> structures.
+
+
+
+#### dwIndex
+
+Specifies the index of the attribute to replace.
+
+Use the 
+<a href="https://msdn.microsoft.com/467909be-1184-419a-8cd9-a0ad008c94ef">GetSize</a> function to determine the size of the array. The largest index is one less than the size of the array.
+
+
+
+#### pAttr
+
+Pointer to a 
+<a href="https://msdn.microsoft.com/7c6e1a41-9736-4bd3-b709-779d871ead57">RADIUS_ATTRIBUTE</a> structure. The attribute represented by this structure replaces the attribute at the specified index.
 
 
 ## -remarks

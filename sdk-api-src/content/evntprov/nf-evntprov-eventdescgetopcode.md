@@ -7,7 +7,7 @@ old-location: etw\eventdescgetopcode_func.htm
 old-project: ETW
 ms.assetid: cdca1dd8-da75-408c-9b57-0ac2bfe387b4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EventDescGetOpcode, EventDescGetOpcode function [ETW], base.eventdescgetopcode_func, etw.eventdescgetopcode_func, evntprov/EventDescGetOpcode
 ms.prod: windows-hardware
 ms.technology: windows-devices

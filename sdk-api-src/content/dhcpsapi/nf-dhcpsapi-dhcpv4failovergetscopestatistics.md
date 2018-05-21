@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4failovergetscopestatistics.htm
 old-project: DHCP
 ms.assetid: 888945a8-5c07-440a-ad2d-2126342facda
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpV4FailoverGetScopeStatistics, DhcpV4FailoverGetScopeStatistics function [DHCP], dhcp.dhcpv4failovergetscopestatistics, dhcpsapi/DhcpV4FailoverGetScopeStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

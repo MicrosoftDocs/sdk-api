@@ -7,7 +7,7 @@ old-location: wsw\ws_security_binding.htm
 old-project: wsw
 ms.assetid: 6c0663e8-ae73-41a2-9273-50f53534926b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_SECURITY_BINDING, WS_SECURITY_BINDING structure [Web Services for Windows], _WS_SECURITY_BINDING, webservices/WS_SECURITY_BINDING, wsw.ws_security_binding
 ms.prod: windows-hardware
 ms.technology: windows-devices

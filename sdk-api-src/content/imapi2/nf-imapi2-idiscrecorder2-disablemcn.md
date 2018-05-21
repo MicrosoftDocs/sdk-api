@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2_disablemcn.htm
 old-project: imapi
 ms.assetid: 3111863e-64bf-467c-ac73-7a16c9aeb3df
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: DisableMcn, DisableMcn method [IMAPI], DisableMcn method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],DisableMcn method, IDiscRecorder2.DisableMcn, IDiscRecorder2::DisableMcn, imapi.idiscrecorder2_disablemcn, imapi2/IDiscRecorder2::DisableMcn
 ms.prod: windows-hardware
 ms.technology: windows-devices

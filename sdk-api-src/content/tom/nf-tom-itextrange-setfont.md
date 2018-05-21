@@ -7,7 +7,7 @@ old-location: controls\ITextRange_SetFont.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setfont.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextRange interface [Windows Controls],SetFont method, ITextRange.SetFont, ITextRange::SetFont, SetFont, SetFont method [Windows Controls], SetFont method [Windows Controls],ITextRange interface, _win32_ITextRange_SetFont, _win32_ITextRange_SetFont_cpp, controls.ITextRange_SetFont, controls._win32_ITextRange_SetFont, tom/ITextRange::SetFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_setformat.htm
 old-project: Multimedia
 ms.assetid: 8693ce01-1f73-4d1b-ba8a-12f6453def22
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],SetFormat method, IAVIStream.SetFormat, IAVIStream::SetFormat, SetFormat, SetFormat method [Windows Multimedia], SetFormat method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_SetFormat, multimedia.iavistream_setformat, vfw/IAVIStream::SetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

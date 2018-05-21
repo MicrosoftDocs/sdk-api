@@ -7,7 +7,7 @@ old-location: fs\storage_protocol_type.htm
 old-project: FileIO
 ms.assetid: 8055B633-99EF-4AAE-AA80-FC09F357BEAB
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PSTORAGE_PROTOCOL_TYPE, PSTORAGE_PROTOCOL_TYPE, PSTORAGE_PROTOCOL_TYPE enumeration pointer [Files], ProtocolTypeAta, ProtocolTypeMaxReserved, ProtocolTypeNvme, ProtocolTypeProprietary, ProtocolTypeScsi, ProtocolTypeSd, ProtocolTypeUnknown, STORAGE_PROTOCOL_TYPE, _STORAGE_PROTOCOL_TYPE, _STORAGE_PROTOCOL_TYPE enumeration [Files], fs.storage_protocol_type, winioctl/PSTORAGE_PROTOCOL_TYPE, winioctl/ProtocolTypeAta, winioctl/ProtocolTypeMaxReserved, winioctl/ProtocolTypeNvme, winioctl/ProtocolTypeProprietary, winioctl/ProtocolTypeScsi, winioctl/ProtocolTypeSd, winioctl/ProtocolTypeUnknown, winioctl/_STORAGE_PROTOCOL_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

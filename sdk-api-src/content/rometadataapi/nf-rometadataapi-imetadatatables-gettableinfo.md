@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables_gettableinfo.htm
 old-project: WinRT
 ms.assetid: a2ba07df-4ccf-4563-b540-821008fc985c
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: GetTableInfo, GetTableInfo method [Windows Runtime], GetTableInfo method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetTableInfo method, IMetaDataTables.GetTableInfo, IMetaDataTables::GetTableInfo, rometadataapi/IMetaDataTables::GetTableInfo, winrt.imetadatatables_gettableinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

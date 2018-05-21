@@ -7,7 +7,7 @@ old-location: fs\wofwimremoveentry.htm
 old-project: FileIO
 ms.assetid: B376EDF7-8C46-4C8B-900E-0DC79699EC1E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: WofWimRemoveEntry, WofWimRemoveEntry function [Files], fs.wofwimremoveentry, wofapi/WofWimRemoveEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

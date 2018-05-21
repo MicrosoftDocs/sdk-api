@@ -7,7 +7,7 @@ old-location: mstv\iisdb_ldt_getrecorddescriptionid.htm
 old-project: mstv
 ms.assetid: 0c101068-8a33-4c65-b553-fcd5989c4bd7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordDescriptionId, GetRecordDescriptionId method [Microsoft TV Technologies], GetRecordDescriptionId method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetRecordDescriptionId method, IISDB_LDT.GetRecordDescriptionId, IISDB_LDT::GetRecordDescriptionId, dvbsiparser/IISDB_LDT::GetRecordDescriptionId, mstv.iisdb_ldt_getrecorddescriptionid
 ms.prod: windows-hardware
 ms.technology: windows-devices

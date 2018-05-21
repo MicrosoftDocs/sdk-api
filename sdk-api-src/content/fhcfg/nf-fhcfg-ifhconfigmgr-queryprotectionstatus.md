@@ -7,7 +7,7 @@ old-location: winprog\ifhconfigmgr_queryprotectionstatus.htm
 old-project: DevNotes
 ms.assetid: 662B1F54-D50D-4434-BD81-DF600D28B573
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FH_STATE_DISABLED_BY_GP, FH_STATE_FATAL_CONFIG_ERROR, FH_STATE_NOT_TRACKED, FH_STATE_NO_ERROR, FH_STATE_OFF, FH_STATE_STAGING_FULL, FH_STATE_TARGET_ABSENT, FH_STATE_TARGET_ACCESS_DENIED, FH_STATE_TARGET_FULL, FH_STATE_TARGET_FULL_RETENTION_MAX, FH_STATE_TARGET_LOW_SPACE, FH_STATE_TARGET_LOW_SPACE_RETENTION_MAX, FH_STATE_TARGET_VOLUME_DIRTY, FH_STATE_TOO_MUCH_BEHIND, FhConfigMgr class [Windows API],QueryProtectionStatus method, IFhConfigMgr interface [Windows API],QueryProtectionStatus method, IFhConfigMgr.QueryProtectionStatus, IFhConfigMgr::QueryProtectionStatus, QueryProtectionStatus, QueryProtectionStatus method [Windows API], QueryProtectionStatus method [Windows API],FhConfigMgr class, QueryProtectionStatus method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::QueryProtectionStatus, winprog.ifhconfigmgr_queryprotectionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

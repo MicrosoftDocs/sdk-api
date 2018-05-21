@@ -7,7 +7,7 @@ old-location: etw\eventdatadesccreate_func.htm
 old-project: ETW
 ms.assetid: a5823ad0-0710-4fd2-9b44-a60a42f138fd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EventDataDescCreate, EventDataDescCreate function [ETW], base.eventdatadesccreate_func, etw.eventdatadesccreate_func, evntprov/EventDataDescCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

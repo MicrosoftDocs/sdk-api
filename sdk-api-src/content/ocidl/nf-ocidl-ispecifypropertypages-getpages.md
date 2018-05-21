@@ -7,7 +7,7 @@ old-location: com\ispecifypropertypages_getpages.htm
 old-project: com
 ms.assetid: 82b652da-b49a-47a7-a959-522b051bfd59
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: GetPages, GetPages method [COM], GetPages method [COM],ISpecifyPropertyPages interface, ISpecifyPropertyPages interface [COM],GetPages method, ISpecifyPropertyPages.GetPages, ISpecifyPropertyPages::GetPages, _ctrl_ispecifypropertypages_getpages, com.ispecifypropertypages_getpages, ocidl/ISpecifyPropertyPages::GetPages
 ms.prod: windows-hardware
 ms.technology: windows-devices

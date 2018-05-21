@@ -2,12 +2,12 @@
 UID: NN:dxgi1_6.IDXGIOutput6
 title: IDXGIOutput6
 author: windows-driver-content
-description: Represents an adapter output (such as a monitor). The IDXGIOutput6 interface exposes a single method to provide specific monitor capabilities.
+description: Represents an adapter output (such as a monitor). The IDXGIOutput6 interface exposes methods to provide specific monitor capabilities.
 old-location: direct3ddxgi\idxgioutput6.htm
 old-project: direct3ddxgi
 ms.assetid: 2F04E7F1-8295-441B-9E86-65C3DE5DE75F
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: IDXGIOutput6, IDXGIOutput6 interface [DXGI], IDXGIOutput6 interface [DXGI],described, direct3ddxgi.idxgioutput6, dxgi1_6/IDXGIOutput6
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DXGI_GPU_PREFERENCE
+req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Represents an adapter output (such as a monitor). The <b>IDXGIOutput6</b> interface exposes a single method to provide specific monitor capabilities.
+Represents an adapter output (such as a monitor). The <b>IDXGIOutput6</b> interface exposes  methods to provide specific monitor capabilities.
 
 
 ## -inheritance
@@ -67,6 +67,15 @@ The <b>IDXGIOutput6</b> interface has these methods.
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="direct3ddxgi.idxgioutput6_checkhardwarecompositionsupport">CheckHardwareCompositionSupport</a>
+</td>
+<td align="left" width="63%">
+Notifies applications that hardware stretching is supported.
+
+</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">

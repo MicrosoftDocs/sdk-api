@@ -2,7 +2,7 @@
 UID: NA:bits4_0
 ms.assetid: c0286fc4-0610-3b23-92d1-8323fcaec5b2
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

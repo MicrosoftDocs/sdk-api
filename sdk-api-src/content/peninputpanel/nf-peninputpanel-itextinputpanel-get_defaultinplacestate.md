@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_defaultinplacestate.htm
 old-project: tablet
 ms.assetid: 00778a2c-9903-46a0-a5b3-c2ac4c355462
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: 00778a2c-9903-46a0-a5b3-c2ac4c355462, DefaultInPlaceState property [Tablet PC], DefaultInPlaceState property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],DefaultInPlaceState property, ITextInputPanel.DefaultInPlaceState, ITextInputPanel.get_DefaultInPlaceState, ITextInputPanel.put_DefaultInPlaceState, ITextInputPanel::DefaultInPlaceState, ITextInputPanel::get_DefaultInPlaceState, ITextInputPanel::put_DefaultInPlaceState, get_DefaultInPlaceState, peninputpanel/ITextInputPanel::DefaultInPlaceState, peninputpanel/ITextInputPanel::get_DefaultInPlaceState, peninputpanel/ITextInputPanel::put_DefaultInPlaceState, tablet.itextinputpanel_defaultinplacestate
 ms.prod: windows-hardware
 ms.technology: windows-devices

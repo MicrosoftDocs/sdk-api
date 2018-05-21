@@ -7,7 +7,7 @@ old-location: security\indespolicy_verifyrequest.htm
 old-project: SecCrypto
 ms.assetid: 420ef521-07ff-466c-a3c2-cbffd896ca16
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: INDESPolicy interface [Security],VerifyRequest method, INDESPolicy.VerifyRequest, INDESPolicy::VerifyRequest, VerifyRequest, VerifyRequest method [Security], VerifyRequest method [Security],INDESPolicy interface, certpol/INDESPolicy::VerifyRequest, security.indespolicy_verifyrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: X509RequestType
+req.typenames: X509SCEPFailInfo
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: intl\ioptiondescription_description.htm
 old-project: Intl
 ms.assetid: 2c074068-b710-4d69-9a29-f35ea142881f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: Description property [Internationalization for Windows Applications], Description property [Internationalization for Windows Applications],IOptionDescription interface, IOptionDescription interface [Internationalization for Windows Applications],Description property, IOptionDescription.Description, IOptionDescription.get_Description, IOptionDescription::Description, IOptionDescription::get_Description, get_Description, intl.ioptiondescription_description, spellcheck/IOptionDescription::Description, spellcheck/IOptionDescription::get_Description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IOptionDescription::get_Description

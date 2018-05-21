@@ -7,7 +7,7 @@ old-location: gdi\getfontunicoderanges.htm
 old-project: gdi
 ms.assetid: 51b0ab12-c467-4a89-8173-fdc513868aae
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetFontUnicodeRanges, GetFontUnicodeRanges function [Windows GDI], _win32_GetFontUnicodeRanges, gdi.getfontunicoderanges, wingdi/GetFontUnicodeRanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

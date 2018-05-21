@@ -1,0 +1,17 @@
+{
+  "tech": "direct3ddxgi",
+  "headers": [
+    "winerror.h",
+    "dxgi.h",
+    "dxgi1_2.h",
+    "dxgi1_4.h",
+    "dxgi1_6.h",
+    "dxgidebug.h",
+    "dxgi1_3.h",
+    "dxgi1_5.h",
+    "dxgitype.h",
+    "dxgicommon.h",
+    "dxgiformat.h"
+  ],
+  "displayName": "DXGI"
+}

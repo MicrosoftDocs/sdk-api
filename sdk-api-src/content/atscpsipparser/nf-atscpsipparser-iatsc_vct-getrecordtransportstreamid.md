@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordtransportstreamid.htm
 old-project: mstv
 ms.assetid: f0ecd931-d789-41cd-8056-675e6162a5f1
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordTransportStreamId, GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordTransportStreamId method, IATSC_VCT.GetRecordTransportStreamId, IATSC_VCT::GetRecordTransportStreamId, IATSC_VCTGetRecordTransportStreamId, atscpsipparser/IATSC_VCT::GetRecordTransportStreamId, mstv.iatsc_vct_getrecordtransportstreamid
 ms.prod: windows-hardware
 ms.technology: windows-devices

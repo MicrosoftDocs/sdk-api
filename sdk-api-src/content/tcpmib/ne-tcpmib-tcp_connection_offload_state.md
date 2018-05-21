@@ -7,7 +7,7 @@ old-location: mib\tcp_connection_offload_state.htm
 old-project: MIB
 ms.assetid: cef633e7-1577-4f10-bd14-8d8e85aa78e6
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PTCP_CONNECTION_OFFLOAD_STATE, TCP_CONNECTION_OFFLOAD_STATE, TCP_CONNECTION_OFFLOAD_STATE enumeration [MIB], TcpConnectionOffloadStateInHost, TcpConnectionOffloadStateMax, TcpConnectionOffloadStateOffloaded, TcpConnectionOffloadStateOffloading, TcpConnectionOffloadStateUploading, iprtrmib/TCP_CONNECTION_OFFLOAD_STATE, iprtrmib/TcpConnectionOffloadStateInHost, iprtrmib/TcpConnectionOffloadStateMax, iprtrmib/TcpConnectionOffloadStateOffloaded, iprtrmib/TcpConnectionOffloadStateOffloading, iprtrmib/TcpConnectionOffloadStateUploading, mib.tcp_connection_offload_state, tcpmib/TCP_CONNECTION_OFFLOAD_STATE, tcpmib/TcpConnectionOffloadStateInHost, tcpmib/TcpConnectionOffloadStateMax, tcpmib/TcpConnectionOffloadStateOffloaded, tcpmib/TcpConnectionOffloadStateOffloading, tcpmib/TcpConnectionOffloadStateUploading"
 ms.prod: windows-hardware
 ms.technology: windows-devices

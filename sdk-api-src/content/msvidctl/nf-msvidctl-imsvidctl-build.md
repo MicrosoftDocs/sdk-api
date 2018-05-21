@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_build.htm
 old-project: mstv
 ms.assetid: 49f78dd8-f26e-456d-b67e-155ae0ed5419
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: Build, Build method [Microsoft TV Technologies], Build method [Microsoft TV Technologies],IMSVidCtl interface, IMSVidCtl interface [Microsoft TV Technologies],Build method, IMSVidCtl.Build, IMSVidCtl::Build, IMSVidCtlBuild, mstv.imsvidctl_build, msvidctl/IMSVidCtl::Build
 ms.prod: windows-hardware
 ms.technology: windows-devices

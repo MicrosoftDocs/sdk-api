@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcertificate_notbefore_property.htm
 old-project: SecCertEnroll
 ms.assetid: 2568df97-6864-452d-aa18-a5ee47956abd
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509CertificateRequestCertificate interface [Security],NotBefore property, IX509CertificateRequestCertificate.NotBefore, IX509CertificateRequestCertificate.get_NotBefore, IX509CertificateRequestCertificate::NotBefore, IX509CertificateRequestCertificate::get_NotBefore, IX509CertificateRequestCertificate::put_NotBefore, NotBefore property [Security], NotBefore property [Security],IX509CertificateRequestCertificate interface, certenroll/IX509CertificateRequestCertificate::NotBefore, certenroll/IX509CertificateRequestCertificate::get_NotBefore, certenroll/IX509CertificateRequestCertificate::put_NotBefore, get_NotBefore, security.ix509certificaterequestcertificate_notbefore_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

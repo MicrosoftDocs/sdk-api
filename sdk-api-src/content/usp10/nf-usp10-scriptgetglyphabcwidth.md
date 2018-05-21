@@ -7,7 +7,7 @@ old-location: intl\scriptgetglyphabcwidth.htm
 old-project: Intl
 ms.assetid: 71611c9c-f8f6-4064-b153-f31a8cbb7761
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ScriptGetGlyphABCWidth, ScriptGetGlyphABCWidth function [Internationalization for Windows Applications], _win32_ScriptGetGlyphABCWidth, intl.scriptgetglyphabcwidth, usp10/ScriptGetGlyphABCWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

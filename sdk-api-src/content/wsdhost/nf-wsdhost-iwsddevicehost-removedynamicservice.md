@@ -7,7 +7,7 @@ old-location: ncd\iwsddevicehost_removedynamicservice_method.htm
 old-project: WsdApi
 ms.assetid: 45c314d3-966b-4b90-ab23-fec2a8e4bc0f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDDeviceHost interface,RemoveDynamicService method, IWSDDeviceHost.RemoveDynamicService, IWSDDeviceHost::RemoveDynamicService, RemoveDynamicService, RemoveDynamicService method, RemoveDynamicService method,IWSDDeviceHost interface, ncd.iwsddevicehost_removedynamicservice_method, wsdhost/IWSDDeviceHost::RemoveDynamicService
 ms.prod: windows-hardware
 ms.technology: windows-devices

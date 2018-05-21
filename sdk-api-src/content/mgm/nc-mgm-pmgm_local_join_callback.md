@@ -7,8 +7,8 @@ old-location: rras\pmgm_local_join_callback.htm
 old-project: RRAS
 ms.assetid: e8245b09-0fbc-49c3-a7bb-534115c74c88
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: MgmLocalJoinCallback, MgmLocalJoinCallback callback function [RAS], _mpr_pmgm_local_join_callback, mgm/MgmLocalJoinCallback, rras.pmgm_local_join_callback
+ms.date: 5/16/2018
+ms.keywords: PMGM_LOCAL_JOIN_CALLBACK, PMGM_LOCAL_JOIN_CALLBACK callback, PMGM_LOCAL_JOIN_CALLBACK callback function [RAS], _mpr_pmgm_local_join_callback, mgm/PMGM_LOCAL_JOIN_CALLBACK, rras.pmgm_local_join_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# PMGM_LOCAL_JOIN_CALLBACK callback
+# PMGM_LOCAL_JOIN_CALLBACK callback function
 
 
 ## -description

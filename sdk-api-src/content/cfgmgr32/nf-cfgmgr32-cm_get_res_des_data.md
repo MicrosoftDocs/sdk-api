@@ -1,0 +1,109 @@
+---
+UID: NF:cfgmgr32.CM_Get_Res_Des_Data
+title: CM_Get_Res_Des_Data function
+author: windows-driver-content
+description: The CM_Get_Res_Des_Data function retrieves the information stored in a resource descriptor on the local machine.
+old-location: devinst\cm_get_res_des_data.htm
+old-project: devinst
+ms.assetid: f35975ac-022e-4e7c-a331-da0ccd0440a1
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: CM_Get_Res_Des_Data, CM_Get_Res_Des_Data function [Device and Driver Installation], cfgmgr32/CM_Get_Res_Des_Data, cfgmgrfn_76c92157-2495-4c52-a25f-9a02d83cff75.xml, devinst.cm_get_res_des_data
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cfgmgr32.dll
+api_name:
+-	CM_Get_Res_Des_Data
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
+---
+
+# CM_Get_Res_Des_Data function
+
+
+## -description
+
+
+The <b>CM_Get_Res_Des_Data</b> function retrieves the information stored in a <a href="https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000">resource descriptor</a> on the local machine.
+
+
+## -parameters
+
+
+
+
+### -param rdResDes [in]
+
+Caller-supplied handle to a resource descriptor, obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff538600">CM_Get_Next_Res_Des</a>.
+
+
+### -param Buffer [out]
+
+Address of a buffer to receive the contents of a resource descriptor. The required buffer size should be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff538658">CM_Get_Res_Des_Data_Size</a>.
+
+
+### -param BufferLen [in]
+
+Caller-supplied length of the buffer specified by <i>Buffer</i>.
+
+
+### -param ulFlags [in]
+
+Not used, must be zero.
+
+
+## -returns
+
+
+
+If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
+
+<div class="alert"><b>Note</b>  Starting with Windows 8, <b>CM_Get_Res_Des_Data</b> returns CR_CALL_NOT_IMPLEMENTED when used in a Wow64 scenario. To request information about the hardware resources on a local machine it is necessary implement an architecture-native version of the application using the hardware resource APIs. For example: An AMD64 application for AMD64 systems.</div>
+<div> </div>
+
+
+
+## -remarks
+
+
+
+Information returned in the buffer supplied by <i>Buffer</i> will be formatted as one of the resource type structures listed in the description of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537939">CM_Add_Res_Des</a>, based on the resource type that was specified when <a href="https://msdn.microsoft.com/library/windows/hardware/ff538600">CM_Get_Next_Res_Des</a> was called to obtain the resource descriptor handle.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538649">CM_Get_Res_Des_Data_Ex</a>
+ 
+
+ 
+

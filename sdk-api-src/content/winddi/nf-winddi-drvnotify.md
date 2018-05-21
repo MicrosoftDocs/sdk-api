@@ -7,7 +7,7 @@ old-location: display\drvnotify.htm
 old-project: display
 ms.assetid: 792d2b17-d5f5-406e-b35c-9f641fa32016
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: DrvNotify, DrvNotify function [Display Devices], ddifncs_24141fb1-e368-47f8-b123-eb1e1789b568.xml, display.drvnotify, winddi/DrvNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

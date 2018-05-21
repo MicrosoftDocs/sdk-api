@@ -7,7 +7,7 @@ old-location: perf\perfsetcountersetinfo.htm
 old-project: PerfCtrs
 ms.assetid: b4295503-5588-4898-816c-939a5920fc77
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PerfSetCounterSetInfo, PerfSetCounterSetInfo function [Perf], base.perfsetcountersetinfo, perf.perfsetcountersetinfo, perflib/PerfSetCounterSetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

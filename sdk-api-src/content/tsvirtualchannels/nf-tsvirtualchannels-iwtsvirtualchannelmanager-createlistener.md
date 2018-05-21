@@ -7,7 +7,7 @@ old-location: termserv\iwtsvirtualchannelmanager_createlistener.htm
 old-project: TermServ
 ms.assetid: 62800999-bd13-4529-b5e4-5c6d67d3a6bc
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWTSVirtualChannelManager interface, IWTSVirtualChannelManager interface [Remote Desktop Services],CreateListener method, IWTSVirtualChannelManager.CreateListener, IWTSVirtualChannelManager::CreateListener, termserv.iwtsvirtualchannelmanager_createlistener, tsvirtualchannels/IWTSVirtualChannelManager::CreateListener
 ms.prod: windows-hardware
 ms.technology: windows-devices

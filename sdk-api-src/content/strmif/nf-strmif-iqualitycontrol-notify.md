@@ -7,7 +7,7 @@ old-location: dshow\iqualitycontrol_notify.htm
 old-project: DirectShow
 ms.assetid: c7a34356-b0b2-49c1-bdc2-d8043fdc2862
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IQualityControl interface [DirectShow],Notify method, IQualityControl.Notify, IQualityControl::Notify, IQualityControlNotify, Notify, Notify method [DirectShow], Notify method [DirectShow],IQualityControl interface, dshow.iqualitycontrol_notify, strmif/IQualityControl::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices

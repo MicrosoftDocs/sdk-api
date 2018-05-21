@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_gettabledescriptorbyindex.htm
 old-project: mstv
 ms.assetid: 964ae371-e7a5-4278-8408-b39ae4371135
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IATSC_VCT.GetTableDescriptorByIndex, IATSC_VCT::GetTableDescriptorByIndex, IATSC_VCTGetTableDescriptorByIndex, atscpsipparser/IATSC_VCT::GetTableDescriptorByIndex, mstv.iatsc_vct_gettabledescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

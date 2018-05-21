@@ -7,7 +7,7 @@ old-location: rpc\uuidequal.htm
 old-project: Rpc
 ms.assetid: ff83c66c-1f1f-4582-a93b-d7bb5181deec
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: UuidEqual, UuidEqual function [RPC], _rpc_uuidequal, rpc.uuidequal, rpcdce/UuidEqual
 ms.prod: windows-hardware
 ms.technology: windows-devices

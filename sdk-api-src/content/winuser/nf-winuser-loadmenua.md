@@ -7,7 +7,7 @@ old-location: menurc\loadmenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\loadmenu.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: LoadMenu, LoadMenu function [Menus and Other Resources], LoadMenuA, LoadMenuW, _win32_LoadMenu, _win32_loadmenu_cpp, menurc.loadmenu, winui._win32_loadmenu, winuser/LoadMenu, winuser/LoadMenuA, winuser/LoadMenuW
 ms.prod: windows-hardware
 ms.technology: windows-devices

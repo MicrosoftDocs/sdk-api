@@ -7,7 +7,7 @@ old-location: security\freecontextbuffer.htm
 old-project: SecAuthN
 ms.assetid: 3c3d27bb-4f9a-4979-b679-1e10fa1ff221
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: FreeContextBuffer, FreeContextBuffer function [Security], _ssp_freecontextbuffer, security.freecontextbuffer, sspi/FreeContextBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # FreeContextBuffer function

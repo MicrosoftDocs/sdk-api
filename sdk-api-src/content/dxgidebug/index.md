@@ -2,7 +2,7 @@
 UID: NA:dxgidebug
 ms.assetid: a1d3e485-0721-3cd3-b78c-50d60d5c6821
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

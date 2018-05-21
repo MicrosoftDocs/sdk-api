@@ -7,7 +7,7 @@ old-location: ad\dsinheritsecurityidentity.htm
 old-project: AD
 ms.assetid: ea467069-f886-4e22-896c-16e6e01f3968
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: DsInheritSecurityIdentity, DsInheritSecurityIdentity function [Active Directory], DsInheritSecurityIdentityA, DsInheritSecurityIdentityW, _glines_dsinheritsecurityidentity, ad.dsinheritsecurityidentity, ntdsapi/DsInheritSecurityIdentity, ntdsapi/DsInheritSecurityIdentityA, ntdsapi/DsInheritSecurityIdentityW
 ms.prod: windows-hardware
 ms.technology: windows-devices

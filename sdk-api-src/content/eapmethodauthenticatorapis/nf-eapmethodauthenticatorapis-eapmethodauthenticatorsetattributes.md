@@ -7,7 +7,7 @@ old-location: eaphost\eapmethodauthenticatorsetattributes.htm
 old-project: EAPHost
 ms.assetid: 0cc4df3a-6438-4770-9b13-c9d2a798822c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapMethodAuthenticatorSetAttributes, EapMethodAuthenticatorSetAttributes function [EAPHost], eaphost.eapmethodauthenticatorsetattributes, eapmethodauthenticatorapis/EapMethodAuthenticatorSetAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_passwordexpiry.htm
 old-project: SecAuthN
 ms.assetid: f45dde88-1520-4e65-8fae-8407dfaa0850
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSecPkgContext_PasswordExpiry, PSecPkgContext_PasswordExpiry, PSecPkgContext_PasswordExpiry structure pointer [Security], SecPkgContext_PasswordExpiry, SecPkgContext_PasswordExpiry structure [Security], _SecPkgContext_PasswordExpiry, security.secpkgcontext_passwordexpiry, sspi/PSecPkgContext_PasswordExpiry, sspi/SecPkgContext_PasswordExpiry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_PasswordExpiry structure

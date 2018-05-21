@@ -7,7 +7,7 @@ old-location: security\sec_channel_bindings.htm
 old-project: SecAuthN
 ms.assetid: 1cdbe53f-3fa0-46b1-9449-8fd3db6cddce
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSEC_CHANNEL_BINDINGS, PSEC_CHANNEL_BINDINGS, PSEC_CHANNEL_BINDINGS structure pointer [Security], SEC_CHANNEL_BINDINGS, SEC_CHANNEL_BINDINGS structure [Security], _SEC_CHANNEL_BINDINGS, security.sec_channel_bindings, sspi/PSEC_CHANNEL_BINDINGS, sspi/SEC_CHANNEL_BINDINGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SEC_CHANNEL_BINDINGS structure

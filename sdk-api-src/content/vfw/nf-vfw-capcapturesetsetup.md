@@ -7,7 +7,7 @@ old-location: multimedia\capcapturesetsetup.htm
 old-project: Multimedia
 ms.assetid: 663dcb34-6b11-4208-b5d6-216799fb774d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "_win32_capCaptureSetSetup, capCaptureSetSetup, capCaptureSetSetup macro [Windows Multimedia], multimedia.capcapturesetsetup, vfw/capCaptureSetSetup"
 ms.prod: windows-hardware
 ms.technology: windows-devices

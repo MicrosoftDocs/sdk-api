@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_getbump.htm
 old-project: DirectShow
 ms.assetid: 340b7c9a-cfd9-4915-b0fc-0d12d7663578
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetBump, GetBump method [DirectShow], GetBump method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetBump method, IAMExtTransport.GetBump, IAMExtTransport::GetBump, IAMExtTransportGetBump, dshow.iamexttransport_getbump, strmif/IAMExtTransport::GetBump
 ms.prod: windows-hardware
 ms.technology: windows-devices

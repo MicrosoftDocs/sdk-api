@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2_get_legacydevicenumber.htm
 old-project: imapi
 ms.assetid: 14ec2007-3648-49b6-a96e-b682d592c2f1
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_LegacyDeviceNumber method, IDiscRecorder2.get_LegacyDeviceNumber, IDiscRecorder2::get_LegacyDeviceNumber, get_LegacyDeviceNumber, get_LegacyDeviceNumber method [IMAPI], get_LegacyDeviceNumber method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_legacydevicenumber, imapi2/IDiscRecorder2::get_LegacyDeviceNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

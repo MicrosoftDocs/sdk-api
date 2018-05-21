@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Brush_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brushclass\brushmethods\clone_54.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Brush class [GDI+],Clone method, Brush.Clone, Brush::Clone, Clone, Clone method [GDI+], Clone method [GDI+],Brush class, _gdiplus_CLASS_Brush_Clone_, gdiplus._gdiplus_CLASS_Brush_Clone_
 ms.prod: windows-hardware
 ms.technology: windows-devices

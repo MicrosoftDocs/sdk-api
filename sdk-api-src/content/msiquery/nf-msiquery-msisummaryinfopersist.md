@@ -7,7 +7,7 @@ old-location: setup\msisummaryinfopersist.htm
 old-project: Msi
 ms.assetid: 76fd8339-2c57-4695-83c7-dcd3cd642f55
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MsiSummaryInfoPersist, MsiSummaryInfoPersist function, _msi_msisummaryinfopersist, msiquery/MsiSummaryInfoPersist, setup.msisummaryinfopersist
 ms.prod: windows-hardware
 ms.technology: windows-devices

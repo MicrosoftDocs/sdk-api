@@ -2,7 +2,7 @@
 UID: TP:winprog
 ms.assetid: 83e6e3dc-b151-3e86-ac66-a7eabe59b7b6
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

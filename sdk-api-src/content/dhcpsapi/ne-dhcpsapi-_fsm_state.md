@@ -7,7 +7,7 @@ old-location: dhcp\fsm_state.htm
 old-project: DHCP
 ms.assetid: a8d0a455-77b3-494c-886e-90136569aada
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: COMMUNICATION_INT, CONFLICT_DONE, FSM_STATE, FSM_STATE enumeration [DHCP], INIT, NORMAL, NO_STATE, PARTNER_DOWN, PAUSED, POTENTIAL_CONFLICT, RECOVER, RECOVER_DONE, RECOVER_WAIT, RESOLUTION_INT, SHUTDOWN, STARTUP, _FSM_STATE, dhcp.fsm_state, dhcpsapi/COMMUNICATION_INT, dhcpsapi/CONFLICT_DONE, dhcpsapi/FSM_STATE, dhcpsapi/INIT, dhcpsapi/NORMAL, dhcpsapi/NO_STATE, dhcpsapi/PARTNER_DOWN, dhcpsapi/PAUSED, dhcpsapi/POTENTIAL_CONFLICT, dhcpsapi/RECOVER, dhcpsapi/RECOVER_DONE, dhcpsapi/RECOVER_WAIT, dhcpsapi/RESOLUTION_INT, dhcpsapi/SHUTDOWN, dhcpsapi/STARTUP
 ms.prod: windows-hardware
 ms.technology: windows-devices

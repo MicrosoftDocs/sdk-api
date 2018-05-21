@@ -7,7 +7,7 @@ old-location: dshow\iamvideocontrol_getmaxavailableframerate.htm
 old-project: DirectShow
 ms.assetid: a196cf6e-491c-4d01-abfe-831440e75058
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetMaxAvailableFrameRate, GetMaxAvailableFrameRate method [DirectShow], GetMaxAvailableFrameRate method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetMaxAvailableFrameRate method, IAMVideoControl.GetMaxAvailableFrameRate, IAMVideoControl::GetMaxAvailableFrameRate, IAMVideoControlGetMaxAvailableFrameRate, dshow.iamvideocontrol_getmaxavailableframerate, strmif/IAMVideoControl::GetMaxAvailableFrameRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

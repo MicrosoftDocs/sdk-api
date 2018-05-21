@@ -7,7 +7,7 @@ old-location: multimedia\avisaveoptionsfree.htm
 old-project: Multimedia
 ms.assetid: c88a786f-d008-4eb6-af3d-59a0f62ac09d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AVISaveOptionsFree, AVISaveOptionsFree function [Windows Multimedia], _win32_AVISaveOptionsFree, multimedia.avisaveoptionsfree, vfw/AVISaveOptionsFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

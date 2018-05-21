@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_qualifierdecl.htm
 old-project: wmi_v2
 ms.assetid: 88d167f5-3cb0-41ed-9355-ea31ff263a03
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_FLAG_DISABLEOVERRIDE, MI_FLAG_ENABLEOVERRIDE, MI_FLAG_RESTRICTED, MI_FLAG_TOSUBCLASS, MI_FLAG_TRANSLATABLE, MI_QualifierDecl, MI_QualifierDecl structure [Windows Management Infrastructure (MI)], _MI_QualifierDecl, mi/MI_QualifierDecl, wmi._mi_qualifierdecl, wmi_v2.mi_qualifierdecl
 ms.prod: windows-hardware
 ms.technology: windows-devices

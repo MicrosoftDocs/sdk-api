@@ -7,7 +7,7 @@ old-location: controls\PropSheet_SetFinishText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setfinishtext.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: PropSheet_SetFinishText, PropSheet_SetFinishText macro [Windows Controls], _win32_PropSheet_SetFinishText, _win32_PropSheet_SetFinishText_cpp, controls.PropSheet_SetFinishText, controls._win32_PropSheet_SetFinishText, prsht/PropSheet_SetFinishText
 ms.prod: windows-hardware
 ms.technology: windows-devices

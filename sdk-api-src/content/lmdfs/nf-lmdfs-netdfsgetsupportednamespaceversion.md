@@ -7,7 +7,7 @@ old-location: dfs\netdfsgetsupportednamespaceversion.htm
 old-project: Dfs
 ms.assetid: 32ccf4a7-9d07-45e1-93db-29eddee01680
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: NetDfsGetSupportedNamespaceVersion, NetDfsGetSupportedNamespaceVersion function [Distributed File System], dfs.netdfsgetsupportednamespaceversion, fs.netdfsgetsupportednamespaceversion, lmdfs/NetDfsGetSupportedNamespaceVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

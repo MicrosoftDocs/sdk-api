@@ -7,7 +7,7 @@ old-location: com\olesetautoconvert.htm
 old-project: com
 ms.assetid: 39abf385-962a-4b20-b319-501c8130e050
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleSetAutoConvert, OleSetAutoConvert function [COM], _com_OleSetAutoConvert, com.olesetautoconvert, ole2/OleSetAutoConvert
 ms.prod: windows-hardware
 ms.technology: windows-devices

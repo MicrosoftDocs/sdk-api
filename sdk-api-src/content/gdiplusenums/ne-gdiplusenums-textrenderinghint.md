@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_TextRenderingHint.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\textrenderinghint.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: TextRenderingHint, TextRenderingHint enumeration [GDI+], TextRenderingHintAntiAlias, TextRenderingHintAntiAliasGridFit, TextRenderingHintClearTypeGridFit, TextRenderingHintSingleBitPerPixel, TextRenderingHintSingleBitPerPixelGridFit, TextRenderingHintSystemDefault, _gdiplus_ENUM_TextRenderingHint, gdiplus._gdiplus_ENUM_TextRenderingHint, gdiplusenums/TextRenderingHint, gdiplusenums/TextRenderingHintAntiAlias, gdiplusenums/TextRenderingHintAntiAliasGridFit, gdiplusenums/TextRenderingHintClearTypeGridFit, gdiplusenums/TextRenderingHintSingleBitPerPixel, gdiplusenums/TextRenderingHintSingleBitPerPixelGridFit, gdiplusenums/TextRenderingHintSystemDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices

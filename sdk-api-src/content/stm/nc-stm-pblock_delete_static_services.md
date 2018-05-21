@@ -7,7 +7,7 @@ old-location: rras\blockdeletestaticservices.htm
 old-project: RRAS
 ms.assetid: eb680a9c-aad8-44b5-8c20-af15c1fd8930
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: BlockDeleteStaticServices, BlockDeleteStaticServices callback function [RAS], PBLOCK_DELETE_STATIC_SERVICES, PBLOCK_DELETE_STATIC_SERVICES callback, _mpr_blockdeletestaticservices, rras.blockdeletestaticservices, stm/BlockDeleteStaticServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # PBLOCK_DELETE_STATIC_SERVICES callback function

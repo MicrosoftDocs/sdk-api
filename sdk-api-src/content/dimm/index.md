@@ -2,7 +2,7 @@
 UID: NA:dimm
 ms.assetid: a6c31233-9940-3eb5-af16-714df7c4f041
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

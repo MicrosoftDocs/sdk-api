@@ -7,7 +7,7 @@ old-location: fs\create_usn_journal_data_str.htm
 old-project: FileIO
 ms.assetid: 84d00427-c6eb-41aa-a594-8c57bdd56202
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PCREATE_USN_JOURNAL_DATA, CREATE_USN_JOURNAL_DATA, CREATE_USN_JOURNAL_DATA structure [Files], PCREATE_USN_JOURNAL_DATA, PCREATE_USN_JOURNAL_DATA structure pointer [Files], _win32_create_usn_journal_data_str, base.create_usn_journal_data_str, fs.create_usn_journal_data_str, winioctl/CREATE_USN_JOURNAL_DATA, winioctl/PCREATE_USN_JOURNAL_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

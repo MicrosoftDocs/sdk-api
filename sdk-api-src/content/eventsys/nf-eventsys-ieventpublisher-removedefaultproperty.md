@@ -7,7 +7,7 @@ old-location: com\ieventpublisher_removedefaultproperty.htm
 old-project: com
 ms.assetid: da691bac-e940-431d-acef-8c29f4a25c70
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IEventPublisher interface [COM],RemoveDefaultProperty method, IEventPublisher.RemoveDefaultProperty, IEventPublisher::RemoveDefaultProperty, RemoveDefaultProperty, RemoveDefaultProperty method [COM], RemoveDefaultProperty method [COM],IEventPublisher interface, _com_ieventpublisher_removedefaultproperty, com.ieventpublisher_removedefaultproperty, eventsys/IEventPublisher::RemoveDefaultProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

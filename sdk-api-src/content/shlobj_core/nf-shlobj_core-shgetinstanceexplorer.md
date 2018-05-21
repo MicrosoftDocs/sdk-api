@@ -7,7 +7,7 @@ old-location: shell\SHGetInstanceExplorer.htm
 old-project: shell
 ms.assetid: ac6d8f7d-2eae-4b22-b493-b4ef740e3c95
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: SHGetInstanceExplorer, SHGetInstanceExplorer function [Windows Shell], _win32_SHGetInstanceExplorer, shell.SHGetInstanceExplorer, shlobj_core/SHGetInstanceExplorer
 ms.prod: windows-hardware
 ms.technology: windows-devices

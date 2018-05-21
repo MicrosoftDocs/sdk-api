@@ -7,7 +7,7 @@ old-location: mscs\setclusterresourcedependencyexpression.htm
 old-project: MsCS
 ms.assetid: 40f1bff3-1456-4af4-a8fd-8f7998fe60eb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, PCLUSAPI_SET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION callback, PCLUSAPI_SET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION callback function [Failover Cluster], clusapi/PCLUSAPI_SET_CLUSTER_RESOURCE_DEPENDENCY_EXPRESSION, mscs.setclusterresourcedependencyexpression
 ms.prod: windows-hardware
 ms.technology: windows-devices

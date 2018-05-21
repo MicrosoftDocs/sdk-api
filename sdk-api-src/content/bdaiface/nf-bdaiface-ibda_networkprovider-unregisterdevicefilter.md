@@ -7,7 +7,7 @@ old-location: mstv\ibda_networkprovider_unregisterdevicefilter.htm
 old-project: mstv
 ms.assetid: 7d54830f-93cc-44c0-9bb7-43c439f4aa8e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],UnRegisterDeviceFilter method, IBDA_NetworkProvider.UnRegisterDeviceFilter, IBDA_NetworkProvider::UnRegisterDeviceFilter, IBDA_NetworkProviderUnRegisterDeviceFilter, UnRegisterDeviceFilter, UnRegisterDeviceFilter method [Microsoft TV Technologies], UnRegisterDeviceFilter method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::UnRegisterDeviceFilter, mstv.ibda_networkprovider_unregisterdevicefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

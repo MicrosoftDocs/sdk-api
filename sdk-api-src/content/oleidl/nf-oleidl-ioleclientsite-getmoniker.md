@@ -7,7 +7,7 @@ old-location: com\ioleclientsite_getmoniker.htm
 old-project: com
 ms.assetid: 9ca3e997-9a96-43c3-a213-de8c8440cd54
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: GetMoniker, GetMoniker method [COM], GetMoniker method [COM],IOleClientSite interface, IOleClientSite interface [COM],GetMoniker method, IOleClientSite.GetMoniker, IOleClientSite::GetMoniker, _ole_ioleclientsite_getmoniker, com.ioleclientsite_getmoniker, oleidl/IOleClientSite::GetMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12device_makeresident.htm
 old-project: direct3d12
 ms.assetid: 2B3B97DC-5AA3-470E-8EED-3956B295BB94
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: ID3D12Device interface,MakeResident method, ID3D12Device.MakeResident, ID3D12Device::MakeResident, MakeResident, MakeResident method, MakeResident method,ID3D12Device interface, d3d12/ID3D12Device::MakeResident, direct3d12.id3d12device_makeresident
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersinkevent2.htm
 old-project: mstv
 ms.assetid: 9e44b248-fc8a-44c1-9da6-8afb7649f6f4
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidStreamBufferSinkEvent2, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies], IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSinkEvent2Interface, mstv.imsvidstreambuffersinkevent2, segment/IMSVidStreamBufferSinkEvent2
 ms.prod: windows-hardware
 ms.technology: windows-devices

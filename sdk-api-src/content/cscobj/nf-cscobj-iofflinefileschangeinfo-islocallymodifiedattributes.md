@@ -7,7 +7,7 @@ old-location: of\iofflinefileschangeinfo_islocallymodifiedattributes.htm
 old-project: OfflineFiles
 ms.assetid: c45a04cd-a1cf-4239-9a77-07b6b67121e8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsLocallyModifiedAttributes method, IOfflineFilesChangeInfo.IsLocallyModifiedAttributes, IOfflineFilesChangeInfo::IsLocallyModifiedAttributes, IsLocallyModifiedAttributes, IsLocallyModifiedAttributes method [Offline Files], IsLocallyModifiedAttributes method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedAttributes, of.iofflinefileschangeinfo_islocallymodifiedattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

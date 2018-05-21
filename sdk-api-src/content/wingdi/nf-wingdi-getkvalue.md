@@ -7,7 +7,7 @@ old-location: wcs\getkvalue.htm
 old-project: WCS
 ms.assetid: 8015689c-920c-4896-a34f-cda4f9b187e1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/17/2018
 ms.keywords: GetKValue, GetKValue macro [Windows Color System], _color_GetKValue, wcs.getkvalue, wingdi/GetKValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

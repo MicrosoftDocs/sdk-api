@@ -2,11 +2,12 @@
 UID: TP:tcui
 ms.assetid: 34909415-541e-336f-9e6f-e6238becda31
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Title Callable UI

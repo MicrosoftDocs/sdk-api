@@ -2,7 +2,7 @@
 UID: TP:taskschd
 ms.assetid: 21ed2bea-3d38-3715-81f5-fccbcae23048
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ParseURL.htm
 old-project: shell
 ms.assetid: 3d42dad0-b9eb-4e40-afc8-68cb85b27504
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ParseURL, ParseURL function [Windows Shell], ParseURLA, ParseURLW, _win32_ParseURL, shell.ParseURL, shlwapi/ParseURL, shlwapi/ParseURLA, shlwapi/ParseURLW
 ms.prod: windows-hardware
 ms.technology: windows-devices

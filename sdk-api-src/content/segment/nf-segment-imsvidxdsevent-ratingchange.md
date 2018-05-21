@@ -7,7 +7,7 @@ old-location: mstv\imsvidxdsevent_ratingchange.htm
 old-project: mstv
 ms.assetid: 2832f99b-16e9-4c09-903d-8d89f2cc7715
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidXDSEvent interface [Microsoft TV Technologies],RatingChange method, IMSVidXDSEvent.RatingChange, IMSVidXDSEvent::RatingChange, IMSVidXDSEventRatingChange, RatingChange, RatingChange method [Microsoft TV Technologies], RatingChange method [Microsoft TV Technologies],IMSVidXDSEvent interface, mstv.imsvidxdsevent_ratingchange, segment/IMSVidXDSEvent::RatingChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

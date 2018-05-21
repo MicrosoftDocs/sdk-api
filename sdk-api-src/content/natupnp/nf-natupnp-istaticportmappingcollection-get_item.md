@@ -7,7 +7,7 @@ old-location: ics\istaticportmappingcollection_get_item.htm
 old-project: ICS
 ms.assetid: 0034e56d-45a1-404a-b129-6ebb951e7d76
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get_Item method, IStaticPortMappingCollection.get_Item, IStaticPortMappingCollection::get_Item, _ics_istaticportmappingcollection_get_item, get_Item, get_Item method [ICS/ICF], get_Item method [ICS/ICF],IStaticPortMappingCollection interface, ics.istaticportmappingcollection_get_item, natupnp/IStaticPortMappingCollection::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

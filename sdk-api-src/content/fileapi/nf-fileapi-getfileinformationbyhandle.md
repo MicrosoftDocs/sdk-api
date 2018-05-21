@@ -7,7 +7,7 @@ old-location: fs\getfileinformationbyhandle.htm
 old-project: FileIO
 ms.assetid: d026ee3a-c165-42a2-a4e1-efccdafbefc5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: GetFileInformationByHandle, GetFileInformationByHandle function [Files], _win32_getfileinformationbyhandle, base.getfileinformationbyhandle, fileapi/GetFileInformationByHandle, fs.getfileinformationbyhandle, winbase/GetFileInformationByHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: controls\BeginBufferedPaint.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginbufferedpaint.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: BeginBufferedPaint, BeginBufferedPaint function [Windows Controls], _shell_BeginBufferedPaint, _shell_BeginBufferedPaint_cpp, controls.BeginBufferedPaint, controls._shell_BeginBufferedPaint, uxtheme/BeginBufferedPaint
 ms.prod: windows-hardware
 ms.technology: windows-devices

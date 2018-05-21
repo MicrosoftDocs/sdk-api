@@ -7,7 +7,7 @@ old-location: security\npaddconnection.htm
 old-project: SecAuthN
 ms.assetid: 37a3988c-18ee-400a-85c3-cc3cbdf015ea
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: NPAddConnection, NPAddConnection function [Security], _mnp_npaddconnection, dwType, lpLocalName, lpRemoteName, npapi/NPAddConnection, security.npaddconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

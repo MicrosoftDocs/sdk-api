@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItemInfo_IsEnabled.htm
 old-project: shell
 ms.assetid: 47383322-3fb6-47aa-9c97-9d432845fd35
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ISyncMgrSyncItemInfo interface [Windows Shell],IsEnabled method, ISyncMgrSyncItemInfo.IsEnabled, ISyncMgrSyncItemInfo::IsEnabled, IsEnabled, IsEnabled method [Windows Shell], IsEnabled method [Windows Shell],ISyncMgrSyncItemInfo interface, _shell_ISyncMgrSyncItemInfo_IsEnabled, shell.ISyncMgrSyncItemInfo_IsEnabled, syncmgr/ISyncMgrSyncItemInfo::IsEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

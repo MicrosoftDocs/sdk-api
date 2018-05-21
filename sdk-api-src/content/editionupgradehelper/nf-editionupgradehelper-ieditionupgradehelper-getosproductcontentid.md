@@ -7,7 +7,7 @@ old-location: winprog\ieditionupgradehelper_getosproductcontentid.htm
 old-project: DevNotes
 ms.assetid: 79EEDFF2-FDF9-4BC9-968A-3543892AE870
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetOsProductContentId, GetOsProductContentId method [Windows API], GetOsProductContentId method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],GetOsProductContentId method, IEditionUpgradeHelper.GetOsProductContentId, IEditionUpgradeHelper::GetOsProductContentId, editionupgradehelper/IEditionUpgradeHelper::GetOsProductContentId, winprog.ieditionupgradehelper_getosproductcontentid
 ms.prod: windows-hardware
 ms.technology: windows-devices

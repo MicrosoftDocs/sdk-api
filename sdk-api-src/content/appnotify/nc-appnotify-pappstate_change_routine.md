@@ -7,7 +7,7 @@ old-location: shell\PAPPSTATE_CHANGE_ROUTINE.htm
 old-project: shell
 ms.assetid: AA5B09FA-2016-4C9D-8DE3-CD3C6141B45A
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: PAPPSTATE_CHANGE_ROUTINE, PAPPSTATE_CHANGE_ROUTINE function, PAPPSTATE_CHANGE_ROUTINE function pointer [Windows Shell], appnotify/PAPPSTATE_CHANGE_ROUTINE, shell.PAPPSTATE_CHANGE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices

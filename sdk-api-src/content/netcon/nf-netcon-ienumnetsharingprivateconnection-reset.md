@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingprivateconnection_reset.htm
 old-project: ICS
 ms.assetid: 9d68eccf-eb96-47f9-8ca3-97b7918a52fe
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: IEnumNetSharingPrivateConnection interface [ICS/ICF],Reset method, IEnumNetSharingPrivateConnection.Reset, IEnumNetSharingPrivateConnection::Reset, Reset, Reset method [ICS/ICF], Reset method [ICS/ICF],IEnumNetSharingPrivateConnection interface, _ics_ienumnetsharingprivateconnection_reset, ics.ienumnetsharingprivateconnection_reset, netcon/IEnumNetSharingPrivateConnection::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

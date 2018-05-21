@@ -7,7 +7,7 @@ old-location: mf\iplaytosourceclassfactory.htm
 old-project: medfound
 ms.assetid: F8F9FEC6-836C-429A-BADD-5CD1E550AED0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IPlayToSourceClassFactory, IPlayToSourceClassFactory interface [Media Foundation], IPlayToSourceClassFactory interface [Media Foundation],described, mf.iplaytocontrollerclassfactory, mf.iplaytosourceclassfactory, mfsharingengine/IPlayToSourceClassFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

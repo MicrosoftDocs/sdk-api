@@ -7,7 +7,7 @@ old-location: shell\ivirtualdesktopmanager_getwindowdesktopid.htm
 old-project: shell
 ms.assetid: 1A53C70F-6034-449D-832E-A563886F20E4
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetWindowDesktopId, GetWindowDesktopId method [Windows Shell], GetWindowDesktopId method [Windows Shell],IVirtualDesktopManager interface, IVirtualDesktopManager interface [Windows Shell],GetWindowDesktopId method, IVirtualDesktopManager.GetWindowDesktopId, IVirtualDesktopManager::GetWindowDesktopId, shell.ivirtualdesktopmanager_getwindowdesktopid, shobjidl/IVirtualDesktopManager::GetWindowDesktopId
 ms.prod: windows-hardware
 ms.technology: windows-devices

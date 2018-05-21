@@ -7,7 +7,7 @@ old-location: mstv\iatsc_eit_initialize.htm
 old-project: mstv
 ms.assetid: 38b59660-f123-492f-aa11-0703b8c92458
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IATSC_EIT interface [Microsoft TV Technologies],Initialize method, IATSC_EIT.Initialize, IATSC_EIT::Initialize, IATSC_EITInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IATSC_EIT interface, atscpsipparser/IATSC_EIT::Initialize, mstv.iatsc_eit_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

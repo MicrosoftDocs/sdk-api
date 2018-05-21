@@ -7,7 +7,7 @@ old-location: mf\imfmediasession_stop.htm
 old-project: medfound
 ms.assetid: 9cc769cc-24ef-4790-a10e-4aec8fb4fc1f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 9cc769cc-24ef-4790-a10e-4aec8fb4fc1f, IMFMediaSession interface [Media Foundation],Stop method, IMFMediaSession.Stop, IMFMediaSession::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFMediaSession interface, mf.imfmediasession_stop, mfidl/IMFMediaSession::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

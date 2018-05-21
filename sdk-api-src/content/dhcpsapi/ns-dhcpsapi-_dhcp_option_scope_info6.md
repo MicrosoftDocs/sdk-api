@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_option_scope_info6.htm
 old-project: DHCP
 ms.assetid: d5c0cff9-7164-4f14-a0a9-58311390ebd9
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_OPTION_SCOPE_INFO6, DHCP_OPTION_SCOPE_INFO6, DHCP_OPTION_SCOPE_INFO6 structure [DHCP], PDHCP_OPTION_SCOPE_INFO6, PDHCP_OPTION_SCOPE_INFO6 structure pointer [DHCP], _DHCP_OPTION_SCOPE_INFO6, dhcp.dhcp_option_scope_info6, dhcpsapi/DHCP_OPTION_SCOPE_INFO6, dhcpsapi/PDHCP_OPTION_SCOPE_INFO6"
 ms.prod: windows-hardware
 ms.technology: windows-devices

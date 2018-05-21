@@ -7,7 +7,7 @@ old-location: imapi\istreamconcatenate_append2.htm
 old-project: imapi
 ms.assetid: 75e7f4cd-f3c8-494d-b049-7fe32c486659
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: Append2, Append2 method [IMAPI], Append2 method [IMAPI],IStreamConcatenate interface, IStreamConcatenate interface [IMAPI],Append2 method, IStreamConcatenate.Append2, IStreamConcatenate::Append2, imapi.istreamconcatenate_append2, imapi2/IStreamConcatenate::Append2
 ms.prod: windows-hardware
 ms.technology: windows-devices

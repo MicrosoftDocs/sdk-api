@@ -7,7 +7,7 @@ old-location: dshow\iamfiltermiscflags_getmiscflags.htm
 old-project: DirectShow
 ms.assetid: 03728d28-a3e5-4ac5-b637-1daa173e5e88
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetMiscFlags, GetMiscFlags method [DirectShow], GetMiscFlags method [DirectShow],IAMFilterMiscFlags interface, IAMFilterMiscFlags interface [DirectShow],GetMiscFlags method, IAMFilterMiscFlags.GetMiscFlags, IAMFilterMiscFlags::GetMiscFlags, IAMFilterMiscFlagsGetMiscFlags, dshow.iamfiltermiscflags_getmiscflags, strmif/IAMFilterMiscFlags::GetMiscFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

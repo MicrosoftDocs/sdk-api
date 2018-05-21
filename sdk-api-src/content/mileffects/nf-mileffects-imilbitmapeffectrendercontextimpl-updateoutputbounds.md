@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds.ht
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\updateoutputbounds.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],UpdateOutputBounds method, IMILBitmapEffectRenderContextImpl.UpdateOutputBounds, IMILBitmapEffectRenderContextImpl::UpdateOutputBounds, UpdateOutputBounds, UpdateOutputBounds method [WPF Bitmap Effects], UpdateOutputBounds method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, _wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds, mileffects/IMILBitmapEffectRenderContextImpl::UpdateOutputBounds, wibe._wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds
 ms.prod: windows-hardware
 ms.technology: windows-devices

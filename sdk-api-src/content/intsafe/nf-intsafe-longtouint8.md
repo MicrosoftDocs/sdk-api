@@ -2,21 +2,21 @@
 UID: NF:intsafe.LongToUInt8
 title: LongToUInt8 function
 author: windows-driver-content
-description: Converts a value of type LONG to a value of type BYTE.
-old-location: shell\LongToByte.htm
+description: Converts a value of type LONG to a value of type UINT8.
+old-location: shell\LongToUInt8.htm
 old-project: shell
-ms.assetid: f2851b5c-baf5-4e24-8cb0-c5beb11fd308
+ms.assetid: 46b20b7c-f822-4521-8598-73193da67d2c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: LongToByte, LongToByte function [Windows Shell], LongToUInt8, _shell_LongToByte, intsafe/LongToByte, shell.LongToByte
+ms.date: 5/16/2018
+ms.keywords: LongToByte, LongToUInt8, LongToUInt8 function [Windows Shell], intsafe/LongToUInt8, shell.LongToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,9 +33,9 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	Intsafe.h
+-	intsafe.h
 api_name:
--	LongToByte
+-	LongToUInt8
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>LONG</b> to a value of type <b>BYTE</b>.
+Converts a value of type <b>LONG</b> to a value of type <b>UINT8</b>.
 
 
 ## -parameters
@@ -60,30 +60,17 @@ Converts a value of type <b>LONG</b> to a value of type <b>BYTE</b>.
 
 ### -param lOperand [in]
 
-Type: <b>LONG</b>
-
-The value to be converted.
+The value to convert.
 
 
-### -param pui8Result
+### -param pui8Result [out]
 
-TBD
-
-
-
-
-#### - pb [out]
-
-Type: <b>BYTE*</b>
-
-A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
+The converted value.
 
 
 ## -returns
 
 
-
-Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -94,7 +81,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+This is one of a set of functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>LongToByte</b> is an alias for this function.
 
 
 

@@ -7,7 +7,7 @@ old-location: com\coregisteractivationfilter.htm
 old-project: com
 ms.assetid: 4189633F-9B14-4EAD-84BD-F74355376164
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CoRegisterActivationFilter, CoRegisterActivationFilter function [COM], com.coregisteractivationfilter, combaseapi/CoRegisterActivationFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

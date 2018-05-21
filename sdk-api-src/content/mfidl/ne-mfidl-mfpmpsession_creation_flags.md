@@ -7,7 +7,7 @@ old-location: mf\mfpmpsession_creation_flags.htm
 old-project: medfound
 ms.assetid: 6341aaff-aa80-4172-8577-0b757a01ea53
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 6341aaff-aa80-4172-8577-0b757a01ea53, MFPMPSESSION_CREATION_FLAGS, MFPMPSESSION_CREATION_FLAGS enumeration [Media Foundation], MFPMPSESSION_UNPROTECTED_PROCESS, mf.mfpmpsession_creation_flags, mfidl/MFPMPSESSION_CREATION_FLAGS, mfidl/MFPMPSESSION_UNPROTECTED_PROCESS
 ms.prod: windows-hardware
 ms.technology: windows-devices

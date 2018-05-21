@@ -7,7 +7,7 @@ old-location: security\certaddencodedcrltostore.htm
 old-project: SecCrypto
 ms.assetid: ec2361e6-a1e6-413a-828e-d543a09c88f8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddEncodedCRLToStore, CertAddEncodedCRLToStore function [Security], _crypto2_certaddencodedcrltostore, security.certaddencodedcrltostore, wincrypt/CertAddEncodedCRLToStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

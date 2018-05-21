@@ -7,7 +7,7 @@ old-location: tapi3\itdirectoryobject_enumeratedialableaddrs.htm
 old-project: Tapi
 ms.assetid: cee7a00e-e601-47bf-b64b-61085511da97
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: EnumerateDialableAddrs, EnumerateDialableAddrs method [TAPI 2.2], EnumerateDialableAddrs method [TAPI 2.2],ITDirectoryObject interface, ITDirectoryObject interface [TAPI 2.2],EnumerateDialableAddrs method, ITDirectoryObject.EnumerateDialableAddrs, ITDirectoryObject::EnumerateDialableAddrs, _tapi3_itdirectoryobject_enumeratedialableaddrs, rend/ITDirectoryObject::EnumerateDialableAddrs, tapi3.itdirectoryobject_enumeratedialableaddrs
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\sspipromptforcredentials.htm
 old-project: SecAuthN
 ms.assetid: 2af2ac00-0e91-4384-9ffa-3e100df218c1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SSPIPFC_CREDPROV_DO_NOT_SAVE, SSPIPFC_NO_CHECKBOX, SspiPromptForCredentials, SspiPromptForCredentials function [Security], SspiPromptForCredentialsA, SspiPromptForCredentialsW, security.sspipromptforcredentials, sspi/SspiPromptForCredentials, sspi/SspiPromptForCredentialsA, sspi/SspiPromptForCredentialsW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,7 +46,7 @@ targetos: Windows
 req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SspiPromptForCredentialsW function

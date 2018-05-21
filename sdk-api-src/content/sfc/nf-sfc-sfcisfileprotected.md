@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: SP_REGISTER_CONTROL_STATUSW, *PSP_REGISTER_CONTROL_STATUSW
+req.typenames: SP_UNREMOVEDEVICE_PARAMS, *PSP_UNREMOVEDEVICE_PARAMS
 topic_type:
 -	APIRef
 -	kbSyntax

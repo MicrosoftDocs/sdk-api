@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_toppgsearch.htm
 old-project: DirectShow
 ms.assetid: 35a621de-5110-4999-8475-ae84a4dc9ee1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IDvdControl interface [DirectShow],TopPGSearch method, IDvdControl.TopPGSearch, IDvdControl::TopPGSearch, IDvdControlTopPGSearch, TopPGSearch, TopPGSearch method [DirectShow], TopPGSearch method [DirectShow],IDvdControl interface, dshow.idvdcontrol_toppgsearch, strmif/IDvdControl::TopPGSearch
 ms.prod: windows-hardware
 ms.technology: windows-devices

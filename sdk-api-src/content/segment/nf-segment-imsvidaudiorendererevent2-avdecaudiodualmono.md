@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorendererevent2_avdecaudiodualmono.htm
 old-project: mstv
 ms.assetid: e5a3984a-a925-4e21-9b2d-50968365bb2b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: AVDecAudioDualMono, AVDecAudioDualMono method [Microsoft TV Technologies], AVDecAudioDualMono method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecAudioDualMono method, IMSVidAudioRendererEvent2.AVDecAudioDualMono, IMSVidAudioRendererEvent2::AVDecAudioDualMono, mstv.imsvidaudiorendererevent2_avdecaudiodualmono, segment/IMSVidAudioRendererEvent2::AVDecAudioDualMono
 ms.prod: windows-hardware
 ms.technology: windows-devices

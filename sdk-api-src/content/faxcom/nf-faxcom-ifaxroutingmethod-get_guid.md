@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxroutingmethod_get_guid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1les.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxRoutingMethod object [Fax Service],Guid property, FaxRoutingMethod.Guid, Guid property [Fax Service], Guid property [Fax Service],FaxRoutingMethod object, IFaxRoutingMethod.get_Guid, IFaxRoutingMethod::get_Guid, _mfax_ifaxroutingmethod_get_guid, fax._mfax_ifaxroutingmethod_get_guid, fax._mfax_ifaxroutingmethod_get_guid_vb, get_Guid
 ms.prod: windows-hardware
 ms.technology: windows-devices

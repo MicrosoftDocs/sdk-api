@@ -7,7 +7,7 @@ old-location: winrt\ivideoframenativefactory.htm
 old-project: WinRT
 ms.assetid: A884D0B5-6E12-4225-A46B-DD0C0A77B58E
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: IVideoFrameNativeFactory, IVideoFrameNativeFactory interface [Windows Runtime], IVideoFrameNativeFactory interface [Windows Runtime],described, windows/IVideoFrameNativeFactory, winrt.ivideoframenativefactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

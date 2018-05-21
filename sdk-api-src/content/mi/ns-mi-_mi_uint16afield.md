@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_uint16afield.htm
 old-project: wmi_v2
 ms.assetid: c453dfe9-de6a-4c07-878a-f1f5789ef0ce
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint16AField, MI_Uint16AField structure [Windows Management Infrastructure (MI)], _MI_Uint16AField, mi/MI_Uint16AField, wmi._mi_uint16afield, wmi_v2.mi_uint16afield
 ms.prod: windows-hardware
 ms.technology: windows-devices

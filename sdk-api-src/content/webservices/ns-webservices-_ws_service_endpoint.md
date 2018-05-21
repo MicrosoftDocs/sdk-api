@@ -7,7 +7,7 @@ old-location: wsw\ws_service_endpoint.htm
 old-project: wsw
 ms.assetid: 6b15fc3f-5e4b-4eb3-b337-0170b0ca746f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_SERVICE_ENDPOINT, WS_SERVICE_ENDPOINT structure [Web Services for Windows], _WS_SERVICE_ENDPOINT, webservices/WS_SERVICE_ENDPOINT, wsw.ws_service_endpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

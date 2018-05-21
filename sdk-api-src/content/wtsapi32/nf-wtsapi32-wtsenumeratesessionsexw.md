@@ -7,7 +7,7 @@ old-location: termserv\wtsenumeratesessionsex.htm
 old-project: TermServ
 ms.assetid: b903cf07-d3bd-4b65-9e57-88d9e1f74e0b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: WTSEnumerateSessionsEx, WTSEnumerateSessionsEx function [Remote Desktop Services], WTSEnumerateSessionsExA, WTSEnumerateSessionsExW, termserv.wtsenumeratesessionsex, wtsapi32/WTSEnumerateSessionsEx, wtsapi32/WTSEnumerateSessionsExA, wtsapi32/WTSEnumerateSessionsExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

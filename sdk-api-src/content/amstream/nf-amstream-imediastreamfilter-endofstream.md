@@ -7,7 +7,7 @@ old-location: dshow\imediastreamfilter_endofstream.htm
 old-project: DirectShow
 ms.assetid: ceec4ead-e439-4206-ab30-ae37d15c5b44
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: EndOfStream, EndOfStream method [DirectShow], EndOfStream method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],EndOfStream method, IMediaStreamFilter.EndOfStream, IMediaStreamFilter::EndOfStream, IMediaStreamFilterEndOfStream, amstream/IMediaStreamFilter::EndOfStream, dshow.imediastreamfilter_endofstream
 ms.prod: windows-hardware
 ms.technology: windows-devices

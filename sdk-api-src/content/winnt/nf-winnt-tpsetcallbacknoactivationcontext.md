@@ -7,7 +7,7 @@ old-location: base\tpsetcallbacknoactivationcontext.htm
 old-project: ProcThread
 ms.assetid: 8415197A-C785-492E-9C74-2055FADDF0CD
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: TpSetCallbackNoActivationContext, TpSetCallbackNoActivationContext function, base.tpsetcallbacknoactivationcontext, winnt/TpSetCallbackNoActivationContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

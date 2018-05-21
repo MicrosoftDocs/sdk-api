@@ -7,7 +7,7 @@ old-location: base\localhandle.htm
 old-project: Memory
 ms.assetid: 2b252f8b-d0a3-4d7f-9e2e-cb80c1512935
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: LocalHandle, LocalHandle function, _win32_localhandle, base.localhandle, winbase/LocalHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

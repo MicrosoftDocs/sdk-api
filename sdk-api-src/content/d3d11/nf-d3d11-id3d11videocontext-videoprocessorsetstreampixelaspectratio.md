@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorsetstreampixelaspectratio.htm
 old-project: medfound
 ms.assetid: 4205F6F0-4AF3-42B1-8636-64FCFC865856
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamPixelAspectRatio method, ID3D11VideoContext.VideoProcessorSetStreamPixelAspectRatio, ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio, VideoProcessorSetStreamPixelAspectRatio, VideoProcessorSetStreamPixelAspectRatio method [Media Foundation], VideoProcessorSetStreamPixelAspectRatio method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamPixelAspectRatio, mf.id3d11videocontext_videoprocessorsetstreampixelaspectratio
 ms.prod: windows-hardware
 ms.technology: windows-devices

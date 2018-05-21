@@ -7,7 +7,7 @@ old-location: com\iadvisesink_onsave.htm
 old-project: com
 ms.assetid: 26da5e16-5790-49c0-ba63-5feee49cd4c6
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IAdviseSink interface [COM],OnSave method, IAdviseSink.OnSave, IAdviseSink::OnSave, OnSave, OnSave method [COM], OnSave method [COM],IAdviseSink interface, _ole_iadvisesink_onsave, com.iadvisesink_onsave, objidl/IAdviseSink::OnSave
 ms.prod: windows-hardware
 ms.technology: windows-devices

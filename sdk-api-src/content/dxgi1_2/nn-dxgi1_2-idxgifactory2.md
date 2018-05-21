@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2.htm
 old-project: direct3ddxgi
 ms.assetid: D4F210E1-E184-410A-947A-22ED47B3E9F3
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: IDXGIFactory2, IDXGIFactory2 interface [DXGI], IDXGIFactory2 interface [DXGI],described, direct3ddxgi.idxgifactory2, dxgi1_2/IDXGIFactory2
 ms.prod: windows-hardware
 ms.technology: windows-devices

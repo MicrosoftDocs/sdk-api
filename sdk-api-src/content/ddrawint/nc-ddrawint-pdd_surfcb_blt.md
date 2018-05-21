@@ -7,7 +7,7 @@ old-location: display\ddblt.htm
 old-project: display
 ms.assetid: 28e0c827-33f1-4b83-9f20-bbb66bc0e14a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: DdBlt, DdBlt callback function [Display Devices], PDD_SURFCB_BLT, PDD_SURFCB_BLT callback, ddfncs_464b3f37-739d-45c9-955d-3103c6a21047.xml, ddrawint/DdBlt, display.ddblt
 ms.prod: windows-hardware
 ms.technology: windows-devices

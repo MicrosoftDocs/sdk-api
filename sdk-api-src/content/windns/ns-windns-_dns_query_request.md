@@ -7,7 +7,7 @@ old-location: dns\dns_query_request.htm
 old-project: DNS
 ms.assetid: 9C382800-DE71-4481-AC8D-9F89D6F59EE6
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: "*PDNS_QUERY_REQUEST, DNS_QUERY_REQUEST, DNS_QUERY_REQUEST structure [DNS], DNS_QUERY_REQUEST_VERSION1, PDNS_QUERY_REQUEST, PDNS_QUERY_REQUEST structure pointer [DNS], _DNS_QUERY_REQUEST, dns.dns_query_request, windns/DNS_QUERY_REQUEST, windns/PDNS_QUERY_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

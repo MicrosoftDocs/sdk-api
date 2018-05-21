@@ -7,7 +7,7 @@ old-location: base\sourcefile_str.htm
 old-project: Debug
 ms.assetid: b41b844d-85d2-4ea3-bdd9-1564898da9e1
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: "*PSOURCEFILE, PSOURCEFILE, PSOURCEFILE structure pointer, SOURCEFILE, SOURCEFILE structure, SOURCEFILEW, _SOURCEFILE, _SOURCEFILEW, base.sourcefile_str, dbghelp/PSOURCEFILE, dbghelp/SOURCEFILE, dbghelp/SOURCEFILEW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

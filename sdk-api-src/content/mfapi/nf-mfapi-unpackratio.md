@@ -7,7 +7,7 @@ old-location: mf\unpackratio.htm
 old-project: medfound
 ms.assetid: 8E4E1E6C-1C80-4A0B-98CE-2ED3443E1821
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: UnpackRatio, mf.unpackratio, mfapi/unpackratio, unpackratio, unpackratio function [Media Foundation]
 ms.prod: windows-hardware
 ms.technology: windows-devices

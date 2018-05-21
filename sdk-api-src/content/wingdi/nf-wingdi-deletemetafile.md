@@ -7,7 +7,7 @@ old-location: gdi\deletemetafile.htm
 old-project: gdi
 ms.assetid: 51766282-f185-4e29-a36e-1069d9d61f7c
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: DeleteMetaFile, DeleteMetaFile function [Windows GDI], _win32_DeleteMetaFile, gdi.deletemetafile, wingdi/DeleteMetaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

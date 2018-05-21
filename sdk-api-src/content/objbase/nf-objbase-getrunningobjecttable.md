@@ -7,7 +7,7 @@ old-location: com\getrunningobjecttable.htm
 old-project: com
 ms.assetid: 65d9cf7d-cc8a-4199-9a4a-7fd67ef8872d
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: GetRunningObjectTable, GetRunningObjectTable function [COM], _com_GetRunningObjectTable, com.getrunningobjecttable, objbase/GetRunningObjectTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

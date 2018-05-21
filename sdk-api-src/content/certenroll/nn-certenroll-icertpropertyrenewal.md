@@ -7,7 +7,7 @@ old-location: security\icertpropertyrenewal.htm
 old-project: SecCertEnroll
 ms.assetid: c87a391a-aec9-4b42-8084-c593ecbb0bc6
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ICertPropertyRenewal, ICertPropertyRenewal interface [Security], ICertPropertyRenewal interface [Security],described, certenroll/ICertPropertyRenewal, security.icertpropertyrenewal
 ms.prod: windows-hardware
 ms.technology: windows-devices

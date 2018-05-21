@@ -7,7 +7,7 @@ old-location: base\setprocessaffinityupdatemode.htm
 old-project: ProcThread
 ms.assetid: 46e8f7d2-89b9-42cb-9171-d5ae2ec870da
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: PROCESS_AFFINITY_ENABLE_AUTO_UPDATE, SetProcessAffinityUpdateMode, SetProcessAffinityUpdateMode function, base.setprocessaffinityupdatemode, processthreadsapi/SetProcessAffinityUpdateMode, winbase/SetProcessAffinityUpdateMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

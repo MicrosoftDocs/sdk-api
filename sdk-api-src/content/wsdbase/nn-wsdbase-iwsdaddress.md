@@ -7,7 +7,7 @@ old-location: ncd\iwsdaddress.htm
 old-project: WsdApi
 ms.assetid: b19938b2-2fba-42fe-8c4e-5696c40acd58
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDAddress, IWSDAddress interface, IWSDAddress interface,described, ncd.iwsdaddress, wsdbase/IWSDAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

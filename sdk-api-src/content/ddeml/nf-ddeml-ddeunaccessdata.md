@@ -7,7 +7,7 @@ old-location: dataxchg\ddeunaccessdata.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeunaccessdata.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: DdeUnaccessData, DdeUnaccessData function [Data Exchange], _win32_DdeUnaccessData, _win32_ddeunaccessdata_cpp, dataxchg.ddeunaccessdata, ddeml/DdeUnaccessData, winui._win32_ddeunaccessdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

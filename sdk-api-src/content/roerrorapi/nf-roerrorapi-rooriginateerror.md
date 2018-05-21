@@ -7,7 +7,7 @@ old-location: winrt\rooriginateerror.htm
 old-project: WinRT
 ms.assetid: ED647880-5A18-4F75-B7E5-3B9BF36229D3
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: RoOriginateError, RoOriginateError function [Windows Runtime], WinRTOriginateError, roerrorapi/RoOriginateError, roerrorapi/WinRTOriginateError, winrt.rooriginateerror, winrt.winrtoriginateerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

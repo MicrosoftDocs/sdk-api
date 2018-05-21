@@ -7,7 +7,7 @@ old-location: fs\getfullpathname.htm
 old-project: FileIO
 ms.assetid: 4cf59ee3-4065-4096-a2b5-fbed20aa5caa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: GetFullPathName, GetFullPathName function [Files], GetFullPathNameA, GetFullPathNameW, _win32_getfullpathname, base.getfullpathname, fileapi/GetFullPathName, fileapi/GetFullPathNameA, fileapi/GetFullPathNameW, fs.getfullpathname, winbase/GetFullPathName, winbase/GetFullPathNameA, winbase/GetFullPathNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

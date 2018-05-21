@@ -2,11 +2,12 @@
 UID: TP:automat
 ms.assetid: fa0e9310-2f3a-3207-9d42-b2f8ad9f6315
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Automation

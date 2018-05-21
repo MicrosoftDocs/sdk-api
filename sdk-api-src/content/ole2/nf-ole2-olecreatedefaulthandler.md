@@ -7,7 +7,7 @@ old-location: com\olecreatedefaulthandler.htm
 old-project: com
 ms.assetid: ffe87012-b000-4ed7-b0b2-78ffdc794d3b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleCreateDefaultHandler, OleCreateDefaultHandler function [COM], _ole_OleCreateDefaultHandler, com.olecreatedefaulthandler, ole2/OleCreateDefaultHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

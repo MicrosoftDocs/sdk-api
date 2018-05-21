@@ -7,7 +7,7 @@ old-location: intl\ispellchecker2_remove.htm
 old-project: Intl
 ms.assetid: 425F1C58-D279-48E2-84D3-D3094314C756
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ISpellChecker2 interface [Internationalization for Windows Applications],Remove method, ISpellChecker2.Remove, ISpellChecker2::Remove, Remove, Remove method [Internationalization for Windows Applications], Remove method [Internationalization for Windows Applications],ISpellChecker2 interface, intl.ispellchecker2_remove, spellcheck/ISpellChecker2::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # ISpellChecker2::Remove

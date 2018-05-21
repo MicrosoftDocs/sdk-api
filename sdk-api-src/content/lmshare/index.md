@@ -2,7 +2,7 @@
 UID: NA:lmshare
 ms.assetid: a121f748-59a9-36de-a8a3-4a528a3c0732
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mapi\mapisenddocuments.htm
 old-project: WindowsMAPI
 ms.assetid: 79a2f17e-fb07-4f3b-b8f6-0448399ffa50
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/11/2018
 ms.keywords: MAPISendDocuments, MAPISendDocuments callback, MAPISendDocuments callback function, mapi.mapisenddocuments, mapi/MAPISendDocuments
 ms.prod: windows-hardware
 ms.technology: windows-devices

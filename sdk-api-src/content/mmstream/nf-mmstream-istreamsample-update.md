@@ -1,0 +1,217 @@
+---
+UID: NF:mmstream.IStreamSample.Update
+title: IStreamSample::Update
+author: windows-driver-content
+description: Note  This interface is deprecated. New applications should not use it. Performs a synchronous or an asynchronous update on the current sample.
+old-location: dshow\istreamsample_update.htm
+old-project: DirectShow
+ms.assetid: 5f56e3f9-443b-4d67-bfed-3210e691ad4b
+ms.author: windowsdriverdev
+ms.date: 5/16/2018
+ms.keywords: IStreamSample interface [DirectShow],Update method, IStreamSample.Update, IStreamSample::Update, IStreamSampleUpdate, Update, Update method [DirectShow], Update method [DirectShow],IStreamSample interface, dshow.istreamsample_update, mmstream/IStreamSample::Update
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: mmstream.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: STREAM_STATE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	mmstream.h
+api_name:
+-	IStreamSample.Update
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IStreamSample::Update
+
+
+## -description
+
+
+
+<div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
+<div> </div>
+Performs a synchronous or an asynchronous update on the current sample.
+
+
+
+
+## -parameters
+
+
+
+
+### -param dwFlags [in]
+
+Flag that specifies whether the update is synchronous or asynchronous. The SSUPDATE_ASYNC flag specifies an asynchronous update, which you can set if both <i>hEvent</i> and <i>pfnAPC</i> are <b>NULL</b>. Use SSUPDATE_CONTINUOUS to continuously update the sample until you call the <a href="https://msdn.microsoft.com/bfc3fd16-20b1-4581-abb0-66781aa3d584">IStreamSample::CompletionStatus</a> method.
+
+
+### -param hEvent [in]
+
+Handle to an event that this method will trigger when the update is complete.
+
+
+### -param pfnAPC [in]
+
+Pointer to a Win32 asynchronous procedure call (APC) function that this method will call after it completes the sample update.
+
+
+### -param dwAPCData [in]
+
+Value that this method passes to the function specified by the <i>pfnAPC</i> parameter.
+
+
+## -returns
+
+
+
+Returns one of the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_ABORT</b></dt>
+</dl>
+</td>
+<td width="60%">
+The update aborted.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the parameters is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the parameters is invalid.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MS_E_BUSY</b></dt>
+</dl>
+</td>
+<td width="60%">
+This sample already has a pending update.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MS_S_ENDOFSTREAM</b></dt>
+</dl>
+</td>
+<td width="60%">
+Reached the end of the stream; the sample wasn't updated.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>MS_S_PENDING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The asynchronous update is pending.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VFW_E_NOT_COMMITTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Cannot allocate a sample because the allocator is not committed.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+This method can be used to perform a synchronous or asynchronous update of a sample. If both <i>hEvent</i> and <i>pfnAPC</i> are <b>NULL</b> then the update will be synchronous unless either of the SSUPDATE_ASYNC or SSUPDATE_CONTINUOUS flags is specified. When a synchronous update returns, the result of the function contains the I/O completion status.
+
+You can't specify values for both <i>hEvent</i> and <i>pfnAPC</i>; the method will fail.
+
+Asynchronous updates might complete before the update returns; in that case, the return value is S_OK. If you specify an event and the update returns S_OK, this method sets the event on return. If you specify an APC function and the update returns S_OK, the APC will not be queued and the function will not be called.
+
+Asynchronous updates that don't complete prior to returning will return a value of MS_S_PENDING.
+
+If an application creates multiple streams, it must perform an asynchronous update on each stream. Call <b>WaitForMultipleObjects</b> to wait for each stream update to complete, before making the next update. Otherwise, the application might block.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/57818d7d-3290-46f7-a3fd-8585cdd64ec3">IStreamSample Interface</a>
+ 
+
+ 
+

@@ -7,7 +7,7 @@ old-location: base\rtwqcanceldeadline.htm
 old-project: ProcThread
 ms.assetid: 4128B655-AFF9-4AEF-8EDB-A6DC8DA05FE9
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: RtwqCancelDeadline, RtwqCancelDeadline function, base.rtwqcanceldeadline, rtworkq/RtwqCancelDeadline
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rpc\rpcserverinterfacegroupactivate.htm
 old-project: Rpc
 ms.assetid: A467DDEC-BEB1-4050-B540-4A1E819E7373
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcServerInterfaceGroupActivate, RpcServerInterfaceGroupActivate function [RPC], rpc.rpcserverinterfacegroupactivate, rpcdce/RpcServerInterfaceGroupActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

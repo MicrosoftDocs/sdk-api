@@ -7,7 +7,7 @@ old-location: etw\tdhgetwppmessage.htm
 old-project: ETW
 ms.assetid: e4daf7fb-4512-41bd-b7b9-3f9f1cd15037
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: TdhGetWppMessage, TdhGetWppMessage function [ETW], etw.tdhgetwppmessage, tdh/TdhGetWppMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

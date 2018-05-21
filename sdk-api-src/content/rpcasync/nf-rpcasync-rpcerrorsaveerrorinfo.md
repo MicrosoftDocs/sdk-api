@@ -7,7 +7,7 @@ old-location: rpc\rpcerrorsaveerrorinfo.htm
 old-project: Rpc
 ms.assetid: 59a3ba71-10bd-47d1-91b0-eba5ffa5051b
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcErrorSaveErrorInfo, RpcErrorSaveErrorInfo function [RPC], _rpc_rpcerrorsaveerrorinfo, rpc.rpcerrorsaveerrorinfo, rpcasync/RpcErrorSaveErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

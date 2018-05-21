@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_UnregisterStereoStatus.htm
 old-project: direct3ddxgi
 ms.assetid: 8E3994C4-DA37-4D17-9F4D-C31E48CDE170
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],UnregisterStereoStatus method, IDXGIFactory2.UnregisterStereoStatus, IDXGIFactory2::UnregisterStereoStatus, UnregisterStereoStatus, UnregisterStereoStatus method [DXGI], UnregisterStereoStatus method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_UnregisterStereoStatus, dxgi1_2/IDXGIFactory2::UnregisterStereoStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

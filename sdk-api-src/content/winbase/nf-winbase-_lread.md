@@ -7,7 +7,7 @@ old-location: winprog\_lread.htm
 old-project: DevNotes
 ms.assetid: A5374B2B-12EC-4130-8D21-1801D1D72524
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "_lread, _lread function [Windows API], winbase/_lread, winprog._lread"
 ms.prod: windows-hardware
 ms.technology: windows-devices

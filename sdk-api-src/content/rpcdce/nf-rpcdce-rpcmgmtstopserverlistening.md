@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtstopserverlistening.htm
 old-project: Rpc
 ms.assetid: aeb6084a-e2ea-4468-85f8-2ae6cc4dbe84
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcMgmtStopServerListening, RpcMgmtStopServerListening function [RPC], _rpc_rpcmgmtstopserverlistening, rpc.rpcmgmtstopserverlistening, rpcdce/RpcMgmtStopServerListening
 ms.prod: windows-hardware
 ms.technology: windows-devices

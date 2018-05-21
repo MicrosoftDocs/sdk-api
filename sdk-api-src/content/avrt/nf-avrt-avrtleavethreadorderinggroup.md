@@ -7,7 +7,7 @@ old-location: base\avrtleavethreadorderinggroup.htm
 old-project: ProcThread
 ms.assetid: b618c312-0a43-4815-ad32-8820c658dc0b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: AvRtLeaveThreadOrderingGroup, AvRtLeaveThreadOrderingGroup function, avrt/AvRtLeaveThreadOrderingGroup, base.avrtleavethreadorderinggroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

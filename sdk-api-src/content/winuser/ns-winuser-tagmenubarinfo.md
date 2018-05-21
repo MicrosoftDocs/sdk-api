@@ -7,7 +7,7 @@ old-location: menurc\menubarinfo.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menubarinfo.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPMENUBARINFO, *PMENUBARINFO, MENUBARINFO, MENUBARINFO structure [Menus and Other Resources], PMENUBARINFO, PMENUBARINFO structure pointer [Menus and Other Resources], _win32_MENUBARINFO_str, _win32_menubarinfo_str_cpp, menurc.menubarinfo, tagMENUBARINFO, winui._win32_menubarinfo_str, winuser/MENUBARINFO, winuser/PMENUBARINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ibda_signalstatistics_put_signallocked.htm
 old-project: mstv
 ms.assetid: 26e4053f-7e43-464d-8ea1-076f741d5b63
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],put_SignalLocked method, IBDA_SignalStatistics.put_SignalLocked, IBDA_SignalStatistics::put_SignalLocked, IBDA_SignalStatisticsput_SignalLocked, bdaiface/IBDA_SignalStatistics::put_SignalLocked, mstv.ibda_signalstatistics_put_signallocked, put_SignalLocked, put_SignalLocked method [Microsoft TV Technologies], put_SignalLocked method [Microsoft TV Technologies],IBDA_SignalStatistics interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

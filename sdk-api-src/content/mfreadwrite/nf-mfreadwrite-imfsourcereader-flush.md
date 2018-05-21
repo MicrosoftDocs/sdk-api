@@ -7,7 +7,7 @@ old-location: mf\imfsourcereader_flush.htm
 old-project: medfound
 ms.assetid: 34992c64-9956-4b23-a979-df7f678405b5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],Flush method, IMFSourceReader.Flush, IMFSourceReader::Flush, MF_SOURCE_READER_ALL_STREAMS, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereader_flush, mfreadwrite/IMFSourceReader::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices

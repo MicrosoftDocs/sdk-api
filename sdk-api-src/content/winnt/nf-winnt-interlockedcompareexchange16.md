@@ -7,7 +7,7 @@ old-location: base\interlockedcompareexchange16.htm
 old-project: Sync
 ms.assetid: 5bf2e0d7-1b64-4622-8b6f-4ac903027064
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/17/2018
 ms.keywords: InterlockedCompareExchange16, InterlockedCompareExchange16 function, base.interlockedcompareexchange16, winnt/InterlockedCompareExchange16
 ms.prod: windows-hardware
 ms.technology: windows-devices

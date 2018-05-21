@@ -7,7 +7,7 @@ old-location: mstv\idvbslocator_put_elevation.htm
 old-project: mstv
 ms.assetid: 12db3e20-9102-483c-a4ef-8a90a376b7af
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_Elevation method, IDVBSLocator.put_Elevation, IDVBSLocator::put_Elevation, IDVBSLocatorput_Elevation, mstv.idvbslocator_put_elevation, put_Elevation, put_Elevation method [Microsoft TV Technologies], put_Elevation method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_Elevation
 ms.prod: windows-hardware
 ms.technology: windows-devices

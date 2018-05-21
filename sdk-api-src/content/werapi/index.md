@@ -2,7 +2,7 @@
 UID: NA:werapi
 ms.assetid: 742a570f-0083-381a-b67e-189ee442556e
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

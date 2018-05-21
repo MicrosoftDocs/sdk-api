@@ -7,7 +7,7 @@ old-location: tapi2\linecallstatus_str.htm
 old-project: Tapi
 ms.assetid: f056bea6-aeb0-4c18-8e3b-c1c6fd907f62
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: "*LPLINECALLSTATUS, LINECALLSTATE_BUSY, LINECALLSTATE_CONNECTED, LINECALLSTATE_DIALTONE, LINECALLSTATE_DISCONNECTED, LINECALLSTATE_OFFERING, LINECALLSTATE_SPECIALINFO, LINECALLSTATUS, LINECALLSTATUS structure [TAPI 2.2], LPLINECALLSTATUS, LPLINECALLSTATUS structure pointer [TAPI 2.2], _tapi2_linecallstatus_str, linecallstatus_tag, tapi/LINECALLSTATUS, tapi/LPLINECALLSTATUS, tapi2.linecallstatus_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

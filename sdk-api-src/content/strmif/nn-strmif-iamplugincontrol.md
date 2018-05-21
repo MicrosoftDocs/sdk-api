@@ -7,7 +7,7 @@ old-location: dshow\iamplugincontrol.htm
 old-project: DirectShow
 ms.assetid: 66720991-3a3f-4c45-a543-b8050d31fcc3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMPluginControl, IAMPluginControl interface [DirectShow], IAMPluginControl interface [DirectShow],described, dshow.iamplugincontrol, strmif/IAMPluginControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfasfmutualexclusion_getstreamsforrecord.htm
 old-project: medfound
 ms.assetid: ce410ae9-d0d0-4617-8178-829ef3c77ce0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetStreamsForRecord, GetStreamsForRecord method [Media Foundation], GetStreamsForRecord method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],GetStreamsForRecord method, IMFASFMutualExclusion.GetStreamsForRecord, IMFASFMutualExclusion::GetStreamsForRecord, ce410ae9-d0d0-4617-8178-829ef3c77ce0, mf.imfasfmutualexclusion_getstreamsforrecord, wmcontainer/IMFASFMutualExclusion::GetStreamsForRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

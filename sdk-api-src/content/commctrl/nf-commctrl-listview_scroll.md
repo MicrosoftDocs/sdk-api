@@ -7,7 +7,7 @@ old-location: controls\ListView_Scroll.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_scroll.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ListView_Scroll, ListView_Scroll macro [Windows Controls], _win32_ListView_Scroll, _win32_ListView_Scroll_cpp, commctrl/ListView_Scroll, controls.ListView_Scroll, controls._win32_ListView_Scroll
 ms.prod: windows-hardware
 ms.technology: windows-devices

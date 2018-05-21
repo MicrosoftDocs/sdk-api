@@ -7,7 +7,7 @@ old-location: ncd\iwsdmessageparameters_getremoteaddress.htm
 old-project: WsdApi
 ms.assetid: 483306d4-9672-4f30-a318-df5c7afbf583
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetRemoteAddress, GetRemoteAddress method, GetRemoteAddress method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetRemoteAddress method, IWSDMessageParameters.GetRemoteAddress, IWSDMessageParameters::GetRemoteAddress, ncd.iwsdmessageparameters_getremoteaddress, wsdbase/IWSDMessageParameters::GetRemoteAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

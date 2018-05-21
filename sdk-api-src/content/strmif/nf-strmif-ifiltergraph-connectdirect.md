@@ -7,7 +7,7 @@ old-location: dshow\ifiltergraph_connectdirect.htm
 old-project: DirectShow
 ms.assetid: fb17bd98-dd6b-4fad-9b56-9cab10725b28
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ConnectDirect, ConnectDirect method [DirectShow], ConnectDirect method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],ConnectDirect method, IFilterGraph.ConnectDirect, IFilterGraph::ConnectDirect, IFilterGraphConnectDirect, dshow.ifiltergraph_connectdirect, strmif/IFilterGraph::ConnectDirect
 ms.prod: windows-hardware
 ms.technology: windows-devices

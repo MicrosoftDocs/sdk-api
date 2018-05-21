@@ -7,7 +7,7 @@ old-location: com\iolecache_initcache.htm
 old-project: com
 ms.assetid: 4b1f2fb6-636c-47dd-8f89-884f7b4f3977
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IOleCache interface [COM],InitCache method, IOleCache.InitCache, IOleCache::InitCache, InitCache, InitCache method [COM], InitCache method [COM],IOleCache interface, _ole_iolecache_initcache, com.iolecache_initcache, oleidl/IOleCache::InitCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

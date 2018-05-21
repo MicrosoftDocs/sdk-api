@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertyItem_propId_propSize_buffe
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertyitem.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetPropertyItem, GetPropertyItem method [GDI+], GetPropertyItem method [GDI+],Image class, Image class [GDI+],GetPropertyItem method, Image.GetPropertyItem, Image::GetPropertyItem, _gdiplus_CLASS_Image_GetPropertyItem_propId_propSize_buffer_, gdiplus._gdiplus_CLASS_Image_GetPropertyItem_propId_propSize_buffer_
 ms.prod: windows-hardware
 ms.technology: windows-devices

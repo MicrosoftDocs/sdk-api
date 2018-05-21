@@ -7,7 +7,7 @@ old-location: ncd\iwsddeviceproxy_init_method.htm
 old-project: WsdApi
 ms.assetid: d29212c8-2f29-41cc-ae35-8376ec5f0b7a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDDeviceProxy interface,Init method, IWSDDeviceProxy.Init, IWSDDeviceProxy::Init, Init, Init method, Init method,IWSDDeviceProxy interface, ncd.iwsddeviceproxy_init_method, wsdclient/IWSDDeviceProxy::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices

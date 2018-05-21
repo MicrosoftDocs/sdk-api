@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_TextureBrush_SetTransform_matrix_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\settransform_41matrix.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: SetTransform, SetTransform method [GDI+], SetTransform method [GDI+],TextureBrush class, TextureBrush class [GDI+],SetTransform method, TextureBrush.SetTransform, TextureBrush::SetTransform, _gdiplus_CLASS_TextureBrush_SetTransform_matrix_, gdiplus._gdiplus_CLASS_TextureBrush_SetTransform_matrix_
 ms.prod: windows-hardware
 ms.technology: windows-devices

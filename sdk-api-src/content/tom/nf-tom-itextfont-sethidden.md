@@ -7,7 +7,7 @@ old-location: controls\ITextFont_SetHidden.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\sethidden.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextFont interface [Windows Controls],SetHidden method, ITextFont.SetHidden, ITextFont::SetHidden, SetHidden, SetHidden method [Windows Controls], SetHidden method [Windows Controls],ITextFont interface, _win32_ITextFont_SetHidden, _win32_ITextFont_SetHidden_cpp, controls.ITextFont_SetHidden, controls._win32_ITextFont_SetHidden, tom/ITextFont::SetHidden
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rpc\ndrinterfacepointerunmarshall.htm
 old-project: Rpc
 ms.assetid: b6ed9308-a935-44ed-a0e7-17d05d4762e5
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: NdrInterfacePointerUnmarshall, NdrInterfacePointerUnmarshall function [RPC], rpc.ndrinterfacepointerunmarshall, rpcndr/NdrInterfacePointerUnmarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

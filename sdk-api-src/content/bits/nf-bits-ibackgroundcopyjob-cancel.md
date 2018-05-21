@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_cancel.htm
 old-project: Bits
 ms.assetid: bb3f32d9-298a-4099-8d87-4057ddefb0ba
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: Cancel, Cancel method [BITS], Cancel method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],Cancel method, IBackgroundCopyJob.Cancel, IBackgroundCopyJob::Cancel, _drz_ibackgroundcopyjob_cancel, bits.ibackgroundcopyjob_cancel, bits/IBackgroundCopyJob::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices

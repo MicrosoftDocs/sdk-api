@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_SetCompositingMode_compositingMode
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setcompositingmode.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Graphics class [GDI+],SetCompositingMode method, Graphics.SetCompositingMode, Graphics::SetCompositingMode, SetCompositingMode, SetCompositingMode method [GDI+], SetCompositingMode method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetCompositingMode_compositingMode_, gdiplus._gdiplus_CLASS_Graphics_SetCompositingMode_compositingMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices

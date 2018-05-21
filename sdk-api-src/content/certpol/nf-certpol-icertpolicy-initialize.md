@@ -7,7 +7,7 @@ old-location: security\icertpolicy2_initialize.htm
 old-project: SecCrypto
 ms.assetid: b0a0e9a6-79ca-4898-bddd-e736552aaf68
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CCertPolicy object [Security],Initialize method, ICertPolicy interface [Security],Initialize method, ICertPolicy.Initialize, ICertPolicy2 interface [Security],Initialize method, ICertPolicy2::Initialize, ICertPolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],CCertPolicy object, Initialize method [Security],ICertPolicy interface, Initialize method [Security],ICertPolicy2 interface, _certsrv_icertpolicy_initialize, certpol/ICertPolicy2::Initialize, certpol/ICertPolicy::Initialize, security.icertpolicy2_initialize, security.icertpolicy_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: X509RequestType
+req.typenames: X509SCEPFailInfo
 topic_type:
 -	APIRef
 -	kbSyntax

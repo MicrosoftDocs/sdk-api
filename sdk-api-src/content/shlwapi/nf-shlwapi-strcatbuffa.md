@@ -7,7 +7,7 @@ old-location: shell\StrCatBuff.htm
 old-project: shell
 ms.assetid: ce8c002f-f4f8-4b5f-a9e2-7bcd21f8808c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: StrCatBuff, StrCatBuff function [Windows Shell], StrCatBuffA, StrCatBuffW, _win32_StrCatBuff, shell.StrCatBuff, shlwapi/StrCatBuff, shlwapi/StrCatBuffA, shlwapi/StrCatBuffW
 ms.prod: windows-hardware
 ms.technology: windows-devices

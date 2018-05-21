@@ -2,7 +2,7 @@
 UID: NA:muiload
 ms.assetid: 881ea66f-10cf-358e-9fdc-63c0e29b33ee
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

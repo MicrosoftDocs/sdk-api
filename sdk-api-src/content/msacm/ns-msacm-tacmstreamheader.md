@@ -7,7 +7,7 @@ old-location: multimedia\acmstreamheader.htm
 old-project: Multimedia
 ms.assetid: 723e96d8-f098-4e08-862a-a9fea8d2fbe3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPACMSTREAMHEADER, *PACMSTREAMHEADER, ACMSTREAMHEADER, ACMSTREAMHEADER structure [Windows Multimedia], ACMSTREAMHEADER_STATUSF_DONE, ACMSTREAMHEADER_STATUSF_INQUEUE, ACMSTREAMHEADER_STATUSF_PREPARED, _win32_ACMSTREAMHEADER_str, msacm/ACMSTREAMHEADER, multimedia.acmstreamheader, tACMSTREAMHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

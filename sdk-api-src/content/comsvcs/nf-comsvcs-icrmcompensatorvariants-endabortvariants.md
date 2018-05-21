@@ -7,7 +7,7 @@ old-location: cos\icrmcompensatorvariants_endabortvariants.htm
 old-project: cossdk
 ms.assetid: 021880c3-e52c-4fa7-9815-3180ee1564da
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: EndAbortVariants, EndAbortVariants method [COM+], EndAbortVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],EndAbortVariants method, ICrmCompensatorVariants.EndAbortVariants, ICrmCompensatorVariants::EndAbortVariants, _dtc_ICrmCompensatorVariants_EndAbortVariants, comsvcs/ICrmCompensatorVariants::EndAbortVariants, cos.icrmcompensatorvariants_endabortvariants
 ms.prod: windows-hardware
 ms.technology: windows-devices

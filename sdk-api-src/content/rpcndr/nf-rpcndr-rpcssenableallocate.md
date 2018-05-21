@@ -7,7 +7,7 @@ old-location: rpc\rpcssenableallocate.htm
 old-project: Rpc
 ms.assetid: 18060ed2-2250-47c7-8579-238edea44c66
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcSsEnableAllocate, RpcSsEnableAllocate function [RPC], _rpc_rpcssenableallocate, rpc.rpcssenableallocate, rpcndr/RpcSsEnableAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices

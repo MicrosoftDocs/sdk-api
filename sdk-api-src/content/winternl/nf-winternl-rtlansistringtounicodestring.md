@@ -7,7 +7,7 @@ old-location: winprog\rtlansistringtounicodestring.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlansistringtounicodestring.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FALSE, RtlAnsiStringToUnicodeString, RtlAnsiStringToUnicodeString function [Windows API], TRUE, winprog.rtlansistringtounicodestring, winternl/RtlAnsiStringToUnicodeString, winui.rtlansistringtounicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_ColorMatrix.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colormatrix.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: ColorMatrix, ColorMatrix structure [GDI+], _gdiplus_STRUC_ColorMatrix, gdiplus._gdiplus_STRUC_ColorMatrix, gdipluscolormatrix/ColorMatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices

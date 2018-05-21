@@ -7,7 +7,7 @@ old-location: com\coresumeclassobjects.htm
 old-project: com
 ms.assetid: c2b6e8d8-99a1-4af3-9881-bfe6932e4a76
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CoResumeClassObjects, CoResumeClassObjects function [COM], _com_CoResumeClassObjects, com.coresumeclassobjects, combaseapi/CoResumeClassObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput6_getdesc1.htm
 old-project: direct3ddxgi
 ms.assetid: DE251D64-BB41-49D7-AC46-791089502286
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: GetDesc1, GetDesc1 method [DXGI], GetDesc1 method [DXGI],IDXGIOutput6 interface, IDXGIOutput6 interface [DXGI],GetDesc1 method, IDXGIOutput6.GetDesc1, IDXGIOutput6::GetDesc1, direct3ddxgi.idxgioutput6_getdesc1, dxgi1_6/IDXGIOutput6::GetDesc1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DXGI_GPU_PREFERENCE
+req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
 topic_type:
 -	APIRef
 -	kbSyntax

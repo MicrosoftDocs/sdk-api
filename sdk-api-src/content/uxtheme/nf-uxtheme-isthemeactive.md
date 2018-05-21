@@ -7,7 +7,7 @@ old-location: controls\IsThemeActive.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemeactive.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: IsThemeActive, IsThemeActive function [Windows Controls], controls.IsThemeActive, controls.inet_IsThemeActive, inet_IsThemeActive, inet_IsThemeActive_cpp, uxtheme/IsThemeActive
 ms.prod: windows-hardware
 ms.technology: windows-devices

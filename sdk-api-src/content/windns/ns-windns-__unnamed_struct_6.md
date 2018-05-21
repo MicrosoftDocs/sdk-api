@@ -7,7 +7,7 @@ old-location: dns\dns_soa_data.htm
 old-project: DNS
 ms.assetid: 715cbb70-91fe-47ac-a713-1fe0701d4f8c
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: "*PDNS_SOA_DATA, *PDNS_SOA_DATAA, DNS_SOA_DATA, DNS_SOA_DATA structure [DNS], DNS_SOA_DATAA, PDNS_SOA_DATA, PDNS_SOA_DATA structure pointer [DNS], _dns_dns_soa_data, dns.dns_soa_data, windns/DNS_SOA_DATA, windns/PDNS_SOA_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

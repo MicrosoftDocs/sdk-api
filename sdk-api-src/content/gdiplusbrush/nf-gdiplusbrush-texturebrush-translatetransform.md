@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TranslateTransform_dx_dy_order
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\translatetransform_46dx_dy_order.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: TextureBrush class [GDI+],TranslateTransform method, TextureBrush.TranslateTransform, TextureBrush::TranslateTransform, TranslateTransform, TranslateTransform method [GDI+], TranslateTransform method [GDI+],TextureBrush class, _gdiplus_CLASS_TextureBrush_TranslateTransform_dx_dy_order_, gdiplus._gdiplus_CLASS_TextureBrush_TranslateTransform_dx_dy_order_
 ms.prod: windows-hardware
 ms.technology: windows-devices

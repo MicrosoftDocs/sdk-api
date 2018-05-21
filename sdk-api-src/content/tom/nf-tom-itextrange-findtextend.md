@@ -7,7 +7,7 @@ old-location: controls\ITextRange_FindTextEnd.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\findtextend.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: FindTextEnd, FindTextEnd method [Windows Controls], FindTextEnd method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],FindTextEnd method, ITextRange.FindTextEnd, ITextRange::FindTextEnd, _win32_ITextRange_FindTextEnd, _win32_ITextRange_FindTextEnd_cpp, controls.ITextRange_FindTextEnd, controls._win32_ITextRange_FindTextEnd, tom/ITextRange::FindTextEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

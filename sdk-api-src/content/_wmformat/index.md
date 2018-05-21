@@ -2,7 +2,7 @@
 UID: TP:wmformat
 ms.assetid: d9cec177-31f2-3ccd-a314-e6d46703ed09
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -17,7 +17,6 @@ Overview of the Windows Media Format 11 SDK technology.
 
 To develop Windows Media Format 11 SDK, you need these headers:
 
- * [sapi53.h](..\sapi53\index.md)
  * [wmdxva.h](..\wmdxva\index.md)
  * [wmnetsourcecreator.h](..\wmnetsourcecreator\index.md)
  * [wmsbuffer.h](..\wmsbuffer\index.md)
@@ -60,7 +59,6 @@ For the programming guide, see [Windows Media Format 11 SDK](https://review.docs
 
 | Title   | Description   |
 | ---- |:---- |
-| [WAVEFORMATEX structure](..\sapi53\ns-sapi53-waveformatex.md) | This content has been moved to WAVEFORMATEX. |
 | [WMDRM_IMPORT_INIT_STRUCT structure](..\wmsdkidl\ns-wmsdkidl-wmdrm_import_init_struct.md) | The WMDRM_IMPORT_INIT_STRUCT structure holds the encrypted session key and content key used in importing protected content. |
 | [_DRM_VAL16 structure](..\wmsdkidl\ns-wmsdkidl-_drm_val16.md) | The DRM_VAL16 structure is used by some DRM-related methods for passing 128-bit device identification values. |
 | [_WMAddressAccessEntry structure](..\wmsdkidl\ns-wmsdkidl-_wmaddressaccessentry.md) | The WM_ADDRESS_ACCESSENTRY structure specifies an entry in an IP address access list. |

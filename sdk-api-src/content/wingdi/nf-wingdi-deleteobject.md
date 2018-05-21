@@ -7,7 +7,7 @@ old-location: gdi\deleteobject.htm
 old-project: gdi
 ms.assetid: cc679af0-6839-4c83-9c42-39d7ededda40
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: DeleteObject, DeleteObject function [Windows GDI], DeleteObjectW, _win32_DeleteObject, gdi.deleteobject, wingdi/DeleteObject, wingdi/DeleteObjectW
 ms.prod: windows-hardware
 ms.technology: windows-devices

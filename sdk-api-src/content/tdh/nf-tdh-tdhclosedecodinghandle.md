@@ -7,7 +7,7 @@ old-location: etw\tdhclosedecodinghandle.htm
 old-project: ETW
 ms.assetid: f3cf6b1e-c970-4b91-aa54-370d46a6e86a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: TdhCloseDecodingHandle, TdhCloseDecodingHandle function [ETW], etw.tdhclosedecodinghandle, tdh/TdhCloseDecodingHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

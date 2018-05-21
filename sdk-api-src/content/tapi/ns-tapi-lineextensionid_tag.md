@@ -7,7 +7,7 @@ old-location: tapi2\lineextensionid_str.htm
 old-project: Tapi
 ms.assetid: bf7d9ccc-3f80-4e54-bcc2-cc2fef1d24af
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: "*LPLINEEXTENSIONID, LINEEXTENSIONID, LINEEXTENSIONID structure [TAPI 2.2], LPLINEEXTENSIONID, LPLINEEXTENSIONID structure pointer [TAPI 2.2], _tapi2_lineextensionid_str, lineextensionid_tag, tapi/LINEEXTENSIONID, tapi/LPLINEEXTENSIONID, tapi2.lineextensionid_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

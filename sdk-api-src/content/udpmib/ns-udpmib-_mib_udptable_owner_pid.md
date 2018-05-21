@@ -7,7 +7,7 @@ old-location: mib\mib_udptable_owner_pid.htm
 old-project: MIB
 ms.assetid: 7c51a1e4-1e07-4fb1-8db3-e48229f12aca
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PMIB_UDPTABLE_OWNER_PID, MIB_UDPTABLE_OWNER_PID, MIB_UDPTABLE_OWNER_PID structure [MIB], PMIB_UDPTABLE_OWNER_PID, PMIB_UDPTABLE_OWNER_PID structure pointer [MIB], _MIB_UDPTABLE_OWNER_PID, iprtrmib/MIB_UDPTABLE_OWNER_PID, iprtrmib/PMIB_UDPTABLE_OWNER_PID, mib.mib_udptable_owner_pid, udpmib/MIB_UDPTABLE_OWNER_PID, udpmib/PMIB_UDPTABLE_OWNER_PID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

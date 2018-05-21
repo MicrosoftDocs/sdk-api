@@ -7,8 +7,8 @@ old-location: netshell\ns_osversioncheck.htm
 old-project: NetShell
 ms.assetid: d58258ac-a16a-4983-bf35-71153dcbe652
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
-ms.keywords: SampleOsVersionCheck, SampleOsVersionCheck callback function [NetShell], _netsh_ns_osversioncheck, netsh/SampleOsVersionCheck, netshell.ns_osversioncheck
+ms.date: 5/10/2018
+ms.keywords: NS_OSVERSIONCHECK, NS_OSVERSIONCHECK callback, NS_OSVERSIONCHECK callback function [NetShell], SampleOsVersionCheck, _netsh_ns_osversioncheck, netsh/NS_OSVERSIONCHECK, netshell.ns_osversioncheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Netsh.h
 api_name:
--	SampleOsVersionCheck
+-	NS_OSVERSIONCHECK
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# NS_OSVERSIONCHECK callback
+# NS_OSVERSIONCHECK callback function
 
 
 ## -description

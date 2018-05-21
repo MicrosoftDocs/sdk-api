@@ -7,7 +7,7 @@ old-location: dshow\ireferenceclock_adviseperiodic.htm
 old-project: DirectShow
 ms.assetid: c8e2545b-ea3c-441c-8721-e7dec09d100e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AdvisePeriodic, AdvisePeriodic method [DirectShow], AdvisePeriodic method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],AdvisePeriodic method, IReferenceClock.AdvisePeriodic, IReferenceClock::AdvisePeriodic, IReferenceClockAdvisePeriodic, dshow.ireferenceclock_adviseperiodic, strmif/IReferenceClock::AdvisePeriodic
 ms.prod: windows-hardware
 ms.technology: windows-devices

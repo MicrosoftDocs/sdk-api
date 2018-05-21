@@ -7,7 +7,7 @@ old-location: dshow\ivmrsurface9.htm
 old-project: DirectShow
 ms.assetid: b24dae7d-5e88-4973-8507-8bd13cdccbde
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IVMRSurface9, IVMRSurface9 interface [DirectShow], IVMRSurface9 interface [DirectShow],described, IVMRSurface9Interface, dshow.ivmrsurface9, vmr9/IVMRSurface9
 ms.prod: windows-hardware
 ms.technology: windows-devices

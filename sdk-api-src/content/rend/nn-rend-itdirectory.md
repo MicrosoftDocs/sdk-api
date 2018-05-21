@@ -7,7 +7,7 @@ old-location: tapi3\itdirectory.htm
 old-project: Tapi
 ms.assetid: 9ec8c0ed-2fed-4701-acb5-86b69c10f18c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: ITDirectory, ITDirectory interface [TAPI 2.2], ITDirectory interface [TAPI 2.2],described, _tapi3_itdirectory, rend/ITDirectory, tapi3.itdirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices

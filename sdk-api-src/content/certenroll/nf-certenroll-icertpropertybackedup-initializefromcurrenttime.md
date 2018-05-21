@@ -7,7 +7,7 @@ old-location: security\icertpropertybackedup_initializefromcurrenttime_method.ht
 old-project: SecCertEnroll
 ms.assetid: 2033c947-661c-4a52-b24f-82fa71ba7868
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ICertPropertyBackedUp interface [Security],InitializeFromCurrentTime method, ICertPropertyBackedUp.InitializeFromCurrentTime, ICertPropertyBackedUp::InitializeFromCurrentTime, InitializeFromCurrentTime, InitializeFromCurrentTime method [Security], InitializeFromCurrentTime method [Security],ICertPropertyBackedUp interface, certenroll/ICertPropertyBackedUp::InitializeFromCurrentTime, security.icertpropertybackedup_initializefromcurrenttime_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

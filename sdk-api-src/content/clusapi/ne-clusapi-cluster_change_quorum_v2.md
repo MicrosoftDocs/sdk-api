@@ -7,7 +7,7 @@ old-location: mscs\cluster_change_quorum_v2.htm
 old-project: MsCS
 ms.assetid: 373E451C-B05F-4D46-9303-60D2C6090228
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: CLUSTER_CHANGE_QUORUM_ALL_V2, CLUSTER_CHANGE_QUORUM_STATE_V2, CLUSTER_CHANGE_QUORUM_V2, CLUSTER_CHANGE_QUORUM_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_QUORUM_ALL_V2, clusapi/CLUSTER_CHANGE_QUORUM_STATE_V2, clusapi/CLUSTER_CHANGE_QUORUM_V2, msclus/CLUSTER_CHANGE_QUORUM_ALL_V2, msclus/CLUSTER_CHANGE_QUORUM_STATE_V2, msclus/CLUSTER_CHANGE_QUORUM_V2, mscs.cluster_change_quorum_v2
 ms.prod: windows-hardware
 ms.technology: windows-devices

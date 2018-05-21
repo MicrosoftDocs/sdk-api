@@ -7,7 +7,7 @@ old-location: security\certaddcrlcontexttostore.htm
 old-project: SecCrypto
 ms.assetid: 5dfa1c08-5d75-4ee4-bd65-ce56eb61ecce
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddCRLContextToStore, CertAddCRLContextToStore function [Security], _crypto2_certaddcrlcontexttostore, security.certaddcrlcontexttostore, wincrypt/CertAddCRLContextToStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

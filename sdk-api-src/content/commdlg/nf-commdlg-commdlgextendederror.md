@@ -7,7 +7,7 @@ old-location: dlgbox\commdlgextendederror.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\commdlgextendederror.htm
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/17/2018
 ms.keywords: CommDlgExtendedError, CommDlgExtendedError function [Dialog Boxes], _win32_CommDlgExtendedError, _win32_commdlgextendederror_cpp, commdlg/CommDlgExtendedError, dlgbox.commdlgextendederror, winui._win32_commdlgextendederror
 ms.prod: windows-hardware
 ms.technology: windows-devices

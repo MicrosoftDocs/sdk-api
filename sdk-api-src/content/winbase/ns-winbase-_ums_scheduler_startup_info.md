@@ -7,7 +7,7 @@ old-location: base\ums_scheduler_startup_info.htm
 old-project: ProcThread
 ms.assetid: e3f7b1b7-d2b8-432d-bce7-3633292e855b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: "*PUMS_SCHEDULER_STARTUP_INFO, PUMS_SCHEDULER_STARTUP_INFO, PUMS_SCHEDULER_STARTUP_INFO structure pointer, UMS_SCHEDULER_STARTUP_INFO, UMS_SCHEDULER_STARTUP_INFO structure, _UMS_SCHEDULER_STARTUP_INFO, base.ums_scheduler_startup_info, winbase/PUMS_SCHEDULER_STARTUP_INFO, winbase/UMS_SCHEDULER_STARTUP_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

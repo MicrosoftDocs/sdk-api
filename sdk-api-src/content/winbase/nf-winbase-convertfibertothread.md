@@ -7,7 +7,7 @@ old-location: base\convertfibertothread.htm
 old-project: ProcThread
 ms.assetid: 194c5289-0d25-4ce1-9c32-9e87b12db825
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: ConvertFiberToThread, ConvertFiberToThread function, _win32_convertfibertothread, base.convertfibertothread, winbase/ConvertFiberToThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

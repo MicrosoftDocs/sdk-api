@@ -7,7 +7,7 @@ old-location: ncd\wsdxmladdsibling.htm
 old-project: WsdApi
 ms.assetid: dbe5de39-eb8e-4352-b0c4-32d10e324185
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSDXMLAddSibling, WSDXMLAddSibling function, ncd.wsdxmladdsibling, wsdutil/WSDXMLAddSibling
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: eap\ieapproviderconfig_routerinvokeconfigui.htm
 old-project: EAP
 ms.assetid: ba07f5c6-0b76-489f-b787-2965710cd1c5
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/16/2018
 ms.keywords: IEAPProviderConfig interface [EAP],RouterInvokeConfigUI method, IEAPProviderConfig.RouterInvokeConfigUI, IEAPProviderConfig::RouterInvokeConfigUI, RouterInvokeConfigUI, RouterInvokeConfigUI method [EAP], RouterInvokeConfigUI method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_routerinvokeconfigui, eap.ieapproviderconfig_routerinvokeconfigui, rrascfg/IEAPProviderConfig::RouterInvokeConfigUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservices_endregisterplatformworkqueuewithmmcss.htm
 old-project: medfound
 ms.assetid: b9d65d6c-495a-4ca0-b0fd-0a4199e2a7d5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: EndRegisterPlatformWorkQueueWithMMCSS, EndRegisterPlatformWorkQueueWithMMCSS method [Media Foundation], EndRegisterPlatformWorkQueueWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],EndRegisterPlatformWorkQueueWithMMCSS method, IMFWorkQueueServices.EndRegisterPlatformWorkQueueWithMMCSS, IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS, b9d65d6c-495a-4ca0-b0fd-0a4199e2a7d5, mf.imfworkqueueservices_endregisterplatformworkqueuewithmmcss, mfidl/IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices

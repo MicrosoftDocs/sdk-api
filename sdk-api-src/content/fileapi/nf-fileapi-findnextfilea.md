@@ -7,7 +7,7 @@ old-location: fs\findnextfile.htm
 old-project: FileIO
 ms.assetid: db7acb83-2da6-40bf-9962-5cfe54e257a5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: FindNextFile, FindNextFile function [Files], FindNextFileA, FindNextFileW, _win32_findnextfile, base.findnextfile, fileapi/FindNextFile, fileapi/FindNextFileA, fileapi/FindNextFileW, fs.findnextfile, winbase/FindNextFile, winbase/FindNextFileA, winbase/FindNextFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

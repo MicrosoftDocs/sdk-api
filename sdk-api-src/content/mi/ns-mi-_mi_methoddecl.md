@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_methoddecl.htm
 old-project: wmi_v2
 ms.assetid: 50087394-44C2-4CE5-8952-9795FE9B236A
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_FLAG_METHOD, MI_FLAG_STATIC, MI_MethodDecl, MI_MethodDecl structure [Windows Management Infrastructure (MI)], _MI_MethodDecl, mi/MI_MethodDecl, wmi_v2.mi_methoddecl
 ms.prod: windows-hardware
 ms.technology: windows-devices

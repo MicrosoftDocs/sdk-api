@@ -7,7 +7,7 @@ old-location: intl\getsystemdefaultlocalename.htm
 old-project: Intl
 ms.assetid: 1e925e41-64db-44aa-ab73-05d0f2036c8f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetSystemDefaultLocaleName, GetSystemDefaultLocaleName function [Internationalization for Windows Applications], _win32_GetSystemDefaultLocaleName, intl.getsystemdefaultlocalename, winnls/GetSystemDefaultLocaleName
 ms.prod: windows-hardware
 ms.technology: windows-devices

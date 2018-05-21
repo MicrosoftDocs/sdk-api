@@ -7,7 +7,7 @@ old-location: rras\rascreatephonebookentry.htm
 old-project: RRAS
 ms.assetid: da8bd49f-e890-4e8a-ab4d-7366c6f2b361
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RasCreatePhonebookEntry, RasCreatePhonebookEntry function [RAS], RasCreatePhonebookEntryA, RasCreatePhonebookEntryW, _ras_rascreatephonebookentry, ras/RasCreatePhonebookEntry, ras/RasCreatePhonebookEntryA, ras/RasCreatePhonebookEntryW, rras.rascreatephonebookentry
 ms.prod: windows-hardware
 ms.technology: windows-devices

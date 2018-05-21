@@ -7,7 +7,7 @@ old-location: gdi\ttenableembeddingforfacename.htm
 old-project: gdi
 ms.assetid: 05d74bfb-28c4-4e1a-9e18-df868f8fa784
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: TTEnableEmbeddingForFacename, TTEnableEmbeddingForFacename function [Windows GDI], _win32_TTEnableEmbeddingForFacename, gdi.ttenableembeddingforfacename, t2embapi/TTEnableEmbeddingForFacename
 ms.prod: windows-hardware
 ms.technology: windows-devices

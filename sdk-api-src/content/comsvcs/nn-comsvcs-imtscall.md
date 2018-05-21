@@ -7,7 +7,7 @@ old-location: cos\imtscall.htm
 old-project: cossdk
 ms.assetid: dccf53c3-19d9-435b-91b7-98e41bd48e29
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IMTSCall, IMTSCall interface [COM+], IMTSCall interface [COM+],described, _cos_IMTSCall, comsvcs/IMTSCall, cos.imtscall
 ms.prod: windows-hardware
 ms.technology: windows-devices

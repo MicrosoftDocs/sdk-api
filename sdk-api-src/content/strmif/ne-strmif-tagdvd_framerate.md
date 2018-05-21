@@ -7,7 +7,7 @@ old-location: dshow\dvd_framerate.htm
 old-project: DirectShow
 ms.assetid: 92309c56-87fe-43cc-b76e-43f9686177be
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DVD_FPS_25, DVD_FPS_30NonDrop, DVD_FRAMERATE, DVD_FRAMERATE , DVD_FRAMERATE enumeration [DirectShow], DVD_FRAMERATEEnumeration, dshow.dvd_framerate, strmif/DVD_FPS_25, strmif/DVD_FPS_30NonDrop, strmif/DVD_FRAMERATE, tagDVD_FRAMERATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # tagDVD_FRAMERATE enumeration

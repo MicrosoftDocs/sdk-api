@@ -2,11 +2,12 @@
 UID: TP:deviceaccess
 ms.assetid: c4afd78e-1e89-3dda-9c6f-6a2002ebabca
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Device Access API

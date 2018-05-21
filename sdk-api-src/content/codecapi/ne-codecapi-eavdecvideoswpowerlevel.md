@@ -7,7 +7,7 @@ old-location: dshow\eavdecvideoswpowerlevel.htm
 old-project: DirectShow
 ms.assetid: bf1c4c79-8e45-43ac-a203-444a00240eed
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: codecapi/eAVDecVideoSWPowerLevel, codecapi/eAVDecVideoSWPowerLevel_Balanced, codecapi/eAVDecVideoSWPowerLevel_BatteryLife, codecapi/eAVDecVideoSWPowerLevel_VideoQuality, dshow.eavdecvideoswpowerlevel, eAVDecVideoSWPowerLevel, eAVDecVideoSWPowerLevel enumeration [DirectShow], eAVDecVideoSWPowerLevel_Balanced, eAVDecVideoSWPowerLevel_BatteryLife, eAVDecVideoSWPowerLevel_VideoQuality
 ms.prod: windows-hardware
 ms.technology: windows-devices

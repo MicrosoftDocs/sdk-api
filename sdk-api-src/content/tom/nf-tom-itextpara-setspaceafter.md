@@ -7,7 +7,7 @@ old-location: controls\ITextPara_SetSpaceAfter.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspaceafter.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextPara interface [Windows Controls],SetSpaceAfter method, ITextPara.SetSpaceAfter, ITextPara::SetSpaceAfter, SetSpaceAfter, SetSpaceAfter method [Windows Controls], SetSpaceAfter method [Windows Controls],ITextPara interface, _win32_ITextPara_SetSpaceAfter, _win32_ITextPara_SetSpaceAfter_cpp, controls.ITextPara_SetSpaceAfter, controls._win32_ITextPara_SetSpaceAfter, tom/ITextPara::SetSpaceAfter
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_updatewindow.htm
 old-project: Controls
 ms.assetid: 85bb0a41-e3a7-43ab-bc14-fdd4dae2ee69
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],UpdateWindow method, ITextDocument2.UpdateWindow, ITextDocument2::UpdateWindow, UpdateWindow, UpdateWindow method [Windows Controls], UpdateWindow method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_updatewindow, tom/ITextDocument2::UpdateWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_setautoplay.htm
 old-project: medfound
 ms.assetid: 867FE1D2-39AE-4A44-99DD-98A8ABD234A2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetAutoPlay method, IMFMediaEngine.SetAutoPlay, IMFMediaEngine::SetAutoPlay, SetAutoPlay, SetAutoPlay method [Media Foundation], SetAutoPlay method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setautoplay, mfmediaengine/IMFMediaEngine::SetAutoPlay
 ms.prod: windows-hardware
 ms.technology: windows-devices

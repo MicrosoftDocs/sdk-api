@@ -7,7 +7,7 @@ old-location: fs\writefile.htm
 old-project: FileIO
 ms.assetid: 9d6fa723-fe3e-4052-b0b3-2686eee076a7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: WriteFile, WriteFile function [Files], _win32_writefile, base.writefile, fileapi/WriteFile, fs.writefile, winbase/WriteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: controls\itextfont2_setduplicate2.htm
 old-project: Controls
 ms.assetid: aaaafed9-be20-40a2-beed-09703970452f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetDuplicate2 method, ITextFont2.SetDuplicate2, ITextFont2::SetDuplicate2, SetDuplicate2, SetDuplicate2 method [Windows Controls], SetDuplicate2 method [Windows Controls],ITextFont2 interface, controls.itextfont2_setduplicate2, tom/ITextFont2::SetDuplicate2
 ms.prod: windows-hardware
 ms.technology: windows-devices

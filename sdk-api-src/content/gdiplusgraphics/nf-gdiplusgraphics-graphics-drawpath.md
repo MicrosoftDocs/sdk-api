@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPath_pen_path_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\drawpath.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: DrawPath, DrawPath method [GDI+], DrawPath method [GDI+],Graphics class, Graphics class [GDI+],DrawPath method, Graphics.DrawPath, Graphics::DrawPath, _gdiplus_CLASS_Graphics_DrawPath_pen_path_, gdiplus._gdiplus_CLASS_Graphics_DrawPath_pen_path_
 ms.prod: windows-hardware
 ms.technology: windows-devices

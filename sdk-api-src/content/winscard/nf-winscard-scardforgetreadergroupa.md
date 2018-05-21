@@ -7,7 +7,7 @@ old-location: security\scardforgetreadergroup.htm
 old-project: SecAuthN
 ms.assetid: c6c98542-01b6-4b23-88cf-a619faee882e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardForgetReaderGroup, SCardForgetReaderGroup function [Security], SCardForgetReaderGroupA, SCardForgetReaderGroupW, _smart_scardforgetreadergroup, security.scardforgetreadergroup, winscard/SCardForgetReaderGroup, winscard/SCardForgetReaderGroupA, winscard/SCardForgetReaderGroupW
 ms.prod: windows-hardware
 ms.technology: windows-devices

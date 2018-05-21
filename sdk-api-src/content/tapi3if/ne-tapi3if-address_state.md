@@ -7,7 +7,7 @@ old-location: tapi3\address_state.htm
 old-project: Tapi
 ms.assetid: 7c79bd68-5f1d-4796-a16b-fd786345cffd
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: ADDRESS_STATE, ADDRESS_STATE enumeration [TAPI 2.2], AS_INSERVICE, AS_OUTOFSERVICE, _tapi3_address_state, tapi3.address_state, tapi3if/ADDRESS_STATE, tapi3if/AS_INSERVICE, tapi3if/AS_OUTOFSERVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices

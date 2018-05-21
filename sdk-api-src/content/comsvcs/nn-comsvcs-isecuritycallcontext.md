@@ -7,7 +7,7 @@ old-location: cos\isecuritycallcontext.htm
 old-project: cossdk
 ms.assetid: cd96ef31-784f-40fa-beb5-92a88823326b
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: ISecurityCallContext, ISecurityCallContext interface [COM+], ISecurityCallContext interface [COM+],described, _cos_ISecurityCallContext, comsvcs/ISecurityCallContext, cos.isecuritycallcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

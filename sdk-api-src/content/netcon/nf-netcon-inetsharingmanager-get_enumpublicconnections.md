@@ -7,7 +7,7 @@ old-location: ics\inetsharingmanager_get_enumpublicconnections.htm
 old-project: ICS
 ms.assetid: 7db0eb73-8e0f-4267-9a88-20952f3721e2
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumPublicConnections method, INetSharingManager.get_EnumPublicConnections, INetSharingManager::get_EnumPublicConnections, _ics_inetsharingmanager_get_enumpublicconnections, get_EnumPublicConnections, get_EnumPublicConnections method [ICS/ICF], get_EnumPublicConnections method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_enumpublicconnections, netcon/INetSharingManager::get_EnumPublicConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices

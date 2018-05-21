@@ -7,7 +7,7 @@ old-location: winrt\iasyncinfo.htm
 old-project: WinRT
 ms.assetid: 3444e02e-8817-4c23-84d9-1a2d1bf43a52
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: IAsyncInfo, IAsyncInfo interface [Windows Runtime], IAsyncInfo interface [Windows Runtime],described, asyncinfo/IAsyncInfo, winrt.iasyncinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

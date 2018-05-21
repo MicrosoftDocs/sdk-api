@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathData_PathData_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathdataclass\pathdata_38.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: PathData, PathData class [GDI+],PathData constructor, PathData constructor [GDI+], PathData constructor [GDI+],PathData class, PathData.PathData, PathData.PathData(), PathData.PathData(const PathData &), PathData::PathData, PathData::PathData(const PathData &), _gdiplus_CLASS_PathData_PathData_, gdiplus._gdiplus_CLASS_PathData_PathData_
 ms.prod: windows-hardware
 ms.technology: windows-devices

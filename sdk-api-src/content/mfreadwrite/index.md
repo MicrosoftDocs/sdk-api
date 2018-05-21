@@ -2,7 +2,7 @@
 UID: NA:mfreadwrite
 ms.assetid: 31d4c454-f1ac-361d-a5a9-077050faf944
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

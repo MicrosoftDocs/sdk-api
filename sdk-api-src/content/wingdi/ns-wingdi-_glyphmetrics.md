@@ -7,7 +7,7 @@ old-location: gdi\glyphmetrics.htm
 old-project: gdi
 ms.assetid: a6fa3813-56f7-4b54-b21d-8aabc2309a34
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPGLYPHMETRICS, GLYPHMETRICS, GLYPHMETRICS structure [Windows GDI], LPGLYPHMETRICS, LPGLYPHMETRICS structure pointer [Windows GDI], _GLYPHMETRICS, _win32_GLYPHMETRICS_str, gdi.glyphmetrics, wingdi/GLYPHMETRICS, wingdi/LPGLYPHMETRICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

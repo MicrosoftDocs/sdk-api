@@ -7,7 +7,7 @@ old-location: dshow\qualitymessagetype.htm
 old-project: DirectShow
 ms.assetid: 54a2239d-bf37-499d-b8c4-f797c1b46933
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: Famine, Flood, QualityMessageType, QualityMessageType enumeration [DirectShow], QualityMessageTypeEnumeration, dshow.qualitymessagetype, strmif/Famine, strmif/Flood, strmif/QualityMessageType, tagQualityMessageType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # tagQualityMessageType enumeration

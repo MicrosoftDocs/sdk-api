@@ -2,7 +2,7 @@
 UID: NA:bdaiface
 ms.assetid: c1391053-4104-38c7-9fee-0ff090101ae6
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

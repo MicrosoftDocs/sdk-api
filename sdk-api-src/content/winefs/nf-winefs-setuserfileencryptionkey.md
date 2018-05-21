@@ -7,7 +7,7 @@ old-location: fs\setuserfileencryptionkey.htm
 old-project: FileIO
 ms.assetid: dd23fab7-1675-4d0d-911c-e2aac2273e7f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: SetUserFileEncryptionKey, SetUserFileEncryptionKey function [Files], _win32_setuserfileencryptionkey, base.setuserfileencryptionkey, fs.setuserfileencryptionkey, winefs/SetUserFileEncryptionKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dd_createsurfacedata.htm
 old-project: display
 ms.assetid: 5a3b4267-43b4-44dc-abad-cb3f3d07f30e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDD_CREATESURFACEDATA, DD_CREATESURFACEDATA, DD_CREATESURFACEDATA structure [Display Devices], _DD_CREATESURFACEDATA, ddrawint/DD_CREATESURFACEDATA, ddstrcts_bd51b416-f5b7-4a68-833b-7102de67488c.xml, display.dd_createsurfacedata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

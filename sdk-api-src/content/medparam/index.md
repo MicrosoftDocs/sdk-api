@@ -2,7 +2,7 @@
 UID: NA:medparam
 ms.assetid: 31b21ee7-146b-309c-836c-f7d4ebd67b25
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

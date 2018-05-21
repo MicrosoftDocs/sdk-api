@@ -7,7 +7,7 @@ old-location: base\setxstatefeaturesmask.htm
 old-project: Debug
 ms.assetid: 64ADEA8A-DE78-437E-AE68-A68E7214C5FD
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SetXStateFeaturesMask, SetXStateFeaturesMask function, base.setxstatefeaturesmask, winbase/SetXStateFeaturesMask
 ms.prod: windows-hardware
 ms.technology: windows-devices

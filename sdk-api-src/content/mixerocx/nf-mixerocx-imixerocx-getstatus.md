@@ -7,7 +7,7 @@ old-location: dshow\imixerocx_getstatus.htm
 old-project: DirectShow
 ms.assetid: 2be28eec-99cd-4a4e-91fc-77bb51ec6fb3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],GetStatus method, IMixerOCX.GetStatus, IMixerOCX::GetStatus, IMixerOCXGetStatus, dshow.imixerocx_getstatus, mixerocx/IMixerOCX::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

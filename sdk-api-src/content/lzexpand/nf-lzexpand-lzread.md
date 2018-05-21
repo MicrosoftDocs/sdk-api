@@ -7,7 +7,7 @@ old-location: fs\lzread.htm
 old-project: FileIO
 ms.assetid: 15c6829f-2e24-4299-a2fa-a5737ec73ba9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: LZRead, LZRead function [Files], _win32_lzread, base.lzread, fs.lzread, lzexpand/LZRead
 ms.prod: windows-hardware
 ms.technology: windows-devices

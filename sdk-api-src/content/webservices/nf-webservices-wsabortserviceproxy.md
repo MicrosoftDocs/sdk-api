@@ -7,7 +7,7 @@ old-location: wsw\wsabortserviceproxy.htm
 old-project: wsw
 ms.assetid: 45dc9df4-3a98-446f-b749-809607137fb1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsAbortServiceProxy, WsAbortServiceProxy function [Web Services for Windows], webservices/WsAbortServiceProxy, wsw.wsabortserviceproxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

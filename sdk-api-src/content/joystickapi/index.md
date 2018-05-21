@@ -2,7 +2,7 @@
 UID: NA:joystickapi
 ms.assetid: 0160d399-eaff-3d4f-9b19-ae0d716465dd
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dhcp\dhcphlpraddv4policycondition.htm
 old-project: DHCP
 ms.assetid: 7c90625c-e6b5-475f-a9ea-0dfd27810f03
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpHlprAddV4PolicyCondition, DhcpHlprAddV4PolicyCondition function [DHCP], dhcp.dhcphlpraddv4policycondition, dhcpsapi/DhcpHlprAddV4PolicyCondition
 ms.prod: windows-hardware
 ms.technology: windows-devices

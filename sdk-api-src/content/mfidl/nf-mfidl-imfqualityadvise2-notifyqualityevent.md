@@ -7,7 +7,7 @@ old-location: mf\imfqualityadvise2_notifyqualityevent.htm
 old-project: medfound
 ms.assetid: 7e39d421-1e7c-4b6d-beba-e24429271378
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFQualityAdvise2 interface [Media Foundation],NotifyQualityEvent method, IMFQualityAdvise2.NotifyQualityEvent, IMFQualityAdvise2::NotifyQualityEvent, NotifyQualityEvent, NotifyQualityEvent method [Media Foundation], NotifyQualityEvent method [Media Foundation],IMFQualityAdvise2 interface, mf.imfqualityadvise2_notifyqualityevent, mfidl/IMFQualityAdvise2::NotifyQualityEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

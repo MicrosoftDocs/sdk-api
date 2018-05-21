@@ -7,7 +7,7 @@ old-location: com\oleuicanconvertoractivateas.htm
 old-project: com
 ms.assetid: 9ecd978e-eded-472b-8d45-525bae56bded
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleUICanConvertOrActivateAs, OleUICanConvertOrActivateAs function [COM], _ole_OleUICanConvertOrActivateAs, com.oleuicanconvertoractivateas, oledlg/OleUICanConvertOrActivateAs
 ms.prod: windows-hardware
 ms.technology: windows-devices

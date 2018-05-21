@@ -7,7 +7,7 @@ old-location: security\lsa_token_information_v1.htm
 old-project: SecAuthN
 ms.assetid: e4c43828-aa5c-443c-93ad-96bb986533c5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PLSA_TOKEN_INFORMATION_V1, *PLSA_TOKEN_INFORMATION_V2, LSA_TOKEN_INFORMATION_V1, LSA_TOKEN_INFORMATION_V1 structure [Security], LSA_TOKEN_INFORMATION_V2, PLSA_TOKEN_INFORMATION_V1, PLSA_TOKEN_INFORMATION_V1 structure pointer [Security], _LSA_TOKEN_INFORMATION_V1, _lsa_lsa_token_information_v1, ntsecpkg/LSA_TOKEN_INFORMATION_V1, ntsecpkg/PLSA_TOKEN_INFORMATION_V1, security.lsa_token_information_v1"
 ms.prod: windows-hardware
 ms.technology: windows-devices

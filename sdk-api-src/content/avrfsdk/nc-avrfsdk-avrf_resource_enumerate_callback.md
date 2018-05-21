@@ -7,7 +7,7 @@ old-location: winprog\avrf_resource_enumerate_callback.htm
 old-project: DevNotes
 ms.assetid: 3f18937c-1d8f-46dd-8542-32107d358fc3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AVRF_RESOURCE_ENUMERATE_CALLBACK, AVRF_RESOURCE_ENUMERATE_CALLBACK callback, AVRF_RESOURCE_ENUMERATE_CALLBACK callback function [Windows API], avrfsdk/AVRF_RESOURCE_ENUMERATE_CALLBACK, base.avrf_resource_enumerate_callback, winprog.avrf_resource_enumerate_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

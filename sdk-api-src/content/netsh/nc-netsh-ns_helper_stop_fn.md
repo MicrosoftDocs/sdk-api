@@ -7,8 +7,8 @@ old-location: netshell\ns_helper_stop_fn.htm
 old-project: NetShell
 ms.assetid: a56c11e6-5314-43eb-9960-55987395112f
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
-ms.keywords: SampleStopHelper, SampleStopHelper callback function [NetShell], _netsh_ns_helper_stop_fn, netsh/SampleStopHelper, netshell.ns_helper_stop_fn
+ms.date: 5/10/2018
+ms.keywords: NS_HELPER_STOP_FN, NS_HELPER_STOP_FN callback, NS_HELPER_STOP_FN callback function [NetShell], SampleStopHelper, _netsh_ns_helper_stop_fn, netsh/NS_HELPER_STOP_FN, netshell.ns_helper_stop_fn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Netsh.h
 api_name:
--	SampleStopHelper
+-	NS_HELPER_STOP_FN
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# NS_HELPER_STOP_FN callback
+# NS_HELPER_STOP_FN callback function
 
 
 ## -description

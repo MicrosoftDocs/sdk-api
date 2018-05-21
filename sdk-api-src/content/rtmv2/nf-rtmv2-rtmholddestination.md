@@ -7,7 +7,7 @@ old-location: rras\rtmholddestination.htm
 old-project: RRAS
 ms.assetid: 433d6d97-9541-496a-8d10-2a2fc31d043d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RtmHoldDestination, RtmHoldDestination function [RAS], _rtmv2ref_rtmholddestination, rras.rtmholddestination, rtmv2/RtmHoldDestination
 ms.prod: windows-hardware
 ms.technology: windows-devices

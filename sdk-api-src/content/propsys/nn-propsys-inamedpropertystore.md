@@ -7,7 +7,7 @@ old-location: shell\INamedPropertyStore.htm
 old-project: shell
 ms.assetid: 5f7997ba-a5c8-42b5-90c8-5cb34afd6092
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: INamedPropertyStore, INamedPropertyStore interface [Windows Shell], INamedPropertyStore interface [Windows Shell],described, _shell_INamedPropertyStore, propsys/INamedPropertyStore, shell.INamedPropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

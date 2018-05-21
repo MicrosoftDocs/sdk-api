@@ -7,7 +7,7 @@ old-location: rras\rtmreleasedestinfo.htm
 old-project: RRAS
 ms.assetid: 43992abd-7e52-4d1b-b693-f437f5ba77cb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RtmReleaseDestInfo, RtmReleaseDestInfo function [RAS], _rtmv2ref_rtmreleasedestinfo, rras.rtmreleasedestinfo, rtmv2/RtmReleaseDestInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

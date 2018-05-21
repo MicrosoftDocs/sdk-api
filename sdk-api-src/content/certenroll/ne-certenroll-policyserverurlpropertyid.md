@@ -7,7 +7,7 @@ old-location: security\policyserverurlpropertyid.htm
 old-project: SecCertEnroll
 ms.assetid: 7b2f898d-9730-4f86-a7b2-dd625889c00a
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: PolicyServerUrlPropertyID, PolicyServerUrlPropertyID enumeration [Security], PsFriendlyName, PsPolicyID, certenroll/PolicyServerUrlPropertyID, certenroll/PsFriendlyName, certenroll/PsPolicyID, security.policyserverurlpropertyid
 ms.prod: windows-hardware
 ms.technology: windows-devices

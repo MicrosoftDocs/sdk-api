@@ -7,7 +7,7 @@ old-location: shell\IUnknown_AtomicRelease.htm
 old-project: shell
 ms.assetid: 6bb3f9cf-bf28-4f94-8557-56c1952384ec
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IUnknown_AtomicRelease, IUnknown_AtomicRelease function [Windows Shell], _win32_IUnknown_AtomicRelease, shell.IUnknown_AtomicRelease, shlwapi/IUnknown_AtomicRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices

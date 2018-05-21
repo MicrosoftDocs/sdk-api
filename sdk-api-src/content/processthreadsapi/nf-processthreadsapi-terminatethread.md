@@ -7,7 +7,7 @@ old-location: base\terminatethread.htm
 old-project: ProcThread
 ms.assetid: ae1ad0f3-67df-4573-af22-7086f0470361
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: TerminateThread, TerminateThread function, _win32_terminatethread, base.terminatethread, processthreadsapi/TerminateThread, winbase/TerminateThread
 ms.prod: windows-hardware
 ms.technology: windows-devices

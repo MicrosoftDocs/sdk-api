@@ -2,21 +2,21 @@
 UID: NF:intsafe.LongLongToInt
 title: LongLongToInt function
 author: windows-driver-content
-description: Converts a value of type INT64 to a value of type INT.
-old-location: shell\Int64ToInt.htm
+description: Converts a value of type LONGLONG to a value of type INT.
+old-location: shell\LongLongToInt.htm
 old-project: shell
-ms.assetid: 3d652b20-35d7-4e37-a1c8-de4a91eebd93
+ms.assetid: c011e0d1-69bd-446b-a352-ef92dd801f2e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: Int64ToInt, Int64ToInt function [Windows Shell], LongLongToInt, _shell_Int64ToInt, intsafe/Int64ToInt, shell.Int64ToInt
+ms.date: 5/16/2018
+ms.keywords: Int64ToInt, LongLongToInt, LongLongToInt function [Windows Shell], intsafe/LongLongToInt, shell.LongLongToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 7 [desktop apps | UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps | UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,9 +33,9 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	Intsafe.h
+-	intsafe.h
 api_name:
--	Int64ToInt
+-	LongLongToInt
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>INT64</b> to a value of type <b>INT</b>.
+Converts a value of type <b>LONGLONG</b> to a value of type <b>INT</b>.
 
 
 ## -parameters
@@ -58,30 +58,19 @@ Converts a value of type <b>INT64</b> to a value of type <b>INT</b>.
 
 
 
-### -param llOperand
+### -param llOperand [in]
 
-TBD
+The value to convert.
 
 
 ### -param piResult [out]
 
-Type: <b>INT*</b>
-
-A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
-
-
-#### - i64Operand [in]
-
-Type: <b>INT64</b>
-
-The value to be converted.
+The converted value.
 
 
 ## -returns
 
 
-
-Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -92,7 +81,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+<b>Int64ToInt</b> is an alias for this function.
 
 
 

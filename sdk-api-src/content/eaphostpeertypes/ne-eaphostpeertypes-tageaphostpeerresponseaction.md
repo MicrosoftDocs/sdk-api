@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerresponseaction.htm
 old-project: EAPHost
 ms.assetid: 59bf6e02-90b5-4f9a-9865-b71852c61db9
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapHostPeerResponseAction, EapHostPeerResponseAction enumeration [EAPHost], EapHostPeerResponseDiscard, EapHostPeerResponseInvokeUI, EapHostPeerResponseNone, EapHostPeerResponseRespond, EapHostPeerResponseResult, EapHostPeerResponseSend, EapHostPeerResponseStartAuthentication, eaphost.eaphostpeerresponseaction, eaphostpeertypes/EapHostPeerResponseAction, eaphostpeertypes/EapHostPeerResponseDiscard, eaphostpeertypes/EapHostPeerResponseInvokeUI, eaphostpeertypes/EapHostPeerResponseNone, eaphostpeertypes/EapHostPeerResponseRespond, eaphostpeertypes/EapHostPeerResponseResult, eaphostpeertypes/EapHostPeerResponseSend, eaphostpeertypes/EapHostPeerResponseStartAuthentication, tagEapHostPeerResponseAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

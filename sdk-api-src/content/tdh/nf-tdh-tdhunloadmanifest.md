@@ -7,7 +7,7 @@ old-location: etw\tdhunloadmanifest.htm
 old-project: ETW
 ms.assetid: ce0dd781-04b2-4e0c-9e79-44864f53f176
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: TdhUnloadManifest, TdhUnloadManifest function [ETW], etw.tdhunloadmanifest, tdh/TdhUnloadManifest
 ms.prod: windows-hardware
 ms.technology: windows-devices

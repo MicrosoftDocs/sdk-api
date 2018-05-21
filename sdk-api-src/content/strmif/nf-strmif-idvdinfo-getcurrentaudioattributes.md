@@ -7,7 +7,7 @@ old-location: dshow\idvdinfo_getcurrentaudioattributes.htm
 old-project: DirectShow
 ms.assetid: b6cb0162-747a-468d-a28f-49621dd27df0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetCurrentAudioAttributes, GetCurrentAudioAttributes method [DirectShow], GetCurrentAudioAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentAudioAttributes method, IDvdInfo.GetCurrentAudioAttributes, IDvdInfo::GetCurrentAudioAttributes, IDvdInfoGetCurrentAudioAttributes, dshow.idvdinfo_getcurrentaudioattributes, strmif/IDvdInfo::GetCurrentAudioAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

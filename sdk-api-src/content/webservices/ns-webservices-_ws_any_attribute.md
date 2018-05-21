@@ -7,7 +7,7 @@ old-location: wsw\ws_any_attribute.htm
 old-project: wsw
 ms.assetid: 31900554-24d9-44f5-a774-7d3245f5e646
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_ANY_ATTRIBUTE, WS_ANY_ATTRIBUTE structure [Web Services for Windows], _WS_ANY_ATTRIBUTE, webservices/WS_ANY_ATTRIBUTE, wsw.ws_any_attribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

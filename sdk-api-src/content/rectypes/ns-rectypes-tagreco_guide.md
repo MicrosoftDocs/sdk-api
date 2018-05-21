@@ -7,7 +7,7 @@ old-location: tablet\reco_guide.htm
 old-project: tablet
 ms.assetid: e28347aa-08ed-4f40-b9c3-4d3b5dacbeb7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: RECO_GUIDE, RECO_GUIDE structure [Tablet PC], e28347aa-08ed-4f40-b9c3-4d3b5dacbeb7, rectypes/RECO_GUIDE, tablet.reco_guide, tagRECO_GUIDE
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:d3d10
 ms.assetid: 0e839bab-bc29-3652-bfbd-9c066b00ce86
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

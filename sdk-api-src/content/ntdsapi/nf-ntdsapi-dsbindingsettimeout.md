@@ -7,7 +7,7 @@ old-location: ad\dsbindingsettimeout.htm
 old-project: AD
 ms.assetid: abdaae89-fba3-4949-92a9-acd62898ec24
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: DsBindingSetTimeout, DsBindingSetTimeout function [Active Directory], ad.dsbindingsettimeout, ntdsapi/DsBindingSetTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

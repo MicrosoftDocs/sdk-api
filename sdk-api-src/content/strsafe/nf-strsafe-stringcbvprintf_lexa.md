@@ -7,7 +7,7 @@ old-location: menurc\stringcbvprintf_lex.htm
 old-project: menurc
 ms.assetid: 34db0546-cede-4329-8364-137bca118755
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbVPrintf_lEx, StringCbVPrintf_lEx function [Menus and Other Resources], StringCbVPrintf_lExA, StringCbVPrintf_lExW, menurc.stringcbvprintf_lex, strsafe/StringCbVPrintf_lEx, strsafe/StringCbVPrintf_lExA, strsafe/StringCbVPrintf_lExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

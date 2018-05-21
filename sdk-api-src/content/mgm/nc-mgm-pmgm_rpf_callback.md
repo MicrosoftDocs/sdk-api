@@ -7,8 +7,8 @@ old-location: rras\pmgm_rpf_callback.htm
 old-project: RRAS
 ms.assetid: 114a44c2-e352-45b9-9842-cfb369072c84
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: MgmRpfCallback, MgmRpfCallback callback function [RAS], _mpr_pmgm_rpf_callback, mgm/MgmRpfCallback, rras.pmgm_rpf_callback
+ms.date: 5/16/2018
+ms.keywords: MgmRpfCallback, PMGM_RPF_CALLBACK, PMGM_RPF_CALLBACK callback, PMGM_RPF_CALLBACK callback function [RAS], _mpr_pmgm_rpf_callback, mgm/PMGM_RPF_CALLBACK, rras.pmgm_rpf_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# PMGM_RPF_CALLBACK callback
+# PMGM_RPF_CALLBACK callback function
 
 
 ## -description

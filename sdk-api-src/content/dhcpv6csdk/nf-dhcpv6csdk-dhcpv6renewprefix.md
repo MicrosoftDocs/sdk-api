@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6renewprefix.htm
 old-project: DHCP
 ms.assetid: e4eec40c-0e95-47f7-b102-daa63e5a8da0
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: Dhcpv6RenewPrefix, Dhcpv6RenewPrefix function [DHCP], dhcp.dhcpv6renewprefix, dhcpv6csdk/Dhcpv6RenewPrefix
 ms.prod: windows-hardware
 ms.technology: windows-devices

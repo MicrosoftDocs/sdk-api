@@ -7,7 +7,7 @@ old-location: base\imagehlp_cba_event_str.htm
 old-project: Debug
 ms.assetid: 1d63007a-7542-4626-99a5-41461e00dbb4
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: "*PIMAGEHLP_CBA_EVENT, IMAGEHLP_CBA_EVENT, IMAGEHLP_CBA_EVENT structure, IMAGEHLP_CBA_EVENTW, PIMAGEHLP_CBA_EVENT, PIMAGEHLP_CBA_EVENT structure pointer, _IMAGEHLP_CBA_EVENT, _IMAGEHLP_CBA_EVENTW, base.imagehlp_cba_event_str, dbghelp/IMAGEHLP_CBA_EVENT, dbghelp/IMAGEHLP_CBA_EVENTW, dbghelp/PIMAGEHLP_CBA_EVENT, sevAttn, sevFatal, sevInfo, sevProblem"
 ms.prod: windows-hardware
 ms.technology: windows-devices

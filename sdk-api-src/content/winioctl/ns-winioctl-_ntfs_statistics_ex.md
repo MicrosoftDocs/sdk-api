@@ -7,7 +7,7 @@ old-location: fs\ntfs_statistics_ex.htm
 old-project: FileIO
 ms.assetid: D1A6995C-A4BA-4ECC-892A-196581FA41CE
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PNTFS_STATISTICS_EX, NTFS_STATISTICS_EX, NTFS_STATISTICS_EX structure [Files], PNTFS_STATISTICS_EX, PNTFS_STATISTICS_EX structure pointer [Files], _NTFS_STATISTICS_EX, fs.ntfs_statistics_ex, winioctl/NTFS_STATISTICS_EX, winioctl/PNTFS_STATISTICS_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

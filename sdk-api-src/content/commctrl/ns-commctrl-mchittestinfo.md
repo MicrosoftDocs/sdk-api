@@ -7,7 +7,7 @@ old-location: controls\MCHITTESTINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\mchittestinfo.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: "*PMCHITTESTINFO, MCHITTESTINFO, MCHITTESTINFO structure [Windows Controls], MCHT_CALENDARBK, MCHT_CALENDARCONTROL, MCHT_CALENDARDATE, MCHT_CALENDARDATEMAX, MCHT_CALENDARDATEMIN, MCHT_CALENDARDATENEXT, MCHT_CALENDARDATEPREV, MCHT_CALENDARDAY, MCHT_CALENDARWEEKNUM, MCHT_NOWHERE, MCHT_TITLEBK, MCHT_TITLEBTNNEXT, MCHT_TITLEBTNPREV, MCHT_TITLEMONTH, MCHT_TITLEYEAR, PMCHITTESTINFO, PMCHITTESTINFO structure pointer [Windows Controls], _win32_MCHITTESTINFO, _win32_MCHITTESTINFO_cpp, commctrl/MCHITTESTINFO, commctrl/PMCHITTESTINFO, controls.MCHITTESTINFO, controls._win32_MCHITTESTINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

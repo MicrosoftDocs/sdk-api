@@ -7,7 +7,7 @@ old-location: gdi\getpaletteentries.htm
 old-project: gdi
 ms.assetid: 5e72e881-32e1-458e-a09e-91fa13abe178
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetPaletteEntries, GetPaletteEntries function [Windows GDI], _win32_GetPaletteEntries, gdi.getpaletteentries, wingdi/GetPaletteEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices

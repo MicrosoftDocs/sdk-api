@@ -7,7 +7,7 @@ old-location: mstv\iguidedata.htm
 old-project: mstv
 ms.assetid: 3bd27fce-90be-480b-b157-a17beccda068
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IGuideData, IGuideData interface [Microsoft TV Technologies], IGuideData interface [Microsoft TV Technologies],described, IGuideDataInterface, bdatif/IGuideData, mstv.iguidedata
 ms.prod: windows-hardware
 ms.technology: windows-devices

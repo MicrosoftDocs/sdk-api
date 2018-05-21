@@ -7,7 +7,7 @@ old-location: com\olecreatelinkfromdata.htm
 old-project: com
 ms.assetid: 3eda0cf5-c33d-43cf-ba8a-02a4f6383adc
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleCreateLinkFromData, OleCreateLinkFromData function [COM], _ole_OleCreateLinkFromData, com.olecreatelinkfromdata, ole2/OleCreateLinkFromData
 ms.prod: windows-hardware
 ms.technology: windows-devices

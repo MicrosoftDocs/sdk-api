@@ -7,7 +7,7 @@ old-location: setup\actctx_section_keyed_data_str.htm
 old-project: SbsCs
 ms.assetid: c73160e7-fff5-4ba5-8b3a-895ac944c76d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: "*PACTCTX_SECTION_KEYED_DATA, ACTCTX_SECTION_KEYED_DATA, ACTCTX_SECTION_KEYED_DATA structure [Side-by-side Assemblies], PACTCTX_SECTION_KEYED_DATA, PACTCTX_SECTION_KEYED_DATA structure pointer [Side-by-side Assemblies], _win32_actctx_section_keyed_data_str, setup.actctx_section_keyed_data_str, tagACTCTX_SECTION_KEYED_DATA, winbase/ACTCTX_SECTION_KEYED_DATA, winbase/PACTCTX_SECTION_KEYED_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

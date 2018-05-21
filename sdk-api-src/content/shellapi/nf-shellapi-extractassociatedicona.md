@@ -7,7 +7,7 @@ old-location: menurc\extractassociatedicon.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\extractassociatedicon.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: ExtractAssociatedIcon, ExtractAssociatedIcon function [Menus and Other Resources], ExtractAssociatedIconA, ExtractAssociatedIconW, _win32_ExtractAssociatedIcon, _win32_extractassociatedicon_cpp, menurc.extractassociatedicon, shellapi/ExtractAssociatedIcon, shellapi/ExtractAssociatedIconA, shellapi/ExtractAssociatedIconW, winui._win32_extractassociatedicon
 ms.prod: windows-hardware
 ms.technology: windows-devices

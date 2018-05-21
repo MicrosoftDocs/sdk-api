@@ -7,7 +7,7 @@ old-location: menurc\getclipcursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getclipcursor.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: GetClipCursor, GetClipCursor function [Menus and Other Resources], _win32_GetClipCursor, _win32_getclipcursor_cpp, menurc.getclipcursor, winui._win32_getclipcursor, winuser/GetClipCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices

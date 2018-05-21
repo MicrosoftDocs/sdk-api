@@ -7,7 +7,7 @@ old-location: menurc\drawiconex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\drawiconex.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: DI_COMPAT, DI_DEFAULTSIZE, DI_IMAGE, DI_MASK, DI_NOMIRROR, DI_NORMAL, DrawIconEx, DrawIconEx function [Menus and Other Resources], _win32_DrawIconEx, _win32_drawiconex_cpp, menurc.drawiconex, winui._win32_drawiconex, winuser/DrawIconEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

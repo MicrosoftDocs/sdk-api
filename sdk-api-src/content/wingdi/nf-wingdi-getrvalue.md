@@ -7,7 +7,7 @@ old-location: gdi\getrvalue.htm
 old-project: gdi
 ms.assetid: c183b671-20f8-468c-af0d-9f03cbc4b170
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetRValue, GetRValue macro [Windows GDI], _win32_GetRValue, gdi.getrvalue, wingdi/GetRValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

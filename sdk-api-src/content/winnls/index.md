@@ -2,7 +2,7 @@
 UID: NA:winnls
 ms.assetid: ed2ae1c1-bb75-33a8-b8d1-725f20b01bbb
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

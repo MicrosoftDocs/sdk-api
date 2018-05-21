@@ -7,7 +7,7 @@ old-location: fs\delete_usn_journal_data_str.htm
 old-project: FileIO
 ms.assetid: 06db4b46-fc91-40e0-ab0b-1e014622ae22
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PDELETE_USN_JOURNAL_DATA, DELETE_USN_JOURNAL_DATA, DELETE_USN_JOURNAL_DATA structure [Files], PDELETE_USN_JOURNAL_DATA, PDELETE_USN_JOURNAL_DATA structure pointer [Files], USN_DELETE_FLAG_DELETE, USN_DELETE_FLAG_NOTIFY, _win32_delete_usn_journal_data_str, base.delete_usn_journal_data_str, fs.delete_usn_journal_data_str, winioctl/DELETE_USN_JOURNAL_DATA, winioctl/PDELETE_USN_JOURNAL_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

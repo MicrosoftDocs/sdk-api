@@ -7,7 +7,7 @@ old-location: mf\imfsensortransformfactory_gettransformcount.htm
 old-project: medfound
 ms.assetid: D1B1DA8D-9A59-43A0-9A2F-8749B2C05D37
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetTransformCount, GetTransformCount method [Media Foundation], GetTransformCount method [Media Foundation],IMFSensorTransformFactory interface, IMFSensorTransformFactory interface [Media Foundation],GetTransformCount method, IMFSensorTransformFactory.GetTransformCount, IMFSensorTransformFactory::GetTransformCount, mf.imfsensortransformfactory_gettransformcount, mfidl/IMFSensorTransformFactory::GetTransformCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

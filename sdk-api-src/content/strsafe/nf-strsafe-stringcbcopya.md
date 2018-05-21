@@ -7,7 +7,7 @@ old-location: menurc\stringcbcopy.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopy.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: StringCbCopy, StringCbCopy function [Menus and Other Resources], StringCbCopyA, StringCbCopyW, _shell_StringCbCopy, _shell_stringcbcopy_cpp, menurc.stringcbcopy, strsafe/StringCbCopy, strsafe/StringCbCopyA, strsafe/StringCbCopyW, winui._shell_stringcbcopy
 ms.prod: windows-hardware
 ms.technology: windows-devices

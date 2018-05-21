@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetWeight.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getweight.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetWeight, GetWeight method [Windows Controls], GetWeight method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetWeight method, ITextFont.GetWeight, ITextFont::GetWeight, _win32_ITextFont_GetWeight, _win32_ITextFont_GetWeight_cpp, controls.ITextFont_GetWeight, controls._win32_ITextFont_GetWeight, tom/ITextFont::GetWeight
 ms.prod: windows-hardware
 ms.technology: windows-devices

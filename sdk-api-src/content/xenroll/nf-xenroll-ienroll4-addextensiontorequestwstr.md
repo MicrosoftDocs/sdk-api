@@ -7,7 +7,7 @@ old-location: security\ienroll4_addextensiontorequestwstr.htm
 old-project: SecCrypto
 ms.assetid: 4ecca64b-a8f4-4816-8bf1-7b8e74262ac0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: IEnroll4 interface [Security],addExtensionToRequestWStr method, IEnroll4.addExtensionToRequestWStr, IEnroll4::addExtensionToRequestWStr, addExtensionToRequestWStr, addExtensionToRequestWStr method [Security], addExtensionToRequestWStr method [Security],IEnroll4 interface, security.ienroll4_addextensiontorequestwstr, xenroll/IEnroll4::addExtensionToRequestWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

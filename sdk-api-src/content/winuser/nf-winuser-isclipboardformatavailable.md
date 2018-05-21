@@ -7,7 +7,7 @@ old-location: dataxchg\isclipboardformatavailable.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\isclipboardformatavailable.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: IsClipboardFormatAvailable, IsClipboardFormatAvailable function [Data Exchange], _win32_IsClipboardFormatAvailable, _win32_isclipboardformatavailable_cpp, dataxchg.isclipboardformatavailable, winui._win32_isclipboardformatavailable, winuser/IsClipboardFormatAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

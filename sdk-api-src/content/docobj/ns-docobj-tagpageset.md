@@ -7,7 +7,7 @@ old-location: com\pageset.htm
 old-project: com
 ms.assetid: 9639c743-2509-4611-833b-16d16fce420a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: PAGESET, PAGESET structure [COM], _ctrl_PAGESET, com.pageset, docobj/PAGESET, tagPAGESET
 ms.prod: windows-hardware
 ms.technology: windows-devices

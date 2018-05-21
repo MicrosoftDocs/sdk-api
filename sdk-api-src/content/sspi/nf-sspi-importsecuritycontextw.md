@@ -7,7 +7,7 @@ old-location: security\importsecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: 0f8e65d0-69cf-42ba-a903-1922d731e5ec
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: ImportSecurityContext, ImportSecurityContext function [Security], ImportSecurityContextA, ImportSecurityContextW, _ssp_importsecuritycontext, security.importsecuritycontext, sspi/ImportSecurityContext, sspi/ImportSecurityContextA, sspi/ImportSecurityContextW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # ImportSecurityContextW function

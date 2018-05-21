@@ -7,7 +7,7 @@ old-location: setup\msisourcelistaddsourceex.htm
 old-project: Msi
 ms.assetid: 79f1286e-e30b-4989-a631-f2bcb87486a2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListAddSourceEx, MsiSourceListAddSourceEx function, MsiSourceListAddSourceExA, MsiSourceListAddSourceExW, NULL, User SID, msi/MsiSourceListAddSourceEx, msi/MsiSourceListAddSourceExA, msi/MsiSourceListAddSourceExW, setup.msisourcelistaddsourceex
 ms.prod: windows-hardware
 ms.technology: windows-devices

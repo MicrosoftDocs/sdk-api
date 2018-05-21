@@ -7,13 +7,13 @@ old-location: rpc\rpc_mgmt_authorization_fn.htm
 old-project: Rpc
 ms.assetid: 9b7ab901-1dcf-458c-858f-f411825f324b
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: RpcMgmtAuthorizationFn, RpcMgmtAuthorizationFn callback function [RPC], RpcMgmtInqIfIds, RpcMgmtInqServerPrincName, RpcMgmtInqStats, RpcMgmtIsServerListening, RpcMgmtStopServerListening, _rpc_rpc_mgmt_authorization_fn, rpc.rpc_mgmt_authorization_fn, rpcdce/RpcMgmtAuthorizationFn
+ms.date: 5/18/2018
+ms.keywords: RPC_MGMT_AUTHORIZATION_FN, RPC_MGMT_AUTHORIZATION_FN callback, RPC_MGMT_AUTHORIZATION_FN callback function [RPC], RpcMgmtInqIfIds, RpcMgmtInqServerPrincName, RpcMgmtInqStats, RpcMgmtIsServerListening, RpcMgmtStopServerListening, _rpc_rpc_mgmt_authorization_fn, rpc.rpc_mgmt_authorization_fn, rpcdce/RPC_MGMT_AUTHORIZATION_FN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: rpcdce.h
-req.include-header: Rpc.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# RPC_MGMT_AUTHORIZATION_FN callback
+# RPC_MGMT_AUTHORIZATION_FN callback function
 
 
 ## -description

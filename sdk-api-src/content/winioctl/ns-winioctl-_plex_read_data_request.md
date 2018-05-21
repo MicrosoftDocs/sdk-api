@@ -7,7 +7,7 @@ old-location: fs\plex_read_data_request_str.htm
 old-project: FileIO
 ms.assetid: efabc8f3-1596-4a6a-86a3-ecd5b3d934d5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PPLEX_READ_DATA_REQUEST, PLEX_READ_DATA_REQUEST, PLEX_READ_DATA_REQUEST structure [Files], PPLEX_READ_DATA_REQUEST, PPLEX_READ_DATA_REQUEST structure pointer [Files], _PLEX_READ_DATA_REQUEST, _win32_plex_read_data_request_str, base.plex_read_data_request_str, fs.plex_read_data_request_str, winioctl/PLEX_READ_DATA_REQUEST, winioctl/PPLEX_READ_DATA_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

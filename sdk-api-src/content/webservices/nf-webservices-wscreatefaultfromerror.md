@@ -7,7 +7,7 @@ old-location: wsw\wscreatefaultfromerror.htm
 old-project: wsw
 ms.assetid: 193854d7-3b7f-4f2b-b068-33b9c4d91e57
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsCreateFaultFromError, WsCreateFaultFromError function [Web Services for Windows], webservices/WsCreateFaultFromError, wsw.wscreatefaultfromerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

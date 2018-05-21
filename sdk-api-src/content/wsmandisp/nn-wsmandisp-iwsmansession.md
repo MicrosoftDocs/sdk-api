@@ -7,7 +7,7 @@ old-location: winrm\iwsmansession.htm
 old-project: WinRM
 ms.assetid: 3e016080-339f-4bda-bfd2-f912e090981f
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: IWSManSession, IWSManSession interface [Windows Remote Management], IWSManSession interface [Windows Remote Management],described, winrm.iwsmansession, wsmandisp/IWSManSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

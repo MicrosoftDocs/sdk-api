@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_SetMiddleInset_middleIns
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\setmiddleinset.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: AdjustableArrowCap class [GDI+],SetMiddleInset method, AdjustableArrowCap.SetMiddleInset, AdjustableArrowCap::SetMiddleInset, SetMiddleInset, SetMiddleInset method [GDI+], SetMiddleInset method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_SetMiddleInset_middleInset_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetMiddleInset_middleInset_
 ms.prod: windows-hardware
 ms.technology: windows-devices

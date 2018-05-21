@@ -7,7 +7,7 @@ old-location: dataxchg\registerclipboardformat.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\registerclipboardformat.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: RegisterClipboardFormat, RegisterClipboardFormat function [Data Exchange], RegisterClipboardFormatA, RegisterClipboardFormatW, _win32_RegisterClipboardFormat, _win32_registerclipboardformat_cpp, dataxchg.registerclipboardformat, winui._win32_registerclipboardformat, winuser/RegisterClipboardFormat, winuser/RegisterClipboardFormatA, winuser/RegisterClipboardFormatW
 ms.prod: windows-hardware
 ms.technology: windows-devices

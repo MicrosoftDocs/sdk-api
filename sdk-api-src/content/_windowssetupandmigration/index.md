@@ -2,11 +2,12 @@
 UID: TP:windowssetupandmigration
 ms.assetid: 53912da4-42c2-33af-8b53-5bbaa7bfd68c
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # OOBE APIs for setup state and notification

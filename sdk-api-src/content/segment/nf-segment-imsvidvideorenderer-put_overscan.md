@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_put_overscan.htm
 old-project: mstv
 ms.assetid: 141df99b-4fc7-439c-953e-1fa1c544258e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_OverScan method, IMSVidVideoRenderer.put_OverScan, IMSVidVideoRenderer::put_OverScan, IMSVidVideoRendererput_OverScan, mstv.imsvidvideorenderer_put_overscan, put_OverScan, put_OverScan method [Microsoft TV Technologies], put_OverScan method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_OverScan
 ms.prod: windows-hardware
 ms.technology: windows-devices

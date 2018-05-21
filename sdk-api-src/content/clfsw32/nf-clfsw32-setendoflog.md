@@ -7,7 +7,7 @@ old-location: fs\setendoflog.htm
 old-project: Clfs
 ms.assetid: ef4f123f-3e1a-4082-93c7-f23783b1d45e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: SetEndOfLog, SetEndOfLog function [Files], clfsw32/SetEndOfLog, fs.setendoflog
 ms.prod: windows-hardware
 ms.technology: windows-devices

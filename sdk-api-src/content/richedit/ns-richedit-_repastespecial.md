@@ -7,7 +7,7 @@ old-location: controls\REPASTESPECIAL.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\repastespecial.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_ICON, REPASTESPECIAL, REPASTESPECIAL structure [Windows Controls], _repastespecial, _win32_REPASTESPECIAL_str, _win32_REPASTESPECIAL_str_cpp, controls.REPASTESPECIAL, controls._win32_REPASTESPECIAL_str, richedit/REPASTESPECIAL
 ms.prod: windows-hardware
 ms.technology: windows-devices

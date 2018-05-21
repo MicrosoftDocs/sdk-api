@@ -7,7 +7,7 @@ old-location: mscs\cluster_resource_state.htm
 old-project: MsCS
 ms.assetid: bd5dee18-a06f-4e46-a27e-c907b1c25a68
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: CLUSTER_RESOURCE_STATE, CLUSTER_RESOURCE_STATE enumeration [Failover Cluster], ClusterResourceFailed, ClusterResourceInherited, ClusterResourceInitializing, ClusterResourceOffline, ClusterResourceOfflinePending, ClusterResourceOnline, ClusterResourceOnlinePending, ClusterResourcePending, ClusterResourceStateUnknown, _CLUSTER_RESOURCE_STATE, _CLUSTER_RESOURCE_STATE enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_STATE, clusapi/ClusterResourceFailed, clusapi/ClusterResourceInherited, clusapi/ClusterResourceInitializing, clusapi/ClusterResourceOffline, clusapi/ClusterResourceOfflinePending, clusapi/ClusterResourceOnline, clusapi/ClusterResourceOnlinePending, clusapi/ClusterResourcePending, clusapi/ClusterResourceStateUnknown, clusapi/_CLUSTER_RESOURCE_STATE, msclus/CLUSTER_RESOURCE_STATE, msclus/ClusterResourceFailed, msclus/ClusterResourceInherited, msclus/ClusterResourceInitializing, msclus/ClusterResourceOffline, msclus/ClusterResourceOfflinePending, msclus/ClusterResourceOnline, msclus/ClusterResourceOnlinePending, msclus/ClusterResourcePending, msclus/ClusterResourceStateUnknown, msclus/_CLUSTER_RESOURCE_STATE, mscs.cluster_resource_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,7 +54,7 @@ req.product: GDI+ 1.1
 Describes the operational condition of a resource. These values are used by the 
     <a href="https://msdn.microsoft.com/c3897c96-743e-4753-8fef-b8defe4f2b00">GetClusterResourceState</a> function, the 
     <b>State</b> property of the 
-    <a href="https://msdn.microsoft.com/d0d07dd9-e3ea-4306-8736-3a2b3dbfaf1d">MSCluster_Resource</a> class, and the 
+    <a href="mscs.mscluster_resource">MSCluster_Resource</a> class, and the 
     <a href="https://msdn.microsoft.com/3bae66a8-cc45-49e6-acea-c506623b25bc">State</a> property of the 
     <a href="https://msdn.microsoft.com/c1b66495-c428-4ee4-94e2-263fd31f61ad">ClusResource</a> object.
 
@@ -132,7 +132,7 @@ The resource is in the process of going offline.
 
 
 
-<a href="https://msdn.microsoft.com/d0d07dd9-e3ea-4306-8736-3a2b3dbfaf1d">MSCluster_Resource</a>
+<a href="mscs.mscluster_resource">MSCluster_Resource</a>
 
 
 

@@ -2,7 +2,7 @@
 UID: TP:monitor
 ms.assetid: 8cab0d3b-2754-3016-85c3-9450f6d2181b
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

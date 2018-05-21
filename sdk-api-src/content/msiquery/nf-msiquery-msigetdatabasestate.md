@@ -7,7 +7,7 @@ old-location: setup\msigetdatabasestate.htm
 old-project: Msi
 ms.assetid: 33c4618f-f9b5-4512-baba-27f62cd32329
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MsiGetDatabaseState, MsiGetDatabaseState function, _msi_msigetdatabasestate, msiquery/MsiGetDatabaseState, setup.msigetdatabasestate
 ms.prod: windows-hardware
 ms.technology: windows-devices

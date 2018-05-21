@@ -2,11 +2,12 @@
 UID: NA:networkisolation
 ms.assetid: 55e73823-3246-3e0a-a178-a0f2a351565c
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: ics
 ---
 

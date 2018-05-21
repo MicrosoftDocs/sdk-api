@@ -2,7 +2,7 @@
 UID: TP:imapi
 ms.assetid: d5ee2b29-ba7f-3360-9fd6-16f32572a676
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

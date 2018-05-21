@@ -2,13 +2,13 @@
 UID: NF:intsafe.UShortToUChar
 title: UShortToUChar function
 author: windows-driver-content
-description: Converts a value of type USHORT to a value of type BYTE.
-old-location: shell\UShortToByte.htm
+description: Converts a value of type USHORT to a value of type UCHAR.
+old-location: shell\UShortToUChar.htm
 old-project: shell
-ms.assetid: 2c980215-0e1d-4c7c-97e1-58d9c8d5abef
+ms.assetid: b50c8e95-929f-4c16-abd2-7b03bc0d5063
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: UShortToByte, UShortToByte function [Windows Shell], UShortToUChar, _shell_UShortToByte, intsafe/UShortToByte, shell.UShortToByte
+ms.date: 5/16/2018
+ms.keywords: UShortToUChar, UShortToUChar function [Windows Shell], WordToUChar, _shell_UShortToUChar, intsafe/UShortToUChar, shell.UShortToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	UShortToByte
+-	UShortToUChar
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>USHORT</b> to a value of type <b>BYTE</b>.
+Converts a value of type <b>USHORT</b> to a value of type <b>UCHAR</b>.
 
 
 ## -parameters
@@ -65,16 +65,9 @@ Type: <b>USHORT</b>
 The value to be converted.
 
 
-### -param pch
+### -param pch [out]
 
-TBD
-
-
-
-
-#### - pb [out]
-
-Type: <b>BYTE*</b>
+Type: <b>UCHAR*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
@@ -95,6 +88,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>WordToUChar</b> is an alias for this function.
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_getsourceposition.htm
 old-project: DirectShow
 ms.assetid: 4624e38c-63ff-4860-a899-c70e44e0f8aa
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetSourcePosition, GetSourcePosition method [DirectShow], GetSourcePosition method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetSourcePosition method, IBasicVideo.GetSourcePosition, IBasicVideo::GetSourcePosition, IBasicVideoGetSourcePosition, control/IBasicVideo::GetSourcePosition, dshow.ibasicvideo_getsourceposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

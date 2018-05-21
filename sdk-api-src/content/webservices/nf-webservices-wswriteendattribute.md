@@ -7,7 +7,7 @@ old-location: wsw\wswriteendattribute.htm
 old-project: wsw
 ms.assetid: 8747c484-19b3-46b2-beee-80b220011def
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsWriteEndAttribute, WsWriteEndAttribute function [Web Services for Windows], webservices/WsWriteEndAttribute, wsw.wswriteendattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

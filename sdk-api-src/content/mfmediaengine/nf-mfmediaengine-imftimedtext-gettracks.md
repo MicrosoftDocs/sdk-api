@@ -7,7 +7,7 @@ old-location: mf\imftimedtext_gettracks.htm
 old-project: medfound
 ms.assetid: 4ECBC4CD-12A0-493A-A301-1E392F6EC280
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetTracks, GetTracks method [Media Foundation], GetTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetTracks method, IMFTimedText.GetTracks, IMFTimedText::GetTracks, mf.imftimedtext_gettracks, mfmediaengine/IMFTimedText::GetTracks
 ms.prod: windows-hardware
 ms.technology: windows-devices

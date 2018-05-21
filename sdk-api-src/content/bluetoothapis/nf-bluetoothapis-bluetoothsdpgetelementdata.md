@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothsdpgetelementdata.htm
 old-project: Bluetooth
 ms.assetid: 65de8f2f-1781-44fa-87a9-21aa461eb8ee
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothSdpGetElementData, BluetoothSdpGetElementData function [Bluetooth], bluetooth.bluetoothsdpgetelementdata, bluetoothapis/BluetoothSdpGetElementData
 ms.prod: windows-hardware
 ms.technology: windows-devices

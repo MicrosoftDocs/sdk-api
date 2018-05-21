@@ -7,7 +7,7 @@ old-location: com\olegeticonofclass.htm
 old-project: com
 ms.assetid: 88ac1c14-b5a8-4100-9fa5-d7af35052b48
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleGetIconOfClass, OleGetIconOfClass function [COM], _com_OleGetIconOfClass, com.olegeticonofclass, ole2/OleGetIconOfClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

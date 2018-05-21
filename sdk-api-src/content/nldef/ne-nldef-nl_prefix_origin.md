@@ -2,21 +2,21 @@
 UID: NE:nldef.NL_PREFIX_ORIGIN
 title: NL_PREFIX_ORIGIN
 author: windows-driver-content
-description: The NL_PREFIX_ORIGIN enumeration type defines the origin of the prefix or network part of the IP address.
-old-location: netvista\nl_prefix_origin.htm
-old-project: netvista
-ms.assetid: 8530da02-13ca-44b9-8013-fe80a70d4618
+description: The IP_PREFIX_ORIGIN enumeration specifies the origin of an IPv4 or IPv6 address prefix, and is used with the IP_ADAPTER_UNICAST_ADDRESS structure.
+old-location: iphlp\ip_prefix_origin.htm
+old-project: IpHlp
+ms.assetid: fd7e7bbb-8596-4a72-ba63-d898f0048a11
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
-ms.keywords: IpPrefixOriginDhcp, IpPrefixOriginManual, IpPrefixOriginOther, IpPrefixOriginRouterAdvertisement, IpPrefixOriginUnchanged, IpPrefixOriginWellKnown, NL_PREFIX_ORIGIN, NL_PREFIX_ORIGIN enumeration [Network Drivers Starting with Windows Vista], iphelper_cd3bafc5-3703-42fa-b3b1-56519340fc34.xml, netvista.nl_prefix_origin, nldef/IpPrefixOriginDhcp, nldef/IpPrefixOriginManual, nldef/IpPrefixOriginOther, nldef/IpPrefixOriginRouterAdvertisement, nldef/IpPrefixOriginUnchanged, nldef/IpPrefixOriginWellKnown, nldef/NL_PREFIX_ORIGIN
+ms.date: 5/16/2018
+ms.keywords: IP_PREFIX_ORIGIN, IP_PREFIX_ORIGIN enumeration [IP Helper], IpPrefixOriginDhcp, IpPrefixOriginManual, IpPrefixOriginOther, IpPrefixOriginRouterAdvertisement, IpPrefixOriginUnchanged, IpPrefixOriginWellKnown, NL_PREFIX_ORIGIN, iphlp.ip_prefix_origin, iptypes/IP_PREFIX_ORIGIN, iptypes/IpPrefixOriginDhcp, iptypes/IpPrefixOriginManual, iptypes/IpPrefixOriginOther, iptypes/IpPrefixOriginRouterAdvertisement, iptypes/IpPrefixOriginUnchanged, iptypes/IpPrefixOriginWellKnown, nldef/IP_PREFIX_ORIGIN, nldef/IpPrefixOriginDhcp, nldef/IpPrefixOriginManual, nldef/IpPrefixOriginOther, nldef/IpPrefixOriginRouterAdvertisement, nldef/IpPrefixOriginUnchanged, nldef/IpPrefixOriginWellKnown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: nldef.h
-req.include-header: Netioapi.h
+req.include-header: Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008  Windows Vista, Iphlpapi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,13 +33,14 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	nldef.h
+-	Nldef.h
+-	Iptypes.h
 api_name:
--	NL_PREFIX_ORIGIN
+-	IP_PREFIX_ORIGIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Newdev.lib
+req.dll: Newdev.dll
 req.irql: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
@@ -50,8 +51,7 @@ req.product: Rights Management Services client 1.0 SP2 or later
 ## -description
 
 
-The NL_PREFIX_ORIGIN enumeration type defines the origin of the prefix or network part of the IP
-  address.
+The <b>IP_PREFIX_ORIGIN</b> enumeration specifies the origin of an IPv4 or IPv6  address prefix, and is used with the <a href="https://msdn.microsoft.com/65c3648c-89bd-417b-8a9b-feefa6149c4a">IP_ADAPTER_UNICAST_ADDRESS</a> structure.
 
 
 ## -enum-fields
@@ -61,36 +61,56 @@ The NL_PREFIX_ORIGIN enumeration type defines the origin of the prefix or networ
 
 ### -field IpPrefixOriginOther
 
-The IP address prefix was configured by using a source other than those that are defined in this
-     enumeration. This value applies to an IPv6 or IPv4 address.
+The IP prefix was provided by a source other than those defined in this enumeration.
 
 
 ### -field IpPrefixOriginManual
 
-The IP address prefix was configured manually. This value applies to an IPv6 or IPv4
-     address.
+The IP address prefix was manually specified.
 
 
 ### -field IpPrefixOriginWellKnown
 
-The IP address prefix was configured by using a well-known address. This value applies to an IPv6
-     link-local address or an IPv6 loopback address.
+The IP address prefix is from a well known source.
 
 
 ### -field IpPrefixOriginDhcp
 
-The IP address prefix was configured by using DHCP. This value applies to an IPv4 address
-     configured by using DHCP or an IPv6 address configured by using DHCPv6.
+The IP address prefix was provided by DHCP settings.
 
 
 ### -field IpPrefixOriginRouterAdvertisement
 
-The IP address prefix was configured by using router advertisement. This value applies to an
-     anonymous IPv6 address that was generated after receiving a router advertisement.
+The IP address prefix was obtained through a router advertisement (RA).
 
 
 ### -field IpPrefixOriginUnchanged
 
-The IP address prefix should be unchanged. This value is used when setting the properties for a
-     unicast IP interface when the value for the IP prefix origin should be unchanged.
+The IP address prefix should be unchanged. This value is used when setting the properties for a unicast IP interface when the value for the IP prefix origin should be left unchanged.
+
+
+
+<div class="alert"><b>Note</b>  This enumeration value is only available on Windows Vista and later.</div>
+<div> </div>
+
+## -remarks
+
+
+
+The <b>IP_PREFIX_ORIGIN</b> enumeration is used in the <b>PrefixOrigin</b> member of the <a href="https://msdn.microsoft.com/65c3648c-89bd-417b-8a9b-feefa6149c4a">IP_ADAPTER_UNICAST_ADDRESS</a>  structure.
+
+On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>IP_PREFIX_ORIGIN</b> enumeration is defined in the <i>Nldef.h</i> header file which is automatically included by the <i>Iptypes.h</i> header file. In order to use the <b>IP_PREFIX_ORIGIN</b> enumeration, the <i>Winsock2.h</i> header file must be included before the <i>Iptypes.h</i> header file.  
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/65c3648c-89bd-417b-8a9b-feefa6149c4a">IP_ADAPTER_UNICAST_ADDRESS</a>
+ 
+
+ 
 

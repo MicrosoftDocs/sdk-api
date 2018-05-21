@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_info_queue_filter_desc.htm
 old-project: direct3ddxgi
 ms.assetid: B916731B-362B-46AD-BC18-71339A2935B4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: DXGI_INFO_QUEUE_FILTER_DESC, DXGI_INFO_QUEUE_FILTER_DESC structure [DXGI], direct3ddxgi.dxgi_info_queue_filter_desc, dxgidebug/DXGI_INFO_QUEUE_FILTER_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices

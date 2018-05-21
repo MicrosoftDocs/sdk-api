@@ -7,7 +7,7 @@ old-location: fs\reassign_blocks_ex.htm
 old-project: FileIO
 ms.assetid: 48036bdc-3588-41a6-9dbb-4606bdfcb683
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX structure pointer [Files], REASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX structure [Files], _REASSIGN_BLOCKS_EX, base.reassign_blocks_ex, fs.reassign_blocks_ex, winioctl/PREASSIGN_BLOCKS_EX, winioctl/REASSIGN_BLOCKS_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices

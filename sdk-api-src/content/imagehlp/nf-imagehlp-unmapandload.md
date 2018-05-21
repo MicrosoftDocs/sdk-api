@@ -7,7 +7,7 @@ old-location: base\unmapandload.htm
 old-project: Debug
 ms.assetid: 63a39d2b-a3a1-4c91-be93-f9a681756293
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: UnMapAndLoad, UnMapAndLoad function, _win32_unmapandload, base.unmapandload, imagehlp/UnMapAndLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:lowlevelmonitorconfigurationapi
 ms.assetid: cad85e24-c16b-37e3-b635-d5ef7c3d2481
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

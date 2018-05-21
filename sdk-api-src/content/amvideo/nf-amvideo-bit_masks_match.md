@@ -7,7 +7,7 @@ old-location: dshow\bit_masks_match.htm
 old-project: DirectShow
 ms.assetid: 2b9d18fd-3251-4ab4-bb79-33829190f1b8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: BIT_MASKS_MATCH, BIT_MASKS_MATCH macro [DirectShow], amvideo/BIT_MASKS_MATCH, dshow.bit_masks_match
 ms.prod: windows-hardware
 ms.technology: windows-devices

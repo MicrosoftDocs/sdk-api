@@ -7,7 +7,7 @@ old-location: winrm\wsmandeinitialize.htm
 old-project: WinRM
 ms.assetid: 1b20ead1-cda0-4449-a454-1e695fe71de6
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: WSManDeinitialize, WSManDeinitialize function [Windows Remote Management], winrm.wsmandeinitialize, wsman/WSManDeinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

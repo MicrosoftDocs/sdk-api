@@ -7,7 +7,7 @@ old-location: dshow\vmr9videostreaminfo.htm
 old-project: DirectShow
 ms.assetid: e2da0c1e-d592-49ce-937c-0d75ce270282
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: VMR9VideoStreamInfo, VMR9VideoStreamInfo structure [DirectShow], VMR9VideoStreamInfoStructure, _VMR9VideoStreamInfo, dshow.vmr9videostreaminfo, vmr9/VMR9VideoStreamInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

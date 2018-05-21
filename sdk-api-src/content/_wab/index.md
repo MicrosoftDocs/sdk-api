@@ -2,11 +2,12 @@
 UID: TP:wab
 ms.assetid: 56a65500-d04e-3d2e-85d2-62accfb13a81
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Windows Address Book

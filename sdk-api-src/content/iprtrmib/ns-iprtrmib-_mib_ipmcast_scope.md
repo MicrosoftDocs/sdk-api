@@ -7,7 +7,7 @@ old-location: mib\mib_ipmcast_scope.htm
 old-project: MIB
 ms.assetid: dbdbfdc6-becb-4ad5-9388-c2715d225fb0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PMIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE structure [MIB], PMIB_IPMCAST_SCOPE, PMIB_IPMCAST_SCOPE structure pointer [MIB], _MIB_IPMCAST_SCOPE, iprtrmib/MIB_IPMCAST_SCOPE, iprtrmib/PMIB_IPMCAST_SCOPE, mib.mib_ipmcast_scope"
 ms.prod: windows-hardware
 ms.technology: windows-devices

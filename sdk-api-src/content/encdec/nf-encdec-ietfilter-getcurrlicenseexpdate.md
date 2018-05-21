@@ -7,7 +7,7 @@ old-location: mstv\ietfilter_getcurrlicenseexpdate.htm
 old-project: mstv
 ms.assetid: d2ec57fc-ad5b-4f7b-a6d7-68f5ee0607b6
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetCurrLicenseExpDate, GetCurrLicenseExpDate method [Microsoft TV Technologies], GetCurrLicenseExpDate method [Microsoft TV Technologies],IETFilter interface, IETFilter interface [Microsoft TV Technologies],GetCurrLicenseExpDate method, IETFilter.GetCurrLicenseExpDate, IETFilter::GetCurrLicenseExpDate, IETFilterGetCurrLicenseExpDate, encdec/IETFilter::GetCurrLicenseExpDate, mstv.ietfilter_getcurrlicenseexpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices

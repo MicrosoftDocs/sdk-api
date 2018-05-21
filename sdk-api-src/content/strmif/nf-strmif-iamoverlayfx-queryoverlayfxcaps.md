@@ -7,7 +7,7 @@ old-location: dshow\iamoverlayfx_queryoverlayfxcaps.htm
 old-project: DirectShow
 ms.assetid: 01fdbe3d-bec7-4e66-87c5-b7e6c1044e8a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMOverlayFX interface [DirectShow],QueryOverlayFXCaps method, IAMOverlayFX.QueryOverlayFXCaps, IAMOverlayFX::QueryOverlayFXCaps, IAMOverlayFXQueryOverlayFXCaps, QueryOverlayFXCaps, QueryOverlayFXCaps method [DirectShow], QueryOverlayFXCaps method [DirectShow],IAMOverlayFX interface, dshow.iamoverlayfx_queryoverlayfxcaps, strmif/IAMOverlayFX::QueryOverlayFXCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

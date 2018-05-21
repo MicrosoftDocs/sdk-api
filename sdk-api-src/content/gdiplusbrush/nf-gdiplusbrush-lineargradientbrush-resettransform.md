@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_ResetTransform_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\resettransform_64.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: LinearGradientBrush class [GDI+],ResetTransform method, LinearGradientBrush.ResetTransform, LinearGradientBrush::ResetTransform, ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_ResetTransform_, gdiplus._gdiplus_CLASS_LinearGradientBrush_ResetTransform_
 ms.prod: windows-hardware
 ms.technology: windows-devices

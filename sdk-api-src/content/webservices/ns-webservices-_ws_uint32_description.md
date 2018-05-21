@@ -7,7 +7,7 @@ old-location: wsw\ws_uint32_description.htm
 old-project: wsw
 ms.assetid: dcb864f2-f162-41ca-b3ef-5b592a311299
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_UINT32_DESCRIPTION, WS_UINT32_DESCRIPTION structure [Web Services for Windows], _WS_UINT32_DESCRIPTION, webservices/WS_UINT32_DESCRIPTION, wsw.ws_uint32_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

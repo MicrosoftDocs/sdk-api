@@ -7,7 +7,7 @@ old-location: winrt\windowssubstringwithspecifiedlength.htm
 old-project: WinRT
 ms.assetid: 8E5DA806-8CBA-4569-9A9B-3B30350F603D
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: WindowsSubstringWithSpecifiedLength, WindowsSubstringWithSpecifiedLength function [Windows Runtime], winrt.windowssubstringwithspecifiedlength, winstring/WindowsSubstringWithSpecifiedLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

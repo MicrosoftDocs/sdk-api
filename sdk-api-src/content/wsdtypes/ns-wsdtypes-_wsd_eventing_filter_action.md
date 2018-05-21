@@ -7,7 +7,7 @@ old-location: ncd\wsd_eventing_filter_action.htm
 old-project: WsdApi
 ms.assetid: d6fc39ec-f57a-4b20-8c8a-7e370ee3f377
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_EVENTING_FILTER_ACTION, WSD_EVENTING_FILTER_ACTION structure, _WSD_EVENTING_FILTER_ACTION, ncd.wsd_eventing_filter_action, wsdtypes/WSD_EVENTING_FILTER_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_lifespan.htm
 old-project: SecAuthN
 ms.assetid: 7ef45795-f6af-4dac-a498-c6f8c915a168
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSecPkgContext_Lifespan, PSecPkgContext_Lifespan, PSecPkgContext_Lifespan structure pointer [Security], SecPkgContext_Lifespan, SecPkgContext_Lifespan structure [Security], _SecPkgContext_Lifespan, _ssp_secpkgcontext_lifespan, security.secpkgcontext_lifespan, sspi/PSecPkgContext_Lifespan, sspi/SecPkgContext_Lifespan"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_Lifespan structure

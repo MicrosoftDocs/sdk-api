@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_SetFillMode_fillmode_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\setfillmode.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GraphicsPath class [GDI+],SetFillMode method, GraphicsPath.SetFillMode, GraphicsPath::SetFillMode, SetFillMode, SetFillMode method [GDI+], SetFillMode method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_SetFillMode_fillmode_, gdiplus._gdiplus_CLASS_GraphicsPath_SetFillMode_fillmode_
 ms.prod: windows-hardware
 ms.technology: windows-devices

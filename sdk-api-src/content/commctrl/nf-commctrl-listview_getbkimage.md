@@ -7,7 +7,7 @@ old-location: controls\ListView_GetBkImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getbkimage.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ListView_GetBkImage, ListView_GetBkImage macro [Windows Controls], _win32_ListView_GetBkImage, _win32_ListView_GetBkImage_cpp, commctrl/ListView_GetBkImage, controls.ListView_GetBkImage, controls._win32_ListView_GetBkImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

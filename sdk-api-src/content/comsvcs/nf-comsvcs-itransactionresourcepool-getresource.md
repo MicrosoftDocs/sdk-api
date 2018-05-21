@@ -7,7 +7,7 @@ old-location: cos\itransactionresourcepool_getresource.htm
 old-project: cossdk
 ms.assetid: 68e71746-e3a1-4f33-a3b8-fa8bf9608776
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: GetResource, GetResource method [COM+], GetResource method [COM+],ITransactionResourcePool interface, ITransactionResourcePool interface [COM+],GetResource method, ITransactionResourcePool.GetResource, ITransactionResourcePool::GetResource, _cos_ITransactionResourcePool_GetResource, comsvcs/ITransactionResourcePool::GetResource, cos.itransactionresourcepool_getresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\itssbenvironment_serverweight.htm
 old-project: TermServ
 ms.assetid: 1c8119ec-22ce-4405-8b30-8cb0c3e2f1c6
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ITsSbEnvironment interface [Remote Desktop Services],ServerWeight property, ITsSbEnvironment.ServerWeight, ITsSbEnvironment.get_ServerWeight, ITsSbEnvironment::ServerWeight, ITsSbEnvironment::get_ServerWeight, ServerWeight property [Remote Desktop Services], ServerWeight property [Remote Desktop Services],ITsSbEnvironment interface, get_ServerWeight, sbtsv/ITsSbEnvironment::ServerWeight, sbtsv/ITsSbEnvironment::get_ServerWeight, termserv.itssbenvironment_serverweight
 ms.prod: windows-hardware
 ms.technology: windows-devices

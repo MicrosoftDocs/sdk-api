@@ -7,7 +7,7 @@ old-location: wcs\ciexyztriple.htm
 old-project: WCS
 ms.assetid: cf4473b0-7e54-42d1-a013-2442a540daee
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPCIEXYZTRIPLE, CIEXYZTRIPLE, CIEXYZTRIPLE structure [Windows Color System], CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE, CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE structure [Windows Color System], _color_CIEXYZTRIPLE_str, tagICEXYZTRIPLE, wcs.ciexyztriple, wingdi/CIEXYZTRIPLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

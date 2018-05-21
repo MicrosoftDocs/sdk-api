@@ -2,7 +2,7 @@
 UID: TP:dxmath
 ms.assetid: 31d9cfe2-2d9e-3607-827d-7ef612e38185
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

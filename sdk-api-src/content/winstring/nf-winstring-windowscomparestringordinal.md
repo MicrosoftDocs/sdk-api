@@ -7,7 +7,7 @@ old-location: winrt\windowscomparestringordinal.htm
 old-project: WinRT
 ms.assetid: 40B34A65-4E3C-4B9D-9315-A0EF015BB8D0
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: WindowsCompareStringOrdinal, WindowsCompareStringOrdinal function [Windows Runtime], winrt.windowscomparestringordinal, winstring/WindowsCompareStringOrdinal
 ms.prod: windows-hardware
 ms.technology: windows-devices

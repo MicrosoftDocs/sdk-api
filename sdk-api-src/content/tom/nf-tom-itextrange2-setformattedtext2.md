@@ -7,7 +7,7 @@ old-location: controls\itextrange2_setformattedtext2.htm
 old-project: Controls
 ms.assetid: 151be9ee-da5d-4e50-a12e-0473cf1c7d91
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetFormattedText2 method, ITextRange2.SetFormattedText2, ITextRange2::SetFormattedText2, SetFormattedText2, SetFormattedText2 method [Windows Controls], SetFormattedText2 method [Windows Controls],ITextRange2 interface, controls.itextrange2_setformattedtext2, tom/ITextRange2::SetFormattedText2
 ms.prod: windows-hardware
 ms.technology: windows-devices

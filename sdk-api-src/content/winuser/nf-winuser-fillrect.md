@@ -7,7 +7,7 @@ old-location: gdi\fillrect.htm
 old-project: gdi
 ms.assetid: 98ab34da-ea07-4446-a62e-509c849d95f9
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: FillRect, FillRect function [Windows GDI], _win32_FillRect, gdi.fillrect, winuser/FillRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,7 +109,7 @@ FillRect(hdc, &amp;rect, (HBRUSH) (COLOR_WINDOW+1));
 </td>
 </tr>
 </table></span></div>
-For a list of all the standard system colors, see <a href="base.getsyscolor">GetSysColor</a>.
+For a list of all the standard system colors, see <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>.
 
 When filling the specified rectangle, <b>FillRect</b> does not include the rectangle's right and bottom sides. GDI fills a rectangle up to, but not including, the right column and bottom row, regardless of the current mapping mode.
 

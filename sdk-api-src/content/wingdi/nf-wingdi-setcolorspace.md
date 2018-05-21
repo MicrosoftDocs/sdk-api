@@ -7,7 +7,7 @@ old-location: wcs\setcolorspace.htm
 old-project: WCS
 ms.assetid: 037c864f-f8ec-4467-9236-74ea4493d743
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/17/2018
 ms.keywords: SetColorSpace, SetColorSpace function [Windows Color System], _color_SetColorSpace, wcs.setcolorspace, wingdi/SetColorSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices

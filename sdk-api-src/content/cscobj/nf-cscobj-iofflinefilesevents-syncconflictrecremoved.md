@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_syncconflictrecremoved.htm
 old-project: OfflineFiles
 ms.assetid: ccdd7b74-3e00-4a3d-9632-eac48d790f23
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecRemoved method, IOfflineFilesEvents.SyncConflictRecRemoved, IOfflineFilesEvents::SyncConflictRecRemoved, SyncConflictRecRemoved, SyncConflictRecRemoved method [Offline Files], SyncConflictRecRemoved method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecRemoved, of.iofflinefilesevents_syncconflictrecremoved
 ms.prod: windows-hardware
 ms.technology: windows-devices

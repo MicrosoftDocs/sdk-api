@@ -7,7 +7,7 @@ old-location: dshow\iamline21decoder_setservicestate.htm
 old-project: DirectShow
 ms.assetid: 009e7d14-5946-42f0-8832-7fd8c565a877
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetServiceState method, IAMLine21Decoder.SetServiceState, IAMLine21Decoder::SetServiceState, IAMLine21DecoderSetServiceState, SetServiceState, SetServiceState method [DirectShow], SetServiceState method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setservicestate, il21dec/IAMLine21Decoder::SetServiceState
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersink_get_sbesink.htm
 old-project: mstv
 ms.assetid: ea911a70-1926-4ba8-b9dd-1188debee00a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_SBESink method, IMSVidStreamBufferSink.get_SBESink, IMSVidStreamBufferSink::get_SBESink, IMSVidStreamBufferSinkget_DVRConfigure, get_SBESink, get_SBESink method [Microsoft TV Technologies], get_SBESink method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_sbesink, segment/IMSVidStreamBufferSink::get_SBESink
 ms.prod: windows-hardware
 ms.technology: windows-devices

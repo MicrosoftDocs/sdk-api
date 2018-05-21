@@ -7,7 +7,7 @@ old-location: intl\isnlsdefinedstring.htm
 old-project: Intl
 ms.assetid: 0beb0470-ecdc-4a24-b28c-0738e1df9d49
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IsNLSDefinedString, IsNLSDefinedString function [Internationalization for Windows Applications], _win32_IsNLSDefinedString, intl.isnlsdefinedstring, winnls/IsNLSDefinedString
 ms.prod: windows-hardware
 ms.technology: windows-devices

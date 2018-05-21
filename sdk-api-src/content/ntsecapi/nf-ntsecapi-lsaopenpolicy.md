@@ -7,7 +7,7 @@ old-location: security\lsaopenpolicy.htm
 old-project: SecAuthN
 ms.assetid: 361bc962-1e97-4606-a835-cbce37692c55
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: LsaOpenPolicy, LsaOpenPolicy function [Security], _lsa_lsaopenpolicy, ntsecapi/LsaOpenPolicy, security.lsaopenpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

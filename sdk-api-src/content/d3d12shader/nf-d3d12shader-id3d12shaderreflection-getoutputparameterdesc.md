@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getoutputparameterdesc.htm
 old-project: direct3d12
 ms.assetid: 6B767F3A-54A7-40F0-B9A9-FD69FA07C689
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: GetOutputParameterDesc, GetOutputParameterDesc method, GetOutputParameterDesc method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetOutputParameterDesc method, ID3D12ShaderReflection.GetOutputParameterDesc, ID3D12ShaderReflection::GetOutputParameterDesc, d3d12shader/ID3D12ShaderReflection::GetOutputParameterDesc, direct3d12.id3d12shaderreflection_getoutputparameterdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\creduiwin_marshaled_context.htm
 old-project: SecAuthN
 ms.assetid: 61e0c9c8-f484-42a9-95c2-5ab77fb20c6c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PCREDUIWIN_MARSHALED_CONTEXT, CREDUIWIN_MARSHALED_CONTEXT, CREDUIWIN_MARSHALED_CONTEXT structure [Security], PCREDUIWIN_MARSHALED_CONTEXT, PCREDUIWIN_MARSHALED_CONTEXT structure pointer [Security], _CREDUIWIN_MARSHALED_CONTEXT, security.creduiwin_marshaled_context, sspi/CREDUIWIN_MARSHALED_CONTEXT, sspi/PCREDUIWIN_MARSHALED_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _CREDUIWIN_MARSHALED_CONTEXT structure

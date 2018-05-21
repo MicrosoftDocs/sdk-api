@@ -7,7 +7,7 @@ old-location: display\dxgetpolarity.htm
 old-project: display
 ms.assetid: 9bce3093-8dcd-4e91-8e20-5558f2dcce75
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: DxGetPolarity, DxGetPolarity callback function [Display Devices], PDX_GETPOLARITY, PDX_GETPOLARITY callback, VideoMiniPort_DxApiFunctions_caf5417f-329e-4270-a067-8a9c9634327d.xml, display.dxgetpolarity, dxmini/DxGetPolarity
 ms.prod: windows-hardware
 ms.technology: windows-devices

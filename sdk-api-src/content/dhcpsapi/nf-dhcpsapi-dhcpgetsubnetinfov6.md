@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetsubnetinfov6.htm
 old-project: DHCP
 ms.assetid: 181015de-c109-4365-a87c-04706f568297
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpGetSubnetInfoV6, DhcpGetSubnetInfoV6 function [DHCP], dhcp.dhcpgetsubnetinfov6, dhcpsapi/DhcpGetSubnetInfoV6
 ms.prod: windows-hardware
 ms.technology: windows-devices

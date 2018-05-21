@@ -7,7 +7,7 @@ old-location: mf\mfgetplanesize.htm
 old-project: medfound
 ms.assetid: 53ce83f3-b06e-4c91-a3e2-6369963e7810
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 53ce83f3-b06e-4c91-a3e2-6369963e7810, MFGetPlaneSize, MFGetPlaneSize function [Media Foundation], mf.mfgetplanesize, mfapi/MFGetPlaneSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\fatalexit.htm
 old-project: Debug
 ms.assetid: 6015e025-872f-455a-89f9-0ff96e59ef15
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: FatalExit, FatalExit function, _win32_fatalexit, base.fatalexit, winbase/FatalExit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: TP:setup
 ms.assetid: 333c3bdd-1089-3313-b2f3-8fa8322fcfb4
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -18,7 +18,6 @@ Overview of the Setup API technology.
 To develop Setup API, you need these headers:
 
  * [advpub.h](..\advpub\index.md)
- * [certview.h](..\certview\index.md)
  * [evalcom2.h](..\evalcom2\index.md)
  * [instance.h](..\instance\index.md)
  * [mergemod.h](..\mergemod\index.md)

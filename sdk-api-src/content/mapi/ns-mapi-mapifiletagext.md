@@ -7,7 +7,7 @@ old-location: mapi\mapifiletagext.htm
 old-project: WindowsMAPI
 ms.assetid: 5f6de637-14a8-46bb-a53e-f355d7592222
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/11/2018
 ms.keywords: "*lpMapiFileTagExt, MapiFileTagExt, MapiFileTagExt structure, lpMapiFileTagExt, lpMapiFileTagExt structure pointer, mapi.mapifiletagext, mapi/MapiFileTagExt, mapi/lpMapiFileTagExt"
 ms.prod: windows-hardware
 ms.technology: windows-devices

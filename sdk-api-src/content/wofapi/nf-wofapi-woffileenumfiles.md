@@ -7,7 +7,7 @@ old-location: fs\woffileenumfiles.htm
 old-project: FileIO
 ms.assetid: 0B3CD8A2-AF4C-4438-B284-03AAA81DE436
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: WofFileEnumFiles, WofFileEnumFiles function [Files], fs.woffileenumfiles, wofapi/WofFileEnumFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

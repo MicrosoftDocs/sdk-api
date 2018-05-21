@@ -7,7 +7,7 @@ old-location: mstv\idvb_rst_getrecordtransportstreamid.htm
 old-project: mstv
 ms.assetid: 40fd889e-eae8-4532-935e-07a7a5b2b6c2
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordTransportStreamId, GetRecordTransportStreamId method [Microsoft TV Technologies], GetRecordTransportStreamId method [Microsoft TV Technologies],IDVB_RST interface, IDVB_RST interface [Microsoft TV Technologies],GetRecordTransportStreamId method, IDVB_RST.GetRecordTransportStreamId, IDVB_RST::GetRecordTransportStreamId, IDVB_RSTGetRecordTransportStreamId, dvbsiparser/IDVB_RST::GetRecordTransportStreamId, mstv.idvb_rst_getrecordtransportstreamid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: etw\tdhloadmanifestfrombinary.htm
 old-project: ETW
 ms.assetid: e152d25c-bbc9-4573-9575-9cf9583433a7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: TdhLoadManifestFromBinary, TdhLoadManifestFromBinary function [ETW], etw.tdhloadmanifestfrombinary, tdh/TdhLoadManifestFromBinary
 ms.prod: windows-hardware
 ms.technology: windows-devices

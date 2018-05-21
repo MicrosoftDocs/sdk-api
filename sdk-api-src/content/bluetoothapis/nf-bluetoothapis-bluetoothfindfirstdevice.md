@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothfindfirstdevice.htm
 old-project: Bluetooth
 ms.assetid: f73acbb4-119f-4a73-a338-d11e8cf7e6be
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothFindFirstDevice, BluetoothFindFirstDevice function [Bluetooth], bluetooth.bluetoothfindfirstdevice, bluetoothapis/BluetoothFindFirstDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,13 +2,13 @@
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0024
 title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0024"
 author: windows-driver-content
-description: The MPEG_DURATION structure is a typedef for the MPEG_TIME structure.
-old-location: mstv\mpeg_duration.htm
+description: The MPEG_TIME structure represents a time of day, or a duration.
+old-location: mstv\mpeg_time.htm
 old-project: mstv
-ms.assetid: 476b7fe1-2186-4242-9a0b-65ae4e18511e
+ms.assetid: b0a28edb-fcd8-43b4-a65c-d45e8a0f02b3
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
-ms.keywords: MPEG_DURATION, MPEG_DURATION structure [Microsoft TV Technologies], MPEG_TIME, __MIDL___MIDL_itf_mpeg2structs_0000_0000_0024, mpeg2structs/MPEG_DURATION, mstv.mpeg_duration, structure [Microsoft TV Technologies]
+ms.date: 5/14/2018
+ms.keywords: MPEG_DURATION, MPEG_TIME, MPEG_TIME structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0024, mpeg2structs/MPEG_TIME, mstv.mpeg_time
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Mpeg2Structs.h
 api_name:
--	MPEG_DURATION
+-	MPEG_TIME
 product: Windows
 targetos: Windows
 req.lib: 
@@ -51,12 +51,39 @@ req.product: GDI+ 1.1
 
 
 
-The <b>MPEG_DURATION</b> structure is a <code>typedef</code> for the <a href="https://msdn.microsoft.com/b0a28edb-fcd8-43b4-a65c-d45e8a0f02b3">MPEG_TIME</a> structure.
+The <b>MPEG_TIME</b> structure represents a time of day, or a duration.
 
 
 
 
 ## -struct-fields
+
+
+
+
+### -field Hours
+
+Specifies the hours. The value can range from 0 to 23, inclusive.
+
+
+### -field Minutes
+
+Specifies the minutes. The value can range from 0 to 59, inclusive.
+
+
+### -field Seconds
+
+Specifies the seconds. The value can range from 0 to 59, inclusive.
+
+
+## -remarks
+
+
+
+The <b>MPEG_DURATION</b> structure is a <code>typedef</code> for the <b>MPEG_TIME</b> structure.
+
+<pre class="syntax" xml:space="preserve"><code>typedef MPEG_TIME MPEG_DURATION;</code></pre>
+
 
 
 ## -see-also

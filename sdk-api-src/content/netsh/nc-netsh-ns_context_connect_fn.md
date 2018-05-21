@@ -7,8 +7,8 @@ old-location: netshell\ns_context_connect_fn.htm
 old-project: NetShell
 ms.assetid: bbdc4a1c-4deb-44d0-bd87-0f3fce4d9883
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
-ms.keywords: SampleConnect, SampleConnect callback function [NetShell], _netsh_ns_context_connect_fn, netsh/SampleConnect, netshell.ns_context_connect_fn
+ms.date: 5/10/2018
+ms.keywords: NS_CONTEXT_CONNECT_FN, NS_CONTEXT_CONNECT_FN callback, NS_CONTEXT_CONNECT_FN callback function [NetShell], SampleConnect, _netsh_ns_context_connect_fn, netsh/NS_CONTEXT_CONNECT_FN, netshell.ns_context_connect_fn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Netsh.h
 api_name:
--	SampleConnect
+-	NS_CONTEXT_CONNECT_FN
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# NS_CONTEXT_CONNECT_FN callback
+# NS_CONTEXT_CONNECT_FN callback function
 
 
 ## -description

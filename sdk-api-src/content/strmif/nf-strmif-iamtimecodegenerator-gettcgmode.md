@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodegenerator_gettcgmode.htm
 old-project: DirectShow
 ms.assetid: 76a754e3-4071-437a-bd98-99a94e2594a3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetTCGMode, GetTCGMode method [DirectShow], GetTCGMode method [DirectShow],IAMTimecodeGenerator interface, IAMTimecodeGenerator interface [DirectShow],GetTCGMode method, IAMTimecodeGenerator.GetTCGMode, IAMTimecodeGenerator::GetTCGMode, IAMTimecodeGeneratorGetTCGMode, dshow.iamtimecodegenerator_gettcgmode, strmif/IAMTimecodeGenerator::GetTCGMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

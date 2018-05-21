@@ -7,7 +7,7 @@ old-location: dshow\iambuffernegotiation_getallocatorproperties.htm
 old-project: DirectShow
 ms.assetid: 85bbb900-772c-4091-83e3-f2a5dd198d39
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetAllocatorProperties, GetAllocatorProperties method [DirectShow], GetAllocatorProperties method [DirectShow],IAMBufferNegotiation interface, IAMBufferNegotiation interface [DirectShow],GetAllocatorProperties method, IAMBufferNegotiation.GetAllocatorProperties, IAMBufferNegotiation::GetAllocatorProperties, IAMBufferNegotiationGetAllocatorProperties, dshow.iambuffernegotiation_getallocatorproperties, strmif/IAMBufferNegotiation::GetAllocatorProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

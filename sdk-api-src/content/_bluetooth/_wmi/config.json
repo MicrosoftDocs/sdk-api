@@ -1,0 +1,24 @@
+{
+  "tech": "wmi",
+  "headers": [
+    "winnt.h",
+    "wmiutils.h",
+    "provider.h",
+    "instance.h",
+    "wbemcli.h",
+    "frquery.h",
+    "thrdbase.h",
+    "wbemglue.h",
+    "chptrarr.h",
+    "chstring.h",
+    "chstrarr.h",
+    "objpath.h",
+    "methodco.h",
+    "refptrco.h",
+    "wbemtime.h",
+    "wbemint.h",
+    "wbemprov.h",
+    "wbemdisp.h"
+  ],
+  "displayName": "Windows Management Instrumentation"
+}

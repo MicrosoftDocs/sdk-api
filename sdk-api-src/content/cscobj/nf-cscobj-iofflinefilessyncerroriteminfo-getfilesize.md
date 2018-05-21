@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncerroriteminfo_getfilesize.htm
 old-project: OfflineFiles
 ms.assetid: a1873a10-0e60-46c3-a3a3-12d974cc0ee9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: GetFileSize, GetFileSize method [Offline Files], GetFileSize method [Offline Files],IOfflineFilesSyncErrorItemInfo interface, IOfflineFilesSyncErrorItemInfo interface [Offline Files],GetFileSize method, IOfflineFilesSyncErrorItemInfo.GetFileSize, IOfflineFilesSyncErrorItemInfo::GetFileSize, cscobj/IOfflineFilesSyncErrorItemInfo::GetFileSize, of.iofflinefilessyncerroriteminfo_getfilesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

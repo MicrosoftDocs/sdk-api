@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersource_currentratings.htm
 old-project: mstv
 ms.assetid: c388d972-07d9-4347-97d3-03a46a6bb50c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: CurrentRatings, CurrentRatings method [Microsoft TV Technologies], CurrentRatings method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, IMSVidStreamBufferSource interface [Microsoft TV Technologies],CurrentRatings method, IMSVidStreamBufferSource.CurrentRatings, IMSVidStreamBufferSource::CurrentRatings, IMSVidStreamBufferSourceCurrentRatings, mstv.imsvidstreambuffersource_currentratings, segment/IMSVidStreamBufferSource::CurrentRatings
 ms.prod: windows-hardware
 ms.technology: windows-devices

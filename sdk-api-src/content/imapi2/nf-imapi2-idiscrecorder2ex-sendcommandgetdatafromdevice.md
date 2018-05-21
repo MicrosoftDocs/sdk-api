@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2ex_sendcommandgetdatafromdevice.htm
 old-project: imapi
 ms.assetid: d3142b79-4e46-4cb8-ab4a-3bf5823cd26e
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],SendCommandGetDataFromDevice method, IDiscRecorder2Ex.SendCommandGetDataFromDevice, IDiscRecorder2Ex::SendCommandGetDataFromDevice, SendCommandGetDataFromDevice, SendCommandGetDataFromDevice method [IMAPI], SendCommandGetDataFromDevice method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_sendcommandgetdatafromdevice, imapi2/IDiscRecorder2Ex::SendCommandGetDataFromDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

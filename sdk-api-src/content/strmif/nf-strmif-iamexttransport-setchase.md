@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport_setchase.htm
 old-project: DirectShow
 ms.assetid: f8c94e74-e243-4fa9-85e6-8c027b514e4f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetChase method, IAMExtTransport.SetChase, IAMExtTransport::SetChase, IAMExtTransportSetChase, SetChase, SetChase method [DirectShow], SetChase method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_setchase, strmif/IAMExtTransport::SetChase
 ms.prod: windows-hardware
 ms.technology: windows-devices

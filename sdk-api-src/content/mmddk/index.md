@@ -2,7 +2,7 @@
 UID: NA:mmddk
 ms.assetid: d726c483-c014-3bf4-b4d2-d089fe169693
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

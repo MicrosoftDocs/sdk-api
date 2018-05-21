@@ -7,7 +7,7 @@ old-location: controls\ListView_SetItemPosition.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemposition.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ListView_SetItemPosition, ListView_SetItemPosition macro [Windows Controls], _win32_ListView_SetItemPosition, _win32_ListView_SetItemPosition_cpp, commctrl/ListView_SetItemPosition, controls.ListView_SetItemPosition, controls._win32_ListView_SetItemPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

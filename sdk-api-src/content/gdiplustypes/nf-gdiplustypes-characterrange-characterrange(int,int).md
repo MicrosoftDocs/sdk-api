@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CharacterRange_CharacterRange_first_length_
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrangeclass\characterrangeconstructors\characterrange_68first_length.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: CharacterRange, CharacterRange class [GDI+],CharacterRange constructor, CharacterRange constructor [GDI+], CharacterRange constructor [GDI+],CharacterRange class, CharacterRange.CharacterRange, CharacterRange.CharacterRange(INT,INT), CharacterRange::CharacterRange, CharacterRange::CharacterRange(INT,INT), _gdiplus_CLASS_CharacterRange_CharacterRange_first_length_, gdiplus._gdiplus_CLASS_CharacterRange_CharacterRange_first_length_
 ms.prod: windows-hardware
 ms.technology: windows-devices

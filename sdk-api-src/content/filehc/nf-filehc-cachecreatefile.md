@@ -7,7 +7,7 @@ old-location: winprog\_cachecreatefile.htm
 old-project: DevNotes
 ms.assetid: 089160c7-eb30-4b39-b982-75356e7cdb24
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CacheCreateFile, CacheCreateFile function [Windows API], filehc/CacheCreateFile, winprog._cachecreatefile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CREATEFILE2_EXTENDED_PARAMETERS, *PCREATEFILE2_EXTENDED_PARAMETERS, *LPCREATEFILE2_EXTENDED_PARAMETERS
+req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: security\ix509attributearchivekey.htm
 old-project: SecCertEnroll
 ms.assetid: b42111e9-e39e-4192-9aba-47403fb627dc
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509AttributeArchiveKey, IX509AttributeArchiveKey interface [Security], IX509AttributeArchiveKey interface [Security],described, certenroll/IX509AttributeArchiveKey, security.ix509attributearchivekey
 ms.prod: windows-hardware
 ms.technology: windows-devices

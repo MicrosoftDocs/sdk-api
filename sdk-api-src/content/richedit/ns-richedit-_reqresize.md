@@ -7,7 +7,7 @@ old-location: controls\REQRESIZE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\reqresize.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: REQRESIZE, REQRESIZE structure [Windows Controls], _reqresize, _win32_REQRESIZE_str, _win32_REQRESIZE_str_cpp, controls.REQRESIZE, controls._win32_REQRESIZE_str, richedit/REQRESIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices

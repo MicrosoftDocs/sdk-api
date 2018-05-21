@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_recipienthomephone_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9m5h.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxDoc object [Fax Service],RecipientHomePhone property, FaxDoc.RecipientHomePhone, IFaxDoc.put_RecipientHomePhone, IFaxDoc::put_RecipientHomePhone, RecipientHomePhone property [Fax Service], RecipientHomePhone property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipienthomephone, fax._mfax_ifaxdoc_get_recipienthomephone, fax._mfax_ifaxdoc_get_recipienthomephone_vb, put_RecipientHomePhone
 ms.prod: windows-hardware
 ms.technology: windows-devices

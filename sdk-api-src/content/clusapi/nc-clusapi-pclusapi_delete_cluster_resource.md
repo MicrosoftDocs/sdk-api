@@ -7,7 +7,7 @@ old-location: mscs\deleteclusterresource.htm
 old-project: MsCS
 ms.assetid: d6a8425c-c926-46d8-b13a-c293f8ed30a8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PCLUSAPI_DELETE_CLUSTER_RESOURCE, PCLUSAPI_DELETE_CLUSTER_RESOURCE callback, PCLUSAPI_DELETE_CLUSTER_RESOURCE callback function [Failover Cluster], _wolf_deleteclusterresource, clusapi/PCLUSAPI_DELETE_CLUSTER_RESOURCE, mscs.deleteclusterresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

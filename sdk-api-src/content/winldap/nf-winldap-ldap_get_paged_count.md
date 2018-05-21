@@ -7,7 +7,7 @@ old-location: ldap\ldap_get_paged_count.htm
 old-project: LDAP
 ms.assetid: 17ad1c7e-c3a1-4f6a-8303-fbbedfc36409
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_get_paged_count, ldap.ldap__get__paged__count, ldap.ldap_get_paged_count, ldap_get_paged_count, ldap_get_paged_count function [LDAP], winldap/ldap_get_paged_count"
 ms.prod: windows-hardware
 ms.technology: windows-devices

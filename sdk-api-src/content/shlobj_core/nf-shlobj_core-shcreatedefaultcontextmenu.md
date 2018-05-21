@@ -7,7 +7,7 @@ old-location: shell\SHCreateDefaultContextMenu.htm
 old-project: shell
 ms.assetid: 055ff0a0-9ba7-463d-9684-3fd072b190da
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: SHCreateDefaultContextMenu, SHCreateDefaultContextMenu function [Windows Shell], _shell_SHCreateDefaultContextMenu, shell.SHCreateDefaultContextMenu, shlobj_core/SHCreateDefaultContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

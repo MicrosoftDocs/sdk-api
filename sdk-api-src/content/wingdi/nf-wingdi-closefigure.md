@@ -7,7 +7,7 @@ old-location: gdi\closefigure.htm
 old-project: gdi
 ms.assetid: 2532227c-35c9-4a46-b4eb-4a156ef28219
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: CloseFigure, CloseFigure function [Windows GDI], _win32_CloseFigure, gdi.closefigure, wingdi/CloseFigure
 ms.prod: windows-hardware
 ms.technology: windows-devices

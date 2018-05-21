@@ -7,7 +7,7 @@ old-location: com\ipersiststream.htm
 old-project: com
 ms.assetid: 97ea64ee-d950-4872-add6-1f532a6eb33f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IPersistStream, IPersistStream interface [COM], IPersistStream interface [COM],described, _com_ipersiststream, com.ipersiststream, objidl/IPersistStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

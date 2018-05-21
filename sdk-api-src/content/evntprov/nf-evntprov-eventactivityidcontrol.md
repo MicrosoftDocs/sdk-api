@@ -7,7 +7,7 @@ old-location: etw\eventactivityidcontrol_func.htm
 old-project: ETW
 ms.assetid: 1c412909-bdff-4181-9750-f3444fda4c8f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EVENT_ACTIVITY_CTRL_CREATE_ID, EVENT_ACTIVITY_CTRL_CREATE_SET_ID, EVENT_ACTIVITY_CTRL_GET_ID, EVENT_ACTIVITY_CTRL_GET_SET_ID, EVENT_ACTIVITY_CTRL_SET_ID, EventActivityIdControl, EventActivityIdControl function [ETW], base.eventactivityidcontrol_func, etw.eventactivityidcontrol_func, evntprov/EventActivityIdControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

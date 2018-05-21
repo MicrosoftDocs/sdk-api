@@ -2,7 +2,7 @@
 UID: NA:aclapi
 ms.assetid: 8ab55667-480a-3c1f-a248-dcf5e0dd5cc4
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

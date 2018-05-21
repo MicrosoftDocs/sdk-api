@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_getvideoacceleratorguids.htm
 old-project: DirectShow
 ms.assetid: 808ba120-f0e1-4348-94e7-69a27c77cf42
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetVideoAcceleratorGUIDs, GetVideoAcceleratorGUIDs method [DirectShow], GetVideoAcceleratorGUIDs method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetVideoAcceleratorGUIDs method, IAMVideoAccelerator.GetVideoAcceleratorGUIDs, IAMVideoAccelerator::GetVideoAcceleratorGUIDs, IAMVideoAcceleratorGetVideoAcceleratorGUIDs, dshow.iamvideoaccelerator_getvideoacceleratorguids, videoacc/IAMVideoAccelerator::GetVideoAcceleratorGUIDs
 ms.prod: windows-hardware
 ms.technology: windows-devices

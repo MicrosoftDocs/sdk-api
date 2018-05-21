@@ -7,7 +7,7 @@ old-location: fs\ioctl_disk_get_drive_geometry.htm
 old-project: FileIO
 ms.assetid: 574efc29-112b-42fe-ad1b-72543f20e831
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY, IOCTL_DISK_GET_DRIVE_GEOMETRY control, IOCTL_DISK_GET_DRIVE_GEOMETRY control code [Files], _win32_ioctl_disk_get_drive_geometry, base.ioctl_disk_get_drive_geometry, fs.ioctl_disk_get_drive_geometry, winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY
 ms.prod: windows-hardware
 ms.technology: windows-devices

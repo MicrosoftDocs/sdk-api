@@ -7,7 +7,7 @@ old-location: controls\ImageList_DrawIndirect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_drawindirect.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ImageList_DrawIndirect, ImageList_DrawIndirect function [Windows Controls], _win32_ImageList_DrawIndirect, _win32_ImageList_DrawIndirect_cpp, commctrl/ImageList_DrawIndirect, controls.ImageList_DrawIndirect, controls._win32_ImageList_DrawIndirect
 ms.prod: windows-hardware
 ms.technology: windows-devices

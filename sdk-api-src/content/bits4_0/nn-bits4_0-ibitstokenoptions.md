@@ -7,7 +7,7 @@ old-location: bits\ibitstokenoptions.htm
 old-project: Bits
 ms.assetid: 8496c27b-68d8-4709-b8a6-6ffa17c886df
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: IBitsTokenOptions, IBitsTokenOptions interface [BITS], IBitsTokenOptions interface [BITS],described, bits.ibitstokenoptions, bits4_0/IBitsTokenOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

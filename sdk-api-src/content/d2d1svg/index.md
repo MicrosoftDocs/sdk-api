@@ -2,7 +2,7 @@
 UID: NA:d2d1svg
 ms.assetid: 31be8d9d-1b44-3985-93a3-bdf5a001be02
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

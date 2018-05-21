@@ -2,13 +2,13 @@
 UID: NF:intsafe.IntPtrToULongPtr
 title: IntPtrToULongPtr function
 author: windows-driver-content
-description: Converts a value of type INT_PTR to a value of type DWORD_PTR.
-old-location: shell\IntPtrToDWordPtr.htm
+description: Converts a value of type INT_PTR to a value of type ULONG_PTR.
+old-location: shell\IntPtrToULongPtr.htm
 old-project: shell
-ms.assetid: 8db60307-c88d-4251-a7d0-dace412700f4
+ms.assetid: 782cf560-20a6-40fd-877b-2326a286c392
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: IntPtrToDWordPtr, IntPtrToDWordPtr function [Windows Shell], IntPtrToULongPtr, _shell_IntPtrToDWordPtr, intsafe/IntPtrToDWordPtr, shell.IntPtrToDWordPtr
+ms.date: 5/16/2018
+ms.keywords: IntPtrToDWordPtr, IntPtrToSIZET, IntPtrToULongPtr, IntPtrToULongPtr function [Windows Shell], PtrdiffTToSIZET, PtrdiffTToULongPtr, _shell_IntPtrToULongPtr, intsafe/IntPtrToULongPtr, shell.IntPtrToULongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	IntPtrToDWordPtr
+-	IntPtrToULongPtr
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>INT_PTR</b> to a value of type <b>DWORD_PTR</b>.
+Converts a value of type <b>INT_PTR</b> to a value of type <b>ULONG_PTR</b>.
 
 
 ## -parameters
@@ -65,18 +65,11 @@ Type: <b>INT_PTR</b>
 The value to be converted.
 
 
-### -param pulResult
+### -param pulResult [out]
 
-TBD
+Type: <b>ULONG_PTR*</b>
 
-
-
-
-#### - pdwResult [out]
-
-Type: <b>DWORD_PTR*</b>
-
-The address of the pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
+A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
 
 ## -returns
@@ -95,6 +88,14 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>IntPtrToSIZET</b> is an alias for this function.
+
+<b>PtrdiffTToULongPtr</b> is an alias for this function.
+
+<b>PtrdiffTToSIZET</b> is an alias for this function.
+
+<b>IntPtrToDWordPtr</b> is an alias for this function.
 
 
 

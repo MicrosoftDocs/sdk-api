@@ -7,7 +7,7 @@ old-location: cos\icrmlogcontrol_registercompensator.htm
 old-project: cossdk
 ms.assetid: f7907dff-a4a1-4526-8dab-547e819199ec
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: ICrmLogControl interface [COM+],RegisterCompensator method, ICrmLogControl.RegisterCompensator, ICrmLogControl::RegisterCompensator, RegisterCompensator, RegisterCompensator method [COM+], RegisterCompensator method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_RegisterCompensator, comsvcs/ICrmLogControl::RegisterCompensator, cos.icrmlogcontrol_registercompensator
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\cluster_set_password_status.htm
 old-project: MsCS
 ms.assetid: a9e0e99f-b57b-4bf1-93d5-6f09d907aed1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: "*PCLUSTER_SET_PASSWORD_STATUS, CLUSTER_SET_PASSWORD_STATUS, CLUSTER_SET_PASSWORD_STATUS structure [Failover Cluster], PCLUSTER_SET_PASSWORD_STATUS, PCLUSTER_SET_PASSWORD_STATUS structure pointer [Failover Cluster], _wolf_cluster_set_password_status, clusapi/CLUSTER_SET_PASSWORD_STATUS, clusapi/PCLUSTER_SET_PASSWORD_STATUS, mscs.cluster_set_password_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices

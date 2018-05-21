@@ -7,13 +7,13 @@ old-location: intl\getdateformat.htm
 old-project: Intl
 ms.assetid: 546cede1-1702-403a-bba3-b5cd3b35a1bf
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: GetDateFormat, GetDateFormat function [Internationalization for Windows Applications], GetDateFormatA, GetDateFormatW, _win32_GetDateFormat, datetimeapi/GetDateFormat, datetimeapi/GetDateFormatA, datetimeapi/GetDateFormatW, intl.getdateformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: datetimeapi.h
-req.include-header: Windows.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]

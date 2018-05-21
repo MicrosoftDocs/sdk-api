@@ -7,8 +7,8 @@ old-location: netshell\ns_context_dump_fn.htm
 old-project: NetShell
 ms.assetid: 4833c65d-1de3-4a02-9489-6e82a6145e28
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
-ms.keywords: SampleDump, SampleDump callback function [NetShell], _netsh_ns_context_dump_fn, netsh/SampleDump, netshell.ns_context_dump_fn
+ms.date: 5/10/2018
+ms.keywords: NS_CONTEXT_DUMP_FN, NS_CONTEXT_DUMP_FN callback, NS_CONTEXT_DUMP_FN callback function [NetShell], _netsh_ns_context_dump_fn, netsh/NS_CONTEXT_DUMP_FN, netshell.ns_context_dump_fn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Netsh.h
 api_name:
--	SampleDump
+-	NS_CONTEXT_DUMP_FN
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# NS_CONTEXT_DUMP_FN callback
+# NS_CONTEXT_DUMP_FN callback function
 
 
 ## -description

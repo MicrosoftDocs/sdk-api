@@ -7,7 +7,7 @@ old-location: security\ialternativename_initializefromstring_method.htm
 old-project: SecCertEnroll
 ms.assetid: 7b5f7dd3-00dc-474b-8920-45a3acded209
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IAlternativeName interface [Security],InitializeFromString method, IAlternativeName.InitializeFromString, IAlternativeName::InitializeFromString, InitializeFromString, InitializeFromString method [Security], InitializeFromString method [Security],IAlternativeName interface, XCN_CERT_ALT_NAME_DNS_NAME, XCN_CERT_ALT_NAME_REGISTERED_ID, XCN_CERT_ALT_NAME_RFC822_NAME, XCN_CERT_ALT_NAME_URL, XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME, certenroll/IAlternativeName::InitializeFromString, security.ialternativename_initializefromstring_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

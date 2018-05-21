@@ -7,7 +7,7 @@ old-location: imapi\imultisessionsequential_get_startaddressofprevioussession.ht
 old-project: imapi
 ms.assetid: 97819e2a-c01b-4820-a200-d9e9c6928f1b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_StartAddressOfPreviousSession method, IMultisessionSequential.get_StartAddressOfPreviousSession, IMultisessionSequential::get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession method [IMAPI], get_StartAddressOfPreviousSession method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_startaddressofprevioussession, imapi2/IMultisessionSequential::get_StartAddressOfPreviousSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

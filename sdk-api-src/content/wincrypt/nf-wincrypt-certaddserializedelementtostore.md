@@ -7,7 +7,7 @@ old-location: security\certaddserializedelementtostore.htm
 old-project: SecCrypto
 ms.assetid: 2726cd34-51ba-4f68-9a3c-7cd505eb32a1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_NEWER, CERT_STORE_ADD_NEWER_INHERIT_PROPERTIES, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CERT_STORE_ALL_CONTEXT_FLAG, CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CERTIFICATE_CONTEXT_FLAG, CERT_STORE_CRL_CONTEXT, CERT_STORE_CRL_CONTEXT_FLAG, CERT_STORE_CTL_CONTEXT, CERT_STORE_CTL_CONTEXT_FLAG, CertAddSerializedElementToStore, CertAddSerializedElementToStore function [Security], _crypto2_certaddserializedelementtostore, security.certaddserializedelementtostore, wincrypt/CertAddSerializedElementToStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

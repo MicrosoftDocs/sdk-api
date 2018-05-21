@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_GetEndCap_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getendcap.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetEndCap, GetEndCap method [GDI+], GetEndCap method [GDI+],Pen class, Pen class [GDI+],GetEndCap method, Pen.GetEndCap, Pen::GetEndCap, _gdiplus_CLASS_Pen_GetEndCap_, gdiplus._gdiplus_CLASS_Pen_GetEndCap_
 ms.prod: windows-hardware
 ms.technology: windows-devices

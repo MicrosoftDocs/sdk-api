@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopycallback2_filetransferred.htm
 old-project: Bits
 ms.assetid: c7e22911-9c14-48ef-8283-f0787b089432
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: FileTransferred, FileTransferred method [BITS], FileTransferred method [BITS],IBackgroundCopyCallback2 interface, IBackgroundCopyCallback2 interface [BITS],FileTransferred method, IBackgroundCopyCallback2.FileTransferred, IBackgroundCopyCallback2::FileTransferred, bits.ibackgroundcopycallback2_filetransferred, bits3_0/IBackgroundCopyCallback2::FileTransferred
 ms.prod: windows-hardware
 ms.technology: windows-devices

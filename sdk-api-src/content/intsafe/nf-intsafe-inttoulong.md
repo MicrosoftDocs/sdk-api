@@ -2,13 +2,13 @@
 UID: NF:intsafe.IntToULong
 title: IntToULong function
 author: windows-driver-content
-description: Converts a value of type INT to a value of type DWORD.
-old-location: shell\IntToDWord.htm
+description: Converts a value of type INT to a value of type ULONG.
+old-location: shell\IntToULong.htm
 old-project: shell
-ms.assetid: 60988ee4-5a82-4801-9aab-2ea81fb90c15
+ms.assetid: 060915cf-d7a2-48ef-b2b6-303f2cc86c94
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: IntToDWord, IntToDWord function [Windows Shell], IntToULong, _shell_IntToDWord, intsafe/IntToDWord, shell.IntToDWord
+ms.date: 5/16/2018
+ms.keywords: IntToDWord, IntToULong, IntToULong function [Windows Shell], _shell_IntToULong, intsafe/IntToULong, shell.IntToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	IntToDWord
+-	IntToULong
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>INT</b> to a value of type <b>DWORD</b>.
+Converts a value of type <b>INT</b> to a value of type <b>ULONG</b>.
 
 
 ## -parameters
@@ -65,16 +65,9 @@ Type: <b>INT</b>
 The value to be converted.
 
 
-### -param pulResult
+### -param pulResult [out]
 
-TBD
-
-
-
-
-#### - pdwResult [out]
-
-Type: <b>DWORD*</b>
+Type: <b>ULONG*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
@@ -95,6 +88,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>IntToDWord</b> is an alias for this function.
 
 
 

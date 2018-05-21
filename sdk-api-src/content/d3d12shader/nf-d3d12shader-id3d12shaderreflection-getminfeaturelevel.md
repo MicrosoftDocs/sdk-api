@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12shaderreflection_getminfeaturelevel.htm
 old-project: direct3d12
 ms.assetid: DE1FC45B-DA2B-41B6-A732-62BA886F51C2
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: GetMinFeatureLevel, GetMinFeatureLevel method, GetMinFeatureLevel method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetMinFeatureLevel method, ID3D12ShaderReflection.GetMinFeatureLevel, ID3D12ShaderReflection::GetMinFeatureLevel, d3d12shader/ID3D12ShaderReflection::GetMinFeatureLevel, direct3d12.id3d12shaderreflection_getminfeaturelevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

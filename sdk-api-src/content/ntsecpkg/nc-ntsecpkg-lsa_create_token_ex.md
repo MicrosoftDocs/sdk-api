@@ -7,7 +7,7 @@ old-location: security\createtokenex.htm
 old-project: SecAuthN
 ms.assetid: 1f12d8a4-6cbd-43e3-98a7-eaf3d30a053e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CreateTokenEx, CreateTokenEx function [Security], LSA_CREATE_TOKEN_EX, LsaTokenInformationNull, LsaTokenInformationV1, ntsecpkg/CreateTokenEx, security.createtokenex
 ms.prod: windows-hardware
 ms.technology: windows-devices

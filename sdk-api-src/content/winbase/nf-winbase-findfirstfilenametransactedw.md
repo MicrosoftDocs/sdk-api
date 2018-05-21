@@ -7,7 +7,7 @@ old-location: fs\findfirstfilenametransactedw.htm
 old-project: FileIO
 ms.assetid: 79c7d32d-3cb7-4e27-9db1-f24282bf606a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: FindFirstFileNameTransactedW, FindFirstFileNameTransactedW function [Files], fs.findfirstfilenametransactedw, winbase/FindFirstFileNameTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

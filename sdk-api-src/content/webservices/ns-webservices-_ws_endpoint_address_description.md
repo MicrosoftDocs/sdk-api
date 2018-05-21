@@ -7,7 +7,7 @@ old-location: wsw\ws_endpoint_address_description.htm
 old-project: wsw
 ms.assetid: 2d79d917-5ebc-4be4-b7ce-685ce9fefc3a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_ENDPOINT_ADDRESS_DESCRIPTION, WS_ENDPOINT_ADDRESS_DESCRIPTION structure [Web Services for Windows], _WS_ENDPOINT_ADDRESS_DESCRIPTION, webservices/WS_ENDPOINT_ADDRESS_DESCRIPTION, wsw.ws_endpoint_address_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\getwindowdc.htm
 old-project: gdi
 ms.assetid: 9e6a135e-e337-4129-a3ad-faf9a8ac9b2d
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetWindowDC, GetWindowDC function [Windows GDI], _win32_GetWindowDC, gdi.getwindowdc, winuser/GetWindowDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,7 +88,7 @@ If the function fails, the return value is <b>NULL</b>, indicating an error or a
 
 <b>GetWindowDC</b> is intended for special painting effects within a window's nonclient area. Painting in nonclient areas of any window is not recommended.
 
-The <a href="base.getsystemmetrics">GetSystemMetrics</a> function can be used to retrieve the dimensions of various parts of the nonclient area, such as the title bar, menu, and scroll bars.
+The <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> function can be used to retrieve the dimensions of various parts of the nonclient area, such as the title bar, menu, and scroll bars.
 
 The <a href="https://msdn.microsoft.com/50b2387b-c8e4-42a8-8f0f-0bdb355adbfd">GetDC</a> function can be used to retrieve a device context for the entire screen.
 
@@ -110,7 +110,7 @@ After painting is complete, the <a href="https://msdn.microsoft.com/c4f48f1e-4a3
 
 
 
-<a href="base.getsystemmetrics">GetSystemMetrics</a>
+<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
 
 
 

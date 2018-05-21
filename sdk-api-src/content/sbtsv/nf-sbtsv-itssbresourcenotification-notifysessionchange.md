@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcenotification_notifysessionchange.htm
 old-project: TermServ
 ms.assetid: c1efe806-a448-42d7-8bcd-bd763c00c732
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ITsSbResourceNotification interface [Remote Desktop Services],NotifySessionChange method, ITsSbResourceNotification.NotifySessionChange, ITsSbResourceNotification::NotifySessionChange, NotifySessionChange, NotifySessionChange method [Remote Desktop Services], NotifySessionChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifySessionChange, termserv.itssbresourcenotification_notifysessionchange
 ms.prod: windows-hardware
 ms.technology: windows-devices

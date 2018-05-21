@@ -7,7 +7,7 @@ old-location: dns\dns_query_completion_routine.htm
 old-project: DNS
 ms.assetid: 35D78208-FFC1-48B0-8267-EE583DE2D783
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: DNS_QUERY_COMPLETION_ROUTINE, DNS_QUERY_COMPLETION_ROUTINE callback, DNS_QUERY_COMPLETION_ROUTINE callback function [DNS], dns.dns_query_completion_routine, windns/DNS_QUERY_COMPLETION_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices

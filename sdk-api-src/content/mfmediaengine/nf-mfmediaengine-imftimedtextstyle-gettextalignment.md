@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_gettextalignment.htm
 old-project: medfound
 ms.assetid: 2BB85E50-250C-4CFD-95DD-198899DCFE1D
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetTextAlignment, GetTextAlignment method [Media Foundation], GetTextAlignment method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextAlignment method, IMFTimedTextStyle.GetTextAlignment, IMFTimedTextStyle::GetTextAlignment, mf.imftimedtextstyle_gettextalignment, mfmediaengine/IMFTimedTextStyle::GetTextAlignment
 ms.prod: windows-hardware
 ms.technology: windows-devices

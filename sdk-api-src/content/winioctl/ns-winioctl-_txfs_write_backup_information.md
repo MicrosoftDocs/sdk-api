@@ -7,7 +7,7 @@ old-location: fs\txfs_write_backup_information.htm
 old-project: FileIO
 ms.assetid: 777210c4-4e9b-484e-a412-8c807882facb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PTXFS_WRITE_BACKUP_INFORMATION, PTXFS_WRITE_BACKUP_INFORMATION, PTXFS_WRITE_BACKUP_INFORMATION structure pointer [Files], TXFS_WRITE_BACKUP_INFORMATION, TXFS_WRITE_BACKUP_INFORMATION structure [Files], _TXFS_WRITE_BACKUP_INFORMATION, fs.txfs_write_backup_information, winioctl/PTXFS_WRITE_BACKUP_INFORMATION, winioctl/TXFS_WRITE_BACKUP_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

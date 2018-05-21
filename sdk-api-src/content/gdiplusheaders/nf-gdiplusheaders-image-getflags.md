@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetFlags_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getflags.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetFlags, GetFlags method [GDI+], GetFlags method [GDI+],Image class, Image class [GDI+],GetFlags method, Image.GetFlags, Image::GetFlags, _gdiplus_CLASS_Image_GetFlags_, gdiplus._gdiplus_CLASS_Image_GetFlags_
 ms.prod: windows-hardware
 ms.technology: windows-devices

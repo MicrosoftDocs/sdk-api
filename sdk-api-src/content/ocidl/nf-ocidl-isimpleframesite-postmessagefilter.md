@@ -7,7 +7,7 @@ old-location: com\isimpleframesite_postmessagefilter.htm
 old-project: com
 ms.assetid: b9725ef9-16e0-4574-9b94-826814a396be
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: ISimpleFrameSite interface [COM],PostMessageFilter method, ISimpleFrameSite.PostMessageFilter, ISimpleFrameSite::PostMessageFilter, PostMessageFilter, PostMessageFilter method [COM], PostMessageFilter method [COM],ISimpleFrameSite interface, _ctrl_isimpleframesite_postmessagefilter, com.isimpleframesite_postmessagefilter, ocidl/ISimpleFrameSite::PostMessageFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

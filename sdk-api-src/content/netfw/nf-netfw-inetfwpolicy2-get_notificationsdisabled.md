@@ -7,7 +7,7 @@ old-location: ics\inetfwpolicy2_notificationsdisabled.htm
 old-project: ICS
 ms.assetid: 490442a4-3b60-4891-9d0e-71f8d2147999
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],NotificationsDisabled property, INetFwPolicy2.NotificationsDisabled, INetFwPolicy2.get_NotificationsDisabled, INetFwPolicy2::NotificationsDisabled, INetFwPolicy2::get_NotificationsDisabled, INetFwPolicy2::put_NotificationsDisabled, NotificationsDisabled property [ICS/ICF], NotificationsDisabled property [ICS/ICF],INetFwPolicy2 interface, get_NotificationsDisabled, ics.inetfwpolicy2_notificationsdisabled, netfw/INetFwPolicy2::NotificationsDisabled, netfw/INetFwPolicy2::get_NotificationsDisabled, netfw/INetFwPolicy2::put_NotificationsDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

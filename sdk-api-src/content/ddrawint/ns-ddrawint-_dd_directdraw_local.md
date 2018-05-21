@@ -7,7 +7,7 @@ old-location: display\dd_directdraw_local.htm
 old-project: display
 ms.assetid: 58e378b7-863a-46d4-91cb-904ed4e892a3
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL, DD_DIRECTDRAW_LOCAL structure [Display Devices], _DD_DIRECTDRAW_LOCAL, ddrawint/DD_DIRECTDRAW_LOCAL, ddstrcts_2df3e80e-6d5d-4d81-9ae8-d92b7c7c74eb.xml, display.dd_directdraw_local"
 ms.prod: windows-hardware
 ms.technology: windows-devices

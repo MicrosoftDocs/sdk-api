@@ -2,7 +2,7 @@
 UID: TP:alljoyn
 ms.assetid: 934044dd-93a8-367b-b7e2-7eb21a01df15
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

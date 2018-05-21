@@ -7,7 +7,7 @@ old-location: dshow\amvaendframeinfo.htm
 old-project: DirectShow
 ms.assetid: 7f9308c1-0426-4c0f-97aa-4d946ac2403a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPAMVAEndFrameInfo, AMVAEndFrameInfo, AMVAEndFrameInfo structure [DirectShow], AMVAEndFrameInfoStructure, LPAMVAEndFrameInfo, LPAMVAEndFrameInfo structure pointer [DirectShow], _tag_AMVAEndFrameInfo, amva/AMVAEndFrameInfo, amva/LPAMVAEndFrameInfo, dshow.amvaendframeinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

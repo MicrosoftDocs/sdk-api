@@ -7,7 +7,7 @@ old-location: dataxchg\getclipboardowner.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboardowner.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: GetClipboardOwner, GetClipboardOwner function [Data Exchange], _win32_GetClipboardOwner, _win32_getclipboardowner_cpp, dataxchg.getclipboardowner, winui._win32_getclipboardowner, winuser/GetClipboardOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices

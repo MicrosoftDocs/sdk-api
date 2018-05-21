@@ -7,7 +7,7 @@ old-location: com\iserversecurity_reverttoself.htm
 old-project: com
 ms.assetid: 21952f54-439e-446f-a206-4b35759b1090
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IServerSecurity interface [COM],RevertToSelf method, IServerSecurity.RevertToSelf, IServerSecurity::RevertToSelf, RevertToSelf, RevertToSelf method [COM], RevertToSelf method [COM],IServerSecurity interface, _com_iserversecurity_reverttoself, com.iserversecurity_reverttoself, objidlbase/IServerSecurity::RevertToSelf
 ms.prod: windows-hardware
 ms.technology: windows-devices

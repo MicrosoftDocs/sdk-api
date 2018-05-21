@@ -7,7 +7,7 @@ old-location: controls\ITextDocument_GetDefaultTabStop.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getdefaulttabstop.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetDefaultTabStop, GetDefaultTabStop method [Windows Controls], GetDefaultTabStop method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetDefaultTabStop method, ITextDocument.GetDefaultTabStop, ITextDocument::GetDefaultTabStop, _win32_ITextDocument_GetDefaultTabStop, _win32_ITextDocument_GetDefaultTabStop_cpp, controls.ITextDocument_GetDefaultTabStop, controls._win32_ITextDocument_GetDefaultTabStop, tom/ITextDocument::GetDefaultTabStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

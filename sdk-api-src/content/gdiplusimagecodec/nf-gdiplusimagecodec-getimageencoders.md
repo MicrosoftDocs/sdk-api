@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_FUNC_GetImageEncoders_numEncoders_size_encoders_.
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\getimageencoders.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetImageEncoders, GetImageEncoders function [GDI+], _gdiplus_FUNC_GetImageEncoders_numEncoders_size_encoders_, gdiplus._gdiplus_FUNC_GetImageEncoders_numEncoders_size_encoders_, gdiplusimagecodec/GetImageEncoders
 ms.prod: windows-hardware
 ms.technology: windows-devices

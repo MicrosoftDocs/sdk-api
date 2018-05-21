@@ -7,7 +7,7 @@ old-location: ncd\iwsdasyncresult_setcallback.htm
 old-project: WsdApi
 ms.assetid: 39fc05f8-4b09-4305-b9a4-b4ef65788efc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDAsyncResult interface,SetCallback method, IWSDAsyncResult.SetCallback, IWSDAsyncResult::SetCallback, SetCallback, SetCallback method, SetCallback method,IWSDAsyncResult interface, ncd.iwsdasyncresult_setcallback, wsdclient/IWSDAsyncResult::SetCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_application_newserializer.htm
 old-project: wmi_v2
 ms.assetid: 9de29d43-0677-4dc9-927f-af7c01179991
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_Application_NewSerializer, MI_Application_NewSerializer function [Windows Management Infrastructure (MI)], mi/MI_Application_NewSerializer, wmi_v2.mi_application_newserializer
 ms.prod: windows-hardware
 ms.technology: windows-devices

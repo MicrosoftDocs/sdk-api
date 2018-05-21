@@ -7,7 +7,7 @@ old-location: ncd\requestbody_renew_struct.htm
 old-project: WsdApi
 ms.assetid: 2646cfb7-e372-44d2-9d4c-fa68e0d567bb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: REQUESTBODY_Renew, REQUESTBODY_Renew structure, ncd.requestbody_renew_struct, wsdtypes/REQUESTBODY_Renew
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winprog\auxulibsetsystemfilecachesize_func.htm
 old-project: DevNotes
 ms.assetid: 2a6ee33e-91dc-4f6d-bdb7-a93b7478b58e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AuxUlibSetSystemFileCacheSize, AuxUlibSetSystemFileCacheSize function [Windows API], aux_ulib/AuxUlibSetSystemFileCacheSize, winprog.auxulibsetsystemfilecachesize_func
 ms.prod: windows-hardware
 ms.technology: windows-devices

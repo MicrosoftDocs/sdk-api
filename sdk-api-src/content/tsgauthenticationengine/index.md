@@ -2,11 +2,12 @@
 UID: NA:tsgauthenticationengine
 ms.assetid: fc55d3c8-843c-3168-b01a-4ba9d145b87c
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: termserv
 ---
 

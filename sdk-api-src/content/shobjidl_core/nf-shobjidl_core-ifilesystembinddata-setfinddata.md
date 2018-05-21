@@ -7,7 +7,7 @@ old-location: shell\IFileSystemBindData_SetFindData.htm
 old-project: shell
 ms.assetid: 8e2af85f-5eca-46e4-b193-bf25e2366fac
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IFileSystemBindData interface [Windows Shell],SetFindData method, IFileSystemBindData.SetFindData, IFileSystemBindData::SetFindData, SetFindData, SetFindData method [Windows Shell], SetFindData method [Windows Shell],IFileSystemBindData interface, _shell_ifilesystembinddata_setfinddata, shell.IFileSystemBindData_SetFindData, shobjidl_core/IFileSystemBindData::SetFindData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IFileSystemBindData::SetFindData

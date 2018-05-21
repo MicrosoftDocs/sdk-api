@@ -7,7 +7,7 @@ old-location: menurc\getmenustate.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenustate.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: GetMenuState, GetMenuState function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, _win32_GetMenuState, _win32_getmenustate_cpp, menurc.getmenustate, winui._win32_getmenustate, winuser/GetMenuState
 ms.prod: windows-hardware
 ms.technology: windows-devices

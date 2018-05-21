@@ -7,7 +7,7 @@ old-location: controls\itextstory_getproperty.htm
 old-project: Controls
 ms.assetid: 1c24e9d8-c737-42f8-87d9-585b0054b6df
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetProperty method, ITextStory.GetProperty, ITextStory::GetProperty, controls.itextstory_getproperty, tom/ITextStory::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

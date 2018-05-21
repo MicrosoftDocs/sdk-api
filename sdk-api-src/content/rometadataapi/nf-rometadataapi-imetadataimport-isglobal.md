@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_isglobal.htm
 old-project: WinRT
 ms.assetid: 01558f0f-11ca-4c17-8f55-b0fc78492813
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],IsGlobal method, IMetaDataImport.IsGlobal, IMetaDataImport::IsGlobal, IsGlobal, IsGlobal method [Windows Runtime], IsGlobal method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::IsGlobal, winrt.imetadataimport_isglobal
 ms.prod: windows-hardware
 ms.technology: windows-devices

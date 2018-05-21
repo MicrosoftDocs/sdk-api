@@ -7,7 +7,7 @@ old-location: ldap\ber_scanf.htm
 old-project: LDAP
 ms.assetid: bca69428-27e1-4028-bfcd-ad67bee672cc
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ber_scanf, ber_scanf, ber_scanf function [LDAP], ldap.ber__scanf, ldap.ber_scanf, winber/ber_scanf"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\Int8Sub.htm
 old-project: shell
 ms.assetid: 2dfab719-3c16-49db-9cf3-1db236eae141
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: Int8Sub, Int8Sub function [Windows Shell], intsafe/Int8Sub, shell.Int8Sub
 ms.prod: windows-hardware
 ms.technology: windows-devices

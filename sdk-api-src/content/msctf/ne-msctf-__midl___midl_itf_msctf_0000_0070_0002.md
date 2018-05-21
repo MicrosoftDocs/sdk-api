@@ -65,7 +65,7 @@ The structure contains no color data.
 
 ### -field TF_CT_SYSCOLOR
 
-The color is specified as a system color index. For more information about the system color indexes, see <a href="base.getsyscolor">GetSysColor</a>.
+The color is specified as a system color index. For more information about the system color indexes, see <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>.
 
 
 ### -field TF_CT_COLORREF
@@ -78,7 +78,7 @@ The color is specified as an RGB value.
 
 
 
-<a href="base.getsyscolor">GetSysColor</a>
+<a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a>
 
 
 

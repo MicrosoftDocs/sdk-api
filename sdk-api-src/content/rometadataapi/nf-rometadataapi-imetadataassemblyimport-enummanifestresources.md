@@ -7,7 +7,7 @@ old-location: winrt\imetadataassemblyimport_enummanifestresources.htm
 old-project: WinRT
 ms.assetid: 294ba92f-b6ef-4a66-81b5-b9ff508e147e
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: EnumManifestResources, EnumManifestResources method [Windows Runtime], EnumManifestResources method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumManifestResources method, IMetaDataAssemblyImport.EnumManifestResources, IMetaDataAssemblyImport::EnumManifestResources, rometadataapi/IMetaDataAssemblyImport::EnumManifestResources, winrt.imetadataassemblyimport_enummanifestresources
 ms.prod: windows-hardware
 ms.technology: windows-devices

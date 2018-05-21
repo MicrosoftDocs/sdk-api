@@ -7,7 +7,7 @@ old-location: menurc\lookupiconidfromdirectoryex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\lookupiconidfromdirectoryex.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: LR_DEFAULTCOLOR, LR_MONOCHROME, LookupIconIdFromDirectoryEx, LookupIconIdFromDirectoryEx function [Menus and Other Resources], _win32_LookupIconIdFromDirectoryEx, _win32_lookupiconidfromdirectoryex_cpp, menurc.lookupiconidfromdirectoryex, winui._win32_lookupiconidfromdirectoryex, winuser/LookupIconIdFromDirectoryEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\PropSheet_SetTitle.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_settitle.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: PropSheet_SetTitle, PropSheet_SetTitle macro [Windows Controls], _win32_PropSheet_SetTitle, _win32_PropSheet_SetTitle_cpp, controls.PropSheet_SetTitle, controls._win32_PropSheet_SetTitle, prsht/PropSheet_SetTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices

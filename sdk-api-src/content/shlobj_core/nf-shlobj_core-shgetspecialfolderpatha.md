@@ -7,7 +7,7 @@ old-location: shell\SHGetSpecialFolderPath.htm
 old-project: shell
 ms.assetid: 4c39fdc1-5e43-4042-8703-fb72c88e2637
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: SHGetSpecialFolderPath, SHGetSpecialFolderPath function [Windows Shell], SHGetSpecialFolderPathA, SHGetSpecialFolderPathW, _win32_SHGetSpecialFolderPath, shell.SHGetSpecialFolderPath, shlobj_core/SHGetSpecialFolderPath, shlobj_core/SHGetSpecialFolderPathA, shlobj_core/SHGetSpecialFolderPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

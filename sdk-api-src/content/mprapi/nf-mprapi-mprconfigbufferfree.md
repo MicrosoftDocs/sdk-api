@@ -7,7 +7,7 @@ old-location: rras\mprconfigbufferfree.htm
 old-project: RRAS
 ms.assetid: d7df56ee-72e4-4b0c-87a3-a1f66d791b62
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MprConfigBufferFree, MprConfigBufferFree function [RAS], _mpr_mprconfigbufferfree, mprapi/MprConfigBufferFree, rras.mprconfigbufferfree
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_attribute.htm
 old-project: wsw
 ms.assetid: 338c31ac-d5eb-4d2d-8ee1-953963c1a8b0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_XML_ATTRIBUTE, WS_XML_ATTRIBUTE structure [Web Services for Windows], _WS_XML_ATTRIBUTE, webservices/WS_XML_ATTRIBUTE, wsw.ws_xml_attribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

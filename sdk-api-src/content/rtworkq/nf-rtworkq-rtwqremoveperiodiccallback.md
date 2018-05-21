@@ -7,7 +7,7 @@ old-location: base\rtwqremoveperiodiccallback.htm
 old-project: ProcThread
 ms.assetid: 308910e3-dae8-4f23-9782-adf2996a58aa
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: RtwqRemovePeriodicCallback, RtwqRemovePeriodicCallback function, base.rtwqremoveperiodiccallback, rtworkq/RtwqRemovePeriodicCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

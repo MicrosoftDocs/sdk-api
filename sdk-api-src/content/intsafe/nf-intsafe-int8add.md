@@ -7,7 +7,7 @@ old-location: shell\Int8Add.htm
 old-project: shell
 ms.assetid: 2b9e9c0b-ddf4-4a95-a743-004a7575bbfa
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: Int8Add, Int8Add function [Windows Shell], intsafe/Int8Add, shell.Int8Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

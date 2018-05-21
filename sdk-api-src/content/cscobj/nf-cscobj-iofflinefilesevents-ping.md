@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_ping.htm
 old-project: OfflineFiles
 ms.assetid: edde2f37-f082-4382-8908-181bc42d30ef
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],Ping method, IOfflineFilesEvents.Ping, IOfflineFilesEvents::Ping, Ping, Ping method [Offline Files], Ping method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::Ping, of.iofflinefilesevents_ping
 ms.prod: windows-hardware
 ms.technology: windows-devices

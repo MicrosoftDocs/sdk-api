@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_GetElements_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\getelements.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetElements, GetElements method [GDI+], GetElements method [GDI+],Matrix class, Matrix class [GDI+],GetElements method, Matrix.GetElements, Matrix::GetElements, _gdiplus_CLASS_Matrix_GetElements_, gdiplus._gdiplus_CLASS_Matrix_GetElements_
 ms.prod: windows-hardware
 ms.technology: windows-devices

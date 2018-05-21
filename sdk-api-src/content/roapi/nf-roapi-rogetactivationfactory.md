@@ -7,7 +7,7 @@ old-location: winrt\rogetactivationfactory.htm
 old-project: WinRT
 ms.assetid: 291ed35d-a459-4509-a265-89c49f8aa13a
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: RoGetActivationFactory, RoGetActivationFactory function [Windows Runtime], WinRTGetActivationFactory, roapi/RoGetActivationFactory, roapi/WinRTGetActivationFactory, winrt.rogetactivationfactory, winrt.winrtgetactivationfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

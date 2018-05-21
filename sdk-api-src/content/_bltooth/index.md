@@ -2,7 +2,7 @@
 UID: TP:bltooth
 ms.assetid: a24d2124-fb4a-3c14-aeb8-83c46e9ed71c
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

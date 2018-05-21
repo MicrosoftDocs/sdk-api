@@ -7,7 +7,7 @@ old-location: bits\filesetinfo.htm
 old-project: Bits
 ms.assetid: 1a1d6683-5317-4a34-828d-55142f64f19f
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: FILESETINFO, FILESETINFO structure [BITS], _FILESETINFO, bits.filesetinfo, qmgr/FILESETINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

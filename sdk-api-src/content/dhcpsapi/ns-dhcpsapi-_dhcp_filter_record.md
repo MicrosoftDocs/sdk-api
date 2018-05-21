@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_filter_record.htm
 old-project: DHCP
 ms.assetid: 5f8531fe-cc30-4baf-904b-15627d1ff750
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_FILTER_RECORD, DHCP_FILTER_RECORD, DHCP_FILTER_RECORD structure [DHCP], PDHCP_FILTER_RECORD, PDHCP_FILTER_RECORD structure pointer [DHCP], _DHCP_FILTER_RECORD, dhcp.dhcp_filter_record, dhcpsapi/DHCP_FILTER_RECORD, dhcpsapi/PDHCP_FILTER_RECORD"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Color_SetValue_argb_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\setvalue.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Color class [GDI+],SetValue method, Color.SetValue, Color::SetValue, SetValue, SetValue method [GDI+], SetValue method [GDI+],Color class, _gdiplus_CLASS_Color_SetValue_argb_, gdiplus._gdiplus_CLASS_Color_SetValue_argb_
 ms.prod: windows-hardware
 ms.technology: windows-devices

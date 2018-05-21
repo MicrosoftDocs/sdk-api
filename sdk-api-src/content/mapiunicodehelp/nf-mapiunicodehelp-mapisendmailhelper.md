@@ -7,7 +7,7 @@ old-location: mapi\mapisendmailhelper.htm
 old-project: WindowsMAPI
 ms.assetid: 3FBE0950-6D73-4130-9F17-F1449247AB0F
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/11/2018
 ms.keywords: MAPISendMailHelper, MAPISendMailHelper function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailhelper, mapiunicodehelp/MAPISendMailHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices

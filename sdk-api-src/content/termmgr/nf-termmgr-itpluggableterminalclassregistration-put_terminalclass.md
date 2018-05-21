@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassregistration_put_terminalclass.htm
 old-project: Tapi
 ms.assetid: 257adef8-f578-4c8c-9fe9-df59572b7f6e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_TerminalClass method, ITPluggableTerminalClassRegistration.put_TerminalClass, ITPluggableTerminalClassRegistration::put_TerminalClass, _tapi3_itpluggableterminalclassregistration_put_terminalclass, put_TerminalClass, put_TerminalClass method [TAPI 2.2], put_TerminalClass method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_terminalclass, termmgr/ITPluggableTerminalClassRegistration::put_TerminalClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

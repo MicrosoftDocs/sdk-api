@@ -7,7 +7,7 @@ old-location: of\iofflinefilesfileitem_issparse.htm
 old-project: OfflineFiles
 ms.assetid: 6f731b25-f4f0-4635-af00-dbd1ba4e5f11
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesFileItem interface [Offline Files],IsSparse method, IOfflineFilesFileItem.IsSparse, IOfflineFilesFileItem::IsSparse, IsSparse, IsSparse method [Offline Files], IsSparse method [Offline Files],IOfflineFilesFileItem interface, cscobj/IOfflineFilesFileItem::IsSparse, of.iofflinefilesfileitem_issparse
 ms.prod: windows-hardware
 ms.technology: windows-devices

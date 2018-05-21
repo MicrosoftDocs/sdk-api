@@ -7,7 +7,7 @@ old-location: base\job_object_net_rate_control_flags.htm
 old-project: ProcThread
 ms.assetid: D1AD3722-1A15-4BCA-8F0A-6E32A078959A
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG, JOB_OBJECT_NET_RATE_CONTROL_ENABLE, JOB_OBJECT_NET_RATE_CONTROL_FLAGS, JOB_OBJECT_NET_RATE_CONTROL_FLAGS enumeration, JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWITH, JOB_OBJECT_NET_RATE_CONTROL_VALID_FLAGS, base.job_object_net_rate_control_flags, winnt/JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG, winnt/JOB_OBJECT_NET_RATE_CONTROL_ENABLE, winnt/JOB_OBJECT_NET_RATE_CONTROL_FLAGS, winnt/JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWITH, winnt/JOB_OBJECT_NET_RATE_CONTROL_VALID_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices

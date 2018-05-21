@@ -7,7 +7,7 @@ old-location: perf\perf_counter_identifier.htm
 old-project: PerfCtrs
 ms.assetid: 4BBAB831-9A7F-407E-A7D6-9123192C12B4
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: "*PPERF_COUNTER_IDENTIFIER, PERF_COUNTER_IDENTIFIER, PERF_COUNTER_IDENTIFIER structure [Perf], PPERF_COUNTER_IDENTIFIER, PPERF_COUNTER_IDENTIFIER structure pointer [Perf], _PERF_COUNTER_IDENTIFIER, perf.perf_counter_identifier, perflib/PERF_COUNTER_IDENTIFIER, perflib/PPERF_COUNTER_IDENTIFIER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_processor_caps.htm
 old-project: medfound
 ms.assetid: EF79BE15-B92E-45C1-BC42-E89E06197C20
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_CAPS, D3D11_VIDEO_PROCESSOR_CAPS structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_CAPS, mf.d3d11_video_processor_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices

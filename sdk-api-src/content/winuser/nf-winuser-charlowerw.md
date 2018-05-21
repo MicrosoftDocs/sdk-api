@@ -7,7 +7,7 @@ old-location: menurc\charlower.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charlower.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: CharLower, CharLower function [Menus and Other Resources], CharLowerA, CharLowerW, _win32_CharLower, _win32_charlower_cpp, menurc.charlower, winui._win32_charlower, winuser/CharLower, winuser/CharLowerA, winuser/CharLowerW
 ms.prod: windows-hardware
 ms.technology: windows-devices

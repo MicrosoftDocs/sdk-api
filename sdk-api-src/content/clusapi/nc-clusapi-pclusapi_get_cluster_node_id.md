@@ -7,7 +7,7 @@ old-location: mscs\getclusternodeid.htm
 old-project: MsCS
 ms.assetid: 976ca079-10f7-4e12-9033-07ea83e8c92a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_NODE_ID, PCLUSAPI_GET_CLUSTER_NODE_ID callback, PCLUSAPI_GET_CLUSTER_NODE_ID callback function [Failover Cluster], _wolf_getclusternodeid, clusapi/PCLUSAPI_GET_CLUSTER_NODE_ID, mscs.getclusternodeid
 ms.prod: windows-hardware
 ms.technology: windows-devices

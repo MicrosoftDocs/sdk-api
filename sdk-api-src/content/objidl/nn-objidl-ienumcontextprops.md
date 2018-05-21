@@ -7,7 +7,7 @@ old-location: com\ienumcontextprops.htm
 old-project: com
 ms.assetid: 64591e45-5478-4360-8c1f-08b09b5aef8e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IEnumContextProps, IEnumContextProps interface [COM], IEnumContextProps interface [COM],described, _com_ienumcontextprops, com.ienumcontextprops, objidlbase/IEnumContextProps
 ms.prod: windows-hardware
 ms.technology: windows-devices

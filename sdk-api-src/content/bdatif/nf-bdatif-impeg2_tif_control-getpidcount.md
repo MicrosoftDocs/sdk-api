@@ -7,7 +7,7 @@ old-location: mstv\impeg2_tif_control_getpidcount.htm
 old-project: mstv
 ms.assetid: 2d77c3d8-b91c-43de-b4c1-bd41636eb4ad
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetPIDCount, GetPIDCount method [Microsoft TV Technologies], GetPIDCount method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],GetPIDCount method, IMPEG2_TIF_CONTROL.GetPIDCount, IMPEG2_TIF_CONTROL::GetPIDCount, IMPEG2_TIF_CONTROLGetPIDCount, bdatif/IMPEG2_TIF_CONTROL::GetPIDCount, mstv.impeg2_tif_control_getpidcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

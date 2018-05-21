@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions_setinterval.htm
 old-project: wmi_v2
 ms.assetid: 00b6dcbb-be09-464e-af7e-45dac4d70286
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetInterval, MI_SubscriptionDeliveryOptions_SetInterval function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetInterval, wmi_v2.mi_subscriptiondeliveryoptions_setinterval
 ms.prod: windows-hardware
 ms.technology: windows-devices

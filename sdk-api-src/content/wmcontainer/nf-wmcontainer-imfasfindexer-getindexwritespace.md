@@ -7,7 +7,7 @@ old-location: mf\imfasfindexer_getindexwritespace.htm
 old-project: medfound
 ms.assetid: 8d62a357-e46e-4431-943f-334ae11c8b31
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 8d62a357-e46e-4431-943f-334ae11c8b31, GetIndexWriteSpace, GetIndexWriteSpace method [Media Foundation], GetIndexWriteSpace method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexWriteSpace method, IMFASFIndexer.GetIndexWriteSpace, IMFASFIndexer::GetIndexWriteSpace, mf.imfasfindexer_getindexwritespace, wmcontainer/IMFASFIndexer::GetIndexWriteSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices

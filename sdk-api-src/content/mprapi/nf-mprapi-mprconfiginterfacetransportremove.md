@@ -7,7 +7,7 @@ old-location: rras\mprconfiginterfacetransportremove.htm
 old-project: RRAS
 ms.assetid: 0f286003-f9d8-490b-a379-76baa3f53c6f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MprConfigInterfaceTransportRemove, MprConfigInterfaceTransportRemove function [RAS], _mpr_mprconfiginterfacetransportremove, mprapi/MprConfigInterfaceTransportRemove, rras.mprconfiginterfacetransportremove
 ms.prod: windows-hardware
 ms.technology: windows-devices

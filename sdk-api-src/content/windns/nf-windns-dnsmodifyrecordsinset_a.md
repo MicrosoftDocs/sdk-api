@@ -7,7 +7,7 @@ old-location: dns\dnsmodifyrecordsinset.htm
 old-project: DNS
 ms.assetid: 4287b4e1-a7a2-4b73-b5bb-21bc639bae73
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: DnsModifyRecordsInSet, DnsModifyRecordsInSet function [DNS], DnsModifyRecordsInSet_A, DnsModifyRecordsInSet_UTF8, DnsModifyRecordsInSet_W, _dns_dnsmodifyrecordsinset, dns.dnsmodifyrecordsinset, windns/DnsModifyRecordsInSet, windns/DnsModifyRecordsInSet_A, windns/DnsModifyRecordsInSet_UTF8, windns/DnsModifyRecordsInSet_W
 ms.prod: windows-hardware
 ms.technology: windows-devices

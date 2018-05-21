@@ -7,7 +7,7 @@ old-location: menurc\lstrcmpi.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcmpi.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: "_win32_lstrcmpi, _win32_lstrcmpi_cpp, lstrcmpi, lstrcmpi function [Menus and Other Resources], lstrcmpiA, lstrcmpiW, menurc.lstrcmpi, winbase/lstrcmpi, winbase/lstrcmpiA, winbase/lstrcmpiW, winui._win32_lstrcmpi"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoverypublisher_unpublish_method.htm
 old-project: WsdApi
 ms.assetid: ef403d31-769c-499b-a199-089100725ef9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDiscoveryPublisher interface,UnPublish method, IWSDiscoveryPublisher.UnPublish, IWSDiscoveryPublisher::UnPublish, UnPublish, UnPublish method, UnPublish method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_unpublish_method, wsddisco/IWSDiscoveryPublisher::UnPublish
 ms.prod: windows-hardware
 ms.technology: windows-devices

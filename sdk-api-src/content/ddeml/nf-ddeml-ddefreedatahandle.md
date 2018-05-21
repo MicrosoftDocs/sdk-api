@@ -7,7 +7,7 @@ old-location: dataxchg\ddefreedatahandle.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddefreedatahandle.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: DdeFreeDataHandle, DdeFreeDataHandle function [Data Exchange], _win32_DdeFreeDataHandle, _win32_ddefreedatahandle_cpp, dataxchg.ddefreedatahandle, ddeml/DdeFreeDataHandle, winui._win32_ddefreedatahandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

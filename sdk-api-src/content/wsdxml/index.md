@@ -2,7 +2,7 @@
 UID: NA:wsdxml
 ms.assetid: b0551964-abaf-3e3b-84e4-5052f6b2c81a
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

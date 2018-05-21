@@ -7,7 +7,7 @@ old-location: winrt\windowsisstringempty.htm
 old-project: WinRT
 ms.assetid: F354F692-4D64-4A3F-8B27-1951C93A6FCA
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: WindowsIsStringEmpty, WindowsIsStringEmpty function [Windows Runtime], winrt.windowsisstringempty, winstring/WindowsIsStringEmpty
 ms.prod: windows-hardware
 ms.technology: windows-devices

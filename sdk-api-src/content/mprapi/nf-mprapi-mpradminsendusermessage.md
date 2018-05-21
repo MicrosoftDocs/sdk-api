@@ -7,7 +7,7 @@ old-location: rras\mpradminsendusermessage.htm
 old-project: RRAS
 ms.assetid: 3c0d8b6c-25c1-47c3-baef-d82e6d2fa52f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MprAdminSendUserMessage, MprAdminSendUserMessage function [RAS], _mpr_mpradminsendusermessage, mprapi/MprAdminSendUserMessage, rras.mpradminsendusermessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

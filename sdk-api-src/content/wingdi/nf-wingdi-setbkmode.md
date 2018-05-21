@@ -7,7 +7,7 @@ old-location: gdi\setbkmode.htm
 old-project: gdi
 ms.assetid: 60e4467a-14ab-421e-b174-4b9c0134ce72
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: OPAQUE, SetBkMode, SetBkMode function [Windows GDI], TRANSPARENT, _win32_SetBkMode, gdi.setbkmode, wingdi/SetBkMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

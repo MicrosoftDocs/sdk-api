@@ -7,7 +7,7 @@ old-location: dshow\ifilterchain_startchain.htm
 old-project: DirectShow
 ms.assetid: 095a8c28-d0f2-4c0d-9e96-eefd5786b88d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IFilterChain interface [DirectShow],StartChain method, IFilterChain.StartChain, IFilterChain::StartChain, IFilterChainStartChain, StartChain, StartChain method [DirectShow], StartChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_startchain, strmif/IFilterChain::StartChain
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\StrChrI.htm
 old-project: shell
 ms.assetid: bad606d2-e337-42b5-853e-c7afa8d3d71b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: StrChrI, StrChrI function [Windows Shell], StrChrIA, StrChrIW, _win32_StrChrI, shell.StrChrI, shlwapi/StrChrI, shlwapi/StrChrIA, shlwapi/StrChrIW
 ms.prod: windows-hardware
 ms.technology: windows-devices

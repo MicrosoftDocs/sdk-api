@@ -7,7 +7,7 @@ old-location: base\symfrominlinecontext.htm
 old-project: Debug
 ms.assetid: a60a345e-d723-4275-bc2d-01e13ea57d67
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SymFromInlineContext, SymFromInlineContext function, SymFromInlineContextW, base.symfrominlinecontext, dbghelp/SymFromInlineContext, dbghelp/SymFromInlineContextW
 ms.prod: windows-hardware
 ms.technology: windows-devices

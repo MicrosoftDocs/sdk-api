@@ -7,7 +7,7 @@ old-location: intl\is_surrogate_pair.htm
 old-project: Intl
 ms.assetid: cf7bf905-2cf7-416f-985f-cda4e03b86f9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IS_SURROGATE_PAIR, IS_SURROGATE_PAIR macro [Internationalization for Windows Applications], _win32_IS_SURROGATE_PAIR, intl.is_surrogate_pair, winnls/IS_SURROGATE_PAIR
 ms.prod: windows-hardware
 ms.technology: windows-devices

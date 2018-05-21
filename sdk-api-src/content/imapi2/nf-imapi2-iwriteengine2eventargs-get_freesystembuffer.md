@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2eventargs_get_freesystembuffer.htm
 old-project: imapi
 ms.assetid: d62eeb31-cf47-4456-832c-9a29c045b11c
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_FreeSystemBuffer method, IWriteEngine2EventArgs.get_FreeSystemBuffer, IWriteEngine2EventArgs::get_FreeSystemBuffer, get_FreeSystemBuffer, get_FreeSystemBuffer method [IMAPI], get_FreeSystemBuffer method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_freesystembuffer, imapi2/IWriteEngine2EventArgs::get_FreeSystemBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

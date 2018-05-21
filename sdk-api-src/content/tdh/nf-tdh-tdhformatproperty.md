@@ -7,7 +7,7 @@ old-location: etw\tdhformatproperty.htm
 old-project: ETW
 ms.assetid: ecc954f8-840e-4963-a0c8-64aac25355e3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: TdhFormatProperty, TdhFormatProperty function [ETW], etw.tdhformatproperty, tdh/TdhFormatProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

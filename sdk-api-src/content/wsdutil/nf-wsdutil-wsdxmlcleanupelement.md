@@ -7,7 +7,7 @@ old-location: ncd\wsdxmlcleanupelement.htm
 old-project: WsdApi
 ms.assetid: 5a421c9a-32c2-4eaf-84b9-6077afe9b82a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSDXMLCleanupElement, WSDXMLCleanupElement function, ncd.wsdxmlcleanupelement, wsdutil/WSDXMLCleanupElement
 ms.prod: windows-hardware
 ms.technology: windows-devices

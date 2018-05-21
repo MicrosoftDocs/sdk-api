@@ -7,7 +7,7 @@ old-location: security\policyqualifiertype_enum.htm
 old-project: SecCertEnroll
 ms.assetid: 76cd1874-b80d-466e-9c7d-12cf8d310b8a
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: PolicyQualifierType, PolicyQualifierType enumeration [Security], PolicyQualifierTypeUnknown, PolicyQualifierTypeUrl, PolicyQualifierTypeUserNotice, certenroll/PolicyQualifierType, certenroll/PolicyQualifierTypeUnknown, certenroll/PolicyQualifierTypeUrl, certenroll/PolicyQualifierTypeUserNotice, security.policyqualifiertype_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices

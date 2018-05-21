@@ -7,7 +7,7 @@ old-location: tapi2\phoneconfigdialog.htm
 old-project: Tapi
 ms.assetid: 64f2626a-283d-47c8-aecd-57d31712a700
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: "_tapi2_phoneconfigdialog, phoneConfigDialog, phoneConfigDialog function [TAPI 2.2], phoneConfigDialogA, phoneConfigDialogW, tapi/phoneConfigDialog, tapi/phoneConfigDialogA, tapi/phoneConfigDialogW, tapi2.phoneconfigdialog"
 ms.prod: windows-hardware
 ms.technology: windows-devices

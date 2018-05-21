@@ -7,7 +7,7 @@ old-location: intl\setlocaleinfo.htm
 old-project: Intl
 ms.assetid: 96e031cb-0d9f-4556-b9b3-3451d8f80da5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: SetLocaleInfo, SetLocaleInfo function [Internationalization for Windows Applications], SetLocaleInfoA, SetLocaleInfoW, _win32_SetLocaleInfo, intl.setlocaleinfo, winnls/SetLocaleInfo, winnls/SetLocaleInfoA, winnls/SetLocaleInfoW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ req.product: Windows Address Book 5.0
 
 
 Sets an item of information in the user override portion of the current locale. This function does not set the system defaults.
-<div class="alert"><b>Caution</b>  Because this function modifies values for all applications, it should only be called by the regional and language options functionality of Control Panel, or a similar utility. If making an international change to system parameters, the calling application must broadcast the <a href="base.wm_settingchange">WM_SETTINGCHANGE</a> message to avoid causing instabilities in other applications.</div><div> </div>
+<div class="alert"><b>Caution</b>  Because this function modifies values for all applications, it should only be called by the regional and language options functionality of Control Panel, or a similar utility. If making an international change to system parameters, the calling application must broadcast the <a href="https://msdn.microsoft.com/77174e06-a25b-440a-9e9c-4fd5979c433c">WM_SETTINGCHANGE</a> message to avoid causing instabilities in other applications.</div><div> </div>
 
 ## -parameters
 

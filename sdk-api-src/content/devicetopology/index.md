@@ -2,7 +2,7 @@
 UID: NA:devicetopology
 ms.assetid: 4d8d6287-231f-3d16-841d-4c06f9ff36df
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

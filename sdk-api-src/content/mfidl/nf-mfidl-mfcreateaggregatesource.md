@@ -7,7 +7,7 @@ old-location: mf\mfcreateaggregatesource.htm
 old-project: medfound
 ms.assetid: 7288bd4b-6a74-4528-854d-d82783630422
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFCreateAggregateSource, MFCreateAggregateSource function [Media Foundation], mf.mfcreateaggregatesource, mfidl/MFCreateAggregateSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

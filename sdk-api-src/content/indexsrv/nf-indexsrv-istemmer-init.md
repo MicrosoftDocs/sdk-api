@@ -3,12 +3,12 @@ UID: NF:indexsrv.IStemmer.Init
 title: IStemmer::Init
 author: windows-driver-content
 description: Initializes the stemmer.
-old-location: indexsrv\istemmer_init.htm
-old-project: IndexSrv
-ms.assetid: VS|indexsrv|~\html\ixrefint_2a7o.htm
+old-location: search\_search_IStemmer_Init.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\init.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: IStemmer interface [Indexing Service],Init method, IStemmer.Init, IStemmer::Init, Init, Init method [Indexing Service], Init method [Indexing Service],IStemmer interface, _idxs_IStemmer_Init, indexsrv.istemmer_init, indexsrv/IStemmer::Init
+ms.date: 5/8/2018
+ms.keywords: IStemmer interface [search],Init method, IStemmer.Init, IStemmer::Init, Init, Init method [search], Init method [search],IStemmer interface, _search_IStemmer_Init, indexsrv/IStemmer::Init, search._search_IStemmer_Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,8 +50,6 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
-
 Initializes the stemmer.
 
 
@@ -62,18 +60,23 @@ Initializes the stemmer.
 
 ### -param ulMaxTokenSize [in]
 
-The maximum number of characters for words that are added to the WordFormSink. Words that exceed this limit may be truncated. 
+Type: <b>ULONG</b>
 
+Maximum number of characters for words that are added to the <a href="https://msdn.microsoft.com/81D52B0C-BADD-48C0-85DB-57CA82D7BBA8">IWordFormSink</a> object. Words that exceed this limit may be truncated.
 
 
 ### -param pfLicense [out]
 
-Indicates whether there are license restrictions for this <a href="https://msdn.microsoft.com/3b655078-367d-4e74-aeb1-a5b5c135e88e">IStemmer</a> implementation. <b>TRUE</b> indicates that the stemmer is restricted to authorized use only. <b>FALSE</b> indicates that this implementation can be used freely.
+Type: <b>BOOL</b>
+
+Pointer to an output variable that receives a flag that indicates whether there are license restrictions for this <a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a> implementation. <b>TRUE</b> indicates that the stemmer is restricted to authorized use only. <b>FALSE</b> indicates that this <b>IStemmer</b> implementation can be used freely.
 
 
 ## -returns
 
 
+
+Type: <b>HRESULT</b>
 
 This method can return one of these values.
 
@@ -89,7 +92,18 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The operation was completed successfully.
+Successful completion.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>LANGUAGE_E_DATABASE_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the components for word breaking cannot be located.
 
 </td>
 </tr>
@@ -100,7 +114,7 @@ The operation was completed successfully.
 </dl>
 </td>
 <td width="60%">
-The <i>pfLicense</i> parameter is <b>NULL</b>.
+Invalid argument. The <i>pfLicense</i> parameter is <b>NULL</b>. 
 
 </td>
 </tr>
@@ -111,18 +125,7 @@ The <i>pfLicense</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The operation failed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>LANGUAGE_E_DATABASE_NOT_FOUND </b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the components for word breaking cannot be located.
+Unsuccessful completion.
 
 </td>
 </tr>
@@ -136,9 +139,7 @@ One of the components for word breaking cannot be located.
 
 
 
-You must initialize the stemmer. This method is called before any other method of <a href="https://msdn.microsoft.com/3b655078-367d-4e74-aeb1-a5b5c135e88e">IStemmer</a>. If <i>pfLicense</i> is <b>TRUE</b>, and if you want more information about possible license restrictions, call the <a href="https://msdn.microsoft.com/9d0812a6-679c-4163-aab7-60d0283d7c2c">GetLicenseToUse</a> method.
-
-
+You must initialize the stemmer. The <b>IStemmer::Init</b> method must be called before any other method of <a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a>. If <i>pfLicense</i> is <b>TRUE</b>, and you want more information about possible license restrictions, call the <a href="https://msdn.microsoft.com/cd2798cf-8db2-474b-8a1c-abd8fdc9187e">IStemmer::GetLicenseToUse</a> method.
 
 
 
@@ -148,7 +149,7 @@ You must initialize the stemmer. This method is called before any other method o
 
 
 
-<a href="https://msdn.microsoft.com/3b655078-367d-4e74-aeb1-a5b5c135e88e">IStemmer</a>
+<a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a>
  
 
  

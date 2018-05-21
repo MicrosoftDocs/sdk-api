@@ -7,7 +7,7 @@ old-location: fs\setfilevaliddata.htm
 old-project: FileIO
 ms.assetid: c6ded2d7-270a-4b75-b2d4-1007a92fe831
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: SetFileValidData, SetFileValidData function [Files], _win32_setfilevaliddata, base.setfilevaliddata, fileapi/SetFileValidData, fs.setfilevaliddata, winbase/SetFileValidData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

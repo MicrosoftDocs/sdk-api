@@ -7,7 +7,7 @@ old-location: rpc\rpcserverunregisterif.htm
 old-project: Rpc
 ms.assetid: bcaf4a0d-8a0d-4016-ab6e-9e1a0fd65d4b
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcServerUnregisterIf, RpcServerUnregisterIf function [RPC], _rpc_rpcserverunregisterif, rpc.rpcserverunregisterif, rpcdce/RpcServerUnregisterIf
 ms.prod: windows-hardware
 ms.technology: windows-devices

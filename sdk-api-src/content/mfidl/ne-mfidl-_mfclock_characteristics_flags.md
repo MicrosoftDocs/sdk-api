@@ -7,7 +7,7 @@ old-location: mf\mfclock_characteristics_flags.htm
 old-project: medfound
 ms.assetid: 8064ce25-6c79-479b-a1a8-bdcc2c29ad54
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 8064ce25-6c79-479b-a1a8-bdcc2c29ad54, MFCLOCK_CHARACTERISTICS_FLAGS, MFCLOCK_CHARACTERISTICS_FLAGS enumeration [Media Foundation], MFCLOCK_CHARACTERISTICS_FLAG_ALWAYS_RUNNING, MFCLOCK_CHARACTERISTICS_FLAG_FREQUENCY_10MHZ, MFCLOCK_CHARACTERISTICS_FLAG_IS_SYSTEM_CLOCK, _MFCLOCK_CHARACTERISTICS_FLAGS, enumeration [Media Foundation], mf.mfclock_characteristics_flags, mfidl/MFCLOCK_CHARACTERISTICS_FLAGS, mfidl/MFCLOCK_CHARACTERISTICS_FLAG_ALWAYS_RUNNING, mfidl/MFCLOCK_CHARACTERISTICS_FLAG_FREQUENCY_10MHZ, mfidl/MFCLOCK_CHARACTERISTICS_FLAG_IS_SYSTEM_CLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices

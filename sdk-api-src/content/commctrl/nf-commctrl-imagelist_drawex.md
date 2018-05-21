@@ -7,7 +7,7 @@ old-location: controls\ImageList_DrawEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_drawex.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: CLR_DEFAULT, CLR_NONE, ILD_BLEND, ILD_BLEND25, ILD_BLEND50, ILD_FOCUS, ILD_IMAGE, ILD_MASK, ILD_NORMAL, ILD_SELECTED, ILD_TRANSPARENT, ImageList_DrawEx, ImageList_DrawEx function [Windows Controls], _win32_ImageList_DrawEx, _win32_ImageList_DrawEx_cpp, commctrl/ImageList_DrawEx, controls.ImageList_DrawEx, controls._win32_ImageList_DrawEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winprog\installperfdll.htm
 old-project: DevNotes
 ms.assetid: d674f023-27e5-4ca2-926d-4fa02292ffbb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: InstallPerfDll, InstallPerfDll function [Windows API], InstallPerfDllA, InstallPerfDllW, loadperf/InstallPerfDll, winprog.installperfdll
 ms.prod: windows-hardware
 ms.technology: windows-devices

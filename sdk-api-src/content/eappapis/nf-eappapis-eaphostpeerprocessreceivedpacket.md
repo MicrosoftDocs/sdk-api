@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerprocessreceivedpacket.htm
 old-project: EAPHost
 ms.assetid: 7b3bc23d-312d-494d-afd0-ce82d2d5136c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapHostPeerProcessReceivedPacket, EapHostPeerProcessReceivedPacket function [EAPHost], eaphost.eaphostpeerprocessreceivedpacket, eappapis/EapHostPeerProcessReceivedPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices

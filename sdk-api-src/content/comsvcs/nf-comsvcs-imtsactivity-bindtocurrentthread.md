@@ -7,7 +7,7 @@ old-location: cos\imtsactivity_bindtocurrentthread.htm
 old-project: cossdk
 ms.assetid: 31f0c64c-275c-431c-b85e-6ee5f4318e1f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: BindToCurrentThread, BindToCurrentThread method [COM+], BindToCurrentThread method [COM+],IMTSActivity interface, IMTSActivity interface [COM+],BindToCurrentThread method, IMTSActivity.BindToCurrentThread, IMTSActivity::BindToCurrentThread, _cos_IMTSActivity_BindToCurrentThread, comsvcs/IMTSActivity::BindToCurrentThread, cos.imtsactivity_bindtocurrentthread
 ms.prod: windows-hardware
 ms.technology: windows-devices

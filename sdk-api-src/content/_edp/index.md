@@ -2,11 +2,12 @@
 UID: TP:edp
 ms.assetid: 13bd1e1d-a2d1-3fd8-be4b-3200f4a9456f
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Windows Information Protection (WIP)

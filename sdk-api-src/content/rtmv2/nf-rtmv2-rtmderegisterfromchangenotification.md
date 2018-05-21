@@ -7,7 +7,7 @@ old-location: rras\rtmderegisterfromchangenotification.htm
 old-project: RRAS
 ms.assetid: 489668ce-9226-470d-8306-5ad0546275e7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RtmDeregisterFromChangeNotification, RtmDeregisterFromChangeNotification function [RAS], _rtmv2ref_rtmderegisterfromchangenotification, rras.rtmderegisterfromchangenotification, rtmv2/RtmDeregisterFromChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ad\dsdisplayspecoptions.htm
 old-project: AD
 ms.assetid: 01b7a571-fdbd-41e9-96c9-843cc733a32c
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, DSDISPLAYSPECOPTIONS, DSDISPLAYSPECOPTIONS structure [Active Directory], DSDSOF_DONTSIGNSEAL, DSDSOF_DSAVAILABLE, DSDSOF_HASUSERANDSERVERINFO, DSDSOF_SIMPLEAUTHENTICATE, LPDSDISPLAYSPECOPTIONS, LPDSDISPLAYSPECOPTIONS structure pointer [Active Directory], PDSDISPLAYSPECOPTIONS, PDSDISPLAYSPECOPTIONS structure pointer [Active Directory], _DSDISPLAYSPECOPTIONS, _glines_dsdisplayspecoptions, ad.dsdisplayspecoptions, dsclient/DSDISPLAYSPECOPTIONS, dsclient/LPDSDISPLAYSPECOPTIONS, dsclient/PDSDISPLAYSPECOPTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

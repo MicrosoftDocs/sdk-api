@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiobject_getprivatedata.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_getprivatedata.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: 86763938-a2bf-a817-2ffc-645427783675, GetPrivateData, GetPrivateData method [DXGI], GetPrivateData method [DXGI],IDXGIObject interface, IDXGIObject interface [DXGI],GetPrivateData method, IDXGIObject.GetPrivateData, IDXGIObject::GetPrivateData, direct3ddxgi.idxgiobject_getprivatedata, dxgi/IDXGIObject::GetPrivateData
 ms.prod: windows-hardware
 ms.technology: windows-devices

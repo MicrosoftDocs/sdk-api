@@ -7,7 +7,7 @@ old-location: com\ioleuiobjinfo_convertobject.htm
 old-project: com
 ms.assetid: 44611ed3-35de-4b20-adae-d3a28aa11944
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: ConvertObject, ConvertObject method [COM], ConvertObject method [COM],IOleUIObjInfo interface, ConvertObject method [COM],IOleUIObjInfoA interface, ConvertObject method [COM],IOleUIObjInfoW interface, IOleUIObjInfo interface [COM],ConvertObject method, IOleUIObjInfo::ConvertObject, IOleUIObjInfoA interface [COM],ConvertObject method, IOleUIObjInfoA.ConvertObject, IOleUIObjInfoA::ConvertObject, IOleUIObjInfoW interface [COM],ConvertObject method, IOleUIObjInfoW::ConvertObject, _ole_IOleUIObjInfo_ConvertObject, com.ioleuiobjinfo_convertobject, oledlg/IOleUIObjInfo::ConvertObject, oledlg/IOleUIObjInfoA::ConvertObject, oledlg/IOleUIObjInfoW::ConvertObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

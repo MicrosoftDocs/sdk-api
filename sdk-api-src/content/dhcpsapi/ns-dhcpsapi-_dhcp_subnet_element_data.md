@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_subnet_element_data.htm
 old-project: DHCP
 ms.assetid: d6c32be0-a080-42c1-b9bf-3f5da2c4dbe0
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_SUBNET_ELEMENT_DATA, DHCP_SUBNET_ELEMENT_DATA, DHCP_SUBNET_ELEMENT_DATA structure [DHCP], LPDHCP_SUBNET_ELEMENT_DATA, LPDHCP_SUBNET_ELEMENT_DATA structure pointer [DHCP], _DHCP_SUBNET_ELEMENT_DATA, dhcp.dhcp_subnet_element_data, dhcpsapi/LPDHCP_SUBNET_ELEMENT_DATA, dhcpsapi/_DHCP_SUBNET_ELEMENT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

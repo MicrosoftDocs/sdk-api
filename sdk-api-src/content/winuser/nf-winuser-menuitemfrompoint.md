@@ -7,7 +7,7 @@ old-location: menurc\menuitemfrompoint.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\menuitemfrompoint.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: MenuItemFromPoint, MenuItemFromPoint function [Menus and Other Resources], _win32_MenuItemFromPoint, _win32_menuitemfrompoint_cpp, menurc.menuitemfrompoint, winui._win32_menuitemfrompoint, winuser/MenuItemFromPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_FUNC_ObjectTypeIsValid_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\objecttypeisvalid.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: ObjectTypeIsValid, ObjectTypeIsValid function [GDI+], _gdiplus_FUNC_ObjectTypeIsValid_, gdiplus._gdiplus_FUNC_ObjectTypeIsValid_, gdiplusenums/ObjectTypeIsValid
 ms.prod: windows-hardware
 ms.technology: windows-devices

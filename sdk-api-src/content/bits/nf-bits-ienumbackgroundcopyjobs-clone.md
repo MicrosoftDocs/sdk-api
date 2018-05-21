@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopyjobs_clone.htm
 old-project: Bits
 ms.assetid: 5d83af74-c24c-41e2-aef4-d7210a1d0160
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBackgroundCopyJobs interface, IEnumBackgroundCopyJobs interface [BITS],Clone method, IEnumBackgroundCopyJobs.Clone, IEnumBackgroundCopyJobs::Clone, _drz_ienumbackgroundcopyjobs_clone, bits.ienumbackgroundcopyjobs_clone, bits/IEnumBackgroundCopyJobs::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

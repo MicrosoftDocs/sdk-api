@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_GetPaletteSize_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpalettesize.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetPaletteSize, GetPaletteSize method [GDI+], GetPaletteSize method [GDI+],Image class, Image class [GDI+],GetPaletteSize method, Image.GetPaletteSize, Image::GetPaletteSize, _gdiplus_CLASS_Image_GetPaletteSize_, gdiplus._gdiplus_CLASS_Image_GetPaletteSize_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\move_file_data_str.htm
 old-project: FileIO
 ms.assetid: 08bbeabc-b589-41b2-b3f2-70b2390f11f0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PMOVE_FILE_DATA, MOVE_FILE_DATA, MOVE_FILE_DATA structure [Files], PMOVE_FILE_DATA, PMOVE_FILE_DATA structure pointer [Files], _win32_move_file_data_str, base.move_file_data_str, fs.move_file_data_str, winioctl/MOVE_FILE_DATA, winioctl/PMOVE_FILE_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

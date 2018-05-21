@@ -7,7 +7,7 @@ old-location: fs\registermanageablelogclient.htm
 old-project: Clfs
 ms.assetid: ca7969a1-e391-4e3f-96a8-5fb23c400d7e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: RegisterManageableLogClient, RegisterManageableLogClient function [Files], clfsmgmtw32/RegisterManageableLogClient, fs.registermanageablelogclient
 ms.prod: windows-hardware
 ms.technology: windows-devices

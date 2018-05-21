@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcreateclientinfov4.htm
 old-project: DHCP
 ms.assetid: 0657e107-bf3d-4bcd-88a1-84a6cd7f934d
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpCreateClientInfoV4, DhcpCreateClientInfoV4 function [DHCP], dhcp.dhcpcreateclientinfov4, dhcpsapi/DhcpCreateClientInfoV4
 ms.prod: windows-hardware
 ms.technology: windows-devices

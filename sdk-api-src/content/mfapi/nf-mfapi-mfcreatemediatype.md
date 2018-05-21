@@ -7,7 +7,7 @@ old-location: mf\mfcreatemediatype.htm
 old-project: medfound
 ms.assetid: 05b0941e-03ce-4ced-9022-22b65d1c4b4c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 05b0941e-03ce-4ced-9022-22b65d1c4b4c, MFCreateMediaType, MFCreateMediaType function [Media Foundation], mf.mfcreatemediatype, mfapi/MFCreateMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

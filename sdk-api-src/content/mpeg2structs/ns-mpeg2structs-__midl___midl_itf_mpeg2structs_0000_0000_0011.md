@@ -7,7 +7,7 @@ old-location: mstv\dsmcc_section.htm
 old-project: mstv
 ms.assetid: b043f63c-cee0-4167-9b11-09b747f63b8d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: "*PDSMCC_SECTION, DSMCC_SECTION, DSMCC_SECTION structure [Microsoft TV Technologies], PDSMCC_SECTION, PDSMCC_SECTION structure pointer [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0011, mpeg2structs/DSMCC_SECTION, mpeg2structs/PDSMCC_SECTION, mstv.dsmcc_section"
 ms.prod: windows-hardware
 ms.technology: windows-devices

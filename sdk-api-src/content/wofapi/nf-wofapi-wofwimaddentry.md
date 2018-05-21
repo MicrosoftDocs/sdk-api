@@ -7,7 +7,7 @@ old-location: fs\wofwimaddentry.htm
 old-project: FileIO
 ms.assetid: 53CE16AE-E14D-4E51-87E2-DDF88D5CE806
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: WofWimAddEntry, WofWimAddEntry function [Files], fs.wofwimaddentry, wofapi/WofWimAddEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

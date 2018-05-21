@@ -7,7 +7,7 @@ old-location: controls\PropSheet_AddPage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_addpage.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: PropSheet_AddPage, PropSheet_AddPage macro [Windows Controls], _win32_PropSheet_AddPage, _win32_PropSheet_AddPage_cpp, controls.PropSheet_AddPage, controls._win32_PropSheet_AddPage, prsht/PropSheet_AddPage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,11 @@
+{
+  "tech": "dxmath",
+  "headers": [
+    "directxmath.h",
+    "directxpackedvector.inl",
+    "directxmathvector.inl",
+    "directxcollision.h",
+    "directxpackedvector.h"
+  ],
+  "displayName": "DirectXMath"
+}

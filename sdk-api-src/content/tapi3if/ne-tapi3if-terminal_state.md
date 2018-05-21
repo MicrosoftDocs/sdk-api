@@ -7,7 +7,7 @@ old-location: tapi3\terminal_state.htm
 old-project: Tapi
 ms.assetid: 310c41f5-dfe7-491d-8669-87a98694f5b7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: TERMINAL_STATE, TERMINAL_STATE enumeration [TAPI 2.2], TS_INUSE, TS_NOTINUSE, _tapi3_terminal_state, tapi3.terminal_state, tapi3if/TERMINAL_STATE, tapi3if/TS_INUSE, tapi3if/TS_NOTINUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices

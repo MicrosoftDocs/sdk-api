@@ -7,7 +7,7 @@ old-location: fs\terminatereadlog.htm
 old-project: Clfs
 ms.assetid: fb0a4c4e-cdb7-4c42-9102-bc76b8b70193
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: TerminateReadLog, TerminateReadLog function [Files], clfsw32/TerminateReadLog, fs.terminatereadlog
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetversion.htm
 old-project: DHCP
 ms.assetid: 1977c4d7-094c-41b0-a7bf-aacdb15e265f
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpGetVersion, DhcpGetVersion function [DHCP], dhcp.dhcpgetversion, dhcpsapi/DhcpGetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

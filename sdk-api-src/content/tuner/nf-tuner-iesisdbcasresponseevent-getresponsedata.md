@@ -7,7 +7,7 @@ old-location: mstv\iesisdbcasresponseevent_getresponsedata.htm
 old-project: mstv
 ms.assetid: ee0618a6-6162-4178-be44-978558add914
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetResponseData, GetResponseData method [DirectShow], GetResponseData method [DirectShow],IESIsdbCasResponseEvent interface, IESIsdbCasResponseEvent interface [DirectShow],GetResponseData method, IESIsdbCasResponseEvent.GetResponseData, IESIsdbCasResponseEvent::GetResponseData, mstv.iesisdbcasresponseevent_getresponsedata, tuner/IESIsdbCasResponseEvent::GetResponseData
 ms.prod: windows-hardware
 ms.technology: windows-devices

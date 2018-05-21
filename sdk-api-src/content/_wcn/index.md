@@ -2,7 +2,7 @@
 UID: TP:wcn
 ms.assetid: 0f160390-e9fe-3eb7-acb4-311e3c3278c6
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

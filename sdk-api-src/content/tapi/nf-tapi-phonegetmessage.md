@@ -7,7 +7,7 @@ old-location: tapi2\phonegetmessage.htm
 old-project: Tapi
 ms.assetid: 8afa17ef-a47f-41af-b120-1e2d5acb4106
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: "_tapi2_phonegetmessage, phoneGetMessage, phoneGetMessage function [TAPI 2.2], tapi/phoneGetMessage, tapi2.phonegetmessage"
 ms.prod: windows-hardware
 ms.technology: windows-devices

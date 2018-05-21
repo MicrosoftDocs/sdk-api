@@ -7,7 +7,7 @@ old-location: dshow\iamstats_getvaluebyindex.htm
 old-project: DirectShow
 ms.assetid: 68a74f56-288b-4e7e-bb0d-a38d43e08c27
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetValueByIndex, GetValueByIndex method [DirectShow], GetValueByIndex method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetValueByIndex method, IAMStats.GetValueByIndex, IAMStats::GetValueByIndex, IAMStatsGetValueByIndex, control/IAMStats::GetValueByIndex, dshow.iamstats_getvaluebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

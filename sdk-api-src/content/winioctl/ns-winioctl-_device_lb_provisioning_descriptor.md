@@ -7,7 +7,7 @@ old-location: fs\device_lb_provisioning_descriptor.htm
 old-project: FileIO
 ms.assetid: dbc46b33-9e9d-4ccf-9bc9-1df70738fa73
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Files], PDEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Files], _DEVICE_LB_PROVISIONING_DESCRIPTOR, fs.device_lb_provisioning_descriptor, winioctl/DEVICE_LB_PROVISIONING_DESCRIPTOR, winioctl/PDEVICE_LB_PROVISIONING_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\gettcp6table2.htm
 old-project: IpHlp
 ms.assetid: 435b9198-b921-407c-9441-31cfe77c03f1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetTcp6Table2, GetTcp6Table2 function [IP Helper], iphlp.gettcp6table2, iphlpapi/GetTcp6Table2
 ms.prod: windows-hardware
 ms.technology: windows-devices

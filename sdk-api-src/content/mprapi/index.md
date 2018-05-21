@@ -2,12 +2,12 @@
 UID: NA:mprapi
 ms.assetid: ea15d374-4b4c-300c-846e-0b81c28d55dd
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-tech.root: tmg
+tech.root: rras
 ---
 
 # Mprapi.h header

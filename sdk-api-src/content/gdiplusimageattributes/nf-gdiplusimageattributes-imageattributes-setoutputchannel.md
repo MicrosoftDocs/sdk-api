@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetOutputChannel_channelFla
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setoutputchannel.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: ImageAttributes class [GDI+],SetOutputChannel method, ImageAttributes.SetOutputChannel, ImageAttributes::SetOutputChannel, SetOutputChannel, SetOutputChannel method [GDI+], SetOutputChannel method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetOutputChannel_channelFlags_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetOutputChannel_channelFlags_type_
 ms.prod: windows-hardware
 ms.technology: windows-devices

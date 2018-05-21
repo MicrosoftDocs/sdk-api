@@ -7,7 +7,7 @@ old-location: mf\mfvideoarea.htm
 old-project: medfound
 ms.assetid: d22b8b9c-399b-4fce-a173-833005b5bf03
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFVideoArea, MFVideoArea structure [Media Foundation], _MFVideoArea, d22b8b9c-399b-4fce-a173-833005b5bf03, mf.mfvideoarea, mfobjects/MFVideoArea
 ms.prod: windows-hardware
 ms.technology: windows-devices

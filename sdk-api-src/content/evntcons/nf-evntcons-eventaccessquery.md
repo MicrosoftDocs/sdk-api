@@ -7,7 +7,7 @@ old-location: etw\eventaccessquery_func.htm
 old-project: ETW
 ms.assetid: 21c87137-0e8f-43d1-9dad-9f2b4fc591a3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EventAccessQuery, EventAccessQuery function [ETW], base.eventaccessquery_func, etw.eventaccessquery_func, evntcons/EventAccessQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices

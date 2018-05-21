@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_Constructors.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatconstructors.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: StringFormat, StringFormat constructors [GDI+], StringFormat.StringFormat, StringFormat.StringFormat(const StringFormat &), StringFormat::StringFormat, StringFormat::StringFormat(const StringFormat &), _gdiplus_CLASS_StringFormat_Constructors, gdiplus._gdiplus_CLASS_StringFormat_Constructors, gdiplusstringformat/StringFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

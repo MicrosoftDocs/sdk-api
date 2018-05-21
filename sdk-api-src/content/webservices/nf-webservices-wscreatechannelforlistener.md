@@ -7,7 +7,7 @@ old-location: wsw\wscreatechannelforlistener.htm
 old-project: wsw
 ms.assetid: d9a80506-d891-4cfd-b120-0d3fce946cf5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsCreateChannelForListener, WsCreateChannelForListener function [Web Services for Windows], webservices/WsCreateChannelForListener, wsw.wscreatechannelforlistener
 ms.prod: windows-hardware
 ms.technology: windows-devices

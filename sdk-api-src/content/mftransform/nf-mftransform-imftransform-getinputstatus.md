@@ -7,7 +7,7 @@ old-location: mf\imftransform_getinputstatus.htm
 old-project: medfound
 ms.assetid: 6205dc1a-f209-49aa-8632-837783ef5f04
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 6205dc1a-f209-49aa-8632-837783ef5f04, GetInputStatus, GetInputStatus method [Media Foundation], GetInputStatus method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStatus method, IMFTransform.GetInputStatus, IMFTransform::GetInputStatus, mf.imftransform_getinputstatus, mftransform/IMFTransform::GetInputStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

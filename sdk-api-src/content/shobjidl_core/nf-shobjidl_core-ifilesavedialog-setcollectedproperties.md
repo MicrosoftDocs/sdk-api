@@ -7,7 +7,7 @@ old-location: shell\IFileSaveDialog_SetCollectedProperties.htm
 old-project: shell
 ms.assetid: cff40aba-6a87-4c20-957d-6729e0d995ae
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IFileSaveDialog interface [Windows Shell],SetCollectedProperties method, IFileSaveDialog.SetCollectedProperties, IFileSaveDialog::SetCollectedProperties, SetCollectedProperties, SetCollectedProperties method [Windows Shell], SetCollectedProperties method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetCollectedProperties, shell_IFileSaveDialog_SetCollectedProperties, shobjidl_core/IFileSaveDialog::SetCollectedProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IFileSaveDialog::SetCollectedProperties

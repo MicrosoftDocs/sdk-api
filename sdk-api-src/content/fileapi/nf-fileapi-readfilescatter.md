@@ -7,7 +7,7 @@ old-location: fs\readfilescatter.htm
 old-project: FileIO
 ms.assetid: 4ed7c47b-d40b-4016-8550-0af17ee9e86d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: ReadFileScatter, ReadFileScatter function [Files], _win32_readfilescatter, base.readfilescatter, fileapi/ReadFileScatter, fs.readfilescatter, winbase/ReadFileScatter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

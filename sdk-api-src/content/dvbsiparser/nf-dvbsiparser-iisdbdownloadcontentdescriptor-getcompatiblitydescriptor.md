@@ -7,7 +7,7 @@ old-location: mstv\iisdbdownloadcontentdescriptor_getcompatiblitydescriptor.htm
 old-project: mstv
 ms.assetid: 054fe987-49e1-4434-a9b9-6b1030fa2c41
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetCompatiblityDescriptor, GetCompatiblityDescriptor method [Microsoft TV Technologies], GetCompatiblityDescriptor method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetCompatiblityDescriptor method, IIsdbDownloadContentDescriptor.GetCompatiblityDescriptor, IIsdbDownloadContentDescriptor::GetCompatiblityDescriptor, dvbsiparser/IIsdbDownloadContentDescriptor::GetCompatiblityDescriptor, mstv.iisdbdownloadcontentdescriptor_getcompatiblitydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

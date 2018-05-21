@@ -7,7 +7,7 @@ old-location: controls\DlgDirListComboBox.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxfunctions\dlgdirlistcombobox.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: DDL_ARCHIVE, DDL_DIRECTORY, DDL_DRIVES, DDL_EXCLUSIVE, DDL_HIDDEN, DDL_POSTMSGS, DDL_READONLY, DDL_READWRITE, DDL_SYSTEM, DlgDirListComboBox, DlgDirListComboBox function [Windows Controls], DlgDirListComboBoxA, DlgDirListComboBoxW, _win32_DlgDirListComboBox, _win32_DlgDirListComboBox_cpp, controls.DlgDirListComboBox, controls._win32_DlgDirListComboBox, winuser/DlgDirListComboBox, winuser/DlgDirListComboBoxA, winuser/DlgDirListComboBoxW
 ms.prod: windows-hardware
 ms.technology: windows-devices

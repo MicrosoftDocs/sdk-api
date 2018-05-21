@@ -7,7 +7,7 @@ old-location: security\getcallinfo.htm
 old-project: SecAuthN
 ms.assetid: 3e59ee6a-f7ba-4886-98f7-74ffbfaadea7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: GetCallInfo, GetCallInfo function [Security], LSA_GET_CALL_INFO, _ssp_getcallinfo, ntsecpkg/GetCallInfo, security.getcallinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

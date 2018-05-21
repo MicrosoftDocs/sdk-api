@@ -7,7 +7,7 @@ old-location: cos\idispenserdriver_createresource.htm
 old-project: cossdk
 ms.assetid: 97b49069-3428-48da-a818-737f3bc342d0
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: CreateResource, CreateResource method [COM+], CreateResource method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],CreateResource method, IDispenserDriver.CreateResource, IDispenserDriver::CreateResource, _dtc_IDispenserDriver_CreateResource, comsvcs/IDispenserDriver::CreateResource, cos.idispenserdriver_createresource
 ms.prod: windows-hardware
 ms.technology: windows-devices

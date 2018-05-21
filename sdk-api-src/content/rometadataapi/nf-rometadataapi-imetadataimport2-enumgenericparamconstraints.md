@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport2_enumgenericparamconstraints.htm
 old-project: WinRT
 ms.assetid: 5e8ba48d-7c94-4fc6-8def-db296065fdce
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: EnumGenericParamConstraints, EnumGenericParamConstraints method [Windows Runtime], EnumGenericParamConstraints method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],EnumGenericParamConstraints method, IMetaDataImport2.EnumGenericParamConstraints, IMetaDataImport2::EnumGenericParamConstraints, rometadataapi/IMetaDataImport2::EnumGenericParamConstraints, winrt.imetadataimport2_enumgenericparamconstraints
 ms.prod: windows-hardware
 ms.technology: windows-devices

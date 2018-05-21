@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothfinddeviceclose.htm
 old-project: Bluetooth
 ms.assetid: 8b482d7f-56a3-47ef-be49-5272423c10f6
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothFindDeviceClose, BluetoothFindDeviceClose function [Bluetooth], bluetooth.bluetoothfinddeviceclose, bluetoothapis/BluetoothFindDeviceClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

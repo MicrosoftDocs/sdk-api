@@ -2,11 +2,12 @@
 UID: TP:picacq
 ms.assetid: 86a76f0e-8064-3a99-8f1b-7963c2adaaea
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Picture Acquisition

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_setpriority.htm
 old-project: Bits
 ms.assetid: 8b59128d-7e63-45dc-af0f-54ea844dac98
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetPriority method, IBackgroundCopyJob.SetPriority, IBackgroundCopyJob::SetPriority, SetPriority, SetPriority method [BITS], SetPriority method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setpriority, bits.ibackgroundcopyjob_setpriority, bits/IBackgroundCopyJob::SetPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

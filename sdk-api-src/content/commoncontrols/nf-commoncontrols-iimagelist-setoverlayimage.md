@@ -7,7 +7,7 @@ old-location: controls\IImageList_SetOverlayImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setoverlayimage.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: IImageList interface [Windows Controls],SetOverlayImage method, IImageList.SetOverlayImage, IImageList::SetOverlayImage, SetOverlayImage, SetOverlayImage method [Windows Controls], SetOverlayImage method [Windows Controls],IImageList interface, comctl_IImageList_SetOverlayImage, comctl_IImageList_SetOverlayImage_cpp, commoncontrols/IImageList::SetOverlayImage, controls.IImageList_SetOverlayImage, controls.comctl_IImageList_SetOverlayImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\wsgetwriterposition.htm
 old-project: wsw
 ms.assetid: 0c0fbd78-ed4f-40da-a63d-a2f38136ecb3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsGetWriterPosition, WsGetWriterPosition function [Web Services for Windows], webservices/WsGetWriterPosition, wsw.wsgetwriterposition
 ms.prod: windows-hardware
 ms.technology: windows-devices

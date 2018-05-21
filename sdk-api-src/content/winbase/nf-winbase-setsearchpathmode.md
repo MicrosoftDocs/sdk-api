@@ -7,7 +7,7 @@ old-location: fs\setsearchpathmode.htm
 old-project: FileIO
 ms.assetid: 1874933d-92c3-4945-a3e4-e6dede232d5e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: BASE_SEARCH_PATH_DISABLE_SAFE_SEARCHMODE, BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE, BASE_SEARCH_PATH_PERMANENT, SetSearchPathMode, SetSearchPathMode function [Files], fs.setsearchpathmode, winbase/SetSearchPathMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

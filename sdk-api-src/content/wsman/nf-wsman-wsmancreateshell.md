@@ -7,7 +7,7 @@ old-location: winrm\wsmancreateshell.htm
 old-project: WinRM
 ms.assetid: 901c0a2d-d25f-451c-8d6c-83662f1f1061
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: WSManCreateShell, WSManCreateShell function [Windows Remote Management], winrm.wsmancreateshell, wsman/WSManCreateShell
 ms.prod: windows-hardware
 ms.technology: windows-devices

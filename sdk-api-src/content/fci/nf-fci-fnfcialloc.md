@@ -7,7 +7,7 @@ old-location: winprog\fnfcialloc.htm
 old-project: DevNotes
 ms.assetid: 339ac9d2-60bc-4a90-8a46-6fbb073be9d1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FNFCIALLOC, FNFCIALLOC macro [Windows API], fci/FNFCIALLOC, winprog.fnfcialloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

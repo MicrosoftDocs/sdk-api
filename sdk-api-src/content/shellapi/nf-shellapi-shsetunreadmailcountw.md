@@ -7,7 +7,7 @@ old-location: shell\SHSetUnreadMailCount.htm
 old-project: shell
 ms.assetid: 4a0e1ade-8df1-41b5-b6ea-dad427b50f5a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: SHSetUnreadMailCount, SHSetUnreadMailCount function [Windows Shell], SHSetUnreadMailCountW, _shell_SHSetUnreadMailCount, shell.SHSetUnreadMailCount, shellapi/SHSetUnreadMailCount, shellapi/SHSetUnreadMailCountW
 ms.prod: windows-hardware
 ms.technology: windows-devices

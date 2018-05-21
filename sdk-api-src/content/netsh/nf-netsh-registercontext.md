@@ -7,7 +7,7 @@ old-location: netshell\registercontext.htm
 old-project: NetShell
 ms.assetid: 52cebe62-d4b6-4229-8418-c0ae9849822b
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/10/2018
 ms.keywords: RegisterContext, RegisterContext function [NetShell], _netsh_registercontext, netsh/RegisterContext, netshell.registercontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

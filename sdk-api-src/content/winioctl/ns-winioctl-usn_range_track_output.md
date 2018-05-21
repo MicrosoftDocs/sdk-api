@@ -7,7 +7,7 @@ old-location: fs\usn_range_track_output.htm
 old-project: FileIO
 ms.assetid: E10ECB50-A506-4836-81D2-3073FBB844CA
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PUSN_RANGE_TRACK_OUTPUT, PUSN_RANGE_TRACK_OUTPUT, PUSN_RANGE_TRACK_OUTPUT structure pointer [Files], USN_RANGE_TRACK_OUTPUT, USN_RANGE_TRACK_OUTPUT structure [Files], fs.usn_range_track_output, winioctl/PUSN_RANGE_TRACK_OUTPUT, winioctl/USN_RANGE_TRACK_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

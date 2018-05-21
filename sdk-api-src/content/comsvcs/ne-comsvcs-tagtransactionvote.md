@@ -7,7 +7,7 @@ old-location: cos\transactionvote.htm
 old-project: cossdk
 ms.assetid: 2fea9ac5-f714-4682-a78c-bfe9396fccd5
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: TransactionVote, TransactionVote enumeration [COM+], TxAbort, TxCommit, _cos_TransactionVote, comsvcs/TransactionVote, comsvcs/TxAbort, comsvcs/TxCommit, cos.transactionvote, tagTransactionVote
 ms.prod: windows-hardware
 ms.technology: windows-devices

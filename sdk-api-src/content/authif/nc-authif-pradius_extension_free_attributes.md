@@ -7,8 +7,8 @@ old-location: nps\IAS_radiusextensionfreeattributes.htm
 old-project: Nps
 ms.assetid: 2b76c648-a8d6-440c-b0b8-7c17f91ad961
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
-ms.keywords: PRADIUS_EXTENSION_FREE_ATTRIBUTES, PRADIUS_EXTENSION_FREE_ATTRIBUTES callback, RadiusExtensionFreeAttributes, RadiusExtensionFreeAttributes callback function [Network Policy Server], _ias_radiusextensionfreeattributes, authif/RadiusExtensionFreeAttributes, ias.radiusextensionfreeattributes, nps.IAS_radiusextensionfreeattributes
+ms.date: 5/10/2018
+ms.keywords: PRADIUS_EXTENSION_FREE_ATTRIBUTES, PRADIUS_EXTENSION_FREE_ATTRIBUTES callback, PRADIUS_EXTENSION_FREE_ATTRIBUTES callback function [Network Policy Server], RadiusExtensionFreeAttributes, _ias_radiusextensionfreeattributes, authif/PRADIUS_EXTENSION_FREE_ATTRIBUTES, ias.radiusextensionfreeattributes, nps.IAS_radiusextensionfreeattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	AuthIf.h
 api_name:
--	RadiusExtensionFreeAttributes
+-	PRADIUS_EXTENSION_FREE_ATTRIBUTES
 product: Windows
 targetos: Windows
 req.lib: 

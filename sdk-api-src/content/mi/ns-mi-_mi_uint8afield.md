@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_uint8afield.htm
 old-project: wmi_v2
 ms.assetid: 65fee0fc-c444-4360-b6a0-789f5999f1c5
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint8AField, MI_Uint8AField structure [Windows Management Infrastructure (MI)], _MI_Uint8AField, mi/MI_Uint8AField, wmi._mi_uint8afield, wmi_v2.mi_uint8afield
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\setfileinformationbyhandle.htm
 old-project: FileIO
 ms.assetid: ea4981e6-a8f1-4977-aca9-b2f53604d449
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: SetFileInformationByHandle, SetFileInformationByHandle function [Files], fileapi/SetFileInformationByHandle, fileextd/SetFileInformationByHandle, fs.setfileinformationbyhandle, winbase/SetFileInformationByHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

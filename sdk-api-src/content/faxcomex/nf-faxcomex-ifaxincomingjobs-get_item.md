@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingjobs_item_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5ga5_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: IFaxIncomingJobs interface [Fax Service],get_Item method, IFaxIncomingJobs.get_Item, IFaxIncomingJobs::get_Item, _mfax_faxincomingjobs.item_cpp, fax._mfax_faxincomingjobs_item_cpp, faxcomex/IFaxIncomingJobs::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxIncomingJobs interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

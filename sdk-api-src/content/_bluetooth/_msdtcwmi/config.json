@@ -1,0 +1,6 @@
+{
+  "tech": "msdtcwmi",
+  "headers": [
+    "wbemcli.h"
+  ]
+}

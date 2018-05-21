@@ -7,7 +7,7 @@ old-location: ncd\iwsdudpmessageparameters_getretransmitparams.htm
 old-project: WsdApi
 ms.assetid: c34d6320-c70b-410e-ae21-fba849dac62f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetRetransmitParams, GetRetransmitParams method, GetRetransmitParams method,IWSDUdpMessageParameters interface, IWSDUdpMessageParameters interface,GetRetransmitParams method, IWSDUdpMessageParameters.GetRetransmitParams, IWSDUdpMessageParameters::GetRetransmitParams, ncd.iwsdudpmessageparameters_getretransmitparams, wsdbase/IWSDUdpMessageParameters::GetRetransmitParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

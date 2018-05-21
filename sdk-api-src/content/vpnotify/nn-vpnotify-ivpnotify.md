@@ -7,7 +7,7 @@ old-location: dshow\ivpnotify.htm
 old-project: DirectShow
 ms.assetid: 6b40ba9e-8562-4d31-beaf-e4d4858bf145
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IVPNotify, IVPNotify interface [DirectShow], IVPNotify interface [DirectShow],described, IVPNotifyInterface, dshow.ivpnotify, vpnotify/IVPNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

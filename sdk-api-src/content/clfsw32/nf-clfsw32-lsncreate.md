@@ -7,7 +7,7 @@ old-location: fs\lsncreate.htm
 old-project: Clfs
 ms.assetid: 3662ac53-25d5-4d8c-8f98-02f313e03dce
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: LsnCreate, LsnCreate function [Files], clfsw32/LsnCreate, fs.lsncreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

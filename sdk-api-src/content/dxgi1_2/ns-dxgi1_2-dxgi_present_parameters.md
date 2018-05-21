@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_present_parameters.htm
 old-project: direct3ddxgi
 ms.assetid: C2C69457-5415-4CAA-901B-A3A8591C6CB0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: DXGI_PRESENT_PARAMETERS, DXGI_PRESENT_PARAMETERS structure [DXGI], direct3ddxgi.dxgi_present_parameters, dxgi1_2/DXGI_PRESENT_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidctl_get_videorenderersavailable.htm
 old-project: mstv
 ms.assetid: 20e5b2f3-33ea-4b0d-84b8-e4b0b61e0348
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_VideoRenderersAvailable method, IMSVidCtl.get_VideoRenderersAvailable, IMSVidCtl::get_VideoRenderersAvailable, IMSVidCtlget_VideoRenderersAvailable, get_VideoRenderersAvailable, get_VideoRenderersAvailable method [Microsoft TV Technologies], get_VideoRenderersAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_videorenderersavailable, msvidctl/IMSVidCtl::get_VideoRenderersAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

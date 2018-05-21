@@ -7,7 +7,7 @@ old-location: tapi3\cmspstream_finalrelease.htm
 old-project: Tapi
 ms.assetid: 5609cf47-ad80-438f-9527-ac3093eaef45
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],FinalRelease method, CMSPStream.FinalRelease, CMSPStream::FinalRelease, FinalRelease, FinalRelease method [TAPI 2.2], FinalRelease method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_finalrelease, mspstrm/CMSPStream::FinalRelease, tapi3.cmspstream_finalrelease
 ms.prod: windows-hardware
 ms.technology: windows-devices

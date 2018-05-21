@@ -7,7 +7,7 @@ old-location: base\trysubmitthreadpoolcallback.htm
 old-project: ProcThread
 ms.assetid: 689d197e-195f-419c-9317-b30c614038c4
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: TrySubmitThreadpoolCallback, TrySubmitThreadpoolCallback function, base.trysubmitthreadpoolcallback, threadpoolapiset/TrySubmitThreadpoolCallback, winbase/TrySubmitThreadpoolCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

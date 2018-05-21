@@ -7,7 +7,7 @@ old-location: ncd\iwsdserviceproxyeventing.htm
 old-project: WsdApi
 ms.assetid: c9454636-6d6a-4344-a954-1bd35195aff9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDServiceProxyEventing, IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,described, ncd.iwsdserviceproxyeventing, wsdclient/IWSDServiceProxyEventing
 ms.prod: windows-hardware
 ms.technology: windows-devices

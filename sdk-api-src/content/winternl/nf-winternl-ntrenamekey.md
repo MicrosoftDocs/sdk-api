@@ -7,7 +7,7 @@ old-location: winprog\ntrenamekey.htm
 old-project: DevNotes
 ms.assetid: fecd46f6-bcef-4cb4-8d53-3fb7ebe4cc53
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: NtRenameKey, NtRenameKey function [Windows API], base.ntrenamekey, winprog.ntrenamekey, winternl/NtRenameKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

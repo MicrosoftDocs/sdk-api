@@ -7,7 +7,7 @@ old-location: controls\Animate_Create.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_create.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: Animate_Create, Animate_Create macro [Windows Controls], _win32_Animate_Create, _win32_Animate_Create_cpp, commctrl/Animate_Create, controls.Animate_Create, controls._win32_Animate_Create
 ms.prod: windows-hardware
 ms.technology: windows-devices

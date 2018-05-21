@@ -2,11 +2,12 @@
 UID: TP:eaphost
 ms.assetid: bfd933dc-0ef7-3b44-91ff-81467060c7da
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Extensible Authentication Protocol Host

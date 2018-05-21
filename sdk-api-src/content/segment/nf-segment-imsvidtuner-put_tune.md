@@ -7,7 +7,7 @@ old-location: mstv\imsvidtuner_put_tune.htm
 old-project: mstv
 ms.assetid: 31139b6f-aad9-495b-9e8c-39026c8e81a9
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidTuner interface [Microsoft TV Technologies],put_Tune method, IMSVidTuner.put_Tune, IMSVidTuner::put_Tune, IMSVidTunerput_Tune, mstv.imsvidtuner_put_tune, put_Tune, put_Tune method [Microsoft TV Technologies], put_Tune method [Microsoft TV Technologies],IMSVidTuner interface, segment/IMSVidTuner::put_Tune
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dns\dns_query_cancel.htm
 old-project: DNS
 ms.assetid: 543C6F9B-3200-44F6-A2B7-A5C7F5A927DB
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: "*PDNS_QUERY_CANCEL, DNS_QUERY_CANCEL, DNS_QUERY_CANCEL structure [DNS], PDNS_QUERY_CANCEL, PDNS_QUERY_CANCEL structure pointer [DNS], _DNS_QUERY_CANCEL, dns.dns_query_cancel, windns/DNS_QUERY_CANCEL, windns/PDNS_QUERY_CANCEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices

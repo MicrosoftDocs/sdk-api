@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_GetStartCap_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getstartcap.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetStartCap, GetStartCap method [GDI+], GetStartCap method [GDI+],Pen class, Pen class [GDI+],GetStartCap method, Pen.GetStartCap, Pen::GetStartCap, _gdiplus_CLASS_Pen_GetStartCap_, gdiplus._gdiplus_CLASS_Pen_GetStartCap_
 ms.prod: windows-hardware
 ms.technology: windows-devices

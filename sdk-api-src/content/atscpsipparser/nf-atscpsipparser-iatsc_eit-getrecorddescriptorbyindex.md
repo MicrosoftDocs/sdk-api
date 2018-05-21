@@ -7,7 +7,7 @@ old-location: mstv\iatsc_eit_getrecorddescriptorbyindex.htm
 old-project: mstv
 ms.assetid: 06144d3d-b789-4ba3-b313-958de366764f
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IATSC_EIT.GetRecordDescriptorByIndex, IATSC_EIT::GetRecordDescriptorByIndex, IATSC_EITGetRecordDescriptorByIndex, atscpsipparser/IATSC_EIT::GetRecordDescriptorByIndex, mstv.iatsc_eit_getrecorddescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

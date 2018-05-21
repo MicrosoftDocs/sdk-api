@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlEvents_OnItemDeleted.htm
 old-project: shell
 ms.assetid: be5894ce-bf4c-4738-9096-da9c9d8688ee
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemDeleted method, INameSpaceTreeControlEvents.OnItemDeleted, INameSpaceTreeControlEvents::OnItemDeleted, OnItemDeleted, OnItemDeleted method [Windows Shell], OnItemDeleted method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemDeleted, shell.INameSpaceTreeControlEvents_OnItemDeleted, shobjidl/INameSpaceTreeControlEvents::OnItemDeleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

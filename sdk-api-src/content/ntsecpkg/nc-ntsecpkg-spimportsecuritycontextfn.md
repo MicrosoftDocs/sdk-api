@@ -7,7 +7,7 @@ old-location: security\spimportsecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: f3a9427b-37f0-464a-9f67-3b4e09597a98
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SpImportSecurityContext, SpImportSecurityContext function [Security], SpImportSecurityContextFn, _ssp_spimportsecuritycontext, ntsecpkg/SpImportSecurityContext, security.spimportsecuritycontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

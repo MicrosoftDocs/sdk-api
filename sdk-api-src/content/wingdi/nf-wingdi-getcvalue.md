@@ -7,7 +7,7 @@ old-location: wcs\getcvalue.htm
 old-project: WCS
 ms.assetid: 0b1b1eca-61b2-4011-85ea-6311ac78cab6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/17/2018
 ms.keywords: GetCValue, GetCValue macro [Windows Color System], _color_GetCValue, wcs.getcvalue, wingdi/GetCValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,13 +2,13 @@
 UID: NF:intsafe.IntPtrToULong
 title: IntPtrToULong function
 author: windows-driver-content
-description: Converts a value of type INT_PTR to a value of type DWORD.
-old-location: shell\IntPtrToDWord.htm
+description: Converts a value of type INT_PTR to a value of type ULONG.
+old-location: shell\IntPtrToULong.htm
 old-project: shell
-ms.assetid: 886758e5-9316-4286-be60-4af4e37ac2eb
+ms.assetid: 58d55c1e-46ab-40b1-9caf-d4f3a81c8aa6
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: IntPtrToDWord, IntPtrToDWord function [Windows Shell], IntPtrToULong, _shell_IntPtrToDWord, intsafe/IntPtrToDWord, shell.IntPtrToDWord
+ms.date: 5/16/2018
+ms.keywords: IntPtrToDWord, IntPtrToULong, IntPtrToULong function [Windows Shell], PtrdiffTToDWord, PtrdiffTToLong, PtrdiffTToULong, _shell_IntPtrToULong, intsafe/IntPtrToULong, shell.IntPtrToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	IntPtrToDWord
+-	IntPtrToULong
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>INT_PTR</b> to a value of type <b>DWORD</b>.
+Converts a value of type <b>INT_PTR</b> to a value of type <b>ULONG</b>.
 
 
 ## -parameters
@@ -65,16 +65,9 @@ Type: <b>INT_PTR</b>
 The value to be converted.
 
 
-### -param pulResult
+### -param pulResult [out]
 
-TBD
-
-
-
-
-#### - pdwResult [out]
-
-Type: <b>DWORD*</b>
+Type: <b>ULONG*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
@@ -95,6 +88,14 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>PtrdiffTToULong</b> is an alias for this function.
+
+<b>PtrdiffTToLong</b> is an alias for this function.
+
+<b>PtrdiffTToDWord</b> is an alias for this function.
+
+<b>IntPtrToDWord</b> is an alias for this function.
 
 
 

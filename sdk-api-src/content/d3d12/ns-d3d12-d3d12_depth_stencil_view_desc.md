@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_depth_stencil_view_desc.htm
 old-project: direct3d12
 ms.assetid: 53161933-5B3B-4B38-AC70-46A4164AE072
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12_DEPTH_STENCIL_VIEW_DESC, D3D12_DEPTH_STENCIL_VIEW_DESC structure, d3d12/D3D12_DEPTH_STENCIL_VIEW_DESC, direct3d12.d3d12_depth_stencil_view_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

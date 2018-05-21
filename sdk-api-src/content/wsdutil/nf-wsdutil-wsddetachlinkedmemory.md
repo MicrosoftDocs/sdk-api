@@ -7,7 +7,7 @@ old-location: ncd\wsddetachlinkedmemory_func.htm
 old-project: WsdApi
 ms.assetid: a5009626-e0f8-4a04-919f-e1ae29863b05
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSDDetachLinkedMemory, WSDDetachLinkedMemory function, ncd.wsddetachlinkedmemory_func, wsdutil/WSDDetachLinkedMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopymanager.htm
 old-project: Bits
 ms.assetid: fc98dfb3-7e10-421d-b722-223bd8a65330
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: IBackgroundCopyManager, IBackgroundCopyManager interface [BITS], IBackgroundCopyManager interface [BITS],described, _drz_ibackgroundcopymanager, bits.ibackgroundcopymanager, bits/IBackgroundCopyManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

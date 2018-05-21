@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiterator.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GraphicsPathIterator, GraphicsPathIterator class [GDI+], GraphicsPathIterator class [GDI+],described, _gdiplus_CLASS_GraphicsPathIterator_Class, gdiplus._gdiplus_CLASS_GraphicsPathIterator_Class, gdipluspath/GraphicsPathIterator
 ms.prod: windows-hardware
 ms.technology: windows-devices

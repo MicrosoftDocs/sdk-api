@@ -7,7 +7,7 @@ old-location: security\sspiupdatecredentials.htm
 old-project: SecAuthN
 ms.assetid: d00dc076-f0fc-44e9-8083-75ad715cf0c7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SspiUpdateCredentials, SspiUpdateCredentials function [Security], security.sspiupdatecredentials, sspi/SspiUpdateCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SspiUpdateCredentials function

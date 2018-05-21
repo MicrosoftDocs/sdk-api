@@ -7,7 +7,7 @@ old-location: gdi\polygon.htm
 old-project: gdi
 ms.assetid: 2f958b91-039a-4e02-b727-be142bb18b06
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: Polygon, Polygon function [Windows GDI], _win32_Polygon, gdi.polygon, wingdi/Polygon
 ms.prod: windows-hardware
 ms.technology: windows-devices

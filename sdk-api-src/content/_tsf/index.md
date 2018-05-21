@@ -2,7 +2,7 @@
 UID: TP:tsf
 ms.assetid: 7bfc05f4-38f9-394b-8f17-66bae94f970d
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

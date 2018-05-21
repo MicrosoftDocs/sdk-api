@@ -7,7 +7,7 @@ old-location: ncd\iwsdoutboundattachment_abort.htm
 old-project: WsdApi
 ms.assetid: add0160c-bbf7-446e-8592-a05fd4d16fac
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: Abort, Abort method, Abort method,IWSDOutboundAttachment interface, IWSDOutboundAttachment interface,Abort method, IWSDOutboundAttachment.Abort, IWSDOutboundAttachment::Abort, ncd.iwsdoutboundattachment_abort, wsdattachment/IWSDOutboundAttachment::Abort
 ms.prod: windows-hardware
 ms.technology: windows-devices

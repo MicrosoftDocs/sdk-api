@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_getrange_exposure.htm
 old-project: DirectShow
 ms.assetid: 42e74ae3-6a07-47c8-8e6a-daf2cb32328c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Exposure method, ICameraControl.getRange_Exposure, ICameraControl::getRange_Exposure, ICameraControlgetRange_Exposure, dshow.icameracontrol_getrange_exposure, getRange_Exposure, getRange_Exposure method [DirectShow], getRange_Exposure method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Exposure
 ms.prod: windows-hardware
 ms.technology: windows-devices

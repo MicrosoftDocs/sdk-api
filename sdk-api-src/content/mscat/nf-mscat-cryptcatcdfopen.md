@@ -7,7 +7,7 @@ old-location: security\cryptcatcdfopen.htm
 old-project: SecCrypto
 ms.assetid: d400d8bd-c0a0-41dc-9093-8e4fc758d82f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CryptCATCDFOpen, CryptCATCDFOpen function [Security], mscat/CryptCATCDFOpen, security.cryptcatcdfopen
 ms.prod: windows-hardware
 ms.technology: windows-devices

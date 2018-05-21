@@ -7,7 +7,7 @@ old-location: shell\SHCoCreateInstance.htm
 old-project: shell
 ms.assetid: 334fc581-29b2-4576-94ec-7dd3d6e0020b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: SHCoCreateInstance, SHCoCreateInstance function [Windows Shell], _win32_SHCoCreateInstance, shell.SHCoCreateInstance, shlobj_core/SHCoCreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

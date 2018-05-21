@@ -7,7 +7,7 @@ old-location: shell\Folder2_DismissedWebViewBarricade.htm
 old-project: shell
 ms.assetid: 170893b6-c947-45b1-b717-a93a0b083bda
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DismissedWebViewBarricade, DismissedWebViewBarricade method [Windows Shell], DismissedWebViewBarricade method [Windows Shell],Folder2 object, Folder2 object [Windows Shell],DismissedWebViewBarricade method, Folder2.DismissedWebViewBarricade, Folder2::DismissedWebViewBarricade, _win32_Folder2_DismissedWebViewBarricade, shell.Folder2_DismissedWebViewBarricade
 ms.prod: windows-hardware
 ms.technology: windows-devices

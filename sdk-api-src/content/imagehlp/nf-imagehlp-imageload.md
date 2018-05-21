@@ -7,7 +7,7 @@ old-location: base\imageload.htm
 old-project: Debug
 ms.assetid: e88e6417-a805-43c2-9f47-5180228cf175
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: ImageLoad, ImageLoad function, _win32_imageload, base.imageload, imagehlp/ImageLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ITextPara_SetLineSpacing.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlinespacing.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextPara interface [Windows Controls],SetLineSpacing method, ITextPara.SetLineSpacing, ITextPara::SetLineSpacing, SetLineSpacing, SetLineSpacing method [Windows Controls], SetLineSpacing method [Windows Controls],ITextPara interface, _win32_ITextPara_SetLineSpacing, _win32_ITextPara_SetLineSpacing_cpp, controls.ITextPara_SetLineSpacing, controls._win32_ITextPara_SetLineSpacing, tom/ITextPara::SetLineSpacing
 ms.prod: windows-hardware
 ms.technology: windows-devices

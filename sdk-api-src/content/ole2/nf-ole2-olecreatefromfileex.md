@@ -7,7 +7,7 @@ old-location: com\olecreatefromfileex.htm
 old-project: com
 ms.assetid: a75bb031-6e4a-4440-82f3-6a6f9417c62b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleCreateFromFileEx, OleCreateFromFileEx function [COM], _ole_OleCreateFromFileEx, com.olecreatefromfileex, ole2/OleCreateFromFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

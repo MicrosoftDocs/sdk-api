@@ -7,7 +7,7 @@ old-location: wsw\wswritexmlbuffertobytes.htm
 old-project: wsw
 ms.assetid: dea4bfa5-7cd0-440f-89fe-e46af116462e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsWriteXmlBufferToBytes, WsWriteXmlBufferToBytes function [Web Services for Windows], webservices/WsWriteXmlBufferToBytes, wsw.wswritexmlbuffertobytes
 ms.prod: windows-hardware
 ms.technology: windows-devices

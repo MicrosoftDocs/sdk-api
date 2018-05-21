@@ -7,7 +7,7 @@ old-location: com\stgmedium.htm
 old-project: com
 ms.assetid: 5d05819a-10db-4d8e-91e4-8a7c05885cde
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPSTGMEDIUM, ASYNC_STGMEDIUM, LPSTGMEDIUM, LPSTGMEDIUM structure pointer [COM], STGMEDIUM, STGMEDIUM structure [COM], _ole_STGMEDIUM, com.stgmedium, objidl/LPSTGMEDIUM, objidl/STGMEDIUM, tagSTGMEDIUM, uSTGMEDIUM"
 ms.prod: windows-hardware
 ms.technology: windows-devices

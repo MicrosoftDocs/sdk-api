@@ -7,7 +7,7 @@ old-location: mf\id3d11videodecoder.htm
 old-project: medfound
 ms.assetid: F25AFA0B-7413-40F0-AFF8-C9B4549305D2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: ID3D11VideoDecoder, ID3D11VideoDecoder interface [Media Foundation], ID3D11VideoDecoder interface [Media Foundation],described, d3d11/ID3D11VideoDecoder, mf.id3d11videodecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices

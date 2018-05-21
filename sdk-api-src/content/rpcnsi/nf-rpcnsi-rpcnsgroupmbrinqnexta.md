@@ -7,7 +7,7 @@ old-location: rpc\rpcnsgroupmbrinqnext.htm
 old-project: Rpc
 ms.assetid: 58f32594-85de-4d20-86b2-210367ccb7ce
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcNsGroupMbrInqNext, RpcNsGroupMbrInqNext function [RPC], RpcNsGroupMbrInqNextA, RpcNsGroupMbrInqNextW, _rpc_rpcnsgroupmbrinqnext, rpc.rpcnsgroupmbrinqnext, rpcnsi/RpcNsGroupMbrInqNext, rpcnsi/RpcNsGroupMbrInqNextA, rpcnsi/RpcNsGroupMbrInqNextW
 ms.prod: windows-hardware
 ms.technology: windows-devices

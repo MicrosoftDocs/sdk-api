@@ -2,13 +2,13 @@
 UID: NN:indexsrv.IStemmer
 title: IStemmer
 author: windows-driver-content
-description: Provides methods for creating a language-specific stemmer. The stemmer generates inflected forms of a given word.
-old-location: indexsrv\istemmer.htm
-old-project: IndexSrv
-ms.assetid: VS|indexsrv|~\html\ixrefint_4b76.htm
+description: Provides methods for creating a language-specific stemmer. The stemmer generates inflected forms of a specified word.
+old-location: search\_search_IStemmer.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\istemmer.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: IStemmer, IStemmer interface [Indexing Service], IStemmer interface [Indexing Service],described, _idxs_IStemmer, indexsrv.istemmer, indexsrv/IStemmer
+ms.date: 5/8/2018
+ms.keywords: IStemmer, IStemmer interface [search], IStemmer interface [search],described, _search_IStemmer, indexsrv/IStemmer, search._search_IStemmer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -50,10 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
-
-Provides methods for creating a language-specific stemmer. The stemmer generates inflected forms of a given word.
-
+Provides methods for creating a language-specific stemmer. The stemmer generates inflected forms of a specified word.
 
 
 ## -inheritance
@@ -73,16 +70,16 @@ The <b>IStemmer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/944c3776-3b92-4f41-8b85-7f27b2779177">GenerateWordForms</a>
+<a href="https://msdn.microsoft.com/7996468d-3b5f-4bfc-837d-51082655cbbc">GenerateWordForms</a>
 </td>
 <td align="left" width="63%">
-Generates alternative forms for a word and puts them in the WordFormSink.
+Generates alternative forms for a word and puts these forms in the <a href="https://msdn.microsoft.com/81D52B0C-BADD-48C0-85DB-57CA82D7BBA8">IWordFormSink</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d0812a6-679c-4163-aab7-60d0283d7c2c">GetLicenseToUse</a>
+<a href="https://msdn.microsoft.com/cd2798cf-8db2-474b-8a1c-abd8fdc9187e">GetLicenseToUse</a>
 </td>
 <td align="left" width="63%">
 Gets the license information for this <b>IStemmer</b> implementation.
@@ -105,26 +102,10 @@ Initializes the stemmer.
 
 
 
-Stemmer components for Indexing Service run in the Local Security context. They should be written to manage buffers and to stack correctly. All string copies must have explicit checks to guard against buffer overruns. You should always verify the allocated size of the buffer and test the size of the data against the size of the buffer.
+<h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
+Implement this interface to create a custom stemmer for a language. Windows Search calls the methods of this interface to generate inflected forms for words identified when building an index.
+
+Stemmer components for Windows Search run in the Local Security context. They should be written to manage buffers and the stack correctly. All string copies must have explicit checks to guard against buffer overruns. You should always verify the allocated size of the buffer and test the size of the data against the size of the buffer.
 
 
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/994befe1-e258-4c0a-b3a9-b5968e13456c">IWordBreaker</a>
-
-
-
-<a href="https://msdn.microsoft.com/d8ace103-a4ca-424f-9358-cd5fc6263a87">Implementing a Stemmer</a>
-
-
-
-<a href="https://msdn.microsoft.com/48241f14-3dba-4b55-947a-fd636361ed1e">Language Resource Samples</a>
- 
-
- 
 

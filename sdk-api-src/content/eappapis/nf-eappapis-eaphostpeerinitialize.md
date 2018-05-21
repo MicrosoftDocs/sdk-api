@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerinitialize.htm
 old-project: EAPHost
 ms.assetid: 4af7103e-85c8-472e-96fe-407f07a1f447
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapHostPeerInitialize, EapHostPeerInitialize function [EAPHost], eaphost.eaphostpeerinitialize, eappapis/EapHostPeerInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

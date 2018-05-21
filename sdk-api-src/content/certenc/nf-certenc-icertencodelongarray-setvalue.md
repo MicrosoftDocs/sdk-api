@@ -7,7 +7,7 @@ old-location: security\icertencodelongarray_setvalue.htm
 old-project: SecCrypto
 ms.assetid: 021b2539-3226-4893-af76-9b7b1637e12e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CCertEncodeLongArray object [Security],SetValue method, ICertEncodeLongArray interface [Security],SetValue method, ICertEncodeLongArray.SetValue, ICertEncodeLongArray::SetValue, SetValue, SetValue method [Security], SetValue method [Security],CCertEncodeLongArray object, SetValue method [Security],ICertEncodeLongArray interface, _certsrv_icertencodelongarray_setvalue, certenc/ICertEncodeLongArray::SetValue, security.icertencodelongarray_setvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices

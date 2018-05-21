@@ -7,7 +7,7 @@ old-location: rpc\rpcssfree.htm
 old-project: Rpc
 ms.assetid: f004ea19-3d1c-485f-99be-da59cbe478d2
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcSsFree, RpcSsFree function [RPC], _rpc_rpcssfree, rpc.rpcssfree, rpcndr/RpcSsFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

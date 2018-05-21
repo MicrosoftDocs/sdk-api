@@ -7,7 +7,7 @@ old-location: fs\readnextlogrecord.htm
 old-project: Clfs
 ms.assetid: 7736106b-6c43-496e-83b8-fa433c29e680
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: ClfsClientRecord, ClfsDataRecord, ClfsRestartRecord, ReadNextLogRecord, ReadNextLogRecord function [Files], clfsw32/ReadNextLogRecord, fs.readnextlogrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\callframe_null.htm
 old-project: com
 ms.assetid: 99d83bdc-a33b-4233-84c6-350274f42965
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CALLFRAME_NULL, CALLFRAME_NULL enumeration [COM], CALLFRAME_NULL_ALL, CALLFRAME_NULL_INOUT, CALLFRAME_NULL_NONE, CALLFRAME_NULL_OUT, callobj/CALLFRAME_NULL, callobj/CALLFRAME_NULL_ALL, callobj/CALLFRAME_NULL_INOUT, callobj/CALLFRAME_NULL_NONE, callobj/CALLFRAME_NULL_OUT, com.callframe_null
 ms.prod: windows-hardware
 ms.technology: windows-devices

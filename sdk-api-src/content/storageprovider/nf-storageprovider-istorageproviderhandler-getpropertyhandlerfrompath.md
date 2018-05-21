@@ -7,7 +7,7 @@ old-location: shell\istorageproviderhandler_getpropertyhandlerfrompath.htm
 old-project: shell
 ms.assetid: E02B43AC-73A8-4FD0-BC54-47922CA5EEDB
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetPropertyHandlerFromPath, GetPropertyHandlerFromPath method [Windows Shell], GetPropertyHandlerFromPath method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromPath method, IStorageProviderHandler.GetPropertyHandlerFromPath, IStorageProviderHandler::GetPropertyHandlerFromPath, shell.istorageproviderhandler_getpropertyhandlerfrompath, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IStorageProviderHandler::GetPropertyHandlerFromPath

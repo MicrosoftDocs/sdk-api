@@ -2,7 +2,7 @@
 UID: TP:display
 ms.assetid: 4b099f8f-1e3b-398c-9d48-80f65f6c3468
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: eaphost\eap_method_property_value.htm
 old-project: EAPHost
 ms.assetid: 298b59d3-245f-4a29-b8a1-2265d65d30e6
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE, EAP_METHOD_PROPERTY_VALUE union [EAPHost], eaphost.eap_method_property_value, eaptypes/EAP_METHOD_PROPERTY_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices

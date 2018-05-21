@@ -7,7 +7,7 @@ old-location: dshow\tvaudiomode.htm
 old-project: DirectShow
 ms.assetid: 70e26550-0a8f-484e-b919-cfefdcf95f6b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AMTVAUDIO_MODE_LANG_A, AMTVAUDIO_MODE_LANG_B, AMTVAUDIO_MODE_LANG_C, AMTVAUDIO_MODE_MONO, AMTVAUDIO_MODE_STEREO, AMTVAUDIO_PRESET_LANG_A, AMTVAUDIO_PRESET_LANG_B, AMTVAUDIO_PRESET_LANG_C, AMTVAUDIO_PRESET_STEREO, TVAudioMode, TVAudioMode enumeration [DirectShow], TVAudioModeEnumeration, dshow.tvaudiomode, strmif/AMTVAUDIO_MODE_LANG_A, strmif/AMTVAUDIO_MODE_LANG_B, strmif/AMTVAUDIO_MODE_LANG_C, strmif/AMTVAUDIO_MODE_MONO, strmif/AMTVAUDIO_MODE_STEREO, strmif/AMTVAUDIO_PRESET_LANG_A, strmif/AMTVAUDIO_PRESET_LANG_B, strmif/AMTVAUDIO_PRESET_LANG_C, strmif/AMTVAUDIO_PRESET_STEREO, strmif/TVAudioMode, tagTVAudioMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # tagTVAudioMode enumeration

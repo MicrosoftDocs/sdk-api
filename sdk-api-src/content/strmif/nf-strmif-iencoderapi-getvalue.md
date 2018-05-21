@@ -7,7 +7,7 @@ old-location: mstv\iencoderapi_getvalue.htm
 old-project: mstv
 ms.assetid: 62f69677-05cd-46ab-8b77-96e10f8fbb1d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetValue, GetValue method [Microsoft TV Technologies], GetValue method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetValue method, IEncoderAPI.GetValue, IEncoderAPI::GetValue, IEncoderAPIGetValue, mstv.iencoderapi_getvalue, strmif/IEncoderAPI::GetValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

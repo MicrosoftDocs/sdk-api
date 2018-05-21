@@ -7,7 +7,7 @@ old-location: dataxchg\monerrstruct_str.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\monerrstruct.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: "*PMONERRSTRUCT, MONERRSTRUCT, MONERRSTRUCT structure [Data Exchange], PMONERRSTRUCT, PMONERRSTRUCT structure pointer [Data Exchange], _win32_MONERRSTRUCT_str, _win32_monerrstruct_str_cpp, dataxchg.monerrstruct_str, ddeml/MONERRSTRUCT, ddeml/PMONERRSTRUCT, tagMONERRSTRUCT, winui._win32_monerrstruct_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

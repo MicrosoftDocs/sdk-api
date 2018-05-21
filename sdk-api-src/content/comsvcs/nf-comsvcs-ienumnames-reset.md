@@ -7,7 +7,7 @@ old-location: cos\ienumnames_reset.htm
 old-project: cossdk
 ms.assetid: e7b7e703-f5d5-430f-8fa6-c26a236eab88
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IEnumNames interface [COM+],Reset method, IEnumNames.Reset, IEnumNames::Reset, Reset, Reset method [COM+], Reset method [COM+],IEnumNames interface, _cos_IEnumNames_Reset, comsvcs/IEnumNames::Reset, cos.ienumnames_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

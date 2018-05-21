@@ -7,7 +7,7 @@ old-location: winprog\recordfeatureerror.htm
 old-project: DevNotes
 ms.assetid: 8179277A-9F98-4FF1-8368-9393B12023D0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RecordFeatureError, RecordFeatureError function [Windows API], featurestagingapi/RecordFeatureError, winprog.recordfeatureerror
 ms.prod: windows-hardware
 ms.technology: windows-devices

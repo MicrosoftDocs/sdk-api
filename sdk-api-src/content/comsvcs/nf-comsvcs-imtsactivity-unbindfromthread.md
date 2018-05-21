@@ -7,7 +7,7 @@ old-location: cos\imtsactivity_unbindfromthread.htm
 old-project: cossdk
 ms.assetid: cb4c4f63-2a6e-4df7-8886-19d45e28d81a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IMTSActivity interface [COM+],UnbindFromThread method, IMTSActivity.UnbindFromThread, IMTSActivity::UnbindFromThread, UnbindFromThread, UnbindFromThread method [COM+], UnbindFromThread method [COM+],IMTSActivity interface, _cos_IMTSActivity_UnbindFromThread, comsvcs/IMTSActivity::UnbindFromThread, cos.imtsactivity_unbindfromthread
 ms.prod: windows-hardware
 ms.technology: windows-devices

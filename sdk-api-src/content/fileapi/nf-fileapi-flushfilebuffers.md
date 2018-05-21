@@ -7,7 +7,7 @@ old-location: fs\flushfilebuffers.htm
 old-project: FileIO
 ms.assetid: 0d9ea467-6d5d-44b2-8e87-f2ecdd510fe6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: FlushFileBuffers, FlushFileBuffers function [Files], _win32_flushfilebuffers, base.flushfilebuffers, fileapi/FlushFileBuffers, fs.flushfilebuffers, winbase/FlushFileBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

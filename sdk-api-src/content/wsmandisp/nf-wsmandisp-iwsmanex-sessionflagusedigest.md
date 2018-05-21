@@ -7,7 +7,7 @@ old-location: winrm\iwsmanex_sessionflagusedigest.htm
 old-project: WinRM
 ms.assetid: 3aa44847-932e-49c6-a7fd-966a2bb3539d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseDigest method, IWSManEx.SessionFlagUseDigest, IWSManEx::SessionFlagUseDigest, SessionFlagUseDigest, SessionFlagUseDigest method [Windows Remote Management], SessionFlagUseDigest method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusedigest, wsmandisp/IWSManEx::SessionFlagUseDigest
 ms.prod: windows-hardware
 ms.technology: windows-devices

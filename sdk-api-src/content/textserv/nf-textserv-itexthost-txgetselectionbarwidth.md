@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxGetSelectionBarWidth.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetselectionbarwidth.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetSelectionBarWidth method, ITextHost.TxGetSelectionBarWidth, ITextHost::TxGetSelectionBarWidth, TxGetSelectionBarWidth, TxGetSelectionBarWidth method [Windows Controls], TxGetSelectionBarWidth method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetSelectionBarWidth, _win32_ITextHost_TxGetSelectionBarWidth_cpp, controls.ITextHost_TxGetSelectionBarWidth, controls._win32_ITextHost_TxGetSelectionBarWidth, textserv/ITextHost::TxGetSelectionBarWidth
 ms.prod: windows-hardware
 ms.technology: windows-devices

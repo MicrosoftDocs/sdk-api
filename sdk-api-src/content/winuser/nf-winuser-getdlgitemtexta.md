@@ -7,7 +7,7 @@ old-location: dlgbox\getdlgitemtext.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitemtext.htm
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/17/2018
 ms.keywords: GetDlgItemText, GetDlgItemText function [Dialog Boxes], GetDlgItemTextA, GetDlgItemTextW, _win32_GetDlgItemText, _win32_getdlgitemtext_cpp, dlgbox.getdlgitemtext, winui._win32_getdlgitemtext, winuser/GetDlgItemText, winuser/GetDlgItemTextA, winuser/GetDlgItemTextW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetoptionvaluev6.htm
 old-project: DHCP
 ms.assetid: 1adfcefa-4f63-4a4c-9a78-3c91d32a9e13
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpSetOptionValueV6, DhcpSetOptionValueV6 function [DHCP], dhcp.dhcpsetoptionvaluev6, dhcpsapi/DhcpSetOptionValueV6
 ms.prod: windows-hardware
 ms.technology: windows-devices

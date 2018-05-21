@@ -7,7 +7,7 @@ old-location: termserv\iaudioinputendpointrt_getinputdatapointer.htm
 old-project: TermServ
 ms.assetid: 1da81a49-d421-4643-9be6-b13d45d678f0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: GetInputDataPointer, GetInputDataPointer method [Remote Desktop Services], GetInputDataPointer method [Remote Desktop Services],IAudioInputEndpointRT interface, IAudioInputEndpointRT interface [Remote Desktop Services],GetInputDataPointer method, IAudioInputEndpointRT.GetInputDataPointer, IAudioInputEndpointRT::GetInputDataPointer, audioengineendpoint/IAudioInputEndpointRT::GetInputDataPointer, termserv.iaudioinputendpointrt_getinputdatapointer
 ms.prod: windows-hardware
 ms.technology: windows-devices

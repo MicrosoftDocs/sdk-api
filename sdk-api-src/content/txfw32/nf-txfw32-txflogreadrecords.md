@@ -7,7 +7,7 @@ old-location: fs\txflogreadrecords.htm
 old-project: FileIO
 ms.assetid: f0f10d9c-957a-4484-bde8-337d235e3262
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: TxfLogReadRecords, TxfLogReadRecords function [Files], fs.txflogreadrecords, txfw32/TxfLogReadRecords
 ms.prod: windows-hardware
 ms.technology: windows-devices

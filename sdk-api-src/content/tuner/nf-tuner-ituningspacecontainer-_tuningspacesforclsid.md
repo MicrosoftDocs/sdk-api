@@ -2,13 +2,13 @@
 UID: NF:tuner.ITuningSpaceContainer._TuningSpacesForCLSID
 title: ITuningSpaceContainer::_TuningSpacesForCLSID
 author: windows-driver-content
-description: The TuningSpacesForCLSID method retrieves a collection of tuning spaces that match the specified CLSID.This method is intended for Automation clients, because it returns the CLSID as a BSTR.
-old-location: mstv\ituningspacecontainer_tuningspacesforclsid.htm
+description: The _TuningSpacesForCLSID method retrieves a collection of tuning spaces that match the specified CLSID.
+old-location: mstv\ituningspacecontainer__tuningspacesforclsid.htm
 old-project: mstv
-ms.assetid: 8e2d6103-baed-40ee-9a94-9434cf8e3474
+ms.assetid: f31be8f8-3482-484a-b1a3-f27f3e0f7203
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
-ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],_TuningSpacesForCLSID method, ITuningSpaceContainer._TuningSpacesForCLSID, ITuningSpaceContainer::_TuningSpacesForCLSID, _TuningSpacesForCLSID, _TuningSpacesForCLSID method [Microsoft TV Technologies], _TuningSpacesForCLSID method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_tuningspacesforclsid, tuner/ITuningSpaceContainer::_TuningSpacesForCLSID
+ms.date: 5/14/2018
+ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],_TuningSpacesForCLSID method, ITuningSpaceContainer._TuningSpacesForCLSID, ITuningSpaceContainer::_TuningSpacesForCLSID, ITuningSpaceContainer_TuningSpacesForCLSID, _TuningSpacesForCLSID, _TuningSpacesForCLSID method [Microsoft TV Technologies], _TuningSpacesForCLSID method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer__tuningspacesforclsid, tuner/ITuningSpaceContainer::_TuningSpacesForCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -51,11 +51,7 @@ req.product: Windows XP with SP1 and later
 
 
 
-The <b>TuningSpacesForCLSID</b> method retrieves a collection of tuning spaces that match the specified CLSID.
-
-This method is intended for Automation clients, because it returns the CLSID as a <b>BSTR</b>. C++ applications can use the <a href="https://msdn.microsoft.com/f31be8f8-3482-484a-b1a3-f27f3e0f7203">ITuningSpaceContainer::_TuningSpacesForCLSID</a> method instead, which returns a GUID value.
-
-
+The <b>_TuningSpacesForCLSID</b> method retrieves a collection of tuning spaces that match the specified CLSID.
 
 
 
@@ -67,7 +63,7 @@ This method is intended for Automation clients, because it returns the CLSID as 
 
 ### -param SpaceCLSID [in]
 
-String representation of the CLSID of the tuning space.
+Specifies the CLSID of the tuning spaces to retrieve.
 
 
 ### -param NewColl
@@ -79,7 +75,7 @@ String representation of the CLSID of the tuning space.
 
 #### - ppTuningSpaces [out]
 
-Receives a pointer to the <a href="https://msdn.microsoft.com/db252e22-8efe-4bfc-8fd3-2be7022bbbbd">ITuningSpaces</a> interface. The caller must release the interface.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/db252e22-8efe-4bfc-8fd3-2be7022bbbbd">ITuningSpaces</a> interface pointer. The caller must release the interface.
 
 
 ## -returns
@@ -87,6 +83,17 @@ Receives a pointer to the <a href="https://msdn.microsoft.com/db252e22-8efe-4bfc
 
 
 Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
+
+
+
+
+## -remarks
+
+
+
+The CLSID represents the object that implements the tuning space. The same object may implement several related tuning spaces. For example, ATSC Digital Antenna and ATSC Digital Cable are both supported by the <a href="https://msdn.microsoft.com/8535a8c3-35df-4c6c-872a-437f5c7a2e56">ATSCTuningSpace</a> object (CLSID_ATSCTuningSpace).
+
+This method matches against the CLSID returned by the <a href="https://msdn.microsoft.com/def4aac2-3d0b-4ce6-9f6b-d13e7c3cc86d">ITuningSpace::get_CLSID</a> method. The returned collection might be empty; call <a href="https://msdn.microsoft.com/df620224-5ee4-4cb6-973a-560dc9d9f4de">ITuningSpaces::get_Count</a> to determine how many tuning spaces were returned.
 
 
 

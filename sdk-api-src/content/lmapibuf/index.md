@@ -2,7 +2,7 @@
 UID: NA:lmapibuf
 ms.assetid: b954c882-6e1d-3d59-b534-1d53c4b3e6c1
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

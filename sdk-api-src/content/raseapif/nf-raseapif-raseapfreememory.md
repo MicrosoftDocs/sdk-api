@@ -7,7 +7,7 @@ old-location: eap\raseapfreememory.htm
 old-project: EAP
 ms.assetid: d6eb6afd-0d92-4050-b6a9-7bd90788e01c
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/16/2018
 ms.keywords: RasEapFreeMemory, RasEapFreeMemory callback, RasEapFreeMemory callback function [EAP], _eap_raseapfreememory, eap.raseapfreememory, raseapif/RasEapFreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

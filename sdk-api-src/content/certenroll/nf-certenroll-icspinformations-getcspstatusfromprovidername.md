@@ -7,7 +7,7 @@ old-location: security\icspinformations_getcspstatusfromprovidername_method.htm
 old-project: SecCertEnroll
 ms.assetid: f73d40cb-dde3-46a5-ba9f-f7cbfa2efe70
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: GetCspStatusFromProviderName, GetCspStatusFromProviderName method [Security], GetCspStatusFromProviderName method [Security],ICspInformations interface, ICspInformations interface [Security],GetCspStatusFromProviderName method, ICspInformations.GetCspStatusFromProviderName, ICspInformations::GetCspStatusFromProviderName, certenroll/ICspInformations::GetCspStatusFromProviderName, security.icspinformations_getcspstatusfromprovidername_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

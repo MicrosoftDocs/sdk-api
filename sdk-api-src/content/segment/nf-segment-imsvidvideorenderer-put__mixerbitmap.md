@@ -7,7 +7,7 @@ old-location: mstv\imsvidvideorenderer_put__mixerbitmap.htm
 old-project: mstv
 ms.assetid: 6dd7b83e-6ed6-4c57-8a00-a4ed2c78840d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put__MixerBitmap method, IMSVidVideoRenderer.put__MixerBitmap, IMSVidVideoRenderer::put__MixerBitmap, IMSVidVideoRendererput__MixerBitmap, mstv.imsvidvideorenderer_put__mixerbitmap, put__MixerBitmap, put__MixerBitmap method [Microsoft TV Technologies], put__MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put__MixerBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

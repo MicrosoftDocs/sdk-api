@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_setclipfactor.htm
 old-project: DirectShow
 ms.assetid: 3e2cefd3-491f-4ba4-a234-047fe4e6c6cc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetClipFactor method, IFullScreenVideoEx.SetClipFactor, IFullScreenVideoEx::SetClipFactor, IFullScreenVideoSetClipFactor, SetClipFactor, SetClipFactor method [DirectShow], SetClipFactor method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetClipFactor, dshow.ifullscreenvideoex_setclipfactor
 ms.prod: windows-hardware
 ms.technology: windows-devices

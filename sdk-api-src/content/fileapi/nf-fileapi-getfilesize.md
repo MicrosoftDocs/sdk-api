@@ -7,7 +7,7 @@ old-location: fs\getfilesize.htm
 old-project: FileIO
 ms.assetid: 3f5d2e4a-1e05-41c0-9b7e-0155e212f6dd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: GetFileSize, GetFileSize function [Files], _win32_getfilesize, base.getfilesize, fileapi/GetFileSize, fs.getfilesize, winbase/GetFileSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

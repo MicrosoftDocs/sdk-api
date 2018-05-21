@@ -7,7 +7,7 @@ old-location: controls\IsDlgButtonChecked.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\isdlgbuttonchecked.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: IsDlgButtonChecked, IsDlgButtonChecked function [Windows Controls], _win32_IsDlgButtonChecked, _win32_IsDlgButtonChecked_cpp, controls.IsDlgButtonChecked, controls._win32_IsDlgButtonChecked, winuser/IsDlgButtonChecked
 ms.prod: windows-hardware
 ms.technology: windows-devices

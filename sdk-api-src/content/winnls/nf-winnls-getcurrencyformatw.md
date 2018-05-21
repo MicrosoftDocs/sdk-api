@@ -7,7 +7,7 @@ old-location: intl\getcurrencyformat.htm
 old-project: Intl
 ms.assetid: 43c51deb-ca92-4e14-8c27-3b588b7be061
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetCurrencyFormat, GetCurrencyFormat function [Internationalization for Windows Applications], GetCurrencyFormatA, GetCurrencyFormatW, _win32_GetCurrencyFormat, intl.getcurrencyformat, winnls/GetCurrencyFormat, winnls/GetCurrencyFormatA, winnls/GetCurrencyFormatW
 ms.prod: windows-hardware
 ms.technology: windows-devices

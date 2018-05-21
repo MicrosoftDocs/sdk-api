@@ -7,7 +7,7 @@ old-location: base\createsemaphoreex.htm
 old-project: Sync
 ms.assetid: 741461e2-b672-4318-b39b-c6301ef9ab80
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/17/2018
 ms.keywords: CreateSemaphoreEx, CreateSemaphoreEx function, CreateSemaphoreExA, CreateSemaphoreExW, base.createsemaphoreex, winbase/CreateSemaphoreEx, winbase/CreateSemaphoreExA, winbase/CreateSemaphoreExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

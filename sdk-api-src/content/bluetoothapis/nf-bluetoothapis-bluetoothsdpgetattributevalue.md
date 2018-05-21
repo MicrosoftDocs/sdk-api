@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothsdpgetattributevalue.htm
 old-project: Bluetooth
 ms.assetid: 79368265-3d01-4bfd-ba71-930696e0bc08
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothSdpGetAttributeValue, BluetoothSdpGetAttributeValue function [Bluetooth], bluetooth.bluetoothsdpgetattributevalue, bluetoothapis/BluetoothSdpGetAttributeValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

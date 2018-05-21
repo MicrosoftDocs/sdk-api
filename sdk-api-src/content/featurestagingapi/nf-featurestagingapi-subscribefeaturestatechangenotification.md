@@ -7,7 +7,7 @@ old-location: winprog\subscribefeaturestatechangenotification.htm
 old-project: DevNotes
 ms.assetid: 92FABC45-752D-4265-AA21-6A13A15CB64B
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: SubscribeFeatureStateChangeNotification, SubscribeFeatureStateChangeNotification function [Windows API], featurestagingapi/SubscribeFeatureStateChangeNotification, winprog.subscribefeaturestatechangenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

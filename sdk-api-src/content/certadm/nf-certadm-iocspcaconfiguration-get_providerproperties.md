@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_providerproperties_method.htm
 old-project: SecCrypto
 ms.assetid: 60ac0123-9696-4893-ae2a-278b4e70c098
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],ProviderProperties property, IOCSPCAConfiguration.ProviderProperties, IOCSPCAConfiguration.get_ProviderProperties, IOCSPCAConfiguration::ProviderProperties, IOCSPCAConfiguration::get_ProviderProperties, IOCSPCAConfiguration::put_ProviderProperties, ProviderProperties property [Security], ProviderProperties property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::ProviderProperties, certadm/IOCSPCAConfiguration::get_ProviderProperties, certadm/IOCSPCAConfiguration::put_ProviderProperties, get_ProviderProperties, security.iocspcaconfiguration_providerproperties_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

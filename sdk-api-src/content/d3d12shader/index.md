@@ -2,7 +2,7 @@
 UID: NA:d3d12shader
 ms.assetid: 8c4fe87f-6578-3287-bba3-43be88640acc
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

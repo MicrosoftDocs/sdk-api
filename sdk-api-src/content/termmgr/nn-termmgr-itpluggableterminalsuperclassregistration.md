@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalsuperclassregistration.htm
 old-project: Tapi
 ms.assetid: 76f5d213-d1fb-4437-af09-9d915db05dc6
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: ITPluggableTerminalSuperclassRegistration, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2], ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],described, _tapi3_itpluggableterminalsuperclassregistration, tapi3.itpluggableterminalsuperclassregistration, termmgr/ITPluggableTerminalSuperclassRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices

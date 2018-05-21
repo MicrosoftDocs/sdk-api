@@ -7,7 +7,7 @@ old-location: dfs\netdfsaddroottarget.htm
 old-project: Dfs
 ms.assetid: c4ce8f50-f090-4783-b6c9-834d9e0c33de
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: NetDfsAddRootTarget, NetDfsAddRootTarget function [Distributed File System], dfs.netdfsaddroottarget, fs.netdfsaddroottarget, lmdfs/NetDfsAddRootTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

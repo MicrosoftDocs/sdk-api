@@ -7,7 +7,7 @@ old-location: security\pstgetcertificates.htm
 old-project: SecAuthN
 ms.assetid: 3dfe3a7b-aefd-487a-a826-065e80f21eb5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: PstGetCertificates, PstGetCertificates function [Security], certpoleng/PstGetCertificates, security.pstgetcertificates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: X509RequestType
+req.typenames: X509SCEPFailInfo
 topic_type:
 -	APIRef
 -	kbSyntax

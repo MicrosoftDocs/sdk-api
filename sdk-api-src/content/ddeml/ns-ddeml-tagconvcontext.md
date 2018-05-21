@@ -7,7 +7,7 @@ old-location: dataxchg\convcontext_str.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\convcontext.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: "*PCONVCONTEXT, CONVCONTEXT, CONVCONTEXT structure [Data Exchange], PCONVCONTEXT, PCONVCONTEXT structure pointer [Data Exchange], _win32_CONVCONTEXT_str, _win32_convcontext_str_cpp, dataxchg.convcontext_str, ddeml/CONVCONTEXT, ddeml/PCONVCONTEXT, tagCONVCONTEXT, winui._win32_convcontext_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

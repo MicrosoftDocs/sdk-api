@@ -7,7 +7,7 @@ old-location: com\createbindctx.htm
 old-project: com
 ms.assetid: 0f0ded09-7a7c-40bb-8198-b9f5058827d4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CreateBindCtx, CreateBindCtx function [COM], _com_CreateBindCtx, com.createbindctx, objbase/CreateBindCtx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_startsessionkeyrefresh.htm
 old-project: medfound
 ms.assetid: 63376BFE-BA84-4268-8AA8-128BEB83AE78
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],StartSessionKeyRefresh method, ID3D11VideoContext.StartSessionKeyRefresh, ID3D11VideoContext::StartSessionKeyRefresh, StartSessionKeyRefresh, StartSessionKeyRefresh method [Media Foundation], StartSessionKeyRefresh method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::StartSessionKeyRefresh, mf.id3d11videocontext_startsessionkeyrefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

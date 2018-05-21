@@ -7,7 +7,7 @@ old-location: shell\IFileSaveDialog.htm
 old-project: shell
 ms.assetid: 74021f92-54ff-4c02-a8cf-49bcd7b9171e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IFileSaveDialog, IFileSaveDialog interface [Windows Shell], IFileSaveDialog interface [Windows Shell],described, shell.IFileSaveDialog, shell_IFileSaveDialog, shobjidl_core/IFileSaveDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_name:
 -	IFileSaveDialog
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.0.6000 or later)
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IFileSaveDialog interface

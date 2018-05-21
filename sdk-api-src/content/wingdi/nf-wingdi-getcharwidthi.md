@@ -7,7 +7,7 @@ old-location: gdi\getcharwidthi.htm
 old-project: gdi
 ms.assetid: 5f532149-7c2f-4972-9900-68c2f185d255
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetCharWidthI, GetCharWidthI function [Windows GDI], _win32_GetCharWidthI, gdi.getcharwidthi, wingdi/GetCharWidthI
 ms.prod: windows-hardware
 ms.technology: windows-devices

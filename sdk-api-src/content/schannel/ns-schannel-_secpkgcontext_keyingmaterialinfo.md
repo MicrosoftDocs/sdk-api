@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_keyingmaterial.htm
 old-project: SecAuthN
 ms.assetid: 2F8C4316-FC03-473C-8A97-83665B3271AC
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSecPkgContext_KeyingMaterialInfo, PSecPkgContext_KeyingMaterial, PSecPkgContext_KeyingMaterial structure pointer [Security], SecPkgContext_KeyingMaterial, SecPkgContext_KeyingMaterial structure [Security], SecPkgContext_KeyingMaterialA, SecPkgContext_KeyingMaterialInfo, SecPkgContext_KeyingMaterialW, _SecPkgContext_KeyingMaterialInfo, schannel/PSecPkgContext_KeyingMaterial, schannel/SecPkgContext_KeyingMaterial, schannel/SecPkgContext_KeyingMaterialA, schannel/SecPkgContext_KeyingMaterialW, security.secpkgcontext_keyingmaterial"
 ms.prod: windows-hardware
 ms.technology: windows-devices

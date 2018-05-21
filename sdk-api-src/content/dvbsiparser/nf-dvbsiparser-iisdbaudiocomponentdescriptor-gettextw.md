@@ -7,7 +7,7 @@ old-location: mstv\iisdbaudiocomponentdescriptor_gettextw.htm
 old-project: mstv
 ms.assetid: beeb31dd-28f8-45bb-bda0-0dbf6bca679b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetTextW method, IIsdbAudioComponentDescriptor.GetTextW, IIsdbAudioComponentDescriptor::GetTextW, dvbsiparser/IIsdbAudioComponentDescriptor::GetTextW, mstv.iisdbaudiocomponentdescriptor_gettextw
 ms.prod: windows-hardware
 ms.technology: windows-devices

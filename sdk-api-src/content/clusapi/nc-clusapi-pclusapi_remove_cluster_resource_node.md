@@ -7,7 +7,7 @@ old-location: mscs\removeclusterresourcenode.htm
 old-project: MsCS
 ms.assetid: 1a5b59b9-5c19-4920-b150-b0b404629fb3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE, PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE callback, PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE callback function [Failover Cluster], _wolf_removeclusterresourcenode, clusapi/PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE, mscs.removeclusterresourcenode
 ms.prod: windows-hardware
 ms.technology: windows-devices

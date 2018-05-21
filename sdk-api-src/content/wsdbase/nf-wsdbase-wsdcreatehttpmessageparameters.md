@@ -7,7 +7,7 @@ old-location: ncd\wsdcreatehttpmessageparameters.htm
 old-project: WsdApi
 ms.assetid: 43797991-7a9c-42f8-bf64-655bde014487
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSDCreateHttpMessageParameters, WSDCreateHttpMessageParameters function, ncd.wsdcreatehttpmessageparameters, wsdbase/WSDCreateHttpMessageParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

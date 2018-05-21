@@ -7,7 +7,7 @@ old-location: mscs\clusnetinterfaces_collection.htm
 old-project: MsCS
 ms.assetid: 7d0dc4fd-733c-4a2a-9136-7dc0089b213d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: ClusNetInterfaces, ClusNetInterfaces collection [Failover Cluster], ClusNetInterfaces collection [Failover Cluster],described, ISClusNetInterfaces, _wolf_clusnetinterfaces_collection, msclus/ClusNetInterfaces, mscs.clusnetinterfaces_collection
 ms.prod: windows-hardware
 ms.technology: windows-devices

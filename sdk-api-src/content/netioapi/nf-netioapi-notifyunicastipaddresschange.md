@@ -7,7 +7,7 @@ old-location: iphlp\notifyunicastipaddresschange.htm
 old-project: IpHlp
 ms.assetid: 56945aa2-ca1e-44b3-9765-d862978a9dbe
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyUnicastIpAddressChange, NotifyUnicastIpAddressChange function [IP Helper], iphlp.notifyunicastipaddresschange, netioapi/NotifyUnicastIpAddressChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\wsreadmessagestart.htm
 old-project: wsw
 ms.assetid: e4f92e99-f272-47b5-8eaa-56713b22df7e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsReadMessageStart, WsReadMessageStart function [Web Services for Windows], webservices/WsReadMessageStart, wsw.wsreadmessagestart
 ms.prod: windows-hardware
 ms.technology: windows-devices

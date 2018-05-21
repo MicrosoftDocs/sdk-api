@@ -7,7 +7,7 @@ old-location: base\tpdestroycallbackenviron.htm
 old-project: ProcThread
 ms.assetid: B0925491-73FE-4342-9E66-E5F6344353FB
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: TpDestroyCallbackEnviron, TpDestroyCallbackEnviron function, base.tpdestroycallbackenviron, winnt/TpDestroyCallbackEnviron
 ms.prod: windows-hardware
 ms.technology: windows-devices

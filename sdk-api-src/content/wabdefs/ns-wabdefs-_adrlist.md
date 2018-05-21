@@ -7,7 +7,7 @@ old-location: wab\_wab_ADRLIST.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrlist.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/10/2018
 ms.keywords: "*LPADRLIST, ADRLIST, ADRLIST structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _ADRLIST, _wab_ADRLIST, wab._wab_ADRLIST, wabdefs/ADRLIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2erase_erasemedia.htm
 old-project: imapi
 ms.assetid: dc71d1bf-b068-42c0-a87d-ae8fac279a58
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: EraseMedia, EraseMedia method [IMAPI], EraseMedia method [IMAPI],IDiscFormat2Erase interface, IDiscFormat2Erase interface [IMAPI],EraseMedia method, IDiscFormat2Erase.EraseMedia, IDiscFormat2Erase::EraseMedia, imapi.idiscformat2erase_erasemedia, imapi2/IDiscFormat2Erase::EraseMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices

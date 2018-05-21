@@ -7,7 +7,7 @@ old-location: gdi\createpalette.htm
 old-project: gdi
 ms.assetid: f3462198-9360-4b77-ac62-9fe21ec666be
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: CreatePalette, CreatePalette function [Windows GDI], _win32_CreatePalette, gdi.createpalette, wingdi/CreatePalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

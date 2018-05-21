@@ -7,7 +7,7 @@ old-location: base\getsystemdeppolicy.htm
 old-project: Memory
 ms.assetid: 82cb1d4e-c0e5-4601-aa55-9171a106c286
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: GetSystemDEPPolicy, GetSystemDEPPolicy function, base.getsystemdeppolicy, winbase/GetSystemDEPPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

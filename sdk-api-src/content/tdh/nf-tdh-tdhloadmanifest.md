@@ -7,7 +7,7 @@ old-location: etw\tdhloadmanifest.htm
 old-project: ETW
 ms.assetid: 85dfcf73-ea3a-47e2-ad1a-3891b3917ecf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: TdhLoadManifest, TdhLoadManifest function [ETW], etw.tdhloadmanifest, tdh/TdhLoadManifest
 ms.prod: windows-hardware
 ms.technology: windows-devices

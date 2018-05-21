@@ -7,7 +7,7 @@ old-location: iphlp\sockaddr_inet.htm
 old-project: IpHlp
 ms.assetid: 7278dcb4-65c6-4aea-a474-cb7fae4d7672
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*PSOCKADDR_INET, AF_INET, AF_INET6, AF_UNSPEC, PSOCKADDR_INET, PSOCKADDR_INET union pointer [IP Helper], SOCKADDR_INET, SOCKADDR_INET union [IP Helper], _SOCKADDR_INET, iphlp.sockaddr_inet, ws2ipdef/PSOCKADDR_INET, ws2ipdef/SOCKADDR_INET"
 ms.prod: windows-hardware
 ms.technology: windows-devices

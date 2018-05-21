@@ -7,7 +7,7 @@ old-location: dshow\am_line21_drawbgmode.htm
 old-project: DirectShow
 ms.assetid: efd8ee53-702b-45af-a3dc-e6afe26b01c9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*PAM_LINE21_DRAWBGMODE, AM_L21_DRAWBGMODE_Opaque, AM_L21_DRAWBGMODE_Transparent, AM_LINE21_DRAWBGMODE, AM_LINE21_DRAWBGMODE , AM_LINE21_DRAWBGMODE enumeration [DirectShow], AM_LINE21_DRAWBGMODEEnumeration, PAM_LINE21_DRAWBGMODE, PAM_LINE21_DRAWBGMODE enumeration pointer [DirectShow], _AM_LINE21_DRAWBGMODE, dshow.am_line21_drawbgmode, il21dec/AM_L21_DRAWBGMODE_Opaque, il21dec/AM_L21_DRAWBGMODE_Transparent, il21dec/AM_LINE21_DRAWBGMODE, il21dec/PAM_LINE21_DRAWBGMODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

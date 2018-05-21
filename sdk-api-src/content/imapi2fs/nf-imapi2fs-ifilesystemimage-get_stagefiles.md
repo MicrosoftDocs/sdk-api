@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_stagefiles.htm
 old-project: imapi
 ms.assetid: 7146ad88-071a-4df9-80f9-46e24b49286b
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_StageFiles method, IFileSystemImage.get_StageFiles, IFileSystemImage::get_StageFiles, get_StageFiles, get_StageFiles method [IMAPI], get_StageFiles method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_stagefiles, imapi2fs/IFileSystemImage::get_StageFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

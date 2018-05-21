@@ -7,7 +7,7 @@ old-location: fs\setfilebandwidthreservation_func.htm
 old-project: FileIO
 ms.assetid: a22bd8f3-4fbf-4f77-b8b6-7e786942615a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: SetFileBandwidthReservation, SetFileBandwidthReservation function [Files], fs.setfilebandwidthreservation_func, winbase/SetFileBandwidthReservation
 ms.prod: windows-hardware
 ms.technology: windows-devices

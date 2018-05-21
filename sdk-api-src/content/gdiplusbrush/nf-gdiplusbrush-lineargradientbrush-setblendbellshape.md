@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetBlendBellShape_focus
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setblendbellshape.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: LinearGradientBrush class [GDI+],SetBlendBellShape method, LinearGradientBrush.SetBlendBellShape, LinearGradientBrush::SetBlendBellShape, SetBlendBellShape, SetBlendBellShape method [GDI+], SetBlendBellShape method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_SetBlendBellShape_focus_scale_, gdiplus._gdiplus_CLASS_LinearGradientBrush_SetBlendBellShape_focus_scale_
 ms.prod: windows-hardware
 ms.technology: windows-devices

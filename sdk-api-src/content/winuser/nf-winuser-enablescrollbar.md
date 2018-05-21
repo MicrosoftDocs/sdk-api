@@ -7,7 +7,7 @@ old-location: controls\EnableScrollBar.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\enablescrollbar.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_LTUP, ESB_DISABLE_RIGHT, ESB_DISABLE_RTDN, ESB_DISABLE_UP, ESB_ENABLE_BOTH, EnableScrollBar, EnableScrollBar function [Windows Controls], SB_BOTH, SB_CTL, SB_HORZ, SB_VERT, _win32_EnableScrollBar, _win32_EnableScrollBar_cpp, controls.EnableScrollBar, controls._win32_EnableScrollBar, winuser/EnableScrollBar
 ms.prod: windows-hardware
 ms.technology: windows-devices

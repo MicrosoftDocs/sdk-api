@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncerrorinfo_infoenumerated.htm
 old-project: OfflineFiles
 ms.assetid: d2e8ae5b-92e7-4284-a02f-6eb3ab288376
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesSyncErrorInfo interface [Offline Files],InfoEnumerated method, IOfflineFilesSyncErrorInfo.InfoEnumerated, IOfflineFilesSyncErrorInfo::InfoEnumerated, InfoEnumerated, InfoEnumerated method [Offline Files], InfoEnumerated method [Offline Files],IOfflineFilesSyncErrorInfo interface, cscobj/IOfflineFilesSyncErrorInfo::InfoEnumerated, of.iofflinefilessyncerrorinfo_infoenumerated
 ms.prod: windows-hardware
 ms.technology: windows-devices

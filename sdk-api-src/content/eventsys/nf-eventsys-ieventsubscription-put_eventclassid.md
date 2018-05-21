@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_eventclassid.htm
 old-project: cossdk
 ms.assetid: cba78857-0b59-4012-84d6-f5e7ae28b8bd
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: EventClassID property [COM+], EventClassID property [COM+],IEventSubscription interface, IEventSubscription interface [COM+],EventClassID property, IEventSubscription.EventClassID, IEventSubscription.put_EventClassID, IEventSubscription::EventClassID, IEventSubscription::get_EventClassID, IEventSubscription::put_EventClassID, cos.ieventsubscription_eventclassid, eventsys/IEventSubscription::EventClassID, eventsys/IEventSubscription::get_EventClassID, eventsys/IEventSubscription::put_EventClassID, put_EventClassID
 ms.prod: windows-hardware
 ms.technology: windows-devices

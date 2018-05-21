@@ -7,7 +7,7 @@ old-location: nps\SDO_remediationserverproperties.htm
 old-project: Nps
 ms.assetid: 46f3b67d-8060-44d5-b04b-b1655ac22c3d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: PROPERTY_REMEDIATIONSERVER_ADDRESS, PROPERTY_REMEDIATIONSERVER_FRIENDLY_NAME, REMEDIATIONSERVERPROPERTIES, REMEDIATIONSERVERPROPERTIES enumeration [Network Policy Server], _REMEDIATIONSERVERPROPERTIES, nps.SDO_remediationserverproperties, sdo.remediationserverproperties, sdoias/PROPERTY_REMEDIATIONSERVER_ADDRESS, sdoias/PROPERTY_REMEDIATIONSERVER_FRIENDLY_NAME, sdoias/REMEDIATIONSERVERPROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices

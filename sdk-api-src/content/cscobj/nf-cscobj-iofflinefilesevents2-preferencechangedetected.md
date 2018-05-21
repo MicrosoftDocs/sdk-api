@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents2_preferencechangedetected.htm
 old-project: OfflineFiles
 ms.assetid: c947d9e5-2712-4dbd-8806-79a8bf0f4cc9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],PreferenceChangeDetected method, IOfflineFilesEvents2.PreferenceChangeDetected, IOfflineFilesEvents2::PreferenceChangeDetected, PreferenceChangeDetected, PreferenceChangeDetected method [Offline Files], PreferenceChangeDetected method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::PreferenceChangeDetected, of.iofflinefilesevents2_preferencechangedetected
 ms.prod: windows-hardware
 ms.technology: windows-devices

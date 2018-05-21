@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_getbreakonseverity.htm
 old-project: direct3ddxgi
 ms.assetid: 0E03ABE8-02BC-4721-B92C-87DA5D52D0AD
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: GetBreakOnSeverity, GetBreakOnSeverity method [DXGI], GetBreakOnSeverity method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetBreakOnSeverity method, IDXGIInfoQueue.GetBreakOnSeverity, IDXGIInfoQueue::GetBreakOnSeverity, direct3ddxgi.idxgiinfoqueue_getbreakonseverity, dxgidebug/IDXGIInfoQueue::GetBreakOnSeverity
 ms.prod: windows-hardware
 ms.technology: windows-devices

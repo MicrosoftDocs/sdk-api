@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_friendlyname_property.htm
 old-project: SecCertEnroll
 ms.assetid: 93cd4fe0-5a08-4936-bbb0-6a723027e8c7
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: FriendlyName property [Security], FriendlyName property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],FriendlyName property, IX509PrivateKey.FriendlyName, IX509PrivateKey.put_FriendlyName, IX509PrivateKey::FriendlyName, IX509PrivateKey::get_FriendlyName, IX509PrivateKey::put_FriendlyName, certenroll/IX509PrivateKey::FriendlyName, certenroll/IX509PrivateKey::get_FriendlyName, certenroll/IX509PrivateKey::put_FriendlyName, put_FriendlyName, security.ix509privatekey_friendlyname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

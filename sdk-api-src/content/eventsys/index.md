@@ -2,7 +2,7 @@
 UID: NA:eventsys
 ms.assetid: eab25bea-a3c2-3d64-ae7c-4c8d9d13f5e9
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

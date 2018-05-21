@@ -7,7 +7,7 @@ old-location: base\exception_pointers_str.htm
 old-project: Debug
 ms.assetid: 57e8cb3a-1b11-45b9-9676-3b6dc600d225
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: "*PEXCEPTION_POINTERS, EXCEPTION_POINTERS, EXCEPTION_POINTERS structure, PEXCEPTION_POINTERS, PEXCEPTION_POINTERS structure pointer, _EXCEPTION_POINTERS, _win32_exception_pointers_str, base.exception_pointers_str, winnt/EXCEPTION_POINTERS, winnt/PEXCEPTION_POINTERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

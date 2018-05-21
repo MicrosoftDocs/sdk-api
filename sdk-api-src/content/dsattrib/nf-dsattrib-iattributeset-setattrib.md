@@ -7,7 +7,7 @@ old-location: mstv\iattributeset_setattrib.htm
 old-project: mstv
 ms.assetid: 5f2dc759-5545-4b4a-a2fc-fca65c0856cd
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IAttributeSet interface [Microsoft TV Technologies],SetAttrib method, IAttributeSet.SetAttrib, IAttributeSet::SetAttrib, IAttributeSetSetAttrib, SetAttrib, SetAttrib method [Microsoft TV Technologies], SetAttrib method [Microsoft TV Technologies],IAttributeSet interface, dsattrib/IAttributeSet::SetAttrib, mstv.iattributeset_setattrib
 ms.prod: windows-hardware
 ms.technology: windows-devices

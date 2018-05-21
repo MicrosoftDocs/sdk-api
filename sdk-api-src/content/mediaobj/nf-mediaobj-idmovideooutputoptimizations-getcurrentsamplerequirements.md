@@ -7,7 +7,7 @@ old-location: dshow\idmovideooutputoptimizations_getcurrentsamplerequirements.ht
 old-project: DirectShow
 ms.assetid: 95acde54-2bdb-4a80-b078-d98945604c7e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetCurrentSampleRequirements, GetCurrentSampleRequirements method [DirectShow], GetCurrentSampleRequirements method [DirectShow],IDMOVideoOutputOptimizations interface, IDMOVideoOutputOptimizations interface [DirectShow],GetCurrentSampleRequirements method, IDMOVideoOutputOptimizations.GetCurrentSampleRequirements, IDMOVideoOutputOptimizations::GetCurrentSampleRequirements, IDMOVideoOutputOptimizationsGetCurrentSampleRequirements, dshow.idmovideooutputoptimizations_getcurrentsamplerequirements, mediaobj/IDMOVideoOutputOptimizations::GetCurrentSampleRequirements
 ms.prod: windows-hardware
 ms.technology: windows-devices

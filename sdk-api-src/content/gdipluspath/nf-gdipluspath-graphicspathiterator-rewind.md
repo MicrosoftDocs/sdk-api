@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_Rewind_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\rewind.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GraphicsPathIterator class [GDI+],Rewind method, GraphicsPathIterator.Rewind, GraphicsPathIterator::Rewind, Rewind, Rewind method [GDI+], Rewind method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_Rewind_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_Rewind_
 ms.prod: windows-hardware
 ms.technology: windows-devices

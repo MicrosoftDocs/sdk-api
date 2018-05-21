@@ -7,7 +7,7 @@ old-location: rpc\rpcnsbindingunexport.htm
 old-project: Rpc
 ms.assetid: 70662e7e-7a81-4953-9814-e29b46422c5b
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcNsBindingUnexport, RpcNsBindingUnexport function [RPC], RpcNsBindingUnexportA, RpcNsBindingUnexportW, _rpc_rpcnsbindingunexport, rpc.rpcnsbindingunexport, rpcnsi/RpcNsBindingUnexport, rpcnsi/RpcNsBindingUnexportA, rpcnsi/RpcNsBindingUnexportW
 ms.prod: windows-hardware
 ms.technology: windows-devices

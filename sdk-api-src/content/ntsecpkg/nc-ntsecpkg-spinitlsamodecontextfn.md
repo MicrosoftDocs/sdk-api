@@ -7,7 +7,7 @@ old-location: security\spinitlsamodecontext.htm
 old-project: SecAuthN
 ms.assetid: e733d6fb-0ce6-4fd2-a8e2-54aa44602828
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: ISC_REQ_ALLOCATE_MEMORY, ISC_REQ_CONNECTION, ISC_REQ_DATAGRAM, ISC_REQ_DELEGATE, ISC_REQ_EXTENDED_ERROR, ISC_REQ_INTEGRITY, ISC_REQ_MUTUAL_AUTH, ISC_REQ_PROMPT_FOR_CREDS, ISC_REQ_REPLAY_DETECT, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, ISC_REQ_USE_DCE_STYLE, ISC_REQ_USE_SESSION_KEY, ISC_REQ_USE_SUPPLIED_CREDS, SpInitLsaModeContext, SpInitLsaModeContext function [Security], SpInitLsaModeContextFn, _ssp_spinitlsamodecontext, ntsecpkg/SpInitLsaModeContext, security.spinitlsamodecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

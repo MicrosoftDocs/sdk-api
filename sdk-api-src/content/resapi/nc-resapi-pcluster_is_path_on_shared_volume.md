@@ -7,7 +7,7 @@ old-location: mscs\clusterispathonsharedvolume.htm
 old-project: MsCS
 ms.assetid: 8d4702b8-23de-4c45-87ec-1a4ada8a4086
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PCLUSTER_IS_PATH_ON_SHARED_VOLUME, PCLUSTER_IS_PATH_ON_SHARED_VOLUME callback, PCLUSTER_IS_PATH_ON_SHARED_VOLUME callback function [Failover Cluster], mscs.clusterispathonsharedvolume, resapi/PCLUSTER_IS_PATH_ON_SHARED_VOLUME
 ms.prod: windows-hardware
 ms.technology: windows-devices

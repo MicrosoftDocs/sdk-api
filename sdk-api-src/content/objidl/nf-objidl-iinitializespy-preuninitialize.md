@@ -7,7 +7,7 @@ old-location: com\iinitializespy_preuninitialize.htm
 old-project: com
 ms.assetid: 22f9c663-0c6e-4413-a3a3-21cbb5ce62c9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IInitializeSpy interface [COM],PreUninitialize method, IInitializeSpy.PreUninitialize, IInitializeSpy::PreUninitialize, PreUninitialize, PreUninitialize method [COM], PreUninitialize method [COM],IInitializeSpy interface, _com_iinitializespy_preuninitialize, com.iinitializespy_preuninitialize, objidl/IInitializeSpy::PreUninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

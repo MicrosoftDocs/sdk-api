@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_StopServicing.htm
 old-project: shell
 ms.assetid: 129ea98a-e0c3-4472-918c-6d9aa4858c4b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StopServicing method, IPackageDebugSettings.StopServicing, IPackageDebugSettings::StopServicing, StopServicing, StopServicing method [Windows Shell], StopServicing method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StopServicing, shobjidl_core/IPackageDebugSettings::StopServicing
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IPackageDebugSettings::StopServicing

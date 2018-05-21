@@ -2,7 +2,7 @@
 UID: TP:wpdsdk
 ms.assetid: 5764d0d2-f296-38a9-9d56-8a2adb838489
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

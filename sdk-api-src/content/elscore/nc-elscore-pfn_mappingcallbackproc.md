@@ -7,7 +7,7 @@ old-location: intl\mappingcallbackproc.htm
 old-project: Intl
 ms.assetid: 7a324708-4f1b-467c-af1a-da36d1f7eba0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MappingCallbackProc, MappingCallbackProc callback function [Internationalization for Windows Applications], PFN_MAPPINGCALLBACKPROC, PFN_MAPPINGCALLBACKPROC callback, elscore/MappingCallbackProc, intl.mappingcallbackproc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\enrollmentenrollstatus_enum.htm
 old-project: SecCertEnroll
 ms.assetid: ed27cc77-7ff2-4f22-87c4-c6edc0709813
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: EnrollDenied, EnrollError, EnrollPended, EnrollSkipped, EnrollUIDeferredEnrollmentRequired, EnrollUnknown, Enrolled, EnrollmentEnrollStatus, EnrollmentEnrollStatus enumeration [Security], certenroll/EnrollDenied, certenroll/EnrollError, certenroll/EnrollPended, certenroll/EnrollSkipped, certenroll/EnrollUIDeferredEnrollmentRequired, certenroll/EnrollUnknown, certenroll/Enrolled, certenroll/EnrollmentEnrollStatus, security.enrollmentenrollstatus_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices

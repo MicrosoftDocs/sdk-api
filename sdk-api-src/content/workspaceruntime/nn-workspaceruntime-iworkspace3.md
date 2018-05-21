@@ -7,7 +7,7 @@ old-location: termserv\iworkspace3.htm
 old-project: TermServ
 ms.assetid: a63240fb-8724-4cd2-b845-f48075f4cb57
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IWorkspace3, IWorkspace3 interface [Remote Desktop Services], IWorkspace3 interface [Remote Desktop Services],described, termserv.iworkspace3, workspaceruntime/IWorkspace3
 ms.prod: windows-hardware
 ms.technology: windows-devices

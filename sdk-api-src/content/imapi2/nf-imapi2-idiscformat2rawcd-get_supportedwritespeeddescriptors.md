@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2rawcd_get_supportedwritespeeddescriptors.htm
 old-project: imapi
 ms.assetid: 00a7c10a-7790-4193-928c-d3211047dbbe
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_SupportedWriteSpeedDescriptors method, IDiscFormat2RawCD.get_SupportedWriteSpeedDescriptors, IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors, get_SupportedWriteSpeedDescriptors method [IMAPI], get_SupportedWriteSpeedDescriptors method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_supportedwritespeeddescriptors, imapi2/IDiscFormat2RawCD::get_SupportedWriteSpeedDescriptors
 ms.prod: windows-hardware
 ms.technology: windows-devices

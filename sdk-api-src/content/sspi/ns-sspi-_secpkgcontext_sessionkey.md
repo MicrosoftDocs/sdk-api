@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_sessionkey.htm
 old-project: SecAuthN
 ms.assetid: 88cf437e-3be0-4f12-9058-ad078deed6a1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSecPkgContext_SessionKey, PSecPkgContext_SessionKey, PSecPkgContext_SessionKey structure pointer [Security], SecPkgContext_SessionKey, SecPkgContext_SessionKey structure [Security], _SecPkgContext_SessionKey, security.secpkgcontext_sessionkey, sspi/PSecPkgContext_SessionKey, sspi/SecPkgContext_SessionKey"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_SessionKey structure

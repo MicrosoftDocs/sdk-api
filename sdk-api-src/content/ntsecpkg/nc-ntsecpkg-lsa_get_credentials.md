@@ -7,7 +7,7 @@ old-location: security\getcredentials.htm
 old-project: SecAuthN
 ms.assetid: e9a2d112-6681-4400-b316-ffd7095e319a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: GetCredentials, GetCredentials function [Security], LSA_GET_CREDENTIALS, _lsa_getcredentials, ntsecpkg/GetCredentials, security.getcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

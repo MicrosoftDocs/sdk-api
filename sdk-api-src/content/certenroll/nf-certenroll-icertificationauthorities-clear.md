@@ -7,7 +7,7 @@ old-location: security\icertificationauthorities_clear.htm
 old-project: SecCertEnroll
 ms.assetid: 191f5abd-515d-4a84-8031-466c9de977cb
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Clear method, ICertificationAuthorities.Clear, ICertificationAuthorities::Clear, certenroll/ICertificationAuthorities::Clear, security.icertificationauthorities_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

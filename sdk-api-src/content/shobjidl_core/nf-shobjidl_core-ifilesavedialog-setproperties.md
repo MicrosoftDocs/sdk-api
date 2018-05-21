@@ -7,7 +7,7 @@ old-location: shell\IFileSaveDialog_SetProperties.htm
 old-project: shell
 ms.assetid: 418f2524-5e6d-4e79-894b-b5f706171836
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IFileSaveDialog interface [Windows Shell],SetProperties method, IFileSaveDialog.SetProperties, IFileSaveDialog::SetProperties, SetProperties, SetProperties method [Windows Shell], SetProperties method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetProperties, shell_IFileSaveDialog_SetProperties, shobjidl_core/IFileSaveDialog::SetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IFileSaveDialog::SetProperties

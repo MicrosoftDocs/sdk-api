@@ -7,7 +7,7 @@ old-location: security\cryptencodeobject.htm
 old-project: SecCrypto
 ms.assetid: 9576a2a7-4379-4c1b-8ad5-284720cf7ccc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CryptEncodeObject, CryptEncodeObject function [Security], _crypto2_cryptencodeobject, security.cryptencodeobject, wincrypt/CryptEncodeObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

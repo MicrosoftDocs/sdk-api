@@ -7,7 +7,7 @@ old-location: mstv\isbe2crossbar_enumstreams.htm
 old-project: mstv
 ms.assetid: 891dc676-8930-41bc-a0ae-4a080c6d4cd6
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: EnumStreams, EnumStreams method [Microsoft TV Technologies], EnumStreams method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],EnumStreams method, ISBE2Crossbar.EnumStreams, ISBE2Crossbar::EnumStreams, mstv.isbe2crossbar_enumstreams, sbe/ISBE2Crossbar::EnumStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

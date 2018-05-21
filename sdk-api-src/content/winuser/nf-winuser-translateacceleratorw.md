@@ -7,7 +7,7 @@ old-location: menurc\translateaccelerator.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\translateaccelerator.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: TranslateAccelerator, TranslateAccelerator function [Menus and Other Resources], TranslateAcceleratorA, TranslateAcceleratorW, _win32_TranslateAccelerator, _win32_translateaccelerator_cpp, menurc.translateaccelerator, winui._win32_translateaccelerator, winuser/TranslateAccelerator, winuser/TranslateAcceleratorA, winuser/TranslateAcceleratorW
 ms.prod: windows-hardware
 ms.technology: windows-devices

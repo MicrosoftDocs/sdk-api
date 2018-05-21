@@ -7,7 +7,7 @@ old-location: display\engbugcheckex.htm
 old-project: display
 ms.assetid: 3b835719-cf11-4058-a557-c6618015f362
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: EngBugCheckEx, EngBugCheckEx function [Display Devices], display.engbugcheckex, gdifncs_0ed66a9e-1824-45cc-9237-ab0910e72915.xml, winddi/EngBugCheckEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

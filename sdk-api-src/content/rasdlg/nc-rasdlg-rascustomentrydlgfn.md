@@ -7,7 +7,7 @@ old-location: rras\rascustomentrydlg.htm
 old-project: RRAS
 ms.assetid: 4778069b-87d0-4379-95f7-718fe0d7a56c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RasCustomEntryDlg, RasCustomEntryDlg callback function [RAS], RasCustomEntryDlgFn, RasCustomEntryDlgFn callback, _ras_rascustomentrydlg, rasdlg/RasCustomEntryDlg, rras.rascustomentrydlg
 ms.prod: windows-hardware
 ms.technology: windows-devices

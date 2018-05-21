@@ -7,7 +7,7 @@ old-location: multimedia\iavifile_endrecord.htm
 old-project: Multimedia
 ms.assetid: 43c4edbf-d736-4d85-9726-123f92145134
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: EndRecord, EndRecord method [Windows Multimedia], EndRecord method [Windows Multimedia],IAVIFile interface, IAVIFile interface [Windows Multimedia],EndRecord method, IAVIFile.EndRecord, IAVIFile::EndRecord, _win32_IAVIFile_EndRecord, multimedia.iavifile_endrecord, vfw/IAVIFile::EndRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

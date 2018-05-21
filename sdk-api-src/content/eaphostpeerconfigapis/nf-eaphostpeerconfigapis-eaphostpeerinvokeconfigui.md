@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerinvokeconfigui.htm
 old-project: EAPHost
 ms.assetid: afb20482-a439-437d-9c8f-c4e87e440113
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapHostPeerInvokeConfigUI, EapHostPeerInvokeConfigUI function [EAPHost], eaphost.eaphostpeerinvokeconfigui, eaphostpeerconfigapis/EapHostPeerInvokeConfigUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

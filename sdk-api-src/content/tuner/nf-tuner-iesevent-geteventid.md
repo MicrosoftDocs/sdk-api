@@ -7,7 +7,7 @@ old-location: mstv\iesevent_geteventid.htm
 old-project: mstv
 ms.assetid: 8a7d62de-71fc-40fa-9944-d41e33243cc5
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetEventId, GetEventId method [Microsoft TV Technologies], GetEventId method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetEventId method, IESEvent.GetEventId, IESEvent::GetEventId, mstv.iesevent_geteventid, tuner/IESEvent::GetEventId
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: TP:wia
 ms.assetid: 3aacaecd-d808-35d7-b283-04705ef2fdca
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

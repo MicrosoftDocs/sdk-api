@@ -7,7 +7,7 @@ old-location: mstv\idvbsubtitlingdescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 1b02c37c-4411-4d69-af5d-d758b18fe42c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbSubtitlingDescriptor.GetLength, IDvbSubtitlingDescriptor::GetLength, dvbsiparser/IDvbSubtitlingDescriptor::GetLength, mstv.idvbsubtitlingdescriptor_getlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

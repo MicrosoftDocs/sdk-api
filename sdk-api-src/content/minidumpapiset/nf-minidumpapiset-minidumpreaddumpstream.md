@@ -7,7 +7,7 @@ old-location: base\minidumpreaddumpstream.htm
 old-project: Debug
 ms.assetid: 56df69aa-55b6-451b-a003-3ee88dc934f9
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: MiniDumpReadDumpStream, MiniDumpReadDumpStream function, _win32_minidumpreaddumpstream, base.minidumpreaddumpstream, minidumpapiset/MiniDumpReadDumpStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

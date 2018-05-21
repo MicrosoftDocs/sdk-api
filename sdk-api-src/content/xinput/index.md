@@ -2,7 +2,7 @@
 UID: NA:xinput
 ms.assetid: f35006d7-b766-3947-88e4-f589a0517f91
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

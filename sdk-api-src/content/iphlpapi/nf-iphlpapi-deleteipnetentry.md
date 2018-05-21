@@ -7,7 +7,7 @@ old-location: iphlp\deleteipnetentry.htm
 old-project: IpHlp
 ms.assetid: 0d338676-b66f-410c-8022-5576096954b4
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DeleteIpNetEntry, DeleteIpNetEntry function [IP Helper], _iphlp_deleteipnetentry, iphlp.deleteipnetentry, iphlpapi/DeleteIpNetEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

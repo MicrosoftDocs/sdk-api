@@ -7,7 +7,7 @@ old-location: winrt\eventregistrationtoken.htm
 old-project: WinRT
 ms.assetid: A98FE485-B3D8-4CD5-950F-765939F4672B
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: EventRegistrationToken, EventRegistrationToken structure [Windows Runtime], eventtoken/EventRegistrationToken, winrt.eventregistrationtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

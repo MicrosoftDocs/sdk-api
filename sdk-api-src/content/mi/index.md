@@ -2,11 +2,12 @@
 UID: NA:mi
 ms.assetid: aac31f17-22ba-3534-a0bf-99947d893f79
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: wmi_v2
 ---
 

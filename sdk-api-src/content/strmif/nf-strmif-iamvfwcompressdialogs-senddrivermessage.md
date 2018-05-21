@@ -7,7 +7,7 @@ old-location: dshow\iamvfwcompressdialogs_senddrivermessage.htm
 old-project: DirectShow
 ms.assetid: b1558888-a8aa-416a-bb5b-a33a66dcb913
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMVfwCompressDialogs interface [DirectShow],SendDriverMessage method, IAMVfwCompressDialogs.SendDriverMessage, IAMVfwCompressDialogs::SendDriverMessage, IAMVfwCompressDialogsSendDriverMessage, SendDriverMessage, SendDriverMessage method [DirectShow], SendDriverMessage method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_senddrivermessage, strmif/IAMVfwCompressDialogs::SendDriverMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

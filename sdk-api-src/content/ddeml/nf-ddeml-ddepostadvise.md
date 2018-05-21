@@ -7,7 +7,7 @@ old-location: dataxchg\ddepostadvise.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddepostadvise.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: DdePostAdvise, DdePostAdvise function [Data Exchange], _win32_DdePostAdvise, _win32_ddepostadvise_cpp, dataxchg.ddepostadvise, ddeml/DdePostAdvise, winui._win32_ddepostadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

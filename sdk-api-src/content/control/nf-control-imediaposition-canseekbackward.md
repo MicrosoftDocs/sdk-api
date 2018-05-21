@@ -7,7 +7,7 @@ old-location: dshow\imediaposition_canseekbackward.htm
 old-project: DirectShow
 ms.assetid: 8152553a-173b-4f0b-bcdf-b9c20912921d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CanSeekBackward, CanSeekBackward method [DirectShow], CanSeekBackward method [DirectShow],IMediaPosition interface, IMediaPosition interface [DirectShow],CanSeekBackward method, IMediaPosition.CanSeekBackward, IMediaPosition::CanSeekBackward, IMediaPositionCanSeekBackward, control/IMediaPosition::CanSeekBackward, dshow.imediaposition_canseekbackward
 ms.prod: windows-hardware
 ms.technology: windows-devices

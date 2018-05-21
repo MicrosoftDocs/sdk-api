@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_StartServicing.htm
 old-project: shell
 ms.assetid: 40f5331d-194f-4beb-9c59-f6899186b393
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StartServicing method, IPackageDebugSettings.StartServicing, IPackageDebugSettings::StartServicing, StartServicing, StartServicing method [Windows Shell], StartServicing method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StartServicing, shobjidl_core/IPackageDebugSettings::StartServicing
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IPackageDebugSettings::StartServicing

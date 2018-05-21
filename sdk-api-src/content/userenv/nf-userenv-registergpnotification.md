@@ -91,7 +91,7 @@ Call the
 <a href="https://msdn.microsoft.com/9b84891d-62ca-4ddc-97b7-c4c79482abd9">CloseHandle</a> function to close the handle when it is no longer required.
 
 An application can also receive notifications about policy changes when a 
-<a href="base.wm_settingchange">WM_SETTINGCHANGE</a> message is broadcast. In this instance, the <i>wParam</i> parameter value is 1 if computer policy was applied; it is zero if user policy was applied. The <i>lParam</i> parameter points to the string "Policy".
+<a href="https://msdn.microsoft.com/77174e06-a25b-440a-9e9c-4fd5979c433c">WM_SETTINGCHANGE</a> message is broadcast. In this instance, the <i>wParam</i> parameter value is 1 if computer policy was applied; it is zero if user policy was applied. The <i>lParam</i> parameter points to the string "Policy".
 
 
 

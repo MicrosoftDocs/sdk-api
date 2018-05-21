@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_UndoMinimizeALL.htm
 old-project: shell
 ms.assetid: 32BDE544-C4FF-4a64-99AF-F8960AEC4690
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IShellDispatch object [Windows Shell],UndoMinimizeALL method, IShellDispatch.UndoMinimizeALL, IShellDispatch::UndoMinimizeALL, UndoMinimizeALL, UndoMinimizeALL method [Windows Shell], UndoMinimizeALL method [Windows Shell],IShellDispatch object, shell.IShellDispatch_UndoMinimizeALL
 ms.prod: windows-hardware
 ms.technology: windows-devices

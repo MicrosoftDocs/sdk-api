@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveredservice_getmetadataversion.htm
 old-project: WsdApi
 ms.assetid: ce0d463e-6455-48cc-b01f-6aa93fd628b6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetMetadataVersion, GetMetadataVersion method, GetMetadataVersion method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetMetadataVersion method, IWSDiscoveredService.GetMetadataVersion, IWSDiscoveredService::GetMetadataVersion, ncd.iwsdiscoveredservice_getmetadataversion, wsddisco/IWSDiscoveredService::GetMetadataVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices

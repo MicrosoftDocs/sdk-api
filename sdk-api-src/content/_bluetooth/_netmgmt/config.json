@@ -1,0 +1,18 @@
+{
+  "tech": "netmgmt",
+  "headers": [
+    "tbd",
+    "lmaccess.h",
+    "lmjoin.h",
+    "atacct.h",
+    "lmalert.h",
+    "lmapibuf.h",
+    "lmmsg.h",
+    "lmremutl.h",
+    "lmat.h",
+    "lmserver.h",
+    "lmuse.h",
+    "lmwksta.h"
+  ],
+  "displayName": "Network Management"
+}

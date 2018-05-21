@@ -7,7 +7,7 @@ old-location: gdi\ptinregion.htm
 old-project: gdi
 ms.assetid: 6fab6126-4672-49d6-825b-66a7927a7e99
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: PtInRegion, PtInRegion function [Windows GDI], _win32_PtInRegion, gdi.ptinregion, wingdi/PtInRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices

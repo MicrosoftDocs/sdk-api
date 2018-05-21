@@ -7,7 +7,7 @@ old-location: com\ipsfactorybuffer_createproxy.htm
 old-project: com
 ms.assetid: 7d0638d9-50bc-47f3-8ebd-47bb5cbcab9c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CreateProxy, CreateProxy method [COM], CreateProxy method [COM],IPSFactoryBuffer interface, IPSFactoryBuffer interface [COM],CreateProxy method, IPSFactoryBuffer.CreateProxy, IPSFactoryBuffer::CreateProxy, _com_ipsfactorybuffer_createproxy, com.ipsfactorybuffer_createproxy, objidlbase/IPSFactoryBuffer::CreateProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices

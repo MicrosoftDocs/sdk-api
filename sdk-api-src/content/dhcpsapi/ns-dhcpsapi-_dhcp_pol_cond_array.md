@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_pol_cond_array.htm
 old-project: DHCP
 ms.assetid: 2A084E80-92F8-43F5-89C8-22F08CE449E9
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_POL_COND_ARRAY, *PDHCP_POL_COND_ARRAY, DHCP_POL_COND_ARRAY, DHCP_POL_COND_ARRAY structure [DHCP], LPDHCP_POL_COND_ARRAY, LPDHCP_POL_COND_ARRAY structure pointer [DHCP], PDHCP_POL_COND_ARRAY, PDHCP_POL_COND_ARRAY structure pointer [DHCP], _DHCP_POL_COND_ARRAY, dhcp.dhcp_pol_cond_array, dhcpsapi/DHCP_POL_COND_ARRAY, dhcpsapi/LPDHCP_POL_COND_ARRAY, dhcpsapi/PDHCP_POL_COND_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

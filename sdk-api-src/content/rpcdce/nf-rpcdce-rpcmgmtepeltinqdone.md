@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtepeltinqdone.htm
 old-project: Rpc
 ms.assetid: 7a0aac99-8829-4720-a388-da88d015d596
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcMgmtEpEltInqDone, RpcMgmtEpEltInqDone function [RPC], _rpc_rpcmgmtepeltinqdone, rpc.rpcmgmtepeltinqdone, rpcdce/RpcMgmtEpEltInqDone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bluetooth\pfn_device_callback.htm
 old-project: Bluetooth
 ms.assetid: 8a2bf4dc-43c3-49c0-8ce0-d14ab9f4ae97
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: PFN_DEVICE_CALLBACK, PFN_DEVICE_CALLBACK callback, PFN_DEVICE_CALLBACK callback function [Bluetooth], bluetooth.pfn_device_callback, bluetoothapis/PFN_DEVICE_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices

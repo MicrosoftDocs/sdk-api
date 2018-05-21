@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxstartprintjob.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3dwi.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxStartPrintJob, FaxStartPrintJob function [Fax Service], FaxStartPrintJobA, FaxStartPrintJobW, _mfax_faxstartprintjob, fax._mfax_faxstartprintjob, winfax/FaxStartPrintJob, winfax/FaxStartPrintJobA, winfax/FaxStartPrintJobW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,11 +2,12 @@
 UID: NA:qospol
 ms.assetid: 32e0a3ad-8da3-3fe4-ad80-0d8074c78c47
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: qos
 ---
 

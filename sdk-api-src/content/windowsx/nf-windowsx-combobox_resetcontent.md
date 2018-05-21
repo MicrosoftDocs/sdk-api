@@ -7,7 +7,7 @@ old-location: controls\ComboBox_ResetContent.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_resetcontent.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ComboBox_ResetContent, ComboBox_ResetContent macro [Windows Controls], _win32_ComboBox_ResetContent, _win32_ComboBox_ResetContent_cpp, controls.ComboBox_ResetContent, controls._win32_ComboBox_ResetContent, windowsx/ComboBox_ResetContent
 ms.prod: windows-hardware
 ms.technology: windows-devices

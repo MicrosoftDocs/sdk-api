@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPointCount_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getpointcount.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetPointCount, GetPointCount method [GDI+], GetPointCount method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetPointCount method, GraphicsPath.GetPointCount, GraphicsPath::GetPointCount, _gdiplus_CLASS_GraphicsPath_GetPointCount_, gdiplus._gdiplus_CLASS_GraphicsPath_GetPointCount_
 ms.prod: windows-hardware
 ms.technology: windows-devices

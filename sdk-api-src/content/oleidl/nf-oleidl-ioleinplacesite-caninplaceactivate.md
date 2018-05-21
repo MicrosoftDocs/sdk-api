@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_caninplaceactivate.htm
 old-project: com
 ms.assetid: ac960359-7e02-43b6-ac42-0000af15b1a4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CanInPlaceActivate, CanInPlaceActivate method [COM], CanInPlaceActivate method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],CanInPlaceActivate method, IOleInPlaceSite.CanInPlaceActivate, IOleInPlaceSite::CanInPlaceActivate, _ole_ioleinplacesite_caninplaceactivate, com.ioleinplacesite_caninplaceactivate, oleidl/IOleInPlaceSite::CanInPlaceActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

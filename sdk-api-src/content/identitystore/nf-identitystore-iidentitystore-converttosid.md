@@ -7,7 +7,7 @@ old-location: security\iidentitystore_converttosid.htm
 old-project: SecAuthN
 ms.assetid: 484365a9-aeaf-453f-9a5b-6f88b79f8a35
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: ConvertToSid, ConvertToSid method [Security], ConvertToSid method [Security],IIdentityStore interface, IIdentityStore interface [Security],ConvertToSid method, IIdentityStore.ConvertToSid, IIdentityStore::ConvertToSid, identitystore/IIdentityStore::ConvertToSid, security.iidentitystore_converttosid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\hasoverlappediocompleted.htm
 old-project: Sync
 ms.assetid: 1e2a3bf0-a73e-4406-99ac-32652f7f5b25
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/17/2018
 ms.keywords: HasOverlappedIoCompleted, HasOverlappedIoCompleted macro, _win32_hasoverlappediocompleted, base.hasoverlappediocompleted, winbase/HasOverlappedIoCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices

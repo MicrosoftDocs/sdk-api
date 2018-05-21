@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetRemapTable_mapSize_map_t
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setremaptable.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: ImageAttributes class [GDI+],SetRemapTable method, ImageAttributes.SetRemapTable, ImageAttributes::SetRemapTable, SetRemapTable, SetRemapTable method [GDI+], SetRemapTable method [GDI+],ImageAttributes class, _gdiplus_CLASS_ImageAttributes_SetRemapTable_mapSize_map_type_, gdiplus._gdiplus_CLASS_ImageAttributes_SetRemapTable_mapSize_map_type_
 ms.prod: windows-hardware
 ms.technology: windows-devices

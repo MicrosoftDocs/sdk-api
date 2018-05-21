@@ -7,7 +7,7 @@ old-location: termserv\itssbprovisioningpluginnotifysink_onjobcancelled.htm
 old-project: TermServ
 ms.assetid: c4e65194-47c1-43d9-93b3-fbbb57d7f34a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnJobCancelled method, ITsSbProvisioningPluginNotifySink.OnJobCancelled, ITsSbProvisioningPluginNotifySink::OnJobCancelled, OnJobCancelled, OnJobCancelled method [Remote Desktop Services], OnJobCancelled method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCancelled, termserv.itssbprovisioningpluginnotifysink_onjobcancelled
 ms.prod: windows-hardware
 ms.technology: windows-devices

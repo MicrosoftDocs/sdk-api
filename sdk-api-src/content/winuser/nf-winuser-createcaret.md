@@ -7,7 +7,7 @@ old-location: menurc\createcaret.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\carets\caretreference\caretfunctions\createcaret.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: CreateCaret, CreateCaret function [Menus and Other Resources], _win32_CreateCaret, _win32_createcaret_cpp, menurc.createcaret, winui._win32_createcaret, winuser/CreateCaret
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,7 +146,7 @@ This API does not participate in DPI virtualization. The width and height parame
 
 
 
-<a href="base.getsystemmetrics">GetSystemMetrics</a>
+<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
 
 
 

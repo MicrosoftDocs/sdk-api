@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_SetWidth_width_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\setwidth.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: AdjustableArrowCap class [GDI+],SetWidth method, AdjustableArrowCap.SetWidth, AdjustableArrowCap::SetWidth, SetWidth, SetWidth method [GDI+], SetWidth method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_SetWidth_width_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetWidth_width_
 ms.prod: windows-hardware
 ms.technology: windows-devices

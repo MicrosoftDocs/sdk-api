@@ -7,7 +7,7 @@ old-location: rpc\rpcimpersonateclient.htm
 old-project: Rpc
 ms.assetid: 1b91c4dc-ac49-4002-b293-a25ca2ffcb21
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcImpersonateClient, RpcImpersonateClient function [RPC], _rpc_rpcimpersonateclient, rpc.rpcimpersonateclient, rpcdce/RpcImpersonateClient
 ms.prod: windows-hardware
 ms.technology: windows-devices

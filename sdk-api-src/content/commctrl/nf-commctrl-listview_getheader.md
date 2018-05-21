@@ -7,7 +7,7 @@ old-location: controls\ListView_GetHeader.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getheader.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ListView_GetHeader, ListView_GetHeader macro [Windows Controls], _win32_ListView_GetHeader, _win32_ListView_GetHeader_cpp, commctrl/ListView_GetHeader, controls.ListView_GetHeader, controls._win32_ListView_GetHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices

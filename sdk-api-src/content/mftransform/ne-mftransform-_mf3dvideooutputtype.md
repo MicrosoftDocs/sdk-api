@@ -7,7 +7,7 @@ old-location: mf\mf3dvideooutputtype.htm
 old-project: medfound
 ms.assetid: A41469B3-9BBF-4664-9ABA-6894A4F94BBE
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MF3DVideoOutputType, MF3DVideoOutputType enumeration [Media Foundation], MF3DVideoOutputType_BaseView, MF3DVideoOutputType_Stereo, _MF3DVideoOutputType, mf.mf3dvideooutputtype, mftransform/MF3DVideoOutputType, mftransform/MF3DVideoOutputType_BaseView, mftransform/MF3DVideoOutputType_Stereo
 ms.prod: windows-hardware
 ms.technology: windows-devices

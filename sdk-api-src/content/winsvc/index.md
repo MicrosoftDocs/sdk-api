@@ -2,7 +2,7 @@
 UID: NA:winsvc
 ms.assetid: 35219cee-6a67-3e81-a352-eb2bb72ea7bd
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

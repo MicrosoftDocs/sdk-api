@@ -2,7 +2,7 @@
 UID: NA:d3d12sdklayers
 ms.assetid: f1d849c9-17a6-3fba-88ab-612df7758338
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

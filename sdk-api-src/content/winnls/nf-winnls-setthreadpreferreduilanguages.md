@@ -7,7 +7,7 @@ old-location: intl\setthreadpreferreduilanguages.htm
 old-project: Intl
 ms.assetid: 32a8117c-2cb2-4559-8e86-9fad5b28aa5b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MUI_COMPLEX_SCRIPT_FILTER, MUI_CONSOLE_FILTER, MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_RESET_FILTERS, SetThreadPreferredUILanguages, SetThreadPreferredUILanguages function [Internationalization for Windows Applications], _win32_SetThreadPreferredUILanguages, intl.setthreadpreferreduilanguages, winnls/SetThreadPreferredUILanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices

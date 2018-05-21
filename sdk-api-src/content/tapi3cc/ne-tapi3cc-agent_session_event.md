@@ -7,7 +7,7 @@ old-location: tapi3\agent_session_event.htm
 old-project: Tapi
 ms.assetid: 44eb7669-6c0b-4b9c-a209-9f15f27a1ba9
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: AGENT_SESSION_EVENT, AGENT_SESSION_EVENT enumeration [TAPI 2.2], ASE_BUSY, ASE_END, ASE_NEW_SESSION, ASE_NOT_READY, ASE_READY, ASE_WRAPUP, _tapi3_agent_session_event, tapi3.agent_session_event, tapi3cc/AGENT_SESSION_EVENT, tapi3cc/ASE_BUSY, tapi3cc/ASE_END, tapi3cc/ASE_NEW_SESSION, tapi3cc/ASE_NOT_READY, tapi3cc/ASE_READY, tapi3cc/ASE_WRAPUP
 ms.prod: windows-hardware
 ms.technology: windows-devices

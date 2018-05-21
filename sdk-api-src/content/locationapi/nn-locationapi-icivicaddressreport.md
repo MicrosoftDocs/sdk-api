@@ -7,7 +7,7 @@ old-location: winlocation\icivicaddressreport.htm
 old-project: LocationAPI
 ms.assetid: ba8c66cb-be94-4649-ada9-620ed3b35516
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: ICivicAddressReport, ICivicAddressReport interface [WinLocation], ICivicAddressReport interface [WinLocation],described, locationapi/ICivicAddressReport, winlocation.icivicaddressreport
 ms.prod: windows-hardware
 ms.technology: windows-devices

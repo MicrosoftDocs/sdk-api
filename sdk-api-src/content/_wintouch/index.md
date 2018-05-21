@@ -2,7 +2,7 @@
 UID: TP:wintouch
 ms.assetid: 7340eb41-5269-3872-ab0e-7e5a90776681
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

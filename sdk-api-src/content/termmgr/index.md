@@ -2,7 +2,7 @@
 UID: NA:termmgr
 ms.assetid: 3f5e68b1-7d44-32ea-8037-4fa994377417
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\ibda_diseqcommand_put_diseqrepeats.htm
 old-project: mstv
 ms.assetid: de5cbfa9-1509-47cf-b994-24b5dac76d8e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IBDA_DiseqCommand interface [Microsoft TV Technologies],put_DiseqRepeats method, IBDA_DiseqCommand.put_DiseqRepeats, IBDA_DiseqCommand::put_DiseqRepeats, bdaiface/IBDA_DiseqCommand::put_DiseqRepeats, mstv.ibda_diseqcommand_put_diseqrepeats, put_DiseqRepeats, put_DiseqRepeats method [Microsoft TV Technologies], put_DiseqRepeats method [Microsoft TV Technologies],IBDA_DiseqCommand interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

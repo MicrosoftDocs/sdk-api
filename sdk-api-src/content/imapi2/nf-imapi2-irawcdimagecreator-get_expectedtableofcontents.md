@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator_get_expectedtableofcontents.htm
 old-project: imapi
 ms.assetid: ce65b26f-9cf7-4c61-a343-975e5af17f57
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_ExpectedTableOfContents method, IRawCDImageCreator.get_ExpectedTableOfContents, IRawCDImageCreator::get_ExpectedTableOfContents, get_ExpectedTableOfContents, get_ExpectedTableOfContents method [IMAPI], get_ExpectedTableOfContents method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_expectedtableofcontents, imapi2/IRawCDImageCreator::get_ExpectedTableOfContents
 ms.prod: windows-hardware
 ms.technology: windows-devices

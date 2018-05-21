@@ -7,7 +7,7 @@ old-location: etw\eventdesczero.htm
 old-project: ETW
 ms.assetid: c52c5f6b-c7ab-47c2-8bce-55323bae7917
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EventDescZero, EventDescZero function [ETW], base.eventdesczero, etw.eventdesczero, evntprov/EventDescZero
 ms.prod: windows-hardware
 ms.technology: windows-devices

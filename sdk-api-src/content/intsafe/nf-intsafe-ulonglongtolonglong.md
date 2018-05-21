@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongLongToLongLong
 title: ULongLongToLongLong function
 author: windows-driver-content
-description: Converts a value of type ULONGLONG to a value of type INT64.
-old-location: shell\ULongLongToInt64.htm
+description: Converts a value of type ULONGLONG to a value of type INT_PTR.
+old-location: shell\ULongLongToIntPtr.htm
 old-project: shell
-ms.assetid: 6dff4953-1469-491f-a31b-5e7fe72d0fb7
+ms.assetid: 48836bf6-b498-4e3c-b6eb-e62f13f27521
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: ULongLongToInt64, ULongLongToInt64 function [Windows Shell], ULongLongToLongLong, _shell_ULongLongToInt64, intsafe/ULongLongToInt64, shell.ULongLongToInt64
+ms.date: 5/16/2018
+ms.keywords: ULongLongToIntPtr, ULongLongToIntPtr function [Windows Shell], ULongLongToLongLong, ULongLongToPtrdiffT, _shell_ULongLongToIntPtr, intsafe/ULongLongToIntPtr, shell.ULongLongToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	ULongLongToInt64
+-	ULongLongToIntPtr
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>ULONGLONG</b> to a value of type <b>INT64</b>.
+Converts a value of type <b>ULONGLONG</b> to a value of type <b>INT_PTR</b>.
 
 
 ## -parameters
@@ -72,9 +72,9 @@ TBD
 
 
 
-#### - pi64Result [out]
+#### - piResult [out]
 
-Type: <b>INT64*</b>
+Type: <b>INT_PTR*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
@@ -95,6 +95,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>ULongLongToPtrdiffT</b> is an alias for this function.
 
 
 

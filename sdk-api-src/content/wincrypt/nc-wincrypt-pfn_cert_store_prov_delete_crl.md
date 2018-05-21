@@ -7,7 +7,7 @@ old-location: security\certstoreprovdeletecrlcallback.htm
 old-project: SecCrypto
 ms.assetid: aa93cfaf-238f-4d77-a1cd-433a856ed133
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CertStoreProvDeleteCRLCallback, CertStoreProvDeleteCRLCallback callback, CertStoreProvDeleteCRLCallback callback function [Security], PFN_CERT_STORE_PROV_DELETE_CRL, PFN_CERT_STORE_PROV_DELETE_CRL callback function [Security], _crypto2_certstoreprovdeletecrlcallback, security.certstoreprovdeletecrlcallback, wincrypt/CertStoreProvDeleteCRLCallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CRL
 ms.prod: windows-hardware
 ms.technology: windows-devices

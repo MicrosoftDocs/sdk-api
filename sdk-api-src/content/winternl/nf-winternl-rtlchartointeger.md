@@ -7,7 +7,7 @@ old-location: winprog\rtlchartointeger.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlchartointeger.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RtlCharToInteger, RtlCharToInteger function [Windows API], winprog.rtlchartointeger, winternl/RtlCharToInteger, winui.rtlchartointeger
 ms.prod: windows-hardware
 ms.technology: windows-devices

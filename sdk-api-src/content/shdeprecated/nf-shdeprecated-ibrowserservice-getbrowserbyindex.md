@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_GetBrowserByIndex.htm
 old-project: shell
 ms.assetid: 190bd99d-3921-4d7b-8cf3-c91067d3e1f8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetBrowserByIndex, GetBrowserByIndex method [Windows Shell], GetBrowserByIndex method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetBrowserByIndex method, IBrowserService.GetBrowserByIndex, IBrowserService::GetBrowserByIndex, shdeprecated/IBrowserService::GetBrowserByIndex, shell.IBrowserService_GetBrowserByIndex, zone_IBrowserService_GetBrowserByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

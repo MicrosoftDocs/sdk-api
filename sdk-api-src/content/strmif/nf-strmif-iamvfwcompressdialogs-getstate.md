@@ -7,7 +7,7 @@ old-location: dshow\iamvfwcompressdialogs_getstate.htm
 old-project: DirectShow
 ms.assetid: a010fd8a-ad4a-4b52-abfe-a2db8cd15b65
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IAMVfwCompressDialogs interface, IAMVfwCompressDialogs interface [DirectShow],GetState method, IAMVfwCompressDialogs.GetState, IAMVfwCompressDialogs::GetState, IAMVfwCompressDialogsGetState, dshow.iamvfwcompressdialogs_getstate, strmif/IAMVfwCompressDialogs::GetState
 ms.prod: windows-hardware
 ms.technology: windows-devices

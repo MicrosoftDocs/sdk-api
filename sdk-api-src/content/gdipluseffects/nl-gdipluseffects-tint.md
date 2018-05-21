@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Tint_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\tint.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Tint, Tint class [GDI+], Tint class [GDI+],described, _gdiplus_CLASS_Tint_Class, gdiplus._gdiplus_CLASS_Tint_Class, gdipluseffects/Tint
 ms.prod: windows-hardware
 ms.technology: windows-devices

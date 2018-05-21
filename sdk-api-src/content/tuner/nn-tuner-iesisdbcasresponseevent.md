@@ -7,7 +7,7 @@ old-location: mstv\iesisdbcasresponseevent.htm
 old-project: mstv
 ms.assetid: 141c6798-5dca-495e-bdbe-f07e457a3d8a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IESIsdbCasResponseEvent, IESIsdbCasResponseEvent interface [DirectShow], IESIsdbCasResponseEvent interface [DirectShow],described, mstv.iesisdbcasresponseevent, tuner/IESIsdbCasResponseEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

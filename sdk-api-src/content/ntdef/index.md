@@ -2,7 +2,7 @@
 UID: NA:ntdef
 ms.assetid: 2b32bfac-ffb7-339b-bf8b-ff83be6543e4
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,6 +16,6 @@ tech.root: ifsk
 ## -description
 
 
-This header is used by tmg. For more information, see:
+This header is used by kernel. For more information, see:
 
-- [Forefront Threat Management Gateway (TMG)](../_tmg/index.md)
+- [<built-in method title of str object at 0x000002B989450BC8>](../_kernel/index.md)

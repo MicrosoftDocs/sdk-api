@@ -7,7 +7,7 @@ old-location: cos\iservicepartitionconfig.htm
 old-project: cossdk
 ms.assetid: 63dcc64b-edd5-4188-a87b-46452c3b624f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IServicePartitionConfig, IServicePartitionConfig interface [COM+], IServicePartitionConfig interface [COM+],described, _cos_IServicePartitionConfi, comsvcs/IServicePartitionConfig, cos.iservicepartitionconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

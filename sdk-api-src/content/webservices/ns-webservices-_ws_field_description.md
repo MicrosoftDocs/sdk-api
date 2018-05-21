@@ -7,7 +7,7 @@ old-location: wsw\ws_field_description.htm
 old-project: wsw
 ms.assetid: 8b562fab-f3c5-4732-b993-f7f61ca14ab6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_FIELD_DESCRIPTION, WS_FIELD_DESCRIPTION structure [Web Services for Windows], _WS_FIELD_DESCRIPTION, webservices/WS_FIELD_DESCRIPTION, wsw.ws_field_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

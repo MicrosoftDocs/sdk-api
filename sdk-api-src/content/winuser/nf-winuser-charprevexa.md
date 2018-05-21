@@ -7,7 +7,7 @@ old-location: menurc\charprevexa.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charprevexa.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CharPrevExA, CharPrevExA function [Menus and Other Resources], _win32_CharPrevExA, _win32_charprevexa_cpp, menurc.charprevexa, winui._win32_charprevexa, winuser/CharPrevExA
 ms.prod: windows-hardware
 ms.technology: windows-devices

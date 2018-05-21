@@ -2,7 +2,7 @@
 UID: NA:mpeg2psiparser
 ms.assetid: 54715a95-b419-3892-8010-27255b61e7a0
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

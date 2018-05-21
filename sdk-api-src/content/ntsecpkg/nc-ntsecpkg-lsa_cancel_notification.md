@@ -7,7 +7,7 @@ old-location: security\cancelnotification.htm
 old-project: SecAuthN
 ms.assetid: b7333318-ee17-4cc2-9382-2d4871ddee78
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CancelNotification, CancelNotification function [Security], LSA_CANCEL_NOTIFICATION, _ssp_cancelnotification, ntsecpkg/CancelNotification, security.cancelnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

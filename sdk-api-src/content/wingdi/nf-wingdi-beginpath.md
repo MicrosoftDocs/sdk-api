@@ -7,7 +7,7 @@ old-location: gdi\beginpath.htm
 old-project: gdi
 ms.assetid: 88be3405-a420-4eb1-935b-099dc3067530
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: BeginPath, BeginPath function [Windows GDI], _win32_BeginPath, gdi.beginpath, wingdi/BeginPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_ENUM_ColorChannelFlags.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\colorchannelflags.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: ColorChannelFlags, ColorChannelFlags enumeration [GDI+], ColorChannelFlagsC, ColorChannelFlagsK, ColorChannelFlagsLast, ColorChannelFlagsM, ColorChannelFlagsY, _gdiplus_ENUM_ColorChannelFlags, gdiplus._gdiplus_ENUM_ColorChannelFlags, gdipluscolor/ColorChannelFlags, gdipluscolor/ColorChannelFlagsC, gdipluscolor/ColorChannelFlagsK, gdipluscolor/ColorChannelFlagsLast, gdipluscolor/ColorChannelFlagsM, gdipluscolor/ColorChannelFlagsY
 ms.prod: windows-hardware
 ms.technology: windows-devices

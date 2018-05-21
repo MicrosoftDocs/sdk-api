@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitemfilter_gettimefilter.htm
 old-project: OfflineFiles
 ms.assetid: 397611e7-60e5-46d6-b90b-5aed7fff6a43
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: GetTimeFilter, GetTimeFilter method [Offline Files], GetTimeFilter method [Offline Files],IOfflineFilesItemFilter interface, IOfflineFilesItemFilter interface [Offline Files],GetTimeFilter method, IOfflineFilesItemFilter.GetTimeFilter, IOfflineFilesItemFilter::GetTimeFilter, cscobj/IOfflineFilesItemFilter::GetTimeFilter, of.iofflinefilesitemfilter_gettimefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

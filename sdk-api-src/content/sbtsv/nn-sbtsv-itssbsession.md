@@ -7,7 +7,7 @@ old-location: termserv\itssbsession.htm
 old-project: TermServ
 ms.assetid: d6f4c66a-79c3-4bc1-889d-ec5715e359ce
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ITsSbSession, ITsSbSession interface [Remote Desktop Services], ITsSbSession interface [Remote Desktop Services],described, sbtsv/ITsSbSession, termserv.itssbsession
 ms.prod: windows-hardware
 ms.technology: windows-devices

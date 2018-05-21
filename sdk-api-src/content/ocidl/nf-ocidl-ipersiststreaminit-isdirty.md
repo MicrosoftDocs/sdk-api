@@ -7,7 +7,7 @@ old-location: com\ipersiststreaminit_isdirty.htm
 old-project: com
 ms.assetid: 2b84818d-0d9d-4f55-8031-b4336baa6c09
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IPersistStreamInit interface [COM],IsDirty method, IPersistStreamInit.IsDirty, IPersistStreamInit::IsDirty, IsDirty, IsDirty method [COM], IsDirty method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_isdirty, com.ipersiststreaminit_isdirty, ocidl/IPersistStreamInit::IsDirty
 ms.prod: windows-hardware
 ms.technology: windows-devices

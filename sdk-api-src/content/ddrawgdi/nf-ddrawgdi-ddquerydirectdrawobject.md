@@ -7,7 +7,7 @@ old-location: winprog\_dxgkernel_ddquerydirectdrawobject.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddquerydirectdrawobject.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DdQueryDirectDrawObject, DdQueryDirectDrawObject function [Windows API], GdiEntry2, _dxgkernel_ddquerydirectdrawobject, ddrawgdi/DdQueryDirectDrawObject, ddrawgdi/GdiEntry2, winprog._dxgkernel_ddquerydirectdrawobject, winui._dxgkernel_ddquerydirectdrawobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,7 +108,7 @@ Pointer to a table of callback pointers. The table is filled with pointers to fu
 
 ### -param pD3dTextureFormats
 
-Pointer to an array of <a href="http://msdn.microsoft.com/en-us/library/ms794144.aspx">DDSURFACEDESC</a> structures that define the set of permissible texture formats.
+Pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550339">DDSURFACEDESC</a> structures that define the set of permissible texture formats.
 
 
 ### -param pdwFourCC

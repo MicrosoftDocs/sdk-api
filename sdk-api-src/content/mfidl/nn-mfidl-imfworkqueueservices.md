@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservices.htm
 old-project: medfound
 ms.assetid: 7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d, IMFWorkQueueServices, IMFWorkQueueServices interface [Media Foundation], IMFWorkQueueServices interface [Media Foundation],described, mf.imfworkqueueservices, mfidl/IMFWorkQueueServices
 ms.prod: windows-hardware
 ms.technology: windows-devices

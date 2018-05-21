@@ -7,7 +7,7 @@ old-location: ics\inetsharingpublicconnectioncollection.htm
 old-project: ICS
 ms.assetid: 92027ba2-b803-4c9f-ae77-a89074fef718
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetSharingPublicConnectionCollection, INetSharingPublicConnectionCollection interface [ICS/ICF], INetSharingPublicConnectionCollection interface [ICS/ICF],described, _ics_inetsharingpublicconnectioncollection, ics.inetsharingpublicconnectioncollection, netcon/INetSharingPublicConnectionCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

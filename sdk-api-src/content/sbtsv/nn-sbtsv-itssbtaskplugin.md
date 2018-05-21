@@ -7,7 +7,7 @@ old-location: termserv\itssbtaskplugin.htm
 old-project: TermServ
 ms.assetid: 56463b47-c2f2-43b7-884f-d6fab9bebbf0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ITsSbTaskPlugin, ITsSbTaskPlugin interface [Remote Desktop Services], ITsSbTaskPlugin interface [Remote Desktop Services],described, sbtsv/ITsSbTaskPlugin, termserv.itssbtaskplugin
 ms.prod: windows-hardware
 ms.technology: windows-devices

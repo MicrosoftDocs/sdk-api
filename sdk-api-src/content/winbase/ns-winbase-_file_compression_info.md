@@ -7,7 +7,7 @@ old-location: fs\file_compression_info.htm
 old-project: FileIO
 ms.assetid: 2f64e7cc-e23c-4e3d-8e17-0e8e38f1ea24
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PFILE_COMPRESSION_INFO, FILE_COMPRESSION_INFO, FILE_COMPRESSION_INFO structure [Files], PFILE_COMPRESSION_INFO, PFILE_COMPRESSION_INFO structure pointer [Files], _FILE_COMPRESSION_INFO, fileextd/FILE_COMPRESSION_INFO, fileextd/PFILE_COMPRESSION_INFO, fs.file_compression_info, winbase/FILE_COMPRESSION_INFO, winbase/PFILE_COMPRESSION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

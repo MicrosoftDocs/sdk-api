@@ -7,7 +7,7 @@ old-location: cos\icomuserevent_onuserevent.htm
 old-project: cossdk
 ms.assetid: 3c14bf53-7466-4cb0-b90f-681796e40fd3
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IComUserEvent interface [COM+],OnUserEvent method, IComUserEvent.OnUserEvent, IComUserEvent::OnUserEvent, OnUserEvent, OnUserEvent method [COM+], OnUserEvent method [COM+],IComUserEvent interface, _dtc_IComUserEvent_OnUserEvent, comsvcs/IComUserEvent::OnUserEvent, cos.icomuserevent_onuserevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

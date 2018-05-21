@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerconfigxml2blob.htm
 old-project: EAPHost
 ms.assetid: 728fab9e-6aa4-49c0-ab1f-89686543524c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapHostPeerConfigXml2Blob, EapHostPeerConfigXml2Blob function [EAPHost], eaphost.eaphostpeerconfigxml2blob, eaphostpeerconfigapis/EapHostPeerConfigXml2Blob
 ms.prod: windows-hardware
 ms.technology: windows-devices

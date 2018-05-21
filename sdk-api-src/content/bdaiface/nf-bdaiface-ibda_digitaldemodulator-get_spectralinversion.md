@@ -7,7 +7,7 @@ old-location: mstv\ibda_digitaldemodulator_get_spectralinversion.htm
 old-project: mstv
 ms.assetid: eaab17e3-8070-4f70-a31c-cd130edf1a4a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_SpectralInversion method, IBDA_DigitalDemodulator.get_SpectralInversion, IBDA_DigitalDemodulator::get_SpectralInversion, IBDA_DigitalDemodulatorget_SpectralInversion, bdaiface/IBDA_DigitalDemodulator::get_SpectralInversion, get_SpectralInversion, get_SpectralInversion method [Microsoft TV Technologies], get_SpectralInversion method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_spectralinversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

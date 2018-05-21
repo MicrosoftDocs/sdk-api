@@ -7,7 +7,7 @@ old-location: security\certsrvbackupopenfile.htm
 old-project: SecCrypto
 ms.assetid: 5ddce73f-c693-437a-9eae-d7eaf482ee05
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CertSrvBackupOpenFile, CertSrvBackupOpenFile function [Security], CertSrvBackupOpenFileW, _certsrv_certsrvbackupopenfile, certbcli/CertSrvBackupOpenFile, certbcli/CertSrvBackupOpenFileW, security.certsrvbackupopenfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

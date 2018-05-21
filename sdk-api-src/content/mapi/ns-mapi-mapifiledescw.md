@@ -7,7 +7,7 @@ old-location: mapi\mapifiledescw.htm
 old-project: WindowsMAPI
 ms.assetid: CF7C41DF-D361-457F-B038-5C1144E70AA6
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/11/2018
 ms.keywords: "*lpMapiFileDescW, MAPI_OLE, MAPI_OLE_STATIC, MapiFileDescW, MapiFileDescW structure, lpMapiFileDescW, lpMapiFileDescW structure pointer, mapi.mapifiledescw, mapi/MapiFileDescW, mapi/lpMapiFileDescW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

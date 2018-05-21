@@ -7,7 +7,7 @@ old-location: dfs\netdfsremovestdroot.htm
 old-project: Dfs
 ms.assetid: 850427cc-56da-45cc-8833-e242acc53589
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: NetDfsRemoveStdRoot, NetDfsRemoveStdRoot function [Distributed File System], _win32_netdfsremovestdroot, dfs.netdfsremovestdroot, fs.netdfsremovestdroot, lmdfs/NetDfsRemoveStdRoot, netmgmt.netdfsremovestdroot
 ms.prod: windows-hardware
 ms.technology: windows-devices

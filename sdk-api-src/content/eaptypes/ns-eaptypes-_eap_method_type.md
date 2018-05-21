@@ -7,7 +7,7 @@ old-location: eaphost\eap_method_type.htm
 old-project: EAPHost
 ms.assetid: 47702dd9-d9c2-4dd5-a12d-23a55b031d27
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EAP_METHOD_TYPE, EAP_METHOD_TYPE structure [EAPHost], _EAP_METHOD_TYPE, eaphost.eap_method_type, eaptypes/EAP_METHOD_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

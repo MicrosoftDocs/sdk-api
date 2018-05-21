@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_DiscountRateStart_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\discountratestart.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: DiscountRateStart property [Fax Service], DiscountRateStart property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],DiscountRateStart property, FaxConfiguration.DiscountRateStart, IFaxConfiguration.get_DiscountRateStart, IFaxConfiguration::get_DiscountRateStart, _mfax_IFaxConfiguration_DiscountRateStart, fax._mfax_FaxConfiguration_DiscountRateStart_vb, get_DiscountRateStart
 ms.prod: windows-hardware
 ms.technology: windows-devices

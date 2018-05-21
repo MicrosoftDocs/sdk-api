@@ -7,7 +7,7 @@ old-location: shell\UIntToUChar.htm
 old-project: shell
 ms.assetid: 9308c933-a8f4-45eb-81cf-31a0b8c0e032
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: UIntToUChar, UIntToUChar function [Windows Shell], _shell_UIntToUChar, intsafe/UIntToUChar, shell.UIntToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

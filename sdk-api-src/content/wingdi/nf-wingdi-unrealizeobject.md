@@ -7,7 +7,7 @@ old-location: gdi\unrealizeobject.htm
 old-project: gdi
 ms.assetid: b84cd0b3-fdf1-4f12-bc45-308032d6d698
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: UnrealizeObject, UnrealizeObject function [Windows GDI], _win32_UnrealizeObject, gdi.unrealizeobject, wingdi/UnrealizeObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

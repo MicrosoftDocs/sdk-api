@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_reader_raw_encoding.htm
 old-project: wsw
 ms.assetid: 5f3004e7-347f-46a5-8d8f-743a76e1fa71
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_XML_READER_RAW_ENCODING, WS_XML_READER_RAW_ENCODING structure [Web Services for Windows], _WS_XML_READER_RAW_ENCODING, webservices/WS_XML_READER_RAW_ENCODING, wsw.ws_xml_reader_raw_encoding
 ms.prod: windows-hardware
 ms.technology: windows-devices

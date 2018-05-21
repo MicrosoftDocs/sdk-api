@@ -7,7 +7,7 @@ old-location: termserv\iadstsuserex_maxdisconnectiontime.htm
 old-project: TermServ
 ms.assetid: 35f0f7fd-eff9-4ee0-99f0-83af7ec2796a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],MaxDisconnectionTime property, IADsTSUserEx.MaxDisconnectionTime, IADsTSUserEx.get_MaxDisconnectionTime, IADsTSUserEx::MaxDisconnectionTime, IADsTSUserEx::get_MaxDisconnectionTime, IADsTSUserEx::put_MaxDisconnectionTime, MaxDisconnectionTime property [Remote Desktop Services], MaxDisconnectionTime property [Remote Desktop Services],IADsTSUserEx interface, get_MaxDisconnectionTime, termserv.iadstsuserex_maxdisconnectiontime, tsuserex/IADsTSUserEx::MaxDisconnectionTime, tsuserex/IADsTSUserEx::get_MaxDisconnectionTime, tsuserex/IADsTSUserEx::put_MaxDisconnectionTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

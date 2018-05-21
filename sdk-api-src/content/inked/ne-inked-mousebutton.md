@@ -7,7 +7,7 @@ old-location: tablet\mousebutton.htm
 old-project: tablet
 ms.assetid: cfcbee55-3489-44da-a726-71dc615fa7f5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: LEFT_BUTTON, MIDDLE_BUTTON, MouseButton, MouseButton enumeration [Tablet PC], NO_BUTTON, RIGHT_BUTTON, cfcbee55-3489-44da-a726-71dc615fa7f5, inked/LEFT_BUTTON, inked/MIDDLE_BUTTON, inked/MouseButton, inked/NO_BUTTON, inked/RIGHT_BUTTON, tablet.mousebutton
 ms.prod: windows-hardware
 ms.technology: windows-devices

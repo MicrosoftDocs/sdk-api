@@ -7,7 +7,7 @@ old-location: mscs\iwcwizardcallback.htm
 old-project: MsCS
 ms.assetid: 0d5f45c4-6091-4ea4-875a-69be7f1258db
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: IWCWizardCallback, IWCWizardCallback interface [Failover Cluster], IWCWizardCallback interface [Failover Cluster],described, _wolf_iwcwizardcallback, cluadmex/IWCWizardCallback, mscs.iwcwizardcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

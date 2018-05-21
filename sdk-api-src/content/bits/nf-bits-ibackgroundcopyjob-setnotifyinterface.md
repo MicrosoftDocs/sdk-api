@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob_setnotifyinterface.htm
 old-project: Bits
 ms.assetid: 34d51546-ec27-471f-9da5-3bec7ed4e1ea
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetNotifyInterface method, IBackgroundCopyJob.SetNotifyInterface, IBackgroundCopyJob::SetNotifyInterface, SetNotifyInterface, SetNotifyInterface method [BITS], SetNotifyInterface method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setnotifyinterface, bits.ibackgroundcopyjob_setnotifyinterface, bits/IBackgroundCopyJob::SetNotifyInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

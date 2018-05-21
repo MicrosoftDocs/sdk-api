@@ -2,11 +2,12 @@
 UID: TP:input_ink
 ms.assetid: a4bd3a81-06e5-3941-8e8e-5d06539095d4
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Ink input

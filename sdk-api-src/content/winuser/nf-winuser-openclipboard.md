@@ -7,7 +7,7 @@ old-location: dataxchg\openclipboard.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\openclipboard.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: OpenClipboard, OpenClipboard function [Data Exchange], _win32_OpenClipboard, _win32_openclipboard_cpp, dataxchg.openclipboard, winui._win32_openclipboard, winuser/OpenClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices

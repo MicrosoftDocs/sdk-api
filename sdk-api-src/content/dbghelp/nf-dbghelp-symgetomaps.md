@@ -7,7 +7,7 @@ old-location: base\symgetomaps.htm
 old-project: Debug
 ms.assetid: d89947fa-65fd-4929-9f7e-a4923792049e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SymGetOmaps, SymGetOmaps function, base.symgetomaps, dbghelp/SymGetOmaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

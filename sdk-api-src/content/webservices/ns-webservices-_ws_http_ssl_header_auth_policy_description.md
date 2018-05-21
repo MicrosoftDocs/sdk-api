@@ -7,7 +7,7 @@ old-location: wsw\ws_http_ssl_header_auth_policy_description.htm
 old-project: wsw
 ms.assetid: 4363424c-73a2-4ed0-888b-32f687b44a03
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_HTTP_SSL_HEADER_AUTH_POLICY_DESCRIPTION, WS_HTTP_SSL_HEADER_AUTH_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_HTTP_SSL_HEADER_AUTH_POLICY_DESCRIPTION, webservices/WS_HTTP_SSL_HEADER_AUTH_POLICY_DESCRIPTION, wsw.ws_http_ssl_header_auth_policy_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

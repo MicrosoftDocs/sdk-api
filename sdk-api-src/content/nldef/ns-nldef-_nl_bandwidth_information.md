@@ -7,7 +7,7 @@ old-location: iphlp\nl_bandwidth_information.htm
 old-project: IpHlp
 ms.assetid: F5D7238A-EAE0-4D60-A0A4-D839F738EF48
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*PNL_BANDWIDTH_INFORMATION, NL_BANDWIDTH_INFORMATION, NL_BANDWIDTH_INFORMATION structure [IP Helper], PNL_BANDWIDTH_INFORMATION, PNL_BANDWIDTH_INFORMATION structure pointer [IP Helper], _NL_BANDWIDTH_INFORMATION, iphlp.nl_bandwidth_information, nldef/NL_BANDWIDTH_INFORMATION, nldef/PNL_BANDWIDTH_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

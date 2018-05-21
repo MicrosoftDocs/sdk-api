@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetMeasurableCharacterRanges_r
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\setmeasurablecharacterranges.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: SetMeasurableCharacterRanges, SetMeasurableCharacterRanges method [GDI+], SetMeasurableCharacterRanges method [GDI+],StringFormat class, StringFormat class [GDI+],SetMeasurableCharacterRanges method, StringFormat.SetMeasurableCharacterRanges, StringFormat::SetMeasurableCharacterRanges, _gdiplus_CLASS_StringFormat_SetMeasurableCharacterRanges_rangeCount_ranges_, gdiplus._gdiplus_CLASS_StringFormat_SetMeasurableCharacterRanges_rangeCount_ranges_
 ms.prod: windows-hardware
 ms.technology: windows-devices

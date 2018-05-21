@@ -7,7 +7,7 @@ old-location: etw\tdhenumerateproviderfilters.htm
 old-project: ETW
 ms.assetid: bc0f4286-1f6e-4d99-ad84-af8ab5dbba2b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: TdhEnumerateProviderFilters, TdhEnumerateProviderFilters function [ETW], etw.tdhenumerateproviderfilters, tdh/TdhEnumerateProviderFilters
 ms.prod: windows-hardware
 ms.technology: windows-devices

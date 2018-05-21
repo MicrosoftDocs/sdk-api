@@ -7,7 +7,7 @@ old-location: base\setsymloaderror.htm
 old-project: Debug
 ms.assetid: E3225AEB-AFF9-432F-B4FA-D9125210258A
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SetSymLoadError, SetSymLoadError function, base.setsymloaderror, dbghelp/SetSymLoadError
 ms.prod: windows-hardware
 ms.technology: windows-devices

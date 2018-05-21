@@ -7,7 +7,7 @@ old-location: fs\txf_id.htm
 old-project: FileIO
 ms.assetid: b7bdb226-69ce-4226-b826-baf9c732ec52
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PTXF_ID, PTXF_ID, PTXF_ID structure pointer [Files], TXF_ID, TXF_ID structure [Files], _TXF_ID, fs.txf_id, txfw32/PTXF_ID, txfw32/TXF_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices

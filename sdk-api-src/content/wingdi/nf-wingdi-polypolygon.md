@@ -7,7 +7,7 @@ old-location: gdi\polypolygon.htm
 old-project: gdi
 ms.assetid: ac0a2802-c8b0-4cd7-9521-5b179f2c70b9
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: PolyPolygon, PolyPolygon function [Windows GDI], _win32_PolyPolygon, gdi.polypolygon, wingdi/PolyPolygon
 ms.prod: windows-hardware
 ms.technology: windows-devices

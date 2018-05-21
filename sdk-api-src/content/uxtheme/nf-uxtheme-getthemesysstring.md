@@ -7,7 +7,7 @@ old-location: controls\GetThemeSysString.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysstring.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetThemeSysString, GetThemeSysString function [Windows Controls], TMT_CSSNAME, TMT_XMLNAME, controls.GetThemeSysString, controls.inet_GetThemeSysString, inet_GetThemeSysString, inet_GetThemeSysString_cpp, uxtheme/GetThemeSysString
 ms.prod: windows-hardware
 ms.technology: windows-devices

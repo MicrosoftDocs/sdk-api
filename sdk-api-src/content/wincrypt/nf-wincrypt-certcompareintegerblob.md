@@ -7,7 +7,7 @@ old-location: security\certcompareintegerblob.htm
 old-project: SecCrypto
 ms.assetid: 467ce464-2f22-4583-a745-711ba3b05f4f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CertCompareIntegerBlob, CertCompareIntegerBlob function [Security], _crypto2_certcompareintegerblob, security.certcompareintegerblob, wincrypt/CertCompareIntegerBlob
 ms.prod: windows-hardware
 ms.technology: windows-devices

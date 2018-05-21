@@ -7,7 +7,7 @@ old-location: perf\perfdeleteinstance.htm
 old-project: PerfCtrs
 ms.assetid: 8266e58c-c0a3-42dd-9f06-0d04dccfcf7c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PerfDeleteInstance, PerfDeleteInstance function [Perf], base.perfdeleteinstance, perf.perfdeleteinstance, perflib/PerfDeleteInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

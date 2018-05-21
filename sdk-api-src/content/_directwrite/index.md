@@ -2,7 +2,7 @@
 UID: TP:directwrite
 ms.assetid: 1466a8a8-0196-3cad-99b3-da84e788e1e7
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

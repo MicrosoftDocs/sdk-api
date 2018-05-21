@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeergetdatatounplumbcredentials.htm
 old-project: EAPHost
 ms.assetid: E0796AA8-594F-4B21-884D-BD2DD6E2549C
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapHostPeerGetDataToUnplumbCredentials, EapHostPeerGetDataToUnplumbCredentials function [EAPHost], eaphost.eaphostpeergetdatatounplumbcredentials, eappapis/EapHostPeerGetDataToUnplumbCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

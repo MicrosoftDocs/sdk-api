@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Image_FindFirstItem_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\findfirstitem.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: FindFirstItem, FindFirstItem method [GDI+], FindFirstItem method [GDI+],Image class, Image class [GDI+],FindFirstItem method, Image.FindFirstItem, Image::FindFirstItem, _gdiplus_CLASS_Image_FindFirstItem_, gdiplus._gdiplus_CLASS_Image_FindFirstItem_
 ms.prod: windows-hardware
 ms.technology: windows-devices

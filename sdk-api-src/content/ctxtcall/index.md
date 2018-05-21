@@ -2,11 +2,12 @@
 UID: NA:ctxtcall
 ms.assetid: 45ad8c7e-d66e-32f5-a6ff-d215154f9744
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: com
 ---
 

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_SetParameters_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\redeyecorrectionclass\redeyecorrectionmethods\setparameters.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: RedEyeCorrection class [GDI+],SetParameters method, RedEyeCorrection.SetParameters, RedEyeCorrection::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],RedEyeCorrection class, _gdiplus_CLASS_RedEyeCorrection_SetParameters_, gdiplus._gdiplus_CLASS_RedEyeCorrection_SetParameters_
 ms.prod: windows-hardware
 ms.technology: windows-devices

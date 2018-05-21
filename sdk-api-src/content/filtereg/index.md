@@ -2,7 +2,7 @@
 UID: NA:filtereg
 ms.assetid: 814e8113-3736-3b40-8bb2-49801048d0b9
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

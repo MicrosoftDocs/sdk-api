@@ -7,7 +7,7 @@ old-location: com\comarshalinterface.htm
 old-project: com
 ms.assetid: 04ca1217-eac1-43e2-b736-8d7522ce8592
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CoMarshalInterface, CoMarshalInterface function [COM], _com_CoMarshalInterface, com.comarshalinterface, combaseapi/CoMarshalInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

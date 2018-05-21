@@ -7,7 +7,7 @@ old-location: base\jobobject_notification_limit_information.htm
 old-project: ProcThread
 ms.assetid: 39cf5f26-dfc1-4f1d-aae4-5f29e277834f
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: "*PJOBOBJECT_NOTIFICATION_LIMIT_INFORMATION, JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION, JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION structure, JOB_OBJECT_LIMIT_JOB_MEMORY, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, JOB_OBJECT_LIMIT_RATE_CONTROL, PJOBOBJECT_NOTIFICATION_LIMIT_INFORMATION, PJOBOBJECT_NOTIFICATION_LIMIT_INFORMATION structure pointer, ToleranceHigh, ToleranceIntervalLong, ToleranceIntervalMedium, ToleranceIntervalShort, ToleranceLow, ToleranceMedium, _JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION, base.jobobject_notification_limit_information, winnt/JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION, winnt/PJOBOBJECT_NOTIFICATION_LIMIT_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

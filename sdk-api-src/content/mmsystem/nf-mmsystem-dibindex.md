@@ -7,7 +7,7 @@ old-location: gdi\dibindex.htm
 old-project: gdi
 ms.assetid: a1c2274e-ddcb-4e11-af70-9f79210d2d5f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: DIBINDEX, DIBINDEX macro [Windows GDI], _win32_DIBINDEX, gdi.dibindex, mmsystem/DIBINDEX
 ms.prod: windows-hardware
 ms.technology: windows-devices

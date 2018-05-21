@@ -7,7 +7,7 @@ old-location: display\dd_videoportcallbacks.htm
 old-project: display
 ms.assetid: 5e03d240-f483-4ecf-8890-b9f0368e2b2f
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDD_VIDEOPORTCALLBACKS, DD_VIDEOPORTCALLBACKS, DD_VIDEOPORTCALLBACKS structure [Display Devices], PDD_VIDEOPORTCALLBACKS, PDD_VIDEOPORTCALLBACKS structure pointer [Display Devices], ddrawint/DD_VIDEOPORTCALLBACKS, ddrawint/PDD_VIDEOPORTCALLBACKS, ddstrcts_e0a55748-eb24-4e5f-8208-bcb0083cdf21.xml, display.dd_videoportcallbacks"
 ms.prod: windows-hardware
 ms.technology: windows-devices

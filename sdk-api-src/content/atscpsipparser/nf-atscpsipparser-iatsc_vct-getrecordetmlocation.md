@@ -7,7 +7,7 @@ old-location: mstv\iatsc_vct_getrecordetmlocation.htm
 old-project: mstv
 ms.assetid: 9884a9bd-bd5c-4d6a-a8b0-5ba1406c0210
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordEtmLocation, GetRecordEtmLocation method [Microsoft TV Technologies], GetRecordEtmLocation method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordEtmLocation method, IATSC_VCT.GetRecordEtmLocation, IATSC_VCT::GetRecordEtmLocation, IATSC_VCTGetRecordEtmLocation, atscpsipparser/IATSC_VCT::GetRecordEtmLocation, mstv.iatsc_vct_getrecordetmlocation
 ms.prod: windows-hardware
 ms.technology: windows-devices

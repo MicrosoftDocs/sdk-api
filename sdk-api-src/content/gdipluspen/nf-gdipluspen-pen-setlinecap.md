@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_SetLineCap_startCap_endCap_dashCap_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setlinecap.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Pen class [GDI+],SetLineCap method, Pen.SetLineCap, Pen::SetLineCap, SetLineCap, SetLineCap method [GDI+], SetLineCap method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetLineCap_startCap_endCap_dashCap_, gdiplus._gdiplus_CLASS_Pen_SetLineCap_startCap_endCap_dashCap_
 ms.prod: windows-hardware
 ms.technology: windows-devices

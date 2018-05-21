@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_client_info_pb_array.htm
 old-project: DHCP
 ms.assetid: a5106bba-0b84-4a89-b586-e4d115bf4cfe
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_PB_ARRAY, DHCP_CLIENT_INFO_PB_ARRAY, DHCP_CLIENT_INFO_PB_ARRAY structure [DHCP], LPDHCP_CLIENT_INFO_PB_ARRAY, LPDHCP_CLIENT_INFO_PB_ARRAY structure pointer [DHCP], _DHCP_CLIENT_INFO_PB_ARRAY, dhcp.dhcp_client_info_pb_array, dhcpsapi/DHCP_CLIENT_INFO_PB_ARRAY, dhcpsapi/LPDHCP_CLIENT_INFO_PB_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

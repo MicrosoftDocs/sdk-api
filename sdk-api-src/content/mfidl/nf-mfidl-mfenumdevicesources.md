@@ -7,7 +7,7 @@ old-location: mf\mfenumdevicesources.htm
 old-project: medfound
 ms.assetid: da4d96ce-e22b-4e1c-aa2e-df46416a5f0b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFEnumDeviceSources, MFEnumDeviceSources function [Media Foundation], MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE, MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE, MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY, mf.mfenumdevicesources, mfidl/MFEnumDeviceSources
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\globalalloc.htm
 old-project: Memory
 ms.assetid: 06886545-bd5c-4d81-b1c3-dfa7e146e43a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: GHND, GMEM_FIXED, GMEM_MOVEABLE, GMEM_ZEROINIT, GPTR, GlobalAlloc, GlobalAlloc function, _win32_globalalloc, base.globalalloc, winbase/GlobalAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\deletelogbyhandle.htm
 old-project: Clfs
 ms.assetid: 2426058f-312c-4946-ac12-52e55a3307b5
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: DeleteLogByHandle, DeleteLogByHandle function [Files], clfsw32/DeleteLogByHandle, fs.deletelogbyhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

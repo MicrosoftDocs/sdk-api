@@ -7,7 +7,7 @@ old-location: eaphost\eapcode.htm
 old-project: EAPHost
 ms.assetid: 19d424a1-91d6-4ebd-acb8-912b4900a4cd
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapCode, EapCode enumeration [EAPHost], EapCodeFailure, EapCodeMaximum, EapCodeMinimum, EapCodeRequest, EapCodeResponse, EapCodeSuccess, eaphost.eapcode, eapmethodtypes/EapCode, eapmethodtypes/EapCodeFailure, eapmethodtypes/EapCodeMaximum, eapmethodtypes/EapCodeMinimum, eapmethodtypes/EapCodeRequest, eapmethodtypes/EapCodeResponse, eapmethodtypes/EapCodeSuccess, tagEapCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

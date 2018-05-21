@@ -7,7 +7,7 @@ old-location: ncd\wsd_probe_struct.htm
 old-project: WsdApi
 ms.assetid: f84f7e77-ffe2-41af-a10f-a626466e9847
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_PROBE, WSD_PROBE structure, _WSD_PROBE, ncd.wsd_probe_struct, wsdtypes/WSD_PROBE
 ms.prod: windows-hardware
 ms.technology: windows-devices

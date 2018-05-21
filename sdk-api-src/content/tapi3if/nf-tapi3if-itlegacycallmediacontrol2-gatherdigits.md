@@ -7,7 +7,7 @@ old-location: tapi3\itlegacycallmediacontrol2_gatherdigits.htm
 old-project: Tapi
 ms.assetid: ff464b1e-bd4c-4807-b019-cdae6896f897
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: GatherDigits, GatherDigits method [TAPI 2.2], GatherDigits method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GatherDigits method, ITLegacyCallMediaControl2.GatherDigits, ITLegacyCallMediaControl2::GatherDigits, _tapi3_itlegacycallmediacontrol2_gatherdigits, tapi3.itlegacycallmediacontrol2_gatherdigits, tapi3if/ITLegacyCallMediaControl2::GatherDigits
 ms.prod: windows-hardware
 ms.technology: windows-devices

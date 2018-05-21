@@ -7,7 +7,7 @@ old-location: com\oleregenumverbs.htm
 old-project: com
 ms.assetid: 25cd0876-90b6-4fa3-b180-ffa0c3b51497
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleRegEnumVerbs, OleRegEnumVerbs function [COM], _ole_OleRegEnumVerbs, com.oleregenumverbs, ole2/OleRegEnumVerbs
 ms.prod: windows-hardware
 ms.technology: windows-devices

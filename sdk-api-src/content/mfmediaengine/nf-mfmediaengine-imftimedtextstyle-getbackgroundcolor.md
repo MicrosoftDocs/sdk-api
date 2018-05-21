@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_getbackgroundcolor.htm
 old-project: medfound
 ms.assetid: 2641F157-31CE-4659-AF6B-B57774AEF4E5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [Media Foundation], GetBackgroundColor method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetBackgroundColor method, IMFTimedTextStyle.GetBackgroundColor, IMFTimedTextStyle::GetBackgroundColor, mf.imftimedtextstyle_getbackgroundcolor, mfmediaengine/IMFTimedTextStyle::GetBackgroundColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

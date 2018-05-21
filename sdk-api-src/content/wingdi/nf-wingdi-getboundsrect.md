@@ -7,7 +7,7 @@ old-location: gdi\getboundsrect.htm
 old-project: gdi
 ms.assetid: 139d4550-9adc-48b3-a15c-03ae1f1ef1ab
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: DCB_RESET, GetBoundsRect, GetBoundsRect function [Windows GDI], _win32_GetBoundsRect, gdi.getboundsrect, wingdi/GetBoundsRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

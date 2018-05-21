@@ -7,7 +7,7 @@ old-location: fs\storage_device_resiliency_descriptor.htm
 old-project: FileIO
 ms.assetid: 7ef6d99a-3e2c-44de-ab08-260e8ddc02f4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, STORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure [Files], _STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, fs.storage_device_resiliency_descriptor, winioctl/PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, winioctl/STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfdlnasinkinit.htm
 old-project: medfound
 ms.assetid: fec2933a-aa1a-41e5-b697-fdae548b3789
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFDLNASinkInit, IMFDLNASinkInit interface [Media Foundation], IMFDLNASinkInit interface [Media Foundation],described, mf.imfdlnasinkinit, mfmp2dlna/IMFDLNASinkInit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: setup\createassemblycache.htm
 old-project: SbsCs
 ms.assetid: 99032c27-d9a3-4319-ba6e-2271d35da804
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: CreateAssemblyCache, CreateAssemblyCache function [Side-by-side Assemblies], setup.createassemblycache, winsxs/CreateAssemblyCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

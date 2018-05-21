@@ -7,7 +7,7 @@ old-location: fs\deletefiletransacted.htm
 old-project: FileIO
 ms.assetid: e0a6230b-2da1-4746-95fe-80f7b6bae41f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: DeleteFileTransacted, DeleteFileTransacted function [Files], DeleteFileTransactedA, DeleteFileTransactedW, fs.deletefiletransacted, winbase/DeleteFileTransacted, winbase/DeleteFileTransactedA, winbase/DeleteFileTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

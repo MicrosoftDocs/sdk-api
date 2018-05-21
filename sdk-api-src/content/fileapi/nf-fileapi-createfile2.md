@@ -7,7 +7,7 @@ old-location: fs\createfile2.htm
 old-project: FileIO
 ms.assetid: cd7a81f3-60ee-443a-99f3-a4c8afd365e7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile2, CreateFile2 function [Files], FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, TRUNCATE_EXISTING, fileapi/CreateFile2, fs.createfile2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

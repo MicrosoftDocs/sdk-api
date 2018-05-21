@@ -7,7 +7,7 @@ old-location: security\deletecredential.htm
 old-project: SecAuthN
 ms.assetid: 06bc02ec-5c07-41db-9f00-49773a597a09
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: DeleteCredential, DeleteCredential function [Security], LSA_DELETE_CREDENTIAL, _lsa_deletecredential, ntsecpkg/DeleteCredential, security.deletecredential
 ms.prod: windows-hardware
 ms.technology: windows-devices

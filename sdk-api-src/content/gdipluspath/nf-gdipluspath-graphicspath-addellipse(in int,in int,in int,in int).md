@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddEllipse_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddellipsemethods.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: AddEllipse, AddEllipse methods [GDI+], GraphicsPath.AddEllipse, GraphicsPath.AddEllipse(IN INT,IN INT,IN INT,IN INT), GraphicsPath::AddEllipse, GraphicsPath::AddEllipse(IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_GraphicsPath_AddEllipse_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddEllipse_Methods, gdipluspath/AddEllipse
 ms.prod: windows-hardware
 ms.technology: windows-devices

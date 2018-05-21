@@ -7,7 +7,7 @@ old-location: security\ix509machineenrollmentfactory.htm
 old-project: SecCertEnroll
 ms.assetid: 2f97fdd7-13ca-4427-8ec5-24302d245fdb
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509MachineEnrollmentFactory, IX509MachineEnrollmentFactory interface [Security], IX509MachineEnrollmentFactory interface [Security],described, certenroll/IX509MachineEnrollmentFactory, security.ix509machineenrollmentfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

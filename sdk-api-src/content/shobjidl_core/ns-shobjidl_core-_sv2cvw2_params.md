@@ -7,7 +7,7 @@ old-location: shell\SV2CVW2_PARAMS.htm
 old-project: shell
 ms.assetid: 7e165654-74ea-4d8b-81b7-11257f87af53
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPSV2CVW2_PARAMS, LPSV2CVW2_PARAMS, LPSV2CVW2_PARAMS structure pointer [Windows Shell], SV2CVW2_PARAMS, SV2CVW2_PARAMS structure [Windows Shell], _SV2CVW2_PARAMS, _win32_SV2CVW2_PARAMS, shell.SV2CVW2_PARAMS, shobjidl_core/LPSV2CVW2_PARAMS, shobjidl_core/SV2CVW2_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SV2CVW2_PARAMS structure

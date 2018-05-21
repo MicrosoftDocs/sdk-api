@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_CharacterRange_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrange.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: CharacterRange, CharacterRange class [GDI+], CharacterRange class [GDI+],described, _gdiplus_CLASS_CharacterRange_Class, gdiplus._gdiplus_CLASS_CharacterRange_Class, gdiplustypes/CharacterRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

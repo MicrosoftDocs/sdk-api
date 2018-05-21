@@ -7,7 +7,7 @@ old-location: ics\inetsharingmanager_get_enumeveryconnection.htm
 old-project: ICS
 ms.assetid: f200ffbf-3ce1-4c1b-b4c6-28a8784b5cb8
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumEveryConnection method, INetSharingManager.get_EnumEveryConnection, INetSharingManager::get_EnumEveryConnection, _ics_inetsharingmanager_get_enumeveryconnection, get_EnumEveryConnection, get_EnumEveryConnection method [ICS/ICF], get_EnumEveryConnection method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_enumeveryconnection, netcon/INetSharingManager::get_EnumEveryConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

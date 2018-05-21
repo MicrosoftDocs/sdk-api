@@ -7,7 +7,7 @@ old-location: mf\imfpmediaplayer_getbordercolor.htm
 old-project: medfound
 ms.assetid: a07bacbd-3d45-4733-a506-3c54ec10b634
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetBorderColor, GetBorderColor method [Media Foundation], GetBorderColor method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetBorderColor method, IMFPMediaPlayer.GetBorderColor, IMFPMediaPlayer::GetBorderColor, mf.imfpmediaplayer_getbordercolor, mfplay/IMFPMediaPlayer::GetBorderColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_class_getmethod.htm
 old-project: wmi_v2
 ms.assetid: 9e6f6ef0-ca19-4416-baf7-bb2ab1d6d33d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_Class_GetMethod, MI_Class_GetMethod function [Windows Management Infrastructure (MI)], mi/MI_Class_GetMethod, wmi_v2.mi_class_getmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices

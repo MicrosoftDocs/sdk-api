@@ -2,7 +2,7 @@
 UID: TP:upnp
 ms.assetid: c3b0bda6-483a-3b34-92b5-8e06e3b07799
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: setup\msigetproductproperty.htm
 old-project: Msi
 ms.assetid: 724f6034-c492-4bab-97dc-d9b2f75e9642
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MsiGetProductProperty, MsiGetProductProperty function, MsiGetProductPropertyA, MsiGetProductPropertyW, _msi_msigetproductproperty, msi/MsiGetProductProperty, msi/MsiGetProductPropertyA, msi/MsiGetProductPropertyW, setup.msigetproductproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

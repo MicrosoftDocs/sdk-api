@@ -2,7 +2,7 @@
 UID: TP:wmp
 ms.assetid: 3fef26d9-3534-3463-99c7-69be76d785ec
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

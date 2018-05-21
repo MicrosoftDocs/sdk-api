@@ -7,7 +7,7 @@ old-location: perf\perfsetcounterrefvalue.htm
 old-project: PerfCtrs
 ms.assetid: 0694ff8c-4c36-4bf7-a2b3-c032bf7a2f65
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PerfSetCounterRefValue, PerfSetCounterRefValue function [Perf], base.perfsetcounterrefvalue, perf.perfsetcounterrefvalue, perflib/PerfSetCounterRefValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

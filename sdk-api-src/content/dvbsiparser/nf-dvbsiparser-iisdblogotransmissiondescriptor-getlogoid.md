@@ -7,7 +7,7 @@ old-location: mstv\iisdblogotransmissiondescriptor_getlogoid.htm
 old-project: mstv
 ms.assetid: f4c11012-5d37-4d8f-944b-edfa50719b12
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetLogoId, GetLogoId method [Microsoft TV Technologies], GetLogoId method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLogoId method, IIsdbLogoTransmissionDescriptor.GetLogoId, IIsdbLogoTransmissionDescriptor::GetLogoId, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoId, mstv.iisdblogotransmissiondescriptor_getlogoid
 ms.prod: windows-hardware
 ms.technology: windows-devices

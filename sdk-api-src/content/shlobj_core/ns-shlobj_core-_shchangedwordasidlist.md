@@ -7,7 +7,7 @@ old-location: shell\SHChangeDWORDAsIDList.htm
 old-project: shell
 ms.assetid: ebc05a9c-ed2b-41ff-93fb-9d8059fa360c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList structure pointer [Windows Shell], SHChangeDWORDAsIDList, SHChangeDWORDAsIDList structure [Windows Shell], _SHChangeDWORDAsIDList, _shell_SHChangeDWORDAsIDList, shell.SHChangeDWORDAsIDList, shlobj_core/LPSHChangeDWORDAsIDList, shlobj_core/SHChangeDWORDAsIDList"
 ms.prod: windows-hardware
 ms.technology: windows-devices

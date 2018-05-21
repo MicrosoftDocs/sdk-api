@@ -7,7 +7,7 @@ old-location: ad\dsa_newobj_dispinfo.htm
 old-project: AD
 ms.assetid: 966e2093-6ebd-42a0-923d-17f0494a9d0c
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDSA_NEWOBJ_DISPINFO, DSA_NEWOBJ_DISPINFO, DSA_NEWOBJ_DISPINFO structure [Active Directory], LPDSA_NEWOBJ_DISPINFO, LPDSA_NEWOBJ_DISPINFO structure pointer [Active Directory], ad.dsa_newobj_dispinfo, dsadmin/DSA_NEWOBJ_DISPINFO, dsadmin/LPDSA_NEWOBJ_DISPINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

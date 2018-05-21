@@ -7,7 +7,7 @@ old-location: ics\inetfwservice_globallyopenports.htm
 old-project: ICS
 ms.assetid: 51f0440f-6e0c-48b2-9dc0-bec503192fa1
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: GloballyOpenPorts property [ICS/ICF], GloballyOpenPorts property [ICS/ICF],INetFwService interface, INetFwService interface [ICS/ICF],GloballyOpenPorts property, INetFwService.GloballyOpenPorts, INetFwService.get_GloballyOpenPorts, INetFwService::GloballyOpenPorts, INetFwService::get_GloballyOpenPorts, get_GloballyOpenPorts, ics.inetfwservice_globallyopenports, netfw/INetFwService::GloballyOpenPorts, netfw/INetFwService::get_GloballyOpenPorts
 ms.prod: windows-hardware
 ms.technology: windows-devices

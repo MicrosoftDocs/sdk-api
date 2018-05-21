@@ -7,7 +7,7 @@ old-location: etw\eventdesccreate_func.htm
 old-project: ETW
 ms.assetid: 05ce400e-c2e5-4852-9c41-d98ac2a6b467
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EventDescCreate, EventDescCreate function [ETW], base.eventdesccreate_func, etw.eventdesccreate_func, evntprov/EventDescCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

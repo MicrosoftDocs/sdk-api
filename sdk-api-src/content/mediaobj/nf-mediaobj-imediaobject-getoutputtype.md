@@ -7,7 +7,7 @@ old-location: dshow\imediaobject_getoutputtype.htm
 old-project: DirectShow
 ms.assetid: a7652472-4091-4ecf-b623-5c6eb01be44a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetOutputType, GetOutputType method [DirectShow], GetOutputType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputType method, IMediaObject.GetOutputType, IMediaObject::GetOutputType, IMediaObjectGetOutputType, dshow.imediaobject_getoutputtype, mediaobj/IMediaObject::GetOutputType
 ms.prod: windows-hardware
 ms.technology: windows-devices

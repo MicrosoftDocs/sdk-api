@@ -7,7 +7,7 @@ old-location: display\engcreatedevicebitmap.htm
 old-project: display
 ms.assetid: dc9d7154-30b9-4462-9161-6df03946308d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: EngCreateDeviceBitmap, EngCreateDeviceBitmap function [Display Devices], display.engcreatedevicebitmap, gdifncs_e802b5e9-a939-4aa4-b4df-82172e825fa5.xml, winddi/EngCreateDeviceBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

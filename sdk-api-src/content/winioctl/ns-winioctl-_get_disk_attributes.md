@@ -7,7 +7,7 @@ old-location: fs\get_disk_attributes.htm
 old-project: FileIO
 ms.assetid: c6a0461d-cc23-4191-a0ff-c4279c1b097e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PGET_DISK_ATTRIBUTES, DISK_ATTRIBUTE_OFFLINE, DISK_ATTRIBUTE_READ_ONLY, GET_DISK_ATTRIBUTES, GET_DISK_ATTRIBUTES structure [Files], PGET_DISK_ATTRIBUTES, PGET_DISK_ATTRIBUTES structure pointer [Files], _GET_DISK_ATTRIBUTES, fs.get_disk_attributes, winioctl/GET_DISK_ATTRIBUTES, winioctl/PGET_DISK_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

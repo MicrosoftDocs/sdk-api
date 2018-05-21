@@ -7,7 +7,7 @@ old-location: rpc\rpcsmdisableallocate.htm
 old-project: Rpc
 ms.assetid: 229cab16-eabf-49d3-a61e-3c06e001d0ac
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcSmDisableAllocate, RpcSmDisableAllocate function [RPC], _rpc_rpcsmdisableallocate, rpc.rpcsmdisableallocate, rpcndr/RpcSmDisableAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices

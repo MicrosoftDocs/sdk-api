@@ -7,7 +7,7 @@ old-location: tapi2\phonegetgain.htm
 old-project: Tapi
 ms.assetid: ea6ba2f0-ff79-41b8-9165-bb250077b2dc
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: "_tapi2_phonegetgain, phoneGetGain, phoneGetGain function [TAPI 2.2], tapi/phoneGetGain, tapi2.phonegetgain"
 ms.prod: windows-hardware
 ms.technology: windows-devices

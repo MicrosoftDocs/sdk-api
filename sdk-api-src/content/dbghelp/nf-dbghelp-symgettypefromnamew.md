@@ -7,7 +7,7 @@ old-location: base\symgettypefromname.htm
 old-project: Debug
 ms.assetid: 3a48365f-3b8a-493d-9fd9-dde77be9ced2
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SymGetTypeFromName, SymGetTypeFromName function, SymGetTypeFromNameW, _win32_symgettypefromname, base.symgettypefromname, dbghelp/SymGetTypeFromName, dbghelp/SymGetTypeFromNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

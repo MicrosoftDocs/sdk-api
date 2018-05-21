@@ -7,7 +7,7 @@ old-location: fs\getfileattributesex.htm
 old-project: FileIO
 ms.assetid: e5d84000-17c1-4517-97a7-6bd240d73814
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: GetFileAttributesEx, GetFileAttributesEx function [Files], GetFileAttributesExA, GetFileAttributesExW, GetFileExInfoStandard, _win32_getfileattributesex, base.getfileattributesex, fileapi/GetFileAttributesEx, fileapi/GetFileAttributesExA, fileapi/GetFileAttributesExW, fs.getfileattributesex, winbase/GetFileAttributesEx, winbase/GetFileAttributesExA, winbase/GetFileAttributesExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

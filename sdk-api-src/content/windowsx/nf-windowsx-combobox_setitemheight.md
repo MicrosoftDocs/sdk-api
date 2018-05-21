@@ -7,7 +7,7 @@ old-location: controls\ComboBox_SetItemHeight.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setitemheight.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ComboBox_SetItemHeight, ComboBox_SetItemHeight macro [Windows Controls], _win32_ComboBox_SetItemHeight, _win32_ComboBox_SetItemHeight_cpp, controls.ComboBox_SetItemHeight, controls._win32_ComboBox_SetItemHeight, windowsx/ComboBox_SetItemHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices

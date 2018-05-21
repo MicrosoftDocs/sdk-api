@@ -2,11 +2,12 @@
 UID: TP:smi
 ms.assetid: b1cdcf64-e5d8-3c70-974f-c11fa9c6d21f
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Settings Management Infrastructure (SMI)

@@ -7,7 +7,7 @@ old-location: menurc\getmenuitemcount.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuitemcount.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: GetMenuItemCount, GetMenuItemCount function [Menus and Other Resources], _win32_GetMenuItemCount, _win32_getmenuitemcount_cpp, menurc.getmenuitemcount, winui._win32_getmenuitemcount, winuser/GetMenuItemCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

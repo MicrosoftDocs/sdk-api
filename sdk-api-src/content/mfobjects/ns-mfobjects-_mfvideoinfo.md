@@ -7,7 +7,7 @@ old-location: mf\mfvideoinfo.htm
 old-project: medfound
 ms.assetid: 746fd84f-58f8-42ab-bcf7-8fd18dcd02af
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 746fd84f-58f8-42ab-bcf7-8fd18dcd02af, MFVideoInfo, MFVideoInfo structure [Media Foundation], _MFVideoInfo, mf.mfvideoinfo, mfobjects/MFVideoInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

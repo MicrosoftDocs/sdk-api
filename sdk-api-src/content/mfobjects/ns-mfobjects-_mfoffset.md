@@ -7,7 +7,7 @@ old-location: mf\mfoffset.htm
 old-project: medfound
 ms.assetid: e93539fe-3e4a-4b34-8d6a-b3f300a70ffc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFOffset, MFOffset structure [Media Foundation], _MFOffset, e93539fe-3e4a-4b34-8d6a-b3f300a70ffc, mf.mfoffset, mfobjects/MFOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices

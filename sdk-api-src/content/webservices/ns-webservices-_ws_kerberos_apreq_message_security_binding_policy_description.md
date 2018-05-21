@@ -7,7 +7,7 @@ old-location: wsw\ws_kerberos_apreq_message_security_binding_policy_description.
 old-project: wsw
 ms.assetid: 722b6eec-75f1-4618-b6e8-203d406c603d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, wsw.ws_kerberos_apreq_message_security_binding_policy_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

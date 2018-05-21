@@ -2,7 +2,7 @@
 UID: NA:shobjidl
 ms.assetid: 78870113-d823-317f-858e-c902fa3bdd51
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

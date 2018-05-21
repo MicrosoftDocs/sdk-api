@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessage_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_44h1_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: IFaxIncomingMessage, IFaxIncomingMessage interface [Fax Service], IFaxIncomingMessage interface [Fax Service],described, _mfax_faxincomingmessage_cpp, fax._mfax_faxincomingmessage_cpp, faxcomex/IFaxIncomingMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

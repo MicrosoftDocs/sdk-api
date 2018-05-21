@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_arrayfield.htm
 old-project: wmi_v2
 ms.assetid: 55ff4b74-7184-4a7e-8048-da270eb69ee1
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_ArrayField, MI_ArrayField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ArrayField, mi/MI_ArrayField, wmi._mi_arrayfield, wmi_v2.mi_arrayfield
 ms.prod: windows-hardware
 ms.technology: windows-devices

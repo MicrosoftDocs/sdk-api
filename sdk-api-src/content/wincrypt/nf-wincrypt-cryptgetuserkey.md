@@ -7,7 +7,7 @@ old-location: security\cryptgetuserkey.htm
 old-project: SecCrypto
 ms.assetid: d9166b98-e5f1-4e5c-b6f1-2a086b102e0f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CryptGetUserKey, CryptGetUserKey function [Security], _crypto2_cryptgetuserkey, security.cryptgetuserkey, wincrypt/CryptGetUserKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

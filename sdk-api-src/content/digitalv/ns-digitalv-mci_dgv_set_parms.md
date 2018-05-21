@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_set_parms.htm
 old-project: Multimedia
 ms.assetid: 1dd44f82-0890-4485-91bf-e418e6369b2a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPMCI_DGV_SET_PARMS, MCI_DGV_SET_PARMS, MCI_DGV_SET_PARMS structure [Windows Multimedia], _win32_MCI_DGV_SET_PARMS_str, digitalv/MCI_DGV_SET_PARMS, multimedia.mci_dgv_set_parms"
 ms.prod: windows-hardware
 ms.technology: windows-devices

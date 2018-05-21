@@ -2,7 +2,7 @@
 UID: TP:wec
 ms.assetid: 91d1552a-99b3-3690-b81b-c0721e2d2a17
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

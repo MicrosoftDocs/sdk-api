@@ -7,7 +7,7 @@ old-location: setup\msigetfeatureusage.htm
 old-project: Msi
 ms.assetid: ab347f39-e1f6-4cb2-85ff-bad872b5256f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MsiGetFeatureUsage, MsiGetFeatureUsage function, MsiGetFeatureUsageA, MsiGetFeatureUsageW, _msi_msigetfeatureusage, msi/MsiGetFeatureUsage, msi/MsiGetFeatureUsageA, msi/MsiGetFeatureUsageW, setup.msigetfeatureusage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\ioctl_disk_verify.htm
 old-project: FileIO
 ms.assetid: 156b217d-6cdc-4802-b711-8845934e277b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: IOCTL_DISK_VERIFY, IOCTL_DISK_VERIFY control, IOCTL_DISK_VERIFY control code [Files], _win32_ioctl_disk_verify, base.ioctl_disk_verify, fs.ioctl_disk_verify, winioctl/IOCTL_DISK_VERIFY
 ms.prod: windows-hardware
 ms.technology: windows-devices

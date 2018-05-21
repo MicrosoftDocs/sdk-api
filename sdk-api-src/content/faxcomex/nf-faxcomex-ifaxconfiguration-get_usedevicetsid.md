@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_UseDeviceTSID_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\usedevicetsid.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxConfiguration object [Fax Service],UseDeviceTSID property, FaxConfiguration.UseDeviceTSID, IFaxConfiguration.get_UseDeviceTSID, IFaxConfiguration::get_UseDeviceTSID, UseDeviceTSID property [Fax Service], UseDeviceTSID property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_UseDeviceTSID, fax._mfax_FaxConfiguration_UseDeviceTSID_vb, get_UseDeviceTSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

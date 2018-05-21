@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_dispatch_arguments.htm
 old-project: direct3d12
 ms.assetid: E48E4D01-DED2-4FB0-AD5A-EE1496ACF025
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12_DISPATCH_ARGUMENTS, D3D12_DISPATCH_ARGUMENTS structure, d3d12/D3D12_DISPATCH_ARGUMENTS, direct3d12.d3d12_dispatch_arguments
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\ienumdialableaddrs_skip.htm
 old-project: Tapi
 ms.assetid: f68fa12d-dbd3-42a2-bef1-50881d57aa27
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: IEnumDialableAddrs interface [TAPI 2.2],Skip method, IEnumDialableAddrs.Skip, IEnumDialableAddrs::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumDialableAddrs interface, _tapi3_ienumdialableaddrs_skip, rend/IEnumDialableAddrs::Skip, tapi3.ienumdialableaddrs_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

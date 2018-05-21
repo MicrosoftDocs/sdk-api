@@ -7,7 +7,7 @@ old-location: iphlp\createipforwardentry.htm
 old-project: IpHlp
 ms.assetid: 72243390-c3b8-41c3-8771-a5fb1d6383ae
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CreateIpForwardEntry, CreateIpForwardEntry function [IP Helper], _iphlp_createipforwardentry, iphlp.createipforwardentry, iphlpapi/CreateIpForwardEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

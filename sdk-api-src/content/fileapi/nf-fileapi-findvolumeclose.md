@@ -7,7 +7,7 @@ old-location: fs\findvolumeclose.htm
 old-project: FileIO
 ms.assetid: 091a2f0c-df38-4fef-a926-3507545bb58d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: FindVolumeClose, FindVolumeClose function [Files], _win32_findvolumeclose, base.findvolumeclose, fileapi/FindVolumeClose, fs.findvolumeclose, winbase/FindVolumeClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

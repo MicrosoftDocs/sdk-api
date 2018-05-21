@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_ExcludeClip_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsexcludeclipmethods.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: ExcludeClip, ExcludeClip methods [GDI+], Graphics.ExcludeClip, Graphics.ExcludeClip(IN const Rect &), Graphics::ExcludeClip, Graphics::ExcludeClip(IN const Rect &), _gdiplus_CLASS_Graphics_ExcludeClip_Methods, gdiplus._gdiplus_CLASS_Graphics_ExcludeClip_Methods, gdiplusgraphics/ExcludeClip
 ms.prod: windows-hardware
 ms.technology: windows-devices

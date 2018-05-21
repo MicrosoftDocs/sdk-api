@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassregistration_put_direction.htm
 old-project: Tapi
 ms.assetid: b68c0697-e889-471d-857a-d11e974c6552
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_Direction method, ITPluggableTerminalClassRegistration.put_Direction, ITPluggableTerminalClassRegistration::put_Direction, _tapi3_itpluggableterminalclassregistration_put_direction, put_Direction, put_Direction method [TAPI 2.2], put_Direction method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_direction, termmgr/ITPluggableTerminalClassRegistration::put_Direction
 ms.prod: windows-hardware
 ms.technology: windows-devices

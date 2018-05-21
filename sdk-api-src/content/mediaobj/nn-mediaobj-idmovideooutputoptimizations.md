@@ -7,7 +7,7 @@ old-location: dshow\idmovideooutputoptimizations.htm
 old-project: DirectShow
 ms.assetid: 1e87d0e1-68be-4f86-aae2-cff3edfa573b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IDMOVideoOutputOptimizations, IDMOVideoOutputOptimizations interface [DirectShow], IDMOVideoOutputOptimizations interface [DirectShow],described, IDMOVideoOutputOptimizationsInterface, dshow.idmovideooutputoptimizations, mediaobj/IDMOVideoOutputOptimizations
 ms.prod: windows-hardware
 ms.technology: windows-devices

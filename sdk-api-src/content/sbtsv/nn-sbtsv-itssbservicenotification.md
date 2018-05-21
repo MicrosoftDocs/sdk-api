@@ -7,7 +7,7 @@ old-location: termserv\itssbservicenotification.htm
 old-project: TermServ
 ms.assetid: 19b90ada-5277-47cb-a8d5-18f5c89612c0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ITsSbServiceNotification, ITsSbServiceNotification interface [Remote Desktop Services], ITsSbServiceNotification interface [Remote Desktop Services],described, sbtsv/ITsSbServiceNotification, termserv.itssbservicenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\itssborchestrationnotifysink.htm
 old-project: TermServ
 ms.assetid: 767b6e73-ee0d-4802-99ff-ac37880a0884
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ITsSbOrchestrationNotifySink, ITsSbOrchestrationNotifySink interface [Remote Desktop Services], ITsSbOrchestrationNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbOrchestrationNotifySink, termserv.itssborchestrationnotifysink
 ms.prod: windows-hardware
 ms.technology: windows-devices

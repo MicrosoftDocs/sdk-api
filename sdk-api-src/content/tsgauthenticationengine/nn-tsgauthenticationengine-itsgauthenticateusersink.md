@@ -7,7 +7,7 @@ old-location: termserv\itsgauthenticateusersink.htm
 old-project: TermServ
 ms.assetid: 6cc0dca7-1bc7-4229-9f3b-74d600776210
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ITSGAuthenticateUserSink, ITSGAuthenticateUserSink interface [Remote Desktop Services], ITSGAuthenticateUserSink interface [Remote Desktop Services],described, termserv.itsgauthenticateusersink, tsgauthenticationengine/ITSGAuthenticateUserSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ipropertynotifysink.htm
 old-project: com
 ms.assetid: bfdf315c-6375-4c77-abd8-03f07342820f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IPropertyNotifySink, IPropertyNotifySink interface [COM], IPropertyNotifySink interface [COM],described, _ctrl_ipropertynotifysink, com.ipropertynotifysink, ocidl/IPropertyNotifySink
 ms.prod: windows-hardware
 ms.technology: windows-devices

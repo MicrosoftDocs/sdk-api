@@ -7,7 +7,7 @@ old-location: winrm\wsmancreatesession.htm
 old-project: WinRM
 ms.assetid: 5123d876-5123-4fa4-8f6f-859a26aad825
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: WSManCreateSession, WSManCreateSession function [Windows Remote Management], winrm.wsmancreatesession, wsman/WSManCreateSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

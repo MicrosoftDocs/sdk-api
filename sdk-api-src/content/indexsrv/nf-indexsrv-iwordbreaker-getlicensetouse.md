@@ -2,13 +2,13 @@
 UID: NF:indexsrv.IWordBreaker.GetLicenseToUse
 title: IWordBreaker::GetLicenseToUse
 author: windows-driver-content
-description: Retrieves a pointer to the license information for this implementation of the IWordBreaker interface.
-old-location: indexsrv\iwordbreaker_getlicensetouse.htm
-old-project: IndexSrv
-ms.assetid: VS|indexsrv|~\html\ixrefint_7vvp.htm
+description: Gets a pointer to the license information for this implementation of the IWordBreaker interface.
+old-location: search\_search_IWordBreaker_GetLicenseToUse.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\getlicensetouse.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: GetLicenseToUse, GetLicenseToUse method [Indexing Service], GetLicenseToUse method [Indexing Service],IWordBreaker interface, IWordBreaker interface [Indexing Service],GetLicenseToUse method, IWordBreaker.GetLicenseToUse, IWordBreaker::GetLicenseToUse, _idxs_IWordBreaker_GetLicenseToUse, indexsrv.iwordbreaker_getlicensetouse, indexsrv/IWordBreaker::GetLicenseToUse
+ms.date: 5/8/2018
+ms.keywords: GetLicenseToUse, GetLicenseToUse method [search], GetLicenseToUse method [search],IWordBreaker interface, IWordBreaker interface [search],GetLicenseToUse method, IWordBreaker.GetLicenseToUse, IWordBreaker::GetLicenseToUse, _search_IWordBreaker_GetLicenseToUse, indexsrv/IWordBreaker::GetLicenseToUse, search._search_IWordBreaker_GetLicenseToUse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,9 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
-
-Retrieves a pointer to the license information for this implementation of the <a href="https://msdn.microsoft.com/994befe1-e258-4c0a-b3a9-b5968e13456c">IWordBreaker</a> interface.
+Gets a pointer to the license information for this implementation of the <a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a> interface.
 
 
 ## -parameters
@@ -62,45 +60,18 @@ Retrieves a pointer to the license information for this implementation of the <a
 
 ### -param ppwcsLicense [out]
 
-A pointer to an output variable. The output variable receives a pointer to the license information for this <a href="https://msdn.microsoft.com/994befe1-e258-4c0a-b3a9-b5968e13456c">IWordBreaker</a> implementation. 
+Type: <b>WCHAR const**</b>
 
+Pointer to a variable that receives a pointer to the license information for this <a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a> implementation.
 
 
 ## -returns
 
 
 
-This method can return one of these values.
+Type: <b>HRESULT</b>
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation was completed successfully.
-
-</td>
-</tr>
-</table>
- 
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/994befe1-e258-4c0a-b3a9-b5968e13456c">IWordBreaker</a>
- 
-
- 
 

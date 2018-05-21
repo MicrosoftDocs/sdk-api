@@ -7,7 +7,7 @@ old-location: gdi\gettextalign.htm
 old-project: gdi
 ms.assetid: d3ec0350-2eb8-4843-88bb-d72cece710e7
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetTextAlign, GetTextAlign function [Windows GDI], _win32_GetTextAlign, gdi.gettextalign, wingdi/GetTextAlign
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\pdxvahdsw_createdevice.htm
 old-project: medfound
 ms.assetid: f76539c8-13a8-4608-87a6-4947f5debb02
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: PDXVAHDSW_CreateDevice, PDXVAHDSW_CreateDevice callback, PDXVAHDSW_CreateDevice callback function [Media Foundation], dxvahd/PDXVAHDSW_CreateDevice, mf.pdxvahdsw_createdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

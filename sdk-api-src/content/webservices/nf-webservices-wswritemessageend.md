@@ -7,7 +7,7 @@ old-location: wsw\wswritemessageend.htm
 old-project: wsw
 ms.assetid: 329193a7-932a-46d0-8e46-eef6bbdb8fa2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsWriteMessageEnd, WsWriteMessageEnd function [Web Services for Windows], webservices/WsWriteMessageEnd, wsw.wswritemessageend
 ms.prod: windows-hardware
 ms.technology: windows-devices

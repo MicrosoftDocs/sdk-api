@@ -1,0 +1,7 @@
+{
+  "tech": "wmlss",
+  "headers": [
+    "wmlss.h"
+  ],
+  "displayName": "Windows Media Library Sharing Services"
+}

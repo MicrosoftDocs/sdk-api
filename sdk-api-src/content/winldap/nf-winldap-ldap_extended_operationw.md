@@ -7,7 +7,7 @@ old-location: ldap\ldap_extended_operation.htm
 old-project: LDAP
 ms.assetid: 02dda7c5-9779-4390-9395-aa917fa82546
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_extended_operation, ldap.ldap__extended__operation, ldap.ldap_extended_operation, ldap_extended_operation, ldap_extended_operation function [LDAP], ldap_extended_operationA, ldap_extended_operationW, winldap/ldap_extended_operation, winldap/ldap_extended_operationA, winldap/ldap_extended_operationW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

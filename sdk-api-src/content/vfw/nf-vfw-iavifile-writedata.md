@@ -7,7 +7,7 @@ old-location: multimedia\iavifile_writedata.htm
 old-project: Multimedia
 ms.assetid: 0b693a98-a91a-4fba-99da-e3bac71c1b22
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAVIFile interface [Windows Multimedia],WriteData method, IAVIFile.WriteData, IAVIFile::WriteData, WriteData, WriteData method [Windows Multimedia], WriteData method [Windows Multimedia],IAVIFile interface, _win32_IAVIFile_WriteData, multimedia.iavifile_writedata, vfw/IAVIFile::WriteData
 ms.prod: windows-hardware
 ms.technology: windows-devices

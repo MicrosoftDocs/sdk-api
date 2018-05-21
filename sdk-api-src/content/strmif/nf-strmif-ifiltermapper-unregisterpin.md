@@ -7,7 +7,7 @@ old-location: dshow\ifiltermapper_unregisterpin.htm
 old-project: DirectShow
 ms.assetid: f8964890-53d7-4731-91b2-156e61809774
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IFilterMapper interface [DirectShow],UnregisterPin method, IFilterMapper.UnregisterPin, IFilterMapper::UnregisterPin, IFilterMapperUnregisterPin, UnregisterPin, UnregisterPin method [DirectShow], UnregisterPin method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_unregisterpin, strmif/IFilterMapper::UnregisterPin
 ms.prod: windows-hardware
 ms.technology: windows-devices

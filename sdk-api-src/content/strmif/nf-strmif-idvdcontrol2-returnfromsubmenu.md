@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol2_returnfromsubmenu.htm
 old-project: DirectShow
 ms.assetid: ef213ab6-3993-46e4-803d-3ce195256e7e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ReturnFromSubmenu method, IDvdControl2.ReturnFromSubmenu, IDvdControl2::ReturnFromSubmenu, IDvdControl2ReturnFromSubmenu, ReturnFromSubmenu, ReturnFromSubmenu method [DirectShow], ReturnFromSubmenu method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_returnfromsubmenu, strmif/IDvdControl2::ReturnFromSubmenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\immgetregisterwordstyle.htm
 old-project: Intl
 ms.assetid: 29ddf963-f421-4fad-9861-a6ed51e481ac
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ImmGetRegisterWordStyle, ImmGetRegisterWordStyle function [Internationalization for Windows Applications], ImmGetRegisterWordStyleA, ImmGetRegisterWordStyleW, _win32_ImmGetRegisterWordStyle, imm/ImmGetRegisterWordStyle, imm/ImmGetRegisterWordStyleA, imm/ImmGetRegisterWordStyleW, intl.immgetregisterwordstyle
 ms.prod: windows-hardware
 ms.technology: windows-devices

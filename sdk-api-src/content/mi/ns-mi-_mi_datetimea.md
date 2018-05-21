@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_datetimea.htm
 old-project: wmi_v2
 ms.assetid: 5a108160-a702-434c-8da6-3a2624d1d472
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_DatetimeA, MI_DatetimeA structure [Windows Management Infrastructure (MI)], _MI_DatetimeA, mi/MI_DatetimeA, wmi._mi_datetimea, wmi_v2.mi_datetimea
 ms.prod: windows-hardware
 ms.technology: windows-devices

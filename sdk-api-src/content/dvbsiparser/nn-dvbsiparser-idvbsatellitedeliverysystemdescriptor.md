@@ -7,7 +7,7 @@ old-location: mstv\idvbsatellitedeliverysystemdescriptor.htm
 old-project: mstv
 ms.assetid: 814becf0-c98a-4419-aca6-d9b22d273e97
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IDvbSatelliteDeliverySystemDescriptor, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies], IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],described, IDvbSatelliteDeliverySystemDescriptorInterface, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor, mstv.idvbsatellitedeliverysystemdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

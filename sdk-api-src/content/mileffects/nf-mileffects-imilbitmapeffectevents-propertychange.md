@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectevents_propertychange.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectevents\propertychange.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMILBitmapEffectEvents interface [WPF Bitmap Effects],PropertyChange method, IMILBitmapEffectEvents.PropertyChange, IMILBitmapEffectEvents::PropertyChange, PropertyChange, PropertyChange method [WPF Bitmap Effects], PropertyChange method [WPF Bitmap Effects],IMILBitmapEffectEvents interface, _wibe_imilbitmapeffectevents_propertychange, mileffects/IMILBitmapEffectEvents::PropertyChange, wibe._wibe_imilbitmapeffectevents_propertychange
 ms.prod: windows-hardware
 ms.technology: windows-devices

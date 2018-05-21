@@ -7,7 +7,7 @@ old-location: com\olecreatelinkex.htm
 old-project: com
 ms.assetid: b43acd14-3cf8-45da-8c2c-f2f6dc2ada78
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleCreateLinkEx, OleCreateLinkEx function [COM], _ole_OleCreateLinkEx, com.olecreatelinkex, ole2/OleCreateLinkEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

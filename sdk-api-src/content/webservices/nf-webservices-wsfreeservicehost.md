@@ -7,7 +7,7 @@ old-location: wsw\wsfreeservicehost.htm
 old-project: wsw
 ms.assetid: 5362d8a4-8b38-462a-a7c1-9cde19abee1e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsFreeServiceHost, WsFreeServiceHost function [Web Services for Windows], webservices/WsFreeServiceHost, wsw.wsfreeservicehost
 ms.prod: windows-hardware
 ms.technology: windows-devices

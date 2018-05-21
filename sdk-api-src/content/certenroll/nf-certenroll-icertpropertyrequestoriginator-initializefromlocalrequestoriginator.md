@@ -7,7 +7,7 @@ old-location: security\icertpropertyrequestoriginator_initializefromlocalrequest
 old-project: SecCertEnroll
 ms.assetid: 466e0767-d13a-4f5d-9715-47bb7b9d4142
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ICertPropertyRequestOriginator interface [Security],InitializeFromLocalRequestOriginator method, ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator, ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator, InitializeFromLocalRequestOriginator method [Security], InitializeFromLocalRequestOriginator method [Security],ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator, security.icertpropertyrequestoriginator_initializefromlocalrequestoriginator_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

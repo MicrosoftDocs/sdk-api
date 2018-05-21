@@ -7,7 +7,7 @@ old-location: security\cryptmsgverifycountersignatureencodedex.htm
 old-project: SecCrypto
 ms.assetid: da756cd5-1dec-4d88-9c90-76dd263035eb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CMSG_VERIFY_COUNTER_SIGN_ENABLE_STRONG_FLAG, CryptMsgVerifyCountersignatureEncodedEx, CryptMsgVerifyCountersignatureEncodedEx function [Security], _crypto2_cryptmsgverifycountersignatureencodedex, security.cryptmsgverifycountersignatureencodedex, wincrypt/CryptMsgVerifyCountersignatureEncodedEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlCustomDraw.htm
 old-project: shell
 ms.assetid: eac7c7c2-87f0-4af1-bf2f-f4fef5ddd92e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: INameSpaceTreeControlCustomDraw, INameSpaceTreeControlCustomDraw interface [Windows Shell], INameSpaceTreeControlCustomDraw interface [Windows Shell],described, _shell_INameSpaceTreeControlCustomDraw, shell.INameSpaceTreeControlCustomDraw, shobjidl/INameSpaceTreeControlCustomDraw
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\iwsdendpointproxy_geterrorinfo.htm
 old-project: WsdApi
 ms.assetid: 950f5634-1cc5-4981-9053-e9090374cc5e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetErrorInfo, GetErrorInfo method, GetErrorInfo method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,GetErrorInfo method, IWSDEndpointProxy.GetErrorInfo, IWSDEndpointProxy::GetErrorInfo, ncd.iwsdendpointproxy_geterrorinfo, wsdclient/IWSDEndpointProxy::GetErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

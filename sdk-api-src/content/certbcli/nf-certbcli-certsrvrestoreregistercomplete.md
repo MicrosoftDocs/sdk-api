@@ -7,7 +7,7 @@ old-location: security\certsrvrestoreregistercomplete.htm
 old-project: SecCrypto
 ms.assetid: 1459d5b2-2c12-48df-ae01-c713c86f1c2e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CertSrvRestoreRegisterComplete, CertSrvRestoreRegisterComplete function [Security], _certsrv_certsrvrestoreregistercomplete, certbcli/CertSrvRestoreRegisterComplete, security.certsrvrestoreregistercomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\setlogarchivetail.htm
 old-project: Clfs
 ms.assetid: 0cdd0b85-d53e-432d-962d-9e89143ec4c7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: SetLogArchiveTail, SetLogArchiveTail function [Files], clfsw32/SetLogArchiveTail, fs.setlogarchivetail
 ms.prod: windows-hardware
 ms.technology: windows-devices

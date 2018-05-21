@@ -7,7 +7,7 @@ old-location: ncd\wsd_probe_match_struct.htm
 old-project: WsdApi
 ms.assetid: a30b11c8-df26-495d-87c3-aa67e400ec28
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_PROBE_MATCH, WSD_PROBE_MATCH structure, _WSD_PROBE_MATCH, ncd.wsd_probe_match_struct, wsdtypes/WSD_PROBE_MATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices

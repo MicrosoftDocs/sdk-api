@@ -7,7 +7,7 @@ old-location: wsw\ws_create_channel_for_listener_callback.htm
 old-project: wsw
 ms.assetid: e5644452-8f58-45de-8dc2-878bbb05fcf3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK, WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback, WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_CREATE_CHANNEL_FOR_LISTENER_CALLBACK, wsw.ws_create_channel_for_listener_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_FUNC_IsCanonicalPixelFormat_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\iscanonicalpixelformat.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: IsCanonicalPixelFormat, IsCanonicalPixelFormat function [GDI+], _gdiplus_FUNC_IsCanonicalPixelFormat_, gdiplus._gdiplus_FUNC_IsCanonicalPixelFormat_, gdipluspixelformats/IsCanonicalPixelFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

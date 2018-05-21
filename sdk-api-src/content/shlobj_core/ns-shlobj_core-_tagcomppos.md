@@ -7,7 +7,7 @@ old-location: shell\COMPPOS.htm
 old-project: shell
 ms.assetid: 622bdf51-d605-4eb9-a692-09be028bbff8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPCOMPPOS, COMPPOS, COMPPOS structure [Windows Shell], LPCOMPPOS, LPCOMPPOS structure pointer [Windows Shell], _tagCOMPPOS, _win32_COMPPOS, shell.COMPPOS, shlobj_core/COMPPOS, shlobj_core/LPCOMPPOS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

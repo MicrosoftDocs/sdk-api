@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_shader_resource_view_desc.htm
 old-project: direct3d12
 ms.assetid: 2B4B868F-3E9F-4570-B1C7-2767ED717A3B
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12_SHADER_RESOURCE_VIEW_DESC, D3D12_SHADER_RESOURCE_VIEW_DESC structure, d3d12/D3D12_SHADER_RESOURCE_VIEW_DESC, direct3d12.d3d12_shader_resource_view_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

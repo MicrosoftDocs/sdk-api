@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongLongToUIntPtr
 title: ULongLongToUIntPtr function
 author: windows-driver-content
-description: Converts a value of type ULONGLONG to a value of type size_t.
-old-location: shell\ULongLongToSizeT.htm
+description: Converts a value of type ULONGLONG to a value of type UINT_PTR.
+old-location: shell\ULongLongToUIntPtr.htm
 old-project: shell
-ms.assetid: 8943b23b-946e-477a-a5d2-ff2d877db73f
+ms.assetid: c3c08ff3-e583-435d-9e44-5fab9371b7cd
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: ULongLongToSizeT, ULongLongToSizeT function [Windows Shell], ULongLongToUIntPtr, _shell_ULongLongToSizeT, intsafe/ULongLongToSizeT, shell.ULongLongToSizeT
+ms.date: 5/16/2018
+ms.keywords: ULongLongToSizeT, ULongLongToUIntPtr, ULongLongToUIntPtr function [Windows Shell], _shell_ULongLongToUIntPtr, intsafe/ULongLongToUIntPtr, shell.ULongLongToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	ULongLongToSizeT
+-	ULongLongToUIntPtr
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>ULONGLONG</b> to a value of type <b>size_t</b>.
+Converts a value of type <b>ULONGLONG</b> to a value of type <b>UINT_PTR</b>.
 
 
 ## -parameters
@@ -72,9 +72,9 @@ TBD
 
 
 
-#### - pcbResult [out]
+#### - puiResult [out]
 
-Type: <b>size_t*</b>
+Type: <b>UINT_PTR*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
@@ -95,6 +95,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>ULongLongToSizeT</b> is an alias for this function.
 
 
 

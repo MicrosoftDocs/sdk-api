@@ -7,7 +7,7 @@ old-location: mf\mfcreatefmpeg4mediasink.htm
 old-project: medfound
 ms.assetid: 31FDA8BD-C837-4CA4-8635-D4A7B53AC7AC
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFCreateFMPEG4MediaSink, MFCreateFMPEG4MediaSink function [Media Foundation], mf.mfcreatefmpeg4mediasink, mfidl/MFCreateFMPEG4MediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

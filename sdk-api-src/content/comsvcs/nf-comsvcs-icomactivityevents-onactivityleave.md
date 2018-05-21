@@ -7,7 +7,7 @@ old-location: cos\icomactivityevents_onactivityleave.htm
 old-project: cossdk
 ms.assetid: f39a8ce1-9c17-47eb-9405-c6a69dee88cc
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityLeave method, IComActivityEvents.OnActivityLeave, IComActivityEvents::OnActivityLeave, OnActivityLeave, OnActivityLeave method [COM+], OnActivityLeave method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityLeave, comsvcs/IComActivityEvents::OnActivityLeave, cos.icomactivityevents_onactivityleave
 ms.prod: windows-hardware
 ms.technology: windows-devices

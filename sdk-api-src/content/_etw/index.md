@@ -2,7 +2,7 @@
 UID: TP:etw
 ms.assetid: 74293fa7-68c7-3af9-9ada-3864addbc351
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\inetfwpolicy2_restorelocalfirewalldefaults.htm
 old-project: ICS
 ms.assetid: 420b07ff-e851-41cf-96c4-064430f292a1
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],RestoreLocalFirewallDefaults method, INetFwPolicy2.RestoreLocalFirewallDefaults, INetFwPolicy2::RestoreLocalFirewallDefaults, RestoreLocalFirewallDefaults, RestoreLocalFirewallDefaults method [ICS/ICF], RestoreLocalFirewallDefaults method [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_restorelocalfirewalldefaults, netfw/INetFwPolicy2::RestoreLocalFirewallDefaults
 ms.prod: windows-hardware
 ms.technology: windows-devices

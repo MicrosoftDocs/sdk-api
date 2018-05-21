@@ -7,7 +7,7 @@ old-location: rpc\mesencodedynbufferhandlecreate.htm
 old-project: Rpc
 ms.assetid: 4d8cb8e3-aa5a-4354-87e7-57543baa57e8
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: MesEncodeDynBufferHandleCreate, MesEncodeDynBufferHandleCreate function [RPC], _rpc_mesencodedynbufferhandlecreate, midles/MesEncodeDynBufferHandleCreate, rpc.mesencodedynbufferhandlecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

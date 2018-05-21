@@ -7,7 +7,7 @@ old-location: menurc\createiconfromresourceex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\createiconfromresourceex.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: CreateIconFromResourceEx, CreateIconFromResourceEx function [Menus and Other Resources], LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_MONOCHROME, LR_SHARED, _win32_CreateIconFromResourceEx, _win32_createiconfromresourceex_cpp, menurc.createiconfromresourceex, winui._win32_createiconfromresourceex, winuser/CreateIconFromResourceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

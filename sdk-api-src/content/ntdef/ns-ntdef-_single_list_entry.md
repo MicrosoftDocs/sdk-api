@@ -7,7 +7,7 @@ old-location: kernel\single_list_entry.htm
 old-project: kernel
 ms.assetid: 2db8ce7e-67e0-43e8-98b5-a2112db5bd5a
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSINGLE_LIST_ENTRY, PSINGLE_LIST_ENTRY, PSINGLE_LIST_ENTRY structure pointer [Kernel-Mode Driver Architecture], SINGLE_LIST_ENTRY, SINGLE_LIST_ENTRY structure [Kernel-Mode Driver Architecture], _SINGLE_LIST_ENTRY, kernel.single_list_entry, kstruct_d_146e3fe9-b909-4cd8-9eba-61203c32d658.xml, ntdef/PSINGLE_LIST_ENTRY, ntdef/SINGLE_LIST_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: Any level
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _SINGLE_LIST_ENTRY structure

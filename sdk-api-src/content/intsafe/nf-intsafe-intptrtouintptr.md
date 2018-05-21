@@ -2,13 +2,13 @@
 UID: NF:intsafe.IntPtrToUIntPtr
 title: IntPtrToUIntPtr function
 author: windows-driver-content
-description: Converts a value of type INT_PTR to a value of type size_t.
-old-location: shell\IntPtrToSizeT.htm
+description: Converts a value of type INT_PTR to a value of type UINT_PTR.
+old-location: shell\IntPtrToUIntPtr.htm
 old-project: shell
-ms.assetid: 8748f243-3c85-4748-adb4-d462664904de
+ms.assetid: 9c85af51-5f28-445d-a6fe-4d3dd5666b6f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: IntPtrToSizeT, IntPtrToSizeT function [Windows Shell], IntPtrToUIntPtr, _shell_IntPtrToSizeT, intsafe/IntPtrToSizeT, shell.IntPtrToSizeT
+ms.date: 5/16/2018
+ms.keywords: IntPtrToSizeT, IntPtrToUIntPtr, IntPtrToUIntPtr function [Windows Shell], PtrdiffTToSizeT, PtrdiffTToUIntPtr, _shell_IntPtrToUIntPtr, intsafe/IntPtrToUIntPtr, shell.IntPtrToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	IntPtrToSizeT
+-	IntPtrToUIntPtr
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>INT_PTR</b> to a value of type <b>size_t</b>.
+Converts a value of type <b>INT_PTR</b> to a value of type <b>UINT_PTR</b>.
 
 
 ## -parameters
@@ -62,21 +62,14 @@ Converts a value of type <b>INT_PTR</b> to a value of type <b>size_t</b>.
 
 Type: <b>INT_PTR</b>
 
-The value to be converted.
+A pointer to the value to be converted.
 
 
-### -param puResult
+### -param puResult [out]
 
-TBD
+Type: <b>UINT_PTR*</b>
 
-
-
-
-#### - pcbResult [out]
-
-Type: <b>size_t*</b>
-
-A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
+The address of the pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
 
 ## -returns
@@ -95,6 +88,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>PtrdiffTToUIntPtr</b> is an alias for this function.
+
+<b>PtrdiffTToSizeT</b> is an alias for this function.
+
+<b>IntPtrToSizeT</b> is an alias for this function.
 
 
 

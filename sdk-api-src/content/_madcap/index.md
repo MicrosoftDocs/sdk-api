@@ -2,11 +2,12 @@
 UID: TP:madcap
 ms.assetid: 9a065d27-3815-3bc9-8243-e48ad0b4be0d
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Multicast Address Dynamic Client Allocation Protocol (MADCAP)

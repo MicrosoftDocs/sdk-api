@@ -7,7 +7,7 @@ old-location: winrt\iinspectable.htm
 old-project: WinRT
 ms.assetid: 0657E51F-D4C0-46C6-927D-B01E54B6846C
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: IInspectable, IInspectable interface [Windows Runtime], IInspectable interface [Windows Runtime],described, inspectable/IInspectable, winrt.iinspectable
 ms.prod: windows-hardware
 ms.technology: windows-devices

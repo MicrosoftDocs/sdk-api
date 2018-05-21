@@ -7,7 +7,7 @@ old-location: display\dd_getvportconnectdata.htm
 old-project: display
 ms.assetid: 74cea50f-b8fd-4c32-815f-19f075b74838
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDD_GETVPORTCONNECTDATA, DD_GETVPORTCONNECTDATA, DD_GETVPORTCONNECTDATA structure [Display Devices], _DD_GETVPORTCONNECTDATA, ddrawint/DD_GETVPORTCONNECTDATA, ddstrcts_56b2c83f-8798-4960-8fb6-062ccd1d5dd3.xml, display.dd_getvportconnectdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

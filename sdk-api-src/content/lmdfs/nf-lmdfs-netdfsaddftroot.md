@@ -7,7 +7,7 @@ old-location: dfs\netdfsaddftroot.htm
 old-project: Dfs
 ms.assetid: df3192f8-f8fc-40ad-a5ff-fb991befff09
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: NetDfsAddFtRoot, NetDfsAddFtRoot function [Distributed File System], _win32_netdfsaddftroot, dfs.netdfsaddftroot, fs.netdfsaddftroot, lmdfs/NetDfsAddFtRoot, netmgmt.netdfsaddftroot
 ms.prod: windows-hardware
 ms.technology: windows-devices

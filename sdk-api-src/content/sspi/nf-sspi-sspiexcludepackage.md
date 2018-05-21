@@ -7,7 +7,7 @@ old-location: security\sspiexcludepackage.htm
 old-project: SecAuthN
 ms.assetid: 2f85bb13-b72a-4c26-a328-9424a33a63b8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SspiExcludePackage, SspiExcludePackage function [Security], security.sspiexcludepackage, sspi/SspiExcludePackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # SspiExcludePackage function

@@ -7,7 +7,7 @@ old-location: termserv\iwtsvirtualchannelcallback_ondatareceived.htm
 old-project: TermServ
 ms.assetid: 5876ba1a-3f37-4140-b448-91978aa7b0c9
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IWTSVirtualChannelCallback interface [Remote Desktop Services],OnDataReceived method, IWTSVirtualChannelCallback.OnDataReceived, IWTSVirtualChannelCallback::OnDataReceived, OnDataReceived, OnDataReceived method [Remote Desktop Services], OnDataReceived method [Remote Desktop Services],IWTSVirtualChannelCallback interface, termserv.iwtsvirtualchannelcallback_ondatareceived, tsvirtualchannels/IWTSVirtualChannelCallback::OnDataReceived
 ms.prod: windows-hardware
 ms.technology: windows-devices

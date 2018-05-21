@@ -7,7 +7,7 @@ old-location: mscs\endtypecontrolcall.htm
 old-project: MsCS
 ms.assetid: EF3C2DFA-2B8A-4709-A6B6-56427C0C00A5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: EndTypeControlCall, EndTypeControlCall callback, EndTypeControlCall callback function [Failover Cluster], PEND_TYPE_CONTROL_CALL, PEND_TYPE_CONTROL_CALL callback function [Failover Cluster], mscs.endtypecontrolcall, resapi/EndTypeControlCall, resapi/PEND_TYPE_CONTROL_CALL
 ms.prod: windows-hardware
 ms.technology: windows-devices

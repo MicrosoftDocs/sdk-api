@@ -7,7 +7,7 @@ old-location: mscs\getclusterresourcestate.htm
 old-project: MsCS
 ms.assetid: c3897c96-743e-4753-8fef-b8defe4f2b00
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_RESOURCE_STATE, PCLUSAPI_GET_CLUSTER_RESOURCE_STATE callback, PCLUSAPI_GET_CLUSTER_RESOURCE_STATE callback function [Failover Cluster], _wolf_getclusterresourcestate, clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_STATE, mscs.getclusterresourcestate
 ms.prod: windows-hardware
 ms.technology: windows-devices

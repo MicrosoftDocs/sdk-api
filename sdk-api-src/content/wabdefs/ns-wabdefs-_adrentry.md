@@ -7,7 +7,7 @@ old-location: wab\_wab_ADRENTRY.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrentry.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/10/2018
 ms.keywords: "*LPADRENTRY, ADRENTRY, ADRENTRY structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _ADRENTRY, _wab_ADRENTRY, wab._wab_ADRENTRY, wabdefs/ADRENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

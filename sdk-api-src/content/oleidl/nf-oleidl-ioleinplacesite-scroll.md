@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_scroll.htm
 old-project: com
 ms.assetid: a169c4c6-b600-4812-bf71-d7fcd7486ff1
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IOleInPlaceSite interface [COM],Scroll method, IOleInPlaceSite.Scroll, IOleInPlaceSite::Scroll, IOleInPlaceSiteWindowless.Scroll, Scroll, Scroll method [COM], Scroll method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_scroll, com.ioleinplacesite_scroll, oleidl/IOleInPlaceSite::Scroll
 ms.prod: windows-hardware
 ms.technology: windows-devices

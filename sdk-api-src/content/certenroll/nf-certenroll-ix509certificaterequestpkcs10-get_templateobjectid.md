@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestpkcs10_templateobjectid_property.h
 old-project: SecCertEnroll
 ms.assetid: 490a34bc-08b3-4df2-8996-6137bea53420
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],TemplateObjectId property, IX509CertificateRequestPkcs10.TemplateObjectId, IX509CertificateRequestPkcs10.get_TemplateObjectId, IX509CertificateRequestPkcs10::TemplateObjectId, IX509CertificateRequestPkcs10::get_TemplateObjectId, TemplateObjectId property [Security], TemplateObjectId property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::TemplateObjectId, certenroll/IX509CertificateRequestPkcs10::get_TemplateObjectId, get_TemplateObjectId, security.ix509certificaterequestpkcs10_templateobjectid_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\resutilresourcetypesequal.htm
 old-project: MsCS
 ms.assetid: 716d2174-5fa7-4868-9f33-ab6f815e6335
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PRESUTIL_RESOURCE_TYPES_EQUAL, PRESUTIL_RESOURCE_TYPES_EQUAL callback, PRESUTIL_RESOURCE_TYPES_EQUAL callback function [Failover Cluster], _wolf_resutilresourcetypesequal, mscs.resutilresourcetypesequal, resapi/PRESUTIL_RESOURCE_TYPES_EQUAL
 ms.prod: windows-hardware
 ms.technology: windows-devices

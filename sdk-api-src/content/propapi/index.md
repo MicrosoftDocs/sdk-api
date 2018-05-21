@@ -2,7 +2,7 @@
 UID: NA:propapi
 ms.assetid: c29f690c-152d-37dd-8171-91d771ca2a99
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfdxgidevicemanager_unlockdevice.htm
 old-project: medfound
 ms.assetid: DE6A8E16-BC25-4B7C-B95D-A46D7C0870E3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],UnlockDevice method, IMFDXGIDeviceManager.UnlockDevice, IMFDXGIDeviceManager::UnlockDevice, UnlockDevice, UnlockDevice method [Media Foundation], UnlockDevice method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_unlockdevice, mfobjects/IMFDXGIDeviceManager::UnlockDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

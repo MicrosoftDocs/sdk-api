@@ -7,7 +7,7 @@ old-location: base\isprocesscritical.htm
 old-project: ProcThread
 ms.assetid: A5ED8672-B4C3-4A31-8B3F-A181628219A4
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: IsProcessCritical, IsProcessCritical function, base.isprocesscritical, processthreadsapi/IsProcessCritical
 ms.prod: windows-hardware
 ms.technology: windows-devices

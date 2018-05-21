@@ -7,7 +7,7 @@ old-location: security\pstgetusernameforcertificate.htm
 old-project: SecAuthN
 ms.assetid: abef13bc-0d63-4c71-a1cb-9ade26b41da3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: PstGetUserNameForCertificate, PstGetUserNameForCertificate function [Security], certpoleng/PstGetUserNameForCertificate, security.pstgetusernameforcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: X509RequestType
+req.typenames: X509SCEPFailInfo
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: tapi3\ienummcastscope.htm
 old-project: Tapi
 ms.assetid: edc8be8e-635b-43f3-a4c1-7566e354cc3e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: IEnumMcastScope, IEnumMcastScope interface [TAPI 2.2], IEnumMcastScope interface [TAPI 2.2],described, _tapi3_ienummcastscope, mdhcp/IEnumMcastScope, tapi3.ienummcastscope
 ms.prod: windows-hardware
 ms.technology: windows-devices

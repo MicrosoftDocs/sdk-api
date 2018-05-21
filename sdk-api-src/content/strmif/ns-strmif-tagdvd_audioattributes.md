@@ -7,7 +7,7 @@ old-location: dshow\dvd_audioattributes.htm
 old-project: DirectShow
 ms.assetid: a4365c05-718e-4d48-bb2c-a13a609df82f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DVD_AudioAttributes, DVD_AudioAttributes structure [DirectShow], DVD_AudioAttributesStructure, dshow.dvd_audioattributes, strmif/DVD_AudioAttributes, tagDVD_AudioAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

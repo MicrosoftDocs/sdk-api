@@ -2,11 +2,12 @@
 UID: TP:mediatransport
 ms.assetid: d171fe26-62b3-31af-9f9a-88c6cce5d3b1
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Media Transport Controls

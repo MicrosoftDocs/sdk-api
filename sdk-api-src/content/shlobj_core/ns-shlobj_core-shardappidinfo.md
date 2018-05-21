@@ -7,7 +7,7 @@ old-location: shell\SHARDAPPIDINFO.htm
 old-project: shell
 ms.assetid: bb2b7e86-04ca-4dd0-944b-a95e8a0be1e0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: SHARDAPPIDINFO, SHARDAPPIDINFO structure [Windows Shell], _shell_SHARDAPPIDINFO, shell.SHARDAPPIDINFO, shlobj_core/SHARDAPPIDINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

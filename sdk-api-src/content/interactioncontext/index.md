@@ -2,11 +2,12 @@
 UID: NA:interactioncontext
 ms.assetid: 3b9fbbd1-acb3-3692-a650-98fb09062c98
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: input_intcontext
 ---
 

@@ -7,7 +7,7 @@ old-location: controls\mancode.htm
 old-project: Controls
 ms.assetid: 2d5ad40c-8c34-4365-a699-508ea918df2f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MANCODE, MANCODE enumeration [Windows Controls], MBOLD, MFRAK, MGREEK, MINIT, MISOL, MITAL, MLOOP, MMATH, MMONO, MOPEN, MOPENA, MROMN, MSANS, MSCRP, MSTRCH, MTAIL, __MIDL___MIDL_itf_tom_0000_0000_0003, controls.mancode, tom/MANCODE, tom/MBOLD, tom/MFRAK, tom/MGREEK, tom/MINIT, tom/MISOL, tom/MITAL, tom/MLOOP, tom/MMATH, tom/MMONO, tom/MOPEN, tom/MOPENA, tom/MROMN, tom/MSANS, tom/MSCRP, tom/MSTRCH, tom/MTAIL
 ms.prod: windows-hardware
 ms.technology: windows-devices

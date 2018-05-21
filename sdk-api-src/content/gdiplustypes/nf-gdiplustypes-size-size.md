@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Size_Size_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizeconstructors\size_20.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Size, Size class [GDI+],Size constructor, Size constructor [GDI+], Size constructor [GDI+],Size class, Size.Size, Size.Size(), Size::Size, _gdiplus_CLASS_Size_Size_, gdiplus._gdiplus_CLASS_Size_Size_
 ms.prod: windows-hardware
 ms.technology: windows-devices

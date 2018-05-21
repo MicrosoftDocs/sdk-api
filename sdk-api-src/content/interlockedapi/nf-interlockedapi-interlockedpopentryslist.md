@@ -7,7 +7,7 @@ old-location: base\interlockedpopentryslist.htm
 old-project: Sync
 ms.assetid: 10760fd4-5973-4ab0-991c-7a5951c798a4
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/17/2018
 ms.keywords: InterlockedPopEntrySList, InterlockedPopEntrySList function, _win32_interlockedpopentryslist, base.interlockedpopentryslist, interlockedapi/InterlockedPopEntrySList, winbase/InterlockedPopEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices

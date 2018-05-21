@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorendererdevices_get_count.htm
 old-project: mstv
 ms.assetid: 46a3b579-a027-4c80-9f7a-f81dd9af4d0d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],get_Count method, IMSVidAudioRendererDevices.get_Count, IMSVidAudioRendererDevices::get_Count, IMSVidAudioRendererDevicesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, mstv.imsvidaudiorendererdevices_get_count, segment/IMSVidAudioRendererDevices::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

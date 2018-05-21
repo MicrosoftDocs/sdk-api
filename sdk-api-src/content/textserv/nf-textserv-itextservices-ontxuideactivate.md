@@ -7,7 +7,7 @@ old-location: controls\ITextServices_OnTxUIDeactivate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxuideactivate.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextServices interface [Windows Controls],OnTxUIDeactivate method, ITextServices.OnTxUIDeactivate, ITextServices::OnTxUIDeactivate, OnTxUIDeactivate, OnTxUIDeactivate method [Windows Controls], OnTxUIDeactivate method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxUIDeactivate, _win32_ITextServices_OnTxUIDeactivate_cpp, controls.ITextServices_OnTxUIDeactivate, controls._win32_ITextServices_OnTxUIDeactivate, textserv/ITextServices::OnTxUIDeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

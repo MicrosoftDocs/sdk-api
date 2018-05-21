@@ -7,7 +7,7 @@ old-location: winprog\icamerauicontrol.htm
 old-project: DevNotes
 ms.assetid: e0fbcf43-cd52-4b5b-af4b-f7d673f7a7c9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ICameraUIControl, ICameraUIControl interface [Windows API], ICameraUIControl interface [Windows API],described, camerauicontrol/ICameraUIControl, winprog.icamerauicontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ialternativenames.htm
 old-project: SecCertEnroll
 ms.assetid: 6ebd5bd5-7bf3-43e3-9b72-47b2c9743174
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IAlternativeNames, IAlternativeNames interface [Security], IAlternativeNames interface [Security],described, certenroll/IAlternativeNames, security.ialternativenames
 ms.prod: windows-hardware
 ms.technology: windows-devices

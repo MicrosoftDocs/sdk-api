@@ -7,7 +7,7 @@ old-location: com\ioleobject_getclientsite.htm
 old-project: com
 ms.assetid: bf26b989-445c-48d3-b279-29e4cef0ad97
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: GetClientSite, GetClientSite method [COM], GetClientSite method [COM],IOleObject interface, IOleObject interface [COM],GetClientSite method, IOleObject.GetClientSite, IOleObject::GetClientSite, _ole_ioleobject_getclientsite, com.ioleobject_getclientsite, oleidl/IOleObject::GetClientSite
 ms.prod: windows-hardware
 ms.technology: windows-devices

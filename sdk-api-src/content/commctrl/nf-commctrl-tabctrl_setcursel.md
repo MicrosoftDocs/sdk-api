@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_SetCurSel.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setcursel.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: TabCtrl_SetCurSel, TabCtrl_SetCurSel macro [Windows Controls], _win32_TabCtrl_SetCurSel, _win32_TabCtrl_SetCurSel_cpp, commctrl/TabCtrl_SetCurSel, controls.TabCtrl_SetCurSel, controls._win32_TabCtrl_SetCurSel
 ms.prod: windows-hardware
 ms.technology: windows-devices

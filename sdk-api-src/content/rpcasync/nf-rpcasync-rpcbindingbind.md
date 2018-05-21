@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingbind.htm
 old-project: Rpc
 ms.assetid: dbc73a66-b1ca-4a53-b662-430b611f8c20
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcBindingBind, RpcBindingBind function [RPC], rpc.rpcbindingbind, rpcasync/RpcBindingBind
 ms.prod: windows-hardware
 ms.technology: windows-devices

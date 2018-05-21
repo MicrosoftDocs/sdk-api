@@ -7,7 +7,7 @@ old-location: wsw\wsreadmetadata.htm
 old-project: wsw
 ms.assetid: 0b824948-e06d-482d-8d53-c4e27d1ecf0f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsReadMetadata, WsReadMetadata function [Web Services for Windows], webservices/WsReadMetadata, wsw.wsreadmetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

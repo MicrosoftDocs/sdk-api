@@ -7,7 +7,7 @@ old-location: ldap\ldap_compare.htm
 old-project: LDAP
 ms.assetid: 0cdcea2f-5ee2-407a-a229-5a3fb1e3b856
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_compare, ldap.ldap__compare, ldap.ldap_compare, ldap_compare, ldap_compare function [LDAP], ldap_compareA, ldap_compareW, winldap/ldap_compare, winldap/ldap_compareA, winldap/ldap_compareW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

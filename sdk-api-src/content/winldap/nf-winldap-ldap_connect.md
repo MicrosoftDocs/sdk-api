@@ -7,7 +7,7 @@ old-location: ldap\ldap_connect.htm
 old-project: LDAP
 ms.assetid: 783e52fd-d758-47ba-b350-878a2efec8a3
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_connect, ldap.ldap__connect, ldap.ldap_connect, ldap_connect, ldap_connect function [LDAP], winldap/ldap_connect"
 ms.prod: windows-hardware
 ms.technology: windows-devices

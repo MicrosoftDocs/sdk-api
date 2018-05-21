@@ -7,7 +7,7 @@ old-location: ics\inetfwauthorizedapplication.htm
 old-project: ICS
 ms.assetid: 1ddeeab8-b81b-4d34-9ca6-103147fb3426
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetFwAuthorizedApplication, INetFwAuthorizedApplication interface [ICS/ICF], INetFwAuthorizedApplication interface [ICS/ICF],described, ics.inetfwauthorizedapplication, netfw/INetFwAuthorizedApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

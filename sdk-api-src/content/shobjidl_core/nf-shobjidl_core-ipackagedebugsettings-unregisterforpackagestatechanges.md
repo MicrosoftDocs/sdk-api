@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_UnregisterForPackageStateChanges.htm
 old-project: shell
 ms.assetid: CFCDA0AD-83D5-43DD-A7DD-C121563BF3DB
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],UnregisterForPackageStateChanges method, IPackageDebugSettings.UnregisterForPackageStateChanges, IPackageDebugSettings::UnregisterForPackageStateChanges, UnregisterForPackageStateChanges, UnregisterForPackageStateChanges method [Windows Shell], UnregisterForPackageStateChanges method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_UnregisterForPackageStateChanges, shobjidl_core/IPackageDebugSettings::UnregisterForPackageStateChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IPackageDebugSettings::UnregisterForPackageStateChanges

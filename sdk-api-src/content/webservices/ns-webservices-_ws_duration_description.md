@@ -7,7 +7,7 @@ old-location: wsw\ws_duration_description.htm
 old-project: wsw
 ms.assetid: 51084a56-f666-4ca0-b98c-9f41e28b99c0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_DURATION_DESCRIPTION, WS_DURATION_DESCRIPTION structure [Web Services for Windows], _WS_DURATION_DESCRIPTION, webservices/WS_DURATION_DESCRIPTION, wsw.ws_duration_description
 ms.prod: windows-hardware
 ms.technology: windows-devices

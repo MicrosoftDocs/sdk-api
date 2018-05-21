@@ -7,7 +7,7 @@ old-location: rras\rasgetautodialparam.htm
 old-project: RRAS
 ms.assetid: 49f0f944-49e7-4836-bf56-0fef07f39191
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RASADP_ConnectionQueryTimeout, RASADP_DisableConnectionQuery, RASADP_FailedConnectionTimeout, RASADP_LoginSessionDisable, RASADP_SavedAddressesLimit, RasGetAutodialParam, RasGetAutodialParam function [RAS], RasGetAutodialParamA, RasGetAutodialParamW, _ras_rasgetautodialparam, ras/RasGetAutodialParam, ras/RasGetAutodialParamA, ras/RasGetAutodialParamW, rras.rasgetautodialparam
 ms.prod: windows-hardware
 ms.technology: windows-devices

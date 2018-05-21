@@ -7,7 +7,7 @@ old-location: dshow\ikstopologyinfo_createnodeinstance.htm
 old-project: DirectShow
 ms.assetid: f2c7ea1d-abd6-4179-b5b7-d89837ceecd7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CreateNodeInstance, CreateNodeInstance method [DirectShow], CreateNodeInstance method [DirectShow],IKsTopologyInfo interface, IKsTopologyInfo interface [DirectShow],CreateNodeInstance method, IKsTopologyInfo.CreateNodeInstance, IKsTopologyInfo::CreateNodeInstance, IKsTopologyInfoCreateNodeInstance, dshow.ikstopologyinfo_createnodeinstance, vidcap/IKsTopologyInfo::CreateNodeInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

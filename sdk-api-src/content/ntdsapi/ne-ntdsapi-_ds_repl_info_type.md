@@ -7,7 +7,7 @@ old-location: ad\ds_repl_info_type.htm
 old-project: AD
 ms.assetid: 88d8a164-2192-4e73-a190-aa5b5dbb1101
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: DS_REPL_INFO_CURSORS_2_FOR_NC, DS_REPL_INFO_CURSORS_3_FOR_NC, DS_REPL_INFO_CURSORS_FOR_NC, DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, DS_REPL_INFO_KCC_DSA_LINK_FAILURES, DS_REPL_INFO_METADATA_2_FOR_ATTR_VALUE, DS_REPL_INFO_METADATA_2_FOR_OBJ, DS_REPL_INFO_METADATA_FOR_ATTR_VALUE, DS_REPL_INFO_METADATA_FOR_OBJ, DS_REPL_INFO_NEIGHBORS, DS_REPL_INFO_PENDING_OPS, DS_REPL_INFO_TYPE, DS_REPL_INFO_TYPE enumeration [Active Directory], _DS_REPL_INFO_TYPE, _glines_ds_repl_info_type, ad.ds__repl__info__type, ad.ds_repl_info_type, ntdsapi/DS_REPL_INFO_CURSORS_2_FOR_NC, ntdsapi/DS_REPL_INFO_CURSORS_3_FOR_NC, ntdsapi/DS_REPL_INFO_CURSORS_FOR_NC, ntdsapi/DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, ntdsapi/DS_REPL_INFO_KCC_DSA_LINK_FAILURES, ntdsapi/DS_REPL_INFO_METADATA_2_FOR_ATTR_VALUE, ntdsapi/DS_REPL_INFO_METADATA_2_FOR_OBJ, ntdsapi/DS_REPL_INFO_METADATA_FOR_ATTR_VALUE, ntdsapi/DS_REPL_INFO_METADATA_FOR_OBJ, ntdsapi/DS_REPL_INFO_NEIGHBORS, ntdsapi/DS_REPL_INFO_PENDING_OPS, ntdsapi/DS_REPL_INFO_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ product: Windows
 targetos: Windows
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Any level
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 

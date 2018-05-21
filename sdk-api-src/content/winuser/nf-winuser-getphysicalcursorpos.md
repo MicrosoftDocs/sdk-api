@@ -7,7 +7,7 @@ old-location: menurc\getphysicalcursorpos.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getphysicalcursorpos.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: GetPhysicalCursorPos, GetPhysicalCursorPos function [Menus and Other Resources], _win32_GetPhysicalCursorPos, _win32_getphysicalcursorpos_cpp, menurc.getphysicalcursorpos, winui._win32_getphysicalcursorpos, winuser/GetPhysicalCursorPos
 ms.prod: windows-hardware
 ms.technology: windows-devices

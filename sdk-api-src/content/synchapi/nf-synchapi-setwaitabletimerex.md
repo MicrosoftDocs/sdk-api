@@ -7,7 +7,7 @@ old-location: base\setwaitabletimerex.htm
 old-project: Sync
 ms.assetid: 2facde72-6e04-4a2f-9ee6-059f36932539
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/17/2018
 ms.keywords: SetWaitableTimerEx, SetWaitableTimerEx function, base.setwaitabletimerex, synchapi/SetWaitableTimerEx, winbase/SetWaitableTimerEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

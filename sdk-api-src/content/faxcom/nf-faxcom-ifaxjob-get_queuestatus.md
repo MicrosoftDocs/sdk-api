@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_get_queuestatus_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8mnn.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: Deleting, Failed, FaxJob object [Fax Service],QueueStatus property, FaxJob.QueueStatus, IFaxJob.get_QueueStatus, IFaxJob::get_QueueStatus, In Progress, No Line, Paused, Pending, QueueStatus property [Fax Service], QueueStatus property [Fax Service],FaxJob object, Retries Exceeded, Retrying, _mfax_ifaxjob_get_queuestatus, fax._mfax_ifaxjob_get_queuestatus, fax._mfax_ifaxjob_get_queuestatus_vb, get_QueueStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

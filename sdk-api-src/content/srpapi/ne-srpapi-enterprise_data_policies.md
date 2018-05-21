@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Nmapi.lib
 req.dll: Nmapi.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # ENTERPRISE_DATA_POLICIES enumeration

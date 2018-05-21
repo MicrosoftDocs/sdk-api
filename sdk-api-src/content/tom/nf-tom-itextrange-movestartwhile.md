@@ -7,7 +7,7 @@ old-location: controls\ITextRange_MoveStartWhile.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movestartwhile.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveStartWhile method, ITextRange.MoveStartWhile, ITextRange::MoveStartWhile, MoveStartWhile, MoveStartWhile method [Windows Controls], MoveStartWhile method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveStartWhile, _win32_ITextRange_MoveStartWhile_cpp, controls.ITextRange_MoveStartWhile, controls._win32_ITextRange_MoveStartWhile, tom/ITextRange::MoveStartWhile
 ms.prod: windows-hardware
 ms.technology: windows-devices

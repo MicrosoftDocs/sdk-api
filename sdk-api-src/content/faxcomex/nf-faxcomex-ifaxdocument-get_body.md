@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument_body_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1d6h.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: Body property [Fax Service], Body property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],Body property, FaxDocument.Body, IFaxDocument.get_Body, IFaxDocument::get_Body, _mfax_faxdocument.body, fax._mfax_faxdocument_body, fax._mfax_faxdocument_body_vb, get_Body
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\getenhmetafiledescription.htm
 old-project: gdi
 ms.assetid: 51f4f617-fe53-4463-b222-cb6860d15dd6
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetEnhMetaFileDescription, GetEnhMetaFileDescription function [Windows GDI], GetEnhMetaFileDescriptionA, GetEnhMetaFileDescriptionW, _win32_GetEnhMetaFileDescription, gdi.getenhmetafiledescription, wingdi/GetEnhMetaFileDescription, wingdi/GetEnhMetaFileDescriptionA, wingdi/GetEnhMetaFileDescriptionW
 ms.prod: windows-hardware
 ms.technology: windows-devices

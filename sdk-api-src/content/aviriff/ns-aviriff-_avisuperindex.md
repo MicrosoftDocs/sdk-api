@@ -7,7 +7,7 @@ old-location: dshow\avisuperindex.htm
 old-project: DirectShow
 ms.assetid: 57c855ef-d4ea-4e11-a37b-941335ccf657
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AVISUPERINDEX, AVISUPERINDEX structure [DirectShow], _avisuperindex, aviriff/AVISUPERINDEX, dshow.avisuperindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

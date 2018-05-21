@@ -7,7 +7,7 @@ old-location: com\imallocspy.htm
 old-project: com
 ms.assetid: 8ba500f7-c070-4788-b7fe-58b6a4e6a94c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IMallocSpy, IMallocSpy interface [COM], IMallocSpy interface [COM],described, _com_imallocspy, com.imallocspy, objidl/IMallocSpy
 ms.prod: windows-hardware
 ms.technology: windows-devices

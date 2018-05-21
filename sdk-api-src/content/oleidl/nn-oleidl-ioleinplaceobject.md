@@ -7,7 +7,7 @@ old-location: com\ioleinplaceobject.htm
 old-project: com
 ms.assetid: c14de79d-e844-49cf-ae70-6c3e417fab90
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IOleInPlaceObject, IOleInPlaceObject interface [COM], IOleInPlaceObject interface [COM],described, _ole_ioleinplaceobject, com.ioleinplaceobject, oleidl/IOleInPlaceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

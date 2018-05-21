@@ -7,7 +7,7 @@ old-location: mf\imfcapturepreviewsink.htm
 old-project: medfound
 ms.assetid: 5E64C24D-D6EC-419B-9DC8-309EBCE0077E
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], IMFCapturePreviewSink interface [Media Foundation],described, mf.imfcapturepreviewsink, mfcaptureengine/IMFCapturePreviewSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

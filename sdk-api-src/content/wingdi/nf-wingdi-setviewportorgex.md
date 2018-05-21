@@ -7,7 +7,7 @@ old-location: gdi\setviewportorgex.htm
 old-project: gdi
 ms.assetid: d3b6326e-9fec-42a1-8d2e-d1ad4fcc79a4
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: SetViewportOrgEx, SetViewportOrgEx function [Windows GDI], _win32_SetViewportOrgEx, gdi.setviewportorgex, wingdi/SetViewportOrgEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

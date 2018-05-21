@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetWrapMode_wrapMode_.h
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setwrapmode_76wrapmode.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: LinearGradientBrush class [GDI+],SetWrapMode method, LinearGradientBrush.SetWrapMode, LinearGradientBrush::SetWrapMode, SetWrapMode, SetWrapMode method [GDI+], SetWrapMode method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_SetWrapMode_wrapMode_, gdiplus._gdiplus_CLASS_LinearGradientBrush_SetWrapMode_wrapMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices

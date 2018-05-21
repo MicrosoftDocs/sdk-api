@@ -2,7 +2,7 @@
 UID: TP:opengl
 ms.assetid: f3b832d0-ebcb-33ea-bfb2-aa910e23d054
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

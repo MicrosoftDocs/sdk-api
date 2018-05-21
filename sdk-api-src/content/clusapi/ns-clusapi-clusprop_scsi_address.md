@@ -7,7 +7,7 @@ old-location: mscs\clusprop_scsi_address.htm
 old-project: MsCS
 ms.assetid: 30907886-0c86-4e8a-9a95-5b62f6ffff76
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: "*PCLUSPROP_SCSI_ADDRESS, CLUSPROP_SCSI_ADDRESS, CLUSPROP_SCSI_ADDRESS structure [Failover Cluster], PCLUSPROP_SCSI_ADDRESS, PCLUSPROP_SCSI_ADDRESS structure pointer [Failover Cluster], _wolf_clusprop_scsi_address, clusapi/CLUSPROP_SCSI_ADDRESS, clusapi/PCLUSPROP_SCSI_ADDRESS, mscs.clusprop_scsi_address"
 ms.prod: windows-hardware
 ms.technology: windows-devices

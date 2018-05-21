@@ -7,7 +7,7 @@ old-location: mstv\ibda_namevalueservice.htm
 old-project: mstv
 ms.assetid: 7b6a12d2-24e4-42d8-9138-86c2fe558d86
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IBDA_NameValueService, IBDA_NameValueService interface [Microsoft TV Technologies], IBDA_NameValueService interface [Microsoft TV Technologies],described, bdaiface/IBDA_NameValueService, mstv.ibda_namevalueservice
 ms.prod: windows-hardware
 ms.technology: windows-devices

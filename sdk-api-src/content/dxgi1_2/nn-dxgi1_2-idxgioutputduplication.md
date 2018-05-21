@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutputduplication.htm
 old-project: direct3ddxgi
 ms.assetid: 02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: IDXGIOutputDuplication, IDXGIOutputDuplication interface [DXGI], IDXGIOutputDuplication interface [DXGI],described, direct3ddxgi.idxgioutputduplication, dxgi1_2/IDXGIOutputDuplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

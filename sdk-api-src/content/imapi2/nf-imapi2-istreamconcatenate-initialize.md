@@ -7,7 +7,7 @@ old-location: imapi\istreamconcatenate_initialize.htm
 old-project: imapi
 ms.assetid: 62db148e-926d-47b3-a0f6-945730177184
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IStreamConcatenate interface [IMAPI],Initialize method, IStreamConcatenate.Initialize, IStreamConcatenate::Initialize, Initialize, Initialize method [IMAPI], Initialize method [IMAPI],IStreamConcatenate interface, imapi.istreamconcatenate_initialize, imapi2/IStreamConcatenate::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

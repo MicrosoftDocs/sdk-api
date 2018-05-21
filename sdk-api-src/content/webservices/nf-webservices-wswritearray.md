@@ -7,7 +7,7 @@ old-location: wsw\wswritearray.htm
 old-project: wsw
 ms.assetid: c172dc3c-0c0a-4c92-8103-465b636d0c61
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsWriteArray, WsWriteArray function [Web Services for Windows], webservices/WsWriteArray, wsw.wswritearray
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rpc\cstdstubbuffer2_countrefs.htm
 old-project: Rpc
 ms.assetid: 871484FD-D51C-4F6E-8A44-5ABDD86E7BB6
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: CStdStubBuffer2_CountRefs, CStdStubBuffer2_CountRefs function [RPC], rpc.cstdstubbuffer2_countrefs, rpcproxy/CStdStubBuffer2_CountRefs
 ms.prod: windows-hardware
 ms.technology: windows-devices

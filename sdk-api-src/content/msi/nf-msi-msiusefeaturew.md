@@ -7,7 +7,7 @@ old-location: setup\msiusefeature.htm
 old-project: Msi
 ms.assetid: 7a4dc671-d82e-4775-8198-79b80a4dd9e4
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MsiUseFeature, MsiUseFeature function, MsiUseFeatureA, MsiUseFeatureW, _msi_msiusefeature, msi/MsiUseFeature, msi/MsiUseFeatureA, msi/MsiUseFeatureW, setup.msiusefeature
 ms.prod: windows-hardware
 ms.technology: windows-devices

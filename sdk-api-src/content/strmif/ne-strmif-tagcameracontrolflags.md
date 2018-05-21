@@ -7,7 +7,7 @@ old-location: dshow\cameracontrolflags.htm
 old-project: DirectShow
 ms.assetid: 806322e7-9a70-4dc1-8b10-2479fb3ec935
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CameraControlFlags, CameraControlFlags enumeration [DirectShow], CameraControlFlagsEnumeration, CameraControl_Flags_Auto, CameraControl_Flags_Manual, dshow.cameracontrolflags, strmif/CameraControlFlags, strmif/CameraControl_Flags_Auto, strmif/CameraControl_Flags_Manual, tagCameraControlFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # tagCameraControlFlags enumeration

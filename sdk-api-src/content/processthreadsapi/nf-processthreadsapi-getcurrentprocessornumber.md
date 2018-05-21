@@ -7,7 +7,7 @@ old-location: base\getcurrentprocessornumber.htm
 old-project: ProcThread
 ms.assetid: 1f2bebc7-a548-409a-ab74-78a4b55c8fa7
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: GetCurrentProcessorNumber, GetCurrentProcessorNumber function, base.getcurrentprocessornumber, processthreadsapi/GetCurrentProcessorNumber, winbase/GetCurrentProcessorNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfsensorgroup.htm
 old-project: medfound
 ms.assetid: 7CED3EF6-E844-4B3A-8181-CA44FC4675EC
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFSensorGroup, IMFSensorGroup interface [Media Foundation], IMFSensorGroup interface [Media Foundation],described, mf.imfsensorgroup, mfidl/IMFSensorGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

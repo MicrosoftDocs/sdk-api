@@ -7,7 +7,7 @@ old-location: mf\imfcaptureengineclassfactory.htm
 old-project: medfound
 ms.assetid: FAFA52AD-B96E-4ADC-BE79-3BE5F1ACC92A
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFCaptureEngineClassFactory, IMFCaptureEngineClassFactory interface [Media Foundation], IMFCaptureEngineClassFactory interface [Media Foundation],described, mf.imfcaptureengineclassfactory, mfcaptureengine/IMFCaptureEngineClassFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

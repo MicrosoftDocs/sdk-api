@@ -7,7 +7,7 @@ old-location: mib\mib_invertedifstack_row.htm
 old-project: MIB
 ms.assetid: dedccd32-b922-4729-92f3-879e98a7dc7a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PMIB_INVERTEDIFSTACK_ROW, MIB_INVERTEDIFSTACK_ROW, MIB_INVERTEDIFSTACK_ROW structure [MIB], PMIB_INVERTEDIFSTACK_ROW, PMIB_INVERTEDIFSTACK_ROW structure pointer [MIB], _MIB_INVERTEDIFSTACK_ROW, mib.mib_invertedifstack_row, netioapi/MIB_INVERTEDIFSTACK_ROW, netioapi/PMIB_INVERTEDIFSTACK_ROW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

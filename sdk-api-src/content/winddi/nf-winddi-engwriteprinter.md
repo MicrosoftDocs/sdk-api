@@ -7,7 +7,7 @@ old-location: display\engwriteprinter.htm
 old-project: display
 ms.assetid: c65f09b2-5924-479a-8067-a1ba472348e2
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: EngWritePrinter, EngWritePrinter function [Display Devices], display.engwriteprinter, gdifncs_ec307778-86e1-4f8c-96c8-66c86e196a67.xml, winddi/EngWritePrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices

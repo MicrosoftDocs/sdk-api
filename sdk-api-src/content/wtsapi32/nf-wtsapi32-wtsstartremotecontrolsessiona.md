@@ -7,7 +7,7 @@ old-location: termserv\wtsstartremotecontrolsession.htm
 old-project: TermServ
 ms.assetid: 8ccab62b-228b-4449-82c1-970de891cbdb
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: REMOTECONTROL_KBDALT_HOTKEY, REMOTECONTROL_KBDCTRL_HOTKEY, REMOTECONTROL_KBDSHIFT_HOTKEY, WTSStartRemoteControlSession, WTSStartRemoteControlSession function [Remote Desktop Services], WTSStartRemoteControlSessionA, WTSStartRemoteControlSessionW, termserv.wtsstartremotecontrolsession, wtsapi32/WTSStartRemoteControlSession, wtsapi32/WTSStartRemoteControlSessionA, wtsapi32/WTSStartRemoteControlSessionW
 ms.prod: windows-hardware
 ms.technology: windows-devices

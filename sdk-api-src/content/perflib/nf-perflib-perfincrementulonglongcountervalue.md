@@ -7,7 +7,7 @@ old-location: perf\perfincrementulonglongcountervalue.htm
 old-project: PerfCtrs
 ms.assetid: 6e701561-4036-4ae4-8d4e-667fa6a20d99
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PerfIncrementULongLongCounterValue, PerfIncrementULongLongCounterValue function [Perf], perf.perfincrementulonglongcountervalue, perflib/PerfIncrementULongLongCounterValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\wsd_resolve_match_struct.htm
 old-project: WsdApi
 ms.assetid: eabcc3af-282c-4299-8061-6cddf14eca6b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_RESOLVE_MATCH, WSD_RESOLVE_MATCH structure, _WSD_RESOLVE_MATCH, ncd.wsd_resolve_match_struct, wsdtypes/WSD_RESOLVE_MATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices

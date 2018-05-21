@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongPtrToLongLong
 title: ULongPtrToLongLong function
 author: windows-driver-content
-description: Converts a value of type DWORD_PTR to a value of type INT64.
-old-location: shell\DWordPtrToInt64.htm
+description: Converts a value of type SIZE_T to a value of type INT64.
+old-location: shell\SIZETToInt64_1.htm
 old-project: shell
-ms.assetid: 59060455-0c91-4d9b-a124-069680694b8f
+ms.assetid: fee8914c-8acb-41e9-b239-3844a4ef1289
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: DWordPtrToInt64, DWordPtrToInt64 function [Windows Shell], ULongPtrToLongLong, _shell_DWordPtrToInt64, intsafe/DWordPtrToInt64, shell.DWordPtrToInt64
+ms.date: 5/16/2018
+ms.keywords: SIZETToInt64, SIZETToInt64 function [Windows Shell], ULongPtrToLongLong, _shell_SIZETToInt64, intsafe/SIZETToInt64, shell.SIZETToInt64, shell.SIZETToInt64_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,15 +31,15 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	DllExport
+-	HeaderDef
 api_location:
--	None
+-	Intsafe.h
 api_name:
--	DWordPtrToInt64
+-	SIZETToInt64
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: None
+req.dll: 
 req.irql: 
 req.product: GDI+ 1.1
 ---
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>DWORD_PTR</b> to a value of type <b>INT64</b>.
+Converts a value of type <b>SIZE_T</b> to a value of type <b>INT64</b>.
 
 
 ## -parameters
@@ -70,9 +70,9 @@ TBD
 
 
 
-#### - dwOperand [in]
+#### - cbOperand [in]
 
-Type: <b>DWORD_PTR</b>
+Type: <b>SIZE_T</b>
 
 The value to be converted.
 

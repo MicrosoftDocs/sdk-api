@@ -7,7 +7,7 @@ old-location: base\msgwaitformultipleobjectsex.htm
 old-project: Sync
 ms.assetid: 1774b721-3ad4-492e-96af-b71de9066f0c
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/17/2018
 ms.keywords: MWMO_ALERTABLE, MWMO_INPUTAVAILABLE, MWMO_WAITALL, MsgWaitForMultipleObjectsEx, MsgWaitForMultipleObjectsEx function, QS_ALLEVENTS, QS_ALLINPUT, QS_ALLPOSTMESSAGE, QS_HOTKEY, QS_INPUT, QS_KEY, QS_MOUSE, QS_MOUSEBUTTON, QS_MOUSEMOVE, QS_PAINT, QS_POSTMESSAGE, QS_RAWINPUT, QS_SENDMESSAGE, QS_TIMER, _win32_msgwaitformultipleobjectsex, base.msgwaitformultipleobjectsex, winuser/MsgWaitForMultipleObjectsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

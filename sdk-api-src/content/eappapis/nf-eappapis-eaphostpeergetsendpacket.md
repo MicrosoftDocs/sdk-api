@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeergetsendpacket.htm
 old-project: EAPHost
 ms.assetid: 22e17496-e381-415e-8da0-88aad37d0d21
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapHostPeerGetSendPacket, EapHostPeerGetSendPacket function [EAPHost], eaphost.eaphostpeergetsendpacket, eappapis/EapHostPeerGetSendPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices

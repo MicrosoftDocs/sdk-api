@@ -7,7 +7,7 @@ old-location: security\spacceptcredentials.htm
 old-project: SecAuthN
 ms.assetid: bb382937-e5d6-452b-b166-505d0c80412c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SpAcceptCredentials, SpAcceptCredentials function [Security], SpAcceptCredentialsFn, _ssp_spacceptcredentials, ntsecpkg/SpAcceptCredentials, security.spacceptcredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

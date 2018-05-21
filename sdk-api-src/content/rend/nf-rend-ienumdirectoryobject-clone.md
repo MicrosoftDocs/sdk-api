@@ -7,7 +7,7 @@ old-location: tapi3\ienumdirectoryobject_clone.htm
 old-project: Tapi
 ms.assetid: 2be8430e-2968-416f-9503-b77d6abd6a12
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumDirectoryObject interface, IEnumDirectoryObject interface [TAPI 2.2],Clone method, IEnumDirectoryObject.Clone, IEnumDirectoryObject::Clone, _tapi3_ienumdirectoryobject_clone, rend/IEnumDirectoryObject::Clone, tapi3.ienumdirectoryobject_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

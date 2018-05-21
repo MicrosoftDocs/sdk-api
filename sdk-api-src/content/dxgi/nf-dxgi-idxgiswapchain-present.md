@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain_present.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_present.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: 5dfc8ba6-2dcd-cb78-b6d3-50ba63314d3c, IDXGISwapChain interface [DXGI],Present method, IDXGISwapChain.Present, IDXGISwapChain::Present, Present, Present method [DXGI], Present method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_present, dxgi/IDXGISwapChain::Present
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\emrextcreatepen.htm
 old-project: gdi
 ms.assetid: 9ed97d34-8c03-4b14-821c-397c21c36db0
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: "*PEMREXTCREATEPEN, EMREXTCREATEPEN, EMREXTCREATEPEN structure [Windows GDI], PEMREXTCREATEPEN, PEMREXTCREATEPEN structure pointer [Windows GDI], _win32_EMREXTCREATEPEN_str, gdi.emrextcreatepen, tagEMREXTCREATEPEN, wingdi/EMREXTCREATEPEN, wingdi/PEMREXTCREATEPEN"
 ms.prod: windows-hardware
 ms.technology: windows-devices

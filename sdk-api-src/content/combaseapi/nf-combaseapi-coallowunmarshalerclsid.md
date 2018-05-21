@@ -7,7 +7,7 @@ old-location: com\coallowunmarshalerclsid.htm
 old-project: com
 ms.assetid: 4655C6B6-02CE-42B2-A157-0C0325D1BE52
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CoAllowUnmarshalerCLSID, CoAllowUnmarshalerCLSID function [COM], com.coallowunmarshalerclsid, combaseapi/CoAllowUnmarshalerCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices

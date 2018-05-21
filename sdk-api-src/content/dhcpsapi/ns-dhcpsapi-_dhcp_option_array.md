@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_option_array.htm
 old-project: DHCP
 ms.assetid: 15b9bab5-8211-47c8-bc93-96c922c1aec1
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_OPTION_ARRAY, DHCP_OPTION_ARRAY, DHCP_OPTION_ARRAY structure [DHCP], LPDHCP_OPTION_ARRAY, LPDHCP_OPTION_ARRAY structure pointer [DHCP], _DHCP_OPTION_ARRAY, dhcp.dhcp_option_array, dhcpsapi/DHCP_OPTION_ARRAY, dhcpsapi/LPDHCP_OPTION_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

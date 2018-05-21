@@ -7,7 +7,7 @@ old-location: controls\UninitializeFlatSB.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\uninitializeflatsb.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: UninitializeFlatSB, UninitializeFlatSB function [Windows Controls], _win32_UninitializeFlatSB, _win32_UninitializeFlatSB_cpp, commctrl/UninitializeFlatSB, controls.UninitializeFlatSB, controls._win32_UninitializeFlatSB
 ms.prod: windows-hardware
 ms.technology: windows-devices

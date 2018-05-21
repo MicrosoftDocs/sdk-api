@@ -7,7 +7,7 @@ old-location: controls\TabCtrl_SetPadding.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setpadding.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: TabCtrl_SetPadding, TabCtrl_SetPadding macro [Windows Controls], _win32_TabCtrl_SetPadding, _win32_TabCtrl_SetPadding_cpp, commctrl/TabCtrl_SetPadding, controls.TabCtrl_SetPadding, controls._win32_TabCtrl_SetPadding
 ms.prod: windows-hardware
 ms.technology: windows-devices

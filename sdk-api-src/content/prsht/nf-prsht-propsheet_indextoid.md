@@ -7,7 +7,7 @@ old-location: controls\PropSheet_IndexToId.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_indextoid.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: PropSheet_IndexToId, PropSheet_IndexToId macro [Windows Controls], _win32_PropSheet_IndexToId, _win32_PropSheet_IndexToId_cpp, controls.PropSheet_IndexToId, controls._win32_PropSheet_IndexToId, prsht/PropSheet_IndexToId
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ix509extensioncertificatepolicies.htm
 old-project: SecCertEnroll
 ms.assetid: d35d155c-fb81-4d7e-b5c9-82ac5af4b79e
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509ExtensionCertificatePolicies, IX509ExtensionCertificatePolicies interface [Security], IX509ExtensionCertificatePolicies interface [Security],described, certenroll/IX509ExtensionCertificatePolicies, security.ix509extensioncertificatepolicies
 ms.prod: windows-hardware
 ms.technology: windows-devices

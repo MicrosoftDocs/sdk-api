@@ -7,7 +7,7 @@ old-location: setup\imsmmerge2_extractfilesex.htm
 old-project: Msi
 ms.assetid: 0ba6adc9-a08f-47a6-b8a8-1624bd856511
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ExtractFilesEx, ExtractFilesEx method, ExtractFilesEx method,IMsmMerge2 interface, IMsmMerge2 interface,ExtractFilesEx method, IMsmMerge2.ExtractFilesEx, IMsmMerge2::ExtractFilesEx, _msi_extractfilesex_function, mergemod/IMsmMerge2::ExtractFilesEx, setup.imsmmerge2_extractfilesex
 ms.prod: windows-hardware
 ms.technology: windows-devices

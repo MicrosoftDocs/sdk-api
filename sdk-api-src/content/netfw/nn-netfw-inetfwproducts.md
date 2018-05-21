@@ -7,7 +7,7 @@ old-location: ics\inetfwproducts.htm
 old-project: ICS
 ms.assetid: 66608887-02df-4caf-91d0-e5091849ff32
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetFwProducts, INetFwProducts interface [ICS/ICF], INetFwProducts interface [ICS/ICF],described, ics.inetfwproducts, netfw/INetFwProducts
 ms.prod: windows-hardware
 ms.technology: windows-devices

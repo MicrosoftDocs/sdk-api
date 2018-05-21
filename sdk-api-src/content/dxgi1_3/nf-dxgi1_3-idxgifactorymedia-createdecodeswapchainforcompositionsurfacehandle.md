@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactorymedia_createdecodeswapchainforcomposition
 old-project: direct3ddxgi
 ms.assetid: A4030D6E-EE5A-47E7-A5A2-A008F6869230
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: CreateDecodeSwapChainForCompositionSurfaceHandle, CreateDecodeSwapChainForCompositionSurfaceHandle method [DXGI], CreateDecodeSwapChainForCompositionSurfaceHandle method [DXGI],IDXGIFactoryMedia interface, IDXGIFactoryMedia interface [DXGI],CreateDecodeSwapChainForCompositionSurfaceHandle method, IDXGIFactoryMedia.CreateDecodeSwapChainForCompositionSurfaceHandle, IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle, direct3ddxgi.idxgifactorymedia_createdecodeswapchainforcompositionsurfacehandle, dxgi1_3/IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

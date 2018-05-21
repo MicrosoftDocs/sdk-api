@@ -7,7 +7,7 @@ old-location: intl\text.htm
 old-project: Intl
 ms.assetid: 427d365f-2277-460c-8120-3ccb6c6cea4f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: TEXT, TEXT macro [Internationalization for Windows Applications], _win32_TEXT_Macro, intl.text, winnt/TEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices

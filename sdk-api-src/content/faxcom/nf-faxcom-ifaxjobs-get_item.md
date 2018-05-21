@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjobs_get_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1zn1.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: IFaxJobs interface [Fax Service],get_Item method, IFaxJobs.get_Item, IFaxJobs::get_Item, _mfax_ifaxjobs_get_item, fax._mfax_ifaxjobs_get_item, faxcom/IFaxJobs::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxJobs interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

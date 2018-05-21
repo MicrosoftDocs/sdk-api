@@ -7,7 +7,7 @@ old-location: gdi\setrect.htm
 old-project: gdi
 ms.assetid: 346c573b-eaf7-4ca6-bd36-18074f7eccf5
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: SetRect, SetRect function [Windows GDI], _win32_SetRect, gdi.setrect, winuser/SetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

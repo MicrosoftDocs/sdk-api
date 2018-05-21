@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_subresource_data.htm
 old-project: direct3d12
 ms.assetid: A2749C3A-FD61-4775-8727-2D1CFC79A0F8
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12_SUBRESOURCE_DATA, D3D12_SUBRESOURCE_DATA structure, d3d12/D3D12_SUBRESOURCE_DATA, direct3d12.d3d12_subresource_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

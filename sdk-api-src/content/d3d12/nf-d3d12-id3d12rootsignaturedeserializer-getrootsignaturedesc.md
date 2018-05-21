@@ -7,7 +7,7 @@ old-location: direct3d12\id3d12rootsignaturedeserializer_getrootsignaturedesc.ht
 old-project: direct3d12
 ms.assetid: A13FB848-A5C1-4B9B-9009-B0166A3A1C8D
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: GetRootSignatureDesc, GetRootSignatureDesc method, GetRootSignatureDesc method,ID3D12RootSignatureDeserializer interface, ID3D12RootSignatureDeserializer interface,GetRootSignatureDesc method, ID3D12RootSignatureDeserializer.GetRootSignatureDesc, ID3D12RootSignatureDeserializer::GetRootSignatureDesc, d3d12/ID3D12RootSignatureDeserializer::GetRootSignatureDesc, direct3d12.id3d12rootsignaturedeserializer_getrootsignaturedesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

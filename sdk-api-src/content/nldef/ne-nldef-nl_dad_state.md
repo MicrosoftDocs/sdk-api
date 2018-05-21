@@ -2,21 +2,21 @@
 UID: NE:nldef.NL_DAD_STATE
 title: NL_DAD_STATE
 author: windows-driver-content
-description: The NL_DAD_STATE enumeration type defines the duplicate address detection (DAD) state.
-old-location: netvista\nl_dad_state.htm
-old-project: netvista
-ms.assetid: 38d88074-efac-475c-b6f6-1c65f21ed4be
+description: The IP_DAD_STATE enumeration specifies information about the duplicate address detection (DAD) state for an IPv4 or IPv6 address.
+old-location: iphlp\ip_dad_state.htm
+old-project: IpHlp
+ms.assetid: 2c67215c-6349-418e-9004-b869d6f5baef
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
-ms.keywords: IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, NL_DAD_STATE, NL_DAD_STATE enumeration [Network Drivers Starting with Windows Vista], NldsDeprecated, NldsDuplicate, NldsInvalid, NldsPreferred, NldsTentative, iphelper_c0c9838a-2b5e-4283-8fdd-c3605433c6f8.xml, netvista.nl_dad_state, nldef/IpDadStateDeprecated, nldef/IpDadStateDuplicate, nldef/IpDadStateInvalid, nldef/IpDadStatePreferred, nldef/IpDadStateTentative, nldef/NL_DAD_STATE, nldef/NldsDeprecated, nldef/NldsDuplicate, nldef/NldsInvalid, nldef/NldsPreferred, nldef/NldsTentative
+ms.date: 5/16/2018
+ms.keywords: IP_DAD_STATE, IP_DAD_STATE enumeration [IP Helper], IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, NL_DAD_STATE, iphlp.ip_dad_state, iptypes/IP_DAD_STATE, iptypes/IpDadStateDeprecated, iptypes/IpDadStateDuplicate, iptypes/IpDadStateInvalid, iptypes/IpDadStatePreferred, iptypes/IpDadStateTentative, nldef/IP_DAD_STATE, nldef/IpDadStateDeprecated, nldef/IpDadStateDuplicate, nldef/IpDadStateInvalid, nldef/IpDadStatePreferred, nldef/IpDadStateTentative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: nldef.h
-req.include-header: Netioapi.h
+req.include-header: Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008  Windows Vista, Iphlpapi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,13 +33,14 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	nldef.h
+-	Nldef.h
+-	Iptypes.h
 api_name:
--	NL_DAD_STATE
+-	IP_DAD_STATE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Newdev.lib
+req.dll: Newdev.dll
 req.irql: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
@@ -50,7 +51,7 @@ req.product: Rights Management Services client 1.0 SP2 or later
 ## -description
 
 
-The NL_DAD_STATE enumeration type defines the duplicate address detection (DAD) state.
+The <b>IP_DAD_STATE</b> enumeration specifies information about the duplicate address detection (DAD) state for an IPv4 or IPv6 address.
 
 
 ## -enum-fields
@@ -60,27 +61,17 @@ The NL_DAD_STATE enumeration type defines the duplicate address detection (DAD) 
 
 ### -field NldsInvalid
 
-Reserved for system use. Do not use this value in your driver.
-
 
 ### -field NldsTentative
-
-Reserved for system use. Do not use this value in your driver.
 
 
 ### -field NldsDuplicate
 
-Reserved for system use. Do not use this value in your driver.
-
 
 ### -field NldsDeprecated
 
-Reserved for system use. Do not use this value in your driver.
-
 
 ### -field NldsPreferred
-
-Reserved for system use. Do not use this value in your driver.
 
 
 ### -field IpDadStateInvalid
@@ -112,7 +103,20 @@ The IP address is the preferred address.
 
 
 
-The DAD state applies to both IPv4 and IPv6 addresses.
+The <b>IP_DAD_STATE</b> enumeration is used in the <b>DadState</b> member of the <a href="https://msdn.microsoft.com/65c3648c-89bd-417b-8a9b-feefa6149c4a">IP_ADAPTER_UNICAST_ADDRESS</a>  structure.
+
+On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>IP_DAD_STATE</b> enumeration is defined in the <i>Nldef.h</i> header file which is automatically included by the <i>Iptypes.h</i> header file. The  <i>Nldef.h</i> and <i>Iptypes.h</i> header files should never be used directly.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/65c3648c-89bd-417b-8a9b-feefa6149c4a">IP_ADAPTER_UNICAST_ADDRESS</a>
+ 
+
+ 
 

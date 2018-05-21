@@ -7,7 +7,7 @@ old-location: mstv\iencoderapi.htm
 old-project: mstv
 ms.assetid: 823b79a1-1bf5-4aab-80dd-0e77ba950127
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IEncoderAPI, IEncoderAPI interface [Microsoft TV Technologies], IEncoderAPI interface [Microsoft TV Technologies],described, IEncoderAPIInterface, mstv.iencoderapi, strmif/IEncoderAPI
 ms.prod: windows-hardware
 ms.technology: windows-devices

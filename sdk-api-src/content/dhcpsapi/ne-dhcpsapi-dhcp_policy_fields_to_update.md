@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_policy_fields_to_update.htm
 old-project: DHCP
 ms.assetid: 5ce80514-ad63-44dd-9b9b-36679a97488b
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DHCP_POLICY_FIELDS_TO_UPDATE, DHCP_POLICY_FIELDS_TO_UPDATE enumeration [DHCP], DhcpUpdatePolicyDescr, DhcpUpdatePolicyExpr, DhcpUpdatePolicyName, DhcpUpdatePolicyOrder, DhcpUpdatePolicyRanges, DhcpUpdatePolicyStatus, dhcp.dhcp_policy_fields_to_update, dhcpsapi/DHCP_POLICY_FIELDS_TO_UPDATE, dhcpsapi/DhcpUpdatePolicyDescr, dhcpsapi/DhcpUpdatePolicyExpr, dhcpsapi/DhcpUpdatePolicyName, dhcpsapi/DhcpUpdatePolicyOrder, dhcpsapi/DhcpUpdatePolicyRanges, dhcpsapi/DhcpUpdatePolicyStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

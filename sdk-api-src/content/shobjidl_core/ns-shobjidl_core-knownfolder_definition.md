@@ -7,7 +7,7 @@ old-location: shell\KNOWNFOLDER_DEFINITION.htm
 old-project: shell
 ms.assetid: 08bd8406-68fa-4e02-9a64-ed5e62f8639b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: KNOWNFOLDER_DEFINITION, KNOWNFOLDER_DEFINITION structure [Windows Shell], _shell_KNOWNFOLDER_DEFINITION, shell.KNOWNFOLDER_DEFINITION, shobjidl_core/KNOWNFOLDER_DEFINITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # KNOWNFOLDER_DEFINITION structure

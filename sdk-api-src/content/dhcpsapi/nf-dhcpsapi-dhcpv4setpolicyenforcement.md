@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv4setpolicyenforcement.htm
 old-project: DHCP
 ms.assetid: 1e87942a-3ee1-442a-a56a-8e63b3003d3b
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpV4SetPolicyEnforcement, DhcpV4SetPolicyEnforcement function [DHCP], dhcp.dhcpv4setpolicyenforcement, dhcpsapi/DhcpV4SetPolicyEnforcement
 ms.prod: windows-hardware
 ms.technology: windows-devices

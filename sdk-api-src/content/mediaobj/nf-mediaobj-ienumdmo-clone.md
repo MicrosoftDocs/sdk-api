@@ -7,7 +7,7 @@ old-location: dshow\ienumdmo_clone.htm
 old-project: DirectShow
 ms.assetid: 9edca502-7dff-493f-8bce-4bffe8233487
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumDMO interface, IEnumDMO interface [DirectShow],Clone method, IEnumDMO.Clone, IEnumDMO::Clone, IEnumDMOClone, dshow.ienumdmo_clone, mediaobj/IEnumDMO::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

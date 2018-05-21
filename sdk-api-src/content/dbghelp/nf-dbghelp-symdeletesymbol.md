@@ -7,7 +7,7 @@ old-location: base\symdeletesymbol.htm
 old-project: Debug
 ms.assetid: 9fc5a19d-5984-4d0a-a3d6-3da474055f5e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SymDeleteSymbol, SymDeleteSymbol function, SymDeleteSymbolW, _win32_symdeletesymbol, base.symdeletesymbol, dbghelp/SymDeleteSymbol, dbghelp/SymDeleteSymbolW
 ms.prod: windows-hardware
 ms.technology: windows-devices

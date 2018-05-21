@@ -7,7 +7,7 @@ old-location: gdi\validatergn.htm
 old-project: gdi
 ms.assetid: 80fb1d4a-d9b1-4e67-b585-eee81893ed34
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: ValidateRgn, ValidateRgn function [Windows GDI], _win32_ValidateRgn, gdi.validatergn, winuser/ValidateRgn
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ics\istaticportmappingcollection_remove.htm
 old-project: ICS
 ms.assetid: c82a145d-7b85-419b-b64b-36f1ac7a2631
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],Remove method, IStaticPortMappingCollection.Remove, IStaticPortMappingCollection::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],IStaticPortMappingCollection interface, _ics_istaticportmappingcollection_remove, ics.istaticportmappingcollection_remove, natupnp/IStaticPortMappingCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

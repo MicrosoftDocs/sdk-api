@@ -7,7 +7,7 @@ old-location: mstv\itsdt_registerfornexttable.htm
 old-project: mstv
 ms.assetid: 36d597e2-0a65-48f3-8220-bb3481185af7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: ITSDT interface [Microsoft TV Technologies],RegisterForNextTable method, ITSDT.RegisterForNextTable, ITSDT::RegisterForNextTable, ITSDTRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],ITSDT interface, mpeg2psiparser/ITSDT::RegisterForNextTable, mstv.itsdt_registerfornexttable
 ms.prod: windows-hardware
 ms.technology: windows-devices

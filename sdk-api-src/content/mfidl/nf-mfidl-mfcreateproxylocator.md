@@ -7,7 +7,7 @@ old-location: mf\mfcreateproxylocator.htm
 old-project: medfound
 ms.assetid: 9ad707df-533a-407b-a611-49bfb019affc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 9ad707df-533a-407b-a611-49bfb019affc, MFCreateProxyLocator, MFCreateProxyLocator function [Media Foundation], mf.mfcreateproxylocator, mfidl/MFCreateProxyLocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

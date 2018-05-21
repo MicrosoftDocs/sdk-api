@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingarchive_getmessages_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_20qb_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: GetMessages, GetMessages method [Fax Service], GetMessages method [Fax Service],IFaxOutgoingArchive interface, IFaxOutgoingArchive interface [Fax Service],GetMessages method, IFaxOutgoingArchive.GetMessages, IFaxOutgoingArchive::GetMessages, _mfax_faxoutgoingarchive.getmessages_cpp, fax._mfax_faxoutgoingarchive_getmessages_cpp, faxcomex/IFaxOutgoingArchive::GetMessages
 ms.prod: windows-hardware
 ms.technology: windows-devices

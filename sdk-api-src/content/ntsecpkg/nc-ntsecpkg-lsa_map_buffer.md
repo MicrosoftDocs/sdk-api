@@ -7,7 +7,7 @@ old-location: security\mapbuffer.htm
 old-project: SecAuthN
 ms.assetid: 3189da1b-5f2f-4569-8f60-6f3b287460f1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: LSA_MAP_BUFFER, MapBuffer, MapBuffer function [Security], _ssp_mapbuffer, ntsecpkg/MapBuffer, security.mapbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

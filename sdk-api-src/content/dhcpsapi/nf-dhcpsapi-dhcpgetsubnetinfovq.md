@@ -7,7 +7,7 @@ old-location: dhcp\dhcpgetsubnetinfovq.htm
 old-project: DHCP
 ms.assetid: 7ee3ba38-a90c-4409-a40f-80e1cd1fc3c3
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpGetSubnetInfoVQ, DhcpGetSubnetInfoVQ function [DHCP], dhcp.dhcpgetsubnetinfovq, dhcpsapi/DhcpGetSubnetInfoVQ
 ms.prod: windows-hardware
 ms.technology: windows-devices

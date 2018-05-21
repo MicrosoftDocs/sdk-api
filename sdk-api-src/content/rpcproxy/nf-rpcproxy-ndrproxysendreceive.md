@@ -7,7 +7,7 @@ old-location: rpc\ndrproxysendreceive.htm
 old-project: Rpc
 ms.assetid: a80c3271-bed3-4757-97e1-2bf212eaeafd
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: NdrProxySendReceive, NdrProxySendReceive function [RPC], rpc.ndrproxysendreceive, rpcproxy/NdrProxySendReceive
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\symenumsourcefiletokensproc.htm
 old-project: Debug
 ms.assetid: 20c0eb1e-671b-4d31-88d4-57f2c149fcd9
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: PENUMSOURCEFILETOKENSCALLBACK, PENUMSOURCEFILETOKENSCALLBACK callback, SymEnumSourceFileTokensProc, SymEnumSourceFileTokensProc callback function, base.symenumsourcefiletokensproc, dbghelp/SymEnumSourceFileTokensProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

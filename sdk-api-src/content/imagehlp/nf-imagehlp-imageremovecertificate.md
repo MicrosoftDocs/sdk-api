@@ -7,7 +7,7 @@ old-location: base\imageremovecertificate.htm
 old-project: Debug
 ms.assetid: e06da4c5-6641-47f8-9dd9-4a1593e11f7b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: ImageRemoveCertificate, ImageRemoveCertificate function, _win32_imageremovecertificate, base.imageremovecertificate, imagehlp/ImageRemoveCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

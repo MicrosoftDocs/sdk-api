@@ -7,7 +7,7 @@ old-location: of\iofflinefilesfilesysinfo_getattributes.htm
 old-project: OfflineFiles
 ms.assetid: 5bf8a834-cd5e-46b9-9b7d-b5cc6fb9fe10
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: GetAttributes, GetAttributes method [Offline Files], GetAttributes method [Offline Files],IOfflineFilesFileSysInfo interface, IOfflineFilesFileSysInfo interface [Offline Files],GetAttributes method, IOfflineFilesFileSysInfo.GetAttributes, IOfflineFilesFileSysInfo::GetAttributes, cscobj/IOfflineFilesFileSysInfo::GetAttributes, of.iofflinefilesfilesysinfo_getattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

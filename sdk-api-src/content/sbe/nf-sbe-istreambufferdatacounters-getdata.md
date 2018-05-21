@@ -7,7 +7,7 @@ old-location: mstv\istreambufferdatacounters_getdata.htm
 old-project: mstv
 ms.assetid: 15895ff3-37e5-4f89-bcce-3b9f060c0746
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetData, GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies],IStreamBufferDataCounters interface, IStreamBufferDataCounters interface [Microsoft TV Technologies],GetData method, IStreamBufferDataCounters.GetData, IStreamBufferDataCounters::GetData, IStreamBufferDataCountersGetData, mstv.istreambufferdatacounters_getdata, sbe/IStreamBufferDataCounters::GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mfcreateadtsmediasink.htm
 old-project: medfound
 ms.assetid: 18B2F5C7-61A6-447B-9BC8-2394A68BA777
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFCreateADTSMediaSink, MFCreateADTSMediaSink function [Media Foundation], mf.mfcreateadtsmediasink, mfidl/MFCreateADTSMediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidplaybackevent_endofmedia.htm
 old-project: mstv
 ms.assetid: 00c73b5e-dc0f-4ffd-930f-e93ce3d1e179
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: EndOfMedia, EndOfMedia method [Microsoft TV Technologies], EndOfMedia method [Microsoft TV Technologies],IMSVidPlaybackEvent interface, IMSVidPlaybackEvent interface [Microsoft TV Technologies],EndOfMedia method, IMSVidPlaybackEvent.EndOfMedia, IMSVidPlaybackEvent::EndOfMedia, IMSVidPlaybackEventEndOfMedia, mstv.imsvidplaybackevent_endofmedia, segment/IMSVidPlaybackEvent::EndOfMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices

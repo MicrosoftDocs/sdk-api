@@ -7,7 +7,7 @@ old-location: menurc\verinstallfile.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verinstallfile.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: VIFF_DONTDELETEOLD, VIFF_FORCEINSTALL, VerInstallFile, VerInstallFile function [Menus and Other Resources], VerInstallFileA, VerInstallFileW, _win32_VerInstallFile, _win32_verinstallfile_cpp, menurc.verinstallfile, winui._win32_verinstallfile, winver/VerInstallFile, winver/VerInstallFileA, winver/VerInstallFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

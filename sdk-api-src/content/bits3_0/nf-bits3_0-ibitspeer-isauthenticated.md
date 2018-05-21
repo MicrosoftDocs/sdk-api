@@ -7,7 +7,7 @@ old-location: bits\ibitspeer_isauthenticated.htm
 old-project: Bits
 ms.assetid: 64718331-32a9-40ba-90f2-9dd9d8fea3e4
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: IBitsPeer interface [BITS],IsAuthenticated method, IBitsPeer.IsAuthenticated, IBitsPeer::IsAuthenticated, IsAuthenticated, IsAuthenticated method [BITS], IsAuthenticated method [BITS],IBitsPeer interface, bits.ibitspeer_isauthenticated, bits3_0/IBitsPeer::IsAuthenticated
 ms.prod: windows-hardware
 ms.technology: windows-devices

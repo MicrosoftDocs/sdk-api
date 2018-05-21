@@ -7,7 +7,7 @@ old-location: ncd\wsd_endpoint_reference_list.htm
 old-project: WsdApi
 ms.assetid: fc9fed5c-8a5b-4960-836b-e083154b7d90
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_ENDPOINT_REFERENCE_LIST, WSD_ENDPOINT_REFERENCE_LIST structure, _WSD_ENDPOINT_REFERENCE_LIST, ncd.wsd_endpoint_reference_list, wsdtypes/WSD_ENDPOINT_REFERENCE_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices

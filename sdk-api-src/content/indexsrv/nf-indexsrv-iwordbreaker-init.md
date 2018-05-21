@@ -3,12 +3,12 @@ UID: NF:indexsrv.IWordBreaker.Init
 title: IWordBreaker::Init
 author: windows-driver-content
 description: Initializes the IWordBreaker implementation and indicates the mode in which the component operates.
-old-location: indexsrv\iwordbreaker_init.htm
-old-project: IndexSrv
-ms.assetid: VS|indexsrv|~\html\ixrefint_18ac.htm
+old-location: search\_search_IWordBreaker_Init.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\init.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: IWordBreaker interface [Indexing Service],Init method, IWordBreaker.Init, IWordBreaker::Init, Init, Init method [Indexing Service], Init method [Indexing Service],IWordBreaker interface, _idxs_IWordBreaker_Init, indexsrv.iwordbreaker_init, indexsrv/IWordBreaker::Init
+ms.date: 5/8/2018
+ms.keywords: IWordBreaker interface [search],Init method, IWordBreaker.Init, IWordBreaker::Init, Init, Init method [search], Init method [search],IWordBreaker interface, _search_IWordBreaker_Init, indexsrv/IWordBreaker::Init, search._search_IWordBreaker_Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,9 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
-
-Initializes the <a href="https://msdn.microsoft.com/994befe1-e258-4c0a-b3a9-b5968e13456c">IWordBreaker</a> implementation and indicates the mode in which the component operates.
+Initializes the <a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a> implementation and indicates the mode in which the component operates.
 
 
 ## -parameters
@@ -62,23 +60,30 @@ Initializes the <a href="https://msdn.microsoft.com/994befe1-e258-4c0a-b3a9-b596
 
 ### -param fQuery [in]
 
-Indicates the mode in which a word breaker operates. <b>TRUE</b> indicates query-time word breaking. <b>FALSE</b> indicates index-time word breaking. 
+Type: <b>BOOL</b>
 
+Flag that indicates the mode in which a word breaker operates. <b>TRUE</b> indicates query-time word breaking. <b>FALSE</b> indicates index-time word breaking.
 
 
 ### -param ulMaxTokenSize [in]
 
-The maximum number of characters in words that are added to the WordSink. Words that exceed this limit may be truncated. 
+Type: <b>ULONG</b>
+
+Maximum number of characters in words that are added to the <a href="https://msdn.microsoft.com/220FCAE5-D22D-45ED-9689-E78C0D8E0BB3">IWordSink</a>. Words that exceed this limit are truncated.
 
 
 ### -param pfLicense [out]
 
-A pointer to an output variable that receives a value that indicates whether there are license restrictions for this <a href="https://msdn.microsoft.com/994befe1-e258-4c0a-b3a9-b5968e13456c">IWordBreaker</a> implementation. <b>TRUE</b> indicates that the stemmer is restricted to authorized use only. <b>FALSE</b> indicates that this implementation can be used freely.
+Type: <b>BOOL*</b>
+
+Pointer to a variable that receives a flag indicating whether there are license restrictions for this <a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a> implementation. <b>TRUE</b> indicates that the stemmer is restricted to authorized use only. <b>FALSE</b> indicates that this <b>IWordBreaker</b> implementation can be used freely.
 
 
 ## -returns
 
 
+
+Type: <b>HRESULT</b>
 
 This method can return one of these values.
 
@@ -94,7 +99,18 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The operation was completed successfully.
+Successful completion.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>LANGUAGE_E_DATABASE_NOT_FOUND</b></dt>
+</dl>
+</td>
+<td width="60%">
+One of the components for word breaking cannot be located.
 
 </td>
 </tr>
@@ -105,7 +121,7 @@ The operation was completed successfully.
 </dl>
 </td>
 <td width="60%">
-The <i>pfLicense</i> parameter is <b>NULL</b>.
+Invalid argument. The <i>pfLicense</i> parameter is <b>NULL</b>.
 
 </td>
 </tr>
@@ -116,18 +132,7 @@ The <i>pfLicense</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The operation failed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>LANGUAGE_E_DATABASE_NOT_FOUND </b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the components for word breaking cannot be located.
+Other errors. 
 
 </td>
 </tr>
@@ -141,9 +146,8 @@ One of the components for word breaking cannot be located.
 
 
 
-The functionality of the word breaker is similar in both index creation and querying. Differences are language dependent. If <i>pfLicense</i> is <b>TRUE</b>, and if you want more information about possible license restrictions, call the <a href="https://msdn.microsoft.com/e79b017d-ca88-4e4d-b3d1-b1c046143e86">GetLicenseToUse</a> method.
-
-
+The functionality of the word breaker is similar in both index creation and querying. Differences are language dependent. If <i>pfLicense</i> is <b>TRUE</b>, and if you want more information about possible license restrictions, call the <a href="https://msdn.microsoft.com/cd2798cf-8db2-474b-8a1c-abd8fdc9187e">IWordBreaker::GetLicenseToUse</a> method.
+            
 
 
 
@@ -153,7 +157,7 @@ The functionality of the word breaker is similar in both index creation and quer
 
 
 
-<a href="https://msdn.microsoft.com/994befe1-e258-4c0a-b3a9-b5968e13456c">IWordBreaker</a>
+<a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a>
  
 
  

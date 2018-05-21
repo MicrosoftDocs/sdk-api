@@ -2,7 +2,7 @@
 UID: TP:direct3d12
 ms.assetid: 7a701202-f29f-3d16-a1f3-84c2485de6f5
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -341,6 +341,7 @@ For the programming guide, see [Direct3D 12 Graphics](https://review.docs.micros
 | [ID3D12CommandAllocator::Reset](..\d3d12\nf-d3d12-id3d12commandallocator-reset.md) | Indicates to re-use the memory that is associated with the command allocator. |
 | [ID3D12CommandList::GetType](..\d3d12\nf-d3d12-id3d12commandlist-gettype.md) | Gets the type of the command list, such as direct, bundle, compute, or copy. |
 | [ID3D12CommandQueue::BeginEvent](..\d3d12\nf-d3d12-id3d12commandqueue-beginevent.md) | Not intended to be called directly.  Use the PIX event runtime to insert events into a command queue. |
+| [ID3D12CommandQueue::CopyTileMappings](..\d3d12\nf-d3d12-id3d12commandqueue-copytilemappings.md) | Copies mappings from a source reserved resource to a destination reserved resource. |
 | [ID3D12CommandQueue::EndEvent](..\d3d12\nf-d3d12-id3d12commandqueue-endevent.md) | Not intended to be called directly.  Use the PIX event runtime to insert events into a command queue. |
 | [ID3D12CommandQueue::ExecuteCommandLists](..\d3d12\nf-d3d12-id3d12commandqueue-executecommandlists.md) | Submits an array of command lists for execution. |
 | [ID3D12CommandQueue::GetClockCalibration](..\d3d12\nf-d3d12-id3d12commandqueue-getclockcalibration.md) | This method samples the CPU and GPU timestamp counters at the same moment in time. |
@@ -348,6 +349,7 @@ For the programming guide, see [Direct3D 12 Graphics](https://review.docs.micros
 | [ID3D12CommandQueue::GetTimestampFrequency](..\d3d12\nf-d3d12-id3d12commandqueue-gettimestampfrequency.md) | This method is used to determine the rate at which the GPU timestamp counter increments. |
 | [ID3D12CommandQueue::SetMarker](..\d3d12\nf-d3d12-id3d12commandqueue-setmarker.md) | Not intended to be called directly.  Use the PIX event runtime to insert events into a command queue. |
 | [ID3D12CommandQueue::Signal](..\d3d12\nf-d3d12-id3d12commandqueue-signal.md) | Updates a fence to a specified value. |
+| [ID3D12CommandQueue::UpdateTileMappings](..\d3d12\nf-d3d12-id3d12commandqueue-updatetilemappings.md) | Updates mappings of tile locations in reserved resources to memory locations in a resource heap. |
 | [ID3D12CommandQueue::Wait](..\d3d12\nf-d3d12-id3d12commandqueue-wait.md) | Waits until the specified fence reaches or exceeds the specified value. |
 | [ID3D12Debug1::EnableDebugLayer](..\d3d12sdklayers\nf-d3d12sdklayers-id3d12debug1-enabledebuglayer.md) | Enables the debug layer. |
 | [ID3D12Debug1::SetEnableGPUBasedValidation](..\d3d12sdklayers\nf-d3d12sdklayers-id3d12debug1-setenablegpubasedvalidation.md) | This method enables or disables GPU-Based Validation (GBV) before creating a device with the debug layer enabled. |
@@ -368,6 +370,7 @@ For the programming guide, see [Direct3D 12 Graphics](https://review.docs.micros
 | [ID3D12DebugDevice::ReportLiveDeviceObjects](..\d3d12sdklayers\nf-d3d12sdklayers-id3d12debugdevice-reportlivedeviceobjects.md) | Reports information about a device object's lifetime. |
 | [ID3D12DebugDevice::SetFeatureMask](..\d3d12sdklayers\nf-d3d12sdklayers-id3d12debugdevice-setfeaturemask.md) | Set a bit field of flags that will turn debug features on and off. |
 | [ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart](..\d3d12\nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart.md) | Gets the CPU descriptor handle that represents the start of the heap. |
+| [ID3D12DescriptorHeap::GetDesc](..\d3d12\nf-d3d12-id3d12descriptorheap-getdesc.md) | Gets the descriptor heap description. |
 | [ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart](..\d3d12\nf-d3d12-id3d12descriptorheap-getgpudescriptorhandleforheapstart.md) | Gets the GPU descriptor handle that represents the start of the heap. |
 | [ID3D12Device1::CreatePipelineLibrary](..\d3d12\nf-d3d12-id3d12device1-createpipelinelibrary.md) | Creates a cached pipeline library. |
 | [ID3D12Device1::SetEventOnMultipleFenceCompletion](..\d3d12\nf-d3d12-id3d12device1-seteventonmultiplefencecompletion.md) | Specifies an event that should be fired when one or more of a collection of fences reach specific values. |

@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambuffersink.htm
 old-project: mstv
 ms.assetid: 80f6cd3a-8cb8-4bda-9b66-33e7d214015a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidStreamBufferSink, IMSVidStreamBufferSink interface [Microsoft TV Technologies], IMSVidStreamBufferSink interface [Microsoft TV Technologies],described, IMSVidStreamBufferSinkInterface, mstv.imsvidstreambuffersink, segment/IMSVidStreamBufferSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

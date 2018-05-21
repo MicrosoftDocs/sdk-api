@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_getoutputpreftype.htm
 old-project: medfound
 ms.assetid: 972052ca-1d87-4fa4-abeb-6e74ba6c9368
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 972052ca-1d87-4fa4-abeb-6e74ba6c9368, GetOutputPrefType, GetOutputPrefType method [Media Foundation], GetOutputPrefType method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetOutputPrefType method, IMFTopologyNode.GetOutputPrefType, IMFTopologyNode::GetOutputPrefType, mf.imftopologynode_getoutputpreftype, mfidl/IMFTopologyNode::GetOutputPrefType
 ms.prod: windows-hardware
 ms.technology: windows-devices

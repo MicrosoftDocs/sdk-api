@@ -7,7 +7,7 @@ old-location: shell\IWebWizardExtension.htm
 old-project: shell
 ms.assetid: f1b5f53a-3163-486f-bbe9-a8fc6b244591
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IWebWizardExtension, IWebWizardExtension interface [Windows Shell], IWebWizardExtension interface [Windows Shell],described, _shell_IWebWizardExtension, shell.IWebWizardExtension, shobjidl/IWebWizardExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\ws_channel_property_constraint.htm
 old-project: wsw
 ms.assetid: 548dcba5-dc78-402e-a930-a58fb462c08a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_CHANNEL_PROPERTY_CONSTRAINT, WS_CHANNEL_PROPERTY_CONSTRAINT structure [Web Services for Windows], _WS_CHANNEL_PROPERTY_CONSTRAINT, webservices/WS_CHANNEL_PROPERTY_CONSTRAINT, wsw.ws_channel_property_constraint
 ms.prod: windows-hardware
 ms.technology: windows-devices

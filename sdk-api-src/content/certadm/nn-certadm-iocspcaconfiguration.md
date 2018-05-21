@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration.htm
 old-project: SecCrypto
 ms.assetid: 57900e1e-9c51-4c1b-aa42-634b6c3a9999
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: IOCSPCAConfiguration, IOCSPCAConfiguration interface [Security], IOCSPCAConfiguration interface [Security],described, certadm/IOCSPCAConfiguration, security.iocspcaconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

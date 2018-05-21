@@ -7,7 +7,7 @@ old-location: gdi\createbitmap.htm
 old-project: gdi
 ms.assetid: b52e1baf-6a81-44bc-a061-4d42e6f4ed64
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: CreateBitmap, CreateBitmap function [Windows GDI], _win32_CreateBitmap, gdi.createbitmap, wingdi/CreateBitmap
 ms.prod: windows-hardware
 ms.technology: windows-devices

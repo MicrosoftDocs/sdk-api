@@ -7,7 +7,7 @@ old-location: wsw\wscreatechannel.htm
 old-project: wsw
 ms.assetid: 4bef6f97-06f1-442a-8b84-869776f0541d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsCreateChannel, WsCreateChannel function [Web Services for Windows], webservices/WsCreateChannel, wsw.wscreatechannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

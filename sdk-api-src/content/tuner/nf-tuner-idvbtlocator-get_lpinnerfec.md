@@ -7,7 +7,7 @@ old-location: mstv\idvbtlocator_get_lpinnerfec.htm
 old-project: mstv
 ms.assetid: 069904ad-5faa-4ac4-bf30-538284de2de8
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_LPInnerFEC method, IDVBTLocator.get_LPInnerFEC, IDVBTLocator::get_LPInnerFEC, IDVBTLocatorget_LPInnerFEC, get_LPInnerFEC, get_LPInnerFEC method [Microsoft TV Technologies], get_LPInnerFEC method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_lpinnerfec, tuner/IDVBTLocator::get_LPInnerFEC
 ms.prod: windows-hardware
 ms.technology: windows-devices

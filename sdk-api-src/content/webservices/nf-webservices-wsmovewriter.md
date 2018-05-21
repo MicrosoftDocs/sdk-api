@@ -7,7 +7,7 @@ old-location: wsw\wsmovewriter.htm
 old-project: wsw
 ms.assetid: f8eace53-9fa5-466a-8894-3c8b8fe049e3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsMoveWriter, WsMoveWriter function [Web Services for Windows], webservices/WsMoveWriter, wsw.wsmovewriter
 ms.prod: windows-hardware
 ms.technology: windows-devices

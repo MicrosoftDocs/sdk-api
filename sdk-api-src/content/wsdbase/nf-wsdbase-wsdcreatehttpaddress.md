@@ -7,7 +7,7 @@ old-location: ncd\wsdcreatehttpaddress.htm
 old-project: WsdApi
 ms.assetid: 05a862e9-51db-442d-bdce-1209cb718b6f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSDCreateHttpAddress, WSDCreateHttpAddress function, ncd.wsdcreatehttpaddress, wsdbase/WSDCreateHttpAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

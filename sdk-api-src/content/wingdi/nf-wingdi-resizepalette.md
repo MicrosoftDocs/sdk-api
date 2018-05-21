@@ -7,7 +7,7 @@ old-location: gdi\resizepalette.htm
 old-project: gdi
 ms.assetid: 77178869-cbfb-4b91-a5b0-7d0404e7534f
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: ResizePalette, ResizePalette function [Windows GDI], _win32_ResizePalette, gdi.resizepalette, wingdi/ResizePalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

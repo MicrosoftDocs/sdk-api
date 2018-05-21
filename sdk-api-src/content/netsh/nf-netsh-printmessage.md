@@ -7,7 +7,7 @@ old-location: netshell\printmessage.htm
 old-project: NetShell
 ms.assetid: 6646a4f7-24b7-460c-8027-80485ac50785
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/10/2018
 ms.keywords: PrintMessage, PrintMessage function [NetShell], _netsh_printmessage, netsh/PrintMessage, netshell.printmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

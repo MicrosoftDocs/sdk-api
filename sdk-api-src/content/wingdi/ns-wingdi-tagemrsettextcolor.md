@@ -7,7 +7,7 @@ old-location: gdi\emrsetbkcolor__emrsettextcolor.htm
 old-project: gdi
 ms.assetid: 9916fc79-cac0-4c46-8fa5-aeca3b7f2cf0
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: "*PEMRSETBKCOLOR, *PEMRSETTEXTCOLOR, EMRSETBKCOLOR, EMRSETBKCOLOR structure [Windows GDI], EMRSETBKCOLOR,EMRSETTEXTCOLOR, EMRSETBKCOLOR,EMRSETTEXTCOLOR structure [Windows GDI], EMRSETTEXTCOLOR, EMRSETTEXTCOLOR structure [Windows GDI], PEMRSETBKCOLOR, PEMRSETBKCOLOR structure pointer [Windows GDI], PEMRSETTEXTCOLOR, PEMRSETTEXTCOLOR structure pointer [Windows GDI], _win32_EMRSETBKCOLOR_str, gdi.emrsetbkcolor__emrsettextcolor, tagEMRSETTEXTCOLOR, wingdi/EMRSETBKCOLOR,EMRSETTEXTCOLOR, wingdi/EMRSETTEXTCOLOR, wingdi/PEMRSETBKCOLOR, wingdi/PEMRSETTEXTCOLOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

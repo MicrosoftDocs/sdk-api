@@ -7,7 +7,7 @@ old-location: intl\ispellcheckprovider_suggest.htm
 old-project: Intl
 ms.assetid: 4A66619C-8A12-4465-889C-B880C43031AB
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],Suggest method, ISpellCheckProvider.Suggest, ISpellCheckProvider::Suggest, Suggest, Suggest method [Internationalization for Windows Applications], Suggest method [Internationalization for Windows Applications],ISpellCheckProvider interface, intl.ispellcheckprovider_suggest, spellcheckprovider/ISpellCheckProvider::Suggest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # ISpellCheckProvider::Suggest

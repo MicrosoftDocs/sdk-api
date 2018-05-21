@@ -1,0 +1,8 @@
+{
+  "tech": "swdevice",
+  "headers": [
+    "swdevice.h",
+    "swdevicedef.h"
+  ],
+  "displayName": "Software Device API"
+}

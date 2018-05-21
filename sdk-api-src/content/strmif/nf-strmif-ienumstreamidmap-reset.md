@@ -7,7 +7,7 @@ old-location: dshow\ienumstreamidmap_reset.htm
 old-project: DirectShow
 ms.assetid: 2e8bc22c-8a13-4a5a-a15d-af4e1ed699bd
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Reset method, IEnumStreamIdMap.Reset, IEnumStreamIdMap::Reset, IEnumStreamIdMapReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_reset, strmif/IEnumStreamIdMap::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

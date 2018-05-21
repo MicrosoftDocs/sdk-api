@@ -7,7 +7,7 @@ old-location: security\cryptcatstorefromhandle.htm
 old-project: SecCrypto
 ms.assetid: ce4fe972-0ed5-4b18-8ec5-9883af326335
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CryptCATStoreFromHandle, CryptCATStoreFromHandle function [Security], mscat/CryptCATStoreFromHandle, security.cryptcatstorefromhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

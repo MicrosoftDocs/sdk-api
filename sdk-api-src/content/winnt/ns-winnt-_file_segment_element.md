@@ -7,7 +7,7 @@ old-location: fs\file_segment_element.htm
 old-project: FileIO
 ms.assetid: dde79dcb-95ec-4a9e-87a4-9ad99ac6266e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PFILE_SEGMENT_ELEMENT, FILE_SEGMENT_ELEMENT, FILE_SEGMENT_ELEMENT union [Files], PFILE_SEGMENT_ELEMENT, PFILE_SEGMENT_ELEMENT union pointer [Files], _FILE_SEGMENT_ELEMENT, fs.file_segment_element, winnt/FILE_SEGMENT_ELEMENT, winnt/PFILE_SEGMENT_ELEMENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

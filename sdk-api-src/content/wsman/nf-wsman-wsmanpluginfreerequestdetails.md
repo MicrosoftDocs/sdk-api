@@ -7,7 +7,7 @@ old-location: winrm\wsmanpluginfreerequestdetails.htm
 old-project: WinRM
 ms.assetid: 43716391-536c-49ae-9266-a8ae72621a0b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: WSManPluginFreeRequestDetails, WSManPluginFreeRequestDetails function [Windows Remote Management], winrm.wsmanpluginfreerequestdetails, wsman/WSManPluginFreeRequestDetails
 ms.prod: windows-hardware
 ms.technology: windows-devices

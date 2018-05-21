@@ -7,7 +7,7 @@ old-location: cos\isecurityidentitycoll_get__newenum.htm
 old-project: cossdk
 ms.assetid: 8e138b0b-cea1-47ca-a73b-473b9f5860db
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: ISecurityIdentityColl interface [COM+],get__NewEnum method, ISecurityIdentityColl.get__NewEnum, ISecurityIdentityColl::get__NewEnum, _cos_ISecurityIdentityColl_get__NewEnum, comsvcs/ISecurityIdentityColl::get__NewEnum, cos.isecurityidentitycoll_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ISecurityIdentityColl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

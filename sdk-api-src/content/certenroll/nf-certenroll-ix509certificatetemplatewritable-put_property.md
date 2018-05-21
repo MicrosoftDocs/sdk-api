@@ -7,7 +7,7 @@ old-location: security\ix509certificatetemplatewritable_property.htm
 old-project: SecCertEnroll
 ms.assetid: df665957-c276-4e46-8838-76010146e4d7
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509CertificateTemplateWritable interface [Security],Property property, IX509CertificateTemplateWritable.Property, IX509CertificateTemplateWritable.put_Property, IX509CertificateTemplateWritable::Property, IX509CertificateTemplateWritable::get_Property, IX509CertificateTemplateWritable::put_Property, Property property [Security], Property property [Security],IX509CertificateTemplateWritable interface, certenroll/IX509CertificateTemplateWritable::Property, certenroll/IX509CertificateTemplateWritable::get_Property, certenroll/IX509CertificateTemplateWritable::put_Property, put_Property, security.ix509certificatetemplatewritable_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

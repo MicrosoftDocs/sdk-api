@@ -7,7 +7,7 @@ old-location: fs\unlockfileex.htm
 old-project: FileIO
 ms.assetid: 78e2a75e-ff67-4039-b609-fb5004718c45
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: UnlockFileEx, UnlockFileEx function [Files], _win32_unlockfileex, base.unlockfileex, fileapi/UnlockFileEx, fs.unlockfileex, winbase/UnlockFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_BlurParams.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\blurparams.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: BlurParams, BlurParams structure [GDI+], BrightnessContrastParams, _gdiplus_STRUC_BlurParams, gdiplus._gdiplus_STRUC_BlurParams, gdipluseffects/BlurParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

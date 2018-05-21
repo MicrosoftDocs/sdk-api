@@ -7,7 +7,7 @@ old-location: shell\DROPDESCRIPTION.htm
 old-project: shell
 ms.assetid: 78757001-cac8-412d-a6c3-74bae6eb3ad8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DROPDESCRIPTION, DROPDESCRIPTION structure [Windows Shell], _shell_DROPDESCRIPTION, shell.DROPDESCRIPTION, shlobj_core/DROPDESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices

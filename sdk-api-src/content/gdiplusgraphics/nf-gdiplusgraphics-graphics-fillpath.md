@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPath_brush_path_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\fillpath.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: FillPath, FillPath method [GDI+], FillPath method [GDI+],Graphics class, Graphics class [GDI+],FillPath method, Graphics.FillPath, Graphics::FillPath, _gdiplus_CLASS_Graphics_FillPath_brush_path_, gdiplus._gdiplus_CLASS_Graphics_FillPath_brush_path_
 ms.prod: windows-hardware
 ms.technology: windows-devices

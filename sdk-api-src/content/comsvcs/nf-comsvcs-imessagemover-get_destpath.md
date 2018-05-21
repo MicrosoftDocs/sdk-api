@@ -7,7 +7,7 @@ old-location: cos\imessagemover_get_destpath.htm
 old-project: cossdk
 ms.assetid: 3adb24d5-b56d-4740-838b-d5b7571950e2
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IMessageMover interface [COM+],get_DestPath method, IMessageMover.get_DestPath, IMessageMover::get_DestPath, comsvcs/IMessageMover::get_DestPath, cos.imessagemover_get_destpath, get_DestPath, get_DestPath method [COM+], get_DestPath method [COM+],IMessageMover interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

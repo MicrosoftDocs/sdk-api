@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentstatus_status_property.htm
 old-project: SecCertEnroll
 ms.assetid: ca1105eb-a29a-458d-abbb-34c9b67d7c8a
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509EnrollmentStatus interface [Security],Status property, IX509EnrollmentStatus.Status, IX509EnrollmentStatus.get_Status, IX509EnrollmentStatus::Status, IX509EnrollmentStatus::get_Status, IX509EnrollmentStatus::put_Status, Status property [Security], Status property [Security],IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Status, certenroll/IX509EnrollmentStatus::get_Status, certenroll/IX509EnrollmentStatus::put_Status, get_Status, security.ix509enrollmentstatus_status_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

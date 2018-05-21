@@ -7,7 +7,7 @@ old-location: dfs\dfs_storage_info.htm
 old-project: Dfs
 ms.assetid: f50f32d8-1745-4ff6-97a6-ddd6fff95955
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDFS_STORAGE_INFO, *PDFS_STORAGE_INFO, DFS_STORAGE_INFO, DFS_STORAGE_INFO structure [Distributed File System], DFS_STORAGE_STATE_ACTIVE, DFS_STORAGE_STATE_OFFLINE, DFS_STORAGE_STATE_ONLINE, LPDFS_STORAGE_INFO, LPDFS_STORAGE_INFO structure pointer [Distributed File System], PDFS_STORAGE_INFO, PDFS_STORAGE_INFO structure pointer [Distributed File System], _DFS_STORAGE_INFO, _win32_dfs_storage_info_str, dfs.dfs_storage_info, fs.dfs_storage_info, fs.dfs_storage_info_str, lmdfs/DFS_STORAGE_INFO, lmdfs/LPDFS_STORAGE_INFO, lmdfs/PDFS_STORAGE_INFO, netmgmt.dfs_storage_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

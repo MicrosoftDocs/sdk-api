@@ -7,7 +7,7 @@ old-location: controls\ITextRange_GetFont.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getfont.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetFont, GetFont method [Windows Controls], GetFont method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetFont method, ITextRange.GetFont, ITextRange::GetFont, _win32_ITextRange_GetFont, _win32_ITextRange_GetFont_cpp, controls.ITextRange_GetFont, controls._win32_ITextRange_GetFont, tom/ITextRange::GetFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

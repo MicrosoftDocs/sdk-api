@@ -7,7 +7,7 @@ old-location: winprog\_findorcreatenamecache.htm
 old-project: DevNotes
 ms.assetid: c10a501c-cc25-4586-a62a-7c7be207cbd9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FindOrCreateNameCache, FindOrCreateNameCache function [Windows API], filehc/FindOrCreateNameCache, winprog._findorcreatenamecache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CREATEFILE2_EXTENDED_PARAMETERS, *PCREATEFILE2_EXTENDED_PARAMETERS, *LPCREATEFILE2_EXTENDED_PARAMETERS
+req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 topic_type:
 -	APIRef
 -	kbSyntax

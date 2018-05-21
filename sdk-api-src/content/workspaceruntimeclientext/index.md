@@ -2,11 +2,12 @@
 UID: NA:workspaceruntimeclientext
 ms.assetid: b2046158-b6ab-3e73-9823-dffa9d37a3db
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: termserv
 ---
 

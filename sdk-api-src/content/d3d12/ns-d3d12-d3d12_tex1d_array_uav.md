@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tex1d_array_uav.htm
 old-project: direct3d12
 ms.assetid: C8BB872A-4CA7-410D-83AA-4EA2A035C46F
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12_TEX1D_ARRAY_UAV, D3D12_TEX1D_ARRAY_UAV structure, d3d12/D3D12_TEX1D_ARRAY_UAV, direct3d12.d3d12_tex1d_array_uav
 ms.prod: windows-hardware
 ms.technology: windows-devices

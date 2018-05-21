@@ -7,7 +7,7 @@ old-location: fs\readfileex.htm
 old-project: FileIO
 ms.assetid: 6c1a4de1-6cae-4c35-bfba-0bc252fadbd9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: ReadFileEx, ReadFileEx function [Files], _win32_readfileex, base.readfileex, fileapi/ReadFileEx, fs.readfileex, winbase/ReadFileEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

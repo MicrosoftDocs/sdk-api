@@ -7,7 +7,7 @@ old-location: ncd\wsdcreatedevicehost2.htm
 old-project: WsdApi
 ms.assetid: 2d2a78a2-fca6-4f54-9c75-3406a3c8d492
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSDCreateDeviceHost2, WSDCreateDeviceHost2 function, ncd.wsdcreatedevicehost2, wsdhost/WSDCreateDeviceHost2
 ms.prod: windows-hardware
 ms.technology: windows-devices

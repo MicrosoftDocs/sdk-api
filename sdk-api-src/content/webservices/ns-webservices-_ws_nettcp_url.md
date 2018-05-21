@@ -7,7 +7,7 @@ old-location: wsw\ws_nettcp_url.htm
 old-project: wsw
 ms.assetid: 62079e59-01c8-48fb-932a-ca01cc7b86ec
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_NETTCP_URL, WS_NETTCP_URL structure [Web Services for Windows], _WS_NETTCP_URL, webservices/WS_NETTCP_URL, wsw.ws_nettcp_url
 ms.prod: windows-hardware
 ms.technology: windows-devices

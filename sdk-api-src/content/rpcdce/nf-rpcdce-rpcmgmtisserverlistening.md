@@ -7,7 +7,7 @@ old-location: rpc\rpcmgmtisserverlistening.htm
 old-project: Rpc
 ms.assetid: e4c5e8aa-764d-489f-ac98-ab40ca4a3534
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcMgmtIsServerListening, RpcMgmtIsServerListening function [RPC], _rpc_rpcmgmtisserverlistening, rpc.rpcmgmtisserverlistening, rpcdce/RpcMgmtIsServerListening
 ms.prod: windows-hardware
 ms.technology: windows-devices

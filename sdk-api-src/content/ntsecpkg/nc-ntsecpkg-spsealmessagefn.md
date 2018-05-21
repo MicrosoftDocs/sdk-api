@@ -7,7 +7,7 @@ old-location: security\spsealmessage.htm
 old-project: SecAuthN
 ms.assetid: 400bc3e7-e9a1-4267-b4de-44d79dceb9e5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: SpSealMessage, SpSealMessageFn, SpSealMessageFn function [Security], TBD, _ssp_spsealmessage, ntsecpkg/SpSealMessageFn, security.spsealmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: mscs\close.htm
 old-project: MsCS
 ms.assetid: c7c74440-c98a-4440-8bf4-10ebd1a68608
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: Close, Close callback function [Failover Cluster], PCLOSE_ROUTINE, PCLOSE_ROUTINE callback, _wolf_close, mscs.close, resapi/Close, resapi/PCLOSE_ROUTINE
+ms.date: 5/10/2018
+ms.keywords: Close, PCLOSE_ROUTINE, PCLOSE_ROUTINE callback, PCLOSE_ROUTINE callback function [Failover Cluster], _wolf_close, mscs.close, resapi/PCLOSE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	ResApi.h
 api_name:
--	Close
+-	PCLOSE_ROUTINE
 product: Windows
 targetos: Windows
 req.lib: 

@@ -7,7 +7,7 @@ old-location: ncd\wsdcreatedeviceproxyadvanced.htm
 old-project: WsdApi
 ms.assetid: 31ddf62a-71d3-4f66-a704-2ee9e1fc8145
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSDCreateDeviceProxyAdvanced, WSDCreateDeviceProxyAdvanced function, ncd.wsdcreatedeviceproxyadvanced, wsdclient/WSDCreateDeviceProxyAdvanced
 ms.prod: windows-hardware
 ms.technology: windows-devices

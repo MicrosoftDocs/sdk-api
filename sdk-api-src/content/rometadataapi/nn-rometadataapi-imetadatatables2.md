@@ -7,7 +7,7 @@ old-location: winrt\imetadatatables2.htm
 old-project: WinRT
 ms.assetid: dc59fe85-b490-4f23-a32f-2942610dd8dc
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: IMetaDataTables2, IMetaDataTables2 interface [Windows Runtime], IMetaDataTables2 interface [Windows Runtime],described, rometadataapi/IMetaDataTables2, winrt.imetadatatables2
 ms.prod: windows-hardware
 ms.technology: windows-devices

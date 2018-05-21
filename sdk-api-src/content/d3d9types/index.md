@@ -2,7 +2,7 @@
 UID: NA:d3d9types
 ms.assetid: aecfe4b9-a3a7-3fee-a0a5-e69e3cfbf81c
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

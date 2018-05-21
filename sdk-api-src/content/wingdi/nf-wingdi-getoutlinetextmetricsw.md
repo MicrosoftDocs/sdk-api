@@ -7,7 +7,7 @@ old-location: gdi\getoutlinetextmetrics.htm
 old-project: gdi
 ms.assetid: b8c7a557-ca35-41a4-9043-8496e5b01564
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetOutlineTextMetrics, GetOutlineTextMetrics function [Windows GDI], GetOutlineTextMetricsA, GetOutlineTextMetricsW, _win32_GetOutlineTextMetrics, gdi.getoutlinetextmetrics, wingdi/GetOutlineTextMetrics, wingdi/GetOutlineTextMetricsA, wingdi/GetOutlineTextMetricsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

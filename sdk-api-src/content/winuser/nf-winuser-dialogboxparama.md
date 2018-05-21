@@ -7,7 +7,7 @@ old-location: dlgbox\dialogboxparam.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\dialogboxparam.htm
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/17/2018
 ms.keywords: DialogBoxParam, DialogBoxParam function [Dialog Boxes], DialogBoxParamA, DialogBoxParamW, _win32_DialogBoxParam, _win32_dialogboxparam_cpp, dlgbox.dialogboxparam, winui._win32_dialogboxparam, winuser/DialogBoxParam, winuser/DialogBoxParamA, winuser/DialogBoxParamW
 ms.prod: windows-hardware
 ms.technology: windows-devices

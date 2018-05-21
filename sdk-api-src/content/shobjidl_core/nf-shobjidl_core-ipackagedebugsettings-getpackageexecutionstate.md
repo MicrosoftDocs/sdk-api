@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_GetPackageExecutionState.htm
 old-project: shell
 ms.assetid: 39560adc-9d35-48ec-8b70-2ed4b83dd1f6
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetPackageExecutionState, GetPackageExecutionState method [Windows Shell], GetPackageExecutionState method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],GetPackageExecutionState method, IPackageDebugSettings.GetPackageExecutionState, IPackageDebugSettings::GetPackageExecutionState, shell.IPackageDebugSettings_GetPackageExecutionState, shobjidl_core/IPackageDebugSettings::GetPackageExecutionState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IPackageDebugSettings::GetPackageExecutionState

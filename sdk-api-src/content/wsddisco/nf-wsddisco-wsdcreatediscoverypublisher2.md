@@ -7,7 +7,7 @@ old-location: ncd\wsdcreatediscoverypublisher2.htm
 old-project: WsdApi
 ms.assetid: 43c17910-a4b6-4889-ba98-4e125b4a3ac0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSDCreateDiscoveryPublisher2, WSDCreateDiscoveryPublisher2 function, ncd.wsdcreatediscoverypublisher2, wsddisco/WSDCreateDiscoveryPublisher2
 ms.prod: windows-hardware
 ms.technology: windows-devices

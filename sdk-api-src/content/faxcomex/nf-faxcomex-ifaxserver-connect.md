@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxserver_connect_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0ipg.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: Connect, Connect method [Fax Service], Connect method [Fax Service],FaxServer object, FaxServer object [Fax Service],Connect method, FaxServer.Connect, IFaxServer.Connect, IFaxServer::Connect, _mfax_faxserver.connect, fax._mfax_faxserver_connect, fax._mfax_faxserver_connect_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices

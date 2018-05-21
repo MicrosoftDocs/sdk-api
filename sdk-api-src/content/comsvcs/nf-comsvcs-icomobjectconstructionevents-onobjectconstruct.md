@@ -7,7 +7,7 @@ old-location: cos\icomobjectconstructionevents_onobjectconstruct.htm
 old-project: cossdk
 ms.assetid: 8a90e561-79a0-4490-bbc8-f376e4278ab9
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IComObjectConstructionEvents interface [COM+],OnObjectConstruct method, IComObjectConstructionEvents.OnObjectConstruct, IComObjectConstructionEvents::OnObjectConstruct, OnObjectConstruct, OnObjectConstruct method [COM+], OnObjectConstruct method [COM+],IComObjectConstructionEvents interface, _dtc_IComObjectConstructionEvents_OnObjectConstruct, comsvcs/IComObjectConstructionEvents::OnObjectConstruct, cos.icomobjectconstructionevents_onobjectconstruct
 ms.prod: windows-hardware
 ms.technology: windows-devices

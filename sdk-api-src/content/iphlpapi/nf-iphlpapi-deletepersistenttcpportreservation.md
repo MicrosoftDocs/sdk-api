@@ -7,7 +7,7 @@ old-location: iphlp\deletepersistenttcpportreservation.htm
 old-project: IpHlp
 ms.assetid: 533F8B35-6EC1-43BB-B8E6-EB086A9C646C
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DeletePersistentTcpPortReservation, DeletePersistentTcpPortReservation function [IP Helper], iphlp.deletepersistenttcpportreservation, iphlpapi/DeletePersistentTcpPortReservation
 ms.prod: windows-hardware
 ms.technology: windows-devices

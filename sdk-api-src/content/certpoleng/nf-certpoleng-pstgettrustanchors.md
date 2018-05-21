@@ -7,7 +7,7 @@ old-location: security\pstgettrustanchors.htm
 old-project: SecAuthN
 ms.assetid: bbd69763-6801-4321-be18-802d48850d8c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: PstGetTrustAnchors, PstGetTrustAnchors function [Security], certpoleng/PstGetTrustAnchors, security.pstgettrustanchors
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: X509RequestType
+req.typenames: X509SCEPFailInfo
 topic_type:
 -	APIRef
 -	kbSyntax

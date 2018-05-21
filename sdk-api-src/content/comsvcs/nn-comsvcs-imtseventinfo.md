@@ -7,7 +7,7 @@ old-location: cos\imtseventinfo.htm
 old-project: cossdk
 ms.assetid: 9508df6d-281b-4a02-bb95-233b369b8279
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IMtsEventInfo, IMtsEventInfo interface [COM+], IMtsEventInfo interface [COM+],described, _dtc_IMtsEventInfo_Interface, comsvcs/IMtsEventInfo, cos.imtseventinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

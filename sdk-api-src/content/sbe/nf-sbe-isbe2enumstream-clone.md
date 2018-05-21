@@ -7,7 +7,7 @@ old-location: mstv\isbe2enumstream_clone.htm
 old-project: mstv
 ms.assetid: d68daae6-2aef-4405-883b-a0e7ee6e5eb3
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],ISBE2EnumStream interface, ISBE2EnumStream interface [Microsoft TV Technologies],Clone method, ISBE2EnumStream.Clone, ISBE2EnumStream::Clone, mstv.isbe2enumstream_clone, sbe/ISBE2EnumStream::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

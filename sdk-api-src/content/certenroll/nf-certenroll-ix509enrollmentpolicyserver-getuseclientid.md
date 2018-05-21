@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_getuseclientid.htm
 old-project: SecCertEnroll
 ms.assetid: 5fd74752-60bb-4bdb-973d-76d4ab0ae4c4
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: GetUseClientId, GetUseClientId method [Security], GetUseClientId method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetUseClientId method, IX509EnrollmentPolicyServer.GetUseClientId, IX509EnrollmentPolicyServer::GetUseClientId, certenroll/IX509EnrollmentPolicyServer::GetUseClientId, security.ix509enrollmentpolicyserver_getuseclientid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\resutilfindfiletimeproperty.htm
 old-project: MsCS
 ms.assetid: 089a7016-47bd-4878-81e6-8854e24b9220
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PRESUTIL_FIND_FILETIME_PROPERTY, PRESUTIL_FIND_FILETIME_PROPERTY callback, PRESUTIL_FIND_FILETIME_PROPERTY callback function [Failover Cluster], mscs.resutilfindfiletimeproperty, resapi/PRESUTIL_FIND_FILETIME_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices

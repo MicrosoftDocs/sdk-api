@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetDpiY_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getdpiy.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetDpiY, GetDpiY method [GDI+], GetDpiY method [GDI+],Graphics class, Graphics class [GDI+],GetDpiY method, Graphics.GetDpiY, Graphics::GetDpiY, _gdiplus_CLASS_Graphics_GetDpiY_, gdiplus._gdiplus_CLASS_Graphics_GetDpiY_
 ms.prod: windows-hardware
 ms.technology: windows-devices

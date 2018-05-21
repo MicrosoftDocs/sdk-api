@@ -7,7 +7,7 @@ old-location: winrt\ilanguageexceptionstackbacktrace.htm
 old-project: WinRT
 ms.assetid: A5AA17A2-414B-4641-A417-4F73384216F9
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: ILanguageExceptionStackBackTrace, ILanguageExceptionStackBackTrace interface [Windows Runtime], ILanguageExceptionStackBackTrace interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionStackBackTrace, winrt.ilanguageexceptionstackbacktrace
 ms.prod: windows-hardware
 ms.technology: windows-devices

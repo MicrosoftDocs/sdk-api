@@ -2,7 +2,7 @@
 UID: TP:iphlp
 ms.assetid: 2d8e8199-22bc-381d-9913-ad803143e6e3
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\Folder_MoveHere.htm
 old-project: shell
 ms.assetid: 07723dc1-5d9d-4f32-ab18-52617b0988c4
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: Folder object [Windows Shell],MoveHere method, Folder.MoveHere, Folder::MoveHere, MoveHere, MoveHere method [Windows Shell], MoveHere method [Windows Shell],Folder object, _win32_Folder_MoveHere, shell.Folder_MoveHere
 ms.prod: windows-hardware
 ms.technology: windows-devices

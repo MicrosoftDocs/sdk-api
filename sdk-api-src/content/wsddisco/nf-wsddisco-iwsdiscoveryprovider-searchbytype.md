@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveryprovider_searchbytype_method.htm
 old-project: WsdApi
 ms.assetid: bb1f2822-4d5d-4156-99e3-5a4528474953
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchByType method, IWSDiscoveryProvider.SearchByType, IWSDiscoveryProvider::SearchByType, SearchByType, SearchByType method, SearchByType method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbytype_method, wsddisco/IWSDiscoveryProvider::SearchByType
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyjob3_setfileaclflags.htm
 old-project: Bits
 ms.assetid: de218e3d-8c42-4cf3-94b9-94dbc5edbb47
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: BG_COPY_FILE_ALL, BG_COPY_FILE_DACL, BG_COPY_FILE_GROUP, BG_COPY_FILE_OWNER, BG_COPY_FILE_SACL, IBackgroundCopyJob3 interface [BITS],SetFileACLFlags method, IBackgroundCopyJob3.SetFileACLFlags, IBackgroundCopyJob3::SetFileACLFlags, SetFileACLFlags, SetFileACLFlags method [BITS], SetFileACLFlags method [BITS],IBackgroundCopyJob3 interface, bits.ibackgroundcopyjob3_setfileaclflags, bits2_0/IBackgroundCopyJob3::SetFileACLFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

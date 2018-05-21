@@ -7,7 +7,7 @@ old-location: com\ipointerinactive_oninactivesetcursor.htm
 old-project: com
 ms.assetid: f2c87f5e-5c8e-487c-ad18-ea95f334e01d
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IPointerInactive interface [COM],OnInactiveSetCursor method, IPointerInactive.OnInactiveSetCursor, IPointerInactive::OnInactiveSetCursor, OnInactiveSetCursor, OnInactiveSetCursor method [COM], OnInactiveSetCursor method [COM],IPointerInactive interface, _ctrl_ipointerinactive_oninactivesetcursor, com.ipointerinactive_oninactivesetcursor, ocidl/IPointerInactive::OnInactiveSetCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices

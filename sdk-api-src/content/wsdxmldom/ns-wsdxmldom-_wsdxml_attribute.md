@@ -7,7 +7,7 @@ old-location: ncd\wsdxml_attribute_struct.htm
 old-project: WsdApi
 ms.assetid: 2697d30d-17c7-417d-a02b-c4427987ec4b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSDXML_ATTRIBUTE, WSDXML_ATTRIBUTE structure, _WSDXML_ATTRIBUTE, ncd.wsdxml_attribute_struct, wsdxmldom/WSDXML_ATTRIBUTE
 ms.prod: windows-hardware
 ms.technology: windows-devices

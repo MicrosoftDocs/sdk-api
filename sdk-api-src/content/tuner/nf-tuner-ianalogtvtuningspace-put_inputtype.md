@@ -7,7 +7,7 @@ old-location: mstv\ianalogtvtuningspace_put_inputtype.htm
 old-project: mstv
 ms.assetid: 399503a2-60e9-4feb-ba69-cafef70b2540
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],put_InputType method, IAnalogTVTuningSpace.put_InputType, IAnalogTVTuningSpace::put_InputType, IAnalogTVTuningSpaceput_InputType, mstv.ianalogtvtuningspace_put_inputtype, put_InputType, put_InputType method [Microsoft TV Technologies], put_InputType method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, tuner/IAnalogTVTuningSpace::put_InputType
 ms.prod: windows-hardware
 ms.technology: windows-devices

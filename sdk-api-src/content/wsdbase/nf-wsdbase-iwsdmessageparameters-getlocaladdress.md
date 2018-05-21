@@ -7,7 +7,7 @@ old-location: ncd\iwsdmessageparameters_getlocaladdress.htm
 old-project: WsdApi
 ms.assetid: 97eab68f-9a77-46ae-a50e-be6267e25040
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetLocalAddress, GetLocalAddress method, GetLocalAddress method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetLocalAddress method, IWSDMessageParameters.GetLocalAddress, IWSDMessageParameters::GetLocalAddress, ncd.iwsdmessageparameters_getlocaladdress, wsdbase/IWSDMessageParameters::GetLocalAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

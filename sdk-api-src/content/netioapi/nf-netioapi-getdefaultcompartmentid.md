@@ -7,7 +7,7 @@ old-location: iphlp\getdefaultcompartmentid.htm
 old-project: IpHlp
 ms.assetid: 6747534F-7121-4783-BC19-D564C7014815
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetDefaultCompartmentId, GetDefaultCompartmentId function [IP Helper], iphlp.getdefaultcompartmentid, netioapi/GetDefaultCompartmentId
 ms.prod: windows-hardware
 ms.technology: windows-devices

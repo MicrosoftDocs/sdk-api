@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectoutputconnectorimpl.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnectorimpl\imilbitmapeffectoutputconnectorimpl.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMILBitmapEffectOutputConnectorImpl, IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects], IMILBitmapEffectOutputConnectorImpl interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectoutputconnectorimpl, mileffects/IMILBitmapEffectOutputConnectorImpl, wibe._wibe_imilbitmapeffectoutputconnectorimpl
 ms.prod: windows-hardware
 ms.technology: windows-devices

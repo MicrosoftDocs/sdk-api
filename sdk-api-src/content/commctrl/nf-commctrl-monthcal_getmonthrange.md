@@ -7,7 +7,7 @@ old-location: controls\MonthCal_GetMonthRange.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmonthrange.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GMR_DAYSTATE, GMR_VISIBLE, MonthCal_GetMonthRange, MonthCal_GetMonthRange macro [Windows Controls], _win32_MonthCal_GetMonthRange, _win32_MonthCal_GetMonthRange_cpp, commctrl/MonthCal_GetMonthRange, controls.MonthCal_GetMonthRange, controls._win32_MonthCal_GetMonthRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

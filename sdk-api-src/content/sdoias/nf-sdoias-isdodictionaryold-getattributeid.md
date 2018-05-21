@@ -7,7 +7,7 @@ old-location: nps\SDO_isdodictionaryold_getattributeid.htm
 old-project: Nps
 ms.assetid: 30d2128e-6940-443d-b5e2-c9964d7edfa1
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: GetAttributeID, GetAttributeID method [Network Policy Server], GetAttributeID method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],GetAttributeID method, ISdoDictionaryOld.GetAttributeID, ISdoDictionaryOld::GetAttributeID, _sdo_isdodictionaryold_getattributeid, nps.SDO_isdodictionaryold_getattributeid, sdo.isdodictionaryold_getattributeid, sdoias/ISdoDictionaryOld::GetAttributeID
 ms.prod: windows-hardware
 ms.technology: windows-devices

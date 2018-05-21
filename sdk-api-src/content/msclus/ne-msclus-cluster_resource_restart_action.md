@@ -7,7 +7,7 @@ old-location: mscs\cluster_resource_restart_action.htm
 old-project: MsCS
 ms.assetid: 6300bdb7-2349-44f8-913a-dd84813bd3bd
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: CLUSTER_RESOURCE_RESTART_ACTION, CLUSTER_RESOURCE_RESTART_ACTION enumeration [Failover Cluster], CRRA, CRRA enumeration [Failover Cluster], ClusterResourceDontRestart, ClusterResourceRestartActionCount, ClusterResourceRestartNoNotify, ClusterResourceRestartNotify, _CLUSTER_RESOURCE_RESTART_ACTION, _CLUSTER_RESOURCE_RESTART_ACTION enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_RESTART_ACTION, clusapi/CRRA, clusapi/ClusterResourceDontRestart, clusapi/ClusterResourceRestartActionCount, clusapi/ClusterResourceRestartNoNotify, clusapi/ClusterResourceRestartNotify, clusapi/_CLUSTER_RESOURCE_RESTART_ACTION, msclus/CLUSTER_RESOURCE_RESTART_ACTION, msclus/CRRA, msclus/ClusterResourceDontRestart, msclus/ClusterResourceRestartActionCount, msclus/ClusterResourceRestartNoNotify, msclus/ClusterResourceRestartNotify, msclus/_CLUSTER_RESOURCE_RESTART_ACTION, mscs.cluster_resource_restart_action
 ms.prod: windows-hardware
 ms.technology: windows-devices

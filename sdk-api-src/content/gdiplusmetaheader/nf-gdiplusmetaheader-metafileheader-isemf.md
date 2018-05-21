@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsEmf_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isemf.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: IsEmf, IsEmf method [GDI+], IsEmf method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsEmf method, MetafileHeader.IsEmf, MetafileHeader::IsEmf, _gdiplus_CLASS_MetafileHeader_IsEmf_, gdiplus._gdiplus_CLASS_MetafileHeader_IsEmf_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\qacontainer.htm
 old-project: com
 ms.assetid: 8f3975eb-7cd2-449f-92cc-2b8773d9f37e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: QACONTAINER, QACONTAINER structure [COM], _ctrl_QACONTAINER, com.qacontainer, ocidl/QACONTAINER, tagQACONTAINER
 ms.prod: windows-hardware
 ms.technology: windows-devices

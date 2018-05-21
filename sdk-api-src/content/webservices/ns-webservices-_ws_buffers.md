@@ -7,7 +7,7 @@ old-location: wsw\ws_buffers.htm
 old-project: wsw
 ms.assetid: 17ea7ba4-42d4-41a0-8982-a44518199ea8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_BUFFERS, WS_BUFFERS structure [Web Services for Windows], _WS_BUFFERS, webservices/WS_BUFFERS, wsw.ws_buffers
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: shell\UShortToUInt8.htm
 old-project: shell
 ms.assetid: 86e8a064-ce83-4224-81d3-84db39905f34
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: UShortToUInt8, UShortToUInt8 function [Windows Shell], WordToByte, intsafe/UShortToUInt8, shell.UShortToUInt8
+ms.date: 5/16/2018
+ms.keywords: UShortToByte, UShortToUInt8, UShortToUInt8 function [Windows Shell], WordToByte, intsafe/UShortToUInt8, shell.UShortToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,6 +82,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 <b>WordToByte</b> is an alias for this function.
+
+<b>UShortToByte</b> is an alias for this function.
 
 
 

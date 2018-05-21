@@ -7,7 +7,7 @@ old-location: imapi\ifsidirectoryitem_get_count.htm
 old-project: imapi
 ms.assetid: 66553025-35c9-4902-a184-01c07a478977
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],get_Count method, IFsiDirectoryItem.get_Count, IFsiDirectoryItem::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_get_count, imapi2fs/IFsiDirectoryItem::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

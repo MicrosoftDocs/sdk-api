@@ -7,7 +7,7 @@ old-location: base\querythreadpoolstackinformation.htm
 old-project: ProcThread
 ms.assetid: 1669dfa7-75bf-4776-bba7-7d03a084a32c
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: QueryThreadpoolStackInformation, QueryThreadpoolStackInformation function, base.querythreadpoolstackinformation, threadpoolapiset/QueryThreadpoolStackInformation, winbase/QueryThreadpoolStackInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

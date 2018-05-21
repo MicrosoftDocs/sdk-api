@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_IntersectClip_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsintersectclipmethods.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Graphics.IntersectClip, Graphics.IntersectClip(IN const Region), Graphics::IntersectClip, Graphics::IntersectClip(IN const Region), IntersectClip, IntersectClip methods [GDI+], _gdiplus_CLASS_Graphics_IntersectClip_Methods, gdiplus._gdiplus_CLASS_Graphics_IntersectClip_Methods, gdiplusgraphics/IntersectClip
 ms.prod: windows-hardware
 ms.technology: windows-devices

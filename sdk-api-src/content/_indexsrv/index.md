@@ -2,11 +2,12 @@
 UID: TP:indexsrv
 ms.assetid: 45f6cbf9-5f8f-3f61-8756-c82b7e311782
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Indexing Service

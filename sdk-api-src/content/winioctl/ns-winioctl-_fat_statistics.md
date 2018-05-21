@@ -7,7 +7,7 @@ old-location: fs\fat_statistics_str.htm
 old-project: FileIO
 ms.assetid: 98d293e8-e708-48f5-99b1-603f27e6ef16
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PFAT_STATISTICS, FAT_STATISTICS, FAT_STATISTICS structure [Files], PFAT_STATISTICS, PFAT_STATISTICS structure pointer [Files], _FAT_STATISTICS, base.fat_statistics_str, fs.fat_statistics_str, winioctl/FAT_STATISTICS, winioctl/PFAT_STATISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

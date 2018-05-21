@@ -7,7 +7,7 @@ old-location: security\ix509extension_rawdata_property.htm
 old-project: SecCertEnroll
 ms.assetid: 779ad765-e767-4594-afdb-49fe79a8e64b
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509Extension interface [Security],RawData property, IX509Extension.RawData, IX509Extension.get_RawData, IX509Extension::RawData, IX509Extension::get_RawData, RawData property [Security], RawData property [Security],IX509Extension interface, certenroll/IX509Extension::RawData, certenroll/IX509Extension::get_RawData, get_RawData, security.ix509extension_rawdata_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

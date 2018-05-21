@@ -7,7 +7,7 @@ old-location: fs\findfirstvolume.htm
 old-project: FileIO
 ms.assetid: 3eaf9903-ae20-47e7-b32c-943bf60e7bbd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: FindFirstVolume, FindFirstVolume function [Files], FindFirstVolumeA, FindFirstVolumeW, _win32_findfirstvolume, base.findfirstvolume, fileapi/FindFirstVolume, fileapi/FindFirstVolumeA, fileapi/FindFirstVolumeW, fs.findfirstvolume, winbase/FindFirstVolume, winbase/FindFirstVolumeA, winbase/FindFirstVolumeW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

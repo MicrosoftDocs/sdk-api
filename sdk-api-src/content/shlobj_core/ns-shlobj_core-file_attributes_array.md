@@ -7,7 +7,7 @@ old-location: shell\FILE_ATTRIBUTES_ARRAY.htm
 old-project: shell
 ms.assetid: 222a1e97-df2f-49ad-be07-3172f49ecd06
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FILE_ATTRIBUTES_ARRAY, FILE_ATTRIBUTES_ARRAY structure [Windows Shell], _shell_FILE_ATTRIBUTES_ARRAY, shell.FILE_ATTRIBUTES_ARRAY, shlobj_core/FILE_ATTRIBUTES_ARRAY
 ms.prod: windows-hardware
 ms.technology: windows-devices

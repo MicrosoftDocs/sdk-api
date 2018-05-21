@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_ReleaseHDC_hdc_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\releasehdc.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Graphics class [GDI+],ReleaseHDC method, Graphics.ReleaseHDC, Graphics::ReleaseHDC, ReleaseHDC, ReleaseHDC method [GDI+], ReleaseHDC method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_ReleaseHDC_hdc_, gdiplus._gdiplus_CLASS_Graphics_ReleaseHDC_hdc_
 ms.prod: windows-hardware
 ms.technology: windows-devices

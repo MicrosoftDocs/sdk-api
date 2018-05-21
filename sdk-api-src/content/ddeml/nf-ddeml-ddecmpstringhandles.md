@@ -7,7 +7,7 @@ old-location: dataxchg\ddecmpstringhandles.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddecmpstringhandles.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: DdeCmpStringHandles, DdeCmpStringHandles function [Data Exchange], _win32_DdeCmpStringHandles, _win32_ddecmpstringhandles_cpp, dataxchg.ddecmpstringhandles, ddeml/DdeCmpStringHandles, winui._win32_ddecmpstringhandles
 ms.prod: windows-hardware
 ms.technology: windows-devices

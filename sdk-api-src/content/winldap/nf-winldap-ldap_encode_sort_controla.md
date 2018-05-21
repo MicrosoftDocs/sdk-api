@@ -7,7 +7,7 @@ old-location: ldap\ldap_encode_sort_control.htm
 old-project: LDAP
 ms.assetid: 5c6c3bd4-739f-413d-adc3-668ac7b56da6
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_encode_sort_control, ldap.ldap__encode__sort__control, ldap.ldap_encode_sort_control, ldap_encode_sort_control, ldap_encode_sort_control function [LDAP], ldap_encode_sort_controlA, ldap_encode_sort_controlW, winldap/ldap_encode_sort_control, winldap/ldap_encode_sort_controlA, winldap/ldap_encode_sort_controlW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

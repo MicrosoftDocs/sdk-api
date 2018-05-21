@@ -7,7 +7,7 @@ old-location: com\oledoautoconvert.htm
 old-project: com
 ms.assetid: fe470f8a-b2f0-48a4-a270-77420bd1472a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleDoAutoConvert, OleDoAutoConvert function [COM], _com_OleDoAutoConvert, com.oledoautoconvert, ole2/OleDoAutoConvert
 ms.prod: windows-hardware
 ms.technology: windows-devices

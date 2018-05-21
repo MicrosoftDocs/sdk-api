@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothisdiscoverable.htm
 old-project: Bluetooth
 ms.assetid: 33d34e36-dc17-4029-91bd-53ece5a93b4b
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothIsDiscoverable, BluetoothIsDiscoverable function [Bluetooth], bluetooth.bluetoothisdiscoverable, bluetoothapis/BluetoothIsDiscoverable
 ms.prod: windows-hardware
 ms.technology: windows-devices

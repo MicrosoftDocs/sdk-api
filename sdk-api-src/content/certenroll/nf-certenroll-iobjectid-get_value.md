@@ -7,7 +7,7 @@ old-location: security\iobjectid_value_property.htm
 old-project: SecCertEnroll
 ms.assetid: 9ccb681a-f31b-4d31-ae56-25efd2af2b2c
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IObjectId interface [Security],Value property, IObjectId.Value, IObjectId.get_Value, IObjectId::Value, IObjectId::get_Value, Value property [Security], Value property [Security],IObjectId interface, certenroll/IObjectId::Value, certenroll/IObjectId::get_Value, get_Value, security.iobjectid_value_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

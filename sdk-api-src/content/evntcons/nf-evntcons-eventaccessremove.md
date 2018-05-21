@@ -7,7 +7,7 @@ old-location: etw\eventaccessremove_func.htm
 old-project: ETW
 ms.assetid: 9f25f163-046c-41b0-82f9-0b214b74b87e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EventAccessRemove, EventAccessRemove function [ETW], base.eventaccessremove_func, etw.eventaccessremove_func, evntcons/EventAccessRemove
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\iobjectids.htm
 old-project: SecCertEnroll
 ms.assetid: f376a33e-005b-4810-9a26-b642236ff7af
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IObjectIds, IObjectIds interface [Security], IObjectIds interface [Security],described, certenroll/IObjectIds, security.iobjectids
 ms.prod: windows-hardware
 ms.technology: windows-devices

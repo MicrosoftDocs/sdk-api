@@ -7,7 +7,7 @@ old-location: security\cryptcatadminremovecatalog.htm
 old-project: SecCrypto
 ms.assetid: e09fe991-0e7a-45da-910a-8cb148bdff9a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CryptCATAdminRemoveCatalog, CryptCATAdminRemoveCatalog function [Security], mscat/CryptCATAdminRemoveCatalog, security.cryptcatadminremovecatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\ws_security_key_handle.htm
 old-project: wsw
 ms.assetid: 89e90c32-edf7-47f4-9126-4c3539d9fbc1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_SECURITY_KEY_HANDLE, WS_SECURITY_KEY_HANDLE structure [Web Services for Windows], _WS_SECURITY_KEY_HANDLE, webservices/WS_SECURITY_KEY_HANDLE, wsw.ws_security_key_handle
 ms.prod: windows-hardware
 ms.technology: windows-devices

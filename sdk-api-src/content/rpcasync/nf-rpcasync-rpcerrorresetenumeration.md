@@ -7,7 +7,7 @@ old-location: rpc\rpcerrorresetenumeration.htm
 old-project: Rpc
 ms.assetid: fb41b923-7fd3-4058-9f5f-df4018d9b872
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcErrorResetEnumeration, RpcErrorResetEnumeration function [RPC], _rpc_rpcerrorresetenumeration, rpc.rpcerrorresetenumeration, rpcasync/RpcErrorResetEnumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices

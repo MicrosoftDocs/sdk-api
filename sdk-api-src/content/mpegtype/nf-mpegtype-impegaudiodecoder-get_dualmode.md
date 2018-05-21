@@ -7,7 +7,7 @@ old-location: dshow\impegaudiodecoder_get_dualmode.htm
 old-project: DirectShow
 ms.assetid: 3b536e8c-91eb-4c32-955f-b343f2c8e16f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_DualMode method, IMpegAudioDecoder.get_DualMode, IMpegAudioDecoder::get_DualMode, IMpegAudioDecodergetDualMode, dshow.impegaudiodecoder_get_dualmode, get_DualMode, get_DualMode method [DirectShow], get_DualMode method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_DualMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

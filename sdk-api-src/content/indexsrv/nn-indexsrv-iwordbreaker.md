@@ -2,13 +2,13 @@
 UID: NN:indexsrv.IWordBreaker
 title: IWordBreaker
 author: windows-driver-content
-description: The IWordBreaker interface is a language-specific language resource component.
-old-location: indexsrv\iwordbreaker.htm
-old-project: IndexSrv
-ms.assetid: VS|indexsrv|~\html\ixrefint_93xu.htm
+description: Parses text and identifies individual words and phrases. This interface is a language-specific language resource component. It is used in background processes and must be optimized for both throughput and minimal use of resources.
+old-location: search\_search_IWordBreaker.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\iwordbreaker.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: IWordBreaker, IWordBreaker interface [Indexing Service], IWordBreaker interface [Indexing Service],described, _idxs_IWordBreaker, indexsrv.iwordbreaker, indexsrv/IWordBreaker
+ms.date: 5/8/2018
+ms.keywords: IWordBreaker, IWordBreaker interface [search], IWordBreaker interface [search],described, _search_IWordBreaker, indexsrv/IWordBreaker, search._search_IWordBreaker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -36,7 +36,6 @@ api_location:
 -	Indexsrv.h
 api_name:
 -	IWordBreaker
--	IWordBreaker.ComposePhrase
 product: Windows
 targetos: Windows
 req.lib: 
@@ -51,11 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
-
-The <b>IWordBreaker</b> interface is a language-specific language resource component. The word breaker parses text and identifies individual words and phrases. The word breaker is used in background processes and must be optimized for both throughput and minimal use of resources.
-
-
+Parses text and identifies individual words and phrases. This interface is a language-specific language resource component. It is used in background processes and must be optimized for both throughput and minimal use of resources.
 
 
 ## -inheritance
@@ -75,26 +70,28 @@ The <b>IWordBreaker</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25d84f9a-502d-4187-9dbf-6aca7cb74562">BreakText</a>
+<a href="https://msdn.microsoft.com/32e495c0-e173-4b35-be58-51f31cb38e3e">BreakText</a>
 </td>
 <td align="left" width="63%">
-Breaks text to identify words and phrases and provides the results to the WordSink and PhraseSink objects.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>ComposePhrase</b></td>
-<td align="left" width="63%">
-Not supported.
+Parses text to identify words and phrases and provides the results to the <a href="https://msdn.microsoft.com/220FCAE5-D22D-45ED-9689-E78C0D8E0BB3">IWordSink</a> and <a href="https://msdn.microsoft.com/9485202D-94D6-4E9E-9C42-502033E85670">IPhraseSink</a> objects.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e79b017d-ca88-4e4d-b3d1-b1c046143e86">GetLicenseToUse</a>
+<a href="https://msdn.microsoft.com/8d9f29b8-6a55-4992-94a2-ffffa88cb0bc">ComposePhrase</a>
 </td>
 <td align="left" width="63%">
-Retrieves the license information for this <b>IWordBreaker</b> implementation.
+Not currently supported.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/9b1197bc-7c0d-4c78-8eed-4b6516140d0e">GetLicenseToUse</a>
+</td>
+<td align="left" width="63%">
+Gets a pointer to the license information for this implementation of the <b>IWordBreaker</b> interface.
 
 </td>
 </tr>
@@ -110,17 +107,14 @@ Initializes the <b>IWordBreaker</b> implementation and indicates the mode in whi
 </table> 
 
 
-## -see-also
+## -remarks
 
 
 
+<h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
+Implement this interface to create a custom word breaker for a language. Windows Search calls the methods of this interface when it builds content indexes and runs queries.
 
-<a href="https://msdn.microsoft.com/c257db30-821a-44c0-8896-890090c9aedf">Implementing a Word Breaker</a>
+Word breaker components for Windows Search run in the Local Security context. They should be written to manage buffers and the stack correctly. All string copies must have explicit checks to guard against buffer overruns. You should always verify the allocated size of the buffer and test the size of the data against the size of the buffer.
 
 
-
-<a href="https://msdn.microsoft.com/48241f14-3dba-4b55-947a-fd636361ed1e">Language Resource Samples</a>
- 
-
- 
 

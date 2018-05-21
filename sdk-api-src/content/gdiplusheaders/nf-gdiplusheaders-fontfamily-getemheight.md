@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetEmHeight_style_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getemheight.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: FontFamily class [GDI+],GetEmHeight method, FontFamily.GetEmHeight, FontFamily::GetEmHeight, GetEmHeight, GetEmHeight method [GDI+], GetEmHeight method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetEmHeight_style_, gdiplus._gdiplus_CLASS_FontFamily_GetEmHeight_style_
 ms.prod: windows-hardware
 ms.technology: windows-devices

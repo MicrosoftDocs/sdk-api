@@ -7,7 +7,7 @@ old-location: multimedia\drawdibclose.htm
 old-project: Multimedia
 ms.assetid: 61f9784e-4992-43d2-9770-17c3a8e5078b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DrawDibClose, DrawDibClose function [Windows Multimedia], _win32_DrawDibClose, multimedia.drawdibclose, vfw/DrawDibClose
 ms.prod: windows-hardware
 ms.technology: windows-devices

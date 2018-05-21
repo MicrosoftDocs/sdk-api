@@ -7,7 +7,7 @@ old-location: rras\mpradminacceptreauthentication.htm
 old-project: RRAS
 ms.assetid: 58fea0ca-b7c1-4d32-bcfc-10b41e101f30
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MprAdminAcceptReauthentication, MprAdminAcceptReauthentication callback, MprAdminAcceptReauthentication callback function [RAS], mprapi/MprAdminAcceptReauthentication, rras.mpradminacceptreauthentication
 ms.prod: windows-hardware
 ms.technology: windows-devices

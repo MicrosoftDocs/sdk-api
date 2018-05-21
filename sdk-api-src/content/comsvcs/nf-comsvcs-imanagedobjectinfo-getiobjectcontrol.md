@@ -7,7 +7,7 @@ old-location: cos\imanagedobjectinfo_getiobjectcontrol.htm
 old-project: cossdk
 ms.assetid: 0ce1408a-488e-4705-8155-445e1be8c51f
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: GetIObjectControl, GetIObjectControl method [COM+], GetIObjectControl method [COM+],IManagedObjectInfo interface, IManagedObjectInfo interface [COM+],GetIObjectControl method, IManagedObjectInfo.GetIObjectControl, IManagedObjectInfo::GetIObjectControl, _cos_IManagedObjectInfo_GetIObjectControl, comsvcs/IManagedObjectInfo::GetIObjectControl, cos.imanagedobjectinfo_getiobjectcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

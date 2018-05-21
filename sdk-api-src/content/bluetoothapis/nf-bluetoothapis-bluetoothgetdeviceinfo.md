@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothgetdeviceinfo.htm
 old-project: Bluetooth
 ms.assetid: 530e5131-a0ab-4ddd-be73-a07f94e74f73
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothGetDeviceInfo, BluetoothGetDeviceInfo function [Bluetooth], bluetooth.bluetoothgetdeviceinfo, bluetoothapis/BluetoothGetDeviceInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

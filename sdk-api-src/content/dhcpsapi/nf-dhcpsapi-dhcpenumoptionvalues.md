@@ -7,7 +7,7 @@ old-location: dhcp\dhcpenumoptionvalues.htm
 old-project: DHCP
 ms.assetid: 4054cab9-b5f9-4ffa-8151-3ea705bc0755
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpEnumOptionValues, DhcpEnumOptionValues function [DHCP], dhcp.dhcpenumoptionvalues, dhcpsapi/DhcpEnumOptionValues
 ms.prod: windows-hardware
 ms.technology: windows-devices

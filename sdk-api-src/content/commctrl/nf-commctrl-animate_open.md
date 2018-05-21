@@ -7,7 +7,7 @@ old-location: controls\Animate_Open.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_open.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: Animate_Open, Animate_Open macro [Windows Controls], _win32_Animate_Open, _win32_Animate_Open_cpp, commctrl/Animate_Open, controls.Animate_Open, controls._win32_Animate_Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

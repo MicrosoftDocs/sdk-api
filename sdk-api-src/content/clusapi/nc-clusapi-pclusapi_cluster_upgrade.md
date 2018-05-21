@@ -7,7 +7,7 @@ old-location: mscs\clusterupgradefunctionallevel.htm
 old-project: MsCS
 ms.assetid: EA013501-A4E2-48D8-9062-D20141485CC5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PCLUSAPI_CLUSTER_UPGRADE, PCLUSAPI_CLUSTER_UPGRADE callback, PCLUSAPI_CLUSTER_UPGRADE callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_UPGRADE, mscs.clusterupgradefunctionallevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

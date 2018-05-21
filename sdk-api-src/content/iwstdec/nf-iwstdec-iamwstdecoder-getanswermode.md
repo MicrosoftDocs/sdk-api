@@ -7,7 +7,7 @@ old-location: dshow\iamwstdecoder_getanswermode.htm
 old-project: DirectShow
 ms.assetid: 6251c9fa-1149-47ac-b776-7d10d153dde5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetAnswerMode, GetAnswerMode method [DirectShow], GetAnswerMode method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetAnswerMode method, IAMWstDecoder.GetAnswerMode, IAMWstDecoder::GetAnswerMode, IAMWstDecoderGetAnswerMode, dshow.iamwstdecoder_getanswermode, iwstdec/IAMWstDecoder::GetAnswerMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

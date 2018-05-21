@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_getusemachineid.htm
 old-project: wmi_v2
 ms.assetid: a3064be4-b975-47cb-b0f9-445a09791ebd
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_OperationOptions_GetUseMachineID, MI_OperationOptions_GetUseMachineID function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetUseMachineID, wmi_v2.mi_operationoptions_getusemachineid
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: perf\pdhenumlogsetnames.htm
 old-project: PerfCtrs
 ms.assetid: c74cc8a6-915b-40ed-a88b-bc2147215d52
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PdhEnumLogSetNames, PdhEnumLogSetNames function [Perf], PdhEnumLogSetNamesA, PdhEnumLogSetNamesW, _win32_pdhenumlogsetnames, base.pdhenumlogsetnames, pdh/PdhEnumLogSetNames, pdh/PdhEnumLogSetNamesA, pdh/PdhEnumLogSetNamesW, perf.pdhenumlogsetnames
 ms.prod: windows-hardware
 ms.technology: windows-devices

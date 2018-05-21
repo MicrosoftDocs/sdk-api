@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcertificate_issuer_property.htm
 old-project: SecCertEnroll
 ms.assetid: cf07a0ed-8657-4044-8dcd-fcd350af20ee
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509CertificateRequestCertificate interface [Security],Issuer property, IX509CertificateRequestCertificate.Issuer, IX509CertificateRequestCertificate.put_Issuer, IX509CertificateRequestCertificate::Issuer, IX509CertificateRequestCertificate::get_Issuer, IX509CertificateRequestCertificate::put_Issuer, Issuer property [Security], Issuer property [Security],IX509CertificateRequestCertificate interface, certenroll/IX509CertificateRequestCertificate::Issuer, certenroll/IX509CertificateRequestCertificate::get_Issuer, certenroll/IX509CertificateRequestCertificate::put_Issuer, put_Issuer, security.ix509certificaterequestcertificate_issuer_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

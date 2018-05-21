@@ -7,7 +7,7 @@ old-location: winprog\uaw_wcslen.htm
 old-project: DevNotes
 ms.assetid: 006e09df-9df3-48e8-9eaa-d8e95369424a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: stralign/uaw_wcslen, uaw_wcslen, uaw_wcslen function [Windows API], winprog.uaw_wcslen
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # uaw_wcslen function

@@ -7,7 +7,7 @@ old-location: wsw\ws_exception_code.htm
 old-project: wsw
 ms.assetid: b59cbd41-03f2-4938-842a-664eddb07b1b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_EXCEPTION_CODE, WS_EXCEPTION_CODE enumeration [Web Services for Windows], WS_EXCEPTION_CODE_INTERNAL_FAILURE, WS_EXCEPTION_CODE_USAGE_FAILURE, webservices/WS_EXCEPTION_CODE, webservices/WS_EXCEPTION_CODE_INTERNAL_FAILURE, webservices/WS_EXCEPTION_CODE_USAGE_FAILURE, wsw.ws_exception_code
 ms.prod: windows-hardware
 ms.technology: windows-devices

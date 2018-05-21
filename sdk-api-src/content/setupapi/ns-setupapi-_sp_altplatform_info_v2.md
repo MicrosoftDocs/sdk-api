@@ -2,21 +2,21 @@
 UID: NS:setupapi._SP_ALTPLATFORM_INFO_V2
 title: "_SP_ALTPLATFORM_INFO_V2"
 author: windows-driver-content
-description: The SP_ALTPLATFORM_INFO_V2 structure is used to pass information for an alternate platform to SetupQueryInfOriginalFileInformation.
-old-location: setup\sp_altplatform_info_v2.htm
-old-project: SetupApi
-ms.assetid: eb66ef5a-212d-4224-87b5-d64e8e188139
+description: An SP_ALTPLATFORM_INFO structure specifies, for a given computer, the version of the operating system and the computer's processor architecture.
+old-location: devinst\sp_altplatform_info.htm
+old-project: devinst
+ms.assetid: d9aba6c9-1b23-4ce0-b796-904b39bec3ac
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: "*PSP_ALTPLATFORM_INFO_V2, PSP_ALTPLATFORM_INFO_V2, PSP_ALTPLATFORM_INFO_V2 structure pointer [Setup API], SP_ALTPLATFORM_INFO, SP_ALTPLATFORM_INFO_V2, SP_ALTPLATFORM_INFO_V2 structure [Setup API], VER_PLATFORM_WIN32_NT, VER_PLATFORM_WIN32_WINDOWS, _SP_ALTPLATFORM_INFO_V2, _setupapi_sp_altplatform_info, setup.sp_altplatform_info_v2, setupapi/PSP_ALTPLATFORM_INFO_V2, setupapi/SP_ALTPLATFORM_INFO_V2"
+ms.date: 2/15/2018
+ms.keywords: "*PSP_ALTPLATFORM_INFO_V2, PSP_ALTPLATFORM_INFO, PSP_ALTPLATFORM_INFO structure pointer [Device and Driver Installation], SP_ALTPLATFORM_INFO, SP_ALTPLATFORM_INFO structure [Device and Driver Installation], SP_ALTPLATFORM_INFO_V2, _SP_ALTPLATFORM_INFO_V2, devinst.sp_altplatform_info, di-struct_54b56314-f153-4d55-903f-561c7649208e.xml, setupapi/PSP_ALTPLATFORM_INFO, setupapi/SP_ALTPLATFORM_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: setupapi.h
-req.include-header: 
+req.include-header: Setupapi.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Setupapi.h
 api_name:
--	SP_ALTPLATFORM_INFO_V2
+-	SP_ALTPLATFORM_INFO
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,12 +50,7 @@ req.product: Rights Management Services client 1.0 SP2 or later
 ## -description
 
 
-The <b>SP_ALTPLATFORM_INFO_V2</b> structure is used to pass information for an alternate platform to 
-<a href="https://msdn.microsoft.com/bc7c08ff-3d6b-4d45-b634-1358302f6fc6">SetupQueryInfOriginalFileInformation</a>.
-
-Setup  uses the <b>SP_ALTPLATFORM_INFO_V2</b> structure if USE_SP_ALTPLATFORM_INFO_V1 is 0 or undefined and _WIN32_WINNT is set to 0x501. <b>FirstValidatedMajorVersion</b> and <b>FirstValidatedMinorVersion</b> are only available with <b>SP_ALTPLATFORM_INFO_V2</b> and for use with Windows Server 2008, Windows Vista, Windows Server 2003,  or Windows XP.
-
-Setup  uses the <a href="https://msdn.microsoft.com/33872a84-8f7f-4508-a326-2d95ac0fcfd7">SP_ALTPLATFORM_INFO_V1</a> structure if USE_SP_ALTPLATFORM_INFO_V1 is set to 1 or if _WIN32_WINNT is less than or equal to 0x500. <b>FirstValidatedMajorVersion</b> and <b>FirstValidatedMinorVersion</b> are not available with <b>SP_ALTPLATFORM_INFO_V1</b>. 
+An SP_ALTPLATFORM_INFO structure specifies, for a given computer, the version of the operating system and the computer's processor architecture.
 
 
 ## -struct-fields
@@ -65,37 +60,35 @@ Setup  uses the <a href="https://msdn.microsoft.com/33872a84-8f7f-4508-a326-2d95
 
 ### -field cbSize
 
-Size of this structure, in bytes.
+Specifies the size, in bytes, of an SP_ALTPLATFORM_INFO structure. Starting with Windows XP, the cbSize member of this structure must be set to <b>sizeof(</b>SP_ALTPLATFORM_INFO_V2<b>)</b>. For all earlier versions of Windows, the cbSize member of this structure must be set to <b>sizeof(</b>SP_ALTPLATFORM_INFO_V1<b>)</b>.
 
 
 ### -field Platform
 
-Operating system. This member must be one of the following values. 
-
-
+Specifies one of the following operating system constants.
 
 <table>
 <tr>
-<th>Value</th>
+<th>Platform constant</th>
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="VER_PLATFORM_WIN32_WINDOWS"></a><a id="ver_platform_win32_windows"></a><dl>
-<dt><b>VER_PLATFORM_WIN32_WINDOWS</b></dt>
-</dl>
+<td>
+VER_PLATFORM_WIN32_WINDOWS
+
 </td>
-<td width="60%">
-Legacy operating systems.
+<td>
+Windows 95/98/Millennium (Me) versions
 
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="VER_PLATFORM_WIN32_NT"></a><a id="ver_platform_win32_nt"></a><dl>
-<dt><b>VER_PLATFORM_WIN32_NT</b></dt>
-</dl>
+<td>
+VER_PLATFORM_WIN32_NT
+
 </td>
-<td width="60%">
-Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP, or Windows 2000.
+<td>
+Windows NT 4.0 and later versions of the NT-based operating system
 
 </td>
 </tr>
@@ -105,17 +98,65 @@ Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP, or Wind
 
 ### -field MajorVersion
 
-Major version of the operating system.
+Specifies the major version number of the operating system.
 
 
 ### -field MinorVersion
 
-Minor version of the operating system.
+Specifies the minor version number of the operating system.
 
 
 ### -field ProcessorArchitecture
 
-Processor architecture. This must be PROCESSOR_ARCHITECTURE_INTEL, PROCESSOR_ARCHITECTURE_ALPHA, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_ALPHA64.
+Specifies one of the following processor architecture constants.
+
+<table>
+<tr>
+<th>Processor architecture constant</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td>
+PROCESSOR_ARCHITECTURE_INTEL
+
+</td>
+<td>
+The alternative platform is an x86-based processor architecture.
+
+</td>
+</tr>
+<tr>
+<td>
+PROCESSOR_ARCHITECTURE_AMD64
+
+</td>
+<td>
+The alternative platform is an x64-based processor architecture.
+
+</td>
+</tr>
+<tr>
+<td>
+PROCESSOR_ARCHITECTURE_IA64
+
+</td>
+<td>
+The alternative platform is an Itanium-based processor architecture.
+
+</td>
+</tr>
+<tr>
+<td>
+PROCESSOR_ARCHITECTURE_ALPHA
+
+</td>
+<td>
+The alternative platform is an Alpha processor architecture that is running Windows NT 4.0. Only a system that is running Windows 2000 Print Server or Windows XP Professional Print Server can specify this value. 
+
+</td>
+</tr>
+</table>
+ 
 
 
 ### -field DUMMYUNIONNAME
@@ -125,22 +166,33 @@ Processor architecture. This must be PROCESSOR_ARCHITECTURE_INTEL, PROCESSOR_ARC
 
 ### -field DUMMYUNIONNAME.Reserved
 
- 
+Must be set to zero.
 
 
 ### -field DUMMYUNIONNAME.Flags
 
- For Windows Server 2008, Windows Vista, Windows Server 2003, or Windows XP, this member must be set to SP_ALTPLATFORM_FLAGS_VERSION_RANGE to use <b>FirstValidatedMajorVersion</b> and <b>FirstValidatedMinorVersion</b>. This member must be set to zero for Windows 2000.
+ 
 
 
 ### -field FirstValidatedMajorVersion
 
-Major version of the oldest previous operating system for which this package's digital signature is valid. For example, if the alternate platform is VER_PLATFORM_WIN32_NT, version 5.1, and you want a driver package signed with a 5.0 osattr to also be valid, set MajorVersion to 5, MinorVersion to 1, <b>FirstValidatedMajorVersion</b> to 5, and <b>FirstValidatedMinorVersion</b> 0. To validate packages signed for any previous operating system, specify 0 for these fields. To only validate against the target alternate platform, specify the same values as those in the MajorVersion and MinorVersion fields. Available with Windows XP or later only. The Flags member must be set to SP_ALTPLATFORM_FLAGS_VERSION_RANGE to use <b>FirstValidatedMajorVersion</b>.
+ 
 
 
 ### -field FirstValidatedMinorVersion
 
-Minor version of the oldest previous operating system for which this package's digital signature is valid. For information see <b>FirstValidatedMajorVersion</b>. Available with Windows Server 2003 or Windows XP. The <b>Flags</b> member must be set to SP_ALTPLATFORM_FLAGS_VERSION_RANGE to use <b>FirstValidatedMinorVersion</b>.
+ 
+
+
+
+
+## -remarks
+
+
+
+For information about the major and minor version numbers of the operating system, see the Microsoft Windows SDK documentation for <b>GetVersionEx</b> and OSVERSIONINFO.
+
+
 
 
 ## -see-also
@@ -148,15 +200,7 @@ Minor version of the oldest previous operating system for which this package's d
 
 
 
-<a href="https://msdn.microsoft.com/58201596-cb8c-480a-abef-896c1f9ef098">Overview</a>
-
-
-
-<a href="https://msdn.microsoft.com/33872a84-8f7f-4508-a326-2d95ac0fcfd7">SP_ALTPLATFORM_INFO_V1</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927277">Structures</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551045">SetupDiGetActualSectionToInstallEx</a>
  
 
  

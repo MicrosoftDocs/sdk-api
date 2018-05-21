@@ -7,7 +7,7 @@ old-location: mib\mib_tcp6row2.htm
 old-project: MIB
 ms.assetid: bbec3397-0317-40f7-926f-2ec48cf5386d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PMIB_TCP6ROW2, MIB_TCP6ROW2, MIB_TCP6ROW2 structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCP6ROW2, PMIB_TCP6ROW2 structure pointer [MIB], _MIB_TCP6ROW2, mib.mib_tcp6row2, tcpmib/MIB_TCP6ROW2, tcpmib/PMIB_TCP6ROW2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

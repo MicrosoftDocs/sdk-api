@@ -7,7 +7,7 @@ old-location: com\ipersiststorage_handsoffstorage.htm
 old-project: com
 ms.assetid: 1e5ef26f-d8e7-4fa6-bfc4-19dace35314d
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: HandsOffStorage, HandsOffStorage method [COM], HandsOffStorage method [COM],IPersistStorage interface, IPersistStorage interface [COM],HandsOffStorage method, IPersistStorage.HandsOffStorage, IPersistStorage::HandsOffStorage, _com_ipersiststorage_handsoffstorage, com.ipersiststorage_handsoffstorage, objidl/IPersistStorage::HandsOffStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices

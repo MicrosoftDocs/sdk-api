@@ -7,7 +7,7 @@ old-location: security\iidentityadvise.htm
 old-project: SecAuthN
 ms.assetid: fa348d46-bcd2-4009-89d6-11e738d4a82b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: IIdentityAdvise, IIdentityAdvise interface [Security], IIdentityAdvise interface [Security],described, identityprovider/IIdentityAdvise, identitystore/IIdentityAdvise, security.iidentityadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

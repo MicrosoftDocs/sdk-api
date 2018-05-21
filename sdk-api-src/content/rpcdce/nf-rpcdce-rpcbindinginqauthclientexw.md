@@ -7,7 +7,7 @@ old-location: rpc\rpcbindinginqauthclientex.htm
 old-project: Rpc
 ms.assetid: 4ee73a2b-8722-44f0-af0d-dedcb27ba224
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RPC_C_FULL_CERT_CHAIN, RpcBindingInqAuthClientEx, RpcBindingInqAuthClientEx function [RPC], RpcBindingInqAuthClientExA, RpcBindingInqAuthClientExW, _rpc_rpcbindinginqauthclientex, rpc.rpcbindinginqauthclientex, rpcdce/RpcBindingInqAuthClientEx, rpcdce/RpcBindingInqAuthClientExA, rpcdce/RpcBindingInqAuthClientExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

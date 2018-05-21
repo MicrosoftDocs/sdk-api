@@ -7,7 +7,7 @@ old-location: security\icspstatuses_itembyname_property.htm
 old-project: SecCertEnroll
 ms.assetid: c8b37240-33e6-4982-94f5-c0b937bdce45
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ICspStatuses interface [Security],ItemByName property, ICspStatuses.ItemByName, ICspStatuses.get_ItemByName, ICspStatuses::ItemByName, ICspStatuses::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByName, certenroll/ICspStatuses::get_ItemByName, get_ItemByName, security.icspstatuses_itembyname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

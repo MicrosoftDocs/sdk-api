@@ -7,7 +7,7 @@ old-location: controls\LBItemFromPt.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\draglb\functions\lbitemfrompt.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: LBItemFromPt, LBItemFromPt function [Windows Controls], _win32_LBItemFromPt, _win32_LBItemFromPt_cpp, commctrl/LBItemFromPt, controls.LBItemFromPt, controls._win32_LBItemFromPt
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\replacefile.htm
 old-project: FileIO
 ms.assetid: 23402a71-e945-4891-9815-c75e57051501
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: REPLACEFILE_IGNORE_ACL_ERRORS, REPLACEFILE_IGNORE_MERGE_ERRORS, REPLACEFILE_WRITE_THROUGH, ReplaceFile, ReplaceFile function [Files], ReplaceFileA, ReplaceFileW, _win32_replacefile, base.replacefile, fs.replacefile, winbase/ReplaceFile, winbase/ReplaceFileA, winbase/ReplaceFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

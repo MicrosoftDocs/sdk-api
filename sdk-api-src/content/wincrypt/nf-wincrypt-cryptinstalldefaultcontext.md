@@ -7,7 +7,7 @@ old-location: security\cryptinstalldefaultcontext.htm
 old-project: SecCrypto
 ms.assetid: 79d121df-0699-424e-a8de-5fc2b396afc2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CRYPT_DEFAULT_CONTEXT_AUTO_RELEASE_FLAG, CRYPT_DEFAULT_CONTEXT_CERT_SIGN_OID, CRYPT_DEFAULT_CONTEXT_MULTI_CERT_SIGN_OID, CRYPT_DEFAULT_CONTEXT_PROCESS_FLAG, CryptInstallDefaultContext, CryptInstallDefaultContext function [Security], _crypto2_cryptinstalldefaultcontext, security.cryptinstalldefaultcontext, wincrypt/CryptInstallDefaultContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winprog\ifhconfigmgr_loadconfiguration.htm
 old-project: DevNotes
 ms.assetid: 9959AF70-87C2-45E0-A409-959494AF393B
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FhConfigMgr class [Windows API],LoadConfiguration method, IFhConfigMgr interface [Windows API],LoadConfiguration method, IFhConfigMgr.LoadConfiguration, IFhConfigMgr::LoadConfiguration, LoadConfiguration, LoadConfiguration method [Windows API], LoadConfiguration method [Windows API],FhConfigMgr class, LoadConfiguration method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::LoadConfiguration, winprog.ifhconfigmgr_loadconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

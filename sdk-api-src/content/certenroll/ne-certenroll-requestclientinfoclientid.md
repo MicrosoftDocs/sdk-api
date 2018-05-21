@@ -7,7 +7,7 @@ old-location: security\requestclientinfoclientid_enum.htm
 old-project: SecCertEnroll
 ms.assetid: 0c9ee81d-105d-4e97-9de3-169ff77e55f0
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ClientIdAutoEnroll, ClientIdAutoEnroll2003, ClientIdCertReq, ClientIdCertReq2003, ClientIdDefaultRequest, ClientIdEOBO, ClientIdNone, ClientIdRequestWizard, ClientIdTest, ClientIdUserStart, ClientIdWizard2003, ClientIdXEnroll2003, RequestClientInfoClientId, RequestClientInfoClientId enumeration [Security], certenroll/ClientIdAutoEnroll, certenroll/ClientIdAutoEnroll2003, certenroll/ClientIdCertReq, certenroll/ClientIdCertReq2003, certenroll/ClientIdDefaultRequest, certenroll/ClientIdEOBO, certenroll/ClientIdNone, certenroll/ClientIdRequestWizard, certenroll/ClientIdTest, certenroll/ClientIdUserStart, certenroll/ClientIdWizard2003, certenroll/ClientIdXEnroll2003, certenroll/RequestClientInfoClientId, security.requestclientinfoclientid_enum
 ms.prod: windows-hardware
 ms.technology: windows-devices

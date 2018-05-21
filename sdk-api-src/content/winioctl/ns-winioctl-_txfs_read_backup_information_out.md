@@ -7,7 +7,7 @@ old-location: fs\txfs_read_backup_information_out.htm
 old-project: FileIO
 ms.assetid: c2b9ce2f-9f08-4706-9565-423ab0dc493f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PTXFS_READ_BACKUP_INFORMATION_OUT, PTXFS_READ_BACKUP_INFORMATION_OUT, PTXFS_READ_BACKUP_INFORMATION_OUT structure pointer [Files], TXFS_READ_BACKUP_INFORMATION_OUT, TXFS_READ_BACKUP_INFORMATION_OUT structure [Files], _TXFS_READ_BACKUP_INFORMATION_OUT, fs.txfs_read_backup_information_out, winioctl/PTXFS_READ_BACKUP_INFORMATION_OUT, winioctl/TXFS_READ_BACKUP_INFORMATION_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

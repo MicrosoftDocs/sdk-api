@@ -7,8 +7,8 @@ old-location: nps\IAS_radiusextensionprocess.htm
 old-project: Nps
 ms.assetid: 75af0d43-f866-4769-8221-45e47c588bb0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
-ms.keywords: PRADIUS_EXTENSION_PROCESS, PRADIUS_EXTENSION_PROCESS callback, RadiusExtensionProcess, RadiusExtensionProcess callback function [Network Policy Server], _ias_radiusextensionprocess, authif/RadiusExtensionProcess, ias.radiusextensionprocess, nps.IAS_radiusextensionprocess
+ms.date: 5/10/2018
+ms.keywords: PRADIUS_EXTENSION_PROCESS, PRADIUS_EXTENSION_PROCESS callback, PRADIUS_EXTENSION_PROCESS callback function [Network Policy Server], RadiusExtensionProcess, _ias_radiusextensionprocess, authif/PRADIUS_EXTENSION_PROCESS, ias.radiusextensionprocess, nps.IAS_radiusextensionprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	AuthIf.h
 api_name:
--	RadiusExtensionProcess
+-	PRADIUS_EXTENSION_PROCESS
 product: Windows
 targetos: Windows
 req.lib: 

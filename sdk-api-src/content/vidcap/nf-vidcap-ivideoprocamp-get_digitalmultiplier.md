@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_digitalmultiplier.htm
 old-project: DirectShow
 ms.assetid: 0b7ab1a3-193c-4682-af35-ae0cc5f28f45
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_DigitalMultiplier method, IVideoProcAmp.get_DigitalMultiplier, IVideoProcAmp::get_DigitalMultiplier, IVideoProcAmpget_DigitalMultiplier, dshow.ivideoprocamp_get_digitalmultiplier, get_DigitalMultiplier, get_DigitalMultiplier method [DirectShow], get_DigitalMultiplier method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_DigitalMultiplier
 ms.prod: windows-hardware
 ms.technology: windows-devices

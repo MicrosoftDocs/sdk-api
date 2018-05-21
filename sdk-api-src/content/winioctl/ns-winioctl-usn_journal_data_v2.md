@@ -7,7 +7,7 @@ old-location: fs\usn_journal_data_v2.htm
 old-project: FileIO
 ms.assetid: BBFA6D14-1423-45B0-83A0-62019D08507F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PUSN_JOURNAL_DATA_V2, FLAG_USN_TRACK_MODIFIED_RANGES_ENABLE, PUSN_JOURNAL_DATA_V2, PUSN_JOURNAL_DATA_V2 structure pointer [Files], USN_JOURNAL_DATA_V2, USN_JOURNAL_DATA_V2 structure [Files], fs.usn_journal_data_v2, winioctl/PUSN_JOURNAL_DATA_V2, winioctl/USN_JOURNAL_DATA_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

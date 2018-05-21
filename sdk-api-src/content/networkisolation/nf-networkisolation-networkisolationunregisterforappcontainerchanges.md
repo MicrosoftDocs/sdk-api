@@ -7,7 +7,7 @@ old-location: ics\networkisolationunregisterforappcontainerchanges.htm
 old-project: ICS
 ms.assetid: 589f416d-058a-4711-863f-74b0dacc63eb
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: NetworkIsolationUnregisterForAppContainerChanges, NetworkIsolationUnregisterForAppContainerChanges function [ICS/ICF], ics.networkisolationunregisterforappcontainerchanges, networkisolation/NetworkIsolationUnregisterForAppContainerChanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

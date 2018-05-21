@@ -7,7 +7,7 @@ old-location: mstv\iisdbsiparser2_getbit.htm
 old-project: mstv
 ms.assetid: 25993059-a1a9-486f-97b3-fd240c8931dc
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetBIT, GetBIT method [Microsoft TV Technologies], GetBIT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetBIT method, IIsdbSiParser2.GetBIT, IIsdbSiParser2::GetBIT, dvbsiparser/IIsdbSiParser2::GetBIT, mstv.iisdbsiparser2_getbit
 ms.prod: windows-hardware
 ms.technology: windows-devices

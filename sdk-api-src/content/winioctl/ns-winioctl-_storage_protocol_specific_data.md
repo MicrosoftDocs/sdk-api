@@ -7,7 +7,7 @@ old-location: fs\storage_protocol_specific_data.htm
 old-project: FileIO
 ms.assetid: 533EC957-FB37-41A7-8E5B-5A09A458D768
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PSTORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA structure pointer [Files], STORAGE_PROTOCOL_SPECIFIC_DATA, STORAGE_PROTOCOL_SPECIFIC_DATA structure [Files], _STORAGE_PROTOCOL_SPECIFIC_DATA, fs.storage_protocol_specific_data, winioctl/PSTORAGE_PROTOCOL_SPECIFIC_DATA, winioctl/STORAGE_PROTOCOL_SPECIFIC_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

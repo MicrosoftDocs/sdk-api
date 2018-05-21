@@ -7,7 +7,7 @@ old-location: tapi2\lineopen.htm
 old-project: Tapi
 ms.assetid: 7dd39866-0b3e-47be-8aa8-adfb66df6644
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: LINEMAPPER, _tapi2_lineopen, lineOpen, lineOpen function [TAPI 2.2], lineOpenA, lineOpenW, tapi/lineOpen, tapi/lineOpenA, tapi/lineOpenW, tapi2.lineopen
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\cert_chain_element.htm
 old-project: SecCrypto
 ms.assetid: a1f6ba18-63ef-43ac-a17f-900fa13398aa
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PCERT_CHAIN_ELEMENT, CERT_CHAIN_ELEMENT, CERT_CHAIN_ELEMENT structure [Security], PCERT_CHAIN_ELEMENT, PCERT_CHAIN_ELEMENT structure pointer [Security], _CERT_CHAIN_ELEMENT, _crypto2_cert_chain_element, security.cert_chain_element, wincrypt/CERT_CHAIN_ELEMENT, wincrypt/PCERT_CHAIN_ELEMENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: eaphost\eap_authenticator_send_timeout.htm
 old-project: EAPHost
 ms.assetid: 56c3da89-eaa8-4ea9-a912-3e15d713ba45
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EAP_AUTHENTICATOR_SEND_TIMEOUT, EAP_AUTHENTICATOR_SEND_TIMEOUT enumeration [EAPHost], EAP_AUTHENTICATOR_SEND_TIMEOUT_BASIC, EAP_AUTHENTICATOR_SEND_TIMEOUT_INTERACTIVE, EAP_AUTHENTICATOR_SEND_TIMEOUT_NONE, _EAP_AUTHENTICATOR_SEND_TIMEOUT, eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT, eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT_BASIC, eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT_INTERACTIVE, eapauthenticatortypes/EAP_AUTHENTICATOR_SEND_TIMEOUT_NONE, eaphost.eap_authenticator_send_timeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

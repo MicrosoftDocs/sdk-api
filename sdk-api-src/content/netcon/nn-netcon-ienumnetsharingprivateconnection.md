@@ -7,7 +7,7 @@ old-location: ics\ienumnetsharingprivateconnection.htm
 old-project: ICS
 ms.assetid: 0e4cfa2e-8caa-4258-bd52-1f5a00403dfa
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: IEnumNetSharingPrivateConnection, IEnumNetSharingPrivateConnection interface [ICS/ICF], IEnumNetSharingPrivateConnection interface [ICS/ICF],described, _ics_ienumnetsharingprivateconnection, ics.ienumnetsharingprivateconnection, netcon/IEnumNetSharingPrivateConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

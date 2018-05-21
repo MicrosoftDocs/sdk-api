@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_server_specific_strings.htm
 old-project: DHCP
 ms.assetid: 5fc52d5c-22b0-454b-bc07-8f9c4ca163e3
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_SERVER_SPECIFIC_STRINGS, DHCP_SERVER_SPECIFIC_STRINGS, DHCP_SERVER_SPECIFIC_STRINGS structure [DHCP], PDHCP_SERVER_SPECIFIC_STRINGS, PDHCP_SERVER_SPECIFIC_STRINGS structure pointer [DHCP], _DHCP_SERVER_SPECIFIC_STRINGS, dhcp.dhcp_server_specific_strings, dhcpsapi/DHCP_SERVER_SPECIFIC_STRINGS, dhcpsapi/PDHCP_SERVER_SPECIFIC_STRINGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

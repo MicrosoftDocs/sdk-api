@@ -7,7 +7,7 @@ old-location: imapi\ienumfsiitems_clone.htm
 old-project: imapi
 ms.assetid: 70806e80-c6b3-4f9c-8146-7dde1c895812
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: Clone, Clone method [IMAPI], Clone method [IMAPI],IEnumFsiItems interface, IEnumFsiItems interface [IMAPI],Clone method, IEnumFsiItems.Clone, IEnumFsiItems::Clone, imapi.ienumfsiitems_clone, imapi2fs/IEnumFsiItems::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

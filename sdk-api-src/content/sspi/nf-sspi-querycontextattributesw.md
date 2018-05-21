@@ -7,7 +7,7 @@ old-location: security\querycontextattributes__credssp_.htm
 old-project: SecAuthN
 ms.assetid: 4956c4ab-b71e-4960-b750-f3a79b87baac
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: QueryContextAttributes, QueryContextAttributes (CredSSP), QueryContextAttributes function [Security], QueryContextAttributesA, QueryContextAttributesW, SECPKG_ATTR_CERT_TRUST_STATUS, SECPKG_ATTR_CREDS, SECPKG_ATTR_CREDS_2, SECPKG_ATTR_C_ACCESS_TOKEN, SECPKG_ATTR_C_FULL_ACCESS_TOKEN, SECPKG_ATTR_NEGOTIATION_PACKAGE, SECPKG_ATTR_PACKAGE_INFO, SECPKG_ATTR_SERVER_AUTH_FLAGS, SECPKG_ATTR_SIZES, SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES, security.querycontextattributes__credssp_, sspi/QueryContextAttributes, sspi/QueryContextAttributesA, sspi/QueryContextAttributesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # QueryContextAttributesW function

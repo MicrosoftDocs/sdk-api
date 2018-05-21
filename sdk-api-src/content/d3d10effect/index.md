@@ -2,7 +2,7 @@
 UID: NA:d3d10effect
 ms.assetid: bf99cf0b-02b4-3ff6-bcf5-70a97c32691a
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\ifsidirectoryitem_remove.htm
 old-project: imapi
 ms.assetid: bbd45185-439a-4847-8481-7139e81b34fd
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],Remove method, IFsiDirectoryItem.Remove, IFsiDirectoryItem::Remove, Remove, Remove method [IMAPI], Remove method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_remove, imapi2fs/IFsiDirectoryItem::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

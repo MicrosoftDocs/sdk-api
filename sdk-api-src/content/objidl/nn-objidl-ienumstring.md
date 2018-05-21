@@ -7,7 +7,7 @@ old-location: com\ienumstring.htm
 old-project: com
 ms.assetid: 7f3e642a-17c7-4646-8c70-da6b0946a415
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IEnumString, IEnumString interface [COM], IEnumString interface [COM],described, _com_ienumstring, com.ienumstring, objidlbase/IEnumString
 ms.prod: windows-hardware
 ms.technology: windows-devices

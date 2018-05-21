@@ -7,7 +7,7 @@ old-location: security\ix509certificaterequestcertificate2_initializefromtemplat
 old-project: SecCertEnroll
 ms.assetid: bd38413f-9e3d-4d04-8de2-5eb0b637c41c
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestCertificate2 interface [Security],InitializeFromTemplate method, IX509CertificateRequestCertificate2.InitializeFromTemplate, IX509CertificateRequestCertificate2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509CertificateRequestCertificate2 interface, certenroll/IX509CertificateRequestCertificate2::InitializeFromTemplate, security.ix509certificaterequestcertificate2_initializefromtemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerqueryuserblobfromcredentialinputfields.htm
 old-project: EAPHost
 ms.assetid: bd4fafce-7ece-4cdc-9307-4d41538a4f49
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapHostPeerQueryUserBlobFromCredentialInputFields, EapHostPeerQueryUserBlobFromCredentialInputFields function [EAPHost], eaphost.eaphostpeerqueryuserblobfromcredentialinputfields, eaphostpeerconfigapis/EapHostPeerQueryUserBlobFromCredentialInputFields
 ms.prod: windows-hardware
 ms.technology: windows-devices

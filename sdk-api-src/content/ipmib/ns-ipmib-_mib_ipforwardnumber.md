@@ -7,7 +7,7 @@ old-location: mib\mib_ipforwardnumber.htm
 old-project: MIB
 ms.assetid: 71508d8e-3265-4c08-913c-248af2d8bbd6
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PMIB_IPFORWARDNUMBER, MIB_IPFORWARDNUMBER, MIB_IPFORWARDNUMBER structure [MIB], PMIB_IPFORWARDNUMBER, PMIB_IPFORWARDNUMBER structure pointer [MIB], _MIB_IPFORWARDNUMBER, _mpr_mib_ipforwardnumber, ipmib/MIB_IPFORWARDNUMBER, ipmib/PMIB_IPFORWARDNUMBER, iprtrmib/MIB_IPFORWARDNUMBER, iprtrmib/PMIB_IPFORWARDNUMBER, mib.mib_ipforwardnumber, rras.mib_ipforwardnumber"
 ms.prod: windows-hardware
 ms.technology: windows-devices

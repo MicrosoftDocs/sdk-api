@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_tile_region_size.htm
 old-project: direct3d12
 ms.assetid: 6F71BD17-09B5-4638-9CD4-E2D3BBA97044
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12_TILE_REGION_SIZE, D3D12_TILE_REGION_SIZE structure, d3d12/D3D12_TILE_REGION_SIZE, direct3d12.d3d12_tile_region_size
 ms.prod: windows-hardware
 ms.technology: windows-devices

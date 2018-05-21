@@ -7,7 +7,7 @@ old-location: wsw\wsreadarray.htm
 old-project: wsw
 ms.assetid: ab545d74-7a61-48db-8c84-11017ee65605
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsReadArray, WsReadArray function [Web Services for Windows], webservices/WsReadArray, wsw.wsreadarray
 ms.prod: windows-hardware
 ms.technology: windows-devices

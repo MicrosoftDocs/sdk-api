@@ -7,7 +7,7 @@ old-location: gdi\ttrunvalidationtestsex.htm
 old-project: gdi
 ms.assetid: 4b4fdd3f-c07c-407c-87eb-5bd8a1620d75
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: TTRunValidationTestsEx, TTRunValidationTestsEx function [Windows GDI], _win32_TTRunValidationTestsEx, gdi.ttrunvalidationtestsex, t2embapi/TTRunValidationTestsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

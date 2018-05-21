@@ -7,7 +7,7 @@ old-location: rpc\i_rpcbindinginqlocalclientpid.htm
 old-project: Rpc
 ms.assetid: af31dc1e-51b9-4789-a97f-d51ae34850cf
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: I_RpcBindingInqLocalClientPID, I_RpcBindingInqLocalClientPID function [RPC], rpc.i_rpcbindinginqlocalclientpid, rpcdcep/I_RpcBindingInqLocalClientPID
 ms.prod: windows-hardware
 ms.technology: windows-devices

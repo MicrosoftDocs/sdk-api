@@ -7,7 +7,7 @@ old-location: mf\d3d11_vdov_dimension.htm
 old-project: medfound
 ms.assetid: 079460EB-A7D4-4C8C-B7CA-9A6FFB3B0FA8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: D3D11_VDOV_DIMENSION, D3D11_VDOV_DIMENSION enumeration [Media Foundation], D3D11_VDOV_DIMENSION_TEXTURE2D, D3D11_VDOV_DIMENSION_UNKNOWN, d3d11/D3D11_VDOV_DIMENSION, d3d11/D3D11_VDOV_DIMENSION_TEXTURE2D, d3d11/D3D11_VDOV_DIMENSION_UNKNOWN, mf.d3d11_vdov_dimension
 ms.prod: windows-hardware
 ms.technology: windows-devices

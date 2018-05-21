@@ -7,7 +7,7 @@ old-location: security\cert_credential_info.htm
 old-project: SecAuthN
 ms.assetid: acaa94c3-0562-420a-95c7-44a71374d5ea
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PCERT_CREDENTIAL_INFO, CERT_CREDENTIAL_INFO, CERT_CREDENTIAL_INFO structure [Security], PCERT_CREDENTIAL_INFO, PCERT_CREDENTIAL_INFO structure pointer [Security], _CERT_CREDENTIAL_INFO, _cred_cert_credential_info, security.cert_credential_info, wincred/CERT_CREDENTIAL_INFO, wincred/PCERT_CREDENTIAL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

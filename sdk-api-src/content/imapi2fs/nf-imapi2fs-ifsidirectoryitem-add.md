@@ -7,7 +7,7 @@ old-location: imapi\ifsidirectoryitem_add.htm
 old-project: imapi
 ms.assetid: f4855907-89e5-4127-9307-35970046a236
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: Add, Add method [IMAPI], Add method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],Add method, IFsiDirectoryItem.Add, IFsiDirectoryItem::Add, imapi.ifsidirectoryitem_add, imapi2fs/IFsiDirectoryItem::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

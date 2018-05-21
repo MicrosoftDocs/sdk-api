@@ -7,7 +7,7 @@ old-location: security\icertpropertyenrollment_caname_property.htm
 old-project: SecCertEnroll
 ms.assetid: ea490e37-e1b9-4887-8051-c3447136875c
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: CAName property [Security], CAName property [Security],ICertPropertyEnrollment interface, ICertPropertyEnrollment interface [Security],CAName property, ICertPropertyEnrollment.CAName, ICertPropertyEnrollment.get_CAName, ICertPropertyEnrollment::CAName, ICertPropertyEnrollment::get_CAName, certenroll/ICertPropertyEnrollment::CAName, certenroll/ICertPropertyEnrollment::get_CAName, get_CAName, security.icertpropertyenrollment_caname_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrSyncItems_Clone.htm
 old-project: shell
 ms.assetid: bf320918-9f63-494f-88af-a5fab91ef0e3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumSyncMgrSyncItems interface, IEnumSyncMgrSyncItems interface [Windows Shell],Clone method, IEnumSyncMgrSyncItems.Clone, IEnumSyncMgrSyncItems::Clone, _shell_IEnumSyncMgrSyncItems_Clone, shell.IEnumSyncMgrSyncItems_Clone, syncmgr/IEnumSyncMgrSyncItems::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

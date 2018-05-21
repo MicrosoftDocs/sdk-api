@@ -7,7 +7,7 @@ old-location: base\srccodeinfo_str.htm
 old-project: Debug
 ms.assetid: 8a2ee743-d2e8-402a-b659-0c0b75052d1d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: "*PSRCCODEINFO, PSRCCODEINFO, PSRCCODEINFO structure pointer, SRCCODEINFO, SRCCODEINFO structure, SRCCODEINFOW, _SRCCODEINFO, _SRCCODEINFOW, base.srccodeinfo_str, dbghelp/PSRCCODEINFO, dbghelp/SRCCODEINFO, dbghelp/SRCCODEINFOW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

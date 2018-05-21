@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_failover_mode.htm
 old-project: DHCP
 ms.assetid: 333f70a5-63bd-47f0-bb56-c5f6060e2a72
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_FAILOVER_MODE, DHCP_FAILOVER_MODE, DHCP_FAILOVER_MODE enumeration [DHCP], HotStandby, LPDHCP_FAILOVER_MODE, LPDHCP_FAILOVER_MODE enumeration pointer [DHCP], LoadBalance, _DHCP_FAILOVER_MODE, dhcp.dhcp_failover_mode, dhcpsapi/DHCP_FAILOVER_MODE, dhcpsapi/HotStandby, dhcpsapi/LPDHCP_FAILOVER_MODE, dhcpsapi/LoadBalance"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopycallback2.htm
 old-project: Bits
 ms.assetid: 9bbc323c-0caf-46a9-ba25-e72a2c6ae363
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: IBackgroundCopyCallback2, IBackgroundCopyCallback2 interface [BITS], IBackgroundCopyCallback2 interface [BITS],described, bits.ibackgroundcopycallback2, bits3_0/IBackgroundCopyCallback2
 ms.prod: windows-hardware
 ms.technology: windows-devices

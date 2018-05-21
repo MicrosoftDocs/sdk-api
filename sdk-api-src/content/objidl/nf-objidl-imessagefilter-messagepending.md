@@ -7,7 +7,7 @@ old-location: com\imessagefilter_messagepending.htm
 old-project: com
 ms.assetid: f4aff53f-c344-4456-b53e-296d5a5b653a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IMessageFilter interface [COM],MessagePending method, IMessageFilter.MessagePending, IMessageFilter::MessagePending, MessagePending, MessagePending method [COM], MessagePending method [COM],IMessageFilter interface, _com_imessagefilter_messagepending, com.imessagefilter_messagepending, objidl/IMessageFilter::MessagePending
 ms.prod: windows-hardware
 ms.technology: windows-devices

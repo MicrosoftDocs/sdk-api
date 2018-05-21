@@ -7,7 +7,7 @@ old-location: intl\widechartomultibyte.htm
 old-project: Intl
 ms.assetid: b8c13444-86ab-479c-ac04-9b184d9eebf6
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, WC_COMPOSITECHECK, WC_ERR_INVALID_CHARS, WC_NO_BEST_FIT_CHARS, WideCharToMultiByte, WideCharToMultiByte function [Internationalization for Windows Applications], _win32_WideCharToMultiByte, intl.widechartomultibyte, stringapiset/WideCharToMultiByte
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # WideCharToMultiByte function

@@ -7,7 +7,7 @@ old-location: mstv\istreambufferconfigure2.htm
 old-project: mstv
 ms.assetid: df71783c-1ff3-46b0-bae2-61d12f4d70d0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IStreamBufferConfigure2, IStreamBufferConfigure2 interface [Microsoft TV Technologies], IStreamBufferConfigure2 interface [Microsoft TV Technologies],described, IStreamBufferConfigure2Interface, mstv.istreambufferconfigure2, sbe/IStreamBufferConfigure2
 ms.prod: windows-hardware
 ms.technology: windows-devices

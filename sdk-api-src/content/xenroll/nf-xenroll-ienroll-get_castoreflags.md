@@ -7,7 +7,7 @@ old-location: security\ienroll4_castoreflags.htm
 old-project: SecCrypto
 ms.assetid: 294a8a38-9c76-4e5c-ac11-2fcb8b81727e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CAStoreFlags property [Security], CAStoreFlags property [Security],IEnroll interface, IEnroll interface [Security],CAStoreFlags property, IEnroll.CAStoreFlags, IEnroll.get_CAStoreFlags, IEnroll::CAStoreFlags, IEnroll::get_CAStoreFlags, IEnroll::put_CAStoreFlags, get_CAStoreFlags, security.ienroll4_castoreflags, xenroll/IEnroll::CAStoreFlags, xenroll/IEnroll::get_CAStoreFlags, xenroll/IEnroll::put_CAStoreFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12serializeversionedrootsignature.htm
 old-project: direct3d12
 ms.assetid: D8A15561-4911-4067-B25E-8BF2B079FD81
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12SerializeVersionedRootSignature, D3D12SerializeVersionedRootSignature function, d3d12/D3D12SerializeVersionedRootSignature, direct3d12.d3d12serializeversionedrootsignature
 ms.prod: windows-hardware
 ms.technology: windows-devices

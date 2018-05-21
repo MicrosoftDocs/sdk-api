@@ -7,7 +7,7 @@ old-location: nps\SDO_isdo_getpropertyinfo.htm
 old-project: Nps
 ms.assetid: fa2f0209-ec78-4b59-8f01-f1534b8894c1
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: GetPropertyInfo, GetPropertyInfo method [Network Policy Server], GetPropertyInfo method [Network Policy Server],ISdo interface, ISdo interface [Network Policy Server],GetPropertyInfo method, ISdo.GetPropertyInfo, ISdo::GetPropertyInfo, _sdo_isdo_getpropertyinfo, nps.SDO_isdo_getpropertyinfo, sdo.isdo_getpropertyinfo, sdoias/ISdo::GetPropertyInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

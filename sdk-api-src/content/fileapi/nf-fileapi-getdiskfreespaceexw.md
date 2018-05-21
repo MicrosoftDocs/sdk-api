@@ -7,7 +7,7 @@ old-location: fs\getdiskfreespaceex.htm
 old-project: FileIO
 ms.assetid: a52f2dbd-bda6-4217-9e72-f100f8bbe334
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: GetDiskFreeSpaceEx, GetDiskFreeSpaceEx function [Files], GetDiskFreeSpaceExA, GetDiskFreeSpaceExW, _win32_getdiskfreespaceex, base.getdiskfreespaceex, fileapi/GetDiskFreeSpaceEx, fileapi/GetDiskFreeSpaceExA, fileapi/GetDiskFreeSpaceExW, fs.getdiskfreespaceex, winbase/GetDiskFreeSpaceEx, winbase/GetDiskFreeSpaceExA, winbase/GetDiskFreeSpaceExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

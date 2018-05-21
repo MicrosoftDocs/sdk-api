@@ -7,7 +7,7 @@ old-location: dfs\netdfssetsecurity.htm
 old-project: Dfs
 ms.assetid: 7ee81f67-face-498f-b5bd-ca2636408012
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: NetDfsSetSecurity, NetDfsSetSecurity function [Distributed File System], dfs.netdfssetsecurity, fs.netdfssetsecurity, lmdfs/NetDfsSetSecurity, netmgmt.netdfssetsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

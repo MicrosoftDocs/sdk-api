@@ -7,7 +7,7 @@ old-location: termserv\wts_session_info_1.htm
 old-project: TermServ
 ms.assetid: 29d76033-d61d-4bc5-b47a-f7dea9543f23
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*PWTS_SESSION_INFO_1A, PWTS_SESSION_INFO_1, PWTS_SESSION_INFO_1 structure pointer [Remote Desktop Services], WTS_SESSION_INFO_1, WTS_SESSION_INFO_1 structure [Remote Desktop Services], WTS_SESSION_INFO_1A, WTS_SESSION_INFO_1W, _WTS_SESSION_INFO_1A, termserv.wts_session_info_1, wtsapi32/PWTS_SESSION_INFO_1, wtsapi32/WTS_SESSION_INFO_1, wtsapi32/WTS_SESSION_INFO_1A, wtsapi32/WTS_SESSION_INFO_1W"
 ms.prod: windows-hardware
 ms.technology: windows-devices

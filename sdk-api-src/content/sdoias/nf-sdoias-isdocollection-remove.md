@@ -7,7 +7,7 @@ old-location: nps\SDO_isdocollection_remove.htm
 old-project: Nps
 ms.assetid: f390377d-b78e-4548-9602-c0eb363765c7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],Remove method, ISdoCollection.Remove, ISdoCollection::Remove, Remove, Remove method [Network Policy Server], Remove method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_remove, nps.SDO_isdocollection_remove, sdo.isdocollection_remove, sdoias/ISdoCollection::Remove
 ms.prod: windows-hardware
 ms.technology: windows-devices

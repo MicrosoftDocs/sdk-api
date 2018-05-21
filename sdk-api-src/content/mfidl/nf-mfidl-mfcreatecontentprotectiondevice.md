@@ -7,7 +7,7 @@ old-location: mf\mfcreatecontentprotectiondevice.htm
 old-project: medfound
 ms.assetid: 6C301184-255B-4FE7-8DD6-962B236F90A6
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFCreateContentProtectionDevice, MFCreateContentProtectionDevice function [Media Foundation], mf.mfcreatecontentprotectiondevice, mfidl/MFCreateContentProtectionDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

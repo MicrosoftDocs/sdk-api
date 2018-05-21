@@ -7,7 +7,7 @@ old-location: mf\iwmcodecprivatedatagetprivatedata.htm
 old-project: medfound
 ms.assetid: 20e61bf6-f242-4f8e-84e6-f6158a0947bc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetPrivateData, GetPrivateData method [Media Foundation], GetPrivateData method [Media Foundation],IWMCodecPrivateData interface, IWMCodecPrivateData interface [Media Foundation],GetPrivateData method, IWMCodecPrivateData.GetPrivateData, IWMCodecPrivateData::GetPrivateData, codecapi.iwmcodecprivatedatagetprivatedata, mf.iwmcodecprivatedatagetprivatedata, wmcodecdsp/ IWMCodecPrivateData::GetPrivateData
 ms.prod: windows-hardware
 ms.technology: windows-devices

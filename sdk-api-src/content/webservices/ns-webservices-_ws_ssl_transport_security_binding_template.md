@@ -7,7 +7,7 @@ old-location: wsw\ws_ssl_transport_security_binding_template.htm
 old-project: wsw
 ms.assetid: 6b7e9ed6-0337-479d-9a83-dec5770c050d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE, WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], _WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE, webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE, wsw.ws_ssl_transport_security_binding_template
 ms.prod: windows-hardware
 ms.technology: windows-devices

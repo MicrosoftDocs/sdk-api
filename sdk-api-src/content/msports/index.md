@@ -2,7 +2,7 @@
 UID: NA:msports
 ms.assetid: a2437d99-676b-374a-b0ad-07ff2eac5eec
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

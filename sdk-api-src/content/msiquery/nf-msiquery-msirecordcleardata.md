@@ -7,7 +7,7 @@ old-location: setup\msirecordcleardata.htm
 old-project: Msi
 ms.assetid: 61fc362e-2b8e-4ce4-83e2-bade40fb96bc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MsiRecordClearData, MsiRecordClearData function, _msi_msirecordcleardata, msiquery/MsiRecordClearData, setup.msirecordcleardata
 ms.prod: windows-hardware
 ms.technology: windows-devices

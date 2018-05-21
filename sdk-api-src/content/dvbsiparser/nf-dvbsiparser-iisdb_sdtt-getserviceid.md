@@ -7,7 +7,7 @@ old-location: mstv\iisdb_sdtt_getserviceid.htm
 old-project: mstv
 ms.assetid: 36e9d2b7-f89a-47ad-9fd2-d9aa8d76949c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetServiceId, GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetServiceId method, IISDB_SDTT.GetServiceId, IISDB_SDTT::GetServiceId, dvbsiparser/IISDB_SDTT::GetServiceId, mstv.iisdb_sdtt_getserviceid
 ms.prod: windows-hardware
 ms.technology: windows-devices

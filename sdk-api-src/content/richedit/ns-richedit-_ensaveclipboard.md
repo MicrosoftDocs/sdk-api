@@ -7,7 +7,7 @@ old-location: controls\ENSAVECLIPBOARD.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\ensaveclipboard.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ENSAVECLIPBOARD, ENSAVECLIPBOARD structure [Windows Controls], _ensaveclipboard, _win32_ENSAVECLIPBOARD_str, _win32_ENSAVECLIPBOARD_str_cpp, controls.ENSAVECLIPBOARD, controls._win32_ENSAVECLIPBOARD_str, richedit/ENSAVECLIPBOARD
 ms.prod: windows-hardware
 ms.technology: windows-devices

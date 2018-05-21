@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_remoteaddresses.htm
 old-project: ICS
 ms.assetid: 107e8cad-a603-4ac8-aa3c-6a85d47016ef
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetFwRule interface [ICS/ICF],RemoteAddresses property, INetFwRule.RemoteAddresses, INetFwRule.put_RemoteAddresses, INetFwRule::RemoteAddresses, INetFwRule::get_RemoteAddresses, INetFwRule::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwRule interface, ics.inetfwrule_remoteaddresses, netfw/INetFwRule::RemoteAddresses, netfw/INetFwRule::get_RemoteAddresses, netfw/INetFwRule::put_RemoteAddresses, put_RemoteAddresses
 ms.prod: windows-hardware
 ms.technology: windows-devices

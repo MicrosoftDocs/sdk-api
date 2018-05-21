@@ -7,7 +7,7 @@ old-location: bits\ibackgroundcopyqmgr_creategroup.htm
 old-project: Bits
 ms.assetid: d64fec33-3781-428e-af9d-4a08836760d2
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: CreateGroup, CreateGroup method [BITS], CreateGroup method [BITS],IBackgroundCopyQMgr interface, IBackgroundCopyQMgr interface [BITS],CreateGroup method, IBackgroundCopyQMgr.CreateGroup, IBackgroundCopyQMgr::CreateGroup, bits.ibackgroundcopyqmgr_creategroup, qmgr/IBackgroundCopyQMgr::CreateGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_cancelwrite.htm
 old-project: imapi
 ms.assetid: 0fe5705e-7f48-4a4e-a535-a3dd105a6139
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: CancelWrite, CancelWrite method [IMAPI], CancelWrite method [IMAPI],IDiscFormat2Data interface, IDiscFormat2Data interface [IMAPI],CancelWrite method, IDiscFormat2Data.CancelWrite, IDiscFormat2Data::CancelWrite, imapi.idiscformat2data_cancelwrite, imapi2/IDiscFormat2Data::CancelWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

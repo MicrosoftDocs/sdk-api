@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_currentpartitionid.htm
 old-project: cossdk
 ms.assetid: bba572c7-54c5-4c98-9d05-5f72d5648e6a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: CurrentPartitionID property [COM+], CurrentPartitionID property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CurrentPartitionID property, ICOMAdminCatalog2.CurrentPartitionID, ICOMAdminCatalog2.get_CurrentPartitionID, ICOMAdminCatalog2::CurrentPartitionID, ICOMAdminCatalog2::get_CurrentPartitionID, _cos_IComAdminCatalog2_get_CurrentPartitionID, comadmin/ICOMAdminCatalog2::CurrentPartitionID, comadmin/ICOMAdminCatalog2::get_CurrentPartitionID, cos.icomadmincatalog2_currentpartitionid, get_CurrentPartitionID
 ms.prod: windows-hardware
 ms.technology: windows-devices

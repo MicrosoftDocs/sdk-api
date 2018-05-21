@@ -2,7 +2,7 @@
 UID: NA:af_irda
 ms.assetid: 9c758597-e3af-39c4-b476-06df5ad26352
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\inplacedirection.htm
 old-project: tablet
 ms.assetid: 798ad6d8-de1c-49dc-87a1-86bb4f73603a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: 798ad6d8-de1c-49dc-87a1-86bb4f73603a, InPlaceDirection, InPlaceDirection enumeration [Tablet PC], InPlaceDirection_Auto, InPlaceDirection_Bottom, InPlaceDirection_Top, __MIDL___MIDL_itf_peninputpanel_0000_0000_0006, peninputpanel/InPlaceDirection, peninputpanel/InPlaceDirection_Auto, peninputpanel/InPlaceDirection_Bottom, peninputpanel/InPlaceDirection_Top, tablet.inplacedirection
 ms.prod: windows-hardware
 ms.technology: windows-devices

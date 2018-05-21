@@ -7,7 +7,7 @@ old-location: menurc\is_intresource.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcemacros\is_intresource.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: IS_INTRESOURCE, IS_INTRESOURCE macro [Menus and Other Resources], _win32_IS_INTRESOURCE, _win32_is_intresource_cpp, menurc.is_intresource, winui._win32_is_intresource, winuser/IS_INTRESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices

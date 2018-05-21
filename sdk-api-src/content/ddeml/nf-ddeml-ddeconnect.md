@@ -7,7 +7,7 @@ old-location: dataxchg\ddeconnect.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeconnect.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: DdeConnect, DdeConnect function [Data Exchange], _win32_DdeConnect, _win32_ddeconnect_cpp, dataxchg.ddeconnect, ddeml/DdeConnect, winui._win32_ddeconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

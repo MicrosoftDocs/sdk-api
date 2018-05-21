@@ -7,7 +7,7 @@ old-location: ncd\iwsddevicehost_setmetadata_method.htm
 old-project: WsdApi
 ms.assetid: dc4cbed9-9ec4-4bbd-b1c9-89c4c11ff424
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDDeviceHost interface,SetMetadata method, IWSDDeviceHost.SetMetadata, IWSDDeviceHost::SetMetadata, SetMetadata, SetMetadata method, SetMetadata method,IWSDDeviceHost interface, ncd.iwsddevicehost_setmetadata_method, wsdhost/IWSDDeviceHost::SetMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\iwsdendpointproxy_sendtwowayrequestasync.htm
 old-project: WsdApi
 ms.assetid: cf175e79-9df2-4481-b784-e2cc40e34222
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDEndpointProxy interface,SendTwoWayRequestAsync method, IWSDEndpointProxy.SendTwoWayRequestAsync, IWSDEndpointProxy::SendTwoWayRequestAsync, SendTwoWayRequestAsync, SendTwoWayRequestAsync method, SendTwoWayRequestAsync method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_sendtwowayrequestasync, wsdclient/IWSDEndpointProxy::SendTwoWayRequestAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices

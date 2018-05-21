@@ -7,7 +7,7 @@ old-location: shell\THUMBBUTTON.htm
 old-project: shell
 ms.assetid: c13657b2-5b96-45ae-b339-b06b13aca65d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPTHUMBBUTTON, LPTHUMBBUTTON, LPTHUMBBUTTON structure pointer [Windows Shell], THUMBBUTTON, THUMBBUTTON structure [Windows Shell], _shell_THUMBBUTTON, shell.THUMBBUTTON, shobjidl_core/LPTHUMBBUTTON, shobjidl_core/THUMBBUTTON"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # THUMBBUTTON structure
@@ -121,7 +121,7 @@ Applications must provide these button images:
 </ul>
 
 
-Images must be 32-bit and of dimensions <a href="base.getsystemmetrics">GetSystemMetrics</a>(SM_CXICON) x <a href="base.getsystemmetrics">GetSystemMetrics</a>(SM_CYICON). The toolbar itself provides visuals for a button's clicked, disabled, and hover states.
+Images must be 32-bit and of dimensions <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>(SM_CXICON) x <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>(SM_CYICON). The toolbar itself provides visuals for a button's clicked, disabled, and hover states.
 
 
 

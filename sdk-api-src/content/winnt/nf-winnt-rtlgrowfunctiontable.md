@@ -7,7 +7,7 @@ old-location: base\rtlgrowfunctiontable.htm
 old-project: Debug
 ms.assetid: b917b732-4017-4365-b312-90bebfdd877b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: RtlGrowFunctionTable, RtlGrowFunctionTable function, base.rtlgrowfunctiontable, winnt/RtlGrowFunctionTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: setup\zombifyactctx.htm
 old-project: SbsCs
 ms.assetid: f421350a-66b5-4c5a-9e4c-ef69dbe39e7c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: ZombifyActCtx, ZombifyActCtx function [Side-by-side Assemblies], _win32_zombifyactctx, setup.zombifyactctx, winbase/ZombifyActCtx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\wsd_bye_struct.htm
 old-project: WsdApi
 ms.assetid: b0eb67e1-1408-45ab-b7a7-ecde6619a277
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_BYE, WSD_BYE structure, _WSD_BYE, ncd.wsd_bye_struct, wsdtypes/WSD_BYE
 ms.prod: windows-hardware
 ms.technology: windows-devices

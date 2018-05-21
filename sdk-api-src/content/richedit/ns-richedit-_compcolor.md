@@ -7,7 +7,7 @@ old-location: controls\COMPCOLOR.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\compcolor.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: COMPCOLOR, COMPCOLOR structure [Windows Controls], _compcolor, _win32_COMPCOLOR_str, _win32_COMPCOLOR_str_cpp, controls.COMPCOLOR, controls._win32_COMPCOLOR_str, richedit/COMPCOLOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iresourcemanager_notifyacquire.htm
 old-project: DirectShow
 ms.assetid: a5c52f5b-1c21-4f4c-b698-15b6ec7f7fed
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IResourceManager interface [DirectShow],NotifyAcquire method, IResourceManager.NotifyAcquire, IResourceManager::NotifyAcquire, IResourceManagerNotifyAcquire, NotifyAcquire, NotifyAcquire method [DirectShow], NotifyAcquire method [DirectShow],IResourceManager interface, dshow.iresourcemanager_notifyacquire, strmif/IResourceManager::NotifyAcquire
 ms.prod: windows-hardware
 ms.technology: windows-devices

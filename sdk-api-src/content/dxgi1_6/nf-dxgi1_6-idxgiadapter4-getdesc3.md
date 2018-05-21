@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter4_getdesc3.htm
 old-project: direct3ddxgi
 ms.assetid: 2C6C215C-8CD6-4650-A851-B82068E0F252
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: GetDesc3, GetDesc3 method [DXGI], GetDesc3 method [DXGI],IDXGIAdapter4 interface, IDXGIAdapter4 interface [DXGI],GetDesc3 method, IDXGIAdapter4.GetDesc3, IDXGIAdapter4::GetDesc3, direct3ddxgi.idxgiadapter4_getdesc3, dxgi1_6/IDXGIAdapter4::GetDesc3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DXGI_GPU_PREFERENCE
+req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
 topic_type:
 -	APIRef
 -	kbSyntax

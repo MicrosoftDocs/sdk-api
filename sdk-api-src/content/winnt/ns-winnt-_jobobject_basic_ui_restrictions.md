@@ -7,7 +7,7 @@ old-location: base\jobobject_basic_ui_restrictions_str.htm
 old-project: ProcThread
 ms.assetid: 69ce908c-fb15-40ba-8bd3-3dae3ee1539a
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: "*PJOBOBJECT_BASIC_UI_RESTRICTIONS, JOBOBJECT_BASIC_UI_RESTRICTIONS, JOBOBJECT_BASIC_UI_RESTRICTIONS structure, JOB_OBJECT_UILIMIT_DESKTOP, JOB_OBJECT_UILIMIT_DISPLAYSETTINGS, JOB_OBJECT_UILIMIT_EXITWINDOWS, JOB_OBJECT_UILIMIT_GLOBALATOMS, JOB_OBJECT_UILIMIT_HANDLES, JOB_OBJECT_UILIMIT_READCLIPBOARD, JOB_OBJECT_UILIMIT_SYSTEMPARAMETERS, JOB_OBJECT_UILIMIT_WRITECLIPBOARD, PJOBOBJECT_BASIC_UI_RESTRICTIONS, PJOBOBJECT_BASIC_UI_RESTRICTIONS structure pointer, _JOBOBJECT_BASIC_UI_RESTRICTIONS, _win32_jobobject_basic_ui_restrictions_str, base.jobobject_basic_ui_restrictions_str, winnt/JOBOBJECT_BASIC_UI_RESTRICTIONS, winnt/PJOBOBJECT_BASIC_UI_RESTRICTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,7 +146,7 @@ Prevents processes associated with the job from reading data from the clipboard.
 </td>
 <td width="60%">
 Prevents processes associated with the job from changing system parameters by using the 
-<a href="base.systemparametersinfo">SystemParametersInfo</a> function.
+<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a> function.
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ To grant access to a User handle to a job that has a user-interface restriction,
 
 
 
-<a href="base.systemparametersinfo">SystemParametersInfo</a>
+<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>
 
 
 

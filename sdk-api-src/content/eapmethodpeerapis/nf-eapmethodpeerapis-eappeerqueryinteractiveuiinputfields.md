@@ -7,7 +7,7 @@ old-location: eaphost\eappeerqueryinteractiveuiinputfields.htm
 old-project: EAPHost
 ms.assetid: 7019e13f-d5ad-40ba-8e70-8ded4b136d6c
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapPeerQueryInteractiveUIInputFields, EapPeerQueryInteractiveUIInputFields function [EAPHost], eaphost.eappeerqueryinteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryInteractiveUIInputFields
 ms.prod: windows-hardware
 ms.technology: windows-devices

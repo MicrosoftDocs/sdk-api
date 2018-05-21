@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_GenericDefault_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\genericdefault.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GenericDefault, GenericDefault method [GDI+], GenericDefault method [GDI+],StringFormat class, StringFormat class [GDI+],GenericDefault method, StringFormat.GenericDefault, StringFormat::GenericDefault, _gdiplus_CLASS_StringFormat_GenericDefault_, gdiplus._gdiplus_CLASS_StringFormat_GenericDefault_
 ms.prod: windows-hardware
 ms.technology: windows-devices

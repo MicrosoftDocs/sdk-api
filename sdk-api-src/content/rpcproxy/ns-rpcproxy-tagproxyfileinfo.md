@@ -7,7 +7,7 @@ old-location: rpc\proxyfileinfo.htm
 old-project: Rpc
 ms.assetid: dbe797da-3ec3-4fe0-83bf-30669127a401
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: ExtendedProxyFileInfo, ProxyFileInfo, ProxyFileInfo structure [RPC], rpc.proxyfileinfo, rpcproxy/ProxyFileInfo, tagProxyFileInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

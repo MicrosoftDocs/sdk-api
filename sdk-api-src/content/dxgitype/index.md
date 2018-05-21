@@ -2,7 +2,7 @@
 UID: NA:dxgitype
 ms.assetid: 538eee1b-8461-3985-820a-bac0e8340cf6
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\wsremovenode.htm
 old-project: wsw
 ms.assetid: 955fd0b3-b351-40db-a25f-dd1ed8b55550
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsRemoveNode, WsRemoveNode function [Web Services for Windows], webservices/WsRemoveNode, wsw.wsremovenode
 ms.prod: windows-hardware
 ms.technology: windows-devices

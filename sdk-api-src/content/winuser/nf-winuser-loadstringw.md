@@ -7,7 +7,7 @@ old-location: menurc\loadstring.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\loadstring.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: LoadString, LoadString function [Menus and Other Resources], LoadStringA, LoadStringW, _win32_LoadString, _win32_loadstring_cpp, menurc.loadstring, winui._win32_loadstring, winuser/LoadString, winuser/LoadStringA, winuser/LoadStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices

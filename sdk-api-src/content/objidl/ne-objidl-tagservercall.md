@@ -7,7 +7,7 @@ old-location: com\servercall.htm
 old-project: com
 ms.assetid: 2a9b5e85-44b9-43c1-b3e5-a8f2c140b674
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: SERVERCALL, SERVERCALL enumeration [COM], SERVERCALL_ISHANDLED, SERVERCALL_REJECTED, SERVERCALL_RETRYLATER, _com_SERVERCALL, com.servercall, objidl/SERVERCALL, objidl/SERVERCALL_ISHANDLED, objidl/SERVERCALL_REJECTED, objidl/SERVERCALL_RETRYLATER, tagSERVERCALL
 ms.prod: windows-hardware
 ms.technology: windows-devices

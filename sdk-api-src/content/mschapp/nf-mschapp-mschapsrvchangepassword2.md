@@ -7,7 +7,7 @@ old-location: mschap\mschapsrvchangepassword2.htm
 old-project: MsChap
 ms.assetid: 91ea4b98-79e4-4764-a580-a622d1491943
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/14/2018
 ms.keywords: MSChapSrvChangePassword2, MSChapSrvChangePassword2 function [MS-CHAP], _mschap_mschapsrvchangepassword2, mschap.mschapsrvchangepassword2, mschapp/MSChapSrvChangePassword2
 ms.prod: windows-hardware
 ms.technology: windows-devices

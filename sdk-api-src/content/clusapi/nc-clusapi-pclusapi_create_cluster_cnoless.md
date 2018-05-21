@@ -7,7 +7,7 @@ old-location: mscs\createclustercnoless.htm
 old-project: MsCS
 ms.assetid: AED4CDC5-BE90-4F34-A8E2-DFD0617BC65B
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PCLUSAPI_CREATE_CLUSTER_CNOLESS, PCLUSAPI_CREATE_CLUSTER_CNOLESS callback, PCLUSAPI_CREATE_CLUSTER_CNOLESS callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER_CNOLESS, mscs.createclustercnoless
 ms.prod: windows-hardware
 ms.technology: windows-devices

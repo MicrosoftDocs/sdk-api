@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2_get_activediscrecorder.htm
 old-project: imapi
 ms.assetid: 7fd3e13c-2853-417e-8478-46fa667c9f97
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_ActiveDiscRecorder method, IDiscRecorder2.get_ActiveDiscRecorder, IDiscRecorder2::get_ActiveDiscRecorder, get_ActiveDiscRecorder, get_ActiveDiscRecorder method [IMAPI], get_ActiveDiscRecorder method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_activediscrecorder, imapi2/IDiscRecorder2::get_ActiveDiscRecorder
 ms.prod: windows-hardware
 ms.technology: windows-devices

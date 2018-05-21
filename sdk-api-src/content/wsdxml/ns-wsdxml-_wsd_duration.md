@@ -7,7 +7,7 @@ old-location: ncd\wsd_duration_struct.htm
 old-project: WsdApi
 ms.assetid: 43d4d0c5-509a-46c4-bdf6-24c3307fb811
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_DURATION, WSD_DURATION structure, _WSD_DURATION, ncd.wsd_duration_struct, wsdxml/WSD_DURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

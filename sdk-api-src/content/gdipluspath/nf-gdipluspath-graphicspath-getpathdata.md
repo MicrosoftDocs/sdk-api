@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPathData_pathData_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getpathdata.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetPathData, GetPathData method [GDI+], GetPathData method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetPathData method, GraphicsPath.GetPathData, GraphicsPath::GetPathData, _gdiplus_CLASS_GraphicsPath_GetPathData_pathData_, gdiplus._gdiplus_CLASS_GraphicsPath_GetPathData_pathData_
 ms.prod: windows-hardware
 ms.technology: windows-devices

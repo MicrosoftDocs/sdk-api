@@ -7,7 +7,7 @@ old-location: com\getclassfile.htm
 old-project: com
 ms.assetid: dc3cb263-7b9a-45f9-8eab-3a88aa9392db
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: GetClassFile, GetClassFile function [COM], _com_GetClassFile, com.getclassfile, objbase/GetClassFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

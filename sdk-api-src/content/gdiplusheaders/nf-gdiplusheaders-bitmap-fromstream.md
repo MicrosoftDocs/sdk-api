@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorMa
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromstream.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Bitmap class [GDI+],FromStream method, Bitmap.FromStream, Bitmap::FromStream, FromStream, FromStream method [GDI+], FromStream method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Bitmap_FromStream_stream_useEmbeddedColorManagement_
 ms.prod: windows-hardware
 ms.technology: windows-devices

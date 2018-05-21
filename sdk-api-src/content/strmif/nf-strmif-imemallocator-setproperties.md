@@ -7,7 +7,7 @@ old-location: dshow\imemallocator_setproperties.htm
 old-project: DirectShow
 ms.assetid: c68f2e2f-c70f-447d-804b-dfdfe8ae8a52
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IMemAllocator interface [DirectShow],SetProperties method, IMemAllocator.SetProperties, IMemAllocator::SetProperties, IMemAllocatorSetProperties, SetProperties, SetProperties method [DirectShow], SetProperties method [DirectShow],IMemAllocator interface, dshow.imemallocator_setproperties, strmif/IMemAllocator::SetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

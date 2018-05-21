@@ -7,7 +7,7 @@ old-location: menurc\createacceleratortable.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\createacceleratortable.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: CreateAcceleratorTable, CreateAcceleratorTable function [Menus and Other Resources], CreateAcceleratorTableA, CreateAcceleratorTableW, _win32_CreateAcceleratorTable, _win32_createacceleratortable_cpp, menurc.createacceleratortable, winui._win32_createacceleratortable, winuser/CreateAcceleratorTable, winuser/CreateAcceleratorTableA, winuser/CreateAcceleratorTableW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_propertyset_clear.htm
 old-project: wmi_v2
 ms.assetid: c5cd80b7-51bc-48dd-a49d-c3ce6d92fd55
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_PropertySet_Clear, MI_PropertySet_Clear function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_Clear, wmi_v2.mi_propertyset_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices

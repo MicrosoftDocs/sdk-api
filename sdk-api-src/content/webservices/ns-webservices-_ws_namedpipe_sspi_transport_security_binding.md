@@ -7,7 +7,7 @@ old-location: wsw\ws_namedpipe_sspi_transport_security_binding.htm
 old-project: wsw
 ms.assetid: 02FCD206-23BC-4ED0-9E4A-76AB0926FD7C
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING, WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING structure [Web Services for Windows], _WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING, webservices/WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING, wsw.ws_namedpipe_sspi_transport_security_binding
 ms.prod: windows-hardware
 ms.technology: windows-devices

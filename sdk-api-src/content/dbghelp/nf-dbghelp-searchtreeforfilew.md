@@ -7,7 +7,7 @@ old-location: base\searchtreeforfile.htm
 old-project: Debug
 ms.assetid: dc641de0-8e22-402e-be64-f3231ba9ed8c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SearchTreeForFile, SearchTreeForFile function, SearchTreeForFileW, _win32_searchtreeforfile, base.searchtreeforfile, dbghelp/SearchTreeForFile, dbghelp/SearchTreeForFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

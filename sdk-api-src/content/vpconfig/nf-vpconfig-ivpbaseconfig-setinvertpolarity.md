@@ -7,7 +7,7 @@ old-location: dshow\ivpbaseconfig_setinvertpolarity.htm
 old-project: DirectShow
 ms.assetid: 2c33cea2-2c83-4978-9059-c15706f14f85
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetInvertPolarity method, IVPBaseConfig.SetInvertPolarity, IVPBaseConfig::SetInvertPolarity, IVPBaseConfigSetInvertPolarity, SetInvertPolarity, SetInvertPolarity method [DirectShow], SetInvertPolarity method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setinvertpolarity, vpconfig/IVPBaseConfig::SetInvertPolarity
 ms.prod: windows-hardware
 ms.technology: windows-devices

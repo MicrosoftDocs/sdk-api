@@ -7,7 +7,7 @@ old-location: mf\imftimedtextregion.htm
 old-project: medfound
 ms.assetid: 1A6E068F-2E01-4A72-8BCF-D645B1D21ECF
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFTimedTextRegion, IMFTimedTextRegion interface [Media Foundation], IMFTimedTextRegion interface [Media Foundation],described, mf.imftimedtextregion, mfmediaengine/IMFTimedTextRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices

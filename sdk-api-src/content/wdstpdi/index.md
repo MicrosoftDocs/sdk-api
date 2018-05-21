@@ -2,7 +2,7 @@
 UID: NA:wdstpdi
 ms.assetid: 386ae06c-6e77-3313-ba45-daeb53004c4d
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

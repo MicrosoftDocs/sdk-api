@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain_getlastpresentcount.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getlastpresentcount.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: GetLastPresentCount, GetLastPresentCount method [DXGI], GetLastPresentCount method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetLastPresentCount method, IDXGISwapChain.GetLastPresentCount, IDXGISwapChain::GetLastPresentCount, direct3ddxgi.idxgiswapchain_getlastpresentcount, dxgi/IDXGISwapChain::GetLastPresentCount, f6292a4d-50a6-18b3-5edc-a581c15fa784
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icertadmin2_resubmitrequest.htm
 old-project: SecCrypto
 ms.assetid: 610712d9-3661-42ba-9d2f-27862ba8dbd4
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CCertAdmin object [Security],ResubmitRequest method, ICertAdmin interface [Security],ResubmitRequest method, ICertAdmin.ResubmitRequest, ICertAdmin2 interface [Security],ResubmitRequest method, ICertAdmin2::ResubmitRequest, ICertAdmin::ResubmitRequest, ResubmitRequest, ResubmitRequest method [Security], ResubmitRequest method [Security],CCertAdmin object, ResubmitRequest method [Security],ICertAdmin interface, ResubmitRequest method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::ResubmitRequest, certadm/ICertAdmin::ResubmitRequest, security.icertadmin2_resubmitrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

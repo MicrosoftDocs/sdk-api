@@ -7,7 +7,7 @@ old-location: controls\GetWindowTheme.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getwindowtheme.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetWindowTheme, GetWindowTheme function [Windows Controls], controls.GetWindowTheme, controls.inet_GetWindowTheme, inet_GetWindowTheme, inet_GetWindowTheme_cpp, uxtheme/GetWindowTheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

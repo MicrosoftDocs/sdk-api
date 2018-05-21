@@ -7,7 +7,7 @@ old-location: gdi\closeenhmetafile.htm
 old-project: gdi
 ms.assetid: 3c4a0d8b-75a5-4729-8c64-476c36d01a90
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: CloseEnhMetaFile, CloseEnhMetaFile function [Windows GDI], _win32_CloseEnhMetaFile, gdi.closeenhmetafile, wingdi/CloseEnhMetaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

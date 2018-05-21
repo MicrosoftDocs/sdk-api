@@ -7,7 +7,7 @@ old-location: mscs\createclusternotifyportv2.htm
 old-project: MsCS
 ms.assetid: 81FE17A9-DE1C-4CDD-BE7D-50EA202D5AAC
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 callback, PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, mscs.createclusternotifyportv2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesrcelementsex.htm
 old-project: medfound
 ms.assetid: f15cb527-0f46-4887-9e02-835f0115bc5b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFMediaEngineSrcElementsEx, IMFMediaEngineSrcElementsEx interface [Media Foundation], IMFMediaEngineSrcElementsEx interface [Media Foundation],described, mf.imfmediaenginesrcelementsex, mfmediaengine/IMFMediaEngineSrcElementsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

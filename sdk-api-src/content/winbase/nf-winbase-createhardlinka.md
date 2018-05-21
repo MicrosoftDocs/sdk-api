@@ -7,7 +7,7 @@ old-location: fs\createhardlink.htm
 old-project: FileIO
 ms.assetid: 9b0d3f04-775f-44ea-b563-93dee29a278a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: CreateHardLink, CreateHardLink function [Files], CreateHardLinkA, CreateHardLinkW, _win32_createhardlink, base.createhardlink, fs.createhardlink, winbase/CreateHardLink, winbase/CreateHardLinkA, winbase/CreateHardLinkW
 ms.prod: windows-hardware
 ms.technology: windows-devices

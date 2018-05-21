@@ -7,7 +7,7 @@ old-location: dfs\netdfsremoveftrootforced.htm
 old-project: Dfs
 ms.assetid: 4eaa0e2a-fa09-4a20-98e1-4c0c4ff5d0ef
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: NetDfsRemoveFtRootForced, NetDfsRemoveFtRootForced function [Distributed File System], _win32_netdfsremoveftrootforced, dfs.netdfsremoveftrootforced, fs.netdfsremoveftrootforced, lmdfs/NetDfsRemoveFtRootForced, netmgmt.netdfsremoveftrootforced
 ms.prod: windows-hardware
 ms.technology: windows-devices

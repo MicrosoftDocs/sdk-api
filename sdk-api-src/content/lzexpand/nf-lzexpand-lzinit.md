@@ -7,7 +7,7 @@ old-location: fs\lzinit.htm
 old-project: FileIO
 ms.assetid: 53e6345a-e303-4ef6-8b4d-b9a3fcacfb13
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: LZInit, LZInit function [Files], _win32_lzinit, base.lzinit, fs.lzinit, lzexpand/LZInit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolshadowconnection.htm
 old-project: TermServ
 ms.assetid: d23c4902-4e61-45ff-8a49-62eea1b92d4a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IWRdsProtocolShadowConnection, IWRdsProtocolShadowConnection interface [Remote Desktop Services], IWRdsProtocolShadowConnection interface [Remote Desktop Services],described, termserv.iwrdsprotocolshadowconnection, wtsprotocol/IWRdsProtocolShadowConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

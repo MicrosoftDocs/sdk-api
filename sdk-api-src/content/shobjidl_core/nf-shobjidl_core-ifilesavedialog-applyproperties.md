@@ -7,7 +7,7 @@ old-location: shell\IFileSaveDialog_ApplyProperties.htm
 old-project: shell
 ms.assetid: 3de64914-b64e-47e8-8f84-6c64d849ffa9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ApplyProperties, ApplyProperties method [Windows Shell], ApplyProperties method [Windows Shell],IFileSaveDialog interface, IFileSaveDialog interface [Windows Shell],ApplyProperties method, IFileSaveDialog.ApplyProperties, IFileSaveDialog::ApplyProperties, shell.IFileSaveDialog_ApplyProperties, shell_IFileSaveDialog_ApplyProperties, shobjidl_core/IFileSaveDialog::ApplyProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IFileSaveDialog::ApplyProperties

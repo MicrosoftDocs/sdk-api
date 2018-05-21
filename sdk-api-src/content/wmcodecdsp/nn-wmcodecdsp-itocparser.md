@@ -7,7 +7,7 @@ old-location: mf\itocparser.htm
 old-project: medfound
 ms.assetid: d1f14a6e-d75c-4266-beff-0e9af911edfe
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: ITocParser, ITocParser interface [Media Foundation], ITocParser interface [Media Foundation],described, codecapi.itocparser, mf.itocparser, wmcodecdsp/ITocParser
 ms.prod: windows-hardware
 ms.technology: windows-devices

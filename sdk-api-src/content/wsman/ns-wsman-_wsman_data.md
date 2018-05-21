@@ -7,7 +7,7 @@ old-location: winrm\wsman_data.htm
 old-project: WinRM
 ms.assetid: 4ff574d4-04b0-47c3-808f-867d6815bffc
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: WSMAN_DATA, WSMAN_DATA structure [Windows Remote Management], _WSMAN_DATA, winrm.wsman_data, wsman/WSMAN_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

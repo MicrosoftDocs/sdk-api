@@ -7,7 +7,7 @@ old-location: mscs\node_cluster_state.htm
 old-project: MsCS
 ms.assetid: cc3b5bdc-79d7-4578-bfa5-8e57df4670e6
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: CLUSTER_CONFIGURED, CLUSTER_INSTALLED, CLUSTER_RUNNING, ClusterStateNotConfigured, ClusterStateNotInstalled, ClusterStateNotRunning, ClusterStateRunning, NODE_CLUSTER_STATE, NODE_CLUSTER_STATE enumeration [Failover Cluster], _NODE_CLUSTER_STATE, _NODE_CLUSTER_STATE enumeration [Failover Cluster], clusapi/ClusterStateNotConfigured, clusapi/ClusterStateNotInstalled, clusapi/ClusterStateNotRunning, clusapi/ClusterStateRunning, clusapi/NODE_CLUSTER_STATE, clusapi/_NODE_CLUSTER_STATE, msclus/ClusterStateNotConfigured, msclus/ClusterStateNotInstalled, msclus/ClusterStateNotRunning, msclus/ClusterStateRunning, msclus/NODE_CLUSTER_STATE, msclus/_NODE_CLUSTER_STATE, mscs.node_cluster_state
 ms.prod: windows-hardware
 ms.technology: windows-devices

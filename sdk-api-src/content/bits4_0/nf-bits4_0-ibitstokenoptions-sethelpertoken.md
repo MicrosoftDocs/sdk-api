@@ -7,7 +7,7 @@ old-location: bits\ibitstokenoptions_sethelpertoken.htm
 old-project: Bits
 ms.assetid: a31414b7-159e-4ce7-8d2d-02b62aa9759d
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: IBitsTokenOptions interface [BITS],SetHelperToken method, IBitsTokenOptions.SetHelperToken, IBitsTokenOptions::SetHelperToken, SetHelperToken, SetHelperToken method [BITS], SetHelperToken method [BITS],IBitsTokenOptions interface, bits.ibitstokenoptions_sethelpertoken, bits4_0/IBitsTokenOptions::SetHelperToken
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bits\ibitspeercacheadministration_enumpeers.htm
 old-project: Bits
 ms.assetid: 8786d7d8-9ffb-4492-9834-90b97f97e4cf
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: EnumPeers, EnumPeers method [BITS], EnumPeers method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],EnumPeers method, IBitsPeerCacheAdministration.EnumPeers, IBitsPeerCacheAdministration::EnumPeers, bits.ibitspeercacheadministration_enumpeers, bits3_0/IBitsPeerCacheAdministration::EnumPeers
 ms.prod: windows-hardware
 ms.technology: windows-devices

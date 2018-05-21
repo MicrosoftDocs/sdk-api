@@ -7,7 +7,7 @@ old-location: security\icertencodealtname.htm
 old-project: SecCrypto
 ms.assetid: e0ecfcb0-f2ca-4e1c-a054-c83c03d55465
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: ICertEncodeAltName, ICertEncodeAltName interface [Security], ICertEncodeAltName interface [Security],described, _certsrv_icertencodealtname, certenc/ICertEncodeAltName, security.icertencodealtname
 ms.prod: windows-hardware
 ms.technology: windows-devices

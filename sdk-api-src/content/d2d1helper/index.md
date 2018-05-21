@@ -2,7 +2,7 @@
 UID: NA:d2d1helper
 ms.assetid: be44552e-6c89-39af-8b03-739c3a3a0a2d
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

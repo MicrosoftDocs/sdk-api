@@ -7,7 +7,7 @@ old-location: mapi\mapilogoff.htm
 old-project: WindowsMAPI
 ms.assetid: d04316cf-31f5-4f5f-ad20-01ce720fdf4c
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/11/2018
 ms.keywords: MAPILogoff, MAPILogoff callback, MAPILogoff callback function, mapi.mapilogoff, mapi/MAPILogoff
 ms.prod: windows-hardware
 ms.technology: windows-devices

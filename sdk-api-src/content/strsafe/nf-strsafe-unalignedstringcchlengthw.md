@@ -7,7 +7,7 @@ old-location: menurc\unalignedstringcchlength.htm
 old-project: menurc
 ms.assetid: 35571305-9ef4-4215-ad88-80590e9b89cc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: StringCchLengthA, UnalignedStringCchLength, UnalignedStringCchLength function [Menus and Other Resources], UnalignedStringCchLengthW, menurc.unalignedstringcchlength, strsafe/StringCchLengthA, strsafe/UnalignedStringCchLength, strsafe/UnalignedStringCchLengthW
 ms.prod: windows-hardware
 ms.technology: windows-devices

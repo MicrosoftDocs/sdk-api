@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_setencodeportinspn.htm
 old-project: wmi_v2
 ms.assetid: cce288fe-42e0-428c-b663-931d4f5784bb
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_DestinationOptions_SetEncodePortInSPN, MI_DestinationOptions_SetEncodePortInSPN function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetEncodePortInSPN, wmi_v2.mi_destinationoptions_setencodeportinspn
 ms.prod: windows-hardware
 ms.technology: windows-devices

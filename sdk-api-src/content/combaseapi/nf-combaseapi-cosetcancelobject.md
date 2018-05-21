@@ -7,7 +7,7 @@ old-location: com\cosetcancelobject.htm
 old-project: com
 ms.assetid: 0978e252-2206-4597-abf2-fe0dac32efc4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CoSetCancelObject, CoSetCancelObject function [COM], _com_CoSetCancelObject, com.cosetcancelobject, combaseapi/CoSetCancelObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\Animate_Seek.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_seek.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: Animate_Seek, Animate_Seek macro [Windows Controls], _win32_Animate_Seek, _win32_Animate_Seek_cpp, commctrl/Animate_Seek, controls.Animate_Seek, controls._win32_Animate_Seek
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ioleuiobjinfo_setviewinfo.htm
 old-project: com
 ms.assetid: 83d88f33-448f-4b8f-9c82-b6aaa4e8ff4a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IOleUIObjInfo interface [COM],SetViewInfo method, IOleUIObjInfo::SetViewInfo, IOleUIObjInfoA interface [COM],SetViewInfo method, IOleUIObjInfoA.SetViewInfo, IOleUIObjInfoA::SetViewInfo, IOleUIObjInfoW interface [COM],SetViewInfo method, IOleUIObjInfoW::SetViewInfo, SetViewInfo, SetViewInfo method [COM], SetViewInfo method [COM],IOleUIObjInfo interface, SetViewInfo method [COM],IOleUIObjInfoA interface, SetViewInfo method [COM],IOleUIObjInfoW interface, _ole_IOleUIObjInfo_SetViewInfo, com.ioleuiobjinfo_setviewinfo, oledlg/IOleUIObjInfo::SetViewInfo, oledlg/IOleUIObjInfoA::SetViewInfo, oledlg/IOleUIObjInfoW::SetViewInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

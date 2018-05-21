@@ -7,7 +7,7 @@ old-location: rras\mpradminacceptnewlink.htm
 old-project: RRAS
 ms.assetid: a4cbca7d-a8b0-4396-9201-648bcca6a8c8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MprAdminAcceptNewLink, MprAdminAcceptNewLink callback, MprAdminAcceptNewLink callback function [RAS], _mpr_mpradminacceptnewlink, mprapi/MprAdminAcceptNewLink, rras.mpradminacceptnewlink
 ms.prod: windows-hardware
 ms.technology: windows-devices

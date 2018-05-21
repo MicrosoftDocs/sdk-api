@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeercredentialsxml2blob.htm
 old-project: EAPHost
 ms.assetid: ef8475f0-047d-4858-b3c1-3ddf41c1847f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapHostPeerCredentialsXml2Blob, EapHostPeerCredentialsXml2Blob function [EAPHost], eaphost.eaphostpeercredentialsxml2blob, eaphostpeerconfigapis/EapHostPeerCredentialsXml2Blob
 ms.prod: windows-hardware
 ms.technology: windows-devices

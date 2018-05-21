@@ -7,7 +7,7 @@ old-location: fs\wofwimsuspendentry.htm
 old-project: FileIO
 ms.assetid: 1F3DA0FF-37B5-4DEE-BEA0-7A0E63F3E97D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: WofWimSuspendEntry, WofWimSuspendEntry function [Files], fs.wofwimsuspendentry, wofapi/WofWimSuspendEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

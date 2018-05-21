@@ -7,7 +7,7 @@ old-location: security\copytoclientbuffer.htm
 old-project: SecAuthN
 ms.assetid: 53ea2c99-7934-447d-9ec5-e88ee925ca89
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CopyToClientBuffer, CopyToClientBuffer function [Security], LSA_COPY_TO_CLIENT_BUFFER, _lsa_copytoclientbuffer, ntsecpkg/CopyToClientBuffer, security.copytoclientbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

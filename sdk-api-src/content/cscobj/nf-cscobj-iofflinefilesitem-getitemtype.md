@@ -7,7 +7,7 @@ old-location: of\iofflinefilesitem_getitemtype.htm
 old-project: OfflineFiles
 ms.assetid: 87fbf63a-d103-4c80-b6a7-60784c7350bc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: GetItemType, GetItemType method [Offline Files], GetItemType method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetItemType method, IOfflineFilesItem.GetItemType, IOfflineFilesItem::GetItemType, cscobj/IOfflineFilesItem::GetItemType, of.iofflinefilesitem_getitemtype
 ms.prod: windows-hardware
 ms.technology: windows-devices

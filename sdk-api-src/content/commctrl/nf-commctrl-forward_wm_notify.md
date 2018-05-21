@@ -7,7 +7,7 @@ old-location: controls\FORWARD_WM_NOTIFY.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\forward_wm_notify.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: FORWARD_WM_NOTIFY, FORWARD_WM_NOTIFY macro [Windows Controls], _win32_FORWARD_WM_NOTIFY, _win32_FORWARD_WM_NOTIFY_cpp, commctrl/FORWARD_WM_NOTIFY, controls.FORWARD_WM_NOTIFY, controls._win32_FORWARD_WM_NOTIFY
 ms.prod: windows-hardware
 ms.technology: windows-devices

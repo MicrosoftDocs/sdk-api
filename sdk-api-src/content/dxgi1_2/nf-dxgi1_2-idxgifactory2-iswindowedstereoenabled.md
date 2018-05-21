@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_iswindowedstereoenabled.htm
 old-project: direct3ddxgi
 ms.assetid: 81DA1DD6-7D36-4848-ADCB-1F7B765B0A62
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],IsWindowedStereoEnabled method, IDXGIFactory2.IsWindowedStereoEnabled, IDXGIFactory2::IsWindowedStereoEnabled, IsWindowedStereoEnabled, IsWindowedStereoEnabled method [DXGI], IsWindowedStereoEnabled method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_iswindowedstereoenabled, dxgi1_2/IDXGIFactory2::IsWindowedStereoEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

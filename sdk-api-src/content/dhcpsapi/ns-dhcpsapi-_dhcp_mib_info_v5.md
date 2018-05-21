@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_mib_info_v5.htm
 old-project: DHCP
 ms.assetid: 5081ebce-d3b9-4548-8d80-23d994bce7ab
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_MIB_INFO_V5, DHCP_MIB_INFO_V5, DHCP_MIB_INFO_V5 structure [DHCP], LPDHCP_MIB_INFO_V5, LPDHCP_MIB_INFO_V5 structure pointer [DHCP], _DHCP_MIB_INFO_V5, dhcp.dhcp_mib_info_v5, dhcpsapi/DHCP_MIB_INFO_V5, dhcpsapi/LPDHCP_MIB_INFO_V5"
 ms.prod: windows-hardware
 ms.technology: windows-devices

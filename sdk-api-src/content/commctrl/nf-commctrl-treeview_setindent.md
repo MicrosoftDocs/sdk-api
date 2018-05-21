@@ -7,7 +7,7 @@ old-location: controls\TreeView_SetIndent.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setindent.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: TreeView_SetIndent, TreeView_SetIndent macro [Windows Controls], _win32_TreeView_SetIndent, _win32_TreeView_SetIndent_cpp, commctrl/TreeView_SetIndent, controls.TreeView_SetIndent, controls._win32_TreeView_SetIndent
 ms.prod: windows-hardware
 ms.technology: windows-devices

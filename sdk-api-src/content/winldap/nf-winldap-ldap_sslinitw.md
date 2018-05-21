@@ -7,7 +7,7 @@ old-location: ldap\ldap_sslinit.htm
 old-project: LDAP
 ms.assetid: 04c13577-9d9f-4305-8aa2-fad81c03290a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_sslinit, ldap.ldap__sslinit, ldap.ldap_sslinit, ldap_sslinit, ldap_sslinit function [LDAP], ldap_sslinitA, ldap_sslinitW, winldap/ldap_sslinit, winldap/ldap_sslinitA, winldap/ldap_sslinitW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

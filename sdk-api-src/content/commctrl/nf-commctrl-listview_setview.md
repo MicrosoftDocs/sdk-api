@@ -7,7 +7,7 @@ old-location: controls\ListView_SetView.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setview.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ListView_SetView, ListView_SetView macro [Windows Controls], _win32_ListView_SetView, _win32_ListView_SetView_cpp, commctrl/ListView_SetView, controls.ListView_SetView, controls._win32_ListView_SetView
 ms.prod: windows-hardware
 ms.technology: windows-devices

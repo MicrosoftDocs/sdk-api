@@ -7,7 +7,7 @@ old-location: security\cert_access_description.htm
 old-project: SecCrypto
 ms.assetid: 5e1e5b04-92af-45b1-acfd-17852c245d89
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PCERT_ACCESS_DESCRIPTION, CERT_ACCESS_DESCRIPTION, CERT_ACCESS_DESCRIPTION structure [Security], PCERT_ACCESS_DESCRIPTION, PCERT_ACCESS_DESCRIPTION structure pointer [Security], _CERT_ACCESS_DESCRIPTION, _crypto2_cert_access_description, security.cert_access_description, wincrypt/CERT_ACCESS_DESCRIPTION, wincrypt/PCERT_ACCESS_DESCRIPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

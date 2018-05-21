@@ -7,7 +7,7 @@ old-location: ldap\ber_next_element.htm
 old-project: LDAP
 ms.assetid: 3daf33c9-730d-4032-a0fc-21de4c425209
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ber_next_element, ber_next_element, ber_next_element function [LDAP], ldap.ber__next__element, ldap.ber_next_element, winber/ber_next_element"
 ms.prod: windows-hardware
 ms.technology: windows-devices

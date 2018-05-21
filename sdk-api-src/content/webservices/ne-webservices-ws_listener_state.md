@@ -7,7 +7,7 @@ old-location: wsw\ws_listener_state.htm
 old-project: wsw
 ms.assetid: 275d0d36-f9a1-49a7-af74-e8967dff574a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_LISTENER_STATE, WS_LISTENER_STATE enumeration [Web Services for Windows], WS_LISTENER_STATE_CLOSED, WS_LISTENER_STATE_CLOSING, WS_LISTENER_STATE_CREATED, WS_LISTENER_STATE_FAULTED, WS_LISTENER_STATE_OPEN, WS_LISTENER_STATE_OPENING, webservices/WS_LISTENER_STATE, webservices/WS_LISTENER_STATE_CLOSED, webservices/WS_LISTENER_STATE_CLOSING, webservices/WS_LISTENER_STATE_CREATED, webservices/WS_LISTENER_STATE_FAULTED, webservices/WS_LISTENER_STATE_OPEN, webservices/WS_LISTENER_STATE_OPENING, wsw.ws_listener_state
 ms.prod: windows-hardware
 ms.technology: windows-devices

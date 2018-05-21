@@ -7,7 +7,7 @@ old-location: security\lsaapcallpackage.htm
 old-project: SecAuthN
 ms.assetid: be0f9886-c0f6-4361-96c7-d16da8713fc7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: LSA_AP_CALL_PACKAGE, LsaApCallPackage, LsaApCallPackage function [Security], _lsa_lsaapcallpackage, ntsecpkg/LsaApCallPackage, security.lsaapcallpackage
 ms.prod: windows-hardware
 ms.technology: windows-devices

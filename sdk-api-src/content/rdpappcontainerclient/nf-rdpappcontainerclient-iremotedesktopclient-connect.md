@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclient_connect.htm
 old-project: TermServ
 ms.assetid: 52dbc0f3-8ba9-45a5-a224-b7de67847bf3
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: Connect, Connect method [Remote Desktop Services], Connect method [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],Connect method, IRemoteDesktopClient.Connect, IRemoteDesktopClient::Connect, rdpappcontainerclient/IRemoteDesktopClient::Connect, termserv.iremotedesktopclient_connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

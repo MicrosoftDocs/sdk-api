@@ -7,7 +7,7 @@ old-location: gdi\getmiterlimit.htm
 old-project: gdi
 ms.assetid: 51b1fb95-dd44-47f8-9311-2c6dc9c57bbc
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: GetMiterLimit, GetMiterLimit function [Windows GDI], _win32_GetMiterLimit, gdi.getmiterlimit, wingdi/GetMiterLimit
 ms.prod: windows-hardware
 ms.technology: windows-devices

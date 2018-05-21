@@ -7,7 +7,7 @@ old-location: wsw\ws_channel_properties.htm
 old-project: wsw
 ms.assetid: a28eddde-2b95-4655-962b-1d04b7a2c5fe
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_CHANNEL_PROPERTIES, WS_CHANNEL_PROPERTIES structure [Web Services for Windows], _WS_CHANNEL_PROPERTIES, webservices/WS_CHANNEL_PROPERTIES, wsw.ws_channel_properties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\scaleviewportextex.htm
 old-project: gdi
 ms.assetid: 8dde1322-82d7-4069-9655-a7bd3a324cb0
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: ScaleViewportExtEx, ScaleViewportExtEx function [Windows GDI], _win32_ScaleViewportExtEx, gdi.scaleviewportextex, wingdi/ScaleViewportExtEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

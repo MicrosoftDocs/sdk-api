@@ -7,7 +7,7 @@ old-location: etw\eventwriteex.htm
 old-project: ETW
 ms.assetid: 00b907cb-45cd-48c7-bea4-4d8a39b4fa24
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EventWriteEx, EventWriteEx function [ETW], etw.eventwriteex, evntprov/EventWriteEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

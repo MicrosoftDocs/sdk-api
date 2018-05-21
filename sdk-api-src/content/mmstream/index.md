@@ -2,7 +2,7 @@
 UID: NA:mmstream
 ms.assetid: ef67fdfa-597a-3ddd-bc70-7dc48571bbfc
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\capstatus.htm
 old-project: Multimedia
 ms.assetid: 65ad6e33-c601-4026-a5a4-2c68576d7ab7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPCAPSTATUS, *PCAPSTATUS, CAPSTATUS, CAPSTATUS structure [Windows Multimedia], _win32_CAPSTATUS_str, multimedia.capstatus, tagCapStatus, vfw/CAPSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,10 @@
+{
+  "tech": "oe",
+  "headers": [
+    "mimeole.h",
+    "imnact.h",
+    "msoeapi.h",
+    "imnxport.h",
+    "oerules.h"
+  ]
+}

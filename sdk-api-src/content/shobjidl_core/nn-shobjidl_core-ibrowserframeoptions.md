@@ -7,7 +7,7 @@ old-location: shell\IBrowserFrameOptions.htm
 old-project: shell
 ms.assetid: ef5773fb-8b89-4034-9059-06b107dbd76d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IBrowserFrameOptions, IBrowserFrameOptions interface [Windows Shell], IBrowserFrameOptions interface [Windows Shell],described, _shell_IBrowserFrameOptions, shell.IBrowserFrameOptions, shobjidl_core/IBrowserFrameOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_name:
 -	IBrowserFrameOptions
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
+req.lib: Twinapi.lib
+req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IBrowserFrameOptions interface

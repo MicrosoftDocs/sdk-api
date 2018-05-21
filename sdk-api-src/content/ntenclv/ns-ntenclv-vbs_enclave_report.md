@@ -7,7 +7,7 @@ old-location: base\vbs_enclave_report.htm
 old-project: Memory
 ms.assetid: 90D6E8D2-191B-41D2-8C75-28A26462644B
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: VBS_ENCLAVE_REPORT, VBS_ENCLAVE_REPORT structure, base.vbs_enclave_report, ntenclv/VBS_ENCLAVE_REPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\createfilemoniker.htm
 old-project: com
 ms.assetid: d9677fa0-cda0-4b63-a21f-1fd0e27c8f3f
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CreateFileMoniker, CreateFileMoniker function [COM], _com_CreateFileMoniker, com.createfilemoniker, objbase/CreateFileMoniker
 ms.prod: windows-hardware
 ms.technology: windows-devices

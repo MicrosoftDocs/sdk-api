@@ -7,7 +7,7 @@ old-location: eaphost\eaphostpeerauthparams.htm
 old-project: EAPHost
 ms.assetid: adbb08d7-36a0-4e10-b0bc-2fb7030c2fcc
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapHostNapInfo, EapHostPeerAuthParams, EapHostPeerAuthParams enumeration [EAPHost], EapHostPeerAuthStatus, EapHostPeerIdentity, EapHostPeerIdentityExtendedInfo, eaphost.eaphostpeerauthparams, eaphostpeertypes/EapHostNapInfo, eaphostpeertypes/EapHostPeerAuthParams, eaphostpeertypes/EapHostPeerAuthStatus, eaphostpeertypes/EapHostPeerIdentity, eaphostpeertypes/EapHostPeerIdentityExtendedInfo, tagEapHostPeerAuthParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: kernel\compartment_id.htm
 old-project: kernel
 ms.assetid: 751abf09-1e65-49df-b439-5a2c48fc7a2e
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCOMPARTMENT_ID, COMPARTMENT_ID, COMPARTMENT_ID enumeration [Kernel-Mode Driver Architecture], DEFAULT_COMPARTMENT_ID, PCOMPARTMENT_ID, PCOMPARTMENT_ID enumeration pointer [Kernel-Mode Driver Architecture], UNSPECIFIED_COMPARTMENT_ID, kernel.compartment_id, ntdef/COMPARTMENT_ID, ntdef/DEFAULT_COMPARTMENT_ID, ntdef/PCOMPARTMENT_ID, ntdef/UNSPECIFIED_COMPARTMENT_ID, sysenum_7c4df3d5-f14a-4650-be6d-82b8bcc421ee.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # COMPARTMENT_ID enumeration

@@ -7,7 +7,7 @@ old-location: dshow\avimetaindex.htm
 old-project: DirectShow
 ms.assetid: d27b2b14-55a1-4992-ad85-75244369accc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AVIMETAINDEX, AVIMETAINDEX structure [DirectShow], AVI_INDEX_IS_DATA, AVI_INDEX_OF_CHUNKS, AVI_INDEX_OF_INDEXES, _avimetaindex, aviriff/AVIMETAINDEX, dshow.avimetaindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

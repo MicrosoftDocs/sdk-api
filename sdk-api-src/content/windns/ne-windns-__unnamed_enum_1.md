@@ -7,7 +7,7 @@ old-location: dns\dns_free_type.htm
 old-project: DNS
 ms.assetid: 976982a1-08f1-4c67-b823-1eea34f0c643
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: DNS_FREE_TYPE, DNS_FREE_TYPE enumeration [DNS], DnsFreeFlat, DnsFreeParsedMessageFields, DnsFreeRecordList, dns.dns_free_type, windns/DNS_FREE_TYPE, windns/DnsFreeFlat, windns/DnsFreeParsedMessageFields, windns/DnsFreeRecordList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\npaddconnection3.htm
 old-project: SecAuthN
 ms.assetid: b0d730f7-595e-4ea7-8688-db479dcc40b4
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CONNECT_DEFERRED, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMPORARY, NPAddConnection3, NPAddConnection3 function [Security], _mnp_npaddconnection3, dwType, lpLocalName, lpRemoteName, npapi/NPAddConnection3, security.npaddconnection3
 ms.prod: windows-hardware
 ms.technology: windows-devices

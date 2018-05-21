@@ -7,7 +7,7 @@ old-location: tapi3\ienumdirectoryobject_next.htm
 old-project: Tapi
 ms.assetid: 034a704a-f5c7-46bf-a8fa-9bb6298dd4d2
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: IEnumDirectoryObject interface [TAPI 2.2],Next method, IEnumDirectoryObject.Next, IEnumDirectoryObject::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumDirectoryObject interface, _tapi3_ienumdirectoryobject_next, rend/IEnumDirectoryObject::Next, tapi3.ienumdirectoryobject_next
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\ws_security_context_message_security_binding_template.htm
 old-project: wsw
 ms.assetid: 87944c01-7a8c-4029-a6ea-605b8bb84e3e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE, WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], _WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE, webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TEMPLATE, wsw.ws_security_context_message_security_binding_template
 ms.prod: windows-hardware
 ms.technology: windows-devices

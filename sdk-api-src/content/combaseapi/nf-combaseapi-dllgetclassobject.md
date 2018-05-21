@@ -7,8 +7,8 @@ old-location: com\dllgetclassobject.htm
 old-project: com
 ms.assetid: 42c08149-c251-47f7-a81f-383975d7081c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
-ms.keywords: DllGetClassObject, DllGetClassObject entry point [COM], LPFNGETCLASSOBJECT, _com_DllGetClassObject, com.dllgetclassobject, combaseapi/DllGetClassObject
+ms.date: 5/16/2018
+ms.keywords: DllGetClassObject, DllGetClassObject function [COM], _com_DllGetClassObject, com.dllgetclassobject, combaseapi/DllGetClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,7 +31,7 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	HeaderDef
 api_location:
 -	combaseapi.h
 api_name:
@@ -59,17 +59,17 @@ OLE does not provide this function. DLLs that support the OLE Component Object M
 
 
 
-#### - rclsid [in]
+### -param rclsid [in]
 
 The CLSID that will associate the correct data and code.
 
 
-#### - riid [in]
+### -param riid [in]
 
 A reference to the identifier of the interface that the caller is to use to communicate with the class object. Usually, this is IID_IClassFactory (defined in the OLE headers as the interface identifier for <a href="https://msdn.microsoft.com/f624f833-2b69-43bc-92cd-c4ecbe6051c5">IClassFactory</a>).
 
 
-#### - ppv [out]
+### -param ppv [out]
 
 The address of a pointer variable that receives the interface pointer requested in riid. Upon successful return, *<i>ppv</i> contains the requested interface pointer. If an error occurs, the interface pointer is <b>NULL</b>.
 

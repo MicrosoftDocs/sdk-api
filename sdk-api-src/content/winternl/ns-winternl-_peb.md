@@ -7,7 +7,7 @@ old-location: base\peb.htm
 old-project: ProcThread
 ms.assetid: 836a6b82-d3e8-4de6-808d-5476dfb51356
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: "*PPEB, PEB, PEB structure, PPEB, PPEB structure pointer, _PEB, base.peb, winternl/PEB, winternl/PPEB"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetmode.htm
 old-project: Multimedia
 ms.assetid: d5b5d200-459c-4437-9685-1c95e8acc52f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MCIWndGetMode, MCIWndGetMode macro [Windows Multimedia], _win32_MCIWndGetMode, multimedia.mciwndgetmode, vfw/MCIWndGetMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

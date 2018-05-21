@@ -7,7 +7,7 @@ old-location: base\rtwqlockplatform.htm
 old-project: ProcThread
 ms.assetid: 25baa2ad-95b8-4ac0-a838-e95c6141e13b
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: RtwqLockPlatform, RtwqLockPlatform function, base.rtwqlockplatform, rtworkq/RtwqLockPlatform
 ms.prod: windows-hardware
 ms.technology: windows-devices

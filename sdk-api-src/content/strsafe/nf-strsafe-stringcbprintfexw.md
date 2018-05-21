@@ -7,7 +7,7 @@ old-location: menurc\stringcbprintfex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbprintfex.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbPrintfEx, StringCbPrintfEx function [Menus and Other Resources], StringCbPrintfExA, StringCbPrintfExW, _shell_StringCbPrintfEx, _shell_stringcbprintfex_cpp, menurc.stringcbprintfex, strsafe/StringCbPrintfEx, strsafe/StringCbPrintfExA, strsafe/StringCbPrintfExW, winui._shell_stringcbprintfex
 ms.prod: windows-hardware
 ms.technology: windows-devices

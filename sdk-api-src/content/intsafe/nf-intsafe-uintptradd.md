@@ -7,7 +7,7 @@ old-location: shell\UIntPtrAdd.htm
 old-project: shell
 ms.assetid: 85658194-cb13-443f-8e6b-84034f7cd46b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: UIntPtrAdd, UIntPtrAdd function [Windows Shell], _shell_UIntPtrAdd, intsafe/UIntPtrAdd, shell.UIntPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

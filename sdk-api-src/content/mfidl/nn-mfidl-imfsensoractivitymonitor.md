@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivitymonitor.htm
 old-project: medfound
 ms.assetid: 1D0F8C4E-CB64-4787-A25F-8D826356226C
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFSensorActivityMonitor, IMFSensorActivityMonitor interface [Media Foundation], IMFSensorActivityMonitor interface [Media Foundation],described, mf.imfsensoractivitymonitor, mfidl/IMFSensorActivityMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

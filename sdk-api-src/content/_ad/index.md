@@ -2,11 +2,12 @@
 UID: TP:ad
 ms.assetid: 97ddb8b6-a879-31af-8608-1d0a010a7697
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Active Directory Domain Services

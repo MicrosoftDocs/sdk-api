@@ -7,7 +7,7 @@ old-location: dshow\imediafilter_stop.htm
 old-project: DirectShow
 ms.assetid: 8c415b5c-1aee-4ea4-b182-fd95da4898aa
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IMediaFilter interface [DirectShow],Stop method, IMediaFilter.Stop, IMediaFilter::Stop, IMediaFilterStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IMediaFilter interface, dshow.imediafilter_stop, strmif/IMediaFilter::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

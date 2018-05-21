@@ -2,11 +2,12 @@
 UID: TP:xaml_diagnostics
 ms.assetid: 9fd3de2c-6dbc-307e-b52e-afb4af9c54d0
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # XAML Diagnostics

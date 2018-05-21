@@ -7,7 +7,7 @@ old-location: display\videomemoryinfo.htm
 old-project: display
 ms.assetid: c5df8f26-3eb1-4743-96d1-7b73d902be8d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*LPVIDEOMEMORYINFO, LPVIDEOMEMORYINFO, LPVIDEOMEMORYINFO structure pointer [Display Devices], VIDEOMEMORYINFO, VIDEOMEMORYINFO structure [Display Devices], _VIDEOMEMORYINFO, ddrawint/LPVIDEOMEMORYINFO, ddrawint/VIDEOMEMORYINFO, ddstrcts_7fe9cc27-40d0-41f7-b225-51cc97bc8fa0.xml, display.videomemoryinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

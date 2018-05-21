@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_setstring.htm
 old-project: wmi_v2
 ms.assetid: 40621d0b-3ff2-4960-8cb0-e95bad0d08db
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_DestinationOptions_SetString, MI_DestinationOptions_SetString function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetString, wmi_v2.mi_destinationoptions_setstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

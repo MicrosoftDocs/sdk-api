@@ -7,7 +7,7 @@ old-location: bluetooth\bluetooth_passkey_info.htm
 old-project: Bluetooth
 ms.assetid: 18f4c26a-7d71-4af0-a8df-a7722028ff62
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: "*PBLUETOOTH_PASSKEY_INFO, BLUETOOTH_PASSKEY_INFO, BLUETOOTH_PASSKEY_INFO structure [Bluetooth], PBLUETOOTH_PASSKEY_INFO, PBLUETOOTH_PASSKEY_INFO structure pointer [Bluetooth], _BLUETOOTH_PASSKEY_INFO, bluetooth.bluetooth_passkey_info, bluetoothapis/BLUETOOTH_PASSKEY_INFO, bluetoothapis/PBLUETOOTH_PASSKEY_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,12 +2,12 @@
 UID: NA:certenroll
 ms.assetid: 2c29fb54-8abc-346a-b0f7-836fe2c5489a
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
-tech.root: mdmsettingsprov
+tech.root: security
 ---
 
 # Certenroll.h header
@@ -16,6 +16,6 @@ tech.root: mdmsettingsprov
 ## -description
 
 
-This header is used by mdmsettingsprov. For more information, see:
+This header is used by security. For more information, see:
 
-- [Mobile Device Management Settings Provider](../_mdmsettingsprov/index.md)
+- [Authentication](../_security/index.md)

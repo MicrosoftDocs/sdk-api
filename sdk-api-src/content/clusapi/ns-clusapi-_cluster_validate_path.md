@@ -7,7 +7,7 @@ old-location: mscs\cluster_validate_path.htm
 old-project: MsCS
 ms.assetid: 81c214e0-8ca8-41a7-bacc-041ab4d6d3b3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: "*PCLUSTER_VALIDATE_PATH, CLUSTER_VALIDATE_PATH, CLUSTER_VALIDATE_PATH structure [Failover Cluster], PCLUSTER_VALIDATE_PATH, PCLUSTER_VALIDATE_PATH structure pointer [Failover Cluster], _CLUSTER_VALIDATE_PATH, clusapi/CLUSTER_VALIDATE_PATH, clusapi/PCLUSTER_VALIDATE_PATH, mscs.cluster_validate_path"
 ms.prod: windows-hardware
 ms.technology: windows-devices

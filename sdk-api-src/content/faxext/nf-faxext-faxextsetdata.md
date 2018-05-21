@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxextsetdata.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_7ba9.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: DEV_ID_SRC_FAX, DEV_ID_SRC_TAPI, FaxExtSetData, FaxExtSetData function [Fax Service], _mfax_faxextsetdata, fax._mfax_faxextsetdata, faxext/FaxExtSetData
 ms.prod: windows-hardware
 ms.technology: windows-devices

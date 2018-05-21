@@ -7,7 +7,7 @@ old-location: rras\rasgetentrydialparams.htm
 old-project: RRAS
 ms.assetid: c6752f95-c7e8-44d9-9dbd-9f03cc4778fa
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RasGetEntryDialParams, RasGetEntryDialParams function [RAS], RasGetEntryDialParamsA, RasGetEntryDialParamsW, _ras_rasgetentrydialparams, ras/RasGetEntryDialParams, ras/RasGetEntryDialParamsA, ras/RasGetEntryDialParamsW, rras.rasgetentrydialparams
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\ws_ip_version.htm
 old-project: wsw
 ms.assetid: 40e6d76a-4ac5-4759-ae82-6bbb482adae2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_IP_VERSION, WS_IP_VERSION enumeration [Web Services for Windows], WS_IP_VERSION_4, WS_IP_VERSION_6, webservices/WS_IP_VERSION, webservices/WS_IP_VERSION_4, webservices/WS_IP_VERSION_6, wsw.ws_ip_version
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\rtlunwind.htm
 old-project: Debug
 ms.assetid: 254b2547-9d3d-468f-a360-20a12e9dd82e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: RtlUnwind, RtlUnwind function, base.rtlunwind, winnt/RtlUnwind
 ms.prod: windows-hardware
 ms.technology: windows-devices

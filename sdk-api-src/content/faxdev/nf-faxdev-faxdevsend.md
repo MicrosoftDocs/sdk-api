@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdevsend.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_7rz8.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxDevSend, FaxDevSend function [Fax Service], _mfax_faxdevsend, fax._mfax_faxdevsend, faxdev/FaxDevSend
 ms.prod: windows-hardware
 ms.technology: windows-devices

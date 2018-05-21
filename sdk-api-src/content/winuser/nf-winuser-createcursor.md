@@ -7,7 +7,7 @@ old-location: menurc\createcursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\createcursor.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: CreateCursor, CreateCursor function [Menus and Other Resources], _win32_CreateCursor, _win32_createcursor_cpp, menurc.createcursor, winui._win32_createcursor, winuser/CreateCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -126,7 +126,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-The <i>nWidth</i> and <i>nHeight</i> parameters must specify a width and height that are supported by the current display driver, because the system cannot create cursors of other sizes. To determine the width and height supported by the display driver, use the <a href="base.getsystemmetrics">GetSystemMetrics</a> function, specifying the <b>SM_CXCURSOR</b> or <b>SM_CYCURSOR</b> value. 
+The <i>nWidth</i> and <i>nHeight</i> parameters must specify a width and height that are supported by the current display driver, because the system cannot create cursors of other sizes. To determine the width and height supported by the display driver, use the <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> function, specifying the <b>SM_CXCURSOR</b> or <b>SM_CYCURSOR</b> value. 
 
 Before closing, an application must call the <a href="https://msdn.microsoft.com/fee6d837-9fc7-4ea6-b5d7-3889a64ccdea">DestroyCursor</a> function to free any system resources associated with the cursor. 
 
@@ -167,7 +167,7 @@ For an example, see <a href="using_cursors.htm">Creating a Cursor</a>.
 
 
 
-<a href="base.getsystemmetrics">GetSystemMetrics</a>
+<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
 
 
 

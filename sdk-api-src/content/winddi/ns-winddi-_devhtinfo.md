@@ -7,7 +7,7 @@ old-location: display\devhtinfo.htm
 old-project: display
 ms.assetid: 81abebbf-97f2-422f-b0ab-f6f920e09fef
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDEVHTINFO, DEVHTINFO, DEVHTINFO structure [Display Devices], PDEVHTINFO, PDEVHTINFO structure pointer [Display Devices], _DEVHTINFO, display.devhtinfo, grstrcts_9ec57bb2-b77e-419b-8d26-03db8485cf35.xml, winddi/DEVHTINFO, winddi/PDEVHTINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

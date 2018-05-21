@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeAccessible.htm
 old-project: shell
 ms.assetid: b14dfe40-e21a-4208-835f-e0febef60783
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: INameSpaceTreeAccessible, INameSpaceTreeAccessible interface [Windows Shell], INameSpaceTreeAccessible interface [Windows Shell],described, _shell_INameSpaceTreeAccessible, shell.INameSpaceTreeAccessible, shobjidl/INameSpaceTreeAccessible
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:windows.media.streaming
 ms.assetid: 9b4f8128-bd7f-360f-973e-176b548774c2
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

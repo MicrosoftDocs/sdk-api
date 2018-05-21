@@ -7,7 +7,7 @@ old-location: security\cryptgetdefaultoiddlllist.htm
 old-project: SecCrypto
 ms.assetid: 9d4643c8-a582-4c19-bd77-33b94e953818
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CryptGetDefaultOIDDllList, CryptGetDefaultOIDDllList function [Security], _crypto2_cryptgetdefaultoiddlllist, security.cryptgetdefaultoiddlllist, wincrypt/CryptGetDefaultOIDDllList
 ms.prod: windows-hardware
 ms.technology: windows-devices

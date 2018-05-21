@@ -2,7 +2,7 @@
 UID: NA:thumbcache
 ms.assetid: 8ab62ddf-7c37-31b1-b54d-3b6b8bbf5a87
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icspalgorithm_incrementlength_property.htm
 old-project: SecCertEnroll
 ms.assetid: 296ad5b4-d0c1-4fd8-ab55-6ee15b5599b7
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ICspAlgorithm interface [Security],IncrementLength property, ICspAlgorithm.IncrementLength, ICspAlgorithm.get_IncrementLength, ICspAlgorithm::IncrementLength, ICspAlgorithm::get_IncrementLength, IncrementLength property [Security], IncrementLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::IncrementLength, certenroll/ICspAlgorithm::get_IncrementLength, get_IncrementLength, security.icspalgorithm_incrementlength_property
 ms.prod: windows-hardware
 ms.technology: windows-devices

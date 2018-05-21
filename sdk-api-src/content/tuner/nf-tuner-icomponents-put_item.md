@@ -7,7 +7,7 @@ old-location: mstv\icomponents_put_item.htm
 old-project: mstv
 ms.assetid: c1e18e97-e8d3-441c-b7ea-6743e478033b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],put_Item method, IComponents.put_Item, IComponents::put_Item, IComponentsput_Item, mstv.icomponents_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],IComponents interface, tuner/IComponents::put_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

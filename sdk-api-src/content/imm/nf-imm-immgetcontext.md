@@ -7,7 +7,7 @@ old-location: intl\immgetcontext.htm
 old-project: Intl
 ms.assetid: 2b7502ac-fa1e-4104-a7ad-051303131a73
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ImmGetContext, ImmGetContext function [Internationalization for Windows Applications], _win32_ImmGetContext, imm/ImmGetContext, intl.immgetcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

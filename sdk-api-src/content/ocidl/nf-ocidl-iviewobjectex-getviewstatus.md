@@ -7,7 +7,7 @@ old-location: com\iviewobjectex_getviewstatus.htm
 old-project: com
 ms.assetid: cf8ec90c-07bb-4f60-93c9-4cee3fb5a056
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: GetViewStatus, GetViewStatus method [COM], GetViewStatus method [COM],IViewObjectEx interface, IViewObjectEx interface [COM],GetViewStatus method, IViewObjectEx.GetViewStatus, IViewObjectEx::GetViewStatus, _ole_iviewobjectex_getviewstatus, com.iviewobjectex_getviewstatus, ocidl/IViewObjectEx::GetViewStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

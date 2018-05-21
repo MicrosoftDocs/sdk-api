@@ -7,7 +7,7 @@ old-location: ics\inetfwprofile.htm
 old-project: ICS
 ms.assetid: 694bbff5-003d-4dde-9a85-f81ca29e6208
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetFwProfile, INetFwProfile interface [ICS/ICF], INetFwProfile interface [ICS/ICF],described, ics.inetfwprofile, netfw/INetFwProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

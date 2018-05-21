@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_GetLeft_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getleft.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetLeft, GetLeft method [GDI+], GetLeft method [GDI+],Rect class, Rect class [GDI+],GetLeft method, Rect.GetLeft, Rect::GetLeft, _gdiplus_CLASS_Rect_GetLeft_, gdiplus._gdiplus_CLASS_Rect_GetLeft_
 ms.prod: windows-hardware
 ms.technology: windows-devices

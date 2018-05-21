@@ -7,7 +7,7 @@ old-location: winrt\irometadatalocator_struct.htm
 old-project: WinRT
 ms.assetid: A1004454-1C9F-46AF-8C88-BB8204FA0410
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: IRoMetaDataLocator, IRoMetaDataLocator structure [Windows Runtime], PIRoMetaDataLocator, PIRoMetaDataLocator structure pointer [Windows Runtime], roparameterizediid/IRoMetaDataLocator, roparameterizediid/PIRoMetaDataLocator, winrt.irometadatalocator_struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,6 +58,27 @@ Implement <b>IRoMetaDataLocator</b> when you're implementing programming languag
 
 
 ## -struct-fields
+
+
+
+
+
+
+#### - Locate
+
+Gets a metadata builder for the specified type.
+
+
+
+#### nameElement
+
+A Windows Runtime type or parameterized type to resolve.
+
+
+
+#### metaDataDestination
+
+A data sink for Windows Runtime metadata. The caller should invoke the appropriate set method to provide the metadata for the type named by <i>nameElement</i>.
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: rpc\ndrclearoutparameters.htm
 old-project: Rpc
 ms.assetid: f0ae23d5-3ec0-4e41-8c2c-5b6eb9bbb1b8
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: NdrClearOutParameters, NdrClearOutParameters
 , NdrClearOutParameters function [RPC], rpc.ndrclearoutparameters, rpcndr/NdrClearOutParameters
 ms.prod: windows-hardware

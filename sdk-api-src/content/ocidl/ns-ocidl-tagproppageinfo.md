@@ -7,7 +7,7 @@ old-location: com\proppageinfo.htm
 old-project: com
 ms.assetid: 363fd45f-fb36-41f0-9d72-dc9c018859ec
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPPROPPAGEINFO, LPPROPPAGEINFO, LPPROPPAGEINFO structure pointer [COM], PROPPAGEINFO, PROPPAGEINFO structure [COM], _ctrl_PROPPAGEINFO, com.proppageinfo, ocidl/LPPROPPAGEINFO, ocidl/PROPPAGEINFO, tagPROPPAGEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

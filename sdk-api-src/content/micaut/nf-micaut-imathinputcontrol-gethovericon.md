@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_gethovericon.htm
 old-project: tablet
 ms.assetid: 281695e6-295b-42d8-a184-c5a005de10e3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetHoverIcon, GetHoverIcon method [Tablet PC], GetHoverIcon method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetHoverIcon method, IMathInputControl.GetHoverIcon, IMathInputControl::GetHoverIcon, micaut/IMathInputControl::GetHoverIcon, tablet.imathinputcontrol_gethovericon
 ms.prod: windows-hardware
 ms.technology: windows-devices

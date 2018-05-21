@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_getpartitionid.htm
 old-project: cossdk
 ms.assetid: 12fa83e1-b2d2-48c3-a002-ac2f8043b54a
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: GetPartitionID, GetPartitionID method [COM+], GetPartitionID method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetPartitionID method, ICOMAdminCatalog2.GetPartitionID, ICOMAdminCatalog2::GetPartitionID, _cos_icomadmincatalog2_GetPartitionID, comadmin/ICOMAdminCatalog2::GetPartitionID, cos.icomadmincatalog2_getpartitionid
 ms.prod: windows-hardware
 ms.technology: windows-devices

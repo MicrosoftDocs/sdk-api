@@ -7,7 +7,7 @@ old-location: com\ioleundounit.htm
 old-project: com
 ms.assetid: 0822c894-b96c-4b69-94d2-b052dff81f6e
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IOleUndoUnit, IOleUndoUnit interface [COM], IOleUndoUnit interface [COM],described, _ole_ioleundounit, com.ioleundounit, ocidl/IOleUndoUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices

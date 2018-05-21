@@ -7,7 +7,7 @@ old-location: dshow\iamchannelinfo_get_channelname.htm
 old-project: DirectShow
 ms.assetid: 6cf4f8aa-d6aa-46bd-83b1-fba762fbb8bb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMChannelInfo interface [DirectShow],get_ChannelName method, IAMChannelInfo.get_ChannelName, IAMChannelInfo::get_ChannelName, IAMChannelInfoget_ChannelName, dshow.iamchannelinfo_get_channelname, get_ChannelName, get_ChannelName method [DirectShow], get_ChannelName method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ChannelName
 ms.prod: windows-hardware
 ms.technology: windows-devices

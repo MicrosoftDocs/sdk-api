@@ -7,7 +7,7 @@ old-location: ncd\iwsdsslclientcertificate_getclientcertificate.htm
 old-project: WsdApi
 ms.assetid: 82f3f4ae-80fe-4382-9a22-00c70e99524f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetClientCertificate, GetClientCertificate method, GetClientCertificate method,IWSDSSLClientCertificate interface, IWSDSSLClientCertificate interface,GetClientCertificate method, IWSDSSLClientCertificate.GetClientCertificate, IWSDSSLClientCertificate::GetClientCertificate, ncd.iwsdsslclientcertificate_getclientcertificate, wsdbase/IWSDSSLClientCertificate::GetClientCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

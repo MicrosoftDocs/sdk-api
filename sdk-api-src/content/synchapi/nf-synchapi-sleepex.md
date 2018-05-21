@@ -7,7 +7,7 @@ old-location: base\sleepex.htm
 old-project: ProcThread
 ms.assetid: a73cff94-ad63-4110-9f01-6469481c3d55
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: SleepEx, SleepEx function, _win32_sleepex, base.sleepex, synchapi/SleepEx, winbase/SleepEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

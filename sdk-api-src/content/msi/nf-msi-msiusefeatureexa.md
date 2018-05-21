@@ -7,7 +7,7 @@ old-location: setup\msiusefeatureex.htm
 old-project: Msi
 ms.assetid: fa05124c-e1ed-4059-9af3-2a914785799d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: INSTALLMODE_NODETECTION, MsiUseFeatureEx, MsiUseFeatureEx function, MsiUseFeatureExA, MsiUseFeatureExW, _msi_msiusefeatureex, msi/MsiUseFeatureEx, msi/MsiUseFeatureExA, msi/MsiUseFeatureExW, setup.msiusefeatureex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\resutilresourcesequal.htm
 old-project: MsCS
 ms.assetid: a34bbe15-f13f-4034-b2f1-fea3e58c579e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PRESUTIL_RESOURCES_EQUAL, PRESUTIL_RESOURCES_EQUAL callback, PRESUTIL_RESOURCES_EQUAL callback function [Failover Cluster], _wolf_resutilresourcesequal, mscs.resutilresourcesequal, resapi/PRESUTIL_RESOURCES_EQUAL
 ms.prod: windows-hardware
 ms.technology: windows-devices

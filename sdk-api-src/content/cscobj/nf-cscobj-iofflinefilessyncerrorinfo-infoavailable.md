@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncerrorinfo_infoavailable.htm
 old-project: OfflineFiles
 ms.assetid: f4a491fb-445b-4a90-9131-e0e5964154fa
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesSyncErrorInfo interface [Offline Files],InfoAvailable method, IOfflineFilesSyncErrorInfo.InfoAvailable, IOfflineFilesSyncErrorInfo::InfoAvailable, InfoAvailable, InfoAvailable method [Offline Files], InfoAvailable method [Offline Files],IOfflineFilesSyncErrorInfo interface, cscobj/IOfflineFilesSyncErrorInfo::InfoAvailable, of.iofflinefilessyncerrorinfo_infoavailable
 ms.prod: windows-hardware
 ms.technology: windows-devices

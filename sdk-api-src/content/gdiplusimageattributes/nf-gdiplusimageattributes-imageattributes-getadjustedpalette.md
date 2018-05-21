@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_GetAdjustedPalette_colorPal
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\getadjustedpalette.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetAdjustedPalette, GetAdjustedPalette method [GDI+], GetAdjustedPalette method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],GetAdjustedPalette method, ImageAttributes.GetAdjustedPalette, ImageAttributes::GetAdjustedPalette, _gdiplus_CLASS_ImageAttributes_GetAdjustedPalette_colorPalette_colorAdjustType_, gdiplus._gdiplus_CLASS_ImageAttributes_GetAdjustedPalette_colorPalette_colorAdjustType_
 ms.prod: windows-hardware
 ms.technology: windows-devices

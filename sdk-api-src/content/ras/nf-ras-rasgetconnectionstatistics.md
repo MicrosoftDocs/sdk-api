@@ -7,7 +7,7 @@ old-location: rras\rasgetconnectionstatistics.htm
 old-project: RRAS
 ms.assetid: 2db03535-c2bd-4e04-a86f-e68fe5c1f805
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RasGetConnectionStatistics, RasGetConnectionStatistics function [RAS], _ras_rasgetconnectionstatistics, ras/RasGetConnectionStatistics, rras.rasgetconnectionstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\getlongpathnametransacted.htm
 old-project: FileIO
 ms.assetid: 8523cde9-f0dd-4832-8d9d-9e68bac89344
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: GetLongPathNameTransacted, GetLongPathNameTransacted function [Files], GetLongPathNameTransactedA, GetLongPathNameTransactedW, fs.getlongpathnametransacted, winbase/GetLongPathNameTransacted, winbase/GetLongPathNameTransactedA, winbase/GetLongPathNameTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_names.htm
 old-project: SecAuthN
 ms.assetid: 9df0bf7c-ad5f-4cb8-8934-76062789735f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSecPkgContext_NamesW, SecPkgContext_Names, SecPkgContext_Names structure [Security], SecPkgContext_NamesA, SecPkgContext_NamesW, _SecPkgContext_NamesW, _ssp_secpkgcontext_names, pSecPkgContext_Names, pSecPkgContext_Names structure pointer [Security], security.secpkgcontext_names, sspi/SecPkgContext_Names, sspi/SecPkgContext_NamesA, sspi/SecPkgContext_NamesW, sspi/pSecPkgContext_Names"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_NamesW structure

@@ -7,7 +7,7 @@ old-location: bits\ienumbackgroundcopygroups_reset.htm
 old-project: Bits
 ms.assetid: 16bcfd69-9fb2-4214-8a7d-4188c6516ebb
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: IEnumBackgroundCopyGroups interface [BITS],Reset method, IEnumBackgroundCopyGroups.Reset, IEnumBackgroundCopyGroups::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBackgroundCopyGroups interface, bits.ienumbackgroundcopygroups_reset, qmgr/IEnumBackgroundCopyGroups::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

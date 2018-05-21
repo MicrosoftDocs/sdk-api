@@ -7,7 +7,7 @@ old-location: rpc\mesinqprocencodingid.htm
 old-project: Rpc
 ms.assetid: b6d73cc3-cd35-4fe7-87e6-ecbfef777c44
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: MesInqProcEncodingId, MesInqProcEncodingId function [RPC], _rpc_mesinqprocencodingid, midles/MesInqProcEncodingId, rpc.mesinqprocencodingid
 ms.prod: windows-hardware
 ms.technology: windows-devices

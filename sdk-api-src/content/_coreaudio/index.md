@@ -2,7 +2,7 @@
 UID: TP:coreaudio
 ms.assetid: 42959537-bb25-3eb8-8a95-3f33f2da8462
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

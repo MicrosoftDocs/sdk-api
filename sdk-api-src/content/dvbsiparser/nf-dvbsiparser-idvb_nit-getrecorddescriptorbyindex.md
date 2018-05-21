@@ -7,7 +7,7 @@ old-location: mstv\idvb_nit_getrecorddescriptorbyindex.htm
 old-project: mstv
 ms.assetid: b81651b1-2b70-4012-b219-57d495724033
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IDVB_NIT.GetRecordDescriptorByIndex, IDVB_NIT::GetRecordDescriptorByIndex, IDVB_NITGetRecordDescriptorByIndex, dvbsiparser/IDVB_NIT::GetRecordDescriptorByIndex, mstv.idvb_nit_getrecorddescriptorbyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: iphlp\getudptable.htm
 old-project: IpHlp
 ms.assetid: 00e80e90-1a6d-426d-90cd-20b967ebbb8e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetUdpTable, GetUdpTable function [IP Helper], _iphlp_getudptable, iphlp.getudptable, iphlpapi/GetUdpTable
 ms.prod: windows-hardware
 ms.technology: windows-devices

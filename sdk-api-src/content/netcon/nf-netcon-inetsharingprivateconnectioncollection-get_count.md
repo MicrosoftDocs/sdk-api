@@ -7,7 +7,7 @@ old-location: ics\inetsharingprivateconnectioncollection_get_count.htm
 old-project: ICS
 ms.assetid: 599ffa10-6932-48bd-a736-60512f25271c
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetSharingPrivateConnectionCollection interface [ICS/ICF],get_Count method, INetSharingPrivateConnectionCollection.get_Count, INetSharingPrivateConnectionCollection::get_Count, _ics_inetsharingprivateconnectioncollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingPrivateConnectionCollection interface, ics.inetsharingprivateconnectioncollection_get_count, netcon/INetSharingPrivateConnectionCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

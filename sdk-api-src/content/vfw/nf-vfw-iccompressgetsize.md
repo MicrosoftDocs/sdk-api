@@ -7,7 +7,7 @@ old-location: multimedia\iccompressgetsize.htm
 old-project: Multimedia
 ms.assetid: 6cb85b0b-4a05-44f7-af61-303a94b49847
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ICCompressGetSize, ICCompressGetSize macro [Windows Multimedia], _win32_ICCompressGetSize, multimedia.iccompressgetsize, vfw/ICCompressGetSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothsdpgetstring.htm
 old-project: Bluetooth
 ms.assetid: 26a68fe3-6ffb-44ff-b9db-757d35022a41
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothSdpGetString, BluetoothSdpGetString function [Bluetooth], bluetooth.bluetoothsdpgetstring, bluetoothapis/BluetoothSdpGetString
 ms.prod: windows-hardware
 ms.technology: windows-devices

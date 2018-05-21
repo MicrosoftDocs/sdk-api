@@ -7,7 +7,7 @@ old-location: rpc\rpcsmsetthreadhandle.htm
 old-project: Rpc
 ms.assetid: 90bfd7f3-c95b-450b-8578-6e46d3ac7517
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcSmSetThreadHandle, RpcSmSetThreadHandle function [RPC], _rpc_rpcsmsetthreadhandle, rpc.rpcsmsetthreadhandle, rpcndr/RpcSmSetThreadHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

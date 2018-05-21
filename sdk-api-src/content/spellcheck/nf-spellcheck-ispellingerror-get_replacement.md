@@ -7,7 +7,7 @@ old-location: intl\ispellingerror_replacement.htm
 old-project: Intl
 ms.assetid: df161212-8950-4d05-9f69-15165fea9da9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ISpellingError interface [Internationalization for Windows Applications],Replacement property, ISpellingError.Replacement, ISpellingError.get_Replacement, ISpellingError::Replacement, ISpellingError::get_Replacement, Replacement property [Internationalization for Windows Applications], Replacement property [Internationalization for Windows Applications],ISpellingError interface, get_Replacement, intl.ispellingerror_replacement, spellcheck/ISpellingError::Replacement, spellcheck/ISpellingError::get_Replacement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # ISpellingError::get_Replacement

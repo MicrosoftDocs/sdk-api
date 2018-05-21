@@ -7,7 +7,7 @@ old-location: ad\adspropcheckifwritable.htm
 old-project: AD
 ms.assetid: ec0c3a70-58ad-4d92-85dc-63090b1fce94
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: ADsPropCheckIfWritable, ADsPropCheckIfWritable function [Active Directory], _glines_adspropcheckifwritable, ad.adspropcheckifwritable, adsprop/ADsPropCheckIfWritable
 ms.prod: windows-hardware
 ms.technology: windows-devices

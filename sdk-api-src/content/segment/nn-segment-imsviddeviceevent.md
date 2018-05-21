@@ -7,7 +7,7 @@ old-location: mstv\imsviddeviceevent.htm
 old-project: mstv
 ms.assetid: 1a5a9bc1-7d18-4aa9-bc5f-318f7bedbc48
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidDeviceEvent, IMSVidDeviceEvent interface [Microsoft TV Technologies], IMSVidDeviceEvent interface [Microsoft TV Technologies],described, IMSVidDeviceEventInterface, mstv.imsviddeviceevent, segment/IMSVidDeviceEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

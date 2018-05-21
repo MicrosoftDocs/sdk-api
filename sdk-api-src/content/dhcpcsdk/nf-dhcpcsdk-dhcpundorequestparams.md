@@ -7,7 +7,7 @@ old-location: dhcp\dhcpundorequestparams.htm
 old-project: DHCP
 ms.assetid: a70fc72e-0fbd-4ee7-ae87-780fdc942384
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpUndoRequestParams, DhcpUndoRequestParams function [DHCP], _dhcp_dhcpundorequestparams, dhcp.dhcpundorequestparams, dhcpcsdk/DhcpUndoRequestParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

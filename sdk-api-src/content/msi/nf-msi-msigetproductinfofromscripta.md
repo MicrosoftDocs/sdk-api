@@ -7,7 +7,7 @@ old-location: setup\msigetproductinfofromscript.htm
 old-project: Msi
 ms.assetid: fe0bc709-b410-4a61-bea3-d11fc8f71883
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MsiGetProductInfoFromScript, MsiGetProductInfoFromScript function, MsiGetProductInfoFromScriptA, MsiGetProductInfoFromScriptW, _msi_msigetproductinfofromscript, msi/MsiGetProductInfoFromScript, msi/MsiGetProductInfoFromScriptA, msi/MsiGetProductInfoFromScriptW, setup.msigetproductinfofromscript
 ms.prod: windows-hardware
 ms.technology: windows-devices

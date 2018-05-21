@@ -7,7 +7,7 @@ old-location: tapi2\linesetagentmeasurementperiod.htm
 old-project: Tapi
 ms.assetid: bb84f18f-0052-45f8-8049-8576e1eb6fef
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: "_tapi2_linesetagentmeasurementperiod, lineSetAgentMeasurementPeriod, lineSetAgentMeasurementPeriod function [TAPI 2.2], tapi/lineSetAgentMeasurementPeriod, tapi2.linesetagentmeasurementperiod"
 ms.prod: windows-hardware
 ms.technology: windows-devices

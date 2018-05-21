@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_ip_reservation_info.htm
 old-project: DHCP
 ms.assetid: 4f0110b5-3770-4aae-8df7-d2481eac3417
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_IP_RESERVATION_INFO, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIENT_TYPE_DHCP, DHCP_IP_RESERVATION_INFO, DHCP_IP_RESERVATION_INFO structure [DHCP], LPDHCP_IP_RESERVATION_INFO, LPDHCP_IP_RESERVATION_INFO structure pointer [DHCP], _DHCP_IP_RESERVATION_INFO, dhcp.dhcp_ip_reservation_info, dhcpsapi/DHCP_IP_RESERVATION_INFO, dhcpsapi/LPDHCP_IP_RESERVATION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

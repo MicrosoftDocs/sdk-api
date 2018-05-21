@@ -2,13 +2,13 @@
 UID: NF:intsafe.UIntPtrToULong
 title: UIntPtrToULong function
 author: windows-driver-content
-description: Converts a value of type SIZE_T to a value of type DWORD.
-old-location: shell\SIZETToDWord_1.htm
+description: Converts a value of type UINT_PTR to a value of type ULONG.
+old-location: shell\UIntPtrToULong.htm
 old-project: shell
-ms.assetid: f56eb5fc-e4d4-4e42-bc4d-375046761f4d
+ms.assetid: 29d33dd1-c6fd-445b-a340-0a194735a763
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: SIZETToDWord, SIZETToDWord function [Windows Shell], UIntPtrToULong, _shell_SIZETToDWord, intsafe/SIZETToDWord, shell.SIZETToDWord, shell.SIZETToDWord_1
+ms.date: 5/16/2018
+ms.keywords: SizeTToDWord, SizeTToULong, UIntPtrToDWord, UIntPtrToULong, UIntPtrToULong function [Windows Shell], _shell_UIntPtrToULong, intsafe/UIntPtrToULong, shell.UIntPtrToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	SIZETToDWord
+-	UIntPtrToULong
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>SIZE_T</b> to a value of type <b>DWORD</b>.
+Converts a value of type <b>UINT_PTR</b> to a value of type <b>ULONG</b>.
 
 
 ## -parameters
@@ -58,28 +58,16 @@ Converts a value of type <b>SIZE_T</b> to a value of type <b>DWORD</b>.
 
 
 
-### -param uOperand
+### -param uOperand [in]
 
-TBD
-
-
-### -param pulResult
-
-TBD
-
-
-
-
-#### - cbOperand [in]
-
-Type: <b>SIZE_T</b>
+Type: <b>UINT_PTR</b>
 
 The value to be converted.
 
 
-#### - pdwResult [out]
+### -param pulResult [out]
 
-Type: <b>DWORD*</b>
+Type: <b>ULONG*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
@@ -100,6 +88,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>SizeTToULong</b> is an alias for this function.
+
+<b>SizeTToDWord</b> is an alias for this function.
+
+<b>UIntPtrToDWord</b> is an alias for this function.
 
 
 

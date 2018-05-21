@@ -2,7 +2,7 @@
 UID: TP:shell
 ms.assetid: 2827809d-7ca5-313d-944e-507165c995d8
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -36,7 +36,6 @@ To develop The Windows Shell, you need these headers:
  * [shdeprecated.h](..\shdeprecated\index.md)
  * [shidfact.h](..\shidfact\index.md)
  * [shimgdata.h](..\shimgdata\index.md)
- * [shlobj_core.h](..\shlobj_core\index.md)
  * [shlwapi.h](..\shlwapi\index.md)
  * [shtypes.h](..\shtypes\index.md)
  * [storageprovider.h](..\storageprovider\index.md)
@@ -53,7 +52,6 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | Title   | Description   |
 | ---- |:---- |
 | [AssocCreate function](..\shlwapi\nf-shlwapi-assoccreate.md) | Returns a pointer to an IQueryAssociations object. |
-| [AssocGetDetailsOfPropKey function](..\shlobj_core\nf-shlobj_core-assocgetdetailsofpropkey.md) | Retrieves the value for a given property key using the file association information provided by the Namespace Extensions. |
 | [AssocGetPerceivedType function](..\shlwapi\nf-shlwapi-assocgetperceivedtype.md) | Retrieves a file's perceived type based on its extension. |
 | [AssocIsDangerous function](..\shlwapi\nf-shlwapi-associsdangerous.md) | Determines whether a file type is considered a potential security risk. |
 | [AssocQueryKeyA function](..\shlwapi\nf-shlwapi-assocquerykeya.md) | Searches for and retrieves a key related to a file or protocol association from the registry. |
@@ -64,8 +62,6 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [AssocQueryStringW function](..\shlwapi\nf-shlwapi-assocquerystringw.md) | Searches for and retrieves a file or protocol association-related string from the registry. |
 | [ByteToChar function](..\intsafe\nf-intsafe-bytetochar.md) | Converts a value of type BYTE to a value of type CHAR. |
 | [ByteToInt8 function](..\intsafe\nf-intsafe-bytetoint8.md) | Converts a value of type BYTE to a value of type INT8. |
-| [CDefFolderMenu_Create2 function](..\shlobj_core\nf-shlobj_core-cdeffoldermenu_create2.md) | Creates a context menu for a selected group of file folder objects. |
-| [CIDLData_CreateFromIDArray function](..\shlobj_core\nf-shlobj_core-cidldata_createfromidarray.md) | CIDLData_CreateFromIDArray may be altered or unavailable. |
 | [ChrCmpIA function](..\shlwapi\nf-shlwapi-chrcmpia.md) | Performs a comparison between two characters. The comparison is not case-sensitive. |
 | [ChrCmpIW function](..\shlwapi\nf-shlwapi-chrcmpiw.md) | Performs a comparison between two characters. The comparison is not case-sensitive. |
 | [ColorAdjustLuma function](..\shlwapi\nf-shlwapi-coloradjustluma.md) | Changes the luminance of a RGB value. Hue and saturation are not affected. |
@@ -75,13 +71,6 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [CreateAppContainerProfile function](..\userenv\nf-userenv-createappcontainerprofile.md) | Creates a per-user, per-app profile for Windows Store apps. |
 | [CreateEnvironmentBlock function](..\userenv\nf-userenv-createenvironmentblock.md) | Retrieves the environment variables for the specified user. This block can then be passed to the CreateProcessAsUser function. |
 | [CreateProfile function](..\userenv\nf-userenv-createprofile.md) | Creates a new user profile. |
-| [DAD_AutoScroll function](..\shlobj_core\nf-shlobj_core-dad_autoscroll.md) | Scrolls the window while an image is being dragged. |
-| [DAD_DragEnterEx function](..\shlobj_core\nf-shlobj_core-dad_dragenterex.md) | Locks updates to the specified window during a drag operation and displays the drag image at the specified position within the window. |
-| [DAD_DragEnterEx2 function](..\shlobj_core\nf-shlobj_core-dad_dragenterex2.md) | Locks updates to the specified window during a drag-and-drop operation and displays the drag image at the specified position within the window. |
-| [DAD_DragLeave function](..\shlobj_core\nf-shlobj_core-dad_dragleave.md) | Unlocks the window locked by the DAD_DragEnterEx function. |
-| [DAD_DragMove function](..\shlobj_core\nf-shlobj_core-dad_dragmove.md) | Moves the image that is being dragged during a drag-and-drop operation. |
-| [DAD_SetDragImage function](..\shlobj_core\nf-shlobj_core-dad_setdragimage.md) | Sets the drag image. |
-| [DAD_ShowDragImage function](..\shlobj_core\nf-shlobj_core-dad_showdragimage.md) | Shows or hides the image being dragged. |
 | [DWordPtrAdd function](..\intsafe\nf-intsafe-dwordptradd.md) | Adds two values of type DWORD_PTR. |
 | [DWordPtrMult function](..\intsafe\nf-intsafe-dwordptrmult.md) | Multiplies one value of type DWORD_PTR by another. |
 | [DWordPtrSub function](..\intsafe\nf-intsafe-dwordptrsub.md) | Subtracts one value of type DWORD_PTR from another. |
@@ -93,7 +82,6 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function](..\userenv\nf-userenv-deriverestrictedappcontainersidfromappcontainersidandrestrictedname.md) | DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName is reserved for future use. |
 | [DestroyEnvironmentBlock function](..\userenv\nf-userenv-destroyenvironmentblock.md) | Frees environment variables created by the CreateEnvironmentBlock function. |
 | [DllInstall function](..\shlwapi\nf-shlwapi-dllinstall.md) | Handles installation and setup for a DLL. |
-| [DriveType function](..\shlobj_core\nf-shlobj_core-drivetype.md) | DriveType may be altered or unavailable. |
 | [ExpandEnvironmentStringsForUserA function](..\userenv\nf-userenv-expandenvironmentstringsforusera.md) | Expands the source string by using the environment block established for the specified user. |
 | [ExpandEnvironmentStringsForUserW function](..\userenv\nf-userenv-expandenvironmentstringsforuserw.md) | Expands the source string by using the environment block established for the specified user. |
 | [FreeConfirmConflictItem function](..\syncmgr\nf-syncmgr-freeconfirmconflictitem.md) | Frees the resources that have been allocated for a CONFIRM_CONFLICT_ITEM structure. |
@@ -105,9 +93,6 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [GetAppContainerRegistryLocation function](..\userenv\nf-userenv-getappcontainerregistrylocation.md) | Gets the location of the registry storage associated with an app container. |
 | [GetDefaultUserProfileDirectoryA function](..\userenv\nf-userenv-getdefaultuserprofiledirectorya.md) | Retrieves the path to the root of the default user's profile. |
 | [GetDefaultUserProfileDirectoryW function](..\userenv\nf-userenv-getdefaultuserprofiledirectoryw.md) | Retrieves the path to the root of the default user's profile. |
-| [GetDetailsOf function](..\shlobj_core\nf-shlobj_core-getdetailsof.md) | Retrieves details about an item in a folder. For example, its size, type, or the time of its last modification. |
-| [GetFileNameFromBrowse function](..\shlobj_core\nf-shlobj_core-getfilenamefrombrowse.md) | Creates an Open dialog box so that the user can specify the drive, directory, and name of a file to open. |
-| [GetIconLocation function](..\shlobj_core\nf-shlobj_core-geticonlocation.md) | Gets the location of the icon assigned to the link. |
 | [GetMenuPosFromID function](..\shlwapi\nf-shlwapi-getmenuposfromid.md) | GetMenuPosFromID may be altered or unavailable. |
 | [GetProcessReference function](..\shlwapi\nf-shlwapi-getprocessreference.md) | Retrieves the process-specific object supplied by SetProcessReference, incrementing the reference count to keep the process alive. |
 | [GetProfileType function](..\userenv\nf-userenv-getprofiletype.md) | Retrieves the type of profile loaded for the current user. |
@@ -116,32 +101,6 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [GetUserProfileDirectoryA function](..\userenv\nf-userenv-getuserprofiledirectorya.md) | Retrieves the path to the root directory of the specified user's profile. |
 | [GetUserProfileDirectoryW function](..\userenv\nf-userenv-getuserprofiledirectoryw.md) | Retrieves the path to the root directory of the specified user's profile. |
 | [HashData function](..\shlwapi\nf-shlwapi-hashdata.md) | Hashes an array of data. |
-| [IDListContainerIsConsistent function](..\shlobj_core\nf-shlobj_core-idlistcontainerisconsistent.md) | Verifies that the container structure of an IDList is valid. |
-| [ILAppendID function](..\shlobj_core\nf-shlobj_core-ilappendid.md) | Appends or prepends an SHITEMID structure to an ITEMIDLIST structure. |
-| [ILClone function](..\shlobj_core\nf-shlobj_core-ilclone.md) | Clones an ITEMIDLIST structure. |
-| [ILCloneChild function](..\shlobj_core\nf-shlobj_core-ilclonechild.md) | Clones a child ITEMIDLIST structure. |
-| [ILCloneFirst function](..\shlobj_core\nf-shlobj_core-ilclonefirst.md) | Clones the first SHITEMID structure in an ITEMIDLIST structure. |
-| [ILCloneFull function](..\shlobj_core\nf-shlobj_core-ilclonefull.md) | Clones a full, or absolute, ITEMIDLIST structure. |
-| [ILCombine function](..\shlobj_core\nf-shlobj_core-ilcombine.md) | Combines two ITEMIDLIST structures. |
-| [ILCreateFromPath function](..\shlobj_core\nf-shlobj_core-ilcreatefrompath.md) | Returns the ITEMIDLIST structure associated with a specified file path. |
-| [ILCreateFromPathA function](..\shlobj_core\nf-shlobj_core-ilcreatefrompatha.md) | Returns the ITEMIDLIST structure associated with a specified file path. |
-| [ILCreateFromPathW function](..\shlobj_core\nf-shlobj_core-ilcreatefrompathw.md) | Returns the ITEMIDLIST structure associated with a specified file path. |
-| [ILFindChild function](..\shlobj_core\nf-shlobj_core-ilfindchild.md) | Determines whether a specified ITEMIDLIST structure is the child of another ITEMIDLIST structure. |
-| [ILFindLastID function](..\shlobj_core\nf-shlobj_core-ilfindlastid.md) | Returns a pointer to the last SHITEMID structure in an ITEMIDLIST structure. |
-| [ILFree function](..\shlobj_core\nf-shlobj_core-ilfree.md) | Frees an ITEMIDLIST structure allocated by the Shell. |
-| [ILGetNext function](..\shlobj_core\nf-shlobj_core-ilgetnext.md) | Retrieves the next SHITEMID structure in an ITEMIDLIST structure. |
-| [ILGetSize function](..\shlobj_core\nf-shlobj_core-ilgetsize.md) | Returns the size, in bytes, of an ITEMIDLIST structure. |
-| [ILIsAligned function](..\shlobj_core\nf-shlobj_core-ilisaligned.md) | Verifies whether a constant ITEMIDLIST is aligned on a pointer boundary, which is a DWORD on 32-bit architectures and a QWORD on 64-bit architectures. |
-| [ILIsChild function](..\shlobj_core\nf-shlobj_core-ilischild.md) | Verifies whether a pointer to an item identifier list (PIDL) is a child PIDL, which is a PIDL with exactly one SHITEMID. |
-| [ILIsEmpty function](..\shlobj_core\nf-shlobj_core-ilisempty.md) | Verifies whether an ITEMIDLIST structure is empty. |
-| [ILIsEqual function](..\shlobj_core\nf-shlobj_core-ilisequal.md) | Tests whether two ITEMIDLIST structures are equal in a binary comparison. |
-| [ILIsParent function](..\shlobj_core\nf-shlobj_core-ilisparent.md) | Tests whether an ITEMIDLIST structure is the parent of another ITEMIDLIST structure. |
-| [ILLoadFromStream function](..\shlobj_core\nf-shlobj_core-illoadfromstream.md) | Deprecated. Loads an ITEMIDLIST structure from a stream. |
-| [ILLoadFromStreamEx function](..\shlobj_core\nf-shlobj_core-illoadfromstreamex.md) | This function may be altered or unavailable. |
-| [ILNext function](..\shlobj_core\nf-shlobj_core-ilnext.md) | Retrieves the next SHITEMID structure in an ITEMIDLIST structure. |
-| [ILRemoveLastID function](..\shlobj_core\nf-shlobj_core-ilremovelastid.md) | Removes the last SHITEMID structure from an ITEMIDLIST structure. |
-| [ILSaveToStream function](..\shlobj_core\nf-shlobj_core-ilsavetostream.md) | Saves an ITEMIDLIST structure to a stream. |
-| [ILSkip function](..\shlobj_core\nf-shlobj_core-ilskip.md) | Skips a given number of bytes in a constant, unaligned, relative ITEMIDLIST structure. |
 | [IStream_Copy function](..\shlwapi\nf-shlwapi-istream_copy.md) | Copies a stream to another stream. |
 | [IStream_Read function](..\shlwapi\nf-shlwapi-istream_read.md) | Reads bytes from a specified stream and returns a value that indicates whether all bytes were successfully read. |
 | [IStream_ReadPidl function](..\shlwapi\nf-shlwapi-istream_readpidl.md) | Reads a pointer to an item identifier list (PIDL) from an IStream object into a PIDLIST_RELATIVE object. |
@@ -183,10 +142,10 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [IntPtrToUChar function](..\intsafe\nf-intsafe-intptrtouchar.md) | Converts a value of type INT_PTR to a value of type UCHAR. |
 | [IntPtrToUInt function](..\intsafe\nf-intsafe-intptrtouint.md) | Converts a value of type INT_PTR to a value of type UINT. |
 | [IntPtrToUInt8 function](..\intsafe\nf-intsafe-intptrtouint8.md) | Converts a value of type INT_PTR to a value of type UINT8. |
-| [IntPtrToUIntPtr function](..\intsafe\nf-intsafe-intptrtouintptr.md) | Converts a value of type INT_PTR to a value of type size_t. |
-| [IntPtrToULong function](..\intsafe\nf-intsafe-intptrtoulong.md) | Converts a value of type INT_PTR to a value of type DWORD. |
+| [IntPtrToUIntPtr function](..\intsafe\nf-intsafe-intptrtouintptr.md) | Converts a value of type INT_PTR to a value of type UINT_PTR. |
+| [IntPtrToULong function](..\intsafe\nf-intsafe-intptrtoulong.md) | Converts a value of type INT_PTR to a value of type ULONG. |
 | [IntPtrToULongLong function](..\intsafe\nf-intsafe-intptrtoulonglong.md) | Converts a value of type INT_PTR to a value of type ULONGLONG. |
-| [IntPtrToULongPtr function](..\intsafe\nf-intsafe-intptrtoulongptr.md) | Converts a value of type INT_PTR to a value of type DWORD_PTR. |
+| [IntPtrToULongPtr function](..\intsafe\nf-intsafe-intptrtoulongptr.md) | Converts a value of type INT_PTR to a value of type ULONG_PTR. |
 | [IntPtrToUShort function](..\intsafe\nf-intsafe-intptrtoushort.md) | Converts a value of type INT_PTR to a value of type USHORT. |
 | [IntSub function](..\intsafe\nf-intsafe-intsub.md) | Subtracts one value of type INT from another. |
 | [IntToChar function](..\intsafe\nf-intsafe-inttochar.md) | Converts a value of type INT to a value of type CHAR. |
@@ -194,8 +153,8 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [IntToShort function](..\intsafe\nf-intsafe-inttoshort.md) | Converts a value of type INT to a value of type SHORT. |
 | [IntToUChar function](..\intsafe\nf-intsafe-inttouchar.md) | Converts a value of type INT to a value of type UCHAR. |
 | [IntToUInt function](..\intsafe\nf-intsafe-inttouint.md) | Converts a value of type INT to a value of type UINT. |
-| [IntToUInt8 function](..\intsafe\nf-intsafe-inttouint8.md) | Converts a value of type INT to a value of type BYTE. |
-| [IntToULong function](..\intsafe\nf-intsafe-inttoulong.md) | Converts a value of type INT to a value of type DWORD. |
+| [IntToUInt8 function](..\intsafe\nf-intsafe-inttouint8.md) | Converts a value of type INT to a value of type UINT8. |
+| [IntToULong function](..\intsafe\nf-intsafe-inttoulong.md) | Converts a value of type INT to a value of type ULONG. |
 | [IntToULongLong function](..\intsafe\nf-intsafe-inttoulonglong.md) | Converts a value of type INT to a value of type UINT_PTR. |
 | [IntToUShort function](..\intsafe\nf-intsafe-inttoushort.md) | Converts a value of type INT to a value of type USHORT. |
 | [IntlStrEqWorkerA function](..\shlwapi\nf-shlwapi-intlstreqworkera.md) | Compares a specified number of characters from the beginning of two localized strings. |
@@ -203,9 +162,7 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [IsCharSpaceA function](..\shlwapi\nf-shlwapi-ischarspacea.md) | Determines whether a character represents a space. |
 | [IsCharSpaceW function](..\shlwapi\nf-shlwapi-ischarspacew.md) | Determines whether a character represents a space. |
 | [IsInternetESCEnabled function](..\shlwapi\nf-shlwapi-isinternetescenabled.md) | Determines whether Windows Internet Explorer is in the Enhanced Security Configuration. |
-| [IsNetDrive function](..\shlobj_core\nf-shlobj_core-isnetdrive.md) | Tests whether a drive is a network drive. |
 | [IsOS function](..\shlwapi\nf-shlwapi-isos.md) | Checks for specified operating systems and operating system features. |
-| [IsUserAnAdmin function](..\shlobj_core\nf-shlobj_core-isuseranadmin.md) | IsUserAnAdmin may be altered or unavailable. |
 | [LoadUserProfileA function](..\userenv\nf-userenv-loaduserprofilea.md) | Loads the specified user's profile. The profile can be a local user profile or a roaming user profile. |
 | [LoadUserProfileW function](..\userenv\nf-userenv-loaduserprofilew.md) | Loads the specified user's profile. The profile can be a local user profile or a roaming user profile. |
 | [LongAdd function](..\intsafe\nf-intsafe-longadd.md) | Adds two values of type LONG. |
@@ -213,17 +170,17 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [LongLongMult function](..\intsafe\nf-intsafe-longlongmult.md) | Multiplies two values of type LONGLONG. |
 | [LongLongSub function](..\intsafe\nf-intsafe-longlongsub.md) | Subtracts one value of type LONGLONG from another. |
 | [LongLongToChar function](..\intsafe\nf-intsafe-longlongtochar.md) | Converts a value of type LONGLONG to a value of type CHAR. |
-| [LongLongToInt function](..\intsafe\nf-intsafe-longlongtoint.md) | Converts a value of type INT64 to a value of type INT. |
+| [LongLongToInt function](..\intsafe\nf-intsafe-longlongtoint.md) | Converts a value of type LONGLONG to a value of type INT. |
 | [LongLongToInt8 function](..\intsafe\nf-intsafe-longlongtoint8.md) | Converts a value of type LONGLONG to a value of type INT8. |
-| [LongLongToIntPtr function](..\intsafe\nf-intsafe-longlongtointptr.md) | Converts a value of type INT64 to a value of type INT_PTR. |
-| [LongLongToLong function](..\intsafe\nf-intsafe-longlongtolong.md) | Converts a value of type INT64 to a value of type LONG. |
-| [LongLongToLongPtr function](..\intsafe\nf-intsafe-longlongtolongptr.md) | Converts a value of type INT64 to a value of type LONG_PTR. |
+| [LongLongToIntPtr function](..\intsafe\nf-intsafe-longlongtointptr.md) | Converts a value of type LONGLONG to a value of type INT_PTR. |
+| [LongLongToLong function](..\intsafe\nf-intsafe-longlongtolong.md) | Converts a value of type LONGLONG to a value of type LONG. |
+| [LongLongToLongPtr function](..\intsafe\nf-intsafe-longlongtolongptr.md) | Converts a value of type LONGLONG to a value of type LONG_PTR. |
 | [LongLongToShort function](..\intsafe\nf-intsafe-longlongtoshort.md) | Converts a value of type LONGLONG to a value of type SHORT. |
 | [LongLongToUChar function](..\intsafe\nf-intsafe-longlongtouchar.md) | Converts a value of type LONGLONG to a value of type UCHAR. |
 | [LongLongToUInt function](..\intsafe\nf-intsafe-longlongtouint.md) | Converts a value of type LONGLONG to a value of type UINT. |
 | [LongLongToUInt8 function](..\intsafe\nf-intsafe-longlongtouint8.md) | Converts a value of type LONGLONG to a value of type UINT8. |
-| [LongLongToULong function](..\intsafe\nf-intsafe-longlongtoulong.md) | Converts a value of type DWORD to a value of type USHORT. |
-| [LongLongToULongLong function](..\intsafe\nf-intsafe-longlongtoulonglong.md) | Converts a value of type INT64 to a value of type ULONGLONG. |
+| [LongLongToULong function](..\intsafe\nf-intsafe-longlongtoulong.md) | Converts a value of type LONGLONG to a value of type ULONG. |
+| [LongLongToULongLong function](..\intsafe\nf-intsafe-longlongtoulonglong.md) | Converts a value of type LONGLONG to a value of type ULONGLONG. |
 | [LongLongToUShort function](..\intsafe\nf-intsafe-longlongtoushort.md) | Converts a value of type LONGLONG to a value of type USHORT. |
 | [LongMult function](..\intsafe\nf-intsafe-longmult.md) | Multiplies two values of type LONG. |
 | [LongPtrAdd function](..\intsafe\nf-intsafe-longptradd.md) | Adds two values of type LONG_PTR. |
@@ -239,9 +196,9 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [LongPtrToUInt function](..\intsafe\nf-intsafe-longptrtouint.md) | Converts a value of type LONG_PTR to a value of type UINT. |
 | [LongPtrToUInt8 function](..\intsafe\nf-intsafe-longptrtouint8.md) | Converts a value of type LONG_PTR to a value of type UINT8. |
 | [LongPtrToUIntPtr function](..\intsafe\nf-intsafe-longptrtouintptr.md) | Converts a value of type LONG_PTR to a value of type UINT_PTR. |
-| [LongPtrToULong function](..\intsafe\nf-intsafe-longptrtoulong.md) | Converts a value of type LONG_PTR to a value of type DWORD. |
+| [LongPtrToULong function](..\intsafe\nf-intsafe-longptrtoulong.md) | Converts a value of type LONG_PTR to a value of type ULONG. |
 | [LongPtrToULongLong function](..\intsafe\nf-intsafe-longptrtoulonglong.md) | Converts a value of type LONG_PTR to a value of type ULONGLONG. |
-| [LongPtrToULongPtr function](..\intsafe\nf-intsafe-longptrtoulongptr.md) | Converts a value of type LONG_PTR to a value of type DWORD_PTR. |
+| [LongPtrToULongPtr function](..\intsafe\nf-intsafe-longptrtoulongptr.md) | Converts a value of type LONG_PTR to a value of type ULONG_PTR. |
 | [LongPtrToUShort function](..\intsafe\nf-intsafe-longptrtoushort.md) | Converts a value of type LONG_PTR to a value of type USHORT. |
 | [LongSub function](..\intsafe\nf-intsafe-longsub.md) | Subtracts one value of type LONG from another. |
 | [LongToChar function](..\intsafe\nf-intsafe-longtochar.md) | Converts a value of type LONG to a value of type CHAR. |
@@ -251,15 +208,14 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [LongToShort function](..\intsafe\nf-intsafe-longtoshort.md) | Converts a value of type LONG to a value of type SHORT. |
 | [LongToUChar function](..\intsafe\nf-intsafe-longtouchar.md) | Converts a value of type LONG to a value of type UCHAR. |
 | [LongToUInt function](..\intsafe\nf-intsafe-longtouint.md) | Converts a value of type LONG to a value of type UINT. |
-| [LongToUInt8 function](..\intsafe\nf-intsafe-longtouint8.md) | Converts a value of type LONG to a value of type BYTE. |
-| [LongToUIntPtr function](..\intsafe\nf-intsafe-longtouintptr.md) | Converts a value of type LONG to a value of type size_t. |
-| [LongToULong function](..\intsafe\nf-intsafe-longtoulong.md) | Converts a value of type LONG to a value of type DWORD. |
+| [LongToUInt8 function](..\intsafe\nf-intsafe-longtouint8.md) | Converts a value of type LONG to a value of type UINT8. |
+| [LongToUIntPtr function](..\intsafe\nf-intsafe-longtouintptr.md) | Converts a value of type LONG to a value of type UINT_PTR. |
+| [LongToULong function](..\intsafe\nf-intsafe-longtoulong.md) | Converts a value of type LONG to a value of type ULONG. |
 | [LongToULongLong function](..\intsafe\nf-intsafe-longtoulonglong.md) | Converts a value of type LONG to a value of type ULONGLONG. |
 | [LongToULongPtr function](..\intsafe\nf-intsafe-longtoulongptr.md) | Converts a value of type LONG to a value of type ULONG_PTR. |
 | [LongToUShort function](..\intsafe\nf-intsafe-longtoushort.md) | Converts a value of type LONG to a value of type USHORT. |
 | [MIMEAssociationDialogA function](..\intshcut\nf-intshcut-mimeassociationdialoga.md) | Runs the unregistered MIME content type dialog box.Note  Windows XP Service Pack 2 (SP2) or later |
 | [MIMEAssociationDialogW function](..\intshcut\nf-intshcut-mimeassociationdialogw.md) | Runs the unregistered MIME content type dialog box.Note  Windows XP Service Pack 2 (SP2) or later |
-| [OpenRegStream function](..\shlobj_core\nf-shlobj_core-openregstream.md) | OpenRegStream may be altered or unavailable. Instead, use SHOpenRegStream2 or SHOpenRegStream. |
 | [ParseURLA function](..\shlwapi\nf-shlwapi-parseurla.md) | Performs rudimentary parsing of a URL. |
 | [ParseURLW function](..\shlwapi\nf-shlwapi-parseurlw.md) | Performs rudimentary parsing of a URL. |
 | [PathAddBackslashA function](..\shlwapi\nf-shlwapi-pathaddbackslasha.md) | Adds a backslash to the end of a string to create the correct syntax for a path. |
@@ -293,7 +249,6 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [PathCchSkipRoot function](..\pathcch\nf-pathcch-pathcchskiproot.md) | Retrieves a pointer to the first character in a path following the drive letter or Universal Naming Convention (UNC) server/share path elements.This function differs from PathSkipRoot in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes. |
 | [PathCchStripPrefix function](..\pathcch\nf-pathcch-pathcchstripprefix.md) | Removes the &#0034;\\?\&#0034; prefix, if present, from a file path. |
 | [PathCchStripToRoot function](..\pathcch\nf-pathcch-pathcchstriptoroot.md) | Removes all file and directory elements in a path except for the root information.This function differs from PathStripToRoot in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes. |
-| [PathCleanupSpec function](..\shlobj_core\nf-shlobj_core-pathcleanupspec.md) | PathCleanupSpec may be altered or unavailable. |
 | [PathCombineA function](..\shlwapi\nf-shlwapi-pathcombinea.md) | Concatenates two strings that represent properly formed paths into one path; also concatenates any relative path elements. |
 | [PathCombineW function](..\shlwapi\nf-shlwapi-pathcombinew.md) | Concatenates two strings that represent properly formed paths into one path; also concatenates any relative path elements. |
 | [PathCommonPrefixA function](..\shlwapi\nf-shlwapi-pathcommonprefixa.md) | Compares two paths to determine if they share a common prefix. A prefix is one of these types |
@@ -323,14 +278,12 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [PathGetCharTypeW function](..\shlwapi\nf-shlwapi-pathgetchartypew.md) | Determines the type of character in relation to a path. |
 | [PathGetDriveNumberA function](..\shlwapi\nf-shlwapi-pathgetdrivenumbera.md) | Searches a path for a drive letter within the range of 'A' to 'Z' and returns the corresponding drive number. |
 | [PathGetDriveNumberW function](..\shlwapi\nf-shlwapi-pathgetdrivenumberw.md) | Searches a path for a drive letter within the range of 'A' to 'Z' and returns the corresponding drive number. |
-| [PathGetShortPath function](..\shlobj_core\nf-shlobj_core-pathgetshortpath.md) | PathGetShortPath may be altered or unavailable. |
 | [PathIsContentTypeA function](..\shlwapi\nf-shlwapi-pathiscontenttypea.md) | Determines if a file's registered content type matches the specified content type. This function obtains the content type for the specified file type and compares that string with the pszContentType. The comparison is not case-sensitive. |
 | [PathIsContentTypeW function](..\shlwapi\nf-shlwapi-pathiscontenttypew.md) | Determines if a file's registered content type matches the specified content type. This function obtains the content type for the specified file type and compares that string with the pszContentType. The comparison is not case-sensitive. |
 | [PathIsDirectoryA function](..\shlwapi\nf-shlwapi-pathisdirectorya.md) | Verifies that a path is a valid directory. |
 | [PathIsDirectoryEmptyA function](..\shlwapi\nf-shlwapi-pathisdirectoryemptya.md) | Determines whether a specified path is an empty directory. |
 | [PathIsDirectoryEmptyW function](..\shlwapi\nf-shlwapi-pathisdirectoryemptyw.md) | Determines whether a specified path is an empty directory. |
 | [PathIsDirectoryW function](..\shlwapi\nf-shlwapi-pathisdirectoryw.md) | Verifies that a path is a valid directory. |
-| [PathIsExe function](..\shlobj_core\nf-shlobj_core-pathisexe.md) | PathIsExe may be altered or unavailable. |
 | [PathIsFileSpecA function](..\shlwapi\nf-shlwapi-pathisfilespeca.md) | Searches a path for any path-delimiting characters (for example, ' |
 | [PathIsFileSpecW function](..\shlwapi\nf-shlwapi-pathisfilespecw.md) | Searches a path for any path-delimiting characters (for example, ' |
 | [PathIsLFNFileSpecA function](..\shlwapi\nf-shlwapi-pathislfnfilespeca.md) | Determines whether a file name is in long format. |
@@ -360,7 +313,6 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [PathMakePrettyW function](..\shlwapi\nf-shlwapi-pathmakeprettyw.md) | Converts an all-uppercase path to all lowercase characters to give the path a consistent appearance. |
 | [PathMakeSystemFolderA function](..\shlwapi\nf-shlwapi-pathmakesystemfoldera.md) | Gives an existing folder the proper attributes to become a system folder. |
 | [PathMakeSystemFolderW function](..\shlwapi\nf-shlwapi-pathmakesystemfolderw.md) | Gives an existing folder the proper attributes to become a system folder. |
-| [PathMakeUniqueName function](..\shlobj_core\nf-shlobj_core-pathmakeuniquename.md) | Creates a unique path name from a template. |
 | [PathMatchSpecA function](..\shlwapi\nf-shlwapi-pathmatchspeca.md) | Searches a string using a Microsoft MS-DOS wildcard match type. |
 | [PathMatchSpecExA function](..\shlwapi\nf-shlwapi-pathmatchspecexa.md) | Matches a file name from a path against one or more file name patterns. |
 | [PathMatchSpecExW function](..\shlwapi\nf-shlwapi-pathmatchspecexw.md) | Matches a file name from a path against one or more file name patterns. |
@@ -383,7 +335,6 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [PathRemoveFileSpecW function](..\shlwapi\nf-shlwapi-pathremovefilespecw.md) | Removes the trailing file name and backslash from a path, if they are present. |
 | [PathRenameExtensionA function](..\shlwapi\nf-shlwapi-pathrenameextensiona.md) | Replaces the extension of a file name with a new extension. If the file name does not contain an extension, the extension will be attached to the end of the string. |
 | [PathRenameExtensionW function](..\shlwapi\nf-shlwapi-pathrenameextensionw.md) | Replaces the extension of a file name with a new extension. If the file name does not contain an extension, the extension will be attached to the end of the string. |
-| [PathResolve function](..\shlobj_core\nf-shlobj_core-pathresolve.md) | PathResolve may be altered or unavailable. |
 | [PathSearchAndQualifyA function](..\shlwapi\nf-shlwapi-pathsearchandqualifya.md) | Determines if a given path is correctly formatted and fully qualified. |
 | [PathSearchAndQualifyW function](..\shlwapi\nf-shlwapi-pathsearchandqualifyw.md) | Determines if a given path is correctly formatted and fully qualified. |
 | [PathSetDlgItemPathA function](..\shlwapi\nf-shlwapi-pathsetdlgitempatha.md) | Sets the text of a child control in a window or dialog box, using PathCompactPath to ensure the path fits in the control. |
@@ -402,109 +353,41 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [PathUnmakeSystemFolderW function](..\shlwapi\nf-shlwapi-pathunmakesystemfolderw.md) | Removes the attributes from a folder that make it a system folder. This folder must actually exist in the file system. |
 | [PathUnquoteSpacesA function](..\shlwapi\nf-shlwapi-pathunquotespacesa.md) | Removes quotes from the beginning and end of a path. |
 | [PathUnquoteSpacesW function](..\shlwapi\nf-shlwapi-pathunquotespacesw.md) | Removes quotes from the beginning and end of a path. |
-| [PathYetAnotherMakeUniqueName function](..\shlobj_core\nf-shlobj_core-pathyetanothermakeuniquename.md) | Creates a unique filename based on an existing filename. |
-| [PickIconDlg function](..\shlobj_core\nf-shlobj_core-pickicondlg.md) | PickIconDlg may be altered or unavailable. |
 | [PtrdiffTAdd function](..\intsafe\nf-intsafe-ptrdifftadd.md) | Adds two values of type ptrdiff_t. |
 | [PtrdiffTMult function](..\intsafe\nf-intsafe-ptrdifftmult.md) | Multiplies two values of type ptrdiff_t. |
 | [PtrdiffTSub function](..\intsafe\nf-intsafe-ptrdifftsub.md) | Subtracts one value of type ptrdiff_t from another. |
 | [QISearch function](..\shlwapi\nf-shlwapi-qisearch.md) | A table-driven implementation of the IUnknown |
-| [ReadCabinetState function](..\shlobj_core\nf-shlobj_core-readcabinetstate.md) | ReadCabinetState may be altered or unavailable. |
-| [RealDriveType function](..\shlobj_core\nf-shlobj_core-realdrivetype.md) | RealDriveType may be altered or unavailable. |
 | [RegisterAppStateChangeNotification function](..\appnotify\nf-appnotify-registerappstatechangenotification.md) | Enables an app to register a callback function through which it can be notified that its library is going into or coming out of a suspended state. |
 | [RegisterDialogClasses function](..\scrnsave\nf-scrnsave-registerdialogclasses.md) | Registers any nonstandard window classes required by a screen saver's configuration dialog box. |
-| [RestartDialog function](..\shlobj_core\nf-shlobj_core-restartdialog.md) | Displays a dialog box that prompts the user to restart Windows. When the user clicks the button, the function calls ExitWindowsEx to attempt to restart Windows. |
-| [RestartDialogEx function](..\shlobj_core\nf-shlobj_core-restartdialogex.md) | Displays a dialog box that asks the user to restart Windows. When the user clicks the button, the function calls ExitWindowsEx to attempt to restart Windows. |
-| [SHAddFromPropSheetExtArray function](..\shlobj_core\nf-shlobj_core-shaddfrompropsheetextarray.md) | Adds pages to a property sheet extension array created by SHCreatePropSheetExtArray. |
-| [SHAddToRecentDocs function](..\shlobj_core\nf-shlobj_core-shaddtorecentdocs.md) | Notifies the system that an item has been accessed, for the purposes of tracking those items used most recently and most frequently. This function can also be used to clear all usage data. |
-| [SHAlloc function](..\shlobj_core\nf-shlobj_core-shalloc.md) | Allocates memory from the Shell's heap. |
 | [SHAllocShared function](..\shlwapi\nf-shlwapi-shallocshared.md) | SHAllocShared may be altered or unavailable. |
 | [SHAnsiToAnsi function](..\shlwapi\nf-shlwapi-shansitoansi.md) | Copies an ANSI string. |
 | [SHAnsiToUnicode function](..\shlwapi\nf-shlwapi-shansitounicode.md) | Converts a string from the ANSI code page to the Unicode code page. |
 | [SHAutoComplete function](..\shlwapi\nf-shlwapi-shautocomplete.md) | Instructs system edit controls to use AutoComplete to help complete URLs or file system paths. |
-| [SHBindToFolderIDListParent function](..\shlobj_core\nf-shlobj_core-shbindtofolderidlistparent.md) | Given a Shell namespace item specified in the form of a folder, and an item identifier list relative to that folder, this function binds to the parent of the namespace item and optionally returns a pointer to the final component of the item identifier list. |
-| [SHBindToFolderIDListParentEx function](..\shlobj_core\nf-shlobj_core-shbindtofolderidlistparentex.md) | Extends the SHBindToFolderIDListParent function by allowing the caller to specify a bind context. |
-| [SHBindToObject function](..\shlobj_core\nf-shlobj_core-shbindtoobject.md) | Retrieves and binds to a specified object by using the Shell namespace IShellFolder |
-| [SHBindToParent function](..\shlobj_core\nf-shlobj_core-shbindtoparent.md) | Takes a pointer to a fully qualified item identifier list (PIDL), and returns a specified interface pointer on the parent object. |
-| [SHBrowseForFolderA function](..\shlobj_core\nf-shlobj_core-shbrowseforfoldera.md) | Displays a dialog box that enables the user to select a Shell folder. |
-| [SHBrowseForFolderW function](..\shlobj_core\nf-shlobj_core-shbrowseforfolderw.md) | Displays a dialog box that enables the user to select a Shell folder. |
-| [SHCLSIDFromString function](..\shlobj_core\nf-shlobj_core-shclsidfromstring.md) | Takes the string form of a class identifier (CLSID) and creates the corresponding CLSID. |
-| [SHChangeNotification_Lock function](..\shlobj_core\nf-shlobj_core-shchangenotification_lock.md) | Locks the shared memory associated with a Shell change notification event. |
-| [SHChangeNotification_Unlock function](..\shlobj_core\nf-shlobj_core-shchangenotification_unlock.md) | Unlocks shared memory for a change notification. |
-| [SHChangeNotify function](..\shlobj_core\nf-shlobj_core-shchangenotify.md) | Notifies the system of an event that an application has performed. An application should use this function if it performs an action that may affect the Shell. |
-| [SHChangeNotifyDeregister function](..\shlobj_core\nf-shlobj_core-shchangenotifyderegister.md) | Unregisters the client's window process from receiving SHChangeNotify messages. |
-| [SHChangeNotifyRegister function](..\shlobj_core\nf-shlobj_core-shchangenotifyregister.md) | Registers a window to receive notifications from the file system or Shell, if the file system supports notifications. |
-| [SHCloneSpecialIDList function](..\shlobj_core\nf-shlobj_core-shclonespecialidlist.md) | SHCloneSpecialIDList may be altered or unavailable. Instead, use SHGetSpecialFolderLocation. |
-| [SHCoCreateInstance function](..\shlobj_core\nf-shlobj_core-shcocreateinstance.md) | SHCoCreateInstance may be altered or unavailable. Instead, use CoCreateInstance. |
 | [SHCopyKeyA function](..\shlwapi\nf-shlwapi-shcopykeya.md) | Recursively copies the subkeys and values of the source subkey to the destination key. SHCopyKey does not copy the security attributes of the keys. |
 | [SHCopyKeyW function](..\shlwapi\nf-shlwapi-shcopykeyw.md) | Recursively copies the subkeys and values of the source subkey to the destination key. SHCopyKey does not copy the security attributes of the keys. |
-| [SHCreateDataObject function](..\shlobj_core\nf-shlobj_core-shcreatedataobject.md) | Creates a data object in a parent folder. |
-| [SHCreateDefaultContextMenu function](..\shlobj_core\nf-shlobj_core-shcreatedefaultcontextmenu.md) | Creates an object that represents the Shell's default context menu implementation. |
-| [SHCreateDirectory function](..\shlobj_core\nf-shlobj_core-shcreatedirectory.md) | Creates a new file system folder. |
-| [SHCreateDirectoryExA function](..\shlobj_core\nf-shlobj_core-shcreatedirectoryexa.md) | Creates a new file system folder, with optional security attributes. |
-| [SHCreateDirectoryExW function](..\shlobj_core\nf-shlobj_core-shcreatedirectoryexw.md) | Creates a new file system folder, with optional security attributes. |
-| [SHCreateFileExtractIconW function](..\shlobj_core\nf-shlobj_core-shcreatefileextracticonw.md) | SHCreateFileExtractIcon may be altered or unavailable. |
 | [SHCreateMemStream function](..\shlwapi\nf-shlwapi-shcreatememstream.md) | Creates a memory stream using a similar process to CreateStreamOnHGlobal. |
-| [SHCreateShellFolderView function](..\shlobj_core\nf-shlobj_core-shcreateshellfolderview.md) | Creates a new instance of the default Shell folder view object (DefView). |
-| [SHCreateShellFolderViewEx function](..\shlobj_core\nf-shlobj_core-shcreateshellfolderviewex.md) | Creates a new instance of the default Shell folder view object. It is recommended that you use SHCreateShellFolderView rather than this function. |
-| [SHCreateShellItem function](..\shlobj_core\nf-shlobj_core-shcreateshellitem.md) | Creates an IShellItem object. |
 | [SHCreateShellPalette function](..\shlwapi\nf-shlwapi-shcreateshellpalette.md) | Creates a halftone palette for the specified device context. |
-| [SHCreateStdEnumFmtEtc function](..\shlobj_core\nf-shlobj_core-shcreatestdenumfmtetc.md) | SHCreateStdEnumFmtEtc may be altered or unavailable. |
 | [SHCreateStreamOnFileA function](..\shlwapi\nf-shlwapi-shcreatestreamonfilea.md) | SHCreateStreamOnFile may be altered or unavailable. Instead, use SHCreateStreamOnFileEx. |
 | [SHCreateStreamOnFileEx function](..\shlwapi\nf-shlwapi-shcreatestreamonfileex.md) | Opens or creates a file and retrieves a stream to read or write to that file. |
 | [SHCreateStreamOnFileW function](..\shlwapi\nf-shlwapi-shcreatestreamonfilew.md) | SHCreateStreamOnFile may be altered or unavailable. Instead, use SHCreateStreamOnFileEx. |
 | [SHCreateThread function](..\shlwapi\nf-shlwapi-shcreatethread.md) | Creates a thread. |
 | [SHCreateThreadRef function](..\shlwapi\nf-shlwapi-shcreatethreadref.md) | Creates a per-thread reference to a Component Object Model (COM) object. |
 | [SHCreateThreadWithHandle function](..\shlwapi\nf-shlwapi-shcreatethreadwithhandle.md) | Creates a new thread and retrieves its handle. |
-| [SHDefExtractIconA function](..\shlobj_core\nf-shlobj_core-shdefextracticona.md) | Provides a default handler to extract an icon from a file. |
-| [SHDefExtractIconW function](..\shlobj_core\nf-shlobj_core-shdefextracticonw.md) | Provides a default handler to extract an icon from a file. |
 | [SHDeleteEmptyKeyA function](..\shlwapi\nf-shlwapi-shdeleteemptykeya.md) | Deletes an empty key. |
 | [SHDeleteEmptyKeyW function](..\shlwapi\nf-shlwapi-shdeleteemptykeyw.md) | Deletes an empty key. |
 | [SHDeleteKeyA function](..\shlwapi\nf-shlwapi-shdeletekeya.md) | Deletes a subkey and all its descendants. This function removes the key and all the key's values from the registry. |
 | [SHDeleteKeyW function](..\shlwapi\nf-shlwapi-shdeletekeyw.md) | Deletes a subkey and all its descendants. This function removes the key and all the key's values from the registry. |
 | [SHDeleteValueA function](..\shlwapi\nf-shlwapi-shdeletevaluea.md) | Deletes a named value from the specified registry key. |
 | [SHDeleteValueW function](..\shlwapi\nf-shlwapi-shdeletevaluew.md) | Deletes a named value from the specified registry key. |
-| [SHDestroyPropSheetExtArray function](..\shlobj_core\nf-shlobj_core-shdestroypropsheetextarray.md) | Frees property sheet handlers that are pointed to an array created by SHCreatePropSheetExtArray. |
-| [SHDoDragDrop function](..\shlobj_core\nf-shlobj_core-shdodragdrop.md) | Executes a drag-and-drop operation. Supports drag source creation on demand, as well as drag images. |
 | [SHEnumKeyExA function](..\shlwapi\nf-shlwapi-shenumkeyexa.md) | Enumerates the subkeys of the specified open registry key. |
 | [SHEnumKeyExW function](..\shlwapi\nf-shlwapi-shenumkeyexw.md) | Enumerates the subkeys of the specified open registry key. |
 | [SHEnumValueA function](..\shlwapi\nf-shlwapi-shenumvaluea.md) | Enumerates the values of the specified open registry key. |
 | [SHEnumValueW function](..\shlwapi\nf-shlwapi-shenumvaluew.md) | Enumerates the values of the specified open registry key. |
-| [SHFindFiles function](..\shlobj_core\nf-shlobj_core-shfindfiles.md) | SHFindFiles may be altered or unavailable. |
-| [SHFind_InitMenuPopup function](..\shlobj_core\nf-shlobj_core-shfind_initmenupopup.md) | SHFind_InitMenuPopup may be altered or unavailable. |
-| [SHFlushSFCache function](..\shlobj_core\nf-shlobj_core-shflushsfcache.md) | SHFlushSFCache may be altered or unavailable. |
 | [SHFormatDateTimeA function](..\shlwapi\nf-shlwapi-shformatdatetimea.md) | SHFormatDateTime may be altered or unavailable. |
 | [SHFormatDateTimeW function](..\shlwapi\nf-shlwapi-shformatdatetimew.md) | SHFormatDateTime may be altered or unavailable. |
-| [SHFormatDrive function](..\shlobj_core\nf-shlobj_core-shformatdrive.md) | SHFormatDrive may be altered or unavailable. |
-| [SHFree function](..\shlobj_core\nf-shlobj_core-shfree.md) | Frees the memory allocated by SHAlloc. |
 | [SHFreeShared function](..\shlwapi\nf-shlwapi-shfreeshared.md) | SHFreeShared may be altered or unavailable. |
 | [SHGetAssocKeys function](..\shlwapi\nf-shlwapi-shgetassockeys.md) | Retrieves an array of class subkeys associated with an IQueryAssociations object. |
-| [SHGetAttributesFromDataObject function](..\shlobj_core\nf-shlobj_core-shgetattributesfromdataobject.md) | SHGetAttributesFromDataObject may be altered or unavailable. |
-| [SHGetDataFromIDListA function](..\shlobj_core\nf-shlobj_core-shgetdatafromidlista.md) | Retrieves extended property data from a relative identifier list. |
-| [SHGetDataFromIDListW function](..\shlobj_core\nf-shlobj_core-shgetdatafromidlistw.md) | Retrieves extended property data from a relative identifier list. |
-| [SHGetDesktopFolder function](..\shlobj_core\nf-shlobj_core-shgetdesktopfolder.md) | Retrieves the IShellFolder interface for the desktop folder, which is the root of the Shell's namespace. |
-| [SHGetFolderLocation function](..\shlobj_core\nf-shlobj_core-shgetfolderlocation.md) | Deprecated. Retrieves the path of a folder as an ITEMIDLIST structure. |
-| [SHGetFolderPathA function](..\shlobj_core\nf-shlobj_core-shgetfolderpatha.md) | Deprecated. |
-| [SHGetFolderPathAndSubDirA function](..\shlobj_core\nf-shlobj_core-shgetfolderpathandsubdira.md) | Gets the path of a folder and appends a user-provided subfolder path. |
-| [SHGetFolderPathAndSubDirW function](..\shlobj_core\nf-shlobj_core-shgetfolderpathandsubdirw.md) | Gets the path of a folder and appends a user-provided subfolder path. |
-| [SHGetFolderPathW function](..\shlobj_core\nf-shlobj_core-shgetfolderpathw.md) | Deprecated. |
-| [SHGetIconOverlayIndexA function](..\shlobj_core\nf-shlobj_core-shgeticonoverlayindexa.md) | Returns the index of the overlay icon in the system image list. |
-| [SHGetIconOverlayIndexW function](..\shlobj_core\nf-shlobj_core-shgeticonoverlayindexw.md) | Returns the index of the overlay icon in the system image list. |
-| [SHGetInstanceExplorer function](..\shlobj_core\nf-shlobj_core-shgetinstanceexplorer.md) | Retrieves an interface that allows hosted Shell extensions and other components to prevent their host process from closing prematurely. |
 | [SHGetInverseCMAP function](..\shlwapi\nf-shlwapi-shgetinversecmap.md) | Retrieves the inverse color table mapping for the halftone palette. |
-| [SHGetKnownFolderIDList function](..\shlobj_core\nf-shlobj_core-shgetknownfolderidlist.md) | Retrieves the path of a known folder as an ITEMIDLIST structure. |
-| [SHGetKnownFolderItem function](..\shlobj_core\nf-shlobj_core-shgetknownfolderitem.md) | Retrieves an IShellItem object that represents a known folder. |
-| [SHGetKnownFolderPath function](..\shlobj_core\nf-shlobj_core-shgetknownfolderpath.md) | Retrieves the full path of a known folder identified by the folder's KNOWNFOLDERID. |
-| [SHGetMalloc function](..\shlobj_core\nf-shlobj_core-shgetmalloc.md) | Retrieves a pointer to the Shell's IMalloc interface. |
-| [SHGetPathFromIDListA function](..\shlobj_core\nf-shlobj_core-shgetpathfromidlista.md) | Converts an item identifier list to a file system path. |
-| [SHGetPathFromIDListEx function](..\shlobj_core\nf-shlobj_core-shgetpathfromidlistex.md) | Converts an item identifier list to a file system path. This function extends SHGetPathFromIDList by allowing you to set the initial size of the string buffer and declare the options below. |
-| [SHGetPathFromIDListW function](..\shlobj_core\nf-shlobj_core-shgetpathfromidlistw.md) | Converts an item identifier list to a file system path. |
-| [SHGetRealIDL function](..\shlobj_core\nf-shlobj_core-shgetrealidl.md) | SHGetRealIDL may be altered or unavailable. |
-| [SHGetSetFolderCustomSettings function](..\shlobj_core\nf-shlobj_core-shgetsetfoldercustomsettings.md) | SHGetSetFolderCustomSettings may be altered or unavailable. |
-| [SHGetSetSettings function](..\shlobj_core\nf-shlobj_core-shgetsetsettings.md) | SHGetSetSettings may be altered or unavailable. |
-| [SHGetSettings function](..\shlobj_core\nf-shlobj_core-shgetsettings.md) | Retrieves the current Shell option settings. |
-| [SHGetSpecialFolderLocation function](..\shlobj_core\nf-shlobj_core-shgetspecialfolderlocation.md) | SHGetSpecialFolderLocation is not supported and may be altered or unavailable in the future. Instead, use SHGetFolderLocation. |
-| [SHGetSpecialFolderPathA function](..\shlobj_core\nf-shlobj_core-shgetspecialfolderpatha.md) | SHGetSpecialFolderPath is not supported. Instead, use ShGetFolderPath. |
-| [SHGetSpecialFolderPathW function](..\shlobj_core\nf-shlobj_core-shgetspecialfolderpathw.md) | SHGetSpecialFolderPath is not supported. Instead, use ShGetFolderPath. |
 | [SHGetThreadRef function](..\shlwapi\nf-shlwapi-shgetthreadref.md) | Retrieves the per-thread object reference set by SHSetThreadRef. |
 | [SHGetValueA function](..\shlwapi\nf-shlwapi-shgetvaluea.md) | Retrieves a registry value. |
 | [SHGetValueW function](..\shlwapi\nf-shlwapi-shgetvaluew.md) | Retrieves a registry value. |
@@ -512,27 +395,16 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [SHGlobalCounterDecrement function](..\shlwapi\nf-shlwapi-shglobalcounterdecrement.md) | Decrements a global counter. |
 | [SHGlobalCounterGetValue function](..\shlwapi\nf-shlwapi-shglobalcountergetvalue.md) | Gets the current value of a global counter. |
 | [SHGlobalCounterIncrement function](..\shlwapi\nf-shlwapi-shglobalcounterincrement.md) | Increments a global counter. |
-| [SHHandleUpdateImage function](..\shlobj_core\nf-shlobj_core-shhandleupdateimage.md) | SHHandleUpdateImage may be altered or unavailable. |
-| [SHILCreateFromPath function](..\shlobj_core\nf-shlobj_core-shilcreatefrompath.md) | SHILCreateFromPath may be altered or unavailable. |
-| [SHLimitInputEdit function](..\shlobj_core\nf-shlobj_core-shlimitinputedit.md) | Sets limits on valid characters for an edit control. |
-| [SHLoadInProc function](..\shlobj_core\nf-shlobj_core-shloadinproc.md) | Creates an instance of the specified object class from within the context of the Shell's process. Windows Vista and later |
 | [SHLoadIndirectString function](..\shlwapi\nf-shlwapi-shloadindirectstring.md) | Extracts a specified text resource when given that resource in the form of an indirect string (a string that begins with the '@' symbol). |
 | [SHLocalStrDupA function](..\shlwapi\nf-shlwapi-shlocalstrdupa.md) | Makes a copy of a string in newly allocated memory. |
 | [SHLocalStrDupW function](..\shlwapi\nf-shlwapi-shlocalstrdupw.md) | Makes a copy of a string in newly allocated memory. |
 | [SHLockShared function](..\shlwapi\nf-shlwapi-shlockshared.md) | SHLockShared may be altered or unavailable. |
-| [SHMapPIDLToSystemImageListIndex function](..\shlobj_core\nf-shlobj_core-shmappidltosystemimagelistindex.md) | SHMapPIDLToSystemImageListIndex may be altered or unavailable. |
 | [SHMessageBoxCheckA function](..\shlwapi\nf-shlwapi-shmessageboxchecka.md) | SHMessageBoxCheck may be altered or unavailable. |
 | [SHMessageBoxCheckW function](..\shlwapi\nf-shlwapi-shmessageboxcheckw.md) | SHMessageBoxCheck may be altered or unavailable. |
-| [SHObjectProperties function](..\shlobj_core\nf-shlobj_core-shobjectproperties.md) | SHObjectProperties may be altered or unavailable. |
-| [SHOpenFolderAndSelectItems function](..\shlobj_core\nf-shlobj_core-shopenfolderandselectitems.md) | Opens a Windows Explorer window with specified items in a particular folder selected. |
 | [SHOpenRegStream2A function](..\shlwapi\nf-shlwapi-shopenregstream2a.md) | Opens a registry value and supplies a stream that can be used to read from or write to the value. This function supersedes SHOpenRegStream. |
 | [SHOpenRegStream2W function](..\shlwapi\nf-shlwapi-shopenregstream2w.md) | Opens a registry value and supplies a stream that can be used to read from or write to the value. This function supersedes SHOpenRegStream. |
 | [SHOpenRegStreamA function](..\shlwapi\nf-shlwapi-shopenregstreama.md) | Deprecated. |
 | [SHOpenRegStreamW function](..\shlwapi\nf-shlwapi-shopenregstreamw.md) | Deprecated. |
-| [SHOpenWithDialog function](..\shlobj_core\nf-shlobj_core-shopenwithdialog.md) | Displays the Open With dialog box. |
-| [SHParseDisplayName function](..\shlobj_core\nf-shlobj_core-shparsedisplayname.md) | Translates a Shell namespace object's display name into an item identifier list and returns the attributes of the object. This function is the preferred method to convert a string to a pointer to an item identifier list (PIDL). |
-| [SHPathPrepareForWriteA function](..\shlobj_core\nf-shlobj_core-shpathprepareforwritea.md) | Checks to see if the path exists. |
-| [SHPathPrepareForWriteW function](..\shlobj_core\nf-shlobj_core-shpathprepareforwritew.md) | Checks to see if the path exists. |
 | [SHQueryInfoKeyA function](..\shlwapi\nf-shlwapi-shqueryinfokeya.md) | Retrieves information about a specified registry key. |
 | [SHQueryInfoKeyW function](..\shlwapi\nf-shlwapi-shqueryinfokeyw.md) | Retrieves information about a specified registry key. |
 | [SHQueryValueExA function](..\shlwapi\nf-shlwapi-shqueryvalueexa.md) | Opens a registry key and queries it for a specific value. |
@@ -573,21 +445,12 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [SHRegWriteUSValueA function](..\shlwapi\nf-shlwapi-shregwriteusvaluea.md) | Writes a value to a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). |
 | [SHRegWriteUSValueW function](..\shlwapi\nf-shlwapi-shregwriteusvaluew.md) | Writes a value to a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). |
 | [SHReleaseThreadRef function](..\shlwapi\nf-shlwapi-shreleasethreadref.md) | Releases a thread reference before the thread procedure returns. |
-| [SHReplaceFromPropSheetExtArray function](..\shlobj_core\nf-shlobj_core-shreplacefrompropsheetextarray.md) | Requests each property sheet in a property sheet extension array to replace pages. Each page is allowed up to one replacement. |
-| [SHRestricted function](..\shlobj_core\nf-shlobj_core-shrestricted.md) | SHRestricted may be altered or unavailable. |
 | [SHSendMessageBroadcastA function](..\shlwapi\nf-shlwapi-shsendmessagebroadcasta.md) | Sends a message to all top-level windows in the system. |
 | [SHSendMessageBroadcastW function](..\shlwapi\nf-shlwapi-shsendmessagebroadcastw.md) | Sends a message to all top-level windows in the system. |
-| [SHSetFolderPathA function](..\shlobj_core\nf-shlobj_core-shsetfolderpatha.md) | Deprecated. Assigns a new path to a system folder identified by its CSIDL. |
-| [SHSetFolderPathW function](..\shlobj_core\nf-shlobj_core-shsetfolderpathw.md) | Deprecated. Assigns a new path to a system folder identified by its CSIDL. |
-| [SHSetInstanceExplorer function](..\shlobj_core\nf-shlobj_core-shsetinstanceexplorer.md) | Provides an interface that allows hosted Shell extensions and other components to prevent their host process from closing prematurely. |
-| [SHSetKnownFolderPath function](..\shlobj_core\nf-shlobj_core-shsetknownfolderpath.md) | Redirects a known folder to a new location. |
 | [SHSetThreadRef function](..\shlwapi\nf-shlwapi-shsetthreadref.md) | Stores a per-thread reference to a Component Object Model (COM) object. This allows the caller to control the thread's lifetime so that it can ensure that Windows won't shut down the thread before the caller is ready. |
 | [SHSetValueA function](..\shlwapi\nf-shlwapi-shsetvaluea.md) | Sets the value of a registry key. |
 | [SHSetValueW function](..\shlwapi\nf-shlwapi-shsetvaluew.md) | Sets the value of a registry key. |
-| [SHShellFolderView_Message function](..\shlobj_core\nf-shlobj_core-shshellfolderview_message.md) | SHShellFolderView_Message may be altered or unavailable. |
 | [SHSkipJunction function](..\shlwapi\nf-shlwapi-shskipjunction.md) | Checks a bind context to see if it is safe to bind to a particular component object. |
-| [SHStartNetConnectionDialogA function](..\shlobj_core\nf-shlobj_core-shstartnetconnectiondialoga.md) | SHStartNetConnectionDialog may be altered or unavailable. |
-| [SHStartNetConnectionDialogW function](..\shlobj_core\nf-shlobj_core-shstartnetconnectiondialogw.md) | SHStartNetConnectionDialog may be altered or unavailable. |
 | [SHStrDupA function](..\shlwapi\nf-shlwapi-shstrdupa.md) | Makes a copy of a string in newly allocated memory. |
 | [SHStrDupW function](..\shlwapi\nf-shlwapi-shstrdupw.md) | Makes a copy of a string in newly allocated memory. |
 | [SHStripMneumonicA function](..\shlwapi\nf-shlwapi-shstripmneumonica.md) | Removes the mnemonic marker from a string. |
@@ -595,20 +458,12 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [SHUnicodeToAnsi function](..\shlwapi\nf-shlwapi-shunicodetoansi.md) | Converts a string from the Unicode code page to the ANSI code page. |
 | [SHUnicodeToUnicode function](..\shlwapi\nf-shlwapi-shunicodetounicode.md) | Copies a Unicode string. |
 | [SHUnlockShared function](..\shlwapi\nf-shlwapi-shunlockshared.md) | SHUnlockShared may be altered or unavailable. |
-| [SHUpdateImageA function](..\shlobj_core\nf-shlobj_core-shupdateimagea.md) | Notifies the Shell that an image in the system image list has changed. |
-| [SHUpdateImageW function](..\shlobj_core\nf-shlobj_core-shupdateimagew.md) | Notifies the Shell that an image in the system image list has changed. |
-| [SHValidateUNC function](..\shlobj_core\nf-shlobj_core-shvalidateunc.md) | SHValidateUNC may be altered or unavailable. |
 | [SSIZETAdd function](..\intsafe\nf-intsafe-ssizetadd.md) | Adds two SSIZE_T values together. |
 | [SSIZETMult function](..\intsafe\nf-intsafe-ssizetmult.md) | Multiplies one SSIZE_T value by another. |
 | [SSIZETSub function](..\intsafe\nf-intsafe-ssizetsub.md) | Subtracts one SSIZE_T value from another. |
 | [ScreenSaverConfigureDialog function](..\scrnsave\nf-scrnsave-screensaverconfiguredialog.md) | Receives messages sent to a screen saver's configuration dialog box. A screen saver that allows user configuration must define this function. |
 | [ScreenSaverProc function](..\scrnsave\nf-scrnsave-screensaverproc.md) | Receives messages sent to the specified screen saver window. |
 | [SetProcessReference function](..\shlwapi\nf-shlwapi-setprocessreference.md) | Provides a Component Object Model (COM) object that allows hosted Shell extensions and other components to prevent their host process from closing prematurely. |
-| [Shell_GetCachedImageIndex function](..\shlobj_core\nf-shlobj_core-shell_getcachedimageindex.md) | Shell_GetCachedImageIndex may be altered or unavailable. |
-| [Shell_GetCachedImageIndexA function](..\shlobj_core\nf-shlobj_core-shell_getcachedimageindexa.md) | Shell_GetCachedImageIndex may be altered or unavailable. |
-| [Shell_GetCachedImageIndexW function](..\shlobj_core\nf-shlobj_core-shell_getcachedimageindexw.md) | Shell_GetCachedImageIndex may be altered or unavailable. |
-| [Shell_GetImageLists function](..\shlobj_core\nf-shlobj_core-shell_getimagelists.md) | Retrieves system image lists for large and small icons. |
-| [Shell_MergeMenus function](..\shlobj_core\nf-shlobj_core-shell_mergemenus.md) | Shell_MergeMenus may be altered or unavailable. |
 | [ShortAdd function](..\intsafe\nf-intsafe-shortadd.md) | Adds two values of type SHORT. |
 | [ShortMult function](..\intsafe\nf-intsafe-shortmult.md) | Multiplies two values of type SHORT. |
 | [ShortSub function](..\intsafe\nf-intsafe-shortsub.md) | Subtracts one value of type SHORT from another. |
@@ -617,17 +472,15 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [ShortToInt8 function](..\intsafe\nf-intsafe-shorttoint8.md) | Converts a value of type SHORT to a value of type INT8. |
 | [ShortToUChar function](..\intsafe\nf-intsafe-shorttouchar.md) | Converts a value of type SHORT to a value of UCHAR. |
 | [ShortToUInt function](..\intsafe\nf-intsafe-shorttouint.md) | Converts a value of type SHORT to a value of type UINT. |
-| [ShortToUInt8 function](..\intsafe\nf-intsafe-shorttouint8.md) | Converts a value of type SHORT to a value of type BYTE. |
+| [ShortToUInt8 function](..\intsafe\nf-intsafe-shorttouint8.md) | Converts a value of type SHORT to a value of type UINT8. |
 | [ShortToUIntPtr function](..\intsafe\nf-intsafe-shorttouintptr.md) | Converts a value of type SHORT to a value of type UINT_PTR. |
 | [ShortToULong function](..\intsafe\nf-intsafe-shorttoulong.md) | Converts a value of type SHORT to a value of type ULONG. |
 | [ShortToULongLong function](..\intsafe\nf-intsafe-shorttoulonglong.md) | Converts a value of type SHORT to a value of type ULONGLONG. |
 | [ShortToULongPtr function](..\intsafe\nf-intsafe-shorttoulongptr.md) | Converts a value of type SHORT to a value of type ULONG_PTR. |
 | [ShortToUShort function](..\intsafe\nf-intsafe-shorttoushort.md) | Converts a value of type SHORT to a value of type USHORT. |
-| [SignalFileOpen function](..\shlobj_core\nf-shlobj_core-signalfileopen.md) | SignalFileOpen may be altered or unavailable. |
 | [SizeTAdd function](..\intsafe\nf-intsafe-sizetadd.md) | Adds two values of type size_t. |
 | [SizeTMult function](..\intsafe\nf-intsafe-sizetmult.md) | Multiplies one value of type size_t by another. |
 | [SizeTSub function](..\intsafe\nf-intsafe-sizetsub.md) | Subtracts one value of type size_t from another. |
-| [StgMakeUniqueName function](..\shlobj_core\nf-shlobj_core-stgmakeuniquename.md) | Creates a unique name for a stream or storage object from a template. |
 | [StopWatchFlush function](..\shlwapi\nf-shlwapi-stopwatchflush.md) | StopWatchFlush may be altered or unavailable. |
 | [StopWatchMode function](..\shlwapi\nf-shlwapi-stopwatchmode.md) | StopWatchMode may be altered or unavailable. |
 | [StrCSpnA function](..\shlwapi\nf-shlwapi-strcspna.md) | Searches a string for the first occurrence of any of a group of characters. The search method is case-sensitive, and the terminating NULL character is included within the search pattern match. |
@@ -720,16 +573,16 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [UIntPtrToInt function](..\intsafe\nf-intsafe-uintptrtoint.md) | Converts a value of type SIZE_T to a value of type INT. |
 | [UIntPtrToInt16 function](..\intsafe\nf-intsafe-uintptrtoint16.md) | Converts a value of type UINT_PTR to a value of type INT16. |
 | [UIntPtrToInt8 function](..\intsafe\nf-intsafe-uintptrtoint8.md) | Converts a value of type UINT_PTR to a value of type INT8. |
-| [UIntPtrToIntPtr function](..\intsafe\nf-intsafe-uintptrtointptr.md) | Converts a value of type size_t to a value of type INT_PTR. |
+| [UIntPtrToIntPtr function](..\intsafe\nf-intsafe-uintptrtointptr.md) | Converts a value of type UINT_PTR to a value of type INT_PTR. |
 | [UIntPtrToLong function](..\intsafe\nf-intsafe-uintptrtolong.md) | Converts a value of type size_t to a value of type LONG. |
 | [UIntPtrToLongLong function](..\intsafe\nf-intsafe-uintptrtolonglong.md) | Converts a value of type UINT_PTR to a value of type LONGLONG. |
-| [UIntPtrToLongPtr function](..\intsafe\nf-intsafe-uintptrtolongptr.md) | Converts a value of type size_t to a value of type LONG_PTR. |
+| [UIntPtrToLongPtr function](..\intsafe\nf-intsafe-uintptrtolongptr.md) | Converts a value of type UINT_PTR to a value of type LONG_PTR. |
 | [UIntPtrToShort function](..\intsafe\nf-intsafe-uintptrtoshort.md) | Converts a value of type UINT_PTR to a value of type SHORT. |
 | [UIntPtrToUChar function](..\intsafe\nf-intsafe-uintptrtouchar.md) | Converts a value of type UINT_PTR to a value of type UCHAR. |
-| [UIntPtrToUInt function](..\intsafe\nf-intsafe-uintptrtouint.md) | Converts a value of type size_t to a value of type UINT. |
+| [UIntPtrToUInt function](..\intsafe\nf-intsafe-uintptrtouint.md) | Converts a value of type UINT_PTR to a value of type UINT. |
 | [UIntPtrToUInt16 function](..\intsafe\nf-intsafe-uintptrtouint16.md) | Converts a value of type UINT_PTR to a value of type UINT16. |
 | [UIntPtrToUInt8 function](..\intsafe\nf-intsafe-uintptrtouint8.md) | Converts a value of type UINT_PTR to a value of type UINT8. |
-| [UIntPtrToULong function](..\intsafe\nf-intsafe-uintptrtoulong.md) | Converts a value of type SIZE_T to a value of type DWORD. |
+| [UIntPtrToULong function](..\intsafe\nf-intsafe-uintptrtoulong.md) | Converts a value of type UINT_PTR to a value of type ULONG. |
 | [UIntPtrToUShort function](..\intsafe\nf-intsafe-uintptrtoushort.md) | Converts a value of type UINT_PTR to a value of type USHORT. |
 | [UIntSub function](..\intsafe\nf-intsafe-uintsub.md) | Subtracts one value of type UINT from another. |
 | [UIntToChar function](..\intsafe\nf-intsafe-uinttochar.md) | Converts a value of type UINT to a value of type CHAR. |
@@ -740,9 +593,9 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [UIntToLongPtr function](..\intsafe\nf-intsafe-uinttolongptr.md) | Converts a value of type UINT to a value of type LONG_PTR. |
 | [UIntToShort function](..\intsafe\nf-intsafe-uinttoshort.md) | Converts a value of type UINT to a value of type SHORT. |
 | [UIntToUChar function](..\intsafe\nf-intsafe-uinttouchar.md) | Converts a value of type UINT to a value of type UCHAR. |
-| [UIntToUInt8 function](..\intsafe\nf-intsafe-uinttouint8.md) | Converts a value of type UINT to a value of type BYTE. |
+| [UIntToUInt8 function](..\intsafe\nf-intsafe-uinttouint8.md) | Converts a value of type UINT to a value of type UINT8. |
 | [UIntToUShort function](..\intsafe\nf-intsafe-uinttoushort.md) | Converts a value of type UINT to a value of type USHORT. |
-| [ULongAdd function](..\intsafe\nf-intsafe-ulongadd.md) | Adds two values of type DWORD. |
+| [ULongAdd function](..\intsafe\nf-intsafe-ulongadd.md) | Adds two values of type ULONG. |
 | [ULongLongAdd function](..\intsafe\nf-intsafe-ulonglongadd.md) | Adds two values of type SIZE_T. |
 | [ULongLongMult function](..\intsafe\nf-intsafe-ulonglongmult.md) | Multiplies one value of type size_t by another. |
 | [ULongLongSub function](..\intsafe\nf-intsafe-ulonglongsub.md) | Subtracts one value of type SIZE_T from another. |
@@ -750,47 +603,47 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [ULongLongToInt function](..\intsafe\nf-intsafe-ulonglongtoint.md) | Converts a value of type ULONGLONG to a value of type INT. |
 | [ULongLongToInt8 function](..\intsafe\nf-intsafe-ulonglongtoint8.md) | Converts a value of type ULONGLONG to a value of type INT8. |
 | [ULongLongToLong function](..\intsafe\nf-intsafe-ulonglongtolong.md) | Converts a value of type ULONGLONG to a value of type LONG. |
-| [ULongLongToLongLong function](..\intsafe\nf-intsafe-ulonglongtolonglong.md) | Converts a value of type ULONGLONG to a value of type INT64. |
+| [ULongLongToLongLong function](..\intsafe\nf-intsafe-ulonglongtolonglong.md) | Converts a value of type ULONGLONG to a value of type INT_PTR. |
 | [ULongLongToLongPtr function](..\intsafe\nf-intsafe-ulonglongtolongptr.md) | Converts a value of type ULONGLONG to a value of type LONG_PTR. |
 | [ULongLongToShort function](..\intsafe\nf-intsafe-ulonglongtoshort.md) | Converts a value of type ULONGLONG to a value of type SHORT. |
 | [ULongLongToUChar function](..\intsafe\nf-intsafe-ulonglongtouchar.md) | Converts a value of type ULONGLONG to a value of type UCHAR. |
 | [ULongLongToUInt function](..\intsafe\nf-intsafe-ulonglongtouint.md) | Converts a value of type ULONGLONG to a value of type UINT. |
 | [ULongLongToUInt8 function](..\intsafe\nf-intsafe-ulonglongtouint8.md) | Converts a value of type ULONGLONG to a value of type UINT8. |
-| [ULongLongToUIntPtr function](..\intsafe\nf-intsafe-ulonglongtouintptr.md) | Converts a value of type ULONGLONG to a value of type size_t. |
-| [ULongLongToULong function](..\intsafe\nf-intsafe-ulonglongtoulong.md) | Converts a value of type ULONGLONG to a value of type DWORD. |
-| [ULongLongToULongPtr function](..\intsafe\nf-intsafe-ulonglongtoulongptr.md) | Converts a value of type ULONGLONG to a value of type DWORD_PTR. |
+| [ULongLongToUIntPtr function](..\intsafe\nf-intsafe-ulonglongtouintptr.md) | Converts a value of type ULONGLONG to a value of type UINT_PTR. |
+| [ULongLongToULong function](..\intsafe\nf-intsafe-ulonglongtoulong.md) | Converts a value of type ULONGLONG to a value of type ULONG. |
+| [ULongLongToULongPtr function](..\intsafe\nf-intsafe-ulonglongtoulongptr.md) | Converts a value of type ULONGLONG to a value of type ULONG_PTR. |
 | [ULongLongToUShort function](..\intsafe\nf-intsafe-ulonglongtoushort.md) | Converts a value of type ULONGLONG to a value of type USHORT. |
-| [ULongMult function](..\intsafe\nf-intsafe-ulongmult.md) | Multiplies one value of type DWORD by another. |
+| [ULongMult function](..\intsafe\nf-intsafe-ulongmult.md) | Multiplies one value of type ULONG by another. |
 | [ULongPtrAdd function](..\intsafe\nf-intsafe-ulongptradd.md) | Adds two values of type ULONG_PTR. |
 | [ULongPtrMult function](..\intsafe\nf-intsafe-ulongptrmult.md) | Multiplies one value of type ULONG_PTR by another. |
 | [ULongPtrSub function](..\intsafe\nf-intsafe-ulongptrsub.md) | Subtracts one value of type ULONG_PTR from another. |
 | [ULongPtrToChar function](..\intsafe\nf-intsafe-ulongptrtochar.md) | Converts a value of type ULONG_PTR to a value of type CHAR. |
 | [ULongPtrToInt function](..\intsafe\nf-intsafe-ulongptrtoint.md) | Converts a value of type size_t to a value of type INT. |
 | [ULongPtrToInt8 function](..\intsafe\nf-intsafe-ulongptrtoint8.md) | Converts a value of type ULONG_PTR to a value of type INT8. |
-| [ULongPtrToIntPtr function](..\intsafe\nf-intsafe-ulongptrtointptr.md) | Converts a value of type DWORD_PTR to a value of type INT_PTR. |
-| [ULongPtrToLong function](..\intsafe\nf-intsafe-ulongptrtolong.md) | Converts a value of type DWORD_PTR to a value of type LONG. |
-| [ULongPtrToLongLong function](..\intsafe\nf-intsafe-ulongptrtolonglong.md) | Converts a value of type DWORD_PTR to a value of type INT64. |
-| [ULongPtrToLongPtr function](..\intsafe\nf-intsafe-ulongptrtolongptr.md) | Converts a value of type DWORD_PTR to a value of type LONG_PTR. |
+| [ULongPtrToIntPtr function](..\intsafe\nf-intsafe-ulongptrtointptr.md) | Converts a value of type ULONG_PTR to a value of type INT_PTR. |
+| [ULongPtrToLong function](..\intsafe\nf-intsafe-ulongptrtolong.md) | Converts a value of type ULONG_PTR to a value of type LONG. |
+| [ULongPtrToLongLong function](..\intsafe\nf-intsafe-ulongptrtolonglong.md) | Converts a value of type SIZE_T to a value of type INT64. |
+| [ULongPtrToLongPtr function](..\intsafe\nf-intsafe-ulongptrtolongptr.md) | Converts a value of type ULONG_PTR to a value of type LONG_PTR. |
 | [ULongPtrToShort function](..\intsafe\nf-intsafe-ulongptrtoshort.md) | Converts a value of type ULONG_PTR to a value of type SHORT. |
 | [ULongPtrToUChar function](..\intsafe\nf-intsafe-ulongptrtouchar.md) | Converts a value of type ULONG_PTR to a value of type UCHAR. |
-| [ULongPtrToUInt function](..\intsafe\nf-intsafe-ulongptrtouint.md) | Converts a value of type DWORD_PTR to a value of type UINT. |
+| [ULongPtrToUInt function](..\intsafe\nf-intsafe-ulongptrtouint.md) | Converts a value of type ULONG_PTR to a value of type UINT. |
 | [ULongPtrToUInt8 function](..\intsafe\nf-intsafe-ulongptrtouint8.md) | Converts a value of type ULONG_PTR to a value of type UINT8. |
 | [ULongPtrToUIntPtr function](..\intsafe\nf-intsafe-ulongptrtouintptr.md) | Converts a value of type ULONG_PTR to a value of type UINT_PTR. |
-| [ULongPtrToULong function](..\intsafe\nf-intsafe-ulongptrtoulong.md) | Converts a value of type DWORD_PTR to a value of type DWORD. |
+| [ULongPtrToULong function](..\intsafe\nf-intsafe-ulongptrtoulong.md) | Converts a value of type ULONG_PTR to a value of type ULONG. |
 | [ULongPtrToUShort function](..\intsafe\nf-intsafe-ulongptrtoushort.md) | Converts a value of type ULONG_PTR to a value of type USHORT. |
-| [ULongSub function](..\intsafe\nf-intsafe-ulongsub.md) | Subtracts one value of type DWORD from another. |
-| [ULongToChar function](..\intsafe\nf-intsafe-ulongtochar.md) | Converts a value of type DWORD to a value of type CHAR. |
-| [ULongToInt function](..\intsafe\nf-intsafe-ulongtoint.md) | Converts a value of type DWORD to a value of type INT. |
+| [ULongSub function](..\intsafe\nf-intsafe-ulongsub.md) | Subtracts one value of type ULONG from another. |
+| [ULongToChar function](..\intsafe\nf-intsafe-ulongtochar.md) | Converts a value of type ULONG to a value of type CHAR. |
+| [ULongToInt function](..\intsafe\nf-intsafe-ulongtoint.md) | Converts a value of type ULONG to a value of type INT. |
 | [ULongToInt8 function](..\intsafe\nf-intsafe-ulongtoint8.md) | Converts a value of type ULONG to a value of type INT8. |
-| [ULongToIntPtr function](..\intsafe\nf-intsafe-ulongtointptr.md) | Converts a value of type DWORD to a value of type INT_PTR. |
-| [ULongToLong function](..\intsafe\nf-intsafe-ulongtolong.md) | Converts a value of type DWORD to a value of type LONG. |
-| [ULongToLongPtr function](..\intsafe\nf-intsafe-ulongtolongptr.md) | Converts a value of type DWORD to a value of type LONG_PTR. |
-| [ULongToShort function](..\intsafe\nf-intsafe-ulongtoshort.md) | Converts a value of type DWORD to a value of type SHORT. |
-| [ULongToUChar function](..\intsafe\nf-intsafe-ulongtouchar.md) | Converts a value of type DWORD to a value of type UCHAR. |
-| [ULongToUInt function](..\intsafe\nf-intsafe-ulongtouint.md) | Converts a value of type DWORD to a value of type UINT. |
-| [ULongToUInt8 function](..\intsafe\nf-intsafe-ulongtouint8.md) | Converts a value of type DWORD to a value of type BYTE. |
-| [ULongToUIntPtr function](..\intsafe\nf-intsafe-ulongtouintptr.md) | Converts a value of type DWORD to a value of type UINT_PTR. |
-| [ULongToUShort function](..\intsafe\nf-intsafe-ulongtoushort.md) | Converts a value of type DWORD to a value of type WORD. |
+| [ULongToIntPtr function](..\intsafe\nf-intsafe-ulongtointptr.md) | Converts a value of type ULONG to a value of type INT_PTR. |
+| [ULongToLong function](..\intsafe\nf-intsafe-ulongtolong.md) | Converts a value of type ULONG to a value of type LONG. |
+| [ULongToLongPtr function](..\intsafe\nf-intsafe-ulongtolongptr.md) | Converts a value of type ULONG to a value of type LONG_PTR. |
+| [ULongToShort function](..\intsafe\nf-intsafe-ulongtoshort.md) | Converts a value of type ULONG to a value of type SHORT. |
+| [ULongToUChar function](..\intsafe\nf-intsafe-ulongtouchar.md) | Converts a value of type ULONG to a value of type UCHAR. |
+| [ULongToUInt function](..\intsafe\nf-intsafe-ulongtouint.md) | Converts a value of type ULONG to a value of type UINT. |
+| [ULongToUInt8 function](..\intsafe\nf-intsafe-ulongtouint8.md) | Converts a value of type ULONG to a value of type UINT8. |
+| [ULongToUIntPtr function](..\intsafe\nf-intsafe-ulongtouintptr.md) | Converts a value of type ULONG to a value of type UINT_PTR. |
+| [ULongToUShort function](..\intsafe\nf-intsafe-ulongtoushort.md) | Converts a value of type ULONG to a value of type USHORT. |
 | [URLAssociationDialogA function](..\intshcut\nf-intshcut-urlassociationdialoga.md) | Invokes the unregistered URL protocol dialog box. |
 | [URLAssociationDialogW function](..\intshcut\nf-intshcut-urlassociationdialogw.md) | Invokes the unregistered URL protocol dialog box. |
 | [UShortAdd function](..\intsafe\nf-intsafe-ushortadd.md) | Adds two values of type USHORT. |
@@ -799,7 +652,7 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [UShortToChar function](..\intsafe\nf-intsafe-ushorttochar.md) | Converts a value of type USHORT to a value of type CHAR. |
 | [UShortToInt8 function](..\intsafe\nf-intsafe-ushorttoint8.md) | Converts a value of type USHORT to a value of type INT8. |
 | [UShortToShort function](..\intsafe\nf-intsafe-ushorttoshort.md) | Converts a value of type USHORT to a value of type SHORT. |
-| [UShortToUChar function](..\intsafe\nf-intsafe-ushorttouchar.md) | Converts a value of type USHORT to a value of type BYTE. |
+| [UShortToUChar function](..\intsafe\nf-intsafe-ushorttouchar.md) | Converts a value of type USHORT to a value of type UCHAR. |
 | [UShortToUInt8 function](..\intsafe\nf-intsafe-ushorttouint8.md) | Converts a value of type USHORT to a value of type UINT8. |
 | [UnloadUserProfile function](..\userenv\nf-userenv-unloaduserprofile.md) | Unloads a user's profile that was loaded by the LoadUserProfile function. The caller must have administrative privileges on the computer. For more information, see the Remarks section of the LoadUserProfile function. |
 | [UnregisterAppStateChangeNotification function](..\appnotify\nf-appnotify-unregisterappstatechangenotification.md) | Cancels a change notification registered through RegisterAppStateChangeNotification. |
@@ -831,8 +684,6 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [UrlUnescapeA function](..\shlwapi\nf-shlwapi-urlunescapea.md) | Converts escape sequences back into ordinary characters. |
 | [UrlUnescapeW function](..\shlwapi\nf-shlwapi-urlunescapew.md) | Converts escape sequences back into ordinary characters. |
 | [WhichPlatform function](..\shlwapi\nf-shlwapi-whichplatform.md) | WhichPlatform may be altered or unavailable. |
-| [Win32DeleteFile function](..\shlobj_core\nf-shlobj_core-win32deletefile.md) | Win32DeleteFile may be altered or unavailable. |
-| [WriteCabinetState function](..\shlobj_core\nf-shlobj_core-writecabinetstate.md) | WriteCabinetState may be altered or unavailable. |
 | [wnsprintfA function](..\shlwapi\nf-shlwapi-wnsprintfa.md) | Takes a variable-length argument list and returns the values of the arguments as a printf-style formatted string. |
 | [wnsprintfW function](..\shlwapi\nf-shlwapi-wnsprintfw.md) | Takes a variable-length argument list and returns the values of the arguments as a printf-style formatted string. |
 | [wvnsprintfA function](..\shlwapi\nf-shlwapi-wvnsprintfa.md) | Takes a list of arguments and returns the values of the arguments as a printf-style formatted string. |
@@ -844,36 +695,17 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | ---- |:---- |
 | [APPLET_PROC callback](..\cpl\nc-cpl-applet_proc.md) | Serves as the entry point for a Control Panel application. This is a library-defined callback function. |
 | [DLLGETVERSIONPROC callback function](..\shlwapi\nc-shlwapi-dllgetversionproc.md) | Implemented by many of the Windows Shell DLLs to allow applications to obtain DLL-specific version information. |
-| [LPFNDFMCALLBACK callback](..\shlobj_core\nc-shlobj_core-lpfndfmcallback.md) | LPFNDFMCALLBACK may be altered or unavailable. |
-| [LPFNVIEWCALLBACK callback](..\shlobj_core\nc-shlobj_core-lpfnviewcallback.md) | Defines the prototype for the callback function used by the system folder view object. This function essentially duplicates the functionality of IShellFolderViewCB. |
 | [PAPPSTATE_CHANGE_ROUTINE callback function](..\appnotify\nc-appnotify-pappstate_change_routine.md) | Specifies an app-defined callback function that notifies the app when the app is entering or leaving a suspended state. |
 
 ## Structures
 
 | Title   | Description   |
 | ---- |:---- |
-| [AUTO_SCROLL_DATA structure](..\shlobj_core\ns-shlobj_core-auto_scroll_data.md) | AUTO_SCROLL_DATA may be altered or unavailable. |
 | [BASEBROWSERDATALH structure](..\shdeprecated\ns-shdeprecated-basebrowserdatalh.md) | Contains protected members of the base class. BASEBROWSERDATA defines the browser state and is used with IBrowserService2 |
 | [BASEBROWSERDATAXP structure](..\shdeprecated\ns-shdeprecated-basebrowserdataxp.md) | Contains protected members of the base class. BASEBROWSERDATA defines the browser state and is used with IBrowserService2 |
-| [CABINETSTATE structure](..\shlobj_core\ns-shlobj_core-cabinetstate.md) | CABINETSTATE may be altered or unavailable. |
 | [CONFIRM_CONFLICT_ITEM structure](..\syncmgr\ns-syncmgr-confirm_conflict_item.md) | Defines conflict item structure. |
 | [CONFIRM_CONFLICT_RESULT_INFO structure](..\syncmgr\ns-syncmgr-confirm_conflict_result_info.md) | Defines conflict result information structure. |
-| [DEFCONTEXTMENU structure](..\shlobj_core\ns-shlobj_core-defcontextmenu.md) | Contains context menu information used by SHCreateDefaultContextMenu. |
-| [DFMICS structure](..\shlobj_core\ns-shlobj_core-dfmics.md) | Contains additional arguments used by DFM_INVOKECOMMANDEX. |
-| [DROPDESCRIPTION structure](..\shlobj_core\ns-shlobj_core-dropdescription.md) | Describes the image and accompanying text for a drop object. |
-| [EXP_DARWIN_LINK structure](..\shlobj_core\ns-shlobj_core-exp_darwin_link.md) | Holds an extra data block used by IShellLinkDataList. It holds the link's Windows Installer ID. |
-| [EXP_PROPERTYSTORAGE structure](..\shlobj_core\ns-shlobj_core-exp_propertystorage.md) | Stores information about the Shell link state. This structure is used for extra data sections that are tagged with EXP_PROPERTYSTORAGE_SIG. |
-| [EXP_SPECIAL_FOLDER structure](..\shlobj_core\ns-shlobj_core-exp_special_folder.md) | Holds an extra data block used by IShellLinkDataList. It holds special folder information. |
-| [EXP_SZ_LINK structure](..\shlobj_core\ns-shlobj_core-exp_sz_link.md) | Holds an extra data block used by IShellLinkDataList. It holds expandable environment strings for the icon or target. |
-| [FILE_ATTRIBUTES_ARRAY structure](..\shlobj_core\ns-shlobj_core-file_attributes_array.md) | Contains the clipboard format definition for CFSTR_FILE_ATTRIBUTES_ARRAY. |
-| [NT_CONSOLE_PROPS structure](..\shlobj_core\ns-shlobj_core-nt_console_props.md) | Holds an extra data block used by IShellLinkDataList. It holds console properties. |
-| [NT_FE_CONSOLE_PROPS structure](..\shlobj_core\ns-shlobj_core-nt_fe_console_props.md) | Holds an extra data block used by IShellLinkDataList. It holds the console's code page. |
 | [QITAB structure](..\shlwapi\ns-shlwapi-qitab.md) | Used by the QISearch function to describe a single interface. |
-| [SHARDAPPIDINFO structure](..\shlobj_core\ns-shlobj_core-shardappidinfo.md) | Contains data used by SHAddToRecentDocs to identify both an item&#8212;in this case as an IShellItem&#8212;and the process that it is associated with. |
-| [SHARDAPPIDINFOIDLIST structure](..\shlobj_core\ns-shlobj_core-shardappidinfoidlist.md) | Contains data used by SHAddToRecentDocs to identify both an item&#8212;in this case by an absolute pointer to an item identifier list (PIDL)&#8212;and the process that it is associated with. |
-| [SHARDAPPIDINFOLINK structure](..\shlobj_core\ns-shlobj_core-shardappidinfolink.md) | Contains data used by SHAddToRecentDocs to identify both an item, in this case through an IShellLink, and the process that it is associated with. |
-| [SHELLFLAGSTATE structure](..\shlobj_core\ns-shlobj_core-shellflagstate.md) | Contains a set of flags that indicate the current Shell settings. This structure is used with the SHGetSettings function. |
-| [SHFOLDERCUSTOMSETTINGS structure](..\shlobj_core\ns-shlobj_core-shfoldercustomsettings.md) | Holds custom folder settings. This structure is used with the SHGetSetFolderCustomSettings function. |
 | [SToolbarItem structure](..\shdeprecated\ns-shdeprecated-stoolbaritem.md) | Deprecated. Data used in IBrowserService2 |
 | [SYNCMGR_CONFLICT_ID_INFO structure](..\syncmgr\ns-syncmgr-syncmgr_conflict_id_info.md) | Describes conflict ID information structure. |
 | [WTS_THUMBNAILID structure](..\thumbcache\ns-thumbcache-wts_thumbnailid.md) | Contains a unique identifier for a thumbnail in the system thumbnail cache. |
@@ -881,48 +713,24 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [_COMDLG_FILTERSPEC structure](..\shtypes\ns-shtypes-_comdlg_filterspec.md) | Used generically to filter elements. |
 | [_CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION structure](..\credentialprovider\ns-credentialprovider-_credential_provider_credential_serialization.md) | Contains details about a credential. |
 | [_CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR structure](..\credentialprovider\ns-credentialprovider-_credential_provider_field_descriptor.md) | Describes a single field in a credential. For example, a string or a user image. |
-| [_CSFV structure](..\shlobj_core\ns-shlobj_core-_csfv.md) | Used with the SHCreateShellFolderViewEx function. |
-| [_DETAILSINFO structure](..\shlobj_core\ns-shlobj_core-_detailsinfo.md) | Contains detail information for a Shell folder item. Used with the SFVM_GETDETAILSOF notification. |
 | [_DLLVERSIONINFO structure](..\shlwapi\ns-shlwapi-_dllversioninfo.md) | Receives DLL-specific version information. |
 | [_DLLVERSIONINFO2 structure](..\shlwapi\ns-shlwapi-_dllversioninfo2.md) | Receives DLL-specific version information. It is used with the DllGetVersion function. |
-| [_DROPFILES structure](..\shlobj_core\ns-shlobj_core-_dropfiles.md) | Defines the CF_HDROP clipboard format. The data that follows is a double null-terminated list of file names. |
-| [_IDA structure](..\shlobj_core\ns-shlobj_core-_ida.md) | Used with the CFSTR_SHELLIDLIST clipboard format to transfer the pointer to an item identifier list (PIDL) of one or more Shell namespace objects. |
 | [_ITEMIDLIST structure](..\shtypes\ns-shtypes-_itemidlist.md) | Contains a list of item identifiers. |
-| [_ITEMSPACING structure](..\shlobj_core\ns-shlobj_core-_itemspacing.md) | Stores the dimensions of the two possible sizes of icon spacing that are available for display |
-| [_NRESARRAY structure](..\shlobj_core\ns-shlobj_core-_nresarray.md) | Defines the CF_NETRESOURCE clipboard format. |
 | [_PROFILEINFOA structure](..\profinfo\ns-profinfo-_profileinfoa.md) | Contains information used when loading or unloading a user profile. |
 | [_PROFILEINFOW structure](..\profinfo\ns-profinfo-_profileinfow.md) | Contains information used when loading or unloading a user profile. |
 | [_PubAppInfo structure](..\shappmgr\ns-shappmgr-_pubappinfo.md) | Provides information about a published application from an application publisher to Add/Remove Programs in Control Panel. |
-| [_QCMINFO structure](..\shlobj_core\ns-shlobj_core-_qcminfo.md) | Contains information for merging menu items into Windows Explorer menus. |
-| [_SFVM_HELPTOPIC_DATA structure](..\shlobj_core\ns-shlobj_core-_sfvm_helptopic_data.md) | Contains the name of an HTML Help file and a topic in that file. Used with the SFVM_GETHELPTOPIC notification. This structure requires Unicode strings. |
-| [_SFVM_PROPPAGE_DATA structure](..\shlobj_core\ns-shlobj_core-_sfvm_proppage_data.md) | Contains the details of a page to be added to an object's Properties sheet. |
-| [_SFV_CREATE structure](..\shlobj_core\ns-shlobj_core-_sfv_create.md) | This structure is used with the SHCreateShellFolderView function. |
-| [_SHChangeDWORDAsIDList structure](..\shlobj_core\ns-shlobj_core-_shchangedwordasidlist.md) | SHChangeDWORDAsIDList may be altered or unavailable. |
-| [_SHChangeNotifyEntry structure](..\shlobj_core\ns-shlobj_core-_shchangenotifyentry.md) | Contains and receives information for change notifications. This structure is used with the SHChangeNotifyRegister function and the SFVM_QUERYFSNOTIFY notification. |
-| [_SHChangeUpdateImageIDList structure](..\shlobj_core\ns-shlobj_core-_shchangeupdateimageidlist.md) | SHChangeUpdateImageIDList may be altered or unavailable. |
-| [_SHDESCRIPTIONID structure](..\shlobj_core\ns-shlobj_core-_shdescriptionid.md) | Receives item data in response to a call to SHGetDataFromIDList. |
 | [_SHELLDETAILS structure](..\shtypes\ns-shtypes-_shelldetails.md) | Reports detailed information on an item in a Shell folder. |
 | [_SHITEMID structure](..\shtypes\ns-shtypes-_shitemid.md) | Defines an item identifier. |
 | [_STRRET structure](..\shtypes\ns-shtypes-_strret.md) | Contains strings returned from the IShellFolder interface methods. |
 | [_WINDOWDATA structure](..\tlogstg\ns-tlogstg-_windowdata.md) | Stores window data. |
 | [__MIDL___MIDL_itf_dimm_0000_0000_0003 structure](..\dimm\ns-dimm-__midl___midl_itf_dimm_0000_0000_0003.md) | Defines the attributes of a font. |
 | [__MIDL___MIDL_itf_dimm_0000_0000_0004 structure](..\dimm\ns-dimm-__midl___midl_itf_dimm_0000_0000_0004.md) | Defines the attributes of a font. |
-| [_browseinfoA structure](..\shlobj_core\ns-shlobj_core-_browseinfoa.md) | Contains parameters for the SHBrowseForFolder function and receives information about the folder selected by the user. |
-| [_browseinfoW structure](..\shlobj_core\ns-shlobj_core-_browseinfow.md) | Contains parameters for the SHBrowseForFolder function and receives information about the folder selected by the user. |
-| [_openasinfo structure](..\shlobj_core\ns-shlobj_core-_openasinfo.md) | Stores information for the SHOpenWithDialog function. |
-| [_tagCOMPONENT structure](..\shlobj_core\ns-shlobj_core-_tagcomponent.md) | Used by Windows 2000 to hold information about a component. This structure replaces the IE4COMPONENT structure. |
-| [_tagCOMPONENTSOPT structure](..\shlobj_core\ns-shlobj_core-_tagcomponentsopt.md) | Contains the desktop item options. |
-| [_tagCOMPPOS structure](..\shlobj_core\ns-shlobj_core-_tagcomppos.md) | Holds information about a component's position and size. |
-| [_tagCOMPSTATEINFO structure](..\shlobj_core\ns-shlobj_core-_tagcompstateinfo.md) | Used by Windows 2000 to hold information about a component's state. |
-| [_tagIE4COMPONENT structure](..\shlobj_core\ns-shlobj_core-_tagie4component.md) | Used by Microsoft Internet Explorer 4.0 and Microsoft Internet Explorer 4.01 to hold information about a component. With Windows 2000, it is replaced by the COMPONENT structure. |
 | [_tagSYNCMGRHANDLERINFO structure](..\mobsync\ns-mobsync-_tagsyncmgrhandlerinfo.md) | Provides information about the handler for use in the ISyncMgrSynchronize |
 | [_tagSYNCMGRITEM structure](..\mobsync\ns-mobsync-_tagsyncmgritem.md) | Provides information about items being enumerated by the ISyncMgrEnumItems interface. |
 | [_tagSYNCMGRLOGERRORINFO structure](..\mobsync\ns-mobsync-_tagsyncmgrlogerrorinfo.md) | Provides error information for use in the ISyncMgrSynchronizeCallback |
 | [_tagSYNCMGRPROGRESSITEM structure](..\mobsync\ns-mobsync-_tagsyncmgrprogressitem.md) | Provides status information while a synchronization is in progress. This structure is used with the ISyncMgrSynchronizeCallback |
 | [_tagSlowAppInfo structure](..\shappmgr\ns-shappmgr-_tagslowappinfo.md) | Provides specialized application information to Add/Remove Programs in Control Panel. This structure is not applicable to published applications. |
-| [_tagWALLPAPEROPT structure](..\shlobj_core\ns-shlobj_core-_tagwallpaperopt.md) | Contains the wallpaper display options. Used with members of the IActiveDesktop interface. |
 | [tagCPLINFO structure](..\cpl\ns-cpl-tagcplinfo.md) | Contains resource information and an application-defined value for a dialog box supported by a Control Panel application. |
-| [tagDATABLOCKHEADER structure](..\shlobj_core\ns-shlobj_core-tagdatablockheader.md) | Serves as the header for some of the extra data structures used by IShellLinkDataList. |
 | [tagFolderSetData structure](..\shdeprecated\ns-shdeprecated-tagfoldersetdata.md) | Deprecated. Data used in IBrowserService2 |
 | [tagLOGFONTA structure](..\shtypes\ns-shtypes-taglogfonta.md) | Defines the attributes of a font. |
 | [tagLOGFONTW structure](..\shtypes\ns-shtypes-taglogfontw.md) | Defines the attributes of a font. |
@@ -941,13 +749,7 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS enumeration](..\credentialprovider\ne-credentialprovider-credential_provider_account_options.md) | Indicates the type of credential that a credential provider should return to associate with the &#0034;Other user&#0034; tile. Used by ICredentialProviderUserArray_GetAccountOptions. |
 | [CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS enumeration](..\credentialprovider\ne-credentialprovider-credential_provider_credential_field_options.md) | Provides customization options for a single field in a logon or credential UI. |
 | [DEVICE_SCALE_FACTOR enumeration](..\shtypes\ne-shtypes-device_scale_factor.md) | Indicates a spoofed device scale factor, as a percent. Used by IApplicationDesignModeSettings |
-| [DROPIMAGETYPE enumeration](..\shlobj_core\ne-shlobj_core-dropimagetype.md) | Values used with the DROPDESCRIPTION structure to specify the drop image. |
 | [FILETYPEATTRIBUTEFLAGS enumeration](..\shlwapi\ne-shlwapi-filetypeattributeflags.md) | Indicates FILETYPEATTRIBUTEFLAGS constants that are used in the EditFlags value of a file association PROGID registry key. |
-| [KNOWN_FOLDER_FLAG enumeration](..\shlobj_core\ne-shlobj_core-known_folder_flag.md) | Specify special retrieval options for known folders. These values supersede CSIDL values, which have parallel meanings. |
-| [RESTRICTIONS enumeration](..\shlobj_core\ne-shlobj_core-restrictions.md) | These flags are used with the SHRestricted function. |
-| [SCNRT_STATUS enumeration](..\shlobj_core\ne-shlobj_core-scnrt_status.md) | Indicates whether to enable or disable Async Register and Deregister for SHChangeNotifyRegisterThread. |
-| [SHARD enumeration](..\shlobj_core\ne-shlobj_core-shard.md) | Indicates the interpretation of the data passed by SHAddToRecentDocs in its pv parameter to identify the item whose usage statistics are being tracked. |
-| [SHELL_LINK_DATA_FLAGS enumeration](..\shlobj_core\ne-shlobj_core-shell_link_data_flags.md) | Specifies option settings. Used with IShellLinkDataList |
 | [SHGLOBALCOUNTER enumeration](..\shlwapi\ne-shlwapi-shglobalcounter.md) | Identifiers for various global counters, or shared variables. Each global counter can be incremented or decremented using SHGlobalCounterIncrement and SHGlobalCounterDecrement. |
 | [SHREGDEL_FLAGS enumeration](..\shlwapi\ne-shlwapi-shregdel_flags.md) | Provides a set of values that indicate from which base key an item will be deleted. |
 | [SHREGENUM_FLAGS enumeration](..\shlwapi\ne-shlwapi-shregenum_flags.md) | Provides a set of values that indicate the base key that will be used for an enumeration. |
@@ -977,7 +779,6 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [_CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE enumeration](..\credentialprovider\ne-credentialprovider-_credential_provider_get_serialization_response.md) | Describes the response when a credential provider attempts to serialize credentials. |
 | [_CREDENTIAL_PROVIDER_STATUS_ICON enumeration](..\credentialprovider\ne-credentialprovider-_credential_provider_status_icon.md) | Indicates which status icon should be displayed. |
 | [_CREDENTIAL_PROVIDER_USAGE_SCENARIO enumeration](..\credentialprovider\ne-credentialprovider-_credential_provider_usage_scenario.md) | Declares the scenarios in which a credential provider is supported. A credential provider usage scenario (CPUS) enables the credential provider to provide distinct enumeration behavior and UI field setup across scenarios. |
-| [_tagAUTOCOMPLETELISTOPTIONS enumeration](..\shlobj_core\ne-shlobj_core-_tagautocompletelistoptions.md) | Specifies which objects are enumerated for autocompletion lists. |
 | [_tagAppActionFlags enumeration](..\shappmgr\ne-shappmgr-_tagappactionflags.md) | Specifies application management actions supported by an application publisher. These flags are bitmasks passed to IShellApp |
 | [_tagAppInfoFlags enumeration](..\shappmgr\ne-shappmgr-_tagappinfoflags.md) | Specifies application information to return from IShellApp |
 | [_tagPublishedAppInfoFlags enumeration](..\shappmgr\ne-shappmgr-_tagpublishedappinfoflags.md) | Specifies which members in the PUBAPPINFO structure are valid. These flags are bitmasks set in the dwMask member and passed to IPublishedApp |
@@ -990,7 +791,6 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [_tagSYNCMGRSTATUS enumeration](..\mobsync\ne-mobsync-_tagsyncmgrstatus.md) | Used in the ISyncMgrSynchronize |
 | [mimeassociationdialog_in_flags enumeration](..\intshcut\ne-intshcut-mimeassociationdialog_in_flags.md) | Used with the MIMEAssociationDialog function to determine how it executes. |
 | [tagBNSTATE enumeration](..\shdeprecated\ne-shdeprecated-tagbnstate.md) | Deprecated. Used by IBrowserService |
-| [tagIESHORTCUTFLAGS enumeration](..\shlobj_core\ne-shlobj_core-tagieshortcutflags.md) | Specifies how a shortcut should be handled by the browser. |
 | [tagPERCEIVED enumeration](..\shtypes\ne-shtypes-tagperceived.md) | Specifies a file's perceived type. This set of constants is used in the AssocGetPerceivedType function. |
 | [tagSFBS_FLAGS enumeration](..\shlwapi\ne-shlwapi-tagsfbs_flags.md) | Specifies how the StrFormatByteSizeEx function should handle rounding of undisplayed digits. |
 | [tagSHCOLSTATE enumeration](..\shtypes\ne-shtypes-tagshcolstate.md) | Describes how a property should be treated. These values are defined in Shtypes.h. |

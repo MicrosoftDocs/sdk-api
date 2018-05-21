@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorBalance_ColorBalance_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorbalanceclass\colorbalanceconstructors\colorbalance.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: ColorBalance, ColorBalance class [GDI+],ColorBalance constructor, ColorBalance constructor [GDI+], ColorBalance constructor [GDI+],ColorBalance class, ColorBalance.ColorBalance, ColorBalance::ColorBalance, _gdiplus_CLASS_ColorBalance_ColorBalance_, gdiplus._gdiplus_CLASS_ColorBalance_ColorBalance_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\olecreatefontindirect.htm
 old-project: com
 ms.assetid: 9ab384d6-fc21-4152-a0cf-744948f2f72c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleCreateFontIndirect, OleCreateFontIndirect function [COM], _ole_OleCreateFontIndirect, com.olecreatefontindirect, olectl/OleCreateFontIndirect
 ms.prod: windows-hardware
 ms.technology: windows-devices

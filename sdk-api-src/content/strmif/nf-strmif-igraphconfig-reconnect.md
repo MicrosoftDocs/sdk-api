@@ -7,7 +7,7 @@ old-location: dshow\igraphconfig_reconnect.htm
 old-project: DirectShow
 ms.assetid: e8cfac8e-df89-444d-bcc7-0cbc7ab5a592
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IGraphConfig interface [DirectShow],Reconnect method, IGraphConfig.Reconnect, IGraphConfig::Reconnect, IGraphConfigReconnect, Reconnect, Reconnect method [DirectShow], Reconnect method [DirectShow],IGraphConfig interface, dshow.igraphconfig_reconnect, strmif/IGraphConfig::Reconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

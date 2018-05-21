@@ -7,7 +7,7 @@ old-location: wsw\wssetoutput.htm
 old-project: wsw
 ms.assetid: f0b47817-0ad1-408c-a6da-9a7b0fb2e34b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsSetOutput, WsSetOutput function [Web Services for Windows], webservices/WsSetOutput, wsw.wssetoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices

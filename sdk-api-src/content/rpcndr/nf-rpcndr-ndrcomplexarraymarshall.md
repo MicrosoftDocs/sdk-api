@@ -7,7 +7,7 @@ old-location: winprog\ndrcomplexarraymarshall.htm
 old-project: DevNotes
 ms.assetid: 01109e96-7d5b-4f16-a0fc-e7cf49020c3e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: NdrComplexArrayMarshall, NdrComplexArrayMarshall function [Windows API], rpcndr/NdrComplexArrayMarshall, winprog.ndrcomplexarraymarshall
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ioleinplaceactiveobject_resizeborder.htm
 old-project: com
 ms.assetid: 240d2ae5-abce-4bea-969e-f47780908bbb
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],ResizeBorder method, IOleInPlaceActiveObject.ResizeBorder, IOleInPlaceActiveObject::ResizeBorder, ResizeBorder, ResizeBorder method [COM], ResizeBorder method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_resizeborder, com.ioleinplaceactiveobject_resizeborder, oleidl/IOleInPlaceActiveObject::ResizeBorder
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,112 @@
+---
+UID: NF:cfgmgr32.CM_Get_Device_Interface_Property_KeysW
+title: CM_Get_Device_Interface_Property_KeysW function
+author: windows-driver-content
+description: The CM_Get_Device_Interface_Property_Keys function retrieves an array of device property keys that represent the device properties that are set for a device interface.
+old-location: devinst\cm_get_device_interface_property_keys.htm
+old-project: devinst
+ms.assetid: 0C0FE652-57DE-45DE-B1F2-84EB1BD14285
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: CM_Get_Device_Interface_Property_Keys, CM_Get_Device_Interface_Property_Keys function [Device and Driver Installation], CM_Get_Device_Interface_Property_KeysW, cfgmgr32/CM_Get_Device_Interface_Property_Keys, cfgmgr32/CM_Get_Device_Interface_Property_KeysW, devinst.cm_get_device_interface_property_keys
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Universal
+req.target-min-winverclnt: Available in Microsoft Windows Vista and later versions of Windows.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: CM_Get_Device_Interface_Property_KeysW (Unicode)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cfgmgr32.lib
+-	Cfgmgr32.dll
+-	API-Ms-Win-Devices-Config-L1-1-0.dll
+-	API-Ms-Win-Devices-Config-L1-1-1.dll
+-	CfgMgr32.dll
+api_name:
+-	CM_Get_Device_Interface_Property_Keys
+-	CM_Get_Device_Interface_Property_KeysW
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib
+req.dll: 
+req.irql: 
+---
+
+# CM_Get_Device_Interface_Property_KeysW function
+
+
+## -description
+
+
+The <b>CM_Get_Device_Interface_Property_Keys</b> function retrieves an array of device property keys that represent the device properties that are set for a device interface.
+
+
+## -parameters
+
+
+
+
+### -param pszDeviceInterface [in]
+
+Pointer to a string that identifies the device interface instance to retrieve the property keys from.
+
+
+### -param PropertyKeyArray [out, optional]
+
+Pointer to a buffer that receives an array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>-typed values, where each value is a device property key that represents a device property that is set for the device interface. The pointer is optional and can be NULL
+
+
+### -param PropertyKeyCount [in, out]
+
+The size, in <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>-typed units, of the <i>PropertyKeyArray</i> buffer. If <i>PropertyKeyArray</i> is set to NULL, <i>*PropertyKeyCount</i> must be set to zero.  As output, if <i>PropertyKeyArray</i> is not large enough to hold all the property key data, <b>CM_Get_Device_Interface_Property_Keys</b> returns the count of the keys, in <i>*PropertyKeyCount</i>.
+
+
+### -param ulFlags [in]
+
+Reserved. Must be set to zero.
+
+
+## -returns
+
+
+
+If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
+
+
+
+
+## -remarks
+
+
+
+<b>CM_Get_Device_Interface_Property_Keys</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">Unified Device Property Model</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551959">SetupDiGetDeviceInterfacePropertyKeys</a>
+ 
+
+ 
+

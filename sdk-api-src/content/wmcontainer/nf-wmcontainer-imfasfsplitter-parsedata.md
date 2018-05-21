@@ -7,7 +7,7 @@ old-location: mf\imfasfsplitter_parsedata.htm
 old-project: medfound
 ms.assetid: 13457c17-ab35-47a3-8e83-00eef7686841
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 13457c17-ab35-47a3-8e83-00eef7686841, IMFASFSplitter interface [Media Foundation],ParseData method, IMFASFSplitter.ParseData, IMFASFSplitter::ParseData, ParseData, ParseData method [Media Foundation], ParseData method [Media Foundation],IMFASFSplitter interface, mf.imfasfsplitter_parsedata, wmcontainer/IMFASFSplitter::ParseData
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\getvolumenameforvolumemountpoint.htm
 old-project: FileIO
 ms.assetid: 3f749042-bdc9-4087-bb8a-d833713472eb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: GetVolumeNameForVolumeMountPoint, GetVolumeNameForVolumeMountPoint function [Files], GetVolumeNameForVolumeMountPointA, GetVolumeNameForVolumeMountPointW, _win32_getvolumenameforvolumemountpoint, base.getvolumenameforvolumemountpoint, fileapi/GetVolumeNameForVolumeMountPoint, fileapi/GetVolumeNameForVolumeMountPointA, fileapi/GetVolumeNameForVolumeMountPointW, fs.getvolumenameforvolumemountpoint, winbase/GetVolumeNameForVolumeMountPoint, winbase/GetVolumeNameForVolumeMountPointA, winbase/GetVolumeNameForVolumeMountPointW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

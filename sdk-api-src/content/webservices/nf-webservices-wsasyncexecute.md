@@ -7,7 +7,7 @@ old-location: wsw\wsasyncexecute.htm
 old-project: wsw
 ms.assetid: 8705ac1a-62ba-4239-aeb6-b35ac5f0dd18
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsAsyncExecute, WsAsyncExecute function [Web Services for Windows], webservices/WsAsyncExecute, wsw.wsasyncexecute
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\definedosdevice.htm
 old-project: FileIO
 ms.assetid: 924b1456-b2c5-4d52-aacf-6172608c73ea
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: DDD_EXACT_MATCH_ON_REMOVE, DDD_NO_BROADCAST_SYSTEM, DDD_RAW_TARGET_PATH, DDD_REMOVE_DEFINITION, DefineDosDevice, DefineDosDevice function [Files], DefineDosDeviceA, DefineDosDeviceW, _win32_definedosdevice, base.definedosdevice, fileapi/DefineDosDevice, fileapi/DefineDosDeviceA, fileapi/DefineDosDeviceW, fs.definedosdevice, winbase/DefineDosDevice, winbase/DefineDosDeviceA, winbase/DefineDosDeviceW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -99,7 +99,7 @@ If this value is specified along with <b>DDD_REMOVE_DEFINITION</b>, the function
 </dl>
 </td>
 <td width="60%">
-Do not broadcast the <a href="base.wm_settingchange">WM_SETTINGCHANGE</a> message. 
+Do not broadcast the <a href="https://msdn.microsoft.com/77174e06-a25b-440a-9e9c-4fd5979c433c">WM_SETTINGCHANGE</a> message. 
         By default, this message is broadcast to notify the shell and applications of the change.
 
 </td>

@@ -7,7 +7,7 @@ old-location: fs\duplicateencryptioninfofile.htm
 old-project: FileIO
 ms.assetid: c830ae98-3649-4981-9369-7d4cb019b50f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: CREATE_ALWAYS, CREATE_NEW, DuplicateEncryptionInfoFile, DuplicateEncryptionInfoFile function [Files], _win32_duplicateencryptioninfofile, base.duplicateencryptioninfofile, fs.duplicateencryptioninfofile, winefs/DuplicateEncryptionInfoFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

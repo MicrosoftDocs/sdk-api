@@ -7,7 +7,7 @@ old-location: wcs\getdevicegammaramp.htm
 old-project: WCS
 ms.assetid: c32600a9-545e-4bbf-a3c1-21878f5106b0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/17/2018
 ms.keywords: GetDeviceGammaRamp, GetDeviceGammaRamp function [Windows Color System], _color_GetDeviceGammaRamp, wcs.getdevicegammaramp, wingdi/GetDeviceGammaRamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

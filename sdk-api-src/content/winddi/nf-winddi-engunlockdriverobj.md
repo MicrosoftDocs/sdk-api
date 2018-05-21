@@ -7,7 +7,7 @@ old-location: display\engunlockdriverobj.htm
 old-project: display
 ms.assetid: 027bf180-b226-4d88-803d-2839417f727f
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: EngUnlockDriverObj, EngUnlockDriverObj function [Display Devices], display.engunlockdriverobj, gdifncs_3d830c51-4f44-40ef-933b-d04fed38523c.xml, winddi/EngUnlockDriverObj
 ms.prod: windows-hardware
 ms.technology: windows-devices

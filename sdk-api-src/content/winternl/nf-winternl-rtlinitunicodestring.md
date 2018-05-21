@@ -7,7 +7,7 @@ old-location: winprog\rtlinitunicodestring.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlinitunicodestring.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RtlInitUnicodeString, RtlInitUnicodeString function [Windows API], winprog.rtlinitunicodestring, winternl/RtlInitUnicodeString, winui.rtlinitunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices

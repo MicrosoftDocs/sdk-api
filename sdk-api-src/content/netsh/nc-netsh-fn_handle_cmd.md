@@ -7,8 +7,8 @@ old-location: netshell\fn_handle_cmd.htm
 old-project: NetShell
 ms.assetid: 5058e202-9ad4-4789-97db-3c13b4a1c337
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
-ms.keywords: SampleCommand, SampleCommand callback function [NetShell], _netsh_fn_handle_cmd, netsh/SampleCommand, netshell.fn_handle_cmd
+ms.date: 5/10/2018
+ms.keywords: FN_HANDLE_CMD, FN_HANDLE_CMD callback, FN_HANDLE_CMD callback function [NetShell], SampleCommand, _netsh_fn_handle_cmd, netsh/FN_HANDLE_CMD, netshell.fn_handle_cmd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Netsh.h
 api_name:
--	SampleCommand
+-	FN_HANDLE_CMD
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
-# FN_HANDLE_CMD callback
+# FN_HANDLE_CMD callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: dshow\iamdevmemoryallocator_getdevmemoryobject.htm
 old-project: DirectShow
 ms.assetid: d7ca361a-1ce6-449f-9d81-fbfe39f0f9f0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetDevMemoryObject, GetDevMemoryObject method [DirectShow], GetDevMemoryObject method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],GetDevMemoryObject method, IAMDevMemoryAllocator.GetDevMemoryObject, IAMDevMemoryAllocator::GetDevMemoryObject, IAMDevMemoryAllocatorGetDevMemoryObject, dshow.iamdevmemoryallocator_getdevmemoryobject, strmif/IAMDevMemoryAllocator::GetDevMemoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

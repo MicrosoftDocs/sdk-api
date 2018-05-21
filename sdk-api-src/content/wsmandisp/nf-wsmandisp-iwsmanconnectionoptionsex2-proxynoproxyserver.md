@@ -7,7 +7,7 @@ old-location: winrm\iwsmanconnectionoptionsex2_proxynoproxyserver.htm
 old-project: WinRM
 ms.assetid: 00613052-7428-4719-9a19-fc27541af07a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: IWSManConnectionOptionsEx2 interface [Windows Remote Management],ProxyNoProxyServer method, IWSManConnectionOptionsEx2.ProxyNoProxyServer, IWSManConnectionOptionsEx2::ProxyNoProxyServer, ProxyNoProxyServer, ProxyNoProxyServer method [Windows Remote Management], ProxyNoProxyServer method [Windows Remote Management],IWSManConnectionOptionsEx2 interface, winrm.iwsmanconnectionoptionsex2_proxynoproxyserver, wsmandisp/IWSManConnectionOptionsEx2::ProxyNoProxyServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

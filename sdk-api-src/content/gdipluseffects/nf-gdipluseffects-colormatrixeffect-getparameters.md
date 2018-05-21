@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorMatrixEffect_GetParameters_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colormatrixeffectclass\colormatrixeffectmethods\getparameters.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: ColorMatrixEffect class [GDI+],GetParameters method, ColorMatrixEffect.GetParameters, ColorMatrixEffect::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],ColorMatrixEffect class, _gdiplus_CLASS_ColorMatrixEffect_GetParameters_, gdiplus._gdiplus_CLASS_ColorMatrixEffect_GetParameters_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\imultisessionrandomwrite_get_lastwrittenaddress.htm
 old-project: imapi
 ms.assetid: 04d5c8ad-347c-4f2d-aa3d-3db77067a51e
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IMultisessionRandomWrite interface [IMAPI],get_LastWrittenAddress method, IMultisessionRandomWrite.get_LastWrittenAddress, IMultisessionRandomWrite::get_LastWrittenAddress, get_LastWrittenAddress, get_LastWrittenAddress method [IMAPI], get_LastWrittenAddress method [IMAPI],IMultisessionRandomWrite interface, imapi.imultisessionrandomwrite_get_lastwrittenaddress, imapi2/IMultisessionRandomWrite::get_LastWrittenAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

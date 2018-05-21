@@ -7,7 +7,7 @@ old-location: etw\itracerelogger_inject.htm
 old-project: ETW
 ms.assetid: c9d19ad9-182d-469e-b783-2061b7150933
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: ITraceRelogger interface [ETW],Inject method, ITraceRelogger.Inject, ITraceRelogger::Inject, Inject, Inject method [ETW], Inject method [ETW],ITraceRelogger interface, etw.itracerelogger_inject, relogger/ITraceRelogger::Inject
 ms.prod: windows-hardware
 ms.technology: windows-devices

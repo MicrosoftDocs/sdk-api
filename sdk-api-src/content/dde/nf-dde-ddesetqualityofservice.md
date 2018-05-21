@@ -7,7 +7,7 @@ old-location: dataxchg\ddesetqualityofservice.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\ddesetqualityofservice.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: DdeSetQualityOfService, DdeSetQualityOfService function [Data Exchange], _win32_DdeSetQualityOfService, _win32_ddesetqualityofservice_cpp, dataxchg.ddesetqualityofservice, dde/DdeSetQualityOfService, winui._win32_ddesetqualityofservice
 ms.prod: windows-hardware
 ms.technology: windows-devices

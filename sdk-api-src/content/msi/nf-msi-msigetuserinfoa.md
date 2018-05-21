@@ -7,7 +7,7 @@ old-location: setup\msigetuserinfo.htm
 old-project: Msi
 ms.assetid: c05580c6-9be3-410a-aa97-be15c2980ba8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MsiGetUserInfo, MsiGetUserInfo function, MsiGetUserInfoA, MsiGetUserInfoW, _msi_msigetuserinfo, msi/MsiGetUserInfo, msi/MsiGetUserInfoA, msi/MsiGetUserInfoW, setup.msigetuserinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

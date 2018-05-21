@@ -7,7 +7,7 @@ old-location: mstv\imsvidtunerevent.htm
 old-project: mstv
 ms.assetid: cdffe6ca-00b0-4230-963d-b4409413e5f5
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidTunerEvent, IMSVidTunerEvent interface [Microsoft TV Technologies], IMSVidTunerEvent interface [Microsoft TV Technologies],described, IMSVidTunerEventInterface, mstv.imsvidtunerevent, segment/IMSVidTunerEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

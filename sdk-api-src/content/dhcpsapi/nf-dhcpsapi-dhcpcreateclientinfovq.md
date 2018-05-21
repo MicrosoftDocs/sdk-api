@@ -7,7 +7,7 @@ old-location: dhcp\dhcpcreateclientinfovq.htm
 old-project: DHCP
 ms.assetid: 8b47bd52-e153-4000-9f4e-5335f029464b
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpCreateClientInfoVQ, DhcpCreateClientInfoVQ function [DHCP], dhcp.dhcpcreateclientinfovq, dhcpsapi/DhcpCreateClientInfoVQ
 ms.prod: windows-hardware
 ms.technology: windows-devices

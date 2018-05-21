@@ -7,7 +7,7 @@ old-location: shell\IContactManagerInterop_ShowContactCardForWindow.htm
 old-project: shell
 ms.assetid: 2B32B3DB-A423-4BDF-9ED1-9C1BB5B0533D
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FP_ABOVE, FP_BELOW, FP_DEFAULT, FP_LEFT, FP_RIGHT, IContactManagerInterop interface [Windows Shell],ShowContactCardForWindow method, IContactManagerInterop.ShowContactCardForWindow, IContactManagerInterop::ShowContactCardForWindow, ShowContactCardForWindow, ShowContactCardForWindow method [Windows Shell], ShowContactCardForWindow method [Windows Shell],IContactManagerInterop interface, shell.IContactManagerInterop_ShowContactCardForWindow, shobjidl_core/IContactManagerInterop::ShowContactCardForWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IContactManagerInterop::ShowContactCardForWindow

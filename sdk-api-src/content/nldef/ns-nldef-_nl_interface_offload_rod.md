@@ -7,7 +7,7 @@ old-location: mib\nl_interface_offload_rod.htm
 old-project: MIB
 ms.assetid: 764c7f5a-00df-461d-99ee-07f9e1f77ec7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PNL_INTERFACE_OFFLOAD_ROD, NL_INTERFACE_OFFLOAD_ROD, NL_INTERFACE_OFFLOAD_ROD structure [MIB], PNL_INTERFACE_OFFLOAD_ROD, PNL_INTERFACE_OFFLOAD_ROD structure pointer [MIB], _NL_INTERFACE_OFFLOAD_ROD, mib.nl_interface_offload_rod, nldef/NL_INTERFACE_OFFLOAD_ROD, nldef/PNL_INTERFACE_OFFLOAD_ROD"
 ms.prod: windows-hardware
 ms.technology: windows-devices

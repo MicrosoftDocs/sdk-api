@@ -7,7 +7,7 @@ old-location: indexsrv\ci_state.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2qjp.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CI_STATE, CI_STATE structure [Indexing Service], _CI_STATE, _idxs_CI_STATE, indexsrv.ci_state, ntquery/CI_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

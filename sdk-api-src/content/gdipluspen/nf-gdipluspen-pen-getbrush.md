@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_GetBrush_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getbrush.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetBrush, GetBrush method [GDI+], GetBrush method [GDI+],Pen class, Pen class [GDI+],GetBrush method, Pen.GetBrush, Pen::GetBrush, _gdiplus_CLASS_Pen_GetBrush_, gdiplus._gdiplus_CLASS_Pen_GetBrush_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\unregisterwait.htm
 old-project: Sync
 ms.assetid: 9ae8879f-0dbd-4d04-ae6e-094324f82acf
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/17/2018
 ms.keywords: UnregisterWait, UnregisterWait function, _win32_unregisterwait, base.unregisterwait, winbase/UnregisterWait
 ms.prod: windows-hardware
 ms.technology: windows-devices

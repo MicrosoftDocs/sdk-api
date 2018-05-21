@@ -7,7 +7,7 @@ old-location: fs\storage_physical_adapter_data.htm
 old-project: FileIO
 ms.assetid: 8CC7CF43-61C8-4561-BA9C-473878818858
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Files], STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Files], _STORAGE_PHYSICAL_ADAPTER_DATA, fs.storage_physical_adapter_data, winioctl/PSTORAGE_PHYSICAL_ADAPTER_DATA, winioctl/STORAGE_PHYSICAL_ADAPTER_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

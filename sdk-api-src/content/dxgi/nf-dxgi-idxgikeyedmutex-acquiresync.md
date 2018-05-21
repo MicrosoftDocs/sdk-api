@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgikeyedmutex_acquiresync.htm
 old-project: direct3ddxgi
 ms.assetid: 31edab76-7b16-4a02-83ff-998c21e77f2e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: 06d995ac-16d4-215c-4d9a-179636a32853, AcquireSync, AcquireSync method [DXGI], AcquireSync method [DXGI],IDXGIKeyedMutex interface, IDXGIKeyedMutex interface [DXGI],AcquireSync method, IDXGIKeyedMutex.AcquireSync, IDXGIKeyedMutex::AcquireSync, direct3ddxgi.idxgikeyedmutex_acquiresync, dxgi/IDXGIKeyedMutex::AcquireSync
 ms.prod: windows-hardware
 ms.technology: windows-devices

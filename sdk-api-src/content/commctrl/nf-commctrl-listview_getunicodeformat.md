@@ -7,7 +7,7 @@ old-location: controls\ListView_GetUnicodeFormat.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getunicodeformat.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ListView_GetUnicodeFormat, ListView_GetUnicodeFormat macro [Windows Controls], _win32_ListView_GetUnicodeFormat, _win32_ListView_GetUnicodeFormat_cpp, commctrl/ListView_GetUnicodeFormat, controls.ListView_GetUnicodeFormat, controls._win32_ListView_GetUnicodeFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

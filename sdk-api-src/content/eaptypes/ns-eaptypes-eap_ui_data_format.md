@@ -7,7 +7,7 @@ old-location: eaphost\eap_ui_data_format.htm
 old-project: EAPHost
 ms.assetid: e4b49cbd-b50d-474c-b6b5-8ff858eca424
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EAP_UI_DATA_FORMAT, EAP_UI_DATA_FORMAT union [EAPHost], eaphost.eap_ui_data_format, eaptypes/EAP_UI_DATA_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices

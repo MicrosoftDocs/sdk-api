@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxincomingmessageiterator_prefetchsize_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_64th_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: IFaxIncomingMessageIterator interface [Fax Service],PrefetchSize property, IFaxIncomingMessageIterator.PrefetchSize, IFaxIncomingMessageIterator.get_PrefetchSize, IFaxIncomingMessageIterator::PrefetchSize, IFaxIncomingMessageIterator::get_PrefetchSize, IFaxIncomingMessageIterator::put_PrefetchSize, PrefetchSize property [Fax Service], PrefetchSize property [Fax Service],IFaxIncomingMessageIterator interface, _mfax_faxincomingmessageiterator.prefetchsize_cpp, fax._mfax_faxincomingmessageiterator_prefetchsize_cpp, faxcomex/IFaxIncomingMessageIterator::PrefetchSize, faxcomex/IFaxIncomingMessageIterator::get_PrefetchSize, faxcomex/IFaxIncomingMessageIterator::put_PrefetchSize, get_PrefetchSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\ITextRange_SetChar.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setchar.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextRange interface [Windows Controls],SetChar method, ITextRange.SetChar, ITextRange::SetChar, SetChar, SetChar method [Windows Controls], SetChar method [Windows Controls],ITextRange interface, _win32_ITextRange_SetChar, _win32_ITextRange_SetChar_cpp, controls.ITextRange_SetChar, controls._win32_ITextRange_SetChar, tom/ITextRange::SetChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: of\iofflinefilesevents_itempinned.htm
 old-project: OfflineFiles
 ms.assetid: cf298e4e-97c8-4f6f-b6f5-0bd0d9435599
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemPinned method, IOfflineFilesEvents.ItemPinned, IOfflineFilesEvents::ItemPinned, ItemPinned, ItemPinned method [Offline Files], ItemPinned method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemPinned, of.iofflinefilesevents_itempinned
 ms.prod: windows-hardware
 ms.technology: windows-devices

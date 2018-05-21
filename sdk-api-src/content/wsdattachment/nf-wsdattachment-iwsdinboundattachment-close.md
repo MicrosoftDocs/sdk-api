@@ -7,7 +7,7 @@ old-location: ncd\iwsdinboundattachment_close.htm
 old-project: WsdApi
 ms.assetid: 1bd0295c-4c37-42ec-b5a5-dc7f467def05
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: Close, Close method, Close method,IWSDInboundAttachment interface, IWSDInboundAttachment interface,Close method, IWSDInboundAttachment.Close, IWSDInboundAttachment::Close, ncd.iwsdinboundattachment_close, wsdattachment/IWSDInboundAttachment::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

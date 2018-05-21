@@ -7,7 +7,7 @@ old-location: com\cogetobjectcontext.htm
 old-project: com
 ms.assetid: 97a0c6c3-a011-44dc-b428-aabdad7d4364
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CoGetObjectContext, CoGetObjectContext function [COM], _com_CoGetObjectContext, com.cogetobjectcontext, combaseapi/CoGetObjectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

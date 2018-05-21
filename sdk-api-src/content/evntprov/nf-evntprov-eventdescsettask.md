@@ -7,7 +7,7 @@ old-location: etw\eventdescsettask_func.htm
 old-project: ETW
 ms.assetid: 74298e6f-b29a-4fa7-98d1-f81270fcbc0e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EventDescSetTask, EventDescSetTask function [ETW], base.eventdescsettask_func, etw.eventdescsettask_func, evntprov/EventDescSetTask
 ms.prod: windows-hardware
 ms.technology: windows-devices

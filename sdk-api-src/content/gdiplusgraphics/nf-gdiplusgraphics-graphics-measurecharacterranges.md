@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_leng
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\measurecharacterranges.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Graphics class [GDI+],MeasureCharacterRanges method, Graphics.MeasureCharacterRanges, Graphics::MeasureCharacterRanges, MeasureCharacterRanges, MeasureCharacterRanges method [GDI+], MeasureCharacterRanges method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun, gdiplus._gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mf_video_processor_mirror.htm
 old-project: medfound
 ms.assetid: AFD29AD7-8DC9-4834-8F8E-D062A3A19BD0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MF_VIDEO_PROCESSOR_MIRROR, MF_VIDEO_PROCESSOR_MIRROR enumeration [Media Foundation], MIRROR_HORIZONTAL, MIRROR_NONE, MIRROR_VERTICAL, _MF_VIDEO_PROCESSOR_MIRROR, mf.mf_video_processor_mirror, mfidl/MF_VIDEO_PROCESSOR_MIRROR, mfidl/MIRROR_HORIZONTAL, mfidl/MIRROR_NONE, mfidl/MIRROR_VERTICAL
 ms.prod: windows-hardware
 ms.technology: windows-devices

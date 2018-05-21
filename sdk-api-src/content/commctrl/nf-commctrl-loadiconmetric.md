@@ -7,7 +7,7 @@ old-location: controls\LoadIconMetric.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\loadiconmetric.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: LIM_LARGE, LIM_SMALL, LoadIconMetric, LoadIconMetric function [Windows Controls], _shell_LoadIconMetric, _shell_LoadIconMetric_cpp, commctrl/LoadIconMetric, controls.LoadIconMetric, controls._shell_LoadIconMetric
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,7 +118,7 @@ The desired metric. One of the following values:
 </dl>
 </td>
 <td width="60%">
-Corresponds to <a href="base.getsystemmetrics">SM_CXSMICON</a>, the recommended pixel width of a small icon.
+Corresponds to <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">SM_CXSMICON</a>, the recommended pixel width of a small icon.
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ Corresponds to <a href="base.getsystemmetrics">SM_CXSMICON</a>, the recommended 
 </dl>
 </td>
 <td width="60%">
-Corresponds to<a href="base.getsystemmetrics">SM_CXICON</a>, the default pixel width of an icon.
+Corresponds to<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">SM_CXICON</a>, the default pixel width of an icon.
 
 </td>
 </tr>

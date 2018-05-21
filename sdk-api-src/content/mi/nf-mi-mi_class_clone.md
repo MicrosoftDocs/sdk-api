@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_class_clone.htm
 old-project: wmi_v2
 ms.assetid: a95b867c-7567-4ea4-a02c-049002de2109
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_Class_Clone, MI_Class_Clone function [Windows Management Infrastructure (MI)], mi/MI_Class_Clone, wmi_v2.mi_class_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

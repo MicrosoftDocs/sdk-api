@@ -7,7 +7,7 @@ old-location: imapi\iredbookdiscmaster.htm
 old-project: imapi
 ms.assetid: ea531b22-869a-400e-801f-00bb85ebaac2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IRedbookDiscMaster, IRedbookDiscMaster interface [IMAPI], IRedbookDiscMaster interface [IMAPI],described, _win32_iredbookdiscmaster, base.iredbookdiscmaster, imapi.iredbookdiscmaster, imapi/IRedbookDiscMaster
 ms.prod: windows-hardware
 ms.technology: windows-devices

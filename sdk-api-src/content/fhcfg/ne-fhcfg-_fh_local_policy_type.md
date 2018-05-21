@@ -7,7 +7,7 @@ old-location: winprog\fh_local_policy_type.htm
 old-project: DevNotes
 ms.assetid: 59C54A67-91A3-495F-95F2-50EB373D442C
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*PFH_LOCAL_POLICY_TYPE, FH_FREQUENCY, FH_LOCAL_POLICY_TYPE, FH_LOCAL_POLICY_TYPE enumeration [Windows API], FH_RETENTION_AGE, FH_RETENTION_TYPE, MAX_LOCAL_POLICY, _FH_LOCAL_POLICY_TYPE, fhcfg/FH_FREQUENCY, fhcfg/FH_LOCAL_POLICY_TYPE, fhcfg/FH_RETENTION_AGE, fhcfg/FH_RETENTION_TYPE, fhcfg/MAX_LOCAL_POLICY, winprog.fh_local_policy_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\enclaveunsealdata.htm
 old-project: Memory
 ms.assetid: DDBDBEDE-E7EA-43B0-B2C7-B85D75EF3EB0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: ENCLAVE_UNSEAL_FLAG_STALE_KEY, EnclaveUnsealData, EnclaveUnsealData function, base.enclaveunsealdata, winenclaveapi/EnclaveUnsealData
 ms.prod: windows-hardware
 ms.technology: windows-devices

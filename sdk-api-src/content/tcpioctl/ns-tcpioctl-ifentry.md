@@ -7,7 +7,7 @@ old-location: winprog\ifentry.htm
 old-project: DevNotes
 ms.assetid: 830cd19e-06a9-46dc-a869-d2a17107d942
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IFEntry, IFEntry structure [Windows API], tcpioctl/IFEntry, winprog.ifentry
 ms.prod: windows-hardware
 ms.technology: windows-devices

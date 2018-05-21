@@ -7,7 +7,7 @@ old-location: dshow\ifullscreenvideoex_setdefault.htm
 old-project: DirectShow
 ms.assetid: 1821703c-0da1-4b3e-a921-a66770b8ee0d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetDefault method, IFullScreenVideoEx.SetDefault, IFullScreenVideoEx::SetDefault, IFullScreenVideoSetDefault, SetDefault, SetDefault method [DirectShow], SetDefault method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetDefault, dshow.ifullscreenvideoex_setdefault
 ms.prod: windows-hardware
 ms.technology: windows-devices

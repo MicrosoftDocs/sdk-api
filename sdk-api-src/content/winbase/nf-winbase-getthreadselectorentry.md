@@ -7,7 +7,7 @@ old-location: base\getthreadselectorentry.htm
 old-project: Debug
 ms.assetid: 9bf6f7b1-7a30-4398-a12a-b1de986f860d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: GetThreadSelectorEntry, GetThreadSelectorEntry function, _win32_getthreadselectorentry, base.getthreadselectorentry, winbase/GetThreadSelectorEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

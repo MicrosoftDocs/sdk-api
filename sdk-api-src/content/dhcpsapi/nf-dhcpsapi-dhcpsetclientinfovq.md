@@ -7,7 +7,7 @@ old-location: dhcp\dhcpsetclientinfovq.htm
 old-project: DHCP
 ms.assetid: c12ae8f5-8629-494f-905c-cbae57dcf3f1
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: DhcpSetClientInfoVQ, DhcpSetClientInfoVQ function [DHCP], dhcp.dhcpsetclientinfovq, dhcpsapi/DhcpSetClientInfoVQ
 ms.prod: windows-hardware
 ms.technology: windows-devices

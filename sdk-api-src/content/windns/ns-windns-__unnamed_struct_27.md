@@ -7,7 +7,7 @@ old-location: dns\dns_loc_data.htm
 old-project: DNS
 ms.assetid: c1e05479-17f0-4993-8dcf-02036989d6dc
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/11/2018
 ms.keywords: "*PDNS_LOC_DATA, DNS_LOC_DATA, DNS_LOC_DATA structure [DNS], PDNS_LOC_DATA, PDNS_LOC_DATA structure pointer [DNS], _dns_dns_loc_data, dns.dns_loc_data, windns/DNS_LOC_DATA, windns/PDNS_LOC_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

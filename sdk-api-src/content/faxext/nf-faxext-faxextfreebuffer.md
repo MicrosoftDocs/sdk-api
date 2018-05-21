@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxextfreebuffer.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_75bm.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxExtFreeBuffer, FaxExtFreeBuffer function [Fax Service], _mfax_faxextfreebuffer, fax._mfax_faxextfreebuffer, faxext/FaxExtFreeBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

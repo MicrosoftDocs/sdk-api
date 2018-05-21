@@ -2,7 +2,7 @@
 UID: TP:xps
 ms.assetid: 047318b5-29f7-3069-a13a-0bf4c2391b71
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

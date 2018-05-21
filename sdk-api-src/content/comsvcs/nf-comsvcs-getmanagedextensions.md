@@ -7,7 +7,7 @@ old-location: cos\getmanagedextensions.htm
 old-project: cossdk
 ms.assetid: cffd18c4-6e37-447b-b749-64793711ea56
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: GetManagedExtensions, GetManagedExtensions function [COM+], _cos_GetManagedExtensions, comsvcs/GetManagedExtensions, cos.getmanagedextensions
 ms.prod: windows-hardware
 ms.technology: windows-devices

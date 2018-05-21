@@ -7,7 +7,7 @@ old-location: display\created3dbuffer.htm
 old-project: display
 ms.assetid: 8b012e65-b78b-41a4-ac05-d9be015b6ed8
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: CreateD3DBuffer, CreateD3DBuffer callback function [Display Devices], PDD_CREATESURFACE, PDD_CREATESURFACE callback, d3dfncs_065c964d-8e17-4ec1-9b9a-c74d2f91aa27.xml, ddrawint/CreateD3DBuffer, display.created3dbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: cos\imtslocator.htm
 old-project: cossdk
 ms.assetid: afa559bc-5ac2-4487-bb13-25f30c5f4033
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IMTSLocator, IMTSLocator interface [COM+], IMTSLocator interface [COM+],described, _dtc_IMtsLocator_Interface, comsvcs/IMTSLocator, cos.imtslocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

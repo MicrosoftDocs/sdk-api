@@ -7,7 +7,7 @@ old-location: gdi\createmetafile.htm
 old-project: gdi
 ms.assetid: 81b3baae-f0e6-4b71-a6de-953ad3376dbd
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: CreateMetaFile, CreateMetaFile function [Windows GDI], CreateMetaFileA, CreateMetaFileW, _win32_CreateMetaFile, gdi.createmetafile, wingdi/CreateMetaFile, wingdi/CreateMetaFileA, wingdi/CreateMetaFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

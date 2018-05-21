@@ -7,7 +7,7 @@ old-location: cos\iservicetransactionconfigbase_transactiontimeout.htm
 old-project: cossdk
 ms.assetid: 87943fe9-ef88-49ae-96d0-99d1011478dc
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IServiceTransactionConfigBase interface [COM+],TransactionTimeout method, IServiceTransactionConfigBase.TransactionTimeout, IServiceTransactionConfigBase::TransactionTimeout, TransactionTimeout, TransactionTimeout method [COM+], TransactionTimeout method [COM+],IServiceTransactionConfigBase interface, _cos_IServiceTransactionConfigBase_TransactionTimeout, comsvcs/IServiceTransactionConfigBase::TransactionTimeout, cos.iservicetransactionconfigbase_transactiontimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices

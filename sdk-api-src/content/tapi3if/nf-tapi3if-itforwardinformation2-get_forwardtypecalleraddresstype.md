@@ -7,7 +7,7 @@ old-location: tapi3\itforwardinformation2_get_forwardtypecalleraddresstype.htm
 old-project: Tapi
 ms.assetid: 030d2b44-0c1d-488b-8cd9-e68ad6d26c6e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: ITForwardInformation2 interface [TAPI 2.2],get_ForwardTypeCallerAddressType method, ITForwardInformation2.get_ForwardTypeCallerAddressType, ITForwardInformation2::get_ForwardTypeCallerAddressType, _tapi3_itforwardinformation2_get_forwardtypecalleraddresstype, get_ForwardTypeCallerAddressType, get_ForwardTypeCallerAddressType method [TAPI 2.2], get_ForwardTypeCallerAddressType method [TAPI 2.2],ITForwardInformation2 interface, tapi3.itforwardinformation2_get_forwardtypecalleraddresstype, tapi3if/ITForwardInformation2::get_ForwardTypeCallerAddressType
 ms.prod: windows-hardware
 ms.technology: windows-devices

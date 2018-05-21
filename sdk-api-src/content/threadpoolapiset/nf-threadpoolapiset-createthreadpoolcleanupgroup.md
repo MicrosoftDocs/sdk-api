@@ -7,7 +7,7 @@ old-location: base\createthreadpoolcleanupgroup.htm
 old-project: ProcThread
 ms.assetid: 668593fe-2ed1-418d-8cd5-5fac61826ea1
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: CreateThreadpoolCleanupGroup, CreateThreadpoolCleanupGroup function, base.createthreadpoolcleanupgroup, threadpoolapiset/CreateThreadpoolCleanupGroup, winbase/CreateThreadpoolCleanupGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

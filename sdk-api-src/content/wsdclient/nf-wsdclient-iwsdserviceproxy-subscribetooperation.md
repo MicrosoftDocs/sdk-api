@@ -7,7 +7,7 @@ old-location: ncd\iwsdserviceproxy_subscribetooperation_method.htm
 old-project: WsdApi
 ms.assetid: d3294bd7-f3df-4571-92f6-eb6bc57240fb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDServiceProxy interface,SubscribeToOperation method, IWSDServiceProxy.SubscribeToOperation, IWSDServiceProxy::SubscribeToOperation, SubscribeToOperation, SubscribeToOperation method, SubscribeToOperation method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_subscribetooperation_method, wsdclient/IWSDServiceProxy::SubscribeToOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icenroll4_createrequest.htm
 old-project: SecCrypto
 ms.assetid: d2a1c1c4-dbbf-423c-bf59-da0ab9a71078
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CEnroll object [Security],createRequest method, ICEnroll4 interface [Security],createRequest method, ICEnroll4.createRequest, ICEnroll4::createRequest, XECR_CMC, XECR_PKCS10_V1_5, XECR_PKCS10_V2_0, XECR_PKCS7, _xen_icenroll4_createrequest, createRequest, createRequest method [Security], createRequest method [Security],CEnroll object, createRequest method [Security],ICEnroll4 interface, security.icenroll4_createrequest, xenroll/ICEnroll4::createRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

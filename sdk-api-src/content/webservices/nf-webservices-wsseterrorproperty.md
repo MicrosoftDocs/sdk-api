@@ -7,7 +7,7 @@ old-location: wsw\wsseterrorproperty.htm
 old-project: wsw
 ms.assetid: 5193eaf4-29f7-4e97-a3b0-97441b26399c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsSetErrorProperty, WsSetErrorProperty function [Web Services for Windows], webservices/WsSetErrorProperty, wsw.wsseterrorproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

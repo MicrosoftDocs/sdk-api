@@ -7,7 +7,7 @@ old-location: fs\txfs_create_miniversion_info.htm
 old-project: FileIO
 ms.assetid: 247d1471-08f4-4717-bcd8-be9d01e23d79
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PTXFS_CREATE_MINIVERSION_INFO, PTXFS_CREATE_MINIVERSION_INFO, PTXFS_CREATE_MINIVERSION_INFO structure pointer [Files], TXFS_CREATE_MINIVERSION_INFO, TXFS_CREATE_MINIVERSION_INFO structure [Files], _TXFS_CREATE_MINIVERSION_INFO, fs.txfs_create_miniversion_info, winioctl/PTXFS_CREATE_MINIVERSION_INFO, winioctl/TXFS_CREATE_MINIVERSION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

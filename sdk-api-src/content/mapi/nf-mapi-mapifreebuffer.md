@@ -7,7 +7,7 @@ old-location: mapi\mapifreebuffer.htm
 old-project: WindowsMAPI
 ms.assetid: b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 5/11/2018
 ms.keywords: MAPIFreeBuffer, MAPIFreeBuffer function, mapi.mapifreebuffer, wabmem/MAPIFreeBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

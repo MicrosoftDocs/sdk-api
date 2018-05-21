@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetSmoothingMode_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getsmoothingmode.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetSmoothingMode, GetSmoothingMode method [GDI+], GetSmoothingMode method [GDI+],Graphics class, Graphics class [GDI+],GetSmoothingMode method, Graphics.GetSmoothingMode, Graphics::GetSmoothingMode, _gdiplus_CLASS_Graphics_GetSmoothingMode_, gdiplus._gdiplus_CLASS_Graphics_GetSmoothingMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices

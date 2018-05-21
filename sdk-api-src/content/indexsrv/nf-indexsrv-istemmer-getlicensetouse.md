@@ -2,13 +2,13 @@
 UID: NF:indexsrv.IStemmer.GetLicenseToUse
 title: IStemmer::GetLicenseToUse
 author: windows-driver-content
-description: Retrieves the license information for this IStemmer implementation.
-old-location: indexsrv\istemmer_getlicensetouse.htm
-old-project: IndexSrv
-ms.assetid: VS|indexsrv|~\html\ixrefint_2ch1.htm
+description: Gets the license information for this IStemmer implementation.
+old-location: search\_search_IStemmer_GetLicenseToUse.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\getlicensetouse.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: GetLicenseToUse, GetLicenseToUse method [Indexing Service], GetLicenseToUse method [Indexing Service],IStemmer interface, IStemmer interface [Indexing Service],GetLicenseToUse method, IStemmer.GetLicenseToUse, IStemmer::GetLicenseToUse, _idxs_IStemmer_GetLicenseToUse, indexsrv.istemmer_getlicensetouse, indexsrv/IStemmer::GetLicenseToUse
+ms.date: 5/8/2018
+ms.keywords: GetLicenseToUse, GetLicenseToUse method [search], GetLicenseToUse method [search],IStemmer interface, IStemmer interface [search],GetLicenseToUse method, IStemmer.GetLicenseToUse, IStemmer::GetLicenseToUse, _search_IStemmer_GetLicenseToUse, indexsrv/IStemmer::GetLicenseToUse, search._search_IStemmer_GetLicenseToUse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,9 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
-
-Retrieves the license information for this <a href="https://msdn.microsoft.com/3b655078-367d-4e74-aeb1-a5b5c135e88e">IStemmer</a> implementation.
+Gets the license information for this <a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a> implementation.
 
 
 ## -parameters
@@ -62,33 +60,18 @@ Retrieves the license information for this <a href="https://msdn.microsoft.com/3
 
 ### -param ppwcsLicense [out]
 
-A pointer to a variable that receives a pointer to the license information.
+Type: <b>const WCHAR**</b>
+
+Pointer to a variable that receives a pointer to the license information for this <a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a> implementation.
 
 
 ## -returns
 
 
 
-This method can return one of these values.
+Type: <b>HRESULT</b>
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation was completed successfully.
-
-</td>
-</tr>
-</table>
- 
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 
@@ -97,20 +80,7 @@ The operation was completed successfully.
 
 
 
-The Indexing Service does not enforce license restrictions. The implementation determines the storage method for the license information.
+Windows Search does not enforce license restrictions. The implementation determines the storage method for the license information.
 
 
-
-
-
-
-## -see-also
-
-
-
-
-<a href="https://msdn.microsoft.com/3b655078-367d-4e74-aeb1-a5b5c135e88e">IStemmer</a>
- 
-
- 
 

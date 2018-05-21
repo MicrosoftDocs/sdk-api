@@ -7,7 +7,7 @@ old-location: security\ix509privatekey_providername.htm
 old-project: SecCertEnroll
 ms.assetid: 42a348ae-9946-4d76-a035-14990d823449
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509PrivateKey interface [Security],ProviderName property, IX509PrivateKey.ProviderName, IX509PrivateKey.get_ProviderName, IX509PrivateKey::ProviderName, IX509PrivateKey::get_ProviderName, IX509PrivateKey::put_ProviderName, ProviderName property [Security], ProviderName property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ProviderName, certenroll/IX509PrivateKey::get_ProviderName, certenroll/IX509PrivateKey::put_ProviderName, get_ProviderName, security.ix509privatekey_providername
 ms.prod: windows-hardware
 ms.technology: windows-devices

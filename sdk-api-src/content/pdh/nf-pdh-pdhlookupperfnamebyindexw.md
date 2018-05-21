@@ -7,7 +7,7 @@ old-location: perf\pdhlookupperfnamebyindex.htm
 old-project: PerfCtrs
 ms.assetid: 6d5e1465-296b-4d8c-b0cb-aefdffb8539e
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PdhLookupPerfNameByIndex, PdhLookupPerfNameByIndex function [Perf], PdhLookupPerfNameByIndexA, PdhLookupPerfNameByIndexW, _win32_pdhlookupperfnamebyindex, base.pdhlookupperfnamebyindex, pdh/PdhLookupPerfNameByIndex, pdh/PdhLookupPerfNameByIndexA, pdh/PdhLookupPerfNameByIndexW, perf.pdhlookupperfnamebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

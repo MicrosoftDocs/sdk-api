@@ -7,7 +7,7 @@ old-location: controls\GetThemeBackgroundRegion.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundregion.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetThemeBackgroundRegion, GetThemeBackgroundRegion function [Windows Controls], controls.GetThemeBackgroundRegion, controls.inet_GetThemeBackgroundRegion, inet_GetThemeBackgroundRegion, inet_GetThemeBackgroundRegion_cpp, uxtheme/GetThemeBackgroundRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices

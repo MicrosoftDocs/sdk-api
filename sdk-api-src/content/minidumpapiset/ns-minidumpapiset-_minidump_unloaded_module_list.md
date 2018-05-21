@@ -7,7 +7,7 @@ old-location: base\minidump_unloaded_module_list_str.htm
 old-project: Debug
 ms.assetid: 26a42ae7-f84d-451d-92e9-dbaffb15ca74
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: "*PMINIDUMP_UNLOADED_MODULE_LIST, MINIDUMP_UNLOADED_MODULE_LIST, MINIDUMP_UNLOADED_MODULE_LIST structure, PMINIDUMP_UNLOADED_MODULE_LIST, PMINIDUMP_UNLOADED_MODULE_LIST structure pointer, _MINIDUMP_UNLOADED_MODULE_LIST, _win32_minidump_unloaded_module_list_str, base.minidump_unloaded_module_list_str, minidumpapiset/MINIDUMP_UNLOADED_MODULE_LIST, minidumpapiset/PMINIDUMP_UNLOADED_MODULE_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

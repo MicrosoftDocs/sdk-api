@@ -7,7 +7,7 @@ old-location: ldap\ldap_create_page_control.htm
 old-project: LDAP
 ms.assetid: b3b1f3bd-7eb3-4f76-921c-386562dae2e2
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_create_page_control, ldap.ldap__create__page__control, ldap.ldap_create_page_control, ldap_create_page_control, ldap_create_page_control function [LDAP], ldap_create_page_controlA, ldap_create_page_controlW, winldap/ldap_create_page_control, winldap/ldap_create_page_controlA, winldap/ldap_create_page_controlW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

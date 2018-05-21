@@ -7,7 +7,7 @@ old-location: menurc\privateextracticons.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\privateextracticons.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: PrivateExtractIcons, PrivateExtractIcons function [Menus and Other Resources], PrivateExtractIconsA, PrivateExtractIconsW, _win32_PrivateExtractIcons, _win32_privateextracticons_cpp, menurc.privateextracticons, winui._win32_privateextracticons, winuser/PrivateExtractIcons, winuser/PrivateExtractIconsA, winuser/PrivateExtractIconsW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\querycredentialsattributes.htm
 old-project: SecAuthN
 ms.assetid: a8ba6f73-8469-431b-b185-183b45b2c533
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: QueryCredentialsAttributes, QueryCredentialsAttributes function [Security], QueryCredentialsAttributesA, QueryCredentialsAttributesW, _ssp_querycredentialsattributes, security.querycredentialsattributes, sspi/QueryCredentialsAttributes, sspi/QueryCredentialsAttributesA, sspi/QueryCredentialsAttributesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # QueryCredentialsAttributesW function

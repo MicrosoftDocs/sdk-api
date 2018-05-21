@@ -7,7 +7,7 @@ old-location: rpc\uuidcreatesequential.htm
 old-project: Rpc
 ms.assetid: 66975d82-559c-4a13-846c-e403b015563b
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: UuidCreateSequential, UuidCreateSequential function [RPC], _rpc_uuidcreatesequential, rpc.uuidcreatesequential, rpcdce/UuidCreateSequential
 ms.prod: windows-hardware
 ms.technology: windows-devices

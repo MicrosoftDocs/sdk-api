@@ -7,7 +7,7 @@ old-location: security\freecredentialshandle.htm
 old-project: SecAuthN
 ms.assetid: e089618c-8233-475a-9725-39265c6427ab
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: FreeCredentialsHandle, FreeCredentialsHandle function [Security], _ssp_freecredentialshandle, security.freecredentialshandle, sspi/FreeCredentialsHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # FreeCredentialsHandle function

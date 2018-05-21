@@ -7,7 +7,7 @@ old-location: mib\mib_udptable.htm
 old-project: MIB
 ms.assetid: 83608d38-e352-483a-b284-2f9cb444e64f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PMIB_UDPTABLE, MIB_UDPTABLE, MIB_UDPTABLE structure [MIB], PMIB_UDPTABLE, PMIB_UDPTABLE structure pointer [MIB], _MIB_UDPTABLE, _mpr_mib_udptable, iprtrmib/MIB_UDPTABLE, iprtrmib/PMIB_UDPTABLE, mib.mib_udptable, rras.mib_udptable, udpmib/MIB_UDPTABLE, udpmib/PMIB_UDPTABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

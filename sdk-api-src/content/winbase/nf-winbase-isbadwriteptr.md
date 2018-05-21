@@ -7,7 +7,7 @@ old-location: base\isbadwriteptr.htm
 old-project: Memory
 ms.assetid: 2b353a8e-45cf-4108-9522-bcbde9c71ec4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: IsBadWritePtr, IsBadWritePtr function, _win32_isbadwriteptr, base.isbadwriteptr, winbase/IsBadWritePtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

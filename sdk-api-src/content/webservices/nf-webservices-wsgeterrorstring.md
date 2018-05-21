@@ -7,7 +7,7 @@ old-location: wsw\wsgeterrorstring.htm
 old-project: wsw
 ms.assetid: 711c14b4-6a74-4860-a9cc-7b8673dc1a28
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsGetErrorString, WsGetErrorString function [Web Services for Windows], webservices/WsGetErrorString, wsw.wsgeterrorstring
 ms.prod: windows-hardware
 ms.technology: windows-devices

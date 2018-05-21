@@ -7,7 +7,7 @@ old-location: ncd\iwsdserviceproxyeventing_getstatusformultipleoperations.htm
 old-project: WsdApi
 ms.assetid: ba9c6d6e-d551-4010-b3b7-9e5391de9c49
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetStatusForMultipleOperations, GetStatusForMultipleOperations method, GetStatusForMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,GetStatusForMultipleOperations method, IWSDServiceProxyEventing.GetStatusForMultipleOperations, IWSDServiceProxyEventing::GetStatusForMultipleOperations, ncd.iwsdserviceproxyeventing_getstatusformultipleoperations, wsdclient/IWSDServiceProxyEventing::GetStatusForMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

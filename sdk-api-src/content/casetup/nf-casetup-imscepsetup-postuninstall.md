@@ -7,7 +7,7 @@ old-location: security\imscepsetup_postuninstall.htm
 old-project: SecCrypto
 ms.assetid: 8989ebde-0d33-4f9a-a4dc-82562eab5976
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: IMSCEPSetup interface [Security],PostUnInstall method, IMSCEPSetup.PostUnInstall, IMSCEPSetup::PostUnInstall, PostUnInstall, PostUnInstall method [Security], PostUnInstall method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::PostUnInstall, security.imscepsetup_postuninstall
 ms.prod: windows-hardware
 ms.technology: windows-devices

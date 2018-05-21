@@ -7,7 +7,7 @@ old-location: rras\rasdevspecificinfo.htm
 old-project: RRAS
 ms.assetid: 0dee3f10-d49b-4059-8cfb-c28af6b8b371
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "*PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO structure pointer [RAS], RASDEVSPECIFICINFO, RASDEVSPECIFICINFO structure [RAS], ras/PRASDEVSPECIFICINFO, ras/RASDEVSPECIFICINFO, rras.rasdevspecificinfo, tagRASDEVSPECIFICINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

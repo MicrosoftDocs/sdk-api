@@ -7,7 +7,7 @@ old-location: mstv\iauxintuningspace2_get_countrycode.htm
 old-project: mstv
 ms.assetid: dffd3ad2-2caa-4041-9e24-024050414a87
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IAuxInTuningSpace2 interface [Microsoft TV Technologies],get_CountryCode method, IAuxInTuningSpace2.get_CountryCode, IAuxInTuningSpace2::get_CountryCode, IAuxInTuningSpace2get_CountryCode, get_CountryCode, get_CountryCode method [Microsoft TV Technologies], get_CountryCode method [Microsoft TV Technologies],IAuxInTuningSpace2 interface, mstv.iauxintuningspace2_get_countrycode, tuner/IAuxInTuningSpace2::get_CountryCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

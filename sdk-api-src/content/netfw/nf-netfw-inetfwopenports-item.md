@@ -7,7 +7,7 @@ old-location: ics\inetfwopenports_item.htm
 old-project: ICS
 ms.assetid: f0491047-d20d-49e4-9319-421b48feca48
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetFwOpenPorts interface [ICS/ICF],Item method, INetFwOpenPorts.Item, INetFwOpenPorts::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwOpenPorts interface, ics.inetfwopenports_item, netfw/INetFwOpenPorts::Item
 ms.prod: windows-hardware
 ms.technology: windows-devices

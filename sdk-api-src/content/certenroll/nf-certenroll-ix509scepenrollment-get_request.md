@@ -7,7 +7,7 @@ old-location: security\ix509scepenrollment_request.htm
 old-project: SecCertEnroll
 ms.assetid: 9446cd62-5a02-4701-8b13-9e46508fbfaa
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],Request property, IX509SCEPEnrollment.Request, IX509SCEPEnrollment.get_Request, IX509SCEPEnrollment::Request, IX509SCEPEnrollment::get_Request, Request property [Security], Request property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Request, certenroll/IX509SCEPEnrollment::get_Request, get_Request, security.ix509scepenrollment_request
 ms.prod: windows-hardware
 ms.technology: windows-devices

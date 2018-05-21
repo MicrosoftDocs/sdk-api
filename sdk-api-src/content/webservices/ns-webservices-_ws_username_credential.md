@@ -7,7 +7,7 @@ old-location: wsw\ws_username_credential.htm
 old-project: wsw
 ms.assetid: 961f8c52-9922-4e43-905a-a22a80aba63b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_USERNAME_CREDENTIAL, WS_USERNAME_CREDENTIAL structure [Web Services for Windows], _WS_USERNAME_CREDENTIAL, webservices/WS_USERNAME_CREDENTIAL, wsw.ws_username_credential
 ms.prod: windows-hardware
 ms.technology: windows-devices

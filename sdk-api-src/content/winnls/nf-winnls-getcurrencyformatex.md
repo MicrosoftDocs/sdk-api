@@ -7,7 +7,7 @@ old-location: intl\getcurrencyformatex.htm
 old-project: Intl
 ms.assetid: 72639b31-cd5d-455c-873a-e3cf4051f4cd
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetCurrencyFormatEx, GetCurrencyFormatEx function [Internationalization for Windows Applications], _win32_GetCurrencyFormatEx, intl.getcurrencyformatex, winnls/GetCurrencyFormatEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

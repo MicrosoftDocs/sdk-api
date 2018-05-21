@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_SetMarker_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\setmarker.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GraphicsPath class [GDI+],SetMarker method, GraphicsPath.SetMarker, GraphicsPath::SetMarker, SetMarker, SetMarker method [GDI+], SetMarker method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_SetMarker_, gdiplus._gdiplus_CLASS_GraphicsPath_SetMarker_
 ms.prod: windows-hardware
 ms.technology: windows-devices

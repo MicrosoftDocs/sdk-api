@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instanceexft.htm
 old-project: wmi_v2
 ms.assetid: E703D978-7B4B-4AB4-AB69-C9489F5AD58B
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_InstanceExFT, MI_InstanceExFT structure [Windows Management Infrastructure (MI)], _MI_InstanceExFT, mi/MI_Instance_ExFT, wmi_v2.mi_instanceexft
 ms.prod: windows-hardware
 ms.technology: windows-devices

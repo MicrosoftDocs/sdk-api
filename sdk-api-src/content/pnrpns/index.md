@@ -2,7 +2,7 @@
 UID: NA:pnrpns
 ms.assetid: 314a6c89-efa2-3ccd-81ea-0feafa231770
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

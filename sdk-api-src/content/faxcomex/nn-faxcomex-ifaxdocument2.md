@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument2_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\faxinta_n_faxdocument2_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: IFaxDocument2, IFaxDocument2 interface [Fax Service], IFaxDocument2 interface [Fax Service],described, _mfax_faxdocument2_cpp, fax._mfax_faxdocument2_cpp, faxcomex/IFaxDocument2
 ms.prod: windows-hardware
 ms.technology: windows-devices

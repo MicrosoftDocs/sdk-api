@@ -2,11 +2,12 @@
 UID: TP:xblidp
 ms.assetid: 171eec04-c9a1-34cd-9e47-c871eea2a356
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # XblIdpAuthManager

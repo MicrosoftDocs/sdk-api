@@ -7,7 +7,7 @@ old-location: mscs\getclusterfromnetinterface.htm
 old-project: MsCS
 ms.assetid: 7c6c6883-0d88-4162-a70d-cb6f1153226e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE, PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE callback, PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE callback function [Failover Cluster], _wolf_getclusterfromnetinterface, clusapi/PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE, mscs.getclusterfromnetinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

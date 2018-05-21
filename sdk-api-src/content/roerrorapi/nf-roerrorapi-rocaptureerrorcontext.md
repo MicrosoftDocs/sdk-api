@@ -7,7 +7,7 @@ old-location: winrt\rocaptureerrorcontext.htm
 old-project: WinRT
 ms.assetid: 4102CAD6-B5EC-4633-91CC-D56F6C0E287E
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: RoCaptureErrorContext, RoCaptureErrorContext function [Windows Runtime], roerrorapi/RoCaptureErrorContext, winrt.rocaptureerrorcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

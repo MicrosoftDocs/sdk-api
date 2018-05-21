@@ -7,8 +7,8 @@ old-location: com\dllcanunloadnow.htm
 old-project: com
 ms.assetid: a47df9eb-97cb-4875-a121-1dabe7bc9db6
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
-ms.keywords: DllCanUnloadNow, DllCanUnloadNow entry point [COM], LPFNCANUNLOADNOW, _com_DllCanUnloadNow, com.dllcanunloadnow, combaseapi/DllCanUnloadNow
+ms.date: 5/16/2018
+ms.keywords: DllCanUnloadNow, DllCanUnloadNow function [COM], _com_DllCanUnloadNow, com.dllcanunloadnow, combaseapi/DllCanUnloadNow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -31,7 +31,7 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	UserDefined
+-	HeaderDef
 api_location:
 -	combaseapi.h
 api_name:

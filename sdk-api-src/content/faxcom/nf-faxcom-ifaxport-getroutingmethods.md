@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxport_getroutingmethods_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_619v.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxPort object [Fax Service],GetRoutingMethods method, FaxPort.GetRoutingMethods, GetRoutingMethods, GetRoutingMethods method [Fax Service], GetRoutingMethods method [Fax Service],FaxPort object, IFaxPort.GetRoutingMethods, IFaxPort::GetRoutingMethods, _mfax_ifaxport_getroutingmethods, fax._mfax_ifaxport_getroutingmethods, fax._mfax_ifaxport_getroutingmethods_vb
 ms.prod: windows-hardware
 ms.technology: windows-devices

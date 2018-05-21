@@ -7,7 +7,7 @@ old-location: ics\inetfwrule_profiles.htm
 old-project: ICS
 ms.assetid: 98e40140-1df2-439a-9c83-a50f82f65e24
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Profiles property, INetFwRule.Profiles, INetFwRule.put_Profiles, INetFwRule::Profiles, INetFwRule::get_Profiles, INetFwRule::put_Profiles, Profiles property [ICS/ICF], Profiles property [ICS/ICF],INetFwRule interface, ics.inetfwrule_profiles, netfw/INetFwRule::Profiles, netfw/INetFwRule::get_Profiles, netfw/INetFwRule::put_Profiles, put_Profiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

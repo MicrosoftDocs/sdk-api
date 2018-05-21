@@ -7,7 +7,7 @@ old-location: base\interlockeddecrement16.htm
 old-project: Sync
 ms.assetid: 64fbfe37-fce5-4d96-aecb-3850d1edd34e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/17/2018
 ms.keywords: InterlockedDecrement16, InterlockedDecrement16 function, base.interlockeddecrement16, winnt/InterlockedDecrement16
 ms.prod: windows-hardware
 ms.technology: windows-devices

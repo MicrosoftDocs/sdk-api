@@ -7,7 +7,7 @@ old-location: perf\pdhcollectquerydataex.htm
 old-project: PerfCtrs
 ms.assetid: 3fa1d193-03d0-44d8-a32b-b7754594d0ca
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PdhCollectQueryDataEx, PdhCollectQueryDataEx function [Perf], _win32_pdhcollectquerydataex, base.pdhcollectquerydataex, pdh/PdhCollectQueryDataEx, perf.pdhcollectquerydataex
 ms.prod: windows-hardware
 ms.technology: windows-devices

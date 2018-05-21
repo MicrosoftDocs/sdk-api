@@ -2,7 +2,7 @@
 UID: NA:d3dcsx
 ms.assetid: 6a6139a0-1d5d-3d2b-ae59-29fa60b5d0a8
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tapi3\itlegacyaddressmediacontrol2_configdialog.htm
 old-project: Tapi
 ms.assetid: ac2f7afe-4531-454a-8696-ca21556a049a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: ConfigDialog, ConfigDialog method [TAPI 2.2], ConfigDialog method [TAPI 2.2],ITLegacyAddressMediaControl2 interface, ITLegacyAddressMediaControl2 interface [TAPI 2.2],ConfigDialog method, ITLegacyAddressMediaControl2.ConfigDialog, ITLegacyAddressMediaControl2::ConfigDialog, _tapi3_itlegacyaddressmediacontrol2_configdialog, tapi3.itlegacyaddressmediacontrol2_configdialog, tapi3if/ITLegacyAddressMediaControl2::ConfigDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

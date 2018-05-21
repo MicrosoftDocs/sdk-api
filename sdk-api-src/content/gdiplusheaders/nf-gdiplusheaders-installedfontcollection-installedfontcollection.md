@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_InstalledFontCollection_InstalledFontCollec
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\installedfontcollectionclass\installedfontcollection_70.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: InstalledFontCollection, InstalledFontCollection class [GDI+],InstalledFontCollection constructor, InstalledFontCollection constructor [GDI+], InstalledFontCollection constructor [GDI+],InstalledFontCollection class, InstalledFontCollection.InstalledFontCollection, InstalledFontCollection::InstalledFontCollection, _gdiplus_CLASS_InstalledFontCollection_InstalledFontCollection_, gdiplus._gdiplus_CLASS_InstalledFontCollection_InstalledFontCollection_
 ms.prod: windows-hardware
 ms.technology: windows-devices

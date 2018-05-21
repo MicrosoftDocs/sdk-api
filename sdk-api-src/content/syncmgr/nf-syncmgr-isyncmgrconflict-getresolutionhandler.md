@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrConflict_GetResolutionHandler.htm
 old-project: shell
 ms.assetid: 9adbc429-098c-4ba9-af62-54f772be83e3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetResolutionHandler, GetResolutionHandler method [Windows Shell], GetResolutionHandler method [Windows Shell],ISyncMgrConflict interface, ISyncMgrConflict interface [Windows Shell],GetResolutionHandler method, ISyncMgrConflict.GetResolutionHandler, ISyncMgrConflict::GetResolutionHandler, _shell_ISyncMgrConflict_GetResolutionHandler, shell.ISyncMgrConflict_GetResolutionHandler, syncmgr/ISyncMgrConflict::GetResolutionHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

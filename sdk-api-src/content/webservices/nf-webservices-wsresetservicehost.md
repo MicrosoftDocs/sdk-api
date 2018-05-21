@@ -7,7 +7,7 @@ old-location: wsw\wsresetservicehost.htm
 old-project: wsw
 ms.assetid: 99f57173-8d7e-41e6-bf1e-4e8177b740b7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsResetServiceHost, WsResetServiceHost function [Web Services for Windows], webservices/WsResetServiceHost, wsw.wsresetservicehost
 ms.prod: windows-hardware
 ms.technology: windows-devices

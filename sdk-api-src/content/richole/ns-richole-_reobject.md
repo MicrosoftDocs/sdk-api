@@ -7,7 +7,7 @@ old-location: controls\REOBJECT.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\reobject.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: REOBJECT, REOBJECT structure [Windows Controls], REO_ALIGNTORIGHT, REO_BELOWBASELINE, REO_BLANK, REO_CANROTATE, REO_DONTNEEDPALETTE, REO_DYNAMICSIZE, REO_GETMETAFILE, REO_HILITED, REO_INPLACEACTIVE, REO_INVERTEDSELECT, REO_LINK, REO_LINKAVAILABLE, REO_OPEN, REO_OWNERDRAWSELECT, REO_RESIZABLE, REO_SELECTED, REO_STATIC, REO_USEASBACKGROUND, REO_WRAPTEXTAROUND, _reobject, _win32_REOBJECT_str, _win32_REOBJECT_str_cpp, controls.REOBJECT, controls._win32_REOBJECT_str, richole/REOBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices

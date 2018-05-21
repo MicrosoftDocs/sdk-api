@@ -7,7 +7,7 @@ old-location: tapi3\itpluggableterminalclassregistration_getterminalclassinfo.ht
 old-project: Tapi
 ms.assetid: 35eed68f-be15-4229-b1be-01734f1831c9
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: GetTerminalClassInfo, GetTerminalClassInfo method [TAPI 2.2], GetTerminalClassInfo method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, ITPluggableTerminalClassRegistration interface [TAPI 2.2],GetTerminalClassInfo method, ITPluggableTerminalClassRegistration.GetTerminalClassInfo, ITPluggableTerminalClassRegistration::GetTerminalClassInfo, _tapi3_itpluggableterminalclassregistration_getterminalclassinfo, tapi3.itpluggableterminalclassregistration_getterminalclassinfo, termmgr/ITPluggableTerminalClassRegistration::GetTerminalClassInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

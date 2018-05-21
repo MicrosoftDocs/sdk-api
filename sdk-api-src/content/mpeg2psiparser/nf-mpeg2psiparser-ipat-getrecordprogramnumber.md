@@ -7,7 +7,7 @@ old-location: mstv\ipat_getrecordprogramnumber.htm
 old-project: mstv
 ms.assetid: 24a79c42-aebb-4c31-af86-508c5de3b7a3
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordProgramNumber, GetRecordProgramNumber method [Microsoft TV Technologies], GetRecordProgramNumber method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetRecordProgramNumber method, IPAT.GetRecordProgramNumber, IPAT::GetRecordProgramNumber, IPATGetRecordProgramNumber, mpeg2psiparser/IPAT::GetRecordProgramNumber, mstv.ipat_getrecordprogramnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices

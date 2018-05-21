@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator.htm
 old-project: imapi
 ms.assetid: b5fe1a32-545e-417d-9996-34d12862a0ea
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], IRawCDImageCreator interface [IMAPI],described, imapi.irawcdimagecreator, imapi2/IRawCDImageCreator
 ms.prod: windows-hardware
 ms.technology: windows-devices

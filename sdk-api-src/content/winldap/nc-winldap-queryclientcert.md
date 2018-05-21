@@ -7,7 +7,7 @@ old-location: ldap\queryclientcert.htm
 old-project: LDAP
 ms.assetid: c2788fb9-14db-41d2-9555-ae264f825121
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: QUERYCLIENTCERT, QUERYCLIENTCERT callback, QUERYCLIENTCERT callback function [LDAP], _ldap_queryclientcert, ldap.queryclientcert, winldap/QUERYCLIENTCERT
 ms.prod: windows-hardware
 ms.technology: windows-devices

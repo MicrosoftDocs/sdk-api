@@ -7,7 +7,7 @@ old-location: controls\ITextSelection_MoveRight.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\moveright.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextSelection interface [Windows Controls],MoveRight method, ITextSelection.MoveRight, ITextSelection::MoveRight, MoveRight, MoveRight method [Windows Controls], MoveRight method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveRight, _win32_ITextSelection_MoveRight_cpp, controls.ITextSelection_MoveRight, controls._win32_ITextSelection_MoveRight, tom/ITextSelection::MoveRight
 ms.prod: windows-hardware
 ms.technology: windows-devices

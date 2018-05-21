@@ -1,0 +1,7 @@
+{
+  "tech": "numerics_h",
+  "headers": [
+    "windowsnumerics.h"
+  ],
+  "displayName": "windowsnumerics.h APIs"
+}

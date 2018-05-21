@@ -7,7 +7,7 @@ old-location: mstv\ixdscodec_getcontentadvisoryrating.htm
 old-project: mstv
 ms.assetid: 725e444c-ecf4-49da-a800-cc3faf627eea
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetContentAdvisoryRating, GetContentAdvisoryRating method [Microsoft TV Technologies], GetContentAdvisoryRating method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetContentAdvisoryRating method, IXDSCodec.GetContentAdvisoryRating, IXDSCodec::GetContentAdvisoryRating, IXDSCodecGetContentAdvisoryRating, encdec/IXDSCodec::GetContentAdvisoryRating, mstv.ixdscodec_getcontentadvisoryrating
 ms.prod: windows-hardware
 ms.technology: windows-devices

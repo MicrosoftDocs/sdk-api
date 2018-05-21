@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_GetPixelOffsetMode_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getpixeloffsetmode.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetPixelOffsetMode, GetPixelOffsetMode method [GDI+], GetPixelOffsetMode method [GDI+],Graphics class, Graphics class [GDI+],GetPixelOffsetMode method, Graphics.GetPixelOffsetMode, Graphics::GetPixelOffsetMode, _gdiplus_CLASS_Graphics_GetPixelOffsetMode_, gdiplus._gdiplus_CLASS_Graphics_GetPixelOffsetMode_
 ms.prod: windows-hardware
 ms.technology: windows-devices

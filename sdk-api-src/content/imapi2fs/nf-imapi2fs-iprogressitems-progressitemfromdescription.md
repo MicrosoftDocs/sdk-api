@@ -7,7 +7,7 @@ old-location: imapi\iprogressitems_progressitemfromdescription.htm
 old-project: imapi
 ms.assetid: c27e9f30-e3f1-4436-b33a-fa3130baf374
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IProgressItems interface [IMAPI],ProgressItemFromDescription method, IProgressItems.ProgressItemFromDescription, IProgressItems::ProgressItemFromDescription, ProgressItemFromDescription, ProgressItemFromDescription method [IMAPI], ProgressItemFromDescription method [IMAPI],IProgressItems interface, imapi.iprogressitems_progressitemfromdescription, imapi2fs/IProgressItems::ProgressItemFromDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

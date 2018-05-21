@@ -7,7 +7,7 @@ old-location: mstv\itunercap_get_auxinputcount.htm
 old-project: mstv
 ms.assetid: a885d849-e6d8-477a-a629-1c1a6152bc9b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: ITunerCap interface [Microsoft TV Technologies],get_AuxInputCount method, ITunerCap.get_AuxInputCount, ITunerCap::get_AuxInputCount, ITunerCapget_AuxInputCount, get_AuxInputCount, get_AuxInputCount method [Microsoft TV Technologies], get_AuxInputCount method [Microsoft TV Technologies],ITunerCap interface, mstv.itunercap_get_auxinputcount, tuner/ITunerCap::get_AuxInputCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

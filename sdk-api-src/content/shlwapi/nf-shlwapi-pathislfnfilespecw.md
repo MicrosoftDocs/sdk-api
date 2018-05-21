@@ -7,7 +7,7 @@ old-location: shell\PathIsLFNFileSpec.htm
 old-project: shell
 ms.assetid: 599cb457-da72-4416-bfb7-5bc55a0eeb2d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: PathIsLFNFileSpec, PathIsLFNFileSpec function [Windows Shell], PathIsLFNFileSpecA, PathIsLFNFileSpecW, _win32_PathIsLFNFileSpec, shell.PathIsLFNFileSpec, shlwapi/PathIsLFNFileSpec, shlwapi/PathIsLFNFileSpecA, shlwapi/PathIsLFNFileSpecW
 ms.prod: windows-hardware
 ms.technology: windows-devices

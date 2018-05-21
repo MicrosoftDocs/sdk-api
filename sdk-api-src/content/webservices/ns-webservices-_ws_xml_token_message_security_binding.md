@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_token_message_security_binding.htm
 old-project: wsw
 ms.assetid: 5ca1e67a-11f5-44bb-afe8-c934837d711b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, WS_XML_TOKEN_MESSAGE_SECURITY_BINDING structure [Web Services for Windows], _WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING, wsw.ws_xml_token_message_security_binding
 ms.prod: windows-hardware
 ms.technology: windows-devices

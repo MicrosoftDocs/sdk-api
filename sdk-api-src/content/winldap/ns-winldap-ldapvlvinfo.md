@@ -7,7 +7,7 @@ old-location: ldap\ldapvlvinfo.htm
 old-project: LDAP
 ms.assetid: 2018ecb1-9b32-4afa-ad20-5cdae396376d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "*PLDAPVLVInfo, LDAPVLVInfo, LDAPVLVInfo structure [LDAP], _ldap_ldapvlvinfo, ldap.ldapvlvinfo, ldapvlvinfo, winldap/LDAPVLVInfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices

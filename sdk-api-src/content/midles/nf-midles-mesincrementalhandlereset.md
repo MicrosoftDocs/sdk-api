@@ -7,7 +7,7 @@ old-location: rpc\mesincrementalhandlereset.htm
 old-project: Rpc
 ms.assetid: 13ca3bd0-0527-4d54-84a1-aa6efca88e8d
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: MesIncrementalHandleReset, MesIncrementalHandleReset function [RPC], _rpc_mesincrementalhandlereset, midles/MesIncrementalHandleReset, rpc.mesincrementalhandlereset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxport_get_name_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1ep1.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxPort object [Fax Service],Name property, FaxPort.Name, IFaxPort.get_Name, IFaxPort::get_Name, Name property [Fax Service], Name property [Fax Service],FaxPort object, _mfax_ifaxport_get_name, fax._mfax_ifaxport_get_name, fax._mfax_ifaxport_get_name_vb, get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

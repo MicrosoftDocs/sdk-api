@@ -7,7 +7,7 @@ old-location: ldap\ldapmaperrortowin32.htm
 old-project: LDAP
 ms.assetid: 5fdbac24-a1fb-41b2-924c-918bf7e0028a
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: LdapMapErrorToWin32, LdapMapErrorToWin32 function [LDAP], _ldap_ldapmaperrortowin32, ldap.ldapmaperrortowin32, winldap/LdapMapErrorToWin32
 ms.prod: windows-hardware
 ms.technology: windows-devices

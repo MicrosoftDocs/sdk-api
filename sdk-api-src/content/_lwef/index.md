@@ -2,7 +2,7 @@
 UID: TP:lwef
 ms.assetid: 384117d0-d2cd-3434-b330-5f546ef90ab4
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -22,6 +22,7 @@ To develop Legacy Windows Environment Features, you need these headers:
  * [provider.h](..\provider\index.md)
  * [searchapi.h](..\searchapi\index.md)
  * [shldisp.h](..\shldisp\index.md)
+ * [shlobj_core.h](..\shlobj_core\index.md)
  * [windowsdefender.h](..\windowsdefender\index.md)
  * [wmiutils.h](..\wmiutils\index.md)
 

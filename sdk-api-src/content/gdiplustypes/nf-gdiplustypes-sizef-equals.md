@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_SizeF_Equals_sz_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizefclass\sizefmethods\equals_12sz.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],SizeF class, SizeF class [GDI+],Equals method, SizeF.Equals, SizeF::Equals, _gdiplus_CLASS_SizeF_Equals_sz_, gdiplus._gdiplus_CLASS_SizeF_Equals_sz_
 ms.prod: windows-hardware
 ms.technology: windows-devices

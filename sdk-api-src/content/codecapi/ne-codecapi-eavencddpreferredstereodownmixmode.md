@@ -7,7 +7,7 @@ old-location: dshow\eavencddpreferredstereodownmixmode.htm
 old-project: DirectShow
 ms.assetid: 3960d0d5-9d82-4ed5-843d-04fdb0538438
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: codecapi/eAVEncDDPreferredStereoDownMixMode, codecapi/eAVEncDDPreferredStereoDownMixMode_LoRo, codecapi/eAVEncDDPreferredStereoDownMixMode_LtRt, dshow.eavencddpreferredstereodownmixmode, eAVEncDDPreferredStereoDownMixMode, eAVEncDDPreferredStereoDownMixMode enumeration [DirectShow], eAVEncDDPreferredStereoDownMixMode_LoRo, eAVEncDDPreferredStereoDownMixMode_LtRt
 ms.prod: windows-hardware
 ms.technology: windows-devices

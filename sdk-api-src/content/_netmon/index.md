@@ -2,7 +2,7 @@
 UID: TP:netmon
 ms.assetid: 394d8a4e-56cf-3be1-b42d-c49d2b11070d
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

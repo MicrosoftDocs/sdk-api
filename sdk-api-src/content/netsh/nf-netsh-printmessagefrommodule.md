@@ -7,7 +7,7 @@ old-location: netshell\printmessagefrommodule.htm
 old-project: NetShell
 ms.assetid: 21f4688a-24fd-40b3-8da4-08c496b395f3
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.date: 5/10/2018
 ms.keywords: PrintMessageFromModule, PrintMessageFromModule function [NetShell], _netsh_printmessagefrommodule, netsh/PrintMessageFromModule, netshell.printmessagefrommodule
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:combaseapi
 ms.assetid: e62ae5e8-bef8-3cc9-8ea3-abd486b1c7cb
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

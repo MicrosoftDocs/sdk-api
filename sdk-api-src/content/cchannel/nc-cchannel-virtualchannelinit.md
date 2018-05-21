@@ -7,8 +7,8 @@ old-location: termserv\virtualchannelinit.htm
 old-project: TermServ
 ms.assetid: 3dae59dc-e70f-450e-a324-a4d68341a72e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: VirtualChannelInit, VirtualChannelInit function pointer [Remote Desktop Services], _win32_virtualchannelinit, cchannel/VirtualChannelInit, termserv.virtualchannelinit
+ms.date: 5/10/2018
+ms.keywords: VirtualChannelInit, VirtualChannelInit callback, VirtualChannelInit callback function [Remote Desktop Services], _win32_virtualchannelinit, cchannel/VirtualChannelInit, termserv.virtualchannelinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -43,7 +43,7 @@ req.dll:
 req.irql: 
 ---
 
-# VIRTUALCHANNELINIT callback
+# VIRTUALCHANNELINIT callback function
 
 
 ## -description

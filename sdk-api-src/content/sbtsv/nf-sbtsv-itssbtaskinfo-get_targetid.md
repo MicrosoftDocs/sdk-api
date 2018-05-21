@@ -7,7 +7,7 @@ old-location: termserv\itssbtaskinfo_targetid.htm
 old-project: TermServ
 ms.assetid: eb34b8b4-1130-4148-aea5-eb6ad00c64d2
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],TargetId property, ITsSbTaskInfo.TargetId, ITsSbTaskInfo.get_TargetId, ITsSbTaskInfo::TargetId, ITsSbTaskInfo::get_TargetId, TargetId property [Remote Desktop Services], TargetId property [Remote Desktop Services],ITsSbTaskInfo interface, get_TargetId, sbtsv/ITsSbTaskInfo::TargetId, sbtsv/ITsSbTaskInfo::get_TargetId, termserv.itssbtaskinfo_targetid
 ms.prod: windows-hardware
 ms.technology: windows-devices

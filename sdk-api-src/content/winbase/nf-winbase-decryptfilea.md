@@ -7,7 +7,7 @@ old-location: fs\decryptfile.htm
 old-project: FileIO
 ms.assetid: 6b8f0ed0-8825-4c84-bf58-3a89cda882b4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: DecryptFile, DecryptFile function [Files], DecryptFileA, DecryptFileW, _win32_decryptfile, base.decryptfile, fs.decryptfile, winbase/DecryptFile, winbase/DecryptFileA, winbase/DecryptFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

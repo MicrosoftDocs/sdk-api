@@ -7,7 +7,7 @@ old-location: dshow\am_stream_info_flags.htm
 old-project: DirectShow
 ms.assetid: 48f6ab36-f019-4096-b6e7-6f6ebc7c454a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AM_STREAM_INFO_DISCARDING, AM_STREAM_INFO_FLAGS, AM_STREAM_INFO_FLAGS , AM_STREAM_INFO_FLAGS enumeration [DirectShow], AM_STREAM_INFO_FLAGSEnumeration, AM_STREAM_INFO_START_DEFINED, AM_STREAM_INFO_STOP_DEFINED, AM_STREAM_INFO_STOP_SEND_EXTRA, dshow.am_stream_info_flags, strmif/AM_STREAM_INFO_DISCARDING, strmif/AM_STREAM_INFO_FLAGS, strmif/AM_STREAM_INFO_START_DEFINED, strmif/AM_STREAM_INFO_STOP_DEFINED, strmif/AM_STREAM_INFO_STOP_SEND_EXTRA
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # AM_STREAM_INFO_FLAGS enumeration

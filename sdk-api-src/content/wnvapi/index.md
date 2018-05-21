@@ -2,11 +2,12 @@
 UID: NA:wnvapi
 ms.assetid: f882ce4a-20d7-339b-9fcd-bc37cfd92d99
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: wnv
 ---
 

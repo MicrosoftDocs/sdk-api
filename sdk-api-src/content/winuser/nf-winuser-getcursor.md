@@ -7,7 +7,7 @@ old-location: menurc\getcursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getcursor.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: GetCursor, GetCursor function [Menus and Other Resources], _win32_GetCursor, _win32_getcursor_cpp, menurc.getcursor, winui._win32_getcursor, winuser/GetCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices

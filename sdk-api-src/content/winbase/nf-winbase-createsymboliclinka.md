@@ -7,7 +7,7 @@ old-location: fs\createsymboliclink.htm
 old-project: FileIO
 ms.assetid: 9e7c70b5-ced1-4cd4-b8b9-0ad3385e5437
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: CreateSymbolicLink, CreateSymbolicLink function [Files], CreateSymbolicLinkA, CreateSymbolicLinkW, SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE, SYMBOLIC_LINK_FLAG_DIRECTORY, fs.createsymboliclink, winbase/CreateSymbolicLink, winbase/CreateSymbolicLinkA, winbase/CreateSymbolicLinkW
 ms.prod: windows-hardware
 ms.technology: windows-devices

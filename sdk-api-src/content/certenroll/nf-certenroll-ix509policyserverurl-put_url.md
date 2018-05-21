@@ -7,7 +7,7 @@ old-location: security\ix509policyserverurl_url.htm
 old-project: SecCertEnroll
 ms.assetid: ea45a003-357b-469a-b932-66fa13ae80b1
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509PolicyServerUrl interface [Security],Url property, IX509PolicyServerUrl.Url, IX509PolicyServerUrl.put_Url, IX509PolicyServerUrl::Url, IX509PolicyServerUrl::get_Url, IX509PolicyServerUrl::put_Url, Url property [Security], Url property [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::Url, certenroll/IX509PolicyServerUrl::get_Url, certenroll/IX509PolicyServerUrl::put_Url, put_Url, security.ix509policyserverurl_url
 ms.prod: windows-hardware
 ms.technology: windows-devices

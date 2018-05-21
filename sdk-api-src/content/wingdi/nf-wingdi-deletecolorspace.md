@@ -7,7 +7,7 @@ old-location: wcs\deletecolorspace.htm
 old-project: WCS
 ms.assetid: 5b241224-2994-4533-9629-d2a4b129ce86
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/17/2018
 ms.keywords: DeleteColorSpace, DeleteColorSpace function [Windows Color System], _color_DeleteColorSpace, wcs.deletecolorspace, wingdi/DeleteColorSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices

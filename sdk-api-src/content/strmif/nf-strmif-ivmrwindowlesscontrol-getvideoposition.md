@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol_getvideoposition.htm
 old-project: DirectShow
 ms.assetid: 1d7f1a8b-bbc4-43ae-b8e6-410561087204
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetVideoPosition, GetVideoPosition method [DirectShow], GetVideoPosition method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetVideoPosition method, IVMRWindowlessControl.GetVideoPosition, IVMRWindowlessControl::GetVideoPosition, IVMRWindowlessControlGetVideoPosition, dshow.ivmrwindowlesscontrol_getvideoposition, strmif/IVMRWindowlessControl::GetVideoPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

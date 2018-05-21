@@ -7,7 +7,7 @@ old-location: dshow\interleavingmode.htm
 old-project: DirectShow
 ms.assetid: 4011b1e4-4bcf-4a2e-9d9a-ccdc8e12cd5a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: INTERLEAVE_CAPTURE, INTERLEAVE_FULL, INTERLEAVE_NONE, INTERLEAVE_NONE_BUFFERED, InterleavingMode, InterleavingMode enumeration [DirectShow], InterleavingModeEnumeration, dshow.interleavingmode, strmif/INTERLEAVE_CAPTURE, strmif/INTERLEAVE_FULL, strmif/INTERLEAVE_NONE, strmif/INTERLEAVE_NONE_BUFFERED, strmif/InterleavingMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # InterleavingMode enumeration

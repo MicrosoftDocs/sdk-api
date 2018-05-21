@@ -7,7 +7,7 @@ old-location: fs\findclose.htm
 old-project: FileIO
 ms.assetid: 64b3bc49-1e0e-4572-9d9f-936c45f5b01c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: FindClose, FindClose function [Files], _win32_findclose, base.findclose, fileapi/FindClose, fs.findclose, winbase/FindClose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: FH_TARGET_PROPERTY_TYPE, *PFH_TARGET_PROPERTY_TYPE
+req.typenames: STREAM_INFO_LEVELS
 topic_type:
 -	APIRef
 -	kbSyntax

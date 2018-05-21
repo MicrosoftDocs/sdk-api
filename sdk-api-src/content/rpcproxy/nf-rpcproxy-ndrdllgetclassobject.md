@@ -7,7 +7,7 @@ old-location: rpc\ndrdllgetclassobject.htm
 old-project: Rpc
 ms.assetid: 322e0a8c-1eda-4148-a7cc-7f7fd7bf0b6f
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: NdrDllGetClassObject, NdrDllGetClassObject function [RPC], rpc.ndrdllgetclassobject, rpcproxy/NdrDllGetClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

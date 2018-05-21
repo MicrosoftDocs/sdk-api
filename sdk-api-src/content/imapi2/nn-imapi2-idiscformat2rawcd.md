@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2rawcd.htm
 old-project: imapi
 ms.assetid: 58d9b83c-a528-4b39-b08d-a0fb8c1aece8
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IDiscFormat2RawCD, IDiscFormat2RawCD interface [IMAPI], IDiscFormat2RawCD interface [IMAPI],described, imapi.idiscformat2rawcd, imapi2/IDiscFormat2RawCD
 ms.prod: windows-hardware
 ms.technology: windows-devices

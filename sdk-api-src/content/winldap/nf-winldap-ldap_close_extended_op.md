@@ -7,7 +7,7 @@ old-location: ldap\ldap_close_extended_op.htm
 old-project: LDAP
 ms.assetid: 829ffb8f-150b-438a-bcbd-42f2e9c01479
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_close_extended_op, ldap.ldap__close__extended__op, ldap.ldap_close_extended_op, ldap_close_extended_op, ldap_close_extended_op function [LDAP], winldap/ldap_close_extended_op"
 ms.prod: windows-hardware
 ms.technology: windows-devices

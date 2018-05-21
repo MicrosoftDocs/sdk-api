@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_option_data_type.htm
 old-project: DHCP
 ms.assetid: 1f215915-07f0-4327-bb42-d5af09cd07c5
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_OPTION_DATA_TYPE, DHCP_OPTION_DATA_TYPE, DHCP_OPTION_DATA_TYPE enumeration [DHCP], DhcpBinaryDataOption, DhcpByteOption, DhcpDWordDWordOption, DhcpDWordOption, DhcpEncapsulatedDataOption, DhcpIpAddressOption, DhcpIpv6AddressOption, DhcpStringDataOption, DhcpWordOption, LPDHCP_OPTION_DATA_TYPE, LPDHCP_OPTION_DATA_TYPE enumeration pointer [DHCP], _DHCP_OPTION_DATA_TYPE, dhcp.dhcp_option_data_type, dhcpsapi/DHCP_OPTION_DATA_TYPE, dhcpsapi/DhcpBinaryDataOption, dhcpsapi/DhcpByteOption, dhcpsapi/DhcpDWordDWordOption, dhcpsapi/DhcpDWordOption, dhcpsapi/DhcpEncapsulatedDataOption, dhcpsapi/DhcpIpAddressOption, dhcpsapi/DhcpIpv6AddressOption, dhcpsapi/DhcpStringDataOption, dhcpsapi/DhcpWordOption, dhcpsapi/LPDHCP_OPTION_DATA_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

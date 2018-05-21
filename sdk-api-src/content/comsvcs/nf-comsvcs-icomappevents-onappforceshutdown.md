@@ -7,7 +7,7 @@ old-location: cos\icomappevents_onappforceshutdown.htm
 old-project: cossdk
 ms.assetid: a7e845fc-be7f-484f-88b9-78206598b57d
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IComAppEvents interface [COM+],OnAppForceShutdown method, IComAppEvents.OnAppForceShutdown, IComAppEvents::OnAppForceShutdown, OnAppForceShutdown, OnAppForceShutdown method [COM+], OnAppForceShutdown method [COM+],IComAppEvents interface, _dtc_icomappevents_onappforceshutdown, comsvcs/IComAppEvents::OnAppForceShutdown, cos.icomappevents_onappforceshutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

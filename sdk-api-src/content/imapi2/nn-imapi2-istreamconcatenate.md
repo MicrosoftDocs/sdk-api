@@ -7,7 +7,7 @@ old-location: imapi\istreamconcatenate.htm
 old-project: imapi
 ms.assetid: 48b786ef-a1b6-4dcf-9329-c659f15185e1
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IStreamConcatenate, IStreamConcatenate interface [IMAPI], IStreamConcatenate interface [IMAPI],described, imapi.istreamconcatenate, imapi2/IStreamConcatenate
 ms.prod: windows-hardware
 ms.technology: windows-devices

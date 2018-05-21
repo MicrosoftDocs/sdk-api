@@ -7,7 +7,7 @@ old-location: mstv\ibda_digitaldemodulator.htm
 old-project: mstv
 ms.assetid: 13ecd348-dc2b-4e80-9875-927f4ed55c95
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IBDA_DigitalDemodulator, IBDA_DigitalDemodulator interface [Microsoft TV Technologies], IBDA_DigitalDemodulator interface [Microsoft TV Technologies],described, IBDA_DigitalDemodulatorInterface, bdaiface/IBDA_DigitalDemodulator, mstv.ibda_digitaldemodulator
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ibindctx_revokeobjectbound.htm
 old-project: com
 ms.assetid: c49421a3-1733-4f54-8e30-d23641f13c38
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IBindCtx interface [COM],RevokeObjectBound method, IBindCtx.RevokeObjectBound, IBindCtx::RevokeObjectBound, RevokeObjectBound, RevokeObjectBound method [COM], RevokeObjectBound method [COM],IBindCtx interface, _com_ibindctx_revokeobjectbound, com.ibindctx_revokeobjectbound, objidl/IBindCtx::RevokeObjectBound
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iammediatypesample_setsyncpoint.htm
 old-project: DirectShow
 ms.assetid: d2ff9b33-c49c-4715-b580-f05670a0f405
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetSyncPoint method, IAMMediaTypeSample.SetSyncPoint, IAMMediaTypeSample::SetSyncPoint, IAMMediaTypeSampleSetSyncPoint, SetSyncPoint, SetSyncPoint method [DirectShow], SetSyncPoint method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetSyncPoint, dshow.iammediatypesample_setsyncpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\iamanalogvideodecoder_get_vcrhorizontallocking.htm
 old-project: DirectShow
 ms.assetid: 0b527578-1840-4cb1-b94b-9be27b40fcf4
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_VCRHorizontalLocking method, IAMAnalogVideoDecoder.get_VCRHorizontalLocking, IAMAnalogVideoDecoder::get_VCRHorizontalLocking, IAMAnalogVideoDecoderget_VCRHorizontalLocking, dshow.iamanalogvideodecoder_get_vcrhorizontallocking, get_VCRHorizontalLocking, get_VCRHorizontalLocking method [DirectShow], get_VCRHorizontalLocking method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_VCRHorizontalLocking
 ms.prod: windows-hardware
 ms.technology: windows-devices

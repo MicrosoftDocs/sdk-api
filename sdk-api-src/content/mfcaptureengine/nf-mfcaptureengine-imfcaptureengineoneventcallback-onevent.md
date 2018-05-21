@@ -7,7 +7,7 @@ old-location: mf\imfcaptureengineoneventcallback_onevent.htm
 old-project: medfound
 ms.assetid: 26C5B2E5-0543-49FC-915A-DCE097FF66BA
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFCaptureEngineOnEventCallback interface [Media Foundation],OnEvent method, IMFCaptureEngineOnEventCallback.OnEvent, IMFCaptureEngineOnEventCallback::OnEvent, OnEvent, OnEvent method [Media Foundation], OnEvent method [Media Foundation],IMFCaptureEngineOnEventCallback interface, mf.imfcaptureengineoneventcallback_onevent, mfcaptureengine/IMFCaptureEngineOnEventCallback::OnEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

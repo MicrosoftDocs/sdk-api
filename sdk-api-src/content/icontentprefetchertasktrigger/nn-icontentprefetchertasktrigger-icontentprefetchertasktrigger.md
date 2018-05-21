@@ -7,7 +7,7 @@ old-location: wsw\icontentprefetchertasktrigger.htm
 old-project: wsw
 ms.assetid: 5DB67142-4B8F-4B88-A77F-B69F48E75839
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: IContentPrefetcherTaskTrigger, IContentPrefetcherTaskTrigger interface [Web Services for Windows], IContentPrefetcherTaskTrigger interface [Web Services for Windows],described, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger, wsw.icontentprefetchertasktrigger
 ms.prod: windows-hardware
 ms.technology: windows-devices

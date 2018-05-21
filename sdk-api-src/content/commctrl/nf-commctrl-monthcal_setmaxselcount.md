@@ -7,7 +7,7 @@ old-location: controls\MonthCal_SetMaxSelCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setmaxselcount.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: MonthCal_SetMaxSelCount, MonthCal_SetMaxSelCount macro [Windows Controls], _win32_MonthCal_SetMaxSelCount, _win32_MonthCal_SetMaxSelCount_cpp, commctrl/MonthCal_SetMaxSelCount, controls.MonthCal_SetMaxSelCount, controls._win32_MonthCal_SetMaxSelCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

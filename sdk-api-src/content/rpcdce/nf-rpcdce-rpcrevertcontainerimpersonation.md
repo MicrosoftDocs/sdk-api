@@ -7,7 +7,7 @@ old-location: rpc\rpcrevertcontainerimpersonation.htm
 old-project: Rpc
 ms.assetid: 331D32B5-1583-4A2C-9A1A-0D546DDE846D
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcRevertContainerImpersonation, RpcRevertContainerImpersonation function [RPC], rpc.rpcrevertcontainerimpersonation, rpcdce/RpcRevertContainerImpersonation
 ms.prod: windows-hardware
 ms.technology: windows-devices

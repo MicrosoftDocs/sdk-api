@@ -7,7 +7,7 @@ old-location: rpc\ndrpointerfree.htm
 old-project: Rpc
 ms.assetid: 8b90ae12-af0f-41f8-9b8d-4b354de511be
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: NdrPointerFree, NdrPointerFree function [RPC], rpc.ndrpointerfree, rpcndr/NdrPointerFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

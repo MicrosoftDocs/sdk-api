@@ -7,7 +7,7 @@ old-location: mstv\ianalogradiotuningspace_put_minfrequency.htm
 old-project: mstv
 ms.assetid: 5a7bb5e8-ed21-4b3b-96eb-861aa77621ca
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],put_MinFrequency method, IAnalogRadioTuningSpace.put_MinFrequency, IAnalogRadioTuningSpace::put_MinFrequency, IAnalogRadioTuningSpaceput_MinFrequency, mstv.ianalogradiotuningspace_put_minfrequency, put_MinFrequency, put_MinFrequency method [Microsoft TV Technologies], put_MinFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, tuner/IAnalogRadioTuningSpace::put_MinFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices

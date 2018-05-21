@@ -7,7 +7,7 @@ old-location: fs\storage_device_descriptor.htm
 old-project: FileIO
 ms.assetid: f84f8a88-b6fc-4b22-b858-52955c8d537d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: PSTORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_DESCRIPTOR, STORAGE_DEVICE_DESCRIPTOR structure [Files], _STORAGE_DEVICE_DESCRIPTOR, fs.storage_device_descriptor, winioctl/PSTORAGE_DEVICE_DESCRIPTOR, winioctl/STORAGE_DEVICE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

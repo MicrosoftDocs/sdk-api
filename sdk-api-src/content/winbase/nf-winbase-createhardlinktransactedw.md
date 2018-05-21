@@ -7,7 +7,7 @@ old-location: fs\createhardlinktransacted.htm
 old-project: FileIO
 ms.assetid: 27dd5b0a-08ef-4757-8f51-03d9918028c8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: CreateHardLinkTransacted, CreateHardLinkTransacted function [Files], CreateHardLinkTransactedA, CreateHardLinkTransactedW, fs.createhardlinktransacted, winbase/CreateHardLinkTransacted, winbase/CreateHardLinkTransactedA, winbase/CreateHardLinkTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

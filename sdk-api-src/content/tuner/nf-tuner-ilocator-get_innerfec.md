@@ -7,7 +7,7 @@ old-location: mstv\ilocator_get_innerfec.htm
 old-project: mstv
 ms.assetid: aaa81a62-7e19-4d71-8378-77d6318a4e84
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IDigitalLocatorget_InnerFEC, ILocator interface [Microsoft TV Technologies],get_InnerFEC method, ILocator.get_InnerFEC, ILocator::get_InnerFEC, get_InnerFEC, get_InnerFEC method [Microsoft TV Technologies], get_InnerFEC method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_innerfec, tuner/ILocator::get_InnerFEC
 ms.prod: windows-hardware
 ms.technology: windows-devices

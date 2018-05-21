@@ -2,11 +2,12 @@
 UID: TP:win32_tile_badge_notif
 ms.assetid: bf033213-8224-36c1-8e23-ab8119b3f34e
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Tiles, badges, and notifications for Classic desktop applications

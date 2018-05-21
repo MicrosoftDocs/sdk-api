@@ -7,7 +7,7 @@ old-location: com\ieventproperty.htm
 old-project: com
 ms.assetid: e1ed7249-7fe3-4f90-b3e1-b79597773d85
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IEventProperty, IEventProperty interface [COM], IEventProperty interface [COM],described, _com_ieventproperty, com.ieventproperty, eventsys/IEventProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,119 @@
+---
+UID: NF:cfgmgr32.CM_Get_Depth_Ex
+title: CM_Get_Depth_Ex function
+author: windows-driver-content
+description: The CM_Get_Depth_Ex function is used to obtain the depth of a specified device node (devnode) within a local or a remote machine's device tree.
+old-location: devinst\cm_get_depth_ex.htm
+old-project: devinst
+ms.assetid: 1b82df77-56b1-4bb4-9964-76d6d120dd6e
+ms.author: windowsdriverdev
+ms.date: 2/15/2018
+ms.keywords: CM_Get_Depth_Ex, CM_Get_Depth_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Depth_Ex, cfgmgrfn_a709eff6-4f44-4f1e-b0a4-23d67963f152.xml, devinst.cm_get_depth_ex
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: cfgmgr32.h
+req.include-header: Cfgmgr32.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: CM_NOTIFY_ACTION, *PCM_NOTIFY_ACTION
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	DllExport
+api_location:
+-	Cfgmgr32.dll
+api_name:
+-	CM_Get_Depth_Ex
+product: Windows
+targetos: Windows
+req.lib: Cfgmgr32.lib
+req.dll: Cfgmgr32.dll
+req.irql: 
+---
+
+# CM_Get_Depth_Ex function
+
+
+## -description
+
+
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/library/windows/hardware/ff538100">CM_Get_Depth</a> instead.]
+
+The <b>CM_Get_Depth_Ex</b> function is used to obtain the depth of a specified device node (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>) within a local or a remote machine's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543194">device tree</a>.
+
+
+## -parameters
+
+
+
+
+### -param pulDepth [out]
+
+Caller-supplied address of a location to receive a depth value, where zero represents the device tree's root node, one represents the root node's children, and so on.
+
+
+### -param dnDevInst [in]
+
+Caller-supplied device instance handle that is bound to the machine handle supplied by <i>hMachine</i>.
+      
+     
+
+
+### -param ulFlags [in]
+
+Not used, must be zero.
+
+
+### -param hMachine [in, optional]
+
+Caller-supplied machine handle to which the caller-supplied device instance handle is bound.
+
+<div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
+<div> </div>
+
+## -returns
+
+
+
+If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
+
+
+
+
+## -remarks
+
+
+
+For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538076">CM_Get_Child_Ex</a>.
+
+ Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538076">CM_Get_Child_Ex</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538100">CM_Get_Depth</a>
+ 
+
+ 
+

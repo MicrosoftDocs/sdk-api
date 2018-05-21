@@ -7,7 +7,7 @@ old-location: rpc\rpc_call_local_address_v1.htm
 old-project: Rpc
 ms.assetid: 2dda59dc-d2e5-4d98-a12a-f86557dcb1c0
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: "*PRPC_CALL_LOCAL_ADDRESS_V1, RPC_CALL_LOCAL_ADDRESS, RPC_CALL_LOCAL_ADDRESS structure [RPC], RPC_CALL_LOCAL_ADDRESS_V1, RPC_CALL_LOCAL_ADDRESS_V1 structure [RPC], RPC_CALL_LOCAL_ADDRESS_V1_A, RPC_CALL_LOCAL_ADDRESS_V1_W, _RPC_CALL_LOCAL_ADDRESS_V1, rpc.rpc_call_local_address_v1, rpcasync/RPC_CALL_LOCAL_ADDRESS, rpcasync/RPC_CALL_LOCAL_ADDRESS_V1, rpcasync/RPC_CALL_LOCAL_ADDRESS_V1_A, rpcasync/RPC_CALL_LOCAL_ADDRESS_V1_W"
 ms.prod: windows-hardware
 ms.technology: windows-devices

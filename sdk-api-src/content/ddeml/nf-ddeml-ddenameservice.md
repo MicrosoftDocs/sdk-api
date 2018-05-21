@@ -7,7 +7,7 @@ old-location: dataxchg\ddenameservice.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddenameservice.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: DNS_FILTEROFF, DNS_FILTERON, DNS_REGISTER, DNS_UNREGISTER, DdeNameService, DdeNameService function [Data Exchange], _win32_DdeNameService, _win32_ddenameservice_cpp, dataxchg.ddenameservice, ddeml/DdeNameService, winui._win32_ddenameservice
 ms.prod: windows-hardware
 ms.technology: windows-devices

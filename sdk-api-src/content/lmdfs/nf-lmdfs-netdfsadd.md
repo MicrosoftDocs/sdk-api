@@ -7,7 +7,7 @@ old-location: dfs\netdfsadd.htm
 old-project: Dfs
 ms.assetid: 2c8816b2-5489-486e-b749-605932ba9fe9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: DFS_ADD_VOLUME, DFS_RESTORE_VOLUME, NetDfsAdd, NetDfsAdd function [Distributed File System], _win32_netdfsadd, dfs.netdfsadd, fs.netdfsadd, lmdfs/NetDfsAdd, netmgmt.netdfsadd
 ms.prod: windows-hardware
 ms.technology: windows-devices

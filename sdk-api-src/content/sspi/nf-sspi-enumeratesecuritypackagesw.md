@@ -7,7 +7,7 @@ old-location: security\enumeratesecuritypackages.htm
 old-project: SecAuthN
 ms.assetid: 900790a6-111d-43f5-9316-e85aab03a3bc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: EnumerateSecurityPackages, EnumerateSecurityPackages function [Security], EnumerateSecurityPackagesA, EnumerateSecurityPackagesW, _ssp_enumeratesecuritypackages, security.enumeratesecuritypackages, sspi/EnumerateSecurityPackages, sspi/EnumerateSecurityPackagesA, sspi/EnumerateSecurityPackagesW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # EnumerateSecurityPackagesW function

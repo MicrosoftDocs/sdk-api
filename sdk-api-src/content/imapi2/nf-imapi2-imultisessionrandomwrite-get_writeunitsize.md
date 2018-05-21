@@ -7,7 +7,7 @@ old-location: imapi\imultisessionrandomwrite_get_writeunitsize.htm
 old-project: imapi
 ms.assetid: fcf9f0ab-4095-4ff3-a72a-656ef74f04b8
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IMultisessionRandomWrite interface [IMAPI],get_WriteUnitSize method, IMultisessionRandomWrite.get_WriteUnitSize, IMultisessionRandomWrite::get_WriteUnitSize, get_WriteUnitSize, get_WriteUnitSize method [IMAPI], get_WriteUnitSize method [IMAPI],IMultisessionRandomWrite interface, imapi.imultisessionrandomwrite_get_writeunitsize, imapi2/IMultisessionRandomWrite::get_WriteUnitSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

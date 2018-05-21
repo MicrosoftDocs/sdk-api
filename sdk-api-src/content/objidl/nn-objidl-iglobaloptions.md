@@ -7,7 +7,7 @@ old-location: com\iglobaloptions.htm
 old-project: com
 ms.assetid: c5e823be-521d-4eb4-8836-fdd2cac6f15d
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IGlobalOptions, IGlobalOptions interface [COM], IGlobalOptions interface [COM],described, _com_iglobaloptions, com.iglobaloptions, objidlbase/IGlobalOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

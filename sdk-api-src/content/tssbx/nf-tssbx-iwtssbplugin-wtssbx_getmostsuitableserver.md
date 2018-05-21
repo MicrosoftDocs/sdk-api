@@ -7,7 +7,7 @@ old-location: termserv\iwtssbplugin_wtssbx_getmostsuitableserver.htm
 old-project: TermServ
 ms.assetid: d25527ec-1007-4b7b-93ad-6c96780dddec
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IWTSSBPlugin interface [Remote Desktop Services],WTSSBX_GetMostSuitableServer method, IWTSSBPlugin.WTSSBX_GetMostSuitableServer, IWTSSBPlugin::WTSSBX_GetMostSuitableServer, WTSSBX_GetMostSuitableServer, WTSSBX_GetMostSuitableServer method [Remote Desktop Services], WTSSBX_GetMostSuitableServer method [Remote Desktop Services],IWTSSBPlugin interface, termserv.iwtssbplugin_wtssbx_getmostsuitableserver, tssbx/IWTSSBPlugin::WTSSBX_GetMostSuitableServer
 ms.prod: windows-hardware
 ms.technology: windows-devices

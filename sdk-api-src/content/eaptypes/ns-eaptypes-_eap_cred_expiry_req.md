@@ -7,7 +7,7 @@ old-location: eaphost\eap_cred_expiry_req.htm
 old-project: EAPHost
 ms.assetid: baa2a580-0bfc-450a-9a96-f32d00127fa4
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EAP_CRED_EXPIRY_REQ, EAP_CRED_EXPIRY_REQ structure [EAPHost], EAP_CRED_EXPIRY_RESP, PEAP_CRED_EXPIRY_REQ, PEAP_CRED_EXPIRY_REQ structure pointer [EAPHost], _EAP_CRED_EXPIRY_REQ, eaphost.eap_cred_expiry_req, eaptypes/EAP_CRED_EXPIRY_REQ, eaptypes/PEAP_CRED_EXPIRY_REQ
 ms.prod: windows-hardware
 ms.technology: windows-devices

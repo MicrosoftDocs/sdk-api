@@ -7,7 +7,7 @@ old-location: base\symgetsourcefile.htm
 old-project: Debug
 ms.assetid: 1d2115fb-2725-4fae-abb7-ff1b8a802c69
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SymGetSourceFile, SymGetSourceFile function, SymGetSourceFileW, base.symgetsourcefile, dbghelp/SymGetSourceFile, dbghelp/SymGetSourceFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

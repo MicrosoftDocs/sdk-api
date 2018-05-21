@@ -7,7 +7,7 @@ old-location: security\allocateclientbuffer.htm
 old-project: SecAuthN
 ms.assetid: 2a7dfc11-a8ab-4677-ad5c-b2f4b5998efe
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: AllocateClientBuffer, AllocateClientBuffer function [Security], LSA_ALLOCATE_CLIENT_BUFFER, _lsa_allocateclientbuffer, ntsecpkg/AllocateClientBuffer, security.allocateclientbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

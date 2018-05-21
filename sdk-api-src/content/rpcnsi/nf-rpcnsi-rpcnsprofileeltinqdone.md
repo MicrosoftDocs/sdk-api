@@ -7,7 +7,7 @@ old-location: rpc\rpcnsprofileeltinqdone.htm
 old-project: Rpc
 ms.assetid: 957cdfb6-2b5a-4339-8197-897999df5ea0
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcNsProfileEltInqDone, RpcNsProfileEltInqDone function [RPC], _rpc_rpcnsprofileeltinqdone, rpc.rpcnsprofileeltinqdone, rpcnsi/RpcNsProfileEltInqDone
 ms.prod: windows-hardware
 ms.technology: windows-devices

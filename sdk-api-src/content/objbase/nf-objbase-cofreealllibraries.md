@@ -7,7 +7,7 @@ old-location: com\cofreealllibraries.htm
 old-project: com
 ms.assetid: 20616c05-21c6-4895-a1b5-4bae1aa417c7
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CoFreeAllLibraries, CoFreeAllLibraries function [COM], _com_CoFreeAllLibraries, com.cofreealllibraries, objbase/CoFreeAllLibraries
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,21 +2,21 @@
 UID: NE:nldef.NL_SUFFIX_ORIGIN
 title: NL_SUFFIX_ORIGIN
 author: windows-driver-content
-description: The NL_SUFFIX_ORIGIN enumeration type defines the origin of the suffix or host part of the IP address.
-old-location: netvista\nl_suffix_origin.htm
-old-project: netvista
-ms.assetid: 6208e368-00b3-4584-9562-5c0b01cd0db2
+description: The IP_SUFFIX_ORIGIN enumeration specifies the origin of an IPv4 or IPv6 address suffix, and is used with the IP_ADAPTER_UNICAST_ADDRESS structure.
+old-location: iphlp\ip_suffix_origin.htm
+old-project: IpHlp
+ms.assetid: 0ffeae3d-cfc4-472e-87f8-ae6d584fb869
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
-ms.keywords: IpSuffixOriginDhcp, IpSuffixOriginLinkLayerAddress, IpSuffixOriginManual, IpSuffixOriginOther, IpSuffixOriginRandom, IpSuffixOriginUnchanged, IpSuffixOriginWellKnown, NL_SUFFIX_ORIGIN, NL_SUFFIX_ORIGIN enumeration [Network Drivers Starting with Windows Vista], NlsoDhcp, NlsoLinkLayerAddress, NlsoManual, NlsoOther, NlsoRandom, NlsoWellKnown, iphelper_bd3c07f6-3bc2-4862-a0d9-beca1678f09a.xml, netvista.nl_suffix_origin, nldef/IpSuffixOriginDhcp, nldef/IpSuffixOriginLinkLayerAddress, nldef/IpSuffixOriginManual, nldef/IpSuffixOriginOther, nldef/IpSuffixOriginRandom, nldef/IpSuffixOriginUnchanged, nldef/IpSuffixOriginWellKnown, nldef/NL_SUFFIX_ORIGIN, nldef/NlsoDhcp, nldef/NlsoLinkLayerAddress, nldef/NlsoManual, nldef/NlsoOther, nldef/NlsoRandom, nldef/NlsoWellKnown
+ms.date: 5/16/2018
+ms.keywords: IP_SUFFIX_ORIGIN, IP_SUFFIX_ORIGIN enumeration [IP Helper], IpSuffixOriginDhcp, IpSuffixOriginLinkLayerAddress, IpSuffixOriginManual, IpSuffixOriginOther, IpSuffixOriginRandom, IpSuffixOriginUnchanged, IpSuffixOriginWellKnown, NL_SUFFIX_ORIGIN, iphlp.ip_suffix_origin, iptypes/IP_SUFFIX_ORIGIN, iptypes/IpSuffixOriginDhcp, iptypes/IpSuffixOriginLinkLayerAddress, iptypes/IpSuffixOriginManual, iptypes/IpSuffixOriginOther, iptypes/IpSuffixOriginRandom, iptypes/IpSuffixOriginUnchanged, iptypes/IpSuffixOriginWellKnown, nldef/IP_SUFFIX_ORIGIN, nldef/IpSuffixOriginDhcp, nldef/IpSuffixOriginLinkLayerAddress, nldef/IpSuffixOriginManual, nldef/IpSuffixOriginOther, nldef/IpSuffixOriginRandom, nldef/IpSuffixOriginUnchanged, nldef/IpSuffixOriginWellKnown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: nldef.h
-req.include-header: Netioapi.h
+req.include-header: Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008  Windows Vista, Iphlpapi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -33,13 +33,14 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	nldef.h
+-	Nldef.h
+-	Iptypes.h
 api_name:
--	NL_SUFFIX_ORIGIN
+-	IP_SUFFIX_ORIGIN
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Newdev.lib
+req.dll: Newdev.dll
 req.irql: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---
@@ -50,8 +51,7 @@ req.product: Rights Management Services client 1.0 SP2 or later
 ## -description
 
 
-The NL_SUFFIX_ORIGIN enumeration type defines the origin of the suffix or host part of the IP
-  address.
+The <b>IP_SUFFIX_ORIGIN</b> enumeration specifies the origin of an IPv4 or IPv6  address suffix, and is used with the <a href="https://msdn.microsoft.com/65c3648c-89bd-417b-8a9b-feefa6149c4a">IP_ADAPTER_UNICAST_ADDRESS</a> structure.
 
 
 ## -enum-fields
@@ -61,74 +61,79 @@ The NL_SUFFIX_ORIGIN enumeration type defines the origin of the suffix or host p
 
 ### -field NlsoOther
 
-Reserved for system use. Do not use this value in your driver.
-
 
 ### -field NlsoManual
-
-Reserved for system use. Do not use this value in your driver.
 
 
 ### -field NlsoWellKnown
 
-Reserved for system use. Do not use this value in your driver.
-
 
 ### -field NlsoDhcp
-
-Reserved for system use. Do not use this value in your driver.
 
 
 ### -field NlsoLinkLayerAddress
 
-Reserved for system use. Do not use this value in your driver.
-
 
 ### -field NlsoRandom
-
-Reserved for system use. Do not use this value in your driver.
 
 
 ### -field IpSuffixOriginOther
 
-The IP address suffix was configured by using a source other than those that are defined in this
-     enumeration. This value applies to an IPv6 or IPv4 address.
+The IP address suffix was provided by a source other than those defined in this enumeration.
 
 
 ### -field IpSuffixOriginManual
 
-The IP address suffix was configured manually. This value applies to an IPv6 or IPv4
-     address.
+The IP address suffix was manually specified.
 
 
 ### -field IpSuffixOriginWellKnown
 
-The IP address suffix was configured by using a well-known address. This value applies to an IPv6
-     link-local address or an IPv6 loopback address.
+The IP address suffix is from a well-known source.
 
 
 ### -field IpSuffixOriginDhcp
 
-The IP address suffix was configured by using DHCP. This value applies to an IPv4 address
-     configured by using DHCP or an IPv6 address configured by using DHCPv6.
+The IP address suffix was provided by DHCP settings.
 
 
 ### -field IpSuffixOriginLinkLayerAddress
 
-The IP address suffix was the link-local address. This value applies to an IPv6 link-local address
-     or an IPv6 address where the network part was generated based on a router advertisement and the host
-     part was based on the MAC hardware address.
+The IP address suffix was obtained from the link-layer address.
 
 
 ### -field IpSuffixOriginRandom
 
-The IP address suffix was generated randomly. This value applies to an anonymous IPv6 address
-     where the host part of the address was generated randomly from the MAC hardware address after the host
-     received a router advertisement.
+The IP address suffix was obtained from a random source.
 
 
 ### -field IpSuffixOriginUnchanged
 
-The IP address suffix should be unchanged. This value is used when setting the properties for a
-     unicast IP interface when the value for the IP suffix origin should be unchanged.
+The IP address suffix should be unchanged. This value is used when setting the properties for a unicast IP interface when the value for the IP suffix origin should be left unchanged.
+
+
+
+<div class="alert"><b>Note</b>  This enumeration value is only available on Windows Vista and later.</div>
+<div> </div>
+
+## -remarks
+
+
+
+The <b>IP_SUFFIX_ORIGIN</b> enumeration is used in the <b>SuffixOrigin</b> member of the <a href="https://msdn.microsoft.com/65c3648c-89bd-417b-8a9b-feefa6149c4a">IP_ADAPTER_UNICAST_ADDRESS</a>  structure.
+
+On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>IP_SUFFIX_ORIGIN</b> enumeration is defined in the <i>Nldef.h</i> header file which is automatically included by the <i>Iptypes.h</i> header file. In order to use the <b>IP_SUFFIX_ORIGIN</b> enumeration, the <i>Winsock2.h</i> header file must be included before the <i>Iptypes.h</i> header file.  
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/65c3648c-89bd-417b-8a9b-feefa6149c4a">IP_ADAPTER_UNICAST_ADDRESS</a>
+ 
+
+ 
 

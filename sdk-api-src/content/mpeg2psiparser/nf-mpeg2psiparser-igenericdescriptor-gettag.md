@@ -7,7 +7,7 @@ old-location: mstv\igenericdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: b8923e91-46e1-48fa-a24c-d43cc4a09bd2
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IGenericDescriptor interface, IGenericDescriptor interface [Microsoft TV Technologies],GetTag method, IGenericDescriptor.GetTag, IGenericDescriptor::GetTag, IGenericDescriptorGetTag, mpeg2psiparser/IGenericDescriptor::GetTag, mstv.igenericdescriptor_gettag
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\rtwqbeginunregisterworkqueuewithmmcss.htm
 old-project: ProcThread
 ms.assetid: 1faa9661-9b65-472a-b1d5-c99b10b149e9
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: RtwqBeginUnregisterWorkQueueWithMMCSS, RtwqBeginUnregisterWorkQueueWithMMCSS function, base.rtwqbeginunregisterworkqueuewithmmcss, rtworkq/RtwqBeginUnregisterWorkQueueWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices

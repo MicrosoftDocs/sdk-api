@@ -7,7 +7,7 @@ old-location: mscs\resutilverifyresourceservice.htm
 old-project: MsCS
 ms.assetid: 452f4e83-74a6-4830-b244-599e9dc5c854
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PRESUTIL_VERIFY_RESOURCE_SERVICE, PRESUTIL_VERIFY_RESOURCE_SERVICE callback, PRESUTIL_VERIFY_RESOURCE_SERVICE callback function [Failover Cluster], _wolf_resutilverifyresourceservice, mscs.resutilverifyresourceservice, resapi/PRESUTIL_VERIFY_RESOURCE_SERVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices

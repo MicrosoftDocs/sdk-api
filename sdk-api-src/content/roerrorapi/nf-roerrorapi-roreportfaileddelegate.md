@@ -7,7 +7,7 @@ old-location: winrt\roreportfaileddelegate.htm
 old-project: WinRT
 ms.assetid: 0A35A174-9020-438E-94CF-3A790D158144
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: RoReportFailedDelegate, RoReportFailedDelegate function [Windows Runtime], roerrorapi/RoReportFailedDelegate, winrt.roreportfaileddelegate
 ms.prod: windows-hardware
 ms.technology: windows-devices

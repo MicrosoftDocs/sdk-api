@@ -7,7 +7,7 @@ old-location: winprog\icamerauicontrol_removecaptureditem.htm
 old-project: DevNotes
 ms.assetid: 384b08e4-7683-43e1-b088-38455a0b956f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ICameraUIControl interface [Windows API],RemoveCapturedItem method, ICameraUIControl.RemoveCapturedItem, ICameraUIControl::RemoveCapturedItem, RemoveCapturedItem, RemoveCapturedItem method [Windows API], RemoveCapturedItem method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::RemoveCapturedItem, winprog.icamerauicontrol_removecaptureditem
 ms.prod: windows-hardware
 ms.technology: windows-devices

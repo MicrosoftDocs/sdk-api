@@ -7,7 +7,7 @@ old-location: wsw\ws_datetime.htm
 old-project: wsw
 ms.assetid: 635f8e0b-f994-4500-85ad-dd74fb4a6c22
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_DATETIME, WS_DATETIME structure [Web Services for Windows], _WS_DATETIME, webservices/WS_DATETIME, wsw.ws_datetime
 ms.prod: windows-hardware
 ms.technology: windows-devices

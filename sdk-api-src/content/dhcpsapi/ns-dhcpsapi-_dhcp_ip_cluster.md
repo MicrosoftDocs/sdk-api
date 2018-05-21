@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_ip_cluster.htm
 old-project: DHCP
 ms.assetid: 6dad62c3-c56f-4526-ae5c-dbb74cb13c8f
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_IP_CLUSTER, DHCP_IP_CLUSTER, DHCP_IP_CLUSTER structure [DHCP], LPDHCP_IP_CLUSTER, LPDHCP_IP_CLUSTER structure pointer [DHCP], _DHCP_IP_CLUSTER, dhcp.dhcp_ip_cluster, dhcpsapi/LPDHCP_IP_CLUSTER, dhcpsapi/_DHCP_IP_CLUSTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

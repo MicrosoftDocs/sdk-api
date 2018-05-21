@@ -7,7 +7,7 @@ old-location: security\npdevicemode.htm
 old-project: SecAuthN
 ms.assetid: 502e3d34-f582-4f0f-b3b2-263bd293cf11
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: NPDeviceMode, NPDeviceMode function [Security], _mnp_npdevicemode, npapi/NPDeviceMode, security.npdevicemode
 ms.prod: windows-hardware
 ms.technology: windows-devices

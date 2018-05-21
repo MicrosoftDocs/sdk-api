@@ -7,7 +7,7 @@ old-location: mf\imfmediasink.htm
 old-project: medfound
 ms.assetid: 103e6fd8-a18f-480a-8261-099623014659
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 103e6fd8-a18f-480a-8261-099623014659, IMFMediaSink, IMFMediaSink interface [Media Foundation], IMFMediaSink interface [Media Foundation],described, mf.imfmediasink, mfidl/IMFMediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

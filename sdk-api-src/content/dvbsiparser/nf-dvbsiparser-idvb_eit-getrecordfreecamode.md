@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit_getrecordfreecamode.htm
 old-project: mstv
 ms.assetid: d154772c-3e7c-49f8-90d1-4ff1be01e4d0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordFreeCAMode, GetRecordFreeCAMode method [Microsoft TV Technologies], GetRecordFreeCAMode method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetRecordFreeCAMode method, IDVB_EIT.GetRecordFreeCAMode, IDVB_EIT::GetRecordFreeCAMode, IDVB_EITGetRecordFreeCAMode, dvbsiparser/IDVB_EIT::GetRecordFreeCAMode, mstv.idvb_eit_getrecordfreecamode
 ms.prod: windows-hardware
 ms.technology: windows-devices

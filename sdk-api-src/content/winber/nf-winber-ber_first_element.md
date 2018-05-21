@@ -7,7 +7,7 @@ old-location: ldap\ber_first_element.htm
 old-project: LDAP
 ms.assetid: 079ac0a6-1b73-433e-88b3-1ce16ddc2851
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ber_first_element, ber_first_element, ber_first_element function [LDAP], ldap.ber__first__element, ldap.ber_first_element, winber/ber_first_element"
 ms.prod: windows-hardware
 ms.technology: windows-devices

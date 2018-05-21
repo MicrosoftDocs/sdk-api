@@ -7,7 +7,7 @@ old-location: tapi3\itrendezvous_get_defaultdirectories.htm
 old-project: Tapi
 ms.assetid: 3db02f17-6fb5-467b-91f6-dc501b5472cf
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: ITRendezvous interface [TAPI 2.2],get_DefaultDirectories method, ITRendezvous.get_DefaultDirectories, ITRendezvous::get_DefaultDirectories, _tapi3_itrendezvous_get_defaultdirectories, get_DefaultDirectories, get_DefaultDirectories method [TAPI 2.2], get_DefaultDirectories method [TAPI 2.2],ITRendezvous interface, rend/ITRendezvous::get_DefaultDirectories, tapi3.itrendezvous_get_defaultdirectories
 ms.prod: windows-hardware
 ms.technology: windows-devices

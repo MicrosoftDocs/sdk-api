@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_credentialname.htm
 old-project: SecAuthN
 ms.assetid: 55ac5db9-9c55-421d-82f5-bdbc54c5d544
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSecPkgContext_CredentialNameW, PSecPkgContext_CredentialName, PSecPkgContext_CredentialName structure pointer [Security], SecPkgContext_CredentialName, SecPkgContext_CredentialName structure [Security], SecPkgContext_CredentialNameW, _SecPkgContext_CredentialNameA, _SecPkgContext_CredentialNameW, security.secpkgcontext_credentialname, sspi/PSecPkgContext_CredentialName, sspi/SecPkgContext_CredentialName"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SecPkgContext_CredentialNameW structure

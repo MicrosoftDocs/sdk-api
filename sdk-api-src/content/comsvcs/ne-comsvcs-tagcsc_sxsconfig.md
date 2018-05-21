@@ -7,7 +7,7 @@ old-location: cos\csc_sxsconfig.htm
 old-project: cossdk
 ms.assetid: 8c114e9e-b201-4317-8a45-d5b0964c6ff8
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: CSC_InheritSxs, CSC_NewSxs, CSC_NoSxs, CSC_SxsConfig, CSC_SxsConfig enumeration [COM+], _cos_CSC_SxsConfig, comsvcs/CSC_InheritSxs, comsvcs/CSC_NewSxs, comsvcs/CSC_NoSxs, comsvcs/CSC_SxsConfig, cos.csc_sxsconfig, tagCSC_SxsConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices

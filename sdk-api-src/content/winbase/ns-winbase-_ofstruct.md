@@ -7,7 +7,7 @@ old-location: fs\ofstruct_str.htm
 old-project: FileIO
 ms.assetid: 195581e5-e962-4756-a33c-b1e898b5b0e7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPOFSTRUCT, *POFSTRUCT, OFSTRUCT, OFSTRUCT structure [Files], POFSTRUCT, POFSTRUCT structure pointer [Files], _OFSTRUCT, _win32_ofstruct_str, base.ofstruct_str, fs.ofstruct_str, winbase/OFSTRUCT, winbase/POFSTRUCT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

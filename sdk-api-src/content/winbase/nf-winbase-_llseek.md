@@ -7,7 +7,7 @@ old-location: winprog\_llseek.htm
 old-project: DevNotes
 ms.assetid: 1861bd5a-97e6-463d-9586-22458a1d9210
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "_llseek, _llseek function [Windows API], winbase/_llseek, winprog._llseek"
 ms.prod: windows-hardware
 ms.technology: windows-devices

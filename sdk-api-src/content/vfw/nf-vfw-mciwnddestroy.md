@@ -7,7 +7,7 @@ old-location: multimedia\mciwnddestroy.htm
 old-project: Multimedia
 ms.assetid: 26e11fd1-99fd-4afa-8879-096a40acecce
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MCIWndDestroy, MCIWndDestroy macro [Windows Multimedia], _win32_MCIWndDestroy, multimedia.mciwnddestroy, vfw/MCIWndDestroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetBlendTriangularShape
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setblendtriangularshape.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: LinearGradientBrush class [GDI+],SetBlendTriangularShape method, LinearGradientBrush.SetBlendTriangularShape, LinearGradientBrush::SetBlendTriangularShape, SetBlendTriangularShape, SetBlendTriangularShape method [GDI+], SetBlendTriangularShape method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_SetBlendTriangularShape_focus_scale_, gdiplus._gdiplus_CLASS_LinearGradientBrush_SetBlendTriangularShape_focus_scale_
 ms.prod: windows-hardware
 ms.technology: windows-devices

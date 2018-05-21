@@ -7,7 +7,7 @@ old-location: dshow\ivmrwindowlesscontrol9_getcurrentimage.htm
 old-project: DirectShow
 ms.assetid: dddba9a5-be25-4dc4-9d91-eaff78d2405d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetCurrentImage, GetCurrentImage method [DirectShow], GetCurrentImage method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetCurrentImage method, IVMRWindowlessControl9.GetCurrentImage, IVMRWindowlessControl9::GetCurrentImage, IVMRWindowlessControl9GetCurrentImage, dshow.ivmrwindowlesscontrol9_getcurrentimage, vmr9/IVMRWindowlessControl9::GetCurrentImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

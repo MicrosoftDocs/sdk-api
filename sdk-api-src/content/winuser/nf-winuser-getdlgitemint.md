@@ -7,7 +7,7 @@ old-location: dlgbox\getdlgitemint.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitemint.htm
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/17/2018
 ms.keywords: GetDlgItemInt, GetDlgItemInt function [Dialog Boxes], _win32_GetDlgItemInt, _win32_getdlgitemint_cpp, dlgbox.getdlgitemint, winui._win32_getdlgitemint, winuser/GetDlgItemInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

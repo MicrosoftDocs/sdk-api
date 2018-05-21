@@ -7,7 +7,7 @@ old-location: controls\ListView_EditLabel.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_editlabel.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ListView_EditLabel, ListView_EditLabel macro [Windows Controls], _win32_ListView_EditLabel, _win32_ListView_EditLabel_cpp, commctrl/ListView_EditLabel, controls.ListView_EditLabel, controls._win32_ListView_EditLabel
 ms.prod: windows-hardware
 ms.technology: windows-devices

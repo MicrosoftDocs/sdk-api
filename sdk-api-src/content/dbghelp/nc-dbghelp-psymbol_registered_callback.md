@@ -7,7 +7,7 @@ old-location: base\symregistercallbackproc64.htm
 old-project: Debug
 ms.assetid: f3ba952b-ecc5-4235-a806-00c82d40e611
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: CBA_DEBUG_INFO, CBA_DEFERRED_SYMBOL_LOAD_CANCEL, CBA_DEFERRED_SYMBOL_LOAD_COMPLETE, CBA_DEFERRED_SYMBOL_LOAD_FAILURE, CBA_DEFERRED_SYMBOL_LOAD_PARTIAL, CBA_DEFERRED_SYMBOL_LOAD_START, CBA_DUPLICATE_SYMBOL, CBA_EVENT, CBA_READ_MEMORY, CBA_SET_OPTIONS, CBA_SRCSRV_EVENT, CBA_SRCSRV_INFO, CBA_SYMBOLS_UNLOADED, PSYMBOL_REGISTERED_CALLBACK, PSYMBOL_REGISTERED_CALLBACK64, SymRegisterCallbackProc64, SymRegisterCallbackProc64 callback, SymRegisterCallbackProc64 callback function, _win32_symregistercallbackproc64, base.symregistercallbackproc64, dbghelp/SymRegisterCallbackProc64
 ms.prod: windows-hardware
 ms.technology: windows-devices

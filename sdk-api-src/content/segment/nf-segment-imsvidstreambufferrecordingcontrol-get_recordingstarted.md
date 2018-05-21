@@ -7,7 +7,7 @@ old-location: mstv\imsvidstreambufferrecordingcontrol_get_recordingstarted.htm
 old-project: mstv
 ms.assetid: 99abd883-5fec-4ac4-a167-aa2d4c3bf470
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_RecordingStarted method, IMSVidStreamBufferRecordingControl.get_RecordingStarted, IMSVidStreamBufferRecordingControl::get_RecordingStarted, IMSVidStreamBufferRecordingControlget_RecordingStarted, get_RecordingStarted, get_RecordingStarted method [Microsoft TV Technologies], get_RecordingStarted method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_recordingstarted, segment/IMSVidStreamBufferRecordingControl::get_RecordingStarted
 ms.prod: windows-hardware
 ms.technology: windows-devices

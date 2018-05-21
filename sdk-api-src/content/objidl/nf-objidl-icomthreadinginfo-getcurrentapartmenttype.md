@@ -7,7 +7,7 @@ old-location: com\icomthreadinginfo_getcurrentapartmenttype.htm
 old-project: com
 ms.assetid: 59cb216f-818c-4189-b77b-984961889a62
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: GetCurrentApartmentType, GetCurrentApartmentType method [COM], GetCurrentApartmentType method [COM],IComThreadingInfo interface, IComThreadingInfo interface [COM],GetCurrentApartmentType method, IComThreadingInfo.GetCurrentApartmentType, IComThreadingInfo::GetCurrentApartmentType, _com_icomthreadinginfo_getcurrentapartmenttype, com.icomthreadinginfo_getcurrentapartmenttype, objidlbase/IComThreadingInfo::GetCurrentApartmentType
 ms.prod: windows-hardware
 ms.technology: windows-devices

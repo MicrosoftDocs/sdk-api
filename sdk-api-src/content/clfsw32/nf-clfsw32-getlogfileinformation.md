@@ -7,7 +7,7 @@ old-location: fs\getlogfileinformation.htm
 old-project: Clfs
 ms.assetid: 29bb2f18-760d-4a38-8dce-85099da7f96c
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: GetLogFileInformation, GetLogFileInformation function [Files], clfsw32/GetLogFileInformation, fs.getlogfileinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

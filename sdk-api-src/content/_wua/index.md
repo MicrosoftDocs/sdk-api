@@ -2,11 +2,12 @@
 UID: TP:wua
 ms.assetid: 8285445c-2c5e-3d96-a56d-f25ac3be142a
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Windows Update Agent API

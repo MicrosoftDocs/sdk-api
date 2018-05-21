@@ -7,7 +7,7 @@ old-location: winprog\_releasenamecache.htm
 old-project: DevNotes
 ms.assetid: 3abab799-4f55-40e4-9b2c-f40e92dc9af5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ReleaseNameCache, ReleaseNameCache function [Windows API], filehc/ReleaseNameCache, winprog._releasenamecache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CREATEFILE2_EXTENDED_PARAMETERS, *PCREATEFILE2_EXTENDED_PARAMETERS, *LPCREATEFILE2_EXTENDED_PARAMETERS
+req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 topic_type:
 -	APIRef
 -	kbSyntax

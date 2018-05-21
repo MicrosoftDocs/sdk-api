@@ -7,7 +7,7 @@ old-location: fs\csv_query_mds_path.htm
 old-project: FileIO
 ms.assetid: 478AE3FD-1668-46CE-876D-51E4BB679C87
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PCSV_QUERY_MDS_PATH, CSV_QUERY_MDS_PATH, CSV_QUERY_MDS_PATH structure [Files], PCSV_QUERY_MDS_PATH, PCSV_QUERY_MDS_PATH structure pointer [Files], _CSV_QUERY_MDS_PATH, fs.csv_query_mds_path, winioctl/CSV_QUERY_MDS_PATH, winioctl/PCSV_QUERY_MDS_PATH"
 ms.prod: windows-hardware
 ms.technology: windows-devices

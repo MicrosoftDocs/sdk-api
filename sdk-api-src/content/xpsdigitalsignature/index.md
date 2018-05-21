@@ -2,7 +2,7 @@
 UID: NA:xpsdigitalsignature
 ms.assetid: b9a89344-8d0e-3f8a-b2ae-fb24c57e6061
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

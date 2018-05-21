@@ -7,7 +7,7 @@ old-location: tapi2\lineblindtransfer.htm
 old-project: Tapi
 ms.assetid: c1997933-475e-4bcd-be44-ad92a2a678eb
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: "_tapi2_lineblindtransfer, lineBlindTransfer, lineBlindTransfer function [TAPI 2.2], lineBlindTransferA, lineBlindTransferW, tapi/lineBlindTransfer, tapi/lineBlindTransferA, tapi/lineBlindTransferW, tapi2.lineblindtransfer"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_SetDashPattern_dashArray_count_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setdashpattern.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Pen class [GDI+],SetDashPattern method, Pen.SetDashPattern, Pen::SetDashPattern, SetDashPattern, SetDashPattern method [GDI+], SetDashPattern method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetDashPattern_dashArray_count_, gdiplus._gdiplus_CLASS_Pen_SetDashPattern_dashArray_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\pstmapcertificate.htm
 old-project: SecAuthN
 ms.assetid: b4e7e3b0-97ec-4c59-b2a1-cb83a27df94d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: PstMapCertificate, PstMapCertificate function [Security], certpoleng/PstMapCertificate, security.pstmapcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: X509RequestType
+req.typenames: X509SCEPFailInfo
 topic_type:
 -	APIRef
 -	kbSyntax

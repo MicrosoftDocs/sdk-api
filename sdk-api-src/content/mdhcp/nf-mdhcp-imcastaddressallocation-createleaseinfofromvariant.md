@@ -7,7 +7,7 @@ old-location: tapi3\imcastaddressallocation_createleaseinfofromvariant.htm
 old-project: Tapi
 ms.assetid: e6390b21-348a-4bb9-8d21-3c585672199d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: CreateLeaseInfoFromVariant, CreateLeaseInfoFromVariant method [TAPI 2.2], CreateLeaseInfoFromVariant method [TAPI 2.2],IMcastAddressAllocation interface, IMcastAddressAllocation interface [TAPI 2.2],CreateLeaseInfoFromVariant method, IMcastAddressAllocation.CreateLeaseInfoFromVariant, IMcastAddressAllocation::CreateLeaseInfoFromVariant, _tapi3_imcastaddressallocation_createleaseinfofromvariant, mdhcp/IMcastAddressAllocation::CreateLeaseInfoFromVariant, tapi3.imcastaddressallocation_createleaseinfofromvariant
 ms.prod: windows-hardware
 ms.technology: windows-devices

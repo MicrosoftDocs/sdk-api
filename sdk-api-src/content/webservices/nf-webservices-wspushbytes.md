@@ -7,7 +7,7 @@ old-location: wsw\wspushbytes.htm
 old-project: wsw
 ms.assetid: 295eb530-00f1-4e80-bd8a-ffb3eb1fad5b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsPushBytes, WsPushBytes function [Web Services for Windows], webservices/WsPushBytes, wsw.wspushbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices

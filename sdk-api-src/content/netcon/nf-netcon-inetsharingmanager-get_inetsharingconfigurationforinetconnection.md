@@ -7,7 +7,7 @@ old-location: ics\inetsharingmanager_get_inetsharingconfigurationforinetconnecti
 old-project: ICS
 ms.assetid: 8f774509-0efb-49e5-bf56-61f4810631bd
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_INetSharingConfigurationForINetConnection method, INetSharingManager.get_INetSharingConfigurationForINetConnection, INetSharingManager::get_INetSharingConfigurationForINetConnection, _ics_inetsharingmanager_get_inetsharingconfigurationforinetconnection, get_INetSharingConfigurationForINetConnection, get_INetSharingConfigurationForINetConnection method [ICS/ICF], get_INetSharingConfigurationForINetConnection method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_inetsharingconfigurationforinetconnection, netcon/INetSharingManager::get_INetSharingConfigurationForINetConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

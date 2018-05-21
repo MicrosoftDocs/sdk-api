@@ -1,0 +1,6 @@
+{
+  "tech": "iscsitarg",
+  "headers": [
+    "sdoias.h"
+  ]
+}

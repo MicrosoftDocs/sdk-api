@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Matrix_IsIdentity_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\isidentity.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: IsIdentity, IsIdentity method [GDI+], IsIdentity method [GDI+],Matrix class, Matrix class [GDI+],IsIdentity method, Matrix.IsIdentity, Matrix::IsIdentity, _gdiplus_CLASS_Matrix_IsIdentity_, gdiplus._gdiplus_CLASS_Matrix_IsIdentity_
 ms.prod: windows-hardware
 ms.technology: windows-devices

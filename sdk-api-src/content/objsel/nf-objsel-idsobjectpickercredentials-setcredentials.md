@@ -7,7 +7,7 @@ old-location: ad\idsobjectpickercredentials_setcredentials.htm
 old-project: AD
 ms.assetid: fb1c366d-10df-4e4f-a381-3f085bd136e2
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: IDsObjectPickerCredentials interface [Active Directory],SetCredentials method, IDsObjectPickerCredentials.SetCredentials, IDsObjectPickerCredentials::SetCredentials, SetCredentials, SetCredentials method [Active Directory], SetCredentials method [Active Directory],IDsObjectPickerCredentials interface, ad.idsobjectpickercredentials_setcredentials, objsel/IDsObjectPickerCredentials::SetCredentials
 ms.prod: windows-hardware
 ms.technology: windows-devices

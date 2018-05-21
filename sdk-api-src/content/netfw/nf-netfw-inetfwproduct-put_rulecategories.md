@@ -7,7 +7,7 @@ old-location: ics\inetfwproduct_rulecategories.htm
 old-project: ICS
 ms.assetid: 77e16df3-aab6-4e5f-b0e5-c203379fc6e8
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetFwProduct interface [ICS/ICF],RuleCategories property, INetFwProduct.RuleCategories, INetFwProduct.put_RuleCategories, INetFwProduct::RuleCategories, INetFwProduct::get_RuleCategories, INetFwProduct::put_RuleCategories, RuleCategories property [ICS/ICF], RuleCategories property [ICS/ICF],INetFwProduct interface, ics.inetfwproduct_rulecategories, netfw/INetFwProduct::RuleCategories, netfw/INetFwProduct::get_RuleCategories, netfw/INetFwProduct::put_RuleCategories, put_RuleCategories
 ms.prod: windows-hardware
 ms.technology: windows-devices

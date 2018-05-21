@@ -7,7 +7,7 @@ old-location: intl\ispellcheckprovider_setoptionvalue.htm
 old-project: Intl
 ms.assetid: 635E6024-DD9F-403D-B05F-B719EFE78FC0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],SetOptionValue method, ISpellCheckProvider.SetOptionValue, ISpellCheckProvider::SetOptionValue, SetOptionValue, SetOptionValue method [Internationalization for Windows Applications], SetOptionValue method [Internationalization for Windows Applications],ISpellCheckProvider interface, intl.ispellcheckprovider_setoptionvalue, spellcheckprovider/ISpellCheckProvider::SetOptionValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # ISpellCheckProvider::SetOptionValue

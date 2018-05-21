@@ -7,7 +7,7 @@ old-location: display\engmovepointer.htm
 old-project: display
 ms.assetid: 6f427839-034e-46c3-a3b0-703a003af1e4
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: EngMovePointer, EngMovePointer function [Display Devices], display.engmovepointer, gdifncs_2499e137-74e8-4624-8595-65d4fb489973.xml, winddi/EngMovePointer
 ms.prod: windows-hardware
 ms.technology: windows-devices

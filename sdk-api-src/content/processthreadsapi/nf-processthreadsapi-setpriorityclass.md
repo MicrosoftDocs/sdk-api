@@ -7,7 +7,7 @@ old-location: base\setpriorityclass.htm
 old-project: ProcThread
 ms.assetid: 02686637-427a-4cf1-a4e5-60c707af3084
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: ABOVE_NORMAL_PRIORITY_CLASS, BELOW_NORMAL_PRIORITY_CLASS, HIGH_PRIORITY_CLASS, IDLE_PRIORITY_CLASS, NORMAL_PRIORITY_CLASS, PROCESS_MODE_BACKGROUND_BEGIN, PROCESS_MODE_BACKGROUND_END, REALTIME_PRIORITY_CLASS, SetPriorityClass, SetPriorityClass function, _win32_setpriorityclass, base.setpriorityclass, processthreadsapi/SetPriorityClass, winbase/SetPriorityClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\iwsdtransportaddress_gettransportaddressex.htm
 old-project: WsdApi
 ms.assetid: 4b6f8e97-6387-4f2b-8388-775cc84e92f0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetTransportAddressEx, GetTransportAddressEx method, GetTransportAddressEx method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetTransportAddressEx method, IWSDTransportAddress.GetTransportAddressEx, IWSDTransportAddress::GetTransportAddressEx, ncd.iwsdtransportaddress_gettransportaddressex, wsdbase/IWSDTransportAddress::GetTransportAddressEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

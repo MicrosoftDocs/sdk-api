@@ -7,7 +7,7 @@ old-location: mstv\ilocator_put_symbolrate.htm
 old-project: mstv
 ms.assetid: 1eb91e22-b9b1-47dc-a2e4-cc64eeaacaaa
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IDigitalLocatorput_SymbolRate, ILocator interface [Microsoft TV Technologies],put_SymbolRate method, ILocator.put_SymbolRate, ILocator::put_SymbolRate, mstv.ilocator_put_symbolrate, put_SymbolRate, put_SymbolRate method [Microsoft TV Technologies], put_SymbolRate method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_SymbolRate
 ms.prod: windows-hardware
 ms.technology: windows-devices

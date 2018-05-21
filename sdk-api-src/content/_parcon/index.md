@@ -2,7 +2,7 @@
 UID: TP:parcon
 ms.assetid: d41c225a-7794-30c9-9b0b-8612948bb42f
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

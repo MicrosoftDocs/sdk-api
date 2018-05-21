@@ -7,7 +7,7 @@ old-location: com\cogettreatasclass.htm
 old-project: com
 ms.assetid: f95fefe6-dc37-45f4-93be-87c996990ab9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CoGetTreatAsClass, CoGetTreatAsClass function [COM], _com_CoGetTreatAsClass, com.cogettreatasclass, combaseapi/CoGetTreatAsClass
 ms.prod: windows-hardware
 ms.technology: windows-devices

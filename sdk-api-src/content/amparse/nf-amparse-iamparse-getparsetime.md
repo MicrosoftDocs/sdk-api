@@ -7,7 +7,7 @@ old-location: dshow\iamparse_getparsetime.htm
 old-project: DirectShow
 ms.assetid: ce87e39e-1e5d-4098-8431-ea9b3188784e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetParseTime, GetParseTime method [DirectShow], GetParseTime method [DirectShow],IAMParse interface, IAMParse interface [DirectShow],GetParseTime method, IAMParse.GetParseTime, IAMParse::GetParseTime, IAMParseGetParseTime, amparse/IAMParse::GetParseTime, dshow.iamparse_getparsetime
 ms.prod: windows-hardware
 ms.technology: windows-devices

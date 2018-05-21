@@ -7,7 +7,7 @@ old-location: ncd\iwsdserviceproxyeventing_subscribetomultipleoperations.htm
 old-project: WsdApi
 ms.assetid: 0df5b429-5b6e-4cef-af05-7f615c93aa0f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDServiceProxyEventing interface,SubscribeToMultipleOperations method, IWSDServiceProxyEventing.SubscribeToMultipleOperations, IWSDServiceProxyEventing::SubscribeToMultipleOperations, SubscribeToMultipleOperations, SubscribeToMultipleOperations method, SubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, ncd.iwsdserviceproxyeventing_subscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::SubscribeToMultipleOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices

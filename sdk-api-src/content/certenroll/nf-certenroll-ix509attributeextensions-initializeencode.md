@@ -7,7 +7,7 @@ old-location: security\ix509attributeextensions_initializeencode_method.htm
 old-project: SecCertEnroll
 ms.assetid: f5b6f0b9-ca49-42f2-842c-34c2445c3824
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: IX509AttributeExtensions interface [Security],InitializeEncode method, IX509AttributeExtensions.InitializeEncode, IX509AttributeExtensions::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeExtensions interface, certenroll/IX509AttributeExtensions::InitializeEncode, security.ix509attributeextensions_initializeencode_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

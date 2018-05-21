@@ -7,7 +7,7 @@ old-location: com\ifont_get_italic.htm
 old-project: com
 ms.assetid: d56c21d6-1296-4c0c-a13e-8e4b3164e747
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IFont interface [COM],get_Italic method, IFont.get_Italic, IFont::get_Italic, _ctrl_ifont_get_italic, com.ifont_get_italic, get_Italic, get_Italic method [COM], get_Italic method [COM],IFont interface, ocidl/IFont::get_Italic
 ms.prod: windows-hardware
 ms.technology: windows-devices

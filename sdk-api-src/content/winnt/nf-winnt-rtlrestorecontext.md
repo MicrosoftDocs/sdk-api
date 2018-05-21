@@ -7,7 +7,7 @@ old-location: base\rtlrestorecontext.htm
 old-project: Debug
 ms.assetid: f5304d17-bc67-4e0f-a535-efca4e65c74c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: RtlRestoreContext, RtlRestoreContext function, base.rtlrestorecontext, winnt/RtlRestoreContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

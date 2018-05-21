@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetDigitSubstitutionLanguage_.
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getdigitsubstitutionlanguage.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetDigitSubstitutionLanguage, GetDigitSubstitutionLanguage method [GDI+], GetDigitSubstitutionLanguage method [GDI+],StringFormat class, StringFormat class [GDI+],GetDigitSubstitutionLanguage method, StringFormat.GetDigitSubstitutionLanguage, StringFormat::GetDigitSubstitutionLanguage, _gdiplus_CLASS_StringFormat_GetDigitSubstitutionLanguage_, gdiplus._gdiplus_CLASS_StringFormat_GetDigitSubstitutionLanguage_
 ms.prod: windows-hardware
 ms.technology: windows-devices

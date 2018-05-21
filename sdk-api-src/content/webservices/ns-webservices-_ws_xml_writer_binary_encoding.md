@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_writer_binary_encoding.htm
 old-project: wsw
 ms.assetid: b4485490-b5e1-406c-883c-a30bfa334316
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_XML_WRITER_BINARY_ENCODING, WS_XML_WRITER_BINARY_ENCODING structure [Web Services for Windows], _WS_XML_WRITER_BINARY_ENCODING, webservices/WS_XML_WRITER_BINARY_ENCODING, wsw.ws_xml_writer_binary_encoding
 ms.prod: windows-hardware
 ms.technology: windows-devices

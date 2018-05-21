@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamselector_setoutputoverride.htm
 old-project: medfound
 ms.assetid: c8affecd-107f-4701-88df-200db06ad49e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFASFStreamSelector interface [Media Foundation],SetOutputOverride method, IMFASFStreamSelector.SetOutputOverride, IMFASFStreamSelector::SetOutputOverride, SetOutputOverride, SetOutputOverride method [Media Foundation], SetOutputOverride method [Media Foundation],IMFASFStreamSelector interface, c8affecd-107f-4701-88df-200db06ad49e, mf.imfasfstreamselector_setoutputoverride, wmcontainer/IMFASFStreamSelector::SetOutputOverride
 ms.prod: windows-hardware
 ms.technology: windows-devices

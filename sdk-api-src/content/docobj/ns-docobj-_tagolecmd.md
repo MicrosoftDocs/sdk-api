@@ -7,7 +7,7 @@ old-location: com\olecmd.htm
 old-project: com
 ms.assetid: a75ca136-ed6a-43c5-b775-a50535431f1d
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OLECMD, OLECMD structure [COM], _ole_OLECMD, _tagOLECMD, com.olecmd, docobj/OLECMD
 ms.prod: windows-hardware
 ms.technology: windows-devices

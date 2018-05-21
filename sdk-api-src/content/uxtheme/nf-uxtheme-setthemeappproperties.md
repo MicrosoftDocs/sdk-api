@@ -7,7 +7,7 @@ old-location: controls\SetThemeAppProperties.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setthemeappproperties.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: SetThemeAppProperties, SetThemeAppProperties function [Windows Controls], controls.SetThemeAppProperties, controls.inet_SetThemeAppProperties, inet_SetThemeAppProperties, inet_SetThemeAppProperties_cpp, uxtheme/SetThemeAppProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

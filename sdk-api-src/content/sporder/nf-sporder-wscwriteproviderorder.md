@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Sporder.lib
 req.dll: Ws2_32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # WSCWriteProviderOrder function

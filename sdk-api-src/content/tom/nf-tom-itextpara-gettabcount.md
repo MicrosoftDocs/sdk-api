@@ -7,7 +7,7 @@ old-location: controls\ITextPara_GetTabCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettabcount.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetTabCount, GetTabCount method [Windows Controls], GetTabCount method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetTabCount method, ITextPara.GetTabCount, ITextPara::GetTabCount, _win32_ITextPara_GetTabCount, _win32_ITextPara_GetTabCount_cpp, controls.ITextPara_GetTabCount, controls._win32_ITextPara_GetTabCount, tom/ITextPara::GetTabCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

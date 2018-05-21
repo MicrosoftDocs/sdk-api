@@ -7,7 +7,7 @@ old-location: intl\findstringordinal.htm
 old-project: Intl
 ms.assetid: 6aca64f5-640a-4be6-9606-260314e9c7dc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FIND_ENDSWITH, FIND_FROMEND, FIND_FROMSTART, FIND_STARTSWITH, FindStringOrdinal, FindStringOrdinal function [Internationalization for Windows Applications], intl.findstringordinal, libloaderapi/FindStringOrdinal
 ms.prod: windows-hardware
 ms.technology: windows-devices

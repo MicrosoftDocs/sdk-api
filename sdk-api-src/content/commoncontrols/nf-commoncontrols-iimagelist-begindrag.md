@@ -7,7 +7,7 @@ old-location: controls\IImageList_BeginDrag.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\begindrag.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: BeginDrag, BeginDrag method [Windows Controls], BeginDrag method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],BeginDrag method, IImageList.BeginDrag, IImageList::BeginDrag, comctl_IImageList_BeginDrag, comctl_IImageList_BeginDrag_cpp, commoncontrols/IImageList::BeginDrag, controls.IImageList_BeginDrag, controls.comctl_IImageList_BeginDrag
 ms.prod: windows-hardware
 ms.technology: windows-devices

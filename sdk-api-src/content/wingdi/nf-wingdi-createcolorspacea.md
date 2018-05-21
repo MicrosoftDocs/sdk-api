@@ -7,7 +7,7 @@ old-location: wcs\createcolorspace.htm
 old-project: WCS
 ms.assetid: c3fc798c-4bb9-4010-87d4-edc0005b7698
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/17/2018
 ms.keywords: CreateColorSpace, CreateColorSpace function [Windows Color System], CreateColorSpaceA, CreateColorSpaceW, _color_CreateColorSpace, wcs.createcolorspace, wingdi/CreateColorSpace, wingdi/CreateColorSpaceA, wingdi/CreateColorSpaceW
 ms.prod: windows-hardware
 ms.technology: windows-devices

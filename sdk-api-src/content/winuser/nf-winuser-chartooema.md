@@ -7,7 +7,7 @@ old-location: menurc\chartooem.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\chartooem.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: CharToOem, CharToOem function [Menus and Other Resources], CharToOemA, CharToOemW, _win32_CharToOem, _win32_chartooem_cpp, menurc.chartooem, winui._win32_chartooem, winuser/CharToOem, winuser/CharToOemA, winuser/CharToOemW
 ms.prod: windows-hardware
 ms.technology: windows-devices

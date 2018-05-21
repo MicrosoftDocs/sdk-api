@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocollistener_stoplisten.htm
 old-project: TermServ
 ms.assetid: bfb758e8-3d71-47b9-bf7d-075c0c401177
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IWRdsProtocolListener interface [Remote Desktop Services],StopListen method, IWRdsProtocolListener.StopListen, IWRdsProtocolListener::StopListen, StopListen, StopListen method [Remote Desktop Services], StopListen method [Remote Desktop Services],IWRdsProtocolListener interface, termserv.iwrdsprotocollistener_stoplisten, wtsprotocol/IWRdsProtocolListener::StopListen
 ms.prod: windows-hardware
 ms.technology: windows-devices

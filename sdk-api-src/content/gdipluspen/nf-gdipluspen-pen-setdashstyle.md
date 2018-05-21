@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_SetDashStyle_dashStyle_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setdashstyle.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Pen class [GDI+],SetDashStyle method, Pen.SetDashStyle, Pen::SetDashStyle, SetDashStyle, SetDashStyle method [GDI+], SetDashStyle method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetDashStyle_dashStyle_, gdiplus._gdiplus_CLASS_Pen_SetDashStyle_dashStyle_
 ms.prod: windows-hardware
 ms.technology: windows-devices

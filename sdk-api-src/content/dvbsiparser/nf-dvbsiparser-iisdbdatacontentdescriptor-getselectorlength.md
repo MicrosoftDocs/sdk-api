@@ -7,7 +7,7 @@ old-location: mstv\iisdbdatacontentdescriptor_getselectorlength.htm
 old-project: mstv
 ms.assetid: 485ac963-e85a-41cc-adcd-93590b327061
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetSelectorLength, GetSelectorLength method [Microsoft TV Technologies], GetSelectorLength method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetSelectorLength method, IIsdbDataContentDescriptor.GetSelectorLength, IIsdbDataContentDescriptor::GetSelectorLength, dvbsiparser/IIsdbDataContentDescriptor::GetSelectorLength, mstv.iisdbdatacontentdescriptor_getselectorlength
 ms.prod: windows-hardware
 ms.technology: windows-devices

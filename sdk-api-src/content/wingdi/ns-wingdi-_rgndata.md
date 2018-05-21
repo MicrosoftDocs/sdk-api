@@ -7,7 +7,7 @@ old-location: gdi\rgndata.htm
 old-project: gdi
 ms.assetid: 3eac0b23-3138-4b34-9c16-6cc185e4de22
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPRGNDATA, *NPRGNDATA, *PRGNDATA, PRGNDATA, PRGNDATA structure pointer [Windows GDI], RGNDATA, RGNDATA structure [Windows GDI], _RGNDATA, _win32_RGNDATA_str, gdi.rgndata, wingdi/PRGNDATA, wingdi/RGNDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

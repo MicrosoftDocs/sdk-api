@@ -7,7 +7,7 @@ old-location: winprog\fhserviceblockbackup.htm
 old-project: DevNotes
 ms.assetid: 32B5E241-5A5F-4440-9B47-07D5849FA393
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FhServiceBlockBackup, FhServiceBlockBackup function [Windows API], fhsvcctl/FhServiceBlockBackup, winprog.fhserviceblockbackup
 ms.prod: windows-hardware
 ms.technology: windows-devices

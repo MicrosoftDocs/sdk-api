@@ -7,7 +7,7 @@ old-location: dshow\tunerinputtype.htm
 old-project: DirectShow
 ms.assetid: e25ec8e2-6d94-4059-a34e-a9e7887582fb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: TunerInputAntenna, TunerInputCable, TunerInputType, TunerInputType enumeration [DirectShow], TunerInputTypeEnumeration, dshow.tunerinputtype, strmif/TunerInputAntenna, strmif/TunerInputCable, strmif/TunerInputType, tagTunerInputType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # tagTunerInputType enumeration

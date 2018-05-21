@@ -7,7 +7,7 @@ old-location: rpc\rpcbindingsetobject.htm
 old-project: Rpc
 ms.assetid: 5dcf341f-e392-4608-b741-8fa07cabd50b
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcBindingSetObject, RpcBindingSetObject function [RPC], _rpc_rpcbindingsetobject, rpc.rpcbindingsetobject, rpcdce/RpcBindingSetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

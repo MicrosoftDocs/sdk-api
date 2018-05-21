@@ -7,7 +7,7 @@ old-location: security\cryptsipremovesigneddatamsg.htm
 old-project: SecCrypto
 ms.assetid: c3ea46bb-931a-4ca6-93f5-db7e07b4cb7a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CryptSIPRemoveSignedDataMsg, CryptSIPRemoveSignedDataMsg function [Security], mssip/CryptSIPRemoveSignedDataMsg, security.cryptsipremovesigneddatamsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

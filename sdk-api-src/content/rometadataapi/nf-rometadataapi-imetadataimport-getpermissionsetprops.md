@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getpermissionsetprops.htm
 old-project: WinRT
 ms.assetid: db10bdb6-3150-4eb9-872a-3f56089812fa
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: GetPermissionSetProps, GetPermissionSetProps method [Windows Runtime], GetPermissionSetProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetPermissionSetProps method, IMetaDataImport.GetPermissionSetProps, IMetaDataImport::GetPermissionSetProps, rometadataapi/IMetaDataImport::GetPermissionSetProps, winrt.imetadataimport_getpermissionsetprops
 ms.prod: windows-hardware
 ms.technology: windows-devices

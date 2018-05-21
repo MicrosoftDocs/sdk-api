@@ -7,7 +7,7 @@ old-location: menurc\copycursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\copycursor.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: CopyCursor, CopyCursor function [Menus and Other Resources], _win32_CopyCursor, _win32_copycursor_cpp, menurc.copycursor, winui._win32_copycursor, winuser/CopyCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices

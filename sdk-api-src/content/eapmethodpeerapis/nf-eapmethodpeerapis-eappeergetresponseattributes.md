@@ -7,7 +7,7 @@ old-location: eaphost\eappeergetresponseattributes.htm
 old-project: EAPHost
 ms.assetid: 68610a3b-7d9e-41fe-bf3b-7b188949b1c0
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapPeerGetResponseAttributes, EapPeerGetResponseAttributes function [EAPHost], eaphost.eappeergetresponseattributes, eapmethodpeerapis/EapPeerGetResponseAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

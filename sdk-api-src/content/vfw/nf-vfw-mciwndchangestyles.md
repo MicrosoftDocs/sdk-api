@@ -7,7 +7,7 @@ old-location: multimedia\mciwndchangestyles.htm
 old-project: Multimedia
 ms.assetid: d87da0b0-4217-421d-a9d5-03602fb2b477
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MCIWndChangeStyles, MCIWndChangeStyles macro [Windows Multimedia], _win32_MCIWndChangeStyles, multimedia.mciwndchangestyles, vfw/MCIWndChangeStyles
 ms.prod: windows-hardware
 ms.technology: windows-devices

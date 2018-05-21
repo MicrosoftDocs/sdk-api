@@ -7,7 +7,7 @@ old-location: mstv\idvbtunerequest_get_sid.htm
 old-project: mstv
 ms.assetid: 2ddd5eec-c8bc-4f26-8acd-cf42876345ad
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],get_SID method, IDVBTuneRequest.get_SID, IDVBTuneRequest::get_SID, IDVBTuneRequestget_SID, get_SID, get_SID method [Microsoft TV Technologies], get_SID method [Microsoft TV Technologies],IDVBTuneRequest interface, mstv.idvbtunerequest_get_sid, tuner/IDVBTuneRequest::get_SID
 ms.prod: windows-hardware
 ms.technology: windows-devices

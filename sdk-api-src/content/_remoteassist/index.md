@@ -2,11 +2,12 @@
 UID: TP:remoteassist
 ms.assetid: 0428476b-93a6-3bbc-b71e-e24fdda86703
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 ---
 
 # Remote Assistance

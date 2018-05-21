@@ -7,7 +7,7 @@ old-location: display\ddvideoportcreate.htm
 old-project: display
 ms.assetid: eeaf3cda-6220-4e8e-8f9e-9f52d1b05ab7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: DdVideoPortCreate, DdVideoPortCreate callback function [Display Devices], PDD_VPORTCB_CREATEVIDEOPORT, PDD_VPORTCB_CREATEVIDEOPORT callback, ddfncs_abbd3ac5-70a9-40ff-a22d-42c49eda1c96.xml, ddrawint/DdVideoPortCreate, display.ddvideoportcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

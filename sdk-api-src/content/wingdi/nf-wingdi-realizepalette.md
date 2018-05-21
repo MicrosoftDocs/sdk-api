@@ -7,7 +7,7 @@ old-location: gdi\realizepalette.htm
 old-project: gdi
 ms.assetid: 1c744ad2-09bc-455f-bc3c-9a2583b57a30
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: RealizePalette, RealizePalette function [Windows GDI], _win32_RealizePalette, gdi.realizepalette, wingdi/RealizePalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

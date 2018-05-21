@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_STRUC_ColorBalanceParams.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorbalanceparams.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: ColorBalanceParams, ColorBalanceParams structure [GDI+], _gdiplus_STRUC_ColorBalanceParams, gdiplus._gdiplus_STRUC_ColorBalanceParams, gdipluseffects/ColorBalanceParams
 ms.prod: windows-hardware
 ms.technology: windows-devices

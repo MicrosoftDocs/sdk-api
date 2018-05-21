@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_RectF_GetBottom_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getbottom_83.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetBottom, GetBottom method [GDI+], GetBottom method [GDI+],RectF class, RectF class [GDI+],GetBottom method, RectF.GetBottom, RectF::GetBottom, _gdiplus_CLASS_RectF_GetBottom_, gdiplus._gdiplus_CLASS_RectF_GetBottom_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fs\starting_vcn_input_buffer_str.htm
 old-project: FileIO
 ms.assetid: b07668f9-b984-41cc-9545-8f4f9bff3682
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PSTARTING_VCN_INPUT_BUFFER, PSTARTING_VCN_INPUT_BUFFER, PSTARTING_VCN_INPUT_BUFFER structure pointer [Files], STARTING_VCN_INPUT_BUFFER, STARTING_VCN_INPUT_BUFFER structure [Files], _win32_starting_vcn_input_buffer_str, base.starting_vcn_input_buffer_str, fs.starting_vcn_input_buffer_str, winioctl/PSTARTING_VCN_INPUT_BUFFER, winioctl/STARTING_VCN_INPUT_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices

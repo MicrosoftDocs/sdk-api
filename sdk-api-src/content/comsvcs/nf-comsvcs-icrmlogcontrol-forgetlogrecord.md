@@ -7,7 +7,7 @@ old-location: cos\icrmlogcontrol_forgetlogrecord.htm
 old-project: cossdk
 ms.assetid: c1871ca0-0586-41de-9684-2babaafe8796
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: ForgetLogRecord, ForgetLogRecord method [COM+], ForgetLogRecord method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForgetLogRecord method, ICrmLogControl.ForgetLogRecord, ICrmLogControl::ForgetLogRecord, _dtc_ICrmLogControl_ForgetLogRecord, comsvcs/ICrmLogControl::ForgetLogRecord, cos.icrmlogcontrol_forgetlogrecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

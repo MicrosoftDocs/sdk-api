@@ -7,7 +7,7 @@ old-location: com\imalloc_realloc.htm
 old-project: com
 ms.assetid: 37de166a-04a5-4a10-83b3-dd19d0bb48a4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IMalloc interface [COM],Realloc method, IMalloc.Realloc, IMalloc::Realloc, Realloc, Realloc method [COM], Realloc method [COM],IMalloc interface, _com_imalloc_realloc, com.imalloc_realloc, objidlbase/IMalloc::Realloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

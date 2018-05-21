@@ -7,7 +7,7 @@ old-location: base\getautorotationstate.htm
 old-project: ProcThread
 ms.assetid: E041717B-920E-44F8-AC7F-B30CB82F1476
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: GetAutoRotationState, GetDisplayAutoRotationPreferences, GetDisplayAutoRotationPreferences function, base.getautorotationstate, winuser/GetDisplayAutoRotationPreferences
 ms.prod: windows-hardware
 ms.technology: windows-devices

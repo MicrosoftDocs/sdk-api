@@ -7,7 +7,7 @@ old-location: rpc\rpcserverunregisterifex.htm
 old-project: Rpc
 ms.assetid: f01eab2c-cd33-4427-9f0c-903e4d3474e9
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcServerUnregisterIfEx, RpcServerUnregisterIfEx function [RPC], _rpc_rpcserverunregisterifex, rpc.rpcserverunregisterifex, rpcdce/RpcServerUnregisterIfEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

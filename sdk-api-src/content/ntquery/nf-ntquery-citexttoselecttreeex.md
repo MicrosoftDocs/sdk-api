@@ -7,7 +7,7 @@ old-location: indexsrv\citexttoselecttreeex.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_7jg8.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CITextToSelectTreeEx, CITextToSelectTreeEx function [Indexing Service], _idxs_CITextToSelectTreeEx, indexsrv.citexttoselecttreeex, ntquery/CITextToSelectTreeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

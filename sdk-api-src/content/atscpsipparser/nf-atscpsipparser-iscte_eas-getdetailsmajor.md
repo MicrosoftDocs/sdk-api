@@ -7,7 +7,7 @@ old-location: mstv\iscte_eas_getdetailsmajor.htm
 old-project: mstv
 ms.assetid: ecb6f06d-ccf5-44f3-ba36-b24176c3a20e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetDetailsMajor, GetDetailsMajor method [Microsoft TV Technologies], GetDetailsMajor method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsMajor method, ISCTE_EAS.GetDetailsMajor, ISCTE_EAS::GetDetailsMajor, ISCTE_EASGetDetailsMajor, atscpsipparser/ISCTE_EAS::GetDetailsMajor, mstv.iscte_eas_getdetailsmajor
 ms.prod: windows-hardware
 ms.technology: windows-devices

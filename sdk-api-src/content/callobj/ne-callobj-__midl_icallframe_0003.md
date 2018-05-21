@@ -7,7 +7,7 @@ old-location: com\callframe_copy.htm
 old-project: com
 ms.assetid: 06c926ab-8e82-4291-b1ea-f4bfcd734b16
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: CALLFRAME_COPY, CALLFRAME_COPY enumeration [COM], CALLFRAME_COPY_INDEPENDENT, CALLFRAME_COPY_NESTED, __MIDL_ICallFrame_0003, _com_CALLFRAME_COPY, callobj/CALLFRAME_COPY, callobj/CALLFRAME_COPY_INDEPENDENT, callobj/CALLFRAME_COPY_NESTED, com.callframe_copy
 ms.prod: windows-hardware
 ms.technology: windows-devices

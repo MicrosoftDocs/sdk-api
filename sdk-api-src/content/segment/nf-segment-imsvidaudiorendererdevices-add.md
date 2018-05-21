@@ -7,7 +7,7 @@ old-location: mstv\imsvidaudiorendererdevices_add.htm
 old-project: mstv
 ms.assetid: 663ca24a-9f27-4642-b8e1-901f93090bd7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, IMSVidAudioRendererDevices interface [Microsoft TV Technologies],Add method, IMSVidAudioRendererDevices.Add, IMSVidAudioRendererDevices::Add, IMSVidAudioRendererDevicesAdd, mstv.imsvidaudiorendererdevices_add, segment/IMSVidAudioRendererDevices::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices

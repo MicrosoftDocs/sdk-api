@@ -7,7 +7,7 @@ old-location: ncd\responsebody_renew_struct.htm
 old-project: WsdApi
 ms.assetid: 3fe288b6-bb84-4b8f-b973-b2309c60c28e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: RESPONSEBODY_Renew, RESPONSEBODY_Renew structure, ncd.responsebody_renew_struct, wsdtypes/RESPONSEBODY_Renew
 ms.prod: windows-hardware
 ms.technology: windows-devices

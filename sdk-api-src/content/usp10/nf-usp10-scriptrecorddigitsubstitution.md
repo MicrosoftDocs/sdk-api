@@ -7,7 +7,7 @@ old-location: intl\scriptrecorddigitsubstitution.htm
 old-project: Intl
 ms.assetid: 2c8c33d5-5cd6-4734-bf44-af7d4b578672
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ScriptRecordDigitSubstitution, ScriptRecordDigitSubstitution function [Internationalization for Windows Applications], _win32_ScriptRecordDigitSubstitution, intl.scriptrecorddigitsubstitution, usp10/ScriptRecordDigitSubstitution
 ms.prod: windows-hardware
 ms.technology: windows-devices

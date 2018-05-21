@@ -7,7 +7,7 @@ old-location: cos\applicationprocesssummary.htm
 old-project: cossdk
 ms.assetid: 2402aca6-4992-4c6e-a6ff-b4cc50c57dde
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: ApplicationProcessSummary, ApplicationProcessSummary structure [COM+], _ApplicationProcessSummary, comsvcs/ApplicationProcessSummary, cos.applicationprocesssummary
 ms.prod: windows-hardware
 ms.technology: windows-devices

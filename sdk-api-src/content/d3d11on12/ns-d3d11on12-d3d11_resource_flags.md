@@ -7,7 +7,7 @@ old-location: direct3d12\d3d11_resource_flags.htm
 old-project: direct3d12
 ms.assetid: 50C1ACA1-714C-467A-A548-B5EE50DA3E3D
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D11_RESOURCE_FLAGS, D3D11_RESOURCE_FLAGS structure, d3d11on12/D3D11_RESOURCE_FLAGS, direct3d12.d3d11_resource_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices

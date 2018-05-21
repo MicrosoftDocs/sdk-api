@@ -7,7 +7,7 @@ old-location: setup\iassemblycache_createassemblycacheitem.htm
 old-project: SbsCs
 ms.assetid: f88b688c-b349-43e4-aec0-90e064dc2b87
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: CreateAssemblyCacheItem, CreateAssemblyCacheItem method [Side-by-side Assemblies], CreateAssemblyCacheItem method [Side-by-side Assemblies],IAssemblyCache interface, IAssemblyCache interface [Side-by-side Assemblies],CreateAssemblyCacheItem method, IAssemblyCache.CreateAssemblyCacheItem, IAssemblyCache::CreateAssemblyCacheItem, setup.iassemblycache_createassemblycacheitem, winsxs/IAssemblyCache::CreateAssemblyCacheItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

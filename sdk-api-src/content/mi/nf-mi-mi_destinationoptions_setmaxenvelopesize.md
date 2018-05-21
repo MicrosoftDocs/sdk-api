@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_setmaxenvelopesize.htm
 old-project: wmi_v2
 ms.assetid: 929a4a84-f23f-4d90-86c2-7ff4235a59c0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_DestinationOptions_SetMaxEnvelopeSize, MI_DestinationOptions_SetMaxEnvelopeSize function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetMaxEnvelopeSize, wmi_v2.mi_destinationoptions_setmaxenvelopesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

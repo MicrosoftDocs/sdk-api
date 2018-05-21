@@ -7,7 +7,7 @@ old-location: mstv\iisdbeventgroupdescriptor_getgrouptype.htm
 old-project: mstv
 ms.assetid: 152bae4a-f4e6-4e9e-a1ed-19240cf8108c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetGroupType, GetGroupType method [Microsoft TV Technologies], GetGroupType method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetGroupType method, IIsdbEventGroupDescriptor.GetGroupType, IIsdbEventGroupDescriptor::GetGroupType, dvbsiparser/IIsdbEventGroupDescriptor::GetGroupType, mstv.iisdbeventgroupdescriptor_getgrouptype
 ms.prod: windows-hardware
 ms.technology: windows-devices

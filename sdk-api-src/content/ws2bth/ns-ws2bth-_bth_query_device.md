@@ -7,7 +7,7 @@ old-location: bluetooth\bth_query_device.htm
 old-project: Bluetooth
 ms.assetid: c132c79e-5938-4436-a1fb-d0d6db5dc9d3
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: "*PBTHNS_INQUIRYBLOB, *PBTH_QUERY_DEVICE, BTHNS_INQUIRYBLOB, BTH_QUERY_DEVICE, BTH_QUERY_DEVICE structure [Bluetooth], PBTH_QUERY_DEVICE, PBTH_QUERY_DEVICE structure pointer [Bluetooth], _BTH_QUERY_DEVICE, _bth_bth_query_device, bluetooth.bth_query_device, ws2bth/BTH_QUERY_DEVICE, ws2bth/PBTH_QUERY_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

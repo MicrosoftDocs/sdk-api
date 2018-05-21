@@ -7,7 +7,7 @@ old-location: mf\itocparser_gettoccount.htm
 old-project: medfound
 ms.assetid: 8ad80a20-cadb-4a0d-a39e-b627324df425
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetTocCount, GetTocCount method [Media Foundation], GetTocCount method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocCount method, ITocParser.GetTocCount, ITocParser::GetTocCount, codecapi.itocparser_gettoccount, mf.itocparser_gettoccount, wmcodecdsp/ITocParser::GetTocCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

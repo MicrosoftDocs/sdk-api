@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoverypublisher_matchprobe_method.htm
 old-project: WsdApi
 ms.assetid: 657f50ad-128f-4ccb-b89a-ed88f5d9b381
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDiscoveryPublisher interface,MatchProbe method, IWSDiscoveryPublisher.MatchProbe, IWSDiscoveryPublisher::MatchProbe, MatchProbe, MatchProbe method, MatchProbe method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_matchprobe_method, wsddisco/IWSDiscoveryPublisher::MatchProbe
 ms.prod: windows-hardware
 ms.technology: windows-devices

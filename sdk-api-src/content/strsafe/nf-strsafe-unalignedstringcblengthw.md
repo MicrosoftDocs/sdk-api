@@ -7,7 +7,7 @@ old-location: menurc\unalignedstringcblength.htm
 old-project: menurc
 ms.assetid: 2aa104f8-44e2-4896-86d8-5e2b6d9d7b73
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: StringCbLengthA, UnalignedStringCbLength, UnalignedStringCbLength function [Menus and Other Resources], UnalignedStringCbLengthW, menurc.unalignedstringcblength, strsafe/StringCbLengthA, strsafe/UnalignedStringCbLength, strsafe/UnalignedStringCbLengthW
 ms.prod: windows-hardware
 ms.technology: windows-devices

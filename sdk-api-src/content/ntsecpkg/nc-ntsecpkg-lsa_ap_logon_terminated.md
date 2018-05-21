@@ -7,7 +7,7 @@ old-location: security\lsaaplogonterminated.htm
 old-project: SecAuthN
 ms.assetid: 17e8426a-5a25-48ca-8cef-91bbeda8490c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: LSA_AP_LOGON_TERMINATED, LsaApLogonTerminated, LsaApLogonTerminated function [Security], _lsa_lsaaplogonterminated, ntsecpkg/LsaApLogonTerminated, security.lsaaplogonterminated
 ms.prod: windows-hardware
 ms.technology: windows-devices

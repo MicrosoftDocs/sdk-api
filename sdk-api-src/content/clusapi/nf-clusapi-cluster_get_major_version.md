@@ -7,7 +7,7 @@ old-location: mscs\cluster_get_major_version.htm
 old-project: MsCS
 ms.assetid: 674798d9-8614-4e3b-8d9b-cf0d307a7cfc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: CLUSTER_GET_MAJOR_VERSION, CLUSTER_GET_MAJOR_VERSION macro [Failover Cluster], _wolf_cluster_get_major_version, clusapi/CLUSTER_GET_MAJOR_VERSION, mscs.cluster_get_major_version
 ms.prod: windows-hardware
 ms.technology: windows-devices

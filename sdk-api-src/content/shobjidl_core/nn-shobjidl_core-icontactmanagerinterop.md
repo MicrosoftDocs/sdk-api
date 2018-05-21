@@ -7,7 +7,7 @@ old-location: shell\IContactManagerInterop.htm
 old-project: shell
 ms.assetid: 8E854BA3-C29E-4911-9D6E-915D1959244C
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IContactManagerInterop, IContactManagerInterop interface [Windows Shell], IContactManagerInterop interface [Windows Shell],described, shell.IContactManagerInterop, shobjidl_core/IContactManagerInterop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_name:
 -	IContactManagerInterop
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
+req.lib: Twinapi.lib
+req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IContactManagerInterop interface

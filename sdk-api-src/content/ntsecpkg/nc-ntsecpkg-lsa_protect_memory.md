@@ -7,7 +7,7 @@ old-location: security\lsaprotectmemory.htm
 old-project: SecAuthN
 ms.assetid: c851fe8b-be22-4966-ab99-f177989cf382
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: LSA_PROTECT_MEMORY, LsaProtectMemory, LsaProtectMemory function [Security], ntsecpkg/LsaProtectMemory, security.lsaprotectmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

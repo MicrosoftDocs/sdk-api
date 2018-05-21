@@ -7,7 +7,7 @@ old-location: ncd\iwsdeventingstatus.htm
 old-project: WsdApi
 ms.assetid: 04e6ea03-f9b5-48d9-940f-532bb3a85ff0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDEventingStatus, IWSDEventingStatus interface, IWSDEventingStatus interface,described, ncd.iwsdeventingstatus, wsdclient/IWSDEventingStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

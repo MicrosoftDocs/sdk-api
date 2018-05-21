@@ -7,7 +7,7 @@ old-location: gdi\inflaterect.htm
 old-project: gdi
 ms.assetid: 9a52fb7f-cd35-4426-8753-c26cebef30d5
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: InflateRect, InflateRect function [Windows GDI], _win32_InflateRect, gdi.inflaterect, winuser/InflateRect
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wsw\wswritexmlnsattribute.htm
 old-project: wsw
 ms.assetid: 17d73228-ea3b-4212-b9f7-7dcfdd6043a3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsWriteXmlnsAttribute, WsWriteXmlnsAttribute function [Web Services for Windows], webservices/WsWriteXmlnsAttribute, wsw.wswritexmlnsattribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxjob_get_username_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jad.htm
 ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.date: 5/16/2018
 ms.keywords: FaxJob object [Fax Service],UserName property, FaxJob.UserName, IFaxJob.get_UserName, IFaxJob::get_UserName, UserName property [Fax Service], UserName property [Fax Service],FaxJob object, _mfax_ifaxjob_get_username, fax._mfax_ifaxjob_get_username, fax._mfax_ifaxjob_get_username_vb, get_UserName
 ms.prod: windows-hardware
 ms.technology: windows-devices

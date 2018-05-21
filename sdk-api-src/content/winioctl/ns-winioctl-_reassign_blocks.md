@@ -7,7 +7,7 @@ old-location: fs\reassign_blocks_str.htm
 old-project: FileIO
 ms.assetid: 43d908fc-0e43-49ab-a96f-b6b0f491c99d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: "*PREASSIGN_BLOCKS, REASSIGN_BLOCKS, REASSIGN_BLOCKS structure [Files], _REASSIGN_BLOCKS, _win32_reassign_blocks_str, base.reassign_blocks_str, fs.reassign_blocks_str, winioctl/REASSIGN_BLOCKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

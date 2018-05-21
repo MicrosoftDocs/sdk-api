@@ -7,7 +7,7 @@ old-location: mscs\clustergroupcollectioncloseenum.htm
 old-project: MsCS
 ms.assetid: b82e13f0-364c-41cf-9fda-98a95f23ff7d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET callback, PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET callback function [Failover Cluster], clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP_GROUPSET, mscs.clustergroupcollectioncloseenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

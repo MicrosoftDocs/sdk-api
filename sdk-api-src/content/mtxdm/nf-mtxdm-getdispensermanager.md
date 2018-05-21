@@ -7,7 +7,7 @@ old-location: cos\getdispensermanager.htm
 old-project: cossdk
 ms.assetid: db344236-a8be-49ec-91fd-dfcc0bd4412c
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: GetDispenserManager, GetDispenserManager function [COM+], _dtc_GetDispenserManager_Function, cos.getdispensermanager, mtxdm/GetDispenserManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

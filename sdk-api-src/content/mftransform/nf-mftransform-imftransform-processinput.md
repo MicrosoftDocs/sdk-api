@@ -7,7 +7,7 @@ old-location: mf\imftransform_processinput.htm
 old-project: medfound
 ms.assetid: c94d406b-7cd9-42d4-ae9e-3d21dbb47209
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMFTransform interface [Media Foundation],ProcessInput method, IMFTransform.ProcessInput, IMFTransform::ProcessInput, ProcessInput, ProcessInput method [Media Foundation], ProcessInput method [Media Foundation],IMFTransform interface, c94d406b-7cd9-42d4-ae9e-3d21dbb47209, mf.imftransform_processinput, mftransform/IMFTransform::ProcessInput
 ms.prod: windows-hardware
 ms.technology: windows-devices

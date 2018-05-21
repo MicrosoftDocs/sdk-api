@@ -7,7 +7,7 @@ old-location: dshow\codecapieventdata.htm
 old-project: DirectShow
 ms.assetid: 04d0177d-ec9d-4f23-abd1-a37c787c24b2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: CodecAPIEventData, CodecAPIEventData structure [DirectShow], CodecAPIEventDataStructure, dshow.codecapieventdata, strmif/CodecAPIEventData
 ms.prod: windows-hardware
 ms.technology: windows-devices

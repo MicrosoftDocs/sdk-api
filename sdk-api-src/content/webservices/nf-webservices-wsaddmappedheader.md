@@ -7,7 +7,7 @@ old-location: wsw\wsaddmappedheader.htm
 old-project: wsw
 ms.assetid: f91dac8e-606e-4a9f-a598-8f8136c6b386
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsAddMappedHeader, WsAddMappedHeader function [Web Services for Windows], webservices/WsAddMappedHeader, wsw.wsaddmappedheader
 ms.prod: windows-hardware
 ms.technology: windows-devices

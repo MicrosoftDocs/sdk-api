@@ -7,7 +7,7 @@ old-location: winrm\iwsmanenumerator_readitem.htm
 old-project: WinRM
 ms.assetid: 6b181a4b-347c-4874-969c-9ca7d36ec788
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: IWSManEnumerator interface [Windows Remote Management],ReadItem method, IWSManEnumerator.ReadItem, IWSManEnumerator::ReadItem, ReadItem, ReadItem method [Windows Remote Management], ReadItem method [Windows Remote Management],IWSManEnumerator interface, winrm.iwsmanenumerator_readitem, wsmandisp/IWSManEnumerator::ReadItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

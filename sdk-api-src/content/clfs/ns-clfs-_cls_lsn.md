@@ -7,7 +7,7 @@ old-location: fs\clfs_lsn.htm
 old-project: Clfs
 ms.assetid: f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: "*PCLFS_LSN, *PCLS_LSN, CLFS_LSN, CLFS_LSN union [Files], CLS_LSN, PCLFS_LSN, PCLFS_LSN union pointer [Files], PPCLS_LSN, _CLS_LSN, clfs/CLFS_LSN, clfs/PCLFS_LSN, fs.clfs_lsn"
 ms.prod: windows-hardware
 ms.technology: windows-devices

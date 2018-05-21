@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_put_freemediablocks.htm
 old-project: imapi
 ms.assetid: 7ffa2736-6480-4bda-8144-b949bf43e580
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_FreeMediaBlocks method, IFileSystemImage.put_FreeMediaBlocks, IFileSystemImage::put_FreeMediaBlocks, imapi.ifilesystemimage_put_freemediablocks, imapi2fs/IFileSystemImage::put_FreeMediaBlocks, put_FreeMediaBlocks, put_FreeMediaBlocks method [IMAPI], put_FreeMediaBlocks method [IMAPI],IFileSystemImage interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

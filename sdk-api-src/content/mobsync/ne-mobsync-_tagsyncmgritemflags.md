@@ -7,7 +7,7 @@ old-location: shell\syncmgr_syncmgritemflags.htm
 old-project: shell
 ms.assetid: 6297f10b-9a2c-4077-9dca-e5c0850d125a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: SYNCMGRITEMFLAGS, SYNCMGRITEMFLAGS enumeration [Windows Shell], SYNCMGRITEM_HASPROPERTIES, SYNCMGRITEM_HIDDEN, SYNCMGRITEM_LASTUPDATETIME, SYNCMGRITEM_MAYDELETEITEM, SYNCMGRITEM_ROAMINGUSER, SYNCMGRITEM_TEMPORARY, _tagSYNCMGRITEMFLAGS, mobsync/SYNCMGRITEMFLAGS, mobsync/SYNCMGRITEM_HASPROPERTIES, mobsync/SYNCMGRITEM_HIDDEN, mobsync/SYNCMGRITEM_LASTUPDATETIME, mobsync/SYNCMGRITEM_MAYDELETEITEM, mobsync/SYNCMGRITEM_ROAMINGUSER, mobsync/SYNCMGRITEM_TEMPORARY, shell.syncmgr_syncmgritemflags, syncmgr.syncmgritemflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

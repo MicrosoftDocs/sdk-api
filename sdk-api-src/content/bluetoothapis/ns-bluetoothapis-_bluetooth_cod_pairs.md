@@ -7,7 +7,7 @@ old-location: bluetooth\bluetooth_cod_pairs.htm
 old-project: Bluetooth
 ms.assetid: e80ab664-77eb-4352-ac35-64325238d4ac
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BLUETOOTH_COD_PAIRS, BLUETOOTH_COD_PAIRS structure [Bluetooth], _BLUETOOTH_COD_PAIRS, _bth_bluetooth_cod_pairs, bluetooth.bluetooth_cod_pairs, bluetoothapis/BLUETOOTH_COD_PAIRS
 ms.prod: windows-hardware
 ms.technology: windows-devices

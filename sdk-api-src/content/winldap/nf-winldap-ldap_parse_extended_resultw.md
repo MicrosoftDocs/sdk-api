@@ -7,7 +7,7 @@ old-location: ldap\ldap_parse_extended_result.htm
 old-project: LDAP
 ms.assetid: b869c8e9-022c-437c-ba06-cb98a59c8c2d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_parse_extended_result, ldap.ldap__parse__extended__result, ldap.ldap_parse_extended_result, ldap_parse_extended_result, ldap_parse_extended_result function [LDAP], ldap_parse_extended_resultA, ldap_parse_extended_resultW, winldap/ldap_parse_extended_result, winldap/ldap_parse_extended_resultA, winldap/ldap_parse_extended_resultW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

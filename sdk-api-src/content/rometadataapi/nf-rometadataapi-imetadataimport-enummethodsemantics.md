@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enummethodsemantics.htm
 old-project: WinRT
 ms.assetid: 2b3be5bb-1da7-40d7-8407-c08c2f2723e5
 ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.date: 5/15/2018
 ms.keywords: EnumMethodSemantics, EnumMethodSemantics method [Windows Runtime], EnumMethodSemantics method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMethodSemantics method, IMetaDataImport.EnumMethodSemantics, IMetaDataImport::EnumMethodSemantics, rometadataapi/IMetaDataImport::EnumMethodSemantics, winrt.imetadataimport_enummethodsemantics
 ms.prod: windows-hardware
 ms.technology: windows-devices

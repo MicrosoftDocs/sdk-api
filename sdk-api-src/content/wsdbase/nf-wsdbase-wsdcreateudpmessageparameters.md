@@ -7,7 +7,7 @@ old-location: ncd\wsdcreateudpmessageparameters.htm
 old-project: WsdApi
 ms.assetid: a183a5f8-edd9-4881-84d4-b23701c40f36
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSDCreateUdpMessageParameters, WSDCreateUdpMessageParameters function, ncd.wsdcreateudpmessageparameters, wsdbase/WSDCreateUdpMessageParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

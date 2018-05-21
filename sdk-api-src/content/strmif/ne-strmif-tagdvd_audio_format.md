@@ -7,7 +7,7 @@ old-location: dshow\dvd_audio_format.htm
 old-project: DirectShow
 ms.assetid: 99fffd6b-a37f-4dac-8849-0409caba3c13
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DVD_AUDIO_FORMAT, DVD_AUDIO_FORMAT , DVD_AUDIO_FORMAT enumeration [DirectShow], DVD_AUDIO_FORMATEnumeration, DVD_AudioFormat_AC3, DVD_AudioFormat_DTS, DVD_AudioFormat_LPCM, DVD_AudioFormat_MPEG1, DVD_AudioFormat_MPEG1_DRC, DVD_AudioFormat_MPEG2, DVD_AudioFormat_MPEG2_DRC, DVD_AudioFormat_Other, DVD_AudioFormat_SDDS, dshow.dvd_audio_format, strmif/DVD_AUDIO_FORMAT, strmif/DVD_AudioFormat_AC3, strmif/DVD_AudioFormat_DTS, strmif/DVD_AudioFormat_LPCM, strmif/DVD_AudioFormat_MPEG1, strmif/DVD_AudioFormat_MPEG1_DRC, strmif/DVD_AudioFormat_MPEG2, strmif/DVD_AudioFormat_MPEG2_DRC, strmif/DVD_AudioFormat_Other, strmif/DVD_AudioFormat_SDDS, tagDVD_AUDIO_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # tagDVD_AUDIO_FORMAT enumeration

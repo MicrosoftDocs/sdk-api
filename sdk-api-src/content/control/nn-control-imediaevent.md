@@ -7,7 +7,7 @@ old-location: dshow\imediaevent.htm
 old-project: DirectShow
 ms.assetid: 651561d1-4e7e-48de-9cba-769ddb553e63
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IMediaEvent, IMediaEvent interface [DirectShow], IMediaEvent interface [DirectShow],described, IMediaEventInterface, control/IMediaEvent, dshow.imediaevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

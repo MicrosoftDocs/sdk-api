@@ -7,7 +7,7 @@ old-location: security\x509privatekeyprotection.htm
 old-project: SecCertEnroll
 ms.assetid: 70f398bc-95bf-459c-901c-d829946aedca
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: X509PrivateKeyProtection, X509PrivateKeyProtection enumeration [Security], XCN_NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG, XCN_NCRYPT_UI_NO_PROTECTION_FLAG, XCN_NCRYPT_UI_PROTECT_KEY_FLAG, certenroll/X509PrivateKeyProtection, certenroll/XCN_NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG, certenroll/XCN_NCRYPT_UI_NO_PROTECTION_FLAG, certenroll/XCN_NCRYPT_UI_PROTECT_KEY_FLAG, security.x509privatekeyprotection
 ms.prod: windows-hardware
 ms.technology: windows-devices

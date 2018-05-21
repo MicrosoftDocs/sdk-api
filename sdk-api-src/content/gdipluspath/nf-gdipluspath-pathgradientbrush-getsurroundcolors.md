@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetSurroundColors_colors_
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getsurroundcolors.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetSurroundColors, GetSurroundColors method [GDI+], GetSurroundColors method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetSurroundColors method, PathGradientBrush.GetSurroundColors, PathGradientBrush::GetSurroundColors, _gdiplus_CLASS_PathGradientBrush_GetSurroundColors_colors_count_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetSurroundColors_colors_count_
 ms.prod: windows-hardware
 ms.technology: windows-devices

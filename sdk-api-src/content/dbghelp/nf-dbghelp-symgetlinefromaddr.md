@@ -7,7 +7,7 @@ old-location: base\symgetlinefromaddr64.htm
 old-project: Debug
 ms.assetid: a1dad8e0-cd85-41f7-b0e3-e359be94c0ac
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SymGetLineFromAddr, SymGetLineFromAddr function, SymGetLineFromAddr64, SymGetLineFromAddr64 function, SymGetLineFromAddrW64, _win32_symgetlinefromaddr64, base.symgetlinefromaddr64, dbghelp/SymGetLineFromAddr, dbghelp/SymGetLineFromAddr64, dbghelp/SymGetLineFromAddrW64
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\cryptupdateprotectedstate.htm
 old-project: SecCrypto
 ms.assetid: f32e8fcd-6b5b-4a43-b3f9-77e17c84deca
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CryptUpdateProtectedState, CryptUpdateProtectedState function [Security], dpapi/CryptUpdateProtectedState, security.cryptupdateprotectedstate, wincrypt/CryptUpdateProtectedState
 ms.prod: windows-hardware
 ms.technology: windows-devices

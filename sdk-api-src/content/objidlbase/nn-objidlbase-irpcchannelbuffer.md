@@ -7,7 +7,7 @@ old-location: com\irpcchannelbuffer.htm
 old-project: com
 ms.assetid: 1d7d7e1c-a491-4625-97ae-0d4dc5d2fc20
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IRpcChannelBuffer, IRpcChannelBuffer interface [COM], IRpcChannelBuffer interface [COM],described, _com_irpcchannelbuffer, com.irpcchannelbuffer, objidlbase/IRpcChannelBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

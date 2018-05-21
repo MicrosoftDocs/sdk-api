@@ -7,7 +7,7 @@ old-location: dshow\imediaposition_put_stoptime.htm
 old-project: DirectShow
 ms.assetid: c068310e-4083-46ac-8ec6-3d57976f4a88
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_StopTime method, IMediaPosition.put_StopTime, IMediaPosition::put_StopTime, IMediaPositionput_StopTime, control/IMediaPosition::put_StopTime, dshow.imediaposition_put_stoptime, put_StopTime, put_StopTime method [DirectShow], put_StopTime method [DirectShow],IMediaPosition interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

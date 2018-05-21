@@ -7,7 +7,7 @@ old-location: perf\pdhexpandcounterpath.htm
 old-project: PerfCtrs
 ms.assetid: d90954ab-ec2f-42fd-90b7-66f59f3d1115
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PdhExpandCounterPath, PdhExpandCounterPath function [Perf], PdhExpandCounterPathA, PdhExpandCounterPathW, _win32_pdhexpandcounterpath, base.pdhexpandcounterpath, pdh/PdhExpandCounterPath, pdh/PdhExpandCounterPathA, pdh/PdhExpandCounterPathW, perf.pdhexpandcounterpath
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\enumerategetnextservice.htm
 old-project: RRAS
 ms.assetid: 45d0ccaa-97d5-4a14-9983-dc0ca268ed4b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: EnumerateGetNextService, EnumerateGetNextService callback function [RAS], PENUMERATE_GET_NEXT_SERVICE, PENUMERATE_GET_NEXT_SERVICE callback, _mpr_enumerategetnextservice, rras.enumerategetnextservice, stm/EnumerateGetNextService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # PENUMERATE_GET_NEXT_SERVICE callback function

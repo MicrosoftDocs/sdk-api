@@ -7,7 +7,7 @@ old-location: base\symenumsymbolsex.htm
 old-project: Debug
 ms.assetid: 80fbe47d-702c-4cda-8e28-c72f8d7db3d2
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: "*!*, SYMENUM_OPTIONS_DEFAULT, SYMENUM_OPTIONS_INLINE, SymEnumSymbolsEx, SymEnumSymbolsEx function, SymEnumSymbolsExW, base.symenumsymbolsex, dbghelp/SymEnumSymbolsEx, dbghelp/SymEnumSymbolsExW, foo, foo*!bar, foo?"
 ms.prod: windows-hardware
 ms.technology: windows-devices

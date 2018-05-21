@@ -7,7 +7,7 @@ old-location: wsw\wsreadendelement.htm
 old-project: wsw
 ms.assetid: cd2e0e5a-9c73-4180-9c54-6742d87cb141
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsReadEndElement, WsReadEndElement function [Web Services for Windows], webservices/WsReadEndElement, wsw.wsreadendelement
 ms.prod: windows-hardware
 ms.technology: windows-devices

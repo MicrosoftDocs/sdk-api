@@ -2,11 +2,12 @@
 UID: NA:pchannel
 ms.assetid: bff335a9-9ef2-395d-8e2d-22f9fa628622
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: termserv
 ---
 

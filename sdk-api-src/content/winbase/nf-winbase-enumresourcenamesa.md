@@ -7,7 +7,7 @@ old-location: menurc\enumresourcenames.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcenames.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: EnumResourceNames, EnumResourceNames function [Menus and Other Resources], EnumResourceNamesA, EnumResourceNamesW, _win32_EnumResourceNames, _win32_enumresourcenames_cpp, menurc.enumresourcenames, winbase/EnumResourceNames, winbase/EnumResourceNamesA, winbase/EnumResourceNamesW, winui._win32_enumresourcenames
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\imsvidgraphsegmentcontainer.htm
 old-project: mstv
 ms.assetid: a314693f-8fc2-4816-b64b-d5f8886da39e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IMSVidGraphSegmentContainer, IMSVidGraphSegmentContainer interface [Microsoft TV Technologies], IMSVidGraphSegmentContainer interface [Microsoft TV Technologies],described, IMSVidGraphSegmentContainerInterface, mstv.imsvidgraphsegmentcontainer, segment/IMSVidGraphSegmentContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices

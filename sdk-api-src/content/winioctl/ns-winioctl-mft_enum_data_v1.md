@@ -2,21 +2,21 @@
 UID: NS:winioctl.MFT_ENUM_DATA_V1
 title: MFT_ENUM_DATA_V1
 author: windows-driver-content
-description: Contains information defining the boundaries for and starting place of an enumeration of update sequence number (USN) change journal records.
-old-location: fs\mft_enum_data_str.htm
+description: Contains information defining the boundaries for and starting place of an enumeration of update sequence number (USN) change journal records for ReFS volumes.
+old-location: fs\mft_enum_data_v1.htm
 old-project: FileIO
-ms.assetid: bd098d10-b30f-44b0-a379-2d57e33fe1c9
+ms.assetid: 6d7b50e3-60cf-4eaf-9d22-fbb20c7e0bba
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: "*PMFT_ENUM_DATA, *PMFT_ENUM_DATA_V1, MFT_ENUM_DATA, MFT_ENUM_DATA structure [Files], MFT_ENUM_DATA_V0, MFT_ENUM_DATA_V0 structure [Files], MFT_ENUM_DATA_V1, PMFT_ENUM_DATA, PMFT_ENUM_DATA structure pointer [Files], PMFT_ENUM_DATA_V0, PMFT_ENUM_DATA_V0 structure pointer [Files], _win32_mft_enum_data_str, base.mft_enum_data_str, fs.mft_enum_data_str, winioctl/MFT_ENUM_DATA, winioctl/MFT_ENUM_DATA_V0, winioctl/PMFT_ENUM_DATA, winioctl/PMFT_ENUM_DATA_V0"
+ms.date: 5/16/2018
+ms.keywords: "*PMFT_ENUM_DATA, *PMFT_ENUM_DATA_V1, MFT_ENUM_DATA, MFT_ENUM_DATA_V1, MFT_ENUM_DATA_V1 structure [Files], PMFT_ENUM_DATA_V1, PMFT_ENUM_DATA_V1 structure pointer [Files], fs.mft_enum_data_v1, winioctl/MFT_ENUM_DATA_V1, winioctl/PMFT_ENUM_DATA_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: None supported
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	WinIoCtl.h
 api_name:
--	MFT_ENUM_DATA_V0
+-	MFT_ENUM_DATA_V1
 product: Windows
 targetos: Windows
 req.lib: 
@@ -51,11 +51,8 @@ req.product: Windows Address Book 5.0
 
 
 Contains information defining the boundaries for and starting place of an enumeration of update 
-    sequence number (USN) change journal records. It is used as the input buffer for the 
-    <a href="https://msdn.microsoft.com/44d20401-a2ed-4756-9fda-878a24eab7c3">FSCTL_ENUM_USN_DATA</a> control code. Prior to 
-    Windows Server 2012 this structure was named 
-    <b>MFT_ENUM_DATA</b>. Use that name to compile with older SDKs 
-    and compilers.
+    sequence number (USN) change journal records for ReFS volumes. It is used as the input buffer for the 
+    <a href="https://msdn.microsoft.com/44d20401-a2ed-4756-9fda-878a24eab7c3">FSCTL_ENUM_USN_DATA</a> control code.
 
 
 ## -struct-fields
@@ -90,14 +87,45 @@ The upper boundary of the range of USN values used to filter which files are ret
 
 ### -field MinMajorVersion
 
- 
+Indicates the minimum supported major version for the USN change journal.
 
 
 ### -field MaxMajorVersion
 
- 
+Indicates the maximum supported major version for the USN change journal.
 
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+The data returned from the <a href="https://msdn.microsoft.com/44d20401-a2ed-4756-9fda-878a24eab7c3">FSCTL_ENUM_USN_DATA</a> 
+        control code will contain <a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD_V2</a> 
+        structures.
 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>3</dt>
+</dl>
+</td>
+<td width="60%">
+The data returned from the <a href="https://msdn.microsoft.com/44d20401-a2ed-4756-9fda-878a24eab7c3">FSCTL_ENUM_USN_DATA</a> 
+        control code will contain <a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD_V2</a> or <a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-eaa540e8b15b">USN_RECORD_V3</a> structures.
+
+</td>
+</tr>
+</table>
+ 
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: tapi3\itacdgroupevent.htm
 old-project: Tapi
 ms.assetid: 5770dca5-cf71-4211-ba9f-0fe7a3bbb614
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: ITACDGroupEvent, ITACDGroupEvent interface [TAPI 2.2], ITACDGroupEvent interface [TAPI 2.2],described, _tapi3_itacdgroupevent, tapi3.itacdgroupevent, tapi3cc/ITACDGroupEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

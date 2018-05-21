@@ -1,0 +1,7 @@
+{
+  "tech": "wpdauto",
+  "headers": [
+    "portabledeviceapi.h",
+    "safeint_internal.h"
+  ]
+}

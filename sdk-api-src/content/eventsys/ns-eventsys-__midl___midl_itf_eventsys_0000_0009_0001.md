@@ -7,7 +7,7 @@ old-location: cos\comeventsyschangeinfo.htm
 old-project: cossdk
 ms.assetid: 6c9f143e-bdd4-48be-a635-a382c8c770c1
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: COMEVENTSYSCHANGEINFO, COMEVENTSYSCHANGEINFO structure [COM+], __MIDL___MIDL_itf_eventsys_0000_0009_0001, _cos_COMEVENTSYSCHANGEINFO, cos.comeventsyschangeinfo, eventsys/COMEVENTSYSCHANGEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

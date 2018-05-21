@@ -7,7 +7,7 @@ old-location: ad\schedule.htm
 old-project: AD
 ms.assetid: d86890db-b34a-415a-820a-6d4790914218
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: "*PSCHEDULE, PSCHEDULE, PSCHEDULE structure pointer [Active Directory], SCHEDULE, SCHEDULE structure [Active Directory], _SCHEDULE, ad.schedule, schedule/PSCHEDULE, schedule/SCHEDULE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

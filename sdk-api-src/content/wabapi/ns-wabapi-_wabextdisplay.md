@@ -7,7 +7,7 @@ old-location: wab\_wab_WABEXTDISPLAY.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\wabextdisplay.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/10/2018
 ms.keywords: "*LPWABEXTDISPLAY, LPWABEXTDISPLAY, LPWABEXTDISPLAY structure pointer [Windows Address Book], WABEXTDISPLAY, WABEXTDISPLAY structure [Windows Address Book], WAB_CONTEXT_ADRLIST, WAB_DISPLAY_LDAPURL, _WABEXTDISPLAY, _wab_WABEXTDISPLAY, wab._wab_WABEXTDISPLAY, wabapi/LPWABEXTDISPLAY, wabapi/WABEXTDISPLAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

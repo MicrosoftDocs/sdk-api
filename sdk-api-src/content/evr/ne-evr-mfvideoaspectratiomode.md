@@ -7,7 +7,7 @@ old-location: mf\mfvideoaspectratiomode.htm
 old-project: medfound
 ms.assetid: c0a34cff-f86f-4005-9320-5dadfdde5808
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: MFVideoARMode_Mask, MFVideoARMode_NonLinearStretch, MFVideoARMode_None, MFVideoARMode_PreservePicture, MFVideoARMode_PreservePixel, MFVideoAspectRatioMode, MFVideoAspectRatioMode enumeration [Media Foundation], c0a34cff-f86f-4005-9320-5dadfdde5808, evr/MFVideoARMode_Mask, evr/MFVideoARMode_NonLinearStretch, evr/MFVideoARMode_None, evr/MFVideoARMode_PreservePicture, evr/MFVideoARMode_PreservePixel, evr/MFVideoAspectRatioMode, mf.mfvideoaspectratiomode
 ms.prod: windows-hardware
 ms.technology: windows-devices

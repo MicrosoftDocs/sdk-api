@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxShowCaret.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txshowcaret.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextHost interface [Windows Controls],TxShowCaret method, ITextHost.TxShowCaret, ITextHost::TxShowCaret, TxShowCaret, TxShowCaret method [Windows Controls], TxShowCaret method [Windows Controls],ITextHost interface, _win32_ITextHost_TxShowCaret, _win32_ITextHost_TxShowCaret_cpp, controls.ITextHost_TxShowCaret, controls._win32_ITextHost_TxShowCaret, textserv/ITextHost::TxShowCaret
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mstv\idvbtlocator2_physicallayerpipeid.htm
 old-project: mstv
 ms.assetid: b8292803-6fde-497e-9add-cf9cafc73a96
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IDVBTLocator2 interface [Microsoft TV Technologies],PhysicalLayerPipeId property, IDVBTLocator2.PhysicalLayerPipeId, IDVBTLocator2.get_PhysicalLayerPipeId, IDVBTLocator2::PhysicalLayerPipeId, IDVBTLocator2::get_PhysicalLayerPipeId, IDVBTLocator2::put_PhysicalLayerPipeId, PhysicalLayerPipeId property [Microsoft TV Technologies], PhysicalLayerPipeId property [Microsoft TV Technologies],IDVBTLocator2 interface, get_PhysicalLayerPipeId, mstv.idvbtlocator2_physicallayerpipeid, tuner/IDVBTLocator2::PhysicalLayerPipeId, tuner/IDVBTLocator2::get_PhysicalLayerPipeId, tuner/IDVBTLocator2::put_PhysicalLayerPipeId
 ms.prod: windows-hardware
 ms.technology: windows-devices

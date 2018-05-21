@@ -7,7 +7,7 @@ old-location: kernel\luid.htm
 old-project: kernel
 ms.assetid: 974536eb-5cb3-4056-9c43-c6df170f6bf7
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 4/30/2018
 ms.keywords: "*PLUID, LUID, LUID structure [Kernel-Mode Driver Architecture], PLUID, PLUID structure pointer [Kernel-Mode Driver Architecture], _LUID, kernel.luid, kstruct_c_0aa22a8e-19fe-40b3-96b1-9aed87ac58c3.xml, ntdef/PLUID, ntdef/SINGLE_LIST_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: Any level
-req.product: Compute Cluster Pack Client Utilities
+req.product: Rights Management Services client 1.0 SP2 or later
 ---
 
 # _LUID structure

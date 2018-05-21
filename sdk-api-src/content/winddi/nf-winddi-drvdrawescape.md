@@ -7,7 +7,7 @@ old-location: display\drvdrawescape.htm
 old-project: display
 ms.assetid: 698fb67e-4878-42ad-9c7a-899ddcbf1811
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: DrvDrawEscape, DrvDrawEscape function [Display Devices], ddifncs_d3db71f3-aafb-4718-a98f-4ef5d30a6b50.xml, display.drvdrawescape, winddi/DrvDrawEscape
 ms.prod: windows-hardware
 ms.technology: windows-devices

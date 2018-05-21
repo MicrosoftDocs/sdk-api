@@ -7,7 +7,7 @@ old-location: wsw\ws_fault_code.htm
 old-project: wsw
 ms.assetid: 31fb8432-6bf6-475b-81ae-e4b1a797b189
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_FAULT_CODE, WS_FAULT_CODE structure [Web Services for Windows], _WS_FAULT_CODE, webservices/WS_FAULT_CODE, wsw.ws_fault_code
 ms.prod: windows-hardware
 ms.technology: windows-devices

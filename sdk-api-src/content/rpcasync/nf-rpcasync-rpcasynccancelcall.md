@@ -7,7 +7,7 @@ old-location: rpc\rpcasynccancelcall.htm
 old-project: Rpc
 ms.assetid: e55d586f-969b-4e9a-97d9-b6c74b2a8b6d
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcAsyncCancelCall, RpcAsyncCancelCall function [RPC], _rpc_rpcasynccancelcall, rpc.rpcasynccancelcall, rpcasync/RpcAsyncCancelCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\ijolietdiscmaster_gettotaldatablocks.htm
 old-project: imapi
 ms.assetid: fa5df4de-eecc-406b-a38d-939e7b631fc8
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: GetTotalDataBlocks, GetTotalDataBlocks method [IMAPI], GetTotalDataBlocks method [IMAPI],IJolietDiscMaster interface, IJolietDiscMaster interface [IMAPI],GetTotalDataBlocks method, IJolietDiscMaster.GetTotalDataBlocks, IJolietDiscMaster::GetTotalDataBlocks, _win32_ijolietdiscmaster_gettotaldatablocks, base.ijolietdiscmaster_gettotaldatablocks, imapi.ijolietdiscmaster_gettotaldatablocks, imapi/IJolietDiscMaster::GetTotalDataBlocks
 ms.prod: windows-hardware
 ms.technology: windows-devices

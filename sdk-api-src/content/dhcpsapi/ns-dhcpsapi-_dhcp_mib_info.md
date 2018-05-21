@@ -7,7 +7,7 @@ old-location: dhcp\dhcp_mib_info.htm
 old-project: DHCP
 ms.assetid: 58f3e3a3-8246-48ff-be45-20a7eed1ed0e
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCP_MIB_INFO, DHCP_MIB_INFO, DHCP_MIB_INFO structure [DHCP], LPDHCP_MIB_INFO, LPDHCP_MIB_INFO structure pointer [DHCP], _DHCP_MIB_INFO, dhcp.dhcp_mib_info, dhcpsapi/LPDHCP_MIB_INFO, dhcpsapi/_DHCP_MIB_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

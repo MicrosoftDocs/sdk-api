@@ -7,7 +7,7 @@ old-location: base\releasemutexwhencallbackreturns.htm
 old-project: ProcThread
 ms.assetid: 0e82c041-8191-477d-8a2e-819b8920bbc8
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: ReleaseMutexWhenCallbackReturns, ReleaseMutexWhenCallbackReturns function, base.releasemutexwhencallbackreturns, threadpoolapiset/ReleaseMutexWhenCallbackReturns, winbase/ReleaseMutexWhenCallbackReturns
 ms.prod: windows-hardware
 ms.technology: windows-devices

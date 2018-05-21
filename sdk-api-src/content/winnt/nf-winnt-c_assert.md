@@ -7,7 +7,7 @@ old-location: base\c_assert.htm
 old-project: Debug
 ms.assetid: 6cae9a14-584c-474c-b34e-7c6e410afcc1
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: C_ASSERT, C_ASSERT macro, base.c_assert, winnt/C_ASSERT
 ms.prod: windows-hardware
 ms.technology: windows-devices

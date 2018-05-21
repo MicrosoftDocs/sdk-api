@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiobject.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject.htm
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: IDXGIObject, IDXGIObject interface [DXGI], IDXGIObject interface [DXGI],described, ae721ac9-3ed3-d7ef-07a7-3f3acbb19dcd, direct3ddxgi.idxgiobject, dxgi/IDXGIObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

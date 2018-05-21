@@ -7,7 +7,7 @@ old-location: base\dispatcherqueueoptions.htm
 old-project: ProcThread
 ms.assetid: F9AF7DDE-13EB-43DB-BAD5-61A6ABD9307D
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: DispatcherQueueOptions, DispatcherQueueOptions structure, base.dispatcherqueueoptions, dispatcherqueue/DispatcherQueueOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

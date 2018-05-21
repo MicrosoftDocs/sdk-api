@@ -7,7 +7,7 @@ old-location: display\ddvideoportdesc.htm
 old-project: display
 ms.assetid: efd5907c-ed75-40be-b568-7c305310f79b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*LPDDVIDEOPORTDESC, DDVIDEOPORTDESC, DDVIDEOPORTDESC structure [Display Devices], _DDVIDEOPORTDESC, ddstrcts_4fab2afd-4b57-49cc-b288-3ff8af49c3ba.xml, display.ddvideoportdesc, dvp/DDVIDEOPORTDESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

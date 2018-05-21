@@ -7,7 +7,7 @@ old-location: dshow\icapturegraphbuilder2_renderstream.htm
 old-project: DirectShow
 ms.assetid: 2fb5f13c-2bf5-463b-a209-77129a159bd6
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ICaptureGraphBuilder2 interface [DirectShow],RenderStream method, ICaptureGraphBuilder2.RenderStream, ICaptureGraphBuilder2::RenderStream, ICaptureGraphBuilder2RenderStream, RenderStream, RenderStream method [DirectShow], RenderStream method [DirectShow],ICaptureGraphBuilder2 interface, dshow.icapturegraphbuilder2_renderstream, strmif/ICaptureGraphBuilder2::RenderStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

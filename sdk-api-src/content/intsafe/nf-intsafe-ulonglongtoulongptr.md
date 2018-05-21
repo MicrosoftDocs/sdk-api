@@ -2,13 +2,13 @@
 UID: NF:intsafe.ULongLongToULongPtr
 title: ULongLongToULongPtr function
 author: windows-driver-content
-description: Converts a value of type ULONGLONG to a value of type DWORD_PTR.
-old-location: shell\ULongLongToDWordPtr.htm
+description: Converts a value of type ULONGLONG to a value of type ULONG_PTR.
+old-location: shell\ULongLongToULongPtr.htm
 old-project: shell
-ms.assetid: 7f398e08-44a1-4815-b49d-95259e502eba
+ms.assetid: 6c95e1ab-2eab-4c10-b1f6-812f34b8214c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: ULongLongToDWordPtr, ULongLongToDWordPtr function [Windows Shell], ULongLongToULongPtr, _shell_ULongLongToDWordPtr, intsafe/ULongLongToDWordPtr, shell.ULongLongToDWordPtr
+ms.date: 5/16/2018
+ms.keywords: ULongLongToDWordPtr, ULongLongToSSIZET, ULongLongToULongPtr, ULongLongToULongPtr function [Windows Shell], _shell_ULongLongToULongPtr, intsafe/ULongLongToULongPtr, shell.ULongLongToULongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Intsafe.h
 api_name:
--	ULongLongToDWordPtr
+-	ULongLongToULongPtr
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,7 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Converts a value of type <b>ULONGLONG</b> to a value of type <b>DWORD_PTR</b>.
+Converts a value of type <b>ULONGLONG</b> to a value of type <b>ULONG_PTR</b>.
 
 
 ## -parameters
@@ -65,18 +65,11 @@ Type: <b>ULONGLONG</b>
 The value to be converted.
 
 
-### -param pulResult
+### -param pulResult [out]
 
-TBD
+Type: <b>ULONG_PTR*</b>
 
-
-
-
-#### - pdwResult [out]
-
-Type: <b>DWORD_PTR*</b>
-
-The address of a pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
+A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
 
 ## -returns
@@ -95,6 +88,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
+
+<b>ULongLongToSSIZET</b> is an alias for this function.
+
+<b>ULongLongToDWordPtr</b> is an alias for this function.
 
 
 

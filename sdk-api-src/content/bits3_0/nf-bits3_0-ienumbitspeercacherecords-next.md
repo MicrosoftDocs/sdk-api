@@ -7,7 +7,7 @@ old-location: bits\ienumbitspeercacherecords_next.htm
 old-project: Bits
 ms.assetid: a8117baa-9f77-4735-bd15-2c7e1e759e9b
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Next method, IEnumBitsPeerCacheRecords.Next, IEnumBitsPeerCacheRecords::Next, Next, Next method [BITS], Next method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_next, bits3_0/IEnumBitsPeerCacheRecords::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

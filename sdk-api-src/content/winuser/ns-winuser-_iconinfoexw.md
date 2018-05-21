@@ -7,7 +7,7 @@ old-location: menurc\iconinfoex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconstructures\iconinfoex.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: "*PICONINFOEXW, ICONINFOEX, ICONINFOEX structure [Menus and Other Resources], ICONINFOEXA, ICONINFOEXW, _ICONINFOEXW, _win32_ICONINFOEX, _win32_iconinfoex_cpp, menurc.iconinfoex, winui._win32_iconinfoex, winuser/ICONINFOEX, winuser/ICONINFOEXA, winuser/ICONINFOEXW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

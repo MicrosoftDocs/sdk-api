@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_timestamp.htm
 old-project: wmi_v2
 ms.assetid: f06f1b0e-d21c-4b60-8099-222a1582fde1
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_Timestamp, MI_Timestamp structure [Windows Management Infrastructure (MI)], _MI_Timestamp, mi/MI_Timestamp, wmi._mi_timestamp, wmi_v2.mi_timestamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: winprog\_associatefileex.htm
 old-project: DevNotes
 ms.assetid: b7efaa05-e6ac-4fb8-889f-ff6fa0755476
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: AssociateFileEx, AssociateFileEx function [Windows API], filehc/AssociateFileEx, winprog._associatefileex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: CREATEFILE2_EXTENDED_PARAMETERS, *PCREATEFILE2_EXTENDED_PARAMETERS, *LPCREATEFILE2_EXTENDED_PARAMETERS
+req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 topic_type:
 -	APIRef
 -	kbSyntax

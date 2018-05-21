@@ -7,7 +7,7 @@ old-location: ad\dscrackunquotedmangledrdn.htm
 old-project: AD
 ms.assetid: 30711d2d-f541-46b4-a301-a0f9fc7d6676
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: DsCrackUnquotedMangledRdn, DsCrackUnquotedMangledRdn function [Active Directory], DsCrackUnquotedMangledRdnA, DsCrackUnquotedMangledRdnW, _glines_dscrackunquotedmangledrdn, ad.dscrackunquotedmangledrdn, dsparse/DsCrackUnquotedMangledRdn, dsparse/DsCrackUnquotedMangledRdnA, dsparse/DsCrackUnquotedMangledRdnW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: menurc\stringcbprintf.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbprintf.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: StringCbPrintf, StringCbPrintf function [Menus and Other Resources], StringCbPrintfA, StringCbPrintfW, _shell_StringCbPrintf, _shell_stringcbprintf_cpp, menurc.stringcbprintf, strsafe/StringCbPrintf, strsafe/StringCbPrintfA, strsafe/StringCbPrintfW, winui._shell_stringcbprintf
 ms.prod: windows-hardware
 ms.technology: windows-devices

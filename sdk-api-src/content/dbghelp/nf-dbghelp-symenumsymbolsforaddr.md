@@ -7,7 +7,7 @@ old-location: base\symenumsymbolsforaddr.htm
 old-project: Debug
 ms.assetid: 1c622d1d-e7be-4b02-8d6d-68b5f07f2e35
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/17/2018
 ms.keywords: SymEnumSymbolsForAddr, SymEnumSymbolsForAddr function, SymEnumSymbolsForAddrW, _win32_symenumsymbolsforaddr, base.symenumsymbolsforaddr, dbghelp/SymEnumSymbolsForAddr, dbghelp/SymEnumSymbolsForAddrW
 ms.prod: windows-hardware
 ms.technology: windows-devices

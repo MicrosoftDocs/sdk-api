@@ -7,7 +7,7 @@ old-location: perf\perfquerycounterinfo.htm
 old-project: PerfCtrs
 ms.assetid: 42CAB98C-4525-499D-BA11-731A666E112D
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PerfQueryCounterInfo, PerfQueryCounterInfo function [Perf], perf.perfquerycounterinfo, perflib/PerfQueryCounterInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

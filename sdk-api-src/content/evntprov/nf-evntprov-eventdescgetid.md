@@ -7,7 +7,7 @@ old-location: etw\eventdescgetid_func.htm
 old-project: ETW
 ms.assetid: 33deea6e-27e0-44ae-8d18-e8c854bc1819
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: EventDescGetId, EventDescGetId function [ETW], base.eventdescgetid_func, etw.eventdescgetid_func, evntprov/EventDescGetId
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: menurc\getsystemmenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getsystemmenu.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: GetSystemMenu, GetSystemMenu function [Menus and Other Resources], _win32_GetSystemMenu, _win32_getsystemmenu_cpp, menurc.getsystemmenu, winui._win32_getsystemmenu, winuser/GetSystemMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices

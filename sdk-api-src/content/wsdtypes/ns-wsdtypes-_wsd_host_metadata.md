@@ -7,7 +7,7 @@ old-location: ncd\wsd_host_metadata_struct.htm
 old-project: WsdApi
 ms.assetid: da774582-3b27-470d-9b6a-ac2b106a47b9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_HOST_METADATA, WSD_HOST_METADATA structure, _WSD_HOST_METADATA, ncd.wsd_host_metadata_struct, wsdtypes/WSD_HOST_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

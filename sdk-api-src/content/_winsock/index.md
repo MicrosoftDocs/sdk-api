@@ -2,7 +2,7 @@
 UID: TP:winsock
 ms.assetid: 517f0d35-1c4a-3ed3-b68d-6bb755388d9e
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

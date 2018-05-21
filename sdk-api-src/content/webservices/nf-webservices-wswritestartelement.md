@@ -7,7 +7,7 @@ old-location: wsw\wswritestartelement.htm
 old-project: wsw
 ms.assetid: da23f5e6-504c-4e93-9190-7d8c41efc0da
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsWriteStartElement, WsWriteStartElement function [Web Services for Windows], webservices/WsWriteStartElement, wsw.wswritestartelement
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_usedblocks.htm
 old-project: imapi
 ms.assetid: 97f59440-112b-49ea-9f8e-97e8a831229d
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/16/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_UsedBlocks method, IFileSystemImage.get_UsedBlocks, IFileSystemImage::get_UsedBlocks, get_UsedBlocks, get_UsedBlocks method [IMAPI], get_UsedBlocks method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_usedblocks, imapi2fs/IFileSystemImage::get_UsedBlocks
 ms.prod: windows-hardware
 ms.technology: windows-devices

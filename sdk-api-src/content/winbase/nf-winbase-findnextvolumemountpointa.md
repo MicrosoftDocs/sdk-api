@@ -7,7 +7,7 @@ old-location: fs\findnextvolumemountpoint.htm
 old-project: FileIO
 ms.assetid: 299e2fed-74d8-4008-b593-981c52016532
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/16/2018
 ms.keywords: FindNextVolumeMountPoint, FindNextVolumeMountPoint function [Files], FindNextVolumeMountPointA, FindNextVolumeMountPointW, _win32_findnextvolumemountpoint, base.findnextvolumemountpoint, fs.findnextvolumemountpoint, winbase/FindNextVolumeMountPoint, winbase/FindNextVolumeMountPointA, winbase/FindNextVolumeMountPointW
 ms.prod: windows-hardware
 ms.technology: windows-devices

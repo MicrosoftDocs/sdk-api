@@ -2,11 +2,12 @@
 UID: NA:netcon
 ms.assetid: 820ce7f2-c0aa-3bb8-8657-e4bdd3dfd09c
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+archived: true
 tech.root: ics
 ---
 

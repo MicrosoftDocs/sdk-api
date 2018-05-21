@@ -7,7 +7,7 @@ old-location: wsw\wsfreereader.htm
 old-project: wsw
 ms.assetid: 31163bea-266f-43a3-bdf5-61386ebc197c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsFreeReader, WsFreeReader function [Web Services for Windows], webservices/WsFreeReader, wsw.wsfreereader
 ms.prod: windows-hardware
 ms.technology: windows-devices

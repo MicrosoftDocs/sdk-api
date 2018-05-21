@@ -7,7 +7,7 @@ old-location: eaphost\eappeerinvokeinteractiveui.htm
 old-project: EAPHost
 ms.assetid: 16301c49-4415-4ebe-abdd-a03183db5f20
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapPeerInvokeInteractiveUI, EapPeerInvokeInteractiveUI function [EAPHost], eaphost.eappeerinvokeinteractiveui, eapmethodpeerapis/EapPeerInvokeInteractiveUI
 ms.prod: windows-hardware
 ms.technology: windows-devices

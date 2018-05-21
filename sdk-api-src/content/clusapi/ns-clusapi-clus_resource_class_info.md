@@ -7,7 +7,7 @@ old-location: mscs\clus_resource_class_info.htm
 old-project: MsCS
 ms.assetid: b8b6c479-2e35-4cc9-b864-d495c3bded25
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: "*PCLUS_RESOURCE_CLASS_INFO, CLUS_RESCLASS_NETWORK, CLUS_RESCLASS_STORAGE, CLUS_RESCLASS_UNKNOWN, CLUS_RESCLASS_USER, CLUS_RESOURCE_CLASS_INFO, CLUS_RESOURCE_CLASS_INFO structure [Failover Cluster], CLUS_RESSUBCLASS_SHARED, PCLUS_RESOURCE_CLASS_INFO, PCLUS_RESOURCE_CLASS_INFO structure pointer [Failover Cluster], _wolf_clus_resource_class_info, clusapi/CLUS_RESOURCE_CLASS_INFO, clusapi/PCLUS_RESOURCE_CLASS_INFO, mscs.clus_resource_class_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveredservice_getscopes.htm
 old-project: WsdApi
 ms.assetid: 9b389ba3-9cc1-4bc2-949a-e7103378cbcc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: GetScopes, GetScopes method, GetScopes method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetScopes method, IWSDiscoveredService.GetScopes, IWSDiscoveredService::GetScopes, ncd.iwsdiscoveredservice_getscopes, wsddisco/IWSDiscoveredService::GetScopes
 ms.prod: windows-hardware
 ms.technology: windows-devices

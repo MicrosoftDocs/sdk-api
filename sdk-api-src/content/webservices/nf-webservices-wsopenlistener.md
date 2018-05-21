@@ -7,7 +7,7 @@ old-location: wsw\wsopenlistener.htm
 old-project: wsw
 ms.assetid: 36226881-3fe7-4510-b147-7ee30146482c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsOpenListener, WsOpenListener function [Web Services for Windows], webservices/WsOpenListener, wsw.wsopenlistener
 ms.prod: windows-hardware
 ms.technology: windows-devices

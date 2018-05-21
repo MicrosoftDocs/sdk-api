@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Pen_GetCustomEndCap_customCap_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getcustomendcap.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: GetCustomEndCap, GetCustomEndCap method [GDI+], GetCustomEndCap method [GDI+],Pen class, Pen class [GDI+],GetCustomEndCap method, Pen.GetCustomEndCap, Pen::GetCustomEndCap, _gdiplus_CLASS_Pen_GetCustomEndCap_customCap_, gdiplus._gdiplus_CLASS_Pen_GetCustomEndCap_customCap_
 ms.prod: windows-hardware
 ms.technology: windows-devices

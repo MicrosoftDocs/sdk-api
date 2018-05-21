@@ -7,7 +7,7 @@ old-location: security\certcomparepublickeyinfo.htm
 old-project: SecCrypto
 ms.assetid: 079e4d5e-c8cb-4c3e-8094-13b9a140d564
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: CertComparePublicKeyInfo, CertComparePublicKeyInfo function [Security], _crypto2_certcomparepublickeyinfo, security.certcomparepublickeyinfo, wincrypt/CertComparePublicKeyInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

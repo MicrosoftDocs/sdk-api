@@ -7,7 +7,7 @@ old-location: tapi2\linequeuelist.htm
 old-project: Tapi
 ms.assetid: 86645d7c-f683-48e7-8342-3e9d5961913a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: "*LPLINEQUEUELIST, LINEQUEUELIST, LINEQUEUELIST structure [TAPI 2.2], LPLINEQUEUELIST, LPLINEQUEUELIST structure pointer [TAPI 2.2], _tapi2_linequeuelist, linequeuelist_tag, tapi/LINEQUEUELIST, tapi/LPLINEQUEUELIST, tapi2.linequeuelist"
 ms.prod: windows-hardware
 ms.technology: windows-devices

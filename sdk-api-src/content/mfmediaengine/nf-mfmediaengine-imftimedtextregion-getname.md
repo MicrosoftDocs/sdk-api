@@ -7,7 +7,7 @@ old-location: mf\imftimedtextregion_getname.htm
 old-project: medfound
 ms.assetid: 1B3C07CF-0E9C-4C7D-8F41-7A0B168967A3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetName method, IMFTimedTextRegion.GetName, IMFTimedTextRegion::GetName, mf.imftimedtextregion_getname, mfmediaengine/IMFTimedTextRegion::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:transportsettingcommon
 ms.assetid: bbb51c68-5f03-30ad-9bea-9e9651f26109
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

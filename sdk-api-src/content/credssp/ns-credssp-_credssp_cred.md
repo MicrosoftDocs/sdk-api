@@ -7,7 +7,7 @@ old-location: security\credssp_cred.htm
 old-project: SecAuthN
 ms.assetid: b22bd22c-e6e1-4817-b5cf-ab49f574e75f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PCREDSSP_CRED, CREDSSP_CRED, CREDSSP_CRED structure [Security], PCREDSSP_CRED, PCREDSSP_CRED structure pointer [Security], _CREDSSP_CRED, credssp/CREDSSP_CRED, credssp/PCREDSSP_CRED, security.credssp_cred"
 ms.prod: windows-hardware
 ms.technology: windows-devices

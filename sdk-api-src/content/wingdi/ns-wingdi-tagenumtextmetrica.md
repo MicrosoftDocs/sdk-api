@@ -7,7 +7,7 @@ old-location: gdi\enumtextmetric.htm
 old-project: gdi
 ms.assetid: deb81846-3ada-4c88-8c26-74224538d282
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPENUMTEXTMETRICA, *PENUMTEXTMETRICA, ENUMTEXTMETRIC, ENUMTEXTMETRIC structure [Windows GDI], ENUMTEXTMETRICA, ENUMTEXTMETRICW, PENUMTEXTMETRIC, PENUMTEXTMETRIC structure pointer [Windows GDI], _win32_ENUMTEXTMETRIC_str, gdi.enumtextmetric, tagENUMTEXTMETRICA, wingdi/ENUMTEXTMETRIC, wingdi/ENUMTEXTMETRICA, wingdi/ENUMTEXTMETRICW, wingdi/PENUMTEXTMETRIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices

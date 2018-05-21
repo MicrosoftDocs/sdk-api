@@ -7,7 +7,7 @@ old-location: com\icatinformation.htm
 old-project: com
 ms.assetid: 1fd68126-b512-4131-8e93-cea7c1c3e9c0
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: ICatInformation, ICatInformation interface [COM], ICatInformation interface [COM],described, _com_icatinformation, com.icatinformation, comcat/ICatInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

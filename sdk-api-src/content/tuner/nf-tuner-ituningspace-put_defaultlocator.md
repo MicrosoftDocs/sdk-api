@@ -7,7 +7,7 @@ old-location: mstv\ituningspace_put_defaultlocator.htm
 old-project: mstv
 ms.assetid: 59065cc9-8a11-4551-ad3d-e7963628aa20
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_DefaultLocator method, ITuningSpace.put_DefaultLocator, ITuningSpace::put_DefaultLocator, ITuningSpaceput_DefaultLocator, mstv.ituningspace_put_defaultlocator, put_DefaultLocator, put_DefaultLocator method [Microsoft TV Technologies], put_DefaultLocator method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_DefaultLocator
 ms.prod: windows-hardware
 ms.technology: windows-devices

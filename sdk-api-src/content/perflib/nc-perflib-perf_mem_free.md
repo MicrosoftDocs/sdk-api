@@ -7,7 +7,7 @@ old-location: perf\freememory.htm
 old-project: PerfCtrs
 ms.assetid: 3b2f9f68-131a-4e17-8b43-6c3a20871dad
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: FreeMemory, FreeMemory callback function [Perf], PERF_MEM_FREE, PERF_MEM_FREE callback, perf.freememory, perflib/FreeMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices

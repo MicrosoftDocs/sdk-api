@@ -7,7 +7,7 @@ old-location: display\dd_getflipstatusdata.htm
 old-project: display
 ms.assetid: da3b90e0-1a60-434b-966c-a7ebabff33ee
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*PDD_GETFLIPSTATUSDATA, DD_GETFLIPSTATUSDATA, DD_GETFLIPSTATUSDATA structure [Display Devices], _DD_GETFLIPSTATUSDATA, ddrawint/DD_GETFLIPSTATUSDATA, ddstrcts_03291da8-7881-46a2-8b11-291124a5732d.xml, display.dd_getflipstatusdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices

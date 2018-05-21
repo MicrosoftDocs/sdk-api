@@ -7,7 +7,7 @@ old-location: dshow\iamvideoacceleratornotify.htm
 old-project: DirectShow
 ms.assetid: 7fd0290c-8fd6-4af6-b510-7a87bc7937de
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IAMVideoAcceleratorNotify, IAMVideoAcceleratorNotify interface [DirectShow], IAMVideoAcceleratorNotify interface [DirectShow],described, IAMVideoAcceleratorNotifyInterface, dshow.iamvideoacceleratornotify, videoacc/IAMVideoAcceleratorNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

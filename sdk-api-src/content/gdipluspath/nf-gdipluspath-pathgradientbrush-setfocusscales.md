@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetFocusScales_xScale_ySc
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setfocusscales.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: PathGradientBrush class [GDI+],SetFocusScales method, PathGradientBrush.SetFocusScales, PathGradientBrush::SetFocusScales, SetFocusScales, SetFocusScales method [GDI+], SetFocusScales method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetFocusScales_xScale_yScale_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetFocusScales_xScale_yScale_
 ms.prod: windows-hardware
 ms.technology: windows-devices

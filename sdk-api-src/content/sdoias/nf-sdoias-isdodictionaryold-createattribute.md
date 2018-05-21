@@ -7,7 +7,7 @@ old-location: nps\SDO_isdodictionaryold_createattribute.htm
 old-project: Nps
 ms.assetid: 8c5a203b-b60b-4053-b1c4-eca2c30a050e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: CreateAttribute, CreateAttribute method [Network Policy Server], CreateAttribute method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],CreateAttribute method, ISdoDictionaryOld.CreateAttribute, ISdoDictionaryOld::CreateAttribute, _sdo_isdodictionaryold_createattribute, nps.SDO_isdodictionaryold_createattribute, sdo.isdodictionaryold_createattribute, sdoias/ISdoDictionaryOld::CreateAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

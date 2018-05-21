@@ -7,7 +7,7 @@ old-location: security\ix509enrollmentpolicyserver_getpolicyserverid.htm
 old-project: SecCertEnroll
 ms.assetid: daff74e8-a124-4194-95f6-5837598c352f
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: GetPolicyServerId, GetPolicyServerId method [Security], GetPolicyServerId method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetPolicyServerId method, IX509EnrollmentPolicyServer.GetPolicyServerId, IX509EnrollmentPolicyServer::GetPolicyServerId, certenroll/IX509EnrollmentPolicyServer::GetPolicyServerId, security.ix509enrollmentpolicyserver_getpolicyserverid
 ms.prod: windows-hardware
 ms.technology: windows-devices

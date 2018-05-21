@@ -2,7 +2,7 @@
 UID: NA:dmoimpl
 ms.assetid: 5a9622e6-a7c0-30e6-aeeb-81d3ef481887
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

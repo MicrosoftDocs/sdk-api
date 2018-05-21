@@ -2,7 +2,7 @@
 UID: NA:cloneviewhelper
 ms.assetid: 71a392b8-59d8-30e1-93ba-dd6624f6c816
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rpc\rpc_error_enum_handle.htm
 old-project: Rpc
 ms.assetid: d6fbd0ad-b63e-4fb8-bebb-1b2b2552a8c8
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RPC_ERROR_ENUM_HANDLE, RPC_ERROR_ENUM_HANDLE structure [RPC], _rpc_rpc_error_enum_handle, rpc.rpc_error_enum_handle, rpcasync/RPC_ERROR_ENUM_HANDLE, tagRPC_ERROR_ENUM_HANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices

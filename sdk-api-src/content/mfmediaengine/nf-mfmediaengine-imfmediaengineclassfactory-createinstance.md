@@ -7,7 +7,7 @@ old-location: mf\imfmediaengineclassfactory_createinstance.htm
 old-project: medfound
 ms.assetid: EDEAD2C4-5695-4E63-9E9E-B09D75B60B7F
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaEngineClassFactory interface, IMFMediaEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaEngineClassFactory.CreateInstance, IMFMediaEngineClassFactory::CreateInstance, mf.imfmediaengineclassfactory_createinstance, mfmediaengine/IMFMediaEngineClassFactory::CreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

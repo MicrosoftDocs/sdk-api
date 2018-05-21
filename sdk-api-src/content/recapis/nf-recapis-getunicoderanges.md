@@ -7,7 +7,7 @@ old-location: tablet\getunicoderanges.htm
 old-project: tablet
 ms.assetid: 4a354073-e971-43ba-93c9-84fa2e8c59aa
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: 4a354073-e971-43ba-93c9-84fa2e8c59aa, GetUnicodeRanges, GetUnicodeRanges function [Tablet PC], recapis/GetUnicodeRanges, tablet.getunicoderanges
 ms.prod: windows-hardware
 ms.technology: windows-devices

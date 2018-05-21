@@ -7,7 +7,7 @@ old-location: winrm\wsmanpluginauthzqueryquotacomplete.htm
 old-project: WinRM
 ms.assetid: 611e9be3-75b8-4718-ae10-6ebe38010c7f
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/16/2018
 ms.keywords: WSManPluginAuthzQueryQuotaComplete, WSManPluginAuthzQueryQuotaComplete function [Windows Remote Management], winrm.wsmanpluginauthzqueryquotacomplete, wsman/WSManPluginAuthzQueryQuotaComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

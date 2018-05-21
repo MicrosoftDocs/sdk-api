@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothselectdevicesfree.htm
 old-project: Bluetooth
 ms.assetid: 9332e62d-a7ee-452e-8e21-27bbbc82448e
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothSelectDevicesFree, BluetoothSelectDevicesFree function [Bluetooth], _bth_bluetoothselectdevicesfree, bluetooth.bluetoothselectdevicesfree, bluetoothapis/BluetoothSelectDevicesFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

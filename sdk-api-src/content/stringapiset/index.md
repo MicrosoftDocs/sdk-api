@@ -2,7 +2,7 @@
 UID: NA:stringapiset
 ms.assetid: b0a163cd-d95c-3cca-b637-b21e2c1741bc
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

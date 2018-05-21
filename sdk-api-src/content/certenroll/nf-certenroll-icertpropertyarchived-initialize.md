@@ -7,7 +7,7 @@ old-location: security\icertpropertyarchived_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: 66efee4f-61af-447a-b668-81fbe2107b7f
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ICertPropertyArchived interface [Security],Initialize method, ICertPropertyArchived.Initialize, ICertPropertyArchived::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyArchived interface, certenroll/ICertPropertyArchived::Initialize, security.icertpropertyarchived_initialize_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

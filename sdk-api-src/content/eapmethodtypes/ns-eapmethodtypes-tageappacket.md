@@ -7,7 +7,7 @@ old-location: eaphost\eappacket.htm
 old-project: EAPHost
 ms.assetid: a5d78db0-990f-4318-8f1a-4e903221845f
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: EapPacket, EapPacket structure [EAPHost], eaphost.eappacket, eapmethodtypes/EapPacket, tagEapPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices

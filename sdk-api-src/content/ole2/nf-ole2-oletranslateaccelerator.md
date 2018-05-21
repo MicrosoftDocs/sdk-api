@@ -7,7 +7,7 @@ old-location: com\oletranslateaccelerator.htm
 old-project: com
 ms.assetid: c590efef-7f03-4ae6-a35f-eff2fc4da3d9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: OleTranslateAccelerator, OleTranslateAccelerator function [COM], _ole_OleTranslateAccelerator, com.oletranslateaccelerator, ole2/OleTranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12enableexperimentalfeatures.htm
 old-project: direct3d12
 ms.assetid: 290E147E-8545-4572-BB36-58481065C541
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12EnableExperimentalFeatures, D3D12EnableExperimentalFeatures function, d3d12/D3D12EnableExperimentalFeatures, direct3d12.d3d12enableexperimentalfeatures
 ms.prod: windows-hardware
 ms.technology: windows-devices

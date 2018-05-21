@@ -7,7 +7,7 @@ old-location: of\iofflinefilessyncerrorinfo_getsyncoperation.htm
 old-project: OfflineFiles
 ms.assetid: 21973fb8-26f9-40a0-bb9a-d9c5ff6924e7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: GetSyncOperation, GetSyncOperation method [Offline Files], GetSyncOperation method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetSyncOperation method, IOfflineFilesSyncErrorInfo.GetSyncOperation, IOfflineFilesSyncErrorInfo::GetSyncOperation, cscobj/IOfflineFilesSyncErrorInfo::GetSyncOperation, of.iofflinefilessyncerrorinfo_getsyncoperation
 ms.prod: windows-hardware
 ms.technology: windows-devices

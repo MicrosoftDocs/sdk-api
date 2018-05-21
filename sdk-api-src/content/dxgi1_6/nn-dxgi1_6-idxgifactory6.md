@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory6.htm
 old-project: direct3ddxgi
 ms.assetid: CB4BC8A4-D5D5-48B9-A477-65A12A43D4A6
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: IDXGIFactory6, IDXGIFactory6 interface [DXGI], IDXGIFactory6 interface [DXGI],described, direct3ddxgi.idxgifactory6, dxgi1_6/IDXGIFactory6
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DXGI_GPU_PREFERENCE
+req.typenames: DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS
 topic_type:
 -	APIRef
 -	kbSyntax

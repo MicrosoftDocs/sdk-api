@@ -7,7 +7,7 @@ old-location: security\initializesecuritycontext__credssp_.htm
 old-project: SecAuthN
 ms.assetid: f3d8c07b-db28-4f26-ba29-8733fc95bdb5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: ISC_REQ_ALLOCATE_MEMORY, ISC_REQ_CONNECTION, ISC_REQ_DELEGATE, ISC_REQ_EXTENDED_ERROR, ISC_REQ_MANUAL_CRED_VALIDATION, ISC_REQ_MUTUAL_AUTH, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, ISC_REQ_USE_SUPPLIED_CREDS, InitializeSecurityContext, InitializeSecurityContext (CredSSP), InitializeSecurityContext function [Security], InitializeSecurityContextA, InitializeSecurityContextW, security.initializesecuritycontext__credssp_, sspi/InitializeSecurityContext, sspi/InitializeSecurityContextA, sspi/InitializeSecurityContextW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # InitializeSecurityContextA function

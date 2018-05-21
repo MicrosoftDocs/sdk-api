@@ -7,7 +7,7 @@ old-location: ldap\ldap_parse_page_control.htm
 old-project: LDAP
 ms.assetid: babf74d1-2f9c-40f8-ba82-e298e49ad937
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_parse_page_control, ldap.ldap__parse__page__control, ldap.ldap_parse_page_control, ldap_parse_page_control, ldap_parse_page_control function [LDAP], ldap_parse_page_controlA, ldap_parse_page_controlW, winldap/ldap_parse_page_control, winldap/ldap_parse_page_controlA, winldap/ldap_parse_page_controlW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

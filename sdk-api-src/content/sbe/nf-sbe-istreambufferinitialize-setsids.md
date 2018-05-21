@@ -7,7 +7,7 @@ old-location: mstv\istreambufferinitialize_setsids.htm
 old-project: mstv
 ms.assetid: bd25a967-9335-4bbd-ac85-f8b25f2be563
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IStreamBufferInitialize interface [Microsoft TV Technologies],SetSIDs method, IStreamBufferInitialize.SetSIDs, IStreamBufferInitialize::SetSIDs, IStreamBufferInitializeSetSIDs, SetSIDs, SetSIDs method [Microsoft TV Technologies], SetSIDs method [Microsoft TV Technologies],IStreamBufferInitialize interface, mstv.istreambufferinitialize_setsids, sbe/IStreamBufferInitialize::SetSIDs
 ms.prod: windows-hardware
 ms.technology: windows-devices

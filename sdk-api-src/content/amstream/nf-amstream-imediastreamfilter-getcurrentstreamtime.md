@@ -7,7 +7,7 @@ old-location: dshow\imediastreamfilter_getcurrentstreamtime.htm
 old-project: DirectShow
 ms.assetid: 933f83a3-600e-4897-b4df-a481d2874155
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: GetCurrentStreamTime, GetCurrentStreamTime method [DirectShow], GetCurrentStreamTime method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],GetCurrentStreamTime method, IMediaStreamFilter.GetCurrentStreamTime, IMediaStreamFilter::GetCurrentStreamTime, IMediaStreamFilterGetCurrentStreamTime, amstream/IMediaStreamFilter::GetCurrentStreamTime, dshow.imediastreamfilter_getcurrentstreamtime
 ms.prod: windows-hardware
 ms.technology: windows-devices

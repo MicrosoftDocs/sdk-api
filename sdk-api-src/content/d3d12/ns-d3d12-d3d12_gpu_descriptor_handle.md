@@ -7,7 +7,7 @@ old-location: direct3d12\d3d12_gpu_descriptor_handle.htm
 old-project: direct3d12
 ms.assetid: 16D09788-D527-4D9F-A6EF-648F42A426B5
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/11/2018
 ms.keywords: D3D12_GPU_DESCRIPTOR_HANDLE, D3D12_GPU_DESCRIPTOR_HANDLE structure, d3d12/D3D12_GPU_DESCRIPTOR_HANDLE, direct3d12.d3d12_gpu_descriptor_handle
 ms.prod: windows-hardware
 ms.technology: windows-devices

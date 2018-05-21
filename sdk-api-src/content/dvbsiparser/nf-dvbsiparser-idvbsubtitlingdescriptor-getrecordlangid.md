@@ -7,7 +7,7 @@ old-location: mstv\idvbsubtitlingdescriptor_getrecordlangid.htm
 old-project: mstv
 ms.assetid: 03a6a71f-ccec-4e4f-a24c-2ac81dd1a0ba
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetRecordLangId, GetRecordLangId method [Microsoft TV Technologies], GetRecordLangId method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordLangId method, IDvbSubtitlingDescriptor.GetRecordLangId, IDvbSubtitlingDescriptor::GetRecordLangId, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordLangId, mstv.idvbsubtitlingdescriptor_getrecordlangid
 ms.prod: windows-hardware
 ms.technology: windows-devices

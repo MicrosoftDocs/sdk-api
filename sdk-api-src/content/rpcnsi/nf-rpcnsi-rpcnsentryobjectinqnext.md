@@ -7,7 +7,7 @@ old-location: rpc\rpcnsentryobjectinqnext.htm
 old-project: Rpc
 ms.assetid: 95648480-5b53-4a8c-ba82-6c7f204520d2
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcNsEntryObjectInqNext, RpcNsEntryObjectInqNext function [RPC], _rpc_rpcnsentryobjectinqnext, rpc.rpcnsentryobjectinqnext, rpcnsi/RpcNsEntryObjectInqNext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mscs\clusterclearbackupstateforsharedvolume.htm
 old-project: MsCS
 ms.assetid: 54ebfff4-8898-49ed-9a45-07286cda5fb4
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/10/2018
 ms.keywords: PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME, PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME callback, PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME callback function [Failover Cluster], mscs.clusterclearbackupstateforsharedvolume, resapi/PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME
 ms.prod: windows-hardware
 ms.technology: windows-devices

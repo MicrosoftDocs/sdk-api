@@ -7,7 +7,7 @@ old-location: security\sec_winnt_auth_short_vector.htm
 old-project: SecAuthN
 ms.assetid: c3c1ade7-db2b-4450-97c1-5b67e4ebdcb0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PSEC_WINNT_AUTH_SHORT_VECTOR, PSEC_WINNT_AUTH_SHORT_VECTOR, PSEC_WINNT_AUTH_SHORT_VECTOR structure pointer [Security], SEC_WINNT_AUTH_SHORT_VECTOR, SEC_WINNT_AUTH_SHORT_VECTOR structure [Security], _SEC_WINNT_AUTH_SHORT_VECTOR, security.sec_winnt_auth_short_vector, sspi/PSEC_WINNT_AUTH_SHORT_VECTOR, sspi/SEC_WINNT_AUTH_SHORT_VECTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SEC_WINNT_AUTH_SHORT_VECTOR structure

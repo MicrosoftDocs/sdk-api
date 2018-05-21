@@ -7,7 +7,7 @@ old-location: termserv\wrds_listener_settings_1.htm
 old-project: TermServ
 ms.assetid: F8F35CED-16EC-4FBB-A3CA-2A5545A88B4A
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*PWRDS_LISTENER_SETTINGS_1, PWRDS_LISTENER_SETTINGS_1, PWRDS_LISTENER_SETTINGS_1 structure pointer [Remote Desktop Services], WRDS_LISTENER_SETTINGS_1, WRDS_LISTENER_SETTINGS_1 structure [Remote Desktop Services], _WRDS_LISTENER_SETTINGS_1, termserv.wrds_listener_settings_1, wtsdefs/PWRDS_LISTENER_SETTINGS_1, wtsdefs/WRDS_LISTENER_SETTINGS_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: dshow\icodecapi.htm
 old-project: DirectShow
 ms.assetid: cc3f1bd9-1d36-45e6-94e2-07f2800fd073
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ICodecAPI, ICodecAPI interface [DirectShow], ICodecAPI interface [DirectShow],described, ICodecAPIInterface, dshow.icodecapi, strmif/ICodecAPI
 ms.prod: windows-hardware
 ms.technology: windows-devices

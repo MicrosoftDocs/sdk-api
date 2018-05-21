@@ -7,7 +7,7 @@ old-location: ics\iupnpnat_get_staticportmappingcollection.htm
 old-project: ICS
 ms.assetid: ba4d0735-f04e-47d1-a54c-e01cf338d737
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: IUPnPNAT interface [ICS/ICF],get_StaticPortMappingCollection method, IUPnPNAT.get_StaticPortMappingCollection, IUPnPNAT::get_StaticPortMappingCollection, _ics_iupnpnat_get_staticportmappingcollection, get_StaticPortMappingCollection, get_StaticPortMappingCollection method [ICS/ICF], get_StaticPortMappingCollection method [ICS/ICF],IUPnPNAT interface, ics.iupnpnat_get_staticportmappingcollection, natupnp/IUPnPNAT::get_StaticPortMappingCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

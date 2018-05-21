@@ -7,7 +7,7 @@ old-location: menurc\duplicateicon.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\duplicateicon.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: DuplicateIcon, DuplicateIcon function [Menus and Other Resources], _win32_DuplicateIcon, _win32_duplicateicon_cpp, menurc.duplicateicon, shellapi/DuplicateIcon, winui._win32_duplicateicon
 ms.prod: windows-hardware
 ms.technology: windows-devices

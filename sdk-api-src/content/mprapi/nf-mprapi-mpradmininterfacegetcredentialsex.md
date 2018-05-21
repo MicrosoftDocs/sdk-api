@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacegetcredentialsex.htm
 old-project: RRAS
 ms.assetid: 0ef9f437-a15b-4f6c-ac76-4c31a23e8792
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: MprAdminInterfaceGetCredentialsEx, MprAdminInterfaceGetCredentialsEx function [RAS], _mpr_mpradmininterfacegetcredentialsex, mprapi/MprAdminInterfaceGetCredentialsEx, rras.mpradmininterfacegetcredentialsex
 ms.prod: windows-hardware
 ms.technology: windows-devices

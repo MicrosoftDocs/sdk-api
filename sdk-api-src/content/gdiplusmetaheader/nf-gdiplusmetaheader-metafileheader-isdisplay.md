@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsDisplay_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isdisplay.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: IsDisplay, IsDisplay method [GDI+], IsDisplay method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsDisplay method, MetafileHeader.IsDisplay, MetafileHeader::IsDisplay, _gdiplus_CLASS_MetafileHeader_IsDisplay_, gdiplus._gdiplus_CLASS_MetafileHeader_IsDisplay_
 ms.prod: windows-hardware
 ms.technology: windows-devices

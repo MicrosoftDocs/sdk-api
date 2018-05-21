@@ -187,7 +187,7 @@ The <a href="https://msdn.microsoft.com/6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9">VD
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=133544">STORAGE_BUS_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566356">STORAGE_BUS_TYPE</a>
 
 
 

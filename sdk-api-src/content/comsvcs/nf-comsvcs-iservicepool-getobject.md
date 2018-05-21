@@ -7,7 +7,7 @@ old-location: cos\iservicepool_getobject.htm
 old-project: cossdk
 ms.assetid: f1b9487a-156c-4c2c-ab18-edfd66d96315
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: GetObject, GetObject method [COM+], GetObject method [COM+],IServicePool interface, IServicePool interface [COM+],GetObject method, IServicePool.GetObject, IServicePool::GetObject, _cos_IServicePool_GetObject, comsvcs/IServicePool::GetObject, cos.iservicepool_getobject
 ms.prod: windows-hardware
 ms.technology: windows-devices

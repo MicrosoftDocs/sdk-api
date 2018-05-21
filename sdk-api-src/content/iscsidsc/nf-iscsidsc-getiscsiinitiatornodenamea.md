@@ -7,7 +7,7 @@ old-location: iscsidisc\getiscsiinitiatornodename.htm
 old-project: iSCSIDisc
 ms.assetid: 592d9cd8-5944-479c-ba21-7cf911e0a5b9
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/11/2018
 ms.keywords: GetIScsiInitiatorNodeNameA, GetIscsiInitiatorNodeName, GetIscsiInitiatorNodeName function [iSCSI Discovery Library API], GetIscsiInitiatorNodeNameA, GetIscsiInitiatorNodeNameW, iscsidisc.getiscsiinitiatornodename, iscsidsc/GetIscsiInitiatorNodeName, iscsidsc/GetIscsiInitiatorNodeNameA, iscsidsc/GetIscsiInitiatorNodeNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

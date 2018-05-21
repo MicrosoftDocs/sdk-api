@@ -2,7 +2,7 @@
 UID: NA:identitystore
 ms.assetid: e3c175fe-da6e-3cc5-b0a9-f2053cb5fc8f
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

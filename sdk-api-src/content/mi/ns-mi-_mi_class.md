@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_class.htm
 old-project: wmi_v2
 ms.assetid: 7f02e0fa-9e58-455d-9cf4-1d1244c44422
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_Class, MI_Class structure [Windows Management Infrastructure (MI)], _MI_Class, mi/MI_Class, wmi._mi_class, wmi_v2.mi_class
 ms.prod: windows-hardware
 ms.technology: windows-devices

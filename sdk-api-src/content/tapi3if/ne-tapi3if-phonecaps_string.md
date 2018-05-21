@@ -7,7 +7,7 @@ old-location: tapi3\phonecaps_string.htm
 old-project: Tapi
 ms.assetid: 3ff60aa8-9a77-48a1-a60f-1e1d31653728
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: PCS_PHONEINFO, PCS_PHONENAME, PCS_PROVIDERINFO, PHONECAPS_STRING, PHONECAPS_STRING enumeration [TAPI 2.2], _tapi3_phonecaps_string, tapi3.phonecaps_string, tapi3if/PCS_PHONEINFO, tapi3if/PCS_PHONENAME, tapi3if/PCS_PROVIDERINFO, tapi3if/PHONECAPS_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices

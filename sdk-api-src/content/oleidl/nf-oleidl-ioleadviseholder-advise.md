@@ -7,7 +7,7 @@ old-location: com\ioleadviseholder_advise.htm
 old-project: com
 ms.assetid: 60bbb555-7d01-49cb-b7b3-9dc905066f94
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: Advise, Advise method [COM], Advise method [COM],IOleAdviseHolder interface, IOleAdviseHolder interface [COM],Advise method, IOleAdviseHolder.Advise, IOleAdviseHolder::Advise, _ole_ioleadviseholder_advise, com.ioleadviseholder_advise, oleidl/IOleAdviseHolder::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

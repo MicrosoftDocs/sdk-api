@@ -7,7 +7,7 @@ old-location: wab\_wab_ENTRYLIST.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\entrylist.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/10/2018
 ms.keywords: "*LPENTRYLIST, ENTRYLIST, ENTRYLIST structure [Windows Address Book], LPENTRYLIST, LPENTRYLIST structure pointer [Windows Address Book], SBinaryArray, _SBinaryArray, _wab_ENTRYLIST, wab._wab_ENTRYLIST, wabdefs/ENTRYLIST, wabdefs/LPENTRYLIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: menurc\setphysicalcursorpos.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setphysicalcursorpos.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: SetPhysicalCursorPos, SetPhysicalCursorPos function [Menus and Other Resources], _win32_SetPhysicalCursorPos, _win32_setphysicalcursorpos_cpp, menurc.setphysicalcursorpos, winui._win32_setphysicalcursorpos, winuser/SetPhysicalCursorPos
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\deleteumscompletionlist.htm
 old-project: ProcThread
 ms.assetid: 98124359-ddd1-468c-9f99-74dd3f631fa1
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: DeleteUmsCompletionList, DeleteUmsCompletionList function, base.deleteumscompletionlist, winbase/DeleteUmsCompletionList
 ms.prod: windows-hardware
 ms.technology: windows-devices

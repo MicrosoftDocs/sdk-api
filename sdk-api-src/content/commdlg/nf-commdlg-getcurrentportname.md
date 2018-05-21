@@ -7,7 +7,7 @@ old-location: dlgbox\iprintdialogservices_getcurrentportname.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices\iprintdialogservicesgetcurrentportname.htm
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/17/2018
 ms.keywords: GetCurrentPortName, GetCurrentPortName function, GetCurrentPortName method [Dialog Boxes], GetCurrentPortName method [Dialog Boxes],IPrintDialogServices interface, IPrintDialogServices interface [Dialog Boxes],GetCurrentPortName method, IPrintDialogServices::GetCurrentPortName, _win32_IPrintDialogServices_GetCurrentPortName, _win32_iprintdialogservices_getcurrentportname_cpp, commdlg/IPrintDialogServices::GetCurrentPortName, dlgbox.iprintdialogservices_getcurrentportname, winui._win32_iprintdialogservices_getcurrentportname
 ms.prod: windows-hardware
 ms.technology: windows-devices

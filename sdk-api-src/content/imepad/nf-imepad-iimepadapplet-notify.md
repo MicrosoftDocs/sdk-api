@@ -7,7 +7,7 @@ old-location: intl\iimepadapplet_notify.htm
 old-project: Intl
 ms.assetid: 5C370DC8-D308-4339-81F3-FEE88359A52F
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IImePadApplet interface [Internationalization for Windows Applications],Notify method, IImePadApplet.Notify, IImePadApplet::Notify, Notify, Notify method [Internationalization for Windows Applications], Notify method [Internationalization for Windows Applications],IImePadApplet interface, imepad/IImePadApplet::Notify, intl.iimepadapplet_notify
 ms.prod: windows-hardware
 ms.technology: windows-devices

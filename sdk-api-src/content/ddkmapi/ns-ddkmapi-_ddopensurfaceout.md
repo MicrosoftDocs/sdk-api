@@ -7,7 +7,7 @@ old-location: display\ddopensurfaceout.htm
 old-project: display
 ms.assetid: 0cf0db38-f512-4ca1-a386-5544a1c9433e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*LPDDOPENSURFACEOUT, DDOPENSURFACEOUT, DDOPENSURFACEOUT structure [Display Devices], LPDDOPENSURFACEOUT, LPDDOPENSURFACEOUT structure pointer [Display Devices], _DDOPENSURFACEOUT, ddkmapi/DDOPENSURFACEOUT, ddkmapi/LPDDOPENSURFACEOUT, ddstrcts_911314a4-692d-4909-9c30-e868a767e031.xml, display.ddopensurfaceout"
 ms.prod: windows-hardware
 ms.technology: windows-devices

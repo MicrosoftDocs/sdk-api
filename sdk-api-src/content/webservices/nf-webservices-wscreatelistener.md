@@ -7,7 +7,7 @@ old-location: wsw\wscreatelistener.htm
 old-project: wsw
 ms.assetid: 2e592fd2-cf88-4f87-a71b-1c3416917fa7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsCreateListener, WsCreateListener function [Web Services for Windows], webservices/WsCreateListener, wsw.wscreatelistener
 ms.prod: windows-hardware
 ms.technology: windows-devices

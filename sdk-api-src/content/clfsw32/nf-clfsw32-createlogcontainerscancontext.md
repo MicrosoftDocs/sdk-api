@@ -7,7 +7,7 @@ old-location: fs\createlogcontainerscancontext.htm
 old-project: Clfs
 ms.assetid: 863e600c-3a7b-47b4-9cc3-dcee1bfcc66b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: CLFS_SCAN_BACKWARD, CLFS_SCAN_FORWARD, CLFS_SCAN_INIT, CreateLogContainerScanContext, CreateLogContainerScanContext function [Files], clfsw32/CreateLogContainerScanContext, fs.createlogcontainerscancontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

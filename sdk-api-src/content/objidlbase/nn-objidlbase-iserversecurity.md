@@ -7,7 +7,7 @@ old-location: com\iserversecurity.htm
 old-project: com
 ms.assetid: aacef77c-7185-44ed-aa1a-465c6100a431
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: IServerSecurity, IServerSecurity interface [COM], IServerSecurity interface [COM],described, _com_iserversecurity, com.iserversecurity, objidlbase/IServerSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

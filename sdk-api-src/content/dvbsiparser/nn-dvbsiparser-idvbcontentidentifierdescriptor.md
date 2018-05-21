@@ -7,7 +7,7 @@ old-location: mstv\idvbcontentidentifierdescriptor.htm
 old-project: mstv
 ms.assetid: bdd15b6f-2f1e-438a-a2fd-f3fa4df2a9fd
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IDvbContentIdentifierDescriptor, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies], IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbContentIdentifierDescriptor, mstv.idvbcontentidentifierdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

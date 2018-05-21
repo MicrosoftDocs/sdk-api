@@ -212,7 +212,7 @@ The maximum value of the  <b>iBounceMSec</b>, <b>iWaitMSec</b>, <b>iDelayMSec</b
 
 
 
-<a href="base.systemparametersinfo">SystemParametersInfo</a>
+<a href="https://msdn.microsoft.com/9b99465c-e12d-413c-8e69-b46b52f2f11f">SystemParametersInfo</a>
  
 
  

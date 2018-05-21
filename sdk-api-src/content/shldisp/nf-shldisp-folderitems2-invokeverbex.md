@@ -7,7 +7,7 @@ old-location: shell\FolderItems2_InvokeVerbEx.htm
 old-project: shell
 ms.assetid: 2c02985d-8877-4a02-a232-6aeb1716928c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: FolderItems2 object [Windows Shell],InvokeVerbEx method, FolderItems2.InvokeVerbEx, FolderItems2::InvokeVerbEx, InvokeVerbEx, InvokeVerbEx method [Windows Shell], InvokeVerbEx method [Windows Shell],FolderItems2 object, _win32_FolderItems2_InvokeVerbEx, shell.FolderItems2_InvokeVerbEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

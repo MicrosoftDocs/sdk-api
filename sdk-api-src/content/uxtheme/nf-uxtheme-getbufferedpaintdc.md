@@ -7,7 +7,7 @@ old-location: controls\GetBufferedPaintDC.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpaintdc.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: GetBufferedPaintDC, GetBufferedPaintDC function [Windows Controls], _shell_GetBufferedPaintDC, _shell_GetBufferedPaintDC_cpp, controls.GetBufferedPaintDC, controls._shell_GetBufferedPaintDC, uxtheme/GetBufferedPaintDC
 ms.prod: windows-hardware
 ms.technology: windows-devices

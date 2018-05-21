@@ -7,7 +7,7 @@ old-location: menurc\accel.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorstructures\accel.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPACCEL, ACCEL, ACCEL structure [Menus and Other Resources], FALT, FCONTROL, FNOINVERT, FSHIFT, FVIRTKEY, LPACCEL, LPACCEL structure pointer [Menus and Other Resources], _win32_ACCEL_str, _win32_accel_str_cpp, menurc.accel, tagACCEL, winui._win32_accel_str, winuser/ACCEL, winuser/LPACCEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\iwsdhttpmessageparameters.htm
 old-project: WsdApi
 ms.assetid: fae10e9e-0c2b-4817-bd28-a4a85ca180cc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDHttpMessageParameters, IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,described, ncd.iwsdhttpmessageparameters, wsdbase/IWSDHttpMessageParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

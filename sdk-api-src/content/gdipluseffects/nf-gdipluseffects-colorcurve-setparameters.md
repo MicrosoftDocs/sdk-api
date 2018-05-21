@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_ColorCurve_SetParameters_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorcurveclass\colorcurvemethods\setparameters.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: ColorCurve class [GDI+],SetParameters method, ColorCurve.SetParameters, ColorCurve::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],ColorCurve class, _gdiplus_CLASS_ColorCurve_SetParameters_, gdiplus._gdiplus_CLASS_ColorCurve_SetParameters_
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdi\enumdisplaymonitors.htm
 old-project: gdi
 ms.assetid: a7668c28-77c9-4373-ae1a-eab3cb98f866
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: EnumDisplayMonitors, EnumDisplayMonitors function [Windows GDI], _win32_EnumDisplayMonitors, gdi.enumdisplaymonitors, winuser/EnumDisplayMonitors
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-The <b>EnumDisplayMonitors</b> function enumerates display monitors (including invisible pseudo-monitors associated with the mirroring drivers) that intersect a region formed by the intersection of a specified clipping rectangle and the visible region of a device context. <b>EnumDisplayMonitors</b> calls an application-defined <a href="https://msdn.microsoft.com/2d69e363-2b2c-450f-9069-488b80991217">MonitorEnumProc</a> callback function once for each monitor that is enumerated. Note that <a href="base.getsystemmetrics">GetSystemMetrics</a> (SM_CMONITORS) counts only the display monitors.
+The <b>EnumDisplayMonitors</b> function enumerates display monitors (including invisible pseudo-monitors associated with the mirroring drivers) that intersect a region formed by the intersection of a specified clipping rectangle and the visible region of a device context. <b>EnumDisplayMonitors</b> calls an application-defined <a href="https://msdn.microsoft.com/2d69e363-2b2c-450f-9069-488b80991217">MonitorEnumProc</a> callback function once for each monitor that is enumerated. Note that <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> (SM_CMONITORS) counts only the display monitors.
 
 
 ## -parameters
@@ -109,7 +109,7 @@ There are two reasons to call the <b>EnumDisplayMonitors</b> function:
 <li>You want to draw optimally into a device context that spans several display monitors, and the monitors have different color formats.</li>
 <li>You want to obtain a handle and position rectangle for one or more display monitors.</li>
 </ul>
-To determine whether all the display monitors in a system share the same color format, call <a href="base.getsystemmetrics">GetSystemMetrics</a> (SM_SAMEDISPLAYFORMAT).
+To determine whether all the display monitors in a system share the same color format, call <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> (SM_SAMEDISPLAYFORMAT).
 
 You do not need to use the <b>EnumDisplayMonitors</b> function when a window spans display monitors that have different color formats. You can continue to paint under the assumption that the entire screen has the color properties of the primary monitor. Your windows will look fine. <b>EnumDisplayMonitors</b> just lets you make them look better.
 
@@ -229,7 +229,7 @@ EnumDisplayMonitors(NULL, NULL, MyInfoEnumProc, 0);
 
 
 
-<a href="base.getsystemmetrics">GetSystemMetrics</a>
+<a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: intl\ifelanguage_close.htm
 old-project: Intl
 ms.assetid: EF03C40A-62D1-4B8E-9960-3CD2D515B7CE
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: Close, Close method [Internationalization for Windows Applications], Close method [Internationalization for Windows Applications],IFELanguage interface, IFELanguage interface [Internationalization for Windows Applications],Close method, IFELanguage.Close, IFELanguage::Close, intl.ifelanguage_close, msime/IFELanguage::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

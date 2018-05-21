@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Tint_Tint_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\tintclass\tintconstructors\tint.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: Tint, Tint class [GDI+],Tint constructor, Tint constructor [GDI+], Tint constructor [GDI+],Tint class, Tint.Tint, Tint::Tint, _gdiplus_CLASS_Tint_Tint_, gdiplus._gdiplus_CLASS_Tint_Tint_
 ms.prod: windows-hardware
 ms.technology: windows-devices

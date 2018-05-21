@@ -7,7 +7,7 @@ old-location: wsw\ws_host_names.htm
 old-project: wsw
 ms.assetid: 9815eb1e-0ce6-4b56-9f9a-e3938d502b72
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_HOST_NAMES, WS_HOST_NAMES structure [Web Services for Windows], _WS_HOST_NAMES, webservices/WS_HOST_NAMES, wsw.ws_host_names
 ms.prod: windows-hardware
 ms.technology: windows-devices

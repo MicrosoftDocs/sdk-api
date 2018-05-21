@@ -7,7 +7,7 @@ old-location: com\isurrogateservice_init.htm
 old-project: com
 ms.assetid: ed2e628c-5c86-48fd-aa55-f532602247ea
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: ISurrogateService interface [COM],Init method, ISurrogateService.Init, ISurrogateService::Init, Init, Init method [COM], Init method [COM],ISurrogateService interface, _com_isurrogateservice_init, com.isurrogateservice_init, objidl/ISurrogateService::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices

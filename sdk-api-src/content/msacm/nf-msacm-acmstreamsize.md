@@ -7,7 +7,7 @@ old-location: multimedia\acmstreamsize.htm
 old-project: Multimedia
 ms.assetid: 44b8c2cb-ae37-4919-83af-4a8ce6f8737c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: "_win32_acmStreamSize, acmStreamSize, acmStreamSize function [Windows Multimedia], msacm/acmStreamSize, multimedia.acmstreamsize"
 ms.prod: windows-hardware
 ms.technology: windows-devices

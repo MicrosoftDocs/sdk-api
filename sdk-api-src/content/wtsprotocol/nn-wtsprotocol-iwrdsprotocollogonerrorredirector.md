@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocollogonerrorredirector.htm
 old-project: TermServ
 ms.assetid: 43c283f5-c902-49cc-81a0-15fc6316c7d4
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: IWRdsProtocolLogonErrorRedirector, IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services], IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],described, termserv.iwrdsprotocollogonerrorredirector, wtsprotocol/IWRdsProtocolLogonErrorRedirector
 ms.prod: windows-hardware
 ms.technology: windows-devices

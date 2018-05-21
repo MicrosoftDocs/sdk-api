@@ -7,7 +7,7 @@ old-location: rpc\ndrgetusermarshalinfo.htm
 old-project: Rpc
 ms.assetid: 772979eb-eb1c-4e41-91bf-f64766898c8a
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: NdrGetUserMarshalInfo, NdrGetUserMarshalInfo function [RPC], _rpc_ndrgetusermarshalinfo, rpc.ndrgetusermarshalinfo, rpcndr/NdrGetUserMarshalInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

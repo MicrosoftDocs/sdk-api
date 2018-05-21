@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectconnections.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnections\imilbitmapeffectconnections.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: IMILBitmapEffectConnections, IMILBitmapEffectConnections interface [WPF Bitmap Effects], IMILBitmapEffectConnections interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectconnections, mileffects/IMILBitmapEffectConnections, wibe._wibe_imilbitmapeffectconnections
 ms.prod: windows-hardware
 ms.technology: windows-devices

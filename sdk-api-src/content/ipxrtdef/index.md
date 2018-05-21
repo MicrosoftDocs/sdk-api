@@ -2,7 +2,7 @@
 UID: NA:ipxrtdef
 ms.assetid: b37109dc-4bfd-32a5-8382-30f9516d3f3d
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

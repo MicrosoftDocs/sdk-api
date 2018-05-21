@@ -2,7 +2,7 @@
 UID: TP:direct3ddxgi
 ms.assetid: 13788405-72f0-3653-b458-78589ede8b8a
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,6 +97,7 @@ For the programming guide, see [DXGI](https://review.docs.microsoft.com/en-us/wi
 | [DXGI_FRAME_PRESENTATION_MODE enumeration](..\dxgi1_3\ne-dxgi1_3-dxgi_frame_presentation_mode.md) | Indicates options for presenting frames to the swap chain. |
 | [DXGI_GPU_PREFERENCE enumeration](..\dxgi1_6\ne-dxgi1_6-dxgi_gpu_preference.md) | The preference of GPU for the app to run on. |
 | [DXGI_GRAPHICS_PREEMPTION_GRANULARITY enumeration](..\dxgi1_2\ne-dxgi1_2-dxgi_graphics_preemption_granularity.md) | Identifies the granularity at which the graphics processing unit (GPU) can be preempted from performing its current graphics rendering task. |
+| [DXGI_HARDWARE_COMPOSITION_SUPPORT_FLAGS enumeration](..\dxgi1_6\ne-dxgi1_6-dxgi_hardware_composition_support_flags.md) | Describes which levels of hardware composition are supported. |
 | [DXGI_HDR_METADATA_TYPE enumeration](..\dxgi1_5\ne-dxgi1_5-dxgi_hdr_metadata_type.md) | Specifies the header metadata type. |
 | [DXGI_INFO_QUEUE_MESSAGE_CATEGORY enumeration](..\dxgidebug\ne-dxgidebug-dxgi_info_queue_message_category.md) | Values that specify categories of debug messages. |
 | [DXGI_INFO_QUEUE_MESSAGE_SEVERITY enumeration](..\dxgidebug\ne-dxgidebug-dxgi_info_queue_message_severity.md) | Values that specify debug message severity levels for an information queue. |
@@ -150,7 +151,7 @@ For the programming guide, see [DXGI](https://review.docs.microsoft.com/en-us/wi
 | [IDXGIOutput3 interface](..\dxgi1_3\nn-dxgi1_3-idxgioutput3.md) | Represents an adapter output (such as a monitor). The IDXGIOutput3 interface exposes a method to check for overlay support. |
 | [IDXGIOutput4 interface](..\dxgi1_4\nn-dxgi1_4-idxgioutput4.md) | Represents an adapter output (such as a monitor). The IDXGIOutput4 interface exposes a method to check for overlay color space support. |
 | [IDXGIOutput5 interface](..\dxgi1_5\nn-dxgi1_5-idxgioutput5.md) | Represents an adapter output (such as a monitor). The IDXGIOutput5 interface exposes a single method to specify a list of supported formats for fullscreen surfaces. |
-| [IDXGIOutput6 interface](..\dxgi1_6\nn-dxgi1_6-idxgioutput6.md) | Represents an adapter output (such as a monitor). The IDXGIOutput6 interface exposes a single method to provide specific monitor capabilities. |
+| [IDXGIOutput6 interface](..\dxgi1_6\nn-dxgi1_6-idxgioutput6.md) | Represents an adapter output (such as a monitor). The IDXGIOutput6 interface exposes methods to provide specific monitor capabilities. |
 | [IDXGIOutputDuplication interface](..\dxgi1_2\nn-dxgi1_2-idxgioutputduplication.md) | The IDXGIOutputDuplication interface accesses and manipulates the duplicated desktop image. |
 | [IDXGIResource interface](..\dxgi\nn-dxgi-idxgiresource.md) | An IDXGIResource interface allows resource sharing and identifies the memory that a resource resides in. |
 | [IDXGIResource1 interface](..\dxgi1_2\nn-dxgi1_2-idxgiresource1.md) | An IDXGIResource1 interface extends the IDXGIResource interface by adding support for creating a subresource surface object and for creating a handle to a shared resource. |
@@ -284,6 +285,7 @@ For the programming guide, see [DXGI](https://review.docs.microsoft.com/en-us/wi
 | [IDXGIOutput3::CheckOverlaySupport](..\dxgi1_3\nf-dxgi1_3-idxgioutput3-checkoverlaysupport.md) | Checks for overlay support. |
 | [IDXGIOutput4::CheckOverlayColorSpaceSupport](..\dxgi1_4\nf-dxgi1_4-idxgioutput4-checkoverlaycolorspacesupport.md) | Checks for overlay color space support. |
 | [IDXGIOutput5::DuplicateOutput1](..\dxgi1_5\nf-dxgi1_5-idxgioutput5-duplicateoutput1.md) | Allows specifying a list of supported formats for fullscreen surfaces that can be returned by the IDXGIOutputDuplication object. |
+| [IDXGIOutput6::CheckHardwareCompositionSupport](..\dxgi1_6\nf-dxgi1_6-idxgioutput6-checkhardwarecompositionsupport.md) | Notifies applications that hardware stretching is supported. |
 | [IDXGIOutput6::GetDesc1](..\dxgi1_6\nf-dxgi1_6-idxgioutput6-getdesc1.md) | Get an extended description of the output that includes color characteristics and connection type. |
 | [IDXGIOutput::FindClosestMatchingMode](..\dxgi\nf-dxgi-idxgioutput-findclosestmatchingmode.md) | Finds the display mode that most closely matches the requested display mode. |
 | [IDXGIOutput::GetDesc](..\dxgi\nf-dxgi-idxgioutput-getdesc.md) | Get a description of the output. |

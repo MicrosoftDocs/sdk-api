@@ -7,7 +7,7 @@ old-location: menurc\enumresourcelanguages.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcelanguages.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: EnumResourceLanguages, EnumResourceLanguages function [Menus and Other Resources], EnumResourceLanguagesA, EnumResourceLanguagesW, _win32_EnumResourceLanguages, _win32_enumresourcelanguages_cpp, menurc.enumresourcelanguages, winbase/EnumResourceLanguages, winbase/EnumResourceLanguagesA, winbase/EnumResourceLanguagesW, winui._win32_enumresourcelanguages
 ms.prod: windows-hardware
 ms.technology: windows-devices

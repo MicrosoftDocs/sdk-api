@@ -7,7 +7,7 @@ old-location: controls\Edit_SetCueBannerText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setcuebannertext.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: Edit_SetCueBannerText, Edit_SetCueBannerText macro [Windows Controls], _win32_Edit_SetCueBannerText, _win32_Edit_SetCueBannerText_cpp, commctrl/Edit_SetCueBannerText, controls.Edit_SetCueBannerText, controls._win32_Edit_SetCueBannerText
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\sec_winnt_auth_data_password.htm
 old-project: SecAuthN
 ms.assetid: f7f3c0e8-be28-4be2-a472-21a39ace04cb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: PSEC_WINNT_AUTH_DATA_PASSWORD, PSEC_WINNT_AUTH_DATA_PASSWORD structure [Security], SEC_WINNT_AUTH_DATA_PASSWORD, SEC_WINNT_AUTH_DATA_PASSWORD structure [Security], _SEC_WINNT_AUTH_DATA_PASSWORD, security.sec_winnt_auth_data_password, sspi/PSEC_WINNT_AUTH_DATA_PASSWORD, sspi/SEC_WINNT_AUTH_DATA_PASSWORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # _SEC_WINNT_AUTH_DATA_PASSWORD structure

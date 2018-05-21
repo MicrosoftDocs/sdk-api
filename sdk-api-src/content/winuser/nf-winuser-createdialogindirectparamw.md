@@ -7,7 +7,7 @@ old-location: dlgbox\createdialogindirectparam.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogindirectparam.htm
 ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.date: 5/17/2018
 ms.keywords: CreateDialogIndirectParam, CreateDialogIndirectParam function [Dialog Boxes], CreateDialogIndirectParamA, CreateDialogIndirectParamW, _win32_CreateDialogIndirectParam, _win32_createdialogindirectparam_cpp, dlgbox.createdialogindirectparam, winui._win32_createdialogindirectparam, winuser/CreateDialogIndirectParam, winuser/CreateDialogIndirectParamA, winuser/CreateDialogIndirectParamW
 ms.prod: windows-hardware
 ms.technology: windows-devices

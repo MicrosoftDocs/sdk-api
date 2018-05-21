@@ -7,7 +7,7 @@ old-location: setup\fusion_install_reference_.htm
 old-project: SbsCs
 ms.assetid: daa2b625-1522-4239-9c62-65f09b50f74c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPFUSION_INSTALL_REFERENCE, FUSION_INSTALL_REFERENCE, FUSION_INSTALL_REFERENCE , FUSION_INSTALL_REFERENCE structure [Side-by-side Assemblies], FUSION_REFCOUNT_FILEPATH_GUID, FUSION_REFCOUNT_MSI_GUID, FUSION_REFCOUNT_OPAQUE_STRING_GUID, FUSION_REFCOUNT_OSINSTALL_GUID, FUSION_REFCOUNT_UNINSTALL_SUBKEY_GUID, LPFUSION_INSTALL_REFERENCE, LPFUSION_INSTALL_REFERENCE structure pointer [Side-by-side Assemblies], _FUSION_INSTALL_REFERENCE_, setup.fusion_install_reference_, winsxs/FUSION_INSTALL_REFERENCE, winsxs/LPFUSION_INSTALL_REFERENCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

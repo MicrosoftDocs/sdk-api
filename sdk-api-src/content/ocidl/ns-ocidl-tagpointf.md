@@ -7,7 +7,7 @@ old-location: com\pointf.htm
 old-project: com
 ms.assetid: 2b201df8-efee-4302-a93c-b514b982cf2b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/16/2018
 ms.keywords: "*LPPOINTF, LPPOINTF, LPPOINTF structure pointer [COM], POINTF, POINTF structure [COM], _ole_POINTF, com.pointf, ocidl/LPPOINTF, ocidl/POINTF, tagPOINTF"
 ms.prod: windows-hardware
 ms.technology: windows-devices

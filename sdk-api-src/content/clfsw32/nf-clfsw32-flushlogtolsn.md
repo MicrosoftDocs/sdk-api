@@ -7,7 +7,7 @@ old-location: fs\flushlogtolsn.htm
 old-project: Clfs
 ms.assetid: d2a30ce1-e9c7-4dcf-b5fb-4355c9134461
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/10/2018
 ms.keywords: FlushLogToLsn, FlushLogToLsn function [Files], clfsw32/FlushLogToLsn, fs.flushlogtolsn
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Graphics_EnumerateMetafile_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsenumeratemetafilemethods.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: EnumerateMetafile, EnumerateMetafile methods [GDI+], Graphics.EnumerateMetafile, Graphics.EnumerateMetafile(IN const Metafile,IN const PointF &,IN const RectF &,IN Unit,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes), Graphics::EnumerateMetafile, Graphics::EnumerateMetafile(IN const Metafile,IN const PointF &,IN const RectF &,IN Unit,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes), _gdiplus_CLASS_Graphics_EnumerateMetafile_Methods, gdiplus._gdiplus_CLASS_Graphics_EnumerateMetafile_Methods, gdiplusgraphics/EnumerateMetafile
 ms.prod: windows-hardware
 ms.technology: windows-devices

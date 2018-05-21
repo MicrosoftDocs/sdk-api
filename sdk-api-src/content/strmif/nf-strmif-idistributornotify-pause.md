@@ -7,7 +7,7 @@ old-location: dshow\idistributornotify_pause.htm
 old-project: DirectShow
 ms.assetid: d8fcb5c0-4530-4084-adba-170a647588b1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IDistributorNotify interface [DirectShow],Pause method, IDistributorNotify.Pause, IDistributorNotify::Pause, IDistributorNotifyPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_pause, strmif/IDistributorNotify::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices

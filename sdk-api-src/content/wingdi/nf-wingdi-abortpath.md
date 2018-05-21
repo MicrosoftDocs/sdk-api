@@ -7,7 +7,7 @@ old-location: gdi\abortpath.htm
 old-project: gdi
 ms.assetid: 49299a11-910b-40e0-b02e-80a244cfc978
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: AbortPath, AbortPath function [Windows GDI], _win32_AbortPath, gdi.abortpath, wingdi/AbortPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

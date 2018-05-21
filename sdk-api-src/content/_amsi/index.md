@@ -2,7 +2,7 @@
 UID: TP:amsi
 ms.assetid: 2e9afe53-8233-3700-b784-fd4779116249
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

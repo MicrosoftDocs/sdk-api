@@ -7,7 +7,7 @@ old-location: multimedia\iccompressgetformat.htm
 old-project: Multimedia
 ms.assetid: d6552dc0-21fb-475c-9ec4-cb3ef1f3a70e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: ICCompressGetFormat, ICCompressGetFormat macro [Windows Multimedia], _win32_ICCompressGetFormat, multimedia.iccompressgetformat, vfw/ICCompressGetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

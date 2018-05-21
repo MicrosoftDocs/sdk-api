@@ -7,7 +7,7 @@ old-location: base\initializecriticalsectionex.htm
 old-project: Sync
 ms.assetid: da84b187-0eb7-4363-8e68-8a525586d7d9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/17/2018
 ms.keywords: CRITICAL_SECTION_NO_DEBUG_INFO, InitializeCriticalSectionEx, InitializeCriticalSectionEx function, base.initializecriticalsectionex, synchapi/InitializeCriticalSectionEx, winbase/InitializeCriticalSectionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

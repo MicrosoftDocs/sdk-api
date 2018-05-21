@@ -7,7 +7,7 @@ old-location: controls\ImageList_GetImageInfo.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getimageinfo.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ImageList_GetImageInfo, ImageList_GetImageInfo function [Windows Controls], _win32_ImageList_GetImageInfo, _win32_ImageList_GetImageInfo_cpp, commctrl/ImageList_GetImageInfo, controls.ImageList_GetImageInfo, controls._win32_ImageList_GetImageInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

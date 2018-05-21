@@ -7,7 +7,7 @@ old-location: ncd\iwsddevicehost_start_method.htm
 old-project: WsdApi
 ms.assetid: 06fea296-2551-46b1-9cd7-54187bca5fe8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDDeviceHost interface,Start method, IWSDDeviceHost.Start, IWSDDeviceHost::Start, Start, Start method, Start method,IWSDDeviceHost interface, ncd.iwsddevicehost_start_method, wsdhost/IWSDDeviceHost::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices

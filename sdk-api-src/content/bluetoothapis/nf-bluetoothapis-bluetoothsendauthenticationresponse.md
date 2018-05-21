@@ -7,7 +7,7 @@ old-location: bluetooth\bluetoothsendauthenticationresponse.htm
 old-project: Bluetooth
 ms.assetid: 4483f04e-09a2-4bd4-879c-c3a263c685de
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/10/2018
 ms.keywords: BluetoothSendAuthenticationResponse, BluetoothSendAuthenticationResponse function [Bluetooth], bluetooth.bluetoothsendauthenticationresponse, bluetoothapis/BluetoothSendAuthenticationResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices

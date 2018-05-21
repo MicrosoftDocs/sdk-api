@@ -7,7 +7,7 @@ old-location: rpc\rpccalltype.htm
 old-project: Rpc
 ms.assetid: b7b95f51-ced4-423f-88b7-b1ec705af66f
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: RpcCallType, RpcCallType enumeration [RPC], rctGuaranteed, rctInvalid, rctNormal, rctTraining, rpc.rpccalltype, rpcasync/RpcCallType, rpcasync/rctGuaranteed, rpcasync/rctInvalid, rpcasync/rctNormal, rpcasync/rctTraining, tagRpcCallType
 ms.prod: windows-hardware
 ms.technology: windows-devices

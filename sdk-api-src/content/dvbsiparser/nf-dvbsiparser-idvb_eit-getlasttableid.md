@@ -7,7 +7,7 @@ old-location: mstv\idvb_eit_getlasttableid.htm
 old-project: mstv
 ms.assetid: b99ab578-fec3-457c-8be2-f0cb65c5b7f7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetLastTableId, GetLastTableId method [Microsoft TV Technologies], GetLastTableId method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetLastTableId method, IDVB_EIT.GetLastTableId, IDVB_EIT::GetLastTableId, IDVB_EITGetLastTableId, dvbsiparser/IDVB_EIT::GetLastTableId, mstv.idvb_eit_getlasttableid
 ms.prod: windows-hardware
 ms.technology: windows-devices

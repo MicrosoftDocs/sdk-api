@@ -7,7 +7,7 @@ old-location: base\rtwqgetworkqueuemmcsstaskid.htm
 old-project: ProcThread
 ms.assetid: b83314a4-1630-4e58-ba5b-e541002f23a3
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 5/17/2018
 ms.keywords: RtwqGetWorkQueueMMCSSTaskId, RtwqGetWorkQueueMMCSSTaskId function, base.rtwqgetworkqueuemmcsstaskid, rtworkq/RtwqGetWorkQueueMMCSSTaskId
 ms.prod: windows-hardware
 ms.technology: windows-devices

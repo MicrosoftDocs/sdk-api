@@ -7,7 +7,7 @@ old-location: perf\pdhenummachines.htm
 old-project: PerfCtrs
 ms.assetid: 77584d3b-3ba5-4288-b730-be2458f4fc1c
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/10/2018
 ms.keywords: PdhEnumMachines, PdhEnumMachines function [Perf], PdhEnumMachinesA, PdhEnumMachinesW, _win32_pdhenummachines, base.pdhenummachines, pdh/PdhEnumMachines, pdh/PdhEnumMachinesA, pdh/PdhEnumMachinesW, perf.pdhenummachines
 ms.prod: windows-hardware
 ms.technology: windows-devices

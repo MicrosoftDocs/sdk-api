@@ -7,7 +7,7 @@ old-location: gdi\isrectempty.htm
 old-project: gdi
 ms.assetid: 9deeed4f-304e-47a3-8259-ed7bc3815fd7
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: IsRectEmpty, IsRectEmpty function [Windows GDI], _win32_IsRectEmpty, gdi.isrectempty, winuser/IsRectEmpty
 ms.prod: windows-hardware
 ms.technology: windows-devices

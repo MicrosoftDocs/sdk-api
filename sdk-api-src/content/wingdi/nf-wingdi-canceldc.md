@@ -7,7 +7,7 @@ old-location: gdi\canceldc.htm
 old-project: gdi
 ms.assetid: 1dcb3dfe-0ab0-4bf5-ac2f-7a9c11712eef
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/17/2018
 ms.keywords: CancelDC, CancelDC function [Windows GDI], _win32_CancelDC, gdi.canceldc, wingdi/CancelDC
 ms.prod: windows-hardware
 ms.technology: windows-devices

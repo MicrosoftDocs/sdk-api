@@ -7,7 +7,7 @@ old-location: menurc\stringcbcopynex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopynex.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCopyNEx, StringCbCopyNEx function [Menus and Other Resources], StringCbCopyNExA, StringCbCopyNExW, _shell_StringCbCopyNEx, _shell_stringcbcopynex_cpp, menurc.stringcbcopynex, strsafe/StringCbCopyNEx, strsafe/StringCbCopyNExA, strsafe/StringCbCopyNExW, winui._shell_stringcbcopynex
 ms.prod: windows-hardware
 ms.technology: windows-devices

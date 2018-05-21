@@ -7,7 +7,7 @@ old-location: wsw\wsfillreader.htm
 old-project: wsw
 ms.assetid: 1f4138a2-acc5-4f1d-8e35-544859d2fa49
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsFillReader, WsFillReader function [Web Services for Windows], webservices/WsFillReader, wsw.wsfillreader
 ms.prod: windows-hardware
 ms.technology: windows-devices

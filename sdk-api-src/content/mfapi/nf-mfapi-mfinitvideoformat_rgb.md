@@ -7,7 +7,7 @@ old-location: mf\mfinitvideoformat_rgb.htm
 old-project: medfound
 ms.assetid: 4c437f26-6fe1-477d-9955-bc900215aa59
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 4c437f26-6fe1-477d-9955-bc900215aa59, MFInitVideoFormat_RGB, MFInitVideoFormat_RGB function [Media Foundation], mf.mfinitvideoformat_rgb, mfapi/MFInitVideoFormat_RGB
 ms.prod: windows-hardware
 ms.technology: windows-devices

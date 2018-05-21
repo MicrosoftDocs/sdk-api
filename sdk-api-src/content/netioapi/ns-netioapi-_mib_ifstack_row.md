@@ -7,7 +7,7 @@ old-location: mib\mib_ifstack_row.htm
 old-project: MIB
 ms.assetid: f86dfb52-98e8-4725-990c-5de788bebef1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: "*PMIB_IFSTACK_ROW, MIB_IFSTACK_ROW, MIB_IFSTACK_ROW structure [MIB], PMIB_IFSTACK_ROW, PMIB_IFSTACK_ROW structure pointer [MIB], _MIB_IFSTACK_ROW, mib.mib_ifstack_row, netioapi/MIB_IFSTACK_ROW, netioapi/PMIB_IFSTACK_ROW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

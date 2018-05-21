@@ -7,7 +7,7 @@ old-location: of\iofflinefilessuspend.htm
 old-project: OfflineFiles
 ms.assetid: 697018c4-7cce-480a-b078-993cdac32bf5
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/11/2018
 ms.keywords: IOfflineFilesSuspend, IOfflineFilesSuspend interface [Offline Files], IOfflineFilesSuspend interface [Offline Files],described, cscobj/IOfflineFilesSuspend, of.iofflinefilessuspend
 ms.prod: windows-hardware
 ms.technology: windows-devices

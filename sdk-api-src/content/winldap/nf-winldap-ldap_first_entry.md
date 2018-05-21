@@ -7,7 +7,7 @@ old-location: ldap\ldap_first_entry.htm
 old-project: LDAP
 ms.assetid: 1692d091-7963-492d-9998-5680a2a81088
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.date: 5/15/2018
 ms.keywords: "_ldap_ldap_first_entry, ldap.ldap__first__entry, ldap.ldap_first_entry, ldap_first_entry, ldap_first_entry function [LDAP], winldap/ldap_first_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices

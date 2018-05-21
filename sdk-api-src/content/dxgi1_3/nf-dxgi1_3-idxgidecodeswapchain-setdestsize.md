@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidecodeswapchain_setdestsize.htm
 old-project: direct3ddxgi
 ms.assetid: BF35FFFE-89C7-4220-9D9F-5BFFE53D3430
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/17/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetDestSize method, IDXGIDecodeSwapChain.SetDestSize, IDXGIDecodeSwapChain::SetDestSize, SetDestSize, SetDestSize method [DXGI], SetDestSize method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_setdestsize, dxgi1_3/IDXGIDecodeSwapChain::SetDestSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

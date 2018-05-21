@@ -7,7 +7,7 @@ old-location: ad\idsadminnewobj_setbuttons.htm
 old-project: AD
 ms.assetid: 2cc888f4-b884-4e81-8dec-6f12c35d9ee4
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: IDsAdminNewObj interface [Active Directory],SetButtons method, IDsAdminNewObj.SetButtons, IDsAdminNewObj::SetButtons, SetButtons, SetButtons method [Active Directory], SetButtons method [Active Directory],IDsAdminNewObj interface, _glines_idsadminnewobj_setbuttons, ad.idsadminnewobj__setbuttons, ad.idsadminnewobj_setbuttons, dsadmin/IDsAdminNewObj::SetButtons
 ms.prod: windows-hardware
 ms.technology: windows-devices

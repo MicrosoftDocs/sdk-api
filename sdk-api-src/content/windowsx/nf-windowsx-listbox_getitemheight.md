@@ -7,7 +7,7 @@ old-location: controls\ListBox_GetItemHeight.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getitemheight.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ListBox_GetItemHeight, ListBox_GetItemHeight macro [Windows Controls], _win32_ListBox_GetItemHeight, _win32_ListBox_GetItemHeight_cpp, controls.ListBox_GetItemHeight, controls._win32_ListBox_GetItemHeight, windowsx/ListBox_GetItemHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices

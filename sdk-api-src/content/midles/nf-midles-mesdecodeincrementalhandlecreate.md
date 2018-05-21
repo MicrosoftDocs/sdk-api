@@ -7,7 +7,7 @@ old-location: rpc\mesdecodeincrementalhandlecreate.htm
 old-project: Rpc
 ms.assetid: 0fe051be-e5c0-44b2-8ebc-5aa362fe4008
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: MesDecodeIncrementalHandleCreate, MesDecodeIncrementalHandleCreate function [RPC], _rpc_mesdecodeincrementalhandlecreate, midles/MesDecodeIncrementalHandleCreate, rpc.mesdecodeincrementalhandlecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

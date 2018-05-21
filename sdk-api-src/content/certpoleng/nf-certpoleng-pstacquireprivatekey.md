@@ -7,7 +7,7 @@ old-location: security\pstacquireprivatekey.htm
 old-project: SecAuthN
 ms.assetid: dad2886b-5a74-433f-bd58-deb130104e33
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/14/2018
 ms.keywords: PstAcquirePrivateKey, PstAcquirePrivateKey function [Security], certpoleng/PstAcquirePrivateKey, security.pstacquireprivatekey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: X509RequestType
+req.typenames: X509SCEPFailInfo
 topic_type:
 -	APIRef
 -	kbSyntax

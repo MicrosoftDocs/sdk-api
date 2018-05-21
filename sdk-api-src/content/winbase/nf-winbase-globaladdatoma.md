@@ -7,7 +7,7 @@ old-location: dataxchg\globaladdatom.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\globaladdatom.htm
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/17/2018
 ms.keywords: GlobalAddAtom, GlobalAddAtom function [Data Exchange], GlobalAddAtomA, GlobalAddAtomW, _win32_GlobalAddAtom, _win32_globaladdatom_cpp, dataxchg.globaladdatom, winbase/GlobalAddAtom, winbase/GlobalAddAtomA, winbase/GlobalAddAtomW, winui._win32_globaladdatom
 ms.prod: windows-hardware
 ms.technology: windows-devices

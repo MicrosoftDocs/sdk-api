@@ -7,7 +7,7 @@ old-location: menurc\destroycursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\destroycursor.htm
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 5/17/2018
 ms.keywords: DestroyCursor, DestroyCursor function [Menus and Other Resources], _win32_DestroyCursor, _win32_destroycursor_cpp, menurc.destroycursor, winui._win32_destroycursor, winuser/DestroyCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices

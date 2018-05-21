@@ -7,7 +7,7 @@ old-location: wsw\wsclosechannel.htm
 old-project: wsw
 ms.assetid: e4928371-a172-4cc8-968b-12ae2ee2e0c6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WsCloseChannel, WsCloseChannel function [Web Services for Windows], webservices/WsCloseChannel, wsw.wsclosechannel
 ms.prod: windows-hardware
 ms.technology: windows-devices

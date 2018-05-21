@@ -7,7 +7,7 @@ old-location: controls\ListBox_SelectString.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_selectstring.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ListBox_SelectString, ListBox_SelectString macro [Windows Controls], _win32_ListBox_SelectString, _win32_ListBox_SelectString_cpp, controls.ListBox_SelectString, controls._win32_ListBox_SelectString, windowsx/ListBox_SelectString
 ms.prod: windows-hardware
 ms.technology: windows-devices

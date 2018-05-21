@@ -7,7 +7,7 @@ old-location: controls\ITextHost_TxSetScrollRange.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetscrollrange.htm
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/17/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetScrollRange method, ITextHost.TxSetScrollRange, ITextHost::TxSetScrollRange, TxSetScrollRange, TxSetScrollRange method [Windows Controls], TxSetScrollRange method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetScrollRange, _win32_ITextHost_TxSetScrollRange_cpp, controls.ITextHost_TxSetScrollRange, controls._win32_ITextHost_TxSetScrollRange, textserv/ITextHost::TxSetScrollRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

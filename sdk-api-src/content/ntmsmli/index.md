@@ -2,7 +2,7 @@
 UID: NA:ntmsmli
 ms.assetid: 8df94450-5ec6-3edb-99d1-a1712a2956fd
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings.htm
 old-project: shell
 ms.assetid: e407c4ca-0de1-4b17-bb83-5c4128952d48
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IPackageDebugSettings, IPackageDebugSettings interface [Windows Shell], IPackageDebugSettings interface [Windows Shell],described, shell.IPackageDebugSettings, shobjidl_core/IPackageDebugSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_name:
 -	IPackageDebugSettings
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: Shell32.dll (version 4.0 or later)
+req.lib: Shell32.lib
+req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # IPackageDebugSettings interface

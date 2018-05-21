@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constinstancefield.htm
 old-project: wmi_v2
 ms.assetid: cfbb9ec6-7ebd-4418-9e05-83d4e232be89
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/18/2018
 ms.keywords: MI_ConstInstanceField, MI_ConstInstanceField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstInstanceField, mi/MI_ConstInstanceField, wmi._mi_constinstancefield, wmi_v2.mi_constinstancefield
 ms.prod: windows-hardware
 ms.technology: windows-devices

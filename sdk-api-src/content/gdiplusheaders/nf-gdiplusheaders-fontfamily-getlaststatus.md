@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetLastStatus_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getlaststatus_12.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: FontFamily class [GDI+],GetLastStatus method, FontFamily.GetLastStatus, FontFamily::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetLastStatus_, gdiplus._gdiplus_CLASS_FontFamily_GetLastStatus_
 ms.prod: windows-hardware
 ms.technology: windows-devices

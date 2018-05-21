@@ -7,7 +7,7 @@ old-location: dhcp\dhcpv6_stateless_params.htm
 old-project: DHCP
 ms.assetid: 852249b2-ea0d-4f83-a41f-12ef8cb029e7
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/17/2018
 ms.keywords: "*LPDHCPV6_STATELESS_PARAMS, *PDHCPV6_STATELESS_PARAMS, DHCPV6_STATELESS_PARAMS, DHCPV6_STATELESS_PARAMS structure [DHCP], LPDHCPV6_STATELESS_PARAMS, LPDHCPV6_STATELESS_PARAMS structure pointer [DHCP], PDHCPV6_STATELESS_PARAMS, PDHCPV6_STATELESS_PARAMS structure pointer [DHCP], dhcp.dhcpv6_stateless_params, dhcpsapi/DHCPV6_STATELESS_PARAMS, dhcpsapi/LPDHCPV6_STATELESS_PARAMS, dhcpsapi/PDHCPV6_STATELESS_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

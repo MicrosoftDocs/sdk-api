@@ -7,7 +7,7 @@ old-location: gdiplus\_gdiplus_CLASS_Rect_IsEmptyArea_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\isemptyarea.htm
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/14/2018
 ms.keywords: IsEmptyArea, IsEmptyArea method [GDI+], IsEmptyArea method [GDI+],Rect class, Rect class [GDI+],IsEmptyArea method, Rect.IsEmptyArea, Rect::IsEmptyArea, _gdiplus_CLASS_Rect_IsEmptyArea_, gdiplus._gdiplus_CLASS_Rect_IsEmptyArea_
 ms.prod: windows-hardware
 ms.technology: windows-devices

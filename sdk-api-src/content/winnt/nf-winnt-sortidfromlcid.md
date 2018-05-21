@@ -7,7 +7,7 @@ old-location: intl\sortidfromlcid.htm
 old-project: Intl
 ms.assetid: 78da443e-ad92-4e2f-aebe-c0aed880b8b6
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: SORTIDFROMLCID, SORTIDFROMLCID macro [Internationalization for Windows Applications], _win32_SORTIDFROMLCID, intl.sortidfromlcid, winnt/SORTIDFROMLCID
 ms.prod: windows-hardware
 ms.technology: windows-devices

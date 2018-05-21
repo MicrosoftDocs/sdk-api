@@ -7,7 +7,7 @@ old-location: mstv\idvbterrestrialdeliverysystemdescriptor.htm
 old-project: mstv
 ms.assetid: 7000f937-2f58-43c1-b0e1-60d3171485b0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: IDvbTerrestrialDeliverySystemDescriptor, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],described, IDvbTerrestrialDeliverySystemDescriptorInterface, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor, mstv.idvbterrestrialdeliverysystemdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

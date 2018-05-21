@@ -7,7 +7,7 @@ old-location: rras\rtmgetlistenumroutes.htm
 old-project: RRAS
 ms.assetid: 9ee40466-63e9-40c4-82bf-45f819d0ae58
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: RtmGetListEnumRoutes, RtmGetListEnumRoutes function [RAS], _rtmv2ref_rtmgetlistenumroutes, rras.rtmgetlistenumroutes, rtmv2/RtmGetListEnumRoutes
 ms.prod: windows-hardware
 ms.technology: windows-devices

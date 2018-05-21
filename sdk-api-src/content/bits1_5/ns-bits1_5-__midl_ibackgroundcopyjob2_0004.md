@@ -7,7 +7,7 @@ old-location: bits\bg_auth_credentials_union.htm
 old-project: Bits
 ms.assetid: c16c616c-f4cb-483d-8a15-6ff9d45762ae
 ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.date: 5/10/2018
 ms.keywords: BG_AUTH_CREDENTIALS_UNION, BG_AUTH_CREDENTIALS_UNION union [BITS], __MIDL_IBackgroundCopyJob2_0004, _drz_bg_auth_credentials_union, bits.bg_auth_credentials_union, bits1_5/BG_AUTH_CREDENTIALS_UNION
 ms.prod: windows-hardware
 ms.technology: windows-devices

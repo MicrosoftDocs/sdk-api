@@ -7,7 +7,7 @@ old-location: mstv\ipsitables_gettable.htm
 old-project: mstv
 ms.assetid: 4b2362c7-bfcb-40b8-813d-1a904149600e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/14/2018
 ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable method [Microsoft TV Technologies],IPSITables interface, IPSITables interface [Microsoft TV Technologies],GetTable method, IPSITables.GetTable, IPSITables::GetTable, mpeg2psiparser/IPSITables::GetTable, mstv.ipsitables_gettable
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ncd\wsdxmlgetvaluefromany.htm
 old-project: WsdApi
 ms.assetid: 544399f6-d98d-4a57-824a-b21567262141
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSDXMLGetValueFromAny, WSDXMLGetValueFromAny function, ncd.wsdxmlgetvaluefromany, wsdutil/WSDXMLGetValueFromAny
 ms.prod: windows-hardware
 ms.technology: windows-devices

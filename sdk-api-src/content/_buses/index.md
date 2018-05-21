@@ -2,7 +2,7 @@
 UID: TP:buses
 ms.assetid: 7759b99f-4c43-36f8-a7e6-b99866828c68
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

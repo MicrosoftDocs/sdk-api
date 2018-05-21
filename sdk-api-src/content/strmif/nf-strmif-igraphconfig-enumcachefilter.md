@@ -7,7 +7,7 @@ old-location: dshow\igraphconfig_enumcachefilter.htm
 old-project: DirectShow
 ms.assetid: 1782def0-13ed-411c-ab05-d0f0c307e16a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: EnumCacheFilter, EnumCacheFilter method [DirectShow], EnumCacheFilter method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],EnumCacheFilter method, IGraphConfig.EnumCacheFilter, IGraphConfig::EnumCacheFilter, IGraphConfigEnumCacheFilter, dshow.igraphconfig_enumcachefilter, strmif/IGraphConfig::EnumCacheFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

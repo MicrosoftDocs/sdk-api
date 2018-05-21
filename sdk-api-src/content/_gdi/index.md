@@ -2,7 +2,7 @@
 UID: TP:gdi
 ms.assetid: b0acbb78-a6c0-3233-bb9d-d551a85f207d
 ms.author: windowsdriverdev
-ms.date: 05/07/18
+ms.date: 05/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

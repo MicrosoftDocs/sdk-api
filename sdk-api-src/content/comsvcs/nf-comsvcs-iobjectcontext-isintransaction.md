@@ -7,7 +7,7 @@ old-location: cos\iobjectcontext_isintransaction.htm
 old-project: cossdk
 ms.assetid: 6a5582ef-0142-45df-bdad-2e3d58ca6e87
 ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.date: 5/16/2018
 ms.keywords: IObjectContext interface [COM+],IsInTransaction method, IObjectContext.IsInTransaction, IObjectContext::IsInTransaction, IsInTransaction, IsInTransaction method [COM+], IsInTransaction method [COM+],IObjectContext interface, _cos_IObjectContext_IsInTransaction, comsvcs/IObjectContext::IsInTransaction, cos.iobjectcontext_isintransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices

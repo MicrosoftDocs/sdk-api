@@ -7,7 +7,7 @@ old-location: ncd\iwsdiscoveredservice.htm
 old-project: WsdApi
 ms.assetid: 6516098a-e440-4dec-b275-165ea3072d49
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: IWSDiscoveredService, IWSDiscoveredService interface, IWSDiscoveredService interface,described, ncd.iwsdiscoveredservice, wsddisco/IWSDiscoveredService
 ms.prod: windows-hardware
 ms.technology: windows-devices

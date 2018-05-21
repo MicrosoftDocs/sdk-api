@@ -7,7 +7,7 @@ old-location: dshow\ipersistmediapropertybag_load.htm
 old-project: DirectShow
 ms.assetid: 02ee3911-0b85-404d-81c9-7d0e6b3ccd5d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: IPersistMediaPropertyBag interface [DirectShow],Load method, IPersistMediaPropertyBag.Load, IPersistMediaPropertyBag::Load, IPersistMediaPropertyBagLoad, Load, Load method [DirectShow], Load method [DirectShow],IPersistMediaPropertyBag interface, dshow.ipersistmediapropertybag_load, strmif/IPersistMediaPropertyBag::Load
 ms.prod: windows-hardware
 ms.technology: windows-devices

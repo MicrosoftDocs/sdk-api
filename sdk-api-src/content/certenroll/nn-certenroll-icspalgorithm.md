@@ -7,7 +7,7 @@ old-location: security\icspalgorithm.htm
 old-project: SecCertEnroll
 ms.assetid: 08eba616-2e96-40cd-9fda-8549de98c138
 ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.date: 5/10/2018
 ms.keywords: ICspAlgorithm, ICspAlgorithm interface [Security], ICspAlgorithm interface [Security],described, certenroll/ICspAlgorithm, security.icspalgorithm
 ms.prod: windows-hardware
 ms.technology: windows-devices

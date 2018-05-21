@@ -7,7 +7,7 @@ old-location: ncd\wsd_unknown_lookup.htm
 old-project: WsdApi
 ms.assetid: 7711f7d7-0d3c-419c-a02b-2e75ce550d24
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 5/16/2018
 ms.keywords: WSD_UNKNOWN_LOOKUP, WSD_UNKNOWN_LOOKUP structure, _WSD_UNKNOWN_LOOKUP, ncd.wsd_unknown_lookup, wsdtypes/WSD_UNKNOWN_LOOKUP
 ms.prod: windows-hardware
 ms.technology: windows-devices

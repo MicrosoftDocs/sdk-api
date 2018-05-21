@@ -7,7 +7,7 @@ old-location: rpc\ndroleallocate.htm
 old-project: Rpc
 ms.assetid: 87bfc8ae-62e6-477f-98a7-caf907589b89
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/18/2018
 ms.keywords: NdrOleAllocate, NdrOleAllocate function [RPC], rpc.ndroleallocate, rpcndr/NdrOleAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices

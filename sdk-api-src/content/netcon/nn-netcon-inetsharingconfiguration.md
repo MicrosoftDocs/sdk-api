@@ -7,7 +7,7 @@ old-location: ics\inetsharingconfiguration.htm
 old-project: ICS
 ms.assetid: 3ed1a3ae-87af-4415-b149-c66ae65cd053
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/11/2018
 ms.keywords: INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], INetSharingConfiguration interface [ICS/ICF],described, _ics_inetsharingconfiguration, ics.inetsharingconfiguration, netcon/INetSharingConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices

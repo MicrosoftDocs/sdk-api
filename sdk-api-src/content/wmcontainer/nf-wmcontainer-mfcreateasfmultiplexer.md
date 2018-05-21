@@ -7,7 +7,7 @@ old-location: mf\mfcreateasfmultiplexer.htm
 old-project: medfound
 ms.assetid: 4c3ded7e-51ef-4141-98f2-48b318ba9453
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/18/2018
 ms.keywords: 4c3ded7e-51ef-4141-98f2-48b318ba9453, MFCreateASFMultiplexer, MFCreateASFMultiplexer function [Media Foundation], mf.mfcreateasfmultiplexer, wmcontainer/MFCreateASFMultiplexer
 ms.prod: windows-hardware
 ms.technology: windows-devices

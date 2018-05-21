@@ -7,7 +7,7 @@ old-location: dshow\dvd_karaoke_downmix.htm
 old-project: DirectShow
 ms.assetid: 7f0132ae-6a46-4b81-9c5b-a0399a429b1a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/16/2018
 ms.keywords: DVD_KARAOKE_DOWNMIX, DVD_KARAOKE_DOWNMIX , DVD_KARAOKE_DOWNMIX enumeration [DirectShow], DVD_KARAOKE_DOWNMIXEnumeration, DVD_Mix_0to0, DVD_Mix_0to1, DVD_Mix_1to0, DVD_Mix_1to1, DVD_Mix_2to0, DVD_Mix_2to1, DVD_Mix_3to0, DVD_Mix_3to1, DVD_Mix_4to0, DVD_Mix_4to1, DVD_Mix_Lto0, DVD_Mix_Lto1, DVD_Mix_Rto0, DVD_Mix_Rto1, dshow.dvd_karaoke_downmix, strmif/DVD_KARAOKE_DOWNMIX, strmif/DVD_Mix_0to0, strmif/DVD_Mix_0to1, strmif/DVD_Mix_1to0, strmif/DVD_Mix_1to1, strmif/DVD_Mix_2to0, strmif/DVD_Mix_2to1, strmif/DVD_Mix_3to0, strmif/DVD_Mix_3to1, strmif/DVD_Mix_4to0, strmif/DVD_Mix_4to1, strmif/DVD_Mix_Lto0, strmif/DVD_Mix_Lto1, strmif/DVD_Mix_Rto0, strmif/DVD_Mix_Rto1, tagDVD_KARAOKE_DOWNMIX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Internet Explorer 6.01
+req.product: Outlook Express 6.0
 ---
 
 # tagDVD_KARAOKE_DOWNMIX enumeration

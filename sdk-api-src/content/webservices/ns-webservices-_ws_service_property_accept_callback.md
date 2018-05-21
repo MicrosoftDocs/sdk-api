@@ -7,7 +7,7 @@ old-location: wsw\ws_service_property_accept_callback.htm
 old-project: wsw
 ms.assetid: c0e08fbe-1552-4f0c-abd6-35cc33531123
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/18/2018
 ms.keywords: WS_SERVICE_PROPERTY_ACCEPT_CALLBACK, WS_SERVICE_PROPERTY_ACCEPT_CALLBACK structure [Web Services for Windows], _WS_SERVICE_PROPERTY_ACCEPT_CALLBACK, webservices/WS_SERVICE_PROPERTY_ACCEPT_CALLBACK, wsw.ws_service_property_accept_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

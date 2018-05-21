@@ -7,7 +7,7 @@ old-location: termserv\wts_sockaddr.htm
 old-project: TermServ
 ms.assetid: 03fb0225-20d1-491a-a052-0a23fa09d01a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/10/2018
 ms.keywords: "*PWTS_SOCKADDR, PWRDS_SOCKADDR, PWRDS_SOCKADDR structure pointer [Remote Desktop Services], PWTS_SOCKADDR, PWTS_SOCKADDR structure pointer [Remote Desktop Services], WRDS_SOCKADDR, WRDS_SOCKADDR structure [Remote Desktop Services], WTS_SOCKADDR, WTS_SOCKADDR structure [Remote Desktop Services], _WTS_SOCKADDR, termserv.wts_sockaddr, wtsdefs/PWRDS_SOCKADDR, wtsdefs/PWTS_SOCKADDR, wtsdefs/WRDS_SOCKADDR, wtsdefs/WTS_SOCKADDR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

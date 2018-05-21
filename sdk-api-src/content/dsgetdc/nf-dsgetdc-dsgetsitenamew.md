@@ -7,7 +7,7 @@ old-location: ad\dsgetsitename.htm
 old-project: AD
 ms.assetid: 2dfffd9a-af4f-4a93-8b3c-966e4f7c455f
 ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.date: 5/17/2018
 ms.keywords: DsGetSiteName, DsGetSiteName function [Active Directory], DsGetSiteNameA, DsGetSiteNameW, _glines_dsgetsitename, ad.dsgetsitename, dsgetdc/DsGetSiteName, dsgetdc/DsGetSiteNameA, dsgetdc/DsGetSiteNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

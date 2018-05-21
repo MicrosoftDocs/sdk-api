@@ -7,7 +7,7 @@ old-location: eaphost\eap_authenticator_method_routines.htm
 old-project: EAPHost
 ms.assetid: 8ec96ee2-678a-45c0-bfeb-c460ee863620
 ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.date: 5/11/2018
 ms.keywords: "*PEAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES structure [EAPHost], _EAP_AUTHENTICATOR_METHOD_ROUTINES, eaphost.eap_authenticator_method_routines, eapmethodauthenticatorapis/EAP_AUTHENTICATOR_METHOD_ROUTINES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
