@@ -7,7 +7,7 @@ old-location: netvista\ndk_version.htm
 old-project: netvista
 ms.assetid: 10A5A3E6-7257-4560-8452-607EC7C54397
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/21/2018
 ms.keywords: NDK_VERSION, NDK_VERSION structure [Network Drivers Starting with Windows Vista], ndkinfo/NDK_VERSION, netvista.ndk_version
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # NDK_VERSION structure

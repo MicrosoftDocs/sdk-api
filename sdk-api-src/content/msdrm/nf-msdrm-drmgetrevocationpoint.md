@@ -7,7 +7,7 @@ old-location: rm\drmgetrevocationpoint.htm
 old-project: AdRms_Sdk
 ms.assetid: 11197e77-0b7f-4972-83a1-a82aa5cef0dd
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMGetRevocationPoint, DRMGetRevocationPoint function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetRevocationPoint, rm.drmgetrevocationpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

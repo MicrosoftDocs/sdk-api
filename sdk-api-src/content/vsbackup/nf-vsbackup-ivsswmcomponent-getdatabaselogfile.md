@@ -7,7 +7,7 @@ old-location: base\ivsswmcomponent_getdatabaselogfile.htm
 old-project: VSS
 ms.assetid: 8aaab68a-27e3-4e76-8116-530001b504a3
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetDatabaseLogFile, GetDatabaseLogFile method [VSS], GetDatabaseLogFile method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetDatabaseLogFile method, IVssWMComponent.GetDatabaseLogFile, IVssWMComponent::GetDatabaseLogFile, _win32_ivsswmcomponent_getdatabaselogfile, base.ivsswmcomponent_getdatabaselogfile, vsbackup/IVssWMComponent::GetDatabaseLogFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

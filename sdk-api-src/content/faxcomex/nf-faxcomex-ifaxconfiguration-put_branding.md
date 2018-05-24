@@ -7,7 +7,7 @@ old-location: fax\_mfax_FaxConfiguration_Branding_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\branding.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: Branding property [Fax Service], Branding property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],Branding property, FaxConfiguration.Branding, IFaxConfiguration.put_Branding, IFaxConfiguration::put_Branding, _mfax_IFaxConfiguration_Branding, fax._mfax_FaxConfiguration_Branding_vb, put_Branding
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rm\drmattest.htm
 old-project: AdRms_Sdk
 ms.assetid: f0975845-d609-4f7a-a663-6481334c983d
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMAttest, DRMAttest function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAttest, rm.drmattest
 ms.prod: windows-hardware
 ms.technology: windows-devices

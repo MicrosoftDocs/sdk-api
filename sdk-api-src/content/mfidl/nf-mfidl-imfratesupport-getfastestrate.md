@@ -7,7 +7,7 @@ old-location: mf\imfratesupport_getfastestrate.htm
 old-project: medfound
 ms.assetid: 00413771-21cb-48a7-9080-2c3d195c366b
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 00413771-21cb-48a7-9080-2c3d195c366b, GetFastestRate, GetFastestRate method [Media Foundation], GetFastestRate method [Media Foundation],IMFRateSupport interface, IMFRateSupport interface [Media Foundation],GetFastestRate method, IMFRateSupport.GetFastestRate, IMFRateSupport::GetFastestRate, mf.imfratesupport_getfastestrate, mfidl/IMFRateSupport::GetFastestRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

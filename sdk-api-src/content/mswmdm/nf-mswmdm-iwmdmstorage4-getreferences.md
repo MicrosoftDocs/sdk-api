@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage4_getreferences.htm
 old-project: WMDM
 ms.assetid: 8199de99-3660-4819-a8e0-ae8e3aa1680e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetReferences, GetReferences method [windows Media Device Manager], GetReferences method [windows Media Device Manager],IWMDMStorage4 interface, IWMDMStorage4 interface [windows Media Device Manager],GetReferences method, IWMDMStorage4.GetReferences, IWMDMStorage4::GetReferences, IWMDMStorage4GetReferences, mswmdm/IWMDMStorage4::GetReferences, wmdm.iwmdmstorage4_getreferences
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMStorage4::GetReferences

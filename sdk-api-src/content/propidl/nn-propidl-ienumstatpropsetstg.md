@@ -7,7 +7,7 @@ old-location: stg\ienumstatpropsetstg.htm
 old-project: Stg
 ms.assetid: 8d5e658f-312c-4c91-8794-808b2e8dd182
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumSTATPROPSETSTG, IEnumSTATPROPSETSTG interface [Structured Storage], IEnumSTATPROPSETSTG interface [Structured Storage],described, _stg_ienumstatpropsetstg, propidlbase/IEnumSTATPROPSETSTG, stg.ienumstatpropsetstg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumSTATPROPSETSTG interface

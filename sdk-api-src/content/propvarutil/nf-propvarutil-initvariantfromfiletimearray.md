@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromFileTimeArray.htm
 old-project: properties
 ms.assetid: d1b25aec-f302-4d39-93c1-0fcb2d7dbf45
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: InitVariantFromFileTimeArray, InitVariantFromFileTimeArray function [Windows Properties], _shell_InitVariantFromFileTimeArray, properties.InitVariantFromFileTimeArray, propvarutil/InitVariantFromFileTimeArray, shell.InitVariantFromFileTimeArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InitVariantFromFileTimeArray function

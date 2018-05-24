@@ -7,7 +7,7 @@ old-location: intl\getdurationformatex.htm
 old-project: Intl
 ms.assetid: 82027deb-ffaa-43ec-981e-ffbedb204bcb
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: GetDurationFormatEx, GetDurationFormatEx function [Internationalization for Windows Applications], _win32_GetDurationFormatEx, d, f, h or H, hh or HH, intl.getdurationformatex, m, mm, s, ss, winnls/GetDurationFormatEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

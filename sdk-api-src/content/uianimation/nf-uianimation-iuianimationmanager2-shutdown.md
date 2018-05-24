@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager2_shutdown.htm
 old-project: UIAnimation
 ms.assetid: F66A987C-E020-4CD6-BE3F-440C3F8B8CF2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],Shutdown method, IUIAnimationManager2.Shutdown, IUIAnimationManager2::Shutdown, Shutdown, Shutdown method [Windows Animation], Shutdown method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_shutdown, uianimation/IUIAnimationManager2::Shutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\inkrecognitionalternatesselection.htm
 old-project: tablet
 ms.assetid: abc9fecf-7754-4f32-974f-5febfc68a6a7
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IRAS_All, IRAS_DefaultCount, IRAS_Start, InkRecognitionAlternatesSelection, InkRecognitionAlternatesSelection enumeration [Tablet PC], abc9fecf-7754-4f32-974f-5febfc68a6a7, msinkaut/IRAS_All, msinkaut/IRAS_DefaultCount, msinkaut/IRAS_Start, msinkaut/InkRecognitionAlternatesSelection, tablet.inkrecognitionalternatesselection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkRecognitionAlternatesSelection enumeration

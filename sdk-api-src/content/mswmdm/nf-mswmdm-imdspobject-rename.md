@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject_rename.htm
 old-project: WMDM
 ms.assetid: 3da6a4a4-6e3b-4907-a466-5a5bd34f4374
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Rename method, IMDSPObject.Rename, IMDSPObject::Rename, IMDSPObjectRename, Rename, Rename method [windows Media Device Manager], Rename method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Rename, wmdm.imdspobject_rename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPObject::Rename

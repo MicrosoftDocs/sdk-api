@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromInt16.htm
 old-project: properties
 ms.assetid: 8ccb09bf-a2d2-4637-b8b1-e7abe83b846d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: InitVariantFromInt16, InitVariantFromInt16 function [Windows Properties], _shell_InitVariantFromInt16, properties.InitVariantFromInt16, propvarutil/InitVariantFromInt16, shell.InitVariantFromInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InitVariantFromInt16 function

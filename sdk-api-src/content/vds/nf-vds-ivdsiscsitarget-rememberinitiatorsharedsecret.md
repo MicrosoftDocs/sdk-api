@@ -7,7 +7,7 @@ old-location: base\ivdsiscsitarget_rememberinitiatorsharedsecret.htm
 old-project: VDS
 ms.assetid: 3546f42c-2c30-4819-982d-9c186d9f858e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],RememberInitiatorSharedSecret method, IVdsIscsiTarget.RememberInitiatorSharedSecret, IVdsIscsiTarget::RememberInitiatorSharedSecret, RememberInitiatorSharedSecret, RememberInitiatorSharedSecret method [VDS], RememberInitiatorSharedSecret method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_rememberinitiatorsharedsecret, vds/IVdsIscsiTarget::RememberInitiatorSharedSecret, vdshwprv/IVdsIscsiTarget::RememberInitiatorSharedSecret
 ms.prod: windows-hardware
 ms.technology: windows-devices

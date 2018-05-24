@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_put_DataTimeout.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\put_datatimeout.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: ISearchCatalogManager interface [search],put_DataTimeout method, ISearchCatalogManager.put_DataTimeout, ISearchCatalogManager::put_DataTimeout, _search_ISearchCatalogManager_put_DataTimeout, put_DataTimeout, put_DataTimeout method [search], put_DataTimeout method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_put_DataTimeout, searchapi/ISearchCatalogManager::put_DataTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISearchCatalogManager::put_DataTimeout

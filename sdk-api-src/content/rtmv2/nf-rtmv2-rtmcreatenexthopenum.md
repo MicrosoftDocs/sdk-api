@@ -7,7 +7,7 @@ old-location: rras\rtmcreatenexthopenum.htm
 old-project: RRAS
 ms.assetid: d26ce475-ea05-4e84-92da-06df9c386858
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RTM_ENUM_NEXT, RTM_ENUM_RANGE, RTM_ENUM_START, RtmCreateNextHopEnum, RtmCreateNextHopEnum function [RAS], _rtmv2ref_rtmcreatenexthopenum, rras.rtmcreatenexthopenum, rtmv2/RtmCreateNextHopEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtmCreateNextHopEnum function

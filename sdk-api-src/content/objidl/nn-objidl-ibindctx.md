@@ -7,7 +7,7 @@ old-location: com\ibindctx.htm
 old-project: com
 ms.assetid: e4c8abb5-0c89-44dd-8d95-efbfcc999b46
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IBindCtx, IBindCtx interface [COM], IBindCtx interface [COM],described, _com_ibindctx, com.ibindctx, objidl/IBindCtx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IBindCtx interface

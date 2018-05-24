@@ -7,7 +7,7 @@ old-location: mf\mfp_get_error_event.htm
 old-project: medfound
 ms.assetid: a8a86e1d-f009-4352-a388-822c2577ebe3
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFP_GET_ERROR_EVENT, MFP_GET_ERROR_EVENT macro [Media Foundation], mf.mfp_get_error_event, mfplay/MFP_GET_ERROR_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

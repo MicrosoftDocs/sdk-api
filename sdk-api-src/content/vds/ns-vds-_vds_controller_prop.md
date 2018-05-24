@@ -7,7 +7,7 @@ old-location: base\vds_controller_prop.htm
 old-project: VDS
 ms.assetid: b9da3920-9bae-4198-ba0d-a0755aee15e4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: "*PVDS_CONTROLLER_PROP, VDS_CONTROLLER_PROP, VDS_CONTROLLER_PROP structure [VDS], VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_REPLACED, VDS_H_UNKNOWN, _VDS_CONTROLLER_PROP, base.vds_controller_prop, vds/_VDS_CONTROLLER_PROP, vdshwprv/_VDS_CONTROLLER_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

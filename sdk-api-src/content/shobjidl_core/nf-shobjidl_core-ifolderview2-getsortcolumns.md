@@ -7,7 +7,7 @@ old-location: shell\IFolderView2_GetSortColumns.htm
 old-project: shell
 ms.assetid: 33d005bd-3ea0-42d0-ae87-417fb7c087d4
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetSortColumns, GetSortColumns method [Windows Shell], GetSortColumns method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetSortColumns method, IFolderView2.GetSortColumns, IFolderView2::GetSortColumns, _shell_IFolderView2_GetSortColumns, shell.IFolderView2_GetSortColumns, shobjidl_core/IFolderView2::GetSortColumns
 ms.prod: windows-hardware
 ms.technology: windows-devices

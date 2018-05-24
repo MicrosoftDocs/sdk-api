@@ -7,7 +7,7 @@ old-location: controls\ListBox_SetItemHeight.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setitemheight.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ListBox_SetItemHeight, ListBox_SetItemHeight macro [Windows Controls], _win32_ListBox_SetItemHeight, _win32_ListBox_SetItemHeight_cpp, controls.ListBox_SetItemHeight, controls._win32_ListBox_SetItemHeight, windowsx/ListBox_SetItemHeight
 ms.prod: windows-hardware
 ms.technology: windows-devices

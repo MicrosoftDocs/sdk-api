@@ -7,7 +7,7 @@ old-location: com\ienumoleverb.htm
 old-project: com
 ms.assetid: fc9b3474-6f56-4274-af7d-72e0920c0457
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumOLEVERB, IEnumOLEVERB interface [COM], IEnumOLEVERB interface [COM],described, _ole_ienumoleverb, com.ienumoleverb, oleidl/IEnumOLEVERB
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Adhocreportingexcelclient.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumOLEVERB interface

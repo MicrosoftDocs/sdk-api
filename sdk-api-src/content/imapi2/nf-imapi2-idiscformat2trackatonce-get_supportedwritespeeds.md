@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonce_get_supportedwritespeeds.htm
 old-project: imapi
 ms.assetid: b95b7fb9-6e4b-4d9d-86fe-64ca92343225
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_SupportedWriteSpeeds method, IDiscFormat2TrackAtOnce.get_SupportedWriteSpeeds, IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds, get_SupportedWriteSpeeds, get_SupportedWriteSpeeds method [IMAPI], get_SupportedWriteSpeeds method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_supportedwritespeeds, imapi2/IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds
 ms.prod: windows-hardware
 ms.technology: windows-devices

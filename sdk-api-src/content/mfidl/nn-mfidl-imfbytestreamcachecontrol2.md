@@ -7,7 +7,7 @@ old-location: mf\imfbytestreamcachecontrol2.htm
 old-project: medfound
 ms.assetid: A901F679-B6F2-4DB7-8EFC-EA61249B64FB
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFByteStreamCacheControl2, IMFByteStreamCacheControl2 interface [Media Foundation], IMFByteStreamCacheControl2 interface [Media Foundation],described, mf.imfbytestreamcachecontrol2, mfidl/IMFByteStreamCacheControl2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

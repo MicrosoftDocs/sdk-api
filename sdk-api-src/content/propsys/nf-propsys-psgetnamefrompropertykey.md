@@ -7,7 +7,7 @@ old-location: properties\PSGetNameFromPropertyKey.htm
 old-project: properties
 ms.assetid: 7ab6b5e8-8202-4553-ba9b-be7cf9f9381d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PSGetNameFromPropertyKey, PSGetNameFromPropertyKey function [Windows Properties], properties.PSGetNameFromPropertyKey, propsys/PSGetNameFromPropertyKey, shell.PSGetNameFromPropertyKey, shell_PSGetNameFromPropertyKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSGetNameFromPropertyKey function

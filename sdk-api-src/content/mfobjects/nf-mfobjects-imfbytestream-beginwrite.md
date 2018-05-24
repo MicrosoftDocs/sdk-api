@@ -7,7 +7,7 @@ old-location: mf\imfbytestream_beginwrite.htm
 old-project: medfound
 ms.assetid: 078a8ffe-7b4f-487e-8655-fe5ea14ba306
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 078a8ffe-7b4f-487e-8655-fe5ea14ba306, BeginWrite, BeginWrite method [Media Foundation], BeginWrite method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],BeginWrite method, IMFByteStream.BeginWrite, IMFByteStream::BeginWrite, mf.imfbytestream_beginwrite, mfobjects/IMFByteStream::BeginWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

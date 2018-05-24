@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol2.htm
 old-project: WMDM
 ms.assetid: c5a17642-5253-4d01-895a-09d00284f341
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IWMDMStorageControl2, IWMDMStorageControl2 interface [windows Media Device Manager], IWMDMStorageControl2 interface [windows Media Device Manager],described, IWMDMStorageControl2Interface, mswmdm/IWMDMStorageControl2, wmdm.iwmdmstoragecontrol2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMStorageControl2 interface

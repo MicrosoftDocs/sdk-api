@@ -7,7 +7,7 @@ old-location: termserv\itssbtaskpluginnotifysink_onreporttasks.htm
 old-project: TermServ
 ms.assetid: e3b722c2-e6fa-46c5-a851-a039553b8e95
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnReportTasks method, ITsSbTaskPluginNotifySink.OnReportTasks, ITsSbTaskPluginNotifySink::OnReportTasks, OnReportTasks, OnReportTasks method [Remote Desktop Services], OnReportTasks method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnReportTasks, termserv.itssbtaskpluginnotifysink_onreporttasks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbTaskPluginNotifySink::OnReportTasks

@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch.htm
 old-project: shell
 ms.assetid: 9B429C03-7F80-45db-B8CD-58D19FAD2E61
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IShellDispatch, IShellDispatch object [Windows Shell], IShellDispatch object [Windows Shell],described, shell.IShellDispatch, shldisp/IShellDispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -217,7 +217,10 @@ Displays the <b>Shut Down Windows</b> dialog box. This is the same as clicking t
 <td align="left" width="37%">
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn927278">Suspend</a>
 </td>
-<td align="left" width="63%"></td>
+<td align="left" width="63%">
+Not implemented.
+
+</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">

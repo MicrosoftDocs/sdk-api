@@ -7,7 +7,7 @@ old-location: mf\imfinputtrustauthority_getdecrypter.htm
 old-project: medfound
 ms.assetid: 3bc4e2e6-41a8-4751-a7fe-5e1f8c136983
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 3bc4e2e6-41a8-4751-a7fe-5e1f8c136983, GetDecrypter, GetDecrypter method [Media Foundation], GetDecrypter method [Media Foundation],IMFInputTrustAuthority interface, IMFInputTrustAuthority interface [Media Foundation],GetDecrypter method, IMFInputTrustAuthority.GetDecrypter, IMFInputTrustAuthority::GetDecrypter, mf.imfinputtrustauthority_getdecrypter, mfidl/IMFInputTrustAuthority::GetDecrypter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

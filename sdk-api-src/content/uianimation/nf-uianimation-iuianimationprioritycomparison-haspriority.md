@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationprioritycomparison_haspriority.htm
 old-project: UIAnimation
 ms.assetid: 82a90bd1-7bcf-4849-bad1-bae425169a2f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: HasPriority, HasPriority method [Windows Animation], HasPriority method [Windows Animation],IUIAnimationPriorityComparison interface, IUIAnimationPriorityComparison interface [Windows Animation],HasPriority method, IUIAnimationPriorityComparison.HasPriority, IUIAnimationPriorityComparison::HasPriority, uianimation.iuianimationprioritycomparison_haspriority, uianimation/IUIAnimationPriorityComparison::HasPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

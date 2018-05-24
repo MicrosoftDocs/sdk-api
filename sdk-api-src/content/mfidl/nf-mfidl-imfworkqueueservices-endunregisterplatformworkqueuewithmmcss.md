@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservices_endunregisterplatformworkqueuewithmmcss.ht
 old-project: medfound
 ms.assetid: e6cce9d8-7f6c-4835-96a4-a2e836c61d08
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: EndUnregisterPlatformWorkQueueWithMMCSS, EndUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation], EndUnregisterPlatformWorkQueueWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],EndUnregisterPlatformWorkQueueWithMMCSS method, IMFWorkQueueServices.EndUnregisterPlatformWorkQueueWithMMCSS, IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS, e6cce9d8-7f6c-4835-96a4-a2e836c61d08, mf.imfworkqueueservices_endunregisterplatformworkqueuewithmmcss, mfidl/IMFWorkQueueServices::EndUnregisterPlatformWorkQueueWithMMCSS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

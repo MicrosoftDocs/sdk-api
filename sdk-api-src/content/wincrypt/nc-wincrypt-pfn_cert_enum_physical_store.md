@@ -7,7 +7,7 @@ old-location: security\certenumphysicalstorecallback.htm
 old-project: SecCrypto
 ms.assetid: 0651730a-39f2-4598-a81c-d05e6d282e6c
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CertEnumPhysicalStoreCallback, CertEnumPhysicalStoreCallback callback, CertEnumPhysicalStoreCallback callback function [Security], PFN_CERT_ENUM_PHYSICAL_STORE, PFN_CERT_ENUM_PHYSICAL_STORE callback function [Security], security.certenumphysicalstorecallback, wincrypt/CertEnumPhysicalStoreCallback, wincrypt/PFN_CERT_ENUM_PHYSICAL_STORE
 ms.prod: windows-hardware
 ms.technology: windows-devices

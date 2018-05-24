@@ -7,7 +7,7 @@ old-location: base\ivdsadvanceddisk_createpartition.htm
 old-project: VDS
 ms.assetid: 94f80a9f-459f-4f3d-8d85-e5ec7d5734c4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: CreatePartition, CreatePartition method [VDS], CreatePartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],CreatePartition method, IVdsAdvancedDisk.CreatePartition, IVdsAdvancedDisk::CreatePartition, base.ivdsadvanceddisk_createpartition, vds/IVdsAdvancedDisk::CreatePartition
 ms.prod: windows-hardware
 ms.technology: windows-devices

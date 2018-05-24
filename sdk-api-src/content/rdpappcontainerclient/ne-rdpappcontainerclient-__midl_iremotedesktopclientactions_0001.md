@@ -7,7 +7,7 @@ old-location: termserv\remoteactiontype.htm
 old-project: TermServ
 ms.assetid: 27E6FB88-54A6-4D0B-B0D0-A46A96299DD1
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: RemoteActionAppSwitch, RemoteActionAppbar, RemoteActionCharms, RemoteActionSnap, RemoteActionStartScreen, RemoteActionType, RemoteActionType enumeration [Remote Desktop Services], __MIDL_IRemoteDesktopClientActions_0001, rdpappcontainerclient/RemoteActionAppSwitch, rdpappcontainerclient/RemoteActionAppbar, rdpappcontainerclient/RemoteActionCharms, rdpappcontainerclient/RemoteActionSnap, rdpappcontainerclient/RemoteActionStartScreen, rdpappcontainerclient/RemoteActionType, termserv.remoteactiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL_IRemoteDesktopClientActions_0001 enumeration

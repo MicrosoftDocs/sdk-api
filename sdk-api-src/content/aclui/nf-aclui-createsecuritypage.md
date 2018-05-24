@@ -7,7 +7,7 @@ old-location: security\createsecuritypage.htm
 old-project: SecAuthZ
 ms.assetid: 52cb20fd-7f3a-4984-a898-f4b9e9738e1a
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: CreateSecurityPage, CreateSecurityPage function [Security], _win32_createsecuritypage, aclui/CreateSecurityPage, security.createsecuritypage
 ms.prod: windows-hardware
 ms.technology: windows-devices

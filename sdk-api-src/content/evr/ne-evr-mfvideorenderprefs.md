@@ -7,7 +7,7 @@ old-location: mf\mfvideorenderprefs.htm
 old-project: medfound
 ms.assetid: a56e7e09-23af-4ad3-9846-4102233ed3c4
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFVideoRenderPrefs, MFVideoRenderPrefs enumeration [Media Foundation], MFVideoRenderPrefs_AllowBatching, MFVideoRenderPrefs_AllowOutputThrottling, MFVideoRenderPrefs_AllowScaling, MFVideoRenderPrefs_DoNotClipToDevice, MFVideoRenderPrefs_DoNotRenderBorder, MFVideoRenderPrefs_DoNotRepaintOnStop, MFVideoRenderPrefs_ForceBatching, MFVideoRenderPrefs_ForceOutputThrottling, MFVideoRenderPrefs_ForceScaling, MFVideoRenderPrefs_Mask, a56e7e09-23af-4ad3-9846-4102233ed3c4, evr/MFVideoRenderPrefs, evr/MFVideoRenderPrefs_AllowBatching, evr/MFVideoRenderPrefs_AllowOutputThrottling, evr/MFVideoRenderPrefs_AllowScaling, evr/MFVideoRenderPrefs_DoNotClipToDevice, evr/MFVideoRenderPrefs_DoNotRenderBorder, evr/MFVideoRenderPrefs_DoNotRepaintOnStop, evr/MFVideoRenderPrefs_ForceBatching, evr/MFVideoRenderPrefs_ForceOutputThrottling, evr/MFVideoRenderPrefs_ForceScaling, evr/MFVideoRenderPrefs_Mask, mf.mfvideorenderprefs
 ms.prod: windows-hardware
 ms.technology: windows-devices

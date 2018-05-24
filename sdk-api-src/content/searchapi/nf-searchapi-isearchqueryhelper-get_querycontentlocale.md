@@ -7,7 +7,7 @@ old-location: search\_search_ISearchQueryHelper_get_QueryContentLocale.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querycontentlocale.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QueryContentLocale method, ISearchQueryHelper.get_QueryContentLocale, ISearchQueryHelper::get_QueryContentLocale, _search_ISearchQueryHelper_get_QueryContentLocale, get_QueryContentLocale, get_QueryContentLocale method [search], get_QueryContentLocale method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QueryContentLocale, searchapi/ISearchQueryHelper::get_QueryContentLocale
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISearchQueryHelper::get_QueryContentLocale

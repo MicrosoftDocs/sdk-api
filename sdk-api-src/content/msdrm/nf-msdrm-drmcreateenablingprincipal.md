@@ -7,7 +7,7 @@ old-location: rm\drmcreateenablingprincipal.htm
 old-project: AdRms_Sdk
 ms.assetid: 92858a46-cef5-4d25-9f3c-cbb343743565
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMCreateEnablingPrincipal, DRMCreateEnablingPrincipal function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateEnablingPrincipal, rm.drmcreateenablingprincipal
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\avistreamnearestsample.htm
 old-project: Multimedia
 ms.assetid: 350255b7-35ae-4eed-8991-82b548a2fa65
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: AVIStreamNearestSample, AVIStreamNearestSample macro [Windows Multimedia], _win32_AVIStreamNearestSample, multimedia.avistreamnearestsample, vfw/AVIStreamNearestSample
 ms.prod: windows-hardware
 ms.technology: windows-devices

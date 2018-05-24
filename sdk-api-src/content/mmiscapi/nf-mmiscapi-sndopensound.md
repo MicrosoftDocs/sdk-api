@@ -7,7 +7,7 @@ old-location: multimedia\sndopensound.htm
 old-project: Multimedia
 ms.assetid: 59871C13-4275-4E69-AFE5-989998C9AB69
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: mmiscapi/sndOpenSound, multimedia.sndopensound, sndOpenSound, sndOpenSound function [Windows Multimedia]
 ms.prod: windows-hardware
 ms.technology: windows-devices

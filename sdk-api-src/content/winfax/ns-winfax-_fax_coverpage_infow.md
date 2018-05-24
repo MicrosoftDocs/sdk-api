@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_coverpage_info_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3zaq.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: "*PFAX_COVERPAGE_INFOW, FAX_COVERPAGE_INFO, FAX_COVERPAGE_INFO structure [Fax Service], FAX_COVERPAGE_INFOA, FAX_COVERPAGE_INFOW, PFAX_COVERPAGE_INFO, PFAX_COVERPAGE_INFO structure pointer [Fax Service], _FAX_COVERPAGE_INFOW, _mfax_fax_coverpage_info_str, fax._mfax_fax_coverpage_info_str, winfax/FAX_COVERPAGE_INFO, winfax/FAX_COVERPAGE_INFOA, winfax/FAX_COVERPAGE_INFOW, winfax/PFAX_COVERPAGE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

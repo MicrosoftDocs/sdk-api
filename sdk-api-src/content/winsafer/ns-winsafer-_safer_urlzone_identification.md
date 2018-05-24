@@ -7,7 +7,7 @@ old-location: security\safer_urlzone_identification.htm
 old-project: SecMgmt
 ms.assetid: 8f165956-9ef0-469e-a71b-f9341a347e59
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: "*PSAFER_URLZONE_IDENTIFICATION, PSAFER_URLZONE_IDENTIFICATION, PSAFER_URLZONE_IDENTIFICATION structure pointer [Security], SAFER_URLZONE_IDENTIFICATION, SAFER_URLZONE_IDENTIFICATION structure [Security], URLZONE_INTERNET, URLZONE_INTRANET, URLZONE_LOCAL_MACHINE, URLZONE_TRUSTED, URLZONE_UNTRUSTED, _SAFER_URLZONE_IDENTIFICATION, _mnp_safer_urlzone_identification, security.safer_urlzone_identification, winsafer/PSAFER_URLZONE_IDENTIFICATION, winsafer/SAFER_URLZONE_IDENTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

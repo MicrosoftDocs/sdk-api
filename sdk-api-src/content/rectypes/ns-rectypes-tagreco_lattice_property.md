@@ -7,7 +7,7 @@ old-location: tablet\reco_lattice_property.htm
 old-project: tablet
 ms.assetid: cbf35f4e-cc13-4d5e-886f-22a6f0e26411
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: RECO_LATTICE_PROPERTY, RECO_LATTICE_PROPERTY structure [Tablet PC], cbf35f4e-cc13-4d5e-886f-22a6f0e26411, rectypes/RECO_LATTICE_PROPERTY, tablet.reco_lattice_property, tagRECO_LATTICE_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagRECO_LATTICE_PROPERTY structure

@@ -7,7 +7,7 @@ old-location: search\_search_ISearchQueryHelper_put_QueryKeywordLocale.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querykeywordlocale.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QueryKeywordLocale method, ISearchQueryHelper.put_QueryKeywordLocale, ISearchQueryHelper::put_QueryKeywordLocale, _search_ISearchQueryHelper_put_QueryKeywordLocale, put_QueryKeywordLocale, put_QueryKeywordLocale method [search], put_QueryKeywordLocale method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryKeywordLocale, searchapi/ISearchQueryHelper::put_QueryKeywordLocale
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISearchQueryHelper::put_QueryKeywordLocale

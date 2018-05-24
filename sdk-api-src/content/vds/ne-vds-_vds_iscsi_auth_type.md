@@ -7,7 +7,7 @@ old-location: base\vds_iscsi_auth_type.htm
 old-project: VDS
 ms.assetid: 7e445b10-552a-4a89-aee8-9699db79c5a3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_IAT_CHAP, VDS_IAT_MUTUAL_CHAP, VDS_IAT_NONE, VDS_ISCSI_AUTH_TYPE, VDS_ISCSI_AUTH_TYPE enumeration [VDS], _VDS_ISCSI_AUTH_TYPE, base.vds_iscsi_auth_type, vds/VDS_IAT_CHAP, vds/VDS_IAT_MUTUAL_CHAP, vds/VDS_IAT_NONE, vds/VDS_ISCSI_AUTH_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

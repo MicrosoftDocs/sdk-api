@@ -7,7 +7,7 @@ old-location: security\cryptimportpublickeyinfo.htm
 old-project: SecCrypto
 ms.assetid: f5f8ebb6-c838-404b-9b61-3ec36fdaef01
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CryptImportPublicKeyInfo, CryptImportPublicKeyInfo function [Security], _crypto2_cryptimportpublickeyinfo, security.cryptimportpublickeyinfo, wincrypt/CryptImportPublicKeyInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,13 +2,13 @@
 UID: NS:indexsrv.tagTEXT_SOURCE
 title: tagTEXT_SOURCE
 author: windows-driver-content
-description: Contains information about text for the word breaker to process.
-old-location: indexsrv\text_source.htm
-old-project: IndexSrv
-ms.assetid: VS|indexsrv|~\html\ixrefint_13xh.htm
+description: Contains information about text that the word breaker will process.
+old-location: search\_search_TEXT_SOURCE.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\structures\text_source.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
-ms.keywords: TEXT_SOURCE, TEXT_SOURCE structure [Indexing Service], _idxs_TEXT_SOURCE, indexsrv.text_source, indexsrv/TEXT_SOURCE, tagTEXT_SOURCE
+ms.date: 5/22/2018
+ms.keywords: TEXT_SOURCE, TEXT_SOURCE structure [search], _search_TEXT_SOURCE, indexsrv/TEXT_SOURCE, search._search_TEXT_SOURCE, tagTEXT_SOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,10 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
-
-Contains information about text for the word breaker to process.
-
+Contains information about text that the word breaker will process.
 
 
 ## -struct-fields
@@ -63,39 +60,51 @@ Contains information about text for the word breaker to process.
 
 ### -field pfnFillTextBuffer
 
-A pointer to a function of type <b>PFNFILLTEXTBUFFER</b>. This function refills the <b>awcBuffer</b> member with text from the source document. 
+Type: <b>PFNFILLTEXTBUFFER</b>
 
+Pointer to a function, <b>PFNFILLTEXTBUFFER</b> that refills the <b>awcBuffer</b> with text from the source document.
 
 
 ### -field awcBuffer
 
-A pointer to a buffer that contains text from the source document for the word breaker to parse.
+Type: <b>WCHAR*</b>
+
+Pointer to a buffer that contains text from the source document for the word breaker to parse.
 
 
 ### -field iEnd
 
-The position of the last character in <b>awcBuffer</b>.
+Type: <b>ULONG</b>
+
+Position of the last character in <b>awcBuffer</b>.
 
 
 ### -field iCur
 
-The position of the first character in <b>awcBuffer</b>.
+Type: <b>ULONG</b>
+
+Position of the first character in <b>awcBuffer</b>.
 
 
 ## -remarks
 
 
 
-The syntax of the <b>pfnFillTextBuffer</b> function is as follows.
+Windows Search populates the members of this structure when the word breaker is invoked and initialized. <a href="https://msdn.microsoft.com/32e495c0-e173-4b35-be58-51f31cb38e3e">IWordBreaker::BreakText</a> gets a pointer to a <b>TEXT_SOURCE</b> structure and calls PFNFILLTEXTBUFFER, the function pointed to by the <b>pfnFillTextBuffer</b> member, to refill <b>awcBuffer</b> until all text from the source is processed. The <b>PFNFILLTEXTBUFFER</b> function returns an <b>HRESULT</b> that includes both filtering and word-breaking return values.
 
-<pre class="syntax" xml:space="preserve"><code>typedef HRESULT ( __stdcall *PFNFILLTEXTBUFFER )( 
-    struct tagTEXT_SOURCE *pTextSource);
-</code></pre>
-Indexing Service populates elements of this structure when the word breaker is invoked and initialized. <a href="https://msdn.microsoft.com/25d84f9a-502d-4187-9dbf-6aca7cb74562">IWordBreaker::BreakText</a> gets a pointer to <b>TEXT_SOURCE</b> structure and calls the function pointed to by the <b>pfnFillTextBuffer</b> parameter, to refill the <b>awcBuffer</b> member until all text from the source has been processed.
+ 
+                The filtering return values are the following:
 
-The <b>PFNFILLTEXTBUFFER</b> function returns an <b>HRESULT</b> value that includes both filtering and word-breaking return values. The filtering return values are FILTER_E_NO_MORE_VALUES, FILTER_E_NO_TEXT, FILTER_E_NO_VALUES, FILTER_E_NO_MORE_TEXT, and FILTER_E_END_OF_CHUNKS. For more information, see <a href="https://msdn.microsoft.com/a9f94b0d-f3d0-4cf1-9dfe-74c938601abc">Filter-Interface Values</a>. The word-breaking return value is WBREAK_E_END_OF_TEXT. For more information about word-breaking return values, see <a href="https://msdn.microsoft.com/85af046e-c809-47bc-9646-bd1584cd8e66">Word-Breaking Values</a>.
+<ul>
+<li>FILTER_E_NO_MORE_VALUES</li>
+<li>FILTER_E_NO_TEXT</li>
+<li>FILTER_E_NO_VALUES</li>
+<li>FILTER_E_NO_MORE_TEXT</li>
+<li>FILTER_E_END_OF_CHUNKS</li>
+</ul>
+For more information about these return values, see <a href="_idxs_filter_interface_values">Filter-Interface Values</a>.
 
-
+The word-breaking return value is WBREAK_E_END_OF_TEXT. For more information about word-breaking return values, see <a href="_idxs_word_breaking_values">Word-Breaking Values</a>.
 
 
 
@@ -105,7 +114,7 @@ The <b>PFNFILLTEXTBUFFER</b> function returns an <b>HRESULT</b> value that inclu
 
 
 
-<a href="https://msdn.microsoft.com/25d84f9a-502d-4187-9dbf-6aca7cb74562">IWordBreaker::BreakText</a>
+<a href="https://msdn.microsoft.com/32e495c0-e173-4b35-be58-51f31cb38e3e">IWordBreaker::BreakText</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: base\vds_input_disk.htm
 old-project: VDS
 ms.assetid: 837981e5-8600-4add-85cf-a802615133d3
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_INPUT_DISK, VDS_INPUT_DISK structure [VDS], _VDS_INPUT_DISK, base.vds_input_disk, vds/_VDS_INPUT_DISK
 ms.prod: windows-hardware
 ms.technology: windows-devices

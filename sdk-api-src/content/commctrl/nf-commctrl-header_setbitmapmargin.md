@@ -7,7 +7,7 @@ old-location: controls\Header_SetBitmapMargin.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setbitmapmargin.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: Header_SetBitmapMargin, Header_SetBitmapMargin macro [Windows Controls], _win32_Header_SetBitmapMargin, _win32_Header_SetBitmapMargin_cpp, commctrl/Header_SetBitmapMargin, controls.Header_SetBitmapMargin, controls._win32_Header_SetBitmapMargin
 ms.prod: windows-hardware
 ms.technology: windows-devices

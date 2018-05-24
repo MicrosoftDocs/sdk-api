@@ -7,7 +7,7 @@ old-location: shell\IImageRecompress_RecompressImage.htm
 old-project: shell
 ms.assetid: 5fc215b0-c670-4287-8b6d-9fd6345b6439
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IImageRecompress interface [Windows Shell],RecompressImage method, IImageRecompress.RecompressImage, IImageRecompress::RecompressImage, RecompressImage, RecompressImage method [Windows Shell], RecompressImage method [Windows Shell],IImageRecompress interface, _win32_IImageRecompress_RecompressImage, shell.IImageRecompress_RecompressImage, shobjidl/IImageRecompress::RecompressImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

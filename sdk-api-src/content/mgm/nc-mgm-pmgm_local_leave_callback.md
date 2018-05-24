@@ -7,7 +7,7 @@ old-location: rras\pmgm_local_leave_callback.htm
 old-project: RRAS
 ms.assetid: 9569c0e5-f9bb-4dc9-9689-f97d107697b5
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: MgmLocalLeaveCallback, PMGM_LOCAL_LEAVE_CALLBACK, PMGM_LOCAL_LEAVE_CALLBACK callback, PMGM_LOCAL_LEAVE_CALLBACK callback function [RAS], _mpr_pmgm_local_leave_callback, mgm/PMGM_LOCAL_LEAVE_CALLBACK, rras.pmgm_local_leave_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices

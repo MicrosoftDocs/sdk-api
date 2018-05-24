@@ -7,7 +7,7 @@ old-location: rras\rasupdateconnection.htm
 old-project: RRAS
 ms.assetid: ab4fd68c-acc0-4586-9d3d-b796e23d635d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RasUpdateConnection, RasUpdateConnection function [RAS], ras/RasUpdateConnection, rras.rasupdateconnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RasUpdateConnection function

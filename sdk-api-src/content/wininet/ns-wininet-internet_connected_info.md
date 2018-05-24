@@ -7,7 +7,7 @@ old-location: wininet\internet_connected_info.htm
 old-project: WinInet
 ms.assetid: 585dbacb-33b1-4655-9ae3-5dacf30a70da
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPINTERNET_CONNECTED_INFO, INTERNET_CONNECTED_INFO, INTERNET_CONNECTED_INFO structure [WinINet], INTERNET_STATE_BUSY, INTERNET_STATE_CONNECTED, INTERNET_STATE_DISCONNECTED, INTERNET_STATE_DISCONNECTED_BY_USER, INTERNET_STATE_IDLE, LPINTERNET_CONNECTED_INFO, LPINTERNET_CONNECTED_INFO structure pointer [WinINet], _inet_internet_connected_info_structure, wininet.internet_connected_info, wininet/ LPINTERNET_CONNECTED_INFO, wininet/INTERNET_CONNECTED_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

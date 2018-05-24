@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxeventlogging_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1xt3_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFaxEventLogging, IFaxEventLogging interface [Fax Service], IFaxEventLogging interface [Fax Service],described, _mfax_faxeventlogging_cpp, fax._mfax_faxeventlogging_cpp, faxcomex/IFaxEventLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices

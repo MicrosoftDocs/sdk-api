@@ -7,7 +7,7 @@ old-location: shell\IColumnManager.htm
 old-project: shell
 ms.assetid: d01cacd8-1867-4f44-bbc3-876bd727c0fe
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IColumnManager, IColumnManager interface [Windows Shell], IColumnManager interface [Windows Shell],described, shell.IColumnManager, shell_IColumnManager, shobjidl_core/IColumnManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

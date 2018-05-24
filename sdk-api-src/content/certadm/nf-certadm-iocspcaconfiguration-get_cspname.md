@@ -7,7 +7,7 @@ old-location: security\iocspcaconfiguration_cspname_method.htm
 old-project: SecCrypto
 ms.assetid: a35400a9-7eb7-4298-b023-efe2a087ba7d
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CSPName property [Security], CSPName property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],CSPName property, IOCSPCAConfiguration.CSPName, IOCSPCAConfiguration.get_CSPName, IOCSPCAConfiguration::CSPName, IOCSPCAConfiguration::get_CSPName, certadm/IOCSPCAConfiguration::CSPName, certadm/IOCSPCAConfiguration::get_CSPName, get_CSPName, security.iocspcaconfiguration_cspname_method
 ms.prod: windows-hardware
 ms.technology: windows-devices

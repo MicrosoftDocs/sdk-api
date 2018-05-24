@@ -7,7 +7,7 @@ old-location: shell\IEnumShellItems_Reset.htm
 old-project: shell
 ms.assetid: e0208a68-0513-4fa9-88ae-2147cf61bcb5
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumShellItems interface [Windows Shell],Reset method, IEnumShellItems.Reset, IEnumShellItems::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumShellItems interface, _shell_IEnumShellItems_Reset, shell.IEnumShellItems_Reset, shobjidl_core/IEnumShellItems::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

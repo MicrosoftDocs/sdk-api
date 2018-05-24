@@ -7,7 +7,7 @@ old-location: rras\rtmreleasenexthops.htm
 old-project: RRAS
 ms.assetid: a21de428-7e9d-4596-a7ab-06a29b9852f7
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RtmReleaseNextHops, RtmReleaseNextHops function [RAS], _rtmv2ref_rtmreleasenexthops, rras.rtmreleasenexthops, rtmv2/RtmReleaseNextHops
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtmReleaseNextHops function

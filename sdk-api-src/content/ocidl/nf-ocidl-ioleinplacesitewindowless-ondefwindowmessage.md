@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_ondefwindowmessage.htm
 old-project: com
 ms.assetid: 14017061-57e3-49a9-93cc-6373522ab1dc
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],OnDefWindowMessage method, IOleInPlaceSiteWindowless.OnDefWindowMessage, IOleInPlaceSiteWindowless::OnDefWindowMessage, OnDefWindowMessage, OnDefWindowMessage method [COM], OnDefWindowMessage method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_ondefwindowmessage, com.ioleinplacesitewindowless_ondefwindowmessage, ocidl/IOleInPlaceSiteWindowless::OnDefWindowMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleInPlaceSiteWindowless::OnDefWindowMessage

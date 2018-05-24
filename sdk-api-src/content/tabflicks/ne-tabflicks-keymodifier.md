@@ -7,7 +7,7 @@ old-location: tablet\keymodifier.htm
 old-project: tablet
 ms.assetid: ffb27356-9ad2-4759-bdc4-1025813a7258
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: KEYMODIFIER, KEYMODIFIER enumeration [Tablet PC], KEYMODIFIER_ALTGR, KEYMODIFIER_CONTROL, KEYMODIFIER_EXT, KEYMODIFIER_MENU, KEYMODIFIER_SHIFT, KEYMODIFIER_WIN, ffb27356-9ad2-4759-bdc4-1025813a7258, tabflicks/KEYMODIFIER, tabflicks/KEYMODIFIER_ALTGR, tabflicks/KEYMODIFIER_CONTROL, tabflicks/KEYMODIFIER_EXT, tabflicks/KEYMODIFIER_MENU, tabflicks/KEYMODIFIER_SHIFT, tabflicks/KEYMODIFIER_WIN, tablet.keymodifier
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\SizeTToLong.htm
 old-project: shell
 ms.assetid: 1904fefa-eb31-4fda-ad0b-8ad6d2b62210
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SizeTToLong, SizeTToLong function [Windows Shell], UIntPtrToLong, _shell_SizeTToLong, intsafe/SizeTToLong, shell.SizeTToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

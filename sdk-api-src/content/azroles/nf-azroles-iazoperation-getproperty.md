@@ -7,7 +7,7 @@ old-location: security\iazoperation_getproperty.htm
 old-project: SecAuthZ
 ms.assetid: 211def10-d696-4b23-b54c-21f1f9b8f7ff
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_OPERATION_ID, AZ_PROP_WRITABLE, AzOperation object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzOperation object, GetProperty method [Security],IAzOperation interface, IAzOperation interface [Security],GetProperty method, IAzOperation.GetProperty, IAzOperation::GetProperty, azroles/IAzOperation::GetProperty, security.iazoperation_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

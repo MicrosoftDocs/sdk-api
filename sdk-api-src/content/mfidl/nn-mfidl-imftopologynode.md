@@ -7,7 +7,7 @@ old-location: mf\imftopologynode.htm
 old-project: medfound
 ms.assetid: 01d7eb7c-a3d3-4924-a8ec-a67e9dc17424
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 01d7eb7c-a3d3-4924-a8ec-a67e9dc17424, IMFTopologyNode, IMFTopologyNode interface [Media Foundation], IMFTopologyNode interface [Media Foundation],described, mf.imftopologynode, mfidl/IMFTopologyNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

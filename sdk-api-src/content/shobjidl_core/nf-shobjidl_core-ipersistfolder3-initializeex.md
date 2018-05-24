@@ -7,7 +7,7 @@ old-location: shell\IPersistFolder3_InitializeEx.htm
 old-project: shell
 ms.assetid: 50a426b5-a526-4d3d-a20a-67050229f02e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IPersistFolder3 interface [Windows Shell],InitializeEx method, IPersistFolder3.InitializeEx, IPersistFolder3::InitializeEx, InitializeEx, InitializeEx method [Windows Shell], InitializeEx method [Windows Shell],IPersistFolder3 interface, _win32_IPersistFolder3_InitializeEx, shell.IPersistFolder3_InitializeEx, shobjidl_core/IPersistFolder3::InitializeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

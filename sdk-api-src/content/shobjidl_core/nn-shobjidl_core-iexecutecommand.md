@@ -7,7 +7,7 @@ old-location: shell\IExecuteCommand.htm
 old-project: shell
 ms.assetid: a3432f1a-dd33-4e0d-8b26-1312bb5151f7
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IExecuteCommand, IExecuteCommand interface [Windows Shell], IExecuteCommand interface [Windows Shell],described, _shell_IExecuteCommand, shell.IExecuteCommand, shobjidl_core/IExecuteCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\tssession_state.htm
 old-project: TermServ
 ms.assetid: 2780e704-72f1-44a9-ad54-ab3d2b19befe
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: STATE_ACTIVE, STATE_CONNECTED, STATE_CONNECTQUERY, STATE_DISCONNECTED, STATE_DOWN, STATE_IDLE, STATE_INIT, STATE_INVALID, STATE_LISTEN, STATE_RESET, STATE_SHADOW, TSSESSION_STATE, TSSESSION_STATE enumeration [Remote Desktop Services], _TSSESSION_STATE, sessdirpublictypes/STATE_ACTIVE, sessdirpublictypes/STATE_CONNECTED, sessdirpublictypes/STATE_CONNECTQUERY, sessdirpublictypes/STATE_DISCONNECTED, sessdirpublictypes/STATE_DOWN, sessdirpublictypes/STATE_IDLE, sessdirpublictypes/STATE_INIT, sessdirpublictypes/STATE_INVALID, sessdirpublictypes/STATE_LISTEN, sessdirpublictypes/STATE_RESET, sessdirpublictypes/STATE_SHADOW, sessdirpublictypes/TSSESSION_STATE, termserv.tssession_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _TSSESSION_STATE enumeration

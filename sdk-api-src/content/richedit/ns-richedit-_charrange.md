@@ -7,7 +7,7 @@ old-location: controls\CHARRANGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charrange.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: CHARRANGE, CHARRANGE structure [Windows Controls], _charrange, _win32_CHARRANGE_str, _win32_CHARRANGE_str_cpp, controls.CHARRANGE, controls._win32_CHARRANGE_str, richedit/CHARRANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _charrange structure

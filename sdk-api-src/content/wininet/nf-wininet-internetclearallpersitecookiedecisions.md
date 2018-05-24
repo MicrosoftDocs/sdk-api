@@ -7,7 +7,7 @@ old-location: wininet\internetclearallpersitecookiedecisions.htm
 old-project: WinInet
 ms.assetid: 980df63e-70b8-44d3-b98a-b7c8a3e395c6
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: InternetClearAllPerSiteCookieDecisions, InternetClearAllPerSiteCookieDecisions function [WinINet], wininet.internetclearallpersitecookiedecisions, wininet/InternetClearAllPerSiteCookieDecisions
 ms.prod: windows-hardware
 ms.technology: windows-devices

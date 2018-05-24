@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt32.htm
 old-project: properties
 ms.assetid: 24421477-8930-4c8f-8fee-5d8367123c7e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: VariantToUInt32, VariantToUInt32 function [Windows Properties], _shell_VariantToUInt32, properties.VariantToUInt32, propvarutil/VariantToUInt32, shell.VariantToUInt32
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantToUInt32 function

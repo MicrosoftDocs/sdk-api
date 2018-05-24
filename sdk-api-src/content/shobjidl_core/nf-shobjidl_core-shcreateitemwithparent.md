@@ -7,7 +7,7 @@ old-location: shell\SHCreateItemWithParent.htm
 old-project: shell
 ms.assetid: 8fb84a20-d8f2-4c7c-bfb1-a22791b8636a
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SHCreateItemWithParent, SHCreateItemWithParent function [Windows Shell], _shell_SHCreateItemWithParent, shell.SHCreateItemWithParent, shobjidl_core/SHCreateItemWithParent
 ms.prod: windows-hardware
 ms.technology: windows-devices

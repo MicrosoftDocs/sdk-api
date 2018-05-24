@@ -7,7 +7,7 @@ old-location: indexsrv\bindifilterfromstorage.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1cth.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: BindIFilterFromStorage, BindIFilterFromStorage function [Indexing Service], _idxs_BindIFilterFromStorage, indexsrv.bindifilterfromstorage, ntquery/BindIFilterFromStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ntquery.lib
 req.dll: Ntquery.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # BindIFilterFromStorage function

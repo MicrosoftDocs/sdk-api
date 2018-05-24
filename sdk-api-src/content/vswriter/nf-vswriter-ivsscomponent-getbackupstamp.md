@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getbackupstamp.htm
 old-project: VSS
 ms.assetid: a8f272d8-4024-46bf-a0e6-77d870615fc0
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetBackupStamp, GetBackupStamp method [VSS], GetBackupStamp method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupStamp method, IVssComponent.GetBackupStamp, IVssComponent::GetBackupStamp, _win32_ivsscomponent_getbackupstamp, base.ivsscomponent_getbackupstamp, vswriter/IVssComponent::GetBackupStamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

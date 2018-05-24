@@ -7,7 +7,7 @@ old-location: mf\imfmediasourcepresentationprovider_forceendofpresentation.htm
 old-project: medfound
 ms.assetid: fb2896f9-c397-4a0d-b8fe-b03ff4f08dda
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: ForceEndOfPresentation, ForceEndOfPresentation method [Media Foundation], ForceEndOfPresentation method [Media Foundation],IMFMediaSourcePresentationProvider interface, IMFMediaSourcePresentationProvider interface [Media Foundation],ForceEndOfPresentation method, IMFMediaSourcePresentationProvider.ForceEndOfPresentation, IMFMediaSourcePresentationProvider::ForceEndOfPresentation, fb2896f9-c397-4a0d-b8fe-b03ff4f08dda, mf.imfmediasourcepresentationprovider_forceendofpresentation, mfidl/IMFMediaSourcePresentationProvider::ForceEndOfPresentation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: com\imallocspy_postalloc.htm
 old-project: com
 ms.assetid: eaf2cb92-afdb-4f1f-a46a-83b6c72db07f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IMallocSpy interface [COM],PostAlloc method, IMallocSpy.PostAlloc, IMallocSpy::PostAlloc, PostAlloc, PostAlloc method [COM], PostAlloc method [COM],IMallocSpy interface, _com_imallocspy_postalloc, com.imallocspy_postalloc, objidl/IMallocSpy::PostAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMallocSpy::PostAlloc

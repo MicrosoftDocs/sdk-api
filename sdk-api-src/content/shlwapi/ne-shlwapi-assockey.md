@@ -7,7 +7,7 @@ old-location: shell\ASSOCKEY_str.htm
 old-project: shell
 ms.assetid: f4ac0ba0-4113-498f-a51b-74a37fe33d49
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ASSOCKEY, ASSOCKEY enumeration [Windows Shell], ASSOCKEY_APP, ASSOCKEY_BASECLASS, ASSOCKEY_CLASS, ASSOCKEY_SHELLEXECCLASS, _win32_ASSOCKEY_str, shell.ASSOCKEY_str, shlwapi/ASSOCKEY, shlwapi/ASSOCKEY_APP, shlwapi/ASSOCKEY_BASECLASS, shlwapi/ASSOCKEY_CLASS, shlwapi/ASSOCKEY_SHELLEXECCLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices

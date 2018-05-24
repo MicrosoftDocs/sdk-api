@@ -7,7 +7,7 @@ old-location: shell\CATEGORY_INFO.htm
 old-project: shell
 ms.assetid: 6198cd31-94db-4d31-9cc9-f8b90e661809
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CATEGORY_INFO, CATEGORY_INFO structure [Windows Shell], inet_CATEGORY_INFO, shell.CATEGORY_INFO, shobjidl_core/CATEGORY_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

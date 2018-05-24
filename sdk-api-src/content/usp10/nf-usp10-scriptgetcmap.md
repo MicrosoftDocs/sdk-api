@@ -7,7 +7,7 @@ old-location: intl\scriptgetcmap.htm
 old-project: Intl
 ms.assetid: 577c356d-a22d-422c-bec7-cfbc228f1066
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: SGCM_RTL, ScriptGetCMap, ScriptGetCMap function [Internationalization for Windows Applications], _win32_ScriptGetCMap, intl.scriptgetcmap, usp10/ScriptGetCMap
 ms.prod: windows-hardware
 ms.technology: windows-devices

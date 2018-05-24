@@ -7,7 +7,7 @@ old-location: security\authzinitializecontextfromtoken.htm
 old-project: SecAuthZ
 ms.assetid: 75a7fb3f-6b3a-42ca-b467-f57baf6c60c6
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AuthzInitializeContextFromToken, AuthzInitializeContextFromToken function [Security], _win32_authzinitializecontextfromtoken, authz/AuthzInitializeContextFromToken, security.authzinitializecontextfromtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices

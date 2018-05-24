@@ -7,7 +7,7 @@ old-location: security\lsaretrieveprivatedata.htm
 old-project: SecMgmt
 ms.assetid: 005460db-0919-46eb-b057-37c5b6042243
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: G$, L$, LsaRetrievePrivateData, LsaRetrievePrivateData function [Security], M$, _lsa_lsaretrieveprivatedata, ntsecapi/LsaRetrievePrivateData, security.lsaretrieveprivatedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LsaRetrievePrivateData function

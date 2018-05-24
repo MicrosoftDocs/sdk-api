@@ -7,7 +7,7 @@ old-location: termserv\iworkspaceclientext_getresourceid.htm
 old-project: TermServ
 ms.assetid: c7a0c77c-0579-48dd-bc06-8ffe48358661
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: GetResourceId, GetResourceId method [Remote Desktop Services], GetResourceId method [Remote Desktop Services],IWorkspaceClientExt interface, IWorkspaceClientExt interface [Remote Desktop Services],GetResourceId method, IWorkspaceClientExt.GetResourceId, IWorkspaceClientExt::GetResourceId, termserv.iworkspaceclientext_getresourceid, workspaceruntimeclientext/IWorkspaceClientExt::GetResourceId
 ms.prod: windows-hardware
 ms.technology: windows-devices

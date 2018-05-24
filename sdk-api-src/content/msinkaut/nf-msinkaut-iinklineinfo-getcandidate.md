@@ -7,7 +7,7 @@ old-location: tablet\iinklineinfo_getcandidate.htm
 old-project: tablet
 ms.assetid: 59005f51-7052-4aef-915d-4c939eecec99
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 59005f51-7052-4aef-915d-4c939eecec99, GetCandidate, GetCandidate method [Tablet PC], GetCandidate method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetCandidate method, IInkLineInfo.GetCandidate, IInkLineInfo::GetCandidate, msinkaut/IInkLineInfo::GetCandidate, tablet.iinklineinfo_getcandidate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkLineInfo::GetCandidate

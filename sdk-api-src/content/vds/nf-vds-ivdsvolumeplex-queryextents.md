@@ -7,7 +7,7 @@ old-location: base\ivdsvolumeplex_queryextents.htm
 old-project: VDS
 ms.assetid: 09548bcc-29b9-498f-a4c0-99428f26343a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsVolumePlex interface [VDS],QueryExtents method, IVdsVolumePlex.QueryExtents, IVdsVolumePlex::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsVolumePlex interface, base.ivdsvolumeplex_queryextents, vds/IVdsVolumePlex::QueryExtents
 ms.prod: windows-hardware
 ms.technology: windows-devices

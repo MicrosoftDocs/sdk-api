@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject_open.htm
 old-project: WMDM
 ms.assetid: 9e54bcbd-4f14-49e0-8211-2f79f024c80a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Open method, IMDSPObject.Open, IMDSPObject::Open, IMDSPObjectOpen, Open, Open method [windows Media Device Manager], Open method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Open, wmdm.imdspobject_open
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPObject::Open

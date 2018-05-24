@@ -7,7 +7,7 @@ old-location: shell\IHomeGroup.htm
 old-project: shell
 ms.assetid: 97d693c0-1126-4cd3-8aee-b5499b538403
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IHomeGroup, IHomeGroup interface [Windows Shell], IHomeGroup interface [Windows Shell],described, _shell_IHomeGroup, shell.IHomeGroup, shobjidl_core/IHomeGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

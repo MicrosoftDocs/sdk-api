@@ -7,7 +7,7 @@ old-location: mf\mfheapfree.htm
 old-project: medfound
 ms.assetid: c4a03a20-5398-4fe0-9a1f-3bc162c624cd
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFHeapFree, MFHeapFree function [Media Foundation], c4a03a20-5398-4fe0-9a1f-3bc162c624cd, mf.mfheapfree, mfapi/MFHeapFree
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\iinkcursors_item.htm
 old-project: tablet
 ms.assetid: 59174954-4994-4773-acee-a3db363cb8fe
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 59174954-4994-4773-acee-a3db363cb8fe, IInkCursors interface [Tablet PC],Item method, IInkCursors.Item, IInkCursors::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCursors interface, msinkaut/IInkCursors::Item, tablet.iinkcursors_item
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkCursors::Item

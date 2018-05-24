@@ -7,7 +7,7 @@ old-location: netmgmt\netwkstauserenum.htm
 old-project: NetMgmt
 ms.assetid: 42eaeb70-3ce8-4eae-b20b-4729db90a7ef
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: 0, 1, NetWkstaUserEnum, NetWkstaUserEnum function [Network Management], _win32_netwkstauserenum, lmwksta/NetWkstaUserEnum, netmgmt.netwkstauserenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_getname.htm
 old-project: medfound
 ms.assetid: C1B28336-27D1-4592-B583-940C2C9EF9A0
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetName method, IMFTimedTextStyle.GetName, IMFTimedTextStyle::GetName, mf.imftimedtextstyle_getname, mfmediaengine/IMFTimedTextStyle::GetName
 ms.prod: windows-hardware
 ms.technology: windows-devices

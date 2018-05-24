@@ -7,7 +7,7 @@ old-location: controls\Edit_SetReadOnly.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setreadonly.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: Edit_SetReadOnly, Edit_SetReadOnly macro [Windows Controls], _win32_Edit_SetReadOnly, _win32_Edit_SetReadOnly_cpp, controls.Edit_SetReadOnly, controls._win32_Edit_SetReadOnly, windowsx/Edit_SetReadOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices

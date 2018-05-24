@@ -7,7 +7,7 @@ old-location: rras\rasnapstate.htm
 old-project: RRAS
 ms.assetid: 1cba931c-041a-4ec6-8c30-db3a02b59ec3
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: "*LPRASNAPSTATE, LPRASNAPSTATE, LPRASNAPSTATE structure pointer [RAS], RASNAPSTATE, RASNAPSTATE structure [RAS], _tagRasNapState, ras/LPRASNAPSTATE, ras/RASNAPSTATE, rras.rasnapstate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _tagRasNapState structure

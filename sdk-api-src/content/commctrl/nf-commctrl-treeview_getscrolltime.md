@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetScrollTime.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getscrolltime.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: TreeView_GetScrollTime, TreeView_GetScrollTime macro [Windows Controls], _win32_TreeView_GetScrollTime, _win32_TreeView_GetScrollTime_cpp, commctrl/TreeView_GetScrollTime, controls.TreeView_GetScrollTime, controls._win32_TreeView_GetScrollTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

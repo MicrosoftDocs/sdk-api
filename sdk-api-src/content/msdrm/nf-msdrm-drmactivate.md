@@ -7,7 +7,7 @@ old-location: rm\drmactivate.htm
 old-project: AdRms_Sdk
 ms.assetid: d3f4ac2c-95d9-4273-a679-81670dd62d28
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMActivate, DRMActivate function [Active Directory Rights Management Services SDK 1.0], DRM_ACTIVATE_CANCEL, DRM_ACTIVATE_DELAYED, DRM_ACTIVATE_GROUPIDENTITY, DRM_ACTIVATE_MACHINE, DRM_ACTIVATE_SHARED_GROUPIDENTITY, DRM_ACTIVATE_SILENT, DRM_ACTIVATE_TEMPORARY, msdrm/DRMActivate, rm.drmactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

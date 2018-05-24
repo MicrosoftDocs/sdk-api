@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiinitiatoradapter_logintotarget.htm
 old-project: VDS
 ms.assetid: 74d6ddd0-1b78-446a-9bce-6816eb34a2b9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsIscsiInitiatorAdapter interface [VDS],LoginToTarget method, IVdsIscsiInitiatorAdapter.LoginToTarget, IVdsIscsiInitiatorAdapter::LoginToTarget, LoginToTarget, LoginToTarget method [VDS], LoginToTarget method [VDS],IVdsIscsiInitiatorAdapter interface, base.ivdsiscsiinitiatoradapter_logintotarget, vds/IVdsIscsiInitiatorAdapter::LoginToTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

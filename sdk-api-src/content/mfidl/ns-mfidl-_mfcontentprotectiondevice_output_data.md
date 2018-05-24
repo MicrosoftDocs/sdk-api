@@ -7,7 +7,7 @@ old-location: mf\mfcontentprotectiondevice_output_data.htm
 old-project: medfound
 ms.assetid: 73380F30-E219-4670-86DA-63CDA10C94BF
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA, MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA structure [Media Foundation], _MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA, mf.mfcontentprotectiondevice_output_data, mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivdsservicesan.htm
 old-project: VDS
 ms.assetid: 675e9ea8-06b6-4832-9311-17361e4781d4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsServiceSAN, IVdsServiceSAN interface, IVdsServiceSAN interface,described, base.ivdsservicesan, vds/IVdsServiceSAN
 ms.prod: windows-hardware
 ms.technology: windows-devices

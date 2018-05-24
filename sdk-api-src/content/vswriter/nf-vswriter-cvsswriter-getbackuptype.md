@@ -7,7 +7,7 @@ old-location: base\cvsswriter_getbackuptype.htm
 old-project: VSS
 ms.assetid: b8f78552-27b5-4d64-9d35-baf1c636b526
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: CVssWriter interface [VSS],GetBackupType method, CVssWriter.GetBackupType, CVssWriter::GetBackupType, GetBackupType, GetBackupType method [VSS], GetBackupType method [VSS],CVssWriter interface, _win32_cvsswriter_getbackuptype, base.cvsswriter_getbackuptype, vswriter/CVssWriter::GetBackupType
 ms.prod: windows-hardware
 ms.technology: windows-devices

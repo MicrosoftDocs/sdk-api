@@ -7,7 +7,7 @@ old-location: base\ivdsservice_reenumerate.htm
 old-project: VDS
 ms.assetid: d057715c-dfd5-4b69-9e33-c40fb89fa11b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsService interface [VDS],Reenumerate method, IVdsService.Reenumerate, IVdsService::Reenumerate, Reenumerate, Reenumerate method [VDS], Reenumerate method [VDS],IVdsService interface, base.ivdsservice_reenumerate, vds/IVdsService::Reenumerate
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\getcontextmenuex.htm
 old-project: Controls
 ms.assetid: 6354921F-3C9F-4CBD-AC48-1EB67D1FDEB7
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GCMF_GRIPPER, GCMF_MOUSEMENU, GCMF_SPELLING, GCMF_TOUCHMENU, GETCONTEXTMENUEX, GETCONTEXTMENUEX structure [Windows Controls], _getcontextmenuex, controls.getcontextmenuex, richedit/GETCONTEXTMENUEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _getcontextmenuex structure

@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_scaletorectangle.htm
 old-project: tablet
 ms.assetid: 8bc22004-3781-4018-9a92-88958039248c
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 8bc22004-3781-4018-9a92-88958039248c, IInkStrokeDisp interface [Tablet PC],ScaleToRectangle method, IInkStrokeDisp.ScaleToRectangle, IInkStrokeDisp::ScaleToRectangle, ScaleToRectangle, ScaleToRectangle method [Tablet PC], ScaleToRectangle method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::ScaleToRectangle, tablet.iinkstrokedisp_scaletorectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::ScaleToRectangle

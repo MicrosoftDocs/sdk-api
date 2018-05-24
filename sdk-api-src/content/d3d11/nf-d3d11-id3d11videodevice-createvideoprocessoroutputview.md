@@ -7,7 +7,7 @@ old-location: mf\id3d11videodevice_createvideoprocessoroutputview.htm
 old-project: medfound
 ms.assetid: EC7AFE44-877C-4FB0-9E61-FCD504A334D3
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: CreateVideoProcessorOutputView, CreateVideoProcessorOutputView method [Media Foundation], CreateVideoProcessorOutputView method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoProcessorOutputView method, ID3D11VideoDevice.CreateVideoProcessorOutputView, ID3D11VideoDevice::CreateVideoProcessorOutputView, d3d11/ID3D11VideoDevice::CreateVideoProcessorOutputView, mf.id3d11videodevice_createvideoprocessoroutputview
 ms.prod: windows-hardware
 ms.technology: windows-devices

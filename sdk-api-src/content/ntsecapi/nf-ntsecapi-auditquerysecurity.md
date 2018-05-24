@@ -7,7 +7,7 @@ old-location: security\auditquerysecurity.htm
 old-project: SecAuthZ
 ms.assetid: 496c9659-0c03-42c9-93c4-eb4d97e950e2
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AuditQuerySecurity, AuditQuerySecurity function [Security], ntsecapi/AuditQuerySecurity, security.auditquerysecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # AuditQuerySecurity function

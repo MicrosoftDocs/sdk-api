@@ -7,7 +7,7 @@ old-location: shell\IExtractImage.htm
 old-project: shell
 ms.assetid: 28a13749-89e7-407e-89cb-95464859ce3e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IExtractImage, IExtractImage interface [Windows Shell], IExtractImage interface [Windows Shell],described, _win32_IExtractImage, shell.IExtractImage, shobjidl_core/IExtractImage
 ms.prod: windows-hardware
 ms.technology: windows-devices

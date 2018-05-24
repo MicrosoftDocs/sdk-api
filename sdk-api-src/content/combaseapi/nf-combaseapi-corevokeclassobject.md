@@ -7,7 +7,7 @@ old-location: com\corevokeclassobject.htm
 old-project: com
 ms.assetid: 90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CoRevokeClassObject, CoRevokeClassObject function [COM], _com_CoRevokeClassObject, com.corevokeclassobject, combaseapi/CoRevokeClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

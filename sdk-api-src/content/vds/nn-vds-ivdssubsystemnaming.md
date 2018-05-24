@@ -7,7 +7,7 @@ old-location: base\ivdssubsystemnaming.htm
 old-project: VDS
 ms.assetid: 1f507c6c-8eae-4c32-805f-5dbc7ba4a81e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsSubSystemNaming, IVdsSubSystemNaming interface [VDS], IVdsSubSystemNaming interface [VDS],described, base.ivdssubsystemnaming, vds/IVdsSubSystemNaming
 ms.prod: windows-hardware
 ms.technology: windows-devices

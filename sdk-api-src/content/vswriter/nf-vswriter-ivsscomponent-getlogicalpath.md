@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getlogicalpath.htm
 old-project: VSS
 ms.assetid: 16c85322-5127-40aa-8393-df7684cd1c92
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetLogicalPath, GetLogicalPath method [VSS], GetLogicalPath method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetLogicalPath method, IVssComponent.GetLogicalPath, IVssComponent::GetLogicalPath, _win32_ivsscomponent_getlogicalpath, base.ivsscomponent_getlogicalpath, vswriter/IVssComponent::GetLogicalPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

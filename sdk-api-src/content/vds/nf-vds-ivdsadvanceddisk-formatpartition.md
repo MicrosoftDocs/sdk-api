@@ -7,7 +7,7 @@ old-location: base\ivdsadvanceddisk_formatpartition.htm
 old-project: VDS
 ms.assetid: 9b7015c2-a85d-4a56-8aec-208933640185
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: FormatPartition, FormatPartition method [VDS], FormatPartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],FormatPartition method, IVdsAdvancedDisk.FormatPartition, IVdsAdvancedDisk::FormatPartition, base.ivdsadvanceddisk_formatpartition, vds/IVdsAdvancedDisk::FormatPartition
 ms.prod: windows-hardware
 ms.technology: windows-devices

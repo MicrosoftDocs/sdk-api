@@ -7,7 +7,7 @@ old-location: mf\idirectxvideodecoderservice_getdecoderrendertargets.htm
 old-project: medfound
 ms.assetid: cde04894-9042-4916-b195-60d84d0f87ec
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetDecoderRenderTargets, GetDecoderRenderTargets method [Media Foundation], GetDecoderRenderTargets method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],GetDecoderRenderTargets method, IDirectXVideoDecoderService.GetDecoderRenderTargets, IDirectXVideoDecoderService::GetDecoderRenderTargets, cde04894-9042-4916-b195-60d84d0f87ec, dxva2api/IDirectXVideoDecoderService::GetDecoderRenderTargets, mf.idirectxvideodecoderservice_getdecoderrendertargets
 ms.prod: windows-hardware
 ms.technology: windows-devices

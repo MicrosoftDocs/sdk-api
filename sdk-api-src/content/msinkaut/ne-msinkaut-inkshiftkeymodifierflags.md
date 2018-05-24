@@ -7,7 +7,7 @@ old-location: tablet\inkshiftkeymodifierflags.htm
 old-project: tablet
 ms.assetid: 03c2e5d4-fcba-4b6c-9982-54b451ef129d
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 03c2e5d4-fcba-4b6c-9982-54b451ef129d, IKM_Alt, IKM_Control, IKM_Shift, InkShiftKeyModifierFlags, InkShiftKeyModifierFlags enumeration [Tablet PC], msinkaut/IKM_Alt, msinkaut/IKM_Control, msinkaut/IKM_Shift, msinkaut/InkShiftKeyModifierFlags, tablet.inkshiftkeymodifierflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkShiftKeyModifierFlags enumeration

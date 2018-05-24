@@ -7,7 +7,7 @@ old-location: base\ivdslunmpio_getsupportedlbpolicies.htm
 old-project: VDS
 ms.assetid: 1b1f3437-41db-403e-abdb-febbfe90858c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetSupportedLbPolicies, GetSupportedLbPolicies method [VDS], GetSupportedLbPolicies method [VDS],IVdsLunMpio interface, IVdsLunMpio interface [VDS],GetSupportedLbPolicies method, IVdsLunMpio.GetSupportedLbPolicies, IVdsLunMpio::GetSupportedLbPolicies, base.ivdslunmpio_getsupportedlbpolicies, vds/IVdsLunMpio::GetSupportedLbPolicies
 ms.prod: windows-hardware
 ms.technology: windows-devices

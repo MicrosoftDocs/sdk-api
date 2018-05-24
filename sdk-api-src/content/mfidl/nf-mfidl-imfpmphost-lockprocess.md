@@ -7,7 +7,7 @@ old-location: mf\imfpmphost_lockprocess.htm
 old-project: medfound
 ms.assetid: 45c533ca-d8ca-43f9-91d2-011a0b0d63a6
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 45c533ca-d8ca-43f9-91d2-011a0b0d63a6, IMFPMPHost interface [Media Foundation],LockProcess method, IMFPMPHost.LockProcess, IMFPMPHost::LockProcess, LockProcess, LockProcess method [Media Foundation], LockProcess method [Media Foundation],IMFPMPHost interface, mf.imfpmphost_lockprocess, mfidl/IMFPMPHost::LockProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

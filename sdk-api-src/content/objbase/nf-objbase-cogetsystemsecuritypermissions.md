@@ -7,7 +7,7 @@ old-location: com\cogetsystemsecuritypermissions.htm
 old-project: com
 ms.assetid: 8210A6A0-B861-4E85-8E5A-1BF82A01C54E
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CoGetSystemSecurityPermissions, CoGetSystemSecurityPermissions function [COM], com.cogetsystemsecuritypermissions, objbase/CoGetSystemSecurityPermissions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: ComBase.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CoGetSystemSecurityPermissions function

@@ -7,7 +7,7 @@ old-location: base\ivsscreatewritermetadata_addfilestofilegroup.htm
 old-project: VSS
 ms.assetid: 5d5a0155-467c-4c42-876e-a1b245cf6f8e
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: AddFilesToFileGroup, AddFilesToFileGroup method [VSS], AddFilesToFileGroup method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddFilesToFileGroup method, IVssCreateWriterMetadata.AddFilesToFileGroup, IVssCreateWriterMetadata::AddFilesToFileGroup, _win32_ivsscreatewritermetadata_addfilestofilegroup, base.ivsscreatewritermetadata_addfilestofilegroup, vswriter/IVssCreateWriterMetadata::AddFilesToFileGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

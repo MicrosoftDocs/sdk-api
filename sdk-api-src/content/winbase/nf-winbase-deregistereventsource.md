@@ -7,7 +7,7 @@ old-location: base\deregistereventsource.htm
 old-project: EventLog
 ms.assetid: f5d1f4b0-5320-4aec-a129-cafff6f1fed1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: DeregisterEventSource, DeregisterEventSource function, _win32_deregistereventsource, base.deregistereventsource, winbase/DeregisterEventSource
 ms.prod: windows-hardware
 ms.technology: windows-devices

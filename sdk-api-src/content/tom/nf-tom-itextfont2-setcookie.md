@@ -7,7 +7,7 @@ old-location: controls\itextfont2_setcookie.htm
 old-project: Controls
 ms.assetid: d1b4c7a8-ba4c-482f-8431-14d45474ccc0
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetCookie method, ITextFont2.SetCookie, ITextFont2::SetCookie, SetCookie, SetCookie method [Windows Controls], SetCookie method [Windows Controls],ITextFont2 interface, controls.itextfont2_setcookie, tom/ITextFont2::SetCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices

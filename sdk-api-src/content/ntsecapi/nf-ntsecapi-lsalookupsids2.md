@@ -7,7 +7,7 @@ old-location: security\lsalookupsids2.htm
 old-project: SecMgmt
 ms.assetid: 6B30D1FF-35DC-44E8-A765-36A5761EC0CE
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: LSA_LOOKUP_DISALLOW_CONNECTED_ACCOUNT_INTERNET_SID, LSA_LOOKUP_PREFER_INTERNET_NAMES, LSA_LOOKUP_RETURN_LOCAL_NAMES, LsaLookupSids2, LsaLookupSids2 function [Security], ntsecapi/LsaLookupSids2, security.lsalookupsids2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LsaLookupSids2 function

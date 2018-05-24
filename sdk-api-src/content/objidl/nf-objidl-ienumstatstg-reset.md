@@ -7,7 +7,7 @@ old-location: stg\ienumstatstg_reset.htm
 old-project: Stg
 ms.assetid: 696aaa93-1b56-4baf-a6be-753c7d6f5456
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumSTATSTG interface [Structured Storage],Reset method, IEnumSTATSTG.Reset, IEnumSTATSTG::Reset, Reset, Reset method [Structured Storage], Reset method [Structured Storage],IEnumSTATSTG interface, objidl/IEnumSTATSTG::Reset, stg.ienumstatstg_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumSTATSTG::Reset

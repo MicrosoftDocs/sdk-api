@@ -7,7 +7,7 @@ old-location: com\iviewobject2.htm
 old-project: com
 ms.assetid: b150ca4b-c53c-4bcb-85fa-461f9fa8b63b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IViewObject2, IViewObject2 interface [COM], IViewObject2 interface [COM],described, _ole_iviewobject2, com.iviewobject2, oleidl/IViewObject2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Adhocreportingexcelclient.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IViewObject2 interface

@@ -7,7 +7,7 @@ old-location: properties\PropVariantToStringAlloc.htm
 old-project: properties
 ms.assetid: 5e47cc72-4179-4ebe-8700-87861146b3d7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PropVariantToStringAlloc, PropVariantToStringAlloc function [Windows Properties], _shell_PropVariantToStringAlloc, properties.PropVariantToStringAlloc, propvarutil/PropVariantToStringAlloc, shell.PropVariantToStringAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PropVariantToStringAlloc function

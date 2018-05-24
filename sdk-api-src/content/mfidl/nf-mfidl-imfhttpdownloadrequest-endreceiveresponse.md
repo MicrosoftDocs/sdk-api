@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_endreceiveresponse.htm
 old-project: medfound
 ms.assetid: FC342FB9-930F-4EA7-9057-51AF10D13ED9
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: EndReceiveResponse, EndReceiveResponse method [Media Foundation], EndReceiveResponse method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],EndReceiveResponse method, IMFHttpDownloadRequest.EndReceiveResponse, IMFHttpDownloadRequest::EndReceiveResponse, mf.imfhttpdownloadrequest_endreceiveresponse, mfidl/IMFHttpDownloadRequest::EndReceiveResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

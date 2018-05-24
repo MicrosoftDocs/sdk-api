@@ -7,7 +7,7 @@ old-location: mf\mfcreate3gpmediasink.htm
 old-project: medfound
 ms.assetid: a0a1f6af-5d73-4347-abd7-9b2bde61fdf2
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFCreate3GPMediaSink, MFCreate3GPMediaSink function [Media Foundation], mf.mfcreate3gpmediasink, mfidl/MFCreate3GPMediaSink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: rras\rtminvokemethod.htm
 old-project: RRAS
 ms.assetid: 97506565-2fa7-4ff7-b397-7ab712759a5d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RtmInvokeMethod, RtmInvokeMethod function [RAS], _rtmv2ref_rtminvokemethod, rras.rtminvokemethod, rtmv2/RtmInvokeMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtmInvokeMethod function

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectdepthstencilvariable_getbackingstore.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectdepthstencilvariable_getbackingstore.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: GetBackingStore, GetBackingStore method [Direct3D 10], GetBackingStore method [Direct3D 10],ID3D10EffectDepthStencilVariable interface, ID3D10EffectDepthStencilVariable interface [Direct3D 10],GetBackingStore method, ID3D10EffectDepthStencilVariable.GetBackingStore, ID3D10EffectDepthStencilVariable::GetBackingStore, d3d10effect/ID3D10EffectDepthStencilVariable::GetBackingStore, direct3d10.id3d10effectdepthstencilvariable_getbackingstore, f9003aa5-ba35-95d6-f8c4-b56aa73c1f4e
 ms.prod: windows-hardware
 ms.technology: windows-devices

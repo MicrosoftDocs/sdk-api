@@ -7,7 +7,7 @@ old-location: controls\HyphenateProc.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditcallbackfunctions\hyphenateproc.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: HyphenateProc, HyphenateProc callback, HyphenateProc callback function [Windows Controls], _win32_HyphenateProc, _win32_HyphenateProc_cpp, controls.HyphenateProc, controls._win32_HyphenateProc, richedit/HyphenateProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # HyphenateProc function

@@ -7,7 +7,7 @@ old-location: base\ivdsluncontrollerports_queryactivecontrollerports.htm
 old-project: VDS
 ms.assetid: 0a6f34c6-f333-4abf-ad37-b7756b125045
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsLunControllerPorts interface,QueryActiveControllerPorts method, IVdsLunControllerPorts.QueryActiveControllerPorts, IVdsLunControllerPorts::QueryActiveControllerPorts, QueryActiveControllerPorts, QueryActiveControllerPorts method, QueryActiveControllerPorts method,IVdsLunControllerPorts interface, base.ivdsluncontrollerports_queryactivecontrollerports, vds/IVdsLunControllerPorts::QueryActiveControllerPorts
 ms.prod: windows-hardware
 ms.technology: windows-devices

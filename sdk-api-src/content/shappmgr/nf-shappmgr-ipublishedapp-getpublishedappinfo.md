@@ -7,7 +7,7 @@ old-location: shell\IPublishedApp_GetPublishedAppInfo.htm
 old-project: shell
 ms.assetid: 4ffcc30a-cf07-45e7-b9a5-342fe2b553c8
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetPublishedAppInfo, GetPublishedAppInfo method [Windows Shell], GetPublishedAppInfo method [Windows Shell],IPublishedApp interface, IPublishedApp interface [Windows Shell],GetPublishedAppInfo method, IPublishedApp.GetPublishedAppInfo, IPublishedApp::GetPublishedAppInfo, inet_IPublishedApp_GetPublishedAppInfo, shappmgr/IPublishedApp::GetPublishedAppInfo, shell.IPublishedApp_GetPublishedAppInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPublishedApp::GetPublishedAppInfo

@@ -7,7 +7,7 @@ old-location: shell\IExplorerCommand_EnumSubCommands.htm
 old-project: shell
 ms.assetid: c907fb46-fb18-431c-861b-c2d2270a89b9
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: EnumSubCommands, EnumSubCommands method [Windows Shell], EnumSubCommands method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],EnumSubCommands method, IExplorerCommand.EnumSubCommands, IExplorerCommand::EnumSubCommands, _shell_IExplorerCommand_EnumSubCommands, shell.IExplorerCommand_EnumSubCommands, shobjidl_core/IExplorerCommand::EnumSubCommands
 ms.prod: windows-hardware
 ms.technology: windows-devices

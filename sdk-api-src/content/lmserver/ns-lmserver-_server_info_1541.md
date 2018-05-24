@@ -7,7 +7,7 @@ old-location: netmgmt\server_info_1541_str.htm
 old-project: NetMgmt
 ms.assetid: 22ae4f90-822b-4594-8484-893630f6b680
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPSERVER_INFO_1541, *PSERVER_INFO_1541, LPSERVER_INFO_1541, LPSERVER_INFO_1541 structure pointer [Network Management], PSERVER_INFO_1541, PSERVER_INFO_1541 structure pointer [Network Management], SERVER_INFO_1541, SERVER_INFO_1541 structure [Network Management], _SERVER_INFO_1541, _win32_server_info_1541_str, lmserver/LPSERVER_INFO_1541, lmserver/PSERVER_INFO_1541, lmserver/SERVER_INFO_1541, netmgmt.server_info_1541_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

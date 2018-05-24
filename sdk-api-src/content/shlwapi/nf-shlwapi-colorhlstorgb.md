@@ -7,7 +7,7 @@ old-location: shell\ColorHLSToRGB.htm
 old-project: shell
 ms.assetid: 1bf0b337-01de-4ce3-851f-d845866fb46f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ColorHLSToRGB, ColorHLSToRGB function [Windows Shell], _win32_ColorHLSToRGB, shell.ColorHLSToRGB, shlwapi/ColorHLSToRGB
 ms.prod: windows-hardware
 ms.technology: windows-devices

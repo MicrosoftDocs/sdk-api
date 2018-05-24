@@ -7,7 +7,7 @@ old-location: netmgmt\netlocalgroupgetmembers.htm
 old-project: NetMgmt
 ms.assetid: 35770b32-dae9-46f5-84e3-1c31ca22f708
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: 0, 1, 2, 3, NetLocalGroupGetMembers, NetLocalGroupGetMembers function [Network Management], _win32_netlocalgroupgetmembers, lmaccess/NetLocalGroupGetMembers, netmgmt.netlocalgroupgetmembers
 ms.prod: windows-hardware
 ms.technology: windows-devices

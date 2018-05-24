@@ -7,7 +7,7 @@ old-location: mf\imfremoteproxy.htm
 old-project: medfound
 ms.assetid: 46af5ba7-c362-4cfd-ae6d-b698c6403a65
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 46af5ba7-c362-4cfd-ae6d-b698c6403a65, IMFRemoteProxy, IMFRemoteProxy interface [Media Foundation], IMFRemoteProxy interface [Media Foundation],described, mf.imfremoteproxy, mfidl/IMFRemoteProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

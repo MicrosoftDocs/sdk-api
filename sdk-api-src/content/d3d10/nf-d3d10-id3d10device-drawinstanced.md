@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_drawinstanced.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_drawinstanced.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: 59daf614-be34-5946-a8e4-10a976e15345, DrawInstanced, DrawInstanced method [Direct3D 10], DrawInstanced method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],DrawInstanced method, ID3D10Device.DrawInstanced, ID3D10Device::DrawInstanced, d3d10/ID3D10Device::DrawInstanced, direct3d10.id3d10device_drawinstanced
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\rasikev2_projection_info.htm
 old-project: RRAS
 ms.assetid: c88346f0-118e-4468-83b1-2dfc263e22f7
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: "*PRASIKEV2_PROJECTION_INFO, IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, PRASIKEV2_PROJECTION_INFO, PRASIKEV2_PROJECTION_INFO structure pointer [RAS], RASIKEV2_PROJECTION_INFO, RASIKEV2_PROJECTION_INFO structure [RAS], RASIKEv2_AUTH_EAP, RASIKEv2_AUTH_MACHINECERTIFICATES, RASIKEv2_FLAGS_BEHIND_NAT, RASIKEv2_FLAGS_MOBIKESUPPORTED, RASIKEv2_FLAGS_SERVERBEHIND_NAT, _RASIKEV2_PROJECTION_INFO, ras/PRASIKEV2_PROJECTION_INFO, ras/RASIKEV2_PROJECTION_INFO, rras.rasikev2_projection_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RASIKEV2_PROJECTION_INFO structure

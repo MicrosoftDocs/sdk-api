@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolsettings.htm
 old-project: TermServ
 ms.assetid: 3680a001-e162-4930-985f-5c50c2e8a8b9
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: IWRdsProtocolSettings, IWRdsProtocolSettings interface [Remote Desktop Services], IWRdsProtocolSettings interface [Remote Desktop Services],described, termserv.iwrdsprotocolsettings, wtsprotocol/IWRdsProtocolSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices

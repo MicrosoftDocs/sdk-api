@@ -7,7 +7,7 @@ old-location: base\ivdscontroller_getproperties.htm
 old-project: VDS
 ms.assetid: 37230ac4-45f5-46ba-9a1c-072409e9362c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsController interface, IVdsController interface [VDS],GetProperties method, IVdsController.GetProperties, IVdsController::GetProperties, base.ivdscontroller_getproperties, vds/IVdsController::GetProperties, vdshwprv/IVdsController::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

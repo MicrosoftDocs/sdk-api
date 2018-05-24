@@ -7,7 +7,7 @@ old-location: imapi\fsiitemtype.htm
 old-project: imapi
 ms.assetid: b0ddf0fc-30db-464d-8761-da400386a609
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: FsiItemDirectory, FsiItemFile, FsiItemNotFound, FsiItemType, FsiItemType enumeration [IMAPI], imapi.fsiitemtype, imapi2fs/FsiItemDirectory, imapi2fs/FsiItemFile, imapi2fs/FsiItemNotFound, imapi2fs/FsiItemType
 ms.prod: windows-hardware
 ms.technology: windows-devices

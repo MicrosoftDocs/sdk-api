@@ -7,7 +7,7 @@ old-location: controls\DrawThemeParentBackgroundEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemeparentbackgroundex.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: DTPB_USECTLCOLORSTATIC, DTPB_USEERASEBKGND, DTPB_WINDOWDC, DrawThemeParentBackgroundEx, DrawThemeParentBackgroundEx function [Windows Controls], _shell_DrawThemeParentBackgroundEx, _shell_DrawThemeParentBackgroundEx_cpp, controls.DrawThemeParentBackgroundEx, controls._shell_DrawThemeParentBackgroundEx, uxtheme/DrawThemeParentBackgroundEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

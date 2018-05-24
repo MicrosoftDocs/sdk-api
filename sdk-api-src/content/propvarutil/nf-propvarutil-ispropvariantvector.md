@@ -7,7 +7,7 @@ old-location: properties\IsPropVariantVector.htm
 old-project: properties
 ms.assetid: c094c636-e51d-4a61-8d92-90abe2f0446e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: IsPropVariantVector, IsPropVariantVector function [Windows Properties], properties.IsPropVariantVector, propvarutil/IsPropVariantVector, shell.IsPropVariantVector, shell_IsPropVariantVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IsPropVariantVector function

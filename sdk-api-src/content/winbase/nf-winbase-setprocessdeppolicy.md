@@ -7,7 +7,7 @@ old-location: base\setprocessdeppolicy.htm
 old-project: Memory
 ms.assetid: 17c9f522-fd64-4061-9212-8fc91cc96b18
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION, PROCESS_DEP_ENABLE, SetProcessDEPPolicy, SetProcessDEPPolicy function, base.setprocessdeppolicy, winbase/SetProcessDEPPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

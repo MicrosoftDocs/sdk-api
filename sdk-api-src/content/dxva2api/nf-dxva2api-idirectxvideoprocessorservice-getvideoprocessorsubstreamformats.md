@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessorservice_getvideoprocessorsubstreamformats
 old-project: medfound
 ms.assetid: 10ad4d8d-9b5e-4f77-8244-c29a0e14a5b1
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 10ad4d8d-9b5e-4f77-8244-c29a0e14a5b1, GetVideoProcessorSubStreamFormats, GetVideoProcessorSubStreamFormats method [Media Foundation], GetVideoProcessorSubStreamFormats method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetVideoProcessorSubStreamFormats method, IDirectXVideoProcessorService.GetVideoProcessorSubStreamFormats, IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats, mf.idirectxvideoprocessorservice_getvideoprocessorsubstreamformats
 ms.prod: windows-hardware
 ms.technology: windows-devices

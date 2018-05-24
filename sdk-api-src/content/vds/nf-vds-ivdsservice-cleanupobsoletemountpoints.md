@@ -7,7 +7,7 @@ old-location: base\ivdsservice_cleanupobsoletemountpoints.htm
 old-project: VDS
 ms.assetid: 93ed7789-be60-422c-be4f-e70e16d26fce
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: CleanupObsoleteMountPoints, CleanupObsoleteMountPoints method [VDS], CleanupObsoleteMountPoints method [VDS],IVdsService interface, IVdsService interface [VDS],CleanupObsoleteMountPoints method, IVdsService.CleanupObsoleteMountPoints, IVdsService::CleanupObsoleteMountPoints, base.ivdsservice_cleanupobsoletemountpoints, vds/IVdsService::CleanupObsoleteMountPoints
 ms.prod: windows-hardware
 ms.technology: windows-devices

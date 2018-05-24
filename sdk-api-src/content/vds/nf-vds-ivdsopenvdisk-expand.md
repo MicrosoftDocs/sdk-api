@@ -7,7 +7,7 @@ old-location: base\ivdsopenvdisk_expand.htm
 old-project: VDS
 ms.assetid: 6ba166de-8045-4ccb-8771-fc4dd9438c1f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: Expand, Expand method, Expand method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,Expand method, IVdsOpenVDisk.Expand, IVdsOpenVDisk::Expand, base.ivdsopenvdisk_expand, vds/IVdsOpenVDisk::Expand
 ms.prod: windows-hardware
 ms.technology: windows-devices

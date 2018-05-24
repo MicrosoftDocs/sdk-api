@@ -7,7 +7,7 @@ old-location: base\ivdsserviceuninstalldisk_getdiskidfromluninfo.htm
 old-project: VDS
 ms.assetid: 0059bb30-2799-4a41-8a5c-bae3aa2bcfc4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetDiskIdFromLunInfo, GetDiskIdFromLunInfo method, GetDiskIdFromLunInfo method,IVdsServiceUninstallDisk interface, IVdsServiceUninstallDisk interface,GetDiskIdFromLunInfo method, IVdsServiceUninstallDisk.GetDiskIdFromLunInfo, IVdsServiceUninstallDisk::GetDiskIdFromLunInfo, base.ivdsserviceuninstalldisk_getdiskidfromluninfo, vds/IVdsServiceUninstallDisk::GetDiskIdFromLunInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

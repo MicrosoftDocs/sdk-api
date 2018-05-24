@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2eventargs_get_usedsystembuffer.htm
 old-project: imapi
 ms.assetid: 905c476f-33cd-4eda-a342-c7a20479d63c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_UsedSystemBuffer method, IWriteEngine2EventArgs.get_UsedSystemBuffer, IWriteEngine2EventArgs::get_UsedSystemBuffer, get_UsedSystemBuffer, get_UsedSystemBuffer method [IMAPI], get_UsedSystemBuffer method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_usedsystembuffer, imapi2/IWriteEngine2EventArgs::get_UsedSystemBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

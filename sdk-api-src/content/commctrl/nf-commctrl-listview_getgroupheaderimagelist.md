@@ -7,7 +7,7 @@ old-location: controls\ListView_GetGroupHeaderImageList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupheaderimagelist.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ListView_GetGroupHeaderImageList, ListView_GetGroupHeaderImageList macro [Windows Controls], _shell_ListView_GetGroupHeaderImageList, _shell_ListView_GetGroupHeaderImageList_cpp, commctrl/ListView_GetGroupHeaderImageList, controls.ListView_GetGroupHeaderImageList, controls._shell_ListView_GetGroupHeaderImageList
 ms.prod: windows-hardware
 ms.technology: windows-devices

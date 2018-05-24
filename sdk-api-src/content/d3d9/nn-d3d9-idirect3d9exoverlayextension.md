@@ -7,7 +7,7 @@ old-location: mf\idirect3d9exoverlayextension.htm
 old-project: medfound
 ms.assetid: 57591794-96d3-40e6-a4fb-3bb195fd1396
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IDirect3D9ExOverlayExtension, IDirect3D9ExOverlayExtension interface [Media Foundation], IDirect3D9ExOverlayExtension interface [Media Foundation],described, d3d9/IDirect3D9ExOverlayExtension, mf.idirect3d9exoverlayextension
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IInitializeWithWindow.htm
 old-project: shell
 ms.assetid: 8421BFA0-0655-447c-99BB-3D4F049C572D
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IInitializeWithWindow, IInitializeWithWindow interface [Windows Shell], IInitializeWithWindow interface [Windows Shell],described, shell.IInitializeWithWindow, shobjidl_core/IInitializeWithWindow
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\iinkdivisionunit.htm
 old-project: tablet
 ms.assetid: 5c5479e0-7568-40c8-bb75-e2ded3ac86b7
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 5c5479e0-7568-40c8-bb75-e2ded3ac86b7, IInkDivisionUnit, IInkDivisionUnit interface [Tablet PC], IInkDivisionUnit interface [Tablet PC],described, msinkaut15/IInkDivisionUnit, tablet.iinkdivisionunit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkDivisionUnit interface

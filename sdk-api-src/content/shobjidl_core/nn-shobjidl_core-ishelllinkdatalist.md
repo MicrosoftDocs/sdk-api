@@ -7,7 +7,7 @@ old-location: shell\IShellLinkDataList.htm
 old-project: shell
 ms.assetid: ac3279ad-1413-48bf-a830-4ec128352573
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IShellLinkDataList, IShellLinkDataList interface [Windows Shell], IShellLinkDataList interface [Windows Shell],described, _win32_IShellLinkDataList, shell.IShellLinkDataList, shobjidl_core/IShellLinkDataList
 ms.prod: windows-hardware
 ms.technology: windows-devices

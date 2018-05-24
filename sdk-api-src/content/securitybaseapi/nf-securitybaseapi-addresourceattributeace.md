@@ -7,7 +7,7 @@ old-location: security\addresourceattributeace.htm
 old-project: SecAuthZ
 ms.assetid: AA2064E4-6F76-4D7B-8540-D55A91168825
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AddResourceAttributeAce, AddResourceAttributeAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, security.addresourceattributeace, securitybaseapi/AddResourceAttributeAce
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # AddResourceAttributeAce function

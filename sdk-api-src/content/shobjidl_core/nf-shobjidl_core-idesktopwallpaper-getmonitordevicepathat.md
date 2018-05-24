@@ -7,7 +7,7 @@ old-location: shell\IDesktopWallpaper_GetMonitorDevicePathAt.htm
 old-project: shell
 ms.assetid: CE0C6B07-F9D1-4221-9D9D-8D17CF6780E6
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetMonitorDevicePathAt, GetMonitorDevicePathAt method [Windows Shell], GetMonitorDevicePathAt method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetMonitorDevicePathAt method, IDesktopWallpaper.GetMonitorDevicePathAt, IDesktopWallpaper::GetMonitorDevicePathAt, shell.IDesktopWallpaper_GetMonitorDevicePathAt, shobjidl_core/IDesktopWallpaper::GetMonitorDevicePathAt
 ms.prod: windows-hardware
 ms.technology: windows-devices

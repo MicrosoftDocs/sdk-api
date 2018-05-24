@@ -7,7 +7,7 @@ old-location: shell\IItemNameLimits.htm
 old-project: shell
 ms.assetid: 2850bdf1-12ea-42cd-a0fb-68491337ae69
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IItemNameLimits, IItemNameLimits interface [Windows Shell], IItemNameLimits interface [Windows Shell],described, _shell_IItemNameLimits, shell.IItemNameLimits, shobjidl_core/IItemNameLimits
 ms.prod: windows-hardware
 ms.technology: windows-devices

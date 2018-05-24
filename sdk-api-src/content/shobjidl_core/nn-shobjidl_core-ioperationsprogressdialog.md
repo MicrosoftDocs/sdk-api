@@ -7,7 +7,7 @@ old-location: shell\IOperationsProgressDialog.htm
 old-project: shell
 ms.assetid: 0d95f407-0e09-441d-b9e2-665995ea1362
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOperationsProgressDialog, IOperationsProgressDialog interface [Windows Shell], IOperationsProgressDialog interface [Windows Shell],described, _shell_IOperationsProgressDialog, shell.IOperationsProgressDialog, shobjidl_core/IOperationsProgressDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

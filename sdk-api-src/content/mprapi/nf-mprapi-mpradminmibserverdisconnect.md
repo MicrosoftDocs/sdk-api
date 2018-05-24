@@ -7,7 +7,7 @@ old-location: rras\mpradminmibserverdisconnect.htm
 old-project: RRAS
 ms.assetid: 63ea910a-b9d7-43a3-97ae-2f9c26b52059
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: MprAdminMIBServerDisconnect, MprAdminMIBServerDisconnect function [RAS], _mpr_mpradminmibserverdisconnect, mprapi/MprAdminMIBServerDisconnect, rras.mpradminmibserverdisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\GetBufferedPaintBits.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getbufferedpaintbits.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetBufferedPaintBits, GetBufferedPaintBits function [Windows Controls], _shell_GetBufferedPaintBits, _shell_GetBufferedPaintBits_cpp, controls.GetBufferedPaintBits, controls._shell_GetBufferedPaintBits, uxtheme/GetBufferedPaintBits
 ms.prod: windows-hardware
 ms.technology: windows-devices

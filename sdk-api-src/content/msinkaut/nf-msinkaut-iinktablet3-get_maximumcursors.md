@@ -7,7 +7,7 @@ old-location: tablet\iinktablet3_maximumcursors.htm
 old-project: tablet
 ms.assetid: 03587956-82d4-41fb-99d1-ecbe9677cca6
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IInkTablet3 interface [Tablet PC],MaximumCursors property, IInkTablet3.MaximumCursors, IInkTablet3.get_MaximumCursors, IInkTablet3::MaximumCursors, IInkTablet3::get_MaximumCursors, MaximumCursors property [Tablet PC], MaximumCursors property [Tablet PC],IInkTablet3 interface, get_MaximumCursors, msinkaut/IInkTablet3::MaximumCursors, msinkaut/IInkTablet3::get_MaximumCursors, tablet.iinktablet3_maximumcursors
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkTablet3::get_MaximumCursors

@@ -7,7 +7,7 @@ old-location: base\ivdsadvanceddisk_assigndriveletter.htm
 old-project: VDS
 ms.assetid: 92a79b87-7385-40d9-aa20-e4724b241e59
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: AssignDriveLetter, AssignDriveLetter method [VDS], AssignDriveLetter method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],AssignDriveLetter method, IVdsAdvancedDisk.AssignDriveLetter, IVdsAdvancedDisk::AssignDriveLetter, base.ivdsadvanceddisk_assigndriveletter, vds/IVdsAdvancedDisk::AssignDriveLetter
 ms.prod: windows-hardware
 ms.technology: windows-devices

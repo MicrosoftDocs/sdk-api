@@ -7,7 +7,7 @@ old-location: tablet\idynamicrenderer_clipregion.htm
 old-project: tablet
 ms.assetid: cf11d03d-8f60-44aa-a296-cc44ddc3930a
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: ClipRegion property [Tablet PC], ClipRegion property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],ClipRegion property, IDynamicRenderer.ClipRegion, IDynamicRenderer.get_ClipRegion, IDynamicRenderer.put_ClipRegion, IDynamicRenderer::ClipRegion, IDynamicRenderer::get_ClipRegion, IDynamicRenderer::put_ClipRegion, cf11d03d-8f60-44aa-a296-cc44ddc3930a, get_ClipRegion, rtscom/IDynamicRenderer::ClipRegion, rtscom/IDynamicRenderer::get_ClipRegion, rtscom/IDynamicRenderer::put_ClipRegion, tablet.idynamicrenderer_clipregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDynamicRenderer::get_ClipRegion

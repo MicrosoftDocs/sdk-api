@@ -7,7 +7,7 @@ old-location: base\vds_drive_letter_flag.htm
 old-project: VDS
 ms.assetid: f6eebe08-ebc9-45d3-a752-9cdc13f9bcf1
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_DLF_NON_PERSISTENT, VDS_DRIVE_LETTER_FLAG, VDS_DRIVE_LETTER_FLAG enumeration [VDS], _VDS_DRIVE_LETTER_FLAG, base.vds_drive_letter_flag, vds/VDS_DLF_NON_PERSISTENT, vds/VDS_DRIVE_LETTER_FLAG
 ms.prod: windows-hardware
 ms.technology: windows-devices

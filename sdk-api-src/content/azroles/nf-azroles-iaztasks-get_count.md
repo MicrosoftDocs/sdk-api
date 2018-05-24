@@ -7,7 +7,7 @@ old-location: security\iaztasks_count.htm
 old-project: SecAuthZ
 ms.assetid: 505768ce-27a3-4f36-aeea-081cf8e45d14
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AzTasks object [Security],Count property, Count property [Security], Count property [Security],AzTasks object, Count property [Security],IAzTasks interface, IAzTasks interface [Security],Count property, IAzTasks.Count, IAzTasks.get_Count, IAzTasks::Count, IAzTasks::get_Count, azroles/IAzTasks::Count, azroles/IAzTasks::get_Count, get_Count, security.iaztasks_count
 ms.prod: windows-hardware
 ms.technology: windows-devices

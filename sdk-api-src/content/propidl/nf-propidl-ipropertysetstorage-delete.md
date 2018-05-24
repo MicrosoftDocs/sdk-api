@@ -7,7 +7,7 @@ old-location: stg\ipropertysetstorage_delete.htm
 old-project: Stg
 ms.assetid: 5c65942f-b73b-48e5-a59e-4424708a084a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: Delete, Delete method [Structured Storage], Delete method [Structured Storage],IPropertySetStorage interface, IPropertySetStorage interface [Structured Storage],Delete method, IPropertySetStorage.Delete, IPropertySetStorage::Delete, _stg_ipropertysetstorage_delete, propidl/IPropertySetStorage::Delete, stg.ipropertysetstorage_delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertySetStorage::Delete

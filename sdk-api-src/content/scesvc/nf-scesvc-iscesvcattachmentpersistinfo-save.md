@@ -7,7 +7,7 @@ old-location: security\iscesvcattachmentpersistinfo_save.htm
 old-project: SecMgmt
 ms.assetid: bdec64b8-2a92-4165-95ff-0de981f2d878
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: ISceSvcAttachmentPersistInfo interface [Security],Save method, ISceSvcAttachmentPersistInfo.Save, ISceSvcAttachmentPersistInfo::Save, Save, Save method [Security], Save method [Security],ISceSvcAttachmentPersistInfo interface, _config_iscesvcattachmentpersistinfo_save, scesvc/ISceSvcAttachmentPersistInfo::Save, security.iscesvcattachmentpersistinfo_save
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Wsecedit.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISceSvcAttachmentPersistInfo::Save

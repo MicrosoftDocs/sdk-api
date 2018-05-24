@@ -7,7 +7,7 @@ old-location: security\lsasettrusteddomaininformation.htm
 old-project: SecMgmt
 ms.assetid: a7b89ea7-af92-46ba-ac73-2fba1cc27680
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: LsaSetTrustedDomainInformation, LsaSetTrustedDomainInformation function [Security], TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_lsasettrusteddomaininformation, ntsecapi/LsaSetTrustedDomainInformation, security.lsasettrusteddomaininformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LsaSetTrustedDomainInformation function

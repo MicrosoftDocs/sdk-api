@@ -7,7 +7,7 @@ old-location: base\vds_partition_prop.htm
 old-project: VDS
 ms.assetid: f1b465ad-f03b-4ce8-ae83-f8e93b7fa4c4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_PARTITION_PROP, VDS_PARTITION_PROP structure [VDS], _VDS_PARTITION_PROP, base.vds_partition_prop, vds/_VDS_PARTITION_PROP
 ms.prod: windows-hardware
 ms.technology: windows-devices

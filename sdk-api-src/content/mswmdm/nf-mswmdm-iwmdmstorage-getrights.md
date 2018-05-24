@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage_getrights.htm
 old-project: WMDM
 ms.assetid: 5b654d32-b72a-44cf-a8d9-63fc0ae76171
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetRights, GetRights method [windows Media Device Manager], GetRights method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetRights method, IWMDMStorage.GetRights, IWMDMStorage::GetRights, IWMDMStorageGetRights, mswmdm/IWMDMStorage::GetRights, wmdm.iwmdmstorage_getrights
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMStorage::GetRights

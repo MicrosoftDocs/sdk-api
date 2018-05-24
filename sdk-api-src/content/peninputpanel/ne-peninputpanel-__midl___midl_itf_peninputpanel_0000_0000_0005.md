@@ -7,7 +7,7 @@ old-location: tablet\correctionposition.htm
 old-project: tablet
 ms.assetid: 0750128e-f3f0-444a-abe0-2dc360a3685b
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 0750128e-f3f0-444a-abe0-2dc360a3685b, CorrectionPosition, CorrectionPosition enumeration [Tablet PC], CorrectionPosition_Auto, CorrectionPosition_Bottom, CorrectionPosition_Top, __MIDL___MIDL_itf_peninputpanel_0000_0000_0005, peninputpanel/CorrectionPosition, peninputpanel/CorrectionPosition_Auto, peninputpanel/CorrectionPosition_Bottom, peninputpanel/CorrectionPosition_Top, tablet.correctionposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_peninputpanel_0000_0000_0005 enumeration

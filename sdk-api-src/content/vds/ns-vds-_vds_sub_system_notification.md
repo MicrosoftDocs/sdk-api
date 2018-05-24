@@ -7,7 +7,7 @@ old-location: base\vds_sub_system_notification.htm
 old-project: VDS
 ms.assetid: 368e5b3d-11ba-400e-8dd0-929d45199dd9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_NF_SUB_SYSTEM_ARRIVE, VDS_NF_SUB_SYSTEM_DEPART, VDS_NF_SUB_SYSTEM_MODIFY, VDS_SUB_SYSTEM_NOTIFICATION, VDS_SUB_SYSTEM_NOTIFICATION structure [VDS], _VDS_SUB_SYSTEM_NOTIFICATION, base.vds_sub_system_notification, vds/_VDS_SUB_SYSTEM_NOTIFICATION, vdshwprv/_VDS_SUB_SYSTEM_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

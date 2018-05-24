@@ -7,7 +7,7 @@ old-location: controls\itextpara2_sethangingpunctuation.htm
 old-project: Controls
 ms.assetid: 8c70f76f-7a4a-49b3-bc16-8e90ad7ee041
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetHangingPunctuation method, ITextPara2.SetHangingPunctuation, ITextPara2::SetHangingPunctuation, SetHangingPunctuation, SetHangingPunctuation method [Windows Controls], SetHangingPunctuation method [Windows Controls],ITextPara2 interface, controls.itextpara2_sethangingpunctuation, tom/ITextPara2::SetHangingPunctuation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ShortToUIntPtr.htm
 old-project: shell
 ms.assetid: 6b5d0c0c-a2c3-4d63-ab6c-d93372a7413e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ShortToUIntPtr, ShortToUIntPtr function [Windows Shell], intsafe/ShortToUIntPtr, shell.ShortToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

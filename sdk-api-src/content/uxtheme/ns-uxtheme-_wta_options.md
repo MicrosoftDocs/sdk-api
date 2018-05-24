@@ -7,7 +7,7 @@ old-location: controls\WTA_OPTIONS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\wta_options.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: "*PWTA_OPTIONS, PWTA_OPTIONS, PWTA_OPTIONS structure pointer [Windows Controls], WTA_OPTIONS, WTA_OPTIONS structure [Windows Controls], _WTA_OPTIONS, controls.WTA_OPTIONS, controls.inet_WTA_OPTIONS, inet_WTA_OPTIONS, inet_WTA_OPTIONS_cpp, uxtheme/PWTA_OPTIONS, uxtheme/WTA_OPTIONS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

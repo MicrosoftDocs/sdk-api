@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolshadowconnection_start.htm
 old-project: TermServ
 ms.assetid: 1f7b5811-6aba-41f2-9fa4-2bbc4c6e005c
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: IWRdsProtocolShadowConnection interface [Remote Desktop Services],Start method, IWRdsProtocolShadowConnection.Start, IWRdsProtocolShadowConnection::Start, Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services],IWRdsProtocolShadowConnection interface, termserv.iwrdsprotocolshadowconnection_start, wtsprotocol/IWRdsProtocolShadowConnection::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices

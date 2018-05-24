@@ -7,7 +7,7 @@ old-location: security\checktokenmembershipex.htm
 old-project: SecAuthZ
 ms.assetid: 0420FC77-8035-42A5-8907-83D0CE53FB64
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: CheckTokenMembershipEx, CheckTokenMembershipEx function [Security], security.checktokenmembershipex, securitybaseapi/CheckTokenMembershipEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: 
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CheckTokenMembershipEx function

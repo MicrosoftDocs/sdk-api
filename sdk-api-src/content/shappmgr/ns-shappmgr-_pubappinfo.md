@@ -7,7 +7,7 @@ old-location: shell\PUBAPPINFO.htm
 old-project: shell
 ms.assetid: 927c58d3-4208-4fd3-a3fa-18ae7d8d3136
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*PPUBAPPINFO, PUBAPPINFO, PUBAPPINFO structure [Windows Shell], _PubAppInfo, inet_PUBAPPINFO, shappmgr/PUBAPPINFO, shell.PUBAPPINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PubAppInfo structure

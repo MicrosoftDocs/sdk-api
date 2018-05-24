@@ -7,7 +7,7 @@ old-location: security\auditsetsecurity.htm
 old-project: SecAuthZ
 ms.assetid: 2f4d6198-775a-40e4-9158-a69e71bfe050
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AuditSetSecurity, AuditSetSecurity function [Security], ntsecapi/AuditSetSecurity, security.auditsetsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # AuditSetSecurity function

@@ -7,7 +7,7 @@ old-location: security\cmsg_signer_encode_info.htm
 old-project: SecCrypto
 ms.assetid: f599226d-ddd7-455f-b650-74b91674d8f9
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: "*PCMSG_SIGNER_ENCODE_INFO, AT_KEYEXCHANGE, AT_SIGNATURE, CMSG_SIGNER_ENCODE_INFO, CMSG_SIGNER_ENCODE_INFO structure [Security], PCMSG_SIGNER_ENCODE_INFO, PCMSG_SIGNER_ENCODE_INFO structure pointer [Security], _CMSG_SIGNER_ENCODE_INFO, _crypto2_cmsg_signer_encode_info, security.cmsg_signer_encode_info, wincrypt/CMSG_SIGNER_ENCODE_INFO, wincrypt/PCMSG_SIGNER_ENCODE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

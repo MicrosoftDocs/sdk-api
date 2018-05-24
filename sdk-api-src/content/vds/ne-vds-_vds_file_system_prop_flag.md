@@ -7,7 +7,7 @@ old-location: base\vds_file_system_prop_flag.htm
 old-project: VDS
 ms.assetid: f2776ee9-4809-4f99-b464-80b5b53f8675
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_FILE_SYSTEM_PROP_FLAG, VDS_FILE_SYSTEM_PROP_FLAG enumeration [VDS], VDS_FPF_COMPRESSED, _VDS_FILE_SYSTEM_PROP_FLAG, base.vds_file_system_prop_flag, vds/VDS_FILE_SYSTEM_PROP_FLAG, vds/VDS_FPF_COMPRESSED
 ms.prod: windows-hardware
 ms.technology: windows-devices

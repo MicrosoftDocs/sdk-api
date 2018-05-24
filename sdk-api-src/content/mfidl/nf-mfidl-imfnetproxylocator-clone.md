@@ -7,7 +7,7 @@ old-location: mf\imfnetproxylocator_clone.htm
 old-project: medfound
 ms.assetid: 551372b3-b9aa-4057-8c14-19e582053e00
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 551372b3-b9aa-4057-8c14-19e582053e00, Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFNetProxyLocator interface, IMFNetProxyLocator interface [Media Foundation],Clone method, IMFNetProxyLocator.Clone, IMFNetProxyLocator::Clone, mf.imfnetproxylocator_clone, mfidl/IMFNetProxyLocator::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

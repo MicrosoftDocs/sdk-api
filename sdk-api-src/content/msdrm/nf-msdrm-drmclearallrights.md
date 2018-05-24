@@ -7,7 +7,7 @@ old-location: rm\drmclearallrights.htm
 old-project: AdRms_Sdk
 ms.assetid: f0a5dc8d-2bc6-4fcc-8871-ea80fc6a4abc
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMClearAllRights, DRMClearAllRights function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMClearAllRights, rm.drmclearallrights
 ms.prod: windows-hardware
 ms.technology: windows-devices

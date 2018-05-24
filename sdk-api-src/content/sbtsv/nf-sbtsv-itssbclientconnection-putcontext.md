@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_putcontext.htm
 old-project: TermServ
 ms.assetid: 654714ef-cc86-41e8-8759-bbb66bd61cd2
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],PutContext method, ITsSbClientConnection.PutContext, ITsSbClientConnection::PutContext, PutContext, PutContext method [Remote Desktop Services], PutContext method [Remote Desktop Services],ITsSbClientConnection interface, sbtsv/ITsSbClientConnection::PutContext, termserv.itssbclientconnection_putcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbClientConnection::PutContext

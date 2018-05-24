@@ -7,7 +7,7 @@ old-location: security\icertencodestringarray.htm
 old-project: SecCrypto
 ms.assetid: 5515c25e-f788-4222-8f66-f5d86bd2a3a3
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: ICertEncodeStringArray, ICertEncodeStringArray interface [Security], ICertEncodeStringArray interface [Security],described, _certsrv_icertencodestringarray, certenc/ICertEncodeStringArray, security.icertencodestringarray
 ms.prod: windows-hardware
 ms.technology: windows-devices

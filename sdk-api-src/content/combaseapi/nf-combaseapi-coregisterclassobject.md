@@ -7,7 +7,7 @@ old-location: com\coregisterclassobject.htm
 old-project: com
 ms.assetid: d27bfa6c-194a-41f1-8fcf-76c4dff14a8a
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CoRegisterClassObject, CoRegisterClassObject function [COM], _com_CoRegisterClassObject, com.coregisterclassobject, combaseapi/CoRegisterClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

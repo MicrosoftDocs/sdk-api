@@ -7,7 +7,7 @@ old-location: base\ivdshwprovidertype_getprovidertype.htm
 old-project: VDS
 ms.assetid: e88fd2df-531d-46d8-a91b-9b9f8578e57b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetProviderType, GetProviderType method [VDS], GetProviderType method [VDS],IVdsHwProviderType interface, IVdsHwProviderType interface [VDS],GetProviderType method, IVdsHwProviderType.GetProviderType, IVdsHwProviderType::GetProviderType, base.ivdshwprovidertype_getprovidertype, vds/IVdsHwProviderType::GetProviderType, vdshwprv/IVdsHwProviderType::GetProviderType
 ms.prod: windows-hardware
 ms.technology: windows-devices

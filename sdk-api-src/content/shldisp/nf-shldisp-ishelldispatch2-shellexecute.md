@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_ShellExecute.htm
 old-project: shell
 ms.assetid: a55e804c-ed7c-4b22-b86f-8e5653976654
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],ShellExecute method, IShellDispatch2.ShellExecute, IShellDispatch2::ShellExecute, ShellExecute, ShellExecute method [Windows Shell], ShellExecute method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_ShellExecute, shell.IShellDispatch2_ShellExecute
 ms.prod: windows-hardware
 ms.technology: windows-devices

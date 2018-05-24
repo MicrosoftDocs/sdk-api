@@ -7,7 +7,7 @@ old-location: com\idropsourcenotify.htm
 old-project: com
 ms.assetid: 62ef4fe6-3871-41ef-9542-6fe9f3bed21c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IDropSourceNotify, IDropSourceNotify interface [COM], IDropSourceNotify interface [COM],described, _ole_idropsourcenotify, com.idropsourcenotify, oleidl/IDropSourceNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Adhocreportingexcelclient.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDropSourceNotify interface

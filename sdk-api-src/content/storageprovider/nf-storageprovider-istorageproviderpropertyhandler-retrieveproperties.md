@@ -7,7 +7,7 @@ old-location: shell\istorageproviderpropertyhandler_retrieveproperties.htm
 old-project: shell
 ms.assetid: C1E21E6E-A651-4AB3-A4C1-ADDF874DCCC7
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IStorageProviderPropertyHandler interface [Windows Shell],RetrieveProperties method, IStorageProviderPropertyHandler.RetrieveProperties, IStorageProviderPropertyHandler::RetrieveProperties, RetrieveProperties, RetrieveProperties method [Windows Shell], RetrieveProperties method [Windows Shell],IStorageProviderPropertyHandler interface, shell.istorageproviderpropertyhandler_retrieveproperties, storageprovider/IStorageProviderPropertyHandler::RetrieveProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

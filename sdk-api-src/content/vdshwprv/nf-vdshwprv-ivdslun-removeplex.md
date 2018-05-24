@@ -7,7 +7,7 @@ old-location: base\ivdslun_removeplex.htm
 old-project: VDS
 ms.assetid: 9959c2a3-f282-4512-9d3f-da8842d5ee79
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsLun interface [VDS],RemovePlex method, IVdsLun.RemovePlex, IVdsLun::RemovePlex, RemovePlex, RemovePlex method [VDS], RemovePlex method [VDS],IVdsLun interface, base.ivdslun_removeplex, vds/IVdsLun::RemovePlex, vdshwprv/IVdsLun::RemovePlex
 ms.prod: windows-hardware
 ms.technology: windows-devices

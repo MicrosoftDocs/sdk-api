@@ -7,7 +7,7 @@ old-location: properties\IPropertyEnumType2.htm
 old-project: properties
 ms.assetid: 272d3ab3-f66b-4ff1-85b2-7a1e167299e5
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: IPropertyEnumType2, IPropertyEnumType2 interface [Windows Properties], IPropertyEnumType2 interface [Windows Properties],described, _shell_IPropertyEnumType2, properties.IPropertyEnumType2, propsys/IPropertyEnumType2, shell.IPropertyEnumType2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0.6001 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyEnumType2 interface

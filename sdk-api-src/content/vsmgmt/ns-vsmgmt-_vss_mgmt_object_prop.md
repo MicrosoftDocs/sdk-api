@@ -7,7 +7,7 @@ old-location: base\vss_mgmt_object_prop.htm
 old-project: VSS
 ms.assetid: 86681207-969e-4b33-aff8-79454ab04829
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: "*PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP, PVSS_MGMT_OBJECT_PROP structure pointer [VSS], VSS_MGMT_OBJECT_PROP, VSS_MGMT_OBJECT_PROP structure [VSS], _VSS_MGMT_OBJECT_PROP, base.vss_mgmt_object_prop, vsmgmt/PVSS_MGMT_OBJECT_PROP, vsmgmt/VSS_MGMT_OBJECT_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

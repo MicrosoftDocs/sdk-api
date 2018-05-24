@@ -7,7 +7,7 @@ old-location: security\iazrole_appmembers.htm
 old-project: SecAuthZ
 ms.assetid: c41933d4-d3fe-485c-9249-e82d51c0bfc9
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AppMembers property [Security], AppMembers property [Security],AzRole object, AppMembers property [Security],IAzRole interface, AzRole object [Security],AppMembers property, IAzRole interface [Security],AppMembers property, IAzRole.AppMembers, IAzRole.get_AppMembers, IAzRole::AppMembers, IAzRole::get_AppMembers, azroles/IAzRole::AppMembers, azroles/IAzRole::get_AppMembers, get_AppMembers, security.iazrole_appmembers
 ms.prod: windows-hardware
 ms.technology: windows-devices

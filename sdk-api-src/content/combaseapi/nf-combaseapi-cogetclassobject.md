@@ -7,7 +7,7 @@ old-location: com\cogetclassobject.htm
 old-project: com
 ms.assetid: 65e758ce-50a4-49e8-b3b2-0cd148d2781a
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CoGetClassObject, CoGetClassObject function [COM], _com_CoGetClassObject, com.cogetclassobject, combaseapi/CoGetClassObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\isynchronizecontainer.htm
 old-project: com
 ms.assetid: 6a5be504-b5fa-491c-ba65-74c5de39e263
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ISynchronizeContainer, ISynchronizeContainer interface [COM], ISynchronizeContainer interface [COM],described, _com_isynchronizecontainer, com.isynchronizecontainer, objidlbase/ISynchronizeContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISynchronizeContainer interface

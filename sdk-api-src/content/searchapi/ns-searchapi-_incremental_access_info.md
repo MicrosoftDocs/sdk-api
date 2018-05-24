@@ -7,7 +7,7 @@ old-location: search\_search_INCREMENTAL_ACCESS_INFO.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\incremental_access_info.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: INCREMENTAL_ACCESS_INFO, INCREMENTAL_ACCESS_INFO structure [search], _INCREMENTAL_ACCESS_INFO, _search_INCREMENTAL_ACCESS_INFO, search._search_INCREMENTAL_ACCESS_INFO, searchapi/INCREMENTAL_ACCESS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _INCREMENTAL_ACCESS_INFO structure

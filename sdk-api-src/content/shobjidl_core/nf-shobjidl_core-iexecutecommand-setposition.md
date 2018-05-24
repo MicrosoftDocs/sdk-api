@@ -7,7 +7,7 @@ old-location: shell\IExecuteCommand_SetPosition.htm
 old-project: shell
 ms.assetid: ead12c05-ce94-494d-9f31-9b0f341363b5
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetPosition method, IExecuteCommand.SetPosition, IExecuteCommand::SetPosition, SetPosition, SetPosition method [Windows Shell], SetPosition method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetPosition, shell.IExecuteCommand_SetPosition, shobjidl_core/IExecuteCommand::SetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices

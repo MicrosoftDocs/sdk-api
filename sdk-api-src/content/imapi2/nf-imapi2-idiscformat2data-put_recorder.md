@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_put_recorder.htm
 old-project: imapi
 ms.assetid: d8d1f6ec-09cb-4144-b44c-970555451aee
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_Recorder method, IDiscFormat2Data.put_Recorder, IDiscFormat2Data::put_Recorder, imapi.idiscformat2data_put_recorder, imapi2/IDiscFormat2Data::put_Recorder, put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI],IDiscFormat2Data interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

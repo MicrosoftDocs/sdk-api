@@ -7,7 +7,7 @@ old-location: shell\ULongSub.htm
 old-project: shell
 ms.assetid: 5d2335a4-2b2e-4820-ae82-ba94d6e4cc9a
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: DWordSub, ULongSub, ULongSub function [Windows Shell], _shell_ULongSub, intsafe/ULongSub, shell.ULongSub
 ms.prod: windows-hardware
 ms.technology: windows-devices

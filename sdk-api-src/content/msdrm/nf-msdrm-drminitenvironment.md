@@ -7,7 +7,7 @@ old-location: rm\drminitenvironment.htm
 old-project: AdRms_Sdk
 ms.assetid: b46277f4-e854-4590-847a-cf4f878bee70
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMInitEnvironment, DRMInitEnvironment function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMInitEnvironment, rm.drminitenvironment
 ms.prod: windows-hardware
 ms.technology: windows-devices

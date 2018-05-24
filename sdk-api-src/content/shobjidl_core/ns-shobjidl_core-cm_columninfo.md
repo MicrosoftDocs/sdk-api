@@ -7,7 +7,7 @@ old-location: shell\CM_COLUMNINFO.htm
 old-project: shell
 ms.assetid: b4437aa7-9682-4819-a353-936179e84005
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CM_COLUMNINFO, CM_COLUMNINFO structure [Windows Shell], shell.CM_COLUMNINFO, shell_CM_COLUMNINFO, shobjidl_core/CM_COLUMNINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

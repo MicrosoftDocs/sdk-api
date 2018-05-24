@@ -7,7 +7,7 @@ old-location: tablet\inkoverlayerasermode.htm
 old-project: tablet
 ms.assetid: e7400a40-9b82-4750-8e92-a39c6f25b7cd
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IOERM_PointErase, IOERM_StrokeErase, InkOverlayEraserMode, InkOverlayEraserMode enumeration [Tablet PC], e7400a40-9b82-4750-8e92-a39c6f25b7cd, msinkaut/IOERM_PointErase, msinkaut/IOERM_StrokeErase, msinkaut/InkOverlayEraserMode, tablet.inkoverlayerasermode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkOverlayEraserMode enumeration

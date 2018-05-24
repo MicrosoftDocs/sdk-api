@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: ResUtils.lib; ResApi.lib on Windows Server 2008 R2 and Windows Server 2008
 req.dll: ResUtils.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ResUtilGetClusterRoleState function

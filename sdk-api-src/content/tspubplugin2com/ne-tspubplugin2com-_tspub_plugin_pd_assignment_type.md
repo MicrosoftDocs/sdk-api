@@ -7,7 +7,7 @@ old-location: termserv\tspub_plugin_pd_assignment_type.htm
 old-project: TermServ
 ms.assetid: 8a55d72c-215e-4f72-90dd-0f68c107a635
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: TSPUB_PLUGIN_PD_ASSIGNMENT_EXISTING, TSPUB_PLUGIN_PD_ASSIGNMENT_NEW, TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE, TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE enumeration [Remote Desktop Services], _TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE, termserv.tspub_plugin_pd_assignment_type, tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_EXISTING, tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_NEW, tspubplugin2com/TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices

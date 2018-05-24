@@ -7,7 +7,7 @@ old-location: base\ivsswmcomponent_getfile.htm
 old-project: VSS
 ms.assetid: 55956a05-59b8-4197-8496-03903b6e0faa
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetFile, GetFile method [VSS], GetFile method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetFile method, IVssWMComponent.GetFile, IVssWMComponent::GetFile, _win32_ivsswmcomponent_getfile, base.ivsswmcomponent_getfile, vsbackup/IVssWMComponent::GetFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\IRichEditOleCallback_DeleteObject.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackdeleteobject.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: DeleteObject, DeleteObject method [Windows Controls], DeleteObject method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],DeleteObject method, IRichEditOleCallback.DeleteObject, IRichEditOleCallback::DeleteObject, _win32_IRichEditOleCallback_DeleteObject, _win32_IRichEditOleCallback_DeleteObject_cpp, controls.IRichEditOleCallback_DeleteObject, controls._win32_IRichEditOleCallback_DeleteObject, richole/IRichEditOleCallback::DeleteObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRichEditOleCallback::DeleteObject

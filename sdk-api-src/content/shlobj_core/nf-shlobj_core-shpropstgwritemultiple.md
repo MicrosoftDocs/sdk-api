@@ -7,7 +7,7 @@ old-location: properties\SHPropStgWriteMultiple.htm
 old-project: properties
 ms.assetid: 38bc4d53-818d-48c5-9ec5-d2e33d98c63e
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: SHPropStgWriteMultiple, SHPropStgWriteMultiple function [Windows Properties], _win32_SHPropStgWriteMultiple, properties.SHPropStgWriteMultiple, shell.SHPropStgWriteMultiple, shlobj_core/SHPropStgWriteMultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices

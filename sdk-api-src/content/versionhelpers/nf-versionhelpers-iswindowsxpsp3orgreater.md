@@ -7,7 +7,7 @@ old-location: base\iswindowsxpsp3orgreater.htm
 old-project: SysInfo
 ms.assetid: 06DC8FF0-8652-4652-855F-600AC53C6301
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: IsWindowsXPSP3OrGreater, IsWindowsXPSP3OrGreater function, base.iswindowsxpsp3orgreater, versionhelpers/IsWindowsXPSP3OrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices

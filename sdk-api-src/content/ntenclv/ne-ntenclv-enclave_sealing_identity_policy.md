@@ -7,7 +7,7 @@ old-location: base\enclave_sealing_identity_policy.htm
 old-project: Memory
 ms.assetid: 986C122D-4CC9-487F-8B9F-6B3F9B727E4A
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ENCLAVE_IDENTITY_POLICY_SEAL_EXACT_CODE, ENCLAVE_IDENTITY_POLICY_SEAL_INVALID, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_AUTHOR, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_FAMILY, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_IMAGE, ENCLAVE_IDENTITY_POLICY_SEAL_SAME_PRIMARY_CODE, ENCLAVE_SEALING_IDENTITY_POLICY, ENCLAVE_SEALING_IDENTITY_POLICY enumeration, base.enclave_sealing_identity_policy, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_EXACT_CODE, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_INVALID, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_AUTHOR, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_FAMILY, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_IMAGE, ntenclv/ENCLAVE_IDENTITY_POLICY_SEAL_SAME_PRIMARY_CODE, ntenclv/ENCLAVE_SEALING_IDENTITY_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ENCLAVE_SEALING_IDENTITY_POLICY enumeration

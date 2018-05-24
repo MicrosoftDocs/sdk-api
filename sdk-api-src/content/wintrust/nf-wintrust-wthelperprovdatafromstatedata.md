@@ -7,7 +7,7 @@ old-location: security\wthelperprovdatafromstatedata.htm
 old-project: SecCrypto
 ms.assetid: ca2ca612-2da6-4fe1-8b1e-bc6307eb92af
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: WTHelperProvDataFromStateData, WTHelperProvDataFromStateData function [Security], security.wthelperprovdatafromstatedata, wintrust/WTHelperProvDataFromStateData
 ms.prod: windows-hardware
 ms.technology: windows-devices

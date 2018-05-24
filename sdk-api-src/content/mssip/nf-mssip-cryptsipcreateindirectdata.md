@@ -7,7 +7,7 @@ old-location: security\cryptsipcreateindirectdata.htm
 old-project: SecCrypto
 ms.assetid: bb4ecc95-972f-415c-9722-59b00a27cddc
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CryptSIPCreateIndirectData, CryptSIPCreateIndirectData function [Security], mssip/CryptSIPCreateIndirectData, security.cryptsipcreateindirectdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CryptSIPCreateIndirectData function

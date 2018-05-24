@@ -7,7 +7,7 @@ old-location: controls\ITextFont_GetSpacing.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspacing.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetSpacing, GetSpacing method [Windows Controls], GetSpacing method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSpacing method, ITextFont.GetSpacing, ITextFont::GetSpacing, _win32_ITextFont_GetSpacing, _win32_ITextFont_GetSpacing_cpp, controls.ITextFont_GetSpacing, controls._win32_ITextFont_GetSpacing, tom/ITextFont::GetSpacing
 ms.prod: windows-hardware
 ms.technology: windows-devices

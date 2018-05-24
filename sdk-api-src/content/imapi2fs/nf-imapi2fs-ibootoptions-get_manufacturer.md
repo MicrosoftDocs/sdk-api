@@ -7,7 +7,7 @@ old-location: imapi\ibootoptions_get_manufacturer.htm
 old-project: imapi
 ms.assetid: e9c75760-42e8-4ad0-aa5c-82bfdc1327af
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IBootOptions interface [IMAPI],get_Manufacturer method, IBootOptions.get_Manufacturer, IBootOptions::get_Manufacturer, get_Manufacturer, get_Manufacturer method [IMAPI], get_Manufacturer method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_manufacturer, imapi2fs/IBootOptions::get_Manufacturer
 ms.prod: windows-hardware
 ms.technology: windows-devices

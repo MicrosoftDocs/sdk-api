@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_hide.htm
 old-project: tablet
 ms.assetid: 13b227bf-3ea5-4da1-998e-8809616d88b6
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: Hide, Hide method [Tablet PC], Hide method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],Hide method, IMathInputControl.Hide, IMathInputControl::Hide, micaut/IMathInputControl::Hide, tablet.imathinputcontrol_hide
 ms.prod: windows-hardware
 ms.technology: windows-devices

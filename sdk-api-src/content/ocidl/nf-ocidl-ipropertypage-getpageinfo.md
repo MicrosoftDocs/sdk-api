@@ -7,7 +7,7 @@ old-location: com\ipropertypage_getpageinfo.htm
 old-project: com
 ms.assetid: 3cb7168c-bb05-4e01-a73b-11a52c5e690b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetPageInfo, GetPageInfo method [COM], GetPageInfo method [COM],IPropertyPage interface, IPropertyPage interface [COM],GetPageInfo method, IPropertyPage.GetPageInfo, IPropertyPage::GetPageInfo, _ctrl_ipropertypage_getpageinfo, com.ipropertypage_getpageinfo, ocidl/IPropertyPage::GetPageInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyPage::GetPageInfo

@@ -7,7 +7,7 @@ old-location: base\ivsscreatewritermetadata_addalternatelocationmapping.htm
 old-project: VSS
 ms.assetid: 966c40d4-8c19-43cc-ba49-028763478f49
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: AddAlternateLocationMapping, AddAlternateLocationMapping method [VSS], AddAlternateLocationMapping method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddAlternateLocationMapping method, IVssCreateWriterMetadata.AddAlternateLocationMapping, IVssCreateWriterMetadata::AddAlternateLocationMapping, _win32_ivsscreatewritermetadata_addalternatelocationmapping, base.ivsscreatewritermetadata_addalternatelocationmapping, vswriter/IVssCreateWriterMetadata::AddAlternateLocationMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices

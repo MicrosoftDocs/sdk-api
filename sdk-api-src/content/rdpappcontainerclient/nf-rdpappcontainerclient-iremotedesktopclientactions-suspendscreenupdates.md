@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclientactions_suspendscreenupdates.htm
 old-project: TermServ
 ms.assetid: 0161ee5f-5e67-4bc9-b822-800c2b23ec44
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: IRemoteDesktopClientActions interface [Remote Desktop Services],SuspendScreenUpdates method, IRemoteDesktopClientActions.SuspendScreenUpdates, IRemoteDesktopClientActions::SuspendScreenUpdates, SuspendScreenUpdates, SuspendScreenUpdates method [Remote Desktop Services], SuspendScreenUpdates method [Remote Desktop Services],IRemoteDesktopClientActions interface, rdpappcontainerclient/IRemoteDesktopClientActions::SuspendScreenUpdates, termserv.iremotedesktopclientactions_suspendscreenupdates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: MsTscAx.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRemoteDesktopClientActions::SuspendScreenUpdates

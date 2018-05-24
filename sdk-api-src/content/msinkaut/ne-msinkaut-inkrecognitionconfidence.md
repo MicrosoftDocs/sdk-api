@@ -7,7 +7,7 @@ old-location: tablet\inkrecognitionconfidence.htm
 old-project: tablet
 ms.assetid: ce99de84-d1c9-420f-8eb5-a8e4f3c04d1d
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IRC_Intermediate, IRC_Poor, IRC_Strong, InkRecognitionConfidence, InkRecognitionConfidence enumeration [Tablet PC], ce99de84-d1c9-420f-8eb5-a8e4f3c04d1d, msinkaut/IRC_Intermediate, msinkaut/IRC_Poor, msinkaut/IRC_Strong, msinkaut/InkRecognitionConfidence, tablet.inkrecognitionconfidence
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkRecognitionConfidence enumeration

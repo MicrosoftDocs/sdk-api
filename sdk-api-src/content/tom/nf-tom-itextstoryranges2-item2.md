@@ -7,7 +7,7 @@ old-location: controls\itextstoryranges2_item2.htm
 old-project: Controls
 ms.assetid: 0e77584e-e7ea-44ee-bce8-6f3b84d106bb
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ITextStoryRanges2 interface [Windows Controls],Item2 method, ITextStoryRanges2.Item2, ITextStoryRanges2::Item2, Item2, Item2 method [Windows Controls], Item2 method [Windows Controls],ITextStoryRanges2 interface, controls.itextstoryranges2_item2, tom/ITextStoryRanges2::Item2
 ms.prod: windows-hardware
 ms.technology: windows-devices

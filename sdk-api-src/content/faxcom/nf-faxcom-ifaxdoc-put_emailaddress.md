@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_emailaddress_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7mwj.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: EmailAddress property [Fax Service], EmailAddress property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],EmailAddress property, FaxDoc.EmailAddress, IFaxDoc.put_EmailAddress, IFaxDoc::put_EmailAddress, _mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_get_emailaddress, fax._mfax_ifaxdoc_get_emailaddress_vb, put_EmailAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

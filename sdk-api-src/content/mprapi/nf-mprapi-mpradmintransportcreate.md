@@ -7,7 +7,7 @@ old-location: rras\mpradmintransportcreate.htm
 old-project: RRAS
 ms.assetid: 14639cec-9c9a-48f5-b7cc-0aaca7ececbc
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: MprAdminTransportCreate, MprAdminTransportCreate function [RAS], _mpr_mpradmintransportcreate, mprapi/MprAdminTransportCreate, rras.mpradmintransportcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

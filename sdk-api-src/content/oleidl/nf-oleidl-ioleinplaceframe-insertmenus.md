@@ -7,7 +7,7 @@ old-location: com\ioleinplaceframe_insertmenus.htm
 old-project: com
 ms.assetid: 659ea109-c2c1-4146-aed2-60b1ce853d89
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleInPlaceFrame interface [COM],InsertMenus method, IOleInPlaceFrame.InsertMenus, IOleInPlaceFrame::InsertMenus, InsertMenus, InsertMenus method [COM], InsertMenus method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_insertmenus, com.ioleinplaceframe_insertmenus, oleidl/IOleInPlaceFrame::InsertMenus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleInPlaceFrame::InsertMenus

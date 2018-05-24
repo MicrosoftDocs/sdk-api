@@ -7,7 +7,7 @@ old-location: controls\DPA_EnumCallback.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_enumcallback.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: DPA_EnumCallback, DPA_EnumCallback function [Windows Controls], _win32_DPA_EnumCallback, _win32_DPA_EnumCallback_cpp, controls.DPA_EnumCallback, controls._win32_DPA_EnumCallback, dpa_dsa/DPA_EnumCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

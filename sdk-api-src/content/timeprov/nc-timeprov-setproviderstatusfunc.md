@@ -7,7 +7,7 @@ old-location: base\setproviderstatusfunc.htm
 old-project: SysInfo
 ms.assetid: e52dd1d3-081a-4fcc-85d9-a1dcef0e8011
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: SetProviderStatusFunc, SetProviderStatusFunc callback, SetProviderStatusFunc callback function, _win32_setproviderstatusfunc, base.setproviderstatusfunc, timeprov/SetProviderStatusFunc
 ms.prod: windows-hardware
 ms.technology: windows-devices

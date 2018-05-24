@@ -7,7 +7,7 @@ old-location: com\oleuiaddverbmenu.htm
 old-project: com
 ms.assetid: 6efb49e7-b3c1-4035-892d-4572db47b951
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: OleUIAddVerbMenu, OleUIAddVerbMenu function [COM], OleUIAddVerbMenuA, OleUIAddVerbMenuW, _ole_OleUIAddVerbMenu, com.oleuiaddverbmenu, oledlg/OleUIAddVerbMenu, oledlg/OleUIAddVerbMenuA, oledlg/OleUIAddVerbMenuW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # OleUIAddVerbMenuW function

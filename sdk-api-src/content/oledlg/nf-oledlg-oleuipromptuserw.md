@@ -7,7 +7,7 @@ old-location: com\oleuipromptuser.htm
 old-project: com
 ms.assetid: a4c437d9-7242-401f-96fe-4b1c793a1170
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: OleUIPromptUser, OleUIPromptUser function [COM], OleUIPromptUserA, OleUIPromptUserW, _ole_OleUIPromptUser, com.oleuipromptuser, oledlg/OleUIPromptUser, oledlg/OleUIPromptUserA, oledlg/OleUIPromptUserW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # OleUIPromptUserW function

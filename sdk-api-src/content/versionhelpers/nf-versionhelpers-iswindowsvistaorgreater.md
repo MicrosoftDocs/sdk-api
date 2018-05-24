@@ -7,7 +7,7 @@ old-location: base\iswindowsvistaorgreater.htm
 old-project: SysInfo
 ms.assetid: 556C70DC-6A44-4D85-BDBF-C1110D63DC69
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: IsWindowsVistaOrGreater, IsWindowsVistaOrGreater function, base.iswindowsvistaorgreater, versionhelpers/IsWindowsVistaOrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices

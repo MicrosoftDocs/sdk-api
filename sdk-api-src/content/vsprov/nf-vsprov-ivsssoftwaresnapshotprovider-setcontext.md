@@ -7,7 +7,7 @@ old-location: base\ivsssoftwaresnapshotprovider_setcontext.htm
 old-project: VSS
 ms.assetid: 5e2ddd7e-dcb8-4a13-8889-2d0e9dd102f2
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,SetContext method, IVssSoftwareSnapshotProvider.SetContext, IVssSoftwareSnapshotProvider::SetContext, SetContext, SetContext method, SetContext method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_setcontext, vsprov/IVssSoftwareSnapshotProvider::SetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

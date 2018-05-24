@@ -7,7 +7,7 @@ old-location: base\ivdssubsystem_createlun.htm
 old-project: VDS
 ms.assetid: e8097364-1f23-4cda-8f12-a750bbb4eb4c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: CreateLun, CreateLun method [VDS], CreateLun method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],CreateLun method, IVdsSubSystem.CreateLun, IVdsSubSystem::CreateLun, base.ivdssubsystem_createlun, vds/IVdsSubSystem::CreateLun, vdshwprv/IVdsSubSystem::CreateLun
 ms.prod: windows-hardware
 ms.technology: windows-devices

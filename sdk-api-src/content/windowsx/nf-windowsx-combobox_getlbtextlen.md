@@ -7,7 +7,7 @@ old-location: controls\ComboBox_GetLBTextLen.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getlbtextlen.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ComboBox_GetLBTextLen, ComboBox_GetLBTextLen macro [Windows Controls], _win32_ComboBox_GetLBTextLen, _win32_ComboBox_GetLBTextLen_cpp, controls.ComboBox_GetLBTextLen, controls._win32_ComboBox_GetLBTextLen, windowsx/ComboBox_GetLBTextLen
 ms.prod: windows-hardware
 ms.technology: windows-devices

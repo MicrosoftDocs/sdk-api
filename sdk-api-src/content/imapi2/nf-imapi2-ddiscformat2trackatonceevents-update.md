@@ -7,7 +7,7 @@ old-location: imapi\ddiscformat2trackatonceevents_update.htm
 old-project: imapi
 ms.assetid: d63ff41d-993c-4f42-a4a3-f7c67f292a03
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: DDiscFormat2TrackAtOnceEvents interface [IMAPI],Update method, DDiscFormat2TrackAtOnceEvents.Update, DDiscFormat2TrackAtOnceEvents::Update, Update, Update method [IMAPI], Update method [IMAPI],DDiscFormat2TrackAtOnceEvents interface, imapi.ddiscformat2trackatonceevents_update, imapi2/DDiscFormat2TrackAtOnceEvents::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices

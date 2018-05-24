@@ -7,7 +7,7 @@ old-location: search\_search_ISearchNotifyInlineSite.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\isearchnotifyinlinesite.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: ISearchNotifyInlineSite, ISearchNotifyInlineSite interface [search], ISearchNotifyInlineSite interface [search],described, _search_ISearchNotifyInlineSite, search._search_ISearchNotifyInlineSite, searchapi/ISearchNotifyInlineSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISearchNotifyInlineSite interface

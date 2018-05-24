@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_setsingletabletmode.htm
 old-project: tablet
 ms.assetid: 7f3645fd-cb1e-4bd5-a995-d70197c61afc
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 7f3645fd-cb1e-4bd5-a995-d70197c61afc, IRealTimeStylus interface [Tablet PC],SetSingleTabletMode method, IRealTimeStylus.SetSingleTabletMode, IRealTimeStylus::SetSingleTabletMode, SetSingleTabletMode, SetSingleTabletMode method [Tablet PC], SetSingleTabletMode method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::SetSingleTabletMode, tablet.irealtimestylus_setsingletabletmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRealTimeStylus::SetSingleTabletMode

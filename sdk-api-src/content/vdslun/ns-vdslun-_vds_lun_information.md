@@ -7,7 +7,7 @@ old-location: base\vds_lun_information.htm
 old-project: VDS
 ms.assetid: 6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_LUN_INFORMATION, VDS_LUN_INFORMATION structure [VDS], _VDS_LUN_INFORMATION, base.vds_lun_information, vdslun/_VDS_LUN_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

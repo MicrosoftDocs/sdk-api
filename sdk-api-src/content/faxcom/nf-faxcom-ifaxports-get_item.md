@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxports_get_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0i0d.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFaxPorts interface [Fax Service],get_Item method, IFaxPorts.get_Item, IFaxPorts::get_Item, _mfax_ifaxports_get_item, fax._mfax_ifaxports_get_item, faxcom/IFaxPorts::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxPorts interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

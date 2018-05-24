@@ -7,7 +7,7 @@ old-location: mf\imfvideosampleallocatorcallback_getfreesamplecount.htm
 old-project: medfound
 ms.assetid: 0025067b-1c8f-4f1a-91f2-edf6a274523b
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetFreeSampleCount, GetFreeSampleCount method [Media Foundation], GetFreeSampleCount method [Media Foundation],IMFVideoSampleAllocatorCallback interface, IMFVideoSampleAllocatorCallback interface [Media Foundation],GetFreeSampleCount method, IMFVideoSampleAllocatorCallback.GetFreeSampleCount, IMFVideoSampleAllocatorCallback::GetFreeSampleCount, mf.imfvideosampleallocatorcallback_getfreesamplecount, mfidl/IMFVideoSampleAllocatorCallback::GetFreeSampleCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

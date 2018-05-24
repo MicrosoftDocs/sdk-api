@@ -7,7 +7,7 @@ old-location: rras\rtmgetroutepointer.htm
 old-project: RRAS
 ms.assetid: 889e318c-b515-48bc-9117-83e8c1bb6f1a
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RtmGetRoutePointer, RtmGetRoutePointer function [RAS], _rtmv2ref_rtmgetroutepointer, rras.rtmgetroutepointer, rtmv2/RtmGetRoutePointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtmGetRoutePointer function

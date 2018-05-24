@@ -7,7 +7,7 @@ old-location: shell\IFileOperation_SetProgressDialog.htm
 old-project: shell
 ms.assetid: 34cc6b88-9791-4778-a8d9-cf1b80aa42a8
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IFileOperation interface [Windows Shell],SetProgressDialog method, IFileOperation.SetProgressDialog, IFileOperation::SetProgressDialog, SetProgressDialog, SetProgressDialog method [Windows Shell], SetProgressDialog method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetProgressDialog, shell.IFileOperation_SetProgressDialog, shobjidl_core/IFileOperation::SetProgressDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices

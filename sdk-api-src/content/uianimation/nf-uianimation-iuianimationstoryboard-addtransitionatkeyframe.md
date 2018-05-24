@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_addtransitionatkeyframe.htm
 old-project: UIAnimation
 ms.assetid: 94a9aafc-fe5a-49a8-8e14-9e7c4624869a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: AddTransitionAtKeyframe, AddTransitionAtKeyframe method [Windows Animation], AddTransitionAtKeyframe method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddTransitionAtKeyframe method, IUIAnimationStoryboard.AddTransitionAtKeyframe, IUIAnimationStoryboard::AddTransitionAtKeyframe, uianimation.iuianimationstoryboard_addtransitionatkeyframe, uianimation/IUIAnimationStoryboard::AddTransitionAtKeyframe
 ms.prod: windows-hardware
 ms.technology: windows-devices

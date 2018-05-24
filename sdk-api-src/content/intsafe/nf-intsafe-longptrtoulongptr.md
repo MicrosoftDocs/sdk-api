@@ -7,7 +7,7 @@ old-location: shell\LongPtrToULongPtr.htm
 old-project: shell
 ms.assetid: c289c4cd-abb7-4483-b0a7-6eacadefeedc
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: LongPtrToDWordPtr, LongPtrToSIZET, LongPtrToULongPtr, LongPtrToULongPtr function [Windows Shell], SSIZETToDWordPtr, SSIZETToSIZET, SSIZETToULongPtr, _shell_LongPtrToULongPtr, intsafe/LongPtrToULongPtr, shell.LongPtrToULongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

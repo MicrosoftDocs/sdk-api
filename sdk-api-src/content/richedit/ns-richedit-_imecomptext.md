@@ -7,7 +7,7 @@ old-location: controls\IMECOMPTEXT.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\imecomptext.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ICT_RESULTREADSTR, IMECOMPTEXT, IMECOMPTEXT structure [Windows Controls], _imecomptext, _win32_IMECOMPTEXT_str, _win32_IMECOMPTEXT_str_cpp, controls.IMECOMPTEXT, controls._win32_IMECOMPTEXT_str, richedit/IMECOMPTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _imecomptext structure

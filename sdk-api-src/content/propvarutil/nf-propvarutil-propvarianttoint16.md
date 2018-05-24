@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt16.htm
 old-project: properties
 ms.assetid: 32070620-bae2-4465-8b11-b88adb6cb365
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PropVariantToInt16, PropVariantToInt16 function [Windows Properties], properties.PropVariantToInt16, propvarutil/PropVariantToInt16, shell.PropVariantToInt16, shell_PropVariantToInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PropVariantToInt16 function

@@ -7,7 +7,7 @@ old-location: com\ioleparentundounit_add.htm
 old-project: com
 ms.assetid: 86db3308-6f01-47f1-ba28-3ed5e70b7cb9
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: Add, Add method [COM], Add method [COM],IOleParentUndoUnit interface, IOleParentUndoUnit interface [COM],Add method, IOleParentUndoUnit.Add, IOleParentUndoUnit::Add, _ole_ioleparentundounit_add, com.ioleparentundounit_add, ocidl/IOleParentUndoUnit::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleParentUndoUnit::Add

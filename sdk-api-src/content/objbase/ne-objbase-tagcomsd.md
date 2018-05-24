@@ -7,7 +7,7 @@ old-location: com\comsd.htm
 old-project: com
 ms.assetid: FF783F27-D5EF-4927-9B7D-489271FBA9B3
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: COMSD, COMSD enumeration [COM], SD_ACCESSPERMISSIONS, SD_ACCESSRESTRICTIONS, SD_LAUNCHPERMISSIONS, SD_LAUNCHRESTRICTIONS, com.comsd, objbase/COMSD, objbase/SD_ACCESSPERMISSIONS, objbase/SD_ACCESSRESTRICTIONS, objbase/SD_LAUNCHPERMISSIONS, objbase/SD_LAUNCHRESTRICTIONS, tagCOMSD
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagCOMSD enumeration

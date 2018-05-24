@@ -7,7 +7,7 @@ old-location: security\icertsrvsetupkeyinformationcollection.htm
 old-project: SecCrypto
 ms.assetid: d029dd5f-9c19-46fd-aac3-275c624a157b
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection, ICertSrvSetupKeyInformationCollection interface [Security], ICertSrvSetupKeyInformationCollection interface [Security],described, casetup/ICertSrvSetupKeyInformationCollection, security.icertsrvsetupkeyinformationcollection
 ms.prod: windows-hardware
 ms.technology: windows-devices

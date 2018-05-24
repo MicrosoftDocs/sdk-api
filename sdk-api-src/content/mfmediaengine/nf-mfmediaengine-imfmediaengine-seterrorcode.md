@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_seterrorcode.htm
 old-project: medfound
 ms.assetid: B40AFD99-1048-44C5-A3FA-ED57720956B4
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetErrorCode method, IMFMediaEngine.SetErrorCode, IMFMediaEngine::SetErrorCode, SetErrorCode, SetErrorCode method [Media Foundation], SetErrorCode method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_seterrorcode, mfmediaengine/IMFMediaEngine::SetErrorCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

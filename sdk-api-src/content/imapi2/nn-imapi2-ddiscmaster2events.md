@@ -7,7 +7,7 @@ old-location: imapi\ddiscmaster2events.htm
 old-project: imapi
 ms.assetid: f01fa2d8-989d-499f-b79d-495108640aa2
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: DDiscMaster2Events, DDiscMaster2Events interface [IMAPI], DDiscMaster2Events interface [IMAPI],described, imapi.ddiscmaster2events, imapi2/DDiscMaster2Events
 ms.prod: windows-hardware
 ms.technology: windows-devices

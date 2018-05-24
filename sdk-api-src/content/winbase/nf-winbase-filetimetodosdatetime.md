@@ -7,7 +7,7 @@ old-location: base\filetimetodosdatetime.htm
 old-project: SysInfo
 ms.assetid: 7295da08-02f0-4390-862f-cf4267b69230
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: FileTimeToDosDateTime, FileTimeToDosDateTime function, _win32_filetimetodosdatetime, base.filetimetodosdatetime, winbase/FileTimeToDosDateTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

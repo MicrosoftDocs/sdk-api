@@ -7,7 +7,7 @@ old-location: controls\ITextServices_TxSetText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsettext.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ITextServices interface [Windows Controls],TxSetText method, ITextServices.TxSetText, ITextServices::TxSetText, TxSetText, TxSetText method [Windows Controls], TxSetText method [Windows Controls],ITextServices interface, _win32_ITextServices_TxSetText, _win32_ITextServices_TxSetText_cpp, controls.ITextServices_TxSetText, controls._win32_ITextServices_TxSetText, textserv/ITextServices::TxSetText
 ms.prod: windows-hardware
 ms.technology: windows-devices

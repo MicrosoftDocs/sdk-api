@@ -7,7 +7,7 @@ old-location: security\crypt_encrypt_message_para.htm
 old-project: SecCrypto
 ms.assetid: c683c515-3061-48e3-a64a-2798bd1245b0
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: "*PCRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA, CRYPT_ENCRYPT_MESSAGE_PARA structure [Security], PCRYPT_ENCRYPT_MESSAGE_PARA, PCRYPT_ENCRYPT_MESSAGE_PARA structure pointer [Security], _CRYPT_ENCRYPT_MESSAGE_PARA, _crypto2_crypt_encrypt_message_para, security.crypt_encrypt_message_para, wincrypt/CRYPT_ENCRYPT_MESSAGE_PARA, wincrypt/PCRYPT_ENCRYPT_MESSAGE_PARA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

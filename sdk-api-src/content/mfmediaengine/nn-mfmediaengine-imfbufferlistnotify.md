@@ -7,7 +7,7 @@ old-location: mf\imfbufferlistnotify.htm
 old-project: medfound
 ms.assetid: 2a2705b4-fac3-4059-b2c9-c03efaa9c15e
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFBufferListNotify, IMFBufferListNotify interface [Media Foundation], IMFBufferListNotify interface [Media Foundation],described, mf.imfbufferlistnotify, mfmediaengine/IMFBufferListNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices

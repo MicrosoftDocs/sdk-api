@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadStrAlloc.htm
 old-project: properties
 ms.assetid: 2F58A6DB-3563-42fa-9B6F-327D0A87AE81
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PSPropertyBag_ReadStrAlloc, PSPropertyBag_ReadStrAlloc function [Windows Properties], properties.PSPropertyBag_ReadStrAlloc, propsys/PSPropertyBag_ReadStrAlloc, shell.PSPropertyBag_ReadStrAlloc, shell_PSPropertyBag_ReadStrAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSPropertyBag_ReadStrAlloc function

@@ -7,7 +7,7 @@ old-location: security\certduplicatecertificatecontext.htm
 old-project: SecCrypto
 ms.assetid: 589edd25-c8d0-4f93-83b2-9df2ed2e2812
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CertDuplicateCertificateContext, CertDuplicateCertificateContext function [Security], _crypto2_certduplicatecertificatecontext, security.certduplicatecertificatecontext, wincrypt/CertDuplicateCertificateContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

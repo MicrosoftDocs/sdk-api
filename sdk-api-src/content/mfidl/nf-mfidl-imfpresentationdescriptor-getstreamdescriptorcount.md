@@ -7,7 +7,7 @@ old-location: mf\imfpresentationdescriptor_getstreamdescriptorcount.htm
 old-project: medfound
 ms.assetid: a01b8f91-b42a-4910-8afb-6134f5f65759
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetStreamDescriptorCount, GetStreamDescriptorCount method [Media Foundation], GetStreamDescriptorCount method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],GetStreamDescriptorCount method, IMFPresentationDescriptor.GetStreamDescriptorCount, IMFPresentationDescriptor::GetStreamDescriptorCount, a01b8f91-b42a-4910-8afb-6134f5f65759, mf.imfpresentationdescriptor_getstreamdescriptorcount, mfidl/IMFPresentationDescriptor::GetStreamDescriptorCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

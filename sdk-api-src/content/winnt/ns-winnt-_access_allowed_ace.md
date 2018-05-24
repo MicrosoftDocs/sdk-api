@@ -7,7 +7,7 @@ old-location: security\access_allowed_ace.htm
 old-project: SecAuthZ
 ms.assetid: 002a3fa7-02a3-4832-948e-b048f5f5818f
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: "*PACCESS_ALLOWED_ACE, ACCESS_ALLOWED_ACE, ACCESS_ALLOWED_ACE structure [Security], PACCESS_ALLOWED_ACE, PACCESS_ALLOWED_ACE structure pointer [Security], _ACCESS_ALLOWED_ACE, _win32_access_allowed_ace_str, security.access_allowed_ace, winnt/ACCESS_ALLOWED_ACE, winnt/PACCESS_ALLOWED_ACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

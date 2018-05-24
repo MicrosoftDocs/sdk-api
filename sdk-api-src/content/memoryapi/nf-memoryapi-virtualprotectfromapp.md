@@ -7,7 +7,7 @@ old-location: base\virtualprotectfromapp.htm
 old-project: Memory
 ms.assetid: 04202DB6-8A28-4B3C-9320-557E5F4D42AC
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: VirtualProtectFromApp, VirtualProtectFromApp function, base.virtualprotectfromapp, memoryapi/VirtualProtectFromApp
 ms.prod: windows-hardware
 ms.technology: windows-devices

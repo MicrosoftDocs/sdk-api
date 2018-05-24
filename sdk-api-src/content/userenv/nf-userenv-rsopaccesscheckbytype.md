@@ -7,7 +7,7 @@ old-location: policy\rsopaccesscheckbytype.htm
 old-project: Policy
 ms.assetid: d63734a0-1a88-4669-828e-de467606fc14
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: RSoPAccessCheckByType, RSoPAccessCheckByType function [Group Policy], RsopAccessCheckByType, _win32_rsopaccesscheckbytype, policy.rsopaccesscheckbytype, userenv/RSoPAccessCheckByType
 ms.prod: windows-hardware
 ms.technology: windows-devices

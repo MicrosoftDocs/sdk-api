@@ -7,7 +7,7 @@ old-location: com\ienumunknown_reset.htm
 old-project: com
 ms.assetid: 54c60e75-1b23-4e89-af16-e551ed880a61
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumUnknown interface [COM],Reset method, IEnumUnknown.Reset, IEnumUnknown::Reset, Reset, Reset method [COM], Reset method [COM],IEnumUnknown interface, _com_ienumunknown_reset, com.ienumunknown_reset, objidlbase/IEnumUnknown::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumUnknown::Reset

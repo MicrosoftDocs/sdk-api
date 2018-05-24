@@ -7,7 +7,7 @@ old-location: base\cvsswriterex_initializeex.htm
 old-project: VSS
 ms.assetid: 08516a5e-b1ad-4256-9eee-261393b031e2
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: CVssWriterEx interface,InitializeEx method, CVssWriterEx.InitializeEx, CVssWriterEx::InitializeEx, InitializeEx, InitializeEx method, InitializeEx method,CVssWriterEx interface, base.cvsswriterex_initializeex, vswriter/CVssWriterEx::InitializeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

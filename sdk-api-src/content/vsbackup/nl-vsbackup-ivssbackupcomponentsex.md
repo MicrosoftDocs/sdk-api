@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponentsex.htm
 old-project: VSS
 ms.assetid: d3a265ab-39cc-4861-9191-9ecf094d8826
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssBackupComponentsEx, IVssBackupComponentsEx interface [VSS], IVssBackupComponentsEx interface [VSS],described, base.ivssbackupcomponentsex, vsbackup/IVssBackupComponentsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

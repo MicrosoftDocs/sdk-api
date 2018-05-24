@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorageglobals_getstatus.htm
 old-project: WMDM
 ms.assetid: 572b5de6-62d7-450f-851f-d09b1864a86c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetStatus, GetStatus method [windows Media Device Manager], GetStatus method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetStatus method, IMDSPStorageGlobals.GetStatus, IMDSPStorageGlobals::GetStatus, IMDSPStorageGlobalsGetStatus, mswmdm/IMDSPStorageGlobals::GetStatus, wmdm.imdspstorageglobals_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPStorageGlobals::GetStatus

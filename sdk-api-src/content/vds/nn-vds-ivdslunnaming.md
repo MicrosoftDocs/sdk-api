@@ -7,7 +7,7 @@ old-location: base\ivdslunnaming.htm
 old-project: VDS
 ms.assetid: 1cc5fbb2-6a40-4b7c-9b5f-8f5fb53e6173
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsLunNaming, IVdsLunNaming interface [VDS], IVdsLunNaming interface [VDS],described, base.ivdslunnaming, vds/IVdsLunNaming
 ms.prod: windows-hardware
 ms.technology: windows-devices

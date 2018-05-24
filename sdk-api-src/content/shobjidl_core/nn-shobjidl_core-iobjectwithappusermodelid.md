@@ -7,7 +7,7 @@ old-location: shell\IObjectWithAppUserModelID.htm
 old-project: shell
 ms.assetid: f5b4e6bf-a5bf-49c5-b343-e9c1ec6c263d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IObjectWithAppUserModelID, IObjectWithAppUserModelID interface [Windows Shell], IObjectWithAppUserModelID interface [Windows Shell],described, _shell_IObjectWithAppUserModelID, shell.IObjectWithAppUserModelID, shobjidl_core/IObjectWithAppUserModelID
 ms.prod: windows-hardware
 ms.technology: windows-devices

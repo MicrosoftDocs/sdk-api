@@ -7,7 +7,7 @@ old-location: com\oleinitialize.htm
 old-project: com
 ms.assetid: 9a13e7a0-f2e2-466b-98f5-38d5972fa391
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: OleInitialize, OleInitialize function [COM], _ole_OleInitialize, com.oleinitialize, ole2/OleInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,7 +46,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # OleInitialize function

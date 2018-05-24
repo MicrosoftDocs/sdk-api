@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransition_setinitialvalue.htm
 old-project: UIAnimation
 ms.assetid: 5e931eee-8b28-4be2-a760-8f62b5ce89ed
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IUIAnimationTransition interface [Windows Animation],SetInitialValue method, IUIAnimationTransition.SetInitialValue, IUIAnimationTransition::SetInitialValue, SetInitialValue, SetInitialValue method [Windows Animation], SetInitialValue method [Windows Animation],IUIAnimationTransition interface, uianimation.iuianimationtransition_setinitialvalue, uianimation/IUIAnimationTransition::SetInitialValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

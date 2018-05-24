@@ -7,7 +7,7 @@ old-location: mf\imfsslcertificatemanager_getclientcertificate.htm
 old-project: medfound
 ms.assetid: 11a575e8-5eb2-4cbb-a460-f1ea5d54d324
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetClientCertificate, GetClientCertificate method [Media Foundation], GetClientCertificate method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],GetClientCertificate method, IMFSSLCertificateManager.GetClientCertificate, IMFSSLCertificateManager::GetClientCertificate, mf.imfsslcertificatemanager_getclientcertificate, mfidl/IMFSSLCertificateManager::GetClientCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

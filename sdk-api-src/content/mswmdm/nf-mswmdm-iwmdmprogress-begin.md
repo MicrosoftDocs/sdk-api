@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress_begin.htm
 old-project: WMDM
 ms.assetid: 207b7cb5-4471-4be9-8252-9d467d67d7a2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: Begin, Begin method [windows Media Device Manager], Begin method [windows Media Device Manager],IWMDMProgress interface, IWMDMProgress interface [windows Media Device Manager],Begin method, IWMDMProgress.Begin, IWMDMProgress::Begin, IWMDMProgressBegin, mswmdm/IWMDMProgress::Begin, wmdm.iwmdmprogress_begin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMProgress::Begin

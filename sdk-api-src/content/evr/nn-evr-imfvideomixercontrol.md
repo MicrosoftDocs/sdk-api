@@ -7,7 +7,7 @@ old-location: mf\imfvideomixercontrol.htm
 old-project: medfound
 ms.assetid: 8b5f54e3-c6da-4201-857a-9c718ad911db
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 8b5f54e3-c6da-4201-857a-9c718ad911db, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], IMFVideoMixerControl interface [Media Foundation],described, evr/IMFVideoMixerControl, mf.imfvideomixercontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\rasgetconnectstatus.htm
 old-project: RRAS
 ms.assetid: 3b2a2f8d-b1ff-44d2-ba49-60877ca6c104
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RasGetConnectStatus, RasGetConnectStatus function [RAS], RasGetConnectStatusA, RasGetConnectStatusW, _ras_rasgetconnectstatus, ras/RasGetConnectStatus, ras/RasGetConnectStatusA, ras/RasGetConnectStatusW, rras.rasgetconnectstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RasGetConnectStatusW function

@@ -7,7 +7,7 @@ old-location: base\ivdsiscsitarget.htm
 old-project: VDS
 ms.assetid: 0db442c4-6cc1-43b2-8ac8-8b17cadb1101
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsIscsiTarget, IVdsIscsiTarget interface [VDS], IVdsIscsiTarget interface [VDS],described, base.ivdsiscsitarget, vds/IVdsIscsiTarget, vdshwprv/IVdsIscsiTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

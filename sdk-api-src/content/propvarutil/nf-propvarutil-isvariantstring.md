@@ -7,7 +7,7 @@ old-location: properties\IsVariantString.htm
 old-project: properties
 ms.assetid: 6056856c-9b7a-4c6a-9e9a-0baa5e1addcf
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: IsVariantString, IsVariantString function [Windows Properties], _shell_IsVariantString, properties.IsVariantString, propvarutil/IsVariantString, shell.IsVariantString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IsVariantString function

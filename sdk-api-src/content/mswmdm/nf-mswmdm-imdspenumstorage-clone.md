@@ -7,7 +7,7 @@ old-location: wmdm\imdspenumstorage_clone.htm
 old-project: WMDM
 ms.assetid: 8621c5fa-7739-4f90-b856-76880f8dd07b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: Clone, Clone method [windows Media Device Manager], Clone method [windows Media Device Manager],IMDSPEnumStorage interface, IMDSPEnumStorage interface [windows Media Device Manager],Clone method, IMDSPEnumStorage.Clone, IMDSPEnumStorage::Clone, IMDSPEnumStorageClone, mswmdm/IMDSPEnumStorage::Clone, wmdm.imdspenumstorage_clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPEnumStorage::Clone

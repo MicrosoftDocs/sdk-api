@@ -7,8 +7,8 @@ old-location: rras\ras_stats.htm
 old-project: RRAS
 ms.assetid: f55852f9-fa6f-480c-9c65-d6631d5270a0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
-ms.keywords: "*PRAS_STATS, PRAS_STATS, PRAS_STATS structure pointer [RAS], RAS_STATS, RAS_STATS structure [RAS], _RAS_STATS, _ras_ras_stats, ras/PRAS_STATS, ras/RAS_STATS, rras.ras_stats"
+ms.date: 5/21/2018
+ms.keywords: "*PRAS_STATS, RAS_STATS, RAS_STATS structure [RAS], _RAS_STATS, _ras_ras_stats, ras/RAS_STATS, rras.ras_stats"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RAS_STATS structure

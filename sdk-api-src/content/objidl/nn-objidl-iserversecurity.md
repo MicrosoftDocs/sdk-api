@@ -7,7 +7,7 @@ old-location: com\iserversecurity.htm
 old-project: com
 ms.assetid: aacef77c-7185-44ed-aa1a-465c6100a431
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IServerSecurity, IServerSecurity interface [COM], IServerSecurity interface [COM],described, _com_iserversecurity, com.iserversecurity, objidlbase/IServerSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IServerSecurity interface

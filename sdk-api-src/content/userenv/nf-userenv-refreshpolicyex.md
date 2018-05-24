@@ -7,7 +7,7 @@ old-location: policy\refreshpolicyex.htm
 old-project: Policy
 ms.assetid: 905ab96b-a7f2-4bb4-a539-385f78284644
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: RP_FORCE, RefreshPolicyEx, RefreshPolicyEx function [Group Policy], _win32_refreshpolicyex, policy.refreshpolicyex, userenv/RefreshPolicyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

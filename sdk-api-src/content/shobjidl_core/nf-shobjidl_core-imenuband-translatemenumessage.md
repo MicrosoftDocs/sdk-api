@@ -7,7 +7,7 @@ old-location: shell\IMenuBand_TranslateMenuMessage.htm
 old-project: shell
 ms.assetid: 5ee1f64f-ca8b-4f50-bbab-24ff1216708c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IMenuBand interface [Windows Shell],TranslateMenuMessage method, IMenuBand.TranslateMenuMessage, IMenuBand::TranslateMenuMessage, TranslateMenuMessage, TranslateMenuMessage method [Windows Shell], TranslateMenuMessage method [Windows Shell],IMenuBand interface, _shell_IMenuBand_TranslateMenuMessage, shell.IMenuBand_TranslateMenuMessage, shobjidl_core/IMenuBand::TranslateMenuMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

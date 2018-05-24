@@ -7,7 +7,7 @@ old-location: wininet\commiturlcacheentrya.htm
 old-project: WinInet
 ms.assetid: 4bd21b30-cac5-482b-9826-b5a4ffeeebe9
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: CommitUrlCacheEntryA, CommitUrlCacheEntryA function [WinINet], wininet.commiturlcacheentrya, wininet/CommitUrlCacheEntryA
 ms.prod: windows-hardware
 ms.technology: windows-devices

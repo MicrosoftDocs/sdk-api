@@ -7,7 +7,7 @@ old-location: base\ivdsadmin.htm
 old-project: VDS
 ms.assetid: 693ee0c0-9f86-4f78-9724-f3a3420463c9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsAdmin, IVdsAdmin interface [VDS], IVdsAdmin interface [VDS],described, base.ivdsadmin, vdshwprv/IVdsAdmin
 ms.prod: windows-hardware
 ms.technology: windows-devices

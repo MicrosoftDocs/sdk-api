@@ -7,7 +7,7 @@ old-location: netmgmt\server_info_1538_str.htm
 old-project: NetMgmt
 ms.assetid: 4e11d2f5-27e5-480d-8486-d683bea22781
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPSERVER_INFO_1538, *PSERVER_INFO_1538, LPSERVER_INFO_1538, LPSERVER_INFO_1538 structure pointer [Network Management], PSERVER_INFO_1538, PSERVER_INFO_1538 structure pointer [Network Management], SERVER_INFO_1538, SERVER_INFO_1538 structure [Network Management], _SERVER_INFO_1538, _win32_server_info_1538_str, lmserver/LPSERVER_INFO_1538, lmserver/PSERVER_INFO_1538, lmserver/SERVER_INFO_1538, netmgmt.server_info_1538_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

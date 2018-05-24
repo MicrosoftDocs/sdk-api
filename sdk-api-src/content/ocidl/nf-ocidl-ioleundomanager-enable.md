@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_enable.htm
 old-project: com
 ms.assetid: d4d8582e-a9d1-48df-87ef-e378f3a81fa2
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: Enable, Enable method [COM], Enable method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Enable method, IOleUndoManager.Enable, IOleUndoManager::Enable, _ole_ioleundomanager_enable, com.ioleundomanager_enable, ocidl/IOleUndoManager::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleUndoManager::Enable

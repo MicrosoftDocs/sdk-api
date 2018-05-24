@@ -7,7 +7,7 @@ old-location: tablet\iinkwordlist2.htm
 old-project: tablet
 ms.assetid: 16be0c11-7525-4e6e-9556-e7308c1919cf
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 16be0c11-7525-4e6e-9556-e7308c1919cf, IInkWordList2, IInkWordList2 interface [Tablet PC], IInkWordList2 interface [Tablet PC],described, msinkaut/IInkWordList2, tablet.iinkwordlist2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkWordList2 interface

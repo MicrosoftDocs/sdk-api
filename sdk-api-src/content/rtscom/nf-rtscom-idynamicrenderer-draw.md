@@ -7,7 +7,7 @@ old-location: tablet\idynamicrenderer_draw.htm
 old-project: tablet
 ms.assetid: d0f05fc7-2b54-40fc-823a-dad0a86174d6
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: Draw, Draw method [Tablet PC], Draw method [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],Draw method, IDynamicRenderer.Draw, IDynamicRenderer::Draw, d0f05fc7-2b54-40fc-823a-dad0a86174d6, rtscom/IDynamicRenderer::Draw, tablet.idynamicrenderer_draw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDynamicRenderer::Draw

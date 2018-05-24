@@ -7,7 +7,7 @@ old-location: shell\IObjectWithBackReferences_RemoveBackReferences.htm
 old-project: shell
 ms.assetid: 642fe793-974f-48e5-90a2-de6ba7a5b033
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IObjectWithBackReferences interface [Windows Shell],RemoveBackReferences method, IObjectWithBackReferences.RemoveBackReferences, IObjectWithBackReferences::RemoveBackReferences, RemoveBackReferences, RemoveBackReferences method [Windows Shell], RemoveBackReferences method [Windows Shell],IObjectWithBackReferences interface, _shell_IObjectWithBackReferences_RemoveBackReferences, shell.IObjectWithBackReferences_RemoveBackReferences, shobjidl_core/IObjectWithBackReferences::RemoveBackReferences
 ms.prod: windows-hardware
 ms.technology: windows-devices

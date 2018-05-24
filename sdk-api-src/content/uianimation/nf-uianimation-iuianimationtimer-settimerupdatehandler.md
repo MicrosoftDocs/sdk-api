@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimer_settimerupdatehandler.htm
 old-project: UIAnimation
 ms.assetid: 69c5f8b2-f3c8-43aa-8dae-cedd0036dc03
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IUIAnimationTimer interface [Windows Animation],SetTimerUpdateHandler method, IUIAnimationTimer.SetTimerUpdateHandler, IUIAnimationTimer::SetTimerUpdateHandler, SetTimerUpdateHandler, SetTimerUpdateHandler method [Windows Animation], SetTimerUpdateHandler method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_settimerupdatehandler, uianimation/IUIAnimationTimer::SetTimerUpdateHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

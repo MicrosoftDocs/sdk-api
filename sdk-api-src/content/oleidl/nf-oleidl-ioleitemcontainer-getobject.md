@@ -7,7 +7,7 @@ old-location: com\ioleitemcontainer_getobject.htm
 old-project: com
 ms.assetid: 08569037-7ecd-4e63-9f94-c2552c327800
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IOleItemContainer interface, IOleItemContainer interface [COM],GetObject method, IOleItemContainer.GetObject, IOleItemContainer::GetObject, _com_ioleitemcontainer_getobject, com.ioleitemcontainer_getobject, oleidl/IOleItemContainer::GetObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleItemContainer::GetObject

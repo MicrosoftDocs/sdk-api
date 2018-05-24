@@ -7,7 +7,7 @@ old-location: stg\createstreamonhglobal.htm
 old-project: Stg
 ms.assetid: 413c107b-a943-4c02-9c00-aea708e876d7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: CreateStreamOnHGlobal, CreateStreamOnHGlobal function [Structured Storage], _stg_createstreamonhglobal, combaseapi/CreateStreamOnHGlobal, stg.createstreamonhglobal
 ms.prod: windows-hardware
 ms.technology: windows-devices

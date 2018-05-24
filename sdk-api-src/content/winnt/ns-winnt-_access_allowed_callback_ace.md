@@ -7,7 +7,7 @@ old-location: security\access_allowed_callback_ace.htm
 old-project: SecAuthZ
 ms.assetid: 0dbca19b-4b54-4c55-920a-c00335692d68
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: "*PACCESS_ALLOWED_CALLBACK_ACE, ACCESS_ALLOWED_CALLBACK_ACE, ACCESS_ALLOWED_CALLBACK_ACE structure [Security], PACCESS_ALLOWED_CALLBACK_ACE, PACCESS_ALLOWED_CALLBACK_ACE structure pointer [Security], _ACCESS_ALLOWED_CALLBACK_ACE, security.access_allowed_callback_ace, winnt/ACCESS_ALLOWED_CALLBACK_ACE, winnt/PACCESS_ALLOWED_CALLBACK_ACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_writepropertynames.htm
 old-project: Stg
 ms.assetid: 3612bf29-344a-4389-bd3b-56b9fa297362
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IPropertyStorage interface [Structured Storage],WritePropertyNames method, IPropertyStorage.WritePropertyNames, IPropertyStorage::WritePropertyNames, WritePropertyNames, WritePropertyNames method [Structured Storage], WritePropertyNames method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_writepropertynames, propidl/IPropertyStorage::WritePropertyNames, stg.ipropertystorage_writepropertynames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyStorage::WritePropertyNames

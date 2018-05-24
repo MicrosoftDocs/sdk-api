@@ -7,7 +7,7 @@ old-location: base\eventlogrecord_str.htm
 old-project: EventLog
 ms.assetid: 669b182a-bc81-4386-9815-6ffa09e2e743
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: "*PEVENTLOGRECORD, EVENTLOGRECORD, EVENTLOGRECORD structure, EVENTLOG_AUDIT_FAILURE, EVENTLOG_AUDIT_SUCCESS, EVENTLOG_ERROR_TYPE, EVENTLOG_INFORMATION_TYPE, EVENTLOG_WARNING_TYPE, PEVENTLOGRECORD, PEVENTLOGRECORD structure pointer, _EVENTLOGRECORD, _win32_eventlogrecord_str, base.eventlogrecord_str, winnt/EVENTLOGRECORD, winnt/PEVENTLOGRECORD"
 ms.prod: windows-hardware
 ms.technology: windows-devices

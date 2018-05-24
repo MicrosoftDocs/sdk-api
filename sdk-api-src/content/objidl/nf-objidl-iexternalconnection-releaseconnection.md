@@ -7,7 +7,7 @@ old-location: com\iexternalconnection_releaseconnection.htm
 old-project: com
 ms.assetid: 7ed598b2-9603-454a-99cf-849715e43ca1
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IExternalConnection interface [COM],ReleaseConnection method, IExternalConnection.ReleaseConnection, IExternalConnection::ReleaseConnection, ReleaseConnection, ReleaseConnection method [COM], ReleaseConnection method [COM],IExternalConnection interface, _com_iexternalconnection_releaseconnection, com.iexternalconnection_releaseconnection, objidlbase/IExternalConnection::ReleaseConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IExternalConnection::ReleaseConnection

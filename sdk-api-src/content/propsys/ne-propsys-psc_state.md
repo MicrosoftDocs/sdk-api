@@ -7,7 +7,7 @@ old-location: properties\PSC_STATE.htm
 old-project: properties
 ms.assetid: f6a09b32-e642-4c11-ae89-fed787b4913c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PSC_DIRTY, PSC_NORMAL, PSC_NOTINSOURCE, PSC_STATE, PSC_STATE enumeration [Windows Properties], properties.PSC_STATE, propsys/PSC_DIRTY, propsys/PSC_NORMAL, propsys/PSC_NOTINSOURCE, propsys/PSC_STATE, shell.PSC_STATE, shell_PSC_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSC_STATE enumeration

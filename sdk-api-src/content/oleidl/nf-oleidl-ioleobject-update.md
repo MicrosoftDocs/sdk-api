@@ -7,7 +7,7 @@ old-location: com\ioleobject_update.htm
 old-project: com
 ms.assetid: 1743f99b-4c3b-47be-b77b-1d3378a44903
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleObject interface [COM],Update method, IOleObject.Update, IOleObject::Update, Update, Update method [COM], Update method [COM],IOleObject interface, _ole_ioleobject_update, com.ioleobject_update, oleidl/IOleObject::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleObject::Update

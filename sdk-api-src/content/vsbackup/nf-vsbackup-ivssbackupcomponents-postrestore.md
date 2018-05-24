@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_postrestore.htm
 old-project: VSS
 ms.assetid: 01cf3931-59ef-4572-9f2e-aa210da0ac2d
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssBackupComponents interface [VSS],PostRestore method, IVssBackupComponents.PostRestore, IVssBackupComponents::PostRestore, PostRestore, PostRestore method [VSS], PostRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_postrestore, base.ivssbackupcomponents_postrestore, vsbackup/IVssBackupComponents::PostRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices

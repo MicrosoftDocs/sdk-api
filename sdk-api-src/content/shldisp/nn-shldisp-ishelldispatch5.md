@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch5.htm
 old-project: shell
 ms.assetid: 9170340a-0f11-4ec9-877d-fb7fef9888b2
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IShellDispatch5, IShellDispatch5 object [Windows Shell], IShellDispatch5 object [Windows Shell],described, _shell_IShellDispatch5, shell.IShellDispatch5, shldisp/IShellDispatch5
 ms.prod: windows-hardware
 ms.technology: windows-devices

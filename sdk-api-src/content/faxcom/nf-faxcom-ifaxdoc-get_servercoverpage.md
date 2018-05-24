@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_servercoverpage_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1d7p.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: FaxDoc object [Fax Service],ServerCoverpage property, FaxDoc.ServerCoverpage, IFaxDoc.get_ServerCoverpage, IFaxDoc::get_ServerCoverpage, ServerCoverpage property [Fax Service], ServerCoverpage property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_servercoverpage, fax._mfax_ifaxdoc_get_servercoverpage, fax._mfax_ifaxdoc_get_servercoverpage_vb, get_ServerCoverpage
 ms.prod: windows-hardware
 ms.technology: windows-devices

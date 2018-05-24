@@ -7,7 +7,7 @@ old-location: base\ivdsservice_unadvise.htm
 old-project: VDS
 ms.assetid: 085d380c-2e09-470a-a23d-704c31535975
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsService interface [VDS],Unadvise method, IVdsService.Unadvise, IVdsService::Unadvise, Unadvise, Unadvise method [VDS], Unadvise method [VDS],IVdsService interface, base.ivdsservice_unadvise, vds/IVdsService::Unadvise
 ms.prod: windows-hardware
 ms.technology: windows-devices

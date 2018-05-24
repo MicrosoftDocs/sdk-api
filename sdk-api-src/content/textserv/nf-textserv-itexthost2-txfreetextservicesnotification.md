@@ -7,7 +7,7 @@ old-location: controls\itexthost2_txfreetextservicesnotification.htm
 old-project: Controls
 ms.assetid: AD017B2A-C38E-4A55-AA31-84639BE87FA8
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxFreeTextServicesNotification method, ITextHost2.TxFreeTextServicesNotification, ITextHost2::TxFreeTextServicesNotification, TxFreeTextServicesNotification, TxFreeTextServicesNotification method [Windows Controls], TxFreeTextServicesNotification method [Windows Controls],ITextHost2 interface, controls.itexthost2_txfreetextservicesnotification, textserv/ITextHost2::TxFreeTextServicesNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

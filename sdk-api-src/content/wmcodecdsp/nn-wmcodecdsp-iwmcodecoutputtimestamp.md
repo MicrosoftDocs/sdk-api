@@ -7,7 +7,7 @@ old-location: mf\iwmcodecoutputtimestampinterface.htm
 old-project: medfound
 ms.assetid: 0dbac3fa-7521-434d-aa0a-2e8422c3da59
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IWMCodecOutputTimestamp, IWMCodecOutputTimestamp interface [Media Foundation], IWMCodecOutputTimestamp interface [Media Foundation],described, codecapi.iwmcodecoutputtimestampinterface, mf.iwmcodecoutputtimestampinterface, wmcodecdsp/IWMCodecOutputTimestamp
 ms.prod: windows-hardware
 ms.technology: windows-devices

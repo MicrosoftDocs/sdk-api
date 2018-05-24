@@ -7,7 +7,7 @@ old-location: mf\imfvideomixercontrol_setstreamoutputrect.htm
 old-project: medfound
 ms.assetid: 7075b8cf-2106-4b13-abc7-8aedae18bb62
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 7075b8cf-2106-4b13-abc7-8aedae18bb62, IMFVideoMixerControl interface [Media Foundation],SetStreamOutputRect method, IMFVideoMixerControl.SetStreamOutputRect, IMFVideoMixerControl::SetStreamOutputRect, SetStreamOutputRect, SetStreamOutputRect method [Media Foundation], SetStreamOutputRect method [Media Foundation],IMFVideoMixerControl interface, evr/IMFVideoMixerControl::SetStreamOutputRect, mf.imfvideomixercontrol_setstreamoutputrect
 ms.prod: windows-hardware
 ms.technology: windows-devices

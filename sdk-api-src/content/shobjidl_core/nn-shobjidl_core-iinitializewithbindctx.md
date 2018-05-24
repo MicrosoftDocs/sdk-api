@@ -7,7 +7,7 @@ old-location: shell\IInitializeWithBindCtx.htm
 old-project: shell
 ms.assetid: 0741c172-cd5a-4170-837f-774049fcab9d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IInitializeWithBindCtx, IInitializeWithBindCtx interface [Windows Shell], IInitializeWithBindCtx interface [Windows Shell],described, _shell_IInitializeWithBindCtx, shell.IInitializeWithBindCtx, shobjidl_core/IInitializeWithBindCtx
 ms.prod: windows-hardware
 ms.technology: windows-devices

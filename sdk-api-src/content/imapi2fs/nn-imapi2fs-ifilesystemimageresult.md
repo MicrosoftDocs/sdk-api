@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimageresult.htm
 old-project: imapi
 ms.assetid: 30ec514c-97b8-41fc-b814-11f50cacaa25
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFileSystemImageResult, IFileSystemImageResult interface [IMAPI], IFileSystemImageResult interface [IMAPI],described, imapi.ifilesystemimageresult, imapi2fs/IFileSystemImageResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

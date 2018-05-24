@@ -7,7 +7,7 @@ old-location: com\cocancelcall.htm
 old-project: com
 ms.assetid: 1707261c-2d8d-4f35-865d-61c8870c0624
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CoCancelCall, CoCancelCall function [COM], _com_CoCancelCall, com.cocancelcall, combaseapi/CoCancelCall
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\iwmsampleextensionsupportsetusesampleextensions.htm
 old-project: medfound
 ms.assetid: e268167e-4c29-45ec-9ce3-733374268113
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IWMSampleExtensionSupport interface [Media Foundation],SetUseSampleExtensions method, IWMSampleExtensionSupport.SetUseSampleExtensions, IWMSampleExtensionSupport::SetUseSampleExtensions, SetUseSampleExtensions, SetUseSampleExtensions method [Media Foundation], SetUseSampleExtensions method [Media Foundation],IWMSampleExtensionSupport interface, codecapi.iwmsampleextensionsupportsetusesampleextensions, mf.iwmsampleextensionsupportsetusesampleextensions, wmcodecdsp/ IWMSampleExtensionSupport::SetUseSampleExtensions
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IEnumIDList_Clone.htm
 old-project: shell
 ms.assetid: f0118153-25ea-42d6-90bf-b85ffd99b74b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumIDList interface, IEnumIDList interface [Windows Shell],Clone method, IEnumIDList.Clone, IEnumIDList::Clone, _win32_IEnumIDList_Clone, shell.IEnumIDList_Clone, shobjidl_core/IEnumIDList::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices

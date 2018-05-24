@@ -7,7 +7,7 @@ old-location: netmgmt\netapibuffersize.htm
 old-project: NetMgmt
 ms.assetid: 0c28feeb-00a3-4ad5-b85f-96326515fae2
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: NetApiBufferSize, NetApiBufferSize function [Network Management], _win32_netapibuffersize, lmapibuf/NetApiBufferSize, netmgmt.netapibuffersize
 ms.prod: windows-hardware
 ms.technology: windows-devices

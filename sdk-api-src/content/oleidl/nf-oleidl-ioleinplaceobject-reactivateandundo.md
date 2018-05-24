@@ -7,7 +7,7 @@ old-location: com\ioleinplaceobject_reactivateandundo.htm
 old-project: com
 ms.assetid: b41bbfd6-1a86-4ca6-9d4b-c87c4feea7c3
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleInPlaceObject interface [COM],ReactivateAndUndo method, IOleInPlaceObject.ReactivateAndUndo, IOleInPlaceObject::ReactivateAndUndo, ReactivateAndUndo, ReactivateAndUndo method [COM], ReactivateAndUndo method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_reactivateandundo, com.ioleinplaceobject_reactivateandundo, oleidl/IOleInPlaceObject::ReactivateAndUndo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleInPlaceObject::ReactivateAndUndo

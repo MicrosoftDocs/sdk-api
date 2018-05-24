@@ -7,7 +7,7 @@ old-location: shell\FOLDERLOGICALVIEWMODE.htm
 old-project: shell
 ms.assetid: 4b30a335-ed80-4774-82d4-bc93c95ee80c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: FLVM_CONTENT, FLVM_DETAILS, FLVM_FIRST, FLVM_ICONS, FLVM_LAST, FLVM_LIST, FLVM_TILES, FLVM_UNSPECIFIED, FOLDERLOGICALVIEWMODE, FOLDERLOGICALVIEWMODE enumeration [Windows Shell], _shell_FOLDERLOGICALVIEWMODE, shell.FOLDERLOGICALVIEWMODE, shobjidl_core/FLVM_CONTENT, shobjidl_core/FLVM_DETAILS, shobjidl_core/FLVM_FIRST, shobjidl_core/FLVM_ICONS, shobjidl_core/FLVM_LAST, shobjidl_core/FLVM_LIST, shobjidl_core/FLVM_TILES, shobjidl_core/FLVM_UNSPECIFIED, shobjidl_core/FOLDERLOGICALVIEWMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices

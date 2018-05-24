@@ -7,7 +7,7 @@ old-location: multimedia\mciwndreturnstring.htm
 old-project: Multimedia
 ms.assetid: 8e7d54ec-882b-4896-a493-3ed61aec6184
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: MCIWndReturnString, MCIWndReturnString macro [Windows Multimedia], _win32_MCIWndReturnString, multimedia.mciwndreturnstring, vfw/MCIWndReturnString
 ms.prod: windows-hardware
 ms.technology: windows-devices

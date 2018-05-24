@@ -7,7 +7,7 @@ old-location: base\ivdsdisk3_queryfreeextents.htm
 old-project: VDS
 ms.assetid: 0ca2ebb6-1394-48a2-972b-bdf43bf58ced
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsDisk3 interface,QueryFreeExtents method, IVdsDisk3.QueryFreeExtents, IVdsDisk3::QueryFreeExtents, QueryFreeExtents, QueryFreeExtents method, QueryFreeExtents method,IVdsDisk3 interface, base.ivdsdisk3_queryfreeextents, vds/IVdsDisk3::QueryFreeExtents
 ms.prod: windows-hardware
 ms.technology: windows-devices

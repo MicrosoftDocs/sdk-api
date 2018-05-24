@@ -7,7 +7,7 @@ old-location: tablet\inkcursor_tablet.htm
 old-project: tablet
 ms.assetid: 85bbf314-e1fe-43fb-b743-d648aa6a54cd
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 85bbf314-e1fe-43fb-b743-d648aa6a54cd, IInkCursor interface [Tablet PC],Tablet property, IInkCursor.Tablet, IInkCursor.get_Tablet, IInkCursor::Tablet, IInkCursor::get_Tablet, Tablet property [Tablet PC], Tablet property [Tablet PC],IInkCursor interface, get_Tablet, msinkaut/IInkCursor::Tablet, msinkaut/IInkCursor::get_Tablet, tablet.inkcursor_tablet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkCursor::get_Tablet

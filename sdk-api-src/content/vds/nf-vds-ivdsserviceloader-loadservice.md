@@ -7,7 +7,7 @@ old-location: base\ivdsserviceloader_loadservice.htm
 old-project: VDS
 ms.assetid: 26bb0a1f-37ad-4bb0-af6c-1063c5ccdc0f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsServiceLoader interface [VDS],LoadService method, IVdsServiceLoader.LoadService, IVdsServiceLoader::LoadService, LoadService, LoadService method [VDS], LoadService method [VDS],IVdsServiceLoader interface, base.ivdsserviceloader_loadservice, vds/IVdsServiceLoader::LoadService
 ms.prod: windows-hardware
 ms.technology: windows-devices

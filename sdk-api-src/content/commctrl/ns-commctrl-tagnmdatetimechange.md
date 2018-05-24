@@ -7,7 +7,7 @@ old-location: controls\NMDATETIMECHANGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimechange.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPNMDATETIMECHANGE, GDT_NONE, GDT_VALID, LPNMDATETIMECHANGE, LPNMDATETIMECHANGE structure pointer [Windows Controls], NMDATETIMECHANGE, NMDATETIMECHANGE structure [Windows Controls], _win32_NMDATETIMECHANGE, _win32_NMDATETIMECHANGE_cpp, commctrl/LPNMDATETIMECHANGE, commctrl/NMDATETIMECHANGE, controls.NMDATETIMECHANGE, controls._win32_NMDATETIMECHANGE, tagNMDATETIMECHANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

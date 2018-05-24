@@ -7,7 +7,7 @@ old-location: controls\NMCUSTOMSPLITRECTINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmcustomsplitrectinfo.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPNMCUSTOMSPLITRECTINFO, LPNMCUSTOMSPLITRECTINFO, LPNMCUSTOMSPLITRECTINFO structure pointer [Windows Controls], NMCUSTOMSPLITRECTINFO, NMCUSTOMSPLITRECTINFO structure [Windows Controls], _shell_NMCUSTOMSPLITRECTINFO, _shell_NMCUSTOMSPLITRECTINFO_cpp, commctrl/LPNMCUSTOMSPLITRECTINFO, commctrl/NMCUSTOMSPLITRECTINFO, controls.NMCUSTOMSPLITRECTINFO, controls._shell_NMCUSTOMSPLITRECTINFO, tagNMCUSTOMSPLITRECTINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

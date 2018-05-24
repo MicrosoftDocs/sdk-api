@@ -7,7 +7,7 @@ old-location: mf\opm_hdcp_protection_level.htm
 old-project: medfound
 ms.assetid: 698050e4-9726-49fa-85ed-9ae057e8c308
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: OPM_HDCP_FORCE_ULONG, OPM_HDCP_OFF, OPM_HDCP_ON, OPM_HDCP_PROTECTION_LEVEL, OPM_HDCP_PROTECTION_LEVEL enumeration [Media Foundation], _OPM_HDCP_PROTECTION_LEVEL, mf.opm_hdcp_protection_level, opmapi/OPM_HDCP_FORCE_ULONG, opmapi/OPM_HDCP_OFF, opmapi/OPM_HDCP_ON, opmapi/OPM_HDCP_PROTECTION_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _OPM_HDCP_PROTECTION_LEVEL enumeration

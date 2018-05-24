@@ -7,7 +7,7 @@ old-location: com\iviewobject_draw.htm
 old-project: com
 ms.assetid: 913593ff-07fe-44bd-88dc-8e58da82089b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: Draw, Draw method [COM], Draw method [COM],IViewObject interface, IViewObject interface [COM],Draw method, IViewObject.Draw, IViewObject::Draw, _ole_iviewobject_draw, com.iviewobject_draw, oleidl/IViewObject::Draw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IViewObject::Draw

@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimage_get_importedvolumename.htm
 old-project: imapi
 ms.assetid: 57d66dd3-2525-4102-bba7-00bad76a3d9c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_ImportedVolumeName method, IFileSystemImage.get_ImportedVolumeName, IFileSystemImage::get_ImportedVolumeName, get_ImportedVolumeName, get_ImportedVolumeName method [IMAPI], get_ImportedVolumeName method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_importedvolumename, imapi2fs/IFileSystemImage::get_ImportedVolumeName
 ms.prod: windows-hardware
 ms.technology: windows-devices

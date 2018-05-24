@@ -7,7 +7,7 @@ old-location: policy\igrouppolicyobject_getmachinename.htm
 old-project: Policy
 ms.assetid: 6ac20718-45d4-4a45-a95e-d159e4d6dacc
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: GetMachineName, GetMachineName method [Group Policy], GetMachineName method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetMachineName method, IGroupPolicyObject.GetMachineName, IGroupPolicyObject::GetMachineName, _win32_igrouppolicyobject_getmachinename, gpedit/IGroupPolicyObject::GetMachineName, policy.igrouppolicyobject_getmachinename
 ms.prod: windows-hardware
 ms.technology: windows-devices

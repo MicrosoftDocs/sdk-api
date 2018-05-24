@@ -7,7 +7,7 @@ old-location: mf\mf_opm_cgmsa_protection_level.htm
 old-project: medfound
 ms.assetid: EEFE04F7-E878-4F09-B973-B0FD3E9431AA
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MF_OPM_CGMSA_COPY_FREELY, MF_OPM_CGMSA_COPY_NEVER, MF_OPM_CGMSA_COPY_NO_MORE, MF_OPM_CGMSA_COPY_ONE_GENERATION, MF_OPM_CGMSA_OFF, MF_OPM_CGMSA_PROTECTION_LEVEL, MF_OPM_CGMSA_PROTECTION_LEVEL enumeration [Media Foundation], MF_OPM_CGMSA_REDISTRIBUTION_CONTROL_REQUIRED, _MF_OPM_CGMSA_PROTECTION_LEVEL, mf.mf_opm_cgmsa_protection_level, mfidl/MF_OPM_CGMSA_COPY_FREELY, mfidl/MF_OPM_CGMSA_COPY_NEVER, mfidl/MF_OPM_CGMSA_COPY_NO_MORE, mfidl/MF_OPM_CGMSA_COPY_ONE_GENERATION, mfidl/MF_OPM_CGMSA_OFF, mfidl/MF_OPM_CGMSA_PROTECTION_LEVEL, mfidl/MF_OPM_CGMSA_REDISTRIBUTION_CONTROL_REQUIRED
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IStartMenuPinnedList_RemoveFromList.htm
 old-project: shell
 ms.assetid: 8c725c4b-4de6-433b-a647-3c13674084f2
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IStartMenuPinnedList interface [Windows Shell],RemoveFromList method, IStartMenuPinnedList.RemoveFromList, IStartMenuPinnedList::RemoveFromList, RemoveFromList, RemoveFromList method [Windows Shell], RemoveFromList method [Windows Shell],IStartMenuPinnedList interface, _shell_IStartMenuPinnedList_RemoveFromList, shell.IStartMenuPinnedList_RemoveFromList, shobjidl/IStartMenuPinnedList::RemoveFromList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: stg\ilockbytes_readat.htm
 old-project: Stg
 ms.assetid: 0478d6f0-65c4-445b-946a-692f2373e8f1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: ILockBytes interface [Structured Storage],ReadAt method, ILockBytes.ReadAt, ILockBytes::ReadAt, ReadAt, ReadAt method [Structured Storage], ReadAt method [Structured Storage],ILockBytes interface, _stg_ilockbytes_readat, objidl/ILockBytes::ReadAt, stg.ilockbytes_readat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ILockBytes::ReadAt

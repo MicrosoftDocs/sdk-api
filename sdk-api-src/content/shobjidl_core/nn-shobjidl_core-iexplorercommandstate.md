@@ -7,7 +7,7 @@ old-location: shell\IExplorerCommandState.htm
 old-project: shell
 ms.assetid: 020a6f6f-1d45-44bd-a57f-ef8000976b5b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IExplorerCommandState, IExplorerCommandState interface [Windows Shell], IExplorerCommandState interface [Windows Shell],described, _shell_IExplorerCommandState, shell.IExplorerCommandState, shobjidl_core/IExplorerCommandState
 ms.prod: windows-hardware
 ms.technology: windows-devices

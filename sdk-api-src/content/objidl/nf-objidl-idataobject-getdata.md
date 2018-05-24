@@ -7,7 +7,7 @@ old-location: com\idataobject_getdata.htm
 old-project: com
 ms.assetid: 05118461-0438-4715-b2c2-fc2471ce38f0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetData, GetData method [COM], GetData method [COM],IDataObject interface, IDataObject interface [COM],GetData method, IDataObject.GetData, IDataObject::GetData, _ole_idataobject_getdata, com.idataobject_getdata, objidl/IDataObject::GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataObject::GetData

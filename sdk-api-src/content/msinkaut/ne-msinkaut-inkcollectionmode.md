@@ -7,7 +7,7 @@ old-location: tablet\inkcollectionmode.htm
 old-project: tablet
 ms.assetid: 41928d0a-e485-4542-860c-5ffd260d3cb8
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 41928d0a-e485-4542-860c-5ffd260d3cb8, ICM_GestureOnly, ICM_InkAndGesture, ICM_InkOnly, InkCollectionMode, InkCollectionMode enumeration [Tablet PC], msinkaut/ICM_GestureOnly, msinkaut/ICM_InkAndGesture, msinkaut/ICM_InkOnly, msinkaut/InkCollectionMode, tablet.inkcollectionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkCollectionMode enumeration

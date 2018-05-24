@@ -7,7 +7,7 @@ old-location: properties\PROPVAR_COMPARE_UNIT.htm
 old-project: properties
 ms.assetid: 5bcc479e-8f33-408a-a82f-3c9e4ce53bb8
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PROPVAR_COMPARE_UNIT, PROPVAR_COMPARE_UNIT enumeration [Windows Properties], PVCU_DAY, PVCU_DEFAULT, PVCU_HOUR, PVCU_MINUTE, PVCU_MONTH, PVCU_SECOND, PVCU_YEAR, _shell_PROPVAR_COMPARE_UNIT, properties.PROPVAR_COMPARE_UNIT, propvarutil/PROPVAR_COMPARE_UNIT, propvarutil/PVCU_DAY, propvarutil/PVCU_DEFAULT, propvarutil/PVCU_HOUR, propvarutil/PVCU_MINUTE, propvarutil/PVCU_MONTH, propvarutil/PVCU_SECOND, propvarutil/PVCU_YEAR, shell.PROPVAR_COMPARE_UNIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0.6001 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PROPVAR_COMPARE_UNIT enumeration

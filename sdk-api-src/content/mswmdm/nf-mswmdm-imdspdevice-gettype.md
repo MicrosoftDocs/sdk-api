@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice_gettype.htm
 old-project: WMDM
 ms.assetid: 15e598bb-bcc9-4254-aa1c-24d7dd6b97a8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetType, GetType method [windows Media Device Manager], GetType method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetType method, IMDSPDevice.GetType, IMDSPDevice::GetType, IMDSPDeviceGetType, mswmdm/IMDSPDevice::GetType, wmdm.imdspdevice_gettype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPDevice::GetType

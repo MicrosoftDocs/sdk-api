@@ -7,7 +7,7 @@ old-location: termserv\wtsstopremotecontrolsession.htm
 old-project: TermServ
 ms.assetid: 65e5b584-4ffc-4b89-992e-7ada7df0262b
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: WTSStopRemoteControlSession, WTSStopRemoteControlSession function [Remote Desktop Services], termserv.wtsstopremotecontrolsession, wtsapi32/WTSStopRemoteControlSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

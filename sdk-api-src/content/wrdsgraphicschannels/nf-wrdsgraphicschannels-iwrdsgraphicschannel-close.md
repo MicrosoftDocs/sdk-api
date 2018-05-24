@@ -7,7 +7,7 @@ old-location: termserv\iwrdsgraphicschannel_close.htm
 old-project: TermServ
 ms.assetid: 6e3fb05d-0f5b-4ac3-b121-e6a1662c6ea2
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWRdsGraphicsChannel interface, IWRdsGraphicsChannel interface [Remote Desktop Services],Close method, IWRdsGraphicsChannel.Close, IWRdsGraphicsChannel::Close, termserv.iwrdsgraphicschannel_close, wrdsgraphicschannels/IWRdsGraphicsChannel::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices

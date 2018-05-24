@@ -7,7 +7,7 @@ old-location: mf\imfsamistyle_setselectedstyle.htm
 old-project: medfound
 ms.assetid: f7179756-517b-400b-8676-fd9ab5bbe74c
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFSAMIStyle interface [Media Foundation],SetSelectedStyle method, IMFSAMIStyle.SetSelectedStyle, IMFSAMIStyle::SetSelectedStyle, SetSelectedStyle, SetSelectedStyle method [Media Foundation], SetSelectedStyle method [Media Foundation],IMFSAMIStyle interface, f7179756-517b-400b-8676-fd9ab5bbe74c, mf.imfsamistyle_setselectedstyle, mfidl/IMFSAMIStyle::SetSelectedStyle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: security\authzmodifysids.htm
 old-project: SecAuthZ
 ms.assetid: 740569A5-6159-409B-B8CB-B3A8BAE4F398
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AuthzModifySids, AuthzModifySids function [Security], authz/AuthzModifySids, security.authzmodifysids
 ms.prod: windows-hardware
 ms.technology: windows-devices

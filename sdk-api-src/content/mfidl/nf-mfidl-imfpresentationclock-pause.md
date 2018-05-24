@@ -7,7 +7,7 @@ old-location: mf\imfpresentationclock_pause.htm
 old-project: medfound
 ms.assetid: 2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0, IMFPresentationClock interface [Media Foundation],Pause method, IMFPresentationClock.Pause, IMFPresentationClock::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFPresentationClock interface, mf.imfpresentationclock_pause, mfidl/IMFPresentationClock::Pause
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

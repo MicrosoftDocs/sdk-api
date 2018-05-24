@@ -7,7 +7,7 @@ old-location: shell\IObjectWithPropertyKey_GetPropertyKey.htm
 old-project: shell
 ms.assetid: e864f1d2-b83e-4196-8cd4-a7c7fdcddfec
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetPropertyKey, GetPropertyKey method [Windows Shell], GetPropertyKey method [Windows Shell],IObjectWithPropertyKey interface, IObjectWithPropertyKey interface [Windows Shell],GetPropertyKey method, IObjectWithPropertyKey.GetPropertyKey, IObjectWithPropertyKey::GetPropertyKey, _shell_IObjectWithPropertyKey_GetPropertyKey, propsys/IObjectWithPropertyKey::GetPropertyKey, shell.IObjectWithPropertyKey_GetPropertyKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IObjectWithPropertyKey::GetPropertyKey

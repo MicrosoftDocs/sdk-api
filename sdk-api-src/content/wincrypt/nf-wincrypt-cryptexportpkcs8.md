@@ -7,7 +7,7 @@ old-location: security\cryptexportpkcs8.htm
 old-project: SecCrypto
 ms.assetid: defd0b23-d9c2-4b28-a6a6-1be7487ae656
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptExportPKCS8, CryptExportPKCS8 function [Security], security.cryptexportpkcs8, wincrypt/CryptExportPKCS8
 ms.prod: windows-hardware
 ms.technology: windows-devices

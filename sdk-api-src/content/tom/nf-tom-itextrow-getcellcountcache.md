@@ -7,7 +7,7 @@ old-location: controls\itextrow_getcellcountcache.htm
 old-project: Controls
 ms.assetid: e94abbcb-2a7a-4904-a832-0d2158d49010
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetCellCountCache, GetCellCountCache method [Windows Controls], GetCellCountCache method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellCountCache method, ITextRow.GetCellCountCache, ITextRow::GetCellCountCache, controls.itextrow_getcellcountcache, tom/ITextRow::GetCellCountCache
 ms.prod: windows-hardware
 ms.technology: windows-devices

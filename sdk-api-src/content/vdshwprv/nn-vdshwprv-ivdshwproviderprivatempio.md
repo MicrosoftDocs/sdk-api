@@ -7,7 +7,7 @@ old-location: base\ivdshwproviderprivatempio.htm
 old-project: VDS
 ms.assetid: fa60e832-1148-4ffb-bf70-bd7b27180cdd
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsHwProviderPrivateMpio, IVdsHwProviderPrivateMpio interface [VDS], IVdsHwProviderPrivateMpio interface [VDS],described, base.ivdshwproviderprivatempio, vdshwprv/IVdsHwProviderPrivateMpio
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\readeventlog.htm
 old-project: EventLog
 ms.assetid: 10b37174-661a-4dc6-a7fe-752739494156
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: EVENTLOG_BACKWARDS_READ, EVENTLOG_FORWARDS_READ, EVENTLOG_SEEK_READ, EVENTLOG_SEQUENTIAL_READ, ReadEventLog, ReadEventLog function, ReadEventLogA, ReadEventLogW, _win32_readeventlog, base.readeventlog, winbase/ReadEventLog, winbase/ReadEventLogA, winbase/ReadEventLogW
 ms.prod: windows-hardware
 ms.technology: windows-devices

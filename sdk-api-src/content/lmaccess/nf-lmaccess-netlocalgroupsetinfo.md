@@ -7,7 +7,7 @@ old-location: netmgmt\netlocalgroupsetinfo.htm
 old-project: NetMgmt
 ms.assetid: c1d2a68b-0910-4815-9547-0f0f3c983164
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: 0, 1, 1002, NetLocalGroupSetInfo, NetLocalGroupSetInfo function [Network Management], _win32_netlocalgroupsetinfo, lmaccess/NetLocalGroupSetInfo, netmgmt.netlocalgroupsetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

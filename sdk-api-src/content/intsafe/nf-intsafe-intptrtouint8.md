@@ -7,7 +7,7 @@ old-location: shell\IntPtrToUInt8.htm
 old-project: shell
 ms.assetid: d1337a8a-0a7a-41a1-b57b-f20d8a616113
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IntPtrToUInt8, IntPtrToUInt8 function [Windows Shell], intsafe/IntPtrToUInt8, shell.IntPtrToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices

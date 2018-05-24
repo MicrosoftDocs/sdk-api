@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagetrackinfo.htm
 old-project: imapi
 ms.assetid: 5d074279-35fb-48d0-b298-c1a83f57d805
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IRawCDImageTrackInfo, IRawCDImageTrackInfo interface [IMAPI], IRawCDImageTrackInfo interface [IMAPI],described, imapi.irawcdimagetrackinfo, imapi2/IRawCDImageTrackInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

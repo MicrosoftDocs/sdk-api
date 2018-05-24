@@ -7,7 +7,7 @@ old-location: netmgmt\net_validate_output_arg.htm
 old-project: NetMgmt
 ms.assetid: 833c89c3-34ba-485b-a310-1d709aa618cd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: "*PNET_VALIDATE_OUTPUT_ARG, NET_VALIDATE_OUTPUT_ARG, NET_VALIDATE_OUTPUT_ARG structure [Network Management], PNET_VALIDATE_OUTPUT_ARG, PNET_VALIDATE_OUTPUT_ARG structure pointer [Network Management], _NET_VALIDATE_OUTPUT_ARG, lmaccess/NET_VALIDATE_OUTPUT_ARG, lmaccess/PNET_VALIDATE_OUTPUT_ARG, netmgmt.net_validate_output_arg"
 ms.prod: windows-hardware
 ms.technology: windows-devices

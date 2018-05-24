@@ -7,7 +7,7 @@ old-location: security\lsaenumeratetrusteddomains.htm
 old-project: SecMgmt
 ms.assetid: 5c371d5a-26cf-4a99-a8e1-006b6b3cc91f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: LsaEnumerateTrustedDomains, LsaEnumerateTrustedDomains function [Security], _lsa_lsaenumeratetrusteddomains, ntsecapi/LsaEnumerateTrustedDomains, security.lsaenumeratetrusteddomains
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,7 +46,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LsaEnumerateTrustedDomains function

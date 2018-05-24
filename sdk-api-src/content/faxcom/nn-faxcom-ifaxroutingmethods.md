@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxroutingmethods.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6smr.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFaxRoutingMethods, IFaxRoutingMethods interface [Fax Service], IFaxRoutingMethods interface [Fax Service],described, _mfax_ifaxroutingmethods, fax._mfax_ifaxroutingmethods, faxcom/IFaxRoutingMethods
 ms.prod: windows-hardware
 ms.technology: windows-devices

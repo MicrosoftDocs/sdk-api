@@ -7,7 +7,7 @@ old-location: shell\IEnumSyncMgrEvents.htm
 old-project: shell
 ms.assetid: 74d0c373-e9b1-4d9c-bdb6-caa743938e32
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumSyncMgrEvents, IEnumSyncMgrEvents interface [Windows Shell], IEnumSyncMgrEvents interface [Windows Shell],described, _shell_IEnumSyncMgrEvents, shell.IEnumSyncMgrEvents, syncmgr/IEnumSyncMgrEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

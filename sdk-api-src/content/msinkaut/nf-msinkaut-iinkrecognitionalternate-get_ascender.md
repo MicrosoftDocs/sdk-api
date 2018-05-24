@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_ascender.htm
 old-project: tablet
 ms.assetid: 4cc7bd86-e098-4de7-a73a-b878cba37e88
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 4cc7bd86-e098-4de7-a73a-b878cba37e88, Ascender property [Tablet PC], Ascender property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],Ascender property, IInkRecognitionAlternate.Ascender, IInkRecognitionAlternate.get_Ascender, IInkRecognitionAlternate::Ascender, IInkRecognitionAlternate::get_Ascender, get_Ascender, msinkaut/IInkRecognitionAlternate::Ascender, msinkaut/IInkRecognitionAlternate::get_Ascender, tablet.iinkrecognitionalternate_ascender
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognitionAlternate::get_Ascender

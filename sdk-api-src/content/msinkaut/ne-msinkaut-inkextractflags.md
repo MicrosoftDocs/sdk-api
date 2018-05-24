@@ -7,7 +7,7 @@ old-location: tablet\inkextractflags.htm
 old-project: tablet
 ms.assetid: 22dd44bb-2175-420f-b5fd-4648ebe489a5
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 22dd44bb-2175-420f-b5fd-4648ebe489a5, IEF_CopyFromOriginal, IEF_Default, IEF_RemoveFromOriginal, InkExtractFlags, InkExtractFlags enumeration [Tablet PC], msinkaut/IEF_CopyFromOriginal, msinkaut/IEF_Default, msinkaut/IEF_RemoveFromOriginal, msinkaut/InkExtractFlags, tablet.inkextractflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkExtractFlags enumeration

@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_gettextdecoration.htm
 old-project: medfound
 ms.assetid: 5B987C19-5F59-4B5D-BA40-341FA4B3CD35
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetTextDecoration, GetTextDecoration method [Media Foundation], GetTextDecoration method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetTextDecoration method, IMFTimedTextStyle.GetTextDecoration, IMFTimedTextStyle::GetTextDecoration, mf.imftimedtextstyle_gettextdecoration, mfmediaengine/IMFTimedTextStyle::GetTextDecoration
 ms.prod: windows-hardware
 ms.technology: windows-devices

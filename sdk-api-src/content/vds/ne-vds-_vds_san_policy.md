@@ -7,7 +7,7 @@ old-location: base\vds_san_policy.htm
 old-project: VDS
 ms.assetid: 2da99388-8ee6-4e6b-98dc-52f12290c4dc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_SAN_POLICY, VDS_SAN_POLICY enumeration, VDS_SP_OFFLINE, VDS_SP_OFFLINE_SHARED, VDS_SP_ONLINE, VDS_SP_UNKNOWN, _VDS_SAN_POLICY, base.vds_san_policy, vds/VDS_SAN_POLICY, vds/VDS_SP_OFFLINE, vds/VDS_SP_OFFLINE_SHARED, vds/VDS_SP_ONLINE, vds/VDS_SP_UNKNOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices

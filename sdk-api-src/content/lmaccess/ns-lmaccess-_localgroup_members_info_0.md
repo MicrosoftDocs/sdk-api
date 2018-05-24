@@ -7,7 +7,7 @@ old-location: netmgmt\localgroup_members_info_0_str.htm
 old-project: NetMgmt
 ms.assetid: e559cd90-942c-442a-b57f-7d2024523455
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPLOCALGROUP_MEMBERS_INFO_0, *PLOCALGROUP_MEMBERS_INFO_0, LOCALGROUP_MEMBERS_INFO_0, LOCALGROUP_MEMBERS_INFO_0 structure [Network Management], _LOCALGROUP_MEMBERS_INFO_0, _win32_localgroup_members_info_0_str, lmaccess/LOCALGROUP_MEMBERS_INFO_0, netmgmt.localgroup_members_info_0_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

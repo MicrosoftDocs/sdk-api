@@ -7,7 +7,7 @@ old-location: shell\ICategoryProvider.htm
 old-project: shell
 ms.assetid: bab74832-6f24-4f3a-b8cb-68506f293b3c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ICategoryProvider, ICategoryProvider interface [Windows Shell], ICategoryProvider interface [Windows Shell],described, inet_ICategoryProvider, shell.ICategoryProvider, shobjidl_core/ICategoryProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivdslunmpio_getpathinfo.htm
 old-project: VDS
 ms.assetid: c7cc1abf-c7f2-4260-b9d2-f70128276e1e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetPathInfo, GetPathInfo method [VDS], GetPathInfo method [VDS],IVdsLunMpio interface, IVdsLunMpio interface [VDS],GetPathInfo method, IVdsLunMpio.GetPathInfo, IVdsLunMpio::GetPathInfo, base.ivdslunmpio_getpathinfo, vds/IVdsLunMpio::GetPathInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

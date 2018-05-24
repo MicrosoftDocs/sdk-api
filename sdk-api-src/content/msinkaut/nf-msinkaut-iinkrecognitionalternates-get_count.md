@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternates_count.htm
 old-project: tablet
 ms.assetid: 2bcca92c-ba9f-437f-b7a9-6056da243d1a
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkRecognitionAlternates interface, IInkRecognitionAlternates interface [Tablet PC],Count property, IInkRecognitionAlternates.Count, IInkRecognitionAlternates.get_Count, IInkRecognitionAlternates::Count, IInkRecognitionAlternates::get_Count, get_Count, msinkaut/IInkRecognitionAlternates::Count, msinkaut/IInkRecognitionAlternates::get_Count, tablet.iinkrecognitionalternates_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognitionAlternates::get_Count

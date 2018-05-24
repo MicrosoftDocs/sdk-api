@@ -7,7 +7,7 @@ old-location: policy\installspec_union.htm
 old-project: Policy
 ms.assetid: e9c1b943-9cb0-480f-8ab7-0f439087216a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: INSTALLSPEC, INSTALLSPEC union [Group Policy], _INSTALLSPEC, appmgmt/INSTALLSPEC, policy.installspec_union
 ms.prod: windows-hardware
 ms.technology: windows-devices

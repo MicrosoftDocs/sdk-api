@@ -7,7 +7,7 @@ old-location: netvista\nl_router_discovery_behavior.htm
 old-project: netvista
 ms.assetid: d3a0d872-c90a-4eb5-9011-c5913b9912c6
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/21/2018
 ms.keywords: NL_ROUTER_DISCOVERY_BEHAVIOR, NL_ROUTER_DISCOVERY_BEHAVIOR enumeration [Network Drivers Starting with Windows Vista], RouterDiscoveryDhcp, RouterDiscoveryDisabled, RouterDiscoveryEnabled, RouterDiscoveryUnchanged, _NL_ROUTER_DISCOVERY_BEHAVIOR, iphelper_fbaacfeb-efe8-45a1-8cf9-c600ed0214e0.xml, netvista.nl_router_discovery_behavior, nldef/NL_ROUTER_DISCOVERY_BEHAVIOR, nldef/RouterDiscoveryDhcp, nldef/RouterDiscoveryDisabled, nldef/RouterDiscoveryEnabled, nldef/RouterDiscoveryUnchanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Newdev.lib
 req.dll: Newdev.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NL_ROUTER_DISCOVERY_BEHAVIOR enumeration

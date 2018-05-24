@@ -7,7 +7,7 @@ old-location: mf\iadvancedmediacapture.htm
 old-project: medfound
 ms.assetid: 932b0cbf-c264-4c3b-b143-023dd7f809f1
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IAdvancedMediaCapture, IAdvancedMediaCapture interface [Media Foundation], IAdvancedMediaCapture interface [Media Foundation],described, mf.iadvancedmediacapture, mfmediacapture/IAdvancedMediaCapture
 ms.prod: windows-hardware
 ms.technology: windows-devices

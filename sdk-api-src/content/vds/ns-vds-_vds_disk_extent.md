@@ -7,7 +7,7 @@ old-location: base\vds_disk_extent.htm
 old-project: VDS
 ms.assetid: 79fa7b8a-9d24-49ab-8e5d-1471b023c459
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: "*PVDS_DISK_EXTENT, PVDS_DISK_EXTENT, PVDS_DISK_EXTENT structure pointer [VDS], VDS_DISK_EXTENT, VDS_DISK_EXTENT structure [VDS], _VDS_DISK_EXTENT, base.vds_disk_extent, vds/PVDS_DISK_EXTENT, vds/_VDS_DISK_EXTENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

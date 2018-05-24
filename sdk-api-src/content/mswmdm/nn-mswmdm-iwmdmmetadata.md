@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmmetadata.htm
 old-project: WMDM
 ms.assetid: ea57a851-0b9f-444c-9819-a278f2ece2b0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IWMDMMetaData, IWMDMMetaData interface [windows Media Device Manager], IWMDMMetaData interface [windows Media Device Manager],described, IWMDMMetaDataInterface, mswmdm/IWMDMMetaData, wmdm.iwmdmmetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMMetaData interface

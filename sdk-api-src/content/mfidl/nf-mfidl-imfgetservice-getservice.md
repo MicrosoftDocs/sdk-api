@@ -7,7 +7,7 @@ old-location: mf\imfgetservice_getservice.htm
 old-project: medfound
 ms.assetid: 4287dd1f-1718-4231-bc62-b58e0e61d688
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 4287dd1f-1718-4231-bc62-b58e0e61d688, GetService, GetService method [Media Foundation], GetService method [Media Foundation],IMFGetService interface, IMFGetService interface [Media Foundation],GetService method, IMFGetService.GetService, IMFGetService::GetService, mf.imfgetservice_getservice, mfidl/IMFGetService::GetService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

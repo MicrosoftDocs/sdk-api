@@ -7,7 +7,7 @@ old-location: base\ivsscreatewritermetadata_adddatabasefiles.htm
 old-project: VSS
 ms.assetid: 37ef5e50-127d-4bd0-9d26-04dc7781b3ff
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: AddDatabaseFiles, AddDatabaseFiles method [VSS], AddDatabaseFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddDatabaseFiles method, IVssCreateWriterMetadata.AddDatabaseFiles, IVssCreateWriterMetadata::AddDatabaseFiles, _win32_ivsscreatewritermetadata_adddatabasefiles, base.ivsscreatewritermetadata_adddatabasefiles, vswriter/IVssCreateWriterMetadata::AddDatabaseFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

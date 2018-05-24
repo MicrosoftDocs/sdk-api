@@ -7,7 +7,7 @@ old-location: properties\VariantToInt16ArrayAlloc.htm
 old-project: properties
 ms.assetid: 616c9d03-f641-49e3-af95-80ebaea3e8aa
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: VariantToInt16ArrayAlloc, VariantToInt16ArrayAlloc function [Windows Properties], _shell_VariantToInt16ArrayAlloc, properties.VariantToInt16ArrayAlloc, propvarutil/VariantToInt16ArrayAlloc, shell.VariantToInt16ArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantToInt16ArrayAlloc function

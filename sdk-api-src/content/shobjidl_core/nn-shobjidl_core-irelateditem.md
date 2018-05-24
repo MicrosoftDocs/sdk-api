@@ -7,7 +7,7 @@ old-location: shell\IRelatedItem.htm
 old-project: shell
 ms.assetid: f42d218c-0251-45e0-b05a-f1ccdcaf036c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IRelatedItem, IRelatedItem interface [Windows Shell], IRelatedItem interface [Windows Shell],described, _shell_IRelatedItem, shell.IRelatedItem, shobjidl_core/IRelatedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

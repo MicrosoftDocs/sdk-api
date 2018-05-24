@@ -7,7 +7,7 @@ old-location: mf\mfp_mediaitem_created_event.htm
 old-project: medfound
 ms.assetid: 68e4076f-c03c-4780-9731-67eb6e78ec8b
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFP_MEDIAITEM_CREATED_EVENT, MFP_MEDIAITEM_CREATED_EVENT structure [Media Foundation], mf.mfp_mediaitem_created_event, mfplay/MFP_MEDIAITEM_CREATED_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

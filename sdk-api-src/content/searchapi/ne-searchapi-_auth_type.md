@@ -7,7 +7,7 @@ old-location: search\_search_AUTH_TYPE.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\auth_type.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: AUTH_TYPE, AUTH_TYPE enumeration [search], _AUTH_TYPE, _search_AUTH_TYPE, eAUTH_TYPE_ANONYMOUS, eAUTH_TYPE_BASIC, eAUTH_TYPE_NTLM, search._search_AUTH_TYPE, searchapi/AUTH_TYPE, searchapi/eAUTH_TYPE_ANONYMOUS, searchapi/eAUTH_TYPE_BASIC, searchapi/eAUTH_TYPE_NTLM
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _AUTH_TYPE enumeration

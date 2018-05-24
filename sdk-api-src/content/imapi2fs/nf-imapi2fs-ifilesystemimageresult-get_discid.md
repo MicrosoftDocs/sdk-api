@@ -7,7 +7,7 @@ old-location: imapi\ifilesystemimageresult_get_discid.htm
 old-project: imapi
 ms.assetid: 2288b4e4-6f36-4830-a077-dcf710741911
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_DiscId method, IFileSystemImageResult.get_DiscId, IFileSystemImageResult::get_DiscId, get_DiscId, get_DiscId method [IMAPI], get_DiscId method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_discid, imapi2fs/IFileSystemImageResult::get_DiscId
 ms.prod: windows-hardware
 ms.technology: windows-devices

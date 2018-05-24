@@ -7,7 +7,7 @@ old-location: security\indespolicy_initialize.htm
 old-project: SecCrypto
 ms.assetid: 654b4e1d-f717-459a-bbf5-dcc733756608
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: INDESPolicy interface [Security],Initialize method, INDESPolicy.Initialize, INDESPolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],INDESPolicy interface, certpol/INDESPolicy::Initialize, security.indespolicy_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\cvsswriter_onidentify.htm
 old-project: VSS
 ms.assetid: 542d479a-695a-4b1f-94e7-f2ffa08440b7
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: CVssWriter interface [VSS],OnIdentify method, CVssWriter.OnIdentify, CVssWriter::OnIdentify, OnIdentify, OnIdentify method [VSS], OnIdentify method [VSS],CVssWriter interface, _win32_cvsswriter_onidentify, base.cvsswriter_onidentify, vswriter/CVssWriter::OnIdentify
 ms.prod: windows-hardware
 ms.technology: windows-devices

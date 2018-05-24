@@ -7,7 +7,7 @@ old-location: mf\imfoutputpolicy.htm
 old-project: medfound
 ms.assetid: 76af8e03-9584-4f4b-ab2c-8a0ff2c3485b
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 76af8e03-9584-4f4b-ab2c-8a0ff2c3485b, IMFOutputPolicy, IMFOutputPolicy interface [Media Foundation], IMFOutputPolicy interface [Media Foundation],described, mf.imfoutputpolicy, mfidl/IMFOutputPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

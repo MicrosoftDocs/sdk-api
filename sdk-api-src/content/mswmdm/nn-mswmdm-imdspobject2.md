@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject2.htm
 old-project: WMDM
 ms.assetid: f79c07a6-b7e6-4c00-83be-ac2bfc9a751b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IMDSPObject2, IMDSPObject2 interface [windows Media Device Manager], IMDSPObject2 interface [windows Media Device Manager],described, IMDSPObject2Interface, mswmdm/IMDSPObject2, wmdm.imdspobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPObject2 interface

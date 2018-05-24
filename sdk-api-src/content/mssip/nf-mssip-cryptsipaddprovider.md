@@ -7,7 +7,7 @@ old-location: security\cryptsipaddprovider.htm
 old-project: SecCrypto
 ms.assetid: 99633c2f-e5ed-49e4-9c98-7501f66e5571
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CryptSIPAddProvider, CryptSIPAddProvider function [Security], mssip/CryptSIPAddProvider, security.cryptsipaddprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CryptSIPAddProvider function

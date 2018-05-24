@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_getencryptionbltkey.htm
 old-project: medfound
 ms.assetid: B62BE7CB-75FA-45E9-9AB7-83738DFE3B19
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetEncryptionBltKey, GetEncryptionBltKey method [Media Foundation], GetEncryptionBltKey method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],GetEncryptionBltKey method, ID3D11VideoContext.GetEncryptionBltKey, ID3D11VideoContext::GetEncryptionBltKey, d3d11/ID3D11VideoContext::GetEncryptionBltKey, mf.id3d11videocontext_getencryptionbltkey
 ms.prod: windows-hardware
 ms.technology: windows-devices

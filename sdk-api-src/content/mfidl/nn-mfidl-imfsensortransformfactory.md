@@ -7,7 +7,7 @@ old-location: mf\imfsensortransformfactory.htm
 old-project: medfound
 ms.assetid: 291EA582-22E3-4646-8E89-74162E98203F
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFSensorTransformFactory, IMFSensorTransformFactory interface [Media Foundation], IMFSensorTransformFactory interface [Media Foundation],described, mf.imfsensortransformfactory, mfidl/IMFSensorTransformFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

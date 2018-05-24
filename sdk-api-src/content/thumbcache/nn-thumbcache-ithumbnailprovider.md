@@ -7,7 +7,7 @@ old-location: shell\IThumbnailProvider.htm
 old-project: shell
 ms.assetid: 55c4739a-4835-4f53-a435-804ddf06ffcf
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IThumbnailProvider, IThumbnailProvider interface [Windows Shell], IThumbnailProvider interface [Windows Shell],described, _shell_IThumbnailProvider, shell.IThumbnailProvider, thumbcache/IThumbnailProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

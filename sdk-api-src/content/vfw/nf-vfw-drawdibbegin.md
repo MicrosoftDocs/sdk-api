@@ -7,7 +7,7 @@ old-location: multimedia\drawdibbegin.htm
 old-project: Multimedia
 ms.assetid: 89178e33-e440-49fe-9900-0baea229d289
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: DrawDibBegin, DrawDibBegin function [Windows Multimedia], _win32_DrawDibBegin, multimedia.drawdibbegin, vfw/DrawDibBegin
 ms.prod: windows-hardware
 ms.technology: windows-devices

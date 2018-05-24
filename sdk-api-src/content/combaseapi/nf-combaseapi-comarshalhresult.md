@@ -7,7 +7,7 @@ old-location: com\comarshalhresult.htm
 old-project: com
 ms.assetid: 37aaf404-49ca-4881-a369-44c5288abf1d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CoMarshalHresult, CoMarshalHresult function [COM], _com_CoMarshalHresult, com.comarshalhresult, combaseapi/CoMarshalHresult
 ms.prod: windows-hardware
 ms.technology: windows-devices

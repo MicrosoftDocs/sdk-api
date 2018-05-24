@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol_insert.htm
 old-project: WMDM
 ms.assetid: 909b94fd-99de-4e26-87d6-d074a6eb5da3
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Insert method, IWMDMStorageControl.Insert, IWMDMStorageControl::Insert, IWMDMStorageControlInsert, Insert, Insert method [windows Media Device Manager], Insert method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Insert, wmdm.iwmdmstoragecontrol_insert
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMStorageControl::Insert

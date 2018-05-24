@@ -7,7 +7,7 @@ old-location: rm\drmgetnameanddescription.htm
 old-project: AdRms_Sdk
 ms.assetid: 9e04ee69-bfec-456a-99ca-93e3158aeef9
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMGetNameAndDescription, DRMGetNameAndDescription function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetNameAndDescription, rm.drmgetnameanddescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

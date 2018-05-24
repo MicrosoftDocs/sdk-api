@@ -7,7 +7,7 @@ old-location: rm\drmgetclientversion.htm
 old-project: AdRms_Sdk
 ms.assetid: 51f15900-4d7a-414e-ab2a-9120cd23a03b
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMGetClientVersion, DRMGetClientVersion function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetClientVersion, rm.drmgetclientversion
 ms.prod: windows-hardware
 ms.technology: windows-devices

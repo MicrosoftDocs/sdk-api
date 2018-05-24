@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocollistenercallback.htm
 old-project: TermServ
 ms.assetid: 33f583a4-8311-4db1-9646-bed1cd06e479
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: IWRdsProtocolListenerCallback, IWRdsProtocolListenerCallback interface [Remote Desktop Services], IWRdsProtocolListenerCallback interface [Remote Desktop Services],described, termserv.iwrdsprotocollistenercallback, wtsprotocol/IWRdsProtocolListenerCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\iperpropertybrowsing_getpredefinedstrings.htm
 old-project: com
 ms.assetid: 1b20585f-2bcd-475e-abee-80158692ae0f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetPredefinedStrings, GetPredefinedStrings method [COM], GetPredefinedStrings method [COM],IPerPropertyBrowsing interface, IPerPropertyBrowsing interface [COM],GetPredefinedStrings method, IPerPropertyBrowsing.GetPredefinedStrings, IPerPropertyBrowsing::GetPredefinedStrings, _ctrl_iperpropertybrowsing_getpredefinedstrings, com.iperpropertybrowsing_getpredefinedstrings, ocidl/IPerPropertyBrowsing::GetPredefinedStrings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPerPropertyBrowsing::GetPredefinedStrings

@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_gethashalgorithmlist.htm
 old-project: SecCrypto
 ms.assetid: 451c240d-8df9-4f4a-ab0e-56c5252d3b50
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: GetHashAlgorithmList, GetHashAlgorithmList method [Security], GetHashAlgorithmList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetHashAlgorithmList method, ICertSrvSetup.GetHashAlgorithmList, ICertSrvSetup::GetHashAlgorithmList, casetup/ICertSrvSetup::GetHashAlgorithmList, security.icertsrvsetup_gethashalgorithmlist
 ms.prod: windows-hardware
 ms.technology: windows-devices

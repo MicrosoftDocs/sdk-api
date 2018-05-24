@@ -7,7 +7,7 @@ old-location: netmgmt\user_modals_info_1005_str.htm
 old-project: NetMgmt
 ms.assetid: 0156443a-e126-4aa5-a248-9ff55ff53771
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPUSER_MODALS_INFO_1005, *PUSER_MODALS_INFO_1005, LPUSER_MODALS_INFO_1005, LPUSER_MODALS_INFO_1005 structure pointer [Network Management], PUSER_MODALS_INFO_1005, PUSER_MODALS_INFO_1005 structure pointer [Network Management], USER_MODALS_INFO_1005, USER_MODALS_INFO_1005 structure [Network Management], _USER_MODALS_INFO_1005, _win32_user_modals_info_1005_str, lmaccess/LPUSER_MODALS_INFO_1005, lmaccess/PUSER_MODALS_INFO_1005, lmaccess/USER_MODALS_INFO_1005, netmgmt.user_modals_info_1005_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

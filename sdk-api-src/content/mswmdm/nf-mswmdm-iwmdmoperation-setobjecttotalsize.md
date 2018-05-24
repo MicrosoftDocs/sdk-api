@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation_setobjecttotalsize.htm
 old-project: WMDM
 ms.assetid: 009716e8-6a4e-4373-9a7c-69dad815e743
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IWMDMOperation interface [windows Media Device Manager],SetObjectTotalSize method, IWMDMOperation.SetObjectTotalSize, IWMDMOperation::SetObjectTotalSize, IWMDMOperationSetObjectTotalSize, SetObjectTotalSize, SetObjectTotalSize method [windows Media Device Manager], SetObjectTotalSize method [windows Media Device Manager],IWMDMOperation interface, mswmdm/IWMDMOperation::SetObjectTotalSize, wmdm.iwmdmoperation_setobjecttotalsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMOperation::SetObjectTotalSize

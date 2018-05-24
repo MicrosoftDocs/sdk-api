@@ -7,7 +7,7 @@ old-location: rras\rascustomdialdlg.htm
 old-project: RRAS
 ms.assetid: d1f4715a-a31c-4346-ac0a-83f2c58e8cc1
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RCD_Logon, RasCustomDialDlg, RasCustomDialDlg callback function [RAS], RasCustomDialDlgA, RasCustomDialDlgFn, RasCustomDialDlgFn callback, RasCustomDialDlgW, _ras_rascustomdialdlg, rasdlg/RasCustomDialDlg, rasdlg/RasCustomDialDlgA, rasdlg/RasCustomDialDlgW, rras.rascustomdialdlg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RasCustomDialDlgFn callback function

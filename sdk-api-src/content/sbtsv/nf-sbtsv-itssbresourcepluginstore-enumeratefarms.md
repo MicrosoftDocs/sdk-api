@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcepluginstore_enumeratefarms.htm
 old-project: TermServ
 ms.assetid: 54ed82b2-531c-468b-a4d3-ad299ae1f2d8
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: EnumerateFarms, EnumerateFarms method [Remote Desktop Services], EnumerateFarms method [Remote Desktop Services],ITsSbResourcePluginStore interface, EnumerateFarms method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],EnumerateFarms method, ITsSbResourcePluginStore.EnumerateFarms, ITsSbResourcePluginStore::EnumerateFarms, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],EnumerateFarms method, ITsSbResourcePluginStoreEx::EnumerateFarms, sbtsv/ITsSbResourcePluginStore::EnumerateFarms, sbtsv/ITsSbResourcePluginStoreEx::EnumerateFarms, termserv.itssbresourcepluginstore_enumeratefarms
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbResourcePluginStore::EnumerateFarms

@@ -8,7 +8,7 @@ old-location: multimedia\iavifile.htm
 old-project: Multimedia
 ms.assetid: 401db941-cbf6-452b-84e2-605fafac8a6d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IAVIFile, IAVIFile interface [Windows Multimedia], IAVIFile interface [Windows Multimedia],described, _win32_IAVIFile, multimedia.iavifile, vfw/IAVIFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

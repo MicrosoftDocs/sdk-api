@@ -7,7 +7,7 @@ old-location: base\vds_pack_flag.htm
 old-project: VDS
 ms.assetid: 65b7e65d-5d20-49ff-af35-bd3529f5c858
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_PACK_FLAG, VDS_PACK_FLAG enumeration [VDS], VDS_PKF_CORRUPTED, VDS_PKF_FOREIGN, VDS_PKF_NOQUORUM, VDS_PKF_ONLINE_ERROR, VDS_PKF_POLICY, _VDS_PACK_FLAG, base.vds_pack_flag, vds/VDS_PACK_FLAG, vds/VDS_PKF_CORRUPTED, vds/VDS_PKF_FOREIGN, vds/VDS_PKF_NOQUORUM, vds/VDS_PKF_ONLINE_ERROR, vds/VDS_PKF_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices

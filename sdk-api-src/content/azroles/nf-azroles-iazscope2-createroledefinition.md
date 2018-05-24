@@ -7,7 +7,7 @@ old-location: security\iazscope2_createroledefinition.htm
 old-project: SecAuthZ
 ms.assetid: bcd78233-a484-4c99-9dbb-9f559f7542a4
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: CreateRoleDefinition, CreateRoleDefinition method [Security], CreateRoleDefinition method [Security],IAzScope2 interface, IAzScope2 interface [Security],CreateRoleDefinition method, IAzScope2.CreateRoleDefinition, IAzScope2::CreateRoleDefinition, azroles/IAzScope2::CreateRoleDefinition, security.iazscope2_createroledefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices

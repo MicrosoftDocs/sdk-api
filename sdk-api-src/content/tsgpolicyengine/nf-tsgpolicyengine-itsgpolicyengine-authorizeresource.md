@@ -7,7 +7,7 @@ old-location: termserv\itsgpolicyengine_authorizeresource.htm
 old-project: TermServ
 ms.assetid: 77950541-c94a-4035-a2d8-a6014eb387e5
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: AuthorizeResource, AuthorizeResource method [Remote Desktop Services], AuthorizeResource method [Remote Desktop Services],ITSGPolicyEngine interface, ITSGPolicyEngine interface [Remote Desktop Services],AuthorizeResource method, ITSGPolicyEngine.AuthorizeResource, ITSGPolicyEngine::AuthorizeResource, termserv.itsgpolicyengine_authorizeresource, tsgpolicyengine/ITSGPolicyEngine::AuthorizeResource
 ms.prod: windows-hardware
 ms.technology: windows-devices

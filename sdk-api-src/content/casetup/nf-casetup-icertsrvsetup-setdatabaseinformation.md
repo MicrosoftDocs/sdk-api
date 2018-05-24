@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_setdatabaseinformation.htm
 old-project: SecCrypto
 ms.assetid: ae690d59-21fe-4429-8e80-ee2ce19a7090
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: ICertSrvSetup interface [Security],SetDatabaseInformation method, ICertSrvSetup.SetDatabaseInformation, ICertSrvSetup::SetDatabaseInformation, SetDatabaseInformation, SetDatabaseInformation method [Security], SetDatabaseInformation method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetDatabaseInformation, security.icertsrvsetup_setdatabaseinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

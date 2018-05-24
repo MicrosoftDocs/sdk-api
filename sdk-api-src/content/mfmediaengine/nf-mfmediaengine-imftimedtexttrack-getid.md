@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_getid.htm
 old-project: medfound
 ms.assetid: 0DDC7864-654E-416B-9EF5-4CD47244E8BE
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetId, GetId method [Media Foundation], GetId method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetId method, IMFTimedTextTrack.GetId, IMFTimedTextTrack::GetId, mf.imftimedtexttrack_getid, mfmediaengine/IMFTimedTextTrack::GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices

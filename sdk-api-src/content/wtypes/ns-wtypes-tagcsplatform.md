@@ -7,8 +7,8 @@ old-location: com\csplatform.htm
 old-project: com
 ms.assetid: e9ffa8ba-98a2-431c-a069-20ed4a45e6f8
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
-ms.keywords: CSPLATFORM, CSPLATFORM structure [COM], _com_CSPLATFORM, com.csplatform, tagCSPLATFORM, wtypes/CSPLATFORM
+ms.date: 5/22/2018
+ms.keywords: CSPLATFORM, CSPLATFORM structure [COM], _com_CSPLATFORM, com.csplatform, tagCSPLATFORM, wtypes/tagCSPLATFORM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

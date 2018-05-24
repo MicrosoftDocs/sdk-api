@@ -7,7 +7,7 @@ old-location: imapi\iwritespeeddescriptor_get_writespeed.htm
 old-project: imapi
 ms.assetid: 9136a735-d902-48bc-bddd-297c1e32310e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IWriteSpeedDescriptor interface [IMAPI],get_WriteSpeed method, IWriteSpeedDescriptor.get_WriteSpeed, IWriteSpeedDescriptor::get_WriteSpeed, get_WriteSpeed, get_WriteSpeed method [IMAPI], get_WriteSpeed method [IMAPI],IWriteSpeedDescriptor interface, imapi.iwritespeeddescriptor_get_writespeed, imapi2/IWriteSpeedDescriptor::get_WriteSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices

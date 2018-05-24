@@ -7,7 +7,7 @@ old-location: properties\IPropertyChange_ApplyToPropVariant.htm
 old-project: properties
 ms.assetid: 7d7b6de5-0ed9-44fc-b2b3-c0f4cd8bf9c5
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: ApplyToPropVariant, ApplyToPropVariant method [Windows Properties], ApplyToPropVariant method [Windows Properties],IPropertyChange interface, IPropertyChange interface [Windows Properties],ApplyToPropVariant method, IPropertyChange.ApplyToPropVariant, IPropertyChange::ApplyToPropVariant, _shell_IPropertyChange_ApplyToPropVariant, properties.IPropertyChange_ApplyToPropVariant, propsys/IPropertyChange::ApplyToPropVariant, shell.IPropertyChange_ApplyToPropVariant
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyChange::ApplyToPropVariant

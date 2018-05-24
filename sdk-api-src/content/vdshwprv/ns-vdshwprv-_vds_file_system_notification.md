@@ -7,7 +7,7 @@ old-location: base\vds_file_system_notification.htm
 old-project: VDS
 ms.assetid: 81d62c22-4f29-43f6-a00e-12502174a768
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_FILE_SYSTEM_NOTIFICATION, VDS_FILE_SYSTEM_NOTIFICATION structure [VDS], VDS_NF_FILE_SYSTEM_FORMAT_PROGRESS, VDS_NF_FILE_SYSTEM_MODIFY, _VDS_FILE_SYSTEM_NOTIFICATION, base.vds_file_system_notification, vds/_VDS_FILE_SYSTEM_NOTIFICATION, vdshwprv/_VDS_FILE_SYSTEM_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

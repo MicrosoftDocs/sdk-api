@@ -7,7 +7,7 @@ old-location: shell\IFolderView2_SetTileViewProperties.htm
 old-project: shell
 ms.assetid: 44abbbbb-8d4d-4a09-9c17-a2255467de44
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetTileViewProperties method, IFolderView2.SetTileViewProperties, IFolderView2::SetTileViewProperties, SetTileViewProperties, SetTileViewProperties method [Windows Shell], SetTileViewProperties method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetTileViewProperties, shell.IFolderView2_SetTileViewProperties, shobjidl_core/IFolderView2::SetTileViewProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

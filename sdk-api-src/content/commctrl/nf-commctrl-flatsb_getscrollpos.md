@@ -7,7 +7,7 @@ old-location: controls\FlatSB_GetScrollPos.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollpos.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: FlatSB_GetScrollPos, FlatSB_GetScrollPos function [Windows Controls], SB_HORZ, SB_VERT, _win32_FlatSB_GetScrollPos, _win32_FlatSB_GetScrollPos_cpp, commctrl/FlatSB_GetScrollPos, controls.FlatSB_GetScrollPos, controls._win32_FlatSB_GetScrollPos
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netmgmt\netschedulejobdel.htm
 old-project: NetMgmt
 ms.assetid: 5ae668ab-f51d-457e-a239-2ec16a0e5a55
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: NetScheduleJobDel, NetScheduleJobDel function [Network Management], _win32_netschedulejobdel, lmat/NetScheduleJobDel, netmgmt.netschedulejobdel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\certsrvrestoreend.htm
 old-project: SecCrypto
 ms.assetid: 59316edc-a677-47ff-a139-565d7b5507fb
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CertSrvRestoreEnd, CertSrvRestoreEnd function [Security], _certsrv_certsrvrestoreend, certbcli/CertSrvRestoreEnd, security.certsrvrestoreend
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\token_user_claims.htm
 old-project: SecAuthZ
 ms.assetid: 730541ED-0E33-4F19-BB99-145131161355
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: "*PTOKEN_USER_CLAIMS, PTOKEN_USER_CLAIMS, PTOKEN_USER_CLAIMS structure pointer [Security], TOKEN_USER_CLAIMS, TOKEN_USER_CLAIMS structure [Security], _TOKEN_USER_CLAIMS, security.token_user_claims, winnt/PTOKEN_USER_CLAIMS, winnt/TOKEN_USER_CLAIMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

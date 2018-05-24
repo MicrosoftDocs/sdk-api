@@ -7,7 +7,7 @@ old-location: base\ivdsluniscsi_queryassociatedtargets.htm
 old-project: VDS
 ms.assetid: 4979e3c1-d966-4dfd-bb87-73c3e1252c50
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsLunIscsi interface [VDS],QueryAssociatedTargets method, IVdsLunIscsi.QueryAssociatedTargets, IVdsLunIscsi::QueryAssociatedTargets, QueryAssociatedTargets, QueryAssociatedTargets method [VDS], QueryAssociatedTargets method [VDS],IVdsLunIscsi interface, base.ivdsluniscsi_queryassociatedtargets, vds/IVdsLunIscsi::QueryAssociatedTargets, vdshwprv/IVdsLunIscsi::QueryAssociatedTargets
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\script_fontproperties.htm
 old-project: Intl
 ms.assetid: 6757e758-6525-47a4-9ed4-99ef42fa14a3
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: SCRIPT_FONTPROPERTIES, SCRIPT_FONTPROPERTIES structure [Internationalization for Windows Applications], _win32_SCRIPT_FONTPROPERTIES_str, intl.script_fontproperties, usp10/SCRIPT_FONTPROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices

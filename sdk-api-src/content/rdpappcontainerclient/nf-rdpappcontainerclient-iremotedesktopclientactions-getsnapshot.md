@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclientactions_getsnapshot.htm
 old-project: TermServ
 ms.assetid: c80fe6e3-6ca7-4595-aa0e-c1ed0f6632a5
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: GetSnapshot, GetSnapshot method [Remote Desktop Services], GetSnapshot method [Remote Desktop Services],IRemoteDesktopClientActions interface, IRemoteDesktopClientActions interface [Remote Desktop Services],GetSnapshot method, IRemoteDesktopClientActions.GetSnapshot, IRemoteDesktopClientActions::GetSnapshot, rdpappcontainerclient/IRemoteDesktopClientActions::GetSnapshot, termserv.iremotedesktopclientactions_getsnapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: MsTscAx.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRemoteDesktopClientActions::GetSnapshot

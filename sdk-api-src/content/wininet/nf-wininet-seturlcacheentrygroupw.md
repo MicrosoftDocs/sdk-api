@@ -7,7 +7,7 @@ old-location: wininet\seturlcacheentrygroup.htm
 old-project: WinInet
 ms.assetid: b39a96ac-c5b5-4b02-88e2-298a037be25f
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: SetUrlCacheEntryGroup, SetUrlCacheEntryGroup function [WinINet], SetUrlCacheEntryGroupA, SetUrlCacheEntryGroupW, _inet_seturlcacheentrygroup_function, wininet.seturlcacheentrygroup, wininet/SetUrlCacheEntryGroup, wininet/SetUrlCacheEntryGroupA, wininet/SetUrlCacheEntryGroupW
 ms.prod: windows-hardware
 ms.technology: windows-devices

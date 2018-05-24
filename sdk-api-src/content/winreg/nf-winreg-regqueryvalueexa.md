@@ -7,7 +7,7 @@ old-location: base\regqueryvalueex.htm
 old-project: SysInfo
 ms.assetid: 202d253a-10ff-40e7-8eec-a49717443b81
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: RegQueryValueEx, RegQueryValueEx function, RegQueryValueExA, RegQueryValueExW, _win32_regqueryvalueex, base.regqueryvalueex, winreg/RegQueryValueEx, winreg/RegQueryValueExA, winreg/RegQueryValueExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

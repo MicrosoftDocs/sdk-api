@@ -7,7 +7,7 @@ old-location: rras\ip_adapter_binding_info.htm
 old-project: RRAS
 ms.assetid: 3eb864e7-2de6-44c2-af3e-fee547de6081
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: "*PIP_ADAPTER_BINDING_INFO, IP_ADAPTER_BINDING_INFO, IP_ADAPTER_BINDING_INFO structure [RAS], PIP_ADAPTER_BINDING_INFO, PIP_ADAPTER_BINDING_INFO structure pointer [RAS], _mpr_ip_adapter_binding_info, routprot/IP_ADAPTER_BINDING_INFO, routprot/PIP_ADAPTER_BINDING_INFO, rras.ip_adapter_binding_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IP_ADAPTER_BINDING_INFO structure

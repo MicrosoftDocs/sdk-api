@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_clip.htm
 old-project: tablet
 ms.assetid: d3733613-fc8e-41f2-9172-07b61fc133dd
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: Clip, Clip method [Tablet PC], Clip method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],Clip method, IInkStrokeDisp.Clip, IInkStrokeDisp::Clip, d3733613-fc8e-41f2-9172-07b61fc133dd, msinkaut/IInkStrokeDisp::Clip, tablet.iinkstrokedisp_clip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::Clip

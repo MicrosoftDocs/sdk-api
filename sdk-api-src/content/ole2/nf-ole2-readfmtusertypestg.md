@@ -7,7 +7,7 @@ old-location: stg\readfmtusertypestg.htm
 old-project: Stg
 ms.assetid: 6f26550d-c094-4150-b8ef-2da1d052c1ff
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: ReadFmtUserTypeStg, ReadFmtUserTypeStg function [Structured Storage], _stg_readfmtusertypestg, ole2/ReadFmtUserTypeStg, stg.readfmtusertypestg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ReadFmtUserTypeStg function

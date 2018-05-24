@@ -7,7 +7,7 @@ old-location: tablet\createcontext.htm
 old-project: tablet
 ms.assetid: 4e599157-93d6-486f-9498-899e5b53f24b
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 4e599157-93d6-486f-9498-899e5b53f24b, CreateContext, CreateContext function [Tablet PC], recapis/CreateContext, tablet.createcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CreateContext function

@@ -7,7 +7,7 @@ old-location: security\authzinitializeremoteresourcemanager.htm
 old-project: SecAuthZ
 ms.assetid: C3B6C75B-13A5-49CC-BB01-DA1EEC292C20
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AuthzInitializeRemoteResourceManager, AuthzInitializeRemoteResourceManager function [Security], authz/AuthzInitializeRemoteResourceManager, security.authzinitializeremoteresourcemanager
 ms.prod: windows-hardware
 ms.technology: windows-devices

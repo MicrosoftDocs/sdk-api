@@ -7,7 +7,7 @@ old-location: wininet\internetcookiehistory.htm
 old-project: WinInet
 ms.assetid: c3aba5be-da66-4471-98e7-95fa5bd88c99
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: InternetCookieHistory, InternetCookieHistory structure [WinINet], wininet.internetcookiehistory, wininet/InternetCookieHistory
 ms.prod: windows-hardware
 ms.technology: windows-devices

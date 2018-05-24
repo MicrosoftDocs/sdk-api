@@ -7,7 +7,7 @@ old-location: base\ivdsserviceiscsi_remembertargetsharedsecret.htm
 old-project: VDS
 ms.assetid: fefe37aa-48c8-4ff4-b302-c6e95c1ffa5e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],RememberTargetSharedSecret method, IVdsServiceIscsi.RememberTargetSharedSecret, IVdsServiceIscsi::RememberTargetSharedSecret, RememberTargetSharedSecret, RememberTargetSharedSecret method [VDS], RememberTargetSharedSecret method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_remembertargetsharedsecret, vds/IVdsServiceIscsi::RememberTargetSharedSecret
 ms.prod: windows-hardware
 ms.technology: windows-devices

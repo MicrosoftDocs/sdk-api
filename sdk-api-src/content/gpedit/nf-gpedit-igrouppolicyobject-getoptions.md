@@ -7,7 +7,7 @@ old-location: policy\igrouppolicyobject_getoptions.htm
 old-project: Policy
 ms.assetid: a4b86196-04c8-4ec1-bf26-2a33e44020d2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: GPO_OPTION_DISABLE_MACHINE, GPO_OPTION_DISABLE_USER, GetOptions, GetOptions method [Group Policy], GetOptions method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetOptions method, IGroupPolicyObject.GetOptions, IGroupPolicyObject::GetOptions, _win32_igrouppolicyobject_getoptions, gpedit/IGroupPolicyObject::GetOptions, policy.igrouppolicyobject_getoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

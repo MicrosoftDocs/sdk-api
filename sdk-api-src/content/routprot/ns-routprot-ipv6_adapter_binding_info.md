@@ -7,7 +7,7 @@ old-location: rras\ipv6_adapter_binding_info.htm
 old-project: RRAS
 ms.assetid: 1e964f09-96c6-432b-bb1a-026a3ea0deba
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: "*PIPV6_ADAPTER_BINDING_INFO, IPV6_ADAPTER_BINDING_INFO, IPV6_ADAPTER_BINDING_INFO structure [RAS], PIPV6_ADAPTER_BINDING_INFO, PIPV6_ADAPTER_BINDING_INFO structure pointer [RAS], routprot/IPV6_ADAPTER_BINDING_INFO, routprot/PIPV6_ADAPTER_BINDING_INFO, rras.ipv6_adapter_binding_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPV6_ADAPTER_BINDING_INFO structure

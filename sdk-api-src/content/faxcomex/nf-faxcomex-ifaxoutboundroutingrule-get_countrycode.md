@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutingrule_countrycode_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5ysl.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: CountryCode property [Fax Service], CountryCode property [Fax Service],FaxOutboundRoutingRule object, FaxOutboundRoutingRule object [Fax Service],CountryCode property, FaxOutboundRoutingRule.CountryCode, IFaxOutboundRoutingRule.get_CountryCode, IFaxOutboundRoutingRule::get_CountryCode, _mfax_faxoutboundroutingrule.countrycode, fax._mfax_faxoutboundroutingrule_countrycode, fax._mfax_faxoutboundroutingrule_countrycode_vb, get_CountryCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

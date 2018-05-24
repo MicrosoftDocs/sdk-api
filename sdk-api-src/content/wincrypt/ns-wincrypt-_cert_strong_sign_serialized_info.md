@@ -7,7 +7,7 @@ old-location: security\cert_strong_sign_serialized_info.htm
 old-project: SecCrypto
 ms.assetid: B89CDF67-4620-47B2-8363-717D284368FD
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: "*PCERT_STRONG_SIGN_SERIALIZED_INFO, CERT_STRONG_SIGN_ENABLE_CRL_CHECK, CERT_STRONG_SIGN_ENABLE_OCSP_CHECK, CERT_STRONG_SIGN_SERIALIZED_INFO, CERT_STRONG_SIGN_SERIALIZED_INFO structure [Security], PCERT_STRONG_SIGN_SERIALIZED_INFO, PCERT_STRONG_SIGN_SERIALIZED_INFO structure pointer [Security], _CERT_STRONG_SIGN_SERIALIZED_INFO, security.cert_strong_sign_serialized_info, wincrypt/CERT_STRONG_SIGN_SERIALIZED_INFO, wincrypt/PCERT_STRONG_SIGN_SERIALIZED_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

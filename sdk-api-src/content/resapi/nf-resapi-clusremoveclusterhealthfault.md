@@ -40,7 +40,7 @@ targetos: Windows
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ClusRemoveClusterHealthFault function

@@ -7,7 +7,7 @@ old-location: base\ivdssubsystemimporttarget_getimporttarget.htm
 old-project: VDS
 ms.assetid: 1fff1400-61d9-494f-857d-53626b80c2d2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetImportTarget, GetImportTarget method [VDS], GetImportTarget method [VDS],IVdsSubSystemImportTarget interface, IVdsSubSystemImportTarget interface [VDS],GetImportTarget method, IVdsSubSystemImportTarget.GetImportTarget, IVdsSubSystemImportTarget::GetImportTarget, base.ivdssubsystemimporttarget_getimporttarget, vds/IVdsSubSystemImportTarget::GetImportTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

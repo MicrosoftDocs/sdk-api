@@ -7,7 +7,7 @@ old-location: shell\ITEMIDLIST.htm
 old-project: shell
 ms.assetid: 60daf071-4e93-4e1c-bc38-894f706db04f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPITEMIDLIST, *PIDLIST_ABSOLUTE, *PIDLIST_RELATIVE, *PITEMID_CHILD, *PUIDLIST_RELATIVE, *PUITEMID_CHILD, ITEMIDLIST, ITEMIDLIST structure [Windows Shell], ITEMIDLIST_ABSOLUTE, ITEMIDLIST_RELATIVE, ITEMID_CHILD, _ITEMIDLIST, _win32_ITEMIDLIST, shell.ITEMIDLIST, shtypes/ITEMIDLIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices

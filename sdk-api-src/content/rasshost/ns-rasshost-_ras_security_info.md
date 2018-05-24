@@ -7,7 +7,7 @@ old-location: rras\ras_security_info_str.htm
 old-project: RRAS
 ms.assetid: 4bf5e0b8-087c-483b-a472-eab36840f554
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: "*PRAS_SECURITY_INFO, PENDING, PRAS_SECURITY_INFO, PRAS_SECURITY_INFO structure pointer [RAS], RAS_SECURITY_INFO, RAS_SECURITY_INFO structure [RAS], SUCCESS, _RAS_SECURITY_INFO, _ras_ras_security_info_str, rasshost/PRAS_SECURITY_INFO, rasshost/RAS_SECURITY_INFO, rras.ras_security_info_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RAS_SECURITY_INFO structure

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_effect_type_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_effect_type_desc.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: 18816cca-f97e-a1fe-114c-9342ac218237, D3D10_EFFECT_TYPE_DESC, D3D10_EFFECT_TYPE_DESC structure [Direct3D 10], _D3D10_EFFECT_TYPE_DESC, d3d10effect/D3D10_EFFECT_TYPE_DESC, direct3d10.d3d10_effect_type_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

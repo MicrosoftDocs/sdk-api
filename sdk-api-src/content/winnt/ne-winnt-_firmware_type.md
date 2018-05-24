@@ -7,7 +7,7 @@ old-location: base\firmware_type.htm
 old-project: SysInfo
 ms.assetid: c058e20e-11f9-4652-b658-9fd0a43d4224
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: "*PFIRMWARE_TYPE, FIRMWARE_TYPE, FIRMWARE_TYPE enumeration, FirmwareTypeBios, FirmwareTypeMax, FirmwareTypeUefi, FirmwareTypeUnknown, PFIRMWARE_TYPE, PFIRMWARE_TYPE enumeration pointer, _FIRMWARE_TYPE, base.firmware_type, winnt/FIRMWARE_TYPE, winnt/FirmwareTypeBios, winnt/FirmwareTypeMax, winnt/FirmwareTypeUefi, winnt/FirmwareTypeUnknown, winnt/PFIRMWARE_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\inkmetric.htm
 old-project: tablet
 ms.assetid: 27d56034-725d-4b05-9c43-6b3180d7411b
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: "*PINKMETRIC, 27d56034-725d-4b05-9c43-6b3180d7411b, IMF_BOLD, IMF_FONT_SELECTED_IN_HDC, IMF_ITALIC, INKMETRIC, INKMETRIC structure [Tablet PC], PINKMETRIC, PINKMETRIC structure pointer [Tablet PC], msinkaut/INKMETRIC, msinkaut/PINKMETRIC, tablet.inkmetric, tagINKMETRIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagINKMETRIC structure

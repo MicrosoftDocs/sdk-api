@@ -7,7 +7,7 @@ old-location: controls\DateTime_GetMonthCalFont.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalfont.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: DateTime_GetMonthCalFont, DateTime_GetMonthCalFont macro [Windows Controls], _win32_DateTime_GetMonthCalFont, _win32_DateTime_GetMonthCalFont_cpp, commctrl/DateTime_GetMonthCalFont, controls.DateTime_GetMonthCalFont, controls._win32_DateTime_GetMonthCalFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfbytestreambuffering_enablebuffering.htm
 old-project: medfound
 ms.assetid: 5f7418ff-32e5-49b3-b7b3-6686e6562d51
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 5f7418ff-32e5-49b3-b7b3-6686e6562d51, EnableBuffering, EnableBuffering method [Media Foundation], EnableBuffering method [Media Foundation],IMFByteStreamBuffering interface, IMFByteStreamBuffering interface [Media Foundation],EnableBuffering method, IMFByteStreamBuffering.EnableBuffering, IMFByteStreamBuffering::EnableBuffering, mf.imfbytestreambuffering_enablebuffering, mfidl/IMFByteStreamBuffering::EnableBuffering
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

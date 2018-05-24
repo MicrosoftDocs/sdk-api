@@ -7,7 +7,7 @@ old-location: security\iazoperation2.htm
 old-project: SecAuthZ
 ms.assetid: 83baa90b-bbc3-49b9-949e-45d68a155b5c
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: IAzOperation2, IAzOperation2 interface [Security], IAzOperation2 interface [Security],described, azroles/IAzOperation2, security.iazoperation2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: netmgmt\netgroupadduser.htm
 old-project: NetMgmt
 ms.assetid: a2eefde8-29e3-4fa1-87db-c7f6d24b699d
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: NetGroupAddUser, NetGroupAddUser function [Network Management], _win32_netgroupadduser, lmaccess/NetGroupAddUser, netmgmt.netgroupadduser
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\freeinheritedfromarray.htm
 old-project: SecAuthZ
 ms.assetid: c9c58b9a-1b65-40e2-b518-30e247f9718e
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: FreeInheritedFromArray, FreeInheritedFromArray function [Security], _win32_freeinheritedfromarray, aclapi/FreeInheritedFromArray, security.freeinheritedfromarray
 ms.prod: windows-hardware
 ms.technology: windows-devices

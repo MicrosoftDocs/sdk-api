@@ -7,7 +7,7 @@ old-location: shell\IFolderView_GetAutoArrange.htm
 old-project: shell
 ms.assetid: 987383c8-aaea-4144-8a8c-b4a8943a2acd
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetAutoArrange, GetAutoArrange method [Windows Shell], GetAutoArrange method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetAutoArrange method, IFolderView.GetAutoArrange, IFolderView::GetAutoArrange, _shell_IFolderView_GetAutoArrange, shell.IFolderView_GetAutoArrange, shobjidl_core/IFolderView::GetAutoArrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

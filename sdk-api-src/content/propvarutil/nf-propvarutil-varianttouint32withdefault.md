@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt32WithDefault.htm
 old-project: properties
 ms.assetid: 02ec869b-154e-436a-a9b7-57eff4e958aa
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: VariantToUInt32WithDefault, VariantToUInt32WithDefault function [Windows Properties], _shell_VariantToUInt32WithDefault, properties.VariantToUInt32WithDefault, propvarutil/VariantToUInt32WithDefault, shell.VariantToUInt32WithDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantToUInt32WithDefault function

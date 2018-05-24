@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR structure

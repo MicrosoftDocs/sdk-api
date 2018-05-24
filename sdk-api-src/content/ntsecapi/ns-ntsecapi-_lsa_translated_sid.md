@@ -7,7 +7,7 @@ old-location: security\lsa_translated_sid.htm
 old-project: SecMgmt
 ms.assetid: 1fa8fb74-3e61-4982-aa6b-a0ffe979abd4
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: "*PLSA_TRANSLATED_SID, LSA_TRANSLATED_SID, LSA_TRANSLATED_SID structure [Security], PLSA_TRANSLATED_SID, PLSA_TRANSLATED_SID structure pointer [Security], SidTypeDomain, SidTypeInvalid, SidTypeUnknown, _LSA_TRANSLATED_SID, _lsa_lsa_translated_sid, ntsecapi/LSA_TRANSLATED_SID, ntsecapi/PLSA_TRANSLATED_SID, security.lsa_translated_sid"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _LSA_TRANSLATED_SID structure

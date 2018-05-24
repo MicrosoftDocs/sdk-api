@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_Delete.htm
 old-project: properties
 ms.assetid: 53ED1C87-5141-4925-B70E-C0304817A871
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PSPropertyBag_Delete, PSPropertyBag_Delete function [Windows Properties], properties.PSPropertyBag_Delete, propsys/PSPropertyBag_Delete, shell.PSPropertyBag_Delete, shell_PSPropertyBag_Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSPropertyBag_Delete function

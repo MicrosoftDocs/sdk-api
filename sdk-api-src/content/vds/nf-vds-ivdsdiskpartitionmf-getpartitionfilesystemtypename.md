@@ -7,7 +7,7 @@ old-location: base\ivdsdiskpartitionmf_getpartitionfilesystemtypename.htm
 old-project: VDS
 ms.assetid: ad2f8c5b-6a85-437a-bb51-0c4552a015b2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetPartitionFileSystemTypeName, GetPartitionFileSystemTypeName method, GetPartitionFileSystemTypeName method,IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,GetPartitionFileSystemTypeName method, IVdsDiskPartitionMF.GetPartitionFileSystemTypeName, IVdsDiskPartitionMF::GetPartitionFileSystemTypeName, base.ivdsdiskpartitionmf_getpartitionfilesystemtypename, vds/IVdsDiskPartitionMF::GetPartitionFileSystemTypeName
 ms.prod: windows-hardware
 ms.technology: windows-devices

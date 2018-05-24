@@ -7,7 +7,7 @@ old-location: shell\UIntPtrToInt16.htm
 old-project: shell
 ms.assetid: cce027f0-34e9-4c13-89de-102c98ab7a14
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: UIntPtrToInt16, UIntPtrToInt16 function [Windows Shell], intsafe/UIntPtrToInt16, shell.UIntPtrToInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromUInt64Array.htm
 old-project: properties
 ms.assetid: 67886e29-c3dd-4bfd-b53f-761c16daaf63
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: InitVariantFromUInt64Array, InitVariantFromUInt64Array function [Windows Properties], _shell_InitVariantFromUInt64Array, properties.InitVariantFromUInt64Array, propvarutil/InitVariantFromUInt64Array, shell.InitVariantFromUInt64Array
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InitVariantFromUInt64Array function

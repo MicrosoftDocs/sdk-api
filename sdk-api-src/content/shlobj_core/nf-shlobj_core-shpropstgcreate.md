@@ -7,7 +7,7 @@ old-location: properties\SHPropStgCreate.htm
 old-project: properties
 ms.assetid: fd99e04e-ef96-4357-9226-da6604fb0e84
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: CREATE_ALWAYS, CREATE_NEW, OPEN_ALWAYS, OPEN_EXISTING, SHPropStgCreate, SHPropStgCreate function [Windows Properties], _win32_SHPropStgCreate, properties.SHPropStgCreate, shell.SHPropStgCreate, shlobj_core/SHPropStgCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

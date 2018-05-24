@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless.htm
 old-project: com
 ms.assetid: 4ad83599-99d2-4b35-95de-cff845a8d5e4
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleInPlaceSiteWindowless, IOleInPlaceSiteWindowless interface [COM], IOleInPlaceSiteWindowless interface [COM],described, _ole_ioleinplacesitewindowless, com.ioleinplacesitewindowless, ocidl/IOleInPlaceSiteWindowless
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleInPlaceSiteWindowless interface

@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecureexchange3.htm
 old-project: WMDM
 ms.assetid: 2617a6af-c91d-4416-8bef-fe69404e7c3f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: ISCPSecureExchange3, ISCPSecureExchange3 interface [windows Media Device Manager], ISCPSecureExchange3 interface [windows Media Device Manager],described, ISCPSecureExchange3Interface, mswmdm/ISCPSecureExchange3, wmdm.iscpsecureexchange3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISCPSecureExchange3 interface

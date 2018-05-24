@@ -7,7 +7,7 @@ old-location: intl\imedlg.htm
 old-project: Intl
 ms.assetid: 14F39582-F51D-456F-BC19-AFE6E50D4155
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IMEDLG, IMEDLG structure [Internationalization for Windows Applications], PIMEDLG, PIMEDLG structure pointer [Internationalization for Windows Applications], _IMEDLG, intl.imedlg, msime/IMEDLG, msime/PIMEDLG
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _IMEDLG structure

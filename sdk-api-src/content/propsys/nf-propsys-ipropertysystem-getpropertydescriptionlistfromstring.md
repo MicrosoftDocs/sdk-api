@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_GetPropertyDescriptionListFromString.ht
 old-project: properties
 ms.assetid: 73e61bf0-32d0-4c2c-bf2e-b28ea00cbfd3
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: GetPropertyDescriptionListFromString, GetPropertyDescriptionListFromString method [Windows Properties], GetPropertyDescriptionListFromString method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescriptionListFromString method, IPropertySystem.GetPropertyDescriptionListFromString, IPropertySystem::GetPropertyDescriptionListFromString, properties.IPropertySystem_GetPropertyDescriptionListFromString, propsys/IPropertySystem::GetPropertyDescriptionListFromString, shell.IPropertySystem_GetPropertyDescriptionListFromString, shell_IPropertySystem_GetPropertyDescriptionListFromString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertySystem::GetPropertyDescriptionListFromString

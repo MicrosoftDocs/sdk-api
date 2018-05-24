@@ -7,7 +7,7 @@ old-location: base\ivdshbaport.htm
 old-project: VDS
 ms.assetid: beb6ae5c-b70a-4dbc-b16f-1b398a569f15
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsHbaPort, IVdsHbaPort interface [VDS], IVdsHbaPort interface [VDS],described, base.ivdshbaport, vds/IVdsHbaPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

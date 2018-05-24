@@ -7,7 +7,7 @@ old-location: security\claim_security_attribute_octet_string_value.htm
 old-project: SecAuthZ
 ms.assetid: 6647CC4F-1A84-43B2-A80E-7B6BF3A2D7AD
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE structure [Security], PCLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, PCLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, security.claim_security_attribute_octet_string_value, winnt/CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE, winnt/PCLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

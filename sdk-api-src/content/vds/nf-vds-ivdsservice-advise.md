@@ -7,7 +7,7 @@ old-location: base\ivdsservice_advise.htm
 old-project: VDS
 ms.assetid: be1d5385-6c72-4847-9ed7-4d2309a3e9ac
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: Advise, Advise method [VDS], Advise method [VDS],IVdsService interface, IVdsService interface [VDS],Advise method, IVdsService.Advise, IVdsService::Advise, base.ivdsservice_advise, vds/IVdsService::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

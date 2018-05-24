@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_sendername_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_986d.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: FaxDoc object [Fax Service],SenderName property, FaxDoc.SenderName, IFaxDoc.get_SenderName, IFaxDoc::get_SenderName, SenderName property [Fax Service], SenderName property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_sendername, fax._mfax_ifaxdoc_get_sendername, fax._mfax_ifaxdoc_get_sendername_vb, get_SenderName
 ms.prod: windows-hardware
 ms.technology: windows-devices

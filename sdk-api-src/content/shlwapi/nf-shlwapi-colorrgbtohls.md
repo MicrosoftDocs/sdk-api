@@ -7,7 +7,7 @@ old-location: shell\ColorRGBToHLS.htm
 old-project: shell
 ms.assetid: ed000f53-cc7e-4693-994c-a5dd7c789f1f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ColorRGBToHLS, ColorRGBToHLS function [Windows Shell], _win32_ColorRGBToHLS, shell.ColorRGBToHLS, shlwapi/ColorRGBToHLS
 ms.prod: windows-hardware
 ms.technology: windows-devices

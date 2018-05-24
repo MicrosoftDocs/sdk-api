@@ -7,7 +7,7 @@ old-location: controls\ShowHideMenuCtl.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\showhidemenuctl.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ShowHideMenuCtl, ShowHideMenuCtl function [Windows Controls], _win32_ShowHideMenuCtl, _win32_ShowHideMenuCtl_cpp, commctrl/ShowHideMenuCtl, controls.ShowHideMenuCtl, controls._win32_ShowHideMenuCtl
 ms.prod: windows-hardware
 ms.technology: windows-devices

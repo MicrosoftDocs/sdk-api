@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevicecontrol_pause.htm
 old-project: WMDM
 ms.assetid: 420963d1-11ea-4f1d-b5c0-749e99ee7725
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Pause method, IWMDMDeviceControl.Pause, IWMDMDeviceControl::Pause, IWMDMDeviceControlPause, Pause, Pause method [windows Media Device Manager], Pause method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Pause, wmdm.iwmdmdevicecontrol_pause
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMDeviceControl::Pause

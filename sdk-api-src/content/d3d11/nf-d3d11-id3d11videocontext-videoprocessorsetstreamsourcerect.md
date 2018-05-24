@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorsetstreamsourcerect.htm
 old-project: medfound
 ms.assetid: A2771C8A-13AB-4AFA-87A1-1390B582342A
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamSourceRect method, ID3D11VideoContext.VideoProcessorSetStreamSourceRect, ID3D11VideoContext::VideoProcessorSetStreamSourceRect, VideoProcessorSetStreamSourceRect, VideoProcessorSetStreamSourceRect method [Media Foundation], VideoProcessorSetStreamSourceRect method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamSourceRect, mf.id3d11videocontext_videoprocessorsetstreamsourcerect
 ms.prod: windows-hardware
 ms.technology: windows-devices

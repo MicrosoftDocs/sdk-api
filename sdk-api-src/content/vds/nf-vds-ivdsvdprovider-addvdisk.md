@@ -7,7 +7,7 @@ old-location: base\ivdsvdprovider_addvdisk.htm
 old-project: VDS
 ms.assetid: ef154bf3-ad30-4e6e-8292-af2037eced02
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: AddVDisk, AddVDisk method, AddVDisk method,IVdsVdProvider interface, IVdsVdProvider interface,AddVDisk method, IVdsVdProvider.AddVDisk, IVdsVdProvider::AddVDisk, base.ivdsvdprovider_addvdisk, vds/IVdsVdProvider::AddVDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IntPtrToUIntPtr.htm
 old-project: shell
 ms.assetid: 9c85af51-5f28-445d-a6fe-4d3dd5666b6f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IntPtrToSizeT, IntPtrToUIntPtr, IntPtrToUIntPtr function [Windows Shell], PtrdiffTToSizeT, PtrdiffTToUIntPtr, _shell_IntPtrToUIntPtr, intsafe/IntPtrToUIntPtr, shell.IntPtrToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

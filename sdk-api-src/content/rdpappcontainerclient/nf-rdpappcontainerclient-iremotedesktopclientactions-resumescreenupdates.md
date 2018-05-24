@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclientactions_resumescreenupdates.htm
 old-project: TermServ
 ms.assetid: be11f1c8-eb55-4ed3-80ca-eda9ee21c92c
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: IRemoteDesktopClientActions interface [Remote Desktop Services],ResumeScreenUpdates method, IRemoteDesktopClientActions.ResumeScreenUpdates, IRemoteDesktopClientActions::ResumeScreenUpdates, ResumeScreenUpdates, ResumeScreenUpdates method [Remote Desktop Services], ResumeScreenUpdates method [Remote Desktop Services],IRemoteDesktopClientActions interface, rdpappcontainerclient/IRemoteDesktopClientActions::ResumeScreenUpdates, termserv.iremotedesktopclientactions_resumescreenupdates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: MsTscAx.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRemoteDesktopClientActions::ResumeScreenUpdates

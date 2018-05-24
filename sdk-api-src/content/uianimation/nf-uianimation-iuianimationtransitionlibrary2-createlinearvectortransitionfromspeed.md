@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2_createlinearvectortrans
 old-project: UIAnimation
 ms.assetid: 5CFA1E23-26A7-4139-B533-8BD325E9F1B9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: CreateLinearVectorTransitionFromSpeed, CreateLinearVectorTransitionFromSpeed method [Windows Animation], CreateLinearVectorTransitionFromSpeed method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateLinearVectorTransitionFromSpeed method, IUIAnimationTransitionLibrary2.CreateLinearVectorTransitionFromSpeed, IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed, uianimation.iuianimationtransitionlibrary2_createlinearvectortransitionfromspeed, uianimation/IUIAnimationTransitionLibrary2::CreateLinearVectorTransitionFromSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices

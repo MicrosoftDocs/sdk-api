@@ -7,7 +7,7 @@ old-location: base\queryunbiasedinterrupttimeprecise.htm
 old-project: SysInfo
 ms.assetid: FADFC168-A3CF-4676-9B6E-7A4028049423
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: QueryUnbiasedInterruptTimePrecise, QueryUnbiasedInterruptTimePrecise function, base.queryunbiasedinterrupttimeprecise, realtimeapiset/QueryUnbiasedInterruptTimePrecise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,7 +46,7 @@ targetos: Windows
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # QueryUnbiasedInterruptTimePrecise function

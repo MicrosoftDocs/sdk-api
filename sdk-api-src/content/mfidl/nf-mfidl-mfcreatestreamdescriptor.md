@@ -7,7 +7,7 @@ old-location: mf\mfcreatestreamdescriptor.htm
 old-project: medfound
 ms.assetid: 77a63d30-c03f-4339-9db3-eda60db9b194
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 77a63d30-c03f-4339-9db3-eda60db9b194, MFCreateStreamDescriptor, MFCreateStreamDescriptor function [Media Foundation], mf.mfcreatestreamdescriptor, mfidl/MFCreateStreamDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternates_strokes.htm
 old-project: tablet
 ms.assetid: ce483ea1-4b66-4a87-89a7-f71feae8ccc4
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IInkRecognitionAlternates interface [Tablet PC],Strokes property, IInkRecognitionAlternates.Strokes, IInkRecognitionAlternates.get_Strokes, IInkRecognitionAlternates::Strokes, IInkRecognitionAlternates::get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkRecognitionAlternates interface, get_Strokes, msinkaut/IInkRecognitionAlternates::Strokes, msinkaut/IInkRecognitionAlternates::get_Strokes, tablet.iinkrecognitionalternates_strokes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognitionAlternates::get_Strokes

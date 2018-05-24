@@ -7,7 +7,7 @@ old-location: security\extensions.htm
 old-project: SecCrypto
 ms.assetid: f2a6854d-1831-489f-adf6-31a0b26511e3
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: Extensions, Extensions object [Security], Extensions object [Security],described, mmcobj/Extensions, security.extensions
 ms.prod: windows-hardware
 ms.technology: windows-devices

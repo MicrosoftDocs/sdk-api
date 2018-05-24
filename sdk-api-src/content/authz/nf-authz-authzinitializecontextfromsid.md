@@ -7,7 +7,7 @@ old-location: security\authzinitializecontextfromsid.htm
 old-project: SecAuthZ
 ms.assetid: 402a8641-5644-45c1-80e9-c60321c1ac38
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AUTHZ_COMPUTE_PRIVILEGES, AUTHZ_REQUIRE_S4U_LOGON, AUTHZ_SKIP_TOKEN_GROUPS, AuthzInitializeContextFromSid, AuthzInitializeContextFromSid function [Security], _win32_authzinitializecontextfromsid, authz/AuthzInitializeContextFromSid, security.authzinitializecontextfromsid
 ms.prod: windows-hardware
 ms.technology: windows-devices

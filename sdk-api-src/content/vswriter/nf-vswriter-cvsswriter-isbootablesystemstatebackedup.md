@@ -7,7 +7,7 @@ old-location: base\cvsswriter_isbootablestatebackedup.htm
 old-project: VSS
 ms.assetid: 2ab7628e-c5d4-4a08-bc34-47356aee94bf
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: CVssWriter class [VSS],IsBootableSystemStateBackedUp method, CVssWriter.IsBootableSystemStateBackedUp, CVssWriter::IsBootableSystemStateBackedUp, IsBootableSystemStateBackedUp, IsBootableSystemStateBackedUp method [VSS], IsBootableSystemStateBackedUp method [VSS],CVssWriter class, _win32_cvsswriter_isbootablestatebackedup, base.cvsswriter_isbootablestatebackedup, vswriter/CVssWriter::IsBootableSystemStateBackedUp
 ms.prod: windows-hardware
 ms.technology: windows-devices

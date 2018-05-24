@@ -7,7 +7,7 @@ old-location: base\cleareventlog.htm
 old-project: EventLog
 ms.assetid: b66896f6-baee-43c4-9d9b-5663c164d092
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: ClearEventLog, ClearEventLog function, ClearEventLogA, ClearEventLogW, _win32_cleareventlog, base.cleareventlog, winbase/ClearEventLog, winbase/ClearEventLogA, winbase/ClearEventLogW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IntToChar.htm
 old-project: shell
 ms.assetid: c377db74-daa9-4d20-b2f2-954472dd7d2e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IntToChar, IntToChar function [Windows Shell], _shell_IntToChar, intsafe/IntToChar, shell.IntToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

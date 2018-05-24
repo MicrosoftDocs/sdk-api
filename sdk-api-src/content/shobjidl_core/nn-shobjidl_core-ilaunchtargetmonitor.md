@@ -7,7 +7,7 @@ old-location: shell\ILaunchTargetMonitor.htm
 old-project: shell
 ms.assetid: 358598D8-6488-4F8E-93CF-C70AD1A46862
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ILaunchTargetMonitor, ILaunchTargetMonitor interface [Windows Shell], ILaunchTargetMonitor interface [Windows Shell],described, shell.ILaunchTargetMonitor, shobjidl_core/ILaunchTargetMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices

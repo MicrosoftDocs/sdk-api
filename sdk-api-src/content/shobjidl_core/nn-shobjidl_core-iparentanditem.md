@@ -7,7 +7,7 @@ old-location: shell\IParentAndItem.htm
 old-project: shell
 ms.assetid: 5cca426f-73fb-4b39-8eb0-16c01673c311
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IParentAndItem, IParentAndItem interface [Windows Shell], IParentAndItem interface [Windows Shell],described, _shell_IParentAndItem, shell.IParentAndItem, shobjidl_core/IParentAndItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

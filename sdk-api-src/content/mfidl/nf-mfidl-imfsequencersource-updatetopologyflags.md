@@ -7,7 +7,7 @@ old-location: mf\imfsequencersource_updatetopologyflags.htm
 old-project: medfound
 ms.assetid: ee71b574-0456-4091-bbb0-da5c57a7506e
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFSequencerSource interface [Media Foundation],UpdateTopologyFlags method, IMFSequencerSource.UpdateTopologyFlags, IMFSequencerSource::UpdateTopologyFlags, UpdateTopologyFlags, UpdateTopologyFlags method [Media Foundation], UpdateTopologyFlags method [Media Foundation],IMFSequencerSource interface, ee71b574-0456-4091-bbb0-da5c57a7506e, mf.imfsequencersource_updatetopologyflags, mfidl/IMFSequencerSource::UpdateTopologyFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

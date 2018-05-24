@@ -7,7 +7,7 @@ old-location: multimedia\drawdibchangepalette.htm
 old-project: Multimedia
 ms.assetid: 8c94ecac-d12c-45c4-8a11-e17502bd7d5d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: DrawDibChangePalette, DrawDibChangePalette function [Windows Multimedia], _win32_DrawDibChangePalette, multimedia.drawdibchangepalette, vfw/DrawDibChangePalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

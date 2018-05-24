@@ -7,7 +7,7 @@ old-location: stg\getconvertstg.htm
 old-project: Stg
 ms.assetid: 748649a2-cf75-4ffa-ac1f-4a148b845d21
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetConvertStg, GetConvertStg function [Structured Storage], _stg_getconvertstg, coml2api/GetConvertStg, stg.getconvertstg
 ms.prod: windows-hardware
 ms.technology: windows-devices

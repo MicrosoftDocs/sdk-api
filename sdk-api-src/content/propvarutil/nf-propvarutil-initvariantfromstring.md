@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromString.htm
 old-project: properties
 ms.assetid: 2501399d-1d31-41ea-9943-f2a8042095c7
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: InitVariantFromString, InitVariantFromString function [Windows Properties], _shell_InitVariantFromString, properties.InitVariantFromString, propvarutil/InitVariantFromString, shell.InitVariantFromString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InitVariantFromString function

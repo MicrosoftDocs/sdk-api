@@ -7,7 +7,7 @@ old-location: multimedia\mci_dgv_copy_parms.htm
 old-project: Multimedia
 ms.assetid: 314f1843-0457-4160-a9f0-71cffe676c8c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPMCI_DGV_COPY_PARMS, MCI_DGV_COPY_PARMS, MCI_DGV_COPY_PARMS structure [Windows Multimedia], _win32_MCI_DGV_COPY_PARMS_str, digitalv/MCI_DGV_COPY_PARMS, multimedia.mci_dgv_copy_parms"
 ms.prod: windows-hardware
 ms.technology: windows-devices

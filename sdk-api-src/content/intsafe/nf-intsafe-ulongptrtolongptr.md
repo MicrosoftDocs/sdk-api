@@ -7,7 +7,7 @@ old-location: shell\ULongPtrToLongPtr.htm
 old-project: shell
 ms.assetid: 0da89cb7-721c-47d4-8f33-c8f44eb996b1
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: DWordPtrToLongPtr, DWordPtrToSSIZET, SIZETToLongPtr, SIZETToSSIZET, ULongPtrToLongPtr, ULongPtrToLongPtr function [Windows Shell], ULongPtrToSSIZET, _shell_ULongPtrToLongPtr, intsafe/ULongPtrToLongPtr, shell.ULongPtrToLongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

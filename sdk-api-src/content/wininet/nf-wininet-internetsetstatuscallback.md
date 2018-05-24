@@ -7,7 +7,7 @@ old-location: wininet\internetsetstatuscallback.htm
 old-project: WinInet
 ms.assetid: fe15627b-c77b-45c0-8ff6-02faa8512b57
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: InternetSetStatusCallback, InternetSetStatusCallback function [WinINet], _inet_internetsetstatuscallback_function, wininet.internetsetstatuscallback, wininet/InternetSetStatusCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

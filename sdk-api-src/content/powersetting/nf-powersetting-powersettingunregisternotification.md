@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Powrprof.lib
 req.dll: Powrprof.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PowerSettingUnregisterNotification function

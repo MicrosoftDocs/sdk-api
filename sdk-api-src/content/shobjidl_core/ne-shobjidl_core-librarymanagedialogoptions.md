@@ -7,7 +7,7 @@ old-location: shell\LIBRARYMANAGEDIALOGOPTIONS.htm
 old-project: shell
 ms.assetid: e5eaf131-9562-4ab0-a8bc-4eaaaa806a8f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: LIBRARYMANAGEDIALOGOPTIONS, LIBRARYMANAGEDIALOGOPTIONS enumeration [Windows Shell], LMD_ALLOWUNINDEXABLENETWORKLOCATIONS, LMD_DEFAULT, _shell_LIBRARYMANAGEDIALOGOPTIONS, shell.LIBRARYMANAGEDIALOGOPTIONS, shobjidl_core/LIBRARYMANAGEDIALOGOPTIONS, shobjidl_core/LMD_ALLOWUNINDEXABLENETWORKLOCATIONS, shobjidl_core/LMD_DEFAULT
 ms.prod: windows-hardware
 ms.technology: windows-devices

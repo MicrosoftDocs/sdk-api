@@ -7,7 +7,7 @@ old-location: wininet\deleteurlcacheentry.htm
 old-project: WinInet
 ms.assetid: bb765cba-6662-4dca-8f9f-3f35e37da28a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: DeleteUrlCacheEntry, DeleteUrlCacheEntry function [WinINet], DeleteUrlCacheEntryA, DeleteUrlCacheEntryW, _inet_deleteurlcacheentry_function, wininet.deleteurlcacheentry, wininet/DeleteUrlCacheEntry, wininet/DeleteUrlCacheEntryA, wininet/DeleteUrlCacheEntryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

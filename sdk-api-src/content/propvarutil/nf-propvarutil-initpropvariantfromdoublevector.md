@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromDoubleVector.htm
 old-project: properties
 ms.assetid: 78e91213-870f-4bc1-b0eb-a9fbae3d6c4c
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: InitPropVariantFromDoubleVector, InitPropVariantFromDoubleVector function [Windows Properties], properties.InitPropVariantFromDoubleVector, propvarutil/InitPropVariantFromDoubleVector, shell.InitPropVariantFromDoubleVector, shell_InitPropVariantFromDoubleVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InitPropVariantFromDoubleVector function

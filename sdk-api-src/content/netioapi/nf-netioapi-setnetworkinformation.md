@@ -7,7 +7,7 @@ old-location: netvista\setnetworkinformation.htm
 old-project: netvista
 ms.assetid: e196e978-2eb7-4b22-af3b-e14736c5ac94
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/21/2018
 ms.keywords: SetNetworkInformation, SetNetworkInformation function [Network Drivers Starting with Windows Vista], iphelper_d0cffca7-e9e7-404a-ab30-e2a2d6f66c14.xml, netioapi/SetNetworkInformation, netvista.setnetworkinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetNetworkInformation function

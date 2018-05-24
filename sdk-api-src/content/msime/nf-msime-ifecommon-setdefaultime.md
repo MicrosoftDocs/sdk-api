@@ -7,7 +7,7 @@ old-location: intl\ifecommon_setdefaultime.htm
 old-project: Intl
 ms.assetid: D54AABA7-8FAC-4867-91E7-BAF477F8DAB9
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],SetDefaultIME method, IFECommon.SetDefaultIME, IFECommon::SetDefaultIME, SetDefaultIME, SetDefaultIME method [Internationalization for Windows Applications], SetDefaultIME method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_setdefaultime, msime/IFECommon::SetDefaultIME
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFECommon::SetDefaultIME

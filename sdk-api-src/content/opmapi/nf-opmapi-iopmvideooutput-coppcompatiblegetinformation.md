@@ -7,7 +7,7 @@ old-location: mf\iopmvideooutput_iopmvideooutput__coppcompatiblegetinformation.h
 old-project: medfound
 ms.assetid: 46c0c426-9730-4a0e-ab95-03b240bd55f0
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: COPPCompatibleGetInformation, COPPCompatibleGetInformation method [Media Foundation], COPPCompatibleGetInformation method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],COPPCompatibleGetInformation method, IOPMVideoOutput.COPPCompatibleGetInformation, IOPMVideoOutput::COPPCompatibleGetInformation, mf.iopmvideooutput_iopmvideooutput__coppcompatiblegetinformation, opmapi/IOPMVideoOutput::COPPCompatibleGetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOPMVideoOutput::COPPCompatibleGetInformation

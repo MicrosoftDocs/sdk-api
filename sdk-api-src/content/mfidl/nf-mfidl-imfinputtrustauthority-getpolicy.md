@@ -7,7 +7,7 @@ old-location: mf\imfinputtrustauthority_getpolicy.htm
 old-project: medfound
 ms.assetid: 4d840b56-47e0-4c2f-b2e7-a17586dad8d1
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 4d840b56-47e0-4c2f-b2e7-a17586dad8d1, GetPolicy, GetPolicy method [Media Foundation], GetPolicy method [Media Foundation],IMFInputTrustAuthority interface, IMFInputTrustAuthority interface [Media Foundation],GetPolicy method, IMFInputTrustAuthority.GetPolicy, IMFInputTrustAuthority::GetPolicy, mf.imfinputtrustauthority_getpolicy, mfidl/IMFInputTrustAuthority::GetPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

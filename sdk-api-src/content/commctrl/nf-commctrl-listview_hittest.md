@@ -7,7 +7,7 @@ old-location: controls\ListView_HitTest.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_hittest.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ListView_HitTest, ListView_HitTest macro [Windows Controls], _win32_ListView_HitTest, _win32_ListView_HitTest_cpp, commctrl/ListView_HitTest, controls.ListView_HitTest, controls._win32_ListView_HitTest
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\filtered_data_sources.htm
 old-project: search
 ms.assetid: 5baae290-aead-4986-a7d4-0302931e0104
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: FILTERED_DATA_SOURCES, FILTERED_DATA_SOURCES structure [search], _FILTERED_DATA_SOURCES, filtereg/FILTERED_DATA_SOURCES, search.filtered_data_sources
 ms.prod: windows-hardware
 ms.technology: windows-devices

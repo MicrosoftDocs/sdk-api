@@ -7,7 +7,7 @@ old-location: netmgmt\netremotetod.htm
 old-project: NetMgmt
 ms.assetid: 5a935e09-f188-4ee1-b998-c67488475baa
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: NetRemoteTOD, NetRemoteTOD function [Network Management], _win32_netremotetod, lmremutl/NetRemoteTOD, netmgmt.netremotetod
 ms.prod: windows-hardware
 ms.technology: windows-devices

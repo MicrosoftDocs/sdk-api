@@ -7,7 +7,7 @@ old-location: mf\dxva2_aes_ctr_iv.htm
 old-project: medfound
 ms.assetid: acde4bbb-2a14-4237-b426-a157a9781f40
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: DXVA2_AES_CTR_IV, DXVA2_AES_CTR_IV structure [Media Foundation], _DXVA2_AES_CTR_IV, dxva2api/DXVA2_AES_CTR_IV, mf.dxva2_aes_ctr_iv
 ms.prod: windows-hardware
 ms.technology: windows-devices

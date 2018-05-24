@@ -7,7 +7,7 @@ old-location: security\cryptenumkeyidentifierproperties.htm
 old-project: SecCrypto
 ms.assetid: 6e57d935-4cfb-44af-b1c6-6c399c959452
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CryptEnumKeyIdentifierProperties, CryptEnumKeyIdentifierProperties function [Security], _crypto2_cryptenumkeyidentifierproperties, security.cryptenumkeyidentifierproperties, wincrypt/CryptEnumKeyIdentifierProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage4_getparent.htm
 old-project: WMDM
 ms.assetid: e3281501-ec4b-4437-b462-d5b0fd1ac4e0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetParent, GetParent method [windows Media Device Manager], GetParent method [windows Media Device Manager],IWMDMStorage4 interface, IWMDMStorage4 interface [windows Media Device Manager],GetParent method, IWMDMStorage4.GetParent, IWMDMStorage4::GetParent, IWMDMStorage4GetParent, mswmdm/IWMDMStorage4::GetParent, wmdm.iwmdmstorage4_getparent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMStorage4::GetParent

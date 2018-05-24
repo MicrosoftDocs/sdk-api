@@ -7,7 +7,7 @@ old-location: policy\igrouppolicyobject_getdisplayname.htm
 old-project: Policy
 ms.assetid: a16592c3-8fa1-4859-b379-ef31999a3fdd
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Group Policy], GetDisplayName method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetDisplayName method, IGroupPolicyObject.GetDisplayName, IGroupPolicyObject::GetDisplayName, _win32_igrouppolicyobject_getdisplayname, gpedit/IGroupPolicyObject::GetDisplayName, policy.igrouppolicyobject_getdisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices

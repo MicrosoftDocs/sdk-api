@@ -7,7 +7,7 @@ old-location: shell\IParseAndCreateItem.htm
 old-project: shell
 ms.assetid: 4a8c6223-df1e-4f04-8818-d7752f686cb5
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IParseAndCreateItem, IParseAndCreateItem interface [Windows Shell], IParseAndCreateItem interface [Windows Shell],described, _shell_IParseAndCreateItem, shell.IParseAndCreateItem, shobjidl_core/IParseAndCreateItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ienroll4_installpkcs7blob.htm
 old-project: SecCrypto
 ms.assetid: fa704c5e-f6ec-4187-b787-7b15cc7d4eb4
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: IEnroll2 interface [Security],InstallPKCS7Blob method, IEnroll2.InstallPKCS7Blob, IEnroll2::InstallPKCS7Blob, InstallPKCS7Blob, InstallPKCS7Blob method [Security], InstallPKCS7Blob method [Security],IEnroll2 interface, security.ienroll4_installpkcs7blob, xenroll/IEnroll2::InstallPKCS7Blob
 ms.prod: windows-hardware
 ms.technology: windows-devices

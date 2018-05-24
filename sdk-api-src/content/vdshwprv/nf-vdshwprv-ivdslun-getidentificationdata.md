@@ -7,7 +7,7 @@ old-location: base\ivdslun_getidentificationdata.htm
 old-project: VDS
 ms.assetid: ab72cbe0-d10d-49af-87a0-4da28f79b124
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetIdentificationData, GetIdentificationData method [VDS], GetIdentificationData method [VDS],IVdsLun interface, IVdsLun interface [VDS],GetIdentificationData method, IVdsLun.GetIdentificationData, IVdsLun::GetIdentificationData, base.ivdslun_getidentificationdata, vds/IVdsLun::GetIdentificationData, vdshwprv/IVdsLun::GetIdentificationData
 ms.prod: windows-hardware
 ms.technology: windows-devices

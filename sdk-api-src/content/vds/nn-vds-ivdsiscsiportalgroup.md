@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiportalgroup.htm
 old-project: VDS
 ms.assetid: 65d773bd-3828-4c9d-a841-bb85a53aeadc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsIscsiPortalGroup, IVdsIscsiPortalGroup interface [VDS], IVdsIscsiPortalGroup interface [VDS],described, base.ivdsiscsiportalgroup, vds/IVdsIscsiPortalGroup, vdshwprv/IVdsIscsiPortalGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

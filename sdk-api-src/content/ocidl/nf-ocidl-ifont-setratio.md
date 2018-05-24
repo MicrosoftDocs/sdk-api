@@ -7,7 +7,7 @@ old-location: com\ifont_setratio.htm
 old-project: com
 ms.assetid: aaa962d8-6f7f-4031-aa10-09cadf0e5aec
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IFont interface [COM],SetRatio method, IFont.SetRatio, IFont::SetRatio, SetRatio, SetRatio method [COM], SetRatio method [COM],IFont interface, _ctrl_ifont_setratio, com.ifont_setratio, ocidl/IFont::SetRatio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFont::SetRatio

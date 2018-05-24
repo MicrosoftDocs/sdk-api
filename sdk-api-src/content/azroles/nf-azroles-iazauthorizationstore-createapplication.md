@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_createapplication.htm
 old-project: SecAuthZ
 ms.assetid: ca6feb69-15cd-454a-a2b8-c75c4c6b38cd
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AzAuthorizationStore object [Security],CreateApplication method, CreateApplication, CreateApplication method [Security], CreateApplication method [Security],AzAuthorizationStore object, CreateApplication method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],CreateApplication method, IAzAuthorizationStore.CreateApplication, IAzAuthorizationStore::CreateApplication, azroles/IAzAuthorizationStore::CreateApplication, security.azauthorizationstore_createapplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

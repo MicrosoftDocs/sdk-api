@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISensorCollection interface

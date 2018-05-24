@@ -7,7 +7,7 @@ old-location: base\ivdsservicesan_setsanpolicy.htm
 old-project: VDS
 ms.assetid: e5cb0b5e-d181-44a7-8416-e9f8fb575423
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsServiceSAN interface,SetSANPolicy method, IVdsServiceSAN.SetSANPolicy, IVdsServiceSAN::SetSANPolicy, SetSANPolicy, SetSANPolicy method, SetSANPolicy method,IVdsServiceSAN interface, base.ivdsservicesan_setsanpolicy, vds/IVdsServiceSAN::SetSANPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

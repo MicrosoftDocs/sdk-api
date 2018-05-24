@@ -7,7 +7,7 @@ old-location: controls\IRichEditOle_HandsOffStorage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolehandsoffstorage.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: HandsOffStorage, HandsOffStorage method [Windows Controls], HandsOffStorage method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],HandsOffStorage method, IRichEditOle.HandsOffStorage, IRichEditOle::HandsOffStorage, _win32_IRichEditOle_HandsOffStorage, _win32_IRichEditOle_HandsOffStorage_cpp, controls.IRichEditOle_HandsOffStorage, controls._win32_IRichEditOle_HandsOffStorage, richole/IRichEditOle::HandsOffStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRichEditOle::HandsOffStorage

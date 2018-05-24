@@ -7,7 +7,7 @@ old-location: tablet\iinkcursorbuttons.htm
 old-project: tablet
 ms.assetid: 3f695ab4-8174-402f-b7d6-810f149f5153
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 3f695ab4-8174-402f-b7d6-810f149f5153, IInkCursorButtons, IInkCursorButtons interface [Tablet PC], IInkCursorButtons interface [Tablet PC],described, msinkaut/IInkCursorButtons, tablet.iinkcursorbuttons
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkCursorButtons interface

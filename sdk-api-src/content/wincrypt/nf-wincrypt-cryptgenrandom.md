@@ -7,7 +7,7 @@ old-location: security\cryptgenrandom.htm
 old-project: SecCrypto
 ms.assetid: 3e5a437f-7439-43c9-a191-2908d2df0eb6
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CryptGenRandom, CryptGenRandom function [Security], _crypto2_cryptgenrandom, security.cryptgenrandom, wincrypt/CryptGenRandom
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_inplaceboundingrectangle.htm
 old-project: tablet
 ms.assetid: 9a114f9d-b97d-4a2e-ac8e-f0a0241a6fbb
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 9a114f9d-b97d-4a2e-ac8e-f0a0241a6fbb, ITextInputPanel interface [Tablet PC],InPlaceBoundingRectangle property, ITextInputPanel.InPlaceBoundingRectangle, ITextInputPanel.get_InPlaceBoundingRectangle, ITextInputPanel::InPlaceBoundingRectangle, ITextInputPanel::get_InPlaceBoundingRectangle, InPlaceBoundingRectangle property [Tablet PC], InPlaceBoundingRectangle property [Tablet PC],ITextInputPanel interface, get_InPlaceBoundingRectangle, peninputpanel/ITextInputPanel::InPlaceBoundingRectangle, peninputpanel/ITextInputPanel::get_InPlaceBoundingRectangle, tablet.itextinputpanel_inplaceboundingrectangle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITextInputPanel::get_InPlaceBoundingRectangle

@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents.htm
 old-project: VSS
 ms.assetid: fe1220c7-11e5-4872-b7a9-61558f7c75c0
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssBackupComponents, IVssBackupComponents interface [VSS], IVssBackupComponents interface [VSS],described, _win32_ivssbackupcomponents, base.ivssbackupcomponents, vsbackup/IVssBackupComponents
 ms.prod: windows-hardware
 ms.technology: windows-devices

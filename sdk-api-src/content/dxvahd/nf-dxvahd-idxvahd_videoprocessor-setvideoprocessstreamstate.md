@@ -7,7 +7,7 @@ old-location: mf\idxvahd_videoprocessor_setvideoprocessstreamstate.htm
 old-project: medfound
 ms.assetid: 40a8444f-576e-40ff-804e-0912812f0ee6
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IDXVAHD_VideoProcessor interface [Media Foundation],SetVideoProcessStreamState method, IDXVAHD_VideoProcessor.SetVideoProcessStreamState, IDXVAHD_VideoProcessor::SetVideoProcessStreamState, SetVideoProcessStreamState, SetVideoProcessStreamState method [Media Foundation], SetVideoProcessStreamState method [Media Foundation],IDXVAHD_VideoProcessor interface, dxvahd/IDXVAHD_VideoProcessor::SetVideoProcessStreamState, mf.idxvahd_videoprocessor_setvideoprocessstreamstate
 ms.prod: windows-hardware
 ms.technology: windows-devices

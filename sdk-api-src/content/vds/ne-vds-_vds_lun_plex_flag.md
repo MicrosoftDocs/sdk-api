@@ -7,7 +7,7 @@ old-location: base\vds_lun_plex_flag.htm
 old-project: VDS
 ms.assetid: 0258d87c-0270-449e-8e96-2c511c5f7242
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_LPF_LBN_REMAP_ENABLED, VDS_LUN_PLEX_FLAG, VDS_LUN_PLEX_FLAG enumeration [VDS], _VDS_LUN_PLEX_FLAG, base.vds_lun_plex_flag, vds/VDS_LPF_LBN_REMAP_ENABLED, vds/VDS_LUN_PLEX_FLAG, vdshwprv/VDS_LPF_LBN_REMAP_ENABLED, vdshwprv/VDS_LUN_PLEX_FLAG
 ms.prod: windows-hardware
 ms.technology: windows-devices

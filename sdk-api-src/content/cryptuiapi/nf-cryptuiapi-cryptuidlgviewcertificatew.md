@@ -7,7 +7,7 @@ old-location: security\cryptuidlgviewcertificate.htm
 old-project: SecCrypto
 ms.assetid: 5107ff22-78c4-4005-80af-ff45781da6c7
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CryptUIDlgViewCertificate, CryptUIDlgViewCertificate function [Security], CryptUIDlgViewCertificateA, CryptUIDlgViewCertificateW, cryptuiapi/CryptUIDlgViewCertificate, cryptuiapi/CryptUIDlgViewCertificateA, cryptuiapi/CryptUIDlgViewCertificateW, security.cryptuidlgviewcertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices

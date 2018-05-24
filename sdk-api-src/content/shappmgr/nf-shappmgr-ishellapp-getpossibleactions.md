@@ -7,7 +7,7 @@ old-location: shell\IShellApp_GetPossibleActions.htm
 old-project: shell
 ms.assetid: e2cdff59-1339-4d00-9bbc-e34e773da1c2
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetPossibleActions, GetPossibleActions method [Windows Shell], GetPossibleActions method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetPossibleActions method, IShellApp.GetPossibleActions, IShellApp::GetPossibleActions, inet_IShellApp_GetPossibleActions, shappmgr/IShellApp::GetPossibleActions, shell.IShellApp_GetPossibleActions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IShellApp::GetPossibleActions

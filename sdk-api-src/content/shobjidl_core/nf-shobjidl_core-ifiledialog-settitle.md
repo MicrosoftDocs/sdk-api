@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_SetTitle.htm
 old-project: shell
 ms.assetid: 9ae3d226-e825-443a-a2b0-4b5bb07fc9f7
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetTitle method, IFileDialog.SetTitle, IFileDialog::SetTitle, SetTitle, SetTitle method [Windows Shell], SetTitle method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetTitle, shell_IFileDialog_SetTitle, shobjidl_core/IFileDialog::SetTitle
 ms.prod: windows-hardware
 ms.technology: windows-devices

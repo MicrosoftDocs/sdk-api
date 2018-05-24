@@ -7,7 +7,7 @@ old-location: controls\NMHDR.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmhdr.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: NMHDR, NMHDR structure [Windows Controls], _nmhdr, _win32_NMHDR_str, _win32_NMHDR_str_cpp, controls.NMHDR, controls._win32_NMHDR_str, richedit/NMHDR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _nmhdr structure

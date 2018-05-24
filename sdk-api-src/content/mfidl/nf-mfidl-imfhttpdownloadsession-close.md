@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadsession_close.htm
 old-project: medfound
 ms.assetid: 587D281D-0488-470B-9E20-AE6DE70F33DC
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundation],IMFHttpDownloadSession interface, IMFHttpDownloadSession interface [Media Foundation],Close method, IMFHttpDownloadSession.Close, IMFHttpDownloadSession::Close, mf.imfhttpdownloadsession_close, mfidl/IMFHttpDownloadSession::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

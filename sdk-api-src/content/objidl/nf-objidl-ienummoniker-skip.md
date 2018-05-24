@@ -7,7 +7,7 @@ old-location: com\ienummoniker_skip.htm
 old-project: com
 ms.assetid: 90df5bc4-6bb0-44bf-b675-d4a93d4680ce
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumMoniker interface [COM],Skip method, IEnumMoniker.Skip, IEnumMoniker::Skip, Skip, Skip method [COM], Skip method [COM],IEnumMoniker interface, _ole_ienummoniker_skip, com.ienummoniker_skip, objidl/IEnumMoniker::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumMoniker::Skip

@@ -7,7 +7,7 @@ old-location: mf\imfmetadata.htm
 old-project: medfound
 ms.assetid: 411658ca-dc5e-445b-8d61-0c0429fcfbb1
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 411658ca-dc5e-445b-8d61-0c0429fcfbb1, IMFMetadata, IMFMetadata interface [Media Foundation], IMFMetadata interface [Media Foundation],described, mf.imfmetadata, mfidl/IMFMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

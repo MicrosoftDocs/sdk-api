@@ -7,7 +7,7 @@ old-location: mf\imfobjectreferencestream_savereference.htm
 old-project: medfound
 ms.assetid: 776f94c4-d0e9-4fb7-a39c-32c83428bbe3
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 776f94c4-d0e9-4fb7-a39c-32c83428bbe3, IMFObjectReferenceStream interface [Media Foundation],SaveReference method, IMFObjectReferenceStream.SaveReference, IMFObjectReferenceStream::SaveReference, SaveReference, SaveReference method [Media Foundation], SaveReference method [Media Foundation],IMFObjectReferenceStream interface, mf.imfobjectreferencestream_savereference, mfidl/IMFObjectReferenceStream::SaveReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

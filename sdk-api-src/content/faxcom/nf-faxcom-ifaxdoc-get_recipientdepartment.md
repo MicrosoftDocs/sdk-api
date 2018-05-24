@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc_get_recipientdepartment_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3mk4.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: FaxDoc object [Fax Service],RecipientDepartment property, FaxDoc.RecipientDepartment, IFaxDoc.get_RecipientDepartment, IFaxDoc::get_RecipientDepartment, RecipientDepartment property [Fax Service], RecipientDepartment property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientdepartment, fax._mfax_ifaxdoc_get_recipientdepartment, fax._mfax_ifaxdoc_get_recipientdepartment_vb, get_RecipientDepartment
 ms.prod: windows-hardware
 ms.technology: windows-devices

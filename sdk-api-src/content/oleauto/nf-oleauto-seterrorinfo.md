@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetErrorInfo function

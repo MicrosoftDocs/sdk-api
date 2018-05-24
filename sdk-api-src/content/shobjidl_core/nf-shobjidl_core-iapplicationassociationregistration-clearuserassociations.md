@@ -7,7 +7,7 @@ old-location: shell\IApplicationAssociationRegistration_ClearUserAssociations.ht
 old-project: shell
 ms.assetid: dcc0990a-f678-47bb-9462-905940ac87d6
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ClearUserAssociations, ClearUserAssociations method [Windows Shell], ClearUserAssociations method [Windows Shell],IApplicationAssociationRegistration interface, IApplicationAssociationRegistration interface [Windows Shell],ClearUserAssociations method, IApplicationAssociationRegistration.ClearUserAssociations, IApplicationAssociationRegistration::ClearUserAssociations, _shell_IApplicationAssociationRegistration_ClearUserAssociations, shell.IApplicationAssociationRegistration_ClearUserAssociations, shobjidl_core/IApplicationAssociationRegistration::ClearUserAssociations
 ms.prod: windows-hardware
 ms.technology: windows-devices

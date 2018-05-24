@@ -7,7 +7,7 @@ old-location: rras\mpradminmibbufferfree.htm
 old-project: RRAS
 ms.assetid: cee21427-42bc-45df-ad95-c8aa81041776
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: MprAdminMIBBufferFree, MprAdminMIBBufferFree function [RAS], _mpr_mpradminmibbufferfree, mprapi/MprAdminMIBBufferFree, rras.mpradminmibbufferfree
 ms.prod: windows-hardware
 ms.technology: windows-devices

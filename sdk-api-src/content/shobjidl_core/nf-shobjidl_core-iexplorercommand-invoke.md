@@ -7,7 +7,7 @@ old-location: shell\IExplorerCommand_Invoke.htm
 old-project: shell
 ms.assetid: 3ea545a4-5f4c-4f98-9e56-b7c7eed5f821
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IExplorerCommand interface [Windows Shell],Invoke method, IExplorerCommand.Invoke, IExplorerCommand::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],IExplorerCommand interface, _shell_IExplorerCommand_Invoke, shell.IExplorerCommand_Invoke, shobjidl_core/IExplorerCommand::Invoke
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icertencodedatearray_reset.htm
 old-project: SecCrypto
 ms.assetid: f09087aa-ae10-4a59-9b59-5f8b72254ce6
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CCertEncodeDateArray object [Security],Reset method, ICertEncodeDateArray interface [Security],Reset method, ICertEncodeDateArray.Reset, ICertEncodeDateArray::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeDateArray object, Reset method [Security],ICertEncodeDateArray interface, _certsrv_icertencodedatearray_reset, certenc/ICertEncodeDateArray::Reset, security.icertencodedatearray_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

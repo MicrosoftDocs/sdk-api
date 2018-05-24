@@ -7,7 +7,7 @@ old-location: base\vds_drive_letter_prop.htm
 old-project: VDS
 ms.assetid: b944e29a-85b0-4cab-b804-1a09a19caddb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: "*PVDS_DRIVE_LETTER_PROP, PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE, PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE structure pointer [VDS], VDS_DRIVE_LETTER_PROP, VDS_DRIVE_LETTER_PROP structure [VDS], _VDS_DRIVE_LETTER_PROP, base.vds_drive_letter_prop, vds/PVDS_DRIVE_LETTER_PROP VDS_ASYNC_OUTPUT_TYPE, vds/_VDS_DRIVE_LETTER_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

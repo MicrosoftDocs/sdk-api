@@ -7,7 +7,7 @@ old-location: com\iobjectwithsite_getsite.htm
 old-project: com
 ms.assetid: f88ef2b1-63c3-4307-a5e1-b9104c8aef29
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetSite, GetSite method [COM], GetSite method [COM],IObjectWithSite interface, IObjectWithSite interface [COM],GetSite method, IObjectWithSite.GetSite, IObjectWithSite::GetSite, _ole_iobjectwithsite_getsite, com.iobjectwithsite_getsite, ocidl/IObjectWithSite::GetSite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IObjectWithSite::GetSite

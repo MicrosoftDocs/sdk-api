@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_setupperboundvector.htm
 old-project: UIAnimation
 ms.assetid: 776CDF6F-F93F-44DC-93D7-79D3A866FAF2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetUpperBoundVector method, IUIAnimationVariable2.SetUpperBoundVector, IUIAnimationVariable2::SetUpperBoundVector, SetUpperBoundVector, SetUpperBoundVector method [Windows Animation], SetUpperBoundVector method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setupperboundvector, uianimation/IUIAnimationVariable2::SetUpperBoundVector
 ms.prod: windows-hardware
 ms.technology: windows-devices

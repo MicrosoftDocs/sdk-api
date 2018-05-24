@@ -7,7 +7,7 @@ old-location: base\vds_drive_extent.htm
 old-project: VDS
 ms.assetid: c155d925-e86f-4bec-9032-dae2221172a7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: "*PVDS_DRIVE_EXTENT, VDS_DRIVE_EXTENT, VDS_DRIVE_EXTENT structure [VDS], _VDS_DRIVE_EXTENT, base.vds_drive_extent, vds/_VDS_DRIVE_EXTENT, vdshwprv/_VDS_DRIVE_EXTENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices

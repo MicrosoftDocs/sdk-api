@@ -7,7 +7,7 @@ old-location: rras\mpradminisserviceinitialized.htm
 old-project: RRAS
 ms.assetid: 912bbb7d-f566-4297-b412-605658acaac8
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: FALSE, MprAdminIsServiceInitialized, MprAdminIsServiceInitialized function [RAS], TRUE, mprapi/MprAdminIsServiceInitialized, rras.mpradminisserviceinitialized
 ms.prod: windows-hardware
 ms.technology: windows-devices

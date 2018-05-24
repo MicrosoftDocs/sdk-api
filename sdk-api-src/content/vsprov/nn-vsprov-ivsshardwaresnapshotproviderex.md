@@ -7,7 +7,7 @@ old-location: base\ivsshardwaresnapshotproviderex.htm
 old-project: VSS
 ms.assetid: aaf94823-845b-49cb-8599-962229fef4cb
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssHardwareSnapshotProviderEx, IVssHardwareSnapshotProviderEx interface, IVssHardwareSnapshotProviderEx interface,described, base.ivsshardwaresnapshotproviderex, vsprov/IVssHardwareSnapshotProviderEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

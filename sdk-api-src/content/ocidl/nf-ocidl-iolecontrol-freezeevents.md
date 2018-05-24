@@ -7,7 +7,7 @@ old-location: com\iolecontrol_freezeevents.htm
 old-project: com
 ms.assetid: 08872f4f-eb3e-434c-bd7d-d4de621948ad
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: FreezeEvents, FreezeEvents method [COM], FreezeEvents method [COM],IOleControl interface, IOleControl interface [COM],FreezeEvents method, IOleControl.FreezeEvents, IOleControl::FreezeEvents, _ctrl_iolecontrol_freezeevents, com.iolecontrol_freezeevents, ocidl/IOleControl::FreezeEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleControl::FreezeEvents

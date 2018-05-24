@@ -7,7 +7,7 @@ old-location: controls\ListView_SetToolTips.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settooltips.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ListView_SetToolTips, ListView_SetToolTips macro [Windows Controls], _win32_ListView_SetToolTips, _win32_ListView_SetToolTips_cpp, commctrl/ListView_SetToolTips, controls.ListView_SetToolTips, controls._win32_ListView_SetToolTips
 ms.prod: windows-hardware
 ms.technology: windows-devices

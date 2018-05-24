@@ -7,7 +7,7 @@ old-location: mf\itoccollection_getentrybyindex.htm
 old-project: medfound
 ms.assetid: 93bddd4d-8a58-46e6-9284-eaa70be2c5a4
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetEntryByIndex, GetEntryByIndex method [Media Foundation], GetEntryByIndex method [Media Foundation],ITocCollection interface, ITocCollection interface [Media Foundation],GetEntryByIndex method, ITocCollection.GetEntryByIndex, ITocCollection::GetEntryByIndex, codecapi.itoccollection_getentrybyindex, mf.itoccollection_getentrybyindex, wmcodecdsp/ITocCollection::GetEntryByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices

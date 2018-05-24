@@ -7,7 +7,7 @@ old-location: termserv\iaudioendpointcontrol_stop.htm
 old-project: TermServ
 ms.assetid: 803aec38-abc8-4f55-bb56-3dcc3eeb924a
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: IAudioEndpointControl interface [Remote Desktop Services],Stop method, IAudioEndpointControl.Stop, IAudioEndpointControl::Stop, Stop, Stop method [Remote Desktop Services], Stop method [Remote Desktop Services],IAudioEndpointControl interface, audioengineendpoint/IAudioEndpointControl::Stop, termserv.iaudioendpointcontrol_stop
 ms.prod: windows-hardware
 ms.technology: windows-devices

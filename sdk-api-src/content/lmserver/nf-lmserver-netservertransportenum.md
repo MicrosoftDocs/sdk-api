@@ -7,7 +7,7 @@ old-location: netmgmt\netservertransportenum.htm
 old-project: NetMgmt
 ms.assetid: db42ac44-d70d-4b89-882a-6ac83fd611fd
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: 0, 1, NetServerTransportEnum, NetServerTransportEnum function [Network Management], _win32_netservertransportenum, lmserver/NetServerTransportEnum, netmgmt.netservertransportenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

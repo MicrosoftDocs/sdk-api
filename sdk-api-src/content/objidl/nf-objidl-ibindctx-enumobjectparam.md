@@ -7,7 +7,7 @@ old-location: com\ibindctx_enumobjectparam.htm
 old-project: com
 ms.assetid: 9e799ce4-e9b3-4b31-98a0-2167a0c19848
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: EnumObjectParam, EnumObjectParam method [COM], EnumObjectParam method [COM],IBindCtx interface, IBindCtx interface [COM],EnumObjectParam method, IBindCtx.EnumObjectParam, IBindCtx::EnumObjectParam, _com_ibindctx_enumobjectparam, com.ibindctx_enumobjectparam, objidl/IBindCtx::EnumObjectParam
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IBindCtx::EnumObjectParam

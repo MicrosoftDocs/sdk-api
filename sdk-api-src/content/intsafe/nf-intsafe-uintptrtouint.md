@@ -7,7 +7,7 @@ old-location: shell\UIntPtrToUInt.htm
 old-project: shell
 ms.assetid: 298333ae-1efc-41b8-a8e6-83c2c0d4088e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SizeTToUInt, UIntPtrToUInt, UIntPtrToUInt function [Windows Shell], _shell_UIntPtrToUInt, intsafe/UIntPtrToUInt, shell.UIntPtrToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

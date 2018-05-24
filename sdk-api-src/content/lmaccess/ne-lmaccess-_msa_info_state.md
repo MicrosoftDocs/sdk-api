@@ -7,7 +7,7 @@ old-location: security\msa_info_state.htm
 old-project: SecMgmt
 ms.assetid: 3cba6c6a-1d63-4795-b009-1fcdf86cc2ef
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: "*PMSA_INFO_STATE, MSA_INFO_STATE, MSA_INFO_STATE enumeration [Security], MsaInfoCanInstall, MsaInfoCannotInstall, MsaInfoInstalled, MsaInfoNotExist, MsaInfoNotService, _MSA_INFO_STATE, lmaccess/MSA_INFO_STATE, lmaccess/MsaInfoCanInstall, lmaccess/MsaInfoCannotInstall, lmaccess/MsaInfoInstalled, lmaccess/MsaInfoNotExist, lmaccess/MsaInfoNotService, security.msa_info_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices

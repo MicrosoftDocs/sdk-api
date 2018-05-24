@@ -7,7 +7,7 @@ old-location: wmdm\imdserviceprovider_enumdevices.htm
 old-project: WMDM
 ms.assetid: a3d4e404-7441-4a61-b2bb-ca373eb79b99
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: EnumDevices, EnumDevices method [windows Media Device Manager], EnumDevices method [windows Media Device Manager],IMDServiceProvider interface, IMDServiceProvider interface [windows Media Device Manager],EnumDevices method, IMDServiceProvider.EnumDevices, IMDServiceProvider::EnumDevices, IMDServiceProviderEnumDevices, mswmdm/IMDServiceProvider::EnumDevices, wmdm.imdserviceprovider_enumdevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDServiceProvider::EnumDevices

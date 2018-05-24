@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxprintcoverpage.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8fmt.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: FaxPrintCoverPage, FaxPrintCoverPage function [Fax Service], FaxPrintCoverPageA, FaxPrintCoverPageW, _mfax_faxprintcoverpage, fax._mfax_faxprintcoverpage, winfax/FaxPrintCoverPage, winfax/FaxPrintCoverPageA, winfax/FaxPrintCoverPageW
 ms.prod: windows-hardware
 ms.technology: windows-devices

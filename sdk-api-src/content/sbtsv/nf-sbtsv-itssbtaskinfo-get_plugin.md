@@ -7,7 +7,7 @@ old-location: termserv\itssbtaskinfo_plugin.htm
 old-project: TermServ
 ms.assetid: 1302377f-08db-413a-9f6c-ab9c974cf760
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Plugin property, ITsSbTaskInfo.Plugin, ITsSbTaskInfo.get_Plugin, ITsSbTaskInfo::Plugin, ITsSbTaskInfo::get_Plugin, Plugin property [Remote Desktop Services], Plugin property [Remote Desktop Services],ITsSbTaskInfo interface, get_Plugin, sbtsv/ITsSbTaskInfo::Plugin, sbtsv/ITsSbTaskInfo::get_Plugin, termserv.itssbtaskinfo_plugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbTaskInfo::get_Plugin

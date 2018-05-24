@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutingrule_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9mn9_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFaxOutboundRoutingRule, IFaxOutboundRoutingRule interface [Fax Service], IFaxOutboundRoutingRule interface [Fax Service],described, _mfax_faxoutboundroutingrule_cpp, fax._mfax_faxoutboundroutingrule_cpp, faxcomex/IFaxOutboundRoutingRule
 ms.prod: windows-hardware
 ms.technology: windows-devices

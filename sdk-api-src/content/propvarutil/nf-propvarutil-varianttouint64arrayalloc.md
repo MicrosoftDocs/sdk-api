@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt64ArrayAlloc.htm
 old-project: properties
 ms.assetid: 898edef6-a688-4a39-897c-70f29952db49
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: VariantToUInt64ArrayAlloc, VariantToUInt64ArrayAlloc function [Windows Properties], _shell_VariantToUInt64ArrayAlloc, properties.VariantToUInt64ArrayAlloc, propvarutil/VariantToUInt64ArrayAlloc, shell.VariantToUInt64ArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantToUInt64ArrayAlloc function

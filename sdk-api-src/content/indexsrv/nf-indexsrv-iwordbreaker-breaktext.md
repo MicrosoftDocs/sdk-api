@@ -7,7 +7,7 @@ old-location: search\_search_IWordBreaker_BreakText.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\breaktext.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: BreakText, BreakText method [search], BreakText method [search],IWordBreaker interface, IWordBreaker interface [search],BreakText method, IWordBreaker.BreakText, IWordBreaker::BreakText, _search_IWordBreaker_BreakText, indexsrv/IWordBreaker::BreakText, search._search_IWordBreaker_BreakText
 ms.prod: windows-hardware
 ms.technology: windows-devices

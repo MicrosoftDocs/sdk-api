@@ -7,7 +7,7 @@ old-location: mf\imfmetadata_getproperty.htm
 old-project: medfound
 ms.assetid: 177c8612-5c9f-4a71-9ee1-a4c67737af2d
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 177c8612-5c9f-4a71-9ee1-a4c67737af2d, GetProperty, GetProperty method [Media Foundation], GetProperty method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetProperty method, IMFMetadata.GetProperty, IMFMetadata::GetProperty, mf.imfmetadata_getproperty, mfidl/IMFMetadata::GetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

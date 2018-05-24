@@ -7,8 +7,8 @@ old-location: fax\_mfax_ifaxserver_client.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8dx0.htm
 ms.author: windowsdriverdev
-ms.date: 3/22/2018
-ms.keywords: IFaxServer, IFaxServer interface [Fax Service], IFaxServer interface [Fax Service], described, _mfax_ifaxserver_client, fax._mfax_ifaxserver_client, faxcom/IFaxServer
+ms.date: 5/21/2018
+ms.keywords: IFaxServer, IFaxServer interface [Fax Service], IFaxServer interface [Fax Service],described, _mfax_ifaxserver_client, fax._mfax_ifaxserver_client, faxcom/IFaxServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

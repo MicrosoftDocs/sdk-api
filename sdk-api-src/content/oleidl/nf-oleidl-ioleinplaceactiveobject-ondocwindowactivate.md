@@ -7,7 +7,7 @@ old-location: com\ioleinplaceactiveobject_ondocwindowactivate.htm
 old-project: com
 ms.assetid: 8333d707-4d34-4a87-9990-b25597ffa9fc
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],OnDocWindowActivate method, IOleInPlaceActiveObject.OnDocWindowActivate, IOleInPlaceActiveObject::OnDocWindowActivate, OnDocWindowActivate, OnDocWindowActivate method [COM], OnDocWindowActivate method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_ondocwindowactivate, com.ioleinplaceactiveobject_ondocwindowactivate, oleidl/IOleInPlaceActiveObject::OnDocWindowActivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleInPlaceActiveObject::OnDocWindowActivate

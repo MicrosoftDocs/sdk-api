@@ -7,7 +7,7 @@ old-location: shell\SFVM_PROPPAGE_DATA.htm
 old-project: shell
 ms.assetid: 9f214786-fc82-4f1b-a0ec-7bf61b1f3cf7
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SFVM_PROPPAGE_DATA, SFVM_PROPPAGE_DATA structure [Windows Shell], _SFVM_PROPPAGE_DATA, _win32_SFVM_PROPPAGE_DATA, shell.SFVM_PROPPAGE_DATA, shlobj_core/SFVM_PROPPAGE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

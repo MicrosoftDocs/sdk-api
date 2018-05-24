@@ -7,7 +7,7 @@ old-location: security\token_elevation.htm
 old-project: SecAuthZ
 ms.assetid: a1c87818-f092-43cf-872d-4bb2590a944b
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: "*PTOKEN_ELEVATION, PTOKEN_ELEVATION, PTOKEN_ELEVATION structure pointer [Security], TOKEN_ELEVATION, TOKEN_ELEVATION structure [Security], _TOKEN_ELEVATION, security.token_elevation, winnt/PTOKEN_ELEVATION, winnt/TOKEN_ELEVATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

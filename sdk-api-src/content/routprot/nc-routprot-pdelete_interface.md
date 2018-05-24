@@ -7,7 +7,7 @@ old-location: rras\deleteinterface.htm
 old-project: RRAS
 ms.assetid: 0b4c24d4-2588-412e-b3ec-dd73cbdac921
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: DeleteInterface, DeleteInterface callback function [RAS], PDELETE_INTERFACE, PDELETE_INTERFACE callback, _mpr_deleteinterface, routprot/DeleteInterface, rras.deleteinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PDELETE_INTERFACE callback function

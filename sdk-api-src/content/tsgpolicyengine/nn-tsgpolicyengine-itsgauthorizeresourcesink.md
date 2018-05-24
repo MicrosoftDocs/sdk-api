@@ -7,7 +7,7 @@ old-location: termserv\itsgauthorizeresourcesink.htm
 old-project: TermServ
 ms.assetid: 4656064a-41d9-428c-8260-24eea0ee83cc
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITSGAuthorizeResourceSink, ITSGAuthorizeResourceSink interface [Remote Desktop Services], ITSGAuthorizeResourceSink interface [Remote Desktop Services],described, termserv.itsgauthorizeresourcesink, tsgpolicyengine/ITSGAuthorizeResourceSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

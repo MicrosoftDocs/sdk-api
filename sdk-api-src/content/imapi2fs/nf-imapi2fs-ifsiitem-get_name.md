@@ -7,7 +7,7 @@ old-location: imapi\ifsiitem_get_name.htm
 old-project: imapi
 ms.assetid: 4cb6e270-6bbf-414f-a9ed-b290da3dafe9
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFsiItem interface [IMAPI],get_Name method, IFsiItem.get_Name, IFsiItem::get_Name, get_Name, get_Name method [IMAPI], get_Name method [IMAPI],IFsiItem interface, imapi.ifsiitem_get_name, imapi2fs/IFsiItem::get_Name
 ms.prod: windows-hardware
 ms.technology: windows-devices

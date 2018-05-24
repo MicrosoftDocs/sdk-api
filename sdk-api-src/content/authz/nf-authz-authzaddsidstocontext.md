@@ -7,7 +7,7 @@ old-location: security\authzaddsidstocontext.htm
 old-project: SecAuthZ
 ms.assetid: 4744013b-7f2e-4ebb-8944-10ffcc6006d0
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AuthzAddSidsToContext, AuthzAddSidsToContext function [Security], _win32_authzaddsidstocontext, authz/AuthzAddSidsToContext, security.authzaddsidstocontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

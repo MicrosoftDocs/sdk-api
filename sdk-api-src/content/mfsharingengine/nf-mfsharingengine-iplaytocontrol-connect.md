@@ -7,7 +7,7 @@ old-location: mf\iplaytocontrol_connect.htm
 old-project: medfound
 ms.assetid: 5252DC51-E1EF-4A61-A2BD-682F51DC219B
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: Connect, Connect method [Media Foundation], Connect method [Media Foundation],IPlayToControl interface, IPlayToControl interface [Media Foundation],Connect method, IPlayToControl.Connect, IPlayToControl::Connect, mf.iplaytocontrol_connect, mfsharingengine/IPlayToControl::Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices

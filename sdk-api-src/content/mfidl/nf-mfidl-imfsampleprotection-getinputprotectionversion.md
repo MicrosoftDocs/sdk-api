@@ -7,7 +7,7 @@ old-location: mf\imfsampleprotection_getinputprotectionversion.htm
 old-project: medfound
 ms.assetid: 26f92775-f8a0-4b85-8cfc-353349325706
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 26f92775-f8a0-4b85-8cfc-353349325706, GetInputProtectionVersion, GetInputProtectionVersion method [Media Foundation], GetInputProtectionVersion method [Media Foundation],IMFSampleProtection interface, IMFSampleProtection interface [Media Foundation],GetInputProtectionVersion method, IMFSampleProtection.GetInputProtectionVersion, IMFSampleProtection::GetInputProtectionVersion, mf.imfsampleprotection_getinputprotectionversion, mfidl/IMFSampleProtection::GetInputProtectionVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

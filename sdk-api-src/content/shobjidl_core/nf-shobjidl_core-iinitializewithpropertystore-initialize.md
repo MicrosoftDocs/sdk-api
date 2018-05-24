@@ -7,7 +7,7 @@ old-location: shell\IInitializeWithPropertyStore_Initialize.htm
 old-project: shell
 ms.assetid: 6890873f-d929-42a1-ab75-6f408581d74f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IInitializeWithPropertyStore interface [Windows Shell],Initialize method, IInitializeWithPropertyStore.Initialize, IInitializeWithPropertyStore::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithPropertyStore interface, _shell_IInitializeWithPropertyStore_Initialize, shell.IInitializeWithPropertyStore_Initialize, shobjidl_core/IInitializeWithPropertyStore::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

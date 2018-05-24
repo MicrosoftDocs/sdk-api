@@ -7,7 +7,7 @@ old-location: com\coisole1class.htm
 old-project: com
 ms.assetid: 3f6a021d-c8fe-40dd-9c3a-30f22ad76ce3
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CoIsOle1Class, CoIsOle1Class function [COM], _com_CoIsOle1Class, com.coisole1class, objbase/CoIsOle1Class
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CoIsOle1Class function

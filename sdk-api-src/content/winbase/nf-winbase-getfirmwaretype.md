@@ -7,7 +7,7 @@ old-location: base\getfirmwaretype.htm
 old-project: SysInfo
 ms.assetid: db1f6889-067a-4a5d-bbfa-5836287d08ca
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: GetFirmwareType, GetFirmwareType function, base.getfirmwaretype, winbase/GetFirmwareType
 ms.prod: windows-hardware
 ms.technology: windows-devices

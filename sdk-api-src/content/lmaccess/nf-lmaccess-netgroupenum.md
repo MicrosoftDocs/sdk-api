@@ -7,7 +7,7 @@ old-location: netmgmt\netgroupenum.htm
 old-project: NetMgmt
 ms.assetid: 3f8fabce-94cb-41f5-9af1-04585ac3f16e
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: 0, 1, 2, 3, NetGroupEnum, NetGroupEnum function [Network Management], _win32_netgroupenum, lmaccess/NetGroupEnum, netmgmt.netgroupenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

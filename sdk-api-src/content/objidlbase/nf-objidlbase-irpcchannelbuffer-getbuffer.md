@@ -7,7 +7,7 @@ old-location: com\irpcchannelbuffer_getbuffer.htm
 old-project: com
 ms.assetid: 775a15df-8bcf-4c1b-a8b9-5c7c03106c09
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetBuffer, GetBuffer method [COM], GetBuffer method [COM],IRpcChannelBuffer interface, IRpcChannelBuffer interface [COM],GetBuffer method, IRpcChannelBuffer.GetBuffer, IRpcChannelBuffer::GetBuffer, _com_irpcchannelbuffer_getbuffer, com.irpcchannelbuffer_getbuffer, objidlbase/IRpcChannelBuffer::GetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRpcChannelBuffer::GetBuffer

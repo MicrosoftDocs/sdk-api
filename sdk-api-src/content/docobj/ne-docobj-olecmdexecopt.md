@@ -7,7 +7,7 @@ old-location: com\olecmdexecopt.htm
 old-project: com
 ms.assetid: 6245725e-51d4-40e1-8cf1-a65657e790ef
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: OLECMDEXECOPT, OLECMDEXECOPT enumeration [COM], OLECMDEXECOPT_DODEFAULT, OLECMDEXECOPT_DONTPROMPTUSER, OLECMDEXECOPT_PROMPTUSER, OLECMDEXECOPT_SHOWHELP, _ole_OLECMDEXECOPT, com.olecmdexecopt, docobj/OLECMDEXECOPT, docobj/OLECMDEXECOPT_DODEFAULT, docobj/OLECMDEXECOPT_DONTPROMPTUSER, docobj/OLECMDEXECOPT_PROMPTUSER, docobj/OLECMDEXECOPT_SHOWHELP
 ms.prod: windows-hardware
 ms.technology: windows-devices

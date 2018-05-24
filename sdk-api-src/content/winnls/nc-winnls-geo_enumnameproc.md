@@ -7,7 +7,7 @@ old-location: intl\geo_enumnameproc.htm
 old-project: Intl
 ms.assetid: 51C64387-5BDF-463B-8A93-9748C099BB09
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: Geo_EnumNameProc, Geo_EnumNameProc callback, Geo_EnumNameProc callback function [Internationalization for Windows Applications], intl.geo_enumnameproc, winnls/Geo_EnumNameProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

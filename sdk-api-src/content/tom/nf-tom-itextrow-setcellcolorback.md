@@ -7,7 +7,7 @@ old-location: controls\itextrow_setcellcolorback.htm
 old-project: Controls
 ms.assetid: 3e0a7bb6-e146-4e51-abc0-e89f9faed235
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellColorBack method, ITextRow.SetCellColorBack, ITextRow::SetCellColorBack, SetCellColorBack, SetCellColorBack method [Windows Controls], SetCellColorBack method [Windows Controls],ITextRow interface, controls.itextrow_setcellcolorback, tom/ITextRow::SetCellColorBack
 ms.prod: windows-hardware
 ms.technology: windows-devices

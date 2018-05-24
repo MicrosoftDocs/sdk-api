@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage3.htm
 old-project: WMDM
 ms.assetid: 5ff674a1-a0b9-43b6-b8b7-9a5c67b3f919
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IMDSPStorage3, IMDSPStorage3 interface [windows Media Device Manager], IMDSPStorage3 interface [windows Media Device Manager],described, IMDSPStorage3Interface, mswmdm/IMDSPStorage3, wmdm.imdspstorage3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPStorage3 interface

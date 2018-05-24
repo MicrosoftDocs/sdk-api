@@ -7,7 +7,7 @@ old-location: termserv\wtsfreememoryex.htm
 old-project: TermServ
 ms.assetid: d84a4fe3-a829-4cf3-b217-157391d0c495
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: WTSFreeMemoryEx, WTSFreeMemoryEx function [Remote Desktop Services], WTSFreeMemoryExA, WTSFreeMemoryExW, termserv.wtsfreememoryex, wtsapi32/WTSFreeMemoryEx, wtsapi32/WTSFreeMemoryExA, wtsapi32/WTSFreeMemoryExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\idirect3ddevicemanager9_getvideoservice.htm
 old-project: medfound
 ms.assetid: 2e62a750-3017-4dd7-9fbc-e2c641f6cf10
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 2e62a750-3017-4dd7-9fbc-e2c641f6cf10, GetVideoService, GetVideoService method [Media Foundation], GetVideoService method [Media Foundation],IDirect3DDeviceManager9 interface, IDirect3DDeviceManager9 interface [Media Foundation],GetVideoService method, IDirect3DDeviceManager9.GetVideoService, IDirect3DDeviceManager9::GetVideoService, dxva2api/IDirect3DDeviceManager9::GetVideoService, mf.idirect3ddevicemanager9_getvideoservice
 ms.prod: windows-hardware
 ms.technology: windows-devices

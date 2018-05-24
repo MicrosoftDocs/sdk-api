@@ -7,7 +7,7 @@ old-location: security\gettrusteeform.htm
 old-project: SecAuthZ
 ms.assetid: e5e450b8-0b7b-4324-b453-5c020e74b1ee
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: GetTrusteeForm, GetTrusteeForm function [Security], GetTrusteeFormA, GetTrusteeFormW, _win32_gettrusteeform, aclapi/GetTrusteeForm, aclapi/GetTrusteeFormA, aclapi/GetTrusteeFormW, security.gettrusteeform
 ms.prod: windows-hardware
 ms.technology: windows-devices

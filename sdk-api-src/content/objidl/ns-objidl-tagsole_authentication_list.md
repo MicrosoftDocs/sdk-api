@@ -7,7 +7,7 @@ old-location: com\sole_authentication_list.htm
 old-project: com
 ms.assetid: 21f7aef3-b6be-41cc-a6ed-16d3778e3cee
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*PSOLE_AUTHENTICATION_LIST, PSOLE_AUTHENTICATION_LIST, PSOLE_AUTHENTICATION_LIST structure pointer [COM], SOLE_AUTHENTICATION_LIST, SOLE_AUTHENTICATION_LIST structure [COM], _com_SOLE_AUTHENTICATION_LIST, com.sole_authentication_list, objidlbase/PSOLE_AUTHENTICATION_LIST, objidlbase/SOLE_AUTHENTICATION_LIST, tagSOLE_AUTHENTICATION_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagSOLE_AUTHENTICATION_LIST structure

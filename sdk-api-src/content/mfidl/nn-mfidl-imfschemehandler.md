@@ -7,7 +7,7 @@ old-location: mf\imfschemehandler.htm
 old-project: medfound
 ms.assetid: a342054e-2cb5-494a-a2f7-d144c72d1fa5
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFSchemeHandler, IMFSchemeHandler interface [Media Foundation], IMFSchemeHandler interface [Media Foundation],described, a342054e-2cb5-494a-a2f7-d144c72d1fa5, mf.imfschemehandler, mfidl/IMFSchemeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

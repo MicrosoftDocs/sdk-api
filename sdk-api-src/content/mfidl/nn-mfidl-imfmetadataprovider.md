@@ -7,7 +7,7 @@ old-location: mf\imfmetadataprovider.htm
 old-project: medfound
 ms.assetid: f32e78c9-a567-448d-947d-d7ea996bba5e
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFMetadataProvider, IMFMetadataProvider interface [Media Foundation], IMFMetadataProvider interface [Media Foundation],described, f32e78c9-a567-448d-947d-d7ea996bba5e, mf.imfmetadataprovider, mfidl/IMFMetadataProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

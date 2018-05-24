@@ -7,7 +7,7 @@ old-location: base\ivdsserviceiscsi_getinitiatorname.htm
 old-project: VDS
 ms.assetid: 34f18293-6254-4f73-a633-642a3cdeaf31
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetInitiatorName, GetInitiatorName method [VDS], GetInitiatorName method [VDS],IVdsServiceIscsi interface, IVdsServiceIscsi interface [VDS],GetInitiatorName method, IVdsServiceIscsi.GetInitiatorName, IVdsServiceIscsi::GetInitiatorName, base.ivdsserviceiscsi_getinitiatorname, vds/IVdsServiceIscsi::GetInitiatorName
 ms.prod: windows-hardware
 ms.technology: windows-devices

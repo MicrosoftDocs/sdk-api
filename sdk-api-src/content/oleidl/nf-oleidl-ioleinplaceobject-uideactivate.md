@@ -7,7 +7,7 @@ old-location: com\ioleinplaceobject_uideactivate.htm
 old-project: com
 ms.assetid: cc42e313-b290-4806-bbad-b49abd937b63
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleInPlaceObject interface [COM],UIDeactivate method, IOleInPlaceObject.UIDeactivate, IOleInPlaceObject::UIDeactivate, UIDeactivate, UIDeactivate method [COM], UIDeactivate method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_uideactivate, com.ioleinplaceobject_uideactivate, oleidl/IOleInPlaceObject::UIDeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleInPlaceObject::UIDeactivate

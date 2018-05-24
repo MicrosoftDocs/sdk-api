@@ -7,7 +7,7 @@ old-location: tablet\stylusinfo.htm
 old-project: tablet
 ms.assetid: d2642082-e18c-4f91-b08c-e25aa388a2a3
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: StylusInfo, StylusInfo structure [Tablet PC], d2642082-e18c-4f91-b08c-e25aa388a2a3, rtscom/StylusInfo, tablet.stylusinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # StylusInfo structure

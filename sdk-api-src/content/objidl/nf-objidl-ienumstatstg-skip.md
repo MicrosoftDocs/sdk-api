@@ -7,7 +7,7 @@ old-location: stg\ienumstatstg_skip.htm
 old-project: Stg
 ms.assetid: 97d785d9-961c-44af-a0a0-1d2f610e6c9a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumSTATSTG interface [Structured Storage],Skip method, IEnumSTATSTG.Skip, IEnumSTATSTG::Skip, Skip, Skip method [Structured Storage], Skip method [Structured Storage],IEnumSTATSTG interface, objidl/IEnumSTATSTG::Skip, stg.ienumstatstg_skip
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumSTATSTG::Skip

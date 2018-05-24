@@ -7,7 +7,7 @@ old-location: rras\startprotocol.htm
 old-project: RRAS
 ms.assetid: 8c1c0173-5abf-4e44-a633-16742fd2a4c0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: PSTART_PROTOCOL, PSTART_PROTOCOL callback, StartProtocol, StartProtocol callback function [RAS], _mpr_startprotocol, routprot/StartProtocol, rras.startprotocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSTART_PROTOCOL callback function

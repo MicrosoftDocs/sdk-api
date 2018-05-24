@@ -7,7 +7,7 @@ old-location: shell\IObjectArray_GetAt.htm
 old-project: shell
 ms.assetid: 168d2f09-60c9-457a-b4dd-7678f97eda1b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],IObjectArray interface, IObjectArray interface [Windows Shell],GetAt method, IObjectArray.GetAt, IObjectArray::GetAt, _shell_IObjectArray_GetAt, objectarray/IObjectArray::GetAt, shell.IObjectArray_GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IObjectArray::GetAt

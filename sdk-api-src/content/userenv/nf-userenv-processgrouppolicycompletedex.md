@@ -7,7 +7,7 @@ old-location: policy\processgrouppolicycompletedex.htm
 old-project: Policy
 ms.assetid: 0d899190-7345-4762-ab59-b89e2e87d10f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: ProcessGroupPolicyCompletedEx, ProcessGroupPolicyCompletedEx function [Group Policy], _win32_processgrouppolicycompletedex, policy.processgrouppolicycompletedex, userenv/ProcessGroupPolicyCompletedEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\istreaminterleave.htm
 old-project: imapi
 ms.assetid: 2d0f03e5-a47d-4b46-a177-f462bbafe153
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IStreamInterleave, IStreamInterleave interface [IMAPI], IStreamInterleave interface [IMAPI],described, imapi.istreaminterleave, imapi2/IStreamInterleave
 ms.prod: windows-hardware
 ms.technology: windows-devices

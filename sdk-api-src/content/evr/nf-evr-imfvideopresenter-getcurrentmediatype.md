@@ -7,7 +7,7 @@ old-location: mf\imfvideopresenter_getcurrentmediatype.htm
 old-project: medfound
 ms.assetid: 4b8f0e56-35de-4b4f-9897-32a7e14171c8
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 4b8f0e56-35de-4b4f-9897-32a7e14171c8, GetCurrentMediaType, GetCurrentMediaType method [Media Foundation], GetCurrentMediaType method [Media Foundation],IMFVideoPresenter interface, IMFVideoPresenter interface [Media Foundation],GetCurrentMediaType method, IMFVideoPresenter.GetCurrentMediaType, IMFVideoPresenter::GetCurrentMediaType, evr/IMFVideoPresenter::GetCurrentMediaType, mf.imfvideopresenter_getcurrentmediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices

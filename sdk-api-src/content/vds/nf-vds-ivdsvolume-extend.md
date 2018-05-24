@@ -7,7 +7,7 @@ old-location: base\ivdsvolume_extend.htm
 old-project: VDS
 ms.assetid: 8f31dd3e-0c06-49fe-8ff2-55cfabe5099e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],Extend method, IVdsVolume.Extend, IVdsVolume::Extend, base.ivdsvolume_extend, vds/IVdsVolume::Extend
 ms.prod: windows-hardware
 ms.technology: windows-devices

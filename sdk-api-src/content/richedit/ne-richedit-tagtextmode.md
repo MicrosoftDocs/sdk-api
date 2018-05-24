@@ -7,7 +7,7 @@ old-location: controls\TEXTMODE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditenumerationtypes\textmode.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: TEXTMODE, TEXTMODE enumeration [Windows Controls], TM_MULTICODEPAGE, TM_MULTILEVELUNDO, TM_PLAINTEXT, TM_RICHTEXT, TM_SINGLECODEPAGE, TM_SINGLELEVELUNDO, _win32_TEXTMODE_str, _win32_TEXTMODE_str_cpp, controls.TEXTMODE, controls._win32_TEXTMODE_str, richedit/TEXTMODE, richedit/TM_MULTICODEPAGE, richedit/TM_MULTILEVELUNDO, richedit/TM_PLAINTEXT, richedit/TM_RICHTEXT, richedit/TM_SINGLECODEPAGE, richedit/TM_SINGLELEVELUNDO, tagTextMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagTextMode enumeration

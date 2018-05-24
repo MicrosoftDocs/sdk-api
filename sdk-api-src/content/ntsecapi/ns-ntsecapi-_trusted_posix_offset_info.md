@@ -7,7 +7,7 @@ old-location: security\trusted_posix_offset_info.htm
 old-project: SecMgmt
 ms.assetid: 0686da5e-43d4-49ac-8c5d-5c56b8d12e50
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: "*PTRUSTED_POSIX_OFFSET_INFO, PTRUSTED_POSIX_OFFSET_INFO, PTRUSTED_POSIX_OFFSET_INFO structure pointer [Security], TRUSTED_POSIX_OFFSET_INFO, TRUSTED_POSIX_OFFSET_INFO structure [Security], _TRUSTED_POSIX_OFFSET_INFO, _lsa_trusted_posix_offset_info, ntsecapi/PTRUSTED_POSIX_OFFSET_INFO, ntsecapi/TRUSTED_POSIX_OFFSET_INFO, security.trusted_posix_offset_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _TRUSTED_POSIX_OFFSET_INFO structure

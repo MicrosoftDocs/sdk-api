@@ -7,7 +7,7 @@ old-location: com\oleregenumverbs.htm
 old-project: com
 ms.assetid: 25cd0876-90b6-4fa3-b180-ffa0c3b51497
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: OleRegEnumVerbs, OleRegEnumVerbs function [COM], _ole_OleRegEnumVerbs, com.oleregenumverbs, ole2/OleRegEnumVerbs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # OleRegEnumVerbs function

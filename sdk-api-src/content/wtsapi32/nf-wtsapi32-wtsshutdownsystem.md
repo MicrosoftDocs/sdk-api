@@ -7,7 +7,7 @@ old-location: termserv\wtsshutdownsystem.htm
 old-project: TermServ
 ms.assetid: 188df0d6-0e49-4608-bc70-83775584a1f2
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: WTSShutdownSystem, WTSShutdownSystem function [Remote Desktop Services], WTS_WSD_FASTREBOOT, WTS_WSD_LOGOFF, WTS_WSD_POWEROFF, WTS_WSD_REBOOT, WTS_WSD_SHUTDOWN, _win32_wtsshutdownsystem, termserv.wtsshutdownsystem, wtsapi32/WTSShutdownSystem
 ms.prod: windows-hardware
 ms.technology: windows-devices

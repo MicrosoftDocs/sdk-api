@@ -7,7 +7,7 @@ old-location: base\notifychangeeventlog.htm
 old-project: EventLog
 ms.assetid: 12b9a7bf-2aad-48b7-8cfd-a72b353ba2b2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: NotifyChangeEventLog, NotifyChangeEventLog function, _win32_notifychangeeventlog, base.notifychangeeventlog, winbase/NotifyChangeEventLog
 ms.prod: windows-hardware
 ms.technology: windows-devices

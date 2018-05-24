@@ -7,7 +7,7 @@ old-location: termserv\wrds_settings_1.htm
 old-project: TermServ
 ms.assetid: 47100A84-49F4-4FF1-8CCB-731638F27C4F
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: "*PWRDS_SETTINGS_1, PWRDS_SETTINGS_1, PWRDS_SETTINGS_1 structure pointer [Remote Desktop Services], WRDS_SETTINGS_1, WRDS_SETTINGS_1 structure [Remote Desktop Services], _WRDS_SETTINGS_1, termserv.wrds_settings_1, wtsdefs/PWRDS_SETTINGS_1, wtsdefs/WRDS_SETTINGS_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices

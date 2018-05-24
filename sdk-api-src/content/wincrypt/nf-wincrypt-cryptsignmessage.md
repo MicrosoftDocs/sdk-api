@@ -7,7 +7,7 @@ old-location: security\cryptsignmessage.htm
 old-project: SecCrypto
 ms.assetid: f14f7c7b-14ac-40a7-9a49-d1a899ecc52a
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CryptSignMessage, CryptSignMessage function [Security], _crypto2_cryptsignmessage, security.cryptsignmessage, wincrypt/CryptSignMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

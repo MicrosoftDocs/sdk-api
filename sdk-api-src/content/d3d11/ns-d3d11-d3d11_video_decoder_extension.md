@@ -7,7 +7,7 @@ old-location: mf\d3d11_video_decoder_extension.htm
 old-project: medfound
 ms.assetid: F82746A4-16AB-49B5-96C8-777675416467
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: D3D11_VIDEO_DECODER_EXTENSION, D3D11_VIDEO_DECODER_EXTENSION structure [Media Foundation], d3d11/D3D11_VIDEO_DECODER_EXTENSION, mf.d3d11_video_decoder_extension
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: imapi\idiscmaster2.htm
 old-project: imapi
 ms.assetid: cdca44d4-6ab5-4c2f-91ba-bef79b1d457e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IDiscMaster2, IDiscMaster2 interface [IMAPI], IDiscMaster2 interface [IMAPI],described, imapi.idiscmaster2, imapi2/IDiscMaster2
 ms.prod: windows-hardware
 ms.technology: windows-devices

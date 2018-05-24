@@ -7,7 +7,7 @@ old-location: netmgmt\netservertransportadd.htm
 old-project: NetMgmt
 ms.assetid: c8521aed-0762-4412-b117-c911fc77049b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: 0, NetServerTransportAdd, NetServerTransportAdd function [Network Management], _win32_netservertransportadd, lmserver/NetServerTransportAdd, netmgmt.netservertransportadd
 ms.prod: windows-hardware
 ms.technology: windows-devices

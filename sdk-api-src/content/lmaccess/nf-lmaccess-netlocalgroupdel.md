@@ -7,7 +7,7 @@ old-location: netmgmt\netlocalgroupdel.htm
 old-project: NetMgmt
 ms.assetid: b26bfd52-c20a-4f6f-9503-87cac5168362
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: NetLocalGroupDel, NetLocalGroupDel function [Network Management], _win32_netlocalgroupdel, lmaccess/NetLocalGroupDel, netmgmt.netlocalgroupdel
 ms.prod: windows-hardware
 ms.technology: windows-devices

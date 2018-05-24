@@ -7,7 +7,7 @@ old-location: base\ivdsserviceiscsi_setinitiatorsharedsecret.htm
 old-project: VDS
 ms.assetid: 90f9cf10-a0be-4ed1-8b0c-e6cc46384ba0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],SetInitiatorSharedSecret method, IVdsServiceIscsi.SetInitiatorSharedSecret, IVdsServiceIscsi::SetInitiatorSharedSecret, SetInitiatorSharedSecret, SetInitiatorSharedSecret method [VDS], SetInitiatorSharedSecret method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setinitiatorsharedsecret, vds/IVdsServiceIscsi::SetInitiatorSharedSecret
 ms.prod: windows-hardware
 ms.technology: windows-devices

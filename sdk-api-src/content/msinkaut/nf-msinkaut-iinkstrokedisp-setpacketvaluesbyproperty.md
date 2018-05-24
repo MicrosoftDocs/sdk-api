@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_setpacketvaluesbyproperty.htm
 old-project: tablet
 ms.assetid: 9d90e93e-4c4a-43bd-a431-59522e332f2a
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 9d90e93e-4c4a-43bd-a431-59522e332f2a, IInkStrokeDisp interface [Tablet PC],SetPacketValuesByProperty method, IInkStrokeDisp.SetPacketValuesByProperty, IInkStrokeDisp::SetPacketValuesByProperty, SetPacketValuesByProperty, SetPacketValuesByProperty method [Tablet PC], SetPacketValuesByProperty method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::SetPacketValuesByProperty, tablet.iinkstrokedisp_setpacketvaluesbyproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::SetPacketValuesByProperty

@@ -7,7 +7,7 @@ old-location: base\getoldesteventlogrecord.htm
 old-project: EventLog
 ms.assetid: 2f64f82b-a5f5-4701-844b-5979a0124414
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetOldestEventLogRecord, GetOldestEventLogRecord function, _win32_getoldesteventlogrecord, base.getoldesteventlogrecord, winbase/GetOldestEventLogRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices

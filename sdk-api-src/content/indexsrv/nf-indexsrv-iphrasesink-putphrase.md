@@ -2,13 +2,13 @@
 UID: NF:indexsrv.IPhraseSink.PutPhrase
 title: IPhraseSink::PutPhrase
 author: windows-driver-content
-description: Puts a query-time phrase in the PhraseSink.
-old-location: indexsrv\iphrasesink_putphrase.htm
-old-project: IndexSrv
-ms.assetid: VS|indexsrv|~\html\ixrefobj_8n8l.htm
+description: Puts a query-time phrase in the IPhraseSink object.
+old-location: search\iphrasesink_putphrase.htm
+old-project: search
+ms.assetid: 5E1762A8-8CC9-4EAE-BC79-91672994C1E3
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
-ms.keywords: IPhraseSink interface [Indexing Service],PutPhrase method, IPhraseSink.PutPhrase, IPhraseSink::PutPhrase, PutPhrase, PutPhrase method [Indexing Service], PutPhrase method [Indexing Service],IPhraseSink interface, _idxs_PhraseSink_PutPhrase, indexsrv.iphrasesink_putphrase, indexsrv/IPhraseSink::PutPhrase
+ms.date: 5/22/2018
+ms.keywords: IPhraseSink interface [search],PutPhrase method, IPhraseSink.PutPhrase, IPhraseSink::PutPhrase, PutPhrase, PutPhrase method [search], PutPhrase method [search],IPhraseSink interface, indexsrv/IPhraseSink::PutPhrase, search.iphrasesink_putphrase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -50,9 +50,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
-
-Puts a query-time phrase in the PhraseSink.
+Puts a query-time phrase in the <a href="https://msdn.microsoft.com/9485202D-94D6-4E9E-9C42-502033E85670">IPhraseSink</a> object.
 
 
 
@@ -101,7 +99,7 @@ The operation was completed successfully.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/86bff25f-190c-48f9-abd8-29dceb3e9912">PutPhrase</a> was called at index time instead of query time.
+<a href="https://msdn.microsoft.com/5E1762A8-8CC9-4EAE-BC79-91672994C1E3">PutPhrase</a> was called at index time instead of query time.
 
 </td>
 </tr>
@@ -115,7 +113,7 @@ The operation was completed successfully.
 
 
 
-<b>PutPhrase</b> is called by the <a href="https://msdn.microsoft.com/25d84f9a-502d-4187-9dbf-6aca7cb74562">BreakText</a> method of the <a href="https://msdn.microsoft.com/994befe1-e258-4c0a-b3a9-b5968e13456c">IWordBreaker</a> implementation. Phrases that the PhraseSink object handles are used by the Indexing Service to expand the original query text.
+<b>PutPhrase</b> is called by the <a href="https://msdn.microsoft.com/32e495c0-e173-4b35-be58-51f31cb38e3e">IWordBreaker::BreakText</a> method of the <a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a> implementation. Phrases that the <a href="https://msdn.microsoft.com/9485202D-94D6-4E9E-9C42-502033E85670">IPhraseSink</a> object handles are used by Windows Search to expand the original query text.
 
 
 
@@ -127,7 +125,7 @@ The operation was completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/4226f3d3-b7e4-43a3-838f-0da6bebf51ea">IPhraseSink</a>
+<a href="https://msdn.microsoft.com/9485202D-94D6-4E9E-9C42-502033E85670">IPhraseSink</a>
  
 
  

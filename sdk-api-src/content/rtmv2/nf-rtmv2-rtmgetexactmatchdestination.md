@@ -7,7 +7,7 @@ old-location: rras\rtmgetexactmatchdestination.htm
 old-project: RRAS
 ms.assetid: 0cbb24f4-30f4-41be-aea2-36474760d374
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RtmGetExactMatchDestination, RtmGetExactMatchDestination function [RAS], _rtmv2ref_rtmgetexactmatchdestination, rras.rtmgetexactmatchdestination, rtmv2/RtmGetExactMatchDestination
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtmGetExactMatchDestination function

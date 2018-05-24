@@ -7,7 +7,7 @@ old-location: shell\IAppVisibilityEvents_AppVisibilityOnMonitorChanged.htm
 old-project: shell
 ms.assetid: a3fe5a6b-bb8b-4a9d-9ae2-529cce1291ad
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: AppVisibilityOnMonitorChanged, AppVisibilityOnMonitorChanged method [Windows Shell], AppVisibilityOnMonitorChanged method [Windows Shell],IAppVisibilityEvents interface, IAppVisibilityEvents interface [Windows Shell],AppVisibilityOnMonitorChanged method, IAppVisibilityEvents.AppVisibilityOnMonitorChanged, IAppVisibilityEvents::AppVisibilityOnMonitorChanged, shell.IAppVisibilityEvents_AppVisibilityOnMonitorChanged, shobjidl_core/IAppVisibilityEvents::AppVisibilityOnMonitorChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

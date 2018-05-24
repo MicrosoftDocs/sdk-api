@@ -7,7 +7,7 @@ old-location: properties\PropVariantToInt64.htm
 old-project: properties
 ms.assetid: a53c88e3-57cc-46f8-99f2-ffc2aafa0ce4
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PropVariantToInt64, PropVariantToInt64 function [Windows Properties], properties.PropVariantToInt64, propvarutil/PropVariantToInt64, shell.PropVariantToInt64, shell_PropVariantToInt64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PropVariantToInt64 function

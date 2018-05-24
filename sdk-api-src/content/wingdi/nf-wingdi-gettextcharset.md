@@ -7,7 +7,7 @@ old-location: intl\gettextcharset.htm
 old-project: Intl
 ms.assetid: 11040353-a2ea-42fe-aa89-3438ffc1fea6
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: GetTextCharset, GetTextCharset function [Internationalization for Windows Applications], _win32_GetTextCharset, intl.gettextcharset, wingdi/GetTextCharset
 ms.prod: windows-hardware
 ms.technology: windows-devices

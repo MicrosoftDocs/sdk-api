@@ -7,7 +7,7 @@ old-location: multimedia\mciwndend.htm
 old-project: Multimedia
 ms.assetid: 42704391-cc99-48d1-8274-12621f674708
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: MCIWndEnd, MCIWndEnd macro [Windows Multimedia], _win32_MCIWndEnd, multimedia.mciwndend, vfw/MCIWndEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

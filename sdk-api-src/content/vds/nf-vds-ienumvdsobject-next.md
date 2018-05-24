@@ -7,7 +7,7 @@ old-location: base\ienumvdsobject_next.htm
 old-project: VDS
 ms.assetid: 372eff29-7481-45aa-ad66-73147f7a631f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumVdsObject interface [VDS],Next method, IEnumVdsObject.Next, IEnumVdsObject::Next, Next, Next method [VDS], Next method [VDS],IEnumVdsObject interface, base.ienumvdsobject_next, vds/IEnumVdsObject::Next, vdshwprv/IEnumVdsObject::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

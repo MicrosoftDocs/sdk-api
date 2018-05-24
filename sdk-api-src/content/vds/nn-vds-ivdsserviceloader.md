@@ -7,7 +7,7 @@ old-location: base\ivdsserviceloader.htm
 old-project: VDS
 ms.assetid: 43533ee7-4e44-48c9-8c9d-0992426d79ba
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsServiceLoader, IVdsServiceLoader interface [VDS], IVdsServiceLoader interface [VDS],described, base.ivdsserviceloader, vds/IVdsServiceLoader
 ms.prod: windows-hardware
 ms.technology: windows-devices

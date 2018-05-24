@@ -7,7 +7,7 @@ old-location: mf\imfcontentprotectionmanager_endenablecontent.htm
 old-project: medfound
 ms.assetid: 10893a0c-5476-4b7d-aad7-845a4ba70335
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 10893a0c-5476-4b7d-aad7-845a4ba70335, EndEnableContent, EndEnableContent method [Media Foundation], EndEnableContent method [Media Foundation],IMFContentProtectionManager interface, IMFContentProtectionManager interface [Media Foundation],EndEnableContent method, IMFContentProtectionManager.EndEnableContent, IMFContentProtectionManager::EndEnableContent, mf.imfcontentprotectionmanager_endenablecontent, mfidl/IMFContentProtectionManager::EndEnableContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

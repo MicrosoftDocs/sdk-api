@@ -7,7 +7,7 @@ old-location: mf\imfmediakeysessionnotify_keyadded.htm
 old-project: medfound
 ms.assetid: e61e2a0d-59a5-4776-ba07-d323f1c944a4
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFMediaKeySessionNotify interface [Media Foundation],KeyAdded method, IMFMediaKeySessionNotify.KeyAdded, IMFMediaKeySessionNotify::KeyAdded, KeyAdded, KeyAdded method [Media Foundation], KeyAdded method [Media Foundation],IMFMediaKeySessionNotify interface, mf.imfmediakeysessionnotify_keyadded, mfmediaengine/IMFMediaKeySessionNotify::KeyAdded
 ms.prod: windows-hardware
 ms.technology: windows-devices

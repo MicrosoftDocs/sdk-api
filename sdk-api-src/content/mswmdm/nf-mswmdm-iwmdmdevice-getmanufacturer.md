@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice_getmanufacturer.htm
 old-project: WMDM
 ms.assetid: 42e862e4-bfbc-4fca-b5df-001416173d6e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetManufacturer, GetManufacturer method [windows Media Device Manager], GetManufacturer method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetManufacturer method, IWMDMDevice.GetManufacturer, IWMDMDevice::GetManufacturer, IWMDMDeviceGetManufacturer, mswmdm/IWMDMDevice::GetManufacturer, wmdm.iwmdmdevice_getmanufacturer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMDevice::GetManufacturer

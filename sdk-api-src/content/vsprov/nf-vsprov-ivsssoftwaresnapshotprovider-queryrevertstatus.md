@@ -7,7 +7,7 @@ old-location: base\ivsssoftwaresnapshotprovider_queryrevertstatus.htm
 old-project: VSS
 ms.assetid: 05c70761-d839-4333-a5d6-6bd8b95851bb
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,QueryRevertStatus method, IVssSoftwareSnapshotProvider.QueryRevertStatus, IVssSoftwareSnapshotProvider::QueryRevertStatus, QueryRevertStatus, QueryRevertStatus method, QueryRevertStatus method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_queryrevertstatus, vsprov/IVssSoftwareSnapshotProvider::QueryRevertStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

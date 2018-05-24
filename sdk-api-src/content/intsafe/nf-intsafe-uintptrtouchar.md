@@ -7,7 +7,7 @@ old-location: shell\UIntPtrToUChar.htm
 old-project: shell
 ms.assetid: b69f2f7b-4f93-40f4-aaea-1b606e694680
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: UIntPtrToUChar, UIntPtrToUChar function [Windows Shell], intsafe/UIntPtrToUChar, shell.UIntPtrToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices

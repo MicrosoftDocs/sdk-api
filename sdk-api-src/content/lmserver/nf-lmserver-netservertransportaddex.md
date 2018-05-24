@@ -7,7 +7,7 @@ old-location: netmgmt\netservertransportaddex.htm
 old-project: NetMgmt
 ms.assetid: d1edc75d-8313-422c-a6fb-8b51a309a252
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: 0, 1, 2, 3, NetServerTransportAddEx, NetServerTransportAddEx function [Network Management], _win32_netservertransportaddex, lmserver/NetServerTransportAddEx, netmgmt.netservertransportaddex
 ms.prod: windows-hardware
 ms.technology: windows-devices

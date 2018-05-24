@@ -7,7 +7,7 @@ old-location: com\ioleitemcontainer_getobjectstorage.htm
 old-project: com
 ms.assetid: 13a094bc-bacc-40d5-9682-ecc6072966fa
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetObjectStorage, GetObjectStorage method [COM], GetObjectStorage method [COM],IOleItemContainer interface, IOleItemContainer interface [COM],GetObjectStorage method, IOleItemContainer.GetObjectStorage, IOleItemContainer::GetObjectStorage, _com_ioleitemcontainer_getobjectstorage, com.ioleitemcontainer_getobjectstorage, oleidl/IOleItemContainer::GetObjectStorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleItemContainer::GetObjectStorage

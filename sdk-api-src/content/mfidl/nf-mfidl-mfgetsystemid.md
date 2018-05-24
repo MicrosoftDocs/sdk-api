@@ -7,7 +7,7 @@ old-location: mf\mfgetsystemid.htm
 old-project: medfound
 ms.assetid: E68B4DFF-EBB1-410E-9B6F-C9933A171E27
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFGetSystemId, MFGetSystemId function [Media Foundation], mf.mfgetsystemid, mfidl/MFGetSystemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

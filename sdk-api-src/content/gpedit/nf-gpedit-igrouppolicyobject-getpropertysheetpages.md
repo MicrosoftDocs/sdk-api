@@ -7,7 +7,7 @@ old-location: policy\igrouppolicyobject_getpropertysheetpages.htm
 old-project: Policy
 ms.assetid: d464d5fc-64f0-4f34-bcc0-35d92e65f79b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: GetPropertySheetPages, GetPropertySheetPages method [Group Policy], GetPropertySheetPages method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetPropertySheetPages method, IGroupPolicyObject.GetPropertySheetPages, IGroupPolicyObject::GetPropertySheetPages, _win32_igrouppolicyobject_getpropertysheetpages, gpedit/IGroupPolicyObject::GetPropertySheetPages, policy.igrouppolicyobject_getpropertysheetpages
 ms.prod: windows-hardware
 ms.technology: windows-devices

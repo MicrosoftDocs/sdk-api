@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjobs_item_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_63ot_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFaxOutgoingJobs interface [Fax Service],get_Item method, IFaxOutgoingJobs.get_Item, IFaxOutgoingJobs::get_Item, _mfax_faxoutgoingjobs.item_cpp, fax._mfax_faxoutgoingjobs_item_cpp, faxcomex/IFaxOutgoingJobs::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxOutgoingJobs interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

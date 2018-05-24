@@ -7,7 +7,7 @@ old-location: shell\GetWindowContextHelpId.htm
 old-project: shell
 ms.assetid: 28e57c01-0327-4f64-9ef4-ca13c3c32b0c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetWindowContextHelpId, GetWindowContextHelpId function [Windows Shell], _win32_GetWindowContextHelpId, shell.GetWindowContextHelpId, winuser/GetWindowContextHelpId
 ms.prod: windows-hardware
 ms.technology: windows-devices

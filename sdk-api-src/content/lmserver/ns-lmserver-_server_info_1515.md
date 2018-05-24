@@ -7,7 +7,7 @@ old-location: netmgmt\server_info_1515_str.htm
 old-project: NetMgmt
 ms.assetid: f9aa8580-47c6-4e3e-9e34-dc90cd5178ce
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPSERVER_INFO_1515, *PSERVER_INFO_1515, LPSERVER_INFO_1515, LPSERVER_INFO_1515 structure pointer [Network Management], PSERVER_INFO_1515, PSERVER_INFO_1515 structure pointer [Network Management], SERVER_INFO_1515, SERVER_INFO_1515 structure [Network Management], _SERVER_INFO_1515, _win32_server_info_1515_str, lmserver/LPSERVER_INFO_1515, lmserver/PSERVER_INFO_1515, lmserver/SERVER_INFO_1515, netmgmt.server_info_1515_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

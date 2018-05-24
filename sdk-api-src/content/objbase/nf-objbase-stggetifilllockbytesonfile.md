@@ -7,7 +7,7 @@ old-location: stg\stggetifilllockbytesonfile.htm
 old-project: Stg
 ms.assetid: 948724ff-d1eb-43ca-b498-6296909cfb28
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: StgGetIFillLockBytesOnFile, StgGetIFillLockBytesOnFile function [Structured Storage], _stg_stggetifilllockbytesonfile, objbase/StgGetIFillLockBytesOnFile, stg.stggetifilllockbytesonfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # StgGetIFillLockBytesOnFile function

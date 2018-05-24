@@ -7,7 +7,7 @@ old-location: imapi\ifsidirectoryitem.htm
 old-project: imapi
 ms.assetid: 1c9a2e36-0e79-4bad-b880-ddfbf473308b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFsiDirectoryItem, IFsiDirectoryItem interface [IMAPI], IFsiDirectoryItem interface [IMAPI],described, imapi.ifsidirectoryitem, imapi2fs/IFsiDirectoryItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

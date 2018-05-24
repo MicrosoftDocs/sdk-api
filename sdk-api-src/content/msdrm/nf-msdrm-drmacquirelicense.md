@@ -7,7 +7,7 @@ old-location: rm\drmacquirelicense.htm
 old-project: AdRms_Sdk
 ms.assetid: 0d4ce794-8384-4f1c-bc8c-1e67fbb5f987
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMAcquireLicense, DRMAcquireLicense function [Active Directory Rights Management Services SDK 1.0], DRM_AL_CANCEL, DRM_AL_FETCHNOADVISORY, DRM_AL_NONSILENT, DRM_AL_NOPERSIST, DRM_AL_NOUI, msdrm/DRMAcquireLicense, rm.drmacquirelicense
 ms.prod: windows-hardware
 ms.technology: windows-devices

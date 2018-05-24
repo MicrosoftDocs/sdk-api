@@ -7,7 +7,7 @@ old-location: policy\igpeinformation_getdspath.htm
 old-project: Policy
 ms.assetid: 0cf969b2-40a9-4fbd-ba2b-38979fb5796a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetDSPath, GetDSPath method [Group Policy], GetDSPath method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetDSPath method, IGPEInformation.GetDSPath, IGPEInformation::GetDSPath, _win32_igpeinformation_getdspath, gpedit/IGPEInformation::GetDSPath, policy.igpeinformation_getdspath
 ms.prod: windows-hardware
 ms.technology: windows-devices

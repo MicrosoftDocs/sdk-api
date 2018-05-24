@@ -7,7 +7,7 @@ old-location: wininet\internetopen.htm
 old-project: WinInet
 ms.assetid: 9ec087c9-d484-4763-a527-2ea5c1a0cf28
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: InternetOpen, InternetOpen function [WinINet], InternetOpenA, InternetOpenW, _inet_internetopen_function, wininet.internetopen, wininet/InternetOpen, wininet/InternetOpenA, wininet/InternetOpenW
 ms.prod: windows-hardware
 ms.technology: windows-devices

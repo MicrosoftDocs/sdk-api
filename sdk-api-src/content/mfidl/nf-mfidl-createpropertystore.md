@@ -7,7 +7,7 @@ old-location: mf\createpropertystore.htm
 old-project: medfound
 ms.assetid: bb0d32ef-ec16-4341-8b66-d57ebec785f9
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore function [Media Foundation], bb0d32ef-ec16-4341-8b66-d57ebec785f9, mf.createpropertystore, mfidl/CreatePropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

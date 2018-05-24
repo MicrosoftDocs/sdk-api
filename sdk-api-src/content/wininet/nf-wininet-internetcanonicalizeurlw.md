@@ -7,7 +7,7 @@ old-location: wininet\internetcanonicalizeurl.htm
 old-project: WinInet
 ms.assetid: 3bfde980-e478-4960-b41f-e1c8105ef419
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: InternetCanonicalizeUrl, InternetCanonicalizeUrl function [WinINet], InternetCanonicalizeUrlA, InternetCanonicalizeUrlW, _inet_internetcanonicalizeurl_function, wininet.internetcanonicalizeurl, wininet/InternetCanonicalizeUrl, wininet/InternetCanonicalizeUrlA, wininet/InternetCanonicalizeUrlW
 ms.prod: windows-hardware
 ms.technology: windows-devices

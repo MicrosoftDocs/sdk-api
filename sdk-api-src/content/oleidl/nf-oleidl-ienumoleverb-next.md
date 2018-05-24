@@ -7,7 +7,7 @@ old-location: com\ienumoleverb_next.htm
 old-project: com
 ms.assetid: bb934017-9054-42b5-89d4-a24f12829503
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumOLEVERB interface [COM],Next method, IEnumOLEVERB.Next, IEnumOLEVERB::Next, Next, Next method [COM], Next method [COM],IEnumOLEVERB interface, _ole_ienumoleverb_next, com.ienumoleverb_next, oleidl/IEnumOLEVERB::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumOLEVERB::Next

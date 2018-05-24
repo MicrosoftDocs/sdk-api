@@ -7,7 +7,7 @@ old-location: com\cogetcallcontext.htm
 old-project: com
 ms.assetid: b82e32c0-840d-402e-90d5-ff678c51faf1
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CoGetCallContext, CoGetCallContext function [COM], _com_CoGetCallContext, com.cogetcallcontext, combaseapi/CoGetCallContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\vds_drive_prop2.htm
 old-project: VDS
 ms.assetid: af932865-abb3-4dee-a7dc-3aa06fd167f6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: "*PVDS_DRIVE_PROP2, PVDS_DRIVE_PROP2, PVDS_DRIVE_PROP2 structure pointer, VDS_DRIVE_PROP2, VDS_DRIVE_PROP2 structure, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_PENDING_FAILURE, VDS_H_REPLACED, VDS_H_UNKNOWN, _VDS_DRIVE_PROP2, base.vds_drive_prop2, vds/PVDS_DRIVE_PROP2, vds/VDS_DRIVE_PROP2, vdshwprv/PVDS_DRIVE_PROP2, vdshwprv/VDS_DRIVE_PROP2"
 ms.prod: windows-hardware
 ms.technology: windows-devices

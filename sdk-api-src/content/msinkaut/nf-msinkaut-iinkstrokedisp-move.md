@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_move.htm
 old-project: tablet
 ms.assetid: 2d3425c0-6000-4478-9c67-5fdb8e2316e5
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 2d3425c0-6000-4478-9c67-5fdb8e2316e5, IInkStrokeDisp interface [Tablet PC],Move method, IInkStrokeDisp.Move, IInkStrokeDisp::Move, Move, Move method [Tablet PC], Move method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::Move, tablet.iinkstrokedisp_move
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::Move

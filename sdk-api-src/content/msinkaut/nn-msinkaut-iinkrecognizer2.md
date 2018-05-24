@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognizer2.htm
 old-project: tablet
 ms.assetid: 07a493a7-4ffc-403e-8f61-1bb8233c973e
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 07a493a7-4ffc-403e-8f61-1bb8233c973e, IInkRecognizer2, IInkRecognizer2 interface [Tablet PC], IInkRecognizer2 interface [Tablet PC],described, msinkaut/IInkRecognizer2, tablet.iinkrecognizer2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognizer2 interface

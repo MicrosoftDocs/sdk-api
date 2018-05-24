@@ -7,7 +7,7 @@ old-location: com\imoniker_bindtoobject.htm
 old-project: com
 ms.assetid: b5ce39ff-3387-4f72-9aea-5a26eed3810c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: BindToObject, BindToObject method [COM], BindToObject method [COM],IMoniker interface, IMoniker interface [COM],BindToObject method, IMoniker.BindToObject, IMoniker::BindToObject, _com_imoniker_bindtoobject, com.imoniker_bindtoobject, objidl/IMoniker::BindToObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMoniker::BindToObject

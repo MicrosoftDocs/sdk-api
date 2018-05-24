@@ -7,7 +7,7 @@ old-location: security\lsaquerytrusteddomaininfobyname.htm
 old-project: SecMgmt
 ms.assetid: d33d6cee-bd8b-49f4-8e65-07cdc65bec7c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: LsaQueryTrustedDomainInfoByName, LsaQueryTrustedDomainInfoByName function [Security], TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixInformation, _lsa_lsaquerytrusteddomaininfobyname, ntsecapi/LsaQueryTrustedDomainInfoByName, security.lsaquerytrusteddomaininfobyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LsaQueryTrustedDomainInfoByName function

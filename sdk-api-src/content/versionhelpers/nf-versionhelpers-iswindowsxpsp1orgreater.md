@@ -7,7 +7,7 @@ old-location: base\iswindowsxpsp1orgreater.htm
 old-project: SysInfo
 ms.assetid: F8921444-B13D-4522-84F2-4792F4F37EA5
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: IsWindowsXPSP1OrGreater, IsWindowsXPSP1OrGreater function, base.iswindowsxpsp1orgreater, versionhelpers/IsWindowsXPSP1OrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\VariantToDoubleArrayAlloc.htm
 old-project: properties
 ms.assetid: 334d192e-7f63-47b4-88d4-9361e679cb15
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: VariantToDoubleArrayAlloc, VariantToDoubleArrayAlloc function [Windows Properties], _shell_VariantToDoubleArrayAlloc, properties.VariantToDoubleArrayAlloc, propvarutil/VariantToDoubleArrayAlloc, shell.VariantToDoubleArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantToDoubleArrayAlloc function

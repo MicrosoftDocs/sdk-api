@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary_createsinusoidaltransiti
 old-project: UIAnimation
 ms.assetid: 7164bcac-3de3-4b52-8eb3-d38156573feb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: CreateSinusoidalTransitionFromRange, CreateSinusoidalTransitionFromRange method [Windows Animation], CreateSinusoidalTransitionFromRange method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateSinusoidalTransitionFromRange method, IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange, IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange, uianimation.iuianimationtransitionlibrary_createsinusoidaltransitionfromrange, uianimation/IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange
 ms.prod: windows-hardware
 ms.technology: windows-devices

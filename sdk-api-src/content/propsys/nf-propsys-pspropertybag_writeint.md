@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteInt.htm
 old-project: properties
 ms.assetid: 1FCC59B1-5084-4981-8F1D-A5860744F221
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PSPropertyBag_WriteInt, PSPropertyBag_WriteInt function [Windows Properties], properties.PSPropertyBag_WriteInt, propsys/PSPropertyBag_WriteInt, shell.PSPropertyBag_WriteInt, shell_PSPropertyBag_WriteInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSPropertyBag_WriteInt function

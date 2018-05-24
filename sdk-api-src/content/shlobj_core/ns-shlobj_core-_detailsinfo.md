@@ -7,7 +7,7 @@ old-location: shell\DETAILSINFO.htm
 old-project: shell
 ms.assetid: 255de86e-c3d4-4b1d-9b61-7ee679a4973e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*PDETAILSINFO, DETAILSINFO, DETAILSINFO structure [Windows Shell], LVCFMT_CENTER, LVCFMT_COL_HAS_IMAGES, LVCFMT_LEFT, LVCFMT_RIGHT, _DETAILSINFO, _win32_DETAILSINFO, shell.DETAILSINFO, shlobj_core/DETAILSINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\mfcreateeventqueue.htm
 old-project: medfound
 ms.assetid: 214cea99-37cf-4571-aa00-7b3e220a6b84
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 214cea99-37cf-4571-aa00-7b3e220a6b84, MFCreateEventQueue, MFCreateEventQueue function [Media Foundation], mf.mfcreateeventqueue, mfapi/MFCreateEventQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices

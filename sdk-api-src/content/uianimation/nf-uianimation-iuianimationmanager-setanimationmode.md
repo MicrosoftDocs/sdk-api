@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_setanimationmode.htm
 old-project: UIAnimation
 ms.assetid: b5d6c5f1-1e1c-497f-a556-f419e2c68585
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],SetAnimationMode method, IUIAnimationManager.SetAnimationMode, IUIAnimationManager::SetAnimationMode, SetAnimationMode, SetAnimationMode method [Windows Animation], SetAnimationMode method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setanimationmode, uianimation/IUIAnimationManager::SetAnimationMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

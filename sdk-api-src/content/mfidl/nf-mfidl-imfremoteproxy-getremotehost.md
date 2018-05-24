@@ -7,7 +7,7 @@ old-location: mf\imfremoteproxy_getremotehost.htm
 old-project: medfound
 ms.assetid: e3a4407a-d8e4-4c7b-81da-88d63e0d77b8
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetRemoteHost, GetRemoteHost method [Media Foundation], GetRemoteHost method [Media Foundation],IMFRemoteProxy interface, IMFRemoteProxy interface [Media Foundation],GetRemoteHost method, IMFRemoteProxy.GetRemoteHost, IMFRemoteProxy::GetRemoteHost, e3a4407a-d8e4-4c7b-81da-88d63e0d77b8, mf.imfremoteproxy_getremotehost, mfidl/IMFRemoteProxy::GetRemoteHost
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

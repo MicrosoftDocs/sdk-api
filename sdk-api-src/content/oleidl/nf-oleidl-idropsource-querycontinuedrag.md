@@ -7,7 +7,7 @@ old-location: com\idropsource_querycontinuedrag.htm
 old-project: com
 ms.assetid: 96ea44fc-5046-4e31-abfc-659d8ef3ca8f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IDropSource interface [COM],QueryContinueDrag method, IDropSource.QueryContinueDrag, IDropSource::QueryContinueDrag, QueryContinueDrag, QueryContinueDrag method [COM], QueryContinueDrag method [COM],IDropSource interface, _ole_idropsource_querycontinuedrag, com.idropsource_querycontinuedrag, oleidl/IDropSource::QueryContinueDrag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDropSource::QueryContinueDrag

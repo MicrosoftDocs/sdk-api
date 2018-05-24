@@ -7,7 +7,7 @@ old-location: security\scesvc_configuration_line.htm
 old-project: SecMgmt
 ms.assetid: 25801b20-9a7a-423e-8fa3-86896a8fbae4
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: "*PSCESVC_CONFIGURATION_LINE, PSCESVC_CONFIGURATION_LINE, PSCESVC_CONFIGURATION_LINE structure pointer [Security], SCESVC_CONFIGURATION_LINE, SCESVC_CONFIGURATION_LINE structure [Security], _SCESVC_CONFIGURATION_LINE_, _config_scesvc_configuration_line, scesvc/PSCESVC_CONFIGURATION_LINE, scesvc/SCESVC_CONFIGURATION_LINE, security.scesvc_configuration_line"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _SCESVC_CONFIGURATION_LINE_ structure

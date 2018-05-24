@@ -7,7 +7,7 @@ old-location: com\cogetstandardmarshal.htm
 old-project: com
 ms.assetid: 0cb74adc-e192-4ae5-9267-02c79e301681
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CoGetStandardMarshal, CoGetStandardMarshal function [COM], _com_CoGetStandardMarshal, com.cogetstandardmarshal, combaseapi/CoGetStandardMarshal
 ms.prod: windows-hardware
 ms.technology: windows-devices

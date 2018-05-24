@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_hwnd.htm
 old-project: tablet
 ms.assetid: 1a8b933f-a4f0-46f5-8b41-df89b6378e9f
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 1a8b933f-a4f0-46f5-8b41-df89b6378e9f, IInkCollector.put_hWnd, IInkCollector::put_hWnd, InkCollector class [Tablet PC],hWnd property, InkCollector.get_hWnd, InkCollector.hWnd, InkCollector.put_hWnd, get_hWnd, hWnd property [Tablet PC], hWnd property [Tablet PC],InkCollector class, put_hWnd, tablet.inkcollector_hwnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -46,7 +46,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkCollector::put_hWnd

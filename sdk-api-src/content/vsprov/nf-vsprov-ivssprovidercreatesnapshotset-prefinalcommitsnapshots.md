@@ -7,7 +7,7 @@ old-location: base\ivssprovidercreatesnapshotset_prefinalcommitsnapshots.htm
 old-project: VSS
 ms.assetid: 6d6895b9-6e6c-4c4c-b7c9-a4eff771567a
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PreFinalCommitSnapshots method, IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots, IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots, PreFinalCommitSnapshots, PreFinalCommitSnapshots method [VSS], PreFinalCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_prefinalcommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
 ms.prod: windows-hardware
 ms.technology: windows-devices

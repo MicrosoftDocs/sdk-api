@@ -7,7 +7,7 @@ old-location: base\ivdshwprovider_refresh.htm
 old-project: VDS
 ms.assetid: 25ddc73c-5d1b-4bec-bbc2-9f22a5f82ffe
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsHwProvider interface [VDS],Refresh method, IVdsHwProvider.Refresh, IVdsHwProvider::Refresh, Refresh, Refresh method [VDS], Refresh method [VDS],IVdsHwProvider interface, base.ivdshwprovider_refresh, vds/IVdsHwProvider::Refresh, vdshwprv/IVdsHwProvider::Refresh
 ms.prod: windows-hardware
 ms.technology: windows-devices

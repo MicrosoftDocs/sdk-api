@@ -7,7 +7,7 @@ old-location: shell\IFileDialogEvents_OnOverwrite.htm
 old-project: shell
 ms.assetid: 825dcbed-3248-4d2e-bf5f-5d51f8f0529b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnOverwrite method, IFileDialogEvents.OnOverwrite, IFileDialogEvents::OnOverwrite, OnOverwrite, OnOverwrite method [Windows Shell], OnOverwrite method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnOverwrite, shell_IFileDialogEvents_OnOverwrite, shobjidl_core/IFileDialogEvents::OnOverwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

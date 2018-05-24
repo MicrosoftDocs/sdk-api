@@ -7,7 +7,7 @@ old-location: shell\SHLoadIndirectString.htm
 old-project: shell
 ms.assetid: f0265cd8-deb8-4bca-b379-39aff49c7df1
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SHLoadIndirectString, SHLoadIndirectString function [Windows Shell], _shell_SHLoadIndirectString, shell.SHLoadIndirectString, shlwapi/SHLoadIndirectString
 ms.prod: windows-hardware
 ms.technology: windows-devices

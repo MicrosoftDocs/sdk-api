@@ -7,7 +7,7 @@ old-location: termserv\virtualchannelwrite.htm
 old-project: TermServ
 ms.assetid: bd7bc65e-403c-4e29-bdb4-f2f5a957d6ab
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: VirtualChannelWrite, VirtualChannelWrite callback, VirtualChannelWrite callback function [Remote Desktop Services], _win32_virtualchannelwrite, cchannel/VirtualChannelWrite, termserv.virtualchannelwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices

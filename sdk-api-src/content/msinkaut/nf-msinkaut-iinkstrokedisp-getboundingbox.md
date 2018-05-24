@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_getboundingbox.htm
 old-project: tablet
 ms.assetid: 3b2c8cfc-05e6-4b53-b709-72291ee78471
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 3b2c8cfc-05e6-4b53-b709-72291ee78471, GetBoundingBox, GetBoundingBox method [Tablet PC], GetBoundingBox method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetBoundingBox method, IInkStrokeDisp.GetBoundingBox, IInkStrokeDisp::GetBoundingBox, msinkaut/IInkStrokeDisp::GetBoundingBox, tablet.iinkstrokedisp_getboundingbox
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::GetBoundingBox

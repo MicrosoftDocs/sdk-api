@@ -7,7 +7,7 @@ old-location: stg\idirectwriterlock_havewriteaccess.htm
 old-project: Stg
 ms.assetid: 8366b6b5-73c3-4b05-be68-c24ecd2eab96
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: HaveWriteAccess, HaveWriteAccess method [Structured Storage], HaveWriteAccess method [Structured Storage],IDirectWriterLock interface, IDirectWriterLock interface [Structured Storage],HaveWriteAccess method, IDirectWriterLock.HaveWriteAccess, IDirectWriterLock::HaveWriteAccess, _stg_idirectwriterlock_havewriteaccess, objidl/IDirectWriterLock::HaveWriteAccess, stg.idirectwriterlock_havewriteaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDirectWriterLock::HaveWriteAccess

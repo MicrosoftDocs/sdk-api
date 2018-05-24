@@ -7,7 +7,7 @@ old-location: rm\drmtimetype.htm
 old-project: AdRms_Sdk
 ms.assetid: 0adb6824-0b6e-414a-b9d2-a3266c80df23
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMTIMETYPE, DRMTIMETYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMTIMETYPE_SYSTEMLOCAL, DRMTIMETYPE_SYSTEMUTC, _DRMTIMETYPE, msdrmdefs/DRMTIMETYPE, msdrmdefs/DRMTIMETYPE_SYSTEMLOCAL, msdrmdefs/DRMTIMETYPE_SYSTEMUTC, rm.drmtimetype
 ms.prod: windows-hardware
 ms.technology: windows-devices

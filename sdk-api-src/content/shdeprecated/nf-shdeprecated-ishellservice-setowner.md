@@ -7,7 +7,7 @@ old-location: shell\IShellService_SetOwner.htm
 old-project: shell
 ms.assetid: ef3865b2-b651-4072-86f2-2996fce061a4
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IShellService interface [Windows Shell],SetOwner method, IShellService.SetOwner, IShellService::SetOwner, SetOwner, SetOwner method [Windows Shell], SetOwner method [Windows Shell],IShellService interface, shdeprecated/IShellService::SetOwner, shell.IShellService_SetOwner, zone_IShellService_SetOwner
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_isfirstassignment.htm
 old-project: TermServ
 ms.assetid: a086421f-77a4-43c9-8f9f-a24b0d620de2
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],IsFirstAssignment property, ITsSbClientConnection.IsFirstAssignment, ITsSbClientConnection.get_IsFirstAssignment, ITsSbClientConnection::IsFirstAssignment, ITsSbClientConnection::get_IsFirstAssignment, IsFirstAssignment property [Remote Desktop Services], IsFirstAssignment property [Remote Desktop Services],ITsSbClientConnection interface, get_IsFirstAssignment, sbtsv/ITsSbClientConnection::IsFirstAssignment, sbtsv/ITsSbClientConnection::get_IsFirstAssignment, termserv.itssbclientconnection_isfirstassignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbClientConnection::get_IsFirstAssignment

@@ -7,7 +7,7 @@ old-location: base\heapvalidate.htm
 old-project: Memory
 ms.assetid: 036e95ff-f71f-49c3-8321-ed4c4bee5455
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapValidate, HeapValidate function, _win32_heapvalidate, base.heapvalidate, heapapi/HeapValidate, winbase/HeapValidate
 ms.prod: windows-hardware
 ms.technology: windows-devices

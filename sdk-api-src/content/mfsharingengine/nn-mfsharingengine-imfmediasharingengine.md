@@ -7,7 +7,7 @@ old-location: mf\imfmediasharingengine.htm
 old-project: medfound
 ms.assetid: D56612FC-840A-41EE-B162-7AF16ED3D975
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFMediaSharingEngine, IMFMediaSharingEngine interface [Media Foundation], IMFMediaSharingEngine interface [Media Foundation],described, mf.imfmediasharingengine, mfsharingengine/IMFMediaSharingEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices

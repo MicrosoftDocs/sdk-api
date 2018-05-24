@@ -7,7 +7,7 @@ old-location: base\ivdsservice_getproperties.htm
 old-project: VDS
 ms.assetid: fb5fe743-4833-400a-a8aa-8de886203190
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsService interface, IVdsService interface [VDS],GetProperties method, IVdsService.GetProperties, IVdsService::GetProperties, base.ivdsservice_getproperties, vds/IVdsService::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

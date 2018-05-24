@@ -7,7 +7,7 @@ old-location: security\cryptuidlgviewcontext.htm
 old-project: SecCrypto
 ms.assetid: d4b8f01b-7c3e-4286-bc37-d5ec4a1e1c2f
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CRL_CONTEXT, CERT_STORE_CTL_CONTEXT, CryptUIDlgViewContext, CryptUIDlgViewContext function [Security], _crypto2_cryptuidlgviewcontext, cryptuiapi/CryptUIDlgViewContext, security.cryptuidlgviewcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

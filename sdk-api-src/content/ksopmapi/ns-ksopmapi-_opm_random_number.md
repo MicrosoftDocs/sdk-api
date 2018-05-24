@@ -7,7 +7,7 @@ old-location: mf\opm_random_number.htm
 old-project: medfound
 ms.assetid: d3a5be4b-39d1-43da-b87e-ab4dd7815262
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: "*POPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER, OPM_RANDOM_NUMBER structure [Media Foundation], _OPM_RANDOM_NUMBER, ksopmapi/OPM_RANDOM_NUMBER, mf.opm_random_number"
 ms.prod: windows-hardware
 ms.technology: windows-devices

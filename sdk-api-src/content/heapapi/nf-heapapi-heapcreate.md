@@ -7,7 +7,7 @@ old-location: base\heapcreate.htm
 old-project: Memory
 ms.assetid: 8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: HEAP_CREATE_ENABLE_EXECUTE, HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HeapCreate, HeapCreate function, _win32_heapcreate, base.heapcreate, heapapi/HeapCreate, winbase/HeapCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

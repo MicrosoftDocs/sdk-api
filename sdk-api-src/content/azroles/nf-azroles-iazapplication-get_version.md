@@ -7,7 +7,7 @@ old-location: security\iazapplication_version.htm
 old-project: SecAuthZ
 ms.assetid: 4fa03e8c-e039-465c-aca2-4b68b894eb29
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AzApplication object [Security],Version property, IAzApplication interface [Security],Version property, IAzApplication.Version, IAzApplication.get_Version, IAzApplication::Version, IAzApplication::get_Version, IAzApplication::put_Version, Version property [Security], Version property [Security],AzApplication object, Version property [Security],IAzApplication interface, azroles/IAzApplication::Version, azroles/IAzApplication::get_Version, azroles/IAzApplication::put_Version, get_Version, security.iazapplication_version
 ms.prod: windows-hardware
 ms.technology: windows-devices

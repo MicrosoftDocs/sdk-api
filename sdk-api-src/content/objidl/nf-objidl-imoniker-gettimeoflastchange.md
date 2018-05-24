@@ -7,7 +7,7 @@ old-location: com\imoniker_gettimeoflastchange.htm
 old-project: com
 ms.assetid: 120cc951-6797-4ef6-890b-57ff8d3d23ba
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetTimeOfLastChange, GetTimeOfLastChange method [COM], GetTimeOfLastChange method [COM],IMoniker interface, IMoniker interface [COM],GetTimeOfLastChange method, IMoniker.GetTimeOfLastChange, IMoniker::GetTimeOfLastChange, _com_imoniker_gettimeoflastchange, com.imoniker_gettimeoflastchange, objidl/IMoniker::GetTimeOfLastChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMoniker::GetTimeOfLastChange

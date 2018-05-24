@@ -7,7 +7,7 @@ old-location: security\certopenserverocspresponse.htm
 old-project: SecCrypto
 ms.assetid: c29d1972-b329-4e32-aead-a038130fb85e
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CertOpenServerOcspResponse, CertOpenServerOcspResponse function [Security], security.certopenserverocspresponse, wincrypt/CertOpenServerOcspResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices

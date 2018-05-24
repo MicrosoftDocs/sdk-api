@@ -7,7 +7,7 @@ old-location: base\ivdsvdprovider_getvdiskfromdisk.htm
 old-project: VDS
 ms.assetid: ef5fd5e0-d11f-44e1-8947-787f1e592c5c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetVDiskFromDisk, GetVDiskFromDisk method, GetVDiskFromDisk method,IVdsVdProvider interface, IVdsVdProvider interface,GetVDiskFromDisk method, IVdsVdProvider.GetVDiskFromDisk, IVdsVdProvider::GetVDiskFromDisk, base.ivdsvdprovider_getvdiskfromdisk, vds/IVdsVdProvider::GetVDiskFromDisk
 ms.prod: windows-hardware
 ms.technology: windows-devices

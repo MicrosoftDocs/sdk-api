@@ -7,7 +7,7 @@ old-location: shell\THUMBBUTTON.htm
 old-project: shell
 ms.assetid: c13657b2-5b96-45ae-b339-b06b13aca65d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPTHUMBBUTTON, LPTHUMBBUTTON, LPTHUMBBUTTON structure pointer [Windows Shell], THUMBBUTTON, THUMBBUTTON structure [Windows Shell], _shell_THUMBBUTTON, shell.THUMBBUTTON, shobjidl_core/LPTHUMBBUTTON, shobjidl_core/THUMBBUTTON"
 ms.prod: windows-hardware
 ms.technology: windows-devices

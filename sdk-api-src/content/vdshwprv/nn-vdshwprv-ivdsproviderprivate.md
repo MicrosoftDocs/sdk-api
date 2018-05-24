@@ -7,7 +7,7 @@ old-location: base\ivdsproviderprivate.htm
 old-project: VDS
 ms.assetid: 5f1c38bf-85a7-4123-becb-e8abf3052b41
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsProviderPrivate, IVdsProviderPrivate interface [VDS], IVdsProviderPrivate interface [VDS],described, base.ivdsproviderprivate, vdshwprv/IVdsProviderPrivate
 ms.prod: windows-hardware
 ms.technology: windows-devices

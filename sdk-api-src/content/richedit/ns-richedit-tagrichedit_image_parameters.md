@@ -7,7 +7,7 @@ old-location: controls\richedit_image_parameters.htm
 old-project: Controls
 ms.assetid: 9FBEB9BE-B27E-4AC6-AB39-1DBCF74AED8B
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: RICHEDIT_IMAGE_PARAMETERS, RICHEDIT_IMAGE_PARAMETERS structure [Windows Controls], TA_BASELINE, TA_BOTTOM, TA_TOP, controls.richedit_image_parameters, richedit/RICHEDIT_IMAGE_PARAMETERS, tagRICHEDIT_IMAGE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagRICHEDIT_IMAGE_PARAMETERS structure

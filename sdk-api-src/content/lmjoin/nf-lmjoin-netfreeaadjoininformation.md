@@ -7,7 +7,7 @@ old-location: netmgmt\netfreeaadjoininformation.htm
 old-project: NetMgmt
 ms.assetid: BDFB6179-4B8C-43E3-8D34-A2B470EA0D0B
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: NetFreeAadJoinInformation, NetFreeAadJoinInformation function [Network Management], lmjoin/NetFreeAadJoinInformation, netmgmt.netfreeaadjoininformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

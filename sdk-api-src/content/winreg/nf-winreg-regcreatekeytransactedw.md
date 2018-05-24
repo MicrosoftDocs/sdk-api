@@ -7,7 +7,7 @@ old-location: base\regcreatekeytransacted.htm
 old-project: SysInfo
 ms.assetid: f18e5ff9-41c3-4c26-8d01-a8ec69bcdef2
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyTransacted, RegCreateKeyTransacted function, RegCreateKeyTransactedA, RegCreateKeyTransactedW, base.regcreatekeytransacted, winreg/RegCreateKeyTransacted, winreg/RegCreateKeyTransactedA, winreg/RegCreateKeyTransactedW
 ms.prod: windows-hardware
 ms.technology: windows-devices

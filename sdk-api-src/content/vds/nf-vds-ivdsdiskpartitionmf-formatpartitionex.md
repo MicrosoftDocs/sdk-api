@@ -7,7 +7,7 @@ old-location: base\ivdsdiskpartitionmf_formatpartitionex.htm
 old-project: VDS
 ms.assetid: 82ab6b70-bfa3-4246-aa82-05c6c3b3cbe9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: FormatPartitionEx, FormatPartitionEx method, FormatPartitionEx method,IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,FormatPartitionEx method, IVdsDiskPartitionMF.FormatPartitionEx, IVdsDiskPartitionMF::FormatPartitionEx, base.ivdsdiskpartitionmf_formatpartitionex, vds/IVdsDiskPartitionMF::FormatPartitionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

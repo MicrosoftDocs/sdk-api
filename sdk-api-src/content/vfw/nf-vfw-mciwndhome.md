@@ -7,7 +7,7 @@ old-location: multimedia\mciwndhome.htm
 old-project: Multimedia
 ms.assetid: c028732d-7ead-4417-b3d5-a0df756ad623
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: MCIWndHome, MCIWndHome macro [Windows Multimedia], _win32_MCIWndHome, multimedia.mciwndhome, vfw/MCIWndHome
 ms.prod: windows-hardware
 ms.technology: windows-devices

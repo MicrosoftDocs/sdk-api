@@ -7,7 +7,7 @@ old-location: security\claim_security_attributes_information.htm
 old-project: SecAuthZ
 ms.assetid: D7D9816E-1ECE-48CA-9F2F-0955572A0FCA
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTES_INFORMATION, CLAIM_SECURITY_ATTRIBUTES_INFORMATION, CLAIM_SECURITY_ATTRIBUTES_INFORMATION structure [Security], PCLAIM_SECURITY_ATTRIBUTES_INFORMATION, PCLAIM_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTES_INFORMATION, security.claim_security_attributes_information, winnt/CLAIM_SECURITY_ATTRIBUTES_INFORMATION, winnt/PCLAIM_SECURITY_ATTRIBUTES_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

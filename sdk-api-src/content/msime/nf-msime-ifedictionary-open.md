@@ -7,7 +7,7 @@ old-location: intl\ifedictionary_open.htm
 old-project: Intl
 ms.assetid: 7170EED5-0D96-4314-8B9F-A019052B0F32
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFEDictionary interface [Internationalization for Windows Applications],Open method, IFEDictionary.Open, IFEDictionary::Open, Open, Open method [Internationalization for Windows Applications], Open method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_open, msime/IFEDictionary::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFEDictionary::Open

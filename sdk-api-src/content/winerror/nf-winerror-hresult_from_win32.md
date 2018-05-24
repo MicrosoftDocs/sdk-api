@@ -7,7 +7,7 @@ old-location: com\hresult_from_win32_macro.htm
 old-project: com
 ms.assetid: 40e6f80d-a778-4d5f-bb1b-db294815f8b5
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: HRESULT_FROM_WIN32, HRESULT_FROM_WIN32 macro [COM], _com_HRESULT_FROM_WIN32, com.hresult_from_win32, com.hresult_from_win32_macro, winerror/HRESULT_FROM_WIN32
 ms.prod: windows-hardware
 ms.technology: windows-devices

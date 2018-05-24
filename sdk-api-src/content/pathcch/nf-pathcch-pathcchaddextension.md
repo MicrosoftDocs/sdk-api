@@ -7,7 +7,7 @@ old-location: shell\PathCchAddExtension.htm
 old-project: shell
 ms.assetid: c37b438b-39e7-4f24-b076-2401900dab71
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: PathCchAddExtension, PathCchAddExtension function [Windows Shell], pathcch/PathCchAddExtension, shell.PathCchAddExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PathCchAddExtension function

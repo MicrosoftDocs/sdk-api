@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxdoc.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6mub.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFaxDoc, IFaxDoc interface [Fax Service], IFaxDoc interface [Fax Service],described, _mfax_ifaxdoc, fax._mfax_ifaxdoc, faxcom/IFaxDoc
 ms.prod: windows-hardware
 ms.technology: windows-devices

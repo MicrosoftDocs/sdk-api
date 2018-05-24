@@ -7,7 +7,7 @@ old-location: base\regqueryvalue.htm
 old-project: SysInfo
 ms.assetid: 18f27717-3bd9-45ac-a1ea-61abc1753a52
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: RegQueryValue, RegQueryValue function, RegQueryValueA, RegQueryValueW, _win32_regqueryvalue, base.regqueryvalue, winreg/RegQueryValue, winreg/RegQueryValueA, winreg/RegQueryValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

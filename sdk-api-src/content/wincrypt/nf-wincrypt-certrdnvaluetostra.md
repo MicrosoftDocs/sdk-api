@@ -7,7 +7,7 @@ old-location: security\certrdnvaluetostr.htm
 old-project: SecCrypto
 ms.assetid: c1e0af19-320e-411e-85bf-c7f01befcac4
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CertRDNValueToStr, CertRDNValueToStr function [Security], CertRDNValueToStrA, CertRDNValueToStrW, _crypto2_certrdnvaluetostr, security.certrdnvaluetostr, wincrypt/CertRDNValueToStr, wincrypt/CertRDNValueToStrA, wincrypt/CertRDNValueToStrW
 ms.prod: windows-hardware
 ms.technology: windows-devices

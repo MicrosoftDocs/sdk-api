@@ -7,7 +7,7 @@ old-location: shell\IShellView_EnableModeless.htm
 old-project: shell
 ms.assetid: 5467f524-fa61-4919-bf64-268f9387b2f2
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: EnableModeless, EnableModeless method [Windows Shell], EnableModeless method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],EnableModeless method, IShellView.EnableModeless, IShellView::EnableModeless, _win32_IShellView_EnableModeless, shell.IShellView_EnableModeless, shobjidl_core/IShellView::EnableModeless
 ms.prod: windows-hardware
 ms.technology: windows-devices

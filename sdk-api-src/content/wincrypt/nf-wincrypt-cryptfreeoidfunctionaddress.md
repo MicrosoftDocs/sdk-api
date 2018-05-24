@@ -7,7 +7,7 @@ old-location: security\cryptfreeoidfunctionaddress.htm
 old-project: SecCrypto
 ms.assetid: cacacff3-25b7-4ed4-885b-b4b0b326628f
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CryptFreeOIDFunctionAddress, CryptFreeOIDFunctionAddress function [Security], _crypto2_cryptfreeoidfunctionaddress, security.cryptfreeoidfunctionaddress, wincrypt/CryptFreeOIDFunctionAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

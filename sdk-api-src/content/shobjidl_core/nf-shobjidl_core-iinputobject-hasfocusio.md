@@ -7,7 +7,7 @@ old-location: shell\IInputObject_HasFocusIO.htm
 old-project: shell
 ms.assetid: f22f6b54-9d71-4451-81bf-6e3fd01ab36a
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: HasFocusIO, HasFocusIO method [Windows Shell], HasFocusIO method [Windows Shell],IInputObject interface, IInputObject interface [Windows Shell],HasFocusIO method, IInputObject.HasFocusIO, IInputObject::HasFocusIO, _win32_IInputObject_HasFocusIO, shell.IInputObject_HasFocusIO, shobjidl_core/IInputObject::HasFocusIO
 ms.prod: windows-hardware
 ms.technology: windows-devices

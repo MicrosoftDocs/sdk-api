@@ -7,7 +7,7 @@ old-location: multimedia\icdecompressexend.htm
 old-project: Multimedia
 ms.assetid: db0ab881-2e26-4f60-a22c-cb4bd2016028
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ICDecompressExEnd, ICDecompressExEnd macro [Windows Multimedia], _win32_ICDecompressExEnd, multimedia.icdecompressexend, vfw/ICDecompressExEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices

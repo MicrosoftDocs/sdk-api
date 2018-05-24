@@ -7,7 +7,7 @@ old-location: mf\dxvahd_input_format_caps.htm
 old-project: medfound
 ms.assetid: ddfff29c-3a40-4238-93e7-821c4ffc27af
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: DXVAHD_INPUT_FORMAT_CAPS, DXVAHD_INPUT_FORMAT_CAPS enumeration [Media Foundation], DXVAHD_INPUT_FORMAT_CAPS_PALETTE_INTERLACED, DXVAHD_INPUT_FORMAT_CAPS_RGB_INTERLACED, DXVAHD_INPUT_FORMAT_CAPS_RGB_LUMA_KEY, DXVAHD_INPUT_FORMAT_CAPS_RGB_PROCAMP, _DXVAHD_INPUT_FORMAT_CAPS, dxvahd/DXVAHD_INPUT_FORMAT_CAPS, dxvahd/DXVAHD_INPUT_FORMAT_CAPS_PALETTE_INTERLACED, dxvahd/DXVAHD_INPUT_FORMAT_CAPS_RGB_INTERLACED, dxvahd/DXVAHD_INPUT_FORMAT_CAPS_RGB_LUMA_KEY, dxvahd/DXVAHD_INPUT_FORMAT_CAPS_RGB_PROCAMP, mf.dxvahd_input_format_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices

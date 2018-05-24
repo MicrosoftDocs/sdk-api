@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorage_createstorage.htm
 old-project: WMDM
 ms.assetid: 95633bc4-44fc-4ac7-9492-f99069d77d4d
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: CreateStorage, CreateStorage method [windows Media Device Manager], CreateStorage method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],CreateStorage method, IMDSPStorage.CreateStorage, IMDSPStorage::CreateStorage, IMDSPStorageCreateStorage, mswmdm/IMDSPStorage::CreateStorage, wmdm.imdspstorage_createstorage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPStorage::CreateStorage

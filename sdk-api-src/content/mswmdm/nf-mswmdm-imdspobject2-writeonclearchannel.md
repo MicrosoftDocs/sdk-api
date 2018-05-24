@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject2_writeonclearchannel.htm
 old-project: WMDM
 ms.assetid: 9c80f382-2536-4f08-9111-94ad757747f7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IMDSPObject2 interface [windows Media Device Manager],WriteOnClearChannel method, IMDSPObject2.WriteOnClearChannel, IMDSPObject2::WriteOnClearChannel, IMDSPObject2WriteOnClearChannel, WriteOnClearChannel, WriteOnClearChannel method [windows Media Device Manager], WriteOnClearChannel method [windows Media Device Manager],IMDSPObject2 interface, mswmdm/IMDSPObject2::WriteOnClearChannel, wmdm.imdspobject2_writeonclearchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPObject2::WriteOnClearChannel

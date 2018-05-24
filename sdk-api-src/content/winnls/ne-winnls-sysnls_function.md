@@ -7,7 +7,7 @@ old-location: intl\sysnls_function.htm
 old-project: Intl
 ms.assetid: c34eb904-e264-4f7d-ac7f-4ec8cfc588b6
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: COMPARE_STRING, SYSNLS_FUNCTION, SYSNLS_FUNCTION enumeration [Internationalization for Windows Applications], intl.nls_function, intl.sysnls_function, winnls/COMPARE_STRING, winnls/SYSNLS_FUNCTION
 ms.prod: windows-hardware
 ms.technology: windows-devices

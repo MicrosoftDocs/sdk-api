@@ -7,7 +7,7 @@ old-location: base\vds_iscsi_target_prop.htm
 old-project: VDS
 ms.assetid: ca92c9e8-4d15-4b3c-8420-3eac18a7c2f5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: "*PVDS_ISCSI_TARGET_PROP, VDS_ISCSI_TARGET_PROP, VDS_ISCSI_TARGET_PROP structure [VDS], _VDS_ISCSI_TARGET_PROP, base.vds_iscsi_target_prop, vds/VDS_ISCSI_TARGET_PROP, vdshwprv/VDS_ISCSI_TARGET_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\ifelanguage_open.htm
 old-project: Intl
 ms.assetid: 2E1CEC6B-B0EA-4DBE-A122-D44606B467CC
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFELanguage interface [Internationalization for Windows Applications],Open method, IFELanguage.Open, IFELanguage::Open, Open, Open method [Internationalization for Windows Applications], Open method [Internationalization for Windows Applications],IFELanguage interface, intl.ifelanguage_open, msime/IFELanguage::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFELanguage::Open

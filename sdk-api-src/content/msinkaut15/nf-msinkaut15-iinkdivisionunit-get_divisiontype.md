@@ -7,7 +7,7 @@ old-location: tablet\iinkdivisionunit_divisiontype.htm
 old-project: tablet
 ms.assetid: c1aaaa62-34fc-4cd4-bd68-47f828bb59b1
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: DivisionType property [Tablet PC], DivisionType property [Tablet PC],IInkDivisionUnit interface, IInkDivisionUnit interface [Tablet PC],DivisionType property, IInkDivisionUnit.DivisionType, IInkDivisionUnit.get_DivisionType, IInkDivisionUnit::DivisionType, IInkDivisionUnit::get_DivisionType, c1aaaa62-34fc-4cd4-bd68-47f828bb59b1, get_DivisionType, msinkaut15/IInkDivisionUnit::DivisionType, msinkaut15/IInkDivisionUnit::get_DivisionType, tablet.iinkdivisionunit_divisiontype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkDivisionUnit::get_DivisionType

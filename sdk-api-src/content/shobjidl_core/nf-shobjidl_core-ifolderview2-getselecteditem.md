@@ -7,7 +7,7 @@ old-location: shell\IFolderView2_GetSelectedItem.htm
 old-project: shell
 ms.assetid: fca9fd45-05ce-4300-aecf-a2843614a11d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetSelectedItem, GetSelectedItem method [Windows Shell], GetSelectedItem method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetSelectedItem method, IFolderView2.GetSelectedItem, IFolderView2::GetSelectedItem, _shell_IFolderView2_GetSelectedItem, shell.IFolderView2_GetSelectedItem, shobjidl_core/IFolderView2::GetSelectedItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

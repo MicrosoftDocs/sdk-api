@@ -7,7 +7,7 @@ old-location: mf\mfp_rate_set_event.htm
 old-project: medfound
 ms.assetid: 19e3bcb0-340a-46dc-bfda-62890ec9a8ae
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFP_RATE_SET_EVENT, MFP_RATE_SET_EVENT structure [Media Foundation], mf.mfp_rate_set_event, mfplay/MFP_RATE_SET_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

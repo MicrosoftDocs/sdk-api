@@ -7,7 +7,7 @@ old-location: properties\IPropertyStoreFactory_GetPropertyStore.htm
 old-project: properties
 ms.assetid: 80cc20e1-88e2-4dee-a0fb-d75fffdfc097
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: GetPropertyStore, GetPropertyStore method [Windows Properties], GetPropertyStore method [Windows Properties],IPropertyStoreFactory interface, IPropertyStoreFactory interface [Windows Properties],GetPropertyStore method, IPropertyStoreFactory.GetPropertyStore, IPropertyStoreFactory::GetPropertyStore, _shell_IPropertyStoreFactory_GetPropertyStore, properties.IPropertyStoreFactory_GetPropertyStore, propsys/IPropertyStoreFactory::GetPropertyStore, shell.IPropertyStoreFactory_GetPropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyStoreFactory::GetPropertyStore

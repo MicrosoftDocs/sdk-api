@@ -7,7 +7,7 @@ old-location: controls\IRichEditOle_GetObjectCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetobjectcount.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetObjectCount, GetObjectCount method [Windows Controls], GetObjectCount method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetObjectCount method, IRichEditOle.GetObjectCount, IRichEditOle::GetObjectCount, _win32_IRichEditOle_GetObjectCount, _win32_IRichEditOle_GetObjectCount_cpp, controls.IRichEditOle_GetObjectCount, controls._win32_IRichEditOle_GetObjectCount, richole/IRichEditOle::GetObjectCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRichEditOle::GetObjectCount

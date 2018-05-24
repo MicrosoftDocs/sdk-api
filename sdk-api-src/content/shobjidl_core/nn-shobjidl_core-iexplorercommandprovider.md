@@ -7,7 +7,7 @@ old-location: shell\IExplorerCommandProvider.htm
 old-project: shell
 ms.assetid: f39ea1f7-28ba-4a5e-ac19-bcfc6052fdeb
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IExplorerCommandProvider, IExplorerCommandProvider interface [Windows Shell], IExplorerCommandProvider interface [Windows Shell],described, _shell_IExplorerCommandProvider, shell.IExplorerCommandProvider, shobjidl_core/IExplorerCommandProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\itextfont2_getoldnumbers.htm
 old-project: Controls
 ms.assetid: 8e800840-5ca2-4fbf-94c2-d51aa73bf188
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetOldNumbers, GetOldNumbers method [Windows Controls], GetOldNumbers method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetOldNumbers method, ITextFont2.GetOldNumbers, ITextFont2::GetOldNumbers, controls.itextfont2_getoldnumbers, tom/ITextFont2::GetOldNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices

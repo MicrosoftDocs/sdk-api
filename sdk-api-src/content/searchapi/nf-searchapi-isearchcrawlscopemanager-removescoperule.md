@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager_RemoveScopeRule.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removescoperule.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: ISearchCrawlScopeManager interface [search],RemoveScopeRule method, ISearchCrawlScopeManager.RemoveScopeRule, ISearchCrawlScopeManager::RemoveScopeRule, RemoveScopeRule, RemoveScopeRule method [search], RemoveScopeRule method [search],ISearchCrawlScopeManager interface, _search_ISearchCrawlScopeManager_RemoveScopeRule, search._search_ISearchCrawlScopeManager_RemoveScopeRule, searchapi/ISearchCrawlScopeManager::RemoveScopeRule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISearchCrawlScopeManager::RemoveScopeRule

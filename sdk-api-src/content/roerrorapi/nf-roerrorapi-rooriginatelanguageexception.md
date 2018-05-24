@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RoOriginateLanguageException function

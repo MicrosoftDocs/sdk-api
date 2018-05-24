@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesrcelements.htm
 old-project: medfound
 ms.assetid: 37A3EAC0-639C-47F3-AAB9-588EBEC8E1E3
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFMediaEngineSrcElements, IMFMediaEngineSrcElements interface [Media Foundation], IMFMediaEngineSrcElements interface [Media Foundation],described, mf.imfmediaenginesrcelements, mfmediaengine/IMFMediaEngineSrcElements
 ms.prod: windows-hardware
 ms.technology: windows-devices

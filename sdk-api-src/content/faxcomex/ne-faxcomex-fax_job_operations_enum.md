@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_job_operations_enum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1ijx.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: FAX_JOB_OPERATIONS_ENUM, FAX_JOB_OPERATIONS_ENUM enumeration [Fax Service], _mfax_fax_job_operations_enum, fax._mfax_fax_job_operations_enum, faxcomex/FAX_JOB_OPERATIONS_ENUM, faxcomex/fjoDELETE, faxcomex/fjoPAUSE, faxcomex/fjoRECIPIENT_INFO, faxcomex/fjoRESTART, faxcomex/fjoRESUME, faxcomex/fjoSENDER_INFO, faxcomex/fjoVIEW, fjoDELETE, fjoPAUSE, fjoRECIPIENT_INFO, fjoRESTART, fjoRESUME, fjoSENDER_INFO, fjoVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices

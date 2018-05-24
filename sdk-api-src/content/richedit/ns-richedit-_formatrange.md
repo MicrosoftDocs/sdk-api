@@ -7,7 +7,7 @@ old-location: controls\FORMATRANGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\formatrange.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: FORMATRANGE, FORMATRANGE structure [Windows Controls], _formatrange, _win32_FORMATRANGE_str, _win32_FORMATRANGE_str_cpp, controls.FORMATRANGE, controls._win32_FORMATRANGE_str, richedit/FORMATRANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _formatrange structure

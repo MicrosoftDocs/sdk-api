@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoaccelerationservice_createsurface.htm
 old-project: medfound
 ms.assetid: 34ed2029-7c79-45ce-962d-df4970babb23
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 34ed2029-7c79-45ce-962d-df4970babb23, CreateSurface, CreateSurface method [Media Foundation], CreateSurface method [Media Foundation],IDirectXVideoAccelerationService interface, DXVA2_VideoDecoderRenderTarget, DXVA2_VideoProcessorRenderTarget, DXVA2_VideoSoftwareRenderTarget, IDirectXVideoAccelerationService interface [Media Foundation],CreateSurface method, IDirectXVideoAccelerationService.CreateSurface, IDirectXVideoAccelerationService::CreateSurface, dxva2api/IDirectXVideoAccelerationService::CreateSurface, mf.idirectxvideoaccelerationservice_createsurface
 ms.prod: windows-hardware
 ms.technology: windows-devices

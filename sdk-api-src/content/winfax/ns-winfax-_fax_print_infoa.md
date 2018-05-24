@@ -7,7 +7,7 @@ old-location: fax\_mfax_fax_print_info_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_60he.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: "*PFAX_PRINT_INFOA, FAX_PRINT_INFO, FAX_PRINT_INFO structure [Fax Service], FAX_PRINT_INFOA, FAX_PRINT_INFOW, PFAX_PRINT_INFO, PFAX_PRINT_INFO structure pointer [Fax Service], _FAX_PRINT_INFOA, _mfax_fax_print_info_str, fax._mfax_fax_print_info_str, winfax/FAX_PRINT_INFO, winfax/FAX_PRINT_INFOA, winfax/FAX_PRINT_INFOW, winfax/PFAX_PRINT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

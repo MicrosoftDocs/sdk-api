@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getcomponentname.htm
 old-project: VSS
 ms.assetid: 24b36ea6-3662-4846-a90b-5c2da578e1fa
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetComponentName, GetComponentName method [VSS], GetComponentName method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetComponentName method, IVssComponent.GetComponentName, IVssComponent::GetComponentName, _win32_ivsscomponent_getcomponentname, base.ivsscomponent_getcomponentname, vswriter/IVssComponent::GetComponentName
 ms.prod: windows-hardware
 ms.technology: windows-devices

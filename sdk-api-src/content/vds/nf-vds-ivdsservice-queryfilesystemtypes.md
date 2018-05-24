@@ -7,7 +7,7 @@ old-location: base\ivdsservice_queryfilesystemtypes.htm
 old-project: VDS
 ms.assetid: 17dcafc8-8faf-4dc2-af24-7e1ab257201e
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsService interface [VDS],QueryFileSystemTypes method, IVdsService.QueryFileSystemTypes, IVdsService::QueryFileSystemTypes, QueryFileSystemTypes, QueryFileSystemTypes method [VDS], QueryFileSystemTypes method [VDS],IVdsService interface, base.ivdsservice_queryfilesystemtypes, vds/IVdsService::QueryFileSystemTypes
 ms.prod: windows-hardware
 ms.technology: windows-devices

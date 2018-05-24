@@ -7,7 +7,7 @@ old-location: tablet\iinktablet_ispacketpropertysupported.htm
 old-project: tablet
 ms.assetid: 4bf2e2b0-d45a-4392-990e-5e9320333c0b
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 4bf2e2b0-d45a-4392-990e-5e9320333c0b, IInkTablet interface [Tablet PC],IsPacketPropertySupported method, IInkTablet.IsPacketPropertySupported, IInkTablet::IsPacketPropertySupported, IsPacketPropertySupported, IsPacketPropertySupported method [Tablet PC], IsPacketPropertySupported method [Tablet PC],IInkTablet interface, msinkaut/IInkTablet::IsPacketPropertySupported, tablet.iinktablet_ispacketpropertysupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkTablet::IsPacketPropertySupported

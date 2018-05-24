@@ -7,7 +7,7 @@ old-location: security\pfn_crypt_object_locator_provider_free.htm
 old-project: SecCrypto
 ms.assetid: 4C27BF58-79AB-4AD3-8D43-EEE7F73071D2
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE function, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE function pointer [Security], security.pfn_crypt_object_locator_provider_free, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE
 ms.prod: windows-hardware
 ms.technology: windows-devices

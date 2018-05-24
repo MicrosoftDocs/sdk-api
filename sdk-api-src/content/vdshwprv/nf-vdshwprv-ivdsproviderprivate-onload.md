@@ -7,7 +7,7 @@ old-location: base\ivdsproviderprivate_onload.htm
 old-project: VDS
 ms.assetid: c5b2ac78-6a23-470c-a762-26ce6358e0b6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsProviderPrivate interface [VDS],OnLoad method, IVdsProviderPrivate.OnLoad, IVdsProviderPrivate::OnLoad, OnLoad, OnLoad method [VDS], OnLoad method [VDS],IVdsProviderPrivate interface, base.ivdsproviderprivate_onload, vdshwprv/IVdsProviderPrivate::OnLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices

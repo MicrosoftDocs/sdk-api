@@ -7,7 +7,7 @@ old-location: shell\IShellPropSheetExt_AddPages.htm
 old-project: shell
 ms.assetid: 76a2a94b-b79f-41d1-9e42-fbfda545d12f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: AddPages, AddPages method [Windows Shell], AddPages method [Windows Shell],IShellPropSheetExt interface, IShellPropSheetExt interface [Windows Shell],AddPages method, IShellPropSheetExt.AddPages, IShellPropSheetExt::AddPages, _win32_IShellPropSheetExt_AddPages, _win32_ishellpropsheetext_win32_ishellpropsheetext_addpages_cpp, shell.IShellPropSheetExt_AddPages, shobjidl_core/IShellPropSheetExt::AddPages
 ms.prod: windows-hardware
 ms.technology: windows-devices

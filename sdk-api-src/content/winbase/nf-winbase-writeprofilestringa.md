@@ -7,7 +7,7 @@ old-location: base\writeprofilestring.htm
 old-project: SysInfo
 ms.assetid: d3fb74bb-7ce9-4669-8f00-02ac8a95ddd5
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: WriteProfileString, WriteProfileString function, WriteProfileStringA, WriteProfileStringW, _win32_writeprofilestring, base.writeprofilestring, winbase/WriteProfileString, winbase/WriteProfileStringA, winbase/WriteProfileStringW
 ms.prod: windows-hardware
 ms.technology: windows-devices

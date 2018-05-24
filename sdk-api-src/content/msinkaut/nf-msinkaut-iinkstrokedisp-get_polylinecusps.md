@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_polylinecusps.htm
 old-project: tablet
 ms.assetid: 67ae7265-4416-4eef-8a8f-85f3a5751200
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 67ae7265-4416-4eef-8a8f-85f3a5751200, IInkStrokeDisp interface [Tablet PC],PolylineCusps property, IInkStrokeDisp.PolylineCusps, IInkStrokeDisp.get_PolylineCusps, IInkStrokeDisp::PolylineCusps, IInkStrokeDisp::get_PolylineCusps, PolylineCusps property [Tablet PC], PolylineCusps property [Tablet PC],IInkStrokeDisp interface, get_PolylineCusps, msinkaut/IInkStrokeDisp::PolylineCusps, msinkaut/IInkStrokeDisp::get_PolylineCusps, tablet.iinkstrokedisp_polylinecusps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::get_PolylineCusps

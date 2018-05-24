@@ -7,7 +7,7 @@ old-location: security\setentriesinacl.htm
 old-project: SecAuthZ
 ms.assetid: 05960fc1-1ad2-4c19-a65c-62259af5e18c
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: SetEntriesInAcl, SetEntriesInAcl function [Security], SetEntriesInAclA, SetEntriesInAclW, _win32_setentriesinacl, aclapi/SetEntriesInAcl, aclapi/SetEntriesInAclA, aclapi/SetEntriesInAclW, security.setentriesinacl
 ms.prod: windows-hardware
 ms.technology: windows-devices

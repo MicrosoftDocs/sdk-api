@@ -7,7 +7,7 @@ old-location: security\crypt_xml_keyinfo_param.htm
 old-project: SecCrypto
 ms.assetid: cbde3f67-d948-452a-9958-52563dc7a8b5
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CRYPT_XML_KEYINFO_PARAM, CRYPT_XML_KEYINFO_PARAM structure [Security], _CRYPT_XML_KEYINFO_PARAM, cryptxml/CRYPT_XML_KEYINFO_PARAM, security.crypt_xml_keyinfo_param
 ms.prod: windows-hardware
 ms.technology: windows-devices

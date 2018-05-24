@@ -7,7 +7,7 @@ old-location: shell\SetProcessReference.htm
 old-project: shell
 ms.assetid: 65C1BE1D-2C67-47a3-9958-38829BB8CCB0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SetProcessReference, SetProcessReference function [Windows Shell], shell.SetProcessReference, shlwapi/SetProcessReference
 ms.prod: windows-hardware
 ms.technology: windows-devices

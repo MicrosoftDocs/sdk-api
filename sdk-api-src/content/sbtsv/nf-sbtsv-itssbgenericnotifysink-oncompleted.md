@@ -7,7 +7,7 @@ old-location: termserv\itssbgenericnotifysink_oncompleted.htm
 old-project: TermServ
 ms.assetid: 6d8dd044-988e-4e37-9936-2a3639dedca1
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITsSbGenericNotifySink interface [Remote Desktop Services],OnCompleted method, ITsSbGenericNotifySink.OnCompleted, ITsSbGenericNotifySink::OnCompleted, OnCompleted, OnCompleted method [Remote Desktop Services], OnCompleted method [Remote Desktop Services],ITsSbGenericNotifySink interface, sbtsv/ITsSbGenericNotifySink::OnCompleted, termserv.itssbgenericnotifysink_oncompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbGenericNotifySink::OnCompleted

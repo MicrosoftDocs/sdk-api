@@ -7,7 +7,7 @@ old-location: wmdm\imdserviceprovider2_createdevice.htm
 old-project: WMDM
 ms.assetid: f724ef14-c572-41ca-a56b-fde85d7620e0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: CreateDevice, CreateDevice method [windows Media Device Manager], CreateDevice method [windows Media Device Manager],IMDServiceProvider2 interface, IMDServiceProvider2 interface [windows Media Device Manager],CreateDevice method, IMDServiceProvider2.CreateDevice, IMDServiceProvider2::CreateDevice, IMDServiceProvider2GetDevicesFromDevicePath, mswmdm/IMDServiceProvider2::CreateDevice, wmdm.imdserviceprovider2_createdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDServiceProvider2::CreateDevice

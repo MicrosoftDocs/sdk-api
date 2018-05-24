@@ -7,7 +7,7 @@ old-location: shell\INamespaceWalk.htm
 old-project: shell
 ms.assetid: 164732ae-1c72-465c-a16b-a8eeaa9cc185
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: INamespaceWalk, INamespaceWalk interface [Windows Shell], INamespaceWalk interface [Windows Shell],described, _win32_INamespaceWalk, shell.INamespaceWalk, shobjidl_core/INamespaceWalk
 ms.prod: windows-hardware
 ms.technology: windows-devices

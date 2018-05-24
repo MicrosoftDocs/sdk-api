@@ -7,7 +7,7 @@ old-location: security\ienroll4_enumcontainerswstr.htm
 old-project: SecCrypto
 ms.assetid: a08d97c9-8ee9-464e-862e-18c335695927
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: IEnroll interface [Security],enumContainersWStr method, IEnroll.enumContainersWStr, IEnroll::enumContainersWStr, enumContainersWStr, enumContainersWStr method [Security], enumContainersWStr method [Security],IEnroll interface, security.ienroll4_enumcontainerswstr, xenroll/IEnroll::enumContainersWStr
 ms.prod: windows-hardware
 ms.technology: windows-devices

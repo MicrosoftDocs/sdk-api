@@ -7,7 +7,7 @@ old-location: com\ioleuiobjinfo_getconvertinfo.htm
 old-project: com
 ms.assetid: 45416493-7f0b-4bef-b785-513d4f404541
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetConvertInfo, GetConvertInfo method [COM], GetConvertInfo method [COM],IOleUIObjInfo interface, GetConvertInfo method [COM],IOleUIObjInfoA interface, GetConvertInfo method [COM],IOleUIObjInfoW interface, IOleUIObjInfo interface [COM],GetConvertInfo method, IOleUIObjInfo::GetConvertInfo, IOleUIObjInfoA interface [COM],GetConvertInfo method, IOleUIObjInfoA.GetConvertInfo, IOleUIObjInfoA::GetConvertInfo, IOleUIObjInfoW interface [COM],GetConvertInfo method, IOleUIObjInfoW::GetConvertInfo, _ole_IOleUIObjInfo_GetConvertInfo, com.ioleuiobjinfo_getconvertinfo, oledlg/IOleUIObjInfo::GetConvertInfo, oledlg/IOleUIObjInfoA::GetConvertInfo, oledlg/IOleUIObjInfoW::GetConvertInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleUIObjInfoA::GetConvertInfo

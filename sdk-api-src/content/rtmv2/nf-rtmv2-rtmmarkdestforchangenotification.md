@@ -7,7 +7,7 @@ old-location: rras\rtmmarkdestforchangenotification.htm
 old-project: RRAS
 ms.assetid: b7db8664-2775-4f96-8e5b-5062a8abcfe0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RtmMarkDestForChangeNotification, RtmMarkDestForChangeNotification function [RAS], _rtmv2ref_rtmmarkdestforchangenotification, rras.rtmmarkdestforchangenotification, rtmv2/RtmMarkDestForChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtmMarkDestForChangeNotification function

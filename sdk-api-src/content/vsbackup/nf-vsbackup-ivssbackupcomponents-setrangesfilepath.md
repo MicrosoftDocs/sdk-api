@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_setrangesfilepath.htm
 old-project: VSS
 ms.assetid: 170f9ea0-4846-49d4-ab06-eb1ce580e827
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetRangesFilePath method, IVssBackupComponents.SetRangesFilePath, IVssBackupComponents::SetRangesFilePath, SetRangesFilePath, SetRangesFilePath method [VSS], SetRangesFilePath method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setrangesfilepath, base.ivssbackupcomponents_setrangesfilepath, vsbackup/IVssBackupComponents::SetRangesFilePath
 ms.prod: windows-hardware
 ms.technology: windows-devices

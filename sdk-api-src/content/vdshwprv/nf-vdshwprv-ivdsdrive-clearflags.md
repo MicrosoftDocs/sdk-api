@@ -7,7 +7,7 @@ old-location: base\ivdsdrive_clearflags.htm
 old-project: VDS
 ms.assetid: 195f0c13-40d7-4fad-b589-063ec4ff4efe
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsDrive interface, IVdsDrive interface [VDS],ClearFlags method, IVdsDrive.ClearFlags, IVdsDrive::ClearFlags, base.ivdsdrive_clearflags, vds/IVdsDrive::ClearFlags, vdshwprv/IVdsDrive::ClearFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

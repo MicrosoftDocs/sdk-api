@@ -7,7 +7,7 @@ old-location: base\ivdsvolumemf2_getfilesystemtypename.htm
 old-project: VDS
 ms.assetid: f9e8627b-0531-4dcb-9818-7560372aa4b0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetFileSystemTypeName, GetFileSystemTypeName method, GetFileSystemTypeName method,IVdsVolumeMF2 interface, IVdsVolumeMF2 interface,GetFileSystemTypeName method, IVdsVolumeMF2.GetFileSystemTypeName, IVdsVolumeMF2::GetFileSystemTypeName, base.ivdsvolumemf2_getfilesystemtypename, vds/IVdsVolumeMF2::GetFileSystemTypeName
 ms.prod: windows-hardware
 ms.technology: windows-devices

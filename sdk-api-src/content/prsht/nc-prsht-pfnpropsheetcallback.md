@@ -7,7 +7,7 @@ old-location: controls\PropSheetProc.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propsheetproc.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: PFNPROPSHEETCALLBACK, PSCB_BUTTONPRESSED, PSCB_INITIALIZED, PSCB_PRECREATE, PropSheetProc, PropSheetProc callback, PropSheetProc callback function [Windows Controls], _win32_PropSheetProc, _win32_PropSheetProc_cpp, controls.PropSheetProc, controls._win32_PropSheetProc, prsht/PFNPROPSHEETCALLBACK, prsht/PropSheetProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PFNPROPSHEETCALLBACK callback function

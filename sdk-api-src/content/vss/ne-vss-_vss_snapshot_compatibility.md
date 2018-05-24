@@ -7,7 +7,7 @@ old-location: base\vss_snapshot_compatibility.htm
 old-project: VSS
 ms.assetid: 105d7bd6-0e95-4803-ae39-f03af40daa8e
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: VSS_SC_DISABLE_CONTENTINDEX, VSS_SC_DISABLE_DEFRAG, VSS_SNAPSHOT_COMPATIBILITY, VSS_SNAPSHOT_COMPATIBILITY enumeration [VSS], _VSS_SNAPSHOT_COMPATIBILITY, _win32_vss_snapshot_compatibility, base.vss_snapshot_compatibility, vss/VSS_SC_DISABLE_CONTENTINDEX, vss/VSS_SC_DISABLE_DEFRAG, vss/VSS_SNAPSHOT_COMPATIBILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices

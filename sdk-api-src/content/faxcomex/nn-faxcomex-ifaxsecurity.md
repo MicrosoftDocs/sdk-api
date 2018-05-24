@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsecurity_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_63cp_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFaxSecurity, IFaxSecurity interface [Fax Service], IFaxSecurity interface [Fax Service],described, _mfax_faxsecurity_cpp, fax._mfax_faxsecurity_cpp, faxcomex/IFaxSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices

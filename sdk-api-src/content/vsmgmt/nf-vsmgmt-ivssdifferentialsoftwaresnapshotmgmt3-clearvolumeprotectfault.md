@@ -7,7 +7,7 @@ old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault
 old-project: VSS
 ms.assetid: 07257d34-23b1-47bf-b613-f65f5d2a977e
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: ClearVolumeProtectFault, ClearVolumeProtectFault method, ClearVolumeProtectFault method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,ClearVolumeProtectFault method, IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault, IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault, base.ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
 ms.prod: windows-hardware
 ms.technology: windows-devices

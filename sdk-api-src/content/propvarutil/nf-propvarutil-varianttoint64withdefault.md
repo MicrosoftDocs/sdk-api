@@ -7,7 +7,7 @@ old-location: properties\VariantToInt64WithDefault.htm
 old-project: properties
 ms.assetid: c4a5fc5c-19f9-4313-9d98-a486bfdfb359
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: VariantToInt64WithDefault, VariantToInt64WithDefault function [Windows Properties], _shell_VariantToInt64WithDefault, properties.VariantToInt64WithDefault, propvarutil/VariantToInt64WithDefault, shell.VariantToInt64WithDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantToInt64WithDefault function

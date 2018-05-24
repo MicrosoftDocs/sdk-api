@@ -7,7 +7,7 @@ old-location: stg\ilockbytes_unlockregion.htm
 old-project: Stg
 ms.assetid: 036ba242-8630-4013-860d-dd37919253be
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: ILockBytes interface [Structured Storage],UnlockRegion method, ILockBytes.UnlockRegion, ILockBytes::UnlockRegion, UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage],ILockBytes interface, _stg_ilockbytes_unlockregion, objidl/ILockBytes::UnlockRegion, stg.ilockbytes_unlockregion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ILockBytes::UnlockRegion

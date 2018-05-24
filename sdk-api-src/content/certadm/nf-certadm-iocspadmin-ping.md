@@ -7,7 +7,7 @@ old-location: security\iocspadmin_ping.htm
 old-project: SecCrypto
 ms.assetid: 55d224c7-f309-471a-b2e5-38b8e2b8e00c
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: IOCSPAdmin interface [Security],Ping method, IOCSPAdmin.Ping, IOCSPAdmin::Ping, Ping, Ping method [Security], Ping method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::Ping, security.iocspadmin_ping
 ms.prod: windows-hardware
 ms.technology: windows-devices

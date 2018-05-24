@@ -7,7 +7,7 @@ old-location: shell\IShellImageDataAbort.htm
 old-project: shell
 ms.assetid: 98a79c41-a384-4486-af51-a33cd5f0750e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IShellImageDataAbort, IShellImageDataAbort interface [Windows Shell], IShellImageDataAbort interface [Windows Shell],described, _shell_IShellImageDataAbort, shell.IShellImageDataAbort, shimgdata/IShellImageDataAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices

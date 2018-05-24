@@ -7,7 +7,7 @@ old-location: dlgbox\dlgtemplate.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxstructures\dlgtemplate.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: "*LPDLGTEMPLATEA, *LPDLGTEMPLATEW, DLGTEMPLATE, DLGTEMPLATE structure [Dialog Boxes], LPDLGTEMPLATE, LPDLGTEMPLATE structure pointer [Dialog Boxes], _win32_DLGTEMPLATE_str, _win32_dlgtemplate_str_cpp, dlgbox.dlgtemplate, winui._win32_dlgtemplate_str, winuser/DLGTEMPLATE, winuser/LPDLGTEMPLATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_pssetshader.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_pssetshader.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],PSSetShader method, ID3D10Device.PSSetShader, ID3D10Device::PSSetShader, PSSetShader, PSSetShader method [Direct3D 10], PSSetShader method [Direct3D 10],ID3D10Device interface, b8f271c1-e769-e3d0-3526-6f08dae50a2a, d3d10/ID3D10Device::PSSetShader, direct3d10.id3d10device_pssetshader
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_RegisterPropertySchema.htm
 old-project: properties
 ms.assetid: 752cc873-3fa8-4e05-97e7-41e90f059e4f
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: IPropertySystem interface [Windows Properties],RegisterPropertySchema method, IPropertySystem.RegisterPropertySchema, IPropertySystem::RegisterPropertySchema, RegisterPropertySchema, RegisterPropertySchema method [Windows Properties], RegisterPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_RegisterPropertySchema, propsys/IPropertySystem::RegisterPropertySchema, shell.IPropertySystem_RegisterPropertySchema, shell_IPropertySystem_RegisterPropertySchema
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertySystem::RegisterPropertySchema

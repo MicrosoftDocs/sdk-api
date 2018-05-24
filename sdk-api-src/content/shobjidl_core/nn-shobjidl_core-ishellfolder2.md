@@ -7,7 +7,7 @@ old-location: shell\IShellFolder2.htm
 old-project: shell
 ms.assetid: 9b008034-3576-429e-b67c-e2222592ca46
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IShellFolder2, IShellFolder2 interface [Windows Shell], IShellFolder2 interface [Windows Shell],described, _win32_IShellFolder2, shell.IShellFolder2, shobjidl_core/IShellFolder2
 ms.prod: windows-hardware
 ms.technology: windows-devices

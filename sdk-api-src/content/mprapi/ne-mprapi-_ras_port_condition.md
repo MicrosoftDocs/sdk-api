@@ -7,7 +7,7 @@ old-location: rras\ras_port_condition.htm
 old-project: RRAS
 ms.assetid: 86bcca08-97c5-404c-b5d9-a90d93f26e00
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RAS_PORT_AUTHENTICATED, RAS_PORT_AUTHENTICATING, RAS_PORT_CALLING_BACK, RAS_PORT_CONDITION, RAS_PORT_CONDITION enumeration [RAS], RAS_PORT_DISCONNECTED, RAS_PORT_INITIALIZING, RAS_PORT_LISTENING, RAS_PORT_NON_OPERATIONAL, _RAS_PORT_CONDITION, _mpr_ras_port_condition, mprapi/RAS_PORT_AUTHENTICATED, mprapi/RAS_PORT_AUTHENTICATING, mprapi/RAS_PORT_CALLING_BACK, mprapi/RAS_PORT_CONDITION, mprapi/RAS_PORT_DISCONNECTED, mprapi/RAS_PORT_INITIALIZING, mprapi/RAS_PORT_LISTENING, mprapi/RAS_PORT_NON_OPERATIONAL, rras.ras_port_condition
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\ienroll4_binaryblobtostring.htm
 old-project: SecCrypto
 ms.assetid: 0ce10b31-29f4-4fda-a488-7bc124e9461e
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: IEnroll4 interface [Security],binaryBlobToString method, IEnroll4.binaryBlobToString, IEnroll4::binaryBlobToString, binaryBlobToString, binaryBlobToString method [Security], binaryBlobToString method [Security],IEnroll4 interface, security.ienroll4_binaryblobtostring, xenroll/IEnroll4::binaryBlobToString
 ms.prod: windows-hardware
 ms.technology: windows-devices

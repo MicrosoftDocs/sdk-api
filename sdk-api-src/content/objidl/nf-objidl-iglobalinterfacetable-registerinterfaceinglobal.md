@@ -7,7 +7,7 @@ old-location: com\iglobalinterfacetable_registerinterfaceinglobal.htm
 old-project: com
 ms.assetid: 5282b0b8-4eab-4114-8061-6d74db3756b7
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IGlobalInterfaceTable interface [COM],RegisterInterfaceInGlobal method, IGlobalInterfaceTable.RegisterInterfaceInGlobal, IGlobalInterfaceTable::RegisterInterfaceInGlobal, RegisterInterfaceInGlobal, RegisterInterfaceInGlobal method [COM], RegisterInterfaceInGlobal method [COM],IGlobalInterfaceTable interface, _com_iglobalinterfacetable_registerinterfaceinglobal, com.iglobalinterfacetable_registerinterfaceinglobal, objidlbase/IGlobalInterfaceTable::RegisterInterfaceInGlobal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IGlobalInterfaceTable::RegisterInterfaceInGlobal

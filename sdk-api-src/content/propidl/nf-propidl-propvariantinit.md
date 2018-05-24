@@ -7,7 +7,7 @@ old-location: stg\propvariantinit.htm
 old-project: Stg
 ms.assetid: 8c1bf6ac-2b15-4a05-8cb9-a07d1437017c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: PropVariantInit, PropVariantInit function [Structured Storage], _stg_propvariantinit, propidl/PropVariantInit, stg.propvariantinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PropVariantInit macro

@@ -7,7 +7,7 @@ old-location: security\lsacreatetrusteddomainex.htm
 old-project: SecMgmt
 ms.assetid: 2f458098-9498-4f08-bd13-ac572678d734
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: LsaCreateTrustedDomainEx, LsaCreateTrustedDomainEx function [Security], _lsa_lsacreatetrusteddomainex, ntsecapi/LsaCreateTrustedDomainEx, security.lsacreatetrusteddomainex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LsaCreateTrustedDomainEx function

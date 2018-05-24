@@ -7,7 +7,7 @@ old-location: com\iolecontrolsite_translateaccelerator.htm
 old-project: com
 ms.assetid: e4f9a6f7-bb0f-41d2-b1b8-7fda2dbee278
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleControlSite interface [COM],TranslateAccelerator method, IOleControlSite.TranslateAccelerator, IOleControlSite::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_translateaccelerator, com.iolecontrolsite_translateaccelerator, ocidl/IOleControlSite::TranslateAccelerator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleControlSite::TranslateAccelerator

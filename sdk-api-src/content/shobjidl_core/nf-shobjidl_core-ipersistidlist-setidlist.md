@@ -7,7 +7,7 @@ old-location: shell\IPersistIDList_SetIDList.htm
 old-project: shell
 ms.assetid: 0f509a36-e9be-46ab-8c01-067e44379615
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IPersistIDList interface [Windows Shell],SetIDList method, IPersistIDList.SetIDList, IPersistIDList::SetIDList, SetIDList, SetIDList method [Windows Shell], SetIDList method [Windows Shell],IPersistIDList interface, inet_IPersistIDList_SetIDList, shell.IPersistIDList_SetIDList, shobjidl_core/IPersistIDList::SetIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices

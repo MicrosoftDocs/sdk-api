@@ -7,7 +7,7 @@ old-location: base\ivdsvolumemf3_offlinevolume.htm
 old-project: VDS
 ms.assetid: d7f699c6-6f1c-445d-80b4-3576102d5b5f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsVolumeMF3 interface,OfflineVolume method, IVdsVolumeMF3.OfflineVolume, IVdsVolumeMF3::OfflineVolume, OfflineVolume, OfflineVolume method, OfflineVolume method,IVdsVolumeMF3 interface, base.ivdsvolumemf3_offlinevolume, vds/IVdsVolumeMF3::OfflineVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices

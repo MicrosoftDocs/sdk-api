@@ -7,7 +7,7 @@ old-location: shell\IRegTreeItem_GetCheckState.htm
 old-project: shell
 ms.assetid: bfeff83e-8872-4df2-a519-1335be6e443c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: FALSE, GetCheckState, GetCheckState method [Windows Shell], GetCheckState method [Windows Shell],IRegTreeItem interface, IRegTreeItem interface [Windows Shell],GetCheckState method, IRegTreeItem.GetCheckState, IRegTreeItem::GetCheckState, TRUE, _win32_IRegTreeItem_GetCheckState, shell.IRegTreeItem_GetCheckState, shobjidl_core/IRegTreeItem::GetCheckState
 ms.prod: windows-hardware
 ms.technology: windows-devices

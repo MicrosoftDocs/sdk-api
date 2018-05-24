@@ -7,7 +7,7 @@ old-location: com\oleuilinkprops_struct.htm
 old-project: com
 ms.assetid: 3f355ce8-adc3-4878-a8b4-3f7d94547ef1
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPOLEUILINKPROPSW, *POLEUILINKPROPSW, LPOLEUILINKPROPS, LPOLEUILINKPROPS structure pointer [COM], OLEUILINKPROPS, OLEUILINKPROPS structure [COM], OLEUILINKPROPSA, OLEUILINKPROPSW, POLEUILINKPROPS, POLEUILINKPROPS structure pointer [COM], _ole_OLEUILINKPROPS, com.oleuilinkprops_struct, oledlg/LPOLEUILINKPROPS, oledlg/OLEUILINKPROPS, oledlg/OLEUILINKPROPSA, oledlg/OLEUILINKPROPSW, oledlg/POLEUILINKPROPS, tagOLEUILINKPROPSW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagOLEUILINKPROPSW structure

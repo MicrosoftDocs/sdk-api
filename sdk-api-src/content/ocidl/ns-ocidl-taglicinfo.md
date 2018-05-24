@@ -7,7 +7,7 @@ old-location: com\licinfo.htm
 old-project: com
 ms.assetid: a90d82f3-8dc4-4b1d-81f7-9d3a19e74314
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPLICINFO, LICINFO, LICINFO structure [COM], LPLICINFO, LPLICINFO structure pointer [COM], _ctrl_LICINFO, com.licinfo, ocidl/LICINFO, ocidl/LPLICINFO, tagLICINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagLICINFO structure

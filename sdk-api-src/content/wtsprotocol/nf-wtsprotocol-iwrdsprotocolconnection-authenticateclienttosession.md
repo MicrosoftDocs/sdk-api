@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolconnection_authenticateclienttosession.htm
 old-project: TermServ
 ms.assetid: 314f1ae8-5b2d-4c95-bb2d-0d9288d38934
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: AuthenticateClientToSession, AuthenticateClientToSession method [Remote Desktop Services], AuthenticateClientToSession method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],AuthenticateClientToSession method, IWRdsProtocolConnection.AuthenticateClientToSession, IWRdsProtocolConnection::AuthenticateClientToSession, termserv.iwrdsprotocolconnection_authenticateclienttosession, wtsprotocol/IWRdsProtocolConnection::AuthenticateClientToSession
 ms.prod: windows-hardware
 ms.technology: windows-devices

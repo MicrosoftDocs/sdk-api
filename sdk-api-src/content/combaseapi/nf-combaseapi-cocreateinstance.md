@@ -7,7 +7,7 @@ old-location: com\cocreateinstance.htm
 old-project: com
 ms.assetid: 7295a55b-12c7-4ed0-a7a4-9ecee16afdec
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CoCreateInstance, CoCreateInstance function [COM], _com_CoCreateInstance, com.cocreateinstance, combaseapi/CoCreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

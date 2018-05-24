@@ -7,7 +7,7 @@ old-location: mf\imfaudiopolicy_getgroupingparam.htm
 old-project: medfound
 ms.assetid: 725892fd-4af6-483d-bb5c-87051fa45ec4
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 725892fd-4af6-483d-bb5c-87051fa45ec4, GetGroupingParam, GetGroupingParam method [Media Foundation], GetGroupingParam method [Media Foundation],IMFAudioPolicy interface, IMFAudioPolicy interface [Media Foundation],GetGroupingParam method, IMFAudioPolicy.GetGroupingParam, IMFAudioPolicy::GetGroupingParam, mf.imfaudiopolicy_getgroupingparam, mfidl/IMFAudioPolicy::GetGroupingParam
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

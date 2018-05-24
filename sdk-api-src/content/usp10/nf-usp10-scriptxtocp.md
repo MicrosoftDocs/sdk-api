@@ -7,7 +7,7 @@ old-location: intl\scriptxtocp.htm
 old-project: Intl
 ms.assetid: 98548d60-4cbd-4808-8027-1d8058c41d6d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: ScriptXtoCP, ScriptXtoCP function [Internationalization for Windows Applications], _win32_ScriptXtoCP, intl.scriptxtocp, usp10/ScriptXtoCP
 ms.prod: windows-hardware
 ms.technology: windows-devices

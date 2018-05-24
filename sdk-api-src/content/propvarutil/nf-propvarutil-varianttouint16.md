@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt16.htm
 old-project: properties
 ms.assetid: aa88be72-9ea5-4668-a0c5-1ca5320bda00
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: VariantToUInt16, VariantToUInt16 function [Windows Properties], _shell_VariantToUInt16, properties.VariantToUInt16, propvarutil/VariantToUInt16, shell.VariantToUInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantToUInt16 function

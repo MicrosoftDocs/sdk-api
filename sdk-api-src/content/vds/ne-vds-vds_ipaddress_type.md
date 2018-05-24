@@ -7,7 +7,7 @@ old-location: base\vds_ipaddress_type.htm
 old-project: VDS
 ms.assetid: 9121957f-1626-4d52-9749-0a769fece5fa
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_IPADDRESS_TYPE, VDS_IPADDRESS_TYPE enumeration [VDS], VDS_IPT_EMPTY, VDS_IPT_IPV4, VDS_IPT_IPV6, VDS_IPT_TEXT, base.vds_ipaddress_type, vds/VDS_IPADDRESS_TYPE, vds/VDS_IPT_EMPTY, vds/VDS_IPT_IPV4, vds/VDS_IPT_IPV6, vds/VDS_IPT_TEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices

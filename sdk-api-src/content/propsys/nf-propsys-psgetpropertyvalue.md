@@ -7,7 +7,7 @@ old-location: properties\PSGetPropertyValue.htm
 old-project: properties
 ms.assetid: 9369dc85-b006-4b30-a25e-58d53b76f334
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PSGetPropertyValue, PSGetPropertyValue function [Windows Properties], _shell_PSGetPropertyValue, properties.PSGetPropertyValue, propsys/PSGetPropertyValue, shell.PSGetPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSGetPropertyValue function

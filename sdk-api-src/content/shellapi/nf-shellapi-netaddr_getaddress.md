@@ -7,7 +7,7 @@ old-location: shell\NetAddr_GetAddress.htm
 old-project: shell
 ms.assetid: 2d0310a8-89ca-41b5-8afc-faec29bd23ba
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: NetAddr_GetAddress, NetAddr_GetAddress macro [Windows Shell], _shell_NetAddr_GetAddress, shell.NetAddr_GetAddress, shellapi/NetAddr_GetAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices

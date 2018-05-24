@@ -7,7 +7,7 @@ old-location: base\cvsswriter_onpostrestore.htm
 old-project: VSS
 ms.assetid: ad07753c-1592-4fc8-9899-a73e798c158c
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: CVssWriter interface [VSS],OnPostRestore method, CVssWriter.OnPostRestore, CVssWriter::OnPostRestore, OnPostRestore, OnPostRestore method [VSS], OnPostRestore method [VSS],CVssWriter interface, _win32_cvsswriter_onpostrestore, base.cvsswriter_onpostrestore, vswriter/CVssWriter::OnPostRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices

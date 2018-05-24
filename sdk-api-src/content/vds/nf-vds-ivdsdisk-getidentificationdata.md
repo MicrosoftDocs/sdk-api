@@ -7,7 +7,7 @@ old-location: base\ivdsdisk_getidentificationdata.htm
 old-project: VDS
 ms.assetid: 400fa102-f98a-4bc1-919c-858c135a5b93
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetIdentificationData, GetIdentificationData method [VDS], GetIdentificationData method [VDS],IVdsDisk interface, IVdsDisk interface [VDS],GetIdentificationData method, IVdsDisk.GetIdentificationData, IVdsDisk::GetIdentificationData, base.ivdsdisk_getidentificationdata, vds/IVdsDisk::GetIdentificationData
 ms.prod: windows-hardware
 ms.technology: windows-devices

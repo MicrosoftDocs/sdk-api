@@ -7,7 +7,7 @@ old-location: mf\imfprotectedenvironmentaccess_call.htm
 old-project: medfound
 ms.assetid: 805473c4-a2c9-483a-9a2c-29a9c63dd58c
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: Call, Call method [Media Foundation], Call method [Media Foundation],IMFProtectedEnvironmentAccess interface, IMFProtectedEnvironmentAccess interface [Media Foundation],Call method, IMFProtectedEnvironmentAccess.Call, IMFProtectedEnvironmentAccess::Call, mf.imfprotectedenvironmentaccess_call, mfidl/IMFProtectedEnvironmentAccess::Call
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

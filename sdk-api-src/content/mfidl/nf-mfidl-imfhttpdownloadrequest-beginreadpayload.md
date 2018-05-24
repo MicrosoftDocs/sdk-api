@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_beginreadpayload.htm
 old-project: medfound
 ms.assetid: 01B799C2-63C6-4BDC-AAE2-CFC3C426A218
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: BeginReadPayload, BeginReadPayload method [Media Foundation], BeginReadPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginReadPayload method, IMFHttpDownloadRequest.BeginReadPayload, IMFHttpDownloadRequest::BeginReadPayload, mf.imfhttpdownloadrequest_beginreadpayload, mfidl/IMFHttpDownloadRequest::BeginReadPayload
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

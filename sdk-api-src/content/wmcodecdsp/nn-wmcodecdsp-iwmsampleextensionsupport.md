@@ -7,7 +7,7 @@ old-location: mf\iwmsampleextensionsupportinterface.htm
 old-project: medfound
 ms.assetid: 3c6dd1c2-4692-4176-b164-bb90d661defc
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IWMSampleExtensionSupport, IWMSampleExtensionSupport interface [Media Foundation], IWMSampleExtensionSupport interface [Media Foundation],described, codecapi.iwmsampleextensionsupportinterface, mf.iwmsampleextensionsupport, mf.iwmsampleextensionsupportinterface, wmcodecdsp/IWMSampleExtensionSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices

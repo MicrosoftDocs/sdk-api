@@ -7,7 +7,7 @@ old-location: security\authzcachedaccesscheck.htm
 old-project: SecAuthZ
 ms.assetid: 8b3bb69f-7bf9-4e4a-b870-081dd92c7ee4
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AuthzCachedAccessCheck, AuthzCachedAccessCheck function [Security], _win32_authzcachedaccesscheck, authz/AuthzCachedAccessCheck, security.authzcachedaccesscheck
 ms.prod: windows-hardware
 ms.technology: windows-devices

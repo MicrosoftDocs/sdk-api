@@ -7,7 +7,7 @@ old-location: security\icertificateenrollmentserversetup_getproperty.htm
 old-project: SecCrypto
 ms.assetid: 4B380551-742C-4D36-80C9-C92F62F916BB
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: GetProperty, GetProperty method [Security], GetProperty method [Security],ICertificateEnrollmentServerSetup interface, ICertificateEnrollmentServerSetup interface [Security],GetProperty method, ICertificateEnrollmentServerSetup.GetProperty, ICertificateEnrollmentServerSetup::GetProperty, casetup/ICertificateEnrollmentServerSetup::GetProperty, security.icertificateenrollmentserversetup_getproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices

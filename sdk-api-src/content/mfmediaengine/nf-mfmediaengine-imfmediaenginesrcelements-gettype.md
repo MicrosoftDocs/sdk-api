@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesrcelements_gettype.htm
 old-project: medfound
 ms.assetid: 7B788160-A342-48B4-A3F9-42F3BB83A24D
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetType method, IMFMediaEngineSrcElements.GetType, IMFMediaEngineSrcElements::GetType, mf.imfmediaenginesrcelements_gettype, mfmediaengine/IMFMediaEngineSrcElements::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices

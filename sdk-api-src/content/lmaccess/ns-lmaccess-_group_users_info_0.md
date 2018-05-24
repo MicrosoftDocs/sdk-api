@@ -7,7 +7,7 @@ old-location: netmgmt\group_users_info_0_str.htm
 old-project: NetMgmt
 ms.assetid: cc0e5d27-91f1-4640-bb80-e73899fabba9
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPGROUP_USERS_INFO_0, *PGROUP_USERS_INFO_0, GROUP_USERS_INFO_0, GROUP_USERS_INFO_0 structure [Network Management], LPGROUP_USERS_INFO_0, LPGROUP_USERS_INFO_0 structure pointer [Network Management], PGROUP_USERS_INFO_0, PGROUP_USERS_INFO_0 structure pointer [Network Management], _GROUP_USERS_INFO_0, _win32_group_users_info_0_str, lmaccess/GROUP_USERS_INFO_0, lmaccess/LPGROUP_USERS_INFO_0, lmaccess/PGROUP_USERS_INFO_0, netmgmt.group_users_info_0_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadType.htm
 old-project: properties
 ms.assetid: 826038F7-FD93-474e-BCA7-910E214F3E01
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PSPropertyBag_ReadType, PSPropertyBag_ReadType function [Windows Properties], properties.PSPropertyBag_ReadType, propsys/PSPropertyBag_ReadType, shell.PSPropertyBag_ReadType, shell_PSPropertyBag_ReadType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSPropertyBag_ReadType function

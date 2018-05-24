@@ -7,7 +7,7 @@ old-location: intl\script_item.htm
 old-project: Intl
 ms.assetid: d309f3a7-fec3-4999-bbbe-bb85ceecb4c4
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: SCRIPT_ITEM, SCRIPT_ITEM structure [Internationalization for Windows Applications], _win32_SCRIPT_ITEM_str, intl.script_item, tag_SCRIPT_ITEM, usp10/SCRIPT_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\SHCreateShellPalette.htm
 old-project: shell
 ms.assetid: 49afb04a-34e3-4696-a046-bc9308ae7adf
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SHCreateShellPalette, SHCreateShellPalette function [Windows Shell], _win32_SHCreateShellPalette, shell.SHCreateShellPalette, shlwapi/SHCreateShellPalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

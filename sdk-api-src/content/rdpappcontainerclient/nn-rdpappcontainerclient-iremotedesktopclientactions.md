@@ -7,7 +7,7 @@ old-location: termserv\iremotedesktopclientactions.htm
 old-project: TermServ
 ms.assetid: 64b3683e-e577-48c1-a319-601e7944f68a
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: IRemoteDesktopClientActions, IRemoteDesktopClientActions interface [Remote Desktop Services], IRemoteDesktopClientActions interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientActions, termserv.iremotedesktopclientactions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: MsTscAx.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRemoteDesktopClientActions interface

@@ -7,7 +7,7 @@ old-location: imapi\dfilesystemimageevents.htm
 old-project: imapi
 ms.assetid: cff27ceb-d14a-48c2-941e-d27d6505e2c5
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: DFileSystemImageEvents, DFileSystemImageEvents interface [IMAPI], DFileSystemImageEvents interface [IMAPI],described, imapi.dfilesystemimageevents, imapi2fs/DFileSystemImageEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

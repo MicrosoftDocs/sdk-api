@@ -7,7 +7,7 @@ old-location: shell\SHRemoveLocalizedName.htm
 old-project: shell
 ms.assetid: ed30546f-3531-42df-9018-1a24a79a0b79
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SHRemoveLocalizedName, SHRemoveLocalizedName function [Windows Shell], _shell_SHRemoveLocalizedName, shell.SHRemoveLocalizedName, shellapi/SHRemoveLocalizedName
 ms.prod: windows-hardware
 ms.technology: windows-devices

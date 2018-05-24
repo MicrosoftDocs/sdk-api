@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_depth_stencil_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_depth_stencil_desc.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: D3D10_DEPTH_STENCIL_DESC, D3D10_DEPTH_STENCIL_DESC structure [Direct3D 10], bc44a5f2-b12b-88c0-0985-df3e7b45b998, d3d10/D3D10_DEPTH_STENCIL_DESC, direct3d10.d3d10_depth_stencil_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

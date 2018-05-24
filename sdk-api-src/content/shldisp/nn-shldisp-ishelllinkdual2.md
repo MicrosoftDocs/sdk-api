@@ -7,7 +7,7 @@ old-location: shell\IShellLinkDual2_Object.htm
 old-project: shell
 ms.assetid: 8a63552c-6bce-4583-8df8-a7f7731b35eb
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IShellLinkDual2, IShellLinkDual2 object [Windows Shell], IShellLinkDual2 object [Windows Shell],described, _win32_IShellLinkDual2_Object, shell.IShellLinkDual2_Object, shldisp/IShellLinkDual2
 ms.prod: windows-hardware
 ms.technology: windows-devices

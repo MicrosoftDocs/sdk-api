@@ -7,7 +7,7 @@ old-location: controls\endcompositionnotify.htm
 old-project: Controls
 ms.assetid: 5C137287-01B5-4E2E-A62E-F340A29CD8D7
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ECN_ENDCOMPOSITION, ECN_NEWTEXT, ENDCOMPOSITIONNOTIFY, ENDCOMPOSITIONNOTIFY structure [Windows Controls], _endcomposition, controls.endcompositionnotify, richedit/ENDCOMPOSITIONNOTIFY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _endcomposition structure

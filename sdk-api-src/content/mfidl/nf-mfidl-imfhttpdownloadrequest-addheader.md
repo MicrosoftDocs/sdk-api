@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_addheader.htm
 old-project: medfound
 ms.assetid: 37A2C9D8-EFF6-49D5-B495-EDBEEABD59CE
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: AddHeader, AddHeader method [Media Foundation], AddHeader method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],AddHeader method, IMFHttpDownloadRequest.AddHeader, IMFHttpDownloadRequest::AddHeader, mf.imfhttpdownloadrequest_addheader, mfidl/IMFHttpDownloadRequest::AddHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

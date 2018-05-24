@@ -7,7 +7,7 @@ old-location: properties\VariantToInt64Array.htm
 old-project: properties
 ms.assetid: 936e87e8-8102-4da2-b388-147fab6ec16f
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: VariantToInt64Array, VariantToInt64Array function [Windows Properties], _shell_VariantToInt64Array, properties.VariantToInt64Array, propvarutil/VariantToInt64Array, shell.VariantToInt64Array
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantToInt64Array function

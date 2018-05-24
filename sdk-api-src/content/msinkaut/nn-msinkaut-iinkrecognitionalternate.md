@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate.htm
 old-project: tablet
 ms.assetid: 219e96ee-6492-4f76-9928-f2e8dc28493d
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 219e96ee-6492-4f76-9928-f2e8dc28493d, IInkRecognitionAlternate, IInkRecognitionAlternate interface [Tablet PC], IInkRecognitionAlternate interface [Tablet PC],described, msinkaut/IInkRecognitionAlternate, tablet.iinkrecognitionalternate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognitionAlternate interface

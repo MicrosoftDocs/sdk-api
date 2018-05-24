@@ -7,7 +7,7 @@ old-location: mf\iwmcodecprivatedatasetpartialoutputtype.htm
 old-project: medfound
 ms.assetid: c906ac2d-b3e0-4ecd-8f0e-3fa1a2a0beea
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IWMCodecPrivateData interface [Media Foundation],SetPartialOutputType method, IWMCodecPrivateData.SetPartialOutputType, IWMCodecPrivateData::SetPartialOutputType, SetPartialOutputType, SetPartialOutputType method [Media Foundation], SetPartialOutputType method [Media Foundation],IWMCodecPrivateData interface, codecapi.iwmcodecprivatedatasetpartialoutputtype, mf.iwmcodecprivatedatasetpartialoutputtype, wmcodecdsp/ IWMCodecPrivateData::SetPartialOutputType
 ms.prod: windows-hardware
 ms.technology: windows-devices

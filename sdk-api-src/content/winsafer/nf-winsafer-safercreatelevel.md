@@ -7,7 +7,7 @@ old-location: security\safercreatelevel.htm
 old-project: SecMgmt
 ms.assetid: 7deb1365-5355-4983-900b-8e4fed009403
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: SAFER_LEVELID_CONSTRAINED, SAFER_LEVELID_DISALLOWED, SAFER_LEVELID_FULLYTRUSTED, SAFER_LEVELID_NORMALUSER, SAFER_LEVELID_UNTRUSTED, SAFER_LEVEL_OPEN, SAFER_SCOPEID_MACHINE, SAFER_SCOPEID_USER, SaferCreateLevel, SaferCreateLevel function [Security], _mnp_safercreatelevel, security.safercreatelevel, winsafer/SaferCreateLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

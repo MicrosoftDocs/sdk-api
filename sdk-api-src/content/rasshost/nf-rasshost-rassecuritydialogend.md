@@ -7,7 +7,7 @@ old-location: rras\rassecuritydialogend.htm
 old-project: RRAS
 ms.assetid: 52274d37-baed-4ab9-8019-123ae7c5b0fc
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RasSecurityDialogEnd, RasSecurityDialogEnd callback, RasSecurityDialogEnd callback function [RAS], _ras_rassecuritydialogend, rasshost/RasSecurityDialogEnd, rras.rassecuritydialogend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RasSecurityDialogEnd function

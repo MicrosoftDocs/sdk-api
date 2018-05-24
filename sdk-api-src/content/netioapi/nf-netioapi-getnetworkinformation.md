@@ -7,7 +7,7 @@ old-location: netvista\getnetworkinformation.htm
 old-project: netvista
 ms.assetid: 5c28b606-a8ab-48de-8cfb-97fa877c52c8
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/21/2018
 ms.keywords: GetNetworkInformation, GetNetworkInformation function [Network Drivers Starting with Windows Vista], iphelper_a4a29ea4-0581-4c98-a294-6042db2937c3.xml, netioapi/GetNetworkInformation, netvista.getnetworkinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # GetNetworkInformation function

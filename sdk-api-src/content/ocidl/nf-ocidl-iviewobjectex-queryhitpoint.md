@@ -7,7 +7,7 @@ old-location: com\iviewobjectex_queryhitpoint.htm
 old-project: com
 ms.assetid: a9ee26c4-cf5f-4ca9-b40a-0522097a2f07
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IViewObjectEx interface [COM],QueryHitPoint method, IViewObjectEx.QueryHitPoint, IViewObjectEx::QueryHitPoint, QueryHitPoint, QueryHitPoint method [COM], QueryHitPoint method [COM],IViewObjectEx interface, _ole_iviewobjectex_queryhitpoint, com.iviewobjectex_queryhitpoint, ocidl/IViewObjectEx::QueryHitPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IViewObjectEx::QueryHitPoint

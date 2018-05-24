@@ -7,7 +7,7 @@ old-location: policy\irsopinformation_getflags.htm
 old-project: Policy
 ms.assetid: 10a518a3-9097-4efd-90cc-14ea66b70fa2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: GetFlags, GetFlags method [Group Policy], GetFlags method [Group Policy],IRSOPInformation interface, IRSOPInformation interface [Group Policy],GetFlags method, IRSOPInformation.GetFlags, IRSOPInformation::GetFlags, RSOP_INFO_FLAG_LOGGING_MODE, _win32_irsopinformation_getflags, gpedit/IRSOPInformation::GetFlags, policy.irsopinformation_getflags
 ms.prod: windows-hardware
 ms.technology: windows-devices

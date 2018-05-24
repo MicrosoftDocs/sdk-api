@@ -7,7 +7,7 @@ old-location: controls\ListView_GetHoverTime.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethovertime.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ListView_GetHoverTime, ListView_GetHoverTime macro [Windows Controls], _win32_ListView_GetHoverTime, _win32_ListView_GetHoverTime_cpp, commctrl/ListView_GetHoverTime, controls.ListView_GetHoverTime, controls._win32_ListView_GetHoverTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

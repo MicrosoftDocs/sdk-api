@@ -7,7 +7,7 @@ old-location: mf\imfqualityadvise_getdropmode.htm
 old-project: medfound
 ms.assetid: bb700a3e-837f-4e88-a9b7-294c41143402
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetDropMode, GetDropMode method [Media Foundation], GetDropMode method [Media Foundation],IMFQualityAdvise interface, IMFQualityAdvise interface [Media Foundation],GetDropMode method, IMFQualityAdvise.GetDropMode, IMFQualityAdvise::GetDropMode, bb700a3e-837f-4e88-a9b7-294c41143402, mf.imfqualityadvise_getdropmode, mfidl/IMFQualityAdvise::GetDropMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

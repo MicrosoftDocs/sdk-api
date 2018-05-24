@@ -7,7 +7,7 @@ old-location: wininet\autoproxyhelpervtbl.htm
 old-project: WinInet
 ms.assetid: df482b8d-38e1-4d0d-a12c-8ba0f2e6423a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: AutoProxyHelperVtbl, AutoProxyHelperVtbl structure [WinINet], wininet.autoproxyhelpervtbl, wininet/AutoProxyHelperVtbl
 ms.prod: windows-hardware
 ms.technology: windows-devices

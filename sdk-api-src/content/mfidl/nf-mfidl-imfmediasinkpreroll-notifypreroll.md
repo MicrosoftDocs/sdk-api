@@ -7,7 +7,7 @@ old-location: mf\imfmediasinkpreroll_notifypreroll.htm
 old-project: medfound
 ms.assetid: d0694ad9-a18a-4fea-a9ff-b416bd4827ba
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFMediaSinkPreroll interface [Media Foundation],NotifyPreroll method, IMFMediaSinkPreroll.NotifyPreroll, IMFMediaSinkPreroll::NotifyPreroll, NotifyPreroll, NotifyPreroll method [Media Foundation], NotifyPreroll method [Media Foundation],IMFMediaSinkPreroll interface, d0694ad9-a18a-4fea-a9ff-b416bd4827ba, mf.imfmediasinkpreroll_notifypreroll, mfidl/IMFMediaSinkPreroll::NotifyPreroll
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

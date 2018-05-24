@@ -7,7 +7,7 @@ old-location: imapi\ienumprogressitems_skip.htm
 old-project: imapi
 ms.assetid: 789b2003-1538-4617-a44b-38b80320e21c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IEnumProgressItems interface [IMAPI],Skip method, IEnumProgressItems.Skip, IEnumProgressItems::Skip, Skip, Skip method [IMAPI], Skip method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_skip, imapi2fs/IEnumProgressItems::Skip
 ms.prod: windows-hardware
 ms.technology: windows-devices

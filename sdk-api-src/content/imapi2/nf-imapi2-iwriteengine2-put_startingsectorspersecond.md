@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2_put_startingsectorspersecond.htm
 old-project: imapi
 ms.assetid: 80d6efdd-c3ce-4c6b-9bc2-7ad34c1dfb5e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_StartingSectorsPerSecond method, IWriteEngine2.put_StartingSectorsPerSecond, IWriteEngine2::put_StartingSectorsPerSecond, imapi.iwriteengine2_put_startingsectorspersecond, imapi2/IWriteEngine2::put_StartingSectorsPerSecond, put_StartingSectorsPerSecond, put_StartingSectorsPerSecond method [IMAPI], put_StartingSectorsPerSecond method [IMAPI],IWriteEngine2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

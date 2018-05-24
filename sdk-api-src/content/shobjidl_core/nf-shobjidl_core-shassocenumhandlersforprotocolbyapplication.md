@@ -7,7 +7,7 @@ old-location: shell\SHAssocEnumHandlersForProtocolByApplication.htm
 old-project: shell
 ms.assetid: 8bc3b9ce-5909-46a0-b5f1-35ab808aaa55
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SHAssocEnumHandlersForProtocolByApplication, SHAssocEnumHandlersForProtocolByApplication function [Windows Shell], _shell_SHAssocEnumHandlersForProtocolByApplication, shell.SHAssocEnumHandlersForProtocolByApplication, shobjidl_core/SHAssocEnumHandlersForProtocolByApplication
 ms.prod: windows-hardware
 ms.technology: windows-devices

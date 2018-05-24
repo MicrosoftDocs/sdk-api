@@ -7,7 +7,7 @@ old-location: stg\ifilllockbytes_terminate.htm
 old-project: Stg
 ms.assetid: 21ea78c7-51f1-4418-915c-79db47c25715
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IFillLockBytes interface [Structured Storage],Terminate method, IFillLockBytes.Terminate, IFillLockBytes::Terminate, Terminate, Terminate method [Structured Storage], Terminate method [Structured Storage],IFillLockBytes interface, _stg_ifilllockbytes_terminate, objidl/IFillLockBytes::Terminate, stg.ifilllockbytes_terminate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFillLockBytes::Terminate

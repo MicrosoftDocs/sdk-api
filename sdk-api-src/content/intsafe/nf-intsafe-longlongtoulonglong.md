@@ -7,7 +7,7 @@ old-location: shell\LongLongToULongLong.htm
 old-project: shell
 ms.assetid: 994f0b9f-77a6-41ef-9022-a26ef5660204
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: Int64ToULongLong, IntPtrToUIntPtr, IntPtrToULongPtr, LongLongToULongLong, LongLongToULongLong function [Windows Shell], intsafe/LongLongToULongLong, shell.LongLongToULongLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

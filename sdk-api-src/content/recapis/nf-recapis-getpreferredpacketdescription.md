@@ -7,7 +7,7 @@ old-location: tablet\getpreferredpacketdescription.htm
 old-project: tablet
 ms.assetid: 6600b345-db7a-49ca-a54a-7d212952cb8f
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 6600b345-db7a-49ca-a54a-7d212952cb8f, GetPreferredPacketDescription, GetPreferredPacketDescription function [Tablet PC], recapis/GetPreferredPacketDescription, tablet.getpreferredpacketdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # GetPreferredPacketDescription function

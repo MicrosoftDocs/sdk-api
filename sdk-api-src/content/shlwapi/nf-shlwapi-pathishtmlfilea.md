@@ -7,7 +7,7 @@ old-location: shell\PathIsHTMLFile.htm
 old-project: shell
 ms.assetid: f24f82c8-ce32-4fbd-be49-06817cc57e5b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: PathIsHTMLFile, PathIsHTMLFile function [Windows Shell], PathIsHTMLFileA, PathIsHTMLFileW, _win32_PathIsHTMLFile, shell.PathIsHTMLFile, shlwapi/PathIsHTMLFile, shlwapi/PathIsHTMLFileA, shlwapi/PathIsHTMLFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

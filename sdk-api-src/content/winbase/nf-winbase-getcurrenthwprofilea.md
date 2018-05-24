@@ -7,7 +7,7 @@ old-location: base\getcurrenthwprofile.htm
 old-project: SysInfo
 ms.assetid: 152067bb-3896-43ef-a882-12a159f92cc7
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: GetCurrentHwProfile, GetCurrentHwProfile function, GetCurrentHwProfileA, GetCurrentHwProfileW, _win32_getcurrenthwprofile, base.getcurrenthwprofile, winbase/GetCurrentHwProfile, winbase/GetCurrentHwProfileA, winbase/GetCurrentHwProfileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

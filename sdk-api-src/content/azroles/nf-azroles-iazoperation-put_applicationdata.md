@@ -7,7 +7,7 @@ old-location: security\iazoperation_applicationdata.htm
 old-project: SecAuthZ
 ms.assetid: d4d22aae-6ca3-4a97-aa44-fa07674dc556
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzOperation object, ApplicationData property [Security],IAzOperation interface, AzOperation object [Security],ApplicationData property, IAzOperation interface [Security],ApplicationData property, IAzOperation.ApplicationData, IAzOperation.put_ApplicationData, IAzOperation::ApplicationData, IAzOperation::get_ApplicationData, IAzOperation::put_ApplicationData, azroles/IAzOperation::ApplicationData, azroles/IAzOperation::get_ApplicationData, azroles/IAzOperation::put_ApplicationData, put_ApplicationData, security.iazoperation_applicationdata
 ms.prod: windows-hardware
 ms.technology: windows-devices

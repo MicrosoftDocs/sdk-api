@@ -7,7 +7,7 @@ old-location: security\cmsg_recipient_encode_info.htm
 old-project: SecCrypto
 ms.assetid: eb85f3e4-a5f8-45e7-9bbf-9c649db1e141
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: "*PCMSG_RECIPIENT_ENCODE_INFO, CMSG_KEY_AGREE_RECIPIENT, CMSG_KEY_TRANS_RECIPIENT, CMSG_MAIL_LIST_RECIPIENT, CMSG_RECIPIENT_ENCODE_INFO, CMSG_RECIPIENT_ENCODE_INFO structure [Security], PCMSG_RECIPIENT_ENCODE_INFO, PCMSG_RECIPIENT_ENCODE_INFO structure [Security], _CMSG_RECIPIENT_ENCODE_INFO, _crypto2_cmsg_recipient_encode_info, security.cmsg_recipient_encode_info, wincrypt/CMSG_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_RECIPIENT_ENCODE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

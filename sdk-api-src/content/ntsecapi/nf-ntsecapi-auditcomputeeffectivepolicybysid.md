@@ -7,7 +7,7 @@ old-location: security\auditcomputeeffectivepolicybysid_func.htm
 old-project: SecAuthZ
 ms.assetid: cac928e5-8d8f-4b2f-9c1b-c00dc891e3d1
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AuditComputeEffectivePolicyBySid, AuditComputeEffectivePolicyBySid function [Security], ntsecapi/AuditComputeEffectivePolicyBySid, security.auditcomputeeffectivepolicybysid_func
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # AuditComputeEffectivePolicyBySid function

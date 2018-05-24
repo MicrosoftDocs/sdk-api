@@ -7,7 +7,7 @@ old-location: mf\imfsamplegrabbersinkcallback_onshutdown.htm
 old-project: medfound
 ms.assetid: c6ab8ce3-fabb-4321-b90b-d9cdf03e7608
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFSampleGrabberSinkCallback interface [Media Foundation],OnShutdown method, IMFSampleGrabberSinkCallback.OnShutdown, IMFSampleGrabberSinkCallback::OnShutdown, OnShutdown, OnShutdown method [Media Foundation], OnShutdown method [Media Foundation],IMFSampleGrabberSinkCallback interface, c6ab8ce3-fabb-4321-b90b-d9cdf03e7608, mf.imfsamplegrabbersinkcallback_onshutdown, mfidl/IMFSampleGrabberSinkCallback::OnShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

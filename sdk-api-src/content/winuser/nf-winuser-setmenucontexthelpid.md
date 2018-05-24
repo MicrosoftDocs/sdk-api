@@ -7,7 +7,7 @@ old-location: shell\SetMenuContextHelpId.htm
 old-project: shell
 ms.assetid: 55d944db-d889-468a-991a-b9779c90b44f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SetMenuContextHelpId, SetMenuContextHelpId function [Windows Shell], _win32_SetMenuContextHelpId, shell.SetMenuContextHelpId, winuser/SetMenuContextHelpId
 ms.prod: windows-hardware
 ms.technology: windows-devices

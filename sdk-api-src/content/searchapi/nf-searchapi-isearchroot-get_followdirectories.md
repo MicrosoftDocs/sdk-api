@@ -7,7 +7,7 @@ old-location: search\_search_ISearchRoot_get_FollowDirectories.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_followdirectories.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: ISearchRoot interface [search],get_FollowDirectories method, ISearchRoot.get_FollowDirectories, ISearchRoot::get_FollowDirectories, _search_ISearchRoot_get_FollowDirectories, get_FollowDirectories, get_FollowDirectories method [search], get_FollowDirectories method [search],ISearchRoot interface, search._search_ISearchRoot_get_FollowDirectories, searchapi/ISearchRoot::get_FollowDirectories
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISearchRoot::get_FollowDirectories

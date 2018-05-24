@@ -7,7 +7,7 @@ old-location: netmgmt\server_transport_info_2_str.htm
 old-project: NetMgmt
 ms.assetid: b422eb71-1f93-432d-8283-81432edfe568
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPSERVER_TRANSPORT_INFO_2, *PSERVER_TRANSPORT_INFO_2, LPSERVER_TRANSPORT_INFO_2, LPSERVER_TRANSPORT_INFO_2 structure pointer [Network Management], PSERVER_TRANSPORT_INFO_2, PSERVER_TRANSPORT_INFO_2 structure pointer [Network Management], SERVER_TRANSPORT_INFO_2, SERVER_TRANSPORT_INFO_2 structure [Network Management], SVTI2_REMAP_PIPE_NAMES, SVTI2_SCOPED_NAME, _SERVER_TRANSPORT_INFO_2, _win32_server_transport_info_2_str, lmserver/LPSERVER_TRANSPORT_INFO_2, lmserver/PSERVER_TRANSPORT_INFO_2, lmserver/SERVER_TRANSPORT_INFO_2, netmgmt.server_transport_info_2_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivdsdiskpartitionmf_querypartitionfilesystemformatsupport.htm
 old-project: VDS
 ms.assetid: 7ee61c81-28d2-43d8-8444-a62dc025aed0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsDiskPartitionMF interface,QueryPartitionFileSystemFormatSupport method, IVdsDiskPartitionMF.QueryPartitionFileSystemFormatSupport, IVdsDiskPartitionMF::QueryPartitionFileSystemFormatSupport, QueryPartitionFileSystemFormatSupport, QueryPartitionFileSystemFormatSupport method, QueryPartitionFileSystemFormatSupport method,IVdsDiskPartitionMF interface, base.ivdsdiskpartitionmf_querypartitionfilesystemformatsupport, vds/IVdsDiskPartitionMF::QueryPartitionFileSystemFormatSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices

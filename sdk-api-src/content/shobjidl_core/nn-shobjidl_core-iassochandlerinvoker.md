@@ -7,7 +7,7 @@ old-location: shell\IAssocHandlerInvoker.htm
 old-project: shell
 ms.assetid: b602280e-4237-4539-9a10-cec21c65e90d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IAssocHandlerInvoker, IAssocHandlerInvoker interface [Windows Shell], IAssocHandlerInvoker interface [Windows Shell],described, _shell_IAssocHandlerInvoker, shell.IAssocHandlerInvoker, shobjidl_core/IAssocHandlerInvoker
 ms.prod: windows-hardware
 ms.technology: windows-devices

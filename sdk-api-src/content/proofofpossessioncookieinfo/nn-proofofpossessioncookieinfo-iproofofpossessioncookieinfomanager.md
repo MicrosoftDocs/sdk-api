@@ -7,7 +7,7 @@ old-location: wininet\iproofofpossessioncookieinfomanager.htm
 old-project: WinInet
 ms.assetid: b8b89e48-e47d-4089-a8b6-04d53227767a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: IProofOfPossessionCookieInfoManager, IProofOfPossessionCookieInfoManager interface [WinINet], IProofOfPossessionCookieInfoManager interface [WinINet],described, proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager, wininet.iproofofpossessioncookieinfomanager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: MicrosoftAccountTokenProvider.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IProofOfPossessionCookieInfoManager interface

@@ -7,7 +7,7 @@ old-location: security\cert_name_value.htm
 old-project: SecCrypto
 ms.assetid: 9f4ba546-7881-4827-b8f5-c3dd8c54ea8b
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: "*PCERT_NAME_VALUE, CERT_NAME_VALUE, CERT_NAME_VALUE structure [Security], PCERT_NAME_VALUE, PCERT_NAME_VALUE structure pointer [Security], _CERT_NAME_VALUE, _crypto2_cert_name_value, security.cert_name_value, wincrypt/CERT_NAME_VALUE, wincrypt/PCERT_NAME_VALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

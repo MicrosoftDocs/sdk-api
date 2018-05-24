@@ -7,7 +7,7 @@ old-location: multimedia\avifileexit.htm
 old-project: Multimedia
 ms.assetid: 2daa509a-9e95-4f49-8195-97d3e7cd17b4
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: AVIFileExit, AVIFileExit function [Windows Multimedia], _win32_AVIFileExit, multimedia.avifileexit, vfw/AVIFileExit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList.htm
 old-project: shell
 ms.assetid: c63f5fe8-4a8f-4ca8-bd6a-7733110bbb38
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ITaskbarList, ITaskbarList interface [Windows Shell], ITaskbarList interface [Windows Shell],described, _win32_ITaskbarList, shell.ITaskbarList, shobjidl_core/ITaskbarList
 ms.prod: windows-hardware
 ms.technology: windows-devices

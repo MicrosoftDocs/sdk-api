@@ -7,7 +7,7 @@ old-location: security\lookupaccountname.htm
 old-project: SecAuthZ
 ms.assetid: 72855539-469a-4289-99cc-eae2ed89901f
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: LookupAccountName, LookupAccountName function [Security], LookupAccountNameA, LookupAccountNameW, _win32_lookupaccountname, security.lookupaccountname, winbase/LookupAccountName, winbase/LookupAccountNameA, winbase/LookupAccountNameW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ILIsEmpty.htm
 old-project: shell
 ms.assetid: bb727aad-9c4e-44dc-9c0c-4cbcbf3f9a78
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ILIsEmpty, ILIsEmpty function [Windows Shell], _shell_ILIsEmpty, shell.ILIsEmpty, shlobj_core/ILIsEmpty
 ms.prod: windows-hardware
 ms.technology: windows-devices

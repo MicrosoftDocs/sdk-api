@@ -7,7 +7,7 @@ old-location: stg\stgcreatedocfile.htm
 old-project: Stg
 ms.assetid: 3292484b-8eff-438d-b989-b58ae323872b
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: StgCreateDocfile, StgCreateDocfile function [Structured Storage], _stg_stgcreatedocfile, coml2api/StgCreateDocfile, stg.stgcreatedocfile
 ms.prod: windows-hardware
 ms.technology: windows-devices

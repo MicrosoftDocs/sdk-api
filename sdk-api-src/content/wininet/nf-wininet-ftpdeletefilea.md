@@ -7,7 +7,7 @@ old-location: wininet\ftpdeletefile.htm
 old-project: WinInet
 ms.assetid: 16723c97-fd6f-40c2-844d-fc6d2dcc1a32
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: FtpDeleteFile, FtpDeleteFile function [WinINet], FtpDeleteFileA, FtpDeleteFileW, _inet_ftpdeletefile_function, wininet.ftpdeletefile, wininet/FtpDeleteFile, wininet/FtpDeleteFileA, wininet/FtpDeleteFileW
 ms.prod: windows-hardware
 ms.technology: windows-devices

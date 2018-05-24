@@ -7,7 +7,7 @@ old-location: controls\ListBox_GetCurSel.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getcursel.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ListBox_GetCurSel, ListBox_GetCurSel macro [Windows Controls], _win32_ListBox_GetCurSel, _win32_ListBox_GetCurSel_cpp, controls.ListBox_GetCurSel, controls._win32_ListBox_GetCurSel, windowsx/ListBox_GetCurSel
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\vds_iscsi_initiator_portal_prop.htm
 old-project: VDS
 ms.assetid: 58fffdb4-71c4-4f84-ad0e-7efe5bdb78a7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_ISCSI_INITIATOR_PORTAL_PROP, VDS_ISCSI_INITIATOR_PORTAL_PROP structure [VDS], _VDS_ISCSI_INITIATOR_PORTAL_PROP, base.vds_iscsi_initiator_portal_prop, vds/VDS_ISCSI_INITIATOR_PORTAL_PROP
 ms.prod: windows-hardware
 ms.technology: windows-devices

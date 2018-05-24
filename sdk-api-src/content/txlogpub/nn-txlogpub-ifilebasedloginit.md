@@ -7,7 +7,7 @@ old-location: com\ifilebasedloginit.htm
 old-project: com
 ms.assetid: c499f32b-3897-4c61-b9c1-d660648aab76
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IFileBasedLogInit, IFileBasedLogInit interface [COM], IFileBasedLogInit interface [COM],described, _com_ifilebasedloginit, com.ifilebasedloginit, txlogpub/IFileBasedLogInit
 ms.prod: windows-hardware
 ms.technology: windows-devices

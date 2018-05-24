@@ -7,7 +7,7 @@ old-location: security\accesscheckandauditalarm.htm
 old-project: SecAuthZ
 ms.assetid: c2d144f4-9eeb-4723-9d28-97cfd1a07274
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AccessCheckAndAuditAlarm, AccessCheckAndAuditAlarm function [Security], AccessCheckAndAuditAlarmA, AccessCheckAndAuditAlarmW, _win32_accesscheckandauditalarm, security.accesscheckandauditalarm, winbase/AccessCheckAndAuditAlarm, winbase/AccessCheckAndAuditAlarmA, winbase/AccessCheckAndAuditAlarmW
 ms.prod: windows-hardware
 ms.technology: windows-devices

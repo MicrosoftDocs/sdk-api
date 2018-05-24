@@ -7,7 +7,7 @@ old-location: shell\IShellIconOverlayIdentifier_GetPriority.htm
 old-project: shell
 ms.assetid: c191bcf7-8b49-4276-9e30-2a8dcaf1fc46
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetPriority, GetPriority method [Windows Shell], GetPriority method [Windows Shell],IShellIconOverlayIdentifier interface, IShellIconOverlayIdentifier interface [Windows Shell],GetPriority method, IShellIconOverlayIdentifier.GetPriority, IShellIconOverlayIdentifier::GetPriority, _win32_IShellIconOverlayIdentifier_GetPriority, shell.IShellIconOverlayIdentifier_GetPriority, shobjidl_core/IShellIconOverlayIdentifier::GetPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

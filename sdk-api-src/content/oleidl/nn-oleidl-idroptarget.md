@@ -7,7 +7,7 @@ old-location: com\idroptarget.htm
 old-project: com
 ms.assetid: 13fbe834-1ef8-4944-b2e4-9f5c413c65c8
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IDropTarget, IDropTarget interface [COM], IDropTarget interface [COM],described, _ole_idroptarget, com.idroptarget, oleidl/IDropTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Adhocreportingexcelclient.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDropTarget interface

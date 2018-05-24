@@ -7,7 +7,7 @@ old-location: controls\Pager_RecalcSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_recalcsize.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: Pager_RecalcSize, Pager_RecalcSize macro [Windows Controls], _win32_Pager_RecalcSize, _win32_Pager_RecalcSize_cpp, commctrl/Pager_RecalcSize, controls.Pager_RecalcSize, controls._win32_Pager_RecalcSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

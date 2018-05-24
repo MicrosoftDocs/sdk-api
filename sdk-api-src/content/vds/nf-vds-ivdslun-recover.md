@@ -7,7 +7,7 @@ old-location: base\ivdslun_recover.htm
 old-project: VDS
 ms.assetid: 406da360-9aa8-42df-8918-da72b22ce3b5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsLun interface [VDS],Recover method, IVdsLun.Recover, IVdsLun::Recover, Recover, Recover method [VDS], Recover method [VDS],IVdsLun interface, base.ivdslun_recover, vds/IVdsLun::Recover, vdshwprv/IVdsLun::Recover
 ms.prod: windows-hardware
 ms.technology: windows-devices

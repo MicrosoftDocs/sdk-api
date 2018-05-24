@@ -7,7 +7,7 @@ old-location: com\ipersiststorage_savecompleted.htm
 old-project: com
 ms.assetid: 18c223e7-38ce-4f20-818b-84bd4c7e0dfd
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IPersistStorage interface [COM],SaveCompleted method, IPersistStorage.SaveCompleted, IPersistStorage::SaveCompleted, SaveCompleted, SaveCompleted method [COM], SaveCompleted method [COM],IPersistStorage interface, _com_ipersiststorage_savecompleted, com.ipersiststorage_savecompleted, objidl/IPersistStorage::SaveCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPersistStorage::SaveCompleted

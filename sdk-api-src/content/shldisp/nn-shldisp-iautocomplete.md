@@ -7,7 +7,7 @@ old-location: shell\IAutoComplete.htm
 old-project: shell
 ms.assetid: bed6eb41-3086-4af7-8c75-651da9dba3b2
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IAutoComplete, IAutoComplete interface [Windows Shell], IAutoComplete interface [Windows Shell],described, _win32_IAutoComplete, shell.IAutoComplete, shldisp/IAutoComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices

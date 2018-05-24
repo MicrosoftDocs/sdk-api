@@ -7,7 +7,7 @@ old-location: controls\ListView_SetSelectedColumn.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setselectedcolumn.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ListView_SetSelectedColumn, ListView_SetSelectedColumn macro [Windows Controls], _win32_ListView_SetSelectedColumn, _win32_ListView_SetSelectedColumn_cpp, commctrl/ListView_SetSelectedColumn, controls.ListView_SetSelectedColumn, controls._win32_ListView_SetSelectedColumn
 ms.prod: windows-hardware
 ms.technology: windows-devices

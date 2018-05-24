@@ -7,7 +7,7 @@ old-location: shell\ITransferAdviseSink_UpdateTransferState.htm
 old-project: shell
 ms.assetid: 37e830b0-a426-4a66-83c3-108f315f50ac
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],UpdateTransferState method, ITransferAdviseSink.UpdateTransferState, ITransferAdviseSink::UpdateTransferState, TS_INDETERMINATE, TS_NONE, TS_PERFORMING, TS_PREPARING, UpdateTransferState, UpdateTransferState method [Windows Shell], UpdateTransferState method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_UpdateTransferState, shell.ITransferAdviseSink_UpdateTransferState, shobjidl_core/ITransferAdviseSink::UpdateTransferState
 ms.prod: windows-hardware
 ms.technology: windows-devices

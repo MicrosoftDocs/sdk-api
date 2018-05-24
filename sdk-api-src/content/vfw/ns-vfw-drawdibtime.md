@@ -7,7 +7,7 @@ old-location: multimedia\drawdibtime_struct.htm
 old-project: Multimedia
 ms.assetid: ec8a4e04-9e38-4db3-bb2b-838c63284f3a
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPDRAWDIBTIME, DRAWDIBTIME, DRAWDIBTIME structure [Windows Multimedia], LPDRAWDIBTIME, LPDRAWDIBTIME structure pointer [Windows Multimedia], multimedia.drawdibtime_COLLISION618, multimedia.drawdibtime_struct, vfw/DRAWDIBTIME, vfw/LPDRAWDIBTIME"
 ms.prod: windows-hardware
 ms.technology: windows-devices

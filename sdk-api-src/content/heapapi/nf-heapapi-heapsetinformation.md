@@ -7,7 +7,7 @@ old-location: base\heapsetinformation.htm
 old-project: Memory
 ms.assetid: 33c262ca-5093-4f44-a8c6-09045bc90f60
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: HeapCompatibilityInformation, HeapEnableTerminationOnCorruption, HeapOptimizeResources, HeapSetInformation, HeapSetInformation function, _win32_heapsetinformation, base.heapsetinformation, heapapi/HeapSetInformation, winbase/HeapSetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

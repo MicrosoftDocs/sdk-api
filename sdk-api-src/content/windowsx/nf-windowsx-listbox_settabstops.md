@@ -7,7 +7,7 @@ old-location: controls\ListBox_SetTabStops.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_settabstops.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ListBox_SetTabStops, ListBox_SetTabStops macro [Windows Controls], _win32_ListBox_SetTabStops, _win32_ListBox_SetTabStops_cpp, controls.ListBox_SetTabStops, controls._win32_ListBox_SetTabStops, windowsx/ListBox_SetTabStops
 ms.prod: windows-hardware
 ms.technology: windows-devices

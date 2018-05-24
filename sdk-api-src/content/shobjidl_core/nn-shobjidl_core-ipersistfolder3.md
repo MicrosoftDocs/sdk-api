@@ -7,7 +7,7 @@ old-location: shell\IPersistFolder3.htm
 old-project: shell
 ms.assetid: 77a10997-1512-41ee-a84c-f3fa2e500d20
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IPersistFolder3, IPersistFolder3 interface [Windows Shell], IPersistFolder3 interface [Windows Shell],described, _win32_IPersistFolder3, shell.IPersistFolder3, shobjidl_core/IPersistFolder3
 ms.prod: windows-hardware
 ms.technology: windows-devices

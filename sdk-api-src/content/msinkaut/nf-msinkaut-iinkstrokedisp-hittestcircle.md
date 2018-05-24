@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_hittestcircle.htm
 old-project: tablet
 ms.assetid: b87a1bc0-b17b-419b-947e-48746f4903e8
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: HitTestCircle, HitTestCircle method [Tablet PC], HitTestCircle method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],HitTestCircle method, IInkStrokeDisp.HitTestCircle, IInkStrokeDisp::HitTestCircle, b87a1bc0-b17b-419b-947e-48746f4903e8, msinkaut/IInkStrokeDisp::HitTestCircle, tablet.iinkstrokedisp_hittestcircle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::HitTestCircle

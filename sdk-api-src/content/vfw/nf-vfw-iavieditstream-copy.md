@@ -7,7 +7,7 @@ old-location: multimedia\iavieditstream_copy.htm
 old-project: Multimedia
 ms.assetid: d2012d04-4fe5-4a49-8160-d27b7bc1bfc8
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: Copy, Copy method [Windows Multimedia], Copy method [Windows Multimedia],IAVIEditStream interface, IAVIEditStream interface [Windows Multimedia],Copy method, IAVIEditStream.Copy, IAVIEditStream::Copy, _win32_IAVIEditStream_Copy, multimedia.iavieditstream_copy, vfw/IAVIEditStream::Copy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_clearstoredmessages.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_clearstoredmessages.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: 6c564ac3-ece1-ca35-b542-9d4e5a0bc1d1, ClearStoredMessages, ClearStoredMessages method [Direct3D 10], ClearStoredMessages method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],ClearStoredMessages method, ID3D10InfoQueue.ClearStoredMessages, ID3D10InfoQueue::ClearStoredMessages, d3d10sdklayers/ID3D10InfoQueue::ClearStoredMessages, direct3d10.id3d10infoqueue_clearstoredmessages
 ms.prod: windows-hardware
 ms.technology: windows-devices

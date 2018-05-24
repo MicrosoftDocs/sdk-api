@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponentsex2_setrestorename.htm
 old-project: VSS
 ms.assetid: a8334b28-9328-49f4-bf92-f43c556781bf
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssBackupComponentsEx2 interface,SetRestoreName method, IVssBackupComponentsEx2.SetRestoreName, IVssBackupComponentsEx2::SetRestoreName, SetRestoreName, SetRestoreName method, SetRestoreName method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_setrestorename, vsbackup/IVssBackupComponentsEx2::SetRestoreName
 ms.prod: windows-hardware
 ms.technology: windows-devices

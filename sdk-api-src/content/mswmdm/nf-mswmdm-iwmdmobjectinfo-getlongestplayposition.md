@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmobjectinfo_getlongestplayposition.htm
 old-project: WMDM
 ms.assetid: 81c7c30d-f217-4ea6-b785-bcccebd38d16
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetLongestPlayPosition, GetLongestPlayPosition method [windows Media Device Manager], GetLongestPlayPosition method [windows Media Device Manager],IWMDMObjectInfo interface, IWMDMObjectInfo interface [windows Media Device Manager],GetLongestPlayPosition method, IWMDMObjectInfo.GetLongestPlayPosition, IWMDMObjectInfo::GetLongestPlayPosition, IWMDMObjectInfoGetLongestPlayPosition, mswmdm/IWMDMObjectInfo::GetLongestPlayPosition, wmdm.iwmdmobjectinfo_getlongestplayposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMObjectInfo::GetLongestPlayPosition

@@ -7,7 +7,7 @@ old-location: tablet\iinklineinfo_setcandidate.htm
 old-project: tablet
 ms.assetid: 0301706b-6d3e-4fe4-af87-764b1c959707
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 0301706b-6d3e-4fe4-af87-764b1c959707, IInkLineInfo interface [Tablet PC],SetCandidate method, IInkLineInfo.SetCandidate, IInkLineInfo::SetCandidate, SetCandidate, SetCandidate method [Tablet PC], SetCandidate method [Tablet PC],IInkLineInfo interface, msinkaut/IInkLineInfo::SetCandidate, tablet.iinklineinfo_setcandidate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkLineInfo::SetCandidate

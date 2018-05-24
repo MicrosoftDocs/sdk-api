@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmmetadata_querybyindex.htm
 old-project: WMDM
 ms.assetid: 5d27e1e9-ab91-433d-8216-ace195386d44
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IWMDMMetaData interface [windows Media Device Manager],QueryByIndex method, IWMDMMetaData.QueryByIndex, IWMDMMetaData::QueryByIndex, IWMDMMetaDataQueryByIndex, QueryByIndex, QueryByIndex method [windows Media Device Manager], QueryByIndex method [windows Media Device Manager],IWMDMMetaData interface, mswmdm/IWMDMMetaData::QueryByIndex, wmdm.iwmdmmetadata_querybyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMMetaData::QueryByIndex

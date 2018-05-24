@@ -7,7 +7,7 @@ old-location: shell\PathSearchAndQualify.htm
 old-project: shell
 ms.assetid: 90da281d-349a-460a-aa5a-14e3b4ced727
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: PathSearchAndQualify, PathSearchAndQualify function [Windows Shell], PathSearchAndQualifyA, PathSearchAndQualifyW, _win32_PathSearchAndQualify, shell.PathSearchAndQualify, shlwapi/PathSearchAndQualify, shlwapi/PathSearchAndQualifyA, shlwapi/PathSearchAndQualifyW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\VariantToBooleanArray.htm
 old-project: properties
 ms.assetid: 80a1e7d4-ec11-4b16-ba05-b97f3bbf02d0
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: VariantToBooleanArray, VariantToBooleanArray function [Windows Properties], _shell_VariantToBooleanArray, properties.VariantToBooleanArray, propvarutil/VariantToBooleanArray, shell.VariantToBooleanArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantToBooleanArray function

@@ -7,7 +7,7 @@ old-location: base\ivsscomponent.htm
 old-project: VSS
 ms.assetid: c686a424-b0b9-4efc-8dc6-b92193de2a5d
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssComponent, IVssComponent interface [VSS], IVssComponent interface [VSS],described, _win32_ivsscomponent, base.ivsscomponent, vswriter/IVssComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices

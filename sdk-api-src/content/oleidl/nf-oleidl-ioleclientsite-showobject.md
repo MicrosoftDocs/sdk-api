@@ -7,7 +7,7 @@ old-location: com\ioleclientsite_showobject.htm
 old-project: com
 ms.assetid: ba502a3d-2042-4978-a152-636a887c61fc
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleClientSite interface [COM],ShowObject method, IOleClientSite.ShowObject, IOleClientSite::ShowObject, ShowObject, ShowObject method [COM], ShowObject method [COM],IOleClientSite interface, _ole_ioleclientsite_showobject, com.ioleclientsite_showobject, oleidl/IOleClientSite::ShowObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleClientSite::ShowObject

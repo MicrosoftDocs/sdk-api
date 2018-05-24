@@ -7,7 +7,7 @@ old-location: security\iazscopes.htm
 old-project: SecAuthZ
 ms.assetid: f00953bf-b90a-4812-a87d-a66b98a2e95f
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: IAzScopes, IAzScopes interface [Security], IAzScopes interface [Security],described, azroles/IAzScopes, security.iazscopes
 ms.prod: windows-hardware
 ms.technology: windows-devices

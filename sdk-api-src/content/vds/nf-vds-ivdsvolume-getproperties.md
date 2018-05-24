@@ -7,7 +7,7 @@ old-location: base\ivdsvolume_getproperties.htm
 old-project: VDS
 ms.assetid: ba4a92c9-35f1-463a-8fa3-1a0d78720555
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],GetProperties method, IVdsVolume.GetProperties, IVdsVolume::GetProperties, base.ivdsvolume_getproperties, vds/IVdsVolume::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

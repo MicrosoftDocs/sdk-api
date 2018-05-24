@@ -7,7 +7,7 @@ old-location: intl\getsystemdefaultuilanguage.htm
 old-project: Intl
 ms.assetid: 34fc125d-0f0b-43d0-aa2b-91501bd6cd26
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: GetSystemDefaultUILanguage, GetSystemDefaultUILanguage function [Internationalization for Windows Applications], _win32_GetSystemDefaultUILanguage, intl.getsystemdefaultuilanguage, winnls/GetSystemDefaultUILanguage
 ms.prod: windows-hardware
 ms.technology: windows-devices

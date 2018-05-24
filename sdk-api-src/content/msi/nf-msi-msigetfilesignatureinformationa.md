@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: DRM_CLIENT_VERSION_INFO
+req.typenames: DRM_LICENSE_ACQ_DATA
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # MsiGetFileSignatureInformationA function

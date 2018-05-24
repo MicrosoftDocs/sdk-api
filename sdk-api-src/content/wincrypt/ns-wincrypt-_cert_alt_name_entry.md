@@ -7,7 +7,7 @@ old-location: security\cert_alt_name_entry.htm
 old-project: SecCrypto
 ms.assetid: 1353ef56-cae7-43f2-a31f-2bb3b502450e
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: "*PCERT_ALT_NAME_ENTRY, CERT_ALT_NAME_ENTRY, CERT_ALT_NAME_ENTRY structure [Security], PCERT_ALT_NAME_ENTRY, PCERT_ALT_NAME_ENTRY structure pointer [Security], _CERT_ALT_NAME_ENTRY, _crypto2_cert_alt_name_entry, security.cert_alt_name_entry, wincrypt/CERT_ALT_NAME_ENTRY, wincrypt/PCERT_ALT_NAME_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices

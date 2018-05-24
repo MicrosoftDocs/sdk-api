@@ -7,7 +7,7 @@ old-location: com\iconnectionpoint_enumconnections.htm
 old-project: com
 ms.assetid: 424aab99-990e-4b45-9b58-ac22b2cee87c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: EnumConnections, EnumConnections method [COM], EnumConnections method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],EnumConnections method, IConnectionPoint.EnumConnections, IConnectionPoint::EnumConnections, _com_iconnectionpoint_enumconnections, com.iconnectionpoint_enumconnections, ocidl/IConnectionPoint::EnumConnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IConnectionPoint::EnumConnections

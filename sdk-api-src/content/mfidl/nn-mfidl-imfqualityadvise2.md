@@ -7,7 +7,7 @@ old-location: mf\imfqualityadvise2.htm
 old-project: medfound
 ms.assetid: c6114bbc-31d8-45eb-9bf8-745b3138dd50
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFQualityAdvise2, IMFQualityAdvise2 interface [Media Foundation], IMFQualityAdvise2 interface [Media Foundation],described, mf.imfqualityadvise2, mfidl/IMFQualityAdvise2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

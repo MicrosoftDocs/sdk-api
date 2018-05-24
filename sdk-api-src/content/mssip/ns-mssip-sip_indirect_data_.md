@@ -7,7 +7,7 @@ old-location: security\sip_indirect_data.htm
 old-project: SecCrypto
 ms.assetid: d34b599b-fe49-47c4-bb52-73ee14d73253
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: "*PSIP_INDIRECT_DATA, PSIP_INDIRECT_DATA, PSIP_INDIRECT_DATA structure pointer [Security], SIP_INDIRECT_DATA, SIP_INDIRECT_DATA structure [Security], SIP_INDIRECT_DATA_, mssip/PSIP_INDIRECT_DATA, mssip/SIP_INDIRECT_DATA, security.sip_indirect_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SIP_INDIRECT_DATA_ structure

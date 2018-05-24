@@ -7,7 +7,7 @@ old-location: mf\imfschemehandler_begincreateobject.htm
 old-project: medfound
 ms.assetid: 78858e8c-0eb3-4b62-84f0-76e9dff0e3ce
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 78858e8c-0eb3-4b62-84f0-76e9dff0e3ce, BeginCreateObject, BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation],IMFSchemeHandler interface, IMFSchemeHandler interface [Media Foundation],BeginCreateObject method, IMFSchemeHandler.BeginCreateObject, IMFSchemeHandler::BeginCreateObject, mf.imfschemehandler_begincreateobject, mfidl/IMFSchemeHandler::BeginCreateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

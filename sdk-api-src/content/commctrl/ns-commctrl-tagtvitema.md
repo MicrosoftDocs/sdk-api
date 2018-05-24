@@ -7,7 +7,7 @@ old-location: controls\TVITEM.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvitem.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPTVITEMA, I_CHILDRENAUTO, I_CHILDRENCALLBACK, LPTVITEM, LPTVITEM structure pointer [Windows Controls], TVIF_CHILDREN, TVIF_DI_SETITEM, TVIF_HANDLE, TVIF_IMAGE, TVIF_PARAM, TVIF_SELECTEDIMAGE, TVIF_STATE, TVIF_TEXT, TVITEM, TVITEM structure [Windows Controls], TVITEMA, TVITEMW, _win32_TVITEM, _win32_TVITEM_cpp, commctrl/LPTVITEM, commctrl/TVITEM, commctrl/TVITEMA, commctrl/TVITEMW, controls.TVITEM, controls._win32_TVITEM, one, tagTVITEMA, zero"
 ms.prod: windows-hardware
 ms.technology: windows-devices

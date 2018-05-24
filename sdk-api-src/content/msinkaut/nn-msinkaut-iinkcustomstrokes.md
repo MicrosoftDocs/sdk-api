@@ -7,7 +7,7 @@ old-location: tablet\iinkcustomstrokes.htm
 old-project: tablet
 ms.assetid: 0b4eb5d6-ccf0-46c1-ae02-a393e67b817e
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 0b4eb5d6-ccf0-46c1-ae02-a393e67b817e, IInkCustomStrokes, IInkCustomStrokes interface [Tablet PC], IInkCustomStrokes interface [Tablet PC],described, msinkaut/IInkCustomStrokes, tablet.iinkcustomstrokes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkCustomStrokes interface

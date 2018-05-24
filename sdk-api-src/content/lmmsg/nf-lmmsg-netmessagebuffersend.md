@@ -7,7 +7,7 @@ old-location: netmgmt\netmessagebuffersend.htm
 old-project: NetMgmt
 ms.assetid: d1b9bebd-52e9-4b5f-97fb-e2a98aaff6b7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: NetMessageBufferSend, NetMessageBufferSend function [Network Management], _win32_netmessagebuffersend, lmmsg/NetMessageBufferSend, netmgmt.netmessagebuffersend
 ms.prod: windows-hardware
 ms.technology: windows-devices

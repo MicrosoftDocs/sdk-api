@@ -7,7 +7,7 @@ old-location: base\ivdsdrive_queryextents.htm
 old-project: VDS
 ms.assetid: 8ee3e085-ce69-457e-b652-bb9c45b7fdd8
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsDrive interface [VDS],QueryExtents method, IVdsDrive.QueryExtents, IVdsDrive::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsDrive interface, base.ivdsdrive_queryextents, vds/IVdsDrive::QueryExtents, vdshwprv/IVdsDrive::QueryExtents
 ms.prod: windows-hardware
 ms.technology: windows-devices

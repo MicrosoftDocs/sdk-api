@@ -7,7 +7,7 @@ old-location: shell\IDeskBar.htm
 old-project: shell
 ms.assetid: 78b9666b-f913-4745-975e-f8dd6e9f89b4
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IDeskBar, IDeskBar interface [Windows Shell], IDeskBar interface [Windows Shell],described, _win32_IDeskBar, shell.IDeskBar, shobjidl_core/IDeskBar
 ms.prod: windows-hardware
 ms.technology: windows-devices

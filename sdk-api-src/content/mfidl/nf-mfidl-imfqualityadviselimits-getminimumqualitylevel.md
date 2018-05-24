@@ -7,7 +7,7 @@ old-location: mf\imfqualityadviselimits_getminimumqualitylevel.htm
 old-project: medfound
 ms.assetid: aea08ae5-4252-4703-964b-afc6bbc01a51
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetMinimumQualityLevel, GetMinimumQualityLevel method [Media Foundation], GetMinimumQualityLevel method [Media Foundation],IMFQualityAdviseLimits interface, IMFQualityAdviseLimits interface [Media Foundation],GetMinimumQualityLevel method, IMFQualityAdviseLimits.GetMinimumQualityLevel, IMFQualityAdviseLimits::GetMinimumQualityLevel, mf.imfqualityadviselimits_getminimumqualitylevel, mfidl/IMFQualityAdviseLimits::GetMinimumQualityLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

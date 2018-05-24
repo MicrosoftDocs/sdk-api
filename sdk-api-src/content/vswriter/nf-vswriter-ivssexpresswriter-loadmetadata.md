@@ -7,7 +7,7 @@ old-location: base\ivssexpresswriter_load.htm
 old-project: VSS
 ms.assetid: 2b670278-4589-47b7-a9ad-a24187c39945
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssExpressWriter interface,LoadMetadata method, IVssExpressWriter.LoadMetadata, IVssExpressWriter::LoadMetadata, LoadMetadata, LoadMetadata method, LoadMetadata method,IVssExpressWriter interface, base.ivssexpresswriter_load, vswriter/IVssExpressWriter::LoadMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

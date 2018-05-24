@@ -7,7 +7,7 @@ old-location: base\ivdsasync_querystatus.htm
 old-project: VDS
 ms.assetid: 993228ae-4817-4d88-8544-9cd57cbe8b49
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsAsync interface [VDS],QueryStatus method, IVdsAsync.QueryStatus, IVdsAsync::QueryStatus, QueryStatus, QueryStatus method [VDS], QueryStatus method [VDS],IVdsAsync interface, base.ivdsasync_querystatus, vds/IVdsAsync::QueryStatus, vdshwprv/IVdsAsync::QueryStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

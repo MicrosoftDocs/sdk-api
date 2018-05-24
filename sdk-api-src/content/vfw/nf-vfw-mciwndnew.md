@@ -7,7 +7,7 @@ old-location: multimedia\mciwndnew.htm
 old-project: Multimedia
 ms.assetid: dddd73d5-3ce5-43df-a685-05f519b45386
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: MCIWndNew, MCIWndNew macro [Windows Multimedia], _win32_MCIWndNew, multimedia.mciwndnew, vfw/MCIWndNew
 ms.prod: windows-hardware
 ms.technology: windows-devices

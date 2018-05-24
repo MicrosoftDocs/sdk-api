@@ -7,7 +7,7 @@ old-location: security\pfxexportcertstore.htm
 old-project: SecCrypto
 ms.assetid: 003602c6-d6c9-4695-9c60-ffaf0aa02266
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: EXPORT_PRIVATE_KEYS, PFXExportCertStore, PFXExportCertStore function [Security], REPORT_NOT_ABLE_TO_EXPORT_PRIVATE_KEY, REPORT_NO_PRIVATE_KEY, _crypto2_pfxexportcertstore, security.pfxexportcertstore, wincrypt/PFXExportCertStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

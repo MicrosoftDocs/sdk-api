@@ -7,7 +7,7 @@ old-location: shell\ICreateObject.htm
 old-project: shell
 ms.assetid: 90502b4a-dc0a-4077-83d7-e9f5445ba69b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ICreateObject, ICreateObject interface [Windows Shell], ICreateObject interface [Windows Shell],described, _shell_ICreateObject, propsys/ICreateObject, shell.ICreateObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ICreateObject interface

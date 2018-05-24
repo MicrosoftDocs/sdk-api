@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_gettimeseekresult.htm
 old-project: medfound
 ms.assetid: C7647460-8BAA-4480-A296-D83DFFBC5800
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetTimeSeekResult, GetTimeSeekResult method [Media Foundation], GetTimeSeekResult method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetTimeSeekResult method, IMFHttpDownloadRequest.GetTimeSeekResult, IMFHttpDownloadRequest::GetTimeSeekResult, mf.imfhttpdownloadrequest_gettimeseekresult, mfidl/IMFHttpDownloadRequest::GetTimeSeekResult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_string.htm
 old-project: tablet
 ms.assetid: 1f603794-3b6a-4e8f-9804-fa4c85d82d1c
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 1f603794-3b6a-4e8f-9804-fa4c85d82d1c, IInkRecognitionAlternate interface [Tablet PC],String property, IInkRecognitionAlternate.String, IInkRecognitionAlternate.get_String, IInkRecognitionAlternate::String, IInkRecognitionAlternate::get_String, String property [Tablet PC], String property [Tablet PC],IInkRecognitionAlternate interface, get_String, msinkaut/IInkRecognitionAlternate::String, msinkaut/IInkRecognitionAlternate::get_String, tablet.iinkrecognitionalternate_string
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognitionAlternate::get_String

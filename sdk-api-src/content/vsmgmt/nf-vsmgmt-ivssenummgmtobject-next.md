@@ -7,7 +7,7 @@ old-location: base\ivssenummgmtobject_next.htm
 old-project: VSS
 ms.assetid: 0ddcf25d-dc3e-4522-a98e-98d867230d42
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssEnumMgmtObject interface [VSS],Next method, IVssEnumMgmtObject.Next, IVssEnumMgmtObject::Next, Next, Next method [VSS], Next method [VSS],IVssEnumMgmtObject interface, base.ivssenummgmtobject_next, vsmgmt/IVssEnumMgmtObject::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices

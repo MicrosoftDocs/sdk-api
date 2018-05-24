@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_linenumber.htm
 old-project: tablet
 ms.assetid: dd5578e7-7361-4e42-a503-2914f90a801f
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IInkRecognitionAlternate interface [Tablet PC],LineNumber property, IInkRecognitionAlternate.LineNumber, IInkRecognitionAlternate.get_LineNumber, IInkRecognitionAlternate::LineNumber, IInkRecognitionAlternate::get_LineNumber, LineNumber property [Tablet PC], LineNumber property [Tablet PC],IInkRecognitionAlternate interface, dd5578e7-7361-4e42-a503-2914f90a801f, get_LineNumber, msinkaut/IInkRecognitionAlternate::LineNumber, msinkaut/IInkRecognitionAlternate::get_LineNumber, tablet.iinkrecognitionalternate_linenumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognitionAlternate::get_LineNumber

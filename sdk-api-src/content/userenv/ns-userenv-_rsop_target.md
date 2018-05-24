@@ -7,7 +7,7 @@ old-location: policy\rsop_target_str.htm
 old-project: Policy
 ms.assetid: 65b0eb27-fc4a-44d6-843e-965a90dc51e8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: "*PRSOP_TARGET, PRSOP_TARGET, PRSOP_TARGET structure pointer [Group Policy], RSOP_TARGET, RSOP_TARGET structure [Group Policy], _RSOP_TARGET, _win32_rsop_target_str, policy.rsop_target_str, userenv/PRSOP_TARGET, userenv/RSOP_TARGET"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiinitiatorportal_getinitiatoradapter.htm
 old-project: VDS
 ms.assetid: fcdd2083-36e0-4924-9af0-87a9fe4711e0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetInitiatorAdapter, GetInitiatorAdapter method [VDS], GetInitiatorAdapter method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetInitiatorAdapter method, IVdsIscsiInitiatorPortal.GetInitiatorAdapter, IVdsIscsiInitiatorPortal::GetInitiatorAdapter, base.ivdsiscsiinitiatorportal_getinitiatoradapter, vds/IVdsIscsiInitiatorPortal::GetInitiatorAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices

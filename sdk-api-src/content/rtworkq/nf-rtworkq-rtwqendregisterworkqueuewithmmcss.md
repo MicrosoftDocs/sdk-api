@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtwqEndRegisterWorkQueueWithMMCSS function

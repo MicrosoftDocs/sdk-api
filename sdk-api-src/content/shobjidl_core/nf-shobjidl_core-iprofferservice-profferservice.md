@@ -7,7 +7,7 @@ old-location: shell\IProfferService_ProfferService.htm
 old-project: shell
 ms.assetid: ebd6003d-ac8f-4e5e-9d90-c7e5688bedaa
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IProfferService interface [Windows Shell],ProfferService method, IProfferService.ProfferService, IProfferService::ProfferService, ProfferService, ProfferService method [Windows Shell], ProfferService method [Windows Shell],IProfferService interface, inet_IProfferService_ProfferService, shell.IProfferService_ProfferService, shobjidl_core/IProfferService::ProfferService
 ms.prod: windows-hardware
 ms.technology: windows-devices

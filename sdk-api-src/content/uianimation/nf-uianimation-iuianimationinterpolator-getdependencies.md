@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator_getdependencies.htm
 old-project: UIAnimation
 ms.assetid: a897caa9-8a03-465e-8b74-b4614efce00c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetDependencies, GetDependencies method [Windows Animation], GetDependencies method [Windows Animation],IUIAnimationInterpolator interface, IUIAnimationInterpolator interface [Windows Animation],GetDependencies method, IUIAnimationInterpolator.GetDependencies, IUIAnimationInterpolator::GetDependencies, uianimation.iuianimationinterpolator_getdependencies, uianimation/IUIAnimationInterpolator::GetDependencies
 ms.prod: windows-hardware
 ms.technology: windows-devices

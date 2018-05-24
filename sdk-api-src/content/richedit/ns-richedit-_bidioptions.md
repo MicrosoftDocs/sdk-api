@@ -7,7 +7,7 @@ old-location: controls\BIDIOPTIONS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\bidioptions.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: BIDIOPTIONS, BIDIOPTIONS structure [Windows Controls], BOE_CONTEXTALIGNMENT, BOE_CONTEXTREADING, BOE_FORCERECALC, BOE_LEGACYBIDICLASS, BOE_NEUTRALOVERRIDE, BOE_PLAINTEXT, BOE_RTLDIR, BOE_UNICODEBIDI, BOM_CONTEXTALIGNMENT, BOM_CONTEXTREADING, BOM_DEFPARADIR, BOM_LEGACYBIDICLASS, BOM_NEUTRALOVERRIDE, BOM_PLAINTEXT, BOM_UNICODEBIDI, _bidioptions, _win32_BIDIOPTIONS_str, _win32_BIDIOPTIONS_str_cpp, controls.BIDIOPTIONS, controls._win32_BIDIOPTIONS_str, richedit/BIDIOPTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _bidioptions structure

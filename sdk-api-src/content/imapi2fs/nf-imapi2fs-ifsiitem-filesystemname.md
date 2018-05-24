@@ -1,14 +1,14 @@
 ---
 UID: NF:imapi2fs.IFsiItem.FileSystemName
-title: IFsiItem::FileSystemName method
+title: IFsiItem::FileSystemName
 author: windows-driver-content
 description: Retrieves the name of the item as modified to conform to the specified file system.
 old-location: imapi\ifsiitem_filesystemname.htm
 old-project: imapi
 ms.assetid: a10d9ee1-c05f-4e76-a921-af562dc68121
 ms.author: windowsdriverdev
-ms.date: 3/14/2018
-ms.keywords: FileSystemName,IFsiItem.FileSystemName, IFsiItem, IFsiItem interface [IMAPI], get_FileSystemName method, IFsiItem::FileSystemName, IFsiItem::get_FileSystemName, get_FileSystemName method [IMAPI], get_FileSystemName method [IMAPI], IFsiItem interface, imapi.ifsiitem_filesystemname, imapi2fs/IFsiItem::get_FileSystemName
+ms.date: 5/21/2018
+ms.keywords: FileSystemName, FileSystemName method [IMAPI], FileSystemName method [IMAPI],IFsiItem interface, IFsiItem interface [IMAPI],FileSystemName method, IFsiItem.FileSystemName, IFsiItem::FileSystemName, imapi.ifsiitem_filesystemname, imapi2fs/IFsiItem::FileSystemName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	imapi2fs.h
 api_name:
--	IFsiItem.get_FileSystemName
+-	IFsiItem.FileSystemName
 product: Windows
 targetos: Windows
 req.lib: 
@@ -44,7 +44,7 @@ req.irql:
 req.product: GDI+ 1.1
 ---
 
-# IFsiItem::FileSystemName method
+# IFsiItem::FileSystemName
 
 
 ## -description

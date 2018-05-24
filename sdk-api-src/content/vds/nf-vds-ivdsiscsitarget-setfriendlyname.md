@@ -7,7 +7,7 @@ old-location: base\ivdsiscsitarget_setfriendlyname.htm
 old-project: VDS
 ms.assetid: 34afd8d7-473b-49c5-8486-2749144aea5c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],SetFriendlyName method, IVdsIscsiTarget.SetFriendlyName, IVdsIscsiTarget::SetFriendlyName, SetFriendlyName, SetFriendlyName method [VDS], SetFriendlyName method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_setfriendlyname, vds/IVdsIscsiTarget::SetFriendlyName, vdshwprv/IVdsIscsiTarget::SetFriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices

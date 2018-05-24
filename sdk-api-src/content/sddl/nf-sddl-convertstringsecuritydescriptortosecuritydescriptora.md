@@ -7,7 +7,7 @@ old-location: security\convertstringsecuritydescriptortosecuritydescriptor.htm
 old-project: SecAuthZ
 ms.assetid: c5654148-fb4c-436d-9378-a1168fc82607
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: ConvertStringSecurityDescriptorToSecurityDescriptor, ConvertStringSecurityDescriptorToSecurityDescriptor function [Security], ConvertStringSecurityDescriptorToSecurityDescriptorA, ConvertStringSecurityDescriptorToSecurityDescriptorW, _win32_convertstringsecuritydescriptortosecuritydescriptor, sddl/ConvertStringSecurityDescriptorToSecurityDescriptor, sddl/ConvertStringSecurityDescriptorToSecurityDescriptorA, sddl/ConvertStringSecurityDescriptorToSecurityDescriptorW, security.convertstringsecuritydescriptortosecuritydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -47,7 +47,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ConvertStringSecurityDescriptorToSecurityDescriptorA function

@@ -7,7 +7,7 @@ old-location: imapi\idiscrecorder2ex_readdvdstructure.htm
 old-project: imapi
 ms.assetid: 6842573a-68e5-47ea-8441-953ab85b9482
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],ReadDvdStructure method, IDiscRecorder2Ex.ReadDvdStructure, IDiscRecorder2Ex::ReadDvdStructure, ReadDvdStructure, ReadDvdStructure method [IMAPI], ReadDvdStructure method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_readdvdstructure, imapi2/IDiscRecorder2Ex::ReadDvdStructure
 ms.prod: windows-hardware
 ms.technology: windows-devices

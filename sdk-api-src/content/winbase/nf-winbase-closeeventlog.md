@@ -7,7 +7,7 @@ old-location: base\closeeventlog.htm
 old-project: EventLog
 ms.assetid: cb98a0cf-8ee9-4d78-8508-efae1d43a91d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: CloseEventLog, CloseEventLog function, _win32_closeeventlog, base.closeeventlog, winbase/CloseEventLog
 ms.prod: windows-hardware
 ms.technology: windows-devices

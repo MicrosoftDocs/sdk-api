@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_getintegervectorvalue.htm
 old-project: UIAnimation
 ms.assetid: 63832D4C-C1AB-4073-AE36-1539671F0F59
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetIntegerVectorValue, GetIntegerVectorValue method [Windows Animation], GetIntegerVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetIntegerVectorValue method, IUIAnimationVariable2.GetIntegerVectorValue, IUIAnimationVariable2::GetIntegerVectorValue, uianimation.iuianimationvariable2_getintegervectorvalue, uianimation/IUIAnimationVariable2::GetIntegerVectorValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

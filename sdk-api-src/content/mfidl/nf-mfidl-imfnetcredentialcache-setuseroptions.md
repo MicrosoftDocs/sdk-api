@@ -7,7 +7,7 @@ old-location: mf\imfnetcredentialcache_setuseroptions.htm
 old-project: medfound
 ms.assetid: 024eea57-e7c8-495d-9959-ab37dd45873d
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 024eea57-e7c8-495d-9959-ab37dd45873d, IMFNetCredentialCache interface [Media Foundation],SetUserOptions method, IMFNetCredentialCache.SetUserOptions, IMFNetCredentialCache::SetUserOptions, SetUserOptions, SetUserOptions method [Media Foundation], SetUserOptions method [Media Foundation],IMFNetCredentialCache interface, mf.imfnetcredentialcache_setuseroptions, mfidl/IMFNetCredentialCache::SetUserOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

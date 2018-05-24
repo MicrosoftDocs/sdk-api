@@ -7,7 +7,7 @@ old-location: com\ioleparentundounit_open.htm
 old-project: com
 ms.assetid: 185eae3b-5323-45f1-9810-47bd21ce0d22
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleParentUndoUnit interface [COM],Open method, IOleParentUndoUnit.Open, IOleParentUndoUnit::Open, Open, Open method [COM], Open method [COM],IOleParentUndoUnit interface, _ole_ioleparentundounit_open, com.ioleparentundounit_open, ocidl/IOleParentUndoUnit::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleParentUndoUnit::Open

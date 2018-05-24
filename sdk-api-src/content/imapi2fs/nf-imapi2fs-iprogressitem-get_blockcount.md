@@ -7,7 +7,7 @@ old-location: imapi\iprogressitem_get_blockcount.htm
 old-project: imapi
 ms.assetid: 6960fecb-f202-4a10-9abb-fc945217a314
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IProgressItem interface [IMAPI],get_BlockCount method, IProgressItem.get_BlockCount, IProgressItem::get_BlockCount, get_BlockCount, get_BlockCount method [IMAPI], get_BlockCount method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_blockcount, imapi2fs/IProgressItem::get_BlockCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

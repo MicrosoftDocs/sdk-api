@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectpass_getvertexshaderdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_getvertexshaderdesc.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: GetVertexShaderDesc, GetVertexShaderDesc method [Direct3D 10], GetVertexShaderDesc method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],GetVertexShaderDesc method, ID3D10EffectPass.GetVertexShaderDesc, ID3D10EffectPass::GetVertexShaderDesc, b37921cf-8046-f37a-5f59-51591614b4d3, d3d10effect/ID3D10EffectPass::GetVertexShaderDesc, direct3d10.id3d10effectpass_getvertexshaderdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttrack_gettrackkind.htm
 old-project: medfound
 ms.assetid: 6B4752EC-553B-42F8-8C8B-52388C803E2E
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetTrackKind, GetTrackKind method [Media Foundation], GetTrackKind method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetTrackKind method, IMFTimedTextTrack.GetTrackKind, IMFTimedTextTrack::GetTrackKind, mf.imftimedtexttrack_gettrackkind, mfmediaengine/IMFTimedTextTrack::GetTrackKind
 ms.prod: windows-hardware
 ms.technology: windows-devices

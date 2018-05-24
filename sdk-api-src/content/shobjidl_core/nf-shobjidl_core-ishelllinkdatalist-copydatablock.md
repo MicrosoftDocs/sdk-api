@@ -7,7 +7,7 @@ old-location: shell\IShellLinkDataList_CopyDataBlock.htm
 old-project: shell
 ms.assetid: e02fb4c3-faec-40cc-ab97-d05cdcc148ed
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CopyDataBlock, CopyDataBlock method [Windows Shell], CopyDataBlock method [Windows Shell],IShellLinkDataList interface, IShellLinkDataList interface [Windows Shell],CopyDataBlock method, IShellLinkDataList.CopyDataBlock, IShellLinkDataList::CopyDataBlock, _win32_IShellLinkDataList_CopyDataBlock, shell.IShellLinkDataList_CopyDataBlock, shobjidl_core/IShellLinkDataList::CopyDataBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

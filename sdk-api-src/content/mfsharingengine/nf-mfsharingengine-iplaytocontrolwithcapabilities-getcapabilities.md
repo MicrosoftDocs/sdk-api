@@ -7,7 +7,7 @@ old-location: mf\iplaytocontrolwithcapabilities_getcapabilities.htm
 old-project: medfound
 ms.assetid: 04d35ac6-af8c-4e95-865b-54bbc7e36059
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Media Foundation], GetCapabilities method [Media Foundation],IPlayToControlWithCapabilities interface, IPlayToControlWithCapabilities interface [Media Foundation],GetCapabilities method, IPlayToControlWithCapabilities.GetCapabilities, IPlayToControlWithCapabilities::GetCapabilities, mf.iplaytocontrolwithcapabilities_getcapabilities, mfsharingengine/IPlayToControlWithCapabilities::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

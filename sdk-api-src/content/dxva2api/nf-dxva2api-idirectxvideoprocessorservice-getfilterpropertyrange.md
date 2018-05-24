@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessorservice_getfilterpropertyrange.htm
 old-project: medfound
 ms.assetid: 0c5f37c6-4220-44ee-9ae3-c31a6454a42a
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 0c5f37c6-4220-44ee-9ae3-c31a6454a42a, GetFilterPropertyRange, GetFilterPropertyRange method [Media Foundation], GetFilterPropertyRange method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetFilterPropertyRange method, IDirectXVideoProcessorService.GetFilterPropertyRange, IDirectXVideoProcessorService::GetFilterPropertyRange, dxva2api/IDirectXVideoProcessorService::GetFilterPropertyRange, mf.idirectxvideoprocessorservice_getfilterpropertyrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

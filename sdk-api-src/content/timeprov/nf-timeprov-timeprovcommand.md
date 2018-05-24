@@ -7,7 +7,7 @@ old-location: base\timeprovcommand.htm
 old-project: SysInfo
 ms.assetid: 07b0bdf2-d224-4bbc-be29-9032a848d5ae
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: TPC_GetSamples, TPC_NetTopoChange, TPC_PollIntervalChanged, TPC_Query, TPC_Shutdown, TPC_TimeJumped, TPC_UpdateConfig, TimeProvCommand, TimeProvCommand callback, TimeProvCommand callback function, _win32_timeprovcommand, base.timeprovcommand, timeprov/TimeProvCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

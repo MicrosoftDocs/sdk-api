@@ -7,7 +7,7 @@ old-location: security\cryptsipgetsigneddatamsg.htm
 old-project: SecCrypto
 ms.assetid: e3fabaa7-2dda-4c6c-8d1a-3ee5363e10b5
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CryptSIPGetSignedDataMsg, CryptSIPGetSignedDataMsg function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, mssip/CryptSIPGetSignedDataMsg, security.cryptsipgetsigneddatamsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CryptSIPGetSignedDataMsg function

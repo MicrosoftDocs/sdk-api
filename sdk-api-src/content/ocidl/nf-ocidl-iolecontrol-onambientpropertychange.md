@@ -7,7 +7,7 @@ old-location: com\iolecontrol_onambientpropertychange.htm
 old-project: com
 ms.assetid: 9ca43723-a14e-4f03-8eec-e10ab34ecb4d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleControl interface [COM],OnAmbientPropertyChange method, IOleControl.OnAmbientPropertyChange, IOleControl::OnAmbientPropertyChange, OnAmbientPropertyChange, OnAmbientPropertyChange method [COM], OnAmbientPropertyChange method [COM],IOleControl interface, _ctrl_iolecontrol_onambientpropertychange, com.iolecontrol_onambientpropertychange, ocidl/IOleControl::OnAmbientPropertyChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleControl::OnAmbientPropertyChange

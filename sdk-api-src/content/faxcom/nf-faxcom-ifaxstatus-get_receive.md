@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxstatus_get_receive_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5u1x.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: FaxStatus object [Fax Service],Receive property, FaxStatus.Receive, IFaxStatus.get_Receive, IFaxStatus::get_Receive, Receive property [Fax Service], Receive property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_receive, fax._mfax_ifaxstatus_get_receive, fax._mfax_ifaxstatus_get_receive_vb, get_Receive
 ms.prod: windows-hardware
 ms.technology: windows-devices

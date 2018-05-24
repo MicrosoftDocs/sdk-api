@@ -7,7 +7,7 @@ old-location: controls\ENCORRECTTEXT.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\encorrecttext.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ENCORRECTTEXT, ENCORRECTTEXT structure [Windows Controls], SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _encorrecttext, _win32_ENCORRECTTEXT_str, _win32_ENCORRECTTEXT_str_cpp, controls.ENCORRECTTEXT, controls._win32_ENCORRECTTEXT_str, richedit/ENCORRECTTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _encorrecttext structure

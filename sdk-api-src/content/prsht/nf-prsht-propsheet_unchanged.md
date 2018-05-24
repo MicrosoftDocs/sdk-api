@@ -7,7 +7,7 @@ old-location: controls\PropSheet_UnChanged.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_unchanged.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: PropSheet_UnChanged, PropSheet_UnChanged macro [Windows Controls], _win32_PropSheet_UnChanged, _win32_PropSheet_UnChanged_cpp, controls.PropSheet_UnChanged, controls._win32_PropSheet_UnChanged, prsht/PropSheet_UnChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PropSheet_UnChanged macro

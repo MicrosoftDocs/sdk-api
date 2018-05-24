@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_setpoints.htm
 old-project: tablet
 ms.assetid: 759e3195-e1de-45eb-a9de-8ec8fe2347c1
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 759e3195-e1de-45eb-a9de-8ec8fe2347c1, IInkStrokeDisp interface [Tablet PC],SetPoints method, IInkStrokeDisp.SetPoints, IInkStrokeDisp::SetPoints, SetPoints, SetPoints method [Tablet PC], SetPoints method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::SetPoints, tablet.iinkstrokedisp_setpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::SetPoints

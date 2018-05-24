@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControl_SetTheme.htm
 old-project: shell
 ms.assetid: 1b518d58-716b-4ae1-8633-e43117363541
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],SetTheme method, INameSpaceTreeControl.SetTheme, INameSpaceTreeControl::SetTheme, SetTheme, SetTheme method [Windows Shell], SetTheme method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_SetTheme, shell.INameSpaceTreeControl_SetTheme, shobjidl_core/INameSpaceTreeControl::SetTheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

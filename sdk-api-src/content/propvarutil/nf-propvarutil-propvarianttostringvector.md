@@ -7,7 +7,7 @@ old-location: properties\PropVariantToStringVector.htm
 old-project: properties
 ms.assetid: 6618ee02-1939-4c9c-8690-a8cd5d668cdb
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PropVariantToStringVector, PropVariantToStringVector function [Windows Properties], _shell_PropVariantToStringVector, properties.PropVariantToStringVector, propvarutil/PropVariantToStringVector, shell.PropVariantToStringVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PropVariantToStringVector function

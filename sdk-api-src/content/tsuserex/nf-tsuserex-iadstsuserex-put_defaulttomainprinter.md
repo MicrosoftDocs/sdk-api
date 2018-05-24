@@ -7,7 +7,7 @@ old-location: termserv\iadstsuserex_defaulttomainprinter.htm
 old-project: TermServ
 ms.assetid: ec9dd6b1-ba1e-4a69-b488-fff2e1fd994f
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: DefaultToMainPrinter property [Remote Desktop Services], DefaultToMainPrinter property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],DefaultToMainPrinter property, IADsTSUserEx.DefaultToMainPrinter, IADsTSUserEx.put_DefaultToMainPrinter, IADsTSUserEx::DefaultToMainPrinter, IADsTSUserEx::get_DefaultToMainPrinter, IADsTSUserEx::put_DefaultToMainPrinter, put_DefaultToMainPrinter, termserv.iadstsuserex_defaulttomainprinter, tsuserex/IADsTSUserEx::DefaultToMainPrinter, tsuserex/IADsTSUserEx::get_DefaultToMainPrinter, tsuserex/IADsTSUserEx::put_DefaultToMainPrinter
 ms.prod: windows-hardware
 ms.technology: windows-devices

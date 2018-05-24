@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdeviceids_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5v1w.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxDeviceIds object, FaxDeviceIds object [Fax Service],Count property, FaxDeviceIds.Count, IFaxDeviceIds.get_Count, IFaxDeviceIds::get_Count, _mfax_faxdeviceids.count, fax._mfax_faxdeviceids_count, fax._mfax_faxdeviceids_count_vb, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

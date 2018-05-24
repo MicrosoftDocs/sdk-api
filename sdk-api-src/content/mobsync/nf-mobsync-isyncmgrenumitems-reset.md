@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrenumitems_reset.htm
 old-project: shell
 ms.assetid: 91265648-1294-423d-8e09-6d14eb0b6d9e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ISyncMgrEnumItems interface [Windows Shell],Reset method, ISyncMgrEnumItems.Reset, ISyncMgrEnumItems::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],ISyncMgrEnumItems interface, mobsync/ISyncMgrEnumItems::Reset, shell.syncmgr_isyncmgrenumitems_reset, syncmgr.isyncmgrenumitems_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

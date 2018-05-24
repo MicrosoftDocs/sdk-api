@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_getalltabletcontextids.htm
 old-project: tablet
 ms.assetid: 1fac0624-2e1c-44b2-8a11-82b746a18356
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 1fac0624-2e1c-44b2-8a11-82b746a18356, GetAllTabletContextIds, GetAllTabletContextIds method [Tablet PC], GetAllTabletContextIds method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetAllTabletContextIds method, IRealTimeStylus.GetAllTabletContextIds, IRealTimeStylus::GetAllTabletContextIds, rtscom/IRealTimeStylus::GetAllTabletContextIds, tablet.irealtimestylus_getalltabletcontextids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRealTimeStylus::GetAllTabletContextIds

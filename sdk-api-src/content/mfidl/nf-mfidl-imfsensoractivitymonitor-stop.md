@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivitymonitor_stop.htm
 old-project: medfound
 ms.assetid: A40BD926-66BB-498C-B26B-BBDE0A122456
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFSensorActivityMonitor interface [Media Foundation],Stop method, IMFSensorActivityMonitor.Stop, IMFSensorActivityMonitor::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFSensorActivityMonitor interface, mf.imfsensoractivitymonitor_stop, mfidl/IMFSensorActivityMonitor::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

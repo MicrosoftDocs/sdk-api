@@ -7,7 +7,7 @@ old-location: properties\VariantGetInt32Elem.htm
 old-project: properties
 ms.assetid: de67face-9284-4e0a-8ea7-d4b6e7c037fc
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: VariantGetInt32Elem, VariantGetInt32Elem function [Windows Properties], _shell_VariantGetInt32Elem, properties.VariantGetInt32Elem, propvarutil/VariantGetInt32Elem, shell.VariantGetInt32Elem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantGetInt32Elem function

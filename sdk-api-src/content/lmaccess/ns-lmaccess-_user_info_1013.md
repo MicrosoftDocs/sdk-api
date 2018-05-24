@@ -7,7 +7,7 @@ old-location: netmgmt\user_info_1013_str.htm
 old-project: NetMgmt
 ms.assetid: 7166201d-57e3-4288-ad15-392cc3733dc6
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPUSER_INFO_1013, *PUSER_INFO_1013, LPUSER_INFO_1013, LPUSER_INFO_1013 structure pointer [Network Management], PUSER_INFO_1013, PUSER_INFO_1013 structure pointer [Network Management], USER_INFO_1013, USER_INFO_1013 structure [Network Management], _USER_INFO_1013, _win32_user_info_1013_str, lmaccess/LPUSER_INFO_1013, lmaccess/PUSER_INFO_1013, lmaccess/USER_INFO_1013, netmgmt.user_info_1013_str"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icertsrvsetup_setparentcainformation.htm
 old-project: SecCrypto
 ms.assetid: 73c4782d-579d-48d7-b999-f15a2443bbca
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: ICertSrvSetup interface [Security],SetParentCAInformation method, ICertSrvSetup.SetParentCAInformation, ICertSrvSetup::SetParentCAInformation, SetParentCAInformation, SetParentCAInformation method [Security], SetParentCAInformation method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetParentCAInformation, security.icertsrvsetup_setparentcainformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

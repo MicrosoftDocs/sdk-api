@@ -7,7 +7,7 @@ old-location: mf\mfaudioconstriction.htm
 old-project: medfound
 ms.assetid: EAFE3AA5-EF63-471A-9A67-A2EB298B0C0F
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFAudioConstriction, MFAudioConstriction enumeration [Media Foundation], MFaudioConstriction14_14, MFaudioConstriction44_16, MFaudioConstriction48_16, MFaudioConstrictionMute, MFaudioConstrictionOff, _MFAudioConstriction, mf.mfaudioconstriction, mfidl/MFAudioConstriction, mfidl/MFaudioConstriction14_14, mfidl/MFaudioConstriction44_16, mfidl/MFaudioConstriction48_16, mfidl/MFaudioConstrictionMute, mfidl/MFaudioConstrictionOff
 ms.prod: windows-hardware
 ms.technology: windows-devices

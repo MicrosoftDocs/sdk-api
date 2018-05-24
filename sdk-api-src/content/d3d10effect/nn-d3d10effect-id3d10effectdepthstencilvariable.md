@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectdepthstencilvariable.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectdepthstencilvariable.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: 896bf0ca-5516-5a5a-b85d-a24c6e618bc1, ID3D10EffectDepthStencilVariable, ID3D10EffectDepthStencilVariable interface [Direct3D 10], ID3D10EffectDepthStencilVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectDepthStencilVariable, direct3d10.id3d10effectdepthstencilvariable
 ms.prod: windows-hardware
 ms.technology: windows-devices

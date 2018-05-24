@@ -7,7 +7,7 @@ old-location: base\ivdssubsystemimporttarget.htm
 old-project: VDS
 ms.assetid: c9e2f353-d5d4-47a2-8398-5cbd9d499fb7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsSubSystemImportTarget, IVdsSubSystemImportTarget interface [VDS], IVdsSubSystemImportTarget interface [VDS],described, base.ivdssubsystemimporttarget, vds/IVdsSubSystemImportTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

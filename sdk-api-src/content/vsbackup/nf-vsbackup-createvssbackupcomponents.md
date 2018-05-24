@@ -7,7 +7,7 @@ old-location: base\createvssbackupcomponents.htm
 old-project: VSS
 ms.assetid: 5531e57a-49e0-42e9-abf0-e8a4849ccac6
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: CreateVssBackupComponents, CreateVssBackupComponents function [VSS], CreateVssBackupComponentsInternal, _win32_createvssbackupcomponents, base.createvssbackupcomponents, vsbackup/CreateVssBackupComponents, vsbackup/CreateVssBackupComponentsInternal
 ms.prod: windows-hardware
 ms.technology: windows-devices

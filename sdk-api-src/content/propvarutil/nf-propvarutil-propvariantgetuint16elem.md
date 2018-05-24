@@ -7,7 +7,7 @@ old-location: properties\PropVariantGetUInt16Elem.htm
 old-project: properties
 ms.assetid: da50e35b-f17f-4de6-b2e7-5a885e2149e5
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PropVariantGetUInt16Elem, PropVariantGetUInt16Elem function [Windows Properties], _shell_PropVariantGetUInt16Elem, properties.PropVariantGetUInt16Elem, propvarutil/PropVariantGetUInt16Elem, shell.PropVariantGetUInt16Elem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PropVariantGetUInt16Elem function

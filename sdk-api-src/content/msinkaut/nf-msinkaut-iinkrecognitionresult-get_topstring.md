@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionresult_topstring.htm
 old-project: tablet
 ms.assetid: 9f345372-0208-4c78-9da7-9b334c0f281e
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 9f345372-0208-4c78-9da7-9b334c0f281e, IInkRecognitionResult interface [Tablet PC],TopString property, IInkRecognitionResult.TopString, IInkRecognitionResult.get_TopString, IInkRecognitionResult::TopString, IInkRecognitionResult::get_TopString, TopString property [Tablet PC], TopString property [Tablet PC],IInkRecognitionResult interface, get_TopString, msinkaut/IInkRecognitionResult::TopString, msinkaut/IInkRecognitionResult::get_TopString, tablet.iinkrecognitionresult_topstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognitionResult::get_TopString

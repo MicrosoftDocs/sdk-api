@@ -7,7 +7,7 @@ old-location: tablet\getcontextpropertylist.htm
 old-project: tablet
 ms.assetid: 3d3df56f-d989-4d3b-a0e2-00a7ac0fabd6
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 3d3df56f-d989-4d3b-a0e2-00a7ac0fabd6, GetContextPropertyList, GetContextPropertyList function [Tablet PC], recapis/GetContextPropertyList, tablet.getcontextpropertylist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # GetContextPropertyList function

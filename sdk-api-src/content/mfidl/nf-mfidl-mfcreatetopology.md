@@ -7,7 +7,7 @@ old-location: mf\mfcreatetopology.htm
 old-project: medfound
 ms.assetid: 9811eca7-e822-4ff7-93e4-2eb6245d4490
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 9811eca7-e822-4ff7-93e4-2eb6245d4490, MFCreateTopology, MFCreateTopology function [Media Foundation], mf.mfcreatetopology, mfidl/MFCreateTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

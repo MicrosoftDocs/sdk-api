@@ -7,7 +7,7 @@ old-location: com\ipersiststream_isdirty.htm
 old-project: com
 ms.assetid: fabafc37-18f2-4def-b6bf-f7daa2bb8f37
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IPersistStream interface [COM],IsDirty method, IPersistStream.IsDirty, IPersistStream::IsDirty, IsDirty, IsDirty method [COM], IsDirty method [COM],IPersistStream interface, _com_ipersiststream_isdirty, com.ipersiststream_isdirty, objidl/IPersistStream::IsDirty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPersistStream::IsDirty

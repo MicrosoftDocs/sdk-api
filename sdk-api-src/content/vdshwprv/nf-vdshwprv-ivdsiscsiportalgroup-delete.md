@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiportalgroup_delete.htm
 old-project: VDS
 ms.assetid: 903f89b8-4712-4832-ba70-41a5362cbf28
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],Delete method, IVdsIscsiPortalGroup.Delete, IVdsIscsiPortalGroup::Delete, base.ivdsiscsiportalgroup_delete, vds/IVdsIscsiPortalGroup::Delete, vdshwprv/IVdsIscsiPortalGroup::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

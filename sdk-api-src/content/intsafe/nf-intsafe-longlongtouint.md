@@ -7,7 +7,7 @@ old-location: shell\LongLongToUInt.htm
 old-project: shell
 ms.assetid: e9bb0a51-3593-4074-8ea1-10fb9f0d8087
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: Int64ToSizeT, Int64ToUInt, Int64ToUIntPtr, Int64ToULongPtr, LongLongToUInt, LongLongToUInt function [Windows Shell], intsafe/LongLongToUInt, shell.LongLongToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices

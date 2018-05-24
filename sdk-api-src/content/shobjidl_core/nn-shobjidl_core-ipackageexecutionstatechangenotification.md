@@ -7,7 +7,7 @@ old-location: shell\IPackageExecutionStateChangeNotification.htm
 old-project: shell
 ms.assetid: 6AD9A9CD-933B-432F-A124-48092588C5DF
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IPackageExecutionStateChangeNotification, IPackageExecutionStateChangeNotification interface [Windows Shell], IPackageExecutionStateChangeNotification interface [Windows Shell],described, shell.IPackageExecutionStateChangeNotification, shobjidl_core/IPackageExecutionStateChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

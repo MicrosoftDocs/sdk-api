@@ -7,7 +7,7 @@ old-location: intl\scriptstring_psize.htm
 old-project: Intl
 ms.assetid: 2938e600-3f6b-4178-bc0f-bcbcd97b9d04
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: ScriptString_pSize, ScriptString_pSize function [Internationalization for Windows Applications], _win32_ScriptString_pSize, intl.scriptstring_psize, usp10/ScriptString_pSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

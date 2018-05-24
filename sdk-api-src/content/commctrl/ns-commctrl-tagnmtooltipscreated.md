@@ -7,7 +7,7 @@ old-location: controls\NMTOOLTIPSCREATED.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmtooltipscreated.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPNMTOOLTIPSCREATED, LPNMTOOLTIPSCREATED, LPNMTOOLTIPSCREATED structure pointer [Windows Controls], NMTOOLTIPSCREATED, NMTOOLTIPSCREATED structure [Windows Controls], _win32_NMTOOLTIPSCREATED, _win32_NMTOOLTIPSCREATED_cpp, commctrl/LPNMTOOLTIPSCREATED, commctrl/NMTOOLTIPSCREATED, controls.NMTOOLTIPSCREATED, controls._win32_NMTOOLTIPSCREATED, tagNMTOOLTIPSCREATED"
 ms.prod: windows-hardware
 ms.technology: windows-devices

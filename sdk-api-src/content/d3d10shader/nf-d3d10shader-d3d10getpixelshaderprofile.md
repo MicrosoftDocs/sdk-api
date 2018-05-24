@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10getpixelshaderprofile.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10getpixelshaderprofile.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: 8d581e0e-4553-6a9c-455b-9ef399e0d29f, D3D10GetPixelShaderProfile, D3D10GetPixelShaderProfile function [Direct3D 10], d3d10shader/D3D10GetPixelShaderProfile, direct3d10.d3d10getpixelshaderprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices

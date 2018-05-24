@@ -1,0 +1,89 @@
+---
+UID: NF:searchapi.ISearchCatalogManager.RegisterViewForNotification
+title: ISearchCatalogManager::RegisterViewForNotification
+author: windows-driver-content
+description: Not implemented.
+old-location: search\_search_ISearchCatalogManager_RegisterViewForNotification.htm
+old-project: search
+ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\registerviewfornotification.htm
+ms.author: windowsdriverdev
+ms.date: 5/22/2018
+ms.keywords: ISearchCatalogManager interface [search],RegisterViewForNotification method, ISearchCatalogManager.RegisterViewForNotification, ISearchCatalogManager::RegisterViewForNotification, RegisterViewForNotification, RegisterViewForNotification method [search], RegisterViewForNotification method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_RegisterViewForNotification, search._search_ISearchCatalogManager_RegisterViewForNotification, searchapi/ISearchCatalogManager::RegisterViewForNotification
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: method
+req.header: searchapi.h
+req.include-header: Searchapi.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP with SP2, Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 with SP1 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: Searchcatalog.idl
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.typenames: ROWSETEVENT_TYPE
+topic_type:
+-	APIRef
+-	kbSyntax
+api_type:
+-	COM
+api_location:
+-	searchapi.h
+api_name:
+-	ISearchCatalogManager.RegisterViewForNotification
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Rights Management Services client 1.0 or later
+---
+
+# ISearchCatalogManager::RegisterViewForNotification
+
+
+## -description
+
+
+Not implemented.
+
+
+## -parameters
+
+
+
+
+### -param pszView [in]
+
+Type: <b>LPCWSTR</b>
+
+A pointer to the name of the view.
+
+
+### -param pViewChangedSink [in]
+
+Type: <b><a href="https://msdn.microsoft.com/7dabc572-50ef-4a21-be77-2eb780610844">ISearchViewChangedSink</a>*</b>
+
+Pointer to the <a href="https://msdn.microsoft.com/7dabc572-50ef-4a21-be77-2eb780610844">ISearchViewChangedSink</a> object to receive notifications.
+
+
+### -param pdwCookie [out]
+
+Type: <b>DWORD*</b>
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

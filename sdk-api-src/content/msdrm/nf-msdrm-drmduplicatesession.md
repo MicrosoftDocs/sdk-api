@@ -7,7 +7,7 @@ old-location: rm\drmduplicatesession.htm
 old-project: AdRms_Sdk
 ms.assetid: 4a768919-36aa-4e09-898f-bd8f9c21cb0e
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMDuplicateSession, DRMDuplicateSession function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDuplicateSession, rm.drmduplicatesession
 ms.prod: windows-hardware
 ms.technology: windows-devices

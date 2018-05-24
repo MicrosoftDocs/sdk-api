@@ -7,7 +7,7 @@ old-location: termserv\wtsinfoex_level1.htm
 old-project: TermServ
 ms.assetid: bad4f35a-04a9-42fa-b87e-0f51e9f0f30e
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: "*PWTSINFOEX_LEVEL1_A, PWTSINFOEX_LEVEL1, PWTSINFOEX_LEVEL1 structure pointer [Remote Desktop Services], WTSINFOEX_LEVEL1, WTSINFOEX_LEVEL1 structure [Remote Desktop Services], WTSINFOEX_LEVEL1_A, WTSINFOEX_LEVEL1_W, WTS_SESSIONSTATE_LOCK, WTS_SESSIONSTATE_UNKNOWN, WTS_SESSIONSTATE_UNLOCK, _WTSINFOEX_LEVEL1_A, termserv.wtsinfoex_level1, wtsapi32/PWTSINFOEX_LEVEL1, wtsapi32/WTSINFOEX_LEVEL1, wtsapi32/WTSINFOEX_LEVEL1_A, wtsapi32/WTSINFOEX_LEVEL1_W"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\SetWindowTheme.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\setwindowtheme.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: SetWindowTheme, SetWindowTheme function [Windows Controls], controls.SetWindowTheme, controls.inet_SetWindowTheme, inet_SetWindowTheme, inet_SetWindowTheme_cpp, uxtheme/SetWindowTheme
 ms.prod: windows-hardware
 ms.technology: windows-devices

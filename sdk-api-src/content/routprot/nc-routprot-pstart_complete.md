@@ -7,7 +7,7 @@ old-location: rras\startcomplete.htm
 old-project: RRAS
 ms.assetid: 1dace3a7-8e97-405c-b1fe-f5a67c05fb0c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: PSTART_COMPLETE, PSTART_COMPLETE callback, StartComplete, StartComplete callback function [RAS], _mpr_startcomplete, routprot/StartComplete, rras.startcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSTART_COMPLETE callback function

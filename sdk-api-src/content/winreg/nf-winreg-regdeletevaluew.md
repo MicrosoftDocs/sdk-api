@@ -7,7 +7,7 @@ old-location: base\regdeletevalue.htm
 old-project: SysInfo
 ms.assetid: 4393b4ef-cd10-40d4-bb12-2d84e7cb7d3c
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: RegDeleteValue, RegDeleteValue function, RegDeleteValueA, RegDeleteValueW, _win32_regdeletevalue, base.regdeletevalue, winreg/RegDeleteValue, winreg/RegDeleteValueA, winreg/RegDeleteValueW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\wts_server_info.htm
 old-project: TermServ
 ms.assetid: c7ba5a94-37ff-408f-9a77-91b07c28b7ce
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: "*PWTS_SERVER_INFOW, PWTS_SERVER_INFO, PWTS_SERVER_INFO structure pointer [Remote Desktop Services], WTS_SERVER_INFO, WTS_SERVER_INFO structure [Remote Desktop Services], WTS_SERVER_INFOA, WTS_SERVER_INFOW, _WTS_SERVER_INFOW, termserv.wts_server_info, wtsapi32/PWTS_SERVER_INFO, wtsapi32/WTS_SERVER_INFO, wtsapi32/WTS_SERVER_INFOA, wtsapi32/WTS_SERVER_INFOW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

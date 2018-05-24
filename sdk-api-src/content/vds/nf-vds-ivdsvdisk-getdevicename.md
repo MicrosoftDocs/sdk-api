@@ -7,7 +7,7 @@ old-location: base\ivdsvdisk_getdevicename.htm
 old-project: VDS
 ms.assetid: 4ce60f7f-a7f2-4e1e-aae0-bd082b62480f
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetDeviceName, GetDeviceName method, GetDeviceName method,IVdsVDisk interface, IVdsVDisk interface,GetDeviceName method, IVdsVDisk.GetDeviceName, IVdsVDisk::GetDeviceName, base.ivdsvdisk_getdevicename, vds/IVdsVDisk::GetDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices

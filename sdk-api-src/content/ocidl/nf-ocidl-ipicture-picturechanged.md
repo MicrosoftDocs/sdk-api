@@ -7,7 +7,7 @@ old-location: com\ipicture_picturechanged.htm
 old-project: com
 ms.assetid: 60485293-8d5b-4f9f-a529-746ea3371491
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IPicture interface [COM],PictureChanged method, IPicture.PictureChanged, IPicture::PictureChanged, PictureChanged, PictureChanged method [COM], PictureChanged method [COM],IPicture interface, _ctrl_ipicture_picturechanged, com.ipicture_picturechanged, ocidl/IPicture::PictureChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPicture::PictureChanged

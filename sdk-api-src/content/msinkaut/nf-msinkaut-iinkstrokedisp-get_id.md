@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_id.htm
 old-project: tablet
 ms.assetid: f8e9d2b2-c3d1-4ea8-aed6-649bf6d4d353
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: ID property [Tablet PC], ID property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],ID property, IInkStrokeDisp.ID, IInkStrokeDisp.get_ID, IInkStrokeDisp.get_Id, IInkStrokeDisp::ID, IInkStrokeDisp::get_ID, get_ID, msinkaut/IInkStrokeDisp::ID, msinkaut/IInkStrokeDisp::get_ID, tablet.iinkstrokedisp_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::get_ID

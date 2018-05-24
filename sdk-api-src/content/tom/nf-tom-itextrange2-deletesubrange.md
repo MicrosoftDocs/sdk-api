@@ -7,7 +7,7 @@ old-location: controls\itextrange2_deletesubrange.htm
 old-project: Controls
 ms.assetid: ad75725d-ad92-45fc-a0a9-3227bfb99284
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: DeleteSubrange, DeleteSubrange method [Windows Controls], DeleteSubrange method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],DeleteSubrange method, ITextRange2.DeleteSubrange, ITextRange2::DeleteSubrange, controls.itextrange2_deletesubrange, tom/ITextRange2::DeleteSubrange
 ms.prod: windows-hardware
 ms.technology: windows-devices

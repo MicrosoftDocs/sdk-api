@@ -7,7 +7,7 @@ old-location: com\icontext_setproperty.htm
 old-project: com
 ms.assetid: 8e6dc055-bc97-41e0-973c-b061e851daf5
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IContext interface [COM],SetProperty method, IContext.SetProperty, IContext::SetProperty, SetProperty, SetProperty method [COM], SetProperty method [COM],IContext interface, _com_icontext_setproperty, com.icontext_setproperty, objidlbase/IContext::SetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IContext::SetProperty

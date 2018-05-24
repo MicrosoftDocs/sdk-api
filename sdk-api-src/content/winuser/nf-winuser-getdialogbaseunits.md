@@ -7,7 +7,7 @@ old-location: dlgbox\getdialogbaseunits.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdialogbaseunits.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: GetDialogBaseUnits, GetDialogBaseUnits function [Dialog Boxes], _win32_GetDialogBaseUnits, _win32_getdialogbaseunits_cpp, dlgbox.getdialogbaseunits, winui._win32_getdialogbaseunits, winuser/GetDialogBaseUnits
 ms.prod: windows-hardware
 ms.technology: windows-devices

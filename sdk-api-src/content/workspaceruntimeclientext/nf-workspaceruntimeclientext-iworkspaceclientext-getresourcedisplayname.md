@@ -7,7 +7,7 @@ old-location: termserv\iworkspaceclientext_getresourcedisplayname.htm
 old-project: TermServ
 ms.assetid: f67fa6f3-621a-4015-8fcf-85b1302a3c8a
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: GetResourceDisplayName, GetResourceDisplayName method [Remote Desktop Services], GetResourceDisplayName method [Remote Desktop Services],IWorkspaceClientExt interface, IWorkspaceClientExt interface [Remote Desktop Services],GetResourceDisplayName method, IWorkspaceClientExt.GetResourceDisplayName, IWorkspaceClientExt::GetResourceDisplayName, termserv.iworkspaceclientext_getresourcedisplayname, workspaceruntimeclientext/IWorkspaceClientExt::GetResourceDisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices

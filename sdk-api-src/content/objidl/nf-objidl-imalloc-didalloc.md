@@ -7,7 +7,7 @@ old-location: com\imalloc_didalloc.htm
 old-project: com
 ms.assetid: 085dd7cd-c360-48fa-8713-64dd9057e20d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: DidAlloc, DidAlloc method [COM], DidAlloc method [COM],IMalloc interface, IMalloc interface [COM],DidAlloc method, IMalloc.DidAlloc, IMalloc::DidAlloc, _com_imalloc_didalloc, com.imalloc_didalloc, objidlbase/IMalloc::DidAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMalloc::DidAlloc

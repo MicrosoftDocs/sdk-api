@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutboundroutingrules_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qyc.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxOutboundRoutingRules object, FaxOutboundRoutingRules object [Fax Service],Count property, FaxOutboundRoutingRules.Count, IFaxOutboundRoutingRules.get_Count, IFaxOutboundRoutingRules::get_Count, _mfax_faxoutboundroutingrules.count, fax._mfax_faxoutboundroutingrules_count, fax._mfax_faxoutboundroutingrules_count_vb, get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices

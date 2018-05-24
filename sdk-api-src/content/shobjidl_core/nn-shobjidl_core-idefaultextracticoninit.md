@@ -7,7 +7,7 @@ old-location: shell\IDefaultExtractIconInit.htm
 old-project: shell
 ms.assetid: 27b952e3-f17a-4844-8c39-2ae240179d02
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IDefaultExtractIconInit, IDefaultExtractIconInit interface [Windows Shell], IDefaultExtractIconInit interface [Windows Shell],described, _shell_IDefaultExtractIconInit, shell.IDefaultExtractIconInit, shobjidl_core/IDefaultExtractIconInit
 ms.prod: windows-hardware
 ms.technology: windows-devices

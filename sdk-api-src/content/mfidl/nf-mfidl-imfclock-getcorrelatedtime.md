@@ -7,7 +7,7 @@ old-location: mf\imfclock_getcorrelatedtime.htm
 old-project: medfound
 ms.assetid: 0a897426-d994-4b27-9f13-9b0c7c9b3a9b
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 0a897426-d994-4b27-9f13-9b0c7c9b3a9b, GetCorrelatedTime, GetCorrelatedTime method [Media Foundation], GetCorrelatedTime method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetCorrelatedTime method, IMFClock.GetCorrelatedTime, IMFClock::GetCorrelatedTime, mf.imfclock_getcorrelatedtime, mfidl/IMFClock::GetCorrelatedTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

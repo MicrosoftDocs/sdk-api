@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10devicechild.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: ID3D10DeviceChild, ID3D10DeviceChild interface [Direct3D 10], ID3D10DeviceChild interface [Direct3D 10],described, d3d10/ID3D10DeviceChild, direct3d10.id3d10devicechild, e38df520-7753-67fb-6fb9-7bd65b783c01
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -92,15 +92,6 @@ Get application-defined data from a device child.
 </td>
 <td align="left" width="63%">
 Set application-defined data to a device child and associate that data with an application-defined guid.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71d529a1-acaf-49a9-a4c7-6896979c8909">SetPrivateDataInterface</a>
-</td>
-<td align="left" width="63%">
-Associate an <a href="http://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx">IUnknown</a>-derived interface with this device and associate that interface with an application-defined guid.
 
 </td>
 </tr>

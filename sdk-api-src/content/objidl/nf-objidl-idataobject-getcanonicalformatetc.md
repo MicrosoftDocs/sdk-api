@@ -7,7 +7,7 @@ old-location: com\idataobject_getcanonicalformatetc.htm
 old-project: com
 ms.assetid: 3a5009a0-8d92-483a-b055-8a97f326dccd
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetCanonicalFormatEtc, GetCanonicalFormatEtc method [COM], GetCanonicalFormatEtc method [COM],IDataObject interface, IDataObject interface [COM],GetCanonicalFormatEtc method, IDataObject.GetCanonicalFormatEtc, IDataObject::GetCanonicalFormatEtc, _ole_idataobject_getcanonicalformatetc, com.idataobject_getcanonicalformatetc, objidl/IDataObject::GetCanonicalFormatEtc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IDataObject::GetCanonicalFormatEtc

@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_disablewriterclasses.htm
 old-project: VSS
 ms.assetid: 7567bf23-4f4c-4210-87f7-4f90262fda7a
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: DisableWriterClasses, DisableWriterClasses method [VSS], DisableWriterClasses method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DisableWriterClasses method, IVssBackupComponents.DisableWriterClasses, IVssBackupComponents::DisableWriterClasses, _win32_ivssbackupcomponents_disablewriterclasses, base.ivssbackupcomponents_disablewriterclasses, vsbackup/IVssBackupComponents::DisableWriterClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rm\drmcreateenablingbitsencryptor.htm
 old-project: AdRms_Sdk
 ms.assetid: f3875ddd-293e-4abb-b468-a6754bc361a0
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMCreateEnablingBitsEncryptor, DRMCreateEnablingBitsEncryptor function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateEnablingBitsEncryptor, rm.drmcreateenablingbitsencryptor
 ms.prod: windows-hardware
 ms.technology: windows-devices

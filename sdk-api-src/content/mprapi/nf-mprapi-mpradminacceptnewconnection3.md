@@ -7,7 +7,7 @@ old-location: rras\mpradminacceptnewconnection3.htm
 old-project: RRAS
 ms.assetid: c457b972-e326-4c6d-b146-f6ce4e18e3ea
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: MprAdminAcceptNewConnection3, MprAdminAcceptNewConnection3 callback, MprAdminAcceptNewConnection3 callback function [RAS], mprapi/MprAdminAcceptNewConnection3, rras.mpradminacceptnewconnection3
 ms.prod: windows-hardware
 ms.technology: windows-devices

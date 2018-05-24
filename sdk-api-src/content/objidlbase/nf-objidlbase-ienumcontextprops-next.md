@@ -7,7 +7,7 @@ old-location: com\ienumcontextprops_next.htm
 old-project: com
 ms.assetid: d1856f5c-dfed-462c-aca3-91b7973d6d8d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumContextProps interface [COM],Next method, IEnumContextProps.Next, IEnumContextProps::Next, Next, Next method [COM], Next method [COM],IEnumContextProps interface, _com_ienumcontextprops_next, com.ienumcontextprops_next, objidlbase/IEnumContextProps::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumContextProps::Next

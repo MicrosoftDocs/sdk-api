@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList3_ThumbBarAddButtons.htm
 old-project: shell
 ms.assetid: 5d573879-aa90-41d9-a9b7-b813dafa78ae
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarAddButtons method, ITaskbarList3.ThumbBarAddButtons, ITaskbarList3::ThumbBarAddButtons, ThumbBarAddButtons, ThumbBarAddButtons method [Windows Shell], ThumbBarAddButtons method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarAddButtons, shell.ITaskbarList3_ThumbBarAddButtons, shobjidl_core/ITaskbarList3::ThumbBarAddButtons
 ms.prod: windows-hardware
 ms.technology: windows-devices

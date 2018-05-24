@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_getcolor.htm
 old-project: medfound
 ms.assetid: 262A89EC-7025-4037-B09A-87C9CEE1DF76
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetColor, GetColor method [Media Foundation], GetColor method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetColor method, IMFTimedTextStyle.GetColor, IMFTimedTextStyle::GetColor, mf.imftimedtextstyle_getcolor, mfmediaengine/IMFTimedTextStyle::GetColor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\imarshal_getmarshalsizemax.htm
 old-project: com
 ms.assetid: 25ec060a-ec46-4857-8d66-8f8bb58d6d31
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetMarshalSizeMax, GetMarshalSizeMax method [COM], GetMarshalSizeMax method [COM],IMarshal interface, IMarshal interface [COM],GetMarshalSizeMax method, IMarshal.GetMarshalSizeMax, IMarshal::GetMarshalSizeMax, _com_imarshal_getmarshalsizemax, com.imarshal_getmarshalsizemax, objidl/IMarshal::GetMarshalSizeMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMarshal::GetMarshalSizeMax

@@ -7,7 +7,7 @@ old-location: shell\IObjectWithProgID_GetProgID.htm
 old-project: shell
 ms.assetid: 37023615-09cb-4607-9496-7fe9d9f7c947
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetProgID, GetProgID method [Windows Shell], GetProgID method [Windows Shell],IObjectWithProgID interface, IObjectWithProgID interface [Windows Shell],GetProgID method, IObjectWithProgID.GetProgID, IObjectWithProgID::GetProgID, _shell_IObjectWithProgID_GetProgID, shell.IObjectWithProgID_GetProgID, shobjidl_core/IObjectWithProgID::GetProgID
 ms.prod: windows-hardware
 ms.technology: windows-devices

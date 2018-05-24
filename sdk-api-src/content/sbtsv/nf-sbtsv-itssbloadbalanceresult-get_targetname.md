@@ -7,7 +7,7 @@ old-location: termserv\itssbloadbalanceresult_targetname.htm
 old-project: TermServ
 ms.assetid: a3503aef-e177-4ebb-ac9a-8e24ab8610b6
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITsSbLoadBalanceResult interface [Remote Desktop Services],TargetName property, ITsSbLoadBalanceResult.TargetName, ITsSbLoadBalanceResult.get_TargetName, ITsSbLoadBalanceResult::TargetName, ITsSbLoadBalanceResult::get_TargetName, TargetName property [Remote Desktop Services], TargetName property [Remote Desktop Services],ITsSbLoadBalanceResult interface, get_TargetName, sbtsv/ITsSbLoadBalanceResult::TargetName, sbtsv/ITsSbLoadBalanceResult::get_TargetName, termserv.itssbloadbalanceresult_targetname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbLoadBalanceResult::get_TargetName

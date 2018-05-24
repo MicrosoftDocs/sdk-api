@@ -7,7 +7,7 @@ old-location: com\iviewobjectex_getrect.htm
 old-project: com
 ms.assetid: ff060cd2-c7e4-4c12-842a-663415b80c17
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetRect, GetRect method [COM], GetRect method [COM],IViewObjectEx interface, IViewObjectEx interface [COM],GetRect method, IViewObjectEx.GetRect, IViewObjectEx::GetRect, _ole_iviewobjectex_getrect, com.iviewobjectex_getrect, ocidl/IViewObjectEx::GetRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IViewObjectEx::GetRect

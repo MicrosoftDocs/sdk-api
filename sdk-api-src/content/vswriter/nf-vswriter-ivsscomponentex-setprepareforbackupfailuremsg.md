@@ -7,7 +7,7 @@ old-location: base\ivsscomponentex_setprepareforbackupfailuremsg.htm
 old-project: VSS
 ms.assetid: b2c48c06-8bfc-431b-aab3-89ec9b30a9a0
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssComponentEx interface,SetPrepareForBackupFailureMsg method, IVssComponentEx.SetPrepareForBackupFailureMsg, IVssComponentEx::SetPrepareForBackupFailureMsg, SetPrepareForBackupFailureMsg, SetPrepareForBackupFailureMsg method, SetPrepareForBackupFailureMsg method,IVssComponentEx interface, base.ivsscomponentex_setprepareforbackupfailuremsg, vswriter/IVssComponentEx::SetPrepareForBackupFailureMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices

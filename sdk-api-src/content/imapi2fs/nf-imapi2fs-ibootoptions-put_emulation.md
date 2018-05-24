@@ -7,7 +7,7 @@ old-location: imapi\ibootoptions_put_emulation.htm
 old-project: imapi
 ms.assetid: 93ed301e-fdea-451c-9ab0-6ea9a7fd45de
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IBootOptions interface [IMAPI],put_Emulation method, IBootOptions.put_Emulation, IBootOptions::put_Emulation, imapi.ibootoptions_put_emulation, imapi2fs/IBootOptions::put_Emulation, put_Emulation, put_Emulation method [IMAPI], put_Emulation method [IMAPI],IBootOptions interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

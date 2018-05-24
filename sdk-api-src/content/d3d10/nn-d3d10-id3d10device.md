@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: ID3D10Device, ID3D10Device interface [Direct3D 10], ID3D10Device interface [Direct3D 10],described, ac9e57ea-6b44-febb-6528-dfb8cc6740db, d3d10/ID3D10Device, direct3d10.id3d10device
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -806,6 +806,15 @@ Set a rendering predicate.
 </td>
 <td align="left" width="63%">
 Set data to a device and associate that data with a guid.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/71d529a1-acaf-49a9-a4c7-6896979c8909">SetPrivateDataInterface</a>
+</td>
+<td align="left" width="63%">
+Associate an <a href="http://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx">IUnknown</a>-derived interface with this device and associate that interface with an application-defined guid.
 
 </td>
 </tr>

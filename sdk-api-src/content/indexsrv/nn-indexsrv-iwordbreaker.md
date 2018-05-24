@@ -7,7 +7,7 @@ old-location: search\_search_IWordBreaker.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\iwordbreaker.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: IWordBreaker, IWordBreaker interface [search], IWordBreaker interface [search],described, _search_IWordBreaker, indexsrv/IWordBreaker, search._search_IWordBreaker
 ms.prod: windows-hardware
 ms.technology: windows-devices

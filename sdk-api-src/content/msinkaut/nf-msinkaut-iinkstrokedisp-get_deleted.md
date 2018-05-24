@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_deleted.htm
 old-project: tablet
 ms.assetid: d34eaf9d-ad2a-4bf7-ac6d-ed4b19134a50
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: Deleted property [Tablet PC], Deleted property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],Deleted property, IInkStrokeDisp.Deleted, IInkStrokeDisp.get_Deleted, IInkStrokeDisp::Deleted, IInkStrokeDisp::get_Deleted, d34eaf9d-ad2a-4bf7-ac6d-ed4b19134a50, get_Deleted, msinkaut/IInkStrokeDisp::Deleted, msinkaut/IInkStrokeDisp::get_Deleted, tablet.iinkstrokedisp_deleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::get_Deleted

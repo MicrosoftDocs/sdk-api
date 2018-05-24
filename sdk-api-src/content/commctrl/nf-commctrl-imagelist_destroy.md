@@ -7,7 +7,7 @@ old-location: controls\ImageList_Destroy.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_destroy.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ImageList_Destroy, ImageList_Destroy function [Windows Controls], _win32_ImageList_Destroy, _win32_ImageList_Destroy_cpp, commctrl/ImageList_Destroy, controls.ImageList_Destroy, controls._win32_ImageList_Destroy
 ms.prod: windows-hardware
 ms.technology: windows-devices

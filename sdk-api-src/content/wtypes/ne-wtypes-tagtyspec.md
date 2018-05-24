@@ -7,7 +7,7 @@ old-location: com\tyspec.htm
 old-project: com
 ms.assetid: f2972300-5a95-43e3-b2d1-cd8f30d14d1d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: TYSPEC, TYSPEC enumeration [COM], TYSPEC_CLSID, TYSPEC_FILEEXT, TYSPEC_FILENAME, TYSPEC_MIMETYPE, TYSPEC_OBJECTID, TYSPEC_PACKAGENAME, TYSPEC_PROGID, _com_TYSPEC, com.tyspec, tagTYSPEC, wtypes/TYSPEC, wtypes/TYSPEC_CLSID, wtypes/TYSPEC_FILEEXT, wtypes/TYSPEC_FILENAME, wtypes/TYSPEC_MIMETYPE, wtypes/TYSPEC_OBJECTID, wtypes/TYSPEC_PACKAGENAME, wtypes/TYSPEC_PROGID
 ms.prod: windows-hardware
 ms.technology: windows-devices

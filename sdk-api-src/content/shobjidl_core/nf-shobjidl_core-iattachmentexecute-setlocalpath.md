@@ -7,7 +7,7 @@ old-location: shell\IAttachmentExecute_SetLocalPath.htm
 old-project: shell
 ms.assetid: 763ce5a7-bbad-4dd8-a416-86a96f466510
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetLocalPath method, IAttachmentExecute.SetLocalPath, IAttachmentExecute::SetLocalPath, SetLocalPath, SetLocalPath method [Windows Shell], SetLocalPath method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetLocalPath, shell.IAttachmentExecute_SetLocalPath, shobjidl_core/IAttachmentExecute::SetLocalPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

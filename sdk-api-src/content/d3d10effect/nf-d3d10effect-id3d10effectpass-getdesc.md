@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectpass_getdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_getdesc.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],GetDesc method, ID3D10EffectPass.GetDesc, ID3D10EffectPass::GetDesc, d144db62-661e-4008-27bf-01ee2d40f810, d3d10effect/ID3D10EffectPass::GetDesc, direct3d10.id3d10effectpass_getdesc
 ms.prod: windows-hardware
 ms.technology: windows-devices

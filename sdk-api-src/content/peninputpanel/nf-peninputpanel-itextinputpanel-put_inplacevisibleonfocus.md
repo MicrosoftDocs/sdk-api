@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_inplacevisibleonfocus.htm
 old-project: tablet
 ms.assetid: 487ffcee-9df6-48db-8c84-e7e073b8a643
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 487ffcee-9df6-48db-8c84-e7e073b8a643, ITextInputPanel interface [Tablet PC],InPlaceVisibleOnFocus property, ITextInputPanel.InPlaceVisibleOnFocus, ITextInputPanel.get_InPlaceVisibleOnFocus, ITextInputPanel.put_InPlaceVisibleOnFocus, ITextInputPanel::InPlaceVisibleOnFocus, ITextInputPanel::get_InPlaceVisibleOnFocus, ITextInputPanel::put_InPlaceVisibleOnFocus, InPlaceVisibleOnFocus property [Tablet PC], InPlaceVisibleOnFocus property [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::InPlaceVisibleOnFocus, peninputpanel/ITextInputPanel::get_InPlaceVisibleOnFocus, peninputpanel/ITextInputPanel::put_InPlaceVisibleOnFocus, put_InPlaceVisibleOnFocus, tablet.itextinputpanel_inplacevisibleonfocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITextInputPanel::put_InPlaceVisibleOnFocus

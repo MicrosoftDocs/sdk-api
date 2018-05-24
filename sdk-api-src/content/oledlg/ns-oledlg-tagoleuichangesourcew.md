@@ -7,7 +7,7 @@ old-location: com\oleuichangesource_struct.htm
 old-project: com
 ms.assetid: 440d120c-a121-471b-bee1-f23af136a664
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPOLEUICHANGESOURCEW, *POLEUICHANGESOURCEW, CSF_ONLYGETSOURCE, CSF_SHOWHELP, CSF_VALIDSOURCE, LPOLEUICHANGESOURCE, LPOLEUICHANGESOURCE structure pointer [COM], OLEUICHANGESOURCE, OLEUICHANGESOURCE structure [COM], OLEUICHANGESOURCEA, OLEUICHANGESOURCEW, POLEUICHANGESOURCE, POLEUICHANGESOURCE structure pointer [COM], _ole_OLEUICHANGESOURCE_str, com.oleuichangesource_struct, oledlg/LPOLEUICHANGESOURCE, oledlg/OLEUICHANGESOURCE, oledlg/OLEUICHANGESOURCEA, oledlg/OLEUICHANGESOURCEW, oledlg/POLEUICHANGESOURCE, tagOLEUICHANGESOURCEW"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagOLEUICHANGESOURCEW structure

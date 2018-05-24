@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagetrackinfo_get_digitalaudiocopysetting.htm
 old-project: imapi
 ms.assetid: 1b9f277d-b1bb-4704-8a25-cd26fdf46069
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_DigitalAudioCopySetting method, IRawCDImageTrackInfo.get_DigitalAudioCopySetting, IRawCDImageTrackInfo::get_DigitalAudioCopySetting, get_DigitalAudioCopySetting, get_DigitalAudioCopySetting method [IMAPI], get_DigitalAudioCopySetting method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_digitalaudiocopysetting, imapi2/IRawCDImageTrackInfo::get_DigitalAudioCopySetting
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\immisuimessage.htm
 old-project: Intl
 ms.assetid: 9c07c7b8-87cb-4bcb-a837-20f582ff7712
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: ImmIsUIMessage, ImmIsUIMessage function [Internationalization for Windows Applications], ImmIsUIMessageA, ImmIsUIMessageW, _win32_ImmIsUIMessage, imm/ImmIsUIMessage, imm/ImmIsUIMessageA, imm/ImmIsUIMessageW, intl.immisuimessage
 ms.prod: windows-hardware
 ms.technology: windows-devices

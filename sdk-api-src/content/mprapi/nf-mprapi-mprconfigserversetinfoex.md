@@ -7,7 +7,7 @@ old-location: rras\mprconfigserversetinfoex.htm
 old-project: RRAS
 ms.assetid: 8251f391-7697-4024-9a9d-c7c810129a78
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: MprConfigServerSetInfoEx, MprConfigServerSetInfoEx function [RAS], mprapi/MprConfigServerSetInfoEx, rras.mprconfigserversetinfoex
 ms.prod: windows-hardware
 ms.technology: windows-devices

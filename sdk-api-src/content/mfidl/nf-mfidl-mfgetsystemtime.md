@@ -7,7 +7,7 @@ old-location: mf\mfgetsystemtime.htm
 old-project: medfound
 ms.assetid: e23617f6-248e-4e0b-866b-19b960ebf8eb
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFGetSystemTime, MFGetSystemTime function [Media Foundation], e23617f6-248e-4e0b-866b-19b960ebf8eb, mf.mfgetsystemtime, mfidl/MFGetSystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

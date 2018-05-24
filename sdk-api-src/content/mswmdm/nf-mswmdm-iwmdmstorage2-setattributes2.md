@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage2_setattributes2.htm
 old-project: WMDM
 ms.assetid: 0a2e143e-8d6a-497e-9c45-fd3349c4ec97
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IWMDMStorage2 interface [windows Media Device Manager],SetAttributes2 method, IWMDMStorage2.SetAttributes2, IWMDMStorage2::SetAttributes2, IWMDMStorage2SetAttributes2, SetAttributes2, SetAttributes2 method [windows Media Device Manager], SetAttributes2 method [windows Media Device Manager],IWMDMStorage2 interface, mswmdm/IWMDMStorage2::SetAttributes2, wmdm.iwmdmstorage2_setattributes2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMStorage2::SetAttributes2

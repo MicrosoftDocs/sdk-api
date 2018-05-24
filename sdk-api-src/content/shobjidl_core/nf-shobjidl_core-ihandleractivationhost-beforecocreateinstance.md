@@ -7,7 +7,7 @@ old-location: shell\IHandlerActivationHost_BeforeCoCreateInstance.htm
 old-project: shell
 ms.assetid: 6ec3f90a-4b65-4cbc-a777-a338c97f1acf
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: BeforeCoCreateInstance, BeforeCoCreateInstance method [Windows Shell], BeforeCoCreateInstance method [Windows Shell],IHandlerActivationHost interface, IHandlerActivationHost interface [Windows Shell],BeforeCoCreateInstance method, IHandlerActivationHost.BeforeCoCreateInstance, IHandlerActivationHost::BeforeCoCreateInstance, shell.IHandlerActivationHost_BeforeCoCreateInstance, shobjidl_core/IHandlerActivationHost::BeforeCoCreateInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices

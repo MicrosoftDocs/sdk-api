@@ -7,7 +7,7 @@ old-location: base\ivdsvdisk_open.htm
 old-project: VDS
 ms.assetid: e633f934-8f2d-4614-b34c-87bb74ebf385
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsVDisk interface,Open method, IVdsVDisk.Open, IVdsVDisk::Open, Open, Open method, Open method,IVdsVDisk interface, base.ivdsvdisk_open, vds/IVdsVDisk::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfmediaengine_getbuffered.htm
 old-project: medfound
 ms.assetid: 38DABEE7-04AF-4542-AF4D-7988C824EA11
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetBuffered, GetBuffered method [Media Foundation], GetBuffered method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetBuffered method, IMFMediaEngine.GetBuffered, IMFMediaEngine::GetBuffered, mf.imfmediaengine_getbuffered, mfmediaengine/IMFMediaEngine::GetBuffered
 ms.prod: windows-hardware
 ms.technology: windows-devices

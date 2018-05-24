@@ -7,7 +7,7 @@ old-location: base\eventlog_full_information_str.htm
 old-project: EventLog
 ms.assetid: 3ca41d6b-51a6-4226-89be-ab2c37628289
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPEVENTLOG_FULL_INFORMATION, EVENTLOG_FULL_INFORMATION, EVENTLOG_FULL_INFORMATION structure, LPEVENTLOG_FULL_INFORMATION, LPEVENTLOG_FULL_INFORMATION structure pointer, _EVENTLOG_FULL_INFORMATION, _win32_eventlog_full_information_str, base.eventlog_full_information_str, winbase/EVENTLOG_FULL_INFORMATION, winbase/LPEVENTLOG_FULL_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices

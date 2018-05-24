@@ -7,7 +7,7 @@ old-location: rm\drmacquireissuancelicensetemplate.htm
 old-project: AdRms_Sdk
 ms.assetid: 15f6d38a-d4f2-4af4-8bbc-bc44ac14db0c
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMAcquireIssuanceLicenseTemplate, DRMAcquireIssuanceLicenseTemplate function [Active Directory Rights Management Services SDK 1.0], DRM_AILT_CANCEL, DRM_AILT_NONSILENT, DRM_AILT_OBTAIN_ALL, msdrm/DRMAcquireIssuanceLicenseTemplate, rm.drmacquireissuancelicensetemplate
 ms.prod: windows-hardware
 ms.technology: windows-devices

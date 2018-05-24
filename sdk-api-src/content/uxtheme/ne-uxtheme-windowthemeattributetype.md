@@ -7,7 +7,7 @@ old-location: controls\WINDOWTHEMEATTRIBUTETYPE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\windowthemeattributetype.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: WINDOWTHEMEATTRIBUTETYPE, WINDOWTHEMEATTRIBUTETYPE enumeration [Windows Controls], WTA_NONCLIENT, controls.WINDOWTHEMEATTRIBUTETYPE, controls.inet_WINDOWTHEMEATTRIBUTETYPE, inet_WINDOWTHEMEATTRIBUTETYPE, inet_WINDOWTHEMEATTRIBUTETYPE_cpp, uxtheme/WINDOWTHEMEATTRIBUTETYPE, uxtheme/WTA_NONCLIENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

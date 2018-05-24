@@ -7,7 +7,7 @@ old-location: base\vds_port_prop.htm
 old-project: VDS
 ms.assetid: 40f81f31-3776-4685-8b79-c047c669b2bb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: "*PVDS_PORT_PROP, VDS_PORT_PROP, VDS_PORT_PROP structure [VDS], _VDS_PORT_PROP, base.vds_port_prop, vds/_VDS_PORT_PROP, vdshwprv/_VDS_PORT_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

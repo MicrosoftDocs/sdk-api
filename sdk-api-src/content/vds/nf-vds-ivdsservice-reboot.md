@@ -7,7 +7,7 @@ old-location: base\ivdsservice_reboot.htm
 old-project: VDS
 ms.assetid: c22be0a5-d7ed-4f76-961d-2455ca99f220
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsService interface [VDS],Reboot method, IVdsService.Reboot, IVdsService::Reboot, Reboot, Reboot method [VDS], Reboot method [VDS],IVdsService interface, base.ivdsservice_reboot, vds/IVdsService::Reboot
 ms.prod: windows-hardware
 ms.technology: windows-devices

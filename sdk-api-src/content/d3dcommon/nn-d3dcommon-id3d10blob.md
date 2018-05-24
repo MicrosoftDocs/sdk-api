@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10blob.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10blob.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: 45a3b1ec-c6a6-dde6-52cf-6833c6a062ee, ID3D10Blob, ID3D10Blob interface [Direct3D 10], ID3D10Blob interface [Direct3D 10],described, d3dcommon/ID3D10Blob, direct3d10.id3d10blob
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\itemprop.htm
 old-project: search
 ms.assetid: 480C84CB-60CE-42F4-ADE6-4FCF1EAF15AF
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPITEMPROP, ITEMPROP, ITEMPROP structure [search], PITEMPROP, PITEMPROP structure pointer [search], _tagITEMPROP, search.itemprop, subsmgr/ITEMPROP, subsmgr/PITEMPROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\_search_CLUSION_REASON.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\clusion_reason.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: CLUSIONREASON_DEFAULT, CLUSIONREASON_GROUPPOLICY, CLUSIONREASON_UNKNOWNSCOPE, CLUSIONREASON_USER, CLUSION_REASON, CLUSION_REASON enumeration [search], __MIDL___MIDL_itf_searchapi_0000_0013_0001, _search_CLUSION_REASON, search._search_CLUSION_REASON, searchapi/CLUSIONREASON_DEFAULT, searchapi/CLUSIONREASON_GROUPPOLICY, searchapi/CLUSIONREASON_UNKNOWNSCOPE, searchapi/CLUSIONREASON_USER, searchapi/CLUSION_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Iassdo.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL___MIDL_itf_searchapi_0000_0013_0001 enumeration

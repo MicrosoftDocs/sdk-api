@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager2_abandonallstoryboards.htm
 old-project: UIAnimation
 ms.assetid: E8DC71C0-CA68-4FD8-81CE-68450BF4EBA7
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: AbandonAllStoryboards, AbandonAllStoryboards method [Windows Animation], AbandonAllStoryboards method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],AbandonAllStoryboards method, IUIAnimationManager2.AbandonAllStoryboards, IUIAnimationManager2::AbandonAllStoryboards, uianimation.iuianimationmanager2_abandonallstoryboards, uianimation/IUIAnimationManager2::AbandonAllStoryboards
 ms.prod: windows-hardware
 ms.technology: windows-devices

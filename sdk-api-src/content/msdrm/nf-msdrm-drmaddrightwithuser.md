@@ -7,7 +7,7 @@ old-location: rm\drmaddrightwithuser.htm
 old-project: AdRms_Sdk
 ms.assetid: 10b76b20-cee7-44f3-b9bd-2b690fdd040c
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMAddRightWithUser, DRMAddRightWithUser function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAddRightWithUser, rm.drmaddrightwithuser
 ms.prod: windows-hardware
 ms.technology: windows-devices

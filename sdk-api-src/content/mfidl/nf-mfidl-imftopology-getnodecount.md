@@ -7,7 +7,7 @@ old-location: mf\imftopology_getnodecount.htm
 old-project: medfound
 ms.assetid: 87378088-1d7a-4ad7-942f-69b6cfc4e573
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 87378088-1d7a-4ad7-942f-69b6cfc4e573, GetNodeCount, GetNodeCount method [Media Foundation], GetNodeCount method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetNodeCount method, IMFTopology.GetNodeCount, IMFTopology::GetNodeCount, mf.imftopology_getnodecount, mfidl/IMFTopology::GetNodeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

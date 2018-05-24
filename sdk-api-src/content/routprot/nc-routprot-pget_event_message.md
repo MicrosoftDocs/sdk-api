@@ -7,7 +7,7 @@ old-location: rras\geteventmessage.htm
 old-project: RRAS
 ms.assetid: 59aa7bd8-3510-4ca0-90f1-2667dcb4abf0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: GetEventMessage, GetEventMessage callback function [RAS], PGET_EVENT_MESSAGE, PGET_EVENT_MESSAGE callback, ROUTER_STOPPED, SAVE_GLOBAL_CONFIG_INFO, SAVE_INTERFACE_CONFIG_INFO, UPDATE_COMPLETE, _mpr_geteventmessage, routprot/GetEventMessage, rras.geteventmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PGET_EVENT_MESSAGE callback function

@@ -7,7 +7,7 @@ old-location: termserv\itssbservicenotification_notifyservicesuccess.htm
 old-project: TermServ
 ms.assetid: 063ed950-f168-491c-85db-14f35741c129
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITsSbServiceNotification interface [Remote Desktop Services],NotifyServiceSuccess method, ITsSbServiceNotification.NotifyServiceSuccess, ITsSbServiceNotification::NotifyServiceSuccess, NotifyServiceSuccess, NotifyServiceSuccess method [Remote Desktop Services], NotifyServiceSuccess method [Remote Desktop Services],ITsSbServiceNotification interface, sbtsv/ITsSbServiceNotification::NotifyServiceSuccess, termserv.itssbservicenotification_notifyservicesuccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbServiceNotification::NotifyServiceSuccess

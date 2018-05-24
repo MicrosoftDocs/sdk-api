@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_setvariablecurvechangehandler.ht
 old-project: UIAnimation
 ms.assetid: 98C95C85-30C9-4E3E-82FE-E3D4C7ECAE0B
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetVariableCurveChangeHandler method, IUIAnimationVariable2.SetVariableCurveChangeHandler, IUIAnimationVariable2::SetVariableCurveChangeHandler, SetVariableCurveChangeHandler, SetVariableCurveChangeHandler method [Windows Animation], SetVariableCurveChangeHandler method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setvariablecurvechangehandler, uianimation/IUIAnimationVariable2::SetVariableCurveChangeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices

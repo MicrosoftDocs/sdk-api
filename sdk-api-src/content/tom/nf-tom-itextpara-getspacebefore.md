@@ -7,7 +7,7 @@ old-location: controls\ITextPara_GetSpaceBefore.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspacebefore.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetSpaceBefore, GetSpaceBefore method [Windows Controls], GetSpaceBefore method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetSpaceBefore method, ITextPara.GetSpaceBefore, ITextPara::GetSpaceBefore, _win32_ITextPara_GetSpaceBefore, _win32_ITextPara_GetSpaceBefore_cpp, controls.ITextPara_GetSpaceBefore, controls._win32_ITextPara_GetSpaceBefore, tom/ITextPara::GetSpaceBefore
 ms.prod: windows-hardware
 ms.technology: windows-devices

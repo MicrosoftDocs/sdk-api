@@ -7,7 +7,7 @@ old-location: base\ivdscontrollerport_reset.htm
 old-project: VDS
 ms.assetid: e298ef9d-8abb-450b-97d3-e97d64f0e734
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsControllerPort interface [VDS],Reset method, IVdsControllerPort.Reset, IVdsControllerPort::Reset, Reset, Reset method [VDS], Reset method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_reset, vds/IVdsControllerPort::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices

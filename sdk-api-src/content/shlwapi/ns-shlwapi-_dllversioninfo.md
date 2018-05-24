@@ -7,7 +7,7 @@ old-location: shell\DLLVERSIONINFO_0rjh.htm
 old-project: shell
 ms.assetid: bc6d856c-027f-43df-9bbc-a76f560dddb0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: DLLVERSIONINFO, DLLVERSIONINFO structure [Windows Shell], DLLVER_PLATFORM_NT, DLLVER_PLATFORM_WINDOWS, _DLLVERSIONINFO, _win32_DLLVERSIONINFO_0rjh, shell.DLLVERSIONINFO_0rjh, shlwapi/DLLVERSIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

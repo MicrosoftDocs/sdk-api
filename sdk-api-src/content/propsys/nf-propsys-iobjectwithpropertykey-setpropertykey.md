@@ -7,7 +7,7 @@ old-location: shell\IObjectWithPropertyKey_SetPropertyKey.htm
 old-project: shell
 ms.assetid: f7352fb0-7e6f-4145-bd5d-4ed3de0c9659
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IObjectWithPropertyKey interface [Windows Shell],SetPropertyKey method, IObjectWithPropertyKey.SetPropertyKey, IObjectWithPropertyKey::SetPropertyKey, SetPropertyKey, SetPropertyKey method [Windows Shell], SetPropertyKey method [Windows Shell],IObjectWithPropertyKey interface, _shell_IObjectWithPropertyKey_SetPropertyKey, propsys/IObjectWithPropertyKey::SetPropertyKey, shell.IObjectWithPropertyKey_SetPropertyKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IObjectWithPropertyKey::SetPropertyKey

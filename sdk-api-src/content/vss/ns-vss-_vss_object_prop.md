@@ -7,7 +7,7 @@ old-location: base\vss_object_prop.htm
 old-project: VSS
 ms.assetid: 90664042-e9a0-4959-a975-9289477d2394
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: "*PVSS_OBJECT_PROP, PVSS_OBJECT_PROP, PVSS_OBJECT_PROP structure pointer [VSS], VSS_OBJECT_PROP, VSS_OBJECT_PROP structure [VSS], _VSS_OBJECT_PROP, _win32_vss_object_prop, base.vss_object_prop, vss/PVSS_OBJECT_PROP, vss/VSS_OBJECT_PROP"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\StrFormatKBSize.htm
 old-project: shell
 ms.assetid: 029c2eb8-3bcd-4302-8894-be2dbe430426
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: StrFormatKBSize, StrFormatKBSize function [Windows Shell], StrFormatKBSizeA, StrFormatKBSizeW, _win32_StrFormatKBSize, shell.StrFormatKBSize, shlwapi/StrFormatKBSize, shlwapi/StrFormatKBSizeA, shlwapi/StrFormatKBSizeW
 ms.prod: windows-hardware
 ms.technology: windows-devices

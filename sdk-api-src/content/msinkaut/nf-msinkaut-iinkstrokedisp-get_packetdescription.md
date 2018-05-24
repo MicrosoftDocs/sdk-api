@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_packetdescription.htm
 old-project: tablet
 ms.assetid: c81f14e2-d97f-42cd-8498-240f8d39f9bc
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IInkStrokeDisp interface [Tablet PC],PacketDescription property, IInkStrokeDisp.PacketDescription, IInkStrokeDisp.get_PacketDescription, IInkStrokeDisp::PacketDescription, IInkStrokeDisp::get_PacketDescription, PacketDescription property [Tablet PC], PacketDescription property [Tablet PC],IInkStrokeDisp interface, c81f14e2-d97f-42cd-8498-240f8d39f9bc, get_PacketDescription, msinkaut/IInkStrokeDisp::PacketDescription, msinkaut/IInkStrokeDisp::get_PacketDescription, tablet.iinkstrokedisp_packetdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::get_PacketDescription

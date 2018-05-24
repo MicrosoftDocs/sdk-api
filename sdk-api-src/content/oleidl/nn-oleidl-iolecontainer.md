@@ -7,7 +7,7 @@ old-location: com\iolecontainer.htm
 old-project: com
 ms.assetid: 98549309-8ac8-4391-92ab-8a62269ff579
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleContainer, IOleContainer interface [COM], IOleContainer interface [COM],described, _ole_iolecontainer, com.iolecontainer, oleidl/IOleContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Adhocreportingexcelclient.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleContainer interface

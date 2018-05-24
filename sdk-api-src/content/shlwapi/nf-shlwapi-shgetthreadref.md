@@ -7,7 +7,7 @@ old-location: shell\SHGetThreadRef.htm
 old-project: shell
 ms.assetid: 307b284b-f493-4d24-a7be-17c150d62b34
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SHGetThreadRef, SHGetThreadRef function [Windows Shell], _win32_SHGetThreadRef, shell.SHGetThreadRef, shlwapi/SHGetThreadRef
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: search\_search_IConditionFactory2_CreateStringLeaf.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createstringleaf.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: CreateStringLeaf, CreateStringLeaf method [search], CreateStringLeaf method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateStringLeaf method, IConditionFactory2.CreateStringLeaf, IConditionFactory2::CreateStringLeaf, _search_IConditionFactory2_CreateStringLeaf, search._search_IConditionFactory2_CreateStringLeaf, structuredquery/IConditionFactory2::CreateStringLeaf
 ms.prod: windows-hardware
 ms.technology: windows-devices

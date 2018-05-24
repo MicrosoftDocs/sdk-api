@@ -7,7 +7,7 @@ old-location: shell\IOpenControlPanel.htm
 old-project: shell
 ms.assetid: fbf86553-7aa1-4a0f-9775-5f71f41b1705
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOpenControlPanel, IOpenControlPanel interface [Windows Shell], IOpenControlPanel interface [Windows Shell],described, _shell_IOpenControlPanel, shell.IOpenControlPanel, shobjidl_core/IOpenControlPanel
 ms.prod: windows-hardware
 ms.technology: windows-devices

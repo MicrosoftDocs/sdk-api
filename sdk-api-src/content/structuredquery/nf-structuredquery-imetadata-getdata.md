@@ -7,7 +7,7 @@ old-location: search\_search_IMetaData_GetData.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\imetadata\getdata.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: GetData, GetData method [search], GetData method [search],IMetaData interface, IMetaData interface [search],GetData method, IMetaData.GetData, IMetaData::GetData, _search_IMetaData_GetData, search._search_IMetaData_GetData, structuredquery/IMetaData::GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices

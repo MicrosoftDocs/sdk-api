@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getdocumentfont.htm
 old-project: Controls
 ms.assetid: b028c2f6-8c8e-49f8-bf53-f4a639cb16c2
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetDocumentFont, GetDocumentFont method [Windows Controls], GetDocumentFont method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetDocumentFont method, ITextDocument2.GetDocumentFont, ITextDocument2::GetDocumentFont, controls.itextdocument2_getdocumentfont, tom/ITextDocument2::GetDocumentFont
 ms.prod: windows-hardware
 ms.technology: windows-devices

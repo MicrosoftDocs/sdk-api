@@ -7,7 +7,7 @@ old-location: shell\SHCreateStdEnumFmtEtc.htm
 old-project: shell
 ms.assetid: c391c8c8-6062-4e70-9a1f-de0eb610250d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SHCreateStdEnumFmtEtc, SHCreateStdEnumFmtEtc function [Windows Shell], _win32_SHCreateStdEnumFmtEtc, shell.SHCreateStdEnumFmtEtc, shlobj_core/SHCreateStdEnumFmtEtc
 ms.prod: windows-hardware
 ms.technology: windows-devices

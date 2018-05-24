@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetColumnState.htm
 old-project: properties
 ms.assetid: fcfb5905-884a-49ed-aa1d-acd3b95753bf
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: GetColumnState, GetColumnState method [Windows Properties], GetColumnState method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetColumnState method, IPropertyDescription.GetColumnState, IPropertyDescription::GetColumnState, properties.IPropertyDescription_GetColumnState, propsys/IPropertyDescription::GetColumnState, shell.IPropertyDescription_GetColumnState, shell_IPropertyDescription_GetColumnState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyDescription::GetColumnState

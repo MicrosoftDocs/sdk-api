@@ -7,7 +7,7 @@ old-location: security\geteffectiverightsfromacl.htm
 old-project: SecAuthZ
 ms.assetid: c40973e8-72a9-43a2-9873-ea5c666a094c
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: GetEffectiveRightsFromAcl, GetEffectiveRightsFromAcl function [Security], GetEffectiveRightsFromAclA, GetEffectiveRightsFromAclW, _win32_geteffectiverightsfromacl, aclapi/GetEffectiveRightsFromAcl, aclapi/GetEffectiveRightsFromAclA, aclapi/GetEffectiveRightsFromAclW, security.geteffectiverightsfromacl
 ms.prod: windows-hardware
 ms.technology: windows-devices

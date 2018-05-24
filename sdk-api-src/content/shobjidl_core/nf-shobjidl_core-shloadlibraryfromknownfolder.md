@@ -7,7 +7,7 @@ old-location: shell\SHLoadLibraryFromKnownFolder.htm
 old-project: shell
 ms.assetid: 9486252b-9aaf-4daf-b307-5a5adddfaa99
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SHLoadLibraryFromKnownFolder, SHLoadLibraryFromKnownFolder function [Windows Shell], _shell_SHLoadLibraryFromKnownFolder, shell.SHLoadLibraryFromKnownFolder, shobjidl_core/SHLoadLibraryFromKnownFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

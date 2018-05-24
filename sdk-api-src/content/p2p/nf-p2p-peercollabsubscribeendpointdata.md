@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PeerCollabSubscribeEndpointData function

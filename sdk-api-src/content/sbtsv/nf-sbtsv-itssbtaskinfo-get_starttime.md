@@ -7,7 +7,7 @@ old-location: termserv\itssbtaskinfo_starttime.htm
 old-project: TermServ
 ms.assetid: 74ff25aa-3336-4524-9051-69e51d357f84
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],StartTime property, ITsSbTaskInfo.StartTime, ITsSbTaskInfo.get_StartTime, ITsSbTaskInfo::StartTime, ITsSbTaskInfo::get_StartTime, StartTime property [Remote Desktop Services], StartTime property [Remote Desktop Services],ITsSbTaskInfo interface, get_StartTime, sbtsv/ITsSbTaskInfo::StartTime, sbtsv/ITsSbTaskInfo::get_StartTime, termserv.itssbtaskinfo_starttime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbTaskInfo::get_StartTime

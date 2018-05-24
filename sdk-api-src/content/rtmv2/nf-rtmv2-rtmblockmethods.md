@@ -7,7 +7,7 @@ old-location: rras\rtmblockmethods.htm
 old-project: RRAS
 ms.assetid: 492bb2bf-5b35-4eef-a039-3d3e1137220f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: DEST_TYPE, NEXTHOP_TYPE, ROUTE_TYPE, RTM_BLOCK_METHODS, RTM_RESUME_METHODS, RtmBlockMethods, RtmBlockMethods function [RAS], _rtmv2ref_rtmblockmethods, rras.rtmblockmethods, rtmv2/RtmBlockMethods
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtmBlockMethods function

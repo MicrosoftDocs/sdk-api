@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadInt.htm
 old-project: properties
 ms.assetid: 9CEC97E6-C88F-4182-876C-D77EA14915DA
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PSPropertyBag_ReadInt, PSPropertyBag_ReadInt function [Windows Properties], properties.PSPropertyBag_ReadInt, propsys/PSPropertyBag_ReadInt, shell.PSPropertyBag_ReadInt, shell_PSPropertyBag_ReadInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSPropertyBag_ReadInt function

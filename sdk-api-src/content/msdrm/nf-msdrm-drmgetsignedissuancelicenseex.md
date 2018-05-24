@@ -7,7 +7,7 @@ old-location: rm\drmgetsignedissuancelicenseex.htm
 old-project: AdRms_Sdk
 ms.assetid: 9d37f69e-e582-4efc-9f17-866f195e439a
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMGetSignedIssuanceLicenseEx, DRMGetSignedIssuanceLicenseEx function [Active Directory Rights Management Services SDK 1.0], DRM_AUTO_GENERATE_KEY, DRM_OWNER_LICENSE_NOPERSIST, DRM_REUSE_KEY, DRM_SIGN_CANCEL, DRM_SIGN_OFFLINE, msdrm/DRMGetSignedIssuanceLicenseEx, rm.drmgetsignedissuancelicenseex
 ms.prod: windows-hardware
 ms.technology: windows-devices

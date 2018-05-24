@@ -7,7 +7,7 @@ old-location: base\regenumkeyex.htm
 old-project: SysInfo
 ms.assetid: 647d34cc-01ba-4389-be29-b099ed198e7c
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: RegEnumKeyEx, RegEnumKeyEx function, RegEnumKeyExA, RegEnumKeyExW, _win32_regenumkeyex, base.regenumkeyex, winreg/RegEnumKeyEx, winreg/RegEnumKeyExA, winreg/RegEnumKeyExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

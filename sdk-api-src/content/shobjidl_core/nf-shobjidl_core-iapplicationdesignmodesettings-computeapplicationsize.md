@@ -7,7 +7,7 @@ old-location: shell\IApplicationDesignModeSettings_ComputeApplicationSize.htm
 old-project: shell
 ms.assetid: 1ac42bb8-1c24-4369-8d0d-db3ad4062501
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ComputeApplicationSize, ComputeApplicationSize method [Windows Shell], ComputeApplicationSize method [Windows Shell],IApplicationDesignModeSettings interface, IApplicationDesignModeSettings interface [Windows Shell],ComputeApplicationSize method, IApplicationDesignModeSettings.ComputeApplicationSize, IApplicationDesignModeSettings::ComputeApplicationSize, shell.IApplicationDesignModeSettings_ComputeApplicationSize, shobjidl_core/IApplicationDesignModeSettings::ComputeApplicationSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

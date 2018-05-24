@@ -7,7 +7,7 @@ old-location: shell\IUserNotificationCallback_OnLeftClick.htm
 old-project: shell
 ms.assetid: 0202aace-94d6-4619-8838-eea0b174ffb6
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnLeftClick method, IUserNotificationCallback.OnLeftClick, IUserNotificationCallback::OnLeftClick, OnLeftClick, OnLeftClick method [Windows Shell], OnLeftClick method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnLeftClick, shell.IUserNotificationCallback_OnLeftClick, shobjidl/IUserNotificationCallback::OnLeftClick
 ms.prod: windows-hardware
 ms.technology: windows-devices

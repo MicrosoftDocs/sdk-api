@@ -7,7 +7,7 @@ old-location: security\icertview2_setresultcolumn.htm
 old-project: SecCrypto
 ms.assetid: c13bdc3a-e623-49df-bba0-34c4c178dc3b
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CCertView object [Security],SetResultColumn method, ICertView interface [Security],SetResultColumn method, ICertView.SetResultColumn, ICertView2 interface [Security],SetResultColumn method, ICertView2::SetResultColumn, ICertView::SetResultColumn, SetResultColumn, SetResultColumn method [Security], SetResultColumn method [Security],CCertView object, SetResultColumn method [Security],ICertView interface, SetResultColumn method [Security],ICertView2 interface, certview/ICertView2::SetResultColumn, certview/ICertView::SetResultColumn, security.icertview2_setresultcolumn
 ms.prod: windows-hardware
 ms.technology: windows-devices

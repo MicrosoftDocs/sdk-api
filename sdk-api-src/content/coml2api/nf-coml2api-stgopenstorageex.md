@@ -7,7 +7,7 @@ old-location: stg\stgopenstorageex.htm
 old-project: Stg
 ms.assetid: 4f2138fb-1f80-4345-a3cb-9c11023457b1
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: StgOpenStorageEx, StgOpenStorageEx function [Structured Storage], _stg_stgopenstorageex, coml2api/StgOpenStorageEx, stg.stgopenstorageex
 ms.prod: windows-hardware
 ms.technology: windows-devices

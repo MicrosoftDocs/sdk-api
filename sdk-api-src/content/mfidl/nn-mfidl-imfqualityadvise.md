@@ -7,7 +7,7 @@ old-location: mf\imfqualityadvise.htm
 old-project: medfound
 ms.assetid: 20681ce7-e07e-4e34-9238-ec23cc6bfc84
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 20681ce7-e07e-4e34-9238-ec23cc6bfc84, IMFQualityAdvise, IMFQualityAdvise interface [Media Foundation], IMFQualityAdvise interface [Media Foundation],described, mf.imfqualityadvise, mfidl/IMFQualityAdvise
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

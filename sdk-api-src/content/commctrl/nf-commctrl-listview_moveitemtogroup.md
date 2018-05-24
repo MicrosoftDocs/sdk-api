@@ -7,7 +7,7 @@ old-location: controls\ListView_MoveItemToGroup.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_moveitemtogroup.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: ListView_MoveItemToGroup, ListView_MoveItemToGroup macro [Windows Controls], _win32_ListView_MoveItemToGroup, _win32_ListView_MoveItemToGroup_cpp, commctrl/ListView_MoveItemToGroup, controls.ListView_MoveItemToGroup, controls._win32_ListView_MoveItemToGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_getvolumeprotectlevel.h
 old-project: VSS
 ms.assetid: a67bf9f1-135b-4881-acd1-6392f27d58e5
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetVolumeProtectLevel, GetVolumeProtectLevel method, GetVolumeProtectLevel method,IVssDifferentialSoftwareSnapshotMgmt3 interface, IVssDifferentialSoftwareSnapshotMgmt3 interface,GetVolumeProtectLevel method, IVssDifferentialSoftwareSnapshotMgmt3.GetVolumeProtectLevel, IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel, base.ivssdifferentialsoftwaresnapshotmgmt3_getvolumeprotectlevel, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

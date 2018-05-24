@@ -7,7 +7,7 @@ old-location: shell\IObjectWithBackReferences.htm
 old-project: shell
 ms.assetid: 9ce0edc6-c2b1-4222-a12b-daf94efcb233
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IObjectWithBackReferences, IObjectWithBackReferences interface [Windows Shell], IObjectWithBackReferences interface [Windows Shell],described, _shell_IObjectWithBackReferences, shell.IObjectWithBackReferences, shobjidl_core/IObjectWithBackReferences
 ms.prod: windows-hardware
 ms.technology: windows-devices

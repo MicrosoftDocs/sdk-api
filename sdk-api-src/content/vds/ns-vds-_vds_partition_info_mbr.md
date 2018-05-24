@@ -7,7 +7,7 @@ old-location: base\vds_partition_info_mbr.htm
 old-project: VDS
 ms.assetid: d14a852f-8a78-4631-a288-476701321ac2
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_PARTITION_INFO_MBR, VDS_PARTITION_INFO_MBR structure [VDS], _VDS_PARTITION_INFO_MBR, base.vds_partition_info_mbr, vds/_VDS_PARTITION_INFO_MBR
 ms.prod: windows-hardware
 ms.technology: windows-devices

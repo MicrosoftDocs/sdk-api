@@ -7,7 +7,7 @@ old-location: shell\PathCompactPath.htm
 old-project: shell
 ms.assetid: b8184c98-1f86-4714-baf8-af4ef3e71cf2
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: PathCompactPath, PathCompactPath function [Windows Shell], PathCompactPathA, PathCompactPathW, _win32_PathCompactPath, shell.PathCompactPath, shlwapi/PathCompactPath, shlwapi/PathCompactPathA, shlwapi/PathCompactPathW
 ms.prod: windows-hardware
 ms.technology: windows-devices

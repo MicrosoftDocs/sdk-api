@@ -7,7 +7,7 @@ old-location: mf\mfscheduleworkitem.htm
 old-project: medfound
 ms.assetid: c14786e4-7fbe-4748-a6ba-e9e68f78b241
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFScheduleWorkItem, MFScheduleWorkItem function [Media Foundation], c14786e4-7fbe-4748-a6ba-e9e68f78b241, mf.mfscheduleworkitem, mfapi/MFScheduleWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices

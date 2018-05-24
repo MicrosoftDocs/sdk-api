@@ -7,7 +7,7 @@ old-location: base\ivdsvolumemf2.htm
 old-project: VDS
 ms.assetid: 3219233e-7141-472a-8cb9-207222a4e775
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsVolumeMF2, IVdsVolumeMF2 interface, IVdsVolumeMF2 interface,described, base.ivdsvolumemf2, vds/IVdsVolumeMF2
 ms.prod: windows-hardware
 ms.technology: windows-devices

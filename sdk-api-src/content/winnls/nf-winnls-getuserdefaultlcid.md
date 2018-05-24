@@ -7,7 +7,7 @@ old-location: intl\getuserdefaultlcid.htm
 old-project: Intl
 ms.assetid: bbf8399e-9034-4480-8d6e-030714f94e48
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: GetUserDefaultLCID, GetUserDefaultLCID function [Internationalization for Windows Applications], _win32_GetUserDefaultLCID, intl.getuserdefaultlcid, winnls/GetUserDefaultLCID
 ms.prod: windows-hardware
 ms.technology: windows-devices

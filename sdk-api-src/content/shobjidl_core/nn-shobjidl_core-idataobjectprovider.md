@@ -7,7 +7,7 @@ old-location: shell\IDataObjectProvider.htm
 old-project: shell
 ms.assetid: 57A5003A-11DF-42c2-9C00-7DE35898B64D
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IDataObjectProvider, IDataObjectProvider interface [Windows Shell], IDataObjectProvider interface [Windows Shell],described, shell.IDataObjectProvider, shobjidl_core/IDataObjectProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices

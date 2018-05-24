@@ -7,7 +7,7 @@ old-location: rm\drmacquireadvisories.htm
 old-project: AdRms_Sdk
 ms.assetid: 42c58096-429c-4278-b9ab-8c5a91361af8
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMAcquireAdvisories, DRMAcquireAdvisories function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAcquireAdvisories, rm.drmacquireadvisories
 ms.prod: windows-hardware
 ms.technology: windows-devices

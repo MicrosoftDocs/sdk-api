@@ -7,7 +7,7 @@ old-location: shell\IUserNotification.htm
 old-project: shell
 ms.assetid: 24ff171c-e9e2-4d62-8a8c-d62e5d7a92ad
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IUserNotification, IUserNotification interface [Windows Shell], IUserNotification interface [Windows Shell],described, inet_IUserNotification, shell.IUserNotification, shobjidl_core/IUserNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

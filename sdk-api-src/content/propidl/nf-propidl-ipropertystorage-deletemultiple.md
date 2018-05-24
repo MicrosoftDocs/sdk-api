@@ -7,7 +7,7 @@ old-location: stg\ipropertystorage_deletemultiple.htm
 old-project: Stg
 ms.assetid: 95c218f1-2bf7-4946-ae9c-934e5916395a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: DeleteMultiple, DeleteMultiple method [Structured Storage], DeleteMultiple method [Structured Storage],IPropertyStorage interface, IPropertyStorage interface [Structured Storage],DeleteMultiple method, IPropertyStorage.DeleteMultiple, IPropertyStorage::DeleteMultiple, _stg_ipropertystorage_deletemultiple, propidl/IPropertyStorage::DeleteMultiple, stg.ipropertystorage_deletemultiple
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyStorage::DeleteMultiple

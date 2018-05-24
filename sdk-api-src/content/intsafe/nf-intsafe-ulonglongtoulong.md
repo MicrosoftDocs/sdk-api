@@ -7,7 +7,7 @@ old-location: shell\ULongLongToULong.htm
 old-project: shell
 ms.assetid: d00be99c-f4ec-4a4e-98d1-6e96f5bd3a0c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ULongLongToDWord, ULongLongToULong, ULongLongToULong function [Windows Shell], _shell_ULongLongToULong, intsafe/ULongLongToULong, shell.ULongLongToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices

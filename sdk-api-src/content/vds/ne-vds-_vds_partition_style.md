@@ -7,7 +7,7 @@ old-location: base\vds_partition_style.htm
 old-project: VDS
 ms.assetid: 31b7f0b3-cc3c-48e7-a4f0-628f0185f3cb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_PARTITION_STYLE, VDS_PARTITION_STYLE enumeration [VDS], VDS_PST_GPT, VDS_PST_MBR, VDS_PST_UNKNOWN, _VDS_PARTITION_STYLE, base.vds_partition_style, vds/VDS_PARTITION_STYLE, vds/VDS_PST_GPT, vds/VDS_PST_MBR, vds/VDS_PST_UNKNOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\FreeIDListArrayChild.htm
 old-project: shell
 ms.assetid: 89abceae-1aed-401d-82ab-57215ec22d00
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: FreeIDListArrayChild, FreeIDListArrayChild function [Windows Shell], _shell_FreeIDListArrayChild, shell.FreeIDListArrayChild, shobjidl_core/FreeIDListArrayChild
 ms.prod: windows-hardware
 ms.technology: windows-devices

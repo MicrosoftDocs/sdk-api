@@ -7,7 +7,7 @@ old-location: shell\IFolderView_GetDefaultSpacing.htm
 old-project: shell
 ms.assetid: eb5f2dd6-1257-4cfc-a222-88e6c3b524ce
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetDefaultSpacing, GetDefaultSpacing method [Windows Shell], GetDefaultSpacing method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetDefaultSpacing method, IFolderView.GetDefaultSpacing, IFolderView::GetDefaultSpacing, _shell_IFolderView_GetDefaultSpacing, shell.IFolderView_GetDefaultSpacing, shobjidl_core/IFolderView::GetDefaultSpacing
 ms.prod: windows-hardware
 ms.technology: windows-devices

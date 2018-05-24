@@ -7,7 +7,7 @@ old-location: shell\SHLoadNonloadedIconOverlayIdentifiers.htm
 old-project: shell
 ms.assetid: d2c4f37e-6e9d-4536-90ea-d69461c4105a
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SHLoadNonloadedIconOverlayIdentifiers, SHLoadNonloadedIconOverlayIdentifiers function [Windows Shell], _shell_shloadnonloadediconoverlayidentifiers, shell.SHLoadNonloadedIconOverlayIdentifiers, shellapi/SHLoadNonloadedIconOverlayIdentifiers
 ms.prod: windows-hardware
 ms.technology: windows-devices

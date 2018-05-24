@@ -7,7 +7,7 @@ old-location: shell\ICustomDestinationList_AddUserTasks.htm
 old-project: shell
 ms.assetid: 7b254276-dc6f-4d20-8f44-fce8e01b237f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: AddUserTasks, AddUserTasks method [Windows Shell], AddUserTasks method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AddUserTasks method, ICustomDestinationList.AddUserTasks, ICustomDestinationList::AddUserTasks, _shell_ICustomDestinationList_AddUserTasks, shell.ICustomDestinationList_AddUserTasks, shobjidl_core/ICustomDestinationList::AddUserTasks
 ms.prod: windows-hardware
 ms.technology: windows-devices

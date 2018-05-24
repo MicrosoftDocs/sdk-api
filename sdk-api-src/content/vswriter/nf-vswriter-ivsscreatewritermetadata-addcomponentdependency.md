@@ -7,7 +7,7 @@ old-location: base\ivsscreatewritermetadata_addcomponentdependency.htm
 old-project: VSS
 ms.assetid: cc6c8ab6-3706-4c75-ba31-cc8c1dc4dd06
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: AddComponentDependency, AddComponentDependency method [VSS], AddComponentDependency method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddComponentDependency method, IVssCreateWriterMetadata.AddComponentDependency, IVssCreateWriterMetadata::AddComponentDependency, _win32_ivsscreatewritermetadata_addcomponentdependency, base.ivsscreatewritermetadata_addcomponentdependency, vswriter/IVssCreateWriterMetadata::AddComponentDependency
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rm\drmaddlicense.htm
 old-project: AdRms_Sdk
 ms.assetid: d91a017c-7dc2-42d7-a8d3-9e0c83d05ea2
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMAddLicense, DRMAddLicense function [Active Directory Rights Management Services SDK 1.0], DRM_ADD_LICENSE_NOPERSIST, DRM_ADD_LICENSE_PERSIST, msdrm/DRMAddLicense, rm.drmaddlicense
 ms.prod: windows-hardware
 ms.technology: windows-devices

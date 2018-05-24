@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingarchive_archivefolder_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4302.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: ArchiveFolder property [Fax Service], ArchiveFolder property [Fax Service],FaxOutgoingArchive object, FaxOutgoingArchive object [Fax Service],ArchiveFolder property, FaxOutgoingArchive.ArchiveFolder, IFaxOutgoingArchive.put_ArchiveFolder, IFaxOutgoingArchive::put_ArchiveFolder, _mfax_faxoutgoingarchive.archivefolder, fax._mfax_faxoutgoingarchive_archivefolder, fax._mfax_faxoutgoingarchive_archivefolder_vb, put_ArchiveFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

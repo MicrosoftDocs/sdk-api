@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex1d_srv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex1d_srv.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: D3D10_TEX1D_SRV, D3D10_TEX1D_SRV structure [Direct3D 10], d3d10/D3D10_TEX1D_SRV, d4d7de7d-f574-5d27-4164-a30ae50fa54b, direct3d10.d3d10_tex1d_srv
 ms.prod: windows-hardware
 ms.technology: windows-devices

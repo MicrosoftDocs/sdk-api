@@ -7,7 +7,7 @@ old-location: mf\imfinputtrustauthority_updateaccess.htm
 old-project: medfound
 ms.assetid: 4ca635fc-15eb-4a9e-8f59-7fa2e3f3e176
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 4ca635fc-15eb-4a9e-8f59-7fa2e3f3e176, IMFInputTrustAuthority interface [Media Foundation],UpdateAccess method, IMFInputTrustAuthority.UpdateAccess, IMFInputTrustAuthority::UpdateAccess, UpdateAccess, UpdateAccess method [Media Foundation], UpdateAccess method [Media Foundation],IMFInputTrustAuthority interface, mf.imfinputtrustauthority_updateaccess, mfidl/IMFInputTrustAuthority::UpdateAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

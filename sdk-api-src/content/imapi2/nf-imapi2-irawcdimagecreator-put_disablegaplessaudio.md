@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator_put_disablegaplessaudio.htm
 old-project: imapi
 ms.assetid: c9e17ed7-f51a-4b28-82db-36cad1aedd39
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_DisableGaplessAudio method, IRawCDImageCreator.put_DisableGaplessAudio, IRawCDImageCreator::put_DisableGaplessAudio, imapi.irawcdimagecreator_put_disablegaplessaudio, imapi2/IRawCDImageCreator::put_DisableGaplessAudio, put_DisableGaplessAudio, put_DisableGaplessAudio method [IMAPI], put_DisableGaplessAudio method [IMAPI],IRawCDImageCreator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

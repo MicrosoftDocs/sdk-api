@@ -7,7 +7,7 @@ old-location: shell\IPersistIDList.htm
 old-project: shell
 ms.assetid: b367dc07-8a50-4562-bd73-57c73c781d81
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IPersistIDList, IPersistIDList interface [Windows Shell], IPersistIDList interface [Windows Shell],described, inet_IPersistIDList, shell.IPersistIDList, shobjidl_core/IPersistIDList
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getstrings.htm
 old-project: Controls
 ms.assetid: 54d8c682-4e30-4ce2-baa1-d89e28491015
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetStrings, GetStrings method [Windows Controls], GetStrings method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetStrings method, ITextDocument2.GetStrings, ITextDocument2::GetStrings, controls.itextdocument2_getstrings, tom/ITextDocument2::GetStrings
 ms.prod: windows-hardware
 ms.technology: windows-devices

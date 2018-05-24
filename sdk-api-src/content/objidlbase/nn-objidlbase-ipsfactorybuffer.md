@@ -7,7 +7,7 @@ old-location: com\ipsfactorybuffer.htm
 old-project: com
 ms.assetid: ffe85701-a4fa-4cf3-9b86-85f3a0cb63e9
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IPSFactoryBuffer, IPSFactoryBuffer interface [COM], IPSFactoryBuffer interface [COM],described, _com_ipsfactorybuffer, com.ipsfactorybuffer, objidlbase/IPSFactoryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPSFactoryBuffer interface

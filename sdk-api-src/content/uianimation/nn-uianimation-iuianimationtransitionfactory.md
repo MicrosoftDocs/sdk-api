@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionfactory.htm
 old-project: UIAnimation
 ms.assetid: 62aec8da-e067-4b61-9465-e07fb5b42b7f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IUIAnimationTransitionFactory, IUIAnimationTransitionFactory interface [Windows Animation], IUIAnimationTransitionFactory interface [Windows Animation],described, uianimation.iuianimationtransitionfactory, uianimation/IUIAnimationTransitionFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

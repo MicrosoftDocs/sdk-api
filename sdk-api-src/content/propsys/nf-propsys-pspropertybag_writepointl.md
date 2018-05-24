@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WritePOINTL.htm
 old-project: properties
 ms.assetid: 881A9D35-DF77-44d1-86DF-D6BC97AC0DD4
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PSPropertyBag_WritePOINTL, PSPropertyBag_WritePOINTL function [Windows Properties], properties.PSPropertyBag_WritePOINTL, propsys/PSPropertyBag_WritePOINTL, shell.PSPropertyBag_WritePOINTL, shell_PSPropertyBag_WritePOINTL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSPropertyBag_WritePOINTL function

@@ -7,7 +7,7 @@ old-location: controls\IRichEditOle_GetLinkCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetlinkcount.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetLinkCount, GetLinkCount method [Windows Controls], GetLinkCount method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetLinkCount method, IRichEditOle.GetLinkCount, IRichEditOle::GetLinkCount, _win32_IRichEditOle_GetLinkCount, _win32_IRichEditOle_GetLinkCount_cpp, controls.IRichEditOle_GetLinkCount, controls._win32_IRichEditOle_GetLinkCount, richole/IRichEditOle::GetLinkCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRichEditOle::GetLinkCount

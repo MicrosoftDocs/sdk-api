@@ -7,7 +7,7 @@ old-location: shell\INamespaceWalk_GetIDArrayResult.htm
 old-project: shell
 ms.assetid: 51bce109-8f84-4852-bec5-e4f2937c31b3
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetIDArrayResult, GetIDArrayResult method [Windows Shell], GetIDArrayResult method [Windows Shell],INamespaceWalk interface, INamespaceWalk interface [Windows Shell],GetIDArrayResult method, INamespaceWalk.GetIDArrayResult, INamespaceWalk::GetIDArrayResult, _win32_INamespaceWalk_GetIDArrayResult, shell.INamespaceWalk_GetIDArrayResult, shobjidl_core/INamespaceWalk::GetIDArrayResult
 ms.prod: windows-hardware
 ms.technology: windows-devices

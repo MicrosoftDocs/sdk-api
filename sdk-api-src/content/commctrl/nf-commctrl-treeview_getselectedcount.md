@@ -7,7 +7,7 @@ old-location: controls\TreeView_GetSelectedCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getselectedcount.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: TreeView_GetSelectedCount, TreeView_GetSelectedCount macro [Windows Controls], _shell_TreeView_GetSelectedCount, _shell_TreeView_GetSelectedCount_cpp, commctrl/TreeView_GetSelectedCount, controls.TreeView_GetSelectedCount, controls._shell_TreeView_GetSelectedCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

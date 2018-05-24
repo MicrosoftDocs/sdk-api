@@ -7,7 +7,7 @@ old-location: security\certenumcrlcontextproperties.htm
 old-project: SecCrypto
 ms.assetid: 330808ef-9b39-4bd4-ba0b-9e70ec516f33
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CertEnumCRLContextProperties, CertEnumCRLContextProperties function [Security], _crypto2_certenumcrlcontextproperties, security.certenumcrlcontextproperties, wincrypt/CertEnumCRLContextProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

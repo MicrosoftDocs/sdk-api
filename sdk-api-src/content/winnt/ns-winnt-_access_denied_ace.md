@@ -7,7 +7,7 @@ old-location: security\access_denied_ace.htm
 old-project: SecAuthZ
 ms.assetid: d76a92d0-ccd0-4e73-98b6-43bcd661134d
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: "*PACCESS_DENIED_ACE, ACCESS_DENIED_ACE, ACCESS_DENIED_ACE structure [Security], PACCESS_DENIED_ACE, PACCESS_DENIED_ACE structure pointer [Security], _ACCESS_DENIED_ACE, _win32_access_denied_ace_str, security.access_denied_ace, winnt/ACCESS_DENIED_ACE, winnt/PACCESS_DENIED_ACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

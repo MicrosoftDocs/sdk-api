@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Propsys.idl
 req.dll: 
 req.irql: All levels
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyStore::SetValue

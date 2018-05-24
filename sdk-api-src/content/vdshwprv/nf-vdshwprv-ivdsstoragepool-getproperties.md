@@ -7,7 +7,7 @@ old-location: base\ivdsstoragepool_getproperties.htm
 old-project: VDS
 ms.assetid: 9c37b5b1-4958-4b63-ba30-65b394dd05b7
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetProperties, GetProperties method, GetProperties method,IVdsStoragePool interface, IVdsStoragePool interface,GetProperties method, IVdsStoragePool.GetProperties, IVdsStoragePool::GetProperties, base.ivdsstoragepool_getproperties, vds/IVdsStoragePool::GetProperties, vdshwprv/IVdsStoragePool::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

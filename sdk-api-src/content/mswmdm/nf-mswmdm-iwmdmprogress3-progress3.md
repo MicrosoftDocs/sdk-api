@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress3_progress3.htm
 old-project: WMDM
 ms.assetid: 33f1de9c-f2eb-4b83-89a1-404a8c50ee08
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IWMDMProgress3 interface [windows Media Device Manager],Progress3 method, IWMDMProgress3.Progress3, IWMDMProgress3::Progress3, IWMDMProgress3Progress3, Progress3, Progress3 method [windows Media Device Manager], Progress3 method [windows Media Device Manager],IWMDMProgress3 interface, mswmdm/IWMDMProgress3::Progress3, wmdm.iwmdmprogress3_progress3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMProgress3::Progress3

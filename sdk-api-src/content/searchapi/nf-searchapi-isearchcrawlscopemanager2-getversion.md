@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCrawlScopeManager2_GetVersion.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager2\getversion.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: GetVersion, GetVersion method [search], GetVersion method [search],ISearchCrawlScopeManager2 interface, ISearchCrawlScopeManager2 interface [search],GetVersion method, ISearchCrawlScopeManager2.GetVersion, ISearchCrawlScopeManager2::GetVersion, _search_ISearchCrawlScopeManager2_GetVersion, search._search_ISearchCrawlScopeManager2_GetVersion, searchapi/ISearchCrawlScopeManager2::GetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISearchCrawlScopeManager2::GetVersion

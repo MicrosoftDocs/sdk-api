@@ -7,7 +7,7 @@ old-location: security\cryptsipverifyindirectdata.htm
 old-project: SecCrypto
 ms.assetid: 137b8858-a31f-4ef6-96bd-c5e26ae7b3e8
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CryptSIPVerifyIndirectData, CryptSIPVerifyIndirectData function [Security], mssip/CryptSIPVerifyIndirectData, security.cryptsipverifyindirectdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CryptSIPVerifyIndirectData function

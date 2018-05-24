@@ -7,7 +7,7 @@ old-location: netmgmt\netgroupdel.htm
 old-project: NetMgmt
 ms.assetid: e637d1af-c900-4c91-a771-1428f9cfac8b
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: NetGroupDel, NetGroupDel function [Network Management], _win32_netgroupdel, lmaccess/NetGroupDel, netmgmt.netgroupdel
 ms.prod: windows-hardware
 ms.technology: windows-devices

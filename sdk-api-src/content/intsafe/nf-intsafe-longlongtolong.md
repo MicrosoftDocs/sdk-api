@@ -7,7 +7,7 @@ old-location: shell\LongLongToLong.htm
 old-project: shell
 ms.assetid: c77dbb9f-6c3a-4793-9740-ce9b75727b0d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: Int64ToLong, LongLongToLong, LongLongToLong function [Windows Shell], intsafe/LongLongToLong, shell.LongLongToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices

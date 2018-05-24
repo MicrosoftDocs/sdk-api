@@ -7,7 +7,7 @@ old-location: shell\IExplorerBrowser_GetOptions.htm
 old-project: shell
 ms.assetid: e2c7ee6a-fbd9-4b75-a9ed-734e7977088d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],GetOptions method, IExplorerBrowser.GetOptions, IExplorerBrowser::GetOptions, _shell_IExplorerBrowser_GetOptions, shell.IExplorerBrowser_GetOptions, shobjidl_core/IExplorerBrowser::GetOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices

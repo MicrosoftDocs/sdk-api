@@ -7,7 +7,7 @@ old-location: com\iforegroundtransfer.htm
 old-project: com
 ms.assetid: 21857592-0f98-4eb4-a153-4ce20edf26c7
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IForegroundTransfer, IForegroundTransfer interface [COM], IForegroundTransfer interface [COM],described, _com_iforegroundtransfer, com.iforegroundtransfer, objidl/IForegroundTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IForegroundTransfer interface

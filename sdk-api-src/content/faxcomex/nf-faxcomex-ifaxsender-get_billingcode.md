@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsender_billingcode_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6f39.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: BillingCode property [Fax Service], BillingCode property [Fax Service],FaxSender object, FaxSender object [Fax Service],BillingCode property, FaxSender.BillingCode, IFaxSender.get_BillingCode, IFaxSender::get_BillingCode, _mfax_faxsender.billingcode, fax._mfax_faxsender_billingcode, fax._mfax_faxsender_billingcode_vb, get_BillingCode
 ms.prod: windows-hardware
 ms.technology: windows-devices

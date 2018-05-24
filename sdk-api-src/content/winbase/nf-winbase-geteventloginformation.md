@@ -7,7 +7,7 @@ old-location: base\geteventloginformation.htm
 old-project: EventLog
 ms.assetid: 627e0af2-3ce6-47fe-89c6-d7c0483cb94b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: EVENTLOG_FULL_INFO, GetEventLogInformation, GetEventLogInformation function, _win32_geteventloginformation, base.geteventloginformation, winbase/GetEventLogInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ioleinplacesitewindowless_setcapture.htm
 old-project: com
 ms.assetid: 48de7ab3-eb1e-49e1-8d31-ca1ef1f9055d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],SetCapture method, IOleInPlaceSiteWindowless.SetCapture, IOleInPlaceSiteWindowless::SetCapture, SetCapture, SetCapture method [COM], SetCapture method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_setcapture, com.ioleinplacesitewindowless_setcapture, ocidl/IOleInPlaceSiteWindowless::SetCapture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleInPlaceSiteWindowless::SetCapture

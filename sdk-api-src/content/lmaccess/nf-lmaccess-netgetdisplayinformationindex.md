@@ -7,7 +7,7 @@ old-location: netmgmt\netgetdisplayinformationindex.htm
 old-project: NetMgmt
 ms.assetid: c56b3cf9-e0a2-4b66-a518-70753b79214c
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: 1, 2, 3, NetGetDisplayInformationIndex, NetGetDisplayInformationIndex function [Network Management], _win32_netgetdisplayinformationindex, lmaccess/NetGetDisplayInformationIndex, netmgmt.netgetdisplayinformationindex
 ms.prod: windows-hardware
 ms.technology: windows-devices

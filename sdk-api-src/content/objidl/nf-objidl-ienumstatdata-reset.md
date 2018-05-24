@@ -7,7 +7,7 @@ old-location: com\ienumstatdata_reset.htm
 old-project: com
 ms.assetid: 239edaf7-9e4c-4652-a2d8-08b798ed22ee
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumSTATDATA interface [COM],Reset method, IEnumSTATDATA.Reset, IEnumSTATDATA::Reset, Reset, Reset method [COM], Reset method [COM],IEnumSTATDATA interface, _ole_ienumstatdata_reset, com.ienumstatdata_reset, objidl/IEnumSTATDATA::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumSTATDATA::Reset

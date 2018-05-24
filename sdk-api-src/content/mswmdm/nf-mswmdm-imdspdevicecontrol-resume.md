@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevicecontrol_resume.htm
 old-project: WMDM
 ms.assetid: 6c7e26dc-05cd-4dfd-86c8-0b7b216b6772
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Resume method, IMDSPDeviceControl.Resume, IMDSPDeviceControl::Resume, IMDSPDeviceControlResume, Resume, Resume method [windows Media Device Manager], Resume method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Resume, wmdm.imdspdevicecontrol_resume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPDeviceControl::Resume

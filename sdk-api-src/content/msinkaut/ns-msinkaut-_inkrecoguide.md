@@ -7,7 +7,7 @@ old-location: tablet\inkrecoguide.htm
 old-project: tablet
 ms.assetid: c35fcb28-f21f-427c-8d5f-6e6a73945956
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: DISPID_InkRecognizerGuide, DISPID_InkRecognizerGuide structure [Tablet PC], InkRecoGuide, InkRecoGuide structure [Tablet PC], _InkRecoGuide, c35fcb28-f21f-427c-8d5f-6e6a73945956, msinkaut/InkRecoGuide, tablet.inkrecoguide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _InkRecoGuide structure

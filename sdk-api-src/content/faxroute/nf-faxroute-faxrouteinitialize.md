@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrouteinitialize.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_54o5.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: FaxRouteInitialize, FaxRouteInitialize function [Fax Service], _mfax_faxrouteinitialize, fax._mfax_faxrouteinitialize, faxroute/FaxRouteInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfasfprofile_removestream.htm
 old-project: medfound
 ms.assetid: dfe404d3-66ea-407b-a2e0-caa065f41afe
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFASFProfile interface [Media Foundation],RemoveStream method, IMFASFProfile.RemoveStream, IMFASFProfile::RemoveStream, RemoveStream, RemoveStream method [Media Foundation], RemoveStream method [Media Foundation],IMFASFProfile interface, dfe404d3-66ea-407b-a2e0-caa065f41afe, mf.imfasfprofile_removestream, wmcontainer/IMFASFProfile::RemoveStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

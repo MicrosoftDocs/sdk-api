@@ -7,7 +7,7 @@ old-location: termserv\itssbresourcenotificationex_notifytargetchangeex.htm
 old-project: TermServ
 ms.assetid: 8f1f07ce-4b5d-4e21-834d-f554bd73cc63
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITsSbResourceNotificationEx interface [Remote Desktop Services],NotifyTargetChangeEx method, ITsSbResourceNotificationEx.NotifyTargetChangeEx, ITsSbResourceNotificationEx::NotifyTargetChangeEx, NotifyTargetChangeEx, NotifyTargetChangeEx method [Remote Desktop Services], NotifyTargetChangeEx method [Remote Desktop Services],ITsSbResourceNotificationEx interface, sbtsv/ITsSbResourceNotificationEx::NotifyTargetChangeEx, termserv.itssbresourcenotificationex_notifytargetchangeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbResourceNotificationEx::NotifyTargetChangeEx

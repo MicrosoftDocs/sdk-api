@@ -7,7 +7,7 @@ old-location: controls\DPA_DeletePtr.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_deleteptr.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: DPA_DeletePtr, DPA_DeletePtr function [Windows Controls], _win32_DPA_DeletePtr, _win32_DPA_DeletePtr_cpp, controls.DPA_DeletePtr, controls._win32_DPA_DeletePtr, dpa_dsa/DPA_DeletePtr
 ms.prod: windows-hardware
 ms.technology: windows-devices

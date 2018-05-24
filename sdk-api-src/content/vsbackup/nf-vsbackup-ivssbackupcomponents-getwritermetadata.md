@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_getwritermetadata.htm
 old-project: VSS
 ms.assetid: a577d06a-4c9d-4ebe-b4d4-685f96ec9c83
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetWriterMetadata, GetWriterMetadata method [VSS], GetWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterMetadata method, IVssBackupComponents.GetWriterMetadata, IVssBackupComponents::GetWriterMetadata, _win32_ivssbackupcomponents_getwritermetadata, base.ivssbackupcomponents_getwritermetadata, vsbackup/IVssBackupComponents::GetWriterMetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices

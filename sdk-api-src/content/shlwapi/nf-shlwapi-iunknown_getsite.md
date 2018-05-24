@@ -7,7 +7,7 @@ old-location: shell\IUnknown_GetSite.htm
 old-project: shell
 ms.assetid: 95e83078-ab74-40d6-8e31-653e578770f2
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IUnknown_GetSite, IUnknown_GetSite function [Windows Shell], _win32_IUnknown_GetSite, shell.IUnknown_GetSite, shlwapi/IUnknown_GetSite
 ms.prod: windows-hardware
 ms.technology: windows-devices

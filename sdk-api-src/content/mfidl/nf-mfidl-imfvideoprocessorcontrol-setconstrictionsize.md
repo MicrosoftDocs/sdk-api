@@ -7,7 +7,7 @@ old-location: mf\imfvideoprocessorcontrol_setconstrictionsize.htm
 old-project: medfound
 ms.assetid: 876F8BA0-9F05-48C6-ADE9-D65E7682C545
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetConstrictionSize method, IMFVideoProcessorControl.SetConstrictionSize, IMFVideoProcessorControl::SetConstrictionSize, SetConstrictionSize, SetConstrictionSize method [Media Foundation], SetConstrictionSize method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setconstrictionsize, mfidl/IMFVideoProcessorControl::SetConstrictionSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

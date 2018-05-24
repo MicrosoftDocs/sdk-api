@@ -7,7 +7,7 @@ old-location: security\saferidentifylevel.htm
 old-project: SecMgmt
 ms.assetid: f82c4f40-5c37-4f97-95a2-4b2cc26bf41e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: SaferIdentifyLevel, SaferIdentifyLevel function [Security], _mnp_saferidentifylevel, security.saferidentifylevel, winsafer/SaferIdentifyLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices

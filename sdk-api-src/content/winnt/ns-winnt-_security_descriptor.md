@@ -7,7 +7,7 @@ old-location: security\security_descriptor.htm
 old-project: SecAuthZ
 ms.assetid: 653992aa-4e32-4187-b3ac-727e82bfe0b6
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: "*PISECURITY_DESCRIPTOR, PISECURITY_DESCRIPTOR, PISECURITY_DESCRIPTOR structure pointer [Security], SECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR structure [Security], _SECURITY_DESCRIPTOR, _win32_security_descriptor_str, security.security_descriptor, winnt/PISECURITY_DESCRIPTOR, winnt/SECURITY_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices

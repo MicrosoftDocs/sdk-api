@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_currentinteractionmode.htm
 old-project: tablet
 ms.assetid: dd28dad3-4b04-4597-9627-8fd27c75a207
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: CurrentInteractionMode property [Tablet PC], CurrentInteractionMode property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CurrentInteractionMode property, ITextInputPanel.CurrentInteractionMode, ITextInputPanel.get_CurrentInteractionMode, ITextInputPanel::CurrentInteractionMode, ITextInputPanel::get_CurrentInteractionMode, dd28dad3-4b04-4597-9627-8fd27c75a207, get_CurrentInteractionMode, peninputpanel/ITextInputPanel::CurrentInteractionMode, peninputpanel/ITextInputPanel::get_CurrentInteractionMode, tablet.itextinputpanel_currentinteractionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITextInputPanel::get_CurrentInteractionMode

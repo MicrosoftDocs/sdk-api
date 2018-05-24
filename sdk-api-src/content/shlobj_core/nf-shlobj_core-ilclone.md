@@ -7,7 +7,7 @@ old-location: shell\ILClone.htm
 old-project: shell
 ms.assetid: 90689575-3308-4817-ae8c-380fa5f55c88
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ILClone, ILClone function [Windows Shell], _win32_ILClone, shell.ILClone, shlobj_core/ILClone
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfsinkwriterencoderconfig_settargetmediatype.htm
 old-project: medfound
 ms.assetid: 26d6ee83-5899-40e7-8b71-ca47f5b0d1c1
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFSinkWriterEncoderConfig interface [Media Foundation],SetTargetMediaType method, IMFSinkWriterEncoderConfig.SetTargetMediaType, IMFSinkWriterEncoderConfig::SetTargetMediaType, SetTargetMediaType, SetTargetMediaType method [Media Foundation], SetTargetMediaType method [Media Foundation],IMFSinkWriterEncoderConfig interface, mf.imfsinkwriterencoderconfig_settargetmediatype, mfreadwrite/IMFSinkWriterEncoderConfig::SetTargetMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

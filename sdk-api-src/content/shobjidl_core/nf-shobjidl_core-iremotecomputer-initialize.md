@@ -7,7 +7,7 @@ old-location: shell\IRemoteComputer_Initialize.htm
 old-project: shell
 ms.assetid: 69bd0b90-dcb0-45a6-9144-294fcd2d29eb
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IRemoteComputer interface [Windows Shell],Initialize method, IRemoteComputer.Initialize, IRemoteComputer::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IRemoteComputer interface, _win32_IRemoteComputer_Initialize, shell.IRemoteComputer_Initialize, shobjidl_core/IRemoteComputer::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices

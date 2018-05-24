@@ -7,7 +7,7 @@ old-location: shell\SHCreateItemInKnownFolder.htm
 old-project: shell
 ms.assetid: dc75ee60-7319-4a11-949e-dd0c3deabd8f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SHCreateItemInKnownFolder, SHCreateItemInKnownFolder function [Windows Shell], _shell_SHCreateItemInKnownFolder, shell.SHCreateItemInKnownFolder, shobjidl_core/SHCreateItemInKnownFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

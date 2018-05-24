@@ -7,7 +7,7 @@ old-location: properties\PropVariantToUInt32VectorAlloc.htm
 old-project: properties
 ms.assetid: 8127b569-aa20-4a15-9da5-cc7c3a7c5243
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PropVariantToUInt32VectorAlloc, PropVariantToUInt32VectorAlloc function [Windows Properties], _shell_PropVariantToUInt32VectorAlloc, properties.PropVariantToUInt32VectorAlloc, propvarutil/PropVariantToUInt32VectorAlloc, shell.PropVariantToUInt32VectorAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PropVariantToUInt32VectorAlloc function

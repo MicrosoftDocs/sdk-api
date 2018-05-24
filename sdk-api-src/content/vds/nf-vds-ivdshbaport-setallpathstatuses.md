@@ -7,7 +7,7 @@ old-location: base\ivdshbaport_setallpathstatuses.htm
 old-project: VDS
 ms.assetid: 0df5b5f7-1fdc-41f1-96e4-2abe96c59228
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsHbaPort interface [VDS],SetAllPathStatuses method, IVdsHbaPort.SetAllPathStatuses, IVdsHbaPort::SetAllPathStatuses, SetAllPathStatuses, SetAllPathStatuses method [VDS], SetAllPathStatuses method [VDS],IVdsHbaPort interface, base.ivdshbaport_setallpathstatuses, vds/IVdsHbaPort::SetAllPathStatuses
 ms.prod: windows-hardware
 ms.technology: windows-devices

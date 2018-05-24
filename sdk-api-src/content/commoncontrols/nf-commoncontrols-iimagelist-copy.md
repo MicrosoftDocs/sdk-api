@@ -7,7 +7,7 @@ old-location: controls\IImageList_Copy.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\copy.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: Copy, Copy method [Windows Controls], Copy method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],Copy method, IImageList.Copy, IImageList::Copy, comctl_IImageList_Copy, comctl_IImageList_Copy_cpp, commoncontrols/IImageList::Copy, controls.IImageList_Copy, controls.comctl_IImageList_Copy
 ms.prod: windows-hardware
 ms.technology: windows-devices

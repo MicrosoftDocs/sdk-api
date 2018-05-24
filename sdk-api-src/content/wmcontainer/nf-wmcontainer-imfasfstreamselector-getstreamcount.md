@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamselector_getstreamcount.htm
 old-project: medfound
 ms.assetid: e1e80c32-bfd4-4404-9ccc-05b5077b83a6
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetStreamCount method, IMFASFStreamSelector.GetStreamCount, IMFASFStreamSelector::GetStreamCount, e1e80c32-bfd4-4404-9ccc-05b5077b83a6, mf.imfasfstreamselector_getstreamcount, wmcontainer/IMFASFStreamSelector::GetStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

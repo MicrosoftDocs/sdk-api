@@ -7,7 +7,7 @@ old-location: wmdm\imdspstorageglobals_getdevice.htm
 old-project: WMDM
 ms.assetid: 5c35b426-f7fd-46f7-b92d-12a0c22b50e9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetDevice, GetDevice method [windows Media Device Manager], GetDevice method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetDevice method, IMDSPStorageGlobals.GetDevice, IMDSPStorageGlobals::GetDevice, IMDSPStorageGlobalsGetDevice, mswmdm/IMDSPStorageGlobals::GetDevice, wmdm.imdspstorageglobals_getdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPStorageGlobals::GetDevice

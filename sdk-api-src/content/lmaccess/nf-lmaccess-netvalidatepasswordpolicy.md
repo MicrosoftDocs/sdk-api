@@ -7,7 +7,7 @@ old-location: netmgmt\netvalidatepasswordpolicy.htm
 old-project: NetMgmt
 ms.assetid: be5ce51b-6568-49c8-954d-7b0d4bcb8611
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: NetValidateAuthentication, NetValidatePasswordChange, NetValidatePasswordPolicy, NetValidatePasswordPolicy function [Network Management], NetValidatePasswordReset, lmaccess/NetValidatePasswordPolicy, netmgmt.netvalidatepasswordpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_createtargetpropertysetobject.htm
 old-project: TermServ
 ms.assetid: 82e9d414-2137-44f3-a984-dc12aba3ecd9
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: CreateTargetPropertySetObject, CreateTargetPropertySetObject method [Remote Desktop Services], CreateTargetPropertySetObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateTargetPropertySetObject method, ITsSbProvider.CreateTargetPropertySetObject, ITsSbProvider::CreateTargetPropertySetObject, sbtsv/ITsSbProvider::CreateTargetPropertySetObject, termserv.itssbprovider_createtargetpropertysetobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbProvider::CreateTargetPropertySetObject

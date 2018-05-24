@@ -7,7 +7,7 @@ old-location: search\_search_ISearchProtocolThreadContext.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\isearchprotocolthreadcontext.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: ISearchProtocolThreadContext, ISearchProtocolThreadContext interface [search], ISearchProtocolThreadContext interface [search],described, _search_ISearchProtocolThreadContext, search._search_ISearchProtocolThreadContext, searchapi/ISearchProtocolThreadContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISearchProtocolThreadContext interface

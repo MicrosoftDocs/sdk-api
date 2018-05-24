@@ -7,7 +7,7 @@ old-location: base\ivdsservice_queryunallocateddisks.htm
 old-project: VDS
 ms.assetid: d519c3d0-7c5a-4c0c-bad9-2429490f2212
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsService interface [VDS],QueryUnallocatedDisks method, IVdsService.QueryUnallocatedDisks, IVdsService::QueryUnallocatedDisks, QueryUnallocatedDisks, QueryUnallocatedDisks method [VDS], QueryUnallocatedDisks method [VDS],IVdsService interface, base.ivdsservice_queryunallocateddisks, vds/IVdsService::QueryUnallocatedDisks
 ms.prod: windows-hardware
 ms.technology: windows-devices

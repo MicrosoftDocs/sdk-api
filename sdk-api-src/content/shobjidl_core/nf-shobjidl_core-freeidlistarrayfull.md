@@ -7,7 +7,7 @@ old-location: shell\FreeIDListArrayFull.htm
 old-project: shell
 ms.assetid: ca5e9e02-dcab-4aac-953e-8be0ca8734bc
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: FreeIDListArrayFull, FreeIDListArrayFull function [Windows Shell], _shell_FreeIDListArrayFull, shell.FreeIDListArrayFull, shobjidl_core/FreeIDListArrayFull
 ms.prod: windows-hardware
 ms.technology: windows-devices

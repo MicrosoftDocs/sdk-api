@@ -7,7 +7,7 @@ old-location: security\cryptduplicatehash.htm
 old-project: SecCrypto
 ms.assetid: 527fce4d-8d42-437b-9692-42583092efbb
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CryptDuplicateHash, CryptDuplicateHash function [Security], _crypto2_cryptduplicatehash, security.cryptduplicatehash, wincrypt/CryptDuplicateHash
 ms.prod: windows-hardware
 ms.technology: windows-devices

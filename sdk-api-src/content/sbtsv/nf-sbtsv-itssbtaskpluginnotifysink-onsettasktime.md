@@ -7,7 +7,7 @@ old-location: termserv\itssbtaskpluginnotifysink_onsettasktime.htm
 old-project: TermServ
 ms.assetid: 6f9b58ba-8cda-4f8d-9c23-19475262148c
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITsSbTaskPluginNotifySink interface [Remote Desktop Services],OnSetTaskTime method, ITsSbTaskPluginNotifySink.OnSetTaskTime, ITsSbTaskPluginNotifySink::OnSetTaskTime, OnSetTaskTime, OnSetTaskTime method [Remote Desktop Services], OnSetTaskTime method [Remote Desktop Services],ITsSbTaskPluginNotifySink interface, sbtsv/ITsSbTaskPluginNotifySink::OnSetTaskTime, termserv.itssbtaskpluginnotifysink_onsettasktime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbTaskPluginNotifySink::OnSetTaskTime

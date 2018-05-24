@@ -7,7 +7,7 @@ old-location: base\tpcgetsamplesargs_str.htm
 old-project: SysInfo
 ms.assetid: 7e92a7c1-6927-4d53-8252-6bdd424d6e0c
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: TpcGetSamplesArgs, TpcGetSamplesArgs structure, _win32_tpcgetsamplesargs_str, base.tpcgetsamplesargs_str, timeprov/TpcGetSamplesArgs
 ms.prod: windows-hardware
 ms.technology: windows-devices

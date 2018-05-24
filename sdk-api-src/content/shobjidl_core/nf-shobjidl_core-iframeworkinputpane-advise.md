@@ -7,7 +7,7 @@ old-location: shell\IFrameworkInputPane_Advise.htm
 old-project: shell
 ms.assetid: F05A097F-13A4-48ad-B660-5B2409BB6D61
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IFrameworkInputPane interface, IFrameworkInputPane interface [Windows Shell],Advise method, IFrameworkInputPane.Advise, IFrameworkInputPane::Advise, shell.IFrameworkInputPane_Advise, shobjidl_core/IFrameworkInputPane::Advise
 ms.prod: windows-hardware
 ms.technology: windows-devices

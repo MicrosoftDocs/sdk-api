@@ -7,7 +7,7 @@ old-location: base\vds_raid_type.htm
 old-project: VDS
 ms.assetid: c818d8f4-5ae5-4e40-91b9-a4405524066c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: "*PVDS_RAID_TYPE, VDS_RAID_TYPE, VDS_RAID_TYPE enumeration, VDS_RT_RAID0, VDS_RT_RAID01, VDS_RT_RAID03, VDS_RT_RAID05, VDS_RT_RAID1, VDS_RT_RAID10, VDS_RT_RAID15, VDS_RT_RAID2, VDS_RT_RAID3, VDS_RT_RAID30, VDS_RT_RAID4, VDS_RT_RAID5, VDS_RT_RAID50, VDS_RT_RAID51, VDS_RT_RAID53, VDS_RT_RAID6, VDS_RT_RAID60, VDS_RT_RAID61, VDS_RT_UNKNOWN, _VDS_RAID_TYPE, base.vds_raid_type, vds/VDS_RAID_TYPE, vds/VDS_RT_RAID0, vds/VDS_RT_RAID01, vds/VDS_RT_RAID03, vds/VDS_RT_RAID05, vds/VDS_RT_RAID1, vds/VDS_RT_RAID10, vds/VDS_RT_RAID15, vds/VDS_RT_RAID2, vds/VDS_RT_RAID3, vds/VDS_RT_RAID30, vds/VDS_RT_RAID4, vds/VDS_RT_RAID5, vds/VDS_RT_RAID50, vds/VDS_RT_RAID51, vds/VDS_RT_RAID53, vds/VDS_RT_RAID6, vds/VDS_RT_RAID60, vds/VDS_RT_RAID61, vds/VDS_RT_UNKNOWN, vdshwprv/VDS_RAID_TYPE, vdshwprv/VDS_RT_RAID0, vdshwprv/VDS_RT_RAID01, vdshwprv/VDS_RT_RAID03, vdshwprv/VDS_RT_RAID05, vdshwprv/VDS_RT_RAID1, vdshwprv/VDS_RT_RAID10, vdshwprv/VDS_RT_RAID15, vdshwprv/VDS_RT_RAID2, vdshwprv/VDS_RT_RAID3, vdshwprv/VDS_RT_RAID30, vdshwprv/VDS_RT_RAID4, vdshwprv/VDS_RT_RAID5, vdshwprv/VDS_RT_RAID50, vdshwprv/VDS_RT_RAID51, vdshwprv/VDS_RT_RAID53, vdshwprv/VDS_RT_RAID6, vdshwprv/VDS_RT_RAID60, vdshwprv/VDS_RT_RAID61, vdshwprv/VDS_RT_UNKNOWN"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rm\drmgetunboundlicenseobjectcount.htm
 old-project: AdRms_Sdk
 ms.assetid: a1c2ae7e-a0be-482d-a366-70988cbc4616
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMGetUnboundLicenseObjectCount, DRMGetUnboundLicenseObjectCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetUnboundLicenseObjectCount, rm.drmgetunboundlicenseobjectcount
 ms.prod: windows-hardware
 ms.technology: windows-devices

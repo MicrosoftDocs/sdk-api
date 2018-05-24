@@ -7,7 +7,7 @@ old-location: rras\rtmgetenumnexthops.htm
 old-project: RRAS
 ms.assetid: 3e1a6064-6ba0-4ed8-b6df-1c347b098807
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RtmGetEnumNextHops, RtmGetEnumNextHops function [RAS], _rtmv2ref_rtmgetenumnexthops, rras.rtmgetenumnexthops, rtmv2/RtmGetEnumNextHops
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtmGetEnumNextHops function

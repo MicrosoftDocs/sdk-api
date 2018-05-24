@@ -7,7 +7,7 @@ old-location: properties\IPropertyEnumType2_GetImageReference.htm
 old-project: properties
 ms.assetid: 3b519cb1-cfea-4242-99f4-af290d622c38
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: GetImageReference, GetImageReference method [Windows Properties], GetImageReference method [Windows Properties],IPropertyEnumType2 interface, IPropertyEnumType2 interface [Windows Properties],GetImageReference method, IPropertyEnumType2.GetImageReference, IPropertyEnumType2::GetImageReference, _shell_IPropertyEnumType2_GetImageReference, properties.IPropertyEnumType2_GetImageReference, propsys/IPropertyEnumType2::GetImageReference, shell.IPropertyEnumType2_GetImageReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyEnumType2::GetImageReference

@@ -7,7 +7,7 @@ old-location: properties\VariantGetInt16Elem.htm
 old-project: properties
 ms.assetid: fd572a65-c74c-490e-8cff-aa9ba54da5a1
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: VariantGetInt16Elem, VariantGetInt16Elem function [Windows Properties], _shell_VariantGetInt16Elem, properties.VariantGetInt16Elem, propvarutil/VariantGetInt16Elem, shell.VariantGetInt16Elem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantGetInt16Elem function

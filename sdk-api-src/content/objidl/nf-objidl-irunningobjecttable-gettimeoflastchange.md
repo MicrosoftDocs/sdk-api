@@ -7,7 +7,7 @@ old-location: com\irunningobjecttable_gettimeoflastchange.htm
 old-project: com
 ms.assetid: fef6f7e5-7d91-4737-98a4-c9779c6c2be5
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetTimeOfLastChange, GetTimeOfLastChange method [COM], GetTimeOfLastChange method [COM],IRunningObjectTable interface, IRunningObjectTable interface [COM],GetTimeOfLastChange method, IRunningObjectTable.GetTimeOfLastChange, IRunningObjectTable::GetTimeOfLastChange, _com_irunningobjecttable_gettimeoflastchange, com.irunningobjecttable_gettimeoflastchange, objidl/IRunningObjectTable::GetTimeOfLastChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRunningObjectTable::GetTimeOfLastChange

@@ -7,7 +7,7 @@ old-location: com\olemenugroupwidths.htm
 old-project: com
 ms.assetid: e6ad4ab7-0e53-4fad-8f2e-a0ff7b376815
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPOLEMENUGROUPWIDTHS, LPOLEMENUGROUPWIDTHS, LPOLEMENUGROUPWIDTHS structure pointer [COM], OLEMENUGROUPWIDTHS, OLEMENUGROUPWIDTHS structure [COM], _ole_OLEMENUGROUPWIDTHS, com.olemenugroupwidths, oleidl/LPOLEMENUGROUPWIDTHS, oleidl/OLEMENUGROUPWIDTHS, tagOleMenuGroupWidths"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagOleMenuGroupWidths structure

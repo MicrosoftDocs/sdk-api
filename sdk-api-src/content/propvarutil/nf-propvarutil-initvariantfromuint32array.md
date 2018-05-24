@@ -7,7 +7,7 @@ old-location: properties\InitVariantFromUInt32Array.htm
 old-project: properties
 ms.assetid: b08e61bc-8b76-4baf-acf7-9eb97e521b65
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: InitVariantFromUInt32Array, InitVariantFromUInt32Array function [Windows Properties], _shell_InitVariantFromUInt32Array, properties.InitVariantFromUInt32Array, propvarutil/InitVariantFromUInt32Array, shell.InitVariantFromUInt32Array
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InitVariantFromUInt32Array function

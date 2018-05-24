@@ -7,7 +7,7 @@ old-location: rras\sstp_cert_info.htm
 old-project: RRAS
 ms.assetid: 004fce6d-c617-4356-9a8f-f7b4fbb3d4c2
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: "*PSSTP_CERT_INFO, SSTP_CERT_INFO, SSTP_CERT_INFO structure [RAS], _SSTP_CERT_INFO, mprapi/SSTP_CERT_INFO, rras.sstp_cert_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices

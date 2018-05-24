@@ -7,7 +7,7 @@ old-location: netmgmt\netusergetgroups.htm
 old-project: NetMgmt
 ms.assetid: ecf1a94c-5dda-4f49-81bd-93e551e089f1
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: 0, 1, NetUserGetGroups, NetUserGetGroups function [Network Management], _win32_netusergetgroups, lmaccess/NetUserGetGroups, netmgmt.netusergetgroups
 ms.prod: windows-hardware
 ms.technology: windows-devices

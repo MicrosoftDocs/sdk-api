@@ -7,7 +7,7 @@ old-location: base\ivdsadvisesink.htm
 old-project: VDS
 ms.assetid: 8e9b7c95-0b59-4268-a274-5d16812075a6
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsAdviseSink, IVdsAdviseSink interface [VDS], IVdsAdviseSink interface [VDS],described, base.ivdsadvisesink, vds/IVdsAdviseSink, vdshwprv/IVdsAdviseSink
 ms.prod: windows-hardware
 ms.technology: windows-devices

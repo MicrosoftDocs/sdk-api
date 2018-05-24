@@ -7,7 +7,7 @@ old-location: com\ifont_get_strikethrough.htm
 old-project: com
 ms.assetid: e70ea85a-fc76-412c-a100-c834dc8f0208
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IFont interface [COM],get_Strikethrough method, IFont.get_Strikethrough, IFont::get_Strikethrough, _ctrl_ifont_get_strikethrough, com.ifont_get_strikethrough, get_Strikethrough, get_Strikethrough method [COM], get_Strikethrough method [COM],IFont interface, ocidl/IFont::get_Strikethrough
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFont::get_Strikethrough

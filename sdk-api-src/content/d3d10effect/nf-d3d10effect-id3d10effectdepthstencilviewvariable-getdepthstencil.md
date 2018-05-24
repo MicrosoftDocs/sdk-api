@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectdepthstencilviewvariable_getdepthstencil.ht
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectdepthstencilviewvariable_getdepthstencil.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: 852af7c1-873e-c51e-adfe-23b78be73a12, GetDepthStencil, GetDepthStencil method [Direct3D 10], GetDepthStencil method [Direct3D 10],ID3D10EffectDepthStencilViewVariable interface, ID3D10EffectDepthStencilViewVariable interface [Direct3D 10],GetDepthStencil method, ID3D10EffectDepthStencilViewVariable.GetDepthStencil, ID3D10EffectDepthStencilViewVariable::GetDepthStencil, d3d10effect/ID3D10EffectDepthStencilViewVariable::GetDepthStencil, direct3d10.id3d10effectdepthstencilviewvariable_getdepthstencil
 ms.prod: windows-hardware
 ms.technology: windows-devices

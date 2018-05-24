@@ -7,7 +7,7 @@ old-location: mf\imfpmediaitem_getstreamattribute.htm
 old-project: medfound
 ms.assetid: 8c40ce33-2077-4e7b-8a1c-c080e82df078
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetStreamAttribute, GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStreamAttribute method, IMFPMediaItem.GetStreamAttribute, IMFPMediaItem::GetStreamAttribute, mf.imfpmediaitem_getstreamattribute, mfplay/IMFPMediaItem::GetStreamAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: mf\imfvideomediatype.htm
 old-project: medfound
 ms.assetid: 9109b0dd-c44d-41d4-9480-1ca5c667dbd7
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 9109b0dd-c44d-41d4-9480-1ca5c667dbd7, IMFVideoMediaType, IMFVideoMediaType interface [Media Foundation], IMFVideoMediaType interface [Media Foundation],described, mf.imfvideomediatype, mfobjects/IMFVideoMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

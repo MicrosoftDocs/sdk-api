@@ -7,7 +7,7 @@ old-location: base\queryauxiliarycounterfrequency.htm
 old-project: SysInfo
 ms.assetid: 71E00DF2-7F67-43D2-9D6D-BFE9FEA4B30A
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: QueryAuxiliaryCounterFrequency, QueryAuxiliaryCounterFrequency function, base.queryauxiliarycounterfrequency, realtimeapiset/QueryAuxiliaryCounterFrequency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mincore.lib
 req.dll: Kernel32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # QueryAuxiliaryCounterFrequency function

@@ -7,7 +7,7 @@ old-location: base\ivdsremovable_eject.htm
 old-project: VDS
 ms.assetid: c77885bd-67af-41c1-9190-e0148c7b7ed5
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: Eject, Eject method [VDS], Eject method [VDS],IVdsRemovable interface, IVdsRemovable interface [VDS],Eject method, IVdsRemovable.Eject, IVdsRemovable::Eject, base.ivdsremovable_eject, vds/IVdsRemovable::Eject
 ms.prod: windows-hardware
 ms.technology: windows-devices

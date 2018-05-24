@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_confidencealternates.htm
 old-project: tablet
 ms.assetid: ef3ab614-7aff-4660-bb2a-783f14e75b94
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: ConfidenceAlternates property [Tablet PC], ConfidenceAlternates property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],ConfidenceAlternates property, IInkRecognitionAlternate.ConfidenceAlternates, IInkRecognitionAlternate.get_ConfidenceAlternates, IInkRecognitionAlternate::ConfidenceAlternates, IInkRecognitionAlternate::get_ConfidenceAlternates, ef3ab614-7aff-4660-bb2a-783f14e75b94, get_ConfidenceAlternates, msinkaut/IInkRecognitionAlternate::ConfidenceAlternates, msinkaut/IInkRecognitionAlternate::get_ConfidenceAlternates, tablet.iinkrecognitionalternate_confidencealternates
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognitionAlternate::get_ConfidenceAlternates

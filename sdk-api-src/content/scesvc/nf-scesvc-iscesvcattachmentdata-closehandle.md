@@ -7,7 +7,7 @@ old-location: security\iscesvcattachmentdata_closehandle.htm
 old-project: SecMgmt
 ms.assetid: e50f5acf-06ef-49bb-bcf1-1fadeb4b808a
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: CloseHandle, CloseHandle method [Security], CloseHandle method [Security],ISceSvcAttachmentData interface, ISceSvcAttachmentData interface [Security],CloseHandle method, ISceSvcAttachmentData.CloseHandle, ISceSvcAttachmentData::CloseHandle, _config_iscesvcattachmentdata_closehandle, scesvc/ISceSvcAttachmentData::CloseHandle, security.iscesvcattachmentdata_closehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Wsecedit.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISceSvcAttachmentData::CloseHandle

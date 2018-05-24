@@ -7,7 +7,7 @@ old-location: controls\GetScrollPos.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\getscrollpos.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetScrollPos, GetScrollPos function [Windows Controls], SB_CTL, SB_HORZ, SB_VERT, _win32_GetScrollPos, _win32_GetScrollPos_cpp, controls.GetScrollPos, controls._win32_GetScrollPos, winuser/GetScrollPos
 ms.prod: windows-hardware
 ms.technology: windows-devices

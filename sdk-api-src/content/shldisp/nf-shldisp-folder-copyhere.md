@@ -7,7 +7,7 @@ old-location: shell\Folder_CopyHere.htm
 old-project: shell
 ms.assetid: 22bf1b4c-f242-4c52-b094-c5339bb35d02
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CopyHere, CopyHere method [Windows Shell], CopyHere method [Windows Shell],Folder object, Folder object [Windows Shell],CopyHere method, Folder.CopyHere, Folder::CopyHere, _win32_Folder_CopyHere, shell.Folder_CopyHere
 ms.prod: windows-hardware
 ms.technology: windows-devices

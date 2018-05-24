@@ -7,7 +7,7 @@ old-location: controls\Button_GetTextLength.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_gettextlength.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: Button_GetTextLength, Button_GetTextLength macro [Windows Controls], _win32_Button_GetTextLength, _win32_Button_GetTextLength_cpp, controls.Button_GetTextLength, controls._win32_Button_GetTextLength, windowsx/Button_GetTextLength
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\NMPGSCROLL.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\pager\structures\nmpgscroll.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPNMPGSCROLL, 0, LPNMPGSCROLL, LPNMPGSCROLL structure pointer [Windows Controls], NMPGSCROLL, NMPGSCROLL structure [Windows Controls], PGF_SCROLLDOWN, PGF_SCROLLLEFT, PGF_SCROLLRIGHT, PGF_SCROLLUP, PGK_CONTROL, PGK_MENU, PGK_SHIFT, _win32_NMPGSCROLL, _win32_NMPGSCROLL_cpp, commctrl/LPNMPGSCROLL, commctrl/NMPGSCROLL, controls.NMPGSCROLL, controls._win32_NMPGSCROLL"
 ms.prod: windows-hardware
 ms.technology: windows-devices

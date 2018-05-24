@@ -7,7 +7,7 @@ old-location: com\ifont_get_underline.htm
 old-project: com
 ms.assetid: 714a2678-6e3d-4b8d-8632-20eb41618fff
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IFont interface [COM],get_Underline method, IFont.get_Underline, IFont::get_Underline, _ctrl_ifont_get_underline, com.ifont_get_underline, get_Underline, get_Underline method [COM], get_Underline method [COM],IFont interface, ocidl/IFont::get_Underline
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFont::get_Underline

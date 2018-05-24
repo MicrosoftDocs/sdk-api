@@ -7,7 +7,7 @@ old-location: properties\IPropertyDescription_GetSortDescriptionLabel.htm
 old-project: properties
 ms.assetid: 5cfa445b-953b-474f-ba7b-1ed6cfbf981d
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: GetSortDescriptionLabel, GetSortDescriptionLabel method [Windows Properties], GetSortDescriptionLabel method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetSortDescriptionLabel method, IPropertyDescription.GetSortDescriptionLabel, IPropertyDescription::GetSortDescriptionLabel, properties.IPropertyDescription_GetSortDescriptionLabel, propsys/IPropertyDescription::GetSortDescriptionLabel, shell.IPropertyDescription_GetSortDescriptionLabel, shell_IPropertyDescription_GetSortDescriptionLabel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyDescription::GetSortDescriptionLabel

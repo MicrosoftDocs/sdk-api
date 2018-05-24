@@ -7,7 +7,7 @@ old-location: security\icertificateenrollmentserversetup_install.htm
 old-project: SecCrypto
 ms.assetid: 35578035-1D09-48AD-B6F5-7314C989B519
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],Install method, ICertificateEnrollmentServerSetup.Install, ICertificateEnrollmentServerSetup::Install, Install, Install method [Security], Install method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::Install, security.icertificateenrollmentserversetup_install
 ms.prod: windows-hardware
 ms.technology: windows-devices

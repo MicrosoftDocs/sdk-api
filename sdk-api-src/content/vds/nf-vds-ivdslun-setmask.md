@@ -7,7 +7,7 @@ old-location: base\ivdslun_setmask.htm
 old-project: VDS
 ms.assetid: b7e841cc-95b4-452f-ac14-d7063fe6a694
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsLun interface [VDS],SetMask method, IVdsLun.SetMask, IVdsLun::SetMask, SetMask, SetMask method [VDS], SetMask method [VDS],IVdsLun interface, base.ivdslun_setmask, vds/IVdsLun::SetMask, vdshwprv/IVdsLun::SetMask
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\GetThemeString.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemestring.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetThemeString, GetThemeString function [Windows Controls], controls.GetThemeString, controls.inet_GetThemeString, inet_GetThemeString, inet_GetThemeString_cpp, uxtheme/GetThemeString
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\querysecurityaccessmask.htm
 old-project: SecAuthZ
 ms.assetid: 70379640-28b7-4503-9ba8-789786078d4a
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: QuerySecurityAccessMask, QuerySecurityAccessMask function [Security], security.querysecurityaccessmask, securitybaseapi/QuerySecurityAccessMask, winbase/QuerySecurityAccessMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -48,7 +48,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # QuerySecurityAccessMask function

@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_rdfarmtype.htm
 old-project: TermServ
 ms.assetid: a4dd43fe-2421-4666-a6ff-974555e44e60
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],RdFarmType property, ITsSbClientConnection.RdFarmType, ITsSbClientConnection.get_RdFarmType, ITsSbClientConnection::RdFarmType, ITsSbClientConnection::get_RdFarmType, RdFarmType property [Remote Desktop Services], RdFarmType property [Remote Desktop Services],ITsSbClientConnection interface, get_RdFarmType, sbtsv/ITsSbClientConnection::RdFarmType, sbtsv/ITsSbClientConnection::get_RdFarmType, termserv.itssbclientconnection_rdfarmtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbClientConnection::get_RdFarmType

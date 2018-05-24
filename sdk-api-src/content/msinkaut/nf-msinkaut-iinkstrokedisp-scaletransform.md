@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_scaletransform.htm
 old-project: tablet
 ms.assetid: a4140abe-adc8-492d-bb8c-96fba5ca3bd0
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IInkStrokeDisp interface [Tablet PC],ScaleTransform method, IInkStrokeDisp.ScaleTransform, IInkStrokeDisp::ScaleTransform, ScaleTransform, ScaleTransform method [Tablet PC], ScaleTransform method [Tablet PC],IInkStrokeDisp interface, a4140abe-adc8-492d-bb8c-96fba5ca3bd0, msinkaut/IInkStrokeDisp::ScaleTransform, tablet.iinkstrokedisp_scaletransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::ScaleTransform

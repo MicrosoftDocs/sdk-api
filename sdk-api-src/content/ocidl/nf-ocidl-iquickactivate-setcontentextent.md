@@ -7,7 +7,7 @@ old-location: com\iquickactivate_setcontentextent.htm
 old-project: com
 ms.assetid: 0f763bd3-08b9-4804-8e52-2c8014428a45
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IQuickActivate interface [COM],SetContentExtent method, IQuickActivate.SetContentExtent, IQuickActivate::SetContentExtent, SetContentExtent, SetContentExtent method [COM], SetContentExtent method [COM],IQuickActivate interface, _ctrl_iquickactivate_setcontentextent, com.iquickactivate_setcontentextent, ocidl/IQuickActivate::SetContentExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IQuickActivate::SetContentExtent

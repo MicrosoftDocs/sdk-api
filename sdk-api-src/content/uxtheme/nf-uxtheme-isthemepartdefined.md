@@ -7,7 +7,7 @@ old-location: controls\IsThemePartDefined.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemepartdefined.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: IsThemePartDefined, IsThemePartDefined function [Windows Controls], controls.IsThemePartDefined, controls.inet_IsThemePartDefined, inet_IsThemePartDefined, inet_IsThemePartDefined_cpp, uxtheme/IsThemePartDefined
 ms.prod: windows-hardware
 ms.technology: windows-devices

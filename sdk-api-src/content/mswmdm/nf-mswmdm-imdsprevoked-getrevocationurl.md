@@ -7,7 +7,7 @@ old-location: wmdm\imdsprevoked_getrevocationurl.htm
 old-project: WMDM
 ms.assetid: 414eddd0-be05-4f23-ae94-2c6210220729
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetRevocationURL, GetRevocationURL method [windows Media Device Manager], GetRevocationURL method [windows Media Device Manager],IMDSPRevoked interface, IMDSPRevoked interface [windows Media Device Manager],GetRevocationURL method, IMDSPRevoked.GetRevocationURL, IMDSPRevoked::GetRevocationURL, IMDSPRevokedGetRevocationURL, mswmdm/IMDSPRevoked::GetRevocationURL, wmdm.imdsprevoked_getrevocationurl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPRevoked::GetRevocationURL

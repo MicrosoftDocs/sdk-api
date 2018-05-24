@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxtiff_get_receivetime_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5spx.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: FaxTiff object [Fax Service],ReceiveTime property, FaxTiff.ReceiveTime, IFaxTiff.get_ReceiveTime, IFaxTiff::get_ReceiveTime, ReceiveTime property [Fax Service], ReceiveTime property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_receivetime, fax._mfax_ifaxtiff_get_receivetime, fax._mfax_ifaxtiff_get_receivetime_vb, get_ReceiveTime
 ms.prod: windows-hardware
 ms.technology: windows-devices

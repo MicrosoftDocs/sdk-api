@@ -7,7 +7,7 @@ old-location: properties\InitPropVariantFromUInt64Vector.htm
 old-project: properties
 ms.assetid: 17c52a7d-c3d3-4132-8f44-7d0b250aa7ad
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: InitPropVariantFromUInt64Vector, InitPropVariantFromUInt64Vector function [Windows Properties], properties.InitPropVariantFromUInt64Vector, propvarutil/InitPropVariantFromUInt64Vector, shell.InitPropVariantFromUInt64Vector, shell_InitPropVariantFromUInt64Vector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InitPropVariantFromUInt64Vector function

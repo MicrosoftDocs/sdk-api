@@ -7,7 +7,7 @@ old-location: properties\IPropertyChangeArray_InsertAt.htm
 old-project: properties
 ms.assetid: e50a0642-ff01-4cf7-940e-0241b3dc8604
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: IPropertyChangeArray interface [Windows Properties],InsertAt method, IPropertyChangeArray.InsertAt, IPropertyChangeArray::InsertAt, InsertAt, InsertAt method [Windows Properties], InsertAt method [Windows Properties],IPropertyChangeArray interface, _shell_IPropertyChangeArray_InsertAt, properties.IPropertyChangeArray_InsertAt, propsys/IPropertyChangeArray::InsertAt, shell.IPropertyChangeArray_InsertAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyChangeArray::InsertAt

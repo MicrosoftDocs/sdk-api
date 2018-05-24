@@ -7,7 +7,7 @@ old-location: shell\IShellView2.htm
 old-project: shell
 ms.assetid: a61aec39-406d-4066-941d-e788d64f4310
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IShellView2, IShellView2 interface [Windows Shell], IShellView2 interface [Windows Shell],described, _win32_IShellView2, shell.IShellView2, shobjidl_core/IShellView2
 ms.prod: windows-hardware
 ms.technology: windows-devices

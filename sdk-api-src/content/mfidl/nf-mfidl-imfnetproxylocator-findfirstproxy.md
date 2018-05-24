@@ -7,7 +7,7 @@ old-location: mf\imfnetproxylocator_findfirstproxy.htm
 old-project: medfound
 ms.assetid: 48eba170-eeed-4edf-b8d3-2f4541637129
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 48eba170-eeed-4edf-b8d3-2f4541637129, FindFirstProxy, FindFirstProxy method [Media Foundation], FindFirstProxy method [Media Foundation],IMFNetProxyLocator interface, IMFNetProxyLocator interface [Media Foundation],FindFirstProxy method, IMFNetProxyLocator.FindFirstProxy, IMFNetProxyLocator::FindFirstProxy, mf.imfnetproxylocator_findfirstproxy, mfidl/IMFNetProxyLocator::FindFirstProxy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

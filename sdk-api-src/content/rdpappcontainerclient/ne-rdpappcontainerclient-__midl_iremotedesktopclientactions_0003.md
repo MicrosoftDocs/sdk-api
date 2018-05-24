@@ -7,7 +7,7 @@ old-location: termserv\snapshotformattype.htm
 old-project: TermServ
 ms.assetid: 18B73928-F797-457A-84A1-0E1B2B1208A2
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: SnapshotFormatBmp, SnapshotFormatJpeg, SnapshotFormatPng, SnapshotFormatType, SnapshotFormatType enumeration [Remote Desktop Services], __MIDL_IRemoteDesktopClientActions_0003, rdpappcontainerclient/SnapshotFormatBmp, rdpappcontainerclient/SnapshotFormatJpeg, rdpappcontainerclient/SnapshotFormatPng, rdpappcontainerclient/SnapshotFormatType, termserv.snapshotformattype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # __MIDL_IRemoteDesktopClientActions_0003 enumeration

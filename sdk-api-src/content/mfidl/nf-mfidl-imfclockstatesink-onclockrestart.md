@@ -7,7 +7,7 @@ old-location: mf\imfclockstatesink_onclockrestart.htm
 old-project: medfound
 ms.assetid: 55973dfa-59b9-4105-9706-5d5497ad2818
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 55973dfa-59b9-4105-9706-5d5497ad2818, IMFClockStateSink interface [Media Foundation],OnClockRestart method, IMFClockStateSink.OnClockRestart, IMFClockStateSink::OnClockRestart, OnClockRestart, OnClockRestart method [Media Foundation], OnClockRestart method [Media Foundation],IMFClockStateSink interface, mf.imfclockstatesink_onclockrestart, mfidl/IMFClockStateSink::OnClockRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

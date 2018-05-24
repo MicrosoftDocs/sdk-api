@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator2_getprimitiveinterpolation.ht
 old-project: UIAnimation
 ms.assetid: E3CE4D97-08C8-46F4-B8B0-42CA4212DF50
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetPrimitiveInterpolation, GetPrimitiveInterpolation method [Windows Animation], GetPrimitiveInterpolation method [Windows Animation],IUIAnimationInterpolator2 interface, IUIAnimationInterpolator2 interface [Windows Animation],GetPrimitiveInterpolation method, IUIAnimationInterpolator2.GetPrimitiveInterpolation, IUIAnimationInterpolator2::GetPrimitiveInterpolation, uianimation.iuianimationinterpolator2_getprimitiveinterpolation, uianimation/IUIAnimationInterpolator2::GetPrimitiveInterpolation
 ms.prod: windows-hardware
 ms.technology: windows-devices

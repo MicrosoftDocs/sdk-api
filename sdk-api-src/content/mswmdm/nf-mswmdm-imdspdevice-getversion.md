@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice_getversion.htm
 old-project: WMDM
 ms.assetid: 88c935ad-dbf0-41bb-8676-ddafe9d1fe0e
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetVersion, GetVersion method [windows Media Device Manager], GetVersion method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetVersion method, IMDSPDevice.GetVersion, IMDSPDevice::GetVersion, IMDSPDeviceGetVersion, mswmdm/IMDSPDevice::GetVersion, wmdm.imdspdevice_getversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPDevice::GetVersion

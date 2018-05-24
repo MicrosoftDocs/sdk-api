@@ -7,7 +7,7 @@ old-location: termserv\iwtsprotocolconnection_getshadowconnection.htm
 old-project: TermServ
 ms.assetid: 6496deba-6166-48d2-9294-286a448de231
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: GetShadowConnection, GetShadowConnection method [Remote Desktop Services], GetShadowConnection method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetShadowConnection method, IWTSProtocolConnection.GetShadowConnection, IWTSProtocolConnection::GetShadowConnection, termserv.iwtsprotocolconnection_getshadowconnection, wtsprotocol/IWTSProtocolConnection::GetShadowConnection
 ms.prod: windows-hardware
 ms.technology: windows-devices

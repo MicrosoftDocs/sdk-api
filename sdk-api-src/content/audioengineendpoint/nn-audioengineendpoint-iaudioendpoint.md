@@ -7,7 +7,7 @@ old-location: termserv\iaudioendpoint.htm
 old-project: TermServ
 ms.assetid: a1bb3fe4-6051-4b9c-8270-70375e700f01
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: IAudioEndpoint, IAudioEndpoint interface [Remote Desktop Services], IAudioEndpoint interface [Remote Desktop Services],described, audioengineendpoint/IAudioEndpoint, termserv.iaudioendpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices

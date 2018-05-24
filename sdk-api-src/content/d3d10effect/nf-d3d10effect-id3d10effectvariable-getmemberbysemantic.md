@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_getmemberbysemantic.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getmemberbysemantic.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: 39fcf4c4-6072-0377-d1b8-ca11cc848a0c, GetMemberBySemantic, GetMemberBySemantic method [Direct3D 10], GetMemberBySemantic method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetMemberBySemantic method, ID3D10EffectVariable.GetMemberBySemantic, ID3D10EffectVariable::GetMemberBySemantic, d3d10effect/ID3D10EffectVariable::GetMemberBySemantic, direct3d10.id3d10effectvariable_getmemberbysemantic
 ms.prod: windows-hardware
 ms.technology: windows-devices

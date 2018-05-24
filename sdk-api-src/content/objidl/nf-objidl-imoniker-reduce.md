@@ -7,7 +7,7 @@ old-location: com\imoniker_reduce.htm
 old-project: com
 ms.assetid: 1d34da7b-e6cb-4daa-a155-45beb36e035b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IMoniker interface [COM],Reduce method, IMoniker.Reduce, IMoniker::Reduce, Reduce, Reduce method [COM], Reduce method [COM],IMoniker interface, _com_imoniker_reduce, com.imoniker_reduce, objidl/IMoniker::Reduce
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMoniker::Reduce

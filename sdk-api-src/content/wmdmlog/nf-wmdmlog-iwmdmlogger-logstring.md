@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmlogger_logstring.htm
 old-project: WMDM
 ms.assetid: 6a084ef6-20dc-4363-b9b8-c4e9bcb1dd71
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],LogString method, IWMDMLogger.LogString, IWMDMLogger::LogString, IWMDMLoggerLogString, LogString, LogString method [windows Media Device Manager], LogString method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_logstring, wmdmlog/IWMDMLogger::LogString
 ms.prod: windows-hardware
 ms.technology: windows-devices

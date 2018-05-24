@@ -7,7 +7,7 @@ old-location: controls\IRichEditOleCallback_GetContextMenu.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetcontextmenu.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GCM_RIGHTMOUSEDROP, GetContextMenu, GetContextMenu method [Windows Controls], GetContextMenu method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetContextMenu method, IRichEditOleCallback.GetContextMenu, IRichEditOleCallback::GetContextMenu, SEL_EMPTY, SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _win32_IRichEditOleCallback_GetContextMenu, _win32_IRichEditOleCallback_GetContextMenu_cpp, controls.IRichEditOleCallback_GetContextMenu, controls._win32_IRichEditOleCallback_GetContextMenu, richole/IRichEditOleCallback::GetContextMenu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRichEditOleCallback::GetContextMenu

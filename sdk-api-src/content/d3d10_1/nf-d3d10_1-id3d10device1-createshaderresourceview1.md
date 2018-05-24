@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device1_createshaderresourceview1.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device1_createshaderresourceview1.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: 03e028ae-86fb-9c0c-3e9c-3a0471355fab, CreateShaderResourceView1, CreateShaderResourceView1 method [Direct3D 10], CreateShaderResourceView1 method [Direct3D 10],ID3D10Device1 interface, ID3D10Device1 interface [Direct3D 10],CreateShaderResourceView1 method, ID3D10Device1.CreateShaderResourceView1, ID3D10Device1::CreateShaderResourceView1, d3d10_1/ID3D10Device1::CreateShaderResourceView1, direct3d10.id3d10device1_createshaderresourceview1
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderEvents_CredentialsChanged.htm
 old-project: shell
 ms.assetid: bff835ed-01b9-4620-a97c-c64a2445e02a
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CredentialsChanged, CredentialsChanged method [Windows Shell], CredentialsChanged method [Windows Shell],ICredentialProviderEvents interface, ICredentialProviderEvents interface [Windows Shell],CredentialsChanged method, ICredentialProviderEvents.CredentialsChanged, ICredentialProviderEvents::CredentialsChanged, credentialprovider/ICredentialProviderEvents::CredentialsChanged, shell.ICredentialProviderEvents_CredentialsChanged, shell_ICredentialProviderEvents_CredentialsChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices

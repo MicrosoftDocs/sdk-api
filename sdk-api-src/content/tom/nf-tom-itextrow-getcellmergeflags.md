@@ -7,7 +7,7 @@ old-location: controls\itextrow_getcellmergeflags.htm
 old-project: Controls
 ms.assetid: 0e3c0cf4-b371-4622-a183-61d213fc9291
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetCellMergeFlags, GetCellMergeFlags method [Windows Controls], GetCellMergeFlags method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellMergeFlags method, ITextRow.GetCellMergeFlags, ITextRow::GetCellMergeFlags, controls.itextrow_getcellmergeflags, tom/ITextRow::GetCellMergeFlags, tomHContCell, tomHStartCell, tomVLowCell, tomVTopCell
 ms.prod: windows-hardware
 ms.technology: windows-devices

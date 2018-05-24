@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_adddirectedtarget.htm
 old-project: VSS
 ms.assetid: 927865ff-f3c4-4863-913e-cfffb7bbdbb2
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: AddDirectedTarget, AddDirectedTarget method [VSS], AddDirectedTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddDirectedTarget method, IVssComponent.AddDirectedTarget, IVssComponent::AddDirectedTarget, _win32_ivsscomponent_adddirectedtarget, base.ivsscomponent_adddirectedtarget, vswriter/IVssComponent::AddDirectedTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivdscontroller.htm
 old-project: VDS
 ms.assetid: cc30a78a-78a4-49c2-a97d-228400da46a9
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsController, IVdsController interface [VDS], IVdsController interface [VDS],described, base.ivdscontroller, vds/IVdsController, vdshwprv/IVdsController
 ms.prod: windows-hardware
 ms.technology: windows-devices

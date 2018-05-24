@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiinitiatoradapter_getproperties.htm
 old-project: VDS
 ms.assetid: 9442e182-bc2e-47dd-9ddc-aa1a618a5563
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsIscsiInitiatorAdapter interface, IVdsIscsiInitiatorAdapter interface [VDS],GetProperties method, IVdsIscsiInitiatorAdapter.GetProperties, IVdsIscsiInitiatorAdapter::GetProperties, base.ivdsiscsiinitiatoradapter_getproperties, vds/IVdsIscsiInitiatorAdapter::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

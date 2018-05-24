@@ -7,7 +7,7 @@ old-location: termserv\iwrdsprotocolmanager_notifysessionofservicestop.htm
 old-project: TermServ
 ms.assetid: acf52eb0-d8f8-4257-9c2c-e9345c0f1b7f
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifySessionOfServiceStop method, IWRdsProtocolManager.NotifySessionOfServiceStop, IWRdsProtocolManager::NotifySessionOfServiceStop, NotifySessionOfServiceStop, NotifySessionOfServiceStop method [Remote Desktop Services], NotifySessionOfServiceStop method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifysessionofservicestop, wtsprotocol/IWRdsProtocolManager::NotifySessionOfServiceStop
 ms.prod: windows-hardware
 ms.technology: windows-devices

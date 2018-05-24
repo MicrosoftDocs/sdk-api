@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControl.htm
 old-project: shell
 ms.assetid: 2072cb3c-e540-4708-bfe8-33fff3a190bd
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: INameSpaceTreeControl, INameSpaceTreeControl interface [Windows Shell], INameSpaceTreeControl interface [Windows Shell],described, _shell_INameSpaceTreeControl, shell.INameSpaceTreeControl, shobjidl_core/INameSpaceTreeControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

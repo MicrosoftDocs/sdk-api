@@ -7,7 +7,7 @@ old-location: com\imalloc_heapminimize.htm
 old-project: com
 ms.assetid: b57e32eb-a637-47d8-b136-05cb193e9f73
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: HeapMinimize, HeapMinimize method [COM], HeapMinimize method [COM],IMalloc interface, IMalloc interface [COM],HeapMinimize method, IMalloc.HeapMinimize, IMalloc::HeapMinimize, _com_imalloc_heapminimize, com.imalloc_heapminimize, objidlbase/IMalloc::HeapMinimize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMalloc::HeapMinimize

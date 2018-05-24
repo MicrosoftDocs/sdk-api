@@ -7,7 +7,7 @@ old-location: tablet\iinktablet2_devicekind.htm
 old-project: tablet
 ms.assetid: da5242d4-da28-4e0d-ac48-23918f5d63ef
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: DeviceKind property [Tablet PC], DeviceKind property [Tablet PC],IInkTablet2 interface, DeviceKind property [Tablet PC],TBD object, IInkTablet2 interface [Tablet PC],DeviceKind property, IInkTablet2.DeviceKind, IInkTablet2.get_DeviceKind, IInkTablet2::DeviceKind, IInkTablet2::get_DeviceKind, TBD object [Tablet PC],DeviceKind property, get_DeviceKind, msinkaut/IInkTablet2::DeviceKind, msinkaut/IInkTablet2::get_DeviceKind, tablet.iinktablet2_devicekind
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkTablet2::get_DeviceKind

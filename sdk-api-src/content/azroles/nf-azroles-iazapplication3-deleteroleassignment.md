@@ -7,7 +7,7 @@ old-location: security\iazapplication3_deleteroleassignment.htm
 old-project: SecAuthZ
 ms.assetid: 1844e7c5-91ad-4f6d-8f5b-1a174e9653dd
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: DeleteRoleAssignment, DeleteRoleAssignment method [Security], DeleteRoleAssignment method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],DeleteRoleAssignment method, IAzApplication3.DeleteRoleAssignment, IAzApplication3::DeleteRoleAssignment, azroles/IAzApplication3::DeleteRoleAssignment, security.iazapplication3_deleteroleassignment
 ms.prod: windows-hardware
 ms.technology: windows-devices

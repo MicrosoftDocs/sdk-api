@@ -7,7 +7,7 @@ old-location: wininet\internetgetconnectedstate.htm
 old-project: WinInet
 ms.assetid: 500765b8-fbe4-4bba-894e-cc7f114d9eaa
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: INTERNET_CONNECTION_CONFIGURED, INTERNET_CONNECTION_LAN, INTERNET_CONNECTION_MODEM, INTERNET_CONNECTION_MODEM_BUSY, INTERNET_CONNECTION_OFFLINE, INTERNET_CONNECTION_PROXY, INTERNET_RAS_INSTALLED, InternetGetConnectedState, InternetGetConnectedState function [WinINet], _inet_internetgetconnectedstate_function, wininet.internetgetconnectedstate, winineti/InternetGetConnectedState
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IFileDialogControlEvents_OnCheckButtonToggled.htm
 old-project: shell
 ms.assetid: 97e6cb2a-1ffc-43ca-abb6-f1b259e8fcd2
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnCheckButtonToggled method, IFileDialogControlEvents.OnCheckButtonToggled, IFileDialogControlEvents::OnCheckButtonToggled, OnCheckButtonToggled, OnCheckButtonToggled method [Windows Shell], OnCheckButtonToggled method [Windows Shell],IFileDialogControlEvents interface, shell.IFileDialogControlEvents_OnCheckButtonToggled, shell_IFileDialogControlEvents_OnCheckButtonToggled, shobjidl/IFileDialogControlEvents::OnCheckButtonToggled
 ms.prod: windows-hardware
 ms.technology: windows-devices

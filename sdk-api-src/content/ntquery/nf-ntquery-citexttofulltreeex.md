@@ -7,7 +7,7 @@ old-location: indexsrv\citexttofulltreeex.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0trs.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CITextToFullTreeEx, CITextToFullTreeEx function [Indexing Service], _idxs_CITextToFullTreeEx, indexsrv.citexttofulltreeex, ntquery/CITextToFullTreeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ntquery.lib
 req.dll: Ntquery.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CITextToFullTreeEx function

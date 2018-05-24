@@ -7,7 +7,7 @@ old-location: termserv\wtswaitsystemevent.htm
 old-project: TermServ
 ms.assetid: 4139c009-6d2f-460b-b7a0-097bd2218505
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: WTSWaitSystemEvent, WTSWaitSystemEvent function [Remote Desktop Services], WTS_EVENT_ALL, WTS_EVENT_CONNECT, WTS_EVENT_CREATE, WTS_EVENT_DELETE, WTS_EVENT_DISCONNECT, WTS_EVENT_LICENSE, WTS_EVENT_LOGOFF, WTS_EVENT_LOGON, WTS_EVENT_RENAME, WTS_EVENT_STATECHANGE, _win32_wtswaitsystemevent, termserv.wtswaitsystemevent, wtsapi32/WTSWaitSystemEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

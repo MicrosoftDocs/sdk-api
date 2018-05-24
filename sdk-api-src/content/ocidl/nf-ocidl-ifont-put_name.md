@@ -7,7 +7,7 @@ old-location: com\ifont_put_name.htm
 old-project: com
 ms.assetid: 3593d5c9-e2b7-4d85-b8f7-94f01a901030
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IFont interface [COM],put_Name method, IFont.put_Name, IFont::put_Name, _ctrl_ifont_put_name, com.ifont_put_name, ocidl/IFont::put_Name, put_Name, put_Name method [COM], put_Name method [COM],IFont interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFont::put_Name

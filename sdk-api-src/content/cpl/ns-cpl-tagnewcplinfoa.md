@@ -7,7 +7,7 @@ old-location: shell\NEWCPLINFO.htm
 old-project: shell
 ms.assetid: a68cd816-6b2c-4cff-9288-9c3758e3fdae
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPNEWCPLINFOA, LPNEWCPLINFO, LPNEWCPLINFO structure pointer [Windows Shell], NEWCPLINFO, NEWCPLINFO structure [Windows Shell], NEWCPLINFOA, _win32_NEWCPLINFO, cpl/LPNEWCPLINFO, cpl/NEWCPLINFO, shell.NEWCPLINFO, tagNEWCPLINFOA"
 ms.prod: windows-hardware
 ms.technology: windows-devices

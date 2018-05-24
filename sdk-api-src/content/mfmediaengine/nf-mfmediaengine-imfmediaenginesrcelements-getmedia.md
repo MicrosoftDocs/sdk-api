@@ -7,7 +7,7 @@ old-location: mf\imfmediaenginesrcelements_getmedia.htm
 old-project: medfound
 ms.assetid: AC99D8D0-ACA6-4FE9-A061-1D3A7D92E596
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetMedia, GetMedia method [Media Foundation], GetMedia method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetMedia method, IMFMediaEngineSrcElements.GetMedia, IMFMediaEngineSrcElements::GetMedia, mf.imfmediaenginesrcelements_getmedia, mfmediaengine/IMFMediaEngineSrcElements::GetMedia
 ms.prod: windows-hardware
 ms.technology: windows-devices

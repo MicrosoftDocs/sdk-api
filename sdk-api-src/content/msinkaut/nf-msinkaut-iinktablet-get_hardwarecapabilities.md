@@ -7,7 +7,7 @@ old-location: tablet\iinktablet_hardwarecapabilities.htm
 old-project: tablet
 ms.assetid: 886c1e7c-fec0-4294-aba1-8e0806c2d0ca
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 886c1e7c-fec0-4294-aba1-8e0806c2d0ca, HardwareCapabilities property [Tablet PC], HardwareCapabilities property [Tablet PC],IInkTablet interface, IInkTablet interface [Tablet PC],HardwareCapabilities property, IInkTablet.HardwareCapabilities, IInkTablet.get_HardwareCapabilities, IInkTablet::HardwareCapabilities, IInkTablet::get_HardwareCapabilities, get_HardwareCapabilities, msinkaut/IInkTablet::HardwareCapabilities, msinkaut/IInkTablet::get_HardwareCapabilities, tablet.iinktablet_hardwarecapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkTablet::get_HardwareCapabilities

@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest_endsendrequest.htm
 old-project: medfound
 ms.assetid: 2B1554C7-2814-4A9E-BBAC-B25C78775420
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: EndSendRequest, EndSendRequest method [Media Foundation], EndSendRequest method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],EndSendRequest method, IMFHttpDownloadRequest.EndSendRequest, IMFHttpDownloadRequest::EndSendRequest, mf.imfhttpdownloadrequest_endsendrequest, mfidl/IMFHttpDownloadRequest::EndSendRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

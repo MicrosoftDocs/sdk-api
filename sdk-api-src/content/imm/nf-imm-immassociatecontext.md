@@ -7,7 +7,7 @@ old-location: intl\immassociatecontext.htm
 old-project: Intl
 ms.assetid: 978ea304-c44d-4f00-b86f-932bbd5f603c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: ImmAssociateContext, ImmAssociateContext function [Internationalization for Windows Applications], _win32_ImmAssociateContext, imm/ImmAssociateContext, intl.immassociatecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

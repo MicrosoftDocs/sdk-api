@@ -7,7 +7,7 @@ old-location: mf\imfqualitymanager_notifyprocessoutput.htm
 old-project: medfound
 ms.assetid: 90596111-6fbc-4249-a696-bd575cb66830
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 90596111-6fbc-4249-a696-bd575cb66830, IMFQualityManager interface [Media Foundation],NotifyProcessOutput method, IMFQualityManager.NotifyProcessOutput, IMFQualityManager::NotifyProcessOutput, NotifyProcessOutput, NotifyProcessOutput method [Media Foundation], NotifyProcessOutput method [Media Foundation],IMFQualityManager interface, mf.imfqualitymanager_notifyprocessoutput, mfidl/IMFQualityManager::NotifyProcessOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

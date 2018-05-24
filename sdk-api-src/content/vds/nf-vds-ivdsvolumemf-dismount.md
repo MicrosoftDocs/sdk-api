@@ -7,7 +7,7 @@ old-location: base\ivdsvolumemf_dismount.htm
 old-project: VDS
 ms.assetid: 1ef5a1e6-0e41-4077-9ae8-fe266f2623cc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: Dismount, Dismount method [VDS], Dismount method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],Dismount method, IVdsVolumeMF.Dismount, IVdsVolumeMF::Dismount, base.ivdsvolumemf_dismount, vds/IVdsVolumeMF::Dismount
 ms.prod: windows-hardware
 ms.technology: windows-devices

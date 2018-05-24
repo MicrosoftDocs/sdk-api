@@ -7,7 +7,7 @@ old-location: com\iconnectionpointcontainer.htm
 old-project: com
 ms.assetid: 5e2be055-7baa-4c42-bd20-b338da296ab0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IConnectionPointContainer, IConnectionPointContainer interface [COM], IConnectionPointContainer interface [COM],described, _com_iconnectionpointcontainer, com.iconnectionpointcontainer, ocidl/IConnectionPointContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IConnectionPointContainer interface

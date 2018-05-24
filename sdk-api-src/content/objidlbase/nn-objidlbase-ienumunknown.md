@@ -7,7 +7,7 @@ old-location: com\ienumunknown.htm
 old-project: com
 ms.assetid: 5aaed96f-39c1-4201-80d0-a2a8a177b65e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumUnknown, IEnumUnknown interface [COM], IEnumUnknown interface [COM],described, _com_ienumunknown, com.ienumunknown, objidlbase/IEnumUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumUnknown interface

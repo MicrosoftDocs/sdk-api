@@ -7,7 +7,7 @@ old-location: security\authzmodifysecurityattributes.htm
 old-project: SecAuthZ
 ms.assetid: d84873e2-ecfe-45cf-9048-7ed173117efa
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AuthzModifySecurityAttributes, AuthzModifySecurityAttributes function [Security], authz/AuthzModifySecurityAttributes, security.authzmodifysecurityattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices

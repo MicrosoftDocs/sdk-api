@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiportalgroup_removeportal.htm
 old-project: VDS
 ms.assetid: 462562f5-69c2-413d-9cdf-f9e1176f5c20
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsIscsiPortalGroup interface [VDS],RemovePortal method, IVdsIscsiPortalGroup.RemovePortal, IVdsIscsiPortalGroup::RemovePortal, RemovePortal, RemovePortal method [VDS], RemovePortal method [VDS],IVdsIscsiPortalGroup interface, base.ivdsiscsiportalgroup_removeportal, vds/IVdsIscsiPortalGroup::RemovePortal, vdshwprv/IVdsIscsiPortalGroup::RemovePortal
 ms.prod: windows-hardware
 ms.technology: windows-devices

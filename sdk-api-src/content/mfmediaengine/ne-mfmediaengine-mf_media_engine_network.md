@@ -7,7 +7,7 @@ old-location: mf\mf_media_engine_network.htm
 old-project: medfound
 ms.assetid: A2A73A54-C360-452C-8887-D3065274358A
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MF_MEDIA_ENGINE_NETWORK, MF_MEDIA_ENGINE_NETWORK enumeration [Media Foundation], MF_MEDIA_ENGINE_NETWORK_EMPTY, MF_MEDIA_ENGINE_NETWORK_IDLE, MF_MEDIA_ENGINE_NETWORK_LOADING, MF_MEDIA_ENGINE_NETWORK_NO_SOURCE, mf.mf_media_engine_network, mfmediaengine/MF_MEDIA_ENGINE_NETWORK, mfmediaengine/MF_MEDIA_ENGINE_NETWORK_EMPTY, mfmediaengine/MF_MEDIA_ENGINE_NETWORK_IDLE, mfmediaengine/MF_MEDIA_ENGINE_NETWORK_LOADING, mfmediaengine/MF_MEDIA_ENGINE_NETWORK_NO_SOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices

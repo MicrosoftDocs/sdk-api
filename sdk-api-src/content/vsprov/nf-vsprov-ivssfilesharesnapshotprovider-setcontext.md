@@ -7,7 +7,7 @@ old-location: base\ivssfilesharesnapshotprovider_setcontext.htm
 old-project: VSS
 ms.assetid: 28e53076-4d8e-4f24-83b0-d0aaf7260802
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],SetContext method, IVssFileShareSnapshotProvider.SetContext, IVssFileShareSnapshotProvider::SetContext, SetContext, SetContext method [VSS], SetContext method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_setcontext, vsprov/IVssFileShareSnapshotProvider::SetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices

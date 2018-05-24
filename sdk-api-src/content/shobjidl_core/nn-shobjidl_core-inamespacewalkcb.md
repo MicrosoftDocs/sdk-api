@@ -7,7 +7,7 @@ old-location: shell\INamespaceWalkCB.htm
 old-project: shell
 ms.assetid: 15244d6e-6cd7-4dee-8e4e-2533d5a60ae7
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: INamespaceWalkCB, INamespaceWalkCB interface [Windows Shell], INamespaceWalkCB interface [Windows Shell],described, _win32_INamespaceWalkCB, shell.INamespaceWalkCB, shobjidl_core/INamespaceWalkCB
 ms.prod: windows-hardware
 ms.technology: windows-devices

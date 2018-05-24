@@ -7,7 +7,7 @@ old-location: shell\ICustomDestinationList_AppendCategory.htm
 old-project: shell
 ms.assetid: 091a2b28-b4cf-46a9-845a-46b5aa86522d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: AppendCategory, AppendCategory method [Windows Shell], AppendCategory method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AppendCategory method, ICustomDestinationList.AppendCategory, ICustomDestinationList::AppendCategory, _shell_ICustomDestinationList_AppendCategory, shell.ICustomDestinationList_AppendCategory, shobjidl_core/ICustomDestinationList::AppendCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices

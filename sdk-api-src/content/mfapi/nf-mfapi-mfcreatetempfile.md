@@ -7,7 +7,7 @@ old-location: mf\mfcreatetempfile.htm
 old-project: medfound
 ms.assetid: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678, MFCreateTempFile, MFCreateTempFile function [Media Foundation], mf.mfcreatetempfile, mfapi/MFCreateTempFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

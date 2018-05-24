@@ -7,7 +7,7 @@ old-location: intl\imeuct.htm
 old-project: Intl
 ms.assetid: B4969E4E-1918-4963-B9F2-606556FD5978
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFED_UCT_NONE, IFED_UCT_STRING_SJIS, IFED_UCT_STRING_UNICODE, IFED_UCT_USER_DEFINED, IMEUCT, IMEUCT enumeration [Internationalization for Windows Applications], intl.imeuct, msime/IFED_UCT_NONE, msime/IFED_UCT_STRING_SJIS, msime/IFED_UCT_STRING_UNICODE, msime/IFED_UCT_USER_DEFINED, msime/IMEUCT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMEUCT enumeration

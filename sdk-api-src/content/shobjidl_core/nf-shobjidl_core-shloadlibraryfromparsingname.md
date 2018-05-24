@@ -7,7 +7,7 @@ old-location: shell\SHLoadLibraryFromParsingName.htm
 old-project: shell
 ms.assetid: 49433938-d31e-49f8-9dc7-3df5fb3bfcad
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SHLoadLibraryFromParsingName, SHLoadLibraryFromParsingName function [Windows Shell], _shell_SHLoadLibraryFromParsingName, shell.SHLoadLibraryFromParsingName, shobjidl_core/SHLoadLibraryFromParsingName
 ms.prod: windows-hardware
 ms.technology: windows-devices

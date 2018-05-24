@@ -7,7 +7,7 @@ old-location: shell\ISharingConfigurationManager_SharePrinters.htm
 old-project: shell
 ms.assetid: bc8d3b2b-88b6-4c2d-a3c2-94bba245708c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ISharingConfigurationManager interface [Windows Shell],SharePrinters method, ISharingConfigurationManager.SharePrinters, ISharingConfigurationManager::SharePrinters, SharePrinters, SharePrinters method [Windows Shell], SharePrinters method [Windows Shell],ISharingConfigurationManager interface, _shell_ISharingConfigurationManager_SharePrinters, shell.ISharingConfigurationManager_SharePrinters, shobjidl_core/ISharingConfigurationManager::SharePrinters
 ms.prod: windows-hardware
 ms.technology: windows-devices

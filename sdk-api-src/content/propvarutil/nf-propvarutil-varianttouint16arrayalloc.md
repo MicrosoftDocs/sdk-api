@@ -7,7 +7,7 @@ old-location: properties\VariantToUInt16ArrayAlloc.htm
 old-project: properties
 ms.assetid: 59e8d295-3be4-4e9a-a096-ead777d3aa8a
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: VariantToUInt16ArrayAlloc, VariantToUInt16ArrayAlloc function [Windows Properties], _shell_VariantToUInt16ArrayAlloc, properties.VariantToUInt16ArrayAlloc, propvarutil/VariantToUInt16ArrayAlloc, shell.VariantToUInt16ArrayAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantToUInt16ArrayAlloc function

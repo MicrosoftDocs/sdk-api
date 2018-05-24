@@ -7,7 +7,7 @@ old-location: com\ifont_releasehfont.htm
 old-project: com
 ms.assetid: 2c2cf2e0-d0c8-4e4f-ba5a-6b08650aee68
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IFont interface [COM],ReleaseHfont method, IFont.ReleaseHfont, IFont::ReleaseHfont, ReleaseHfont, ReleaseHfont method [COM], ReleaseHfont method [COM],IFont interface, _ctrl_ifont_releasehfont, com.ifont_releasehfont, ocidl/IFont::ReleaseHfont
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFont::ReleaseHfont

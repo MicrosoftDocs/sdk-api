@@ -7,7 +7,7 @@ old-location: rras\mpradmininterfacegetcustominfoex.htm
 old-project: RRAS
 ms.assetid: 01974ac8-dffc-4564-bac1-68ac0437d22b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: MprAdminInterfaceGetCustomInfoEx, MprAdminInterfaceGetCustomInfoEx function [RAS], mprapi/MprAdminInterfaceGetCustomInfoEx, rras.mpradmininterfacegetcustominfoex
 ms.prod: windows-hardware
 ms.technology: windows-devices

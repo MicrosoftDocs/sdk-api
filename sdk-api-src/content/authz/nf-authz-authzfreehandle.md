@@ -7,7 +7,7 @@ old-location: security\authzfreehandle.htm
 old-project: SecAuthZ
 ms.assetid: 8d2e2ae9-b515-4a02-b366-5b107b4f7ffa
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AuthzFreeHandle, AuthzFreeHandle function [Security], _win32_authzfreehandle, authz/AuthzFreeHandle, security.authzfreehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\getsavefilenamepreview.htm
 old-project: Multimedia
 ms.assetid: f6dd3127-b3fb-40bc-892c-34bacb47d9a6
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetSaveFileNamePreview, GetSaveFileNamePreview function [Windows Multimedia], GetSaveFileNamePreviewA, GetSaveFileNamePreviewW, _win32_GetSaveFileNamePreview, multimedia.getsavefilenamepreview, vfw/GetSaveFileNamePreview, vfw/GetSaveFileNamePreviewA, vfw/GetSaveFileNamePreviewW
 ms.prod: windows-hardware
 ms.technology: windows-devices

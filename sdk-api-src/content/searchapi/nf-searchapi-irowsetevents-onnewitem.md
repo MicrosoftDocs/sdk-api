@@ -7,7 +7,7 @@ old-location: search\_search_IRowsetEvents_OnNewItem.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onnewitem.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: IRowsetEvents interface [search],OnNewItem method, IRowsetEvents.OnNewItem, IRowsetEvents::OnNewItem, OnNewItem, OnNewItem method [search], OnNewItem method [search],IRowsetEvents interface, _search_IRowsetEvents_OnNewItem, search._search_IRowsetEvents_OnNewItem, searchapi/IRowsetEvents::OnNewItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRowsetEvents::OnNewItem

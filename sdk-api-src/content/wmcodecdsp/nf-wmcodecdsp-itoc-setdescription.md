@@ -7,7 +7,7 @@ old-location: mf\itoc_setdescription.htm
 old-project: medfound
 ms.assetid: 718eb8bd-fdf9-434d-b859-3a38cb8fabee
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IToc interface [Media Foundation],SetDescription method, IToc.SetDescription, IToc::SetDescription, SetDescription, SetDescription method [Media Foundation], SetDescription method [Media Foundation],IToc interface, codecapi.itoc_setdescription, mf.itoc_setdescription, wmcodecdsp/IToc::SetDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices

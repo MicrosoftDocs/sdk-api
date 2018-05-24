@@ -7,7 +7,7 @@ old-location: intl\freemuilibrary.htm
 old-project: Intl
 ms.assetid: 38a0d7cb-46a9-449b-8f7e-4c573e400e75
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: FreeMUILibrary, FreeMUILibrary function [Internationalization for Windows Applications], _win32_FreeMUILibrary, intl.freemuilibrary, muiload/FreeMUILibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Muiload.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # FreeMUILibrary function

@@ -7,7 +7,7 @@ old-location: termserv\iwtsbitmaprenderer_getrendererstatistics.htm
 old-project: TermServ
 ms.assetid: 9BC4C091-053E-4E94-BF65-91AEB03C355F
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: GetRendererStatistics, GetRendererStatistics method [Remote Desktop Services], GetRendererStatistics method [Remote Desktop Services],IWTSBitmapRenderer interface, IWTSBitmapRenderer interface [Remote Desktop Services],GetRendererStatistics method, IWTSBitmapRenderer.GetRendererStatistics, IWTSBitmapRenderer::GetRendererStatistics, termserv.iwtsbitmaprenderer_getrendererstatistics, tsvirtualchannels/IWTSBitmapRenderer::GetRendererStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices

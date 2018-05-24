@@ -7,7 +7,7 @@ old-location: shell\IBandSite_QueryBand.htm
 old-project: shell
 ms.assetid: 0618ad7d-4e8f-4fbf-ab64-2b1c0d42158c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IBandSite interface [Windows Shell],QueryBand method, IBandSite.QueryBand, IBandSite::QueryBand, QueryBand, QueryBand method [Windows Shell], QueryBand method [Windows Shell],IBandSite interface, _win32_IBandSite_QueryBand, shell.IBandSite_QueryBand, shobjidl_core/IBandSite::QueryBand
 ms.prod: windows-hardware
 ms.technology: windows-devices

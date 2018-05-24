@@ -7,7 +7,7 @@ old-location: base\ivdsiscsiportalgroup_gettarget.htm
 old-project: VDS
 ms.assetid: b9195e17-4e41-494d-b6ce-ceacfc16d6cb
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetTarget, GetTarget method [VDS], GetTarget method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],GetTarget method, IVdsIscsiPortalGroup.GetTarget, IVdsIscsiPortalGroup::GetTarget, base.ivdsiscsiportalgroup_gettarget, vds/IVdsIscsiPortalGroup::GetTarget, vdshwprv/IVdsIscsiPortalGroup::GetTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices

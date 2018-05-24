@@ -7,7 +7,7 @@ old-location: imapi\irawcdimagecreator_put_startingtracknumber.htm
 old-project: imapi
 ms.assetid: 38d1319b-0350-41bf-8984-fbeb4f5f3204
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_StartingTrackNumber method, IRawCDImageCreator.put_StartingTrackNumber, IRawCDImageCreator::put_StartingTrackNumber, imapi.irawcdimagecreator_put_startingtracknumber, imapi2/IRawCDImageCreator::put_StartingTrackNumber, put_StartingTrackNumber, put_StartingTrackNumber method [IMAPI], put_StartingTrackNumber method [IMAPI],IRawCDImageCreator interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

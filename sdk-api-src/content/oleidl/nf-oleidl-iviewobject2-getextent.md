@@ -7,7 +7,7 @@ old-location: com\iviewobject2_getextent.htm
 old-project: com
 ms.assetid: 66eedee0-58b5-4676-93db-599ed19a02b6
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetExtent, GetExtent method [COM], GetExtent method [COM],IViewObject2 interface, IViewObject2 interface [COM],GetExtent method, IViewObject2.GetExtent, IViewObject2::GetExtent, _ole_iviewobject2_getextent, com.iviewobject2_getextent, oleidl/IViewObject2::GetExtent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Adhocreportingexcelclient.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IViewObject2::GetExtent

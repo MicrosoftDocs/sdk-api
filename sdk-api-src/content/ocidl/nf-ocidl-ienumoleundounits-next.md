@@ -7,7 +7,7 @@ old-location: com\ienumoleundounits_next.htm
 old-project: com
 ms.assetid: bd5ce157-37d1-4e27-a0d4-ed9cffeac2b3
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumOleUndoUnits interface [COM],Next method, IEnumOleUndoUnits.Next, IEnumOleUndoUnits::Next, Next, Next method [COM], Next method [COM],IEnumOleUndoUnits interface, _ole_ienumoleundounits_next, com.ienumoleundounits_next, ocidl/IEnumOleUndoUnits::Next
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumOleUndoUnits::Next

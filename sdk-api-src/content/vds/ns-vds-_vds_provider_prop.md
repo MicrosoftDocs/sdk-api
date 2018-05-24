@@ -7,7 +7,7 @@ old-location: base\vds_provider_prop.htm
 old-project: VDS
 ms.assetid: f41fc908-3720-4dfb-a5d3-bb1459fb7e5d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_PROVIDER_PROP, VDS_PROVIDER_PROP structure [VDS], _VDS_PROVIDER_PROP, base.vds_provider_prop, vds/_VDS_PROVIDER_PROP, vdshwprv/_VDS_PROVIDER_PROP
 ms.prod: windows-hardware
 ms.technology: windows-devices

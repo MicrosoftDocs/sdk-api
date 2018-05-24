@@ -7,7 +7,7 @@ old-location: mf\mfgetworkqueuemmcsstaskid.htm
 old-project: medfound
 ms.assetid: e9b2eea8-2ed3-4b08-ad2a-c8ee2e09f3e4
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFGetWorkQueueMMCSSTaskId, MFGetWorkQueueMMCSSTaskId function [Media Foundation], e9b2eea8-2ed3-4b08-ad2a-c8ee2e09f3e4, mf.mfgetworkqueuemmcsstaskid, mfapi/MFGetWorkQueueMMCSSTaskId
 ms.prod: windows-hardware
 ms.technology: windows-devices

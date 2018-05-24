@@ -7,7 +7,7 @@ old-location: shell\IUnknown_Set.htm
 old-project: shell
 ms.assetid: b3c4bee2-12cb-483e-9a46-f09d63ae9a2e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IUnknown_Set, IUnknown_Set function [Windows Shell], _win32_IUnknown_Set, shell.IUnknown_Set, shlwapi/IUnknown_Set
 ms.prod: windows-hardware
 ms.technology: windows-devices

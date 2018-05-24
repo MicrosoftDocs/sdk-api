@@ -7,7 +7,7 @@ old-location: policy\policysettingstatusinfo_str.htm
 old-project: Policy
 ms.assetid: f86dbd35-9180-43f1-ad66-7dba31e1fc89
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: "*LPPOLICYSETTINGSTATUSINFO, LPPOLICYSETTINGSTATUSINFO, LPPOLICYSETTINGSTATUSINFO structure pointer [Group Policy], POLICYSETTINGSTATUSINFO, POLICYSETTINGSTATUSINFO structure [Group Policy], RSOPApplied, RSOPFailed, RSOPIgnored, RSOPSubsettingFailed, RSOPUnspecified, _POLICYSETTINGSTATUSINFO, _win32_policysettingstatusinfo_str, policy.policysettingstatusinfo_str, userenv/LPPOLICYSETTINGSTATUSINFO, userenv/POLICYSETTINGSTATUSINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

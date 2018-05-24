@@ -7,7 +7,7 @@ old-location: controls\tablerowparms.htm
 old-project: Controls
 ms.assetid: 8b538d72-1210-4344-b673-592ef9a8cc85
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: PFA_CENTER, PFA_LEFT, PFA_RIGHT, TABLEROWPARMS, TABLEROWPARMS structure [Windows Controls], _tableRowParms, controls.tablerowparms, richedit/TABLEROWPARMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _tableRowParms structure

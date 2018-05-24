@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxsender_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0gtu_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFaxSender, IFaxSender interface [Fax Service], IFaxSender interface [Fax Service],described, _mfax_faxsender_cpp, fax._mfax_faxsender_cpp, faxcomex/IFaxSender
 ms.prod: windows-hardware
 ms.technology: windows-devices

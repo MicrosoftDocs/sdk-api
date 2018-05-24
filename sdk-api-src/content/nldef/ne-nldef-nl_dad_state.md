@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Newdev.lib
 req.dll: Newdev.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # NL_DAD_STATE enumeration

@@ -7,7 +7,7 @@ old-location: intl\ifedictionary.htm
 old-project: Intl
 ms.assetid: 4C63FF43-0170-4038-AB01-72441E1BB189
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFEDictionary, IFEDictionary interface [Internationalization for Windows Applications], IFEDictionary interface [Internationalization for Windows Applications],described, intl.ifedictionary, msime/IFEDictionary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFEDictionary interface

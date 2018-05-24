@@ -7,7 +7,7 @@ old-location: shell\IDeskBandInfo.htm
 old-project: shell
 ms.assetid: 1fff31d0-e732-4c93-8238-a8b4a5a62d37
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IDeskBandInfo, IDeskBandInfo interface [Windows Shell], IDeskBandInfo interface [Windows Shell],described, _shell_IDeskBandInfo, shell.IDeskBandInfo, shobjidl_core/IDeskBandInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

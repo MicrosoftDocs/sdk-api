@@ -7,7 +7,7 @@ old-location: com\ipicture_selectpicture.htm
 old-project: com
 ms.assetid: 4168dbf7-ccc3-49ee-9b04-b0370eb389af
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IPicture interface [COM],SelectPicture method, IPicture.SelectPicture, IPicture::SelectPicture, SelectPicture, SelectPicture method [COM], SelectPicture method [COM],IPicture interface, _ctrl_ipicture_selectpicture, com.ipicture_selectpicture, ocidl/IPicture::SelectPicture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPicture::SelectPicture

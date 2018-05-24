@@ -7,7 +7,7 @@ old-location: com\cotreatasclass.htm
 old-project: com
 ms.assetid: d871879f-ec68-48e1-8ef6-364cf1447d0f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CoTreatAsClass, CoTreatAsClass function [COM], _com_CoTreatAsClass, com.cotreatasclass, objbase/CoTreatAsClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CoTreatAsClass function

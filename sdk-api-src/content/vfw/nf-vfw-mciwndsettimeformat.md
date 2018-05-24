@@ -7,7 +7,7 @@ old-location: multimedia\mciwndsettimeformat.htm
 old-project: Multimedia
 ms.assetid: dcf70d76-6f53-4e05-ab05-3f9136294d7a
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: MCIWndSetTimeFormat, MCIWndSetTimeFormat macro [Windows Multimedia], _win32_MCIWndSetTimeFormat, multimedia.mciwndsettimeformat, vfw/MCIWndSetTimeFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices

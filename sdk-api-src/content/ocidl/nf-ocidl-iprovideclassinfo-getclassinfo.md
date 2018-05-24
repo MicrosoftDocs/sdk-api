@@ -7,7 +7,7 @@ old-location: com\iprovideclassinfo_getclassinfo.htm
 old-project: com
 ms.assetid: 9dac095d-4657-47ea-a673-4d8a96fc29bb
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetClassInfo, GetClassInfo method [COM], GetClassInfo method [COM],IProvideClassInfo interface, IProvideClassInfo interface [COM],GetClassInfo method, IProvideClassInfo.GetClassInfo, IProvideClassInfo::GetClassInfo, _com_iprovideclassinfo_getclassinfo, com.iprovideclassinfo_getclassinfo, ocidl/IProvideClassInfo::GetClassInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IProvideClassInfo::GetClassInfo

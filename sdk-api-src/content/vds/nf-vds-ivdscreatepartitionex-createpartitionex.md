@@ -7,7 +7,7 @@ old-location: base\ivdscreatepartitionex_createpartitionex.htm
 old-project: VDS
 ms.assetid: c9ab5a24-b0b3-41cc-a4bf-3619f156008c
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: CreatePartitionEx, CreatePartitionEx method [VDS], CreatePartitionEx method [VDS],IVdsCreatePartitionEx interface, IVdsCreatePartitionEx interface [VDS],CreatePartitionEx method, IVdsCreatePartitionEx.CreatePartitionEx, IVdsCreatePartitionEx::CreatePartitionEx, base.ivdscreatepartitionex_createpartitionex, vds/IVdsCreatePartitionEx::CreatePartitionEx
 ms.prod: windows-hardware
 ms.technology: windows-devices

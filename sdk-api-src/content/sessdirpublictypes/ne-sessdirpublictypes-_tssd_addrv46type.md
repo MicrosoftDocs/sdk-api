@@ -7,7 +7,7 @@ old-location: termserv\tssd_addrv46type.htm
 old-project: TermServ
 ms.assetid: 3c79234e-3ded-4911-8a83-2e69d3a6294a
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: TSSD_ADDR_IPv4, TSSD_ADDR_IPv6, TSSD_ADDR_UNDEFINED, TSSD_AddrV46Type, TSSD_AddrV46Type enumeration [Remote Desktop Services], _TSSD_AddrV46Type, sessdirpublictypes/TSSD_ADDR_IPv4, sessdirpublictypes/TSSD_ADDR_IPv6, sessdirpublictypes/TSSD_ADDR_UNDEFINED, sessdirpublictypes/TSSD_AddrV46Type, termserv.tssd_addrv46type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _TSSD_AddrV46Type enumeration

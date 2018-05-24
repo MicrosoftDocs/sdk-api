@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_abortbackup.htm
 old-project: VSS
 ms.assetid: e854ab83-9a1a-4660-8a3e-37747b1b7d8c
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: AbortBackup, AbortBackup method [VSS], AbortBackup method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AbortBackup method, IVssBackupComponents.AbortBackup, IVssBackupComponents::AbortBackup, _win32_ivssbackupcomponents_abortbackup, base.ivssbackupcomponents_abortbackup, vsbackup/IVssBackupComponents::AbortBackup
 ms.prod: windows-hardware
 ms.technology: windows-devices

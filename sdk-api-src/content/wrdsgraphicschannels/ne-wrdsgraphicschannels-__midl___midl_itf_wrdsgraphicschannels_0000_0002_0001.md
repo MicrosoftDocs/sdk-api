@@ -7,7 +7,7 @@ old-location: termserv\wrdsgraphicschanneltype.htm
 old-project: TermServ
 ms.assetid: 79B63FCD-6BCD-44E6-A5C3-6F5E1336DAA5
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: WRdsGraphicsChannelType, WRdsGraphicsChannelType enumeration [Remote Desktop Services], WRdsGraphicsChannelType_BestEffortDelivery, WRdsGraphicsChannelType_GuaranteedDelivery, __MIDL___MIDL_itf_wrdsgraphicschannels_0000_0002_0001, termserv.wrdsgraphicschanneltype, wrdsgraphicschannels/WRdsGraphicsChannelType, wrdsgraphicschannels/WRdsGraphicsChannelType_BestEffortDelivery, wrdsgraphicschannels/WRdsGraphicsChannelType_GuaranteedDelivery
 ms.prod: windows-hardware
 ms.technology: windows-devices

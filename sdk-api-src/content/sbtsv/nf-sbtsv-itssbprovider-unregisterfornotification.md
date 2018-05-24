@@ -7,7 +7,7 @@ old-location: termserv\itssbprovider_unregisterfornotification.htm
 old-project: TermServ
 ms.assetid: e2fa297e-9923-4e60-9e6e-caa6e4b8c963
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITsSbProvider interface [Remote Desktop Services],UnRegisterForNotification method, ITsSbProvider.UnRegisterForNotification, ITsSbProvider::UnRegisterForNotification, TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE, TSSB_NOTIFY_SESSION_CHANGE, TSSB_NOTIFY_TARGET_CHANGE, UnRegisterForNotification, UnRegisterForNotification method [Remote Desktop Services], UnRegisterForNotification method [Remote Desktop Services],ITsSbProvider interface, sbtsv/ITsSbProvider::UnRegisterForNotification, termserv.itssbprovider_unregisterfornotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbProvider::UnRegisterForNotification

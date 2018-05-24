@@ -7,7 +7,7 @@ old-location: base\ivdshbaport_getproperties.htm
 old-project: VDS
 ms.assetid: 5472534f-66c8-4a78-a351-92f59e50ae32
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsHbaPort interface, IVdsHbaPort interface [VDS],GetProperties method, IVdsHbaPort.GetProperties, IVdsHbaPort::GetProperties, base.ivdshbaport_getproperties, vds/IVdsHbaPort::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

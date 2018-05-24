@@ -7,7 +7,7 @@ old-location: mf\imfoutputtrustauthority.htm
 old-project: medfound
 ms.assetid: 21594ac0-7e3c-44a3-bbee-64316dd51824
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 21594ac0-7e3c-44a3-bbee-64316dd51824, IMFOutputTrustAuthority, IMFOutputTrustAuthority interface [Media Foundation], IMFOutputTrustAuthority interface [Media Foundation],described, mf.imfoutputtrustauthority, mfidl/IMFOutputTrustAuthority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

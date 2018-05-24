@@ -7,7 +7,7 @@ old-location: mf\mfcreatemfvideoformatfrommfmediatype.htm
 old-project: medfound
 ms.assetid: c83e3605-d345-4192-a6fd-26d1a78eb259
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFCreateMFVideoFormatFromMFMediaType, MFCreateMFVideoFormatFromMFMediaType function [Media Foundation], c83e3605-d345-4192-a6fd-26d1a78eb259, mf.mfcreatemfvideoformatfrommfmediatype, mfapi/MFCreateMFVideoFormatFromMFMediaType
 ms.prod: windows-hardware
 ms.technology: windows-devices

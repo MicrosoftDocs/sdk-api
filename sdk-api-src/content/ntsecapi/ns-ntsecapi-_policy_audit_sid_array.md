@@ -7,7 +7,7 @@ old-location: security\policy_audit_sid_array.htm
 old-project: SecAuthZ
 ms.assetid: 22f4255c-331a-4327-84d8-e905c7e419b6
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: "*PPOLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY, POLICY_AUDIT_SID_ARRAY structure [Security], PPOLICY_AUDIT_SID_ARRAY, PPOLICY_AUDIT_SID_ARRAY structure pointer [Security], _POLICY_AUDIT_SID_ARRAY, ntsecapi/POLICY_AUDIT_SID_ARRAY, ntsecapi/PPOLICY_AUDIT_SID_ARRAY, security.policy_audit_sid_array"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _POLICY_AUDIT_SID_ARRAY structure

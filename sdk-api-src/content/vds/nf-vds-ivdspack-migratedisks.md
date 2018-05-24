@@ -7,7 +7,7 @@ old-location: base\ivdspack_migratedisks.htm
 old-project: VDS
 ms.assetid: c7e85c4c-fb7c-48de-abd7-8d65ecb9a1fa
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsPack interface [VDS],MigrateDisks method, IVdsPack.MigrateDisks, IVdsPack::MigrateDisks, MigrateDisks, MigrateDisks method [VDS], MigrateDisks method [VDS],IVdsPack interface, base.ivdspack_migratedisks, vds/IVdsPack::MigrateDisks
 ms.prod: windows-hardware
 ms.technology: windows-devices

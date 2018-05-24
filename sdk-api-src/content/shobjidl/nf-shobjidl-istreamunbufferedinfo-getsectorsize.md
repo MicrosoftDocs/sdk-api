@@ -7,7 +7,7 @@ old-location: shell\IStreamUnbufferedInfo_GetSectorSize.htm
 old-project: shell
 ms.assetid: 2194de8b-25bd-4eeb-8a67-d5bd22947497
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetSectorSize, GetSectorSize method [Windows Shell], GetSectorSize method [Windows Shell],IStreamUnbufferedInfo interface, IStreamUnbufferedInfo interface [Windows Shell],GetSectorSize method, IStreamUnbufferedInfo.GetSectorSize, IStreamUnbufferedInfo::GetSectorSize, _shell_IStreamUnbufferedInfo_GetSectorSize, shell.IStreamUnbufferedInfo_GetSectorSize, shobjidl/IStreamUnbufferedInfo::GetSectorSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

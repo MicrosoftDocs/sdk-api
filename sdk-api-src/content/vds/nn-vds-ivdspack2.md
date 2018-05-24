@@ -7,7 +7,7 @@ old-location: base\ivdspack2.htm
 old-project: VDS
 ms.assetid: b0124293-693d-412a-a97f-d0dae05a3bfc
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsPack2, IVdsPack2 interface, IVdsPack2 interface,described, base.ivdspack2, vds/IVdsPack2
 ms.prod: windows-hardware
 ms.technology: windows-devices

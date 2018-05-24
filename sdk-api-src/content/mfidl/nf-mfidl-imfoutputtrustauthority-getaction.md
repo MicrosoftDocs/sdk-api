@@ -7,7 +7,7 @@ old-location: mf\imfoutputtrustauthority_getaction.htm
 old-project: medfound
 ms.assetid: 5a109e18-a6e2-4f8c-a656-b27112935452
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 5a109e18-a6e2-4f8c-a656-b27112935452, GetAction, GetAction method [Media Foundation], GetAction method [Media Foundation],IMFOutputTrustAuthority interface, IMFOutputTrustAuthority interface [Media Foundation],GetAction method, IMFOutputTrustAuthority.GetAction, IMFOutputTrustAuthority::GetAction, mf.imfoutputtrustauthority_getaction, mfidl/IMFOutputTrustAuthority::GetAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

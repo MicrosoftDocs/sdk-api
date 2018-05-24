@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice2_getformatsupport2.htm
 old-project: WMDM
 ms.assetid: 2b05575b-5a43-4c12-a216-1b9f55742b6c
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetFormatSupport2, GetFormatSupport2 method [windows Media Device Manager], GetFormatSupport2 method [windows Media Device Manager],IMDSPDevice2 interface, IMDSPDevice2 interface [windows Media Device Manager],GetFormatSupport2 method, IMDSPDevice2.GetFormatSupport2, IMDSPDevice2::GetFormatSupport2, IMDSPDevice2GetFormatSupport2, mswmdm/IMDSPDevice2::GetFormatSupport2, wmdm.imdspdevice2_getformatsupport2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPDevice2::GetFormatSupport2

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary2.htm
 old-project: UIAnimation
 ms.assetid: 92C10ED5-DCE6-4B1D-8608-E2C3C6AD97BA
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IUIAnimationTransitionLibrary2, IUIAnimationTransitionLibrary2 interface [Windows Animation], IUIAnimationTransitionLibrary2 interface [Windows Animation],described, uianimation.iuianimationtransitionlibrary2, uianimation/IUIAnimationTransitionLibrary2
 ms.prod: windows-hardware
 ms.technology: windows-devices

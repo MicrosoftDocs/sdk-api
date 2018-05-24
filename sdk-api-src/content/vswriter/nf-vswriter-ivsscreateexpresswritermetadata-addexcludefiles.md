@@ -7,7 +7,7 @@ old-location: base\ivsscreateexpresswritermetadata_addexcludefiles.htm
 old-project: VSS
 ms.assetid: a8d0d6bc-456a-405e-abd9-5ab4b2a59e63
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: AddExcludeFiles, AddExcludeFiles method, AddExcludeFiles method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddExcludeFiles method, IVssCreateExpressWriterMetadata.AddExcludeFiles, IVssCreateExpressWriterMetadata::AddExcludeFiles, base.ivsscreateexpresswritermetadata_addexcludefiles, vswriter/IVssCreateExpressWriterMetadata::AddExcludeFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

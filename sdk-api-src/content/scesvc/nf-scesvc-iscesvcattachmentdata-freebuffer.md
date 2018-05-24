@@ -7,7 +7,7 @@ old-location: security\iscesvcattachmentdata_freebuffer.htm
 old-project: SecMgmt
 ms.assetid: 3645547e-5d6e-42df-802b-cf8b1a4c1e11
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: FreeBuffer, FreeBuffer method [Security], FreeBuffer method [Security],ISceSvcAttachmentData interface, ISceSvcAttachmentData interface [Security],FreeBuffer method, ISceSvcAttachmentData.FreeBuffer, ISceSvcAttachmentData::FreeBuffer, _config_iscesvcattachmentdata_freebuffer, scesvc/ISceSvcAttachmentData::FreeBuffer, security.iscesvcattachmentdata_freebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Wsecedit.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISceSvcAttachmentData::FreeBuffer

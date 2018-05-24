@@ -7,7 +7,7 @@ old-location: rm\drmgetrightextendedinfo.htm
 old-project: AdRms_Sdk
 ms.assetid: d228660a-3c20-403e-9a89-e35195b19f92
 ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.date: 5/22/2018
 ms.keywords: DRMGetRightExtendedInfo, DRMGetRightExtendedInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetRightExtendedInfo, rm.drmgetrightextendedinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

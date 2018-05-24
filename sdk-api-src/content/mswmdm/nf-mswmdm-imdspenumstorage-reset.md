@@ -7,7 +7,7 @@ old-location: wmdm\imdspenumstorage_reset.htm
 old-project: WMDM
 ms.assetid: 1296406c-2c5d-4db8-965e-db11a9759560
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IMDSPEnumStorage interface [windows Media Device Manager],Reset method, IMDSPEnumStorage.Reset, IMDSPEnumStorage::Reset, IMDSPEnumStorageReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IMDSPEnumStorage interface, mswmdm/IMDSPEnumStorage::Reset, wmdm.imdspenumstorage_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMDSPEnumStorage::Reset

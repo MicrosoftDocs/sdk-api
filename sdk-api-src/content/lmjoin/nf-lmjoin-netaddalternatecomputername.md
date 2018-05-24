@@ -7,7 +7,7 @@ old-location: netmgmt\netaddalternatecomputername.htm
 old-project: NetMgmt
 ms.assetid: 710865c6-e327-439c-931d-de8674d69233
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: NetAddAlternateComputerName, NetAddAlternateComputerName function [Network Management], lmjoin/NetAddAlternateComputerName, netmgmt.netaddalternatecomputername
 ms.prod: windows-hardware
 ms.technology: windows-devices

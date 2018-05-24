@@ -7,7 +7,7 @@ old-location: mf\imfsequencersource_updatetopology.htm
 old-project: medfound
 ms.assetid: 4ed6be6c-a031-4628-a3c5-7f0676cc0baf
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 4ed6be6c-a031-4628-a3c5-7f0676cc0baf, IMFSequencerSource interface [Media Foundation],UpdateTopology method, IMFSequencerSource.UpdateTopology, IMFSequencerSource::UpdateTopology, UpdateTopology, UpdateTopology method [Media Foundation], UpdateTopology method [Media Foundation],IMFSequencerSource interface, mf.imfsequencersource_updatetopology, mfidl/IMFSequencerSource::UpdateTopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

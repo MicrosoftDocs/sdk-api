@@ -7,7 +7,7 @@ old-location: controls\NMDAYSTATE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmdaystate.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPNMDAYSTATE, LPNMDAYSTATE, LPNMDAYSTATE structure pointer [Windows Controls], NMDAYSTATE, NMDAYSTATE structure [Windows Controls], _win32_NMDAYSTATE, _win32_NMDAYSTATE_cpp, commctrl/LPNMDAYSTATE, commctrl/NMDAYSTATE, controls.NMDAYSTATE, controls._win32_NMDAYSTATE, tagNMDAYSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

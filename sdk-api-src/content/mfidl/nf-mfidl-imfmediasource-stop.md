@@ -7,7 +7,7 @@ old-location: mf\imfmediasource_stop.htm
 old-project: medfound
 ms.assetid: aa7af7a0-a6c2-4c9e-9f98-d36716679297
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFMediaSource interface [Media Foundation],Stop method, IMFMediaSource.Stop, IMFMediaSource::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFMediaSource interface, aa7af7a0-a6c2-4c9e-9f98-d36716679297, mf.imfmediasource_stop, mfidl/IMFMediaSource::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

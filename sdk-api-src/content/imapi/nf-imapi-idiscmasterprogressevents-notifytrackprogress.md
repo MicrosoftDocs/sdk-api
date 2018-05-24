@@ -7,7 +7,7 @@ old-location: imapi\idiscmasterprogressevents_notifytrackprogress.htm
 old-project: imapi
 ms.assetid: fb1eafe9-d907-4b41-8e4d-03f1b3f51012
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyTrackProgress method, IDiscMasterProgressEvents.NotifyTrackProgress, IDiscMasterProgressEvents::NotifyTrackProgress, NotifyTrackProgress, NotifyTrackProgress method [IMAPI], NotifyTrackProgress method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifytrackprogress, base.idiscmasterprogressevents_notifytrackprogress, imapi.idiscmasterprogressevents_notifytrackprogress, imapi/IDiscMasterProgressEvents::NotifyTrackProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

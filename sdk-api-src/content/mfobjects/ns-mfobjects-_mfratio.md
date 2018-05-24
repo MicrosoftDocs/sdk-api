@@ -7,7 +7,7 @@ old-location: mf\mfratio.htm
 old-project: medfound
 ms.assetid: 315d31d6-bf68-4495-9bae-1f624f497c1a
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 315d31d6-bf68-4495-9bae-1f624f497c1a, MFRatio, MFRatio structure [Media Foundation], _MFRatio, mf.mfratio, mfobjects/MFRatio
 ms.prod: windows-hardware
 ms.technology: windows-devices

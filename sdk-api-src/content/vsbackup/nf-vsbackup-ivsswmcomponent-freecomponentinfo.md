@@ -7,7 +7,7 @@ old-location: base\ivsswmcomponent_freecomponentinfo.htm
 old-project: VSS
 ms.assetid: 3f0c4634-2b1c-4a9b-9c13-ace38e03a7ce
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: FreeComponentInfo, FreeComponentInfo method [VSS], FreeComponentInfo method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],FreeComponentInfo method, IVssWMComponent.FreeComponentInfo, IVssWMComponent::FreeComponentInfo, _win32_ivsswmcomponent_freecomponentinfo, base.ivsswmcomponent_freecomponentinfo, vsbackup/IVssWMComponent::FreeComponentInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

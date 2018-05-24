@@ -7,7 +7,7 @@ old-location: base\ivdsvolume_delete.htm
 old-project: VDS
 ms.assetid: 6cc7cb6d-4495-41b7-8fe5-d2e1f574ed70
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],Delete method, IVdsVolume.Delete, IVdsVolume::Delete, base.ivdsvolume_delete, vds/IVdsVolume::Delete
 ms.prod: windows-hardware
 ms.technology: windows-devices

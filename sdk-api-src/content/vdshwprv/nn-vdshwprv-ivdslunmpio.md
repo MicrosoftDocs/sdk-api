@@ -7,7 +7,7 @@ old-location: base\ivdslunmpio.htm
 old-project: VDS
 ms.assetid: 0c7ab50a-306e-44f8-976d-0e65e36b0fea
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsLunMpio, IVdsLunMpio interface [VDS], IVdsLunMpio interface [VDS],described, base.ivdslunmpio, vds/IVdsLunMpio, vdshwprv/IVdsLunMpio
 ms.prod: windows-hardware
 ms.technology: windows-devices

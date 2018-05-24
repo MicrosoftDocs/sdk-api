@@ -7,7 +7,7 @@ old-location: controls\Edit_GetHilite.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_gethilite.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: Edit_GetHilite, Edit_GetHilite macro [Windows Controls], _shell_Edit_GetHilite, _shell_Edit_GetHilite_cpp, commctrl/Edit_GetHilite, controls.Edit_GetHilite, controls._shell_Edit_GetHilite
 ms.prod: windows-hardware
 ms.technology: windows-devices

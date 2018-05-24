@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlEvents.htm
 old-project: shell
 ms.assetid: 496fa657-c27c-4f6c-a137-fb0d393aa284
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: INameSpaceTreeControlEvents, INameSpaceTreeControlEvents interface [Windows Shell], INameSpaceTreeControlEvents interface [Windows Shell],described, _shell_INameSpaceTreeControlEvents, shell.INameSpaceTreeControlEvents, shobjidl/INameSpaceTreeControlEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -181,7 +181,10 @@ Called after an <a href="https://msdn.microsoft.com/599b9c0a-df04-4dbd-a5a6-a873
 <td align="left" width="37%">
 <a href="https://msdn.microsoft.com/0154d97b-44db-40bf-a202-e97ba318555f">OnItemStateChanged</a>
 </td>
-<td align="left" width="63%"></td>
+<td align="left" width="63%">
+Not implemented.
+
+</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">

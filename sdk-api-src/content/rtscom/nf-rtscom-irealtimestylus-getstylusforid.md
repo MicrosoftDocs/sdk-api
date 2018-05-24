@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_getstylusforid.htm
 old-project: tablet
 ms.assetid: 16218bd3-9e92-407b-99b1-155d4387641e
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 16218bd3-9e92-407b-99b1-155d4387641e, GetStylusForId, GetStylusForId method [Tablet PC], GetStylusForId method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusForId method, IRealTimeStylus.GetStylusForId, IRealTimeStylus::GetStylusForId, rtscom/IRealTimeStylus::GetStylusForId, tablet.irealtimestylus_getstylusforid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRealTimeStylus::GetStylusForId

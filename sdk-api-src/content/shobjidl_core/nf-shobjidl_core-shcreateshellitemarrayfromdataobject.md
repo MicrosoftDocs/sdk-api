@@ -7,7 +7,7 @@ old-location: shell\SHCreateShellItemArrayFromDataObject.htm
 old-project: shell
 ms.assetid: 91e65c9a-0600-42e3-97f5-2a5960e1ec89
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SHCreateShellItemArrayFromDataObject, SHCreateShellItemArrayFromDataObject function [Windows Shell], _shell_SHCreateShellItemArrayFromDataObject, shell.SHCreateShellItemArrayFromDataObject, shobjidl_core/SHCreateShellItemArrayFromDataObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

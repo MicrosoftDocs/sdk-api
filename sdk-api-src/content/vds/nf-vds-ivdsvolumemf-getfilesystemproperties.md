@@ -7,7 +7,7 @@ old-location: base\ivdsvolumemf_getfilesystemproperties.htm
 old-project: VDS
 ms.assetid: 43f5495c-5a60-44fd-b217-16464c4693a4
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetFileSystemProperties, GetFileSystemProperties method [VDS], GetFileSystemProperties method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],GetFileSystemProperties method, IVdsVolumeMF.GetFileSystemProperties, IVdsVolumeMF::GetFileSystemProperties, base.ivdsvolumemf_getfilesystemproperties, vds/IVdsVolumeMF::GetFileSystemProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

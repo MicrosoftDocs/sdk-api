@@ -7,7 +7,7 @@ old-location: shell\PROFILEINFO.htm
 old-project: shell
 ms.assetid: 09dae38c-3b2b-4f12-9c1e-90737cf0c7cc
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPPROFILEINFOW, LPPROFILEINFO, LPPROFILEINFO structure pointer [Windows Shell], PI_APPLYPOLICY, PI_NOUI, PROFILEINFO, PROFILEINFO structure [Windows Shell], PROFILEINFOA, PROFILEINFOW, _PROFILEINFOW, _shell_PROFILEINFO, profinfo/LPPROFILEINFO, profinfo/PROFILEINFO, profinfo/PROFILEINFOA, profinfo/PROFILEINFOW, shell.PROFILEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _PROFILEINFOW structure

@@ -7,7 +7,7 @@ old-location: mf\mfcreateremotedesktopplugin.htm
 old-project: medfound
 ms.assetid: c986c80b-b583-47be-91e7-5881db0018c2
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFCreateRemoteDesktopPlugin, MFCreateRemoteDesktopPlugin function [Media Foundation], c986c80b-b583-47be-91e7-5881db0018c2, mf.mfcreateremotedesktopplugin, mfidl/MFCreateRemoteDesktopPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

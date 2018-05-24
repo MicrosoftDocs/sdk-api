@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable_getcurrentstoryboard.htm
 old-project: UIAnimation
 ms.assetid: 56042549-d6f6-4eed-8079-c1b14acbe160
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetCurrentStoryboard, GetCurrentStoryboard method [Windows Animation], GetCurrentStoryboard method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetCurrentStoryboard method, IUIAnimationVariable.GetCurrentStoryboard, IUIAnimationVariable::GetCurrentStoryboard, uianimation.iuianimationvariable_getcurrentstoryboard, uianimation/IUIAnimationVariable::GetCurrentStoryboard
 ms.prod: windows-hardware
 ms.technology: windows-devices

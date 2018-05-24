@@ -7,7 +7,7 @@ old-location: mf\imfratesupport.htm
 old-project: medfound
 ms.assetid: a6c495fa-0f6a-4e4c-8fba-996b22d55053
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFRateSupport, IMFRateSupport interface [Media Foundation], IMFRateSupport interface [Media Foundation],described, a6c495fa-0f6a-4e4c-8fba-996b22d55053, mf.imfratesupport, mfidl/IMFRateSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

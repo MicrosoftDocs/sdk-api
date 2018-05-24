@@ -7,7 +7,7 @@ old-location: base\ivdsvolumemf2_queryfilesystemformatsupport.htm
 old-project: VDS
 ms.assetid: 770a92fb-9e70-4db0-a782-b9064daef4ef
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsVolumeMF2 interface,QueryFileSystemFormatSupport method, IVdsVolumeMF2.QueryFileSystemFormatSupport, IVdsVolumeMF2::QueryFileSystemFormatSupport, QueryFileSystemFormatSupport, QueryFileSystemFormatSupport method, QueryFileSystemFormatSupport method,IVdsVolumeMF2 interface, base.ivdsvolumemf2_queryfilesystemformatsupport, vds/IVdsVolumeMF2::QueryFileSystemFormatSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\igetframe_getframe.htm
 old-project: Multimedia
 ms.assetid: e2b76aad-e2db-4e04-be54-b697830e8644
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetFrame, GetFrame method [Windows Multimedia], GetFrame method [Windows Multimedia],IGetFrame interface, IGetFrame interface [Windows Multimedia],GetFrame method, IGetFrame.GetFrame, IGetFrame::GetFrame, _win32_IGetFrame_GetFrame, multimedia.igetframe_getframe, vfw/IGetFrame::GetFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

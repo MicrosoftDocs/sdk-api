@@ -7,7 +7,7 @@ old-location: base\vds_ipaddress.htm
 old-project: VDS
 ms.assetid: 42e8b161-5e47-4aae-aa23-94b5cacb5698
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_IPADDRESS, VDS_IPADDRESS structure [VDS], _VDS_IPADDRESS, base.vds_ipaddress, vds/VDS_IPADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices

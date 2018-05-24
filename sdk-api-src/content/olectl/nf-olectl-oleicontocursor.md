@@ -7,7 +7,7 @@ old-location: com\oleicontocursor.htm
 old-project: com
 ms.assetid: f5de0b9e-6e3d-424c-aeeb-1c272606aea0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: OleIconToCursor, OleIconToCursor function [COM], _com_OleIconToCursor, com.oleicontocursor, olectl/OleIconToCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Oleaut32.lib
 req.dll: Oleaut32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # OleIconToCursor function

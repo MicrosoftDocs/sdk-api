@@ -2,21 +2,21 @@
 UID: NS:appmgmt._APPCATEGORYINFO
 title: "_APPCATEGORYINFO"
 author: windows-driver-content
-description: The APPCATEGORYINFO structure contains information about an application.
-old-location: policy\appcategoryinfo_str.htm
-old-project: Policy
-ms.assetid: a03f6617-2b55-4d63-85eb-421d7c5494da
+description: Provides application category information to Add/Remove Programs in Control Panel. The APPCATEGORYINFOLIST structure is used create a complete list of categories for an application publisher.
+old-location: shell\APPCATEGORYINFO.htm
+old-project: shell
+ms.assetid: 7a0e61cb-97f8-4ca2-a85a-889e671099d0
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: APPCATEGORYINFO, APPCATEGORYINFO structure [Group Policy], _APPCATEGORYINFO, appmgmt/APPCATEGORYINFO, policy.appcategoryinfo_str
+ms.date: 5/22/2018
+ms.keywords: APPCATEGORYINFO, APPCATEGORYINFO structure [Windows Shell], _APPCATEGORYINFO, appmgmt/APPCATEGORYINFO, inet_APPCATEGORYINFO, shell.APPCATEGORYINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista
-req.target-min-winversvr: Windows Server 2008
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -49,7 +49,7 @@ req.irql:
 ## -description
 
 
-The  <b>APPCATEGORYINFO</b> structure contains information about an application. The <a href="https://msdn.microsoft.com/640aa5d0-c135-46b7-a25f-03c6325cb561">APPCATEGORYINFOLIST</a> structure contains a list of <b>APPCATEGORYINFO</b> structures, one for each category in the domain. The <b>APPCATEGORYINFOLIST</b> structure can be returned by the  <a href="https://msdn.microsoft.com/10824852-7810-483a-91b3-2d9cc3d21934">GetManagedApplicationCategories</a> function.
+Provides application category information to Add/Remove Programs in Control Panel. The <a href="https://msdn.microsoft.com/c590d9ab-ab41-4192-a6c2-c6c2c931e873">APPCATEGORYINFOLIST</a> structure is used create a complete list of categories for an application publisher.
 
 
 ## -struct-fields
@@ -59,17 +59,23 @@ The  <b>APPCATEGORYINFO</b> structure contains information about an application.
 
 ### -field Locale
 
-This member is unused.
+Type: <b>LCID</b>
+
+Unused.
 
 
 ### -field pszDescription
 
-The user-friendly name of the category.
+Type: <b>LPWSTR</b>
+
+A pointer to a string containing the display name of the category. This string displays in the <b>Category</b> list in Add/Remove Programs. This string buffer must be allocated using <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> and freed using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
 
 
 ### -field AppCategoryId
 
-The GUID identifier for this category.
+Type: <b>GUID</b>
+
+A GUID identifying the application category.
 
 
 ## -see-also
@@ -77,19 +83,11 @@ The GUID identifier for this category.
 
 
 
-<a href="https://msdn.microsoft.com/640aa5d0-c135-46b7-a25f-03c6325cb561">APPCATEGORYINFOLIST</a>
+<a href="https://msdn.microsoft.com/c590d9ab-ab41-4192-a6c2-c6c2c931e873">APPCATEGORYINFOLIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/10824852-7810-483a-91b3-2d9cc3d21934">GetManagedApplicationCategories</a>
-
-
-
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy Overview</a>
-
-
-
-<a href="https://msdn.microsoft.com/8bd42909-7877-414d-a89c-658365acc280">Group Policy Structures</a>
+<a href="https://msdn.microsoft.com/139a5094-8bb3-4b5d-938d-ba4af5d52d94">IAppPublisher::GetCategories</a>
  
 
  

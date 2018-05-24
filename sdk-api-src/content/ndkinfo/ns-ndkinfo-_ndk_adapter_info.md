@@ -7,7 +7,7 @@ old-location: netvista\ndk_adapter_info.htm
 old-project: netvista
 ms.assetid: 3F8EAA7F-20CE-4948-9F10-E23025B174E7
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/21/2018
 ms.keywords: NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORTED, NDK_ADAPTER_FLAG_CQ_RESIZE_SUPPORTED, NDK_ADAPTER_FLAG_IN_ORDER_DMA_SUPPORTED, NDK_ADAPTER_FLAG_LOOPBACK_CONNECTIONS_SUPPORTED, NDK_ADAPTER_FLAG_MULTI_ENGINE_SUPPORTED, NDK_ADAPTER_FLAG_RDMA_READ_LOCAL_INVALIDATE_SUPPORTED, NDK_ADAPTER_FLAG_RDMA_READ_SINK_NOT_REQUIRED, NDK_ADAPTER_INFO, NDK_ADAPTER_INFO structure [Network Drivers Starting with Windows Vista], _NDK_ADAPTER_INFO, ndkinfo/NDK_ADAPTER_INFO, netvista.ndk_adapter_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NDK_ADAPTER_INFO structure

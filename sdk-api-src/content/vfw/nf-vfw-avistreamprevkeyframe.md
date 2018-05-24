@@ -7,7 +7,7 @@ old-location: multimedia\avistreamprevkeyframe.htm
 old-project: Multimedia
 ms.assetid: 69933c8f-7e4e-45b2-aa72-ac127f3c8d05
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: AVIStreamPrevKeyFrame, AVIStreamPrevKeyFrame macro [Windows Multimedia], _win32_AVIStreamPrevKeyFrame, multimedia.avistreamprevkeyframe, vfw/AVIStreamPrevKeyFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices

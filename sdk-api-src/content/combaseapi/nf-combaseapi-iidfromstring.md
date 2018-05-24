@@ -7,7 +7,7 @@ old-location: com\iidfromstring.htm
 old-project: com
 ms.assetid: 7fa72a65-68f8-438e-8a0c-6e0e0208420d
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IIDFromString, IIDFromString function [COM], _com_IIDFromString, com.iidfromstring, combaseapi/IIDFromString
 ms.prod: windows-hardware
 ms.technology: windows-devices

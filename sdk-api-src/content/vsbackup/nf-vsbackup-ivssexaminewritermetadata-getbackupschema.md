@@ -7,7 +7,7 @@ old-location: base\ivssexaminewritermetadata_getbackupschema.htm
 old-project: VSS
 ms.assetid: d7099d6e-b8dd-44a5-af68-f3347c5d251b
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetBackupSchema, GetBackupSchema method [VSS], GetBackupSchema method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetBackupSchema method, IVssExamineWriterMetadata.GetBackupSchema, IVssExamineWriterMetadata::GetBackupSchema, _win32_ivssexaminewritermetadata_getbackupschema, base.ivssexaminewritermetadata_getbackupschema, vsbackup/IVssExamineWriterMetadata::GetBackupSchema
 ms.prod: windows-hardware
 ms.technology: windows-devices

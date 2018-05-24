@@ -7,7 +7,7 @@ old-location: base\ivssfilesharesnapshotprovider_ispathsnapshotted.htm
 old-project: VSS
 ms.assetid: 9a885d5d-a441-4567-b562-39820fa7ffc1
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],IsPathSnapshotted method, IVssFileShareSnapshotProvider.IsPathSnapshotted, IVssFileShareSnapshotProvider::IsPathSnapshotted, IsPathSnapshotted, IsPathSnapshotted method [VSS], IsPathSnapshotted method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_ispathsnapshotted, vsprov/IVssFileShareSnapshotProvider::IsPathSnapshotted
 ms.prod: windows-hardware
 ms.technology: windows-devices

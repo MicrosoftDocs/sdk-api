@@ -7,7 +7,7 @@ old-location: security\authzfreecontext.htm
 old-project: SecAuthZ
 ms.assetid: cad9fff0-9aa6-4cb2-a34f-94cf72f66bca
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AuthzFreeContext, AuthzFreeContext function [Security], _win32_authzfreecontext, authz/AuthzFreeContext, security.authzfreecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

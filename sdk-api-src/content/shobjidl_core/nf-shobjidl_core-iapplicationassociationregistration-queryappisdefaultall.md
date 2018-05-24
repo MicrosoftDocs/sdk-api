@@ -7,7 +7,7 @@ old-location: shell\IApplicationAssociationRegistration_QueryAppIsDefaultAll.htm
 old-project: shell
 ms.assetid: 71073f30-51bc-4522-9bb2-7eb743bca159
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],QueryAppIsDefaultAll method, IApplicationAssociationRegistration.QueryAppIsDefaultAll, IApplicationAssociationRegistration::QueryAppIsDefaultAll, QueryAppIsDefaultAll, QueryAppIsDefaultAll method [Windows Shell], QueryAppIsDefaultAll method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_QueryAppIsDefaultAll, shell.IApplicationAssociationRegistration_QueryAppIsDefaultAll, shobjidl_core/IApplicationAssociationRegistration::QueryAppIsDefaultAll
 ms.prod: windows-hardware
 ms.technology: windows-devices

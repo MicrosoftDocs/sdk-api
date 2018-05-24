@@ -7,7 +7,7 @@ old-location: mf\imfpresentationclock_start.htm
 old-project: medfound
 ms.assetid: ba5986d1-9c94-4747-a221-43d0583f1fed
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFPresentationClock interface [Media Foundation],Start method, IMFPresentationClock.Start, IMFPresentationClock::Start, Start, Start method [Media Foundation], Start method [Media Foundation],IMFPresentationClock interface, ba5986d1-9c94-4747-a221-43d0583f1fed, mf.imfpresentationclock_start, mfidl/IMFPresentationClock::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

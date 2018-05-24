@@ -7,7 +7,7 @@ old-location: com\irunnableobject_getrunningclass.htm
 old-project: com
 ms.assetid: dfe80741-ceda-44cd-8506-1807bb664ad0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetRunningClass, GetRunningClass method [COM], GetRunningClass method [COM],IRunnableObject interface, IRunnableObject interface [COM],GetRunningClass method, IRunnableObject.GetRunningClass, IRunnableObject::GetRunningClass, _com_irunnableobject_getrunningclass, com.irunnableobject_getrunningclass, objidl/IRunnableObject::GetRunningClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRunnableObject::GetRunningClass

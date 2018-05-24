@@ -7,7 +7,7 @@ old-location: security\iazapplication_operations.htm
 old-project: SecAuthZ
 ms.assetid: 274a130a-3a3c-46fc-9d2a-3123cdc98d4b
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AzApplication object [Security],Operations property, IAzApplication interface [Security],Operations property, IAzApplication.Operations, IAzApplication.get_Operations, IAzApplication::Operations, IAzApplication::get_Operations, Operations property [Security], Operations property [Security],AzApplication object, Operations property [Security],IAzApplication interface, azroles/IAzApplication::Operations, azroles/IAzApplication::get_Operations, get_Operations, security.iazapplication_operations
 ms.prod: windows-hardware
 ms.technology: windows-devices

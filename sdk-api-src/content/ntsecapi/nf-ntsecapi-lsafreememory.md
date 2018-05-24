@@ -7,7 +7,7 @@ old-location: security\lsafreememory.htm
 old-project: SecMgmt
 ms.assetid: 6eb3d18f-c54c-4e51-8a4b-b7a3f930cfa9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: LsaFreeMemory, LsaFreeMemory function [Security], _lsa_lsafreememory, ntsecapi/LsaFreeMemory, security.lsafreememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # LsaFreeMemory function

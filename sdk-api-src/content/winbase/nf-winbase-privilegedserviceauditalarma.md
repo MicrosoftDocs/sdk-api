@@ -7,7 +7,7 @@ old-location: security\privilegedserviceauditalarm.htm
 old-project: SecAuthZ
 ms.assetid: a424c583-bb71-4bda-a27f-2389b89104d8
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: PrivilegedServiceAuditAlarm, PrivilegedServiceAuditAlarm function [Security], PrivilegedServiceAuditAlarmA, PrivilegedServiceAuditAlarmW, _win32_privilegedserviceauditalarm, security.privilegedserviceauditalarm, winbase/PrivilegedServiceAuditAlarm, winbase/PrivilegedServiceAuditAlarmA, winbase/PrivilegedServiceAuditAlarmW
 ms.prod: windows-hardware
 ms.technology: windows-devices

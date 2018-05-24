@@ -7,7 +7,7 @@ old-location: base\regenablereflectionkey.htm
 old-project: SysInfo
 ms.assetid: 6dfbc3d8-cd71-4ee9-a10b-955c26a6894c
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: RegEnableReflectionKey, RegEnableReflectionKey function, base.regenablereflectionkey, winreg/RegEnableReflectionKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

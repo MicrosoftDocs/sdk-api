@@ -7,7 +7,7 @@ old-location: com\ipipelong_pull.htm
 old-project: com
 ms.assetid: 33da8bd7-3350-4f6e-84f8-3046da226d2f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IPipeLong interface [COM],Pull method, IPipeLong.Pull, IPipeLong::Pull, Pull, Pull method [COM], Pull method [COM],IPipeLong interface, _com_ipipelong_pull, com.ipipelong_pull, objidlbase/IPipeLong::Pull
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPipeLong::Pull

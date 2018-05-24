@@ -7,7 +7,7 @@ old-location: security\cryptcatclose.htm
 old-project: SecCrypto
 ms.assetid: f6fa2d10-0049-4d5e-9688-566e5c11d64e
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CryptCATClose, CryptCATClose function [Security], mscat/CryptCATClose, security.cryptcatclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

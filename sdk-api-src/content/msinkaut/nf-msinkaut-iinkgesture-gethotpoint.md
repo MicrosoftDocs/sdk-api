@@ -7,7 +7,7 @@ old-location: tablet\iinkgesture_gethotpoint.htm
 old-project: tablet
 ms.assetid: 6c047cf7-2162-4146-906b-47c4006daeeb
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 6c047cf7-2162-4146-906b-47c4006daeeb, GetHotPoint, GetHotPoint method [Tablet PC], GetHotPoint method [Tablet PC],IInkGesture interface, IInkGesture interface [Tablet PC],GetHotPoint method, IInkGesture.GetHotPoint, IInkGesture::GetHotPoint, msinkaut/IInkGesture::GetHotPoint, tablet.iinkgesture_gethotpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkGesture::GetHotPoint

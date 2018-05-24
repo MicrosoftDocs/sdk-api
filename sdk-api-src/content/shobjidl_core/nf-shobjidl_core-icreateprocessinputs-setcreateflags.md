@@ -7,7 +7,7 @@ old-location: shell\icreateprocessinputs_setcreateflags.htm
 old-project: shell
 ms.assetid: B929D77A-FEE4-40A1-8B40-34E2E73048F9
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ICreateProcessInputs interface [Windows Shell],SetCreateFlags method, ICreateProcessInputs.SetCreateFlags, ICreateProcessInputs::SetCreateFlags, SetCreateFlags, SetCreateFlags method [Windows Shell], SetCreateFlags method [Windows Shell],ICreateProcessInputs interface, shell.icreateprocessinputs_setcreateflags, shobjidl_core/ICreateProcessInputs::SetCreateFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices

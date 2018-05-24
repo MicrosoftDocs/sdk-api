@@ -7,7 +7,7 @@ old-location: netmgmt\netgetaadjoininformation.htm
 old-project: NetMgmt
 ms.assetid: C63B3AA7-FC7E-4CB9-9318-BD25560591AB
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: NetGetAadJoinInformation, NetGetAadJoinInformation function [Network Management], lmjoin/NetGetAadJoinInformation, netmgmt.netgetaadjoininformation
 ms.prod: windows-hardware
 ms.technology: windows-devices

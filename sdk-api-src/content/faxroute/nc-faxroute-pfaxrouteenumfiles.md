@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxrouteenumfiles.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_5f77.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: FaxRouteEnumFiles, FaxRouteEnumFiles callback function [Fax Service], PFAXROUTEENUMFILES, PFAXROUTEENUMFILES callback, _mfax_faxrouteenumfiles, fax._mfax_faxrouteenumfiles, faxroute/FaxRouteEnumFiles
 ms.prod: windows-hardware
 ms.technology: windows-devices

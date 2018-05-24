@@ -7,7 +7,7 @@ old-location: shell\IObjectWithSelection.htm
 old-project: shell
 ms.assetid: 8fb248eb-73e7-4db0-8585-4accafe332d0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IObjectWithSelection, IObjectWithSelection interface [Windows Shell], IObjectWithSelection interface [Windows Shell],described, _shell_IObjectWithSelection, shell.IObjectWithSelection, shobjidl_core/IObjectWithSelection
 ms.prod: windows-hardware
 ms.technology: windows-devices

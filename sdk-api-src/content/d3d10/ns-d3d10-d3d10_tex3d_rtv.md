@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex3d_rtv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex3d_rtv.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: D3D10_TEX3D_RTV, D3D10_TEX3D_RTV structure [Direct3D 10], a846ce63-d213-1889-2297-8bc813006637, d3d10/D3D10_TEX3D_RTV, direct3d10.d3d10_tex3d_rtv
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\itextinputpanel_currentcorrectionmode.htm
 old-project: tablet
 ms.assetid: 92cd44a0-4dc6-4882-9ebb-45aa5b3fbc69
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 92cd44a0-4dc6-4882-9ebb-45aa5b3fbc69, CurrentCorrectionMode property [Tablet PC], CurrentCorrectionMode property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CurrentCorrectionMode property, ITextInputPanel.CurrentCorrectionMode, ITextInputPanel.get_CurrentCorrectionMode, ITextInputPanel::CurrentCorrectionMode, ITextInputPanel::get_CurrentCorrectionMode, get_CurrentCorrectionMode, peninputpanel/ITextInputPanel::CurrentCorrectionMode, peninputpanel/ITextInputPanel::get_CurrentCorrectionMode, tablet.itextinputpanel_currentcorrectionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITextInputPanel::get_CurrentCorrectionMode

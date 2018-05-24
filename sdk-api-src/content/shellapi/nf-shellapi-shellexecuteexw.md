@@ -7,7 +7,7 @@ old-location: shell\ShellExecuteEx.htm
 old-project: shell
 ms.assetid: 7850d19c-dadb-44a1-85d9-d5b897edb39f
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ShellExecuteEx, ShellExecuteEx function [Windows Shell], ShellExecuteExA, ShellExecuteExW, _win32_ShellExecuteEx, _win32_ShellExecuteEx_cpp, shell.ShellExecuteEx, shellapi/ShellExecuteEx, shellapi/ShellExecuteExA, shellapi/ShellExecuteExW
 ms.prod: windows-hardware
 ms.technology: windows-devices

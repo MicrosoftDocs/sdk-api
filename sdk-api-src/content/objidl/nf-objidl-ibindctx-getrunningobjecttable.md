@@ -7,7 +7,7 @@ old-location: com\ibindctx_getrunningobjecttable.htm
 old-project: com
 ms.assetid: 26938d07-d772-4e72-a6aa-57dd2f2cece1
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetRunningObjectTable, GetRunningObjectTable method [COM], GetRunningObjectTable method [COM],IBindCtx interface, IBindCtx interface [COM],GetRunningObjectTable method, IBindCtx.GetRunningObjectTable, IBindCtx::GetRunningObjectTable, _com_ibindctx_getrunningobjecttable, com.ibindctx_getrunningobjecttable, objidl/IBindCtx::GetRunningObjectTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IBindCtx::GetRunningObjectTable

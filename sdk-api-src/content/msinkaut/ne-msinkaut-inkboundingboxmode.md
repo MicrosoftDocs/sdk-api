@@ -7,7 +7,7 @@ old-location: tablet\inkboundingboxmode.htm
 old-project: tablet
 ms.assetid: 8c92fb43-1584-42fc-857e-aae5d5c222b4
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 8c92fb43-1584-42fc-857e-aae5d5c222b4, IBBM_CurveFit, IBBM_Default, IBBM_NoCurveFit, IBBM_PointsOnly, IBBM_Union, InkBoundingBoxMode, InkBoundingBoxMode enumeration [Tablet PC], msinkaut/IBBM_CurveFit, msinkaut/IBBM_Default, msinkaut/IBBM_NoCurveFit, msinkaut/IBBM_PointsOnly, msinkaut/IBBM_Union, msinkaut/InkBoundingBoxMode, tablet.inkboundingboxmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkBoundingBoxMode enumeration

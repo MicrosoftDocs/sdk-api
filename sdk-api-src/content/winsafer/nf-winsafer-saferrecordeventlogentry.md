@@ -7,7 +7,7 @@ old-location: security\saferrecordeventlogentry.htm
 old-project: SecMgmt
 ms.assetid: 7eb48f80-3a57-46ec-aca1-6ff8c1c514c6
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: SaferRecordEventLogEntry, SaferRecordEventLogEntry function [Security], _mnp_saferrecordeventlogentry, security.saferrecordeventlogentry, winsafer/SaferRecordEventLogEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices

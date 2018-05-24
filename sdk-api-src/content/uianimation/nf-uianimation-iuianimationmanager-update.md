@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager_update.htm
 old-project: UIAnimation
 ms.assetid: 6008fe44-8d86-4a56-a1e2-7bc144b224b2
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],Update method, IUIAnimationManager.Update, IUIAnimationManager::Update, Update, Update method [Windows Animation], Update method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_update, uianimation/IUIAnimationManager::Update
 ms.prod: windows-hardware
 ms.technology: windows-devices

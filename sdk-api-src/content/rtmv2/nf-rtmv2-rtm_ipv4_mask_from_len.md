@@ -7,7 +7,7 @@ old-location: rras\rtm_ipv4_mask_from_len.htm
 old-project: RRAS
 ms.assetid: 7f4a67d9-e707-413e-8cc3-600eb7968b82
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RTM_IPV4_MASK_FROM_LEN, RTM_IPV4_MASK_FROM_LEN macro [RAS], _rtmv2ref_rtm_ipv4_mask_from_len, rras.rtm_ipv4_mask_from_len, rtmv2/RTM_IPV4_MASK_FROM_LEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RTM_IPV4_MASK_FROM_LEN macro

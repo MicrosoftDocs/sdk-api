@@ -7,7 +7,7 @@ old-location: intl\ifecommon_invokewordregdialog.htm
 old-project: Intl
 ms.assetid: FBD09E98-9C89-4CE4-9D17-A13E2BE0AB91
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],InvokeWordRegDialog method, IFECommon.InvokeWordRegDialog, IFECommon::InvokeWordRegDialog, InvokeWordRegDialog, InvokeWordRegDialog method [Internationalization for Windows Applications], InvokeWordRegDialog method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_invokewordregdialog, msime/IFECommon::InvokeWordRegDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFECommon::InvokeWordRegDialog

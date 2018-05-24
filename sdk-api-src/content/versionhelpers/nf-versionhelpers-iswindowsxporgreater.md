@@ -7,7 +7,7 @@ old-location: base\iswindowsxporgreater.htm
 old-project: SysInfo
 ms.assetid: 48B7FAD6-569F-4CF5-A413-857679363736
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: IsWindowsXPOrGreater, IsWindowsXPOrGreater function, base.iswindowsxporgreater, versionhelpers/IsWindowsXPOrGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: rras\mibsettrapinfo.htm
 old-project: RRAS
 ms.assetid: 28056113-82a5-4493-ba49-509db3606fa0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: MibSetTrapInfo, MibSetTrapInfo callback function [RAS], PMIB_SET_TRAP_INFO, PMIB_SET_TRAP_INFO callback, _mpr_mibsettrapinfo, routprot/MibSetTrapInfo, rras.mibsettrapinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PMIB_SET_TRAP_INFO callback function

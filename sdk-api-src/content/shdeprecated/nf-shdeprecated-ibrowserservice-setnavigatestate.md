@@ -7,7 +7,7 @@ old-location: shell\IBrowserService_SetNavigateState.htm
 old-project: shell
 ms.assetid: 3cdbe902-f208-43f8-9019-d61c22635196
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: BNS_BEGIN_NAVIGATE, BNS_NAVIGATE, BNS_NORMAL, IBrowserService interface [Windows Shell],SetNavigateState method, IBrowserService.SetNavigateState, IBrowserService::SetNavigateState, SetNavigateState, SetNavigateState method [Windows Shell], SetNavigateState method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetNavigateState, shell.IBrowserService_SetNavigateState, zone_IBrowserService_SetNavigateState
 ms.prod: windows-hardware
 ms.technology: windows-devices

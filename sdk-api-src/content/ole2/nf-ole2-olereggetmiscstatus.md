@@ -7,7 +7,7 @@ old-location: com\olereggetmiscstatus.htm
 old-project: com
 ms.assetid: 3166955f-4f7a-4904-a7fb-ebdfb8e56baf
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: OleRegGetMiscStatus, OleRegGetMiscStatus function [COM], _com_OleRegGetMiscStatus, com.olereggetmiscstatus, ole2/OleRegGetMiscStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # OleRegGetMiscStatus function

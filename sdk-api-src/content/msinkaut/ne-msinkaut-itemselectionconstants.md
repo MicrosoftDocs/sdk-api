@@ -7,7 +7,7 @@ old-location: tablet\itemselectionconstants.htm
 old-project: tablet
 ms.assetid: 785b5ac7-b629-4948-a8bf-e92b74dacdb7
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 785b5ac7-b629-4948-a8bf-e92b74dacdb7, ISC_AllElements, ISC_FirstElement, InkSelectionConstants, InkSelectionConstants enumeration [Tablet PC], ItemSelectionConstants, ItemSelectionConstants enumeration [Tablet PC], msinkaut/ISC_AllElements, msinkaut/ISC_FirstElement, msinkaut/ItemSelectionConstants, tablet.itemselectionconstants
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ItemSelectionConstants enumeration

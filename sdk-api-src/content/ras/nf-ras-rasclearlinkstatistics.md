@@ -7,7 +7,7 @@ old-location: rras\rasclearlinkstatistics.htm
 old-project: RRAS
 ms.assetid: cac356a9-092c-4db2-b0a4-aaacfc514e29
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RasClearLinkStatistics, RasClearLinkStatistics function [RAS], _ras_rasclearlinkstatistics, ras/RasClearLinkStatistics, rras.rasclearlinkstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RasClearLinkStatistics function

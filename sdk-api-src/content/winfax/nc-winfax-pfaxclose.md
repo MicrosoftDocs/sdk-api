@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxclose.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5h2d.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: FaxCloseA, FaxCloseW, PFAXCLOSE, PFAXCLOSE callback, PFAXCLOSE callback function [Fax Service], _mfax_faxclose, fax._mfax_faxclose, winfax/FaxCloseA, winfax/FaxCloseW, winfax/PFAXCLOSE
 ms.prod: windows-hardware
 ms.technology: windows-devices

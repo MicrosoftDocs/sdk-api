@@ -7,7 +7,7 @@ old-location: shell\CommandLineToArgvW.htm
 old-project: shell
 ms.assetid: 9889a016-b7a5-402b-8305-6f7c199d41b3
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: CommandLineToArgvW, CommandLineToArgvW function [Windows Shell], _shell_CommandLineToArgvW, shell.CommandLineToArgvW, shellapi/CommandLineToArgvW
 ms.prod: windows-hardware
 ms.technology: windows-devices

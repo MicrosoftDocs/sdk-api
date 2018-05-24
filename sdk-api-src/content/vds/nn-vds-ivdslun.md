@@ -7,7 +7,7 @@ old-location: base\ivdslun.htm
 old-project: VDS
 ms.assetid: e2fbebc0-593e-437c-a401-80e35a43da94
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsLun, IVdsLun interface [VDS], IVdsLun interface [VDS],described, base.ivdslun, vds/IVdsLun, vdshwprv/IVdsLun
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IApplicationAssociationRegistration.htm
 old-project: shell
 ms.assetid: 015a3be4-2e74-4a2b-8c02-54dcbf0ecacd
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IApplicationAssociationRegistration, IApplicationAssociationRegistration interface [Windows Shell], IApplicationAssociationRegistration interface [Windows Shell],described, _shell_IApplicationAssociationRegistration, shell.IApplicationAssociationRegistration, shobjidl_core/IApplicationAssociationRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices

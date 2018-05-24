@@ -7,7 +7,7 @@ old-location: mf\imftopologynode_setoutputpreftype.htm
 old-project: medfound
 ms.assetid: 948fd64d-e3d8-45de-aaab-b052d9f0b9d8
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 948fd64d-e3d8-45de-aaab-b052d9f0b9d8, IMFTopologyNode interface [Media Foundation],SetOutputPrefType method, IMFTopologyNode.SetOutputPrefType, IMFTopologyNode::SetOutputPrefType, SetOutputPrefType, SetOutputPrefType method [Media Foundation], SetOutputPrefType method [Media Foundation],IMFTopologyNode interface, mf.imftopologynode_setoutputpreftype, mfidl/IMFTopologyNode::SetOutputPrefType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

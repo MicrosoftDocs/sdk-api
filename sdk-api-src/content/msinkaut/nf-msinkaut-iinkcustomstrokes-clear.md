@@ -7,7 +7,7 @@ old-location: tablet\iinkcustomstrokes_clear.htm
 old-project: tablet
 ms.assetid: 63ab20ee-f8ab-41ee-b85a-03d9a29dabc0
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 63ab20ee-f8ab-41ee-b85a-03d9a29dabc0, Clear, Clear method [Tablet PC], Clear method [Tablet PC],IInkCustomStrokes interface, IInkCustomStrokes interface [Tablet PC],Clear method, IInkCustomStrokes.Clear, IInkCustomStrokes::Clear, msinkaut/IInkCustomStrokes::Clear, tablet.iinkcustomstrokes_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkCustomStrokes::Clear

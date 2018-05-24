@@ -7,7 +7,7 @@ old-location: shell\IThumbnailHandlerFactory.htm
 old-project: shell
 ms.assetid: 83a9f676-ba03-4a0b-abe6-65f70c8babac
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IThumbnailHandlerFactory, IThumbnailHandlerFactory interface [Windows Shell], IThumbnailHandlerFactory interface [Windows Shell],described, _shell_IThumbnailHandlerFactory, shell.IThumbnailHandlerFactory, shobjidl_core/IThumbnailHandlerFactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

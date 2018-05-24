@@ -7,7 +7,7 @@ old-location: mf\idirectxvideoprocessorservice_getvideoprocessorrendertargets.ht
 old-project: medfound
 ms.assetid: aecbba1e-309c-4668-9e17-d59710d86151
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetVideoProcessorRenderTargets, GetVideoProcessorRenderTargets method [Media Foundation], GetVideoProcessorRenderTargets method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetVideoProcessorRenderTargets method, IDirectXVideoProcessorService.GetVideoProcessorRenderTargets, IDirectXVideoProcessorService::GetVideoProcessorRenderTargets, aecbba1e-309c-4668-9e17-d59710d86151, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorRenderTargets, mf.idirectxvideoprocessorservice_getvideoprocessorrendertargets
 ms.prod: windows-hardware
 ms.technology: windows-devices

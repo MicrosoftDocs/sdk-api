@@ -7,7 +7,7 @@ old-location: base\regqueryreflectionkey.htm
 old-project: SysInfo
 ms.assetid: d7516eab-dbcf-4ece-931e-d7bb2a983503
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: RegQueryReflectionKey, RegQueryReflectionKey function, base.regqueryreflectionkey, winreg/RegQueryReflectionKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

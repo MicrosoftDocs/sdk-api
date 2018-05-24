@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_oninplacedeactivate.htm
 old-project: com
 ms.assetid: 070aac4e-94b6-4e23-b132-1dc833774c8b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnInPlaceDeactivate method, IOleInPlaceSite.OnInPlaceDeactivate, IOleInPlaceSite::OnInPlaceDeactivate, OnInPlaceDeactivate, OnInPlaceDeactivate method [COM], OnInPlaceDeactivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_oninplacedeactivate, com.ioleinplacesite_oninplacedeactivate, oleidl/IOleInPlaceSite::OnInPlaceDeactivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleInPlaceSite::OnInPlaceDeactivate

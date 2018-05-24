@@ -7,7 +7,7 @@ old-location: properties\VariantToStringArray.htm
 old-project: properties
 ms.assetid: d19b12ad-408c-4502-ad59-49386784bd69
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: VariantToStringArray, VariantToStringArray function [Windows Properties], _shell_VariantToStringArray, properties.VariantToStringArray, propvarutil/VariantToStringArray, shell.VariantToStringArray
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # VariantToStringArray function

@@ -7,7 +7,7 @@ old-location: shell\IActionProgress.htm
 old-project: shell
 ms.assetid: e742e381-0fd2-482a-81a0-7b43d11b073b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IActionProgress, IActionProgress interface [Windows Shell], IActionProgress interface [Windows Shell],described, shell.IActionProgress, shell_IActionProgress, shobjidl_core/IActionProgress
 ms.prod: windows-hardware
 ms.technology: windows-devices

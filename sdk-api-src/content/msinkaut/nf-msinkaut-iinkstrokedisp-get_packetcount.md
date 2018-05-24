@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_packetcount.htm
 old-project: tablet
 ms.assetid: f7cd47f8-809b-455d-873f-81dba80549b9
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IInkStrokeDisp interface [Tablet PC],PacketCount property, IInkStrokeDisp.PacketCount, IInkStrokeDisp.get_PacketCount, IInkStrokeDisp::PacketCount, IInkStrokeDisp::get_PacketCount, PacketCount property [Tablet PC], PacketCount property [Tablet PC],IInkStrokeDisp interface, f7cd47f8-809b-455d-873f-81dba80549b9, get_PacketCount, msinkaut/IInkStrokeDisp::PacketCount, msinkaut/IInkStrokeDisp::get_PacketCount, tablet.iinkstrokedisp_packetcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::get_PacketCount

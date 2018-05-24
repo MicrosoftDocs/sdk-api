@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getclientrect.htm
 old-project: Controls
 ms.assetid: a5736c58-e402-421d-aa4a-79b65460b692
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetClientRect, GetClientRect method [Windows Controls], GetClientRect method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetClientRect method, ITextDocument2.GetClientRect, ITextDocument2::GetClientRect, controls.itextdocument2_getclientrect, tom/ITextDocument2::GetClientRect, tomClientCoord, tomIncludeInset, tomTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices

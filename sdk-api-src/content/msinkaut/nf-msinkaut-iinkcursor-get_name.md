@@ -7,7 +7,7 @@ old-location: tablet\iinkcursor_name.htm
 old-project: tablet
 ms.assetid: fda02c99-21c1-4ca9-a1f8-24fa9354eac7
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IInkCursor interface [Tablet PC],Name property, IInkCursor.Name, IInkCursor.get_Name, IInkCursor::Name, IInkCursor::get_Name, Name property [Tablet PC], Name property [Tablet PC],IInkCursor interface, get_Name, msinkaut/IInkCursor::Name, msinkaut/IInkCursor::get_Name, tablet.iinkcursor_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkCursor::get_Name

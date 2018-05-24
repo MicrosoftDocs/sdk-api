@@ -7,7 +7,7 @@ old-location: mf\imfsourceopenmonitor_onsourceevent.htm
 old-project: medfound
 ms.assetid: 19b9a891-5116-41b3-8750-85f2c23d3d7f
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 19b9a891-5116-41b3-8750-85f2c23d3d7f, IMFSourceOpenMonitor interface [Media Foundation],OnSourceEvent method, IMFSourceOpenMonitor.OnSourceEvent, IMFSourceOpenMonitor::OnSourceEvent, OnSourceEvent, OnSourceEvent method [Media Foundation], OnSourceEvent method [Media Foundation],IMFSourceOpenMonitor interface, mf.imfsourceopenmonitor_onsourceevent, mfidl/IMFSourceOpenMonitor::OnSourceEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

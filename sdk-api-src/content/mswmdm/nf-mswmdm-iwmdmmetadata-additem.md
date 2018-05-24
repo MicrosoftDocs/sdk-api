@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmmetadata_additem.htm
 old-project: WMDM
 ms.assetid: fb8dee5f-034f-4e1d-86fe-34a2d9439e5f
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: AddItem, AddItem method [windows Media Device Manager], AddItem method [windows Media Device Manager],IWMDMMetaData interface, IWMDMMetaData interface [windows Media Device Manager],AddItem method, IWMDMMetaData.AddItem, IWMDMMetaData::AddItem, IWMDMMetaDataAddItem, mswmdm/IWMDMMetaData::AddItem, wmdm.iwmdmmetadata_additem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMMetaData::AddItem

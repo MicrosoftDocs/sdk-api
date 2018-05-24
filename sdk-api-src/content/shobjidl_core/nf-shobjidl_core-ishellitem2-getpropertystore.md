@@ -7,7 +7,7 @@ old-location: shell\IShellItem2_GetPropertyStore.htm
 old-project: shell
 ms.assetid: 706b2551-a9b0-4368-babb-e54cea6d297e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetPropertyStore, GetPropertyStore method [Windows Shell], GetPropertyStore method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetPropertyStore method, IShellItem2.GetPropertyStore, IShellItem2::GetPropertyStore, _shell_IShellItem2_GetPropertyStore, shell.IShellItem2_GetPropertyStore, shobjidl_core/IShellItem2::GetPropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\acl.htm
 old-project: SecAuthZ
 ms.assetid: 0073659f-c4d5-4aaf-aaa6-ea596d3bd8b9
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: "*PACL, ACL, ACL structure [Security], PACL, PACL structure pointer [Security], _ACL, _win32_acl_str, security.acl, winnt/ACL, winnt/PACL"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: shell\IBandSite_RemoveBand.htm
 old-project: shell
 ms.assetid: 5af20633-fab4-4fda-84c9-6bbdb9d588ec
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IBandSite interface [Windows Shell],RemoveBand method, IBandSite.RemoveBand, IBandSite::RemoveBand, RemoveBand, RemoveBand method [Windows Shell], RemoveBand method [Windows Shell],IBandSite interface, _win32_IBandSite_RemoveBand, shell.IBandSite_RemoveBand, shobjidl_core/IBandSite::RemoveBand
 ms.prod: windows-hardware
 ms.technology: windows-devices

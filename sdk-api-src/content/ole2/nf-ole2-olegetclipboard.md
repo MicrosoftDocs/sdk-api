@@ -7,7 +7,7 @@ old-location: com\olegetclipboard.htm
 old-project: com
 ms.assetid: c5e7badb-339b-48d5-8c9a-3950e2ffe6bf
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: OleGetClipboard, OleGetClipboard function [COM], _ole_OleGetClipboard, com.olegetclipboard, ole2/OleGetClipboard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -45,7 +45,7 @@ targetos: Windows
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # OleGetClipboard function

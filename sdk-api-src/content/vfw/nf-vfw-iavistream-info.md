@@ -7,7 +7,7 @@ old-location: multimedia\iavistream_info.htm
 old-project: Multimedia
 ms.assetid: c58c4d68-4d27-4c3c-a1f6-bdafa3633dae
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],Info method, IAVIStream.Info, IAVIStream::Info, Info, Info method [Windows Multimedia], Info method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_Info, multimedia.iavistream_info, vfw/IAVIStream::Info
 ms.prod: windows-hardware
 ms.technology: windows-devices

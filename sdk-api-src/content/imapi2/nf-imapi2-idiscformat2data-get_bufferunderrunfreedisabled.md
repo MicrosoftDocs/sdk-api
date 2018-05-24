@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2data_get_bufferunderrunfreedisabled.htm
 old-project: imapi
 ms.assetid: 2b85f13c-33c2-4b19-9b70-5a829f9de3ea
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_BufferUnderrunFreeDisabled method, IDiscFormat2Data.get_BufferUnderrunFreeDisabled, IDiscFormat2Data::get_BufferUnderrunFreeDisabled, get_BufferUnderrunFreeDisabled, get_BufferUnderrunFreeDisabled method [IMAPI], get_BufferUnderrunFreeDisabled method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_bufferunderrunfreedisabled, imapi2/IDiscFormat2Data::get_BufferUnderrunFreeDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices

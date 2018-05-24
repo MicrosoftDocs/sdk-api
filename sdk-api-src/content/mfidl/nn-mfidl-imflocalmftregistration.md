@@ -7,7 +7,7 @@ old-location: mf\imflocalmftregistration.htm
 old-project: medfound
 ms.assetid: e540a93a-ecce-4c5b-a121-b0f868a2af41
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFLocalMFTRegistration, IMFLocalMFTRegistration interface [Media Foundation], IMFLocalMFTRegistration interface [Media Foundation],described, mf.imflocalmftregistration, mfidl/IMFLocalMFTRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

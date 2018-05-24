@@ -7,7 +7,7 @@ old-location: base\vds_drive_notification.htm
 old-project: VDS
 ms.assetid: 933376b3-d5eb-407b-941c-4e2b61774c1a
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_DRIVE_NOTIFICATION, VDS_DRIVE_NOTIFICATION structure [VDS], VDS_NF_DRIVE_ARRIVE, VDS_NF_DRIVE_DEPART, VDS_NF_DRIVE_MODIFY, VDS_NF_DRIVE_REMOVED, _VDS_DRIVE_NOTIFICATION, base.vds_drive_notification, vds/_VDS_DRIVE_NOTIFICATION, vdshwprv/_VDS_DRIVE_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

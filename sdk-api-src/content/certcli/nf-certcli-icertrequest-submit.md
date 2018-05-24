@@ -7,7 +7,7 @@ old-location: security\icertrequest2_submit.htm
 old-project: SecCrypto
 ms.assetid: 22ae8d39-3f16-4f7d-94a0-aa68b03aaa0b
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CCertRequest object [Security],Submit method, CR_IN_BASE64, CR_IN_BASE64HEADER, CR_IN_BINARY, CR_IN_CHALLENGERESPONSE, CR_IN_CLIENTIDNONE, CR_IN_CMC, CR_IN_CONNECTONLY, CR_IN_CRLS, CR_IN_ENCODEANY, CR_IN_FORMATANY, CR_IN_FULLRESPONSE, CR_IN_KEYGEN, CR_IN_MACHINE, CR_IN_PKCS10, CR_IN_PKCS7, CR_IN_RETURNCHALLENGE, CR_IN_ROBO, CR_IN_RPC, ICertRequest interface [Security],Submit method, ICertRequest.Submit, ICertRequest2 interface [Security],Submit method, ICertRequest2::Submit, ICertRequest3 interface [Security],Submit method, ICertRequest3::Submit, ICertRequest::Submit, Submit, Submit method [Security], Submit method [Security],CCertRequest object, Submit method [Security],ICertRequest interface, Submit method [Security],ICertRequest2 interface, Submit method [Security],ICertRequest3 interface, certcli/ICertRequest2::Submit, certcli/ICertRequest3::Submit, certcli/ICertRequest::Submit, security.icertrequest2_submit
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: multimedia\iccompressframes.htm
 old-project: Multimedia
 ms.assetid: ced9ceea-d3fa-4496-886a-837545a28194
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ICCOMPRESSFRAMES, ICCOMPRESSFRAMES structure [Windows Multimedia], _win32_ICCOMPRESSFRAMES_str, multimedia.iccompressframes, vfw/ICCOMPRESSFRAMES
 ms.prod: windows-hardware
 ms.technology: windows-devices

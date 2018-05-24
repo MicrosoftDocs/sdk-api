@@ -7,7 +7,7 @@ old-location: com\imarshal_marshalinterface.htm
 old-project: com
 ms.assetid: c48a7123-bd00-4ff3-8880-7fc4b99e4299
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IMarshal interface [COM],MarshalInterface method, IMarshal.MarshalInterface, IMarshal::MarshalInterface, MarshalInterface, MarshalInterface method [COM], MarshalInterface method [COM],IMarshal interface, _com_imarshal_marshalinterface, com.imarshal_marshalinterface, objidlbase/IMarshal::MarshalInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IMarshal::MarshalInterface

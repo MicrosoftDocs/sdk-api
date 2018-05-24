@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognizer2_get_unicoderanges.htm
 old-project: tablet
 ms.assetid: d53e68d3-4809-41ae-b709-d96986831039
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IInkRecognizer2 interface [Tablet PC],get_UnicodeRanges method, IInkRecognizer2.get_UnicodeRanges, IInkRecognizer2::get_UnicodeRanges, d53e68d3-4809-41ae-b709-d96986831039, get_UnicodeRanges, get_UnicodeRanges method [Tablet PC], get_UnicodeRanges method [Tablet PC],IInkRecognizer2 interface, msinkaut/IInkRecognizer2::get_UnicodeRanges, tablet.iinkrecognizer2_get_unicoderanges
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognizer2::get_UnicodeRanges

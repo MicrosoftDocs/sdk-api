@@ -7,7 +7,7 @@ old-location: com\ienumconnections_clone.htm
 old-project: com
 ms.assetid: 00edeff3-a2e4-4e25-8771-32e3e4353274
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumConnections interface, IEnumConnections interface [COM],Clone method, IEnumConnections.Clone, IEnumConnections::Clone, _com_ienumconnections_clone, com.ienumconnections_clone, ocidl/IEnumConnections::Clone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IEnumConnections::Clone

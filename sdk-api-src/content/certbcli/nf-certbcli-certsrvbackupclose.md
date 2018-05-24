@@ -7,7 +7,7 @@ old-location: security\certsrvbackupclose.htm
 old-project: SecCrypto
 ms.assetid: 123933b4-5496-460d-aaaa-a494786cd638
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: CertSrvBackupClose, CertSrvBackupClose function [Security], _certsrv_certsrvbackupclose, certbcli/CertSrvBackupClose, security.certsrvbackupclose
 ms.prod: windows-hardware
 ms.technology: windows-devices

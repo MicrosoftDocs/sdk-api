@@ -7,7 +7,7 @@ old-location: tablet\imathinputcontrol_setcaptiontext.htm
 old-project: tablet
 ms.assetid: 8790fb9b-38df-42a4-9125-2c04d46aef0b
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetCaptionText method, IMathInputControl.SetCaptionText, IMathInputControl::SetCaptionText, SetCaptionText, SetCaptionText method [Tablet PC], SetCaptionText method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetCaptionText, tablet.imathinputcontrol_setcaptiontext
 ms.prod: windows-hardware
 ms.technology: windows-devices

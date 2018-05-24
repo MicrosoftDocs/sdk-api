@@ -7,7 +7,7 @@ old-location: mf\imfstreamsink_getmediatypehandler.htm
 old-project: medfound
 ms.assetid: 819d06b1-6b52-4496-bed8-a08b8f0b6153
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 819d06b1-6b52-4496-bed8-a08b8f0b6153, GetMediaTypeHandler, GetMediaTypeHandler method [Media Foundation], GetMediaTypeHandler method [Media Foundation],IMFStreamSink interface, IMFStreamSink interface [Media Foundation],GetMediaTypeHandler method, IMFStreamSink.GetMediaTypeHandler, IMFStreamSink::GetMediaTypeHandler, mf.imfstreamsink_getmediatypehandler, mfidl/IMFStreamSink::GetMediaTypeHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

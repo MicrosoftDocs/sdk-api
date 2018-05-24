@@ -7,7 +7,7 @@ old-location: com\pendingtype.htm
 old-project: com
 ms.assetid: 8f167342-5398-4ecc-9b56-dcf2b4248c65
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: PENDINGTYPE, PENDINGTYPE enumeration [COM], PENDINGTYPE_NESTED, PENDINGTYPE_TOPLEVEL, _com_PENDINGTYPE, com.pendingtype, objidl/PENDINGTYPE, objidl/PENDINGTYPE_NESTED, objidl/PENDINGTYPE_TOPLEVEL, tagPENDINGTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagPENDINGTYPE enumeration

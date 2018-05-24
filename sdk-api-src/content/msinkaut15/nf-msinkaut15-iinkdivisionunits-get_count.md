@@ -7,7 +7,7 @@ old-location: tablet\iinkdivisionunits_count.htm
 old-project: tablet
 ms.assetid: 049c91a6-7eeb-452b-a53e-30e44cda0f92
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkDivisionUnits interface, IInkDivisionUnits interface [Tablet PC],Count property, IInkDivisionUnits.Count, IInkDivisionUnits.get_Count, IInkDivisionUnits::Count, IInkDivisionUnits::get_Count, get_Count, msinkaut15/IInkDivisionUnits::Count, msinkaut15/IInkDivisionUnits::get_Count, tablet.iinkdivisionunits_count
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkDivisionUnits::get_Count

@@ -7,7 +7,7 @@ old-location: base\cvsswriterex2.htm
 old-project: VSS
 ms.assetid: 13cdeae3-dece-42ae-8bff-037ee3e4cec4
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: CVssWriterEx2, CVssWriterEx2 class, CVssWriterEx2 class,described, base.cvsswriterex2, vswriter/CVssWriterEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices

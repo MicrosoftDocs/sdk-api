@@ -7,7 +7,7 @@ old-location: shell\IShellBrowser_InsertMenusSB.htm
 old-project: shell
 ms.assetid: 62cbb593-7459-4a4f-96a2-3ec2287e6a26
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IShellBrowser interface [Windows Shell],InsertMenusSB method, IShellBrowser.InsertMenusSB, IShellBrowser::InsertMenusSB, InsertMenusSB, InsertMenusSB method [Windows Shell], InsertMenusSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_InsertMenusSB, shell.IShellBrowser_InsertMenusSB, shobjidl_core/IShellBrowser::InsertMenusSB
 ms.prod: windows-hardware
 ms.technology: windows-devices

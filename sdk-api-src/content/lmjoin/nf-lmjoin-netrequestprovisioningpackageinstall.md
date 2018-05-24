@@ -7,7 +7,7 @@ old-location: netmgmt\netrequestprovisioningpackageinstall.htm
 old-project: NetMgmt
 ms.assetid: 107ED0F7-8DDD-4C18-8C34-3A67F771FA62
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: NETSETUP_PROVISION_ONLINE_CALLER, NetRequestProvisioningPackageInstall, NetRequestProvisioningPackageInstall function [Network Management], lmjoin/NetRequestProvisioningPackageInstall, netmgmt.netrequestprovisioningpackageinstall
 ms.prod: windows-hardware
 ms.technology: windows-devices

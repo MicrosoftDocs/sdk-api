@@ -7,7 +7,7 @@ old-location: mf\imfworkqueueservices_getplaftormworkqueuemmcssclass.htm
 old-project: medfound
 ms.assetid: f953a54b-2bc0-4ddc-9837-57f72e564c02
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetPlaftormWorkQueueMMCSSClass, GetPlaftormWorkQueueMMCSSClass method [Media Foundation], GetPlaftormWorkQueueMMCSSClass method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],GetPlaftormWorkQueueMMCSSClass method, IMFWorkQueueServices.GetPlaftormWorkQueueMMCSSClass, IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass, f953a54b-2bc0-4ddc-9837-57f72e564c02, mf.imfworkqueueservices_getplaftormworkqueuemmcssclass, mfidl/IMFWorkQueueServices::GetPlaftormWorkQueueMMCSSClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

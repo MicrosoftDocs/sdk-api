@@ -7,7 +7,7 @@ old-location: mf\imftimedtexttracklist_gettrackbyid.htm
 old-project: medfound
 ms.assetid: 5653ED8A-36B1-488C-9D76-50D64BA78BA8
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetTrackById, GetTrackById method [Media Foundation], GetTrackById method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetTrackById method, IMFTimedTextTrackList.GetTrackById, IMFTimedTextTrackList::GetTrackById, mf.imftimedtexttracklist_gettrackbyid, mfmediaengine/IMFTimedTextTrackList::GetTrackById
 ms.prod: windows-hardware
 ms.technology: windows-devices

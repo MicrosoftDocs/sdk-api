@@ -7,7 +7,7 @@ old-location: base\ivssenumobject.htm
 old-project: VSS
 ms.assetid: b8e80909-a28a-45d7-87e2-4f44bf6990f4
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssEnumObject, IVssEnumObject interface [VSS], IVssEnumObject interface [VSS],described, _win32_ivssenumobject, base.ivssenumobject, vss/IVssEnumObject
 ms.prod: windows-hardware
 ms.technology: windows-devices

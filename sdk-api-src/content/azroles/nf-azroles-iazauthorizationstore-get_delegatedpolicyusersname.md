@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_delegatedpolicyusersname.htm
 old-project: SecAuthZ
 ms.assetid: 495cdba4-7127-48aa-9542-7ccbedbad589
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AzAuthorizationStore object [Security],DelegatedPolicyUsersName property, DelegatedPolicyUsersName property [Security], DelegatedPolicyUsersName property [Security],AzAuthorizationStore object, DelegatedPolicyUsersName property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DelegatedPolicyUsersName property, IAzAuthorizationStore.DelegatedPolicyUsersName, IAzAuthorizationStore.get_DelegatedPolicyUsersName, IAzAuthorizationStore::DelegatedPolicyUsersName, IAzAuthorizationStore::get_DelegatedPolicyUsersName, azroles/IAzAuthorizationStore::DelegatedPolicyUsersName, azroles/IAzAuthorizationStore::get_DelegatedPolicyUsersName, get_DelegatedPolicyUsersName, security.azauthorizationstore_delegatedpolicyusersname
 ms.prod: windows-hardware
 ms.technology: windows-devices

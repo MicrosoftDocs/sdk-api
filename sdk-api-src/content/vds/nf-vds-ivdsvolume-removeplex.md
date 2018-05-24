@@ -7,7 +7,7 @@ old-location: base\ivdsvolume_removeplex.htm
 old-project: VDS
 ms.assetid: 724f80e7-4656-4956-aaad-9f778329f139
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsVolume interface [VDS],RemovePlex method, IVdsVolume.RemovePlex, IVdsVolume::RemovePlex, RemovePlex, RemovePlex method [VDS], RemovePlex method [VDS],IVdsVolume interface, base.ivdsvolume_removeplex, vds/IVdsVolume::RemovePlex
 ms.prod: windows-hardware
 ms.technology: windows-devices

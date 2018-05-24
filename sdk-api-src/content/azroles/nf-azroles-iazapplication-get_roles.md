@@ -7,7 +7,7 @@ old-location: security\iazapplication_roles.htm
 old-project: SecAuthZ
 ms.assetid: 02acf473-b072-4814-92e1-47a32baae4fc
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AzApplication object [Security],Roles property, IAzApplication interface [Security],Roles property, IAzApplication.Roles, IAzApplication.get_Roles, IAzApplication::Roles, IAzApplication::get_Roles, Roles property [Security], Roles property [Security],AzApplication object, Roles property [Security],IAzApplication interface, azroles/IAzApplication::Roles, azroles/IAzApplication::get_Roles, get_Roles, security.iazapplication_roles
 ms.prod: windows-hardware
 ms.technology: windows-devices

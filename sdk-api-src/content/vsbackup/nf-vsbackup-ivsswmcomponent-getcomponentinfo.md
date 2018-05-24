@@ -7,7 +7,7 @@ old-location: base\ivsswmcomponent_getcomponentinfo.htm
 old-project: VSS
 ms.assetid: ac01bfea-e60f-4f50-a865-5bb7e372fbf2
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetComponentInfo, GetComponentInfo method [VSS], GetComponentInfo method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetComponentInfo method, IVssWMComponent.GetComponentInfo, IVssWMComponent::GetComponentInfo, _win32_ivsswmcomponent_getcomponentinfo, base.ivsswmcomponent_getcomponentinfo, vsbackup/IVssWMComponent::GetComponentInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

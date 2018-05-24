@@ -7,7 +7,7 @@ old-location: search\_search_ISearchCatalogManager_NumberOfItemsToIndex.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\numberofitemstoindex.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: ISearchCatalogManager interface [search],NumberOfItemsToIndex method, ISearchCatalogManager.NumberOfItemsToIndex, ISearchCatalogManager::NumberOfItemsToIndex, NumberOfItemsToIndex, NumberOfItemsToIndex method [search], NumberOfItemsToIndex method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_NumberOfItemsToIndex, search._search_ISearchCatalogManager_NumberOfItemsToIndex, searchapi/ISearchCatalogManager::NumberOfItemsToIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISearchCatalogManager::NumberOfItemsToIndex

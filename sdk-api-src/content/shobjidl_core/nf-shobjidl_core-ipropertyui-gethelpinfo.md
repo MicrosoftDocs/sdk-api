@@ -7,7 +7,7 @@ old-location: properties\IPropertyUI_GetHelpInfo.htm
 old-project: properties
 ms.assetid: 165ABA55-7CDB-48cf-AE14-DA314197BA42
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: GetHelpInfo, GetHelpInfo method [Windows Properties], GetHelpInfo method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetHelpInfo method, IPropertyUI.GetHelpInfo, IPropertyUI::GetHelpInfo, _shell_IPropertyUI_GetHelpInfo, properties.IPropertyUI_GetHelpInfo, shell.IPropertyUI_GetHelpInfo, shobjidl_core/IPropertyUI::GetHelpInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

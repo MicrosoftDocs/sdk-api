@@ -7,7 +7,7 @@ old-location: netmgmt\netlocalgroupaddmembers.htm
 old-project: NetMgmt
 ms.assetid: 3b2d3e4a-742e-4e67-8b28-3cd6d7e6a857
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: 0, 3, NetLocalGroupAddMembers, NetLocalGroupAddMembers function [Network Management], _win32_netlocalgroupaddmembers, lmaccess/NetLocalGroupAddMembers, netmgmt.netlocalgroupaddmembers
 ms.prod: windows-hardware
 ms.technology: windows-devices

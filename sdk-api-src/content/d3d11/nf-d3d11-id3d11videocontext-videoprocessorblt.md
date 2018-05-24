@@ -7,7 +7,7 @@ old-location: mf\id3d11videocontext_videoprocessorblt.htm
 old-project: medfound
 ms.assetid: D526BB31-A4B9-4BBD-BAE3-43FDFF58A32A
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorBlt method, ID3D11VideoContext.VideoProcessorBlt, ID3D11VideoContext::VideoProcessorBlt, VideoProcessorBlt, VideoProcessorBlt method [Media Foundation], VideoProcessorBlt method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorBlt, mf.id3d11videocontext_videoprocessorblt
 ms.prod: windows-hardware
 ms.technology: windows-devices

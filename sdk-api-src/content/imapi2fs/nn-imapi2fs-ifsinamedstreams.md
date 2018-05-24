@@ -7,7 +7,7 @@ old-location: imapi\ifsinamedstreams.htm
 old-project: imapi
 ms.assetid: 383a83e4-5dc2-459a-a58f-b6ce7a656348
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFsiNamedStreams, IFsiNamedStreams interface [IMAPI], IFsiNamedStreams interface [IMAPI],described, imapi.ifsinamedstreams, imapi2fs/IFsiNamedStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices

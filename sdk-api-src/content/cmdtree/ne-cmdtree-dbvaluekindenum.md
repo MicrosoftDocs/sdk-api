@@ -7,7 +7,7 @@ old-location: indexsrv\dbvaluekindenum.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_8565.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: DBVALUEKINDENUM, DBVALUEKINDENUM enumeration [Indexing Service], See below., _idxs_DBVALUEKINDENUM, cmdtree/DBVALUEKINDENUM, cmdtree/See below., indexsrv.dbvaluekindenum
 ms.prod: windows-hardware
 ms.technology: windows-devices

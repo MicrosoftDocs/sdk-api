@@ -7,7 +7,7 @@ old-location: shell\NC_ADDRESS.htm
 old-project: shell
 ms.assetid: 1dfb0f6a-3aa5-486b-bbd0-8a24070bca19
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*PNC_ADDRESS, NC_ADDRESS, NC_ADDRESS structure [Windows Shell], PNC_ADDRESS, PNC_ADDRESS structure pointer [Windows Shell], _shell_NC_ADDRESS, shell.NC_ADDRESS, shellapi/NC_ADDRESS, shellapi/PNC_ADDRESS, tagNC_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

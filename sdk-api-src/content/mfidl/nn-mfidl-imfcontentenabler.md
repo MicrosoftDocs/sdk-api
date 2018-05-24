@@ -7,7 +7,7 @@ old-location: mf\imfcontentenabler.htm
 old-project: medfound
 ms.assetid: 45d02bd0-1104-47ec-8559-8cc51590fc62
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 45d02bd0-1104-47ec-8559-8cc51590fc62, IMFContentEnabler, IMFContentEnabler interface [Media Foundation], IMFContentEnabler interface [Media Foundation],described, mf.imfcontentenabler, mfidl/IMFContentEnabler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

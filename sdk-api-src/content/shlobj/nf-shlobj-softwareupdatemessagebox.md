@@ -7,7 +7,7 @@ old-location: shell\SoftwareUpdateMessageBox.htm
 old-project: shell
 ms.assetid: 8b392355-6882-45e3-b915-5091c9ba51ad
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SoftwareUpdateMessageBox, SoftwareUpdateMessageBox function [Windows Shell], _win32_SoftwareUpdateMessageBox, shell.SoftwareUpdateMessageBox, shlobj/SoftwareUpdateMessageBox
 ms.prod: windows-hardware
 ms.technology: windows-devices

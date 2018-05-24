@@ -7,7 +7,7 @@ old-location: mf\imfasfstreamselector_getoutputstreamcount.htm
 old-project: medfound
 ms.assetid: 928e958b-55dc-4939-8ac3-282389f0077a
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 928e958b-55dc-4939-8ac3-282389f0077a, GetOutputStreamCount, GetOutputStreamCount method [Media Foundation], GetOutputStreamCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputStreamCount method, IMFASFStreamSelector.GetOutputStreamCount, IMFASFStreamSelector::GetOutputStreamCount, mf.imfasfstreamselector_getoutputstreamcount, wmcontainer/IMFASFStreamSelector::GetOutputStreamCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

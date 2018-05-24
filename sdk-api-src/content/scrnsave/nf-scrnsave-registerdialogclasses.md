@@ -7,7 +7,7 @@ old-location: shell\RegisterDialogClasses.htm
 old-project: shell
 ms.assetid: abd3ba28-a5a7-4ace-99b1-c42f5d81930e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: RegisterDialogClasses, RegisterDialogClasses function [Windows Shell], _win32_RegisterDialogClasses, scrnsave/RegisterDialogClasses, shell.RegisterDialogClasses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Scrnsave.lib
 req.dll: None
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RegisterDialogClasses function

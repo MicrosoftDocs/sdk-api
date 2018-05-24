@@ -7,7 +7,7 @@ old-location: base\ivdsstoragepool.htm
 old-project: VDS
 ms.assetid: 1518ab95-1f0a-4f28-b2ae-e75bb4d19790
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsStoragePool, IVdsStoragePool interface, IVdsStoragePool interface,described, base.ivdsstoragepool, vds/IVdsStoragePool, vdshwprv/IVdsStoragePool
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\oleverb.htm
 old-project: com
 ms.assetid: 657e3cc3-67fb-4458-8dad-f2a31df1b631
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPOLEVERB, LPOLEVERB, LPOLEVERB structure pointer [COM], OLEVERB, OLEVERB structure [COM], _ole_OLEVERB, com.oleverb, oleidl/LPOLEVERB, oleidl/OLEVERB, tagOLEVERB"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagOLEVERB structure

@@ -7,7 +7,7 @@ old-location: controls\itextdocument2_getcallmanager.htm
 old-project: Controls
 ms.assetid: 0a90e6f5-1231-45fc-868f-4f24ed195638
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetCallManager, GetCallManager method [Windows Controls], GetCallManager method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetCallManager method, ITextDocument2.GetCallManager, ITextDocument2::GetCallManager, controls.itextdocument2_getcallmanager, tom/ITextDocument2::GetCallManager
 ms.prod: windows-hardware
 ms.technology: windows-devices

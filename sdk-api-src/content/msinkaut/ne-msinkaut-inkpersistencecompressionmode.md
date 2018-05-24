@@ -7,7 +7,7 @@ old-location: tablet\inkpersistencecompressionmode.htm
 old-project: tablet
 ms.assetid: dac49948-3977-4952-a6c0-f54c4a0a2e36
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IPCM_Default, IPCM_MaximumCompression, IPCM_NoCompression, InkPersistenceCompressionMode, InkPersistenceCompressionMode enumeration [Tablet PC], dac49948-3977-4952-a6c0-f54c4a0a2e36, msinkaut/IPCM_Default, msinkaut/IPCM_MaximumCompression, msinkaut/IPCM_NoCompression, msinkaut/InkPersistenceCompressionMode, tablet.inkpersistencecompressionmode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # InkPersistenceCompressionMode enumeration

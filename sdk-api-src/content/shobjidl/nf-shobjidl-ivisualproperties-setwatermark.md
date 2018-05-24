@@ -7,7 +7,7 @@ old-location: shell\IVisualProperties_SetWatermark.htm
 old-project: shell
 ms.assetid: 14ce62f7-b464-4e52-8441-35f613b6c844
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetWatermark method, IVisualProperties.SetWatermark, IVisualProperties::SetWatermark, SetWatermark, SetWatermark method [Windows Shell], SetWatermark method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetWatermark, shell.IVisualProperties_SetWatermark, shobjidl/IVisualProperties::SetWatermark
 ms.prod: windows-hardware
 ms.technology: windows-devices

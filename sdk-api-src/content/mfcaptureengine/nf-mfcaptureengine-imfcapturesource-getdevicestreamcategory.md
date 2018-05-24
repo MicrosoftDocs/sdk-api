@@ -7,7 +7,7 @@ old-location: mf\imfcapturesource_getdevicestreamcategory.htm
 old-project: medfound
 ms.assetid: f3caa002-8676-44d3-9696-da5b0db09d9e
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetDeviceStreamCategory, GetDeviceStreamCategory method [Media Foundation], GetDeviceStreamCategory method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetDeviceStreamCategory method, IMFCaptureSource.GetDeviceStreamCategory, IMFCaptureSource::GetDeviceStreamCategory, mf.imfcapturesource_getdevicestreamcategory, mfcaptureengine/IMFCaptureSource::GetDeviceStreamCategory
 ms.prod: windows-hardware
 ms.technology: windows-devices

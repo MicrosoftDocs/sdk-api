@@ -7,7 +7,7 @@ old-location: com\oleclose.htm
 old-project: com
 ms.assetid: 386f24a4-11d7-4471-960e-1a3ff67ba3c5
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: OLECLOSE, OLECLOSE enumeration [COM], OLECLOSE_NOSAVE, OLECLOSE_PROMPTSAVE, OLECLOSE_SAVEIFDIRTY, _ole_OLECLOSE, com.oleclose, ole/OLECLOSE, ole/OLECLOSE_NOSAVE, ole/OLECLOSE_PROMPTSAVE, ole/OLECLOSE_SAVEIFDIRTY, tagOLECLOSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagOLECLOSE enumeration

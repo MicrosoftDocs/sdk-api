@@ -7,7 +7,7 @@ old-location: imapi\iisoimagemanager_setpath.htm
 old-project: imapi
 ms.assetid: 3e5ef908-795d-4617-8123-605855b9ddc8
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IIsoImageManager interface [IMAPI],SetPath method, IIsoImageManager.SetPath, IIsoImageManager::SetPath, SetPath, SetPath method [IMAPI], SetPath method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_setpath, imapi2fs/IIsoImageManager::SetPath
 ms.prod: windows-hardware
 ms.technology: windows-devices

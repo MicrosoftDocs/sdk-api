@@ -7,7 +7,7 @@ old-location: com\irpcstubbuffer_isiidsupported.htm
 old-project: com
 ms.assetid: 7025d343-9171-4d0f-9e93-61365075edc0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IRpcStubBuffer interface [COM],IsIIDSupported method, IRpcStubBuffer.IsIIDSupported, IRpcStubBuffer::IsIIDSupported, IsIIDSupported, IsIIDSupported method [COM], IsIIDSupported method [COM],IRpcStubBuffer interface, _com_irpcstubbuffer_isiidsupported, com.irpcstubbuffer_isiidsupported, objidlbase/IRpcStubBuffer::IsIIDSupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IRpcStubBuffer::IsIIDSupported

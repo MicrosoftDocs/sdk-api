@@ -7,7 +7,7 @@ old-location: shell\IStream_Write.htm
 old-project: shell
 ms.assetid: fdcfdaf8-7fcb-433e-b3d4-98ca143fbe6b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IStream_Write, IStream_Write function [Windows Shell], _shell_IStream_Write, shell.IStream_Write, shlwapi/IStream_Write
 ms.prod: windows-hardware
 ms.technology: windows-devices

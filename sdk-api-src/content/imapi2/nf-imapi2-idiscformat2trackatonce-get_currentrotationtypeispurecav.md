@@ -7,7 +7,7 @@ old-location: imapi\idiscformat2trackatonce_get_currentrotationtypeispurecav.htm
 old-project: imapi
 ms.assetid: 3a80eee3-6b85-432a-878c-c8e4cade7be1
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_CurrentRotationTypeIsPureCAV method, IDiscFormat2TrackAtOnce.get_CurrentRotationTypeIsPureCAV, IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV method [IMAPI], get_CurrentRotationTypeIsPureCAV method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_currentrotationtypeispurecav, imapi2/IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV
 ms.prod: windows-hardware
 ms.technology: windows-devices

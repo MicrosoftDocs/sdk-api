@@ -7,7 +7,7 @@ old-location: multimedia\capcapturegetsetup.htm
 old-project: Multimedia
 ms.assetid: 198b1aae-b719-4fb8-a11d-859eaf7a4606
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "_win32_capCaptureGetSetup, capCaptureGetSetup, capCaptureGetSetup macro [Windows Multimedia], multimedia.capcapturegetsetup, vfw/capCaptureGetSetup"
 ms.prod: windows-hardware
 ms.technology: windows-devices

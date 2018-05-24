@@ -7,7 +7,7 @@ old-location: search\isimplecommandcreator_verifycatalog.htm
 old-project: search
 ms.assetid: F4B1558D-F244-40ED-92C2-F5CC0B63AD50
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: ISimpleCommandCreator interface [search],VerifyCatalog method, ISimpleCommandCreator.VerifyCatalog, ISimpleCommandCreator::VerifyCatalog, VerifyCatalog, VerifyCatalog method [search], VerifyCatalog method [search],ISimpleCommandCreator interface, indexsrv/ISimpleCommandCreator::VerifyCatalog, search.isimplecommandcreator_verifycatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices

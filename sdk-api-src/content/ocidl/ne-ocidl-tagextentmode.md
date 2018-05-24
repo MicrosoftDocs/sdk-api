@@ -7,7 +7,7 @@ old-location: com\dvextentmode.htm
 old-project: com
 ms.assetid: 5848c26d-d185-4ad9-8841-bb8b622364ee
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: DVEXTENTMODE, DVEXTENTMODE enumeration [COM], DVEXTENT_CONTENT, DVEXTENT_INTEGRAL, _ole_DVEXTENTMODE, com.dvextentmode, ocidl/DVEXTENTMODE, ocidl/DVEXTENT_CONTENT, ocidl/DVEXTENT_INTEGRAL, tagExtentMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagExtentMode enumeration

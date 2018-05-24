@@ -7,7 +7,7 @@ old-location: netvista\setcurrentthreadcompartmentid.htm
 old-project: netvista
 ms.assetid: 15c634b5-c621-430d-99d7-c55ad8b6864e
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/21/2018
 ms.keywords: SetCurrentThreadCompartmentId, SetCurrentThreadCompartmentId function [Network Drivers Starting with Windows Vista], iphelper_955bc56f-f531-4937-8175-288ec03ef9af.xml, netioapi/SetCurrentThreadCompartmentId, netvista.setcurrentthreadcompartmentid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # SetCurrentThreadCompartmentId function

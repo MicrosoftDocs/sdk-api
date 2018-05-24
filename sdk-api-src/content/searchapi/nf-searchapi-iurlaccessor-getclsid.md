@@ -7,7 +7,7 @@ old-location: search\_search_IUrlAccessor_GetCLSID.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getclsid.htm
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: GetCLSID, GetCLSID method [search], GetCLSID method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetCLSID method, IUrlAccessor.GetCLSID, IUrlAccessor::GetCLSID, _search_IUrlAccessor_GetCLSID, search._search_IUrlAccessor_GetCLSID, searchapi/IUrlAccessor::GetCLSID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IUrlAccessor::GetCLSID

@@ -7,7 +7,7 @@ old-location: mf\imftimedtextstyle_getrighttoleft.htm
 old-project: medfound
 ms.assetid: 6BE5C8A0-F577-4E1D-8DB7-3FFBEF059C18
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetRightToLeft, GetRightToLeft method [Media Foundation], GetRightToLeft method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetRightToLeft method, IMFTimedTextStyle.GetRightToLeft, IMFTimedTextStyle::GetRightToLeft, mf.imftimedtextstyle_getrighttoleft, mfmediaengine/IMFTimedTextStyle::GetRightToLeft
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: termserv\iwrdsgraphicschannelevents.htm
 old-project: TermServ
 ms.assetid: 59802a2d-bdb0-4792-b667-5095d4a02b06
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: IWRdsGraphicsChannelEvents, IWRdsGraphicsChannelEvents interface [Remote Desktop Services], IWRdsGraphicsChannelEvents interface [Remote Desktop Services],described, termserv.iwrdsgraphicschannelevents, wrdsgraphicschannels/IWRdsGraphicsChannelEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices

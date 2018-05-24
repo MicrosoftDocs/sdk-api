@@ -2,21 +2,21 @@
 UID: NS:appmgmt._APPCATEGORYINFOLIST
 title: "_APPCATEGORYINFOLIST"
 author: windows-driver-content
-description: The APPCATEGORYINFOLIST structure contains a list of APPCATEGORYINFO structures, one for each category in the domain. This structure can be returned by the GetManagedApplicationCategories function.
-old-location: policy\appcategoryinfolist_str.htm
-old-project: Policy
-ms.assetid: 640aa5d0-c135-46b7-a25f-03c6325cb561
+description: Provides a list of supported application categories from an application publisher to Add/Remove Programs in Control Panel.
+old-location: shell\APPCATEGORYINFOLIST.htm
+old-project: shell
+ms.assetid: c590d9ab-ab41-4192-a6c2-c6c2c931e873
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
-ms.keywords: APPCATEGORYINFOLIST, APPCATEGORYINFOLIST structure [Group Policy], PAPPCATEGORYINFOLIST, PAPPCATEGORYINFOLIST structure pointer [Group Policy], _APPCATEGORYINFOLIST, appmgmt/APPCATEGORYINFOLIST, appmgmt/PAPPCATEGORYINFOLIST, policy.appcategoryinfolist_str
+ms.date: 5/22/2018
+ms.keywords: APPCATEGORYINFOLIST, APPCATEGORYINFOLIST structure [Windows Shell], _APPCATEGORYINFOLIST, appmgmt/APPCATEGORYINFOLIST, inet_APPCATEGORYINFOLIST, shell.APPCATEGORYINFOLIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista
-req.target-min-winversvr: Windows Server 2008
+req.target-min-winverclnt: Windows XP, Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -49,7 +49,7 @@ req.irql:
 ## -description
 
 
-The <b>APPCATEGORYINFOLIST</b> structure contains a list of <a href="https://msdn.microsoft.com/a03f6617-2b55-4d63-85eb-421d7c5494da">APPCATEGORYINFO</a> structures, one for each category in the domain. This structure can be returned by the  <a href="https://msdn.microsoft.com/10824852-7810-483a-91b3-2d9cc3d21934">GetManagedApplicationCategories</a> function.
+Provides a list of supported application categories from an application publisher to Add/Remove Programs in Control Panel.  
 
 
 ## -struct-fields
@@ -59,12 +59,18 @@ The <b>APPCATEGORYINFOLIST</b> structure contains a list of <a href="https://msd
 
 ### -field cCategory
 
-The number of categories listed in the <i>pCategoryInfo</i>.
+Type: <b>DWORD</b>
+
+A value of type <b>DWORD</b> that specifies the count of <a href="https://msdn.microsoft.com/7a0e61cb-97f8-4ca2-a85a-889e671099d0">APPCATEGORYINFO</a> elements in the array pointed to by <b>pCategoryInfo</b>.
 
 
 ### -field pCategoryInfo
 
-An array of <a href="https://msdn.microsoft.com/a03f6617-2b55-4d63-85eb-421d7c5494da">APPCATEGORYINFO</a> structures, one for each category in the domain.
+Type: <b><a href="https://msdn.microsoft.com/7a0e61cb-97f8-4ca2-a85a-889e671099d0">APPCATEGORYINFO</a>*</b>
+
+
+          A pointer to an array of <a href="https://msdn.microsoft.com/7a0e61cb-97f8-4ca2-a85a-889e671099d0">APPCATEGORYINFO</a> structures. This array contains all the categories an application publisher supports and must be allocated using <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> and freed using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>.
+        
 
 
 ### -field pCategoryInfo.size_is
@@ -84,19 +90,11 @@ An array of <a href="https://msdn.microsoft.com/a03f6617-2b55-4d63-85eb-421d7c54
 
 
 
-<a href="https://msdn.microsoft.com/a03f6617-2b55-4d63-85eb-421d7c5494da">APPCATEGORYINFO</a>
+<a href="https://msdn.microsoft.com/7a0e61cb-97f8-4ca2-a85a-889e671099d0">APPCATEGORYINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/10824852-7810-483a-91b3-2d9cc3d21934">GetManagedApplicationCategories</a>
-
-
-
-<a href="https://msdn.microsoft.com/1285ab5a-ea68-4c16-bc34-8ab2f3cfad35">Group Policy Overview</a>
-
-
-
-<a href="https://msdn.microsoft.com/8bd42909-7877-414d-a89c-658365acc280">Group Policy Structures</a>
+<a href="https://msdn.microsoft.com/139a5094-8bb3-4b5d-938d-ba4af5d52d94">IAppPublisher::GetCategories</a>
  
 
  

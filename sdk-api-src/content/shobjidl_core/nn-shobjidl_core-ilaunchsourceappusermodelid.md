@@ -7,7 +7,7 @@ old-location: shell\ILaunchSourceAppUserModelId.htm
 old-project: shell
 ms.assetid: B53325C9-DC89-4411-82D9-247C28AFB177
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: ILaunchSourceAppUserModelId, ILaunchSourceAppUserModelId interface [Windows Shell], ILaunchSourceAppUserModelId interface [Windows Shell],described, shell.ILaunchSourceAppUserModelId, shobjidl_core/ILaunchSourceAppUserModelId
 ms.prod: windows-hardware
 ms.technology: windows-devices

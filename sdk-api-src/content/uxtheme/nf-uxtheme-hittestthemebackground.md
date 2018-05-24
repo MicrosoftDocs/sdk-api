@@ -7,7 +7,7 @@ old-location: controls\HitTestThemeBackground.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\hittestthemebackground.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: HitTestThemeBackground, HitTestThemeBackground function [Windows Controls], controls.HitTestThemeBackground, controls.inet_HitTestThemeBackground, inet_HitTestThemeBackground, inet_HitTestThemeBackground_cpp, uxtheme/HitTestThemeBackground
 ms.prod: windows-hardware
 ms.technology: windows-devices

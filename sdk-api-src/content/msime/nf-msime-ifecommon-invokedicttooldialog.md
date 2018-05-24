@@ -7,7 +7,7 @@ old-location: intl\ifecommon_invokedicttooldialog.htm
 old-project: Intl
 ms.assetid: E70E3B78-58D7-40E9-8DAB-447B4CBC13F4
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],InvokeDictToolDialog method, IFECommon.InvokeDictToolDialog, IFECommon::InvokeDictToolDialog, InvokeDictToolDialog, InvokeDictToolDialog method [Internationalization for Windows Applications], InvokeDictToolDialog method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_invokedicttooldialog, msime/IFECommon::InvokeDictToolDialog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFECommon::InvokeDictToolDialog

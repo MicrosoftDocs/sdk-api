@@ -7,7 +7,7 @@ old-location: policy\igrouppolicyobject_getregistrykey.htm
 old-project: Policy
 ms.assetid: 6d46aeb4-8675-4746-9b80-46a0def184b8
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GetRegistryKey, GetRegistryKey method [Group Policy], GetRegistryKey method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetRegistryKey method, IGroupPolicyObject.GetRegistryKey, IGroupPolicyObject::GetRegistryKey, _win32_igrouppolicyobject_getregistrykey, gpedit/IGroupPolicyObject::GetRegistryKey, policy.igrouppolicyobject_getregistrykey
 ms.prod: windows-hardware
 ms.technology: windows-devices

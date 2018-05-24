@@ -7,7 +7,7 @@ old-location: netmgmt\netenumeratecomputernames.htm
 old-project: NetMgmt
 ms.assetid: c657ae33-404e-4c36-a956-5fbcfa540be7
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: NetAllComputerNames, NetAlternateComputerNames, NetComputerNameTypeMax, NetEnumerateComputerNames, NetEnumerateComputerNames function [Network Management], NetPrimaryComputerName, lmjoin/NetEnumerateComputerNames, netmgmt.netenumeratecomputernames
 ms.prod: windows-hardware
 ms.technology: windows-devices

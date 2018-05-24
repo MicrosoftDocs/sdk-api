@@ -7,7 +7,7 @@ old-location: mf\mfheapalloc.htm
 old-project: medfound
 ms.assetid: 3ad97cbf-4065-4807-ad6a-68e84a3601d4
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 3ad97cbf-4065-4807-ad6a-68e84a3601d4, MFHeapAlloc, MFHeapAlloc function [Media Foundation], mf.mfheapalloc, mfapi/MFHeapAlloc
 ms.prod: windows-hardware
 ms.technology: windows-devices

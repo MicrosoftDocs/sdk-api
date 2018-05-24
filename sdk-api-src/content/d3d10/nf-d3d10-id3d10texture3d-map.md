@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10texture3d_map.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture3d_map.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: 0a753acc-a6b4-f192-8a52-1069da27bbff, ID3D10Texture3D interface [Direct3D 10],Map method, ID3D10Texture3D.Map, ID3D10Texture3D::Map, Map, Map method [Direct3D 10], Map method [Direct3D 10],ID3D10Texture3D interface, d3d10/ID3D10Texture3D::Map, direct3d10.id3d10texture3d_map
 ms.prod: windows-hardware
 ms.technology: windows-devices

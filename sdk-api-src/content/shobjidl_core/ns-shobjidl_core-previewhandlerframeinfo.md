@@ -7,7 +7,7 @@ old-location: shell\PREVIEWHANDLERFRAMEINFO.htm
 old-project: shell
 ms.assetid: dd93675e-fd69-4fa3-a8e7-5238c27783d8
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: PREVIEWHANDLERFRAMEINFO, PREVIEWHANDLERFRAMEINFO structure [Windows Shell], _shell_PREVIEWHANDLERFRAMEINFO, shell.PREVIEWHANDLERFRAMEINFO, shobjidl_core/PREVIEWHANDLERFRAMEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\icertrequest.htm
 old-project: SecCrypto
 ms.assetid: 2f371aa6-492e-41ba-8455-66e9d5f5da44
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: ICertRequest, ICertRequest interface [Security], ICertRequest interface [Security],described, _certsrv_icertrequest, certcli/ICertRequest, security.icertrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices

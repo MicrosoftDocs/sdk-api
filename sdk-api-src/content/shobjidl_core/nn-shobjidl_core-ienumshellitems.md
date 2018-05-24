@@ -7,7 +7,7 @@ old-location: shell\IEnumShellItems.htm
 old-project: shell
 ms.assetid: 07aed597-359f-4f4b-9edf-168c15bdc58e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IEnumShellItems, IEnumShellItems interface [Windows Shell], IEnumShellItems interface [Windows Shell],described, _shell_IEnumShellItems, shell.IEnumShellItems, shobjidl_core/IEnumShellItems
 ms.prod: windows-hardware
 ms.technology: windows-devices

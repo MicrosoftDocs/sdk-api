@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_draw.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_draw.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: 32601c9d-0f76-a5ab-559a-a11064280174, Draw, Draw method [Direct3D 10], Draw method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],Draw method, ID3D10Device.Draw, ID3D10Device::Draw, d3d10/ID3D10Device::Draw, direct3d10.id3d10device_draw
 ms.prod: windows-hardware
 ms.technology: windows-devices

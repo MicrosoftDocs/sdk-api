@@ -7,7 +7,7 @@ old-location: base\ivdssubsystem_getproperties.htm
 old-project: VDS
 ms.assetid: cbcf1e14-7e3d-44e6-8c4a-afe927ed0f9d
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetProperties method, IVdsSubSystem.GetProperties, IVdsSubSystem::GetProperties, base.ivdssubsystem_getproperties, vds/IVdsSubSystem::GetProperties, vdshwprv/IVdsSubSystem::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices

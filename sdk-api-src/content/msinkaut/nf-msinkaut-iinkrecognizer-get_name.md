@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognizer_name.htm
 old-project: tablet
 ms.assetid: 701951fd-ffb9-40fd-bb2c-7cdeb330f9b7
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 701951fd-ffb9-40fd-bb2c-7cdeb330f9b7, IInkRecognizer interface [Tablet PC],Name property, IInkRecognizer.Name, IInkRecognizer.get_Name, IInkRecognizer::Name, IInkRecognizer::get_Name, Name property [Tablet PC], Name property [Tablet PC],IInkRecognizer interface, get_Name, msinkaut/IInkRecognizer::Name, msinkaut/IInkRecognizer::get_Name, tablet.iinkrecognizer_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognizer::get_Name

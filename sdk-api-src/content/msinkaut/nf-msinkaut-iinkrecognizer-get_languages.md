@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognizer_languages.htm
 old-project: tablet
 ms.assetid: 96419ffa-6af1-4e45-a831-f11564501975
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: 96419ffa-6af1-4e45-a831-f11564501975, IInkRecognizer interface [Tablet PC],Languages property, IInkRecognizer.Languages, IInkRecognizer.get_Languages, IInkRecognizer::Languages, IInkRecognizer::get_Languages, Languages property [Tablet PC], Languages property [Tablet PC],IInkRecognizer interface, get_Languages, msinkaut/IInkRecognizer::Languages, msinkaut/IInkRecognizer::get_Languages, tablet.iinkrecognizer_languages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkRecognizer::get_Languages

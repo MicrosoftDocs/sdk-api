@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxoutgoingjobs_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_62yb_cpp.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IFaxOutgoingJobs, IFaxOutgoingJobs interface [Fax Service], IFaxOutgoingJobs interface [Fax Service],described, _mfax_faxoutgoingjobs_cpp, fax._mfax_faxoutgoingjobs_cpp, faxcomex/IFaxOutgoingJobs
 ms.prod: windows-hardware
 ms.technology: windows-devices

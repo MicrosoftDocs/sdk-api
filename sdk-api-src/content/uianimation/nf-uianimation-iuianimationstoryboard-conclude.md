@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_conclude.htm
 old-project: UIAnimation
 ms.assetid: 82f915df-c031-41e9-8347-044b37793182
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: Conclude, Conclude method [Windows Animation], Conclude method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],Conclude method, IUIAnimationStoryboard.Conclude, IUIAnimationStoryboard::Conclude, uianimation.iuianimationstoryboard_conclude, uianimation/IUIAnimationStoryboard::Conclude
 ms.prod: windows-hardware
 ms.technology: windows-devices

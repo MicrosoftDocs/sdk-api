@@ -7,7 +7,7 @@ old-location: base\ivdscontroller_queryassociatedluns.htm
 old-project: VDS
 ms.assetid: 832b8d59-6e94-4d62-a31f-4658e9f6102b
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsController interface [VDS],QueryAssociatedLuns method, IVdsController.QueryAssociatedLuns, IVdsController::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsController interface, base.ivdscontroller_queryassociatedluns, vds/IVdsController::QueryAssociatedLuns, vdshwprv/IVdsController::QueryAssociatedLuns
 ms.prod: windows-hardware
 ms.technology: windows-devices

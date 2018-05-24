@@ -7,7 +7,7 @@ old-location: controls\UpdatePanningFeedback.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\updatepanningfeedback.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: UpdatePanningFeedback, UpdatePanningFeedback function [Windows Controls], _controls_UpdatePanningFeedback, _controls_UpdatePanningFeedback_cpp, controls.UpdatePanningFeedback, controls._controls_UpdatePanningFeedback, uxtheme/UpdatePanningFeedback
 ms.prod: windows-hardware
 ms.technology: windows-devices

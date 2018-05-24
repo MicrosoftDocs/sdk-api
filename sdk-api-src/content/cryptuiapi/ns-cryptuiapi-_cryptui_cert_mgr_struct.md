@@ -7,7 +7,7 @@ old-location: security\cryptui_cert_mgr_struct.htm
 old-project: SecCrypto
 ms.assetid: e6c24d16-0ae2-443c-8971-2d7da3aae963
 ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.date: 5/21/2018
 ms.keywords: "*PCRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT, CRYPTUI_CERT_MGR_STRUCT structure [Security], PCRYPTUI_CERT_MGR_STRUCT, PCRYPTUI_CERT_MGR_STRUCT structure pointer [Security], _CRYPTUI_CERT_MGR_STRUCT, cryptuiapi/CRYPTUI_CERT_MGR_STRUCT, cryptuiapi/PCRYPTUI_CERT_MGR_STRUCT, security.cryptui_cert_mgr_struct"
 ms.prod: windows-hardware
 ms.technology: windows-devices

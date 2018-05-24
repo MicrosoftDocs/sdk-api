@@ -7,7 +7,7 @@ old-location: termserv\itsgauthenticateusersink_reauthenticateuser.htm
 old-project: TermServ
 ms.assetid: f3706f72-d23c-49ac-9d81-3a38f8d399c8
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],ReauthenticateUser method, ITSGAuthenticateUserSink.ReauthenticateUser, ITSGAuthenticateUserSink::ReauthenticateUser, ReauthenticateUser, ReauthenticateUser method [Remote Desktop Services], ReauthenticateUser method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_reauthenticateuser, tsgauthenticationengine/ITSGAuthenticateUserSink::ReauthenticateUser
 ms.prod: windows-hardware
 ms.technology: windows-devices

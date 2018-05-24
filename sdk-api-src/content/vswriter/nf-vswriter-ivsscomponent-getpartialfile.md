@@ -7,7 +7,7 @@ old-location: base\ivsscomponent_getpartialfile.htm
 old-project: VSS
 ms.assetid: ed589ae8-2abb-4c3b-9695-12649fc89818
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: GetPartialFile, GetPartialFile method [VSS], GetPartialFile method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPartialFile method, IVssComponent.GetPartialFile, IVssComponent::GetPartialFile, _win32_ivsscomponent_getpartialfile, base.ivsscomponent_getpartialfile, vswriter/IVssComponent::GetPartialFile
 ms.prod: windows-hardware
 ms.technology: windows-devices

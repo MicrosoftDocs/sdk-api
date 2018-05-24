@@ -7,7 +7,7 @@ old-location: mf\imfsensoractivityreport_getsymboliclink.htm
 old-project: medfound
 ms.assetid: BF0BDB21-DE87-4177-A94F-8BA8FD571B02
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymbolicLink method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetSymbolicLink method, IMFSensorActivityReport.GetSymbolicLink, IMFSensorActivityReport::GetSymbolicLink, mf.imfsensoractivityreport_getsymboliclink, mfidl/IMFSensorActivityReport::GetSymbolicLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

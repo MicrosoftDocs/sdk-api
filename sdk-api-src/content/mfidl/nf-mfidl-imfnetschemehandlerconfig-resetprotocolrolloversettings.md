@@ -7,7 +7,7 @@ old-location: mf\imfnetschemehandlerconfig_resetprotocolrolloversettings.htm
 old-project: medfound
 ms.assetid: f2f792a4-811b-4eec-849b-bdd22774c4a8
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFNetSchemeHandlerConfig interface [Media Foundation],ResetProtocolRolloverSettings method, IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings, IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings, ResetProtocolRolloverSettings, ResetProtocolRolloverSettings method [Media Foundation], ResetProtocolRolloverSettings method [Media Foundation],IMFNetSchemeHandlerConfig interface, f2f792a4-811b-4eec-849b-bdd22774c4a8, mf.imfnetschemehandlerconfig_resetprotocolrolloversettings, mfidl/IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: shell\SHCreateAssociationRegistration.htm
 old-project: shell
 ms.assetid: 7998f49d-2515-4c77-991e-62c0fefa43df
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SHCreateAssociationRegistration, SHCreateAssociationRegistration function [Windows Shell], _shell_SHCreateAssociationRegistration, shell.SHCreateAssociationRegistration, shobjidl_core/SHCreateAssociationRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: intl\localenametolcid.htm
 old-project: Intl
 ms.assetid: 00404566-b9ef-43ea-8056-ca9ab0117814
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: LocaleNameToLCID, LocaleNameToLCID function [Internationalization for Windows Applications], _win32_LocaleNameToLCID, intl.localenametolcid, winnls/LocaleNameToLCID
 ms.prod: windows-hardware
 ms.technology: windows-devices

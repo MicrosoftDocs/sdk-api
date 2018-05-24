@@ -7,7 +7,7 @@ old-location: security\accesscheckbytyperesultlistandauditalarmbyhandle.htm
 old-project: SecAuthZ
 ms.assetid: 7d3ddce4-40a2-483d-8cff-48d89313b383
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AccessCheckByTypeResultListAndAuditAlarmByHandle, AccessCheckByTypeResultListAndAuditAlarmByHandle function [Security], AccessCheckByTypeResultListAndAuditAlarmByHandleA, AccessCheckByTypeResultListAndAuditAlarmByHandleW, _win32_accesscheckbytyperesultlistandauditalarmbyhandle, security.accesscheckbytyperesultlistandauditalarmbyhandle, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandle, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleA, winbase/AccessCheckByTypeResultListAndAuditAlarmByHandleW
 ms.prod: windows-hardware
 ms.technology: windows-devices

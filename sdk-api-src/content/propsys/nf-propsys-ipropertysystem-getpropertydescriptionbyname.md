@@ -7,7 +7,7 @@ old-location: properties\IPropertySystem_GetPropertyDescriptionByName.htm
 old-project: properties
 ms.assetid: ec1b3ded-ad7f-4830-92a2-35ad5691aa10
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: GetPropertyDescriptionByName, GetPropertyDescriptionByName method [Windows Properties], GetPropertyDescriptionByName method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescriptionByName method, IPropertySystem.GetPropertyDescriptionByName, IPropertySystem::GetPropertyDescriptionByName, properties.IPropertySystem_GetPropertyDescriptionByName, propsys/IPropertySystem::GetPropertyDescriptionByName, shell.IPropertySystem_GetPropertyDescriptionByName, shell_IPropertySystem_GetPropertyDescriptionByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertySystem::GetPropertyDescriptionByName

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator2_getfinalvalue.htm
 old-project: UIAnimation
 ms.assetid: 330816C7-1641-41FA-8FB9-56FCE0108593
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: GetFinalValue, GetFinalValue method [Windows Animation], GetFinalValue method [Windows Animation],IUIAnimationInterpolator2 interface, IUIAnimationInterpolator2 interface [Windows Animation],GetFinalValue method, IUIAnimationInterpolator2.GetFinalValue, IUIAnimationInterpolator2::GetFinalValue, uianimation.iuianimationinterpolator2_getfinalvalue, uianimation/IUIAnimationInterpolator2::GetFinalValue
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_selfintersections.htm
 old-project: tablet
 ms.assetid: d3b97071-d0bd-4910-93a4-409241e427eb
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IInkStrokeDisp interface [Tablet PC],SelfIntersections property, IInkStrokeDisp.SelfIntersections, IInkStrokeDisp.get_SelfIntersections, IInkStrokeDisp::SelfIntersections, IInkStrokeDisp::get_SelfIntersections, SelfIntersections property [Tablet PC], SelfIntersections property [Tablet PC],IInkStrokeDisp interface, d3b97071-d0bd-4910-93a4-409241e427eb, get_SelfIntersections, msinkaut/IInkStrokeDisp::SelfIntersections, msinkaut/IInkStrokeDisp::get_SelfIntersections, tablet.iinkstrokedisp_selfintersections
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::get_SelfIntersections

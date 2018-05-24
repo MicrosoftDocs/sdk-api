@@ -7,7 +7,7 @@ old-location: stg\ilockbytes_setsize.htm
 old-project: Stg
 ms.assetid: 13b3237b-d113-4505-b397-b06916368fef
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: ILockBytes interface [Structured Storage],SetSize method, ILockBytes.SetSize, ILockBytes::SetSize, SetSize, SetSize method [Structured Storage], SetSize method [Structured Storage],ILockBytes interface, _stg_ilockbytes_setsize, objidl/ILockBytes::SetSize, stg.ilockbytes_setsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ILockBytes::SetSize

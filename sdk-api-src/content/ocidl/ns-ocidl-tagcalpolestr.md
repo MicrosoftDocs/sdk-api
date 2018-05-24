@@ -7,7 +7,7 @@ old-location: com\calpolestr.htm
 old-project: com
 ms.assetid: 730d5e23-e84a-4629-9b59-492d8536122e
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "*LPCALPOLESTR, CALPOLESTR, CALPOLESTR structure [COM], LPCALPOLESTR, LPCALPOLESTR structure pointer [COM], _ctrl_CALPOLESTR, com.calpolestr, ocidl/CALPOLESTR, ocidl/LPCALPOLESTR, tagCALPOLESTR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # tagCALPOLESTR structure

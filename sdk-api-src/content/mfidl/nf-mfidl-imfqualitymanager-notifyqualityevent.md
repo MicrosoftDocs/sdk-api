@@ -7,7 +7,7 @@ old-location: mf\imfqualitymanager_notifyqualityevent.htm
 old-project: medfound
 ms.assetid: e88a5672-7afd-4d7e-afa9-e92f9803aca7
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFQualityManager interface [Media Foundation],NotifyQualityEvent method, IMFQualityManager.NotifyQualityEvent, IMFQualityManager::NotifyQualityEvent, NotifyQualityEvent, NotifyQualityEvent method [Media Foundation], NotifyQualityEvent method [Media Foundation],IMFQualityManager interface, e88a5672-7afd-4d7e-afa9-e92f9803aca7, mf.imfqualitymanager_notifyqualityevent, mfidl/IMFQualityManager::NotifyQualityEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

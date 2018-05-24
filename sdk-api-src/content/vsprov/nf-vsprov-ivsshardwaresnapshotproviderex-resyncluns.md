@@ -7,7 +7,7 @@ old-location: base\ivsshardwaresnapshotproviderex_resyncluns.htm
 old-project: VSS
 ms.assetid: 27322ba0-e318-45d4-824e-8c81a18abd49
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssHardwareSnapshotProviderEx interface,ResyncLuns method, IVssHardwareSnapshotProviderEx.ResyncLuns, IVssHardwareSnapshotProviderEx::ResyncLuns, ResyncLuns, ResyncLuns method, ResyncLuns method,IVssHardwareSnapshotProviderEx interface, base.ivsshardwaresnapshotproviderex_resyncluns, vsprov/IVssHardwareSnapshotProviderEx::ResyncLuns
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: controls\LVGROUPMETRICS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvgroupmetrics.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: "*PLVGROUPMETRICS, LVGROUPMETRICS, LVGROUPMETRICS structure [Windows Controls], PLVGROUPMETRICS, PLVGROUPMETRICS structure pointer [Windows Controls], commctrl/LVGROUPMETRICS, commctrl/PLVGROUPMETRICS, controls.LVGROUPMETRICS, controls.inet_LVGROUPMETRICS, inet_LVGROUPMETRICS, inet_LVGROUPMETRICS_cpp, tagLVGROUPMETRICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: com\ioleinplaceuiwindow_setborderspace.htm
 old-project: com
 ms.assetid: 7c806a02-db6d-444e-a049-22c4ae2b19b0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleInPlaceUIWindow interface [COM],SetBorderSpace method, IOleInPlaceUIWindow.SetBorderSpace, IOleInPlaceUIWindow::SetBorderSpace, SetBorderSpace, SetBorderSpace method [COM], SetBorderSpace method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_setborderspace, com.ioleinplaceuiwindow_setborderspace, oleidl/IOleInPlaceUIWindow::SetBorderSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleInPlaceUIWindow::SetBorderSpace

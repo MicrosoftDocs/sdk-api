@@ -7,7 +7,7 @@ old-location: netvista\nl_neighbor_state.htm
 old-project: netvista
 ms.assetid: 7751011b-c473-4697-b311-62e3a6d9b1ae
 ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.date: 5/21/2018
 ms.keywords: "*PNL_NEIGHBOR_STATE, NL_NEIGHBOR_STATE, NL_NEIGHBOR_STATE enumeration [Network Drivers Starting with Windows Vista], NlnsDelay, NlnsIncomplete, NlnsMaximum, NlnsPermanent, NlnsProbe, NlnsReachable, NlnsStale, NlnsUnreachable, PNL_NEIGHBOR_STATE, PNL_NEIGHBOR_STATE enumeration pointer [Network Drivers Starting with Windows Vista], _NL_NEIGHBOR_STATE, iphelper_dfada3d6-bdd8-4ce0-a7db-25882d0dac4a.xml, netvista.nl_neighbor_state, nldef/NL_NEIGHBOR_STATE, nldef/NlnsDelay, nldef/NlnsIncomplete, nldef/NlnsMaximum, nldef/NlnsPermanent, nldef/NlnsProbe, nldef/NlnsReachable, nldef/NlnsStale, nldef/NlnsUnreachable, nldef/PNL_NEIGHBOR_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Newdev.lib
 req.dll: Newdev.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _NL_NEIGHBOR_STATE enumeration

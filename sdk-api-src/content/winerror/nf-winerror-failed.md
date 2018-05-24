@@ -7,7 +7,7 @@ old-location: com\failed_macro.htm
 old-project: com
 ms.assetid: d9c4ff73-c255-4a82-b901-23bd5b41ee6c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: FAILED, FAILED macro [COM], _com_FAILED, com.failed, com.failed_macro, winerror/FAILED
 ms.prod: windows-hardware
 ms.technology: windows-devices

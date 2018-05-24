@@ -7,7 +7,7 @@ old-location: controls\InitializeFlatSB.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\initializeflatsb.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: InitializeFlatSB, InitializeFlatSB function [Windows Controls], _win32_InitializeFlatSB, _win32_InitializeFlatSB_cpp, commctrl/InitializeFlatSB, controls.InitializeFlatSB, controls._win32_InitializeFlatSB
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_ReadGUID.htm
 old-project: properties
 ms.assetid: BCC6E830-CF05-42c1-874F-CCC97E58A4BC
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PSPropertyBag_ReadGUID, PSPropertyBag_ReadGUID function [Windows Properties], properties.PSPropertyBag_ReadGUID, propsys/PSPropertyBag_ReadGUID, shell.PSPropertyBag_ReadGUID, shell_PSPropertyBag_ReadGUID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSPropertyBag_ReadGUID function

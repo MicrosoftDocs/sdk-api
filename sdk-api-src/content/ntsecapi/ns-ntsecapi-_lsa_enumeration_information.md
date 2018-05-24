@@ -7,7 +7,7 @@ old-location: security\lsa_enumeration_information.htm
 old-project: SecMgmt
 ms.assetid: 7577548f-3ceb-43a5-b447-6f66a09963fe
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: "*PLSA_ENUMERATION_INFORMATION, LSA_ENUMERATION_INFORMATION, LSA_ENUMERATION_INFORMATION structure [Security], PLSA_ENUMERATION_INFORMATION, PLSA_ENUMERATION_INFORMATION structure pointer [Security], _LSA_ENUMERATION_INFORMATION, _lsa_lsa_enumeration_information, ntsecapi/LSA_ENUMERATION_INFORMATION, ntsecapi/PLSA_ENUMERATION_INFORMATION, security.lsa_enumeration_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _LSA_ENUMERATION_INFORMATION structure

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrEventStore_GetEventEnumerator.htm
 old-project: shell
 ms.assetid: 8b634811-cb6d-47b2-b534-1baea23a5297
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetEventEnumerator, GetEventEnumerator method [Windows Shell], GetEventEnumerator method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEventEnumerator method, ISyncMgrEventStore.GetEventEnumerator, ISyncMgrEventStore::GetEventEnumerator, _shell_ISyncMgrEventStore_GetEventEnumerator, shell.ISyncMgrEventStore_GetEventEnumerator, syncmgr/ISyncMgrEventStore::GetEventEnumerator
 ms.prod: windows-hardware
 ms.technology: windows-devices

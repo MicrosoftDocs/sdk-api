@@ -7,7 +7,7 @@ old-location: shell\IApplicationAssociationRegistration_SetAppAsDefaultAll.htm
 old-project: shell
 ms.assetid: 3e9ad8ba-0f0e-46e6-ab0b-61c35bfd2dc6
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],SetAppAsDefaultAll method, IApplicationAssociationRegistration.SetAppAsDefaultAll, IApplicationAssociationRegistration::SetAppAsDefaultAll, SetAppAsDefaultAll, SetAppAsDefaultAll method [Windows Shell], SetAppAsDefaultAll method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_SetAppAsDefaultAll, shell.IApplicationAssociationRegistration_SetAppAsDefaultAll, shobjidl_core/IApplicationAssociationRegistration::SetAppAsDefaultAll
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: fax\_mfax_faxdocument_coverpagetype_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3v8l.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: CoverPageType property [Fax Service], CoverPageType property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],CoverPageType property, FaxDocument.CoverPageType, IFaxDocument.put_CoverPageType, IFaxDocument::put_CoverPageType, _mfax_faxdocument.coverpagetype, fax._mfax_faxdocument_coverpagetype, fax._mfax_faxdocument_coverpagetype_vb, put_CoverPageType
 ms.prod: windows-hardware
 ms.technology: windows-devices

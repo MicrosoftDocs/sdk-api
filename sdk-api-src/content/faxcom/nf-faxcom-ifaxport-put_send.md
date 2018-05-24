@@ -7,7 +7,7 @@ old-location: fax\_mfax_ifaxport_get_send_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9uqs.htm
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: FaxPort object [Fax Service],Send property, FaxPort.Send, IFaxPort.put_Send, IFaxPort::put_Send, Send property [Fax Service], Send property [Fax Service],FaxPort object, _mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send_vb, put_Send
 ms.prod: windows-hardware
 ms.technology: windows-devices

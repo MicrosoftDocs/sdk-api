@@ -7,7 +7,7 @@ old-location: shell\SHSendMessageBroadcast.htm
 old-project: shell
 ms.assetid: 98671f0f-2386-486f-ac96-14dd44c776c6
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SHSendMessageBroadcast, SHSendMessageBroadcast function [Windows Shell], SHSendMessageBroadcastA, SHSendMessageBroadcastW, _shell_SHSendMessageBroadcast, shell.SHSendMessageBroadcast, shlwapi/SHSendMessageBroadcast, shlwapi/SHSendMessageBroadcastA, shlwapi/SHSendMessageBroadcastW
 ms.prod: windows-hardware
 ms.technology: windows-devices

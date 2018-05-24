@@ -7,7 +7,7 @@ old-location: rras\rtmismarkedforchangenotification.htm
 old-project: RRAS
 ms.assetid: bde390fe-3ada-48d3-b9aa-b4bb56228eac
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: RtmIsMarkedForChangeNotification, RtmIsMarkedForChangeNotification function [RAS], _rtmv2ref_rtmismarkedforchangenotification, rras.rtmismarkedforchangenotification, rtmv2/RtmIsMarkedForChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # RtmIsMarkedForChangeNotification function

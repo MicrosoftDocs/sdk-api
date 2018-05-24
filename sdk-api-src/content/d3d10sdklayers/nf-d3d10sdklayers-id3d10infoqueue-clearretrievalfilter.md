@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_clearretrievalfilter.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_clearretrievalfilter.htm
 ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.date: 5/21/2018
 ms.keywords: 024cefe8-f34c-33c0-a0f9-773160473fbb, ClearRetrievalFilter, ClearRetrievalFilter method [Direct3D 10], ClearRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],ClearRetrievalFilter method, ID3D10InfoQueue.ClearRetrievalFilter, ID3D10InfoQueue::ClearRetrievalFilter, d3d10sdklayers/ID3D10InfoQueue::ClearRetrievalFilter, direct3d10.id3d10infoqueue_clearretrievalfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices

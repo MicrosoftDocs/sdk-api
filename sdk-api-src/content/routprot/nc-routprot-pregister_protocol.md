@@ -7,7 +7,7 @@ old-location: rras\registerprotocol.htm
 old-project: RRAS
 ms.assetid: b9027ef9-e573-4df0-b37e-d09956c1f8ee
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: PREGISTER_PROTOCOL, PREGISTER_PROTOCOL callback, RegisterProtocol, RegisterProtocol callback function [RAS], _mpr_registerprotocol, routprot/RegisterProtocol, rras.registerprotocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PREGISTER_PROTOCOL callback function

@@ -7,7 +7,7 @@ old-location: shell\IFrameworkInputPane.htm
 old-project: shell
 ms.assetid: 05C115BA-249A-4271-9C6F-DAAEE91BB936
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IFrameworkInputPane, IFrameworkInputPane interface [Windows Shell], IFrameworkInputPane interface [Windows Shell],described, shell.IFrameworkInputPane, shobjidl_core/IFrameworkInputPane
 ms.prod: windows-hardware
 ms.technology: windows-devices

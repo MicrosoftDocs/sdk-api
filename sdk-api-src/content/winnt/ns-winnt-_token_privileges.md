@@ -7,7 +7,7 @@ old-location: security\token_privileges.htm
 old-project: SecAuthZ
 ms.assetid: c9016511-740f-44f3-92ed-17cc518c6612
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: "*PTOKEN_PRIVILEGES, PTOKEN_PRIVILEGES, PTOKEN_PRIVILEGES structure pointer [Security], SE_PRIVILEGE_ENABLED, SE_PRIVILEGE_ENABLED_BY_DEFAULT, SE_PRIVILEGE_REMOVED, SE_PRIVILEGE_USED_FOR_ACCESS, TOKEN_PRIVILEGES, TOKEN_PRIVILEGES structure [Security], _TOKEN_PRIVILEGES, _win32_token_privileges_str, security.token_privileges, winnt/PTOKEN_PRIVILEGES, winnt/TOKEN_PRIVILEGES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

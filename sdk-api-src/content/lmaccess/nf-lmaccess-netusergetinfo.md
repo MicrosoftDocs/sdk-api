@@ -7,7 +7,7 @@ old-location: netmgmt\netusergetinfo.htm
 old-project: NetMgmt
 ms.assetid: 5bd13bed-938a-4273-840e-99fca99f7139
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: 0, 1, 10, 11, 2, 20, 23, 24, 3, 4, NetUserGetInfo, NetUserGetInfo function [Network Management], _win32_netusergetinfo, lmaccess/NetUserGetInfo, netmgmt.netusergetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices

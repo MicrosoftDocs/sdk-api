@@ -7,7 +7,7 @@ old-location: controls\BeginBufferedAnimation.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginbufferedanimation.htm
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/22/2018
 ms.keywords: BeginBufferedAnimation, BeginBufferedAnimation function [Windows Controls], _shell_BeginBufferedAnimation, _shell_BeginBufferedAnimation_cpp, controls.BeginBufferedAnimation, controls._shell_BeginBufferedAnimation, uxtheme/BeginBufferedAnimation
 ms.prod: windows-hardware
 ms.technology: windows-devices

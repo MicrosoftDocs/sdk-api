@@ -7,7 +7,7 @@ old-location: mf\mfgettoponodecurrenttype.htm
 old-project: medfound
 ms.assetid: 2405c6f6-1a3c-42d1-8ec9-4728f522ce42
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: MFGetTopoNodeCurrentType, MFGetTopoNodeCurrentType function [Media Foundation], mf.mfgettoponodecurrenttype, mfidl/MFGetTopoNodeCurrentType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

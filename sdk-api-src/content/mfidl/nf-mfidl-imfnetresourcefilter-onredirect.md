@@ -7,7 +7,7 @@ old-location: mf\imfnetresourcefilter_onredirect.htm
 old-project: medfound
 ms.assetid: 418EA3E0-9732-43B7-BF80-A85ECB7A9485
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFNetResourceFilter interface [Media Foundation],OnRedirect method, IMFNetResourceFilter.OnRedirect, IMFNetResourceFilter::OnRedirect, OnRedirect, OnRedirect method [Media Foundation], OnRedirect method [Media Foundation],IMFNetResourceFilter interface, mf.imfnetresourcefilter_onredirect, mfidl/IMFNetResourceFilter::OnRedirect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: tablet\iinkstrokedisp_transform.htm
 old-project: tablet
 ms.assetid: b7860215-a267-407e-9105-8e51340f4216
 ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.date: 5/21/2018
 ms.keywords: IInkStrokeDisp interface [Tablet PC],Transform method, IInkStrokeDisp.Transform, IInkStrokeDisp::Transform, Transform, Transform method [Tablet PC], Transform method [Tablet PC],IInkStrokeDisp interface, b7860215-a267-407e-9105-8e51340f4216, msinkaut/IInkStrokeDisp::Transform, tablet.iinkstrokedisp_transform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInkStrokeDisp::Transform

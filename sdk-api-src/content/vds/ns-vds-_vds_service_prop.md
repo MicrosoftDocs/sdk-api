@@ -7,7 +7,7 @@ old-location: base\vds_service_prop.htm
 old-project: VDS
 ms.assetid: 9029ebbd-f05d-4317-913d-58c8a0a62886
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: VDS_SERVICE_PROP, VDS_SERVICE_PROP structure [VDS], _VDS_SERVICE_PROP, base.vds_service_prop, vds/_VDS_SERVICE_PROP
 ms.prod: windows-hardware
 ms.technology: windows-devices

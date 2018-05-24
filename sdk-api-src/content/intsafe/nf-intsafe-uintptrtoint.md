@@ -7,7 +7,7 @@ old-location: shell\SIZETToInt_1.htm
 old-project: shell
 ms.assetid: 00a1229b-28cf-4d8e-a59a-0c91872b2e06
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: SIZETToInt, SIZETToInt function [Windows Shell], UIntPtrToInt, _shell_SIZETToInt, intsafe/SIZETToInt, shell.SIZETToInt, shell.SIZETToInt_1
 ms.prod: windows-hardware
 ms.technology: windows-devices

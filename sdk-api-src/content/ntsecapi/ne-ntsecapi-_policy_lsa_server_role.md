@@ -7,7 +7,7 @@ old-location: security\policy_lsa_server_role.htm
 old-project: SecMgmt
 ms.assetid: a2bcc380-8873-436b-a0d6-e4deb23669bb
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/21/2018
 ms.keywords: "*PPOLICY_LSA_SERVER_ROLE, POLICY_LSA_SERVER_ROLE, POLICY_LSA_SERVER_ROLE enumeration [Security], PPOLICY_LSA_SERVER_ROLE, PPOLICY_LSA_SERVER_ROLE enumeration pointer [Security], PolicyServerRoleBackup, PolicyServerRolePrimary, _POLICY_LSA_SERVER_ROLE, _lsa_policy_lsa_server_role, ntsecapi/POLICY_LSA_SERVER_ROLE, ntsecapi/PPOLICY_LSA_SERVER_ROLE, ntsecapi/PolicyServerRoleBackup, ntsecapi/PolicyServerRolePrimary, security.policy_lsa_server_role"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # _POLICY_LSA_SERVER_ROLE enumeration

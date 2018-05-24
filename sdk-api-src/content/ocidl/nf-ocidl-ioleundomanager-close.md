@@ -7,7 +7,7 @@ old-location: com\ioleundomanager_close.htm
 old-project: com
 ms.assetid: 4546f270-5cef-42a3-b07a-f0a491e78849
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: Close, Close method [COM], Close method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Close method, IOleUndoManager.Close, IOleUndoManager::Close, _ole_ioleundomanager_close, com.ioleundomanager_close, ocidl/IOleUndoManager::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleUndoManager::Close

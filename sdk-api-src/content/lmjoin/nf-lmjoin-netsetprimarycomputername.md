@@ -7,7 +7,7 @@ old-location: netmgmt\netsetprimarycomputername.htm
 old-project: NetMgmt
 ms.assetid: 524c8219-a303-45ab-95e2-91319b477568
 ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.date: 5/22/2018
 ms.keywords: NetSetPrimaryComputerName, NetSetPrimaryComputerName function [Network Management], lmjoin/NetSetPrimaryComputerName, netmgmt.netsetprimarycomputername
 ms.prod: windows-hardware
 ms.technology: windows-devices

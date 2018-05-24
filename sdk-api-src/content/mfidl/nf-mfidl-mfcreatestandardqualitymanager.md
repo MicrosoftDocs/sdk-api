@@ -7,7 +7,7 @@ old-location: mf\mfcreatestandardqualitymanager.htm
 old-project: medfound
 ms.assetid: 9abaa474-8a00-4e36-897d-9de9578333b7
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: 9abaa474-8a00-4e36-897d-9de9578333b7, MFCreateStandardQualityManager, MFCreateStandardQualityManager function [Media Foundation], mf.mfcreatestandardqualitymanager, mfidl/MFCreateStandardQualityManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

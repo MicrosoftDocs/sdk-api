@@ -7,7 +7,7 @@ old-location: base\ivdscontrollercontrollerport.htm
 old-project: VDS
 ms.assetid: 15b09f97-c729-4687-a62c-dac57661f8c0
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsControllerControllerPort, IVdsControllerControllerPort interface [VDS], IVdsControllerControllerPort interface [VDS],described, base.ivdscontrollercontrollerport, vdshwprv/IVdsControllerControllerPort
 ms.prod: windows-hardware
 ms.technology: windows-devices

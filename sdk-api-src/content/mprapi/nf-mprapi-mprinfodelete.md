@@ -7,7 +7,7 @@ old-location: rras\mprinfodelete.htm
 old-project: RRAS
 ms.assetid: c81b92c2-a977-40e0-b971-e4e70e1a1371
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: MprInfoDelete, MprInfoDelete function [RAS], _mpr_mprinfodelete, mprapi/MprInfoDelete, rras.mprinfodelete
 ms.prod: windows-hardware
 ms.technology: windows-devices

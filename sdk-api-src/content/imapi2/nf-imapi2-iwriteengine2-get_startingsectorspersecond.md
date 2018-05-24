@@ -7,7 +7,7 @@ old-location: imapi\iwriteengine2_get_startingsectorspersecond.htm
 old-project: imapi
 ms.assetid: 335da519-7378-469d-83dc-7c6a265fe67b
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/21/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_StartingSectorsPerSecond method, IWriteEngine2.get_StartingSectorsPerSecond, IWriteEngine2::get_StartingSectorsPerSecond, get_StartingSectorsPerSecond, get_StartingSectorsPerSecond method [IMAPI], get_StartingSectorsPerSecond method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_startingsectorspersecond, imapi2/IWriteEngine2::get_StartingSectorsPerSecond
 ms.prod: windows-hardware
 ms.technology: windows-devices

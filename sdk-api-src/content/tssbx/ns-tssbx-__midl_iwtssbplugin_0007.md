@@ -7,7 +7,7 @@ old-location: termserv\wtssbx_machine_info.htm
 old-project: TermServ
 ms.assetid: 88d49ae4-bf48-4b04-8a16-58d32efd62fa
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: WTSSBX_MACHINE_INFO, WTSSBX_MACHINE_INFO structure [Remote Desktop Services], __MIDL_IWTSSBPlugin_0007, termserv.wtssbx_machine_info, tssbx/WTSSBX_MACHINE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

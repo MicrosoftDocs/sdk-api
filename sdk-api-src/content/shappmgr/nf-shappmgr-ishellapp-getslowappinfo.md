@@ -7,7 +7,7 @@ old-location: shell\IShellApp_GetSlowAppInfo.htm
 old-project: shell
 ms.assetid: 02f8e527-1c3c-4a2e-bf55-4f33c6a7b822
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: GetSlowAppInfo, GetSlowAppInfo method [Windows Shell], GetSlowAppInfo method [Windows Shell],IShellApp interface, IShellApp interface [Windows Shell],GetSlowAppInfo method, IShellApp.GetSlowAppInfo, IShellApp::GetSlowAppInfo, inet_IShellApp_GetSlowAppInfo, shappmgr/IShellApp::GetSlowAppInfo, shell.IShellApp_GetSlowAppInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IShellApp::GetSlowAppInfo

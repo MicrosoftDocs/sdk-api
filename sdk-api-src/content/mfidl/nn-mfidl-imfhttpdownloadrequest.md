@@ -7,7 +7,7 @@ old-location: mf\imfhttpdownloadrequest.htm
 old-project: medfound
 ms.assetid: A8A37C2F-A662-4FDA-95F6-43D96A8471A8
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: IMFHttpDownloadRequest, IMFHttpDownloadRequest interface [Media Foundation], IMFHttpDownloadRequest interface [Media Foundation],described, mf.imfhttpdownloadrequest, mfidl/IMFHttpDownloadRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.typenames: MF_URL_TRUST_STATUS
+req.typenames: MFSensorDeviceMode
 topic_type:
 -	APIRef
 -	kbSyntax

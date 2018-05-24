@@ -7,7 +7,7 @@ old-location: wininet\createurlcacheentry.htm
 old-project: WinInet
 ms.assetid: 9a58cf05-2306-4a0f-876d-85f5e91c5a2b
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: CreateUrlCacheEntry, CreateUrlCacheEntry function [WinINet], CreateUrlCacheEntryA, CreateUrlCacheEntryW, _inet_createurlcacheentry_function, wininet.createurlcacheentry, wininet/CreateUrlCacheEntry, wininet/CreateUrlCacheEntryA, wininet/CreateUrlCacheEntryW
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: properties\IPropertyChangeArray_AppendOrReplace.htm
 old-project: properties
 ms.assetid: e4006738-d986-4fcb-899c-bbc4853ec6c1
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: AppendOrReplace, AppendOrReplace method [Windows Properties], AppendOrReplace method [Windows Properties],IPropertyChangeArray interface, IPropertyChangeArray interface [Windows Properties],AppendOrReplace method, IPropertyChangeArray.AppendOrReplace, IPropertyChangeArray::AppendOrReplace, _shell_IPropertyChangeArray_AppendOrReplace, properties.IPropertyChangeArray_AppendOrReplace, propsys/IPropertyChangeArray::AppendOrReplace, shell.IPropertyChangeArray_AppendOrReplace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IPropertyChangeArray::AppendOrReplace

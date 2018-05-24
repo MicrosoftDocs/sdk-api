@@ -7,7 +7,7 @@ old-location: shell\IInitializeWithStream.htm
 old-project: shell
 ms.assetid: 9050845d-1e70-4e85-8d2f-c8bbb382abe5
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IInitializeWithStream, IInitializeWithStream interface [Windows Shell], IInitializeWithStream interface [Windows Shell],described, propsys/IInitializeWithStream, shell.IInitializeWithStream, shell_IInitializeWithStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IInitializeWithStream interface

@@ -7,7 +7,7 @@ old-location: mf\d3d11_tex2d_array_vpov.htm
 old-project: medfound
 ms.assetid: DF059392-3E4B-45D2-A3CD-A0C61C8D628F
 ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.date: 5/22/2018
 ms.keywords: D3D11_TEX2D_ARRAY_VPOV, D3D11_TEX2D_ARRAY_VPOV structure [Media Foundation], d3d11/D3D11_TEX2D_ARRAY_VPOV, mf.d3d11_tex2d_array_vpov
 ms.prod: windows-hardware
 ms.technology: windows-devices

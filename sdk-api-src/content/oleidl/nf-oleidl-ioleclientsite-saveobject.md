@@ -7,7 +7,7 @@ old-location: com\ioleclientsite_saveobject.htm
 old-project: com
 ms.assetid: ef1a0085-f4fa-4d77-adab-0386f354dfe7
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IOleClientSite interface [COM],SaveObject method, IOleClientSite.SaveObject, IOleClientSite::SaveObject, SaveObject, SaveObject method [COM], SaveObject method [COM],IOleClientSite interface, _ole_ioleclientsite_saveobject, com.ioleclientsite_saveobject, oleidl/IOleClientSite::SaveObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IOleClientSite::SaveObject

@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelclient_setinterface.htm
 old-project: WMDM
 ms.assetid: b1af8f10-7bad-4f85-89f1-b983af6d4dc9
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],SetInterface method, CSecureChannelClient.SetInterface, CSecureChannelClient::SetInterface, CSecureChannelClientSetInterface, SetInterface, SetInterface method [windows Media Device Manager], SetInterface method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::SetInterface, wmdm.csecurechannelclient_setinterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # CSecureChannelClient::SetInterface

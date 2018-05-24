@@ -7,7 +7,7 @@ old-location: base\ivdsdisk2_setsanmode.htm
 old-project: VDS
 ms.assetid: 17bdb6f4-7d85-4aa6-b89b-a752332cc224
 ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.date: 5/22/2018
 ms.keywords: IVdsDisk2 interface,SetSANMode method, IVdsDisk2.SetSANMode, IVdsDisk2::SetSANMode, SetSANMode, SetSANMode method, SetSANMode method,IVdsDisk2 interface, base.ivdsdisk2_setsanmode, vds/IVdsDisk2::SetSANMode
 ms.prod: windows-hardware
 ms.technology: windows-devices

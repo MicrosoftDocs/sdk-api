@@ -7,7 +7,7 @@ old-location: search\isearchmanager2_deletecatalog.htm
 old-project: search
 ms.assetid: E9515AEE-6854-4FF8-9A83-10E6BC247D4D
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: DeleteCatalog, DeleteCatalog method [search], DeleteCatalog method [search],ISearchManager2 interface, ISearchManager2 interface [search],DeleteCatalog method, ISearchManager2.DeleteCatalog, ISearchManager2::DeleteCatalog, search.isearchmanager2_deletecatalog, searchapi/ISearchManager2::DeleteCatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ISearchManager2::DeleteCatalog

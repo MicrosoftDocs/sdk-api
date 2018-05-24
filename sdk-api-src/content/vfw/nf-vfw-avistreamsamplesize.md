@@ -7,7 +7,7 @@ old-location: multimedia\avistreamsamplesize.htm
 old-project: Multimedia
 ms.assetid: 24d8dae6-a9f7-4ca6-a083-1e1f59c0591c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: AVIStreamSampleSize, AVIStreamSampleSize macro [Windows Multimedia], _win32_AVIStreamSampleSize, multimedia.avistreamsamplesize, vfw/AVIStreamSampleSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

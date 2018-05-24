@@ -7,7 +7,7 @@ old-location: termserv\itssbclientconnection_samuseraccount.htm
 old-project: TermServ
 ms.assetid: eb3d8e6b-60c6-4d24-824c-94b642f44956
 ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.date: 5/22/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],SamUserAccount property, ITsSbClientConnection.SamUserAccount, ITsSbClientConnection.get_SamUserAccount, ITsSbClientConnection::SamUserAccount, ITsSbClientConnection::get_SamUserAccount, SamUserAccount property [Remote Desktop Services], SamUserAccount property [Remote Desktop Services],ITsSbClientConnection interface, get_SamUserAccount, sbtsv/ITsSbClientConnection::SamUserAccount, sbtsv/ITsSbClientConnection::get_SamUserAccount, termserv.itssbclientconnection_samuseraccount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # ITsSbClientConnection::get_SamUserAccount

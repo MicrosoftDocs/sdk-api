@@ -7,7 +7,7 @@ old-location: base\ivssbackupcomponents_setbackupsucceeded.htm
 old-project: VSS
 ms.assetid: 5565183d-f374-4796-a399-b008041afdd2
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetBackupSucceeded method, IVssBackupComponents.SetBackupSucceeded, IVssBackupComponents::SetBackupSucceeded, SetBackupSucceeded, SetBackupSucceeded method [VSS], SetBackupSucceeded method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupsucceeded, base.ivssbackupcomponents_setbackupsucceeded, vsbackup/IVssBackupComponents::SetBackupSucceeded
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: security\azbizrulecontext_businessruleresult.htm
 old-project: SecAuthZ
 ms.assetid: 9f8b72bb-b2c3-4ba0-aa56-ff0ad0df1502
 ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.date: 5/22/2018
 ms.keywords: AzBizRuleContext object [Security],BusinessRuleResult property, BusinessRuleResult property [Security], BusinessRuleResult property [Security],AzBizRuleContext object, BusinessRuleResult property [Security],IAzBizRuleContext interface, IAzBizRuleContext interface [Security],BusinessRuleResult property, IAzBizRuleContext.BusinessRuleResult, IAzBizRuleContext.put_BusinessRuleResult, IAzBizRuleContext::BusinessRuleResult, IAzBizRuleContext::put_BusinessRuleResult, azroles/IAzBizRuleContext::BusinessRuleResult, azroles/IAzBizRuleContext::put_BusinessRuleResult, put_BusinessRuleResult, security.azbizrulecontext_businessruleresult
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: base\ivssdifferentialsoftwaresnapshotmgmt_changediffareamaximumsiz
 old-project: VSS
 ms.assetid: c7773fa8-6b43-46bf-b644-0016b261c080
 ms.author: windowsdriverdev
-ms.date: 4/17/2018
+ms.date: 5/22/2018
 ms.keywords: ChangeDiffAreaMaximumSize, ChangeDiffAreaMaximumSize method [VSS], ChangeDiffAreaMaximumSize method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, IVssDifferentialSoftwareSnapshotMgmt interface [VSS],ChangeDiffAreaMaximumSize method, IVssDifferentialSoftwareSnapshotMgmt.ChangeDiffAreaMaximumSize, IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize, base.ivssdifferentialsoftwaresnapshotmgmt_changediffareamaximumsize, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

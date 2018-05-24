@@ -7,7 +7,7 @@ old-location: multimedia\capfilesetinfochunk.htm
 old-project: Multimedia
 ms.assetid: b0772aa7-944c-450e-a703-0057a3230cb0
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: "_win32_capFileSetInfoChunk, capFileSetInfoChunk, capFileSetInfoChunk macro [Windows Multimedia], multimedia.capfilesetinfochunk, vfw/capFileSetInfoChunk"
 ms.prod: windows-hardware
 ms.technology: windows-devices

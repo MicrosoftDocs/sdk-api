@@ -7,7 +7,7 @@ old-location: properties\PSPropertyBag_WriteDWORD.htm
 old-project: properties
 ms.assetid: 59142C21-032F-462c-B4A7-337483917ABC
 ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.date: 5/22/2018
 ms.keywords: PSPropertyBag_WriteDWORD, PSPropertyBag_WriteDWORD function [Windows Properties], properties.PSPropertyBag_WriteDWORD, propsys/PSPropertyBag_WriteDWORD, shell.PSPropertyBag_WriteDWORD, shell_PSPropertyBag_WriteDWORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # PSPropertyBag_WriteDWORD function

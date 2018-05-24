@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmoperation3.htm
 old-project: WMDM
 ms.assetid: 5ab4fdd2-d0bf-4e2c-b529-331ffa4c8403
 ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.date: 5/22/2018
 ms.keywords: IWMDMOperation3, IWMDMOperation3 interface [windows Media Device Manager], IWMDMOperation3 interface [windows Media Device Manager],described, IWMDMOperation3Interface, mswmdm/IWMDMOperation3, wmdm.iwmdmoperation3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IWMDMOperation3 interface

@@ -7,7 +7,7 @@ old-location: com\ifont_get_weight.htm
 old-project: com
 ms.assetid: 3dad6648-752d-48f8-9267-24a5f5b0346c
 ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.date: 5/22/2018
 ms.keywords: IFont interface [COM],get_Weight method, IFont.get_Weight, IFont::get_Weight, _ctrl_ifont_get_weight, com.ifont_get_weight, get_Weight, get_Weight method [COM], get_Weight method [COM],IFont interface, ocidl/IFont::get_Weight
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
 # IFont::get_Weight
