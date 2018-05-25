@@ -1,11 +1,11 @@
 ---
 UID: NA:amsi
 ms.assetid: 5c64e8da-d685-3a4a-bc23-c19f1b6f1148
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: amsi
 ---

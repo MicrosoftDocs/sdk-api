@@ -5,5 +5,6 @@
     "evntrace.h",
     "ktmtypes.h",
     "ntdef.h"
-  ]
+  ],
+  "displayName": "Kernel-Mode Driver Reference"
 }

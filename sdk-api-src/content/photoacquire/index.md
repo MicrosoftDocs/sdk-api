@@ -1,11 +1,11 @@
 ---
 UID: NA:photoacquire
 ms.assetid: 8578d389-ba4d-38b4-a2fd-3ab1943b6394
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: setup
 ---

@@ -1,11 +1,11 @@
 ---
 UID: TP:xblidp
 ms.assetid: 171eec04-c9a1-34cd-9e47-c871eea2a356
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,7 +20,7 @@ To develop XblIdpAuthManager, you need these headers:
 
  * [xblidpauthmanager.h](..\xblidpauthmanager\index.md)
 
-For the programming guide, see [XblIdpAuthManager](https://review.docs.microsoft.com/en-us/win32-test/xblidp).
+For the programming guide, see [XblIdpAuthManager](/previous-versions/windows/desktop/xblidp).
 
 ## Enumerations
 

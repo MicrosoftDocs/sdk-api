@@ -1,11 +1,11 @@
 ---
 UID: NA:wabiab
 ms.assetid: 03e74b6f-a527-39b0-9e34-b9fd66e3478e
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: wab

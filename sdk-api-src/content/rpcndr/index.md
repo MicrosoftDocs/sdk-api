@@ -1,11 +1,11 @@
 ---
 UID: NA:rpcndr
 ms.assetid: 94d2ad6f-f235-3269-ab39-c3bf3e799b2b
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: rpc
 ---

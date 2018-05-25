@@ -1,11 +1,11 @@
 ---
 UID: TP:sens
 ms.assetid: 90cfd6a7-8ab8-37c6-ad62-4a2764299d85
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -20,4 +20,4 @@ To develop System Event Notification Service, you need these headers:
  * [sensapi.h](..\sensapi\index.md)
  * [sensevts.h](..\sensevts\index.md)
 
-For the programming guide, see [System Event Notification Service](https://review.docs.microsoft.com/en-us/win32-test/sens).
+For the programming guide, see [System Event Notification Service](/windows/desktop/sens).

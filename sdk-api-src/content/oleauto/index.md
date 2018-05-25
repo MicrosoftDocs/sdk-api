@@ -1,11 +1,11 @@
 ---
 UID: NA:oleauto
 ms.assetid: e26901c1-bc65-3702-b165-f54f14890afe
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: automat

@@ -43,5 +43,6 @@
     "ntddscsi.h",
     "ntddtape.h",
     "miniport.h"
-  ]
+  ],
+  "displayName": "Storage driver DDI reference"
 }

@@ -1,21 +1,21 @@
 ---
 UID: TP:input_touchhittest
 ms.assetid: e1c0359c-7587-3b38-920e-8ec8db2c2104
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Input_Touchhittest
+# Touch Hit Testing
 
 
 
-Overview of the Input_Touchhittest technology.
+Overview of the Touch Hit Testing technology.
 
-The Input_Touchhittest technology is not associated with any headers.
+The Touch Hit Testing technology is not associated with any headers.
 
-
+For the programming guide, see [Touch Hit Testing](/previous-versions/windows/desktop/input_touchhittest).

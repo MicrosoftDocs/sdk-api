@@ -1,20 +1,20 @@
 ---
 UID: TP:wnet
 ms.assetid: 65604794-a7a0-34a4-8073-0694baf923aa
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Wnet
+# Windows Networking (WNet)
 
 
 
-Overview of the Wnet technology.
+Overview of the Windows Networking (WNet) technology.
 
-The Wnet technology is not associated with any headers.
+The Windows Networking (WNet) technology is not associated with any headers.
 
-
+For the programming guide, see [Windows Networking (WNet)](/windows/desktop/wnet).

@@ -1,11 +1,11 @@
 ---
 UID: TP:mediatransport
 ms.assetid: d171fe26-62b3-31af-9f9a-88c6cce5d3b1
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,7 +20,7 @@ To develop Media Transport Controls, you need these headers:
 
  * [systemmediatransportcontrolsinterop.h](..\systemmediatransportcontrolsinterop\index.md)
 
-For the programming guide, see [Media Transport Controls](https://review.docs.microsoft.com/en-us/win32-test/mediatransport).
+For the programming guide, see [Media Transport Controls](/previous-versions/windows/desktop/mediatransport).
 
 ## Interfaces
 

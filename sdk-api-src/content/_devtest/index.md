@@ -1,20 +1,20 @@
 ---
 UID: TP:devtest
 ms.assetid: df82015f-ea9d-3150-8041-fb2c5ed17afc
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Devtest
+# Driver Development Tools Reference
 
 
 
-Overview of the Devtest technology.
+Overview of the Driver Development Tools Reference technology.
 
-The Devtest technology is not associated with any headers.
+The Driver Development Tools Reference technology is not associated with any headers.
 
-
+For the programming guide, see [Driver Development Tools Reference](/windows/desktop/devtest).

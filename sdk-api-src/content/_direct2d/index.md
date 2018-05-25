@@ -1,11 +1,11 @@
 ---
 UID: TP:direct2d
 ms.assetid: 43d8949c-ea1e-342c-bf43-cea67f63ae14
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -33,4 +33,4 @@ To develop Direct2D, you need these headers:
  * [d2d1svg.h](..\d2d1svg\index.md)
  * [dcommon.h](..\dcommon\index.md)
 
-For the programming guide, see [Direct2D](https://review.docs.microsoft.com/en-us/win32-test/direct2d).
+For the programming guide, see [Direct2D](/windows/desktop/direct2d).

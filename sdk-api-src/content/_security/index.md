@@ -1,21 +1,21 @@
 ---
 UID: TP:security
 ms.assetid: b363e999-e030-3061-ae49-cc5ffd5ea84d
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Authentication
+# Security and Identity
 
 
 
-Overview of the Authentication technology.
+Overview of the Security and Identity technology.
 
-To develop Authentication, you need these headers:
+To develop Security and Identity, you need these headers:
 
  * [aclapi.h](..\aclapi\index.md)
  * [aclui.h](..\aclui\index.md)
@@ -76,4 +76,4 @@ To develop Authentication, you need these headers:
  * [winwlx.h](..\winwlx\index.md)
  * [xenroll.h](..\xenroll\index.md)
 
-For the programming guide, see [Authentication](https://review.docs.microsoft.com/en-us/win32-test/security).
+For the programming guide, see [Security and Identity](/windows/desktop/security).

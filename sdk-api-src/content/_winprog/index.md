@@ -1,21 +1,21 @@
 ---
 UID: TP:winprog
 ms.assetid: 83e6e3dc-b151-3e86-ac66-a7eabe59b7b6
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Using the Windows Headers
+# Developer Notes
 
 
 
-Overview of the Using the Windows Headers technology.
+Overview of the Developer Notes technology.
 
-To develop Using the Windows Headers, you need these headers:
+To develop Developer Notes, you need these headers:
 
  * [appcompatapi.h](..\appcompatapi\index.md)
  * [aux_ulib.h](..\aux_ulib\index.md)
@@ -56,4 +56,4 @@ To develop Using the Windows Headers, you need these headers:
  * [winreg.h](..\winreg\index.md)
  * [wscapi.h](..\wscapi\index.md)
 
-For the programming guide, see [Using the Windows Headers](https://review.docs.microsoft.com/en-us/win32-test/winprog).
+For the programming guide, see [Developer Notes](/windows/desktop/winprog).

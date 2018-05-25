@@ -1,11 +1,11 @@
 ---
 UID: TP:dlgbox
 ms.assetid: a28127d0-a8ac-381f-95fa-d472ee915ef7
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -19,7 +19,7 @@ To develop Dialog Boxes, you need these headers:
 
  * [commdlg.h](..\commdlg\index.md)
 
-For the programming guide, see [Dialog Boxes](https://review.docs.microsoft.com/en-us/win32-test/dlgbox).
+For the programming guide, see [Dialog Boxes](/windows/desktop/dlgbox).
 
 ## Functions
 

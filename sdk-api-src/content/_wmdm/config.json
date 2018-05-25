@@ -7,7 +7,6 @@
     "scserver.h",
     "wmddrmsp.idl",
     "wmdmlog.h",
-    "icomponentauthenticate.idl",
     "wmscp.idl",
     "wmdm.idl",
     "mtpext.h"

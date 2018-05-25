@@ -1,21 +1,21 @@
 ---
 UID: TP:xperf
 ms.assetid: e3e1478a-9f81-3396-aa20-610a32edf6d2
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Xperf
+# Windows Performance Analyzer (WPA)
 
 
 
-Overview of the Xperf technology.
+Overview of the Windows Performance Analyzer (WPA) technology.
 
-The Xperf technology is not associated with any headers.
+The Windows Performance Analyzer (WPA) technology is not associated with any headers.
 
-
+For the programming guide, see [Windows Performance Analyzer (WPA)](/previous-versions/windows/desktop/xperf).

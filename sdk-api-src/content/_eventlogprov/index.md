@@ -1,21 +1,21 @@
 ---
 UID: TP:eventlogprov
 ms.assetid: 615a5ad8-3de5-39c6-b9be-7ab4b3fd9633
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Eventlogprov
+# Event Log Provider
 
 
 
-Overview of the Eventlogprov technology.
+Overview of the Event Log Provider technology.
 
-The Eventlogprov technology is not associated with any headers.
+The Event Log Provider technology is not associated with any headers.
 
-
+For the programming guide, see [Event Log Provider](/previous-versions/windows/desktop/eventlogprov).

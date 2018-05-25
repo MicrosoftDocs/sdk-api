@@ -1,20 +1,20 @@
 ---
 UID: TP:inputdev
 ms.assetid: 70e74cba-8c16-3058-9f60-28cc19fa9410
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Inputdev
+# Keyboard and Mouse Input
 
 
 
-Overview of the Inputdev technology.
+Overview of the Keyboard and Mouse Input technology.
 
-The Inputdev technology is not associated with any headers.
+The Keyboard and Mouse Input technology is not associated with any headers.
 
-
+For the programming guide, see [Keyboard and Mouse Input](/windows/desktop/inputdev).

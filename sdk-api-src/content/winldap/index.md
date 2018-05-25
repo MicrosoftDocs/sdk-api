@@ -1,11 +1,11 @@
 ---
 UID: NA:winldap
 ms.assetid: 12d3afbf-4b23-3b4f-a06d-76bbe045a2c9
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: ldap

@@ -1,11 +1,11 @@
 ---
 UID: NA:mpconfig
 ms.assetid: e3804186-1709-34fa-bf68-111ffe7ed080
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: virtual
 ---

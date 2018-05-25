@@ -1,11 +1,11 @@
 ---
 UID: NA:oledlg
 ms.assetid: 81c9c2f7-b96d-35c7-8dff-6f9d55ca81e4
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: com

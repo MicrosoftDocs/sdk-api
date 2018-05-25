@@ -1,11 +1,11 @@
 ---
 UID: NA:magnification
 ms.assetid: cb8295d2-6c8b-3365-8953-0b38039c6e5c
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: magapi

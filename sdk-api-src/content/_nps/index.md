@@ -1,11 +1,11 @@
 ---
 UID: TP:nps
 ms.assetid: 0c90371a-4fbc-3820-9927-410a17fbda43
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -19,4 +19,4 @@ To develop Network Policy Server, you need these headers:
 
  * [authif.h](..\authif\index.md)
 
-For the programming guide, see [Network Policy Server](https://review.docs.microsoft.com/en-us/win32-test/nps).
+For the programming guide, see [Network Policy Server](/windows/desktop/nps).

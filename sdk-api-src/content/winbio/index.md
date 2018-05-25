@@ -1,11 +1,11 @@
 ---
 UID: NA:winbio
 ms.assetid: 36258ca5-57ed-3679-9908-462f12da8128
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: secbiomet
 ---

@@ -1,20 +1,20 @@
 ---
 UID: TP:winstation
 ms.assetid: 3a5e52d7-77fd-394a-945f-244406c46175
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Winstation
+# Window Stations and Desktops
 
 
 
-Overview of the Winstation technology.
+Overview of the Window Stations and Desktops technology.
 
-The Winstation technology is not associated with any headers.
+The Window Stations and Desktops technology is not associated with any headers.
 
-
+For the programming guide, see [Window Stations and Desktops](/windows/desktop/winstation).

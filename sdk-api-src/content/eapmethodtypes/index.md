@@ -1,11 +1,11 @@
 ---
 UID: NA:eapmethodtypes
 ms.assetid: cf48ad63-8d42-37fe-89f1-5e7eb25b877a
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: eaphost

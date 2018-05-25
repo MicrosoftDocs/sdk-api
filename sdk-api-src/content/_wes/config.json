@@ -4,5 +4,5 @@
     "winerror.h",
     "winevt.h"
   ],
-  "displayName": "wes"
+  "displayName": "Windows Event Log"
 }

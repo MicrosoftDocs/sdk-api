@@ -1,11 +1,11 @@
 ---
 UID: TP:shell
 ms.assetid: 2827809d-7ca5-313d-944e-507165c995d8
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -45,7 +45,7 @@ To develop The Windows Shell, you need these headers:
  * [tlogstg.h](..\tlogstg\index.md)
  * [userenv.h](..\userenv\index.md)
 
-For the programming guide, see [The Windows Shell](https://review.docs.microsoft.com/en-us/win32-test/shell).
+For the programming guide, see [The Windows Shell](/windows/desktop/shell).
 
 ## Functions
 
@@ -395,6 +395,7 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [SHGlobalCounterDecrement function](..\shlwapi\nf-shlwapi-shglobalcounterdecrement.md) | Decrements a global counter. |
 | [SHGlobalCounterGetValue function](..\shlwapi\nf-shlwapi-shglobalcountergetvalue.md) | Gets the current value of a global counter. |
 | [SHGlobalCounterIncrement function](..\shlwapi\nf-shlwapi-shglobalcounterincrement.md) | Increments a global counter. |
+| [SHIsLowMemoryMachine function](..\shlwapi\nf-shlwapi-shislowmemorymachine.md) | Not supported. |
 | [SHLoadIndirectString function](..\shlwapi\nf-shlwapi-shloadindirectstring.md) | Extracts a specified text resource when given that resource in the form of an indirect string (a string that begins with the '@' symbol). |
 | [SHLocalStrDupA function](..\shlwapi\nf-shlwapi-shlocalstrdupa.md) | Makes a copy of a string in newly allocated memory. |
 | [SHLocalStrDupW function](..\shlwapi\nf-shlwapi-shlocalstrdupw.md) | Makes a copy of a string in newly allocated memory. |
@@ -442,6 +443,7 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [SHRegSetPathW function](..\shlwapi\nf-shlwapi-shregsetpathw.md) | Takes a file path, replaces folder names with environment strings, and places the resulting string in the registry. |
 | [SHRegSetUSValueA function](..\shlwapi\nf-shlwapi-shregsetusvaluea.md) | Sets a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). |
 | [SHRegSetUSValueW function](..\shlwapi\nf-shlwapi-shregsetusvaluew.md) | Sets a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). |
+| [SHRegSetValue function](..\shlwapi\nf-shlwapi-shregsetvalue.md) | Not supported. |
 | [SHRegWriteUSValueA function](..\shlwapi\nf-shlwapi-shregwriteusvaluea.md) | Writes a value to a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). |
 | [SHRegWriteUSValueW function](..\shlwapi\nf-shlwapi-shregwriteusvaluew.md) | Writes a value to a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE). |
 | [SHReleaseThreadRef function](..\shlwapi\nf-shlwapi-shreleasethreadref.md) | Releases a thread reference before the thread procedure returns. |
@@ -709,6 +711,8 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [SToolbarItem structure](..\shdeprecated\ns-shdeprecated-stoolbaritem.md) | Deprecated. Data used in IBrowserService2 |
 | [SYNCMGR_CONFLICT_ID_INFO structure](..\syncmgr\ns-syncmgr-syncmgr_conflict_id_info.md) | Describes conflict ID information structure. |
 | [WTS_THUMBNAILID structure](..\thumbcache\ns-thumbcache-wts_thumbnailid.md) | Contains a unique identifier for a thumbnail in the system thumbnail cache. |
+| [_APPCATEGORYINFO structure](..\appmgmt\ns-appmgmt-_appcategoryinfo.md) | Provides application category information to Add/Remove Programs in Control Panel. The APPCATEGORYINFOLIST structure is used create a complete list of categories for an application publisher. |
+| [_APPCATEGORYINFOLIST structure](..\appmgmt\ns-appmgmt-_appcategoryinfolist.md) | Provides a list of supported application categories from an application publisher to Add/Remove Programs in Control Panel. |
 | [_AppInfoData structure](..\shappmgr\ns-shappmgr-_appinfodata.md) | Provides information about a published application to the Add/Remove Programs Control Panel utility. |
 | [_COMDLG_FILTERSPEC structure](..\shtypes\ns-shtypes-_comdlg_filterspec.md) | Used generically to filter elements. |
 | [_CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION structure](..\credentialprovider\ns-credentialprovider-_credential_provider_credential_serialization.md) | Contains details about a credential. |
@@ -868,6 +872,7 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [ISyncMgrSynchronizeInvoke interface](..\mobsync\nn-mobsync-isyncmgrsynchronizeinvoke.md) | Exposes methods that enable a registered application to invoke the synchronization manager to update items. |
 | [ISyncMgrUIOperation interface](..\syncmgr\nn-syncmgr-isyncmgruioperation.md) | Exposes a method through which a sync handler or sync item can display a UI object when requested to do so by Sync Center. |
 | [IThumbnailCache interface](..\thumbcache\nn-thumbcache-ithumbnailcache.md) | Exposes methods for a system thumbnail cache that is shared across applications. |
+| [IThumbnailCachePrimer interface](..\thumbcache\nn-thumbcache-ithumbnailcacheprimer.md) | "." |
 | [IThumbnailProvider interface](..\thumbcache\nn-thumbcache-ithumbnailprovider.md) | Exposes a method for getting a thumbnail image and is intended to be implemented for thumbnail handlers. The object that implements this interface must also implement IInitializeWithStream. |
 | [IThumbnailSettings interface](..\thumbcache\nn-thumbcache-ithumbnailsettings.md) | Provides a method that enables a thumbnail provider to determine the user context of a thumbnail request. |
 | [IThumbnailStreamCache interface](..\thumbnailstreamcache\nn-thumbnailstreamcache-ithumbnailstreamcache.md) | Gets or sets the thumbnail stream. This interface is for internal use only and can only be called by the photos application. |
@@ -1088,6 +1093,8 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [IExpDispSupport::OnInvoke](..\shdeprecated\nf-shdeprecated-iexpdispsupport-oninvoke.md) | Deprecated. Gets ambient properties. |
 | [IExpDispSupport::OnTranslateAccelerator](..\shdeprecated\nf-shdeprecated-iexpdispsupport-ontranslateaccelerator.md) | Deprecated. Instructs the control site to process the keystroke described in pMsg and modified by the flags in grfModifiers. |
 | [IExpDispSupportXP::FindCIE4ConnectionPoint](..\shdeprecated\nf-shdeprecated-iexpdispsupportxp-findcie4connectionpoint.md) | Deprecated. Gets a connection point for browser events. |
+| [IExpDispSupportXP::OnInvoke](..\shdeprecated\nf-shdeprecated-iexpdispsupportxp-oninvoke.md) | Not implemented. |
+| [IExpDispSupportXP::OnTranslateAccelerator](..\shdeprecated\nf-shdeprecated-iexpdispsupportxp-ontranslateaccelerator.md) | Not implemented. |
 | [IInputPanelConfiguration::EnableFocusTracking](..\inputpanelconfiguration\nf-inputpanelconfiguration-iinputpanelconfiguration-enablefocustracking.md) | Enables a client process to opt-in to the focus tracking mechanism for Windows Store apps that controls the invoking and dismissing semantics of the touch keyboard. |
 | [IInputPanelInvocationConfiguration::RequireTouchInEditControl](..\inputpanelconfiguration\nf-inputpanelconfiguration-iinputpanelinvocationconfiguration-requiretouchineditcontrol.md) | Requires an explicit user tap in an edit field before the touch keyboard invokes. |
 | [IObjectArray::GetAt](..\objectarray\nf-objectarray-iobjectarray-getat.md) | Provides a pointer to a specified object's interface. The object and interface are specified by index and interface ID. |
@@ -1285,6 +1292,7 @@ For the programming guide, see [The Windows Shell](https://review.docs.microsoft
 | [ISyncMgrUIOperation::Run](..\syncmgr\nf-syncmgr-isyncmgruioperation-run.md) | Performs the actual display of UI for a handler or sync item when requested to do so by Sync Center. |
 | [IThumbnailCache::GetThumbnailByID](..\thumbcache\nf-thumbcache-ithumbnailcache-getthumbnailbyid.md) | Gets a thumbnail from the thumbnail cache, given its ID. |
 | [IThumbnailCache::GetThumbnail](..\thumbcache\nf-thumbcache-ithumbnailcache-getthumbnail.md) | Gets a cached thumbnail for a given Shell item. |
+| [IThumbnailCachePrimer::PageInThumbnail](..\thumbcache\nf-thumbcache-ithumbnailcacheprimer-pageinthumbnail.md) | "." |
 | [IThumbnailProvider::GetThumbnail](..\thumbcache\nf-thumbcache-ithumbnailprovider-getthumbnail.md) | Gets a thumbnail image and alpha type. |
 | [IThumbnailSettings::SetContext](..\thumbcache\nf-thumbcache-ithumbnailsettings-setcontext.md) | Enables a thumbnail provider to return a thumbnail specific to the user's context. |
 | [IThumbnailStreamCache::GetThumbnailStream](..\thumbnailstreamcache\nf-thumbnailstreamcache-ithumbnailstreamcache-getthumbnailstream.md) | Gets the thumbnail stream. This method is for internal use only and can only be called by the photos application. |

@@ -1,11 +1,11 @@
 ---
 UID: NA:winsvc
 ms.assetid: 35219cee-6a67-3e81-a352-eb2bb72ea7bd
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: base
 ---

@@ -1,11 +1,11 @@
 ---
 UID: NA:imapi2
 ms.assetid: 42aa506c-a1cb-335a-8128-9e13f3895e8e
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: imapi
 ---

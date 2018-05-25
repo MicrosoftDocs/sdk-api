@@ -1,11 +1,11 @@
 ---
 UID: NA:d3d10
 ms.assetid: 0e839bab-bc29-3652-bfbd-9c066b00ce86
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: direct3d10
 ---

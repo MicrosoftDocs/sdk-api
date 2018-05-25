@@ -1,11 +1,11 @@
 ---
 UID: TP:devinst
 ms.assetid: a4a2af86-b619-3628-9589-89ded9b021bd
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -22,7 +22,7 @@ To develop Device and Driver Installation Reference, you need these headers:
  * [difxapi.h](..\difxapi\index.md)
  * [newdev.h](..\newdev\index.md)
 
-For the programming guide, see [Device and Driver Installation Reference](https://review.docs.microsoft.com/en-us/win32-test/devinst).
+For the programming guide, see [Device and Driver Installation Reference](/windows/desktop/devinst).
 
 ## Functions
 

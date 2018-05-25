@@ -1,11 +1,11 @@
 ---
 UID: TP:netvista
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -21,7 +21,7 @@ To develop Network Drivers, Windows Vista and Later, you need these headers:
  * [l2cmn.h](..\l2cmn\index.md)
  * [ndkinfo.h](..\ndkinfo\index.md)
 
-For the programming guide, see [Network Drivers, Windows Vista and Later](https://review.docs.microsoft.com/en-us/win32-test/netvista).
+For the programming guide, see [Network Drivers, Windows Vista and Later](/windows/desktop/netvista).
 
 ## Structures
 

@@ -1,11 +1,11 @@
 ---
 UID: NA:amxmlgraphbuilder
 ms.assetid: 30bea521-a5e7-351c-b7a0-c1ddc3a3584a
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dshow
 ---

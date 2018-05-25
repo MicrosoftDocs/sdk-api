@@ -1,21 +1,21 @@
 ---
 UID: TP:iscsitarg
 ms.assetid: 55221415-bb39-3fdd-9d5e-3be143be538d
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Iscsitarg
+# iSCSI Target Server Provider
 
 
 
-Overview of the Iscsitarg technology.
+Overview of the iSCSI Target Server Provider technology.
 
-The Iscsitarg technology is not associated with any headers.
+The iSCSI Target Server Provider technology is not associated with any headers.
 
-
+For the programming guide, see [iSCSI Target Server Provider](/previous-versions/windows/desktop/iscsitarg).

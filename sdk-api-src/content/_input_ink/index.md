@@ -1,11 +1,11 @@
 ---
 UID: TP:input_ink
 ms.assetid: a4bd3a81-06e5-3941-8e8e-5d06539095d4
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -21,7 +21,7 @@ To develop Ink input, you need these headers:
  * [inkpresenterdesktop.h](..\inkpresenterdesktop\index.md)
  * [inkrenderer.h](..\inkrenderer\index.md)
 
-For the programming guide, see [Ink input](https://review.docs.microsoft.com/en-us/win32-test/input_ink).
+For the programming guide, see [Ink input](/previous-versions/windows/desktop/input_ink).
 
 ## Interfaces
 

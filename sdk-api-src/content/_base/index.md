@@ -1,21 +1,21 @@
 ---
 UID: TP:base
 ms.assetid: e0daa3a7-613f-39bd-87ba-ff1ef0bec914
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Error Handling
+# System Services
 
 
 
-Overview of the Error Handling technology.
+Overview of the System Services technology.
 
-To develop Error Handling, you need these headers:
+To develop System Services, you need these headers:
 
  * [atlthunk.h](..\atlthunk\index.md)
  * [avrt.h](..\avrt\index.md)
@@ -69,4 +69,4 @@ To develop Error Handling, you need these headers:
  * [winternl.h](..\winternl\index.md)
  * [wow64apiset.h](..\wow64apiset\index.md)
 
-For the programming guide, see [Error Handling](https://review.docs.microsoft.com/en-us/win32-test/base).
+For the programming guide, see [System Services](/windows/desktop/base).

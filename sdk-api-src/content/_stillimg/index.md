@@ -1,23 +1,23 @@
 ---
 UID: TP:stillimg
 ms.assetid: 23d8f852-8b2d-3283-8690-f9d1e0f7ef36
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Stillimg
+# Still Image
 
 
 
-Overview of the Stillimg technology.
+Overview of the Still Image technology.
 
-To develop Stillimg, you need these headers:
+To develop Still Image, you need these headers:
 
  * [sti.h](..\sti\index.md)
 
-
+For the programming guide, see [Still Image](/previous-versions/windows/desktop/stillimg).

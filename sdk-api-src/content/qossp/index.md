@@ -1,11 +1,11 @@
 ---
 UID: NA:qossp
 ms.assetid: 62b056ad-d1d1-3838-b97f-b948906c1f24
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: qos

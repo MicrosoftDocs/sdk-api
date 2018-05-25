@@ -1,11 +1,11 @@
 ---
 UID: TP:psapi
 ms.assetid: 957b2319-c806-3914-844e-95dc41196ab4
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -19,7 +19,7 @@ To develop Process Status API (PSAPI), you need these headers:
 
  * [psapi.h](..\psapi\index.md)
 
-For the programming guide, see [Process Status API (PSAPI)](https://review.docs.microsoft.com/en-us/win32-test/psapi).
+For the programming guide, see [Process Status API (PSAPI)](/windows/desktop/psapi).
 
 ## Functions
 

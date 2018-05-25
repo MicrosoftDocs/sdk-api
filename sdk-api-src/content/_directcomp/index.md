@@ -1,11 +1,11 @@
 ---
 UID: TP:directcomp
 ms.assetid: efb19c94-b4cc-3005-83ee-8d631642e8f9
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -21,7 +21,7 @@ To develop DirectComposition, you need these headers:
  * [dcompanimation.h](..\dcompanimation\index.md)
  * [dcomptypes.h](..\dcomptypes\index.md)
 
-For the programming guide, see [DirectComposition](https://review.docs.microsoft.com/en-us/win32-test/directcomp).
+For the programming guide, see [DirectComposition](/windows/desktop/directcomp).
 
 ## Functions
 

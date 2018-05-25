@@ -1,11 +1,11 @@
 ---
 UID: NA:icwcfg
 ms.assetid: efd8c4e4-ca55-3332-9920-a0251e0fe918
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winprog
 ---

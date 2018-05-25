@@ -1,11 +1,11 @@
 ---
 UID: NA:vsadmin
 ms.assetid: 06dcee59-b6e3-3bcc-936b-905c2a845f5f
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: base
 ---

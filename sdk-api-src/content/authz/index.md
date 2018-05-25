@@ -1,11 +1,11 @@
 ---
 UID: NA:authz
 ms.assetid: 09b42913-d051-3d7b-818e-5593f803d25c
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: security
 ---

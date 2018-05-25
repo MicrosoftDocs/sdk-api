@@ -1,11 +1,11 @@
 ---
 UID: NA:unknwnbase
 ms.assetid: 8595819e-4d91-3c34-a4ba-e9785aeea6fb
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: rpc
 ---

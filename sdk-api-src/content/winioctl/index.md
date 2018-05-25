@@ -1,11 +1,11 @@
 ---
 UID: NA:winioctl
 ms.assetid: b57381b4-a30b-3480-bb22-800166343283
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: fs
 ---

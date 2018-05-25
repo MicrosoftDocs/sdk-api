@@ -35,8 +35,8 @@
     "mfobjects.idl",
     "evr9.h",
     "mfmediacapture.h",
-    "mfidl.idl",
-    "mfspatialaudio.h"
+    "mfspatialaudio.h",
+    "mfidl.idl"
   ],
   "displayName": "Microsoft Media Foundation"
 }

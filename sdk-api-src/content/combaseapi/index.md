@@ -1,11 +1,11 @@
 ---
 UID: NA:combaseapi
 ms.assetid: e62ae5e8-bef8-3cc9-8ea3-abd486b1c7cb
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winrt
 ---

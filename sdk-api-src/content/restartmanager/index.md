@@ -1,11 +1,11 @@
 ---
 UID: NA:restartmanager
 ms.assetid: 21f1e14b-0313-3382-ac2f-72157ee70414
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: rstmgr
 ---

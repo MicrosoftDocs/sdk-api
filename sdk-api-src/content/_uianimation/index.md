@@ -1,11 +1,11 @@
 ---
 UID: TP:uianimation
 ms.assetid: 7f1f0a86-c201-3b53-888d-1528979b5d00
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -19,4 +19,4 @@ To develop Windows Animation Manager, you need these headers:
 
  * [uianimation.h](..\uianimation\index.md)
 
-For the programming guide, see [Windows Animation Manager](https://review.docs.microsoft.com/en-us/win32-test/uianimation).
+For the programming guide, see [Windows Animation Manager](/windows/desktop/uianimation).

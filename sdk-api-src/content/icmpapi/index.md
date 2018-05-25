@@ -1,11 +1,11 @@
 ---
 UID: NA:icmpapi
 ms.assetid: 5b83b7d2-6c5a-3c65-852e-c8c1e9c9c0a4
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: iphlp
 ---

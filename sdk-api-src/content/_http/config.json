@@ -6,5 +6,5 @@
     "httpp.h",
     "winhttp.h"
   ],
-  "displayName": "HTTP Server API"
+  "displayName": "Windows HTTP Services (WinHTTP)"
 }

@@ -3,5 +3,6 @@
   "headers": [
     "mfidl.h",
     "mfapi.h"
-  ]
+  ],
+  "displayName": "Streaming media DDI reference"
 }

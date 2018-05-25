@@ -1,11 +1,11 @@
 ---
 UID: NA:dxmini
 ms.assetid: 8e4ca689-3335-3709-8aaf-e8fe7148a45b
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: display
 ---

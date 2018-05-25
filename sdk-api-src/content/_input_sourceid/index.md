@@ -1,21 +1,21 @@
 ---
 UID: TP:input_sourceid
 ms.assetid: 1254a1e0-d95f-3593-a02f-0fce41164894
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Input_Sourceid
+# Input Source Identification
 
 
 
-Overview of the Input_Sourceid technology.
+Overview of the Input Source Identification technology.
 
-The Input_Sourceid technology is not associated with any headers.
+The Input Source Identification technology is not associated with any headers.
 
-
+For the programming guide, see [Input Source Identification](/previous-versions/windows/desktop/input_sourceid).

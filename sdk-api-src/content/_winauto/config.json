@@ -9,5 +9,5 @@
     "uiautomationcoreapi.h",
     "uiautomationclient.h"
   ],
-  "displayName": "Windows Automation API"
+  "displayName": "Windows Accessibility Features"
 }

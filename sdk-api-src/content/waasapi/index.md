@@ -1,11 +1,11 @@
 ---
 UID: NA:waasapi
 ms.assetid: cf8095f2-ec7d-3436-931f-4999d897e04f
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: base
 ---

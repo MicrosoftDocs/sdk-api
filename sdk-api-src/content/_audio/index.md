@@ -1,11 +1,11 @@
 ---
 UID: TP:audio
 ms.assetid: 91b97f1d-92f1-3c32-955a-dd6524d5b764
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -22,7 +22,7 @@ To develop Audio Devices DDI Reference, you need these headers:
  * [dmusics.h](..\dmusics\index.md)
  * [msapofxproxy.h](..\msapofxproxy\index.md)
 
-For the programming guide, see [Audio Devices DDI Reference](https://review.docs.microsoft.com/en-us/win32-test/audio).
+For the programming guide, see [Audio Devices DDI Reference](/windows/desktop/audio).
 
 ## Functions
 

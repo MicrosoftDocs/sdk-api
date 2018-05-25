@@ -1,11 +1,11 @@
 ---
 UID: TP:ixhr2
 ms.assetid: 1bcd6a5a-1ca6-357d-9684-cbdeef45fb68
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,7 +20,7 @@ To develop XML HTTP Extended Request, you need these headers:
 
  * [msxml6.h](..\msxml6\index.md)
 
-For the programming guide, see [XML HTTP Extended Request](https://review.docs.microsoft.com/en-us/win32-test/ixhr2).
+For the programming guide, see [XML HTTP Extended Request](/previous-versions/windows/desktop/ixhr2).
 
 ## Structures
 

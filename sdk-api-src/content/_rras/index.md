@@ -1,11 +1,11 @@
 ---
 UID: TP:rras
 ms.assetid: 81dd190f-fadb-3fe6-8776-f89b1ee3e540
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -27,4 +27,4 @@ To develop Routing and Remote Access Service, you need these headers:
  * [rtmv2.h](..\rtmv2\index.md)
  * [stm.h](..\stm\index.md)
 
-For the programming guide, see [Routing and Remote Access Service](https://review.docs.microsoft.com/en-us/win32-test/rras).
+For the programming guide, see [Routing and Remote Access Service](/windows/desktop/rras).

@@ -1,11 +1,11 @@
 ---
 UID: TP:enstor
 ms.assetid: 233ef84c-dce9-3d93-bcda-5f4649228169
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -21,7 +21,7 @@ To develop Enhanced Storage, you need these headers:
  * [ehstorapi.h](..\ehstorapi\index.md)
  * [ehstorextensions.h](..\ehstorextensions\index.md)
 
-For the programming guide, see [Enhanced Storage](https://review.docs.microsoft.com/en-us/win32-test/enstor).
+For the programming guide, see [Enhanced Storage](/previous-versions/windows/desktop/enstor).
 
 ## Structures
 

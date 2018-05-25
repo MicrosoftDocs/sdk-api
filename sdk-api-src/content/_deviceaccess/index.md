@@ -1,11 +1,11 @@
 ---
 UID: TP:deviceaccess
 ms.assetid: c4afd78e-1e89-3dda-9c6f-6a2002ebabca
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,7 +20,7 @@ To develop Device Access API, you need these headers:
 
  * [deviceaccess.h](..\deviceaccess\index.md)
 
-For the programming guide, see [Device Access API](https://review.docs.microsoft.com/en-us/win32-test/deviceaccess).
+For the programming guide, see [Device Access API](/previous-versions/windows/desktop/deviceaccess).
 
 ## Functions
 

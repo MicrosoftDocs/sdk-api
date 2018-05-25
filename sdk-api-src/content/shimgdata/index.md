@@ -1,11 +1,11 @@
 ---
 UID: NA:shimgdata
 ms.assetid: 7b77db2a-4604-307f-bc83-37695e86a40b
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: shell
 ---

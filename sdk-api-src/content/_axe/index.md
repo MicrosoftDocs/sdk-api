@@ -1,21 +1,21 @@
 ---
 UID: TP:axe
 ms.assetid: 0ebaa899-6918-3bd4-b858-1afff58ee6a4
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Axe
+# Unmanaged C++ Version of the AXE API
 
 
 
-Overview of the Axe technology.
+Overview of the Unmanaged C++ Version of the AXE API technology.
 
-The Axe technology is not associated with any headers.
+The Unmanaged C++ Version of the AXE API technology is not associated with any headers.
 
-
+For the programming guide, see [Unmanaged C++ Version of the AXE API](/previous-versions/windows/desktop/axe).

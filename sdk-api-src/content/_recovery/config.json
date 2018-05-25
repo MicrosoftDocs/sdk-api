@@ -2,5 +2,6 @@
   "tech": "recovery",
   "headers": [
     "winbase.h"
-  ]
+  ],
+  "displayName": "Application Recovery and Restart"
 }

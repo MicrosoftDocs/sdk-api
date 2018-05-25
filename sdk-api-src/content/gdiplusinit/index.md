@@ -1,11 +1,11 @@
 ---
 UID: NA:gdiplusinit
 ms.assetid: e8dd5160-6e8e-3d18-b63a-901714998da4
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: gdiplus
 ---

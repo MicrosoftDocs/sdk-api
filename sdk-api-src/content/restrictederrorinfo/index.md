@@ -1,11 +1,11 @@
 ---
 UID: NA:restrictederrorinfo
 ms.assetid: 3d529451-f4fd-33ef-be06-d7eae4b247e3
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winrt
 ---

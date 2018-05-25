@@ -1,11 +1,11 @@
 ---
 UID: NA:gdiplusimagecodec
 ms.assetid: 2c993eda-61ad-3703-968b-521048f0cea3
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: gdiplus
 ---

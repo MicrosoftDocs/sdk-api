@@ -1,21 +1,21 @@
 ---
 UID: TP:delivery_optimization
 ms.assetid: b7d48541-7824-3223-b8f5-5b2639663019
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Delivery_Optimization
+# Delivery Optimization (DO)
 
 
 
-Overview of the Delivery_Optimization technology.
+Overview of the Delivery Optimization (DO) technology.
 
-The Delivery_Optimization technology is not associated with any headers.
+The Delivery Optimization (DO) technology is not associated with any headers.
 
-
+For the programming guide, see [Delivery Optimization (DO)](/previous-versions/windows/desktop/delivery_optimization).

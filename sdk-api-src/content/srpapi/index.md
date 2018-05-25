@@ -1,11 +1,11 @@
 ---
 UID: NA:srpapi
 ms.assetid: 78d28b7d-fb79-35b7-bede-7732f71f1b0a
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: edp

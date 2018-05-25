@@ -1,11 +1,11 @@
 ---
 UID: TP:gdi
 ms.assetid: b0acbb78-a6c0-3233-bb9d-d551a85f207d
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -27,7 +27,7 @@ To develop Windows GDI, you need these headers:
  * [windef.h](..\windef\index.md)
  * [winspool.h](..\winspool\index.md)
 
-For the programming guide, see [Windows GDI](https://review.docs.microsoft.com/en-us/win32-test/gdi).
+For the programming guide, see [Windows GDI](/windows/desktop/gdi).
 
 ## Functions
 

@@ -1,11 +1,11 @@
 ---
 UID: TP:direct3d10
 ms.assetid: a9b90496-403a-3103-9c22-78cf6593fb96
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -26,7 +26,7 @@ To develop Direct3D 10 Graphics, you need these headers:
  * [d3d10shader.h](..\d3d10shader\index.md)
  * [d3dcommon.h](..\d3dcommon\index.md)
 
-For the programming guide, see [Direct3D 10 Graphics](https://review.docs.microsoft.com/en-us/win32-test/direct3d10).
+For the programming guide, see [Direct3D 10 Graphics](/windows/desktop/direct3d10).
 
 ## Functions
 
@@ -367,6 +367,7 @@ For the programming guide, see [Direct3D 10 Graphics](https://review.docs.micros
 | [ID3D10Device::SOSetTargets](..\d3d10\nf-d3d10-id3d10device-sosettargets.md) | Set the target output buffers for the StreamOutput stage, which enables/disables the pipeline to stream-out data. |
 | [ID3D10Device::SetExceptionMode](..\d3d10\nf-d3d10-id3d10device-setexceptionmode.md) | Get the exception-mode flags. |
 | [ID3D10Device::SetPredication](..\d3d10\nf-d3d10-id3d10device-setpredication.md) | Set a rendering predicate. |
+| [ID3D10Device::SetPrivateDataInterface](..\d3d10\nf-d3d10-id3d10device-setprivatedatainterface.md) | Associate an IUnknown-derived interface with this device and associate that interface with an application-defined guid. |
 | [ID3D10Device::SetPrivateData](..\d3d10\nf-d3d10-id3d10device-setprivatedata.md) | Set data to a device and associate that data with a guid. |
 | [ID3D10Device::SetTextFilterSize](..\d3d10\nf-d3d10-id3d10device-settextfiltersize.md) | This method is not implemented. |
 | [ID3D10Device::UpdateSubresource](..\d3d10\nf-d3d10-id3d10device-updatesubresource.md) | The CPU copies data from memory to a subresource created in non-mappable memory. See remarks. |

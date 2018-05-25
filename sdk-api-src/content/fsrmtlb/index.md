@@ -1,11 +1,11 @@
 ---
 UID: NA:fsrmtlb
 ms.assetid: 4b3ff5ba-a5ef-3f67-ba0e-3e240898aa96
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: fsrm

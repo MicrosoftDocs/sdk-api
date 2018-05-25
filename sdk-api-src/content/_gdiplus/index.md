@@ -1,11 +1,11 @@
 ---
 UID: TP:gdiplus
 ms.assetid: 7cb49be5-6f39-391f-a093-c2e9fa92c4fc
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -38,7 +38,7 @@ To develop GDI+, you need these headers:
  * [gdiplusstringformat.h](..\gdiplusstringformat\index.md)
  * [gdiplustypes.h](..\gdiplustypes\index.md)
 
-For the programming guide, see [GDI+](https://review.docs.microsoft.com/en-us/win32-test/gdiplus).
+For the programming guide, see [GDI+](/windows/desktop/gdiplus).
 
 ## Functions
 

@@ -1,11 +1,11 @@
 ---
 UID: NA:structuredquery
 ms.assetid: 1e8d25dd-fd2d-3c20-8fc7-cac06317a8ed
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: search
 ---

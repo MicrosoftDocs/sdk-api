@@ -1,11 +1,11 @@
 ---
 UID: NA:wmpservices
 ms.assetid: 941d3782-a212-301e-ae15-ab2ff18b55bd
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: wmp
 ---

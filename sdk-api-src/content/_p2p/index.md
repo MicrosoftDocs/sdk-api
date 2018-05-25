@@ -1,11 +1,11 @@
 ---
 UID: TP:p2p
 ms.assetid: 0c843192-94e8-3052-850f-b269421b4dff
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -23,4 +23,4 @@ To develop Peer-to-Peer, you need these headers:
  * [pnrpdef.h](..\pnrpdef\index.md)
  * [pnrpns.h](..\pnrpns\index.md)
 
-For the programming guide, see [Peer-to-Peer](https://review.docs.microsoft.com/en-us/win32-test/p2p).
+For the programming guide, see [Peer-to-Peer](/windows/desktop/p2p).

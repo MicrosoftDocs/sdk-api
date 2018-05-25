@@ -1,21 +1,21 @@
 ---
 UID: TP:input_pointerdevice
 ms.assetid: b1501221-2016-32f4-83e5-425cb31daa9a
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Input_Pointerdevice
+# Pointer Device Input Stack
 
 
 
-Overview of the Input_Pointerdevice technology.
+Overview of the Pointer Device Input Stack technology.
 
-The Input_Pointerdevice technology is not associated with any headers.
+The Pointer Device Input Stack technology is not associated with any headers.
 
-
+For the programming guide, see [Pointer Device Input Stack](/previous-versions/windows/desktop/input_pointerdevice).

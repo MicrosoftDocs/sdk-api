@@ -1,11 +1,11 @@
 ---
 UID: NA:proofofpossessioncookieinfo
 ms.assetid: 9bf43ccb-9843-3be5-ba59-3dea2bfe00cf
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: wininet
 ---

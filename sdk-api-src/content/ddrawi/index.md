@@ -1,11 +1,11 @@
 ---
 UID: NA:ddrawi
 ms.assetid: f040eb02-1240-3eaa-91c4-dcf01ea48c2d
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: display
 ---

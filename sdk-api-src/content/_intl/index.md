@@ -1,11 +1,11 @@
 ---
 UID: TP:intl
 ms.assetid: c8883f60-a6cc-3905-a03c-cf6c9d78580c
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -31,4 +31,4 @@ To develop Internationalization for Windows Applications, you need these headers
  * [usp10.h](..\usp10\index.md)
  * [winnls.h](..\winnls\index.md)
 
-For the programming guide, see [Internationalization for Windows Applications](https://review.docs.microsoft.com/en-us/win32-test/intl).
+For the programming guide, see [Internationalization for Windows Applications](/windows/desktop/intl).

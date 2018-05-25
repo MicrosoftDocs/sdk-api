@@ -1,11 +1,11 @@
 ---
 UID: TP:appxpkg
 ms.assetid: 293875dc-2153-3c83-b216-e0140d6681e4
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -20,7 +20,7 @@ To develop Packaging, deployment, and query of Windows Store apps, you need thes
  * [appmodel.h](..\appmodel\index.md)
  * [appxpackaging.h](..\appxpackaging\index.md)
 
-For the programming guide, see [Packaging, deployment, and query of Windows Store apps](https://review.docs.microsoft.com/en-us/win32-test/appxpkg).
+For the programming guide, see [Packaging, deployment, and query of Windows Store apps](/windows/desktop/appxpkg).
 
 ## Functions
 

@@ -1,11 +1,11 @@
 ---
 UID: NA:netioapi
 ms.assetid: f65aa596-03b5-3fe2-b778-37604a4294d3
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mib
 ---

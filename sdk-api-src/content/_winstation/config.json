@@ -3,5 +3,6 @@
   "headers": [
     "winbase.h",
     "winuser.h"
-  ]
+  ],
+  "displayName": "Window Stations and Desktops"
 }

@@ -1,11 +1,11 @@
 ---
 UID: TP:xaml_diagnostics
 ms.assetid: 9fd3de2c-6dbc-307e-b52e-afb4af9c54d0
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,7 +20,7 @@ To develop XAML Diagnostics, you need these headers:
 
  * [xamlom.h](..\xamlom\index.md)
 
-For the programming guide, see [XAML Diagnostics](https://review.docs.microsoft.com/en-us/win32-test/xaml_diagnostics).
+For the programming guide, see [XAML Diagnostics](/previous-versions/windows/desktop/xaml_diagnostics).
 
 ## Functions
 

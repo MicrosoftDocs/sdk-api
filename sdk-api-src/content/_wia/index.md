@@ -1,11 +1,11 @@
 ---
 UID: TP:wia
 ms.assetid: 3aacaecd-d808-35d7-b283-04705ef2fdca
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -21,7 +21,7 @@ To develop WIA, you need these headers:
  * [wiadevd.h](..\wiadevd\index.md)
  * [wiavideo.h](..\wiavideo\index.md)
 
-For the programming guide, see [WIA](https://review.docs.microsoft.com/en-us/win32-test/wia).
+For the programming guide, see [WIA](/windows/desktop/wia).
 
 ## Functions
 

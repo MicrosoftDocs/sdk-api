@@ -1,20 +1,20 @@
 ---
 UID: TP:nfswmi
 ms.assetid: a304921d-9cf5-3787-a577-bfa8387ff6da
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Nfswmi
+# WMI Provider for NFS
 
 
 
-Overview of the Nfswmi technology.
+Overview of the WMI Provider for NFS technology.
 
-The Nfswmi technology is not associated with any headers.
+The WMI Provider for NFS technology is not associated with any headers.
 
-
+For the programming guide, see [WMI Provider for NFS](/windows/desktop/nfswmi).

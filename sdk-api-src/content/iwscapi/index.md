@@ -1,11 +1,11 @@
 ---
 UID: NA:iwscapi
 ms.assetid: 3784dac1-7efe-368e-8f34-a1c99cfae7ed
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winprog
 ---

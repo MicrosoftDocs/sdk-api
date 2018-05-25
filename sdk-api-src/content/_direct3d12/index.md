@@ -1,11 +1,11 @@
 ---
 UID: TP:direct3d12
 ms.assetid: 7a701202-f29f-3d16-a1f3-84c2485de6f5
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -22,7 +22,7 @@ To develop Direct3D 12 Graphics, you need these headers:
  * [d3d12sdklayers.h](..\d3d12sdklayers\index.md)
  * [d3d12shader.h](..\d3d12shader\index.md)
 
-For the programming guide, see [Direct3D 12 Graphics](https://review.docs.microsoft.com/en-us/win32-test/direct3d12).
+For the programming guide, see [Direct3D 12 Graphics](/windows/desktop/direct3d12).
 
 ## Functions
 

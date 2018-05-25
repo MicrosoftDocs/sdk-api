@@ -1,11 +1,11 @@
 ---
 UID: NA:securityappcontainer
 ms.assetid: 31527063-96fa-3a04-884d-1fbae6c1ed11
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: security
 ---

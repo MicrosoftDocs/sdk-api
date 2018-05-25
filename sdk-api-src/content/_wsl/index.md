@@ -1,11 +1,11 @@
 ---
 UID: TP:wsl
 ms.assetid: 6050dbda-ec04-3dd4-a492-e2713ff71245
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,7 +20,7 @@ To develop Windows Subsystem for Linux, you need these headers:
 
  * [wslapi.h](..\wslapi\index.md)
 
-For the programming guide, see [Windows Subsystem for Linux](https://review.docs.microsoft.com/en-us/win32-test/wsl).
+For the programming guide, see [Windows Subsystem for Linux](/previous-versions/windows/desktop/wsl).
 
 ## Functions
 

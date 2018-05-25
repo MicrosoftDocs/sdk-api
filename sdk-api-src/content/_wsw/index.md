@@ -1,11 +1,11 @@
 ---
 UID: TP:wsw
 ms.assetid: dc4e8f4e-add6-3a79-a002-c7682bed67b6
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -20,7 +20,7 @@ To develop Windows Web Services, you need these headers:
  * [icontentprefetchertasktrigger.h](..\icontentprefetchertasktrigger\index.md)
  * [webservices.h](..\webservices\index.md)
 
-For the programming guide, see [Windows Web Services](https://review.docs.microsoft.com/en-us/win32-test/wsw).
+For the programming guide, see [Windows Web Services](/windows/desktop/wsw).
 
 ## Functions
 

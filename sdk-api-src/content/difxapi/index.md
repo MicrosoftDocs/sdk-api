@@ -1,11 +1,11 @@
 ---
 UID: NA:difxapi
 ms.assetid: ba18e6a0-fb0f-3a80-af4b-01c825b043b8
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: devinst
 ---

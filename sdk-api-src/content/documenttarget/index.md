@@ -1,11 +1,11 @@
 ---
 UID: NA:documenttarget
 ms.assetid: 0b7bf40d-d4f4-3d23-a23f-b05a91ee4700
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: xps
 ---

@@ -1,6 +1,7 @@
 {
   "tech": "ad",
   "headers": [
+    "shlobj.h",
     "cmnquery.h",
     "dsclient.h",
     "objsel.h",

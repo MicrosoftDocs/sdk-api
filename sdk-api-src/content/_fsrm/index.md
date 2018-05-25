@@ -1,11 +1,11 @@
 ---
 UID: TP:fsrm
 ms.assetid: d2b646ef-23b5-3964-8e20-9a28350f9b5e
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -26,4 +26,4 @@ To develop File Server Resource Manager, you need these headers:
  * [fsrmscreen.h](..\fsrmscreen\index.md)
  * [fsrmtlb.h](..\fsrmtlb\index.md)
 
-For the programming guide, see [File Server Resource Manager](https://review.docs.microsoft.com/en-us/win32-test/fsrm).
+For the programming guide, see [File Server Resource Manager](/previous-versions/windows/desktop/fsrm).

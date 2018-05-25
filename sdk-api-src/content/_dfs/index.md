@@ -1,11 +1,11 @@
 ---
 UID: TP:dfs
 ms.assetid: 5f575021-a93c-3367-a24b-46405e8b4588
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,4 +20,4 @@ To develop Distributed File System, you need these headers:
 
  * [lmdfs.h](..\lmdfs\index.md)
 
-For the programming guide, see [Distributed File System](https://review.docs.microsoft.com/en-us/win32-test/dfs).
+For the programming guide, see [Distributed File System](/previous-versions/windows/desktop/dfs).

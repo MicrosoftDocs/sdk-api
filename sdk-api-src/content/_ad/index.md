@@ -1,11 +1,11 @@
 ---
 UID: TP:ad
 ms.assetid: 97ddb8b6-a879-31af-8608-1d0a010a7697
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -30,4 +30,4 @@ To develop Active Directory Domain Services, you need these headers:
  * [objsel.h](..\objsel\index.md)
  * [schedule.h](..\schedule\index.md)
 
-For the programming guide, see [Active Directory Domain Services](https://review.docs.microsoft.com/en-us/win32-test/ad).
+For the programming guide, see [Active Directory Domain Services](/windows/desktop/ad).

@@ -1,22 +1,22 @@
 ---
 UID: TP:vhd
 ms.assetid: 0d9a4add-3ac3-3ff9-b349-c6ddc48ae052
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Virtual Storage
+# Vhd
 
 
 
-Overview of the Virtual Storage technology.
+Overview of the Vhd technology.
 
-To develop Virtual Storage, you need these headers:
+To develop Vhd, you need these headers:
 
  * [virtdisk.h](..\virtdisk\index.md)
 
-For the programming guide, see [Virtual Storage](https://review.docs.microsoft.com/en-us/win32-test/vhd).
+

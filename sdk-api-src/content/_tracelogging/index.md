@@ -1,11 +1,11 @@
 ---
 UID: TP:tracelogging
 ms.assetid: 1bc44f9c-6d1d-3afa-9402-657cb5c8625e
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -20,7 +20,7 @@ To develop TraceLogging, you need these headers:
  * [traceloggingactivity.h](..\traceloggingactivity\index.md)
  * [traceloggingprovider.h](..\traceloggingprovider\index.md)
 
-For the programming guide, see [TraceLogging](https://review.docs.microsoft.com/en-us/win32-test/tracelogging).
+For the programming guide, see [TraceLogging](/windows/desktop/tracelogging).
 
 ## Functions
 

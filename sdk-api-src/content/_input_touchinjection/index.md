@@ -1,21 +1,21 @@
 ---
 UID: TP:input_touchinjection
 ms.assetid: 095df767-a299-390f-810e-ca89066d19a9
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Input_Touchinjection
+# Touch Injection
 
 
 
-Overview of the Input_Touchinjection technology.
+Overview of the Touch Injection technology.
 
-The Input_Touchinjection technology is not associated with any headers.
+The Touch Injection technology is not associated with any headers.
 
-
+For the programming guide, see [Touch Injection](/previous-versions/windows/desktop/input_touchinjection).

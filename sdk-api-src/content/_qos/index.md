@@ -1,11 +1,11 @@
 ---
 UID: TP:qos
 ms.assetid: 226c23a3-f2d6-320b-87c9-2bb3973f6073
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -29,4 +29,4 @@ To develop Quality of Service (QOS), you need these headers:
  * [traffic.h](..\traffic\index.md)
  * [winsock2.h](..\winsock2\index.md)
 
-For the programming guide, see [Quality of Service (QOS)](https://review.docs.microsoft.com/en-us/win32-test/qos).
+For the programming guide, see [Quality of Service (QOS)](/previous-versions/windows/desktop/qos).

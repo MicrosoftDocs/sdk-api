@@ -1,11 +1,11 @@
 ---
 UID: NA:dshowasf
 ms.assetid: 0bef98a9-18ff-3bb1-9977-b14a468dc24e
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: wmformat
 ---

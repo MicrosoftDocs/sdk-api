@@ -1,11 +1,11 @@
 ---
 UID: TP:windowsribbon
 ms.assetid: 4cd0882b-8e17-315a-8b08-7f07ef01a8d7
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -19,7 +19,7 @@ To develop Windows Ribbon Framework, you need these headers:
 
  * [uiribbon.h](..\uiribbon\index.md)
 
-For the programming guide, see [Windows Ribbon Framework](https://review.docs.microsoft.com/en-us/win32-test/windowsribbon).
+For the programming guide, see [Windows Ribbon Framework](/windows/desktop/windowsribbon).
 
 ## Structures
 

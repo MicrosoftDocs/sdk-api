@@ -1,20 +1,20 @@
 ---
 UID: TP:winmsg
 ms.assetid: afb81356-945b-37d0-8a33-e69b5d192770
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Winmsg
+# Windows and Messages
 
 
 
-Overview of the Winmsg technology.
+Overview of the Windows and Messages technology.
 
-The Winmsg technology is not associated with any headers.
+The Windows and Messages technology is not associated with any headers.
 
-
+For the programming guide, see [Windows and Messages](/windows/desktop/winmsg).

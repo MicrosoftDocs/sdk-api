@@ -1,11 +1,11 @@
 ---
 UID: TP:wsb
 ms.assetid: d329838b-7159-34cd-b2ce-9c345c166b33
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -21,7 +21,7 @@ To develop Windows Server Backup, you need these headers:
  * [wsbapp.h](..\wsbapp\index.md)
  * [wsbonline.h](..\wsbonline\index.md)
 
-For the programming guide, see [Windows Server Backup](https://review.docs.microsoft.com/en-us/win32-test/wsb).
+For the programming guide, see [Windows Server Backup](/previous-versions/windows/desktop/wsb).
 
 ## Functions
 

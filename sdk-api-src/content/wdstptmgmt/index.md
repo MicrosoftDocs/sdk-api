@@ -1,11 +1,11 @@
 ---
 UID: NA:wdstptmgmt
 ms.assetid: 4ddd9e59-ca11-3cdb-8d3b-363a7b4ee7a8
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: wds
 ---

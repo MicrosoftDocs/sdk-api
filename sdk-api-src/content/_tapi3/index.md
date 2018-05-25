@@ -1,11 +1,11 @@
 ---
 UID: TP:tapi3
 ms.assetid: 64ae5436-6ff5-354b-8cdb-80f9efe7c1c9
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -29,4 +29,4 @@ To develop Telephony Application Programming Interfaces, you need these headers:
  * [tapi3if.h](..\tapi3if\index.md)
  * [termmgr.h](..\termmgr\index.md)
 
-For the programming guide, see [Telephony Application Programming Interfaces](https://review.docs.microsoft.com/en-us/win32-test/tapi3).
+For the programming guide, see [Telephony Application Programming Interfaces](/windows/desktop/tapi3).

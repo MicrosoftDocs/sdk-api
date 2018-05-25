@@ -1,11 +1,11 @@
 ---
 UID: NA:audioendpoints
 ms.assetid: dfd638f5-1f47-3302-a758-098e9f513282
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: coreaudio
 ---

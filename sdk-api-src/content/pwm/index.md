@@ -1,11 +1,11 @@
 ---
 UID: NA:pwm
 ms.assetid: f2b86540-240b-3e8f-af5e-b516acb7f661
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: base
 ---

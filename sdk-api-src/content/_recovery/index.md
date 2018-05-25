@@ -1,20 +1,20 @@
 ---
 UID: TP:recovery
 ms.assetid: 62e538d1-edb1-3529-b421-8e044a033509
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Recovery
+# Application Recovery and Restart
 
 
 
-Overview of the Recovery technology.
+Overview of the Application Recovery and Restart technology.
 
-The Recovery technology is not associated with any headers.
+The Application Recovery and Restart technology is not associated with any headers.
 
-
+For the programming guide, see [Application Recovery and Restart](/windows/desktop/recovery).

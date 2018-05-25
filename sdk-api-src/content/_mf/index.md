@@ -1,11 +1,11 @@
 ---
 UID: TP:mf
 ms.assetid: f37d0852-e606-3529-b146-65a564153343
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -37,4 +37,4 @@ To develop Microsoft Media Foundation, you need these headers:
  * [opmapi.h](..\opmapi\index.md)
  * [wmcontainer.h](..\wmcontainer\index.md)
 
-For the programming guide, see [Microsoft Media Foundation](https://review.docs.microsoft.com/en-us/win32-test/mf).
+For the programming guide, see [Microsoft Media Foundation](/windows/desktop/mf).

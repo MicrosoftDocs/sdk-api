@@ -1,11 +1,11 @@
 ---
 UID: NA:iaccess
 ms.assetid: 9edb838d-ffe5-3979-a76a-0956654d1f2b
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: com

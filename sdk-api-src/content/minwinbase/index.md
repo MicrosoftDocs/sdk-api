@@ -1,11 +1,11 @@
 ---
 UID: NA:minwinbase
 ms.assetid: 98fe10dc-6483-32eb-9941-22f7aea357c9
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: fs
 ---

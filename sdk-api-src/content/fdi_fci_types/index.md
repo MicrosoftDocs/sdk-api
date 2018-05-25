@@ -1,11 +1,11 @@
 ---
 UID: NA:fdi_fci_types
 ms.assetid: 912c8328-9a99-3cdb-90f4-3abc27dcb0da
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winprog
 ---

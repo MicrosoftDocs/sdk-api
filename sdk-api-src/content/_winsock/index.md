@@ -1,11 +1,11 @@
 ---
 UID: TP:winsock
 ms.assetid: 517f0d35-1c4a-3ed3-b68d-6bb755388d9e
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -35,4 +35,4 @@ To develop Windows Sockets 2, you need these headers:
  * [wsnwlink.h](..\wsnwlink\index.md)
  * [wsrm.h](..\wsrm\index.md)
 
-For the programming guide, see [Windows Sockets 2](https://review.docs.microsoft.com/en-us/win32-test/winsock).
+For the programming guide, see [Windows Sockets 2](/windows/desktop/winsock).

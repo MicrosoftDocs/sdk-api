@@ -1,11 +1,11 @@
 ---
 UID: TP:taskschd
 ms.assetid: 21ed2bea-3d38-3715-81f5-fccbcae23048
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -20,4 +20,4 @@ To develop Task Scheduler, you need these headers:
  * [mstask.h](..\mstask\index.md)
  * [taskschd.h](..\taskschd\index.md)
 
-For the programming guide, see [Task Scheduler](https://review.docs.microsoft.com/en-us/win32-test/taskschd).
+For the programming guide, see [Task Scheduler](/windows/desktop/taskschd).

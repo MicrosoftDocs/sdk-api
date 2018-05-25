@@ -1,11 +1,11 @@
 ---
 UID: TP:serports
 ms.assetid: a99541fb-a2d1-3e81-9efd-97d9eecc1ed4
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -19,7 +19,7 @@ To develop Serial Controller Driver Reference, you need these headers:
 
  * [msports.h](..\msports\index.md)
 
-For the programming guide, see [Serial Controller Driver Reference](https://review.docs.microsoft.com/en-us/win32-test/serports).
+For the programming guide, see [Serial Controller Driver Reference](/windows/desktop/serports).
 
 ## Functions
 

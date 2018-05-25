@@ -1,11 +1,11 @@
 ---
 UID: NA:mmcobj
 ms.assetid: 7f95157e-7412-35a5-8536-40b4788da6e5
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mmc
 ---

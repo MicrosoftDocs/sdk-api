@@ -1,11 +1,11 @@
 ---
 UID: NA:amstream
 ms.assetid: 1973f69c-90bf-398a-80a6-b6b22ddad994
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dshow
 ---

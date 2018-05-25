@@ -1,11 +1,11 @@
 ---
 UID: TP:nwifi
 ms.assetid: 227f4254-b09f-375a-9c76-7690364582b1
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -24,4 +24,4 @@ To develop Native Wifi, you need these headers:
  * [wlanapi.h](..\wlanapi\index.md)
  * [wlantypes.h](..\wlantypes\index.md)
 
-For the programming guide, see [Native Wifi](https://review.docs.microsoft.com/en-us/win32-test/nwifi).
+For the programming guide, see [Native Wifi](/windows/desktop/nwifi).

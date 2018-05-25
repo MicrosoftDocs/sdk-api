@@ -1,11 +1,11 @@
 ---
 UID: TP:parcon
 ms.assetid: d41c225a-7794-30c9-9b0b-8612948bb42f
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -20,7 +20,7 @@ To develop Parental Controls, you need these headers:
  * [wpcapi.h](..\wpcapi\index.md)
  * [wpcevent.h](..\wpcevent\index.md)
 
-For the programming guide, see [Parental Controls](https://review.docs.microsoft.com/en-us/win32-test/parcon).
+For the programming guide, see [Parental Controls](/windows/desktop/parcon).
 
 ## Enumerations
 

@@ -1,11 +1,11 @@
 ---
 UID: TP:mib
 ms.assetid: ab00077e-575e-37b9-8750-c458f936d496
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -23,4 +23,4 @@ To develop Management Information Base, you need these headers:
  * [tcpmib.h](..\tcpmib\index.md)
  * [udpmib.h](..\udpmib\index.md)
 
-For the programming guide, see [Management Information Base](https://review.docs.microsoft.com/en-us/win32-test/mib).
+For the programming guide, see [Management Information Base](/previous-versions/windows/desktop/mib).

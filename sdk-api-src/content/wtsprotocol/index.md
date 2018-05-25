@@ -1,11 +1,11 @@
 ---
 UID: NA:wtsprotocol
 ms.assetid: ae3052a1-4a72-3aa4-a6f7-f7a0dcafde83
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: termserv

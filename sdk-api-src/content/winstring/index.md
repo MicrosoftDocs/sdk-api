@@ -1,11 +1,11 @@
 ---
 UID: NA:winstring
 ms.assetid: dba0b1e7-db90-3fa7-92a9-636c9ba707cd
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winrt
 ---

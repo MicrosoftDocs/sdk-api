@@ -1,21 +1,21 @@
 ---
 UID: TP:input_feedback
 ms.assetid: f753ea3d-0c89-30d6-9949-c06f7b12cdbf
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Input_Feedback
+# Input Feedback Configuration
 
 
 
-Overview of the Input_Feedback technology.
+Overview of the Input Feedback Configuration technology.
 
-The Input_Feedback technology is not associated with any headers.
+The Input Feedback Configuration technology is not associated with any headers.
 
-
+For the programming guide, see [Input Feedback Configuration](/previous-versions/windows/desktop/input_feedback).

@@ -1,11 +1,11 @@
 ---
 UID: TP:wmi
 ms.assetid: f7736949-4243-340f-890f-1ae3a5bda3e9
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -30,4 +30,4 @@ To develop Windows Management Instrumentation, you need these headers:
  * [wbemprov.h](..\wbemprov\index.md)
  * [wbemtime.h](..\wbemtime\index.md)
 
-For the programming guide, see [Windows Management Instrumentation](https://review.docs.microsoft.com/en-us/win32-test/wmi).
+For the programming guide, see [Windows Management Instrumentation](/windows/desktop/wmi).

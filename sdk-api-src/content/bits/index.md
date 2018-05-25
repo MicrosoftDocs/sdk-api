@@ -1,11 +1,11 @@
 ---
 UID: NA:bits
 ms.assetid: 6a9733c4-cb18-3bb1-b0e9-707bbd9a7b76
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: bits
 ---

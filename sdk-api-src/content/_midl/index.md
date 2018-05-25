@@ -1,20 +1,20 @@
 ---
 UID: TP:midl
 ms.assetid: 3f1eed36-d44b-35c5-9917-505d875b7b05
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Midl
+# Microsoft Interface Definition Language (MIDL)
 
 
 
-Overview of the Midl technology.
+Overview of the Microsoft Interface Definition Language (MIDL) technology.
 
-The Midl technology is not associated with any headers.
+The Microsoft Interface Definition Language (MIDL) technology is not associated with any headers.
 
-
+For the programming guide, see [Microsoft Interface Definition Language (MIDL)](/windows/desktop/midl).

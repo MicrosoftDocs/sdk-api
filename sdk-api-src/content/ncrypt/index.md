@@ -1,11 +1,11 @@
 ---
 UID: NA:ncrypt
 ms.assetid: 9d9ca017-f280-36f9-bfa9-e3f802095a19
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: security
 ---

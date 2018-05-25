@@ -1,11 +1,11 @@
 ---
 UID: NA:ws2tcpip
 ms.assetid: 7f63b2fa-054f-3bc8-9525-e1c5930d172a
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winsock
 ---

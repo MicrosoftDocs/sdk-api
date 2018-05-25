@@ -1,21 +1,21 @@
 ---
 UID: TP:virtual
 ms.assetid: 9f53b2f8-af0e-3819-8ce3-76941cb66831
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Virtual
+# Hyper-V WMI Provider
 
 
 
-Overview of the Virtual technology.
+Overview of the Hyper-V WMI Provider technology.
 
-The Virtual technology is not associated with any headers.
+The Hyper-V WMI Provider technology is not associated with any headers.
 
-
+For the programming guide, see [Hyper-V WMI Provider](/previous-versions/windows/desktop/virtual).

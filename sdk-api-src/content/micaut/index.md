@@ -1,11 +1,11 @@
 ---
 UID: NA:micaut
 ms.assetid: 6d155966-c54b-38d6-aff1-6ea0a1fd3bf0
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: tablet
 ---

@@ -1,11 +1,11 @@
 ---
 UID: TP:of
 ms.assetid: 2f2d31c8-6a7c-3de3-a1d6-93b8c634470c
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -21,4 +21,4 @@ To develop Offline Files, you need these headers:
  * [cscapi.h](..\cscapi\index.md)
  * [cscobj.h](..\cscobj\index.md)
 
-For the programming guide, see [Offline Files](https://review.docs.microsoft.com/en-us/win32-test/of).
+For the programming guide, see [Offline Files](/previous-versions/windows/desktop/of).

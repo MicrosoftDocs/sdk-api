@@ -3,5 +3,5 @@
   "headers": [
     "cfapi.h"
   ],
-  "displayName": "Cloud Api"
+  "displayName": "Cloud Filter API"
 }

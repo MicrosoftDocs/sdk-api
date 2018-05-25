@@ -1,11 +1,11 @@
 ---
 UID: NA:rtlsupportapi
 ms.assetid: 0172ca77-a8b5-30ad-92a3-cc4f8451076a
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winprog
 ---

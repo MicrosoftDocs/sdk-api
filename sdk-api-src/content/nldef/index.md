@@ -1,11 +1,11 @@
 ---
 UID: NA:nldef
 ms.assetid: d3ee3b93-f183-3b1f-944b-d40a795be4cf
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: mib
 ---

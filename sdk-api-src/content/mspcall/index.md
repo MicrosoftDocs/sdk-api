@@ -1,11 +1,11 @@
 ---
 UID: NA:mspcall
 ms.assetid: 8223b3d5-d86e-3afb-8594-f41a5c0f0eee
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: tapi3
 ---

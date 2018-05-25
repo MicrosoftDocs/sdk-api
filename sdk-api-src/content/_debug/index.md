@@ -1,23 +1,23 @@
 ---
 UID: TP:debug
 ms.assetid: ef7e939a-0110-36b3-8c6d-e740e5c83133
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Error Handling
+# Debugging and authoring support
 
 
 
-Overview of the Error Handling technology.
+Overview of the Debugging and authoring support technology.
 
-To develop Error Handling, you need these headers:
+To develop Debugging and authoring support, you need these headers:
 
  * [webapplication.h](..\webapplication\index.md)
 
-For the programming guide, see [Error Handling](https://review.docs.microsoft.com/en-us/win32-test/debug).
+For the programming guide, see [Debugging and authoring support](/previous-versions/windows/desktop/debug).

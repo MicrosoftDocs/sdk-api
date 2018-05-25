@@ -1,11 +1,11 @@
 ---
 UID: NA:winbio_adapter
 ms.assetid: b14ee319-c6d4-3d23-b828-1d9777a9ca03
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: secbiomet
 ---

@@ -1,11 +1,11 @@
 ---
 UID: TP:multimedia
 ms.assetid: a1710ddf-acd2-3419-b799-1773d9f162a5
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -26,4 +26,4 @@ To develop Windows Multimedia, you need these headers:
  * [timeapi.h](..\timeapi\index.md)
  * [vfw.h](..\vfw\index.md)
 
-For the programming guide, see [Windows Multimedia](https://review.docs.microsoft.com/en-us/win32-test/multimedia).
+For the programming guide, see [Windows Multimedia](/windows/desktop/multimedia).

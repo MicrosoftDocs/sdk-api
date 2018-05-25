@@ -1,11 +1,11 @@
 ---
 UID: NA:richedit
 ms.assetid: 7dbbf16e-3b68-3f9e-91d4-a02318c121cd
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: controls
 ---

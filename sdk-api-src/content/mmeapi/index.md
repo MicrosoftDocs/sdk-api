@@ -1,11 +1,11 @@
 ---
 UID: NA:mmeapi
 ms.assetid: 8d8b7634-ccd9-36e2-920b-3095d58cc39a
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: multimedia
 ---

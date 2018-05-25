@@ -1,23 +1,23 @@
 ---
 UID: TP:wes
 ms.assetid: c49b7cd9-494f-36c8-b0b1-606471929711
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# wes
+# Windows Event Log
 
 
 
-Overview of the wes technology.
+Overview of the Windows Event Log technology.
 
-To develop wes, you need these headers:
+To develop Windows Event Log, you need these headers:
 
  * [winevt.h](..\winevt\index.md)
 
-For the programming guide, see [wes](https://review.docs.microsoft.com/en-us/win32-test/wes).
+For the programming guide, see [Windows Event Log](/windows/desktop/wes).

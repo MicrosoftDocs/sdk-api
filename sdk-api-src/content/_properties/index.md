@@ -1,11 +1,11 @@
 ---
 UID: TP:properties
 ms.assetid: ad4462be-c0de-3130-918e-217804db0bf6
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -22,7 +22,7 @@ To develop Windows Property System, you need these headers:
  * [propvarutil.h](..\propvarutil\index.md)
  * [shobjidl_core.h](..\shobjidl_core\index.md)
 
-For the programming guide, see [Windows Property System](https://review.docs.microsoft.com/en-us/win32-test/properties).
+For the programming guide, see [Windows Property System](/windows/desktop/properties).
 
 ## Functions
 
@@ -157,6 +157,7 @@ For the programming guide, see [Windows Property System](https://review.docs.mic
 | [PSPropertyBag_WriteULONGLONG function](..\propsys\nf-propsys-pspropertybag_writeulonglong.md) | Sets the ULONGLONG value of a property in a property bag. |
 | [PSPropertyBag_WriteUnknown function](..\propsys\nf-propsys-pspropertybag_writeunknown.md) | Writes a property of an unknown data value in a property bag. |
 | [PSPropertyKeyFromString function](..\propsys\nf-propsys-pspropertykeyfromstring.md) | Converts a string to a PROPERTYKEY structure. |
+| [PSRefreshPropertySchema function](..\propsys\nf-propsys-psrefreshpropertyschema.md) | Not supported.It is valid to call this function, but it is not implemented to perform any function so there is no reason to do so. |
 | [PSRegisterPropertySchema function](..\propsys\nf-propsys-psregisterpropertyschema.md) | Informs the schema subsystem of the addition of a property description schema file. |
 | [PSSetPropertyValue function](..\propsys\nf-propsys-pssetpropertyvalue.md) | Sets the value of a property in a property store. |
 | [PSStringFromPropertyKey function](..\propsys\nf-propsys-psstringfrompropertykey.md) | Creates a string that identifies a property from that property's key. |
@@ -379,6 +380,7 @@ For the programming guide, see [Windows Property System](https://review.docs.mic
 | [IPropertyEnumType::GetValue](..\propsys\nf-propsys-ipropertyenumtype-getvalue.md) | Gets a value from an enumeration information structure. |
 | [IPropertyEnumTypeList::FindMatchingIndex](..\propsys\nf-propsys-ipropertyenumtypelist-findmatchingindex.md) | Compares the specified property value against the enumerated values in a list and returns the matching index. |
 | [IPropertyEnumTypeList::GetAt](..\propsys\nf-propsys-ipropertyenumtypelist-getat.md) | Gets the IPropertyEnumType object at the specified index in the list. |
+| [IPropertyEnumTypeList::GetConditionAt](..\propsys\nf-propsys-ipropertyenumtypelist-getconditionat.md) | Not supported.Gets the condition at the specified index. |
 | [IPropertyEnumTypeList::GetCount](..\propsys\nf-propsys-ipropertyenumtypelist-getcount.md) | Gets the number of elements in the list. |
 | [IPropertyStoreCache::GetState](..\propsys\nf-propsys-ipropertystorecache-getstate.md) | Gets the state of a specified property key. |
 | [IPropertyStoreCache::GetValueAndState](..\propsys\nf-propsys-ipropertystorecache-getvalueandstate.md) | Gets value and state data for a property key. |
@@ -392,6 +394,7 @@ For the programming guide, see [Windows Property System](https://review.docs.mic
 | [IPropertySystem::GetPropertyDescriptionByName](..\propsys\nf-propsys-ipropertysystem-getpropertydescriptionbyname.md) | Gets an instance of the subsystem object that implements IPropertyDescription, to obtain the property description for a given canonical name. |
 | [IPropertySystem::GetPropertyDescriptionListFromString](..\propsys\nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring.md) | Gets an instance of the subsystem object that implements IPropertyDescriptionList, to obtain an ordered collection of property descriptions, based on the provided string. |
 | [IPropertySystem::GetPropertyDescription](..\propsys\nf-propsys-ipropertysystem-getpropertydescription.md) | Gets an instance of the subsystem object that implements IPropertyDescription, to obtain the property description for a given PROPERTYKEY. |
+| [IPropertySystem::RefreshPropertySchema](..\propsys\nf-propsys-ipropertysystem-refreshpropertyschema.md) | Not supported. |
 | [IPropertySystem::RegisterPropertySchema](..\propsys\nf-propsys-ipropertysystem-registerpropertyschema.md) | Informs the schema subsystem of the addition of a property description schema file. |
 | [IPropertySystem::UnregisterPropertySchema](..\propsys\nf-propsys-ipropertysystem-unregisterpropertyschema.md) | Informs the schema subsystem of the removal of a property description schema (.propdesc) file, using a file path to the .propdesc file on the local machine. |
 | [IPropertyUI::FormatForDisplay](..\shobjidl_core\nf-shobjidl_core-ipropertyui-formatfordisplay.md) | Developers should use IPropertyDescription instead. Gets a formatted, Unicode string representation of a property value. |

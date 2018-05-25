@@ -1,11 +1,11 @@
 ---
 UID: NA:qosobjs
 ms.assetid: 3a6805db-4bd5-3c71-be14-63083ccb7508
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: qos

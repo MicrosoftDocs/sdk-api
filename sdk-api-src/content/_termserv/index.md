@@ -1,11 +1,11 @@
 ---
 UID: TP:termserv
 ms.assetid: b47fd481-db98-36bc-9504-61dba2bfa2a1
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -40,4 +40,4 @@ To develop Remote Desktop Services, you need these headers:
  * [wtshintapi.h](..\wtshintapi\index.md)
  * [wtsprotocol.h](..\wtsprotocol\index.md)
 
-For the programming guide, see [Remote Desktop Services](https://review.docs.microsoft.com/en-us/win32-test/termserv).
+For the programming guide, see [Remote Desktop Services](/windows/desktop/termserv).

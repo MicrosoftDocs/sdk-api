@@ -1,11 +1,11 @@
 ---
 UID: TP:tablet
 ms.assetid: 8f8b94e8-8687-3dab-9a34-5a6464070552
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -28,7 +28,7 @@ To develop Tablet PC, you need these headers:
  * [tabflicks.h](..\tabflicks\index.md)
  * [tpcshrd.h](..\tpcshrd\index.md)
 
-For the programming guide, see [Tablet PC](https://review.docs.microsoft.com/en-us/win32-test/tablet).
+For the programming guide, see [Tablet PC](/windows/desktop/tablet).
 
 ## Functions
 
@@ -183,6 +183,7 @@ For the programming guide, see [Tablet PC](https://review.docs.microsoft.com/en-
 | [IInkDivisionResult interface](..\msinkaut15\nn-msinkaut15-iinkdivisionresult.md) | Represents the layout analysis of the collection of strokes contained by the InkDivider object. |
 | [IInkDivisionUnit interface](..\msinkaut15\nn-msinkaut15-iinkdivisionunit.md) | Represents a single structural element within an IInkDivisionResult object. |
 | [IInkDivisionUnits interface](..\msinkaut15\nn-msinkaut15-iinkdivisionunits.md) | Contains a collection of IInkDivisionUnit objects that are contained in an IInkDivisionResult object. |
+| [IInkEdit interface](..\inked\nn-inked-iinkedit.md) | TBD. |
 | [IInkExtendedProperties interface](..\msinkaut\nn-msinkaut-iinkextendedproperties.md) | Represents a collection of IInkExtendedProperty objects that contain application-defined data. |
 | [IInkExtendedProperty interface](..\msinkaut\nn-msinkaut-iinkextendedproperty.md) | Represents the ability to add your own data to a variety of objects within the Tablet PC object model. |
 | [IInkGesture interface](..\msinkaut\nn-msinkaut-iinkgesture.md) | Represents the ability to query particular properties of a gesture returned from a gesture recognition. |

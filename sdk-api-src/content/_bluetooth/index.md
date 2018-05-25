@@ -1,11 +1,11 @@
 ---
 UID: TP:bluetooth
 ms.assetid: a6693fcc-8eb2-381e-9b6e-5b8f73bc7d2c
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -22,4 +22,4 @@ To develop Bluetooth, you need these headers:
  * [bthsdpdef.h](..\bthsdpdef\index.md)
  * [ws2bth.h](..\ws2bth\index.md)
 
-For the programming guide, see [Bluetooth](https://review.docs.microsoft.com/en-us/win32-test/bluetooth).
+For the programming guide, see [Bluetooth](/windows/desktop/bluetooth).

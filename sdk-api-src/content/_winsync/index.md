@@ -1,11 +1,11 @@
 ---
 UID: TP:winsync
 ms.assetid: ee92abfb-a568-3036-bd81-7498365db57b
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -21,7 +21,7 @@ To develop Windows Sync, you need these headers:
  * [syncregistration.h](..\syncregistration\index.md)
  * [winsync.h](..\winsync\index.md)
 
-For the programming guide, see [Windows Sync](https://review.docs.microsoft.com/en-us/win32-test/winsync).
+For the programming guide, see [Windows Sync](/previous-versions/windows/desktop/winsync).
 
 ## Structures
 

@@ -1,11 +1,11 @@
 ---
 UID: TP:ldap
 ms.assetid: 15a0bafb-f4a0-3e3e-87c9-c56597e8b4ff
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -21,4 +21,4 @@ To develop Lightweight Directory Access Protocol, you need these headers:
  * [winber.h](..\winber\index.md)
  * [winldap.h](..\winldap\index.md)
 
-For the programming guide, see [Lightweight Directory Access Protocol](https://review.docs.microsoft.com/en-us/win32-test/ldap).
+For the programming guide, see [Lightweight Directory Access Protocol](/previous-versions/windows/desktop/ldap).

@@ -1,21 +1,21 @@
 ---
 UID: TP:setup
 ms.assetid: 333c3bdd-1089-3313-b2f3-8fa8322fcfb4
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Setup API
+# Application Installation and Servicing
 
 
 
-Overview of the Setup API technology.
+Overview of the Application Installation and Servicing technology.
 
-To develop Setup API, you need these headers:
+To develop Application Installation and Servicing, you need these headers:
 
  * [advpub.h](..\advpub\index.md)
  * [evalcom2.h](..\evalcom2\index.md)
@@ -27,4 +27,4 @@ To develop Setup API, you need these headers:
  * [sfc.h](..\sfc\index.md)
  * [winsxs.h](..\winsxs\index.md)
 
-For the programming guide, see [Setup API](https://review.docs.microsoft.com/en-us/win32-test/setup).
+For the programming guide, see [Application Installation and Servicing](/windows/desktop/setup).

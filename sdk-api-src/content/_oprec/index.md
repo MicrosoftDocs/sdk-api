@@ -1,21 +1,21 @@
 ---
 UID: TP:oprec
 ms.assetid: 74dd2980-2413-38c6-b185-1354f5891c38
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Oprec
+# Operation Recorder
 
 
 
-Overview of the Oprec technology.
+Overview of the Operation Recorder technology.
 
-The Oprec technology is not associated with any headers.
+The Operation Recorder technology is not associated with any headers.
 
-
+For the programming guide, see [Operation Recorder](/previous-versions/windows/desktop/oprec).

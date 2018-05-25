@@ -1,11 +1,11 @@
 ---
 UID: NA:exdisp
 ms.assetid: 992f7b4e-4007-3de4-bdc8-f1f475fc79f2
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: shell
 ---

@@ -1,11 +1,11 @@
 ---
 UID: NA:fontsub
 ms.assetid: 6833a040-f023-32b7-89ca-6053ded43f00
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: gdi
 ---

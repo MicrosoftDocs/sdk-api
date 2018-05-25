@@ -1,11 +1,11 @@
 ---
 UID: NA:madcapcl
 ms.assetid: 598b0a32-58b6-3672-a7cc-4fdd66b72aee
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: madcap

@@ -1,11 +1,11 @@
 ---
 UID: NA:windowsceip
 ms.assetid: 3757983b-c84c-3901-8c5b-27bf7d45c860
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: base
 ---

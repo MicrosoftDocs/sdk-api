@@ -1,11 +1,11 @@
 ---
 UID: TP:dxmath
 ms.assetid: 31d9cfe2-2d9e-3607-827d-7ef612e38185
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -21,7 +21,7 @@ To develop DirectXMath, you need these headers:
  * [directxmath.h](..\directxmath\index.md)
  * [directxpackedvector.h](..\directxpackedvector\index.md)
 
-For the programming guide, see [DirectXMath](https://review.docs.microsoft.com/en-us/win32-test/dxmath).
+For the programming guide, see [DirectXMath](/windows/desktop/dxmath).
 
 ## Functions
 

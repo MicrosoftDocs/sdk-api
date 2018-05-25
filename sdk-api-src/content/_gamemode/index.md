@@ -1,11 +1,11 @@
 ---
 UID: TP:gamemode
 ms.assetid: 7e85c2c5-8d7f-3617-a348-14e79b75cc10
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,7 +20,7 @@ To develop Game Mode, you need these headers:
 
  * [expandedresources.h](..\expandedresources\index.md)
 
-For the programming guide, see [Game Mode](https://review.docs.microsoft.com/en-us/win32-test/gamemode).
+For the programming guide, see [Game Mode](/previous-versions/windows/desktop/gamemode).
 
 ## Functions
 

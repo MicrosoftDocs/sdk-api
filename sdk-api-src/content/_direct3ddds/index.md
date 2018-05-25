@@ -1,20 +1,20 @@
 ---
 UID: TP:direct3ddds
 ms.assetid: cd797cdd-c2f6-33b6-b24e-c3bfa0be3f2b
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Direct3Ddds
+# DDS
 
 
 
-Overview of the Direct3Ddds technology.
+Overview of the DDS technology.
 
-The Direct3Ddds technology is not associated with any headers.
+The DDS technology is not associated with any headers.
 
-
+For the programming guide, see [DDS](/windows/desktop/direct3ddds).

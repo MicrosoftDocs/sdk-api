@@ -1,11 +1,11 @@
 ---
 UID: NA:aclui
 ms.assetid: eb0a39ca-cecb-3c84-93be-39d8e13e320e
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: cimwin32
 ---

@@ -1,0 +1,6 @@
+{
+  "tech": "machinelearning",
+  "headers": [
+    "winml.h"
+  ]
+}

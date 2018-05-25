@@ -1,11 +1,11 @@
 ---
 UID: TP:indexsrv
 ms.assetid: 45f6cbf9-5f8f-3f61-8756-c82b7e311782
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -23,4 +23,4 @@ To develop Indexing Service, you need these headers:
  * [indexsrv.h](..\indexsrv\index.md)
  * [ntquery.h](..\ntquery\index.md)
 
-For the programming guide, see [Indexing Service](https://review.docs.microsoft.com/en-us/win32-test/indexsrv).
+For the programming guide, see [Indexing Service](/previous-versions/windows/desktop/indexsrv).

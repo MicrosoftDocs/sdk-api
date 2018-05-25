@@ -1,21 +1,21 @@
 ---
 UID: TP:ndisimplatcim
 ms.assetid: 782c2620-daaf-30da-8533-e393ec24da9b
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Ndisimplatcim
+# MsNetImPlatform Provider
 
 
 
-Overview of the Ndisimplatcim technology.
+Overview of the MsNetImPlatform Provider technology.
 
-The Ndisimplatcim technology is not associated with any headers.
+The MsNetImPlatform Provider technology is not associated with any headers.
 
-
+For the programming guide, see [MsNetImPlatform Provider](/previous-versions/windows/desktop/ndisimplatcim).

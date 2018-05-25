@@ -1,11 +1,11 @@
 ---
 UID: TP:iphlp
 ms.assetid: 2d8e8199-22bc-381d-9913-ad803143e6e3
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -31,4 +31,4 @@ To develop IP Helper, you need these headers:
  * [ws2def.h](..\ws2def\index.md)
  * [ws2ipdef.h](..\ws2ipdef\index.md)
 
-For the programming guide, see [IP Helper](https://review.docs.microsoft.com/en-us/win32-test/iphlp).
+For the programming guide, see [IP Helper](/windows/desktop/iphlp).

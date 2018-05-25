@@ -1,11 +1,11 @@
 ---
 UID: TP:tsf
 ms.assetid: 7bfc05f4-38f9-394b-8f17-66bae94f970d
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -26,4 +26,4 @@ To develop Text Services Framework, you need these headers:
  * [msctfmonitorapi.h](..\msctfmonitorapi\index.md)
  * [textstor.h](..\textstor\index.md)
 
-For the programming guide, see [Text Services Framework](https://review.docs.microsoft.com/en-us/win32-test/tsf).
+For the programming guide, see [Text Services Framework](/windows/desktop/tsf).

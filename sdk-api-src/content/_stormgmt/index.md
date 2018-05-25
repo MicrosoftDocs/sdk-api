@@ -1,11 +1,11 @@
 ---
 UID: TP:stormgmt
 ms.assetid: fed686a4-e53a-34a6-b295-162c136ae428
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,7 +20,7 @@ To develop Windows Storage Management API, you need these headers:
 
  * [vdssys.h](..\vdssys\index.md)
 
-For the programming guide, see [Windows Storage Management API](https://review.docs.microsoft.com/en-us/win32-test/stormgmt).
+For the programming guide, see [Windows Storage Management API](/previous-versions/windows/desktop/stormgmt).
 
 ## Functions
 

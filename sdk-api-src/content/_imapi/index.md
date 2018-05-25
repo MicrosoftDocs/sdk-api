@@ -1,11 +1,11 @@
 ---
 UID: TP:imapi
 ms.assetid: d5ee2b29-ba7f-3360-9fd6-16f32572a676
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -21,7 +21,7 @@ To develop Image Mastering API, you need these headers:
  * [imapi2.h](..\imapi2\index.md)
  * [imapi2fs.h](..\imapi2fs\index.md)
 
-For the programming guide, see [Image Mastering API](https://review.docs.microsoft.com/en-us/win32-test/imapi).
+For the programming guide, see [Image Mastering API](/windows/desktop/imapi).
 
 ## Enumerations
 
@@ -409,8 +409,8 @@ For the programming guide, see [Image Mastering API](https://review.docs.microso
 | [IFsiFileItem::get_DataSize](..\imapi2fs\nf-imapi2fs-ifsifileitem-get_datasize.md) | Retrieves the number of bytes in the file. |
 | [IFsiFileItem::get_Data](..\imapi2fs\nf-imapi2fs-ifsifileitem-get_data.md) | Retrieves the data stream of the file's content. |
 | [IFsiFileItem::put_Data](..\imapi2fs\nf-imapi2fs-ifsifileitem-put_data.md) | Sets the data stream of the file's content. |
-| [IFsiItem::FileSystemName method](..\imapi2fs\nf-imapi2fs-ifsiitem-filesystemname.md) | Retrieves the name of the item as modified to conform to the specified file system. |
-| [IFsiItem::FileSystemPath method](..\imapi2fs\nf-imapi2fs-ifsiitem-filesystempath.md) | Retrieves the full path of the item as modified to conform to the specified file system. |
+| [IFsiItem::FileSystemName](..\imapi2fs\nf-imapi2fs-ifsiitem-filesystemname.md) | Retrieves the name of the item as modified to conform to the specified file system. |
+| [IFsiItem::FileSystemPath](..\imapi2fs\nf-imapi2fs-ifsiitem-filesystempath.md) | Retrieves the full path of the item as modified to conform to the specified file system. |
 | [IFsiItem::get_CreationTime](..\imapi2fs\nf-imapi2fs-ifsiitem-get_creationtime.md) | Retrieves the date and time that the directory or file item was created and added to the file system image. |
 | [IFsiItem::get_FullPath](..\imapi2fs\nf-imapi2fs-ifsiitem-get_fullpath.md) | Retrieves the full path of the file or directory item in the file system image. |
 | [IFsiItem::get_IsHidden](..\imapi2fs\nf-imapi2fs-ifsiitem-get_ishidden.md) | Determines if the item's hidden attribute is set in the file system image. |

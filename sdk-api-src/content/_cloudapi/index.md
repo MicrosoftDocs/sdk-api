@@ -1,23 +1,23 @@
 ---
 UID: TP:cloudapi
 ms.assetid: 2c6f6748-437b-3c0b-9573-f9db6c1a1326
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Cloud Api
+# Cloud Filter API
 
 
 
-Overview of the Cloud Api technology.
+Overview of the Cloud Filter API technology.
 
-To develop Cloud Api, you need these headers:
+To develop Cloud Filter API, you need these headers:
 
  * [cfapi.h](..\cfapi\index.md)
 
-For the programming guide, see [Cloud Api](https://review.docs.microsoft.com/en-us/win32-test/cloudapi).
+For the programming guide, see [Cloud Filter API](/previous-versions/windows/desktop/cloudapi).

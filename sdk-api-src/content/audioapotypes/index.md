@@ -1,11 +1,11 @@
 ---
 UID: NA:audioapotypes
 ms.assetid: 6bbb14de-2081-3655-81a7-3f79b8b1a5ae
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: termserv

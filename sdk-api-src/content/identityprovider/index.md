@@ -1,11 +1,11 @@
 ---
 UID: NA:identityprovider
 ms.assetid: 4b77c6e4-49c7-3d2c-97d7-f2697f557b11
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: security
 ---

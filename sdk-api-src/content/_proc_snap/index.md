@@ -1,11 +1,11 @@
 ---
 UID: TP:proc_snap
 ms.assetid: eb3dbed3-9253-33ab-be65-61f1e4ae4cec
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,7 +20,7 @@ To develop Process Snapshotting, you need these headers:
 
  * [processsnapshot.h](..\processsnapshot\index.md)
 
-For the programming guide, see [Process Snapshotting](https://review.docs.microsoft.com/en-us/win32-test/proc_snap).
+For the programming guide, see [Process Snapshotting](/previous-versions/windows/desktop/proc_snap).
 
 ## Functions
 

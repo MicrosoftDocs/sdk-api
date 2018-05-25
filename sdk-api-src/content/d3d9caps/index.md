@@ -1,11 +1,11 @@
 ---
 UID: NA:d3d9caps
 ms.assetid: 9e673793-a9e8-36aa-ba1d-9887d36549c5
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: direct3d9
 ---

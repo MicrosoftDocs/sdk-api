@@ -1,11 +1,11 @@
 ---
 UID: TP:rm
 ms.assetid: fd928ef3-5e26-3323-acd2-5d3027eb7b37
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -21,4 +21,4 @@ To develop Active Directory Rights Management Services SDK, you need these heade
  * [msdrm.h](..\msdrm\index.md)
  * [msdrmdefs.h](..\msdrmdefs\index.md)
 
-For the programming guide, see [Active Directory Rights Management Services SDK](https://review.docs.microsoft.com/en-us/win32-test/rm).
+For the programming guide, see [Active Directory Rights Management Services SDK](/previous-versions/windows/desktop/rm).

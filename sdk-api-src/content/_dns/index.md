@@ -1,11 +1,11 @@
 ---
 UID: TP:dns
 ms.assetid: 4779b2e0-69bd-384a-9c4c-b3804b03287e
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -19,4 +19,4 @@ To develop Domain Name System (DNS), you need these headers:
 
  * [windns.h](..\windns\index.md)
 
-For the programming guide, see [Domain Name System (DNS)](https://review.docs.microsoft.com/en-us/win32-test/dns).
+For the programming guide, see [Domain Name System (DNS)](/windows/desktop/dns).

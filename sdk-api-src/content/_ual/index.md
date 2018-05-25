@@ -1,11 +1,11 @@
 ---
 UID: TP:ual
 ms.assetid: 064ae0f9-7282-39cf-be9e-a2768a182496
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,7 +20,7 @@ To develop User Access Logging, you need these headers:
 
  * [ual.h](..\ual\index.md)
 
-For the programming guide, see [User Access Logging](https://review.docs.microsoft.com/en-us/win32-test/ual).
+For the programming guide, see [User Access Logging](/previous-versions/windows/desktop/ual).
 
 ## Functions
 

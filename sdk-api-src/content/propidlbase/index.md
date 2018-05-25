@@ -1,11 +1,11 @@
 ---
 UID: NA:propidlbase
 ms.assetid: 0bfbc614-51e7-3d64-9e9b-adcb839b500b
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: stg
 ---

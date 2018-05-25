@@ -1,11 +1,11 @@
 ---
 UID: TP:dshow
 ms.assetid: b1546a05-da85-3ec0-b7d1-f1e3c27d19c5
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -61,4 +61,4 @@ To develop DirectShow, you need these headers:
  * [wmcodecdsp.h](..\wmcodecdsp\index.md)
  * [wmp.h](..\wmp\index.md)
 
-For the programming guide, see [DirectShow](https://review.docs.microsoft.com/en-us/win32-test/dshow).
+For the programming guide, see [DirectShow](/windows/desktop/dshow).

@@ -1,11 +1,11 @@
 ---
 UID: NA:credentialprovider
 ms.assetid: 1f6ca061-4142-3d28-be73-cef171a3cdca
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: shell
 ---

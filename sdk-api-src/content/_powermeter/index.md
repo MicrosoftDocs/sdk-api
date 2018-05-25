@@ -1,11 +1,11 @@
 ---
 UID: TP:powermeter
 ms.assetid: 87d19931-d859-3aff-b7ce-1b0060d965a5
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -19,7 +19,7 @@ To develop Power Metering and Budgeting Reference, you need these headers:
 
  * [emi.h](..\emi\index.md)
 
-For the programming guide, see [Power Metering and Budgeting Reference](https://review.docs.microsoft.com/en-us/win32-test/powermeter).
+For the programming guide, see [Power Metering and Budgeting Reference](/windows/desktop/powermeter).
 
 ## Structures
 

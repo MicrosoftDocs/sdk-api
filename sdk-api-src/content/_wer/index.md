@@ -1,11 +1,11 @@
 ---
 UID: TP:wer
 ms.assetid: 4554db0d-bd2b-3460-bb7e-ee4cf72d0c19
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -20,7 +20,7 @@ To develop Windows Error Reporting, you need these headers:
  * [errorrep.h](..\errorrep\index.md)
  * [werapi.h](..\werapi\index.md)
 
-For the programming guide, see [Windows Error Reporting](https://review.docs.microsoft.com/en-us/win32-test/wer).
+For the programming guide, see [Windows Error Reporting](/windows/desktop/wer).
 
 ## Functions
 

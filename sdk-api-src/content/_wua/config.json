@@ -5,6 +5,5 @@
     "wuapicommon.h",
     "updateendpointauth.h",
     "wuerror.h"
-  ],
-  "displayName": "Windows Update Agent API"
+  ]
 }

@@ -1,11 +1,11 @@
 ---
 UID: NA:mswsock
 ms.assetid: 30a43468-acbe-3e87-acb1-8eb3b02b5c85
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: winsock
 ---

@@ -1,11 +1,11 @@
 ---
 UID: TP:rstmgr
 ms.assetid: 88c95c3a-2373-3cd7-9ebf-098346488dff
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -19,4 +19,4 @@ To develop Restart Manager, you need these headers:
 
  * [restartmanager.h](..\restartmanager\index.md)
 
-For the programming guide, see [Restart Manager](https://review.docs.microsoft.com/en-us/win32-test/rstmgr).
+For the programming guide, see [Restart Manager](/windows/desktop/rstmgr).

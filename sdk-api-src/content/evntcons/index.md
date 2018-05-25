@@ -1,11 +1,11 @@
 ---
 UID: NA:evntcons
 ms.assetid: 654abb07-d907-3332-97e6-64c67f560bbb
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: etw
 ---

@@ -1,11 +1,11 @@
 ---
 UID: TP:bits
 ms.assetid: ac07ff24-925f-3c58-8665-88c85795fdca
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -28,4 +28,4 @@ To develop Background Intelligent Transfer Service, you need these headers:
  * [bitscfg.h](..\bitscfg\index.md)
  * [qmgr.h](..\qmgr\index.md)
 
-For the programming guide, see [Background Intelligent Transfer Service](https://review.docs.microsoft.com/en-us/win32-test/bits).
+For the programming guide, see [Background Intelligent Transfer Service](/windows/desktop/bits).

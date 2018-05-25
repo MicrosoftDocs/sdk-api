@@ -1,21 +1,21 @@
 ---
 UID: TP:fs
 ms.assetid: a9f12332-38ed-3ca3-94de-b920c35101cd
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Removable Storage Manager
+# Data Access and Storage
 
 
 
-Overview of the Removable Storage Manager technology.
+Overview of the Data Access and Storage technology.
 
-To develop Removable Storage Manager, you need these headers:
+To develop Data Access and Storage, you need these headers:
 
  * [clfs.h](..\clfs\index.md)
  * [clfsmgmt.h](..\clfsmgmt\index.md)
@@ -37,4 +37,4 @@ To develop Removable Storage Manager, you need these headers:
  * [winefs.h](..\winefs\index.md)
  * [wofapi.h](..\wofapi\index.md)
 
-For the programming guide, see [Removable Storage Manager](https://review.docs.microsoft.com/en-us/win32-test/fs).
+For the programming guide, see [Data Access and Storage](/windows/desktop/fs).

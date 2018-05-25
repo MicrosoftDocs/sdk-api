@@ -1,11 +1,11 @@
 ---
 UID: NA:wcndevice
 ms.assetid: 3b93f6bf-39a2-3969-bbf3-2b507c72c799
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: wcn
 ---

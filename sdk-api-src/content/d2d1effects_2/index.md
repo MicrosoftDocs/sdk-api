@@ -1,11 +1,11 @@
 ---
 UID: NA:d2d1effects_2
 ms.assetid: 12da1084-1117-329b-8dbc-44bb9e574eac
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: direct2d
 ---

@@ -1,11 +1,11 @@
 ---
 UID: NA:processthreadsapi
 ms.assetid: 6e439d03-d612-3aad-a0fa-8a77449a3900
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: base
 ---

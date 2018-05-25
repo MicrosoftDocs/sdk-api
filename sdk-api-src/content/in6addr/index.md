@@ -1,11 +1,11 @@
 ---
 UID: NA:in6addr
 ms.assetid: 2884d416-3704-3d35-8cf6-82005d09ca55
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: netxp
 ---

@@ -1,11 +1,11 @@
 ---
 UID: NA:tapi3ds
 ms.assetid: 5994c4b2-a026-3192-a48c-739747588690
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: tapi3
 ---

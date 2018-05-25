@@ -1,11 +1,11 @@
 ---
 UID: TP:perf
 ms.assetid: 2fbaa3de-aa73-36f1-b7a5-138520680ff6
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -21,4 +21,4 @@ To develop Performance Counters, you need these headers:
  * [perflib.h](..\perflib\index.md)
  * [winperf.h](..\winperf\index.md)
 
-For the programming guide, see [Performance Counters](https://review.docs.microsoft.com/en-us/win32-test/perf).
+For the programming guide, see [Performance Counters](/windows/desktop/perf).

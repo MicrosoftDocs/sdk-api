@@ -1,20 +1,20 @@
 ---
 UID: TP:stream
 ms.assetid: 955ea1c2-d8bc-36d6-8195-eadc9d53b016
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Stream
+# Streaming media DDI reference
 
 
 
-Overview of the Stream technology.
+Overview of the Streaming media DDI reference technology.
 
-The Stream technology is not associated with any headers.
+The Streaming media DDI reference technology is not associated with any headers.
 
-
+For the programming guide, see [Streaming media DDI reference](/windows/desktop/stream).

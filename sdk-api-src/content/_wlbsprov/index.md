@@ -1,21 +1,21 @@
 ---
 UID: TP:wlbsprov
 ms.assetid: 77fa084b-5304-3c4b-99de-ed718f3f28e1
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Wlbsprov
+# Network Load Balancing Provider
 
 
 
-Overview of the Wlbsprov technology.
+Overview of the Network Load Balancing Provider technology.
 
-The Wlbsprov technology is not associated with any headers.
+The Network Load Balancing Provider technology is not associated with any headers.
 
-
+For the programming guide, see [Network Load Balancing Provider](/previous-versions/windows/desktop/wlbsprov).

@@ -1,11 +1,11 @@
 ---
 UID: TP:com
 ms.assetid: c245c790-cc58-3030-b206-20f7769711fc
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -50,7 +50,7 @@ To develop Component Object Model (COM), you need these headers:
  * [winerror.h](..\winerror\index.md)
  * [wtypesbase.h](..\wtypesbase\index.md)
 
-For the programming guide, see [Component Object Model (COM)](https://review.docs.microsoft.com/en-us/win32-test/com).
+For the programming guide, see [Component Object Model (COM)](/windows/desktop/com).
 
 ## Functions
 

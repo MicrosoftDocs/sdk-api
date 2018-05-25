@@ -1,11 +1,11 @@
 ---
 UID: TP:spellcheck
 ms.assetid: 76fca260-1821-33b9-82d4-94994e7a2c11
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,4 +20,4 @@ To develop Spell Checker API, you need these headers:
 
  * [spellcheck.h](..\spellcheck\index.md)
 
-For the programming guide, see [Spell Checker API](https://review.docs.microsoft.com/en-us/win32-test/spellcheck).
+For the programming guide, see [Spell Checker API](/previous-versions/windows/desktop/spellcheck).

@@ -8,6 +8,5 @@
     "xpsdigitalsignature.h",
     "documenttarget.h",
     "prntvpt.h"
-  ],
-  "displayName": "Documents and Printing"
+  ]
 }

@@ -1,11 +1,11 @@
 ---
 UID: NA:clfs
 ms.assetid: 5fa9f711-cd59-30b2-8149-d6c828c8f525
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: fs
 ---

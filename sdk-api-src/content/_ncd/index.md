@@ -1,21 +1,21 @@
 ---
 UID: TP:ncd
 ms.assetid: e1a7e0e3-7a4f-305f-9c8c-47beba62ae6d
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Function Discovery
+# Other Devices Technologies
 
 
 
-Overview of the Function Discovery technology.
+Overview of the Other Devices Technologies technology.
 
-To develop Function Discovery, you need these headers:
+To develop Other Devices Technologies, you need these headers:
 
  * [functiondiscoveryapi.h](..\functiondiscoveryapi\index.md)
  * [functiondiscoveryconstraints.h](..\functiondiscoveryconstraints\index.md)
@@ -31,4 +31,4 @@ To develop Function Discovery, you need these headers:
  * [wsdxml.h](..\wsdxml\index.md)
  * [wsdxmldom.h](..\wsdxmldom\index.md)
 
-For the programming guide, see [Function Discovery](https://review.docs.microsoft.com/en-us/win32-test/ncd).
+For the programming guide, see [Other Devices Technologies](/windows/desktop/ncd).

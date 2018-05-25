@@ -1,11 +1,11 @@
 ---
 UID: TP:dwm
 ms.assetid: ffe04284-f2a5-3f9e-9fca-a858703230a8
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -19,7 +19,7 @@ To develop Desktop Window Manager (DWM), you need these headers:
 
  * [dwmapi.h](..\dwmapi\index.md)
 
-For the programming guide, see [Desktop Window Manager (DWM)](https://review.docs.microsoft.com/en-us/win32-test/dwm).
+For the programming guide, see [Desktop Window Manager (DWM)](/windows/desktop/dwm).
 
 ## Functions
 

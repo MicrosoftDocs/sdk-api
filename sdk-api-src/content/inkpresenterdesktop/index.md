@@ -1,11 +1,11 @@
 ---
 UID: NA:inkpresenterdesktop
 ms.assetid: 45556f03-b45f-35f6-aed6-0c56c4bda63f
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: input_ink

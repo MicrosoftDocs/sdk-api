@@ -1,11 +1,11 @@
 ---
 UID: NA:dxgiformat
 ms.assetid: 3e1131ca-2ed2-3c3a-b1f2-3158a2fe22f7
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: direct3ddxgi
 ---

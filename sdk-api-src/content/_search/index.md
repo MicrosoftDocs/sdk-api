@@ -1,11 +1,11 @@
 ---
 UID: TP:search
 ms.assetid: b29ae40f-9b92-3070-8037-b6c4cfdc20bc
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -22,7 +22,7 @@ To develop Windows Search, you need these headers:
  * [structuredquerycondition.h](..\structuredquerycondition\index.md)
  * [subsmgr.h](..\subsmgr\index.md)
 
-For the programming guide, see [Windows Search](https://review.docs.microsoft.com/en-us/win32-test/search).
+For the programming guide, see [Windows Search](/windows/desktop/search).
 
 ## Structures
 
@@ -112,6 +112,8 @@ For the programming guide, see [Windows Search](https://review.docs.microsoft.co
 | [IEntity::NamedEntities](..\structuredquery\nf-structuredquery-ientity-namedentities.md) | Retrieves an enumeration of INamedEntity objects, one for each known named entity of this type. |
 | [IEntity::Relationships](..\structuredquery\nf-structuredquery-ientity-relationships.md) | Retrieves an enumeration of IRelationship objects, one for each relationship this entity has. |
 | [IInterval::GetLimits](..\structuredquery\nf-structuredquery-iinterval-getlimits.md) | Specifies the lower and upper limits of an interval, each of which may be infinite or a specific value. |
+| [ILoadFilter::LoadIFilterFromStorage](..\filtereg\nf-filtereg-iloadfilter-loadifilterfromstorage.md) | Do not use |
+| [ILoadFilter::LoadIFilterFromStream](..\filtereg\nf-filtereg-iloadfilter-loadifilterfromstream.md) | Do not use |
 | [ILoadFilter::LoadIFilter](..\filtereg\nf-filtereg-iloadfilter-loadifilter.md) | Retrieves and loads the most appropriate filter that is mapped to a Shell data source. |
 | [IMetaData::GetData](..\structuredquery\nf-structuredquery-imetadata-getdata.md) | Retrieves one key/value pair from the metadata of an IEntity, IRelationship, or ISchemaProvider object. |
 | [INamedEntity::DefaultPhrase](..\structuredquery\nf-structuredquery-inamedentity-defaultphrase.md) | Retrieves a default phrase to use for this named entity in restatements. |

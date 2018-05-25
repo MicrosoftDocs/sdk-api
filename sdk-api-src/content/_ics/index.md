@@ -1,11 +1,11 @@
 ---
 UID: TP:ics
 ms.assetid: 9d94480c-7b4f-37ab-b155-d62cf72d1a3e
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -24,4 +24,4 @@ To develop Windows Firewall Technologies, you need these headers:
  * [netfw.h](..\netfw\index.md)
  * [networkisolation.h](..\networkisolation\index.md)
 
-For the programming guide, see [Windows Firewall Technologies](https://review.docs.microsoft.com/en-us/win32-test/ics).
+For the programming guide, see [Windows Firewall Technologies](/previous-versions/windows/desktop/ics).

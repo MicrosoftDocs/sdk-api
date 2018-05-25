@@ -1,11 +1,11 @@
 ---
 UID: TP:bltooth
 ms.assetid: a24d2124-fb4a-3c14-aeb8-83c46e9ed71c
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -20,7 +20,7 @@ To develop Bluetooth Devices Reference, you need these headers:
  * [bluetoothleapis.h](..\bluetoothleapis\index.md)
  * [bthledef.h](..\bthledef\index.md)
 
-For the programming guide, see [Bluetooth Devices Reference](https://review.docs.microsoft.com/en-us/win32-test/bltooth).
+For the programming guide, see [Bluetooth Devices Reference](/windows/desktop/bltooth).
 
 ## Functions
 

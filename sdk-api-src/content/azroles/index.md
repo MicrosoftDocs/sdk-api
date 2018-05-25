@@ -1,11 +1,11 @@
 ---
 UID: NA:azroles
 ms.assetid: b0d03ad2-0c6d-3dd5-a767-8f008a9fc4c0
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: security
 ---

@@ -1,11 +1,11 @@
 ---
 UID: TP:numerics_h
 ms.assetid: b9cac013-64b0-3818-a2bc-91f1189620ce
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -18,4 +18,4 @@ Overview of the windowsnumerics.h APIs technology.
 
 The windowsnumerics.h APIs technology is not associated with any headers.
 
-For the programming guide, see [windowsnumerics.h APIs](https://review.docs.microsoft.com/en-us/win32-test/numerics_h).
+For the programming guide, see [windowsnumerics.h APIs](/previous-versions/windows/desktop/numerics_h).

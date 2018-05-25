@@ -1,11 +1,11 @@
 ---
 UID: NA:mileffects
 ms.assetid: 3373afd5-dd48-30e0-bb2b-7f6588fc84a0
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: wibe

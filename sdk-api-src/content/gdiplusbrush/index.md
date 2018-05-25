@@ -1,11 +1,11 @@
 ---
 UID: NA:gdiplusbrush
 ms.assetid: 85a30302-2823-3e0d-bb57-a705e73c91f9
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: gdiplus
 ---

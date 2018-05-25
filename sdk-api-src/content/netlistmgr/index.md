@@ -1,11 +1,11 @@
 ---
 UID: NA:netlistmgr
 ms.assetid: dd5832e2-5045-3c5b-b1bd-e6c951807f12
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: nla
 ---

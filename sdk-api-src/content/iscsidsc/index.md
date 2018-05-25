@@ -1,11 +1,11 @@
 ---
 UID: NA:iscsidsc
 ms.assetid: c77aee9e-3ee8-3193-90f7-0c5ab184af06
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: iscsidisc

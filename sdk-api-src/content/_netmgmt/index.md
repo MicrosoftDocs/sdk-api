@@ -1,11 +1,11 @@
 ---
 UID: TP:netmgmt
 ms.assetid: 8945323d-7076-32b1-b620-104bd20964b6
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -28,4 +28,4 @@ To develop Network Management, you need these headers:
  * [lmuse.h](..\lmuse\index.md)
  * [lmwksta.h](..\lmwksta\index.md)
 
-For the programming guide, see [Network Management](https://review.docs.microsoft.com/en-us/win32-test/netmgmt).
+For the programming guide, see [Network Management](/windows/desktop/netmgmt).

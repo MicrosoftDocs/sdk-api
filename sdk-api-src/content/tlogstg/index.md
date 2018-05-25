@@ -1,11 +1,11 @@
 ---
 UID: NA:tlogstg
 ms.assetid: e644ecc0-1533-319e-84f8-1a82883a3b4c
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: shell
 ---

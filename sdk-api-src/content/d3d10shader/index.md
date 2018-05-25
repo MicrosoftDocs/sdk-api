@@ -1,11 +1,11 @@
 ---
 UID: NA:d3d10shader
 ms.assetid: eea57fb4-925c-3f6e-a61c-1512fed0a24c
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: direct3d10
 ---

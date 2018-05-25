@@ -1,11 +1,11 @@
 ---
 UID: NA:frquery
 ms.assetid: efc8e2e5-4289-3407-8f98-aceb8c1222f6
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: wmi
 ---

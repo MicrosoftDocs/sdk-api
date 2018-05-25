@@ -1,11 +1,11 @@
 ---
 UID: TP:wmlss
 ms.assetid: a7b62606-c322-3523-8185-eeea8cb1088a
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,4 +20,4 @@ To develop Windows Media Library Sharing Services, you need these headers:
 
  * [wmlss.h](..\wmlss\index.md)
 
-For the programming guide, see [Windows Media Library Sharing Services](https://review.docs.microsoft.com/en-us/win32-test/wmlss).
+For the programming guide, see [Windows Media Library Sharing Services](/previous-versions/windows/desktop/wmlss).

@@ -1,11 +1,11 @@
 ---
 UID: TP:ifsk
 ms.assetid: c842e40c-3483-3721-b6bf-4da6e333af1a
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -19,7 +19,7 @@ To develop Installable file systems DDI reference, you need these headers:
 
  * [fltuser.h](..\fltuser\index.md)
 
-For the programming guide, see [Installable file systems DDI reference](https://review.docs.microsoft.com/en-us/win32-test/ifsk).
+For the programming guide, see [Installable file systems DDI reference](/windows/desktop/ifsk).
 
 ## Functions
 

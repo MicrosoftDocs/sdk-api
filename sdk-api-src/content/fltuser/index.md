@@ -1,11 +1,11 @@
 ---
 UID: NA:fltuser
 ms.assetid: 9960ef10-d342-395e-87c4-6b13f82ae703
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: ifsk
 ---

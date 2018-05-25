@@ -1,11 +1,11 @@
 ---
 UID: TP:opc
 ms.assetid: f693a256-d19b-3c60-b920-c480cd007730
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,4 +20,4 @@ To develop Packaging, you need these headers:
 
  * [msopc.h](..\msopc\index.md)
 
-For the programming guide, see [Packaging](https://review.docs.microsoft.com/en-us/win32-test/opc).
+For the programming guide, see [Packaging](/previous-versions/windows/desktop/opc).

@@ -1,11 +1,11 @@
 ---
 UID: TP:edp
 ms.assetid: 13bd1e1d-a2d1-3fd8-be4b-3200f4a9456f
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -22,4 +22,4 @@ To develop Windows Information Protection (WIP), you need these headers:
  * [efswrtinterop.h](..\efswrtinterop\index.md)
  * [srpapi.h](..\srpapi\index.md)
 
-For the programming guide, see [Windows Information Protection (WIP)](https://review.docs.microsoft.com/en-us/win32-test/edp).
+For the programming guide, see [Windows Information Protection (WIP)](/previous-versions/windows/desktop/edp).

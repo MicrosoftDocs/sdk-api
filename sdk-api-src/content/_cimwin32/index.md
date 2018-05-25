@@ -1,20 +1,20 @@
 ---
 UID: TP:cimwin32
 ms.assetid: 92dbe873-a150-3410-9a24-d0fb9f4bda00
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
-# Cimwin32
+# CIMWin32 WMI Providers
 
 
 
-Overview of the Cimwin32 technology.
+Overview of the CIMWin32 WMI Providers technology.
 
-The Cimwin32 technology is not associated with any headers.
+The CIMWin32 WMI Providers technology is not associated with any headers.
 
-
+For the programming guide, see [CIMWin32 WMI Providers](/windows/desktop/cimwin32).

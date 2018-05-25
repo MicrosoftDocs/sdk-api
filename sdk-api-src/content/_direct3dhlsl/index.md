@@ -1,11 +1,11 @@
 ---
 UID: TP:direct3dhlsl
 ms.assetid: 351c8dd2-97c5-39de-8ade-c55ddf3acc2c
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -19,7 +19,7 @@ To develop HLSL, you need these headers:
 
  * [d3dcompiler.h](..\d3dcompiler\index.md)
 
-For the programming guide, see [HLSL](https://review.docs.microsoft.com/en-us/win32-test/direct3dhlsl).
+For the programming guide, see [HLSL](/windows/desktop/direct3dhlsl).
 
 ## Functions
 

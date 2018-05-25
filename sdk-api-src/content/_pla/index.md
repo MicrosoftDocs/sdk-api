@@ -1,11 +1,11 @@
 ---
 UID: TP:pla
 ms.assetid: 99eb3402-4930-35cb-8472-646e4361517a
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
@@ -20,4 +20,4 @@ To develop Performance Logs and Alerts, you need these headers:
 
  * [pla.h](..\pla\index.md)
 
-For the programming guide, see [Performance Logs and Alerts](https://review.docs.microsoft.com/en-us/win32-test/pla).
+For the programming guide, see [Performance Logs and Alerts](/previous-versions/windows/desktop/pla).

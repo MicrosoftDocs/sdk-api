@@ -1,11 +1,11 @@
 ---
 UID: TP:direct3ddxgi
 ms.assetid: 13788405-72f0-3653-b458-78589ede8b8a
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -28,7 +28,7 @@ To develop DXGI, you need these headers:
  * [dxgiformat.h](..\dxgiformat\index.md)
  * [dxgitype.h](..\dxgitype\index.md)
 
-For the programming guide, see [DXGI](https://review.docs.microsoft.com/en-us/win32-test/direct3ddxgi).
+For the programming guide, see [DXGI](/windows/desktop/direct3ddxgi).
 
 ## Functions
 

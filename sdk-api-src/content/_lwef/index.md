@@ -1,11 +1,11 @@
 ---
 UID: TP:lwef
 ms.assetid: 384117d0-d2cd-3434-b330-5f546ef90ab4
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -26,7 +26,7 @@ To develop Legacy Windows Environment Features, you need these headers:
  * [windowsdefender.h](..\windowsdefender\index.md)
  * [wmiutils.h](..\wmiutils\index.md)
 
-For the programming guide, see [Legacy Windows Environment Features](https://review.docs.microsoft.com/en-us/win32-test/lwef).
+For the programming guide, see [Legacy Windows Environment Features](/windows/desktop/lwef).
 
 ## Functions
 

@@ -1,11 +1,11 @@
 ---
 UID: NA:dxgi1_5
 ms.assetid: 73aabbbc-b761-3cc5-b155-c286436467a6
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: direct3ddxgi
 ---

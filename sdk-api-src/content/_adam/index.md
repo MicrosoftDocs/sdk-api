@@ -1,21 +1,21 @@
 ---
 UID: TP:adam
 ms.assetid: a933ffd9-2c89-3567-95fb-78b360ffa035
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 ---
 
-# Adam
+# Active Directory Lightweight Directory Services
 
 
 
-Overview of the Adam technology.
+Overview of the Active Directory Lightweight Directory Services technology.
 
-The Adam technology is not associated with any headers.
+The Active Directory Lightweight Directory Services technology is not associated with any headers.
 
-
+For the programming guide, see [Active Directory Lightweight Directory Services](/previous-versions/windows/desktop/adam).

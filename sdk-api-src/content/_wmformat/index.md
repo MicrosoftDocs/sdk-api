@@ -1,11 +1,11 @@
 ---
 UID: TP:wmformat
 ms.assetid: d9cec177-31f2-3ccd-a314-e6d46703ed09
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -25,7 +25,7 @@ To develop Windows Media Format 11 SDK, you need these headers:
  * [wmsecure.h](..\wmsecure\index.md)
  * [wmsinternaladminnetsource.h](..\wmsinternaladminnetsource\index.md)
 
-For the programming guide, see [Windows Media Format 11 SDK](https://review.docs.microsoft.com/en-us/win32-test/wmformat).
+For the programming guide, see [Windows Media Format 11 SDK](/windows/desktop/wmformat).
 
 ## Functions
 

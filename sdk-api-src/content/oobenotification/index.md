@@ -1,11 +1,11 @@
 ---
 UID: NA:oobenotification
 ms.assetid: 5df6a064-6774-3461-b13f-84a962e61fbc
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 archived: true
 tech.root: windowssetupandmigration

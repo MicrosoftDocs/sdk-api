@@ -1,11 +1,11 @@
 ---
 UID: NA:mpegtype
 ms.assetid: e46d4e17-2fd9-3ec8-9150-a81e267df193
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 tech.root: dshow
 ---

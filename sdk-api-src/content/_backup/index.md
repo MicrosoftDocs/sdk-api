@@ -1,11 +1,11 @@
 ---
 UID: TP:backup
 ms.assetid: fba69533-b827-3423-a307-5b3ac1132271
-ms.author: windowsdriverdev
-ms.date: 05/21/18
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: portal
 ---
 
@@ -20,4 +20,4 @@ To develop Backup, you need these headers:
  * [winbase.h](..\winbase\index.md)
  * [winnt.h](..\winnt\index.md)
 
-For the programming guide, see [Backup](https://review.docs.microsoft.com/en-us/win32-test/backup).
+For the programming guide, see [Backup](/windows/desktop/backup).
